@@ -1,89 +1,89 @@
 // app/modules/activities/utils/isListeningOnSpotify.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ActivityTypes;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.PlatformTypes;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.isSpotifyParty;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/isListeningOnSpotify.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: isListeningOnSpotify
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ActivityTypes;
+    var _closure1_slot2 = var7;
+    var4 = var4.PlatformTypes;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isSpotifyParty;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/isListeningOnSpotify.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isListeningOnSpotify(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = null;
-            entity = tangon != michal;
-            if(!entity) { _fun00002_ip = 34; continue _fun00001 }
+            var2 = arg1;
+            var4 = null;
+            var1 = var4 != var2;
+            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
  12:
-            report = michal.type;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.LISTENING;
-            entity = report === zuuluu;
+            var5 = var2.type;
+            var3 = _closure1_slot2;
+            var3 = var3.LISTENING;
+            var1 = var5 === var3;
  34:
-            if(!entity) { _fun00002_ip = 96; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 96; continue _fun0001 }
  37:
-            report = michal.name;
-            option = _closure1_slot0;
-            golfie = _closure1_slot1;
-            oscard = 2;
-            golfie = golfie[oscard];
-            oscard = undefined;
-            golfie = option.bind(oscard)(golfie);
-            oscard = golfie.get;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.SPOTIFY;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.name;
-            entity = report === zuuluu;
+            var5 = var2.name;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var6 = 2;
+            var7 = var7[var6];
+            var6 = undefined;
+            var7 = var8.bind(var6)(var7);
+            var6 = var7.get;
+            var3 = _closure1_slot3;
+            var3 = var3.SPOTIFY;
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.name;
+            var1 = var5 === var3;
  96:
-            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
  99:
-            zuuluu = michal.party;
-            entity = tangon != zuuluu;
+            var3 = var2.party;
+            var1 = var4 != var3;
  109:
-            if(!entity) { _fun00002_ip = 127; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 127; continue _fun0001 }
  112:
-            zuuluu = michal.party;
-            zuuluu = zuuluu.id;
-            entity = tangon != zuuluu;
+            var3 = var2.party;
+            var3 = var3.id;
+            var1 = var4 != var3;
  127:
-            if(!entity) { _fun00002_ip = 155; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 155; continue _fun0001 }
  130:
-            tangon = _closure1_slot4;
-            michal = michal.party;
-            zuuluu = michal.id;
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot4;
+            var2 = var2.party;
+            var3 = var2.id;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  155:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

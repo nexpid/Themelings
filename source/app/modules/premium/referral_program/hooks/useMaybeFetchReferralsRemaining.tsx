@@ -1,168 +1,168 @@
 // app/modules/premium/referral_program/hooks/useMaybeFetchReferralsRemaining.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.PremiumTypes;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.FractionalPremiumStates;
-    var _closure1_slot7 = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/referral_program/hooks/useMaybeFetchReferralsRemaining.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PremiumTypes;
+    var _closure1_slot6 = var7;
+    var4 = var4.FractionalPremiumStates;
+    var _closure1_slot7 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/referral_program/hooks/useMaybeFetchReferralsRemaining.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = arguments[1];
-            entity = undefined;
-            if(!(oscard === entity)) { _fun00002_ip = 13; continue _fun00001 }
+            var6 = arguments[1];
+            var1 = undefined;
+            if(!(var6 === var1)) { _fun0001_ip = 13; continue _fun0001 }
  11:
-            oscard = false;
+            var6 = false;
  13:
-            var _closure2_slot0 = oscard;
-            var _closure2_slot1 = entity;
-            option = _closure1_slot0;
-            offset = _closure1_slot2;
-            tangon = 4;
-            tangon = offset[tangon];
-            verify = option.bind(entity)(tangon);
-            golfie = verify.useStateFromStores;
-            tangon = _closure1_slot4;
-            report = new Array(1);
-            report[0] = tangon;
-            tangon = function() {
-                michal = _closure1_slot4;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var1;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var4 = 4;
+            var4 = var10[var4];
+            var9 = var8.bind(var1)(var4);
+            var7 = var9.useStateFromStores;
+            var4 = _closure1_slot4;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            romeon = golfie.bind(verify)(report, tangon);
-            tangon = 5;
-            tangon = offset[tangon];
-            report = option.bind(entity)(tangon);
-            tangon = report.useHasDiscountApplied;
-            report = tangon.bind(report)();
-            tangon = 6;
-            tangon = offset[tangon];
-            golfie = option.bind(entity)(tangon);
-            tangon = golfie.useHasActiveTrial;
-            tangon = tangon.bind(golfie)();
-            golfie = 7;
-            golfie = offset[golfie];
-            verify = option.bind(entity)(golfie);
-            option = verify.useIsEligibleSenderForReferralProgramExperiment;
-            golfie = argFoo;
-            golfie = option.bind(verify)(golfie);
-            golfie = golfie.eligibleToFetch;
-            verify = _closure1_slot1;
-            option = 8;
-            option = offset[option];
-            option = verify.bind(entity)(option);
-            option = option.bind(entity)();
-            if(!golfie) { _fun00002_ip = 196; continue _fun00001 }
+            var12 = var7.bind(var9)(var5, var4);
+            var4 = 5;
+            var4 = var10[var4];
+            var5 = var8.bind(var1)(var4);
+            var4 = var5.useHasDiscountApplied;
+            var5 = var4.bind(var5)();
+            var4 = 6;
+            var4 = var10[var4];
+            var7 = var8.bind(var1)(var4);
+            var4 = var7.useHasActiveTrial;
+            var4 = var4.bind(var7)();
+            var7 = 7;
+            var7 = var10[var7];
+            var9 = var8.bind(var1)(var7);
+            var8 = var9.useIsEligibleSenderForReferralProgramExperiment;
+            var7 = arg1;
+            var7 = var8.bind(var9)(var7);
+            var7 = var7.eligibleToFetch;
+            var9 = _closure1_slot1;
+            var8 = 8;
+            var8 = var10[var8];
+            var8 = var9.bind(var1)(var8);
+            var8 = var8.bind(var1)();
+            if(!var7) { _fun0001_ip = 196; continue _fun0001 }
  173:
-            verify = null;
-            verify = verify == romeon;
-            offset = undefined;
-            if(verify) { _fun00002_ip = 190; continue _fun00001 }
+            var9 = null;
+            var9 = var9 == var12;
+            var10 = undefined;
+            if(var9) { _fun0001_ip = 190; continue _fun0001 }
  184:
-            offset = romeon.verified;
+            var10 = var12.verified;
  190:
-            verify = true;
-            golfie = verify === offset;
+            var9 = true;
+            var7 = var9 === var10;
  196:
-            if(!golfie) { _fun00002_ip = 241; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 241; continue _fun0001 }
  199:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            verify = 9;
-            verify = yankee[verify];
-            yankee = offset.bind(entity)(verify);
-            offset = yankee.isPremiumExactly;
-            verify = _closure1_slot6;
-            verify = verify.TIER_2;
-            golfie = offset.bind(yankee)(romeon, verify);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 9;
+            var9 = var11[var9];
+            var11 = var10.bind(var1)(var9);
+            var10 = var11.isPremiumExactly;
+            var9 = _closure1_slot6;
+            var9 = var9.TIER_2;
+            var7 = var10.bind(var11)(var12, var9);
  241:
-            if(!golfie) { _fun00002_ip = 250; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 250; continue _fun0001 }
  244:
-            golfie = option.fetched;
+            var7 = var8.fetched;
  250:
-            if(!golfie) { _fun00002_ip = 273; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 273; continue _fun0001 }
  253:
-            verify = option.fractionalState;
-            option = _closure1_slot7;
-            option = option.FP_ONLY;
-            golfie = verify !== option;
+            var9 = var8.fractionalState;
+            var8 = _closure1_slot7;
+            var8 = var8.FP_ONLY;
+            var7 = var9 !== var8;
  273:
-            if(!golfie) { _fun00002_ip = 279; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 279; continue _fun0001 }
  276:
-            golfie = !report;
+            var7 = !var5;
  279:
-            if(!golfie) { _fun00002_ip = 285; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 285; continue _fun0001 }
  282:
-            golfie = !tangon;
+            var7 = !var4;
  285:
-            _closure2_slot1 = golfie;
-            report = _closure1_slot3;
-            tangon = report.useEffect;
-            zuuluu = new Array(2);
-            zuuluu[0] = golfie;
-            zuuluu[1] = oscard;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _closure2_slot1 = var7;
+            var5 = _closure1_slot3;
+            var4 = var5.useEffect;
+            var3 = new Array(2);
+            var3[0] = var7;
+            var3[1] = var6;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure2_slot1;
-                    if(!entity) { _fun00004_ip = 17; continue _fun00003 }
+                    var1 = _closure2_slot1;
+                    if(!var1) { _fun0002_ip = 17; continue _fun0002 }
  10:
-                    michal = _closure2_slot0;
-                    entity = !michal;
+                    var2 = _closure2_slot0;
+                    var1 = !var2;
  17:
-                    if(!entity) { _fun00004_ip = 37; continue _fun00003 }
+                    if(!var1) { _fun0002_ip = 37; continue _fun0002 }
  20:
-                    michal = _closure1_slot5;
-                    entity = michal.checkAndFetchReferralsRemaining;
-                    entity = entity.bind(michal)();
+                    var2 = _closure1_slot5;
+                    var1 = var2.checkAndFetchReferralsRemaining;
+                    var1 = var1.bind(var2)();
  37:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['useMaybeFetchReferralsRemaining'] = michal;
-    return entity;
+    var3['useMaybeFetchReferralsRemaining'] = var2;
+    return var1;
 })();

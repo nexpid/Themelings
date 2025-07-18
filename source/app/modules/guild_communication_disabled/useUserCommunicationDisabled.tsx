@@ -1,167 +1,167 @@
 // app/modules/guild_communication_disabled/useUserCommunicationDisabled.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = function(argFoo, argBar, argBaz) { // Original name: getUserGuildMember
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = function getUserGuildMember(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            zuuluu = argBaz;
-            oscard = null;
-            michal = oscard != tangon;
-            entity = null;
-            if(!michal) { _fun00002_ip = 41; continue _fun00001 }
+            var5 = arg1;
+            var4 = arg2;
+            var3 = arg3;
+            var6 = null;
+            var2 = var6 != var4;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 41; continue _fun0001 }
  20:
-            michal = oscard != report;
-            entity = null;
-            if(!michal) { _fun00002_ip = 41; continue _fun00001 }
+            var2 = var6 != var5;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 41; continue _fun0001 }
  29:
-            michal = zuuluu.getMember;
-            entity = michal.bind(zuuluu)(tangon, report);
+            var2 = var3.getMember;
+            var1 = var2.bind(var3)(var4, var5);
  41:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = function(argFoo) { // Original name: isCommunicationDisabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = function isCommunicationDisabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            michal = null;
-            zuuluu = michal == tangon;
-            report = undefined;
-            entity = undefined;
-            if(zuuluu) { _fun00004_ip = 22; continue _fun00003 }
+            var4 = arg1;
+            var2 = null;
+            var3 = var2 == var4;
+            var5 = undefined;
+            var1 = undefined;
+            if(var3) { _fun0002_ip = 22; continue _fun0002 }
  16:
-            entity = tangon.communicationDisabledUntil;
+            var1 = var4.communicationDisabledUntil;
  22:
-            zuuluu = michal != entity;
-            michal = null;
-            if(!zuuluu) { _fun00004_ip = 34; continue _fun00003 }
+            var3 = var2 != var1;
+            var2 = null;
+            if(!var3) { _fun0002_ip = 34; continue _fun0002 }
  31:
-            michal = entity;
+            var2 = var1;
  34:
-            entity = new Array(2);
-            entity[0] = michal;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 3;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.isMemberCommunicationDisabled;
-            michal = michal.bind(zuuluu)(tangon);
-            entity[1] = michal;
-            return entity;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 3;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.isMemberCommunicationDisabled;
+            var2 = var2.bind(var3)(var4);
+            var1[1] = var2;
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    tangon = function(argFoo, argBar) { // Original name: useUserCommunicationDisabled
-        option = argFoo;
-        verify = argBar;
-        var _closure2_slot0 = option;
-        var _closure2_slot1 = verify;
-        zuuluu = _closure1_slot5;
-        oscard = _closure1_slot0;
-        report = _closure1_slot1;
-        michal = 2;
-        report = report[michal];
-        michal = undefined;
-        golfie = oscard.bind(michal)(report);
-        oscard = golfie.useStateFromStores;
-        tangon = _closure1_slot2;
-        report = new Array(1);
-        report[0] = tangon;
-        tangon = new Array(2);
-        tangon[0] = verify;
-        tangon[1] = option;
-        entity = function() {
-            report = _closure1_slot4;
-            tangon = _closure2_slot0;
-            zuuluu = _closure2_slot1;
-            michal = _closure1_slot2;
-            entity = undefined;
-            entity = report.bind(entity)(tangon, zuuluu, michal);
-            return entity;
+    var _closure1_slot5 = var1;
+    var4 = function useUserCommunicationDisabled(arg1, arg2) {
+        var8 = arg1;
+        var9 = arg2;
+        var _closure2_slot0 = var8;
+        var _closure2_slot1 = var9;
+        var3 = _closure1_slot5;
+        var6 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var2 = 2;
+        var5 = var5[var2];
+        var2 = undefined;
+        var7 = var6.bind(var2)(var5);
+        var6 = var7.useStateFromStores;
+        var4 = _closure1_slot2;
+        var5 = new Array(1);
+        var5[0] = var4;
+        var4 = new Array(2);
+        var4[0] = var9;
+        var4[1] = var8;
+        var1 = function() {
+            var5 = _closure1_slot4;
+            var4 = _closure2_slot0;
+            var3 = _closure2_slot1;
+            var2 = _closure1_slot2;
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4, var3, var2);
+            return var1;
         };
-        entity = oscard.bind(golfie)(report, entity, tangon);
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+        var1 = var6.bind(var7)(var5, var1, var4);
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_communication_disabled/useUserCommunicationDisabled.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo) { // Original name: useCurrentUserCommunicationDisabled
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_communication_disabled/useUserCommunicationDisabled.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var4 = function useCurrentUserCommunicationDisabled(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 2;
-            entity = tangon[entity];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(entity);
-            report = oscard.useStateFromStores;
-            entity = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var1);
+            var5 = var6.useStateFromStores;
+            var1 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            entity = report.bind(oscard)(zuuluu, entity);
-            zuuluu = _closure1_slot6;
-            michal = null;
-            report = michal == entity;
-            michal = undefined;
-            if(report) { _fun00006_ip = 75; continue _fun00005 }
+            var1 = var5.bind(var6)(var3, var1);
+            var3 = _closure1_slot6;
+            var2 = null;
+            var5 = var2 == var1;
+            var2 = undefined;
+            if(var5) { _fun0003_ip = 75; continue _fun0003 }
  70:
-            michal = entity.id;
+            var2 = var1.id;
  75:
-            entity = argFoo;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['useCurrentUserCommunicationDisabled'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: userCommunicationDisabled
-        zuuluu = _closure1_slot5;
-        oscard = _closure1_slot4;
-        report = _closure1_slot2;
-        michal = undefined;
-        tangon = argFoo;
-        entity = argBar;
-        entity = oscard.bind(michal)(tangon, entity, report);
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['useCurrentUserCommunicationDisabled'] = var4;
+    var2 = function userCommunicationDisabled(arg1, arg2) {
+        var3 = _closure1_slot5;
+        var6 = _closure1_slot4;
+        var5 = _closure1_slot2;
+        var2 = undefined;
+        var4 = arg1;
+        var1 = arg2;
+        var1 = var6.bind(var2)(var4, var1, var5);
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['userCommunicationDisabled'] = michal;
-    return entity;
+    var3['userCommunicationDisabled'] = var2;
+    return var1;
 })();

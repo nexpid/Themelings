@@ -1,126 +1,126 @@
 // app/modules/guild_role_subscriptions/native/components/LayoutUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot3 = golfie;
-    golfie = tangon.Fragment;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/native/components/LayoutUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: GappedList
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot3 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/native/components/LayoutUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function GappedList(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.children;
-            michal = entity.gap;
-            tangon = undefined;
-            if(!(michal === tangon)) { _fun00002_ip = 25; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.children;
+            var2 = var1.gap;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0001_ip = 25; continue _fun0001 }
  22:
-            michal = 4;
+            var2 = 4;
  25:
-            var _closure2_slot0 = michal;
-            entity = entity.renderGap;
-            var _closure2_slot1 = entity;
-            var _closure2_slot2 = tangon;
-            oscard = _closure1_slot2;
-            zuuluu = oscard.Children;
-            michal = zuuluu.toArray;
-            golfie = michal.bind(zuuluu)(golfie);
-            zuuluu = golfie.filter;
-            michal = function(argFoo) {
-                michal = null;
-                entity = argFoo;
-                entity = michal != entity;
-                return entity;
+            var _closure2_slot0 = var2;
+            var1 = var1.renderGap;
+            var _closure2_slot1 = var1;
+            var _closure2_slot2 = var4;
+            var6 = _closure1_slot2;
+            var3 = var6.Children;
+            var2 = var3.toArray;
+            var7 = var2.bind(var3)(var7);
+            var3 = var7.filter;
+            var2 = function(arg1) {
+                var2 = null;
+                var1 = arg1;
+                var1 = var2 != var1;
+                return var1;
             };
-            option = zuuluu.bind(golfie)(michal);
-            _closure2_slot2 = option;
-            zuuluu = _closure1_slot3;
-            michal = _closure1_slot4;
-            entity = {};
-            golfie = oscard.Children;
-            oscard = golfie.map;
-            report = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = var3.bind(var7)(var2);
+            _closure2_slot2 = var8;
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var7 = var6.Children;
+            var6 = var7.map;
+            var5 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot5;
-                    zuuluu = _closure1_slot4;
-                    michal = {};
-                    entity = new Array(2);
-                    report = argFoo;
-                    entity[0] = report;
-                    report = _closure2_slot2;
-                    option = report.length;
-                    report = 1;
-                    option = option - report;
-                    report = argBar;
-                    report = report !== option;
-                    if(!report) { _fun00004_ip = 120; continue _fun00003 }
+                    var4 = _closure1_slot5;
+                    var3 = _closure1_slot4;
+                    var2 = {};
+                    var1 = new Array(2);
+                    var5 = arg1;
+                    var1[0] = var5;
+                    var5 = _closure2_slot2;
+                    var8 = var5.length;
+                    var5 = 1;
+                    var8 = var8 - var5;
+                    var5 = arg2;
+                    var5 = var5 !== var8;
+                    if(!var5) { _fun0002_ip = 120; continue _fun0002 }
  53:
-                    verify = _closure2_slot1;
-                    option = null;
-                    if(!(option == verify)) { _fun00004_ip = 107; continue _fun00003 }
+                    var9 = _closure2_slot1;
+                    var8 = null;
+                    if(!(var8 == var9)) { _fun0002_ip = 107; continue _fun0002 }
  63:
-                    offset = _closure1_slot3;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    oscard = 2;
-                    oscard = verify[oscard];
-                    verify = undefined;
-                    option = option.bind(verify)(oscard);
-                    oscard = {};
-                    yankee = _closure2_slot0;
-                    oscard['size'] = yankee;
-                    oscard = offset.bind(verify)(option, oscard);
-                    _fun00004_ip = 117; continue _fun00003;
+                    var10 = _closure1_slot3;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var6 = 2;
+                    var6 = var9[var6];
+                    var9 = undefined;
+                    var8 = var8.bind(var9)(var6);
+                    var6 = {};
+                    var11 = _closure2_slot0;
+                    var6['size'] = var11;
+                    var6 = var10.bind(var9)(var8, var6);
+                    _fun0002_ip = 117; continue _fun0002;
  107:
-                    option = _closure2_slot1;
-                    golfie = undefined;
-                    oscard = option.bind(golfie)();
+                    var8 = _closure2_slot1;
+                    var7 = undefined;
+                    var6 = var8.bind(var7)();
  117:
-                    report = oscard;
+                    var5 = var6;
  120:
-                    entity[1] = report;
-                    michal['children'] = entity;
-                    entity = undefined;
-                    entity = tangon.bind(entity)(zuuluu, michal);
-                    return entity;
+                    var1[1] = var5;
+                    var2['children'] = var1;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3, var2);
+                    return var1;
                 }
             };
-            report = oscard.bind(golfie)(option, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = var6.bind(var7)(var8, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['GappedList'] = michal;
-    return entity;
+    var3['GappedList'] = var2;
+    return var1;
 })();

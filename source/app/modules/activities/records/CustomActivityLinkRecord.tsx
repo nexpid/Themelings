@@ -1,158 +1,158 @@
 // app/modules/activities/records/CustomActivityLinkRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function(argFoo) { // Original name: CustomActivityLinkRecord
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function CustomActivityLinkRecord(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                zuuluu = this;
-                oscard = _closure1_slot2;
-                report = _closure2_slot0;
-                entity = undefined;
-                report = oscard.bind(entity)(zuuluu, report);
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
-                tangon = 2;
-                tangon = oscard[tangon];
-                oscard = report.bind(entity)(tangon);
-                report = oscard.decodeCustomActivityLink;
-                tangon = michal.link_id;
-                oscard = report.bind(oscard)(tangon);
-                tangon = null;
-                golfie = tangon == oscard;
-                report = undefined;
-                if(golfie) { _fun00002_ip = 81; continue _fun00001 }
+                var2 = arg1;
+                var3 = this;
+                var6 = _closure1_slot2;
+                var5 = _closure2_slot0;
+                var1 = undefined;
+                var5 = var6.bind(var1)(var3, var5);
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var4 = 2;
+                var4 = var6[var4];
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.decodeCustomActivityLink;
+                var4 = var2.link_id;
+                var6 = var5.bind(var6)(var4);
+                var4 = null;
+                var7 = var4 == var6;
+                var5 = undefined;
+                if(var7) { _fun0001_ip = 81; continue _fun0001 }
  76:
-                report = oscard.type;
+                var5 = var6.type;
  81:
-                oscard = tangon != report;
-                tangon = null;
-                if(!oscard) { _fun00002_ip = 93; continue _fun00001 }
+                var6 = var4 != var5;
+                var4 = null;
+                if(!var6) { _fun0001_ip = 93; continue _fun0001 }
  90:
-                tangon = report;
+                var4 = var5;
  93:
-                zuuluu['type'] = tangon;
-                tangon = michal.application_id;
-                zuuluu['applicationId'] = tangon;
-                tangon = michal.link_id;
-                zuuluu['linkId'] = tangon;
-                tangon = 'asset_id';
-                report = tangon in michal;
-                tangon = undefined;
-                if(!report) { _fun00002_ip = 142; continue _fun00001 }
+                var3['type'] = var4;
+                var4 = var2.application_id;
+                var3['applicationId'] = var4;
+                var4 = var2.link_id;
+                var3['linkId'] = var4;
+                var4 = 'asset_id';
+                var5 = var4 in var2;
+                var4 = undefined;
+                if(!var5) { _fun0001_ip = 142; continue _fun0001 }
  136:
-                tangon = michal.asset_id;
+                var4 = var2.asset_id;
  142:
-                zuuluu['assetId'] = tangon;
-                tangon = 'asset_path';
-                report = tangon in michal;
-                tangon = undefined;
-                if(!report) { _fun00002_ip = 171; continue _fun00001 }
+                var3['assetId'] = var4;
+                var4 = 'asset_path';
+                var5 = var4 in var2;
+                var4 = undefined;
+                if(!var5) { _fun0001_ip = 171; continue _fun0001 }
  163:
-                tangon = michal.asset_path;
+                var4 = var2.asset_path;
  171:
-                zuuluu['assetPath'] = tangon;
-                tangon = michal.title;
-                zuuluu['title'] = tangon;
-                tangon = michal.description;
-                zuuluu['description'] = tangon;
-                michal = michal.custom_id;
-                zuuluu['customId'] = michal;
-                return entity;
+                var3['assetPath'] = var4;
+                var4 = var2.title;
+                var3['title'] = var4;
+                var4 = var2.description;
+                var3['description'] = var4;
+                var2 = var2.custom_id;
+                var3['customId'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        report = 'getAssetURL';
-        entity['key'] = report;
-        michal = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var5 = 'getAssetURL';
+        var1['key'] = var5;
+        var2 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                tangon = michal.type;
-                oscard = _closure1_slot0;
-                entity = _closure1_slot1;
-                golfie = 2;
-                entity = entity[golfie];
-                report = undefined;
-                entity = oscard.bind(report)(entity);
-                entity = entity.CustomLinkType;
-                entity = entity.MANAGED;
-                if(!(tangon !== entity)) { _fun00004_ip = 128; continue _fun00003 }
+                var2 = this;
+                var4 = var2.type;
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var7 = 2;
+                var1 = var1[var7];
+                var5 = undefined;
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.CustomLinkType;
+                var1 = var1.MANAGED;
+                if(!(var4 !== var1)) { _fun0002_ip = 128; continue _fun0002 }
  49:
-                oscard = michal.type;
-                tangon = _closure1_slot0;
-                entity = _closure1_slot1;
-                entity = entity[golfie];
-                entity = tangon.bind(report)(entity);
-                entity = entity.CustomLinkType;
-                tangon = entity.QUICK;
-                entity = undefined;
-                if(!(oscard === tangon)) { _fun00004_ip = 126; continue _fun00003 }
+                var6 = var2.type;
+                var4 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var1 = var1[var7];
+                var1 = var4.bind(var5)(var1);
+                var1 = var1.CustomLinkType;
+                var4 = var1.QUICK;
+                var1 = undefined;
+                if(!(var6 === var4)) { _fun0002_ip = 126; continue _fun0002 }
  89:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot1;
-                tangon = 4;
-                tangon = golfie[tangon];
-                golfie = oscard.bind(report)(tangon);
-                oscard = golfie.getQuickLinkImage;
-                tangon = michal.assetPath;
-                entity = oscard.bind(golfie)(tangon);
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var4 = 4;
+                var4 = var7[var4];
+                var7 = var6.bind(var5)(var4);
+                var6 = var7.getQuickLinkImage;
+                var4 = var2.assetPath;
+                var1 = var6.bind(var7)(var4);
  126:
-                _fun00004_ip = 178; continue _fun00003;
+                _fun0002_ip = 178; continue _fun0002;
  128:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot1;
-                zuuluu = 3;
-                zuuluu = oscard[zuuluu];
-                oscard = tangon.bind(report)(zuuluu);
-                report = oscard.getAssetImage;
-                tangon = michal.applicationId;
-                zuuluu = michal.assetId;
-                michal = 512;
-                entity = report.bind(oscard)(tangon, zuuluu, michal);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 3;
+                var3 = var6[var3];
+                var6 = var4.bind(var5)(var3);
+                var5 = var6.getAssetImage;
+                var4 = var2.applicationId;
+                var3 = var2.assetId;
+                var2 = 512;
+                var1 = var5.bind(var6)(var4, var3, var2);
  178:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/records/CustomActivityLinkRecord.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/records/CustomActivityLinkRecord.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

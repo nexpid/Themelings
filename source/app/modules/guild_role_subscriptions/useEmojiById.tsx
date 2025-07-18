@@ -1,77 +1,77 @@
 // app/modules/guild_role_subscriptions/useEmojiById.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    michal = function(argFoo, argBar) { // Original name: useEmojiById
-        golfie = argFoo;
-        oscard = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var2 = function useEmojiById(arg1, arg2) {
+        var7 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot1;
-                entity = null;
-                if(!(entity != michal)) { _fun00002_ip = 71; continue _fun00001 }
+                var2 = _closure2_slot1;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0001_ip = 71; continue _fun0001 }
  13:
-                report = _closure1_slot2;
-                tangon = report.getDisambiguatedEmojiContext;
-                michal = _closure2_slot0;
-                report = tangon.bind(report)(michal);
-                tangon = report.getById;
-                michal = _closure2_slot1;
-                michal = tangon.bind(report)(michal);
-                if(!(entity == michal)) { _fun00002_ip = 69; continue _fun00001 }
+                var5 = _closure1_slot2;
+                var4 = var5.getDisambiguatedEmojiContext;
+                var2 = _closure2_slot0;
+                var5 = var4.bind(var5)(var2);
+                var4 = var5.getById;
+                var2 = _closure2_slot1;
+                var2 = var4.bind(var5)(var2);
+                if(!(var1 == var2)) { _fun0001_ip = 69; continue _fun0001 }
  54:
-                tangon = report.getByName;
-                zuuluu = _closure2_slot1;
-                michal = tangon.bind(report)(zuuluu);
+                var4 = var5.getByName;
+                var3 = _closure2_slot1;
+                var2 = var4.bind(var5)(var3);
  69:
-                return michal;
+                return var2;
  71:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/useEmojiById.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    zuuluu['useEmojiById'] = michal;
-    return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/useEmojiById.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    var3['useEmojiById'] = var2;
+    return var1;
 })();

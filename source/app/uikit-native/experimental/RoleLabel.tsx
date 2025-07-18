@@ -1,143 +1,143 @@
 // app/uikit-native/experimental/RoleLabel.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot2 = golfie;
-    option = tangon.StyleSheet;
-    tangon = 2;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    golfie = option.create;
-    tangon = {};
-    verify = {'display': 'flex', 'flexDirection': 'row'};
-    tangon['container'] = verify;
-    verify = {};
-    offset = 4;
-    verify['marginRight'] = offset;
-    tangon['roleDot'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/experimental/RoleLabel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: RoleLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot2 = var7;
+    var8 = var4.StyleSheet;
+    var4 = 2;
+    var7 = var6[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var7 = var8.create;
+    var4 = {};
+    var9 = {'display': 'flex', 'flexDirection': 'row'};
+    var4['container'] = var9;
+    var9 = {};
+    var10 = 4;
+    var9['marginRight'] = var10;
+    var4['roleDot'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/experimental/RoleLabel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function RoleLabel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.name;
-            foxtra = entity.color;
-            romeon = entity.colors;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            entity = zuuluu[entity];
-            tangon = undefined;
-            report = michal.bind(tangon)(entity);
-            zuuluu = report.useStateFromStores;
-            entity = _closure1_slot3;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                entity = _closure1_slot3;
-                entity = entity.roleStyle;
-                return entity;
+            var1 = arg1;
+            var9 = var1.name;
+            var13 = var1.color;
+            var12 = var1.colors;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var1 = var3[var1];
+            var4 = undefined;
+            var5 = var2.bind(var4)(var1);
+            var3 = var5.useStateFromStores;
+            var1 = _closure1_slot3;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var1 = _closure1_slot3;
+                var1 = var1.roleStyle;
+                return var1;
             };
-            golfie = zuuluu.bind(report)(michal, entity);
-            offset = {};
-            entity = 'username';
-            entity = entity === golfie;
-            if(!entity) { _fun00002_ip = 94; continue _fun00001 }
+            var7 = var3.bind(var5)(var2, var1);
+            var10 = {};
+            var1 = 'username';
+            var1 = var1 === var7;
+            if(!var1) { _fun0001_ip = 94; continue _fun0001 }
  88:
-            michal = null;
-            entity = michal != foxtra;
+            var2 = null;
+            var1 = var2 != var13;
  94:
-            if(!entity) { _fun00002_ip = 106; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 106; continue _fun0001 }
  97:
-            entity = {};
-            entity['color'] = foxtra;
-            offset = entity;
+            var1 = {};
+            var1['color'] = var13;
+            var10 = var1;
  106:
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot2;
-            entity = {};
-            report = _closure1_slot6;
-            report = report.container;
-            entity['style'] = report;
-            report = 'dot';
-            golfie = report === golfie;
-            if(!golfie) { _fun00002_ip = 146; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot2;
+            var1 = {};
+            var5 = _closure1_slot6;
+            var5 = var5.container;
+            var1['style'] = var5;
+            var5 = 'dot';
+            var7 = var5 === var7;
+            if(!var7) { _fun0001_ip = 146; continue _fun0001 }
  140:
-            report = null;
-            golfie = report != foxtra;
+            var5 = null;
+            var7 = var5 != var13;
  146:
-            if(!golfie) { _fun00002_ip = 210; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 210; continue _fun0001 }
  149:
-            yankee = _closure1_slot4;
-            option = _closure1_slot0;
-            backup = _closure1_slot1;
-            report = 5;
-            report = backup[report];
-            report = option.bind(tangon)(report);
-            option = report.RoleDot;
-            report = {};
-            report['color'] = foxtra;
-            report['colors'] = romeon;
-            romeon = _closure1_slot6;
-            romeon = romeon.roleDot;
-            report['containerStyles'] = romeon;
-            golfie = yankee.bind(tangon)(option, report);
+            var11 = _closure1_slot4;
+            var8 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var5 = 5;
+            var5 = var14[var5];
+            var5 = var8.bind(var4)(var5);
+            var8 = var5.RoleDot;
+            var5 = {};
+            var5['color'] = var13;
+            var5['colors'] = var12;
+            var12 = _closure1_slot6;
+            var12 = var12.roleDot;
+            var5['containerStyles'] = var12;
+            var7 = var11.bind(var4)(var8, var5);
  210:
-            report = new Array(2);
-            report[0] = golfie;
-            option = _closure1_slot4;
-            golfie = _closure1_slot0;
-            yankee = _closure1_slot1;
-            oscard = 6;
-            oscard = yankee[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.FormLabel;
-            oscard = {};
-            oscard['style'] = offset;
-            oscard['text'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot4;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var6 = 6;
+            var6 = var11[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.FormLabel;
+            var6 = {};
+            var6['style'] = var10;
+            var6['text'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['RoleLabel'] = michal;
-    return entity;
+    var3['RoleLabel'] = var2;
+    return var1;
 })();

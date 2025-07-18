@@ -1,121 +1,121 @@
 // app/modules/dismissible_content/native/DismissibleActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = report;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/dismissible_content/native/DismissibleActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: DismissibleActionSheet
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot0;
-        oscard = _closure1_slot1;
-        zuuluu = 1;
-        zuuluu = oscard[zuuluu];
-        oscard = undefined;
-        tangon = tangon.bind(oscard)(zuuluu);
-        zuuluu = function() {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            oscard = zuuluu.bind(entity)(michal);
-            report = oscard.openLazy;
-            golfie = _closure2_slot0;
-            michal = golfie.importer;
-            tangon = michal.bind(golfie)();
-            zuuluu = golfie.actionSheetKey;
-            michal = {};
-            yankee = michal;
-            offset = golfie;
-            golfie = copyDataProperties(yankee, offset);
-            option = function(argFoo) { // Original name: markAsDismissed
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                report = zuuluu.bind(entity)(michal);
-                zuuluu = report.hideActionSheet;
-                tangon = _closure2_slot0;
-                michal = tangon.actionSheetKey;
-                michal = zuuluu.bind(report)(michal);
-                zuuluu = tangon.markAsDismissed;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/dismissible_content/native/DismissibleActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function DismissibleActionSheet(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var3 = 1;
+        var3 = var6[var3];
+        var6 = undefined;
+        var4 = var4.bind(var6)(var3);
+        var3 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var6 = var3.bind(var1)(var2);
+            var5 = var6.openLazy;
+            var7 = _closure2_slot0;
+            var2 = var7.importer;
+            var4 = var2.bind(var7)();
+            var3 = var7.actionSheetKey;
+            var2 = {};
+            var11 = var2;
+            var10 = var7;
+            var7 = copyDataProperties(var11, var10);
+            var8 = function markAsDismissed(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var3 = var5.hideActionSheet;
+                var4 = _closure2_slot0;
+                var2 = var4.actionSheetKey;
+                var2 = var3.bind(var5)(var2);
+                var3 = var4.markAsDismissed;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            golfie = 'markAsDismissed';
-            michal[golfie] = option;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
-            return entity;
+            var7 = 'markAsDismissed';
+            var2[var7] = var8;
+            var2 = var5.bind(var6)(var4, var3, var2);
+            return var1;
         };
-        zuuluu = tangon.bind(oscard)(zuuluu);
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useEffect;
-        oscard = report.actionSheetKey;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = report.hideSheetOnUnmount;
-        michal[1] = report;
-        entity = function() {
-            entity = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3 = var4.bind(var6)(var3);
+        var4 = _closure1_slot2;
+        var3 = var4.useEffect;
+        var6 = var5.actionSheetKey;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = var5.hideSheetOnUnmount;
+        var2[1] = var5;
+        var1 = function() {
+            var1 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure2_slot0;
-                    zuuluu = michal.hideSheetOnUnmount;
-                    michal = null;
-                    michal = michal != zuuluu;
-                    if(!michal) { _fun00002_ip = 32; continue _fun00001 }
+                    var2 = _closure2_slot0;
+                    var3 = var2.hideSheetOnUnmount;
+                    var2 = null;
+                    var2 = var2 != var3;
+                    if(!var2) { _fun0001_ip = 32; continue _fun0001 }
  22:
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu.hideSheetOnUnmount;
+                    var3 = _closure2_slot0;
+                    var2 = var3.hideSheetOnUnmount;
  32:
-                    if(!michal) { _fun00002_ip = 81; continue _fun00001 }
+                    if(!var2) { _fun0001_ip = 81; continue _fun0001 }
  35:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    michal = zuuluu.hideActionSheet;
-                    entity = _closure2_slot0;
-                    entity = entity.actionSheetKey;
-                    entity = michal.bind(zuuluu)(entity);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.hideActionSheet;
+                    var1 = _closure2_slot0;
+                    var1 = var1.actionSheetKey;
+                    var1 = var2.bind(var3)(var1);
  81:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = null;
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = null;
+        return var1;
     };
-    zuuluu['DismissibleActionSheet'] = michal;
-    return entity;
+    var3['DismissibleActionSheet'] = var2;
+    return var1;
 })();

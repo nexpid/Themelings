@@ -1,266 +1,266 @@
 // app/lib/uploader/stageAttachmentFiles.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _stageAttachmentFiles
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _stageAttachmentFiles() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    oscard = argFoo;
-                    michal = arguments[1];
+                    var6 = arg1;
+                    var2 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 97; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 97; continue _fun0001 }
  15:
-                    tangon = undefined;
-                    if(!(michal === tangon)) { _fun00002_ip = 23; continue _fun00001 }
+                    var4 = undefined;
+                    if(!(var2 === var4)) { _fun0001_ip = 23; continue _fun0001 }
  21:
-                    michal = false;
+                    var2 = false;
  23:
-                    var _closure4_slot0 = michal;
-                    michal = arguments[2];
-                    var _closure4_slot1 = michal;
+                    var _closure4_slot0 = var2;
+                    var2 = arguments[2];
+                    var _closure4_slot1 = var2;
                     SaveGenerator(address=38);
  36:
-                    return tangon;
+                    return var4;
  38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 94; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 94; continue _fun0001 }
  44:
-                    report = oscard.map;
-                    zuuluu = function(argFoo) {
-                        michal = argFoo;
-                        var _closure5_slot0 = michal;
-                        michal = global;
-                        zuuluu = michal.Promise;
-                        michal = zuuluu.prototype;
-                        michal = Object.create(michal, {constructor: {value: zuuluu}});
-                        tangon = function(argFoo, argBar) {
-                            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var5 = var6.map;
+                    var3 = function(arg1) {
+                        var2 = arg1;
+                        var _closure5_slot0 = var2;
+                        var2 = global;
+                        var3 = var2.Promise;
+                        var2 = var3.prototype;
+                        var2 = Object.create(var2, {constructor: {value: var3}});
+                        var4 = function(arg1, arg2) {
+                            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                                report = argFoo;
-                                oscard = argBar;
-                                var _closure6_slot0 = report;
-                                var _closure6_slot1 = oscard;
-                                entity = _closure5_slot0;
-                                option = entity.status;
-                                verify = _closure1_slot0;
-                                entity = _closure1_slot1;
-                                offset = 2;
-                                golfie = entity[offset];
-                                entity = undefined;
-                                golfie = verify.bind(entity)(golfie);
-                                golfie = golfie.CloudUploadStatus;
-                                golfie = golfie.NOT_STARTED;
-                                if(!(golfie !== option)) { _fun00004_ip = 319; continue _fun00003 }
+                                var5 = arg1;
+                                var6 = arg2;
+                                var _closure6_slot0 = var5;
+                                var _closure6_slot1 = var6;
+                                var1 = _closure5_slot0;
+                                var8 = var1.status;
+                                var9 = _closure1_slot0;
+                                var1 = _closure1_slot1;
+                                var10 = 2;
+                                var7 = var1[var10];
+                                var1 = undefined;
+                                var7 = var9.bind(var1)(var7);
+                                var7 = var7.CloudUploadStatus;
+                                var7 = var7.NOT_STARTED;
+                                if(!(var7 !== var8)) { _fun0002_ip = 319; continue _fun0002 }
  72:
-                                verify = _closure1_slot0;
-                                golfie = _closure1_slot1;
-                                golfie = golfie[offset];
-                                golfie = verify.bind(entity)(golfie);
-                                golfie = golfie.CloudUploadStatus;
-                                golfie = golfie.COMPLETED;
-                                if(!(golfie !== option)) { _fun00004_ip = 308; continue _fun00003 }
+                                var9 = _closure1_slot0;
+                                var7 = _closure1_slot1;
+                                var7 = var7[var10];
+                                var7 = var9.bind(var1)(var7);
+                                var7 = var7.CloudUploadStatus;
+                                var7 = var7.COMPLETED;
+                                if(!(var7 !== var8)) { _fun0002_ip = 308; continue _fun0002 }
  108:
-                                verify = _closure1_slot0;
-                                golfie = _closure1_slot1;
-                                golfie = golfie[offset];
-                                golfie = verify.bind(entity)(golfie);
-                                golfie = golfie.CloudUploadStatus;
-                                golfie = golfie.ERROR;
-                                if(!(golfie !== option)) { _fun00004_ip = 218; continue _fun00003 }
+                                var9 = _closure1_slot0;
+                                var7 = _closure1_slot1;
+                                var7 = var7[var10];
+                                var7 = var9.bind(var1)(var7);
+                                var7 = var7.CloudUploadStatus;
+                                var7 = var7.ERROR;
+                                if(!(var7 !== var8)) { _fun0002_ip = 218; continue _fun0002 }
  141:
-                                verify = _closure1_slot0;
-                                golfie = _closure1_slot1;
-                                golfie = golfie[offset];
-                                golfie = verify.bind(entity)(golfie);
-                                golfie = golfie.CloudUploadStatus;
-                                golfie = golfie.CANCELED;
-                                if(!(golfie === option)) { _fun00004_ip = 333; continue _fun00003 }
+                                var9 = _closure1_slot0;
+                                var7 = _closure1_slot1;
+                                var7 = var7[var10];
+                                var7 = var9.bind(var1)(var7);
+                                var7 = var7.CloudUploadStatus;
+                                var7 = var7.CANCELED;
+                                if(!(var7 === var8)) { _fun0002_ip = 333; continue _fun0002 }
  177:
-                                golfie = global;
-                                verify = golfie.Error;
-                                golfie = verify.prototype;
-                                option = Object.create(golfie, {constructor: {value: verify}});
-                                romeon = 'Upload is canceled';
-                                foxtra = option;
-                                golfie = new foxtra[verify](romeon, yankee);
-                                golfie = golfie instanceof Object ? golfie : option;
-                                golfie = oscard.bind(entity)(golfie);
-                                _fun00004_ip = 333; continue _fun00003;
+                                var7 = global;
+                                var9 = var7.Error;
+                                var7 = var9.prototype;
+                                var8 = Object.create(var7, {constructor: {value: var9}});
+                                var12 = 'Upload is canceled';
+                                var13 = var8;
+                                var7 = new var13[var9](var12, var11);
+                                var7 = var7 instanceof Object ? var7 : var8;
+                                var7 = var6.bind(var1)(var7);
+                                _fun0002_ip = 333; continue _fun0002;
  218:
-                                golfie = _closure4_slot0;
-                                if(!golfie) { _fun00004_ip = 251; continue _fun00003 }
+                                var7 = _closure4_slot0;
+                                if(!var7) { _fun0002_ip = 251; continue _fun0002 }
  228:
-                                golfie = _closure5_slot0;
-                                golfie = golfie.error;
-                                tangon = _closure1_slot3;
-                                tangon = tangon.ENTITY_TOO_LARGE;
-                                if(!(golfie === tangon)) { _fun00004_ip = 292; continue _fun00003 }
+                                var7 = _closure5_slot0;
+                                var7 = var7.error;
+                                var4 = _closure1_slot3;
+                                var4 = var4.ENTITY_TOO_LARGE;
+                                if(!(var7 === var4)) { _fun0002_ip = 292; continue _fun0002 }
  251:
-                                tangon = global;
-                                option = tangon.Error;
-                                tangon = option.prototype;
-                                golfie = Object.create(tangon, {constructor: {value: option}});
-                                romeon = 'File failed to upload';
-                                foxtra = golfie;
-                                tangon = new foxtra[option](romeon, yankee);
-                                tangon = tangon instanceof Object ? tangon : golfie;
-                                tangon = oscard.bind(entity)(tangon);
-                                _fun00004_ip = 333; continue _fun00003;
+                                var4 = global;
+                                var8 = var4.Error;
+                                var4 = var8.prototype;
+                                var7 = Object.create(var4, {constructor: {value: var8}});
+                                var12 = 'File failed to upload';
+                                var13 = var7;
+                                var4 = new var13[var8](var12, var11);
+                                var4 = var4 instanceof Object ? var4 : var7;
+                                var4 = var6.bind(var1)(var4);
+                                _fun0002_ip = 333; continue _fun0002;
  292:
-                                oscard = _closure5_slot0;
-                                tangon = oscard.upload;
-                                tangon = tangon.bind(oscard)();
-                                _fun00004_ip = 333; continue _fun00003;
+                                var6 = _closure5_slot0;
+                                var4 = var6.upload;
+                                var4 = var4.bind(var6)();
+                                _fun0002_ip = 333; continue _fun0002;
  308:
-                                tangon = 'complete';
-                                tangon = report.bind(entity)(tangon);
-                                _fun00004_ip = 333; continue _fun00003;
+                                var4 = 'complete';
+                                var4 = var5.bind(var1)(var4);
+                                _fun0002_ip = 333; continue _fun0002;
  319:
-                                report = _closure5_slot0;
-                                tangon = report.upload;
-                                tangon = tangon.bind(report)();
+                                var5 = _closure5_slot0;
+                                var4 = var5.upload;
+                                var4 = var4.bind(var5)();
  333:
-                                report = _closure5_slot0;
-                                oscard = report.on;
-                                tangon = 'complete';
-                                zuuluu = function() {
-                                    zuuluu = _closure6_slot0;
-                                    entity = undefined;
-                                    michal = 'complete';
-                                    michal = zuuluu.bind(entity)(michal);
-                                    return entity;
+                                var5 = _closure5_slot0;
+                                var6 = var5.on;
+                                var4 = 'complete';
+                                var3 = function() {
+                                    var3 = _closure6_slot0;
+                                    var1 = undefined;
+                                    var2 = 'complete';
+                                    var2 = var3.bind(var1)(var2);
+                                    return var1;
                                 };
-                                zuuluu = oscard.bind(report)(tangon, zuuluu);
-                                oscard = report.on;
-                                tangon = 'error';
-                                zuuluu = function() {
-                                    zuuluu = _closure6_slot1;
-                                    entity = global;
-                                    tangon = entity.Error;
-                                    michal = _closure5_slot0;
-                                    oscard = michal.id;
-                                    entity = entity.HermesInternal;
-                                    report = entity.concat;
-                                    michal = 'File ';
-                                    entity = ' failed to upload';
-                                    option = report.bind(michal)(oscard, entity);
-                                    michal = tangon.prototype;
-                                    michal = Object.create(michal, {constructor: {value: tangon}});
-                                    verify = michal;
-                                    entity = new verify[tangon](option, golfie);
-                                    michal = entity instanceof Object ? entity : michal;
-                                    entity = undefined;
-                                    michal = zuuluu.bind(entity)(michal);
-                                    return entity;
+                                var3 = var6.bind(var5)(var4, var3);
+                                var6 = var5.on;
+                                var4 = 'error';
+                                var3 = function() {
+                                    var3 = _closure6_slot1;
+                                    var1 = global;
+                                    var4 = var1.Error;
+                                    var2 = _closure5_slot0;
+                                    var6 = var2.id;
+                                    var1 = var1.HermesInternal;
+                                    var5 = var1.concat;
+                                    var2 = 'File ';
+                                    var1 = ' failed to upload';
+                                    var8 = var5.bind(var2)(var6, var1);
+                                    var2 = var4.prototype;
+                                    var2 = Object.create(var2, {constructor: {value: var4}});
+                                    var9 = var2;
+                                    var1 = new var9[var4](var8, var7);
+                                    var2 = var1 instanceof Object ? var1 : var2;
+                                    var1 = undefined;
+                                    var2 = var3.bind(var1)(var2);
+                                    return var1;
                                 };
-                                zuuluu = oscard.bind(report)(tangon, zuuluu);
-                                tangon = report.on;
-                                zuuluu = 'progress';
-                                michal = function(argFoo, argBar) {
-                                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                                var3 = var6.bind(var5)(var4, var3);
+                                var4 = var5.on;
+                                var3 = 'progress';
+                                var2 = function(arg1, arg2) {
+                                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                                        zuuluu = _closure4_slot1;
-                                        michal = null;
-                                        if(!(michal != zuuluu)) { _fun00006_ip = 31; continue _fun00005 }
+                                        var3 = _closure4_slot1;
+                                        var2 = null;
+                                        if(!(var2 != var3)) { _fun0003_ip = 31; continue _fun0003 }
  13:
-                                        tangon = _closure4_slot1;
-                                        zuuluu = undefined;
-                                        michal = argFoo;
-                                        entity = argBar;
-                                        entity = tangon.bind(zuuluu)(michal, entity);
+                                        var4 = _closure4_slot1;
+                                        var3 = undefined;
+                                        var2 = arg1;
+                                        var1 = arg2;
+                                        var1 = var4.bind(var3)(var2, var1);
  31:
-                                        entity = undefined;
-                                        return entity;
+                                        var1 = undefined;
+                                        return var1;
                                     }
                                 };
-                                michal = tangon.bind(report)(zuuluu, michal);
-                                return entity;
+                                var2 = var4.bind(var5)(var3, var2);
+                                return var1;
                             }
                         };
-                        report = michal;
-                        entity = new report[zuuluu](tangon, zuuluu);
-                        entity = entity instanceof Object ? entity : michal;
-                        return entity;
+                        var5 = var2;
+                        var1 = new var5[var3](var4, var3);
+                        var1 = var1 instanceof Object ? var1 : var2;
+                        return var1;
                     };
-                    oscard = report.bind(oscard)(zuuluu);
-                    zuuluu = global;
-                    report = zuuluu.Promise;
-                    zuuluu = report.all;
-                    zuuluu = zuuluu.bind(report)(oscard);
+                    var6 = var5.bind(var6)(var3);
+                    var3 = global;
+                    var5 = var3.Promise;
+                    var3 = var5.all;
+                    var3 = var3.bind(var5)(var6);
                     SaveGenerator(address=82);
  80:
-                    return zuuluu;
+                    return var3;
  82:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 91; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 91; continue _fun0001 }
  88:
-                    return tangon;
+                    return var4;
  91:
-                    return zuuluu;
+                    return var3;
  94:
-                    return michal;
+                    return var2;
  97:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AbortCodes;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/uploader/stageAttachmentFiles.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: stageAttachmentFiles
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AbortCodes;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/uploader/stageAttachmentFiles.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function stageAttachmentFiles() {
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

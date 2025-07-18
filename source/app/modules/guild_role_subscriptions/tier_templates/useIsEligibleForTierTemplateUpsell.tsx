@@ -1,141 +1,141 @@
 // app/modules/guild_role_subscriptions/tier_templates/useIsEligibleForTierTemplateUpsell.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot3 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/tier_templates/useIsEligibleForTierTemplateUpsell.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useIsEligibleForTierTemplateUpsell
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot3 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/tier_templates/useIsEligibleForTierTemplateUpsell.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsEligibleForTierTemplateUpsell(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            var _closure2_slot0 = option;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 2;
-            michal = tangon[michal];
-            golfie = undefined;
-            verify = zuuluu.bind(golfie)(michal);
-            oscard = verify.useStateFromStores;
-            offset = _closure1_slot2;
-            michal = new Array(1);
-            michal[0] = offset;
-            entity = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getGuild;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var8 = arg1;
+            var _closure2_slot0 = var8;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 2;
+            var2 = var4[var2];
+            var7 = undefined;
+            var9 = var3.bind(var7)(var2);
+            var6 = var9.useStateFromStores;
+            var10 = _closure1_slot2;
+            var2 = new Array(1);
+            var2[0] = var10;
+            var1 = function() {
+                var3 = _closure1_slot2;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            verify = oscard.bind(verify)(michal, entity);
-            entity = 3;
-            michal = tangon[entity];
-            oscard = zuuluu.bind(golfie)(michal);
-            michal = oscard.useGuildEligibleForTierTemplates;
-            michal = michal.bind(oscard)(option);
-            entity = tangon[entity];
-            zuuluu = zuuluu.bind(golfie)(entity);
-            entity = zuuluu.useUserEligibleForTierTemplates;
-            tangon = entity.bind(zuuluu)();
-            zuuluu = null;
-            entity = zuuluu == verify;
-            oscard = undefined;
-            if(entity) { _fun00002_ip = 143; continue _fun00001 }
+            var9 = var6.bind(var9)(var2, var1);
+            var1 = 3;
+            var2 = var4[var1];
+            var6 = var3.bind(var7)(var2);
+            var2 = var6.useGuildEligibleForTierTemplates;
+            var2 = var2.bind(var6)(var8);
+            var1 = var4[var1];
+            var3 = var3.bind(var7)(var1);
+            var1 = var3.useUserEligibleForTierTemplates;
+            var4 = var1.bind(var3)();
+            var3 = null;
+            var1 = var3 == var9;
+            var6 = undefined;
+            if(var1) { _fun0001_ip = 143; continue _fun0001 }
  117:
-            yankee = verify.features;
-            offset = yankee.has;
-            entity = _closure1_slot3;
-            entity = entity.ROLE_SUBSCRIPTIONS_ENABLED;
-            oscard = offset.bind(yankee)(entity);
+            var11 = var9.features;
+            var10 = var11.has;
+            var1 = _closure1_slot3;
+            var1 = var1.ROLE_SUBSCRIPTIONS_ENABLED;
+            var6 = var10.bind(var11)(var1);
  143:
-            entity = true;
-            entity = entity === oscard;
-            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
+            var1 = true;
+            var1 = var1 === var6;
+            if(!var1) { _fun0001_ip = 193; continue _fun0001 }
  152:
-            zuuluu = zuuluu == verify;
-            oscard = undefined;
-            if(zuuluu) { _fun00002_ip = 187; continue _fun00001 }
+            var3 = var3 == var9;
+            var6 = undefined;
+            if(var3) { _fun0001_ip = 187; continue _fun0001 }
  161:
-            yankee = verify.features;
-            offset = yankee.has;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
-            oscard = offset.bind(yankee)(zuuluu);
+            var11 = var9.features;
+            var10 = var11.has;
+            var3 = _closure1_slot3;
+            var3 = var3.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
+            var6 = var10.bind(var11)(var3);
  187:
-            zuuluu = false;
-            entity = zuuluu === oscard;
+            var3 = false;
+            var1 = var3 === var6;
  193:
-            oscard = _closure1_slot0;
-            offset = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = offset[zuuluu];
-            oscard = oscard.bind(golfie)(zuuluu);
-            zuuluu = oscard.canManageGuildRoleSubscriptions;
-            zuuluu = zuuluu.bind(oscard)(verify);
-            oscard = entity;
-            if(!entity) { _fun00002_ip = 233; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 4;
+            var3 = var10[var3];
+            var6 = var6.bind(var7)(var3);
+            var3 = var6.canManageGuildRoleSubscriptions;
+            var3 = var3.bind(var6)(var9);
+            var6 = var1;
+            if(!var1) { _fun0001_ip = 233; continue _fun0001 }
  230:
-            oscard = tangon;
+            var6 = var4;
  233:
-            if(!oscard) { _fun00002_ip = 239; continue _fun00001 }
+            if(!var6) { _fun0001_ip = 239; continue _fun0001 }
  236:
-            oscard = zuuluu;
+            var6 = var3;
  239:
-            if(!oscard) { _fun00002_ip = 295; continue _fun00001 }
+            if(!var6) { _fun0001_ip = 295; continue _fun0001 }
  242:
-            oscard = _closure1_slot0;
-            verify = _closure1_slot1;
-            report = 5;
-            report = verify[report];
-            report = oscard.bind(golfie)(report);
-            golfie = report.GuildRoleSubscriptionsTierTemplatesExperiment;
-            oscard = golfie.trackExposure;
-            report = {};
-            report['guildId'] = option;
-            option = 'ca30d9_1';
-            report['location'] = option;
-            report = oscard.bind(golfie)(report);
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var5 = 5;
+            var5 = var9[var5];
+            var5 = var6.bind(var7)(var5);
+            var7 = var5.GuildRoleSubscriptionsTierTemplatesExperiment;
+            var6 = var7.trackExposure;
+            var5 = {};
+            var5['guildId'] = var8;
+            var8 = 'ca30d9_1';
+            var5['location'] = var8;
+            var5 = var6.bind(var7)(var5);
  295:
-            if(!entity) { _fun00002_ip = 301; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 301; continue _fun0001 }
  298:
-            entity = tangon;
+            var1 = var4;
  301:
-            if(!entity) { _fun00002_ip = 307; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 307; continue _fun0001 }
  304:
-            entity = zuuluu;
+            var1 = var3;
  307:
-            if(!entity) { _fun00002_ip = 313; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 313; continue _fun0001 }
  310:
-            entity = michal;
+            var1 = var2;
  313:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

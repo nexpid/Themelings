@@ -1,65 +1,65 @@
 // app/modules/guild_role_subscriptions/PremiumRoleUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/PremiumRoleUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: isSubscriptionRole
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/PremiumRoleUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isSubscriptionRole(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = null;
-            tangon = michal == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 35; continue _fun00001 }
+            var3 = arg1;
+            var2 = null;
+            var4 = var2 == var3;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 35; continue _fun0001 }
  14:
-            zuuluu = zuuluu.tags;
-            tangon = michal == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 35; continue _fun00001 }
+            var3 = var3.tags;
+            var4 = var2 == var3;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 35; continue _fun0001 }
  29:
-            entity = zuuluu.subscription_listing_id;
+            var1 = var3.subscription_listing_id;
  35:
-            entity = michal != entity;
-            return entity;
+            var1 = var2 != var1;
+            return var1;
         }
     };
-    zuuluu['isSubscriptionRole'] = tangon;
-    michal = function(argFoo) { // Original name: isSubscriptionRoleAvailableForPurchase
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isSubscriptionRole'] = var4;
+    var2 = function isSubscriptionRoleAvailableForPurchase(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            report = tangon == zuuluu;
-            michal = undefined;
-            entity = undefined;
-            if(report) { _fun00004_ip = 39; continue _fun00003 }
+            var3 = arg1;
+            var4 = null;
+            var5 = var4 == var3;
+            var2 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0002_ip = 39; continue _fun0002 }
  16:
-            zuuluu = zuuluu.tags;
-            tangon = tangon == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00004_ip = 39; continue _fun00003 }
+            var3 = var3.tags;
+            var4 = var4 == var3;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 39; continue _fun0002 }
  31:
-            entity = zuuluu.available_for_purchase;
+            var1 = var3.available_for_purchase;
  39:
-            entity = michal !== entity;
-            return entity;
+            var1 = var2 !== var1;
+            return var1;
         }
     };
-    zuuluu['isSubscriptionRoleAvailableForPurchase'] = michal;
-    return entity;
+    var3['isSubscriptionRoleAvailableForPurchase'] = var2;
+    return var1;
 })();

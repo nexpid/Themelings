@@ -1,404 +1,404 @@
 // app/modules/dismissible_content/utils/toggleDismissibleContentDismissState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar) { // Original name: toggleDismissibleContentShared
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function toggleDismissibleContentShared(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.overrideDCFLastDCDismissed;
-            oscard = argBar;
-            michal = null;
-            if(oscard) { _fun00002_ip = 45; continue _fun00001 }
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.overrideDCFLastDCDismissed;
+            var6 = arg2;
+            var2 = null;
+            if(var6) { _fun0001_ip = 45; continue _fun0001 }
  42:
-            michal = report;
+            var2 = var5;
  45:
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/dismissible_content/utils/toggleDismissibleContentDismissState.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: toggleDismissibleContentDismissState
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/dismissible_content/utils/toggleDismissibleContentDismissState.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function toggleDismissibleContentDismissState(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            oscard = 8;
-            report = zuuluu[oscard];
-            zuuluu = undefined;
-            golfie = golfie.bind(zuuluu)(report);
-            report = golfie.isVersionedDismissibleContent;
-            report = report.bind(golfie)(tangon);
-            if(report) { _fun00004_ip = 200; continue _fun00003 }
+            var4 = arg1;
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var6 = 8;
+            var5 = var3[var6];
+            var3 = undefined;
+            var7 = var7.bind(var3)(var5);
+            var5 = var7.isVersionedDismissibleContent;
+            var5 = var5.bind(var7)(var4);
+            if(var5) { _fun0002_ip = 200; continue _fun0002 }
  47:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[oscard];
-            golfie = golfie.bind(zuuluu)(report);
-            report = golfie.isSnowflakeBoundDismissibleContent;
-            report = report.bind(golfie)(tangon);
-            if(report) { _fun00004_ip = 186; continue _fun00003 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var6];
+            var7 = var7.bind(var3)(var5);
+            var5 = var7.isSnowflakeBoundDismissibleContent;
+            var5 = var5.bind(var7)(var4);
+            if(var5) { _fun0002_ip = 186; continue _fun0002 }
  78:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[oscard];
-            golfie = golfie.bind(zuuluu)(report);
-            report = golfie.isTimeRecurringDismissibleContent;
-            report = report.bind(golfie)(tangon);
-            if(report) { _fun00004_ip = 172; continue _fun00003 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var6];
+            var7 = var7.bind(var3)(var5);
+            var5 = var7.isTimeRecurringDismissibleContent;
+            var5 = var5.bind(var7)(var4);
+            if(var5) { _fun0002_ip = 172; continue _fun0002 }
  109:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[oscard];
-            report = report.bind(zuuluu)(entity);
-            entity = report.isSingleUseGuildDismissibleContent;
-            entity = entity.bind(report)(tangon);
-            if(entity) { _fun00004_ip = 158; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var6];
+            var5 = var5.bind(var3)(var1);
+            var1 = var5.isSingleUseGuildDismissibleContent;
+            var1 = var1.bind(var5)(var4);
+            if(var1) { _fun0002_ip = 158; continue _fun0002 }
  140:
-            report = function(argFoo, argBar) { // Original name: toggleSingleUseDismissibleContent
-                report = argFoo;
-                var _closure3_slot0 = report;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 7;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.hasBit;
-                entity = argBar;
-                zuuluu = zuuluu.bind(tangon)(entity, report);
-                var _closure3_slot1 = zuuluu;
-                entity = {};
-                entity['isDismissed'] = zuuluu;
-                michal = function() { // Original name: handleToggleDismissState
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var5 = function toggleSingleUseDismissibleContent(arg1, arg2) {
+                var5 = arg1;
+                var _closure3_slot0 = var5;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.hasBit;
+                var1 = arg2;
+                var3 = var3.bind(var4)(var1, var5);
+                var _closure3_slot1 = var3;
+                var1 = {};
+                var1['isDismissed'] = var3;
+                var2 = function handleToggleDismissState() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        oscard = _closure1_slot4;
-                        report = _closure3_slot0;
-                        zuuluu = _closure3_slot1;
-                        entity = undefined;
-                        report = oscard.bind(entity)(report, zuuluu);
-                        report = _closure1_slot0;
-                        oscard = _closure1_slot2;
-                        tangon = 4;
-                        tangon = oscard[tangon];
-                        tangon = report.bind(entity)(tangon);
-                        if(zuuluu) { _fun00006_ip = 66; continue _fun00005 }
+                        var6 = _closure1_slot4;
+                        var5 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var1 = undefined;
+                        var5 = var6.bind(var1)(var5, var3);
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var4 = 4;
+                        var4 = var6[var4];
+                        var4 = var5.bind(var1)(var4);
+                        if(var3) { _fun0003_ip = 66; continue _fun0003 }
  49:
-                        report = tangon.addDismissedContent;
-                        zuuluu = _closure3_slot0;
-                        zuuluu = report.bind(tangon)(zuuluu);
-                        _fun00006_ip = 81; continue _fun00005;
+                        var5 = var4.addDismissedContent;
+                        var3 = _closure3_slot0;
+                        var3 = var5.bind(var4)(var3);
+                        _fun0003_ip = 81; continue _fun0003;
  66:
-                        zuuluu = tangon.removeDismissedContent;
-                        michal = _closure3_slot0;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = var4.removeDismissedContent;
+                        var2 = _closure3_slot0;
+                        var2 = var3.bind(var4)(var2);
  81:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity['handleToggleDismissState'] = michal;
-                return entity;
+                var1['handleToggleDismissState'] = var2;
+                return var1;
             };
-            entity = argBar;
-            entity = report.bind(zuuluu)(tangon, entity);
-            _fun00004_ip = 170; continue _fun00003;
+            var1 = arg2;
+            var1 = var5.bind(var3)(var4, var1);
+            _fun0002_ip = 170; continue _fun0002;
  158:
-            report = function(argFoo) { // Original name: toggleSingleUseGuildDismissibleContent
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var5 = function toggleSingleUseGuildDismissibleContent(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getGuildId;
-                    tangon = zuuluu.bind(tangon)();
-                    var _closure3_slot1 = tangon;
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00008_ip = 95; continue _fun00007 }
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var4 = _closure1_slot3;
+                    var3 = var4.getGuildId;
+                    var4 = var3.bind(var4)();
+                    var _closure3_slot1 = var4;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0004_ip = 95; continue _fun0004 }
  36:
-                    oscard = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    entity = 3;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    zuuluu = oscard.bind(entity)(zuuluu);
-                    entity = zuuluu.UNSAFE_isSingleUseGuildDismissibleContentDismissed;
-                    zuuluu = entity.bind(zuuluu)(report, tangon);
-                    var _closure3_slot2 = zuuluu;
-                    entity = {};
-                    entity['isDismissed'] = zuuluu;
-                    zuuluu = function() { // Original name: handleToggleDismissState
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 3;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var3 = var6.bind(var1)(var3);
+                    var1 = var3.UNSAFE_isSingleUseGuildDismissibleContentDismissed;
+                    var3 = var1.bind(var3)(var5, var4);
+                    var _closure3_slot2 = var3;
+                    var1 = {};
+                    var1['isDismissed'] = var3;
+                    var3 = function handleToggleDismissState() {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            zuuluu = _closure3_slot1;
-                            michal = null;
-                            if(!(michal != zuuluu)) { _fun00010_ip = 105; continue _fun00009 }
+                            var3 = _closure3_slot1;
+                            var2 = null;
+                            if(!(var2 != var3)) { _fun0005_ip = 105; continue _fun0005 }
  13:
-                            oscard = _closure1_slot4;
-                            tangon = _closure3_slot0;
-                            michal = _closure3_slot2;
-                            report = undefined;
-                            michal = oscard.bind(report)(tangon, michal);
-                            michal = _closure3_slot2;
-                            tangon = _closure1_slot0;
-                            oscard = _closure1_slot2;
-                            zuuluu = 3;
-                            zuuluu = oscard[zuuluu];
-                            tangon = tangon.bind(report)(zuuluu);
-                            if(michal) { _fun00010_ip = 85; continue _fun00009 }
+                            var6 = _closure1_slot4;
+                            var4 = _closure3_slot0;
+                            var2 = _closure3_slot2;
+                            var5 = undefined;
+                            var2 = var6.bind(var5)(var4, var2);
+                            var2 = _closure3_slot2;
+                            var4 = _closure1_slot0;
+                            var6 = _closure1_slot2;
+                            var3 = 3;
+                            var3 = var6[var3];
+                            var4 = var4.bind(var5)(var3);
+                            if(var2) { _fun0005_ip = 85; continue _fun0005 }
  63:
-                            report = tangon.UNSAFE_addGuildDismissedContent;
-                            zuuluu = _closure3_slot0;
-                            michal = _closure3_slot1;
-                            michal = report.bind(tangon)(zuuluu, michal);
-                            _fun00010_ip = 105; continue _fun00009;
+                            var5 = var4.UNSAFE_addGuildDismissedContent;
+                            var3 = _closure3_slot0;
+                            var2 = _closure3_slot1;
+                            var2 = var5.bind(var4)(var3, var2);
+                            _fun0005_ip = 105; continue _fun0005;
  85:
-                            zuuluu = tangon.UNSAFE_removeGuildDismissedContent;
-                            michal = _closure3_slot0;
-                            entity = _closure3_slot1;
-                            entity = zuuluu.bind(tangon)(michal, entity);
+                            var3 = var4.UNSAFE_removeGuildDismissedContent;
+                            var2 = _closure3_slot0;
+                            var1 = _closure3_slot1;
+                            var1 = var3.bind(var4)(var2, var1);
  105:
-                            entity = undefined;
-                            return entity;
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    entity['handleToggleDismissState'] = zuuluu;
-                    return entity;
+                    var1['handleToggleDismissState'] = var3;
+                    return var1;
  95:
-                    entity = {};
-                    zuuluu = false;
-                    entity['isDismissed'] = zuuluu;
-                    michal = function() { // Original name: handleToggleDismissState
-                        entity = undefined;
-                        return entity;
+                    var1 = {};
+                    var3 = false;
+                    var1['isDismissed'] = var3;
+                    var2 = function handleToggleDismissState() {
+                        var1 = undefined;
+                        return var1;
                     };
-                    entity['handleToggleDismissState'] = michal;
-                    return entity;
+                    var1['handleToggleDismissState'] = var2;
+                    return var1;
                 }
             };
-            entity = report.bind(zuuluu)(tangon);
+            var1 = var5.bind(var3)(var4);
  170:
-            _fun00004_ip = 184; continue _fun00003;
+            _fun0002_ip = 184; continue _fun0002;
  172:
-            report = function(argFoo) { // Original name: toggleTimeRecurringDismissibleContent
-                tangon = argFoo;
-                var _closure3_slot0 = tangon;
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 3;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                zuuluu = report.bind(entity)(zuuluu);
-                entity = zuuluu.isTimeRecurringDismissibleContentDismissed;
-                entity = entity.bind(zuuluu)(tangon);
-                zuuluu = entity.isDismissed;
-                var _closure3_slot1 = zuuluu;
-                entity = {};
-                entity['isDismissed'] = zuuluu;
-                michal = function() { // Original name: handleToggleDismissState
-                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var5 = function toggleTimeRecurringDismissibleContent(arg1) {
+                var4 = arg1;
+                var _closure3_slot0 = var4;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 3;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var5.bind(var1)(var3);
+                var1 = var3.isTimeRecurringDismissibleContentDismissed;
+                var1 = var1.bind(var3)(var4);
+                var3 = var1.isDismissed;
+                var _closure3_slot1 = var3;
+                var1 = {};
+                var1['isDismissed'] = var3;
+                var2 = function handleToggleDismissState() {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                        oscard = _closure1_slot4;
-                        tangon = _closure3_slot0;
-                        zuuluu = _closure3_slot1;
-                        entity = undefined;
-                        tangon = oscard.bind(entity)(tangon, zuuluu);
-                        tangon = _closure1_slot0;
-                        report = _closure1_slot2;
-                        if(zuuluu) { _fun00012_ip = 66; continue _fun00011 }
+                        var6 = _closure1_slot4;
+                        var4 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var1 = undefined;
+                        var4 = var6.bind(var1)(var4, var3);
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        if(var3) { _fun0006_ip = 66; continue _fun0006 }
  37:
-                        zuuluu = 3;
-                        zuuluu = report[zuuluu];
-                        golfie = tangon.bind(entity)(zuuluu);
-                        oscard = golfie.addTimeRecurringDismissedContent;
-                        zuuluu = _closure3_slot0;
-                        zuuluu = oscard.bind(golfie)(zuuluu);
-                        _fun00012_ip = 93; continue _fun00011;
+                        var3 = 3;
+                        var3 = var5[var3];
+                        var7 = var4.bind(var1)(var3);
+                        var6 = var7.addTimeRecurringDismissedContent;
+                        var3 = _closure3_slot0;
+                        var3 = var6.bind(var7)(var3);
+                        _fun0006_ip = 93; continue _fun0006;
  66:
-                        zuuluu = 4;
-                        zuuluu = report[zuuluu];
-                        tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = tangon.removeDismissedRecurringContent;
-                        michal = _closure3_slot0;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = 4;
+                        var3 = var5[var3];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.removeDismissedRecurringContent;
+                        var2 = _closure3_slot0;
+                        var2 = var3.bind(var4)(var2);
  93:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity['handleToggleDismissState'] = michal;
-                return entity;
+                var1['handleToggleDismissState'] = var2;
+                return var1;
             };
-            entity = report.bind(zuuluu)(tangon);
+            var1 = var5.bind(var3)(var4);
  184:
-            _fun00004_ip = 198; continue _fun00003;
+            _fun0002_ip = 198; continue _fun0002;
  186:
-            report = function(argFoo) { // Original name: toggleSnowflakeBoundDismissibleContent
-                report = argFoo;
-                var _closure3_slot0 = report;
-                tangon = _closure1_slot0;
-                option = _closure1_slot2;
-                zuuluu = 5;
-                zuuluu = option[zuuluu];
-                golfie = undefined;
-                tangon = tangon.bind(golfie)(zuuluu);
-                zuuluu = tangon.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-                oscard = _closure1_slot1;
-                entity = 6;
-                entity = option[entity];
-                golfie = oscard.bind(golfie)(entity);
-                oscard = golfie.fromTimestamp;
-                entity = global;
-                option = entity.Date;
-                entity = option.now;
-                entity = entity.bind(option)();
-                entity = oscard.bind(golfie)(entity);
-                entity = zuuluu.bind(tangon)(report, entity);
-                zuuluu = entity.isDismissed;
-                var _closure3_slot1 = zuuluu;
-                entity = {};
-                entity['isDismissed'] = zuuluu;
-                michal = function() { // Original name: handleToggleDismissState
-                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+            var5 = function toggleSnowflakeBoundDismissibleContent(arg1) {
+                var5 = arg1;
+                var _closure3_slot0 = var5;
+                var4 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var3 = 5;
+                var3 = var8[var3];
+                var7 = undefined;
+                var4 = var4.bind(var7)(var3);
+                var3 = var4.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+                var6 = _closure1_slot1;
+                var1 = 6;
+                var1 = var8[var1];
+                var7 = var6.bind(var7)(var1);
+                var6 = var7.fromTimestamp;
+                var1 = global;
+                var8 = var1.Date;
+                var1 = var8.now;
+                var1 = var1.bind(var8)();
+                var1 = var6.bind(var7)(var1);
+                var1 = var3.bind(var4)(var5, var1);
+                var3 = var1.isDismissed;
+                var _closure3_slot1 = var3;
+                var1 = {};
+                var1['isDismissed'] = var3;
+                var2 = function handleToggleDismissState() {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                        report = _closure1_slot4;
-                        tangon = _closure3_slot0;
-                        zuuluu = _closure3_slot1;
-                        entity = undefined;
-                        tangon = report.bind(entity)(tangon, zuuluu);
-                        tangon = _closure1_slot0;
-                        report = _closure1_slot2;
-                        if(zuuluu) { _fun00014_ip = 130; continue _fun00013 }
+                        var5 = _closure1_slot4;
+                        var4 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var1 = undefined;
+                        var4 = var5.bind(var1)(var4, var3);
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        if(var3) { _fun0007_ip = 130; continue _fun0007 }
  37:
-                        zuuluu = 3;
-                        oscard = report[zuuluu];
-                        option = tangon.bind(entity)(oscard);
-                        golfie = option.addSnowflakeBoundDismissedContent;
-                        oscard = _closure3_slot0;
-                        offset = _closure1_slot1;
-                        verify = 6;
-                        verify = report[verify];
-                        offset = offset.bind(entity)(verify);
-                        verify = offset.fromTimestamp;
-                        yankee = global;
-                        romeon = yankee.Date;
-                        yankee = romeon.now;
-                        yankee = yankee.bind(romeon)();
-                        zuuluu = report[zuuluu];
-                        zuuluu = tangon.bind(entity)(zuuluu);
-                        zuuluu = zuuluu.SNOWFLAKE_BOUND_DISMISSIBLE_CONTENT_DURATION_MS;
-                        zuuluu = yankee + zuuluu;
-                        zuuluu = verify.bind(offset)(zuuluu);
-                        zuuluu = golfie.bind(option)(oscard, zuuluu);
-                        _fun00014_ip = 157; continue _fun00013;
+                        var3 = 3;
+                        var6 = var5[var3];
+                        var8 = var4.bind(var1)(var6);
+                        var7 = var8.addSnowflakeBoundDismissedContent;
+                        var6 = _closure3_slot0;
+                        var10 = _closure1_slot1;
+                        var9 = 6;
+                        var9 = var5[var9];
+                        var10 = var10.bind(var1)(var9);
+                        var9 = var10.fromTimestamp;
+                        var11 = global;
+                        var12 = var11.Date;
+                        var11 = var12.now;
+                        var11 = var11.bind(var12)();
+                        var3 = var5[var3];
+                        var3 = var4.bind(var1)(var3);
+                        var3 = var3.SNOWFLAKE_BOUND_DISMISSIBLE_CONTENT_DURATION_MS;
+                        var3 = var11 + var3;
+                        var3 = var9.bind(var10)(var3);
+                        var3 = var7.bind(var8)(var6, var3);
+                        _fun0007_ip = 157; continue _fun0007;
  130:
-                        zuuluu = 4;
-                        zuuluu = report[zuuluu];
-                        tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = tangon.removeDismissedRecurringContent;
-                        michal = _closure3_slot0;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = 4;
+                        var3 = var5[var3];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.removeDismissedRecurringContent;
+                        var2 = _closure3_slot0;
+                        var2 = var3.bind(var4)(var2);
  157:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity['handleToggleDismissState'] = michal;
-                return entity;
+                var1['handleToggleDismissState'] = var2;
+                return var1;
             };
-            entity = report.bind(zuuluu)(tangon);
+            var1 = var5.bind(var3)(var4);
  198:
-            _fun00004_ip = 212; continue _fun00003;
+            _fun0002_ip = 212; continue _fun0002;
  200:
-            michal = function(argFoo) { // Original name: toggleVersionedDismissibleContent
-                tangon = argFoo;
-                var _closure3_slot0 = tangon;
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 2;
-                entity = oscard[entity];
-                zuuluu = undefined;
-                golfie = report.bind(zuuluu)(entity);
-                entity = golfie.getVersionedDismissibleContentCurrentVersion;
-                entity = entity.bind(golfie)(tangon);
-                var _closure3_slot1 = entity;
-                entity = 3;
-                entity = oscard[entity];
-                zuuluu = report.bind(zuuluu)(entity);
-                entity = zuuluu.isVersionedDismissibleContentDismissed;
-                entity = entity.bind(zuuluu)(tangon);
-                zuuluu = entity.isDismissed;
-                var _closure3_slot2 = zuuluu;
-                entity = {};
-                entity['isDismissed'] = zuuluu;
-                michal = function() { // Original name: handleToggleDismissState
-                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+            var2 = function toggleVersionedDismissibleContent(arg1) {
+                var4 = arg1;
+                var _closure3_slot0 = var4;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 2;
+                var1 = var6[var1];
+                var3 = undefined;
+                var7 = var5.bind(var3)(var1);
+                var1 = var7.getVersionedDismissibleContentCurrentVersion;
+                var1 = var1.bind(var7)(var4);
+                var _closure3_slot1 = var1;
+                var1 = 3;
+                var1 = var6[var1];
+                var3 = var5.bind(var3)(var1);
+                var1 = var3.isVersionedDismissibleContentDismissed;
+                var1 = var1.bind(var3)(var4);
+                var3 = var1.isDismissed;
+                var _closure3_slot2 = var3;
+                var1 = {};
+                var1['isDismissed'] = var3;
+                var2 = function handleToggleDismissState() {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                        oscard = _closure1_slot4;
-                        tangon = _closure3_slot0;
-                        zuuluu = _closure3_slot2;
-                        entity = undefined;
-                        tangon = oscard.bind(entity)(tangon, zuuluu);
-                        tangon = _closure1_slot0;
-                        report = _closure1_slot2;
-                        if(zuuluu) { _fun00016_ip = 71; continue _fun00015 }
+                        var6 = _closure1_slot4;
+                        var4 = _closure3_slot0;
+                        var3 = _closure3_slot2;
+                        var1 = undefined;
+                        var4 = var6.bind(var1)(var4, var3);
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        if(var3) { _fun0008_ip = 71; continue _fun0008 }
  37:
-                        zuuluu = 3;
-                        zuuluu = report[zuuluu];
-                        option = tangon.bind(entity)(zuuluu);
-                        golfie = option.addVersionedDismissedContent;
-                        oscard = _closure3_slot0;
-                        zuuluu = _closure3_slot1;
-                        zuuluu = golfie.bind(option)(oscard, zuuluu);
-                        _fun00016_ip = 98; continue _fun00015;
+                        var3 = 3;
+                        var3 = var5[var3];
+                        var8 = var4.bind(var1)(var3);
+                        var7 = var8.addVersionedDismissedContent;
+                        var6 = _closure3_slot0;
+                        var3 = _closure3_slot1;
+                        var3 = var7.bind(var8)(var6, var3);
+                        _fun0008_ip = 98; continue _fun0008;
  71:
-                        zuuluu = 4;
-                        zuuluu = report[zuuluu];
-                        tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = tangon.removeDismissedRecurringContent;
-                        michal = _closure3_slot0;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = 4;
+                        var3 = var5[var3];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.removeDismissedRecurringContent;
+                        var2 = _closure3_slot0;
+                        var2 = var3.bind(var4)(var2);
  98:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity['handleToggleDismissState'] = michal;
-                return entity;
+                var1['handleToggleDismissState'] = var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(tangon);
+            var1 = var2.bind(var3)(var4);
  212:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

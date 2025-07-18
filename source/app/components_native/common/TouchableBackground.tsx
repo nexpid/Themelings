@@ -1,179 +1,179 @@
 // app/components_native/common/TouchableBackground.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.Pressable;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = 5;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.BACKGROUND_MODIFIER_ACTIVE;
-    verify['backgroundColor'] = offset;
-    tangon['default'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/common/TouchableBackground.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TouchableBackground
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot2 = var7;
+    var4 = var4.Pressable;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_MODIFIER_ACTIVE;
+    var9['backgroundColor'] = var10;
+    var4['default'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/common/TouchableBackground.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function TouchableBackground(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            yankee = oscard.activeBackgroundColor;
-            kiloes = oscard.pressableStyle;
-            offset = oscard.style;
-            golfie = oscard.children;
-            michal = oscard.onPressIn;
-            var _closure2_slot0 = michal;
-            sizing = oscard.onPressOut;
-            var _closure2_slot1 = sizing;
-            report = {'activeBackgroundColor': 0, 'pressableStyle': 0, 'style': 0, 'children': 0, 'onPressIn': 0, 'onPressOut': 0};
-            foxtra = null;
-            update = report;
-            echoed = null;
-            zuuluu = silentSetPrototypeOf(update, echoed);
-            zuuluu = 0;
-            update = {};
-            echoed = oscard;
-            result = report;
-            oscard = copyDataProperties(update, echoed, result);
-            option = _closure1_slot5;
-            tangon = undefined;
-            romeon = option.bind(tangon)();
-            option = _closure1_slot1;
-            backup = option.useState;
-            verify = false;
-            output = backup.bind(option)(verify);
-            backup = _closure1_slot0;
-            verify = 2;
-            backup = backup.bind(tangon)(output, verify);
-            verify = backup[zuuluu];
-            zuuluu = 1;
-            zuuluu = backup[zuuluu];
-            var _closure2_slot2 = zuuluu;
-            backup = option.useCallback;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var6 = arg1;
+            var11 = var6.activeBackgroundColor;
+            var15 = var6.pressableStyle;
+            var10 = var6.style;
+            var7 = var6.children;
+            var2 = var6.onPressIn;
+            var _closure2_slot0 = var2;
+            var16 = var6.onPressOut;
+            var _closure2_slot1 = var16;
+            var5 = {'activeBackgroundColor': 0, 'pressableStyle': 0, 'style': 0, 'children': 0, 'onPressIn': 0, 'onPressOut': 0};
+            var13 = null;
+            var20 = var5;
+            var19 = null;
+            var3 = silentSetPrototypeOf(var20, var19);
+            var3 = 0;
+            var20 = {};
+            var19 = var6;
+            var18 = var5;
+            var6 = copyDataProperties(var20, var19, var18);
+            var8 = _closure1_slot5;
+            var4 = undefined;
+            var12 = var8.bind(var4)();
+            var8 = _closure1_slot1;
+            var14 = var8.useState;
+            var9 = false;
+            var17 = var14.bind(var8)(var9);
+            var14 = _closure1_slot0;
+            var9 = 2;
+            var14 = var14.bind(var4)(var17, var9);
+            var9 = var14[var3];
+            var3 = 1;
+            var3 = var14[var3];
+            var _closure2_slot2 = var3;
+            var14 = var8.useCallback;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure2_slot2;
-                    entity = undefined;
-                    zuuluu = true;
-                    zuuluu = tangon.bind(entity)(zuuluu);
-                    tangon = _closure2_slot0;
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 38; continue _fun00003 }
+                    var4 = _closure2_slot2;
+                    var1 = undefined;
+                    var3 = true;
+                    var3 = var4.bind(var1)(var3);
+                    var4 = _closure2_slot0;
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0002_ip = 38; continue _fun0002 }
  26:
-                    zuuluu = _closure2_slot0;
-                    michal = argFoo;
-                    michal = zuuluu.bind(entity)(michal);
+                    var3 = _closure2_slot0;
+                    var2 = arg1;
+                    var2 = var3.bind(var1)(var2);
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            backup = backup.bind(option)(michal, zuuluu);
-            zuuluu = option.useCallback;
-            michal = new Array(1);
-            michal[0] = sizing;
-            entity = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var14 = var14.bind(var8)(var2, var3);
+            var3 = var8.useCallback;
+            var2 = new Array(1);
+            var2[0] = var16;
+            var1 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00006_ip = 27; continue _fun00005 }
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 27; continue _fun0003 }
  13:
-                    tangon = _closure2_slot1;
-                    zuuluu = undefined;
-                    michal = argFoo;
-                    michal = tangon.bind(zuuluu)(michal);
+                    var4 = _closure2_slot1;
+                    var3 = undefined;
+                    var2 = arg1;
+                    var2 = var4.bind(var3)(var2);
  27:
-                    zuuluu = _closure2_slot2;
-                    entity = undefined;
-                    michal = false;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var3 = _closure2_slot2;
+                    var1 = undefined;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            option = zuuluu.bind(option)(entity, michal);
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot3;
-            entity = {};
-            sizing = 'button';
-            entity['accessibilityRole'] = sizing;
-            entity['style'] = kiloes;
-            update = entity;
-            echoed = oscard;
-            oscard = copyDataProperties(update, echoed);
-            oscard = 'onPressIn';
-            entity[oscard] = backup;
-            oscard = 'onPressOut';
-            entity[oscard] = option;
-            oscard = _closure1_slot2;
-            report = {};
-            option = new Array(2);
-            option[0] = offset;
-            if(!verify) { _fun00002_ip = 285; continue _fun00001 }
+            var8 = var3.bind(var8)(var1, var2);
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var16 = 'button';
+            var1['accessibilityRole'] = var16;
+            var1['style'] = var15;
+            var20 = var1;
+            var19 = var6;
+            var6 = copyDataProperties(var20, var19);
+            var6 = 'onPressIn';
+            var1[var6] = var14;
+            var6 = 'onPressOut';
+            var1[var6] = var8;
+            var6 = _closure1_slot2;
+            var5 = {};
+            var8 = new Array(2);
+            var8[0] = var10;
+            if(!var9) { _fun0001_ip = 285; continue _fun0001 }
  262:
-            offset = {};
-            if(!(foxtra == yankee)) { _fun00002_ip = 278; continue _fun00001 }
+            var10 = {};
+            if(!(var13 == var11)) { _fun0001_ip = 278; continue _fun0001 }
  268:
-            romeon = romeon.default;
-            yankee = romeon.backgroundColor;
+            var12 = var12.default;
+            var11 = var12.backgroundColor;
  278:
-            offset['backgroundColor'] = yankee;
-            verify = offset;
+            var10['backgroundColor'] = var11;
+            var9 = var10;
  285:
-            option[1] = verify;
-            report['style'] = option;
-            report['children'] = golfie;
-            oscard = zuuluu.bind(tangon)(oscard, report);
-            report = 'children';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var8[1] = var9;
+            var5['style'] = var8;
+            var5['children'] = var7;
+            var6 = var3.bind(var4)(var6, var5);
+            var5 = 'children';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

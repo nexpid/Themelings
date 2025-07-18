@@ -1,204 +1,204 @@
 // app/modules/guild_member_verification/MemberVerificationUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AUTOMATIC_APPROVAL_FORM_FIELDS;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.MANUAL_APPROVAL_FORM_FIELDS;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_member_verification/MemberVerificationUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AUTOMATIC_APPROVAL_FORM_FIELDS;
+    var _closure1_slot2 = var7;
+    var4 = var4.MANUAL_APPROVAL_FORM_FIELDS;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_member_verification/MemberVerificationUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.required;
-            zuuluu = michal.response;
-            report = michal.field_type;
-            if(entity) { _fun00002_ip = 28; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.required;
+            var3 = var2.response;
+            var5 = var2.field_type;
+            if(var1) { _fun0001_ip = 28; continue _fun0001 }
  24:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  28:
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 311; continue _fun00001 }
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 311; continue _fun0001 }
  37:
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            golfie = 2;
-            tangon = michal[golfie];
-            michal = undefined;
-            tangon = oscard.bind(michal)(tangon);
-            tangon = tangon.VerificationFormFieldTypes;
-            tangon = tangon.TERMS;
-            if(!(tangon !== report)) { _fun00002_ip = 296; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var7 = 2;
+            var4 = var2[var7];
+            var2 = undefined;
+            var4 = var6.bind(var2)(var4);
+            var4 = var4.VerificationFormFieldTypes;
+            var4 = var4.TERMS;
+            if(!(var4 !== var5)) { _fun0001_ip = 296; continue _fun0001 }
  81:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            tangon = oscard.bind(michal)(tangon);
-            tangon = tangon.VerificationFormFieldTypes;
-            tangon = tangon.VERIFICATION;
-            if(!(tangon !== report)) { _fun00002_ip = 296; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var7];
+            var4 = var6.bind(var2)(var4);
+            var4 = var4.VerificationFormFieldTypes;
+            var4 = var4.VERIFICATION;
+            if(!(var4 !== var5)) { _fun0001_ip = 296; continue _fun0001 }
  117:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            tangon = oscard.bind(michal)(tangon);
-            tangon = tangon.VerificationFormFieldTypes;
-            tangon = tangon.TEXT_INPUT;
-            if(!(tangon !== report)) { _fun00002_ip = 262; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var7];
+            var4 = var6.bind(var2)(var4);
+            var4 = var4.VerificationFormFieldTypes;
+            var4 = var4.TEXT_INPUT;
+            if(!(var4 !== var5)) { _fun0001_ip = 262; continue _fun0001 }
  150:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            tangon = oscard.bind(michal)(tangon);
-            tangon = tangon.VerificationFormFieldTypes;
-            tangon = tangon.PARAGRAPH;
-            if(!(tangon !== report)) { _fun00002_ip = 262; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var7];
+            var4 = var6.bind(var2)(var4);
+            var4 = var4.VerificationFormFieldTypes;
+            var4 = var4.PARAGRAPH;
+            if(!(var4 !== var5)) { _fun0001_ip = 262; continue _fun0001 }
  183:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            tangon = oscard.bind(michal)(tangon);
-            tangon = tangon.VerificationFormFieldTypes;
-            tangon = tangon.MULTIPLE_CHOICE;
-            if(!(tangon !== report)) { _fun00002_ip = 249; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var7];
+            var4 = var6.bind(var2)(var4);
+            var4 = var4.VerificationFormFieldTypes;
+            var4 = var4.MULTIPLE_CHOICE;
+            if(!(var4 !== var5)) { _fun0001_ip = 249; continue _fun0001 }
  216:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 3;
-            entity = oscard[entity];
-            tangon = tangon.bind(michal)(entity);
-            entity = tangon.assertNever;
-            entity = entity.bind(tangon)(report);
-            return entity;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 3;
+            var1 = var6[var1];
+            var4 = var4.bind(var2)(var1);
+            var1 = var4.assertNever;
+            var1 = var1.bind(var4)(var5);
+            return var1;
  249:
-            tangon = 'number';
-            entity = typeof zuuluu;
-            entity = tangon === entity;
-            return entity;
+            var4 = 'number';
+            var1 = typeof var3;
+            var1 = var4 === var1;
+            return var1;
  262:
-            tangon = 'string';
-            entity = typeof zuuluu;
-            entity = tangon === entity;
-            if(!entity) { _fun00002_ip = 294; continue _fun00001 }
+            var4 = 'string';
+            var1 = typeof var3;
+            var1 = var4 === var1;
+            if(!var1) { _fun0001_ip = 294; continue _fun0001 }
  276:
-            tangon = zuuluu.trim;
-            report = tangon.bind(zuuluu)();
-            tangon = '';
-            entity = tangon !== report;
+            var4 = var3.trim;
+            var5 = var4.bind(var3)();
+            var4 = '';
+            var1 = var4 !== var5;
  294:
-            return entity;
+            return var1;
  296:
-            entity = global;
-            entity = entity.Boolean;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var1 = global;
+            var1 = var1.Boolean;
+            var1 = var1.bind(var2)(var3);
+            return var1;
  311:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isValidFormResponse'] = tangon;
-    tangon = function(argFoo) { // Original name: removeInternalFields
-        zuuluu = argFoo;
-        michal = zuuluu.filter;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.field_type;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 2;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
-            entity = entity.VerificationFormFieldTypes;
-            entity = entity.VERIFICATION;
-            entity = michal !== entity;
-            return entity;
+    var3['isValidFormResponse'] = var4;
+    var4 = function removeInternalFields(arg1) {
+        var3 = arg1;
+        var2 = var3.filter;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.field_type;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 2;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            var1 = var1.VerificationFormFieldTypes;
+            var1 = var1.VERIFICATION;
+            var1 = var2 !== var1;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['removeInternalFields'] = tangon;
-    tangon = function(argFoo) { // Original name: isAutomaticApprovalFormField
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['removeInternalFields'] = var4;
+    var4 = function isAutomaticApprovalFormField(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.has;
-            entity = null;
-            report = entity == tangon;
-            entity = undefined;
-            if(report) { _fun00004_ip = 32; continue _fun00003 }
+            var4 = arg1;
+            var3 = _closure1_slot2;
+            var2 = var3.has;
+            var1 = null;
+            var5 = var1 == var4;
+            var1 = undefined;
+            if(var5) { _fun0002_ip = 32; continue _fun0002 }
  26:
-            entity = tangon.field_type;
+            var1 = var4.field_type;
  32:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['isAutomaticApprovalFormField'] = tangon;
-    tangon = function(argFoo) { // Original name: isManualApprovalFormField
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isAutomaticApprovalFormField'] = var4;
+    var4 = function isManualApprovalFormField(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.has;
-            entity = null;
-            report = entity == tangon;
-            entity = undefined;
-            if(report) { _fun00006_ip = 32; continue _fun00005 }
+            var4 = arg1;
+            var3 = _closure1_slot3;
+            var2 = var3.has;
+            var1 = null;
+            var5 = var1 == var4;
+            var1 = undefined;
+            if(var5) { _fun0003_ip = 32; continue _fun0003 }
  26:
-            entity = tangon.field_type;
+            var1 = var4.field_type;
  32:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['isManualApprovalFormField'] = tangon;
-    michal = function(argFoo) { // Original name: guildHasVerificationGate
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isManualApprovalFormField'] = var4;
+    var2 = function guildHasVerificationGate(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00008_ip = 41; continue _fun00007 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0004_ip = 41; continue _fun0004 }
  12:
-            tangon = michal.features;
-            zuuluu = tangon.has;
-            michal = _closure1_slot4;
-            michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
-            entity = zuuluu.bind(tangon)(michal);
+            var4 = var2.features;
+            var3 = var4.has;
+            var2 = _closure1_slot4;
+            var2 = var2.MEMBER_VERIFICATION_GATE_ENABLED;
+            var1 = var3.bind(var4)(var2);
  41:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['guildHasVerificationGate'] = michal;
-    return entity;
+    var3['guildHasVerificationGate'] = var2;
+    return var1;
 })();

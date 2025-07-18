@@ -1,213 +1,213 @@
 // app/modules/activities/utils/canJoinActivity.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ActivityFlags;
-    var _closure1_slot3 = golfie;
-    golfie = tangon.ChannelTypes;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/canJoinActivity.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: canJoinActivity
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ActivityFlags;
+    var _closure1_slot3 = var7;
+    var7 = var4.ChannelTypes;
+    var _closure1_slot4 = var7;
+    var4 = var4.GuildFeatures;
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/canJoinActivity.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function canJoinActivity(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            sizing = entity.user;
-            kiloes = entity.activity;
-            romeon = entity.application;
-            backup = entity.channelId;
-            foxtra = entity.currentUser;
-            michal = entity.isEmbedded;
-            offset = entity.ChannelStore;
-            golfie = entity.GuildStore;
-            oscard = entity.GuildMemberCountStore;
-            echoed = entity.RelationshipStore;
-            output = entity.SelectedChannelStore;
-            verify = entity.VoiceStateStore;
-            option = entity.PermissionStore;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            tangon = undefined;
-            report = report.bind(tangon)(entity);
-            entity = report.getIsActivitiesEnabledForCurrentPlatform;
-            yankee = entity.bind(report)();
-            entity = null;
-            if(!(entity != sizing)) { _fun00002_ip = 622; continue _fun00001 }
+            var1 = arg1;
+            var16 = var1.user;
+            var15 = var1.activity;
+            var12 = var1.application;
+            var14 = var1.channelId;
+            var13 = var1.currentUser;
+            var2 = var1.isEmbedded;
+            var10 = var1.ChannelStore;
+            var7 = var1.GuildStore;
+            var6 = var1.GuildMemberCountStore;
+            var19 = var1.RelationshipStore;
+            var17 = var1.SelectedChannelStore;
+            var9 = var1.VoiceStateStore;
+            var8 = var1.PermissionStore;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var4 = undefined;
+            var5 = var5.bind(var4)(var1);
+            var1 = var5.getIsActivitiesEnabledForCurrentPlatform;
+            var11 = var1.bind(var5)();
+            var1 = null;
+            if(!(var1 != var16)) { _fun0001_ip = 622; continue _fun0001 }
  122:
-            if(!michal) { _fun00002_ip = 132; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 132; continue _fun0001 }
  125:
-            if(!(entity == backup)) { _fun00002_ip = 512; continue _fun00001 }
+            if(!(var1 == var14)) { _fun0001_ip = 512; continue _fun0001 }
  132:
-            if(!michal) { _fun00002_ip = 182; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 182; continue _fun0001 }
  135:
-            if(!(entity == backup)) { _fun00002_ip = 182; continue _fun00001 }
+            if(!(var1 == var14)) { _fun0001_ip = 182; continue _fun0001 }
  139:
-            result = _closure1_slot1;
-            update = _closure1_slot2;
-            report = 3;
-            report = update[report];
-            result = result.bind(tangon)(report);
-            report = _closure1_slot3;
-            report = report.CONTEXTLESS;
-            report = result.bind(tangon)(kiloes, report);
-            if(report) { _fun00002_ip = 182; continue _fun00001 }
+            var18 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var5 = 3;
+            var5 = var20[var5];
+            var18 = var18.bind(var4)(var5);
+            var5 = _closure1_slot3;
+            var5 = var5.CONTEXTLESS;
+            var5 = var18.bind(var4)(var15, var5);
+            if(var5) { _fun0001_ip = 182; continue _fun0001 }
  178:
-            report = false;
-            return report;
+            var5 = false;
+            return var5;
  182:
-            result = _closure1_slot0;
-            update = _closure1_slot2;
-            report = 4;
-            report = update[report];
-            result = result.bind(tangon)(report);
-            report = result.isDesktop;
-            report = report.bind(result)();
-            if(report) { _fun00002_ip = 222; continue _fun00001 }
+            var18 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var5 = 4;
+            var5 = var20[var5];
+            var18 = var18.bind(var4)(var5);
+            var5 = var18.isDesktop;
+            var5 = var5.bind(var18)();
+            if(var5) { _fun0001_ip = 222; continue _fun0001 }
  215:
-            if(michal) { _fun00002_ip = 222; continue _fun00001 }
+            if(var2) { _fun0001_ip = 222; continue _fun0001 }
  218:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  222:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            result = 3;
-            michal = michal[result];
-            report = report.bind(tangon)(michal);
-            michal = _closure1_slot3;
-            michal = michal.PARTY_PRIVACY_FRIENDS;
-            michal = report.bind(tangon)(kiloes, michal);
-            if(!michal) { _fun00002_ip = 283; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var18 = 3;
+            var2 = var2[var18];
+            var5 = var5.bind(var4)(var2);
+            var2 = _closure1_slot3;
+            var2 = var2.PARTY_PRIVACY_FRIENDS;
+            var2 = var5.bind(var4)(var15, var2);
+            if(!var2) { _fun0001_ip = 283; continue _fun0001 }
  261:
-            report = echoed.isFriend;
-            michal = sizing.id;
-            michal = report.bind(echoed)(michal);
-            if(michal) { _fun00002_ip = 508; continue _fun00001 }
+            var5 = var19.isFriend;
+            var2 = var16.id;
+            var2 = var5.bind(var19)(var2);
+            if(var2) { _fun0001_ip = 508; continue _fun0001 }
  283:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[result];
-            report = report.bind(tangon)(michal);
-            michal = _closure1_slot3;
-            michal = michal.PARTY_PRIVACY_VOICE_CHANNEL;
-            michal = report.bind(tangon)(kiloes, michal);
-            if(michal) { _fun00002_ip = 323; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var18];
+            var5 = var5.bind(var4)(var2);
+            var2 = _closure1_slot3;
+            var2 = var2.PARTY_PRIVACY_VOICE_CHANNEL;
+            var2 = var5.bind(var4)(var15, var2);
+            if(var2) { _fun0001_ip = 323; continue _fun0001 }
  319:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  323:
-            report = offset.getChannel;
-            michal = output.getVoiceChannelId;
-            michal = michal.bind(output)();
-            output = report.bind(offset)(michal);
-            if(!(entity != output)) { _fun00002_ip = 504; continue _fun00001 }
+            var5 = var10.getChannel;
+            var2 = var17.getVoiceChannelId;
+            var2 = var2.bind(var17)();
+            var17 = var5.bind(var10)(var2);
+            if(!(var1 != var17)) { _fun0001_ip = 504; continue _fun0001 }
  350:
-            result = verify.isInChannel;
-            report = output.id;
-            michal = sizing.id;
-            michal = result.bind(verify)(report, michal);
-            if(!michal) { _fun00002_ip = 504; continue _fun00001 }
+            var18 = var9.isInChannel;
+            var5 = var17.id;
+            var2 = var16.id;
+            var2 = var18.bind(var9)(var5, var2);
+            if(!var2) { _fun0001_ip = 504; continue _fun0001 }
  378:
-            report = output.type;
-            michal = _closure1_slot4;
-            michal = michal.DM;
-            if(!(michal !== report)) { _fun00002_ip = 500; continue _fun00001 }
+            var5 = var17.type;
+            var2 = _closure1_slot4;
+            var2 = var2.DM;
+            if(!(var2 !== var5)) { _fun0001_ip = 500; continue _fun0001 }
  397:
-            michal = _closure1_slot4;
-            michal = michal.GROUP_DM;
-            if(!(michal !== report)) { _fun00002_ip = 500; continue _fun00001 }
+            var2 = _closure1_slot4;
+            var2 = var2.GROUP_DM;
+            if(!(var2 !== var5)) { _fun0001_ip = 500; continue _fun0001 }
  411:
-            report = golfie.getGuild;
-            michal = output.getGuildId;
-            michal = michal.bind(output)();
-            michal = report.bind(golfie)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 496; continue _fun00001 }
+            var5 = var7.getGuild;
+            var2 = var17.getGuildId;
+            var2 = var2.bind(var17)();
+            var2 = var5.bind(var7)(var2);
+            if(!(var1 != var2)) { _fun0001_ip = 496; continue _fun0001 }
  435:
-            result = michal.features;
-            output = result.has;
-            report = _closure1_slot5;
-            report = report.COMMUNITY;
-            report = output.bind(result)(report);
-            if(report) { _fun00002_ip = 496; continue _fun00001 }
+            var18 = var2.features;
+            var17 = var18.has;
+            var5 = _closure1_slot5;
+            var5 = var5.COMMUNITY;
+            var5 = var17.bind(var18)(var5);
+            if(var5) { _fun0001_ip = 496; continue _fun0001 }
  464:
-            report = oscard.getMemberCount;
-            michal = michal.id;
-            report = report.bind(oscard)(michal);
-            entity = entity != report;
-            if(!entity) { _fun00002_ip = 494; continue _fun00001 }
+            var5 = var6.getMemberCount;
+            var2 = var2.id;
+            var5 = var5.bind(var6)(var2);
+            var1 = var1 != var5;
+            if(!var1) { _fun0001_ip = 494; continue _fun0001 }
  487:
-            michal = 100;
-            entity = report < michal;
+            var2 = 100;
+            var1 = var5 < var2;
  494:
-            return entity;
+            return var1;
  496:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  500:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  504:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  508:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  512:
-            oscard = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 2;
-            michal = report[entity];
-            oscard = oscard.bind(tangon)(michal);
-            michal = {};
-            sizing = sizing.id;
-            michal['userId'] = sizing;
-            michal['activity'] = kiloes;
-            michal['channelId'] = backup;
-            michal['currentUser'] = foxtra;
-            michal['application'] = romeon;
-            michal['isActivitiesEnabledForCurrentPlatform'] = yankee;
-            michal['ChannelStore'] = offset;
-            michal['VoiceStateStore'] = verify;
-            michal['PermissionStore'] = option;
-            michal['GuildStore'] = golfie;
-            michal = oscard.bind(tangon)(michal);
-            zuuluu = _closure1_slot0;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.EmbeddedActivityJoinability;
-            entity = entity.CAN_JOIN;
-            entity = michal === entity;
-            return entity;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 2;
+            var2 = var5[var1];
+            var6 = var6.bind(var4)(var2);
+            var2 = {};
+            var16 = var16.id;
+            var2['userId'] = var16;
+            var2['activity'] = var15;
+            var2['channelId'] = var14;
+            var2['currentUser'] = var13;
+            var2['application'] = var12;
+            var2['isActivitiesEnabledForCurrentPlatform'] = var11;
+            var2['ChannelStore'] = var10;
+            var2['VoiceStateStore'] = var9;
+            var2['PermissionStore'] = var8;
+            var2['GuildStore'] = var7;
+            var2 = var6.bind(var4)(var2);
+            var3 = _closure1_slot0;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.EmbeddedActivityJoinability;
+            var1 = var1.CAN_JOIN;
+            var1 = var2 === var1;
+            return var1;
  622:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

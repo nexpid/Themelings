@@ -1,76 +1,76 @@
 // app/modules/system_date_format/SystemDateFormatter.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        tangon = argFoo;
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        michal = {};
-        verify = true;
-        michal['value'] = verify;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, michal);
-        entity = 0;
-        michal = oscard[entity];
-        entity = undefined;
-        michal = report.bind(entity)(michal);
-        michal = michal.NativeModules;
-        golfie = tangon.__DiscordCreateDateFormatter;
-        option = null;
-        if(!(option == golfie)) { _fun00002_ip = 187; continue _fun00001 }
+        var4 = native1;
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var2 = {};
+        var9 = true;
+        var2['value'] = var9;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var2);
+        var1 = 0;
+        var2 = var6[var1];
+        var1 = undefined;
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.NativeModules;
+        var7 = var4.__DiscordCreateDateFormatter;
+        var8 = null;
+        if(!(var8 == var7)) { _fun0001_ip = 187; continue _fun0001 }
  75:
-        golfie = 1;
-        golfie = oscard[golfie];
-        offset = report.bind(entity)(golfie);
-        golfie = offset.isAndroid;
-        golfie = golfie.bind(offset)();
-        if(golfie) { _fun00002_ip = 109; continue _fun00001 }
+        var7 = 1;
+        var7 = var6[var7];
+        var10 = var5.bind(var1)(var7);
+        var7 = var10.isAndroid;
+        var7 = var7.bind(var10)();
+        if(var7) { _fun0001_ip = 109; continue _fun0001 }
  99:
-        offset = michal.DateFormatUtils;
-        _fun00002_ip = 124; continue _fun00001;
+        var10 = var2.DateFormatUtils;
+        _fun0001_ip = 124; continue _fun0001;
  109:
-        michal = 2;
-        golfie = oscard[michal];
-        michal = argBaz;
-        offset = michal.bind(entity)(golfie);
+        var2 = 2;
+        var7 = var6[var2];
+        var2 = native3;
+        var10 = var2.bind(var1)(var7);
  124:
-        michal = option == offset;
-        golfie = undefined;
-        if(michal) { _fun00002_ip = 158; continue _fun00001 }
+        var2 = var8 == var10;
+        var7 = undefined;
+        if(var2) { _fun0001_ip = 158; continue _fun0001 }
  133:
-        michal = offset.activate;
-        michal = option == michal;
-        golfie = undefined;
-        if(michal) { _fun00002_ip = 158; continue _fun00001 }
+        var2 = var10.activate;
+        var2 = var8 == var2;
+        var7 = undefined;
+        if(var2) { _fun0001_ip = 158; continue _fun0001 }
  148:
-        michal = offset.activate;
-        golfie = michal.bind(offset)();
+        var2 = var10.activate;
+        var7 = var2.bind(var10)();
  158:
-        michal = undefined;
-        if(!(verify === golfie)) { _fun00002_ip = 185; continue _fun00001 }
+        var2 = undefined;
+        if(!(var9 === var7)) { _fun0001_ip = 185; continue _fun0001 }
  164:
-        golfie = tangon.__DiscordCreateDateFormatter;
-        golfie = option != golfie;
-        michal = undefined;
-        if(!golfie) { _fun00002_ip = 185; continue _fun00001 }
+        var7 = var4.__DiscordCreateDateFormatter;
+        var7 = var8 != var7;
+        var2 = undefined;
+        if(!var7) { _fun0001_ip = 185; continue _fun0001 }
  179:
-        michal = tangon.__DiscordCreateDateFormatter;
+        var2 = var4.__DiscordCreateDateFormatter;
  185:
-        _fun00002_ip = 193; continue _fun00001;
+        _fun0001_ip = 193; continue _fun0001;
  187:
-        michal = tangon.__DiscordCreateDateFormatter;
+        var2 = var4.__DiscordCreateDateFormatter;
  193:
-        tangon = 3;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/system_date_format/SystemDateFormatter.native.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['makeFormatter'] = michal;
-        return entity;
+        var4 = 3;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/system_date_format/SystemDateFormatter.native.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['makeFormatter'] = var2;
+        return var1;
     }
 })();

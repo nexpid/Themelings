@@ -1,235 +1,235 @@
 // app/modules/chat/native/computeScrollData.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo, argBar) { // Original name: findMessageRowIndex
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function findMessageRowIndex(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = argBar;
-            var _closure2_slot0 = michal;
-            michal = zuuluu.findIndex;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = arg1;
+            var2 = arg2;
+            var _closure2_slot0 = var2;
+            var2 = var3.findIndex;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = argFoo;
-                    zuuluu = michal.message;
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+                    var2 = arg1;
+                    var3 = var2.message;
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0002_ip = 38; continue _fun0002 }
  17:
-                    michal = michal.message;
-                    zuuluu = michal.id;
-                    michal = _closure2_slot0;
-                    entity = zuuluu === michal;
+                    var2 = var2.message;
+                    var3 = var2.id;
+                    var2 = _closure2_slot0;
+                    var1 = var3 === var2;
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            michal = -1;
-            if(!(michal === entity)) { _fun00002_ip = 44; continue _fun00001 }
+            var1 = var2.bind(var3)(var1);
+            var2 = -1;
+            if(!(var2 === var1)) { _fun0001_ip = 44; continue _fun0001 }
  40:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  44:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.RowType;
-    var _closure1_slot3 = option;
-    report = report.SeparatorType;
-    var _closure1_slot4 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/chat/native/computeScrollData.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: computeScrollData
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.RowType;
+    var _closure1_slot3 = var8;
+    var5 = var5.SeparatorType;
+    var _closure1_slot4 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/chat/native/computeScrollData.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function computeScrollData(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            yankee = michal.rows;
-            backup = michal.scrollToMessageId;
-            romeon = michal.jumpTargetId;
-            output = michal.jumpType;
-            entity = michal.shouldInitialScroll;
-            zuuluu = michal.animated;
-            golfie = michal.scrollPosition;
-            verify = michal.focusTargetId;
-            if(!entity) { _fun00006_ip = 83; continue _fun00005 }
+            var2 = arg1;
+            var11 = var2.rows;
+            var14 = var2.scrollToMessageId;
+            var12 = var2.jumpTargetId;
+            var17 = var2.jumpType;
+            var1 = var2.shouldInitialScroll;
+            var3 = var2.animated;
+            var7 = var2.scrollPosition;
+            var9 = var2.focusTargetId;
+            if(!var1) { _fun0003_ip = 83; continue _fun0003 }
  54:
-            entity = null;
-            if(!(entity == romeon)) { _fun00006_ip = 83; continue _fun00005 }
+            var1 = null;
+            if(!(var1 == var12)) { _fun0003_ip = 83; continue _fun0003 }
  60:
-            michal = function(argFoo) { // Original name: findUnreadSeperatorRowIndex
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var2 = function findUnreadSeperatorRowIndex(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = zuuluu.findIndex;
-                    entity = function(argFoo) {
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    var3 = arg1;
+                    var2 = var3.findIndex;
+                    var1 = function(arg1) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            zuuluu = argFoo;
-                            tangon = zuuluu.type;
-                            entity = _closure1_slot3;
-                            entity = entity.SEPARATOR;
-                            entity = tangon === entity;
-                            if(!entity) { _fun00010_ip = 47; continue _fun00009 }
+                            var3 = arg1;
+                            var4 = var3.type;
+                            var1 = _closure1_slot3;
+                            var1 = var1.SEPARATOR;
+                            var1 = var4 === var1;
+                            if(!var1) { _fun0005_ip = 47; continue _fun0005 }
  28:
-                            zuuluu = zuuluu.id;
-                            michal = _closure1_slot4;
-                            michal = michal.UNREAD;
-                            entity = zuuluu === michal;
+                            var3 = var3.id;
+                            var2 = _closure1_slot4;
+                            var2 = var2.UNREAD;
+                            var1 = var3 === var2;
  47:
-                            return entity;
+                            return var1;
                         }
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    michal = -1;
-                    if(!(michal === entity)) { _fun00008_ip = 37; continue _fun00007 }
+                    var1 = var2.bind(var3)(var1);
+                    var2 = -1;
+                    if(!(var2 === var1)) { _fun0004_ip = 37; continue _fun0004 }
  33:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  37:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = undefined;
-            oscard = michal.bind(tangon)(yankee);
-            if(!(entity == oscard)) { _fun00006_ip = 357; continue _fun00005 }
+            var4 = undefined;
+            var6 = var2.bind(var4)(var11);
+            if(!(var1 == var6)) { _fun0003_ip = 357; continue _fun0003 }
  83:
-            report = null;
-            michal = report != backup;
-            offset = undefined;
-            entity = undefined;
-            if(!michal) { _fun00006_ip = 272; continue _fun00005 }
+            var5 = null;
+            var2 = var5 != var14;
+            var10 = undefined;
+            var1 = undefined;
+            if(!var2) { _fun0003_ip = 272; continue _fun0003 }
  99:
-            michal = _closure1_slot5;
-            kiloes = michal.bind(offset)(yankee, backup);
-            michal = report != kiloes;
-            entity = undefined;
-            if(!michal) { _fun00006_ip = 272; continue _fun00005 }
+            var2 = _closure1_slot5;
+            var15 = var2.bind(var10)(var11, var14);
+            var2 = var5 != var15;
+            var1 = undefined;
+            if(!var2) { _fun0003_ip = 272; continue _fun0003 }
  124:
-            michal = {};
-            result = _closure1_slot0;
-            sizing = _closure1_slot1;
-            foxtra = 2;
-            sizing = sizing[foxtra];
-            sizing = result.bind(offset)(sizing);
-            sizing = sizing.ChatScrollType;
-            sizing = sizing.SCROLL;
-            michal['type'] = sizing;
-            michal['index'] = kiloes;
-            kiloes = _closure1_slot2;
-            kiloes = kiloes.useReducedMotion;
-            kiloes = !kiloes;
-            if(!kiloes) { _fun00006_ip = 218; continue _fun00005 }
+            var2 = {};
+            var18 = _closure1_slot0;
+            var16 = _closure1_slot1;
+            var13 = 2;
+            var16 = var16[var13];
+            var16 = var18.bind(var10)(var16);
+            var16 = var16.ChatScrollType;
+            var16 = var16.SCROLL;
+            var2['type'] = var16;
+            var2['index'] = var15;
+            var15 = _closure1_slot2;
+            var15 = var15.useReducedMotion;
+            var15 = !var15;
+            if(!var15) { _fun0003_ip = 218; continue _fun0003 }
  182:
-            result = _closure1_slot0;
-            echoed = _closure1_slot1;
-            sizing = 3;
-            sizing = echoed[sizing];
-            sizing = result.bind(offset)(sizing);
-            sizing = sizing.JumpTypes;
-            sizing = sizing.INSTANT;
-            kiloes = output !== sizing;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var16 = 3;
+            var16 = var19[var16];
+            var16 = var18.bind(var10)(var16);
+            var16 = var16.JumpTypes;
+            var16 = var16.INSTANT;
+            var15 = var17 !== var16;
  218:
-            michal['animate'] = kiloes;
-            romeon = backup === romeon;
-            michal['highlight'] = romeon;
-            if(!(report == golfie)) { _fun00006_ip = 265; continue _fun00005 }
+            var2['animate'] = var15;
+            var12 = var14 === var12;
+            var2['highlight'] = var12;
+            if(!(var5 == var7)) { _fun0003_ip = 265; continue _fun0003 }
  236:
-            romeon = _closure1_slot0;
-            option = _closure1_slot1;
-            option = option[foxtra];
-            option = romeon.bind(offset)(option);
-            option = option.ChatScrollPosition;
-            golfie = option.TOP;
+            var12 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var8 = var8[var13];
+            var8 = var12.bind(var10)(var8);
+            var8 = var8.ChatScrollPosition;
+            var7 = var8.TOP;
  265:
-            michal['position'] = golfie;
-            entity = michal;
+            var2['position'] = var7;
+            var1 = var2;
  272:
-            if(!(report == entity)) { _fun00006_ip = 355; continue _fun00005 }
+            if(!(var5 == var1)) { _fun0003_ip = 355; continue _fun0003 }
  276:
-            golfie = report != verify;
-            michal = undefined;
-            if(!golfie) { _fun00006_ip = 352; continue _fun00005 }
+            var7 = var5 != var9;
+            var2 = undefined;
+            if(!var7) { _fun0003_ip = 352; continue _fun0003 }
  285:
-            golfie = _closure1_slot5;
-            golfie = golfie.bind(offset)(yankee, verify);
-            report = report != golfie;
-            michal = undefined;
-            if(!report) { _fun00006_ip = 352; continue _fun00005 }
+            var7 = _closure1_slot5;
+            var7 = var7.bind(var10)(var11, var9);
+            var5 = var5 != var7;
+            var2 = undefined;
+            if(!var5) { _fun0003_ip = 352; continue _fun0003 }
  307:
-            report = {};
-            verify = _closure1_slot0;
-            yankee = _closure1_slot1;
-            option = 2;
-            option = yankee[option];
-            option = verify.bind(offset)(option);
-            option = option.ChatScrollType;
-            option = option.FOCUS_ONLY;
-            report['type'] = option;
-            report['index'] = golfie;
-            michal = report;
+            var5 = {};
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var8 = 2;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.ChatScrollType;
+            var8 = var8.FOCUS_ONLY;
+            var5['type'] = var8;
+            var5['index'] = var7;
+            var2 = var5;
  352:
-            entity = michal;
+            var1 = var2;
  355:
-            return entity;
+            return var1;
  357:
-            entity = {};
-            option = _closure1_slot0;
-            golfie = _closure1_slot1;
-            report = 2;
-            golfie = golfie[report];
-            golfie = option.bind(tangon)(golfie);
-            golfie = golfie.ChatScrollType;
-            golfie = golfie.SCROLL;
-            entity['type'] = golfie;
-            entity['index'] = oscard;
-            if(!zuuluu) { _fun00006_ip = 418; continue _fun00005 }
+            var1 = {};
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 2;
+            var7 = var7[var5];
+            var7 = var8.bind(var4)(var7);
+            var7 = var7.ChatScrollType;
+            var7 = var7.SCROLL;
+            var1['type'] = var7;
+            var1['index'] = var6;
+            if(!var3) { _fun0003_ip = 418; continue _fun0003 }
  405:
-            oscard = _closure1_slot2;
-            oscard = oscard.useReducedMotion;
-            zuuluu = !oscard;
+            var6 = _closure1_slot2;
+            var6 = var6.useReducedMotion;
+            var3 = !var6;
  418:
-            entity['animate'] = zuuluu;
-            zuuluu = false;
-            entity['highlight'] = zuuluu;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[report];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.ChatScrollPosition;
-            michal = michal.TOP;
-            entity['position'] = michal;
-            return entity;
+            var1['animate'] = var3;
+            var3 = false;
+            var1['highlight'] = var3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var5];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.ChatScrollPosition;
+            var2 = var2.TOP;
+            var1['position'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['findMessageRowIndex'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['findMessageRowIndex'] = var2;
+    return var1;
 })();

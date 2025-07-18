@@ -1,462 +1,462 @@
 // app/modules/premium/native/utils/GiftAnimationData.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    option = 0;
-    tangon = golfie[option];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.PremiumGiftStyles;
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    tangon['JSON'] = option;
-    report = 'JSON';
-    tangon[option] = report;
-    option = 1;
-    tangon['LOTTIE'] = option;
-    report = 'LOTTIE';
-    tangon[option] = report;
-    var _closure1_slot3 = tangon;
-    report = 28;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/premium/native/utils/GiftAnimationData.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['LottieType'] = tangon;
-    tangon = function(argFoo) { // Original name: getLottieType
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var8 = 0;
+    var4 = var7[var8];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.PremiumGiftStyles;
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var4['JSON'] = var8;
+    var5 = 'JSON';
+    var4[var8] = var5;
+    var8 = 1;
+    var4['LOTTIE'] = var8;
+    var5 = 'LOTTIE';
+    var4[var8] = var5;
+    var _closure1_slot3 = var4;
+    var5 = 28;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/premium/native/utils/GiftAnimationData.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['LottieType'] = var4;
+    var4 = function getLottieType(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = _closure1_slot2;
-            zuuluu = entity.NITROWEEN_STANDARD;
-            entity = argFoo;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 32; continue _fun00001 }
+            var1 = _closure1_slot2;
+            var3 = var1.NITROWEEN_STANDARD;
+            var1 = arg1;
+            if(!(var1 !== var3)) { _fun0001_ip = 32; continue _fun0001 }
  20:
-            entity = _closure1_slot3;
-            entity = entity.JSON;
-            _fun00002_ip = 42; continue _fun00001;
+            var1 = _closure1_slot3;
+            var1 = var1.JSON;
+            _fun0001_ip = 42; continue _fun0001;
  32:
-            michal = _closure1_slot3;
-            entity = michal.LOTTIE;
+            var2 = _closure1_slot3;
+            var1 = var2.LOTTIE;
  42:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getLottieType'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getGiftAnimationData
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getLottieType'] = var4;
+    var2 = function getGiftAnimationData(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            michal = _closure1_slot2;
-            michal = michal.NITROWEEN_STANDARD;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 1309; continue _fun00003 }
+            var3 = arg1;
+            var4 = arg2;
+            var2 = _closure1_slot2;
+            var2 = var2.NITROWEEN_STANDARD;
+            if(!(var2 !== var3)) { _fun0002_ip = 1309; continue _fun0002 }
  26:
-            michal = _closure1_slot2;
-            michal = michal.STANDARD_BOX;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 1172; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.STANDARD_BOX;
+            if(!(var2 !== var3)) { _fun0002_ip = 1172; continue _fun0002 }
  43:
-            michal = _closure1_slot2;
-            michal = michal.CAKE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 1035; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.CAKE;
+            if(!(var2 !== var3)) { _fun0002_ip = 1035; continue _fun0002 }
  60:
-            michal = _closure1_slot2;
-            michal = michal.CHEST;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 898; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.CHEST;
+            if(!(var2 !== var3)) { _fun0002_ip = 898; continue _fun0002 }
  77:
-            michal = _closure1_slot2;
-            michal = michal.COFFEE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 761; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.COFFEE;
+            if(!(var2 !== var3)) { _fun0002_ip = 761; continue _fun0002 }
  94:
-            michal = _closure1_slot2;
-            michal = michal.SEASONAL_STANDARD_BOX;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 624; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.SEASONAL_STANDARD_BOX;
+            if(!(var2 !== var3)) { _fun0002_ip = 624; continue _fun0002 }
  111:
-            michal = _closure1_slot2;
-            michal = michal.SEASONAL_CAKE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 487; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.SEASONAL_CAKE;
+            if(!(var2 !== var3)) { _fun0002_ip = 487; continue _fun0002 }
  128:
-            michal = _closure1_slot2;
-            michal = michal.SEASONAL_CHEST;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 350; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.SEASONAL_CHEST;
+            if(!(var2 !== var3)) { _fun0002_ip = 350; continue _fun0002 }
  145:
-            michal = _closure1_slot2;
-            michal = michal.SEASONAL_COFFEE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 213; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.SEASONAL_COFFEE;
+            if(!(var2 !== var3)) { _fun0002_ip = 213; continue _fun0002 }
  159:
-            michal = _closure1_slot2;
-            michal = michal.SNOWGLOBE;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 197; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.SNOWGLOBE;
+            if(!(var2 !== var3)) { _fun0002_ip = 197; continue _fun0002 }
  173:
-            michal = _closure1_slot2;
-            michal = michal.BOX;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 197; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var2 = var2.BOX;
+            if(!(var2 !== var3)) { _fun0002_ip = 197; continue _fun0002 }
  187:
-            michal = _closure1_slot2;
-            michal = michal.CUP;
+            var2 = _closure1_slot2;
+            var2 = var2.CUP;
  197:
-            michal = global;
-            zuuluu = michal.Error;
-            michal = undefined;
-            michal = zuuluu.bind(michal)();
-            throw michal;
+            var2 = global;
+            var3 = var2.Error;
+            var2 = undefined;
+            var2 = var3.bind(var2)();
+            throw var2;
  213:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 328; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 328; continue _fun0002 }
  251:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 306; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 306; continue _fun0002 }
  284:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 27;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 27;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  306:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 26;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 26;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  328:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 25;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 25;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  350:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 465; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 465; continue _fun0002 }
  388:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 443; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 443; continue _fun0002 }
  421:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 24;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 24;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  443:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 23;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 23;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  465:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 22;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 22;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  487:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 602; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 602; continue _fun0002 }
  525:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 580; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 580; continue _fun0002 }
  558:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 21;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 21;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  580:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 20;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 20;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  602:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 19;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 19;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  624:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 739; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 739; continue _fun0002 }
  662:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 717; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 717; continue _fun0002 }
  695:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 18;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 18;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  717:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 17;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 17;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  739:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 16;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 16;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  761:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 876; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 876; continue _fun0002 }
  799:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 854; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 854; continue _fun0002 }
  832:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 15;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 15;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  854:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 14;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 14;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  876:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 13;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 13;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  898:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1013; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1013; continue _fun0002 }
  936:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 991; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 991; continue _fun0002 }
  969:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 12;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 12;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  991:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 11;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 11;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1013:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 10;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 10;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1035:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1150; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1150; continue _fun0002 }
  1073:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 1128; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 1128; continue _fun0002 }
  1106:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 9;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 9;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1128:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 8;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 8;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1150:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 7;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 7;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1172:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1287; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1287; continue _fun0002 }
  1210:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 1265; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 1265; continue _fun0002 }
  1243:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 6;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 6;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1265:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 5;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 5;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1287:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 4;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 4;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
  1309:
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 1;
-            michal = michal[oscard];
-            zuuluu = undefined;
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.AnimationState;
-            michal = michal.IDLE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1402; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var3 = undefined;
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1402; continue _fun0002 }
  1347:
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.AnimationState;
-            michal = michal.LOOP;
-            if(!(michal !== tangon)) { _fun00004_ip = 1402; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 1402; continue _fun0002 }
  1380:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            michal = tangon.bind(zuuluu)(michal);
-            return michal;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 3;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            return var2;
  1402:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 2;
-            entity = tangon[entity];
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGiftAnimationData'] = michal;
-    return entity;
+    var3['getGiftAnimationData'] = var2;
+    return var1;
 })();

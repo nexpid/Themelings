@@ -1,66 +1,66 @@
 // app/modules/analytics_sessions/SessionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    report = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    report = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    tangon = tangon.Millis;
-    report = tangon.MINUTE;
-    tangon = 30;
-    report = tangon * report;
-    var _closure1_slot0 = report;
-    tangon = 1;
-    golfie = oscard[tangon];
-    oscard = argBar;
-    option = oscard.bind(entity)(golfie);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/analytics_sessions/SessionUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['SESSION_IDLE_TIMEOUT_MILLIS'] = report;
-    zuuluu['CLIENT_SESSION_STORAGE_VERSION'] = tangon;
-    tangon = function(argFoo) { // Original name: isSessionExpired
-        michal = _closure1_slot0;
-        entity = argFoo;
-        entity = entity.lastUsedTimestamp;
-        michal = michal + entity;
-        entity = global;
-        zuuluu = entity.Date;
-        entity = zuuluu.now;
-        entity = entity.bind(zuuluu)();
-        michal = michal - entity;
-        entity = 0;
-        entity = michal <= entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var5 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var5 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var4 = var4.Millis;
+    var5 = var4.MINUTE;
+    var4 = 30;
+    var5 = var4 * var5;
+    var _closure1_slot0 = var5;
+    var4 = 1;
+    var7 = var6[var4];
+    var6 = native2;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/analytics_sessions/SessionUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['SESSION_IDLE_TIMEOUT_MILLIS'] = var5;
+    var3['CLIENT_SESSION_STORAGE_VERSION'] = var4;
+    var4 = function isSessionExpired(arg1) {
+        var2 = _closure1_slot0;
+        var1 = arg1;
+        var1 = var1.lastUsedTimestamp;
+        var2 = var2 + var1;
+        var1 = global;
+        var3 = var1.Date;
+        var1 = var3.now;
+        var1 = var1.bind(var3)();
+        var2 = var2 - var1;
+        var1 = 0;
+        var1 = var2 <= var1;
+        return var1;
     };
-    zuuluu['isSessionExpired'] = tangon;
-    michal = function(argFoo) { // Original name: timestampOrZero
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['isSessionExpired'] = var4;
+    var2 = function timestampOrZero(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            michal = entity != tangon;
-            entity = 0;
-            if(!michal) { _fun00002_ip = 29; continue _fun00001 }
+            var4 = arg1;
+            var1 = null;
+            var2 = var1 != var4;
+            var1 = 0;
+            if(!var2) { _fun0001_ip = 29; continue _fun0001 }
  14:
-            michal = global;
-            zuuluu = michal.Number;
-            michal = undefined;
-            entity = zuuluu.bind(michal)(tangon);
+            var2 = global;
+            var3 = var2.Number;
+            var2 = undefined;
+            var1 = var3.bind(var2)(var4);
  29:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['timestampOrZero'] = michal;
-    return entity;
+    var3['timestampOrZero'] = var2;
+    return var1;
 })();

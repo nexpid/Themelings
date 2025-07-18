@@ -1,155 +1,155 @@
 // app/modules/guild_antiraid/GuildReportRaidModalConstants.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    report = {};
-    entity = 'DM_SPAM';
-    report['DM_SPAM'] = entity;
-    entity = 'MESSAGE_SPAM';
-    report['MESSAGE_SPAM'] = entity;
-    entity = 'MENTION_SPAM';
-    report['MENTION_SPAM'] = entity;
-    entity = 'SUSPICIOUS_USERS';
-    report['SUSPICIOUS_USERS'] = entity;
-    entity = 'SETTINGS_SPAM';
-    report['SETTINGS_SPAM'] = entity;
-    var _closure1_slot2 = report;
-    entity = report.MESSAGE_SPAM;
-    tangon = new Array(5);
-    tangon[0] = entity;
-    entity = report.DM_SPAM;
-    tangon[1] = entity;
-    entity = report.MENTION_SPAM;
-    tangon[2] = entity;
-    entity = report.SUSPICIOUS_USERS;
-    tangon[3] = entity;
-    entity = report.SETTINGS_SPAM;
-    tangon[4] = entity;
-    entity = 1;
-    oscard = oscard[entity];
-    entity = undefined;
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/guild_antiraid/GuildReportRaidModalConstants.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = 'https://discord.com/community/securing-your-server';
-    zuuluu['COMMUNITY_PORTAL_SERVER_SAFETY_PAGE'] = oscard;
-    zuuluu['ReportRaidTypes'] = report;
-    zuuluu['REPORT_RAID_OPTIONS'] = tangon;
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var5 = {};
+    var1 = 'DM_SPAM';
+    var5['DM_SPAM'] = var1;
+    var1 = 'MESSAGE_SPAM';
+    var5['MESSAGE_SPAM'] = var1;
+    var1 = 'MENTION_SPAM';
+    var5['MENTION_SPAM'] = var1;
+    var1 = 'SUSPICIOUS_USERS';
+    var5['SUSPICIOUS_USERS'] = var1;
+    var1 = 'SETTINGS_SPAM';
+    var5['SETTINGS_SPAM'] = var1;
+    var _closure1_slot2 = var5;
+    var1 = var5.MESSAGE_SPAM;
+    var4 = new Array(5);
+    var4[0] = var1;
+    var1 = var5.DM_SPAM;
+    var4[1] = var1;
+    var1 = var5.MENTION_SPAM;
+    var4[2] = var1;
+    var1 = var5.SUSPICIOUS_USERS;
+    var4[3] = var1;
+    var1 = var5.SETTINGS_SPAM;
+    var4[4] = var1;
+    var1 = 1;
+    var6 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/guild_antiraid/GuildReportRaidModalConstants.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = 'https://discord.com/community/securing-your-server';
+    var3['COMMUNITY_PORTAL_SERVER_SAFETY_PAGE'] = var6;
+    var3['ReportRaidTypes'] = var5;
+    var3['REPORT_RAID_OPTIONS'] = var4;
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot2;
-            michal = michal.DM_SPAM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 329; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot2;
+            var2 = var2.DM_SPAM;
+            if(!(var2 !== var3)) { _fun0001_ip = 329; continue _fun0001 }
  23:
-            michal = _closure1_slot2;
-            michal = michal.MENTION_SPAM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 269; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.MENTION_SPAM;
+            if(!(var2 !== var3)) { _fun0001_ip = 269; continue _fun0001 }
  40:
-            michal = _closure1_slot2;
-            michal = michal.MESSAGE_SPAM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 209; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.MESSAGE_SPAM;
+            if(!(var2 !== var3)) { _fun0001_ip = 209; continue _fun0001 }
  57:
-            michal = _closure1_slot2;
-            michal = michal.SETTINGS_SPAM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 149; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.SETTINGS_SPAM;
+            if(!(var2 !== var3)) { _fun0001_ip = 149; continue _fun0001 }
  71:
-            michal = _closure1_slot2;
-            michal = michal.SUSPICIOUS_USERS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 89; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.SUSPICIOUS_USERS;
+            if(!(var2 !== var3)) { _fun0001_ip = 89; continue _fun0001 }
  85:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  89:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 0;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.lKXu+v;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 0;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.lKXu+v;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  149:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 0;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.ETFVFx;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 0;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.ETFVFx;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  209:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 0;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.fwloj4;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 0;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.fwloj4;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  269:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 0;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.hR/IdH;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 0;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.hR/IdH;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  329:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.9CYNmZ;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.9CYNmZ;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getReportRaidTypeLabel'] = michal;
-    return entity;
+    var3['getReportRaidTypeLabel'] = var2;
+    return var1;
 })();

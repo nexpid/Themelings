@@ -1,147 +1,147 @@
 // app/utils/Uint8ArrayUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = function(argFoo, argBar) { // Original name: hasBit
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = function hasBit(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            michal = report.length;
-            entity = 0;
-            entity = entity !== michal;
-            if(!entity) { _fun00002_ip = 71; continue _fun00001 }
+            var5 = arg1;
+            var4 = arg2;
+            var2 = var5.length;
+            var1 = 0;
+            var1 = var1 !== var2;
+            if(!var1) { _fun0001_ip = 71; continue _fun0001 }
  20:
-            michal = global;
-            golfie = michal.Math;
-            oscard = golfie.floor;
-            michal = 8;
-            zuuluu = tangon / michal;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = report[zuuluu];
-            tangon = tangon % michal;
-            michal = 1;
-            michal = michal << tangon;
-            michal = zuuluu & michal;
-            michal = !michal;
-            entity = !michal;
+            var2 = global;
+            var7 = var2.Math;
+            var6 = var7.floor;
+            var2 = 8;
+            var3 = var4 / var2;
+            var3 = var6.bind(var7)(var3);
+            var3 = var5[var3];
+            var4 = var4 % var2;
+            var2 = 1;
+            var2 = var2 << var4;
+            var2 = var3 & var2;
+            var2 = !var2;
+            var1 = !var2;
  71:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot0 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/Uint8ArrayUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['hasBit'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: addBit
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot0 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/Uint8ArrayUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['hasBit'] = var4;
+    var4 = function addBit(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            option = argFoo;
-            report = argBar;
-            tangon = global;
-            oscard = tangon.Math;
-            zuuluu = oscard.floor;
-            michal = 8;
-            entity = report / michal;
-            zuuluu = zuuluu.bind(oscard)(entity);
-            oscard = option.length;
-            entity = option;
-            if(!(oscard <= zuuluu)) { _fun00004_ip = 93; continue _fun00003 }
+            var8 = arg1;
+            var5 = arg2;
+            var4 = global;
+            var6 = var4.Math;
+            var3 = var6.floor;
+            var2 = 8;
+            var1 = var5 / var2;
+            var3 = var3.bind(var6)(var1);
+            var6 = var8.length;
+            var1 = var8;
+            if(!(var6 <= var3)) { _fun0002_ip = 93; continue _fun0002 }
  44:
-            golfie = tangon.Uint8Array;
-            tangon = 1;
-            offset = zuuluu + tangon;
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            yankee = oscard;
-            tangon = new yankee[golfie](offset, verify);
-            tangon = tangon instanceof Object ? tangon : oscard;
-            golfie = tangon.set;
-            oscard = 0;
-            oscard = golfie.bind(tangon)(option, oscard);
-            entity = tangon;
+            var7 = var4.Uint8Array;
+            var4 = 1;
+            var10 = var3 + var4;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var11 = var6;
+            var4 = new var11[var7](var10, var9);
+            var4 = var4 instanceof Object ? var4 : var6;
+            var7 = var4.set;
+            var6 = 0;
+            var6 = var7.bind(var4)(var8, var6);
+            var1 = var4;
  93:
-            tangon = entity[zuuluu];
-            report = report % michal;
-            michal = 1;
-            michal = michal << report;
-            michal = tangon | michal;
-            entity[zuuluu] = michal;
-            return entity;
+            var4 = var1[var3];
+            var5 = var5 % var2;
+            var2 = 1;
+            var2 = var2 << var5;
+            var2 = var4 | var2;
+            var1[var3] = var2;
+            return var1;
         }
     };
-    zuuluu['addBit'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: removeBit
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['addBit'] = var4;
+    var4 = function removeBit(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            report = argBar;
-            zuuluu = _closure1_slot0;
-            michal = undefined;
-            michal = zuuluu.bind(michal)(entity, report);
-            if(!michal) { _fun00006_ip = 76; continue _fun00005 }
+            var1 = arg1;
+            var5 = arg2;
+            var3 = _closure1_slot0;
+            var2 = undefined;
+            var2 = var3.bind(var2)(var1, var5);
+            if(!var2) { _fun0003_ip = 76; continue _fun0003 }
  24:
-            michal = global;
-            oscard = michal.Math;
-            tangon = oscard.floor;
-            michal = 8;
-            zuuluu = report / michal;
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            tangon = entity[zuuluu];
-            report = report % michal;
-            michal = 1;
-            michal = michal << report;
-            michal = ~michal;
-            michal = tangon & michal;
-            entity[zuuluu] = michal;
+            var2 = global;
+            var6 = var2.Math;
+            var4 = var6.floor;
+            var2 = 8;
+            var3 = var5 / var2;
+            var3 = var4.bind(var6)(var3);
+            var4 = var1[var3];
+            var5 = var5 % var2;
+            var2 = 1;
+            var2 = var2 << var5;
+            var2 = ~var2;
+            var2 = var4 & var2;
+            var1[var3] = var2;
  76:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['removeBit'] = tangon;
-    tangon = function(argFoo) { // Original name: isUint8Array
-        entity = global;
-        michal = entity.Uint8Array;
-        entity = argFoo;
-        entity = entity instanceof michal;
-        return entity;
+    var3['removeBit'] = var4;
+    var4 = function isUint8Array(arg1) {
+        var1 = global;
+        var2 = var1.Uint8Array;
+        var1 = arg1;
+        var1 = var1 instanceof var2;
+        return var1;
     };
-    zuuluu['isUint8Array'] = tangon;
-    michal = function(argFoo) { // Original name: isSerializedUint8Array
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isUint8Array'] = var4;
+    var2 = function isSerializedUint8Array(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00008_ip = 23; continue _fun00007 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0004_ip = 23; continue _fun0004 }
  12:
-            tangon = 'object';
-            zuuluu = typeof michal;
-            entity = tangon === zuuluu;
+            var4 = 'object';
+            var3 = typeof var2;
+            var1 = var4 === var3;
  23:
-            if(!entity) { _fun00008_ip = 42; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 42; continue _fun0004 }
  26:
-            zuuluu = michal.__tag__;
-            michal = 'uint8array';
-            entity = michal === zuuluu;
+            var3 = var2.__tag__;
+            var2 = 'uint8array';
+            var1 = var2 === var3;
  42:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isSerializedUint8Array'] = michal;
-    return entity;
+    var3['isSerializedUint8Array'] = var2;
+    return var1;
 })();

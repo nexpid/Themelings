@@ -1,74 +1,74 @@
 // app/utils/AuthenticationUtils.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argCor;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = report;
-    tangon = function() { // Original name: getToken
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        entity = michal.getToken;
-        entity = entity.bind(michal)();
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native4;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var5;
+    var4 = function getToken() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.getToken;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 2;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/AuthenticationUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getToken'] = tangon;
-    tangon = function() { // Original name: isAuthenticated
-        michal = _closure1_slot3;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        entity = null;
-        entity = entity != michal;
-        return entity;
+    var _closure1_slot3 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 2;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/AuthenticationUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getToken'] = var4;
+    var4 = function isAuthenticated() {
+        var2 = _closure1_slot3;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    zuuluu['isAuthenticated'] = tangon;
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['isAuthenticated'] = var4;
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = null;
-            michal = zuuluu != report;
-            entity = null;
-            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
+            var5 = arg1;
+            var3 = null;
+            var2 = var3 != var5;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 68; continue _fun0001 }
  14:
-            tangon = /^\\/developers/;
-            michal = tangon.test;
-            michal = michal.bind(tangon)(report);
-            entity = null;
-            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
+            var4 = /^\\/developers/;
+            var2 = var4.test;
+            var2 = var2.bind(var4)(var5);
+            var1 = null;
+            if(!var2) { _fun0001_ip = 68; continue _fun0001 }
  43:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  68:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getArtForPath'] = michal;
-    return entity;
+    var3['getArtForPath'] = var2;
+    return var1;
 })();

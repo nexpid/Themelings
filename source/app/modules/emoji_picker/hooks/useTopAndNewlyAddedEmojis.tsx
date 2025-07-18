@@ -1,111 +1,111 @@
 // app/modules/emoji_picker/hooks/useTopAndNewlyAddedEmojis.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: getTopAndNewlyAddedEmojis
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getTopAndNewlyAddedEmojis(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.emojiStoreInstance;
-            michal = undefined;
-            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.emojiStoreInstance;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
  15:
-            report = _closure1_slot2;
+            var5 = _closure1_slot2;
  22:
-            tangon = entity.guildId;
-            oscard = entity.pickerIntention;
-            entity = {};
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.REACTION;
-            if(!(oscard === zuuluu)) { _fun00002_ip = 58; continue _fun00001 }
+            var4 = var1.guildId;
+            var6 = var1.pickerIntention;
+            var1 = {};
+            var3 = _closure1_slot3;
+            var3 = var3.REACTION;
+            if(!(var6 === var3)) { _fun0001_ip = 58; continue _fun0001 }
  52:
-            zuuluu = _closure1_slot4;
-            _fun00002_ip = 71; continue _fun00001;
+            var3 = _closure1_slot4;
+            _fun0001_ip = 71; continue _fun0001;
  58:
-            golfie = report.getTopEmoji;
-            zuuluu = golfie.bind(report)(tangon);
+            var7 = var5.getTopEmoji;
+            var3 = var7.bind(var5)(var4);
  71:
-            entity['topEmojis'] = zuuluu;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.REACTION;
-            if(!(oscard === zuuluu)) { _fun00002_ip = 96; continue _fun00001 }
+            var1['topEmojis'] = var3;
+            var3 = _closure1_slot3;
+            var3 = var3.REACTION;
+            if(!(var6 === var3)) { _fun0001_ip = 96; continue _fun0001 }
  90:
-            michal = _closure1_slot4;
-            _fun00002_ip = 109; continue _fun00001;
+            var2 = _closure1_slot4;
+            _fun0001_ip = 109; continue _fun0001;
  96:
-            zuuluu = report.getNewlyAddedEmoji;
-            michal = zuuluu.bind(report)(tangon);
+            var3 = var5.getNewlyAddedEmoji;
+            var2 = var3.bind(var5)(var4);
  109:
-            entity['newlyAddedEmojis'] = michal;
-            return entity;
+            var1['newlyAddedEmojis'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.EmojiIntention;
-    var _closure1_slot3 = report;
-    report = new Array(0);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/emoji_picker/hooks/useTopAndNewlyAddedEmojis.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo, argBar) { // Original name: useTopAndNewlyAddedEmojis
-        golfie = argFoo;
-        oscard = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresObject;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        entity = function() {
-            zuuluu = _closure1_slot5;
-            michal = {};
-            entity = _closure1_slot2;
-            michal['emojiStoreInstance'] = entity;
-            tangon = _closure2_slot0;
-            michal['guildId'] = tangon;
-            entity = _closure2_slot1;
-            michal['pickerIntention'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.EmojiIntention;
+    var _closure1_slot3 = var5;
+    var5 = new Array(0);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/emoji_picker/hooks/useTopAndNewlyAddedEmojis.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useTopAndNewlyAddedEmojis(arg1, arg2) {
+        var7 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresObject;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
+        var1 = function() {
+            var3 = _closure1_slot5;
+            var2 = {};
+            var1 = _closure1_slot2;
+            var2['emojiStoreInstance'] = var1;
+            var4 = _closure2_slot0;
+            var2['guildId'] = var4;
+            var1 = _closure2_slot1;
+            var2['pickerIntention'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getTopAndNewlyAddedEmojis'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getTopAndNewlyAddedEmojis'] = var2;
+    return var1;
 })();

@@ -1,253 +1,253 @@
 // app/modules/main_tabs_v2/native/settings/definitions/SyncThemeSetting.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.MobileSetting;
-    michal = 5;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.RendererType;
-    michal = 6;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    verify = michal.AnalyticEvents;
-    var _closure1_slot7 = verify;
-    michal = michal.ThemeTypes;
-    var _closure1_slot8 = michal;
-    michal = {};
-    option = option.TOGGLE;
-    michal['type'] = option;
-    option = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 7;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.3340dX;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.MobileSetting;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.RendererType;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.AnalyticEvents;
+    var _closure1_slot7 = var9;
+    var2 = var2.ThemeTypes;
+    var _closure1_slot8 = var2;
+    var2 = {};
+    var8 = var8.TOGGLE;
+    var2['type'] = var8;
+    var8 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 7;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.3340dX;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = option;
-    golfie = golfie.APPEARANCE;
-    michal['parent'] = golfie;
-    golfie = function() { // Original name: useSyncThemeAcrossClientsValue
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 8;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        entity = _closure1_slot4;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = function() {
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.shouldSync;
-            entity = 'appearance';
-            michal = michal.bind(zuuluu)(entity);
-            entity = false;
-            entity = entity !== michal;
-            return entity;
+    var2['title'] = var8;
+    var7 = var7.APPEARANCE;
+    var2['parent'] = var7;
+    var7 = function useSyncThemeAcrossClientsValue() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 8;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot4;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var3 = _closure1_slot4;
+            var2 = var3.shouldSync;
+            var1 = 'appearance';
+            var2 = var2.bind(var3)(var1);
+            var1 = false;
+            var1 = var1 !== var2;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    michal['useValue'] = golfie;
-    golfie = function(argFoo) { // Original name: onSyncThemeAcrossClientsValueChange
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['useValue'] = var7;
+    var7 = function onSyncThemeAcrossClientsValueChange(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = _closure1_slot5;
-            yankee = entity.theme;
-            entity = _closure1_slot3;
-            oscard = entity.gradientPreset;
-            report = null;
-            golfie = report == oscard;
-            entity = undefined;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 43; continue _fun00001 }
+            var4 = arg1;
+            var1 = _closure1_slot5;
+            var11 = var1.theme;
+            var1 = _closure1_slot3;
+            var6 = var1.gradientPreset;
+            var5 = null;
+            var7 = var5 == var6;
+            var1 = undefined;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 43; continue _fun0001 }
  38:
-            zuuluu = oscard.id;
+            var3 = var6.id;
  43:
-            oscard = report != zuuluu;
-            offset = null;
-            if(!oscard) { _fun00002_ip = 55; continue _fun00001 }
+            var6 = var5 != var3;
+            var10 = null;
+            if(!var6) { _fun0001_ip = 55; continue _fun0001 }
  52:
-            offset = zuuluu;
+            var10 = var3;
  55:
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.settings;
-            oscard = zuuluu.appearance;
-            golfie = report == oscard;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 101; continue _fun00001 }
+            var3 = _closure1_slot6;
+            var3 = var3.settings;
+            var6 = var3.appearance;
+            var7 = var5 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 101; continue _fun0001 }
  80:
-            oscard = oscard.clientThemeSettings;
-            golfie = report == oscard;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 101; continue _fun00001 }
+            var6 = var6.clientThemeSettings;
+            var7 = var5 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 101; continue _fun0001 }
  95:
-            zuuluu = oscard.customUserThemeSettings;
+            var3 = var6.customUserThemeSettings;
  101:
-            verify = report != zuuluu;
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 9;
-            zuuluu = report[zuuluu];
-            option = oscard.bind(entity)(zuuluu);
-            golfie = option.track;
-            zuuluu = _closure1_slot7;
-            oscard = zuuluu.SYNC_ACROSS_CLIENTS_TOGGLED;
-            zuuluu = {};
-            zuuluu['is_sync_enabled'] = tangon;
-            zuuluu['base_theme'] = yankee;
-            zuuluu['client_theme'] = offset;
-            zuuluu['has_custom_theme'] = verify;
-            zuuluu = golfie.bind(option)(oscard, zuuluu);
-            zuuluu = _closure1_slot1;
-            michal = 10;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.setShouldSyncAppearanceSettings;
-            michal = michal.bind(zuuluu)(tangon);
-            return entity;
+            var9 = var5 != var3;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 9;
+            var3 = var5[var3];
+            var8 = var6.bind(var1)(var3);
+            var7 = var8.track;
+            var3 = _closure1_slot7;
+            var6 = var3.SYNC_ACROSS_CLIENTS_TOGGLED;
+            var3 = {};
+            var3['is_sync_enabled'] = var4;
+            var3['base_theme'] = var11;
+            var3['client_theme'] = var10;
+            var3['has_custom_theme'] = var9;
+            var3 = var7.bind(var8)(var6, var3);
+            var3 = _closure1_slot1;
+            var2 = 10;
+            var2 = var5[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.setShouldSyncAppearanceSettings;
+            var2 = var2.bind(var3)(var4);
+            return var1;
         }
     };
-    michal['onValueChange'] = golfie;
-    golfie = function() { // Original name: useSyncThemeAcrossClientsDescription
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 7;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.CRtkeH;
-        michal = michal.bind(zuuluu)(entity);
-        entity = michal.trim;
-        entity = entity.bind(michal)();
-        return entity;
+    var2['onValueChange'] = var7;
+    var7 = function useSyncThemeAcrossClientsDescription() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 7;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.CRtkeH;
+        var2 = var2.bind(var3)(var1);
+        var1 = var2.trim;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['useDescription'] = golfie;
-    tangon = function() { // Original name: useIsSyncThemeAcrossClientsDisabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['useDescription'] = var7;
+    var4 = function useIsSyncThemeAcrossClientsDisabled() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            oscard = 8;
-            tangon = report[oscard];
-            option = undefined;
-            offset = zuuluu.bind(option)(tangon);
-            verify = offset.useStateFromStores;
-            tangon = _closure1_slot5;
-            golfie = new Array(1);
-            golfie[0] = tangon;
-            tangon = function() {
-                entity = _closure1_slot5;
-                entity = entity.theme;
-                return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var6 = 8;
+            var4 = var5[var6];
+            var8 = undefined;
+            var10 = var3.bind(var8)(var4);
+            var9 = var10.useStateFromStores;
+            var4 = _closure1_slot5;
+            var7 = new Array(1);
+            var7[0] = var4;
+            var4 = function() {
+                var1 = _closure1_slot5;
+                var1 = var1.theme;
+                return var1;
             };
-            tangon = verify.bind(offset)(golfie, tangon);
-            oscard = report[oscard];
-            verify = zuuluu.bind(option)(oscard);
-            golfie = verify.useStateFromStores;
-            offset = _closure1_slot3;
-            oscard = new Array(1);
-            oscard[0] = offset;
-            entity = function() {
-                entity = _closure1_slot3;
-                entity = entity.mobilePendingThemeIndex;
-                return entity;
+            var4 = var9.bind(var10)(var7, var4);
+            var6 = var5[var6];
+            var9 = var3.bind(var8)(var6);
+            var7 = var9.useStateFromStores;
+            var10 = _closure1_slot3;
+            var6 = new Array(1);
+            var6[0] = var10;
+            var1 = function() {
+                var1 = _closure1_slot3;
+                var1 = var1.mobilePendingThemeIndex;
+                return var1;
             };
-            golfie = golfie.bind(verify)(oscard, entity);
-            entity = 11;
-            entity = report[entity];
-            zuuluu = zuuluu.bind(option)(entity);
-            entity = zuuluu.getMobileThemesPresets;
-            oscard = entity.bind(zuuluu)();
-            entity = null;
-            report = entity != golfie;
-            zuuluu = null;
-            if(!report) { _fun00004_ip = 159; continue _fun00003 }
+            var7 = var7.bind(var9)(var6, var1);
+            var1 = 11;
+            var1 = var5[var1];
+            var3 = var3.bind(var8)(var1);
+            var1 = var3.getMobileThemesPresets;
+            var6 = var1.bind(var3)();
+            var1 = null;
+            var5 = var1 != var7;
+            var3 = null;
+            if(!var5) { _fun0002_ip = 159; continue _fun0002 }
  129:
-            verify = entity == oscard;
-            report = undefined;
-            if(verify) { _fun00004_ip = 156; continue _fun00003 }
+            var9 = var1 == var6;
+            var5 = undefined;
+            if(var9) { _fun0002_ip = 156; continue _fun0002 }
  138:
-            oscard = oscard[golfie];
-            golfie = entity == oscard;
-            report = undefined;
-            if(golfie) { _fun00004_ip = 156; continue _fun00003 }
+            var6 = var6[var7];
+            var7 = var1 == var6;
+            var5 = undefined;
+            if(var7) { _fun0002_ip = 156; continue _fun0002 }
  151:
-            report = oscard.theme;
+            var5 = var6.theme;
  156:
-            zuuluu = report;
+            var3 = var5;
  159:
-            if(!(entity == zuuluu)) { _fun00004_ip = 179; continue _fun00003 }
+            if(!(var1 == var3)) { _fun0002_ip = 179; continue _fun0002 }
  163:
-            entity = _closure1_slot8;
-            entity = entity.MIDNIGHT;
-            entity = tangon === entity;
-            _fun00004_ip = 193; continue _fun00003;
+            var1 = _closure1_slot8;
+            var1 = var1.MIDNIGHT;
+            var1 = var4 === var1;
+            _fun0002_ip = 193; continue _fun0002;
  179:
-            michal = _closure1_slot8;
-            michal = michal.MIDNIGHT;
-            entity = zuuluu === michal;
+            var2 = _closure1_slot8;
+            var2 = var2.MIDNIGHT;
+            var1 = var3 === var2;
  193:
-            return entity;
+            return var1;
         }
     };
-    michal['useIsDisabled'] = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/SyncThemeSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['useIsDisabled'] = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/SyncThemeSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

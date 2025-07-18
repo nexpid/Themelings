@@ -1,137 +1,137 @@
 // app/modules/forums/native/composer/hooks/useFocusHandlers.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    report = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(golfie)(zuuluu, entity, tangon);
-    option = 0;
-    report = oscard[option];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot0 = tangon;
-    golfie = 1;
-    report = oscard[golfie];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot1 = tangon;
-    tangon = {};
-    tangon['TITLE'] = option;
-    report = 'TITLE';
-    tangon[option] = report;
-    tangon['CONTENT'] = golfie;
-    report = 'CONTENT';
-    tangon[golfie] = report;
-    var _closure1_slot2 = tangon;
-    report = 2;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/forums/native/composer/hooks/useFocusHandlers.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['PostComposerInputs'] = tangon;
-    michal = function(argFoo) { // Original name: useFocusHandlers
-        entity = argFoo;
-        michal = entity.titleInput;
-        var _closure2_slot0 = michal;
-        entity = entity.contentInput;
-        var _closure2_slot1 = entity;
-        report = _closure1_slot1;
-        tangon = report.useState;
-        michal = _closure1_slot2;
-        michal = michal.TITLE;
-        report = tangon.bind(report)(michal);
-        tangon = _closure1_slot0;
-        michal = undefined;
-        entity = 2;
-        report = tangon.bind(michal)(report, entity);
-        entity = 0;
-        michal = report[entity];
-        var _closure2_slot2 = michal;
-        entity = {};
-        tangon = 1;
-        tangon = report[tangon];
-        entity['setFocusedInput'] = tangon;
-        tangon = function() { // Original name: focusLastInput
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var5 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var7)(var3, var1, var4);
+    var8 = 0;
+    var5 = var6[var8];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot0 = var4;
+    var7 = 1;
+    var5 = var6[var7];
+    var4 = native4;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot1 = var4;
+    var4 = {};
+    var4['TITLE'] = var8;
+    var5 = 'TITLE';
+    var4[var8] = var5;
+    var4['CONTENT'] = var7;
+    var5 = 'CONTENT';
+    var4[var7] = var5;
+    var _closure1_slot2 = var4;
+    var5 = 2;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/forums/native/composer/hooks/useFocusHandlers.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['PostComposerInputs'] = var4;
+    var2 = function useFocusHandlers(arg1) {
+        var1 = arg1;
+        var2 = var1.titleInput;
+        var _closure2_slot0 = var2;
+        var1 = var1.contentInput;
+        var _closure2_slot1 = var1;
+        var5 = _closure1_slot1;
+        var4 = var5.useState;
+        var2 = _closure1_slot2;
+        var2 = var2.TITLE;
+        var5 = var4.bind(var5)(var2);
+        var4 = _closure1_slot0;
+        var2 = undefined;
+        var1 = 2;
+        var5 = var4.bind(var2)(var5, var1);
+        var1 = 0;
+        var2 = var5[var1];
+        var _closure2_slot2 = var2;
+        var1 = {};
+        var4 = 1;
+        var4 = var5[var4];
+        var1['setFocusedInput'] = var4;
+        var4 = function focusLastInput() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure2_slot2;
-                zuuluu = _closure1_slot2;
-                zuuluu = zuuluu.TITLE;
-                if(!(tangon !== zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
+                var4 = _closure2_slot2;
+                var3 = _closure1_slot2;
+                var3 = var3.TITLE;
+                if(!(var4 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
  24:
-                zuuluu = _closure2_slot2;
-                michal = _closure1_slot2;
-                michal = michal.CONTENT;
-                if(!(zuuluu === michal)) { _fun00002_ip = 94; continue _fun00001 }
+                var3 = _closure2_slot2;
+                var2 = _closure1_slot2;
+                var2 = var2.CONTENT;
+                if(!(var3 === var2)) { _fun0001_ip = 94; continue _fun0001 }
  42:
-                michal = _closure2_slot1;
-                zuuluu = michal.current;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 94; continue _fun00001 }
+                var2 = _closure2_slot1;
+                var3 = var2.current;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0001_ip = 94; continue _fun0001 }
  57:
-                michal = zuuluu.focus;
-                michal = michal.bind(zuuluu)();
-                _fun00002_ip = 94; continue _fun00001;
+                var2 = var3.focus;
+                var2 = var2.bind(var3)();
+                _fun0001_ip = 94; continue _fun0001;
  69:
-                entity = _closure2_slot0;
-                michal = entity.current;
-                entity = null;
-                if(!(entity != michal)) { _fun00002_ip = 94; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var2 = var1.current;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0001_ip = 94; continue _fun0001 }
  84:
-                entity = michal.focus;
-                entity = entity.bind(michal)();
+                var1 = var2.focus;
+                var1 = var1.bind(var2)();
  94:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['focusLastInput'] = tangon;
-        zuuluu = function() { // Original name: blurLastInput
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['focusLastInput'] = var4;
+        var3 = function blurLastInput() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure2_slot2;
-                zuuluu = _closure1_slot2;
-                zuuluu = zuuluu.TITLE;
-                if(!(tangon !== zuuluu)) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = _closure2_slot2;
+                var3 = _closure1_slot2;
+                var3 = var3.TITLE;
+                if(!(var4 !== var3)) { _fun0002_ip = 69; continue _fun0002 }
  24:
-                zuuluu = _closure2_slot2;
-                michal = _closure1_slot2;
-                michal = michal.CONTENT;
-                if(!(zuuluu === michal)) { _fun00004_ip = 94; continue _fun00003 }
+                var3 = _closure2_slot2;
+                var2 = _closure1_slot2;
+                var2 = var2.CONTENT;
+                if(!(var3 === var2)) { _fun0002_ip = 94; continue _fun0002 }
  42:
-                michal = _closure2_slot1;
-                zuuluu = michal.current;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 94; continue _fun00003 }
+                var2 = _closure2_slot1;
+                var3 = var2.current;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0002_ip = 94; continue _fun0002 }
  57:
-                michal = zuuluu.blur;
-                michal = michal.bind(zuuluu)();
-                _fun00004_ip = 94; continue _fun00003;
+                var2 = var3.blur;
+                var2 = var2.bind(var3)();
+                _fun0002_ip = 94; continue _fun0002;
  69:
-                entity = _closure2_slot0;
-                michal = entity.current;
-                entity = null;
-                if(!(entity != michal)) { _fun00004_ip = 94; continue _fun00003 }
+                var1 = _closure2_slot0;
+                var2 = var1.current;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0002_ip = 94; continue _fun0002 }
  84:
-                entity = michal.blur;
-                entity = entity.bind(michal)();
+                var1 = var2.blur;
+                var1 = var1.bind(var2)();
  94:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['blurLastInput'] = zuuluu;
-        entity['focusedInput'] = michal;
-        return entity;
+        var1['blurLastInput'] = var3;
+        var1['focusedInput'] = var2;
+        return var1;
     };
-    zuuluu['useFocusHandlers'] = michal;
-    return entity;
+    var3['useFocusHandlers'] = var2;
+    return var1;
 })();

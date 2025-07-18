@@ -1,646 +1,646 @@
 // app/modules/remixing/native/components/DrawingGestureHandler.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    var _closure1_slot3 = oscard;
-    entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var _closure1_slot3 = var6;
+    var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            var _closure2_slot0 = zuuluu;
-            report = global;
-            michal = report.Symbol;
-            tangon = 'undefined';
-            michal = typeof michal;
-            michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var5 = global;
+            var2 = var5.Symbol;
+            var4 = 'undefined';
+            var2 = typeof var2;
+            var2 = var4 !== var2;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  30:
-            tangon = report.Symbol;
-            tangon = tangon.iterator;
-            michal = zuuluu[tangon];
+            var4 = var5.Symbol;
+            var4 = var4.iterator;
+            var2 = var3[var4];
  45:
-            if(michal) { _fun00002_ip = 54; continue _fun00001 }
+            if(var2) { _fun0001_ip = 54; continue _fun0001 }
  48:
-            michal = zuuluu.@@iterator;
+            var2 = var3.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 342; continue _fun00001 }
+            if(var2) { _fun0001_ip = 342; continue _fun0001 }
  60:
-            oscard = report.Array;
-            tangon = oscard.isArray;
-            oscard = tangon.bind(oscard)(zuuluu);
-            tangon = michal;
-            if(oscard) { _fun00002_ip = 322; continue _fun00001 }
+            var6 = var5.Array;
+            var4 = var6.isArray;
+            var6 = var4.bind(var6)(var3);
+            var4 = var2;
+            if(var6) { _fun0001_ip = 322; continue _fun0001 }
  85:
-            option = undefined;
-            oscard = undefined;
-            if(!zuuluu) { _fun00002_ip = 282; continue _fun00001 }
+            var8 = undefined;
+            var6 = undefined;
+            if(!var3) { _fun0001_ip = 282; continue _fun0001 }
  95:
-            verify = 'string';
-            golfie = typeof zuuluu;
-            if(!(verify !== golfie)) { _fun00002_ip = 269; continue _fun00001 }
+            var9 = 'string';
+            var7 = typeof var3;
+            if(!(var9 !== var7)) { _fun0001_ip = 269; continue _fun0001 }
  109:
-            golfie = {};
-            verify = golfie.toString;
-            golfie = verify.call;
-            yankee = golfie.bind(verify)(zuuluu);
-            offset = yankee.slice;
-            verify = 8;
-            golfie = -1;
-            verify = offset.bind(yankee)(verify, golfie);
-            golfie = 'Object';
-            golfie = golfie === verify;
-            if(!golfie) { _fun00002_ip = 162; continue _fun00001 }
+            var7 = {};
+            var9 = var7.toString;
+            var7 = var9.call;
+            var11 = var7.bind(var9)(var3);
+            var10 = var11.slice;
+            var9 = 8;
+            var7 = -1;
+            var9 = var10.bind(var11)(var9, var7);
+            var7 = 'Object';
+            var7 = var7 === var9;
+            if(!var7) { _fun0001_ip = 162; continue _fun0001 }
  157:
-            golfie = zuuluu.constructor;
+            var7 = var3.constructor;
  162:
-            offset = verify;
-            if(!golfie) { _fun00002_ip = 178; continue _fun00001 }
+            var10 = var9;
+            if(!var7) { _fun0001_ip = 178; continue _fun0001 }
  168:
-            golfie = zuuluu.constructor;
-            offset = golfie.name;
+            var7 = var3.constructor;
+            var10 = var7.name;
  178:
-            golfie = 'Map';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Map';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  186:
-            golfie = 'Set';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Set';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  194:
-            golfie = 'Arguments';
-            if(!(golfie !== offset)) { _fun00002_ip = 233; continue _fun00001 }
+            var7 = 'Arguments';
+            if(!(var7 !== var10)) { _fun0001_ip = 233; continue _fun0001 }
  204:
-            verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
-            golfie = verify.test;
-            verify = golfie.bind(verify)(offset);
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 246; continue _fun00001 }
+            var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
+            var7 = var9.test;
+            var9 = var7.bind(var9)(var10);
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            verify = _closure1_slot14;
-            golfie = verify.bind(option)(zuuluu, option);
+            var9 = _closure1_slot14;
+            var7 = var9.bind(var8)(var3, var8);
  246:
-            _fun00002_ip = 264; continue _fun00001;
+            _fun0001_ip = 264; continue _fun0001;
  248:
-            offset = report.Array;
-            verify = offset.from;
-            golfie = verify.bind(offset)(zuuluu);
+            var10 = var5.Array;
+            var9 = var10.from;
+            var7 = var9.bind(var10)(var3);
  264:
-            oscard = golfie;
-            _fun00002_ip = 282; continue _fun00001;
+            var6 = var7;
+            _fun0001_ip = 282; continue _fun0001;
  269:
-            golfie = _closure1_slot14;
-            oscard = golfie.bind(option)(zuuluu, option);
+            var7 = _closure1_slot14;
+            var6 = var7.bind(var8)(var3, var8);
  282:
-            tangon = oscard;
-            if(tangon) { _fun00002_ip = 322; continue _fun00001 }
+            var4 = var6;
+            if(var4) { _fun0001_ip = 322; continue _fun0001 }
  288:
-            golfie = report.TypeError;
-            report = golfie.prototype;
-            oscard = Object.create(report, {constructor: {value: golfie}});
-            foxtra = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
-            backup = oscard;
-            report = new backup[golfie](foxtra, romeon);
-            report = report instanceof Object ? report : oscard;
-            throw report;
+            var7 = var5.TypeError;
+            var5 = var7.prototype;
+            var6 = Object.create(var5, {constructor: {value: var7}});
+            var13 = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
+            var14 = var6;
+            var5 = new var14[var7](var13, var12);
+            var5 = var5 instanceof Object ? var5 : var6;
+            throw var5;
  322:
-            if(!tangon) { _fun00002_ip = 329; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 329; continue _fun0001 }
  325:
-            _closure2_slot0 = tangon;
+            _closure2_slot0 = var4;
  329:
-            tangon = 0;
-            var _closure2_slot1 = tangon;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = 0;
+            var _closure2_slot1 = var4;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot0;
-                    entity = entity.length;
-                    if(!(!(michal >= entity))) { _fun00004_ip = 56; continue _fun00003 }
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var1 = var1.length;
+                    if(!(!(var2 >= var1))) { _fun0002_ip = 56; continue _fun0002 }
  20:
-                    entity = {};
-                    michal = false;
-                    entity['done'] = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    michal = parseFloat(michal);
-                    tangon = michal + 1;
-                    _closure2_slot1 = tangon;
-                    michal = zuuluu[michal];
-                    entity['value'] = michal;
-                    _fun00004_ip = 67; continue _fun00003;
+                    var1 = {};
+                    var2 = false;
+                    var1['done'] = var2;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var2 = parseFloat(var2);
+                    var4 = var2 + 1;
+                    _closure2_slot1 = var4;
+                    var2 = var3[var2];
+                    var1['value'] = var2;
+                    _fun0002_ip = 67; continue _fun0002;
  56:
-                    michal = {};
-                    zuuluu = true;
-                    michal['done'] = zuuluu;
-                    entity = michal;
+                    var2 = {};
+                    var3 = true;
+                    var2['done'] = var3;
+                    var1 = var2;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
  342:
-            entity = michal.call;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.next;
-            entity = michal.bind;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var1 = var2.call;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.next;
+            var1 = var2.bind;
+            var1 = var1.bind(var2)(var3);
+            return var1;
         }
     };
-    var _closure1_slot13 = entity;
-    entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot13 = var1;
+    var1 = function _arrayLikeToArray(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            zuuluu = undefined;
-            entity = entity == zuuluu;
-            if(entity) { _fun00006_ip = 23; continue _fun00005 }
+            var4 = arg1;
+            var1 = null;
+            var3 = undefined;
+            var1 = var1 == var3;
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
  14:
-            michal = tangon.length;
-            entity = zuuluu > michal;
+            var2 = var4.length;
+            var1 = var3 > var2;
  23:
-            michal = undefined;
-            if(!entity) { _fun00006_ip = 33; continue _fun00005 }
+            var2 = undefined;
+            if(!var1) { _fun0003_ip = 33; continue _fun0003 }
  28:
-            michal = tangon.length;
+            var2 = var4.length;
  33:
-            entity = global;
-            entity = entity.Array;
-            entity = entity.bind(zuuluu)(michal);
-            zuuluu = 0;
-            report = zuuluu < michal;
-            if(!report) { _fun00006_ip = 70; continue _fun00005 }
+            var1 = global;
+            var1 = var1.Array;
+            var1 = var1.bind(var3)(var2);
+            var3 = 0;
+            var5 = var3 < var2;
+            if(!var5) { _fun0003_ip = 70; continue _fun0003 }
  55:
-            report = tangon[zuuluu];
-            entity[zuuluu] = report;
-            zuuluu = zuuluu + 1;
-            if(zuuluu < michal) { _fun00006_ip = 55; continue _fun00005 }
+            var5 = var4[var3];
+            var1[var3] = var5;
+            var3 = var3 + 1;
+            if(var3 < var2) { _fun0003_ip = 55; continue _fun0003 }
  70:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot14 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.isInDrawMode;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.useRemixingEditorStore;
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx1(p1,p2){return{x:p1.x+(p2.x-p1.x)/2,y:p1.y+(p2.y-p1.y)/2};}';
-    tangon['code'] = golfie;
-    var _closure1_slot7 = tangon;
-    tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx2(newPoint){const{previousTouch,getMidPoint,drawingPath}=this.__closure;const prevTouch=previousTouch.get();const midPoint=getMidPoint(prevTouch,newPoint);previousTouch.set(newPoint);drawingPath.set(drawingPath.get()+(" Q "+prevTouch.x+" "+prevTouch.y+" "+midPoint.x+" "+midPoint.y));}';
-    tangon['code'] = golfie;
-    var _closure1_slot8 = tangon;
-    tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx3(touchEvent){const{touchInputId,drawingPath,previousTouch,runOnJS,RemixingActionCreators,color,strokeWidth,resetDrawing}=this.__closure;if(touchInputId.get()!=null){for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){drawingPath.set(drawingPath.get()+(" L "+touch.x+" "+touch.y));previousTouch.set({x:0,y:0});touchInputId.set(-1);runOnJS(RemixingActionCreators.addDrawing)(color,drawingPath.get(),strokeWidth.get());runOnJS(resetDrawing)();return;}}}}';
-    tangon['code'] = golfie;
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx4(touchEvent){const{touchInputId,updateDrawingPath}=this.__closure;for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){updateDrawingPath({x:touch.x,y:touch.y});}}}';
-    tangon['code'] = golfie;
-    var _closure1_slot10 = tangon;
-    tangon = {};
-    golfie = 'function DrawingGestureHandlerTsx5(touchEvent){const{touchInputId,previousTouch,drawingPath,runOnJS,setIsActivelyDrawing}=this.__closure;if(touchInputId.get()===-1){const touchData=touchEvent.allTouches[0];touchInputId.set(touchData.id);previousTouch.set({x:touchData.x,y:touchData.y});drawingPath.set("M "+touchData.x+" "+touchData.y);runOnJS(setIsActivelyDrawing)(true);}}';
-    tangon['code'] = golfie;
-    var _closure1_slot11 = tangon;
-    tangon = {};
-    golfie = "function DrawingGestureHandlerTsx6(){const{inDrawMode,canvasSize}=this.__closure;return{position:'absolute',left:0,top:0,width:inDrawMode?canvasSize.width:0,height:inDrawMode?canvasSize.height:0};}";
-    tangon['code'] = golfie;
-    var _closure1_slot12 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/native/components/DrawingGestureHandler.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        entity = argFoo;
-        sizing = entity.color;
-        var _closure2_slot0 = sizing;
-        kiloes = entity.strokeWidth;
-        var _closure2_slot1 = kiloes;
-        result = entity.drawingPath;
-        var _closure2_slot2 = result;
-        romeon = entity.canvasSize;
-        var _closure2_slot3 = romeon;
-        source = entity.setIsActivelyDrawing;
-        var _closure2_slot4 = source;
-        backup = function() { // Original name: resetDrawing
-            tangon = _closure2_slot4;
-            entity = undefined;
-            zuuluu = false;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            tangon = _closure2_slot2;
-            zuuluu = tangon.set;
-            michal = '';
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.isInDrawMode;
+    var _closure1_slot4 = var7;
+    var4 = var4.useRemixingEditorStore;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var7 = 'function DrawingGestureHandlerTsx1(p1,p2){return{x:p1.x+(p2.x-p1.x)/2,y:p1.y+(p2.y-p1.y)/2};}';
+    var4['code'] = var7;
+    var _closure1_slot7 = var4;
+    var4 = {};
+    var7 = 'function DrawingGestureHandlerTsx2(newPoint){const{previousTouch,getMidPoint,drawingPath}=this.__closure;const prevTouch=previousTouch.get();const midPoint=getMidPoint(prevTouch,newPoint);previousTouch.set(newPoint);drawingPath.set(drawingPath.get()+(" Q "+prevTouch.x+" "+prevTouch.y+" "+midPoint.x+" "+midPoint.y));}';
+    var4['code'] = var7;
+    var _closure1_slot8 = var4;
+    var4 = {};
+    var7 = 'function DrawingGestureHandlerTsx3(touchEvent){const{touchInputId,drawingPath,previousTouch,runOnJS,RemixingActionCreators,color,strokeWidth,resetDrawing}=this.__closure;if(touchInputId.get()!=null){for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){drawingPath.set(drawingPath.get()+(" L "+touch.x+" "+touch.y));previousTouch.set({x:0,y:0});touchInputId.set(-1);runOnJS(RemixingActionCreators.addDrawing)(color,drawingPath.get(),strokeWidth.get());runOnJS(resetDrawing)();return;}}}}';
+    var4['code'] = var7;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var7 = 'function DrawingGestureHandlerTsx4(touchEvent){const{touchInputId,updateDrawingPath}=this.__closure;for(const touch of touchEvent.allTouches){if(touchInputId.get()===touch.id){updateDrawingPath({x:touch.x,y:touch.y});}}}';
+    var4['code'] = var7;
+    var _closure1_slot10 = var4;
+    var4 = {};
+    var7 = 'function DrawingGestureHandlerTsx5(touchEvent){const{touchInputId,previousTouch,drawingPath,runOnJS,setIsActivelyDrawing}=this.__closure;if(touchInputId.get()===-1){const touchData=touchEvent.allTouches[0];touchInputId.set(touchData.id);previousTouch.set({x:touchData.x,y:touchData.y});drawingPath.set("M "+touchData.x+" "+touchData.y);runOnJS(setIsActivelyDrawing)(true);}}';
+    var4['code'] = var7;
+    var _closure1_slot11 = var4;
+    var4 = {};
+    var7 = "function DrawingGestureHandlerTsx6(){const{inDrawMode,canvasSize}=this.__closure;return{position:'absolute',left:0,top:0,width:inDrawMode?canvasSize.width:0,height:inDrawMode?canvasSize.height:0};}";
+    var4['code'] = var7;
+    var _closure1_slot12 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/native/components/DrawingGestureHandler.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        var1 = arg1;
+        var16 = var1.color;
+        var _closure2_slot0 = var16;
+        var15 = var1.strokeWidth;
+        var _closure2_slot1 = var15;
+        var18 = var1.drawingPath;
+        var _closure2_slot2 = var18;
+        var12 = var1.canvasSize;
+        var _closure2_slot3 = var12;
+        var21 = var1.setIsActivelyDrawing;
+        var _closure2_slot4 = var21;
+        var14 = function resetDrawing() {
+            var4 = _closure2_slot4;
+            var1 = undefined;
+            var3 = false;
+            var3 = var4.bind(var1)(var3);
+            var4 = _closure2_slot2;
+            var3 = var4.set;
+            var2 = '';
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure2_slot10 = backup;
-        michal = _closure1_slot5;
-        tangon = undefined;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.currentMode;
-            return entity;
+        var _closure2_slot10 = var14;
+        var2 = _closure1_slot5;
+        var4 = undefined;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.currentMode;
+            return var1;
         };
-        golfie = michal.bind(tangon)(entity);
-        michal = _closure1_slot0;
-        option = _closure1_slot3;
-        report = 3;
-        entity = option[report];
-        offset = michal.bind(tangon)(entity);
-        verify = offset.useSharedValue;
-        entity = -1;
-        echoed = verify.bind(offset)(entity);
-        var _closure2_slot5 = echoed;
-        entity = option[report];
-        offset = michal.bind(tangon)(entity);
-        verify = offset.useSharedValue;
-        entity = {'x': 0, 'y': 0};
-        output = verify.bind(offset)(entity);
-        var _closure2_slot6 = output;
-        entity = _closure1_slot4;
-        foxtra = entity.bind(tangon)(golfie);
-        var _closure2_slot7 = foxtra;
-        golfie = function(argFoo, argBar) { // Original name: y
-            michal = argFoo;
-            report = argBar;
-            entity = {};
-            oscard = michal.x;
-            tangon = report.x;
-            zuuluu = michal.x;
-            zuuluu = tangon - zuuluu;
-            tangon = 2;
-            zuuluu = zuuluu / tangon;
-            zuuluu = oscard + zuuluu;
-            entity['x'] = zuuluu;
-            zuuluu = michal.y;
-            report = report.y;
-            michal = michal.y;
-            michal = report - michal;
-            michal = michal / tangon;
-            michal = zuuluu + michal;
-            entity['y'] = michal;
-            return entity;
+        var7 = var2.bind(var4)(var1);
+        var2 = _closure1_slot0;
+        var8 = _closure1_slot3;
+        var5 = 3;
+        var1 = var8[var5];
+        var10 = var2.bind(var4)(var1);
+        var9 = var10.useSharedValue;
+        var1 = -1;
+        var19 = var9.bind(var10)(var1);
+        var _closure2_slot5 = var19;
+        var1 = var8[var5];
+        var10 = var2.bind(var4)(var1);
+        var9 = var10.useSharedValue;
+        var1 = {'x': 0, 'y': 0};
+        var17 = var9.bind(var10)(var1);
+        var _closure2_slot6 = var17;
+        var1 = _closure1_slot4;
+        var13 = var1.bind(var4)(var7);
+        var _closure2_slot7 = var13;
+        var7 = function y(arg1, arg2) {
+            var2 = arg1;
+            var5 = arg2;
+            var1 = {};
+            var6 = var2.x;
+            var4 = var5.x;
+            var3 = var2.x;
+            var3 = var4 - var3;
+            var4 = 2;
+            var3 = var3 / var4;
+            var3 = var6 + var3;
+            var1['x'] = var3;
+            var3 = var2.y;
+            var5 = var5.y;
+            var2 = var2.y;
+            var2 = var5 - var2;
+            var2 = var2 / var4;
+            var2 = var3 + var2;
+            var1['y'] = var2;
+            return var1;
         };
-        entity = {};
-        golfie['__closure'] = entity;
-        entity = 5693786585095.0;
-        golfie['__workletHash'] = entity;
-        entity = _closure1_slot7;
-        golfie['__initData'] = entity;
-        var _closure2_slot8 = golfie;
-        update = function(argFoo) { // Original name: v
-            golfie = argFoo;
-            report = _closure2_slot6;
-            entity = report.get;
-            oscard = entity.bind(report)();
-            michal = _closure2_slot8;
-            entity = undefined;
-            michal = michal.bind(entity)(oscard, golfie);
-            tangon = report.set;
-            tangon = tangon.bind(report)(golfie);
-            tangon = _closure2_slot2;
-            zuuluu = tangon.set;
-            report = tangon.get;
-            report = report.bind(tangon)();
-            result = oscard.x;
-            sizing = oscard.y;
-            backup = michal.x;
-            romeon = michal.y;
-            michal = global;
-            michal = michal.HermesInternal;
-            golfie = michal.concat;
-            echoed = ' Q ';
-            michal = ' ';
-            output = michal;
-            kiloes = michal;
-            foxtra = michal;
-            michal = echoed[golfie](result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
-            michal = report + michal;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+        var1 = {};
+        var7['__closure'] = var1;
+        var1 = 5693786585095.0;
+        var7['__workletHash'] = var1;
+        var1 = _closure1_slot7;
+        var7['__initData'] = var1;
+        var _closure2_slot8 = var7;
+        var20 = function v(arg1) {
+            var7 = arg1;
+            var5 = _closure2_slot6;
+            var1 = var5.get;
+            var6 = var1.bind(var5)();
+            var2 = _closure2_slot8;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var6, var7);
+            var4 = var5.set;
+            var4 = var4.bind(var5)(var7);
+            var4 = _closure2_slot2;
+            var3 = var4.set;
+            var5 = var4.get;
+            var5 = var5.bind(var4)();
+            var18 = var6.x;
+            var16 = var6.y;
+            var14 = var2.x;
+            var12 = var2.y;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var7 = var2.concat;
+            var19 = ' Q ';
+            var2 = ' ';
+            var17 = var2;
+            var15 = var2;
+            var13 = var2;
+            var2 = var19[var7](var18, var17, var16, var15, var14, var13, var12, var11);
+            var2 = var5 + var2;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity = {};
-        entity['previousTouch'] = output;
-        entity['getMidPoint'] = golfie;
-        entity['drawingPath'] = result;
-        update['__closure'] = entity;
-        entity = 207712562804.0;
-        update['__workletHash'] = entity;
-        entity = _closure1_slot8;
-        update['__initData'] = entity;
-        var _closure2_slot9 = update;
-        entity = 4;
-        golfie = option[entity];
-        golfie = michal.bind(tangon)(golfie);
-        verify = golfie.Gesture;
-        golfie = verify.Pan;
-        verify = golfie.bind(verify)();
-        golfie = verify.enabled;
-        offset = golfie.bind(verify)(foxtra);
-        verify = offset.onTouchesDown;
-        golfie = function(argFoo) { // Original name: H
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1 = {};
+        var1['previousTouch'] = var17;
+        var1['getMidPoint'] = var7;
+        var1['drawingPath'] = var18;
+        var20['__closure'] = var1;
+        var1 = 207712562804.0;
+        var20['__workletHash'] = var1;
+        var1 = _closure1_slot8;
+        var20['__initData'] = var1;
+        var _closure2_slot9 = var20;
+        var1 = 4;
+        var7 = var8[var1];
+        var7 = var2.bind(var4)(var7);
+        var9 = var7.Gesture;
+        var7 = var9.Pan;
+        var9 = var7.bind(var9)();
+        var7 = var9.enabled;
+        var10 = var7.bind(var9)(var13);
+        var9 = var10.onTouchesDown;
+        var7 = function H(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = _closure2_slot5;
-                michal = zuuluu.get;
-                zuuluu = michal.bind(zuuluu)();
-                michal = -1;
-                if(!(michal === zuuluu)) { _fun00008_ip = 197; continue _fun00007 }
+                var3 = _closure2_slot5;
+                var2 = var3.get;
+                var3 = var2.bind(var3)();
+                var2 = -1;
+                if(!(var2 === var3)) { _fun0004_ip = 197; continue _fun0004 }
  29:
-                michal = argFoo;
-                zuuluu = michal.allTouches;
-                michal = 0;
-                michal = zuuluu[michal];
-                report = _closure2_slot5;
-                tangon = report.set;
-                zuuluu = michal.id;
-                zuuluu = tangon.bind(report)(zuuluu);
-                report = _closure2_slot6;
-                tangon = report.set;
-                zuuluu = {};
-                oscard = michal.x;
-                zuuluu['x'] = oscard;
-                oscard = michal.y;
-                zuuluu['y'] = oscard;
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = _closure2_slot2;
-                zuuluu = tangon.set;
-                option = michal.x;
-                golfie = michal.y;
-                michal = global;
-                michal = michal.HermesInternal;
-                oscard = michal.concat;
-                report = 'M ';
-                michal = ' ';
-                michal = oscard.bind(report)(option, michal, golfie);
-                michal = zuuluu.bind(tangon)(michal);
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot3;
-                michal = 3;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                tangon = tangon.bind(zuuluu)(michal);
-                michal = tangon.runOnJS;
-                entity = _closure2_slot4;
-                michal = michal.bind(tangon)(entity);
-                entity = true;
-                entity = michal.bind(zuuluu)(entity);
+                var2 = arg1;
+                var3 = var2.allTouches;
+                var2 = 0;
+                var2 = var3[var2];
+                var5 = _closure2_slot5;
+                var4 = var5.set;
+                var3 = var2.id;
+                var3 = var4.bind(var5)(var3);
+                var5 = _closure2_slot6;
+                var4 = var5.set;
+                var3 = {};
+                var6 = var2.x;
+                var3['x'] = var6;
+                var6 = var2.y;
+                var3['y'] = var6;
+                var3 = var4.bind(var5)(var3);
+                var4 = _closure2_slot2;
+                var3 = var4.set;
+                var8 = var2.x;
+                var7 = var2.y;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var6 = var2.concat;
+                var5 = 'M ';
+                var2 = ' ';
+                var2 = var6.bind(var5)(var8, var2, var7);
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot3;
+                var2 = 3;
+                var2 = var3[var2];
+                var3 = undefined;
+                var4 = var4.bind(var3)(var2);
+                var2 = var4.runOnJS;
+                var1 = _closure2_slot4;
+                var2 = var2.bind(var4)(var1);
+                var1 = true;
+                var1 = var2.bind(var3)(var1);
  197:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        yankee = {};
-        yankee['touchInputId'] = echoed;
-        yankee['previousTouch'] = output;
-        yankee['drawingPath'] = result;
-        ctrled = option[report];
-        ctrled = michal.bind(tangon)(ctrled);
-        ctrled = ctrled.runOnJS;
-        yankee['runOnJS'] = ctrled;
-        yankee['setIsActivelyDrawing'] = source;
-        golfie['__closure'] = yankee;
-        yankee = 9390781103065.0;
-        golfie['__workletHash'] = yankee;
-        yankee = _closure1_slot11;
-        golfie['__initData'] = yankee;
-        offset = verify.bind(offset)(golfie);
-        verify = offset.onTouchesMove;
-        golfie = function(argFoo) { // Original name: A
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var11 = {};
+        var11['touchInputId'] = var19;
+        var11['previousTouch'] = var17;
+        var11['drawingPath'] = var18;
+        var22 = var8[var5];
+        var22 = var2.bind(var4)(var22);
+        var22 = var22.runOnJS;
+        var11['runOnJS'] = var22;
+        var11['setIsActivelyDrawing'] = var21;
+        var7['__closure'] = var11;
+        var11 = 9390781103065.0;
+        var7['__workletHash'] = var11;
+        var11 = _closure1_slot11;
+        var7['__initData'] = var11;
+        var10 = var9.bind(var10)(var7);
+        var9 = var10.onTouchesMove;
+        var7 = function A(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                zuuluu = _closure1_slot13;
-                entity = argFoo;
-                michal = entity.allTouches;
-                entity = undefined;
-                report = zuuluu.bind(entity)(michal);
-                zuuluu = report.bind(entity)();
-                michal = zuuluu.done;
-                if(michal) { _fun00010_ip = 109; continue _fun00009 }
+                var3 = _closure1_slot13;
+                var1 = arg1;
+                var2 = var1.allTouches;
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var3 = var5.bind(var1)();
+                var2 = var3.done;
+                if(var2) { _fun0005_ip = 109; continue _fun0005 }
  38:
-                golfie = zuuluu.value;
-                oscard = _closure2_slot5;
-                michal = oscard.get;
-                oscard = michal.bind(oscard)();
-                michal = golfie.id;
-                if(!(oscard === michal)) { _fun00010_ip = 94; continue _fun00009 }
+                var7 = var3.value;
+                var6 = _closure2_slot5;
+                var2 = var6.get;
+                var6 = var2.bind(var6)();
+                var2 = var7.id;
+                if(!(var6 === var2)) { _fun0005_ip = 94; continue _fun0005 }
  65:
-                oscard = _closure2_slot9;
-                michal = {};
-                option = golfie.x;
-                michal['x'] = option;
-                golfie = golfie.y;
-                michal['y'] = golfie;
-                michal = oscard.bind(entity)(michal);
+                var6 = _closure2_slot9;
+                var2 = {};
+                var8 = var7.x;
+                var2['x'] = var8;
+                var7 = var7.y;
+                var2['y'] = var7;
+                var2 = var6.bind(var1)(var2);
  94:
-                oscard = report.bind(entity)();
-                michal = oscard.done;
-                zuuluu = oscard;
-                if(!michal) { _fun00010_ip = 38; continue _fun00009 }
+                var6 = var5.bind(var1)();
+                var2 = var6.done;
+                var3 = var6;
+                if(!var2) { _fun0005_ip = 38; continue _fun0005 }
  109:
-                return entity;
+                return var1;
             }
         };
-        yankee = {};
-        yankee['touchInputId'] = echoed;
-        yankee['updateDrawingPath'] = update;
-        golfie['__closure'] = yankee;
-        yankee = 1958663319637.0;
-        golfie['__workletHash'] = yankee;
-        yankee = _closure1_slot10;
-        golfie['__initData'] = yankee;
-        offset = verify.bind(offset)(golfie);
-        verify = offset.onTouchesUp;
-        golfie = function(argFoo) { // Original name: S
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var11 = {};
+        var11['touchInputId'] = var19;
+        var11['updateDrawingPath'] = var20;
+        var7['__closure'] = var11;
+        var11 = 1958663319637.0;
+        var7['__workletHash'] = var11;
+        var11 = _closure1_slot10;
+        var7['__initData'] = var11;
+        var10 = var9.bind(var10)(var7);
+        var9 = var10.onTouchesUp;
+        var7 = function S(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                zuuluu = _closure2_slot5;
-                michal = zuuluu.get;
-                zuuluu = michal.bind(zuuluu)();
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00012_ip = 340; continue _fun00011 }
+                var3 = _closure2_slot5;
+                var2 = var3.get;
+                var3 = var2.bind(var3)();
+                var2 = null;
+                if(!(var2 != var3)) { _fun0006_ip = 340; continue _fun0006 }
  25:
-                tangon = _closure1_slot13;
-                michal = argFoo;
-                zuuluu = michal.allTouches;
-                michal = undefined;
-                golfie = tangon.bind(michal)(zuuluu);
-                tangon = golfie.bind(michal)();
-                zuuluu = tangon.done;
-                report = tangon;
-                if(zuuluu) { _fun00012_ip = 340; continue _fun00011 }
+                var4 = _closure1_slot13;
+                var2 = arg1;
+                var3 = var2.allTouches;
+                var2 = undefined;
+                var7 = var4.bind(var2)(var3);
+                var4 = var7.bind(var2)();
+                var3 = var4.done;
+                var5 = var4;
+                if(var3) { _fun0006_ip = 340; continue _fun0006 }
  66:
-                zuuluu = report.value;
-                option = _closure2_slot5;
-                tangon = option.get;
-                option = tangon.bind(option)();
-                tangon = zuuluu.id;
-                if(!(option !== tangon)) { _fun00012_ip = 113; continue _fun00011 }
+                var3 = var5.value;
+                var8 = _closure2_slot5;
+                var4 = var8.get;
+                var8 = var4.bind(var8)();
+                var4 = var3.id;
+                if(!(var8 !== var4)) { _fun0006_ip = 113; continue _fun0006 }
  93:
-                option = golfie.bind(michal)();
-                tangon = option.done;
-                report = option;
-                if(tangon) { _fun00012_ip = 340; continue _fun00011 }
+                var8 = var7.bind(var2)();
+                var4 = var8.done;
+                var5 = var8;
+                if(var4) { _fun0006_ip = 340; continue _fun0006 }
  111:
-                _fun00012_ip = 66; continue _fun00011;
+                _fun0006_ip = 66; continue _fun0006;
  113:
-                golfie = _closure2_slot2;
-                tangon = golfie.set;
-                report = golfie.get;
-                report = report.bind(golfie)();
-                yankee = zuuluu.x;
-                offset = zuuluu.y;
-                zuuluu = global;
-                zuuluu = zuuluu.HermesInternal;
-                verify = zuuluu.concat;
-                option = ' L ';
-                zuuluu = ' ';
-                zuuluu = verify.bind(option)(yankee, zuuluu, offset);
-                zuuluu = report + zuuluu;
-                zuuluu = tangon.bind(golfie)(zuuluu);
-                report = _closure2_slot6;
-                tangon = report.set;
-                zuuluu = {'x': 0, 'y': 0};
-                zuuluu = tangon.bind(report)(zuuluu);
-                report = _closure2_slot5;
-                tangon = report.set;
-                zuuluu = -1;
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = _closure1_slot0;
-                report = _closure1_slot3;
-                zuuluu = 3;
-                option = report[zuuluu];
-                verify = tangon.bind(michal)(option);
-                option = verify.runOnJS;
-                offset = _closure1_slot2;
-                oscard = 5;
-                oscard = report[oscard];
-                oscard = offset.bind(michal)(oscard);
-                oscard = oscard.addDrawing;
-                verify = option.bind(verify)(oscard);
-                option = _closure2_slot0;
-                oscard = golfie.get;
-                golfie = oscard.bind(golfie)();
-                offset = _closure2_slot1;
-                oscard = offset.get;
-                oscard = oscard.bind(offset)();
-                oscard = verify.bind(michal)(option, golfie, oscard);
-                zuuluu = report[zuuluu];
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.runOnJS;
-                entity = _closure2_slot10;
-                entity = zuuluu.bind(tangon)(entity);
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+                var7 = _closure2_slot2;
+                var4 = var7.set;
+                var5 = var7.get;
+                var5 = var5.bind(var7)();
+                var11 = var3.x;
+                var10 = var3.y;
+                var3 = global;
+                var3 = var3.HermesInternal;
+                var9 = var3.concat;
+                var8 = ' L ';
+                var3 = ' ';
+                var3 = var9.bind(var8)(var11, var3, var10);
+                var3 = var5 + var3;
+                var3 = var4.bind(var7)(var3);
+                var5 = _closure2_slot6;
+                var4 = var5.set;
+                var3 = {'x': 0, 'y': 0};
+                var3 = var4.bind(var5)(var3);
+                var5 = _closure2_slot5;
+                var4 = var5.set;
+                var3 = -1;
+                var3 = var4.bind(var5)(var3);
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot3;
+                var3 = 3;
+                var8 = var5[var3];
+                var9 = var4.bind(var2)(var8);
+                var8 = var9.runOnJS;
+                var10 = _closure1_slot2;
+                var6 = 5;
+                var6 = var5[var6];
+                var6 = var10.bind(var2)(var6);
+                var6 = var6.addDrawing;
+                var9 = var8.bind(var9)(var6);
+                var8 = _closure2_slot0;
+                var6 = var7.get;
+                var7 = var6.bind(var7)();
+                var10 = _closure2_slot1;
+                var6 = var10.get;
+                var6 = var6.bind(var10)();
+                var6 = var9.bind(var2)(var8, var7, var6);
+                var3 = var5[var3];
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.runOnJS;
+                var1 = _closure2_slot10;
+                var1 = var3.bind(var4)(var1);
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
  340:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        yankee = {};
-        yankee['touchInputId'] = echoed;
-        yankee['drawingPath'] = result;
-        yankee['previousTouch'] = output;
-        output = option[report];
-        output = michal.bind(tangon)(output);
-        output = output.runOnJS;
-        yankee['runOnJS'] = output;
-        result = _closure1_slot2;
-        output = 5;
-        output = option[output];
-        output = result.bind(tangon)(output);
-        yankee['RemixingActionCreators'] = output;
-        yankee['color'] = sizing;
-        yankee['strokeWidth'] = kiloes;
-        yankee['resetDrawing'] = backup;
-        golfie['__closure'] = yankee;
-        yankee = 12129881441711.0;
-        golfie['__workletHash'] = yankee;
-        yankee = _closure1_slot9;
-        golfie['__initData'] = yankee;
-        verify = verify.bind(offset)(golfie);
-        golfie = option[report];
-        offset = michal.bind(tangon)(golfie);
-        golfie = offset.useAnimatedStyle;
-        zuuluu = function() { // Original name: O
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var11 = {};
+        var11['touchInputId'] = var19;
+        var11['drawingPath'] = var18;
+        var11['previousTouch'] = var17;
+        var17 = var8[var5];
+        var17 = var2.bind(var4)(var17);
+        var17 = var17.runOnJS;
+        var11['runOnJS'] = var17;
+        var18 = _closure1_slot2;
+        var17 = 5;
+        var17 = var8[var17];
+        var17 = var18.bind(var4)(var17);
+        var11['RemixingActionCreators'] = var17;
+        var11['color'] = var16;
+        var11['strokeWidth'] = var15;
+        var11['resetDrawing'] = var14;
+        var7['__closure'] = var11;
+        var11 = 12129881441711.0;
+        var7['__workletHash'] = var11;
+        var11 = _closure1_slot9;
+        var7['__initData'] = var11;
+        var9 = var9.bind(var10)(var7);
+        var7 = var8[var5];
+        var10 = var2.bind(var4)(var7);
+        var7 = var10.useAnimatedStyle;
+        var3 = function O() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                entity = {'position': 'absolute', 'left': 0, 'top': 0};
-                report = _closure2_slot7;
-                tangon = 0;
-                if(!report) { _fun00014_ip = 35; continue _fun00013 }
+                var1 = {'position': 'absolute', 'left': 0, 'top': 0};
+                var5 = _closure2_slot7;
+                var4 = 0;
+                if(!var5) { _fun0007_ip = 35; continue _fun0007 }
  26:
-                report = _closure2_slot3;
-                tangon = report.width;
+                var5 = _closure2_slot3;
+                var4 = var5.width;
  35:
-                entity['width'] = tangon;
-                tangon = _closure2_slot7;
-                michal = 0;
-                if(!tangon) { _fun00014_ip = 57; continue _fun00013 }
+                var1['width'] = var4;
+                var4 = _closure2_slot7;
+                var2 = 0;
+                if(!var4) { _fun0007_ip = 57; continue _fun0007 }
  48:
-                zuuluu = _closure2_slot3;
-                michal = zuuluu.height;
+                var3 = _closure2_slot3;
+                var2 = var3.height;
  57:
-                entity['height'] = michal;
-                return entity;
+                var1['height'] = var2;
+                return var1;
             }
         };
-        yankee = {};
-        yankee['inDrawMode'] = foxtra;
-        yankee['canvasSize'] = romeon;
-        zuuluu['__closure'] = yankee;
-        yankee = 354522880830.0;
-        zuuluu['__workletHash'] = yankee;
-        yankee = _closure1_slot12;
-        zuuluu['__initData'] = yankee;
-        golfie = golfie.bind(offset)(zuuluu);
-        zuuluu = _closure1_slot6;
-        entity = option[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.GestureDetector;
-        entity = {};
-        entity['gesture'] = verify;
-        oscard = _closure1_slot1;
-        report = option[report];
-        report = oscard.bind(tangon)(report);
-        oscard = report.View;
-        report = {};
-        report['style'] = golfie;
-        report = zuuluu.bind(tangon)(oscard, report);
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var11 = {};
+        var11['inDrawMode'] = var13;
+        var11['canvasSize'] = var12;
+        var3['__closure'] = var11;
+        var11 = 354522880830.0;
+        var3['__workletHash'] = var11;
+        var11 = _closure1_slot12;
+        var3['__initData'] = var11;
+        var7 = var7.bind(var10)(var3);
+        var3 = _closure1_slot6;
+        var1 = var8[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.GestureDetector;
+        var1 = {};
+        var1['gesture'] = var9;
+        var6 = _closure1_slot1;
+        var5 = var8[var5];
+        var5 = var6.bind(var4)(var5);
+        var6 = var5.View;
+        var5 = {};
+        var5['style'] = var7;
+        var5 = var3.bind(var4)(var6, var5);
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['DrawingGestureHandler'] = michal;
-    return entity;
+    var3['DrawingGestureHandler'] = var2;
+    return var1;
 })();

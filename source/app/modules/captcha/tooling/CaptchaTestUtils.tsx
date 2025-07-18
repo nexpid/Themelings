@@ -1,127 +1,127 @@
 // app/modules/captcha/tooling/CaptchaTestUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    option = global;
-    verify = option.Object;
-    report = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(verify)(zuuluu, entity, tangon);
-    offset = option.Object;
-    verify = offset.entries;
-    report = 0;
-    tangon = golfie[report];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.HCaptchaDifficulty;
-    offset = verify.bind(offset)(tangon);
-    verify = offset.map;
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var8 = global;
+    var9 = var8.Object;
+    var5 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var9)(var3, var1, var4);
+    var10 = var8.Object;
+    var9 = var10.entries;
+    var5 = 0;
+    var4 = var7[var5];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.HCaptchaDifficulty;
+    var10 = var9.bind(var10)(var4);
+    var9 = var10.map;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = report[Symbol.iterator];
-            report = entity().next;
-            michal = report().value;
-            zuuluu = entity;
-            golfie = undefined;
-            tangon = zuuluu === golfie;
-            zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 27; continue _fun00001 }
+            var5 = arg1;
+            var1 = var5[Symbol.iterator];
+            var5 = var1().next;
+            var2 = var5().value;
+            var3 = var1;
+            var7 = undefined;
+            var4 = var3 === var7;
+            var3 = undefined;
+            if(var4) { _fun0001_ip = 27; continue _fun0001 }
  24:
-            zuuluu = michal;
+            var3 = var2;
  27:
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 57; continue _fun00001 }
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 57; continue _fun0001 }
  32:
-            oscard = report().value;
-            report = entity;
-            report = report === golfie;
-            michal = undefined;
-            tangon = report;
-            if(report) { _fun00002_ip = 57; continue _fun00001 }
+            var6 = var5().value;
+            var5 = var1;
+            var5 = var5 === var7;
+            var2 = undefined;
+            var4 = var5;
+            if(var5) { _fun0001_ip = 57; continue _fun0001 }
  51:
-            michal = oscard;
-            tangon = report;
+            var2 = var6;
+            var4 = var5;
  57:
-            if(tangon) { _fun00002_ip = 63; continue _fun00001 }
+            if(var4) { _fun0001_ip = 63; continue _fun0001 }
  60:
-            entity.return();
+            var1.return();
  63:
-            entity = {};
-            entity['label'] = zuuluu;
-            entity['value'] = michal;
-            return entity;
+            var1 = {};
+            var1['label'] = var3;
+            var1['value'] = var2;
+            return var1;
         }
     };
-    offset = verify.bind(offset)(tangon);
-    verify = offset.filter;
-    tangon = function(argFoo) { // Original name: isHCaptchaDifficulty
-        entity = argFoo;
-        entity = entity.value;
-        michal = 'string';
-        entity = typeof entity;
-        entity = michal !== entity;
-        return entity;
+    var10 = var9.bind(var10)(var4);
+    var9 = var10.filter;
+    var4 = function isHCaptchaDifficulty(arg1) {
+        var1 = arg1;
+        var1 = var1.value;
+        var2 = 'string';
+        var1 = typeof var1;
+        var1 = var2 !== var1;
+        return var1;
     };
-    tangon = verify.bind(offset)(tangon);
-    verify = option.Object;
-    option = verify.entries;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.CaptchaDeciderType;
-    option = option.bind(verify)(report);
-    report = option.map;
-    michal = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var9.bind(var10)(var4);
+    var9 = var8.Object;
+    var8 = var9.entries;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.CaptchaDeciderType;
+    var8 = var8.bind(var9)(var5);
+    var5 = var8.map;
+    var2 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            entity = report[Symbol.iterator];
-            report = entity().next;
-            michal = report().value;
-            zuuluu = entity;
-            golfie = undefined;
-            tangon = zuuluu === golfie;
-            zuuluu = undefined;
-            if(tangon) { _fun00004_ip = 27; continue _fun00003 }
+            var5 = arg1;
+            var1 = var5[Symbol.iterator];
+            var5 = var1().next;
+            var2 = var5().value;
+            var3 = var1;
+            var7 = undefined;
+            var4 = var3 === var7;
+            var3 = undefined;
+            if(var4) { _fun0002_ip = 27; continue _fun0002 }
  24:
-            zuuluu = michal;
+            var3 = var2;
  27:
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 57; continue _fun00003 }
+            var2 = undefined;
+            if(var4) { _fun0002_ip = 57; continue _fun0002 }
  32:
-            oscard = report().value;
-            report = entity;
-            report = report === golfie;
-            michal = undefined;
-            tangon = report;
-            if(report) { _fun00004_ip = 57; continue _fun00003 }
+            var6 = var5().value;
+            var5 = var1;
+            var5 = var5 === var7;
+            var2 = undefined;
+            var4 = var5;
+            if(var5) { _fun0002_ip = 57; continue _fun0002 }
  51:
-            michal = oscard;
-            tangon = report;
+            var2 = var6;
+            var4 = var5;
  57:
-            if(tangon) { _fun00004_ip = 63; continue _fun00003 }
+            if(var4) { _fun0002_ip = 63; continue _fun0002 }
  60:
-            entity.return();
+            var1.return();
  63:
-            entity = {};
-            entity['label'] = zuuluu;
-            entity['value'] = michal;
-            return entity;
+            var1 = {};
+            var1['label'] = var3;
+            var1['value'] = var2;
+            return var1;
         }
     };
-    michal = report.bind(option)(michal);
-    report = 1;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/captcha/tooling/CaptchaTestUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['HCAPTCHA_DIFFICULTY_OPTIONS'] = tangon;
-    zuuluu['CAPTCHA_DECIDER_TYPE_OPTIONS'] = michal;
-    return entity;
+    var2 = var5.bind(var8)(var2);
+    var5 = 1;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/captcha/tooling/CaptchaTestUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['HCAPTCHA_DIFFICULTY_OPTIONS'] = var4;
+    var3['CAPTCHA_DECIDER_TYPE_OPTIONS'] = var2;
+    return var1;
 })();

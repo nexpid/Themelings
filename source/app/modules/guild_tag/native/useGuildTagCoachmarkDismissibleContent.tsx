@@ -1,68 +1,68 @@
 // app/modules/guild_tag/native/useGuildTagCoachmarkDismissibleContent.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 4;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_tag/native/useGuildTagCoachmarkDismissibleContent.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useGuildTagCoachmarkDismissibleContent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 4;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_tag/native/useGuildTagCoachmarkDismissibleContent.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildTagCoachmarkDismissibleContent(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 0;
-            michal = tangon[michal];
-            oscard = undefined;
-            golfie = zuuluu.bind(oscard)(michal);
-            report = golfie.useCanSeeGuildTagCoachmark;
-            michal = argFoo;
-            option = report.bind(golfie)(michal);
-            michal = 1;
-            michal = tangon[michal];
-            report = zuuluu.bind(oscard)(michal);
-            michal = report.useIsMobileQuestDockVisible;
-            michal = michal.bind(report)();
-            report = michal.isVisible;
-            michal = 2;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(oscard)(michal);
-            zuuluu = tangon.useSelectedTimeRecurringDismissibleContent;
-            michal = null;
-            if(!option) { _fun00002_ip = 126; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 0;
+            var2 = var4[var2];
+            var6 = undefined;
+            var7 = var3.bind(var6)(var2);
+            var5 = var7.useCanSeeGuildTagCoachmark;
+            var2 = arg1;
+            var8 = var5.bind(var7)(var2);
+            var2 = 1;
+            var2 = var4[var2];
+            var5 = var3.bind(var6)(var2);
+            var2 = var5.useIsMobileQuestDockVisible;
+            var2 = var2.bind(var5)();
+            var5 = var2.isVisible;
+            var2 = 2;
+            var2 = var4[var2];
+            var4 = var3.bind(var6)(var2);
+            var3 = var4.useSelectedTimeRecurringDismissibleContent;
+            var2 = null;
+            if(!var8) { _fun0001_ip = 126; continue _fun0001 }
  89:
-            michal = null;
-            if(report) { _fun00002_ip = 126; continue _fun00001 }
+            var2 = null;
+            if(var5) { _fun0001_ip = 126; continue _fun0001 }
  94:
-            report = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 3;
-            entity = golfie[entity];
-            entity = report.bind(oscard)(entity);
-            entity = entity.DismissibleContent;
-            michal = entity.GUILD_TAG_AVAILABLE_COACHMARK;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 3;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.DismissibleContent;
+            var2 = var1.GUILD_TAG_AVAILABLE_COACHMARK;
  126:
-            entity = {};
-            report = 1800000;
-            entity['cooldownDurationMs'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = {};
+            var5 = 1800000;
+            var1['cooldownDurationMs'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['useGuildTagCoachmarkDismissibleContent'] = michal;
-    return entity;
+    var3['useGuildTagCoachmarkDismissibleContent'] = var2;
+    return var1;
 })();

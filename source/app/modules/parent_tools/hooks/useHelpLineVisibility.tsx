@@ -1,163 +1,163 @@
 // app/modules/parent_tools/hooks/useHelpLineVisibility.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    tangon = global;
-    offset = tangon.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    verify = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(verify);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    verify = tangon.Set;
-    report = verify.prototype;
-    option = Object.create(report, {constructor: {value: verify}});
-    foxtra = ['US'];
-    backup = option;
-    report = new backup[verify](foxtra, romeon);
-    report = report instanceof Object ? report : option;
-    var _closure1_slot6 = report;
-    option = tangon.Set;
-    tangon = option.prototype;
-    report = Object.create(tangon, {constructor: {value: option}});
-    foxtra = ['en-US', 'es-ES'];
-    backup = report;
-    tangon = new backup[option](foxtra, romeon);
-    tangon = tangon instanceof Object ? tangon : report;
-    var _closure1_slot7 = tangon;
-    tangon = function() { // Original name: useShouldShowHelplineLink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var9 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var9);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var9 = var4.Set;
+    var5 = var9.prototype;
+    var8 = Object.create(var5, {constructor: {value: var9}});
+    var13 = ['US'];
+    var14 = var8;
+    var5 = new var14[var9](var13, var12);
+    var5 = var5 instanceof Object ? var5 : var8;
+    var _closure1_slot6 = var5;
+    var8 = var4.Set;
+    var4 = var8.prototype;
+    var5 = Object.create(var4, {constructor: {value: var8}});
+    var13 = ['en-US', 'es-ES'];
+    var14 = var5;
+    var4 = new var14[var8](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot7 = var4;
+    var4 = function useShouldShowHelplineLink() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 3;
-            entity = option[entity];
-            golfie = undefined;
-            entity = zuuluu.bind(golfie)(entity);
-            entity = entity.bind(golfie)();
-            oscard = _closure1_slot0;
-            tangon = 4;
-            zuuluu = option[tangon];
-            yankee = oscard.bind(golfie)(zuuluu);
-            offset = yankee.useStateFromStores;
-            zuuluu = _closure1_slot5;
-            verify = new Array(1);
-            verify[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot5;
-                entity = michal.getUserCountry;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 3;
+            var1 = var8[var1];
+            var7 = undefined;
+            var1 = var3.bind(var7)(var1);
+            var1 = var1.bind(var7)();
+            var6 = _closure1_slot0;
+            var4 = 4;
+            var3 = var8[var4];
+            var11 = var6.bind(var7)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = _closure1_slot5;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getUserCountry;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = offset.bind(yankee)(verify, zuuluu);
-            var _closure2_slot0 = zuuluu;
-            tangon = option[tangon];
-            option = oscard.bind(golfie)(tangon);
-            golfie = option.useStateFromStores;
-            tangon = _closure1_slot4;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                entity = _closure1_slot4;
-                entity = entity.locale;
-                return entity;
+            var3 = var10.bind(var11)(var9, var3);
+            var _closure2_slot0 = var3;
+            var4 = var8[var4];
+            var8 = var6.bind(var7)(var4);
+            var7 = var8.useStateFromStores;
+            var4 = _closure1_slot4;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var1 = _closure1_slot4;
+                var1 = var1.locale;
+                return var1;
             };
-            tangon = golfie.bind(option)(oscard, tangon);
-            option = _closure1_slot3;
-            golfie = option.useEffect;
-            oscard = new Array(1);
-            oscard[0] = zuuluu;
-            report = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = var7.bind(var8)(var6, var4);
+            var8 = _closure1_slot3;
+            var7 = var8.useEffect;
+            var6 = new Array(1);
+            var6[0] = var3;
+            var5 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot0;
-                    entity = null;
-                    if(!(entity == michal)) { _fun00004_ip = 48; continue _fun00003 }
+                    var2 = _closure2_slot0;
+                    var1 = null;
+                    if(!(var1 == var2)) { _fun0002_ip = 48; continue _fun0002 }
  13:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.fetchUserCountryCode;
-                    entity = entity.bind(michal)();
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.fetchUserCountryCode;
+                    var1 = var1.bind(var2)();
  48:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            report = golfie.bind(option)(report, oscard);
-            entity = !entity;
-            if(!entity) { _fun00002_ip = 156; continue _fun00001 }
+            var5 = var7.bind(var8)(var5, var6);
+            var1 = !var1;
+            if(!var1) { _fun0001_ip = 156; continue _fun0001 }
  150:
-            report = null;
-            entity = report != zuuluu;
+            var5 = null;
+            var1 = var5 != var3;
  156:
-            if(!entity) { _fun00002_ip = 179; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 179; continue _fun0001 }
  159:
-            oscard = _closure1_slot6;
-            report = oscard.has;
-            zuuluu = zuuluu.alpha2;
-            entity = report.bind(oscard)(zuuluu);
+            var6 = _closure1_slot6;
+            var5 = var6.has;
+            var3 = var3.alpha2;
+            var1 = var5.bind(var6)(var3);
  179:
-            if(!entity) { _fun00002_ip = 196; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 196; continue _fun0001 }
  182:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.has;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot7;
+            var2 = var3.has;
+            var1 = var2.bind(var3)(var4);
  196:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/parent_tools/hooks/useHelpLineVisibility.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['useShouldShowHelplineLink'] = tangon;
-    michal = function() {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var4;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/parent_tools/hooks/useHelpLineVisibility.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['useShouldShowHelplineLink'] = var4;
+    var2 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = tangon.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)();
-            michal = _closure1_slot8;
-            michal = michal.bind(zuuluu)();
-            entity = !entity;
-            if(!entity) { _fun00006_ip = 46; continue _fun00005 }
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var1 = var1.bind(var3)();
+            var2 = _closure1_slot8;
+            var2 = var2.bind(var3)();
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 46; continue _fun0003 }
  43:
-            entity = !michal;
+            var1 = !var2;
  46:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldShowThroughlineLink'] = michal;
-    return entity;
+    var3['useShouldShowThroughlineLink'] = var2;
+    return var1;
 })();

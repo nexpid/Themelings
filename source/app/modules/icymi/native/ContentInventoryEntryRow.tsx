@@ -1,139 +1,139 @@
 // app/modules/icymi/native/ContentInventoryEntryRow.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/icymi/native/ContentInventoryEntryRow.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ContentInventoryEntryRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/icymi/native/ContentInventoryEntryRow.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ContentInventoryEntryRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.content;
-            var _closure2_slot0 = oscard;
-            report = entity.renderForScreenshot;
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00002_ip = 28; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.content;
+            var _closure2_slot0 = var6;
+            var5 = var1.renderForScreenshot;
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0001_ip = 28; continue _fun0001 }
  26:
-            report = false;
+            var5 = false;
  28:
-            offset = entity.visible;
-            option = entity.mediaMosaicMaxWidth;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = verify[zuuluu];
-            verify = golfie.bind(tangon)(zuuluu);
-            golfie = verify.useStateFromStores;
-            yankee = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = yankee;
-            michal = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.isBlockedOrIgnored;
-                entity = _closure2_slot0;
-                entity = entity.author_id;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var10 = var1.visible;
+            var8 = var1.mediaMosaicMaxWidth;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 3;
+            var3 = var9[var3];
+            var9 = var7.bind(var4)(var3);
+            var7 = var9.useStateFromStores;
+            var11 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var11;
+            var2 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.isBlockedOrIgnored;
+                var1 = _closure2_slot0;
+                var1 = var1.author_id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = golfie.bind(verify)(zuuluu, michal);
-            if(michal) { _fun00002_ip = 322; continue _fun00001 }
+            var2 = var7.bind(var9)(var3, var2);
+            if(var2) { _fun0001_ip = 322; continue _fun0001 }
  99:
-            zuuluu = oscard.content_type;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            verify = 4;
-            michal = michal[verify];
-            michal = golfie.bind(tangon)(michal);
-            michal = michal.ContentInventoryEntryType;
-            michal = michal.TOP_GAME;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 279; continue _fun00001 }
+            var3 = var6.content_type;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var9 = 4;
+            var2 = var2[var9];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.ContentInventoryEntryType;
+            var2 = var2.TOP_GAME;
+            if(!(var2 !== var3)) { _fun0001_ip = 279; continue _fun0001 }
  144:
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[verify];
-            michal = golfie.bind(tangon)(michal);
-            michal = michal.ContentInventoryEntryType;
-            michal = michal.PLAYED_GAME;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 279; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var9];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.ContentInventoryEntryType;
+            var2 = var2.PLAYED_GAME;
+            if(!(var2 !== var3)) { _fun0001_ip = 279; continue _fun0001 }
  177:
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[verify];
-            michal = golfie.bind(tangon)(michal);
-            michal = michal.ContentInventoryEntryType;
-            michal = michal.CUSTOM_STATUS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 214; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var9];
+            var2 = var7.bind(var4)(var2);
+            var2 = var2.ContentInventoryEntryType;
+            var2 = var2.CUSTOM_STATUS;
+            if(!(var2 !== var3)) { _fun0001_ip = 214; continue _fun0001 }
  210:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  214:
-            golfie = _closure1_slot4;
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
-            michal = 6;
-            michal = verify[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['content'] = oscard;
-            michal['renderForScreenshot'] = report;
-            verify = null;
-            verify = verify != offset;
-            if(!verify) { _fun00002_ip = 261; continue _fun00001 }
+            var7 = _closure1_slot4;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 6;
+            var2 = var9[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['content'] = var6;
+            var2['renderForScreenshot'] = var5;
+            var9 = null;
+            var9 = var9 != var10;
+            if(!var9) { _fun0001_ip = 261; continue _fun0001 }
  258:
-            verify = offset;
+            var9 = var10;
  261:
-            michal['visible'] = verify;
-            michal['mediaMosaicMaxWidth'] = option;
-            michal = golfie.bind(tangon)(zuuluu, michal);
-            return michal;
+            var2['visible'] = var9;
+            var2['mediaMosaicMaxWidth'] = var8;
+            var2 = var7.bind(var4)(var3, var2);
+            return var2;
  279:
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 5;
-            entity = golfie[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity['content'] = oscard;
-            entity['renderForScreenshot'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 5;
+            var1 = var7[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['content'] = var6;
+            var1['renderForScreenshot'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
  322:
-            entity = null;
-            return entity;
+            var1 = null;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

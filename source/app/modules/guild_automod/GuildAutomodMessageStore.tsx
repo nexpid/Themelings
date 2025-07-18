@@ -1,600 +1,600 @@
 // app/modules/guild_automod/GuildAutomodMessageStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot18 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot18 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot18 = entity;
-    verify = function(argFoo) { // Original name: handleMessageSendFailedAutomod
-        entity = argFoo;
-        golfie = entity.messageData;
-        oscard = entity.errorResponseBody;
-        option = _closure1_slot0;
-        verify = _closure1_slot2;
-        entity = 8;
-        zuuluu = verify[entity];
-        report = undefined;
-        tangon = option.bind(report)(zuuluu);
-        zuuluu = tangon.getFailedMessageId;
-        tangon = zuuluu.bind(tangon)(golfie);
-        zuuluu = {};
-        zuuluu['id'] = tangon;
-        entity = verify[entity];
-        offset = option.bind(report)(entity);
-        entity = offset.isMessageDataEdit;
-        entity = entity.bind(offset)(golfie);
-        zuuluu['isBlockedEdit'] = entity;
-        zuuluu['messageData'] = golfie;
-        entity = 9;
-        entity = verify[entity];
-        report = option.bind(report)(entity);
-        entity = report.getAutomodErrorMessage;
-        entity = entity.bind(report)(golfie, oscard);
-        zuuluu['errorMessage'] = entity;
-        entity = _closure1_slot13;
-        entity[tangon] = zuuluu;
-        entity = _closure1_slot14;
-        entity = entity + 1;
-        _closure1_slot14 = entity;
-        entity = true;
-        return entity;
+    var _closure1_slot18 = var1;
+    var9 = function handleMessageSendFailedAutomod(arg1) {
+        var1 = arg1;
+        var7 = var1.messageData;
+        var6 = var1.errorResponseBody;
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 8;
+        var3 = var9[var1];
+        var5 = undefined;
+        var4 = var8.bind(var5)(var3);
+        var3 = var4.getFailedMessageId;
+        var4 = var3.bind(var4)(var7);
+        var3 = {};
+        var3['id'] = var4;
+        var1 = var9[var1];
+        var10 = var8.bind(var5)(var1);
+        var1 = var10.isMessageDataEdit;
+        var1 = var1.bind(var10)(var7);
+        var3['isBlockedEdit'] = var1;
+        var3['messageData'] = var7;
+        var1 = 9;
+        var1 = var9[var1];
+        var5 = var8.bind(var5)(var1);
+        var1 = var5.getAutomodErrorMessage;
+        var1 = var1.bind(var5)(var7, var6);
+        var3['errorMessage'] = var1;
+        var1 = _closure1_slot13;
+        var1[var4] = var3;
+        var1 = _closure1_slot14;
+        var1 = var1 + 1;
+        _closure1_slot14 = var1;
+        var1 = true;
+        return var1;
     };
-    offset = function(argFoo) { // Original name: handleLoadMessages
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var10 = function handleLoadMessages(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.channelId;
-            golfie = entity.messages;
-            zuuluu = _closure1_slot8;
-            entity = zuuluu.getChannel;
-            report = entity.bind(zuuluu)(tangon);
-            entity = null;
-            zuuluu = entity == report;
-            tangon = undefined;
-            if(zuuluu) { _fun00004_ip = 52; continue _fun00003 }
+            var1 = arg1;
+            var4 = var1.channelId;
+            var7 = var1.messages;
+            var3 = _closure1_slot8;
+            var1 = var3.getChannel;
+            var5 = var1.bind(var3)(var4);
+            var1 = null;
+            var3 = var1 == var5;
+            var4 = undefined;
+            if(var3) { _fun0002_ip = 52; continue _fun0002 }
  42:
-            zuuluu = report.getGuildId;
-            tangon = zuuluu.bind(report)();
+            var3 = var5.getGuildId;
+            var4 = var3.bind(var5)();
  52:
-            if(!(entity != tangon)) { _fun00004_ip = 117; continue _fun00003 }
+            if(!(var1 != var4)) { _fun0002_ip = 117; continue _fun0002 }
  56:
-            zuuluu = _closure1_slot16;
-            oscard = zuuluu[tangon];
-            report = golfie.reduce;
-            zuuluu = function(argFoo, argBar) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var3 = _closure1_slot16;
+            var6 = var3[var4];
+            var5 = var7.reduce;
+            var3 = function(arg1, arg2) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    golfie = argFoo;
-                    zuuluu = argBar;
-                    report = zuuluu.type;
-                    entity = _closure1_slot12;
-                    michal = entity.AUTO_MODERATION_ACTION;
-                    entity = golfie;
-                    if(!(report === michal)) { _fun00006_ip = 135; continue _fun00005 }
+                    var7 = arg1;
+                    var3 = arg2;
+                    var5 = var3.type;
+                    var1 = _closure1_slot12;
+                    var2 = var1.AUTO_MODERATION_ACTION;
+                    var1 = var7;
+                    if(!(var5 === var2)) { _fun0003_ip = 135; continue _fun0003 }
  31:
-                    offset = zuuluu.embeds;
-                    report = null;
-                    option = report == offset;
-                    michal = undefined;
-                    oscard = undefined;
-                    if(option) { _fun00006_ip = 68; continue _fun00005 }
+                    var10 = var3.embeds;
+                    var5 = null;
+                    var8 = var5 == var10;
+                    var2 = undefined;
+                    var6 = undefined;
+                    if(var8) { _fun0003_ip = 68; continue _fun0003 }
  50:
-                    verify = offset.some;
-                    option = function(argFoo) {
-                        entity = argFoo;
-                        michal = entity.type;
-                        entity = _closure1_slot11;
-                        entity = entity.AUTO_MODERATION_NOTIFICATION;
-                        entity = michal === entity;
-                        return entity;
+                    var9 = var10.some;
+                    var8 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.type;
+                        var1 = _closure1_slot11;
+                        var1 = var1.AUTO_MODERATION_NOTIFICATION;
+                        var1 = var2 === var1;
+                        return var1;
                     };
-                    oscard = verify.bind(offset)(option);
+                    var6 = var9.bind(var10)(var8);
  68:
-                    entity = golfie;
-                    if(!oscard) { _fun00006_ip = 135; continue _fun00005 }
+                    var1 = var7;
+                    if(!var6) { _fun0003_ip = 135; continue _fun0003 }
  74:
-                    if(!(report != golfie)) { _fun00006_ip = 127; continue _fun00005 }
+                    if(!(var5 != var7)) { _fun0003_ip = 127; continue _fun0003 }
  78:
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 12;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(michal)(tangon);
-                    report = oscard.compare;
-                    tangon = zuuluu.id;
-                    report = report.bind(oscard)(golfie, tangon);
-                    tangon = -1;
-                    michal = undefined;
-                    if(!(tangon === report)) { _fun00006_ip = 132; continue _fun00005 }
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 12;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var2)(var4);
+                    var5 = var6.compare;
+                    var4 = var3.id;
+                    var5 = var5.bind(var6)(var7, var4);
+                    var4 = -1;
+                    var2 = undefined;
+                    if(!(var4 === var5)) { _fun0003_ip = 132; continue _fun0003 }
  127:
-                    michal = zuuluu.id;
+                    var2 = var3.id;
  132:
-                    entity = michal;
+                    var1 = var2;
  135:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = report.bind(golfie)(zuuluu, oscard);
-            entity = entity != zuuluu;
-            if(!entity) { _fun00004_ip = 102; continue _fun00003 }
+            var3 = var5.bind(var7)(var3, var6);
+            var1 = var1 != var3;
+            if(!var1) { _fun0002_ip = 102; continue _fun0002 }
  90:
-            report = _closure1_slot16;
-            report = report[tangon];
-            entity = report !== zuuluu;
+            var5 = _closure1_slot16;
+            var5 = var5[var4];
+            var1 = var5 !== var3;
  102:
-            if(!entity) { _fun00004_ip = 115; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 115; continue _fun0002 }
  105:
-            michal = _closure1_slot16;
-            michal[tangon] = zuuluu;
-            entity = true;
+            var2 = _closure1_slot16;
+            var2[var4] = var3;
+            var1 = true;
  115:
-            return entity;
+            return var1;
  117:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    entity = global;
-    yankee = entity.Object;
-    option = yankee.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(yankee)(zuuluu, entity, michal);
-    michal = 0;
-    option = oscard[michal];
-    entity = undefined;
-    option = golfie.bind(entity)(option);
-    var _closure1_slot3 = option;
-    option = 1;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot4 = option;
-    option = 2;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot5 = option;
-    option = 3;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot6 = option;
-    option = 4;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 5;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot8 = option;
-    option = 6;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot9 = option;
-    option = 7;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    yankee = option.AbortCodes;
-    var _closure1_slot10 = yankee;
-    yankee = option.MessageEmbedTypes;
-    var _closure1_slot11 = yankee;
-    option = option.MessageTypes;
-    var _closure1_slot12 = option;
-    option = {};
-    var _closure1_slot13 = option;
-    var _closure1_slot14 = michal;
-    michal = {};
-    var _closure1_slot15 = michal;
-    michal = {};
-    var _closure1_slot16 = michal;
-    michal = function(argFoo) { // Original name: removeFailedMessage
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var1 = global;
+    var11 = var1.Object;
+    var8 = var11.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var11)(var3, var1, var2);
+    var2 = 0;
+    var8 = var6[var2];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot8 = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot9 = var8;
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var11 = var8.AbortCodes;
+    var _closure1_slot10 = var11;
+    var11 = var8.MessageEmbedTypes;
+    var _closure1_slot11 = var11;
+    var8 = var8.MessageTypes;
+    var _closure1_slot12 = var8;
+    var8 = {};
+    var _closure1_slot13 = var8;
+    var _closure1_slot14 = var2;
+    var2 = {};
+    var _closure1_slot15 = var2;
+    var2 = {};
+    var _closure1_slot16 = var2;
+    var2 = function removeFailedMessage(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot13;
-            tangon = entity[zuuluu];
-            entity = null;
-            if(!(entity != tangon)) { _fun00008_ip = 28; continue _fun00007 }
+            var3 = arg1;
+            var1 = _closure1_slot13;
+            var4 = var1[var3];
+            var1 = null;
+            if(!(var1 != var4)) { _fun0004_ip = 28; continue _fun0004 }
  20:
-            entity = _closure1_slot13;
-            entity = delete entity[zuuluu];
+            var1 = _closure1_slot13;
+            var1 = delete var1[var3];
  28:
-            entity = _closure1_slot14;
-            entity = entity + 1;
-            _closure1_slot14 = entity;
-            entity = undefined;
-            return entity;
+            var1 = _closure1_slot14;
+            var1 = var1 + 1;
+            _closure1_slot14 = var1;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot17 = michal;
-    michal = 13;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.PersistedStore;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: GuildAutomodMessageStore
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot17 = var2;
+    var2 = 13;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.PersistedStore;
+    var2 = function(arg1) {
+        var4 = function GuildAutomodMessageStore() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot3;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot6;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot5;
-                entity = _closure1_slot18;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00010_ip = 69; continue _fun00009 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot3;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot6;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot18;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0005_ip = 69; continue _fun0005 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00010_ip = 105; continue _fun00009;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0005_ip = 105; continue _fun0005;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot6;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot6;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot7;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot4;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot7;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot4;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                entity = argFoo;
-                report = this;
-                tangon = report.waitFor;
-                zuuluu = _closure1_slot9;
-                zuuluu = tangon.bind(report)(zuuluu);
-                zuuluu = null;
-                if(!(zuuluu != entity)) { _fun00012_ip = 50; continue _fun00011 }
+                var1 = arg1;
+                var5 = this;
+                var4 = var5.waitFor;
+                var3 = _closure1_slot9;
+                var3 = var4.bind(var5)(var3);
+                var3 = null;
+                if(!(var3 != var1)) { _fun0006_ip = 50; continue _fun0006 }
  30:
-                zuuluu = entity.automodFailedMessages;
-                _closure1_slot13 = zuuluu;
-                entity = entity.mentionRaidDetectionByGuild;
-                _closure1_slot15 = entity;
+                var3 = var1.automodFailedMessages;
+                _closure1_slot13 = var3;
+                var1 = var1.mentionRaidDetectionByGuild;
+                _closure1_slot15 = var1;
  50:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(6);
-        entity[0] = report;
-        report = {};
-        golfie = 'getState';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = {};
-            zuuluu = _closure1_slot13;
-            entity['automodFailedMessages'] = zuuluu;
-            zuuluu = _closure1_slot15;
-            entity['mentionRaidDetectionByGuild'] = zuuluu;
-            michal = _closure1_slot16;
-            entity['lastIncidentAlertMessage'] = michal;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(6);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getState';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = {};
+            var3 = _closure1_slot13;
+            var1['automodFailedMessages'] = var3;
+            var3 = _closure1_slot15;
+            var1['mentionRaidDetectionByGuild'] = var3;
+            var2 = _closure1_slot16;
+            var1['lastIncidentAlertMessage'] = var2;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getMessage';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getMessage';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                tangon = argFoo;
-                michal = null;
-                zuuluu = michal == tangon;
-                entity = null;
-                if(zuuluu) { _fun00014_ip = 40; continue _fun00013 }
+                var4 = arg1;
+                var2 = null;
+                var3 = var2 == var4;
+                var1 = null;
+                if(var3) { _fun0007_ip = 40; continue _fun0007 }
  14:
-                zuuluu = _closure1_slot13;
-                zuuluu = zuuluu[tangon];
-                tangon = michal != zuuluu;
-                michal = null;
-                if(!tangon) { _fun00014_ip = 37; continue _fun00013 }
+                var3 = _closure1_slot13;
+                var3 = var3[var4];
+                var4 = var2 != var3;
+                var2 = null;
+                if(!var4) { _fun0007_ip = 37; continue _fun0007 }
  34:
-                michal = zuuluu;
+                var2 = var3;
  37:
-                entity = michal;
+                var1 = var2;
  40:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'getMessagesVersion';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot14;
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'getMessagesVersion';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot14;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'getMentionRaidDetected';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getMentionRaidDetected';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                michal = _closure1_slot15;
-                entity = argFoo;
-                michal = michal[entity];
-                entity = null;
-                zuuluu = entity != michal;
-                if(!zuuluu) { _fun00016_ip = 26; continue _fun00015 }
+                var2 = _closure1_slot15;
+                var1 = arg1;
+                var2 = var2[var1];
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0008_ip = 26; continue _fun0008 }
  23:
-                entity = michal;
+                var1 = var2;
  26:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'getLastIncidentAlertMessage';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'getLastIncidentAlertMessage';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                michal = _closure1_slot16;
-                entity = argFoo;
-                michal = michal[entity];
-                entity = null;
-                zuuluu = entity != michal;
-                if(!zuuluu) { _fun00018_ip = 26; continue _fun00017 }
+                var2 = _closure1_slot16;
+                var1 = arg1;
+                var2 = var2[var1];
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0009_ip = 26; continue _fun0009 }
  23:
-                entity = michal;
+                var1 = var2;
  26:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = oscard;
-        entity[5] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[5] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(option);
-    michal = 'GuildAutomodMessageStore';
-    option['displayName'] = michal;
-    michal = 'GuildAutomodMessages';
-    option['persistKey'] = michal;
-    michal = 14;
-    michal = oscard[michal];
-    backup = golfie.bind(entity)(michal);
-    michal = {};
-    yankee = function() { // Original name: handleConnectionOpen
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var8 = var2.bind(var1)(var8);
+    var2 = 'GuildAutomodMessageStore';
+    var8['displayName'] = var2;
+    var2 = 'GuildAutomodMessages';
+    var8['persistKey'] = var2;
+    var2 = 14;
+    var2 = var6[var2];
+    var14 = var7.bind(var1)(var2);
+    var2 = {};
+    var11 = function handleConnectionOpen() {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            entity = global;
-            tangon = entity.Object;
-            michal = tangon.keys;
-            entity = _closure1_slot13;
-            entity = michal.bind(tangon)(entity);
-            michal = entity.length;
-            entity = 0;
-            entity = entity !== michal;
-            if(!entity) { _fun00020_ip = 58; continue _fun00019 }
+            var1 = global;
+            var4 = var1.Object;
+            var2 = var4.keys;
+            var1 = _closure1_slot13;
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var1 !== var2;
+            if(!var1) { _fun0010_ip = 58; continue _fun0010 }
  39:
-            michal = {};
-            _closure1_slot13 = michal;
-            michal = _closure1_slot14;
-            michal = michal + 1;
-            _closure1_slot14 = michal;
-            entity = true;
+            var2 = {};
+            _closure1_slot13 = var2;
+            var2 = _closure1_slot14;
+            var2 = var2 + 1;
+            _closure1_slot14 = var2;
+            var1 = true;
  58:
-            return entity;
+            return var1;
         }
     };
-    michal['CONNECTION_OPEN'] = yankee;
-    michal['LOAD_MESSAGES_SUCCESS'] = offset;
-    michal['LOCAL_MESSAGES_LOADED'] = offset;
-    offset = function(argFoo) { // Original name: handleIncidentAlertMessageCreate
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var2['CONNECTION_OPEN'] = var11;
+    var2['LOAD_MESSAGES_SUCCESS'] = var10;
+    var2['LOCAL_MESSAGES_LOADED'] = var10;
+    var10 = function handleIncidentAlertMessageCreate(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            entity = argFoo;
-            report = entity.guildId;
-            option = entity.message;
-            entity = null;
-            if(!(entity != report)) { _fun00022_ip = 173; continue _fun00021 }
+            var1 = arg1;
+            var5 = var1.guildId;
+            var8 = var1.message;
+            var1 = null;
+            if(!(var1 != var5)) { _fun0011_ip = 173; continue _fun0011 }
  22:
-            michal = option.type;
-            entity = _closure1_slot12;
-            entity = entity.AUTO_MODERATION_ACTION;
-            if(!(michal === entity)) { _fun00022_ip = 169; continue _fun00021 }
+            var2 = var8.type;
+            var1 = _closure1_slot12;
+            var1 = var1.AUTO_MODERATION_ACTION;
+            if(!(var2 === var1)) { _fun0011_ip = 169; continue _fun0011 }
  47:
-            michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = entity[zuuluu];
-            golfie = undefined;
-            oscard = michal.bind(golfie)(zuuluu);
-            zuuluu = oscard.createMessageRecord;
-            zuuluu = zuuluu.bind(oscard)(option);
-            option = 11;
-            entity = entity[option];
-            michal = michal.bind(golfie)(entity);
-            entity = michal.isAutomodMessageRecord;
-            entity = entity.bind(michal)(zuuluu);
-            michal = !entity;
-            entity = !michal;
-            if(michal) { _fun00022_ip = 167; continue _fun00021 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var3 = 10;
+            var3 = var1[var3];
+            var7 = undefined;
+            var6 = var2.bind(var7)(var3);
+            var3 = var6.createMessageRecord;
+            var3 = var3.bind(var6)(var8);
+            var8 = 11;
+            var1 = var1[var8];
+            var2 = var2.bind(var7)(var1);
+            var1 = var2.isAutomodMessageRecord;
+            var1 = var1.bind(var2)(var3);
+            var2 = !var1;
+            var1 = !var2;
+            if(var2) { _fun0011_ip = 167; continue _fun0011 }
  112:
-            oscard = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            oscard = oscard.bind(golfie)(michal);
-            michal = oscard.isAutomodNotification;
-            michal = michal.bind(oscard)(zuuluu);
-            oscard = !michal;
-            michal = !oscard;
-            if(oscard) { _fun00022_ip = 164; continue _fun00021 }
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var6 = var6.bind(var7)(var2);
+            var2 = var6.isAutomodNotification;
+            var2 = var2.bind(var6)(var3);
+            var6 = !var2;
+            var2 = !var6;
+            if(var6) { _fun0011_ip = 164; continue _fun0011 }
  149:
-            tangon = _closure1_slot16;
-            zuuluu = zuuluu.id;
-            tangon[report] = zuuluu;
-            michal = true;
+            var4 = _closure1_slot16;
+            var3 = var3.id;
+            var4[var5] = var3;
+            var2 = true;
  164:
-            entity = michal;
+            var1 = var2;
  167:
-            return entity;
+            return var1;
  169:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  173:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['MESSAGE_CREATE'] = offset;
-    michal['MESSAGE_SEND_FAILED_AUTOMOD'] = verify;
-    michal['MESSAGE_EDIT_FAILED_AUTOMOD'] = verify;
-    verify = function(argFoo) { // Original name: handleMessageNoticeRemove
-        entity = argFoo;
-        zuuluu = entity.messageId;
-        michal = _closure1_slot17;
-        entity = undefined;
-        entity = michal.bind(entity)(zuuluu);
-        entity = true;
-        return entity;
+    var2['MESSAGE_CREATE'] = var10;
+    var2['MESSAGE_SEND_FAILED_AUTOMOD'] = var9;
+    var2['MESSAGE_EDIT_FAILED_AUTOMOD'] = var9;
+    var9 = function handleMessageNoticeRemove(arg1) {
+        var1 = arg1;
+        var3 = var1.messageId;
+        var2 = _closure1_slot17;
+        var1 = undefined;
+        var1 = var2.bind(var1)(var3);
+        var1 = true;
+        return var1;
     };
-    michal['REMOVE_AUTOMOD_MESSAGE_NOTICE'] = verify;
-    verify = function(argFoo) { // Original name: handleMessageEndEdit
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    var2['REMOVE_AUTOMOD_MESSAGE_NOTICE'] = var9;
+    var9 = function handleMessageEndEdit(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.response;
-            tangon = null;
-            report = tangon == zuuluu;
-            entity = undefined;
-            michal = undefined;
-            if(report) { _fun00024_ip = 27; continue _fun00023 }
+            var1 = arg1;
+            var3 = var1.response;
+            var4 = null;
+            var5 = var4 == var3;
+            var1 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0012_ip = 27; continue _fun0012 }
  22:
-            michal = zuuluu.body;
+            var2 = var3.body;
  27:
-            if(!(tangon != michal)) { _fun00024_ip = 91; continue _fun00023 }
+            if(!(var4 != var2)) { _fun0012_ip = 91; continue _fun0012 }
  31:
-            michal = zuuluu.body;
-            oscard = michal.code;
-            report = _closure1_slot10;
-            report = report.AUTOMOD_MESSAGE_BLOCKED;
-            if(!(oscard !== report)) { _fun00024_ip = 87; continue _fun00023 }
+            var2 = var3.body;
+            var6 = var2.code;
+            var5 = _closure1_slot10;
+            var5 = var5.AUTOMOD_MESSAGE_BLOCKED;
+            if(!(var6 !== var5)) { _fun0012_ip = 87; continue _fun0012 }
  58:
-            zuuluu = zuuluu.body;
-            zuuluu = zuuluu.id;
-            if(!(tangon != zuuluu)) { _fun00024_ip = 83; continue _fun00023 }
+            var3 = var3.body;
+            var3 = var3.id;
+            if(!(var4 != var3)) { _fun0012_ip = 83; continue _fun0012 }
  72:
-            michal = _closure1_slot17;
-            michal = michal.bind(entity)(zuuluu);
-            return entity;
+            var2 = _closure1_slot17;
+            var2 = var2.bind(var1)(var3);
+            return var1;
  83:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  87:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  91:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['MESSAGE_END_EDIT'] = verify;
-    verify = function(argFoo) { // Original name: handleMentionRaidDetection
-        entity = argFoo;
-        zuuluu = entity.guildId;
-        report = entity.decisionId;
-        tangon = entity.suspiciousMentionActivityUntil;
-        michal = _closure1_slot15;
-        entity = {};
-        entity['guildId'] = zuuluu;
-        entity['decisionId'] = report;
-        entity['suspiciousMentionActivityUntil'] = tangon;
-        michal[zuuluu] = entity;
-        entity = true;
-        return entity;
+    var2['MESSAGE_END_EDIT'] = var9;
+    var9 = function handleMentionRaidDetection(arg1) {
+        var1 = arg1;
+        var3 = var1.guildId;
+        var5 = var1.decisionId;
+        var4 = var1.suspiciousMentionActivityUntil;
+        var2 = _closure1_slot15;
+        var1 = {};
+        var1['guildId'] = var3;
+        var1['decisionId'] = var5;
+        var1['suspiciousMentionActivityUntil'] = var4;
+        var2[var3] = var1;
+        var1 = true;
+        return var1;
     };
-    michal['AUTO_MODERATION_MENTION_RAID_DETECTION'] = verify;
-    tangon = function(argFoo) { // Original name: handleMentionRaidNoticeDismiss
-        entity = argFoo;
-        michal = entity.guildId;
-        entity = _closure1_slot15;
-        entity = delete entity[michal];
-        entity = true;
-        return entity;
+    var2['AUTO_MODERATION_MENTION_RAID_DETECTION'] = var9;
+    var4 = function handleMentionRaidNoticeDismiss(arg1) {
+        var1 = arg1;
+        var2 = var1.guildId;
+        var1 = _closure1_slot15;
+        var1 = delete var1[var2];
+        var1 = true;
+        return var1;
     };
-    michal['AUTO_MODERATION_MENTION_RAID_NOTICE_DISMISS'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    kiloes = tangon;
-    foxtra = michal;
-    michal = new kiloes[option](backup, foxtra, romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 15;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_automod/GuildAutomodMessageStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['AUTO_MODERATION_MENTION_RAID_NOTICE_DISMISS'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var15 = var4;
+    var13 = var2;
+    var2 = new var15[var8](var14, var13, var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_automod/GuildAutomodMessageStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

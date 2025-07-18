@@ -1,196 +1,196 @@
 // app/utils/FileSizeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    tangon = function(argFoo) { // Original name: formatSize
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var4 = function formatSize(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = arguments[1];
-            golfie = undefined;
-            if(!(entity === golfie)) { _fun00002_ip = 16; continue _fun00001 }
+            var1 = arguments[1];
+            var7 = undefined;
+            if(!(var1 === var7)) { _fun0001_ip = 16; continue _fun0001 }
  9:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  16:
-            zuuluu = entity.useKibibytes;
-            michal = 1000;
-            option = michal;
-            if(!zuuluu) { _fun00002_ip = 41; continue _fun00001 }
+            var3 = var1.useKibibytes;
+            var2 = 1000;
+            var8 = var2;
+            if(!var3) { _fun0001_ip = 41; continue _fun0001 }
  34:
-            option = _closure1_slot2;
+            var8 = _closure1_slot2;
  41:
-            zuuluu = entity.useKibibytes;
-            if(!zuuluu) { _fun00002_ip = 56; continue _fun00001 }
+            var3 = var1.useKibibytes;
+            if(!var3) { _fun0001_ip = 56; continue _fun0001 }
  50:
-            michal = 1024;
+            var2 = 1024;
  56:
-            tangon = global;
-            oscard = tangon.Math;
-            report = oscard.ceil;
-            zuuluu = argFoo;
-            zuuluu = zuuluu / option;
-            oscard = report.bind(oscard)(zuuluu);
-            if(!(!(oscard < michal))) { _fun00002_ip = 235; continue _fun00001 }
+            var4 = global;
+            var6 = var4.Math;
+            var5 = var6.ceil;
+            var3 = arg1;
+            var3 = var3 / var8;
+            var6 = var5.bind(var6)(var3);
+            if(!(!(var6 < var2))) { _fun0001_ip = 235; continue _fun0001 }
  89:
-            michal = oscard / michal;
-            zuuluu = entity.showDecimalForGB;
-            report = tangon.Math;
-            tangon = report.round;
-            if(zuuluu) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = var6 / var2;
+            var3 = var1.showDecimalForGB;
+            var5 = var4.Math;
+            var4 = var5.round;
+            if(var3) { _fun0001_ip = 120; continue _fun0001 }
  113:
-            verify = tangon.bind(report)(michal);
-            _fun00002_ip = 136; continue _fun00001;
+            var9 = var4.bind(var5)(var2);
+            _fun0001_ip = 136; continue _fun0001;
  120:
-            zuuluu = 10;
-            michal = zuuluu * michal;
-            michal = tangon.bind(report)(michal);
-            verify = michal / zuuluu;
+            var3 = 10;
+            var2 = var3 * var2;
+            var2 = var4.bind(var5)(var2);
+            var9 = var2 / var3;
  136:
-            michal = entity.useSpace;
-            tangon = _closure1_slot0;
-            offset = _closure1_slot1;
-            zuuluu = 0;
-            report = offset[zuuluu];
-            report = tangon.bind(golfie)(report);
-            option = report.intl;
-            report = option.formatToPlainString;
-            zuuluu = offset[zuuluu];
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.t;
-            if(michal) { _fun00002_ip = 213; continue _fun00001 }
+            var2 = var1.useSpace;
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var3 = 0;
+            var5 = var10[var3];
+            var5 = var4.bind(var7)(var5);
+            var8 = var5.intl;
+            var5 = var8.formatToPlainString;
+            var3 = var10[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0001_ip = 213; continue _fun0001 }
  191:
-            tangon = zuuluu.TbMX9P;
-            michal = {};
-            michal['size'] = verify;
-            michal = report.bind(option)(tangon, michal);
-            _fun00002_ip = 233; continue _fun00001;
+            var4 = var3.TbMX9P;
+            var2 = {};
+            var2['size'] = var9;
+            var2 = var5.bind(var8)(var4, var2);
+            _fun0001_ip = 233; continue _fun0001;
  213:
-            tangon = zuuluu.yhEXX1;
-            zuuluu = {};
-            zuuluu['size'] = verify;
-            michal = report.bind(option)(tangon, zuuluu);
+            var4 = var3.yhEXX1;
+            var3 = {};
+            var3['size'] = var9;
+            var2 = var5.bind(var8)(var4, var3);
  233:
-            return michal;
+            return var2;
  235:
-            entity = entity.useSpace;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot1;
-            michal = 0;
-            tangon = option[michal];
-            tangon = zuuluu.bind(golfie)(tangon);
-            report = tangon.intl;
-            tangon = report.formatToPlainString;
-            michal = option[michal];
-            michal = zuuluu.bind(golfie)(michal);
-            michal = michal.t;
-            if(entity) { _fun00002_ip = 310; continue _fun00001 }
+            var1 = var1.useSpace;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 0;
+            var4 = var8[var2];
+            var4 = var3.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var8[var2];
+            var2 = var3.bind(var7)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0001_ip = 310; continue _fun0001 }
  290:
-            zuuluu = michal.pIn7AQ;
-            entity = {};
-            entity['size'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 330; continue _fun00001;
+            var3 = var2.pIn7AQ;
+            var1 = {};
+            var1['size'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 330; continue _fun0001;
  310:
-            zuuluu = michal.cS889P;
-            michal = {};
-            michal['size'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var3 = var2.cS889P;
+            var2 = {};
+            var2['size'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  330:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    report = 1024;
-    var _closure1_slot2 = report;
-    entity = {'useKibibytes': false, 'showDecimalForGB': true, 'useSpace': true};
-    var _closure1_slot3 = entity;
-    entity = 1;
-    oscard = oscard[entity];
-    entity = undefined;
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'utils/FileSizeUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['BYTE_IN_KB'] = report;
-    zuuluu['KB_IN_MB'] = report;
-    zuuluu['formatSize'] = tangon;
-    michal = function(argFoo) { // Original name: formatKbSize
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var5 = 1024;
+    var _closure1_slot2 = var5;
+    var1 = {'useKibibytes': false, 'showDecimalForGB': true, 'useSpace': true};
+    var _closure1_slot3 = var1;
+    var1 = 1;
+    var6 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'utils/FileSizeUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['BYTE_IN_KB'] = var5;
+    var3['KB_IN_MB'] = var5;
+    var3['formatSize'] = var4;
+    var2 = function formatKbSize(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = arguments[1];
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00004_ip = 16; continue _fun00003 }
+            var5 = arguments[1];
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0002_ip = 16; continue _fun0002 }
  9:
-            report = _closure1_slot3;
+            var5 = _closure1_slot3;
  16:
-            michal = report.useKibibytes;
-            entity = 1000;
-            zuuluu = entity;
-            if(!michal) { _fun00004_ip = 40; continue _fun00003 }
+            var2 = var5.useKibibytes;
+            var1 = 1000;
+            var3 = var1;
+            if(!var2) { _fun0002_ip = 40; continue _fun0002 }
  34:
-            zuuluu = 1024;
+            var3 = 1024;
  40:
-            michal = argFoo;
-            zuuluu = michal / zuuluu;
-            michal = report.useKibibytes;
-            if(!michal) { _fun00004_ip = 63; continue _fun00003 }
+            var2 = arg1;
+            var3 = var2 / var3;
+            var2 = var5.useKibibytes;
+            if(!var2) { _fun0002_ip = 63; continue _fun0002 }
  56:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  63:
-            michal = zuuluu / entity;
-            entity = 1;
-            if(!(!(michal >= entity))) { _fun00004_ip = 214; continue _fun00003 }
+            var2 = var3 / var1;
+            var1 = 1;
+            if(!(!(var2 >= var1))) { _fun0002_ip = 214; continue _fun0002 }
  77:
-            entity = report.useSpace;
-            oscard = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 0;
-            golfie = verify[michal];
-            golfie = oscard.bind(tangon)(golfie);
-            option = golfie.intl;
-            golfie = option.formatToPlainString;
-            michal = verify[michal];
-            michal = oscard.bind(tangon)(michal);
-            michal = michal.t;
-            if(entity) { _fun00004_ip = 173; continue _fun00003 }
+            var1 = var5.useSpace;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 0;
+            var7 = var9[var2];
+            var7 = var6.bind(var4)(var7);
+            var8 = var7.intl;
+            var7 = var8.formatToPlainString;
+            var2 = var9[var2];
+            var2 = var6.bind(var4)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0002_ip = 173; continue _fun0002 }
  132:
-            oscard = michal.kEk9pq;
-            entity = {};
-            verify = global;
-            offset = verify.Math;
-            verify = offset.ceil;
-            verify = verify.bind(offset)(zuuluu);
-            entity['size'] = verify;
-            entity = golfie.bind(option)(oscard, entity);
-            _fun00004_ip = 212; continue _fun00003;
+            var6 = var2.kEk9pq;
+            var1 = {};
+            var9 = global;
+            var10 = var9.Math;
+            var9 = var10.ceil;
+            var9 = var9.bind(var10)(var3);
+            var1['size'] = var9;
+            var1 = var7.bind(var8)(var6, var1);
+            _fun0002_ip = 212; continue _fun0002;
  173:
-            oscard = michal.bTzRR0;
-            michal = {};
-            verify = global;
-            offset = verify.Math;
-            verify = offset.ceil;
-            verify = verify.bind(offset)(zuuluu);
-            michal['size'] = verify;
-            entity = golfie.bind(option)(oscard, michal);
+            var6 = var2.bTzRR0;
+            var2 = {};
+            var9 = global;
+            var10 = var9.Math;
+            var9 = var10.ceil;
+            var9 = var9.bind(var10)(var3);
+            var2['size'] = var9;
+            var1 = var7.bind(var8)(var6, var2);
  212:
-            _fun00004_ip = 227; continue _fun00003;
+            _fun0002_ip = 227; continue _fun0002;
  214:
-            michal = _closure1_slot4;
-            entity = michal.bind(tangon)(zuuluu, report);
+            var2 = _closure1_slot4;
+            var1 = var2.bind(var4)(var3, var5);
  227:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['formatKbSize'] = michal;
-    return entity;
+    var3['formatKbSize'] = var2;
+    return var1;
 })();

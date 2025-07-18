@@ -1,135 +1,135 @@
 // app/modules/app_launcher/hooks/useFilterAndSortToOnlyFrecentCommands.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/hooks/useFilterAndSortToOnlyFrecentCommands.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useFilterAndSortToOnlyFrecentCommands
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/hooks/useFilterAndSortToOnlyFrecentCommands.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useFilterAndSortToOnlyFrecentCommands(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            offset = zuuluu.context;
-            michal = zuuluu.commands;
-            var _closure2_slot0 = michal;
-            report = zuuluu.limit;
-            option = undefined;
-            if(!(report === option)) { _fun00002_ip = 37; continue _fun00001 }
+            var3 = arg1;
+            var10 = var3.context;
+            var2 = var3.commands;
+            var _closure2_slot0 = var2;
+            var5 = var3.limit;
+            var8 = undefined;
+            if(!(var5 === var8)) { _fun0001_ip = 37; continue _fun0001 }
  32:
-            report = michal.length;
+            var5 = var2.length;
  37:
-            var _closure2_slot1 = report;
-            var _closure2_slot2 = option;
-            var _closure2_slot3 = option;
-            var _closure2_slot4 = option;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            tangon = 2;
-            tangon = verify[tangon];
-            oscard = golfie.bind(option)(tangon);
-            tangon = oscard.useCommandContext;
-            oscard = tangon.bind(oscard)(offset);
-            _closure2_slot2 = oscard;
-            tangon = 3;
-            tangon = verify[tangon];
-            golfie = golfie.bind(option)(tangon);
-            tangon = golfie.useTopCommands;
-            option = tangon.bind(golfie)(oscard);
-            _closure2_slot3 = option;
-            tangon = _closure1_slot2;
-            golfie = tangon.useMemo;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                tangon = _closure2_slot0;
-                zuuluu = tangon.reduce;
-                michal = function(argFoo, argBar) {
-                    entity = argFoo;
-                    zuuluu = argBar;
-                    michal = zuuluu.id;
-                    entity[michal] = zuuluu;
-                    return entity;
+            var _closure2_slot1 = var5;
+            var _closure2_slot2 = var8;
+            var _closure2_slot3 = var8;
+            var _closure2_slot4 = var8;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 2;
+            var4 = var9[var4];
+            var6 = var7.bind(var8)(var4);
+            var4 = var6.useCommandContext;
+            var6 = var4.bind(var6)(var10);
+            _closure2_slot2 = var6;
+            var4 = 3;
+            var4 = var9[var4];
+            var7 = var7.bind(var8)(var4);
+            var4 = var7.useTopCommands;
+            var8 = var4.bind(var7)(var6);
+            _closure2_slot3 = var8;
+            var4 = _closure1_slot2;
+            var7 = var4.useMemo;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var4 = _closure2_slot0;
+                var3 = var4.reduce;
+                var2 = function(arg1, arg2) {
+                    var1 = arg1;
+                    var3 = arg2;
+                    var2 = var3.id;
+                    var1[var2] = var3;
+                    return var1;
                 };
-                entity = {};
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var1 = {};
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie = golfie.bind(tangon)(michal, zuuluu);
-            _closure2_slot4 = golfie;
-            zuuluu = tangon.useMemo;
-            michal = new Array(4);
-            michal[0] = option;
-            michal[1] = golfie;
-            michal[2] = oscard;
-            michal[3] = report;
-            entity = function() {
-                report = _closure2_slot3;
-                tangon = report.map;
-                zuuluu = function(argFoo) {
-                    michal = _closure2_slot4;
-                    entity = argFoo;
-                    entity = michal[entity];
-                    return entity;
+            var7 = var7.bind(var4)(var2, var3);
+            _closure2_slot4 = var7;
+            var3 = var4.useMemo;
+            var2 = new Array(4);
+            var2[0] = var8;
+            var2[1] = var7;
+            var2[2] = var6;
+            var2[3] = var5;
+            var1 = function() {
+                var5 = _closure2_slot3;
+                var4 = var5.map;
+                var3 = function(arg1) {
+                    var2 = _closure2_slot4;
+                    var1 = arg1;
+                    var1 = var2[var1];
+                    return var1;
                 };
-                report = tangon.bind(report)(zuuluu);
-                tangon = report.filter;
-                zuuluu = function(argFoo) {
-                    michal = null;
-                    entity = argFoo;
-                    entity = michal != entity;
-                    return entity;
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.filter;
+                var3 = function(arg1) {
+                    var2 = null;
+                    var1 = arg1;
+                    var1 = var2 != var1;
+                    return var1;
                 };
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.sort;
-                michal = function(argFoo, argBar) {
-                    report = _closure1_slot3;
-                    tangon = report.getScoreWithoutLoadingLatest;
-                    zuuluu = _closure2_slot2;
-                    michal = argFoo;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    tangon = report.getScoreWithoutLoadingLatest;
-                    zuuluu = _closure2_slot2;
-                    entity = argBar;
-                    entity = tangon.bind(report)(zuuluu, entity);
-                    entity = entity - michal;
-                    return entity;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.sort;
+                var2 = function(arg1, arg2) {
+                    var5 = _closure1_slot3;
+                    var4 = var5.getScoreWithoutLoadingLatest;
+                    var3 = _closure2_slot2;
+                    var2 = arg1;
+                    var2 = var4.bind(var5)(var3, var2);
+                    var4 = var5.getScoreWithoutLoadingLatest;
+                    var3 = _closure2_slot2;
+                    var1 = arg2;
+                    var1 = var4.bind(var5)(var3, var1);
+                    var1 = var1 - var2;
+                    return var1;
                 };
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.slice;
-                michal = _closure2_slot1;
-                entity = 0;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.slice;
+                var2 = _closure2_slot1;
+                var1 = 0;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

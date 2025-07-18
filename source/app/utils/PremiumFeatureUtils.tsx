@@ -1,95 +1,95 @@
 // app/utils/PremiumFeatureUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: getUserMaxFileSize
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getUserMaxFileSize(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            if(!(tangon != zuuluu)) { _fun00002_ip = 127; continue _fun00001 }
+            var3 = arg1;
+            var4 = null;
+            if(!(var4 != var3)) { _fun0001_ip = 127; continue _fun0001 }
  9:
-            report = _closure1_slot2;
-            entity = report.getPremiumTypeOverride;
-            report = entity.bind(report)();
-            entity = zuuluu.isStaff;
-            entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 47; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var1 = var5.getPremiumTypeOverride;
+            var5 = var1.bind(var5)();
+            var1 = var3.isStaff;
+            var1 = var1.bind(var3)();
+            if(!var1) { _fun0001_ip = 47; continue _fun0001 }
  39:
-            entity = _closure1_slot6;
-            if(!(report !== entity)) { _fun00002_ip = 121; continue _fun00001 }
+            var1 = _closure1_slot6;
+            if(!(var5 !== var1)) { _fun0001_ip = 121; continue _fun0001 }
  47:
-            entity = zuuluu.premiumType;
-            if(!(tangon != entity)) { _fun00002_ip = 93; continue _fun00001 }
+            var1 = var3.premiumType;
+            if(!(var4 != var1)) { _fun0001_ip = 93; continue _fun0001 }
  57:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 3;
-            tangon = tangon[entity];
-            entity = undefined;
-            tangon = report.bind(entity)(tangon);
-            entity = tangon.isPremium;
-            entity = entity.bind(tangon)(zuuluu);
-            if(entity) { _fun00002_ip = 99; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var4 = var5.bind(var1)(var4);
+            var1 = var4.isPremium;
+            var1 = var1.bind(var4)(var3);
+            if(var1) { _fun0001_ip = 99; continue _fun0001 }
  93:
-            entity = _closure1_slot3;
-            _fun00002_ip = 119; continue _fun00001;
+            var1 = _closure1_slot3;
+            _fun0001_ip = 119; continue _fun0001;
  99:
-            tangon = _closure1_slot5;
-            zuuluu = zuuluu.premiumType;
-            zuuluu = tangon[zuuluu];
-            entity = zuuluu.fileSize;
+            var4 = _closure1_slot5;
+            var3 = var3.premiumType;
+            var3 = var4[var3];
+            var1 = var3.fileSize;
  119:
-            _fun00002_ip = 125; continue _fun00001;
+            _fun0001_ip = 125; continue _fun0001;
  121:
-            entity = _closure1_slot4;
+            var1 = _closure1_slot4;
  125:
-            return entity;
+            return var1;
  127:
-            entity = _closure1_slot3;
-            return entity;
+            var1 = _closure1_slot3;
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = golfie[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    option = tangon.MAX_ATTACHMENT_SIZE;
-    var _closure1_slot3 = option;
-    tangon = tangon.MAX_STAFF_ATTACHMENT_SIZE;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    option = tangon.PremiumUserLimits;
-    var _closure1_slot5 = option;
-    tangon = tangon.UNSELECTED_PREMIUM_TYPE_OVERRIDE;
-    var _closure1_slot6 = tangon;
-    tangon = {};
-    tangon['getUserMaxFileSize'] = michal;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/PremiumFeatureUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['getUserMaxFileSize'] = michal;
-    return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var7[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var8 = var4.MAX_ATTACHMENT_SIZE;
+    var _closure1_slot3 = var8;
+    var4 = var4.MAX_STAFF_ATTACHMENT_SIZE;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var8 = var4.PremiumUserLimits;
+    var _closure1_slot5 = var8;
+    var4 = var4.UNSELECTED_PREMIUM_TYPE_OVERRIDE;
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var4['getUserMaxFileSize'] = var2;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/PremiumFeatureUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['getUserMaxFileSize'] = var2;
+    return var1;
 })();

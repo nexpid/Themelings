@@ -1,99 +1,99 @@
 // app/modules/autocompleter/findNextSelectedResult.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    golfie = michal.FindResultDirections;
-    var _closure1_slot0 = golfie;
-    michal = michal.AutocompleterResultTypes;
-    var _closure1_slot1 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    oscard = report.bind(entity)(michal);
-    report = oscard.fileFinishedImporting;
-    michal = 'modules/autocompleter/findNextSelectedResult.tsx';
-    michal = report.bind(oscard)(michal);
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: findNextSelectedResult
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.FindResultDirections;
+    var _closure1_slot0 = var7;
+    var2 = var2.AutocompleterResultTypes;
+    var _closure1_slot1 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var6 = var5.bind(var1)(var2);
+    var5 = var6.fileFinishedImporting;
+    var2 = 'modules/autocompleter/findNextSelectedResult.tsx';
+    var2 = var5.bind(var6)(var2);
+    var2 = function findNextSelectedResult(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            report = argBar;
-            golfie = argBaz;
-            michal = argCor;
-            zuuluu = golfie.length;
-            entity = 0;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 171; continue _fun00001 }
+            var8 = arg1;
+            var5 = arg2;
+            var7 = arg3;
+            var2 = arg4;
+            var3 = var7.length;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0001_ip = 171; continue _fun0001 }
  26:
-            tangon = null;
-            oscard = report;
-            if(!(tangon != michal)) { _fun00002_ip = 44; continue _fun00001 }
+            var4 = null;
+            var6 = var5;
+            if(!(var4 != var2)) { _fun0001_ip = 44; continue _fun0001 }
  35:
-            oscard = michal;
-            if(!(oscard === report)) { _fun00002_ip = 44; continue _fun00001 }
+            var6 = var2;
+            if(!(var6 === var5)) { _fun0001_ip = 44; continue _fun0001 }
  42:
-            return report;
+            return var5;
  44:
-            michal = _closure1_slot0;
-            verify = michal.UP;
-            michal = 1;
-            if(!(option === verify)) { _fun00002_ip = 70; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var9 = var2.UP;
+            var2 = 1;
+            if(!(var8 === var9)) { _fun0001_ip = 70; continue _fun0001 }
  64:
-            michal = -1;
+            var2 = -1;
  70:
-            yankee = report + michal;
-            verify = yankee < entity;
-            if(verify) { _fun00002_ip = 135; continue _fun00001 }
+            var11 = var5 + var2;
+            var9 = var11 < var1;
+            if(var9) { _fun0001_ip = 135; continue _fun0001 }
  81:
-            if(!(!(yankee >= zuuluu))) { _fun00002_ip = 135; continue _fun00001 }
+            if(!(!(var11 >= var3))) { _fun0001_ip = 135; continue _fun0001 }
  85:
-            michal = golfie[yankee];
-            offset = michal.type;
-            michal = _closure1_slot1;
-            report = michal.HEADER;
-            michal = yankee;
-            if(!(offset === report)) { _fun00002_ip = 133; continue _fun00001 }
+            var2 = var7[var11];
+            var10 = var2.type;
+            var2 = _closure1_slot1;
+            var5 = var2.HEADER;
+            var2 = var11;
+            if(!(var10 === var5)) { _fun0001_ip = 133; continue _fun0001 }
  111:
-            offset = _closure1_slot2;
-            sizing = undefined;
-            kiloes = option;
-            backup = yankee;
-            foxtra = golfie;
-            romeon = oscard;
-            michal = sizing[offset](kiloes, backup, foxtra, romeon, yankee);
+            var10 = _closure1_slot2;
+            var16 = undefined;
+            var15 = var8;
+            var14 = var11;
+            var13 = var7;
+            var12 = var6;
+            var2 = var16[var10](var15, var14, var13, var12, var11);
  133:
-            _fun00002_ip = 169; continue _fun00001;
+            _fun0001_ip = 169; continue _fun0001;
  135:
-            report = _closure1_slot2;
-            tangon = -1;
-            if(!verify) { _fun00002_ip = 151; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var4 = -1;
+            if(!var9) { _fun0001_ip = 151; continue _fun0001 }
  148:
-            tangon = zuuluu;
+            var4 = var3;
  151:
-            sizing = undefined;
-            kiloes = option;
-            backup = tangon;
-            foxtra = golfie;
-            romeon = oscard;
-            michal = sizing[report](kiloes, backup, foxtra, romeon, yankee);
+            var16 = undefined;
+            var15 = var8;
+            var14 = var4;
+            var13 = var7;
+            var12 = var6;
+            var2 = var16[var5](var15, var14, var13, var12, var11);
  169:
-            return michal;
+            return var2;
  171:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = michal;
-    zuuluu['default'] = michal;
-    return entity;
+    var _closure1_slot2 = var2;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,180 +1,180 @@
 // app/modules/stage_channels/native/StageChannelListStore.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createWithEqualityFn;
-    tangon = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = {'showActiveSpeakerPill': false, 'setShowActiveSpeakerPill': null, 'listRef': null};
-        zuuluu = function(argFoo) { // Original name: setShowActiveSpeakerPill
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.batchUpdates;
-            entity = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['showActiveSpeakerPill'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createWithEqualityFn;
+    var4 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = {'showActiveSpeakerPill': false, 'setShowActiveSpeakerPill': null, 'listRef': null};
+        var3 = function setShowActiveSpeakerPill(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.batchUpdates;
+            var1 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['showActiveSpeakerPill'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['setShowActiveSpeakerPill'] = zuuluu;
-        michal = function(argFoo) { // Original name: setListRef
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.batchUpdates;
-            entity = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['listRef'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['setShowActiveSpeakerPill'] = var3;
+        var2 = function setListRef(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.batchUpdates;
+            var1 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['listRef'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['setListRef'] = michal;
-        return entity;
+        var1['setListRef'] = var2;
+        return var1;
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/stage_channels/native/StageChannelListStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useActiveSpeakerPillScrollHandler
-        report = _closure1_slot4;
-        tangon = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 4;
-        entity = oscard[entity];
-        oscard = undefined;
-        entity = tangon.bind(oscard)(entity);
-        tangon = entity.shallow;
-        entity = function(argFoo) {
-            michal = argFoo;
-            zuuluu = michal.listRef;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            michal = michal.setListRef;
-            entity[1] = michal;
-            return entity;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/stage_channels/native/StageChannelListStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useActiveSpeakerPillScrollHandler() {
+        var5 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var1 = var6[var1];
+        var6 = undefined;
+        var1 = var4.bind(var6)(var1);
+        var4 = var1.shallow;
+        var1 = function(arg1) {
+            var2 = arg1;
+            var3 = var2.listRef;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var2 = var2.setListRef;
+            var1[1] = var2;
+            return var1;
         };
-        report = report.bind(oscard)(entity, tangon);
-        tangon = _closure1_slot2;
-        entity = 2;
-        tangon = tangon.bind(oscard)(report, entity);
-        entity = 0;
-        oscard = tangon[entity];
-        var _closure2_slot0 = oscard;
-        entity = 1;
-        entity = tangon[entity];
-        var _closure2_slot1 = entity;
-        report = _closure1_slot3;
-        tangon = report.useCallback;
-        zuuluu = new Array(1);
-        zuuluu[0] = entity;
-        entity = function(argFoo) {
-            zuuluu = _closure2_slot1;
-            entity = undefined;
-            michal = argFoo;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+        var5 = var5.bind(var6)(var1, var4);
+        var4 = _closure1_slot2;
+        var1 = 2;
+        var4 = var4.bind(var6)(var5, var1);
+        var1 = 0;
+        var6 = var4[var1];
+        var _closure2_slot0 = var6;
+        var1 = 1;
+        var1 = var4[var1];
+        var _closure2_slot1 = var1;
+        var5 = _closure1_slot3;
+        var4 = var5.useCallback;
+        var3 = new Array(1);
+        var3[0] = var1;
+        var1 = function(arg1) {
+            var3 = _closure2_slot1;
+            var1 = undefined;
+            var2 = arg1;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        zuuluu = tangon.bind(report)(entity, zuuluu);
-        entity = new Array(2);
-        entity[0] = zuuluu;
-        tangon = report.useCallback;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3 = var4.bind(var5)(var1, var3);
+        var1 = new Array(2);
+        var1[0] = var3;
+        var4 = var5.useCallback;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 42; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0001_ip = 42; continue _fun0001 }
  13:
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.scrollToLocation;
-                entity = {'section': 0, 'item': 0, 'animated': true};
-                entity = michal.bind(zuuluu)(entity);
+                var3 = _closure2_slot0;
+                var2 = var3.scrollToLocation;
+                var1 = {'section': 0, 'item': 0, 'animated': true};
+                var1 = var2.bind(var3)(var1);
  42:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity[1] = michal;
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        var1[1] = var2;
+        return var1;
     };
-    zuuluu['useActiveSpeakerPillScrollHandler'] = tangon;
-    michal = function() { // Original name: useActiveSpeakerPillState
-        tangon = _closure1_slot4;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 4;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            michal = argFoo;
-            zuuluu = michal.showActiveSpeakerPill;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            michal = michal.setShowActiveSpeakerPill;
-            entity[1] = michal;
-            return entity;
+    var3['useActiveSpeakerPillScrollHandler'] = var4;
+    var2 = function useActiveSpeakerPillState() {
+        var4 = _closure1_slot4;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 4;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var2 = arg1;
+            var3 = var2.showActiveSpeakerPill;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var2 = var2.setShowActiveSpeakerPill;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useActiveSpeakerPillState'] = michal;
-    return entity;
+    var3['useActiveSpeakerPillState'] = var2;
+    return var1;
 })();

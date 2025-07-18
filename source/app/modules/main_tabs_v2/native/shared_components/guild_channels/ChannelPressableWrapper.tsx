@@ -1,87 +1,87 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: renderChannelPressableWrapper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/guild_channels/ChannelPressableWrapper.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function renderChannelPressableWrapper(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argBar;
-            option = entity.layout;
-            report = entity.launchpad;
-            golfie = entity.isThread;
-            oscard = entity.panelVariant;
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00002_ip = 35; continue _fun00001 }
+            var1 = arg2;
+            var8 = var1.layout;
+            var5 = var1.launchpad;
+            var7 = var1.isThread;
+            var6 = var1.panelVariant;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0001_ip = 35; continue _fun0001 }
  33:
-            oscard = false;
+            var6 = false;
  35:
-            zuuluu = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 3;
-            michal = verify[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.getLayoutStyles;
-            report = michal.bind(zuuluu)(option, report);
-            zuuluu = _closure1_slot3;
-            michal = _closure1_slot2;
-            entity = {};
-            report = report.layout;
-            if(golfie) { _fun00002_ip = 108; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 3;
+            var2 = var9[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.getLayoutStyles;
+            var5 = var2.bind(var3)(var8, var5);
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot2;
+            var1 = {};
+            var5 = var5.layout;
+            if(var7) { _fun0001_ip = 108; continue _fun0001 }
  89:
-            if(oscard) { _fun00002_ip = 100; continue _fun00001 }
+            if(var6) { _fun0001_ip = 100; continue _fun0001 }
  92:
-            oscard = report.margin;
-            _fun00002_ip = 106; continue _fun00001;
+            var6 = var5.margin;
+            _fun0001_ip = 106; continue _fun0001;
  100:
-            oscard = report.marginPanels;
+            var6 = var5.marginPanels;
  106:
-            _fun00002_ip = 114; continue _fun00001;
+            _fun0001_ip = 114; continue _fun0001;
  108:
-            oscard = report.marginThread;
+            var6 = var5.marginThread;
  114:
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
-            report[1] = oscard;
-            entity['style'] = report;
-            report = argFoo;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
+            var5[1] = var6;
+            var1['style'] = var5;
+            var5 = arg1;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['renderChannelPressableWrapper'] = michal;
-    return entity;
+    var3['renderChannelPressableWrapper'] = var2;
+    return var1;
 })();

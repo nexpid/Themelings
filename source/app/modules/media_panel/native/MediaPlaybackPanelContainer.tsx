@@ -1,145 +1,145 @@
 // app/modules/media_panel/native/MediaPlaybackPanelContainer.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = golfie.memo;
-    michal = function() { // Original name: MediaPlaybackPanelContainer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = var7.memo;
+    var2 = function MediaPlaybackPanelContainer() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            report = undefined;
-            tangon = zuuluu.bind(report)(entity);
-            zuuluu = tangon.useMediaPlayerManagerStore;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var1 = var4[var1];
+            var5 = undefined;
+            var4 = var3.bind(var5)(var1);
+            var3 = var4.useMediaPlayerManagerStore;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = argFoo;
-                    entity = michal.showPip;
-                    zuuluu = !entity;
-                    if(zuuluu) { _fun00004_ip = 24; continue _fun00003 }
+                    var2 = arg1;
+                    var1 = var2.showPip;
+                    var3 = !var1;
+                    if(var3) { _fun0002_ip = 24; continue _fun0002 }
  15:
-                    entity = michal.canAccessMedia;
-                    zuuluu = !entity;
+                    var1 = var2.canAccessMedia;
+                    var3 = !var1;
  24:
-                    if(zuuluu) { _fun00004_ip = 39; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 39; continue _fun0002 }
  27:
-                    tangon = michal.activeMediaPlayerSource;
-                    entity = null;
-                    zuuluu = entity == tangon;
+                    var4 = var2.activeMediaPlayerSource;
+                    var1 = null;
+                    var3 = var1 == var4;
  39:
-                    entity = !zuuluu;
-                    if(zuuluu) { _fun00004_ip = 188; continue _fun00003 }
+                    var1 = !var3;
+                    if(var3) { _fun0002_ip = 188; continue _fun0002 }
  48:
-                    option = michal.mediaSourceMessage;
-                    michal = michal.activeMediaPlayerSource;
-                    zuuluu = null;
-                    tangon = zuuluu == michal;
-                    golfie = undefined;
-                    if(tangon) { _fun00004_ip = 77; continue _fun00003 }
+                    var8 = var2.mediaSourceMessage;
+                    var2 = var2.activeMediaPlayerSource;
+                    var3 = null;
+                    var4 = var3 == var2;
+                    var7 = undefined;
+                    if(var4) { _fun0002_ip = 77; continue _fun0002 }
  71:
-                    golfie = michal.attachmentIndex;
+                    var7 = var2.attachmentIndex;
  77:
-                    tangon = zuuluu == option;
-                    michal = false;
-                    if(tangon) { _fun00004_ip = 185; continue _fun00003 }
+                    var4 = var3 == var8;
+                    var2 = false;
+                    if(var4) { _fun0002_ip = 185; continue _fun0002 }
  86:
-                    tangon = zuuluu == golfie;
-                    michal = false;
-                    if(tangon) { _fun00004_ip = 185; continue _fun00003 }
+                    var4 = var3 == var7;
+                    var2 = false;
+                    if(var4) { _fun0002_ip = 185; continue _fun0002 }
  95:
-                    tangon = zuuluu == option;
-                    report = undefined;
-                    if(tangon) { _fun00004_ip = 133; continue _fun00003 }
+                    var4 = var3 == var8;
+                    var5 = undefined;
+                    if(var4) { _fun0002_ip = 133; continue _fun0002 }
  104:
-                    tangon = option.getContentMessage;
-                    tangon = tangon.bind(option)();
-                    option = zuuluu == tangon;
-                    report = undefined;
-                    if(option) { _fun00004_ip = 133; continue _fun00003 }
+                    var4 = var8.getContentMessage;
+                    var4 = var4.bind(var8)();
+                    var8 = var3 == var4;
+                    var5 = undefined;
+                    if(var8) { _fun0002_ip = 133; continue _fun0002 }
  123:
-                    tangon = tangon.attachments;
-                    report = tangon[golfie];
+                    var4 = var4.attachments;
+                    var5 = var4[var7];
  133:
-                    golfie = zuuluu == report;
-                    tangon = undefined;
-                    if(golfie) { _fun00004_ip = 172; continue _fun00003 }
+                    var7 = var3 == var5;
+                    var4 = undefined;
+                    if(var7) { _fun0002_ip = 172; continue _fun0002 }
  142:
-                    golfie = report.content_type;
-                    report = zuuluu == golfie;
-                    tangon = undefined;
-                    if(report) { _fun00004_ip = 172; continue _fun00003 }
+                    var7 = var5.content_type;
+                    var5 = var3 == var7;
+                    var4 = undefined;
+                    if(var5) { _fun0002_ip = 172; continue _fun0002 }
  157:
-                    oscard = golfie.startsWith;
-                    report = 'audio';
-                    tangon = oscard.bind(golfie)(report);
+                    var6 = var7.startsWith;
+                    var5 = 'audio';
+                    var4 = var6.bind(var7)(var5);
  172:
-                    zuuluu = zuuluu != tangon;
-                    if(!zuuluu) { _fun00004_ip = 182; continue _fun00003 }
+                    var3 = var3 != var4;
+                    if(!var3) { _fun0002_ip = 182; continue _fun0002 }
  179:
-                    zuuluu = tangon;
+                    var3 = var4;
  182:
-                    michal = zuuluu;
+                    var2 = var3;
  185:
-                    entity = michal;
+                    var1 = var2;
  188:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 106; continue _fun00001 }
+            var3 = var3.bind(var4)(var1);
+            var1 = null;
+            if(!var3) { _fun0001_ip = 106; continue _fun0001 }
  50:
-            tangon = _closure1_slot3;
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 3;
-            michal = option[michal];
-            zuuluu = golfie.bind(report)(michal);
-            michal = {};
-            oscard = 4;
-            oscard = option[oscard];
-            golfie = golfie.bind(report)(oscard);
-            oscard = {};
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot3;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 3;
+            var2 = var8[var2];
+            var3 = var7.bind(var5)(var2);
+            var2 = {};
+            var6 = 4;
+            var6 = var8[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  106:
-            return entity;
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_panel/native/MediaPlaybackPanelContainer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_panel/native/MediaPlaybackPanelContainer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

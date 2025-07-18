@@ -1,405 +1,405 @@
 // app/modules/voice_panel/native/controls/utils/createUseAnimatedScrollLock.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    report = golfie[entity];
-    tangon = argCor;
-    entity = undefined;
-    option = tangon.bind(entity)(report);
-    tangon = 1;
-    tangon = golfie[tangon];
-    report = oscard.bind(entity)(tangon);
-    tangon = report.isAndroid;
-    tangon = tangon.bind(report)();
-    var _closure1_slot2 = tangon;
-    report = option.createContext;
-    tangon = function() {
-        entity = {};
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var5 = var7[var1];
+    var4 = native4;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var5);
+    var4 = 1;
+    var4 = var7[var4];
+    var5 = var6.bind(var1)(var4);
+    var4 = var5.isAndroid;
+    var4 = var4.bind(var5)();
+    var _closure1_slot2 = var4;
+    var5 = var8.createContext;
+    var4 = function() {
+        var1 = {};
+        return var1;
     };
-    tangon = report.bind(option)(tangon);
-    report = {};
-    option = 'function onBeginDrag_createUseAnimatedScrollLockTsx1(_,context){const{isDragScrolling}=this.__closure;context.momentumEndCount=0;isDragScrolling.set(true);}';
-    report['code'] = option;
-    var _closure1_slot3 = report;
-    report = {};
-    option = 'function onEndDrag_createUseAnimatedScrollLockTsx2(event){const{isDragScrolling,scrollLocked}=this.__closure;var _event$velocity$y,_event$velocity;isDragScrolling.set(false);if(Math.abs((_event$velocity$y=(_event$velocity=event.velocity)===null||_event$velocity===void 0?void 0:_event$velocity.y)!==null&&_event$velocity$y!==void 0?_event$velocity$y:0)===0){scrollLocked.set(false);}}';
-    report['code'] = option;
-    var _closure1_slot4 = report;
-    report = {};
-    option = 'function onMomentumEnd_createUseAnimatedScrollLockTsx3(event,context){const{IS_ANDROID,scrollLocked}=this.__closure;if(IS_ANDROID){var _context$momentumEndC;let count=(_context$momentumEndC=context===null||context===void 0?void 0:context.momentumEndCount)!==null&&_context$momentumEndC!==void 0?_context$momentumEndC:0;count+=1;if(count===3){scrollLocked.set(false);}else if(context!=null){context.momentumEndCount=count;}}else{scrollLocked.set(false);}}';
-    report['code'] = option;
-    var _closure1_slot5 = report;
-    report = {};
-    option = 'function onScroll_createUseAnimatedScrollLockTsx4(event){const{isDragScrolling,IS_ANDROID,scrollTo,scrollerRef,scrollOffsetValue,scrollLocked,onScrollHandler,runOnJS,onScrollHandlerWorkletized}=this.__closure;var _onScrollHandlerWorkl;const newScrollPosition=event.contentOffset.y;if(isDragScrolling.get()!==true){let scrollPosition=newScrollPosition;if(IS_ANDROID&&scrollPosition<0){scrollPosition=0;scrollTo(scrollerRef,0,0,false);}scrollOffsetValue.set(scrollPosition);}else{const isUp=newScrollPosition<scrollOffsetValue.get();if(scrollLocked.get()||isUp&&newScrollPosition<=0){if(!scrollLocked.get()){scrollLocked.set(true);}scrollTo(scrollerRef,0,0,false);scrollOffsetValue.set(0);}else{scrollOffsetValue.set(newScrollPosition);}}const{width:width,height:height}=event.layoutMeasurement;const{width:contentWidth,height:contentHeight}=event.contentSize;onScrollHandler!=null&&runOnJS(onScrollHandler)({width:width,height:height,offset:newScrollPosition,contentWidth:contentWidth,contentHeight:contentHeight});(_onScrollHandlerWorkl=onScrollHandlerWorkletized)===null||_onScrollHandlerWorkl===void 0||_onScrollHandlerWorkl({width:width,height:height,offset:newScrollPosition,contentWidth:contentWidth,contentHeight:contentHeight});}';
-    report['code'] = option;
-    var _closure1_slot6 = report;
-    report = {};
-    option = 'function createUseAnimatedScrollLockTsx5(){const{scrollLocked}=this.__closure;return{showsVerticalScrollIndicator:!scrollLocked.get()};}';
-    report['code'] = option;
-    var _closure1_slot7 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/voice_panel/native/controls/utils/createUseAnimatedScrollLock.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['ControlsGestureScrollLock'] = tangon;
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: createUseAnimatedScrollLock
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = argCor;
-        var _closure2_slot3 = michal;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4 = var5.bind(var8)(var4);
+    var5 = {};
+    var8 = 'function onBeginDrag_createUseAnimatedScrollLockTsx1(_,context){const{isDragScrolling}=this.__closure;context.momentumEndCount=0;isDragScrolling.set(true);}';
+    var5['code'] = var8;
+    var _closure1_slot3 = var5;
+    var5 = {};
+    var8 = 'function onEndDrag_createUseAnimatedScrollLockTsx2(event){const{isDragScrolling,scrollLocked}=this.__closure;var _event$velocity$y,_event$velocity;isDragScrolling.set(false);if(Math.abs((_event$velocity$y=(_event$velocity=event.velocity)===null||_event$velocity===void 0?void 0:_event$velocity.y)!==null&&_event$velocity$y!==void 0?_event$velocity$y:0)===0){scrollLocked.set(false);}}';
+    var5['code'] = var8;
+    var _closure1_slot4 = var5;
+    var5 = {};
+    var8 = 'function onMomentumEnd_createUseAnimatedScrollLockTsx3(event,context){const{IS_ANDROID,scrollLocked}=this.__closure;if(IS_ANDROID){var _context$momentumEndC;let count=(_context$momentumEndC=context===null||context===void 0?void 0:context.momentumEndCount)!==null&&_context$momentumEndC!==void 0?_context$momentumEndC:0;count+=1;if(count===3){scrollLocked.set(false);}else if(context!=null){context.momentumEndCount=count;}}else{scrollLocked.set(false);}}';
+    var5['code'] = var8;
+    var _closure1_slot5 = var5;
+    var5 = {};
+    var8 = 'function onScroll_createUseAnimatedScrollLockTsx4(event){const{isDragScrolling,IS_ANDROID,scrollTo,scrollerRef,scrollOffsetValue,scrollLocked,onScrollHandler,runOnJS,onScrollHandlerWorkletized}=this.__closure;var _onScrollHandlerWorkl;const newScrollPosition=event.contentOffset.y;if(isDragScrolling.get()!==true){let scrollPosition=newScrollPosition;if(IS_ANDROID&&scrollPosition<0){scrollPosition=0;scrollTo(scrollerRef,0,0,false);}scrollOffsetValue.set(scrollPosition);}else{const isUp=newScrollPosition<scrollOffsetValue.get();if(scrollLocked.get()||isUp&&newScrollPosition<=0){if(!scrollLocked.get()){scrollLocked.set(true);}scrollTo(scrollerRef,0,0,false);scrollOffsetValue.set(0);}else{scrollOffsetValue.set(newScrollPosition);}}const{width:width,height:height}=event.layoutMeasurement;const{width:contentWidth,height:contentHeight}=event.contentSize;onScrollHandler!=null&&runOnJS(onScrollHandler)({width:width,height:height,offset:newScrollPosition,contentWidth:contentWidth,contentHeight:contentHeight});(_onScrollHandlerWorkl=onScrollHandlerWorkletized)===null||_onScrollHandlerWorkl===void 0||_onScrollHandlerWorkl({width:width,height:height,offset:newScrollPosition,contentWidth:contentWidth,contentHeight:contentHeight});}';
+    var5['code'] = var8;
+    var _closure1_slot6 = var5;
+    var5 = {};
+    var8 = 'function createUseAnimatedScrollLockTsx5(){const{scrollLocked}=this.__closure;return{showsVerticalScrollIndicator:!scrollLocked.get()};}';
+    var5['code'] = var8;
+    var _closure1_slot7 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/voice_panel/native/controls/utils/createUseAnimatedScrollLock.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['ControlsGestureScrollLock'] = var4;
+    var2 = function createUseAnimatedScrollLock(arg1, arg2, arg3, arg4) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var2 = arg4;
+        var _closure2_slot3 = var2;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = arguments[0];
-                option = undefined;
-                if(!(entity === option)) { _fun00002_ip = 13; continue _fun00001 }
+                var1 = arguments[0];
+                var8 = undefined;
+                if(!(var1 === var8)) { _fun0001_ip = 13; continue _fun0001 }
  11:
-                entity = {};
+                var1 = {};
  13:
-                output = entity.onScrollHandler;
-                var _closure3_slot0 = output;
-                sizing = entity.onScrollHandlerWorkletized;
-                var _closure3_slot1 = sizing;
-                var _closure3_slot2 = option;
-                oscard = _closure1_slot0;
-                offset = _closure1_slot1;
-                report = 2;
-                entity = offset[report];
-                michal = oscard.bind(option)(entity);
-                entity = michal.useAnimatedRef;
-                zuuluu = entity.bind(michal)();
-                _closure3_slot2 = zuuluu;
-                entity = {};
-                michal = offset[report];
-                foxtra = oscard.bind(option)(michal);
-                romeon = foxtra.useAnimatedScrollHandler;
-                yankee = {};
-                verify = function(argFoo, argBar) { // Original name: w
-                    michal = 0;
-                    entity = argBar;
-                    entity['momentumEndCount'] = michal;
-                    zuuluu = _closure2_slot3;
-                    michal = zuuluu.set;
-                    entity = true;
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                var17 = var1.onScrollHandler;
+                var _closure3_slot0 = var17;
+                var16 = var1.onScrollHandlerWorkletized;
+                var _closure3_slot1 = var16;
+                var _closure3_slot2 = var8;
+                var6 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var5 = 2;
+                var1 = var10[var5];
+                var2 = var6.bind(var8)(var1);
+                var1 = var2.useAnimatedRef;
+                var3 = var1.bind(var2)();
+                _closure3_slot2 = var3;
+                var1 = {};
+                var2 = var10[var5];
+                var13 = var6.bind(var8)(var2);
+                var12 = var13.useAnimatedScrollHandler;
+                var11 = {};
+                var9 = function w(arg1, arg2) {
+                    var2 = 0;
+                    var1 = arg2;
+                    var1['momentumEndCount'] = var2;
+                    var3 = _closure2_slot3;
+                    var2 = var3.set;
+                    var1 = true;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                backup = {};
-                echoed = _closure2_slot3;
-                backup['isDragScrolling'] = echoed;
-                verify['__closure'] = backup;
-                backup = 16433590303176.0;
-                verify['__workletHash'] = backup;
-                backup = _closure1_slot3;
-                verify['__initData'] = backup;
-                yankee['onBeginDrag'] = verify;
-                backup = function(argFoo) { // Original name: H
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var14 = {};
+                var19 = _closure2_slot3;
+                var14['isDragScrolling'] = var19;
+                var9['__closure'] = var14;
+                var14 = 16433590303176.0;
+                var9['__workletHash'] = var14;
+                var14 = _closure1_slot3;
+                var9['__initData'] = var14;
+                var11['onBeginDrag'] = var9;
+                var14 = function H(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = _closure2_slot3;
-                        entity = zuuluu.set;
-                        tangon = false;
-                        entity = entity.bind(zuuluu)(tangon);
-                        entity = global;
-                        golfie = entity.Math;
-                        oscard = golfie.abs;
-                        entity = argFoo;
-                        report = entity.velocity;
-                        zuuluu = null;
-                        verify = zuuluu == report;
-                        entity = undefined;
-                        option = undefined;
-                        if(verify) { _fun00004_ip = 60; continue _fun00003 }
+                        var3 = _closure2_slot3;
+                        var1 = var3.set;
+                        var4 = false;
+                        var1 = var1.bind(var3)(var4);
+                        var1 = global;
+                        var7 = var1.Math;
+                        var6 = var7.abs;
+                        var1 = arg1;
+                        var5 = var1.velocity;
+                        var3 = null;
+                        var9 = var3 == var5;
+                        var1 = undefined;
+                        var8 = undefined;
+                        if(var9) { _fun0002_ip = 60; continue _fun0002 }
  55:
-                        option = report.y;
+                        var8 = var5.y;
  60:
-                        verify = zuuluu != option;
-                        report = 0;
-                        zuuluu = 0;
-                        if(!verify) { _fun00004_ip = 74; continue _fun00003 }
+                        var9 = var3 != var8;
+                        var5 = 0;
+                        var3 = 0;
+                        if(!var9) { _fun0002_ip = 74; continue _fun0002 }
  71:
-                        zuuluu = option;
+                        var3 = var8;
  74:
-                        zuuluu = oscard.bind(golfie)(zuuluu);
-                        if(!(report === zuuluu)) { _fun00004_ip = 97; continue _fun00003 }
+                        var3 = var6.bind(var7)(var3);
+                        if(!(var5 === var3)) { _fun0002_ip = 97; continue _fun0002 }
  83:
-                        zuuluu = _closure2_slot1;
-                        michal = zuuluu.set;
-                        michal = michal.bind(zuuluu)(tangon);
+                        var3 = _closure2_slot1;
+                        var2 = var3.set;
+                        var2 = var2.bind(var3)(var4);
  97:
-                        return entity;
+                        return var1;
                     }
                 };
-                kiloes = {};
-                kiloes['isDragScrolling'] = echoed;
-                verify = _closure2_slot1;
-                kiloes['scrollLocked'] = verify;
-                backup['__closure'] = kiloes;
-                kiloes = 1594981610850.0;
-                backup['__workletHash'] = kiloes;
-                kiloes = _closure1_slot4;
-                backup['__initData'] = kiloes;
-                yankee['onEndDrag'] = backup;
-                backup = function(argFoo, argBar) { // Original name: D
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var15 = {};
+                var15['isDragScrolling'] = var19;
+                var9 = _closure2_slot1;
+                var15['scrollLocked'] = var9;
+                var14['__closure'] = var15;
+                var15 = 1594981610850.0;
+                var14['__workletHash'] = var15;
+                var15 = _closure1_slot4;
+                var14['__initData'] = var15;
+                var11['onEndDrag'] = var14;
+                var14 = function D(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = argBar;
-                        entity = _closure1_slot2;
-                        if(entity) { _fun00006_ip = 34; continue _fun00005 }
+                        var2 = arg2;
+                        var1 = _closure1_slot2;
+                        if(var1) { _fun0003_ip = 34; continue _fun0003 }
  13:
-                        tangon = _closure2_slot1;
-                        zuuluu = tangon.set;
-                        entity = false;
-                        entity = zuuluu.bind(tangon)(entity);
-                        _fun00006_ip = 108; continue _fun00005;
+                        var4 = _closure2_slot1;
+                        var3 = var4.set;
+                        var1 = false;
+                        var1 = var3.bind(var4)(var1);
+                        _fun0003_ip = 108; continue _fun0003;
  34:
-                        zuuluu = null;
-                        tangon = zuuluu == michal;
-                        entity = undefined;
-                        if(tangon) { _fun00006_ip = 51; continue _fun00005 }
+                        var3 = null;
+                        var4 = var3 == var2;
+                        var1 = undefined;
+                        if(var4) { _fun0003_ip = 51; continue _fun0003 }
  45:
-                        entity = michal.momentumEndCount;
+                        var1 = var2.momentumEndCount;
  51:
-                        report = zuuluu != entity;
-                        tangon = 0;
-                        if(!report) { _fun00006_ip = 63; continue _fun00005 }
+                        var5 = var3 != var1;
+                        var4 = 0;
+                        if(!var5) { _fun0003_ip = 63; continue _fun0003 }
  60:
-                        tangon = entity;
+                        var4 = var1;
  63:
-                        entity = 1;
-                        entity = tangon + entity;
-                        tangon = 3;
-                        if(!(tangon !== entity)) { _fun00006_ip = 89; continue _fun00005 }
+                        var1 = 1;
+                        var1 = var4 + var1;
+                        var4 = 3;
+                        if(!(var4 !== var1)) { _fun0003_ip = 89; continue _fun0003 }
  77:
-                        if(!(zuuluu != michal)) { _fun00006_ip = 108; continue _fun00005 }
+                        if(!(var3 != var2)) { _fun0003_ip = 108; continue _fun0003 }
  81:
-                        michal['momentumEndCount'] = entity;
-                        _fun00006_ip = 108; continue _fun00005;
+                        var2['momentumEndCount'] = var1;
+                        _fun0003_ip = 108; continue _fun0003;
  89:
-                        zuuluu = _closure2_slot1;
-                        michal = zuuluu.set;
-                        entity = false;
-                        entity = michal.bind(zuuluu)(entity);
+                        var3 = _closure2_slot1;
+                        var2 = var3.set;
+                        var1 = false;
+                        var1 = var2.bind(var3)(var1);
  108:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                kiloes = {};
-                result = _closure1_slot2;
-                kiloes['IS_ANDROID'] = result;
-                kiloes['scrollLocked'] = verify;
-                backup['__closure'] = kiloes;
-                kiloes = 17525906195822.0;
-                backup['__workletHash'] = kiloes;
-                kiloes = _closure1_slot5;
-                backup['__initData'] = kiloes;
-                yankee['onMomentumEnd'] = backup;
-                backup = function(argFoo) { // Original name: k
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var15 = {};
+                var18 = _closure1_slot2;
+                var15['IS_ANDROID'] = var18;
+                var15['scrollLocked'] = var9;
+                var14['__closure'] = var15;
+                var15 = 17525906195822.0;
+                var14['__workletHash'] = var15;
+                var15 = _closure1_slot5;
+                var14['__initData'] = var15;
+                var11['onMomentumEnd'] = var14;
+                var14 = function k(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        entity = argFoo;
-                        michal = entity.contentOffset;
-                        report = michal.y;
-                        tangon = _closure2_slot3;
-                        zuuluu = tangon.get;
-                        zuuluu = zuuluu.bind(tangon)();
-                        oscard = true;
-                        if(!(oscard === zuuluu)) { _fun00008_ip = 199; continue _fun00007 }
+                        var1 = arg1;
+                        var2 = var1.contentOffset;
+                        var5 = var2.y;
+                        var4 = _closure2_slot3;
+                        var3 = var4.get;
+                        var3 = var3.bind(var4)();
+                        var6 = true;
+                        if(!(var6 === var3)) { _fun0004_ip = 199; continue _fun0004 }
  39:
-                        tangon = _closure2_slot2;
-                        zuuluu = tangon.get;
-                        zuuluu = zuuluu.bind(tangon)();
-                        zuuluu = report < zuuluu;
-                        golfie = _closure2_slot1;
-                        tangon = golfie.get;
-                        tangon = tangon.bind(golfie)();
-                        if(tangon) { _fun00008_ip = 100; continue _fun00007 }
+                        var4 = _closure2_slot2;
+                        var3 = var4.get;
+                        var3 = var3.bind(var4)();
+                        var3 = var5 < var3;
+                        var7 = _closure2_slot1;
+                        var4 = var7.get;
+                        var4 = var4.bind(var7)();
+                        if(var4) { _fun0004_ip = 100; continue _fun0004 }
  72:
-                        if(!zuuluu) { _fun00008_ip = 81; continue _fun00007 }
+                        if(!var3) { _fun0004_ip = 81; continue _fun0004 }
  75:
-                        zuuluu = 0;
-                        if(!(!(report <= zuuluu))) { _fun00008_ip = 100; continue _fun00007 }
+                        var3 = 0;
+                        if(!(!(var5 <= var3))) { _fun0004_ip = 100; continue _fun0004 }
  81:
-                        tangon = _closure2_slot2;
-                        zuuluu = tangon.set;
-                        zuuluu = zuuluu.bind(tangon)(report);
-                        _fun00008_ip = 285; continue _fun00007;
+                        var4 = _closure2_slot2;
+                        var3 = var4.set;
+                        var3 = var3.bind(var4)(var5);
+                        _fun0004_ip = 285; continue _fun0004;
  100:
-                        tangon = _closure2_slot1;
-                        zuuluu = tangon.get;
-                        zuuluu = zuuluu.bind(tangon)();
-                        if(zuuluu) { _fun00008_ip = 130; continue _fun00007 }
+                        var4 = _closure2_slot1;
+                        var3 = var4.get;
+                        var3 = var3.bind(var4)();
+                        if(var3) { _fun0004_ip = 130; continue _fun0004 }
  116:
-                        tangon = _closure2_slot1;
-                        zuuluu = tangon.set;
-                        zuuluu = zuuluu.bind(tangon)(oscard);
+                        var4 = _closure2_slot1;
+                        var3 = var4.set;
+                        var3 = var3.bind(var4)(var6);
  130:
-                        oscard = _closure1_slot0;
-                        tangon = _closure1_slot1;
-                        zuuluu = 2;
-                        tangon = tangon[zuuluu];
-                        zuuluu = undefined;
-                        option = oscard.bind(zuuluu)(tangon);
-                        golfie = option.scrollTo;
-                        kiloes = _closure3_slot2;
-                        oscard = 0;
-                        romeon = false;
-                        sizing = option;
-                        backup = 0;
-                        foxtra = 0;
-                        zuuluu = sizing[golfie](kiloes, backup, foxtra, romeon, yankee);
-                        tangon = _closure2_slot2;
-                        zuuluu = tangon.set;
-                        zuuluu = zuuluu.bind(tangon)(oscard);
-                        _fun00008_ip = 285; continue _fun00007;
+                        var6 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var3 = 2;
+                        var4 = var4[var3];
+                        var3 = undefined;
+                        var8 = var6.bind(var3)(var4);
+                        var7 = var8.scrollTo;
+                        var15 = _closure3_slot2;
+                        var6 = 0;
+                        var12 = false;
+                        var16 = var8;
+                        var14 = 0;
+                        var13 = 0;
+                        var3 = var16[var7](var15, var14, var13, var12, var11);
+                        var4 = _closure2_slot2;
+                        var3 = var4.set;
+                        var3 = var3.bind(var4)(var6);
+                        _fun0004_ip = 285; continue _fun0004;
  199:
-                        oscard = _closure1_slot2;
-                        if(!oscard) { _fun00008_ip = 215; continue _fun00007 }
+                        var6 = _closure1_slot2;
+                        if(!var6) { _fun0004_ip = 215; continue _fun0004 }
  209:
-                        tangon = 0;
-                        oscard = report < tangon;
+                        var4 = 0;
+                        var6 = var5 < var4;
  215:
-                        tangon = report;
-                        if(!oscard) { _fun00008_ip = 271; continue _fun00007 }
+                        var4 = var5;
+                        if(!var6) { _fun0004_ip = 271; continue _fun0004 }
  221:
-                        golfie = _closure1_slot0;
-                        oscard = _closure1_slot1;
-                        zuuluu = 2;
-                        oscard = oscard[zuuluu];
-                        zuuluu = undefined;
-                        verify = golfie.bind(zuuluu)(oscard);
-                        option = verify.scrollTo;
-                        kiloes = _closure3_slot2;
-                        romeon = false;
-                        sizing = verify;
-                        backup = 0;
-                        foxtra = 0;
-                        oscard = sizing[option](kiloes, backup, foxtra, romeon, yankee);
-                        tangon = 0;
+                        var7 = _closure1_slot0;
+                        var6 = _closure1_slot1;
+                        var3 = 2;
+                        var6 = var6[var3];
+                        var3 = undefined;
+                        var9 = var7.bind(var3)(var6);
+                        var8 = var9.scrollTo;
+                        var15 = _closure3_slot2;
+                        var12 = false;
+                        var16 = var9;
+                        var14 = 0;
+                        var13 = 0;
+                        var6 = var16[var8](var15, var14, var13, var12, var11);
+                        var4 = 0;
  271:
-                        zuuluu = _closure2_slot2;
-                        michal = zuuluu.set;
-                        michal = michal.bind(zuuluu)(tangon);
+                        var3 = _closure2_slot2;
+                        var2 = var3.set;
+                        var2 = var2.bind(var3)(var4);
  285:
-                        michal = entity.layoutMeasurement;
-                        golfie = michal.width;
-                        oscard = michal.height;
-                        entity = entity.contentSize;
-                        tangon = entity.width;
-                        entity = entity.height;
-                        zuuluu = _closure3_slot0;
-                        option = null;
-                        if(!(option != zuuluu)) { _fun00008_ip = 399; continue _fun00007 }
+                        var2 = var1.layoutMeasurement;
+                        var7 = var2.width;
+                        var6 = var2.height;
+                        var1 = var1.contentSize;
+                        var4 = var1.width;
+                        var1 = var1.height;
+                        var3 = _closure3_slot0;
+                        var8 = null;
+                        if(!(var8 != var3)) { _fun0004_ip = 399; continue _fun0004 }
  330:
-                        verify = _closure1_slot0;
-                        offset = _closure1_slot1;
-                        zuuluu = 2;
-                        zuuluu = offset[zuuluu];
-                        offset = undefined;
-                        yankee = verify.bind(offset)(zuuluu);
-                        verify = yankee.runOnJS;
-                        zuuluu = _closure3_slot0;
-                        verify = verify.bind(yankee)(zuuluu);
-                        zuuluu = {};
-                        zuuluu['width'] = golfie;
-                        zuuluu['height'] = oscard;
-                        zuuluu['offset'] = report;
-                        zuuluu['contentWidth'] = tangon;
-                        zuuluu['contentHeight'] = entity;
-                        zuuluu = verify.bind(offset)(zuuluu);
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot1;
+                        var3 = 2;
+                        var3 = var10[var3];
+                        var10 = undefined;
+                        var11 = var9.bind(var10)(var3);
+                        var9 = var11.runOnJS;
+                        var3 = _closure3_slot0;
+                        var9 = var9.bind(var11)(var3);
+                        var3 = {};
+                        var3['width'] = var7;
+                        var3['height'] = var6;
+                        var3['offset'] = var5;
+                        var3['contentWidth'] = var4;
+                        var3['contentHeight'] = var1;
+                        var3 = var9.bind(var10)(var3);
  399:
-                        zuuluu = _closure3_slot1;
-                        if(!(option != zuuluu)) { _fun00008_ip = 443; continue _fun00007 }
+                        var3 = _closure3_slot1;
+                        if(!(var8 != var3)) { _fun0004_ip = 443; continue _fun0004 }
  407:
-                        zuuluu = _closure3_slot1;
-                        michal = {};
-                        michal['width'] = golfie;
-                        michal['height'] = oscard;
-                        michal['offset'] = report;
-                        michal['contentWidth'] = tangon;
-                        michal['contentHeight'] = entity;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
+                        var3 = _closure3_slot1;
+                        var2 = {};
+                        var2['width'] = var7;
+                        var2['height'] = var6;
+                        var2['offset'] = var5;
+                        var2['contentWidth'] = var4;
+                        var2['contentHeight'] = var1;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
  443:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                kiloes = {};
-                kiloes['isDragScrolling'] = echoed;
-                kiloes['IS_ANDROID'] = result;
-                result = offset[report];
-                result = oscard.bind(option)(result);
-                result = result.scrollTo;
-                kiloes['scrollTo'] = result;
-                kiloes['scrollerRef'] = zuuluu;
-                result = _closure2_slot2;
-                kiloes['scrollOffsetValue'] = result;
-                kiloes['scrollLocked'] = verify;
-                kiloes['onScrollHandler'] = output;
-                output = offset[report];
-                output = oscard.bind(option)(output);
-                output = output.runOnJS;
-                kiloes['runOnJS'] = output;
-                kiloes['onScrollHandlerWorkletized'] = sizing;
-                backup['__closure'] = kiloes;
-                kiloes = 13271628494164.0;
-                backup['__workletHash'] = kiloes;
-                kiloes = _closure1_slot6;
-                backup['__initData'] = kiloes;
-                yankee['onScroll'] = backup;
-                yankee = romeon.bind(foxtra)(yankee);
-                entity['onScroll'] = yankee;
-                report = offset[report];
-                oscard = oscard.bind(option)(report);
-                report = oscard.useAnimatedProps;
-                tangon = function() { // Original name: L
-                    entity = {};
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.get;
-                    michal = michal.bind(zuuluu)();
-                    michal = !michal;
-                    entity['showsVerticalScrollIndicator'] = michal;
-                    return entity;
+                var15 = {};
+                var15['isDragScrolling'] = var19;
+                var15['IS_ANDROID'] = var18;
+                var18 = var10[var5];
+                var18 = var6.bind(var8)(var18);
+                var18 = var18.scrollTo;
+                var15['scrollTo'] = var18;
+                var15['scrollerRef'] = var3;
+                var18 = _closure2_slot2;
+                var15['scrollOffsetValue'] = var18;
+                var15['scrollLocked'] = var9;
+                var15['onScrollHandler'] = var17;
+                var17 = var10[var5];
+                var17 = var6.bind(var8)(var17);
+                var17 = var17.runOnJS;
+                var15['runOnJS'] = var17;
+                var15['onScrollHandlerWorkletized'] = var16;
+                var14['__closure'] = var15;
+                var15 = 13271628494164.0;
+                var14['__workletHash'] = var15;
+                var15 = _closure1_slot6;
+                var14['__initData'] = var15;
+                var11['onScroll'] = var14;
+                var11 = var12.bind(var13)(var11);
+                var1['onScroll'] = var11;
+                var5 = var10[var5];
+                var6 = var6.bind(var8)(var5);
+                var5 = var6.useAnimatedProps;
+                var4 = function L() {
+                    var1 = {};
+                    var3 = _closure2_slot1;
+                    var2 = var3.get;
+                    var2 = var2.bind(var3)();
+                    var2 = !var2;
+                    var1['showsVerticalScrollIndicator'] = var2;
+                    return var1;
                 };
-                option = {};
-                option['scrollLocked'] = verify;
-                tangon['__closure'] = option;
-                option = 3670657775473.0;
-                tangon['__workletHash'] = option;
-                golfie = _closure1_slot7;
-                tangon['__initData'] = golfie;
-                tangon = report.bind(oscard)(tangon);
-                entity['animatedProps'] = tangon;
-                entity['scrollerRef'] = zuuluu;
-                michal = _closure2_slot0;
-                entity['gestureRef'] = michal;
-                return entity;
+                var8 = {};
+                var8['scrollLocked'] = var9;
+                var4['__closure'] = var8;
+                var8 = 3670657775473.0;
+                var4['__workletHash'] = var8;
+                var7 = _closure1_slot7;
+                var4['__initData'] = var7;
+                var4 = var5.bind(var6)(var4);
+                var1['animatedProps'] = var4;
+                var1['scrollerRef'] = var3;
+                var2 = _closure2_slot0;
+                var1['gestureRef'] = var2;
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    zuuluu['createUseAnimatedScrollLock'] = michal;
-    return entity;
+    var3['createUseAnimatedScrollLock'] = var2;
+    return var1;
 })();

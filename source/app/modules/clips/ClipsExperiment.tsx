@@ -1,296 +1,296 @@
 // app/modules/clips/ClipsExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = option[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = option[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.PremiumTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    report = option[tangon];
-    verify = golfie.bind(entity)(report);
-    oscard = verify.createExperiment;
-    report = {'kind': 'user', 'id': '2022-11_clips_experiment', 'label': 'Clips Experiment'};
-    offset = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false};
-    report['defaultConfig'] = offset;
-    yankee = {'id': 1, 'label': 'Clips without upsells'};
-    offset = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
-    yankee['config'] = offset;
-    offset = new Array(3);
-    offset[0] = yankee;
-    yankee = {'id': 2, 'label': 'Clips with upsells'};
-    romeon = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    yankee = {'id': 99, 'label': 'Clips 4 da Developerz'};
-    romeon = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true};
-    yankee['config'] = romeon;
-    offset[2] = yankee;
-    report['treatments'] = offset;
-    report = oscard.bind(verify)(report);
-    var _closure1_slot5 = report;
-    tangon = option[tangon];
-    verify = golfie.bind(entity)(tangon);
-    oscard = verify.createExperiment;
-    tangon = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
-    offset = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
-    tangon['defaultConfig'] = offset;
-    yankee = {'id': 1, 'label': 'Clips Nitro EA Upsells Visible'};
-    offset = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true};
-    yankee['config'] = offset;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {'id': 2, 'label': 'Clips Enabled (Nitro)'};
-    romeon = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    tangon['treatments'] = offset;
-    tangon = oscard.bind(verify)(tangon);
-    var _closure1_slot6 = tangon;
-    oscard = 7;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/clips/ClipsExperiment.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['ClipsExperiment'] = report;
-    zuuluu['ClipsPremiumEarlyAccessExperiment'] = tangon;
-    tangon = function() { // Original name: areClipsEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var5 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.PremiumTypes;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var5 = var8[var4];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createExperiment;
+    var5 = {'kind': 'user', 'id': '2022-11_clips_experiment', 'label': 'Clips Experiment'};
+    var10 = {'enableClips': false, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': false};
+    var5['defaultConfig'] = var10;
+    var11 = {'id': 1, 'label': 'Clips without upsells'};
+    var10 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
+    var11['config'] = var10;
+    var10 = new Array(3);
+    var10[0] = var11;
+    var11 = {'id': 2, 'label': 'Clips with upsells'};
+    var12 = {'enableClips': true, 'ignorePlatformRestriction': false, 'showClipsHeaderEntrypoint': true};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var11 = {'id': 99, 'label': 'Clips 4 da Developerz'};
+    var12 = {'enableClips': true, 'ignorePlatformRestriction': true, 'showClipsHeaderEntrypoint': true};
+    var11['config'] = var12;
+    var10[2] = var11;
+    var5['treatments'] = var10;
+    var5 = var6.bind(var9)(var5);
+    var _closure1_slot5 = var5;
+    var4 = var8[var4];
+    var9 = var7.bind(var1)(var4);
+    var6 = var9.createExperiment;
+    var4 = {'kind': 'user', 'id': '2023-09_clips_nitro_early_access', 'label': 'Clips (Nitro EA)'};
+    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': false, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
+    var4['defaultConfig'] = var10;
+    var11 = {'id': 1, 'label': 'Clips Nitro EA Upsells Visible'};
+    var10 = {'enableClips': false, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': true};
+    var11['config'] = var10;
+    var10 = new Array(2);
+    var10[0] = var11;
+    var11 = {'id': 2, 'label': 'Clips Enabled (Nitro)'};
+    var12 = {'enableClips': true, 'enablePremiumEarlyAccessAnnouncementCoachmark': true, 'enablePremiumEarlyAccessGoLiveRoadblock': false};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var4['treatments'] = var10;
+    var4 = var6.bind(var9)(var4);
+    var _closure1_slot6 = var4;
+    var6 = 7;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/clips/ClipsExperiment.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['ClipsExperiment'] = var5;
+    var3['ClipsPremiumEarlyAccessExperiment'] = var4;
+    var4 = function areClipsEnabled() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            entity = zuuluu[entity];
-            golfie = undefined;
-            michal = michal.bind(golfie)(entity);
-            entity = _closure1_slot2;
-            entity = michal.bind(golfie)(entity);
-            if(entity) { _fun00002_ip = 41; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var1 = var3[var1];
+            var7 = undefined;
+            var2 = var2.bind(var7)(var1);
+            var1 = _closure1_slot2;
+            var1 = var2.bind(var7)(var1);
+            if(var1) { _fun0001_ip = 41; continue _fun0001 }
  37:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  41:
-            oscard = _closure1_slot6;
-            tangon = oscard.getCurrentConfig;
-            zuuluu = {};
-            michal = 'areClipsEnabled';
-            zuuluu['location'] = michal;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = tangon.bind(oscard)(zuuluu, entity);
-            entity = entity.enableClips;
-            verify = _closure1_slot5;
-            oscard = verify.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = michal;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(verify)(tangon, zuuluu);
-            tangon = zuuluu.enableClips;
-            oscard = _closure1_slot3;
-            zuuluu = oscard.isDecoupledGameClippingEnabled;
-            zuuluu = zuuluu.bind(oscard)();
-            oscard = _closure1_slot0;
-            verify = _closure1_slot1;
-            report = 5;
-            report = verify[report];
-            golfie = oscard.bind(golfie)(report);
-            oscard = golfie.getCurrentConfig;
-            report = {};
-            report['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = option;
-            michal = oscard.bind(golfie)(report, michal);
-            michal = michal.enableViewerClipping;
-            if(entity) { _fun00002_ip = 188; continue _fun00001 }
+            var6 = _closure1_slot6;
+            var4 = var6.getCurrentConfig;
+            var3 = {};
+            var2 = 'areClipsEnabled';
+            var3['location'] = var2;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var4.bind(var6)(var3, var1);
+            var1 = var1.enableClips;
+            var9 = _closure1_slot5;
+            var6 = var9.getCurrentConfig;
+            var4 = {};
+            var4['location'] = var2;
+            var3 = {};
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var9)(var4, var3);
+            var4 = var3.enableClips;
+            var6 = _closure1_slot3;
+            var3 = var6.isDecoupledGameClippingEnabled;
+            var3 = var3.bind(var6)();
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var5 = 5;
+            var5 = var9[var5];
+            var7 = var6.bind(var7)(var5);
+            var6 = var7.getCurrentConfig;
+            var5 = {};
+            var5['location'] = var2;
+            var2 = {};
+            var2['autoTrackExposure'] = var8;
+            var2 = var6.bind(var7)(var5, var2);
+            var2 = var2.enableViewerClipping;
+            if(var1) { _fun0001_ip = 188; continue _fun0001 }
  185:
-            entity = tangon;
+            var1 = var4;
  188:
-            if(entity) { _fun00002_ip = 194; continue _fun00001 }
+            if(var1) { _fun0001_ip = 194; continue _fun0001 }
  191:
-            entity = zuuluu;
+            var1 = var3;
  194:
-            if(entity) { _fun00002_ip = 200; continue _fun00001 }
+            if(var1) { _fun0001_ip = 200; continue _fun0001 }
  197:
-            entity = michal;
+            var1 = var2;
  200:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['areClipsEnabled'] = tangon;
-    tangon = function() { // Original name: useEnableClips
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['areClipsEnabled'] = var4;
+    var4 = function useEnableClips() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            option = _closure1_slot0;
-            offset = _closure1_slot1;
-            entity = 4;
-            entity = offset[entity];
-            golfie = undefined;
-            michal = option.bind(golfie)(entity);
-            entity = _closure1_slot2;
-            michal = michal.bind(golfie)(entity);
-            yankee = _closure1_slot6;
-            oscard = yankee.useExperiment;
-            report = {};
-            zuuluu = 'useEnableClips';
-            report['location'] = zuuluu;
-            entity = {};
-            verify = false;
-            entity['autoTrackExposure'] = verify;
-            entity = oscard.bind(yankee)(report, entity);
-            report = entity.enableClips;
-            romeon = _closure1_slot5;
-            yankee = romeon.useExperiment;
-            oscard = {};
-            oscard['location'] = zuuluu;
-            entity = {};
-            entity['autoTrackExposure'] = verify;
-            entity = yankee.bind(romeon)(oscard, entity);
-            entity = entity.enableClips;
-            oscard = _closure1_slot3;
-            tangon = oscard.isDecoupledGameClippingEnabled;
-            tangon = tangon.bind(oscard)();
-            oscard = 5;
-            oscard = offset[oscard];
-            option = option.bind(golfie)(oscard);
-            golfie = option.useExperiment;
-            oscard = {};
-            oscard['location'] = zuuluu;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = verify;
-            zuuluu = golfie.bind(option)(oscard, zuuluu);
-            zuuluu = zuuluu.enableViewerClipping;
-            if(entity) { _fun00004_ip = 175; continue _fun00003 }
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var1 = 4;
+            var1 = var10[var1];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var1);
+            var1 = _closure1_slot2;
+            var2 = var2.bind(var7)(var1);
+            var11 = _closure1_slot6;
+            var6 = var11.useExperiment;
+            var5 = {};
+            var3 = 'useEnableClips';
+            var5['location'] = var3;
+            var1 = {};
+            var9 = false;
+            var1['autoTrackExposure'] = var9;
+            var1 = var6.bind(var11)(var5, var1);
+            var5 = var1.enableClips;
+            var12 = _closure1_slot5;
+            var11 = var12.useExperiment;
+            var6 = {};
+            var6['location'] = var3;
+            var1 = {};
+            var1['autoTrackExposure'] = var9;
+            var1 = var11.bind(var12)(var6, var1);
+            var1 = var1.enableClips;
+            var6 = _closure1_slot3;
+            var4 = var6.isDecoupledGameClippingEnabled;
+            var4 = var4.bind(var6)();
+            var6 = 5;
+            var6 = var10[var6];
+            var8 = var8.bind(var7)(var6);
+            var7 = var8.useExperiment;
+            var6 = {};
+            var6['location'] = var3;
+            var3 = {};
+            var3['autoTrackExposure'] = var9;
+            var3 = var7.bind(var8)(var6, var3);
+            var3 = var3.enableViewerClipping;
+            if(var1) { _fun0002_ip = 175; continue _fun0002 }
  172:
-            entity = report;
+            var1 = var5;
  175:
-            if(entity) { _fun00004_ip = 181; continue _fun00003 }
+            if(var1) { _fun0002_ip = 181; continue _fun0002 }
  178:
-            entity = tangon;
+            var1 = var4;
  181:
-            if(entity) { _fun00004_ip = 187; continue _fun00003 }
+            if(var1) { _fun0002_ip = 187; continue _fun0002 }
  184:
-            entity = zuuluu;
+            var1 = var3;
  187:
-            if(!entity) { _fun00004_ip = 193; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 193; continue _fun0002 }
  190:
-            entity = michal;
+            var1 = var2;
  193:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useEnableClips'] = tangon;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useEnableClips'] = var4;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.autoTrackExposure;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 4;
-            entity = tangon[entity];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = _closure1_slot2;
-            entity = zuuluu.bind(tangon)(entity);
-            report = _closure1_slot6;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            michal = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            zuuluu['location'] = michal;
-            michal = {};
-            if(!oscard) { _fun00006_ip = 73; continue _fun00005 }
+            var1 = arg1;
+            var6 = var1.autoTrackExposure;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 4;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = _closure1_slot2;
+            var1 = var3.bind(var4)(var1);
+            var5 = _closure1_slot6;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
+            var3['location'] = var2;
+            var2 = {};
+            if(!var6) { _fun0003_ip = 73; continue _fun0003 }
  70:
-            oscard = entity;
+            var6 = var1;
  73:
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            michal = michal.enablePremiumEarlyAccessGoLiveRoadblock;
-            zuuluu = !entity;
-            entity = !zuuluu;
-            if(zuuluu) { _fun00006_ip = 102; continue _fun00005 }
+            var2['autoTrackExposure'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            var2 = var2.enablePremiumEarlyAccessGoLiveRoadblock;
+            var3 = !var1;
+            var1 = !var3;
+            if(var3) { _fun0003_ip = 102; continue _fun0003 }
  99:
-            entity = michal;
+            var1 = var2;
  102:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = tangon;
-    tangon = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock'] = var4;
+    var4 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.autoTrackExposure;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 4;
-            entity = tangon[entity];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = _closure1_slot2;
-            entity = zuuluu.bind(tangon)(entity);
-            report = _closure1_slot6;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            michal = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
-            zuuluu['location'] = michal;
-            michal = {};
-            if(!oscard) { _fun00008_ip = 73; continue _fun00007 }
+            var1 = arg1;
+            var6 = var1.autoTrackExposure;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 4;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = _closure1_slot2;
+            var1 = var3.bind(var4)(var1);
+            var5 = _closure1_slot6;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var2 = 'useShouldSeeClipsPremiumEarlyAccessGoLiveRoadblock';
+            var3['location'] = var2;
+            var2 = {};
+            if(!var6) { _fun0004_ip = 73; continue _fun0004 }
  70:
-            oscard = entity;
+            var6 = var1;
  73:
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            michal = michal.enablePremiumEarlyAccessAnnouncementCoachmark;
-            zuuluu = !entity;
-            entity = !zuuluu;
-            if(zuuluu) { _fun00008_ip = 102; continue _fun00007 }
+            var2['autoTrackExposure'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            var2 = var2.enablePremiumEarlyAccessAnnouncementCoachmark;
+            var3 = !var1;
+            var1 = !var3;
+            if(var3) { _fun0004_ip = 102; continue _fun0004 }
  99:
-            entity = michal;
+            var1 = var2;
  102:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = tangon;
-    michal = function(argFoo) { // Original name: isUserPremiumTypeForClipsEarlyAccess
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 6;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.isPremiumAtLeast;
-        michal = argFoo;
-        michal = michal.premiumType;
-        entity = _closure1_slot4;
-        entity = entity.TIER_2;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['useShouldSeeClipsPremiumEarlyAccessAnnouncementCoachmark'] = var4;
+    var2 = function isUserPremiumTypeForClipsEarlyAccess(arg1) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 6;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.isPremiumAtLeast;
+        var2 = arg1;
+        var2 = var2.premiumType;
+        var1 = _closure1_slot4;
+        var1 = var1.TIER_2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['isUserPremiumTypeForClipsEarlyAccess'] = michal;
-    return entity;
+    var3['isUserPremiumTypeForClipsEarlyAccess'] = var2;
+    return var1;
 })();

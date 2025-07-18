@@ -1,42 +1,42 @@
 // app/modules/assets_cdn/Utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/assets_cdn/Utils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getAssetCDNUrl
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = 'https://cdn.discordapp.com/assets/';
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/assets_cdn/Utils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAssetCDNUrl(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = 'https://cdn.discordapp.com/assets/';
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['getAssetCDNUrl'] = tangon;
-    michal = function(argFoo) { // Original name: getAssetContentCDNUrl
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = 'https://cdn.discordapp.com/assets/content/';
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['getAssetCDNUrl'] = var4;
+    var2 = function getAssetContentCDNUrl(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = 'https://cdn.discordapp.com/assets/content/';
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['getAssetContentCDNUrl'] = michal;
-    return entity;
+    var3['getAssetContentCDNUrl'] = var2;
+    return var1;
 })();

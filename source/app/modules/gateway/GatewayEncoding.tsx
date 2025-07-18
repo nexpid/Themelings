@@ -1,142 +1,142 @@
 // app/modules/gateway/GatewayEncoding.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        golfie = argBaz;
-        zuuluu = argFre;
-        oscard = argPlu;
-        entity = global;
-        verify = entity.Object;
-        option = verify.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = option.bind(verify)(zuuluu, entity, tangon);
-        entity = 0;
-        tangon = oscard[entity];
-        entity = undefined;
-        tangon = golfie.bind(entity)(tangon);
-        var _closure1_slot0 = tangon;
-        tangon = 1;
-        tangon = oscard[tangon];
-        tangon = golfie.bind(entity)(tangon);
-        var _closure1_slot1 = tangon;
-        tangon = 2;
-        tangon = oscard[tangon];
-        golfie = report.bind(entity)(tangon);
-        tangon = golfie.getErlpackEncoding;
-        golfie = tangon.bind(golfie)();
-        michal = function() {
-            tangon = _closure1_slot1;
-            zuuluu = function() { // Original name: JSONEncoding
-                tangon = _closure1_slot0;
-                zuuluu = _closure2_slot0;
-                entity = undefined;
-                michal = this;
-                michal = tangon.bind(entity)(michal, zuuluu);
-                return entity;
+        var5 = native2;
+        var7 = native3;
+        var3 = native6;
+        var6 = native7;
+        var1 = global;
+        var9 = var1.Object;
+        var8 = var9.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var8.bind(var9)(var3, var1, var4);
+        var1 = 0;
+        var4 = var6[var1];
+        var1 = undefined;
+        var4 = var7.bind(var1)(var4);
+        var _closure1_slot0 = var4;
+        var4 = 1;
+        var4 = var6[var4];
+        var4 = var7.bind(var1)(var4);
+        var _closure1_slot1 = var4;
+        var4 = 2;
+        var4 = var6[var4];
+        var7 = var5.bind(var1)(var4);
+        var4 = var7.getErlpackEncoding;
+        var7 = var4.bind(var7)();
+        var2 = function() {
+            var4 = _closure1_slot1;
+            var3 = function JSONEncoding() {
+                var4 = _closure1_slot0;
+                var3 = _closure2_slot0;
+                var1 = undefined;
+                var2 = this;
+                var2 = var4.bind(var1)(var2, var3);
+                return var1;
             };
-            var _closure2_slot0 = zuuluu;
-            entity = {};
-            michal = 'pack';
-            entity['key'] = michal;
-            michal = function(argFoo) { // Original name: value
-                entity = global;
-                zuuluu = entity.JSON;
-                michal = zuuluu.stringify;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var _closure2_slot0 = var3;
+            var1 = {};
+            var2 = 'pack';
+            var1['key'] = var2;
+            var2 = function value(arg1) {
+                var1 = global;
+                var3 = var1.JSON;
+                var2 = var3.stringify;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity['value'] = michal;
-            michal = new Array(4);
-            michal[0] = entity;
-            entity = {};
-            oscard = 'unpack';
-            entity['key'] = oscard;
-            oscard = function(argFoo) { // Original name: value
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1['value'] = var2;
+            var2 = new Array(4);
+            var2[0] = var1;
+            var1 = {};
+            var6 = 'unpack';
+            var1['key'] = var6;
+            var6 = function value(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = argFoo;
-                    michal = typeof report;
-                    entity = 'string';
-                    if(!(entity === michal)) { _fun00004_ip = 35; continue _fun00003 }
+                    var5 = arg1;
+                    var2 = typeof var5;
+                    var1 = 'string';
+                    if(!(var1 === var2)) { _fun0002_ip = 35; continue _fun0002 }
  14:
-                    entity = global;
-                    zuuluu = entity.JSON;
-                    entity = zuuluu.parse;
-                    entity = entity.bind(zuuluu)(report);
-                    return entity;
+                    var1 = global;
+                    var3 = var1.JSON;
+                    var1 = var3.parse;
+                    var1 = var1.bind(var3)(var5);
+                    return var1;
  35:
-                    entity = global;
-                    zuuluu = entity.Error;
-                    tangon = null;
-                    report = tangon == report;
-                    if(report) { _fun00004_ip = 55; continue _fun00003 }
+                    var1 = global;
+                    var3 = var1.Error;
+                    var4 = null;
+                    var5 = var4 == var5;
+                    if(var5) { _fun0002_ip = 55; continue _fun0002 }
  52:
-                    tangon = michal;
+                    var4 = var2;
  55:
-                    entity = entity.HermesInternal;
-                    michal = entity.concat;
-                    entity = 'Expected a string to be passed to JSONEncoding.unpack, got ';
-                    oscard = michal.bind(entity)(tangon);
-                    michal = zuuluu.prototype;
-                    michal = Object.create(michal, {constructor: {value: zuuluu}});
-                    golfie = michal;
-                    entity = new golfie[zuuluu](oscard, report);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                    var1 = var1.HermesInternal;
+                    var2 = var1.concat;
+                    var1 = 'Expected a string to be passed to JSONEncoding.unpack, got ';
+                    var6 = var2.bind(var1)(var4);
+                    var2 = var3.prototype;
+                    var2 = Object.create(var2, {constructor: {value: var3}});
+                    var7 = var2;
+                    var1 = new var7[var3](var6, var5);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 }
             };
-            entity['value'] = oscard;
-            michal[1] = entity;
-            entity = {};
-            oscard = 'getName';
-            entity['key'] = oscard;
-            oscard = function() { // Original name: value
-                entity = 'json';
-                return entity;
+            var1['value'] = var6;
+            var2[1] = var1;
+            var1 = {};
+            var6 = 'getName';
+            var1['key'] = var6;
+            var6 = function value() {
+                var1 = 'json';
+                return var1;
             };
-            entity['value'] = oscard;
-            michal[2] = entity;
-            entity = {};
-            oscard = 'wantsString';
-            entity['key'] = oscard;
-            report = function() { // Original name: value
-                entity = true;
-                return entity;
+            var1['value'] = var6;
+            var2[2] = var1;
+            var1 = {};
+            var6 = 'wantsString';
+            var1['key'] = var6;
+            var5 = function value() {
+                var1 = true;
+                return var1;
             };
-            entity['value'] = report;
-            michal[3] = entity;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var1['value'] = var5;
+            var2[3] = var1;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        tangon = michal.bind(entity)();
-        michal = tangon;
-        if(!(entity !== golfie)) { _fun00002_ip = 122; continue _fun00001 }
+        var4 = var2.bind(var1)();
+        var2 = var4;
+        if(!(var1 !== var7)) { _fun0001_ip = 122; continue _fun0001 }
  119:
-        michal = golfie;
+        var2 = var7;
  122:
-        golfie = 3;
-        golfie = oscard[golfie];
-        golfie = report.bind(entity)(golfie);
-        option = golfie.ProcessArgs;
-        golfie = option.isDiscordGatewayPlaintextSet;
-        golfie = golfie.bind(option)();
-        if(!golfie) { _fun00002_ip = 156; continue _fun00001 }
+        var7 = 3;
+        var7 = var6[var7];
+        var7 = var5.bind(var1)(var7);
+        var8 = var7.ProcessArgs;
+        var7 = var8.isDiscordGatewayPlaintextSet;
+        var7 = var7.bind(var8)();
+        if(!var7) { _fun0001_ip = 156; continue _fun0001 }
  153:
-        michal = tangon;
+        var2 = var4;
  156:
-        tangon = 4;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/gateway/GatewayEncoding.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['default'] = michal;
-        return entity;
+        var4 = 4;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/gateway/GatewayEncoding.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['default'] = var2;
+        return var1;
     }
 })();

@@ -1,144 +1,144 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupNonAdultSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    golfie = true;
-    michal['value'] = golfie;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    option = michal.MobileSetting;
-    michal = {};
-    verify = 1;
-    verify = oscard[verify];
-    verify = report.bind(entity)(verify);
-    verify = verify.RendererType;
-    verify = verify.PRESSABLE;
-    michal['type'] = verify;
-    verify = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 5;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity./52UY2;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var7 = true;
+    var2['value'] = var7;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.MobileSetting;
+    var2 = {};
+    var9 = 1;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.RendererType;
+    var9 = var9.PRESSABLE;
+    var2['type'] = var9;
+    var9 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 5;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1./52UY2;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = verify;
-    option = option.ACCOUNT;
-    michal['parent'] = option;
-    option = function() { // Original name: useAccountAgeGroupNonAdultSettingTrailing
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['title'] = var9;
+    var8 = var8.ACCOUNT;
+    var2['parent'] = var8;
+    var8 = function useAccountAgeGroupNonAdultSettingTrailing() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 4;
-            entity = tangon[entity];
-            oscard = undefined;
-            zuuluu = zuuluu.bind(oscard)(entity);
-            entity = zuuluu.useIsAgeVerified;
-            entity = entity.bind(zuuluu)();
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 5;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            if(entity) { _fun00002_ip = 97; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.useIsAgeVerified;
+            var1 = var1.bind(var3)();
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 5;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            if(var1) { _fun0001_ip = 97; continue _fun0001 }
  82:
-            entity = michal.UX0OdX;
-            entity = zuuluu.bind(tangon)(entity);
-            _fun00002_ip = 110; continue _fun00001;
+            var1 = var2.UX0OdX;
+            var1 = var3.bind(var4)(var1);
+            _fun0001_ip = 110; continue _fun0001;
  97:
-            michal = michal.sK0dmJ;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = var2.sK0dmJ;
+            var1 = var3.bind(var4)(var2);
  110:
-            return entity;
+            return var1;
         }
     };
-    michal['useTrailing'] = option;
-    option = function() { // Original name: onAccountAgeGroupNonAdultSettingPress
-        tangon = _closure1_slot1;
-        oscard = _closure1_slot2;
-        entity = 2;
-        zuuluu = oscard[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.showAgeVerificationGetStartedModal;
-        report = _closure1_slot0;
-        michal = 3;
-        michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        michal = michal.AgeVerificationModalEntryPoint;
-        michal = michal.ACCOUNT_AGE_GROUP;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['useTrailing'] = var8;
+    var8 = function onAccountAgeGroupNonAdultSettingPress() {
+        var4 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var1 = 2;
+        var3 = var6[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.showAgeVerificationGetStartedModal;
+        var5 = _closure1_slot0;
+        var2 = 3;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.AgeVerificationModalEntryPoint;
+        var2 = var2.ACCOUNT_AGE_GROUP;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['onPress'] = option;
-    michal['withArrow'] = golfie;
-    tangon = function() { // Original name: AccountAgeGroupNonAdultSettingPredicate
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['onPress'] = var8;
+    var2['withArrow'] = var7;
+    var4 = function AccountAgeGroupNonAdultSettingPredicate() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 4;
-            michal = oscard[entity];
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(michal);
-            michal = zuuluu.useIsAgeVerified;
-            michal = michal.bind(zuuluu)();
-            entity = oscard[entity];
-            zuuluu = report.bind(tangon)(entity);
-            entity = zuuluu.useIsVerifiedTeen;
-            zuuluu = entity.bind(zuuluu)();
-            entity = 6;
-            entity = oscard[entity];
-            report = report.bind(tangon)(entity);
-            tangon = report.useIsEligibleForSensitiveContentDefaults;
-            entity = 'explicit_media_redaction_utils';
-            entity = tangon.bind(report)(entity);
-            if(!entity) { _fun00004_ip = 98; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 4;
+            var2 = var6[var1];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var2);
+            var2 = var3.useIsAgeVerified;
+            var2 = var2.bind(var3)();
+            var1 = var6[var1];
+            var3 = var5.bind(var4)(var1);
+            var1 = var3.useIsVerifiedTeen;
+            var3 = var1.bind(var3)();
+            var1 = 6;
+            var1 = var6[var1];
+            var5 = var5.bind(var4)(var1);
+            var4 = var5.useIsEligibleForSensitiveContentDefaults;
+            var1 = 'explicit_media_redaction_utils';
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0002_ip = 98; continue _fun0002 }
  86:
-            michal = !michal;
-            if(michal) { _fun00004_ip = 95; continue _fun00003 }
+            var2 = !var2;
+            if(var2) { _fun0002_ip = 95; continue _fun0002 }
  92:
-            michal = zuuluu;
+            var2 = var3;
  95:
-            entity = michal;
+            var1 = var2;
  98:
-            return entity;
+            return var1;
         }
     };
-    michal['usePredicate'] = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupNonAdultSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['usePredicate'] = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupNonAdultSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

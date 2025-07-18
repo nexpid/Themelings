@@ -1,201 +1,201 @@
 // app/modules/errors/hooks/useVideoReadyTimeout.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = tangon.Millis;
-    golfie = tangon.SECOND;
-    tangon = 20;
-    tangon = tangon * golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/hooks/useVideoReadyTimeout.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useVideoReadyTimeout
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var7);
+    var4 = var4.Millis;
+    var7 = var4.SECOND;
+    var4 = 20;
+    var4 = var4 * var7;
+    var _closure1_slot3 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/errors/hooks/useVideoReadyTimeout.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVideoReadyTimeout(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            verify = zuuluu.streamId;
-            var _closure2_slot0 = verify;
-            golfie = zuuluu.userId;
-            var _closure2_slot1 = golfie;
-            report = zuuluu.videoSpinnerContext;
-            entity = zuuluu.streamKey;
-            var _closure2_slot2 = entity;
-            option = zuuluu.loading;
-            var _closure2_slot3 = option;
-            offset = zuuluu.paused;
-            yankee = undefined;
-            if(!(offset === yankee)) { _fun00002_ip = 64; continue _fun00001 }
+            var3 = arg1;
+            var9 = var3.streamId;
+            var _closure2_slot0 = var9;
+            var7 = var3.userId;
+            var _closure2_slot1 = var7;
+            var5 = var3.videoSpinnerContext;
+            var1 = var3.streamKey;
+            var _closure2_slot2 = var1;
+            var8 = var3.loading;
+            var _closure2_slot3 = var8;
+            var10 = var3.paused;
+            var11 = undefined;
+            if(!(var10 === var11)) { _fun0001_ip = 64; continue _fun0001 }
  62:
-            offset = false;
+            var10 = false;
  64:
-            var _closure2_slot4 = offset;
-            var _closure2_slot5 = yankee;
-            var _closure2_slot6 = yankee;
-            backup = _closure1_slot2;
-            foxtra = backup.useRef;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            romeon = 2;
-            romeon = tangon[romeon];
-            romeon = oscard.bind(yankee)(romeon);
-            romeon = romeon.Timeout;
-            kiloes = romeon.prototype;
-            kiloes = Object.create(kiloes, {constructor: {value: romeon}});
-            result = kiloes;
-            romeon = new result[romeon](output);
-            romeon = romeon instanceof Object ? romeon : kiloes;
-            romeon = foxtra.bind(backup)(romeon);
-            _closure2_slot5 = romeon;
-            romeon = 3;
-            tangon = tangon[romeon];
-            tangon = oscard.bind(yankee)(tangon);
-            tangon = tangon.VideoSpinnerContext;
-            tangon = tangon.SELF_STREAM;
-            if(!(report !== tangon)) { _fun00002_ip = 238; continue _fun00001 }
+            var _closure2_slot4 = var10;
+            var _closure2_slot5 = var11;
+            var _closure2_slot6 = var11;
+            var14 = _closure1_slot2;
+            var13 = var14.useRef;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var12 = 2;
+            var12 = var4[var12];
+            var12 = var6.bind(var11)(var12);
+            var12 = var12.Timeout;
+            var15 = var12.prototype;
+            var15 = Object.create(var15, {constructor: {value: var12}});
+            var18 = var15;
+            var12 = new var18[var12](var17);
+            var12 = var12 instanceof Object ? var12 : var15;
+            var12 = var13.bind(var14)(var12);
+            _closure2_slot5 = var12;
+            var12 = 3;
+            var4 = var4[var12];
+            var4 = var6.bind(var11)(var4);
+            var4 = var4.VideoSpinnerContext;
+            var4 = var4.SELF_STREAM;
+            if(!(var5 !== var4)) { _fun0001_ip = 238; continue _fun0001 }
  171:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[romeon];
-            tangon = oscard.bind(yankee)(tangon);
-            tangon = tangon.VideoSpinnerContext;
-            tangon = tangon.REMOTE_STREAM;
-            if(!(report !== tangon)) { _fun00002_ip = 238; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var12];
+            var4 = var6.bind(var11)(var4);
+            var4 = var4.VideoSpinnerContext;
+            var4 = var4.REMOTE_STREAM;
+            if(!(var5 !== var4)) { _fun0001_ip = 238; continue _fun0001 }
  204:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            tangon = 4;
-            tangon = oscard[tangon];
-            tangon = report.bind(yankee)(tangon);
-            tangon = tangon.MediaEngineContextTypes;
-            oscard = tangon.DEFAULT;
-            _fun00002_ip = 270; continue _fun00001;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 4;
+            var4 = var6[var4];
+            var4 = var5.bind(var11)(var4);
+            var4 = var4.MediaEngineContextTypes;
+            var6 = var4.DEFAULT;
+            _fun0001_ip = 270; continue _fun0001;
  238:
-            report = _closure1_slot0;
-            romeon = _closure1_slot1;
-            tangon = 4;
-            tangon = romeon[tangon];
-            tangon = report.bind(yankee)(tangon);
-            tangon = tangon.MediaEngineContextTypes;
-            oscard = tangon.STREAM;
+            var5 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var4 = 4;
+            var4 = var12[var4];
+            var4 = var5.bind(var11)(var4);
+            var4 = var4.MediaEngineContextTypes;
+            var6 = var4.STREAM;
  270:
-            _closure2_slot6 = oscard;
-            report = _closure1_slot2;
-            tangon = report.useEffect;
-            zuuluu = new Array(6);
-            zuuluu[0] = offset;
-            zuuluu[1] = verify;
-            zuuluu[2] = option;
-            zuuluu[3] = oscard;
-            zuuluu[4] = entity;
-            zuuluu[5] = golfie;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _closure2_slot6 = var6;
+            var5 = _closure1_slot2;
+            var4 = var5.useEffect;
+            var3 = new Array(6);
+            var3[0] = var10;
+            var3[1] = var9;
+            var3[2] = var8;
+            var3[3] = var6;
+            var3[4] = var1;
+            var3[5] = var7;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot3;
-                    if(!michal) { _fun00004_ip = 107; continue _fun00003 }
+                    var2 = _closure2_slot3;
+                    if(!var2) { _fun0002_ip = 107; continue _fun0002 }
  12:
-                    michal = _closure2_slot4;
-                    if(michal) { _fun00004_ip = 107; continue _fun00003 }
+                    var2 = _closure2_slot4;
+                    if(var2) { _fun0002_ip = 107; continue _fun0002 }
  19:
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot1;
-                    tangon = 5;
-                    report = report[tangon];
-                    tangon = undefined;
-                    tangon = oscard.bind(tangon)(report);
-                    report = tangon.WindowVisibilityVideoManager;
-                    tangon = report.isIncomingVideoEnabled;
-                    tangon = tangon.bind(report)();
-                    if(!tangon) { _fun00004_ip = 107; continue _fun00003 }
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var4 = 5;
+                    var5 = var5[var4];
+                    var4 = undefined;
+                    var4 = var6.bind(var4)(var5);
+                    var5 = var4.WindowVisibilityVideoManager;
+                    var4 = var5.isIncomingVideoEnabled;
+                    var4 = var4.bind(var5)();
+                    if(!var4) { _fun0002_ip = 107; continue _fun0002 }
  63:
-                    zuuluu = _closure2_slot5;
-                    report = zuuluu.current;
-                    var _closure3_slot0 = report;
-                    tangon = report.start;
-                    zuuluu = _closure1_slot3;
-                    michal = function() {
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 6;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = zuuluu.bind(entity)(michal);
-                        oscard = golfie.videoStreamTimedOut;
-                        yankee = _closure2_slot0;
-                        offset = _closure2_slot1;
-                        verify = _closure2_slot6;
-                        option = _closure2_slot2;
-                        romeon = golfie;
-                        michal = romeon[oscard](yankee, offset, verify, option, golfie);
-                        return entity;
+                    var3 = _closure2_slot5;
+                    var5 = var3.current;
+                    var _closure3_slot0 = var5;
+                    var4 = var5.start;
+                    var3 = _closure1_slot3;
+                    var2 = function() {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 6;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var3.bind(var1)(var2);
+                        var6 = var7.videoStreamTimedOut;
+                        var11 = _closure2_slot0;
+                        var10 = _closure2_slot1;
+                        var9 = _closure2_slot6;
+                        var8 = _closure2_slot2;
+                        var12 = var7;
+                        var2 = var12[var6](var11, var10, var9, var8, var7);
+                        return var1;
                     };
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    entity = function() {
-                        michal = _closure3_slot0;
-                        entity = michal.stop;
-                        entity = entity.bind(michal)();
-                        entity = undefined;
-                        return entity;
+                    var2 = var4.bind(var5)(var3, var2);
+                    var1 = function() {
+                        var2 = _closure3_slot0;
+                        var1 = var2.stop;
+                        var1 = var1.bind(var2)();
+                        var1 = undefined;
+                        return var1;
                     };
-                    return entity;
+                    return var1;
  107:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = tangon.bind(report)(entity, zuuluu);
-            entity = {};
-            tangon = report.useCallback;
-            zuuluu = new Array(2);
-            zuuluu[0] = golfie;
-            zuuluu[1] = oscard;
-            michal = function() {
-                entity = _closure2_slot5;
-                zuuluu = entity.current;
-                entity = zuuluu.stop;
-                entity = entity.bind(zuuluu)();
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 6;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                report = tangon.bind(entity)(zuuluu);
-                tangon = report.clearVideoStreamTimeout;
-                zuuluu = _closure2_slot6;
-                michal = _closure2_slot1;
-                michal = tangon.bind(report)(zuuluu, michal);
-                return entity;
+            var1 = var4.bind(var5)(var1, var3);
+            var1 = {};
+            var4 = var5.useCallback;
+            var3 = new Array(2);
+            var3[0] = var7;
+            var3[1] = var6;
+            var2 = function() {
+                var1 = _closure2_slot5;
+                var3 = var1.current;
+                var1 = var3.stop;
+                var1 = var1.bind(var3)();
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 6;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.clearVideoStreamTimeout;
+                var3 = _closure2_slot6;
+                var2 = _closure2_slot1;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            entity['onReady'] = michal;
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            var1['onReady'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

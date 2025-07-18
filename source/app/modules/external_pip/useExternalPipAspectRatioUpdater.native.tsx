@@ -1,115 +1,115 @@
 // app/modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = report;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: useExternalPipAspectRatioUpdater
-        report = argBar;
-        zuuluu = argBaz;
-        var _closure2_slot0 = report;
-        var _closure2_slot1 = zuuluu;
-        tangon = _closure1_slot2;
-        michal = tangon.useRef;
-        michal = michal.bind(tangon)(zuuluu);
-        var _closure2_slot2 = michal;
-        zuuluu = tangon.useInsertionEffect;
-        michal = function() {
-            michal = _closure2_slot2;
-            entity = _closure2_slot1;
-            michal['current'] = entity;
-            entity = undefined;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/external_pip/useExternalPipAspectRatioUpdater.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useExternalPipAspectRatioUpdater(arg1, arg2, arg3) {
+        var5 = arg2;
+        var3 = arg3;
+        var _closure2_slot0 = var5;
+        var _closure2_slot1 = var3;
+        var4 = _closure1_slot2;
+        var2 = var4.useRef;
+        var2 = var2.bind(var4)(var3);
+        var _closure2_slot2 = var2;
+        var3 = var4.useInsertionEffect;
+        var2 = function() {
+            var2 = _closure2_slot2;
+            var1 = _closure2_slot1;
+            var2['current'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.useEffect;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            zuuluu = _closure2_slot0;
-            tangon = zuuluu.getTargetDimensions;
-            michal = _closure2_slot2;
-            michal = michal.current;
-            michal = tangon.bind(zuuluu)(michal);
-            var _closure3_slot0 = michal;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            tangon = 1;
-            report = report[tangon];
-            tangon = undefined;
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.setPipAspectRatio;
-            tangon = michal.width;
-            michal = michal.height;
-            michal = report.bind(oscard)(tangon, michal);
-            michal = zuuluu.subscribeFromItem;
-            entity = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var2 = var3.bind(var4)(var2);
+        var3 = var4.useEffect;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var3 = _closure2_slot0;
+            var4 = var3.getTargetDimensions;
+            var2 = _closure2_slot2;
+            var2 = var2.current;
+            var2 = var4.bind(var3)(var2);
+            var _closure3_slot0 = var2;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 1;
+            var5 = var5[var4];
+            var4 = undefined;
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.setPipAspectRatio;
+            var4 = var2.width;
+            var2 = var2.height;
+            var2 = var5.bind(var6)(var4, var2);
+            var2 = var3.subscribeFromItem;
+            var1 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu.getTargetDimensions;
-                    entity = _closure2_slot2;
-                    entity = entity.current;
-                    entity = michal.bind(zuuluu)(entity);
-                    tangon = entity.width;
-                    zuuluu = entity.height;
-                    entity = _closure3_slot0;
-                    entity = entity.width;
-                    entity = tangon === entity;
-                    if(!entity) { _fun00002_ip = 69; continue _fun00001 }
+                    var3 = _closure2_slot0;
+                    var2 = var3.getTargetDimensions;
+                    var1 = _closure2_slot2;
+                    var1 = var1.current;
+                    var1 = var2.bind(var3)(var1);
+                    var4 = var1.width;
+                    var3 = var1.height;
+                    var1 = _closure3_slot0;
+                    var1 = var1.width;
+                    var1 = var4 === var1;
+                    if(!var1) { _fun0001_ip = 69; continue _fun0001 }
  56:
-                    report = _closure3_slot0;
-                    report = report.height;
-                    entity = zuuluu === report;
+                    var5 = _closure3_slot0;
+                    var5 = var5.height;
+                    var1 = var3 === var5;
  69:
-                    if(entity) { _fun00002_ip = 123; continue _fun00001 }
+                    if(var1) { _fun0001_ip = 123; continue _fun0001 }
  72:
-                    entity = {};
-                    entity['width'] = tangon;
-                    entity['height'] = zuuluu;
-                    _closure3_slot0 = entity;
-                    report = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    entity = 1;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = report.bind(entity)(michal);
-                    entity = michal.setPipAspectRatio;
-                    entity = entity.bind(michal)(tangon, zuuluu);
+                    var1 = {};
+                    var1['width'] = var4;
+                    var1['height'] = var3;
+                    _closure3_slot0 = var1;
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 1;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var5.bind(var1)(var2);
+                    var1 = var2.setPipAspectRatio;
+                    var1 = var1.bind(var2)(var4, var3);
  123:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = undefined;
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

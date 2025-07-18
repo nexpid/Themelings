@@ -1,357 +1,357 @@
 // app/utils/ProcessUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot6 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot6 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ProcessUtils;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: ProcessUtilsIOS
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ProcessUtils;
+    var2 = function(arg1) {
+        var4 = function ProcessUtilsIOS() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                oscard = this;
-                entity = _closure1_slot0;
-                tangon = _closure2_slot0;
-                report = undefined;
-                entity = entity.bind(report)(oscard, tangon);
-                entity = _closure1_slot3;
-                yankee = entity.bind(report)(tangon);
-                tangon = _closure1_slot2;
-                entity = _closure1_slot6;
-                entity = entity.bind(report)();
-                if(entity) { _fun00004_ip = 64; continue _fun00003 }
+                var6 = this;
+                var1 = _closure1_slot0;
+                var4 = _closure2_slot0;
+                var5 = undefined;
+                var1 = var1.bind(var5)(var6, var4);
+                var1 = _closure1_slot3;
+                var11 = var1.bind(var5)(var4);
+                var4 = _closure1_slot2;
+                var1 = _closure1_slot6;
+                var1 = var1.bind(var5)();
+                if(var1) { _fun0002_ip = 64; continue _fun0002 }
  51:
-                entity = yankee.apply;
-                entity = entity.bind(yankee)(oscard, report);
-                _fun00004_ip = 102; continue _fun00003;
+                var1 = var11.apply;
+                var1 = var1.bind(var11)(var6, var5);
+                _fun0002_ip = 102; continue _fun0002;
  64:
-                golfie = global;
-                offset = golfie.Reflect;
-                verify = offset.construct;
-                golfie = _closure1_slot3;
-                golfie = golfie.bind(report)(oscard);
-                option = golfie.constructor;
-                golfie = new Array(0);
-                entity = verify.bind(offset)(yankee, golfie, option);
+                var7 = global;
+                var10 = var7.Reflect;
+                var9 = var10.construct;
+                var7 = _closure1_slot3;
+                var7 = var7.bind(var5)(var6);
+                var8 = var7.constructor;
+                var7 = new Array(0);
+                var1 = var9.bind(var10)(var11, var7, var8);
  102:
-                entity = tangon.bind(report)(oscard, entity);
-                var _closure3_slot0 = entity;
-                tangon = _closure1_slot5;
-                golfie = null;
-                tangon = golfie == tangon;
-                oscard = undefined;
-                if(tangon) { _fun00004_ip = 137; continue _fun00003 }
+                var1 = var4.bind(var5)(var6, var1);
+                var _closure3_slot0 = var1;
+                var4 = _closure1_slot5;
+                var7 = null;
+                var4 = var7 == var4;
+                var6 = undefined;
+                if(var4) { _fun0002_ip = 137; continue _fun0002 }
  127:
-                zuuluu = _closure1_slot5;
-                oscard = zuuluu.SystemResourceManager;
+                var3 = _closure1_slot5;
+                var6 = var3.SystemResourceManager;
  137:
-                var _closure3_slot1 = oscard;
-                zuuluu = golfie == oscard;
-                if(zuuluu) { _fun00004_ip = 158; continue _fun00003 }
+                var _closure3_slot1 = var6;
+                var3 = var7 == var6;
+                if(var3) { _fun0002_ip = 158; continue _fun0002 }
  148:
-                tangon = oscard.getCpuCoreCount;
-                zuuluu = golfie == tangon;
+                var4 = var6.getCpuCoreCount;
+                var3 = var7 == var4;
  158:
-                if(zuuluu) { _fun00004_ip = 179; continue _fun00003 }
+                if(var3) { _fun0002_ip = 179; continue _fun0002 }
  161:
-                tangon = oscard.getCpuCoreCount;
-                zuuluu = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = argFoo;
-                    michal['cpuCoreCount'] = entity;
-                    entity = undefined;
-                    return entity;
+                var4 = var6.getCpuCoreCount;
+                var3 = function(arg1) {
+                    var2 = _closure3_slot0;
+                    var1 = arg1;
+                    var2['cpuCoreCount'] = var1;
+                    var1 = undefined;
+                    return var1;
                 };
-                zuuluu = tangon.bind(oscard)(zuuluu);
+                var3 = var4.bind(var6)(var3);
  179:
-                zuuluu = global;
-                tangon = zuuluu.setInterval;
-                zuuluu = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var3 = global;
+                var4 = var3.setInterval;
+                var3 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = _closure3_slot1;
-                        report = null;
-                        zuuluu = report == zuuluu;
-                        if(zuuluu) { _fun00006_ip = 32; continue _fun00005 }
+                        var3 = _closure3_slot1;
+                        var5 = null;
+                        var3 = var5 == var3;
+                        if(var3) { _fun0003_ip = 32; continue _fun0003 }
  18:
-                        tangon = _closure3_slot1;
-                        tangon = tangon.getCurrentCpuUsagePercent;
-                        zuuluu = report == tangon;
+                        var4 = _closure3_slot1;
+                        var4 = var4.getCurrentCpuUsagePercent;
+                        var3 = var5 == var4;
  32:
-                        if(zuuluu) { _fun00006_ip = 57; continue _fun00005 }
+                        if(var3) { _fun0003_ip = 57; continue _fun0003 }
  35:
-                        oscard = _closure3_slot1;
-                        tangon = oscard.getCurrentCpuUsagePercent;
-                        zuuluu = function(argFoo) {
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                        var6 = _closure3_slot1;
+                        var4 = var6.getCurrentCpuUsagePercent;
+                        var3 = function(arg1) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                tangon = argFoo;
-                                zuuluu = _closure3_slot0;
-                                entity = 0;
-                                report = tangon >= entity;
-                                entity = undefined;
-                                michal = undefined;
-                                if(!report) { _fun00008_ip = 26; continue _fun00007 }
+                                var4 = arg1;
+                                var3 = _closure3_slot0;
+                                var1 = 0;
+                                var5 = var4 >= var1;
+                                var1 = undefined;
+                                var2 = undefined;
+                                if(!var5) { _fun0004_ip = 26; continue _fun0004 }
  23:
-                                michal = tangon;
+                                var2 = var4;
  26:
-                                zuuluu['cpuPercentage'] = michal;
-                                return entity;
+                                var3['cpuPercentage'] = var2;
+                                return var1;
                             }
                         };
-                        zuuluu = tangon.bind(oscard)(zuuluu);
+                        var3 = var4.bind(var6)(var3);
  57:
-                        zuuluu = _closure3_slot1;
-                        zuuluu = report == zuuluu;
-                        if(zuuluu) { _fun00006_ip = 82; continue _fun00005 }
+                        var3 = _closure3_slot1;
+                        var3 = var5 == var3;
+                        if(var3) { _fun0003_ip = 82; continue _fun0003 }
  68:
-                        tangon = _closure3_slot1;
-                        tangon = tangon.getCumulativeCpuUsage;
-                        zuuluu = report == tangon;
+                        var4 = _closure3_slot1;
+                        var4 = var4.getCumulativeCpuUsage;
+                        var3 = var5 == var4;
  82:
-                        if(zuuluu) { _fun00006_ip = 107; continue _fun00005 }
+                        if(var3) { _fun0003_ip = 107; continue _fun0003 }
  85:
-                        oscard = _closure3_slot1;
-                        tangon = oscard.getCumulativeCpuUsage;
-                        zuuluu = function(argFoo) {
-                            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                        var6 = _closure3_slot1;
+                        var4 = var6.getCumulativeCpuUsage;
+                        var3 = function(arg1) {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                                zuuluu = argFoo;
-                                entity = 0;
-                                if(!(zuuluu >= entity)) { _fun00010_ip = 51; continue _fun00009 }
+                                var3 = arg1;
+                                var1 = 0;
+                                if(!(var3 >= var1)) { _fun0005_ip = 51; continue _fun0005 }
  9:
-                                michal = _closure3_slot0;
-                                entity = {};
-                                entity['usage'] = zuuluu;
-                                zuuluu = global;
-                                tangon = zuuluu.performance;
-                                zuuluu = tangon.now;
-                                zuuluu = zuuluu.bind(tangon)();
-                                entity['sampleTime'] = zuuluu;
-                                michal['cumulativeCpuUsage'] = entity;
+                                var2 = _closure3_slot0;
+                                var1 = {};
+                                var1['usage'] = var3;
+                                var3 = global;
+                                var4 = var3.performance;
+                                var3 = var4.now;
+                                var3 = var3.bind(var4)();
+                                var1['sampleTime'] = var3;
+                                var2['cumulativeCpuUsage'] = var1;
  51:
-                                entity = undefined;
-                                return entity;
+                                var1 = undefined;
+                                return var1;
                             }
                         };
-                        zuuluu = tangon.bind(oscard)(zuuluu);
+                        var3 = var4.bind(var6)(var3);
  107:
-                        zuuluu = _closure3_slot1;
-                        zuuluu = report == zuuluu;
-                        if(zuuluu) { _fun00006_ip = 132; continue _fun00005 }
+                        var3 = _closure3_slot1;
+                        var3 = var5 == var3;
+                        if(var3) { _fun0003_ip = 132; continue _fun0003 }
  118:
-                        tangon = _closure3_slot1;
-                        tangon = tangon.getCurrentMemoryUsageKb;
-                        zuuluu = report == tangon;
+                        var4 = _closure3_slot1;
+                        var4 = var4.getCurrentMemoryUsageKb;
+                        var3 = var5 == var4;
  132:
-                        if(zuuluu) { _fun00006_ip = 157; continue _fun00005 }
+                        if(var3) { _fun0003_ip = 157; continue _fun0003 }
  135:
-                        zuuluu = _closure3_slot1;
-                        michal = zuuluu.getCurrentMemoryUsageKb;
-                        entity = function(argFoo) {
-                            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                        var3 = _closure3_slot1;
+                        var2 = var3.getCurrentMemoryUsageKb;
+                        var1 = function(arg1) {
+                            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                                tangon = argFoo;
-                                zuuluu = _closure3_slot0;
-                                entity = 0;
-                                report = tangon >= entity;
-                                entity = undefined;
-                                michal = undefined;
-                                if(!report) { _fun00012_ip = 26; continue _fun00011 }
+                                var4 = arg1;
+                                var3 = _closure3_slot0;
+                                var1 = 0;
+                                var5 = var4 >= var1;
+                                var1 = undefined;
+                                var2 = undefined;
+                                if(!var5) { _fun0006_ip = 26; continue _fun0006 }
  23:
-                                michal = tangon;
+                                var2 = var4;
  26:
-                                zuuluu['memory'] = michal;
-                                return entity;
+                                var3['memory'] = var2;
+                                return var1;
                             }
                         };
-                        entity = michal.bind(zuuluu)(entity);
+                        var1 = var2.bind(var3)(var1);
  157:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                michal = 1000;
-                michal = tangon.bind(report)(zuuluu, michal);
-                return entity;
+                var2 = 1000;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot4;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot1;
-        report = {};
-        entity = 'getProcessUptime';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            entity = null;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot4;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var1 = 'getProcessUptime';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = null;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(8);
-        entity[0] = report;
-        report = {};
-        golfie = 'getCumulativeCPUUsage';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = this;
-            entity = entity.cumulativeCpuUsage;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(8);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getCumulativeCPUUsage';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var1 = var1.cumulativeCpuUsage;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getCurrentCPUUsagePercent';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = this;
-            entity = entity.cpuPercentage;
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getCurrentCPUUsagePercent';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var1 = var1.cpuPercentage;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'getCurrentMemoryUsageKB';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = this;
-            entity = entity.memory;
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'getCurrentMemoryUsageKB';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var1 = var1.memory;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'getMemoryUsageElectronProcessTypeDetails';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = null;
-            return entity;
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getMemoryUsageElectronProcessTypeDetails';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'getMemoryUsageDetails';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = {};
-            michal = this;
-            michal = michal.memory;
-            entity[0] = michal;
-            return entity;
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'getMemoryUsageDetails';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = {};
+            var2 = this;
+            var2 = var2.memory;
+            var1[0] = var2;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[5] = report;
-        report = {};
-        golfie = 'getMemoryUsageElectronRenderer';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = null;
-            return entity;
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'getMemoryUsageElectronRenderer';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[6] = report;
-        report = {};
-        golfie = 'getMemoryUsageElectronRendererUsedHeapSize';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = null;
-            return entity;
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
+        var7 = 'getMemoryUsageElectronRendererUsedHeapSize';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = null;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[7] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[7] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/ProcessUtils.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/ProcessUtils.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

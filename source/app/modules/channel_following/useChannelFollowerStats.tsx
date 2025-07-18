@@ -1,146 +1,146 @@
 // app/modules/channel_following/useChannelFollowerStats.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    golfie = 1;
-    verify = oscard[golfie];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(verify);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.Millis;
-    tangon = tangon.HOUR;
-    tangon = golfie * tangon;
-    var _closure1_slot6 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/channel_following/useChannelFollowerStats.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useChannelFollowerStats
-        golfie = argFoo;
-        var _closure2_slot0 = golfie;
-        oscard = _closure1_slot4;
-        tangon = oscard.useState;
-        michal = false;
-        report = tangon.bind(oscard)(michal);
-        tangon = _closure1_slot3;
-        option = undefined;
-        michal = 2;
-        report = tangon.bind(option)(report, michal);
-        michal = 0;
-        michal = report[michal];
-        var _closure2_slot1 = michal;
-        tangon = 1;
-        tangon = report[tangon];
-        var _closure2_slot2 = tangon;
-        report = _closure1_slot0;
-        verify = _closure1_slot2;
-        tangon = 4;
-        tangon = verify[tangon];
-        verify = report.bind(option)(tangon);
-        option = verify.useStateFromStores;
-        zuuluu = _closure1_slot5;
-        report = new Array(1);
-        report[0] = zuuluu;
-        tangon = new Array(1);
-        tangon[0] = golfie;
-        zuuluu = function() {
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.getFollowerStatsForChannel;
-            entity = _closure2_slot0;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var7 = 1;
+    var9 = var6[var7];
+    var4 = native4;
+    var4 = var4.bind(var1)(var9);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.Millis;
+    var4 = var4.HOUR;
+    var4 = var7 * var4;
+    var _closure1_slot6 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/channel_following/useChannelFollowerStats.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useChannelFollowerStats(arg1) {
+        var7 = arg1;
+        var _closure2_slot0 = var7;
+        var6 = _closure1_slot4;
+        var4 = var6.useState;
+        var2 = false;
+        var5 = var4.bind(var6)(var2);
+        var4 = _closure1_slot3;
+        var8 = undefined;
+        var2 = 2;
+        var5 = var4.bind(var8)(var5, var2);
+        var2 = 0;
+        var2 = var5[var2];
+        var _closure2_slot1 = var2;
+        var4 = 1;
+        var4 = var5[var4];
+        var _closure2_slot2 = var4;
+        var5 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var4 = 4;
+        var4 = var9[var4];
+        var9 = var5.bind(var8)(var4);
+        var8 = var9.useStateFromStores;
+        var3 = _closure1_slot5;
+        var5 = new Array(1);
+        var5[0] = var3;
+        var4 = new Array(1);
+        var4[0] = var7;
+        var3 = function() {
+            var3 = _closure1_slot5;
+            var2 = var3.getFollowerStatsForChannel;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        zuuluu = option.bind(verify)(report, zuuluu, tangon);
-        var _closure2_slot3 = zuuluu;
-        report = oscard.useEffect;
-        tangon = new Array(3);
-        tangon[0] = golfie;
-        tangon[1] = zuuluu;
-        tangon[2] = michal;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3 = var8.bind(var9)(var5, var3, var4);
+        var _closure2_slot3 = var3;
+        var5 = var6.useEffect;
+        var4 = new Array(3);
+        var4[0] = var7;
+        var4[1] = var3;
+        var4[2] = var2;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot3;
-                zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00002_ip = 55; continue _fun00001 }
+                var2 = _closure2_slot3;
+                var3 = null;
+                if(!(var3 != var2)) { _fun0001_ip = 55; continue _fun0001 }
  13:
-                michal = global;
-                tangon = michal.Date;
-                michal = tangon.now;
-                tangon = michal.bind(tangon)();
-                michal = _closure2_slot3;
-                michal = michal.lastFetched;
-                tangon = tangon - michal;
-                michal = _closure1_slot6;
-                if(!(tangon > michal)) { _fun00002_ip = 115; continue _fun00001 }
+                var2 = global;
+                var4 = var2.Date;
+                var2 = var4.now;
+                var4 = var2.bind(var4)();
+                var2 = _closure2_slot3;
+                var2 = var2.lastFetched;
+                var4 = var4 - var2;
+                var2 = _closure1_slot6;
+                if(!(var4 > var2)) { _fun0001_ip = 115; continue _fun0001 }
  55:
-                michal = _closure2_slot1;
-                if(michal) { _fun00002_ip = 115; continue _fun00001 }
+                var2 = _closure2_slot1;
+                if(var2) { _fun0001_ip = 115; continue _fun0001 }
  62:
-                tangon = _closure2_slot2;
-                report = undefined;
-                michal = true;
-                michal = tangon.bind(report)(michal);
-                tangon = _closure1_slot1;
-                oscard = _closure1_slot2;
-                michal = 5;
-                michal = oscard[michal];
-                report = tangon.bind(report)(michal);
-                tangon = report.fetchChannelFollowerStats;
-                michal = _closure2_slot0;
-                michal = tangon.bind(report)(michal);
-                _fun00002_ip = 146; continue _fun00001;
+                var4 = _closure2_slot2;
+                var5 = undefined;
+                var2 = true;
+                var2 = var4.bind(var5)(var2);
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 5;
+                var2 = var6[var2];
+                var5 = var4.bind(var5)(var2);
+                var4 = var5.fetchChannelFollowerStats;
+                var2 = _closure2_slot0;
+                var2 = var4.bind(var5)(var2);
+                _fun0001_ip = 146; continue _fun0001;
  115:
-                michal = _closure2_slot3;
-                michal = zuuluu != michal;
-                if(!michal) { _fun00002_ip = 130; continue _fun00001 }
+                var2 = _closure2_slot3;
+                var2 = var3 != var2;
+                if(!var2) { _fun0001_ip = 130; continue _fun0001 }
  126:
-                michal = _closure2_slot1;
+                var2 = _closure2_slot1;
  130:
-                if(!michal) { _fun00002_ip = 146; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 146; continue _fun0001 }
  133:
-                zuuluu = _closure2_slot2;
-                michal = undefined;
-                entity = false;
-                entity = zuuluu.bind(michal)(entity);
+                var3 = _closure2_slot2;
+                var2 = undefined;
+                var1 = false;
+                var1 = var3.bind(var2)(var1);
  146:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity = report.bind(oscard)(entity, tangon);
-        entity = new Array(2);
-        entity[0] = zuuluu;
-        entity[1] = michal;
-        return entity;
+        var1 = var5.bind(var6)(var1, var4);
+        var1 = new Array(2);
+        var1[0] = var3;
+        var1[1] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

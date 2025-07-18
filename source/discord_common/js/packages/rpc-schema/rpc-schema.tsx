@@ -1,86 +1,86 @@
 // discord_common/js/packages/rpc-schema/rpc-schema.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/rpc-schema/rpc-schema.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: createRPCCommand
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/rpc-schema/rpc-schema.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function createRPCCommand(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argBar;
-            report = entity.scope;
-            tangon = entity.handler;
-            zuuluu = undefined;
-            var _closure2_slot0 = zuuluu;
-            var _closure2_slot1 = zuuluu;
-            entity = {};
-            entity['scope'] = report;
-            entity['handler'] = tangon;
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            tangon = 0;
-            tangon = oscard[tangon];
-            tangon = report.bind(zuuluu)(tangon);
-            report = tangon.RPCCommandSchemas;
-            tangon = argFoo;
-            report = report[tangon];
-            tangon = null;
-            oscard = tangon == report;
-            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
+            var1 = arg2;
+            var5 = var1.scope;
+            var4 = var1.handler;
+            var3 = undefined;
+            var _closure2_slot0 = var3;
+            var _closure2_slot1 = var3;
+            var1 = {};
+            var1['scope'] = var5;
+            var1['handler'] = var4;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 0;
+            var4 = var6[var4];
+            var4 = var5.bind(var3)(var4);
+            var5 = var4.RPCCommandSchemas;
+            var4 = arg1;
+            var5 = var5[var4];
+            var4 = null;
+            var6 = var4 == var5;
+            if(var6) { _fun0001_ip = 89; continue _fun0001 }
  83:
-            zuuluu = report.request;
+            var3 = var5.request;
  89:
-            _closure2_slot0 = zuuluu;
-            _closure2_slot1 = tangon;
-            if(!(tangon != zuuluu)) { _fun00002_ip = 114; continue _fun00001 }
+            _closure2_slot0 = var3;
+            _closure2_slot1 = var4;
+            if(!(var4 != var3)) { _fun0001_ip = 114; continue _fun0001 }
  101:
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    oscard = argFoo;
-                    zuuluu = _closure2_slot1;
-                    michal = null;
-                    if(!(michal == zuuluu)) { _fun00004_ip = 76; continue _fun00003 }
+                    var6 = arg1;
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 == var3)) { _fun0002_ip = 76; continue _fun0002 }
  16:
-                    zuuluu = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    michal = 1;
-                    michal = tangon[michal];
-                    golfie = undefined;
-                    tangon = zuuluu.bind(golfie)(michal);
-                    zuuluu = tangon.joiReqObj;
-                    report = oscard.object;
-                    michal = _closure2_slot0;
-                    michal = michal.bind(golfie)(oscard);
-                    michal = report.bind(oscard)(michal);
-                    michal = zuuluu.bind(tangon)(michal);
-                    _closure2_slot1 = michal;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var2 = 1;
+                    var2 = var4[var2];
+                    var7 = undefined;
+                    var4 = var3.bind(var7)(var2);
+                    var3 = var4.joiReqObj;
+                    var5 = var6.object;
+                    var2 = _closure2_slot0;
+                    var2 = var2.bind(var7)(var6);
+                    var2 = var5.bind(var6)(var2);
+                    var2 = var3.bind(var4)(var2);
+                    _closure2_slot1 = var2;
  76:
-                    entity = _closure2_slot1;
-                    return entity;
+                    var1 = _closure2_slot1;
+                    return var1;
                 }
             };
-            entity['validation'] = michal;
+            var1['validation'] = var2;
  114:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['createRPCCommand'] = michal;
-    return entity;
+    var3['createRPCCommand'] = var2;
+    return var1;
 })();

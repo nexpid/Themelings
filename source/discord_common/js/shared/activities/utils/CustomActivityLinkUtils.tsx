@@ -1,84 +1,84 @@
 // discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    report = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(golfie)(zuuluu, entity, tangon);
-    golfie = 0;
-    report = oscard[golfie];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot0 = tangon;
-    tangon = {};
-    tangon['MANAGED'] = golfie;
-    report = 'MANAGED';
-    tangon[golfie] = report;
-    report = 1;
-    tangon['QUICK'] = report;
-    golfie = 'QUICK';
-    tangon[report] = golfie;
-    var _closure1_slot1 = tangon;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = '../discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['CustomLinkType'] = tangon;
-    michal = function(argFoo) { // Original name: decodeCustomActivityLink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var5 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var7)(var3, var1, var4);
+    var7 = 0;
+    var5 = var6[var7];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot0 = var4;
+    var4 = {};
+    var4['MANAGED'] = var7;
+    var5 = 'MANAGED';
+    var4[var7] = var5;
+    var5 = 1;
+    var4['QUICK'] = var5;
+    var7 = 'QUICK';
+    var4[var5] = var7;
+    var _closure1_slot1 = var4;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = '../discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['CustomLinkType'] = var4;
+    var2 = function decodeCustomActivityLink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            if(!(entity != report)) { _fun00002_ip = 133; continue _fun00001 }
+            var5 = arg1;
+            var1 = null;
+            if(!(var1 != var5)) { _fun0001_ip = 133; continue _fun0001 }
  12:
-            zuuluu = report.split;
-            michal = '-';
-            golfie = zuuluu.bind(report)(michal);
-            oscard = _closure1_slot0;
-            tangon = undefined;
-            zuuluu = 2;
-            tangon = oscard.bind(tangon)(golfie, zuuluu);
-            zuuluu = 0;
-            golfie = tangon[zuuluu];
-            zuuluu = 1;
-            tangon = tangon[zuuluu];
-            zuuluu = '0';
-            if(!(zuuluu !== golfie)) { _fun00002_ip = 91; continue _fun00001 }
+            var3 = var5.split;
+            var2 = '-';
+            var7 = var3.bind(var5)(var2);
+            var6 = _closure1_slot0;
+            var4 = undefined;
+            var3 = 2;
+            var4 = var6.bind(var4)(var7, var3);
+            var3 = 0;
+            var7 = var4[var3];
+            var3 = 1;
+            var4 = var4[var3];
+            var3 = '0';
+            if(!(var3 !== var7)) { _fun0001_ip = 91; continue _fun0001 }
  67:
-            zuuluu = '1';
-            oscard = null;
-            if(!(zuuluu === golfie)) { _fun00002_ip = 101; continue _fun00001 }
+            var3 = '1';
+            var6 = null;
+            if(!(var3 === var7)) { _fun0001_ip = 101; continue _fun0001 }
  79:
-            zuuluu = _closure1_slot1;
-            oscard = zuuluu.QUICK;
-            _fun00002_ip = 101; continue _fun00001;
+            var3 = _closure1_slot1;
+            var6 = var3.QUICK;
+            _fun0001_ip = 101; continue _fun0001;
  91:
-            michal = _closure1_slot1;
-            oscard = michal.MANAGED;
+            var2 = _closure1_slot1;
+            var6 = var2.MANAGED;
  101:
-            zuuluu = entity == oscard;
-            michal = null;
-            if(zuuluu) { _fun00002_ip = 131; continue _fun00001 }
+            var3 = var1 == var6;
+            var2 = null;
+            if(var3) { _fun0001_ip = 131; continue _fun0001 }
  110:
-            zuuluu = {};
-            zuuluu['type'] = oscard;
-            zuuluu['encodedLinkId'] = report;
-            zuuluu['decodedLinkId'] = tangon;
-            michal = zuuluu;
+            var3 = {};
+            var3['type'] = var6;
+            var3['encodedLinkId'] = var5;
+            var3['decodedLinkId'] = var4;
+            var2 = var3;
  131:
-            return michal;
+            return var2;
  133:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['decodeCustomActivityLink'] = michal;
-    return entity;
+    var3['decodeCustomActivityLink'] = var2;
+    return var1;
 })();

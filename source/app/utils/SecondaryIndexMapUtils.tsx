@@ -1,107 +1,107 @@
 // app/utils/SecondaryIndexMapUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'utils/SecondaryIndexMapUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: isVersionEqual
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'utils/SecondaryIndexMapUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function isVersionEqual(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = report[Symbol.iterator];
-            report = michal().next;
-            romeon = undefined;
-            zuuluu = undefined;
-            tangon = undefined;
-            oscard = report().value;
-            verify = michal;
-            verify = verify === romeon;
-            zuuluu = verify;
-            if(verify) { _fun00002_ip = 32; continue _fun00001 }
+            var5 = arg1;
+            var2 = var5[Symbol.iterator];
+            var5 = var2().next;
+            var12 = undefined;
+            var3 = undefined;
+            var4 = undefined;
+            var6 = var5().value;
+            var9 = var2;
+            var9 = var9 === var12;
+            var3 = var9;
+            if(var9) { _fun0001_ip = 32; continue _fun0001 }
  29:
-            tangon = oscard;
+            var4 = var6;
  32:
-            tangon = undefined;
-            oscard = zuuluu;
-            if(oscard) { _fun00002_ip = 60; continue _fun00001 }
+            var4 = undefined;
+            var6 = var3;
+            if(var6) { _fun0001_ip = 60; continue _fun0001 }
  40:
-            report = report().value;
-            oscard = michal;
-            oscard = oscard === romeon;
-            zuuluu = oscard;
-            if(oscard) { _fun00002_ip = 60; continue _fun00001 }
+            var5 = var5().value;
+            var6 = var2;
+            var6 = var6 === var12;
+            var3 = var6;
+            if(var6) { _fun0001_ip = 60; continue _fun0001 }
  57:
-            tangon = report;
+            var4 = var5;
  60:
-            option = tangon;
-            tangon = zuuluu;
-            if(tangon) { _fun00002_ip = 72; continue _fun00001 }
+            var8 = var4;
+            var4 = var3;
+            if(var4) { _fun0001_ip = 72; continue _fun0001 }
  69:
-            michal.return();
+            var2.return();
  72:
-            offset = argBar;
-            report = offset[Symbol.iterator];
-            offset = report().next;
-            oscard = undefined;
-            verify = undefined;
-            yankee = offset().value;
-            foxtra = report;
-            foxtra = foxtra === romeon;
-            oscard = foxtra;
-            if(foxtra) { _fun00002_ip = 102; continue _fun00001 }
+            var10 = arg2;
+            var5 = var10[Symbol.iterator];
+            var10 = var5().next;
+            var6 = undefined;
+            var9 = undefined;
+            var11 = var10().value;
+            var13 = var5;
+            var13 = var13 === var12;
+            var6 = var13;
+            if(var13) { _fun0001_ip = 102; continue _fun0001 }
  99:
-            verify = yankee;
+            var9 = var11;
  102:
-            verify = undefined;
-            yankee = oscard;
-            if(yankee) { _fun00002_ip = 130; continue _fun00001 }
+            var9 = undefined;
+            var11 = var6;
+            if(var11) { _fun0001_ip = 130; continue _fun0001 }
  110:
-            offset = offset().value;
-            yankee = report;
-            yankee = yankee === romeon;
-            oscard = yankee;
-            if(yankee) { _fun00002_ip = 130; continue _fun00001 }
+            var10 = var10().value;
+            var11 = var5;
+            var11 = var11 === var12;
+            var6 = var11;
+            if(var11) { _fun0001_ip = 130; continue _fun0001 }
  127:
-            verify = offset;
+            var9 = var10;
  130:
-            golfie = verify;
-            verify = oscard;
-            if(verify) { _fun00002_ip = 142; continue _fun00001 }
+            var7 = var9;
+            var9 = var6;
+            if(var9) { _fun0001_ip = 142; continue _fun0001 }
  139:
-            report.return();
+            var5.return();
  142:
-            golfie = option === golfie;
-            return golfie;
+            var7 = var8 === var7;
+            return var7;
  148:
             CatchBlockStart(arg_register=3);
-            if(oscard) { _fun00002_ip = 156; continue _fun00001 }
+            if(var6) { _fun0001_ip = 156; continue _fun0001 }
  153:
-            report.return();
+            var5.return();
  156:
-            throw tangon;
+            throw var4;
  158:
             CatchBlockStart(arg_register=0);
-            if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
+            if(var3) { _fun0001_ip = 166; continue _fun0001 }
  163:
-            michal.return();
+            var2.return();
  166:
-            throw entity;
+            throw var1;
         }
     };
-    zuuluu['isVersionEqual'] = michal;
-    return entity;
+    var3['isVersionEqual'] = var2;
+    return var1;
 })();

@@ -1,88 +1,88 @@
 // app/utils/ErrorCommonUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/ErrorCommonUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getUpdatedOptions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/ErrorCommonUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getUpdatedOptions(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = {};
-            romeon = entity;
-            yankee = tangon;
-            michal = copyDataProperties(romeon, yankee);
-            zuuluu = {};
-            golfie = null;
-            report = golfie == tangon;
-            oscard = undefined;
-            michal = undefined;
-            if(report) { _fun00002_ip = 36; continue _fun00001 }
+            var4 = arg1;
+            var1 = {};
+            var12 = var1;
+            var11 = var4;
+            var2 = copyDataProperties(var12, var11);
+            var3 = {};
+            var7 = null;
+            var5 = var7 == var4;
+            var6 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0001_ip = 36; continue _fun0001 }
  30:
-            michal = tangon.extra;
+            var2 = var4.extra;
  36:
-            romeon = zuuluu;
-            yankee = michal;
-            michal = copyDataProperties(romeon, yankee);
-            michal = {};
-            option = _closure1_slot1;
-            report = _closure1_slot2;
-            offset = 0;
-            report = report[offset];
-            report = option.bind(oscard)(report);
-            report = report._currentDispatchActionType;
-            if(!(golfie == report)) { _fun00002_ip = 84; continue _fun00001 }
+            var12 = var3;
+            var11 = var2;
+            var2 = copyDataProperties(var12, var11);
+            var2 = {};
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var10 = 0;
+            var5 = var5[var10];
+            var5 = var8.bind(var6)(var5);
+            var5 = var5._currentDispatchActionType;
+            if(!(var7 == var5)) { _fun0001_ip = 84; continue _fun0001 }
  80:
-            report = {};
-            _fun00002_ip = 119; continue _fun00001;
+            var5 = {};
+            _fun0001_ip = 119; continue _fun0001;
  84:
-            golfie = {};
-            verify = _closure1_slot1;
-            option = _closure1_slot2;
-            option = option[offset];
-            option = verify.bind(oscard)(option);
-            option = option._currentDispatchActionType;
-            golfie['currentAction'] = option;
-            report = golfie;
+            var7 = {};
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var10];
+            var8 = var9.bind(var6)(var8);
+            var8 = var8._currentDispatchActionType;
+            var7['currentAction'] = var8;
+            var5 = var7;
  119:
-            romeon = michal;
-            yankee = report;
-            report = copyDataProperties(romeon, yankee);
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 1;
-            tangon = golfie[tangon];
-            report = report.bind(oscard)(tangon);
-            tangon = report.serialize;
-            report = tangon.bind(report)();
-            tangon = 'lastFewActions';
-            michal[tangon] = report;
-            romeon = zuuluu;
-            yankee = michal;
-            michal = copyDataProperties(romeon, yankee);
-            michal = 'extra';
-            entity[michal] = zuuluu;
-            return entity;
+            var12 = var2;
+            var11 = var5;
+            var5 = copyDataProperties(var12, var11);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 1;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.serialize;
+            var5 = var4.bind(var5)();
+            var4 = 'lastFewActions';
+            var2[var4] = var5;
+            var12 = var3;
+            var11 = var2;
+            var2 = copyDataProperties(var12, var11);
+            var2 = 'extra';
+            var1[var2] = var3;
+            return var1;
         }
     };
-    zuuluu['getUpdatedOptions'] = michal;
-    return entity;
+    var3['getUpdatedOptions'] = var2;
+    return var1;
 })();

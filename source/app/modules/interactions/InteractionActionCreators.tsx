@@ -1,194 +1,194 @@
 // app/modules/interactions/InteractionActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _fetchMessageInteractionData
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchMessageInteractionData() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
-                    golfie = argBar;
+                    var8 = arg1;
+                    var7 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 178; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 178; continue _fun0001 }
  16:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 3;
-                    michal = report[michal];
-                    oscard = undefined;
-                    michal = zuuluu.bind(oscard)(michal);
-                    report = michal.HTTP;
-                    zuuluu = report.get;
-                    michal = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    offset = _closure1_slot4;
-                    verify = offset.MESSAGE_INTERACTION_DATA;
-                    verify = verify.bind(offset)(option, golfie);
-                    michal['url'] = verify;
-                    michal = zuuluu.bind(report)(michal);
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var5[var2];
+                    var6 = undefined;
+                    var2 = var3.bind(var6)(var2);
+                    var5 = var2.HTTP;
+                    var3 = var5.get;
+                    var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+                    var10 = _closure1_slot4;
+                    var9 = var10.MESSAGE_INTERACTION_DATA;
+                    var9 = var9.bind(var10)(var8, var7);
+                    var2['url'] = var9;
+                    var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=92);
  90:
-                    return michal;
+                    return var2;
  92:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 175; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 175; continue _fun0001 }
  98:
-                    zuuluu = michal.ok;
-                    if(zuuluu) { _fun00002_ip = 112; continue _fun00001 }
+                    var3 = var2.ok;
+                    if(var3) { _fun0001_ip = 112; continue _fun0001 }
  107:
-                    zuuluu = null;
-                    return zuuluu;
+                    var3 = null;
+                    return var3;
  112:
-                    zuuluu = michal.body;
-                    report = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    tangon = 2;
-                    tangon = verify[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    verify = 'LOAD_MESSAGE_INTERACTION_DATA_SUCCESS';
-                    tangon['type'] = verify;
-                    tangon['channelId'] = option;
-                    tangon['messageId'] = golfie;
-                    tangon['interactionData'] = zuuluu;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var3 = var2.body;
+                    var5 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var4 = 2;
+                    var4 = var9[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var9 = 'LOAD_MESSAGE_INTERACTION_DATA_SUCCESS';
+                    var4['type'] = var9;
+                    var4['channelId'] = var8;
+                    var4['messageId'] = var7;
+                    var4['interactionData'] = var3;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  175:
-                    return michal;
+                    return var2;
  178:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interactions/InteractionActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: queueInteractionComponentState
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'QUEUE_INTERACTION_COMPONENT_STATE';
-        michal['type'] = report;
-        report = argFoo;
-        michal['messageId'] = report;
-        report = argBar;
-        michal['nonce'] = report;
-        report = argBaz;
-        michal['state'] = report;
-        report = argCor;
-        michal['componentId'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interactions/InteractionActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function queueInteractionComponentState(arg1, arg2, arg3, arg4) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'QUEUE_INTERACTION_COMPONENT_STATE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['messageId'] = var5;
+        var5 = arg2;
+        var2['nonce'] = var5;
+        var5 = arg3;
+        var2['state'] = var5;
+        var5 = arg4;
+        var2['componentId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['queueInteractionComponentState'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: addQueued
-        entity = argBar;
-        verify = entity.data;
-        option = entity.messageId;
-        golfie = entity.onCreate;
-        oscard = entity.onSuccess;
-        report = entity.onFailure;
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        offset = 'INTERACTION_QUEUE';
-        michal['type'] = offset;
-        michal['data'] = verify;
-        verify = argFoo;
-        michal['nonce'] = verify;
-        michal['messageId'] = option;
-        michal['onCreate'] = golfie;
-        michal['onSuccess'] = oscard;
-        michal['onFailure'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['queueInteractionComponentState'] = var4;
+    var4 = function addQueued(arg1, arg2) {
+        var1 = arg2;
+        var9 = var1.data;
+        var8 = var1.messageId;
+        var7 = var1.onCreate;
+        var6 = var1.onSuccess;
+        var5 = var1.onFailure;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var10 = 'INTERACTION_QUEUE';
+        var2['type'] = var10;
+        var2['data'] = var9;
+        var9 = arg1;
+        var2['nonce'] = var9;
+        var2['messageId'] = var8;
+        var2['onCreate'] = var7;
+        var2['onSuccess'] = var6;
+        var2['onFailure'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['addQueued'] = tangon;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: setFailed
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'INTERACTION_FAILURE';
-        michal['type'] = report;
-        report = argFoo;
-        michal['nonce'] = report;
-        report = argBaz;
-        michal['errorMessage'] = report;
-        report = argBar;
-        michal['errorCode'] = report;
-        report = argCor;
-        michal['status'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['addQueued'] = var4;
+    var4 = function setFailed(arg1, arg2, arg3, arg4) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'INTERACTION_FAILURE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['nonce'] = var5;
+        var5 = arg3;
+        var2['errorMessage'] = var5;
+        var5 = arg2;
+        var2['errorCode'] = var5;
+        var5 = arg4;
+        var2['status'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setFailed'] = tangon;
-    michal = function() { // Original name: fetchMessageInteractionData
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['setFailed'] = var4;
+    var2 = function fetchMessageInteractionData() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchMessageInteractionData'] = michal;
-    return entity;
+    var3['fetchMessageInteractionData'] = var2;
+    return var1;
 })();

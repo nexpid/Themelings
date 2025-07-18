@@ -1,78 +1,78 @@
 // app/modules/emoji_picker/hooks/useEmojiHotrail.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    michal = function(argFoo) { // Original name: getEmojiHotrail
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var2 = function getEmojiHotrail(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.topEmojis;
-            tangon = entity.newlyAddedEmojis;
-            michal = entity.rowSize;
-            entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 34; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.topEmojis;
+            var4 = var1.newlyAddedEmojis;
+            var2 = var1.rowSize;
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0001_ip = 34; continue _fun0001 }
  27:
-            michal = _closure1_slot1;
+            var2 = _closure1_slot1;
  34:
-            zuuluu = report.slice;
-            entity = tangon.length;
-            michal = michal - entity;
-            entity = 0;
-            zuuluu = zuuluu.bind(report)(entity, michal);
-            entity = {};
-            entity['visibleTopEmojis'] = zuuluu;
-            entity['visibleNewlyAddedEmojis'] = tangon;
-            michal = zuuluu.concat;
-            michal = michal.bind(zuuluu)(tangon);
-            entity['allEmojis'] = michal;
-            return entity;
+            var3 = var5.slice;
+            var1 = var4.length;
+            var2 = var2 - var1;
+            var1 = 0;
+            var3 = var3.bind(var5)(var1, var2);
+            var1 = {};
+            var1['visibleTopEmojis'] = var3;
+            var1['visibleNewlyAddedEmojis'] = var4;
+            var2 = var3.concat;
+            var2 = var2.bind(var3)(var4);
+            var1['allEmojis'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot2 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot0 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.EMOJI_ROW_SIZE;
-    var _closure1_slot1 = report;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/emoji_picker/hooks/useEmojiHotrail.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useEmojiHotrail
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            zuuluu = _closure1_slot2;
-            michal = _closure2_slot0;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot2 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot0 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.EMOJI_ROW_SIZE;
+    var _closure1_slot1 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/emoji_picker/hooks/useEmojiHotrail.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useEmojiHotrail(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot0;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var3 = _closure1_slot2;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getEmojiHotrail'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getEmojiHotrail'] = var2;
+    return var1;
 })();

@@ -1,135 +1,135 @@
 // app/utils/GameUtils.native.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    zuuluu = argFre;
-    michal = global;
-    oscard = michal.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    michal = true;
-    tangon['value'] = michal;
-    michal = '__esModule';
-    michal = report.bind(oscard)(zuuluu, michal, tangon);
-    michal = {};
-    tangon = function() { // Original name: waitSubscribed
-        entity = global;
-        michal = entity.Promise;
-        entity = michal.resolve;
-        entity = entity.bind(michal)();
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var2 = global;
+    var6 = var2.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var2 = true;
+    var4['value'] = var2;
+    var2 = '__esModule';
+    var2 = var5.bind(var6)(var3, var2, var4);
+    var2 = {};
+    var4 = function waitSubscribed() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['waitSubscribed'] = tangon;
-    tangon = function() { // Original name: waitConnected
-        entity = global;
-        michal = entity.Promise;
-        entity = michal.resolve;
-        entity = entity.bind(michal)();
-        return entity;
+    var2['waitSubscribed'] = var4;
+    var4 = function waitConnected() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['waitConnected'] = tangon;
-    tangon = function() { // Original name: isLaunchable
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.resolve;
-        entity = false;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['waitConnected'] = var4;
+    var4 = function isLaunchable() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['isLaunchable'] = tangon;
-    tangon = function() { // Original name: launch
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.reject;
-        report = entity.Error;
-        entity = report.prototype;
-        tangon = Object.create(entity, {constructor: {value: report}});
-        oscard = 'not supported';
-        golfie = tangon;
-        entity = new golfie[report](oscard, report);
-        entity = entity instanceof Object ? entity : tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['isLaunchable'] = var4;
+    var4 = function launch() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.reject;
+        var5 = var1.Error;
+        var1 = var5.prototype;
+        var4 = Object.create(var1, {constructor: {value: var5}});
+        var6 = 'not supported';
+        var7 = var4;
+        var1 = new var7[var5](var6, var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['launch'] = tangon;
-    tangon = function() { // Original name: launchDispatchApplication
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.reject;
-        report = entity.Error;
-        entity = report.prototype;
-        tangon = Object.create(entity, {constructor: {value: report}});
-        oscard = 'not supported';
-        golfie = tangon;
-        entity = new golfie[report](oscard, report);
-        entity = entity instanceof Object ? entity : tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['launch'] = var4;
+    var4 = function launchDispatchApplication() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.reject;
+        var5 = var1.Error;
+        var1 = var5.prototype;
+        var4 = Object.create(var1, {constructor: {value: var5}});
+        var6 = 'not supported';
+        var7 = var4;
+        var1 = new var7[var5](var6, var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['launchDispatchApplication'] = tangon;
-    tangon = function() { // Original name: removeShortcuts
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.resolve;
-        entity = false;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['launchDispatchApplication'] = var4;
+    var4 = function removeShortcuts() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['removeShortcuts'] = tangon;
-    tangon = function() { // Original name: createShortcuts
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.resolve;
-        entity = false;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['removeShortcuts'] = var4;
+    var4 = function createShortcuts() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['createShortcuts'] = tangon;
-    tangon = function() { // Original name: isGameLaunchable
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.resolve;
-        entity = false;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['createShortcuts'] = var4;
+    var4 = function isGameLaunchable() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['isGameLaunchable'] = tangon;
-    tangon = function() { // Original name: launchGame
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.reject;
-        report = entity.Error;
-        entity = report.prototype;
-        tangon = Object.create(entity, {constructor: {value: report}});
-        oscard = 'not supported';
-        golfie = tangon;
-        entity = new golfie[report](oscard, report);
-        entity = entity instanceof Object ? entity : tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['isGameLaunchable'] = var4;
+    var4 = function launchGame() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.reject;
+        var5 = var1.Error;
+        var1 = var5.prototype;
+        var4 = Object.create(var1, {constructor: {value: var5}});
+        var6 = 'not supported';
+        var7 = var4;
+        var1 = new var7[var5](var6, var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['launchGame'] = tangon;
-    tangon = function() { // Original name: isProtocolRegistered
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.resolve;
-        entity = false;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['launchGame'] = var4;
+    var4 = function isProtocolRegistered() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.resolve;
+        var1 = false;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['isProtocolRegistered'] = tangon;
-    entity = function() { // Original name: setRecentGames
-        entity = undefined;
-        return entity;
+    var2['isProtocolRegistered'] = var4;
+    var1 = function setRecentGames() {
+        var1 = undefined;
+        return var1;
     };
-    michal['setRecentGames'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/GameUtils.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['setRecentGames'] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/GameUtils.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

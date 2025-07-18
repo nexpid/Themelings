@@ -1,150 +1,150 @@
 // app/modules/video_calls/native/VoiceActionUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = function() { // Original name: NOOP
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = function NOOP() {
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    tangon = {};
-    golfie = 0;
-    tangon['SERVER_MUTE'] = golfie;
-    entity = 'SERVER_MUTE';
-    tangon[golfie] = entity;
-    entity = 1;
-    tangon['SUPPRESS'] = entity;
-    golfie = 'SUPPRESS';
-    tangon[entity] = golfie;
-    option = 2;
-    tangon['SELF_MUTE'] = option;
-    golfie = 'SELF_MUTE';
-    tangon[option] = golfie;
-    option = 3;
-    tangon['NONE'] = option;
-    golfie = 'NONE';
-    tangon[option] = golfie;
-    var _closure1_slot2 = tangon;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/video_calls/native/VoiceActionUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['DominantMuteState'] = tangon;
-    tangon = function(argFoo) { // Original name: createMuteHandler
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var4 = {};
+    var7 = 0;
+    var4['SERVER_MUTE'] = var7;
+    var1 = 'SERVER_MUTE';
+    var4[var7] = var1;
+    var1 = 1;
+    var4['SUPPRESS'] = var1;
+    var7 = 'SUPPRESS';
+    var4[var1] = var7;
+    var8 = 2;
+    var4['SELF_MUTE'] = var8;
+    var7 = 'SELF_MUTE';
+    var4[var8] = var7;
+    var8 = 3;
+    var4['NONE'] = var8;
+    var7 = 'NONE';
+    var4[var8] = var7;
+    var _closure1_slot2 = var4;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/video_calls/native/VoiceActionUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['DominantMuteState'] = var4;
+    var4 = function createMuteHandler(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = arguments[1];
-            golfie = undefined;
-            if(!(entity === golfie)) { _fun00002_ip = 14; continue _fun00001 }
+            var5 = arg1;
+            var1 = arguments[1];
+            var7 = undefined;
+            if(!(var1 === var7)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            entity = false;
+            var1 = false;
  14:
-            michal = _closure1_slot2;
-            michal = michal.NONE;
-            zuuluu = report.selfMute;
-            if(!zuuluu) { _fun00002_ip = 46; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.NONE;
+            var3 = var5.selfMute;
+            if(!var3) { _fun0001_ip = 46; continue _fun0001 }
  36:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.SELF_MUTE;
+            var3 = _closure1_slot2;
+            var2 = var3.SELF_MUTE;
  46:
-            if(entity) { _fun00002_ip = 76; continue _fun00001 }
+            if(var1) { _fun0001_ip = 76; continue _fun0001 }
  49:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            entity = oscard[entity];
-            entity = zuuluu.bind(golfie)(entity);
-            zuuluu = entity.handleToggleSelfMute;
-            _fun00002_ip = 80; continue _fun00001;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var1 = var6[var1];
+            var1 = var3.bind(var7)(var1);
+            var3 = var1.handleToggleSelfMute;
+            _fun0001_ip = 80; continue _fun0001;
  76:
-            zuuluu = _closure1_slot3;
+            var3 = _closure1_slot3;
  80:
-            entity = report.suppress;
-            if(!entity) { _fun00002_ip = 124; continue _fun00001 }
+            var1 = var5.suppress;
+            if(!var1) { _fun0001_ip = 124; continue _fun0001 }
  89:
-            oscard = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 0;
-            entity = option[entity];
-            entity = oscard.bind(golfie)(entity);
-            zuuluu = entity.showSuppressedAlert;
-            oscard = _closure1_slot2;
-            michal = oscard.SUPPRESS;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 0;
+            var1 = var8[var1];
+            var1 = var6.bind(var7)(var1);
+            var3 = var1.showSuppressedAlert;
+            var6 = _closure1_slot2;
+            var2 = var6.SUPPRESS;
  124:
-            entity = report.mute;
-            if(!entity) { _fun00002_ip = 168; continue _fun00001 }
+            var1 = var5.mute;
+            if(!var1) { _fun0001_ip = 168; continue _fun0001 }
  133:
-            oscard = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 0;
-            entity = option[entity];
-            entity = oscard.bind(golfie)(entity);
-            zuuluu = entity.showServerMuteAlert;
-            tangon = _closure1_slot2;
-            michal = tangon.SERVER_MUTE;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 0;
+            var1 = var8[var1];
+            var1 = var6.bind(var7)(var1);
+            var3 = var1.showServerMuteAlert;
+            var4 = _closure1_slot2;
+            var2 = var4.SERVER_MUTE;
  168:
-            entity = {};
-            tangon = report.selfMute;
-            if(tangon) { _fun00002_ip = 185; continue _fun00001 }
+            var1 = {};
+            var4 = var5.selfMute;
+            if(var4) { _fun0001_ip = 185; continue _fun0001 }
  179:
-            tangon = report.mute;
+            var4 = var5.mute;
  185:
-            if(tangon) { _fun00002_ip = 194; continue _fun00001 }
+            if(var4) { _fun0001_ip = 194; continue _fun0001 }
  188:
-            tangon = report.suppress;
+            var4 = var5.suppress;
  194:
-            entity['mute'] = tangon;
-            entity['onPress'] = zuuluu;
-            entity['dominantMuteState'] = michal;
-            return entity;
+            var1['mute'] = var4;
+            var1['onPress'] = var3;
+            var1['dominantMuteState'] = var2;
+            return var1;
         }
     };
-    zuuluu['createMuteHandler'] = tangon;
-    michal = function(argFoo) { // Original name: createDeafHandler
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['createMuteHandler'] = var4;
+    var2 = function createDeafHandler(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            oscard = 0;
-            michal = michal[oscard];
-            report = undefined;
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.handleToggleSelfDeaf;
-            zuuluu = tangon.deaf;
-            if(!zuuluu) { _fun00004_ip = 65; continue _fun00003 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 0;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.handleToggleSelfDeaf;
+            var3 = var4.deaf;
+            if(!var3) { _fun0002_ip = 65; continue _fun0002 }
  42:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            entity = zuuluu.bind(report)(entity);
-            michal = entity.showServerDeafenAlert;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var6];
+            var1 = var3.bind(var5)(var1);
+            var2 = var1.showServerDeafenAlert;
  65:
-            entity = {};
-            zuuluu = tangon.selfDeaf;
-            if(zuuluu) { _fun00004_ip = 82; continue _fun00003 }
+            var1 = {};
+            var3 = var4.selfDeaf;
+            if(var3) { _fun0002_ip = 82; continue _fun0002 }
  76:
-            zuuluu = tangon.deaf;
+            var3 = var4.deaf;
  82:
-            entity['deaf'] = zuuluu;
-            entity['onPress'] = michal;
-            return entity;
+            var1['deaf'] = var3;
+            var1['onPress'] = var2;
+            return var1;
         }
     };
-    zuuluu['createDeafHandler'] = michal;
-    return entity;
+    var3['createDeafHandler'] = var2;
+    return var1;
 })();

@@ -1,306 +1,306 @@
 // app/modules/premium/powerups/utils/storeListingToGuildPowerup.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.DEFAULT_SOUND_SLOTS;
-    var _closure1_slot0 = golfie;
-    tangon = tangon.DEFAULT_STICKER_SLOTS;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildPowerupType;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DEFAULT_EMOJI_SLOTS;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/powerups/utils/storeListingToGuildPowerup.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: storeListingToGuildPowerup
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.DEFAULT_SOUND_SLOTS;
+    var _closure1_slot0 = var7;
+    var4 = var4.DEFAULT_STICKER_SLOTS;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildPowerupType;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DEFAULT_EMOJI_SLOTS;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/powerups/utils/storeListingToGuildPowerup.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function storeListingToGuildPowerup(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            output = argFoo;
-            michal = argBar;
-            zuuluu = michal.powerup_metadata;
-            sizing = null;
-            tangon = sizing == zuuluu;
-            entity = undefined;
-            oscard = undefined;
-            if(tangon) { _fun00002_ip = 35; continue _fun00001 }
+            var17 = arg1;
+            var2 = arg2;
+            var3 = var2.powerup_metadata;
+            var16 = null;
+            var4 = var16 == var3;
+            var1 = undefined;
+            var6 = undefined;
+            if(var4) { _fun0001_ip = 35; continue _fun0001 }
  27:
-            oscard = zuuluu.category_type;
+            var6 = var3.category_type;
  35:
-            if(!(sizing != oscard)) { _fun00002_ip = 252; continue _fun00001 }
+            if(!(var16 != var6)) { _fun0001_ip = 252; continue _fun0001 }
  42:
-            zuuluu = michal.sku;
-            report = sizing == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 63; continue _fun00001 }
+            var3 = var2.sku;
+            var5 = var16 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 63; continue _fun0001 }
  57:
-            tangon = zuuluu.powerup_metadata;
+            var4 = var3.powerup_metadata;
  63:
-            if(!(sizing != tangon)) { _fun00002_ip = 252; continue _fun00001 }
+            if(!(var16 != var4)) { _fun0001_ip = 252; continue _fun0001 }
  70:
-            zuuluu = {};
-            report = michal.summary;
-            zuuluu['title'] = report;
-            report = michal.sku;
-            report = report.id;
-            zuuluu['skuId'] = report;
-            tangon = tangon.boost_price;
-            zuuluu['cost'] = tangon;
-            tangon = michal.sku;
-            tangon = tangon.dependent_sku_id;
-            if(!(sizing == tangon)) { _fun00002_ip = 133; continue _fun00001 }
+            var3 = {};
+            var5 = var2.summary;
+            var3['title'] = var5;
+            var5 = var2.sku;
+            var5 = var5.id;
+            var3['skuId'] = var5;
+            var4 = var4.boost_price;
+            var3['cost'] = var4;
+            var4 = var2.sku;
+            var4 = var4.dependent_sku_id;
+            if(!(var16 == var4)) { _fun0001_ip = 133; continue _fun0001 }
  127:
-            tangon = new Array(0);
-            _fun00002_ip = 156; continue _fun00001;
+            var4 = new Array(0);
+            _fun0001_ip = 156; continue _fun0001;
  133:
-            report = michal.sku;
-            golfie = report.dependent_sku_id;
-            report = new Array(1);
-            report[0] = golfie;
-            tangon = report;
+            var5 = var2.sku;
+            var7 = var5.dependent_sku_id;
+            var5 = new Array(1);
+            var5[0] = var7;
+            var4 = var5;
  156:
-            zuuluu['dependencies'] = tangon;
-            report = michal.powerup_metadata;
-            golfie = sizing == report;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 184; continue _fun00001 }
+            var3['dependencies'] = var4;
+            var5 = var2.powerup_metadata;
+            var7 = var16 == var5;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 184; continue _fun0001 }
  176:
-            tangon = report.animated_image_url;
+            var4 = var5.animated_image_url;
  184:
-            zuuluu['animatedImageUrl'] = tangon;
-            report = michal.powerup_metadata;
-            golfie = sizing == report;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 214; continue _fun00001 }
+            var3['animatedImageUrl'] = var4;
+            var5 = var2.powerup_metadata;
+            var7 = var16 == var5;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 214; continue _fun0001 }
  206:
-            tangon = report.static_image_url;
+            var4 = var5.static_image_url;
  214:
-            zuuluu['staticImageUrl'] = tangon;
-            report = _closure1_slot2;
-            report = report.LEVEL;
-            if(!(report !== oscard)) { _fun00002_ip = 305; continue _fun00001 }
+            var3['staticImageUrl'] = var4;
+            var5 = _closure1_slot2;
+            var5 = var5.LEVEL;
+            if(!(var5 !== var6)) { _fun0001_ip = 305; continue _fun0001 }
  238:
-            report = _closure1_slot2;
-            report = report.PERK;
-            if(!(report !== oscard)) { _fun00002_ip = 254; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var5 = var5.PERK;
+            if(!(var5 !== var6)) { _fun0001_ip = 254; continue _fun0001 }
  252:
-            return entity;
+            return var1;
  254:
-            report = {};
-            oscard = _closure1_slot2;
-            oscard = oscard.PERK;
-            report['type'] = oscard;
-            golfie = michal.description;
-            option = sizing != golfie;
-            oscard = '';
-            if(!option) { _fun00002_ip = 289; continue _fun00001 }
+            var5 = {};
+            var6 = _closure1_slot2;
+            var6 = var6.PERK;
+            var5['type'] = var6;
+            var7 = var2.description;
+            var8 = var16 != var7;
+            var6 = '';
+            if(!var8) { _fun0001_ip = 289; continue _fun0001 }
  286:
-            oscard = golfie;
+            var6 = var7;
  289:
-            report['description'] = oscard;
-            config = report;
-            sequen = zuuluu;
-            oscard = copyDataProperties(config, sequen);
-            return report;
+            var5['description'] = var6;
+            var25 = var5;
+            var24 = var3;
+            var6 = copyDataProperties(var25, var24);
+            return var5;
  305:
-            report = michal.sku;
-            oscard = report.powerup_metadata;
-            golfie = sizing == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 332; continue _fun00001 }
+            var5 = var2.sku;
+            var6 = var5.powerup_metadata;
+            var7 = var16 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 332; continue _fun0001 }
  326:
-            report = oscard.guild_features;
+            var5 = var6.guild_features;
  332:
-            if(!(sizing != report)) { _fun00002_ip = 825; continue _fun00001 }
+            if(!(var16 != var5)) { _fun0001_ip = 825; continue _fun0001 }
  339:
-            golfie = _closure1_slot3;
-            oscard = report.additional_emoji_slots;
-            backup = golfie + oscard;
-            golfie = _closure1_slot0;
-            oscard = report.additional_sound_slots;
-            foxtra = golfie + oscard;
-            verify = _closure1_slot1;
-            oscard = report.additional_sticker_slots;
-            romeon = verify + oscard;
-            michal = michal.sku;
-            michal = michal.dependent_sku_id;
-            var _closure2_slot0 = michal;
-            michal = sizing != michal;
-            yankee = undefined;
-            offset = undefined;
-            verify = undefined;
-            option = backup;
-            golfie = foxtra;
-            oscard = romeon;
-            if(!michal) { _fun00002_ip = 753; continue _fun00001 }
+            var7 = _closure1_slot3;
+            var6 = var5.additional_emoji_slots;
+            var14 = var7 + var6;
+            var7 = _closure1_slot0;
+            var6 = var5.additional_sound_slots;
+            var13 = var7 + var6;
+            var9 = _closure1_slot1;
+            var6 = var5.additional_sticker_slots;
+            var12 = var9 + var6;
+            var2 = var2.sku;
+            var2 = var2.dependent_sku_id;
+            var _closure2_slot0 = var2;
+            var2 = var16 != var2;
+            var11 = undefined;
+            var10 = undefined;
+            var9 = undefined;
+            var8 = var14;
+            var7 = var13;
+            var6 = var12;
+            if(!var2) { _fun0001_ip = 753; continue _fun0001 }
  422:
-            echoed = output.find;
-            michal = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = entity.sku;
-                entity = entity.id;
-                entity = michal === entity;
-                return entity;
+            var19 = var17.find;
+            var2 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1.sku;
+                var1 = var1.id;
+                var1 = var2 === var1;
+                return var1;
             };
-            ctrled = echoed.bind(output)(michal);
-            michal = sizing == ctrled;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 511; continue _fun00001 }
+            var22 = var19.bind(var17)(var2);
+            var2 = var16 == var22;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 511; continue _fun0001 }
  448:
-            michal = ctrled.sku;
-            update = sizing == michal;
-            yankee = michal;
-            echoed = undefined;
-            if(update) { _fun00002_ip = 511; continue _fun00001 }
+            var2 = var22.sku;
+            var20 = var16 == var2;
+            var11 = var2;
+            var19 = undefined;
+            if(var20) { _fun0001_ip = 511; continue _fun0001 }
  466:
-            michal = michal.powerup_metadata;
-            update = sizing == michal;
-            yankee = michal;
-            echoed = undefined;
-            if(update) { _fun00002_ip = 511; continue _fun00001 }
+            var2 = var2.powerup_metadata;
+            var20 = var16 == var2;
+            var11 = var2;
+            var19 = undefined;
+            if(var20) { _fun0001_ip = 511; continue _fun0001 }
  484:
-            update = michal.guild_features;
-            michal = sizing == update;
-            yankee = update;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 511; continue _fun00001 }
+            var20 = var2.guild_features;
+            var2 = var16 == var20;
+            var11 = var20;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 511; continue _fun0001 }
  502:
-            echoed = update.additional_emoji_slots;
-            yankee = update;
+            var19 = var20.additional_emoji_slots;
+            var11 = var20;
  511:
-            update = sizing != echoed;
-            michal = 0;
-            if(!update) { _fun00002_ip = 523; continue _fun00001 }
+            var20 = var16 != var19;
+            var2 = 0;
+            if(!var20) { _fun0001_ip = 523; continue _fun0001 }
  520:
-            michal = echoed;
+            var2 = var19;
  523:
-            source = backup + michal;
-            michal = sizing == ctrled;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 599; continue _fun00001 }
+            var21 = var14 + var2;
+            var2 = var16 == var22;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 599; continue _fun0001 }
  536:
-            michal = ctrled.sku;
-            update = sizing == michal;
-            offset = michal;
-            echoed = undefined;
-            if(update) { _fun00002_ip = 599; continue _fun00001 }
+            var2 = var22.sku;
+            var20 = var16 == var2;
+            var10 = var2;
+            var19 = undefined;
+            if(var20) { _fun0001_ip = 599; continue _fun0001 }
  554:
-            michal = michal.powerup_metadata;
-            update = sizing == michal;
-            offset = michal;
-            echoed = undefined;
-            if(update) { _fun00002_ip = 599; continue _fun00001 }
+            var2 = var2.powerup_metadata;
+            var20 = var16 == var2;
+            var10 = var2;
+            var19 = undefined;
+            if(var20) { _fun0001_ip = 599; continue _fun0001 }
  572:
-            update = michal.guild_features;
-            michal = sizing == update;
-            offset = update;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 599; continue _fun00001 }
+            var20 = var2.guild_features;
+            var2 = var16 == var20;
+            var10 = var20;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 599; continue _fun0001 }
  590:
-            echoed = update.additional_sound_slots;
-            offset = update;
+            var19 = var20.additional_sound_slots;
+            var10 = var20;
  599:
-            update = sizing != echoed;
-            michal = 0;
-            if(!update) { _fun00002_ip = 611; continue _fun00001 }
+            var20 = var16 != var19;
+            var2 = 0;
+            if(!var20) { _fun0001_ip = 611; continue _fun0001 }
  608:
-            michal = echoed;
+            var2 = var19;
  611:
-            update = foxtra + michal;
-            michal = sizing == ctrled;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 687; continue _fun00001 }
+            var20 = var13 + var2;
+            var2 = var16 == var22;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 687; continue _fun0001 }
  624:
-            michal = ctrled.sku;
-            vacuum = sizing == michal;
-            verify = michal;
-            echoed = undefined;
-            if(vacuum) { _fun00002_ip = 687; continue _fun00001 }
+            var2 = var22.sku;
+            var23 = var16 == var2;
+            var9 = var2;
+            var19 = undefined;
+            if(var23) { _fun0001_ip = 687; continue _fun0001 }
  642:
-            michal = michal.powerup_metadata;
-            vacuum = sizing == michal;
-            verify = michal;
-            echoed = undefined;
-            if(vacuum) { _fun00002_ip = 687; continue _fun00001 }
+            var2 = var2.powerup_metadata;
+            var23 = var16 == var2;
+            var9 = var2;
+            var19 = undefined;
+            if(var23) { _fun0001_ip = 687; continue _fun0001 }
  660:
-            vacuum = michal.guild_features;
-            michal = sizing == vacuum;
-            verify = vacuum;
-            echoed = undefined;
-            if(michal) { _fun00002_ip = 687; continue _fun00001 }
+            var23 = var2.guild_features;
+            var2 = var16 == var23;
+            var9 = var23;
+            var19 = undefined;
+            if(var2) { _fun0001_ip = 687; continue _fun0001 }
  678:
-            echoed = vacuum.additional_sticker_slots;
-            verify = vacuum;
+            var19 = var23.additional_sticker_slots;
+            var9 = var23;
  687:
-            vacuum = sizing != echoed;
-            michal = 0;
-            if(!vacuum) { _fun00002_ip = 699; continue _fun00001 }
+            var23 = var16 != var19;
+            var2 = 0;
+            if(!var23) { _fun0001_ip = 699; continue _fun0001 }
  696:
-            michal = echoed;
+            var2 = var19;
  699:
-            echoed = romeon + michal;
-            vacuum = sizing == ctrled;
-            michal = undefined;
-            if(vacuum) { _fun00002_ip = 724; continue _fun00001 }
+            var19 = var12 + var2;
+            var23 = var16 == var22;
+            var2 = undefined;
+            if(var23) { _fun0001_ip = 724; continue _fun0001 }
  712:
-            ctrled = ctrled.sku;
-            michal = ctrled.dependent_sku_id;
+            var22 = var22.sku;
+            var2 = var22.dependent_sku_id;
  724:
-            _closure2_slot0 = michal;
-            backup = source;
-            foxtra = update;
-            romeon = echoed;
-            option = backup;
-            golfie = foxtra;
-            oscard = romeon;
-            if(sizing != michal) { _fun00002_ip = 422; continue _fun00001 }
+            _closure2_slot0 = var2;
+            var14 = var21;
+            var13 = var20;
+            var12 = var19;
+            var8 = var14;
+            var7 = var13;
+            var6 = var12;
+            if(var16 != var2) { _fun0001_ip = 422; continue _fun0001 }
  753:
-            michal = {};
-            tangon = _closure1_slot2;
-            tangon = tangon.LEVEL;
-            michal['type'] = tangon;
-            tangon = {};
-            config = tangon;
-            sequen = report;
-            report = copyDataProperties(config, sequen);
-            report = 'total_emoji_slots';
-            tangon[report] = option;
-            report = 'total_sound_slots';
-            tangon[report] = golfie;
-            report = 'total_sticker_slots';
-            tangon[report] = oscard;
-            michal['features'] = tangon;
-            config = michal;
-            sequen = zuuluu;
-            zuuluu = copyDataProperties(config, sequen);
-            return michal;
+            var2 = {};
+            var4 = _closure1_slot2;
+            var4 = var4.LEVEL;
+            var2['type'] = var4;
+            var4 = {};
+            var25 = var4;
+            var24 = var5;
+            var5 = copyDataProperties(var25, var24);
+            var5 = 'total_emoji_slots';
+            var4[var5] = var8;
+            var5 = 'total_sound_slots';
+            var4[var5] = var7;
+            var5 = 'total_sticker_slots';
+            var4[var5] = var6;
+            var2['features'] = var4;
+            var25 = var2;
+            var24 = var3;
+            var3 = copyDataProperties(var25, var24);
+            return var2;
  825:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

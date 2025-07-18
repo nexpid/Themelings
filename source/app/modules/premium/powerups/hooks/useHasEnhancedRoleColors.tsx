@@ -1,253 +1,253 @@
 // app/modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useHasEnhancedRoleColors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useHasEnhancedRoleColors(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            oscard = argBar;
-            var _closure2_slot0 = golfie;
-            option = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = tangon[zuuluu];
-            report = undefined;
-            verify = option.bind(report)(zuuluu);
-            option = verify.useStateFromStores;
-            offset = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = offset;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var7 = arg1;
+            var6 = arg2;
+            var _closure2_slot0 = var7;
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 2;
+            var3 = var4[var3];
+            var5 = undefined;
+            var9 = var8.bind(var5)(var3);
+            var8 = var9.useStateFromStores;
+            var10 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getGuild;
-                    entity = _closure2_slot0;
-                    zuuluu = zuuluu.bind(tangon)(entity);
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00004_ip = 59; continue _fun00003 }
+                    var4 = _closure1_slot3;
+                    var3 = var4.getGuild;
+                    var1 = _closure2_slot0;
+                    var3 = var3.bind(var4)(var1);
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0002_ip = 59; continue _fun0002 }
  33:
-                    tangon = zuuluu.features;
-                    zuuluu = tangon.has;
-                    michal = _closure1_slot4;
-                    michal = michal.ENHANCED_ROLE_COLORS;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = var3.features;
+                    var3 = var4.has;
+                    var2 = _closure1_slot4;
+                    var2 = var2.ENHANCED_ROLE_COLORS;
+                    var1 = var3.bind(var4)(var2);
  59:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = option.bind(verify)(zuuluu, entity);
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(report)(michal);
-            michal = null;
-            option = michal != golfie;
-            zuuluu = undefined;
-            if(!option) { _fun00002_ip = 95; continue _fun00001 }
+            var1 = var8.bind(var9)(var3, var1);
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var2 = var4[var2];
+            var4 = var3.bind(var5)(var2);
+            var2 = null;
+            var8 = var2 != var7;
+            var3 = undefined;
+            if(!var8) { _fun0001_ip = 95; continue _fun0001 }
  92:
-            zuuluu = golfie;
+            var3 = var7;
  95:
-            golfie = michal != oscard;
-            michal = undefined;
-            if(!golfie) { _fun00002_ip = 107; continue _fun00001 }
+            var7 = var2 != var6;
+            var2 = undefined;
+            if(!var7) { _fun0001_ip = 107; continue _fun0001 }
  104:
-            michal = oscard;
+            var2 = var6;
  107:
-            michal = tangon.bind(report)(zuuluu, michal);
-            if(entity) { _fun00002_ip = 119; continue _fun00001 }
+            var2 = var4.bind(var5)(var3, var2);
+            if(var1) { _fun0001_ip = 119; continue _fun0001 }
  116:
-            entity = michal;
+            var1 = var2;
  119:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getHasEnhancedRoleColors
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var4;
+    var4 = function getHasEnhancedRoleColors(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            oscard = argBar;
-            golfie = null;
-            if(!(golfie != report)) { _fun00006_ip = 114; continue _fun00005 }
+            var5 = arg1;
+            var6 = arg2;
+            var7 = null;
+            if(!(var7 != var5)) { _fun0003_ip = 114; continue _fun0003 }
  12:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getGuild;
-            zuuluu = entity.bind(zuuluu)(report);
-            entity = golfie != zuuluu;
-            if(!entity) { _fun00006_ip = 62; continue _fun00005 }
+            var3 = _closure1_slot3;
+            var1 = var3.getGuild;
+            var3 = var1.bind(var3)(var5);
+            var1 = var7 != var3;
+            if(!var1) { _fun0003_ip = 62; continue _fun0003 }
  36:
-            option = zuuluu.features;
-            tangon = option.has;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.ENHANCED_ROLE_COLORS;
-            entity = tangon.bind(option)(zuuluu);
+            var8 = var3.features;
+            var4 = var8.has;
+            var3 = _closure1_slot4;
+            var3 = var3.ENHANCED_ROLE_COLORS;
+            var1 = var4.bind(var8)(var3);
  62:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
-            zuuluu = tangon.getIsUserServerBoosterForGuild;
-            golfie = golfie != oscard;
-            if(!golfie) { _fun00006_ip = 100; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.getIsUserServerBoosterForGuild;
+            var7 = var7 != var6;
+            if(!var7) { _fun0003_ip = 100; continue _fun0003 }
  97:
-            michal = oscard;
+            var2 = var6;
  100:
-            michal = zuuluu.bind(tangon)(report, michal);
-            if(entity) { _fun00006_ip = 112; continue _fun00005 }
+            var2 = var3.bind(var4)(var5, var2);
+            if(var1) { _fun0003_ip = 112; continue _fun0003 }
  109:
-            entity = michal;
+            var1 = var2;
  112:
-            return entity;
+            return var1;
  114:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['getHasEnhancedRoleColors'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: useHasEnhancedRoleColorsForRole
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getHasEnhancedRoleColors'] = var4;
+    var4 = function useHasEnhancedRoleColorsForRole(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            option = argFoo;
-            report = argBar;
-            var _closure2_slot0 = option;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = undefined;
-            offset = tangon.bind(oscard)(michal);
-            verify = offset.useStateFromStores;
-            yankee = _closure1_slot3;
-            michal = new Array(1);
-            michal[0] = yankee;
-            entity = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var8 = arg1;
+            var5 = arg2;
+            var _closure2_slot0 = var8;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = undefined;
+            var10 = var4.bind(var6)(var2);
+            var9 = var10.useStateFromStores;
+            var11 = _closure1_slot3;
+            var2 = new Array(1);
+            var2[0] = var11;
+            var1 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getGuild;
-                    entity = _closure2_slot0;
-                    zuuluu = zuuluu.bind(tangon)(entity);
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00010_ip = 59; continue _fun00009 }
+                    var4 = _closure1_slot3;
+                    var3 = var4.getGuild;
+                    var1 = _closure2_slot0;
+                    var3 = var3.bind(var4)(var1);
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0005_ip = 59; continue _fun0005 }
  33:
-                    tangon = zuuluu.features;
-                    zuuluu = tangon.has;
-                    michal = _closure1_slot4;
-                    michal = michal.ENHANCED_ROLE_COLORS;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = var3.features;
+                    var3 = var4.has;
+                    var2 = _closure1_slot4;
+                    var2 = var2.ENHANCED_ROLE_COLORS;
+                    var1 = var3.bind(var4)(var2);
  59:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = verify.bind(offset)(michal, entity);
-            michal = 4;
-            michal = golfie[michal];
-            golfie = tangon.bind(oscard)(michal);
-            tangon = golfie.useBoosterEnhancedRoleColors;
-            michal = 'useHasEnhancedRoleColorsForRole';
-            michal = tangon.bind(golfie)(option, michal);
-            if(!michal) { _fun00008_ip = 102; continue _fun00007 }
+            var1 = var9.bind(var10)(var2, var1);
+            var2 = 4;
+            var2 = var7[var2];
+            var7 = var4.bind(var6)(var2);
+            var4 = var7.useBoosterEnhancedRoleColors;
+            var2 = 'useHasEnhancedRoleColorsForRole';
+            var2 = var4.bind(var7)(var8, var2);
+            if(!var2) { _fun0004_ip = 102; continue _fun0004 }
  96:
-            tangon = null;
-            michal = tangon != report;
+            var4 = null;
+            var2 = var4 != var5;
  102:
-            if(!michal) { _fun00008_ip = 136; continue _fun00007 }
+            if(!var2) { _fun0004_ip = 136; continue _fun0004 }
  105:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.getIsRoleServerBooster;
-            michal = zuuluu.bind(tangon)(report);
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 3;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.getIsRoleServerBooster;
+            var2 = var3.bind(var4)(var5);
  136:
-            if(entity) { _fun00008_ip = 142; continue _fun00007 }
+            if(var1) { _fun0004_ip = 142; continue _fun0004 }
  139:
-            entity = michal;
+            var1 = var2;
  142:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useHasEnhancedRoleColorsForRole'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getHasEnhancedRoleColorsForRole
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['useHasEnhancedRoleColorsForRole'] = var4;
+    var2 = function getHasEnhancedRoleColorsForRole(arg1, arg2) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            golfie = argFoo;
-            michal = _closure1_slot3;
-            entity = michal.getGuild;
-            michal = entity.bind(michal)(golfie);
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00012_ip = 55; continue _fun00011 }
+            var7 = arg1;
+            var2 = _closure1_slot3;
+            var1 = var2.getGuild;
+            var2 = var1.bind(var2)(var7);
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0006_ip = 55; continue _fun0006 }
  29:
-            report = michal.features;
-            tangon = report.has;
-            michal = _closure1_slot4;
-            michal = michal.ENHANCED_ROLE_COLORS;
-            entity = tangon.bind(report)(michal);
+            var5 = var2.features;
+            var4 = var5.has;
+            var2 = _closure1_slot4;
+            var2 = var2.ENHANCED_ROLE_COLORS;
+            var1 = var4.bind(var5)(var2);
  55:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 4;
-            michal = report[michal];
-            report = undefined;
-            oscard = tangon.bind(report)(michal);
-            tangon = oscard.getBoosterEnhancedRoleColors;
-            michal = 'getHasEnhancedRoleColorsForRole';
-            michal = tangon.bind(oscard)(golfie, michal);
-            if(!michal) { _fun00012_ip = 130; continue _fun00011 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var5 = undefined;
+            var6 = var4.bind(var5)(var2);
+            var4 = var6.getBoosterEnhancedRoleColors;
+            var2 = 'getHasEnhancedRoleColorsForRole';
+            var2 = var4.bind(var6)(var7, var2);
+            if(!var2) { _fun0006_ip = 130; continue _fun0006 }
  96:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = oscard[zuuluu];
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.getIsRoleServerBooster;
-            zuuluu = argBar;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 3;
+            var3 = var6[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.getIsRoleServerBooster;
+            var3 = arg2;
+            var2 = var4.bind(var5)(var3);
  130:
-            if(entity) { _fun00012_ip = 136; continue _fun00011 }
+            if(var1) { _fun0006_ip = 136; continue _fun0006 }
  133:
-            entity = michal;
+            var1 = var2;
  136:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getHasEnhancedRoleColorsForRole'] = michal;
-    return entity;
+    var3['getHasEnhancedRoleColorsForRole'] = var2;
+    return var1;
 })();

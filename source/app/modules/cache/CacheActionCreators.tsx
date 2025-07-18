@@ -1,150 +1,150 @@
 // app/modules/cache/CacheActionCreators.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _writeCaches
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = function _writeCaches() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    golfie = arguments[0];
+                    var7 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 171; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 171; continue _fun0001 }
  13:
-                    report = undefined;
-                    if(!(golfie === report)) { _fun00002_ip = 21; continue _fun00001 }
+                    var5 = undefined;
+                    if(!(var7 === var5)) { _fun0001_ip = 21; continue _fun0001 }
  19:
-                    golfie = false;
+                    var7 = false;
  21:
                     SaveGenerator(address=25);
  23:
-                    return report;
+                    return var5;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 168; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 168; continue _fun0001 }
  34:
-                    oscard = _closure1_slot4;
-                    zuuluu = oscard.canWriteCaches;
-                    zuuluu = zuuluu.bind(oscard)(golfie);
-                    if(!zuuluu) { _fun00002_ip = 159; continue _fun00001 }
+                    var6 = _closure1_slot4;
+                    var3 = var6.canWriteCaches;
+                    var3 = var3.bind(var6)(var7);
+                    if(!var3) { _fun0001_ip = 159; continue _fun0001 }
  57:
-                    oscard = _closure1_slot3;
-                    zuuluu = oscard.loadAllMissingChannels;
-                    zuuluu = zuuluu.bind(oscard)();
+                    var6 = _closure1_slot3;
+                    var3 = var6.loadAllMissingChannels;
+                    var3 = var3.bind(var6)();
                     SaveGenerator(address=75);
  73:
-                    return zuuluu;
+                    return var3;
  75:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 165; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 165; continue _fun0001 }
  81:
-                    golfie = new Array(0);
-                    oscard = _closure1_slot0;
-                    option = _closure1_slot1;
-                    tangon = 3;
-                    tangon = option[tangon];
-                    option = oscard.bind(report)(tangon);
-                    oscard = option.dispatch;
-                    tangon = {};
-                    verify = 'WRITE_CACHES';
-                    tangon['type'] = verify;
-                    tangon['promisesToWaitOn'] = golfie;
-                    tangon = oscard.bind(option)(tangon);
-                    tangon = global;
-                    oscard = tangon.Promise;
-                    tangon = oscard.all;
-                    tangon = tangon.bind(oscard)(golfie);
+                    var7 = new Array(0);
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var4 = 3;
+                    var4 = var8[var4];
+                    var8 = var6.bind(var5)(var4);
+                    var6 = var8.dispatch;
+                    var4 = {};
+                    var9 = 'WRITE_CACHES';
+                    var4['type'] = var9;
+                    var4['promisesToWaitOn'] = var7;
+                    var4 = var6.bind(var8)(var4);
+                    var4 = global;
+                    var6 = var4.Promise;
+                    var4 = var6.all;
+                    var4 = var4.bind(var6)(var7);
                     SaveGenerator(address=153);
  151:
-                    return tangon;
+                    return var4;
  153:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 162; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 162; continue _fun0001 }
  159:
-                    return report;
+                    return var5;
  162:
-                    return tangon;
+                    return var4;
  165:
-                    return zuuluu;
+                    return var3;
  168:
-                    return michal;
+                    return var2;
  171:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ChannelLoader;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/cache/CacheActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: writeCaches
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ChannelLoader;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/cache/CacheActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function writeCaches() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['writeCaches'] = tangon;
-    michal = function() { // Original name: clearCaches
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {'type': 'CLEAR_CACHES', 'reason': 'Requested by user', 'preventWritingCachesAgainThisSession': true, 'resetSocket': true};
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['writeCaches'] = var4;
+    var2 = function clearCaches() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {'type': 'CLEAR_CACHES', 'reason': 'Requested by user', 'preventWritingCachesAgainThisSession': true, 'resetSocket': true};
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['clearCaches'] = michal;
-    return entity;
+    var3['clearCaches'] = var2;
+    return var1;
 })();

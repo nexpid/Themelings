@@ -1,368 +1,368 @@
 // app/modules/connections/ConnectionsRoleActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _putRoleConnectionsConfigurations
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _putRoleConnectionsConfigurations() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    offset = argFoo;
-                    option = argBar;
-                    report = argBaz;
+                    var10 = arg1;
+                    var8 = arg2;
+                    var5 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 326; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 326; continue _fun0001 }
  21:
-                    tangon = report.map;
-                    zuuluu = function(argFoo) {
-                        zuuluu = argFoo;
-                        michal = zuuluu.map;
-                        entity = function(argFoo) {
-                            michal = argFoo;
-                            entity = {};
-                            zuuluu = michal.connectionType;
-                            entity['connection_type'] = zuuluu;
-                            zuuluu = michal.connectionMetadataField;
-                            entity['connection_metadata_field'] = zuuluu;
-                            zuuluu = michal.applicationId;
-                            entity['application_id'] = zuuluu;
-                            zuuluu = michal.operator;
-                            entity['operator'] = zuuluu;
-                            michal = michal.value;
-                            entity['value'] = michal;
-                            return entity;
+                    var4 = var5.map;
+                    var3 = function(arg1) {
+                        var3 = arg1;
+                        var2 = var3.map;
+                        var1 = function(arg1) {
+                            var2 = arg1;
+                            var1 = {};
+                            var3 = var2.connectionType;
+                            var1['connection_type'] = var3;
+                            var3 = var2.connectionMetadataField;
+                            var1['connection_metadata_field'] = var3;
+                            var3 = var2.applicationId;
+                            var1['application_id'] = var3;
+                            var3 = var2.operator;
+                            var1['operator'] = var3;
+                            var2 = var2.value;
+                            var1['value'] = var2;
+                            return var1;
                         };
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    golfie = tangon.bind(report)(zuuluu);
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 2;
-                    zuuluu = tangon[zuuluu];
-                    tangon = undefined;
-                    zuuluu = oscard.bind(tangon)(zuuluu);
-                    verify = zuuluu.HTTP;
-                    oscard = verify.put;
-                    zuuluu = {};
-                    romeon = _closure1_slot4;
-                    yankee = romeon.GUILD_ROLE_CONNECTIONS_CONFIGURATION;
-                    yankee = yankee.bind(romeon)(offset, option);
-                    zuuluu['url'] = yankee;
-                    romeon = golfie.length;
-                    yankee = 0;
-                    if(!(yankee === romeon)) { _fun00002_ip = 111; continue _fun00001 }
+                    var7 = var4.bind(var5)(var3);
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 2;
+                    var3 = var4[var3];
+                    var4 = undefined;
+                    var3 = var6.bind(var4)(var3);
+                    var9 = var3.HTTP;
+                    var6 = var9.put;
+                    var3 = {};
+                    var12 = _closure1_slot4;
+                    var11 = var12.GUILD_ROLE_CONNECTIONS_CONFIGURATION;
+                    var11 = var11.bind(var12)(var10, var8);
+                    var3['url'] = var11;
+                    var12 = var7.length;
+                    var11 = 0;
+                    if(!(var11 === var12)) { _fun0001_ip = 111; continue _fun0001 }
  107:
-                    golfie = new Array(0);
+                    var7 = new Array(0);
  111:
-                    zuuluu['body'] = golfie;
-                    golfie = true;
-                    zuuluu['oldFormErrors'] = golfie;
-                    golfie = false;
-                    zuuluu['rejectWithError'] = golfie;
-                    oscard = oscard.bind(verify)(zuuluu);
-                    zuuluu = oscard.then;
-                    michal = function(argFoo) {
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var3['body'] = var7;
+                    var7 = true;
+                    var3['oldFormErrors'] = var7;
+                    var7 = false;
+                    var3['rejectWithError'] = var7;
+                    var6 = var6.bind(var9)(var3);
+                    var3 = var6.then;
+                    var2 = function(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            michal = argFoo;
-                            entity = new Array(0);
-                            zuuluu = michal.body;
-                            tangon = zuuluu.length;
-                            zuuluu = 0;
-                            if(!(tangon > zuuluu)) { _fun00004_ip = 47; continue _fun00003 }
+                            var2 = arg1;
+                            var1 = new Array(0);
+                            var3 = var2.body;
+                            var4 = var3.length;
+                            var3 = 0;
+                            if(!(var4 > var3)) { _fun0002_ip = 47; continue _fun0002 }
  23:
-                            tangon = michal.body;
-                            zuuluu = tangon.map;
-                            michal = function(argFoo) {
-                                zuuluu = argFoo;
-                                michal = zuuluu.map;
-                                entity = function(argFoo) {
-                                    michal = argFoo;
-                                    entity = {};
-                                    zuuluu = michal.connection_type;
-                                    entity['connectionType'] = zuuluu;
-                                    zuuluu = michal.connection_metadata_field;
-                                    entity['connectionMetadataField'] = zuuluu;
-                                    zuuluu = michal.application_id;
-                                    entity['applicationId'] = zuuluu;
-                                    zuuluu = michal.operator;
-                                    entity['operator'] = zuuluu;
-                                    michal = michal.value;
-                                    entity['value'] = michal;
-                                    return entity;
+                            var4 = var2.body;
+                            var3 = var4.map;
+                            var2 = function(arg1) {
+                                var3 = arg1;
+                                var2 = var3.map;
+                                var1 = function(arg1) {
+                                    var2 = arg1;
+                                    var1 = {};
+                                    var3 = var2.connection_type;
+                                    var1['connectionType'] = var3;
+                                    var3 = var2.connection_metadata_field;
+                                    var1['connectionMetadataField'] = var3;
+                                    var3 = var2.application_id;
+                                    var1['applicationId'] = var3;
+                                    var3 = var2.operator;
+                                    var1['operator'] = var3;
+                                    var2 = var2.value;
+                                    var1['value'] = var2;
+                                    return var1;
                                 };
-                                entity = michal.bind(zuuluu)(entity);
-                                return entity;
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
                             };
-                            entity = zuuluu.bind(tangon)(michal);
+                            var1 = var3.bind(var4)(var2);
  47:
-                            return entity;
+                            return var1;
                         }
                     };
-                    michal = zuuluu.bind(oscard)(michal);
+                    var2 = var3.bind(var6)(var2);
                     SaveGenerator(address=154);
  152:
-                    return michal;
+                    return var2;
  154:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 323; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 323; continue _fun0001 }
  163:
-                    oscard = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = verify[zuuluu];
-                    oscard = oscard.bind(tangon)(zuuluu);
-                    zuuluu = oscard.requestMembersForRole;
-                    zuuluu = zuuluu.bind(oscard)(offset, option, golfie);
+                    var6 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var9[var3];
+                    var6 = var6.bind(var4)(var3);
+                    var3 = var6.requestMembersForRole;
+                    var3 = var3.bind(var6)(var10, var8, var7);
                     SaveGenerator(address=200);
  198:
-                    return zuuluu;
+                    return var3;
  200:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 320; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 320; continue _fun0001 }
  206:
-                    oscard = null;
-                    if(!(oscard != zuuluu)) { _fun00002_ip = 267; continue _fun00001 }
+                    var6 = null;
+                    if(!(var6 != var3)) { _fun0001_ip = 267; continue _fun0001 }
  212:
-                    golfie = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    oscard = 3;
-                    oscard = verify[oscard];
-                    verify = golfie.bind(tangon)(oscard);
-                    golfie = verify.dispatch;
-                    oscard = {};
-                    yankee = 'GUILD_ROLE_MEMBER_COUNT_UPDATE';
-                    oscard['type'] = yankee;
-                    oscard['guildId'] = offset;
-                    oscard['roleId'] = option;
-                    oscard['count'] = zuuluu;
-                    oscard = golfie.bind(verify)(oscard);
+                    var7 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var6 = 3;
+                    var6 = var9[var6];
+                    var9 = var7.bind(var4)(var6);
+                    var7 = var9.dispatch;
+                    var6 = {};
+                    var11 = 'GUILD_ROLE_MEMBER_COUNT_UPDATE';
+                    var6['type'] = var11;
+                    var6['guildId'] = var10;
+                    var6['roleId'] = var8;
+                    var6['count'] = var3;
+                    var6 = var7.bind(var9)(var6);
  267:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 3;
-                    report = golfie[report];
-                    golfie = oscard.bind(tangon)(report);
-                    oscard = golfie.dispatch;
-                    report = {};
-                    verify = 'GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS';
-                    report['type'] = verify;
-                    report['roleId'] = option;
-                    report['roleConnectionConfigurations'] = michal;
-                    report = oscard.bind(golfie)(report);
-                    return tangon;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 3;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var4)(var5);
+                    var6 = var7.dispatch;
+                    var5 = {};
+                    var9 = 'GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS';
+                    var5['type'] = var9;
+                    var5['roleId'] = var8;
+                    var5['roleConnectionConfigurations'] = var2;
+                    var5 = var6.bind(var7)(var5);
+                    return var4;
  320:
-                    return zuuluu;
+                    return var3;
  323:
-                    return michal;
+                    return var2;
  326:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = function() { // Original name: _fetchUserApplicationRoleConnections
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function _fetchUserApplicationRoleConnections() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 90; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 90; continue _fun0003 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.get;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.APPLICATION_USER_ROLE_CONNECTIONS;
-                    michal['url'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.get;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.APPLICATION_USER_ROLE_CONNECTIONS;
+                    var2['url'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=73);
  71:
-                    return michal;
+                    return var2;
  73:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 87; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 87; continue _fun0003 }
  79:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  87:
-                    return michal;
+                    return var2;
  90:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/connections/ConnectionsRoleActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: fetchRoleConnectionsConfiguration
-        verify = argBar;
-        var _closure2_slot0 = verify;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        zuuluu = tangon.bind(entity)(zuuluu);
-        report = zuuluu.HTTP;
-        tangon = report.get;
-        zuuluu = {};
-        option = _closure1_slot4;
-        golfie = option.GUILD_ROLE_CONNECTIONS_CONFIGURATION;
-        oscard = argFoo;
-        oscard = golfie.bind(option)(oscard, verify);
-        zuuluu['url'] = oscard;
-        oscard = true;
-        zuuluu['rejectWithError'] = oscard;
-        report = tangon.bind(report)(zuuluu);
-        tangon = report.then;
-        zuuluu = function(argFoo) {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/connections/ConnectionsRoleActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function fetchRoleConnectionsConfiguration(arg1, arg2) {
+        var9 = arg2;
+        var _closure2_slot0 = var9;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var3 = var4.bind(var1)(var3);
+        var5 = var3.HTTP;
+        var4 = var5.get;
+        var3 = {};
+        var8 = _closure1_slot4;
+        var7 = var8.GUILD_ROLE_CONNECTIONS_CONFIGURATION;
+        var6 = arg1;
+        var6 = var7.bind(var8)(var6, var9);
+        var3['url'] = var6;
+        var6 = true;
+        var3['rejectWithError'] = var6;
+        var5 = var4.bind(var5)(var3);
+        var4 = var5.then;
+        var3 = function(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                report = new Array(0);
-                michal = entity.body;
-                zuuluu = michal.length;
-                michal = 0;
-                if(!(zuuluu > michal)) { _fun00008_ip = 47; continue _fun00007 }
+                var1 = arg1;
+                var5 = new Array(0);
+                var2 = var1.body;
+                var3 = var2.length;
+                var2 = 0;
+                if(!(var3 > var2)) { _fun0004_ip = 47; continue _fun0004 }
  23:
-                zuuluu = entity.body;
-                michal = zuuluu.map;
-                entity = function(argFoo) {
-                    zuuluu = argFoo;
-                    michal = zuuluu.map;
-                    entity = function(argFoo) {
-                        michal = argFoo;
-                        entity = {};
-                        zuuluu = michal.connection_type;
-                        entity['connectionType'] = zuuluu;
-                        zuuluu = michal.connection_metadata_field;
-                        entity['connectionMetadataField'] = zuuluu;
-                        zuuluu = michal.application_id;
-                        entity['applicationId'] = zuuluu;
-                        zuuluu = michal.operator;
-                        entity['operator'] = zuuluu;
-                        michal = michal.value;
-                        entity['value'] = michal;
-                        return entity;
+                var3 = var1.body;
+                var2 = var3.map;
+                var1 = function(arg1) {
+                    var3 = arg1;
+                    var2 = var3.map;
+                    var1 = function(arg1) {
+                        var2 = arg1;
+                        var1 = {};
+                        var3 = var2.connection_type;
+                        var1['connectionType'] = var3;
+                        var3 = var2.connection_metadata_field;
+                        var1['connectionMetadataField'] = var3;
+                        var3 = var2.application_id;
+                        var1['applicationId'] = var3;
+                        var3 = var2.operator;
+                        var1['operator'] = var3;
+                        var2 = var2.value;
+                        var1['value'] = var2;
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                report = michal.bind(zuuluu)(entity);
+                var5 = var2.bind(var3)(var1);
  47:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                oscard = 'GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS';
-                michal['type'] = oscard;
-                oscard = _closure2_slot0;
-                michal['roleId'] = oscard;
-                michal['roleConnectionConfigurations'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var6 = 'GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS';
+                var2['type'] = var6;
+                var6 = _closure2_slot0;
+                var2['roleId'] = var6;
+                var2['roleConnectionConfigurations'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = tangon.catch;
-        michal = function() {
-            entity = undefined;
-            return entity;
+        var4 = var4.bind(var5)(var3);
+        var3 = var4.catch;
+        var2 = function() {
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['fetchRoleConnectionsConfiguration'] = tangon;
-    tangon = function() { // Original name: putRoleConnectionsConfigurations
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['fetchRoleConnectionsConfiguration'] = var4;
+    var4 = function putRoleConnectionsConfigurations() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['putRoleConnectionsConfigurations'] = tangon;
-    michal = function() { // Original name: fetchUserApplicationRoleConnections
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['putRoleConnectionsConfigurations'] = var4;
+    var2 = function fetchUserApplicationRoleConnections() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchUserApplicationRoleConnections'] = michal;
-    return entity;
+    var3['fetchUserApplicationRoleConnections'] = var2;
+    return var1;
 })();

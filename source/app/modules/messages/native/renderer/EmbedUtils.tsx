@@ -1,66 +1,66 @@
 // app/modules/messages/native/renderer/EmbedUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = report.Image;
-    var _closure1_slot0 = report;
-    option = tangon.Object;
-    report = option.freeze;
-    offset = tangon.Set;
-    tangon = offset.prototype;
-    verify = Object.create(tangon, {constructor: {value: offset}});
-    foxtra = ['YouTube', 'TikTok'];
-    backup = verify;
-    tangon = new backup[offset](foxtra, romeon);
-    tangon = tangon instanceof Object ? tangon : verify;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot1 = tangon;
-    report = 1;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/messages/native/renderer/EmbedUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: getAssetUriForEmbed
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.resolveAssetSource;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.uri;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Image;
+    var _closure1_slot0 = var5;
+    var8 = var4.Object;
+    var5 = var8.freeze;
+    var10 = var4.Set;
+    var4 = var10.prototype;
+    var9 = Object.create(var4, {constructor: {value: var10}});
+    var13 = ['YouTube', 'TikTok'];
+    var14 = var9;
+    var4 = new var14[var10](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var9;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot1 = var4;
+    var5 = 1;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/messages/native/renderer/EmbedUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getAssetUriForEmbed(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.resolveAssetSource;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.uri;
+        return var1;
     };
-    zuuluu['getAssetUriForEmbed'] = report;
-    zuuluu['SUPPORTED_VIDEO_PARTNERS'] = tangon;
-    michal = function(argFoo) { // Original name: shouldPlayVideoInline
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['getAssetUriForEmbed'] = var5;
+    var3['SUPPORTED_VIDEO_PARTNERS'] = var4;
+    var2 = function shouldPlayVideoInline(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot1;
-            michal = zuuluu.has;
-            entity = null;
-            report = entity != tangon;
-            entity = '';
-            if(!report) { _fun00002_ip = 31; continue _fun00001 }
+            var4 = arg1;
+            var3 = _closure1_slot1;
+            var2 = var3.has;
+            var1 = null;
+            var5 = var1 != var4;
+            var1 = '';
+            if(!var5) { _fun0001_ip = 31; continue _fun0001 }
  28:
-            entity = tangon;
+            var1 = var4;
  31:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['shouldPlayVideoInline'] = michal;
-    return entity;
+    var3['shouldPlayVideoInline'] = var2;
+    return var1;
 })();

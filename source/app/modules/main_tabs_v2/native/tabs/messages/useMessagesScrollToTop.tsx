@@ -1,149 +1,149 @@
 // app/modules/main_tabs_v2/native/tabs/messages/useMessagesScrollToTop.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/tabs/messages/useMessagesScrollToTop.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useMessagesScrollToTop
-        entity = argFoo;
-        golfie = entity.listRef;
-        var _closure2_slot0 = golfie;
-        oscard = entity.listRefHappeningNow;
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot3;
-        report = tangon.useMemo;
-        zuuluu = new Array(2);
-        zuuluu[0] = golfie;
-        zuuluu[1] = oscard;
-        michal = function() {
-            entity = {};
-            michal = -1;
-            entity['scrollToTopTimeout'] = michal;
-            michal = function() { // Original name: scrollToTop
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/tabs/messages/useMessagesScrollToTop.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMessagesScrollToTop(arg1) {
+        var1 = arg1;
+        var7 = var1.listRef;
+        var _closure2_slot0 = var7;
+        var6 = var1.listRefHappeningNow;
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot3;
+        var5 = var4.useMemo;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function() {
+            var1 = {};
+            var2 = -1;
+            var1['scrollToTopTimeout'] = var2;
+            var2 = function scrollToTop() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = this;
-                    report = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    entity = 2;
-                    tangon = golfie[entity];
-                    entity = undefined;
-                    report = report.bind(entity)(tangon);
-                    tangon = report.coerceGuildsRoute;
-                    oscard = _closure1_slot1;
-                    michal = 3;
-                    michal = golfie[michal];
-                    michal = oscard.bind(entity)(michal);
-                    michal = michal.bind(entity)();
-                    tangon = tangon.bind(report)(michal);
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00002_ip = 143; continue _fun00001 }
+                    var3 = this;
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 2;
+                    var4 = var7[var1];
+                    var1 = undefined;
+                    var5 = var5.bind(var1)(var4);
+                    var4 = var5.coerceGuildsRoute;
+                    var6 = _closure1_slot1;
+                    var2 = 3;
+                    var2 = var7[var2];
+                    var2 = var6.bind(var1)(var2);
+                    var2 = var2.bind(var1)();
+                    var4 = var4.bind(var5)(var2);
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0001_ip = 143; continue _fun0001 }
  65:
-                    tangon = zuuluu.scrollToTopTimeout;
-                    michal = -1;
-                    if(!(michal !== tangon)) { _fun00002_ip = 108; continue _fun00001 }
+                    var4 = var3.scrollToTopTimeout;
+                    var2 = -1;
+                    if(!(var2 !== var4)) { _fun0001_ip = 108; continue _fun0001 }
  81:
-                    tangon = global;
-                    report = tangon.clearTimeout;
-                    tangon = zuuluu.scrollToTopTimeout;
-                    tangon = report.bind(entity)(tangon);
-                    zuuluu['scrollToTopTimeout'] = michal;
-                    _fun00002_ip = 143; continue _fun00001;
+                    var4 = global;
+                    var5 = var4.clearTimeout;
+                    var4 = var3.scrollToTopTimeout;
+                    var4 = var5.bind(var1)(var4);
+                    var3['scrollToTopTimeout'] = var2;
+                    _fun0001_ip = 143; continue _fun0001;
  108:
-                    michal = global;
-                    report = michal.setTimeout;
-                    tangon = function() {
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var2 = global;
+                    var5 = var2.setTimeout;
+                    var4 = function() {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            entity = _closure2_slot0;
-                            michal = null;
-                            tangon = michal == entity;
-                            entity = undefined;
-                            oscard = undefined;
-                            if(tangon) { _fun00004_ip = 36; continue _fun00003 }
+                            var1 = _closure2_slot0;
+                            var2 = null;
+                            var4 = var2 == var1;
+                            var1 = undefined;
+                            var6 = undefined;
+                            if(var4) { _fun0002_ip = 36; continue _fun0002 }
  20:
-                            report = _closure2_slot0;
-                            report = report.current;
-                            tangon = michal == report;
-                            oscard = report;
+                            var5 = _closure2_slot0;
+                            var5 = var5.current;
+                            var4 = var2 == var5;
+                            var6 = var5;
  36:
-                            if(tangon) { _fun00004_ip = 85; continue _fun00003 }
+                            if(var4) { _fun0002_ip = 85; continue _fun0002 }
  39:
-                            report = oscard.scrollToLocation;
-                            tangon = {'section': 0, 'item': 0};
-                            golfie = _closure1_slot4;
-                            golfie = golfie.useReducedMotion;
-                            golfie = !golfie;
-                            tangon['animated'] = golfie;
-                            tangon = report.bind(oscard)(tangon);
+                            var5 = var6.scrollToLocation;
+                            var4 = {'section': 0, 'item': 0};
+                            var7 = _closure1_slot4;
+                            var7 = var7.useReducedMotion;
+                            var7 = !var7;
+                            var4['animated'] = var7;
+                            var4 = var5.bind(var6)(var4);
  85:
-                            zuuluu = _closure2_slot1;
-                            tangon = zuuluu.current;
-                            if(!(michal != tangon)) { _fun00004_ip = 139; continue _fun00003 }
+                            var3 = _closure2_slot1;
+                            var4 = var3.current;
+                            if(!(var2 != var4)) { _fun0002_ip = 139; continue _fun0002 }
  98:
-                            zuuluu = tangon.scrollToOffset;
-                            michal = {};
-                            report = 0;
-                            michal['offset'] = report;
-                            report = _closure1_slot4;
-                            report = report.useReducedMotion;
-                            report = !report;
-                            michal['animated'] = report;
-                            michal = zuuluu.bind(tangon)(michal);
+                            var3 = var4.scrollToOffset;
+                            var2 = {};
+                            var5 = 0;
+                            var2['offset'] = var5;
+                            var5 = _closure1_slot4;
+                            var5 = var5.useReducedMotion;
+                            var5 = !var5;
+                            var2['animated'] = var5;
+                            var2 = var3.bind(var4)(var2);
  139:
-                            return entity;
+                            return var1;
                         }
                     };
-                    michal = 300;
-                    michal = report.bind(entity)(tangon, michal);
-                    zuuluu['scrollToTopTimeout'] = michal;
+                    var2 = 300;
+                    var2 = var5.bind(var1)(var4, var2);
+                    var3['scrollToTopTimeout'] = var2;
  143:
-                    return entity;
+                    return var1;
                 }
             };
-            entity['scrollToTop'] = michal;
-            return entity;
+            var1['scrollToTop'] = var2;
+            return var1;
         };
-        zuuluu = report.bind(tangon)(michal, zuuluu);
-        michal = tangon.useRef;
-        tangon = michal.bind(tangon)(zuuluu);
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.useScrollToTop;
-        michal = michal.bind(zuuluu)(tangon);
-        return entity;
+        var3 = var5.bind(var4)(var2, var3);
+        var2 = var4.useRef;
+        var4 = var2.bind(var4)(var3);
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.useScrollToTop;
+        var2 = var2.bind(var3)(var4);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

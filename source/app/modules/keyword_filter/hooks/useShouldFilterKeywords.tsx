@@ -1,70 +1,70 @@
 // app/modules/keyword_filter/hooks/useShouldFilterKeywords.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/keyword_filter/hooks/useShouldFilterKeywords.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/keyword_filter/hooks/useShouldFilterKeywords.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 0;
-            entity = golfie[entity];
-            report = undefined;
-            michal = oscard.bind(report)(entity);
-            entity = michal.useKeywordFilterSettings;
-            entity = entity.bind(michal)();
-            zuuluu = entity.profanity;
-            tangon = entity.sexualContent;
-            michal = entity.slurs;
-            entity = 1;
-            entity = golfie[entity];
-            oscard = oscard.bind(report)(entity);
-            report = oscard.useIsEligibleForKeywordFiltering;
-            entity = {};
-            golfie = 'use-should-filter-keywords';
-            entity['location'] = golfie;
-            entity = report.bind(oscard)(entity);
-            report = !entity;
-            entity = !report;
-            if(report) { _fun00002_ip = 123; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 0;
+            var1 = var7[var1];
+            var5 = undefined;
+            var2 = var6.bind(var5)(var1);
+            var1 = var2.useKeywordFilterSettings;
+            var1 = var1.bind(var2)();
+            var3 = var1.profanity;
+            var4 = var1.sexualContent;
+            var2 = var1.slurs;
+            var1 = 1;
+            var1 = var7[var1];
+            var6 = var6.bind(var5)(var1);
+            var5 = var6.useIsEligibleForKeywordFiltering;
+            var1 = {};
+            var7 = 'use-should-filter-keywords';
+            var1['location'] = var7;
+            var1 = var5.bind(var6)(var1);
+            var5 = !var1;
+            var1 = !var5;
+            if(var5) { _fun0001_ip = 123; continue _fun0001 }
  96:
-            if(zuuluu) { _fun00002_ip = 102; continue _fun00001 }
+            if(var3) { _fun0001_ip = 102; continue _fun0001 }
  99:
-            zuuluu = tangon;
+            var3 = var4;
  102:
-            if(zuuluu) { _fun00002_ip = 108; continue _fun00001 }
+            if(var3) { _fun0001_ip = 108; continue _fun0001 }
  105:
-            zuuluu = michal;
+            var3 = var2;
  108:
-            michal = null;
-            michal = michal != zuuluu;
-            if(!michal) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = null;
+            var2 = var2 != var3;
+            if(!var2) { _fun0001_ip = 120; continue _fun0001 }
  117:
-            michal = zuuluu;
+            var2 = var3;
  120:
-            entity = michal;
+            var1 = var2;
  123:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldFilterKeywords'] = michal;
-    return entity;
+    var3['useShouldFilterKeywords'] = var2;
+    return var1;
 })();

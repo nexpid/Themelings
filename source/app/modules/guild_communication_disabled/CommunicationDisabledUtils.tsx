@@ -1,69 +1,69 @@
 // app/modules/guild_communication_disabled/CommunicationDisabledUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = function(argFoo) { // Original name: isCommunicationDisabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = function isCommunicationDisabled(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00002_ip = 73; continue _fun00001 }
+            var5 = arg1;
+            var1 = null;
+            var1 = var1 != var5;
+            if(!var1) { _fun0001_ip = 73; continue _fun0001 }
  12:
-            michal = global;
-            zuuluu = michal.Date;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            golfie = tangon;
-            oscard = report;
-            zuuluu = new golfie[zuuluu](oscard, report);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            michal = michal.Date;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            michal = new golfie[michal](oscard);
-            michal = michal instanceof Object ? michal : tangon;
-            entity = zuuluu > michal;
+            var2 = global;
+            var3 = var2.Date;
+            var4 = var3.prototype;
+            var4 = Object.create(var4, {constructor: {value: var3}});
+            var7 = var4;
+            var6 = var5;
+            var3 = new var7[var3](var6, var5);
+            var3 = var3 instanceof Object ? var3 : var4;
+            var2 = var2.Date;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var2 = new var7[var2](var6);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var1 = var3 > var2;
  73:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot0 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_communication_disabled/CommunicationDisabledUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['isCommunicationDisabled'] = tangon;
-    michal = function(argFoo) { // Original name: isMemberCommunicationDisabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot0 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_communication_disabled/CommunicationDisabledUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['isCommunicationDisabled'] = var4;
+    var2 = function isMemberCommunicationDisabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            entity = null;
-            report = entity == tangon;
-            michal = undefined;
-            entity = undefined;
-            if(report) { _fun00004_ip = 29; continue _fun00003 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var1 = null;
+            var5 = var1 == var4;
+            var2 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0002_ip = 29; continue _fun0002 }
  23:
-            entity = tangon.communicationDisabledUntil;
+            var1 = var4.communicationDisabledUntil;
  29:
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            return var1;
         }
     };
-    zuuluu['isMemberCommunicationDisabled'] = michal;
-    return entity;
+    var3['isMemberCommunicationDisabled'] = var2;
+    return var1;
 })();

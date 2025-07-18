@@ -1,214 +1,214 @@
 // app/modules/routing/KeybindRouterStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: getMatchData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function getMatchData(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            option = 1;
-            entity = entity[option];
-            romeon = undefined;
-            verify = michal.bind(romeon)(entity);
-            oscard = verify.matchPath;
-            michal = null;
-            entity = michal != zuuluu;
-            golfie = '';
-            report = golfie;
-            if(!entity) { _fun00002_ip = 53; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var8 = 1;
+            var1 = var1[var8];
+            var12 = undefined;
+            var9 = var2.bind(var12)(var1);
+            var6 = var9.matchPath;
+            var2 = null;
+            var1 = var2 != var3;
+            var7 = '';
+            var5 = var7;
+            if(!var1) { _fun0001_ip = 53; continue _fun0001 }
  50:
-            report = zuuluu;
+            var5 = var3;
  53:
-            entity = {};
-            sizing = _closure1_slot2;
-            kiloes = sizing.CHANNEL;
-            yankee = _closure1_slot0;
-            offset = _closure1_slot1;
-            foxtra = 2;
-            backup = offset[foxtra];
-            backup = yankee.bind(romeon)(backup);
-            output = backup.RouteParam;
-            backup = output.guildId;
-            backup = backup.bind(output)();
-            offset = offset[foxtra];
-            offset = yankee.bind(romeon)(offset);
-            output = offset.RouteParam;
-            yankee = output.channelId;
-            offset = {};
-            result = true;
-            offset['optional'] = result;
-            yankee = yankee.bind(output)(offset);
-            offset = ':messageId?';
-            offset = kiloes.bind(sizing)(backup, yankee, offset);
-            entity['path'] = offset;
-            entity = oscard.bind(verify)(report, entity);
-            if(!(michal == entity)) { _fun00002_ip = 304; continue _fun00001 }
+            var1 = {};
+            var16 = _closure1_slot2;
+            var15 = var16.CHANNEL;
+            var11 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var13 = 2;
+            var14 = var10[var13];
+            var14 = var11.bind(var12)(var14);
+            var17 = var14.RouteParam;
+            var14 = var17.guildId;
+            var14 = var14.bind(var17)();
+            var10 = var10[var13];
+            var10 = var11.bind(var12)(var10);
+            var17 = var10.RouteParam;
+            var11 = var17.channelId;
+            var10 = {};
+            var18 = true;
+            var10['optional'] = var18;
+            var11 = var11.bind(var17)(var10);
+            var10 = ':messageId?';
+            var10 = var15.bind(var16)(var14, var11, var10);
+            var1['path'] = var10;
+            var1 = var6.bind(var9)(var5, var1);
+            if(!(var2 == var1)) { _fun0001_ip = 304; continue _fun0001 }
  165:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            report = report[option];
-            oscard = oscard.bind(romeon)(report);
-            report = oscard.matchPath;
-            option = michal != zuuluu;
-            if(!option) { _fun00002_ip = 198; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var8];
+            var6 = var6.bind(var12)(var5);
+            var5 = var6.matchPath;
+            var8 = var2 != var3;
+            if(!var8) { _fun0001_ip = 198; continue _fun0001 }
  195:
-            golfie = zuuluu;
+            var7 = var3;
  198:
-            zuuluu = {};
-            offset = _closure1_slot2;
-            verify = offset.GUILD_BOOSTING_MARKETING;
-            yankee = _closure1_slot0;
-            option = _closure1_slot1;
-            option = option[foxtra];
-            option = yankee.bind(romeon)(option);
-            yankee = option.RouteParam;
-            option = yankee.guildId;
-            option = option.bind(yankee)();
-            option = verify.bind(offset)(option);
-            zuuluu['path'] = option;
-            oscard = report.bind(oscard)(golfie, zuuluu);
-            if(!(michal == oscard)) { _fun00002_ip = 278; continue _fun00001 }
+            var3 = {};
+            var10 = _closure1_slot2;
+            var9 = var10.GUILD_BOOSTING_MARKETING;
+            var11 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var8 = var8[var13];
+            var8 = var11.bind(var12)(var8);
+            var11 = var8.RouteParam;
+            var8 = var11.guildId;
+            var8 = var8.bind(var11)();
+            var8 = var9.bind(var10)(var8);
+            var3['path'] = var8;
+            var6 = var5.bind(var6)(var7, var3);
+            if(!(var2 == var6)) { _fun0001_ip = 278; continue _fun0001 }
  262:
-            zuuluu = {'guildId': null, 'channelId': null};
-            _fun00002_ip = 302; continue _fun00001;
+            var3 = {'guildId': null, 'channelId': null};
+            _fun0001_ip = 302; continue _fun0001;
  278:
-            report = {};
-            oscard = oscard.params;
-            oscard = oscard.guildId;
-            report['guildId'] = oscard;
-            report['channelId'] = michal;
-            zuuluu = report;
+            var5 = {};
+            var6 = var6.params;
+            var6 = var6.guildId;
+            var5['guildId'] = var6;
+            var5['channelId'] = var2;
+            var3 = var5;
  302:
-            return zuuluu;
+            return var3;
  304:
-            entity = entity.params;
-            report = entity.guildId;
-            zuuluu = entity.channelId;
-            entity = {};
-            oscard = _closure1_slot3;
-            tangon = null;
-            if(!(report !== oscard)) { _fun00002_ip = 335; continue _fun00001 }
+            var1 = var1.params;
+            var5 = var1.guildId;
+            var3 = var1.channelId;
+            var1 = {};
+            var6 = _closure1_slot3;
+            var4 = null;
+            if(!(var5 !== var6)) { _fun0001_ip = 335; continue _fun0001 }
  332:
-            tangon = report;
+            var4 = var5;
  335:
-            entity['guildId'] = tangon;
-            tangon = michal != zuuluu;
-            michal = null;
-            if(!tangon) { _fun00002_ip = 351; continue _fun00001 }
+            var1['guildId'] = var4;
+            var4 = var2 != var3;
+            var2 = null;
+            if(!var4) { _fun0001_ip = 351; continue _fun0001 }
  348:
-            michal = zuuluu;
+            var2 = var3;
  351:
-            entity['channelId'] = michal;
-            return entity;
+            var1['channelId'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Routes;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.ME;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    golfie = report.bind(entity)(tangon);
-    tangon = golfie.createWithEqualityFn;
-    michal = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = {'path': null, 'basePath': '/', 'guildId': null, 'channelId': null};
-        zuuluu = function(argFoo) { // Original name: updatePath
-            report = argFoo;
-            var _closure3_slot0 = report;
-            tangon = _closure1_slot4;
-            entity = undefined;
-            tangon = tangon.bind(entity)(report);
-            report = tangon.guildId;
-            var _closure3_slot1 = report;
-            tangon = tangon.channelId;
-            var _closure3_slot2 = tangon;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                tangon = _closure3_slot0;
-                michal['path'] = tangon;
-                tangon = _closure3_slot1;
-                michal['guildId'] = tangon;
-                entity = _closure3_slot2;
-                michal['channelId'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Routes;
+    var _closure1_slot2 = var7;
+    var4 = var4.ME;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var7 = var5.bind(var1)(var4);
+    var4 = var7.createWithEqualityFn;
+    var2 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = {'path': null, 'basePath': '/', 'guildId': null, 'channelId': null};
+        var3 = function updatePath(arg1) {
+            var5 = arg1;
+            var _closure3_slot0 = var5;
+            var4 = _closure1_slot4;
+            var1 = undefined;
+            var4 = var4.bind(var1)(var5);
+            var5 = var4.guildId;
+            var _closure3_slot1 = var5;
+            var4 = var4.channelId;
+            var _closure3_slot2 = var4;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 4;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var4 = _closure3_slot0;
+                var2['path'] = var4;
+                var4 = _closure3_slot1;
+                var2['guildId'] = var4;
+                var1 = _closure3_slot2;
+                var2['channelId'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['updatePath'] = zuuluu;
-        michal = function(argFoo) { // Original name: resetPath
-            report = argFoo;
-            var _closure3_slot0 = report;
-            tangon = _closure1_slot4;
-            entity = undefined;
-            tangon = tangon.bind(entity)(report);
-            report = tangon.guildId;
-            var _closure3_slot1 = report;
-            tangon = tangon.channelId;
-            var _closure3_slot2 = tangon;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = null;
-                michal['path'] = entity;
-                tangon = _closure3_slot1;
-                michal['guildId'] = tangon;
-                tangon = _closure3_slot2;
-                michal['channelId'] = tangon;
-                entity = _closure3_slot0;
-                michal['basePath'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['updatePath'] = var3;
+        var2 = function resetPath(arg1) {
+            var5 = arg1;
+            var _closure3_slot0 = var5;
+            var4 = _closure1_slot4;
+            var1 = undefined;
+            var4 = var4.bind(var1)(var5);
+            var5 = var4.guildId;
+            var _closure3_slot1 = var5;
+            var4 = var4.channelId;
+            var _closure3_slot2 = var4;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 4;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = null;
+                var2['path'] = var1;
+                var4 = _closure3_slot1;
+                var2['guildId'] = var4;
+                var4 = _closure3_slot2;
+                var2['channelId'] = var4;
+                var1 = _closure3_slot0;
+                var2['basePath'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['resetPath'] = michal;
-        return entity;
+        var1['resetPath'] = var2;
+        return var1;
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/routing/KeybindRouterStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/routing/KeybindRouterStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

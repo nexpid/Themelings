@@ -1,444 +1,444 @@
 // app/modules/threads/ThreadUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = oscard;
-    entity = ['can_send_message', 'parent_channel_type'];
-    var _closure1_slot3 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.ThreadMemberFlags;
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    option = tangon.AnalyticEvents;
-    var _closure1_slot9 = option;
-    tangon = tangon.UserNotificationSettings;
-    var _closure1_slot10 = tangon;
-    tangon = function() { // Original name: getAccessibilityLabelFormatter
-        entity = {};
-        oscard = _closure1_slot0;
-        golfie = _closure1_slot2;
-        michal = 6;
-        zuuluu = golfie[michal];
-        report = undefined;
-        zuuluu = oscard.bind(report)(zuuluu);
-        zuuluu = zuuluu.t;
-        zuuluu = zuuluu.1Rcf/v;
-        entity['minutes'] = zuuluu;
-        zuuluu = golfie[michal];
-        zuuluu = oscard.bind(report)(zuuluu);
-        zuuluu = zuuluu.t;
-        zuuluu = zuuluu.vgnx5+;
-        entity['hours'] = zuuluu;
-        zuuluu = golfie[michal];
-        zuuluu = oscard.bind(report)(zuuluu);
-        zuuluu = zuuluu.t;
-        zuuluu = zuuluu.fNvE5+;
-        entity['days'] = zuuluu;
-        zuuluu = golfie[michal];
-        zuuluu = oscard.bind(report)(zuuluu);
-        tangon = zuuluu.intl;
-        zuuluu = tangon.string;
-        michal = golfie[michal];
-        michal = oscard.bind(report)(michal);
-        michal = michal.t;
-        michal = michal.P7Gyg4;
-        michal = zuuluu.bind(tangon)(michal);
-        entity['month'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var5 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var6;
+    var1 = ['can_send_message', 'parent_channel_type'];
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.ThreadMemberFlags;
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var8 = var4.AnalyticEvents;
+    var _closure1_slot9 = var8;
+    var4 = var4.UserNotificationSettings;
+    var _closure1_slot10 = var4;
+    var4 = function getAccessibilityLabelFormatter() {
+        var1 = {};
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var2 = 6;
+        var3 = var7[var2];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.1Rcf/v;
+        var1['minutes'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.vgnx5+;
+        var1['hours'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.fNvE5+;
+        var1['days'] = var3;
+        var3 = var7[var2];
+        var3 = var6.bind(var5)(var3);
+        var4 = var3.intl;
+        var3 = var4.string;
+        var2 = var7[var2];
+        var2 = var6.bind(var5)(var2);
+        var2 = var2.t;
+        var2 = var2.P7Gyg4;
+        var2 = var3.bind(var4)(var2);
+        var1['month'] = var2;
+        return var1;
     };
-    var _closure1_slot11 = tangon;
-    tangon = 16;
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    golfie = option.fileFinishedImporting;
-    tangon = 'modules/threads/ThreadUtils.tsx';
-    tangon = golfie.bind(option)(tangon);
-    tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    zuuluu['getTimestampString'] = tangon;
-    tangon = function(argFoo) {
-        zuuluu = _closure1_slot1;
-        tangon = _closure1_slot2;
-        michal = 7;
-        michal = tangon[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = _closure1_slot11;
-        entity = argFoo;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot11 = var4;
+    var4 = 16;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var7 = var8.fileFinishedImporting;
+    var4 = 'modules/threads/ThreadUtils.tsx';
+    var4 = var7.bind(var8)(var4);
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var3['getTimestampString'] = var4;
+    var4 = function(arg1) {
+        var3 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var2 = 7;
+        var2 = var4[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = _closure1_slot11;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getTimestampAccessibilityLabel'] = tangon;
-    tangon = function() { // Original name: trackThreadBrowserTab
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 8;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.trackWithMetadata;
-        michal = _closure1_slot9;
-        michal = michal.THREAD_BROWSER_TAB_CHANGED;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['getTimestampAccessibilityLabel'] = var4;
+    var4 = function trackThreadBrowserTab() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 8;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.trackWithMetadata;
+        var2 = _closure1_slot9;
+        var2 = var2.THREAD_BROWSER_TAB_CHANGED;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['trackThreadBrowserTab'] = tangon;
-    tangon = function() { // Original name: trackThreadBrowserOpened
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['trackThreadBrowserTab'] = var4;
+    var4 = function trackThreadBrowserOpened() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = arguments[0];
-            entity = undefined;
-            if(!(oscard === entity)) { _fun00002_ip = 13; continue _fun00001 }
+            var6 = arguments[0];
+            var1 = undefined;
+            if(!(var6 === var1)) { _fun0001_ip = 13; continue _fun0001 }
  9:
-            oscard = 'Modal';
+            var6 = 'Modal';
  13:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.trackWithMetadata;
-            michal = _closure1_slot9;
-            zuuluu = michal.OPEN_MODAL;
-            michal = {};
-            golfie = 'Thread Browser';
-            michal['type'] = golfie;
-            michal['location_section'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 8;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.trackWithMetadata;
+            var2 = _closure1_slot9;
+            var3 = var2.OPEN_MODAL;
+            var2 = {};
+            var7 = 'Thread Browser';
+            var2['type'] = var7;
+            var2['location_section'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['trackThreadBrowserOpened'] = tangon;
-    tangon = function() { // Original name: trackActiveThreadsPopoutOpened
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 9;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.track;
-        michal = _closure1_slot9;
-        zuuluu = michal.OPEN_POPOUT;
-        michal = {};
-        oscard = 'Active Threads Popout';
-        michal['type'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var3['trackThreadBrowserOpened'] = var4;
+    var4 = function trackActiveThreadsPopoutOpened() {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 9;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.track;
+        var2 = _closure1_slot9;
+        var3 = var2.OPEN_POPOUT;
+        var2 = {};
+        var6 = 'Active Threads Popout';
+        var2['type'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['trackActiveThreadsPopoutOpened'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: trackThreadNotificationSettingsUpdated
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['trackActiveThreadsPopoutOpened'] = var4;
+    var4 = function trackThreadNotificationSettingsUpdated(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            offset = argFoo;
-            zuuluu = argBar;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 10;
-            tangon = tangon[entity];
-            entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.collectThreadMetadata;
-            result = tangon.bind(report)(offset);
-            golfie = null;
-            if(!(golfie != result)) { _fun00004_ip = 545; continue _fun00003 }
+            var10 = arg1;
+            var3 = arg2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 10;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.collectThreadMetadata;
+            var18 = var4.bind(var5)(var10);
+            var7 = null;
+            if(!(var7 != var18)) { _fun0002_ip = 545; continue _fun0002 }
  51:
-            tangon = offset.getGuildId;
-            kiloes = tangon.bind(offset)();
-            backup = offset.parent_id;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            option = 11;
-            tangon = tangon[option];
-            report = report.bind(entity)(tangon);
-            tangon = report.getCurrentChannelSettings;
-            oscard = tangon.bind(report)(kiloes, backup);
-            romeon = function(argFoo) { // Original name: getNotificationAnalyticsString
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var4 = var10.getGuildId;
+            var15 = var4.bind(var10)();
+            var14 = var10.parent_id;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var8 = 11;
+            var4 = var4[var8];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.getCurrentChannelSettings;
+            var6 = var4.bind(var5)(var15, var14);
+            var12 = function getNotificationAnalyticsString(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    offset = argFoo;
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    entity = 12;
-                    zuuluu = zuuluu[entity];
-                    report = undefined;
-                    oscard = tangon.bind(report)(zuuluu);
-                    tangon = oscard.hasFlag;
-                    zuuluu = _closure1_slot8;
-                    zuuluu = zuuluu.ALL_MESSAGES;
-                    zuuluu = tangon.bind(oscard)(offset, zuuluu);
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    if(zuuluu) { _fun00006_ip = 228; continue _fun00005 }
+                    var10 = arg1;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 12;
+                    var3 = var3[var1];
+                    var5 = undefined;
+                    var6 = var4.bind(var5)(var3);
+                    var4 = var6.hasFlag;
+                    var3 = _closure1_slot8;
+                    var3 = var3.ALL_MESSAGES;
+                    var3 = var4.bind(var6)(var10, var3);
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    if(var3) { _fun0003_ip = 228; continue _fun0003 }
  64:
-                    zuuluu = oscard[entity];
-                    option = tangon.bind(report)(zuuluu);
-                    golfie = option.hasFlag;
-                    zuuluu = _closure1_slot8;
-                    zuuluu = zuuluu.ONLY_MENTIONS;
-                    zuuluu = golfie.bind(option)(offset, zuuluu);
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    if(zuuluu) { _fun00006_ip = 194; continue _fun00005 }
+                    var3 = var6[var1];
+                    var8 = var4.bind(var5)(var3);
+                    var7 = var8.hasFlag;
+                    var3 = _closure1_slot8;
+                    var3 = var3.ONLY_MENTIONS;
+                    var3 = var7.bind(var8)(var10, var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    if(var3) { _fun0003_ip = 194; continue _fun0003 }
  106:
-                    entity = option[entity];
-                    verify = golfie.bind(report)(entity);
-                    zuuluu = verify.hasFlag;
-                    entity = _closure1_slot8;
-                    entity = entity.NO_MESSAGES;
-                    entity = zuuluu.bind(verify)(offset, entity);
-                    verify = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    zuuluu = 11;
-                    zuuluu = offset[zuuluu];
-                    zuuluu = verify.bind(report)(zuuluu);
-                    verify = zuuluu.MessageNotificationSettings;
-                    zuuluu = _closure1_slot10;
-                    if(entity) { _fun00006_ip = 182; continue _fun00005 }
+                    var1 = var8[var1];
+                    var9 = var7.bind(var5)(var1);
+                    var3 = var9.hasFlag;
+                    var1 = _closure1_slot8;
+                    var1 = var1.NO_MESSAGES;
+                    var1 = var3.bind(var9)(var10, var1);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var3 = 11;
+                    var3 = var10[var3];
+                    var3 = var9.bind(var5)(var3);
+                    var9 = var3.MessageNotificationSettings;
+                    var3 = _closure1_slot10;
+                    if(var1) { _fun0003_ip = 182; continue _fun0003 }
  170:
-                    entity = zuuluu.NULL;
-                    entity = verify[entity];
-                    _fun00006_ip = 192; continue _fun00005;
+                    var1 = var3.NULL;
+                    var1 = var9[var1];
+                    _fun0003_ip = 192; continue _fun0003;
  182:
-                    zuuluu = zuuluu.NO_MESSAGES;
-                    entity = verify[zuuluu];
+                    var3 = var3.NO_MESSAGES;
+                    var1 = var9[var3];
  192:
-                    _fun00006_ip = 226; continue _fun00005;
+                    _fun0003_ip = 226; continue _fun0003;
  194:
-                    zuuluu = 11;
-                    zuuluu = option[zuuluu];
-                    zuuluu = golfie.bind(report)(zuuluu);
-                    golfie = zuuluu.MessageNotificationSettings;
-                    zuuluu = _closure1_slot10;
-                    zuuluu = zuuluu.ONLY_MENTIONS;
-                    entity = golfie[zuuluu];
+                    var3 = 11;
+                    var3 = var8[var3];
+                    var3 = var7.bind(var5)(var3);
+                    var7 = var3.MessageNotificationSettings;
+                    var3 = _closure1_slot10;
+                    var3 = var3.ONLY_MENTIONS;
+                    var1 = var7[var3];
  226:
-                    _fun00006_ip = 260; continue _fun00005;
+                    _fun0003_ip = 260; continue _fun0003;
  228:
-                    zuuluu = 11;
-                    zuuluu = oscard[zuuluu];
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    zuuluu = zuuluu.MessageNotificationSettings;
-                    michal = _closure1_slot10;
-                    michal = michal.ALL_MESSAGES;
-                    entity = zuuluu[michal];
+                    var3 = 11;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var3 = var3.MessageNotificationSettings;
+                    var2 = _closure1_slot10;
+                    var2 = var2.ALL_MESSAGES;
+                    var1 = var3[var2];
  260:
-                    return entity;
+                    return var1;
                 }
             };
-            verify = _closure1_slot7;
-            report = verify.flags;
-            tangon = offset.id;
-            tangon = report.bind(verify)(tangon);
-            report = golfie != tangon;
-            foxtra = 0;
-            if(!report) { _fun00004_ip = 137; continue _fun00003 }
+            var9 = _closure1_slot7;
+            var5 = var9.flags;
+            var4 = var10.id;
+            var4 = var5.bind(var9)(var4);
+            var5 = var7 != var4;
+            var13 = 0;
+            if(!var5) { _fun0002_ip = 137; continue _fun0002 }
  134:
-            foxtra = tangon;
+            var13 = var4;
  137:
-            yankee = romeon.bind(entity)(foxtra);
-            echoed = _closure1_slot7;
-            report = echoed.isMuted;
-            tangon = offset.id;
-            verify = report.bind(echoed)(tangon);
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[option];
-            sizing = report.bind(entity)(tangon);
-            report = sizing.muteConfigToTimestamp;
-            output = echoed.getMuteConfig;
-            tangon = offset.id;
-            tangon = output.bind(echoed)(tangon);
-            tangon = report.bind(sizing)(tangon);
-            report = result.can_send_message;
-            report = result.parent_channel_type;
-            report = {};
-            output = _closure1_slot4;
-            sizing = _closure1_slot3;
-            update = output.bind(entity)(result, sizing);
-            source = report;
-            sizing = copyDataProperties(source, update);
-            output = offset.id;
-            sizing = 'channel_id';
-            report[sizing] = output;
-            sizing = 'guild_id';
-            report[sizing] = kiloes;
-            sizing = 'parent_id';
-            report[sizing] = backup;
-            sizing = offset.type;
-            offset = 'channel_type';
-            report[offset] = sizing;
-            offset = _closure1_slot8;
-            offset = offset.HAS_INTERACTED;
-            offset = foxtra & offset;
-            offset = !offset;
-            foxtra = !offset;
-            offset = 'has_interacted_with_thread';
-            report[offset] = foxtra;
-            foxtra = _closure1_slot6;
-            offset = foxtra.isGuildOrCategoryOrChannelMuted;
-            foxtra = offset.bind(foxtra)(kiloes, backup);
-            offset = 'parent_is_muted';
-            report[offset] = foxtra;
-            offset = 'old_thread_notification_setting';
-            report[offset] = yankee;
-            offset = zuuluu.flags;
-            if(!(golfie != offset)) { _fun00004_ip = 375; continue _fun00003 }
+            var11 = var12.bind(var1)(var13);
+            var19 = _closure1_slot7;
+            var5 = var19.isMuted;
+            var4 = var10.id;
+            var9 = var5.bind(var19)(var4);
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var8];
+            var16 = var5.bind(var1)(var4);
+            var5 = var16.muteConfigToTimestamp;
+            var17 = var19.getMuteConfig;
+            var4 = var10.id;
+            var4 = var17.bind(var19)(var4);
+            var4 = var5.bind(var16)(var4);
+            var5 = var18.can_send_message;
+            var5 = var18.parent_channel_type;
+            var5 = {};
+            var17 = _closure1_slot4;
+            var16 = _closure1_slot3;
+            var20 = var17.bind(var1)(var18, var16);
+            var21 = var5;
+            var16 = copyDataProperties(var21, var20);
+            var17 = var10.id;
+            var16 = 'channel_id';
+            var5[var16] = var17;
+            var16 = 'guild_id';
+            var5[var16] = var15;
+            var16 = 'parent_id';
+            var5[var16] = var14;
+            var16 = var10.type;
+            var10 = 'channel_type';
+            var5[var10] = var16;
+            var10 = _closure1_slot8;
+            var10 = var10.HAS_INTERACTED;
+            var10 = var13 & var10;
+            var10 = !var10;
+            var13 = !var10;
+            var10 = 'has_interacted_with_thread';
+            var5[var10] = var13;
+            var13 = _closure1_slot6;
+            var10 = var13.isGuildOrCategoryOrChannelMuted;
+            var13 = var10.bind(var13)(var15, var14);
+            var10 = 'parent_is_muted';
+            var5[var10] = var13;
+            var10 = 'old_thread_notification_setting';
+            var5[var10] = var11;
+            var10 = var3.flags;
+            if(!(var7 != var10)) { _fun0002_ip = 375; continue _fun0002 }
  365:
-            offset = zuuluu.flags;
-            yankee = romeon.bind(entity)(offset);
+            var10 = var3.flags;
+            var11 = var12.bind(var1)(var10);
  375:
-            offset = 'new_thread_notification_setting';
-            report[offset] = yankee;
-            offset = oscard.channel_message_notification_settings;
-            oscard = 'parent_notification_setting';
-            report[oscard] = offset;
-            oscard = 'old_thread_is_muted';
-            report[oscard] = verify;
-            oscard = zuuluu.muted;
-            if(!(golfie != oscard)) { _fun00004_ip = 427; continue _fun00003 }
+            var10 = 'new_thread_notification_setting';
+            var5[var10] = var11;
+            var10 = var6.channel_message_notification_settings;
+            var6 = 'parent_notification_setting';
+            var5[var6] = var10;
+            var6 = 'old_thread_is_muted';
+            var5[var6] = var9;
+            var6 = var3.muted;
+            if(!(var7 != var6)) { _fun0002_ip = 427; continue _fun0002 }
  424:
-            verify = oscard;
+            var9 = var6;
  427:
-            oscard = 'new_thread_is_muted';
-            report[oscard] = verify;
-            oscard = 'old_thread_muted_until';
-            report[oscard] = tangon;
-            oscard = zuuluu.mute_config;
-            if(!(golfie != oscard)) { _fun00004_ip = 493; continue _fun00003 }
+            var6 = 'new_thread_is_muted';
+            var5[var6] = var9;
+            var6 = 'old_thread_muted_until';
+            var5[var6] = var4;
+            var6 = var3.mute_config;
+            if(!(var7 != var6)) { _fun0002_ip = 493; continue _fun0002 }
  459:
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            oscard = oscard[option];
-            golfie = golfie.bind(entity)(oscard);
-            oscard = golfie.muteConfigToTimestamp;
-            zuuluu = zuuluu.mute_config;
-            tangon = oscard.bind(golfie)(zuuluu);
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var8];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.muteConfigToTimestamp;
+            var3 = var3.mute_config;
+            var4 = var6.bind(var7)(var3);
  493:
-            zuuluu = 'new_thread_muted_until';
-            report[zuuluu] = tangon;
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 9;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.track;
-            michal = _closure1_slot9;
-            michal = michal.THREAD_NOTIFICATION_SETTINGS_UPDATED;
-            michal = zuuluu.bind(tangon)(michal, report);
+            var3 = 'new_thread_muted_until';
+            var5[var3] = var4;
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 9;
+            var3 = var6[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.track;
+            var2 = _closure1_slot9;
+            var2 = var2.THREAD_NOTIFICATION_SETTINGS_UPDATED;
+            var2 = var3.bind(var4)(var2, var5);
  545:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['trackThreadNotificationSettingsUpdated'] = tangon;
-    michal = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['trackThreadNotificationSettingsUpdated'] = var4;
+    var2 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            tangon = 13;
-            tangon = report[tangon];
-            report = undefined;
-            golfie = oscard.bind(report)(tangon);
-            oscard = golfie.useStateFromStores;
-            option = _closure1_slot5;
-            tangon = new Array(1);
-            tangon[0] = option;
-            entity = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.lastMessageId;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 13;
+            var4 = var5[var4];
+            var5 = undefined;
+            var7 = var6.bind(var5)(var4);
+            var6 = var7.useStateFromStores;
+            var8 = _closure1_slot5;
+            var4 = new Array(1);
+            var4[0] = var8;
+            var1 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.lastMessageId;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            option = oscard.bind(golfie)(tangon, entity);
-            tangon = null;
-            entity = tangon != option;
-            oscard = null;
-            if(!entity) { _fun00008_ip = 104; continue _fun00007 }
+            var8 = var6.bind(var7)(var4, var1);
+            var4 = null;
+            var1 = var4 != var8;
+            var6 = null;
+            if(!var1) { _fun0004_ip = 104; continue _fun0004 }
  73:
-            golfie = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 14;
-            entity = verify[entity];
-            golfie = golfie.bind(report)(entity);
-            entity = golfie.extractTimestamp;
-            oscard = entity.bind(golfie)(option);
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 14;
+            var1 = var9[var1];
+            var7 = var7.bind(var5)(var1);
+            var1 = var7.extractTimestamp;
+            var6 = var1.bind(var7)(var8);
  104:
-            entity = michal.threadMetadata;
-            golfie = tangon == entity;
-            option = undefined;
-            if(golfie) { _fun00008_ip = 125; continue _fun00007 }
+            var1 = var2.threadMetadata;
+            var7 = var4 == var1;
+            var8 = undefined;
+            if(var7) { _fun0004_ip = 125; continue _fun0004 }
  119:
-            option = entity.createTimestamp;
+            var8 = var1.createTimestamp;
  125:
-            golfie = tangon != option;
-            entity = null;
-            if(!golfie) { _fun00008_ip = 168; continue _fun00007 }
+            var7 = var4 != var8;
+            var1 = null;
+            if(!var7) { _fun0004_ip = 168; continue _fun0004 }
  134:
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            golfie = 15;
-            golfie = offset[golfie];
-            golfie = verify.bind(report)(golfie);
-            option = golfie.bind(report)(option);
-            golfie = option.valueOf;
-            entity = golfie.bind(option)();
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var7 = 15;
+            var7 = var10[var7];
+            var7 = var9.bind(var5)(var7);
+            var8 = var7.bind(var5)(var8);
+            var7 = var8.valueOf;
+            var1 = var7.bind(var8)();
  168:
-            if(!(tangon != oscard)) { _fun00008_ip = 175; continue _fun00007 }
+            if(!(var4 != var6)) { _fun0004_ip = 175; continue _fun0004 }
  172:
-            entity = oscard;
+            var1 = var6;
  175:
-            if(!(tangon == entity)) { _fun00008_ip = 215; continue _fun00007 }
+            if(!(var4 == var1)) { _fun0004_ip = 215; continue _fun0004 }
  179:
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 14;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.extractTimestamp;
-            michal = michal.id;
-            entity = zuuluu.bind(tangon)(michal);
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 14;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.extractTimestamp;
+            var2 = var2.id;
+            var1 = var3.bind(var4)(var2);
  215:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useLastMessageTimestamp'] = michal;
-    return entity;
+    var3['useLastMessageTimestamp'] = var2;
+    return var1;
 })();

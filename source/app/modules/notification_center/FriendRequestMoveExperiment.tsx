@@ -1,139 +1,139 @@
 // app/modules/notification_center/FriendRequestMoveExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    option = oscard.bind(entity)(tangon);
-    report = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2024-11_mobile_friend_request_move', 'label': 'Moves friend requests from notification center to messages'};
-    verify = {'showInDMs': false, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
-    tangon['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'shows friend requests in dms with perma badge'};
-    verify = {'showInDMs': true, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
-    offset['config'] = verify;
-    verify = new Array(3);
-    verify[0] = offset;
-    offset = {'id': 2, 'label': 'shows friend requests in dms and dismissible badge'};
-    yankee = {'showInDMs': true, 'removeBadgeAfterAck': true, 'removeItemAfterAck': false};
-    offset['config'] = yankee;
-    verify[1] = offset;
-    offset = {'id': 3, 'label': 'shows friend requests in dms and removes item after ack'};
-    yankee = {'showInDMs': true, 'removeBadgeAfterAck': true, 'removeItemAfterAck': true};
-    offset['config'] = yankee;
-    verify[2] = offset;
-    tangon['treatments'] = verify;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot4 = tangon;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/notification_center/FriendRequestMoveExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: useNumFriendRequestsForBadging
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createExperiment;
+    var4 = {'kind': 'user', 'id': '2024-11_mobile_friend_request_move', 'label': 'Moves friend requests from notification center to messages'};
+    var9 = {'showInDMs': false, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
+    var4['defaultConfig'] = var9;
+    var10 = {'id': 1, 'label': 'shows friend requests in dms with perma badge'};
+    var9 = {'showInDMs': true, 'removeBadgeAfterAck': false, 'removeItemAfterAck': false};
+    var10['config'] = var9;
+    var9 = new Array(3);
+    var9[0] = var10;
+    var10 = {'id': 2, 'label': 'shows friend requests in dms and dismissible badge'};
+    var11 = {'showInDMs': true, 'removeBadgeAfterAck': true, 'removeItemAfterAck': false};
+    var10['config'] = var11;
+    var9[1] = var10;
+    var10 = {'id': 3, 'label': 'shows friend requests in dms and removes item after ack'};
+    var11 = {'showInDMs': true, 'removeBadgeAfterAck': true, 'removeItemAfterAck': true};
+    var10['config'] = var11;
+    var9[2] = var10;
+    var4['treatments'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/notification_center/FriendRequestMoveExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var2 = function useNumFriendRequestsForBadging(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            report = argFoo;
-            michal['location'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.showInDMs;
-            michal = michal.removeBadgeAfterAck;
-            var _closure2_slot0 = michal;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 3;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = report.useStateFromStores;
-            golfie = _closure1_slot2;
-            michal = new Array(2);
-            michal[0] = golfie;
-            oscard = _closure1_slot3;
-            michal[1] = oscard;
-            entity = function() {
-                entity = _closure1_slot2;
-                zuuluu = entity.localItems;
-                michal = zuuluu.filter;
-                entity = function(argFoo) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = _closure1_slot4;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var5 = arg1;
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.showInDMs;
+            var2 = var2.removeBadgeAfterAck;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 3;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.useStateFromStores;
+            var7 = _closure1_slot2;
+            var2 = new Array(2);
+            var2[0] = var7;
+            var6 = _closure1_slot3;
+            var2[1] = var6;
+            var1 = function() {
+                var1 = _closure1_slot2;
+                var3 = var1.localItems;
+                var2 = var3.filter;
+                var1 = function(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        report = argFoo;
-                        michal = report.type;
-                        tangon = _closure1_slot0;
-                        entity = _closure1_slot1;
-                        option = 4;
-                        entity = entity[option];
-                        golfie = undefined;
-                        entity = tangon.bind(golfie)(entity);
-                        entity = entity.NotificationCenterLocalItems;
-                        entity = entity.INCOMING_FRIEND_REQUESTS;
-                        entity = michal !== entity;
-                        if(!entity) { _fun00004_ip = 90; continue _fun00003 }
+                        var5 = arg1;
+                        var2 = var5.type;
+                        var4 = _closure1_slot0;
+                        var1 = _closure1_slot1;
+                        var8 = 4;
+                        var1 = var1[var8];
+                        var7 = undefined;
+                        var1 = var4.bind(var7)(var1);
+                        var1 = var1.NotificationCenterLocalItems;
+                        var1 = var1.INCOMING_FRIEND_REQUESTS;
+                        var1 = var2 !== var1;
+                        if(!var1) { _fun0002_ip = 90; continue _fun0002 }
  52:
-                        tangon = report.type;
-                        oscard = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        michal = michal[option];
-                        michal = oscard.bind(golfie)(michal);
-                        michal = michal.NotificationCenterLocalItems;
-                        michal = michal.INCOMING_GAME_FRIEND_REQUESTS;
-                        entity = tangon !== michal;
+                        var4 = var5.type;
+                        var6 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var2 = var2[var8];
+                        var2 = var6.bind(var7)(var2);
+                        var2 = var2.NotificationCenterLocalItems;
+                        var2 = var2.INCOMING_GAME_FRIEND_REQUESTS;
+                        var1 = var4 !== var2;
  90:
-                        if(entity) { _fun00004_ip = 121; continue _fun00003 }
+                        if(var1) { _fun0002_ip = 121; continue _fun0002 }
  93:
-                        michal = _closure2_slot0;
-                        if(!michal) { _fun00004_ip = 118; continue _fun00003 }
+                        var2 = _closure2_slot0;
+                        if(!var2) { _fun0002_ip = 118; continue _fun0002 }
  103:
-                        tangon = _closure1_slot3;
-                        zuuluu = tangon.isLocalItemAcked;
-                        michal = zuuluu.bind(tangon)(report);
+                        var4 = _closure1_slot3;
+                        var3 = var4.isLocalItemAcked;
+                        var2 = var3.bind(var4)(var5);
  118:
-                        entity = michal;
+                        var1 = var2;
  121:
-                        entity = !entity;
-                        return entity;
+                        var1 = !var1;
+                        return var1;
                     }
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = entity.length;
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                var1 = var1.length;
+                return var1;
             };
-            michal = tangon.bind(report)(michal, entity);
-            entity = 0;
-            if(!zuuluu) { _fun00002_ip = 113; continue _fun00001 }
+            var2 = var4.bind(var5)(var2, var1);
+            var1 = 0;
+            if(!var3) { _fun0001_ip = 113; continue _fun0001 }
  110:
-            entity = michal;
+            var1 = var2;
  113:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useNumFriendRequestsForBadging'] = michal;
-    return entity;
+    var3['useNumFriendRequestsForBadging'] = var2;
+    return var1;
 })();

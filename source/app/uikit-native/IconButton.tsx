@@ -1,290 +1,290 @@
 // app/uikit-native/IconButton.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    backup = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = backup;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo) { // Original name: SquareIconButton
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var14 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var14;
+    var _closure1_slot2 = var7;
+    var4 = function SquareIconButton(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            romeon = michal.onPress;
-            option = michal.source;
-            golfie = michal.style;
-            yankee = michal.iconStyle;
-            backup = michal.size;
-            var _closure2_slot0 = backup;
-            verify = michal.disableColor;
-            output = michal.accessibilityLabel;
-            kiloes = michal.accessibilityHidden;
-            report = michal.disabled;
-            michal = _closure1_slot6;
-            tangon = undefined;
-            offset = michal.bind(tangon)();
-            var _closure2_slot1 = offset;
-            oscard = _closure1_slot3;
-            zuuluu = oscard.useMemo;
-            michal = new Array(2);
-            michal[0] = backup;
-            michal[1] = offset;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var12 = var2.onPress;
+            var8 = var2.source;
+            var7 = var2.style;
+            var11 = var2.iconStyle;
+            var14 = var2.size;
+            var _closure2_slot0 = var14;
+            var9 = var2.disableColor;
+            var17 = var2.accessibilityLabel;
+            var15 = var2.accessibilityHidden;
+            var5 = var2.disabled;
+            var2 = _closure1_slot6;
+            var4 = undefined;
+            var10 = var2.bind(var4)();
+            var _closure2_slot1 = var10;
+            var6 = _closure1_slot3;
+            var3 = var6.useMemo;
+            var2 = new Array(2);
+            var2[0] = var14;
+            var2[1] = var10;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure2_slot0;
-                    zuuluu = _closure1_slot5;
-                    zuuluu = zuuluu.MEDIUM_32;
-                    if(!(zuuluu !== tangon)) { _fun00004_ip = 72; continue _fun00003 }
+                    var4 = _closure2_slot0;
+                    var3 = _closure1_slot5;
+                    var3 = var3.MEDIUM_32;
+                    if(!(var3 !== var4)) { _fun0002_ip = 72; continue _fun0002 }
  24:
-                    zuuluu = _closure1_slot5;
-                    zuuluu = zuuluu.LARGE_40;
-                    if(!(zuuluu !== tangon)) { _fun00004_ip = 60; continue _fun00003 }
+                    var3 = _closure1_slot5;
+                    var3 = var3.LARGE_40;
+                    if(!(var3 !== var4)) { _fun0002_ip = 60; continue _fun0002 }
  38:
-                    michal = _closure1_slot5;
-                    michal = michal.SMALL_24;
-                    michal = _closure2_slot1;
-                    michal = michal.small;
-                    return michal;
+                    var2 = _closure1_slot5;
+                    var2 = var2.SMALL_24;
+                    var2 = _closure2_slot1;
+                    var2 = var2.small;
+                    return var2;
  60:
-                    michal = _closure2_slot1;
-                    michal = michal.large;
-                    return michal;
+                    var2 = _closure2_slot1;
+                    var2 = var2.large;
+                    return var2;
  72:
-                    entity = _closure2_slot1;
-                    entity = entity.medium;
-                    return entity;
+                    var1 = _closure2_slot1;
+                    var1 = var1.medium;
+                    return var1;
                 }
             };
-            oscard = zuuluu.bind(oscard)(entity, michal);
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot0;
-            sizing = _closure1_slot2;
-            entity = 5;
-            entity = sizing[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.PressableOpacity;
-            entity = {};
-            sizing = 'button';
-            entity['accessibilityRole'] = sizing;
-            sizing = undefined;
-            if(kiloes) { _fun00002_ip = 156; continue _fun00001 }
+            var6 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var1 = 5;
+            var1 = var16[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.PressableOpacity;
+            var1 = {};
+            var16 = 'button';
+            var1['accessibilityRole'] = var16;
+            var16 = undefined;
+            if(var15) { _fun0001_ip = 156; continue _fun0001 }
  153:
-            sizing = output;
+            var16 = var17;
  156:
-            entity['accessibilityLabel'] = sizing;
-            entity['accessibilityElementsHidden'] = kiloes;
-            entity['onPress'] = romeon;
-            entity['disabled'] = report;
-            romeon = offset.container;
-            report = new Array(3);
-            report[0] = romeon;
-            report[1] = golfie;
-            report[2] = oscard;
-            entity['style'] = report;
-            golfie = _closure1_slot4;
-            oscard = _closure1_slot1;
-            report = _closure1_slot2;
-            kiloes = 6;
-            report = report[kiloes];
-            oscard = oscard.bind(tangon)(report);
-            report = {};
-            romeon = _closure1_slot5;
-            romeon = romeon.LARGE_40;
-            if(!(backup !== romeon)) { _fun00002_ip = 269; continue _fun00001 }
+            var1['accessibilityLabel'] = var16;
+            var1['accessibilityElementsHidden'] = var15;
+            var1['onPress'] = var12;
+            var1['disabled'] = var5;
+            var12 = var10.container;
+            var5 = new Array(3);
+            var5[0] = var12;
+            var5[1] = var7;
+            var5[2] = var6;
+            var1['style'] = var5;
+            var7 = _closure1_slot4;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var15 = 6;
+            var5 = var5[var15];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var12 = _closure1_slot5;
+            var12 = var12.LARGE_40;
+            if(!(var14 !== var12)) { _fun0001_ip = 269; continue _fun0001 }
  238:
-            backup = _closure1_slot1;
-            romeon = _closure1_slot2;
-            romeon = romeon[kiloes];
-            romeon = backup.bind(tangon)(romeon);
-            romeon = romeon.Sizes;
-            romeon = romeon.REFRESH_SMALL_16;
-            _fun00002_ip = 298; continue _fun00001;
+            var14 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var12 = var12[var15];
+            var12 = var14.bind(var4)(var12);
+            var12 = var12.Sizes;
+            var12 = var12.REFRESH_SMALL_16;
+            _fun0001_ip = 298; continue _fun0001;
  269:
-            backup = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            foxtra = foxtra[kiloes];
-            foxtra = backup.bind(tangon)(foxtra);
-            foxtra = foxtra.Sizes;
-            romeon = foxtra.MEDIUM;
+            var14 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var13 = var13[var15];
+            var13 = var14.bind(var4)(var13);
+            var13 = var13.Sizes;
+            var12 = var13.MEDIUM;
  298:
-            report['size'] = romeon;
-            romeon = null;
-            if(verify) { _fun00002_ip = 312; continue _fun00001 }
+            var5['size'] = var12;
+            var12 = null;
+            if(var9) { _fun0001_ip = 312; continue _fun0001 }
  307:
-            romeon = offset.icon;
+            var12 = var10.icon;
  312:
-            offset = new Array(2);
-            offset[0] = romeon;
-            offset[1] = yankee;
-            report['style'] = offset;
-            report['disableColor'] = verify;
-            report['source'] = option;
-            report = golfie.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var10 = new Array(2);
+            var10[0] = var12;
+            var10[1] = var11;
+            var5['style'] = var10;
+            var5['disableColor'] = var9;
+            var5['source'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    michal = function(argFoo) { // Original name: CircularIconButton
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var4;
+    var2 = function CircularIconButton(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            verify = zuuluu.style;
-            golfie = zuuluu.size;
-            oscard = zuuluu.disableColor;
-            michal = {'style': 0, 'size': 0, 'disableColor': 0};
-            foxtra = null;
-            backup = michal;
-            entity = silentSetPrototypeOf(backup, foxtra);
-            backup = {};
-            foxtra = zuuluu;
-            romeon = michal;
-            report = copyDataProperties(backup, foxtra, romeon);
-            entity = _closure1_slot6;
-            tangon = undefined;
-            option = entity.bind(tangon)();
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot7;
-            entity = {};
-            yankee = _closure1_slot5;
-            yankee = yankee.SMALL_24;
-            if(!(yankee !== golfie)) { _fun00006_ip = 133; continue _fun00005 }
+            var3 = arg1;
+            var9 = var3.style;
+            var7 = var3.size;
+            var6 = var3.disableColor;
+            var2 = {'style': 0, 'size': 0, 'disableColor': 0};
+            var13 = null;
+            var14 = var2;
+            var1 = silentSetPrototypeOf(var14, var13);
+            var14 = {};
+            var13 = var3;
+            var12 = var2;
+            var5 = copyDataProperties(var14, var13, var12);
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var8 = var1.bind(var4)();
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot7;
+            var1 = {};
+            var11 = _closure1_slot5;
+            var11 = var11.SMALL_24;
+            if(!(var11 !== var7)) { _fun0003_ip = 133; continue _fun0003 }
  87:
-            yankee = _closure1_slot5;
-            yankee = yankee.MEDIUM_32;
-            if(!(yankee !== golfie)) { _fun00006_ip = 125; continue _fun00005 }
+            var11 = _closure1_slot5;
+            var11 = var11.MEDIUM_32;
+            if(!(var11 !== var7)) { _fun0003_ip = 125; continue _fun0003 }
  101:
-            offset = _closure1_slot5;
-            yankee = offset.LARGE_40;
-            offset = undefined;
-            if(!(yankee === golfie)) { _fun00006_ip = 139; continue _fun00005 }
+            var10 = _closure1_slot5;
+            var11 = var10.LARGE_40;
+            var10 = undefined;
+            if(!(var11 === var7)) { _fun0003_ip = 139; continue _fun0003 }
  117:
-            offset = option.largeCircular;
-            _fun00006_ip = 139; continue _fun00005;
+            var10 = var8.largeCircular;
+            _fun0003_ip = 139; continue _fun0003;
  125:
-            offset = option.mediumCircular;
-            _fun00006_ip = 139; continue _fun00005;
+            var10 = var8.mediumCircular;
+            _fun0003_ip = 139; continue _fun0003;
  133:
-            offset = option.smallCircular;
+            var10 = var8.smallCircular;
  139:
-            option = new Array(2);
-            option[0] = offset;
-            option[1] = verify;
-            entity['style'] = option;
-            entity['size'] = golfie;
-            backup = entity;
-            foxtra = report;
-            report = copyDataProperties(backup, foxtra);
-            report = 'disableColor';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var8 = new Array(2);
+            var8[0] = var10;
+            var8[1] = var9;
+            var1['style'] = var8;
+            var1['size'] = var7;
+            var14 = var1;
+            var13 = var5;
+            var5 = copyDataProperties(var14, var13);
+            var5 = 'disableColor';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot4 = report;
-    report = {};
-    offset = 24;
-    report['SMALL_24'] = offset;
-    option = 'SMALL_24';
-    report[offset] = option;
-    offset = 32;
-    report['MEDIUM_32'] = offset;
-    option = 'MEDIUM_32';
-    report[offset] = option;
-    offset = 40;
-    report['LARGE_40'] = offset;
-    option = 'LARGE_40';
-    report[offset] = option;
-    var _closure1_slot5 = report;
-    kiloes = 2;
-    option = golfie[kiloes];
-    yankee = oscard.bind(entity)(option);
-    offset = yankee.createStyles;
-    option = {};
-    romeon = {'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
-    foxtra = 3;
-    foxtra = golfie[foxtra];
-    foxtra = backup.bind(entity)(foxtra);
-    foxtra = foxtra.radii;
-    foxtra = foxtra.xs;
-    romeon['borderRadius'] = foxtra;
-    foxtra = 4;
-    backup = golfie[foxtra];
-    backup = oscard.bind(entity)(backup);
-    backup = backup.DARK_PRIMARY_700_LIGHT_PRIMARY_230;
-    romeon['backgroundColor'] = backup;
-    option['container'] = romeon;
-    romeon = {};
-    backup = report.SMALL_24;
-    romeon['height'] = backup;
-    backup = report.SMALL_24;
-    romeon['width'] = backup;
-    option['small'] = romeon;
-    romeon = {};
-    backup = report.MEDIUM_32;
-    romeon['height'] = backup;
-    backup = report.MEDIUM_32;
-    romeon['width'] = backup;
-    option['medium'] = romeon;
-    romeon = {};
-    backup = report.LARGE_40;
-    romeon['height'] = backup;
-    backup = report.LARGE_40;
-    romeon['width'] = backup;
-    option['large'] = romeon;
-    romeon = {};
-    backup = report.SMALL_24;
-    backup = backup / kiloes;
-    romeon['borderRadius'] = backup;
-    option['smallCircular'] = romeon;
-    romeon = {};
-    backup = report.MEDIUM_32;
-    backup = backup / kiloes;
-    romeon['borderRadius'] = backup;
-    option['mediumCircular'] = romeon;
-    romeon = {};
-    backup = report.LARGE_40;
-    backup = backup / kiloes;
-    romeon['borderRadius'] = backup;
-    option['largeCircular'] = romeon;
-    romeon = {};
-    foxtra = golfie[foxtra];
-    foxtra = oscard.bind(entity)(foxtra);
-    foxtra = foxtra.DARK_PRIMARY_300_LIGHT_PRIMARY_500;
-    romeon['tintColor'] = foxtra;
-    option['icon'] = romeon;
-    option = offset.bind(yankee)(option);
-    var _closure1_slot6 = option;
-    tangon['Sizes'] = report;
-    michal['Sizes'] = report;
-    report = 7;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'uikit-native/IconButton.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['SquareIconButton'] = tangon;
-    zuuluu['CircularIconButton'] = michal;
-    return entity;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot4 = var5;
+    var5 = {};
+    var10 = 24;
+    var5['SMALL_24'] = var10;
+    var8 = 'SMALL_24';
+    var5[var10] = var8;
+    var10 = 32;
+    var5['MEDIUM_32'] = var10;
+    var8 = 'MEDIUM_32';
+    var5[var10] = var8;
+    var10 = 40;
+    var5['LARGE_40'] = var10;
+    var8 = 'LARGE_40';
+    var5[var10] = var8;
+    var _closure1_slot5 = var5;
+    var15 = 2;
+    var8 = var7[var15];
+    var11 = var6.bind(var1)(var8);
+    var10 = var11.createStyles;
+    var8 = {};
+    var12 = {'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
+    var13 = 3;
+    var13 = var7[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.xs;
+    var12['borderRadius'] = var13;
+    var13 = 4;
+    var14 = var7[var13];
+    var14 = var6.bind(var1)(var14);
+    var14 = var14.DARK_PRIMARY_700_LIGHT_PRIMARY_230;
+    var12['backgroundColor'] = var14;
+    var8['container'] = var12;
+    var12 = {};
+    var14 = var5.SMALL_24;
+    var12['height'] = var14;
+    var14 = var5.SMALL_24;
+    var12['width'] = var14;
+    var8['small'] = var12;
+    var12 = {};
+    var14 = var5.MEDIUM_32;
+    var12['height'] = var14;
+    var14 = var5.MEDIUM_32;
+    var12['width'] = var14;
+    var8['medium'] = var12;
+    var12 = {};
+    var14 = var5.LARGE_40;
+    var12['height'] = var14;
+    var14 = var5.LARGE_40;
+    var12['width'] = var14;
+    var8['large'] = var12;
+    var12 = {};
+    var14 = var5.SMALL_24;
+    var14 = var14 / var15;
+    var12['borderRadius'] = var14;
+    var8['smallCircular'] = var12;
+    var12 = {};
+    var14 = var5.MEDIUM_32;
+    var14 = var14 / var15;
+    var12['borderRadius'] = var14;
+    var8['mediumCircular'] = var12;
+    var12 = {};
+    var14 = var5.LARGE_40;
+    var14 = var14 / var15;
+    var12['borderRadius'] = var14;
+    var8['largeCircular'] = var12;
+    var12 = {};
+    var13 = var7[var13];
+    var13 = var6.bind(var1)(var13);
+    var13 = var13.DARK_PRIMARY_300_LIGHT_PRIMARY_500;
+    var12['tintColor'] = var13;
+    var8['icon'] = var12;
+    var8 = var10.bind(var11)(var8);
+    var _closure1_slot6 = var8;
+    var4['Sizes'] = var5;
+    var2['Sizes'] = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'uikit-native/IconButton.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['SquareIconButton'] = var4;
+    var3['CircularIconButton'] = var2;
+    return var1;
 })();

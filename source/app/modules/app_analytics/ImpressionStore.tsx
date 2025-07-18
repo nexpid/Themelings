@@ -1,199 +1,199 @@
 // app/modules/app_analytics/ImpressionStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    tangon = true;
-    report['value'] = tangon;
-    tangon = '__esModule';
-    tangon = option.bind(verify)(zuuluu, tangon, report);
-    report = entity.Object;
-    tangon = report.freeze;
-    entity = {};
-    option = null;
-    entity['debugTrackedData'] = option;
-    option = new Array(0);
-    entity['impressions'] = option;
-    entity = tangon.bind(report)(entity);
-    var _closure1_slot2 = entity;
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    option = oscard.bind(entity)(tangon);
-    report = option.createWithEqualityFn;
-    tangon = function() {
-        entity = _closure1_slot2;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var4 = true;
+    var5['value'] = var4;
+    var4 = '__esModule';
+    var4 = var8.bind(var9)(var3, var4, var5);
+    var5 = var1.Object;
+    var4 = var5.freeze;
+    var1 = {};
+    var8 = null;
+    var1['debugTrackedData'] = var8;
+    var8 = new Array(0);
+    var1['impressions'] = var8;
+    var1 = var4.bind(var5)(var1);
+    var _closure1_slot2 = var1;
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createWithEqualityFn;
+    var4 = function() {
+        var1 = _closure1_slot2;
+        return var1;
     };
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/app_analytics/ImpressionStore.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = function(argFoo) {
-                entity = {};
-                michal = argFoo;
-                oscard = michal.impressions;
-                michal = new Array(1);
-                report = 0;
-                golfie = michal;
-                tangon = arraySpread(golfie, oscard, report);
-                zuuluu = _closure2_slot0;
-                michal[tangon] = zuuluu;
-                zuuluu = 1;
-                zuuluu = tangon + zuuluu;
-                entity['impressions'] = michal;
-                return entity;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/app_analytics/ImpressionStore.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = function(arg1) {
+                var1 = {};
+                var2 = arg1;
+                var6 = var2.impressions;
+                var2 = new Array(1);
+                var5 = 0;
+                var7 = var2;
+                var4 = arraySpread(var7, var6, var5);
+                var3 = _closure2_slot0;
+                var2[var4] = var3;
+                var3 = 1;
+                var3 = var4 + var3;
+                var1['impressions'] = var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setCurrentImpression'] = report;
-    report = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = function(argFoo) {
-                entity = {};
-                michal = argFoo;
-                tangon = michal.impressions;
-                zuuluu = tangon.filter;
-                michal = function(argFoo) {
-                    entity = argFoo;
-                    michal = entity.sequenceId;
-                    entity = _closure2_slot0;
-                    entity = entity.sequenceId;
-                    entity = michal !== entity;
-                    return entity;
+    var3['setCurrentImpression'] = var5;
+    var5 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = function(arg1) {
+                var1 = {};
+                var2 = arg1;
+                var4 = var2.impressions;
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.sequenceId;
+                    var1 = _closure2_slot0;
+                    var1 = var1.sequenceId;
+                    var1 = var2 !== var1;
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                entity['impressions'] = michal;
-                return entity;
+                var2 = var3.bind(var4)(var2);
+                var1['impressions'] = var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['cleanupImpression'] = report;
-    report = function(argFoo, argBar) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = function() {
-                entity = {};
-                michal = {};
-                tangon = _closure2_slot0;
-                michal['name'] = tangon;
-                report = _closure2_slot1;
-                oscard = michal;
-                zuuluu = copyDataProperties(oscard, report);
-                entity['debugTrackedData'] = michal;
-                return entity;
+    var3['cleanupImpression'] = var5;
+    var5 = function(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = function() {
+                var1 = {};
+                var2 = {};
+                var4 = _closure2_slot0;
+                var2['name'] = var4;
+                var5 = _closure2_slot1;
+                var6 = var2;
+                var3 = copyDataProperties(var6, var5);
+                var1['debugTrackedData'] = var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setDebugTrackedData'] = report;
-    zuuluu['useImpressionStore'] = tangon;
-    tangon = function() { // Original name: getLocation
-        entity = {};
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.getState;
-        zuuluu = zuuluu.bind(tangon)();
-        tangon = zuuluu.impressions;
-        zuuluu = tangon.forEach;
-        michal = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['setDebugTrackedData'] = var5;
+    var3['useImpressionStore'] = var4;
+    var4 = function getLocation() {
+        var1 = {};
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot3;
+        var3 = var4.getState;
+        var3 = var3.bind(var4)();
+        var4 = var3.impressions;
+        var3 = var4.forEach;
+        var2 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                tangon = michal.type;
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 2;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                zuuluu = report.bind(entity)(zuuluu);
-                zuuluu = zuuluu.ImpressionTypes;
-                zuuluu = zuuluu.PAGE;
-                if(!(tangon !== zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
+                var2 = arg1;
+                var4 = var2.type;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 2;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var5.bind(var1)(var3);
+                var3 = var3.ImpressionTypes;
+                var3 = var3.PAGE;
+                if(!(var4 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
  49:
-                tangon = _closure2_slot0;
-                zuuluu = michal.name;
-                tangon['section'] = zuuluu;
-                _fun00002_ip = 87; continue _fun00001;
+                var4 = _closure2_slot0;
+                var3 = var2.name;
+                var4['section'] = var3;
+                _fun0001_ip = 87; continue _fun0001;
  69:
-                zuuluu = _closure2_slot0;
-                michal = michal.name;
-                zuuluu['page'] = michal;
+                var3 = _closure2_slot0;
+                var2 = var2.name;
+                var3['page'] = var2;
  87:
-                return entity;
+                return var1;
             }
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['getLocation'] = tangon;
-    michal = function() { // Original name: getImpressionStack
-        michal = _closure1_slot3;
-        entity = michal.getState;
-        entity = entity.bind(michal)();
-        entity = entity.impressions;
-        return entity;
+    var3['getLocation'] = var4;
+    var2 = function getImpressionStack() {
+        var2 = _closure1_slot3;
+        var1 = var2.getState;
+        var1 = var1.bind(var2)();
+        var1 = var1.impressions;
+        return var1;
     };
-    zuuluu['getImpressionStack'] = michal;
-    return entity;
+    var3['getImpressionStack'] = var2;
+    return var1;
 })();

@@ -1,64 +1,64 @@
 // app/modules/user_profile/UserProfileRoleUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/user_profile/UserProfileRoleUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: sortRolesByVerification
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/user_profile/UserProfileRoleUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function sortRolesByVerification(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.tags;
-            entity = null;
-            report = entity == tangon;
-            michal = undefined;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 28; continue _fun00001 }
+            var1 = arg1;
+            var4 = var1.tags;
+            var1 = null;
+            var5 = var1 == var4;
+            var2 = undefined;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 28; continue _fun0001 }
  22:
-            zuuluu = tangon.guild_connections;
+            var3 = var4.guild_connections;
  28:
-            report = michal !== zuuluu;
-            zuuluu = argBar;
-            zuuluu = zuuluu.tags;
-            tangon = entity == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 56; continue _fun00001 }
+            var5 = var2 !== var3;
+            var3 = arg2;
+            var3 = var3.tags;
+            var4 = var1 == var3;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 56; continue _fun0001 }
  50:
-            entity = zuuluu.guild_connections;
+            var1 = var3.guild_connections;
  56:
-            zuuluu = michal !== entity;
-            if(!report) { _fun00002_ip = 69; continue _fun00001 }
+            var3 = var2 !== var1;
+            if(!var5) { _fun0001_ip = 69; continue _fun0001 }
  63:
-            entity = 1;
-            if(!zuuluu) { _fun00002_ip = 88; continue _fun00001 }
+            var1 = 1;
+            if(!var3) { _fun0001_ip = 88; continue _fun0001 }
  69:
-            michal = 0;
-            if(report) { _fun00002_ip = 85; continue _fun00001 }
+            var2 = 0;
+            if(var5) { _fun0001_ip = 85; continue _fun0001 }
  74:
-            michal = 0;
-            if(!zuuluu) { _fun00002_ip = 85; continue _fun00001 }
+            var2 = 0;
+            if(!var3) { _fun0001_ip = 85; continue _fun0001 }
  79:
-            michal = -1;
+            var2 = -1;
  85:
-            entity = michal;
+            var1 = var2;
  88:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['sortRolesByVerification'] = michal;
-    return entity;
+    var3['sortRolesByVerification'] = var2;
+    return var1;
 })();

@@ -1,127 +1,127 @@
 // discord_common/js/packages/media-engine/native/inject.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = function() { // Original name: assertInjected
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = function assertInjected() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot0;
-            entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 17; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var1 = null;
+            if(!(var1 != var2)) { _fun0001_ip = 17; continue _fun0001 }
  13:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  17:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = 'Native dependencies have not been injected.';
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = 'Native dependencies have not been injected.';
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/media-engine/native/inject.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: inject
-        entity = argFoo;
-        var _closure1_slot0 = entity;
-        entity = undefined;
-        return entity;
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/media-engine/native/inject.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function inject(arg1) {
+        var1 = arg1;
+        var _closure1_slot0 = var1;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['inject'] = tangon;
-    tangon = function() { // Original name: supported
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        michal = zuuluu.bind(michal)();
-        michal = _closure1_slot0;
-        entity = michal.supported;
-        entity = entity.bind(michal)();
-        return entity;
+    var3['inject'] = var4;
+    var4 = function supported() {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var2 = var3.bind(var2)();
+        var2 = _closure1_slot0;
+        var1 = var2.supported;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    zuuluu['supported'] = tangon;
-    tangon = function(argFoo) { // Original name: supportsFeature
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        michal = zuuluu.bind(michal)();
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.supportsFeature;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['supported'] = var4;
+    var4 = function supportsFeature(arg1) {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var2 = var3.bind(var2)();
+        var3 = _closure1_slot0;
+        var2 = var3.supportsFeature;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['supportsFeature'] = tangon;
-    tangon = function(argFoo) { // Original name: setProcessPriority
-        zuuluu = _closure1_slot3;
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)();
-        tangon = _closure1_slot0;
-        zuuluu = tangon.setProcessPriority;
-        michal = argFoo;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['supportsFeature'] = var4;
+    var4 = function setProcessPriority(arg1) {
+        var3 = _closure1_slot3;
+        var1 = undefined;
+        var3 = var3.bind(var1)();
+        var4 = _closure1_slot0;
+        var3 = var4.setProcessPriority;
+        var2 = arg1;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setProcessPriority'] = tangon;
-    tangon = function() { // Original name: getVoiceEngine
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['setProcessPriority'] = var4;
+    var4 = function getVoiceEngine() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = undefined;
-            entity = zuuluu.bind(entity)();
-            zuuluu = _closure1_slot1;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00004_ip = 43; continue _fun00003 }
+            var3 = _closure1_slot3;
+            var1 = undefined;
+            var1 = var3.bind(var1)();
+            var3 = _closure1_slot1;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0002_ip = 43; continue _fun0002 }
  23:
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.getVoiceEngine;
-            entity = entity.bind(zuuluu)();
-            var _closure1_slot1 = entity;
-            _fun00004_ip = 47; continue _fun00003;
+            var3 = _closure1_slot0;
+            var1 = var3.getVoiceEngine;
+            var1 = var1.bind(var3)();
+            var _closure1_slot1 = var1;
+            _fun0002_ip = 47; continue _fun0002;
  43:
-            entity = _closure1_slot1;
+            var1 = _closure1_slot1;
  47:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getVoiceEngine'] = tangon;
-    michal = function() { // Original name: getVoiceFilters
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getVoiceEngine'] = var4;
+    var2 = function getVoiceFilters() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = undefined;
-            entity = zuuluu.bind(entity)();
-            zuuluu = _closure1_slot2;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00006_ip = 43; continue _fun00005 }
+            var3 = _closure1_slot3;
+            var1 = undefined;
+            var1 = var3.bind(var1)();
+            var3 = _closure1_slot2;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0003_ip = 43; continue _fun0003 }
  23:
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.getVoiceFilters;
-            entity = entity.bind(zuuluu)();
-            var _closure1_slot2 = entity;
-            _fun00006_ip = 47; continue _fun00005;
+            var3 = _closure1_slot0;
+            var1 = var3.getVoiceFilters;
+            var1 = var1.bind(var3)();
+            var _closure1_slot2 = var1;
+            _fun0003_ip = 47; continue _fun0003;
  43:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  47:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getVoiceFilters'] = michal;
-    return entity;
+    var3['getVoiceFilters'] = var2;
+    return var1;
 })();

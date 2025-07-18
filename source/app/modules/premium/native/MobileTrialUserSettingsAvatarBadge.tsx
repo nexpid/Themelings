@@ -1,347 +1,347 @@
 // app/modules/premium/native/MobileTrialUserSettingsAvatarBadge.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PremiumSubscriptionSKUs;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot6 = golfie;
-    golfie = tangon.Fragment;
-    var _closure1_slot7 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = 'absolute';
-    verify['position'] = offset;
-    tangon['sparkleContainer'] = verify;
-    verify = {'width': 12, 'height': 12};
-    tangon['sparkle'] = verify;
-    verify = {'width': 4, 'height': 4};
-    offset = 6;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.HEADER_PRIMARY;
-    verify['tintColor'] = offset;
-    tangon['sparkle2'] = verify;
-    verify = {'width': 8, 'height': 8};
-    tangon['star'] = verify;
-    verify = {'bottom': 4294967290, 'left': 4294967288};
-    tangon['defaultSparklePosition'] = verify;
-    verify = {'bottom': 16, 'left': 4294967294};
-    tangon['defaultSparkle2Position'] = verify;
-    verify = {'top': 4294967292, 'right': 4294967288};
-    tangon['defaultStarPosition'] = verify;
-    verify = {'bottom': 4294967288, 'left': 4294967286};
-    tangon['avatarSparklePosition'] = verify;
-    verify = {'bottom': 16, 'left': 4294967294};
-    tangon['avatarSparkle2Position'] = verify;
-    verify = {'top': 4294967292, 'right': 4294967286};
-    tangon['avatarStarPosition'] = verify;
-    verify = {};
-    yankee = {};
-    offset = '20deg';
-    yankee['rotate'] = offset;
-    offset = new Array(1);
-    offset[0] = yankee;
-    verify['transform'] = offset;
-    tangon['sparkle2Transform'] = verify;
-    verify = {};
-    yankee = {};
-    offset = '-165deg';
-    yankee['rotate'] = offset;
-    offset = new Array(1);
-    offset[0] = yankee;
-    verify['transform'] = offset;
-    tangon['starTransform'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot9 = tangon;
-    tangon = 18;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/native/MobileTrialUserSettingsAvatarBadge.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: MobileTrialUserSettingsAvatarBadge
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PremiumSubscriptionSKUs;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot7 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = 'absolute';
+    var9['position'] = var10;
+    var4['sparkleContainer'] = var9;
+    var9 = {'width': 12, 'height': 12};
+    var4['sparkle'] = var9;
+    var9 = {'width': 4, 'height': 4};
+    var10 = 6;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.HEADER_PRIMARY;
+    var9['tintColor'] = var10;
+    var4['sparkle2'] = var9;
+    var9 = {'width': 8, 'height': 8};
+    var4['star'] = var9;
+    var9 = {'bottom': 4294967290, 'left': 4294967288};
+    var4['defaultSparklePosition'] = var9;
+    var9 = {'bottom': 16, 'left': 4294967294};
+    var4['defaultSparkle2Position'] = var9;
+    var9 = {'top': 4294967292, 'right': 4294967288};
+    var4['defaultStarPosition'] = var9;
+    var9 = {'bottom': 4294967288, 'left': 4294967286};
+    var4['avatarSparklePosition'] = var9;
+    var9 = {'bottom': 16, 'left': 4294967294};
+    var4['avatarSparkle2Position'] = var9;
+    var9 = {'top': 4294967292, 'right': 4294967286};
+    var4['avatarStarPosition'] = var9;
+    var9 = {};
+    var11 = {};
+    var10 = '20deg';
+    var11['rotate'] = var10;
+    var10 = new Array(1);
+    var10[0] = var11;
+    var9['transform'] = var10;
+    var4['sparkle2Transform'] = var9;
+    var9 = {};
+    var11 = {};
+    var10 = '-165deg';
+    var11['rotate'] = var10;
+    var10 = new Array(1);
+    var10[0] = var11;
+    var9['transform'] = var10;
+    var4['starTransform'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 18;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/native/MobileTrialUserSettingsAvatarBadge.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function MobileTrialUserSettingsAvatarBadge() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = _closure1_slot9;
-            tangon = undefined;
-            golfie = entity.bind(tangon)();
-            var _closure2_slot0 = golfie;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            entity = zuuluu[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.usePremiumTrialOffer;
-            zuuluu = entity.bind(michal)();
-            michal = null;
-            option = michal == zuuluu;
-            entity = undefined;
-            if(option) { _fun00002_ip = 66; continue _fun00001 }
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var7 = var1.bind(var4)();
+            var _closure2_slot0 = var7;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.usePremiumTrialOffer;
+            var3 = var1.bind(var2)();
+            var2 = null;
+            var8 = var2 == var3;
+            var1 = undefined;
+            if(var8) { _fun0001_ip = 66; continue _fun0001 }
  60:
-            entity = zuuluu.subscription_trial;
+            var1 = var3.subscription_trial;
  66:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = offset[zuuluu];
-            option = verify.bind(tangon)(zuuluu);
-            zuuluu = option.useShouldShowPremiumTrialUserSettingsAvatarBadge;
-            zuuluu = zuuluu.bind(option)();
-            option = 9;
-            option = offset[option];
-            yankee = verify.bind(tangon)(option);
-            offset = yankee.useStateFromStores;
-            option = _closure1_slot4;
-            verify = new Array(1);
-            verify[0] = option;
-            option = function() {
-                michal = _closure1_slot4;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 8;
+            var3 = var10[var3];
+            var8 = var9.bind(var4)(var3);
+            var3 = var8.useShouldShowPremiumTrialUserSettingsAvatarBadge;
+            var3 = var3.bind(var8)();
+            var8 = 9;
+            var8 = var10[var8];
+            var11 = var9.bind(var4)(var8);
+            var10 = var11.useStateFromStores;
+            var8 = _closure1_slot4;
+            var9 = new Array(1);
+            var9[0] = var8;
+            var8 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = offset.bind(yankee)(verify, option);
-            if(zuuluu) { _fun00002_ip = 143; continue _fun00001 }
+            var8 = var10.bind(var11)(var9, var8);
+            if(var3) { _fun0001_ip = 143; continue _fun0001 }
  141:
-            return michal;
+            return var2;
  143:
-            verify = michal == option;
-            zuuluu = undefined;
-            if(verify) { _fun00002_ip = 158; continue _fun00001 }
+            var9 = var2 == var8;
+            var3 = undefined;
+            if(var9) { _fun0001_ip = 158; continue _fun0001 }
  152:
-            zuuluu = option.avatar;
+            var3 = var8.avatar;
  158:
-            zuuluu = michal != zuuluu;
-            if(zuuluu) { _fun00002_ip = 173; continue _fun00001 }
+            var3 = var2 != var3;
+            if(var3) { _fun0001_ip = 173; continue _fun0001 }
  165:
-            option = golfie.defaultSparklePosition;
-            _fun00002_ip = 179; continue _fun00001;
+            var8 = var7.defaultSparklePosition;
+            _fun0001_ip = 179; continue _fun0001;
  173:
-            option = golfie.avatarSparklePosition;
+            var8 = var7.avatarSparklePosition;
  179:
-            var _closure2_slot1 = option;
-            if(zuuluu) { _fun00002_ip = 194; continue _fun00001 }
+            var _closure2_slot1 = var8;
+            if(var3) { _fun0001_ip = 194; continue _fun0001 }
  186:
-            option = golfie.defaultSparkle2Position;
-            _fun00002_ip = 200; continue _fun00001;
+            var8 = var7.defaultSparkle2Position;
+            _fun0001_ip = 200; continue _fun0001;
  194:
-            option = golfie.avatarSparkle2Position;
+            var8 = var7.avatarSparkle2Position;
  200:
-            var _closure2_slot2 = option;
-            if(zuuluu) { _fun00002_ip = 215; continue _fun00001 }
+            var _closure2_slot2 = var8;
+            if(var3) { _fun0001_ip = 215; continue _fun0001 }
  207:
-            zuuluu = golfie.defaultStarPosition;
-            _fun00002_ip = 221; continue _fun00001;
+            var3 = var7.defaultStarPosition;
+            _fun0001_ip = 221; continue _fun0001;
  215:
-            zuuluu = golfie.avatarStarPosition;
+            var3 = var7.avatarStarPosition;
  221:
-            var _closure2_slot3 = zuuluu;
-            zuuluu = michal == entity;
-            golfie = undefined;
-            if(zuuluu) { _fun00002_ip = 240; continue _fun00001 }
+            var _closure2_slot3 = var3;
+            var3 = var2 == var1;
+            var7 = undefined;
+            if(var3) { _fun0001_ip = 240; continue _fun0001 }
  234:
-            golfie = entity.sku_id;
+            var7 = var1.sku_id;
  240:
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.TIER_0;
-            if(!(golfie !== zuuluu)) { _fun00002_ip = 276; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var3 = var3.TIER_0;
+            if(!(var7 !== var3)) { _fun0001_ip = 276; continue _fun0001 }
  254:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 11;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            _fun00002_ip = 296; continue _fun00001;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 11;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            _fun0001_ip = 296; continue _fun0001;
  276:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            golfie = 10;
-            golfie = verify[golfie];
-            zuuluu = option.bind(tangon)(golfie);
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 10;
+            var7 = var9[var7];
+            var3 = var8.bind(var4)(var7);
  296:
-            var _closure2_slot4 = zuuluu;
-            zuuluu = michal == entity;
-            michal = undefined;
-            if(zuuluu) { _fun00002_ip = 315; continue _fun00001 }
+            var _closure2_slot4 = var3;
+            var3 = var2 == var1;
+            var2 = undefined;
+            if(var3) { _fun0001_ip = 315; continue _fun0001 }
  309:
-            michal = entity.sku_id;
+            var2 = var1.sku_id;
  315:
-            entity = _closure1_slot5;
-            entity = entity.TIER_0;
-            if(!(michal !== entity)) { _fun00002_ip = 351; continue _fun00001 }
+            var1 = _closure1_slot5;
+            var1 = var1.TIER_0;
+            if(!(var2 !== var1)) { _fun0001_ip = 351; continue _fun0001 }
  329:
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 13;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            _fun00002_ip = 371; continue _fun00001;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 13;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            _fun0001_ip = 371; continue _fun0001;
  351:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 12;
-            michal = golfie[michal];
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 12;
+            var2 = var7[var2];
+            var1 = var3.bind(var4)(var2);
  371:
-            var _closure2_slot5 = entity;
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 14;
-            entity = option[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            golfie = _closure1_slot0;
-            oscard = 15;
-            oscard = option[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            oscard = oscard.DismissibleContent;
-            golfie = oscard.PREMIUM_MOBILE_TRIAL_USER_SETTINGS_AVATAR_BADGE;
-            oscard = new Array(1);
-            oscard[0] = golfie;
-            entity['contentTypes'] = oscard;
-            report = function(argFoo) { // Original name: children
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot5 = var1;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 14;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var7 = _closure1_slot0;
+            var6 = 15;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.DismissibleContent;
+            var7 = var6.PREMIUM_MOBILE_TRIAL_USER_SETTINGS_AVATAR_BADGE;
+            var6 = new Array(1);
+            var6[0] = var7;
+            var1['contentTypes'] = var6;
+            var5 = function children(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    michal = entity.visibleContent;
-                    zuuluu = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 15;
-                    entity = tangon[entity];
-                    tangon = undefined;
-                    entity = zuuluu.bind(tangon)(entity);
-                    entity = entity.DismissibleContent;
-                    entity = entity.PREMIUM_MOBILE_TRIAL_USER_SETTINGS_AVATAR_BADGE;
-                    if(!(michal !== entity)) { _fun00004_ip = 52; continue _fun00003 }
+                    var1 = arg1;
+                    var2 = var1.visibleContent;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 15;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var1 = var3.bind(var4)(var1);
+                    var1 = var1.DismissibleContent;
+                    var1 = var1.PREMIUM_MOBILE_TRIAL_USER_SETTINGS_AVATAR_BADGE;
+                    if(!(var2 !== var1)) { _fun0002_ip = 52; continue _fun0002 }
  50:
-                    return tangon;
+                    return var4;
  52:
-                    zuuluu = _closure1_slot8;
-                    michal = _closure1_slot7;
-                    entity = {};
-                    option = _closure1_slot6;
-                    golfie = _closure1_slot3;
-                    report = {};
-                    romeon = _closure2_slot0;
-                    offset = romeon.sparkleContainer;
-                    verify = new Array(2);
-                    verify[0] = offset;
-                    offset = _closure2_slot1;
-                    verify[1] = offset;
-                    report['style'] = verify;
-                    backup = _closure1_slot1;
-                    kiloes = _closure1_slot2;
-                    verify = 16;
-                    oscard = kiloes[verify];
-                    offset = backup.bind(tangon)(oscard);
-                    oscard = {};
-                    yankee = _closure2_slot4;
-                    oscard['source'] = yankee;
-                    yankee = romeon.sparkle;
-                    oscard['style'] = yankee;
-                    yankee = true;
-                    oscard['disableColor'] = yankee;
-                    oscard = option.bind(tangon)(offset, oscard);
-                    report['children'] = oscard;
-                    oscard = option.bind(tangon)(golfie, report);
-                    report = new Array(3);
-                    report[0] = oscard;
-                    oscard = {};
-                    sizing = romeon.sparkleContainer;
-                    offset = new Array(3);
-                    offset[0] = sizing;
-                    sizing = romeon.starTransform;
-                    offset[1] = sizing;
-                    sizing = _closure2_slot3;
-                    offset[2] = sizing;
-                    oscard['style'] = offset;
-                    offset = kiloes[verify];
-                    sizing = backup.bind(tangon)(offset);
-                    offset = {};
-                    output = _closure2_slot5;
-                    offset['source'] = output;
-                    output = romeon.star;
-                    offset['style'] = output;
-                    offset['disableColor'] = yankee;
-                    offset = option.bind(tangon)(sizing, offset);
-                    oscard['children'] = offset;
-                    oscard = option.bind(tangon)(golfie, oscard);
-                    report[1] = oscard;
-                    oscard = {};
-                    sizing = romeon.sparkleContainer;
-                    offset = new Array(3);
-                    offset[0] = sizing;
-                    sizing = romeon.sparkle2Transform;
-                    offset[1] = sizing;
-                    foxtra = _closure2_slot2;
-                    offset[2] = foxtra;
-                    oscard['style'] = offset;
-                    verify = kiloes[verify];
-                    offset = backup.bind(tangon)(verify);
-                    verify = {};
-                    foxtra = 17;
-                    foxtra = kiloes[foxtra];
-                    foxtra = backup.bind(tangon)(foxtra);
-                    verify['source'] = foxtra;
-                    romeon = romeon.sparkle2;
-                    verify['style'] = romeon;
-                    verify['disableColor'] = yankee;
-                    verify = option.bind(tangon)(offset, verify);
-                    oscard['children'] = verify;
-                    oscard = option.bind(tangon)(golfie, oscard);
-                    report[2] = oscard;
-                    entity['children'] = report;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
+                    var3 = _closure1_slot8;
+                    var2 = _closure1_slot7;
+                    var1 = {};
+                    var8 = _closure1_slot6;
+                    var7 = _closure1_slot3;
+                    var5 = {};
+                    var12 = _closure2_slot0;
+                    var10 = var12.sparkleContainer;
+                    var9 = new Array(2);
+                    var9[0] = var10;
+                    var10 = _closure2_slot1;
+                    var9[1] = var10;
+                    var5['style'] = var9;
+                    var14 = _closure1_slot1;
+                    var15 = _closure1_slot2;
+                    var9 = 16;
+                    var6 = var15[var9];
+                    var10 = var14.bind(var4)(var6);
+                    var6 = {};
+                    var11 = _closure2_slot4;
+                    var6['source'] = var11;
+                    var11 = var12.sparkle;
+                    var6['style'] = var11;
+                    var11 = true;
+                    var6['disableColor'] = var11;
+                    var6 = var8.bind(var4)(var10, var6);
+                    var5['children'] = var6;
+                    var6 = var8.bind(var4)(var7, var5);
+                    var5 = new Array(3);
+                    var5[0] = var6;
+                    var6 = {};
+                    var16 = var12.sparkleContainer;
+                    var10 = new Array(3);
+                    var10[0] = var16;
+                    var16 = var12.starTransform;
+                    var10[1] = var16;
+                    var16 = _closure2_slot3;
+                    var10[2] = var16;
+                    var6['style'] = var10;
+                    var10 = var15[var9];
+                    var16 = var14.bind(var4)(var10);
+                    var10 = {};
+                    var17 = _closure2_slot5;
+                    var10['source'] = var17;
+                    var17 = var12.star;
+                    var10['style'] = var17;
+                    var10['disableColor'] = var11;
+                    var10 = var8.bind(var4)(var16, var10);
+                    var6['children'] = var10;
+                    var6 = var8.bind(var4)(var7, var6);
+                    var5[1] = var6;
+                    var6 = {};
+                    var16 = var12.sparkleContainer;
+                    var10 = new Array(3);
+                    var10[0] = var16;
+                    var16 = var12.sparkle2Transform;
+                    var10[1] = var16;
+                    var13 = _closure2_slot2;
+                    var10[2] = var13;
+                    var6['style'] = var10;
+                    var9 = var15[var9];
+                    var10 = var14.bind(var4)(var9);
+                    var9 = {};
+                    var13 = 17;
+                    var13 = var15[var13];
+                    var13 = var14.bind(var4)(var13);
+                    var9['source'] = var13;
+                    var12 = var12.sparkle2;
+                    var9['style'] = var12;
+                    var9['disableColor'] = var11;
+                    var9 = var8.bind(var4)(var10, var9);
+                    var6['children'] = var9;
+                    var6 = var8.bind(var4)(var7, var6);
+                    var5[2] = var6;
+                    var1['children'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
                 }
             };
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['MobileTrialUserSettingsAvatarBadge'] = michal;
-    return entity;
+    var3['MobileTrialUserSettingsAvatarBadge'] = var2;
+    return var1;
 })();

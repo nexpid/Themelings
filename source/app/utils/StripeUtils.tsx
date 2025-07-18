@@ -1,655 +1,655 @@
 // app/utils/StripeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function() { // Original name: getStripe
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function getStripe() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 81; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 81; continue _fun0001 }
  13:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.loadStripe;
-            entity = _closure1_slot6;
-            entity = entity.STRIPE;
-            entity = entity.KEY;
-            tangon = zuuluu.bind(tangon)(entity);
-            zuuluu = tangon.then;
-            entity = function(argFoo) {
-                entity = argFoo;
-                var _closure1_slot2 = entity;
-                return entity;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.loadStripe;
+            var1 = _closure1_slot6;
+            var1 = var1.STRIPE;
+            var1 = var1.KEY;
+            var4 = var3.bind(var4)(var1);
+            var3 = var4.then;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var _closure1_slot2 = var1;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            _fun00002_ip = 104; continue _fun00001;
+            var1 = var3.bind(var4)(var1);
+            _fun0001_ip = 104; continue _fun0001;
  81:
-            zuuluu = global;
-            tangon = zuuluu.Promise;
-            zuuluu = tangon.resolve;
-            michal = _closure1_slot2;
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = global;
+            var4 = var3.Promise;
+            var3 = var4.resolve;
+            var2 = _closure1_slot2;
+            var1 = var3.bind(var4)(var2);
  104:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot9 = tangon;
-    entity = function() { // Original name: _authenticatePaymentIntentForPaymentId
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var4;
+    var1 = function _authenticatePaymentIntentForPaymentId() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 575; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 575; continue _fun0002 }
  10:
-                    foxtra = argFoo;
-                    tangon = undefined;
-                    golfie = undefined;
-                    offset = undefined;
-                    oscard = undefined;
-                    romeon = undefined;
-                    report = undefined;
-                    verify = undefined;
+                    var13 = arg1;
+                    var4 = undefined;
+                    var7 = undefined;
+                    var10 = undefined;
+                    var6 = undefined;
+                    var12 = undefined;
+                    var5 = undefined;
+                    var9 = undefined;
  27: // try_start_0
-                    zuuluu = _closure1_slot0;
-                    option = _closure1_slot1;
-                    michal = 5;
-                    michal = option[michal];
-                    michal = zuuluu.bind(tangon)(michal);
-                    option = michal.HTTP;
-                    zuuluu = option.get;
-                    michal = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    kiloes = _closure1_slot5;
-                    backup = kiloes.BILLING_STRIPE_PAYMENT_INTENTS;
-                    foxtra = backup.bind(kiloes)(foxtra);
-                    michal['url'] = foxtra;
-                    michal = zuuluu.bind(option)(michal);
+                    var3 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var2 = 5;
+                    var2 = var8[var2];
+                    var2 = var3.bind(var4)(var2);
+                    var8 = var2.HTTP;
+                    var3 = var8.get;
+                    var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+                    var15 = _closure1_slot5;
+                    var14 = var15.BILLING_STRIPE_PAYMENT_INTENTS;
+                    var13 = var14.bind(var15)(var13);
+                    var2['url'] = var13;
+                    var2 = var3.bind(var8)(var2);
                     SaveGenerator(address=100);
  98:
-                    return michal;
+                    return var2;
  100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 556; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 556; continue _fun0002 }
  109:
-                    zuuluu = michal.body;
-                    golfie = zuuluu.stripe_payment_intent_client_secret;
-                    zuuluu = _closure1_slot9;
-                    zuuluu = zuuluu.bind(tangon)();
+                    var3 = var2.body;
+                    var7 = var3.stripe_payment_intent_client_secret;
+                    var3 = _closure1_slot9;
+                    var3 = var3.bind(var4)();
                     SaveGenerator(address=132);
  130:
-                    return zuuluu;
+                    return var3;
  132:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 553; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 553; continue _fun0002 }
  141:
-                    offset = zuuluu;
-                    option = null;
-                    if(!(option != zuuluu)) { _fun00004_ip = 538; continue _fun00003 }
+                    var10 = var3;
+                    var8 = null;
+                    if(!(var8 != var3)) { _fun0002_ip = 538; continue _fun0002 }
  153:
-                    backup = offset;
-                    foxtra = backup.retrievePaymentIntent;
-                    tangon = golfie;
-                    tangon = foxtra.bind(backup)(tangon);
+                    var14 = var10;
+                    var13 = var14.retrievePaymentIntent;
+                    var4 = var7;
+                    var4 = var13.bind(var14)(var4);
                     SaveGenerator(address=174);
  172:
-                    return tangon;
+                    return var4;
  174:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                    if(foxtra) { _fun00004_ip = 535; continue _fun00003 }
+                    if(var13) { _fun0002_ip = 535; continue _fun0002 }
  183:
-                    foxtra = tangon.error;
-                    oscard = foxtra;
-                    romeon = tangon.paymentIntent;
-                    if(!(option == foxtra)) { _fun00004_ip = 521; continue _fun00003 }
+                    var13 = var4.error;
+                    var6 = var13;
+                    var12 = var4.paymentIntent;
+                    if(!(var8 == var13)) { _fun0002_ip = 521; continue _fun0002 }
  204:
-                    foxtra = romeon;
-                    if(!(option != foxtra)) { _fun00004_ip = 506; continue _fun00003 }
+                    var13 = var12;
+                    if(!(var8 != var13)) { _fun0002_ip = 506; continue _fun0002 }
  214:
-                    report = {};
-                    kiloes = romeon;
-                    sizing = kiloes.status;
-                    kiloes = _closure1_slot8;
-                    kiloes = kiloes.REQUIRES_PAYMENT_METHOD;
-                    kiloes = sizing === kiloes;
-                    backup = kiloes;
-                    if(!kiloes) { _fun00004_ip = 257; continue _fun00003 }
+                    var5 = {};
+                    var15 = var12;
+                    var16 = var15.status;
+                    var15 = _closure1_slot8;
+                    var15 = var15.REQUIRES_PAYMENT_METHOD;
+                    var15 = var16 === var15;
+                    var14 = var15;
+                    if(!var15) { _fun0002_ip = 257; continue _fun0002 }
  244:
-                    kiloes = romeon;
-                    kiloes = kiloes.last_payment_error;
-                    backup = option != kiloes;
+                    var15 = var12;
+                    var15 = var15.last_payment_error;
+                    var14 = var8 != var15;
  257:
-                    foxtra = backup;
-                    if(!backup) { _fun00004_ip = 282; continue _fun00003 }
+                    var13 = var14;
+                    if(!var14) { _fun0002_ip = 282; continue _fun0002 }
  263:
-                    backup = romeon;
-                    backup = backup.last_payment_error;
-                    backup = backup.payment_method;
-                    foxtra = option != backup;
+                    var14 = var12;
+                    var14 = var14.last_payment_error;
+                    var14 = var14.payment_method;
+                    var13 = var8 != var14;
  282:
-                    if(!foxtra) { _fun00004_ip = 314; continue _fun00003 }
+                    if(!var13) { _fun0002_ip = 314; continue _fun0002 }
  285:
-                    backup = report;
-                    foxtra = romeon;
-                    foxtra = foxtra.last_payment_error;
-                    foxtra = foxtra.payment_method;
-                    foxtra = foxtra.id;
-                    backup['payment_method'] = foxtra;
+                    var14 = var5;
+                    var13 = var12;
+                    var13 = var13.last_payment_error;
+                    var13 = var13.payment_method;
+                    var13 = var13.id;
+                    var14['payment_method'] = var13;
  314:
-                    foxtra = romeon;
-                    backup = foxtra.status;
-                    foxtra = _closure1_slot8;
-                    foxtra = foxtra.REQUIRES_PAYMENT_METHOD;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+                    var13 = var12;
+                    var14 = var13.status;
+                    var13 = _closure1_slot8;
+                    var13 = var13.REQUIRES_PAYMENT_METHOD;
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
  336:
-                    foxtra = _closure1_slot8;
-                    foxtra = foxtra.REQUIRES_CONFIRMATION;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+                    var13 = _closure1_slot8;
+                    var13 = var13.REQUIRES_CONFIRMATION;
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
  350:
-                    foxtra = _closure1_slot8;
-                    foxtra = foxtra.REQUIRES_ACTION;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+                    var13 = _closure1_slot8;
+                    var13 = var13.REQUIRES_ACTION;
+                    if(!(var13 !== var14)) { _fun0002_ip = 445; continue _fun0002 }
  364:
-                    foxtra = _closure1_slot8;
-                    foxtra = foxtra.SUCCEEDED;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
+                    var13 = _closure1_slot8;
+                    var13 = var13.SUCCEEDED;
+                    if(!(var13 !== var14)) { _fun0002_ip = 440; continue _fun0002 }
  378:
-                    foxtra = _closure1_slot8;
-                    foxtra = foxtra.PROCESSING;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
+                    var13 = _closure1_slot8;
+                    var13 = var13.PROCESSING;
+                    if(!(var13 !== var14)) { _fun0002_ip = 440; continue _fun0002 }
  392:
-                    yankee = _closure1_slot8;
-                    yankee = yankee.CANCELED;
-                    yankee = {};
-                    backup = romeon.status;
-                    romeon = global;
-                    romeon = romeon.HermesInternal;
-                    foxtra = romeon.concat;
-                    romeon = 'Invalid Payment Intent status: ';
-                    romeon = foxtra.bind(romeon)(backup);
-                    yankee['error'] = romeon;
+                    var11 = _closure1_slot8;
+                    var11 = var11.CANCELED;
+                    var11 = {};
+                    var14 = var12.status;
+                    var12 = global;
+                    var12 = var12.HermesInternal;
+                    var13 = var12.concat;
+                    var12 = 'Invalid Payment Intent status: ';
+                    var12 = var13.bind(var12)(var14);
+                    var11['error'] = var12;
  437: // try_end0
-                    return yankee;
+                    return var11;
  440:
-                    yankee = {};
-                    return yankee;
+                    var11 = {};
+                    return var11;
  445: // try_start_1
-                    yankee = offset;
-                    offset = yankee.confirmCardPayment;
-                    report = offset.bind(yankee)(golfie, report);
+                    var11 = var10;
+                    var10 = var11.confirmCardPayment;
+                    var5 = var10.bind(var11)(var7, var5);
                     SaveGenerator(address=464);
  462:
-                    return report;
+                    return var5;
  464:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 503; continue _fun00003 }
+                    if(var7) { _fun0002_ip = 503; continue _fun0002 }
  470:
-                    golfie = report.error;
-                    verify = golfie;
-                    if(!(option == golfie)) { _fun00004_ip = 486; continue _fun00003 }
+                    var7 = var5.error;
+                    var9 = var7;
+                    if(!(var8 == var7)) { _fun0002_ip = 486; continue _fun0002 }
  482:
-                    golfie = {};
-                    _fun00004_ip = 500; continue _fun00003;
+                    var7 = {};
+                    _fun0002_ip = 500; continue _fun0002;
  486:
-                    option = {};
-                    verify = verify.message;
-                    option['error'] = verify;
-                    golfie = option;
+                    var8 = {};
+                    var9 = var9.message;
+                    var8['error'] = var9;
+                    var7 = var8;
  500: // try_end1
-                    return golfie;
+                    return var7;
  503:
-                    return report;
+                    return var5;
  506: // try_start_2
-                    report = {};
-                    golfie = 'payment intent does not exist';
-                    report['error'] = golfie;
+                    var5 = {};
+                    var7 = 'payment intent does not exist';
+                    var5['error'] = var7;
  518: // try_end2
-                    return report;
+                    return var5;
  521: // try_start_3
-                    report = {};
-                    oscard = oscard.message;
-                    report['error'] = oscard;
+                    var5 = {};
+                    var6 = var6.message;
+                    var5['error'] = var6;
  532: // try_end3
-                    return report;
+                    return var5;
  535:
-                    return tangon;
+                    return var4;
  538: // try_start_4
-                    tangon = {};
-                    report = 'unable to load stripe';
-                    tangon['error'] = report;
+                    var4 = {};
+                    var5 = 'unable to load stripe';
+                    var4['error'] = var5;
  550: // try_end4
-                    return tangon;
+                    return var4;
  553:
-                    return zuuluu;
+                    return var3;
  556:
-                    return michal;
+                    return var2;
  559: // catch_target0 // catch_target1 // catch_target2 // catch_target3 // catch_target4
                     CatchBlockStart(arg_register=2);
-                    michal = {};
-                    zuuluu = zuuluu.message;
-                    michal['error'] = zuuluu;
-                    return michal;
+                    var2 = {};
+                    var3 = var3.message;
+                    var2['error'] = var3;
+                    return var2;
  575:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot10 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    verify = report.Endpoints;
-    var _closure1_slot5 = verify;
-    report = report.PaymentSettings;
-    var _closure1_slot6 = report;
-    report = 3;
-    report = golfie[report];
-    verify = option.bind(entity)(report);
-    report = verify.prototype;
-    option = Object.create(report, {constructor: {value: verify}});
-    foxtra = 'StripeUtils';
-    backup = option;
-    report = new backup[verify](foxtra, romeon);
-    report = report instanceof Object ? report : option;
-    var _closure1_slot7 = report;
-    report = {};
-    option = 'requires_payment_method';
-    report['REQUIRES_PAYMENT_METHOD'] = option;
-    option = 'requires_confirmation';
-    report['REQUIRES_CONFIRMATION'] = option;
-    option = 'requires_action';
-    report['REQUIRES_ACTION'] = option;
-    option = 'processing';
-    report['PROCESSING'] = option;
-    option = 'canceled';
-    report['CANCELED'] = option;
-    option = 'succeeded';
-    report['SUCCEEDED'] = option;
-    var _closure1_slot8 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/StripeUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.Endpoints;
+    var _closure1_slot5 = var9;
+    var5 = var5.PaymentSettings;
+    var _closure1_slot6 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var9 = var8.bind(var1)(var5);
+    var5 = var9.prototype;
+    var8 = Object.create(var5, {constructor: {value: var9}});
+    var13 = 'StripeUtils';
+    var14 = var8;
+    var5 = new var14[var9](var13, var12);
+    var5 = var5 instanceof Object ? var5 : var8;
+    var _closure1_slot7 = var5;
+    var5 = {};
+    var8 = 'requires_payment_method';
+    var5['REQUIRES_PAYMENT_METHOD'] = var8;
+    var8 = 'requires_confirmation';
+    var5['REQUIRES_CONFIRMATION'] = var8;
+    var8 = 'requires_action';
+    var5['REQUIRES_ACTION'] = var8;
+    var8 = 'processing';
+    var5['PROCESSING'] = var8;
+    var8 = 'canceled';
+    var5['CANCELED'] = var8;
+    var8 = 'succeeded';
+    var5['SUCCEEDED'] = var8;
+    var _closure1_slot8 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/StripeUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            oscard = undefined;
-            michal = undefined;
-            zuuluu = undefined;
+            var1 = arg1;
+            var6 = undefined;
+            var2 = undefined;
+            var3 = undefined;
  9: // try_start_0
-            tangon = entity;
-            entity = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var4 = var1;
+            var1 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    tangon = argFoo;
-                    var _closure3_slot0 = tangon;
-                    report = function(argFoo) { // Original name: throwErr
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    var4 = arg1;
+                    var _closure3_slot0 = var4;
+                    var5 = function throwErr(arg1) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            entity = argFoo;
-                            report = _closure3_slot0;
-                            michal = null;
-                            michal = michal != entity;
-                            tangon = '';
-                            if(!michal) { _fun00010_ip = 26; continue _fun00009 }
+                            var1 = arg1;
+                            var5 = _closure3_slot0;
+                            var2 = null;
+                            var2 = var2 != var1;
+                            var4 = '';
+                            if(!var2) { _fun0005_ip = 26; continue _fun0005 }
  23:
-                            tangon = entity;
+                            var4 = var1;
  26:
-                            entity = global;
-                            entity = entity.HermesInternal;
-                            zuuluu = entity.concat;
-                            michal = 'You passed an invalid expiration date ';
-                            entity = 'Please pass a string containing a numeric month and year such as `01-17` or `2015 / 05`';
-                            entity = zuuluu.bind(michal)(report, tangon, entity);
-                            return entity;
+                            var1 = global;
+                            var1 = var1.HermesInternal;
+                            var3 = var1.concat;
+                            var2 = 'You passed an invalid expiration date ';
+                            var1 = 'Please pass a string containing a numeric month and year such as `01-17` or `2015 / 05`';
+                            var1 = var3.bind(var2)(var5, var4, var1);
+                            return var1;
                         }
                     };
-                    var _closure3_slot1 = report;
-                    zuuluu = tangon.split;
-                    michal = /[.\-\/\s]+/g;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    var _closure3_slot2 = zuuluu;
-                    michal = zuuluu.length;
-                    golfie = 2;
-                    if(!(golfie !== michal)) { _fun00008_ip = 64; continue _fun00007 }
+                    var _closure3_slot1 = var5;
+                    var3 = var4.split;
+                    var2 = /[.\-\/\s]+/g;
+                    var3 = var3.bind(var4)(var2);
+                    var _closure3_slot2 = var3;
+                    var2 = var3.length;
+                    var7 = 2;
+                    if(!(var7 !== var2)) { _fun0004_ip = 64; continue _fun0004 }
  58:
-                    michal = undefined;
-                    michal = report.bind(michal)();
+                    var2 = undefined;
+                    var2 = var5.bind(var2)();
  64:
-                    michal = zuuluu.map;
-                    entity = function(argFoo) {
-                        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                    var2 = var3.map;
+                    var1 = function(arg1) {
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                            michal = global;
-                            zuuluu = michal.parseInt;
-                            tangon = undefined;
-                            entity = argFoo;
-                            entity = zuuluu.bind(tangon)(entity);
-                            zuuluu = michal.isNaN;
-                            zuuluu = zuuluu.bind(tangon)(entity);
-                            if(!zuuluu) { _fun00012_ip = 75; continue _fun00011 }
+                            var2 = global;
+                            var3 = var2.parseInt;
+                            var4 = undefined;
+                            var1 = arg1;
+                            var1 = var3.bind(var4)(var1);
+                            var3 = var2.isNaN;
+                            var3 = var3.bind(var4)(var1);
+                            if(!var3) { _fun0006_ip = 75; continue _fun0006 }
  32:
-                            report = _closure3_slot1;
-                            option = _closure3_slot2;
-                            zuuluu = michal.HermesInternal;
-                            golfie = zuuluu.concat;
-                            oscard = '';
-                            zuuluu = ' is not a number.';
-                            zuuluu = golfie.bind(oscard)(option, zuuluu);
-                            zuuluu = report.bind(tangon)(zuuluu);
+                            var5 = _closure3_slot1;
+                            var8 = _closure3_slot2;
+                            var3 = var2.HermesInternal;
+                            var7 = var3.concat;
+                            var6 = '';
+                            var3 = ' is not a number.';
+                            var3 = var7.bind(var6)(var8, var3);
+                            var3 = var5.bind(var4)(var3);
  75:
-                            zuuluu = 1;
-                            if(!(entity < zuuluu)) { _fun00012_ip = 121; continue _fun00011 }
+                            var3 = 1;
+                            if(!(var1 < var3)) { _fun0006_ip = 121; continue _fun0006 }
  82:
-                            zuuluu = _closure3_slot1;
-                            michal = michal.HermesInternal;
-                            oscard = michal.concat;
-                            report = '';
-                            michal = ' is less than one.';
-                            michal = oscard.bind(report)(entity, michal);
-                            michal = zuuluu.bind(tangon)(michal);
+                            var3 = _closure3_slot1;
+                            var2 = var2.HermesInternal;
+                            var6 = var2.concat;
+                            var5 = '';
+                            var2 = ' is less than one.';
+                            var2 = var6.bind(var5)(var1, var2);
+                            var2 = var3.bind(var4)(var2);
  121:
-                            return entity;
+                            return var1;
                         }
                     };
-                    tangon = michal.bind(zuuluu)(entity);
-                    zuuluu = 0;
-                    michal = tangon[zuuluu];
-                    entity = 12;
-                    if(!(!(michal > entity))) { _fun00008_ip = 117; continue _fun00007 }
+                    var4 = var2.bind(var3)(var1);
+                    var3 = 0;
+                    var2 = var4[var3];
+                    var1 = 12;
+                    if(!(!(var2 > var1))) { _fun0004_ip = 117; continue _fun0004 }
  92:
-                    michal = tangon[zuuluu];
-                    oscard = new Array(2);
-                    oscard[0] = michal;
-                    michal = 1;
-                    michal = tangon[michal];
-                    oscard[1] = michal;
-                    _fun00008_ip = 143; continue _fun00007;
+                    var2 = var4[var3];
+                    var6 = new Array(2);
+                    var6[0] = var2;
+                    var2 = 1;
+                    var2 = var4[var2];
+                    var6[1] = var2;
+                    _fun0004_ip = 143; continue _fun0004;
  117:
-                    michal = 1;
-                    option = tangon[michal];
-                    michal = new Array(2);
-                    michal[0] = option;
-                    tangon = tangon[zuuluu];
-                    michal[1] = tangon;
-                    oscard = michal;
+                    var2 = 1;
+                    var8 = var4[var2];
+                    var2 = new Array(2);
+                    var2[0] = var8;
+                    var4 = var4[var3];
+                    var2[1] = var4;
+                    var6 = var2;
  143:
-                    tangon = _closure1_slot4;
-                    michal = undefined;
-                    oscard = tangon.bind(michal)(oscard, golfie);
-                    zuuluu = oscard[zuuluu];
-                    tangon = 1;
-                    tangon = oscard[tangon];
-                    if(!(zuuluu > entity)) { _fun00008_ip = 207; continue _fun00007 }
+                    var4 = _closure1_slot4;
+                    var2 = undefined;
+                    var6 = var4.bind(var2)(var6, var7);
+                    var3 = var6[var3];
+                    var4 = 1;
+                    var4 = var6[var4];
+                    if(!(var3 > var1)) { _fun0004_ip = 207; continue _fun0004 }
  173:
-                    entity = global;
-                    entity = entity.HermesInternal;
-                    golfie = entity.concat;
-                    oscard = 'Month must be a number 1-12, not ';
-                    entity = '.';
-                    entity = golfie.bind(oscard)(zuuluu, entity);
-                    entity = report.bind(michal)(entity);
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var7 = var1.concat;
+                    var6 = 'Month must be a number 1-12, not ';
+                    var1 = '.';
+                    var1 = var7.bind(var6)(var3, var1);
+                    var1 = var5.bind(var2)(var1);
  207:
-                    entity = 100;
-                    michal = tangon;
-                    if(!(michal < entity)) { _fun00008_ip = 227; continue _fun00007 }
+                    var1 = 100;
+                    var2 = var4;
+                    if(!(var2 < var1)) { _fun0004_ip = 227; continue _fun0004 }
  217:
-                    entity = 2000;
-                    michal = tangon + entity;
+                    var1 = 2000;
+                    var2 = var4 + var1;
  227:
-                    entity = new Array(2);
-                    entity[0] = zuuluu;
-                    entity[1] = michal;
-                    return entity;
+                    var1 = new Array(2);
+                    var1[0] = var3;
+                    var1[1] = var2;
+                    return var1;
                 }
             };
-            report = entity.bind(oscard)(tangon);
-            tangon = _closure1_slot4;
-            entity = 2;
-            entity = tangon.bind(oscard)(report, entity);
-            tangon = 0;
-            michal = entity[tangon];
-            report = 1;
-            zuuluu = entity[report];
+            var5 = var1.bind(var6)(var4);
+            var4 = _closure1_slot4;
+            var1 = 2;
+            var1 = var4.bind(var6)(var5, var1);
+            var4 = 0;
+            var2 = var1[var4];
+            var5 = 1;
+            var3 = var1[var5];
  53: // try_end0
-            entity = global;
-            oscard = entity.Date;
-            option = zuuluu;
-            golfie = michal;
-            zuuluu = oscard.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: oscard}});
-            verify = zuuluu;
-            michal = new verify[oscard](option, golfie, oscard);
-            michal = michal instanceof Object ? michal : zuuluu;
-            entity = entity.Date;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            verify = zuuluu;
-            entity = new verify[entity](option);
-            entity = entity instanceof Object ? entity : zuuluu;
-            tangon = michal.setMonth;
-            zuuluu = michal.getMonth;
-            zuuluu = zuuluu.bind(michal)();
-            zuuluu = zuuluu - report;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            tangon = michal.setMonth;
-            zuuluu = michal.getMonth;
-            zuuluu = zuuluu.bind(michal)();
-            zuuluu = zuuluu + report;
-            zuuluu = tangon.bind(michal)(zuuluu, report);
-            entity = michal > entity;
-            return entity;
+            var1 = global;
+            var6 = var1.Date;
+            var8 = var3;
+            var7 = var2;
+            var3 = var6.prototype;
+            var3 = Object.create(var3, {constructor: {value: var6}});
+            var9 = var3;
+            var2 = new var9[var6](var8, var7, var6);
+            var2 = var2 instanceof Object ? var2 : var3;
+            var1 = var1.Date;
+            var3 = var1.prototype;
+            var3 = Object.create(var3, {constructor: {value: var1}});
+            var9 = var3;
+            var1 = new var9[var1](var8);
+            var1 = var1 instanceof Object ? var1 : var3;
+            var4 = var2.setMonth;
+            var3 = var2.getMonth;
+            var3 = var3.bind(var2)();
+            var3 = var3 - var5;
+            var3 = var4.bind(var2)(var3);
+            var4 = var2.setMonth;
+            var3 = var2.getMonth;
+            var3 = var3.bind(var2)();
+            var3 = var3 + var5;
+            var3 = var4.bind(var2)(var3, var5);
+            var1 = var2 > var1;
+            return var1;
  170: // catch_target0
             CatchBlockStart(arg_register=0);
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['validateExpiry'] = report;
-    zuuluu['getStripe'] = tangon;
-    tangon = function() { // Original name: getStripeClientMode
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['validateExpiry'] = var5;
+    var3['getStripe'] = var4;
+    var4 = function getStripeClientMode() {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = _closure1_slot6;
-            entity = entity.STRIPE;
-            zuuluu = entity.KEY;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00014_ip = 154; continue _fun00013 }
+            var1 = _closure1_slot6;
+            var1 = var1.STRIPE;
+            var3 = var1.KEY;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0007_ip = 154; continue _fun0007 }
  28:
-            entity = _closure1_slot6;
-            entity = entity.STRIPE;
-            tangon = entity.KEY;
-            zuuluu = tangon.startsWith;
-            entity = 'pk_live';
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = 'live';
-            if(zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+            var1 = _closure1_slot6;
+            var1 = var1.STRIPE;
+            var4 = var1.KEY;
+            var3 = var4.startsWith;
+            var1 = 'pk_live';
+            var3 = var3.bind(var4)(var1);
+            var1 = 'live';
+            if(var3) { _fun0007_ip = 152; continue _fun0007 }
  68:
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.STRIPE;
-            report = zuuluu.KEY;
-            tangon = report.startsWith;
-            zuuluu = 'pk_test';
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = 'test';
-            if(tangon) { _fun00014_ip = 149; continue _fun00013 }
+            var3 = _closure1_slot6;
+            var3 = var3.STRIPE;
+            var5 = var3.KEY;
+            var4 = var5.startsWith;
+            var3 = 'pk_test';
+            var4 = var4.bind(var5)(var3);
+            var3 = 'test';
+            if(var4) { _fun0007_ip = 149; continue _fun0007 }
  108:
-            golfie = _closure1_slot7;
-            oscard = golfie.warn;
-            tangon = _closure1_slot6;
-            tangon = tangon.STRIPE;
-            report = tangon.KEY;
-            tangon = 'Unexpected value for Stripe public key: ';
-            tangon = oscard.bind(golfie)(tangon, report);
-            zuuluu = 'unknown';
+            var7 = _closure1_slot7;
+            var6 = var7.warn;
+            var4 = _closure1_slot6;
+            var4 = var4.STRIPE;
+            var5 = var4.KEY;
+            var4 = 'Unexpected value for Stripe public key: ';
+            var4 = var6.bind(var7)(var4, var5);
+            var3 = 'unknown';
  149:
-            entity = zuuluu;
+            var1 = var3;
  152:
-            _fun00014_ip = 195; continue _fun00013;
+            _fun0007_ip = 195; continue _fun0007;
  154:
-            report = _closure1_slot7;
-            tangon = report.warn;
-            michal = _closure1_slot6;
-            michal = michal.STRIPE;
-            zuuluu = michal.KEY;
-            michal = 'getStripeClientMode() called before PaymentSettings.STRIPE.KEY initialized: ';
-            michal = tangon.bind(report)(michal, zuuluu);
-            entity = 'unknown';
+            var5 = _closure1_slot7;
+            var4 = var5.warn;
+            var2 = _closure1_slot6;
+            var2 = var2.STRIPE;
+            var3 = var2.KEY;
+            var2 = 'getStripeClientMode() called before PaymentSettings.STRIPE.KEY initialized: ';
+            var2 = var4.bind(var5)(var2, var3);
+            var1 = 'unknown';
  195:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getStripeClientMode'] = tangon;
-    tangon = function(argFoo) { // Original name: parseStripePaymentMethod
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['getStripeClientMode'] = var4;
+    var4 = function parseStripePaymentMethod(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            zuuluu = argFoo;
-            entity = zuuluu.billing_details;
-            tangon = entity.address;
-            report = null;
-            if(!(report == tangon)) { _fun00016_ip = 23; continue _fun00015 }
+            var3 = arg1;
+            var1 = var3.billing_details;
+            var4 = var1.address;
+            var5 = null;
+            if(!(var5 == var4)) { _fun0008_ip = 23; continue _fun0008 }
  21:
-            tangon = {};
+            var4 = {};
  23:
-            michal = {};
-            golfie = entity.name;
-            option = report != golfie;
-            entity = '';
-            oscard = entity;
-            if(!option) { _fun00016_ip = 47; continue _fun00015 }
+            var2 = {};
+            var7 = var1.name;
+            var8 = var5 != var7;
+            var1 = '';
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 47; continue _fun0008 }
  44:
-            oscard = golfie;
+            var6 = var7;
  47:
-            michal['name'] = oscard;
-            golfie = tangon.line1;
-            option = report != golfie;
-            oscard = entity;
-            if(!option) { _fun00016_ip = 70; continue _fun00015 }
+            var2['name'] = var6;
+            var7 = var4.line1;
+            var8 = var5 != var7;
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 70; continue _fun0008 }
  67:
-            oscard = golfie;
+            var6 = var7;
  70:
-            michal['line1'] = oscard;
-            golfie = tangon.line2;
-            option = report != golfie;
-            oscard = entity;
-            if(!option) { _fun00016_ip = 94; continue _fun00015 }
+            var2['line1'] = var6;
+            var7 = var4.line2;
+            var8 = var5 != var7;
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 94; continue _fun0008 }
  91:
-            oscard = golfie;
+            var6 = var7;
  94:
-            michal['line2'] = oscard;
-            golfie = tangon.city;
-            option = report != golfie;
-            oscard = entity;
-            if(!option) { _fun00016_ip = 118; continue _fun00015 }
+            var2['line2'] = var6;
+            var7 = var4.city;
+            var8 = var5 != var7;
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 118; continue _fun0008 }
  115:
-            oscard = golfie;
+            var6 = var7;
  118:
-            michal['city'] = oscard;
-            golfie = tangon.state;
-            option = report != golfie;
-            oscard = entity;
-            if(!option) { _fun00016_ip = 141; continue _fun00015 }
+            var2['city'] = var6;
+            var7 = var4.state;
+            var8 = var5 != var7;
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 141; continue _fun0008 }
  138:
-            oscard = golfie;
+            var6 = var7;
  141:
-            michal['state'] = oscard;
-            golfie = tangon.country;
-            option = report != golfie;
-            oscard = entity;
-            if(!option) { _fun00016_ip = 164; continue _fun00015 }
+            var2['state'] = var6;
+            var7 = var4.country;
+            var8 = var5 != var7;
+            var6 = var1;
+            if(!var8) { _fun0008_ip = 164; continue _fun0008 }
  161:
-            oscard = golfie;
+            var6 = var7;
  164:
-            michal['country'] = oscard;
-            tangon = tangon.postal_code;
-            report = report != tangon;
-            if(!report) { _fun00016_ip = 185; continue _fun00015 }
+            var2['country'] = var6;
+            var4 = var4.postal_code;
+            var5 = var5 != var4;
+            if(!var5) { _fun0008_ip = 185; continue _fun0008 }
  182:
-            entity = tangon;
+            var1 = var4;
  185:
-            michal['postalCode'] = entity;
-            entity = {};
-            zuuluu = zuuluu.id;
-            entity['token'] = zuuluu;
-            entity['billingAddressInfo'] = michal;
-            return entity;
+            var2['postalCode'] = var1;
+            var1 = {};
+            var3 = var3.id;
+            var1['token'] = var3;
+            var1['billingAddressInfo'] = var2;
+            return var1;
         }
     };
-    zuuluu['parseStripePaymentMethod'] = tangon;
-    tangon = function(argFoo) { // Original name: parseBillingAddressInfoToStripeBillingDetails
-        zuuluu = argFoo;
-        entity = {};
-        michal = zuuluu.name;
-        entity['name'] = michal;
-        michal = {};
-        tangon = zuuluu.line1;
-        michal['line1'] = tangon;
-        tangon = zuuluu.line2;
-        michal['line2'] = tangon;
-        tangon = zuuluu.city;
-        michal['city'] = tangon;
-        tangon = zuuluu.state;
-        michal['state'] = tangon;
-        tangon = zuuluu.postalCode;
-        michal['postal_code'] = tangon;
-        zuuluu = zuuluu.country;
-        michal['country'] = zuuluu;
-        entity['address'] = michal;
-        return entity;
+    var3['parseStripePaymentMethod'] = var4;
+    var4 = function parseBillingAddressInfoToStripeBillingDetails(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var2 = var3.name;
+        var1['name'] = var2;
+        var2 = {};
+        var4 = var3.line1;
+        var2['line1'] = var4;
+        var4 = var3.line2;
+        var2['line2'] = var4;
+        var4 = var3.city;
+        var2['city'] = var4;
+        var4 = var3.state;
+        var2['state'] = var4;
+        var4 = var3.postalCode;
+        var2['postal_code'] = var4;
+        var3 = var3.country;
+        var2['country'] = var3;
+        var1['address'] = var2;
+        return var1;
     };
-    zuuluu['parseBillingAddressInfoToStripeBillingDetails'] = tangon;
-    michal = function() { // Original name: authenticatePaymentIntentForPaymentId
-        entity = undefined;
-        tangon = _closure1_slot10;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['parseBillingAddressInfoToStripeBillingDetails'] = var4;
+    var2 = function authenticatePaymentIntentForPaymentId() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['authenticatePaymentIntentForPaymentId'] = michal;
-    return entity;
+    var3['authenticatePaymentIntentForPaymentId'] = var2;
+    return var1;
 })();

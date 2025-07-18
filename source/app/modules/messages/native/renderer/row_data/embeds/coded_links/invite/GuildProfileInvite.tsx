@@ -1,1102 +1,1102 @@
 // app/modules/messages/native/renderer/row_data/embeds/coded_links/invite/GuildProfileInvite.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.CodedLinkExtendedType;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.InviteTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
-    tangon = 26;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/GuildProfileInvite.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: createGuildProfileInvite
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.CodedLinkExtendedType;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.InviteTypes;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = 26;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/row_data/embeds/coded_links/invite/GuildProfileInvite.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function createGuildProfileInvite(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            source = argBar;
-            michal = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 6;
-            entity = tangon[entity];
-            verify = undefined;
-            entity = michal.bind(verify)(entity);
-            entity = entity.bind(verify)(source);
-            michal = entity.colors;
-            sizing = entity.baseColors;
-            zuuluu = _closure1_slot0;
-            entity = 7;
-            entity = tangon[entity];
-            oscard = zuuluu.bind(verify)(entity);
-            entity = oscard.buildGuildProfileFromInvite;
-            yankee = entity.bind(oscard)(golfie);
-            entity = 8;
-            entity = tangon[entity];
-            zuuluu = zuuluu.bind(verify)(entity);
-            entity = zuuluu.isThemeDark;
-            zuuluu = entity.bind(zuuluu)(source);
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            entity = 9;
-            entity = oscard[entity];
-            entity = tangon.bind(verify)(entity);
-            entity = entity.unsafe_rawColors;
-            if(zuuluu) { _fun00002_ip = 133; continue _fun00001 }
+            var7 = arg1;
+            var21 = arg2;
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 6;
+            var1 = var4[var1];
+            var9 = undefined;
+            var1 = var2.bind(var9)(var1);
+            var1 = var1.bind(var9)(var21);
+            var2 = var1.colors;
+            var16 = var1.baseColors;
+            var3 = _closure1_slot0;
+            var1 = 7;
+            var1 = var4[var1];
+            var6 = var3.bind(var9)(var1);
+            var1 = var6.buildGuildProfileFromInvite;
+            var11 = var1.bind(var6)(var7);
+            var1 = 8;
+            var1 = var4[var1];
+            var3 = var3.bind(var9)(var1);
+            var1 = var3.isThemeDark;
+            var3 = var1.bind(var3)(var21);
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 9;
+            var1 = var6[var1];
+            var1 = var4.bind(var9)(var1);
+            var1 = var1.unsafe_rawColors;
+            if(var3) { _fun0001_ip = 133; continue _fun0001 }
  125:
-            option = entity.PRIMARY_160;
-            _fun00002_ip = 139; continue _fun00001;
+            var8 = var1.PRIMARY_160;
+            _fun0001_ip = 139; continue _fun0001;
  133:
-            option = entity.PRIMARY_660;
+            var8 = var1.PRIMARY_660;
  139:
-            zuuluu = null;
-            entity = zuuluu != yankee;
-            oscard = null;
-            if(!entity) { _fun00002_ip = 181; continue _fun00001 }
+            var3 = null;
+            var1 = var3 != var11;
+            var6 = null;
+            if(!var1) { _fun0001_ip = 181; continue _fun0001 }
  150:
-            tangon = _closure1_slot0;
-            offset = _closure1_slot2;
-            entity = 10;
-            entity = offset[entity];
-            tangon = tangon.bind(verify)(entity);
-            entity = tangon.fromGuildProfile;
-            oscard = entity.bind(tangon)(yankee);
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 10;
+            var1 = var10[var1];
+            var4 = var4.bind(var9)(var1);
+            var1 = var4.fromGuildProfile;
+            var6 = var1.bind(var4)(var11);
  181:
-            tangon = _closure1_slot0;
-            romeon = _closure1_slot2;
-            entity = 11;
-            entity = romeon[entity];
-            offset = tangon.bind(verify)(entity);
-            entity = offset.getProfilePrimaryColor;
-            offset = entity.bind(offset)(yankee);
-            entity = 12;
-            entity = romeon[entity];
-            tangon = tangon.bind(verify)(entity);
-            entity = tangon.getBackgroundForProfile;
-            if(!(zuuluu != offset)) { _fun00002_ip = 237; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 11;
+            var1 = var12[var1];
+            var10 = var4.bind(var9)(var1);
+            var1 = var10.getProfilePrimaryColor;
+            var10 = var1.bind(var10)(var11);
+            var1 = 12;
+            var1 = var12[var1];
+            var4 = var4.bind(var9)(var1);
+            var1 = var4.getBackgroundForProfile;
+            if(!(var3 != var10)) { _fun0001_ip = 237; continue _fun0001 }
  234:
-            option = offset;
+            var8 = var10;
  237:
-            option = entity.bind(tangon)(source, option);
-            tangon = _closure1_slot3;
-            entity = 2;
-            tangon = tangon.bind(verify)(option, entity);
-            offset = 0;
-            output = tangon[offset];
-            entity = 1;
-            foxtra = tangon[entity];
-            entity = zuuluu == yankee;
-            sequen = undefined;
-            if(entity) { _fun00002_ip = 284; continue _fun00001 }
+            var8 = var1.bind(var4)(var21, var8);
+            var4 = _closure1_slot3;
+            var1 = 2;
+            var4 = var4.bind(var9)(var8, var1);
+            var10 = 0;
+            var17 = var4[var10];
+            var1 = 1;
+            var13 = var4[var1];
+            var1 = var3 == var11;
+            var24 = undefined;
+            if(var1) { _fun0001_ip = 284; continue _fun0001 }
  278:
-            sequen = yankee.memberCount;
+            var24 = var11.memberCount;
  284:
-            if(!(zuuluu == sequen)) { _fun00002_ip = 294; continue _fun00001 }
+            if(!(var3 == var24)) { _fun0001_ip = 294; continue _fun0001 }
  288:
-            sequen = golfie.approximate_member_count;
+            var24 = var7.approximate_member_count;
  294:
-            entity = zuuluu == yankee;
-            vacuum = undefined;
-            if(entity) { _fun00002_ip = 309; continue _fun00001 }
+            var1 = var3 == var11;
+            var23 = undefined;
+            if(var1) { _fun0001_ip = 309; continue _fun0001 }
  303:
-            vacuum = yankee.onlineCount;
+            var23 = var11.onlineCount;
  309:
-            if(!(zuuluu == vacuum)) { _fun00002_ip = 319; continue _fun00001 }
+            if(!(var3 == var23)) { _fun0001_ip = 319; continue _fun0001 }
  313:
-            vacuum = golfie.approximate_presence_count;
+            var23 = var7.approximate_presence_count;
  319:
-            tangon = zuuluu == yankee;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 333; continue _fun00001 }
+            var4 = var3 == var11;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 333; continue _fun0001 }
  328:
-            entity = yankee.icon;
+            var1 = var11.icon;
  333:
-            if(!(zuuluu == entity)) { _fun00002_ip = 400; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 400; continue _fun0001 }
  337:
-            tangon = _closure1_slot0;
-            option = _closure1_slot2;
-            entity = 14;
-            entity = option[entity];
-            option = tangon.bind(verify)(entity);
-            tangon = option.getAcronym;
-            entity = zuuluu == yankee;
-            romeon = undefined;
-            if(entity) { _fun00002_ip = 377; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 14;
+            var1 = var8[var1];
+            var8 = var4.bind(var9)(var1);
+            var4 = var8.getAcronym;
+            var1 = var3 == var11;
+            var12 = undefined;
+            if(var1) { _fun0001_ip = 377; continue _fun0001 }
  372:
-            romeon = yankee.name;
+            var12 = var11.name;
  377:
-            backup = zuuluu != romeon;
-            entity = '';
-            if(!backup) { _fun00002_ip = 391; continue _fun00001 }
+            var14 = var3 != var12;
+            var1 = '';
+            if(!var14) { _fun0001_ip = 391; continue _fun0001 }
  388:
-            entity = romeon;
+            var1 = var12;
  391:
-            kiloes = tangon.bind(option)(entity);
-            backup = undefined;
-            _fun00002_ip = 467; continue _fun00001;
+            var15 = var4.bind(var8)(var1);
+            var14 = undefined;
+            _fun0001_ip = 467; continue _fun0001;
  400:
-            tangon = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 13;
-            entity = option[entity];
-            option = tangon.bind(verify)(entity);
-            tangon = option.getGuildIconURL;
-            entity = {};
-            romeon = yankee.id;
-            entity['id'] = romeon;
-            romeon = yankee.icon;
-            entity['icon'] = romeon;
-            romeon = true;
-            entity['canAnimate'] = romeon;
-            romeon = 128;
-            entity['size'] = romeon;
-            backup = tangon.bind(option)(entity);
-            kiloes = undefined;
+            var4 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 13;
+            var1 = var8[var1];
+            var8 = var4.bind(var9)(var1);
+            var4 = var8.getGuildIconURL;
+            var1 = {};
+            var12 = var11.id;
+            var1['id'] = var12;
+            var12 = var11.icon;
+            var1['icon'] = var12;
+            var12 = true;
+            var1['canAnimate'] = var12;
+            var12 = 128;
+            var1['size'] = var12;
+            var14 = var4.bind(var8)(var1);
+            var15 = undefined;
  467:
-            tangon = zuuluu == oscard;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 502; continue _fun00001 }
+            var4 = var3 == var6;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 502; continue _fun0001 }
  476:
-            romeon = oscard.features;
-            option = romeon.has;
-            tangon = _closure1_slot6;
-            tangon = tangon.DISCOVERABLE;
-            entity = option.bind(romeon)(tangon);
+            var12 = var6.features;
+            var8 = var12.has;
+            var4 = _closure1_slot6;
+            var4 = var4.DISCOVERABLE;
+            var1 = var8.bind(var12)(var4);
  502:
-            romeon = undefined;
-            if(!entity) { _fun00002_ip = 626; continue _fun00001 }
+            var12 = undefined;
+            if(!var1) { _fun0001_ip = 626; continue _fun0001 }
  507:
-            tangon = zuuluu == yankee;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 522; continue _fun00001 }
+            var4 = var3 == var11;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 522; continue _fun0001 }
  516:
-            entity = yankee.customBanner;
+            var1 = var11.customBanner;
  522:
-            entity = zuuluu != entity;
-            romeon = undefined;
-            if(!entity) { _fun00002_ip = 626; continue _fun00001 }
+            var1 = var3 != var1;
+            var12 = undefined;
+            if(!var1) { _fun0001_ip = 626; continue _fun0001 }
  531:
-            echoed = _closure1_slot1;
-            update = _closure1_slot2;
-            entity = 13;
-            entity = update[entity];
-            option = echoed.bind(verify)(entity);
-            tangon = option.getGuildDiscoverySplashURL;
-            entity = {};
-            result = yankee.id;
-            entity['id'] = result;
-            result = yankee.customBanner;
-            entity['splash'] = result;
-            result = 15;
-            result = update[result];
-            result = echoed.bind(verify)(result);
-            echoed = result.bind(verify)();
-            result = 400;
-            result = result * echoed;
-            entity['size'] = result;
-            entity = tangon.bind(option)(entity);
-            tangon = zuuluu != entity;
-            romeon = undefined;
-            if(!tangon) { _fun00002_ip = 626; continue _fun00001 }
+            var19 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var1 = 13;
+            var1 = var20[var1];
+            var8 = var19.bind(var9)(var1);
+            var4 = var8.getGuildDiscoverySplashURL;
+            var1 = {};
+            var18 = var11.id;
+            var1['id'] = var18;
+            var18 = var11.customBanner;
+            var1['splash'] = var18;
+            var18 = 15;
+            var18 = var20[var18];
+            var18 = var19.bind(var9)(var18);
+            var19 = var18.bind(var9)();
+            var18 = 400;
+            var18 = var18 * var19;
+            var1['size'] = var18;
+            var1 = var4.bind(var8)(var1);
+            var4 = var3 != var1;
+            var12 = undefined;
+            if(!var4) { _fun0001_ip = 626; continue _fun0001 }
  623:
-            romeon = entity;
+            var12 = var1;
  626:
-            entity = zuuluu != sequen;
-            if(!entity) { _fun00002_ip = 640; continue _fun00001 }
+            var1 = var3 != var24;
+            if(!var1) { _fun0001_ip = 640; continue _fun0001 }
  633:
-            tangon = 5;
-            entity = sequen >= tangon;
+            var4 = 5;
+            var1 = var24 >= var4;
  640:
-            if(entity) { _fun00002_ip = 657; continue _fun00001 }
+            if(var1) { _fun0001_ip = 657; continue _fun0001 }
  643:
-            tangon = zuuluu != vacuum;
-            if(!tangon) { _fun00002_ip = 654; continue _fun00001 }
+            var4 = var3 != var23;
+            if(!var4) { _fun0001_ip = 654; continue _fun0001 }
  650:
-            tangon = vacuum > offset;
+            var4 = var23 > var10;
  654:
-            entity = tangon;
+            var1 = var4;
  657:
-            echoed = undefined;
-            result = undefined;
-            if(!entity) { _fun00002_ip = 816; continue _fun00001 }
+            var19 = undefined;
+            var18 = undefined;
+            if(!var1) { _fun0001_ip = 816; continue _fun0001 }
  667:
-            entity = zuuluu != vacuum;
-            tangon = undefined;
-            if(!entity) { _fun00002_ip = 739; continue _fun00001 }
+            var1 = var3 != var23;
+            var4 = undefined;
+            if(!var1) { _fun0001_ip = 739; continue _fun0001 }
  676:
-            option = _closure1_slot0;
-            config = _closure1_slot2;
-            entity = 16;
-            update = config[entity];
-            update = option.bind(verify)(update);
-            ctrled = update.intl;
-            update = ctrled.formatToPlainString;
-            entity = config[entity];
-            entity = option.bind(verify)(entity);
-            entity = entity.t;
-            option = entity.LC+S+v;
-            entity = {};
-            entity['membersOnline'] = vacuum;
-            tangon = update.bind(ctrled)(option, entity);
+            var8 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var1 = 16;
+            var20 = var25[var1];
+            var20 = var8.bind(var9)(var20);
+            var22 = var20.intl;
+            var20 = var22.formatToPlainString;
+            var1 = var25[var1];
+            var1 = var8.bind(var9)(var1);
+            var1 = var1.t;
+            var8 = var1.LC+S+v;
+            var1 = {};
+            var1['membersOnline'] = var23;
+            var4 = var20.bind(var22)(var8, var1);
  739:
-            option = zuuluu != sequen;
-            entity = undefined;
-            if(!option) { _fun00002_ip = 810; continue _fun00001 }
+            var8 = var3 != var24;
+            var1 = undefined;
+            if(!var8) { _fun0001_ip = 810; continue _fun0001 }
  748:
-            update = _closure1_slot0;
-            config = _closure1_slot2;
-            option = 16;
-            ctrled = config[option];
-            ctrled = update.bind(verify)(ctrled);
-            vacuum = ctrled.intl;
-            ctrled = vacuum.formatToPlainString;
-            option = config[option];
-            option = update.bind(verify)(option);
-            option = option.t;
-            update = option.zRl6XV;
-            option = {};
-            option['count'] = sequen;
-            entity = ctrled.bind(vacuum)(update, option);
+            var20 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var8 = 16;
+            var22 = var25[var8];
+            var22 = var20.bind(var9)(var22);
+            var23 = var22.intl;
+            var22 = var23.formatToPlainString;
+            var8 = var25[var8];
+            var8 = var20.bind(var9)(var8);
+            var8 = var8.t;
+            var20 = var8.zRl6XV;
+            var8 = {};
+            var8['count'] = var24;
+            var1 = var22.bind(var23)(var20, var8);
  810:
-            result = entity;
-            echoed = tangon;
+            var18 = var1;
+            var19 = var4;
  816:
-            entity = zuuluu != yankee;
-            tangon = null;
-            if(!entity) { _fun00002_ip = 856; continue _fun00001 }
+            var1 = var3 != var11;
+            var4 = null;
+            if(!var1) { _fun0001_ip = 856; continue _fun0001 }
  825:
-            option = _closure1_slot0;
-            update = _closure1_slot2;
-            entity = 17;
-            entity = update[entity];
-            option = option.bind(verify)(entity);
-            entity = option.getGuildProfileCTAType;
-            tangon = entity.bind(option)(yankee);
+            var8 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var1 = 17;
+            var1 = var20[var1];
+            var8 = var8.bind(var9)(var1);
+            var1 = var8.getGuildProfileCTAType;
+            var4 = var1.bind(var8)(var11);
  856:
-            update = _closure1_slot0;
-            entity = _closure1_slot2;
-            option = 17;
-            entity = entity[option];
-            entity = update.bind(verify)(entity);
-            entity = entity.CTATypes;
-            entity = entity.IS_MEMBER;
-            if(!(entity !== tangon)) { _fun00002_ip = 1203; continue _fun00001 }
+            var20 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var8 = 17;
+            var1 = var1[var8];
+            var1 = var20.bind(var9)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.IS_MEMBER;
+            if(!(var1 !== var4)) { _fun0001_ip = 1203; continue _fun0001 }
  895:
-            update = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = update.bind(verify)(entity);
-            entity = entity.CTATypes;
-            entity = entity.HAS_APPLICATION;
-            if(!(entity !== tangon)) { _fun00002_ip = 1146; continue _fun00001 }
+            var20 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var20.bind(var9)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.HAS_APPLICATION;
+            if(!(var1 !== var4)) { _fun0001_ip = 1146; continue _fun0001 }
  931:
-            update = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = update.bind(verify)(entity);
-            entity = entity.CTATypes;
-            entity = entity.APPLY_TO_JOIN;
-            if(!(entity !== tangon)) { _fun00002_ip = 1089; continue _fun00001 }
+            var20 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var20.bind(var9)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.APPLY_TO_JOIN;
+            if(!(var1 !== var4)) { _fun0001_ip = 1089; continue _fun0001 }
  967:
-            update = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = update.bind(verify)(entity);
-            entity = entity.CTATypes;
-            entity = entity.LURK_DISCOVERABLE;
-            if(!(entity !== tangon)) { _fun00002_ip = 1029; continue _fun00001 }
+            var20 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var20.bind(var9)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.LURK_DISCOVERABLE;
+            if(!(var1 !== var4)) { _fun0001_ip = 1029; continue _fun0001 }
  1000:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = tangon.bind(verify)(entity);
-            entity = entity.CTATypes;
-            entity = entity.JOIN_VIA_INVITE;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var8];
+            var1 = var4.bind(var9)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.JOIN_VIA_INVITE;
  1029:
-            update = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            entity = 16;
-            tangon = ctrled[entity];
-            tangon = update.bind(verify)(tangon);
-            option = tangon.intl;
-            tangon = option.string;
-            entity = ctrled[entity];
-            entity = update.bind(verify)(entity);
-            entity = entity.t;
-            entity = entity.XpeFYm;
-            update = tangon.bind(option)(entity);
-            _fun00002_ip = 1258; continue _fun00001;
+            var20 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var1 = 16;
+            var4 = var22[var1];
+            var4 = var20.bind(var9)(var4);
+            var8 = var4.intl;
+            var4 = var8.string;
+            var1 = var22[var1];
+            var1 = var20.bind(var9)(var1);
+            var1 = var1.t;
+            var1 = var1.XpeFYm;
+            var20 = var4.bind(var8)(var1);
+            _fun0001_ip = 1258; continue _fun0001;
  1089:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            entity = 16;
-            tangon = vacuum[entity];
-            tangon = ctrled.bind(verify)(tangon);
-            option = tangon.intl;
-            tangon = option.string;
-            entity = vacuum[entity];
-            entity = ctrled.bind(verify)(entity);
-            entity = entity.t;
-            entity = entity.7XdMW1;
-            update = tangon.bind(option)(entity);
-            _fun00002_ip = 1258; continue _fun00001;
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var1 = 16;
+            var4 = var23[var1];
+            var4 = var22.bind(var9)(var4);
+            var8 = var4.intl;
+            var4 = var8.string;
+            var1 = var23[var1];
+            var1 = var22.bind(var9)(var1);
+            var1 = var1.t;
+            var1 = var1.7XdMW1;
+            var20 = var4.bind(var8)(var1);
+            _fun0001_ip = 1258; continue _fun0001;
  1146:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            entity = 16;
-            tangon = vacuum[entity];
-            tangon = ctrled.bind(verify)(tangon);
-            option = tangon.intl;
-            tangon = option.string;
-            entity = vacuum[entity];
-            entity = ctrled.bind(verify)(entity);
-            entity = entity.t;
-            entity = entity.4yfIDg;
-            update = tangon.bind(option)(entity);
-            _fun00002_ip = 1258; continue _fun00001;
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var1 = 16;
+            var4 = var23[var1];
+            var4 = var22.bind(var9)(var4);
+            var8 = var4.intl;
+            var4 = var8.string;
+            var1 = var23[var1];
+            var1 = var22.bind(var9)(var1);
+            var1 = var1.t;
+            var1 = var1.4yfIDg;
+            var20 = var4.bind(var8)(var1);
+            _fun0001_ip = 1258; continue _fun0001;
  1203:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            entity = 16;
-            tangon = vacuum[entity];
-            tangon = ctrled.bind(verify)(tangon);
-            option = tangon.intl;
-            tangon = option.string;
-            entity = vacuum[entity];
-            entity = ctrled.bind(verify)(entity);
-            entity = entity.t;
-            entity = entity.IRoQXl;
-            update = tangon.bind(option)(entity);
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var1 = 16;
+            var4 = var23[var1];
+            var4 = var22.bind(var9)(var4);
+            var8 = var4.intl;
+            var4 = var8.string;
+            var1 = var23[var1];
+            var1 = var22.bind(var9)(var1);
+            var1 = var1.t;
+            var1 = var1.IRoQXl;
+            var20 = var4.bind(var8)(var1);
  1258:
-            entity = zuuluu != oscard;
-            option = undefined;
-            if(!entity) { _fun00002_ip = 1299; continue _fun00001 }
+            var1 = var3 != var6;
+            var8 = undefined;
+            if(!var1) { _fun0001_ip = 1299; continue _fun0001 }
  1267:
-            tangon = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            entity = 18;
-            entity = ctrled[entity];
-            tangon = tangon.bind(verify)(entity);
-            entity = tangon.getGuildBadgeImageSource;
-            option = entity.bind(tangon)(oscard, source);
+            var4 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var1 = 18;
+            var1 = var22[var1];
+            var4 = var4.bind(var9)(var1);
+            var1 = var4.getGuildBadgeImageSource;
+            var8 = var1.bind(var4)(var6, var21);
  1299:
-            entity = zuuluu == yankee;
-            oscard = undefined;
-            if(entity) { _fun00002_ip = 1340; continue _fun00001 }
+            var1 = var3 == var11;
+            var6 = undefined;
+            if(var1) { _fun0001_ip = 1340; continue _fun0001 }
  1308:
-            source = yankee.traits;
-            entity = zuuluu == source;
-            oscard = undefined;
-            if(entity) { _fun00002_ip = 1340; continue _fun00001 }
+            var21 = var11.traits;
+            var1 = var3 == var21;
+            var6 = undefined;
+            if(var1) { _fun0001_ip = 1340; continue _fun0001 }
  1323:
-            tangon = source.filter;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = var21.filter;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = argFoo;
-                    entity = null;
-                    entity = entity != michal;
-                    if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+                    var2 = arg1;
+                    var1 = null;
+                    var1 = var1 != var2;
+                    if(!var1) { _fun0002_ip = 38; continue _fun0002 }
  12:
-                    zuuluu = michal.label;
-                    michal = zuuluu.trim;
-                    michal = michal.bind(zuuluu)();
-                    zuuluu = michal.length;
-                    michal = 0;
-                    entity = zuuluu > michal;
+                    var3 = var2.label;
+                    var2 = var3.trim;
+                    var2 = var2.bind(var3)();
+                    var3 = var2.length;
+                    var2 = 0;
+                    var1 = var3 > var2;
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            oscard = tangon.bind(source)(entity);
+            var6 = var4.bind(var21)(var1);
  1340:
-            entity = zuuluu != yankee;
-            tangon = undefined;
-            if(!entity) { _fun00002_ip = 1481; continue _fun00001 }
+            var1 = var3 != var11;
+            var4 = undefined;
+            if(!var1) { _fun0001_ip = 1481; continue _fun0001 }
  1352:
-            source = _closure1_slot0;
-            config = _closure1_slot2;
-            entity = 19;
-            entity = config[entity];
-            sequen = source.bind(verify)(entity);
-            vacuum = sequen.getEstablishedDate;
-            ctrled = _closure1_slot1;
-            entity = 20;
-            entity = config[entity];
-            record = ctrled.bind(verify)(entity);
-            ctrled = record.extractTimestamp;
-            entity = yankee.id;
-            ctrled = ctrled.bind(record)(entity);
-            entity = _closure1_slot4;
-            entity = entity.locale;
-            sequen = vacuum.bind(sequen)(ctrled, entity);
-            entity = 16;
-            ctrled = config[entity];
-            ctrled = source.bind(verify)(ctrled);
-            vacuum = ctrled.intl;
-            ctrled = vacuum.formatToPlainString;
-            entity = config[entity];
-            entity = source.bind(verify)(entity);
-            entity = entity.t;
-            source = entity.zb2Q5+;
-            entity = {};
-            entity['createdAtDate'] = sequen;
-            tangon = ctrled.bind(vacuum)(source, entity);
+            var21 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var1 = 19;
+            var1 = var25[var1];
+            var24 = var21.bind(var9)(var1);
+            var23 = var24.getEstablishedDate;
+            var22 = _closure1_slot1;
+            var1 = 20;
+            var1 = var25[var1];
+            var26 = var22.bind(var9)(var1);
+            var22 = var26.extractTimestamp;
+            var1 = var11.id;
+            var22 = var22.bind(var26)(var1);
+            var1 = _closure1_slot4;
+            var1 = var1.locale;
+            var24 = var23.bind(var24)(var22, var1);
+            var1 = 16;
+            var22 = var25[var1];
+            var22 = var21.bind(var9)(var22);
+            var23 = var22.intl;
+            var22 = var23.formatToPlainString;
+            var1 = var25[var1];
+            var1 = var21.bind(var9)(var1);
+            var1 = var1.t;
+            var21 = var1.zb2Q5+;
+            var1 = {};
+            var1['createdAtDate'] = var24;
+            var4 = var22.bind(var23)(var21, var1);
  1481:
-            entity = {};
-            papara = entity;
-            cntext = sizing;
-            sizing = copyDataProperties(papara, cntext);
-            sizing = _closure1_slot5;
-            source = sizing.GUILD_PROFILE_INVITE;
-            sizing = 'extendedType';
-            entity[sizing] = source;
-            sizing = 'acceptLabelText';
-            entity[sizing] = update;
-            sizing = 'onlineText';
-            entity[sizing] = echoed;
-            sizing = 'memberText';
-            entity[sizing] = result;
-            sizing = zuuluu == yankee;
-            result = undefined;
-            if(sizing) { _fun00002_ip = 1557; continue _fun00001 }
+            var1 = {};
+            var28 = var1;
+            var27 = var16;
+            var16 = copyDataProperties(var28, var27);
+            var16 = _closure1_slot5;
+            var21 = var16.GUILD_PROFILE_INVITE;
+            var16 = 'extendedType';
+            var1[var16] = var21;
+            var16 = 'acceptLabelText';
+            var1[var16] = var20;
+            var16 = 'onlineText';
+            var1[var16] = var19;
+            var16 = 'memberText';
+            var1[var16] = var18;
+            var16 = var3 == var11;
+            var18 = undefined;
+            if(var16) { _fun0001_ip = 1557; continue _fun0001 }
  1552:
-            result = yankee.name;
+            var18 = var11.name;
  1557:
-            sizing = 'titleText';
-            entity[sizing] = result;
-            result = zuuluu != backup;
-            sizing = undefined;
-            if(!result) { _fun00002_ip = 1578; continue _fun00001 }
+            var16 = 'titleText';
+            var1[var16] = var18;
+            var18 = var3 != var14;
+            var16 = undefined;
+            if(!var18) { _fun0001_ip = 1578; continue _fun0001 }
  1575:
-            sizing = backup;
+            var16 = var14;
  1578:
-            backup = 'thumbnailUrl';
-            entity[backup] = sizing;
-            backup = 'thumbnailText';
-            entity[backup] = kiloes;
-            kiloes = zuuluu == yankee;
-            backup = undefined;
-            if(kiloes) { _fun00002_ip = 1612; continue _fun00001 }
+            var14 = 'thumbnailUrl';
+            var1[var14] = var16;
+            var14 = 'thumbnailText';
+            var1[var14] = var15;
+            var15 = var3 == var11;
+            var14 = undefined;
+            if(var15) { _fun0001_ip = 1612; continue _fun0001 }
  1607:
-            backup = yankee.description;
+            var14 = var11.description;
  1612:
-            sizing = zuuluu != backup;
-            kiloes = '';
-            if(!sizing) { _fun00002_ip = 1626; continue _fun00001 }
+            var16 = var3 != var14;
+            var15 = '';
+            if(!var16) { _fun0001_ip = 1626; continue _fun0001 }
  1623:
-            kiloes = backup;
+            var15 = var14;
  1626:
-            backup = 'bodyText';
-            entity[backup] = kiloes;
-            kiloes = true;
-            backup = 'embedCanBeTapped';
-            entity[backup] = kiloes;
-            backup = 'canBeAccepted';
-            entity[backup] = kiloes;
-            backup = golfie.type;
-            if(!(zuuluu == backup)) { _fun00002_ip = 1674; continue _fun00001 }
+            var14 = 'bodyText';
+            var1[var14] = var15;
+            var15 = true;
+            var14 = 'embedCanBeTapped';
+            var1[var14] = var15;
+            var14 = 'canBeAccepted';
+            var1[var14] = var15;
+            var14 = var7.type;
+            if(!(var3 == var14)) { _fun0001_ip = 1674; continue _fun0001 }
  1664:
-            golfie = _closure1_slot7;
-            backup = golfie.GUILD;
+            var7 = _closure1_slot7;
+            var14 = var7.GUILD;
  1674:
-            golfie = 'type';
-            entity[golfie] = backup;
-            golfie = 'inviteSplash';
-            entity[golfie] = romeon;
-            romeon = _closure1_slot0;
-            backup = _closure1_slot2;
-            golfie = 21;
-            kiloes = backup[golfie];
-            sizing = romeon.bind(verify)(kiloes);
-            kiloes = sizing.processColorOrThrow;
-            sizing = kiloes.bind(sizing)(output);
-            kiloes = 'bannerColor';
-            entity[kiloes] = sizing;
-            golfie = backup[golfie];
-            romeon = romeon.bind(verify)(golfie);
-            golfie = romeon.processColorOrThrow;
-            romeon = golfie.bind(romeon)(foxtra);
-            golfie = 'bannerColorSecondary';
-            entity[golfie] = romeon;
-            if(!(zuuluu == oscard)) { _fun00002_ip = 1773; continue _fun00001 }
+            var7 = 'type';
+            var1[var7] = var14;
+            var7 = 'inviteSplash';
+            var1[var7] = var12;
+            var12 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var7 = 21;
+            var15 = var14[var7];
+            var16 = var12.bind(var9)(var15);
+            var15 = var16.processColorOrThrow;
+            var16 = var15.bind(var16)(var17);
+            var15 = 'bannerColor';
+            var1[var15] = var16;
+            var7 = var14[var7];
+            var12 = var12.bind(var9)(var7);
+            var7 = var12.processColorOrThrow;
+            var12 = var7.bind(var12)(var13);
+            var7 = 'bannerColorSecondary';
+            var1[var7] = var12;
+            if(!(var3 == var6)) { _fun0001_ip = 1773; continue _fun0001 }
  1769:
-            oscard = new Array(0);
+            var6 = new Array(0);
  1773:
-            oscard = oscard.length;
-            golfie = oscard > offset;
-            if(golfie) { _fun00002_ip = 1817; continue _fun00001 }
+            var6 = var6.length;
+            var7 = var6 > var10;
+            if(var7) { _fun0001_ip = 1817; continue _fun0001 }
  1785:
-            romeon = zuuluu == yankee;
-            oscard = undefined;
-            if(romeon) { _fun00002_ip = 1800; continue _fun00001 }
+            var12 = var3 == var11;
+            var6 = undefined;
+            if(var12) { _fun0001_ip = 1800; continue _fun0001 }
  1794:
-            oscard = yankee.gameApplicationIds;
+            var6 = var11.gameApplicationIds;
  1800:
-            if(!(zuuluu == oscard)) { _fun00002_ip = 1808; continue _fun00001 }
+            if(!(var3 == var6)) { _fun0001_ip = 1808; continue _fun0001 }
  1804:
-            oscard = new Array(0);
+            var6 = new Array(0);
  1808:
-            oscard = oscard.length;
-            golfie = oscard > offset;
+            var6 = var6.length;
+            var7 = var6 > var10;
  1817:
-            oscard = 'hasProfileOverflow';
-            entity[oscard] = golfie;
-            golfie = zuuluu != option;
-            oscard = undefined;
-            if(!golfie) { _fun00002_ip = 1868; continue _fun00001 }
+            var6 = 'hasProfileOverflow';
+            var1[var6] = var7;
+            var7 = var3 != var8;
+            var6 = undefined;
+            if(!var7) { _fun0001_ip = 1868; continue _fun0001 }
  1837:
-            golfie = _closure1_slot0;
-            offset = _closure1_slot2;
-            report = 22;
-            report = offset[report];
-            golfie = golfie.bind(verify)(report);
-            report = golfie.getAssetUriForEmbed;
-            oscard = report.bind(golfie)(option);
+            var7 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var5 = 22;
+            var5 = var10[var5];
+            var7 = var7.bind(var9)(var5);
+            var5 = var7.getAssetUriForEmbed;
+            var6 = var5.bind(var7)(var8);
  1868:
-            report = 'badgeIconUrl';
-            entity[report] = oscard;
-            report = michal.acceptLabelGreenBackgroundColor;
-            michal = 'acceptLabelBackgroundColor';
-            entity[michal] = report;
-            michal = 'establishedText';
-            entity[michal] = tangon;
-            michal = 'headerText';
-            entity[michal] = zuuluu;
-            return entity;
+            var5 = 'badgeIconUrl';
+            var1[var5] = var6;
+            var5 = var2.acceptLabelGreenBackgroundColor;
+            var2 = 'acceptLabelBackgroundColor';
+            var1[var2] = var5;
+            var2 = 'establishedText';
+            var1[var2] = var4;
+            var2 = 'headerText';
+            var1[var2] = var3;
+            return var1;
         }
     };
-    zuuluu['createGuildProfileInvite'] = tangon;
-    michal = function(argFoo) { // Original name: GuildProfileInvite
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['createGuildProfileInvite'] = var4;
+    var2 = function GuildProfileInvite(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            offset = entity.invite;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 23;
-            entity = zuuluu[entity];
-            tangon = undefined;
-            report = michal.bind(tangon)(entity);
-            entity = report.useMessageRendererTheme;
-            golfie = entity.bind(report)();
-            report = _closure1_slot1;
-            entity = 6;
-            entity = zuuluu[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.bind(tangon)(golfie);
-            sizing = entity.baseColors;
-            entity = 7;
-            entity = zuuluu[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.buildGuildProfileFromInvite;
-            verify = entity.bind(michal)(offset);
-            option = null;
-            entity = option != verify;
-            michal = null;
-            if(!entity) { _fun00006_ip = 136; continue _fun00005 }
+            var1 = arg1;
+            var10 = var1.invite;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 23;
+            var1 = var3[var1];
+            var4 = undefined;
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useMessageRendererTheme;
+            var7 = var1.bind(var5)();
+            var5 = _closure1_slot1;
+            var1 = 6;
+            var1 = var3[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.bind(var4)(var7);
+            var16 = var1.baseColors;
+            var1 = 7;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.buildGuildProfileFromInvite;
+            var9 = var1.bind(var2)(var10);
+            var8 = null;
+            var1 = var8 != var9;
+            var2 = null;
+            if(!var1) { _fun0003_ip = 136; continue _fun0003 }
  105:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 10;
-            entity = report[entity];
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.fromGuildProfile;
-            michal = entity.bind(zuuluu)(verify);
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 10;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.fromGuildProfile;
+            var2 = var1.bind(var3)(var9);
  136:
-            source = offset.approximate_member_count;
-            update = offset.approximate_presence_count;
-            zuuluu = option == verify;
-            entity = undefined;
-            if(zuuluu) { _fun00006_ip = 162; continue _fun00005 }
+            var21 = var10.approximate_member_count;
+            var20 = var10.approximate_presence_count;
+            var3 = var8 == var9;
+            var1 = undefined;
+            if(var3) { _fun0003_ip = 162; continue _fun0003 }
  157:
-            entity = verify.icon;
+            var1 = var9.icon;
  162:
-            if(!(option == entity)) { _fun00006_ip = 229; continue _fun00005 }
+            if(!(var8 == var1)) { _fun0003_ip = 229; continue _fun0003 }
  166:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 14;
-            entity = report[entity];
-            report = zuuluu.bind(tangon)(entity);
-            zuuluu = report.getAcronym;
-            entity = option == verify;
-            yankee = undefined;
-            if(entity) { _fun00006_ip = 206; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 14;
+            var1 = var5[var1];
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.getAcronym;
+            var1 = var8 == var9;
+            var11 = undefined;
+            if(var1) { _fun0003_ip = 206; continue _fun0003 }
  201:
-            yankee = verify.name;
+            var11 = var9.name;
  206:
-            romeon = option != yankee;
-            entity = '';
-            if(!romeon) { _fun00006_ip = 220; continue _fun00005 }
+            var12 = var8 != var11;
+            var1 = '';
+            if(!var12) { _fun0003_ip = 220; continue _fun0003 }
  217:
-            entity = yankee;
+            var1 = var11;
  220:
-            backup = zuuluu.bind(report)(entity);
-            foxtra = undefined;
-            _fun00006_ip = 314; continue _fun00005;
+            var14 = var3.bind(var5)(var1);
+            var13 = undefined;
+            _fun0003_ip = 314; continue _fun0003;
  229:
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 13;
-            entity = report[entity];
-            report = zuuluu.bind(tangon)(entity);
-            zuuluu = report.getGuildIconURL;
-            entity = {};
-            romeon = option == verify;
-            yankee = undefined;
-            if(romeon) { _fun00006_ip = 271; continue _fun00005 }
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 13;
+            var1 = var5[var1];
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.getGuildIconURL;
+            var1 = {};
+            var12 = var8 == var9;
+            var11 = undefined;
+            if(var12) { _fun0003_ip = 271; continue _fun0003 }
  266:
-            yankee = verify.id;
+            var11 = var9.id;
  271:
-            entity['id'] = yankee;
-            romeon = option == verify;
-            yankee = undefined;
-            if(romeon) { _fun00006_ip = 289; continue _fun00005 }
+            var1['id'] = var11;
+            var12 = var8 == var9;
+            var11 = undefined;
+            if(var12) { _fun0003_ip = 289; continue _fun0003 }
  284:
-            yankee = verify.icon;
+            var11 = var9.icon;
  289:
-            entity['icon'] = yankee;
-            yankee = true;
-            entity['canAnimate'] = yankee;
-            yankee = 128;
-            entity['size'] = yankee;
-            foxtra = zuuluu.bind(report)(entity);
-            backup = undefined;
+            var1['icon'] = var11;
+            var11 = true;
+            var1['canAnimate'] = var11;
+            var11 = 128;
+            var1['size'] = var11;
+            var13 = var3.bind(var5)(var1);
+            var14 = undefined;
  314:
-            zuuluu = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 24;
-            entity = yankee[entity];
-            romeon = zuuluu.bind(tangon)(entity);
-            report = romeon.useToken;
-            kiloes = _closure1_slot1;
-            entity = 9;
-            entity = yankee[entity];
-            entity = kiloes.bind(tangon)(entity);
-            entity = entity.colors;
-            entity = entity.BG_BASE_TERTIARY;
-            romeon = report.bind(romeon)(entity);
-            entity = 11;
-            entity = yankee[entity];
-            report = zuuluu.bind(tangon)(entity);
-            entity = report.useProfilePrimaryColor;
-            report = entity.bind(report)(verify, romeon);
-            entity = 12;
-            entity = yankee[entity];
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.getBackgroundForProfile;
-            report = entity.bind(zuuluu)(golfie, report);
-            zuuluu = _closure1_slot3;
-            entity = 2;
-            zuuluu = zuuluu.bind(tangon)(report, entity);
-            golfie = 0;
-            kiloes = zuuluu[golfie];
-            entity = 1;
-            yankee = zuuluu[entity];
-            zuuluu = option == michal;
-            entity = undefined;
-            if(zuuluu) { _fun00006_ip = 481; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var1 = 24;
+            var1 = var11[var1];
+            var12 = var3.bind(var4)(var1);
+            var5 = var12.useToken;
+            var15 = _closure1_slot1;
+            var1 = 9;
+            var1 = var11[var1];
+            var1 = var15.bind(var4)(var1);
+            var1 = var1.colors;
+            var1 = var1.BG_BASE_TERTIARY;
+            var12 = var5.bind(var12)(var1);
+            var1 = 11;
+            var1 = var11[var1];
+            var5 = var3.bind(var4)(var1);
+            var1 = var5.useProfilePrimaryColor;
+            var5 = var1.bind(var5)(var9, var12);
+            var1 = 12;
+            var1 = var11[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getBackgroundForProfile;
+            var5 = var1.bind(var3)(var7, var5);
+            var3 = _closure1_slot3;
+            var1 = 2;
+            var3 = var3.bind(var4)(var5, var1);
+            var7 = 0;
+            var15 = var3[var7];
+            var1 = 1;
+            var11 = var3[var1];
+            var3 = var8 == var2;
+            var1 = undefined;
+            if(var3) { _fun0003_ip = 481; continue _fun0003 }
  455:
-            report = michal.features;
-            zuuluu = report.has;
-            michal = _closure1_slot6;
-            michal = michal.DISCOVERABLE;
-            entity = zuuluu.bind(report)(michal);
+            var5 = var2.features;
+            var3 = var5.has;
+            var2 = _closure1_slot6;
+            var2 = var2.DISCOVERABLE;
+            var1 = var3.bind(var5)(var2);
  481:
-            romeon = undefined;
-            if(!entity) { _fun00006_ip = 605; continue _fun00005 }
+            var12 = undefined;
+            if(!var1) { _fun0003_ip = 605; continue _fun0003 }
  486:
-            michal = option == verify;
-            entity = undefined;
-            if(michal) { _fun00006_ip = 501; continue _fun00005 }
+            var2 = var8 == var9;
+            var1 = undefined;
+            if(var2) { _fun0003_ip = 501; continue _fun0003 }
  495:
-            entity = verify.customBanner;
+            var1 = var9.customBanner;
  501:
-            entity = option != entity;
-            romeon = undefined;
-            if(!entity) { _fun00006_ip = 605; continue _fun00005 }
+            var1 = var8 != var1;
+            var12 = undefined;
+            if(!var1) { _fun0003_ip = 605; continue _fun0003 }
  510:
-            output = _closure1_slot1;
-            result = _closure1_slot2;
-            entity = 13;
-            entity = result[entity];
-            zuuluu = output.bind(tangon)(entity);
-            michal = zuuluu.getGuildDiscoverySplashURL;
-            entity = {};
-            report = verify.id;
-            entity['id'] = report;
-            report = verify.customBanner;
-            entity['splash'] = report;
-            report = 15;
-            report = result[report];
-            report = output.bind(tangon)(report);
-            output = report.bind(tangon)();
-            report = 400;
-            report = report * output;
-            entity['size'] = report;
-            entity = michal.bind(zuuluu)(entity);
-            michal = option != entity;
-            romeon = undefined;
-            if(!michal) { _fun00006_ip = 605; continue _fun00005 }
+            var17 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var1 = 13;
+            var1 = var18[var1];
+            var3 = var17.bind(var4)(var1);
+            var2 = var3.getGuildDiscoverySplashURL;
+            var1 = {};
+            var5 = var9.id;
+            var1['id'] = var5;
+            var5 = var9.customBanner;
+            var1['splash'] = var5;
+            var5 = 15;
+            var5 = var18[var5];
+            var5 = var17.bind(var4)(var5);
+            var17 = var5.bind(var4)();
+            var5 = 400;
+            var5 = var5 * var17;
+            var1['size'] = var5;
+            var1 = var2.bind(var3)(var1);
+            var2 = var8 != var1;
+            var12 = undefined;
+            if(!var2) { _fun0003_ip = 605; continue _fun0003 }
  602:
-            romeon = entity;
+            var12 = var1;
  605:
-            entity = option != source;
-            if(!entity) { _fun00006_ip = 619; continue _fun00005 }
+            var1 = var8 != var21;
+            if(!var1) { _fun0003_ip = 619; continue _fun0003 }
  612:
-            michal = 5;
-            entity = source >= michal;
+            var2 = 5;
+            var1 = var21 >= var2;
  619:
-            if(entity) { _fun00006_ip = 636; continue _fun00005 }
+            if(var1) { _fun0003_ip = 636; continue _fun0003 }
  622:
-            michal = option != update;
-            if(!michal) { _fun00006_ip = 633; continue _fun00005 }
+            var2 = var8 != var20;
+            if(!var2) { _fun0003_ip = 633; continue _fun0003 }
  629:
-            michal = update > golfie;
+            var2 = var20 > var7;
  633:
-            entity = michal;
+            var1 = var2;
  636:
-            result = undefined;
-            output = undefined;
-            if(!entity) { _fun00006_ip = 795; continue _fun00005 }
+            var18 = undefined;
+            var17 = undefined;
+            if(!var1) { _fun0003_ip = 795; continue _fun0003 }
  646:
-            entity = option != update;
-            michal = undefined;
-            if(!entity) { _fun00006_ip = 718; continue _fun00005 }
+            var1 = var8 != var20;
+            var2 = undefined;
+            if(!var1) { _fun0003_ip = 718; continue _fun0003 }
  655:
-            zuuluu = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            entity = 16;
-            report = ctrled[entity];
-            report = zuuluu.bind(tangon)(report);
-            echoed = report.intl;
-            report = echoed.formatToPlainString;
-            entity = ctrled[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.t;
-            zuuluu = entity.LC+S+v;
-            entity = {};
-            entity['membersOnline'] = update;
-            michal = report.bind(echoed)(zuuluu, entity);
+            var3 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var1 = 16;
+            var5 = var22[var1];
+            var5 = var3.bind(var4)(var5);
+            var19 = var5.intl;
+            var5 = var19.formatToPlainString;
+            var1 = var22[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.t;
+            var3 = var1.LC+S+v;
+            var1 = {};
+            var1['membersOnline'] = var20;
+            var2 = var5.bind(var19)(var3, var1);
  718:
-            zuuluu = option != source;
-            entity = undefined;
-            if(!zuuluu) { _fun00006_ip = 789; continue _fun00005 }
+            var3 = var8 != var21;
+            var1 = undefined;
+            if(!var3) { _fun0003_ip = 789; continue _fun0003 }
  727:
-            report = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            zuuluu = 16;
-            echoed = ctrled[zuuluu];
-            echoed = report.bind(tangon)(echoed);
-            update = echoed.intl;
-            echoed = update.formatToPlainString;
-            zuuluu = ctrled[zuuluu];
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            report = zuuluu.zRl6XV;
-            zuuluu = {};
-            zuuluu['count'] = source;
-            entity = echoed.bind(update)(report, zuuluu);
+            var5 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var3 = 16;
+            var19 = var22[var3];
+            var19 = var5.bind(var4)(var19);
+            var20 = var19.intl;
+            var19 = var20.formatToPlainString;
+            var3 = var22[var3];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.zRl6XV;
+            var3 = {};
+            var3['count'] = var21;
+            var1 = var19.bind(var20)(var5, var3);
  789:
-            output = entity;
-            result = michal;
+            var17 = var1;
+            var18 = var2;
  795:
-            entity = option != verify;
-            michal = null;
-            if(!entity) { _fun00006_ip = 835; continue _fun00005 }
+            var1 = var8 != var9;
+            var2 = null;
+            if(!var1) { _fun0003_ip = 835; continue _fun0003 }
  804:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 17;
-            entity = report[entity];
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.getGuildProfileCTAType;
-            michal = entity.bind(zuuluu)(verify);
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 17;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getGuildProfileCTAType;
+            var2 = var1.bind(var3)(var9);
  835:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            update = 16;
-            zuuluu = entity[update];
-            zuuluu = report.bind(tangon)(zuuluu);
-            source = zuuluu.intl;
-            echoed = source.string;
-            zuuluu = entity[update];
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.eb9gDA;
-            zuuluu = echoed.bind(source)(zuuluu);
-            echoed = 17;
-            entity = entity[echoed];
-            entity = report.bind(tangon)(entity);
-            entity = entity.CTATypes;
-            entity = entity.IS_MEMBER;
-            if(!(entity !== michal)) { _fun00006_ip = 1232; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var20 = 16;
+            var3 = var1[var20];
+            var3 = var5.bind(var4)(var3);
+            var21 = var3.intl;
+            var19 = var21.string;
+            var3 = var1[var20];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.eb9gDA;
+            var3 = var19.bind(var21)(var3);
+            var19 = 17;
+            var1 = var1[var19];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.IS_MEMBER;
+            if(!(var1 !== var2)) { _fun0003_ip = 1232; continue _fun0003 }
  923:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[echoed];
-            entity = report.bind(tangon)(entity);
-            entity = entity.CTATypes;
-            entity = entity.HAS_APPLICATION;
-            if(!(entity !== michal)) { _fun00006_ip = 1178; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var19];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.HAS_APPLICATION;
+            if(!(var1 !== var2)) { _fun0003_ip = 1178; continue _fun0003 }
  959:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[echoed];
-            entity = report.bind(tangon)(entity);
-            entity = entity.CTATypes;
-            entity = entity.APPLY_TO_JOIN;
-            if(!(entity !== michal)) { _fun00006_ip = 1124; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var19];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.APPLY_TO_JOIN;
+            if(!(var1 !== var2)) { _fun0003_ip = 1124; continue _fun0003 }
  995:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[echoed];
-            entity = report.bind(tangon)(entity);
-            entity = entity.CTATypes;
-            entity = entity.LURK_DISCOVERABLE;
-            if(!(entity !== michal)) { _fun00006_ip = 1067; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var19];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.LURK_DISCOVERABLE;
+            if(!(var1 !== var2)) { _fun0003_ip = 1067; continue _fun0003 }
  1028:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[echoed];
-            entity = report.bind(tangon)(entity);
-            entity = entity.CTATypes;
-            entity = entity.JOIN_VIA_INVITE;
-            echoed = zuuluu;
-            if(!(entity === michal)) { _fun00006_ip = 1284; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var19];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.CTATypes;
+            var1 = var1.JOIN_VIA_INVITE;
+            var19 = var3;
+            if(!(var1 === var2)) { _fun0003_ip = 1284; continue _fun0003 }
  1067:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            michal = entity[update];
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[update];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.XpeFYm;
-            echoed = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 1284; continue _fun00005;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = var1[var20];
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var20];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.XpeFYm;
+            var19 = var2.bind(var3)(var1);
+            _fun0003_ip = 1284; continue _fun0003;
  1124:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            michal = entity[update];
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[update];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.7XdMW1;
-            echoed = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 1284; continue _fun00005;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = var1[var20];
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var20];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.7XdMW1;
+            var19 = var2.bind(var3)(var1);
+            _fun0003_ip = 1284; continue _fun0003;
  1178:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            michal = entity[update];
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[update];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.4yfIDg;
-            echoed = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 1284; continue _fun00005;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = var1[var20];
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var20];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.4yfIDg;
+            var19 = var2.bind(var3)(var1);
+            _fun0003_ip = 1284; continue _fun0003;
  1232:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            michal = entity[update];
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[update];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.IRoQXl;
-            echoed = michal.bind(zuuluu)(entity);
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = var1[var20];
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var20];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.IRoQXl;
+            var19 = var2.bind(var3)(var1);
  1284:
-            entity = option == verify;
-            report = undefined;
-            if(entity) { _fun00006_ip = 1325; continue _fun00005 }
+            var1 = var8 == var9;
+            var5 = undefined;
+            if(var1) { _fun0003_ip = 1325; continue _fun0003 }
  1293:
-            zuuluu = verify.traits;
-            entity = option == zuuluu;
-            report = undefined;
-            if(entity) { _fun00006_ip = 1325; continue _fun00005 }
+            var3 = var9.traits;
+            var1 = var8 == var3;
+            var5 = undefined;
+            if(var1) { _fun0003_ip = 1325; continue _fun0003 }
  1308:
-            michal = zuuluu.filter;
-            entity = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    michal = argFoo;
-                    entity = null;
-                    entity = entity != michal;
-                    if(!entity) { _fun00008_ip = 38; continue _fun00007 }
+                    var2 = arg1;
+                    var1 = null;
+                    var1 = var1 != var2;
+                    if(!var1) { _fun0004_ip = 38; continue _fun0004 }
  12:
-                    zuuluu = michal.label;
-                    michal = zuuluu.trim;
-                    michal = michal.bind(zuuluu)();
-                    zuuluu = michal.length;
-                    michal = 0;
-                    entity = zuuluu > michal;
+                    var3 = var2.label;
+                    var2 = var3.trim;
+                    var2 = var2.bind(var3)();
+                    var3 = var2.length;
+                    var2 = 0;
+                    var1 = var3 > var2;
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            report = michal.bind(zuuluu)(entity);
+            var5 = var2.bind(var3)(var1);
  1325:
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot1;
-            update = _closure1_slot2;
-            entity = 25;
-            entity = update[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            sequen = entity;
-            vacuum = sizing;
-            sizing = copyDataProperties(sequen, vacuum);
-            sizing = _closure1_slot5;
-            update = sizing.GUILD_PROFILE_INVITE;
-            sizing = 'extendedType';
-            entity[sizing] = update;
-            sizing = 'headerText';
-            entity[sizing] = option;
-            sizing = 'acceptLabelText';
-            entity[sizing] = echoed;
-            sizing = 'onlineText';
-            entity[sizing] = result;
-            sizing = 'memberText';
-            entity[sizing] = output;
-            sizing = option == verify;
-            output = undefined;
-            if(sizing) { _fun00006_ip = 1434; continue _fun00005 }
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var1 = 25;
+            var1 = var20[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var24 = var1;
+            var23 = var16;
+            var16 = copyDataProperties(var24, var23);
+            var16 = _closure1_slot5;
+            var20 = var16.GUILD_PROFILE_INVITE;
+            var16 = 'extendedType';
+            var1[var16] = var20;
+            var16 = 'headerText';
+            var1[var16] = var8;
+            var16 = 'acceptLabelText';
+            var1[var16] = var19;
+            var16 = 'onlineText';
+            var1[var16] = var18;
+            var16 = 'memberText';
+            var1[var16] = var17;
+            var16 = var8 == var9;
+            var17 = undefined;
+            if(var16) { _fun0003_ip = 1434; continue _fun0003 }
  1429:
-            output = verify.name;
+            var17 = var9.name;
  1434:
-            sizing = 'titleText';
-            entity[sizing] = output;
-            output = option != foxtra;
-            sizing = undefined;
-            if(!output) { _fun00006_ip = 1455; continue _fun00005 }
+            var16 = 'titleText';
+            var1[var16] = var17;
+            var17 = var8 != var13;
+            var16 = undefined;
+            if(!var17) { _fun0003_ip = 1455; continue _fun0003 }
  1452:
-            sizing = foxtra;
+            var16 = var13;
  1455:
-            foxtra = 'thumbnailUrl';
-            entity[foxtra] = sizing;
-            foxtra = 'thumbnailText';
-            entity[foxtra] = backup;
-            backup = option == verify;
-            foxtra = undefined;
-            if(backup) { _fun00006_ip = 1489; continue _fun00005 }
+            var13 = 'thumbnailUrl';
+            var1[var13] = var16;
+            var13 = 'thumbnailText';
+            var1[var13] = var14;
+            var14 = var8 == var9;
+            var13 = undefined;
+            if(var14) { _fun0003_ip = 1489; continue _fun0003 }
  1484:
-            foxtra = verify.description;
+            var13 = var9.description;
  1489:
-            sizing = option != foxtra;
-            backup = '';
-            if(!sizing) { _fun00006_ip = 1503; continue _fun00005 }
+            var16 = var8 != var13;
+            var14 = '';
+            if(!var16) { _fun0003_ip = 1503; continue _fun0003 }
  1500:
-            backup = foxtra;
+            var14 = var13;
  1503:
-            foxtra = 'bodyText';
-            entity[foxtra] = backup;
-            backup = true;
-            foxtra = 'embedCanBeTapped';
-            entity[foxtra] = backup;
-            foxtra = 'canBeAccepted';
-            entity[foxtra] = backup;
-            foxtra = offset.type;
-            if(!(option == foxtra)) { _fun00006_ip = 1551; continue _fun00005 }
+            var13 = 'bodyText';
+            var1[var13] = var14;
+            var14 = true;
+            var13 = 'embedCanBeTapped';
+            var1[var13] = var14;
+            var13 = 'canBeAccepted';
+            var1[var13] = var14;
+            var13 = var10.type;
+            if(!(var8 == var13)) { _fun0003_ip = 1551; continue _fun0003 }
  1541:
-            offset = _closure1_slot7;
-            foxtra = offset.GUILD;
+            var10 = _closure1_slot7;
+            var13 = var10.GUILD;
  1551:
-            offset = 'type';
-            entity[offset] = foxtra;
-            offset = 'inviteSplash';
-            entity[offset] = romeon;
-            offset = _closure1_slot0;
-            romeon = _closure1_slot2;
-            oscard = 21;
-            foxtra = romeon[oscard];
-            backup = offset.bind(tangon)(foxtra);
-            foxtra = backup.processColorOrThrow;
-            backup = foxtra.bind(backup)(kiloes);
-            foxtra = 'bannerColor';
-            entity[foxtra] = backup;
-            oscard = romeon[oscard];
-            offset = offset.bind(tangon)(oscard);
-            oscard = offset.processColorOrThrow;
-            offset = oscard.bind(offset)(yankee);
-            oscard = 'bannerColorSecondary';
-            entity[oscard] = offset;
-            if(!(option == report)) { _fun00006_ip = 1650; continue _fun00005 }
+            var10 = 'type';
+            var1[var10] = var13;
+            var10 = 'inviteSplash';
+            var1[var10] = var12;
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var6 = 21;
+            var13 = var12[var6];
+            var14 = var10.bind(var4)(var13);
+            var13 = var14.processColorOrThrow;
+            var14 = var13.bind(var14)(var15);
+            var13 = 'bannerColor';
+            var1[var13] = var14;
+            var6 = var12[var6];
+            var10 = var10.bind(var4)(var6);
+            var6 = var10.processColorOrThrow;
+            var10 = var6.bind(var10)(var11);
+            var6 = 'bannerColorSecondary';
+            var1[var6] = var10;
+            if(!(var8 == var5)) { _fun0003_ip = 1650; continue _fun0003 }
  1646:
-            report = new Array(0);
+            var5 = new Array(0);
  1650:
-            report = report.length;
-            oscard = report > golfie;
-            if(oscard) { _fun00006_ip = 1694; continue _fun00005 }
+            var5 = var5.length;
+            var6 = var5 > var7;
+            if(var6) { _fun0003_ip = 1694; continue _fun0003 }
  1662:
-            offset = option == verify;
-            report = undefined;
-            if(offset) { _fun00006_ip = 1677; continue _fun00005 }
+            var10 = var8 == var9;
+            var5 = undefined;
+            if(var10) { _fun0003_ip = 1677; continue _fun0003 }
  1671:
-            report = verify.gameApplicationIds;
+            var5 = var9.gameApplicationIds;
  1677:
-            if(!(option == report)) { _fun00006_ip = 1685; continue _fun00005 }
+            if(!(var8 == var5)) { _fun0003_ip = 1685; continue _fun0003 }
  1681:
-            report = new Array(0);
+            var5 = new Array(0);
  1685:
-            report = report.length;
-            oscard = report > golfie;
+            var5 = var5.length;
+            var6 = var5 > var7;
  1694:
-            report = 'hasProfileOverflow';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = 'hasProfileOverflow';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['GuildProfileInvite'] = michal;
-    return entity;
+    var3['GuildProfileInvite'] = var2;
+    return var1;
 })();

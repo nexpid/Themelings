@@ -1,56 +1,56 @@
 // app/modules/guild_settings/urlPartToSettingsEnum.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/guild_settings/urlPartToSettingsEnum.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: urlPartToSettingsEnum
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/guild_settings/urlPartToSettingsEnum.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function urlPartToSettingsEnum(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            option = argBar;
-            tangon = null;
-            report = tangon == option;
-            zuuluu = undefined;
-            entity = undefined;
-            if(report) { _fun00002_ip = 67; continue _fun00001 }
+            var2 = arg1;
+            var8 = arg2;
+            var4 = null;
+            var5 = var4 == var8;
+            var3 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 67; continue _fun0001 }
  19:
-            golfie = option.replace;
-            oscard = /-/g;
-            report = '_';
-            oscard = golfie.bind(option)(oscard, report);
-            report = tangon == oscard;
-            entity = undefined;
-            if(report) { _fun00002_ip = 67; continue _fun00001 }
+            var7 = var8.replace;
+            var6 = /-/g;
+            var5 = '_';
+            var6 = var7.bind(var8)(var6, var5);
+            var5 = var4 == var6;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 67; continue _fun0001 }
  57:
-            report = oscard.toUpperCase;
-            entity = report.bind(oscard)();
+            var5 = var6.toUpperCase;
+            var1 = var5.bind(var6)();
  67:
-            if(!(tangon != entity)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(var4 != var1)) { _fun0001_ip = 78; continue _fun0001 }
  71:
-            tangon = entity in michal;
-            if(tangon) { _fun00002_ip = 80; continue _fun00001 }
+            var4 = var1 in var2;
+            if(var4) { _fun0001_ip = 80; continue _fun0001 }
  78:
-            return zuuluu;
+            return var3;
  80:
-            entity = michal[entity];
-            return entity;
+            var1 = var2[var1];
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

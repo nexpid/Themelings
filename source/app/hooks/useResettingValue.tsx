@@ -1,126 +1,126 @@
 // app/hooks/useResettingValue.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.useState;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.useCallback;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.useEffect;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'hooks/useResettingValue.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useResettingValue
-        golfie = argFoo;
-        option = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = option;
-        entity = _closure1_slot4;
-        report = undefined;
-        tangon = entity.bind(report)(golfie);
-        entity = _closure1_slot3;
-        verify = 2;
-        oscard = entity.bind(report)(tangon, verify);
-        entity = 0;
-        tangon = oscard[entity];
-        entity = 1;
-        entity = oscard[entity];
-        var _closure2_slot2 = entity;
-        oscard = _closure1_slot1;
-        entity = _closure1_slot2;
-        entity = entity[verify];
-        oscard = oscard.bind(report)(entity);
-        entity = function() {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            entity = entity.Timeout;
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            report = michal;
-            entity = new report[entity](tangon);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.useState;
+    var _closure1_slot4 = var7;
+    var7 = var4.useCallback;
+    var _closure1_slot5 = var7;
+    var4 = var4.useEffect;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'hooks/useResettingValue.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useResettingValue(arg1, arg2) {
+        var7 = arg1;
+        var8 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var8;
+        var1 = _closure1_slot4;
+        var5 = undefined;
+        var4 = var1.bind(var5)(var7);
+        var1 = _closure1_slot3;
+        var9 = 2;
+        var6 = var1.bind(var5)(var4, var9);
+        var1 = 0;
+        var4 = var6[var1];
+        var1 = 1;
+        var1 = var6[var1];
+        var _closure2_slot2 = var1;
+        var6 = _closure1_slot1;
+        var1 = _closure1_slot2;
+        var1 = var1[var9];
+        var6 = var6.bind(var5)(var1);
+        var1 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.Timeout;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var5 = var2;
+            var1 = new var5[var1](var4);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        oscard = oscard.bind(report)(entity);
-        var _closure2_slot3 = oscard;
-        offset = _closure1_slot6;
-        verify = new Array(1);
-        verify[0] = oscard;
-        entity = function() {
-            entity = function() {
-                michal = _closure2_slot3;
-                entity = michal.stop;
-                entity = entity.bind(michal)();
-                return entity;
+        var6 = var6.bind(var5)(var1);
+        var _closure2_slot3 = var6;
+        var10 = _closure1_slot6;
+        var9 = new Array(1);
+        var9[0] = var6;
+        var1 = function() {
+            var1 = function() {
+                var2 = _closure2_slot3;
+                var1 = var2.stop;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        entity = offset.bind(report)(entity, verify);
-        entity = new Array(2);
-        entity[0] = tangon;
-        tangon = _closure1_slot5;
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = golfie;
-        zuuluu[2] = oscard;
-        michal = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1 = var10.bind(var5)(var1, var9);
+        var1 = new Array(2);
+        var1[0] = var4;
+        var4 = _closure1_slot5;
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var7;
+        var3[2] = var6;
+        var2 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = argFoo;
-                zuuluu = _closure2_slot2;
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(tangon);
-                zuuluu = _closure2_slot0;
-                if(!(tangon !== zuuluu)) { _fun00002_ip = 53; continue _fun00001 }
+                var4 = arg1;
+                var3 = _closure2_slot2;
+                var1 = undefined;
+                var3 = var3.bind(var1)(var4);
+                var3 = _closure2_slot0;
+                if(!(var4 !== var3)) { _fun0001_ip = 53; continue _fun0001 }
  25:
-                report = _closure2_slot3;
-                tangon = report.start;
-                zuuluu = _closure2_slot1;
-                michal = function() {
-                    zuuluu = _closure2_slot2;
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                var5 = _closure2_slot3;
+                var4 = var5.start;
+                var3 = _closure2_slot1;
+                var2 = function() {
+                    var3 = _closure2_slot2;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = tangon.bind(report)(zuuluu, michal);
+                var2 = var4.bind(var5)(var3, var2);
  53:
-                return entity;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity[1] = michal;
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        var1[1] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

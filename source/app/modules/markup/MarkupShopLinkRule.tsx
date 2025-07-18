@@ -1,96 +1,96 @@
 // app/modules/markup/MarkupShopLinkRule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    michal = true;
-    tangon['value'] = michal;
-    michal = '__esModule';
-    michal = option.bind(verify)(zuuluu, michal, tangon);
-    tangon = entity.RegExp;
-    entity = tangon.prototype;
-    michal = Object.create(entity, {constructor: {value: tangon}});
-    romeon = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?\\.com|staging\\.discord\\.co)/shop(?:\\?tab=[a-z]+)?#itemSkuId=(\\d+)';
-    foxtra = michal;
-    entity = new foxtra[tangon](romeon, yankee);
-    entity = entity instanceof Object ? entity : michal;
-    var _closure1_slot2 = entity;
-    michal = {};
-    tangon = {};
-    entity = 0;
-    verify = oscard[entity];
-    option = argBaz;
-    entity = undefined;
-    option = option.bind(entity)(verify);
-    option = option.defaultRules;
-    option = option.url;
-    verify = option.order;
-    option = 0.5;
-    option = verify - option;
-    tangon['order'] = option;
-    option = ['h'];
-    tangon['requiredFirstCharacters'] = option;
-    option = function(argFoo) { // Original name: match
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var2 = true;
+    var4['value'] = var2;
+    var2 = '__esModule';
+    var2 = var8.bind(var9)(var3, var2, var4);
+    var4 = var1.RegExp;
+    var1 = var4.prototype;
+    var2 = Object.create(var1, {constructor: {value: var4}});
+    var12 = '^https://(?:(?:canary\\.|ptb\\.)?discord(?:app)?\\.com|staging\\.discord\\.co)/shop(?:\\?tab=[a-z]+)?#itemSkuId=(\\d+)';
+    var13 = var2;
+    var1 = new var13[var4](var12, var11);
+    var1 = var1 instanceof Object ? var1 : var2;
+    var _closure1_slot2 = var1;
+    var2 = {};
+    var4 = {};
+    var1 = 0;
+    var9 = var6[var1];
+    var8 = native3;
+    var1 = undefined;
+    var8 = var8.bind(var1)(var9);
+    var8 = var8.defaultRules;
+    var8 = var8.url;
+    var9 = var8.order;
+    var8 = 0.5;
+    var8 = var9 - var8;
+    var4['order'] = var8;
+    var8 = ['h'];
+    var4['requiredFirstCharacters'] = var8;
+    var8 = function match(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot2;
-            michal = tangon.exec;
-            entity = argFoo;
-            entity = michal.bind(tangon)(entity);
-            michal = null;
-            if(!(michal != entity)) { _fun00002_ip = 71; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var2 = var4.exec;
+            var1 = arg1;
+            var1 = var2.bind(var4)(var1);
+            var2 = null;
+            if(!(var2 != var1)) { _fun0001_ip = 71; continue _fun0001 }
  27:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 1;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            report = report.bind(zuuluu)(tangon);
-            tangon = report.getCollectiblesShopLinkMentionEnabled;
-            zuuluu = 'MarkupShopLinkRule';
-            zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 71; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 1;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.getCollectiblesShopLinkMentionEnabled;
+            var3 = 'MarkupShopLinkRule';
+            var3 = var4.bind(var5)(var3);
+            if(var3) { _fun0001_ip = 71; continue _fun0001 }
  69:
-            return michal;
+            return var2;
  71:
-            return entity;
+            return var1;
         }
     };
-    tangon['match'] = option;
-    golfie = function(argFoo) { // Original name: parse
-        michal = argFoo;
-        entity = 0;
-        zuuluu = michal[entity];
-        entity = 1;
-        michal = michal[entity];
-        entity = {};
-        tangon = 'shopLink';
-        entity['type'] = tangon;
-        report = {};
-        tangon = 'text';
-        report['type'] = tangon;
-        report['content'] = michal;
-        tangon = new Array(1);
-        tangon[0] = report;
-        entity['content'] = tangon;
-        entity['shopLink'] = zuuluu;
-        entity['skuId'] = michal;
-        return entity;
+    var4['match'] = var8;
+    var7 = function parse(arg1) {
+        var2 = arg1;
+        var1 = 0;
+        var3 = var2[var1];
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = {};
+        var4 = 'shopLink';
+        var1['type'] = var4;
+        var5 = {};
+        var4 = 'text';
+        var5['type'] = var4;
+        var5['content'] = var2;
+        var4 = new Array(1);
+        var4[0] = var5;
+        var1['content'] = var4;
+        var1['shopLink'] = var3;
+        var1['skuId'] = var2;
+        return var1;
     };
-    tangon['parse'] = golfie;
-    michal['shopLink'] = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/markup/MarkupShopLinkRule.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var4['parse'] = var7;
+    var2['shopLink'] = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/markup/MarkupShopLinkRule.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

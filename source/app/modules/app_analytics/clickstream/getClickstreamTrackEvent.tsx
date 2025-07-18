@@ -1,187 +1,187 @@
 // app/modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.ChannelTypes;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.StaticChannelRoute;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getClickstreamTrackEvent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot2 = var7;
+    var4 = var4.ChannelTypes;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.StaticChannelRoute;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_analytics/clickstream/getClickstreamTrackEvent.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getClickstreamTrackEvent(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            entity = argBar;
-            michal = _closure1_slot2;
-            michal = michal.CHANNEL_OPENED_CLICKSTREAM;
-            if(!(michal !== oscard)) { _fun00002_ip = 274; continue _fun00001 }
+            var6 = arg1;
+            var1 = arg2;
+            var2 = _closure1_slot2;
+            var2 = var2.CHANNEL_OPENED_CLICKSTREAM;
+            if(!(var2 !== var6)) { _fun0001_ip = 274; continue _fun0001 }
  26:
-            michal = _closure1_slot2;
-            michal = michal.GUILD_VIEWED_CLICKSTREAM;
-            if(!(michal !== oscard)) { _fun00002_ip = 209; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.GUILD_VIEWED_CLICKSTREAM;
+            if(!(var2 !== var6)) { _fun0001_ip = 209; continue _fun0001 }
  43:
-            michal = _closure1_slot2;
-            michal = michal.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            if(!(michal !== oscard)) { _fun00002_ip = 109; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.FRIENDS_LIST_VIEWED_CLICKSTREAM;
+            if(!(var2 !== var6)) { _fun0001_ip = 109; continue _fun0001 }
  57:
-            michal = global;
-            report = michal.Error;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'getClickstreamTrackEvent: Unknown event: ';
-            golfie = zuuluu.bind(michal)(oscard);
-            zuuluu = report.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-            option = zuuluu;
-            michal = new option[report](golfie, oscard);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var2 = global;
+            var5 = var2.Error;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'getClickstreamTrackEvent: Unknown event: ';
+            var7 = var3.bind(var2)(var6);
+            var3 = var5.prototype;
+            var3 = Object.create(var3, {constructor: {value: var5}});
+            var8 = var3;
+            var2 = new var8[var5](var7, var6);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  109:
-            michal = {};
-            zuuluu = global;
-            zuuluu = zuuluu.Date;
-            report = zuuluu.prototype;
-            report = Object.create(report, {constructor: {value: zuuluu}});
-            option = report;
-            zuuluu = new option[zuuluu](golfie);
-            zuuluu = zuuluu instanceof Object ? zuuluu : report;
-            michal['timestamp'] = zuuluu;
-            report = _closure1_slot1;
-            zuuluu = report.getState;
-            zuuluu = zuuluu.bind(report)();
-            michal['rtc_state'] = zuuluu;
-            zuuluu = entity.tab_opened;
-            michal['tab_opened'] = zuuluu;
-            zuuluu = entity.num_friends;
-            michal['num_friends'] = zuuluu;
-            zuuluu = entity.now_playing_visible;
-            michal['now_playing_visible'] = zuuluu;
-            zuuluu = entity.now_playing_num_cards;
-            michal['now_playing_num_cards'] = zuuluu;
-            return michal;
+            var2 = {};
+            var3 = global;
+            var3 = var3.Date;
+            var5 = var3.prototype;
+            var5 = Object.create(var5, {constructor: {value: var3}});
+            var8 = var5;
+            var3 = new var8[var3](var7);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var2['timestamp'] = var3;
+            var5 = _closure1_slot1;
+            var3 = var5.getState;
+            var3 = var3.bind(var5)();
+            var2['rtc_state'] = var3;
+            var3 = var1.tab_opened;
+            var2['tab_opened'] = var3;
+            var3 = var1.num_friends;
+            var2['num_friends'] = var3;
+            var3 = var1.now_playing_visible;
+            var2['now_playing_visible'] = var3;
+            var3 = var1.now_playing_num_cards;
+            var2['now_playing_num_cards'] = var3;
+            return var2;
  209:
-            zuuluu = entity.guildId;
-            michal = {};
-            report = global;
-            report = report.Date;
-            oscard = report.prototype;
-            oscard = Object.create(oscard, {constructor: {value: report}});
-            option = oscard;
-            report = new option[report](golfie);
-            report = report instanceof Object ? report : oscard;
-            michal['timestamp'] = report;
-            oscard = _closure1_slot1;
-            report = oscard.getState;
-            report = report.bind(oscard)();
-            michal['rtc_state'] = report;
-            michal['guildId'] = zuuluu;
-            return michal;
+            var3 = var1.guildId;
+            var2 = {};
+            var5 = global;
+            var5 = var5.Date;
+            var6 = var5.prototype;
+            var6 = Object.create(var6, {constructor: {value: var5}});
+            var8 = var6;
+            var5 = new var8[var5](var7);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var2['timestamp'] = var5;
+            var6 = _closure1_slot1;
+            var5 = var6.getState;
+            var5 = var5.bind(var6)();
+            var2['rtc_state'] = var5;
+            var2['guildId'] = var3;
+            return var2;
  274:
-            zuuluu = entity.channelId;
-            entity = _closure1_slot4;
-            entity = entity.CHANNEL_BROWSER;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var3 = var1.channelId;
+            var1 = _closure1_slot4;
+            var1 = var1.CHANNEL_BROWSER;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  296:
-            entity = _closure1_slot4;
-            entity = entity.GUILD_HOME;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_HOME;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  313:
-            entity = _closure1_slot4;
-            entity = entity.GUILD_SHOP;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_SHOP;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  330:
-            entity = _closure1_slot4;
-            entity = entity.MEMBER_APPLICATIONS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.MEMBER_APPLICATIONS;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  347:
-            entity = _closure1_slot4;
-            entity = entity.ROLE_SUBSCRIPTIONS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.ROLE_SUBSCRIPTIONS;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  364:
-            entity = _closure1_slot4;
-            entity = entity.CUSTOMIZE_COMMUNITY;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.CUSTOMIZE_COMMUNITY;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  381:
-            entity = _closure1_slot4;
-            entity = entity.MEMBER_SAFETY;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.MEMBER_SAFETY;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  398:
-            entity = _closure1_slot4;
-            entity = entity.GUILD_ONBOARDING;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_ONBOARDING;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  415:
-            entity = _closure1_slot4;
-            entity = entity.GUILD_BOOSTS;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 538; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.GUILD_BOOSTS;
+            if(!(var1 !== var3)) { _fun0001_ip = 538; continue _fun0001 }
  429:
-            michal = _closure1_slot0;
-            entity = michal.getChannel;
-            report = entity.bind(michal)(zuuluu);
-            entity = null;
-            oscard = entity == report;
-            michal = undefined;
-            if(oscard) { _fun00002_ip = 459; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var1 = var2.getChannel;
+            var5 = var1.bind(var2)(var3);
+            var1 = null;
+            var6 = var1 == var5;
+            var2 = undefined;
+            if(var6) { _fun0001_ip = 459; continue _fun0001 }
  454:
-            michal = report.type;
+            var2 = var5.type;
  459:
-            if(!(entity == michal)) { _fun00002_ip = 473; continue _fun00001 }
+            if(!(var1 == var2)) { _fun0001_ip = 473; continue _fun0001 }
  463:
-            entity = _closure1_slot3;
-            michal = entity.UNKNOWN;
+            var1 = _closure1_slot3;
+            var2 = var1.UNKNOWN;
  473:
-            entity = {};
-            report = global;
-            report = report.Date;
-            oscard = report.prototype;
-            oscard = Object.create(oscard, {constructor: {value: report}});
-            option = oscard;
-            report = new option[report](golfie);
-            report = report instanceof Object ? report : oscard;
-            entity['timestamp'] = report;
-            report = _closure1_slot1;
-            tangon = report.getState;
-            tangon = tangon.bind(report)();
-            entity['rtc_state'] = tangon;
-            entity['channelId'] = zuuluu;
-            entity['channelType'] = michal;
-            return entity;
+            var1 = {};
+            var5 = global;
+            var5 = var5.Date;
+            var6 = var5.prototype;
+            var6 = Object.create(var6, {constructor: {value: var5}});
+            var8 = var6;
+            var5 = new var8[var5](var7);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var1['timestamp'] = var5;
+            var5 = _closure1_slot1;
+            var4 = var5.getState;
+            var4 = var4.bind(var5)();
+            var1['rtc_state'] = var4;
+            var1['channelId'] = var3;
+            var1['channelType'] = var2;
+            return var1;
  538:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

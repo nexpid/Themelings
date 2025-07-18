@@ -1,165 +1,165 @@
 // app/modules/guild_scheduled_events/saveGuildEventRecurrence.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/saveGuildEventRecurrence.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: saveGuildEventRecurrence
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/saveGuildEventRecurrence.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function saveGuildEventRecurrence(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            option = argBar;
-            yankee = argBaz;
-            michal = argCor;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            foxtra = 0;
-            golfie = tangon[foxtra];
-            entity = undefined;
-            verify = report.bind(entity)(golfie);
-            golfie = verify.getBaseScheduleForRecurrence;
-            offset = golfie.bind(verify)(option, zuuluu);
-            tangon = tangon[foxtra];
-            verify = report.bind(entity)(tangon);
-            golfie = verify.areDatesIdentical;
-            report = offset.startDate;
-            tangon = yankee.startDate;
-            report = golfie.bind(verify)(report, tangon);
-            tangon = null;
-            romeon = null;
-            if(report) { _fun00002_ip = 94; continue _fun00001 }
+            var3 = arg1;
+            var8 = arg2;
+            var11 = arg3;
+            var2 = arg4;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var13 = 0;
+            var7 = var4[var13];
+            var1 = undefined;
+            var9 = var5.bind(var1)(var7);
+            var7 = var9.getBaseScheduleForRecurrence;
+            var10 = var7.bind(var9)(var8, var3);
+            var4 = var4[var13];
+            var9 = var5.bind(var1)(var4);
+            var7 = var9.areDatesIdentical;
+            var5 = var10.startDate;
+            var4 = var11.startDate;
+            var5 = var7.bind(var9)(var5, var4);
+            var4 = null;
+            var12 = null;
+            if(var5) { _fun0001_ip = 94; continue _fun0001 }
  88:
-            romeon = yankee.startDate;
+            var12 = var11.startDate;
  94:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[foxtra];
-            backup = golfie.bind(entity)(report);
-            verify = backup.areDatesIdentical;
-            golfie = offset.endDate;
-            report = yankee.endDate;
-            report = verify.bind(backup)(golfie, report);
-            verify = null;
-            if(report) { _fun00002_ip = 146; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var13];
+            var14 = var7.bind(var1)(var5);
+            var9 = var14.areDatesIdentical;
+            var7 = var10.endDate;
+            var5 = var11.endDate;
+            var5 = var9.bind(var14)(var7, var5);
+            var9 = null;
+            if(var5) { _fun0001_ip = 146; continue _fun0001 }
  140:
-            verify = yankee.endDate;
+            var9 = var11.endDate;
  146:
-            if(!(tangon == michal)) { _fun00002_ip = 324; continue _fun00001 }
+            if(!(var4 == var2)) { _fun0001_ip = 324; continue _fun0001 }
  153:
-            golfie = _closure1_slot1;
-            backup = _closure1_slot2;
-            report = 2;
-            report = backup[report];
-            kiloes = golfie.bind(entity)(report);
-            report = kiloes.extractTimestamp;
-            output = report.bind(kiloes)(option);
-            report = 1;
-            report = backup[report];
-            sizing = golfie.bind(entity)(report);
-            kiloes = sizing.createGuildEventException;
-            backup = {};
-            report = global;
-            report = report.Date;
-            golfie = report.prototype;
-            golfie = Object.create(golfie, {constructor: {value: report}});
-            ctrled = golfie;
-            source = output;
-            report = new ctrled[report](source, update);
-            golfie = report instanceof Object ? report : golfie;
-            report = golfie.toISOString;
-            report = report.bind(golfie)();
-            backup['original_scheduled_start_time'] = report;
-            golfie = tangon == romeon;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 269; continue _fun00001 }
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var5 = 2;
+            var5 = var14[var5];
+            var15 = var7.bind(var1)(var5);
+            var5 = var15.extractTimestamp;
+            var17 = var5.bind(var15)(var8);
+            var5 = 1;
+            var5 = var14[var5];
+            var16 = var7.bind(var1)(var5);
+            var15 = var16.createGuildEventException;
+            var14 = {};
+            var5 = global;
+            var5 = var5.Date;
+            var7 = var5.prototype;
+            var7 = Object.create(var7, {constructor: {value: var5}});
+            var22 = var7;
+            var21 = var17;
+            var5 = new var22[var5](var21, var20);
+            var7 = var5 instanceof Object ? var5 : var7;
+            var5 = var7.toISOString;
+            var5 = var5.bind(var7)();
+            var14['original_scheduled_start_time'] = var5;
+            var7 = var4 == var12;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 269; continue _fun0001 }
  259:
-            golfie = romeon.toISOString;
-            report = golfie.bind(romeon)();
+            var7 = var12.toISOString;
+            var5 = var7.bind(var12)();
  269:
-            backup['scheduled_start_time'] = report;
-            golfie = tangon == verify;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 293; continue _fun00001 }
+            var14['scheduled_start_time'] = var5;
+            var7 = var4 == var9;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 293; continue _fun0001 }
  283:
-            golfie = verify.toISOString;
-            report = golfie.bind(verify)();
+            var7 = var9.toISOString;
+            var5 = var7.bind(var9)();
  293:
-            backup['scheduled_end_time'] = report;
-            report = false;
-            backup['is_canceled'] = report;
-            golfie = zuuluu.guild_id;
-            report = zuuluu.id;
-            report = kiloes.bind(sizing)(backup, golfie, report);
-            return report;
+            var14['scheduled_end_time'] = var5;
+            var5 = false;
+            var14['is_canceled'] = var5;
+            var7 = var3.guild_id;
+            var5 = var3.id;
+            var5 = var15.bind(var16)(var14, var7, var5);
+            return var5;
  324:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[foxtra];
-            golfie = golfie.bind(entity)(report);
-            report = golfie.areSchedulesIdentical;
-            report = report.bind(golfie)(yankee, offset);
-            golfie = _closure1_slot1;
-            offset = _closure1_slot2;
-            oscard = 1;
-            oscard = offset[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            if(report) { _fun00002_ip = 468; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var13];
+            var7 = var7.bind(var1)(var5);
+            var5 = var7.areSchedulesIdentical;
+            var5 = var5.bind(var7)(var11, var10);
+            var7 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var6 = 1;
+            var6 = var10[var6];
+            var6 = var7.bind(var1)(var6);
+            if(var5) { _fun0001_ip = 468; continue _fun0001 }
  376:
-            golfie = oscard.updateGuildEventException;
-            report = {};
-            yankee = tangon == romeon;
-            offset = undefined;
-            if(yankee) { _fun00002_ip = 403; continue _fun00001 }
+            var7 = var6.updateGuildEventException;
+            var5 = {};
+            var11 = var4 == var12;
+            var10 = undefined;
+            if(var11) { _fun0001_ip = 403; continue _fun0001 }
  393:
-            yankee = romeon.toISOString;
-            offset = yankee.bind(romeon)();
+            var11 = var12.toISOString;
+            var10 = var11.bind(var12)();
  403:
-            report['scheduled_start_time'] = offset;
-            tangon = tangon == verify;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 427; continue _fun00001 }
+            var5['scheduled_start_time'] = var10;
+            var4 = var4 == var9;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 427; continue _fun0001 }
  417:
-            tangon = verify.toISOString;
-            entity = tangon.bind(verify)();
+            var4 = var9.toISOString;
+            var1 = var4.bind(var9)();
  427:
-            report['scheduled_end_time'] = entity;
-            entity = michal.is_canceled;
-            report['is_canceled'] = entity;
-            update = zuuluu.guild_id;
-            echoed = zuuluu.id;
-            ctrled = oscard;
-            source = report;
-            result = option;
-            entity = ctrled[golfie](source, update, echoed, result, output);
-            _fun00002_ip = 497; continue _fun00001;
+            var5['scheduled_end_time'] = var1;
+            var1 = var2.is_canceled;
+            var5['is_canceled'] = var1;
+            var20 = var3.guild_id;
+            var19 = var3.id;
+            var22 = var6;
+            var21 = var5;
+            var18 = var8;
+            var1 = var22[var7](var21, var20, var19, var18, var17);
+            _fun0001_ip = 497; continue _fun0001;
  468:
-            report = oscard.deleteGuildEventException;
-            tangon = zuuluu.guild_id;
-            zuuluu = zuuluu.id;
-            michal = michal.event_exception_id;
-            entity = report.bind(oscard)(tangon, zuuluu, michal);
+            var5 = var6.deleteGuildEventException;
+            var4 = var3.guild_id;
+            var3 = var3.id;
+            var2 = var2.event_exception_id;
+            var1 = var5.bind(var6)(var4, var3, var2);
  497:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

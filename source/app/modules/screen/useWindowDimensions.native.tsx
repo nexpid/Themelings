@@ -1,98 +1,98 @@
 // app/modules/screen/useWindowDimensions.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = {};
-    oscard = false;
-    tangon['ignoreKeyboard'] = oscard;
-    var _closure1_slot1 = tangon;
-    tangon = function(argFoo) { // Original name: WINDOW_DIMENSIONS_GETTER
-        entity = argFoo;
-        entity = entity.windowDimensions;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = {};
+    var6 = false;
+    var4['ignoreKeyboard'] = var6;
+    var _closure1_slot1 = var4;
+    var4 = function WINDOW_DIMENSIONS_GETTER(arg1) {
+        var1 = arg1;
+        var1 = var1.windowDimensions;
+        return var1;
     };
-    var _closure1_slot2 = tangon;
-    tangon = function(argFoo) { // Original name: WINDOW_DIMENSIONS_GETTER_IGNORING_KEYBOARD
-        entity = argFoo;
-        entity = entity.windowDimensionsIgnoringKeyboard;
-        return entity;
+    var _closure1_slot2 = var4;
+    var4 = function WINDOW_DIMENSIONS_GETTER_IGNORING_KEYBOARD(arg1) {
+        var1 = arg1;
+        var1 = var1.windowDimensionsIgnoringKeyboard;
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/screen/useWindowDimensions.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useWindowDimensions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/screen/useWindowDimensions.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useWindowDimensions() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = arguments[0];
-            zuuluu = undefined;
-            if(!(entity === zuuluu)) { _fun00002_ip = 16; continue _fun00001 }
+            var1 = arguments[0];
+            var3 = undefined;
+            if(!(var1 === var3)) { _fun0001_ip = 16; continue _fun0001 }
  9:
-            entity = _closure1_slot1;
+            var1 = _closure1_slot1;
  16:
-            entity = entity.ignoreKeyboard;
-            if(!(entity === zuuluu)) { _fun00002_ip = 28; continue _fun00001 }
+            var1 = var1.ignoreKeyboard;
+            if(!(var1 === var3)) { _fun0001_ip = 28; continue _fun0001 }
  26:
-            entity = false;
+            var1 = false;
  28:
-            michal = _closure1_slot0;
-            if(entity) { _fun00002_ip = 44; continue _fun00001 }
+            var2 = _closure1_slot0;
+            if(var1) { _fun0001_ip = 44; continue _fun0001 }
  38:
-            entity = _closure1_slot2;
-            _fun00002_ip = 48; continue _fun00001;
+            var1 = _closure1_slot2;
+            _fun0001_ip = 48; continue _fun0001;
  44:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  48:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: getWindowDimensions
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function getWindowDimensions() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = arguments[0];
-            michal = undefined;
-            if(!(entity === michal)) { _fun00004_ip = 16; continue _fun00003 }
+            var1 = arguments[0];
+            var2 = undefined;
+            if(!(var1 === var2)) { _fun0002_ip = 16; continue _fun0002 }
  9:
-            entity = _closure1_slot1;
+            var1 = _closure1_slot1;
  16:
-            entity = entity.ignoreKeyboard;
-            if(!(entity === michal)) { _fun00004_ip = 28; continue _fun00003 }
+            var1 = var1.ignoreKeyboard;
+            if(!(var1 === var2)) { _fun0002_ip = 28; continue _fun0002 }
  26:
-            entity = false;
+            var1 = false;
  28:
-            zuuluu = _closure1_slot0;
-            michal = zuuluu.getState;
-            michal = michal.bind(zuuluu)();
-            if(entity) { _fun00004_ip = 56; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var2 = var3.getState;
+            var2 = var2.bind(var3)();
+            if(var1) { _fun0002_ip = 56; continue _fun0002 }
  48:
-            entity = michal.windowDimensions;
-            _fun00004_ip = 62; continue _fun00003;
+            var1 = var2.windowDimensions;
+            _fun0002_ip = 62; continue _fun0002;
  56:
-            entity = michal.windowDimensionsIgnoringKeyboard;
+            var1 = var2.windowDimensionsIgnoringKeyboard;
  62:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getWindowDimensions'] = michal;
-    return entity;
+    var3['getWindowDimensions'] = var2;
+    return var1;
 })();

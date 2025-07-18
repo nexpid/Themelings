@@ -1,46 +1,46 @@
 // app/modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: getHumanizedCallDuration
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/messages/native/renderer/system_messages/getHumanizedCallDuration.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getHumanizedCallDuration(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.call;
-            entity = null;
-            tangon = entity != zuuluu;
-            zuuluu = null;
-            if(!tangon) { _fun00002_ip = 29; continue _fun00001 }
+            var2 = arg1;
+            var3 = var2.call;
+            var1 = null;
+            var4 = var1 != var3;
+            var3 = null;
+            if(!var4) { _fun0001_ip = 29; continue _fun0001 }
  19:
-            michal = michal.call;
-            zuuluu = michal.duration;
+            var2 = var2.call;
+            var3 = var2.duration;
  29:
-            michal = entity != zuuluu;
-            entity = null;
-            if(!michal) { _fun00002_ip = 48; continue _fun00001 }
+            var2 = var1 != var3;
+            var1 = null;
+            if(!var2) { _fun0001_ip = 48; continue _fun0001 }
  38:
-            michal = zuuluu.humanize;
-            entity = michal.bind(zuuluu)();
+            var2 = var3.humanize;
+            var1 = var2.bind(var3)();
  48:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

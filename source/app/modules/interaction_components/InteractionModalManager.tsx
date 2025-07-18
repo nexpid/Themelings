@@ -1,347 +1,347 @@
 // app/modules/interaction_components/InteractionModalManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot11 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot11 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = function() { // Original name: _handleInteractionModalCreate
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function _handleInteractionModalCreate() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 151; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 151; continue _fun0002 }
  13:
-                    oscard = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    zuuluu = 9;
-                    report = michal[zuuluu];
-                    zuuluu = undefined;
-                    oscard = oscard.bind(zuuluu)(report);
-                    report = 8;
-                    report = michal[report];
-                    michal = michal.paths;
-                    michal = oscard.bind(zuuluu)(report, michal);
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var3 = 9;
+                    var5 = var2[var3];
+                    var3 = undefined;
+                    var6 = var6.bind(var3)(var5);
+                    var5 = 8;
+                    var5 = var2[var5];
+                    var2 = var2.paths;
+                    var2 = var6.bind(var3)(var5, var2);
                     SaveGenerator(address=60);
  58:
-                    return michal;
+                    return var2;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 148; continue _fun00003 }
+                    if(var5) { _fun0002_ip = 148; continue _fun0002 }
  66:
-                    report = michal.openInteractionModal;
-                    report = report.bind(zuuluu)(option);
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 10;
-                    report = golfie[report];
-                    golfie = oscard.bind(zuuluu)(report);
-                    oscard = golfie.track;
-                    tangon = _closure1_slot10;
-                    report = tangon.OPEN_MODAL;
-                    tangon = {};
-                    verify = 'interaction_modal';
-                    tangon['type'] = verify;
-                    option = option.application;
-                    option = option.id;
-                    tangon['application_id'] = option;
-                    tangon = oscard.bind(golfie)(report, tangon);
-                    return zuuluu;
+                    var5 = var2.openInteractionModal;
+                    var5 = var5.bind(var3)(var8);
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 10;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.track;
+                    var4 = _closure1_slot10;
+                    var5 = var4.OPEN_MODAL;
+                    var4 = {};
+                    var9 = 'interaction_modal';
+                    var4['type'] = var9;
+                    var8 = var8.application;
+                    var8 = var8.id;
+                    var4['application_id'] = var8;
+                    var4 = var6.bind(var7)(var5, var4);
+                    return var3;
  148:
-                    return michal;
+                    return var2;
  151:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot12 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot9 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot10 = tangon;
-    tangon = 13;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    michal = function(argFoo) {
-        zuuluu = function(argFoo) { // Original name: InteractionModalManager
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot10 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var2 = function(arg1) {
+        var3 = function InteractionModalManager(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                report = this;
-                foxtra = 0;
-                entity = copyRestArgs(foxtra);
-                option = _closure1_slot4;
-                tangon = _closure2_slot0;
-                michal = undefined;
-                option = option.bind(michal)(report, tangon);
-                offset = new Array(0);
-                foxtra = offset;
-                romeon = entity;
-                yankee = 0;
-                entity = arraySpread(foxtra, romeon, yankee);
-                entity = _closure1_slot6;
-                verify = entity.bind(michal)(tangon);
-                tangon = _closure1_slot5;
-                entity = _closure1_slot11;
-                entity = entity.bind(michal)();
-                if(entity) { _fun00006_ip = 86; continue _fun00005 }
+                var5 = this;
+                var13 = 0;
+                var1 = copyRestArgs(var13);
+                var8 = _closure1_slot4;
+                var4 = _closure2_slot0;
+                var2 = undefined;
+                var8 = var8.bind(var2)(var5, var4);
+                var10 = new Array(0);
+                var13 = var10;
+                var12 = var1;
+                var11 = 0;
+                var1 = arraySpread(var13, var12, var11);
+                var1 = _closure1_slot6;
+                var9 = var1.bind(var2)(var4);
+                var4 = _closure1_slot5;
+                var1 = _closure1_slot11;
+                var1 = var1.bind(var2)();
+                if(var1) { _fun0003_ip = 86; continue _fun0003 }
  73:
-                entity = verify.apply;
-                entity = entity.bind(verify)(report, offset);
-                _fun00006_ip = 120; continue _fun00005;
+                var1 = var9.apply;
+                var1 = var1.bind(var9)(var5, var10);
+                _fun0003_ip = 120; continue _fun0003;
  86:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot6;
-                oscard = oscard.bind(michal)(report);
-                oscard = oscard.constructor;
-                entity = golfie.bind(option)(verify, offset, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot6;
+                var6 = var6.bind(var2)(var5);
+                var6 = var6.constructor;
+                var1 = var7.bind(var8)(var9, var10, var6);
  120:
-                entity = tangon.bind(michal)(report, entity);
-                var _closure3_slot0 = entity;
-                entity['iframeModalOpenTimeMs'] = michal;
-                michal = {};
-                tangon = function(argFoo) { // Original name: INTERACTION_MODAL_CREATE
-                    zuuluu = function() { // Original name: handleInteractionModalCreate
-                        entity = undefined;
-                        tangon = _closure1_slot12;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                var1 = var4.bind(var2)(var5, var1);
+                var _closure3_slot0 = var1;
+                var1['iframeModalOpenTimeMs'] = var2;
+                var2 = {};
+                var4 = function INTERACTION_MODAL_CREATE(arg1) {
+                    var3 = function handleInteractionModalCreate() {
+                        var1 = undefined;
+                        var4 = _closure1_slot12;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    entity = undefined;
-                    michal = argFoo;
-                    michal = zuuluu.bind(entity)(michal);
-                    michal = !michal;
-                    return entity;
+                    var1 = undefined;
+                    var2 = arg1;
+                    var2 = var3.bind(var1)(var2);
+                    var2 = !var2;
+                    return var1;
                 };
-                michal['INTERACTION_MODAL_CREATE'] = tangon;
-                tangon = function(argFoo) { // Original name: INTERACTION_IFRAME_MODAL_CREATE
-                    oscard = argFoo;
-                    michal = _closure3_slot0;
-                    entity = global;
-                    zuuluu = entity.Date;
-                    entity = zuuluu.now;
-                    entity = entity.bind(zuuluu)();
-                    michal['iframeModalOpenTimeMs'] = entity;
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    entity = 11;
-                    zuuluu = report[entity];
-                    entity = undefined;
-                    zuuluu = tangon.bind(entity)(zuuluu);
-                    zuuluu = zuuluu.bind(entity)(oscard);
-                    zuuluu = 10;
-                    zuuluu = report[zuuluu];
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = report.track;
-                    michal = _closure1_slot10;
-                    zuuluu = michal.OPEN_MODAL;
-                    michal = {};
-                    golfie = 'interaction_iframe_modal';
-                    michal['type'] = golfie;
-                    oscard = oscard.application;
-                    oscard = oscard.id;
-                    michal['application_id'] = oscard;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    return entity;
+                var2['INTERACTION_MODAL_CREATE'] = var4;
+                var4 = function INTERACTION_IFRAME_MODAL_CREATE(arg1) {
+                    var6 = arg1;
+                    var2 = _closure3_slot0;
+                    var1 = global;
+                    var3 = var1.Date;
+                    var1 = var3.now;
+                    var1 = var1.bind(var3)();
+                    var2['iframeModalOpenTimeMs'] = var1;
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var1 = 11;
+                    var3 = var5[var1];
+                    var1 = undefined;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = var3.bind(var1)(var6);
+                    var3 = 10;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.track;
+                    var2 = _closure1_slot10;
+                    var3 = var2.OPEN_MODAL;
+                    var2 = {};
+                    var7 = 'interaction_iframe_modal';
+                    var2['type'] = var7;
+                    var6 = var6.application;
+                    var6 = var6.id;
+                    var2['application_id'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
                 };
-                michal['INTERACTION_IFRAME_MODAL_CREATE'] = tangon;
-                tangon = function(argFoo) { // Original name: INTERACTION_IFRAME_MODAL_CLOSE
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var2['INTERACTION_IFRAME_MODAL_CREATE'] = var4;
+                var4 = function INTERACTION_IFRAME_MODAL_CLOSE(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        michal = _closure3_slot0;
-                        tangon = michal.iframeModalOpenTimeMs;
-                        entity = null;
-                        zuuluu = entity != tangon;
-                        entity = undefined;
-                        golfie = undefined;
-                        if(!zuuluu) { _fun00008_ip = 47; continue _fun00007 }
+                        var2 = _closure3_slot0;
+                        var4 = var2.iframeModalOpenTimeMs;
+                        var1 = null;
+                        var3 = var1 != var4;
+                        var1 = undefined;
+                        var7 = undefined;
+                        if(!var3) { _fun0004_ip = 47; continue _fun0004 }
  26:
-                        zuuluu = global;
-                        report = zuuluu.Date;
-                        zuuluu = report.now;
-                        zuuluu = zuuluu.bind(report)();
-                        golfie = zuuluu - tangon;
+                        var3 = global;
+                        var5 = var3.Date;
+                        var3 = var5.now;
+                        var3 = var3.bind(var5)();
+                        var7 = var3 - var4;
  47:
-                        report = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        tangon = 10;
-                        tangon = oscard[tangon];
-                        oscard = report.bind(entity)(tangon);
-                        report = oscard.track;
-                        zuuluu = _closure1_slot10;
-                        tangon = zuuluu.MODAL_DISMISSED;
-                        zuuluu = {};
-                        option = 'interaction_iframe_modal';
-                        zuuluu['type'] = option;
-                        option = argFoo;
-                        option = option.applicationId;
-                        zuuluu['application_id'] = option;
-                        zuuluu['duration_open_ms'] = golfie;
-                        zuuluu = report.bind(oscard)(tangon, zuuluu);
-                        michal['iframeModalOpenTimeMs'] = entity;
-                        return entity;
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 10;
+                        var4 = var6[var4];
+                        var6 = var5.bind(var1)(var4);
+                        var5 = var6.track;
+                        var3 = _closure1_slot10;
+                        var4 = var3.MODAL_DISMISSED;
+                        var3 = {};
+                        var8 = 'interaction_iframe_modal';
+                        var3['type'] = var8;
+                        var8 = arg1;
+                        var8 = var8.applicationId;
+                        var3['application_id'] = var8;
+                        var3['duration_open_ms'] = var7;
+                        var3 = var5.bind(var6)(var4, var3);
+                        var2['iframeModalOpenTimeMs'] = var1;
+                        return var1;
                     }
                 };
-                michal['INTERACTION_IFRAME_MODAL_CLOSE'] = tangon;
-                zuuluu = function(argFoo) { // Original name: RPC_APP_DISCONNECTED
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var2['INTERACTION_IFRAME_MODAL_CLOSE'] = var4;
+                var3 = function RPC_APP_DISCONNECTED(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        entity = argFoo;
-                        michal = entity.application;
-                        report = _closure1_slot9;
-                        zuuluu = report.getIFrameModalApplicationId;
-                        tangon = zuuluu.bind(report)();
-                        zuuluu = report.getIFrameModalKey;
-                        zuuluu = zuuluu.bind(report)();
-                        michal = michal.id;
-                        michal = michal === tangon;
-                        if(!michal) { _fun00010_ip = 57; continue _fun00009 }
+                        var1 = arg1;
+                        var2 = var1.application;
+                        var5 = _closure1_slot9;
+                        var3 = var5.getIFrameModalApplicationId;
+                        var4 = var3.bind(var5)();
+                        var3 = var5.getIFrameModalKey;
+                        var3 = var3.bind(var5)();
+                        var2 = var2.id;
+                        var2 = var2 === var4;
+                        if(!var2) { _fun0005_ip = 57; continue _fun0005 }
  51:
-                        report = null;
-                        michal = report != tangon;
+                        var5 = null;
+                        var2 = var5 != var4;
  57:
-                        if(!michal) { _fun00010_ip = 88; continue _fun00009 }
+                        if(!var2) { _fun0005_ip = 88; continue _fun0005 }
  60:
-                        report = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 12;
-                        entity = michal[entity];
-                        michal = undefined;
-                        entity = report.bind(michal)(entity);
-                        entity = entity.bind(michal)(tangon, zuuluu);
+                        var5 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 12;
+                        var1 = var2[var1];
+                        var2 = undefined;
+                        var1 = var5.bind(var2)(var1);
+                        var1 = var1.bind(var2)(var4, var3);
  88:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                michal['RPC_APP_DISCONNECTED'] = zuuluu;
-                entity['actions'] = michal;
-                return entity;
+                var2['RPC_APP_DISCONNECTED'] = var3;
+                var1['actions'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        report = _closure1_slot7;
-        michal = undefined;
-        tangon = argFoo;
-        tangon = report.bind(michal)(zuuluu, tangon);
-        entity = _closure1_slot3;
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+        var _closure2_slot0 = var3;
+        var5 = _closure1_slot7;
+        var2 = undefined;
+        var4 = arg1;
+        var4 = var5.bind(var2)(var3, var4);
+        var1 = _closure1_slot3;
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 14;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interaction_components/InteractionModalManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    michal = 'interaction_iframe_modal';
-    zuuluu['INTERACTION_IFRAME_MODAL_ANALYTICS_TYPE'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 14;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interaction_components/InteractionModalManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    var2 = 'interaction_iframe_modal';
+    var3['INTERACTION_IFRAME_MODAL_ANALYTICS_TYPE'] = var2;
+    return var1;
 })();

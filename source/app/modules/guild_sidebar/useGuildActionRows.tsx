@@ -1,259 +1,259 @@
 // app/modules/guild_sidebar/useGuildActionRows.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ChannelListGuildActionRow;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot5 = tangon;
-    tangon = 15;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_sidebar/useGuildActionRows.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useGuildActionRows
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ChannelListGuildActionRow;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot5 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_sidebar/useGuildActionRows.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildActionRows(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            var _closure2_slot0 = oscard;
-            result = _closure1_slot1;
-            update = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = update[zuuluu];
-            echoed = undefined;
-            tangon = result.bind(echoed)(zuuluu);
-            zuuluu = oscard.id;
-            foxtra = tangon.bind(echoed)(zuuluu);
-            ctrled = _closure1_slot0;
-            zuuluu = 4;
-            zuuluu = update[zuuluu];
-            report = ctrled.bind(echoed)(zuuluu);
-            tangon = report.useCanReviewGuildMemberApplications;
-            zuuluu = oscard.id;
-            report = tangon.bind(report)(zuuluu);
-            zuuluu = 5;
-            zuuluu = update[zuuluu];
-            golfie = ctrled.bind(echoed)(zuuluu);
-            tangon = golfie.useShowRoleSubscriptionsInChannelList;
-            zuuluu = oscard.id;
-            offset = tangon.bind(golfie)(zuuluu);
-            zuuluu = 6;
-            zuuluu = update[zuuluu];
-            tangon = ctrled.bind(echoed)(zuuluu);
-            zuuluu = tangon.useGuildShopVisibleInGuild;
-            verify = zuuluu.bind(tangon)(oscard);
-            zuuluu = 7;
-            zuuluu = update[zuuluu];
-            golfie = ctrled.bind(echoed)(zuuluu);
-            tangon = golfie.useCanSeeOnboardingHome;
-            zuuluu = oscard.id;
-            kiloes = tangon.bind(golfie)(zuuluu);
-            zuuluu = 8;
-            zuuluu = update[zuuluu];
-            option = ctrled.bind(echoed)(zuuluu);
-            golfie = option.useStateFromStores;
-            zuuluu = _closure1_slot3;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
-            yankee = oscard.id;
-            zuuluu = new Array(1);
-            zuuluu[0] = yankee;
-            entity = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getNewMemberActions;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var18 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var3 = 3;
+            var3 = var20[var3];
+            var19 = undefined;
+            var4 = var18.bind(var19)(var3);
+            var3 = var6.id;
+            var13 = var4.bind(var19)(var3);
+            var22 = _closure1_slot0;
+            var3 = 4;
+            var3 = var20[var3];
+            var5 = var22.bind(var19)(var3);
+            var4 = var5.useCanReviewGuildMemberApplications;
+            var3 = var6.id;
+            var5 = var4.bind(var5)(var3);
+            var3 = 5;
+            var3 = var20[var3];
+            var7 = var22.bind(var19)(var3);
+            var4 = var7.useShowRoleSubscriptionsInChannelList;
+            var3 = var6.id;
+            var10 = var4.bind(var7)(var3);
+            var3 = 6;
+            var3 = var20[var3];
+            var4 = var22.bind(var19)(var3);
+            var3 = var4.useGuildShopVisibleInGuild;
+            var9 = var3.bind(var4)(var6);
+            var3 = 7;
+            var3 = var20[var3];
+            var7 = var22.bind(var19)(var3);
+            var4 = var7.useCanSeeOnboardingHome;
+            var3 = var6.id;
+            var15 = var4.bind(var7)(var3);
+            var3 = 8;
+            var3 = var20[var3];
+            var8 = var22.bind(var19)(var3);
+            var7 = var8.useStateFromStores;
+            var3 = _closure1_slot3;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var11 = var6.id;
+            var3 = new Array(1);
+            var3[0] = var11;
+            var1 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getNewMemberActions;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            backup = golfie.bind(option)(tangon, entity, zuuluu);
-            entity = 9;
-            entity = update[entity];
-            zuuluu = result.bind(echoed)(entity);
-            entity = oscard.id;
-            sizing = zuuluu.bind(echoed)(entity);
-            entity = 10;
-            entity = update[entity];
-            tangon = ctrled.bind(echoed)(entity);
-            zuuluu = tangon.useAllActionsCompleted;
-            entity = oscard.id;
-            output = zuuluu.bind(tangon)(entity);
-            entity = 11;
-            entity = update[entity];
-            tangon = ctrled.bind(echoed)(entity);
-            zuuluu = tangon.useCanAccessMemberSafetyPage;
-            entity = oscard.id;
-            tangon = zuuluu.bind(tangon)(entity);
-            entity = new Array(0);
-            yankee = oscard.features;
-            option = yankee.has;
-            zuuluu = _closure1_slot5;
-            golfie = zuuluu.HUB;
-            yankee = option.bind(yankee)(golfie);
-            romeon = oscard.features;
-            option = romeon.has;
-            golfie = zuuluu.COMMUNITY;
-            golfie = option.bind(romeon)(golfie);
-            option = 12;
-            option = update[option];
-            source = ctrled.bind(echoed)(option);
-            romeon = source.useShowBrowseChannelsExperiment;
-            option = 13;
-            option = update[option];
-            vacuum = ctrled.bind(echoed)(option);
-            ctrled = vacuum.isOptInEnabledForGuild;
-            option = oscard.id;
-            option = ctrled.bind(vacuum)(option);
-            option = !option;
-            romeon = romeon.bind(source)(option);
-            source = oscard.features;
-            option = source.has;
-            zuuluu = zuuluu.ENABLED_MODERATION_EXPERIENCE_FOR_NON_COMMUNITY;
-            option = option.bind(source)(zuuluu);
-            zuuluu = 14;
-            zuuluu = update[zuuluu];
-            result = result.bind(echoed)(zuuluu);
-            zuuluu = oscard.id;
-            zuuluu = result.bind(echoed)(zuuluu);
-            if(!yankee) { _fun00002_ip = 462; continue _fun00001 }
+            var14 = var7.bind(var8)(var4, var1, var3);
+            var1 = 9;
+            var1 = var20[var1];
+            var3 = var18.bind(var19)(var1);
+            var1 = var6.id;
+            var16 = var3.bind(var19)(var1);
+            var1 = 10;
+            var1 = var20[var1];
+            var4 = var22.bind(var19)(var1);
+            var3 = var4.useAllActionsCompleted;
+            var1 = var6.id;
+            var17 = var3.bind(var4)(var1);
+            var1 = 11;
+            var1 = var20[var1];
+            var4 = var22.bind(var19)(var1);
+            var3 = var4.useCanAccessMemberSafetyPage;
+            var1 = var6.id;
+            var4 = var3.bind(var4)(var1);
+            var1 = new Array(0);
+            var11 = var6.features;
+            var8 = var11.has;
+            var3 = _closure1_slot5;
+            var7 = var3.HUB;
+            var11 = var8.bind(var11)(var7);
+            var12 = var6.features;
+            var8 = var12.has;
+            var7 = var3.COMMUNITY;
+            var7 = var8.bind(var12)(var7);
+            var8 = 12;
+            var8 = var20[var8];
+            var21 = var22.bind(var19)(var8);
+            var12 = var21.useShowBrowseChannelsExperiment;
+            var8 = 13;
+            var8 = var20[var8];
+            var23 = var22.bind(var19)(var8);
+            var22 = var23.isOptInEnabledForGuild;
+            var8 = var6.id;
+            var8 = var22.bind(var23)(var8);
+            var8 = !var8;
+            var12 = var12.bind(var21)(var8);
+            var21 = var6.features;
+            var8 = var21.has;
+            var3 = var3.ENABLED_MODERATION_EXPERIENCE_FOR_NON_COMMUNITY;
+            var8 = var8.bind(var21)(var3);
+            var3 = 14;
+            var3 = var20[var3];
+            var18 = var18.bind(var19)(var3);
+            var3 = var6.id;
+            var3 = var18.bind(var19)(var3);
+            if(!var11) { _fun0001_ip = 462; continue _fun0001 }
  442:
-            echoed = entity.push;
-            result = _closure1_slot4;
-            result = result.GUILD_HUB_HEADER_OPTIONS;
-            result = echoed.bind(entity)(result);
+            var19 = var1.push;
+            var18 = _closure1_slot4;
+            var18 = var18.GUILD_HUB_HEADER_OPTIONS;
+            var18 = var19.bind(var1)(var18);
  462:
-            if(output) { _fun00002_ip = 510; continue _fun00001 }
+            if(var17) { _fun0001_ip = 510; continue _fun0001 }
  465:
-            if(!kiloes) { _fun00002_ip = 510; continue _fun00001 }
+            if(!var15) { _fun0001_ip = 510; continue _fun0001 }
  468:
-            if(!sizing) { _fun00002_ip = 510; continue _fun00001 }
+            if(!var16) { _fun0001_ip = 510; continue _fun0001 }
  471:
-            sizing = null;
-            if(!(sizing != backup)) { _fun00002_ip = 510; continue _fun00001 }
+            var16 = null;
+            if(!(var16 != var14)) { _fun0001_ip = 510; continue _fun0001 }
  477:
-            sizing = backup.length;
-            backup = 0;
-            if(!(sizing > backup)) { _fun00002_ip = 510; continue _fun00001 }
+            var16 = var14.length;
+            var14 = 0;
+            if(!(var16 > var14)) { _fun0001_ip = 510; continue _fun0001 }
  488:
-            sizing = entity.push;
-            backup = _closure1_slot4;
-            backup = backup.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
-            backup = sizing.bind(entity)(backup);
-            _fun00002_ip = 516; continue _fun00001;
+            var16 = var1.push;
+            var14 = _closure1_slot4;
+            var14 = var14.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
+            var14 = var16.bind(var1)(var14);
+            _fun0001_ip = 516; continue _fun0001;
  510:
-            backup = oscard.premiumProgressBarEnabled;
+            var14 = var6.premiumProgressBarEnabled;
  516:
-            backup = !yankee;
-            if(!backup) { _fun00002_ip = 525; continue _fun00001 }
+            var14 = !var11;
+            if(!var14) { _fun0001_ip = 525; continue _fun0001 }
  522:
-            backup = kiloes;
+            var14 = var15;
  525:
-            if(!backup) { _fun00002_ip = 548; continue _fun00001 }
+            if(!var14) { _fun0001_ip = 548; continue _fun0001 }
  528:
-            kiloes = entity.push;
-            backup = _closure1_slot4;
-            backup = backup.GUILD_HOME;
-            backup = kiloes.bind(entity)(backup);
+            var15 = var1.push;
+            var14 = _closure1_slot4;
+            var14 = var14.GUILD_HOME;
+            var14 = var15.bind(var1)(var14);
  548:
-            if(!foxtra) { _fun00002_ip = 571; continue _fun00001 }
+            if(!var13) { _fun0001_ip = 571; continue _fun0001 }
  551:
-            backup = entity.push;
-            foxtra = _closure1_slot4;
-            foxtra = foxtra.GUILD_SCHEDULED_EVENTS;
-            foxtra = backup.bind(entity)(foxtra);
+            var14 = var1.push;
+            var13 = _closure1_slot4;
+            var13 = var13.GUILD_SCHEDULED_EVENTS;
+            var13 = var14.bind(var1)(var13);
  571:
-            yankee = !yankee;
-            if(!yankee) { _fun00002_ip = 580; continue _fun00001 }
+            var11 = !var11;
+            if(!var11) { _fun0001_ip = 580; continue _fun0001 }
  577:
-            yankee = golfie;
+            var11 = var7;
  580:
-            if(!yankee) { _fun00002_ip = 586; continue _fun00001 }
+            if(!var11) { _fun0001_ip = 586; continue _fun0001 }
  583:
-            yankee = romeon;
+            var11 = var12;
  586:
-            if(!yankee) { _fun00002_ip = 609; continue _fun00001 }
+            if(!var11) { _fun0001_ip = 609; continue _fun0001 }
  589:
-            romeon = entity.push;
-            yankee = _closure1_slot4;
-            yankee = yankee.CHANNELS_AND_ROLES;
-            yankee = romeon.bind(entity)(yankee);
+            var12 = var1.push;
+            var11 = _closure1_slot4;
+            var11 = var11.CHANNELS_AND_ROLES;
+            var11 = var12.bind(var1)(var11);
  609:
-            if(!offset) { _fun00002_ip = 632; continue _fun00001 }
+            if(!var10) { _fun0001_ip = 632; continue _fun0001 }
  612:
-            yankee = entity.push;
-            offset = _closure1_slot4;
-            offset = offset.GUILD_ROLE_SUBSCRIPTIONS;
-            offset = yankee.bind(entity)(offset);
+            var11 = var1.push;
+            var10 = _closure1_slot4;
+            var10 = var10.GUILD_ROLE_SUBSCRIPTIONS;
+            var10 = var11.bind(var1)(var10);
  632:
-            if(!verify) { _fun00002_ip = 655; continue _fun00001 }
+            if(!var9) { _fun0001_ip = 655; continue _fun0001 }
  635:
-            offset = entity.push;
-            verify = _closure1_slot4;
-            verify = verify.GUILD_SHOP;
-            verify = offset.bind(entity)(verify);
+            var10 = var1.push;
+            var9 = _closure1_slot4;
+            var9 = var9.GUILD_SHOP;
+            var9 = var10.bind(var1)(var9);
  655:
-            if(!tangon) { _fun00002_ip = 667; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 667; continue _fun0001 }
  658:
-            if(golfie) { _fun00002_ip = 664; continue _fun00001 }
+            if(var7) { _fun0001_ip = 664; continue _fun0001 }
  661:
-            golfie = option;
+            var7 = var8;
  664:
-            tangon = golfie;
+            var4 = var7;
  667:
-            if(tangon) { _fun00002_ip = 702; continue _fun00001 }
+            if(var4) { _fun0001_ip = 702; continue _fun0001 }
  670:
-            if(!report) { _fun00002_ip = 699; continue _fun00001 }
+            if(!var5) { _fun0001_ip = 699; continue _fun0001 }
  673:
-            option = oscard.features;
-            golfie = option.has;
-            oscard = _closure1_slot5;
-            oscard = oscard.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            report = golfie.bind(option)(oscard);
+            var8 = var6.features;
+            var7 = var8.has;
+            var6 = _closure1_slot5;
+            var6 = var6.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            var5 = var7.bind(var8)(var6);
  699:
-            tangon = report;
+            var4 = var5;
  702:
-            if(!tangon) { _fun00002_ip = 725; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 725; continue _fun0001 }
  705:
-            report = entity.push;
-            tangon = _closure1_slot4;
-            tangon = tangon.GUILD_MOD_DASH_MEMBER_SAFETY;
-            tangon = report.bind(entity)(tangon);
+            var5 = var1.push;
+            var4 = _closure1_slot4;
+            var4 = var4.GUILD_MOD_DASH_MEMBER_SAFETY;
+            var4 = var5.bind(var1)(var4);
  725:
-            if(!zuuluu) { _fun00002_ip = 748; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 748; continue _fun0001 }
  728:
-            zuuluu = entity.push;
-            michal = _closure1_slot4;
-            michal = michal.GUILD_BOOSTS;
-            michal = zuuluu.bind(entity)(michal);
+            var3 = var1.push;
+            var2 = _closure1_slot4;
+            var2 = var2.GUILD_BOOSTS;
+            var2 = var3.bind(var1)(var2);
  748:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

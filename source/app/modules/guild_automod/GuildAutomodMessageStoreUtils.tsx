@@ -1,52 +1,52 @@
 // app/modules/guild_automod/GuildAutomodMessageStoreUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_automod/GuildAutomodMessageStoreUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_automod/GuildAutomodMessageStoreUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.type;
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            report = undefined;
-            entity = tangon.bind(report)(entity);
-            entity = entity.MessageEmbedTypes;
-            entity = entity.AUTO_MODERATION_MESSAGE;
-            entity = zuuluu !== entity;
-            if(!entity) { _fun00002_ip = 84; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.type;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.MessageEmbedTypes;
+            var1 = var1.AUTO_MODERATION_MESSAGE;
+            var1 = var3 !== var1;
+            if(!var1) { _fun0001_ip = 84; continue _fun0001 }
  51:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.MessageEmbedTypes;
-            michal = michal.AUTO_MODERATION_NOTIFICATION;
-            entity = zuuluu !== michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.MessageEmbedTypes;
+            var2 = var2.AUTO_MODERATION_NOTIFICATION;
+            var1 = var3 !== var2;
  84:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isNotAutomodEmbed'] = michal;
-    return entity;
+    var3['isNotAutomodEmbed'] = var2;
+    return var1;
 })();

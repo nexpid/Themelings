@@ -1,1321 +1,1321 @@
 // app/modules/messages/native/renderer/system_messages/SystemMessage.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.MessageTypes;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.BoostedGuildTiers;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 39;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/system_messages/SystemMessage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: SystemMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MessageTypes;
+    var _closure1_slot3 = var7;
+    var4 = var4.BoostedGuildTiers;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 39;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/system_messages/SystemMessage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function SystemMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.row;
-            entity = report.message;
-            zuuluu = entity.type;
-            michal = _closure1_slot3;
-            michal = michal.RECIPIENT_ADD;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2312; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.row;
+            var1 = var5.message;
+            var3 = var1.type;
+            var2 = _closure1_slot3;
+            var2 = var2.RECIPIENT_ADD;
+            if(!(var2 !== var3)) { _fun0001_ip = 2312; continue _fun0001 }
  39:
-            michal = _closure1_slot3;
-            michal = michal.RECIPIENT_REMOVE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2271; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.RECIPIENT_REMOVE;
+            if(!(var2 !== var3)) { _fun0001_ip = 2271; continue _fun0001 }
  56:
-            michal = _closure1_slot3;
-            michal = michal.CALL;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2230; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CALL;
+            if(!(var2 !== var3)) { _fun0001_ip = 2230; continue _fun0001 }
  73:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_NAME_CHANGE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2189; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_NAME_CHANGE;
+            if(!(var2 !== var3)) { _fun0001_ip = 2189; continue _fun0001 }
  90:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_ICON_CHANGE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2148; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_ICON_CHANGE;
+            if(!(var2 !== var3)) { _fun0001_ip = 2148; continue _fun0001 }
  107:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_PINNED_MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2107; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_PINNED_MESSAGE;
+            if(!(var2 !== var3)) { _fun0001_ip = 2107; continue _fun0001 }
  124:
-            michal = _closure1_slot3;
-            michal = michal.USER_JOIN;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2066; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.USER_JOIN;
+            if(!(var2 !== var3)) { _fun0001_ip = 2066; continue _fun0001 }
  141:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 2025; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST;
+            if(!(var2 !== var3)) { _fun0001_ip = 2025; continue _fun0001 }
  158:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_1;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1969; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_1;
+            if(!(var2 !== var3)) { _fun0001_ip = 1969; continue _fun0001 }
  175:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_2;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1913; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_2;
+            if(!(var2 !== var3)) { _fun0001_ip = 1913; continue _fun0001 }
  192:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_3;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1857; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_3;
+            if(!(var2 !== var3)) { _fun0001_ip = 1857; continue _fun0001 }
  209:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_FOLLOW_ADD;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1816; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_FOLLOW_ADD;
+            if(!(var2 !== var3)) { _fun0001_ip = 1816; continue _fun0001 }
  226:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_STREAM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1775; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_STREAM;
+            if(!(var2 !== var3)) { _fun0001_ip = 1775; continue _fun0001 }
  243:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1720; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_DISQUALIFIED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1720; continue _fun0001 }
  260:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1720; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_REQUALIFIED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1720; continue _fun0001 }
  277:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1720; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
+            if(!(var2 !== var3)) { _fun0001_ip = 1720; continue _fun0001 }
  294:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1720; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
+            if(!(var2 !== var3)) { _fun0001_ip = 1720; continue _fun0001 }
  311:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_INPUT_COMMAND;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1679; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_INPUT_COMMAND;
+            if(!(var2 !== var3)) { _fun0001_ip = 1679; continue _fun0001 }
  328:
-            michal = _closure1_slot3;
-            michal = michal.CONTEXT_MENU_COMMAND;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1679; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CONTEXT_MENU_COMMAND;
+            if(!(var2 !== var3)) { _fun0001_ip = 1679; continue _fun0001 }
  345:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INVITE_REMINDER;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1675; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INVITE_REMINDER;
+            if(!(var2 !== var3)) { _fun0001_ip = 1675; continue _fun0001 }
  362:
-            michal = _closure1_slot3;
-            michal = michal.THREAD_CREATED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1634; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.THREAD_CREATED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1634; continue _fun0001 }
  379:
-            michal = _closure1_slot3;
-            michal = michal.THREAD_STARTER_MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1593; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.THREAD_STARTER_MESSAGE;
+            if(!(var2 !== var3)) { _fun0001_ip = 1593; continue _fun0001 }
  396:
-            michal = _closure1_slot3;
-            michal = michal.AUTO_MODERATION_ACTION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1552; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.AUTO_MODERATION_ACTION;
+            if(!(var2 !== var3)) { _fun0001_ip = 1552; continue _fun0001 }
  413:
-            michal = _closure1_slot3;
-            michal = michal.ROLE_SUBSCRIPTION_PURCHASE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1511; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.ROLE_SUBSCRIPTION_PURCHASE;
+            if(!(var2 !== var3)) { _fun0001_ip = 1511; continue _fun0001 }
  430:
-            michal = _closure1_slot3;
-            michal = michal.PURCHASE_NOTIFICATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1470; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.PURCHASE_NOTIFICATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 1470; continue _fun0001 }
  447:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_START;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1429; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_START;
+            if(!(var2 !== var3)) { _fun0001_ip = 1429; continue _fun0001 }
  464:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_END;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1388; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_END;
+            if(!(var2 !== var3)) { _fun0001_ip = 1388; continue _fun0001 }
  481:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_TOPIC;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1347; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_TOPIC;
+            if(!(var2 !== var3)) { _fun0001_ip = 1347; continue _fun0001 }
  498:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_SPEAKER;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1306; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_SPEAKER;
+            if(!(var2 !== var3)) { _fun0001_ip = 1306; continue _fun0001 }
  515:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_RAISE_HAND;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1265; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_RAISE_HAND;
+            if(!(var2 !== var3)) { _fun0001_ip = 1265; continue _fun0001 }
  532:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1224; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
+            if(!(var2 !== var3)) { _fun0001_ip = 1224; continue _fun0001 }
  549:
-            michal = _closure1_slot3;
-            michal = michal.PRIVATE_CHANNEL_INTEGRATION_ADDED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1169; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.PRIVATE_CHANNEL_INTEGRATION_ADDED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1169; continue _fun0001 }
  566:
-            michal = _closure1_slot3;
-            michal = michal.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1169; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1169; continue _fun0001 }
  583:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_ALERT_MODE_ENABLED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1122; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_ALERT_MODE_ENABLED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1122; continue _fun0001 }
  600:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_ALERT_MODE_DISABLED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1075; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_ALERT_MODE_DISABLED;
+            if(!(var2 !== var3)) { _fun0001_ip = 1075; continue _fun0001 }
  617:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_REPORT_RAID;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 1034; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_REPORT_RAID;
+            if(!(var2 !== var3)) { _fun0001_ip = 1034; continue _fun0001 }
  634:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_REPORT_FALSE_ALARM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 993; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_REPORT_FALSE_ALARM;
+            if(!(var2 !== var3)) { _fun0001_ip = 993; continue _fun0001 }
  651:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DEADCHAT_REVIVE_PROMPT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 952; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DEADCHAT_REVIVE_PROMPT;
+            if(!(var2 !== var3)) { _fun0001_ip = 952; continue _fun0001 }
  668:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_GAMING_STATS_PROMPT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 911; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_GAMING_STATS_PROMPT;
+            if(!(var2 !== var3)) { _fun0001_ip = 911; continue _fun0001 }
  685:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 870; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 870; continue _fun0001 }
  702:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 870; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 870; continue _fun0001 }
  719:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 870; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 870; continue _fun0001 }
  736:
-            michal = _closure1_slot3;
-            michal = michal.EMOJI_ADDED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 829; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.EMOJI_ADDED;
+            if(!(var2 !== var3)) { _fun0001_ip = 829; continue _fun0001 }
  750:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_WALLPAPER_SET;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 782; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_WALLPAPER_SET;
+            if(!(var2 !== var3)) { _fun0001_ip = 782; continue _fun0001 }
  764:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_WALLPAPER_REMOVED;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 782; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_WALLPAPER_REMOVED;
+            if(!(var2 !== var3)) { _fun0001_ip = 782; continue _fun0001 }
  778:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  782:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 38;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.ChatWallpaperNotAvailableOnMobileSystemMessage;
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 38;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ChatWallpaperNotAvailableOnMobileSystemMessage;
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  829:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 37;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 37;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  870:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 36;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 36;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  911:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 32;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 32;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  952:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 31;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 31;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  993:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 30;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 30;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1034:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 29;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 29;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1075:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 28;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.GuildAlertModeDisabledSystemMessage;
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 28;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.GuildAlertModeDisabledSystemMessage;
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1122:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 28;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.GuildAlertModeEnabledSystemMessage;
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 28;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.GuildAlertModeEnabledSystemMessage;
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1169:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 27;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            golfie = report.message;
-            golfie = golfie.type;
-            michal['type'] = golfie;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 27;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var7 = var5.message;
+            var7 = var7.type;
+            var2['type'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1224:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 26;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 26;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1265:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 25;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 25;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1306:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 24;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 24;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1347:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 23;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 23;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1388:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 22;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 22;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1429:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 21;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 21;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1470:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 20;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 20;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1511:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 19;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 19;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1552:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 18;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 18;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1593:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 17;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 17;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1634:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 16;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 16;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1675:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  1679:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 15;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 15;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1720:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 14;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            golfie = report.message;
-            golfie = golfie.type;
-            michal['type'] = golfie;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var7 = var5.message;
+            var7 = var7.type;
+            var2['type'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1775:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 13;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 13;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1816:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 12;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 12;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1857:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 11;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            golfie = _closure1_slot4;
-            golfie = golfie.TIER_3;
-            michal['tier'] = golfie;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var7 = _closure1_slot4;
+            var7 = var7.TIER_3;
+            var2['tier'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1913:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 11;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            golfie = _closure1_slot4;
-            golfie = golfie.TIER_2;
-            michal['tier'] = golfie;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var7 = _closure1_slot4;
+            var7 = var7.TIER_2;
+            var2['tier'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  1969:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 11;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            golfie = _closure1_slot4;
-            golfie = golfie.TIER_1;
-            michal['tier'] = golfie;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var7 = _closure1_slot4;
+            var7 = var7.TIER_1;
+            var2['tier'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2025:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 10;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 10;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2066:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 9;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2107:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 8;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2148:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 7;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 7;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2189:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 6;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2230:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 5;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 5;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2271:
-            oscard = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['row'] = report;
-            michal = oscard.bind(tangon)(zuuluu, michal);
-            return michal;
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['row'] = var5;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
  2312:
-            tangon = _closure1_slot5;
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(entity);
-            entity = {};
-            entity['row'] = report;
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+            var4 = _closure1_slot5;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var1['row'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: createSystemMessageContent
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function createSystemMessageContent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = zuuluu.message;
-            tangon = entity.type;
-            michal = _closure1_slot3;
-            michal = michal.RECIPIENT_ADD;
-            if(!(michal !== tangon)) { _fun00004_ip = 2307; continue _fun00003 }
+            var3 = arg1;
+            var1 = var3.message;
+            var4 = var1.type;
+            var2 = _closure1_slot3;
+            var2 = var2.RECIPIENT_ADD;
+            if(!(var2 !== var4)) { _fun0002_ip = 2307; continue _fun0002 }
  33:
-            michal = _closure1_slot3;
-            michal = michal.RECIPIENT_REMOVE;
-            if(!(michal !== tangon)) { _fun00004_ip = 2272; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.RECIPIENT_REMOVE;
+            if(!(var2 !== var4)) { _fun0002_ip = 2272; continue _fun0002 }
  50:
-            michal = _closure1_slot3;
-            michal = michal.CALL;
-            if(!(michal !== tangon)) { _fun00004_ip = 2237; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CALL;
+            if(!(var2 !== var4)) { _fun0002_ip = 2237; continue _fun0002 }
  67:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_NAME_CHANGE;
-            if(!(michal !== tangon)) { _fun00004_ip = 2202; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_NAME_CHANGE;
+            if(!(var2 !== var4)) { _fun0002_ip = 2202; continue _fun0002 }
  84:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_ICON_CHANGE;
-            if(!(michal !== tangon)) { _fun00004_ip = 2167; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_ICON_CHANGE;
+            if(!(var2 !== var4)) { _fun0002_ip = 2167; continue _fun0002 }
  101:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_PINNED_MESSAGE;
-            if(!(michal !== tangon)) { _fun00004_ip = 2132; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_PINNED_MESSAGE;
+            if(!(var2 !== var4)) { _fun0002_ip = 2132; continue _fun0002 }
  118:
-            michal = _closure1_slot3;
-            michal = michal.USER_JOIN;
-            if(!(michal !== tangon)) { _fun00004_ip = 2097; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.USER_JOIN;
+            if(!(var2 !== var4)) { _fun0002_ip = 2097; continue _fun0002 }
  135:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST;
-            if(!(michal !== tangon)) { _fun00004_ip = 2062; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST;
+            if(!(var2 !== var4)) { _fun0002_ip = 2062; continue _fun0002 }
  152:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_1;
-            if(!(michal !== tangon)) { _fun00004_ip = 2016; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_1;
+            if(!(var2 !== var4)) { _fun0002_ip = 2016; continue _fun0002 }
  169:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_2;
-            if(!(michal !== tangon)) { _fun00004_ip = 1970; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_2;
+            if(!(var2 !== var4)) { _fun0002_ip = 1970; continue _fun0002 }
  186:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_BOOST_TIER_3;
-            if(!(michal !== tangon)) { _fun00004_ip = 1924; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_BOOST_TIER_3;
+            if(!(var2 !== var4)) { _fun0002_ip = 1924; continue _fun0002 }
  203:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_FOLLOW_ADD;
-            if(!(michal !== tangon)) { _fun00004_ip = 1889; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_FOLLOW_ADD;
+            if(!(var2 !== var4)) { _fun0002_ip = 1889; continue _fun0002 }
  220:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_STREAM;
-            if(!(michal !== tangon)) { _fun00004_ip = 1854; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_STREAM;
+            if(!(var2 !== var4)) { _fun0002_ip = 1854; continue _fun0002 }
  237:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1819; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_DISQUALIFIED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1819; continue _fun0002 }
  254:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1784; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_REQUALIFIED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1784; continue _fun0002 }
  271:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(michal !== tangon)) { _fun00004_ip = 1749; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
+            if(!(var2 !== var4)) { _fun0002_ip = 1749; continue _fun0002 }
  288:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(michal !== tangon)) { _fun00004_ip = 1714; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
+            if(!(var2 !== var4)) { _fun0002_ip = 1714; continue _fun0002 }
  305:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_INPUT_COMMAND;
-            if(!(michal !== tangon)) { _fun00004_ip = 1679; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_INPUT_COMMAND;
+            if(!(var2 !== var4)) { _fun0002_ip = 1679; continue _fun0002 }
  322:
-            michal = _closure1_slot3;
-            michal = michal.CONTEXT_MENU_COMMAND;
-            if(!(michal !== tangon)) { _fun00004_ip = 1679; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CONTEXT_MENU_COMMAND;
+            if(!(var2 !== var4)) { _fun0002_ip = 1679; continue _fun0002 }
  339:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INVITE_REMINDER;
-            if(!(michal !== tangon)) { _fun00004_ip = 1675; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INVITE_REMINDER;
+            if(!(var2 !== var4)) { _fun0002_ip = 1675; continue _fun0002 }
  356:
-            michal = _closure1_slot3;
-            michal = michal.THREAD_CREATED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1640; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.THREAD_CREATED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1640; continue _fun0002 }
  373:
-            michal = _closure1_slot3;
-            michal = michal.THREAD_STARTER_MESSAGE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1605; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.THREAD_STARTER_MESSAGE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1605; continue _fun0002 }
  390:
-            michal = _closure1_slot3;
-            michal = michal.AUTO_MODERATION_ACTION;
-            if(!(michal !== tangon)) { _fun00004_ip = 1570; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.AUTO_MODERATION_ACTION;
+            if(!(var2 !== var4)) { _fun0002_ip = 1570; continue _fun0002 }
  407:
-            michal = _closure1_slot3;
-            michal = michal.ROLE_SUBSCRIPTION_PURCHASE;
-            if(!(michal !== tangon)) { _fun00004_ip = 1535; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.ROLE_SUBSCRIPTION_PURCHASE;
+            if(!(var2 !== var4)) { _fun0002_ip = 1535; continue _fun0002 }
  424:
-            michal = _closure1_slot3;
-            michal = michal.PURCHASE_NOTIFICATION;
-            if(!(michal !== tangon)) { _fun00004_ip = 1500; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.PURCHASE_NOTIFICATION;
+            if(!(var2 !== var4)) { _fun0002_ip = 1500; continue _fun0002 }
  441:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_START;
-            if(!(michal !== tangon)) { _fun00004_ip = 1465; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_START;
+            if(!(var2 !== var4)) { _fun0002_ip = 1465; continue _fun0002 }
  458:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_END;
-            if(!(michal !== tangon)) { _fun00004_ip = 1430; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_END;
+            if(!(var2 !== var4)) { _fun0002_ip = 1430; continue _fun0002 }
  475:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_TOPIC;
-            if(!(michal !== tangon)) { _fun00004_ip = 1395; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_TOPIC;
+            if(!(var2 !== var4)) { _fun0002_ip = 1395; continue _fun0002 }
  492:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_SPEAKER;
-            if(!(michal !== tangon)) { _fun00004_ip = 1360; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_SPEAKER;
+            if(!(var2 !== var4)) { _fun0002_ip = 1360; continue _fun0002 }
  509:
-            michal = _closure1_slot3;
-            michal = michal.STAGE_RAISE_HAND;
-            if(!(michal !== tangon)) { _fun00004_ip = 1325; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.STAGE_RAISE_HAND;
+            if(!(var2 !== var4)) { _fun0002_ip = 1325; continue _fun0002 }
  526:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
-            if(!(michal !== tangon)) { _fun00004_ip = 1290; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_APPLICATION_PREMIUM_SUBSCRIPTION;
+            if(!(var2 !== var4)) { _fun0002_ip = 1290; continue _fun0002 }
  543:
-            michal = _closure1_slot3;
-            michal = michal.PRIVATE_CHANNEL_INTEGRATION_ADDED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1244; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.PRIVATE_CHANNEL_INTEGRATION_ADDED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1244; continue _fun0002 }
  560:
-            michal = _closure1_slot3;
-            michal = michal.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1244; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.PRIVATE_CHANNEL_INTEGRATION_REMOVED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1244; continue _fun0002 }
  577:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_ALERT_MODE_ENABLED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1209; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_ALERT_MODE_ENABLED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1209; continue _fun0002 }
  594:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_ALERT_MODE_DISABLED;
-            if(!(michal !== tangon)) { _fun00004_ip = 1174; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_ALERT_MODE_DISABLED;
+            if(!(var2 !== var4)) { _fun0002_ip = 1174; continue _fun0002 }
  611:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_REPORT_RAID;
-            if(!(michal !== tangon)) { _fun00004_ip = 1139; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_REPORT_RAID;
+            if(!(var2 !== var4)) { _fun0002_ip = 1139; continue _fun0002 }
  628:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_INCIDENT_REPORT_FALSE_ALARM;
-            if(!(michal !== tangon)) { _fun00004_ip = 1104; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_INCIDENT_REPORT_FALSE_ALARM;
+            if(!(var2 !== var4)) { _fun0002_ip = 1104; continue _fun0002 }
  645:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_DEADCHAT_REVIVE_PROMPT;
-            if(!(michal !== tangon)) { _fun00004_ip = 1069; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_DEADCHAT_REVIVE_PROMPT;
+            if(!(var2 !== var4)) { _fun0002_ip = 1069; continue _fun0002 }
  662:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_GAMING_STATS_PROMPT;
-            if(!(michal !== tangon)) { _fun00004_ip = 1034; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_GAMING_STATS_PROMPT;
+            if(!(var2 !== var4)) { _fun0002_ip = 1034; continue _fun0002 }
  679:
-            michal = _closure1_slot3;
-            michal = michal.POLL_RESULT;
-            if(!(michal !== tangon)) { _fun00004_ip = 999; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.POLL_RESULT;
+            if(!(var2 !== var4)) { _fun0002_ip = 999; continue _fun0002 }
  696:
-            michal = _closure1_slot3;
-            michal = michal.CHANNEL_LINKED_TO_LOBBY;
-            if(!(michal !== tangon)) { _fun00004_ip = 964; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHANNEL_LINKED_TO_LOBBY;
+            if(!(var2 !== var4)) { _fun0002_ip = 964; continue _fun0002 }
  713:
-            michal = _closure1_slot3;
-            michal = michal.IN_GAME_MESSAGE_NUX;
-            if(!(michal !== tangon)) { _fun00004_ip = 929; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.IN_GAME_MESSAGE_NUX;
+            if(!(var2 !== var4)) { _fun0002_ip = 929; continue _fun0002 }
  730:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
-            if(!(michal !== tangon)) { _fun00004_ip = 894; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_ACCEPT_NOTIFICATION;
+            if(!(var2 !== var4)) { _fun0002_ip = 894; continue _fun0002 }
  747:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
-            if(!(michal !== tangon)) { _fun00004_ip = 894; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_REJECT_NOTIFICATION;
+            if(!(var2 !== var4)) { _fun0002_ip = 894; continue _fun0002 }
  764:
-            michal = _closure1_slot3;
-            michal = michal.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
-            if(!(michal !== tangon)) { _fun00004_ip = 894; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.GUILD_JOIN_REQUEST_WITHDRAWN_NOTIFICATION;
+            if(!(var2 !== var4)) { _fun0002_ip = 894; continue _fun0002 }
  778:
-            michal = _closure1_slot3;
-            michal = michal.EMOJI_ADDED;
-            if(!(michal !== tangon)) { _fun00004_ip = 859; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.EMOJI_ADDED;
+            if(!(var2 !== var4)) { _fun0002_ip = 859; continue _fun0002 }
  792:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_WALLPAPER_SET;
-            if(!(michal !== tangon)) { _fun00004_ip = 824; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_WALLPAPER_SET;
+            if(!(var2 !== var4)) { _fun0002_ip = 824; continue _fun0002 }
  806:
-            michal = _closure1_slot3;
-            michal = michal.CHAT_WALLPAPER_REMOVED;
-            if(!(michal !== tangon)) { _fun00004_ip = 824; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CHAT_WALLPAPER_REMOVED;
+            if(!(var2 !== var4)) { _fun0002_ip = 824; continue _fun0002 }
  820:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  824:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 38;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChatWallpaperNotAvailableOnMobileSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 38;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChatWallpaperNotAvailableOnMobileSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  859:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 37;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createEmojiAddedSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 37;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createEmojiAddedSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  894:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 36;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createJoinRequestNotificationSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 36;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createJoinRequestNotificationSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  929:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 35;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createInGameMessageNuxSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 35;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createInGameMessageNuxSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  964:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 34;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChannelLinkedToLobbySystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 34;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChannelLinkedToLobbySystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  999:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 33;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createPollResultSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 33;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createPollResultSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1034:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 32;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGamingPromptSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 32;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGamingPromptSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1069:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 31;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createSimpleDeadchatPromptSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 31;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createSimpleDeadchatPromptSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1104:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 30;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildReportFalseAlarmSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 30;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildReportFalseAlarmSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1139:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 29;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildReportRaidSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 29;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildReportRaidSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1174:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 28;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildAlertModeDisabledSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 28;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildAlertModeDisabledSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1209:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 28;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildAlertModeEnabledSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 28;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildAlertModeEnabledSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1244:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 27;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = report.createPrivateChannelIntegrationSystemMessage;
-            michal = zuuluu.message;
-            michal = michal.type;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 27;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.createPrivateChannelIntegrationSystemMessage;
+            var2 = var3.message;
+            var2 = var2.type;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  1290:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 26;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createApplicationSubscriptionPurchaseSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 26;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createApplicationSubscriptionPurchaseSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1325:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 25;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createStageRaiseHandSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 25;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createStageRaiseHandSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1360:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 24;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createStageSpeakerSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 24;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createStageSpeakerSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1395:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 23;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createStageTopicSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 23;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createStageTopicSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1430:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 22;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createStageEndSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 22;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createStageEndSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1465:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 21;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createStageStartSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 21;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createStageStartSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1500:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 20;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createPurchaseNotificationSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 20;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createPurchaseNotificationSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1535:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 19;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createRoleSubscriptionPurchaseSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 19;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createRoleSubscriptionPurchaseSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1570:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 18;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createAutoModerationActionSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 18;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createAutoModerationActionSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1605:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 17;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createThreadStarterSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 17;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createThreadStarterSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1640:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 16;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createNewThreadSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 16;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createNewThreadSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1675:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  1679:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 15;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createApplicationCommandSourceSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 15;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createApplicationCommandSourceSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1714:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 14;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildDiscoveryGracePeriodFinalWarningSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildDiscoveryGracePeriodFinalWarningSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1749:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 14;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildDiscoveryGracePeriodInitialWarningSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildDiscoveryGracePeriodInitialWarningSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1784:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 14;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildDiscoveryRequalifiedSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildDiscoveryRequalifiedSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1819:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 14;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildDiscoveryDisqualifiedSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 14;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildDiscoveryDisqualifiedSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1854:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 13;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createGuildStreamSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 13;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createGuildStreamSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1889:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 12;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChannelFollowAddSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 12;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChannelFollowAddSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  1924:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 11;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = report.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
-            michal = _closure1_slot4;
-            michal = michal.TIER_3;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
+            var2 = _closure1_slot4;
+            var2 = var2.TIER_3;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  1970:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 11;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = report.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
-            michal = _closure1_slot4;
-            michal = michal.TIER_2;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
+            var2 = _closure1_slot4;
+            var2 = var2.TIER_2;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  2016:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 11;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = report.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
-            michal = _closure1_slot4;
-            michal = michal.TIER_1;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 11;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var5.createUserPremiumGuildSubscriptionTierAchievedSystemMessage;
+            var2 = _closure1_slot4;
+            var2 = var2.TIER_1;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  2062:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 10;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createUserPremiumGuildSubscriptionSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 10;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createUserPremiumGuildSubscriptionSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2097:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 9;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createUserJoinSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 9;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createUserJoinSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2132:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 8;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChannelPinnedMessageSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChannelPinnedMessageSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2167:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 7;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChangeChannelIconSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 7;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChangeChannelIconSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2202:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 6;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createChangeChannelNameSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createChangeChannelNameSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2237:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 5;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createCallSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 5;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createCallSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2272:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 4;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.createRemoveRecipientSystemMessage;
-            michal = michal.bind(tangon)(zuuluu);
-            return michal;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.createRemoveRecipientSystemMessage;
+            var2 = var2.bind(var4)(var3);
+            return var2;
  2307:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.createAddRecipientSystemMessage;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.createAddRecipientSystemMessage;
+            var1 = var1.bind(var2)(var3);
+            return var1;
         }
     };
-    zuuluu['createSystemMessageContent'] = michal;
-    return entity;
+    var3['createSystemMessageContent'] = var2;
+    return var1;
 })();

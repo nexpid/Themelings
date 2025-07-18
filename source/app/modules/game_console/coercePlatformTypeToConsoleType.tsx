@@ -1,132 +1,132 @@
 // app/modules/game_console/coercePlatformTypeToConsoleType.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GameConsoleTypes;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PlatformTypes;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_console/coercePlatformTypeToConsoleType.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: coercePlatformTypeToConsoleType
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GameConsoleTypes;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PlatformTypes;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/game_console/coercePlatformTypeToConsoleType.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function coercePlatformTypeToConsoleType(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot1;
-            michal = michal.XBOX;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 64; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot1;
+            var2 = var2.XBOX;
+            if(!(var2 !== var3)) { _fun0001_ip = 64; continue _fun0001 }
  20:
-            michal = _closure1_slot1;
-            michal = michal.PLAYSTATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 52; continue _fun00001 }
+            var2 = _closure1_slot1;
+            var2 = var2.PLAYSTATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
  34:
-            michal = _closure1_slot1;
-            michal = michal.PLAYSTATION_STAGING;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 52; continue _fun00001 }
+            var2 = _closure1_slot1;
+            var2 = var2.PLAYSTATION_STAGING;
+            if(!(var2 !== var3)) { _fun0001_ip = 52; continue _fun0001 }
  48:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  52:
-            michal = _closure1_slot0;
-            michal = michal.PLAYSTATION;
-            return michal;
+            var2 = _closure1_slot0;
+            var2 = var2.PLAYSTATION;
+            return var2;
  64:
-            entity = _closure1_slot0;
-            entity = entity.XBOX;
-            return entity;
+            var1 = _closure1_slot0;
+            var1 = var1.XBOX;
+            return var1;
         }
     };
-    zuuluu['coercePlatformTypeToConsoleType'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: coerceConsoleTypeToPlatformType
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['coercePlatformTypeToConsoleType'] = var4;
+    var2 = function coerceConsoleTypeToPlatformType(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            report = argBar;
-            michal = _closure1_slot0;
-            michal = michal.XBOX;
-            if(!(michal !== tangon)) { _fun00004_ip = 109; continue _fun00003 }
+            var4 = arg1;
+            var5 = arg2;
+            var2 = _closure1_slot0;
+            var2 = var2.XBOX;
+            if(!(var2 !== var4)) { _fun0002_ip = 109; continue _fun0002 }
  25:
-            michal = _closure1_slot0;
-            michal = michal.PLAYSTATION;
-            if(!(michal !== tangon)) { _fun00004_ip = 43; continue _fun00003 }
+            var2 = _closure1_slot0;
+            var2 = var2.PLAYSTATION;
+            if(!(var2 !== var4)) { _fun0002_ip = 43; continue _fun0002 }
  39:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  43:
-            tangon = report.some;
-            michal = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var4 = var5.some;
+            var2 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.type;
-                    michal = entity.twoWayLink;
-                    entity = _closure1_slot1;
-                    entity = entity.PLAYSTATION_STAGING;
-                    entity = zuuluu === entity;
-                    if(!entity) { _fun00006_ip = 37; continue _fun00005 }
+                    var1 = arg1;
+                    var3 = var1.type;
+                    var2 = var1.twoWayLink;
+                    var1 = _closure1_slot1;
+                    var1 = var1.PLAYSTATION_STAGING;
+                    var1 = var3 === var1;
+                    if(!var1) { _fun0003_ip = 37; continue _fun0003 }
  34:
-                    entity = michal;
+                    var1 = var2;
  37:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal);
-            tangon = report.some;
-            zuuluu = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var2 = var4.bind(var5)(var2);
+            var4 = var5.some;
+            var3 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.type;
-                    michal = entity.twoWayLink;
-                    entity = _closure1_slot1;
-                    entity = entity.PLAYSTATION;
-                    entity = zuuluu === entity;
-                    if(!entity) { _fun00008_ip = 37; continue _fun00007 }
+                    var1 = arg1;
+                    var3 = var1.type;
+                    var2 = var1.twoWayLink;
+                    var1 = _closure1_slot1;
+                    var1 = var1.PLAYSTATION;
+                    var1 = var3 === var1;
+                    if(!var1) { _fun0004_ip = 37; continue _fun0004 }
  34:
-                    entity = michal;
+                    var1 = var2;
  37:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00004_ip = 97; continue _fun00003 }
+            var3 = var4.bind(var5)(var3);
+            if(var3) { _fun0002_ip = 97; continue _fun0002 }
  82:
-            if(!michal) { _fun00004_ip = 97; continue _fun00003 }
+            if(!var2) { _fun0002_ip = 97; continue _fun0002 }
  85:
-            michal = _closure1_slot1;
-            michal = michal.PLAYSTATION_STAGING;
-            _fun00004_ip = 107; continue _fun00003;
+            var2 = _closure1_slot1;
+            var2 = var2.PLAYSTATION_STAGING;
+            _fun0002_ip = 107; continue _fun0002;
  97:
-            zuuluu = _closure1_slot1;
-            michal = zuuluu.PLAYSTATION;
+            var3 = _closure1_slot1;
+            var2 = var3.PLAYSTATION;
  107:
-            return michal;
+            return var2;
  109:
-            entity = _closure1_slot1;
-            entity = entity.XBOX;
-            return entity;
+            var1 = _closure1_slot1;
+            var1 = var1.XBOX;
+            return var1;
         }
     };
-    zuuluu['coerceConsoleTypeToPlatformType'] = michal;
-    return entity;
+    var3['coerceConsoleTypeToPlatformType'] = var2;
+    return var1;
 })();

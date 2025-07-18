@@ -1,105 +1,105 @@
 // app/modules/activities/utils/isVoiceEmbeddedActivity.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/isVoiceEmbeddedActivity.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: isVoiceEmbeddedActivity
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/isVoiceEmbeddedActivity.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isVoiceEmbeddedActivity(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = arguments[1];
-            michal = arguments[2];
-            verify = undefined;
-            if(!(tangon === verify)) { _fun00002_ip = 19; continue _fun00001 }
+            var4 = arguments[1];
+            var2 = arguments[2];
+            var9 = undefined;
+            if(!(var4 === var9)) { _fun0001_ip = 19; continue _fun0001 }
  12:
-            tangon = _closure1_slot3;
+            var4 = _closure1_slot3;
  19:
-            if(!(michal === verify)) { _fun00002_ip = 30; continue _fun00001 }
+            if(!(var2 === var9)) { _fun0001_ip = 30; continue _fun0001 }
  23:
-            michal = _closure1_slot4;
+            var2 = _closure1_slot4;
  30:
-            zuuluu = tangon.getChannel;
-            entity = argFoo;
-            golfie = zuuluu.bind(tangon)(entity);
-            entity = michal.getVoiceChannelId;
-            option = entity.bind(michal)();
-            oscard = null;
-            entity = oscard != golfie;
-            if(!entity) { _fun00002_ip = 194; continue _fun00001 }
+            var3 = var4.getChannel;
+            var1 = arg1;
+            var7 = var3.bind(var4)(var1);
+            var1 = var2.getVoiceChannelId;
+            var8 = var1.bind(var2)();
+            var6 = null;
+            var1 = var6 != var7;
+            if(!var1) { _fun0001_ip = 194; continue _fun0001 }
  65:
-            zuuluu = golfie.type;
-            tangon = _closure1_slot0;
-            offset = _closure1_slot1;
-            michal = 4;
-            michal = offset[michal];
-            michal = tangon.bind(verify)(michal);
-            michal = michal.ChannelTypes;
-            michal = michal.GUILD_VOICE;
-            michal = zuuluu === michal;
-            if(michal) { _fun00002_ip = 191; continue _fun00001 }
+            var3 = var7.type;
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 4;
+            var2 = var10[var2];
+            var2 = var4.bind(var9)(var2);
+            var2 = var2.ChannelTypes;
+            var2 = var2.GUILD_VOICE;
+            var2 = var3 === var2;
+            if(var2) { _fun0001_ip = 191; continue _fun0001 }
  112:
-            zuuluu = golfie.isPrivate;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon = !zuuluu;
-            zuuluu = !tangon;
-            if(tangon) { _fun00002_ip = 188; continue _fun00001 }
+            var3 = var7.isPrivate;
+            var3 = var3.bind(var7)();
+            var4 = !var3;
+            var3 = !var4;
+            if(var4) { _fun0001_ip = 188; continue _fun0001 }
  131:
-            tangon = golfie.id;
-            tangon = tangon === option;
-            if(tangon) { _fun00002_ip = 185; continue _fun00001 }
+            var4 = var7.id;
+            var4 = var4 === var8;
+            if(var4) { _fun0001_ip = 185; continue _fun0001 }
  143:
-            verify = _closure1_slot5;
-            option = verify.getVoiceStatesForChannel;
-            golfie = golfie.id;
-            golfie = option.bind(verify)(golfie);
-            option = _closure1_slot2;
-            report = option.getId;
-            report = report.bind(option)();
-            report = golfie[report];
-            tangon = oscard != report;
+            var9 = _closure1_slot5;
+            var8 = var9.getVoiceStatesForChannel;
+            var7 = var7.id;
+            var7 = var8.bind(var9)(var7);
+            var8 = _closure1_slot2;
+            var5 = var8.getId;
+            var5 = var5.bind(var8)();
+            var5 = var7[var5];
+            var4 = var6 != var5;
  185:
-            zuuluu = tangon;
+            var3 = var4;
  188:
-            michal = zuuluu;
+            var2 = var3;
  191:
-            entity = michal;
+            var1 = var2;
  194:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

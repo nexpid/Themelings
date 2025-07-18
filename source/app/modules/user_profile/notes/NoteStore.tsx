@@ -1,215 +1,215 @@
 // app/modules/user_profile/notes/NoteStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot6 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot6 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.TypeTag;
-    tangon = tangon.constructInPlace;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.KvStore;
-    tangon = function(argFoo) {
-        tangon = function() { // Original name: NoteStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.TypeTag;
+    var4 = var4.constructInPlace;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.KvStore;
+    var4 = function(arg1) {
+        var4 = function NoteStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot0;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot3;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot2;
-                entity = _closure1_slot6;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot3;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
+                var1 = _closure1_slot6;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        oscard = _closure1_slot4;
-        zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
-        michal = _closure1_slot1;
-        report = {};
-        oscard = 'getNote';
-        report['key'] = oscard;
-        entity = function(argFoo) { // Original name: value
-            zuuluu = this;
-            michal = zuuluu.get;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var _closure2_slot0 = var4;
+        var6 = _closure1_slot4;
+        var3 = undefined;
+        var5 = arg1;
+        var5 = var6.bind(var3)(var4, var5);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var6 = 'getNote';
+        var5['key'] = var6;
+        var1 = function value(arg1) {
+            var3 = this;
+            var2 = var3.get;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(1);
-        entity[0] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var1;
+        var1 = new Array(1);
+        var1[0] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = tangon.bind(entity)(golfie);
-    tangon = 'NoteStore';
-    option['displayName'] = tangon;
-    golfie = {};
-    tangon = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
-        michal = argBar;
-        entity = michal.reset;
-        entity = entity.bind(michal)();
-        return entity;
+    var8 = var4.bind(var1)(var7);
+    var4 = 'NoteStore';
+    var8['displayName'] = var4;
+    var7 = {};
+    var4 = function CONNECTION_OPEN(arg1, arg2) {
+        var2 = arg2;
+        var1 = var2.reset;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    golfie['CONNECTION_OPEN'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: OVERLAY_INITIALIZE
-        michal = argBar;
-        entity = michal.reset;
-        entity = entity.bind(michal)();
-        return entity;
+    var7['CONNECTION_OPEN'] = var4;
+    var4 = function OVERLAY_INITIALIZE(arg1, arg2) {
+        var2 = arg2;
+        var1 = var2.reset;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    golfie['OVERLAY_INITIALIZE'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: USER_NOTE_UPDATE
-        entity = argFoo;
-        report = argBar;
-        tangon = report.set;
-        zuuluu = entity.id;
-        golfie = _closure1_slot5;
-        oscard = {};
-        michal = false;
-        oscard['loading'] = michal;
-        entity = entity.note;
-        oscard['note'] = entity;
-        entity = undefined;
-        michal = 'Note';
-        michal = golfie.bind(entity)(michal, oscard);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var7['OVERLAY_INITIALIZE'] = var4;
+    var4 = function USER_NOTE_UPDATE(arg1, arg2) {
+        var1 = arg1;
+        var5 = arg2;
+        var4 = var5.set;
+        var3 = var1.id;
+        var7 = _closure1_slot5;
+        var6 = {};
+        var2 = false;
+        var6['loading'] = var2;
+        var1 = var1.note;
+        var6['note'] = var1;
+        var1 = undefined;
+        var2 = 'Note';
+        var2 = var7.bind(var1)(var2, var6);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    golfie['USER_NOTE_UPDATE'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: USER_NOTE_LOAD_START
-        report = argBar;
-        tangon = report.set;
-        entity = argFoo;
-        zuuluu = entity.userId;
-        golfie = _closure1_slot5;
-        entity = undefined;
-        oscard = 'Note';
-        michal = {'loading': true, 'note': null};
-        michal = golfie.bind(entity)(oscard, michal);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var7['USER_NOTE_UPDATE'] = var4;
+    var2 = function USER_NOTE_LOAD_START(arg1, arg2) {
+        var5 = arg2;
+        var4 = var5.set;
+        var1 = arg1;
+        var3 = var1.userId;
+        var7 = _closure1_slot5;
+        var1 = undefined;
+        var6 = 'Note';
+        var2 = {'loading': true, 'note': null};
+        var2 = var7.bind(var1)(var6, var2);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    golfie['USER_NOTE_LOAD_START'] = michal;
-    michal = 7;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    tangon = michal.NoteStoreExperiment;
-    michal = tangon.getCachedKvStoreMode;
-    yankee = michal.bind(tangon)();
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    foxtra = tangon;
-    romeon = golfie;
-    michal = new foxtra[option](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/notes/NoteStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    michal = 'Note';
-    zuuluu['NoteRecordTypeTag'] = michal;
-    return entity;
+    var7['USER_NOTE_LOAD_START'] = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.NoteStoreExperiment;
+    var2 = var4.getCachedKvStoreMode;
+    var11 = var2.bind(var4)();
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var12 = var7;
+    var2 = new var13[var8](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/notes/NoteStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    var2 = 'Note';
+    var3['NoteRecordTypeTag'] = var2;
+    return var1;
 })();

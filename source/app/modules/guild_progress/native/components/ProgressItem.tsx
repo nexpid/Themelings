@@ -1,183 +1,183 @@
 // app/modules/guild_progress/native/components/ProgressItem.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    offset = {};
-    tangon = 8;
-    offset['marginBottom'] = tangon;
-    golfie['formCTAContainer'] = offset;
-    offset = {};
-    yankee = 5;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.CARD_PRIMARY_BG;
-    offset['backgroundColor'] = yankee;
-    golfie['formCTA'] = offset;
-    offset = {};
-    yankee = '100%';
-    offset['width'] = yankee;
-    golfie['formCTAFullWidth'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot7 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_progress/native/components/ProgressItem.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ProgressItem
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var12 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
+    var10 = {};
+    var4 = 8;
+    var10['marginBottom'] = var4;
+    var7['formCTAContainer'] = var10;
+    var10 = {};
+    var11 = 5;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.CARD_PRIMARY_BG;
+    var10['backgroundColor'] = var11;
+    var7['formCTA'] = var10;
+    var10 = {};
+    var11 = '100%';
+    var10['width'] = var11;
+    var7['formCTAFullWidth'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot7 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_progress/native/components/ProgressItem.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ProgressItem(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            offset = michal.title;
-            yankee = michal.source;
-            romeon = michal.onPress;
-            var _closure2_slot0 = romeon;
-            golfie = michal.isCompleted;
-            var _closure2_slot1 = golfie;
-            option = michal.description;
-            foxtra = michal.analyticsSetupType;
-            var _closure2_slot2 = foxtra;
-            backup = michal.analyticsAction;
-            var _closure2_slot3 = backup;
-            verify = michal.renderEndComponent;
-            sizing = michal.fullWidth;
-            michal = _closure1_slot7;
-            tangon = undefined;
-            kiloes = michal.bind(tangon)();
-            oscard = _closure1_slot3;
-            zuuluu = oscard.useCallback;
-            michal = new Array(4);
-            michal[0] = backup;
-            michal[1] = foxtra;
-            michal[2] = romeon;
-            michal[3] = golfie;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var10 = var2.title;
+            var11 = var2.source;
+            var12 = var2.onPress;
+            var _closure2_slot0 = var12;
+            var7 = var2.isCompleted;
+            var _closure2_slot1 = var7;
+            var8 = var2.description;
+            var13 = var2.analyticsSetupType;
+            var _closure2_slot2 = var13;
+            var14 = var2.analyticsAction;
+            var _closure2_slot3 = var14;
+            var9 = var2.renderEndComponent;
+            var16 = var2.fullWidth;
+            var2 = _closure1_slot7;
+            var4 = undefined;
+            var15 = var2.bind(var4)();
+            var6 = _closure1_slot3;
+            var3 = var6.useCallback;
+            var2 = new Array(4);
+            var2[0] = var14;
+            var2[1] = var13;
+            var2[2] = var12;
+            var2[3] = var7;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot3;
-                    tangon = null;
-                    michal = tangon != michal;
-                    if(!michal) { _fun00004_ip = 24; continue _fun00003 }
+                    var2 = _closure2_slot3;
+                    var4 = null;
+                    var2 = var4 != var2;
+                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
  16:
-                    zuuluu = _closure2_slot2;
-                    michal = tangon != zuuluu;
+                    var3 = _closure2_slot2;
+                    var2 = var4 != var3;
  24:
-                    if(!michal) { _fun00004_ip = 104; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 104; continue _fun0002 }
  27:
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    zuuluu = 6;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    report = report.bind(zuuluu)(tangon);
-                    tangon = report.trackWithMetadata;
-                    michal = _closure1_slot5;
-                    zuuluu = michal.SERVER_SETUP_CTA_CLICKED;
-                    michal = {};
-                    oscard = _closure2_slot2;
-                    michal['setup_type'] = oscard;
-                    oscard = _closure2_slot3;
-                    michal['action'] = oscard;
-                    oscard = _closure2_slot1;
-                    michal['action_completed'] = oscard;
-                    michal = tangon.bind(report)(zuuluu, michal);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var3 = 6;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.trackWithMetadata;
+                    var2 = _closure1_slot5;
+                    var3 = var2.SERVER_SETUP_CTA_CLICKED;
+                    var2 = {};
+                    var6 = _closure2_slot2;
+                    var2['setup_type'] = var6;
+                    var6 = _closure2_slot3;
+                    var2['action'] = var6;
+                    var6 = _closure2_slot1;
+                    var2['action_completed'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
  104:
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    michal = michal.bind(entity)();
-                    return entity;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)();
+                    return var1;
                 }
             };
-            romeon = zuuluu.bind(oscard)(entity, michal);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot4;
-            entity = {};
-            oscard = kiloes.formCTAContainer;
-            entity['style'] = oscard;
-            oscard = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            report = 7;
-            report = foxtra[report];
-            report = oscard.bind(tangon)(report);
-            oscard = report.FormCTA;
-            report = {};
-            foxtra = 'row-button';
-            report['variant'] = foxtra;
-            backup = kiloes.formCTA;
-            foxtra = new Array(2);
-            foxtra[0] = backup;
-            backup = undefined;
-            if(!sizing) { _fun00002_ip = 209; continue _fun00001 }
+            var12 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var6 = var15.formCTAContainer;
+            var1['style'] = var6;
+            var6 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var5 = 7;
+            var5 = var13[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.FormCTA;
+            var5 = {};
+            var13 = 'row-button';
+            var5['variant'] = var13;
+            var14 = var15.formCTA;
+            var13 = new Array(2);
+            var13[0] = var14;
+            var14 = undefined;
+            if(!var16) { _fun0001_ip = 209; continue _fun0001 }
  203:
-            backup = kiloes.formCTAFullWidth;
+            var14 = var15.formCTAFullWidth;
  209:
-            foxtra[1] = backup;
-            report['style'] = foxtra;
-            report['onPress'] = romeon;
-            report['iconSource'] = yankee;
-            report['title'] = offset;
-            report['subtitle'] = option;
-            report['completed'] = golfie;
-            golfie = null;
-            offset = golfie == verify;
-            option = undefined;
-            if(offset) { _fun00002_ip = 255; continue _fun00001 }
+            var13[1] = var14;
+            var5['style'] = var13;
+            var5['onPress'] = var12;
+            var5['iconSource'] = var11;
+            var5['title'] = var10;
+            var5['subtitle'] = var8;
+            var5['completed'] = var7;
+            var7 = null;
+            var10 = var7 == var9;
+            var8 = undefined;
+            if(var10) { _fun0001_ip = 255; continue _fun0001 }
  251:
-            option = verify.bind(tangon)();
+            var8 = var9.bind(var4)();
  255:
-            verify = golfie != option;
-            golfie = null;
-            if(!verify) { _fun00002_ip = 267; continue _fun00001 }
+            var9 = var7 != var8;
+            var7 = null;
+            if(!var9) { _fun0001_ip = 267; continue _fun0001 }
  264:
-            golfie = option;
+            var7 = var8;
  267:
-            report['trailing'] = golfie;
-            report = zuuluu.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5['trailing'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

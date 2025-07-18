@@ -1,235 +1,235 @@
 // app/modules/profile_effects/ProfileEffectActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot5 = tangon;
-    tangon = function(argFoo) { // Original name: parseProfileEffectConfigResponse
-        zuuluu = argFoo;
-        tangon = zuuluu.sku_id;
-        entity = null;
-        michal = Object.create(entity);
-        entity = 0;
-        michal['sku_id'] = entity;
-        golfie = {};
-        oscard = zuuluu;
-        report = michal;
-        zuuluu = copyDataProperties(golfie, oscard, report);
-        entity = {};
-        michal = zuuluu.id;
-        entity['id'] = michal;
-        entity['skuId'] = tangon;
-        michal = {};
-        golfie = michal;
-        oscard = zuuluu;
-        zuuluu = copyDataProperties(golfie, oscard);
-        zuuluu = 'skuId';
-        michal[zuuluu] = tangon;
-        entity['config'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot5 = var4;
+    var4 = function parseProfileEffectConfigResponse(arg1) {
+        var3 = arg1;
+        var4 = var3.sku_id;
+        var1 = null;
+        var2 = Object.create(var1);
+        var1 = 0;
+        var2['sku_id'] = var1;
+        var7 = {};
+        var6 = var3;
+        var5 = var2;
+        var3 = copyDataProperties(var7, var6, var5);
+        var1 = {};
+        var2 = var3.id;
+        var1['id'] = var2;
+        var1['skuId'] = var4;
+        var2 = {};
+        var7 = var2;
+        var6 = var3;
+        var3 = copyDataProperties(var7, var6);
+        var3 = 'skuId';
+        var2[var3] = var4;
+        var1['config'] = var2;
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot3;
-        zuuluu = undefined;
-        michal = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot6 = var4;
+    var4 = function() {
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var2 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    tangon = arguments[0];
+                    var4 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 415; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 415; continue _fun0001 }
  13:
-                    zuuluu = undefined;
-                    if(!(tangon === zuuluu)) { _fun00002_ip = 21; continue _fun00001 }
+                    var3 = undefined;
+                    if(!(var4 === var3)) { _fun0001_ip = 21; continue _fun0001 }
  19:
-                    tangon = false;
+                    var4 = false;
  21:
-                    report = undefined;
+                    var5 = undefined;
                     SaveGenerator(address=27);
  25:
-                    return zuuluu;
+                    return var3;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 412; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 412; continue _fun0001 }
  36:
-                    if(tangon) { _fun00002_ip = 62; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 62; continue _fun0001 }
  39:
-                    oscard = _closure1_slot4;
-                    tangon = oscard.hasFetched;
-                    tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00002_ip = 409; continue _fun00001 }
+                    var6 = _closure1_slot4;
+                    var4 = var6.hasFetched;
+                    var4 = var4.bind(var6)();
+                    if(var4) { _fun0001_ip = 409; continue _fun0001 }
  62:
-                    tangon = _closure1_slot4;
-                    tangon = tangon.isFetching;
-                    if(tangon) { _fun00002_ip = 409; continue _fun00001 }
+                    var4 = _closure1_slot4;
+                    var4 = var4.isFetching;
+                    if(var4) { _fun0001_ip = 409; continue _fun0001 }
  81:
-                    oscard = _closure1_slot4;
-                    tangon = oscard.canFetch;
-                    tangon = tangon.bind(oscard)();
-                    if(!tangon) { _fun00002_ip = 409; continue _fun00001 }
+                    var6 = _closure1_slot4;
+                    var4 = var6.canFetch;
+                    var4 = var4.bind(var6)();
+                    if(!var4) { _fun0001_ip = 409; continue _fun0001 }
  103:
-                    golfie = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    oscard = 3;
-                    tangon = tangon[oscard];
-                    verify = golfie.bind(zuuluu)(tangon);
-                    golfie = verify.dispatch;
-                    tangon = {};
-                    offset = 'USER_PROFILE_EFFECTS_FETCH';
-                    tangon['type'] = offset;
-                    tangon = golfie.bind(verify)(tangon);
+                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var6 = 3;
+                    var4 = var4[var6];
+                    var9 = var7.bind(var3)(var4);
+                    var7 = var9.dispatch;
+                    var4 = {};
+                    var10 = 'USER_PROFILE_EFFECTS_FETCH';
+                    var4['type'] = var10;
+                    var4 = var7.bind(var9)(var4);
  145: // try_start_0
-                    golfie = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    tangon = 4;
-                    tangon = verify[tangon];
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    verify = tangon.HTTP;
-                    golfie = verify.get;
-                    tangon = {};
-                    offset = _closure1_slot5;
-                    offset = offset.USER_PROFILE_EFFECTS;
-                    tangon['url'] = offset;
-                    offset = false;
-                    tangon['rejectWithError'] = offset;
-                    tangon = golfie.bind(verify)(tangon);
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var9[var4];
+                    var4 = var7.bind(var3)(var4);
+                    var9 = var4.HTTP;
+                    var7 = var9.get;
+                    var4 = {};
+                    var10 = _closure1_slot5;
+                    var10 = var10.USER_PROFILE_EFFECTS;
+                    var4['url'] = var10;
+                    var10 = false;
+                    var4['rejectWithError'] = var10;
+                    var4 = var7.bind(var9)(var4);
                     SaveGenerator(address=206);
  204:
-                    return tangon;
+                    return var4;
  206:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 299; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 299; continue _fun0001 }
  212:
-                    verify = tangon.body;
-                    report = verify;
-                    golfie = null;
-                    golfie = golfie == verify;
-                    verify = undefined;
-                    if(golfie) { _fun00002_ip = 239; continue _fun00001 }
+                    var9 = var4.body;
+                    var5 = var9;
+                    var7 = null;
+                    var7 = var7 == var9;
+                    var9 = undefined;
+                    if(var7) { _fun0001_ip = 239; continue _fun0001 }
  231:
-                    verify = report.profile_effect_configs;
+                    var9 = var5.profile_effect_configs;
  239:
-                    golfie = verify.map;
-                    report = _closure1_slot6;
-                    offset = golfie.bind(verify)(report);
-                    golfie = _closure1_slot1;
-                    report = _closure1_slot2;
-                    report = report[oscard];
-                    verify = golfie.bind(zuuluu)(report);
-                    golfie = verify.dispatch;
-                    report = {};
-                    yankee = 'USER_PROFILE_EFFECTS_FETCH_SUCCESS';
-                    report['type'] = yankee;
-                    report['profileEffects'] = offset;
-                    report = golfie.bind(verify)(report);
+                    var7 = var9.map;
+                    var5 = _closure1_slot6;
+                    var10 = var7.bind(var9)(var5);
+                    var7 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var6];
+                    var9 = var7.bind(var3)(var5);
+                    var7 = var9.dispatch;
+                    var5 = {};
+                    var11 = 'USER_PROFILE_EFFECTS_FETCH_SUCCESS';
+                    var5['type'] = var11;
+                    var5['profileEffects'] = var10;
+                    var5 = var7.bind(var9)(var5);
  297: // try_end0
-                    _fun00002_ip = 409; continue _fun00001;
+                    _fun0001_ip = 409; continue _fun0001;
  299:
-                    return tangon;
+                    return var4;
  302: // catch_target0
                     CatchBlockStart(arg_register=9);
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    golfie = 5;
-                    golfie = tangon[golfie];
-                    golfie = report.bind(zuuluu)(golfie);
-                    verify = golfie.prototype;
-                    verify = Object.create(verify, {constructor: {value: golfie}});
-                    foxtra = verify;
-                    romeon = offset;
-                    golfie = new foxtra[golfie](romeon, yankee);
-                    golfie = golfie instanceof Object ? golfie : verify;
-                    verify = _closure1_slot0;
-                    option = 6;
-                    option = tangon[option];
-                    verify = verify.bind(zuuluu)(option);
-                    option = verify.captureOrIgnoreApiError;
-                    option = option.bind(verify)(golfie);
-                    tangon = tangon[oscard];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'USER_PROFILE_EFFECTS_FETCH_FAILURE';
-                    tangon['type'] = option;
-                    tangon['error'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var7 = 5;
+                    var7 = var4[var7];
+                    var7 = var5.bind(var3)(var7);
+                    var9 = var7.prototype;
+                    var9 = Object.create(var9, {constructor: {value: var7}});
+                    var13 = var9;
+                    var12 = var10;
+                    var7 = new var13[var7](var12, var11);
+                    var7 = var7 instanceof Object ? var7 : var9;
+                    var9 = _closure1_slot0;
+                    var8 = 6;
+                    var8 = var4[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.captureOrIgnoreApiError;
+                    var8 = var8.bind(var9)(var7);
+                    var4 = var4[var6];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'USER_PROFILE_EFFECTS_FETCH_FAILURE';
+                    var4['type'] = var8;
+                    var4['error'] = var7;
+                    var4 = var5.bind(var6)(var4);
  409:
-                    return zuuluu;
+                    return var3;
  412:
-                    return michal;
+                    return var2;
  415:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function() {
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    report = 7;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/profile_effects/ProfileEffectActionCreators.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['fetchUserProfileEffects'] = tangon;
-    michal = function(argFoo) {
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'PROFILE_EFFECTS_SET_TRY_IT_OUT';
-        michal['type'] = report;
-        report = argFoo;
-        michal['id'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var4 = var4.bind(var1)();
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/profile_effects/ProfileEffectActionCreators.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['fetchUserProfileEffects'] = var4;
+    var2 = function(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'PROFILE_EFFECTS_SET_TRY_IT_OUT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['id'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setProfileEffectsTryItOut'] = michal;
-    return entity;
+    var3['setProfileEffectsTryItOut'] = var2;
+    return var1;
 })();

@@ -1,50 +1,50 @@
 // app/modules/activities/useIsActivitiesEnabledForCurrentPlatform.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = function() { // Original name: isActivitiesAllowed
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.isTablet;
-        entity = !entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = function isActivitiesAllowed() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.isTablet;
+        var1 = !var1;
+        return var1;
     };
-    var _closure1_slot2 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/useIsActivitiesEnabledForCurrentPlatform.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useIsActivitiesEnabledForCurrentPlatform
-        michal = _closure1_slot2;
-        entity = undefined;
-        entity = michal.bind(entity)();
-        return entity;
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/useIsActivitiesEnabledForCurrentPlatform.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useIsActivitiesEnabledForCurrentPlatform() {
+        var2 = _closure1_slot2;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
     };
-    zuuluu['useIsActivitiesEnabledForCurrentPlatform'] = tangon;
-    michal = function() { // Original name: getIsActivitiesEnabledForCurrentPlatform
-        michal = _closure1_slot2;
-        entity = undefined;
-        entity = michal.bind(entity)();
-        return entity;
+    var3['useIsActivitiesEnabledForCurrentPlatform'] = var4;
+    var2 = function getIsActivitiesEnabledForCurrentPlatform() {
+        var2 = _closure1_slot2;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
     };
-    zuuluu['getIsActivitiesEnabledForCurrentPlatform'] = michal;
-    return entity;
+    var3['getIsActivitiesEnabledForCurrentPlatform'] = var2;
+    return var1;
 })();

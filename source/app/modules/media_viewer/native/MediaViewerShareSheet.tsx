@@ -1,87 +1,87 @@
 // app/modules/media_viewer/native/MediaViewerShareSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.AnalyticsSections;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_viewer/native/MediaViewerShareSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: showShareActionSheetForSource
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot3 = var7;
+    var4 = var4.AnalyticsSections;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_viewer/native/MediaViewerShareSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function showShareActionSheetForSource(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.videoURI;
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.videoURI;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0001_ip = 33; continue _fun0001 }
  15:
-            zuuluu = entity.sourceURI;
-            if(!(michal == zuuluu)) { _fun00002_ip = 31; continue _fun00001 }
+            var3 = var1.sourceURI;
+            if(!(var2 == var3)) { _fun0001_ip = 31; continue _fun0001 }
  25:
-            zuuluu = entity.uri;
+            var3 = var1.uri;
  31:
-            _fun00002_ip = 39; continue _fun00001;
+            _fun0001_ip = 39; continue _fun0001;
  33:
-            zuuluu = entity.videoURI;
+            var3 = var1.videoURI;
  39:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 1;
-            tangon = report[entity];
-            entity = undefined;
-            tangon = golfie.bind(entity)(tangon);
-            oscard = tangon.useMediaViewerSessionManager;
-            tangon = oscard.getState;
-            oscard = tangon.bind(oscard)();
-            tangon = 2;
-            tangon = report[tangon];
-            option = golfie.bind(entity)(tangon);
-            golfie = option.showShareActionSheet;
-            tangon = {};
-            tangon['url'] = zuuluu;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.MEDIA_VIEWER;
-            zuuluu = golfie.bind(option)(tangon, zuuluu);
-            tangon = _closure1_slot1;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot3;
-            zuuluu = michal.MEDIA_VIEWER_SHARE_BUTTON_TAPPED;
-            michal = {};
-            golfie = oscard.guildId;
-            michal['guild_id'] = golfie;
-            golfie = oscard.channelId;
-            michal['channel_id'] = golfie;
-            oscard = oscard.channelType;
-            michal['channel_type'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 1;
+            var4 = var5[var1];
+            var1 = undefined;
+            var4 = var7.bind(var1)(var4);
+            var6 = var4.useMediaViewerSessionManager;
+            var4 = var6.getState;
+            var6 = var4.bind(var6)();
+            var4 = 2;
+            var4 = var5[var4];
+            var8 = var7.bind(var1)(var4);
+            var7 = var8.showShareActionSheet;
+            var4 = {};
+            var4['url'] = var3;
+            var3 = _closure1_slot4;
+            var3 = var3.MEDIA_VIEWER;
+            var3 = var7.bind(var8)(var4, var3);
+            var4 = _closure1_slot1;
+            var3 = 3;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var2 = _closure1_slot3;
+            var3 = var2.MEDIA_VIEWER_SHARE_BUTTON_TAPPED;
+            var2 = {};
+            var7 = var6.guildId;
+            var2['guild_id'] = var7;
+            var7 = var6.channelId;
+            var2['channel_id'] = var7;
+            var6 = var6.channelType;
+            var2['channel_type'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

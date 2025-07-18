@@ -1,325 +1,325 @@
 // app/modules/interaction_components/native/NativeSearchableSelectActionComponentUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    michal = function(argFoo, argBar) { // Original name: getChannelIconData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var2 = function getChannelIconData(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = report.type;
-            entity = _closure1_slot7;
-            entity = entity.GUILD_CATEGORY;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 64; continue _fun00001 }
+            var5 = arg1;
+            var3 = var5.type;
+            var1 = _closure1_slot7;
+            var1 = var1.GUILD_CATEGORY;
+            if(!(var3 !== var1)) { _fun0001_ip = 64; continue _fun0001 }
  25:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 13;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getChannelIconWithGuild;
-            entity = argBar;
-            entity = zuuluu.bind(tangon)(report, entity);
-            _fun00002_ip = 86; continue _fun00001;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 13;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getChannelIconWithGuild;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var5, var1);
+            _fun0001_ip = 86; continue _fun0001;
  64:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            michal = 12;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 12;
+            var3 = var3[var2];
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  86:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot9 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot6 = report;
-    report = 4;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.ChannelTypes;
-    var _closure1_slot7 = option;
-    report = report.DEFAULT_ROLE_COLOR;
-    var _closure1_slot8 = report;
-    report = 14;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/interaction_components/native/NativeSearchableSelectActionComponentUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo, argBar) { // Original name: transformSearchableSelectOptions
-        tangon = argFoo;
-        oscard = argBar;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot5;
-        zuuluu = report.getGuild;
-        zuuluu = zuuluu.bind(report)(oscard);
-        var _closure2_slot1 = zuuluu;
-        zuuluu = tangon.map;
-        michal = function(argFoo) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.ChannelTypes;
+    var _closure1_slot7 = var8;
+    var5 = var5.DEFAULT_ROLE_COLOR;
+    var _closure1_slot8 = var5;
+    var5 = 14;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/interaction_components/native/NativeSearchableSelectActionComponentUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function transformSearchableSelectOptions(arg1, arg2) {
+        var4 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot5;
+        var3 = var5.getGuild;
+        var3 = var3.bind(var5)(var6);
+        var _closure2_slot1 = var3;
+        var3 = var4.map;
+        var2 = function(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = argFoo;
-                michal = tangon.type;
-                oscard = _closure1_slot0;
-                entity = _closure1_slot2;
-                golfie = 5;
-                entity = entity[golfie];
-                report = undefined;
-                entity = oscard.bind(report)(entity);
-                entity = entity.SelectOptionType;
-                entity = entity.USER;
-                if(!(entity !== michal)) { _fun00004_ip = 725; continue _fun00003 }
+                var4 = arg1;
+                var2 = var4.type;
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var7 = 5;
+                var1 = var1[var7];
+                var5 = undefined;
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.SelectOptionType;
+                var1 = var1.USER;
+                if(!(var1 !== var2)) { _fun0002_ip = 725; continue _fun0002 }
  52:
-                oscard = _closure1_slot0;
-                entity = _closure1_slot2;
-                entity = entity[golfie];
-                entity = oscard.bind(report)(entity);
-                entity = entity.SelectOptionType;
-                entity = entity.ROLE;
-                if(!(entity !== michal)) { _fun00004_ip = 309; continue _fun00003 }
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.SelectOptionType;
+                var1 = var1.ROLE;
+                if(!(var1 !== var2)) { _fun0002_ip = 309; continue _fun0002 }
  88:
-                oscard = _closure1_slot0;
-                entity = _closure1_slot2;
-                entity = entity[golfie];
-                entity = oscard.bind(report)(entity);
-                entity = entity.SelectOptionType;
-                entity = entity.CHANNEL;
-                if(!(entity !== michal)) { _fun00004_ip = 125; continue _fun00003 }
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.SelectOptionType;
+                var1 = var1.CHANNEL;
+                if(!(var1 !== var2)) { _fun0002_ip = 125; continue _fun0002 }
  121:
-                entity = null;
-                return entity;
+                var1 = null;
+                return var1;
  125:
-                romeon = _closure2_slot1;
-                oscard = _closure1_slot3;
-                michal = oscard.getChannel;
-                entity = tangon.value;
-                yankee = michal.bind(oscard)(entity);
-                michal = null;
-                entity = tangon;
-                if(!(michal != yankee)) { _fun00004_ip = 307; continue _fun00003 }
+                var12 = _closure2_slot1;
+                var6 = _closure1_slot3;
+                var2 = var6.getChannel;
+                var1 = var4.value;
+                var11 = var2.bind(var6)(var1);
+                var2 = null;
+                var1 = var4;
+                if(!(var2 != var11)) { _fun0002_ip = 307; continue _fun0002 }
  163:
-                michal = {};
-                sizing = michal;
-                kiloes = tangon;
-                oscard = copyDataProperties(sizing, kiloes);
-                golfie = _closure1_slot0;
-                offset = _closure1_slot2;
-                oscard = 7;
-                oscard = offset[oscard];
-                verify = golfie.bind(report)(oscard);
-                option = verify.ensureAvatarSource;
-                oscard = _closure1_slot9;
-                oscard = oscard.bind(report)(yankee, romeon);
-                oscard = option.bind(verify)(oscard);
-                option = oscard.uri;
-                oscard = 'iconSrc';
-                michal[oscard] = option;
-                oscard = 10;
-                oscard = offset[oscard];
-                option = golfie.bind(report)(oscard);
-                golfie = option.hex2int;
-                verify = _closure1_slot1;
-                oscard = 11;
-                oscard = offset[oscard];
-                oscard = verify.bind(report)(oscard);
-                oscard = oscard.unsafe_rawColors;
-                oscard = oscard.PRIMARY_330;
-                golfie = golfie.bind(option)(oscard);
-                oscard = 4278190080.0;
-                golfie = oscard | golfie;
-                oscard = 'iconColor';
-                michal[oscard] = golfie;
-                entity = michal;
+                var2 = {};
+                var16 = var2;
+                var15 = var4;
+                var6 = copyDataProperties(var16, var15);
+                var7 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var6 = 7;
+                var6 = var10[var6];
+                var9 = var7.bind(var5)(var6);
+                var8 = var9.ensureAvatarSource;
+                var6 = _closure1_slot9;
+                var6 = var6.bind(var5)(var11, var12);
+                var6 = var8.bind(var9)(var6);
+                var8 = var6.uri;
+                var6 = 'iconSrc';
+                var2[var6] = var8;
+                var6 = 10;
+                var6 = var10[var6];
+                var8 = var7.bind(var5)(var6);
+                var7 = var8.hex2int;
+                var9 = _closure1_slot1;
+                var6 = 11;
+                var6 = var10[var6];
+                var6 = var9.bind(var5)(var6);
+                var6 = var6.unsafe_rawColors;
+                var6 = var6.PRIMARY_330;
+                var7 = var7.bind(var8)(var6);
+                var6 = 4278190080.0;
+                var7 = var6 | var7;
+                var6 = 'iconColor';
+                var2[var6] = var7;
+                var1 = var2;
  307:
-                return entity;
+                return var1;
  309:
-                option = _closure2_slot1;
-                offset = null;
-                entity = offset != option;
-                golfie = null;
-                if(!entity) { _fun00004_ip = 353; continue _fun00003 }
+                var8 = _closure2_slot1;
+                var10 = null;
+                var1 = var10 != var8;
+                var7 = null;
+                if(!var1) { _fun0002_ip = 353; continue _fun0002 }
  327:
-                verify = _closure1_slot4;
-                oscard = verify.getRole;
-                michal = option.id;
-                entity = tangon.value;
-                golfie = oscard.bind(verify)(michal, entity);
+                var9 = _closure1_slot4;
+                var6 = var9.getRole;
+                var2 = var8.id;
+                var1 = var4.value;
+                var7 = var6.bind(var9)(var2, var1);
  353:
-                entity = tangon;
-                if(!(offset != golfie)) { _fun00004_ip = 723; continue _fun00003 }
+                var1 = var4;
+                if(!(var10 != var7)) { _fun0002_ip = 723; continue _fun0002 }
  363:
-                entity = tangon;
-                if(!(offset != option)) { _fun00004_ip = 723; continue _fun00003 }
+                var1 = var4;
+                if(!(var10 != var8)) { _fun0002_ip = 723; continue _fun0002 }
  373:
-                oscard = _closure1_slot0;
-                michal = _closure1_slot2;
-                verify = 8;
-                michal = michal[verify];
-                oscard = oscard.bind(report)(michal);
-                michal = oscard.canGuildUseRoleIcons;
-                oscard = michal.bind(oscard)(option, golfie);
-                michal = null;
-                if(!oscard) { _fun00004_ip = 438; continue _fun00003 }
+                var6 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var9 = 8;
+                var2 = var2[var9];
+                var6 = var6.bind(var5)(var2);
+                var2 = var6.canGuildUseRoleIcons;
+                var6 = var2.bind(var6)(var8, var7);
+                var2 = null;
+                if(!var6) { _fun0002_ip = 438; continue _fun0002 }
  410:
-                option = _closure1_slot0;
-                oscard = _closure1_slot2;
-                oscard = oscard[verify];
-                option = option.bind(report)(oscard);
-                oscard = option.getRoleIconData;
-                michal = oscard.bind(option)(golfie);
+                var8 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var6 = var6[var9];
+                var8 = var8.bind(var5)(var6);
+                var6 = var8.getRoleIconData;
+                var2 = var6.bind(var8)(var7);
  438:
-                if(!(offset != michal)) { _fun00004_ip = 468; continue _fun00003 }
+                if(!(var10 != var2)) { _fun0002_ip = 468; continue _fun0002 }
  442:
-                option = michal.customIconSrc;
-                oscard = michal.unicodeEmoji;
-                if(!(offset == oscard)) { _fun00004_ip = 649; continue _fun00003 }
+                var8 = var2.customIconSrc;
+                var6 = var2.unicodeEmoji;
+                if(!(var10 == var6)) { _fun0002_ip = 649; continue _fun0002 }
  461:
-                if(!(offset == option)) { _fun00004_ip = 623; continue _fun00003 }
+                if(!(var10 == var8)) { _fun0002_ip = 623; continue _fun0002 }
  468:
-                michal = {};
-                sizing = michal;
-                kiloes = tangon;
-                verify = copyDataProperties(sizing, kiloes);
-                yankee = _closure1_slot0;
-                backup = _closure1_slot2;
-                verify = 7;
-                verify = backup[verify];
-                romeon = yankee.bind(report)(verify);
-                yankee = romeon.ensureAvatarSource;
-                foxtra = _closure1_slot1;
-                verify = 9;
-                verify = backup[verify];
-                verify = foxtra.bind(report)(verify);
-                verify = yankee.bind(romeon)(verify);
-                yankee = verify.uri;
-                verify = 'iconSrc';
-                michal[verify] = yankee;
-                verify = golfie.colorString;
-                if(!(offset == verify)) { _fun00004_ip = 558; continue _fun00003 }
+                var2 = {};
+                var16 = var2;
+                var15 = var4;
+                var9 = copyDataProperties(var16, var15);
+                var11 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var9 = 7;
+                var9 = var14[var9];
+                var12 = var11.bind(var5)(var9);
+                var11 = var12.ensureAvatarSource;
+                var13 = _closure1_slot1;
+                var9 = 9;
+                var9 = var14[var9];
+                var9 = var13.bind(var5)(var9);
+                var9 = var11.bind(var12)(var9);
+                var11 = var9.uri;
+                var9 = 'iconSrc';
+                var2[var9] = var11;
+                var9 = var7.colorString;
+                if(!(var10 == var9)) { _fun0002_ip = 558; continue _fun0002 }
  552:
-                verify = _closure1_slot8;
-                _fun00004_ip = 595; continue _fun00003;
+                var9 = _closure1_slot8;
+                _fun0002_ip = 595; continue _fun0002;
  558:
-                yankee = _closure1_slot0;
-                romeon = _closure1_slot2;
-                offset = 10;
-                offset = romeon[offset];
-                yankee = yankee.bind(report)(offset);
-                offset = yankee.hex2int;
-                golfie = golfie.colorString;
-                verify = offset.bind(yankee)(golfie);
+                var11 = _closure1_slot0;
+                var12 = _closure1_slot2;
+                var10 = 10;
+                var10 = var12[var10];
+                var11 = var11.bind(var5)(var10);
+                var10 = var11.hex2int;
+                var7 = var7.colorString;
+                var9 = var10.bind(var11)(var7);
  595:
-                golfie = 4278190080.0;
-                verify = golfie | verify;
-                golfie = 'iconColor';
-                michal[golfie] = verify;
-                entity = michal;
-                _fun00004_ip = 723; continue _fun00003;
+                var7 = 4278190080.0;
+                var9 = var7 | var9;
+                var7 = 'iconColor';
+                var2[var7] = var9;
+                var1 = var2;
+                _fun0002_ip = 723; continue _fun0002;
  623:
-                michal = {};
-                sizing = michal;
-                kiloes = tangon;
-                golfie = copyDataProperties(sizing, kiloes);
-                golfie = 'iconSrc';
-                michal[golfie] = option;
-                entity = michal;
-                _fun00004_ip = 723; continue _fun00003;
+                var2 = {};
+                var16 = var2;
+                var15 = var4;
+                var7 = copyDataProperties(var16, var15);
+                var7 = 'iconSrc';
+                var2[var7] = var8;
+                var1 = var2;
+                _fun0002_ip = 723; continue _fun0002;
  649:
-                michal = {};
-                sizing = michal;
-                kiloes = tangon;
-                golfie = copyDataProperties(sizing, kiloes);
-                golfie = {};
-                option = oscard.id;
-                golfie['id'] = option;
-                option = oscard.name;
-                golfie['name'] = option;
-                option = oscard.animated;
-                golfie['animated'] = option;
-                option = oscard.url;
-                golfie['src'] = option;
-                oscard = oscard.surrogates;
-                golfie['surrogates'] = oscard;
-                oscard = 'iconEmoji';
-                michal[oscard] = golfie;
-                entity = michal;
+                var2 = {};
+                var16 = var2;
+                var15 = var4;
+                var7 = copyDataProperties(var16, var15);
+                var7 = {};
+                var8 = var6.id;
+                var7['id'] = var8;
+                var8 = var6.name;
+                var7['name'] = var8;
+                var8 = var6.animated;
+                var7['animated'] = var8;
+                var8 = var6.url;
+                var7['src'] = var8;
+                var6 = var6.surrogates;
+                var7['surrogates'] = var6;
+                var6 = 'iconEmoji';
+                var2[var6] = var7;
+                var1 = var2;
  723:
-                return entity;
+                return var1;
  725:
-                option = _closure2_slot0;
-                oscard = _closure1_slot6;
-                michal = oscard.getUser;
-                entity = tangon.value;
-                golfie = michal.bind(oscard)(entity);
-                michal = null;
-                entity = tangon;
-                if(!(michal != golfie)) { _fun00004_ip = 836; continue _fun00003 }
+                var8 = _closure2_slot0;
+                var6 = _closure1_slot6;
+                var2 = var6.getUser;
+                var1 = var4.value;
+                var7 = var2.bind(var6)(var1);
+                var2 = null;
+                var1 = var4;
+                if(!(var2 != var7)) { _fun0002_ip = 836; continue _fun0002 }
  761:
-                michal = {};
-                sizing = michal;
-                kiloes = tangon;
-                tangon = copyDataProperties(sizing, kiloes);
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 7;
-                zuuluu = oscard[zuuluu];
-                report = tangon.bind(report)(zuuluu);
-                tangon = report.ensureAvatarSource;
-                oscard = golfie.getAvatarSource;
-                zuuluu = false;
-                zuuluu = oscard.bind(golfie)(option, zuuluu);
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = zuuluu.uri;
-                zuuluu = 'iconSrc';
-                michal[zuuluu] = tangon;
-                entity = michal;
+                var2 = {};
+                var16 = var2;
+                var15 = var4;
+                var4 = copyDataProperties(var16, var15);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 7;
+                var3 = var6[var3];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.ensureAvatarSource;
+                var6 = var7.getAvatarSource;
+                var3 = false;
+                var3 = var6.bind(var7)(var8, var3);
+                var3 = var4.bind(var5)(var3);
+                var4 = var3.uri;
+                var3 = 'iconSrc';
+                var2[var3] = var4;
+                var1 = var2;
  836:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.filter;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        entity = 6;
-        tangon = tangon[entity];
-        entity = undefined;
-        entity = report.bind(entity)(tangon);
-        entity = entity.isNotNullish;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.filter;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 6;
+        var4 = var4[var1];
+        var1 = undefined;
+        var1 = var5.bind(var1)(var4);
+        var1 = var1.isNotNullish;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['transformSearchableSelectOptions'] = tangon;
-    zuuluu['getChannelIconData'] = michal;
-    return entity;
+    var3['transformSearchableSelectOptions'] = var4;
+    var3['getChannelIconData'] = var2;
+    return var1;
 })();

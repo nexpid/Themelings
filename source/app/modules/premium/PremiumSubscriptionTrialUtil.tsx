@@ -1,234 +1,234 @@
 // app/modules/premium/PremiumSubscriptionTrialUtil.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
-    var _closure1_slot5 = golfie;
-    golfie = tangon.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
-    var _closure1_slot6 = golfie;
-    golfie = tangon.PREMIUM_TIER_2_3P_ONE_MONTH_TRIAL_ID;
-    var _closure1_slot7 = golfie;
-    golfie = tangon.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
-    var _closure1_slot8 = golfie;
-    tangon = tangon.PREMIUM_TRIAL_IDS_ALL;
-    var _closure1_slot9 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/PremiumSubscriptionTrialUtil.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PREMIUM_TIER_2_LIKELIHOOD_TRIAL_ID;
+    var _closure1_slot5 = var7;
+    var7 = var4.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
+    var _closure1_slot6 = var7;
+    var7 = var4.PREMIUM_TIER_2_3P_ONE_MONTH_TRIAL_ID;
+    var _closure1_slot7 = var7;
+    var7 = var4.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
+    var _closure1_slot8 = var7;
+    var4 = var4.PREMIUM_TRIAL_IDS_ALL;
+    var _closure1_slot9 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/PremiumSubscriptionTrialUtil.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 4;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
-            zuuluu = tangon.useStateFromStores;
-            entity = _closure1_slot3;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getPremiumTypeSubscription;
-                entity = entity.bind(michal)();
-                return entity;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 4;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.useStateFromStores;
+            var1 = _closure1_slot3;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getPremiumTypeSubscription;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = null;
-            entity = entity == michal;
-            if(entity) { _fun00002_ip = 73; continue _fun00001 }
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = null;
+            var1 = var1 == var2;
+            if(var1) { _fun0001_ip = 73; continue _fun0001 }
  64:
-            michal = michal.hasActiveTrial;
-            entity = !michal;
+            var2 = var2.hasActiveTrial;
+            var1 = !var2;
  73:
-            entity = !entity;
-            return entity;
+            var1 = !var1;
+            return var1;
         }
     };
-    zuuluu['useHasActiveTrial'] = tangon;
-    tangon = function() {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useHasActiveTrial'] = var4;
+    var4 = function() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot3;
-            entity = michal.getPremiumTypeSubscription;
-            zuuluu = entity.bind(michal)();
-            michal = null;
-            tangon = michal == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00004_ip = 34; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var1 = var2.getPremiumTypeSubscription;
+            var3 = var1.bind(var2)();
+            var2 = null;
+            var4 = var2 == var3;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 34; continue _fun0002 }
  28:
-            entity = zuuluu.trialId;
+            var1 = var3.trialId;
  34:
-            entity = michal != entity;
-            return entity;
+            var1 = var2 != var1;
+            return var1;
         }
     };
-    zuuluu['hasActiveTrial'] = tangon;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['hasActiveTrial'] = var4;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            michal = null;
-            zuuluu = michal == tangon;
-            entity = undefined;
-            if(zuuluu) { _fun00006_ip = 20; continue _fun00005 }
+            var4 = arg1;
+            var2 = null;
+            var3 = var2 == var4;
+            var1 = undefined;
+            if(var3) { _fun0003_ip = 20; continue _fun0003 }
  14:
-            entity = tangon.trialId;
+            var1 = var4.trialId;
  20:
-            entity = michal != entity;
-            if(!entity) { _fun00006_ip = 98; continue _fun00005 }
+            var1 = var2 != var1;
+            if(!var1) { _fun0003_ip = 98; continue _fun0003 }
  27:
-            report = tangon.trialId;
-            michal = _closure1_slot5;
-            michal = report === michal;
-            if(michal) { _fun00006_ip = 61; continue _fun00005 }
+            var5 = var4.trialId;
+            var2 = _closure1_slot5;
+            var2 = var5 === var2;
+            if(var2) { _fun0003_ip = 61; continue _fun0003 }
  47:
-            oscard = tangon.trialId;
-            report = _closure1_slot6;
-            michal = oscard === report;
+            var6 = var4.trialId;
+            var5 = _closure1_slot6;
+            var2 = var6 === var5;
  61:
-            if(michal) { _fun00006_ip = 78; continue _fun00005 }
+            if(var2) { _fun0003_ip = 78; continue _fun0003 }
  64:
-            oscard = tangon.trialId;
-            report = _closure1_slot7;
-            michal = oscard === report;
+            var6 = var4.trialId;
+            var5 = _closure1_slot7;
+            var2 = var6 === var5;
  78:
-            if(michal) { _fun00006_ip = 95; continue _fun00005 }
+            if(var2) { _fun0003_ip = 95; continue _fun0003 }
  81:
-            tangon = tangon.trialId;
-            zuuluu = _closure1_slot8;
-            michal = tangon === zuuluu;
+            var4 = var4.trialId;
+            var3 = _closure1_slot8;
+            var2 = var4 === var3;
  95:
-            entity = michal;
+            var1 = var2;
  98:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleTrialSub'] = tangon;
-    tangon = function() { // Original name: useCurrentPremiumTrialTier
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isEligibleTrialSub'] = var4;
+    var4 = function useCurrentPremiumTrialTier() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            tangon = 4;
-            report = golfie[tangon];
-            michal = undefined;
-            offset = oscard.bind(michal)(report);
-            verify = offset.useStateFromStores;
-            report = _closure1_slot3;
-            option = new Array(1);
-            option[0] = report;
-            report = function() {
-                michal = _closure1_slot3;
-                entity = michal.getPremiumTypeSubscription;
-                entity = entity.bind(michal)();
-                return entity;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var4 = 4;
+            var5 = var7[var4];
+            var2 = undefined;
+            var10 = var6.bind(var2)(var5);
+            var9 = var10.useStateFromStores;
+            var5 = _closure1_slot3;
+            var8 = new Array(1);
+            var8[0] = var5;
+            var5 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getPremiumTypeSubscription;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            report = verify.bind(offset)(option, report);
-            tangon = golfie[tangon];
-            oscard = oscard.bind(michal)(tangon);
-            tangon = oscard.useStateFromStores;
-            golfie = _closure1_slot2;
-            zuuluu = new Array(1);
-            zuuluu[0] = golfie;
-            entity = function() {
-                michal = _closure1_slot2;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var5 = var9.bind(var10)(var8, var5);
+            var4 = var7[var4];
+            var6 = var6.bind(var2)(var4);
+            var4 = var6.useStateFromStores;
+            var7 = _closure1_slot2;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var1 = function() {
+                var2 = _closure1_slot2;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = tangon.bind(oscard)(zuuluu, entity);
-            tangon = null;
-            oscard = tangon != report;
-            entity = null;
-            if(!oscard) { _fun00008_ip = 132; continue _fun00007 }
+            var3 = var4.bind(var6)(var3, var1);
+            var4 = null;
+            var6 = var4 != var5;
+            var1 = null;
+            if(!var6) { _fun0004_ip = 132; continue _fun0004 }
  103:
-            report = report.hasActiveTrial;
-            entity = null;
-            if(!report) { _fun00008_ip = 132; continue _fun00007 }
+            var5 = var5.hasActiveTrial;
+            var1 = null;
+            if(!var5) { _fun0004_ip = 132; continue _fun0004 }
  114:
-            tangon = tangon == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00008_ip = 129; continue _fun00007 }
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0004_ip = 129; continue _fun0004 }
  123:
-            michal = zuuluu.premiumType;
+            var2 = var3.premiumType;
  129:
-            entity = michal;
+            var1 = var2;
  132:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useCurrentPremiumTrialTier'] = tangon;
-    michal = function() { // Original name: getPremiumTrialOffer
-        tangon = _closure1_slot9;
-        zuuluu = tangon.map;
-        michal = function(argFoo) {
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.getUserTrialOffer;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['useCurrentPremiumTrialTier'] = var4;
+    var2 = function getPremiumTrialOffer() {
+        var4 = _closure1_slot9;
+        var3 = var4.map;
+        var2 = function(arg1) {
+            var3 = _closure1_slot4;
+            var2 = var3.getUserTrialOffer;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.filter;
-        entity = function(argFoo) {
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.filter;
+        var1 = function(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = argFoo;
-                entity = null;
-                entity = entity != tangon;
-                if(!entity) { _fun00010_ip = 51; continue _fun00009 }
+                var4 = arg1;
+                var1 = null;
+                var1 = var1 != var4;
+                if(!var1) { _fun0005_ip = 51; continue _fun0005 }
  12:
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                michal = 5;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                michal = zuuluu.hasUserTrialOfferExpired;
-                michal = michal.bind(zuuluu)(tangon);
-                entity = !michal;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 5;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var2 = var3.hasUserTrialOfferExpired;
+                var2 = var2.bind(var3)(var4);
+                var1 = !var2;
  51:
-                return entity;
+                return var1;
             }
         };
-        michal = michal.bind(zuuluu)(entity);
-        entity = michal.shift;
-        entity = entity.bind(michal)();
-        return entity;
+        var2 = var2.bind(var3)(var1);
+        var1 = var2.shift;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    zuuluu['getPremiumTrialOffer'] = michal;
-    return entity;
+    var3['getPremiumTrialOffer'] = var2;
+    return var1;
 })();

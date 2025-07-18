@@ -1,171 +1,171 @@
 // app/modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildSettingsSections;
-    var _closure1_slot3 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useGuildRoleSubscriptionsWaitlistConfig
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildSettingsSections;
+    var _closure1_slot3 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/feature_gating/useGuildRoleSubscriptionsWaitlistConfig.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildRoleSubscriptionsWaitlistConfig(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            var _closure2_slot0 = tangon;
-            oscard = _closure1_slot0;
-            entity = _closure1_slot2;
-            golfie = 1;
-            report = entity[golfie];
-            option = undefined;
-            verify = oscard.bind(option)(report);
-            report = verify.useGuildRoleSubscriptionSettingsVisibility;
-            report = report.bind(verify)(tangon);
-            entity = entity[golfie];
-            entity = oscard.bind(option)(entity);
-            entity = entity.GuildRoleSubscriptionSettingsVisibility;
-            entity = entity.NEEDS_COMMUNITY;
-            if(!(entity !== report)) { _fun00002_ip = 249; continue _fun00001 }
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var7 = 1;
+            var5 = var1[var7];
+            var8 = undefined;
+            var9 = var6.bind(var8)(var5);
+            var5 = var9.useGuildRoleSubscriptionSettingsVisibility;
+            var5 = var5.bind(var9)(var4);
+            var1 = var1[var7];
+            var1 = var6.bind(var8)(var1);
+            var1 = var1.GuildRoleSubscriptionSettingsVisibility;
+            var1 = var1.NEEDS_COMMUNITY;
+            if(!(var1 !== var5)) { _fun0001_ip = 249; continue _fun0001 }
  73:
-            oscard = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[golfie];
-            entity = oscard.bind(option)(entity);
-            entity = entity.GuildRoleSubscriptionSettingsVisibility;
-            entity = entity.WAITLIST_ONLY;
-            if(!(entity !== report)) { _fun00002_ip = 108; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var7];
+            var1 = var6.bind(var8)(var1);
+            var1 = var1.GuildRoleSubscriptionSettingsVisibility;
+            var1 = var1.WAITLIST_ONLY;
+            if(!(var1 !== var5)) { _fun0001_ip = 108; continue _fun0001 }
  106:
-            return option;
+            return var8;
  108:
-            entity = {};
-            entity['visibility'] = report;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            oscard = 2;
-            golfie = yankee[oscard];
-            golfie = offset.bind(option)(golfie);
-            romeon = golfie.intl;
-            verify = romeon.string;
-            golfie = yankee[oscard];
-            golfie = offset.bind(option)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.5vz88P;
-            golfie = verify.bind(romeon)(golfie);
-            entity['noticeText'] = golfie;
-            golfie = yankee[oscard];
-            golfie = offset.bind(option)(golfie);
-            verify = golfie.intl;
-            golfie = verify.string;
-            oscard = yankee[oscard];
-            oscard = offset.bind(option)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.6yjvmp;
-            oscard = golfie.bind(verify)(oscard);
-            entity['ctaLabel'] = oscard;
-            oscard = true;
-            entity['ctaClickable'] = oscard;
-            oscard = function() { // Original name: onCtaClicked
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 5;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = 'https://dis.gd/creators-waitlist';
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var1 = {};
+            var1['visibility'] = var5;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 2;
+            var7 = var11[var6];
+            var7 = var10.bind(var8)(var7);
+            var12 = var7.intl;
+            var9 = var12.string;
+            var7 = var11[var6];
+            var7 = var10.bind(var8)(var7);
+            var7 = var7.t;
+            var7 = var7.5vz88P;
+            var7 = var9.bind(var12)(var7);
+            var1['noticeText'] = var7;
+            var7 = var11[var6];
+            var7 = var10.bind(var8)(var7);
+            var9 = var7.intl;
+            var7 = var9.string;
+            var6 = var11[var6];
+            var6 = var10.bind(var8)(var6);
+            var6 = var6.t;
+            var6 = var6.6yjvmp;
+            var6 = var7.bind(var9)(var6);
+            var1['ctaLabel'] = var6;
+            var6 = true;
+            var1['ctaClickable'] = var6;
+            var6 = function onCtaClicked() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = 'https://dis.gd/creators-waitlist';
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity['onCtaClicked'] = oscard;
-            return entity;
+            var1['onCtaClicked'] = var6;
+            return var1;
  249:
-            entity = {};
-            entity['visibility'] = report;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 2;
-            report = verify[zuuluu];
-            report = golfie.bind(option)(report);
-            offset = report.intl;
-            oscard = offset.string;
-            report = verify[zuuluu];
-            report = golfie.bind(option)(report);
-            report = report.t;
-            report = report.0Z2Qxs;
-            report = oscard.bind(offset)(report);
-            entity['noticeText'] = report;
-            report = verify[zuuluu];
-            report = golfie.bind(option)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            zuuluu = verify[zuuluu];
-            zuuluu = golfie.bind(option)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.BOJpl5;
-            zuuluu = report.bind(oscard)(zuuluu);
-            entity['ctaLabel'] = zuuluu;
-            zuuluu = null;
-            zuuluu = zuuluu != tangon;
-            entity['ctaClickable'] = zuuluu;
-            michal = function() { // Original name: onCtaClicked
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1 = {};
+            var1['visibility'] = var5;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 2;
+            var5 = var9[var3];
+            var5 = var7.bind(var8)(var5);
+            var10 = var5.intl;
+            var6 = var10.string;
+            var5 = var9[var3];
+            var5 = var7.bind(var8)(var5);
+            var5 = var5.t;
+            var5 = var5.0Z2Qxs;
+            var5 = var6.bind(var10)(var5);
+            var1['noticeText'] = var5;
+            var5 = var9[var3];
+            var5 = var7.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var3 = var9[var3];
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.t;
+            var3 = var3.BOJpl5;
+            var3 = var5.bind(var6)(var3);
+            var1['ctaLabel'] = var3;
+            var3 = null;
+            var3 = var3 != var4;
+            var1['ctaClickable'] = var3;
+            var2 = function onCtaClicked() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    entity = 3;
-                    zuuluu = option[entity];
-                    entity = undefined;
-                    offset = report.bind(entity)(zuuluu);
-                    oscard = _closure2_slot0;
-                    zuuluu = null;
-                    verify = zuuluu != oscard;
-                    tangon = 'Guild must be not null open COMMUNITY settings';
-                    tangon = offset.bind(entity)(verify, tangon);
-                    tangon = 4;
-                    tangon = option[tangon];
-                    report = report.bind(entity)(tangon);
-                    tangon = report.open;
-                    option = zuuluu == oscard;
-                    oscard = undefined;
-                    if(option) { _fun00004_ip = 86; continue _fun00003 }
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var1 = 3;
+                    var3 = var8[var1];
+                    var1 = undefined;
+                    var10 = var5.bind(var1)(var3);
+                    var6 = _closure2_slot0;
+                    var3 = null;
+                    var9 = var3 != var6;
+                    var4 = 'Guild must be not null open COMMUNITY settings';
+                    var4 = var10.bind(var1)(var9, var4);
+                    var4 = 4;
+                    var4 = var8[var4];
+                    var5 = var5.bind(var1)(var4);
+                    var4 = var5.open;
+                    var8 = var3 == var6;
+                    var6 = undefined;
+                    if(var8) { _fun0002_ip = 86; continue _fun0002 }
  77:
-                    golfie = _closure2_slot0;
-                    oscard = golfie.id;
+                    var7 = _closure2_slot0;
+                    var6 = var7.id;
  86:
-                    golfie = zuuluu != oscard;
-                    zuuluu = '';
-                    if(!golfie) { _fun00004_ip = 100; continue _fun00003 }
+                    var7 = var3 != var6;
+                    var3 = '';
+                    if(!var7) { _fun0002_ip = 100; continue _fun0002 }
  97:
-                    zuuluu = oscard;
+                    var3 = var6;
  100:
-                    michal = _closure1_slot3;
-                    michal = michal.COMMUNITY;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    return entity;
+                    var2 = _closure1_slot3;
+                    var2 = var2.COMMUNITY;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
                 }
             };
-            entity['onCtaClicked'] = michal;
-            return entity;
+            var1['onCtaClicked'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

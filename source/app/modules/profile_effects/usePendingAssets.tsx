@@ -1,118 +1,118 @@
 // app/modules/profile_effects/usePendingAssets.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    oscard = report[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/profile_effects/usePendingAssets.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: _default
-        report = argFoo;
-        option = argBar;
-        var _closure2_slot0 = report;
-        var _closure2_slot1 = option;
-        golfie = _closure1_slot1;
-        zuuluu = golfie.useState;
-        oscard = -1;
-        verify = zuuluu.bind(golfie)(oscard);
-        tangon = _closure1_slot0;
-        zuuluu = undefined;
-        michal = 2;
-        zuuluu = tangon.bind(zuuluu)(verify, michal);
-        michal = 0;
-        tangon = zuuluu[michal];
-        var _closure2_slot2 = tangon;
-        michal = 1;
-        michal = zuuluu[michal];
-        var _closure2_slot3 = michal;
-        zuuluu = golfie.useRef;
-        zuuluu = zuuluu.bind(golfie)(oscard);
-        var _closure2_slot4 = zuuluu;
-        verify = golfie.useEffect;
-        oscard = new Array(3);
-        oscard[0] = report;
-        oscard[1] = zuuluu;
-        oscard[2] = michal;
-        report = function() {
-            report = _closure2_slot0;
-            tangon = report.reduce;
-            michal = function(argFoo, argBar) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var6 = var5[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/profile_effects/usePendingAssets.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1, arg2) {
+        var5 = arg1;
+        var8 = arg2;
+        var _closure2_slot0 = var5;
+        var _closure2_slot1 = var8;
+        var7 = _closure1_slot1;
+        var3 = var7.useState;
+        var6 = -1;
+        var9 = var3.bind(var7)(var6);
+        var4 = _closure1_slot0;
+        var3 = undefined;
+        var2 = 2;
+        var3 = var4.bind(var3)(var9, var2);
+        var2 = 0;
+        var4 = var3[var2];
+        var _closure2_slot2 = var4;
+        var2 = 1;
+        var2 = var3[var2];
+        var _closure2_slot3 = var2;
+        var3 = var7.useRef;
+        var3 = var3.bind(var7)(var6);
+        var _closure2_slot4 = var3;
+        var9 = var7.useEffect;
+        var6 = new Array(3);
+        var6[0] = var5;
+        var6[1] = var3;
+        var6[2] = var2;
+        var5 = function() {
+            var5 = _closure2_slot0;
+            var4 = var5.reduce;
+            var2 = function(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    entity = argFoo;
-                    michal = argBar;
-                    tangon = entity.includes;
-                    zuuluu = michal.src;
-                    zuuluu = tangon.bind(entity)(zuuluu);
-                    if(zuuluu) { _fun00002_ip = 41; continue _fun00001 }
+                    var1 = arg1;
+                    var2 = arg2;
+                    var4 = var1.includes;
+                    var3 = var2.src;
+                    var3 = var4.bind(var1)(var3);
+                    if(var3) { _fun0001_ip = 41; continue _fun0001 }
  25:
-                    zuuluu = entity.push;
-                    michal = michal.src;
-                    michal = zuuluu.bind(entity)(michal);
+                    var3 = var1.push;
+                    var2 = var2.src;
+                    var2 = var3.bind(var1)(var2);
  41:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = new Array(0);
-            michal = tangon.bind(report)(michal, entity);
-            report = _closure2_slot3;
-            tangon = michal.length;
-            entity = undefined;
-            tangon = report.bind(entity)(tangon);
-            zuuluu = _closure2_slot4;
-            michal = michal.length;
-            zuuluu['current'] = michal;
-            return entity;
+            var1 = new Array(0);
+            var2 = var4.bind(var5)(var2, var1);
+            var5 = _closure2_slot3;
+            var4 = var2.length;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var4);
+            var3 = _closure2_slot4;
+            var2 = var2.length;
+            var3['current'] = var2;
+            return var1;
         };
-        report = verify.bind(golfie)(report, oscard);
-        oscard = golfie.useEffect;
-        report = new Array(2);
-        report[0] = tangon;
-        report[1] = option;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5 = var9.bind(var7)(var5, var6);
+        var6 = var7.useEffect;
+        var5 = new Array(2);
+        var5[0] = var4;
+        var5[1] = var8;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure2_slot2;
-                michal = 0;
-                if(!(michal === zuuluu)) { _fun00004_ip = 23; continue _fun00003 }
+                var3 = _closure2_slot2;
+                var2 = 0;
+                if(!(var2 === var3)) { _fun0002_ip = 23; continue _fun0002 }
  13:
-                michal = _closure2_slot1;
-                entity = undefined;
-                entity = michal.bind(entity)();
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
  23:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity = oscard.bind(golfie)(entity, report);
-        entity = {};
-        entity['pending'] = tangon;
-        entity['pendingRef'] = zuuluu;
-        entity['setPending'] = michal;
-        return entity;
+        var1 = var6.bind(var7)(var1, var5);
+        var1 = {};
+        var1['pending'] = var4;
+        var1['pendingRef'] = var3;
+        var1['setPending'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

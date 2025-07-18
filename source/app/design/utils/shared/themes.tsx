@@ -1,59 +1,59 @@
 // app/design/utils/shared/themes.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ThemeTypes;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/utils/shared/themes.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: isThemeLight
-        entity = _closure1_slot0;
-        michal = entity.LIGHT;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/utils/shared/themes.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isThemeLight(arg1) {
+        var1 = _closure1_slot0;
+        var2 = var1.LIGHT;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    zuuluu['isThemeLight'] = tangon;
-    michal = function(argFoo) { // Original name: isThemeDark
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['isThemeLight'] = var4;
+    var2 = function isThemeDark(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu.DARK;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
+            var2 = arg1;
+            var3 = _closure1_slot0;
+            var3 = var3.DARK;
+            if(!(var3 !== var2)) { _fun0001_ip = 52; continue _fun0001 }
  20:
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu.MIDNIGHT;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var3 = var3.MIDNIGHT;
+            if(!(var3 !== var2)) { _fun0001_ip = 52; continue _fun0001 }
  34:
-            entity = _closure1_slot0;
-            entity = entity.DARKER;
-            if(!(entity !== michal)) { _fun00002_ip = 52; continue _fun00001 }
+            var1 = _closure1_slot0;
+            var1 = var1.DARKER;
+            if(!(var1 !== var2)) { _fun0001_ip = 52; continue _fun0001 }
  48:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  52:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    zuuluu['isThemeDark'] = michal;
-    return entity;
+    var3['isThemeDark'] = var2;
+    return var1;
 })();

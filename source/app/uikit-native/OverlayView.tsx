@@ -1,115 +1,115 @@
 // app/uikit-native/OverlayView.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        zuuluu = argFre;
-        option = argPlu;
-        entity = global;
-        oscard = entity.Object;
-        report = oscard.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(oscard)(zuuluu, entity, michal);
-        entity = 0;
-        report = option[entity];
-        michal = argCor;
-        entity = undefined;
-        michal = michal.bind(entity)(report);
-        michal = 1;
-        michal = option[michal];
-        report = golfie.bind(entity)(michal);
-        michal = report.View;
-        var _closure1_slot0 = michal;
-        report = report.StyleSheet;
-        var _closure1_slot1 = report;
-        report = 2;
-        report = option[report];
-        report = golfie.bind(entity)(report);
-        report = report.jsx;
-        var _closure1_slot2 = report;
-        oscard = 3;
-        report = option[oscard];
-        verify = golfie.bind(entity)(report);
-        report = verify.isIOS;
-        verify = report.bind(verify)();
-        report = michal;
-        if(!verify) { _fun00002_ip = 157; continue _fun00001 }
+        var7 = native2;
+        var3 = native6;
+        var8 = native7;
+        var1 = global;
+        var6 = var1.Object;
+        var5 = var6.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var6)(var3, var1, var2);
+        var1 = 0;
+        var5 = var8[var1];
+        var2 = native4;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var5);
+        var2 = 1;
+        var2 = var8[var2];
+        var5 = var7.bind(var1)(var2);
+        var2 = var5.View;
+        var _closure1_slot0 = var2;
+        var5 = var5.StyleSheet;
+        var _closure1_slot1 = var5;
+        var5 = 2;
+        var5 = var8[var5];
+        var5 = var7.bind(var1)(var5);
+        var5 = var5.jsx;
+        var _closure1_slot2 = var5;
+        var6 = 3;
+        var5 = var8[var6];
+        var9 = var7.bind(var1)(var5);
+        var5 = var9.isIOS;
+        var9 = var5.bind(var9)();
+        var5 = var2;
+        if(!var9) { _fun0001_ip = 157; continue _fun0001 }
  139:
-        verify = 4;
-        verify = option[verify];
-        verify = golfie.bind(entity)(verify);
-        report = verify.FullWindowOverlay;
+        var9 = 4;
+        var9 = var8[var9];
+        var9 = var7.bind(var1)(var9);
+        var5 = var9.FullWindowOverlay;
  157:
-        var _closure1_slot3 = report;
-        oscard = option[oscard];
-        verify = golfie.bind(entity)(oscard);
-        oscard = verify.isIOS;
-        oscard = oscard.bind(verify)();
-        if(!oscard) { _fun00002_ip = 198; continue _fun00001 }
+        var _closure1_slot3 = var5;
+        var6 = var8[var6];
+        var9 = var7.bind(var1)(var6);
+        var6 = var9.isIOS;
+        var6 = var6.bind(var9)();
+        if(!var6) { _fun0001_ip = 198; continue _fun0001 }
  183:
-        oscard = 5;
-        verify = option[oscard];
-        oscard = argBaz;
-        michal = oscard.bind(entity)(verify);
+        var6 = 5;
+        var9 = var8[var6];
+        var6 = native3;
+        var2 = var6.bind(var1)(var9);
  198:
-        oscard = 6;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'uikit-native/OverlayView.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['default'] = report;
-        tangon = function(argFoo) { // Original name: TransitionGroupOverlayView
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = 6;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'uikit-native/OverlayView.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['default'] = var5;
+        var4 = function TransitionGroupOverlayView(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                option = zuuluu.children;
-                tangon = null;
-                michal = Object.create(tangon);
-                report = 0;
-                michal['children'] = report;
-                yankee = {};
-                offset = zuuluu;
-                verify = michal;
-                michal = copyDataProperties(yankee, offset, verify);
-                entity = global;
-                zuuluu = entity.Array;
-                entity = zuuluu.isArray;
-                zuuluu = entity.bind(zuuluu)(option);
-                entity = null;
-                if(!zuuluu) { _fun00004_ip = 138; continue _fun00003 }
+                var3 = arg1;
+                var8 = var3.children;
+                var4 = null;
+                var2 = Object.create(var4);
+                var5 = 0;
+                var2['children'] = var5;
+                var11 = {};
+                var10 = var3;
+                var9 = var2;
+                var2 = copyDataProperties(var11, var10, var9);
+                var1 = global;
+                var3 = var1.Array;
+                var1 = var3.isArray;
+                var3 = var1.bind(var3)(var8);
+                var1 = null;
+                if(!var3) { _fun0002_ip = 138; continue _fun0002 }
  54:
-                zuuluu = option.length;
-                zuuluu = zuuluu > report;
-                entity = null;
-                if(!zuuluu) { _fun00004_ip = 138; continue _fun00003 }
+                var3 = var8.length;
+                var3 = var3 > var5;
+                var1 = null;
+                if(!var3) { _fun0002_ip = 138; continue _fun0002 }
  68:
-                report = _closure1_slot2;
-                tangon = _closure1_slot3;
-                zuuluu = {};
-                golfie = _closure1_slot1;
-                golfie = golfie.absoluteFill;
-                zuuluu['style'] = golfie;
-                golfie = _closure1_slot0;
-                oscard = {};
-                yankee = oscard;
-                offset = michal;
-                michal = copyDataProperties(yankee, offset);
-                michal = 'children';
-                oscard[michal] = option;
-                michal = undefined;
-                oscard = report.bind(michal)(golfie, oscard);
-                zuuluu['children'] = oscard;
-                entity = report.bind(michal)(tangon, zuuluu);
+                var5 = _closure1_slot2;
+                var4 = _closure1_slot3;
+                var3 = {};
+                var7 = _closure1_slot1;
+                var7 = var7.absoluteFill;
+                var3['style'] = var7;
+                var7 = _closure1_slot0;
+                var6 = {};
+                var11 = var6;
+                var10 = var2;
+                var2 = copyDataProperties(var11, var10);
+                var2 = 'children';
+                var6[var2] = var8;
+                var2 = undefined;
+                var6 = var5.bind(var2)(var7, var6);
+                var3['children'] = var6;
+                var1 = var5.bind(var2)(var4, var3);
  138:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['TransitionGroupOverlayView'] = tangon;
-        zuuluu['NonExpandingOverlayView'] = michal;
-        return entity;
+        var3['TransitionGroupOverlayView'] = var4;
+        var3['NonExpandingOverlayView'] = var2;
+        return var1;
     }
 })();

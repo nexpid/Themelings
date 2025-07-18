@@ -1,384 +1,384 @@
 // app/modules/polls/PollUploadAttachmentActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _handlePollGifAttachmentAdd
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _handlePollGifAttachmentAdd() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    kiloes = argBar;
-                    backup = argBaz;
+                    var15 = arg2;
+                    var14 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 487; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 487; continue _fun0001 }
  16:
-                    yankee = argFoo;
-                    golfie = kiloes;
-                    zuuluu = backup;
-                    michal = undefined;
-                    option = undefined;
-                    tangon = undefined;
-                    oscard = undefined;
-                    verify = undefined;
-                    foxtra = _closure1_slot0;
-                    romeon = _closure1_slot2;
-                    report = 3;
-                    romeon = romeon[report];
-                    foxtra = foxtra.bind(michal)(romeon);
-                    romeon = foxtra.getFileNameFromGifUrl;
-                    option = romeon.bind(foxtra)(kiloes, backup);
+                    var11 = arg1;
+                    var7 = var15;
+                    var3 = var14;
+                    var2 = undefined;
+                    var8 = undefined;
+                    var4 = undefined;
+                    var6 = undefined;
+                    var9 = undefined;
+                    var13 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var5 = 3;
+                    var12 = var12[var5];
+                    var13 = var13.bind(var2)(var12);
+                    var12 = var13.getFileNameFromGifUrl;
+                    var8 = var12.bind(var13)(var15, var14);
  70: // try_start_0
-                    foxtra = _closure1_slot0;
-                    romeon = _closure1_slot2;
-                    romeon = romeon[report];
-                    foxtra = foxtra.bind(michal)(romeon);
-                    romeon = foxtra.downloadPollGif;
-                    zuuluu = romeon.bind(foxtra)(zuuluu);
+                    var13 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var12 = var12[var5];
+                    var13 = var13.bind(var2)(var12);
+                    var12 = var13.downloadPollGif;
+                    var3 = var12.bind(var13)(var3);
                     SaveGenerator(address=102);
  100:
-                    return zuuluu;
+                    return var3;
  102:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 479; continue _fun00001 }
+                    if(var12) { _fun0001_ip = 479; continue _fun0001 }
  111:
-                    tangon = zuuluu;
-                    foxtra = null;
-                    if(!(foxtra != zuuluu)) { _fun00002_ip = 476; continue _fun00001 }
+                    var4 = var3;
+                    var13 = null;
+                    if(!(var13 != var3)) { _fun0001_ip = 476; continue _fun0001 }
  123:
-                    romeon = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    report = backup[report];
-                    sizing = romeon.bind(michal)(report);
-                    kiloes = sizing.getFilePathForGif;
-                    report = option;
-                    echoed = kiloes.bind(sizing)(report);
-                    report = 4;
-                    report = backup[report];
-                    kiloes = romeon.bind(michal)(report);
-                    backup = kiloes.writeFile;
-                    result = tangon;
-                    update = 'cache';
-                    output = 'base64';
-                    source = kiloes;
-                    tangon = source[backup](update, echoed, result, output, sizing);
+                    var12 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var5 = var14[var5];
+                    var16 = var12.bind(var2)(var5);
+                    var15 = var16.getFilePathForGif;
+                    var5 = var8;
+                    var19 = var15.bind(var16)(var5);
+                    var5 = 4;
+                    var5 = var14[var5];
+                    var15 = var12.bind(var2)(var5);
+                    var14 = var15.writeFile;
+                    var18 = var4;
+                    var20 = 'cache';
+                    var17 = 'base64';
+                    var21 = var15;
+                    var4 = var21[var14](var20, var19, var18, var17, var16);
                     SaveGenerator(address=194);
  192:
-                    return tangon;
+                    return var4;
  194:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 473; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 473; continue _fun0001 }
  203:
-                    oscard = tangon;
-                    if(!(foxtra != tangon)) { _fun00002_ip = 470; continue _fun00001 }
+                    var6 = var4;
+                    if(!(var13 != var4)) { _fun0001_ip = 470; continue _fun0001 }
  213:
-                    romeon = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    report = 5;
-                    report = backup[report];
-                    backup = romeon.bind(michal)(report);
-                    romeon = backup.getImageDimensionsIfMissing;
-                    report = oscard;
-                    report = romeon.bind(backup)(report);
+                    var12 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var5 = 5;
+                    var5 = var14[var5];
+                    var14 = var12.bind(var2)(var5);
+                    var12 = var14.getImageDimensionsIfMissing;
+                    var5 = var6;
+                    var5 = var12.bind(var14)(var5);
                     SaveGenerator(address=251);
  249:
-                    return report;
+                    return var5;
  251:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 467; continue _fun00001 }
+                    if(var12) { _fun0001_ip = 467; continue _fun0001 }
  260:
-                    verify = report;
-                    romeon = {};
-                    romeon['id'] = golfie;
-                    kiloes = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    golfie = 6;
-                    backup = backup[golfie];
-                    backup = kiloes.bind(michal)(backup);
-                    backup = backup.UploadOrigin;
-                    backup = backup.IMAGE_PICKER;
-                    romeon['origin'] = backup;
-                    backup = oscard;
-                    romeon['uri'] = backup;
-                    romeon['originalUri'] = backup;
-                    romeon['filename'] = option;
-                    option = 'image/gif';
-                    romeon['mimeType'] = option;
-                    backup = foxtra == report;
-                    option = undefined;
-                    if(backup) { _fun00002_ip = 352; continue _fun00001 }
+                    var9 = var5;
+                    var12 = {};
+                    var12['id'] = var7;
+                    var15 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var7 = 6;
+                    var14 = var14[var7];
+                    var14 = var15.bind(var2)(var14);
+                    var14 = var14.UploadOrigin;
+                    var14 = var14.IMAGE_PICKER;
+                    var12['origin'] = var14;
+                    var14 = var6;
+                    var12['uri'] = var14;
+                    var12['originalUri'] = var14;
+                    var12['filename'] = var8;
+                    var8 = 'image/gif';
+                    var12['mimeType'] = var8;
+                    var14 = var13 == var5;
+                    var8 = undefined;
+                    if(var14) { _fun0001_ip = 352; continue _fun0001 }
  344:
-                    backup = verify;
-                    option = backup.width;
+                    var14 = var9;
+                    var8 = var14.width;
  352:
-                    romeon['width'] = option;
-                    option = verify;
-                    foxtra = foxtra == option;
-                    option = undefined;
-                    if(foxtra) { _fun00002_ip = 373; continue _fun00001 }
+                    var12['width'] = var8;
+                    var8 = var9;
+                    var13 = var13 == var8;
+                    var8 = undefined;
+                    if(var13) { _fun0001_ip = 373; continue _fun0001 }
  368:
-                    option = verify.height;
+                    var8 = var9.height;
  373:
-                    romeon['height'] = option;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    golfie = verify[golfie];
-                    golfie = option.bind(michal)(golfie);
-                    golfie = golfie.UploadPlatform;
-                    golfie = golfie.REACT_NATIVE;
-                    romeon['platform'] = golfie;
-                    option = _closure1_slot1;
-                    golfie = 7;
-                    golfie = verify[golfie];
-                    verify = option.bind(michal)(golfie);
-                    option = verify.addFile;
-                    golfie = {};
-                    golfie['file'] = romeon;
-                    golfie['channelId'] = yankee;
-                    offset = _closure1_slot4;
-                    offset = offset.Poll;
-                    golfie['draftType'] = offset;
-                    golfie = option.bind(verify)(golfie);
+                    var12['height'] = var8;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = var9[var7];
+                    var7 = var8.bind(var2)(var7);
+                    var7 = var7.UploadPlatform;
+                    var7 = var7.REACT_NATIVE;
+                    var12['platform'] = var7;
+                    var8 = _closure1_slot1;
+                    var7 = 7;
+                    var7 = var9[var7];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.addFile;
+                    var7 = {};
+                    var7['file'] = var12;
+                    var7['channelId'] = var11;
+                    var10 = _closure1_slot4;
+                    var10 = var10.Poll;
+                    var7['draftType'] = var10;
+                    var7 = var8.bind(var9)(var7);
  464: // try_end0
-                    return oscard;
+                    return var6;
  467:
-                    return report;
+                    return var5;
  470:
-                    return michal;
+                    return var2;
  473:
-                    return tangon;
+                    return var4;
  476:
-                    return michal;
+                    return var2;
  479:
-                    return zuuluu;
+                    return var3;
  482: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    return michal;
+                    return var2;
  487:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function() { // Original name: _removePollUploadAttachment
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _removePollUploadAttachment() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 150; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 150; continue _fun0002 }
  10:
-                    report = argFoo;
-                    tangon = argBar;
-                    michal = argBaz;
+                    var5 = arg1;
+                    var4 = arg2;
+                    var2 = arg3;
  19: // try_start_0
-                    verify = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 7;
-                    oscard = option[oscard];
-                    golfie = undefined;
-                    offset = verify.bind(golfie)(oscard);
-                    verify = offset.remove;
-                    oscard = report;
-                    report = tangon;
-                    tangon = _closure1_slot4;
-                    tangon = tangon.Poll;
-                    tangon = verify.bind(offset)(oscard, report, tangon);
-                    oscard = _closure1_slot0;
-                    zuuluu = 4;
-                    zuuluu = option[zuuluu];
-                    report = oscard.bind(golfie)(zuuluu);
-                    tangon = report.removeFile;
-                    zuuluu = 3;
-                    zuuluu = option[zuuluu];
-                    oscard = oscard.bind(golfie)(zuuluu);
-                    zuuluu = oscard.getFilePathForGif;
-                    zuuluu = zuuluu.bind(oscard)(michal);
-                    michal = 'cache';
-                    michal = tangon.bind(report)(michal, zuuluu);
+                    var9 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var6 = 7;
+                    var6 = var8[var6];
+                    var7 = undefined;
+                    var10 = var9.bind(var7)(var6);
+                    var9 = var10.remove;
+                    var6 = var5;
+                    var5 = var4;
+                    var4 = _closure1_slot4;
+                    var4 = var4.Poll;
+                    var4 = var9.bind(var10)(var6, var5, var4);
+                    var6 = _closure1_slot0;
+                    var3 = 4;
+                    var3 = var8[var3];
+                    var5 = var6.bind(var7)(var3);
+                    var4 = var5.removeFile;
+                    var3 = 3;
+                    var3 = var8[var3];
+                    var6 = var6.bind(var7)(var3);
+                    var3 = var6.getFilePathForGif;
+                    var3 = var3.bind(var6)(var2);
+                    var2 = 'cache';
+                    var2 = var4.bind(var5)(var2, var3);
                     SaveGenerator(address=132);
  130:
-                    return michal;
+                    return var2;
  132:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 140; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 140; continue _fun0002 }
  138: // try_end0
-                    _fun00004_ip = 145; continue _fun00003;
+                    _fun0002_ip = 145; continue _fun0002;
  140:
-                    return michal;
+                    return var2;
  143: // catch_target0
                     CatchBlockStart(arg_register=1);
  145:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  150:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function() { // Original name: _removeAllPollUploadAttachments
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function _removeAllPollUploadAttachments() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 118; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 118; continue _fun0003 }
  7:
-                    zuuluu = argFoo;
+                    var3 = arg1;
  10: // try_start_0
-                    golfie = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 7;
-                    tangon = oscard[tangon];
-                    report = undefined;
-                    option = golfie.bind(report)(tangon);
-                    golfie = option.clearAll;
-                    tangon = zuuluu;
-                    zuuluu = _closure1_slot4;
-                    zuuluu = zuuluu.Poll;
-                    zuuluu = golfie.bind(option)(tangon, zuuluu);
-                    tangon = _closure1_slot0;
-                    zuuluu = 4;
-                    zuuluu = oscard[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.clearFolder;
-                    zuuluu = _closure1_slot5;
-                    michal = 'cache';
-                    michal = tangon.bind(report)(michal, zuuluu);
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 7;
+                    var4 = var6[var4];
+                    var5 = undefined;
+                    var8 = var7.bind(var5)(var4);
+                    var7 = var8.clearAll;
+                    var4 = var3;
+                    var3 = _closure1_slot4;
+                    var3 = var3.Poll;
+                    var3 = var7.bind(var8)(var4, var3);
+                    var4 = _closure1_slot0;
+                    var3 = 4;
+                    var3 = var6[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.clearFolder;
+                    var3 = _closure1_slot5;
+                    var2 = 'cache';
+                    var2 = var4.bind(var5)(var2, var3);
                     SaveGenerator(address=100);
  98:
-                    return michal;
+                    return var2;
  100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 108; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 108; continue _fun0003 }
  106: // try_end0
-                    _fun00006_ip = 113; continue _fun00005;
+                    _fun0003_ip = 113; continue _fun0003;
  108:
-                    return michal;
+                    return var2;
  111: // catch_target0
                     CatchBlockStart(arg_register=1);
  113:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  118:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DraftType;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.POLL_ATTACHMENT_FOLDER;
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/polls/PollUploadAttachmentActionCreators.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: handlePollGifAttachmentAdd
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DraftType;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.POLL_ATTACHMENT_FOLDER;
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/polls/PollUploadAttachmentActionCreators.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function handlePollGifAttachmentAdd() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['handlePollGifAttachmentAdd'] = tangon;
-    tangon = function() { // Original name: handlePollMediaAttachmentAdd
-        entity = undefined;
-        return entity;
+    var3['handlePollGifAttachmentAdd'] = var4;
+    var4 = function handlePollMediaAttachmentAdd() {
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['handlePollMediaAttachmentAdd'] = tangon;
-    tangon = function() { // Original name: removePollUploadAttachment
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['handlePollMediaAttachmentAdd'] = var4;
+    var4 = function removePollUploadAttachment() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['removePollUploadAttachment'] = tangon;
-    michal = function() { // Original name: removeAllPollUploadAttachments
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['removePollUploadAttachment'] = var4;
+    var2 = function removeAllPollUploadAttachments() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['removeAllPollUploadAttachments'] = michal;
-    return entity;
+    var3['removeAllPollUploadAttachments'] = var2;
+    return var1;
 })();

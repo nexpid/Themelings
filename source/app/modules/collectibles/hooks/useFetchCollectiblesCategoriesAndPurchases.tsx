@@ -1,320 +1,320 @@
 // app/modules/collectibles/hooks/useFetchCollectiblesCategoriesAndPurchases.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = option;
-    tangon = function() { // Original name: useFetchPurchases
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
+    var4 = function useFetchPurchases() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            romeon = arguments[0];
-            foxtra = arguments[1];
-            offset = undefined;
-            if(!(romeon === offset)) { _fun00002_ip = 16; continue _fun00001 }
+            var12 = arguments[0];
+            var13 = arguments[1];
+            var10 = undefined;
+            if(!(var12 === var10)) { _fun0001_ip = 16; continue _fun0001 }
  14:
-            romeon = false;
+            var12 = false;
  16:
-            var _closure2_slot0 = romeon;
-            var _closure2_slot1 = foxtra;
-            var _closure2_slot2 = offset;
-            var _closure2_slot3 = offset;
-            var _closure2_slot4 = offset;
-            var _closure2_slot5 = offset;
-            var _closure2_slot6 = offset;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 3;
-            michal = tangon[zuuluu];
-            golfie = report.bind(offset)(michal);
-            oscard = golfie.useShopVariantsReturnStyle;
-            michal = 'useFetchPurchases';
-            yankee = oscard.bind(golfie)(michal);
-            _closure2_slot2 = yankee;
-            michal = 4;
-            tangon = tangon[michal];
-            golfie = report.bind(offset)(tangon);
-            oscard = golfie.useStateFromStoresArray;
-            tangon = _closure1_slot6;
-            report = new Array(1);
-            report[0] = tangon;
-            tangon = function() {
-                entity = _closure1_slot6;
-                zuuluu = entity.isFetching;
-                entity = new Array(6);
-                entity[0] = zuuluu;
-                zuuluu = _closure1_slot6;
-                zuuluu = zuuluu.isClaiming;
-                entity[1] = zuuluu;
-                zuuluu = _closure1_slot6;
-                zuuluu = zuuluu.fetchError;
-                entity[2] = zuuluu;
-                zuuluu = _closure1_slot6;
-                zuuluu = zuuluu.claimError;
-                entity[3] = zuuluu;
-                zuuluu = _closure1_slot6;
-                zuuluu = zuuluu.purchases;
-                entity[4] = zuuluu;
-                michal = _closure1_slot6;
-                michal = michal.hasPreviouslyFetched;
-                entity[5] = michal;
-                return entity;
+            var _closure2_slot0 = var12;
+            var _closure2_slot1 = var13;
+            var _closure2_slot2 = var10;
+            var _closure2_slot3 = var10;
+            var _closure2_slot4 = var10;
+            var _closure2_slot5 = var10;
+            var _closure2_slot6 = var10;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 3;
+            var2 = var4[var3];
+            var7 = var5.bind(var10)(var2);
+            var6 = var7.useShopVariantsReturnStyle;
+            var2 = 'useFetchPurchases';
+            var11 = var6.bind(var7)(var2);
+            _closure2_slot2 = var11;
+            var2 = 4;
+            var4 = var4[var2];
+            var7 = var5.bind(var10)(var4);
+            var6 = var7.useStateFromStoresArray;
+            var4 = _closure1_slot6;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
+                var1 = _closure1_slot6;
+                var3 = var1.isFetching;
+                var1 = new Array(6);
+                var1[0] = var3;
+                var3 = _closure1_slot6;
+                var3 = var3.isClaiming;
+                var1[1] = var3;
+                var3 = _closure1_slot6;
+                var3 = var3.fetchError;
+                var1[2] = var3;
+                var3 = _closure1_slot6;
+                var3 = var3.claimError;
+                var1[3] = var3;
+                var3 = _closure1_slot6;
+                var3 = var3.purchases;
+                var1[4] = var3;
+                var2 = _closure1_slot6;
+                var2 = var2.hasPreviouslyFetched;
+                var1[5] = var2;
+                return var1;
             };
-            oscard = oscard.bind(golfie)(report, tangon);
-            report = _closure1_slot3;
-            tangon = 6;
-            verify = report.bind(offset)(oscard, tangon);
-            tangon = 0;
-            tangon = verify[tangon];
-            report = 1;
-            golfie = verify[report];
-            report = 2;
-            oscard = verify[report];
-            _closure2_slot3 = oscard;
-            report = verify[zuuluu];
-            zuuluu = verify[michal];
-            michal = 5;
-            michal = verify[michal];
-            _closure2_slot4 = michal;
-            backup = _closure1_slot5;
-            verify = _closure1_slot6;
-            verify = verify.hasPreviouslyFetched;
-            verify = backup.bind(offset)(verify);
-            _closure2_slot5 = verify;
-            kiloes = _closure1_slot4;
-            backup = new Array(1);
-            backup[0] = michal;
-            verify = function() {
-                michal = _closure2_slot5;
-                entity = _closure2_slot4;
-                michal['current'] = entity;
-                entity = undefined;
-                return entity;
+            var6 = var6.bind(var7)(var5, var4);
+            var5 = _closure1_slot3;
+            var4 = 6;
+            var9 = var5.bind(var10)(var6, var4);
+            var4 = 0;
+            var4 = var9[var4];
+            var5 = 1;
+            var7 = var9[var5];
+            var5 = 2;
+            var6 = var9[var5];
+            _closure2_slot3 = var6;
+            var5 = var9[var3];
+            var3 = var9[var2];
+            var2 = 5;
+            var2 = var9[var2];
+            _closure2_slot4 = var2;
+            var14 = _closure1_slot5;
+            var9 = _closure1_slot6;
+            var9 = var9.hasPreviouslyFetched;
+            var9 = var14.bind(var10)(var9);
+            _closure2_slot5 = var9;
+            var15 = _closure1_slot4;
+            var14 = new Array(1);
+            var14[0] = var2;
+            var9 = function() {
+                var2 = _closure2_slot5;
+                var1 = _closure2_slot4;
+                var2['current'] = var1;
+                var1 = undefined;
+                return var1;
             };
-            verify = kiloes.bind(offset)(verify, backup);
-            backup = _closure1_slot5;
-            verify = _closure1_slot6;
-            verify = verify.fetchError;
-            verify = backup.bind(offset)(verify);
-            _closure2_slot6 = verify;
-            kiloes = _closure1_slot4;
-            backup = new Array(1);
-            backup[0] = oscard;
-            verify = function() {
-                michal = _closure2_slot6;
-                entity = _closure2_slot3;
-                michal['current'] = entity;
-                entity = undefined;
-                return entity;
+            var9 = var15.bind(var10)(var9, var14);
+            var14 = _closure1_slot5;
+            var9 = _closure1_slot6;
+            var9 = var9.fetchError;
+            var9 = var14.bind(var10)(var9);
+            _closure2_slot6 = var9;
+            var15 = _closure1_slot4;
+            var14 = new Array(1);
+            var14[0] = var6;
+            var9 = function() {
+                var2 = _closure2_slot6;
+                var1 = _closure2_slot3;
+                var2['current'] = var1;
+                var1 = undefined;
+                return var1;
             };
-            verify = kiloes.bind(offset)(verify, backup);
-            verify = _closure1_slot4;
-            option = new Array(3);
-            option[0] = foxtra;
-            option[1] = romeon;
-            option[2] = yankee;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var9 = var15.bind(var10)(var9, var14);
+            var9 = _closure1_slot4;
+            var8 = new Array(3);
+            var8[0] = var13;
+            var8[1] = var12;
+            var8[2] = var11;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot0;
-                    entity = true;
-                    entity = entity === michal;
-                    if(!entity) { _fun00004_ip = 25; continue _fun00003 }
+                    var2 = _closure2_slot0;
+                    var1 = true;
+                    var1 = var1 === var2;
+                    if(!var1) { _fun0002_ip = 25; continue _fun0002 }
  16:
-                    michal = _closure2_slot5;
-                    entity = michal.current;
+                    var2 = _closure2_slot5;
+                    var1 = var2.current;
  25:
-                    if(!entity) { _fun00004_ip = 43; continue _fun00003 }
+                    if(!var1) { _fun0002_ip = 43; continue _fun0002 }
  28:
-                    michal = _closure2_slot6;
-                    zuuluu = michal.current;
-                    michal = null;
-                    entity = michal == zuuluu;
+                    var2 = _closure2_slot6;
+                    var3 = var2.current;
+                    var2 = null;
+                    var1 = var2 == var3;
  43:
-                    if(entity) { _fun00004_ip = 101; continue _fun00003 }
+                    if(var1) { _fun0002_ip = 101; continue _fun0002 }
  46:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.fetchCollectiblesPurchases;
-                    entity = {};
-                    report = _closure2_slot2;
-                    entity['variantsReturnStyle'] = report;
-                    tangon = _closure2_slot1;
-                    entity['location'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.fetchCollectiblesPurchases;
+                    var1 = {};
+                    var5 = _closure2_slot2;
+                    var1['variantsReturnStyle'] = var5;
+                    var4 = _closure2_slot1;
+                    var1['location'] = var4;
+                    var1 = var2.bind(var3)(var1);
  101:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = verify.bind(offset)(entity, option);
-            entity = {};
-            entity['isClaiming'] = golfie;
-            entity['fetchPurchasesError'] = oscard;
-            entity['claimError'] = report;
-            entity['isFetching'] = tangon;
-            entity['purchases'] = zuuluu;
-            entity['hasPreviouslyFetched'] = michal;
-            return entity;
+            var1 = var9.bind(var10)(var1, var8);
+            var1 = {};
+            var1['isClaiming'] = var7;
+            var1['fetchPurchasesError'] = var6;
+            var1['claimError'] = var5;
+            var1['isFetching'] = var4;
+            var1['purchases'] = var3;
+            var1['hasPreviouslyFetched'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    report = function(argFoo, argBar) { // Original name: useFetchCollectiblesCategoriesAndPurchases
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var4;
+    var5 = function useFetchCollectiblesCategoriesAndPurchases(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            option = argFoo;
-            entity = null;
-            michal = entity == option;
-            report = undefined;
-            zuuluu = undefined;
-            if(michal) { _fun00006_ip = 22; continue _fun00005 }
+            var8 = arg1;
+            var1 = null;
+            var2 = var1 == var8;
+            var5 = undefined;
+            var3 = undefined;
+            if(var2) { _fun0003_ip = 22; continue _fun0003 }
  16:
-            zuuluu = option.paymentGateway;
+            var3 = var8.paymentGateway;
  22:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            tangon = 6;
-            tangon = golfie[tangon];
-            oscard = oscard.bind(report)(tangon);
-            tangon = {};
-            tangon['paymentGateway'] = zuuluu;
-            golfie = entity == option;
-            zuuluu = undefined;
-            if(golfie) { _fun00006_ip = 67; continue _fun00005 }
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 6;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = {};
+            var4['paymentGateway'] = var3;
+            var7 = var1 == var8;
+            var3 = undefined;
+            if(var7) { _fun0003_ip = 67; continue _fun0003 }
  61:
-            zuuluu = option.noOp;
+            var3 = var8.noOp;
  67:
-            tangon['noOp'] = zuuluu;
-            golfie = entity == option;
-            zuuluu = undefined;
-            if(golfie) { _fun00006_ip = 87; continue _fun00005 }
+            var4['noOp'] = var3;
+            var7 = var1 == var8;
+            var3 = undefined;
+            if(var7) { _fun0003_ip = 87; continue _fun0003 }
  81:
-            zuuluu = option.logPerf;
+            var3 = var8.logPerf;
  87:
-            tangon['logPerf'] = zuuluu;
-            golfie = entity == option;
-            zuuluu = undefined;
-            if(golfie) { _fun00006_ip = 107; continue _fun00005 }
+            var4['logPerf'] = var3;
+            var7 = var1 == var8;
+            var3 = undefined;
+            if(var7) { _fun0003_ip = 107; continue _fun0003 }
  101:
-            zuuluu = option.countryCode;
+            var3 = var8.countryCode;
  107:
-            tangon['countryCode'] = zuuluu;
-            zuuluu = argBar;
-            zuuluu = oscard.bind(report)(tangon, zuuluu);
-            offset = zuuluu.isFetching;
-            golfie = zuuluu.categories;
-            oscard = zuuluu.fetchCategoriesError;
-            zuuluu = zuuluu.refreshCategories;
-            tangon = _closure1_slot7;
-            verify = entity == option;
-            michal = undefined;
-            if(verify) { _fun00006_ip = 166; continue _fun00005 }
+            var4['countryCode'] = var3;
+            var3 = arg2;
+            var3 = var6.bind(var5)(var4, var3);
+            var10 = var3.isFetching;
+            var7 = var3.categories;
+            var6 = var3.fetchCategoriesError;
+            var3 = var3.refreshCategories;
+            var4 = _closure1_slot7;
+            var9 = var1 == var8;
+            var2 = undefined;
+            if(var9) { _fun0003_ip = 166; continue _fun0003 }
  158:
-            michal = option.stalePurchasesOK;
+            var2 = var8.stalePurchasesOK;
  166:
-            verify = entity == option;
-            entity = undefined;
-            if(verify) { _fun00006_ip = 180; continue _fun00005 }
+            var9 = var1 == var8;
+            var1 = undefined;
+            if(var9) { _fun0003_ip = 180; continue _fun0003 }
  175:
-            entity = option.location;
+            var1 = var8.location;
  180:
-            michal = tangon.bind(report)(michal, entity);
-            option = michal.isClaiming;
-            report = michal.fetchPurchasesError;
-            tangon = michal.claimError;
-            verify = michal.isFetching;
-            entity = {};
-            yankee = offset;
-            if(yankee) { _fun00006_ip = 221; continue _fun00005 }
+            var2 = var4.bind(var5)(var2, var1);
+            var8 = var2.isClaiming;
+            var5 = var2.fetchPurchasesError;
+            var4 = var2.claimError;
+            var9 = var2.isFetching;
+            var1 = {};
+            var11 = var10;
+            if(var11) { _fun0003_ip = 221; continue _fun0003 }
  218:
-            yankee = verify;
+            var11 = var9;
  221:
-            entity['isFetching'] = yankee;
-            entity['isFetchingCategories'] = offset;
-            entity['isFetchingPurchases'] = verify;
-            entity['isClaiming'] = option;
-            entity['categories'] = golfie;
-            golfie = michal.purchases;
-            entity['purchases'] = golfie;
-            entity['fetchCategoriesError'] = oscard;
-            entity['fetchPurchasesError'] = report;
-            entity['claimError'] = tangon;
-            entity['refreshCategories'] = zuuluu;
-            michal = michal.hasPreviouslyFetched;
-            entity['hasPreviouslyFetched'] = michal;
-            return entity;
+            var1['isFetching'] = var11;
+            var1['isFetchingCategories'] = var10;
+            var1['isFetchingPurchases'] = var9;
+            var1['isClaiming'] = var8;
+            var1['categories'] = var7;
+            var7 = var2.purchases;
+            var1['purchases'] = var7;
+            var1['fetchCategoriesError'] = var6;
+            var1['fetchPurchasesError'] = var5;
+            var1['claimError'] = var4;
+            var1['refreshCategories'] = var3;
+            var2 = var2.hasPreviouslyFetched;
+            var1['hasPreviouslyFetched'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot8 = report;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    offset = oscard.useEffect;
-    var _closure1_slot4 = offset;
-    oscard = oscard.useRef;
-    var _closure1_slot5 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot6 = oscard;
-    oscard = 7;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/collectibles/hooks/useFetchCollectiblesCategoriesAndPurchases.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = report;
-    zuuluu['useFetchPurchases'] = tangon;
-    tangon = function(argFoo) {
-        tangon = _closure1_slot7;
-        zuuluu = undefined;
-        michal = true;
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
+    var _closure1_slot8 = var5;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var10 = var6.useEffect;
+    var _closure1_slot4 = var10;
+    var6 = var6.useRef;
+    var _closure1_slot5 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 7;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/collectibles/hooks/useFetchCollectiblesCategoriesAndPurchases.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['useFetchPurchases'] = var4;
+    var4 = function(arg1) {
+        var4 = _closure1_slot7;
+        var3 = undefined;
+        var2 = true;
+        var1 = arg1;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
     };
-    zuuluu['useGetOrFetchPurchases'] = tangon;
-    michal = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useGetOrFetchPurchases'] = var4;
+    var2 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            zuuluu = _closure1_slot8;
-            michal = {};
-            tangon = null;
-            if(!(tangon == entity)) { _fun00008_ip = 20; continue _fun00007 }
+            var1 = arg1;
+            var3 = _closure1_slot8;
+            var2 = {};
+            var4 = null;
+            if(!(var4 == var1)) { _fun0004_ip = 20; continue _fun0004 }
  18:
-            entity = {};
+            var1 = {};
  20:
-            oscard = michal;
-            report = entity;
-            entity = copyDataProperties(oscard, report);
-            tangon = true;
-            entity = 'stalePurchasesOK';
-            michal[entity] = tangon;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+            var6 = var2;
+            var5 = var1;
+            var1 = copyDataProperties(var6, var5);
+            var4 = true;
+            var1 = 'stalePurchasesOK';
+            var2[var1] = var4;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         }
     };
-    zuuluu['useGetOrFetchCollectiblesCategoriesAndPurchases'] = michal;
-    return entity;
+    var3['useGetOrFetchCollectiblesCategoriesAndPurchases'] = var2;
+    return var1;
 })();

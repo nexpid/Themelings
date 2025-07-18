@@ -1,317 +1,317 @@
 // app/records/GuildRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = option;
-    tangon = function(argFoo, argBar) { // Original name: isGuildOwner
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
+    var4 = function isGuildOwner(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argBar;
-            tangon = 'string';
-            entity = typeof zuuluu;
-            michal = zuuluu;
-            if(!(tangon !== entity)) { _fun00002_ip = 34; continue _fun00001 }
+            var3 = arg2;
+            var4 = 'string';
+            var1 = typeof var3;
+            var2 = var3;
+            if(!(var4 !== var1)) { _fun0001_ip = 34; continue _fun0001 }
  17:
-            entity = null;
-            tangon = entity != zuuluu;
-            if(!tangon) { _fun00002_ip = 31; continue _fun00001 }
+            var1 = null;
+            var4 = var1 != var3;
+            if(!var4) { _fun0001_ip = 31; continue _fun0001 }
  26:
-            entity = zuuluu.id;
+            var1 = var3.id;
  31:
-            michal = entity;
+            var2 = var1;
  34:
-            entity = argFoo;
-            entity = entity.ownerId;
-            entity = entity === michal;
-            return entity;
+            var1 = arg1;
+            var1 = var1.ownerId;
+            var1 = var1 === var2;
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    offset = global;
-    verify = offset.Object;
-    oscard = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, report);
-    yankee = 0;
-    report = option[yankee];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    oscard = report.set;
-    var _closure1_slot3 = oscard;
-    report = report.TypeTag;
-    report = 1;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    backup = report.GuildExplicitContentFilterTypes;
-    output = report.MFALevels;
-    var _closure1_slot4 = output;
-    foxtra = report.BoostedGuildTiers;
-    sizing = report.UserNotificationSettings;
-    kiloes = report.VerificationLevels;
-    romeon = report.GuildNSFWContentLevel;
-    var _closure1_slot5 = romeon;
-    verify = offset.Object;
-    oscard = verify.freeze;
-    report = {'mfaLevel': null, 'preferredLocale': 'en-US', 'afkTimeout': 0};
-    output = output.NONE;
-    report['mfaLevel'] = output;
-    sizing = sizing.ALL_MESSAGES;
-    report['defaultMessageNotifications'] = sizing;
-    kiloes = kiloes.NONE;
-    report['verificationLevel'] = kiloes;
-    backup = backup.DISABLED;
-    report['explicitContentFilter'] = backup;
-    backup = false;
-    report['premiumProgressBarEnabled'] = backup;
-    report['systemChannelFlags'] = yankee;
-    backup = -1;
-    report['maxStageVideoChannelUsers'] = backup;
-    report['maxVideoChannelUsers'] = backup;
-    report['maxMembers'] = backup;
-    foxtra = foxtra.NONE;
-    report['premiumTier'] = foxtra;
-    romeon = romeon.DEFAULT;
-    report['nsfwLevel'] = romeon;
-    report['premiumSubscriberCount'] = yankee;
-    offset = offset.Set;
-    yankee = offset.prototype;
-    yankee = Object.create(yankee, {constructor: {value: offset}});
-    source = yankee;
-    offset = new source[offset](update);
-    offset = offset instanceof Object ? offset : yankee;
-    report['features'] = offset;
-    offset = null;
-    report['description'] = offset;
-    report['icon'] = offset;
-    report['ownerId'] = offset;
-    report['systemChannelId'] = offset;
-    report['joinedAt'] = offset;
-    report['discoverySplash'] = offset;
-    report['splash'] = offset;
-    report['banner'] = offset;
-    report['homeHeader'] = offset;
-    report['afkChannelId'] = offset;
-    report['application_id'] = offset;
-    report['vanityURLCode'] = offset;
-    report['rulesChannelId'] = offset;
-    report['safetyAlertsChannelId'] = offset;
-    report['publicUpdatesChannelId'] = offset;
-    report['ownerConfiguredContentLevel'] = offset;
-    report['hubType'] = offset;
-    report['latestOnboardingQuestionId'] = offset;
-    report['profile'] = offset;
-    report['premiumFeatures'] = offset;
-    report['moderatorReporting'] = offset;
-    report = oscard.bind(verify)(report);
-    oscard = 5;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'records/GuildRecord.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = 'Guild';
-    zuuluu['GuildRecordTypeTag'] = oscard;
-    zuuluu['GUILD_DEFAULT_PROPERTY_VALUES'] = report;
-    report = function(argFoo, argBar) { // Original name: getGuildIconURL
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var10 = global;
+    var9 = var10.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var11 = 0;
+    var5 = var8[var11];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var6 = var5.set;
+    var _closure1_slot3 = var6;
+    var5 = var5.TypeTag;
+    var5 = 1;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var14 = var5.GuildExplicitContentFilterTypes;
+    var17 = var5.MFALevels;
+    var _closure1_slot4 = var17;
+    var13 = var5.BoostedGuildTiers;
+    var16 = var5.UserNotificationSettings;
+    var15 = var5.VerificationLevels;
+    var12 = var5.GuildNSFWContentLevel;
+    var _closure1_slot5 = var12;
+    var9 = var10.Object;
+    var6 = var9.freeze;
+    var5 = {'mfaLevel': null, 'preferredLocale': 'en-US', 'afkTimeout': 0};
+    var17 = var17.NONE;
+    var5['mfaLevel'] = var17;
+    var16 = var16.ALL_MESSAGES;
+    var5['defaultMessageNotifications'] = var16;
+    var15 = var15.NONE;
+    var5['verificationLevel'] = var15;
+    var14 = var14.DISABLED;
+    var5['explicitContentFilter'] = var14;
+    var14 = false;
+    var5['premiumProgressBarEnabled'] = var14;
+    var5['systemChannelFlags'] = var11;
+    var14 = -1;
+    var5['maxStageVideoChannelUsers'] = var14;
+    var5['maxVideoChannelUsers'] = var14;
+    var5['maxMembers'] = var14;
+    var13 = var13.NONE;
+    var5['premiumTier'] = var13;
+    var12 = var12.DEFAULT;
+    var5['nsfwLevel'] = var12;
+    var5['premiumSubscriberCount'] = var11;
+    var10 = var10.Set;
+    var11 = var10.prototype;
+    var11 = Object.create(var11, {constructor: {value: var10}});
+    var21 = var11;
+    var10 = new var21[var10](var20);
+    var10 = var10 instanceof Object ? var10 : var11;
+    var5['features'] = var10;
+    var10 = null;
+    var5['description'] = var10;
+    var5['icon'] = var10;
+    var5['ownerId'] = var10;
+    var5['systemChannelId'] = var10;
+    var5['joinedAt'] = var10;
+    var5['discoverySplash'] = var10;
+    var5['splash'] = var10;
+    var5['banner'] = var10;
+    var5['homeHeader'] = var10;
+    var5['afkChannelId'] = var10;
+    var5['application_id'] = var10;
+    var5['vanityURLCode'] = var10;
+    var5['rulesChannelId'] = var10;
+    var5['safetyAlertsChannelId'] = var10;
+    var5['publicUpdatesChannelId'] = var10;
+    var5['ownerConfiguredContentLevel'] = var10;
+    var5['hubType'] = var10;
+    var5['latestOnboardingQuestionId'] = var10;
+    var5['profile'] = var10;
+    var5['premiumFeatures'] = var10;
+    var5['moderatorReporting'] = var10;
+    var5 = var6.bind(var9)(var5);
+    var6 = 5;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'records/GuildRecord.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = 'Guild';
+    var3['GuildRecordTypeTag'] = var6;
+    var3['GUILD_DEFAULT_PROPERTY_VALUES'] = var5;
+    var5 = function getGuildIconURL(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            report = arguments[2];
-            tangon = arguments[3];
-            zuuluu = undefined;
-            if(!(report === zuuluu)) { _fun00004_ip = 17; continue _fun00003 }
+            var6 = arg1;
+            var5 = arguments[2];
+            var4 = arguments[3];
+            var3 = undefined;
+            if(!(var5 === var3)) { _fun0002_ip = 17; continue _fun0002 }
  15:
-            report = false;
+            var5 = false;
  17:
-            if(!(tangon === zuuluu)) { _fun00004_ip = 23; continue _fun00003 }
+            if(!(var4 === var3)) { _fun0002_ip = 23; continue _fun0002 }
  21:
-            tangon = false;
+            var4 = false;
  23:
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 2;
-            entity = golfie[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.getGuildIconURL;
-            entity = {};
-            golfie = oscard.id;
-            entity['id'] = golfie;
-            golfie = argBar;
-            entity['size'] = golfie;
-            oscard = oscard.icon;
-            entity['icon'] = oscard;
-            entity['canAnimate'] = report;
-            entity['lossless'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 2;
+            var1 = var7[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.getGuildIconURL;
+            var1 = {};
+            var7 = var6.id;
+            var1['id'] = var7;
+            var7 = arg2;
+            var1['size'] = var7;
+            var6 = var6.icon;
+            var1['icon'] = var6;
+            var1['canAnimate'] = var5;
+            var1['lossless'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGuildIconURL'] = report;
-    report = function(argFoo, argBar) { // Original name: getGuildIconSource
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getGuildIconURL'] = var5;
+    var5 = function getGuildIconSource(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = arguments[2];
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            michal = argBar;
-            var _closure2_slot1 = michal;
-            report = undefined;
-            if(!(tangon === report)) { _fun00006_ip = 27; continue _fun00005 }
+            var4 = arguments[2];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = arg2;
+            var _closure2_slot1 = var2;
+            var5 = undefined;
+            if(!(var4 === var5)) { _fun0003_ip = 27; continue _fun0003 }
  25:
-            tangon = false;
+            var4 = false;
  27:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.getAnimatableSourceWithFallback;
-            entity = function(argFoo) {
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.getGuildIconSource;
-                entity = {};
-                tangon = _closure2_slot0;
-                oscard = tangon.id;
-                entity['id'] = oscard;
-                report = _closure2_slot1;
-                entity['size'] = report;
-                tangon = tangon.icon;
-                entity['icon'] = tangon;
-                tangon = argFoo;
-                entity['canAnimate'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.getAnimatableSourceWithFallback;
+            var1 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.getGuildIconSource;
+                var1 = {};
+                var4 = _closure2_slot0;
+                var6 = var4.id;
+                var1['id'] = var6;
+                var5 = _closure2_slot1;
+                var1['size'] = var5;
+                var4 = var4.icon;
+                var1['icon'] = var4;
+                var4 = arg1;
+                var1['canAnimate'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
+            var1 = var2.bind(var3)(var4, var1);
+            return var1;
         }
     };
-    zuuluu['getGuildIconSource'] = report;
-    report = function(argFoo) { // Original name: getGuildAcronym
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.getAcronym;
-        entity = argFoo;
-        entity = entity.name;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['getGuildIconSource'] = var5;
+    var5 = function getGuildAcronym(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.getAcronym;
+        var1 = arg1;
+        var1 = var1.name;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getGuildAcronym'] = report;
-    zuuluu['isGuildOwner'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isGuildOwnerWithRequiredMfaLevel
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getGuildAcronym'] = var5;
+    var3['isGuildOwner'] = var4;
+    var4 = function isGuildOwnerWithRequiredMfaLevel(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            entity = tangon.mfaEnabled;
-            michal = !entity;
-            if(!michal) { _fun00008_ip = 41; continue _fun00007 }
+            var5 = arg1;
+            var4 = arg2;
+            var1 = var4.mfaEnabled;
+            var2 = !var1;
+            if(!var2) { _fun0004_ip = 41; continue _fun0004 }
  18:
-            zuuluu = report.mfaLevel;
-            entity = _closure1_slot4;
-            entity = entity.ELEVATED;
-            michal = zuuluu === entity;
+            var3 = var5.mfaLevel;
+            var1 = _closure1_slot4;
+            var1 = var1.ELEVATED;
+            var2 = var3 === var1;
  41:
-            entity = !michal;
-            if(michal) { _fun00008_ip = 62; continue _fun00007 }
+            var1 = !var2;
+            if(var2) { _fun0004_ip = 62; continue _fun0004 }
  47:
-            zuuluu = _closure1_slot6;
-            michal = undefined;
-            entity = zuuluu.bind(michal)(report, tangon);
+            var3 = _closure1_slot6;
+            var2 = undefined;
+            var1 = var3.bind(var2)(var5, var4);
  62:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isGuildOwnerWithRequiredMfaLevel'] = tangon;
-    tangon = function(argFoo) { // Original name: isGuildLurker
-        entity = argFoo;
-        michal = entity.joinedAt;
-        entity = null;
-        entity = entity == michal;
-        return entity;
+    var3['isGuildOwnerWithRequiredMfaLevel'] = var4;
+    var4 = function isGuildLurker(arg1) {
+        var1 = arg1;
+        var2 = var1.joinedAt;
+        var1 = null;
+        var1 = var1 == var2;
+        return var1;
     };
-    zuuluu['isGuildLurker'] = tangon;
-    tangon = function(argFoo) { // Original name: getGuildEveryoneRoleId
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.castGuildIdAsEveryoneGuildRoleId;
-        entity = argFoo;
-        entity = entity.id;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['isGuildLurker'] = var4;
+    var4 = function getGuildEveryoneRoleId(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.castGuildIdAsEveryoneGuildRoleId;
+        var1 = arg1;
+        var1 = var1.id;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getGuildEveryoneRoleId'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: updateJoinedAt
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['getGuildEveryoneRoleId'] = var4;
+    var4 = function updateJoinedAt(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = argBar;
-            report = _closure1_slot3;
-            michal = 'string';
-            entity = typeof zuuluu;
-            tangon = zuuluu;
-            if(!(michal === entity)) { _fun00010_ip = 55; continue _fun00009 }
+            var3 = arg2;
+            var5 = _closure1_slot3;
+            var2 = 'string';
+            var1 = typeof var3;
+            var4 = var3;
+            if(!(var2 === var1)) { _fun0005_ip = 55; continue _fun0005 }
  24:
-            entity = global;
-            entity = entity.Date;
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            verify = michal;
-            option = zuuluu;
-            entity = new verify[entity](option, golfie);
-            tangon = entity instanceof Object ? entity : michal;
+            var1 = global;
+            var1 = var1.Date;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var9 = var2;
+            var8 = var3;
+            var1 = new var9[var1](var8, var7);
+            var4 = var1 instanceof Object ? var1 : var2;
  55:
-            zuuluu = undefined;
-            michal = argFoo;
-            entity = 'joinedAt';
-            entity = report.bind(zuuluu)(michal, entity, tangon);
-            return entity;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = 'joinedAt';
+            var1 = var5.bind(var3)(var2, var1, var4);
+            return var1;
         }
     };
-    zuuluu['updateJoinedAt'] = tangon;
-    michal = function(argFoo) { // Original name: isGuildNSFW
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['updateJoinedAt'] = var4;
+    var2 = function isGuildNSFW(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00012_ip = 61; continue _fun00011 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0006_ip = 61; continue _fun0006 }
  12:
-            report = tangon.ownerConfiguredContentLevel;
-            michal = _closure1_slot5;
-            michal = michal.EXPLICIT;
-            michal = report === michal;
-            if(michal) { _fun00012_ip = 58; continue _fun00011 }
+            var5 = var4.ownerConfiguredContentLevel;
+            var2 = _closure1_slot5;
+            var2 = var2.EXPLICIT;
+            var2 = var5 === var2;
+            if(var2) { _fun0006_ip = 58; continue _fun0006 }
  38:
-            tangon = tangon.ownerConfiguredContentLevel;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.AGE_RESTRICTED;
-            michal = tangon === zuuluu;
+            var4 = var4.ownerConfiguredContentLevel;
+            var3 = _closure1_slot5;
+            var3 = var3.AGE_RESTRICTED;
+            var2 = var4 === var3;
  58:
-            entity = michal;
+            var1 = var2;
  61:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isGuildNSFW'] = michal;
-    return entity;
+    var3['isGuildNSFW'] = var2;
+    return var1;
 })();

@@ -1,178 +1,178 @@
 // app/modules/activities/native/EmbeddedActivityBackgroundImageWithOverlay.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = yankee;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ImageBackground;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.View;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.StyleSheet;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flex': 1, 'opacity': 0.6};
-    offset = 5;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.BLACK;
-    verify['backgroundColor'] = offset;
-    tangon['overlay'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = ['embedded_background'];
-    var _closure1_slot9 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/native/EmbeddedActivityBackgroundImageWithOverlay.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: EmbeddedActivityBackgroundImageWithOverlay
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var11;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ImageBackground;
+    var _closure1_slot4 = var7;
+    var7 = var4.View;
+    var _closure1_slot5 = var7;
+    var4 = var4.StyleSheet;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flex': 1, 'opacity': 0.6};
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BLACK;
+    var9['backgroundColor'] = var10;
+    var4['overlay'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot8 = var4;
+    var4 = ['embedded_background'];
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/native/EmbeddedActivityBackgroundImageWithOverlay.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function EmbeddedActivityBackgroundImageWithOverlay(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.application;
-            option = entity.dimensionsStyle;
-            yankee = entity.borderRadius;
-            romeon = entity.resizeMode;
-            report = undefined;
-            if(!(romeon === report)) { _fun00002_ip = 37; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.application;
+            var8 = var1.dimensionsStyle;
+            var11 = var1.borderRadius;
+            var12 = var1.resizeMode;
+            var5 = undefined;
+            if(!(var12 === var5)) { _fun0001_ip = 37; continue _fun0001 }
  33:
-            romeon = 'contain';
+            var12 = 'contain';
  37:
-            var _closure2_slot0 = report;
-            entity = _closure1_slot8;
-            verify = entity.bind(report)();
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useState;
-            entity = false;
-            tangon = zuuluu.bind(tangon)(entity);
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            tangon = zuuluu.bind(report)(tangon, entity);
-            entity = 0;
-            zuuluu = tangon[entity];
-            entity = 1;
-            entity = tangon[entity];
-            _closure2_slot0 = entity;
-            tangon = _closure1_slot0;
-            offset = _closure1_slot1;
-            entity = 6;
-            entity = offset[entity];
-            tangon = tangon.bind(report)(entity);
-            entity = {};
-            offset = null;
-            foxtra = offset == michal;
-            backup = undefined;
-            if(foxtra) { _fun00002_ip = 136; continue _fun00001 }
+            var _closure2_slot0 = var5;
+            var1 = _closure1_slot8;
+            var9 = var1.bind(var5)();
+            var4 = _closure1_slot3;
+            var3 = var4.useState;
+            var1 = false;
+            var4 = var3.bind(var4)(var1);
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var4 = var3.bind(var5)(var4, var1);
+            var1 = 0;
+            var3 = var4[var1];
+            var1 = 1;
+            var1 = var4[var1];
+            _closure2_slot0 = var1;
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var1 = 6;
+            var1 = var10[var1];
+            var4 = var4.bind(var5)(var1);
+            var1 = {};
+            var10 = null;
+            var13 = var10 == var2;
+            var14 = undefined;
+            if(var13) { _fun0001_ip = 136; continue _fun0001 }
  131:
-            backup = michal.id;
+            var14 = var2.id;
  136:
-            kiloes = offset != backup;
-            michal = '';
-            foxtra = michal;
-            if(!kiloes) { _fun00002_ip = 153; continue _fun00001 }
+            var15 = var10 != var14;
+            var2 = '';
+            var13 = var2;
+            if(!var15) { _fun0001_ip = 153; continue _fun0001 }
  150:
-            foxtra = backup;
+            var13 = var14;
  153:
-            entity['applicationId'] = foxtra;
-            foxtra = _closure1_slot9;
-            entity['names'] = foxtra;
-            foxtra = 1024;
-            entity['size'] = foxtra;
-            entity = tangon.bind(report)(entity);
-            backup = entity.url;
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 347; continue _fun00001 }
+            var1['applicationId'] = var13;
+            var13 = _closure1_slot9;
+            var1['names'] = var13;
+            var13 = 1024;
+            var1['size'] = var13;
+            var1 = var4.bind(var5)(var1);
+            var14 = var1.url;
+            var1 = null;
+            if(var3) { _fun0001_ip = 347; continue _fun0001 }
  193:
-            zuuluu = offset == backup;
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 347; continue _fun00001 }
+            var3 = var10 == var14;
+            var1 = null;
+            if(var3) { _fun0001_ip = 347; continue _fun0001 }
  205:
-            entity = null;
-            if(!(michal !== backup)) { _fun00002_ip = 347; continue _fun00001 }
+            var1 = null;
+            if(!(var2 !== var14)) { _fun0001_ip = 347; continue _fun0001 }
  214:
-            tangon = _closure1_slot7;
-            zuuluu = _closure1_slot4;
-            michal = {};
-            michal['resizeMode'] = romeon;
-            romeon = {};
-            kiloes = offset != backup;
-            foxtra = undefined;
-            if(!kiloes) { _fun00002_ip = 243; continue _fun00001 }
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var2['resizeMode'] = var12;
+            var12 = {};
+            var15 = var10 != var14;
+            var13 = undefined;
+            if(!var15) { _fun0001_ip = 243; continue _fun0001 }
  240:
-            foxtra = backup;
+            var13 = var14;
  243:
-            romeon['uri'] = foxtra;
-            michal['source'] = romeon;
-            if(!(offset == option)) { _fun00002_ip = 266; continue _fun00001 }
+            var12['uri'] = var13;
+            var2['source'] = var12;
+            if(!(var10 == var8)) { _fun0001_ip = 266; continue _fun0001 }
  256:
-            offset = _closure1_slot6;
-            option = offset.absoluteFillObject;
+            var10 = _closure1_slot6;
+            var8 = var10.absoluteFillObject;
  266:
-            michal['style'] = option;
-            option = {};
-            option['borderRadius'] = yankee;
-            michal['imageStyle'] = option;
-            golfie = function() { // Original name: onError
-                zuuluu = _closure2_slot0;
-                michal = undefined;
-                entity = true;
-                entity = zuuluu.bind(michal)(entity);
-                return entity;
+            var2['style'] = var8;
+            var8 = {};
+            var8['borderRadius'] = var11;
+            var2['imageStyle'] = var8;
+            var7 = function onError() {
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var1 = true;
+                var1 = var3.bind(var2)(var1);
+                return var1;
             };
-            michal['onError'] = golfie;
-            option = _closure1_slot7;
-            golfie = _closure1_slot5;
-            oscard = {};
-            offset = verify.overlay;
-            verify = new Array(2);
-            verify[0] = offset;
-            offset = {};
-            offset['borderRadius'] = yankee;
-            verify[1] = offset;
-            oscard['style'] = verify;
-            oscard = option.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2['onError'] = var7;
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot5;
+            var6 = {};
+            var10 = var9.overlay;
+            var9 = new Array(2);
+            var9[0] = var10;
+            var10 = {};
+            var10['borderRadius'] = var11;
+            var9[1] = var10;
+            var6['style'] = var9;
+            var6 = var8.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  347:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

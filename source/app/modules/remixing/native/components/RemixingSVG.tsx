@@ -1,159 +1,159 @@
 // app/modules/remixing/native/components/RemixingSVG.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/native/components/RemixingSVG.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/native/components/RemixingSVG.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            echoed = michal.id;
-            backup = michal.source;
-            option = michal.size;
-            verify = michal.position;
-            result = michal.transform;
-            output = michal.transformMap;
-            tangon = _closure1_slot4;
-            zuuluu = tangon.useState;
-            kiloes = false;
-            tangon = zuuluu.bind(tangon)(kiloes);
-            foxtra = _closure1_slot3;
-            report = undefined;
-            zuuluu = 2;
-            tangon = foxtra.bind(report)(tangon, zuuluu);
-            zuuluu = 0;
-            oscard = tangon[zuuluu];
-            golfie = 1;
-            tangon = tangon[golfie];
-            romeon = _closure1_slot0;
-            sizing = _closure1_slot2;
-            yankee = 3;
-            offset = sizing[yankee];
-            romeon = romeon.bind(report)(offset);
-            offset = romeon.useSVG;
-            offset = offset.bind(romeon)(backup);
-            var _closure2_slot0 = offset;
-            backup = _closure1_slot1;
-            romeon = 4;
-            romeon = sizing[romeon];
-            romeon = backup.bind(report)(romeon);
-            romeon = romeon.bind(report)(echoed, output, result);
-            output = 5;
-            output = sizing[output];
-            output = backup.bind(report)(output);
-            entity = function() {
-                entity = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var19 = var2.id;
+            var14 = var2.source;
+            var8 = var2.size;
+            var9 = var2.position;
+            var18 = var2.transform;
+            var17 = var2.transformMap;
+            var4 = _closure1_slot4;
+            var3 = var4.useState;
+            var15 = false;
+            var4 = var3.bind(var4)(var15);
+            var13 = _closure1_slot3;
+            var5 = undefined;
+            var3 = 2;
+            var4 = var13.bind(var5)(var4, var3);
+            var3 = 0;
+            var6 = var4[var3];
+            var7 = 1;
+            var4 = var4[var7];
+            var12 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var11 = 3;
+            var10 = var16[var11];
+            var12 = var12.bind(var5)(var10);
+            var10 = var12.useSVG;
+            var10 = var10.bind(var12)(var14);
+            var _closure2_slot0 = var10;
+            var14 = _closure1_slot1;
+            var12 = 4;
+            var12 = var16[var12];
+            var12 = var14.bind(var5)(var12);
+            var12 = var12.bind(var5)(var19, var17, var18);
+            var17 = 5;
+            var17 = var16[var17];
+            var17 = var14.bind(var5)(var17);
+            var1 = function() {
+                var1 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = _closure2_slot0;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 27; continue _fun00003 }
+                        var3 = _closure2_slot0;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0002_ip = 27; continue _fun0002 }
  13:
-                        michal = _closure2_slot0;
-                        entity = michal.dispose;
-                        entity = entity.bind(michal)();
+                        var2 = _closure2_slot0;
+                        var1 = var2.dispose;
+                        var1 = var1.bind(var2)();
  27:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = output.bind(report)(entity);
-            entity = 6;
-            entity = sizing[entity];
-            backup = backup.bind(report)(entity);
-            entity = {};
-            entity['autoplay'] = kiloes;
-            entity = backup.bind(report)(romeon, entity);
-            entity = foxtra.bind(report)(entity, golfie);
-            zuuluu = entity[zuuluu];
-            entity = null;
-            golfie = entity == offset;
-            if(golfie) { _fun00002_ip = 401; continue _fun00001 }
+            var1 = var17.bind(var5)(var1);
+            var1 = 6;
+            var1 = var16[var1];
+            var14 = var14.bind(var5)(var1);
+            var1 = {};
+            var1['autoplay'] = var15;
+            var1 = var14.bind(var5)(var12, var1);
+            var1 = var13.bind(var5)(var1, var7);
+            var3 = var1[var3];
+            var1 = null;
+            var7 = var1 == var10;
+            if(var7) { _fun0001_ip = 401; continue _fun0001 }
  210:
-            if(oscard) { _fun00002_ip = 224; continue _fun00001 }
+            if(var6) { _fun0001_ip = 224; continue _fun0001 }
  213:
-            zuuluu = zuuluu.bind(report)();
-            zuuluu = true;
-            zuuluu = tangon.bind(report)(zuuluu);
+            var3 = var3.bind(var5)();
+            var3 = true;
+            var3 = var4.bind(var5)(var3);
  224:
-            tangon = _closure1_slot5;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = oscard[yankee];
-            michal = golfie.bind(report)(michal);
-            zuuluu = michal.Group;
-            michal = {};
-            michal['transform'] = romeon;
-            romeon = 7;
-            romeon = oscard[romeon];
-            backup = golfie.bind(report)(romeon);
-            foxtra = backup.centerOfRect;
-            romeon = oscard[yankee];
-            echoed = golfie.bind(report)(romeon);
-            result = echoed.rect;
-            vacuum = verify.x;
-            ctrled = verify.y;
-            source = option.width;
-            update = option.height;
-            sequen = echoed;
-            romeon = sequen[result](vacuum, ctrled, source, update, echoed);
-            romeon = foxtra.bind(backup)(romeon);
-            michal['origin'] = romeon;
-            oscard = oscard[yankee];
-            oscard = golfie.bind(report)(oscard);
-            golfie = oscard.ImageSVG;
-            oscard = {};
-            oscard['svg'] = offset;
-            offset = verify.x;
-            oscard['x'] = offset;
-            verify = verify.y;
-            oscard['y'] = verify;
-            verify = option.height;
-            oscard['height'] = verify;
-            option = option.width;
-            oscard['width'] = option;
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot5;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = var6[var11];
+            var2 = var7.bind(var5)(var2);
+            var3 = var2.Group;
+            var2 = {};
+            var2['transform'] = var12;
+            var12 = 7;
+            var12 = var6[var12];
+            var14 = var7.bind(var5)(var12);
+            var13 = var14.centerOfRect;
+            var12 = var6[var11];
+            var19 = var7.bind(var5)(var12);
+            var18 = var19.rect;
+            var23 = var9.x;
+            var22 = var9.y;
+            var21 = var8.width;
+            var20 = var8.height;
+            var24 = var19;
+            var12 = var24[var18](var23, var22, var21, var20, var19);
+            var12 = var13.bind(var14)(var12);
+            var2['origin'] = var12;
+            var6 = var6[var11];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.ImageSVG;
+            var6 = {};
+            var6['svg'] = var10;
+            var10 = var9.x;
+            var6['x'] = var10;
+            var9 = var9.y;
+            var6['y'] = var9;
+            var9 = var8.height;
+            var6['height'] = var9;
+            var8 = var8.width;
+            var6['width'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  401:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,152 +1,152 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/useFlashListAnimationDisabler.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    golfie = 'function useFlashListAnimationDisablerTsx1(){const{lastId}=this.__closure;return lastId.get();}';
-    tangon['code'] = golfie;
-    var _closure1_slot3 = tangon;
-    tangon = {};
-    golfie = 'function useFlashListAnimationDisablerTsx2(current,prev){const{enableAnimation}=this.__closure;if(current!==prev){enableAnimation.set(false);}}';
-    tangon['code'] = golfie;
-    var _closure1_slot4 = tangon;
-    tangon = {};
-    golfie = 'function useFlashListAnimationDisablerTsx3(finished){const{enableAnimation}=this.__closure;if(finished&&!enableAnimation.get()){enableAnimation.set(true);}}';
-    tangon['code'] = golfie;
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/guild_channels/useFlashListAnimationDisabler.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useFlashListAnimationDisabler
-        offset = argFoo;
-        var _closure2_slot0 = offset;
-        golfie = _closure1_slot0;
-        option = _closure1_slot1;
-        tangon = 1;
-        zuuluu = option[tangon];
-        oscard = undefined;
-        verify = golfie.bind(oscard)(zuuluu);
-        report = verify.useSharedValue;
-        zuuluu = false;
-        zuuluu = report.bind(verify)(zuuluu);
-        var _closure2_slot1 = zuuluu;
-        report = option[tangon];
-        verify = golfie.bind(oscard)(report);
-        report = verify.useSharedValue;
-        verify = report.bind(verify)(offset);
-        var _closure2_slot2 = verify;
-        report = _closure1_slot2;
-        romeon = report.useEffect;
-        yankee = new Array(2);
-        yankee[0] = verify;
-        yankee[1] = offset;
-        offset = function() {
-            zuuluu = _closure2_slot2;
-            michal = zuuluu.set;
-            entity = _closure2_slot0;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var7 = 'function useFlashListAnimationDisablerTsx1(){const{lastId}=this.__closure;return lastId.get();}';
+    var4['code'] = var7;
+    var _closure1_slot3 = var4;
+    var4 = {};
+    var7 = 'function useFlashListAnimationDisablerTsx2(current,prev){const{enableAnimation}=this.__closure;if(current!==prev){enableAnimation.set(false);}}';
+    var4['code'] = var7;
+    var _closure1_slot4 = var4;
+    var4 = {};
+    var7 = 'function useFlashListAnimationDisablerTsx3(finished){const{enableAnimation}=this.__closure;if(finished&&!enableAnimation.get()){enableAnimation.set(true);}}';
+    var4['code'] = var7;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/guild_channels/useFlashListAnimationDisabler.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useFlashListAnimationDisabler(arg1) {
+        var10 = arg1;
+        var _closure2_slot0 = var10;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot1;
+        var4 = 1;
+        var3 = var8[var4];
+        var6 = undefined;
+        var9 = var7.bind(var6)(var3);
+        var5 = var9.useSharedValue;
+        var3 = false;
+        var3 = var5.bind(var9)(var3);
+        var _closure2_slot1 = var3;
+        var5 = var8[var4];
+        var9 = var7.bind(var6)(var5);
+        var5 = var9.useSharedValue;
+        var9 = var5.bind(var9)(var10);
+        var _closure2_slot2 = var9;
+        var5 = _closure1_slot2;
+        var12 = var5.useEffect;
+        var11 = new Array(2);
+        var11[0] = var9;
+        var11[1] = var10;
+        var10 = function() {
+            var3 = _closure2_slot2;
+            var2 = var3.set;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        offset = romeon.bind(report)(offset, yankee);
-        tangon = option[tangon];
-        option = golfie.bind(oscard)(tangon);
-        golfie = option.useAnimatedReaction;
-        oscard = function() { // Original name: _
-            michal = _closure2_slot2;
-            entity = michal.get;
-            entity = entity.bind(michal)();
-            return entity;
+        var10 = var12.bind(var5)(var10, var11);
+        var4 = var8[var4];
+        var8 = var7.bind(var6)(var4);
+        var7 = var8.useAnimatedReaction;
+        var6 = function _() {
+            var2 = _closure2_slot2;
+            var1 = var2.get;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        tangon = {};
-        tangon['lastId'] = verify;
-        oscard['__closure'] = tangon;
-        tangon = 9889142626009.0;
-        oscard['__workletHash'] = tangon;
-        tangon = _closure1_slot3;
-        oscard['__initData'] = tangon;
-        tangon = function(argFoo, argBar) { // Original name: u
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var4 = {};
+        var4['lastId'] = var9;
+        var6['__closure'] = var4;
+        var4 = 9889142626009.0;
+        var6['__workletHash'] = var4;
+        var4 = _closure1_slot3;
+        var6['__initData'] = var4;
+        var4 = function u(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                entity = argBar;
-                if(!(michal !== entity)) { _fun00002_ip = 29; continue _fun00001 }
+                var2 = arg1;
+                var1 = arg2;
+                if(!(var2 !== var1)) { _fun0001_ip = 29; continue _fun0001 }
  10:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.set;
-                entity = false;
-                entity = michal.bind(zuuluu)(entity);
+                var3 = _closure2_slot1;
+                var2 = var3.set;
+                var1 = false;
+                var1 = var2.bind(var3)(var1);
  29:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        verify = {};
-        verify['enableAnimation'] = zuuluu;
-        tangon['__closure'] = verify;
-        verify = 6114249067388.0;
-        tangon['__workletHash'] = verify;
-        verify = _closure1_slot4;
-        tangon['__initData'] = verify;
-        tangon = golfie.bind(option)(oscard, tangon);
-        tangon = report.useCallback;
-        michal = function(argFoo) { // Original name: b
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var9 = {};
+        var9['enableAnimation'] = var3;
+        var4['__closure'] = var9;
+        var9 = 6114249067388.0;
+        var4['__workletHash'] = var9;
+        var9 = _closure1_slot4;
+        var4['__initData'] = var9;
+        var4 = var7.bind(var8)(var6, var4);
+        var4 = var5.useCallback;
+        var2 = function b(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                if(!entity) { _fun00004_ip = 25; continue _fun00003 }
+                var1 = arg1;
+                if(!var1) { _fun0002_ip = 25; continue _fun0002 }
  6:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.get;
-                michal = michal.bind(zuuluu)();
-                entity = !michal;
+                var3 = _closure2_slot1;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var1 = !var2;
  25:
-                if(!entity) { _fun00004_ip = 47; continue _fun00003 }
+                if(!var1) { _fun0002_ip = 47; continue _fun0002 }
  28:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.set;
-                entity = true;
-                entity = michal.bind(zuuluu)(entity);
+                var3 = _closure2_slot1;
+                var2 = var3.set;
+                var1 = true;
+                var1 = var2.bind(var3)(var1);
  47:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        oscard = {};
-        oscard['enableAnimation'] = zuuluu;
-        michal['__closure'] = oscard;
-        oscard = 5697261629076.0;
-        michal['__workletHash'] = oscard;
-        entity = _closure1_slot5;
-        michal['__initData'] = entity;
-        entity = new Array(1);
-        entity[0] = zuuluu;
-        michal = tangon.bind(report)(michal, entity);
-        entity = new Array(2);
-        entity[0] = zuuluu;
-        entity[1] = michal;
-        return entity;
+        var6 = {};
+        var6['enableAnimation'] = var3;
+        var2['__closure'] = var6;
+        var6 = 5697261629076.0;
+        var2['__workletHash'] = var6;
+        var1 = _closure1_slot5;
+        var2['__initData'] = var1;
+        var1 = new Array(1);
+        var1[0] = var3;
+        var2 = var4.bind(var5)(var2, var1);
+        var1 = new Array(2);
+        var1[0] = var3;
+        var1[1] = var2;
+        return var1;
     };
-    zuuluu['useFlashListAnimationDisabler'] = michal;
-    return entity;
+    var3['useFlashListAnimationDisabler'] = var2;
+    return var1;
 })();

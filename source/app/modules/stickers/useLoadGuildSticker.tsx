@@ -1,137 +1,137 @@
 // app/modules/stickers/useLoadGuildSticker.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/stickers/useLoadGuildSticker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useLoadGuildStickers
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot4;
-        tangon = report.useState;
-        zuuluu = true;
-        golfie = tangon.bind(report)(zuuluu);
-        tangon = _closure1_slot3;
-        zuuluu = undefined;
-        michal = 2;
-        tangon = tangon.bind(zuuluu)(golfie, michal);
-        michal = 0;
-        michal = tangon[michal];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot1 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        entity = function() {
-            michal = false;
-            var _closure3_slot0 = michal;
-            michal = function() {
-                tangon = _closure1_slot2;
-                zuuluu = undefined;
-                michal = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/stickers/useLoadGuildSticker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useLoadGuildStickers(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot4;
+        var4 = var5.useState;
+        var3 = true;
+        var7 = var4.bind(var5)(var3);
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var2 = 2;
+        var4 = var4.bind(var3)(var7, var2);
+        var2 = 0;
+        var2 = var4[var2];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot1 = var3;
+        var4 = var5.useEffect;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var1 = function() {
+            var2 = false;
+            var _closure3_slot0 = var2;
+            var2 = function() {
+                var4 = _closure1_slot2;
+                var3 = undefined;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00002_ip = 98; continue _fun00001 }
+                            if(var2) { _fun0001_ip = 98; continue _fun0001 }
  7:
-                            report = _closure2_slot1;
-                            zuuluu = undefined;
-                            michal = true;
-                            michal = report.bind(zuuluu)(michal);
-                            report = _closure1_slot0;
-                            oscard = _closure1_slot1;
-                            michal = 3;
-                            michal = oscard[michal];
-                            oscard = report.bind(zuuluu)(michal);
-                            report = oscard.fetchGuildStickers;
-                            michal = _closure2_slot0;
-                            michal = report.bind(oscard)(michal);
+                            var5 = _closure2_slot1;
+                            var3 = undefined;
+                            var2 = true;
+                            var2 = var5.bind(var3)(var2);
+                            var5 = _closure1_slot0;
+                            var6 = _closure1_slot1;
+                            var2 = 3;
+                            var2 = var6[var2];
+                            var6 = var5.bind(var3)(var2);
+                            var5 = var6.fetchGuildStickers;
+                            var2 = _closure2_slot0;
+                            var2 = var5.bind(var6)(var2);
                             SaveGenerator(address=65);
  63:
-                            return michal;
+                            return var2;
  65:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00002_ip = 95; continue _fun00001 }
+                            if(var5) { _fun0001_ip = 95; continue _fun0001 }
  71:
-                            report = _closure3_slot0;
-                            if(report) { _fun00002_ip = 92; continue _fun00001 }
+                            var5 = _closure3_slot0;
+                            if(var5) { _fun0001_ip = 92; continue _fun0001 }
  81:
-                            report = _closure2_slot1;
-                            tangon = false;
-                            tangon = report.bind(zuuluu)(tangon);
+                            var5 = _closure2_slot1;
+                            var4 = false;
+                            var4 = var5.bind(var3)(var4);
  92:
-                            return zuuluu;
+                            return var3;
  95:
-                            return michal;
+                            return var2;
  98:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure4_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure4_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure4_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure4_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)();
-            michal = michal.bind(zuuluu)();
-            entity = function() {
-                entity = true;
-                _closure3_slot0 = entity;
-                entity = undefined;
-                return entity;
+            var3 = undefined;
+            var2 = var2.bind(var3)();
+            var2 = var2.bind(var3)();
+            var1 = function() {
+                var1 = true;
+                _closure3_slot0 = var1;
+                var1 = undefined;
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        entity = tangon.bind(report)(entity, zuuluu);
-        entity = {};
-        entity['isLoading'] = michal;
-        return entity;
+        var1 = var4.bind(var5)(var1, var3);
+        var1 = {};
+        var1['isLoading'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

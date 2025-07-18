@@ -1,393 +1,393 @@
 // app/lib/web/AppWindowContext.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    report = function(argFoo) { // Original name: getWindowDispatchForElement
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var5 = function getWindowDispatchForElement(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            entity = entity.ownerDocument;
-            oscard = entity.defaultView;
-            zuuluu = null;
-            if(!(zuuluu == oscard)) { _fun00002_ip = 25; continue _fun00001 }
+            var1 = arg1;
+            var1 = var1.ownerDocument;
+            var6 = var1.defaultView;
+            var3 = null;
+            if(!(var3 == var6)) { _fun0001_ip = 25; continue _fun0001 }
  21:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  25:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 5;
-            tangon = tangon[entity];
-            entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.getWindowId;
-            report = tangon.bind(report)(oscard);
-            tangon = _closure1_slot6;
-            michal = tangon.get;
-            michal = michal.bind(tangon)(report);
-            zuuluu = zuuluu == michal;
-            if(zuuluu) { _fun00002_ip = 88; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 5;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.getWindowId;
+            var5 = var4.bind(var5)(var6);
+            var4 = _closure1_slot6;
+            var2 = var4.get;
+            var2 = var2.bind(var4)(var5);
+            var3 = var3 == var2;
+            if(var3) { _fun0001_ip = 88; continue _fun0001 }
  82:
-            entity = michal.windowDispatch;
+            var1 = var2.windowDispatch;
  88:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = report;
-    tangon = function() { // Original name: getCurrentlyInteractingAppWindowContext
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var5;
+    var4 = function getCurrentlyInteractingAppWindowContext() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.getCurrentlyInteractingWindowId;
-            report = entity.bind(michal)();
-            michal = null;
-            tangon = michal == report;
-            entity = null;
-            if(tangon) { _fun00004_ip = 75; continue _fun00003 }
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.getCurrentlyInteractingWindowId;
+            var5 = var1.bind(var2)();
+            var2 = null;
+            var4 = var2 == var5;
+            var1 = null;
+            if(var4) { _fun0002_ip = 75; continue _fun0002 }
  46:
-            tangon = _closure1_slot6;
-            zuuluu = tangon.get;
-            zuuluu = zuuluu.bind(tangon)(report);
-            tangon = michal != zuuluu;
-            michal = null;
-            if(!tangon) { _fun00004_ip = 72; continue _fun00003 }
+            var4 = _closure1_slot6;
+            var3 = var4.get;
+            var3 = var3.bind(var4)(var5);
+            var4 = var2 != var3;
+            var2 = null;
+            if(!var4) { _fun0002_ip = 72; continue _fun0002 }
  69:
-            michal = zuuluu;
+            var2 = var3;
  72:
-            entity = michal;
+            var1 = var2;
  75:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    option = global;
-    yankee = option.Object;
-    golfie = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    golfie = offset[entity];
-    oscard = argBaz;
-    entity = undefined;
-    oscard = oscard.bind(entity)(golfie);
-    var _closure1_slot2 = oscard;
-    oscard = 1;
-    golfie = offset[oscard];
-    oscard = argCor;
-    romeon = oscard.bind(entity)(golfie);
-    var _closure1_slot3 = romeon;
-    oscard = 2;
-    oscard = offset[oscard];
-    oscard = verify.bind(entity)(oscard);
-    foxtra = oscard.AppContext;
-    oscard = 3;
-    oscard = offset[oscard];
-    oscard = verify.bind(entity)(oscard);
-    oscard = oscard.jsx;
-    var _closure1_slot4 = oscard;
-    oscard = 4;
-    oscard = offset[oscard];
-    oscard = verify.bind(entity)(oscard);
-    oscard = oscard.ComponentDispatcher;
-    golfie = oscard.prototype;
-    golfie = Object.create(golfie, {constructor: {value: oscard}});
-    result = golfie;
-    oscard = new result[oscard](output);
-    oscard = oscard instanceof Object ? oscard : golfie;
-    yankee = romeon.createContext;
-    golfie = {};
-    foxtra = foxtra.APP;
-    golfie['appContext'] = foxtra;
-    foxtra = option.window;
-    golfie['renderWindow'] = foxtra;
-    golfie['windowDispatch'] = oscard;
-    foxtra = 5;
-    foxtra = offset[foxtra];
-    backup = verify.bind(entity)(foxtra);
-    foxtra = backup.getMainWindowId;
-    foxtra = foxtra.bind(backup)();
-    golfie['windowId'] = foxtra;
-    golfie = yankee.bind(romeon)(golfie);
-    var _closure1_slot5 = golfie;
-    option = option.Map;
-    yankee = option.prototype;
-    yankee = Object.create(yankee, {constructor: {value: option}});
-    result = yankee;
-    option = new result[option](output);
-    option = option instanceof Object ? option : yankee;
-    var _closure1_slot6 = option;
-    option = 8;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'lib/web/AppWindowContext.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['default'] = golfie;
-    zuuluu['MainWindowDispatch'] = oscard;
-    zuuluu['getWindowDispatchForElement'] = report;
-    report = function(argFoo) { // Original name: getWindowDispatchForEvent
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var4;
+    var8 = global;
+    var11 = var8.Object;
+    var7 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var7 = var10[var1];
+    var6 = native3;
+    var1 = undefined;
+    var6 = var6.bind(var1)(var7);
+    var _closure1_slot2 = var6;
+    var6 = 1;
+    var7 = var10[var6];
+    var6 = native4;
+    var12 = var6.bind(var1)(var7);
+    var _closure1_slot3 = var12;
+    var6 = 2;
+    var6 = var10[var6];
+    var6 = var9.bind(var1)(var6);
+    var13 = var6.AppContext;
+    var6 = 3;
+    var6 = var10[var6];
+    var6 = var9.bind(var1)(var6);
+    var6 = var6.jsx;
+    var _closure1_slot4 = var6;
+    var6 = 4;
+    var6 = var10[var6];
+    var6 = var9.bind(var1)(var6);
+    var6 = var6.ComponentDispatcher;
+    var7 = var6.prototype;
+    var7 = Object.create(var7, {constructor: {value: var6}});
+    var18 = var7;
+    var6 = new var18[var6](var17);
+    var6 = var6 instanceof Object ? var6 : var7;
+    var11 = var12.createContext;
+    var7 = {};
+    var13 = var13.APP;
+    var7['appContext'] = var13;
+    var13 = var8.window;
+    var7['renderWindow'] = var13;
+    var7['windowDispatch'] = var6;
+    var13 = 5;
+    var13 = var10[var13];
+    var14 = var9.bind(var1)(var13);
+    var13 = var14.getMainWindowId;
+    var13 = var13.bind(var14)();
+    var7['windowId'] = var13;
+    var7 = var11.bind(var12)(var7);
+    var _closure1_slot5 = var7;
+    var8 = var8.Map;
+    var11 = var8.prototype;
+    var11 = Object.create(var11, {constructor: {value: var8}});
+    var18 = var11;
+    var8 = new var18[var8](var17);
+    var8 = var8 instanceof Object ? var8 : var11;
+    var _closure1_slot6 = var8;
+    var8 = 8;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'lib/web/AppWindowContext.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['MainWindowDispatch'] = var6;
+    var3['getWindowDispatchForElement'] = var5;
+    var5 = function getWindowDispatchForEvent(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 6;
-            entity = report[entity];
-            report = undefined;
-            golfie = tangon.bind(report)(entity);
-            oscard = golfie.isElement;
-            tangon = null;
-            option = tangon == michal;
-            entity = undefined;
-            if(option) { _fun00006_ip = 51; continue _fun00005 }
+            var2 = arg1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 6;
+            var1 = var5[var1];
+            var5 = undefined;
+            var7 = var4.bind(var5)(var1);
+            var6 = var7.isElement;
+            var4 = null;
+            var8 = var4 == var2;
+            var1 = undefined;
+            if(var8) { _fun0003_ip = 51; continue _fun0003 }
  45:
-            entity = michal.target;
+            var1 = var2.target;
  51:
-            oscard = oscard.bind(golfie)(entity);
-            entity = null;
-            if(!oscard) { _fun00006_ip = 88; continue _fun00005 }
+            var6 = var6.bind(var7)(var1);
+            var1 = null;
+            if(!var6) { _fun0003_ip = 88; continue _fun0003 }
  61:
-            zuuluu = _closure1_slot7;
-            michal = michal.target;
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = tangon != michal;
-            entity = null;
-            if(!zuuluu) { _fun00006_ip = 88; continue _fun00005 }
+            var3 = _closure1_slot7;
+            var2 = var2.target;
+            var2 = var3.bind(var5)(var2);
+            var3 = var4 != var2;
+            var1 = null;
+            if(!var3) { _fun0003_ip = 88; continue _fun0003 }
  85:
-            entity = michal;
+            var1 = var2;
  88:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getWindowDispatchForEvent'] = report;
-    zuuluu['getCurrentlyInteractingAppWindowContext'] = tangon;
-    tangon = function(argFoo) { // Original name: getAppWindowContextValue
-        zuuluu = _closure1_slot6;
-        michal = zuuluu.get;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['getWindowDispatchForEvent'] = var5;
+    var3['getCurrentlyInteractingAppWindowContext'] = var4;
+    var4 = function getAppWindowContextValue(arg1) {
+        var3 = _closure1_slot6;
+        var2 = var3.get;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getAppWindowContextValue'] = tangon;
-    tangon = function() { // Original name: getCurrentlyInteractingAppContext
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getAppWindowContextValue'] = var4;
+    var4 = function getCurrentlyInteractingAppContext() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = _closure1_slot8;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            entity = null;
-            zuuluu = entity != michal;
-            if(!zuuluu) { _fun00008_ip = 28; continue _fun00007 }
+            var2 = _closure1_slot8;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var1 = null;
+            var3 = var1 != var2;
+            if(!var3) { _fun0004_ip = 28; continue _fun0004 }
  22:
-            entity = michal.appContext;
+            var1 = var2.appContext;
  28:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getCurrentlyInteractingAppContext'] = tangon;
-    tangon = function(argFoo) { // Original name: AppWindowContextProvider
-        entity = argFoo;
-        zuuluu = entity.appContext;
-        michal = entity.renderWindow;
-        report = entity.children;
-        entity = function(argFoo, argBar) { // Original name: useWindowContextValue
-            option = argFoo;
-            golfie = argBar;
-            var _closure3_slot0 = option;
-            var _closure3_slot1 = golfie;
-            report = _closure1_slot3;
-            tangon = report.useState;
-            verify = _closure1_slot0;
-            oscard = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = oscard[zuuluu];
-            oscard = undefined;
-            verify = verify.bind(oscard)(zuuluu);
-            zuuluu = verify.getWindowId;
-            zuuluu = zuuluu.bind(verify)(golfie);
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            zuuluu = zuuluu.bind(oscard)(tangon, entity);
-            entity = 0;
-            oscard = zuuluu[entity];
-            var _closure3_slot2 = oscard;
-            entity = 1;
-            entity = zuuluu[entity];
-            var _closure3_slot3 = entity;
-            tangon = report.useMemo;
-            zuuluu = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.ComponentDispatcher;
-                michal = entity.prototype;
-                michal = Object.create(michal, {constructor: {value: entity}});
-                report = michal;
-                entity = new report[entity](tangon);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+    var3['getCurrentlyInteractingAppContext'] = var4;
+    var4 = function AppWindowContextProvider(arg1) {
+        var1 = arg1;
+        var3 = var1.appContext;
+        var2 = var1.renderWindow;
+        var5 = var1.children;
+        var1 = function useWindowContextValue(arg1, arg2) {
+            var8 = arg1;
+            var7 = arg2;
+            var _closure3_slot0 = var8;
+            var _closure3_slot1 = var7;
+            var5 = _closure1_slot3;
+            var4 = var5.useState;
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 5;
+            var3 = var6[var3];
+            var6 = undefined;
+            var9 = var9.bind(var6)(var3);
+            var3 = var9.getWindowId;
+            var3 = var3.bind(var9)(var7);
+            var4 = var4.bind(var5)(var3);
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var3 = var3.bind(var6)(var4, var1);
+            var1 = 0;
+            var6 = var3[var1];
+            var _closure3_slot2 = var6;
+            var1 = 1;
+            var1 = var3[var1];
+            var _closure3_slot3 = var1;
+            var4 = var5.useMemo;
+            var3 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.ComponentDispatcher;
+                var2 = var1.prototype;
+                var2 = Object.create(var2, {constructor: {value: var1}});
+                var5 = var2;
+                var1 = new var5[var1](var4);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             };
-            entity = new Array(0);
-            entity = tangon.bind(report)(zuuluu, entity);
-            var _closure3_slot4 = entity;
-            tangon = report.useMemo;
-            zuuluu = new Array(4);
-            zuuluu[0] = option;
-            zuuluu[1] = golfie;
-            zuuluu[2] = entity;
-            zuuluu[3] = oscard;
-            entity = function() {
-                entity = {};
-                zuuluu = _closure3_slot0;
-                entity['appContext'] = zuuluu;
-                zuuluu = _closure3_slot1;
-                entity['renderWindow'] = zuuluu;
-                zuuluu = _closure3_slot4;
-                entity['windowDispatch'] = zuuluu;
-                michal = _closure3_slot2;
-                entity['windowId'] = michal;
-                return entity;
+            var1 = new Array(0);
+            var1 = var4.bind(var5)(var3, var1);
+            var _closure3_slot4 = var1;
+            var4 = var5.useMemo;
+            var3 = new Array(4);
+            var3[0] = var8;
+            var3[1] = var7;
+            var3[2] = var1;
+            var3[3] = var6;
+            var1 = function() {
+                var1 = {};
+                var3 = _closure3_slot0;
+                var1['appContext'] = var3;
+                var3 = _closure3_slot1;
+                var1['renderWindow'] = var3;
+                var3 = _closure3_slot4;
+                var1['windowDispatch'] = var3;
+                var2 = _closure3_slot2;
+                var1['windowId'] = var2;
+                return var1;
             };
-            entity = tangon.bind(report)(entity, zuuluu);
-            var _closure3_slot5 = entity;
-            option = report.useEffect;
-            tangon = new Array(2);
-            tangon[0] = golfie;
-            tangon[1] = oscard;
-            zuuluu = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var1 = var4.bind(var5)(var1, var3);
+            var _closure3_slot5 = var1;
+            var8 = var5.useEffect;
+            var4 = new Array(2);
+            var4[0] = var7;
+            var4[1] = var6;
+            var3 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = _closure3_slot2;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00010_ip = 19; continue _fun00009 }
+                    var3 = _closure3_slot2;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 19; continue _fun0005 }
  15:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  19:
-                    michal = global;
-                    report = michal.setInterval;
-                    tangon = undefined;
-                    zuuluu = function() {
-                        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                    var2 = global;
+                    var5 = var2.setInterval;
+                    var4 = undefined;
+                    var3 = function() {
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                            zuuluu = _closure1_slot0;
-                            michal = _closure1_slot1;
-                            entity = 5;
-                            michal = michal[entity];
-                            entity = undefined;
-                            report = zuuluu.bind(entity)(michal);
-                            tangon = report.getWindowId;
-                            zuuluu = _closure3_slot1;
-                            zuuluu = tangon.bind(report)(zuuluu);
-                            tangon = null;
-                            if(!(tangon != zuuluu)) { _fun00012_ip = 78; continue _fun00011 }
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot1;
+                            var1 = 5;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var5 = var3.bind(var1)(var2);
+                            var4 = var5.getWindowId;
+                            var3 = _closure3_slot1;
+                            var3 = var4.bind(var5)(var3);
+                            var4 = null;
+                            if(!(var4 != var3)) { _fun0006_ip = 78; continue _fun0006 }
  49:
-                            michal = _closure3_slot3;
-                            michal = michal.bind(entity)(zuuluu);
-                            michal = global;
-                            zuuluu = michal.clearInterval;
-                            michal = _closure4_slot0;
-                            michal = zuuluu.bind(entity)(michal);
+                            var2 = _closure3_slot3;
+                            var2 = var2.bind(var1)(var3);
+                            var2 = global;
+                            var3 = var2.clearInterval;
+                            var2 = _closure4_slot0;
+                            var2 = var3.bind(var1)(var2);
  78:
-                            return entity;
+                            return var1;
                         }
                     };
-                    michal = 10;
-                    michal = report.bind(tangon)(zuuluu, michal);
-                    var _closure4_slot0 = michal;
-                    entity = function() {
-                        entity = global;
-                        zuuluu = entity.clearInterval;
-                        michal = _closure4_slot0;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
-                        return entity;
+                    var2 = 10;
+                    var2 = var5.bind(var4)(var3, var2);
+                    var _closure4_slot0 = var2;
+                    var1 = function() {
+                        var1 = global;
+                        var3 = var1.clearInterval;
+                        var2 = _closure4_slot0;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        return var1;
                     };
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = option.bind(report)(zuuluu, tangon);
-            tangon = report.useEffect;
-            zuuluu = new Array(3);
-            zuuluu[0] = entity;
-            zuuluu[1] = golfie;
-            zuuluu[2] = oscard;
-            michal = function() {
-                oscard = _closure1_slot6;
-                report = oscard.set;
-                tangon = _closure3_slot2;
-                zuuluu = _closure3_slot5;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
-                report = function() { // Original name: handleUnload
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.delete;
-                    entity = _closure3_slot2;
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+            var3 = var8.bind(var5)(var3, var4);
+            var4 = var5.useEffect;
+            var3 = new Array(3);
+            var3[0] = var1;
+            var3[1] = var7;
+            var3[2] = var6;
+            var2 = function() {
+                var6 = _closure1_slot6;
+                var5 = var6.set;
+                var4 = _closure3_slot2;
+                var3 = _closure3_slot5;
+                var3 = var5.bind(var6)(var4, var3);
+                var5 = function handleUnload() {
+                    var3 = _closure1_slot6;
+                    var2 = var3.delete;
+                    var1 = _closure3_slot2;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                var _closure4_slot0 = report;
-                tangon = _closure3_slot1;
-                zuuluu = tangon.addEventListener;
-                michal = 'unload';
-                michal = zuuluu.bind(tangon)(michal, report);
-                entity = function() {
-                    tangon = _closure3_slot1;
-                    zuuluu = tangon.removeEventListener;
-                    michal = _closure4_slot0;
-                    entity = 'unload';
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var _closure4_slot0 = var5;
+                var4 = _closure3_slot1;
+                var3 = var4.addEventListener;
+                var2 = 'unload';
+                var2 = var3.bind(var4)(var2, var5);
+                var1 = function() {
+                    var4 = _closure3_slot1;
+                    var3 = var4.removeEventListener;
+                    var2 = _closure4_slot0;
+                    var1 = 'unload';
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         };
-        tangon = undefined;
-        oscard = entity.bind(tangon)(zuuluu, michal);
-        zuuluu = _closure1_slot4;
-        entity = _closure1_slot5;
-        michal = entity.Provider;
-        entity = {};
-        entity['value'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var4 = undefined;
+        var6 = var1.bind(var4)(var3, var2);
+        var3 = _closure1_slot4;
+        var1 = _closure1_slot5;
+        var2 = var1.Provider;
+        var1 = {};
+        var1['value'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['AppWindowContextProvider'] = tangon;
-    tangon = function() { // Original name: useAppContext
-        zuuluu = _closure1_slot3;
-        michal = zuuluu.useContext;
-        entity = _closure1_slot5;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.appContext;
-        return entity;
+    var3['AppWindowContextProvider'] = var4;
+    var4 = function useAppContext() {
+        var3 = _closure1_slot3;
+        var2 = var3.useContext;
+        var1 = _closure1_slot5;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.appContext;
+        return var1;
     };
-    zuuluu['useAppContext'] = tangon;
-    michal = function() { // Original name: useWindowDispatch
-        zuuluu = _closure1_slot3;
-        michal = zuuluu.useContext;
-        entity = _closure1_slot5;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.windowDispatch;
-        return entity;
+    var3['useAppContext'] = var4;
+    var2 = function useWindowDispatch() {
+        var3 = _closure1_slot3;
+        var2 = var3.useContext;
+        var1 = _closure1_slot5;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.windowDispatch;
+        return var1;
     };
-    zuuluu['useWindowDispatch'] = michal;
-    return entity;
+    var3['useWindowDispatch'] = var2;
+    return var1;
 })();

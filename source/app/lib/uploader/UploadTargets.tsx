@@ -1,213 +1,213 @@
 // app/lib/uploader/UploadTargets.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    offset = 0;
-    tangon = golfie[offset];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    verify = 1;
-    tangon = golfie[verify];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    option = 2;
-    tangon = golfie[option];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.Endpoints;
-    var _closure1_slot7 = report;
-    tangon = tangon.MAX_UPLOAD_COUNT;
-    var _closure1_slot8 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot5;
-        zuuluu = function() { // Original name: MessageAttachmentUploadTarget
-            tangon = _closure1_slot4;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            michal = this;
-            michal = tangon.bind(entity)(michal, zuuluu);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var10 = 0;
+    var4 = var7[var10];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var9 = 1;
+    var4 = var7[var9];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var8 = 2;
+    var4 = var7[var8];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.Endpoints;
+    var _closure1_slot7 = var5;
+    var4 = var4.MAX_UPLOAD_COUNT;
+    var _closure1_slot8 = var4;
+    var4 = function() {
+        var4 = _closure1_slot5;
+        var3 = function MessageAttachmentUploadTarget() {
+            var4 = _closure1_slot4;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var2 = this;
+            var2 = var4.bind(var1)(var2, var3);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'getCreateAttachmentURL';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.MESSAGE_CREATE_ATTACHMENT_UPLOAD;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'getCreateAttachmentURL';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            var3 = _closure1_slot7;
+            var2 = var3.MESSAGE_CREATE_ATTACHMENT_UPLOAD;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(6);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'getDeleteUploadURL';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.MESSAGE_DELETE_UPLOAD;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(6);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getDeleteUploadURL';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot7;
+            var2 = var3.MESSAGE_DELETE_UPLOAD;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'getMaxFileSize';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'getMaxFileSize';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure1_slot6;
-                zuuluu = tangon.getBasicChannel;
-                michal = argFoo;
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = _closure1_slot2;
-                michal = _closure1_slot3;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.maxFileSize;
-                report = null;
-                report = report == tangon;
-                if(report) { _fun00002_ip = 63; continue _fun00001 }
+                var4 = _closure1_slot6;
+                var3 = var4.getBasicChannel;
+                var2 = arg1;
+                var4 = var3.bind(var4)(var2);
+                var3 = _closure1_slot2;
+                var2 = _closure1_slot3;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.maxFileSize;
+                var5 = null;
+                var5 = var5 == var4;
+                if(var5) { _fun0001_ip = 63; continue _fun0001 }
  58:
-                entity = tangon.guild_id;
+                var1 = var4.guild_id;
  63:
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'getMaxAttachmentsCount';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot8;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'getMaxAttachmentsCount';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = _closure1_slot8;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'getMaxTotalAttachmentSize';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot3;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            entity = entity.MAX_TOTAL_ATTACHMENT_SIZE;
-            return entity;
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'getMaxTotalAttachmentSize';
+        var1['key'] = var6;
+        var6 = function value() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot3;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.MAX_TOTAL_ATTACHMENT_SIZE;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'shouldReactNativeCompressUploads';
-        entity['key'] = oscard;
-        report = function() { // Original name: get
-            entity = true;
-            return entity;
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'shouldReactNativeCompressUploads';
+        var1['key'] = var6;
+        var5 = function get() {
+            var1 = true;
+            return var1;
         };
-        entity['get'] = report;
-        michal[5] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['get'] = var5;
+        var2[5] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    tangon['MESSAGE_ATTACHMENT'] = offset;
-    report = 'MESSAGE_ATTACHMENT';
-    tangon[offset] = report;
-    tangon['GUILD_PRODUCT_ATTACHMENT'] = verify;
-    report = 'GUILD_PRODUCT_ATTACHMENT';
-    tangon[verify] = report;
-    tangon['GRAVITY_ATTACHMENT'] = option;
-    report = 'GRAVITY_ATTACHMENT';
-    tangon[option] = report;
-    var _closure1_slot10 = tangon;
-    report = 8;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'lib/uploader/UploadTargets.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['UploadTargets'] = tangon;
-    michal = function(argFoo) { // Original name: getUploadTarget
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var4['MESSAGE_ATTACHMENT'] = var10;
+    var5 = 'MESSAGE_ATTACHMENT';
+    var4[var10] = var5;
+    var4['GUILD_PRODUCT_ATTACHMENT'] = var9;
+    var5 = 'GUILD_PRODUCT_ATTACHMENT';
+    var4[var9] = var5;
+    var4['GRAVITY_ATTACHMENT'] = var8;
+    var5 = 'GRAVITY_ATTACHMENT';
+    var4[var8] = var5;
+    var _closure1_slot10 = var4;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'lib/uploader/UploadTargets.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['UploadTargets'] = var4;
+    var2 = function getUploadTarget(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot10;
-            michal = michal.GUILD_PRODUCT_ATTACHMENT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
+            var3 = arg1;
+            var2 = _closure1_slot10;
+            var2 = var2.GUILD_PRODUCT_ATTACHMENT;
+            if(!(var2 !== var3)) { _fun0002_ip = 114; continue _fun0002 }
  20:
-            michal = _closure1_slot10;
-            michal = michal.GRAVITY_ATTACHMENT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 70; continue _fun00003 }
+            var2 = _closure1_slot10;
+            var2 = var2.GRAVITY_ATTACHMENT;
+            if(!(var2 !== var3)) { _fun0002_ip = 70; continue _fun0002 }
  34:
-            michal = _closure1_slot10;
-            michal = michal.MESSAGE_ATTACHMENT;
-            michal = _closure1_slot9;
-            zuuluu = michal.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-            oscard = zuuluu;
-            michal = new oscard[michal](report);
-            michal = michal instanceof Object ? michal : zuuluu;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.MESSAGE_ATTACHMENT;
+            var2 = _closure1_slot9;
+            var3 = var2.prototype;
+            var3 = Object.create(var3, {constructor: {value: var2}});
+            var6 = var3;
+            var2 = new var6[var2](var5);
+            var2 = var2 instanceof Object ? var2 : var3;
+            return var2;
  70:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot3;
-            michal = 7;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            zuuluu = michal.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-            oscard = zuuluu;
-            michal = new oscard[michal](report);
-            michal = michal instanceof Object ? michal : zuuluu;
-            return michal;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot3;
+            var2 = 7;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var3 = var2.prototype;
+            var3 = Object.create(var3, {constructor: {value: var2}});
+            var6 = var3;
+            var2 = new var6[var2](var5);
+            var2 = var2 instanceof Object ? var2 : var3;
+            return var2;
  114:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot3;
-            entity = 6;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            oscard = michal;
-            entity = new oscard[entity](report);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot3;
+            var1 = 6;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var6 = var2;
+            var1 = new var6[var1](var5);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         }
     };
-    zuuluu['getUploadTarget'] = michal;
-    return entity;
+    var3['getUploadTarget'] = var2;
+    return var1;
 })();

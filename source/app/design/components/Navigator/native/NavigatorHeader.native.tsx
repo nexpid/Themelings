@@ -1,707 +1,707 @@
 // app/design/components/Navigator/native/NavigatorHeader.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = option;
-    tangon = function() { // Original name: HeaderBackImage
-        michal = _closure1_slot8;
-        tangon = undefined;
-        report = michal.bind(tangon)();
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 8;
-        entity = oscard[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.ArrowLargeLeftIcon;
-        entity = {};
-        oscard = 'md';
-        entity['size'] = oscard;
-        report = report.headerButtonIcon;
-        entity['style'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var12 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var8;
+    var4 = function HeaderBackImage() {
+        var2 = _closure1_slot8;
+        var4 = undefined;
+        var5 = var2.bind(var4)();
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var1 = var6[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.ArrowLargeLeftIcon;
+        var1 = {};
+        var6 = 'md';
+        var1['size'] = var6;
+        var5 = var5.headerButtonIcon;
+        var1['style'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot9 = tangon;
-    entity = function(argFoo) { // Original name: CloseButton
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot9 = var4;
+    var1 = function CloseButton(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            option = tangon.onPress;
-            michal = null;
-            zuuluu = Object.create(michal);
-            entity = 0;
-            zuuluu['onPress'] = entity;
-            foxtra = {};
-            romeon = tangon;
-            yankee = zuuluu;
-            golfie = copyDataProperties(foxtra, romeon, yankee);
-            tangon = undefined;
-            var _closure2_slot2 = tangon;
-            zuuluu = _closure1_slot8;
-            zuuluu = zuuluu.bind(tangon)();
-            var _closure2_slot0 = zuuluu;
-            oscard = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 9;
-            zuuluu = verify[zuuluu];
-            oscard = oscard.bind(tangon)(zuuluu);
-            zuuluu = oscard.useNavigation;
-            zuuluu = zuuluu.bind(oscard)();
-            var _closure2_slot1 = zuuluu;
-            if(!(michal == option)) { _fun00002_ip = 97; continue _fun00001 }
+            var4 = arg1;
+            var8 = var4.onPress;
+            var2 = null;
+            var3 = Object.create(var2);
+            var1 = 0;
+            var3['onPress'] = var1;
+            var13 = {};
+            var12 = var4;
+            var11 = var3;
+            var7 = copyDataProperties(var13, var12, var11);
+            var4 = undefined;
+            var _closure2_slot2 = var4;
+            var3 = _closure1_slot8;
+            var3 = var3.bind(var4)();
+            var _closure2_slot0 = var3;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 9;
+            var3 = var9[var3];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.useNavigation;
+            var3 = var3.bind(var6)();
+            var _closure2_slot1 = var3;
+            if(!(var2 == var8)) { _fun0001_ip = 97; continue _fun0001 }
  92:
-            option = function() {
-                michal = _closure2_slot1;
-                entity = michal.pop;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+            var8 = function() {
+                var2 = _closure2_slot1;
+                var1 = var2.pop;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
             };
  97:
-            _closure2_slot2 = option;
-            michal = _closure1_slot0;
-            verify = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = verify[zuuluu];
-            offset = michal.bind(tangon)(zuuluu);
-            oscard = offset.useNavigatorBackPressHandler;
-            zuuluu = function() {
-                michal = _closure2_slot2;
-                entity = undefined;
-                entity = michal.bind(entity)();
-                entity = true;
-                return entity;
+            _closure2_slot2 = var8;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 10;
+            var3 = var9[var3];
+            var10 = var2.bind(var4)(var3);
+            var6 = var10.useNavigatorBackPressHandler;
+            var3 = function() {
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                var1 = true;
+                return var1;
             };
-            zuuluu = oscard.bind(offset)(zuuluu);
-            zuuluu = 11;
-            oscard = verify[zuuluu];
-            oscard = michal.bind(tangon)(oscard);
-            offset = oscard.intl;
-            oscard = offset.string;
-            zuuluu = verify[zuuluu];
-            zuuluu = michal.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.cpT0Cg;
-            oscard = oscard.bind(offset)(zuuluu);
-            zuuluu = _closure1_slot6;
-            entity = 12;
-            entity = verify[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.HeaderBackButton;
-            entity = {};
-            foxtra = entity;
-            romeon = golfie;
-            golfie = copyDataProperties(foxtra, romeon);
-            golfie = 'onPress';
-            entity[golfie] = option;
-            golfie = 'label';
-            entity[golfie] = oscard;
-            option = false;
-            golfie = 'labelVisible';
-            entity[golfie] = option;
-            golfie = function(argFoo) { // Original name: backImage
-                entity = argFoo;
-                golfie = entity.tintColor;
-                tangon = _closure1_slot6;
-                michal = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 13;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                entity = michal.bind(zuuluu)(entity);
-                michal = entity.XSmallIcon;
-                entity = {};
-                report = 'md';
-                entity['size'] = report;
-                report = _closure2_slot0;
-                oscard = report.headerButtonIcon;
-                report = new Array(2);
-                report[0] = oscard;
-                oscard = {};
-                oscard['tintColor'] = golfie;
-                report[1] = oscard;
-                entity['style'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
-                return entity;
+            var3 = var6.bind(var10)(var3);
+            var3 = 11;
+            var6 = var9[var3];
+            var6 = var2.bind(var4)(var6);
+            var10 = var6.intl;
+            var6 = var10.string;
+            var3 = var9[var3];
+            var3 = var2.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.cpT0Cg;
+            var6 = var6.bind(var10)(var3);
+            var3 = _closure1_slot6;
+            var1 = 12;
+            var1 = var9[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.HeaderBackButton;
+            var1 = {};
+            var13 = var1;
+            var12 = var7;
+            var7 = copyDataProperties(var13, var12);
+            var7 = 'onPress';
+            var1[var7] = var8;
+            var7 = 'label';
+            var1[var7] = var6;
+            var8 = false;
+            var7 = 'labelVisible';
+            var1[var7] = var8;
+            var7 = function backImage(arg1) {
+                var1 = arg1;
+                var7 = var1.tintColor;
+                var4 = _closure1_slot6;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 13;
+                var1 = var3[var1];
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.XSmallIcon;
+                var1 = {};
+                var5 = 'md';
+                var1['size'] = var5;
+                var5 = _closure2_slot0;
+                var6 = var5.headerButtonIcon;
+                var5 = new Array(2);
+                var5[0] = var6;
+                var6 = {};
+                var6['tintColor'] = var7;
+                var5[1] = var6;
+                var1['style'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
             };
-            report = 'backImage';
-            entity[report] = golfie;
-            report = 'accessibilityLabel';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = 'backImage';
+            var1[var5] = var7;
+            var5 = 'accessibilityLabel';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = function(argFoo) { // Original name: CustomHeaderBackButton
-        zuuluu = argFoo;
-        golfie = zuuluu.onPress;
-        var _closure2_slot0 = golfie;
-        entity = null;
-        michal = Object.create(entity);
-        entity = 0;
-        michal['onPress'] = entity;
-        foxtra = {};
-        romeon = zuuluu;
-        yankee = michal;
-        romeon = copyDataProperties(foxtra, romeon, yankee);
-        michal = _closure1_slot0;
-        option = _closure1_slot2;
-        zuuluu = 10;
-        zuuluu = option[zuuluu];
-        tangon = undefined;
-        offset = michal.bind(tangon)(zuuluu);
-        verify = offset.useNavigatorBackPressHandler;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function CustomHeaderBackButton(arg1) {
+        var3 = arg1;
+        var7 = var3.onPress;
+        var _closure2_slot0 = var7;
+        var1 = null;
+        var2 = Object.create(var1);
+        var1 = 0;
+        var2['onPress'] = var1;
+        var13 = {};
+        var12 = var3;
+        var11 = var2;
+        var12 = copyDataProperties(var13, var12, var11);
+        var2 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var3 = 10;
+        var3 = var8[var3];
+        var4 = undefined;
+        var10 = var2.bind(var4)(var3);
+        var9 = var10.useNavigatorBackPressHandler;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = null;
-                entity = entity != zuuluu;
-                if(!entity) { _fun00004_ip = 26; continue _fun00003 }
+                var3 = _closure2_slot0;
+                var1 = null;
+                var1 = var1 != var3;
+                if(!var1) { _fun0002_ip = 26; continue _fun0002 }
  16:
-                zuuluu = _closure2_slot0;
-                michal = undefined;
-                michal = zuuluu.bind(michal)();
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var2 = var3.bind(var2)();
  26:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = verify.bind(offset)(zuuluu);
-        zuuluu = _closure1_slot6;
-        entity = 12;
-        entity = option[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.HeaderBackButton;
-        entity = {};
-        foxtra = entity;
-        oscard = copyDataProperties(foxtra, romeon);
-        oscard = 'onPress';
-        entity[oscard] = golfie;
-        golfie = false;
-        oscard = 'labelVisible';
-        entity[oscard] = golfie;
-        oscard = function() { // Original name: backImage
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot9;
-            michal = undefined;
-            entity = {};
-            entity = tangon.bind(michal)(zuuluu, entity);
-            return entity;
+        var3 = var9.bind(var10)(var3);
+        var3 = _closure1_slot6;
+        var1 = 12;
+        var1 = var8[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.HeaderBackButton;
+        var1 = {};
+        var13 = var1;
+        var6 = copyDataProperties(var13, var12);
+        var6 = 'onPress';
+        var1[var6] = var7;
+        var7 = false;
+        var6 = 'labelVisible';
+        var1[var6] = var7;
+        var6 = function backImage() {
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot9;
+            var2 = undefined;
+            var1 = {};
+            var1 = var4.bind(var2)(var3, var1);
+            return var1;
         };
-        report = 'backImage';
-        entity[report] = oscard;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var5 = 'backImage';
+        var1[var5] = var6;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    entity = function(argFoo) { // Original name: HeaderTextButton
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function HeaderTextButton(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            report = tangon.text;
-            michal = tangon.labelStyle;
-            entity = null;
-            zuuluu = Object.create(entity);
-            entity = 0;
-            zuuluu['text'] = entity;
-            zuuluu['labelStyle'] = entity;
-            foxtra = {};
-            romeon = tangon;
-            yankee = zuuluu;
-            oscard = copyDataProperties(foxtra, romeon, yankee);
-            zuuluu = {};
-            golfie = _closure1_slot8;
-            tangon = undefined;
-            golfie = golfie.bind(tangon)();
-            romeon = golfie.headerBackTitleStyle;
-            foxtra = zuuluu;
-            golfie = copyDataProperties(foxtra, romeon);
-            option = 16;
-            golfie = 'marginHorizontal';
-            zuuluu[golfie] = option;
-            verify = new Array(2);
-            verify[0] = zuuluu;
-            verify[1] = michal;
-            zuuluu = _closure1_slot6;
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            entity = 12;
-            entity = option[entity];
-            entity = golfie.bind(tangon)(entity);
-            michal = entity.HeaderBackButton;
-            entity = {};
-            foxtra = entity;
-            romeon = oscard;
-            oscard = copyDataProperties(foxtra, romeon);
-            oscard = 'label';
-            entity[oscard] = report;
-            offset = true;
-            oscard = 'labelVisible';
-            entity[oscard] = offset;
-            oscard = 'labelStyle';
-            entity[oscard] = verify;
-            verify = function() { // Original name: backImage
-                entity = null;
-                return entity;
+            var4 = arg1;
+            var5 = var4.text;
+            var2 = var4.labelStyle;
+            var1 = null;
+            var3 = Object.create(var1);
+            var1 = 0;
+            var3['text'] = var1;
+            var3['labelStyle'] = var1;
+            var13 = {};
+            var12 = var4;
+            var11 = var3;
+            var6 = copyDataProperties(var13, var12, var11);
+            var3 = {};
+            var7 = _closure1_slot8;
+            var4 = undefined;
+            var7 = var7.bind(var4)();
+            var12 = var7.headerBackTitleStyle;
+            var13 = var3;
+            var7 = copyDataProperties(var13, var12);
+            var8 = 16;
+            var7 = 'marginHorizontal';
+            var3[var7] = var8;
+            var9 = new Array(2);
+            var9[0] = var3;
+            var9[1] = var2;
+            var3 = _closure1_slot6;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 12;
+            var1 = var8[var1];
+            var1 = var7.bind(var4)(var1);
+            var2 = var1.HeaderBackButton;
+            var1 = {};
+            var13 = var1;
+            var12 = var6;
+            var6 = copyDataProperties(var13, var12);
+            var6 = 'label';
+            var1[var6] = var5;
+            var10 = true;
+            var6 = 'labelVisible';
+            var1[var6] = var10;
+            var6 = 'labelStyle';
+            var1[var6] = var9;
+            var9 = function backImage() {
+                var1 = null;
+                return var1;
             };
-            oscard = 'backImage';
-            entity[oscard] = verify;
-            oscard = 14;
-            oscard = option[oscard];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = golfie.isAndroid;
-            golfie = oscard.bind(golfie)();
-            oscard = undefined;
-            if(!golfie) { _fun00006_ip = 210; continue _fun00005 }
+            var6 = 'backImage';
+            var1[var6] = var9;
+            var6 = 14;
+            var6 = var8[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.isAndroid;
+            var7 = var6.bind(var7)();
+            var6 = undefined;
+            if(!var7) { _fun0003_ip = 210; continue _fun0003 }
  207:
-            oscard = report;
+            var6 = var5;
  210:
-            report = 'accessibilityLabel';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = 'accessibilityLabel';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot12 = entity;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = option[entity];
-    entity = undefined;
-    report = romeon.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    oscard = option[report];
-    report = argCor;
-    report = report.bind(entity)(oscard);
-    report = 2;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    oscard = report.View;
-    var _closure1_slot4 = oscard;
-    report = report.ActivityIndicator;
-    var _closure1_slot5 = report;
-    report = 3;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    foxtra = report.Fonts;
-    report = 4;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    oscard = report.jsx;
-    var _closure1_slot6 = oscard;
-    report = report.jsxs;
-    var _closure1_slot7 = report;
-    report = 5;
-    report = option[report];
-    verify = golfie.bind(entity)(report);
-    oscard = verify.createStyles;
-    report = {};
-    offset = {};
-    yankee = 6;
-    backup = option[yankee];
-    backup = romeon.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.BACKGROUND_MOBILE_SECONDARY;
-    offset['backgroundColor'] = backup;
-    backup = 'hidden';
-    offset['overflow'] = backup;
-    report['fauxHeaderWrapper'] = offset;
-    offset = {};
-    backup = 7;
-    backup = option[backup];
-    backup = golfie.bind(entity)(backup);
-    backup = backup.TextStyleSheet;
-    output = backup.redesign/heading-18/bold;
-    result = offset;
-    backup = copyDataProperties(result, output);
-    backup = option[yankee];
-    backup = romeon.bind(entity)(backup);
-    backup = backup.colors;
-    kiloes = backup.HEADER_PRIMARY;
-    backup = 'color';
-    offset[backup] = kiloes;
-    report['headerTitle'] = offset;
-    offset = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
-    foxtra = foxtra.PRIMARY_MEDIUM;
-    offset['fontFamily'] = foxtra;
-    foxtra = option[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.HEADER_PRIMARY;
-    offset['color'] = foxtra;
-    report['headerBackTitleStyle'] = offset;
-    offset = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
-    report['navigatorHeaderTitleContainer'] = offset;
-    offset = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
-    report['navigatorHeaderContainer'] = offset;
-    offset = {};
-    foxtra = -2;
-    offset['marginTop'] = foxtra;
-    report['navigatorHeaderSubtitle'] = offset;
-    offset = {'width': 24, 'height': 24};
-    foxtra = option[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.HEADER_PRIMARY;
-    offset['tintColor'] = foxtra;
-    report['headerButtonIcon'] = offset;
-    offset = {'width': 22, 'height': 22};
-    yankee = option[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.INTERACTIVE_NORMAL;
-    offset['color'] = yankee;
-    report['submittingIndicator'] = offset;
-    report = oscard.bind(verify)(report);
-    var _closure1_slot8 = report;
-    oscard = 17;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'design/components/Navigator/native/NavigatorHeader.native.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['useStyles'] = report;
-    report = function(argFoo) { // Original name: NavigatorHeader
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var8[var1];
+    var1 = undefined;
+    var5 = var12.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var6 = var8[var5];
+    var5 = native4;
+    var5 = var5.bind(var1)(var6);
+    var5 = 2;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var6 = var5.View;
+    var _closure1_slot4 = var6;
+    var5 = var5.ActivityIndicator;
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var13 = var5.Fonts;
+    var5 = 4;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var6 = var5.jsx;
+    var _closure1_slot6 = var6;
+    var5 = var5.jsxs;
+    var _closure1_slot7 = var5;
+    var5 = 5;
+    var5 = var8[var5];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createStyles;
+    var5 = {};
+    var10 = {};
+    var11 = 6;
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_MOBILE_SECONDARY;
+    var10['backgroundColor'] = var14;
+    var14 = 'hidden';
+    var10['overflow'] = var14;
+    var5['fauxHeaderWrapper'] = var10;
+    var10 = {};
+    var14 = 7;
+    var14 = var8[var14];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.TextStyleSheet;
+    var17 = var14.redesign/heading-18/bold;
+    var18 = var10;
+    var14 = copyDataProperties(var18, var17);
+    var14 = var8[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var15 = var14.HEADER_PRIMARY;
+    var14 = 'color';
+    var10[var14] = var15;
+    var5['headerTitle'] = var10;
+    var10 = {'fontFamily': null, 'fontSize': 16, 'letterSpacing': 0, 'lineHeight': 20};
+    var13 = var13.PRIMARY_MEDIUM;
+    var10['fontFamily'] = var13;
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.HEADER_PRIMARY;
+    var10['color'] = var13;
+    var5['headerBackTitleStyle'] = var10;
+    var10 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderTitleContainer'] = var10;
+    var10 = {'flexDirection': 'column', 'justifyContent': 'center', 'alignItems': 'center'};
+    var5['navigatorHeaderContainer'] = var10;
+    var10 = {};
+    var13 = -2;
+    var10['marginTop'] = var13;
+    var5['navigatorHeaderSubtitle'] = var10;
+    var10 = {'width': 24, 'height': 24};
+    var13 = var8[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.HEADER_PRIMARY;
+    var10['tintColor'] = var13;
+    var5['headerButtonIcon'] = var10;
+    var10 = {'width': 22, 'height': 22};
+    var11 = var8[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.INTERACTIVE_NORMAL;
+    var10['color'] = var11;
+    var5['submittingIndicator'] = var10;
+    var5 = var6.bind(var9)(var5);
+    var _closure1_slot8 = var5;
+    var6 = 17;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'design/components/Navigator/native/NavigatorHeader.native.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['useStyles'] = var5;
+    var5 = function NavigatorHeader(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            backup = entity.title;
-            offset = entity.subtitle;
-            option = entity.icon;
-            entity = _closure1_slot8;
-            tangon = undefined;
-            yankee = entity.bind(tangon)();
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot4;
-            entity = {};
-            report = yankee.navigatorHeaderContainer;
-            entity['style'] = report;
-            report = {};
-            oscard = yankee.navigatorHeaderTitleContainer;
-            report['style'] = oscard;
-            oscard = new Array(2);
-            oscard[0] = option;
-            foxtra = _closure1_slot6;
-            verify = _closure1_slot0;
-            option = _closure1_slot2;
-            romeon = 7;
-            option = option[romeon];
-            option = verify.bind(tangon)(option);
-            verify = option.Text;
-            option = {'accessibilityRole': 'header', 'aria-level': '1', 'lineClamp': 1, 'variant': 'redesign/heading-18/bold', 'color': 'header-primary'};
-            option['children'] = backup;
-            option = foxtra.bind(tangon)(verify, option);
-            oscard[1] = option;
-            report['children'] = oscard;
-            oscard = zuuluu.bind(tangon)(michal, report);
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = null;
-            oscard = oscard != offset;
-            if(!oscard) { _fun00008_ip = 160; continue _fun00007 }
+            var1 = arg1;
+            var14 = var1.title;
+            var10 = var1.subtitle;
+            var8 = var1.icon;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var11 = var1.bind(var4)();
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var5 = var11.navigatorHeaderContainer;
+            var1['style'] = var5;
+            var5 = {};
+            var6 = var11.navigatorHeaderTitleContainer;
+            var5['style'] = var6;
+            var6 = new Array(2);
+            var6[0] = var8;
+            var13 = _closure1_slot6;
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var12 = 7;
+            var8 = var8[var12];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.Text;
+            var8 = {'accessibilityRole': 'header', 'aria-level': '1', 'lineClamp': 1, 'variant': 'redesign/heading-18/bold', 'color': 'header-primary'};
+            var8['children'] = var14;
+            var8 = var13.bind(var4)(var9, var8);
+            var6[1] = var8;
+            var5['children'] = var6;
+            var6 = var3.bind(var4)(var2, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = null;
+            var6 = var6 != var10;
+            if(!var6) { _fun0004_ip = 160; continue _fun0004 }
  152:
-            option = '';
-            oscard = option !== offset;
+            var8 = '';
+            var6 = var8 !== var10;
  160:
-            if(!oscard) { _fun00008_ip = 225; continue _fun00007 }
+            if(!var6) { _fun0004_ip = 225; continue _fun0004 }
  163:
-            verify = _closure1_slot6;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            golfie = golfie[romeon];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.Text;
-            golfie = {'lineClamp': 1, 'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
-            yankee = yankee.navigatorHeaderSubtitle;
-            golfie['style'] = yankee;
-            golfie['children'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var7 = var7[var12];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Text;
+            var7 = {'lineClamp': 1, 'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
+            var11 = var11.navigatorHeaderSubtitle;
+            var7['style'] = var11;
+            var7['children'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  225:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['NavigatorHeader'] = report;
-    zuuluu['HeaderBackImage'] = tangon;
-    tangon = function() { // Original name: renderBackImage
-        tangon = _closure1_slot6;
-        zuuluu = _closure1_slot9;
-        michal = undefined;
-        entity = {};
-        entity = tangon.bind(michal)(zuuluu, entity);
-        return entity;
+    var3['NavigatorHeader'] = var5;
+    var3['HeaderBackImage'] = var4;
+    var4 = function renderBackImage() {
+        var4 = _closure1_slot6;
+        var3 = _closure1_slot9;
+        var2 = undefined;
+        var1 = {};
+        var1 = var4.bind(var2)(var3, var1);
+        return var1;
     };
-    zuuluu['renderBackImage'] = tangon;
-    tangon = function(argFoo) { // Original name: getHeaderCloseButton
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        entity = function(argFoo) {
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot10;
-            michal = {};
-            oscard = argFoo;
-            golfie = michal;
-            entity = copyDataProperties(golfie, oscard);
-            report = _closure2_slot0;
-            entity = 'onPress';
-            michal[entity] = report;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var3['renderBackImage'] = var4;
+    var4 = function getHeaderCloseButton(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var1 = function(arg1) {
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot10;
+            var2 = {};
+            var6 = arg1;
+            var7 = var2;
+            var1 = copyDataProperties(var7, var6);
+            var5 = _closure2_slot0;
+            var1 = 'onPress';
+            var2[var1] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['getHeaderCloseButton'] = tangon;
-    tangon = function(argFoo) { // Original name: getHeaderConditionalBackButton
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        entity = function(argFoo) {
-            tangon = argFoo;
-            michal = tangon.onPress;
-            var _closure3_slot0 = michal;
-            michal = null;
-            zuuluu = Object.create(michal);
-            michal = 0;
-            zuuluu['onPress'] = michal;
-            verify = {};
-            option = tangon;
-            golfie = zuuluu;
-            option = copyDataProperties(verify, option, golfie);
-            entity = function() {
-                tangon = _closure1_slot3;
-                zuuluu = undefined;
-                michal = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['getHeaderCloseButton'] = var4;
+    var4 = function getHeaderConditionalBackButton(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var1 = function(arg1) {
+            var4 = arg1;
+            var2 = var4.onPress;
+            var _closure3_slot0 = var2;
+            var2 = null;
+            var3 = Object.create(var2);
+            var2 = 0;
+            var3['onPress'] = var2;
+            var9 = {};
+            var8 = var4;
+            var7 = var3;
+            var8 = copyDataProperties(var9, var8, var7);
+            var1 = function() {
+                var4 = _closure1_slot3;
+                var3 = undefined;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00010_ip = 60; continue _fun00009 }
+                            if(var2) { _fun0005_ip = 60; continue _fun0005 }
  7:
-                            michal = _closure2_slot0;
-                            zuuluu = undefined;
-                            michal = michal.bind(zuuluu)();
+                            var2 = _closure2_slot0;
+                            var3 = undefined;
+                            var2 = var2.bind(var3)();
                             SaveGenerator(address=24);
  22:
-                            return michal;
+                            return var2;
  24:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(tangon) { _fun00010_ip = 57; continue _fun00009 }
+                            if(var4) { _fun0005_ip = 57; continue _fun0005 }
  30:
-                            if(!michal) { _fun00010_ip = 54; continue _fun00009 }
+                            if(!var2) { _fun0005_ip = 54; continue _fun0005 }
  33:
-                            oscard = _closure3_slot0;
-                            report = null;
-                            if(!(report != oscard)) { _fun00010_ip = 54; continue _fun00009 }
+                            var6 = _closure3_slot0;
+                            var5 = null;
+                            if(!(var5 != var6)) { _fun0005_ip = 54; continue _fun0005 }
  46:
-                            tangon = _closure3_slot0;
-                            tangon = tangon.bind(zuuluu)();
+                            var4 = _closure3_slot0;
+                            var4 = var4.bind(var3)();
  54:
-                            return zuuluu;
+                            return var3;
  57:
-                            return michal;
+                            return var2;
  60:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure4_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure4_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure4_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure4_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            tangon = undefined;
-            oscard = entity.bind(tangon)();
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot11;
-            entity = {};
-            verify = entity;
-            report = copyDataProperties(verify, option);
-            report = 'onPress';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var4 = undefined;
+            var6 = var1.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot11;
+            var1 = {};
+            var9 = var1;
+            var5 = copyDataProperties(var9, var8);
+            var5 = 'onPress';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['getHeaderConditionalBackButton'] = tangon;
-    tangon = function(argFoo) { // Original name: getHeaderBackButton
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['getHeaderConditionalBackButton'] = var4;
+    var4 = function getHeaderBackButton(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            michal = arguments[1];
-            zuuluu = argFoo;
-            var _closure2_slot0 = zuuluu;
-            zuuluu = undefined;
-            if(!(michal === zuuluu)) { _fun00012_ip = 20; continue _fun00011 }
+            var2 = arguments[1];
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var3 = undefined;
+            if(!(var2 === var3)) { _fun0006_ip = 20; continue _fun0006 }
  18:
-            michal = false;
+            var2 = false;
  20:
-            var _closure2_slot1 = michal;
-            entity = function(argFoo) {
-                tangon = argFoo;
-                michal = tangon.onPress;
-                var _closure3_slot0 = michal;
-                michal = null;
-                zuuluu = Object.create(michal);
-                michal = 0;
-                zuuluu['onPress'] = michal;
-                option = {};
-                golfie = tangon;
-                oscard = zuuluu;
-                golfie = copyDataProperties(option, golfie, oscard);
-                tangon = _closure1_slot6;
-                zuuluu = _closure1_slot11;
-                michal = {};
-                option = michal;
-                report = copyDataProperties(option, golfie);
-                report = function() { // Original name: onPress
-                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+            var _closure2_slot1 = var2;
+            var1 = function(arg1) {
+                var4 = arg1;
+                var2 = var4.onPress;
+                var _closure3_slot0 = var2;
+                var2 = null;
+                var3 = Object.create(var2);
+                var2 = 0;
+                var3['onPress'] = var2;
+                var8 = {};
+                var7 = var4;
+                var6 = var3;
+                var7 = copyDataProperties(var8, var7, var6);
+                var4 = _closure1_slot6;
+                var3 = _closure1_slot11;
+                var2 = {};
+                var8 = var2;
+                var5 = copyDataProperties(var8, var7);
+                var5 = function onPress() {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                        michal = _closure2_slot0;
-                        zuuluu = null;
-                        if(!(zuuluu != michal)) { _fun00014_ip = 23; continue _fun00013 }
+                        var2 = _closure2_slot0;
+                        var3 = null;
+                        if(!(var3 != var2)) { _fun0007_ip = 23; continue _fun0007 }
  13:
-                        tangon = _closure2_slot0;
-                        michal = undefined;
-                        michal = tangon.bind(michal)();
+                        var4 = _closure2_slot0;
+                        var2 = undefined;
+                        var2 = var4.bind(var2)();
  23:
-                        entity = _closure2_slot1;
-                        entity = !entity;
-                        if(!entity) { _fun00014_ip = 54; continue _fun00013 }
+                        var1 = _closure2_slot1;
+                        var1 = !var1;
+                        if(!var1) { _fun0007_ip = 54; continue _fun0007 }
  33:
-                        michal = _closure3_slot0;
-                        if(!(zuuluu != michal)) { _fun00014_ip = 54; continue _fun00013 }
+                        var2 = _closure3_slot0;
+                        if(!(var3 != var2)) { _fun0007_ip = 54; continue _fun0007 }
  44:
-                        michal = _closure3_slot0;
-                        entity = undefined;
-                        entity = michal.bind(entity)();
+                        var2 = _closure3_slot0;
+                        var1 = undefined;
+                        var1 = var2.bind(var1)();
  54:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity = 'onPress';
-                michal[entity] = report;
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu, michal);
-                return entity;
+                var1 = 'onPress';
+                var2[var1] = var5;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+                return var1;
             };
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getHeaderBackButton'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getHeaderTextButton
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        entity = function(argFoo) {
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot12;
-            michal = {};
-            golfie = argFoo;
-            option = michal;
-            entity = copyDataProperties(option, golfie);
-            oscard = _closure2_slot0;
-            report = 'text';
-            michal[report] = oscard;
-            report = _closure2_slot1;
-            entity = 'onPress';
-            michal[entity] = report;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var3['getHeaderBackButton'] = var4;
+    var4 = function getHeaderTextButton(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var1 = function(arg1) {
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot12;
+            var2 = {};
+            var7 = arg1;
+            var8 = var2;
+            var1 = copyDataProperties(var8, var7);
+            var6 = _closure2_slot0;
+            var5 = 'text';
+            var2[var5] = var6;
+            var5 = _closure2_slot1;
+            var1 = 'onPress';
+            var2[var1] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['getHeaderTextButton'] = tangon;
-    tangon = function() { // Original name: getHeaderNoTitle
-        entity = function() {
-            entity = null;
-            return entity;
+    var3['getHeaderTextButton'] = var4;
+    var4 = function getHeaderNoTitle() {
+        var1 = function() {
+            var1 = null;
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['getHeaderNoTitle'] = tangon;
-    tangon = function(argFoo) { // Original name: FauxHeader
-        entity = argFoo;
-        report = entity.children;
-        golfie = entity.style;
-        entity = _closure1_slot8;
-        tangon = undefined;
-        oscard = entity.bind(tangon)();
-        michal = _closure1_slot1;
-        romeon = _closure1_slot2;
-        entity = 15;
-        entity = romeon[entity];
-        entity = michal.bind(tangon)(entity);
-        entity = entity.bind(tangon)();
-        offset = entity.top;
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot4;
-        entity = {};
-        option = oscard.fauxHeaderWrapper;
-        oscard = new Array(3);
-        oscard[0] = option;
-        option = {};
-        option['paddingTop'] = offset;
-        yankee = _closure1_slot0;
-        verify = 16;
-        verify = romeon[verify];
-        verify = yankee.bind(tangon)(verify);
-        verify = verify.NAV_BAR_HEIGHT;
-        verify = offset + verify;
-        option['height'] = verify;
-        oscard[1] = option;
-        oscard[2] = golfie;
-        entity['style'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['getHeaderNoTitle'] = var4;
+    var4 = function FauxHeader(arg1) {
+        var1 = arg1;
+        var5 = var1.children;
+        var7 = var1.style;
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var6 = var1.bind(var4)();
+        var2 = _closure1_slot1;
+        var12 = _closure1_slot2;
+        var1 = 15;
+        var1 = var12[var1];
+        var1 = var2.bind(var4)(var1);
+        var1 = var1.bind(var4)();
+        var10 = var1.top;
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var8 = var6.fauxHeaderWrapper;
+        var6 = new Array(3);
+        var6[0] = var8;
+        var8 = {};
+        var8['paddingTop'] = var10;
+        var11 = _closure1_slot0;
+        var9 = 16;
+        var9 = var12[var9];
+        var9 = var11.bind(var4)(var9);
+        var9 = var9.NAV_BAR_HEIGHT;
+        var9 = var10 + var9;
+        var8['height'] = var9;
+        var6[1] = var8;
+        var6[2] = var7;
+        var1['style'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['FauxHeader'] = tangon;
-    michal = function() { // Original name: HeaderSubmittingIndicator
-        michal = _closure1_slot8;
-        tangon = undefined;
-        report = michal.bind(tangon)();
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot5;
-        entity = {};
-        oscard = true;
-        entity['animating'] = oscard;
-        oscard = report.submittingIndicator;
-        entity['style'] = oscard;
-        report = report.submittingIndicator;
-        report = report.color;
-        entity['color'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['FauxHeader'] = var4;
+    var2 = function HeaderSubmittingIndicator() {
+        var2 = _closure1_slot8;
+        var4 = undefined;
+        var5 = var2.bind(var4)();
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot5;
+        var1 = {};
+        var6 = true;
+        var1['animating'] = var6;
+        var6 = var5.submittingIndicator;
+        var1['style'] = var6;
+        var5 = var5.submittingIndicator;
+        var5 = var5.color;
+        var1['color'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['HeaderSubmittingIndicator'] = michal;
-    return entity;
+    var3['HeaderSubmittingIndicator'] = var2;
+    return var1;
 })();

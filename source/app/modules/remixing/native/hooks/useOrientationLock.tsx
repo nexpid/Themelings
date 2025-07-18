@@ -1,122 +1,122 @@
 // app/modules/remixing/native/hooks/useOrientationLock.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Dimensions;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/native/hooks/useOrientationLock.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: usePortraitOrientationOnly
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useEffect;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Dimensions;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/native/hooks/useOrientationLock.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function usePortraitOrientationOnly() {
+        var4 = _closure1_slot2;
+        var3 = var4.useEffect;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                michal = 2;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                tangon = tangon.bind(zuuluu)(michal);
-                michal = tangon.isIpadOS;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00002_ip = 76; continue _fun00001 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 2;
+                var2 = var3[var2];
+                var3 = undefined;
+                var4 = var4.bind(var3)(var2);
+                var2 = var4.isIpadOS;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0001_ip = 76; continue _fun0001 }
  38:
-                michal = _closure1_slot0;
-                tangon = _closure1_slot1;
-                entity = 3;
-                entity = tangon[entity];
-                tangon = michal.bind(zuuluu)(entity);
-                zuuluu = tangon.lockOrientation;
-                michal = 'PORTRAIT';
-                entity = false;
-                entity = zuuluu.bind(tangon)(michal, entity);
+                var2 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 3;
+                var1 = var4[var1];
+                var4 = var2.bind(var3)(var1);
+                var3 = var4.lockOrientation;
+                var2 = 'PORTRAIT';
+                var1 = false;
+                var1 = var3.bind(var4)(var2, var1);
  76:
-                entity = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var1 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        tangon = _closure1_slot0;
-                        zuuluu = _closure1_slot1;
-                        entity = 2;
-                        zuuluu = zuuluu[entity];
-                        entity = undefined;
-                        tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = tangon.isIpadOS;
-                        zuuluu = zuuluu.bind(tangon)();
-                        if(zuuluu) { _fun00004_ip = 78; continue _fun00003 }
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot1;
+                        var1 = 2;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.isIpadOS;
+                        var3 = var3.bind(var4)();
+                        if(var3) { _fun0002_ip = 78; continue _fun0002 }
  38:
-                        zuuluu = _closure1_slot0;
-                        tangon = _closure1_slot1;
-                        michal = 3;
-                        michal = tangon[michal];
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.unlockOrientation;
-                        michal = {};
-                        report = false;
-                        michal['unlockAfterRotatingToPreviousLock'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var2 = 3;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.unlockOrientation;
+                        var2 = {};
+                        var5 = false;
+                        var2['unlockAfterRotatingToPreviousLock'] = var5;
+                        var2 = var3.bind(var4)(var2);
  78:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             }
         };
-        entity = new Array(0);
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = undefined;
-        return entity;
+        var1 = new Array(0);
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function() {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var4;
+    var2 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.get;
-            entity = 'screen';
-            entity = michal.bind(zuuluu)(entity);
-            zuuluu = entity.width;
-            michal = entity.height;
-            tangon = zuuluu > michal;
-            entity = {};
-            report = zuuluu;
-            if(!tangon) { _fun00006_ip = 46; continue _fun00005 }
+            var3 = _closure1_slot3;
+            var2 = var3.get;
+            var1 = 'screen';
+            var1 = var2.bind(var3)(var1);
+            var3 = var1.width;
+            var2 = var1.height;
+            var4 = var3 > var2;
+            var1 = {};
+            var5 = var3;
+            if(!var4) { _fun0003_ip = 46; continue _fun0003 }
  43:
-            report = michal;
+            var5 = var2;
  46:
-            entity['width'] = report;
-            if(!tangon) { _fun00006_ip = 56; continue _fun00005 }
+            var1['width'] = var5;
+            if(!var4) { _fun0003_ip = 56; continue _fun0003 }
  53:
-            michal = zuuluu;
+            var2 = var3;
  56:
-            entity['height'] = michal;
-            return entity;
+            var1['height'] = var2;
+            return var1;
         }
     };
-    zuuluu['getPortraitOrientationScreenSize'] = michal;
-    return entity;
+    var3['getPortraitOrientationScreenSize'] = var2;
+    return var1;
 })();

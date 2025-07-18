@@ -1,151 +1,151 @@
 // app/records/CompanyRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot5 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot5 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    michal = function(argFoo) {
-        report = function(argFoo) { // Original name: CompanyRecord
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var2 = function(arg1) {
+        var5 = function CompanyRecord(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                report = this;
-                entity = _closure1_slot0;
-                zuuluu = _closure2_slot0;
-                tangon = undefined;
-                entity = entity.bind(tangon)(report, zuuluu);
-                entity = _closure1_slot3;
-                offset = entity.bind(tangon)(zuuluu);
-                zuuluu = _closure1_slot2;
-                entity = _closure1_slot5;
-                entity = entity.bind(tangon)();
-                if(entity) { _fun00004_ip = 65; continue _fun00003 }
+                var2 = arg1;
+                var5 = this;
+                var1 = _closure1_slot0;
+                var3 = _closure2_slot0;
+                var4 = undefined;
+                var1 = var1.bind(var4)(var5, var3);
+                var1 = _closure1_slot3;
+                var10 = var1.bind(var4)(var3);
+                var3 = _closure1_slot2;
+                var1 = _closure1_slot5;
+                var1 = var1.bind(var4)();
+                if(var1) { _fun0002_ip = 65; continue _fun0002 }
  52:
-                entity = offset.apply;
-                entity = entity.bind(offset)(report, tangon);
-                _fun00004_ip = 103; continue _fun00003;
+                var1 = var10.apply;
+                var1 = var1.bind(var10)(var5, var4);
+                _fun0002_ip = 103; continue _fun0002;
  65:
-                golfie = global;
-                verify = golfie.Reflect;
-                option = verify.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(tangon)(report);
-                golfie = oscard.constructor;
-                oscard = new Array(0);
-                entity = option.bind(verify)(offset, oscard, golfie);
+                var7 = global;
+                var9 = var7.Reflect;
+                var8 = var9.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var4)(var5);
+                var7 = var6.constructor;
+                var6 = new Array(0);
+                var1 = var8.bind(var9)(var10, var6, var7);
  103:
-                entity = zuuluu.bind(tangon)(report, entity);
-                zuuluu = michal.id;
-                entity['id'] = zuuluu;
-                michal = michal.name;
-                entity['name'] = michal;
-                return entity;
+                var1 = var3.bind(var4)(var5, var1);
+                var3 = var2.id;
+                var1['id'] = var3;
+                var2 = var2.name;
+                var1['name'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = report;
-        oscard = _closure1_slot4;
-        tangon = undefined;
-        zuuluu = argFoo;
-        zuuluu = oscard.bind(tangon)(report, zuuluu);
-        zuuluu = _closure1_slot1;
-        entity = {};
-        oscard = 'createFromServer';
-        entity['key'] = oscard;
-        michal = function(argFoo) { // Original name: value
-            zuuluu = _closure2_slot0;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = argFoo;
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+        var _closure2_slot0 = var5;
+        var6 = _closure1_slot4;
+        var4 = undefined;
+        var3 = arg1;
+        var3 = var6.bind(var4)(var5, var3);
+        var3 = _closure1_slot1;
+        var1 = {};
+        var6 = 'createFromServer';
+        var1['key'] = var6;
+        var2 = function value(arg1) {
+            var3 = _closure2_slot0;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = arg1;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = null;
-        entity = zuuluu.bind(tangon)(report, entity, michal);
-        return entity;
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = null;
+        var1 = var3.bind(var4)(var5, var1, var2);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = 6;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'records/CompanyRecord.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = 6;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'records/CompanyRecord.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

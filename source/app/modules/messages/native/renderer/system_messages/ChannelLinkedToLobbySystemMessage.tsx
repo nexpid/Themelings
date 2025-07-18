@@ -1,167 +1,167 @@
 // app/modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.HelpdeskArticles;
-    var _closure1_slot4 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: createChannelLinkedToLobbySystemMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.HelpdeskArticles;
+    var _closure1_slot4 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function createChannelLinkedToLobbySystemMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            golfie = report.message;
-            romeon = report.roleStyle;
-            michal = report.theme;
-            oscard = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            tangon = undefined;
-            entity = oscard.bind(tangon)(entity);
-            verify = entity.bind(tangon)(michal);
-            option = golfie.author;
-            offset = _closure1_slot3;
-            oscard = offset.getApplication;
-            yankee = golfie.applicationId;
-            entity = null;
-            foxtra = entity != yankee;
-            michal = '';
-            if(!foxtra) { _fun00002_ip = 86; continue _fun00001 }
+            var5 = arg1;
+            var7 = var5.message;
+            var12 = var5.roleStyle;
+            var2 = var5.theme;
+            var6 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var1 = var6.bind(var4)(var1);
+            var9 = var1.bind(var4)(var2);
+            var8 = var7.author;
+            var10 = _closure1_slot3;
+            var6 = var10.getApplication;
+            var11 = var7.applicationId;
+            var1 = null;
+            var13 = var1 != var11;
+            var2 = '';
+            if(!var13) { _fun0001_ip = 86; continue _fun0001 }
  83:
-            michal = yankee;
+            var2 = var11;
  86:
-            michal = oscard.bind(offset)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 500; continue _fun00001 }
+            var2 = var6.bind(var10)(var2);
+            if(!(var1 != var2)) { _fun0001_ip = 500; continue _fun0001 }
  98:
-            backup = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            oscard = 3;
-            oscard = kiloes[oscard];
-            offset = backup.bind(tangon)(oscard);
-            oscard = offset.getMessageAuthorWithProcessedColor;
-            offset = oscard.bind(offset)(golfie);
-            oscard = offset.nick;
-            yankee = offset.colorString;
-            foxtra = offset.colorStrings;
-            sizing = offset.guildId;
-            offset = 4;
-            offset = kiloes[offset];
-            kiloes = backup.bind(tangon)(offset);
-            backup = kiloes.isNativeMessageEligibleForEnhancedRoleColors;
-            offset = option.id;
-            backup = backup.bind(kiloes)(sizing, offset, romeon);
-            offset = {};
-            offset['username'] = oscard;
-            oscard = {};
-            kiloes = 'bindUserMenu';
-            oscard['action'] = kiloes;
-            option = option.id;
-            oscard['userId'] = option;
-            oscard['colorString'] = yankee;
-            kiloes = 'username';
-            option = null;
-            if(!(kiloes === romeon)) { _fun00002_ip = 227; continue _fun00001 }
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var6 = 3;
+            var6 = var15[var6];
+            var10 = var14.bind(var4)(var6);
+            var6 = var10.getMessageAuthorWithProcessedColor;
+            var10 = var6.bind(var10)(var7);
+            var6 = var10.nick;
+            var11 = var10.colorString;
+            var13 = var10.colorStrings;
+            var16 = var10.guildId;
+            var10 = 4;
+            var10 = var15[var10];
+            var15 = var14.bind(var4)(var10);
+            var14 = var15.isNativeMessageEligibleForEnhancedRoleColors;
+            var10 = var8.id;
+            var14 = var14.bind(var15)(var16, var10, var12);
+            var10 = {};
+            var10['username'] = var6;
+            var6 = {};
+            var15 = 'bindUserMenu';
+            var6['action'] = var15;
+            var8 = var8.id;
+            var6['userId'] = var8;
+            var6['colorString'] = var11;
+            var15 = 'username';
+            var8 = null;
+            if(!(var15 === var12)) { _fun0001_ip = 227; continue _fun0001 }
  224:
-            option = yankee;
+            var8 = var11;
  227:
-            if(!(entity == option)) { _fun00002_ip = 237; continue _fun00001 }
+            if(!(var1 == var8)) { _fun0001_ip = 237; continue _fun0001 }
  231:
-            option = verify.defaultUsernameColor;
+            var8 = var9.defaultUsernameColor;
  237:
-            oscard['linkColor'] = option;
-            oscard['roleColor'] = yankee;
-            option = null;
-            if(!backup) { _fun00002_ip = 255; continue _fun00001 }
+            var6['linkColor'] = var8;
+            var6['roleColor'] = var11;
+            var8 = null;
+            if(!var14) { _fun0001_ip = 255; continue _fun0001 }
  252:
-            option = foxtra;
+            var8 = var13;
  255:
-            oscard['roleColors'] = option;
-            option = 'dot';
-            option = option === romeon;
-            if(!option) { _fun00002_ip = 275; continue _fun00001 }
+            var6['roleColors'] = var8;
+            var8 = 'dot';
+            var8 = var8 === var12;
+            if(!var8) { _fun0001_ip = 275; continue _fun0001 }
  271:
-            option = entity != yankee;
+            var8 = var1 != var11;
  275:
-            oscard['shouldShowRoleDot'] = option;
-            golfie = golfie.channel_id;
-            oscard['messageChannelId'] = golfie;
-            option = true;
-            oscard['medium'] = option;
-            offset['usernameOnClick'] = oscard;
-            michal = michal.name;
-            offset['applicationName'] = michal;
-            michal = {};
-            oscard = verify.defaultUsernameColor;
-            michal['linkColor'] = oscard;
-            michal['medium'] = option;
-            offset['applicationNameOnClick'] = michal;
-            michal = {};
-            oscard = 'bindOpenUrl';
-            michal['action'] = oscard;
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            yankee = 5;
-            yankee = golfie[yankee];
-            foxtra = oscard.bind(tangon)(yankee);
-            romeon = foxtra.getArticleURL;
-            yankee = _closure1_slot4;
-            yankee = yankee.LINKED_LOBBIES;
-            yankee = romeon.bind(foxtra)(yankee);
-            michal['url'] = yankee;
-            verify = verify.linkColor;
-            michal['linkColor'] = verify;
-            michal['medium'] = option;
-            offset['urlOnClick'] = michal;
-            michal = {};
-            yankee = _closure1_slot0;
-            zuuluu = 6;
-            option = golfie[zuuluu];
-            option = yankee.bind(tangon)(option);
-            verify = option.intl;
-            option = verify.formatToParts;
-            zuuluu = golfie[zuuluu];
-            zuuluu = yankee.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.gZfhOz;
-            zuuluu = option.bind(verify)(zuuluu, offset);
-            michal['content'] = zuuluu;
-            zuuluu = 7;
-            zuuluu = golfie[zuuluu];
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            result = zuuluu.bind(tangon)(report);
-            echoed = michal;
-            zuuluu = copyDataProperties(echoed, result);
-            return michal;
+            var6['shouldShowRoleDot'] = var8;
+            var7 = var7.channel_id;
+            var6['messageChannelId'] = var7;
+            var8 = true;
+            var6['medium'] = var8;
+            var10['usernameOnClick'] = var6;
+            var2 = var2.name;
+            var10['applicationName'] = var2;
+            var2 = {};
+            var6 = var9.defaultUsernameColor;
+            var2['linkColor'] = var6;
+            var2['medium'] = var8;
+            var10['applicationNameOnClick'] = var2;
+            var2 = {};
+            var6 = 'bindOpenUrl';
+            var2['action'] = var6;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var11 = 5;
+            var11 = var7[var11];
+            var13 = var6.bind(var4)(var11);
+            var12 = var13.getArticleURL;
+            var11 = _closure1_slot4;
+            var11 = var11.LINKED_LOBBIES;
+            var11 = var12.bind(var13)(var11);
+            var2['url'] = var11;
+            var9 = var9.linkColor;
+            var2['linkColor'] = var9;
+            var2['medium'] = var8;
+            var10['urlOnClick'] = var2;
+            var2 = {};
+            var11 = _closure1_slot0;
+            var3 = 6;
+            var8 = var7[var3];
+            var8 = var11.bind(var4)(var8);
+            var9 = var8.intl;
+            var8 = var9.formatToParts;
+            var3 = var7[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.gZfhOz;
+            var3 = var8.bind(var9)(var3, var10);
+            var2['content'] = var3;
+            var3 = 7;
+            var3 = var7[var3];
+            var3 = var6.bind(var4)(var3);
+            var18 = var3.bind(var4)(var5);
+            var19 = var2;
+            var3 = copyDataProperties(var19, var18);
+            return var2;
  500:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['createChannelLinkedToLobbySystemMessage'] = michal;
-    return entity;
+    var3['createChannelLinkedToLobbySystemMessage'] = var2;
+    return var1;
 })();

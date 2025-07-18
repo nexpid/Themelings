@@ -1,141 +1,141 @@
 // app/modules/emoji_terms/LazyPromiseInitializer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo) { // Original name: LazyPromiseInitializer
-            zuuluu = this;
-            tangon = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = false;
-            zuuluu['loading'] = michal;
-            zuuluu['loaded'] = michal;
-            michal = argFoo;
-            zuuluu['loader'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function LazyPromiseInitializer(arg1) {
+            var3 = this;
+            var4 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = false;
+            var3['loading'] = var2;
+            var3['loaded'] = var2;
+            var2 = arg1;
+            var3['loader'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'setParams';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'setParams';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                michal = this;
-                zuuluu = michal.param;
-                if(!(zuuluu !== entity)) { _fun00002_ip = 36; continue _fun00001 }
+                var1 = arg1;
+                var2 = this;
+                var3 = var2.param;
+                if(!(var3 !== var1)) { _fun0001_ip = 36; continue _fun0001 }
  16:
-                michal['param'] = entity;
-                entity = false;
-                michal['loading'] = entity;
-                michal['loaded'] = entity;
+                var2['param'] = var1;
+                var1 = false;
+                var2['loading'] = var1;
+                var2['loaded'] = var1;
  36:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'get';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            michal = entity.ensureLoaded;
-            michal = michal.bind(entity)();
-            entity = entity.val;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'get';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var2 = var1.ensureLoaded;
+            var2 = var2.bind(var1)();
+            var1 = var1.val;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'ensureLoaded';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'ensureLoaded';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                var _closure3_slot0 = tangon;
-                michal = tangon.loaded;
-                if(michal) { _fun00004_ip = 83; continue _fun00003 }
+                var4 = this;
+                var _closure3_slot0 = var4;
+                var2 = var4.loaded;
+                if(var2) { _fun0002_ip = 83; continue _fun0002 }
  18:
-                michal = tangon.loading;
-                if(michal) { _fun00004_ip = 83; continue _fun00003 }
+                var2 = var4.loading;
+                if(var2) { _fun0002_ip = 83; continue _fun0002 }
  27:
-                zuuluu = tangon.param;
-                michal = undefined;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 83; continue _fun00003 }
+                var3 = var4.param;
+                var2 = undefined;
+                if(!(var2 !== var3)) { _fun0002_ip = 83; continue _fun0002 }
  39:
-                zuuluu = tangon.param;
-                var _closure3_slot1 = zuuluu;
-                michal = true;
-                tangon['loading'] = michal;
-                michal = tangon.loader;
-                zuuluu = michal.bind(tangon)(zuuluu);
-                michal = zuuluu.then;
-                entity = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var3 = var4.param;
+                var _closure3_slot1 = var3;
+                var2 = true;
+                var4['loading'] = var2;
+                var2 = var4.loader;
+                var3 = var2.bind(var4)(var3);
+                var2 = var3.then;
+                var1 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = _closure3_slot1;
-                        michal = _closure3_slot0;
-                        michal = michal.param;
-                        if(!(zuuluu === michal)) { _fun00006_ip = 50; continue _fun00005 }
+                        var3 = _closure3_slot1;
+                        var2 = _closure3_slot0;
+                        var2 = var2.param;
+                        if(!(var3 === var2)) { _fun0003_ip = 50; continue _fun0003 }
  21:
-                        michal = _closure3_slot0;
-                        entity = argFoo;
-                        michal['val'] = entity;
-                        entity = false;
-                        michal['loading'] = entity;
-                        entity = true;
-                        michal['loaded'] = entity;
+                        var2 = _closure3_slot0;
+                        var1 = arg1;
+                        var2['val'] = var1;
+                        var1 = false;
+                        var2['loading'] = var1;
+                        var1 = true;
+                        var2['loaded'] = var1;
  50:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity = michal.bind(zuuluu)(entity);
+                var1 = var2.bind(var3)(var1);
  83:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emoji_terms/LazyPromiseInitializer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emoji_terms/LazyPromiseInitializer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

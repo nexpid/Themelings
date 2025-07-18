@@ -1,157 +1,157 @@
 // app/modules/links/native/handleContentLinking.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.addPostConnectionCallback;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Routes;
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/links/native/handleContentLinking.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: handleContentLinking
-        entity = argFoo;
-        zuuluu = entity.guildId;
-        var _closure2_slot0 = zuuluu;
-        zuuluu = entity.channelId;
-        var _closure2_slot1 = zuuluu;
-        zuuluu = entity.navigationSettings;
-        var _closure2_slot2 = zuuluu;
-        zuuluu = entity.messageId;
-        var _closure2_slot3 = zuuluu;
-        entity = entity.summaryId;
-        var _closure2_slot4 = entity;
-        report = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 3;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = report.bind(entity)(zuuluu);
-        zuuluu = report.popAll;
-        zuuluu = zuuluu.bind(report)();
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot3;
-        michal = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.addPostConnectionCallback;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Routes;
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/links/native/handleContentLinking.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function handleContentLinking(arg1) {
+        var1 = arg1;
+        var3 = var1.guildId;
+        var _closure2_slot0 = var3;
+        var3 = var1.channelId;
+        var _closure2_slot1 = var3;
+        var3 = var1.navigationSettings;
+        var _closure2_slot2 = var3;
+        var3 = var1.messageId;
+        var _closure2_slot3 = var3;
+        var1 = var1.summaryId;
+        var _closure2_slot4 = var1;
+        var5 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var5.bind(var1)(var3);
+        var3 = var5.popAll;
+        var3 = var3.bind(var5)();
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot3;
+        var2 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 273; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 273; continue _fun0001 }
  10:
-                    zuuluu = _closure2_slot2;
-                    michal = zuuluu.safe;
-                    report = zuuluu.navigationReplace;
-                    zuuluu = undefined;
-                    option = zuuluu === report;
-                    if(option) { _fun00002_ip = 41; continue _fun00001 }
+                    var3 = _closure2_slot2;
+                    var2 = var3.safe;
+                    var5 = var3.navigationReplace;
+                    var3 = undefined;
+                    var8 = var3 === var5;
+                    if(var8) { _fun0001_ip = 41; continue _fun0001 }
  38:
-                    option = report;
+                    var8 = var5;
  41:
-                    if(michal) { _fun00002_ip = 124; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 124; continue _fun0001 }
  47:
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 5;
-                    michal = golfie[michal];
-                    verify = oscard.bind(zuuluu)(michal);
-                    golfie = verify.transitionTo;
-                    romeon = _closure1_slot5;
-                    yankee = romeon.CHANNEL;
-                    offset = _closure2_slot0;
-                    oscard = _closure2_slot1;
-                    michal = _closure2_slot3;
-                    oscard = yankee.bind(romeon)(offset, oscard, michal);
-                    michal = {};
-                    michal['navigationReplace'] = option;
-                    offset = true;
-                    michal['openChannel'] = offset;
-                    michal = golfie.bind(verify)(oscard, michal);
-                    _fun00002_ip = 203; continue _fun00001;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var7[var2];
+                    var9 = var6.bind(var3)(var2);
+                    var7 = var9.transitionTo;
+                    var12 = _closure1_slot5;
+                    var11 = var12.CHANNEL;
+                    var10 = _closure2_slot0;
+                    var6 = _closure2_slot1;
+                    var2 = _closure2_slot3;
+                    var6 = var11.bind(var12)(var10, var6, var2);
+                    var2 = {};
+                    var2['navigationReplace'] = var8;
+                    var10 = true;
+                    var2['openChannel'] = var10;
+                    var2 = var7.bind(var9)(var6, var2);
+                    _fun0001_ip = 203; continue _fun0001;
  124:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    michal = 4;
-                    michal = golfie[michal];
-                    golfie = oscard.bind(zuuluu)(michal);
-                    yankee = _closure1_slot5;
-                    offset = yankee.CHANNEL;
-                    verify = _closure2_slot0;
-                    oscard = _closure2_slot1;
-                    michal = _closure2_slot3;
-                    oscard = offset.bind(yankee)(verify, oscard, michal);
-                    michal = {};
-                    michal['navigationReplace'] = option;
-                    option = true;
-                    michal['openChannel'] = option;
-                    michal = golfie.bind(zuuluu)(oscard, michal);
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var7[var2];
+                    var7 = var6.bind(var3)(var2);
+                    var11 = _closure1_slot5;
+                    var10 = var11.CHANNEL;
+                    var9 = _closure2_slot0;
+                    var6 = _closure2_slot1;
+                    var2 = _closure2_slot3;
+                    var6 = var10.bind(var11)(var9, var6, var2);
+                    var2 = {};
+                    var2['navigationReplace'] = var8;
+                    var8 = true;
+                    var2['openChannel'] = var8;
+                    var2 = var7.bind(var3)(var6, var2);
                     SaveGenerator(address=197);
  195:
-                    return michal;
+                    return var2;
  197:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 270; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 270; continue _fun0001 }
  203:
-                    oscard = _closure2_slot1;
-                    option = null;
-                    oscard = option != oscard;
-                    if(!oscard) { _fun00002_ip = 224; continue _fun00001 }
+                    var6 = _closure2_slot1;
+                    var8 = null;
+                    var6 = var8 != var6;
+                    if(!var6) { _fun0001_ip = 224; continue _fun0001 }
  216:
-                    golfie = _closure2_slot4;
-                    oscard = option != golfie;
+                    var7 = _closure2_slot4;
+                    var6 = var8 != var7;
  224:
-                    if(!oscard) { _fun00002_ip = 267; continue _fun00001 }
+                    if(!var6) { _fun0001_ip = 267; continue _fun0001 }
  227:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 6;
-                    report = golfie[report];
-                    golfie = oscard.bind(zuuluu)(report);
-                    oscard = golfie.setSelectedSummary;
-                    report = _closure2_slot1;
-                    tangon = _closure2_slot4;
-                    tangon = oscard.bind(golfie)(report, tangon);
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 6;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.setSelectedSummary;
+                    var5 = _closure2_slot1;
+                    var4 = _closure2_slot4;
+                    var4 = var6.bind(var7)(var5, var4);
  267:
-                    return zuuluu;
+                    return var3;
  270:
-                    return michal;
+                    return var2;
  273:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        michal = tangon.bind(entity)(michal);
-        michal = zuuluu.bind(entity)(michal);
-        return entity;
+        var2 = var4.bind(var1)(var2);
+        var2 = var3.bind(var1)(var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

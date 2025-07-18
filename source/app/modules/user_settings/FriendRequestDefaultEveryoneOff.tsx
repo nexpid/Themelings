@@ -1,208 +1,208 @@
 // app/modules/user_settings/FriendRequestDefaultEveryoneOff.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = 0;
-    report = option[tangon];
-    entity = undefined;
-    offset = golfie.bind(entity)(report);
-    verify = offset.createExperiment;
-    report = {'kind': 'user', 'id': '2025-01_friend_requests_alerts', 'label': 'Friend Request Setting Defaults'};
-    oscard = {'enabled': false, 'bucket': 0};
-    report['defaultConfig'] = oscard;
-    oscard = {'id': 1, 'label': 'warning'};
-    yankee = {'enabled': true, 'bucket': 1};
-    oscard['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = oscard;
-    romeon = {'id': 2, 'label': 'defaults'};
-    oscard = 2;
-    foxtra = {'enabled': true, 'bucket': 2};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    report['treatments'] = yankee;
-    report = verify.bind(offset)(report);
-    var _closure1_slot2 = report;
-    tangon = option[tangon];
-    offset = golfie.bind(entity)(tangon);
-    verify = offset.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-01_friend_requests_alerts_new_users', 'label': 'Friend Request Setting Defaults'};
-    yankee = {'enabled': false, 'bucket': 0};
-    tangon['defaultConfig'] = yankee;
-    romeon = {'id': 1, 'label': 'warning'};
-    yankee = {'enabled': true, 'bucket': 1};
-    romeon['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = romeon;
-    romeon = {'id': 2, 'label': 'defaults'};
-    foxtra = {'enabled': true, 'bucket': 2};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    tangon['treatments'] = yankee;
-    tangon = verify.bind(offset)(tangon);
-    var _closure1_slot3 = tangon;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/user_settings/FriendRequestDefaultEveryoneOff.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['FriendRequestDefaultEveryoneOff'] = report;
-    zuuluu['FriendRequestDefaultEveryoneOffNewUsers'] = tangon;
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = 0;
+    var5 = var8[var4];
+    var1 = undefined;
+    var10 = var7.bind(var1)(var5);
+    var9 = var10.createExperiment;
+    var5 = {'kind': 'user', 'id': '2025-01_friend_requests_alerts', 'label': 'Friend Request Setting Defaults'};
+    var6 = {'enabled': false, 'bucket': 0};
+    var5['defaultConfig'] = var6;
+    var6 = {'id': 1, 'label': 'warning'};
+    var11 = {'enabled': true, 'bucket': 1};
+    var6['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var6;
+    var12 = {'id': 2, 'label': 'defaults'};
+    var6 = 2;
+    var13 = {'enabled': true, 'bucket': 2};
+    var12['config'] = var13;
+    var11[1] = var12;
+    var5['treatments'] = var11;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot2 = var5;
+    var4 = var8[var4];
+    var10 = var7.bind(var1)(var4);
+    var9 = var10.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-01_friend_requests_alerts_new_users', 'label': 'Friend Request Setting Defaults'};
+    var11 = {'enabled': false, 'bucket': 0};
+    var4['defaultConfig'] = var11;
+    var12 = {'id': 1, 'label': 'warning'};
+    var11 = {'enabled': true, 'bucket': 1};
+    var12['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var12;
+    var12 = {'id': 2, 'label': 'defaults'};
+    var13 = {'enabled': true, 'bucket': 2};
+    var12['config'] = var13;
+    var11[1] = var12;
+    var4['treatments'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot3 = var4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/user_settings/FriendRequestDefaultEveryoneOff.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['FriendRequestDefaultEveryoneOff'] = var5;
+    var3['FriendRequestDefaultEveryoneOffNewUsers'] = var4;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            oscard = _closure1_slot2;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            zuuluu['location'] = michal;
-            entity = {};
-            golfie = false;
-            entity['autoTrackExposure'] = golfie;
-            entity = report.bind(oscard)(zuuluu, entity);
-            entity = entity.bucket;
-            zuuluu = 2;
-            entity = zuuluu === entity;
-            if(entity) { _fun00002_ip = 92; continue _fun00001 }
+            var2 = arg1;
+            var6 = _closure1_slot2;
+            var5 = var6.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var2;
+            var1 = {};
+            var7 = false;
+            var1['autoTrackExposure'] = var7;
+            var1 = var5.bind(var6)(var3, var1);
+            var1 = var1.bucket;
+            var3 = 2;
+            var1 = var3 === var1;
+            if(var1) { _fun0001_ip = 92; continue _fun0001 }
  53:
-            oscard = _closure1_slot3;
-            report = oscard.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = golfie;
-            michal = report.bind(oscard)(tangon, michal);
-            michal = michal.bucket;
-            entity = zuuluu === michal;
+            var6 = _closure1_slot3;
+            var5 = var6.getCurrentConfig;
+            var4 = {};
+            var4['location'] = var2;
+            var2 = {};
+            var2['autoTrackExposure'] = var7;
+            var2 = var5.bind(var6)(var4, var2);
+            var2 = var2.bucket;
+            var1 = var3 === var2;
  92:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForFriendRequestDefaults'] = tangon;
-    tangon = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isEligibleForFriendRequestDefaults'] = var4;
+    var4 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            oscard = _closure1_slot2;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            zuuluu['location'] = tangon;
-            entity = {};
-            verify = false;
-            entity['autoTrackExposure'] = verify;
-            entity = report.bind(oscard)(zuuluu, entity);
-            entity = entity.bucket;
-            zuuluu = 1;
-            entity = zuuluu === entity;
-            if(entity) { _fun00004_ip = 92; continue _fun00003 }
+            var4 = arg1;
+            var6 = _closure1_slot2;
+            var5 = var6.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var4;
+            var1 = {};
+            var9 = false;
+            var1['autoTrackExposure'] = var9;
+            var1 = var5.bind(var6)(var3, var1);
+            var1 = var1.bucket;
+            var3 = 1;
+            var1 = var3 === var1;
+            if(var1) { _fun0002_ip = 92; continue _fun0002 }
  53:
-            option = _closure1_slot3;
-            golfie = option.getCurrentConfig;
-            oscard = {};
-            oscard['location'] = tangon;
-            report = {};
-            report['autoTrackExposure'] = verify;
-            report = golfie.bind(option)(oscard, report);
-            report = report.bucket;
-            entity = zuuluu === report;
+            var8 = _closure1_slot3;
+            var7 = var8.getCurrentConfig;
+            var6 = {};
+            var6['location'] = var4;
+            var5 = {};
+            var5['autoTrackExposure'] = var9;
+            var5 = var7.bind(var8)(var6, var5);
+            var5 = var5.bucket;
+            var1 = var3 === var5;
  92:
-            if(entity) { _fun00004_ip = 125; continue _fun00003 }
+            if(var1) { _fun0002_ip = 125; continue _fun0002 }
  95:
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal[zuuluu];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            michal = zuuluu.isEligibleForSettingsDefaultsAggregate;
-            entity = michal.bind(zuuluu)(tangon);
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var3];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.isEligibleForSettingsDefaultsAggregate;
+            var1 = var2.bind(var3)(var4);
  125:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForFriendRequestAlerts'] = tangon;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isEligibleForFriendRequestAlerts'] = var4;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            golfie = _closure1_slot2;
-            report = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = michal;
-            entity = {};
-            oscard = false;
-            entity['autoTrackExposure'] = oscard;
-            entity = report.bind(golfie)(tangon, entity);
-            entity = entity.bucket;
-            report = _closure1_slot3;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            zuuluu['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            zuuluu = michal.bucket;
-            michal = 2;
-            entity = michal === entity;
-            if(entity) { _fun00006_ip = 92; continue _fun00005 }
+            var2 = arg1;
+            var7 = _closure1_slot2;
+            var5 = var7.useExperiment;
+            var4 = {};
+            var4['location'] = var2;
+            var1 = {};
+            var6 = false;
+            var1['autoTrackExposure'] = var6;
+            var1 = var5.bind(var7)(var4, var1);
+            var1 = var1.bucket;
+            var5 = _closure1_slot3;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var2;
+            var2 = {};
+            var2['autoTrackExposure'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            var3 = var2.bucket;
+            var2 = 2;
+            var1 = var2 === var1;
+            if(var1) { _fun0003_ip = 92; continue _fun0003 }
  88:
-            entity = michal === zuuluu;
+            var1 = var2 === var3;
  92:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForFriendRequestDefaults'] = tangon;
-    michal = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useIsEligibleForFriendRequestDefaults'] = var4;
+    var2 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = argFoo;
-            report = _closure1_slot2;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            zuuluu['location'] = oscard;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = tangon.bind(report)(zuuluu, entity);
-            entity = entity.bucket;
-            golfie = _closure1_slot3;
-            report = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = oscard;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = report.bind(golfie)(tangon, zuuluu);
-            tangon = zuuluu.bucket;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = 1;
-            report = michal[zuuluu];
-            michal = undefined;
-            report = golfie.bind(michal)(report);
-            michal = report.useIsEligibleForSettingsDefaultsAggregate;
-            michal = michal.bind(report)(oscard);
-            entity = zuuluu === entity;
-            if(entity) { _fun00008_ip = 122; continue _fun00007 }
+            var6 = arg1;
+            var5 = _closure1_slot2;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var6;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.bucket;
+            var7 = _closure1_slot3;
+            var5 = var7.useExperiment;
+            var4 = {};
+            var4['location'] = var6;
+            var3 = {};
+            var3['autoTrackExposure'] = var8;
+            var3 = var5.bind(var7)(var4, var3);
+            var4 = var3.bucket;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = 1;
+            var5 = var2[var3];
+            var2 = undefined;
+            var5 = var7.bind(var2)(var5);
+            var2 = var5.useIsEligibleForSettingsDefaultsAggregate;
+            var2 = var2.bind(var5)(var6);
+            var1 = var3 === var1;
+            if(var1) { _fun0004_ip = 122; continue _fun0004 }
  118:
-            entity = zuuluu === tangon;
+            var1 = var3 === var4;
  122:
-            if(entity) { _fun00008_ip = 128; continue _fun00007 }
+            if(var1) { _fun0004_ip = 128; continue _fun0004 }
  125:
-            entity = michal;
+            var1 = var2;
  128:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForFriendRequestAlerts'] = michal;
-    return entity;
+    var3['useIsEligibleForFriendRequestAlerts'] = var2;
+    return var1;
 })();

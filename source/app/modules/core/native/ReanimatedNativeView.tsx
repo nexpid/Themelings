@@ -1,48 +1,48 @@
 // app/modules/core/native/ReanimatedNativeView.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        golfie = argBaz;
-        zuuluu = argFre;
-        oscard = argPlu;
-        entity = global;
-        option = entity.Object;
-        tangon = option.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(option)(zuuluu, entity, michal);
-        entity = 0;
-        michal = oscard[entity];
-        entity = undefined;
-        tangon = report.bind(entity)(michal);
-        michal = tangon.isFabric;
-        michal = michal.bind(tangon)();
-        if(michal) { _fun00002_ip = 107; continue _fun00001 }
+        var5 = native2;
+        var7 = native3;
+        var3 = native6;
+        var6 = native7;
+        var1 = global;
+        var8 = var1.Object;
+        var4 = var8.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var8)(var3, var1, var2);
+        var1 = 0;
+        var2 = var6[var1];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var2);
+        var2 = var4.isFabric;
+        var2 = var2.bind(var4)();
+        if(var2) { _fun0001_ip = 107; continue _fun0001 }
  70:
-        michal = 2;
-        michal = oscard[michal];
-        option = golfie.bind(entity)(michal);
-        tangon = option.createAnimatedComponent;
-        michal = 3;
-        michal = oscard[michal];
-        michal = golfie.bind(entity)(michal);
-        michal = tangon.bind(option)(michal);
-        _fun00002_ip = 119; continue _fun00001;
+        var2 = 2;
+        var2 = var6[var2];
+        var8 = var7.bind(var1)(var2);
+        var4 = var8.createAnimatedComponent;
+        var2 = 3;
+        var2 = var6[var2];
+        var2 = var7.bind(var1)(var2);
+        var2 = var4.bind(var8)(var2);
+        _fun0001_ip = 119; continue _fun0001;
  107:
-        tangon = 1;
-        tangon = oscard[tangon];
-        michal = golfie.bind(entity)(tangon);
+        var4 = 1;
+        var4 = var6[var4];
+        var2 = var7.bind(var1)(var4);
  119:
-        tangon = 4;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/core/native/ReanimatedNativeView.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['default'] = michal;
-        return entity;
+        var4 = 4;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/core/native/ReanimatedNativeView.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['default'] = var2;
+        return var1;
     }
 })();

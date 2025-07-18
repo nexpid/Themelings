@@ -1,219 +1,219 @@
 // app/modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    michal = {};
-    tangon = true;
-    michal['value'] = tangon;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.RendererType;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot5 = michal;
-    michal = {'type': null, 'title': 'Internal Build Update', 'parent': null};
-    option = option.PRESSABLE;
-    michal['type'] = option;
-    option = function() { // Original name: InstallNativeUpdateIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
+    var4 = true;
+    var2['value'] = var4;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.RendererType;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot5 = var2;
+    var2 = {'type': null, 'title': 'Internal Build Update', 'parent': null};
+    var8 = var8.PRESSABLE;
+    var2['type'] = var8;
+    var8 = function InstallNativeUpdateIcon() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot3;
-            entity = 4;
-            entity = tangon[entity];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(entity);
-            report = oscard.useStateFromStores;
-            entity = _closure1_slot4;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                michal = _closure1_slot4;
-                entity = michal.latestFetchedBuild;
-                entity = entity.bind(michal)();
-                michal = entity.newBuild;
-                entity = null;
-                entity = entity !== michal;
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot3;
+            var1 = 4;
+            var1 = var4[var1];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var1);
+            var5 = var6.useStateFromStores;
+            var1 = _closure1_slot4;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.latestFetchedBuild;
+                var1 = var1.bind(var2)();
+                var2 = var1.newBuild;
+                var1 = null;
+                var1 = var1 !== var2;
+                return var1;
             };
-            entity = report.bind(oscard)(zuuluu, entity);
-            zuuluu = _closure1_slot5;
-            report = _closure1_slot0;
-            oscard = _closure1_slot3;
-            if(entity) { _fun00002_ip = 92; continue _fun00001 }
+            var1 = var5.bind(var6)(var3, var1);
+            var3 = _closure1_slot5;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            if(var1) { _fun0001_ip = 92; continue _fun0001 }
  72:
-            entity = 8;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            michal = entity.RefreshIcon;
-            _fun00002_ip = 110; continue _fun00001;
+            var1 = 8;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var2 = var1.RefreshIcon;
+            _fun0001_ip = 110; continue _fun0001;
  92:
-            entity = 7;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            michal = entity.DownloadIcon;
+            var1 = 7;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var2 = var1.DownloadIcon;
  110:
-            entity = {};
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = {};
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal['IconComponent'] = option;
-    option = function() { // Original name: useInternalBuildUpdateDescription
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['IconComponent'] = var8;
+    var8 = function useInternalBuildUpdateDescription() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            zuuluu = 4;
-            report = golfie[zuuluu];
-            tangon = undefined;
-            yankee = oscard.bind(tangon)(report);
-            offset = yankee.useStateFromStores;
-            option = _closure1_slot4;
-            verify = new Array(1);
-            verify[0] = option;
-            report = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var3 = 4;
+            var5 = var7[var3];
+            var4 = undefined;
+            var11 = var6.bind(var4)(var5);
+            var10 = var11.useStateFromStores;
+            var8 = _closure1_slot4;
+            var9 = new Array(1);
+            var9[0] = var8;
+            var5 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure1_slot4;
-                    entity = michal.latestFetchedBuild;
-                    entity = entity.bind(michal)();
-                    michal = entity.newBuild;
-                    entity = null;
-                    zuuluu = entity == michal;
-                    entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 40; continue _fun00005 }
+                    var2 = _closure1_slot4;
+                    var1 = var2.latestFetchedBuild;
+                    var1 = var1.bind(var2)();
+                    var2 = var1.newBuild;
+                    var1 = null;
+                    var3 = var1 == var2;
+                    var1 = undefined;
+                    if(var3) { _fun0003_ip = 40; continue _fun0003 }
  34:
-                    entity = michal.build;
+                    var1 = var2.build;
  40:
-                    return entity;
+                    return var1;
                 }
             };
-            report = offset.bind(yankee)(verify, report);
-            zuuluu = golfie[zuuluu];
-            golfie = oscard.bind(tangon)(zuuluu);
-            oscard = golfie.useStateFromStores;
-            zuuluu = new Array(1);
-            zuuluu[0] = option;
-            entity = function() {
-                michal = _closure1_slot4;
-                entity = michal.latestFetchedBuild;
-                entity = entity.bind(michal)();
-                entity = entity.lastCheck;
-                return entity;
+            var5 = var10.bind(var11)(var9, var5);
+            var3 = var7[var3];
+            var7 = var6.bind(var4)(var3);
+            var6 = var7.useStateFromStores;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.latestFetchedBuild;
+                var1 = var1.bind(var2)();
+                var1 = var1.lastCheck;
+                return var1;
             };
-            zuuluu = oscard.bind(golfie)(zuuluu, entity);
-            entity = null;
-            if(!(entity == report)) { _fun00004_ip = 172; continue _fun00003 }
+            var3 = var6.bind(var7)(var3, var1);
+            var1 = null;
+            if(!(var1 == var5)) { _fun0002_ip = 172; continue _fun0002 }
  98:
-            oscard = entity != zuuluu;
-            entity = 'Never refreshed';
-            if(!oscard) { _fun00004_ip = 170; continue _fun00003 }
+            var6 = var1 != var3;
+            var1 = 'Never refreshed';
+            if(!var6) { _fun0002_ip = 170; continue _fun0002 }
  111:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot3;
-            michal = 5;
-            michal = golfie[michal];
-            michal = oscard.bind(tangon)(michal);
-            zuuluu = michal.bind(tangon)(zuuluu);
-            michal = zuuluu.fromNow;
-            tangon = michal.bind(zuuluu)();
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'Last refreshed ';
-            entity = zuuluu.bind(michal)(tangon);
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var2 = var7[var2];
+            var2 = var6.bind(var4)(var2);
+            var3 = var2.bind(var4)(var3);
+            var2 = var3.fromNow;
+            var4 = var2.bind(var3)();
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'Last refreshed ';
+            var1 = var3.bind(var2)(var4);
  170:
-            _fun00004_ip = 203; continue _fun00003;
+            _fun0002_ip = 203; continue _fun0002;
  172:
-            michal = global;
-            michal = michal.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = 'Open build ';
-            michal = ' installer in a browser';
-            entity = tangon.bind(zuuluu)(report, michal);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = 'Open build ';
+            var2 = ' installer in a browser';
+            var1 = var4.bind(var3)(var5, var2);
  203:
-            return entity;
+            return var1;
         }
     };
-    michal['useDescription'] = option;
-    option = function() { // Original name: useHasInternalBuildUpdateSetting
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['useDescription'] = var8;
+    var8 = function useHasInternalBuildUpdateSetting() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot3;
-            michal = 6;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.useStaffOrDevEnvSettingPredicate;
-            michal = michal.bind(zuuluu)();
-            entity = _closure1_slot4;
-            entity = entity.hasUpdatesConfigured;
-            if(!entity) { _fun00008_ip = 51; continue _fun00007 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
+            var2 = 6;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.useStaffOrDevEnvSettingPredicate;
+            var2 = var2.bind(var3)();
+            var1 = _closure1_slot4;
+            var1 = var1.hasUpdatesConfigured;
+            if(!var1) { _fun0004_ip = 51; continue _fun0004 }
  48:
-            entity = michal;
+            var1 = var2;
  51:
-            return entity;
+            return var1;
         }
     };
-    michal['usePredicate'] = option;
-    golfie = function() { // Original name: handleInstallNativeUpdateSettingPress
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var2['usePredicate'] = var8;
+    var7 = function handleInstallNativeUpdateSettingPress() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.latestFetchedBuild;
-            michal = michal.bind(zuuluu)();
-            zuuluu = michal.newBuild;
-            michal = null;
-            if(!(michal === zuuluu)) { _fun00010_ip = 45; continue _fun00009 }
+            var3 = _closure1_slot4;
+            var2 = var3.latestFetchedBuild;
+            var2 = var2.bind(var3)();
+            var3 = var2.newBuild;
+            var2 = null;
+            if(!(var2 === var3)) { _fun0005_ip = 45; continue _fun0005 }
  29:
-            tangon = _closure1_slot4;
-            michal = tangon.checkForNewerBuild;
-            michal = michal.bind(tangon)();
-            _fun00010_ip = 78; continue _fun00009;
+            var4 = _closure1_slot4;
+            var2 = var4.checkForNewerBuild;
+            var2 = var2.bind(var4)();
+            _fun0005_ip = 78; continue _fun0005;
  45:
-            tangon = _closure1_slot2;
-            michal = _closure1_slot3;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.openBuildInstaller;
-            entity = entity.bind(michal)(zuuluu);
+            var4 = _closure1_slot2;
+            var2 = _closure1_slot3;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.openBuildInstaller;
+            var1 = var1.bind(var2)(var3);
  78:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['onPress'] = golfie;
-    michal['withArrow'] = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['onPress'] = var7;
+    var2['withArrow'] = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/InternalBuildUpdateSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

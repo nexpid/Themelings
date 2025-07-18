@@ -1,76 +1,76 @@
 // app/modules/activities/useActivityShelfItemData.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = report;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/useActivityShelfItemData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useActivityShelfItemData
-        report = argBar;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot0;
-        oscard = _closure1_slot1;
-        zuuluu = 1;
-        zuuluu = oscard[zuuluu];
-        oscard = undefined;
-        tangon = tangon.bind(oscard)(zuuluu);
-        zuuluu = {};
-        golfie = argFoo;
-        zuuluu['guildId'] = golfie;
-        oscard = tangon.bind(oscard)(zuuluu);
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/useActivityShelfItemData.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useActivityShelfItemData(arg1, arg2) {
+        var5 = arg2;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var3 = 1;
+        var3 = var6[var3];
+        var6 = undefined;
+        var4 = var4.bind(var6)(var3);
+        var3 = {};
+        var7 = arg1;
+        var3['guildId'] = var7;
+        var6 = var4.bind(var6)(var3);
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.find;
-                entity = function(argFoo) {
-                    entity = argFoo;
-                    entity = entity.application;
-                    michal = entity.id;
-                    entity = _closure2_slot0;
-                    entity = michal === entity;
-                    return entity;
+                var3 = _closure2_slot1;
+                var2 = var3.find;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.application;
+                    var2 = var1.id;
+                    var1 = _closure2_slot0;
+                    var1 = var2 === var1;
+                    return var1;
                 };
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                zuuluu = entity != michal;
-                if(!zuuluu) { _fun00002_ip = 38; continue _fun00001 }
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0001_ip = 38; continue _fun0001 }
  35:
-                entity = michal;
+                var1 = var2;
  38:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useActivityShelfItemData'] = michal;
-    return entity;
+    var3['useActivityShelfItemData'] = var2;
+    return var1;
 })();

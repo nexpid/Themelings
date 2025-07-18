@@ -1,170 +1,170 @@
 // app/modules/main_tabs_v2/native/settings/renderer/SettingBlocklistManager.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = golfie.memo;
-    michal = function() { // Original name: SettingBlocklistManager
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = var7.memo;
+    var2 = function SettingBlocklistManager() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot4;
-            tangon = report.getField;
-            entity = 'blocklist';
-            backup = tangon.bind(report)(entity);
-            foxtra = new Array(0);
-            var _closure2_slot0 = foxtra;
-            romeon = new Array(0);
-            var _closure2_slot1 = romeon;
-            entity = global;
-            report = entity.Object;
-            tangon = report.entries;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 3;
-            entity = golfie[entity];
-            yankee = undefined;
-            entity = oscard.bind(yankee)(entity);
-            entity = entity.SETTING_RENDERER_CONFIG;
-            offset = tangon.bind(report)(entity);
-            entity = offset.length;
-            verify = 0;
-            tangon = verify < entity;
-            option = false;
-            golfie = 2;
-            oscard = 1;
-            entity = null;
-            report = 0;
-            if(!tangon) { _fun00002_ip = 227; continue _fun00001 }
+            var5 = _closure1_slot4;
+            var4 = var5.getField;
+            var1 = 'blocklist';
+            var14 = var4.bind(var5)(var1);
+            var13 = new Array(0);
+            var _closure2_slot0 = var13;
+            var12 = new Array(0);
+            var _closure2_slot1 = var12;
+            var1 = global;
+            var5 = var1.Object;
+            var4 = var5.entries;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 3;
+            var1 = var7[var1];
+            var11 = undefined;
+            var1 = var6.bind(var11)(var1);
+            var1 = var1.SETTING_RENDERER_CONFIG;
+            var10 = var4.bind(var5)(var1);
+            var1 = var10.length;
+            var9 = 0;
+            var4 = var9 < var1;
+            var8 = false;
+            var7 = 2;
+            var6 = 1;
+            var1 = null;
+            var5 = 0;
+            if(!var4) { _fun0001_ip = 227; continue _fun0001 }
  113:
-            kiloes = offset[report];
-            tangon = _closure1_slot2;
-            tangon = tangon.bind(yankee)(kiloes, golfie);
-            kiloes = tangon[verify];
-            tangon = tangon[oscard];
-            sizing = tangon.usePredicate;
-            output = entity == sizing;
-            tangon = undefined;
-            if(output) { _fun00002_ip = 154; continue _fun00001 }
+            var15 = var10[var5];
+            var4 = _closure1_slot2;
+            var4 = var4.bind(var11)(var15, var7);
+            var15 = var4[var9];
+            var4 = var4[var6];
+            var16 = var4.usePredicate;
+            var17 = var1 == var16;
+            var4 = undefined;
+            if(var17) { _fun0001_ip = 154; continue _fun0001 }
  150:
-            tangon = sizing.bind(yankee)();
+            var4 = var16.bind(var11)();
  154:
-            sizing = option === tangon;
-            if(!sizing) { _fun00002_ip = 186; continue _fun00001 }
+            var16 = var8 === var4;
+            if(!var16) { _fun0001_ip = 186; continue _fun0001 }
  161:
-            tangon = backup.has;
-            tangon = tangon.bind(backup)(kiloes);
-            if(tangon) { _fun00002_ip = 186; continue _fun00001 }
+            var4 = var14.has;
+            var4 = var4.bind(var14)(var15);
+            if(var4) { _fun0001_ip = 186; continue _fun0001 }
  174:
-            tangon = foxtra.push;
-            tangon = tangon.bind(foxtra)(kiloes);
-            _fun00002_ip = 215; continue _fun00001;
+            var4 = var13.push;
+            var4 = var4.bind(var13)(var15);
+            _fun0001_ip = 215; continue _fun0001;
  186:
-            tangon = !sizing;
-            if(sizing) { _fun00002_ip = 202; continue _fun00001 }
+            var4 = !var16;
+            if(var16) { _fun0001_ip = 202; continue _fun0001 }
  192:
-            sizing = backup.has;
-            tangon = sizing.bind(backup)(kiloes);
+            var16 = var14.has;
+            var4 = var16.bind(var14)(var15);
  202:
-            if(!tangon) { _fun00002_ip = 215; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 215; continue _fun0001 }
  205:
-            tangon = romeon.push;
-            tangon = tangon.bind(romeon)(kiloes);
+            var4 = var12.push;
+            var4 = var4.bind(var12)(var15);
  215:
-            report = report + 1;
-            tangon = offset.length;
-            if(report < tangon) { _fun00002_ip = 113; continue _fun00001 }
+            var5 = var5 + 1;
+            var4 = var10.length;
+            if(var5 < var4) { _fun0001_ip = 113; continue _fun0001 }
  227:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useEffect;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = _closure1_slot3;
+            var3 = var4.useEffect;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    zuuluu = zuuluu.length;
-                    tangon = 0;
-                    if(!(!(zuuluu > tangon))) { _fun00004_ip = 33; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var3 = var3.length;
+                    var4 = 0;
+                    if(!(!(var3 > var4))) { _fun0002_ip = 33; continue _fun0002 }
  20:
-                    zuuluu = _closure2_slot1;
-                    zuuluu = zuuluu.length;
-                    if(!(zuuluu > tangon)) { _fun00004_ip = 147; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var3 = var3.length;
+                    if(!(var3 > var4)) { _fun0002_ip = 147; continue _fun0002 }
  33:
-                    zuuluu = _closure1_slot4;
-                    report = zuuluu.getField;
-                    tangon = 'blocklist';
-                    option = report.bind(zuuluu)(tangon);
-                    tangon = global;
-                    tangon = tangon.Set;
-                    report = tangon.prototype;
-                    report = Object.create(report, {constructor: {value: tangon}});
-                    verify = report;
-                    tangon = new verify[tangon](option, golfie);
-                    tangon = tangon instanceof Object ? tangon : report;
-                    var _closure3_slot0 = tangon;
-                    golfie = _closure2_slot0;
-                    oscard = golfie.forEach;
-                    report = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.add;
-                        entity = argFoo;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                    var3 = _closure1_slot4;
+                    var5 = var3.getField;
+                    var4 = 'blocklist';
+                    var8 = var5.bind(var3)(var4);
+                    var4 = global;
+                    var4 = var4.Set;
+                    var5 = var4.prototype;
+                    var5 = Object.create(var5, {constructor: {value: var4}});
+                    var9 = var5;
+                    var4 = new var9[var4](var8, var7);
+                    var4 = var4 instanceof Object ? var4 : var5;
+                    var _closure3_slot0 = var4;
+                    var7 = _closure2_slot0;
+                    var6 = var7.forEach;
+                    var5 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = var3.add;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    report = oscard.bind(golfie)(report);
-                    report = _closure2_slot1;
-                    michal = report.forEach;
-                    entity = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.delete;
-                        entity = argFoo;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                    var5 = var6.bind(var7)(var5);
+                    var5 = _closure2_slot1;
+                    var2 = var5.forEach;
+                    var1 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = var3.delete;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    entity = michal.bind(report)(entity);
-                    michal = zuuluu.setState;
-                    entity = {};
-                    entity['blocklist'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var1 = var2.bind(var5)(var1);
+                    var2 = var3.setState;
+                    var1 = {};
+                    var1['blocklist'] = var4;
+                    var1 = var2.bind(var3)(var1);
  147:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/renderer/SettingBlocklistManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/renderer/SettingBlocklistManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

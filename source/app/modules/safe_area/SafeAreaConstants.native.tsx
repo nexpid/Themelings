@@ -1,53 +1,53 @@
 // app/modules/safe_area/SafeAreaConstants.native.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        zuuluu = argFre;
-        option = argPlu;
-        entity = global;
-        report = entity.Object;
-        tangon = report.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        report = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
-        michal = 0;
-        tangon = option[michal];
-        entity = undefined;
-        tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.initialWindowMetrics;
-        verify = null;
-        oscard = verify != tangon;
-        tangon = undefined;
-        if(!oscard) { _fun00002_ip = 96; continue _fun00001 }
+        var7 = native2;
+        var3 = native6;
+        var8 = native7;
+        var1 = global;
+        var5 = var1.Object;
+        var4 = var5.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var5)(var3, var1, var2);
+        var5 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
+        var2 = 0;
+        var4 = var8[var2];
+        var1 = undefined;
+        var4 = var7.bind(var1)(var4);
+        var4 = var4.initialWindowMetrics;
+        var9 = null;
+        var6 = var9 != var4;
+        var4 = undefined;
+        if(!var6) { _fun0001_ip = 96; continue _fun0001 }
  81:
-        michal = option[michal];
-        michal = golfie.bind(entity)(michal);
-        tangon = michal.initialWindowMetrics;
+        var2 = var8[var2];
+        var2 = var7.bind(var1)(var2);
+        var4 = var2.initialWindowMetrics;
  96:
-        michal = verify == tangon;
-        oscard = undefined;
-        if(michal) { _fun00002_ip = 111; continue _fun00001 }
+        var2 = var9 == var4;
+        var6 = undefined;
+        if(var2) { _fun0001_ip = 111; continue _fun0001 }
  105:
-        oscard = tangon.insets;
+        var6 = var4.insets;
  111:
-        michal = report;
-        if(!(verify != oscard)) { _fun00002_ip = 121; continue _fun00001 }
+        var2 = var5;
+        if(!(var9 != var6)) { _fun0001_ip = 121; continue _fun0001 }
  118:
-        michal = oscard;
+        var2 = var6;
  121:
-        oscard = 1;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'modules/safe_area/SafeAreaConstants.native.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['EMPTY_SAFE_AREA_INSETS'] = report;
-        zuuluu['INITIAL_SAFE_AREA_METRICS'] = tangon;
-        zuuluu['INITIAL_SAFE_AREA_INSETS'] = michal;
-        return entity;
+        var6 = 1;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'modules/safe_area/SafeAreaConstants.native.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['EMPTY_SAFE_AREA_INSETS'] = var5;
+        var3['INITIAL_SAFE_AREA_METRICS'] = var4;
+        var3['INITIAL_SAFE_AREA_INSETS'] = var2;
+        return var1;
     }
 })();

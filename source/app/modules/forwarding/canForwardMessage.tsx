@@ -1,299 +1,299 @@
 // app/modules/forwarding/canForwardMessage.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: _canForwardMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _canForwardMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            michal = option.state;
-            entity = _closure1_slot7;
-            entity = entity.SEND_FAILED;
-            entity = michal !== entity;
-            if(!entity) { _fun00002_ip = 182; continue _fun00001 }
+            var8 = arg1;
+            var2 = var8.state;
+            var1 = _closure1_slot7;
+            var1 = var1.SEND_FAILED;
+            var1 = var2 !== var1;
+            if(!var1) { _fun0001_ip = 182; continue _fun0001 }
  31:
-            michal = _closure1_slot8;
-            tangon = michal.FORWARDABLE;
-            zuuluu = tangon.has;
-            michal = option.type;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = !michal;
-            michal = !zuuluu;
-            if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
+            var2 = _closure1_slot8;
+            var4 = var2.FORWARDABLE;
+            var3 = var4.has;
+            var2 = var8.type;
+            var2 = var3.bind(var4)(var2);
+            var3 = !var2;
+            var2 = !var3;
+            if(var3) { _fun0001_ip = 179; continue _fun0001 }
  65:
-            zuuluu = option.poll;
-            verify = null;
-            zuuluu = verify == zuuluu;
-            if(!zuuluu) { _fun00002_ip = 176; continue _fun00001 }
+            var3 = var8.poll;
+            var9 = null;
+            var3 = var9 == var3;
+            if(!var3) { _fun0001_ip = 176; continue _fun0001 }
  80:
-            tangon = option.activity;
-            tangon = verify == tangon;
-            if(!tangon) { _fun00002_ip = 173; continue _fun00001 }
+            var4 = var8.activity;
+            var4 = var9 == var4;
+            if(!var4) { _fun0001_ip = 173; continue _fun0001 }
  93:
-            report = option.call;
-            report = verify == report;
-            if(!report) { _fun00002_ip = 170; continue _fun00001 }
+            var5 = var8.call;
+            var5 = var9 == var5;
+            if(!var5) { _fun0001_ip = 170; continue _fun0001 }
  105:
-            oscard = option.activityInstance;
-            oscard = verify == oscard;
-            if(!oscard) { _fun00002_ip = 167; continue _fun00001 }
+            var6 = var8.activityInstance;
+            var6 = var9 == var6;
+            if(!var6) { _fun0001_ip = 167; continue _fun0001 }
  118:
-            yankee = _closure1_slot0;
-            offset = _closure1_slot1;
-            verify = 5;
-            offset = offset[verify];
-            verify = undefined;
-            offset = yankee.bind(verify)(offset);
-            verify = offset.removeFlag;
-            option = option.flags;
-            golfie = _closure1_slot9;
-            option = verify.bind(offset)(option, golfie);
-            golfie = 0;
-            oscard = golfie === option;
+            var11 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var9 = 5;
+            var10 = var10[var9];
+            var9 = undefined;
+            var10 = var11.bind(var9)(var10);
+            var9 = var10.removeFlag;
+            var8 = var8.flags;
+            var7 = _closure1_slot9;
+            var8 = var9.bind(var10)(var8, var7);
+            var7 = 0;
+            var6 = var7 === var8;
  167:
-            report = oscard;
+            var5 = var6;
  170:
-            tangon = report;
+            var4 = var5;
  173:
-            zuuluu = tangon;
+            var3 = var4;
  176:
-            michal = zuuluu;
+            var2 = var3;
  179:
-            entity = michal;
+            var1 = var2;
  182:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    golfie = report.bind(entity)(tangon);
-    tangon = golfie.GuildFeatures;
-    var _closure1_slot6 = tangon;
-    tangon = golfie.MessageFlags;
-    option = golfie.MessageStates;
-    var _closure1_slot7 = option;
-    golfie = golfie.MessageTypesSets;
-    var _closure1_slot8 = golfie;
-    option = tangon.CROSSPOSTED;
-    golfie = tangon.FAILED_TO_MENTION_SOME_ROLES_IN_THREAD;
-    option = option | golfie;
-    golfie = tangon.GUILD_FEED_HIDDEN;
-    option = option | golfie;
-    golfie = tangon.HAS_SNAPSHOT;
-    option = option | golfie;
-    golfie = tangon.HAS_THREAD;
-    option = option | golfie;
-    golfie = tangon.IS_CROSSPOST;
-    option = option | golfie;
-    golfie = tangon.IS_VOICE_MESSAGE;
-    option = option | golfie;
-    golfie = tangon.SHOULD_SHOW_LINK_NOT_DISCORD_WARNING;
-    option = option | golfie;
-    golfie = tangon.SUPPRESS_EMBEDS;
-    option = option | golfie;
-    golfie = tangon.SUPPRESS_NOTIFICATIONS;
-    option = option | golfie;
-    golfie = tangon.URGENT;
-    golfie = option | golfie;
-    tangon = tangon.IS_COMPONENTS_V2;
-    tangon = golfie | tangon;
-    var _closure1_slot9 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forwarding/canForwardMessage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: canForwardMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var7 = var5.bind(var1)(var4);
+    var4 = var7.GuildFeatures;
+    var _closure1_slot6 = var4;
+    var4 = var7.MessageFlags;
+    var8 = var7.MessageStates;
+    var _closure1_slot7 = var8;
+    var7 = var7.MessageTypesSets;
+    var _closure1_slot8 = var7;
+    var8 = var4.CROSSPOSTED;
+    var7 = var4.FAILED_TO_MENTION_SOME_ROLES_IN_THREAD;
+    var8 = var8 | var7;
+    var7 = var4.GUILD_FEED_HIDDEN;
+    var8 = var8 | var7;
+    var7 = var4.HAS_SNAPSHOT;
+    var8 = var8 | var7;
+    var7 = var4.HAS_THREAD;
+    var8 = var8 | var7;
+    var7 = var4.IS_CROSSPOST;
+    var8 = var8 | var7;
+    var7 = var4.IS_VOICE_MESSAGE;
+    var8 = var8 | var7;
+    var7 = var4.SHOULD_SHOW_LINK_NOT_DISCORD_WARNING;
+    var8 = var8 | var7;
+    var7 = var4.SUPPRESS_EMBEDS;
+    var8 = var8 | var7;
+    var7 = var4.SUPPRESS_NOTIFICATIONS;
+    var8 = var8 | var7;
+    var7 = var4.URGENT;
+    var7 = var8 | var7;
+    var4 = var4.IS_COMPONENTS_V2;
+    var4 = var7 | var4;
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forwarding/canForwardMessage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function canForwardMessage(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = _closure1_slot10;
-            report = undefined;
-            entity = entity.bind(report)(michal);
-            if(entity) { _fun00004_ip = 24; continue _fun00003 }
+            var2 = arg1;
+            var1 = _closure1_slot10;
+            var5 = undefined;
+            var1 = var1.bind(var5)(var2);
+            if(var1) { _fun0002_ip = 24; continue _fun0002 }
  20:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  24:
-            oscard = _closure1_slot4;
-            tangon = oscard.getChannel;
-            entity = michal.channel_id;
-            tangon = tangon.bind(oscard)(entity);
-            entity = null;
-            oscard = entity == tangon;
-            report = undefined;
-            if(oscard) { _fun00004_ip = 59; continue _fun00003 }
+            var6 = _closure1_slot4;
+            var4 = var6.getChannel;
+            var1 = var2.channel_id;
+            var4 = var4.bind(var6)(var1);
+            var1 = null;
+            var6 = var1 == var4;
+            var5 = undefined;
+            if(var6) { _fun0002_ip = 59; continue _fun0002 }
  54:
-            report = tangon.guild_id;
+            var5 = var4.guild_id;
  59:
-            entity = entity == report;
-            if(entity) { _fun00004_ip = 90; continue _fun00003 }
+            var1 = var1 == var5;
+            if(var1) { _fun0002_ip = 90; continue _fun0002 }
  66:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.isChannelOrThreadParentGated;
-            michal = michal.channel_id;
-            michal = zuuluu.bind(tangon)(report, michal);
-            entity = !michal;
+            var4 = _closure1_slot3;
+            var3 = var4.isChannelOrThreadParentGated;
+            var2 = var2.channel_id;
+            var2 = var3.bind(var4)(var5, var2);
+            var1 = !var2;
  90:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canForwardMessage'] = tangon;
-    michal = function(argFoo) { // Original name: useCanForwardMessage
-        report = argFoo;
-        var _closure2_slot0 = report;
-        oscard = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 6;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        golfie = oscard.bind(zuuluu)(tangon);
-        oscard = golfie.useStateFromStores;
-        zuuluu = _closure1_slot5;
-        tangon = new Array(3);
-        tangon[0] = zuuluu;
-        zuuluu = _closure1_slot3;
-        tangon[1] = zuuluu;
-        zuuluu = _closure1_slot4;
-        tangon[2] = zuuluu;
-        zuuluu = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['canForwardMessage'] = var4;
+    var2 = function useCanForwardMessage(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 6;
+        var4 = var4[var3];
+        var3 = undefined;
+        var7 = var6.bind(var3)(var4);
+        var6 = var7.useStateFromStores;
+        var3 = _closure1_slot5;
+        var4 = new Array(3);
+        var4[0] = var3;
+        var3 = _closure1_slot3;
+        var4[1] = var3;
+        var3 = _closure1_slot4;
+        var4[2] = var3;
+        var3 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = _closure2_slot0;
-                tangon = null;
-                if(!(tangon != entity)) { _fun00006_ip = 212; continue _fun00005 }
+                var1 = _closure2_slot0;
+                var4 = null;
+                if(!(var4 != var1)) { _fun0003_ip = 212; continue _fun0003 }
  16:
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.getChannel;
-                entity = _closure2_slot0;
-                entity = entity.channel_id;
-                entity = michal.bind(zuuluu)(entity);
-                michal = tangon == entity;
-                verify = undefined;
-                if(michal) { _fun00006_ip = 56; continue _fun00005 }
+                var3 = _closure1_slot4;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.channel_id;
+                var1 = var2.bind(var3)(var1);
+                var2 = var4 == var1;
+                var9 = undefined;
+                if(var2) { _fun0003_ip = 56; continue _fun0003 }
  51:
-                verify = entity.guild_id;
+                var9 = var1.guild_id;
  56:
-                if(!(tangon != verify)) { _fun00006_ip = 112; continue _fun00005 }
+                if(!(var4 != var9)) { _fun0003_ip = 112; continue _fun0003 }
  60:
-                michal = _closure1_slot5;
-                entity = michal.getGuild;
-                michal = entity.bind(michal)(verify);
-                golfie = tangon == michal;
-                entity = undefined;
-                if(golfie) { _fun00006_ip = 109; continue _fun00005 }
+                var2 = _closure1_slot5;
+                var1 = var2.getGuild;
+                var2 = var1.bind(var2)(var9);
+                var7 = var4 == var2;
+                var1 = undefined;
+                if(var7) { _fun0003_ip = 109; continue _fun0003 }
  83:
-                option = michal.features;
-                golfie = option.has;
-                michal = _closure1_slot6;
-                michal = michal.FORWARDING_DISABLED;
-                entity = golfie.bind(option)(michal);
+                var8 = var2.features;
+                var7 = var8.has;
+                var2 = _closure1_slot6;
+                var2 = var2.FORWARDING_DISABLED;
+                var1 = var7.bind(var8)(var2);
  109:
-                if(entity) { _fun00006_ip = 208; continue _fun00005 }
+                if(var1) { _fun0003_ip = 208; continue _fun0003 }
  112:
-                entity = tangon != verify;
-                if(!entity) { _fun00006_ip = 144; continue _fun00005 }
+                var1 = var4 != var9;
+                if(!var1) { _fun0003_ip = 144; continue _fun0003 }
  119:
-                option = _closure1_slot3;
-                golfie = option.isChannelOrThreadParentGated;
-                michal = _closure2_slot0;
-                michal = michal.channel_id;
-                entity = golfie.bind(option)(verify, michal);
+                var8 = _closure1_slot3;
+                var7 = var8.isChannelOrThreadParentGated;
+                var2 = _closure2_slot0;
+                var2 = var2.channel_id;
+                var1 = var7.bind(var8)(var9, var2);
  144:
-                michal = _closure2_slot0;
-                michal = tangon != michal;
-                if(!michal) { _fun00006_ip = 200; continue _fun00005 }
+                var2 = _closure2_slot0;
+                var2 = var4 != var2;
+                if(!var2) { _fun0003_ip = 200; continue _fun0003 }
  155:
-                golfie = _closure1_slot4;
-                oscard = golfie.getChannel;
-                report = _closure2_slot0;
-                report = report.channel_id;
-                report = oscard.bind(golfie)(report);
-                tangon = tangon == report;
-                zuuluu = undefined;
-                if(tangon) { _fun00006_ip = 197; continue _fun00005 }
+                var7 = _closure1_slot4;
+                var6 = var7.getChannel;
+                var5 = _closure2_slot0;
+                var5 = var5.channel_id;
+                var5 = var6.bind(var7)(var5);
+                var4 = var4 == var5;
+                var3 = undefined;
+                if(var4) { _fun0003_ip = 197; continue _fun0003 }
  187:
-                tangon = report.isModeratorReportChannel;
-                zuuluu = tangon.bind(report)();
+                var4 = var5.isModeratorReportChannel;
+                var3 = var4.bind(var5)();
  197:
-                michal = zuuluu;
+                var2 = var3;
  200:
-                if(entity) { _fun00006_ip = 206; continue _fun00005 }
+                if(var1) { _fun0003_ip = 206; continue _fun0003 }
  203:
-                entity = michal;
+                var1 = var2;
  206:
-                return entity;
+                return var1;
  208:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  212:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
             }
         };
-        oscard = oscard.bind(golfie)(tangon, zuuluu);
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var6 = var6.bind(var7)(var4, var3);
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = _closure2_slot1;
-                entity = !entity;
-                if(!entity) { _fun00008_ip = 23; continue _fun00007 }
+                var1 = _closure2_slot1;
+                var1 = !var1;
+                if(!var1) { _fun0004_ip = 23; continue _fun0004 }
  13:
-                tangon = _closure2_slot0;
-                zuuluu = null;
-                entity = zuuluu != tangon;
+                var4 = _closure2_slot0;
+                var3 = null;
+                var1 = var3 != var4;
  23:
-                if(!entity) { _fun00008_ip = 44; continue _fun00007 }
+                if(!var1) { _fun0004_ip = 44; continue _fun0004 }
  26:
-                tangon = _closure1_slot10;
-                zuuluu = _closure2_slot0;
-                michal = undefined;
-                entity = tangon.bind(michal)(zuuluu);
+                var4 = _closure1_slot10;
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var1 = var4.bind(var2)(var3);
  44:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useCanForwardMessage'] = michal;
-    return entity;
+    var3['useCanForwardMessage'] = var2;
+    return var1;
 })();

@@ -1,192 +1,192 @@
 // app/modules/creator_monetization_review/CreatorMonetizationRestrictionsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    report = function(argFoo) { // Original name: isRestrictedFromShowingGuildPurchaseEntryPoints
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var5 = function isRestrictedFromShowingGuildPurchaseEntryPoints(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00002_ip = 35; continue _fun00001 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0001_ip = 35; continue _fun0001 }
  12:
-            zuuluu = tangon.includes;
-            michal = _closure1_slot3;
-            michal = michal.NEW_PURCHASES_DISABLED;
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = var4.includes;
+            var2 = _closure1_slot3;
+            var2 = var2.NEW_PURCHASES_DISABLED;
+            var1 = var3.bind(var4)(var2);
  35:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = report;
-    tangon = function(argFoo) { // Original name: isRestrictedFromUpdatingCreatorMonetizationSettings
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var5;
+    var4 = function isRestrictedFromUpdatingCreatorMonetizationSettings(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00004_ip = 35; continue _fun00003 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0002_ip = 35; continue _fun0002 }
  12:
-            zuuluu = tangon.includes;
-            michal = _closure1_slot3;
-            michal = michal.SETTINGS_READ_ONLY;
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = var4.includes;
+            var2 = _closure1_slot3;
+            var2 = var2.SETTINGS_READ_ONLY;
+            var1 = var3.bind(var4)(var2);
  35:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    oscard = 0;
-    offset = option[oscard];
-    entity = undefined;
-    offset = verify.bind(entity)(offset);
-    var _closure1_slot0 = offset;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.FetchState;
-    var _closure1_slot1 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot2 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.CreatorMonetizationRestrictions;
-    var _closure1_slot3 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.GuildFeatures;
-    var _closure1_slot4 = oscard;
-    oscard = 4;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/creator_monetization_review/CreatorMonetizationRestrictionsUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['isRestrictedFromShowingGuildPurchaseEntryPoints'] = report;
-    report = function(argFoo) { // Original name: shouldHideGuildPurchaseEntryPoints
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var6 = 0;
+    var10 = var8[var6];
+    var1 = undefined;
+    var10 = var9.bind(var1)(var10);
+    var _closure1_slot0 = var10;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.FetchState;
+    var _closure1_slot1 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot2 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.CreatorMonetizationRestrictions;
+    var _closure1_slot3 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.GuildFeatures;
+    var _closure1_slot4 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/creator_monetization_review/CreatorMonetizationRestrictionsUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['isRestrictedFromShowingGuildPurchaseEntryPoints'] = var5;
+    var5 = function shouldHideGuildPurchaseEntryPoints(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            golfie = argFoo;
-            entity = null;
-            if(!(entity != golfie)) { _fun00006_ip = 126; continue _fun00005 }
+            var7 = arg1;
+            var1 = null;
+            if(!(var1 != var7)) { _fun0003_ip = 126; continue _fun0003 }
  9:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getMonetizationRestrictionsFetchState;
-            oscard = zuuluu.bind(tangon)(golfie);
-            zuuluu = tangon.getMonetizationRestrictions;
-            tangon = zuuluu.bind(tangon)(golfie);
-            report = _closure1_slot2;
-            zuuluu = report.getGuild;
-            report = zuuluu.bind(report)(golfie);
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.FETCHED;
-            if(!(oscard !== zuuluu)) { _fun00006_ip = 113; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = var4.getMonetizationRestrictionsFetchState;
+            var6 = var3.bind(var4)(var7);
+            var3 = var4.getMonetizationRestrictions;
+            var4 = var3.bind(var4)(var7);
+            var5 = _closure1_slot2;
+            var3 = var5.getGuild;
+            var5 = var3.bind(var5)(var7);
+            var3 = _closure1_slot1;
+            var3 = var3.FETCHED;
+            if(!(var6 !== var3)) { _fun0003_ip = 113; continue _fun0003 }
  66:
-            oscard = entity == report;
-            zuuluu = undefined;
-            if(oscard) { _fun00006_ip = 101; continue _fun00005 }
+            var6 = var1 == var5;
+            var3 = undefined;
+            if(var6) { _fun0003_ip = 101; continue _fun0003 }
  75:
-            golfie = report.features;
-            oscard = golfie.has;
-            report = _closure1_slot4;
-            report = report.CREATOR_MONETIZABLE_RESTRICTED;
-            zuuluu = oscard.bind(golfie)(report);
+            var7 = var5.features;
+            var6 = var7.has;
+            var5 = _closure1_slot4;
+            var5 = var5.CREATOR_MONETIZABLE_RESTRICTED;
+            var3 = var6.bind(var7)(var5);
  101:
-            entity = entity == zuuluu;
-            if(entity) { _fun00006_ip = 111; continue _fun00005 }
+            var1 = var1 == var3;
+            if(var1) { _fun0003_ip = 111; continue _fun0003 }
  108:
-            entity = zuuluu;
+            var1 = var3;
  111:
-            _fun00006_ip = 124; continue _fun00005;
+            _fun0003_ip = 124; continue _fun0003;
  113:
-            zuuluu = _closure1_slot5;
-            michal = undefined;
-            entity = zuuluu.bind(michal)(tangon);
+            var3 = _closure1_slot5;
+            var2 = undefined;
+            var1 = var3.bind(var2)(var4);
  124:
-            return entity;
+            return var1;
  126:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['shouldHideGuildPurchaseEntryPoints'] = report;
-    zuuluu['isRestrictedFromUpdatingCreatorMonetizationSettings'] = tangon;
-    tangon = function(argFoo) { // Original name: shouldRestrictUpdatingCreatorMonetizationSettings
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['shouldHideGuildPurchaseEntryPoints'] = var5;
+    var3['isRestrictedFromUpdatingCreatorMonetizationSettings'] = var4;
+    var4 = function shouldRestrictUpdatingCreatorMonetizationSettings(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            golfie = argFoo;
-            entity = null;
-            if(!(entity != golfie)) { _fun00008_ip = 126; continue _fun00007 }
+            var7 = arg1;
+            var1 = null;
+            if(!(var1 != var7)) { _fun0004_ip = 126; continue _fun0004 }
  9:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getMonetizationRestrictionsFetchState;
-            oscard = zuuluu.bind(tangon)(golfie);
-            zuuluu = tangon.getMonetizationRestrictions;
-            tangon = zuuluu.bind(tangon)(golfie);
-            report = _closure1_slot2;
-            zuuluu = report.getGuild;
-            report = zuuluu.bind(report)(golfie);
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.FETCHED;
-            if(!(oscard !== zuuluu)) { _fun00008_ip = 113; continue _fun00007 }
+            var4 = _closure1_slot0;
+            var3 = var4.getMonetizationRestrictionsFetchState;
+            var6 = var3.bind(var4)(var7);
+            var3 = var4.getMonetizationRestrictions;
+            var4 = var3.bind(var4)(var7);
+            var5 = _closure1_slot2;
+            var3 = var5.getGuild;
+            var5 = var3.bind(var5)(var7);
+            var3 = _closure1_slot1;
+            var3 = var3.FETCHED;
+            if(!(var6 !== var3)) { _fun0004_ip = 113; continue _fun0004 }
  66:
-            oscard = entity == report;
-            zuuluu = undefined;
-            if(oscard) { _fun00008_ip = 101; continue _fun00007 }
+            var6 = var1 == var5;
+            var3 = undefined;
+            if(var6) { _fun0004_ip = 101; continue _fun0004 }
  75:
-            golfie = report.features;
-            oscard = golfie.has;
-            report = _closure1_slot4;
-            report = report.CREATOR_MONETIZABLE_RESTRICTED;
-            zuuluu = oscard.bind(golfie)(report);
+            var7 = var5.features;
+            var6 = var7.has;
+            var5 = _closure1_slot4;
+            var5 = var5.CREATOR_MONETIZABLE_RESTRICTED;
+            var3 = var6.bind(var7)(var5);
  101:
-            entity = entity == zuuluu;
-            if(entity) { _fun00008_ip = 111; continue _fun00007 }
+            var1 = var1 == var3;
+            if(var1) { _fun0004_ip = 111; continue _fun0004 }
  108:
-            entity = zuuluu;
+            var1 = var3;
  111:
-            _fun00008_ip = 124; continue _fun00007;
+            _fun0004_ip = 124; continue _fun0004;
  113:
-            zuuluu = _closure1_slot6;
-            michal = undefined;
-            entity = zuuluu.bind(michal)(tangon);
+            var3 = _closure1_slot6;
+            var2 = undefined;
+            var1 = var3.bind(var2)(var4);
  124:
-            return entity;
+            return var1;
  126:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['shouldRestrictUpdatingCreatorMonetizationSettings'] = tangon;
-    michal = function(argFoo) { // Original name: isRestrictedFromMonetizationReapplication
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['shouldRestrictUpdatingCreatorMonetizationSettings'] = var4;
+    var2 = function isRestrictedFromMonetizationReapplication(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00010_ip = 35; continue _fun00009 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0005_ip = 35; continue _fun0005 }
  12:
-            zuuluu = tangon.includes;
-            michal = _closure1_slot3;
-            michal = michal.REAPPLICATION_DISABLED;
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = var4.includes;
+            var2 = _closure1_slot3;
+            var2 = var2.REAPPLICATION_DISABLED;
+            var1 = var3.bind(var4)(var2);
  35:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isRestrictedFromMonetizationReapplication'] = michal;
-    return entity;
+    var3['isRestrictedFromMonetizationReapplication'] = var2;
+    return var1;
 })();

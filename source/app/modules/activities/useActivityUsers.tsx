@@ -1,111 +1,111 @@
 // app/modules/activities/useActivityUsers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/useActivityUsers.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useActivityUsers
-        oscard = argFoo;
-        golfie = argBar;
-        var _closure2_slot0 = oscard;
-        var _closure2_slot1 = golfie;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresArray;
-        option = _closure1_slot3;
-        zuuluu = new Array(2);
-        zuuluu[0] = option;
-        michal = _closure1_slot2;
-        zuuluu[1] = michal;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/useActivityUsers.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useActivityUsers(arg1, arg2) {
+        var6 = arg1;
+        var7 = arg2;
+        var _closure2_slot0 = var6;
+        var _closure2_slot1 = var7;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresArray;
+        var8 = _closure1_slot3;
+        var3 = new Array(2);
+        var3[0] = var8;
+        var2 = _closure1_slot2;
+        var3[1] = var2;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure2_slot1;
-                zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00002_ip = 124; continue _fun00001 }
+                var4 = _closure2_slot1;
+                var3 = null;
+                if(!(var3 != var4)) { _fun0001_ip = 124; continue _fun0001 }
  15:
-                report = _closure1_slot3;
-                tangon = report.getEmbeddedActivitiesForChannel;
-                michal = _closure2_slot1;
-                report = tangon.bind(report)(michal);
-                tangon = report.find;
-                michal = function(argFoo) {
-                    entity = argFoo;
-                    michal = entity.applicationId;
-                    entity = _closure2_slot0;
-                    entity = michal === entity;
-                    return entity;
+                var5 = _closure1_slot3;
+                var4 = var5.getEmbeddedActivitiesForChannel;
+                var2 = _closure2_slot1;
+                var5 = var4.bind(var5)(var2);
+                var4 = var5.find;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.applicationId;
+                    var1 = _closure2_slot0;
+                    var1 = var2 === var1;
+                    return var1;
                 };
-                michal = tangon.bind(report)(michal);
-                if(!(zuuluu != michal)) { _fun00002_ip = 118; continue _fun00001 }
+                var2 = var4.bind(var5)(var2);
+                if(!(var3 != var2)) { _fun0001_ip = 118; continue _fun0001 }
  58:
-                zuuluu = global;
-                tangon = zuuluu.Array;
-                zuuluu = tangon.from;
-                michal = michal.userIds;
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.map;
-                michal = function(argFoo) {
-                    zuuluu = _closure1_slot2;
-                    michal = zuuluu.getUser;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var3 = global;
+                var4 = var3.Array;
+                var3 = var4.from;
+                var2 = var2.userIds;
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.map;
+                var2 = function(arg1) {
+                    var3 = _closure1_slot2;
+                    var2 = var3.getUser;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.filter;
-                entity = function(argFoo) {
-                    michal = null;
-                    entity = argFoo;
-                    entity = michal != entity;
-                    return entity;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.filter;
+                var1 = function(arg1) {
+                    var2 = null;
+                    var1 = arg1;
+                    var1 = var2 != var1;
+                    return var1;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                _fun00002_ip = 122; continue _fun00001;
+                var1 = var2.bind(var3)(var1);
+                _fun0001_ip = 122; continue _fun0001;
  118:
-                entity = new Array(0);
+                var1 = new Array(0);
  122:
-                return entity;
+                return var1;
  124:
-                entity = new Array(0);
-                return entity;
+                var1 = new Array(0);
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

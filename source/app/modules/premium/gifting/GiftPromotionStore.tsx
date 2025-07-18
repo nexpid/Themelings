@@ -1,250 +1,250 @@
 // app/modules/premium/gifting/GiftPromotionStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot6 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot6 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = report[entity];
-    entity = undefined;
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot0 = michal;
-    michal = 1;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot1 = michal;
-    michal = 2;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 3;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 4;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = {};
-    golfie = {};
-    michal['giftOptionsReceiptMap'] = golfie;
-    var _closure1_slot5 = michal;
-    michal = 5;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    golfie = michal.PersistedStore;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: GiftPromotionStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var5[var1];
+    var1 = undefined;
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot1 = var2;
+    var2 = 2;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 3;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var7 = {};
+    var2['giftOptionsReceiptMap'] = var7;
+    var _closure1_slot5 = var2;
+    var2 = 5;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.PersistedStore;
+    var2 = function(arg1) {
+        var4 = function GiftPromotionStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot0;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot3;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot2;
-                entity = _closure1_slot6;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot3;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
+                var1 = _closure1_slot6;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot4;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot1;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot4;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = argFoo;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00006_ip = 37; continue _fun00005 }
+                var3 = arg1;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0003_ip = 37; continue _fun0003 }
  9:
-                michal = _closure1_slot5;
-                entity = {};
-                tangon = zuuluu.giftOptionsReceiptMap;
-                report = entity;
-                zuuluu = copyDataProperties(report, tangon);
-                michal['giftOptionsReceiptMap'] = entity;
+                var2 = _closure1_slot5;
+                var1 = {};
+                var4 = var3.giftOptionsReceiptMap;
+                var5 = var1;
+                var3 = copyDataProperties(var5, var4);
+                var2['giftOptionsReceiptMap'] = var1;
  37:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'getState';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot5;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getState';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot5;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getGiftOptionsForKey';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            entity = _closure1_slot5;
-            michal = entity.giftOptionsReceiptMap;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getGiftOptionsForKey';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var1 = _closure1_slot5;
+            var2 = var1.giftOptionsReceiptMap;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    golfie = michal.bind(entity)(golfie);
-    michal = 'GiftPromotionStore';
-    golfie['displayName'] = michal;
-    golfie['persistKey'] = michal;
-    michal = new Array(1);
-    option = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var7 = var2.bind(var1)(var7);
+    var2 = 'GiftPromotionStore';
+    var7['displayName'] = var2;
+    var7['persistKey'] = var2;
+    var2 = new Array(1);
+    var8 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = null;
-            entity = tangon;
-            if(!(zuuluu != entity)) { _fun00008_ip = 40; continue _fun00007 }
+            var4 = arg1;
+            var3 = null;
+            var1 = var4;
+            if(!(var3 != var1)) { _fun0004_ip = 40; continue _fun0004 }
  12:
-            michal = {};
-            tangon = tangon.giftOptionsReceiptMap;
-            report = zuuluu != tangon;
-            zuuluu = null;
-            if(!report) { _fun00008_ip = 32; continue _fun00007 }
+            var2 = {};
+            var4 = var4.giftOptionsReceiptMap;
+            var5 = var3 != var4;
+            var3 = null;
+            if(!var5) { _fun0004_ip = 32; continue _fun0004 }
  29:
-            zuuluu = tangon;
+            var3 = var4;
  32:
-            michal['giftOptionsReceiptMap'] = zuuluu;
-            entity = michal;
+            var2['giftOptionsReceiptMap'] = var3;
+            var1 = var2;
  40:
-            return entity;
+            return var1;
         }
     };
-    michal[0] = option;
-    golfie['migrations'] = michal;
-    michal = 6;
-    michal = report[michal];
-    yankee = oscard.bind(entity)(michal);
-    michal = {};
-    option = function() { // Original name: handleLogout
-        michal = {};
-        entity = {};
-        michal['giftOptionsReceiptMap'] = entity;
-        _closure1_slot5 = michal;
-        entity = undefined;
-        return entity;
+    var2[0] = var8;
+    var7['migrations'] = var2;
+    var2 = 6;
+    var2 = var5[var2];
+    var11 = var6.bind(var1)(var2);
+    var2 = {};
+    var8 = function handleLogout() {
+        var2 = {};
+        var1 = {};
+        var2['giftOptionsReceiptMap'] = var1;
+        _closure1_slot5 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['LOGOUT'] = option;
-    option = function(argFoo) { // Original name: handleCacheGiftOptions
-        entity = argFoo;
-        zuuluu = entity.key;
-        michal = entity.giftOptions;
-        entity = _closure1_slot5;
-        entity = entity.giftOptionsReceiptMap;
-        entity[zuuluu] = michal;
-        entity = undefined;
-        return entity;
+    var2['LOGOUT'] = var8;
+    var8 = function handleCacheGiftOptions(arg1) {
+        var1 = arg1;
+        var3 = var1.key;
+        var2 = var1.giftOptions;
+        var1 = _closure1_slot5;
+        var1 = var1.giftOptionsReceiptMap;
+        var1[var3] = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['GIFT_PROMOTION_GIFT_OPTIONS_CACHE_ACTION'] = option;
-    tangon = function(argFoo) { // Original name: handleClearCachedGiftOptions
-        entity = argFoo;
-        michal = entity.key;
-        entity = _closure1_slot5;
-        entity = entity.giftOptionsReceiptMap;
-        entity = delete entity[michal];
-        entity = undefined;
-        return entity;
+    var2['GIFT_PROMOTION_GIFT_OPTIONS_CACHE_ACTION'] = var8;
+    var4 = function handleClearCachedGiftOptions(arg1) {
+        var1 = arg1;
+        var2 = var1.key;
+        var1 = _closure1_slot5;
+        var1 = var1.giftOptionsReceiptMap;
+        var1 = delete var1[var2];
+        var1 = undefined;
+        return var1;
     };
-    michal['GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION'] = tangon;
-    tangon = golfie.prototype;
-    tangon = Object.create(tangon, {constructor: {value: golfie}});
-    romeon = tangon;
-    offset = michal;
-    michal = new romeon[golfie](yankee, offset, verify);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 7;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/gifting/GiftPromotionStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var12 = var4;
+    var10 = var2;
+    var2 = new var12[var7](var11, var10, var9);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 7;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/gifting/GiftPromotionStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

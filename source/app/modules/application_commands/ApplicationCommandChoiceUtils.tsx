@@ -1,162 +1,162 @@
 // app/modules/application_commands/ApplicationCommandChoiceUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    report = function(argFoo, argBar) { // Original name: findChoiceStringValue
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var5 = function findChoiceStringValue(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            entity = argBar;
-            var _closure2_slot0 = entity;
-            tangon = null;
-            report = tangon == oscard;
-            michal = undefined;
-            entity = undefined;
-            if(report) { _fun00002_ip = 54; continue _fun00001 }
+            var6 = arg1;
+            var1 = arg2;
+            var _closure2_slot0 = var1;
+            var4 = null;
+            var5 = var4 == var6;
+            var2 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 54; continue _fun0001 }
  25:
-            report = oscard.find;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                michal = entity.displayName;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var5 = var6.find;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.displayName;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = tangon == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 54; continue _fun00001 }
+            var3 = var5.bind(var6)(var3);
+            var4 = var4 == var3;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 54; continue _fun0001 }
  49:
-            entity = zuuluu.value;
+            var1 = var3.value;
  54:
-            tangon = 'string';
-            zuuluu = typeof entity;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 67; continue _fun00001 }
+            var4 = 'string';
+            var3 = typeof var1;
+            if(!(var4 !== var3)) { _fun0001_ip = 67; continue _fun0001 }
  65:
-            return michal;
+            return var2;
  67:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = report;
-    tangon = function(argFoo, argBar) { // Original name: findChoiceNumberValue
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var5;
+    var4 = function findChoiceNumberValue(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            entity = argBar;
-            var _closure2_slot0 = entity;
-            tangon = null;
-            report = tangon == oscard;
-            michal = undefined;
-            entity = undefined;
-            if(report) { _fun00004_ip = 54; continue _fun00003 }
+            var6 = arg1;
+            var1 = arg2;
+            var _closure2_slot0 = var1;
+            var4 = null;
+            var5 = var4 == var6;
+            var2 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0002_ip = 54; continue _fun0002 }
  25:
-            report = oscard.find;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                michal = entity.displayName;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var5 = var6.find;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.displayName;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = tangon == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00004_ip = 54; continue _fun00003 }
+            var3 = var5.bind(var6)(var3);
+            var4 = var4 == var3;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 54; continue _fun0002 }
  49:
-            entity = zuuluu.value;
+            var1 = var3.value;
  54:
-            tangon = 'number';
-            zuuluu = typeof entity;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 67; continue _fun00003 }
+            var4 = 'number';
+            var3 = typeof var1;
+            if(!(var4 !== var3)) { _fun0002_ip = 67; continue _fun0002 }
  65:
-            return michal;
+            return var2;
  67:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    verify = option[entity];
-    oscard = argBaz;
-    entity = undefined;
-    oscard = oscard.bind(entity)(verify);
-    var _closure1_slot0 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    verify = oscard.FALSE_OPTION_NAME;
-    var _closure1_slot1 = verify;
-    oscard = oscard.TRUE_OPTION_NAME;
-    var _closure1_slot2 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/application_commands/ApplicationCommandChoiceUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function(argFoo) { // Original name: toChoiceBooleanValue
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var9 = var8[var1];
+    var6 = native3;
+    var1 = undefined;
+    var6 = var6.bind(var1)(var9);
+    var _closure1_slot0 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.FALSE_OPTION_NAME;
+    var _closure1_slot1 = var9;
+    var6 = var6.TRUE_OPTION_NAME;
+    var _closure1_slot2 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/application_commands/ApplicationCommandChoiceUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function toChoiceBooleanValue(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            entity = tangon.toLowerCase;
-            zuuluu = entity.bind(tangon)();
-            report = _closure1_slot2;
-            entity = report.toLowerCase;
-            entity = entity.bind(report)();
-            entity = zuuluu === entity;
-            zuuluu = tangon.toLowerCase;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = _closure1_slot1;
-            michal = tangon.toLowerCase;
-            michal = michal.bind(tangon)();
-            if(entity) { _fun00006_ip = 69; continue _fun00005 }
+            var4 = arg1;
+            var1 = var4.toLowerCase;
+            var3 = var1.bind(var4)();
+            var5 = _closure1_slot2;
+            var1 = var5.toLowerCase;
+            var1 = var1.bind(var5)();
+            var1 = var3 === var1;
+            var3 = var4.toLowerCase;
+            var3 = var3.bind(var4)();
+            var4 = _closure1_slot1;
+            var2 = var4.toLowerCase;
+            var2 = var2.bind(var4)();
+            if(var1) { _fun0003_ip = 69; continue _fun0003 }
  61:
-            if(!(zuuluu !== michal)) { _fun00006_ip = 69; continue _fun00005 }
+            if(!(var3 !== var2)) { _fun0003_ip = 69; continue _fun0003 }
  65:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['toChoiceBooleanValue'] = oscard;
-    zuuluu['findChoiceStringValue'] = report;
-    zuuluu['findChoiceNumberValue'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceStringValue
-        tangon = _closure1_slot3;
-        report = _closure1_slot0;
-        zuuluu = report.getAutocompleteLastChoices;
-        michal = argFoo;
-        entity = argBar;
-        zuuluu = zuuluu.bind(report)(michal, entity);
-        michal = undefined;
-        entity = argBaz;
-        entity = tangon.bind(michal)(zuuluu, entity);
-        return entity;
+    var3['toChoiceBooleanValue'] = var6;
+    var3['findChoiceStringValue'] = var5;
+    var3['findChoiceNumberValue'] = var4;
+    var4 = function findAutocompleteChoiceStringValue(arg1, arg2, arg3) {
+        var4 = _closure1_slot3;
+        var5 = _closure1_slot0;
+        var3 = var5.getAutocompleteLastChoices;
+        var2 = arg1;
+        var1 = arg2;
+        var3 = var3.bind(var5)(var2, var1);
+        var2 = undefined;
+        var1 = arg3;
+        var1 = var4.bind(var2)(var3, var1);
+        return var1;
     };
-    zuuluu['findAutocompleteChoiceStringValue'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: findAutocompleteChoiceNumberValue
-        tangon = _closure1_slot4;
-        report = _closure1_slot0;
-        zuuluu = report.getAutocompleteLastChoices;
-        michal = argFoo;
-        entity = argBar;
-        zuuluu = zuuluu.bind(report)(michal, entity);
-        michal = undefined;
-        entity = argBaz;
-        entity = tangon.bind(michal)(zuuluu, entity);
-        return entity;
+    var3['findAutocompleteChoiceStringValue'] = var4;
+    var2 = function findAutocompleteChoiceNumberValue(arg1, arg2, arg3) {
+        var4 = _closure1_slot4;
+        var5 = _closure1_slot0;
+        var3 = var5.getAutocompleteLastChoices;
+        var2 = arg1;
+        var1 = arg2;
+        var3 = var3.bind(var5)(var2, var1);
+        var2 = undefined;
+        var1 = arg3;
+        var1 = var4.bind(var2)(var3, var1);
+        return var1;
     };
-    zuuluu['findAutocompleteChoiceNumberValue'] = michal;
-    return entity;
+    var3['findAutocompleteChoiceNumberValue'] = var2;
+    return var1;
 })();

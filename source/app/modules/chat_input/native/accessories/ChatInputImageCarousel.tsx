@@ -1,151 +1,151 @@
 // app/modules/chat_input/native/accessories/ChatInputImageCarousel.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DraftType;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) { // Original name: ChatInputImageCarousel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DraftType;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = var7.memo;
+    var2 = function ChatInputImageCarousel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            offset = entity.canUpload;
-            var _closure2_slot0 = offset;
-            golfie = entity.channelId;
-            var _closure2_slot1 = golfie;
-            tangon = _closure1_slot6;
-            zuuluu = tangon.useField;
-            entity = 'showingAutoComplete';
-            entity = zuuluu.bind(tangon)(entity);
-            var _closure2_slot2 = entity;
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = report[zuuluu];
-            report = undefined;
-            verify = tangon.bind(report)(zuuluu);
-            option = verify.useStateFromStores;
-            zuuluu = _closure1_slot5;
-            tangon = new Array(2);
-            tangon[0] = zuuluu;
-            zuuluu = _closure1_slot3;
-            tangon[1] = zuuluu;
-            zuuluu = new Array(3);
-            zuuluu[0] = golfie;
-            zuuluu[1] = offset;
-            zuuluu[2] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1 = arg1;
+            var10 = var1.canUpload;
+            var _closure2_slot0 = var10;
+            var7 = var1.channelId;
+            var _closure2_slot1 = var7;
+            var4 = _closure1_slot6;
+            var3 = var4.useField;
+            var1 = 'showingAutoComplete';
+            var1 = var3.bind(var4)(var1);
+            var _closure2_slot2 = var1;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 6;
+            var3 = var5[var3];
+            var5 = undefined;
+            var9 = var4.bind(var5)(var3);
+            var8 = var9.useStateFromStores;
+            var3 = _closure1_slot5;
+            var4 = new Array(2);
+            var4[0] = var3;
+            var3 = _closure1_slot3;
+            var4[1] = var3;
+            var3 = new Array(3);
+            var3[0] = var7;
+            var3[1] = var10;
+            var3[2] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot2;
-                    oscard = null;
-                    entity = null;
-                    if(michal) { _fun00004_ip = 87; continue _fun00003 }
+                    var2 = _closure2_slot2;
+                    var6 = null;
+                    var1 = null;
+                    if(var2) { _fun0002_ip = 87; continue _fun0002 }
  14:
-                    zuuluu = _closure2_slot0;
-                    michal = null;
-                    if(!zuuluu) { _fun00004_ip = 84; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!var3) { _fun0002_ip = 84; continue _fun0002 }
  23:
-                    option = _closure1_slot3;
-                    golfie = option.getActiveCommand;
-                    report = _closure2_slot1;
-                    report = golfie.bind(option)(report);
-                    report = oscard == report;
-                    michal = null;
-                    if(!report) { _fun00004_ip = 84; continue _fun00003 }
+                    var8 = _closure1_slot3;
+                    var7 = var8.getActiveCommand;
+                    var5 = _closure2_slot1;
+                    var5 = var7.bind(var8)(var5);
+                    var5 = var6 == var5;
+                    var2 = null;
+                    if(!var5) { _fun0002_ip = 84; continue _fun0002 }
  54:
-                    oscard = _closure1_slot5;
-                    report = oscard.getUploads;
-                    tangon = _closure2_slot1;
-                    zuuluu = _closure1_slot4;
-                    zuuluu = zuuluu.ChannelMessage;
-                    michal = report.bind(oscard)(tangon, zuuluu);
+                    var6 = _closure1_slot5;
+                    var5 = var6.getUploads;
+                    var4 = _closure2_slot1;
+                    var3 = _closure1_slot4;
+                    var3 = var3.ChannelMessage;
+                    var2 = var5.bind(var6)(var4, var3);
  84:
-                    entity = michal;
+                    var1 = var2;
  87:
-                    return entity;
+                    return var1;
                 }
             };
-            option = option.bind(verify)(tangon, entity, zuuluu);
-            entity = null;
-            zuuluu = entity != option;
-            if(!zuuluu) { _fun00002_ip = 189; continue _fun00001 }
+            var8 = var8.bind(var9)(var4, var1, var3);
+            var1 = null;
+            var3 = var1 != var8;
+            if(!var3) { _fun0001_ip = 189; continue _fun0001 }
  136:
-            tangon = _closure1_slot7;
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
-            michal = 7;
-            michal = verify[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = {};
-            michal['attachments'] = option;
-            michal['channelId'] = golfie;
-            oscard = function(argFoo) { // Original name: onRemove
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 8;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                oscard = tangon.bind(entity)(zuuluu);
-                report = oscard.remove;
-                tangon = _closure2_slot1;
-                michal = _closure1_slot4;
-                zuuluu = michal.ChannelMessage;
-                michal = argFoo;
-                michal = report.bind(oscard)(tangon, michal, zuuluu);
-                return entity;
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 7;
+            var2 = var9[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['attachments'] = var8;
+            var2['channelId'] = var7;
+            var6 = function onRemove(arg1) {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var5 = var6.remove;
+                var4 = _closure2_slot1;
+                var2 = _closure1_slot4;
+                var3 = var2.ChannelMessage;
+                var2 = arg1;
+                var2 = var5.bind(var6)(var4, var2, var3);
+                return var1;
             };
-            michal['onRemove'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2['onRemove'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  189:
-            return entity;
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat_input/native/accessories/ChatInputImageCarousel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat_input/native/accessories/ChatInputImageCarousel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,56 +1,56 @@
 // app/utils/callOnce.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'utils/callOnce.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: callOnce
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = false;
-        var _closure2_slot2 = michal;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'utils/callOnce.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function callOnce(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = false;
+        var _closure2_slot2 = var2;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                option = 0;
-                michal = copyRestArgs(option);
-                zuuluu = _closure2_slot2;
-                if(zuuluu) { _fun00002_ip = 58; continue _fun00001 }
+                var8 = 0;
+                var2 = copyRestArgs(var8);
+                var3 = _closure2_slot2;
+                if(var3) { _fun0001_ip = 58; continue _fun0001 }
  16:
-                zuuluu = true;
-                _closure2_slot2 = zuuluu;
-                tangon = _closure2_slot0;
-                zuuluu = new Array(0);
-                option = zuuluu;
-                golfie = michal;
-                oscard = 0;
-                michal = arraySpread(option, golfie, oscard);
-                oscard = undefined;
-                option = tangon;
-                golfie = zuuluu;
-                michal = apply(option, golfie, oscard);
-                var _closure2_slot1 = michal;
+                var3 = true;
+                _closure2_slot2 = var3;
+                var4 = _closure2_slot0;
+                var3 = new Array(0);
+                var8 = var3;
+                var7 = var2;
+                var6 = 0;
+                var2 = arraySpread(var8, var7, var6);
+                var6 = undefined;
+                var8 = var4;
+                var7 = var3;
+                var2 = apply(var8, var7, var6);
+                var _closure2_slot1 = var2;
  58:
-                entity = _closure2_slot1;
-                return entity;
+                var1 = _closure2_slot1;
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    zuuluu['callOnce'] = michal;
-    return entity;
+    var3['callOnce'] = var2;
+    return var1;
 })();

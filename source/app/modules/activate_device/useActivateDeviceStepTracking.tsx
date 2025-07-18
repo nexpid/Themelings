@@ -1,118 +1,118 @@
 // app/modules/activate_device/useActivateDeviceStepTracking.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activate_device/useActivateDeviceStepTracking.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useActivateDeviceStepTracking
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot1;
-        tangon = _closure1_slot2;
-        entity = 2;
-        tangon = tangon[entity];
-        entity = undefined;
-        tangon = report.bind(entity)(tangon);
-        golfie = tangon.bind(entity)(oscard);
-        var _closure2_slot1 = golfie;
-        report = _closure1_slot3;
-        tangon = report.useEffect;
-        zuuluu = new Array(2);
-        zuuluu[0] = golfie;
-        zuuluu[1] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activate_device/useActivateDeviceStepTracking.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useActivateDeviceStepTracking(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var1 = 2;
+        var4 = var4[var1];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var4);
+        var7 = var4.bind(var1)(var6);
+        var _closure2_slot1 = var7;
+        var5 = _closure1_slot3;
+        var4 = var5.useEffect;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = _closure2_slot1;
-                if(!(michal !== entity)) { _fun00002_ip = 210; continue _fun00001 }
+                var2 = _closure2_slot0;
+                var1 = _closure2_slot1;
+                if(!(var2 !== var1)) { _fun0001_ip = 210; continue _fun0001 }
  18:
-                entity = _closure2_slot0;
-                michal = entity.type;
-                entity = 'user-code-input';
-                entity = entity !== michal;
-                if(!entity) { _fun00002_ip = 59; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var2 = var1.type;
+                var1 = 'user-code-input';
+                var1 = var1 !== var2;
+                if(!var1) { _fun0001_ip = 59; continue _fun0001 }
  40:
-                michal = _closure2_slot0;
-                zuuluu = michal.type;
-                michal = 'handoff';
-                entity = michal !== zuuluu;
+                var2 = _closure2_slot0;
+                var3 = var2.type;
+                var2 = 'handoff';
+                var1 = var2 !== var3;
  59:
-                verify = null;
-                report = null;
-                if(!entity) { _fun00002_ip = 118; continue _fun00001 }
+                var9 = null;
+                var5 = null;
+                if(!var1) { _fun0001_ip = 118; continue _fun0001 }
  66:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.clientIdToActivateDevicePlatform;
-                entity = _closure2_slot0;
-                entity = entity.userCodeData;
-                entity = entity.clientId;
-                report = michal.bind(zuuluu)(entity);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.clientIdToActivateDevicePlatform;
+                var1 = _closure2_slot0;
+                var1 = var1.userCodeData;
+                var1 = var1.clientId;
+                var5 = var2.bind(var3)(var1);
  118:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 4;
-                michal = tangon[michal];
-                golfie = undefined;
-                tangon = zuuluu.bind(golfie)(michal);
-                zuuluu = tangon.track;
-                entity = _closure1_slot4;
-                michal = entity.DEVICE_LINK_STEP;
-                entity = {};
-                option = _closure2_slot1;
-                option = verify == option;
-                if(option) { _fun00002_ip = 180; continue _fun00001 }
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 4;
+                var2 = var4[var2];
+                var7 = undefined;
+                var4 = var3.bind(var7)(var2);
+                var3 = var4.track;
+                var1 = _closure1_slot4;
+                var2 = var1.DEVICE_LINK_STEP;
+                var1 = {};
+                var8 = _closure2_slot1;
+                var8 = var9 == var8;
+                if(var8) { _fun0001_ip = 180; continue _fun0001 }
  171:
-                option = _closure2_slot1;
-                golfie = option.type;
+                var8 = _closure2_slot1;
+                var7 = var8.type;
  180:
-                entity['previous_step'] = golfie;
-                oscard = _closure2_slot0;
-                oscard = oscard.type;
-                entity['current_step'] = oscard;
-                entity['platform_type'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
+                var1['previous_step'] = var7;
+                var6 = _closure2_slot0;
+                var6 = var6.type;
+                var1['current_step'] = var6;
+                var1['platform_type'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
  210:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useActivateDeviceStepTracking'] = michal;
-    return entity;
+    var3['useActivateDeviceStepTracking'] = var2;
+    return var1;
 })();

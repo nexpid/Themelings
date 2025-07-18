@@ -1,152 +1,152 @@
 // app/modules/screen/useWindowDimensionsSharedValue.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    foxtra = true;
-    michal['value'] = foxtra;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    michal = 0;
-    option = golfie[michal];
-    entity = undefined;
-    yankee = oscard.bind(entity)(option);
-    verify = yankee.makeMutable;
-    option = {};
-    offset = 1;
-    romeon = golfie[offset];
-    backup = oscard.bind(entity)(romeon);
-    romeon = backup.getWindowDimensions;
-    sizing = romeon.bind(backup)();
-    output = option;
-    romeon = copyDataProperties(output, sizing);
-    option = verify.bind(yankee)(option);
-    var _closure1_slot2 = option;
-    michal = golfie[michal];
-    verify = oscard.bind(entity)(michal);
-    option = verify.makeMutable;
-    michal = {};
-    offset = golfie[offset];
-    romeon = oscard.bind(entity)(offset);
-    yankee = romeon.getWindowDimensions;
-    offset = {};
-    offset['ignoreKeyboard'] = foxtra;
-    sizing = yankee.bind(romeon)(offset);
-    output = michal;
-    offset = copyDataProperties(output, sizing);
-    michal = option.bind(verify)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    report = report.bind(entity)(michal);
-    michal = function(argFoo, argBar) {
-        tangon = _closure1_slot0;
-        report = _closure1_slot1;
-        zuuluu = 3;
-        oscard = report[zuuluu];
-        entity = undefined;
-        option = tangon.bind(entity)(oscard);
-        golfie = _closure1_slot2;
-        oscard = argFoo;
-        oscard = option.bind(entity)(golfie, oscard);
-        zuuluu = report[zuuluu];
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = _closure1_slot3;
-        michal = argBar;
-        michal = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var13 = true;
+    var2['value'] = var13;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var2 = 0;
+    var8 = var7[var2];
+    var1 = undefined;
+    var11 = var6.bind(var1)(var8);
+    var9 = var11.makeMutable;
+    var8 = {};
+    var10 = 1;
+    var12 = var7[var10];
+    var14 = var6.bind(var1)(var12);
+    var12 = var14.getWindowDimensions;
+    var16 = var12.bind(var14)();
+    var17 = var8;
+    var12 = copyDataProperties(var17, var16);
+    var8 = var9.bind(var11)(var8);
+    var _closure1_slot2 = var8;
+    var2 = var7[var2];
+    var9 = var6.bind(var1)(var2);
+    var8 = var9.makeMutable;
+    var2 = {};
+    var10 = var7[var10];
+    var12 = var6.bind(var1)(var10);
+    var11 = var12.getWindowDimensions;
+    var10 = {};
+    var10['ignoreKeyboard'] = var13;
+    var16 = var11.bind(var12)(var10);
+    var17 = var2;
+    var10 = copyDataProperties(var17, var16);
+    var2 = var8.bind(var9)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var5 = var5.bind(var1)(var2);
+    var2 = function(arg1, arg2) {
+        var4 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var3 = 3;
+        var6 = var5[var3];
+        var1 = undefined;
+        var8 = var4.bind(var1)(var6);
+        var7 = _closure1_slot2;
+        var6 = arg1;
+        var6 = var8.bind(var1)(var7, var6);
+        var3 = var5[var3];
+        var4 = var4.bind(var1)(var3);
+        var3 = _closure1_slot3;
+        var2 = arg2;
+        var2 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = report.bind(entity)(michal);
-    michal = {};
-    report = 'function getWindowDimensionsWorklet_useWindowDimensionsSharedValueNativeTsx1(params=undefined){const{windowDimensionsSharedValueIgnoringKeyboard,windowDimensionsSharedValue}=this.__closure;return(params===null||params===void 0?void 0:params.ignoreKeyboard)===true?windowDimensionsSharedValueIgnoringKeyboard.get():windowDimensionsSharedValue.get();}';
-    michal['code'] = report;
-    var _closure1_slot4 = michal;
-    michal = function() {
-        entity = function() { // Original name: getWindowDimensionsWorklet
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2 = var5.bind(var1)(var2);
+    var2 = {};
+    var5 = 'function getWindowDimensionsWorklet_useWindowDimensionsSharedValueNativeTsx1(params=undefined){const{windowDimensionsSharedValueIgnoringKeyboard,windowDimensionsSharedValue}=this.__closure;return(params===null||params===void 0?void 0:params.ignoreKeyboard)===true?windowDimensionsSharedValueIgnoringKeyboard.get():windowDimensionsSharedValue.get();}';
+    var2['code'] = var5;
+    var _closure1_slot4 = var2;
+    var2 = function() {
+        var1 = function getWindowDimensionsWorklet() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = arguments[0];
-                michal = undefined;
-                if(!(entity === michal)) { _fun00002_ip = 11; continue _fun00001 }
+                var1 = arguments[0];
+                var2 = undefined;
+                if(!(var1 === var2)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-                entity = undefined;
+                var1 = undefined;
  11:
-                zuuluu = null;
-                zuuluu = zuuluu == entity;
-                michal = undefined;
-                if(zuuluu) { _fun00002_ip = 28; continue _fun00001 }
+                var3 = null;
+                var3 = var3 == var1;
+                var2 = undefined;
+                if(var3) { _fun0001_ip = 28; continue _fun0001 }
  22:
-                michal = entity.ignoreKeyboard;
+                var2 = var1.ignoreKeyboard;
  28:
-                entity = true;
-                if(!(entity !== michal)) { _fun00002_ip = 52; continue _fun00001 }
+                var1 = true;
+                if(!(var1 !== var2)) { _fun0001_ip = 52; continue _fun0001 }
  34:
-                michal = _closure1_slot2;
-                entity = michal.get;
-                entity = entity.bind(michal)();
-                _fun00002_ip = 68; continue _fun00001;
+                var2 = _closure1_slot2;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                _fun0001_ip = 68; continue _fun0001;
  52:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.get;
-                entity = michal.bind(zuuluu)();
+                var3 = _closure1_slot3;
+                var2 = var3.get;
+                var1 = var2.bind(var3)();
  68:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = {};
-        tangon = _closure1_slot3;
-        zuuluu['windowDimensionsSharedValueIgnoringKeyboard'] = tangon;
-        tangon = _closure1_slot2;
-        zuuluu['windowDimensionsSharedValue'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 17271034964949.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot4;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var4 = _closure1_slot3;
+        var3['windowDimensionsSharedValueIgnoringKeyboard'] = var4;
+        var4 = _closure1_slot2;
+        var3['windowDimensionsSharedValue'] = var4;
+        var1['__closure'] = var3;
+        var3 = 17271034964949.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot4;
+        var1['__initData'] = var2;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/screen/useWindowDimensionsSharedValue.native.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function() { // Original name: useWindowDimensionsSharedValue
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2 = var2.bind(var1)();
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/screen/useWindowDimensionsSharedValue.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useWindowDimensionsSharedValue() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = arguments[0];
-            michal = undefined;
-            if(!(entity === michal)) { _fun00004_ip = 11; continue _fun00003 }
+            var1 = arguments[0];
+            var2 = undefined;
+            if(!(var1 === var2)) { _fun0002_ip = 11; continue _fun0002 }
  9:
-            entity = undefined;
+            var1 = undefined;
  11:
-            zuuluu = null;
-            zuuluu = zuuluu == entity;
-            michal = undefined;
-            if(zuuluu) { _fun00004_ip = 28; continue _fun00003 }
+            var3 = null;
+            var3 = var3 == var1;
+            var2 = undefined;
+            if(var3) { _fun0002_ip = 28; continue _fun0002 }
  22:
-            michal = entity.ignoreKeyboard;
+            var2 = var1.ignoreKeyboard;
  28:
-            entity = true;
-            if(!(entity !== michal)) { _fun00004_ip = 43; continue _fun00003 }
+            var1 = true;
+            if(!(var1 !== var2)) { _fun0002_ip = 43; continue _fun0002 }
  34:
-            entity = _closure1_slot2;
-            _fun00004_ip = 50; continue _fun00003;
+            var1 = _closure1_slot2;
+            _fun0002_ip = 50; continue _fun0002;
  43:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  50:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getWindowDimensionsWorklet'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getWindowDimensionsWorklet'] = var2;
+    return var1;
 })();

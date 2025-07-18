@@ -1,266 +1,266 @@
 // app/modules/messages/native/renderer/row_data/embeds/PostPreviewEmbeds.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: PostPreviewEmbed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function PostPreviewEmbed(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = michal.url;
-            var _closure2_slot0 = tangon;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 7;
-            option = golfie[zuuluu];
-            report = undefined;
-            yankee = oscard.bind(report)(option);
-            offset = yankee.useStateFromStores;
-            option = _closure1_slot4;
-            verify = new Array(1);
-            verify[0] = option;
-            option = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var4 = var2.url;
+            var _closure2_slot0 = var4;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 7;
+            var8 = var7[var3];
+            var5 = undefined;
+            var11 = var6.bind(var5)(var8);
+            var10 = var11.useStateFromStores;
+            var8 = _closure1_slot4;
+            var9 = new Array(1);
+            var9[0] = var8;
+            var8 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    entity = 8;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = report.getMediaPostEmbedChannelId;
-                    zuuluu = _closure2_slot0;
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = null;
-                    zuuluu = zuuluu != tangon;
-                    if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 8;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.getMediaPostEmbedChannelId;
+                    var3 = _closure2_slot0;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = null;
+                    var3 = var3 != var4;
+                    if(!var3) { _fun0002_ip = 67; continue _fun0002 }
  52:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.getMediaPostEmbed;
-                    entity = michal.bind(zuuluu)(tangon);
+                    var3 = _closure1_slot4;
+                    var2 = var3.getMediaPostEmbed;
+                    var1 = var2.bind(var3)(var4);
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            option = offset.bind(yankee)(verify, option);
-            zuuluu = golfie[zuuluu];
-            option = oscard.bind(report)(zuuluu);
-            oscard = option.useStateFromStores;
-            verify = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = verify;
-            entity = function() {
-                entity = _closure1_slot3;
-                entity = entity.useReducedMotion;
-                return entity;
+            var8 = var10.bind(var11)(var9, var8);
+            var3 = var7[var3];
+            var8 = var6.bind(var5)(var3);
+            var6 = var8.useStateFromStores;
+            var9 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var9;
+            var1 = function() {
+                var1 = _closure1_slot3;
+                var1 = var1.useReducedMotion;
+                return var1;
             };
-            zuuluu = oscard.bind(option)(zuuluu, entity);
-            oscard = _closure1_slot1;
-            entity = 6;
-            entity = golfie[entity];
-            entity = oscard.bind(report)(entity);
-            oscard = entity.bind(report)(tangon, zuuluu);
-            entity = null;
-            zuuluu = entity == oscard;
-            if(zuuluu) { _fun00002_ip = 181; continue _fun00001 }
+            var3 = var6.bind(var8)(var3, var1);
+            var6 = _closure1_slot1;
+            var1 = 6;
+            var1 = var7[var1];
+            var1 = var6.bind(var5)(var1);
+            var6 = var1.bind(var5)(var4, var3);
+            var1 = null;
+            var3 = var1 == var6;
+            if(var3) { _fun0001_ip = 181; continue _fun0001 }
  139:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 9;
-            michal = golfie[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = {};
-            foxtra = michal;
-            romeon = oscard;
-            oscard = copyDataProperties(foxtra, romeon);
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 9;
+            var2 = var7[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var13 = var2;
+            var12 = var6;
+            var6 = copyDataProperties(var13, var12);
+            var1 = var4.bind(var5)(var3, var2);
  181:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MessageEmbedTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/row_data/embeds/PostPreviewEmbeds.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: PostPreviewEmbeds
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MessageEmbedTypes;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/row_data/embeds/PostPreviewEmbeds.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function PostPreviewEmbeds(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.message;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 10;
-            michal = option[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            report = michal.RenderEmbeds;
-            michal = report.useSetting;
-            report = michal.bind(report)();
-            michal = 5;
-            michal = option[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useEligibleForGuildMediaChannelPostPreviewEmbed;
-            golfie = michal.bind(zuuluu)();
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot1;
-            entity = 11;
-            entity = option[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            option = 'postPreviewEmbeds';
-            entity['keyPath'] = option;
-            if(!report) { _fun00006_ip = 110; continue _fun00005 }
+            var1 = arg1;
+            var6 = var1.message;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 10;
+            var2 = var8[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var5 = var2.RenderEmbeds;
+            var2 = var5.useSetting;
+            var5 = var2.bind(var5)();
+            var2 = 5;
+            var2 = var8[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useEligibleForGuildMediaChannelPostPreviewEmbed;
+            var7 = var2.bind(var3)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot1;
+            var1 = 11;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var8 = 'postPreviewEmbeds';
+            var1['keyPath'] = var8;
+            if(!var5) { _fun0003_ip = 110; continue _fun0003 }
  107:
-            report = golfie;
+            var5 = var7;
  110:
-            if(!report) { _fun00006_ip = 138; continue _fun00005 }
+            if(!var5) { _fun0003_ip = 138; continue _fun0003 }
  113:
-            option = oscard.embeds;
-            golfie = option.map;
-            oscard = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var8 = var6.embeds;
+            var7 = var8.map;
+            var6 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    michal = argFoo;
-                    oscard = michal.type;
-                    entity = _closure1_slot5;
-                    tangon = entity.POST_PREVIEW;
-                    report = null;
-                    entity = null;
-                    if(!(oscard === tangon)) { _fun00008_ip = 76; continue _fun00007 }
+                    var2 = arg1;
+                    var6 = var2.type;
+                    var1 = _closure1_slot5;
+                    var4 = var1.POST_PREVIEW;
+                    var5 = null;
+                    var1 = null;
+                    if(!(var6 === var4)) { _fun0004_ip = 76; continue _fun0004 }
  29:
-                    tangon = michal.url;
-                    tangon = report == tangon;
-                    entity = null;
-                    if(tangon) { _fun00008_ip = 76; continue _fun00007 }
+                    var4 = var2.url;
+                    var4 = var5 == var4;
+                    var1 = null;
+                    if(var4) { _fun0004_ip = 76; continue _fun0004 }
  43:
-                    oscard = _closure1_slot6;
-                    report = _closure1_slot7;
-                    tangon = {};
-                    zuuluu = michal.url;
-                    tangon['url'] = zuuluu;
-                    zuuluu = michal.id;
-                    michal = undefined;
-                    entity = oscard.bind(michal)(report, tangon, zuuluu);
+                    var6 = _closure1_slot6;
+                    var5 = _closure1_slot7;
+                    var4 = {};
+                    var3 = var2.url;
+                    var4['url'] = var3;
+                    var3 = var2.id;
+                    var2 = undefined;
+                    var1 = var6.bind(var2)(var5, var4, var3);
  76:
-                    return entity;
+                    return var1;
                 }
             };
-            report = golfie.bind(option)(oscard);
+            var5 = var7.bind(var8)(var6);
  138:
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: createPostPreviewEmbeds
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['default'] = var4;
+    var2 = function createPostPreviewEmbeds(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = arguments[1];
-            tangon = undefined;
-            if(!(entity === tangon)) { _fun00010_ip = 13; continue _fun00009 }
+            var1 = arguments[1];
+            var4 = undefined;
+            if(!(var1 === var4)) { _fun0005_ip = 13; continue _fun0005 }
  11:
-            entity = false;
+            var1 = false;
  13:
-            var _closure2_slot0 = entity;
-            entity = new Array(0);
-            var _closure2_slot1 = entity;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = oscard[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.isEligibleForGuildMediaChannelPostPreviewEmbed;
-            report = zuuluu.bind(report)();
-            zuuluu = false;
-            zuuluu = zuuluu === report;
-            tangon = undefined;
-            if(zuuluu) { _fun00010_ip = 87; continue _fun00009 }
+            var _closure2_slot0 = var1;
+            var1 = new Array(0);
+            var _closure2_slot1 = var1;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 5;
+            var3 = var6[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.isEligibleForGuildMediaChannelPostPreviewEmbed;
+            var5 = var3.bind(var5)();
+            var3 = false;
+            var3 = var3 === var5;
+            var4 = undefined;
+            if(var3) { _fun0005_ip = 87; continue _fun0005 }
  69:
-            report = argFoo;
-            report = report.embeds;
-            oscard = null;
-            zuuluu = oscard == report;
-            tangon = report;
+            var5 = arg1;
+            var5 = var5.embeds;
+            var6 = null;
+            var3 = var6 == var5;
+            var4 = var5;
  87:
-            if(zuuluu) { _fun00010_ip = 107; continue _fun00009 }
+            if(var3) { _fun0005_ip = 107; continue _fun0005 }
  90:
-            zuuluu = tangon.forEach;
-            michal = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    michal = argFoo;
-                    tangon = michal.type;
-                    zuuluu = _closure1_slot5;
-                    zuuluu = zuuluu.POST_PREVIEW;
-                    if(!(tangon === zuuluu)) { _fun00012_ip = 85; continue _fun00011 }
+                    var2 = arg1;
+                    var4 = var2.type;
+                    var3 = _closure1_slot5;
+                    var3 = var3.POST_PREVIEW;
+                    if(!(var4 === var3)) { _fun0006_ip = 85; continue _fun0006 }
  25:
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    entity = 6;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = michal.url;
-                    zuuluu = _closure2_slot0;
-                    tangon = report.bind(entity)(tangon, zuuluu);
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00012_ip = 89; continue _fun00011 }
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 6;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var2.url;
+                    var3 = _closure2_slot0;
+                    var4 = var5.bind(var1)(var4, var3);
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0006_ip = 89; continue _fun0006 }
  71:
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.push;
-                    michal = michal.bind(zuuluu)(tangon);
+                    var3 = _closure2_slot1;
+                    var2 = var3.push;
+                    var2 = var2.bind(var3)(var4);
  85:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  89:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
+            var2 = var3.bind(var4)(var2);
  107:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['createPostPreviewEmbeds'] = michal;
-    return entity;
+    var3['createPostPreviewEmbeds'] = var2;
+    return var1;
 })();

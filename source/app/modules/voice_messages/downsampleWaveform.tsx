@@ -1,100 +1,100 @@
 // app/modules/voice_messages/downsampleWaveform.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_messages/downsampleWaveform.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: downsampleWaveform
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_messages/downsampleWaveform.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function downsampleWaveform(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = argBar;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            option = 0;
-            michal = michal[option];
-            report = undefined;
-            tangon = zuuluu.bind(report)(michal);
-            michal = entity.length;
-            zuuluu = michal >= verify;
-            michal = 'Waveform smaller than samples';
-            michal = tangon.bind(report)(zuuluu, michal);
-            michal = entity.length;
-            if(!(michal !== verify)) { _fun00002_ip = 230; continue _fun00001 }
+            var1 = arg1;
+            var9 = arg2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var8 = 0;
+            var2 = var2[var8];
+            var5 = undefined;
+            var4 = var3.bind(var5)(var2);
+            var2 = var1.length;
+            var3 = var2 >= var9;
+            var2 = 'Waveform smaller than samples';
+            var2 = var4.bind(var5)(var3, var2);
+            var2 = var1.length;
+            if(!(var2 !== var9)) { _fun0001_ip = 230; continue _fun0001 }
  63:
-            michal = entity.length;
-            golfie = michal / verify;
-            michal = new Array(0);
-            zuuluu = michal.length;
-            zuuluu = zuuluu < verify;
-            oscard = global;
-            report = 1;
-            tangon = 0;
-            if(!zuuluu) { _fun00002_ip = 228; continue _fun00001 }
+            var2 = var1.length;
+            var7 = var2 / var9;
+            var2 = new Array(0);
+            var3 = var2.length;
+            var3 = var3 < var9;
+            var6 = global;
+            var5 = 1;
+            var4 = 0;
+            if(!var3) { _fun0001_ip = 228; continue _fun0001 }
  98:
-            yankee = oscard.Math;
-            offset = yankee.round;
-            zuuluu = michal.length;
-            zuuluu = zuuluu + report;
-            zuuluu = zuuluu * golfie;
-            offset = offset.bind(yankee)(zuuluu);
-            yankee = tangon < offset;
-            romeon = 0;
-            zuuluu = 0;
-            if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
+            var11 = var6.Math;
+            var10 = var11.round;
+            var3 = var2.length;
+            var3 = var3 + var5;
+            var3 = var3 * var7;
+            var10 = var10.bind(var11)(var3);
+            var11 = var4 < var10;
+            var12 = 0;
+            var3 = 0;
+            if(!var11) { _fun0001_ip = 203; continue _fun0001 }
  138:
-            yankee = entity.length;
-            yankee = tangon < yankee;
-            backup = 0;
-            foxtra = 0;
-            romeon = 0;
-            zuuluu = 0;
-            if(!yankee) { _fun00002_ip = 203; continue _fun00001 }
+            var11 = var1.length;
+            var11 = var4 < var11;
+            var14 = 0;
+            var13 = 0;
+            var12 = 0;
+            var3 = 0;
+            if(!var11) { _fun0001_ip = 203; continue _fun0001 }
  158:
-            yankee = entity[tangon];
-            sizing = backup + yankee;
-            kiloes = foxtra + 1;
-            tangon = tangon + 1;
-            romeon = sizing;
-            zuuluu = kiloes;
-            if(!(tangon < offset)) { _fun00002_ip = 203; continue _fun00001 }
+            var11 = var1[var4];
+            var16 = var14 + var11;
+            var15 = var13 + 1;
+            var4 = var4 + 1;
+            var12 = var16;
+            var3 = var15;
+            if(!(var4 < var10)) { _fun0001_ip = 203; continue _fun0001 }
  182:
-            yankee = entity.length;
-            backup = sizing;
-            foxtra = kiloes;
-            romeon = backup;
-            zuuluu = foxtra;
-            if(tangon < yankee) { _fun00002_ip = 158; continue _fun00001 }
+            var11 = var1.length;
+            var14 = var16;
+            var13 = var15;
+            var12 = var14;
+            var3 = var13;
+            if(var4 < var11) { _fun0001_ip = 158; continue _fun0001 }
  203:
-            yankee = michal.length;
-            zuuluu = romeon / zuuluu;
-            michal[yankee] = zuuluu;
-            zuuluu = michal.length;
-            tangon = offset;
-            if(zuuluu < verify) { _fun00002_ip = 98; continue _fun00001 }
+            var11 = var2.length;
+            var3 = var12 / var3;
+            var2[var11] = var3;
+            var3 = var2.length;
+            var4 = var10;
+            if(var3 < var9) { _fun0001_ip = 98; continue _fun0001 }
  228:
-            return michal;
+            return var2;
  230:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

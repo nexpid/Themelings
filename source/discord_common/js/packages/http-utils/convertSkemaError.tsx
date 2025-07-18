@@ -1,86 +1,86 @@
 // discord_common/js/packages/http-utils/convertSkemaError.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = '../discord_common/js/packages/http-utils/convertSkemaError.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: convertSkemaError
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = '../discord_common/js/packages/http-utils/convertSkemaError.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function convertSkemaError(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            romeon = argFoo;
-            entity = {};
-            offset = romeon;
-            report = global;
-            tangon = 0;
-            zuuluu = null;
-            michal = '_errors';
-            oscard = undefined;
-            for(golfie in offset)
+            var12 = arg1;
+            var1 = {};
+            var10 = var12;
+            var5 = global;
+            var4 = 0;
+            var3 = null;
+            var2 = '_errors';
+            var6 = undefined;
+            for(var7 in var10)
  33:
             {
  45:
-                sizing = golfie;
-                result = romeon[sizing];
-                if(zuuluu == result) { _fun00002_ip = 33; continue _fun00001 }
+                var16 = var7;
+                var18 = var12[var16];
+                if(var3 == var18) { _fun0001_ip = 33; continue _fun0001 }
  56:
-                if(!(sizing === michal)) { _fun00002_ip = 85; continue _fun00001 }
+                if(!(var16 === var2)) { _fun0001_ip = 85; continue _fun0001 }
  60:
-                output = romeon[sizing];
-                kiloes = output.map;
-                backup = function(argFoo) {
-                    entity = argFoo;
-                    entity = entity.message;
-                    return entity;
+                var17 = var12[var16];
+                var15 = var17.map;
+                var14 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.message;
+                    return var1;
                 };
-                backup = kiloes.bind(output)(backup);
-                entity['_misc'] = backup;
+                var14 = var15.bind(var17)(var14);
+                var1['_misc'] = var14;
  85:
-                kiloes = report.Array;
-                backup = kiloes.isArray;
-                backup = backup.bind(kiloes)(result);
-                if(backup) { _fun00002_ip = 33; continue _fun00001 }
+                var15 = var5.Array;
+                var14 = var15.isArray;
+                var14 = var14.bind(var15)(var18);
+                if(var14) { _fun0001_ip = 33; continue _fun0001 }
  104:
-                backup = result._errors;
-                if(!(zuuluu == backup)) { _fun00002_ip = 144; continue _fun00001 }
+                var14 = var18._errors;
+                if(!(var3 == var14)) { _fun0001_ip = 144; continue _fun0001 }
  114:
-                output = report.Object;
-                kiloes = output.keys;
-                kiloes = kiloes.bind(output)(result);
-                output = kiloes[tangon];
-                kiloes = new Array(1);
-                kiloes[0] = output;
-                _fun00002_ip = 159; continue _fun00001;
+                var17 = var5.Object;
+                var15 = var17.keys;
+                var15 = var15.bind(var17)(var18);
+                var17 = var15[var4];
+                var15 = new Array(1);
+                var15[0] = var17;
+                _fun0001_ip = 159; continue _fun0001;
  144:
-                result = backup.map;
-                output = function(argFoo) {
-                    entity = argFoo;
-                    entity = entity.message;
-                    return entity;
+                var18 = var14.map;
+                var17 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.message;
+                    return var1;
                 };
-                kiloes = result.bind(backup)(output);
+                var15 = var18.bind(var14)(var17);
  159:
-                entity[sizing] = kiloes;
-                oscard = backup;
-                _fun00002_ip = 33; continue _fun00001;
+                var1[var16] = var15;
+                var6 = var14;
+                _fun0001_ip = 33; continue _fun0001;
             }
  171:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['convertSkemaError'] = michal;
-    return entity;
+    var3['convertSkemaError'] = var2;
+    return var1;
 })();

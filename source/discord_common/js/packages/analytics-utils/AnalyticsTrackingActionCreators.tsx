@@ -1,89 +1,89 @@
 // discord_common/js/packages/analytics-utils/AnalyticsTrackingActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = '../discord_common/js/packages/analytics-utils/AnalyticsTrackingActionCreators.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        entity = function(argFoo, argBar, argBaz) {
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            michal = argBar;
-            var _closure3_slot1 = michal;
-            michal = argBaz;
-            var _closure3_slot2 = michal;
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = '../discord_common/js/packages/analytics-utils/AnalyticsTrackingActionCreators.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var1 = function(arg1, arg2, arg3) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var2 = arg2;
+            var _closure3_slot1 = var2;
+            var2 = arg3;
+            var _closure3_slot2 = var2;
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.dispatch;
-                    michal = {};
-                    entity = _closure2_slot1;
-                    michal['type'] = entity;
-                    entity = _closure3_slot0;
-                    michal['event'] = entity;
-                    entity = _closure3_slot1;
-                    michal['properties'] = entity;
-                    entity = _closure3_slot2;
-                    golfie = null;
-                    report = golfie == entity;
-                    entity = undefined;
-                    option = undefined;
-                    if(report) { _fun00002_ip = 70; continue _fun00001 }
+                    var4 = _closure2_slot0;
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var1 = _closure2_slot1;
+                    var2['type'] = var1;
+                    var1 = _closure3_slot0;
+                    var2['event'] = var1;
+                    var1 = _closure3_slot1;
+                    var2['properties'] = var1;
+                    var1 = _closure3_slot2;
+                    var7 = null;
+                    var5 = var7 == var1;
+                    var1 = undefined;
+                    var8 = undefined;
+                    if(var5) { _fun0001_ip = 70; continue _fun0001 }
  60:
-                    report = _closure3_slot2;
-                    option = report.flush;
+                    var5 = _closure3_slot2;
+                    var8 = var5.flush;
  70:
-                    report = golfie != option;
-                    if(!report) { _fun00002_ip = 80; continue _fun00001 }
+                    var5 = var7 != var8;
+                    if(!var5) { _fun0001_ip = 80; continue _fun0001 }
  77:
-                    report = option;
+                    var5 = var8;
  80:
-                    michal['flush'] = report;
-                    report = _closure3_slot2;
-                    golfie = golfie == report;
-                    report = undefined;
-                    if(golfie) { _fun00002_ip = 108; continue _fun00001 }
+                    var2['flush'] = var5;
+                    var5 = _closure3_slot2;
+                    var7 = var7 == var5;
+                    var5 = undefined;
+                    if(var7) { _fun0001_ip = 108; continue _fun0001 }
  98:
-                    oscard = _closure3_slot2;
-                    report = oscard.fingerprint;
+                    var6 = _closure3_slot2;
+                    var5 = var6.fingerprint;
  108:
-                    michal['fingerprint'] = report;
-                    report = argFoo;
-                    michal['resolve'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
+                    var2['fingerprint'] = var5;
+                    var5 = arg1;
+                    var2['resolve'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
                 }
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['queueTrackingEventMaker'] = michal;
-    return entity;
+    var3['queueTrackingEventMaker'] = var2;
+    return var1;
 })();

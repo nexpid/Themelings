@@ -1,224 +1,224 @@
 // app/modules/video_calls/native/VoiceCallOverlayUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    verify = tangon.MIN_MARGIN_BETWEEN_OVERLAYS;
-    var _closure1_slot2 = verify;
-    yankee = tangon.VoiceCallOverlayType;
-    var _closure1_slot3 = yankee;
-    tangon = {};
-    report = 'function VoiceCallOverlayUtilsTsx1(rectA,rectB,minMarginBetweenOverlays){if(rectA==null||rectA.x==null||rectA.y==null||rectA.width==null||rectA.height==null||rectB==null||rectB.x==null||rectB.y==null||rectB.width==null||rectB.height==null){return false;}const minAx=rectA.x-minMarginBetweenOverlays;const maxAx=rectA.x+rectA.width+minMarginBetweenOverlays;const minAy=rectA.y-minMarginBetweenOverlays;const maxAy=rectA.y+rectA.height+minMarginBetweenOverlays;const minBx=rectB.x;const maxBx=rectB.x+rectB.width;const minBy=rectB.y;const maxBy=rectB.y+rectB.height;const aLeftOfB=maxAx<minBx;const aRightOfB=minAx>maxBx;const aBelowB=minAy>maxBy;const aAboveB=maxAy<minBy;return!(aLeftOfB||aRightOfB||aAboveB||aBelowB);}';
-    tangon['code'] = report;
-    offset = function(argFoo, argBar, argBaz) { // Original name: t
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var9 = var4.MIN_MARGIN_BETWEEN_OVERLAYS;
+    var _closure1_slot2 = var9;
+    var11 = var4.VoiceCallOverlayType;
+    var _closure1_slot3 = var11;
+    var4 = {};
+    var5 = 'function VoiceCallOverlayUtilsTsx1(rectA,rectB,minMarginBetweenOverlays){if(rectA==null||rectA.x==null||rectA.y==null||rectA.width==null||rectA.height==null||rectB==null||rectB.x==null||rectB.y==null||rectB.width==null||rectB.height==null){return false;}const minAx=rectA.x-minMarginBetweenOverlays;const maxAx=rectA.x+rectA.width+minMarginBetweenOverlays;const minAy=rectA.y-minMarginBetweenOverlays;const maxAy=rectA.y+rectA.height+minMarginBetweenOverlays;const minBx=rectB.x;const maxBx=rectB.x+rectB.width;const minBy=rectB.y;const maxBy=rectB.y+rectB.height;const aLeftOfB=maxAx<minBx;const aRightOfB=minAx>maxBx;const aBelowB=minAy>maxBy;const aAboveB=maxAy<minBy;return!(aLeftOfB||aRightOfB||aAboveB||aBelowB);}';
+    var4['code'] = var5;
+    var10 = function t(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = argBar;
-            tangon = argBaz;
-            report = null;
-            if(!(report != entity)) { _fun00002_ip = 243; continue _fun00001 }
+            var1 = arg1;
+            var2 = arg2;
+            var4 = arg3;
+            var5 = null;
+            if(!(var5 != var1)) { _fun0001_ip = 243; continue _fun0001 }
  18:
-            zuuluu = entity.x;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var1.x;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  30:
-            zuuluu = entity.y;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var1.y;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  42:
-            zuuluu = entity.width;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var1.width;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  54:
-            zuuluu = entity.height;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var1.height;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  66:
-            if(!(report != michal)) { _fun00002_ip = 243; continue _fun00001 }
+            if(!(var5 != var2)) { _fun0001_ip = 243; continue _fun0001 }
  73:
-            zuuluu = michal.x;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var2.x;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  85:
-            zuuluu = michal.y;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var2.y;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  97:
-            zuuluu = michal.width;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var2.width;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  109:
-            zuuluu = michal.height;
-            if(!(report != zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var3 = var2.height;
+            if(!(var5 != var3)) { _fun0001_ip = 243; continue _fun0001 }
  121:
-            zuuluu = entity.x;
-            golfie = zuuluu - tangon;
-            report = entity.x;
-            zuuluu = entity.width;
-            zuuluu = report + zuuluu;
-            option = zuuluu + tangon;
-            zuuluu = entity.y;
-            zuuluu = zuuluu - tangon;
-            report = entity.y;
-            entity = entity.height;
-            entity = report + entity;
-            report = entity + tangon;
-            entity = michal.x;
-            oscard = michal.x;
-            tangon = michal.width;
-            oscard = oscard + tangon;
-            tangon = michal.y;
-            verify = michal.y;
-            michal = michal.height;
-            michal = verify + michal;
-            entity = option < entity;
-            if(entity) { _fun00002_ip = 224; continue _fun00001 }
+            var3 = var1.x;
+            var7 = var3 - var4;
+            var5 = var1.x;
+            var3 = var1.width;
+            var3 = var5 + var3;
+            var8 = var3 + var4;
+            var3 = var1.y;
+            var3 = var3 - var4;
+            var5 = var1.y;
+            var1 = var1.height;
+            var1 = var5 + var1;
+            var5 = var1 + var4;
+            var1 = var2.x;
+            var6 = var2.x;
+            var4 = var2.width;
+            var6 = var6 + var4;
+            var4 = var2.y;
+            var9 = var2.y;
+            var2 = var2.height;
+            var2 = var9 + var2;
+            var1 = var8 < var1;
+            if(var1) { _fun0001_ip = 224; continue _fun0001 }
  220:
-            entity = golfie > oscard;
+            var1 = var7 > var6;
  224:
-            if(entity) { _fun00002_ip = 231; continue _fun00001 }
+            if(var1) { _fun0001_ip = 231; continue _fun0001 }
  227:
-            entity = report < tangon;
+            var1 = var5 < var4;
  231:
-            if(entity) { _fun00002_ip = 238; continue _fun00001 }
+            if(var1) { _fun0001_ip = 238; continue _fun0001 }
  234:
-            entity = zuuluu > michal;
+            var1 = var3 > var2;
  238:
-            entity = !entity;
-            return entity;
+            var1 = !var1;
+            return var1;
  243:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    report = {};
-    offset['__closure'] = report;
-    report = 16149528537623.0;
-    offset['__workletHash'] = report;
-    offset['__initData'] = tangon;
-    var _closure1_slot4 = offset;
-    report = {};
-    tangon = 'function VoiceCallOverlayUtilsTsx2(voiceCallOverlayLayoutStates,voiceCallOverlayType,targetRectangle){const{VoiceCallOverlayType,doRectanglesIntersectWorklet,MIN_MARGIN_BETWEEN_OVERLAYS}=this.__closure;switch(voiceCallOverlayType){case VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON:{if(!voiceCallOverlayLayoutStates[VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE].isVisible){return false;}const doRectanglesIntersect=doRectanglesIntersectWorklet(targetRectangle,voiceCallOverlayLayoutStates[VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE],MIN_MARGIN_BETWEEN_OVERLAYS);if(doRectanglesIntersect){return true;}break;}case VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE:{if(!voiceCallOverlayLayoutStates[VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON].isVisible){return false;}const doRectanglesIntersect=doRectanglesIntersectWorklet(targetRectangle,voiceCallOverlayLayoutStates[VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON],MIN_MARGIN_BETWEEN_OVERLAYS);if(doRectanglesIntersect){return true;}break;}}return false;}';
-    report['code'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: l
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var5 = {};
+    var10['__closure'] = var5;
+    var5 = 16149528537623.0;
+    var10['__workletHash'] = var5;
+    var10['__initData'] = var4;
+    var _closure1_slot4 = var10;
+    var5 = {};
+    var4 = 'function VoiceCallOverlayUtilsTsx2(voiceCallOverlayLayoutStates,voiceCallOverlayType,targetRectangle){const{VoiceCallOverlayType,doRectanglesIntersectWorklet,MIN_MARGIN_BETWEEN_OVERLAYS}=this.__closure;switch(voiceCallOverlayType){case VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON:{if(!voiceCallOverlayLayoutStates[VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE].isVisible){return false;}const doRectanglesIntersect=doRectanglesIntersectWorklet(targetRectangle,voiceCallOverlayLayoutStates[VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE],MIN_MARGIN_BETWEEN_OVERLAYS);if(doRectanglesIntersect){return true;}break;}case VoiceCallOverlayType.CAMERA_PREVIEW_PICTURE_IN_PICTURE:{if(!voiceCallOverlayLayoutStates[VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON].isVisible){return false;}const doRectanglesIntersect=doRectanglesIntersectWorklet(targetRectangle,voiceCallOverlayLayoutStates[VoiceCallOverlayType.VOICE_CONTROLS_TOGGLE_BUTTON],MIN_MARGIN_BETWEEN_OVERLAYS);if(doRectanglesIntersect){return true;}break;}}return false;}';
+    var5['code'] = var4;
+    var4 = function l(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            report = argBaz;
-            michal = _closure1_slot3;
-            michal = michal.VOICE_CONTROLS_TOGGLE_BUTTON;
-            if(!(michal !== tangon)) { _fun00004_ip = 108; continue _fun00003 }
+            var3 = arg1;
+            var4 = arg2;
+            var5 = arg3;
+            var2 = _closure1_slot3;
+            var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
+            if(!(var2 !== var4)) { _fun0002_ip = 108; continue _fun0002 }
  26:
-            michal = _closure1_slot3;
-            michal = michal.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
-            if(!(michal === tangon)) { _fun00004_ip = 169; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
+            if(!(var2 === var4)) { _fun0002_ip = 169; continue _fun0002 }
  43:
-            michal = _closure1_slot3;
-            michal = michal.VOICE_CONTROLS_TOGGLE_BUTTON;
-            michal = zuuluu[michal];
-            michal = michal.isVisible;
-            if(michal) { _fun00004_ip = 70; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
+            var2 = var3[var2];
+            var2 = var2.isVisible;
+            if(var2) { _fun0002_ip = 70; continue _fun0002 }
  66:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  70:
-            golfie = _closure1_slot4;
-            michal = _closure1_slot3;
-            michal = michal.VOICE_CONTROLS_TOGGLE_BUTTON;
-            oscard = zuuluu[michal];
-            tangon = _closure1_slot2;
-            michal = undefined;
-            michal = golfie.bind(michal)(report, oscard, tangon);
-            if(!michal) { _fun00004_ip = 169; continue _fun00003 }
+            var7 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var2 = var2.VOICE_CONTROLS_TOGGLE_BUTTON;
+            var6 = var3[var2];
+            var4 = _closure1_slot2;
+            var2 = undefined;
+            var2 = var7.bind(var2)(var5, var6, var4);
+            if(!var2) { _fun0002_ip = 169; continue _fun0002 }
  104:
-            michal = true;
-            return michal;
+            var2 = true;
+            return var2;
  108:
-            michal = _closure1_slot3;
-            michal = michal.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
-            michal = zuuluu[michal];
-            michal = michal.isVisible;
-            if(michal) { _fun00004_ip = 135; continue _fun00003 }
+            var2 = _closure1_slot3;
+            var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
+            var2 = var3[var2];
+            var2 = var2.isVisible;
+            if(var2) { _fun0002_ip = 135; continue _fun0002 }
  131:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  135:
-            tangon = _closure1_slot4;
-            michal = _closure1_slot3;
-            michal = michal.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
-            zuuluu = zuuluu[michal];
-            michal = _closure1_slot2;
-            entity = undefined;
-            entity = tangon.bind(entity)(report, zuuluu, michal);
-            if(entity) { _fun00004_ip = 173; continue _fun00003 }
+            var4 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var2 = var2.CAMERA_PREVIEW_PICTURE_IN_PICTURE;
+            var3 = var3[var2];
+            var2 = _closure1_slot2;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var5, var3, var2);
+            if(var1) { _fun0002_ip = 173; continue _fun0002 }
  169:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  173:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    option = {};
-    option['VoiceCallOverlayType'] = yankee;
-    option['doRectanglesIntersectWorklet'] = offset;
-    option['MIN_MARGIN_BETWEEN_OVERLAYS'] = verify;
-    tangon['__closure'] = option;
-    option = 10902657864288.0;
-    tangon['__workletHash'] = option;
-    tangon['__initData'] = report;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/video_calls/native/VoiceCallOverlayUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['doesTargetPositionIntersectOtherOverlaysWorklet'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: updateVoiceCallOverlayLayoutState
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'VOICE_CALL_OVERLAY_LAYOUT_STATE_UPDATE';
-        michal['type'] = report;
-        report = argFoo;
-        michal['voiceCallOverlayType'] = report;
-        report = argBar;
-        michal['voiceCallOverlayLayoutState'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var8 = {};
+    var8['VoiceCallOverlayType'] = var11;
+    var8['doRectanglesIntersectWorklet'] = var10;
+    var8['MIN_MARGIN_BETWEEN_OVERLAYS'] = var9;
+    var4['__closure'] = var8;
+    var8 = 10902657864288.0;
+    var4['__workletHash'] = var8;
+    var4['__initData'] = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/video_calls/native/VoiceCallOverlayUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['doesTargetPositionIntersectOtherOverlaysWorklet'] = var4;
+    var4 = function updateVoiceCallOverlayLayoutState(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'VOICE_CALL_OVERLAY_LAYOUT_STATE_UPDATE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['voiceCallOverlayType'] = var5;
+        var5 = arg2;
+        var2['voiceCallOverlayLayoutState'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['updateVoiceCallOverlayLayoutState'] = tangon;
-    michal = function(argFoo) { // Original name: setPipEnabledWhileFocusedOnActivityOrStream
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM';
-        michal['type'] = report;
-        report = argFoo;
-        michal['pipEnabledWhileFocusedOnActivityOrStream'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['updateVoiceCallOverlayLayoutState'] = var4;
+    var2 = function setPipEnabledWhileFocusedOnActivityOrStream(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'VOICE_CALL_SET_PIP_ENABLED_FOR_ACTIVITY_OR_STREAM';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['pipEnabledWhileFocusedOnActivityOrStream'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setPipEnabledWhileFocusedOnActivityOrStream'] = michal;
-    return entity;
+    var3['setPipEnabledWhileFocusedOnActivityOrStream'] = var2;
+    return var1;
 })();

@@ -1,158 +1,158 @@
 // app/modules/premium/hooks/useGeoForUser.native.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    option = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/hooks/useGeoForUser.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useGeoForUser
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var8 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/hooks/useGeoForUser.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGeoForUser() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            oscard = 4;
-            zuuluu = option[oscard];
-            michal = undefined;
-            offset = golfie.bind(michal)(zuuluu);
-            verify = offset.useStateFromStores;
-            zuuluu = _closure1_slot6;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 4;
+            var3 = var8[var6];
+            var2 = undefined;
+            var10 = var7.bind(var2)(var3);
+            var9 = var10.useStateFromStores;
+            var3 = _closure1_slot6;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot6;
-                    zuuluu = tangon.getProduct;
-                    report = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = report.bind(entity)(michal);
-                    michal = michal.ProductIds;
-                    michal = michal.PREMIUM_TIER_2_MONTHLY;
-                    michal = zuuluu.bind(tangon)(michal);
-                    zuuluu = null;
-                    zuuluu = zuuluu == michal;
-                    if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+                    var4 = _closure1_slot6;
+                    var3 = var4.getProduct;
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var5.bind(var1)(var2);
+                    var2 = var2.ProductIds;
+                    var2 = var2.PREMIUM_TIER_2_MONTHLY;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = null;
+                    var3 = var3 == var2;
+                    if(var3) { _fun0002_ip = 67; continue _fun0002 }
  61:
-                    entity = michal.countryCode;
+                    var1 = var2.countryCode;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = verify.bind(offset)(tangon, zuuluu);
-            zuuluu = option[oscard];
-            yankee = golfie.bind(michal)(zuuluu);
-            offset = yankee.useStateFromStores;
-            zuuluu = _closure1_slot5;
-            verify = new Array(1);
-            verify[0] = zuuluu;
-            zuuluu = function() {
-                entity = _closure1_slot5;
-                entity = entity.ipLocation;
-                return entity;
+            var4 = var9.bind(var10)(var4, var3);
+            var3 = var8[var6];
+            var11 = var7.bind(var2)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = _closure1_slot5;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var3 = function() {
+                var1 = _closure1_slot5;
+                var1 = var1.ipLocation;
+                return var1;
             };
-            zuuluu = offset.bind(yankee)(verify, zuuluu);
-            oscard = option[oscard];
-            verify = golfie.bind(michal)(oscard);
-            option = verify.useStateFromStores;
-            oscard = _closure1_slot4;
-            golfie = new Array(1);
-            golfie[0] = oscard;
-            oscard = function() {
-                michal = _closure1_slot4;
-                entity = michal.isAuthenticated;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = var10.bind(var11)(var9, var3);
+            var6 = var8[var6];
+            var9 = var7.bind(var2)(var6);
+            var8 = var9.useStateFromStores;
+            var6 = _closure1_slot4;
+            var7 = new Array(1);
+            var7[0] = var6;
+            var6 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.isAuthenticated;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = option.bind(verify)(golfie, oscard);
-            var _closure2_slot0 = option;
-            golfie = _closure1_slot3;
-            oscard = golfie.useEffect;
-            report = new Array(2);
-            report[0] = zuuluu;
-            report[1] = option;
-            entity = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var8 = var8.bind(var9)(var7, var6);
+            var _closure2_slot0 = var8;
+            var7 = _closure1_slot3;
+            var6 = var7.useEffect;
+            var5 = new Array(2);
+            var5[0] = var3;
+            var5[1] = var8;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = _closure2_slot0;
-                    if(!entity) { _fun00006_ip = 28; continue _fun00005 }
+                    var1 = _closure2_slot0;
+                    if(!var1) { _fun0003_ip = 28; continue _fun0003 }
  10:
-                    michal = _closure1_slot5;
-                    michal = michal.ipLocationLoaded;
-                    entity = !michal;
+                    var2 = _closure1_slot5;
+                    var2 = var2.ipLocationLoaded;
+                    var1 = !var2;
  28:
-                    if(!entity) { _fun00006_ip = 66; continue _fun00005 }
+                    if(!var1) { _fun0003_ip = 66; continue _fun0003 }
  31:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 6;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.fetchIpLocation;
-                    entity = entity.bind(michal)();
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.fetchIpLocation;
+                    var1 = var1.bind(var2)();
  66:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = oscard.bind(golfie)(entity, report);
-            entity = {};
-            entity['defaultBillingCountryCode'] = tangon;
-            tangon = null;
-            oscard = tangon == zuuluu;
-            report = undefined;
-            if(oscard) { _fun00002_ip = 189; continue _fun00001 }
+            var1 = var6.bind(var7)(var1, var5);
+            var1 = {};
+            var1['defaultBillingCountryCode'] = var4;
+            var4 = null;
+            var6 = var4 == var3;
+            var5 = undefined;
+            if(var6) { _fun0001_ip = 189; continue _fun0001 }
  183:
-            report = zuuluu.countryCode;
+            var5 = var3.countryCode;
  189:
-            entity['ipCountryCode'] = report;
-            tangon = tangon == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 209; continue _fun00001 }
+            var1['ipCountryCode'] = var5;
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 209; continue _fun0001 }
  203:
-            michal = zuuluu.subdivisionCode;
+            var2 = var3.subdivisionCode;
  209:
-            entity['ipSubdivisionCode'] = michal;
-            return entity;
+            var1['ipSubdivisionCode'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

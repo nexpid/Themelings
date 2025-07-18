@@ -1,62 +1,62 @@
 // app/design/components/ThemeContextProvider/native/getGradientThemeFromFlags.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/ThemeContextProvider/native/getGradientThemeFromFlags.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getGradientThemeFromFlags
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/ThemeContextProvider/native/getGradientThemeFromFlags.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getGradientThemeFromFlags(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 0;
-            michal = option[entity];
-            oscard = undefined;
-            tangon = golfie.bind(oscard)(michal);
-            zuuluu = tangon.hasThemeFlag;
-            michal = option[entity];
-            michal = golfie.bind(oscard)(michal);
-            michal = michal.ThemeContextFlags;
-            michal = michal.MOBILE_DARK_GRADIENT_THEME_ENABLED;
-            michal = zuuluu.bind(tangon)(report, michal);
-            zuuluu = option[entity];
-            tangon = golfie.bind(oscard)(zuuluu);
-            zuuluu = tangon.hasThemeFlag;
-            entity = option[entity];
-            entity = golfie.bind(oscard)(entity);
-            entity = entity.ThemeContextFlags;
-            entity = entity.MOBILE_LIGHT_GRADIENT_THEME_ENABLED;
-            zuuluu = zuuluu.bind(tangon)(report, entity);
-            entity = 'dark';
-            if(michal) { _fun00002_ip = 121; continue _fun00001 }
+            var5 = arg1;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 0;
+            var2 = var8[var1];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var2);
+            var3 = var4.hasThemeFlag;
+            var2 = var8[var1];
+            var2 = var7.bind(var6)(var2);
+            var2 = var2.ThemeContextFlags;
+            var2 = var2.MOBILE_DARK_GRADIENT_THEME_ENABLED;
+            var2 = var3.bind(var4)(var5, var2);
+            var3 = var8[var1];
+            var4 = var7.bind(var6)(var3);
+            var3 = var4.hasThemeFlag;
+            var1 = var8[var1];
+            var1 = var7.bind(var6)(var1);
+            var1 = var1.ThemeContextFlags;
+            var1 = var1.MOBILE_LIGHT_GRADIENT_THEME_ENABLED;
+            var3 = var3.bind(var4)(var5, var1);
+            var1 = 'dark';
+            if(var2) { _fun0001_ip = 121; continue _fun0001 }
  109:
-            michal = null;
-            if(!zuuluu) { _fun00002_ip = 118; continue _fun00001 }
+            var2 = null;
+            if(!var3) { _fun0001_ip = 118; continue _fun0001 }
  114:
-            michal = 'light';
+            var2 = 'light';
  118:
-            entity = michal;
+            var1 = var2;
  121:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getGradientThemeFromFlags'] = michal;
-    return entity;
+    var3['getGradientThemeFromFlags'] = var2;
+    return var1;
 })();

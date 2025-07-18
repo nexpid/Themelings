@@ -1,57 +1,57 @@
 // app/lib/injectMediaEngine.native.tsx
-export default (function(argFoo, argBar, _, __, ___, ____, argPlu) {
-    zuuluu = argBar;
-    tangon = argPlu;
-    var _closure1_slot0 = zuuluu;
-    var _closure1_slot1 = tangon;
-    entity = 0;
-    michal = tangon[entity];
-    entity = undefined;
-    oscard = zuuluu.bind(entity)(michal);
-    report = oscard.inject;
-    michal = {};
-    option = function() { // Original name: supported
-        entity = true;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native2;
+    var4 = native7;
+    var _closure1_slot0 = var3;
+    var _closure1_slot1 = var4;
+    var1 = 0;
+    var2 = var4[var1];
+    var1 = undefined;
+    var6 = var3.bind(var1)(var2);
+    var5 = var6.inject;
+    var2 = {};
+    var8 = function supported() {
+        var1 = true;
+        return var1;
     };
-    michal['supported'] = option;
-    option = function(argFoo) { // Original name: supportsFeature
-        michal = this;
-        entity = michal.getVoiceEngine;
-        zuuluu = entity.bind(michal)();
-        michal = zuuluu.supportsFeature;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['supported'] = var8;
+    var8 = function supportsFeature(arg1) {
+        var2 = this;
+        var1 = var2.getVoiceEngine;
+        var3 = var1.bind(var2)();
+        var2 = var3.supportsFeature;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['supportsFeature'] = option;
-    option = function() { // Original name: setProcessPriority
-        entity = undefined;
-        return entity;
+    var2['supportsFeature'] = var8;
+    var8 = function setProcessPriority() {
+        var1 = undefined;
+        return var1;
     };
-    michal['setProcessPriority'] = option;
-    option = function() { // Original name: getVoiceEngine
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.default;
-        return entity;
+    var2['setProcessPriority'] = var8;
+    var8 = function getVoiceEngine() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
     };
-    michal['getVoiceEngine'] = option;
-    golfie = function() { // Original name: getVoiceFilters
-        entity = {};
-        return entity;
+    var2['getVoiceEngine'] = var8;
+    var7 = function getVoiceFilters() {
+        var1 = {};
+        return var1;
     };
-    michal['getVoiceFilters'] = golfie;
-    michal = report.bind(oscard)(michal);
-    michal = 2;
-    michal = tangon[michal];
-    tangon = zuuluu.bind(entity)(michal);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'lib/injectMediaEngine.native.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+    var2['getVoiceFilters'] = var7;
+    var2 = var5.bind(var6)(var2);
+    var2 = 2;
+    var2 = var4[var2];
+    var4 = var3.bind(var1)(var2);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'lib/injectMediaEngine.native.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

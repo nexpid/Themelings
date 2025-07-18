@@ -1,387 +1,387 @@
 // app/modules/premium/powerups/GuildPowerupsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.GUILD_POWERUP_APPLICATION_ID;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.GuildPowerupType;
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/powerups/GuildPowerupsActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: guildPowerupsAckNotification
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'GUILD_POWERUPS_ACK_NOTIFICATION';
-        michal['type'] = report;
-        report = argFoo;
-        michal['guildId'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GUILD_POWERUP_APPLICATION_ID;
+    var _closure1_slot3 = var7;
+    var4 = var4.GuildPowerupType;
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/powerups/GuildPowerupsActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function guildPowerupsAckNotification(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_POWERUPS_ACK_NOTIFICATION';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['guildId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['guildPowerupsAckNotification'] = tangon;
-    tangon = function() { // Original name: guildPowerupsResetNotifications
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'GUILD_POWERUPS_RESET_NOTIFICATIONS';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['guildPowerupsAckNotification'] = var4;
+    var4 = function guildPowerupsResetNotifications() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_POWERUPS_RESET_NOTIFICATIONS';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['guildPowerupsResetNotifications'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: fetchPowerupCatalogForGuild
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['guildPowerupsResetNotifications'] = var4;
+    var4 = function fetchPowerupCatalogForGuild(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            var _closure2_slot0 = oscard;
-            tangon = true;
-            entity = argBar;
-            if(!(tangon !== entity)) { _fun00002_ip = 119; continue _fun00001 }
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var4 = true;
+            var1 = arg2;
+            if(!(var4 !== var1)) { _fun0001_ip = 119; continue _fun0001 }
  18:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.httpGetWithCountryCodeQuery;
-            entity = {};
-            golfie = _closure1_slot5;
-            golfie = golfie.STORE_PUBLISHED_LISTINGS_SKUS;
-            entity['url'] = golfie;
-            golfie = {};
-            option = _closure1_slot3;
-            golfie['application_id'] = option;
-            golfie['guild_id'] = oscard;
-            entity['query'] = golfie;
-            entity['oldFormErrors'] = tangon;
-            tangon = false;
-            entity['rejectWithError'] = tangon;
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.then;
-            entity = function(argFoo) {
-                entity = argFoo;
-                var _closure3_slot0 = entity;
-                report = entity.body;
-                tangon = report.map;
-                michal = function(argFoo) {
-                    michal = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    entity = 5;
-                    entity = zuuluu[entity];
-                    tangon = undefined;
-                    zuuluu = michal.bind(tangon)(entity);
-                    entity = _closure3_slot0;
-                    michal = entity.body;
-                    entity = argFoo;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.httpGetWithCountryCodeQuery;
+            var1 = {};
+            var7 = _closure1_slot5;
+            var7 = var7.STORE_PUBLISHED_LISTINGS_SKUS;
+            var1['url'] = var7;
+            var7 = {};
+            var8 = _closure1_slot3;
+            var7['application_id'] = var8;
+            var7['guild_id'] = var6;
+            var1['query'] = var7;
+            var1['oldFormErrors'] = var4;
+            var4 = false;
+            var1['rejectWithError'] = var4;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var _closure3_slot0 = var1;
+                var5 = var1.body;
+                var4 = var5.map;
+                var2 = function(arg1) {
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 5;
+                    var1 = var3[var1];
+                    var4 = undefined;
+                    var3 = var2.bind(var4)(var1);
+                    var1 = _closure3_slot0;
+                    var2 = var1.body;
+                    var1 = arg1;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
                 };
-                option = tangon.bind(report)(michal);
-                oscard = option.filter;
-                verify = _closure1_slot0;
-                golfie = _closure1_slot2;
-                tangon = 6;
-                report = golfie[tangon];
-                tangon = undefined;
-                report = verify.bind(tangon)(report);
-                report = report.isNotNullish;
-                option = oscard.bind(option)(report);
-                oscard = option.sort;
-                report = function(argFoo, argBar) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var8 = var4.bind(var5)(var2);
+                var6 = var8.filter;
+                var9 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var4 = 6;
+                var5 = var7[var4];
+                var4 = undefined;
+                var5 = var9.bind(var4)(var5);
+                var5 = var5.isNotNullish;
+                var8 = var6.bind(var8)(var5);
+                var6 = var8.sort;
+                var5 = function(arg1, arg2) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        entity = argFoo;
-                        michal = entity.skuId;
-                        entity = argBar;
-                        entity = entity.skuId;
-                        michal = michal >= entity;
-                        entity = -1;
-                        if(!michal) { _fun00004_ip = 34; continue _fun00003 }
+                        var1 = arg1;
+                        var2 = var1.skuId;
+                        var1 = arg2;
+                        var1 = var1.skuId;
+                        var2 = var2 >= var1;
+                        var1 = -1;
+                        if(!var2) { _fun0002_ip = 34; continue _fun0002 }
  31:
-                        entity = 1;
+                        var1 = 1;
  34:
-                        return entity;
+                        return var1;
                     }
                 };
-                option = oscard.bind(option)(report);
-                oscard = option.reduce;
-                report = {};
-                verify = {};
-                report['allPowerups'] = verify;
-                verify = {};
-                report['powerupCatalog'] = verify;
-                zuuluu = function(argFoo, argBar) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var8 = var6.bind(var8)(var5);
+                var6 = var8.reduce;
+                var5 = {};
+                var9 = {};
+                var5['allPowerups'] = var9;
+                var9 = {};
+                var5['powerupCatalog'] = var9;
+                var3 = function(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = argFoo;
-                        tangon = argBar;
-                        report = entity.allPowerups;
-                        zuuluu = entity.powerupCatalog;
-                        michal = tangon.skuId;
-                        report[michal] = tangon;
-                        michal = tangon.type;
-                        michal = zuuluu[michal];
-                        oscard = null;
-                        if(!(oscard == michal)) { _fun00006_ip = 56; continue _fun00005 }
+                        var1 = arg1;
+                        var4 = arg2;
+                        var5 = var1.allPowerups;
+                        var3 = var1.powerupCatalog;
+                        var2 = var4.skuId;
+                        var5[var2] = var4;
+                        var2 = var4.type;
+                        var2 = var3[var2];
+                        var6 = null;
+                        if(!(var6 == var2)) { _fun0003_ip = 56; continue _fun0003 }
  43:
-                        report = tangon.type;
-                        michal = new Array(0);
-                        zuuluu[report] = michal;
+                        var5 = var4.type;
+                        var2 = new Array(0);
+                        var3[var5] = var2;
  56:
-                        michal = tangon.type;
-                        zuuluu = zuuluu[michal];
-                        michal = oscard == zuuluu;
-                        if(michal) { _fun00006_ip = 81; continue _fun00005 }
+                        var2 = var4.type;
+                        var3 = var3[var2];
+                        var2 = var6 == var3;
+                        if(var2) { _fun0003_ip = 81; continue _fun0003 }
  72:
-                        report = zuuluu.push;
-                        michal = oscard == report;
+                        var5 = var3.push;
+                        var2 = var6 == var5;
  81:
-                        if(michal) { _fun00006_ip = 94; continue _fun00005 }
+                        if(var2) { _fun0003_ip = 94; continue _fun0003 }
  84:
-                        michal = zuuluu.push;
-                        michal = michal.bind(zuuluu)(tangon);
+                        var2 = var3.push;
+                        var2 = var2.bind(var3)(var4);
  94:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = oscard.bind(option)(zuuluu, report);
-                oscard = zuuluu.allPowerups;
-                report = zuuluu.powerupCatalog;
-                zuuluu = _closure1_slot1;
-                michal = 2;
-                michal = golfie[michal];
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                golfie = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
-                michal['type'] = golfie;
-                golfie = _closure2_slot0;
-                michal['guildId'] = golfie;
-                michal['allPowerups'] = oscard;
-                michal['powerupCatalog'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                entity = entity.body;
-                return entity;
+                var3 = var6.bind(var8)(var3, var5);
+                var6 = var3.allPowerups;
+                var5 = var3.powerupCatalog;
+                var3 = _closure1_slot1;
+                var2 = 2;
+                var2 = var7[var2];
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var7 = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
+                var2['type'] = var7;
+                var7 = _closure2_slot0;
+                var2['guildId'] = var7;
+                var2['allPowerups'] = var6;
+                var2['powerupCatalog'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var1 = var1.body;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  119:
-            offset = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 3;
-            tangon = golfie[michal];
-            zuuluu = undefined;
-            tangon = offset.bind(zuuluu)(tangon);
-            verify = tangon.MOCK_LEVELS;
-            option = verify.concat;
-            tangon = golfie[michal];
-            tangon = offset.bind(zuuluu)(tangon);
-            tangon = tangon.MOCK_PERKS;
-            option = option.bind(verify)(tangon);
-            tangon = {};
-            verify = _closure1_slot4;
-            romeon = verify.LEVEL;
-            yankee = golfie[michal];
-            yankee = offset.bind(zuuluu)(yankee);
-            yankee = yankee.MOCK_LEVELS;
-            tangon[romeon] = yankee;
-            verify = verify.PERK;
-            michal = golfie[michal];
-            michal = offset.bind(zuuluu)(michal);
-            michal = michal.MOCK_PERKS;
-            tangon[verify] = michal;
-            michal = _closure1_slot1;
-            entity = 2;
-            entity = golfie[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.dispatch;
-            entity = {};
-            golfie = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
-            entity['type'] = golfie;
-            entity['guildId'] = oscard;
-            golfie = option.sort;
-            oscard = function(argFoo, argBar) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var4 = var7[var2];
+            var3 = undefined;
+            var4 = var10.bind(var3)(var4);
+            var9 = var4.MOCK_LEVELS;
+            var8 = var9.concat;
+            var4 = var7[var2];
+            var4 = var10.bind(var3)(var4);
+            var4 = var4.MOCK_PERKS;
+            var8 = var8.bind(var9)(var4);
+            var4 = {};
+            var9 = _closure1_slot4;
+            var12 = var9.LEVEL;
+            var11 = var7[var2];
+            var11 = var10.bind(var3)(var11);
+            var11 = var11.MOCK_LEVELS;
+            var4[var12] = var11;
+            var9 = var9.PERK;
+            var2 = var7[var2];
+            var2 = var10.bind(var3)(var2);
+            var2 = var2.MOCK_PERKS;
+            var4[var9] = var2;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var1 = var7[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.dispatch;
+            var1 = {};
+            var7 = 'GUILD_POWERUP_CATALOG_FETCH_SUCCESS';
+            var1['type'] = var7;
+            var1['guildId'] = var6;
+            var7 = var8.sort;
+            var6 = function(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = argFoo;
-                    michal = entity.skuId;
-                    entity = argBar;
-                    entity = entity.skuId;
-                    michal = michal >= entity;
-                    entity = -1;
-                    if(!michal) { _fun00008_ip = 34; continue _fun00007 }
+                    var1 = arg1;
+                    var2 = var1.skuId;
+                    var1 = arg2;
+                    var1 = var1.skuId;
+                    var2 = var2 >= var1;
+                    var1 = -1;
+                    if(!var2) { _fun0004_ip = 34; continue _fun0004 }
  31:
-                    entity = 1;
+                    var1 = 1;
  34:
-                    return entity;
+                    return var1;
                 }
             };
-            option = golfie.bind(option)(oscard);
-            golfie = option.reduce;
-            oscard = function(argFoo, argBar) {
-                entity = argFoo;
-                zuuluu = argBar;
-                michal = zuuluu.skuId;
-                entity[michal] = zuuluu;
-                return entity;
+            var8 = var7.bind(var8)(var6);
+            var7 = var8.reduce;
+            var6 = function(arg1, arg2) {
+                var1 = arg1;
+                var3 = arg2;
+                var2 = var3.skuId;
+                var1[var2] = var3;
+                return var1;
             };
-            report = {};
-            report = golfie.bind(option)(oscard, report);
-            entity['allPowerups'] = report;
-            entity['powerupCatalog'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var5 = {};
+            var5 = var7.bind(var8)(var6, var5);
+            var1['allPowerups'] = var5;
+            var1['powerupCatalog'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['fetchPowerupCatalogForGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fetchGuildUnlockedPowerups
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['fetchPowerupCatalogForGuild'] = var4;
+    var4 = function fetchGuildUnlockedPowerups(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            option = argFoo;
-            oscard = arguments[1];
-            var _closure2_slot0 = option;
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00010_ip = 20; continue _fun00009 }
+            var8 = arg1;
+            var6 = arguments[1];
+            var _closure2_slot0 = var8;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0005_ip = 20; continue _fun0005 }
  18:
-            oscard = true;
+            var6 = true;
  20:
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 4;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.httpGetWithCountryCodeQuery;
-            michal = {};
-            golfie = _closure1_slot5;
-            report = golfie.GUILD_POWERUPS;
-            report = report.bind(golfie)(option);
-            michal['url'] = report;
-            report = {};
-            report['include_ends_at'] = oscard;
-            michal['query'] = report;
-            report = true;
-            michal['oldFormErrors'] = report;
-            report = false;
-            michal['rejectWithError'] = report;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.then;
-            entity = function(argFoo) {
-                entity = argFoo;
-                report = entity.body;
-                tangon = report.reduce;
-                zuuluu = function(argFoo, argBar) {
-                    entity = argFoo;
-                    zuuluu = argBar;
-                    michal = zuuluu.sku_id;
-                    entity[michal] = zuuluu;
-                    return entity;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.httpGetWithCountryCodeQuery;
+            var2 = {};
+            var7 = _closure1_slot5;
+            var5 = var7.GUILD_POWERUPS;
+            var5 = var5.bind(var7)(var8);
+            var2['url'] = var5;
+            var5 = {};
+            var5['include_ends_at'] = var6;
+            var2['query'] = var5;
+            var5 = true;
+            var2['oldFormErrors'] = var5;
+            var5 = false;
+            var2['rejectWithError'] = var5;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var5 = var1.body;
+                var4 = var5.reduce;
+                var3 = function(arg1, arg2) {
+                    var1 = arg1;
+                    var3 = arg2;
+                    var2 = var3.sku_id;
+                    var1[var2] = var3;
+                    return var1;
                 };
-                michal = {};
-                report = tangon.bind(report)(zuuluu, michal);
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 2;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                oscard = 'GUILD_UNLOCKED_POWERUPS_FETCH_SUCCESS';
-                michal['type'] = oscard;
-                oscard = _closure2_slot0;
-                michal['guildId'] = oscard;
-                michal['unlockedPowerups'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                entity = entity.body;
-                return entity;
+                var2 = {};
+                var5 = var4.bind(var5)(var3, var2);
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 2;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.dispatch;
+                var2 = {};
+                var6 = 'GUILD_UNLOCKED_POWERUPS_FETCH_SUCCESS';
+                var2['type'] = var6;
+                var6 = _closure2_slot0;
+                var2['guildId'] = var6;
+                var2['unlockedPowerups'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var1 = var1.body;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['fetchGuildUnlockedPowerups'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: enablePowerupForGuild
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 7;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.post;
-        entity = {};
-        golfie = _closure1_slot5;
-        oscard = golfie.GUILD_POWERUP_TOGGLE;
-        report = argFoo;
-        tangon = argBar;
-        tangon = oscard.bind(golfie)(report, tangon);
-        entity['url'] = tangon;
-        tangon = true;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['fetchGuildUnlockedPowerups'] = var4;
+    var4 = function enablePowerupForGuild(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.post;
+        var1 = {};
+        var7 = _closure1_slot5;
+        var6 = var7.GUILD_POWERUP_TOGGLE;
+        var5 = arg1;
+        var4 = arg2;
+        var4 = var6.bind(var7)(var5, var4);
+        var1['url'] = var4;
+        var4 = true;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['enablePowerupForGuild'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: disablePowerupForGuild
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 7;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.del;
-        entity = {};
-        golfie = _closure1_slot5;
-        oscard = golfie.GUILD_POWERUP_TOGGLE;
-        report = argFoo;
-        tangon = argBar;
-        tangon = oscard.bind(golfie)(report, tangon);
-        entity['url'] = tangon;
-        tangon = true;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['enablePowerupForGuild'] = var4;
+    var2 = function disablePowerupForGuild(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.del;
+        var1 = {};
+        var7 = _closure1_slot5;
+        var6 = var7.GUILD_POWERUP_TOGGLE;
+        var5 = arg1;
+        var4 = arg2;
+        var4 = var6.bind(var7)(var5, var4);
+        var1['url'] = var4;
+        var4 = true;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['disablePowerupForGuild'] = michal;
-    return entity;
+    var3['disablePowerupForGuild'] = var2;
+    return var1;
 })();

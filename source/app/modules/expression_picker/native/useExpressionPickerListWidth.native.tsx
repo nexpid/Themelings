@@ -1,75 +1,75 @@
 // app/modules/expression_picker/native/useExpressionPickerListWidth.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PADDING_HORIZONTAL;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ACTION_SHEET_MAX_WIDTH;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/expression_picker/native/useExpressionPickerListWidth.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useExpressionPickerListWidth
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PADDING_HORIZONTAL;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/expression_picker/native/useExpressionPickerListWidth.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useExpressionPickerListWidth(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            tangon = 2;
-            entity = golfie[tangon];
-            zuuluu = undefined;
-            entity = oscard.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)();
-            report = entity.width;
-            entity = 3;
-            entity = golfie[entity];
-            entity = oscard.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)();
-            zuuluu = entity.left;
-            zuuluu = report - zuuluu;
-            entity = entity.right;
-            zuuluu = zuuluu - entity;
-            entity = _closure1_slot2;
-            entity = tangon * entity;
-            report = zuuluu - entity;
-            zuuluu = argFoo;
-            entity = report;
-            if(!zuuluu) { _fun00002_ip = 121; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var4 = 2;
+            var1 = var7[var4];
+            var3 = undefined;
+            var1 = var6.bind(var3)(var1);
+            var1 = var1.bind(var3)();
+            var5 = var1.width;
+            var1 = 3;
+            var1 = var7[var1];
+            var1 = var6.bind(var3)(var1);
+            var1 = var1.bind(var3)();
+            var3 = var1.left;
+            var3 = var5 - var3;
+            var1 = var1.right;
+            var3 = var3 - var1;
+            var1 = _closure1_slot2;
+            var1 = var4 * var1;
+            var5 = var3 - var1;
+            var3 = arg1;
+            var1 = var5;
+            if(!var3) { _fun0001_ip = 121; continue _fun0001 }
  89:
-            zuuluu = argBar;
-            entity = report;
-            if(zuuluu) { _fun00002_ip = 121; continue _fun00001 }
+            var3 = arg2;
+            var1 = var5;
+            if(var3) { _fun0001_ip = 121; continue _fun0001 }
  98:
-            zuuluu = global;
-            tangon = zuuluu.Math;
-            zuuluu = tangon.min;
-            michal = _closure1_slot3;
-            entity = zuuluu.bind(tangon)(report, michal);
+            var3 = global;
+            var4 = var3.Math;
+            var3 = var4.min;
+            var2 = _closure1_slot3;
+            var1 = var3.bind(var4)(var5, var2);
  121:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

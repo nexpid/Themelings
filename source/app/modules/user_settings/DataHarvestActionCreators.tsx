@@ -1,139 +1,139 @@
 // app/modules/user_settings/DataHarvestActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/DataHarvestActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: getDataHarvestStatus
-        zuuluu = _closure1_slot1;
-        oscard = _closure1_slot2;
-        michal = 1;
-        michal = oscard[michal];
-        tangon = undefined;
-        golfie = zuuluu.bind(tangon)(michal);
-        zuuluu = golfie.dispatch;
-        michal = {};
-        option = 'LOAD_DATA_HARVEST_TYPE_START';
-        michal['type'] = option;
-        michal = zuuluu.bind(golfie)(michal);
-        zuuluu = _closure1_slot0;
-        michal = 2;
-        michal = oscard[michal];
-        michal = zuuluu.bind(tangon)(michal);
-        tangon = michal.HTTP;
-        zuuluu = tangon.get;
-        michal = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-        report = _closure1_slot3;
-        report = report.USER_HARVEST;
-        michal['url'] = report;
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.then;
-        michal = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'UPDATE_DATA_HARVEST_TYPE';
-            michal['type'] = report;
-            report = argFoo;
-            report = report.body;
-            michal['harvestType'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/DataHarvestActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getDataHarvestStatus() {
+        var3 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var2 = 1;
+        var2 = var6[var2];
+        var4 = undefined;
+        var7 = var3.bind(var4)(var2);
+        var3 = var7.dispatch;
+        var2 = {};
+        var8 = 'LOAD_DATA_HARVEST_TYPE_START';
+        var2['type'] = var8;
+        var2 = var3.bind(var7)(var2);
+        var3 = _closure1_slot0;
+        var2 = 2;
+        var2 = var6[var2];
+        var2 = var3.bind(var4)(var2);
+        var4 = var2.HTTP;
+        var3 = var4.get;
+        var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+        var5 = _closure1_slot3;
+        var5 = var5.USER_HARVEST;
+        var2['url'] = var5;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.then;
+        var2 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'UPDATE_DATA_HARVEST_TYPE';
+            var2['type'] = var5;
+            var5 = arg1;
+            var5 = var5.body;
+            var2['harvestType'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.catch;
-        entity = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'LOAD_DATA_HARVEST_TYPE_FAILURE';
-            michal['type'] = report;
-            report = argFoo;
-            michal['error'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.catch;
+        var1 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'LOAD_DATA_HARVEST_TYPE_FAILURE';
+            var2['type'] = var5;
+            var5 = arg1;
+            var2['error'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getDataHarvestStatus'] = tangon;
-    michal = function(argFoo) { // Original name: requestDataHarvest
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.requestHarvest;
-        entity = argFoo;
-        zuuluu = michal.bind(zuuluu)(entity);
-        michal = zuuluu.then;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['getDataHarvestStatus'] = var4;
+    var2 = function requestDataHarvest(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.requestHarvest;
+        var1 = arg1;
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.then;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                tangon = null;
-                michal = tangon != entity;
-                if(!michal) { _fun00002_ip = 21; continue _fun00001 }
+                var1 = arg1;
+                var4 = null;
+                var2 = var4 != var1;
+                if(!var2) { _fun0001_ip = 21; continue _fun0001 }
  12:
-                zuuluu = entity.body;
-                michal = tangon != zuuluu;
+                var3 = var1.body;
+                var2 = var4 != var3;
  21:
-                if(!michal) { _fun00002_ip = 81; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 81; continue _fun0001 }
  24:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 1;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                report = 'UPDATE_DATA_HARVEST_TYPE';
-                michal['type'] = report;
-                report = entity.body;
-                michal['harvestType'] = report;
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 1;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'UPDATE_DATA_HARVEST_TYPE';
+                var2['type'] = var5;
+                var5 = var1.body;
+                var2['harvestType'] = var5;
+                var2 = var3.bind(var4)(var2);
  81:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['requestDataHarvest'] = michal;
-    return entity;
+    var3['requestDataHarvest'] = var2;
+    return var1;
 })();

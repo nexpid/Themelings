@@ -1,242 +1,242 @@
 // app/modules/emoji_picker/native/components/categories/EmojiPickerCategoryIcon.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.EmojiCategories;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) { // Original name: EmojiPickerCategoryIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.EmojiCategories;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = var7.memo;
+    var2 = function EmojiPickerCategoryIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.id;
-            michal = _closure1_slot2;
-            michal = michal.TOP_GUILD_EMOJI;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 681; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.id;
+            var2 = _closure1_slot2;
+            var2 = var2.TOP_GUILD_EMOJI;
+            if(!(var2 !== var3)) { _fun0001_ip = 681; continue _fun0001 }
  28:
-            michal = _closure1_slot2;
-            michal = michal.FAVORITES;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 639; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.FAVORITES;
+            if(!(var2 !== var3)) { _fun0001_ip = 639; continue _fun0001 }
  45:
-            michal = _closure1_slot2;
-            michal = michal.RECENT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 597; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.RECENT;
+            if(!(var2 !== var3)) { _fun0001_ip = 597; continue _fun0001 }
  62:
-            michal = _closure1_slot2;
-            michal = michal.PEOPLE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 555; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.PEOPLE;
+            if(!(var2 !== var3)) { _fun0001_ip = 555; continue _fun0001 }
  79:
-            michal = _closure1_slot2;
-            michal = michal.NATURE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 513; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.NATURE;
+            if(!(var2 !== var3)) { _fun0001_ip = 513; continue _fun0001 }
  96:
-            michal = _closure1_slot2;
-            michal = michal.FOOD;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 471; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.FOOD;
+            if(!(var2 !== var3)) { _fun0001_ip = 471; continue _fun0001 }
  113:
-            michal = _closure1_slot2;
-            michal = michal.ACTIVITY;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 429; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.ACTIVITY;
+            if(!(var2 !== var3)) { _fun0001_ip = 429; continue _fun0001 }
  130:
-            michal = _closure1_slot2;
-            michal = michal.TRAVEL;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 387; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.TRAVEL;
+            if(!(var2 !== var3)) { _fun0001_ip = 387; continue _fun0001 }
  147:
-            michal = _closure1_slot2;
-            michal = michal.OBJECTS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 345; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.OBJECTS;
+            if(!(var2 !== var3)) { _fun0001_ip = 345; continue _fun0001 }
  164:
-            michal = _closure1_slot2;
-            michal = michal.SYMBOLS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 303; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.SYMBOLS;
+            if(!(var2 !== var3)) { _fun0001_ip = 303; continue _fun0001 }
  181:
-            michal = _closure1_slot2;
-            michal = michal.FLAGS;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 261; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.FLAGS;
+            if(!(var2 !== var3)) { _fun0001_ip = 261; continue _fun0001 }
  195:
-            michal = _closure1_slot2;
-            michal = michal.CUSTOM;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 219; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var2 = var2.CUSTOM;
+            if(!(var2 !== var3)) { _fun0001_ip = 219; continue _fun0001 }
  209:
-            michal = _closure1_slot2;
-            michal = michal.PREMIUM_UPSELL;
+            var2 = _closure1_slot2;
+            var2 = var2.PREMIUM_UPSELL;
  219:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 14;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.NitroWheelIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 14;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.NitroWheelIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  261:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 13;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.FlagIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 13;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.FlagIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  303:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 12;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.HeartIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 12;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.HeartIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  345:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 11;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.ObjectIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 11;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ObjectIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  387:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 10;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.BicycleIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 10;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.BicycleIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  429:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 9;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.GameControllerIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.GameControllerIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  471:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 8;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.FoodIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 8;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.FoodIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  513:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 7;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.NatureIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 7;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.NatureIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  555:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 6;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.ReactionIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 6;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ReactionIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  597:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 5;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.ClockIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 5;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.ClockIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  639:
-            report = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 4;
-            michal = tangon[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.StarIcon;
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.StarIcon;
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  681:
-            tangon = _closure1_slot3;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = michal.bind(zuuluu)(entity);
-            michal = entity.TrophyIcon;
-            entity = {};
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+            var4 = _closure1_slot3;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.TrophyIcon;
+            var1 = {};
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 15;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emoji_picker/native/components/categories/EmojiPickerCategoryIcon.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emoji_picker/native/components/categories/EmojiPickerCategoryIcon.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

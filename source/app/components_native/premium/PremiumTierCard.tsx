@@ -1,270 +1,270 @@
 // app/components_native/premium/PremiumTierCard.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.Image;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PremiumTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    tangon = 16;
-    offset = {'marginTop': 24, 'padding': 16};
-    golfie['header'] = offset;
-    offset = {'width': 158, 'height': 32};
-    golfie['textLogoTier0'] = offset;
-    offset = {'width': 185, 'height': 32};
-    golfie['textLogoTier1'] = offset;
-    offset = {'width': 80, 'height': 32};
-    golfie['textLogoTier2'] = offset;
-    offset = {'position': 'absolute', 'top': 0, 'right': 24, 'zIndex': 1};
-    golfie['wumpusLogo'] = offset;
-    offset = {'width': 83, 'height': 100};
-    golfie['wumpusLogoTier0'] = offset;
-    offset = {'width': 86, 'height': 100};
-    golfie['wumpusLogoTier1'] = offset;
-    offset = {'width': 133, 'height': 100};
-    golfie['wumpusLogoTier2'] = offset;
-    offset = {};
-    offset['padding'] = tangon;
-    yankee = 5;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.radii;
-    foxtra = foxtra.xs;
-    offset['borderBottomRightRadius'] = foxtra;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.radii;
-    yankee = yankee.xs;
-    offset['borderBottomLeftRadius'] = yankee;
-    yankee = 6;
-    yankee = oscard[yankee];
-    yankee = report.bind(entity)(yankee);
-    yankee = yankee.DARK_PRIMARY_630_LIGHT_PRIMARY_100;
-    offset['backgroundColor'] = yankee;
-    golfie['body'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot8 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/premium/PremiumTierCard.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var12 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot3 = var7;
+    var4 = var4.Image;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PremiumTypes;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
+    var4 = 16;
+    var10 = {'marginTop': 24, 'padding': 16};
+    var7['header'] = var10;
+    var10 = {'width': 158, 'height': 32};
+    var7['textLogoTier0'] = var10;
+    var10 = {'width': 185, 'height': 32};
+    var7['textLogoTier1'] = var10;
+    var10 = {'width': 80, 'height': 32};
+    var7['textLogoTier2'] = var10;
+    var10 = {'position': 'absolute', 'top': 0, 'right': 24, 'zIndex': 1};
+    var7['wumpusLogo'] = var10;
+    var10 = {'width': 83, 'height': 100};
+    var7['wumpusLogoTier0'] = var10;
+    var10 = {'width': 86, 'height': 100};
+    var7['wumpusLogoTier1'] = var10;
+    var10 = {'width': 133, 'height': 100};
+    var7['wumpusLogoTier2'] = var10;
+    var10 = {};
+    var10['padding'] = var4;
+    var11 = 5;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.xs;
+    var10['borderBottomRightRadius'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.radii;
+    var11 = var11.xs;
+    var10['borderBottomLeftRadius'] = var11;
+    var11 = 6;
+    var11 = var6[var11];
+    var11 = var5.bind(var1)(var11);
+    var11 = var11.DARK_PRIMARY_630_LIGHT_PRIMARY_100;
+    var10['backgroundColor'] = var11;
+    var7['body'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot8 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/premium/PremiumTierCard.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            backup = entity.premiumType;
-            option = entity.children;
-            report = entity.style;
-            entity = _closure1_slot8;
-            tangon = undefined;
-            verify = entity.bind(tangon)();
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot3;
-            entity = {};
-            entity['style'] = report;
-            golfie = _closure1_slot6;
-            oscard = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            report = 7;
-            report = foxtra[report];
-            oscard = oscard.bind(tangon)(report);
-            report = {};
-            offset = verify.header;
-            report['style'] = offset;
-            yankee = _closure1_slot0;
-            offset = 8;
-            kiloes = foxtra[offset];
-            kiloes = yankee.bind(tangon)(kiloes);
-            kiloes = kiloes.HorizontalGradient;
-            kiloes = kiloes.START;
-            report['start'] = kiloes;
-            offset = foxtra[offset];
-            offset = yankee.bind(tangon)(offset);
-            offset = offset.HorizontalGradient;
-            offset = offset.END;
-            report['end'] = offset;
-            offset = 9;
-            offset = foxtra[offset];
-            yankee = yankee.bind(tangon)(offset);
-            offset = yankee.getPremiumGradientColor;
-            offset = offset.bind(yankee)(backup);
-            report['colors'] = offset;
-            offset = _closure1_slot4;
-            yankee = {};
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_0;
-            if(!(foxtra !== backup)) { _fun00002_ip = 231; continue _fun00001 }
+            var1 = arg1;
+            var14 = var1.premiumType;
+            var8 = var1.children;
+            var5 = var1.style;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var9 = var1.bind(var4)();
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var1['style'] = var5;
+            var7 = _closure1_slot6;
+            var6 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var5 = 7;
+            var5 = var13[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var10 = var9.header;
+            var5['style'] = var10;
+            var11 = _closure1_slot0;
+            var10 = 8;
+            var15 = var13[var10];
+            var15 = var11.bind(var4)(var15);
+            var15 = var15.HorizontalGradient;
+            var15 = var15.START;
+            var5['start'] = var15;
+            var10 = var13[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.HorizontalGradient;
+            var10 = var10.END;
+            var5['end'] = var10;
+            var10 = 9;
+            var10 = var13[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = var11.getPremiumGradientColor;
+            var10 = var10.bind(var11)(var14);
+            var5['colors'] = var10;
+            var10 = _closure1_slot4;
+            var11 = {};
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_0;
+            if(!(var13 !== var14)) { _fun0001_ip = 231; continue _fun0001 }
  185:
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_1;
-            if(!(foxtra !== backup)) { _fun00002_ip = 223; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_1;
+            if(!(var13 !== var14)) { _fun0001_ip = 223; continue _fun0001 }
  199:
-            foxtra = _closure1_slot5;
-            kiloes = foxtra.TIER_2;
-            foxtra = undefined;
-            if(!(kiloes === backup)) { _fun00002_ip = 237; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var15 = var13.TIER_2;
+            var13 = undefined;
+            if(!(var15 === var14)) { _fun0001_ip = 237; continue _fun0001 }
  215:
-            foxtra = verify.textLogoTier2;
-            _fun00002_ip = 237; continue _fun00001;
+            var13 = var9.textLogoTier2;
+            _fun0001_ip = 237; continue _fun0001;
  223:
-            foxtra = verify.textLogoTier1;
-            _fun00002_ip = 237; continue _fun00001;
+            var13 = var9.textLogoTier1;
+            _fun0001_ip = 237; continue _fun0001;
  231:
-            foxtra = verify.textLogoTier0;
+            var13 = var9.textLogoTier0;
  237:
-            yankee['style'] = foxtra;
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_0;
-            if(!(foxtra !== backup)) { _fun00002_ip = 329; continue _fun00001 }
+            var11['style'] = var13;
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_0;
+            if(!(var13 !== var14)) { _fun0001_ip = 329; continue _fun0001 }
  255:
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_1;
-            if(!(foxtra !== backup)) { _fun00002_ip = 307; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_1;
+            if(!(var13 !== var14)) { _fun0001_ip = 307; continue _fun0001 }
  269:
-            foxtra = _closure1_slot5;
-            kiloes = foxtra.TIER_2;
-            foxtra = undefined;
-            if(!(kiloes === backup)) { _fun00002_ip = 349; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var15 = var13.TIER_2;
+            var13 = undefined;
+            if(!(var15 === var14)) { _fun0001_ip = 349; continue _fun0001 }
  285:
-            sizing = _closure1_slot1;
-            output = _closure1_slot2;
-            kiloes = 12;
-            kiloes = output[kiloes];
-            foxtra = sizing.bind(tangon)(kiloes);
-            _fun00002_ip = 349; continue _fun00001;
+            var16 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var15 = 12;
+            var15 = var17[var15];
+            var13 = var16.bind(var4)(var15);
+            _fun0001_ip = 349; continue _fun0001;
  307:
-            sizing = _closure1_slot1;
-            output = _closure1_slot2;
-            kiloes = 11;
-            kiloes = output[kiloes];
-            foxtra = sizing.bind(tangon)(kiloes);
-            _fun00002_ip = 349; continue _fun00001;
+            var16 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var15 = 11;
+            var15 = var17[var15];
+            var13 = var16.bind(var4)(var15);
+            _fun0001_ip = 349; continue _fun0001;
  329:
-            sizing = _closure1_slot1;
-            output = _closure1_slot2;
-            kiloes = 10;
-            kiloes = output[kiloes];
-            foxtra = sizing.bind(tangon)(kiloes);
+            var16 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var15 = 10;
+            var15 = var17[var15];
+            var13 = var16.bind(var4)(var15);
  349:
-            yankee['source'] = foxtra;
-            yankee = golfie.bind(tangon)(offset, yankee);
-            report['children'] = yankee;
-            oscard = golfie.bind(tangon)(oscard, report);
-            report = new Array(3);
-            report[0] = oscard;
-            oscard = {};
-            foxtra = verify.wumpusLogo;
-            yankee = new Array(2);
-            yankee[0] = foxtra;
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_0;
-            if(!(foxtra !== backup)) { _fun00002_ip = 453; continue _fun00001 }
+            var11['source'] = var13;
+            var11 = var7.bind(var4)(var10, var11);
+            var5['children'] = var11;
+            var6 = var7.bind(var4)(var6, var5);
+            var5 = new Array(3);
+            var5[0] = var6;
+            var6 = {};
+            var13 = var9.wumpusLogo;
+            var11 = new Array(2);
+            var11[0] = var13;
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_0;
+            if(!(var13 !== var14)) { _fun0001_ip = 453; continue _fun0001 }
  407:
-            foxtra = _closure1_slot5;
-            foxtra = foxtra.TIER_1;
-            if(!(foxtra !== backup)) { _fun00002_ip = 445; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var13 = var13.TIER_1;
+            if(!(var13 !== var14)) { _fun0001_ip = 445; continue _fun0001 }
  421:
-            foxtra = _closure1_slot5;
-            kiloes = foxtra.TIER_2;
-            foxtra = undefined;
-            if(!(kiloes === backup)) { _fun00002_ip = 459; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var15 = var13.TIER_2;
+            var13 = undefined;
+            if(!(var15 === var14)) { _fun0001_ip = 459; continue _fun0001 }
  437:
-            foxtra = verify.wumpusLogoTier2;
-            _fun00002_ip = 459; continue _fun00001;
+            var13 = var9.wumpusLogoTier2;
+            _fun0001_ip = 459; continue _fun0001;
  445:
-            foxtra = verify.wumpusLogoTier1;
-            _fun00002_ip = 459; continue _fun00001;
+            var13 = var9.wumpusLogoTier1;
+            _fun0001_ip = 459; continue _fun0001;
  453:
-            foxtra = verify.wumpusLogoTier0;
+            var13 = var9.wumpusLogoTier0;
  459:
-            yankee[1] = foxtra;
-            oscard['style'] = yankee;
-            yankee = _closure1_slot5;
-            yankee = yankee.TIER_0;
-            if(!(yankee !== backup)) { _fun00002_ip = 555; continue _fun00001 }
+            var11[1] = var13;
+            var6['style'] = var11;
+            var11 = _closure1_slot5;
+            var11 = var11.TIER_0;
+            if(!(var11 !== var14)) { _fun0001_ip = 555; continue _fun0001 }
  481:
-            yankee = _closure1_slot5;
-            yankee = yankee.TIER_1;
-            if(!(yankee !== backup)) { _fun00002_ip = 533; continue _fun00001 }
+            var11 = _closure1_slot5;
+            var11 = var11.TIER_1;
+            if(!(var11 !== var14)) { _fun0001_ip = 533; continue _fun0001 }
  495:
-            yankee = _closure1_slot5;
-            foxtra = yankee.TIER_2;
-            yankee = undefined;
-            if(!(foxtra === backup)) { _fun00002_ip = 575; continue _fun00001 }
+            var11 = _closure1_slot5;
+            var13 = var11.TIER_2;
+            var11 = undefined;
+            if(!(var13 === var14)) { _fun0001_ip = 575; continue _fun0001 }
  511:
-            backup = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            foxtra = 15;
-            foxtra = kiloes[foxtra];
-            yankee = backup.bind(tangon)(foxtra);
-            _fun00002_ip = 575; continue _fun00001;
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var13 = 15;
+            var13 = var15[var13];
+            var11 = var14.bind(var4)(var13);
+            _fun0001_ip = 575; continue _fun0001;
  533:
-            backup = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            foxtra = 14;
-            foxtra = kiloes[foxtra];
-            yankee = backup.bind(tangon)(foxtra);
-            _fun00002_ip = 575; continue _fun00001;
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var13 = 14;
+            var13 = var15[var13];
+            var11 = var14.bind(var4)(var13);
+            _fun0001_ip = 575; continue _fun0001;
  555:
-            foxtra = _closure1_slot1;
-            backup = _closure1_slot2;
-            romeon = 13;
-            romeon = backup[romeon];
-            yankee = foxtra.bind(tangon)(romeon);
+            var13 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var12 = 13;
+            var12 = var14[var12];
+            var11 = var13.bind(var4)(var12);
  575:
-            oscard['source'] = yankee;
-            oscard = golfie.bind(tangon)(offset, oscard);
-            report[1] = oscard;
-            oscard = {};
-            verify = verify.body;
-            oscard['style'] = verify;
-            oscard['children'] = option;
-            oscard = golfie.bind(tangon)(michal, oscard);
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6['source'] = var11;
+            var6 = var7.bind(var4)(var10, var6);
+            var5[1] = var6;
+            var6 = {};
+            var9 = var9.body;
+            var6['style'] = var9;
+            var6['children'] = var8;
+            var6 = var7.bind(var4)(var2, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

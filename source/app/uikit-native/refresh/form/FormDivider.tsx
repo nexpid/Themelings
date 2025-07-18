@@ -1,206 +1,206 @@
 // app/uikit-native/refresh/form/FormDivider.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
-    report = 0;
-    option = golfie[report];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(option);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.View;
-    var _closure1_slot3 = option;
-    foxtra = michal.StyleSheet;
-    michal = michal.Platform;
-    michal = 2;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.ThemeTypes;
-    michal = 3;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot4 = michal;
-    michal = 4;
-    michal = golfie[michal];
-    yankee = oscard.bind(entity)(michal);
-    offset = yankee.createStyles;
-    michal = {};
-    romeon = {};
-    michal['divider'] = romeon;
-    romeon = {};
-    romeon['marginLeft'] = report;
-    report = foxtra.hairlineWidth;
-    romeon['height'] = report;
-    report = 5;
-    backup = golfie[report];
-    backup = verify.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.BACKGROUND_MODIFIER_ACCENT;
-    romeon['backgroundColor'] = backup;
-    backup = foxtra.hairlineWidth;
-    foxtra = -1;
-    foxtra = foxtra * backup;
-    romeon['marginTop'] = foxtra;
-    michal['dividerOuter'] = romeon;
-    romeon = {};
-    foxtra = 56;
-    romeon['marginLeft'] = foxtra;
-    michal['dividerHasIcon'] = romeon;
-    michal = offset.bind(yankee)(michal);
-    var _closure1_slot5 = michal;
-    michal = {};
-    yankee = option.LIGHT;
-    offset = golfie[report];
-    offset = verify.bind(entity)(offset);
-    offset = offset.unsafe_rawColors;
-    offset = offset.BLACK_500;
-    michal[yankee] = offset;
-    yankee = option.DARK;
-    offset = golfie[report];
-    offset = verify.bind(entity)(offset);
-    offset = offset.unsafe_rawColors;
-    offset = offset.WHITE_500;
-    michal[yankee] = offset;
-    yankee = option.DARKER;
-    offset = golfie[report];
-    offset = verify.bind(entity)(offset);
-    offset = offset.unsafe_rawColors;
-    offset = offset.WHITE_500;
-    michal[yankee] = offset;
-    option = option.MIDNIGHT;
-    report = golfie[report];
-    report = verify.bind(entity)(report);
-    report = report.unsafe_rawColors;
-    report = report.WHITE_500;
-    michal[option] = report;
-    var _closure1_slot6 = michal;
-    report = 10;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'uikit-native/refresh/form/FormDivider.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: FormDivider
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var9 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var2);
+    var5 = 0;
+    var8 = var7[var5];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var8);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var8 = var2.View;
+    var _closure1_slot3 = var8;
+    var13 = var2.StyleSheet;
+    var2 = var2.Platform;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var8 = var2.ThemeTypes;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot4 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var11 = var6.bind(var1)(var2);
+    var10 = var11.createStyles;
+    var2 = {};
+    var12 = {};
+    var2['divider'] = var12;
+    var12 = {};
+    var12['marginLeft'] = var5;
+    var5 = var13.hairlineWidth;
+    var12['height'] = var5;
+    var5 = 5;
+    var14 = var7[var5];
+    var14 = var9.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var12['backgroundColor'] = var14;
+    var14 = var13.hairlineWidth;
+    var13 = -1;
+    var13 = var13 * var14;
+    var12['marginTop'] = var13;
+    var2['dividerOuter'] = var12;
+    var12 = {};
+    var13 = 56;
+    var12['marginLeft'] = var13;
+    var2['dividerHasIcon'] = var12;
+    var2 = var10.bind(var11)(var2);
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var11 = var8.LIGHT;
+    var10 = var7[var5];
+    var10 = var9.bind(var1)(var10);
+    var10 = var10.unsafe_rawColors;
+    var10 = var10.BLACK_500;
+    var2[var11] = var10;
+    var11 = var8.DARK;
+    var10 = var7[var5];
+    var10 = var9.bind(var1)(var10);
+    var10 = var10.unsafe_rawColors;
+    var10 = var10.WHITE_500;
+    var2[var11] = var10;
+    var11 = var8.DARKER;
+    var10 = var7[var5];
+    var10 = var9.bind(var1)(var10);
+    var10 = var10.unsafe_rawColors;
+    var10 = var10.WHITE_500;
+    var2[var11] = var10;
+    var8 = var8.MIDNIGHT;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var5 = var5.unsafe_rawColors;
+    var5 = var5.WHITE_500;
+    var2[var8] = var5;
+    var _closure1_slot6 = var2;
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'uikit-native/refresh/form/FormDivider.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function FormDivider(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.outer;
-            report = undefined;
-            if(!(oscard === report)) { _fun00002_ip = 17; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.outer;
+            var5 = undefined;
+            if(!(var6 === var5)) { _fun0001_ip = 17; continue _fun0001 }
  15:
-            oscard = false;
+            var6 = false;
  17:
-            verify = entity.iconPush;
-            if(!(verify === report)) { _fun00002_ip = 29; continue _fun00001 }
+            var9 = var1.iconPush;
+            if(!(var9 === var5)) { _fun0001_ip = 29; continue _fun0001 }
  27:
-            verify = false;
+            var9 = false;
  29:
-            option = entity.style;
-            entity = _closure1_slot5;
-            offset = entity.bind(report)();
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 6;
-            entity = tangon[entity];
-            golfie = zuuluu.bind(report)(entity);
-            entity = golfie.useThemeContext;
-            entity = entity.bind(golfie)();
-            backup = entity.theme;
-            golfie = entity.primaryColor;
-            entity = 7;
-            entity = tangon[entity];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.useProfileThemeValues;
-            tangon = entity.bind(zuuluu)(backup);
-            if(oscard) { _fun00002_ip = 120; continue _fun00001 }
+            var8 = var1.style;
+            var1 = _closure1_slot5;
+            var10 = var1.bind(var5)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 6;
+            var1 = var4[var1];
+            var7 = var3.bind(var5)(var1);
+            var1 = var7.useThemeContext;
+            var1 = var1.bind(var7)();
+            var14 = var1.theme;
+            var7 = var1.primaryColor;
+            var1 = 7;
+            var1 = var4[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useProfileThemeValues;
+            var4 = var1.bind(var3)(var14);
+            if(var6) { _fun0001_ip = 120; continue _fun0001 }
  112:
-            entity = offset.divider;
-            _fun00002_ip = 126; continue _fun00001;
+            var1 = var10.divider;
+            _fun0001_ip = 126; continue _fun0001;
  120:
-            entity = offset.dividerOuter;
+            var1 = var10.dividerOuter;
  126:
-            zuuluu = entity.backgroundColor;
-            entity = null;
-            zuuluu = entity != zuuluu;
-            if(!zuuluu) { _fun00002_ip = 144; continue _fun00001 }
+            var3 = var1.backgroundColor;
+            var1 = null;
+            var3 = var1 != var3;
+            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
  140:
-            zuuluu = entity != golfie;
+            var3 = var1 != var7;
  144:
-            if(!zuuluu) { _fun00002_ip = 151; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 151; continue _fun0001 }
  147:
-            zuuluu = entity != tangon;
+            var3 = var1 != var4;
  151:
-            golfie = null;
-            if(!zuuluu) { _fun00002_ip = 211; continue _fun00001 }
+            var7 = null;
+            if(!var3) { _fun0001_ip = 211; continue _fun0001 }
  156:
-            zuuluu = {};
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            yankee = 8;
-            yankee = foxtra[yankee];
-            foxtra = romeon.bind(report)(yankee);
-            romeon = foxtra.hexOpacityToRgba;
-            yankee = _closure1_slot6;
-            yankee = yankee[backup];
-            tangon = tangon.dividerOpacity;
-            tangon = romeon.bind(foxtra)(yankee, tangon);
-            zuuluu['backgroundColor'] = tangon;
-            golfie = zuuluu;
+            var3 = {};
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var11 = 8;
+            var11 = var13[var11];
+            var13 = var12.bind(var5)(var11);
+            var12 = var13.hexOpacityToRgba;
+            var11 = _closure1_slot6;
+            var11 = var11[var14];
+            var4 = var4.dividerOpacity;
+            var4 = var12.bind(var13)(var11, var4);
+            var3['backgroundColor'] = var4;
+            var7 = var3;
  211:
-            yankee = _closure1_slot2;
-            tangon = yankee.useContext;
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            zuuluu = 9;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(report)(zuuluu);
-            zuuluu = zuuluu.RedesignCompatContext;
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 323; continue _fun00001 }
+            var11 = _closure1_slot2;
+            var4 = var11.useContext;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var3 = 9;
+            var3 = var13[var3];
+            var3 = var12.bind(var5)(var3);
+            var3 = var3.RedesignCompatContext;
+            var3 = var4.bind(var11)(var3);
+            var1 = null;
+            if(var3) { _fun0001_ip = 323; continue _fun0001 }
  257:
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot3;
-            michal = {};
-            if(oscard) { _fun00002_ip = 278; continue _fun00001 }
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var2 = {};
+            if(var6) { _fun0001_ip = 278; continue _fun0001 }
  270:
-            yankee = offset.divider;
-            _fun00002_ip = 284; continue _fun00001;
+            var11 = var10.divider;
+            _fun0001_ip = 284; continue _fun0001;
  278:
-            yankee = offset.dividerOuter;
+            var11 = var10.dividerOuter;
  284:
-            oscard = new Array(4);
-            oscard[0] = yankee;
-            if(!verify) { _fun00002_ip = 301; continue _fun00001 }
+            var6 = new Array(4);
+            var6[0] = var11;
+            if(!var9) { _fun0001_ip = 301; continue _fun0001 }
  295:
-            verify = offset.dividerHasIcon;
+            var9 = var10.dividerHasIcon;
  301:
-            oscard[1] = verify;
-            oscard[2] = option;
-            oscard[3] = golfie;
-            michal['style'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var6[1] = var9;
+            var6[2] = var8;
+            var6[3] = var7;
+            var2['style'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  323:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['DIVIDER_COLORS'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['DIVIDER_COLORS'] = var2;
+    return var1;
 })();

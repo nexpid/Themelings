@@ -1,237 +1,237 @@
 // app/modules/haptics/HapticUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: getAndroidLightImpactEffect
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var5 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var6;
+    var1 = function getAndroidLightImpactEffect() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = global;
-            zuuluu = entity.parseInt;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 3;
-            entity = michal[entity];
-            michal = undefined;
-            tangon = tangon.bind(michal)(entity);
-            entity = tangon.getSystemVersion;
-            entity = entity.bind(tangon)();
-            michal = zuuluu.bind(michal)(entity);
-            entity = 29;
-            michal = michal < entity;
-            entity = 'effectTick';
-            if(!michal) { _fun00002_ip = 70; continue _fun00001 }
+            var1 = global;
+            var3 = var1.parseInt;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var1 = var2[var1];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var1);
+            var1 = var4.getSystemVersion;
+            var1 = var1.bind(var4)();
+            var2 = var3.bind(var2)(var1);
+            var1 = 29;
+            var2 = var2 < var1;
+            var1 = 'effectTick';
+            if(!var2) { _fun0001_ip = 70; continue _fun0001 }
  64:
-            entity = 'impactLight';
+            var1 = 'impactLight';
  70:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 4;
-    tangon = oscard[entity];
-    entity = undefined;
-    option = golfie.bind(entity)(tangon);
-    golfie = option.fileFinishedImporting;
-    tangon = 'modules/haptics/HapticUtils.native.tsx';
-    tangon = golfie.bind(option)(tangon);
-    tangon = 0;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    zuuluu['HapticFeedbackTypes'] = tangon;
-    michal = function(argFoo) { // Original name: triggerHapticFeedback
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 4;
+    var4 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var4);
+    var7 = var8.fileFinishedImporting;
+    var4 = 'modules/haptics/HapticUtils.native.tsx';
+    var4 = var7.bind(var8)(var4);
+    var4 = 0;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var3['HapticFeedbackTypes'] = var4;
+    var2 = function triggerHapticFeedback(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = _closure1_slot1;
-            entity = _closure1_slot2;
-            oscard = 0;
-            michal = entity[oscard];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            michal = michal.IMPACT_LIGHT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 608; continue _fun00003 }
+            var3 = arg1;
+            var4 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var6 = 0;
+            var2 = var1[var6];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.IMPACT_LIGHT;
+            if(!(var2 !== var3)) { _fun0002_ip = 608; continue _fun0002 }
  40:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.IMPACT_MEDIUM;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 533; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.IMPACT_MEDIUM;
+            if(!(var2 !== var3)) { _fun0002_ip = 533; continue _fun0002 }
  70:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.IMPACT_HEAVY;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 491; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.IMPACT_HEAVY;
+            if(!(var2 !== var3)) { _fun0002_ip = 491; continue _fun0002 }
  100:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.NOTIFICATION_ERROR;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 449; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.NOTIFICATION_ERROR;
+            if(!(var2 !== var3)) { _fun0002_ip = 449; continue _fun0002 }
  130:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.DRAG_AND_DROP_START;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 373; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.DRAG_AND_DROP_START;
+            if(!(var2 !== var3)) { _fun0002_ip = 373; continue _fun0002 }
  160:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.DRAG_AND_DROP_END;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 295; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.DRAG_AND_DROP_END;
+            if(!(var2 !== var3)) { _fun0002_ip = 295; continue _fun0002 }
  187:
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.DRAG_AND_DROP_MOVE;
-            if(!(michal === zuuluu)) { _fun00004_ip = 679; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.DRAG_AND_DROP_MOVE;
+            if(!(var2 === var3)) { _fun0002_ip = 679; continue _fun0002 }
  217:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            oscard = _closure1_slot0;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = oscard.bind(entity)(michal);
-            michal = oscard.isAndroid;
-            oscard = michal.bind(oscard)();
-            michal = 'impactMedium';
-            if(!oscard) { _fun00004_ip = 285; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'impactMedium';
+            if(!var6) { _fun0002_ip = 285; continue _fun0002 }
  277:
-            oscard = _closure1_slot3;
-            michal = oscard.bind(entity)();
+            var6 = _closure1_slot3;
+            var2 = var6.bind(var1)();
  285:
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  295:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            oscard = _closure1_slot0;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = oscard.bind(entity)(michal);
-            michal = oscard.isAndroid;
-            oscard = michal.bind(oscard)();
-            michal = 'notificationSuccess';
-            if(!oscard) { _fun00004_ip = 363; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'notificationSuccess';
+            if(!var6) { _fun0002_ip = 363; continue _fun0002 }
  355:
-            oscard = _closure1_slot3;
-            michal = oscard.bind(entity)();
+            var6 = _closure1_slot3;
+            var2 = var6.bind(var1)();
  363:
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  373:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            oscard = _closure1_slot0;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = oscard.bind(entity)(michal);
-            michal = oscard.isAndroid;
-            oscard = michal.bind(oscard)();
-            michal = 'impactHeavy';
-            if(!oscard) { _fun00004_ip = 439; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'impactHeavy';
+            if(!var6) { _fun0002_ip = 439; continue _fun0002 }
  433:
-            michal = 'impactMedium';
+            var2 = 'impactMedium';
  439:
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  449:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 1;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            michal = 'notificationError';
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 1;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var2 = 'notificationError';
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  491:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 1;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            michal = 'impactHeavy';
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 1;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var2 = 'impactHeavy';
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  533:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            oscard = _closure1_slot0;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = oscard.bind(entity)(michal);
-            michal = oscard.isAndroid;
-            oscard = michal.bind(oscard)();
-            michal = 'impactMedium';
-            if(!oscard) { _fun00004_ip = 601; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'impactMedium';
+            if(!var6) { _fun0002_ip = 601; continue _fun0002 }
  593:
-            oscard = _closure1_slot3;
-            michal = oscard.bind(entity)();
+            var6 = _closure1_slot3;
+            var2 = var6.bind(var1)();
  601:
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 679; continue _fun00003;
+            var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 679; continue _fun0002;
  608:
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.trigger;
-            oscard = _closure1_slot0;
-            michal = 2;
-            michal = golfie[michal];
-            oscard = oscard.bind(entity)(michal);
-            michal = oscard.isAndroid;
-            oscard = michal.bind(oscard)();
-            michal = 'selection';
-            if(!oscard) { _fun00004_ip = 674; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trigger;
+            var6 = _closure1_slot0;
+            var2 = 2;
+            var2 = var7[var2];
+            var6 = var6.bind(var1)(var2);
+            var2 = var6.isAndroid;
+            var6 = var2.bind(var6)();
+            var2 = 'selection';
+            if(!var6) { _fun0002_ip = 674; continue _fun0002 }
  666:
-            report = _closure1_slot3;
-            michal = report.bind(entity)();
+            var5 = _closure1_slot3;
+            var2 = var5.bind(var1)();
  674:
-            michal = zuuluu.bind(tangon)(michal);
+            var2 = var3.bind(var4)(var2);
  679:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['triggerHapticFeedback'] = michal;
-    return entity;
+    var3['triggerHapticFeedback'] = var2;
+    return var1;
 })();

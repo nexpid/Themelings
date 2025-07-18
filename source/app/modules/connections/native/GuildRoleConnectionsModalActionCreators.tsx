@@ -1,76 +1,76 @@
 // app/modules/connections/native/GuildRoleConnectionsModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/connections/native/GuildRoleConnectionsModalActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: openGuildRoleConnectionsModal
-        entity = argFoo;
-        golfie = entity.guildId;
-        entity = entity.onClose;
-        var _closure2_slot0 = entity;
-        oscard = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 0;
-        report = zuuluu[entity];
-        entity = undefined;
-        oscard = oscard.bind(entity)(report);
-        report = oscard.pushLazy;
-        option = _closure1_slot0;
-        tangon = 2;
-        tangon = zuuluu[tangon];
-        option = option.bind(entity)(tangon);
-        tangon = 1;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = option.bind(entity)(tangon, zuuluu);
-        zuuluu = {};
-        zuuluu['guildId'] = golfie;
-        michal = function() { // Original name: onClose
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/connections/native/GuildRoleConnectionsModalActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openGuildRoleConnectionsModal(arg1) {
+        var1 = arg1;
+        var7 = var1.guildId;
+        var1 = var1.onClose;
+        var _closure2_slot0 = var1;
+        var6 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 0;
+        var5 = var3[var1];
+        var1 = undefined;
+        var6 = var6.bind(var1)(var5);
+        var5 = var6.pushLazy;
+        var8 = _closure1_slot0;
+        var4 = 2;
+        var4 = var3[var4];
+        var8 = var8.bind(var1)(var4);
+        var4 = 1;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var8.bind(var1)(var4, var3);
+        var3 = {};
+        var3['guildId'] = var7;
+        var2 = function onClose() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 0;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.popWithKey;
-                michal = 'ROLE_CONNECTIONS_MODAL_KEY';
-                michal = zuuluu.bind(tangon)(michal);
-                tangon = _closure2_slot0;
-                zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00002_ip = 62; continue _fun00001 }
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 0;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.popWithKey;
+                var2 = 'ROLE_CONNECTIONS_MODAL_KEY';
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure2_slot0;
+                var3 = null;
+                if(!(var3 != var4)) { _fun0001_ip = 62; continue _fun0001 }
  54:
-                michal = _closure2_slot0;
-                michal = michal.bind(entity)();
+                var2 = _closure2_slot0;
+                var2 = var2.bind(var1)();
  62:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['onClose'] = michal;
-        michal = 'ROLE_CONNECTIONS_MODAL_KEY';
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+        var3['onClose'] = var2;
+        var2 = 'ROLE_CONNECTIONS_MODAL_KEY';
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    zuuluu['openGuildRoleConnectionsModal'] = michal;
-    return entity;
+    var3['openGuildRoleConnectionsModal'] = var2;
+    return var1;
 })();

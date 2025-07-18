@@ -1,162 +1,162 @@
 // app/modules/quests/lib/VideoQuestAsset.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    option = argBar;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = verify;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = verify[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.QuestVariants;
-    var _closure1_slot2 = tangon;
-    oscard = {};
-    tangon = 'video_player_video';
-    oscard['VIDEO_PLAYER_VIDEO'] = tangon;
-    tangon = 'video_player_video_low_res';
-    oscard['VIDEO_PLAYER_VIDEO_LOW_RES'] = tangon;
-    tangon = 'video_player_video_hls';
-    oscard['VIDEO_PLAYER_VIDEO_HLS'] = tangon;
-    tangon = 'video_player_thumbnail';
-    oscard['VIDEO_PLAYER_THUMBNAIL'] = tangon;
-    tangon = 'video_player_caption';
-    oscard['VIDEO_PLAYER_CAPTION'] = tangon;
-    tangon = 'video_player_transcript';
-    oscard['VIDEO_PLAYER_TRANSCRIPT'] = tangon;
-    tangon = 'quest_bar_preview_video';
-    oscard['QUEST_BAR_PREVIEW_VIDEO'] = tangon;
-    tangon = 'quest_bar_preview_thumbnail';
-    oscard['QUEST_BAR_PREVIEW_THUMBNAIL'] = tangon;
-    tangon = 'quest_home_video';
-    oscard['QUEST_HOME_VIDEO'] = tangon;
-    report = {};
-    tangon = 'video';
-    report['VIDEO'] = tangon;
-    tangon = 'videoLowRes';
-    report['VIDEO_LOW_RES'] = tangon;
-    tangon = 'videoHls';
-    report['VIDEO_HLS'] = tangon;
-    tangon = {};
-    golfie = 'url';
-    tangon['VIDEO'] = golfie;
-    golfie = 'thumbnail';
-    tangon['THUMBNAIL'] = golfie;
-    golfie = 'caption';
-    tangon['CAPTION'] = golfie;
-    golfie = 'transcript';
-    tangon['TRANSCRIPT'] = golfie;
-    golfie = {};
-    yankee = report.VIDEO;
-    offset = oscard.VIDEO_PLAYER_VIDEO;
-    golfie[yankee] = offset;
-    yankee = report.VIDEO_LOW_RES;
-    offset = oscard.VIDEO_PLAYER_VIDEO_LOW_RES;
-    golfie[yankee] = offset;
-    yankee = report.VIDEO_HLS;
-    offset = oscard.VIDEO_PLAYER_VIDEO_HLS;
-    golfie[yankee] = offset;
-    var _closure1_slot3 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/quests/lib/VideoQuestAsset.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['VideoQuestAssetId'] = oscard;
-    zuuluu['VideoVariant'] = report;
-    zuuluu['VideoAssetProperty'] = tangon;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: resolveVideoQuestAsset
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var9[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.QuestVariants;
+    var _closure1_slot2 = var4;
+    var6 = {};
+    var4 = 'video_player_video';
+    var6['VIDEO_PLAYER_VIDEO'] = var4;
+    var4 = 'video_player_video_low_res';
+    var6['VIDEO_PLAYER_VIDEO_LOW_RES'] = var4;
+    var4 = 'video_player_video_hls';
+    var6['VIDEO_PLAYER_VIDEO_HLS'] = var4;
+    var4 = 'video_player_thumbnail';
+    var6['VIDEO_PLAYER_THUMBNAIL'] = var4;
+    var4 = 'video_player_caption';
+    var6['VIDEO_PLAYER_CAPTION'] = var4;
+    var4 = 'video_player_transcript';
+    var6['VIDEO_PLAYER_TRANSCRIPT'] = var4;
+    var4 = 'quest_bar_preview_video';
+    var6['QUEST_BAR_PREVIEW_VIDEO'] = var4;
+    var4 = 'quest_bar_preview_thumbnail';
+    var6['QUEST_BAR_PREVIEW_THUMBNAIL'] = var4;
+    var4 = 'quest_home_video';
+    var6['QUEST_HOME_VIDEO'] = var4;
+    var5 = {};
+    var4 = 'video';
+    var5['VIDEO'] = var4;
+    var4 = 'videoLowRes';
+    var5['VIDEO_LOW_RES'] = var4;
+    var4 = 'videoHls';
+    var5['VIDEO_HLS'] = var4;
+    var4 = {};
+    var7 = 'url';
+    var4['VIDEO'] = var7;
+    var7 = 'thumbnail';
+    var4['THUMBNAIL'] = var7;
+    var7 = 'caption';
+    var4['CAPTION'] = var7;
+    var7 = 'transcript';
+    var4['TRANSCRIPT'] = var7;
+    var7 = {};
+    var11 = var5.VIDEO;
+    var10 = var6.VIDEO_PLAYER_VIDEO;
+    var7[var11] = var10;
+    var11 = var5.VIDEO_LOW_RES;
+    var10 = var6.VIDEO_PLAYER_VIDEO_LOW_RES;
+    var7[var11] = var10;
+    var11 = var5.VIDEO_HLS;
+    var10 = var6.VIDEO_PLAYER_VIDEO_HLS;
+    var7[var11] = var10;
+    var _closure1_slot3 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/quests/lib/VideoQuestAsset.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['VideoQuestAssetId'] = var6;
+    var3['VideoVariant'] = var5;
+    var3['VideoAssetProperty'] = var4;
+    var4 = function resolveVideoQuestAsset(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            verify = argFoo;
-            entity = verify.config;
-            entity = entity.taskConfigV2;
-            michal = entity.tasks;
-            entity = argBar;
-            michal = michal[entity];
-            entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 238; continue _fun00001 }
+            var9 = arg1;
+            var1 = var9.config;
+            var1 = var1.taskConfigV2;
+            var2 = var1.tasks;
+            var1 = arg2;
+            var2 = var2[var1];
+            var1 = null;
+            if(!(var1 != var2)) { _fun0001_ip = 238; continue _fun0001 }
  36:
-            zuuluu = michal.assets;
-            michal = argBaz;
-            zuuluu = zuuluu[michal];
-            if(!(entity != zuuluu)) { _fun00002_ip = 236; continue _fun00001 }
+            var3 = var2.assets;
+            var2 = arg3;
+            var3 = var3[var2];
+            if(!(var1 != var3)) { _fun0001_ip = 236; continue _fun0001 }
  56:
-            michal = argCor;
-            foxtra = zuuluu[michal];
-            if(!(entity != foxtra)) { _fun00002_ip = 234; continue _fun00001 }
+            var2 = arg4;
+            var13 = var3[var2];
+            if(!(var1 != var13)) { _fun0001_ip = 234; continue _fun0001 }
  70:
-            michal = verify.config;
-            report = michal.features;
-            zuuluu = report.includes;
-            michal = _closure1_slot2;
-            michal = michal.QUESTS_CDN;
-            backup = zuuluu.bind(report)(michal);
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            option = 1;
-            michal = michal[option];
-            golfie = undefined;
-            zuuluu = zuuluu.bind(golfie)(michal);
-            michal = zuuluu.getMimetype;
-            oscard = michal.bind(zuuluu)(foxtra);
-            zuuluu = entity == oscard;
-            michal = null;
-            if(zuuluu) { _fun00002_ip = 232; continue _fun00001 }
+            var2 = var9.config;
+            var5 = var2.features;
+            var3 = var5.includes;
+            var2 = _closure1_slot2;
+            var2 = var2.QUESTS_CDN;
+            var14 = var3.bind(var5)(var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var8 = 1;
+            var2 = var2[var8];
+            var7 = undefined;
+            var3 = var3.bind(var7)(var2);
+            var2 = var3.getMimetype;
+            var6 = var2.bind(var3)(var13);
+            var3 = var1 == var6;
+            var2 = null;
+            if(var3) { _fun0001_ip = 232; continue _fun0001 }
  146:
-            zuuluu = {};
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            offset = tangon[option];
-            romeon = report.bind(golfie)(offset);
-            yankee = romeon.buildUrl;
-            offset = verify.id;
-            verify = {};
-            verify['newCdn'] = backup;
-            verify = yankee.bind(romeon)(offset, foxtra, verify);
-            zuuluu['url'] = verify;
-            zuuluu['mimetype'] = oscard;
-            tangon = tangon[option];
-            tangon = report.bind(golfie)(tangon);
-            report = tangon.ANIMATED_MIMETYPES;
-            tangon = report.includes;
-            tangon = tangon.bind(report)(oscard);
-            zuuluu['isAnimated'] = tangon;
-            michal = zuuluu;
+            var3 = {};
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var10 = var4[var8];
+            var12 = var5.bind(var7)(var10);
+            var11 = var12.buildUrl;
+            var10 = var9.id;
+            var9 = {};
+            var9['newCdn'] = var14;
+            var9 = var11.bind(var12)(var10, var13, var9);
+            var3['url'] = var9;
+            var3['mimetype'] = var6;
+            var4 = var4[var8];
+            var4 = var5.bind(var7)(var4);
+            var5 = var4.ANIMATED_MIMETYPES;
+            var4 = var5.includes;
+            var4 = var4.bind(var5)(var6);
+            var3['isAnimated'] = var4;
+            var2 = var3;
  232:
-            return michal;
+            return var2;
  234:
-            return entity;
+            return var1;
  236:
-            return entity;
+            return var1;
  238:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['resolveVideoQuestAsset'] = tangon;
-    michal = function(argFoo) { // Original name: getVideoAssetId
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['resolveVideoQuestAsset'] = var4;
+    var2 = function getVideoAssetId(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            michal = entity == zuuluu;
-            if(michal) { _fun00004_ip = 23; continue _fun00003 }
+            var3 = arg1;
+            var1 = null;
+            var2 = var1 == var3;
+            if(var2) { _fun0002_ip = 23; continue _fun0002 }
  12:
-            michal = _closure1_slot3;
-            entity = michal[zuuluu];
+            var2 = _closure1_slot3;
+            var1 = var2[var3];
  23:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getVideoAssetId'] = michal;
-    return entity;
+    var3['getVideoAssetId'] = var2;
+    return var1;
 })();

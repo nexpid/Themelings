@@ -1,198 +1,198 @@
 // discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo, argBar) { // Original name: APIError
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function APIError(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = argFoo;
-                verify = arguments[2];
-                zuuluu = this;
-                entity = undefined;
-                if(!(verify === entity)) { _fun00002_ip = 21; continue _fun00001 }
+                var5 = arg1;
+                var9 = arguments[2];
+                var3 = this;
+                var1 = undefined;
+                if(!(var9 === var1)) { _fun0001_ip = 21; continue _fun0001 }
  15:
-                verify = 'An unexpected error occurred.';
+                var9 = 'An unexpected error occurred.';
  21:
-                tangon = _closure1_slot0;
-                michal = _closure2_slot0;
-                michal = tangon.bind(entity)(zuuluu, michal);
-                tangon = 'string';
-                michal = typeof report;
-                if(!(tangon !== michal)) { _fun00002_ip = 311; continue _fun00001 }
+                var4 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var2 = var4.bind(var1)(var3, var2);
+                var4 = 'string';
+                var2 = typeof var5;
+                if(!(var4 !== var2)) { _fun0001_ip = 311; continue _fun0001 }
  55:
-                michal = report.body;
-                golfie = null;
-                if(!(golfie == michal)) { _fun00002_ip = 82; continue _fun00001 }
+                var2 = var5.body;
+                var7 = null;
+                if(!(var7 == var2)) { _fun0001_ip = 82; continue _fun0001 }
  66:
-                michal = {};
-                tangon = report.status;
-                michal['status'] = tangon;
-                _fun00002_ip = 327; continue _fun00001;
+                var2 = {};
+                var4 = var5.status;
+                var2['status'] = var4;
+                _fun0001_ip = 327; continue _fun0001;
  82:
-                tangon = report.body;
-                tangon = tangon.message;
-                if(!(golfie != tangon)) { _fun00002_ip = 233; continue _fun00001 }
+                var4 = var5.body;
+                var4 = var4.message;
+                if(!(var7 != var4)) { _fun0001_ip = 233; continue _fun0001 }
  99:
-                tangon = global;
-                offset = tangon.Array;
-                option = offset.isArray;
-                oscard = report.body;
-                oscard = oscard.message;
-                oscard = option.bind(offset)(oscard);
-                if(oscard) { _fun00002_ip = 233; continue _fun00001 }
+                var4 = global;
+                var10 = var4.Array;
+                var8 = var10.isArray;
+                var6 = var5.body;
+                var6 = var6.message;
+                var6 = var8.bind(var10)(var6);
+                if(var6) { _fun0001_ip = 233; continue _fun0001 }
  130:
-                oscard = report.body;
-                oscard = oscard.code;
-                if(!(golfie != oscard)) { _fun00002_ip = 173; continue _fun00001 }
+                var6 = var5.body;
+                var6 = var6.code;
+                if(!(var7 != var6)) { _fun0001_ip = 173; continue _fun0001 }
  144:
-                option = tangon.Array;
-                oscard = option.isArray;
-                tangon = report.body;
-                tangon = tangon.code;
-                tangon = oscard.bind(option)(tangon);
-                if(tangon) { _fun00002_ip = 233; continue _fun00001 }
+                var8 = var4.Array;
+                var6 = var8.isArray;
+                var4 = var5.body;
+                var4 = var4.code;
+                var4 = var6.bind(var8)(var4);
+                if(var4) { _fun0001_ip = 233; continue _fun0001 }
  173:
-                tangon = {};
-                oscard = report.body;
-                oscard = oscard.message;
-                tangon['message'] = oscard;
-                oscard = report.body;
-                oscard = oscard.code;
-                tangon['code'] = oscard;
-                oscard = report.body;
-                oscard = oscard.retry_after;
-                tangon['retryAfter'] = oscard;
-                oscard = report.status;
-                tangon['status'] = oscard;
-                michal = tangon;
-                _fun00002_ip = 327; continue _fun00001;
+                var4 = {};
+                var6 = var5.body;
+                var6 = var6.message;
+                var4['message'] = var6;
+                var6 = var5.body;
+                var6 = var6.code;
+                var4['code'] = var6;
+                var6 = var5.body;
+                var6 = var6.retry_after;
+                var4['retryAfter'] = var6;
+                var6 = var5.status;
+                var4['status'] = var6;
+                var2 = var4;
+                _fun0001_ip = 327; continue _fun0001;
  233:
-                oscard = report.body;
-                tangon = golfie != oscard;
-                offset = null;
-                if(!tangon) { _fun00002_ip = 271; continue _fun00001 }
+                var6 = var5.body;
+                var4 = var7 != var6;
+                var10 = null;
+                if(!var4) { _fun0001_ip = 271; continue _fun0001 }
  247:
-                tangon = global;
-                option = tangon.Object;
-                tangon = option.values;
-                option = tangon.bind(option)(oscard);
-                tangon = 0;
-                offset = option[tangon];
+                var4 = global;
+                var8 = var4.Object;
+                var4 = var8.values;
+                var8 = var4.bind(var8)(var6);
+                var4 = 0;
+                var10 = var8[var4];
  271:
-                tangon = {};
-                option = golfie != offset;
-                golfie = undefined;
-                if(!option) { _fun00002_ip = 288; continue _fun00001 }
+                var4 = {};
+                var8 = var7 != var10;
+                var7 = undefined;
+                if(!var8) { _fun0001_ip = 288; continue _fun0001 }
  282:
-                option = 0;
-                golfie = offset[option];
+                var8 = 0;
+                var7 = var10[var8];
  288:
-                tangon['message'] = golfie;
-                tangon['fields'] = oscard;
-                oscard = report.status;
-                tangon['status'] = oscard;
-                michal = tangon;
-                _fun00002_ip = 327; continue _fun00001;
+                var4['message'] = var7;
+                var4['fields'] = var6;
+                var6 = var5.status;
+                var4['status'] = var6;
+                var2 = var4;
+                _fun0001_ip = 327; continue _fun0001;
  311:
-                tangon = {};
-                tangon['message'] = report;
-                report = argBar;
-                tangon['code'] = report;
-                michal = tangon;
+                var4 = {};
+                var4['message'] = var5;
+                var5 = arg2;
+                var4['code'] = var5;
+                var2 = var4;
  327:
-                report = michal.message;
-                oscard = michal.code;
-                golfie = michal.retryAfter;
-                tangon = michal.fields;
-                michal = michal.status;
-                option = report;
-                if(option) { _fun00002_ip = 363; continue _fun00001 }
+                var5 = var2.message;
+                var6 = var2.code;
+                var7 = var2.retryAfter;
+                var4 = var2.fields;
+                var2 = var2.status;
+                var8 = var5;
+                if(var8) { _fun0001_ip = 363; continue _fun0001 }
  360:
-                option = verify;
+                var8 = var9;
  363:
-                zuuluu['message'] = option;
-                zuuluu['retryAfter'] = golfie;
-                if(oscard) { _fun00002_ip = 384; continue _fun00001 }
+                var3['message'] = var8;
+                var3['retryAfter'] = var7;
+                if(var6) { _fun0001_ip = 384; continue _fun0001 }
  378:
-                oscard = -1;
+                var6 = -1;
  384:
-                zuuluu['code'] = oscard;
-                if(tangon) { _fun00002_ip = 395; continue _fun00001 }
+                var3['code'] = var6;
+                if(var4) { _fun0001_ip = 395; continue _fun0001 }
  393:
-                tangon = {};
+                var4 = {};
  395:
-                zuuluu['fields'] = tangon;
-                zuuluu['status'] = michal;
-                michal = global;
-                michal = michal.Error;
-                tangon = michal.prototype;
-                tangon = Object.create(tangon, {constructor: {value: michal}});
-                foxtra = tangon;
-                romeon = report;
-                michal = new foxtra[michal](romeon, yankee);
-                michal = michal instanceof Object ? michal : tangon;
-                zuuluu['error'] = michal;
-                return entity;
+                var3['fields'] = var4;
+                var3['status'] = var2;
+                var2 = global;
+                var2 = var2.Error;
+                var4 = var2.prototype;
+                var4 = Object.create(var4, {constructor: {value: var2}});
+                var13 = var4;
+                var12 = var5;
+                var2 = new var13[var2](var12, var11);
+                var2 = var2 instanceof Object ? var2 : var4;
+                var3['error'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        report = 'getFieldMessage';
-        entity['key'] = report;
-        michal = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var5 = 'getFieldMessage';
+        var1['key'] = var5;
+        var2 = function value(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                entity = michal.fields;
-                tangon = entity[zuuluu];
-                entity = null;
-                tangon = entity != tangon;
-                if(!tangon) { _fun00004_ip = 41; continue _fun00003 }
+                var3 = arg1;
+                var2 = this;
+                var1 = var2.fields;
+                var4 = var1[var3];
+                var1 = null;
+                var4 = var1 != var4;
+                if(!var4) { _fun0002_ip = 41; continue _fun0002 }
  25:
-                michal = michal.fields;
-                zuuluu = michal[zuuluu];
-                michal = 0;
-                entity = zuuluu[michal];
+                var2 = var2.fields;
+                var3 = var2[var3];
+                var2 = 0;
+                var1 = var3[var2];
  41:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['APIError'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/http-utils/V6OrEarlierAPIError.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['APIError'] = var2;
+    return var1;
 })();

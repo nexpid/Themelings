@@ -1,82 +1,82 @@
 // app/modules/in_app_reports/native/components/InAppReportsShieldElement.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Image;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flex': 0, 'alignSelf': 'center', 'width': 100, 'height': 100, 'marginBottom': 16};
-    tangon['container'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/in_app_reports/native/components/InAppReportsShieldElement.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ShieldElement
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Image;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flex': 0, 'alignSelf': 'center', 'width': 100, 'height': 100, 'marginBottom': 16};
+    var4['container'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_reports/native/components/InAppReportsShieldElement.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ShieldElement(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.element;
-            entity = _closure1_slot4;
-            report = undefined;
-            golfie = entity.bind(report)();
-            tangon = null;
-            zuuluu = tangon == michal;
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 97; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.element;
+            var1 = _closure1_slot4;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var4 = null;
+            var3 = var4 == var2;
+            var1 = null;
+            if(var3) { _fun0001_ip = 97; continue _fun0001 }
  33:
-            zuuluu = michal.type;
-            michal = 'success';
-            entity = null;
-            if(!(michal === zuuluu)) { _fun00002_ip = 97; continue _fun00001 }
+            var3 = var2.type;
+            var2 = 'success';
+            var1 = null;
+            if(!(var2 === var3)) { _fun0001_ip = 97; continue _fun0001 }
  48:
-            tangon = _closure1_slot3;
-            zuuluu = _closure1_slot2;
-            michal = {};
-            golfie = golfie.container;
-            michal['style'] = golfie;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            oscard = 4;
-            oscard = option[oscard];
-            oscard = golfie.bind(report)(oscard);
-            michal['source'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot3;
+            var3 = _closure1_slot2;
+            var2 = {};
+            var7 = var7.container;
+            var2['style'] = var7;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var6 = 4;
+            var6 = var8[var6];
+            var6 = var7.bind(var5)(var6);
+            var2['source'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  97:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

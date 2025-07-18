@@ -1,124 +1,124 @@
 // app/modules/guilds_bar/usePendingFolderGuildIds.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function() { // Original name: getPendingFolderGuildIds
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getPendingFolderGuildIds() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = arguments[0];
-            michal = undefined;
-            if(!(zuuluu === michal)) { _fun00002_ip = 37; continue _fun00001 }
+            var3 = arguments[0];
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0001_ip = 37; continue _fun0001 }
  11:
-            oscard = _closure1_slot2;
-            tangon = new Array(2);
-            tangon[0] = oscard;
-            report = _closure1_slot3;
-            tangon[1] = report;
-            zuuluu = tangon;
+            var6 = _closure1_slot2;
+            var4 = new Array(2);
+            var4[0] = var6;
+            var5 = _closure1_slot3;
+            var4[1] = var5;
+            var3 = var4;
  37:
-            golfie = zuuluu;
-            report = golfie[Symbol.iterator];
-            golfie = report().next;
-            tangon = golfie().value;
-            zuuluu = report;
-            oscard = zuuluu === michal;
-            zuuluu = undefined;
-            if(oscard) { _fun00002_ip = 62; continue _fun00001 }
+            var7 = var3;
+            var5 = var7[Symbol.iterator];
+            var7 = var5().next;
+            var4 = var7().value;
+            var3 = var5;
+            var6 = var3 === var2;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 62; continue _fun0001 }
  59:
-            zuuluu = tangon;
+            var3 = var4;
  62:
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 92; continue _fun00001 }
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 92; continue _fun0001 }
  67:
-            option = golfie().value;
-            golfie = report;
-            golfie = golfie === michal;
-            tangon = undefined;
-            oscard = golfie;
-            if(golfie) { _fun00002_ip = 92; continue _fun00001 }
+            var8 = var7().value;
+            var7 = var5;
+            var7 = var7 === var2;
+            var4 = undefined;
+            var6 = var7;
+            if(var7) { _fun0001_ip = 92; continue _fun0001 }
  86:
-            tangon = option;
-            oscard = golfie;
+            var4 = var8;
+            var6 = var7;
  92:
-            if(oscard) { _fun00002_ip = 98; continue _fun00001 }
+            if(var6) { _fun0001_ip = 98; continue _fun0001 }
  95:
-            report.return();
+            var5.return();
  98:
-            var _closure2_slot0 = michal;
-            michal = zuuluu.computeGuildIds;
-            zuuluu = michal.bind(zuuluu)();
-            michal = tangon.getGuilds;
-            michal = michal.bind(tangon)();
-            _closure2_slot0 = michal;
-            michal = zuuluu.filter;
-            entity = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                michal = michal[entity];
-                entity = null;
-                entity = entity == michal;
-                return entity;
+            var _closure2_slot0 = var2;
+            var2 = var3.computeGuildIds;
+            var3 = var2.bind(var3)();
+            var2 = var4.getGuilds;
+            var2 = var2.bind(var4)();
+            _closure2_slot0 = var2;
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var2 = var2[var1];
+                var1 = null;
+                var1 = var1 == var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guilds_bar/usePendingFolderGuildIds.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function() { // Original name: usePendingFolderGuildIds
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 2;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStoresArray;
-        report = _closure1_slot2;
-        michal = new Array(2);
-        michal[0] = report;
-        entity = _closure1_slot3;
-        michal[1] = entity;
-        entity = function() {
-            zuuluu = _closure1_slot4;
-            tangon = _closure1_slot2;
-            michal = new Array(2);
-            michal[0] = tangon;
-            entity = _closure1_slot3;
-            michal[1] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guilds_bar/usePendingFolderGuildIds.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function usePendingFolderGuildIds() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 2;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStoresArray;
+        var5 = _closure1_slot2;
+        var2 = new Array(2);
+        var2[0] = var5;
+        var1 = _closure1_slot3;
+        var2[1] = var1;
+        var1 = function() {
+            var3 = _closure1_slot4;
+            var4 = _closure1_slot2;
+            var2 = new Array(2);
+            var2[0] = var4;
+            var1 = _closure1_slot3;
+            var2[1] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getPendingFolderGuildIds'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getPendingFolderGuildIds'] = var2;
+    return var1;
 })();

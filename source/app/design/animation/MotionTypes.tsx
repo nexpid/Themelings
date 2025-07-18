@@ -1,13 +1,13 @@
 // app/design/animation/MotionTypes.tsx
-export default (function(_, argBar, __, ___, ____, _____, argPlu) {
-    michal = argPlu;
-    entity = 0;
-    zuuluu = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    tangon = michal.bind(entity)(zuuluu);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'design/animation/MotionTypes.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var2 = native7;
+    var1 = 0;
+    var3 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var4 = var2.bind(var1)(var3);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'design/animation/MotionTypes.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

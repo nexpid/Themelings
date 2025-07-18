@@ -1,345 +1,345 @@
 // app/modules/safety_hub/hooks/useSafetyHubClassifications.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    verify = argCor;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = verify;
-    var _closure1_slot3 = golfie;
-    tangon = function() { // Original name: useSafetyHubClassifications
-        report = _closure1_slot0;
-        tangon = _closure1_slot3;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresArray;
-        michal = _closure1_slot5;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = function() {
-            michal = _closure1_slot5;
-            entity = michal.getClassifications;
-            entity = entity.bind(michal)();
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var9 = native4;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var9;
+    var _closure1_slot3 = var7;
+    var4 = function useSafetyHubClassifications() {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot3;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresArray;
+        var2 = _closure1_slot5;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = function() {
+            var2 = _closure1_slot5;
+            var1 = var2.getClassifications;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        zuuluu = tangon.bind(report)(zuuluu, michal);
-        michal = zuuluu.sort;
-        entity = function(argFoo, argBar) {
-            tangon = _closure1_slot1;
-            report = _closure1_slot3;
-            entity = 4;
-            michal = report[entity];
-            zuuluu = undefined;
-            golfie = tangon.bind(zuuluu)(michal);
-            oscard = golfie.extractTimestamp;
-            michal = argBar;
-            michal = michal.id;
-            michal = oscard.bind(golfie)(michal);
-            entity = report[entity];
-            tangon = tangon.bind(zuuluu)(entity);
-            zuuluu = tangon.extractTimestamp;
-            entity = argFoo;
-            entity = entity.id;
-            entity = zuuluu.bind(tangon)(entity);
-            entity = michal - entity;
-            return entity;
+        var3 = var4.bind(var5)(var3, var2);
+        var2 = var3.sort;
+        var1 = function(arg1, arg2) {
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot3;
+            var1 = 4;
+            var2 = var5[var1];
+            var3 = undefined;
+            var7 = var4.bind(var3)(var2);
+            var6 = var7.extractTimestamp;
+            var2 = arg2;
+            var2 = var2.id;
+            var2 = var6.bind(var7)(var2);
+            var1 = var5[var1];
+            var4 = var4.bind(var3)(var1);
+            var3 = var4.extractTimestamp;
+            var1 = arg1;
+            var1 = var1.id;
+            var1 = var3.bind(var4)(var1);
+            var1 = var2 - var1;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = verify.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.ViolationType;
-    var _closure1_slot6 = report;
-    report = 9;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/safety_hub/hooks/useSafetyHubClassifications.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['useSafetyHubClassifications'] = tangon;
-    tangon = function(argFoo) { // Original name: useSafetyHubClassification
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ViolationType;
+    var _closure1_slot6 = var5;
+    var5 = 9;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/safety_hub/hooks/useSafetyHubClassifications.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['useSafetyHubClassifications'] = var4;
+    var4 = function useSafetyHubClassification(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            backup = argFoo;
-            var _closure2_slot0 = backup;
-            yankee = _closure1_slot0;
-            michal = _closure1_slot3;
-            zuuluu = 3;
-            report = michal[zuuluu];
-            option = undefined;
-            verify = yankee.bind(option)(report);
-            golfie = verify.useStateFromStores;
-            report = _closure1_slot5;
-            oscard = new Array(1);
-            oscard[0] = report;
-            report = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.getClassification;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var14 = arg1;
+            var _closure2_slot0 = var14;
+            var11 = _closure1_slot0;
+            var2 = _closure1_slot3;
+            var3 = 3;
+            var5 = var2[var3];
+            var8 = undefined;
+            var9 = var11.bind(var8)(var5);
+            var7 = var9.useStateFromStores;
+            var5 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getClassification;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie = golfie.bind(verify)(oscard, report);
-            var _closure2_slot1 = golfie;
-            report = michal[zuuluu];
-            offset = yankee.bind(option)(report);
-            verify = offset.useStateFromStores;
-            report = _closure1_slot5;
-            oscard = new Array(1);
-            oscard[0] = report;
-            report = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.getClassificationRequestState;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = var7.bind(var9)(var6, var5);
+            var _closure2_slot1 = var7;
+            var5 = var2[var3];
+            var10 = var11.bind(var8)(var5);
+            var9 = var10.useStateFromStores;
+            var5 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getClassificationRequestState;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            offset = verify.bind(offset)(oscard, report);
-            var _closure2_slot2 = offset;
-            report = michal[zuuluu];
-            romeon = yankee.bind(option)(report);
-            verify = romeon.useStateFromStores;
-            report = _closure1_slot5;
-            oscard = new Array(1);
-            oscard[0] = report;
-            report = function() {
-                michal = _closure1_slot5;
-                entity = michal.getIsDsaEligible;
-                entity = entity.bind(michal)();
-                return entity;
+            var10 = var9.bind(var10)(var6, var5);
+            var _closure2_slot2 = var10;
+            var5 = var2[var3];
+            var12 = var11.bind(var8)(var5);
+            var9 = var12.useStateFromStores;
+            var5 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getIsDsaEligible;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            oscard = verify.bind(romeon)(oscard, report);
-            zuuluu = michal[zuuluu];
-            romeon = yankee.bind(option)(zuuluu);
-            verify = romeon.useStateFromStores;
-            zuuluu = _closure1_slot5;
-            report = new Array(1);
-            report[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot5;
-                entity = michal.getIsAppealEligible;
-                entity = entity.bind(michal)();
-                return entity;
+            var6 = var9.bind(var12)(var6, var5);
+            var3 = var2[var3];
+            var12 = var11.bind(var8)(var3);
+            var9 = var12.useStateFromStores;
+            var3 = _closure1_slot5;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getIsAppealEligible;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = verify.bind(romeon)(report, zuuluu);
-            report = 5;
-            report = michal[report];
-            romeon = yankee.bind(option)(report);
-            verify = romeon.useIsSafetyHubGuildViolationInAppAppealsEnabled;
-            report = 'classification_detail';
-            report = verify.bind(romeon)(report);
-            verify = 6;
-            michal = michal[verify];
-            yankee = yankee.bind(option)(michal);
-            michal = yankee.isGuildClassification;
-            michal = michal.bind(yankee)(golfie);
-            if(michal) { _fun00002_ip = 256; continue _fun00001 }
+            var3 = var9.bind(var12)(var5, var3);
+            var5 = 5;
+            var5 = var2[var5];
+            var12 = var11.bind(var8)(var5);
+            var9 = var12.useIsSafetyHubGuildViolationInAppAppealsEnabled;
+            var5 = 'classification_detail';
+            var5 = var9.bind(var12)(var5);
+            var9 = 6;
+            var2 = var2[var9];
+            var11 = var11.bind(var8)(var2);
+            var2 = var11.isGuildClassification;
+            var2 = var2.bind(var11)(var7);
+            if(var2) { _fun0001_ip = 256; continue _fun0001 }
  244:
-            michal = _closure1_slot6;
-            michal = michal.USER;
-            _fun00002_ip = 340; continue _fun00001;
+            var2 = _closure1_slot6;
+            var2 = var2.USER;
+            _fun0001_ip = 340; continue _fun0001;
  256:
-            yankee = golfie.guild_metadata;
-            romeon = null;
-            foxtra = romeon == yankee;
-            romeon = undefined;
-            if(foxtra) { _fun00002_ip = 279; continue _fun00001 }
+            var11 = var7.guild_metadata;
+            var12 = null;
+            var13 = var12 == var11;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 279; continue _fun0001 }
  273:
-            romeon = yankee.member_type;
+            var12 = var11.member_type;
  279:
-            foxtra = _closure1_slot0;
-            kiloes = _closure1_slot3;
-            yankee = 7;
-            yankee = kiloes[yankee];
-            yankee = foxtra.bind(option)(yankee);
-            yankee = yankee.MemberType;
-            yankee = yankee.OWNER;
-            if(!(romeon !== yankee)) { _fun00002_ip = 327; continue _fun00001 }
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot3;
+            var11 = 7;
+            var11 = var15[var11];
+            var11 = var13.bind(var8)(var11);
+            var11 = var11.MemberType;
+            var11 = var11.OWNER;
+            if(!(var12 !== var11)) { _fun0001_ip = 327; continue _fun0001 }
  315:
-            yankee = _closure1_slot6;
-            yankee = yankee.GUILD_MEMBER;
-            _fun00002_ip = 337; continue _fun00001;
+            var11 = _closure1_slot6;
+            var11 = var11.GUILD_MEMBER;
+            _fun0001_ip = 337; continue _fun0001;
  327:
-            romeon = _closure1_slot6;
-            yankee = romeon.GUILD_OWNER;
+            var12 = _closure1_slot6;
+            var11 = var12.GUILD_OWNER;
  337:
-            michal = yankee;
+            var2 = var11;
  340:
-            foxtra = _closure1_slot4;
-            romeon = foxtra.useEffect;
-            yankee = new Array(3);
-            yankee[0] = backup;
-            yankee[1] = golfie;
-            yankee[2] = offset;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var13 = _closure1_slot4;
+            var12 = var13.useEffect;
+            var11 = new Array(3);
+            var11[0] = var14;
+            var11[1] = var7;
+            var11[2] = var10;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = undefined;
-                    zuuluu = entity === zuuluu;
-                    if(!zuuluu) { _fun00004_ip = 26; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var1 = undefined;
+                    var3 = var1 === var3;
+                    if(!var3) { _fun0002_ip = 26; continue _fun0002 }
  16:
-                    report = _closure2_slot2;
-                    tangon = null;
-                    zuuluu = tangon == report;
+                    var5 = _closure2_slot2;
+                    var4 = null;
+                    var3 = var4 == var5;
  26:
-                    if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+                    if(!var3) { _fun0002_ip = 67; continue _fun0002 }
  29:
-                    tangon = _closure1_slot2;
-                    report = _closure1_slot3;
-                    zuuluu = 8;
-                    zuuluu = report[zuuluu];
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.getSafetyHubDataForClassification;
-                    michal = _closure2_slot0;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot2;
+                    var5 = _closure1_slot3;
+                    var3 = 8;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.getSafetyHubDataForClassification;
+                    var2 = _closure2_slot0;
+                    var2 = var3.bind(var4)(var2);
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = romeon.bind(foxtra)(entity, yankee);
-            entity = {};
-            entity['classification'] = golfie;
-            entity['classificationRequestState'] = offset;
-            entity['isDsaEligible'] = oscard;
-            if(!zuuluu) { _fun00002_ip = 404; continue _fun00001 }
+            var1 = var12.bind(var13)(var1, var11);
+            var1 = {};
+            var1['classification'] = var7;
+            var1['classificationRequestState'] = var10;
+            var1['isDsaEligible'] = var6;
+            if(!var3) { _fun0001_ip = 404; continue _fun0001 }
  398:
-            oscard = null;
-            zuuluu = oscard != golfie;
+            var6 = null;
+            var3 = var6 != var7;
  404:
-            if(!zuuluu) { _fun00002_ip = 419; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 419; continue _fun0001 }
  407:
-            offset = golfie.appeal_status;
-            oscard = null;
-            zuuluu = oscard == offset;
+            var10 = var7.appeal_status;
+            var6 = null;
+            var3 = var6 == var10;
  419:
-            if(!zuuluu) { _fun00002_ip = 462; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 462; continue _fun0001 }
  422:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot3;
-            tangon = tangon[verify];
-            oscard = oscard.bind(option)(tangon);
-            tangon = oscard.isGuildClassification;
-            tangon = tangon.bind(oscard)(golfie);
-            tangon = !tangon;
-            if(tangon) { _fun00002_ip = 459; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot3;
+            var4 = var4[var9];
+            var6 = var6.bind(var8)(var4);
+            var4 = var6.isGuildClassification;
+            var4 = var4.bind(var6)(var7);
+            var4 = !var4;
+            if(var4) { _fun0001_ip = 459; continue _fun0001 }
  456:
-            tangon = report;
+            var4 = var5;
  459:
-            zuuluu = tangon;
+            var3 = var4;
  462:
-            entity['isAppealEligible'] = zuuluu;
-            entity['violationType'] = michal;
-            return entity;
+            var1['isAppealEligible'] = var3;
+            var1['violationType'] = var2;
+            return var1;
         }
     };
-    zuuluu['useSafetyHubClassification'] = tangon;
-    tangon = function() { // Original name: useActiveSafetyHubClassifications
-        zuuluu = _closure1_slot7;
-        michal = undefined;
-        zuuluu = zuuluu.bind(michal)();
-        michal = global;
-        michal = michal.Date;
-        tangon = michal.prototype;
-        tangon = Object.create(tangon, {constructor: {value: michal}});
-        oscard = tangon;
-        michal = new oscard[michal](report);
-        michal = michal instanceof Object ? michal : tangon;
-        var _closure2_slot0 = michal;
-        michal = zuuluu.filter;
-        entity = function(argFoo) {
-            entity = global;
-            zuuluu = entity.Date;
-            entity = argFoo;
-            tangon = entity.max_expiration_time;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            michal = entity instanceof Object ? entity : michal;
-            entity = _closure2_slot0;
-            entity = michal > entity;
-            return entity;
+    var3['useSafetyHubClassification'] = var4;
+    var4 = function useActiveSafetyHubClassifications() {
+        var3 = _closure1_slot7;
+        var2 = undefined;
+        var3 = var3.bind(var2)();
+        var2 = global;
+        var2 = var2.Date;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var6 = var4;
+        var2 = new var6[var2](var5);
+        var2 = var2 instanceof Object ? var2 : var4;
+        var _closure2_slot0 = var2;
+        var2 = var3.filter;
+        var1 = function(arg1) {
+            var1 = global;
+            var3 = var1.Date;
+            var1 = arg1;
+            var4 = var1.max_expiration_time;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var2 = var1 instanceof Object ? var1 : var2;
+            var1 = _closure2_slot0;
+            var1 = var2 > var1;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useActiveSafetyHubClassifications'] = tangon;
-    tangon = function() { // Original name: useExpiredSafetyHubClassifications
-        zuuluu = _closure1_slot7;
-        michal = undefined;
-        zuuluu = zuuluu.bind(michal)();
-        michal = global;
-        michal = michal.Date;
-        tangon = michal.prototype;
-        tangon = Object.create(tangon, {constructor: {value: michal}});
-        oscard = tangon;
-        michal = new oscard[michal](report);
-        michal = michal instanceof Object ? michal : tangon;
-        var _closure2_slot0 = michal;
-        michal = zuuluu.filter;
-        entity = function(argFoo) {
-            entity = global;
-            zuuluu = entity.Date;
-            entity = argFoo;
-            tangon = entity.max_expiration_time;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            michal = entity instanceof Object ? entity : michal;
-            entity = _closure2_slot0;
-            entity = michal <= entity;
-            return entity;
+    var3['useActiveSafetyHubClassifications'] = var4;
+    var4 = function useExpiredSafetyHubClassifications() {
+        var3 = _closure1_slot7;
+        var2 = undefined;
+        var3 = var3.bind(var2)();
+        var2 = global;
+        var2 = var2.Date;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var6 = var4;
+        var2 = new var6[var2](var5);
+        var2 = var2 instanceof Object ? var2 : var4;
+        var _closure2_slot0 = var2;
+        var2 = var3.filter;
+        var1 = function(arg1) {
+            var1 = global;
+            var3 = var1.Date;
+            var1 = arg1;
+            var4 = var1.max_expiration_time;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var2 = var1 instanceof Object ? var1 : var2;
+            var1 = _closure2_slot0;
+            var1 = var2 <= var1;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useExpiredSafetyHubClassifications'] = tangon;
-    michal = function() { // Original name: useSafetyHubAppealSignal
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot3;
-        michal = 3;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        entity = _closure1_slot5;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = function() {
-            michal = _closure1_slot5;
-            entity = michal.getAppealSignal;
-            entity = entity.bind(michal)();
-            return entity;
+    var3['useExpiredSafetyHubClassifications'] = var4;
+    var2 = function useSafetyHubAppealSignal() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot3;
+        var2 = 3;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot5;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            var2 = _closure1_slot5;
+            var1 = var2.getAppealSignal;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useSafetyHubAppealSignal'] = michal;
-    return entity;
+    var3['useSafetyHubAppealSignal'] = var2;
+    return var1;
 })();

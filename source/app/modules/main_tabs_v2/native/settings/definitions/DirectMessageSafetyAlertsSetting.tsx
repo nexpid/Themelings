@@ -1,118 +1,118 @@
 // app/modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.MobileSetting;
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = 1;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.RendererType;
-    golfie = golfie.TOGGLE;
-    michal['type'] = golfie;
-    golfie = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 5;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.qFsx5u;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.MobileSetting;
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = 1;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.RendererType;
+    var7 = var7.TOGGLE;
+    var2['type'] = var7;
+    var7 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 5;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.qFsx5u;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = golfie;
-    golfie = function() { // Original name: parent
-        entity = _closure1_slot3;
-        entity = entity.CONTENT_AND_SOCIAL;
-        return entity;
+    var2['title'] = var7;
+    var7 = function parent() {
+        var1 = _closure1_slot3;
+        var1 = var1.CONTENT_AND_SOCIAL;
+        return var1;
     };
-    michal['parent'] = golfie;
-    golfie = 6;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.useSafetyAlertsSettingOrDefault;
-    michal['useValue'] = golfie;
-    golfie = 7;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.updateDmSafetyAlertsSetting;
-    michal['onValueChange'] = golfie;
-    tangon = function() { // Original name: useHasDmSafetyAlertsSetting
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['parent'] = var7;
+    var7 = 6;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.useSafetyAlertsSettingOrDefault;
+    var2['useValue'] = var7;
+    var7 = 7;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.updateDmSafetyAlertsSetting;
+    var2['onValueChange'] = var7;
+    var4 = function useHasDmSafetyAlertsSetting() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            zuuluu = entity.bind(report)();
-            entity = null;
-            entity = entity == zuuluu;
-            if(entity) { _fun00002_ip = 41; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.bind(var5)();
+            var1 = null;
+            var1 = var1 == var3;
+            if(var1) { _fun0001_ip = 41; continue _fun0001 }
  38:
-            entity = zuuluu;
+            var1 = var3;
  41:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 3;
-            michal = golfie[michal];
-            option = tangon.bind(report)(michal);
-            zuuluu = option.useIsEligibleForInappropriateConversationWarning;
-            michal = {};
-            oscard = 'user_settings_mobile_redesign';
-            michal['location'] = oscard;
-            zuuluu = zuuluu.bind(option)(michal);
-            michal = 4;
-            michal = golfie[michal];
-            report = tangon.bind(report)(michal);
-            tangon = report.useIsEligibleForInappropriateConversationDefaultOn;
-            michal = {};
-            michal['location'] = oscard;
-            michal = tangon.bind(report)(michal);
-            entity = !entity;
-            if(!entity) { _fun00002_ip = 122; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var2 = var7[var2];
+            var8 = var4.bind(var5)(var2);
+            var3 = var8.useIsEligibleForInappropriateConversationWarning;
+            var2 = {};
+            var6 = 'user_settings_mobile_redesign';
+            var2['location'] = var6;
+            var3 = var3.bind(var8)(var2);
+            var2 = 4;
+            var2 = var7[var2];
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.useIsEligibleForInappropriateConversationDefaultOn;
+            var2 = {};
+            var2['location'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var1 = !var1;
+            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
  119:
-            entity = zuuluu;
+            var1 = var3;
  122:
-            if(!entity) { _fun00002_ip = 128; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 128; continue _fun0001 }
  125:
-            entity = !michal;
+            var1 = !var2;
  128:
-            return entity;
+            return var1;
         }
     };
-    michal['usePredicate'] = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['usePredicate'] = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/DirectMessageSafetyAlertsSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

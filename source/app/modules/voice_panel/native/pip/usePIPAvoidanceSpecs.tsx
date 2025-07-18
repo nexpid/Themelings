@@ -1,279 +1,279 @@
 // app/modules/voice_panel/native/pip/usePIPAvoidanceSpecs.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VoicePanelModes;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VoicePanelControlsModes;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PIP_WINDOW_OFFSET;
-    var _closure1_slot5 = tangon;
-    tangon = {};
-    golfie = 'function usePIPAvoidanceSpecsTsx1(){const{mode,controlsSpecs,keyboardHeight,safeArea,screenName}=this.__closure;return{mode:mode.get(),controlsSpecs:controlsSpecs.get(),keyboardHeight:keyboardHeight.get(),safeArea:safeArea.get(),screenName:screenName.get()};}';
-    tangon['code'] = golfie;
-    var _closure1_slot6 = tangon;
-    tangon = {};
-    golfie = 'function usePIPAvoidanceSpecsTsx2(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,VoicePanelControlsModes,DEFAULT_CHANNEL_INPUT_HEIGHT,PIP_WINDOW_OFFSET,getPIPBottomOffsetForPIPMode,getAdjustedBottomOffsets,calculateVoicePanelHeaderSpecs,updateSharedValueIfChanged,pipAvoidanceSpecs}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:mode,controlsSpecs:controlsSpecs,keyboardHeight:keyboardHeight,safeArea:safeArea,screenName:screenName}=props;const screenBottomOffset=function(){if(mode!==VoicePanelModes.PIP){if(mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.DRAWER){return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;}return 0;}return getPIPBottomOffsetForPIPMode(screenName);}();let{bottomOffset:bottomOffset}=getAdjustedBottomOffsets({screenBottomOffset:screenBottomOffset,safeAreaBottom:safeArea.bottom,keyboardHeight:keyboardHeight});if(keyboardHeight<=0&&mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.FLOATING_DEFAULT){bottomOffset+=controlsSpecs.height+PIP_WINDOW_OFFSET;}const{height:headerHeight}=calculateVoicePanelHeaderSpecs(safeArea);updateSharedValueIfChanged(pipAvoidanceSpecs,{top:mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.FLOATING_DEFAULT?headerHeight:0,bottom:bottomOffset});}';
-    tangon['code'] = golfie;
-    var _closure1_slot7 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/pip/usePIPAvoidanceSpecs.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: usePIPAvoidanceSpecs
-        entity = argFoo;
-        sizing = entity.mode;
-        var _closure2_slot0 = sizing;
-        kiloes = entity.controlsSpecs;
-        var _closure2_slot1 = kiloes;
-        foxtra = entity.safeArea;
-        var _closure2_slot2 = foxtra;
-        romeon = _closure1_slot0;
-        yankee = _closure1_slot2;
-        zuuluu = 3;
-        entity = yankee[zuuluu];
-        offset = undefined;
-        report = romeon.bind(offset)(entity);
-        tangon = report.useSharedValue;
-        entity = {'top': 0, 'bottom': 0};
-        entity = tangon.bind(report)(entity);
-        var _closure2_slot3 = entity;
-        verify = _closure1_slot1;
-        tangon = 4;
-        tangon = yankee[tangon];
-        tangon = verify.bind(offset)(tangon);
-        backup = tangon.bind(offset)();
-        var _closure2_slot4 = backup;
-        tangon = 5;
-        tangon = yankee[tangon];
-        tangon = verify.bind(offset)(tangon);
-        option = tangon.bind(offset)();
-        var _closure2_slot5 = option;
-        zuuluu = yankee[zuuluu];
-        report = romeon.bind(offset)(zuuluu);
-        tangon = report.useAnimatedReaction;
-        zuuluu = function() { // Original name: u
-            entity = {};
-            tangon = _closure2_slot0;
-            zuuluu = tangon.get;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['mode'] = zuuluu;
-            tangon = _closure2_slot1;
-            zuuluu = tangon.get;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['controlsSpecs'] = zuuluu;
-            tangon = _closure2_slot4;
-            zuuluu = tangon.get;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['keyboardHeight'] = zuuluu;
-            tangon = _closure2_slot2;
-            zuuluu = tangon.get;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['safeArea'] = zuuluu;
-            zuuluu = _closure2_slot5;
-            michal = zuuluu.get;
-            michal = michal.bind(zuuluu)();
-            entity['screenName'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VoicePanelModes;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VoicePanelControlsModes;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PIP_WINDOW_OFFSET;
+    var _closure1_slot5 = var4;
+    var4 = {};
+    var7 = 'function usePIPAvoidanceSpecsTsx1(){const{mode,controlsSpecs,keyboardHeight,safeArea,screenName}=this.__closure;return{mode:mode.get(),controlsSpecs:controlsSpecs.get(),keyboardHeight:keyboardHeight.get(),safeArea:safeArea.get(),screenName:screenName.get()};}';
+    var4['code'] = var7;
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var7 = 'function usePIPAvoidanceSpecsTsx2(props,previous){const{cheapWorkletShallowEqual,VoicePanelModes,VoicePanelControlsModes,DEFAULT_CHANNEL_INPUT_HEIGHT,PIP_WINDOW_OFFSET,getPIPBottomOffsetForPIPMode,getAdjustedBottomOffsets,calculateVoicePanelHeaderSpecs,updateSharedValueIfChanged,pipAvoidanceSpecs}=this.__closure;if(cheapWorkletShallowEqual(props,previous!==null&&previous!==void 0?previous:undefined))return;const{mode:mode,controlsSpecs:controlsSpecs,keyboardHeight:keyboardHeight,safeArea:safeArea,screenName:screenName}=props;const screenBottomOffset=function(){if(mode!==VoicePanelModes.PIP){if(mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.DRAWER){return DEFAULT_CHANNEL_INPUT_HEIGHT+PIP_WINDOW_OFFSET;}return 0;}return getPIPBottomOffsetForPIPMode(screenName);}();let{bottomOffset:bottomOffset}=getAdjustedBottomOffsets({screenBottomOffset:screenBottomOffset,safeAreaBottom:safeArea.bottom,keyboardHeight:keyboardHeight});if(keyboardHeight<=0&&mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.FLOATING_DEFAULT){bottomOffset+=controlsSpecs.height+PIP_WINDOW_OFFSET;}const{height:headerHeight}=calculateVoicePanelHeaderSpecs(safeArea);updateSharedValueIfChanged(pipAvoidanceSpecs,{top:mode===VoicePanelModes.PANEL&&controlsSpecs.mode===VoicePanelControlsModes.FLOATING_DEFAULT?headerHeight:0,bottom:bottomOffset});}';
+    var4['code'] = var7;
+    var _closure1_slot7 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/pip/usePIPAvoidanceSpecs.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function usePIPAvoidanceSpecs(arg1) {
+        var1 = arg1;
+        var16 = var1.mode;
+        var _closure2_slot0 = var16;
+        var15 = var1.controlsSpecs;
+        var _closure2_slot1 = var15;
+        var13 = var1.safeArea;
+        var _closure2_slot2 = var13;
+        var12 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var3 = 3;
+        var1 = var11[var3];
+        var10 = undefined;
+        var5 = var12.bind(var10)(var1);
+        var4 = var5.useSharedValue;
+        var1 = {'top': 0, 'bottom': 0};
+        var1 = var4.bind(var5)(var1);
+        var _closure2_slot3 = var1;
+        var9 = _closure1_slot1;
+        var4 = 4;
+        var4 = var11[var4];
+        var4 = var9.bind(var10)(var4);
+        var14 = var4.bind(var10)();
+        var _closure2_slot4 = var14;
+        var4 = 5;
+        var4 = var11[var4];
+        var4 = var9.bind(var10)(var4);
+        var8 = var4.bind(var10)();
+        var _closure2_slot5 = var8;
+        var3 = var11[var3];
+        var5 = var12.bind(var10)(var3);
+        var4 = var5.useAnimatedReaction;
+        var3 = function u() {
+            var1 = {};
+            var4 = _closure2_slot0;
+            var3 = var4.get;
+            var3 = var3.bind(var4)();
+            var1['mode'] = var3;
+            var4 = _closure2_slot1;
+            var3 = var4.get;
+            var3 = var3.bind(var4)();
+            var1['controlsSpecs'] = var3;
+            var4 = _closure2_slot4;
+            var3 = var4.get;
+            var3 = var3.bind(var4)();
+            var1['keyboardHeight'] = var3;
+            var4 = _closure2_slot2;
+            var3 = var4.get;
+            var3 = var3.bind(var4)();
+            var1['safeArea'] = var3;
+            var3 = _closure2_slot5;
+            var2 = var3.get;
+            var2 = var2.bind(var3)();
+            var1['screenName'] = var2;
+            return var1;
         };
-        golfie = {};
-        golfie['mode'] = sizing;
-        golfie['controlsSpecs'] = kiloes;
-        golfie['keyboardHeight'] = backup;
-        golfie['safeArea'] = foxtra;
-        golfie['screenName'] = option;
-        zuuluu['__closure'] = golfie;
-        golfie = 17017598468922.0;
-        zuuluu['__workletHash'] = golfie;
-        golfie = _closure1_slot6;
-        zuuluu['__initData'] = golfie;
-        michal = function(argFoo, argBar) { // Original name: p
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var7 = {};
+        var7['mode'] = var16;
+        var7['controlsSpecs'] = var15;
+        var7['keyboardHeight'] = var14;
+        var7['safeArea'] = var13;
+        var7['screenName'] = var8;
+        var3['__closure'] = var7;
+        var7 = 17017598468922.0;
+        var3['__workletHash'] = var7;
+        var7 = _closure1_slot6;
+        var3['__initData'] = var7;
+        var2 = function p(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = argFoo;
-                oscard = argBar;
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 6;
-                michal = michal[entity];
-                entity = undefined;
-                report = tangon.bind(entity)(michal);
-                tangon = report.cheapWorkletShallowEqual;
-                michal = null;
-                golfie = michal != oscard;
-                michal = undefined;
-                if(!golfie) { _fun00002_ip = 51; continue _fun00001 }
+                var3 = arg1;
+                var6 = arg2;
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var2);
+                var4 = var5.cheapWorkletShallowEqual;
+                var2 = null;
+                var7 = var2 != var6;
+                var2 = undefined;
+                if(!var7) { _fun0001_ip = 51; continue _fun0001 }
  48:
-                michal = oscard;
+                var2 = var6;
  51:
-                michal = tangon.bind(report)(zuuluu, michal);
-                if(michal) { _fun00002_ip = 410; continue _fun00001 }
+                var2 = var4.bind(var5)(var3, var2);
+                if(var2) { _fun0001_ip = 410; continue _fun0001 }
  63:
-                romeon = zuuluu.mode;
-                verify = zuuluu.controlsSpecs;
-                michal = zuuluu.keyboardHeight;
-                oscard = zuuluu.safeArea;
-                tangon = zuuluu.screenName;
-                zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.PIP;
-                if(!(romeon === zuuluu)) { _fun00002_ip = 133; continue _fun00001 }
+                var12 = var3.mode;
+                var9 = var3.controlsSpecs;
+                var2 = var3.keyboardHeight;
+                var6 = var3.safeArea;
+                var4 = var3.screenName;
+                var3 = _closure1_slot3;
+                var3 = var3.PIP;
+                if(!(var12 === var3)) { _fun0001_ip = 133; continue _fun0001 }
  106:
-                report = _closure1_slot1;
-                golfie = _closure1_slot2;
-                zuuluu = 7;
-                zuuluu = golfie[zuuluu];
-                zuuluu = report.bind(entity)(zuuluu);
-                report = zuuluu.bind(entity)(tangon);
-                _fun00002_ip = 184; continue _fun00001;
+                var5 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var3 = 7;
+                var3 = var7[var3];
+                var3 = var5.bind(var1)(var3);
+                var5 = var3.bind(var1)(var4);
+                _fun0001_ip = 184; continue _fun0001;
  133:
-                zuuluu = _closure1_slot3;
-                tangon = zuuluu.PANEL;
-                zuuluu = 0;
-                if(!(romeon === tangon)) { _fun00002_ip = 181; continue _fun00001 }
+                var3 = _closure1_slot3;
+                var4 = var3.PANEL;
+                var3 = 0;
+                if(!(var12 === var4)) { _fun0001_ip = 181; continue _fun0001 }
  149:
-                golfie = verify.mode;
-                tangon = _closure1_slot4;
-                tangon = tangon.DRAWER;
-                zuuluu = 0;
-                if(!(golfie === tangon)) { _fun00002_ip = 181; continue _fun00001 }
+                var7 = var9.mode;
+                var4 = _closure1_slot4;
+                var4 = var4.DRAWER;
+                var3 = 0;
+                if(!(var7 === var4)) { _fun0001_ip = 181; continue _fun0001 }
  170:
-                golfie = _closure1_slot5;
-                tangon = 60;
-                zuuluu = tangon + golfie;
+                var7 = _closure1_slot5;
+                var4 = 60;
+                var3 = var4 + var7;
  181:
-                report = zuuluu;
+                var5 = var3;
  184:
-                tangon = _closure1_slot1;
-                golfie = _closure1_slot2;
-                zuuluu = 8;
-                zuuluu = golfie[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = {};
-                zuuluu['screenBottomOffset'] = report;
-                report = oscard.bottom;
-                zuuluu['safeAreaBottom'] = report;
-                zuuluu['keyboardHeight'] = michal;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                zuuluu = zuuluu.bottomOffset;
-                offset = 0;
-                michal = michal <= offset;
-                if(!michal) { _fun00002_ip = 260; continue _fun00001 }
+                var4 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var3 = 8;
+                var3 = var7[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = {};
+                var3['screenBottomOffset'] = var5;
+                var5 = var6.bottom;
+                var3['safeAreaBottom'] = var5;
+                var3['keyboardHeight'] = var2;
+                var3 = var4.bind(var1)(var3);
+                var3 = var3.bottomOffset;
+                var10 = 0;
+                var2 = var2 <= var10;
+                if(!var2) { _fun0001_ip = 260; continue _fun0001 }
  246:
-                tangon = _closure1_slot3;
-                tangon = tangon.PANEL;
-                michal = romeon === tangon;
+                var4 = _closure1_slot3;
+                var4 = var4.PANEL;
+                var2 = var12 === var4;
  260:
-                if(!michal) { _fun00002_ip = 282; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 282; continue _fun0001 }
  263:
-                report = verify.mode;
-                tangon = _closure1_slot4;
-                tangon = tangon.FLOATING_DEFAULT;
-                michal = report === tangon;
+                var5 = var9.mode;
+                var4 = _closure1_slot4;
+                var4 = var4.FLOATING_DEFAULT;
+                var2 = var5 === var4;
  282:
-                report = zuuluu;
-                if(!michal) { _fun00002_ip = 305; continue _fun00001 }
+                var5 = var3;
+                if(!var2) { _fun0001_ip = 305; continue _fun0001 }
  288:
-                tangon = verify.height;
-                michal = _closure1_slot5;
-                michal = tangon + michal;
-                report = zuuluu + michal;
+                var4 = var9.height;
+                var2 = _closure1_slot5;
+                var2 = var4 + var2;
+                var5 = var3 + var2;
  305:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 9;
-                michal = tangon[michal];
-                michal = zuuluu.bind(entity)(michal);
-                michal = michal.bind(entity)(oscard);
-                golfie = michal.height;
-                michal = 10;
-                michal = tangon[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = _closure2_slot3;
-                michal = {};
-                oscard = _closure1_slot3;
-                yankee = oscard.PANEL;
-                oscard = 0;
-                if(!(romeon === yankee)) { _fun00002_ip = 396; continue _fun00001 }
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 9;
+                var2 = var4[var2];
+                var2 = var3.bind(var1)(var2);
+                var2 = var2.bind(var1)(var6);
+                var7 = var2.height;
+                var2 = 10;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = _closure2_slot3;
+                var2 = {};
+                var6 = _closure1_slot3;
+                var11 = var6.PANEL;
+                var6 = 0;
+                if(!(var12 === var11)) { _fun0001_ip = 396; continue _fun0001 }
  372:
-                verify = verify.mode;
-                option = _closure1_slot4;
-                option = option.FLOATING_DEFAULT;
-                oscard = 0;
-                if(!(verify === option)) { _fun00002_ip = 396; continue _fun00001 }
+                var9 = var9.mode;
+                var8 = _closure1_slot4;
+                var8 = var8.FLOATING_DEFAULT;
+                var6 = 0;
+                if(!(var9 === var8)) { _fun0001_ip = 396; continue _fun0001 }
  393:
-                oscard = golfie;
+                var6 = var7;
  396:
-                michal['top'] = oscard;
-                michal['bottom'] = report;
-                michal = tangon.bind(entity)(zuuluu, michal);
+                var2['top'] = var6;
+                var2['bottom'] = var5;
+                var2 = var4.bind(var1)(var3, var2);
  410:
-                return entity;
+                return var1;
             }
         };
-        golfie = {};
-        option = 6;
-        option = yankee[option];
-        option = romeon.bind(offset)(option);
-        option = option.cheapWorkletShallowEqual;
-        golfie['cheapWorkletShallowEqual'] = option;
-        option = _closure1_slot3;
-        golfie['VoicePanelModes'] = option;
-        option = _closure1_slot4;
-        golfie['VoicePanelControlsModes'] = option;
-        option = 60;
-        golfie['DEFAULT_CHANNEL_INPUT_HEIGHT'] = option;
-        option = _closure1_slot5;
-        golfie['PIP_WINDOW_OFFSET'] = option;
-        option = 7;
-        option = yankee[option];
-        option = verify.bind(offset)(option);
-        golfie['getPIPBottomOffsetForPIPMode'] = option;
-        option = 8;
-        option = yankee[option];
-        option = verify.bind(offset)(option);
-        golfie['getAdjustedBottomOffsets'] = option;
-        option = 9;
-        option = yankee[option];
-        option = verify.bind(offset)(option);
-        golfie['calculateVoicePanelHeaderSpecs'] = option;
-        option = 10;
-        option = yankee[option];
-        option = verify.bind(offset)(option);
-        golfie['updateSharedValueIfChanged'] = option;
-        golfie['pipAvoidanceSpecs'] = entity;
-        michal['__closure'] = golfie;
-        golfie = 15651870131721.0;
-        michal['__workletHash'] = golfie;
-        oscard = _closure1_slot7;
-        michal['__initData'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+        var7 = {};
+        var8 = 6;
+        var8 = var11[var8];
+        var8 = var12.bind(var10)(var8);
+        var8 = var8.cheapWorkletShallowEqual;
+        var7['cheapWorkletShallowEqual'] = var8;
+        var8 = _closure1_slot3;
+        var7['VoicePanelModes'] = var8;
+        var8 = _closure1_slot4;
+        var7['VoicePanelControlsModes'] = var8;
+        var8 = 60;
+        var7['DEFAULT_CHANNEL_INPUT_HEIGHT'] = var8;
+        var8 = _closure1_slot5;
+        var7['PIP_WINDOW_OFFSET'] = var8;
+        var8 = 7;
+        var8 = var11[var8];
+        var8 = var9.bind(var10)(var8);
+        var7['getPIPBottomOffsetForPIPMode'] = var8;
+        var8 = 8;
+        var8 = var11[var8];
+        var8 = var9.bind(var10)(var8);
+        var7['getAdjustedBottomOffsets'] = var8;
+        var8 = 9;
+        var8 = var11[var8];
+        var8 = var9.bind(var10)(var8);
+        var7['calculateVoicePanelHeaderSpecs'] = var8;
+        var8 = 10;
+        var8 = var11[var8];
+        var8 = var9.bind(var10)(var8);
+        var7['updateSharedValueIfChanged'] = var8;
+        var7['pipAvoidanceSpecs'] = var1;
+        var2['__closure'] = var7;
+        var7 = 15651870131721.0;
+        var2['__workletHash'] = var7;
+        var6 = _closure1_slot7;
+        var2['__initData'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

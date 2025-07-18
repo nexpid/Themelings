@@ -1,47 +1,47 @@
 // app/modules/activities/isActivityParticipantValidGuildMember.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/activities/isActivityParticipantValidGuildMember.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: isActivityParticipantValidGuildMember
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/activities/isActivityParticipantValidGuildMember.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function isActivityParticipantValidGuildMember(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.member;
-            tangon = null;
-            entity = tangon != entity;
-            if(!entity) { _fun00002_ip = 34; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.member;
+            var4 = null;
+            var1 = var4 != var1;
+            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
  18:
-            zuuluu = michal.member;
-            zuuluu = zuuluu.joined_at;
-            entity = tangon != zuuluu;
+            var3 = var2.member;
+            var3 = var3.joined_at;
+            var1 = var4 != var3;
  34:
-            if(!entity) { _fun00002_ip = 61; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 61; continue _fun0001 }
  37:
-            michal = michal.member;
-            michal = michal.user;
-            zuuluu = michal.username;
-            michal = '';
-            entity = michal !== zuuluu;
+            var2 = var2.member;
+            var2 = var2.user;
+            var3 = var2.username;
+            var2 = '';
+            var1 = var2 !== var3;
  61:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

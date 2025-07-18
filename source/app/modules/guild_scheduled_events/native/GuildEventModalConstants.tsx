@@ -1,46 +1,46 @@
 // app/modules/guild_scheduled_events/native/GuildEventModalConstants.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/guild_scheduled_events/native/GuildEventModalConstants.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = 'create-guild-event-modal';
-    zuuluu['CREATE_GUILD_EVENT_MODAL_KEY'] = michal;
-    michal = 'start-event-modal';
-    zuuluu['START_EVENT_MODAL_KEY'] = michal;
-    michal = 'guild-scheduled-events-list';
-    zuuluu['GUILD_EVENTS_LIST_ACTION_SHEET_KEY'] = michal;
-    michal = 'guild-scheduled-events-info';
-    zuuluu['GUILD_EVENT_INFO_ACTION_SHEET_KEY'] = michal;
-    michal = function(argFoo, argBar) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/guild_scheduled_events/native/GuildEventModalConstants.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = 'create-guild-event-modal';
+    var3['CREATE_GUILD_EVENT_MODAL_KEY'] = var2;
+    var2 = 'start-event-modal';
+    var3['START_EVENT_MODAL_KEY'] = var2;
+    var2 = 'guild-scheduled-events-list';
+    var3['GUILD_EVENTS_LIST_ACTION_SHEET_KEY'] = var2;
+    var2 = 'guild-scheduled-events-info';
+    var3['GUILD_EVENT_INFO_ACTION_SHEET_KEY'] = var2;
+    var2 = function(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = '';
-            entity = argFoo;
-            entity = michal !== entity;
-            if(!entity) { _fun00002_ip = 23; continue _fun00001 }
+            var2 = '';
+            var1 = arg1;
+            var1 = var2 !== var1;
+            if(!var1) { _fun0001_ip = 23; continue _fun0001 }
  14:
-            zuuluu = null;
-            michal = argBar;
-            entity = zuuluu != michal;
+            var3 = null;
+            var2 = arg2;
+            var1 = var3 != var2;
  23:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isGuildEventValid'] = michal;
-    return entity;
+    var3['isGuildEventValid'] = var2;
+    return var1;
 })();

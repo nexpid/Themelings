@@ -1,151 +1,151 @@
 // app/utils/MFAUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        option = argBar;
-        zuuluu = argFre;
-        verify = argPlu;
-        entity = argBaz;
-        var _closure1_slot0 = entity;
-        var _closure1_slot1 = verify;
-        tangon = function(argFoo) { // Original name: encodeTotpSecret
-            tangon = argFoo;
-            zuuluu = tangon.replace;
-            michal = /[\s._-]+/g;
-            entity = '';
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = michal.toUpperCase;
-            entity = entity.bind(michal)();
-            return entity;
+        var8 = native2;
+        var3 = native6;
+        var9 = native7;
+        var1 = native3;
+        var _closure1_slot0 = var1;
+        var _closure1_slot1 = var9;
+        var4 = function encodeTotpSecret(arg1) {
+            var4 = arg1;
+            var3 = var4.replace;
+            var2 = /[\s._-]+/g;
+            var1 = '';
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = var2.toUpperCase;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        var _closure1_slot3 = tangon;
-        report = global;
-        offset = report.Object;
-        golfie = offset.defineProperty;
-        oscard = {};
-        entity = true;
-        oscard['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(offset)(zuuluu, entity, oscard);
-        oscard = report.window;
-        golfie = null;
-        offset = golfie == oscard;
-        entity = undefined;
-        yankee = undefined;
-        if(offset) { _fun00002_ip = 90; continue _fun00001 }
+        var _closure1_slot3 = var4;
+        var5 = global;
+        var10 = var5.Object;
+        var7 = var10.defineProperty;
+        var6 = {};
+        var1 = true;
+        var6['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var10)(var3, var1, var6);
+        var6 = var5.window;
+        var7 = null;
+        var10 = var7 == var6;
+        var1 = undefined;
+        var11 = undefined;
+        if(var10) { _fun0001_ip = 90; continue _fun0001 }
  84:
-        yankee = oscard.crypto;
+        var11 = var6.crypto;
  90:
-        if(!(golfie == yankee)) { _fun00002_ip = 118; continue _fun00001 }
+        if(!(var7 == var11)) { _fun0001_ip = 118; continue _fun0001 }
  94:
-        offset = report.window;
-        romeon = golfie == offset;
-        oscard = undefined;
-        if(romeon) { _fun00002_ip = 115; continue _fun00001 }
+        var10 = var5.window;
+        var12 = var7 == var10;
+        var6 = undefined;
+        if(var12) { _fun0001_ip = 115; continue _fun0001 }
  109:
-        oscard = offset.msCrypto;
+        var6 = var10.msCrypto;
  115:
-        yankee = oscard;
+        var11 = var6;
  118:
-        var _closure1_slot2 = yankee;
-        oscard = report.window;
-        report = 'Uint8Array';
-        report = report in oscard;
-        oscard = golfie != yankee;
-        if(!oscard) { _fun00002_ip = 151; continue _fun00001 }
+        var _closure1_slot2 = var11;
+        var6 = var5.window;
+        var5 = 'Uint8Array';
+        var5 = var5 in var6;
+        var6 = var7 != var11;
+        if(!var6) { _fun0001_ip = 151; continue _fun0001 }
  143:
-        offset = 'getRandomValues';
-        oscard = offset in yankee;
+        var10 = 'getRandomValues';
+        var6 = var10 in var11;
  151:
-        if(!oscard) { _fun00002_ip = 157; continue _fun00001 }
+        if(!var6) { _fun0001_ip = 157; continue _fun0001 }
  154:
-        oscard = report;
+        var6 = var5;
  157:
-        report = 0;
-        report = verify[report];
-        report = option.bind(entity)(report);
-        report = report.NativeModules;
-        report = report.DCDSecurityKeyManager;
-        report = golfie != report;
-        golfie = 2;
-        golfie = verify[golfie];
-        verify = option.bind(entity)(golfie);
-        option = verify.fileFinishedImporting;
-        golfie = 'utils/MFAUtils.tsx';
-        golfie = option.bind(verify)(golfie);
-        zuuluu['hasCrypto'] = oscard;
-        zuuluu['hasWebAuthn'] = report;
-        report = function() { // Original name: generateTotpSecret
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getRandomValues;
-            michal = global;
-            oscard = michal.Uint8Array;
-            michal = oscard.prototype;
-            report = Object.create(michal, {constructor: {value: oscard}});
-            option = 20;
-            verify = report;
-            michal = new verify[oscard](option, golfie);
-            michal = michal instanceof Object ? michal : report;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.encode;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.toString;
-            entity = 'utf8';
-            tangon = michal.bind(zuuluu)(entity);
-            zuuluu = tangon.replace;
-            michal = /=/g;
-            entity = '';
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = michal.toLowerCase;
-            tangon = entity.bind(michal)();
-            zuuluu = tangon.replace;
-            michal = /(\w{4})/g;
-            entity = '$1 ';
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = michal.trim;
-            entity = entity.bind(michal)();
-            return entity;
+        var5 = 0;
+        var5 = var9[var5];
+        var5 = var8.bind(var1)(var5);
+        var5 = var5.NativeModules;
+        var5 = var5.DCDSecurityKeyManager;
+        var5 = var7 != var5;
+        var7 = 2;
+        var7 = var9[var7];
+        var9 = var8.bind(var1)(var7);
+        var8 = var9.fileFinishedImporting;
+        var7 = 'utils/MFAUtils.tsx';
+        var7 = var8.bind(var9)(var7);
+        var3['hasCrypto'] = var6;
+        var3['hasWebAuthn'] = var5;
+        var5 = function generateTotpSecret() {
+            var4 = _closure1_slot2;
+            var3 = var4.getRandomValues;
+            var2 = global;
+            var6 = var2.Uint8Array;
+            var2 = var6.prototype;
+            var5 = Object.create(var2, {constructor: {value: var6}});
+            var8 = 20;
+            var9 = var5;
+            var2 = new var9[var6](var8, var7);
+            var2 = var2 instanceof Object ? var2 : var5;
+            var3 = var3.bind(var4)(var2);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.encode;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.toString;
+            var1 = 'utf8';
+            var4 = var2.bind(var3)(var1);
+            var3 = var4.replace;
+            var2 = /=/g;
+            var1 = '';
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = var2.toLowerCase;
+            var4 = var1.bind(var2)();
+            var3 = var4.replace;
+            var2 = /(\w{4})/g;
+            var1 = '$1 ';
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = var2.trim;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        zuuluu['generateTotpSecret'] = report;
-        zuuluu['encodeTotpSecret'] = tangon;
-        michal = function(argFoo, argBar) { // Original name: encodeTotpSecretAsUrl
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var3['generateTotpSecret'] = var5;
+        var3['encodeTotpSecret'] = var4;
+        var2 = function encodeTotpSecretAsUrl(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = arguments[2];
-                zuuluu = undefined;
-                if(!(tangon === zuuluu)) { _fun00004_ip = 15; continue _fun00003 }
+                var4 = arguments[2];
+                var3 = undefined;
+                if(!(var4 === var3)) { _fun0002_ip = 15; continue _fun0002 }
  9:
-                tangon = 'Discord';
+                var4 = 'Discord';
  15:
-                entity = global;
-                michal = entity.encodeURI;
-                verify = michal.bind(zuuluu)(tangon);
-                report = entity.encodeURI;
-                michal = argFoo;
-                backup = report.bind(zuuluu)(michal);
-                report = _closure1_slot3;
-                michal = argBar;
-                romeon = report.bind(zuuluu)(michal);
-                michal = entity.encodeURIComponent;
-                offset = michal.bind(zuuluu)(tangon);
-                entity = entity.HermesInternal;
-                report = entity.concat;
-                output = 'otpauth://totp/';
-                kiloes = ':';
-                foxtra = '?secret=';
-                yankee = '&issuer=';
-                sizing = verify;
-                entity = output[report](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
-                return entity;
+                var1 = global;
+                var2 = var1.encodeURI;
+                var9 = var2.bind(var3)(var4);
+                var5 = var1.encodeURI;
+                var2 = arg1;
+                var14 = var5.bind(var3)(var2);
+                var5 = _closure1_slot3;
+                var2 = arg2;
+                var12 = var5.bind(var3)(var2);
+                var2 = var1.encodeURIComponent;
+                var10 = var2.bind(var3)(var4);
+                var1 = var1.HermesInternal;
+                var5 = var1.concat;
+                var17 = 'otpauth://totp/';
+                var15 = ':';
+                var13 = '?secret=';
+                var11 = '&issuer=';
+                var16 = var9;
+                var1 = var17[var5](var16, var15, var14, var13, var12, var11, var10, var9);
+                return var1;
             }
         };
-        zuuluu['encodeTotpSecretAsUrl'] = michal;
-        return entity;
+        var3['encodeTotpSecretAsUrl'] = var2;
+        return var1;
     }
 })();

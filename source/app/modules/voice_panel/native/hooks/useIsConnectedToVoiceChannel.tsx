@@ -1,110 +1,110 @@
 // app/modules/voice_panel/native/hooks/useIsConnectedToVoiceChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RTCConnectionStates;
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/hooks/useIsConnectedToVoiceChannel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useIsConnectedToVoiceChannel
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 4;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot3;
-        michal = new Array(3);
-        michal[0] = oscard;
-        oscard = _closure1_slot4;
-        michal[1] = oscard;
-        report = _closure1_slot2;
-        michal[2] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RTCConnectionStates;
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/hooks/useIsConnectedToVoiceChannel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsConnectedToVoiceChannel(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot3;
+        var2 = new Array(3);
+        var2[0] = var6;
+        var6 = _closure1_slot4;
+        var2[1] = var6;
+        var5 = _closure1_slot2;
+        var2[2] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getChannelId;
-                michal = michal.bind(zuuluu)();
-                oscard = _closure2_slot0;
-                tangon = null;
-                report = michal;
-                if(!(tangon != oscard)) { _fun00002_ip = 37; continue _fun00001 }
+                var3 = _closure1_slot3;
+                var2 = var3.getChannelId;
+                var2 = var2.bind(var3)();
+                var6 = _closure2_slot0;
+                var4 = null;
+                var5 = var2;
+                if(!(var4 != var6)) { _fun0001_ip = 37; continue _fun0001 }
  33:
-                report = _closure2_slot0;
+                var5 = _closure2_slot0;
  37:
-                if(!(report === michal)) { _fun00002_ip = 128; continue _fun00001 }
+                if(!(var5 === var2)) { _fun0001_ip = 128; continue _fun0001 }
  41:
-                tangon = _closure1_slot4;
-                zuuluu = tangon.isInChannel;
-                oscard = _closure1_slot2;
-                michal = oscard.getId;
-                michal = michal.bind(oscard)();
-                michal = zuuluu.bind(tangon)(report, michal);
-                if(michal) { _fun00002_ip = 124; continue _fun00001 }
+                var4 = _closure1_slot4;
+                var3 = var4.isInChannel;
+                var6 = _closure1_slot2;
+                var2 = var6.getId;
+                var2 = var2.bind(var6)();
+                var2 = var3.bind(var4)(var5, var2);
+                if(var2) { _fun0001_ip = 124; continue _fun0001 }
  74:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getState;
-                michal = michal.bind(zuuluu)();
-                zuuluu = _closure1_slot5;
-                zuuluu = zuuluu.DISCONNECTED;
-                if(!(zuuluu !== michal)) { _fun00002_ip = 120; continue _fun00001 }
+                var3 = _closure1_slot3;
+                var2 = var3.getState;
+                var2 = var2.bind(var3)();
+                var3 = _closure1_slot5;
+                var3 = var3.DISCONNECTED;
+                if(!(var3 !== var2)) { _fun0001_ip = 120; continue _fun0001 }
  102:
-                entity = _closure1_slot5;
-                entity = entity.NO_ROUTE;
-                if(!(entity !== michal)) { _fun00002_ip = 120; continue _fun00001 }
+                var1 = _closure1_slot5;
+                var1 = var1.NO_ROUTE;
+                if(!(var1 !== var2)) { _fun0001_ip = 120; continue _fun0001 }
  116:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  120:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  124:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  128:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,166 +1,166 @@
 // app/modules/guild_settings/GuildSettingsConstants.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    report = {};
-    tangon = 0;
-    report['DISPLAY'] = tangon;
-    entity = 'DISPLAY';
-    report[tangon] = entity;
-    entity = 1;
-    report['PERMISSIONS'] = entity;
-    tangon = 'PERMISSIONS';
-    report[entity] = tangon;
-    option = 2;
-    report['MEMBERS'] = option;
-    tangon = 'MEMBERS';
-    report[option] = tangon;
-    option = 3;
-    report['VERIFICATIONS'] = option;
-    tangon = 'VERIFICATIONS';
-    report[option] = tangon;
-    tangon = {};
-    option = function() { // Original name: afk_channel_id
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 0;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.KuYcnZ;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var5 = {};
+    var4 = 0;
+    var5['DISPLAY'] = var4;
+    var1 = 'DISPLAY';
+    var5[var4] = var1;
+    var1 = 1;
+    var5['PERMISSIONS'] = var1;
+    var4 = 'PERMISSIONS';
+    var5[var1] = var4;
+    var8 = 2;
+    var5['MEMBERS'] = var8;
+    var4 = 'MEMBERS';
+    var5[var8] = var4;
+    var8 = 3;
+    var5['VERIFICATIONS'] = var8;
+    var4 = 'VERIFICATIONS';
+    var5[var8] = var4;
+    var4 = {};
+    var8 = function afk_channel_id() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 0;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.KuYcnZ;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['afk_channel_id'] = option;
-    option = function() { // Original name: public_updates_channel_id
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 0;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.vAyDGR;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var4['afk_channel_id'] = var8;
+    var8 = function public_updates_channel_id() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 0;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.vAyDGR;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['public_updates_channel_id'] = option;
-    option = function() { // Original name: safety_alerts_channel_id
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 0;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.sMkYEx;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var4['public_updates_channel_id'] = var8;
+    var8 = function safety_alerts_channel_id() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 0;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.sMkYEx;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['safety_alerts_channel_id'] = option;
-    option = function() { // Original name: system_channel_id
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 0;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.NASFnp;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var4['safety_alerts_channel_id'] = var8;
+    var8 = function system_channel_id() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 0;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.NASFnp;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['system_channel_id'] = option;
-    var _closure1_slot2 = tangon;
-    oscard = oscard[entity];
-    entity = undefined;
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/guild_settings/GuildSettingsConstants.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = 5;
-    zuuluu['MAX_SUBCATEGORIES'] = oscard;
-    oscard = 10;
-    zuuluu['MAX_KEYWORDS'] = oscard;
-    oscard = 30;
-    zuuluu['MAX_KEYWORD_LENGTH'] = oscard;
-    zuuluu['GuildSettingsRoleEditSections'] = report;
-    zuuluu['ERROR_KEY_TO_LABEL_FUNC'] = tangon;
-    michal = function(argFoo) { // Original name: getSettingsErrorMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4['system_channel_id'] = var8;
+    var _closure1_slot2 = var4;
+    var6 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/guild_settings/GuildSettingsConstants.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = 5;
+    var3['MAX_SUBCATEGORIES'] = var6;
+    var6 = 10;
+    var3['MAX_KEYWORDS'] = var6;
+    var6 = 30;
+    var3['MAX_KEYWORD_LENGTH'] = var6;
+    var3['GuildSettingsRoleEditSections'] = var5;
+    var3['ERROR_KEY_TO_LABEL_FUNC'] = var4;
+    var2 = function getSettingsErrorMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = global;
-            zuuluu = michal.Object;
-            entity = zuuluu.keys;
-            entity = entity.bind(zuuluu)(tangon);
-            entity = entity.length;
-            zuuluu = 0;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 132; continue _fun00001 }
+            var4 = arg1;
+            var2 = global;
+            var3 = var2.Object;
+            var1 = var3.keys;
+            var1 = var1.bind(var3)(var4);
+            var1 = var1.length;
+            var3 = 0;
+            if(!(var3 !== var1)) { _fun0001_ip = 132; continue _fun0001 }
  32:
-            report = michal.Object;
-            entity = report.keys;
-            entity = entity.bind(report)(tangon);
-            zuuluu = entity[zuuluu];
-            entity = _closure1_slot2;
-            option = entity[zuuluu];
-            entity = null;
-            golfie = entity == option;
-            oscard = undefined;
-            if(golfie) { _fun00002_ip = 88; continue _fun00001 }
+            var5 = var2.Object;
+            var1 = var5.keys;
+            var1 = var1.bind(var5)(var4);
+            var3 = var1[var3];
+            var1 = _closure1_slot2;
+            var8 = var1[var3];
+            var1 = null;
+            var7 = var1 == var8;
+            var6 = undefined;
+            if(var7) { _fun0001_ip = 88; continue _fun0001 }
  74:
-            golfie = option.call;
-            report = _closure1_slot2;
-            oscard = golfie.bind(option)(report);
+            var7 = var8.call;
+            var5 = _closure1_slot2;
+            var6 = var7.bind(var8)(var5);
  88:
-            if(!(entity == oscard)) { _fun00002_ip = 98; continue _fun00001 }
+            if(!(var1 == var6)) { _fun0001_ip = 98; continue _fun0001 }
  92:
-            entity = tangon[zuuluu];
-            _fun00002_ip = 130; continue _fun00001;
+            var1 = var4[var3];
+            _fun0001_ip = 130; continue _fun0001;
  98:
-            report = tangon[zuuluu];
-            michal = michal.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = '(';
-            michal = ') ';
-            entity = tangon.bind(zuuluu)(oscard, michal, report);
+            var5 = var4[var3];
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '(';
+            var2 = ') ';
+            var1 = var4.bind(var3)(var6, var2, var5);
  130:
-            return entity;
+            return var1;
  132:
-            entity = null;
-            return entity;
+            var1 = null;
+            return var1;
         }
     };
-    zuuluu['getSettingsErrorMessage'] = michal;
-    michal = 'https://discord.gg';
-    zuuluu['VANITY_URL_INVITE_ENDPOINT'] = michal;
-    return entity;
+    var3['getSettingsErrorMessage'] = var2;
+    var2 = 'https://discord.gg';
+    var3['VANITY_URL_INVITE_ENDPOINT'] = var2;
+    return var1;
 })();

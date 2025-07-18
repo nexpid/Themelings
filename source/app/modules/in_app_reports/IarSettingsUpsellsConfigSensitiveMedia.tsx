@@ -1,219 +1,219 @@
 // app/modules/in_app_reports/IarSettingsUpsellsConfigSensitiveMedia.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    michal = {};
-    entity = function() { // Original name: getTitle
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 2;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.5Qu1IS;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var2 = {};
+    var1 = function getTitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.5Qu1IS;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['getTitle'] = entity;
-    entity = function() { // Original name: getDisabledTitle
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 2;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.YdZZtL;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['getTitle'] = var1;
+    var1 = function getDisabledTitle() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.YdZZtL;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['getDisabledTitle'] = entity;
-    entity = function() { // Original name: getDescription
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 2;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.Vzp5BA;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['getDisabledTitle'] = var1;
+    var1 = function getDescription() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.Vzp5BA;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['getDescription'] = entity;
-    option = 3;
-    golfie = oscard[option];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.ReportSubType;
-    verify = golfie.SUB_CSAM;
-    golfie = new Array(5);
-    golfie[0] = verify;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.ReportSubType;
-    verify = verify.SUB_LOLI;
-    golfie[1] = verify;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.ReportSubType;
-    verify = verify.SUB_NCP;
-    golfie[2] = verify;
-    verify = oscard[option];
-    verify = report.bind(entity)(verify);
-    verify = verify.ReportSubType;
-    verify = verify.SUB_SEXUALLY_DEGRADING_CONTENT;
-    golfie[3] = verify;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.ReportSubType;
-    option = option.SUB_UNSOLICITED_PORN;
-    golfie[4] = option;
-    michal['eligibleReportSubtypes'] = golfie;
-    golfie = function() { // Original name: onApply
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['getDescription'] = var1;
+    var8 = 3;
+    var7 = var6[var8];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.ReportSubType;
+    var9 = var7.SUB_CSAM;
+    var7 = new Array(5);
+    var7[0] = var9;
+    var9 = var6[var8];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ReportSubType;
+    var9 = var9.SUB_LOLI;
+    var7[1] = var9;
+    var9 = var6[var8];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ReportSubType;
+    var9 = var9.SUB_NCP;
+    var7[2] = var9;
+    var9 = var6[var8];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.ReportSubType;
+    var9 = var9.SUB_SEXUALLY_DEGRADING_CONTENT;
+    var7[3] = var9;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.ReportSubType;
+    var8 = var8.SUB_UNSOLICITED_PORN;
+    var7[4] = var8;
+    var2['eligibleReportSubtypes'] = var7;
+    var7 = function onApply() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            yankee = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 0;
-            michal = report[entity];
-            oscard = undefined;
-            zuuluu = yankee.bind(oscard)(michal);
-            michal = zuuluu.updateExplicitContentSetting;
-            entity = report[entity];
-            golfie = yankee.bind(oscard)(entity);
-            entity = golfie.getExplicitContentSettingOrDefault;
-            entity = entity.bind(golfie)();
-            offset = entity.explicitContentGuilds;
-            verify = entity.explicitContentFriendDm;
-            option = entity.explicitContentNonFriendDm;
-            entity = {};
-            golfie = 1;
-            report = report[golfie];
-            report = yankee.bind(oscard)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.SHOW;
-            if(!(offset === report)) { _fun00002_ip = 132; continue _fun00001 }
+            var11 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 0;
+            var2 = var5[var1];
+            var6 = undefined;
+            var3 = var11.bind(var6)(var2);
+            var2 = var3.updateExplicitContentSetting;
+            var1 = var5[var1];
+            var7 = var11.bind(var6)(var1);
+            var1 = var7.getExplicitContentSettingOrDefault;
+            var1 = var1.bind(var7)();
+            var10 = var1.explicitContentGuilds;
+            var9 = var1.explicitContentFriendDm;
+            var8 = var1.explicitContentNonFriendDm;
+            var1 = {};
+            var7 = 1;
+            var5 = var5[var7];
+            var5 = var11.bind(var6)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.SHOW;
+            if(!(var10 === var5)) { _fun0001_ip = 132; continue _fun0001 }
  97:
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            report = report[golfie];
-            report = offset.bind(oscard)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.BLUR;
-            entity['explicitContentGuilds'] = report;
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var7];
+            var5 = var10.bind(var6)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.BLUR;
+            var1['explicitContentGuilds'] = var5;
  132:
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            report = report[golfie];
-            report = offset.bind(oscard)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.SHOW;
-            if(!(verify === report)) { _fun00002_ip = 200; continue _fun00001 }
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var7];
+            var5 = var10.bind(var6)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.SHOW;
+            if(!(var9 === var5)) { _fun0001_ip = 200; continue _fun0001 }
  165:
-            verify = _closure1_slot0;
-            report = _closure1_slot1;
-            report = report[golfie];
-            report = verify.bind(oscard)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.BLUR;
-            entity['explicitContentFriendDm'] = report;
+            var9 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var7];
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.BLUR;
+            var1['explicitContentFriendDm'] = var5;
  200:
-            verify = _closure1_slot0;
-            report = _closure1_slot1;
-            report = report[golfie];
-            report = verify.bind(oscard)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.SHOW;
-            if(!(option === report)) { _fun00002_ip = 268; continue _fun00001 }
+            var9 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var7];
+            var5 = var9.bind(var6)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.SHOW;
+            if(!(var8 === var5)) { _fun0001_ip = 268; continue _fun0001 }
  233:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[golfie];
-            tangon = report.bind(oscard)(tangon);
-            tangon = tangon.ExplicitContentRedaction;
-            tangon = tangon.BLUR;
-            entity['explicitContentNonFriendDm'] = tangon;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var7];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.ExplicitContentRedaction;
+            var4 = var4.BLUR;
+            var1['explicitContentNonFriendDm'] = var4;
  268:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    michal['onApply'] = golfie;
-    tangon = function() { // Original name: predicate
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['onApply'] = var7;
+    var4 = function predicate() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            option = _closure1_slot0;
-            entity = _closure1_slot1;
-            zuuluu = 0;
-            zuuluu = entity[zuuluu];
-            report = undefined;
-            tangon = option.bind(report)(zuuluu);
-            zuuluu = tangon.getExplicitContentSettingOrDefault;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = zuuluu.explicitContentGuilds;
-            golfie = zuuluu.explicitContentFriendDm;
-            zuuluu = zuuluu.explicitContentNonFriendDm;
-            oscard = 1;
-            entity = entity[oscard];
-            entity = option.bind(report)(entity);
-            entity = entity.ExplicitContentRedaction;
-            entity = entity.SHOW;
-            entity = tangon === entity;
-            if(entity) { _fun00004_ip = 116; continue _fun00003 }
+            var8 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var3 = 0;
+            var3 = var1[var3];
+            var5 = undefined;
+            var4 = var8.bind(var5)(var3);
+            var3 = var4.getExplicitContentSettingOrDefault;
+            var3 = var3.bind(var4)();
+            var4 = var3.explicitContentGuilds;
+            var7 = var3.explicitContentFriendDm;
+            var3 = var3.explicitContentNonFriendDm;
+            var6 = 1;
+            var1 = var1[var6];
+            var1 = var8.bind(var5)(var1);
+            var1 = var1.ExplicitContentRedaction;
+            var1 = var1.SHOW;
+            var1 = var4 === var1;
+            if(var1) { _fun0002_ip = 116; continue _fun0002 }
  83:
-            option = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = option.bind(report)(tangon);
-            tangon = tangon.ExplicitContentRedaction;
-            tangon = tangon.SHOW;
-            entity = golfie === tangon;
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var8.bind(var5)(var4);
+            var4 = var4.ExplicitContentRedaction;
+            var4 = var4.SHOW;
+            var1 = var7 === var4;
  116:
-            if(entity) { _fun00004_ip = 152; continue _fun00003 }
+            if(var1) { _fun0002_ip = 152; continue _fun0002 }
  119:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.ExplicitContentRedaction;
-            michal = michal.SHOW;
-            entity = zuuluu === michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ExplicitContentRedaction;
+            var2 = var2.SHOW;
+            var1 = var3 === var2;
  152:
-            return entity;
+            return var1;
         }
     };
-    michal['predicate'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/in_app_reports/IarSettingsUpsellsConfigSensitiveMedia.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['predicate'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_reports/IarSettingsUpsellsConfigSensitiveMedia.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,98 +1,98 @@
 // app/modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useDelayedSwapToActivityActionLeave
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot3;
-        zuuluu = report.useState;
-        golfie = zuuluu.bind(report)(oscard);
-        tangon = _closure1_slot2;
-        zuuluu = undefined;
-        entity = 2;
-        tangon = tangon.bind(zuuluu)(golfie, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot1 = zuuluu;
-        tangon = report.useLayoutEffect;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/hooks/useDelayedSwapToActivityActionLeave.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useDelayedSwapToActivityActionLeave(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot3;
+        var3 = var5.useState;
+        var7 = var3.bind(var5)(var6);
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var1 = 2;
+        var4 = var4.bind(var3)(var7, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot1 = var3;
+        var4 = var5.useLayoutEffect;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure2_slot0;
-                oscard = _closure1_slot0;
-                report = _closure1_slot1;
-                zuuluu = 2;
-                zuuluu = report[zuuluu];
-                report = undefined;
-                zuuluu = oscard.bind(report)(zuuluu);
-                zuuluu = zuuluu.ActivityAction;
-                zuuluu = zuuluu.LEAVE;
-                if(!(tangon !== zuuluu)) { _fun00002_ip = 65; continue _fun00001 }
+                var4 = _closure2_slot0;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 2;
+                var3 = var5[var3];
+                var5 = undefined;
+                var3 = var6.bind(var5)(var3);
+                var3 = var3.ActivityAction;
+                var3 = var3.LEAVE;
+                if(!(var4 !== var3)) { _fun0001_ip = 65; continue _fun0001 }
  50:
-                zuuluu = _closure2_slot1;
-                michal = _closure2_slot0;
-                michal = zuuluu.bind(report)(michal);
-                return report;
+                var3 = _closure2_slot1;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var5)(var2);
+                return var5;
  65:
-                michal = global;
-                tangon = michal.setTimeout;
-                zuuluu = function() {
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                var2 = global;
+                var4 = var2.setTimeout;
+                var3 = function() {
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = 100;
-                michal = tangon.bind(report)(zuuluu, michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    entity = global;
-                    zuuluu = entity.clearTimeout;
-                    michal = _closure3_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                var2 = 100;
+                var2 = var4.bind(var5)(var3, var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    var1 = global;
+                    var3 = var1.clearTimeout;
+                    var2 = _closure3_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useDelayedSwapToActivityActionLeave'] = michal;
-    return entity;
+    var3['useDelayedSwapToActivityActionLeave'] = var2;
+    return var1;
 })();

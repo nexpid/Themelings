@@ -1,190 +1,190 @@
 // app/modules/headless_tasks/android/DirectReply.tsx
-export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
-    zuuluu = argBar;
-    oscard = argBaz;
-    tangon = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = tangon;
-    entity = 0;
-    report = tangon[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = tangon[report];
-    report = zuuluu.bind(entity)(report);
-    report = report.NativeModules;
-    var _closure1_slot3 = report;
-    report = 2;
-    report = tangon[report];
-    report = zuuluu.bind(entity)(report);
-    report = report.MessageSendLocation;
-    var _closure1_slot4 = report;
-    report = 3;
-    report = tangon[report];
-    golfie = oscard.bind(entity)(report);
-    report = golfie.prototype;
-    oscard = Object.create(report, {constructor: {value: golfie}});
-    option = 'DirectReply';
-    verify = oscard;
-    report = new verify[golfie](option, golfie);
-    report = report instanceof Object ? report : oscard;
-    var _closure1_slot5 = report;
-    report = function(argFoo) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            report = _closure1_slot5;
-            tangon = report.log;
-            zuuluu = 'Executing DirectReply';
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = _closure1_slot3;
-            report = zuuluu.PushNotificationAndroid;
-            tangon = report.markNotificationAsDirectReply;
-            zuuluu = _closure2_slot0;
-            zuuluu = zuuluu.channelId;
-            zuuluu = tangon.bind(report)(zuuluu);
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.awaitStorage;
-            michal = function() {
-                michal = function() { // Original name: _sendMessage
-                    tangon = undefined;
-                    entity = undefined;
-                    zuuluu = _closure1_slot2;
-                    michal = function* (argFoo) {
-                        entity = function* (argFoo) { // Original name: ?anon_0_
-                            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native2;
+    var6 = native3;
+    var4 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var4;
+    var1 = 0;
+    var5 = var4[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var4[var5];
+    var5 = var3.bind(var1)(var5);
+    var5 = var5.NativeModules;
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var4[var5];
+    var5 = var3.bind(var1)(var5);
+    var5 = var5.MessageSendLocation;
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var4[var5];
+    var7 = var6.bind(var1)(var5);
+    var5 = var7.prototype;
+    var6 = Object.create(var5, {constructor: {value: var7}});
+    var8 = 'DirectReply';
+    var9 = var6;
+    var5 = new var9[var7](var8, var7);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var _closure1_slot5 = var5;
+    var5 = function(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var5 = _closure1_slot5;
+            var4 = var5.log;
+            var3 = 'Executing DirectReply';
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot3;
+            var5 = var3.PushNotificationAndroid;
+            var4 = var5.markNotificationAsDirectReply;
+            var3 = _closure2_slot0;
+            var3 = var3.channelId;
+            var3 = var4.bind(var5)(var3);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.awaitStorage;
+            var2 = function() {
+                var2 = function _sendMessage() {
+                    var4 = undefined;
+                    var1 = undefined;
+                    var3 = _closure1_slot2;
+                    var2 = function* (arg1) {
+                        var1 = function* anon_0_(arg1) {
+                            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                                 StartGenerator();
-                                verify = argFoo;
+                                var9 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00002_ip = 257; continue _fun00001 }
+                                if(var2) { _fun0001_ip = 257; continue _fun0001 }
  13:
-                                report = _closure1_slot0;
-                                zuuluu = _closure1_slot1;
-                                michal = 5;
-                                michal = zuuluu[michal];
-                                zuuluu = undefined;
-                                offset = report.bind(zuuluu)(michal);
-                                option = offset.sendMessage;
-                                kiloes = verify.channelId;
-                                oscard = {};
-                                michal = verify.channelReplyText;
-                                oscard['content'] = michal;
-                                report = false;
-                                oscard['tts'] = report;
-                                michal = new Array(0);
-                                oscard['invalidEmojis'] = michal;
-                                michal = new Array(0);
-                                oscard['validNonShortcutEmojis'] = michal;
-                                michal = {};
-                                michal['eagerDispatch'] = report;
-                                yankee = _closure1_slot4;
-                                yankee = yankee.PUSH_NOTIFICATION;
-                                michal['location'] = yankee;
-                                sizing = offset;
-                                backup = oscard;
-                                foxtra = false;
-                                romeon = michal;
-                                michal = sizing[option](kiloes, backup, foxtra, romeon, yankee);
+                                var5 = _closure1_slot0;
+                                var3 = _closure1_slot1;
+                                var2 = 5;
+                                var2 = var3[var2];
+                                var3 = undefined;
+                                var10 = var5.bind(var3)(var2);
+                                var8 = var10.sendMessage;
+                                var15 = var9.channelId;
+                                var6 = {};
+                                var2 = var9.channelReplyText;
+                                var6['content'] = var2;
+                                var5 = false;
+                                var6['tts'] = var5;
+                                var2 = new Array(0);
+                                var6['invalidEmojis'] = var2;
+                                var2 = new Array(0);
+                                var6['validNonShortcutEmojis'] = var2;
+                                var2 = {};
+                                var2['eagerDispatch'] = var5;
+                                var11 = _closure1_slot4;
+                                var11 = var11.PUSH_NOTIFICATION;
+                                var2['location'] = var11;
+                                var16 = var10;
+                                var14 = var6;
+                                var13 = false;
+                                var12 = var2;
+                                var2 = var16[var8](var15, var14, var13, var12, var11);
                                 SaveGenerator(address=128);
  126:
-                                return michal;
+                                return var2;
  128:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00002_ip = 254; continue _fun00001 }
+                                if(var5) { _fun0001_ip = 254; continue _fun0001 }
  134:
-                                option = _closure1_slot5;
-                                golfie = option.log;
-                                oscard = michal.ok;
-                                report = 'Sent message, ok:';
-                                report = golfie.bind(option)(report, oscard);
-                                report = michal.ok;
-                                if(!report) { _fun00002_ip = 237; continue _fun00001 }
+                                var8 = _closure1_slot5;
+                                var7 = var8.log;
+                                var6 = var2.ok;
+                                var5 = 'Sent message, ok:';
+                                var5 = var7.bind(var8)(var5, var6);
+                                var5 = var2.ok;
+                                if(!var5) { _fun0001_ip = 237; continue _fun0001 }
  171:
-                                tangon = _closure1_slot3;
-                                oscard = tangon.PushNotificationAndroid;
-                                report = oscard.handleDirectReplySuccess;
-                                tangon = global;
-                                option = tangon.JSON;
-                                golfie = option.stringify;
-                                tangon = {};
-                                backup = michal.body;
-                                kiloes = tangon;
-                                offset = copyDataProperties(kiloes, backup);
-                                kiloes = tangon;
-                                backup = verify;
-                                verify = copyDataProperties(kiloes, backup);
-                                tangon = golfie.bind(option)(tangon);
-                                tangon = report.bind(oscard)(tangon);
+                                var4 = _closure1_slot3;
+                                var6 = var4.PushNotificationAndroid;
+                                var5 = var6.handleDirectReplySuccess;
+                                var4 = global;
+                                var8 = var4.JSON;
+                                var7 = var8.stringify;
+                                var4 = {};
+                                var14 = var2.body;
+                                var15 = var4;
+                                var10 = copyDataProperties(var15, var14);
+                                var15 = var4;
+                                var14 = var9;
+                                var9 = copyDataProperties(var15, var14);
+                                var4 = var7.bind(var8)(var4);
+                                var4 = var5.bind(var6)(var4);
  237:
-                                report = _closure3_slot0;
-                                tangon = true;
-                                tangon = report.bind(zuuluu)(tangon);
-                                return zuuluu;
+                                var5 = _closure3_slot0;
+                                var4 = true;
+                                var4 = var5.bind(var3)(var4);
+                                return var3;
  254:
-                                return michal;
+                                return var2;
  257:
-                                return entity;
+                                return var1;
                             }
                         };
-                        return entity;
+                        return var1;
                     };
-                    tangon = zuuluu.bind(tangon)(michal);
-                    _closure4_slot0 = tangon;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                    var4 = var3.bind(var4)(var2);
+                    _closure4_slot0 = var4;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                var _closure4_slot0 = michal;
-                tangon = _closure1_slot5;
-                zuuluu = tangon.log;
-                michal = 'Storage loaded';
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = _closure2_slot0;
-                michal = function(argFoo) { // Original name: sendMessage
-                    entity = undefined;
-                    tangon = _closure4_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var _closure4_slot0 = var2;
+                var4 = _closure1_slot5;
+                var3 = var4.log;
+                var2 = 'Storage loaded';
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure2_slot0;
+                var2 = function sendMessage(arg1) {
+                    var1 = undefined;
+                    var4 = _closure4_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                entity = undefined;
-                michal = michal.bind(entity)(zuuluu);
-                return entity;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var3);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    michal = argGra;
-    michal['exports'] = report;
-    michal = 6;
-    michal = tangon[michal];
-    tangon = zuuluu.bind(entity)(michal);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'modules/headless_tasks/android/DirectReply.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+    var2 = native5;
+    var2['exports'] = var5;
+    var2 = 6;
+    var2 = var4[var2];
+    var4 = var3.bind(var1)(var2);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'modules/headless_tasks/android/DirectReply.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

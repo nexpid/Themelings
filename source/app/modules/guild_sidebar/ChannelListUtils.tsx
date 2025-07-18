@@ -1,54 +1,54 @@
 // app/modules/guild_sidebar/ChannelListUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/guild_sidebar/ChannelListUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: hasStream
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/guild_sidebar/ChannelListUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function hasStream(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 62; continue _fun0001 }
  9:
-            entity = zuuluu.length;
-            michal = 0;
-            entity = michal < entity;
-            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
+            var1 = var3.length;
+            var2 = 0;
+            var1 = var2 < var1;
+            if(!var1) { _fun0001_ip = 54; continue _fun0001 }
  23:
-            entity = zuuluu[michal];
-            entity = entity.voiceState;
-            entity = entity.selfStream;
-            if(entity) { _fun00002_ip = 58; continue _fun00001 }
+            var1 = var3[var2];
+            var1 = var1.voiceState;
+            var1 = var1.selfStream;
+            if(var1) { _fun0001_ip = 58; continue _fun0001 }
  42:
-            michal = michal + 1;
-            entity = zuuluu.length;
-            if(michal < entity) { _fun00002_ip = 23; continue _fun00001 }
+            var2 = var2 + 1;
+            var1 = var3.length;
+            if(var2 < var1) { _fun0001_ip = 23; continue _fun0001 }
  54:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  58:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  62:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['hasStream'] = michal;
-    return entity;
+    var3['hasStream'] = var2;
+    return var1;
 })();

@@ -1,219 +1,219 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/utils/deepmerge.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    michal = global;
-    golfie = michal.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    report = true;
-    tangon['value'] = report;
-    michal = '__esModule';
-    michal = oscard.bind(golfie)(zuuluu, michal, tangon);
-    michal = function(argFoo) { // Original name: isObject
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var2 = global;
+    var7 = var2.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var5 = true;
+    var4['value'] = var5;
+    var2 = '__esModule';
+    var2 = var6.bind(var7)(var3, var2, var4);
+    var2 = function isObject(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = 'object';
-            entity = typeof report;
-            if(!(michal === entity)) { _fun00002_ip = 20; continue _fun00001 }
+            var5 = arg1;
+            var2 = 'object';
+            var1 = typeof var5;
+            if(!(var2 === var1)) { _fun0001_ip = 20; continue _fun0001 }
  14:
-            zuuluu = null;
-            if(!(zuuluu === report)) { _fun00002_ip = 24; continue _fun00001 }
+            var3 = null;
+            if(!(var3 === var5)) { _fun0001_ip = 24; continue _fun0001 }
  20:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  24:
-            entity = global;
-            michal = entity.Object;
-            michal = michal.getPrototypeOf;
-            tangon = 'function';
-            michal = typeof michal;
-            if(!(tangon !== michal)) { _fun00002_ip = 85; continue _fun00001 }
+            var1 = global;
+            var2 = var1.Object;
+            var2 = var2.getPrototypeOf;
+            var4 = 'function';
+            var2 = typeof var2;
+            if(!(var4 !== var2)) { _fun0001_ip = 85; continue _fun0001 }
  49:
-            michal = entity.Object;
-            michal = michal.prototype;
-            tangon = michal.toString;
-            michal = tangon.call;
-            tangon = michal.bind(tangon)(report);
-            michal = '[object Object]';
-            michal = michal === tangon;
-            return michal;
+            var2 = var1.Object;
+            var2 = var2.prototype;
+            var4 = var2.toString;
+            var2 = var4.call;
+            var4 = var2.bind(var4)(var5);
+            var2 = '[object Object]';
+            var2 = var2 === var4;
+            return var2;
  85:
-            tangon = entity.Object;
-            michal = tangon.getPrototypeOf;
-            michal = michal.bind(tangon)(report);
-            entity = entity.Object;
-            entity = entity.prototype;
-            entity = michal === entity;
-            if(entity) { _fun00002_ip = 124; continue _fun00001 }
+            var4 = var1.Object;
+            var2 = var4.getPrototypeOf;
+            var2 = var2.bind(var4)(var5);
+            var1 = var1.Object;
+            var1 = var1.prototype;
+            var1 = var2 === var1;
+            if(var1) { _fun0001_ip = 124; continue _fun0001 }
  120:
-            entity = zuuluu === michal;
+            var1 = var3 === var2;
  124:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot0 = michal;
-    michal = function(argFoo) { // Original name: merge
-        oscard = 0;
-        tangon = copyRestArgs(oscard);
-        zuuluu = tangon.reduce;
-        michal = function(argFoo, argBar) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot0 = var2;
+    var2 = function merge(arg1) {
+        var6 = 0;
+        var4 = copyRestArgs(var6);
+        var3 = var4.reduce;
+        var2 = function(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                oscard = argBar;
-                var _closure3_slot0 = michal;
-                var _closure3_slot1 = oscard;
-                entity = global;
-                report = entity.Array;
-                tangon = report.isArray;
-                tangon = tangon.bind(report)(oscard);
-                if(tangon) { _fun00004_ip = 72; continue _fun00003 }
+                var2 = arg1;
+                var6 = arg2;
+                var _closure3_slot0 = var2;
+                var _closure3_slot1 = var6;
+                var1 = global;
+                var5 = var1.Array;
+                var4 = var5.isArray;
+                var4 = var4.bind(var5)(var6);
+                if(var4) { _fun0002_ip = 72; continue _fun0002 }
  37:
-                report = entity.Object;
-                tangon = report.keys;
-                report = tangon.bind(report)(oscard);
-                tangon = report.forEach;
-                zuuluu = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var5 = var1.Object;
+                var4 = var5.keys;
+                var5 = var4.bind(var5)(var6);
+                var4 = var5.forEach;
+                var3 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = argFoo;
-                        michal = ['__proto__', 'constructor', 'prototype'];
-                        entity = michal.includes;
-                        entity = entity.bind(michal)(zuuluu);
-                        if(entity) { _fun00006_ip = 293; continue _fun00005 }
+                        var3 = arg1;
+                        var2 = ['__proto__', 'constructor', 'prototype'];
+                        var1 = var2.includes;
+                        var1 = var1.bind(var2)(var3);
+                        if(var1) { _fun0003_ip = 293; continue _fun0003 }
  29:
-                        golfie = global;
-                        report = golfie.Array;
-                        michal = report.isArray;
-                        entity = _closure3_slot0;
-                        entity = entity[zuuluu];
-                        entity = michal.bind(report)(entity);
-                        if(!entity) { _fun00006_ip = 88; continue _fun00005 }
+                        var7 = global;
+                        var5 = var7.Array;
+                        var2 = var5.isArray;
+                        var1 = _closure3_slot0;
+                        var1 = var1[var3];
+                        var1 = var2.bind(var5)(var1);
+                        if(!var1) { _fun0003_ip = 88; continue _fun0003 }
  61:
-                        report = golfie.Array;
-                        michal = report.isArray;
-                        entity = _closure3_slot1;
-                        entity = entity[zuuluu];
-                        entity = michal.bind(report)(entity);
-                        if(entity) { _fun00006_ip = 186; continue _fun00005 }
+                        var5 = var7.Array;
+                        var2 = var5.isArray;
+                        var1 = _closure3_slot1;
+                        var1 = var1[var3];
+                        var1 = var2.bind(var5)(var1);
+                        if(var1) { _fun0003_ip = 186; continue _fun0003 }
  88:
-                        report = _closure1_slot0;
-                        michal = _closure3_slot0;
-                        michal = michal[zuuluu];
-                        option = undefined;
-                        michal = report.bind(option)(michal);
-                        if(!michal) { _fun00006_ip = 133; continue _fun00005 }
+                        var5 = _closure1_slot0;
+                        var2 = _closure3_slot0;
+                        var2 = var2[var3];
+                        var8 = undefined;
+                        var2 = var5.bind(var8)(var2);
+                        if(!var2) { _fun0003_ip = 133; continue _fun0003 }
  113:
-                        report = _closure1_slot0;
-                        michal = _closure3_slot1;
-                        michal = michal[zuuluu];
-                        michal = report.bind(option)(michal);
-                        if(michal) { _fun00006_ip = 154; continue _fun00005 }
+                        var5 = _closure1_slot0;
+                        var2 = _closure3_slot1;
+                        var2 = var2[var3];
+                        var2 = var5.bind(var8)(var2);
+                        if(var2) { _fun0003_ip = 154; continue _fun0003 }
  133:
-                        report = _closure3_slot0;
-                        michal = _closure3_slot1;
-                        michal = michal[zuuluu];
-                        report[zuuluu] = michal;
-                        _fun00006_ip = 293; continue _fun00005;
+                        var5 = _closure3_slot0;
+                        var2 = _closure3_slot1;
+                        var2 = var2[var3];
+                        var5[var3] = var2;
+                        _fun0003_ip = 293; continue _fun0003;
  154:
-                        michal = _closure3_slot0;
-                        oscard = _closure1_slot1;
-                        report = michal[zuuluu];
-                        entity = _closure3_slot1;
-                        entity = entity[zuuluu];
-                        entity = oscard.bind(option)(report, entity);
-                        michal[zuuluu] = entity;
-                        _fun00006_ip = 293; continue _fun00005;
+                        var2 = _closure3_slot0;
+                        var6 = _closure1_slot1;
+                        var5 = var2[var3];
+                        var1 = _closure3_slot1;
+                        var1 = var1[var3];
+                        var1 = var6.bind(var8)(var5, var1);
+                        var2[var3] = var1;
+                        _fun0003_ip = 293; continue _fun0003;
  186:
-                        michal = _closure3_slot0;
-                        entity = _closure1_slot1;
-                        entity = entity.options;
-                        entity = entity.mergeArrays;
-                        if(entity) { _fun00006_ip = 221; continue _fun00005 }
+                        var2 = _closure3_slot0;
+                        var1 = _closure1_slot1;
+                        var1 = var1.options;
+                        var1 = var1.mergeArrays;
+                        if(var1) { _fun0003_ip = 221; continue _fun0003 }
  211:
-                        entity = _closure3_slot1;
-                        entity = entity[zuuluu];
-                        _fun00006_ip = 289; continue _fun00005;
+                        var1 = _closure3_slot1;
+                        var1 = var1[var3];
+                        _fun0003_ip = 289; continue _fun0003;
  221:
-                        oscard = golfie.Array;
-                        report = oscard.from;
-                        option = golfie.Set;
-                        golfie = _closure3_slot0;
-                        verify = golfie[zuuluu];
-                        golfie = verify.concat;
-                        tangon = _closure3_slot1;
-                        tangon = tangon[zuuluu];
-                        yankee = golfie.bind(verify)(tangon);
-                        golfie = option.prototype;
-                        golfie = Object.create(golfie, {constructor: {value: option}});
-                        romeon = golfie;
-                        tangon = new romeon[option](yankee, offset);
-                        tangon = tangon instanceof Object ? tangon : golfie;
-                        entity = report.bind(oscard)(tangon);
+                        var6 = var7.Array;
+                        var5 = var6.from;
+                        var8 = var7.Set;
+                        var7 = _closure3_slot0;
+                        var9 = var7[var3];
+                        var7 = var9.concat;
+                        var4 = _closure3_slot1;
+                        var4 = var4[var3];
+                        var11 = var7.bind(var9)(var4);
+                        var7 = var8.prototype;
+                        var7 = Object.create(var7, {constructor: {value: var8}});
+                        var12 = var7;
+                        var4 = new var12[var8](var11, var10);
+                        var4 = var4 instanceof Object ? var4 : var7;
+                        var1 = var5.bind(var6)(var4);
  289:
-                        michal[zuuluu] = entity;
+                        var2[var3] = var1;
  293:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                zuuluu = tangon.bind(report)(zuuluu);
-                return michal;
+                var3 = var4.bind(var5)(var3);
+                return var2;
  72:
-                zuuluu = entity.TypeError;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                golfie = 'Arguments provided to ts-deepmerge must be objects, not arrays.';
-                option = michal;
-                entity = new option[zuuluu](golfie, oscard);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var3 = var1.TypeError;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var7 = 'Arguments provided to ts-deepmerge must be objects, not arrays.';
+                var8 = var2;
+                var1 = new var8[var3](var7, var6);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
-        entity = {};
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = {};
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot1 = michal;
-    tangon = {};
-    tangon['mergeArrays'] = report;
-    var _closure1_slot2 = tangon;
-    michal['options'] = tangon;
-    entity = function(argFoo, argBar) {
-        option = 1;
-        report = copyRestArgs(option);
-        zuuluu = _closure1_slot1;
-        entity = {};
-        tangon = true;
-        entity['mergeArrays'] = tangon;
-        golfie = argFoo;
-        option = entity;
-        tangon = copyDataProperties(option, golfie);
-        zuuluu['options'] = entity;
-        tangon = new Array(0);
-        oscard = 0;
-        option = tangon;
-        golfie = report;
-        entity = arraySpread(option, golfie, oscard);
-        oscard = undefined;
-        option = zuuluu;
-        golfie = tangon;
-        entity = apply(option, golfie, oscard);
-        michal = _closure1_slot2;
-        zuuluu['options'] = michal;
-        return entity;
+    var _closure1_slot1 = var2;
+    var4 = {};
+    var4['mergeArrays'] = var5;
+    var _closure1_slot2 = var4;
+    var2['options'] = var4;
+    var1 = function(arg1, arg2) {
+        var8 = 1;
+        var5 = copyRestArgs(var8);
+        var3 = _closure1_slot1;
+        var1 = {};
+        var4 = true;
+        var1['mergeArrays'] = var4;
+        var7 = arg1;
+        var8 = var1;
+        var4 = copyDataProperties(var8, var7);
+        var3['options'] = var1;
+        var4 = new Array(0);
+        var6 = 0;
+        var8 = var4;
+        var7 = var5;
+        var1 = arraySpread(var8, var7, var6);
+        var6 = undefined;
+        var8 = var3;
+        var7 = var4;
+        var1 = apply(var8, var7, var6);
+        var2 = _closure1_slot2;
+        var3['options'] = var2;
+        return var1;
     };
-    michal['withOptions'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/guild_channels/layouts/utils/deepmerge.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['withOptions'] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/guild_channels/layouts/utils/deepmerge.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

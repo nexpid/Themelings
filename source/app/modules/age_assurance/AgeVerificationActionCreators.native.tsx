@@ -1,234 +1,234 @@
 // app/modules/age_assurance/AgeVerificationActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    golfie = oscard[michal];
-    michal = argCor;
-    michal = michal.bind(entity)(golfie);
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.AGE_VERIFICATION_MODAL_KEY;
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot5 = michal;
-    michal = {};
-    golfie = function(argFoo) { // Original name: showAgeVerification
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var7 = var6[var2];
+    var2 = native4;
+    var2 = var2.bind(var1)(var7);
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.AGE_VERIFICATION_MODAL_KEY;
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var7 = function showAgeVerification(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = report.onClose;
-            entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 24; continue _fun00001 }
+            var5 = arg1;
+            var2 = var5.onClose;
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0001_ip = 24; continue _fun0001 }
  17:
-            michal = function() { // Original name: s
-                entity = undefined;
-                return entity;
+            var2 = function s() {
+                var1 = undefined;
+                return var1;
             };
  24:
-            var _closure2_slot0 = michal;
-            michal = null;
-            tangon = Object.create(michal);
-            michal = 0;
-            tangon['onClose'] = michal;
-            verify = {};
-            option = report;
-            golfie = tangon;
-            michal = copyDataProperties(verify, option, golfie);
-            var _closure2_slot1 = michal;
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            tangon = 4;
-            tangon = oscard[tangon];
-            oscard = report.bind(entity)(tangon);
-            report = oscard.pushLazy;
-            tangon = _closure1_slot3;
-            zuuluu = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot0 = var2;
+            var2 = null;
+            var4 = Object.create(var2);
+            var2 = 0;
+            var4['onClose'] = var2;
+            var9 = {};
+            var8 = var5;
+            var7 = var4;
+            var2 = copyDataProperties(var9, var8, var7);
+            var _closure2_slot1 = var2;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 4;
+            var4 = var6[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.pushLazy;
+            var4 = _closure1_slot3;
+            var3 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 88; continue _fun00003 }
+                        if(var2) { _fun0002_ip = 88; continue _fun0002 }
  9:
-                        oscard = undefined;
-                        var _closure4_slot0 = oscard;
-                        report = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        tangon = 6;
-                        tangon = michal[tangon];
-                        report = report.bind(oscard)(tangon);
-                        tangon = 5;
-                        tangon = michal[tangon];
-                        michal = michal.paths;
-                        michal = report.bind(oscard)(tangon, michal);
+                        var6 = undefined;
+                        var _closure4_slot0 = var6;
+                        var5 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var4 = 6;
+                        var4 = var2[var4];
+                        var5 = var5.bind(var6)(var4);
+                        var4 = 5;
+                        var4 = var2[var4];
+                        var2 = var2.paths;
+                        var2 = var5.bind(var6)(var4, var2);
                         SaveGenerator(address=60);
  58:
-                        return michal;
+                        return var2;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00004_ip = 85; continue _fun00003 }
+                        if(var4) { _fun0002_ip = 85; continue _fun0002 }
  66:
-                        tangon = michal.default;
-                        _closure4_slot0 = tangon;
-                        zuuluu = function() {
-                            tangon = _closure1_slot5;
-                            zuuluu = _closure4_slot0;
-                            michal = {};
-                            report = _closure2_slot0;
-                            michal['onClose'] = report;
-                            oscard = _closure2_slot1;
-                            golfie = michal;
-                            entity = copyDataProperties(golfie, oscard);
-                            entity = undefined;
-                            entity = tangon.bind(entity)(zuuluu, michal);
-                            return entity;
+                        var4 = var2.default;
+                        _closure4_slot0 = var4;
+                        var3 = function() {
+                            var4 = _closure1_slot5;
+                            var3 = _closure4_slot0;
+                            var2 = {};
+                            var5 = _closure2_slot0;
+                            var2['onClose'] = var5;
+                            var6 = _closure2_slot1;
+                            var7 = var2;
+                            var1 = copyDataProperties(var7, var6);
+                            var1 = undefined;
+                            var1 = var4.bind(var1)(var3, var2);
+                            return var1;
                         };
-                        return zuuluu;
+                        return var3;
  85:
-                        return michal;
+                        return var2;
  88:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = _closure1_slot4;
-            michal = {};
-            michal = report.bind(oscard)(tangon, michal, zuuluu);
-            return entity;
+            var4 = var4.bind(var1)(var3);
+            var3 = _closure1_slot4;
+            var2 = {};
+            var2 = var5.bind(var6)(var4, var2, var3);
+            return var1;
         }
     };
-    michal['showAgeVerification'] = golfie;
-    golfie = function(argFoo) { // Original name: showAgeVerificationGetStartedModal
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['showAgeVerification'] = var7;
+    var7 = function showAgeVerificationGetStartedModal(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.isAgeVerified;
-            zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00006_ip = 84; continue _fun00005 }
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isAgeVerified;
+            var3 = var3.bind(var4)();
+            if(!var3) { _fun0003_ip = 84; continue _fun0003 }
  47:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 8;
-            tangon = golfie[tangon];
-            golfie = oscard.bind(entity)(tangon);
-            oscard = golfie.isEligibleForSensitiveContentDefaults;
-            tangon = 'age_verification_utils';
-            zuuluu = oscard.bind(golfie)(tangon);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 8;
+            var4 = var7[var4];
+            var7 = var6.bind(var1)(var4);
+            var6 = var7.isEligibleForSensitiveContentDefaults;
+            var4 = 'age_verification_utils';
+            var3 = var6.bind(var7)(var4);
  84:
-            var _closure2_slot1 = zuuluu;
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.pushLazy;
-            report = _closure1_slot3;
-            michal = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var _closure2_slot1 = var3;
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 4;
+            var3 = var6[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.pushLazy;
+            var5 = _closure1_slot3;
+            var2 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00008_ip = 88; continue _fun00007 }
+                        if(var2) { _fun0004_ip = 88; continue _fun0004 }
  9:
-                        oscard = undefined;
-                        var _closure4_slot0 = oscard;
-                        report = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        tangon = 6;
-                        tangon = michal[tangon];
-                        report = report.bind(oscard)(tangon);
-                        tangon = 9;
-                        tangon = michal[tangon];
-                        michal = michal.paths;
-                        michal = report.bind(oscard)(tangon, michal);
+                        var6 = undefined;
+                        var _closure4_slot0 = var6;
+                        var5 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var4 = 6;
+                        var4 = var2[var4];
+                        var5 = var5.bind(var6)(var4);
+                        var4 = 9;
+                        var4 = var2[var4];
+                        var2 = var2.paths;
+                        var2 = var5.bind(var6)(var4, var2);
                         SaveGenerator(address=60);
  58:
-                        return michal;
+                        return var2;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00008_ip = 85; continue _fun00007 }
+                        if(var4) { _fun0004_ip = 85; continue _fun0004 }
  66:
-                        tangon = michal.default;
-                        _closure4_slot0 = tangon;
-                        zuuluu = function() {
-                            tangon = _closure1_slot5;
-                            zuuluu = _closure4_slot0;
-                            michal = {};
-                            report = _closure2_slot0;
-                            michal['entryPoint'] = report;
-                            entity = _closure2_slot1;
-                            michal['isRetry'] = entity;
-                            entity = undefined;
-                            entity = tangon.bind(entity)(zuuluu, michal);
-                            return entity;
+                        var4 = var2.default;
+                        _closure4_slot0 = var4;
+                        var3 = function() {
+                            var4 = _closure1_slot5;
+                            var3 = _closure4_slot0;
+                            var2 = {};
+                            var5 = _closure2_slot0;
+                            var2['entryPoint'] = var5;
+                            var1 = _closure2_slot1;
+                            var2['isRetry'] = var1;
+                            var1 = undefined;
+                            var1 = var4.bind(var1)(var3, var2);
+                            return var1;
                         };
-                        return zuuluu;
+                        return var3;
  85:
-                        return michal;
+                        return var2;
  88:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            michal = report.bind(entity)(michal);
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var5.bind(var1)(var2);
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    michal['showAgeVerificationGetStartedModal'] = golfie;
-    tangon = function(argFoo) { // Original name: openUrl
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 10;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.openURL;
-        michal = argFoo;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['showAgeVerificationGetStartedModal'] = var7;
+    var4 = function openUrl(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.openURL;
+        var2 = arg1;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['openUrl'] = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/age_assurance/AgeVerificationActionCreators.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['openUrl'] = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/age_assurance/AgeVerificationActionCreators.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

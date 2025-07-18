@@ -1,324 +1,324 @@
 // app/utils/FileManagerUtils.android.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = function() { // Original name: _readFile
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = function _readFile() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 299; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 299; continue _fun0001 }
  10:
-                    oscard = argBar;
-                    report = argBaz;
-                    yankee = undefined;
-                    verify = undefined;
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    romeon = 2;
-                    michal = michal[romeon];
-                    zuuluu = zuuluu.bind(yankee)(michal);
-                    michal = null;
-                    golfie = michal == zuuluu;
-                    zuuluu = null;
-                    if(golfie) { _fun00002_ip = 140; continue _fun00001 }
+                    var6 = arg2;
+                    var5 = arg3;
+                    var11 = undefined;
+                    var9 = undefined;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var12 = 2;
+                    var2 = var2[var12];
+                    var3 = var3.bind(var11)(var2);
+                    var2 = null;
+                    var7 = var2 == var3;
+                    var3 = null;
+                    if(var7) { _fun0001_ip = 140; continue _fun0001 }
  54:
-                    option = 'cache';
-                    golfie = argFoo;
-                    if(!(option !== golfie)) { _fun00002_ip = 102; continue _fun00001 }
+                    var8 = 'cache';
+                    var7 = arg1;
+                    if(!(var8 !== var7)) { _fun0001_ip = 102; continue _fun0001 }
  65:
-                    option = _closure1_slot0;
-                    golfie = _closure1_slot1;
-                    golfie = golfie[romeon];
-                    option = option.bind(yankee)(golfie);
-                    golfie = option.getConstants;
-                    golfie = golfie.bind(option)();
-                    golfie = golfie.DocumentsDirPath;
-                    _fun00002_ip = 137; continue _fun00001;
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var7 = var7[var12];
+                    var8 = var8.bind(var11)(var7);
+                    var7 = var8.getConstants;
+                    var7 = var7.bind(var8)();
+                    var7 = var7.DocumentsDirPath;
+                    _fun0001_ip = 137; continue _fun0001;
  102:
-                    offset = _closure1_slot0;
-                    option = _closure1_slot1;
-                    option = option[romeon];
-                    offset = offset.bind(yankee)(option);
-                    option = offset.getConstants;
-                    option = option.bind(offset)();
-                    golfie = option.CacheDirPath;
+                    var10 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var8 = var8[var12];
+                    var10 = var10.bind(var11)(var8);
+                    var8 = var10.getConstants;
+                    var8 = var8.bind(var10)();
+                    var7 = var8.CacheDirPath;
  137:
-                    zuuluu = golfie;
+                    var3 = var7;
  140:
-                    verify = zuuluu;
-                    if(!(michal != zuuluu)) { _fun00002_ip = 296; continue _fun00001 }
+                    var9 = var3;
+                    if(!(var2 != var3)) { _fun0001_ip = 296; continue _fun0001 }
  150:
-                    golfie = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    zuuluu = zuuluu[romeon];
-                    option = golfie.bind(yankee)(zuuluu);
-                    golfie = option.fileExists;
-                    zuuluu = verify;
-                    offset = '/';
-                    foxtra = zuuluu + offset;
-                    zuuluu = oscard;
-                    zuuluu = foxtra + zuuluu;
-                    zuuluu = golfie.bind(option)(zuuluu);
+                    var7 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var3 = var3[var12];
+                    var8 = var7.bind(var11)(var3);
+                    var7 = var8.fileExists;
+                    var3 = var9;
+                    var10 = '/';
+                    var13 = var3 + var10;
+                    var3 = var6;
+                    var3 = var13 + var3;
+                    var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=202);
  200:
-                    return zuuluu;
+                    return var3;
  202:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 293; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 293; continue _fun0001 }
  208:
-                    if(zuuluu) { _fun00002_ip = 214; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 214; continue _fun0001 }
  211:
-                    return michal;
+                    return var2;
  214: // try_start_0
-                    option = _closure1_slot0;
-                    golfie = _closure1_slot1;
-                    golfie = golfie[romeon];
-                    option = option.bind(yankee)(golfie);
-                    golfie = option.readFile;
-                    verify = verify + offset;
-                    oscard = verify + oscard;
-                    report = golfie.bind(option)(oscard, report);
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var7 = var7[var12];
+                    var8 = var8.bind(var11)(var7);
+                    var7 = var8.readFile;
+                    var9 = var9 + var10;
+                    var6 = var9 + var6;
+                    var5 = var7.bind(var8)(var6, var5);
                     SaveGenerator(address=255);
  253:
-                    return report;
+                    return var5;
  255:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 264; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 264; continue _fun0001 }
  261: // try_end0
-                    return report;
+                    return var5;
  264:
-                    return report;
+                    return var5;
  267: // catch_target0
                     CatchBlockStart(arg_register=6);
-                    oscard = _closure1_slot3;
-                    report = oscard.error;
-                    tangon = 'Failed to read file from disk';
-                    tangon = report.bind(oscard)(tangon, golfie);
-                    return michal;
+                    var6 = _closure1_slot3;
+                    var5 = var6.error;
+                    var4 = 'Failed to read file from disk';
+                    var4 = var5.bind(var6)(var4, var7);
+                    return var2;
  293:
-                    return zuuluu;
+                    return var3;
  296:
-                    return michal;
+                    return var2;
  299:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    golfie = oscard.bind(entity)(tangon);
-    tangon = golfie.prototype;
-    oscard = Object.create(tangon, {constructor: {value: golfie}});
-    yankee = 'FileManagerUtils';
-    romeon = oscard;
-    tangon = new romeon[golfie](yankee, offset);
-    tangon = tangon instanceof Object ? tangon : oscard;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/FileManagerUtils.android.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: writeFile
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var7 = var6.bind(var1)(var4);
+    var4 = var7.prototype;
+    var6 = Object.create(var4, {constructor: {value: var7}});
+    var11 = 'FileManagerUtils';
+    var12 = var6;
+    var4 = new var12[var7](var11, var10);
+    var4 = var4 instanceof Object ? var4 : var6;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/FileManagerUtils.android.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function writeFile(arg1, arg2, arg3, arg4) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 2;
-            entity = entity[oscard];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            michal = null;
-            tangon = michal == entity;
-            entity = undefined;
-            if(tangon) { _fun00004_ip = 97; continue _fun00003 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 2;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var2 = null;
+            var4 = var2 == var1;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 97; continue _fun0002 }
  36:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            option = tangon.bind(report)(zuuluu);
-            golfie = option.writeFile;
-            romeon = argFoo;
-            yankee = argBar;
-            offset = argBaz;
-            verify = argCor;
-            foxtra = option;
-            report = foxtra[golfie](romeon, yankee, offset, verify, option);
-            tangon = report.then;
-            zuuluu = function(argFoo) {
-                entity = global;
-                entity = entity.HermesInternal;
-                zuuluu = entity.concat;
-                michal = 'file:';
-                entity = argFoo;
-                entity = zuuluu.bind(michal)(entity);
-                return entity;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var8 = var4.bind(var5)(var3);
+            var7 = var8.writeFile;
+            var12 = arg1;
+            var11 = arg2;
+            var10 = arg3;
+            var9 = arg4;
+            var13 = var8;
+            var5 = var13[var7](var12, var11, var10, var9, var8);
+            var4 = var5.then;
+            var3 = function(arg1) {
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var3 = var1.concat;
+                var2 = 'file:';
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+                return var1;
             };
-            entity = tangon.bind(report)(zuuluu);
+            var1 = var4.bind(var5)(var3);
  97:
-            if(!(michal == entity)) { _fun00004_ip = 126; continue _fun00003 }
+            if(!(var2 == var1)) { _fun0002_ip = 126; continue _fun0002 }
  101:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.reject;
-            michal = "RTNFileManager doesn't exist?";
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.reject;
+            var2 = "RTNFileManager doesn't exist?";
+            var1 = var3.bind(var4)(var2);
  126:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['writeFile'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: moveFile
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['writeFile'] = var4;
+    var4 = function moveFile(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 2;
-            entity = entity[oscard];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            michal = null;
-            tangon = michal == entity;
-            entity = undefined;
-            if(tangon) { _fun00006_ip = 75; continue _fun00005 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 2;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var2 = null;
+            var4 = var2 == var1;
+            var1 = undefined;
+            if(var4) { _fun0003_ip = 75; continue _fun0003 }
  36:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            golfie = tangon.bind(report)(zuuluu);
-            oscard = golfie.moveFile;
-            report = argFoo;
-            tangon = argBar;
-            zuuluu = argBaz;
-            entity = oscard.bind(golfie)(report, tangon, zuuluu);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var7 = var4.bind(var5)(var3);
+            var6 = var7.moveFile;
+            var5 = arg1;
+            var4 = arg2;
+            var3 = arg3;
+            var1 = var6.bind(var7)(var5, var4, var3);
  75:
-            if(!(michal == entity)) { _fun00006_ip = 100; continue _fun00005 }
+            if(!(var2 == var1)) { _fun0003_ip = 100; continue _fun0003 }
  79:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.reject;
-            michal = false;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.reject;
+            var2 = false;
+            var1 = var3.bind(var4)(var2);
  100:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['moveFile'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: removeFile
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['moveFile'] = var4;
+    var4 = function removeFile(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 2;
-            entity = entity[oscard];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            michal = null;
-            tangon = michal == entity;
-            entity = undefined;
-            if(tangon) { _fun00008_ip = 71; continue _fun00007 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 2;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var2 = null;
+            var4 = var2 == var1;
+            var1 = undefined;
+            if(var4) { _fun0004_ip = 71; continue _fun0004 }
  36:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            oscard = tangon.bind(report)(zuuluu);
-            report = oscard.removeFile;
-            tangon = argFoo;
-            zuuluu = argBar;
-            entity = report.bind(oscard)(tangon, zuuluu);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var6 = var4.bind(var5)(var3);
+            var5 = var6.removeFile;
+            var4 = arg1;
+            var3 = arg2;
+            var1 = var5.bind(var6)(var4, var3);
  71:
-            if(!(michal == entity)) { _fun00008_ip = 96; continue _fun00007 }
+            if(!(var2 == var1)) { _fun0004_ip = 96; continue _fun0004 }
  75:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.reject;
-            michal = false;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.reject;
+            var2 = false;
+            var1 = var3.bind(var4)(var2);
  96:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['removeFile'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: clearFolder
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['removeFile'] = var4;
+    var4 = function clearFolder(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 2;
-            entity = entity[oscard];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            michal = null;
-            tangon = michal == entity;
-            entity = undefined;
-            if(tangon) { _fun00010_ip = 71; continue _fun00009 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 2;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var2 = null;
+            var4 = var2 == var1;
+            var1 = undefined;
+            if(var4) { _fun0005_ip = 71; continue _fun0005 }
  36:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            oscard = tangon.bind(report)(zuuluu);
-            report = oscard.clearFolder;
-            tangon = argFoo;
-            zuuluu = argBar;
-            entity = report.bind(oscard)(tangon, zuuluu);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var6 = var4.bind(var5)(var3);
+            var5 = var6.clearFolder;
+            var4 = arg1;
+            var3 = arg2;
+            var1 = var5.bind(var6)(var4, var3);
  71:
-            if(!(michal == entity)) { _fun00010_ip = 96; continue _fun00009 }
+            if(!(var2 == var1)) { _fun0005_ip = 96; continue _fun0005 }
  75:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.reject;
-            michal = false;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.reject;
+            var2 = false;
+            var1 = var3.bind(var4)(var2);
  96:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['clearFolder'] = tangon;
-    michal = function() { // Original name: readFile
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['clearFolder'] = var4;
+    var2 = function readFile() {
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['readFile'] = michal;
-    return entity;
+    var3['readFile'] = var2;
+    return var1;
 })();

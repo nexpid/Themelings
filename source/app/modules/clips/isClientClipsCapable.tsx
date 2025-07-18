@@ -1,75 +1,75 @@
 // app/modules/clips/isClientClipsCapable.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argCor;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Features;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/clips/isClientClipsCapable.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: isClientClipsCapable
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native4;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Features;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/clips/isClientClipsCapable.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isClientClipsCapable(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            golfie = entity.ClipsExperiment;
-            tangon = golfie.getCurrentConfig;
-            michal = {};
-            entity = 'isClipsClientCapable';
-            michal['location'] = entity;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = tangon.bind(golfie)(michal, entity);
-            entity = entity.ignorePlatformRestriction;
-            if(entity) { _fun00002_ip = 143; continue _fun00001 }
+            var5 = arg1;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var7 = var1.ClipsExperiment;
+            var4 = var7.getCurrentConfig;
+            var2 = {};
+            var1 = 'isClipsClientCapable';
+            var2['location'] = var1;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var4.bind(var7)(var2, var1);
+            var1 = var1.ignorePlatformRestriction;
+            if(var1) { _fun0001_ip = 143; continue _fun0001 }
  76:
-            tangon = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 2;
-            michal = golfie[michal];
-            tangon = tangon.bind(oscard)(michal);
-            michal = tangon.isDesktop;
-            michal = michal.bind(tangon)();
-            if(!michal) { _fun00002_ip = 140; continue _fun00001 }
+            var4 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var2 = var7[var2];
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.isDesktop;
+            var2 = var2.bind(var4)();
+            if(!var2) { _fun0001_ip = 140; continue _fun0001 }
  109:
-            tangon = report.getMediaEngine;
-            report = tangon.bind(report)();
-            tangon = report.supports;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.CLIPS;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.getMediaEngine;
+            var5 = var4.bind(var5)();
+            var4 = var5.supports;
+            var3 = _closure1_slot3;
+            var3 = var3.CLIPS;
+            var2 = var4.bind(var5)(var3);
  140:
-            entity = michal;
+            var1 = var2;
  143:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

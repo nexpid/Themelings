@@ -1,227 +1,227 @@
 // app/modules/messages/useReactionPermissions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    var _closure1_slot8 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/useReactionPermissions.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useReactionPermissions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot8 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/useReactionPermissions.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useReactionPermissions(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            romeon = argFoo;
-            var _closure2_slot0 = romeon;
-            entity = null;
-            michal = entity == romeon;
-            oscard = undefined;
-            backup = undefined;
-            if(michal) { _fun00002_ip = 27; continue _fun00001 }
+            var12 = arg1;
+            var _closure2_slot0 = var12;
+            var1 = null;
+            var2 = var1 == var12;
+            var6 = undefined;
+            var14 = undefined;
+            if(var2) { _fun0001_ip = 27; continue _fun0001 }
  22:
-            backup = romeon.guild_id;
+            var14 = var12.guild_id;
  27:
-            var _closure2_slot1 = backup;
-            option = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            golfie = 6;
-            zuuluu = foxtra[golfie];
-            yankee = option.bind(oscard)(zuuluu);
-            offset = yankee.useStateFromStores;
-            zuuluu = _closure1_slot6;
-            verify = new Array(1);
-            verify[0] = zuuluu;
-            tangon = new Array(1);
-            tangon[0] = backup;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var14;
+            var8 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var7 = 6;
+            var3 = var13[var7];
+            var11 = var8.bind(var6)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = _closure1_slot6;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var4 = new Array(1);
+            var4[0] = var14;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    entity = entity == zuuluu;
-                    if(entity) { _fun00004_ip = 38; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var1 = var1 == var3;
+                    if(var1) { _fun0002_ip = 38; continue _fun0002 }
  16:
-                    tangon = _closure1_slot6;
-                    zuuluu = tangon.canChatInGuild;
-                    michal = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot6;
+                    var3 = var4.canChatInGuild;
+                    var2 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2);
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            yankee = offset.bind(yankee)(verify, zuuluu, tangon);
-            var _closure2_slot2 = yankee;
-            zuuluu = foxtra[golfie];
-            kiloes = option.bind(oscard)(zuuluu);
-            offset = kiloes.useStateFromStores;
-            zuuluu = _closure1_slot4;
-            verify = new Array(1);
-            verify[0] = zuuluu;
-            tangon = new Array(1);
-            tangon[0] = backup;
-            zuuluu = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var11 = var10.bind(var11)(var9, var3, var4);
+            var _closure2_slot2 = var11;
+            var3 = var13[var7];
+            var15 = var8.bind(var6)(var3);
+            var10 = var15.useStateFromStores;
+            var3 = _closure1_slot4;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var4 = new Array(1);
+            var4[0] = var14;
+            var3 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00006_ip = 38; continue _fun00005 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0003_ip = 38; continue _fun0003 }
  16:
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.isLurking;
-                    michal = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot4;
+                    var3 = var4.isLurking;
+                    var2 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2);
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = offset.bind(kiloes)(verify, zuuluu, tangon);
-            zuuluu = foxtra[golfie];
-            sizing = option.bind(oscard)(zuuluu);
-            kiloes = sizing.useStateFromStores;
-            zuuluu = _closure1_slot5;
-            offset = new Array(1);
-            offset[0] = zuuluu;
-            verify = new Array(1);
-            verify[0] = backup;
-            zuuluu = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var4 = var10.bind(var15)(var9, var3, var4);
+            var3 = var13[var7];
+            var16 = var8.bind(var6)(var3);
+            var15 = var16.useStateFromStores;
+            var3 = _closure1_slot5;
+            var10 = new Array(1);
+            var10[0] = var3;
+            var9 = new Array(1);
+            var9[0] = var14;
+            var3 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00008_ip = 38; continue _fun00007 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0004_ip = 38; continue _fun0004 }
  16:
-                    tangon = _closure1_slot5;
-                    zuuluu = tangon.isCurrentUserGuest;
-                    michal = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot5;
+                    var3 = var4.isCurrentUserGuest;
+                    var2 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2);
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = kiloes.bind(sizing)(offset, zuuluu, verify);
-            golfie = foxtra[golfie];
-            kiloes = option.bind(oscard)(golfie);
-            offset = kiloes.useStateFromStores;
-            golfie = _closure1_slot7;
-            verify = new Array(1);
-            verify[0] = golfie;
-            golfie = new Array(2);
-            golfie[0] = yankee;
-            golfie[1] = romeon;
-            report = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var3 = var15.bind(var16)(var10, var3, var9);
+            var7 = var13[var7];
+            var15 = var8.bind(var6)(var7);
+            var10 = var15.useStateFromStores;
+            var7 = _closure1_slot7;
+            var9 = new Array(1);
+            var9[0] = var7;
+            var7 = new Array(2);
+            var7[0] = var11;
+            var7[1] = var12;
+            var5 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    entity = _closure2_slot2;
-                    if(!entity) { _fun00010_ip = 43; continue _fun00009 }
+                    var1 = _closure2_slot2;
+                    if(!var1) { _fun0005_ip = 43; continue _fun0005 }
  10:
-                    report = _closure1_slot7;
-                    tangon = report.can;
-                    zuuluu = _closure1_slot8;
-                    zuuluu = zuuluu.ADD_REACTIONS;
-                    michal = _closure2_slot0;
-                    entity = tangon.bind(report)(zuuluu, michal);
+                    var5 = _closure1_slot7;
+                    var4 = var5.can;
+                    var3 = _closure1_slot8;
+                    var3 = var3.ADD_REACTIONS;
+                    var2 = _closure2_slot0;
+                    var1 = var4.bind(var5)(var3, var2);
  43:
-                    return entity;
+                    return var1;
                 }
             };
-            offset = offset.bind(kiloes)(verify, report, golfie);
-            report = 7;
-            report = foxtra[report];
-            golfie = option.bind(oscard)(report);
-            report = golfie.useCurrentUserAutomodQuaratinedProfile;
-            golfie = report.bind(golfie)(backup);
-            report = 8;
-            report = foxtra[report];
-            verify = option.bind(oscard)(report);
-            report = verify.useCurrentUserCommunicationDisabled;
-            backup = report.bind(verify)(backup);
-            verify = _closure1_slot3;
-            report = 2;
-            verify = verify.bind(oscard)(backup, report);
-            report = 1;
-            verify = verify[report];
-            report = 9;
-            report = foxtra[report];
-            option = option.bind(oscard)(report);
-            report = option.useIsActiveChannelOrUnarchivableThread;
-            option = report.bind(option)(romeon);
-            if(!(entity != romeon)) { _fun00002_ip = 453; continue _fun00001 }
+            var10 = var10.bind(var15)(var9, var5, var7);
+            var5 = 7;
+            var5 = var13[var5];
+            var7 = var8.bind(var6)(var5);
+            var5 = var7.useCurrentUserAutomodQuaratinedProfile;
+            var7 = var5.bind(var7)(var14);
+            var5 = 8;
+            var5 = var13[var5];
+            var9 = var8.bind(var6)(var5);
+            var5 = var9.useCurrentUserCommunicationDisabled;
+            var14 = var5.bind(var9)(var14);
+            var9 = _closure1_slot3;
+            var5 = 2;
+            var9 = var9.bind(var6)(var14, var5);
+            var5 = 1;
+            var9 = var9[var5];
+            var5 = 9;
+            var5 = var13[var5];
+            var8 = var8.bind(var6)(var5);
+            var5 = var8.useIsActiveChannelOrUnarchivableThread;
+            var8 = var5.bind(var8)(var12);
+            if(!(var1 != var12)) { _fun0001_ip = 453; continue _fun0001 }
  338:
-            entity = {};
-            report = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            michal = 10;
-            michal = foxtra[michal];
-            report = report.bind(oscard)(michal);
-            michal = {};
-            michal['channel'] = romeon;
-            michal['canChat'] = yankee;
-            yankee = true;
-            michal['renderReactions'] = yankee;
-            michal['canAddNewReactions'] = offset;
-            michal['isLurking'] = tangon;
-            michal['isGuest'] = zuuluu;
-            michal['communicationDisabled'] = verify;
-            michal['isActiveChannelOrUnarchivableThread'] = option;
-            michal['isAutomodQuarantined'] = golfie;
-            result = report.bind(oscard)(michal);
-            echoed = entity;
-            michal = copyDataProperties(echoed, result);
-            michal = 'isLurking';
-            entity[michal] = tangon;
-            michal = 'isGuest';
-            entity[michal] = zuuluu;
-            zuuluu = false;
-            michal = 'isPendingMember';
-            entity[michal] = zuuluu;
-            _fun00002_ip = 467; continue _fun00001;
+            var1 = {};
+            var5 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var2 = 10;
+            var2 = var13[var2];
+            var5 = var5.bind(var6)(var2);
+            var2 = {};
+            var2['channel'] = var12;
+            var2['canChat'] = var11;
+            var11 = true;
+            var2['renderReactions'] = var11;
+            var2['canAddNewReactions'] = var10;
+            var2['isLurking'] = var4;
+            var2['isGuest'] = var3;
+            var2['communicationDisabled'] = var9;
+            var2['isActiveChannelOrUnarchivableThread'] = var8;
+            var2['isAutomodQuarantined'] = var7;
+            var18 = var5.bind(var6)(var2);
+            var19 = var1;
+            var2 = copyDataProperties(var19, var18);
+            var2 = 'isLurking';
+            var1[var2] = var4;
+            var2 = 'isGuest';
+            var1[var2] = var3;
+            var3 = false;
+            var2 = 'isPendingMember';
+            var1[var2] = var3;
+            _fun0001_ip = 467; continue _fun0001;
  453:
-            entity = {'disableReactionReads': true, 'disableReactionCreates': true, 'disableReactionUpdates': true, 'isLurking': false, 'isGuest': false, 'isPendingMember': false};
+            var1 = {'disableReactionReads': true, 'disableReactionCreates': true, 'disableReactionUpdates': true, 'isLurking': false, 'isGuest': false, 'isPendingMember': false};
  467:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

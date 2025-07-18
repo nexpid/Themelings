@@ -1,716 +1,716 @@
 // app/modules/age_assurance/AgeVerificationUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    option = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = verify;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = verify[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = verify[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    oscard = verify[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = verify[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = verify[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = verify[tangon];
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS;
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = verify[tangon];
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.MessageEmbedTypes;
-    var _closure1_slot9 = tangon;
-    tangon = 7;
-    tangon = verify[tangon];
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.SafetyToastType;
-    var _closure1_slot10 = tangon;
-    oscard = {};
-    tangon = 'ctas';
-    oscard['CTAS'] = tangon;
-    tangon = 'content_type';
-    oscard['CONTENT_TYPE'] = tangon;
-    var _closure1_slot11 = oscard;
-    report = {};
-    tangon = 'retry';
-    report['RETRY'] = tangon;
-    var _closure1_slot12 = report;
-    tangon = {};
-    golfie = 'verified_adult';
-    tangon['VERIFIED_ADULT'] = golfie;
-    golfie = 'verified_teen';
-    tangon['VERIFIED_TEEN'] = golfie;
-    golfie = 'error';
-    tangon['ERROR'] = golfie;
-    golfie = 15;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/age_assurance/AgeVerificationUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function() { // Original name: shouldShowTiggerPawtect
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var5 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var9;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var4 = var9[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var9[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var6 = var9[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var9[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var9[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.MessageEmbedTypes;
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.SafetyToastType;
+    var _closure1_slot10 = var4;
+    var6 = {};
+    var4 = 'ctas';
+    var6['CTAS'] = var4;
+    var4 = 'content_type';
+    var6['CONTENT_TYPE'] = var4;
+    var _closure1_slot11 = var6;
+    var5 = {};
+    var4 = 'retry';
+    var5['RETRY'] = var4;
+    var _closure1_slot12 = var5;
+    var4 = {};
+    var7 = 'verified_adult';
+    var4['VERIFIED_ADULT'] = var7;
+    var7 = 'verified_teen';
+    var4['VERIFIED_TEEN'] = var7;
+    var7 = 'error';
+    var4['ERROR'] = var7;
+    var7 = 15;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/age_assurance/AgeVerificationUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function shouldShowTiggerPawtect() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.getCurrentUser;
-            zuuluu = michal.bind(zuuluu)();
-            michal = null;
-            report = michal == zuuluu;
-            tangon = undefined;
-            michal = undefined;
-            if(report) { _fun00002_ip = 35; continue _fun00001 }
+            var3 = _closure1_slot7;
+            var2 = var3.getCurrentUser;
+            var3 = var2.bind(var3)();
+            var2 = null;
+            var5 = var2 == var3;
+            var4 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0001_ip = 35; continue _fun0001 }
  29:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  35:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_ADULT;
-            entity = michal !== entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_ADULT;
+            var1 = var2 !== var1;
+            return var1;
         }
     };
-    zuuluu['shouldShowTiggerPawtect'] = golfie;
-    golfie = function() { // Original name: useShouldShowTiggerPawtect
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['shouldShowTiggerPawtect'] = var7;
+    var7 = function useShouldShowTiggerPawtect() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 9;
-            michal = tangon[michal];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(michal);
-            report = oscard.useStateFromStores;
-            michal = _closure1_slot7;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu, michal);
-            michal = null;
-            report = michal == zuuluu;
-            michal = undefined;
-            if(report) { _fun00004_ip = 72; continue _fun00003 }
+            var3 = var5.bind(var6)(var3, var2);
+            var2 = null;
+            var5 = var2 == var3;
+            var2 = undefined;
+            if(var5) { _fun0002_ip = 72; continue _fun0002 }
  66:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  72:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_ADULT;
-            entity = michal !== entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_ADULT;
+            var1 = var2 !== var1;
+            return var1;
         }
     };
-    zuuluu['useShouldShowTiggerPawtect'] = golfie;
-    golfie = function() { // Original name: isVerifiedTeen
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useShouldShowTiggerPawtect'] = var7;
+    var7 = function isVerifiedTeen() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.getCurrentUser;
-            zuuluu = michal.bind(zuuluu)();
-            michal = null;
-            report = michal == zuuluu;
-            tangon = undefined;
-            michal = undefined;
-            if(report) { _fun00006_ip = 35; continue _fun00005 }
+            var3 = _closure1_slot7;
+            var2 = var3.getCurrentUser;
+            var3 = var2.bind(var3)();
+            var2 = null;
+            var5 = var2 == var3;
+            var4 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0003_ip = 35; continue _fun0003 }
  29:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  35:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_TEEN;
-            entity = michal === entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_TEEN;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['isVerifiedTeen'] = golfie;
-    golfie = function() { // Original name: useIsVerifiedTeen
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isVerifiedTeen'] = var7;
+    var7 = function useIsVerifiedTeen() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 9;
-            michal = tangon[michal];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(michal);
-            report = oscard.useStateFromStores;
-            michal = _closure1_slot7;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu, michal);
-            michal = null;
-            report = michal == zuuluu;
-            michal = undefined;
-            if(report) { _fun00008_ip = 72; continue _fun00007 }
+            var3 = var5.bind(var6)(var3, var2);
+            var2 = null;
+            var5 = var2 == var3;
+            var2 = undefined;
+            if(var5) { _fun0004_ip = 72; continue _fun0004 }
  66:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  72:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_TEEN;
-            entity = michal === entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_TEEN;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['useIsVerifiedTeen'] = golfie;
-    golfie = function() { // Original name: isVerifiedAdult
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['useIsVerifiedTeen'] = var7;
+    var7 = function isVerifiedAdult() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.getCurrentUser;
-            zuuluu = michal.bind(zuuluu)();
-            michal = null;
-            report = michal == zuuluu;
-            tangon = undefined;
-            michal = undefined;
-            if(report) { _fun00010_ip = 35; continue _fun00009 }
+            var3 = _closure1_slot7;
+            var2 = var3.getCurrentUser;
+            var3 = var2.bind(var3)();
+            var2 = null;
+            var5 = var2 == var3;
+            var4 = undefined;
+            var2 = undefined;
+            if(var5) { _fun0005_ip = 35; continue _fun0005 }
  29:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  35:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_ADULT;
-            entity = michal === entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_ADULT;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['isVerifiedAdult'] = golfie;
-    golfie = function() { // Original name: useIsVerifiedAdult
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['isVerifiedAdult'] = var7;
+    var7 = function useIsVerifiedAdult() {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 9;
-            michal = tangon[michal];
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)(michal);
-            report = oscard.useStateFromStores;
-            michal = _closure1_slot7;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 9;
+            var2 = var4[var2];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu, michal);
-            michal = null;
-            report = michal == zuuluu;
-            michal = undefined;
-            if(report) { _fun00012_ip = 72; continue _fun00011 }
+            var3 = var5.bind(var6)(var3, var2);
+            var2 = null;
+            var5 = var2 == var3;
+            var2 = undefined;
+            if(var5) { _fun0006_ip = 72; continue _fun0006 }
  66:
-            michal = zuuluu.ageVerificationStatus;
+            var2 = var3.ageVerificationStatus;
  72:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 8;
-            entity = report[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.VERIFIED_ADULT;
-            entity = michal === entity;
-            return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.VERIFIED_ADULT;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['useIsVerifiedAdult'] = golfie;
-    zuuluu['AgeVerificationSystemNotificationEmbedKeys'] = oscard;
-    zuuluu['AgeVerificationSystemNotificationCtaTypes'] = report;
-    zuuluu['AgeVerificationSystemNotificationContentType'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isAgeVerificationMessageWithRetryCta
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['useIsVerifiedAdult'] = var7;
+    var3['AgeVerificationSystemNotificationEmbedKeys'] = var6;
+    var3['AgeVerificationSystemNotificationCtaTypes'] = var5;
+    var3['AgeVerificationSystemNotificationContentType'] = var4;
+    var4 = function isAgeVerificationMessageWithRetryCta(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            report = _closure1_slot6;
-            tangon = report.getMessage;
-            zuuluu = argFoo;
-            entity = argBar;
-            zuuluu = tangon.bind(report)(zuuluu, entity);
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00014_ip = 200; continue _fun00013 }
+            var5 = _closure1_slot6;
+            var4 = var5.getMessage;
+            var3 = arg1;
+            var1 = arg2;
+            var3 = var4.bind(var5)(var3, var1);
+            var1 = null;
+            if(!(var1 != var3)) { _fun0007_ip = 200; continue _fun0007 }
  34:
-            tangon = zuuluu.embeds;
-            if(!(entity != tangon)) { _fun00014_ip = 200; continue _fun00013 }
+            var4 = var3.embeds;
+            if(!(var1 != var4)) { _fun0007_ip = 200; continue _fun0007 }
  47:
-            tangon = zuuluu.embeds;
-            report = tangon.length;
-            tangon = 0;
-            if(!(tangon !== report)) { _fun00014_ip = 200; continue _fun00013 }
+            var4 = var3.embeds;
+            var5 = var4.length;
+            var4 = 0;
+            if(!(var4 !== var5)) { _fun0007_ip = 200; continue _fun0007 }
  67:
-            report = zuuluu.embeds;
-            report = report[tangon];
-            report = report.fields;
-            if(!(entity != report)) { _fun00014_ip = 200; continue _fun00013 }
+            var5 = var3.embeds;
+            var5 = var5[var4];
+            var5 = var5.fields;
+            if(!(var1 != var5)) { _fun0007_ip = 200; continue _fun0007 }
  87:
-            report = zuuluu.embeds;
-            report = report[tangon];
-            oscard = report.type;
-            report = _closure1_slot9;
-            report = report.AGE_VERIFICATION_SYSTEM_NOTIFICATION;
-            if(!(oscard === report)) { _fun00014_ip = 200; continue _fun00013 }
+            var5 = var3.embeds;
+            var5 = var5[var4];
+            var6 = var5.type;
+            var5 = _closure1_slot9;
+            var5 = var5.AGE_VERIFICATION_SYSTEM_NOTIFICATION;
+            if(!(var6 === var5)) { _fun0007_ip = 200; continue _fun0007 }
  116:
-            zuuluu = zuuluu.embeds;
-            zuuluu = zuuluu[tangon];
-            report = zuuluu.fields;
-            tangon = report.find;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                michal = entity.rawName;
-                entity = _closure1_slot11;
-                entity = entity.CTAS;
-                entity = michal === entity;
-                return entity;
+            var3 = var3.embeds;
+            var3 = var3[var4];
+            var5 = var3.fields;
+            var4 = var5.find;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.rawName;
+                var1 = _closure1_slot11;
+                var1 = var1.CTAS;
+                var1 = var2 === var1;
+                return var1;
             };
-            zuuluu = tangon.bind(report)(zuuluu);
-            tangon = entity == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00014_ip = 198; continue _fun00013 }
+            var3 = var4.bind(var5)(var3);
+            var4 = var1 == var3;
+            var1 = undefined;
+            if(var4) { _fun0007_ip = 198; continue _fun0007 }
  158:
-            report = zuuluu.rawValue;
-            tangon = report.split;
-            zuuluu = ',';
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.includes;
-            michal = _closure1_slot12;
-            michal = michal.RETRY;
-            entity = zuuluu.bind(tangon)(michal);
+            var5 = var3.rawValue;
+            var4 = var5.split;
+            var3 = ',';
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.includes;
+            var2 = _closure1_slot12;
+            var2 = var2.RETRY;
+            var1 = var3.bind(var4)(var2);
  198:
-            return entity;
+            return var1;
  200:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isAgeVerificationMessageWithRetryCta'] = tangon;
-    tangon = function() { // Original name: isAgeVerified
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['isAgeVerificationMessageWithRetryCta'] = var4;
+    var4 = function isAgeVerified() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            zuuluu = _closure1_slot7;
-            entity = zuuluu.getCurrentUser;
-            tangon = entity.bind(zuuluu)();
-            zuuluu = null;
-            entity = zuuluu == tangon;
-            report = undefined;
-            golfie = undefined;
-            if(entity) { _fun00016_ip = 35; continue _fun00015 }
+            var3 = _closure1_slot7;
+            var1 = var3.getCurrentUser;
+            var4 = var1.bind(var3)();
+            var3 = null;
+            var1 = var3 == var4;
+            var5 = undefined;
+            var7 = undefined;
+            if(var1) { _fun0008_ip = 35; continue _fun0008 }
  29:
-            golfie = tangon.ageVerificationStatus;
+            var7 = var4.ageVerificationStatus;
  35:
-            option = _closure1_slot0;
-            entity = _closure1_slot2;
-            oscard = 8;
-            entity = entity[oscard];
-            entity = option.bind(report)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.UNVERIFIED;
-            entity = golfie !== entity;
-            if(!entity) { _fun00016_ip = 122; continue _fun00015 }
+            var8 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = 8;
+            var1 = var1[var6];
+            var1 = var8.bind(var5)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.UNVERIFIED;
+            var1 = var7 !== var1;
+            if(!var1) { _fun0008_ip = 122; continue _fun0008 }
  74:
-            golfie = zuuluu == tangon;
-            zuuluu = undefined;
-            if(golfie) { _fun00016_ip = 89; continue _fun00015 }
+            var7 = var3 == var4;
+            var3 = undefined;
+            if(var7) { _fun0008_ip = 89; continue _fun0008 }
  83:
-            zuuluu = tangon.ageVerificationStatus;
+            var3 = var4.ageVerificationStatus;
  89:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.AgeVerificationStatusUkAndAusOnly;
-            michal = michal.CLIENT_ONLY_PENDING;
-            entity = zuuluu !== michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.AgeVerificationStatusUkAndAusOnly;
+            var2 = var2.CLIENT_ONLY_PENDING;
+            var1 = var3 !== var2;
  122:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isAgeVerified'] = tangon;
-    tangon = function() { // Original name: useIsAgeVerified
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var3['isAgeVerified'] = var4;
+    var4 = function useIsAgeVerified() {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 9;
-            entity = tangon[entity];
-            report = undefined;
-            oscard = zuuluu.bind(report)(entity);
-            tangon = oscard.useStateFromStores;
-            entity = _closure1_slot7;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 9;
+            var1 = var4[var1];
+            var5 = undefined;
+            var6 = var3.bind(var5)(var1);
+            var4 = var6.useStateFromStores;
+            var1 = _closure1_slot7;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            tangon = tangon.bind(oscard)(zuuluu, entity);
-            zuuluu = null;
-            entity = zuuluu == tangon;
-            golfie = undefined;
-            if(entity) { _fun00018_ip = 72; continue _fun00017 }
+            var4 = var4.bind(var6)(var3, var1);
+            var3 = null;
+            var1 = var3 == var4;
+            var7 = undefined;
+            if(var1) { _fun0009_ip = 72; continue _fun0009 }
  66:
-            golfie = tangon.ageVerificationStatus;
+            var7 = var4.ageVerificationStatus;
  72:
-            option = _closure1_slot0;
-            entity = _closure1_slot2;
-            oscard = 8;
-            entity = entity[oscard];
-            entity = option.bind(report)(entity);
-            entity = entity.AgeVerificationStatusUkAndAusOnly;
-            entity = entity.UNVERIFIED;
-            entity = golfie !== entity;
-            if(!entity) { _fun00018_ip = 159; continue _fun00017 }
+            var8 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = 8;
+            var1 = var1[var6];
+            var1 = var8.bind(var5)(var1);
+            var1 = var1.AgeVerificationStatusUkAndAusOnly;
+            var1 = var1.UNVERIFIED;
+            var1 = var7 !== var1;
+            if(!var1) { _fun0009_ip = 159; continue _fun0009 }
  111:
-            golfie = zuuluu == tangon;
-            zuuluu = undefined;
-            if(golfie) { _fun00018_ip = 126; continue _fun00017 }
+            var7 = var3 == var4;
+            var3 = undefined;
+            if(var7) { _fun0009_ip = 126; continue _fun0009 }
  120:
-            zuuluu = tangon.ageVerificationStatus;
+            var3 = var4.ageVerificationStatus;
  126:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.AgeVerificationStatusUkAndAusOnly;
-            michal = michal.CLIENT_ONLY_PENDING;
-            entity = zuuluu !== michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.AgeVerificationStatusUkAndAusOnly;
+            var2 = var2.CLIENT_ONLY_PENDING;
+            var1 = var3 !== var2;
  159:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsAgeVerified'] = tangon;
-    tangon = function(argFoo) { // Original name: useInitiateAgeVerification
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var3['useIsAgeVerified'] = var4;
+    var4 = function useInitiateAgeVerification(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
-            option = _closure1_slot5;
-            zuuluu = option.useState;
-            michal = false;
-            oscard = zuuluu.bind(option)(michal);
-            tangon = _closure1_slot4;
-            michal = undefined;
-            zuuluu = 2;
-            oscard = tangon.bind(michal)(oscard, zuuluu);
-            zuuluu = 0;
-            zuuluu = oscard[zuuluu];
-            tangon = 1;
-            tangon = oscard[tangon];
-            var _closure2_slot1 = tangon;
-            oscard = _closure1_slot0;
-            verify = _closure1_slot2;
-            tangon = 9;
-            tangon = verify[tangon];
-            offset = oscard.bind(michal)(tangon);
-            verify = offset.useStateFromStores;
-            tangon = _closure1_slot7;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var7 = arg1;
+            var _closure2_slot0 = var7;
+            var8 = _closure1_slot5;
+            var3 = var8.useState;
+            var2 = false;
+            var6 = var3.bind(var8)(var2);
+            var4 = _closure1_slot4;
+            var2 = undefined;
+            var3 = 2;
+            var6 = var4.bind(var2)(var6, var3);
+            var3 = 0;
+            var3 = var6[var3];
+            var4 = 1;
+            var4 = var6[var4];
+            var _closure2_slot1 = var4;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 9;
+            var4 = var9[var4];
+            var10 = var6.bind(var2)(var4);
+            var9 = var10.useStateFromStores;
+            var4 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            verify = verify.bind(offset)(oscard, tangon);
-            oscard = option.useRef;
-            tangon = null;
-            offset = tangon == verify;
-            tangon = undefined;
-            if(offset) { _fun00020_ip = 130; continue _fun00019 }
+            var9 = var9.bind(var10)(var6, var4);
+            var6 = var8.useRef;
+            var4 = null;
+            var10 = var4 == var9;
+            var4 = undefined;
+            if(var10) { _fun0010_ip = 130; continue _fun0010 }
  124:
-            tangon = verify.ageVerificationStatus;
+            var4 = var9.ageVerificationStatus;
  130:
-            tangon = oscard.bind(option)(tangon);
-            tangon = tangon.current;
-            var _closure2_slot2 = tangon;
-            report = _closure1_slot5;
-            option = report.useCallback;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 10;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.dispatch;
-                michal = {};
-                report = 'CLOSE_AGE_VERIFICATION_MODAL';
-                michal['type'] = report;
-                report = _closure2_slot2;
-                michal['status'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var4 = var6.bind(var8)(var4);
+            var4 = var4.current;
+            var _closure2_slot2 = var4;
+            var5 = _closure1_slot5;
+            var8 = var5.useCallback;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 10;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'CLOSE_AGE_VERIFICATION_MODAL';
+                var2['type'] = var5;
+                var5 = _closure2_slot2;
+                var2['status'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            oscard = option.bind(report)(tangon, oscard);
-            var _closure2_slot3 = oscard;
-            tangon = report.useCallback;
-            entity = function() {
-                tangon = _closure1_slot3;
-                zuuluu = undefined;
-                michal = function* (argFoo) {
-                    entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            var6 = var8.bind(var5)(var4, var6);
+            var _closure2_slot3 = var6;
+            var4 = var5.useCallback;
+            var1 = function() {
+                var4 = _closure1_slot3;
+                var3 = undefined;
+                var2 = function* (arg1) {
+                    var1 = function* anon_0_(arg1) {
+                        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00022_ip = 285; continue _fun00021 }
+                            if(var2) { _fun0011_ip = 285; continue _fun0011 }
  10:
-                            option = argFoo;
-                            tangon = _closure2_slot1;
-                            report = undefined;
-                            michal = true;
-                            michal = tangon.bind(report)(michal);
+                            var8 = arg1;
+                            var4 = _closure2_slot1;
+                            var5 = undefined;
+                            var2 = true;
+                            var2 = var4.bind(var5)(var2);
  29: // try_start_0 // try_start_1
-                            oscard = _closure1_slot1;
-                            golfie = _closure1_slot2;
-                            michal = 10;
-                            michal = golfie[michal];
-                            verify = oscard.bind(report)(michal);
-                            oscard = verify.dispatch;
-                            michal = {};
-                            offset = 'INITIATE_AGE_VERIFICATION';
-                            michal['type'] = offset;
-                            michal = oscard.bind(verify)(michal);
-                            oscard = _closure1_slot0;
-                            michal = 11;
-                            michal = golfie[michal];
-                            oscard = oscard.bind(report)(michal);
-                            michal = oscard.initiateVerification;
-                            michal = michal.bind(oscard)();
+                            var6 = _closure1_slot1;
+                            var7 = _closure1_slot2;
+                            var2 = 10;
+                            var2 = var7[var2];
+                            var9 = var6.bind(var5)(var2);
+                            var6 = var9.dispatch;
+                            var2 = {};
+                            var10 = 'INITIATE_AGE_VERIFICATION';
+                            var2['type'] = var10;
+                            var2 = var6.bind(var9)(var2);
+                            var6 = _closure1_slot0;
+                            var2 = 11;
+                            var2 = var7[var2];
+                            var6 = var6.bind(var5)(var2);
+                            var2 = var6.initiateVerification;
+                            var2 = var2.bind(var6)();
                             SaveGenerator(address=104);
  102:
-                            return michal;
+                            return var2;
  104:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(oscard) { _fun00022_ip = 188; continue _fun00021 }
+                            if(var6) { _fun0011_ip = 188; continue _fun0011 }
  110:
-                            oscard = _closure1_slot1;
-                            golfie = _closure1_slot2;
-                            tangon = 12;
-                            tangon = golfie[tangon];
-                            golfie = oscard.bind(report)(tangon);
-                            oscard = golfie.showAgeVerification;
-                            tangon = {};
-                            verify = michal.verification_webview_url;
-                            tangon['webviewUrl'] = verify;
-                            verify = _closure2_slot0;
-                            tangon['onComplete'] = verify;
-                            verify = _closure2_slot3;
-                            tangon['onClose'] = verify;
-                            verify = _closure2_slot3;
-                            tangon['onCancel'] = verify;
-                            tangon['entryPoint'] = option;
-                            tangon = oscard.bind(golfie)(tangon);
+                            var6 = _closure1_slot1;
+                            var7 = _closure1_slot2;
+                            var4 = 12;
+                            var4 = var7[var4];
+                            var7 = var6.bind(var5)(var4);
+                            var6 = var7.showAgeVerification;
+                            var4 = {};
+                            var9 = var2.verification_webview_url;
+                            var4['webviewUrl'] = var9;
+                            var9 = _closure2_slot0;
+                            var4['onComplete'] = var9;
+                            var9 = _closure2_slot3;
+                            var4['onClose'] = var9;
+                            var9 = _closure2_slot3;
+                            var4['onCancel'] = var9;
+                            var4['entryPoint'] = var8;
+                            var4 = var6.bind(var7)(var4);
  186: // try_end0
-                            _fun00022_ip = 256; continue _fun00021;
+                            _fun0011_ip = 256; continue _fun0011;
  188: // try_end1
-                            oscard = _closure2_slot1;
-                            tangon = false;
-                            tangon = oscard.bind(report)(tangon);
-                            return michal;
+                            var6 = _closure2_slot1;
+                            var4 = false;
+                            var4 = var6.bind(var5)(var4);
+                            return var2;
  202: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
-                            oscard = _closure1_slot1;
-                            golfie = _closure1_slot2;
-                            tangon = 13;
-                            tangon = golfie[tangon];
-                            oscard = oscard.bind(report)(tangon);
-                            tangon = oscard.showFailedToast;
-                            michal = _closure1_slot10;
-                            michal = michal.TIGGER_PAWTECT_ERROR;
-                            michal = tangon.bind(oscard)(michal);
-                            michal = _closure2_slot3;
-                            michal = michal.bind(report)();
+                            var6 = _closure1_slot1;
+                            var7 = _closure1_slot2;
+                            var4 = 13;
+                            var4 = var7[var4];
+                            var6 = var6.bind(var5)(var4);
+                            var4 = var6.showFailedToast;
+                            var2 = _closure1_slot10;
+                            var2 = var2.TIGGER_PAWTECT_ERROR;
+                            var2 = var4.bind(var6)(var2);
+                            var2 = _closure2_slot3;
+                            var2 = var2.bind(var5)();
  256: // try_end2
-                            tangon = _closure2_slot1;
-                            michal = false;
-                            michal = tangon.bind(report)(michal);
-                            return report;
+                            var4 = _closure2_slot1;
+                            var2 = false;
+                            var2 = var4.bind(var5)(var2);
+                            return var5;
  270: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
-                            tangon = _closure2_slot1;
-                            zuuluu = false;
-                            zuuluu = tangon.bind(report)(zuuluu);
-                            throw michal;
+                            var4 = _closure2_slot1;
+                            var3 = false;
+                            var3 = var4.bind(var5)(var3);
+                            throw var2;
  285:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure3_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            michal = entity.bind(michal)();
-            entity = new Array(2);
-            entity[0] = golfie;
-            entity[1] = oscard;
-            michal = tangon.bind(report)(michal, entity);
-            entity = {};
-            entity['loading'] = zuuluu;
-            entity['initiateAgeVerification'] = michal;
-            return entity;
+            var2 = var1.bind(var2)();
+            var1 = new Array(2);
+            var1[0] = var7;
+            var1[1] = var6;
+            var2 = var4.bind(var5)(var2, var1);
+            var1 = {};
+            var1['loading'] = var3;
+            var1['initiateAgeVerification'] = var2;
+            return var1;
         }
     };
-    zuuluu['useInitiateAgeVerification'] = tangon;
-    tangon = function(argFoo) { // Original name: useWatchAgeVerificationStatusChange
-        option = argFoo;
-        var _closure2_slot0 = option;
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 9;
-        tangon = oscard[entity];
-        entity = undefined;
-        verify = report.bind(entity)(tangon);
-        golfie = verify.useStateFromStores;
-        tangon = _closure1_slot7;
-        report = new Array(1);
-        report[0] = tangon;
-        tangon = function() {
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    var3['useInitiateAgeVerification'] = var4;
+    var4 = function useWatchAgeVerificationStatusChange(arg1) {
+        var8 = arg1;
+        var _closure2_slot0 = var8;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 9;
+        var4 = var6[var1];
+        var1 = undefined;
+        var9 = var5.bind(var1)(var4);
+        var7 = var9.useStateFromStores;
+        var4 = _closure1_slot7;
+        var5 = new Array(1);
+        var5[0] = var4;
+        var4 = function() {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                michal = entity.bind(michal)();
-                entity = null;
-                zuuluu = entity == michal;
-                entity = undefined;
-                if(zuuluu) { _fun00024_ip = 33; continue _fun00023 }
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var2 = var1.bind(var2)();
+                var1 = null;
+                var3 = var1 == var2;
+                var1 = undefined;
+                if(var3) { _fun0012_ip = 33; continue _fun0012 }
  27:
-                entity = michal.ageVerificationStatus;
+                var1 = var2.ageVerificationStatus;
  33:
-                return entity;
+                return var1;
             }
         };
-        golfie = golfie.bind(verify)(report, tangon);
-        var _closure2_slot1 = golfie;
-        report = _closure1_slot1;
-        tangon = 14;
-        tangon = oscard[tangon];
-        tangon = report.bind(entity)(tangon);
-        oscard = tangon.bind(entity)(golfie);
-        var _closure2_slot2 = oscard;
-        report = _closure1_slot5;
-        tangon = report.useEffect;
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = golfie;
-        zuuluu[2] = oscard;
-        michal = function() {
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+        var7 = var7.bind(var9)(var5, var4);
+        var _closure2_slot1 = var7;
+        var5 = _closure1_slot1;
+        var4 = 14;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var6 = var4.bind(var1)(var7);
+        var _closure2_slot2 = var6;
+        var5 = _closure1_slot5;
+        var4 = var5.useEffect;
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var7;
+        var3[2] = var6;
+        var2 = function() {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-                michal = _closure2_slot2;
-                tangon = null;
-                michal = tangon != michal;
-                if(!michal) { _fun00026_ip = 24; continue _fun00025 }
+                var2 = _closure2_slot2;
+                var4 = null;
+                var2 = var4 != var2;
+                if(!var2) { _fun0013_ip = 24; continue _fun0013 }
  16:
-                zuuluu = _closure2_slot1;
-                michal = tangon != zuuluu;
+                var3 = _closure2_slot1;
+                var2 = var4 != var3;
  24:
-                if(!michal) { _fun00026_ip = 39; continue _fun00025 }
+                if(!var2) { _fun0013_ip = 39; continue _fun0013 }
  27:
-                tangon = _closure2_slot2;
-                zuuluu = _closure2_slot1;
-                michal = tangon !== zuuluu;
+                var4 = _closure2_slot2;
+                var3 = _closure2_slot1;
+                var2 = var4 !== var3;
  39:
-                if(!michal) { _fun00026_ip = 52; continue _fun00025 }
+                if(!var2) { _fun0013_ip = 52; continue _fun0013 }
  42:
-                michal = _closure2_slot0;
-                entity = undefined;
-                entity = michal.bind(entity)();
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
  52:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useWatchAgeVerificationStatusChange'] = tangon;
-    michal = function(argFoo) { // Original name: isFullscreenAgeVerificationEntryPoint
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+    var3['useWatchAgeVerificationStatusChange'] = var4;
+    var2 = function isFullscreenAgeVerificationEntryPoint(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00028_ip = 29; continue _fun00027 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0014_ip = 29; continue _fun0014 }
  12:
-            zuuluu = _closure1_slot8;
-            michal = zuuluu.has;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot8;
+            var2 = var3.has;
+            var1 = var2.bind(var3)(var4);
  29:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isFullscreenAgeVerificationEntryPoint'] = michal;
-    return entity;
+    var3['isFullscreenAgeVerificationEntryPoint'] = var2;
+    return var1;
 })();

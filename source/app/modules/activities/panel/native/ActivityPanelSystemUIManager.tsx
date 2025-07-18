@@ -1,127 +1,127 @@
 // app/modules/activities/panel/native/ActivityPanelSystemUIManager.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ActivityPanelModes;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.jsx;
-    var _closure1_slot5 = option;
-    option = tangon.Fragment;
-    var _closure1_slot6 = option;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = golfie.memo;
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ActivityPanelModes;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot5 = var8;
+    var8 = var4.Fragment;
+    var _closure1_slot6 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = var7.memo;
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.useContext;
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 3;
-            entity = tangon[entity];
-            tangon = undefined;
-            entity = report.bind(tangon)(entity);
-            entity = michal.bind(zuuluu)(entity);
-            option = entity.mode;
-            entity = entity.wrapperDimensions;
-            michal = _closure1_slot4;
-            michal = michal.PANEL;
-            offset = option === michal;
-            entity = entity.isWindowLandscape;
-            romeon = !entity;
-            if(romeon) { _fun00002_ip = 80; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var2 = var3.useContext;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var1 = var4[var1];
+            var4 = undefined;
+            var1 = var5.bind(var4)(var1);
+            var1 = var2.bind(var3)(var1);
+            var8 = var1.mode;
+            var1 = var1.wrapperDimensions;
+            var2 = _closure1_slot4;
+            var2 = var2.PANEL;
+            var10 = var8 === var2;
+            var1 = var1.isWindowLandscape;
+            var12 = !var1;
+            if(var12) { _fun0001_ip = 80; continue _fun0001 }
  77:
-            romeon = !offset;
+            var12 = !var10;
  80:
-            entity = _closure1_slot4;
-            report = entity.PIP;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 4;
-            entity = zuuluu[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.isIOS;
-            entity = entity.bind(michal)();
-            entity = !entity;
-            verify = !entity;
-            if(entity) { _fun00002_ip = 132; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var5 = var1.PIP;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isIOS;
+            var1 = var1.bind(var2)();
+            var1 = !var1;
+            var9 = !var1;
+            if(var1) { _fun0001_ip = 132; continue _fun0001 }
  129:
-            verify = offset;
+            var9 = var10;
  132:
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot6;
-            entity = {};
-            golfie = null;
-            if(!(option !== report)) { _fun00002_ip = 199; continue _fun00001 }
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot6;
+            var1 = {};
+            var7 = null;
+            if(!(var8 !== var5)) { _fun0001_ip = 199; continue _fun0001 }
  148:
-            yankee = _closure1_slot5;
-            option = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            report = 5;
-            report = foxtra[report];
-            option = option.bind(tangon)(report);
-            report = {};
-            romeon = !romeon;
-            report['hidden'] = romeon;
-            romeon = 'light-content';
-            report['barStyle'] = romeon;
-            golfie = yankee.bind(tangon)(option, report);
+            var11 = _closure1_slot5;
+            var8 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var5 = 5;
+            var5 = var13[var5];
+            var8 = var8.bind(var4)(var5);
+            var5 = {};
+            var12 = !var12;
+            var5['hidden'] = var12;
+            var12 = 'light-content';
+            var5['barStyle'] = var12;
+            var7 = var11.bind(var4)(var8, var5);
  199:
-            report = new Array(2);
-            report[0] = golfie;
-            option = _closure1_slot5;
-            golfie = _closure1_slot1;
-            yankee = _closure1_slot2;
-            oscard = 6;
-            oscard = yankee[oscard];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = {};
-            if(!offset) { _fun00002_ip = 239; continue _fun00001 }
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var6 = 6;
+            var6 = var11[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            if(!var10) { _fun0001_ip = 239; continue _fun0001 }
  236:
-            offset = !verify;
+            var10 = !var9;
  239:
-            oscard['prefersHidden'] = offset;
-            oscard['prefersDeferringSystemGestures'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6['prefersHidden'] = var10;
+            var6['prefersDeferringSystemGestures'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/panel/native/ActivityPanelSystemUIManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/panel/native/ActivityPanelSystemUIManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,112 +1,112 @@
 // app/modules/headless_tasks/android/BackgroundSync.tsx
-export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
-    zuuluu = argBar;
-    oscard = argBaz;
-    tangon = argPlu;
-    var _closure1_slot0 = zuuluu;
-    var _closure1_slot1 = oscard;
-    var _closure1_slot2 = tangon;
-    entity = 0;
-    report = tangon[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = tangon[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = tangon[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = tangon[report];
-    golfie = oscard.bind(entity)(report);
-    report = golfie.prototype;
-    oscard = Object.create(report, {constructor: {value: golfie}});
-    option = 'BackgroundSync';
-    verify = oscard;
-    report = new verify[golfie](option, golfie);
-    report = report instanceof Object ? report : oscard;
-    var _closure1_slot6 = report;
-    report = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native2;
+    var6 = native3;
+    var4 = native7;
+    var _closure1_slot0 = var3;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var4;
+    var1 = 0;
+    var5 = var4[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var4[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var4[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var4[var5];
+    var7 = var6.bind(var1)(var5);
+    var5 = var7.prototype;
+    var6 = Object.create(var5, {constructor: {value: var7}});
+    var8 = 'BackgroundSync';
+    var9 = var6;
+    var5 = new var9[var7](var8, var7);
+    var5 = var5 instanceof Object ? var5 : var6;
+    var _closure1_slot6 = var5;
+    var5 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            tangon = _closure1_slot5;
-            zuuluu = tangon.getState;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = 'active';
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 154; continue _fun00001 }
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot5;
+            var3 = var4.getState;
+            var4 = var3.bind(var4)();
+            var3 = 'active';
+            if(!(var3 !== var4)) { _fun0001_ip = 154; continue _fun0001 }
  34:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.isConnected;
-            zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
+            var4 = _closure1_slot3;
+            var3 = var4.isConnected;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0001_ip = 67; continue _fun0001 }
  51:
-            report = _closure1_slot3;
-            tangon = report.isTryingToConnect;
-            zuuluu = tangon.bind(report)();
+            var5 = _closure1_slot3;
+            var4 = var5.isTryingToConnect;
+            var3 = var4.bind(var5)();
  67:
-            if(zuuluu) { _fun00002_ip = 117; continue _fun00001 }
+            if(var3) { _fun0001_ip = 117; continue _fun0001 }
  70:
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            zuuluu = 4;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            tangon = report.bind(zuuluu)(tangon);
-            zuuluu = tangon.carefullyOpenDatabase;
-            report = _closure1_slot4;
-            michal = report.getId;
-            michal = michal.bind(report)();
-            michal = zuuluu.bind(tangon)(michal);
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 4;
+            var4 = var4[var3];
+            var3 = undefined;
+            var4 = var5.bind(var3)(var4);
+            var3 = var4.carefullyOpenDatabase;
+            var5 = _closure1_slot4;
+            var2 = var5.getId;
+            var2 = var2.bind(var5)();
+            var2 = var3.bind(var4)(var2);
  117:
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            oscard = function(argFoo) {
-                report = _closure1_slot6;
-                tangon = report.log;
-                zuuluu = _closure2_slot0;
-                michal = 'Executing BackgroundSync with ';
-                michal = tangon.bind(report)(michal, zuuluu);
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 5;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.backgroundSync;
-                michal = {};
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.then;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var6 = function(arg1) {
+                var5 = _closure1_slot6;
+                var4 = var5.log;
+                var3 = _closure2_slot0;
+                var2 = 'Executing BackgroundSync with ';
+                var2 = var4.bind(var5)(var2, var3);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.backgroundSync;
+                var2 = {};
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.then;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            golfie = michal;
-            entity = new golfie[zuuluu](oscard, report);
-            entity = entity instanceof Object ? entity : michal;
-            _fun00002_ip = 172; continue _fun00001;
+            var7 = var2;
+            var1 = new var7[var3](var6, var5);
+            var1 = var1 instanceof Object ? var1 : var2;
+            _fun0001_ip = 172; continue _fun0001;
  154:
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.resolve;
-            entity = michal.bind(zuuluu)();
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.resolve;
+            var1 = var2.bind(var3)();
  172:
-            return entity;
+            return var1;
         }
     };
-    michal = argGra;
-    michal['exports'] = report;
-    michal = 6;
-    michal = tangon[michal];
-    tangon = zuuluu.bind(entity)(michal);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'modules/headless_tasks/android/BackgroundSync.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+    var2 = native5;
+    var2['exports'] = var5;
+    var2 = 6;
+    var2 = var4[var2];
+    var4 = var3.bind(var1)(var2);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'modules/headless_tasks/android/BackgroundSync.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

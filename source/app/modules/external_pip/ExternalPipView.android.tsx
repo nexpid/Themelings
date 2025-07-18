@@ -1,251 +1,251 @@
 // app/modules/external_pip/ExternalPipView.android.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: requestFreezeLock
-        michal = _closure1_slot5;
-        entity = michal.getState;
-        zuuluu = entity.bind(michal)();
-        michal = zuuluu.requestFreezeLock;
-        entity = {};
-        tangon = argFoo;
-        entity['lockEnabled'] = tangon;
-        tangon = 'external-pip';
-        entity['key'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function requestFreezeLock(arg1) {
+        var2 = _closure1_slot5;
+        var1 = var2.getState;
+        var3 = var1.bind(var2)();
+        var2 = var3.requestFreezeLock;
+        var1 = {};
+        var4 = arg1;
+        var1['lockEnabled'] = var4;
+        var4 = 'external-pip';
+        var1['key'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/external_pip/ExternalPipView.android.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: ExternalPipView
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/external_pip/ExternalPipView.android.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ExternalPipView() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = option[zuuluu];
-            report = undefined;
-            tangon = golfie.bind(report)(zuuluu);
-            zuuluu = {};
-            oscard = 6;
-            oscard = option[oscard];
-            golfie = golfie.bind(report)(oscard);
-            oscard = golfie.isSupported;
-            oscard = oscard.bind(golfie)();
-            oscard = !oscard;
-            zuuluu['disabled'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
-            tangon = zuuluu.externalPipEnabled;
-            var _closure2_slot0 = tangon;
-            zuuluu = function() { // Original name: useExternalPipActive
-                oscard = _closure1_slot4;
-                tangon = oscard.useState;
-                zuuluu = false;
-                report = tangon.bind(oscard)(zuuluu);
-                tangon = _closure1_slot3;
-                zuuluu = undefined;
-                michal = 2;
-                tangon = tangon.bind(zuuluu)(report, michal);
-                michal = 0;
-                zuuluu = tangon[michal];
-                michal = 1;
-                michal = tangon[michal];
-                var _closure3_slot0 = michal;
-                report = oscard.useCallback;
-                tangon = function(argFoo) {
-                    entity = argFoo;
-                    var _closure4_slot0 = entity;
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    entity = 4;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.batchUpdates;
-                    michal = function() {
-                        michal = _closure3_slot0;
-                        zuuluu = _closure4_slot0;
-                        entity = undefined;
-                        michal = michal.bind(entity)(zuuluu);
-                        michal = _closure1_slot7;
-                        michal = michal.bind(entity)(zuuluu);
-                        return entity;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 5;
+            var3 = var8[var3];
+            var5 = undefined;
+            var4 = var7.bind(var5)(var3);
+            var3 = {};
+            var6 = 6;
+            var6 = var8[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = var7.isSupported;
+            var6 = var6.bind(var7)();
+            var6 = !var6;
+            var3['disabled'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var4 = var3.externalPipEnabled;
+            var _closure2_slot0 = var4;
+            var3 = function useExternalPipActive() {
+                var6 = _closure1_slot4;
+                var4 = var6.useState;
+                var3 = false;
+                var5 = var4.bind(var6)(var3);
+                var4 = _closure1_slot3;
+                var3 = undefined;
+                var2 = 2;
+                var4 = var4.bind(var3)(var5, var2);
+                var2 = 0;
+                var3 = var4[var2];
+                var2 = 1;
+                var2 = var4[var2];
+                var _closure3_slot0 = var2;
+                var5 = var6.useCallback;
+                var4 = function(arg1) {
+                    var1 = arg1;
+                    var _closure4_slot0 = var1;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 4;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.batchUpdates;
+                    var2 = function() {
+                        var2 = _closure3_slot0;
+                        var3 = _closure4_slot0;
+                        var1 = undefined;
+                        var2 = var2.bind(var1)(var3);
+                        var2 = _closure1_slot7;
+                        var2 = var2.bind(var1)(var3);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
                 };
-                michal = new Array(0);
-                michal = report.bind(oscard)(tangon, michal);
-                report = oscard.useEffect;
-                tangon = function() {
-                    entity = function() {
-                        zuuluu = _closure1_slot7;
-                        entity = undefined;
-                        michal = false;
-                        michal = zuuluu.bind(entity)(michal);
-                        return entity;
+                var2 = new Array(0);
+                var2 = var5.bind(var6)(var4, var2);
+                var5 = var6.useEffect;
+                var4 = function() {
+                    var1 = function() {
+                        var3 = _closure1_slot7;
+                        var1 = undefined;
+                        var2 = false;
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
                     };
-                    return entity;
+                    return var1;
                 };
-                entity = new Array(0);
-                entity = report.bind(oscard)(tangon, entity);
-                entity = {};
-                entity['externalPipActive'] = zuuluu;
-                entity['setExternalPipActive'] = michal;
-                return entity;
+                var1 = new Array(0);
+                var1 = var5.bind(var6)(var4, var1);
+                var1 = {};
+                var1['externalPipActive'] = var3;
+                var1['setExternalPipActive'] = var2;
+                return var1;
             };
-            oscard = zuuluu.bind(report)();
-            zuuluu = oscard.externalPipActive;
-            option = oscard.setExternalPipActive;
-            var _closure2_slot1 = option;
-            golfie = _closure1_slot4;
-            verify = golfie.useEffect;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 6;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.setEnabled;
-                michal = _closure2_slot0;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var6 = var3.bind(var5)();
+            var3 = var6.externalPipActive;
+            var8 = var6.setExternalPipActive;
+            var _closure2_slot1 = var8;
+            var7 = _closure1_slot4;
+            var9 = var7.useEffect;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setEnabled;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            tangon = verify.bind(golfie)(tangon, oscard);
-            verify = golfie.useEffect;
-            oscard = new Array(1);
-            oscard[0] = option;
-            tangon = function() {
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 6;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.addOnPipModeChangedListener;
-                michal = function(argFoo) {
-                    zuuluu = _closure2_slot1;
-                    entity = undefined;
-                    michal = argFoo;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+            var4 = var9.bind(var7)(var4, var6);
+            var9 = var7.useEffect;
+            var6 = new Array(1);
+            var6[0] = var8;
+            var4 = function() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 6;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.addOnPipModeChangedListener;
+                var2 = function(arg1) {
+                    var3 = _closure2_slot1;
+                    var1 = undefined;
+                    var2 = arg1;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var2 = var3.bind(var4)(var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = _closure3_slot0;
-                        entity = null;
-                        zuuluu = entity == zuuluu;
-                        entity = undefined;
-                        if(zuuluu) { _fun00004_ip = 32; continue _fun00003 }
+                        var3 = _closure3_slot0;
+                        var1 = null;
+                        var3 = var1 == var3;
+                        var1 = undefined;
+                        if(var3) { _fun0002_ip = 32; continue _fun0002 }
  18:
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.remove;
-                        entity = michal.bind(zuuluu)();
+                        var3 = _closure3_slot0;
+                        var2 = var3.remove;
+                        var1 = var2.bind(var3)();
  32:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = verify.bind(golfie)(tangon, oscard);
-            oscard = golfie.useEffect;
-            tangon = new Array(1);
-            tangon[0] = option;
-            entity = function() {
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 6;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.addOnPipModeWillChangeListener;
-                michal = function() {
-                    zuuluu = _closure2_slot1;
-                    entity = undefined;
-                    michal = true;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+            var4 = var9.bind(var7)(var4, var6);
+            var6 = var7.useEffect;
+            var4 = new Array(1);
+            var4[0] = var8;
+            var1 = function() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 6;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.addOnPipModeWillChangeListener;
+                var2 = function() {
+                    var3 = _closure2_slot1;
+                    var1 = undefined;
+                    var2 = true;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var2 = var3.bind(var4)(var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = _closure3_slot0;
-                        entity = null;
-                        zuuluu = entity == zuuluu;
-                        entity = undefined;
-                        if(zuuluu) { _fun00006_ip = 32; continue _fun00005 }
+                        var3 = _closure3_slot0;
+                        var1 = null;
+                        var3 = var1 == var3;
+                        var1 = undefined;
+                        if(var3) { _fun0003_ip = 32; continue _fun0003 }
  18:
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.remove;
-                        entity = michal.bind(zuuluu)();
+                        var3 = _closure3_slot0;
+                        var2 = var3.remove;
+                        var1 = var2.bind(var3)();
  32:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = oscard.bind(golfie)(entity, tangon);
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 219; continue _fun00001 }
+            var1 = var6.bind(var7)(var1, var4);
+            var1 = null;
+            if(!var3) { _fun0001_ip = 219; continue _fun0001 }
  187:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 7;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = {};
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 7;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
  219:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

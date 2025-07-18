@@ -1,193 +1,193 @@
 // app/modules/guild_scheduled_events/GuildScheduledEventModalActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo) { // Original name: openGuildEventDetails
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var4 = function openGuildEventDetails(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.eventId;
-            yankee = entity.event;
-            offset = entity.onClose;
-            michal = entity.isHubContext;
-            option = entity.recurrenceId;
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            tangon = zuuluu[entity];
-            entity = undefined;
-            golfie = report.bind(entity)(tangon);
-            oscard = golfie.openLazy;
-            report = _closure1_slot0;
-            tangon = 5;
-            tangon = zuuluu[tangon];
-            report = report.bind(entity)(tangon);
-            tangon = 4;
-            tangon = zuuluu[tangon];
-            zuuluu = zuuluu.paths;
-            report = report.bind(entity)(tangon, zuuluu);
-            tangon = _closure1_slot5;
-            zuuluu = {};
-            zuuluu['eventId'] = romeon;
-            zuuluu['event'] = yankee;
-            zuuluu['onCloseActionSheet'] = offset;
-            zuuluu['isHubContext'] = michal;
-            michal = null;
-            if(!(michal == option)) { _fun00002_ip = 161; continue _fun00001 }
+            var1 = arg1;
+            var12 = var1.eventId;
+            var11 = var1.event;
+            var10 = var1.onClose;
+            var2 = var1.isHubContext;
+            var8 = var1.recurrenceId;
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var4 = var3[var1];
+            var1 = undefined;
+            var7 = var5.bind(var1)(var4);
+            var6 = var7.openLazy;
+            var5 = _closure1_slot0;
+            var4 = 5;
+            var4 = var3[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = 4;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var5 = var5.bind(var1)(var4, var3);
+            var4 = _closure1_slot5;
+            var3 = {};
+            var3['eventId'] = var12;
+            var3['event'] = var11;
+            var3['onCloseActionSheet'] = var10;
+            var3['isHubContext'] = var2;
+            var2 = null;
+            if(!(var2 == var8)) { _fun0001_ip = 161; continue _fun0001 }
  130:
-            offset = _closure1_slot0;
-            romeon = _closure1_slot2;
-            verify = 6;
-            verify = romeon[verify];
-            offset = offset.bind(entity)(verify);
-            verify = offset.getNextRecurrenceIdInEvent;
-            option = verify.bind(offset)(yankee);
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var9 = 6;
+            var9 = var12[var9];
+            var10 = var10.bind(var1)(var9);
+            var9 = var10.getNextRecurrenceIdInEvent;
+            var8 = var9.bind(var10)(var11);
  161:
-            verify = michal != option;
-            michal = undefined;
-            if(!verify) { _fun00002_ip = 173; continue _fun00001 }
+            var9 = var2 != var8;
+            var2 = undefined;
+            if(!var9) { _fun0001_ip = 173; continue _fun0001 }
  170:
-            michal = option;
+            var2 = var8;
  173:
-            zuuluu['recurrenceId'] = michal;
-            foxtra = 'stack';
-            output = golfie;
-            sizing = report;
-            kiloes = tangon;
-            backup = zuuluu;
-            michal = output[oscard](sizing, kiloes, backup, foxtra, romeon);
-            return entity;
+            var3['recurrenceId'] = var2;
+            var13 = 'stack';
+            var17 = var7;
+            var16 = var5;
+            var15 = var4;
+            var14 = var3;
+            var2 = var17[var6](var16, var15, var14, var13, var12);
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = function() { // Original name: _transitionToEventDetailsFromInvite
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var1 = function _transitionToEventDetailsFromInvite() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    zuuluu = argFoo;
-                    golfie = argBar;
+                    var3 = arg1;
+                    var7 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 100; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 100; continue _fun0002 }
  13:
-                    michal = global;
-                    tangon = michal.Promise;
-                    michal = tangon.resolve;
-                    michal = michal.bind(tangon)();
+                    var2 = global;
+                    var4 = var2.Promise;
+                    var2 = var4.resolve;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=35);
  33:
-                    return michal;
+                    return var2;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 97; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 97; continue _fun0002 }
  41:
-                    report = _closure1_slot6;
-                    tangon = {};
-                    oscard = zuuluu.id;
-                    tangon['eventId'] = oscard;
-                    tangon['event'] = zuuluu;
-                    zuuluu = null;
-                    option = zuuluu == golfie;
-                    zuuluu = undefined;
-                    oscard = undefined;
-                    if(option) { _fun00004_ip = 84; continue _fun00003 }
+                    var5 = _closure1_slot6;
+                    var4 = {};
+                    var6 = var3.id;
+                    var4['eventId'] = var6;
+                    var4['event'] = var3;
+                    var3 = null;
+                    var8 = var3 == var7;
+                    var3 = undefined;
+                    var6 = undefined;
+                    if(var8) { _fun0002_ip = 84; continue _fun0002 }
  78:
-                    oscard = golfie.recurrenceId;
+                    var6 = var7.recurrenceId;
  84:
-                    tangon['recurrenceId'] = oscard;
-                    tangon = report.bind(zuuluu)(tangon);
-                    return zuuluu;
+                    var4['recurrenceId'] = var6;
+                    var4 = var5.bind(var3)(var4);
+                    return var3;
  97:
-                    return michal;
+                    return var2;
  100:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.EXPLICIT_END_EVENT_SHEET_KEY;
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.GUILD_EVENT_INFO_ACTION_SHEET_KEY;
-    var _closure1_slot5 = report;
-    report = 8;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_scheduled_events/GuildScheduledEventModalActionCreators.native.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['openGuildEventDetails'] = tangon;
-    tangon = function() { // Original name: transitionToEventDetailsFromInvite
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.EXPLICIT_END_EVENT_SHEET_KEY;
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.GUILD_EVENT_INFO_ACTION_SHEET_KEY;
+    var _closure1_slot5 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_scheduled_events/GuildScheduledEventModalActionCreators.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['openGuildEventDetails'] = var4;
+    var4 = function transitionToEventDetailsFromInvite() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['transitionToEventDetailsFromInvite'] = tangon;
-    michal = function(argFoo) { // Original name: openEndEventModal
-        report = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 3;
-        tangon = zuuluu[entity];
-        entity = undefined;
-        oscard = report.bind(entity)(tangon);
-        report = oscard.openLazy;
-        golfie = _closure1_slot0;
-        tangon = 5;
-        tangon = zuuluu[tangon];
-        golfie = golfie.bind(entity)(tangon);
-        tangon = 7;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = golfie.bind(entity)(tangon, zuuluu);
-        zuuluu = _closure1_slot4;
-        michal = {};
-        golfie = argFoo;
-        michal['channel'] = golfie;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+    var3['transitionToEventDetailsFromInvite'] = var4;
+    var2 = function openEndEventModal(arg1) {
+        var5 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var4 = var3[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.openLazy;
+        var7 = _closure1_slot0;
+        var4 = 5;
+        var4 = var3[var4];
+        var7 = var7.bind(var1)(var4);
+        var4 = 7;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var7.bind(var1)(var4, var3);
+        var3 = _closure1_slot4;
+        var2 = {};
+        var7 = arg1;
+        var2['channel'] = var7;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    zuuluu['openEndEventModal'] = michal;
-    return entity;
+    var3['openEndEventModal'] = var2;
+    return var1;
 })();

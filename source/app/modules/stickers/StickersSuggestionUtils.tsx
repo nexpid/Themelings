@@ -1,63 +1,63 @@
 // app/modules/stickers/StickersSuggestionUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = /(!|\.|;|,|-|—|–|\?|"|')/g;
-    var _closure1_slot0 = entity;
-    entity = /(\n|\t|\s)/g;
-    var _closure1_slot1 = entity;
-    tangon = function(argFoo) { // Original name: removePunctuation
-        report = argFoo;
-        tangon = report.replace;
-        zuuluu = _closure1_slot0;
-        michal = '';
-        tangon = tangon.bind(report)(zuuluu, michal);
-        zuuluu = tangon.replace;
-        michal = _closure1_slot1;
-        entity = ' ';
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = /(!|\.|;|,|-|—|–|\?|"|')/g;
+    var _closure1_slot0 = var1;
+    var1 = /(\n|\t|\s)/g;
+    var _closure1_slot1 = var1;
+    var4 = function removePunctuation(arg1) {
+        var5 = arg1;
+        var4 = var5.replace;
+        var3 = _closure1_slot0;
+        var2 = '';
+        var4 = var4.bind(var5)(var3, var2);
+        var3 = var4.replace;
+        var2 = _closure1_slot1;
+        var1 = ' ';
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot2 = tangon;
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/stickers/StickersSuggestionUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['removePunctuation'] = tangon;
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot2 = var4;
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/stickers/StickersSuggestionUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['removePunctuation'] = var4;
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 49; continue _fun0001 }
  9:
-            michal = _closure1_slot2;
-            entity = undefined;
-            michal = michal.bind(entity)(zuuluu);
-            entity = michal.trim;
-            zuuluu = entity.bind(michal)();
-            michal = zuuluu.split;
-            entity = ' ';
-            entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 53; continue _fun00001;
+            var2 = _closure1_slot2;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var3);
+            var1 = var2.trim;
+            var3 = var1.bind(var2)();
+            var2 = var3.split;
+            var1 = ' ';
+            var1 = var2.bind(var3)(var1);
+            _fun0001_ip = 53; continue _fun0001;
  49:
-            entity = new Array(0);
+            var1 = new Array(0);
  53:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getQueriesFromUserInput'] = michal;
-    return entity;
+    var3['getQueriesFromUserInput'] = var2;
+    return var1;
 })();

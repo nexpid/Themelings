@@ -1,73 +1,73 @@
 // app/modules/guild_role_subscriptions/native/premium_channel/GuildRoleSubscriptionGatedChannelIcon.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/native/premium_channel/GuildRoleSubscriptionGatedChannelIcon.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: SubscriptionGatedChannelIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/native/premium_channel/GuildRoleSubscriptionGatedChannelIcon.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function SubscriptionGatedChannelIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.locked;
-            report = entity.isInMainTabsExperiment;
-            tangon = _closure1_slot2;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot1;
-            verify = 2;
-            entity = yankee[verify];
-            zuuluu = undefined;
-            michal = offset.bind(zuuluu)(entity);
-            entity = {};
-            option = 3;
-            option = yankee[option];
-            option = offset.bind(zuuluu)(option);
-            entity['source'] = option;
-            option = _closure1_slot0;
-            golfie = _closure1_slot1;
-            golfie = golfie[verify];
-            golfie = option.bind(zuuluu)(golfie);
-            golfie = golfie.Sizes;
-            if(report) { _fun00002_ip = 96; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.locked;
+            var5 = var1.isInMainTabsExperiment;
+            var4 = _closure1_slot2;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var9 = 2;
+            var1 = var11[var9];
+            var3 = undefined;
+            var2 = var10.bind(var3)(var1);
+            var1 = {};
+            var8 = 3;
+            var8 = var11[var8];
+            var8 = var10.bind(var3)(var8);
+            var1['source'] = var8;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var7 = var7[var9];
+            var7 = var8.bind(var3)(var7);
+            var7 = var7.Sizes;
+            if(var5) { _fun0001_ip = 96; continue _fun0001 }
  88:
-            report = golfie.SMALL;
-            _fun00002_ip = 102; continue _fun00001;
+            var5 = var7.SMALL;
+            _fun0001_ip = 102; continue _fun0001;
  96:
-            report = golfie.EXTRA_SMALL_10;
+            var5 = var7.EXTRA_SMALL_10;
  102:
-            entity['size'] = report;
-            report = false;
-            report = report !== oscard;
-            entity['disableColor'] = report;
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+            var1['size'] = var5;
+            var5 = false;
+            var5 = var5 !== var6;
+            var1['disableColor'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

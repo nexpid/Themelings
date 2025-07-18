@@ -1,91 +1,91 @@
 // app/modules/quarantine/useShouldBlockDMInputForQuarantinedUser.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserFlags;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quarantine/useShouldBlockDMInputForQuarantinedUser.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserFlags;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quarantine/useShouldBlockDMInputForQuarantinedUser.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            verify = argBar;
-            var _closure2_slot0 = verify;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = option[zuuluu];
-            report = undefined;
-            tangon = golfie.bind(report)(zuuluu);
-            zuuluu = tangon.useShowConvoStarterInDM;
-            tangon = zuuluu.bind(tangon)(verify);
-            zuuluu = 3;
-            zuuluu = option[zuuluu];
-            option = golfie.bind(report)(zuuluu);
-            golfie = option.useStateFromStores;
-            zuuluu = _closure1_slot2;
-            report = new Array(1);
-            report[0] = zuuluu;
-            zuuluu = new Array(1);
-            zuuluu[0] = verify;
-            entity = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getMessages;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal.bind(zuuluu)(entity);
-                michal = entity.length;
-                entity = 0;
-                entity = michal > entity;
-                return entity;
+            var6 = arg1;
+            var9 = arg2;
+            var _closure2_slot0 = var9;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 2;
+            var3 = var8[var3];
+            var5 = undefined;
+            var4 = var7.bind(var5)(var3);
+            var3 = var4.useShowConvoStarterInDM;
+            var4 = var3.bind(var4)(var9);
+            var3 = 3;
+            var3 = var8[var3];
+            var8 = var7.bind(var5)(var3);
+            var7 = var8.useStateFromStores;
+            var3 = _closure1_slot2;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = new Array(1);
+            var3[0] = var9;
+            var1 = function() {
+                var3 = _closure1_slot2;
+                var2 = var3.getMessages;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.length;
+                var1 = 0;
+                var1 = var2 > var1;
+                return var1;
             };
-            zuuluu = golfie.bind(option)(report, entity, zuuluu);
-            entity = null;
-            entity = entity != oscard;
-            if(!entity) { _fun00002_ip = 144; continue _fun00001 }
+            var3 = var7.bind(var8)(var5, var1, var3);
+            var1 = null;
+            var1 = var1 != var6;
+            if(!var1) { _fun0001_ip = 144; continue _fun0001 }
  108:
-            report = oscard.hasFlag;
-            michal = _closure1_slot3;
-            michal = michal.QUARANTINED;
-            michal = report.bind(oscard)(michal);
-            if(!michal) { _fun00002_ip = 135; continue _fun00001 }
+            var5 = var6.hasFlag;
+            var2 = _closure1_slot3;
+            var2 = var2.QUARANTINED;
+            var2 = var5.bind(var6)(var2);
+            if(!var2) { _fun0001_ip = 135; continue _fun0001 }
  132:
-            michal = tangon;
+            var2 = var4;
  135:
-            if(!michal) { _fun00002_ip = 141; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 141; continue _fun0001 }
  138:
-            michal = !zuuluu;
+            var2 = !var3;
  141:
-            entity = michal;
+            var1 = var2;
  144:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

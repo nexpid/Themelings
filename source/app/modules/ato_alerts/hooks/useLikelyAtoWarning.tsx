@@ -1,82 +1,82 @@
 // app/modules/ato_alerts/hooks/useLikelyAtoWarning.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SafetyWarningTypes;
-    var _closure1_slot2 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/ato_alerts/hooks/useLikelyAtoWarning.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useLikelyAtoWarning
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SafetyWarningTypes;
+    var _closure1_slot2 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/ato_alerts/hooks/useLikelyAtoWarning.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useLikelyAtoWarning(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            entity = 1;
-            zuuluu = verify[entity];
-            entity = undefined;
-            tangon = golfie.bind(entity)(zuuluu);
-            zuuluu = tangon.useIsSpamMessageRequest;
-            oscard = zuuluu.bind(tangon)(option);
-            zuuluu = 2;
-            zuuluu = verify[zuuluu];
-            tangon = golfie.bind(entity)(zuuluu);
-            zuuluu = tangon.useIsMessageRequest;
-            report = zuuluu.bind(tangon)(option);
-            zuuluu = 3;
-            zuuluu = verify[zuuluu];
-            tangon = golfie.bind(entity)(zuuluu);
-            zuuluu = tangon.useChannelSafetyWarning;
-            michal = _closure1_slot2;
-            michal = michal.LIKELY_ATO;
-            michal = zuuluu.bind(tangon)(option, michal);
-            zuuluu = 4;
-            zuuluu = verify[zuuluu];
-            tangon = golfie.bind(entity)(zuuluu);
-            zuuluu = tangon.useInappropriateConversationWarningsForChannel;
-            zuuluu = zuuluu.bind(tangon)(option);
-            tangon = zuuluu.length;
-            zuuluu = 0;
-            tangon = tangon > zuuluu;
-            zuuluu = 5;
-            zuuluu = verify[zuuluu];
-            golfie = golfie.bind(entity)(zuuluu);
-            zuuluu = golfie.useStrangerDangerWarning;
-            golfie = zuuluu.bind(golfie)(option);
-            zuuluu = null;
-            zuuluu = zuuluu != golfie;
-            if(oscard) { _fun00002_ip = 173; continue _fun00001 }
+            var8 = arg1;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 1;
+            var3 = var9[var1];
+            var1 = undefined;
+            var4 = var7.bind(var1)(var3);
+            var3 = var4.useIsSpamMessageRequest;
+            var6 = var3.bind(var4)(var8);
+            var3 = 2;
+            var3 = var9[var3];
+            var4 = var7.bind(var1)(var3);
+            var3 = var4.useIsMessageRequest;
+            var5 = var3.bind(var4)(var8);
+            var3 = 3;
+            var3 = var9[var3];
+            var4 = var7.bind(var1)(var3);
+            var3 = var4.useChannelSafetyWarning;
+            var2 = _closure1_slot2;
+            var2 = var2.LIKELY_ATO;
+            var2 = var3.bind(var4)(var8, var2);
+            var3 = 4;
+            var3 = var9[var3];
+            var4 = var7.bind(var1)(var3);
+            var3 = var4.useInappropriateConversationWarningsForChannel;
+            var3 = var3.bind(var4)(var8);
+            var4 = var3.length;
+            var3 = 0;
+            var4 = var4 > var3;
+            var3 = 5;
+            var3 = var9[var3];
+            var7 = var7.bind(var1)(var3);
+            var3 = var7.useStrangerDangerWarning;
+            var7 = var3.bind(var7)(var8);
+            var3 = null;
+            var3 = var3 != var7;
+            if(var6) { _fun0001_ip = 173; continue _fun0001 }
  162:
-            if(report) { _fun00002_ip = 173; continue _fun00001 }
+            if(var5) { _fun0001_ip = 173; continue _fun0001 }
  165:
-            if(tangon) { _fun00002_ip = 173; continue _fun00001 }
+            if(var4) { _fun0001_ip = 173; continue _fun0001 }
  168:
-            if(zuuluu) { _fun00002_ip = 173; continue _fun00001 }
+            if(var3) { _fun0001_ip = 173; continue _fun0001 }
  171:
-            return michal;
+            return var2;
  173:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useLikelyAtoWarning'] = michal;
-    return entity;
+    var3['useLikelyAtoWarning'] = var2;
+    return var1;
 })();

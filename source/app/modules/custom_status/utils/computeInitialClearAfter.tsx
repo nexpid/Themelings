@@ -1,144 +1,144 @@
 // app/modules/custom_status/utils/computeInitialClearAfter.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ClearAfterValues;
-    var _closure1_slot2 = golfie;
-    option = golfie.MINUTES_30;
-    tangon = new Array(3);
-    tangon[0] = option;
-    option = golfie.HOURS_1;
-    tangon[1] = option;
-    golfie = golfie.HOURS_4;
-    tangon[2] = golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/custom_status/utils/computeInitialClearAfter.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: computeInitialClearAfter
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ClearAfterValues;
+    var _closure1_slot2 = var7;
+    var8 = var7.MINUTES_30;
+    var4 = new Array(3);
+    var4[0] = var8;
+    var8 = var7.HOURS_1;
+    var4[1] = var8;
+    var7 = var7.HOURS_4;
+    var4[2] = var7;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/custom_status/utils/computeInitialClearAfter.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function computeInitialClearAfter() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = report[zuuluu];
-            golfie = undefined;
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            tangon = zuuluu.CustomStatusSetting;
-            zuuluu = tangon.getSetting;
-            report = zuuluu.bind(tangon)();
-            zuuluu = null;
-            if(!(zuuluu != report)) { _fun00002_ip = 355; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 1;
+            var3 = var5[var3];
+            var7 = undefined;
+            var3 = var4.bind(var7)(var3);
+            var4 = var3.CustomStatusSetting;
+            var3 = var4.getSetting;
+            var5 = var3.bind(var4)();
+            var3 = null;
+            if(!(var3 != var5)) { _fun0001_ip = 355; continue _fun0001 }
  52:
-            oscard = report.expiresAtMs;
-            tangon = '';
-            if(!(tangon !== oscard)) { _fun00002_ip = 355; continue _fun00001 }
+            var6 = var5.expiresAtMs;
+            var4 = '';
+            if(!(var4 !== var6)) { _fun0001_ip = 355; continue _fun0001 }
  69:
-            tangon = global;
-            oscard = tangon.Number;
-            report = report.expiresAtMs;
-            oscard = oscard.bind(golfie)(report);
-            report = tangon.isNaN;
-            report = report.bind(golfie)(oscard);
-            if(report) { _fun00002_ip = 343; continue _fun00001 }
+            var4 = global;
+            var6 = var4.Number;
+            var5 = var5.expiresAtMs;
+            var6 = var6.bind(var7)(var5);
+            var5 = var4.isNaN;
+            var5 = var5.bind(var7)(var6);
+            if(var5) { _fun0001_ip = 343; continue _fun0001 }
  105:
-            report = 0;
-            if(!(report !== oscard)) { _fun00002_ip = 331; continue _fun00001 }
+            var5 = 0;
+            if(!(var5 !== var6)) { _fun0001_ip = 331; continue _fun0001 }
  114:
-            report = tangon.Date;
-            option = report.prototype;
-            option = Object.create(option, {constructor: {value: report}});
-            foxtra = option;
-            report = new foxtra[report](romeon);
-            verify = report instanceof Object ? report : option;
-            report = tangon.Date;
-            option = report.prototype;
-            option = Object.create(option, {constructor: {value: report}});
-            foxtra = option;
-            romeon = oscard;
-            report = new foxtra[report](romeon, yankee);
-            offset = report instanceof Object ? report : option;
-            report = verify.getFullYear;
-            option = report.bind(verify)();
-            report = offset.getFullYear;
-            report = report.bind(offset)();
-            report = option === report;
-            if(!report) { _fun00002_ip = 220; continue _fun00001 }
+            var5 = var4.Date;
+            var8 = var5.prototype;
+            var8 = Object.create(var8, {constructor: {value: var5}});
+            var13 = var8;
+            var5 = new var13[var5](var12);
+            var9 = var5 instanceof Object ? var5 : var8;
+            var5 = var4.Date;
+            var8 = var5.prototype;
+            var8 = Object.create(var8, {constructor: {value: var5}});
+            var13 = var8;
+            var12 = var6;
+            var5 = new var13[var5](var12, var11);
+            var10 = var5 instanceof Object ? var5 : var8;
+            var5 = var9.getFullYear;
+            var8 = var5.bind(var9)();
+            var5 = var10.getFullYear;
+            var5 = var5.bind(var10)();
+            var5 = var8 === var5;
+            if(!var5) { _fun0001_ip = 220; continue _fun0001 }
  196:
-            option = verify.getMonth;
-            yankee = option.bind(verify)();
-            option = offset.getMonth;
-            option = option.bind(offset)();
-            report = yankee === option;
+            var8 = var9.getMonth;
+            var11 = var8.bind(var9)();
+            var8 = var10.getMonth;
+            var8 = var8.bind(var10)();
+            var5 = var11 === var8;
  220:
-            if(!report) { _fun00002_ip = 247; continue _fun00001 }
+            if(!var5) { _fun0001_ip = 247; continue _fun0001 }
  223:
-            option = verify.getDate;
-            verify = option.bind(verify)();
-            option = offset.getDate;
-            option = option.bind(offset)();
-            report = verify === option;
+            var8 = var9.getDate;
+            var9 = var8.bind(var9)();
+            var8 = var10.getDate;
+            var8 = var8.bind(var10)();
+            var5 = var9 === var8;
  247:
-            if(report) { _fun00002_ip = 262; continue _fun00001 }
+            if(var5) { _fun0001_ip = 262; continue _fun0001 }
  250:
-            report = _closure1_slot2;
-            report = report.TODAY;
-            return report;
+            var5 = _closure1_slot2;
+            var5 = var5.TODAY;
+            return var5;
  262:
-            report = tangon.Number;
-            report = report.bind(golfie)(oscard);
-            oscard = tangon.Date;
-            tangon = oscard.now;
-            tangon = tangon.bind(oscard)();
-            tangon = report - tangon;
-            var _closure2_slot0 = tangon;
-            report = _closure1_slot3;
-            tangon = report.find;
-            michal = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = michal <= entity;
-                return entity;
+            var5 = var4.Number;
+            var5 = var5.bind(var7)(var6);
+            var6 = var4.Date;
+            var4 = var6.now;
+            var4 = var4.bind(var6)();
+            var4 = var5 - var4;
+            var _closure2_slot0 = var4;
+            var5 = _closure1_slot3;
+            var4 = var5.find;
+            var2 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var2 <= var1;
+                return var1;
             };
-            michal = tangon.bind(report)(michal);
-            if(!(zuuluu == michal)) { _fun00002_ip = 329; continue _fun00001 }
+            var2 = var4.bind(var5)(var2);
+            if(!(var3 == var2)) { _fun0001_ip = 329; continue _fun0001 }
  319:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.TODAY;
+            var3 = _closure1_slot2;
+            var2 = var3.TODAY;
  329:
-            return michal;
+            return var2;
  331:
-            michal = _closure1_slot2;
-            michal = michal.DONT_CLEAR;
-            return michal;
+            var2 = _closure1_slot2;
+            var2 = var2.DONT_CLEAR;
+            return var2;
  343:
-            michal = _closure1_slot2;
-            michal = michal.TODAY;
-            return michal;
+            var2 = _closure1_slot2;
+            var2 = var2.TODAY;
+            return var2;
  355:
-            entity = _closure1_slot2;
-            entity = entity.TODAY;
-            return entity;
+            var1 = _closure1_slot2;
+            var1 = var1.TODAY;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,91 +1,91 @@
 // app/modules/auth/RedirectUnauthenticated.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function() { // Original name: getRedirectPath
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getRedirectPath() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = global;
-            michal = entity.location;
-            michal = michal.pathname;
-            entity = entity.location;
-            entity = entity.search;
-            report = michal + entity;
-            entity = _closure1_slot3;
-            if(entity) { _fun00002_ip = 78; continue _fun00001 }
+            var1 = global;
+            var2 = var1.location;
+            var2 = var2.pathname;
+            var1 = var1.location;
+            var1 = var1.search;
+            var5 = var2 + var1;
+            var1 = _closure1_slot3;
+            if(var1) { _fun0001_ip = 78; continue _fun0001 }
  40:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getLoginPath;
-            entity = false;
-            entity = zuuluu.bind(tangon)(report, entity);
-            _fun00002_ip = 88; continue _fun00001;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getLoginPath;
+            var1 = false;
+            var1 = var3.bind(var4)(var5, var1);
+            _fun0001_ip = 88; continue _fun0001;
  78:
-            michal = _closure1_slot2;
-            entity = michal.REGISTER;
+            var2 = _closure1_slot2;
+            var1 = var2.REGISTER;
  88:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.Routes;
-    var _closure1_slot2 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.CONFERENCE_MODE_ENABLED;
-    var _closure1_slot3 = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot4 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/auth/RedirectUnauthenticated.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function() { // Original name: RedirectUnauthenticated
-        tangon = _closure1_slot4;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 5;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.Redirect;
-        entity = {};
-        report = _closure1_slot5;
-        report = report.bind(zuuluu)();
-        entity['to'] = report;
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Routes;
+    var _closure1_slot2 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.CONFERENCE_MODE_ENABLED;
+    var _closure1_slot3 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot4 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/auth/RedirectUnauthenticated.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function RedirectUnauthenticated() {
+        var4 = _closure1_slot4;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 5;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.Redirect;
+        var1 = {};
+        var5 = _closure1_slot5;
+        var5 = var5.bind(var3)();
+        var1['to'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getRedirectPath'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getRedirectPath'] = var2;
+    return var1;
 })();

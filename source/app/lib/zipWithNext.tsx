@@ -1,56 +1,56 @@
 // app/lib/zipWithNext.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'lib/zipWithNext.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: zipWithNext
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'lib/zipWithNext.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function zipWithNext(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            oscard = argBar;
-            michal = golfie.length;
-            entity = 2;
-            if(!(!(michal < entity))) { _fun00002_ip = 82; continue _fun00001 }
+            var7 = arg1;
+            var6 = arg2;
+            var2 = var7.length;
+            var1 = 2;
+            if(!(!(var2 < var1))) { _fun0001_ip = 82; continue _fun0001 }
  18:
-            entity = new Array(0);
-            michal = 0;
-            report = golfie[michal];
-            michal = golfie.length;
-            tangon = 1;
-            michal = tangon < michal;
-            zuuluu = undefined;
-            if(!michal) { _fun00002_ip = 80; continue _fun00001 }
+            var1 = new Array(0);
+            var2 = 0;
+            var5 = var7[var2];
+            var2 = var7.length;
+            var4 = 1;
+            var2 = var4 < var2;
+            var3 = undefined;
+            if(!var2) { _fun0001_ip = 80; continue _fun0001 }
  45:
-            option = golfie[tangon];
-            verify = entity.push;
-            michal = oscard.bind(zuuluu)(report, option);
-            michal = verify.bind(entity)(michal);
-            tangon = tangon + 1;
-            michal = golfie.length;
-            report = option;
-            if(tangon < michal) { _fun00002_ip = 45; continue _fun00001 }
+            var8 = var7[var4];
+            var9 = var1.push;
+            var2 = var6.bind(var3)(var5, var8);
+            var2 = var9.bind(var1)(var2);
+            var4 = var4 + 1;
+            var2 = var7.length;
+            var5 = var8;
+            if(var4 < var2) { _fun0001_ip = 45; continue _fun0001 }
  80:
-            return entity;
+            return var1;
  82:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

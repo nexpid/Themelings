@@ -1,160 +1,160 @@
 // app/modules/verification/ChangeEmailStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    option = argBar;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = verify;
-    tangon = function(argFoo, argBar) { // Original name: setChangeEmailError
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = function(argFoo) {
-                entity = {};
-                michal = {};
-                zuuluu = argFoo;
-                report = zuuluu.errors;
-                oscard = michal;
-                zuuluu = copyDataProperties(oscard, report);
-                tangon = _closure2_slot0;
-                zuuluu = _closure2_slot1;
-                michal[tangon] = zuuluu;
-                entity['errors'] = michal;
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
+    var4 = function setChangeEmailError(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = function(arg1) {
+                var1 = {};
+                var2 = {};
+                var3 = arg1;
+                var5 = var3.errors;
+                var6 = var2;
+                var3 = copyDataProperties(var6, var5);
+                var4 = _closure2_slot0;
+                var3 = _closure2_slot1;
+                var2[var4] = var3;
+                var1['errors'] = var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    oscard = {};
-    entity = 'email';
-    oscard['EMAIL'] = entity;
-    entity = 'email_token';
-    oscard['EMAIL_TOKEN'] = entity;
-    entity = 'password';
-    oscard['PASSWORD'] = entity;
-    entity = {'errors': null, 'emailToken': null};
-    var _closure1_slot2 = entity;
-    entity = 0;
-    report = verify[entity];
-    entity = undefined;
-    offset = option.bind(entity)(report);
-    golfie = offset.create;
-    report = function() {
-        entity = _closure1_slot2;
-        return entity;
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var6 = {};
+    var1 = 'email';
+    var6['EMAIL'] = var1;
+    var1 = 'email_token';
+    var6['EMAIL_TOKEN'] = var1;
+    var1 = 'password';
+    var6['PASSWORD'] = var1;
+    var1 = {'errors': null, 'emailToken': null};
+    var _closure1_slot2 = var1;
+    var1 = 0;
+    var5 = var9[var1];
+    var1 = undefined;
+    var10 = var8.bind(var1)(var5);
+    var7 = var10.create;
+    var5 = function() {
+        var1 = _closure1_slot2;
+        return var1;
     };
-    report = golfie.bind(offset)(report);
-    var _closure1_slot3 = report;
-    golfie = 2;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/verification/ChangeEmailStore.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['ChangeEmailFields'] = oscard;
-    zuuluu['useChangeEmailStore'] = report;
-    zuuluu['setChangeEmailError'] = tangon;
-    tangon = function(argFoo) { // Original name: useChangeEmailError
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot3;
-        zuuluu = undefined;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var5 = var7.bind(var10)(var5);
+    var _closure1_slot3 = var5;
+    var7 = 2;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/verification/ChangeEmailStore.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['ChangeEmailFields'] = var6;
+    var3['useChangeEmailStore'] = var5;
+    var3['setChangeEmailError'] = var4;
+    var4 = function useChangeEmailError(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.errors;
-                entity = null;
-                michal = entity == zuuluu;
-                entity = undefined;
-                if(michal) { _fun00002_ip = 31; continue _fun00001 }
+                var1 = arg1;
+                var3 = var1.errors;
+                var1 = null;
+                var2 = var1 == var3;
+                var1 = undefined;
+                if(var2) { _fun0001_ip = 31; continue _fun0001 }
  20:
-                michal = _closure2_slot0;
-                entity = zuuluu[michal];
+                var2 = _closure2_slot0;
+                var1 = var3[var2];
  31:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = tangon.bind(zuuluu)(entity);
-        entity = new Array(2);
-        entity[0] = zuuluu;
-        michal = function(argFoo) {
-            tangon = _closure1_slot4;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            michal = argFoo;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+        var3 = var4.bind(var3)(var1);
+        var1 = new Array(2);
+        var1[0] = var3;
+        var2 = function(arg1) {
+            var4 = _closure1_slot4;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var2 = arg1;
+            var2 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        entity[1] = michal;
-        return entity;
+        var1[1] = var2;
+        return var1;
     };
-    zuuluu['useChangeEmailError'] = tangon;
-    tangon = function(argFoo) { // Original name: setEmailToken
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = {};
-            tangon = _closure2_slot0;
-            entity['emailToken'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['useChangeEmailError'] = var4;
+    var4 = function setEmailToken(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = {};
+            var4 = _closure2_slot0;
+            var1['emailToken'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setEmailToken'] = tangon;
-    michal = function() { // Original name: resetChangeEmailStore
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            tangon = _closure1_slot3;
-            zuuluu = tangon.setState;
-            michal = _closure1_slot2;
-            entity = true;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+    var3['setEmailToken'] = var4;
+    var2 = function resetChangeEmailStore() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var4 = _closure1_slot3;
+            var3 = var4.setState;
+            var2 = _closure1_slot2;
+            var1 = true;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['resetChangeEmailStore'] = michal;
-    return entity;
+    var3['resetChangeEmailStore'] = var2;
+    return var1;
 })();

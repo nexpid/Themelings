@@ -1,127 +1,127 @@
 // discord_common/js/packages/libdave/package/src/DisplayableCode.ts
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = '../discord_common/js/packages/libdave/package/src/DisplayableCode.ts';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar, argBaz) { // Original name: generateDisplayableCode
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = '../discord_common/js/packages/libdave/package/src/DisplayableCode.ts';
+    var2 = var4.bind(var5)(var2);
+    var2 = function generateDisplayableCode(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            foxtra = argFoo;
-            romeon = argBar;
-            yankee = argBaz;
-            entity = foxtra.byteLength;
-            if(!(!(entity < romeon))) { _fun00002_ip = 315; continue _fun00001 }
+            var13 = arg1;
+            var12 = arg2;
+            var11 = arg3;
+            var1 = var13.byteLength;
+            if(!(!(var1 < var12))) { _fun0001_ip = 315; continue _fun0001 }
  22:
-            entity = romeon % yankee;
-            offset = 0;
-            if(!(entity == offset)) { _fun00002_ip = 279; continue _fun00001 }
+            var1 = var12 % var11;
+            var10 = 0;
+            if(!(var1 == var10)) { _fun0001_ip = 279; continue _fun0001 }
  35:
-            entity = 8;
-            if(!(!(yankee > entity))) { _fun00002_ip = 243; continue _fun00001 }
+            var1 = 8;
+            if(!(!(var11 > var1))) { _fun0001_ip = 243; continue _fun0001 }
  45:
-            entity = global;
-            zuuluu = entity.BigInt;
-            source = 10;
-            update = yankee;
-            michal = exponentiationOperator(source, update);
-            verify = undefined;
-            option = zuuluu.bind(verify)(michal);
-            backup = offset < romeon;
-            report = '';
-            golfie = '0';
-            oscard = 8n;
-            tangon = 0;
-            zuuluu = undefined;
-            michal = report;
-            if(!backup) { _fun00002_ip = 207; continue _fun00001 }
+            var1 = global;
+            var3 = var1.BigInt;
+            var21 = 10;
+            var20 = var11;
+            var2 = exponentiationOperator(var21, var20);
+            var9 = undefined;
+            var8 = var3.bind(var9)(var2);
+            var14 = var10 < var12;
+            var5 = '';
+            var7 = '0';
+            var6 = 8n;
+            var4 = 0;
+            var3 = undefined;
+            var2 = var5;
+            if(!var14) { _fun0001_ip = 207; continue _fun0001 }
  98:
-            backup = entity.BigInt;
-            sizing = backup.bind(verify)(offset);
-            backup = sizing;
-            kiloes = yankee;
-            if(!(kiloes > offset)) { _fun00002_ip = 167; continue _fun00001 }
+            var14 = var1.BigInt;
+            var16 = var14.bind(var9)(var10);
+            var14 = var16;
+            var15 = var11;
+            if(!(var15 > var10)) { _fun0001_ip = 167; continue _fun0001 }
  119:
-            output = yankee - kiloes;
-            output = tangon + output;
-            output = foxtra[output];
-            if(!(verify !== output)) { _fun00002_ip = 209; continue _fun00001 }
+            var17 = var11 - var15;
+            var17 = var4 + var17;
+            var17 = var13[var17];
+            if(!(var9 !== var17)) { _fun0001_ip = 209; continue _fun0001 }
  135:
-            echoed = sizing << oscard;
-            result = entity.BigInt;
-            result = result.bind(verify)(output);
-            sizing = echoed | result;
-            kiloes = kiloes - 1;
-            backup = sizing;
-            zuuluu = output;
-            if(kiloes > offset) { _fun00002_ip = 119; continue _fun00001 }
+            var19 = var16 << var6;
+            var18 = var1.BigInt;
+            var18 = var18.bind(var9)(var17);
+            var16 = var19 | var18;
+            var15 = var15 - 1;
+            var14 = var16;
+            var3 = var17;
+            if(var15 > var10) { _fun0001_ip = 119; continue _fun0001 }
  167:
-            kiloes = backup % option;
-            backup = kiloes.toString;
-            kiloes = backup.bind(kiloes)();
-            backup = kiloes.padStart;
-            backup = backup.bind(kiloes)(yankee, golfie);
-            report = report + backup;
-            tangon = tangon + yankee;
-            michal = report;
-            if(tangon < romeon) { _fun00002_ip = 98; continue _fun00001 }
+            var15 = var14 % var8;
+            var14 = var15.toString;
+            var15 = var14.bind(var15)();
+            var14 = var15.padStart;
+            var14 = var14.bind(var15)(var11, var7);
+            var5 = var5 + var14;
+            var4 = var4 + var11;
+            var2 = var5;
+            if(var4 < var12) { _fun0001_ip = 98; continue _fun0001 }
  207:
-            return michal;
+            return var2;
  209:
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            source = 'Out of bounds access from data array';
-            ctrled = michal;
-            entity = new ctrled[zuuluu](source, update);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var21 = 'Out of bounds access from data array';
+            var22 = var2;
+            var1 = new var22[var3](var21, var20);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
  243:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            source = 'groupSize must be less than or equal to 8';
-            ctrled = michal;
-            entity = new ctrled[zuuluu](source, update);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var21 = 'groupSize must be less than or equal to 8';
+            var22 = var2;
+            var1 = new var22[var3](var21, var20);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
  279:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            source = 'desiredLength must be a multiple of groupSize';
-            ctrled = michal;
-            entity = new ctrled[zuuluu](source, update);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var21 = 'desiredLength must be a multiple of groupSize';
+            var22 = var2;
+            var1 = new var22[var3](var21, var20);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
  315:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            source = 'data.byteLength must be greater than or equal to desiredLength';
-            ctrled = michal;
-            entity = new ctrled[zuuluu](source, update);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var21 = 'data.byteLength must be greater than or equal to desiredLength';
+            var22 = var2;
+            var1 = new var22[var3](var21, var20);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    zuuluu['generateDisplayableCode'] = michal;
-    return entity;
+    var3['generateDisplayableCode'] = var2;
+    return var1;
 })();

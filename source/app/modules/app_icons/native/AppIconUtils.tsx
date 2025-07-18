@@ -1,527 +1,527 @@
 // app/modules/app_icons/native/AppIconUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        verify = argBaz;
-        zuuluu = argFre;
-        golfie = argPlu;
-        var _closure1_slot0 = oscard;
-        var _closure1_slot1 = verify;
-        var _closure1_slot2 = golfie;
-        tangon = function() { // Original name: useCurrentAppIcon
-            golfie = _closure1_slot5;
-            report = golfie.useState;
-            option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 10;
-            entity = oscard[entity];
-            tangon = undefined;
-            entity = option.bind(tangon)(entity);
-            entity = entity.FreemiumAppIconIds;
-            entity = entity.DEFAULT;
-            golfie = report.bind(golfie)(entity);
-            report = _closure1_slot4;
-            entity = 2;
-            golfie = report.bind(tangon)(golfie, entity);
-            entity = 0;
-            entity = golfie[entity];
-            report = 1;
-            report = golfie[report];
-            var _closure2_slot0 = report;
-            verify = _closure1_slot5;
-            option = verify.useCallback;
-            golfie = _closure1_slot3;
-            report = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = native2;
+        var9 = native3;
+        var3 = native6;
+        var7 = native7;
+        var _closure1_slot0 = var6;
+        var _closure1_slot1 = var9;
+        var _closure1_slot2 = var7;
+        var4 = function useCurrentAppIcon() {
+            var7 = _closure1_slot5;
+            var5 = var7.useState;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 10;
+            var1 = var6[var1];
+            var4 = undefined;
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.FreemiumAppIconIds;
+            var1 = var1.DEFAULT;
+            var7 = var5.bind(var7)(var1);
+            var5 = _closure1_slot4;
+            var1 = 2;
+            var7 = var5.bind(var4)(var7, var1);
+            var1 = 0;
+            var1 = var7[var1];
+            var5 = 1;
+            var5 = var7[var5];
+            var _closure2_slot0 = var5;
+            var9 = _closure1_slot5;
+            var8 = var9.useCallback;
+            var7 = _closure1_slot3;
+            var5 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 123; continue _fun00003 }
+                        if(var2) { _fun0002_ip = 123; continue _fun0002 }
  7: // try_start_0
-                        tangon = _closure1_slot13;
-                        michal = null;
-                        tangon = michal == tangon;
-                        report = undefined;
-                        michal = undefined;
-                        if(tangon) { _fun00004_ip = 43; continue _fun00003 }
+                        var4 = _closure1_slot13;
+                        var2 = null;
+                        var4 = var2 == var4;
+                        var5 = undefined;
+                        var2 = undefined;
+                        if(var4) { _fun0002_ip = 43; continue _fun0002 }
  27:
-                        tangon = _closure1_slot13;
-                        zuuluu = tangon.getCurrentIcon;
-                        michal = zuuluu.bind(tangon)();
+                        var4 = _closure1_slot13;
+                        var3 = var4.getCurrentIcon;
+                        var2 = var3.bind(var4)();
  43:
                         SaveGenerator(address=47);
  45:
-                        return michal;
+                        return var2;
  47:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00004_ip = 72; continue _fun00003 }
+                        if(var3) { _fun0002_ip = 72; continue _fun0002 }
  53:
-                        tangon = _closure2_slot0;
-                        zuuluu = michal.id;
-                        zuuluu = tangon.bind(report)(zuuluu);
+                        var4 = _closure2_slot0;
+                        var3 = var2.id;
+                        var3 = var4.bind(var5)(var3);
  70: // try_end0
-                        _fun00004_ip = 118; continue _fun00003;
+                        _fun0002_ip = 118; continue _fun0002;
  72:
-                        return michal;
+                        return var2;
  75: // catch_target0
                         CatchBlockStart(arg_register=5);
-                        tangon = _closure1_slot12;
-                        zuuluu = tangon.warn;
-                        michal = global;
-                        michal = michal.HermesInternal;
-                        report = michal.concat;
-                        michal = 'Error fetching current app icon: ';
-                        michal = report.bind(michal)(oscard);
-                        michal = zuuluu.bind(tangon)(michal);
+                        var4 = _closure1_slot12;
+                        var3 = var4.warn;
+                        var2 = global;
+                        var2 = var2.HermesInternal;
+                        var5 = var2.concat;
+                        var2 = 'Error fetching current app icon: ';
+                        var2 = var5.bind(var2)(var6);
+                        var2 = var3.bind(var4)(var2);
  118:
-                        michal = undefined;
-                        return michal;
+                        var2 = undefined;
+                        return var2;
  123:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            golfie = golfie.bind(tangon)(report);
-            report = new Array(0);
-            report = option.bind(verify)(golfie, report);
-            var _closure2_slot1 = report;
-            report = _closure1_slot1;
-            zuuluu = 11;
-            zuuluu = oscard[zuuluu];
-            zuuluu = report.bind(tangon)(zuuluu);
-            michal = function() {
-                tangon = _closure2_slot1;
-                zuuluu = undefined;
-                entity = tangon.bind(zuuluu)();
-                michal = _closure1_slot1;
-                report = _closure1_slot2;
-                entity = 12;
-                entity = report[entity];
-                zuuluu = michal.bind(zuuluu)(entity);
-                michal = zuuluu.subscribe;
-                entity = 'APP_ICON_UPDATED';
-                entity = michal.bind(zuuluu)(entity, tangon);
-                entity = function() {
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 12;
-                    michal = michal[entity];
-                    entity = undefined;
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = report.unsubscribe;
-                    zuuluu = _closure2_slot1;
-                    michal = 'APP_ICON_UPDATED';
-                    michal = tangon.bind(report)(michal, zuuluu);
-                    return entity;
+            var7 = var7.bind(var4)(var5);
+            var5 = new Array(0);
+            var5 = var8.bind(var9)(var7, var5);
+            var _closure2_slot1 = var5;
+            var5 = _closure1_slot1;
+            var3 = 11;
+            var3 = var6[var3];
+            var3 = var5.bind(var4)(var3);
+            var2 = function() {
+                var4 = _closure2_slot1;
+                var3 = undefined;
+                var1 = var4.bind(var3)();
+                var2 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var1 = 12;
+                var1 = var5[var1];
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.subscribe;
+                var1 = 'APP_ICON_UPDATED';
+                var1 = var2.bind(var3)(var1, var4);
+                var1 = function() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 12;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.unsubscribe;
+                    var3 = _closure2_slot1;
+                    var2 = 'APP_ICON_UPDATED';
+                    var2 = var4.bind(var5)(var2, var3);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure1_slot14 = tangon;
-        entity = function() { // Original name: _setAppIcon
-            report = undefined;
-            entity = undefined;
-            tangon = _closure1_slot3;
-            zuuluu = function* (argFoo, argBar) {
-                entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure1_slot14 = var4;
+        var1 = function _setAppIcon() {
+            var5 = undefined;
+            var1 = undefined;
+            var4 = _closure1_slot3;
+            var3 = function* (arg1, arg2) {
+                var1 = function* anon_0_(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 361; continue _fun00005 }
+                        if(var2) { _fun0003_ip = 361; continue _fun0003 }
  10:
-                        offset = argFoo;
-                        verify = argBar;
+                        var10 = arg1;
+                        var9 = arg2;
  16: // try_start_0
-                        michal = _closure1_slot13;
-                        golfie = null;
-                        zuuluu = golfie == michal;
-                        romeon = undefined;
-                        michal = undefined;
-                        if(zuuluu) { _fun00006_ip = 54; continue _fun00005 }
+                        var2 = _closure1_slot13;
+                        var7 = null;
+                        var3 = var7 == var2;
+                        var12 = undefined;
+                        var2 = undefined;
+                        if(var3) { _fun0003_ip = 54; continue _fun0003 }
  36:
-                        report = _closure1_slot13;
-                        tangon = report.setIcon;
-                        zuuluu = offset;
-                        michal = tangon.bind(report)(zuuluu);
+                        var5 = _closure1_slot13;
+                        var4 = var5.setIcon;
+                        var3 = var10;
+                        var2 = var4.bind(var5)(var3);
  54:
                         SaveGenerator(address=58);
  56:
-                        return michal;
+                        return var2;
  58:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00006_ip = 210; continue _fun00005 }
+                        if(var3) { _fun0003_ip = 210; continue _fun0003 }
  67:
-                        tangon = _closure1_slot1;
-                        foxtra = _closure1_slot2;
-                        zuuluu = 12;
-                        zuuluu = foxtra[zuuluu];
-                        oscard = tangon.bind(romeon)(zuuluu);
-                        report = oscard.dispatch;
-                        zuuluu = {};
-                        yankee = 'APP_ICON_UPDATED';
-                        zuuluu['type'] = yankee;
-                        zuuluu = report.bind(oscard)(zuuluu);
-                        zuuluu = 13;
-                        zuuluu = foxtra[zuuluu];
-                        oscard = tangon.bind(romeon)(zuuluu);
-                        report = oscard.track;
-                        zuuluu = _closure1_slot9;
-                        tangon = zuuluu.APP_ICON_UPDATED;
-                        zuuluu = {};
-                        zuuluu['icon_id'] = offset;
-                        zuuluu['user_premium_tier'] = verify;
-                        yankee = _closure1_slot0;
-                        verify = 10;
-                        verify = foxtra[verify];
-                        verify = yankee.bind(romeon)(verify);
-                        verify = verify.FreemiumAppIconIds;
-                        verify = verify.DEFAULT;
-                        golfie = null;
-                        if(!(offset !== verify)) { _fun00006_ip = 192; continue _fun00005 }
+                        var4 = _closure1_slot1;
+                        var13 = _closure1_slot2;
+                        var3 = 12;
+                        var3 = var13[var3];
+                        var6 = var4.bind(var12)(var3);
+                        var5 = var6.dispatch;
+                        var3 = {};
+                        var11 = 'APP_ICON_UPDATED';
+                        var3['type'] = var11;
+                        var3 = var5.bind(var6)(var3);
+                        var3 = 13;
+                        var3 = var13[var3];
+                        var6 = var4.bind(var12)(var3);
+                        var5 = var6.track;
+                        var3 = _closure1_slot9;
+                        var4 = var3.APP_ICON_UPDATED;
+                        var3 = {};
+                        var3['icon_id'] = var10;
+                        var3['user_premium_tier'] = var9;
+                        var11 = _closure1_slot0;
+                        var9 = 10;
+                        var9 = var13[var9];
+                        var9 = var11.bind(var12)(var9);
+                        var9 = var9.FreemiumAppIconIds;
+                        var9 = var9.DEFAULT;
+                        var7 = null;
+                        if(!(var10 !== var9)) { _fun0003_ip = 192; continue _fun0003 }
  182:
-                        option = _closure1_slot11;
-                        golfie = option.TIER_2;
+                        var8 = _closure1_slot11;
+                        var7 = var8.TIER_2;
  192:
-                        zuuluu['icon_premium_tier'] = golfie;
-                        zuuluu = report.bind(oscard)(tangon, zuuluu);
+                        var3['icon_premium_tier'] = var7;
+                        var3 = var5.bind(var6)(var4, var3);
  205: // try_end0
-                        _fun00006_ip = 356; continue _fun00005;
+                        _fun0003_ip = 356; continue _fun0003;
  210:
-                        return michal;
+                        return var2;
  213: // catch_target0
                         CatchBlockStart(arg_register=5);
-                        tangon = _closure1_slot1;
-                        romeon = _closure1_slot2;
-                        zuuluu = 14;
-                        zuuluu = romeon[zuuluu];
-                        yankee = undefined;
-                        report = tangon.bind(yankee)(zuuluu);
-                        tangon = report.open;
-                        zuuluu = {};
-                        golfie = 'APP_ICON_LOGS_ERROR_MESSAGE_GENERIC';
-                        zuuluu['key'] = golfie;
-                        offset = _closure1_slot0;
-                        golfie = 15;
-                        option = romeon[golfie];
-                        option = offset.bind(yankee)(option);
-                        verify = option.intl;
-                        option = verify.string;
-                        golfie = romeon[golfie];
-                        golfie = offset.bind(yankee)(golfie);
-                        golfie = golfie.t;
-                        golfie = golfie.c76eo6;
-                        golfie = option.bind(verify)(golfie);
-                        zuuluu['content'] = golfie;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        tangon = _closure1_slot12;
-                        zuuluu = tangon.warn;
-                        michal = global;
-                        michal = michal.HermesInternal;
-                        report = michal.concat;
-                        michal = 'Error changing users app icon: ';
-                        michal = report.bind(michal)(oscard);
-                        michal = zuuluu.bind(tangon)(michal);
+                        var4 = _closure1_slot1;
+                        var12 = _closure1_slot2;
+                        var3 = 14;
+                        var3 = var12[var3];
+                        var11 = undefined;
+                        var5 = var4.bind(var11)(var3);
+                        var4 = var5.open;
+                        var3 = {};
+                        var7 = 'APP_ICON_LOGS_ERROR_MESSAGE_GENERIC';
+                        var3['key'] = var7;
+                        var10 = _closure1_slot0;
+                        var7 = 15;
+                        var8 = var12[var7];
+                        var8 = var10.bind(var11)(var8);
+                        var9 = var8.intl;
+                        var8 = var9.string;
+                        var7 = var12[var7];
+                        var7 = var10.bind(var11)(var7);
+                        var7 = var7.t;
+                        var7 = var7.c76eo6;
+                        var7 = var8.bind(var9)(var7);
+                        var3['content'] = var7;
+                        var3 = var4.bind(var5)(var3);
+                        var4 = _closure1_slot12;
+                        var3 = var4.warn;
+                        var2 = global;
+                        var2 = var2.HermesInternal;
+                        var5 = var2.concat;
+                        var2 = 'Error changing users app icon: ';
+                        var2 = var5.bind(var2)(var6);
+                        var2 = var3.bind(var4)(var2);
  356:
-                        michal = undefined;
-                        return michal;
+                        var2 = undefined;
+                        return var2;
  361:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot15 = tangon;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var4 = var4.bind(var5)(var3);
+            _closure1_slot15 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        var _closure1_slot15 = entity;
-        entity = global;
-        offset = entity.Object;
-        option = offset.defineProperty;
-        report = {};
-        entity = true;
-        report['value'] = entity;
-        entity = '__esModule';
-        entity = option.bind(offset)(zuuluu, entity, report);
-        entity = 0;
-        report = golfie[entity];
-        entity = undefined;
-        report = verify.bind(entity)(report);
-        var _closure1_slot3 = report;
-        report = 1;
-        report = golfie[report];
-        report = verify.bind(entity)(report);
-        var _closure1_slot4 = report;
-        report = 2;
-        option = golfie[report];
-        report = argCor;
-        report = report.bind(entity)(option);
-        var _closure1_slot5 = report;
-        report = 3;
-        report = golfie[report];
-        report = oscard.bind(entity)(report);
-        report = report.NativeModules;
-        option = 4;
-        option = golfie[option];
-        option = oscard.bind(entity)(option);
-        offset = option.getDefaultIcon;
-        var _closure1_slot6 = offset;
-        offset = option.getOfficialAlternateIcons;
-        var _closure1_slot7 = offset;
-        option = option.getLimitedAlternateIcons;
-        var _closure1_slot8 = option;
-        option = 5;
-        option = golfie[option];
-        option = oscard.bind(entity)(option);
-        offset = option.AnalyticEvents;
-        var _closure1_slot9 = offset;
-        option = option.UserSettingsSections;
-        var _closure1_slot10 = option;
-        option = 6;
-        option = golfie[option];
-        option = oscard.bind(entity)(option);
-        option = option.PremiumTypes;
-        var _closure1_slot11 = option;
-        option = 7;
-        option = golfie[option];
-        offset = verify.bind(entity)(option);
-        option = offset.prototype;
-        verify = Object.create(option, {constructor: {value: offset}});
-        foxtra = 'AppIconUtils';
-        backup = verify;
-        option = new backup[offset](foxtra, romeon);
-        option = option instanceof Object ? option : verify;
-        var _closure1_slot12 = option;
-        option = 8;
-        option = golfie[option];
-        verify = oscard.bind(entity)(option);
-        option = verify.isAndroid;
-        option = option.bind(verify)();
-        if(option) { _fun00002_ip = 321; continue _fun00001 }
+        var _closure1_slot15 = var1;
+        var1 = global;
+        var10 = var1.Object;
+        var8 = var10.defineProperty;
+        var5 = {};
+        var1 = true;
+        var5['value'] = var1;
+        var1 = '__esModule';
+        var1 = var8.bind(var10)(var3, var1, var5);
+        var1 = 0;
+        var5 = var7[var1];
+        var1 = undefined;
+        var5 = var9.bind(var1)(var5);
+        var _closure1_slot3 = var5;
+        var5 = 1;
+        var5 = var7[var5];
+        var5 = var9.bind(var1)(var5);
+        var _closure1_slot4 = var5;
+        var5 = 2;
+        var8 = var7[var5];
+        var5 = native4;
+        var5 = var5.bind(var1)(var8);
+        var _closure1_slot5 = var5;
+        var5 = 3;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.NativeModules;
+        var8 = 4;
+        var8 = var7[var8];
+        var8 = var6.bind(var1)(var8);
+        var10 = var8.getDefaultIcon;
+        var _closure1_slot6 = var10;
+        var10 = var8.getOfficialAlternateIcons;
+        var _closure1_slot7 = var10;
+        var8 = var8.getLimitedAlternateIcons;
+        var _closure1_slot8 = var8;
+        var8 = 5;
+        var8 = var7[var8];
+        var8 = var6.bind(var1)(var8);
+        var10 = var8.AnalyticEvents;
+        var _closure1_slot9 = var10;
+        var8 = var8.UserSettingsSections;
+        var _closure1_slot10 = var8;
+        var8 = 6;
+        var8 = var7[var8];
+        var8 = var6.bind(var1)(var8);
+        var8 = var8.PremiumTypes;
+        var _closure1_slot11 = var8;
+        var8 = 7;
+        var8 = var7[var8];
+        var10 = var9.bind(var1)(var8);
+        var8 = var10.prototype;
+        var9 = Object.create(var8, {constructor: {value: var10}});
+        var13 = 'AppIconUtils';
+        var14 = var9;
+        var8 = new var14[var10](var13, var12);
+        var8 = var8 instanceof Object ? var8 : var9;
+        var _closure1_slot12 = var8;
+        var8 = 8;
+        var8 = var7[var8];
+        var9 = var6.bind(var1)(var8);
+        var8 = var9.isAndroid;
+        var8 = var8.bind(var9)();
+        if(var8) { _fun0001_ip = 321; continue _fun0001 }
  311:
-        report = report.DCDIconManager;
-        _fun00002_ip = 338; continue _fun00001;
+        var5 = var5.DCDIconManager;
+        _fun0001_ip = 338; continue _fun0001;
  321:
-        option = 9;
-        option = golfie[option];
-        option = oscard.bind(entity)(option);
-        report = option.default;
+        var8 = 9;
+        var8 = var7[var8];
+        var8 = var6.bind(var1)(var8);
+        var5 = var8.default;
  338:
-        var _closure1_slot13 = report;
-        report = 17;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = 'modules/app_icons/native/AppIconUtils.tsx';
-        report = oscard.bind(golfie)(report);
-        zuuluu['useCurrentAppIcon'] = tangon;
-        tangon = function() { // Original name: setAppIcon
-            entity = undefined;
-            tangon = _closure1_slot15;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var _closure1_slot13 = var5;
+        var5 = 17;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'modules/app_icons/native/AppIconUtils.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['useCurrentAppIcon'] = var4;
+        var4 = function setAppIcon() {
+            var1 = undefined;
+            var4 = _closure1_slot15;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        zuuluu['setAppIcon'] = tangon;
-        tangon = function() { // Original name: useAppIcons
-            michal = _closure1_slot14;
-            offset = undefined;
-            michal = michal.bind(offset)();
-            oscard = _closure1_slot5;
-            tangon = oscard.useState;
-            zuuluu = new Array(0);
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = _closure1_slot4;
-            verify = 2;
-            oscard = zuuluu.bind(offset)(tangon, verify);
-            zuuluu = 0;
-            tangon = oscard[zuuluu];
-            golfie = 1;
-            oscard = oscard[golfie];
-            var _closure2_slot0 = oscard;
-            yankee = _closure1_slot5;
-            option = yankee.useState;
-            oscard = new Array(0);
-            option = option.bind(yankee)(oscard);
-            oscard = _closure1_slot4;
-            oscard = oscard.bind(offset)(option, verify);
-            zuuluu = oscard[zuuluu];
-            oscard = oscard[golfie];
-            var _closure2_slot1 = oscard;
-            golfie = _closure1_slot5;
-            oscard = golfie.useEffect;
-            report = function() {
-                tangon = _closure1_slot3;
-                entity = undefined;
-                zuuluu = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var3['setAppIcon'] = var4;
+        var4 = function useAppIcons() {
+            var2 = _closure1_slot14;
+            var10 = undefined;
+            var2 = var2.bind(var10)();
+            var6 = _closure1_slot5;
+            var4 = var6.useState;
+            var3 = new Array(0);
+            var4 = var4.bind(var6)(var3);
+            var3 = _closure1_slot4;
+            var9 = 2;
+            var6 = var3.bind(var10)(var4, var9);
+            var3 = 0;
+            var4 = var6[var3];
+            var7 = 1;
+            var6 = var6[var7];
+            var _closure2_slot0 = var6;
+            var11 = _closure1_slot5;
+            var8 = var11.useState;
+            var6 = new Array(0);
+            var8 = var8.bind(var11)(var6);
+            var6 = _closure1_slot4;
+            var6 = var6.bind(var10)(var8, var9);
+            var3 = var6[var3];
+            var6 = var6[var7];
+            var _closure2_slot1 = var6;
+            var7 = _closure1_slot5;
+            var6 = var7.useEffect;
+            var5 = function() {
+                var4 = _closure1_slot3;
+                var1 = undefined;
+                var3 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00008_ip = 335; continue _fun00007 }
+                            if(var2) { _fun0004_ip = 335; continue _fun0004 }
  12:
-                            michal = undefined;
-                            var _closure5_slot0 = michal;
+                            var2 = undefined;
+                            var _closure5_slot0 = var2;
  18: // try_start_0
-                            oscard = _closure1_slot13;
-                            zuuluu = null;
-                            oscard = zuuluu == oscard;
-                            zuuluu = undefined;
-                            if(oscard) { _fun00008_ip = 52; continue _fun00007 }
+                            var6 = _closure1_slot13;
+                            var3 = null;
+                            var6 = var3 == var6;
+                            var3 = undefined;
+                            if(var6) { _fun0004_ip = 52; continue _fun0004 }
  36:
-                            golfie = _closure1_slot13;
-                            oscard = golfie.getAvailableIcons;
-                            zuuluu = oscard.bind(golfie)();
+                            var7 = _closure1_slot13;
+                            var6 = var7.getAvailableIcons;
+                            var3 = var6.bind(var7)();
  52:
                             SaveGenerator(address=56);
  54:
-                            return zuuluu;
+                            return var3;
  56:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                            if(oscard) { _fun00008_ip = 188; continue _fun00007 }
+                            if(var6) { _fun0004_ip = 188; continue _fun0004 }
  65:
-                            golfie = zuuluu.map;
-                            oscard = function(argFoo) {
-                                entity = argFoo;
-                                entity = entity.id;
-                                return entity;
+                            var7 = var3.map;
+                            var6 = function(arg1) {
+                                var1 = arg1;
+                                var1 = var1.id;
+                                return var1;
                             };
-                            oscard = golfie.bind(zuuluu)(oscard);
-                            _closure5_slot0 = oscard;
-                            oscard = _closure1_slot7;
-                            option = oscard.bind(michal)();
-                            golfie = option.filter;
-                            oscard = function(argFoo) {
-                                zuuluu = _closure5_slot0;
-                                michal = zuuluu.includes;
-                                entity = argFoo;
-                                entity = entity.id;
-                                entity = michal.bind(zuuluu)(entity);
-                                return entity;
+                            var6 = var7.bind(var3)(var6);
+                            _closure5_slot0 = var6;
+                            var6 = _closure1_slot7;
+                            var8 = var6.bind(var2)();
+                            var7 = var8.filter;
+                            var6 = function(arg1) {
+                                var3 = _closure5_slot0;
+                                var2 = var3.includes;
+                                var1 = arg1;
+                                var1 = var1.id;
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
                             };
-                            backup = golfie.bind(option)(oscard);
-                            oscard = _closure1_slot8;
-                            option = oscard.bind(michal)();
-                            oscard = option.filter;
-                            report = function(argFoo) {
-                                zuuluu = _closure5_slot0;
-                                michal = zuuluu.includes;
-                                entity = argFoo;
-                                entity = entity.id;
-                                entity = michal.bind(zuuluu)(entity);
-                                return entity;
+                            var14 = var7.bind(var8)(var6);
+                            var6 = _closure1_slot8;
+                            var8 = var6.bind(var2)();
+                            var6 = var8.filter;
+                            var5 = function(arg1) {
+                                var3 = _closure5_slot0;
+                                var2 = var3.includes;
+                                var1 = arg1;
+                                var1 = var1.id;
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
                             };
-                            option = oscard.bind(option)(report);
-                            oscard = _closure2_slot1;
-                            oscard = oscard.bind(michal)(option);
-                            report = _closure2_slot0;
-                            tangon = _closure1_slot6;
-                            oscard = tangon.bind(michal)();
-                            tangon = new Array(1);
-                            tangon[0] = oscard;
-                            foxtra = 1;
-                            kiloes = tangon;
-                            oscard = arraySpread(kiloes, backup, foxtra);
-                            tangon = report.bind(michal)(tangon);
+                            var8 = var6.bind(var8)(var5);
+                            var6 = _closure2_slot1;
+                            var6 = var6.bind(var2)(var8);
+                            var5 = _closure2_slot0;
+                            var4 = _closure1_slot6;
+                            var6 = var4.bind(var2)();
+                            var4 = new Array(1);
+                            var4[0] = var6;
+                            var13 = 1;
+                            var15 = var4;
+                            var6 = arraySpread(var15, var14, var13);
+                            var4 = var5.bind(var2)(var4);
  183: // try_end0
-                            _fun00008_ip = 332; continue _fun00007;
+                            _fun0004_ip = 332; continue _fun0004;
  188:
-                            return zuuluu;
+                            return var3;
  191: // catch_target0
                             CatchBlockStart(arg_register=6);
-                            report = _closure1_slot1;
-                            romeon = _closure1_slot2;
-                            tangon = 14;
-                            tangon = romeon[tangon];
-                            oscard = report.bind(michal)(tangon);
-                            report = oscard.open;
-                            tangon = {};
-                            option = 'APP_ICON_LOGS_ERROR_MESSAGE_GENERIC';
-                            tangon['key'] = option;
-                            yankee = _closure1_slot0;
-                            option = 15;
-                            verify = romeon[option];
-                            verify = yankee.bind(michal)(verify);
-                            offset = verify.intl;
-                            verify = offset.string;
-                            option = romeon[option];
-                            option = yankee.bind(michal)(option);
-                            option = option.t;
-                            option = option.c76eo6;
-                            option = verify.bind(offset)(option);
-                            tangon['content'] = option;
-                            tangon = report.bind(oscard)(tangon);
-                            report = _closure1_slot12;
-                            tangon = report.warn;
-                            zuuluu = global;
-                            zuuluu = zuuluu.HermesInternal;
-                            oscard = zuuluu.concat;
-                            zuuluu = 'Error fetching available app icons: ';
-                            zuuluu = oscard.bind(zuuluu)(golfie);
-                            zuuluu = tangon.bind(report)(zuuluu);
+                            var5 = _closure1_slot1;
+                            var12 = _closure1_slot2;
+                            var4 = 14;
+                            var4 = var12[var4];
+                            var6 = var5.bind(var2)(var4);
+                            var5 = var6.open;
+                            var4 = {};
+                            var8 = 'APP_ICON_LOGS_ERROR_MESSAGE_GENERIC';
+                            var4['key'] = var8;
+                            var11 = _closure1_slot0;
+                            var8 = 15;
+                            var9 = var12[var8];
+                            var9 = var11.bind(var2)(var9);
+                            var10 = var9.intl;
+                            var9 = var10.string;
+                            var8 = var12[var8];
+                            var8 = var11.bind(var2)(var8);
+                            var8 = var8.t;
+                            var8 = var8.c76eo6;
+                            var8 = var9.bind(var10)(var8);
+                            var4['content'] = var8;
+                            var4 = var5.bind(var6)(var4);
+                            var5 = _closure1_slot12;
+                            var4 = var5.warn;
+                            var3 = global;
+                            var3 = var3.HermesInternal;
+                            var6 = var3.concat;
+                            var3 = 'Error fetching available app icons: ';
+                            var3 = var6.bind(var3)(var7);
+                            var3 = var4.bind(var5)(var3);
  332:
-                            return michal;
+                            return var2;
  335:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                zuuluu = tangon.bind(entity)(zuuluu);
-                var _closure3_slot0 = zuuluu;
-                michal = function() { // Original name: getAvailableIcons
-                    entity = undefined;
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var3 = var4.bind(var1)(var3);
+                var _closure3_slot0 = var3;
+                var2 = function getAvailableIcons() {
+                    var1 = undefined;
+                    var4 = _closure3_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                michal = michal.bind(entity)();
-                return entity;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            entity = new Array(0);
-            entity = oscard.bind(golfie)(report, entity);
-            entity = {};
-            entity['officialAppIcons'] = tangon;
-            entity['limitedTimeAppIcons'] = zuuluu;
-            entity['currentAppIcon'] = michal;
-            return entity;
+            var1 = new Array(0);
+            var1 = var6.bind(var7)(var5, var1);
+            var1 = {};
+            var1['officialAppIcons'] = var4;
+            var1['limitedTimeAppIcons'] = var3;
+            var1['currentAppIcon'] = var2;
+            return var1;
         };
-        zuuluu['useAppIcons'] = tangon;
-        michal = function() {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 16;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.openUserSettings;
-            michal = {};
-            report = _closure1_slot10;
-            report = report.APP_ICONS;
-            michal['screen'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+        var3['useAppIcons'] = var4;
+        var2 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 16;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openUserSettings;
+            var2 = {};
+            var5 = _closure1_slot10;
+            var5 = var5.APP_ICONS;
+            var2['screen'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu['navigateToAppIconSettings'] = michal;
-        return entity;
+        var3['navigateToAppIconSettings'] = var2;
+        return var1;
     }
 })();

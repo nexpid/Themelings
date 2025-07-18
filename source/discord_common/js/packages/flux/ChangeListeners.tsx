@@ -1,167 +1,167 @@
 // discord_common/js/packages/flux/ChangeListeners.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function() { // Original name: ChangeListeners
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            report = _closure1_slot0;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            tangon = global;
-            tangon = tangon.Set;
-            report = tangon.prototype;
-            report = Object.create(report, {constructor: {value: tangon}});
-            option = report;
-            tangon = new option[tangon](golfie);
-            tangon = tangon instanceof Object ? tangon : report;
-            zuuluu['listeners'] = tangon;
-            tangon = function(argFoo) {
-                entity = _closure3_slot0;
-                zuuluu = entity.listeners;
-                michal = zuuluu.add;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function ChangeListeners() {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var5 = _closure1_slot0;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = global;
+            var4 = var4.Set;
+            var5 = var4.prototype;
+            var5 = Object.create(var5, {constructor: {value: var4}});
+            var8 = var5;
+            var4 = new var8[var4](var7);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3['listeners'] = var4;
+            var4 = function(arg1) {
+                var1 = _closure3_slot0;
+                var3 = var1.listeners;
+                var2 = var3.add;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            zuuluu['add'] = tangon;
-            tangon = function(argFoo) {
-                entity = _closure3_slot0;
-                zuuluu = entity.listeners;
-                michal = zuuluu.delete;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+            var3['add'] = var4;
+            var4 = function(arg1) {
+                var1 = _closure3_slot0;
+                var3 = var1.listeners;
+                var2 = var3.delete;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            zuuluu['remove'] = tangon;
-            michal = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            var3['remove'] = var4;
+            var2 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = argFoo;
-                    tangon = arguments[1];
-                    var _closure4_slot0 = zuuluu;
-                    entity = undefined;
-                    if(!(tangon === entity)) { _fun00002_ip = 20; continue _fun00001 }
+                    var3 = arg1;
+                    var4 = arguments[1];
+                    var _closure4_slot0 = var3;
+                    var1 = undefined;
+                    if(!(var4 === var1)) { _fun0001_ip = 20; continue _fun0001 }
  18:
-                    tangon = true;
+                    var4 = true;
  20:
-                    var _closure4_slot1 = entity;
-                    if(!tangon) { _fun00002_ip = 37; continue _fun00001 }
+                    var _closure4_slot1 = var1;
+                    if(!var4) { _fun0001_ip = 37; continue _fun0001 }
  27:
-                    tangon = zuuluu.bind(entity)();
-                    zuuluu = false;
-                    if(!(zuuluu !== tangon)) { _fun00002_ip = 63; continue _fun00001 }
+                    var4 = var3.bind(var1)();
+                    var3 = false;
+                    if(!(var3 !== var4)) { _fun0001_ip = 63; continue _fun0001 }
  37:
-                    tangon = function() { // Original name: conditionalCallback
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var4 = function conditionalCallback() {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            zuuluu = _closure4_slot0;
-                            entity = undefined;
-                            tangon = zuuluu.bind(entity)();
-                            zuuluu = false;
-                            if(!(zuuluu === tangon)) { _fun00004_ip = 41; continue _fun00003 }
+                            var3 = _closure4_slot0;
+                            var1 = undefined;
+                            var4 = var3.bind(var1)();
+                            var3 = false;
+                            if(!(var3 === var4)) { _fun0002_ip = 41; continue _fun0002 }
  19:
-                            tangon = _closure3_slot0;
-                            zuuluu = tangon.remove;
-                            michal = _closure4_slot1;
-                            michal = zuuluu.bind(tangon)(michal);
+                            var4 = _closure3_slot0;
+                            var3 = var4.remove;
+                            var2 = _closure4_slot1;
+                            var2 = var3.bind(var4)(var2);
  41:
-                            return entity;
+                            return var1;
                         }
                     };
-                    _closure4_slot1 = tangon;
-                    zuuluu = _closure3_slot0;
-                    michal = zuuluu.add;
-                    michal = michal.bind(zuuluu)(tangon);
+                    _closure4_slot1 = var4;
+                    var3 = _closure3_slot0;
+                    var2 = var3.add;
+                    var2 = var2.bind(var3)(var4);
  63:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu['addConditional'] = michal;
-            return entity;
+            var3['addConditional'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'has';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            entity = this;
-            zuuluu = entity.listeners;
-            michal = zuuluu.has;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'has';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            var1 = this;
+            var3 = var1.listeners;
+            var2 = var3.has;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'hasAny';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            entity = entity.listeners;
-            michal = entity.size;
-            entity = 0;
-            entity = michal > entity;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'hasAny';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.listeners;
+            var2 = var1.size;
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'invokeAll';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.listeners;
-            michal = zuuluu.forEach;
-            entity = function(argFoo) {
-                michal = argFoo;
-                entity = undefined;
-                entity = michal.bind(entity)();
-                return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'invokeAll';
+        var1['key'] = var6;
+        var5 = function value() {
+            var1 = this;
+            var3 = var1.listeners;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/flux/ChangeListeners.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['ChangeListeners'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/flux/ChangeListeners.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['ChangeListeners'] = var2;
+    return var1;
 })();

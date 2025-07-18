@@ -1,68 +1,68 @@
 // app/modules/oauth2/convertor.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argCor;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/oauth2/convertor.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: convertOAuth2Authorization
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native4;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/oauth2/convertor.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function convertOAuth2Authorization(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = zuuluu.guilds;
-            michal = null;
-            entity = zuuluu;
-            if(!(michal != tangon)) { _fun00002_ip = 65; continue _fun00001 }
+            var3 = arg1;
+            var4 = var3.guilds;
+            var2 = null;
+            var1 = var3;
+            if(!(var2 != var4)) { _fun0001_ip = 65; continue _fun0001 }
  18:
-            michal = {};
-            golfie = michal;
-            oscard = zuuluu;
-            tangon = copyDataProperties(golfie, oscard);
-            report = zuuluu.guilds;
-            tangon = report.map;
-            zuuluu = function(argFoo) {
-                michal = argFoo;
-                entity = {};
-                golfie = entity;
-                oscard = michal;
-                zuuluu = copyDataProperties(golfie, oscard);
-                report = _closure1_slot0;
-                tangon = _closure1_slot1;
-                zuuluu = 0;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                tangon = report.bind(zuuluu)(tangon);
-                zuuluu = tangon.deserialize;
-                michal = michal.permissions;
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = 'permissions';
-                entity[michal] = zuuluu;
-                return entity;
+            var2 = {};
+            var7 = var2;
+            var6 = var3;
+            var4 = copyDataProperties(var7, var6);
+            var5 = var3.guilds;
+            var4 = var5.map;
+            var3 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var7 = var1;
+                var6 = var2;
+                var3 = copyDataProperties(var7, var6);
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var3 = 0;
+                var4 = var4[var3];
+                var3 = undefined;
+                var4 = var5.bind(var3)(var4);
+                var3 = var4.deserialize;
+                var2 = var2.permissions;
+                var3 = var3.bind(var4)(var2);
+                var2 = 'permissions';
+                var1[var2] = var3;
+                return var1;
             };
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = 'guilds';
-            michal[zuuluu] = tangon;
-            entity = michal;
+            var4 = var4.bind(var5)(var3);
+            var3 = 'guilds';
+            var2[var3] = var4;
+            var1 = var2;
  65:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['convertOAuth2Authorization'] = michal;
-    return entity;
+    var3['convertOAuth2Authorization'] = var2;
+    return var1;
 })();

@@ -1,189 +1,189 @@
 // app/design/components/experimental/Pressables/native/AnimatedPressableHighlight.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        golfie = argBaz;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        var _closure1_slot1 = golfie;
-        var _closure1_slot2 = oscard;
-        entity = global;
-        verify = entity.Object;
-        option = verify.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = option.bind(verify)(zuuluu, entity, michal);
-        entity = 0;
-        option = oscard[entity];
-        michal = argCor;
-        entity = undefined;
-        michal = michal.bind(entity)(option);
-        var _closure1_slot3 = michal;
-        michal = 1;
-        michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        michal = michal.Pressable;
-        var _closure1_slot4 = michal;
-        michal = 2;
-        michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        michal = michal.jsx;
-        var _closure1_slot5 = michal;
-        michal = 3;
-        michal = oscard[michal];
-        option = golfie.bind(entity)(michal);
-        golfie = option.createAnimatedComponent;
-        michal = 4;
-        michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        michal = michal.PressableHighlight;
-        michal = golfie.bind(option)(michal);
-        var _closure1_slot6 = michal;
-        michal = 8;
-        michal = oscard[michal];
-        golfie = report.bind(entity)(michal);
-        michal = golfie.isAndroid;
-        michal = michal.bind(golfie)();
-        if(michal) { _fun00002_ip = 197; continue _fun00001 }
+        var5 = native2;
+        var7 = native3;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var7;
+        var _closure1_slot2 = var6;
+        var1 = global;
+        var9 = var1.Object;
+        var8 = var9.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var8.bind(var9)(var3, var1, var2);
+        var1 = 0;
+        var8 = var6[var1];
+        var2 = native4;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var8);
+        var _closure1_slot3 = var2;
+        var2 = 1;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.Pressable;
+        var _closure1_slot4 = var2;
+        var2 = 2;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.jsx;
+        var _closure1_slot5 = var2;
+        var2 = 3;
+        var2 = var6[var2];
+        var8 = var7.bind(var1)(var2);
+        var7 = var8.createAnimatedComponent;
+        var2 = 4;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.PressableHighlight;
+        var2 = var7.bind(var8)(var2);
+        var _closure1_slot6 = var2;
+        var2 = 8;
+        var2 = var6[var2];
+        var7 = var5.bind(var1)(var2);
+        var2 = var7.isAndroid;
+        var2 = var2.bind(var7)();
+        if(var2) { _fun0001_ip = 197; continue _fun0001 }
  190:
-        michal = function(argFoo) { // Original name: AnimatedPressableHighlightiOS
-            zuuluu = argFoo;
-            oscard = zuuluu.children;
-            entity = null;
-            michal = Object.create(entity);
-            entity = 0;
-            michal['children'] = entity;
-            foxtra = {};
-            romeon = zuuluu;
-            yankee = michal;
-            report = copyDataProperties(foxtra, romeon, yankee);
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 5;
-            michal = tangon[michal];
-            tangon = undefined;
-            golfie = zuuluu.bind(tangon)(michal);
-            zuuluu = golfie.useIOSPressEffects;
-            michal = 4;
-            michal = zuuluu.bind(golfie)(michal);
-            verify = michal.onPressIn;
-            golfie = michal.onPressOut;
-            option = michal.pressableStyles;
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot6;
-            entity = {};
-            offset = 'button';
-            entity['accessibilityRole'] = offset;
-            entity['onPressIn'] = verify;
-            entity['onPressOut'] = golfie;
-            foxtra = entity;
-            romeon = report;
-            golfie = copyDataProperties(foxtra, romeon);
-            golfie = new Array(2);
-            golfie[0] = option;
-            report = report.style;
-            golfie[1] = report;
-            report = 'style';
-            entity[report] = golfie;
-            report = 'children';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var2 = function AnimatedPressableHighlightiOS(arg1) {
+            var3 = arg1;
+            var6 = var3.children;
+            var1 = null;
+            var2 = Object.create(var1);
+            var1 = 0;
+            var2['children'] = var1;
+            var13 = {};
+            var12 = var3;
+            var11 = var2;
+            var5 = copyDataProperties(var13, var12, var11);
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 5;
+            var2 = var4[var2];
+            var4 = undefined;
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.useIOSPressEffects;
+            var2 = 4;
+            var2 = var3.bind(var7)(var2);
+            var9 = var2.onPressIn;
+            var7 = var2.onPressOut;
+            var8 = var2.pressableStyles;
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot6;
+            var1 = {};
+            var10 = 'button';
+            var1['accessibilityRole'] = var10;
+            var1['onPressIn'] = var9;
+            var1['onPressOut'] = var7;
+            var13 = var1;
+            var12 = var5;
+            var7 = copyDataProperties(var13, var12);
+            var7 = new Array(2);
+            var7[0] = var8;
+            var5 = var5.style;
+            var7[1] = var5;
+            var5 = 'style';
+            var1[var5] = var7;
+            var5 = 'children';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        _fun00002_ip = 202; continue _fun00001;
+        _fun0001_ip = 202; continue _fun0001;
  197:
-        michal = function(argFoo) { // Original name: AnimatedPressableHighlightAndroid
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var2 = function AnimatedPressableHighlightAndroid(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = argFoo;
-                oscard = tangon.children;
-                verify = null;
-                zuuluu = Object.create(verify);
-                entity = 0;
-                zuuluu['children'] = entity;
-                backup = {};
-                foxtra = tangon;
-                romeon = zuuluu;
-                report = copyDataProperties(backup, foxtra, romeon);
-                var _closure2_slot0 = report;
-                golfie = _closure1_slot0;
-                yankee = _closure1_slot2;
-                zuuluu = 6;
-                zuuluu = yankee[zuuluu];
-                tangon = undefined;
-                option = golfie.bind(tangon)(zuuluu);
-                golfie = option.useToken;
-                offset = _closure1_slot1;
-                zuuluu = 7;
-                zuuluu = yankee[zuuluu];
-                zuuluu = offset.bind(tangon)(zuuluu);
-                zuuluu = zuuluu.colors;
-                zuuluu = zuuluu.ANDROID_RIPPLE;
-                offset = golfie.bind(option)(zuuluu);
-                var _closure2_slot1 = offset;
-                option = _closure1_slot3;
-                golfie = option.useMemo;
-                zuuluu = new Array(2);
-                zuuluu[0] = offset;
-                offset = report.androidRippleConfig;
-                yankee = verify == offset;
-                verify = undefined;
-                if(yankee) { _fun00004_ip = 142; continue _fun00003 }
+                var4 = arg1;
+                var6 = var4.children;
+                var9 = null;
+                var3 = Object.create(var9);
+                var1 = 0;
+                var3['children'] = var1;
+                var14 = {};
+                var13 = var4;
+                var12 = var3;
+                var5 = copyDataProperties(var14, var13, var12);
+                var _closure2_slot0 = var5;
+                var7 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var3 = 6;
+                var3 = var11[var3];
+                var4 = undefined;
+                var8 = var7.bind(var4)(var3);
+                var7 = var8.useToken;
+                var10 = _closure1_slot1;
+                var3 = 7;
+                var3 = var11[var3];
+                var3 = var10.bind(var4)(var3);
+                var3 = var3.colors;
+                var3 = var3.ANDROID_RIPPLE;
+                var10 = var7.bind(var8)(var3);
+                var _closure2_slot1 = var10;
+                var8 = _closure1_slot3;
+                var7 = var8.useMemo;
+                var3 = new Array(2);
+                var3[0] = var10;
+                var10 = var5.androidRippleConfig;
+                var11 = var9 == var10;
+                var9 = undefined;
+                if(var11) { _fun0002_ip = 142; continue _fun0002 }
  136:
-                verify = offset.cornerRadius;
+                var9 = var10.cornerRadius;
  142:
-                zuuluu[1] = verify;
-                michal = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var3[1] = var9;
+                var2 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = {};
-                        zuuluu = _closure2_slot1;
-                        entity['color'] = zuuluu;
-                        michal = _closure2_slot0;
-                        tangon = michal.androidRippleConfig;
-                        michal = null;
-                        report = michal == tangon;
-                        zuuluu = undefined;
-                        if(report) { _fun00006_ip = 40; continue _fun00005 }
+                        var1 = {};
+                        var3 = _closure2_slot1;
+                        var1['color'] = var3;
+                        var2 = _closure2_slot0;
+                        var4 = var2.androidRippleConfig;
+                        var2 = null;
+                        var5 = var2 == var4;
+                        var3 = undefined;
+                        if(var5) { _fun0003_ip = 40; continue _fun0003 }
  34:
-                        zuuluu = tangon.cornerRadius;
+                        var3 = var4.cornerRadius;
  40:
-                        tangon = michal != zuuluu;
-                        michal = 12;
-                        if(!tangon) { _fun00006_ip = 53; continue _fun00005 }
+                        var4 = var2 != var3;
+                        var2 = 12;
+                        if(!var4) { _fun0003_ip = 53; continue _fun0003 }
  50:
-                        michal = zuuluu;
+                        var2 = var3;
  53:
-                        entity['cornerRadius'] = michal;
-                        return entity;
+                        var1['cornerRadius'] = var2;
+                        return var1;
                     }
                 };
-                golfie = golfie.bind(option)(michal, zuuluu);
-                zuuluu = _closure1_slot5;
-                michal = _closure1_slot4;
-                entity = {};
-                entity['android_ripple'] = golfie;
-                backup = entity;
-                foxtra = report;
-                report = copyDataProperties(backup, foxtra);
-                report = 'children';
-                entity[report] = oscard;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var7 = var7.bind(var8)(var2, var3);
+                var3 = _closure1_slot5;
+                var2 = _closure1_slot4;
+                var1 = {};
+                var1['android_ripple'] = var7;
+                var14 = var1;
+                var13 = var5;
+                var5 = copyDataProperties(var14, var13);
+                var5 = 'children';
+                var1[var5] = var6;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
  202:
-        tangon = 9;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'design/components/experimental/Pressables/native/AnimatedPressableHighlight.native.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['AnimatedPressableHighlight'] = michal;
-        return entity;
+        var4 = 9;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'design/components/experimental/Pressables/native/AnimatedPressableHighlight.native.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['AnimatedPressableHighlight'] = var2;
+        return var1;
     }
 })();

@@ -1,346 +1,346 @@
 // app/modules/pomelo/native/components/PomeloModal.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: PomeloModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = function PomeloModal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.user;
-            var _closure2_slot0 = michal;
-            foxtra = entity.source;
-            var _closure2_slot1 = foxtra;
-            michal = entity.onCloseModal;
-            var _closure2_slot2 = michal;
-            romeon = entity.oneClickFlow;
-            tangon = undefined;
-            if(!(romeon === tangon)) { _fun00002_ip = 47; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.user;
+            var _closure2_slot0 = var2;
+            var13 = var1.source;
+            var _closure2_slot1 = var13;
+            var2 = var1.onCloseModal;
+            var _closure2_slot2 = var2;
+            var12 = var1.oneClickFlow;
+            var4 = undefined;
+            if(!(var12 === var4)) { _fun0001_ip = 47; continue _fun0001 }
  45:
-            romeon = false;
+            var12 = false;
  47:
-            var _closure2_slot3 = romeon;
-            report = _closure1_slot4;
-            michal = report.useState;
-            golfie = {};
-            option = _closure1_slot7;
-            if(romeon) { _fun00002_ip = 80; continue _fun00001 }
+            var _closure2_slot3 = var12;
+            var5 = _closure1_slot4;
+            var2 = var5.useState;
+            var7 = {};
+            var8 = _closure1_slot7;
+            if(var12) { _fun0001_ip = 80; continue _fun0001 }
  72:
-            entity = option.DETAILS;
-            _fun00002_ip = 86; continue _fun00001;
+            var1 = var8.DETAILS;
+            _fun0001_ip = 86; continue _fun0001;
  80:
-            entity = option.EDIT;
+            var1 = var8.EDIT;
  86:
-            golfie['name'] = entity;
-            entity = new Array(1);
-            entity[0] = golfie;
-            report = michal.bind(report)(entity);
-            michal = _closure1_slot3;
-            entity = 1;
-            michal = michal.bind(tangon)(report, entity);
-            entity = 0;
-            report = michal[entity];
-            golfie = {};
-            entity = _closure1_slot7;
-            michal = entity.DETAILS;
-            entity = {};
-            option = false;
-            entity['headerShown'] = option;
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            backup = 6;
-            offset = verify[backup];
-            offset = option.bind(tangon)(offset);
-            offset = offset.ImpressionNames;
-            offset = offset.POMELO_LANDING;
-            entity['impressionName'] = offset;
-            offset = {};
-            yankee = verify[backup];
-            yankee = option.bind(tangon)(yankee);
-            yankee = yankee.ImpressionGroups;
-            yankee = yankee.POMELO_FLOW;
-            offset['impression_group'] = yankee;
-            offset['source'] = foxtra;
-            offset['one_click_flow'] = romeon;
-            entity['impressionProperties'] = offset;
-            offset = function() { // Original name: render
-                tangon = _closure1_slot8;
-                michal = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 7;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                entity = {};
-                report = _closure2_slot0;
-                entity['user'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
-                return entity;
+            var7['name'] = var1;
+            var1 = new Array(1);
+            var1[0] = var7;
+            var5 = var2.bind(var5)(var1);
+            var2 = _closure1_slot3;
+            var1 = 1;
+            var2 = var2.bind(var4)(var5, var1);
+            var1 = 0;
+            var5 = var2[var1];
+            var7 = {};
+            var1 = _closure1_slot7;
+            var2 = var1.DETAILS;
+            var1 = {};
+            var8 = false;
+            var1['headerShown'] = var8;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var14 = 6;
+            var10 = var9[var14];
+            var10 = var8.bind(var4)(var10);
+            var10 = var10.ImpressionNames;
+            var10 = var10.POMELO_LANDING;
+            var1['impressionName'] = var10;
+            var10 = {};
+            var11 = var9[var14];
+            var11 = var8.bind(var4)(var11);
+            var11 = var11.ImpressionGroups;
+            var11 = var11.POMELO_FLOW;
+            var10['impression_group'] = var11;
+            var10['source'] = var13;
+            var10['one_click_flow'] = var12;
+            var1['impressionProperties'] = var10;
+            var10 = function render() {
+                var4 = _closure1_slot8;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['user'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
             };
-            entity['render'] = offset;
-            offset = true;
-            entity['fullscreen'] = offset;
-            golfie[michal] = entity;
-            entity = _closure1_slot7;
-            michal = entity.EDIT;
-            entity = {};
-            yankee = verify[backup];
-            yankee = option.bind(tangon)(yankee);
-            yankee = yankee.ImpressionNames;
-            yankee = yankee.POMELO_LANDING;
-            entity['impressionName'] = yankee;
-            yankee = {};
-            backup = verify[backup];
-            backup = option.bind(tangon)(backup);
-            backup = backup.ImpressionGroups;
-            backup = backup.POMELO_FLOW;
-            yankee['impression_group'] = backup;
-            yankee['source'] = foxtra;
-            yankee['one_click_flow'] = romeon;
-            entity['impressionProperties'] = yankee;
-            yankee = function() { // Original name: render
-                tangon = _closure1_slot8;
-                michal = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 8;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                entity = {};
-                oscard = _closure2_slot2;
-                entity['onCloseModal'] = oscard;
-                oscard = _closure2_slot0;
-                entity['user'] = oscard;
-                oscard = _closure2_slot1;
-                entity['source'] = oscard;
-                report = _closure2_slot3;
-                entity['oneClickFlow'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
-                return entity;
+            var1['render'] = var10;
+            var10 = true;
+            var1['fullscreen'] = var10;
+            var7[var2] = var1;
+            var1 = _closure1_slot7;
+            var2 = var1.EDIT;
+            var1 = {};
+            var11 = var9[var14];
+            var11 = var8.bind(var4)(var11);
+            var11 = var11.ImpressionNames;
+            var11 = var11.POMELO_LANDING;
+            var1['impressionName'] = var11;
+            var11 = {};
+            var14 = var9[var14];
+            var14 = var8.bind(var4)(var14);
+            var14 = var14.ImpressionGroups;
+            var14 = var14.POMELO_FLOW;
+            var11['impression_group'] = var14;
+            var11['source'] = var13;
+            var11['one_click_flow'] = var12;
+            var1['impressionProperties'] = var11;
+            var11 = function render() {
+                var4 = _closure1_slot8;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 8;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var6 = _closure2_slot2;
+                var1['onCloseModal'] = var6;
+                var6 = _closure2_slot0;
+                var1['user'] = var6;
+                var6 = _closure2_slot1;
+                var1['source'] = var6;
+                var5 = _closure2_slot3;
+                var1['oneClickFlow'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
             };
-            entity['render'] = yankee;
-            entity['fullscreen'] = offset;
-            golfie[michal] = entity;
-            entity = _closure1_slot7;
-            michal = entity.REMINDER;
-            entity = {'title': '', 'render': null, 'fullscreen': true};
-            zuuluu = function() { // Original name: render
-                tangon = _closure1_slot8;
-                michal = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 9;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                entity = {};
-                report = _closure2_slot2;
-                entity['onCloseModal'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
-                return entity;
+            var1['render'] = var11;
+            var1['fullscreen'] = var10;
+            var7[var2] = var1;
+            var1 = _closure1_slot7;
+            var2 = var1.REMINDER;
+            var1 = {'title': '', 'render': null, 'fullscreen': true};
+            var3 = function render() {
+                var4 = _closure1_slot8;
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 9;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot2;
+                var1['onCloseModal'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
             };
-            entity['render'] = zuuluu;
-            golfie[michal] = entity;
-            zuuluu = _closure1_slot8;
-            entity = 10;
-            entity = verify[entity];
-            entity = option.bind(tangon)(entity);
-            michal = entity.Navigator;
-            entity = {};
-            entity['screens'] = golfie;
-            oscard = _closure1_slot7;
-            oscard = oscard.DETAILS;
-            entity['initialRouteName'] = oscard;
-            entity['initialRouteStack'] = report;
-            report = 'center';
-            entity['headerTitleAlign'] = report;
-            report = 11;
-            oscard = verify[report];
-            oscard = option.bind(tangon)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            report = verify[report];
-            report = option.bind(tangon)(report);
-            report = report.t;
-            report = report.13/7kZ;
-            report = oscard.bind(golfie)(report);
-            entity['headerBackTitle'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['render'] = var3;
+            var7[var2] = var1;
+            var3 = _closure1_slot8;
+            var1 = 10;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var2 = var1.Navigator;
+            var1 = {};
+            var1['screens'] = var7;
+            var6 = _closure1_slot7;
+            var6 = var6.DETAILS;
+            var1['initialRouteName'] = var6;
+            var1['initialRouteStack'] = var5;
+            var5 = 'center';
+            var1['headerTitleAlign'] = var5;
+            var5 = 11;
+            var6 = var9[var5];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var9[var5];
+            var5 = var8.bind(var4)(var5);
+            var5 = var5.t;
+            var5 = var5.13/7kZ;
+            var5 = var6.bind(var7)(var5);
+            var1['headerBackTitle'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.TIMEOUT_TIME;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PomeloScreens;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.TIMEOUT_TIME;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PomeloScreens;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = var7.memo;
+    var2 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            option = entity.source;
-            golfie = entity.onCloseModal;
-            oscard = entity.oneClickFlow;
-            report = undefined;
-            var _closure2_slot1 = report;
-            var _closure2_slot2 = report;
-            tangon = _closure1_slot0;
-            verify = _closure1_slot2;
-            entity = 12;
-            entity = verify[entity];
-            offset = tangon.bind(report)(entity);
-            verify = offset.useStateFromStores;
-            entity = _closure1_slot5;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                michal = _closure1_slot5;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var1 = arg1;
+            var8 = var1.source;
+            var7 = var1.onCloseModal;
+            var6 = var1.oneClickFlow;
+            var5 = undefined;
+            var _closure2_slot1 = var5;
+            var _closure2_slot2 = var5;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 12;
+            var1 = var9[var1];
+            var10 = var4.bind(var5)(var1);
+            var9 = var10.useStateFromStores;
+            var1 = _closure1_slot5;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            verify = verify.bind(offset)(tangon, entity);
-            var _closure2_slot0 = verify;
-            entity = null;
-            tangon = entity == verify;
-            foxtra = undefined;
-            if(tangon) { _fun00004_ip = 105; continue _fun00003 }
+            var9 = var9.bind(var10)(var4, var1);
+            var _closure2_slot0 = var9;
+            var1 = null;
+            var4 = var1 == var9;
+            var13 = undefined;
+            if(var4) { _fun0002_ip = 105; continue _fun0002 }
  100:
-            foxtra = verify.id;
+            var13 = var9.id;
  105:
-            _closure2_slot1 = foxtra;
-            romeon = _closure1_slot4;
-            yankee = romeon.useMemo;
-            offset = new Array(1);
-            offset[0] = verify;
-            tangon = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _closure2_slot1 = var13;
+            var12 = _closure1_slot4;
+            var11 = var12.useMemo;
+            var10 = new Array(1);
+            var10[0] = var9;
+            var4 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    if(zuuluu) { _fun00006_ip = 56; continue _fun00005 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    if(var3) { _fun0003_ip = 56; continue _fun0003 }
  16:
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 13;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    tangon = report.bind(zuuluu)(tangon);
-                    zuuluu = tangon.getUserAvatarURLForPomelo;
-                    michal = _closure2_slot0;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 13;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.getUserAvatarURLForPomelo;
+                    var2 = _closure2_slot0;
+                    var1 = var3.bind(var4)(var2);
  56:
-                    return entity;
+                    return var1;
                 }
             };
-            romeon = yankee.bind(romeon)(tangon, offset);
-            _closure2_slot2 = romeon;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            tangon = 14;
-            tangon = yankee[tangon];
-            yankee = offset.bind(report)(tangon);
-            offset = yankee.useUsernameSuggestion;
-            tangon = undefined;
-            if(!oscard) { _fun00004_ip = 178; continue _fun00003 }
+            var12 = var11.bind(var12)(var4, var10);
+            _closure2_slot2 = var12;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var4 = 14;
+            var4 = var11[var4];
+            var11 = var10.bind(var5)(var4);
+            var10 = var11.useUsernameSuggestion;
+            var4 = undefined;
+            if(!var6) { _fun0002_ip = 178; continue _fun0002 }
  174:
-            tangon = _closure1_slot6;
+            var4 = _closure1_slot6;
  178:
-            tangon = offset.bind(yankee)(tangon);
-            yankee = _closure1_slot4;
-            offset = yankee.useLayoutEffect;
-            tangon = new Array(2);
-            tangon[0] = foxtra;
-            tangon[1] = romeon;
-            zuuluu = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var4 = var10.bind(var11)(var4);
+            var11 = _closure1_slot4;
+            var10 = var11.useLayoutEffect;
+            var4 = new Array(2);
+            var4[0] = var13;
+            var4[1] = var12;
+            var3 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    michal = _closure2_slot1;
-                    tangon = null;
-                    michal = tangon != michal;
-                    if(!michal) { _fun00008_ip = 24; continue _fun00007 }
+                    var2 = _closure2_slot1;
+                    var4 = null;
+                    var2 = var4 != var2;
+                    if(!var2) { _fun0004_ip = 24; continue _fun0004 }
  16:
-                    zuuluu = _closure2_slot2;
-                    michal = tangon != zuuluu;
+                    var3 = _closure2_slot2;
+                    var2 = var4 != var3;
  24:
-                    if(!michal) { _fun00008_ip = 66; continue _fun00007 }
+                    if(!var2) { _fun0004_ip = 66; continue _fun0004 }
  27:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 15;
-                    michal = tangon[michal];
-                    tangon = undefined;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot2;
-                    entity = zuuluu.bind(tangon)(michal, entity);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 15;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot2;
+                    var1 = var3.bind(var4)(var2, var1);
  66:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu = offset.bind(yankee)(zuuluu, tangon);
-            zuuluu = entity == verify;
-            entity = null;
-            if(zuuluu) { _fun00004_ip = 261; continue _fun00003 }
+            var3 = var10.bind(var11)(var3, var4);
+            var3 = var1 == var9;
+            var1 = null;
+            if(var3) { _fun0002_ip = 261; continue _fun0002 }
  227:
-            tangon = _closure1_slot8;
-            zuuluu = _closure1_slot9;
-            michal = {};
-            michal['user'] = verify;
-            michal['source'] = option;
-            michal['onCloseModal'] = golfie;
-            michal['oneClickFlow'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot9;
+            var2 = {};
+            var2['user'] = var9;
+            var2['source'] = var8;
+            var2['onCloseModal'] = var7;
+            var2['oneClickFlow'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  261:
-            return entity;
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 16;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/pomelo/native/components/PomeloModal.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 16;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/pomelo/native/components/PomeloModal.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

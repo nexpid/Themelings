@@ -1,127 +1,127 @@
 // app/modules/voice_panel/native/controls/buttons/VoicePanelStyles.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Colors;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Colors;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = {};
-            michal = {};
-            option = _closure1_slot1;
-            report = _closure1_slot2;
-            golfie = 2;
-            verify = report[golfie];
-            oscard = undefined;
-            verify = option.bind(oscard)(verify);
-            verify = verify.colors;
-            verify = verify.BG_MOD_STRONG;
-            michal['backgroundColor'] = verify;
-            entity['iconBg'] = michal;
-            michal = {};
-            report = report[golfie];
-            report = option.bind(oscard)(report);
-            report = report.colors;
-            report = report.WHITE;
-            michal['backgroundColor'] = report;
-            entity['iconBgSelected'] = michal;
-            michal = {};
-            option = _closure1_slot1;
-            report = _closure1_slot2;
-            report = report[golfie];
-            report = option.bind(oscard)(report);
-            option = report.colors;
-            if(zuuluu) { _fun00002_ip = 118; continue _fun00001 }
+            var3 = arg1;
+            var1 = {};
+            var2 = {};
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var7 = 2;
+            var9 = var5[var7];
+            var6 = undefined;
+            var9 = var8.bind(var6)(var9);
+            var9 = var9.colors;
+            var9 = var9.BG_MOD_STRONG;
+            var2['backgroundColor'] = var9;
+            var1['iconBg'] = var2;
+            var2 = {};
+            var5 = var5[var7];
+            var5 = var8.bind(var6)(var5);
+            var5 = var5.colors;
+            var5 = var5.WHITE;
+            var2['backgroundColor'] = var5;
+            var1['iconBgSelected'] = var2;
+            var2 = {};
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var5 = var5[var7];
+            var5 = var8.bind(var6)(var5);
+            var8 = var5.colors;
+            if(var3) { _fun0001_ip = 118; continue _fun0001 }
  110:
-            report = option.WHITE;
-            _fun00002_ip = 124; continue _fun00001;
+            var5 = var8.WHITE;
+            _fun0001_ip = 124; continue _fun0001;
  118:
-            report = option.INTERACTIVE_NORMAL;
+            var5 = var8.INTERACTIVE_NORMAL;
  124:
-            michal['color'] = report;
-            entity['iconFill'] = michal;
-            michal = {};
-            report = _closure1_slot3;
-            report = report.RED_400;
-            michal['color'] = report;
-            entity['iconFillRed'] = michal;
-            michal = {};
-            option = _closure1_slot1;
-            report = _closure1_slot2;
-            report = report[golfie];
-            report = option.bind(oscard)(report);
-            report = report.colors;
-            report = report.BLACK;
-            michal['color'] = report;
-            entity['iconFillSelected'] = michal;
-            michal = {};
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            tangon = tangon[golfie];
-            tangon = report.bind(oscard)(tangon);
-            tangon = tangon.colors;
-            if(zuuluu) { _fun00002_ip = 228; continue _fun00001 }
+            var2['color'] = var5;
+            var1['iconFill'] = var2;
+            var2 = {};
+            var5 = _closure1_slot3;
+            var5 = var5.RED_400;
+            var2['color'] = var5;
+            var1['iconFillRed'] = var2;
+            var2 = {};
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var5 = var5[var7];
+            var5 = var8.bind(var6)(var5);
+            var5 = var5.colors;
+            var5 = var5.BLACK;
+            var2['color'] = var5;
+            var1['iconFillSelected'] = var2;
+            var2 = {};
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.colors;
+            if(var3) { _fun0001_ip = 228; continue _fun0001 }
  220:
-            zuuluu = tangon.WHITE;
-            _fun00002_ip = 234; continue _fun00001;
+            var3 = var4.WHITE;
+            _fun0001_ip = 234; continue _fun0001;
  228:
-            zuuluu = tangon.CONTROL_BRAND_FOREGROUND;
+            var3 = var4.CONTROL_BRAND_FOREGROUND;
  234:
-            michal['backgroundColor'] = zuuluu;
-            entity['iconBadgeIndicator'] = michal;
-            return entity;
+            var2['backgroundColor'] = var3;
+            var1['iconBadgeIndicator'] = var2;
+            return var1;
         }
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/controls/buttons/VoicePanelStyles.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useVoicePanelButtonStyles
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 3;
-        michal = zuuluu[michal];
-        zuuluu = undefined;
-        oscard = tangon.bind(zuuluu)(michal);
-        report = oscard.useDerivedStateFromSharedValue;
-        tangon = argFoo;
-        michal = function(argFoo) {
-            entity = argFoo;
-            entity = entity.drawerMode;
-            return entity;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/controls/buttons/VoicePanelStyles.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVoicePanelButtonStyles(arg1) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 3;
+        var2 = var3[var2];
+        var3 = undefined;
+        var6 = var4.bind(var3)(var2);
+        var5 = var6.useDerivedStateFromSharedValue;
+        var4 = arg1;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.drawerMode;
+            return var1;
         };
-        michal = report.bind(oscard)(tangon, michal);
-        entity = _closure1_slot4;
-        entity = entity.bind(zuuluu)(michal);
-        return entity;
+        var2 = var5.bind(var6)(var4, var2);
+        var1 = _closure1_slot4;
+        var1 = var1.bind(var3)(var2);
+        return var1;
     };
-    zuuluu['useVoicePanelButtonStyles'] = michal;
-    return entity;
+    var3['useVoicePanelButtonStyles'] = var2;
+    return var1;
 })();

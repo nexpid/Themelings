@@ -1,163 +1,163 @@
 // app/modules/go_live/utils/StreamerApplicationSelectors.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    entity = function(argFoo) { // Original name: _findPlayingActivity
-        entity = argFoo;
-        michal = entity.type;
-        entity = _closure1_slot4;
-        entity = entity.PLAYING;
-        entity = michal === entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var10 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
+    var1 = function _findPlayingActivity(arg1) {
+        var1 = arg1;
+        var2 = var1.type;
+        var1 = _closure1_slot4;
+        var1 = var1.PLAYING;
+        var1 = var2 === var1;
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    oscard = function(argFoo, argBar) { // Original name: getStreamerActivityByUserId
-        tangon = argBar;
-        zuuluu = tangon.findActivity;
-        michal = _closure1_slot5;
-        entity = argFoo;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var6 = function getStreamerActivityByUserId(arg1, arg2) {
+        var4 = arg2;
+        var3 = var4.findActivity;
+        var2 = _closure1_slot5;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = oscard;
-    report = function(argFoo, argBar) { // Original name: getStreamerActivity
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot6 = var6;
+    var5 = function getStreamerActivity(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            zuuluu = entity != michal;
-            if(!zuuluu) { _fun00002_ip = 36; continue _fun00001 }
+            var2 = arg1;
+            var1 = null;
+            var3 = var1 != var2;
+            if(!var3) { _fun0001_ip = 36; continue _fun0001 }
  12:
-            report = _closure1_slot6;
-            tangon = michal.ownerId;
-            zuuluu = undefined;
-            michal = argBar;
-            entity = report.bind(zuuluu)(tangon, michal);
+            var5 = _closure1_slot6;
+            var4 = var2.ownerId;
+            var3 = undefined;
+            var2 = arg2;
+            var1 = var5.bind(var3)(var4, var2);
  36:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = report;
-    tangon = function(argFoo, argBar) { // Original name: getStreamerApplication
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var5;
+    var4 = function getStreamerApplication(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            if(!(entity != report)) { _fun00004_ip = 62; continue _fun00003 }
+            var5 = arg1;
+            var1 = null;
+            if(!(var1 != var5)) { _fun0002_ip = 62; continue _fun0002 }
  9:
-            tangon = _closure1_slot7;
-            zuuluu = undefined;
-            michal = argBar;
-            tangon = tangon.bind(zuuluu)(report, michal);
-            zuuluu = entity == tangon;
-            michal = null;
-            if(zuuluu) { _fun00004_ip = 60; continue _fun00003 }
+            var4 = _closure1_slot7;
+            var3 = undefined;
+            var2 = arg2;
+            var4 = var4.bind(var3)(var5, var2);
+            var3 = var1 == var4;
+            var2 = null;
+            if(var3) { _fun0002_ip = 60; continue _fun0002 }
  36:
-            zuuluu = {};
-            report = tangon.application_id;
-            zuuluu['id'] = report;
-            tangon = tangon.name;
-            zuuluu['name'] = tangon;
-            michal = zuuluu;
+            var3 = {};
+            var5 = var4.application_id;
+            var3['id'] = var5;
+            var4 = var4.name;
+            var3['name'] = var4;
+            var2 = var3;
  60:
-            return michal;
+            return var2;
  62:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    entity = function(argFoo, argBar) { // Original name: streamApplicationEqualityCheck
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var4;
+    var1 = function streamApplicationEqualityCheck(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            entity = oscard === report;
-            if(entity) { _fun00006_ip = 63; continue _fun00005 }
+            var6 = arg1;
+            var5 = arg2;
+            var1 = var6 === var5;
+            if(var1) { _fun0003_ip = 63; continue _fun0003 }
  13:
-            zuuluu = null;
-            michal = zuuluu != oscard;
-            if(!michal) { _fun00006_ip = 26; continue _fun00005 }
+            var3 = null;
+            var2 = var3 != var6;
+            if(!var2) { _fun0003_ip = 26; continue _fun0003 }
  22:
-            michal = zuuluu != report;
+            var2 = var3 != var5;
  26:
-            if(!michal) { _fun00006_ip = 60; continue _fun00005 }
+            if(!var2) { _fun0003_ip = 60; continue _fun0003 }
  29:
-            golfie = _closure1_slot1;
-            tangon = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            michal = zuuluu.bind(tangon)(oscard, report);
+            var7 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 2;
+            var3 = var4[var3];
+            var4 = undefined;
+            var3 = var7.bind(var4)(var3);
+            var2 = var3.bind(var4)(var6, var5);
  60:
-            entity = michal;
+            var1 = var2;
  63:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = verify[entity];
-    entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.ActivityTypes;
-    var _closure1_slot4 = golfie;
-    golfie = 4;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/go_live/utils/StreamerApplicationSelectors.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['getStreamerActivityByUserId'] = oscard;
-    zuuluu['getStreamerActivity'] = report;
-    zuuluu['getStreamerApplication'] = tangon;
-    michal = function(argFoo) { // Original name: useGetStreamApplication
-        golfie = argFoo;
-        var _closure2_slot0 = golfie;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        oscard = report.bind(zuuluu)(tangon);
-        report = oscard.useStateFromStores;
-        zuuluu = _closure1_slot3;
-        tangon = new Array(1);
-        tangon[0] = zuuluu;
-        zuuluu = new Array(1);
-        zuuluu[0] = golfie;
-        option = _closure1_slot9;
-        offset = function() {
-            tangon = _closure1_slot8;
-            zuuluu = _closure2_slot0;
-            michal = _closure1_slot3;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.ActivityTypes;
+    var _closure1_slot4 = var7;
+    var7 = 4;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/go_live/utils/StreamerApplicationSelectors.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['getStreamerActivityByUserId'] = var6;
+    var3['getStreamerActivity'] = var5;
+    var3['getStreamerApplication'] = var4;
+    var2 = function useGetStreamApplication(arg1) {
+        var7 = arg1;
+        var _closure2_slot0 = var7;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var6 = var5.bind(var3)(var4);
+        var5 = var6.useStateFromStores;
+        var3 = _closure1_slot3;
+        var4 = new Array(1);
+        var4[0] = var3;
+        var3 = new Array(1);
+        var3[0] = var7;
+        var8 = _closure1_slot9;
+        var10 = function() {
+            var4 = _closure1_slot8;
+            var3 = _closure2_slot0;
+            var2 = _closure1_slot3;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        romeon = oscard;
-        yankee = tangon;
-        verify = zuuluu;
-        entity = romeon[report](yankee, offset, verify, option, golfie);
-        return entity;
+        var12 = var6;
+        var11 = var4;
+        var9 = var3;
+        var1 = var12[var5](var11, var10, var9, var8, var7);
+        return var1;
     };
-    zuuluu['useGetStreamApplication'] = michal;
-    return entity;
+    var3['useGetStreamApplication'] = var2;
+    return var1;
 })();

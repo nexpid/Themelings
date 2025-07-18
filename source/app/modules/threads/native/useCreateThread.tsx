@@ -1,328 +1,328 @@
 // app/modules/threads/native/useCreateThread.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DraftType;
-    var _closure1_slot5 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/threads/native/useCreateThread.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useCreateThread
-        entity = argFoo;
-        yankee = entity.parentChannel;
-        offset = entity.parentMessageId;
-        verify = entity.threadSettings;
-        option = entity.privateThreadMode;
-        golfie = entity.location;
-        oscard = entity.onThreadCreated;
-        report = entity.useDefaultThreadName;
-        foxtra = _closure1_slot1;
-        romeon = _closure1_slot2;
-        michal = 3;
-        michal = romeon[michal];
-        zuuluu = undefined;
-        michal = foxtra.bind(zuuluu)(michal);
-        michal = michal.bind(zuuluu)();
-        michal = michal.analyticsLocations;
-        var _closure2_slot0 = michal;
-        michal = _closure1_slot0;
-        entity = 4;
-        entity = romeon[entity];
-        zuuluu = michal.bind(zuuluu)(entity);
-        michal = zuuluu.useCreateThreadCommon;
-        entity = {};
-        entity['parentChannel'] = yankee;
-        entity['parentMessageId'] = offset;
-        entity['threadSettings'] = verify;
-        entity['privateThreadMode'] = option;
-        entity['location'] = golfie;
-        entity['onThreadCreated'] = oscard;
-        entity['useDefaultThreadName'] = report;
-        tangon = function(argFoo, argBar, argBaz) { // Original name: uploadHandler
-            offset = argFoo;
-            option = argBar;
-            var _closure3_slot0 = offset;
-            var _closure3_slot1 = option;
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 5;
-            michal = verify[entity];
-            entity = undefined;
-            oscard = zuuluu.bind(entity)(michal);
-            report = oscard.sendMessage;
-            tangon = offset.id;
-            michal = 6;
-            michal = verify[michal];
-            verify = zuuluu.bind(entity)(michal);
-            zuuluu = verify.parse;
-            michal = argBaz;
-            foxtra = zuuluu.bind(verify)(offset, michal);
-            michal = {};
-            michal['attachmentsToUpload'] = option;
-            golfie = function(argFoo, argBar, argBaz) { // Original name: onAttachmentUploadError
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DraftType;
+    var _closure1_slot5 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/threads/native/useCreateThread.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useCreateThread(arg1) {
+        var1 = arg1;
+        var11 = var1.parentChannel;
+        var10 = var1.parentMessageId;
+        var9 = var1.threadSettings;
+        var8 = var1.privateThreadMode;
+        var7 = var1.location;
+        var6 = var1.onThreadCreated;
+        var5 = var1.useDefaultThreadName;
+        var13 = _closure1_slot1;
+        var12 = _closure1_slot2;
+        var2 = 3;
+        var2 = var12[var2];
+        var3 = undefined;
+        var2 = var13.bind(var3)(var2);
+        var2 = var2.bind(var3)();
+        var2 = var2.analyticsLocations;
+        var _closure2_slot0 = var2;
+        var2 = _closure1_slot0;
+        var1 = 4;
+        var1 = var12[var1];
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.useCreateThreadCommon;
+        var1 = {};
+        var1['parentChannel'] = var11;
+        var1['parentMessageId'] = var10;
+        var1['threadSettings'] = var9;
+        var1['privateThreadMode'] = var8;
+        var1['location'] = var7;
+        var1['onThreadCreated'] = var6;
+        var1['useDefaultThreadName'] = var5;
+        var4 = function uploadHandler(arg1, arg2, arg3) {
+            var10 = arg1;
+            var8 = arg2;
+            var _closure3_slot0 = var10;
+            var _closure3_slot1 = var8;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 5;
+            var2 = var9[var1];
+            var1 = undefined;
+            var6 = var3.bind(var1)(var2);
+            var5 = var6.sendMessage;
+            var4 = var10.id;
+            var2 = 6;
+            var2 = var9[var2];
+            var9 = var3.bind(var1)(var2);
+            var3 = var9.parse;
+            var2 = arg3;
+            var13 = var3.bind(var9)(var10, var2);
+            var2 = {};
+            var2['attachmentsToUpload'] = var8;
+            var7 = function onAttachmentUploadError(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 7;
-                    michal = michal[entity];
-                    entity = undefined;
-                    tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.handleUploadMessageAttachmentsErrors;
-                    michal = {};
-                    oscard = argFoo;
-                    michal['file'] = oscard;
-                    option = _closure3_slot0;
-                    golfie = option.getGuildId;
-                    golfie = golfie.bind(option)();
-                    michal['guildId'] = golfie;
-                    golfie = _closure2_slot0;
-                    michal['analyticsLocations'] = golfie;
-                    golfie = argBar;
-                    michal['code'] = golfie;
-                    golfie = argBaz;
-                    michal['reason'] = golfie;
-                    michal = zuuluu.bind(tangon)(michal);
-                    if(!michal) { _fun00002_ip = 174; continue _fun00001 }
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 7;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.handleUploadMessageAttachmentsErrors;
+                    var2 = {};
+                    var6 = arg1;
+                    var2['file'] = var6;
+                    var8 = _closure3_slot0;
+                    var7 = var8.getGuildId;
+                    var7 = var7.bind(var8)();
+                    var2['guildId'] = var7;
+                    var7 = _closure2_slot0;
+                    var2['analyticsLocations'] = var7;
+                    var7 = arg2;
+                    var2['code'] = var7;
+                    var7 = arg3;
+                    var2['reason'] = var7;
+                    var2 = var3.bind(var4)(var2);
+                    if(!var2) { _fun0001_ip = 174; continue _fun0001 }
  97:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 8;
-                    michal = tangon[michal];
-                    tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.setUploads;
-                    michal = {};
-                    golfie = _closure3_slot0;
-                    golfie = golfie.id;
-                    michal['channelId'] = golfie;
-                    oscard = _closure3_slot1;
-                    michal['uploads'] = oscard;
-                    report = _closure1_slot5;
-                    report = report.FirstThreadMessage;
-                    michal['draftType'] = report;
-                    report = true;
-                    michal['resetState'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.setUploads;
+                    var2 = {};
+                    var7 = _closure3_slot0;
+                    var7 = var7.id;
+                    var2['channelId'] = var7;
+                    var6 = _closure3_slot1;
+                    var2['uploads'] = var6;
+                    var5 = _closure1_slot5;
+                    var5 = var5.FirstThreadMessage;
+                    var2['draftType'] = var5;
+                    var5 = true;
+                    var2['resetState'] = var5;
+                    var2 = var3.bind(var4)(var2);
  174:
-                    return entity;
+                    return var1;
                 }
             };
-            michal['onAttachmentUploadError'] = golfie;
-            kiloes = oscard;
-            backup = tangon;
-            romeon = undefined;
-            yankee = michal;
-            michal = kiloes[report](backup, foxtra, romeon, yankee, offset);
-            return entity;
+            var2['onAttachmentUploadError'] = var7;
+            var15 = var6;
+            var14 = var4;
+            var12 = undefined;
+            var11 = var2;
+            var2 = var15[var5](var14, var13, var12, var11, var10);
+            return var1;
         };
-        entity['uploadHandler'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1['uploadHandler'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: useCreateForumPost
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function useCreateForumPost(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            option = entity.parentChannel;
-            var _closure2_slot0 = option;
-            offset = entity.threadSettings;
-            golfie = entity.appliedTags;
-            report = entity.onThreadCreated;
-            oscard = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            tangon = 3;
-            tangon = zuuluu[tangon];
-            verify = undefined;
-            tangon = oscard.bind(verify)(tangon);
-            tangon = tangon.bind(verify)();
-            oscard = tangon.analyticsLocations;
-            var _closure2_slot1 = oscard;
-            romeon = _closure1_slot4;
-            yankee = romeon.useCallback;
-            michal = function() {
-                tangon = _closure1_slot3;
-                zuuluu = undefined;
-                michal = function* (argFoo) {
-                    entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = arg1;
+            var8 = var1.parentChannel;
+            var _closure2_slot0 = var8;
+            var10 = var1.threadSettings;
+            var7 = var1.appliedTags;
+            var5 = var1.onThreadCreated;
+            var6 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var4 = 3;
+            var4 = var3[var4];
+            var9 = undefined;
+            var4 = var6.bind(var9)(var4);
+            var4 = var4.bind(var9)();
+            var6 = var4.analyticsLocations;
+            var _closure2_slot1 = var6;
+            var12 = _closure1_slot4;
+            var11 = var12.useCallback;
+            var2 = function() {
+                var4 = _closure1_slot3;
+                var3 = undefined;
+                var2 = function* (arg1) {
+                    var1 = function* anon_0_(arg1) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                             StartGenerator();
-                            zuuluu = argFoo;
+                            var3 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                            if(tangon) { _fun00006_ip = 192; continue _fun00005 }
+                            if(var4) { _fun0003_ip = 192; continue _fun0003 }
  15:
-                            var _closure5_slot0 = zuuluu;
-                            golfie = undefined;
-                            var _closure5_slot1 = golfie;
-                            var _closure5_slot2 = golfie;
-                            oscard = _closure1_slot1;
-                            option = _closure1_slot2;
-                            tangon = 9;
-                            tangon = option[tangon];
-                            tangon = oscard.bind(golfie)(tangon);
-                            oscard = tangon.prototype;
-                            oscard = Object.create(oscard, {constructor: {value: tangon}});
-                            yankee = oscard;
-                            tangon = new yankee[tangon](offset);
-                            tangon = tangon instanceof Object ? tangon : oscard;
-                            _closure5_slot1 = tangon;
-                            oscard = _closure1_slot0;
-                            report = 10;
-                            report = option[report];
-                            golfie = oscard.bind(golfie)(report);
-                            oscard = golfie.maxFileSize;
-                            option = _closure2_slot0;
-                            report = option.getGuildId;
-                            report = report.bind(option)();
-                            report = oscard.bind(golfie)(report);
-                            _closure5_slot2 = report;
-                            oscard = tangon.on;
-                            report = 'progress';
-                            michal = function(argFoo) {
-                                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                            var _closure5_slot0 = var3;
+                            var7 = undefined;
+                            var _closure5_slot1 = var7;
+                            var _closure5_slot2 = var7;
+                            var6 = _closure1_slot1;
+                            var8 = _closure1_slot2;
+                            var4 = 9;
+                            var4 = var8[var4];
+                            var4 = var6.bind(var7)(var4);
+                            var6 = var4.prototype;
+                            var6 = Object.create(var6, {constructor: {value: var4}});
+                            var11 = var6;
+                            var4 = new var11[var4](var10);
+                            var4 = var4 instanceof Object ? var4 : var6;
+                            _closure5_slot1 = var4;
+                            var6 = _closure1_slot0;
+                            var5 = 10;
+                            var5 = var8[var5];
+                            var7 = var6.bind(var7)(var5);
+                            var6 = var7.maxFileSize;
+                            var8 = _closure2_slot0;
+                            var5 = var8.getGuildId;
+                            var5 = var5.bind(var8)();
+                            var5 = var6.bind(var7)(var5);
+                            _closure5_slot2 = var5;
+                            var6 = var4.on;
+                            var5 = 'progress';
+                            var2 = function(arg1) {
+                                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                    oscard = argFoo;
-                                    michal = oscard.currentSize;
-                                    entity = _closure5_slot2;
-                                    if(!(michal > entity)) { _fun00008_ip = 164; continue _fun00007 }
+                                    var6 = arg1;
+                                    var2 = var6.currentSize;
+                                    var1 = _closure5_slot2;
+                                    if(!(var2 > var1)) { _fun0004_ip = 164; continue _fun0004 }
  23:
-                                    michal = _closure5_slot1;
-                                    entity = michal.cancel;
-                                    entity = entity.bind(michal)();
-                                    michal = _closure1_slot1;
-                                    golfie = _closure1_slot2;
-                                    entity = 8;
-                                    entity = golfie[entity];
-                                    zuuluu = undefined;
-                                    verify = michal.bind(zuuluu)(entity);
-                                    option = verify.setUploads;
-                                    entity = {};
-                                    yankee = _closure2_slot0;
-                                    yankee = yankee.id;
-                                    entity['channelId'] = yankee;
-                                    yankee = _closure5_slot0;
-                                    entity['uploads'] = yankee;
-                                    offset = _closure1_slot5;
-                                    offset = offset.FirstThreadMessage;
-                                    entity['draftType'] = offset;
-                                    offset = true;
-                                    entity['resetState'] = offset;
-                                    entity = option.bind(verify)(entity);
-                                    entity = 11;
-                                    entity = golfie[entity];
-                                    michal = michal.bind(zuuluu)(entity);
-                                    entity = {};
-                                    entity['file'] = oscard;
-                                    report = _closure5_slot2;
-                                    entity['maxSize'] = report;
-                                    tangon = _closure2_slot1;
-                                    entity['analyticsLocations'] = tangon;
-                                    entity = michal.bind(zuuluu)(entity);
+                                    var2 = _closure5_slot1;
+                                    var1 = var2.cancel;
+                                    var1 = var1.bind(var2)();
+                                    var2 = _closure1_slot1;
+                                    var7 = _closure1_slot2;
+                                    var1 = 8;
+                                    var1 = var7[var1];
+                                    var3 = undefined;
+                                    var9 = var2.bind(var3)(var1);
+                                    var8 = var9.setUploads;
+                                    var1 = {};
+                                    var11 = _closure2_slot0;
+                                    var11 = var11.id;
+                                    var1['channelId'] = var11;
+                                    var11 = _closure5_slot0;
+                                    var1['uploads'] = var11;
+                                    var10 = _closure1_slot5;
+                                    var10 = var10.FirstThreadMessage;
+                                    var1['draftType'] = var10;
+                                    var10 = true;
+                                    var1['resetState'] = var10;
+                                    var1 = var8.bind(var9)(var1);
+                                    var1 = 11;
+                                    var1 = var7[var1];
+                                    var2 = var2.bind(var3)(var1);
+                                    var1 = {};
+                                    var1['file'] = var6;
+                                    var5 = _closure5_slot2;
+                                    var1['maxSize'] = var5;
+                                    var4 = _closure2_slot1;
+                                    var1['analyticsLocations'] = var4;
+                                    var1 = var2.bind(var3)(var1);
  164:
-                                    entity = undefined;
-                                    return entity;
+                                    var1 = undefined;
+                                    return var1;
                                 }
                             };
-                            michal = oscard.bind(tangon)(report, michal);
-                            michal = tangon.uploadFiles;
-                            michal = michal.bind(tangon)(zuuluu);
+                            var2 = var6.bind(var4)(var5, var2);
+                            var2 = var4.uploadFiles;
+                            var2 = var2.bind(var4)(var3);
                             SaveGenerator(address=162);
  160:
-                            return michal;
+                            return var2;
  162:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00006_ip = 189; continue _fun00005 }
+                            if(var3) { _fun0003_ip = 189; continue _fun0003 }
  168:
-                            zuuluu = {};
-                            tangon = tangon._file;
-                            zuuluu['uploaderFile'] = tangon;
-                            zuuluu['files'] = michal;
-                            return zuuluu;
+                            var3 = {};
+                            var4 = var4._file;
+                            var3['uploaderFile'] = var4;
+                            var3['files'] = var2;
+                            return var3;
  189:
-                            return michal;
+                            return var2;
  192:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure3_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            tangon = michal.bind(verify)();
-            michal = new Array(2);
-            michal[0] = oscard;
-            michal[1] = option;
-            tangon = yankee.bind(romeon)(tangon, michal);
-            michal = _closure1_slot0;
-            entity = 4;
-            entity = zuuluu[entity];
-            zuuluu = michal.bind(verify)(entity);
-            michal = zuuluu.useCreateForumPostCommon;
-            entity = {};
-            entity['parentChannel'] = option;
-            option = null;
-            yankee = option == offset;
-            if(yankee) { _fun00004_ip = 153; continue _fun00003 }
+            var4 = var2.bind(var9)();
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var8;
+            var4 = var11.bind(var12)(var4, var2);
+            var2 = _closure1_slot0;
+            var1 = 4;
+            var1 = var3[var1];
+            var3 = var2.bind(var9)(var1);
+            var2 = var3.useCreateForumPostCommon;
+            var1 = {};
+            var1['parentChannel'] = var8;
+            var8 = null;
+            var11 = var8 == var10;
+            if(var11) { _fun0002_ip = 153; continue _fun0002 }
  148:
-            verify = offset.name;
+            var9 = var10.name;
  153:
-            offset = option != verify;
-            option = '';
-            if(!offset) { _fun00004_ip = 167; continue _fun00003 }
+            var10 = var8 != var9;
+            var8 = '';
+            if(!var10) { _fun0002_ip = 167; continue _fun0002 }
  164:
-            option = verify;
+            var8 = var9;
  167:
-            entity['name'] = option;
-            entity['appliedTags'] = golfie;
-            entity['analyticsLocations'] = oscard;
-            entity['onThreadCreated'] = report;
-            entity['upload'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1['name'] = var8;
+            var1['appliedTags'] = var7;
+            var1['analyticsLocations'] = var6;
+            var1['onThreadCreated'] = var5;
+            var1['upload'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['useCreateForumPost'] = michal;
-    return entity;
+    var3['useCreateForumPost'] = var2;
+    return var1;
 })();

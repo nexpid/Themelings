@@ -1,134 +1,134 @@
 // app/modules/media_channel/MediaPostThumbnailUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_channel/MediaPostThumbnailUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = 4;
-    zuuluu['MAX_THUMBNAIL_COUNT'] = tangon;
-    tangon = function(argFoo) { // Original name: getEmbedPreviewImageUrl
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_channel/MediaPostThumbnailUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = 4;
+    var3['MAX_THUMBNAIL_COUNT'] = var4;
+    var4 = function getEmbedPreviewImageUrl(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00002_ip = 29; continue _fun00001 }
+            var1 = arg1;
+            var3 = null;
+            if(!(var3 != var1)) { _fun0001_ip = 29; continue _fun0001 }
  9:
-            michal = entity.thumbnail;
-            tangon = entity.image;
-            if(!(zuuluu == michal)) { _fun00002_ip = 50; continue _fun00001 }
+            var2 = var1.thumbnail;
+            var4 = var1.image;
+            if(!(var3 == var2)) { _fun0001_ip = 50; continue _fun0001 }
  25:
-            if(!(zuuluu == tangon)) { _fun00002_ip = 33; continue _fun00001 }
+            if(!(var3 == var4)) { _fun0001_ip = 33; continue _fun0001 }
  29:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  33:
-            entity = tangon.proxy_url;
-            if(!(zuuluu == entity)) { _fun00002_ip = 48; continue _fun00001 }
+            var1 = var4.proxy_url;
+            if(!(var3 == var1)) { _fun0001_ip = 48; continue _fun0001 }
  43:
-            entity = tangon.url;
+            var1 = var4.url;
  48:
-            return entity;
+            return var1;
  50:
-            entity = michal.proxy_url;
-            if(!(zuuluu == entity)) { _fun00002_ip = 65; continue _fun00001 }
+            var1 = var2.proxy_url;
+            if(!(var3 == var1)) { _fun0001_ip = 65; continue _fun0001 }
  60:
-            entity = michal.url;
+            var1 = var2.url;
  65:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getEmbedPreviewImageUrl'] = tangon;
-    tangon = function(argFoo) { // Original name: getBackgroundImageUrl
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getEmbedPreviewImageUrl'] = var4;
+    var4 = function getBackgroundImageUrl(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            tangon = 0;
-            michal = michal[tangon];
-            zuuluu = undefined;
-            oscard = oscard.bind(zuuluu)(michal);
-            michal = oscard.isAnimatedImageUrl;
-            michal = michal.bind(oscard)(report);
-            if(michal) { _fun00004_ip = 75; continue _fun00003 }
+            var5 = arg1;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var4 = 0;
+            var2 = var2[var4];
+            var3 = undefined;
+            var6 = var6.bind(var3)(var2);
+            var2 = var6.isAnimatedImageUrl;
+            var2 = var2.bind(var6)(var5);
+            if(var2) { _fun0002_ip = 75; continue _fun0002 }
  41:
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[tangon];
-            michal = michal.bind(zuuluu)(entity);
-            entity = michal.isVideoUrl;
-            michal = entity.bind(michal)(report);
-            entity = report;
-            if(!michal) { _fun00004_ip = 104; continue _fun00003 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var4];
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.isVideoUrl;
+            var2 = var1.bind(var2)(var5);
+            var1 = var5;
+            if(!var2) { _fun0002_ip = 104; continue _fun0002 }
  75:
-            michal = global;
-            michal = michal.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = '';
-            michal = '?format=webp';
-            entity = tangon.bind(zuuluu)(report, michal);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = '?format=webp';
+            var1 = var4.bind(var3)(var5, var2);
  104:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getBackgroundImageUrl'] = tangon;
-    michal = function(argFoo) { // Original name: getThumbnailImage
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getBackgroundImageUrl'] = var4;
+    var2 = function getThumbnailImage(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            michal = null;
-            if(!(michal == entity)) { _fun00006_ip = 13; continue _fun00005 }
+            var1 = arg1;
+            var2 = null;
+            if(!(var2 == var1)) { _fun0003_ip = 13; continue _fun0003 }
  9:
-            zuuluu = undefined;
-            return zuuluu;
+            var3 = undefined;
+            return var3;
  13:
-            tangon = entity.url;
-            oscard = entity.proxy_url;
-            entity = tangon;
-            if(!(michal != tangon)) { _fun00006_ip = 111; continue _fun00005 }
+            var4 = var1.url;
+            var6 = var1.proxy_url;
+            var1 = var4;
+            if(!(var2 != var4)) { _fun0003_ip = 111; continue _fun0003 }
  31:
-            entity = tangon;
-            if(!(michal != oscard)) { _fun00006_ip = 111; continue _fun00005 }
+            var1 = var4;
+            if(!(var2 != var6)) { _fun0003_ip = 111; continue _fun0003 }
  38:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 0;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            michal = zuuluu.isVideoUrl;
-            zuuluu = michal.bind(zuuluu)(tangon);
-            michal = oscard;
-            if(!zuuluu) { _fun00006_ip = 108; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 0;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.isVideoUrl;
+            var3 = var2.bind(var3)(var4);
+            var2 = var6;
+            if(!var3) { _fun0003_ip = 108; continue _fun0003 }
  79:
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            report = zuuluu.concat;
-            tangon = '';
-            zuuluu = '?format=webp';
-            michal = report.bind(tangon)(oscard, zuuluu);
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var5 = var3.concat;
+            var4 = '';
+            var3 = '?format=webp';
+            var2 = var5.bind(var4)(var6, var3);
  108:
-            entity = michal;
+            var1 = var2;
  111:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getThumbnailImage'] = michal;
-    return entity;
+    var3['getThumbnailImage'] = var2;
+    return var1;
 })();

@@ -1,165 +1,165 @@
 // app/modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserNotificationSettings;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UnreadSetting;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildNotificationSettingsFlags;
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: NotificationSettingsMessageNotificationGuildActionSheet
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserNotificationSettings;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UnreadSetting;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildNotificationSettingsFlags;
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/notifications/settings/native/NotificationSettingsMessageNotificationGuildActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function NotificationSettingsMessageNotificationGuildActionSheet(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 6;
-            michal = oscard[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useGuildPresetSettings;
-            entity = entity.guildId;
-            entity = michal.bind(zuuluu)(entity);
-            verify = entity.unread;
-            var _closure2_slot1 = verify;
-            offset = entity.notification;
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot1;
-            entity = 7;
-            entity = oscard[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            oscard = 'guild';
-            entity['context'] = oscard;
-            entity['value'] = offset;
-            oscard = _closure1_slot4;
-            option = oscard.ALL_MESSAGES;
-            oscard = undefined;
-            if(!(offset !== option)) { _fun00002_ip = 187; continue _fun00001 }
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var2 = var6[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useGuildPresetSettings;
+            var1 = var1.guildId;
+            var1 = var2.bind(var3)(var1);
+            var9 = var1.unread;
+            var _closure2_slot1 = var9;
+            var10 = var1.notification;
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var1 = var6[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var6 = 'guild';
+            var1['context'] = var6;
+            var1['value'] = var10;
+            var6 = _closure1_slot4;
+            var8 = var6.ALL_MESSAGES;
+            var6 = undefined;
+            if(!(var10 !== var8)) { _fun0001_ip = 187; continue _fun0001 }
  116:
-            option = _closure1_slot5;
-            option = option.ALL_MESSAGES;
-            oscard = undefined;
-            if(!(verify !== option)) { _fun00002_ip = 187; continue _fun00001 }
+            var8 = _closure1_slot5;
+            var8 = var8.ALL_MESSAGES;
+            var6 = undefined;
+            if(!(var9 !== var8)) { _fun0001_ip = 187; continue _fun0001 }
  132:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            golfie = 8;
-            option = yankee[golfie];
-            option = offset.bind(tangon)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(tangon)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.eP8yWV;
-            oscard = option.bind(verify)(golfie);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var7 = 8;
+            var8 = var11[var7];
+            var8 = var10.bind(var4)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var7 = var11[var7];
+            var7 = var10.bind(var4)(var7);
+            var7 = var7.t;
+            var7 = var7.eP8yWV;
+            var6 = var8.bind(var9)(var7);
  187:
-            entity['allMessagesSubLabel'] = oscard;
-            report = function(argFoo) { // Original name: onChange
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1['allMessagesSubLabel'] = var6;
+            var5 = function onChange(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    option = argFoo;
-                    oscard = {};
-                    oscard['message_notifications'] = option;
-                    entity = _closure1_slot4;
-                    entity = entity.ALL_MESSAGES;
-                    entity = option === entity;
-                    if(!entity) { _fun00004_ip = 51; continue _fun00003 }
+                    var8 = arg1;
+                    var6 = {};
+                    var6['message_notifications'] = var8;
+                    var1 = _closure1_slot4;
+                    var1 = var1.ALL_MESSAGES;
+                    var1 = var8 === var1;
+                    if(!var1) { _fun0002_ip = 51; continue _fun0002 }
  30:
-                    tangon = _closure2_slot1;
-                    zuuluu = _closure1_slot5;
-                    zuuluu = zuuluu.ALL_MESSAGES;
-                    entity = tangon !== zuuluu;
+                    var4 = _closure2_slot1;
+                    var3 = _closure1_slot5;
+                    var3 = var3.ALL_MESSAGES;
+                    var1 = var4 !== var3;
  51:
-                    if(!entity) { _fun00004_ip = 131; continue _fun00003 }
+                    if(!var1) { _fun0002_ip = 131; continue _fun0002 }
  54:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    entity = 9;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = report.withGuildUnreadFlags;
-                    golfie = _closure1_slot3;
-                    zuuluu = golfie.getGuildFlags;
-                    entity = _closure2_slot0;
-                    entity = entity.guildId;
-                    zuuluu = zuuluu.bind(golfie)(entity);
-                    entity = _closure1_slot6;
-                    entity = entity.UNREADS_ALL_MESSAGES;
-                    entity = tangon.bind(report)(zuuluu, entity);
-                    oscard['flags'] = entity;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 9;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.withGuildUnreadFlags;
+                    var7 = _closure1_slot3;
+                    var3 = var7.getGuildFlags;
+                    var1 = _closure2_slot0;
+                    var1 = var1.guildId;
+                    var3 = var3.bind(var7)(var1);
+                    var1 = _closure1_slot6;
+                    var1 = var1.UNREADS_ALL_MESSAGES;
+                    var1 = var4.bind(var5)(var3, var1);
+                    var6['flags'] = var1;
  131:
-                    tangon = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    entity = 10;
-                    zuuluu = verify[entity];
-                    entity = undefined;
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = report.updateGuildNotificationSettings;
-                    zuuluu = _closure2_slot0;
-                    zuuluu = zuuluu.guildId;
-                    golfie = _closure1_slot0;
-                    michal = 11;
-                    michal = verify[michal];
-                    michal = golfie.bind(entity)(michal);
-                    golfie = michal.NotificationLabel;
-                    michal = golfie.notifications;
-                    michal = michal.bind(golfie)(option);
-                    michal = tangon.bind(report)(zuuluu, oscard, michal);
-                    return entity;
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var1 = 10;
+                    var3 = var9[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.updateGuildNotificationSettings;
+                    var3 = _closure2_slot0;
+                    var3 = var3.guildId;
+                    var7 = _closure1_slot0;
+                    var2 = 11;
+                    var2 = var9[var2];
+                    var2 = var7.bind(var1)(var2);
+                    var7 = var2.NotificationLabel;
+                    var2 = var7.notifications;
+                    var2 = var2.bind(var7)(var8);
+                    var2 = var4.bind(var5)(var3, var6, var2);
+                    return var1;
                 }
             };
-            entity['onChange'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['onChange'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

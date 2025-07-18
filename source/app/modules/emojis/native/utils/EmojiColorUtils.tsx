@@ -1,219 +1,219 @@
 // app/modules/emojis/native/utils/EmojiColorUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function() { // Original name: _getFromCacheOrFallback2
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot0;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = function _getFromCacheOrFallback2() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot0;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 129; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 129; continue _fun0001 }
  10:
-                    option = michal.cache;
-                    golfie = michal.cacheKey;
-                    report = michal.fallbackParam;
-                    verify = michal.fallbackFunc;
-                    offset = undefined;
-                    oscard = undefined;
+                    var8 = var2.cache;
+                    var7 = var2.cacheKey;
+                    var5 = var2.fallbackParam;
+                    var9 = var2.fallbackFunc;
+                    var10 = undefined;
+                    var6 = undefined;
                     SaveGenerator(address=42);
  40:
-                    return offset;
+                    return var10;
  42:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 126; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 126; continue _fun0001 }
  48:
-                    yankee = option;
-                    tangon = yankee.get;
-                    zuuluu = golfie;
-                    zuuluu = tangon.bind(yankee)(zuuluu);
-                    tangon = null;
-                    if(!(tangon == zuuluu)) { _fun00002_ip = 123; continue _fun00001 }
+                    var11 = var8;
+                    var4 = var11.get;
+                    var3 = var7;
+                    var3 = var4.bind(var11)(var3);
+                    var4 = null;
+                    if(!(var4 == var3)) { _fun0001_ip = 123; continue _fun0001 }
  70: // try_start_0
-                    report = verify.bind(offset)(report);
+                    var5 = var9.bind(var10)(var5);
                     SaveGenerator(address=79);
  77:
-                    return report;
+                    return var5;
  79:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 115; continue _fun00001 }
+                    if(var9) { _fun0001_ip = 115; continue _fun0001 }
  85:
-                    oscard = report;
-                    if(!(tangon != report)) { _fun00002_ip = 112; continue _fun00001 }
+                    var6 = var5;
+                    if(!(var4 != var5)) { _fun0001_ip = 112; continue _fun0001 }
  92:
-                    offset = option;
-                    verify = offset.set;
-                    option = golfie;
-                    golfie = oscard;
-                    golfie = verify.bind(offset)(option, golfie);
+                    var10 = var8;
+                    var9 = var10.set;
+                    var8 = var7;
+                    var7 = var6;
+                    var7 = var9.bind(var10)(var8, var7);
  112: // try_end0
-                    return oscard;
+                    return var6;
  115:
-                    return report;
+                    return var5;
  118: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    return tangon;
+                    return var4;
  123:
-                    return zuuluu;
+                    return var3;
  126:
-                    return michal;
+                    return var2;
  129:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 100;
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot2 = tangon;
-    tangon = function(argFoo) { // Original name: _getEmojiCacheKey
-        entity = argFoo;
-        report = entity.name;
-        tangon = entity.id;
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = '';
-        entity = '-';
-        entity = zuuluu.bind(michal)(report, entity, tangon);
-        return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 100;
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot2 = var4;
+    var4 = function _getEmojiCacheKey(arg1) {
+        var1 = arg1;
+        var5 = var1.name;
+        var4 = var1.id;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '';
+        var1 = '-';
+        var1 = var3.bind(var2)(var5, var1, var4);
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        tangon = _closure1_slot0;
-        zuuluu = undefined;
-        michal = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var4 = _closure1_slot0;
+        var3 = undefined;
+        var2 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 137; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 137; continue _fun0002 }
  13:
-                    option = michal.emoji;
-                    oscard = michal.emojiSource;
-                    report = undefined;
+                    var8 = var2.emoji;
+                    var6 = var2.emojiSource;
+                    var5 = undefined;
                     SaveGenerator(address=31);
  29:
-                    return report;
+                    return var5;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 134; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 134; continue _fun0002 }
  37:
-                    tangon = {};
-                    golfie = _closure1_slot2;
-                    tangon['cache'] = golfie;
-                    golfie = _closure1_slot3;
-                    golfie = golfie.bind(report)(option);
-                    tangon['cacheKey'] = golfie;
-                    tangon['fallbackParam'] = oscard;
-                    zuuluu = _closure1_slot1;
-                    zuuluu = zuuluu.ImageManager;
-                    zuuluu = zuuluu.getDominantColors;
-                    tangon['fallbackFunc'] = zuuluu;
-                    zuuluu = function() { // Original name: _getFromCacheOrFallback
-                        entity = undefined;
-                        tangon = _closure1_slot4;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                    var4 = {};
+                    var7 = _closure1_slot2;
+                    var4['cache'] = var7;
+                    var7 = _closure1_slot3;
+                    var7 = var7.bind(var5)(var8);
+                    var4['cacheKey'] = var7;
+                    var4['fallbackParam'] = var6;
+                    var3 = _closure1_slot1;
+                    var3 = var3.ImageManager;
+                    var3 = var3.getDominantColors;
+                    var4['fallbackFunc'] = var3;
+                    var3 = function _getFromCacheOrFallback() {
+                        var1 = undefined;
+                        var4 = _closure1_slot4;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    zuuluu = zuuluu.bind(report)(tangon);
+                    var3 = var3.bind(var5)(var4);
                     SaveGenerator(address=109);
  107:
-                    return zuuluu;
+                    return var3;
  109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 131; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 131; continue _fun0002 }
  115:
-                    report = null;
-                    tangon = zuuluu;
-                    if(!(report == tangon)) { _fun00004_ip = 128; continue _fun00003 }
+                    var5 = null;
+                    var4 = var3;
+                    if(!(var5 == var4)) { _fun0002_ip = 128; continue _fun0002 }
  124:
-                    tangon = new Array(0);
+                    var4 = new Array(0);
  128:
-                    return tangon;
+                    return var4;
  131:
-                    return zuuluu;
+                    return var3;
  134:
-                    return michal;
+                    return var2;
  137:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function() {
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emojis/native/utils/EmojiColorUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['getEmojiDominantColors'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emojis/native/utils/EmojiColorUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['getEmojiDominantColors'] = var2;
+    return var1;
 })();

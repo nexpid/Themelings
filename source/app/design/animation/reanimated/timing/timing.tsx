@@ -1,100 +1,100 @@
 // app/design/animation/reanimated/timing/timing.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.CONFIG_NEVER_ANIMATE_TIMING;
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    golfie = "function withTiming_timingTsx1(toValue,config,shouldAnimate='respect-motion-settings',callback){const{accessibilityPreferencesSharedValue,REAwithTiming,CONFIG_NEVER_ANIMATE_TIMING}=this.__closure;const reducedMotionEnabled=accessibilityPreferencesSharedValue.get().reduceMotion;const animate=shouldAnimate==='animate-always'||shouldAnimate==='respect-motion-settings'&&!reducedMotionEnabled;return REAwithTiming(toValue,animate?config:CONFIG_NEVER_ANIMATE_TIMING,callback);}";
-    tangon['code'] = golfie;
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        entity = function(argFoo, argBar) { // Original name: withTiming
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.CONFIG_NEVER_ANIMATE_TIMING;
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var7 = "function withTiming_timingTsx1(toValue,config,shouldAnimate='respect-motion-settings',callback){const{accessibilityPreferencesSharedValue,REAwithTiming,CONFIG_NEVER_ANIMATE_TIMING}=this.__closure;const reducedMotionEnabled=accessibilityPreferencesSharedValue.get().reduceMotion;const animate=shouldAnimate==='animate-always'||shouldAnimate==='respect-motion-settings'&&!reducedMotionEnabled;return REAwithTiming(toValue,animate?config:CONFIG_NEVER_ANIMATE_TIMING,callback);}";
+    var4['code'] = var7;
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var1 = function withTiming(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                oscard = argBar;
-                option = arguments[2];
-                report = undefined;
-                if(!(option === report)) { _fun00002_ip = 18; continue _fun00001 }
+                var6 = arg2;
+                var8 = arguments[2];
+                var5 = undefined;
+                if(!(var8 === var5)) { _fun0001_ip = 18; continue _fun0001 }
  12:
-                option = 'respect-motion-settings';
+                var8 = 'respect-motion-settings';
  18:
-                tangon = _closure1_slot0;
-                golfie = _closure1_slot1;
-                michal = 1;
-                michal = golfie[michal];
-                michal = tangon.bind(report)(michal);
-                zuuluu = michal.accessibilityPreferencesSharedValue;
-                michal = zuuluu.get;
-                michal = michal.bind(zuuluu)();
-                michal = michal.reduceMotion;
-                zuuluu = 2;
-                zuuluu = golfie[zuuluu];
-                report = tangon.bind(report)(zuuluu);
-                tangon = report.withTiming;
-                golfie = 'animate-always';
-                zuuluu = oscard;
-                if(!(golfie !== option)) { _fun00002_ip = 112; continue _fun00001 }
+                var4 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var2 = 1;
+                var2 = var7[var2];
+                var2 = var4.bind(var5)(var2);
+                var3 = var2.accessibilityPreferencesSharedValue;
+                var2 = var3.get;
+                var2 = var2.bind(var3)();
+                var2 = var2.reduceMotion;
+                var3 = 2;
+                var3 = var7[var3];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.withTiming;
+                var7 = 'animate-always';
+                var3 = var6;
+                if(!(var7 !== var8)) { _fun0001_ip = 112; continue _fun0001 }
  92:
-                golfie = 'respect-motion-settings';
-                if(!(golfie === option)) { _fun00002_ip = 108; continue _fun00001 }
+                var7 = 'respect-motion-settings';
+                if(!(var7 === var8)) { _fun0001_ip = 108; continue _fun0001 }
  102:
-                zuuluu = oscard;
-                if(!michal) { _fun00002_ip = 112; continue _fun00001 }
+                var3 = var6;
+                if(!var2) { _fun0001_ip = 112; continue _fun0001 }
  108:
-                zuuluu = _closure1_slot2;
+                var3 = _closure1_slot2;
  112:
-                michal = argFoo;
-                entity = arguments[3];
-                entity = tangon.bind(report)(michal, zuuluu, entity);
-                return entity;
+                var2 = arg1;
+                var1 = arguments[3];
+                var1 = var4.bind(var5)(var2, var3, var1);
+                return var1;
             }
         };
-        zuuluu = {};
-        oscard = _closure1_slot0;
-        golfie = _closure1_slot1;
-        tangon = 1;
-        tangon = golfie[tangon];
-        report = undefined;
-        tangon = oscard.bind(report)(tangon);
-        tangon = tangon.accessibilityPreferencesSharedValue;
-        zuuluu['accessibilityPreferencesSharedValue'] = tangon;
-        tangon = 2;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(report)(tangon);
-        tangon = tangon.withTiming;
-        zuuluu['REAwithTiming'] = tangon;
-        tangon = _closure1_slot2;
-        zuuluu['CONFIG_NEVER_ANIMATE_TIMING'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 9297601463860.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot3;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var4 = 1;
+        var4 = var7[var4];
+        var5 = undefined;
+        var4 = var6.bind(var5)(var4);
+        var4 = var4.accessibilityPreferencesSharedValue;
+        var3['accessibilityPreferencesSharedValue'] = var4;
+        var4 = 2;
+        var4 = var7[var4];
+        var4 = var6.bind(var5)(var4);
+        var4 = var4.withTiming;
+        var3['REAwithTiming'] = var4;
+        var4 = _closure1_slot2;
+        var3['CONFIG_NEVER_ANIMATE_TIMING'] = var4;
+        var1['__closure'] = var3;
+        var3 = 9297601463860.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot3;
+        var1['__initData'] = var2;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/animation/reanimated/timing/timing.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['withTiming'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/animation/reanimated/timing/timing.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['withTiming'] = var2;
+    return var1;
 })();

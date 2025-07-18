@@ -1,234 +1,234 @@
 // app/lib/StateManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function() { // Original name: StateManager
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function StateManager() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = arguments[0];
-                zuuluu = this;
-                entity = undefined;
-                if(!(michal === entity)) { _fun00002_ip = 14; continue _fun00001 }
+                var2 = arguments[0];
+                var3 = this;
+                var1 = undefined;
+                if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-                michal = true;
+                var2 = true;
  14:
-                report = _closure1_slot2;
-                tangon = _closure2_slot0;
-                tangon = report.bind(entity)(zuuluu, tangon);
-                zuuluu['alwaysUpdateState'] = michal;
-                michal = false;
-                zuuluu['dirty'] = michal;
-                michal = zuuluu.getInitialState;
-                michal = michal.bind(zuuluu)();
-                zuuluu['state'] = michal;
-                return entity;
+                var5 = _closure1_slot2;
+                var4 = _closure2_slot0;
+                var4 = var5.bind(var1)(var3, var4);
+                var3['alwaysUpdateState'] = var2;
+                var2 = false;
+                var3['dirty'] = var2;
+                var2 = var3.getInitialState;
+                var2 = var2.bind(var3)();
+                var3['state'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'shouldCommit';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            entity = true;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'shouldCommit';
+        var1['key'] = var2;
+        var2 = function value() {
+            var1 = true;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(6);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'setState';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = this;
-            entity = {};
-            tangon = michal.state;
-            report = entity;
-            zuuluu = copyDataProperties(report, tangon);
-            tangon = argFoo;
-            report = entity;
-            zuuluu = copyDataProperties(report, tangon);
-            michal['state'] = entity;
-            entity = undefined;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(6);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'setState';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = this;
+            var1 = {};
+            var4 = var2.state;
+            var5 = var1;
+            var3 = copyDataProperties(var5, var4);
+            var4 = arg1;
+            var5 = var1;
+            var3 = copyDataProperties(var5, var4);
+            var2['state'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'getState';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            entity = entity.state;
-            return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'getState';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.state;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'reset';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            michal = this;
-            entity = false;
-            michal['dirty'] = entity;
-            entity = michal.getInitialState;
-            entity = entity.bind(michal)();
-            michal['state'] = entity;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'reset';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var1 = false;
+            var2['dirty'] = var1;
+            var1 = var2.getInitialState;
+            var1 = var1.bind(var2)();
+            var2['state'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'update';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'update';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                oscard = arguments[0];
-                entity = arguments[1];
-                tangon = this;
-                report = undefined;
-                if(!(oscard === report)) { _fun00004_ip = 17; continue _fun00003 }
+                var6 = arguments[0];
+                var1 = arguments[1];
+                var4 = this;
+                var5 = undefined;
+                if(!(var6 === var5)) { _fun0002_ip = 17; continue _fun0002 }
  15:
-                oscard = {};
+                var6 = {};
  17:
-                if(!(entity === report)) { _fun00004_ip = 23; continue _fun00003 }
+                if(!(var1 === var5)) { _fun0002_ip = 23; continue _fun0002 }
  21:
-                entity = false;
+                var1 = false;
  23:
-                zuuluu = tangon.getNextState;
-                michal = {};
-                romeon = tangon.state;
-                foxtra = michal;
-                golfie = copyDataProperties(foxtra, romeon);
-                foxtra = michal;
-                romeon = oscard;
-                oscard = copyDataProperties(foxtra, romeon);
-                michal = zuuluu.bind(tangon)(michal);
-                if(entity) { _fun00004_ip = 173; continue _fun00003 }
+                var3 = var4.getNextState;
+                var2 = {};
+                var12 = var4.state;
+                var13 = var2;
+                var7 = copyDataProperties(var13, var12);
+                var13 = var2;
+                var12 = var6;
+                var6 = copyDataProperties(var13, var12);
+                var2 = var3.bind(var4)(var2);
+                if(var1) { _fun0002_ip = 173; continue _fun0002 }
  63:
-                entity = global;
-                zuuluu = entity.Object;
-                entity = zuuluu.keys;
-                option = entity.bind(zuuluu)(michal);
-                entity = option.length;
-                golfie = 0;
-                entity = golfie < entity;
-                zuuluu = 2;
-                if(!entity) { _fun00004_ip = 221; continue _fun00003 }
+                var1 = global;
+                var3 = var1.Object;
+                var1 = var3.keys;
+                var8 = var1.bind(var3)(var2);
+                var1 = var8.length;
+                var7 = 0;
+                var1 = var7 < var1;
+                var3 = 2;
+                if(!var1) { _fun0002_ip = 221; continue _fun0002 }
  101:
-                verify = option[golfie];
-                entity = tangon.dirty;
-                if(entity) { _fun00004_ip = 153; continue _fun00003 }
+                var9 = var8[var7];
+                var1 = var4.dirty;
+                if(var1) { _fun0002_ip = 153; continue _fun0002 }
  114:
-                yankee = _closure1_slot0;
-                offset = _closure1_slot1;
-                offset = offset[zuuluu];
-                yankee = yankee.bind(report)(offset);
-                offset = tangon.state;
-                offset = offset[verify];
-                verify = michal[verify];
-                verify = yankee.bind(report)(offset, verify);
-                entity = !verify;
+                var11 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var10 = var10[var3];
+                var11 = var11.bind(var5)(var10);
+                var10 = var4.state;
+                var10 = var10[var9];
+                var9 = var2[var9];
+                var9 = var11.bind(var5)(var10, var9);
+                var1 = !var9;
  153:
-                tangon['dirty'] = entity;
-                golfie = golfie + 1;
-                entity = option.length;
-                if(golfie < entity) { _fun00004_ip = 101; continue _fun00003 }
+                var4['dirty'] = var1;
+                var7 = var7 + 1;
+                var1 = var8.length;
+                if(var7 < var1) { _fun0002_ip = 101; continue _fun0002 }
  171:
-                _fun00004_ip = 221; continue _fun00003;
+                _fun0002_ip = 221; continue _fun0002;
  173:
-                zuuluu = _closure1_slot0;
-                oscard = _closure1_slot1;
-                entity = 2;
-                entity = oscard[entity];
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = tangon.getInitialState;
-                entity = entity.bind(tangon)();
-                entity = zuuluu.bind(report)(michal, entity);
-                entity = !entity;
-                tangon['dirty'] = entity;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 2;
+                var1 = var6[var1];
+                var3 = var3.bind(var5)(var1);
+                var1 = var4.getInitialState;
+                var1 = var1.bind(var4)();
+                var1 = var3.bind(var5)(var2, var1);
+                var1 = !var1;
+                var4['dirty'] = var1;
  221:
-                entity = tangon.dirty;
-                if(!entity) { _fun00004_ip = 242; continue _fun00003 }
+                var1 = var4.dirty;
+                if(!var1) { _fun0002_ip = 242; continue _fun0002 }
  230:
-                zuuluu = tangon.shouldCommit;
-                entity = zuuluu.bind(tangon)();
+                var3 = var4.shouldCommit;
+                var1 = var3.bind(var4)();
  242:
-                zuuluu = entity;
-                if(zuuluu) { _fun00004_ip = 254; continue _fun00003 }
+                var3 = var1;
+                if(var3) { _fun0002_ip = 254; continue _fun0002 }
  248:
-                zuuluu = tangon.alwaysUpdateState;
+                var3 = var4.alwaysUpdateState;
  254:
-                if(!zuuluu) { _fun00004_ip = 263; continue _fun00003 }
+                if(!var3) { _fun0002_ip = 263; continue _fun0002 }
  257:
-                tangon['state'] = michal;
+                var4['state'] = var2;
  263:
-                michal = !entity;
-                entity = !michal;
-                if(michal) { _fun00004_ip = 298; continue _fun00003 }
+                var2 = !var1;
+                var1 = !var2;
+                if(var2) { _fun0002_ip = 298; continue _fun0002 }
  272:
-                michal = false;
-                tangon['dirty'] = michal;
-                zuuluu = tangon.didCommit;
-                michal = tangon.state;
-                michal = zuuluu.bind(tangon)(michal);
-                entity = true;
+                var2 = false;
+                var4['dirty'] = var2;
+                var3 = var4.didCommit;
+                var2 = var4.state;
+                var2 = var3.bind(var4)(var2);
+                var1 = true;
  298:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'forceUpdate';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            zuuluu = this;
-            entity = false;
-            zuuluu['dirty'] = entity;
-            michal = zuuluu.didCommit;
-            entity = zuuluu.state;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'forceUpdate';
+        var1['key'] = var6;
+        var5 = function value() {
+            var3 = this;
+            var1 = false;
+            var3['dirty'] = var1;
+            var2 = var3.didCommit;
+            var1 = var3.state;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[5] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[5] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/StateManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/StateManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

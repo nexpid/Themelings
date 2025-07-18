@@ -1,259 +1,259 @@
 // app/modules/applications/message_embed/utils/getPlayInContext.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/utils/getPlayInContext.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: usePlayInContext
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/message_embed/utils/getPlayInContext.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function usePlayInContext(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            golfie = 2;
-            oscard = michal[golfie];
-            report = undefined;
-            offset = tangon.bind(report)(oscard);
-            verify = offset.useStateFromStores;
-            oscard = _closure1_slot3;
-            option = new Array(1);
-            option[0] = oscard;
-            oscard = function() {
-                michal = _closure1_slot3;
-                entity = michal.getChannelId;
-                entity = entity.bind(michal)();
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var7 = 2;
+            var6 = var2[var7];
+            var5 = undefined;
+            var10 = var4.bind(var5)(var6);
+            var9 = var10.useStateFromStores;
+            var6 = _closure1_slot3;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var6 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getChannelId;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            verify = verify.bind(offset)(option, oscard);
-            var _closure2_slot1 = verify;
-            michal = michal[golfie];
-            option = tangon.bind(report)(michal);
-            oscard = option.useStateFromStores;
-            michal = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = michal;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var9 = var9.bind(var10)(var8, var6);
+            var _closure2_slot1 = var9;
+            var2 = var2[var7];
+            var8 = var4.bind(var5)(var2);
+            var6 = var8.useStateFromStores;
+            var2 = _closure1_slot2;
+            var4 = new Array(1);
+            var4[0] = var2;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    if(!(entity != zuuluu)) { _fun00004_ip = 74; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0002_ip = 74; continue _fun0002 }
  13:
-                    tangon = _closure1_slot2;
-                    zuuluu = tangon.getEmbeddedActivitiesForChannel;
-                    michal = _closure2_slot1;
-                    tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = tangon.filter;
-                    michal = function(argFoo) {
-                        entity = argFoo;
-                        michal = entity.applicationId;
-                        entity = _closure2_slot0;
-                        entity = michal === entity;
-                        return entity;
+                    var4 = _closure1_slot2;
+                    var3 = var4.getEmbeddedActivitiesForChannel;
+                    var2 = _closure2_slot1;
+                    var4 = var3.bind(var4)(var2);
+                    var3 = var4.filter;
+                    var2 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.applicationId;
+                        var1 = _closure2_slot0;
+                        var1 = var2 === var1;
+                        return var1;
                     };
-                    tangon = zuuluu.bind(tangon)(michal);
-                    michal = tangon.length;
-                    zuuluu = 0;
-                    report = michal > zuuluu;
-                    michal = undefined;
-                    if(!report) { _fun00004_ip = 72; continue _fun00003 }
+                    var4 = var3.bind(var4)(var2);
+                    var2 = var4.length;
+                    var3 = 0;
+                    var5 = var2 > var3;
+                    var2 = undefined;
+                    if(!var5) { _fun0002_ip = 72; continue _fun0002 }
  68:
-                    michal = tangon[zuuluu];
+                    var2 = var4[var3];
  72:
-                    return michal;
+                    return var2;
  74:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = oscard.bind(option)(tangon, michal);
-            option = null;
-            tangon = option == michal;
-            oscard = undefined;
-            if(tangon) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = var6.bind(var8)(var4, var2);
+            var8 = null;
+            var4 = var8 == var2;
+            var6 = undefined;
+            if(var4) { _fun0001_ip = 120; continue _fun0001 }
  114:
-            oscard = michal.compositeInstanceId;
+            var6 = var2.compositeInstanceId;
  120:
-            offset = option == michal;
-            tangon = undefined;
-            if(offset) { _fun00002_ip = 134; continue _fun00001 }
+            var10 = var8 == var2;
+            var4 = undefined;
+            if(var10) { _fun0001_ip = 134; continue _fun0001 }
  129:
-            tangon = michal.location;
+            var4 = var2.location;
  134:
-            michal = _closure1_slot0;
-            offset = _closure1_slot1;
-            golfie = offset[golfie];
-            yankee = michal.bind(report)(golfie);
-            golfie = yankee.useStateFromStores;
-            romeon = _closure1_slot2;
-            zuuluu = new Array(1);
-            zuuluu[0] = romeon;
-            entity = function() {
-                michal = _closure1_slot2;
-                entity = michal.getCurrentEmbeddedActivity;
-                entity = entity.bind(michal)();
-                return entity;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var7 = var10[var7];
+            var11 = var2.bind(var5)(var7);
+            var7 = var11.useStateFromStores;
+            var12 = _closure1_slot2;
+            var3 = new Array(1);
+            var3[0] = var12;
+            var1 = function() {
+                var2 = _closure1_slot2;
+                var1 = var2.getCurrentEmbeddedActivity;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            golfie = golfie.bind(yankee)(zuuluu, entity);
-            entity = 3;
-            zuuluu = offset[entity];
-            yankee = michal.bind(report)(zuuluu);
-            zuuluu = yankee.useEmbeddedActivityLaunchability;
-            zuuluu = zuuluu.bind(yankee)(verify);
-            entity = offset[entity];
-            entity = michal.bind(report)(entity);
-            entity = entity.EmbeddedActivityLaunchability;
-            michal = entity.CAN_LAUNCH;
-            entity = {};
-            entity['currentChannelId'] = verify;
-            entity['instanceId'] = oscard;
-            entity['instanceLocation'] = tangon;
-            tangon = option != oscard;
-            if(!tangon) { _fun00002_ip = 266; continue _fun00001 }
+            var7 = var7.bind(var11)(var3, var1);
+            var1 = 3;
+            var3 = var10[var1];
+            var11 = var2.bind(var5)(var3);
+            var3 = var11.useEmbeddedActivityLaunchability;
+            var3 = var3.bind(var11)(var9);
+            var1 = var10[var1];
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.EmbeddedActivityLaunchability;
+            var2 = var1.CAN_LAUNCH;
+            var1 = {};
+            var1['currentChannelId'] = var9;
+            var1['instanceId'] = var6;
+            var1['instanceLocation'] = var4;
+            var4 = var8 != var6;
+            if(!var4) { _fun0001_ip = 266; continue _fun0001 }
  247:
-            option = option == golfie;
-            report = undefined;
-            if(option) { _fun00002_ip = 262; continue _fun00001 }
+            var8 = var8 == var7;
+            var5 = undefined;
+            if(var8) { _fun0001_ip = 262; continue _fun0001 }
  256:
-            report = golfie.compositeInstanceId;
+            var5 = var7.compositeInstanceId;
  262:
-            tangon = report === oscard;
+            var4 = var5 === var6;
  266:
-            entity['isCurrentlyInInstance'] = tangon;
-            michal = zuuluu === michal;
-            entity['canLaunchInChannel'] = michal;
-            return entity;
+            var1['isCurrentlyInInstance'] = var4;
+            var2 = var3 === var2;
+            var1['canLaunchInChannel'] = var2;
+            return var1;
         }
     };
-    zuuluu['usePlayInContext'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getPlayInContext
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['usePlayInContext'] = var4;
+    var2 = function getPlayInContext(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            verify = argBar;
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            option = null;
-            if(!(option == verify)) { _fun00006_ip = 35; continue _fun00005 }
+            var9 = arg2;
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var8 = null;
+            if(!(var8 == var9)) { _fun0003_ip = 35; continue _fun0003 }
  18:
-            michal = _closure1_slot3;
-            entity = michal.getChannelId;
-            verify = entity.bind(michal)();
+            var2 = _closure1_slot3;
+            var1 = var2.getChannelId;
+            var9 = var1.bind(var2)();
  35:
-            if(!(option != verify)) { _fun00006_ip = 310; continue _fun00005 }
+            if(!(var8 != var9)) { _fun0003_ip = 310; continue _fun0003 }
  42:
-            if(!(option == verify)) { _fun00006_ip = 85; continue _fun00005 }
+            if(!(var8 == var9)) { _fun0003_ip = 85; continue _fun0003 }
  46:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            entity = entity.EmbeddedActivityLaunchability;
-            zuuluu = entity.NO_CHANNEL;
-            _fun00006_ip = 121; continue _fun00005;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.EmbeddedActivityLaunchability;
+            var3 = var1.NO_CHANNEL;
+            _fun0003_ip = 121; continue _fun0003;
  85:
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            michal = report.bind(entity)(michal);
-            entity = michal.getEmbeddedActivityLaunchabilityForChannel;
-            zuuluu = entity.bind(michal)(verify);
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var5.bind(var1)(var2);
+            var1 = var2.getEmbeddedActivityLaunchabilityForChannel;
+            var3 = var1.bind(var2)(var9);
  121:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            report = undefined;
-            michal = oscard.bind(report)(michal);
-            michal = michal.EmbeddedActivityLaunchability;
-            michal = michal.CAN_LAUNCH;
-            golfie = _closure1_slot2;
-            oscard = golfie.getEmbeddedActivitiesForChannel;
-            golfie = oscard.bind(golfie)(verify);
-            oscard = golfie.filter;
-            tangon = function(argFoo) {
-                entity = argFoo;
-                michal = entity.applicationId;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 3;
+            var2 = var5[var2];
+            var5 = undefined;
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.EmbeddedActivityLaunchability;
+            var2 = var2.CAN_LAUNCH;
+            var7 = _closure1_slot2;
+            var6 = var7.getEmbeddedActivitiesForChannel;
+            var7 = var6.bind(var7)(var9);
+            var6 = var7.filter;
+            var4 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.applicationId;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            oscard = oscard.bind(golfie)(tangon);
-            golfie = oscard.length;
-            tangon = 0;
-            offset = golfie > tangon;
-            golfie = undefined;
-            if(!offset) { _fun00006_ip = 208; continue _fun00005 }
+            var6 = var6.bind(var7)(var4);
+            var7 = var6.length;
+            var4 = 0;
+            var10 = var7 > var4;
+            var7 = undefined;
+            if(!var10) { _fun0003_ip = 208; continue _fun0003 }
  204:
-            golfie = oscard[tangon];
+            var7 = var6[var4];
  208:
-            tangon = option == golfie;
-            oscard = undefined;
-            if(tangon) { _fun00006_ip = 223; continue _fun00005 }
+            var4 = var8 == var7;
+            var6 = undefined;
+            if(var4) { _fun0003_ip = 223; continue _fun0003 }
  217:
-            oscard = golfie.compositeInstanceId;
+            var6 = var7.compositeInstanceId;
  223:
-            offset = option == golfie;
-            tangon = undefined;
-            if(offset) { _fun00006_ip = 237; continue _fun00005 }
+            var10 = var8 == var7;
+            var4 = undefined;
+            if(var10) { _fun0003_ip = 237; continue _fun0003 }
  232:
-            tangon = golfie.location;
+            var4 = var7.location;
  237:
-            golfie = _closure1_slot2;
-            entity = golfie.getCurrentEmbeddedActivity;
-            golfie = entity.bind(golfie)();
-            entity = {};
-            entity['currentChannelId'] = verify;
-            entity['instanceId'] = oscard;
-            entity['instanceLocation'] = tangon;
-            tangon = option != oscard;
-            if(!tangon) { _fun00006_ip = 294; continue _fun00005 }
+            var7 = _closure1_slot2;
+            var1 = var7.getCurrentEmbeddedActivity;
+            var7 = var1.bind(var7)();
+            var1 = {};
+            var1['currentChannelId'] = var9;
+            var1['instanceId'] = var6;
+            var1['instanceLocation'] = var4;
+            var4 = var8 != var6;
+            if(!var4) { _fun0003_ip = 294; continue _fun0003 }
  275:
-            option = option == golfie;
-            report = undefined;
-            if(option) { _fun00006_ip = 290; continue _fun00005 }
+            var8 = var8 == var7;
+            var5 = undefined;
+            if(var8) { _fun0003_ip = 290; continue _fun0003 }
  284:
-            report = golfie.compositeInstanceId;
+            var5 = var7.compositeInstanceId;
  290:
-            tangon = report === oscard;
+            var4 = var5 === var6;
  294:
-            entity['isCurrentlyInInstance'] = tangon;
-            michal = zuuluu === michal;
-            entity['canLaunchInChannel'] = michal;
-            return entity;
+            var1['isCurrentlyInInstance'] = var4;
+            var2 = var3 === var2;
+            var1['canLaunchInChannel'] = var2;
+            return var1;
  310:
-            entity = {'currentChannelId': null, 'instanceId': null, 'instanceLocation': null, 'isCurrentlyInInstance': false, 'canLaunchInChannel': false};
-            return entity;
+            var1 = {'currentChannelId': null, 'instanceId': null, 'instanceLocation': null, 'isCurrentlyInInstance': false, 'canLaunchInChannel': false};
+            return var1;
         }
     };
-    zuuluu['getPlayInContext'] = michal;
-    return entity;
+    var3['getPlayInContext'] = var2;
+    return var1;
 })();

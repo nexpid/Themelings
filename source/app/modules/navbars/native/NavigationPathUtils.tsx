@@ -1,68 +1,68 @@
 // app/modules/navbars/native/NavigationPathUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    tangon = function(argFoo) { // Original name: getSelectedSpecialNavigationPath
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var4 = function getSelectedSpecialNavigationPath(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.pathname;
-            michal = _closure1_slot2;
-            michal = michal.FRIENDS;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 30; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.pathname;
+            var2 = _closure1_slot2;
+            var2 = var2.FRIENDS;
+            if(!(var3 !== var2)) { _fun0001_ip = 30; continue _fun0001 }
  26:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  30:
-            entity = _closure1_slot3;
-            entity = entity.FRIENDS;
-            return entity;
+            var1 = _closure1_slot3;
+            var1 = var1.FRIENDS;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, report);
-    verify = 0;
-    report = option[verify];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    report = report.Routes;
-    var _closure1_slot2 = report;
-    report = {};
-    report['FRIENDS'] = verify;
-    oscard = 'FRIENDS';
-    report[verify] = oscard;
-    var _closure1_slot3 = report;
-    oscard = 2;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/navbars/native/NavigationPathUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['SpecialNavigationPath'] = report;
-    zuuluu['getSelectedSpecialNavigationPath'] = tangon;
-    michal = function() { // Original name: useSelectedSpecialNavigationPath
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        entity = michal[entity];
-        michal = undefined;
-        tangon = tangon.bind(michal)(entity);
-        entity = tangon.useLocation;
-        entity = entity.bind(tangon)();
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var9 = 0;
+    var5 = var8[var9];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.Routes;
+    var _closure1_slot2 = var5;
+    var5 = {};
+    var5['FRIENDS'] = var9;
+    var6 = 'FRIENDS';
+    var5[var9] = var6;
+    var _closure1_slot3 = var5;
+    var6 = 2;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/navbars/native/NavigationPathUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['SpecialNavigationPath'] = var5;
+    var3['getSelectedSpecialNavigationPath'] = var4;
+    var2 = function useSelectedSpecialNavigationPath() {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var1 = var2[var1];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var1);
+        var1 = var4.useLocation;
+        var1 = var1.bind(var4)();
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useSelectedSpecialNavigationPath'] = michal;
-    return entity;
+    var3['useSelectedSpecialNavigationPath'] = var2;
+    return var1;
 })();

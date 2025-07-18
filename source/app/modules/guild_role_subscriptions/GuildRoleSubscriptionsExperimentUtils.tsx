@@ -1,371 +1,371 @@
 // app/modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot2 = golfie;
-    golfie = tangon.GuildFeatures;
-    option = golfie.ROLE_SUBSCRIPTIONS_ENABLED;
-    tangon = new Array(3);
-    tangon[0] = option;
-    option = golfie.CREATOR_MONETIZABLE;
-    tangon[1] = option;
-    golfie = golfie.CREATOR_MONETIZABLE_PROVISIONAL;
-    tangon[2] = golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot2 = var7;
+    var7 = var4.GuildFeatures;
+    var8 = var7.ROLE_SUBSCRIPTIONS_ENABLED;
+    var4 = new Array(3);
+    var4[0] = var8;
+    var8 = var7.CREATOR_MONETIZABLE;
+    var4[1] = var8;
+    var7 = var7.CREATOR_MONETIZABLE_PROVISIONAL;
+    var4[2] = var7;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionsExperimentUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useGuildEligibleForRoleSubscriptions(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 1;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            verify = entity.GuildRoleSubscriptionsExperiment;
-            option = verify.useExperiment;
-            report = {};
-            entity = null;
-            michal = tangon;
-            if(!(entity == michal)) { _fun00002_ip = 55; continue _fun00001 }
+            var4 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var9 = var1.GuildRoleSubscriptionsExperiment;
+            var8 = var9.useExperiment;
+            var5 = {};
+            var1 = null;
+            var2 = var4;
+            if(!(var1 == var2)) { _fun0001_ip = 55; continue _fun0001 }
  51:
-            michal = _closure1_slot2;
+            var2 = _closure1_slot2;
  55:
-            report['guildId'] = michal;
-            michal = '504714_1';
-            report['location'] = michal;
-            michal = {};
-            offset = true;
-            michal['autoTrackExposure'] = offset;
-            michal = option.bind(verify)(report, michal);
-            michal = michal.enableRoleSubscriptionsForGuild;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            golfie = zuuluu.GuildRoleSubscriptionUsersExperiment;
-            oscard = golfie.useExperiment;
-            report = {};
-            zuuluu = '504714_2';
-            report['location'] = zuuluu;
-            zuuluu = {};
-            option = false;
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = zuuluu.enableRoleSubscriptionsForUser;
-            entity = entity != tangon;
-            if(!entity) { _fun00002_ip = 168; continue _fun00001 }
+            var5['guildId'] = var2;
+            var2 = '504714_1';
+            var5['location'] = var2;
+            var2 = {};
+            var10 = true;
+            var2['autoTrackExposure'] = var10;
+            var2 = var8.bind(var9)(var5, var2);
+            var2 = var2.enableRoleSubscriptionsForGuild;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var7 = var3.GuildRoleSubscriptionUsersExperiment;
+            var6 = var7.useExperiment;
+            var5 = {};
+            var3 = '504714_2';
+            var5['location'] = var3;
+            var3 = {};
+            var8 = false;
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var5, var3);
+            var3 = var3.enableRoleSubscriptionsForUser;
+            var1 = var1 != var4;
+            if(!var1) { _fun0001_ip = 168; continue _fun0001 }
  159:
-            if(!michal) { _fun00002_ip = 165; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 165; continue _fun0001 }
  162:
-            michal = zuuluu;
+            var2 = var3;
  165:
-            entity = michal;
+            var1 = var2;
  168:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGuildEligibleForRoleSubscriptions'] = tangon;
-    tangon = function(argFoo) { // Original name: isGuildEligibleForRoleSubscriptions
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useGuildEligibleForRoleSubscriptions'] = var4;
+    var4 = function isGuildEligibleForRoleSubscriptions(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 1;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            option = entity.GuildRoleSubscriptionsExperiment;
-            report = option.getCurrentConfig;
-            michal = {};
-            entity = null;
-            verify = tangon;
-            if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
+            var4 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var8 = var1.GuildRoleSubscriptionsExperiment;
+            var5 = var8.getCurrentConfig;
+            var2 = {};
+            var1 = null;
+            var9 = var4;
+            if(!(var1 == var9)) { _fun0002_ip = 55; continue _fun0002 }
  51:
-            verify = _closure1_slot2;
+            var9 = _closure1_slot2;
  55:
-            michal['guildId'] = verify;
-            verify = '504714_3';
-            michal['location'] = verify;
-            michal = report.bind(option)(michal);
-            michal = michal.enableRoleSubscriptionsForGuild;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            golfie = zuuluu.GuildRoleSubscriptionUsersExperiment;
-            oscard = golfie.getCurrentConfig;
-            report = {};
-            zuuluu = '504714_4';
-            report['location'] = zuuluu;
-            zuuluu = {};
-            option = false;
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = zuuluu.enableRoleSubscriptionsForUser;
-            entity = entity != tangon;
-            if(!entity) { _fun00004_ip = 158; continue _fun00003 }
+            var2['guildId'] = var9;
+            var9 = '504714_3';
+            var2['location'] = var9;
+            var2 = var5.bind(var8)(var2);
+            var2 = var2.enableRoleSubscriptionsForGuild;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var7 = var3.GuildRoleSubscriptionUsersExperiment;
+            var6 = var7.getCurrentConfig;
+            var5 = {};
+            var3 = '504714_4';
+            var5['location'] = var3;
+            var3 = {};
+            var8 = false;
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var5, var3);
+            var3 = var3.enableRoleSubscriptionsForUser;
+            var1 = var1 != var4;
+            if(!var1) { _fun0002_ip = 158; continue _fun0002 }
  149:
-            if(!michal) { _fun00004_ip = 155; continue _fun00003 }
+            if(!var2) { _fun0002_ip = 155; continue _fun0002 }
  152:
-            michal = zuuluu;
+            var2 = var3;
  155:
-            entity = michal;
+            var1 = var2;
  158:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isGuildEligibleForRoleSubscriptions'] = tangon;
-    tangon = function(argFoo) { // Original name: useRoleSubscriptionMaxTiersExperiment
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isGuildEligibleForRoleSubscriptions'] = var4;
+    var4 = function useRoleSubscriptionMaxTiersExperiment(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            zuuluu = entity.GuildRoleSubscriptionMaxTiersExperiment;
-            michal = zuuluu.useExperiment;
-            entity = {};
-            oscard = null;
-            if(!(oscard == tangon)) { _fun00006_ip = 52; continue _fun00005 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.GuildRoleSubscriptionMaxTiersExperiment;
+            var2 = var3.useExperiment;
+            var1 = {};
+            var6 = null;
+            if(!(var6 == var4)) { _fun0003_ip = 52; continue _fun0003 }
  48:
-            tangon = _closure1_slot2;
+            var4 = _closure1_slot2;
  52:
-            entity['guildId'] = tangon;
-            tangon = '504714_7';
-            entity['location'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1['guildId'] = var4;
+            var4 = '504714_7';
+            var1['location'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['useRoleSubscriptionMaxTiersExperiment'] = tangon;
-    tangon = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useRoleSubscriptionMaxTiersExperiment'] = var4;
+    var4 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            var _closure2_slot0 = zuuluu;
-            entity = null;
-            entity = entity != zuuluu;
-            if(!entity) { _fun00008_ip = 41; continue _fun00007 }
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0004_ip = 41; continue _fun0004 }
  18:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.some;
-            michal = function(argFoo) {
-                entity = _closure2_slot0;
-                zuuluu = entity.features;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var4 = _closure1_slot3;
+            var3 = var4.some;
+            var2 = function(arg1) {
+                var1 = _closure2_slot0;
+                var3 = var1.features;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(michal);
+            var1 = var3.bind(var4)(var2);
  41:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['hasEnabledMonetization'] = tangon;
-    tangon = function(argFoo) { // Original name: useGuildEligibleForRoleSubscriptionsMobileTeamSetup
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['hasEnabledMonetization'] = var4;
+    var4 = function useGuildEligibleForRoleSubscriptionsMobileTeamSetup(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 1;
-            entity = report[entity];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            golfie = entity.GuildRoleSubscriptionsMobileTeamSetupExperiment;
-            oscard = golfie.useExperiment;
-            zuuluu = {};
-            option = null;
-            verify = option == tangon;
-            entity = undefined;
-            if(verify) { _fun00010_ip = 58; continue _fun00009 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 1;
+            var1 = var5[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var7 = var1.GuildRoleSubscriptionsMobileTeamSetupExperiment;
+            var6 = var7.useExperiment;
+            var3 = {};
+            var8 = null;
+            var9 = var8 == var4;
+            var1 = undefined;
+            if(var9) { _fun0005_ip = 58; continue _fun0005 }
  53:
-            entity = tangon.id;
+            var1 = var4.id;
  58:
-            if(!(option == entity)) { _fun00010_ip = 66; continue _fun00009 }
+            if(!(var8 == var1)) { _fun0005_ip = 66; continue _fun0005 }
  62:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  66:
-            zuuluu['guildId'] = entity;
-            entity = '504714_8';
-            zuuluu['location'] = entity;
-            entity = {};
-            option = true;
-            entity['autoTrackExposure'] = option;
-            entity = oscard.bind(golfie)(zuuluu, entity);
-            entity = entity.enabled;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.useIsExpeditedOnboardingGuild;
-            michal = michal.bind(zuuluu)(tangon);
-            if(!entity) { _fun00010_ip = 137; continue _fun00009 }
+            var3['guildId'] = var1;
+            var1 = '504714_8';
+            var3['location'] = var1;
+            var1 = {};
+            var8 = true;
+            var1['autoTrackExposure'] = var8;
+            var1 = var6.bind(var7)(var3, var1);
+            var1 = var1.enabled;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.useIsExpeditedOnboardingGuild;
+            var2 = var2.bind(var3)(var4);
+            if(!var1) { _fun0005_ip = 137; continue _fun0005 }
  134:
-            entity = michal;
+            var1 = var2;
  137:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = tangon;
-    tangon = function(argFoo) { // Original name: isGuildEligibleForTierTemplates
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['useGuildEligibleForRoleSubscriptionsMobileTeamSetup'] = var4;
+    var4 = function isGuildEligibleForTierTemplates(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            oscard = null;
-            if(!(oscard == entity)) { _fun00012_ip = 52; continue _fun00011 }
+            var1 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var4 = var2.GuildRoleSubscriptionsTierTemplatesExperiment;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var6 = null;
+            if(!(var6 == var1)) { _fun0006_ip = 52; continue _fun0006 }
  48:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  52:
-            michal['guildId'] = entity;
-            entity = '504714_9';
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var2['guildId'] = var1;
+            var1 = '504714_9';
+            var2['location'] = var1;
+            var1 = {};
+            var5 = false;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['isGuildEligibleForTierTemplates'] = tangon;
-    tangon = function(argFoo) { // Original name: useGuildEligibleForTierTemplates
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['isGuildEligibleForTierTemplates'] = var4;
+    var4 = function useGuildEligibleForTierTemplates(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            oscard = null;
-            if(!(oscard == entity)) { _fun00014_ip = 52; continue _fun00013 }
+            var1 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var4 = var2.GuildRoleSubscriptionsTierTemplatesExperiment;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var6 = null;
+            if(!(var6 == var1)) { _fun0007_ip = 52; continue _fun0007 }
  48:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  52:
-            michal['guildId'] = entity;
-            entity = '504714_10';
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var2['guildId'] = var1;
+            var1 = '504714_10';
+            var2['location'] = var1;
+            var1 = {};
+            var5 = false;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['useGuildEligibleForTierTemplates'] = tangon;
-    tangon = function(argFoo) { // Original name: useShowCreatorPortalLinkForTierTemplates
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['useGuildEligibleForTierTemplates'] = var4;
+    var4 = function useShowCreatorPortalLinkForTierTemplates(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            entity = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.GuildRoleSubscriptionsTierTemplatesExperiment;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            oscard = null;
-            if(!(oscard == entity)) { _fun00016_ip = 52; continue _fun00015 }
+            var1 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var4 = var2.GuildRoleSubscriptionsTierTemplatesExperiment;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var6 = null;
+            if(!(var6 == var1)) { _fun0008_ip = 52; continue _fun0008 }
  48:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  52:
-            michal['guildId'] = entity;
-            entity = '504714_11';
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.showCreatorPortalLink;
-            return entity;
+            var2['guildId'] = var1;
+            var1 = '504714_11';
+            var2['location'] = var1;
+            var1 = {};
+            var5 = false;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.showCreatorPortalLink;
+            return var1;
         }
     };
-    zuuluu['useShowCreatorPortalLinkForTierTemplates'] = tangon;
-    tangon = function() { // Original name: isUserEligibleForTierTemplates
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        tangon = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = '504714_12';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+    var3['useShowCreatorPortalLinkForTierTemplates'] = var4;
+    var4 = function isUserEligibleForTierTemplates() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var4 = var1.GuildRoleSubscriptionsTierTemplatesUserExperiment;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = '504714_12';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enabled;
+        return var1;
     };
-    zuuluu['isUserEligibleForTierTemplates'] = tangon;
-    michal = function() { // Original name: useUserEligibleForTierTemplates
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        tangon = entity.GuildRoleSubscriptionsTierTemplatesUserExperiment;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = '504714_13';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+    var3['isUserEligibleForTierTemplates'] = var4;
+    var2 = function useUserEligibleForTierTemplates() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var4 = var1.GuildRoleSubscriptionsTierTemplatesUserExperiment;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = '504714_13';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enabled;
+        return var1;
     };
-    zuuluu['useUserEligibleForTierTemplates'] = michal;
-    return entity;
+    var3['useUserEligibleForTierTemplates'] = var2;
+    return var1;
 })();

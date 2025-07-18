@@ -1,98 +1,98 @@
 // app/modules/app_launcher/native/base_components/AppLauncherBackButton.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/native/base_components/AppLauncherBackButton.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: AppLauncherBackButton
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/native/base_components/AppLauncherBackButton.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function AppLauncherBackButton(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.onPress;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 2;
-            entity = golfie[entity];
-            tangon = undefined;
-            zuuluu = michal.bind(tangon)(entity);
-            entity = zuuluu.useNavigation;
-            zuuluu = entity.bind(zuuluu)();
-            entity = zuuluu.canGoBack;
-            report = entity.bind(zuuluu)();
-            zuuluu = _closure1_slot3;
-            entity = 3;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.IconButton;
-            entity = {'size': 'sm', 'variant': 'secondary-overlay'};
-            verify = _closure1_slot1;
-            yankee = _closure1_slot2;
-            if(report) { _fun00002_ip = 109; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.onPress;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 2;
+            var1 = var7[var1];
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
+            var1 = var3.useNavigation;
+            var3 = var1.bind(var3)();
+            var1 = var3.canGoBack;
+            var5 = var1.bind(var3)();
+            var3 = _closure1_slot3;
+            var1 = 3;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.IconButton;
+            var1 = {'size': 'sm', 'variant': 'secondary-overlay'};
+            var9 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            if(var5) { _fun0001_ip = 109; continue _fun0001 }
  100:
-            golfie = 5;
-            golfie = yankee[golfie];
-            _fun00002_ip = 116; continue _fun00001;
+            var7 = 5;
+            var7 = var11[var7];
+            _fun0001_ip = 116; continue _fun0001;
  109:
-            offset = 4;
-            golfie = yankee[offset];
+            var10 = 4;
+            var7 = var11[var10];
  116:
-            golfie = verify.bind(tangon)(golfie);
-            entity['icon'] = golfie;
-            entity['onPress'] = oscard;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            offset = 6;
-            oscard = oscard[offset];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            verify = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[offset];
-            option = verify.bind(tangon)(option);
-            option = option.t;
-            if(report) { _fun00002_ip = 192; continue _fun00001 }
+            var7 = var9.bind(var4)(var7);
+            var1['icon'] = var7;
+            var1['onPress'] = var6;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var10 = 6;
+            var6 = var6[var10];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var10];
+            var8 = var9.bind(var4)(var8);
+            var8 = var8.t;
+            if(var5) { _fun0001_ip = 192; continue _fun0001 }
  184:
-            report = option.cpT0Cg;
-            _fun00002_ip = 198; continue _fun00001;
+            var5 = var8.cpT0Cg;
+            _fun0001_ip = 198; continue _fun0001;
  192:
-            report = option.13/7kZ;
+            var5 = var8.13/7kZ;
  198:
-            report = oscard.bind(golfie)(report);
-            entity['accessibilityLabel'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = var6.bind(var7)(var5);
+            var1['accessibilityLabel'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    michal = 32;
-    zuuluu['BACK_BUTTON_SIZE'] = michal;
-    return entity;
+    var3['default'] = var2;
+    var2 = 32;
+    var3['BACK_BUTTON_SIZE'] = var2;
+    return var1;
 })();

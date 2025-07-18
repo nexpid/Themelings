@@ -1,73 +1,73 @@
 // app/utils/native/StyleSheetUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, michal);
-    michal = {};
-    entity = function(argFoo, argBar) { // Original name: getStyleProp
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var2);
+    var2 = {};
+    var1 = function getStyleProp(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            golfie = argBar;
-            oscard = null;
-            if(!(oscard != golfie)) { _fun00002_ip = 110; continue _fun00001 }
+            var8 = arg1;
+            var7 = arg2;
+            var6 = null;
+            if(!(var6 != var7)) { _fun0001_ip = 110; continue _fun0001 }
  12:
-            entity = '';
-            if(!(entity !== golfie)) { _fun00002_ip = 110; continue _fun00001 }
+            var1 = '';
+            if(!(var1 !== var7)) { _fun0001_ip = 110; continue _fun0001 }
  20:
-            entity = global;
-            michal = entity.Array;
-            entity = michal.isArray;
-            entity = entity.bind(michal)(option);
-            if(entity) { _fun00002_ip = 62; continue _fun00001 }
+            var1 = global;
+            var2 = var1.Array;
+            var1 = var2.isArray;
+            var1 = var1.bind(var2)(var8);
+            if(var1) { _fun0001_ip = 62; continue _fun0001 }
  41:
-            if(!(oscard != option)) { _fun00002_ip = 110; continue _fun00001 }
+            if(!(var6 != var8)) { _fun0001_ip = 110; continue _fun0001 }
  45:
-            michal = 'object';
-            entity = typeof option;
-            if(!(michal === entity)) { _fun00002_ip = 110; continue _fun00001 }
+            var2 = 'object';
+            var1 = typeof var8;
+            if(!(var2 === var1)) { _fun0001_ip = 110; continue _fun0001 }
  56:
-            entity = option[golfie];
-            return entity;
+            var1 = var8[var7];
+            return var1;
  62:
-            michal = option.length;
-            entity = 1;
-            report = michal - entity;
-            tangon = 0;
-            michal = undefined;
-            if(!(report >= tangon)) { _fun00002_ip = 110; continue _fun00001 }
+            var2 = var8.length;
+            var1 = 1;
+            var5 = var2 - var1;
+            var4 = 0;
+            var2 = undefined;
+            if(!(var5 >= var4)) { _fun0001_ip = 110; continue _fun0001 }
  85:
-            verify = _closure1_slot0;
-            entity = option[report];
-            entity = verify.bind(michal)(entity, golfie);
-            if(!(oscard == entity)) { _fun00002_ip = 114; continue _fun00001 }
+            var9 = _closure1_slot0;
+            var1 = var8[var5];
+            var1 = var9.bind(var2)(var1, var7);
+            if(!(var6 == var1)) { _fun0001_ip = 114; continue _fun0001 }
  103:
-            report = report - 1;
-            if(report >= tangon) { _fun00002_ip = 85; continue _fun00001 }
+            var5 = var5 - 1;
+            if(var5 >= var4) { _fun0001_ip = 85; continue _fun0001 }
  110:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  114:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot0 = entity;
-    michal['getStyleProp'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/native/StyleSheetUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var _closure1_slot0 = var1;
+    var2['getStyleProp'] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/native/StyleSheetUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

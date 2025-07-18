@@ -1,75 +1,75 @@
 // app/modules/headless_tasks/android/Disconnect.tsx
-export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
-    zuuluu = argBar;
-    oscard = argBaz;
-    tangon = argPlu;
-    var _closure1_slot0 = zuuluu;
-    var _closure1_slot1 = oscard;
-    var _closure1_slot2 = tangon;
-    entity = 0;
-    report = tangon[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = function(argFoo) {
-        michal = argFoo;
-        michal = michal.channelId;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.awaitStorage;
-            michal = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native2;
+    var6 = native3;
+    var4 = native7;
+    var _closure1_slot0 = var3;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var4;
+    var1 = 0;
+    var5 = var4[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = function(arg1) {
+        var2 = arg1;
+        var2 = var2.channelId;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.awaitStorage;
+            var2 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getChannel;
-                    michal = _closure2_slot0;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00002_ip = 63; continue _fun00001 }
+                    var4 = _closure1_slot3;
+                    var3 = var4.getChannel;
+                    var2 = _closure2_slot0;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0001_ip = 63; continue _fun0001 }
  30:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 2;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    entity = michal.handleDisconnect;
-                    entity = entity.bind(michal)(zuuluu);
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 2;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var1 = var2.handleDisconnect;
+                    var1 = var1.bind(var2)(var3);
  63:
-                    zuuluu = _closure3_slot0;
-                    entity = undefined;
-                    michal = true;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var3 = _closure3_slot0;
+                    var1 = undefined;
+                    var2 = true;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    michal = argGra;
-    michal['exports'] = report;
-    michal = 3;
-    michal = tangon[michal];
-    tangon = zuuluu.bind(entity)(michal);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'modules/headless_tasks/android/Disconnect.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+    var2 = native5;
+    var2['exports'] = var5;
+    var2 = 3;
+    var2 = var4[var2];
+    var4 = var3.bind(var1)(var2);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'modules/headless_tasks/android/Disconnect.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

@@ -1,91 +1,91 @@
 // app/modules/search/SearchResultsFeedbackExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    verify = report.bind(entity)(tangon);
-    option = verify.createExperiment;
-    golfie = {'kind': 'user', 'id': '2025-05_search_results_feedback', 'label': 'Search Results Feedback'};
-    tangon = {'enabled': false, 'force': false};
-    golfie['defaultConfig'] = tangon;
-    yankee = {'id': 1, 'label': 'Eligible to see search results feedback'};
-    tangon = 1;
-    offset = {'enabled': true, 'force': false};
-    yankee['config'] = offset;
-    offset = new Array(2);
-    offset[0] = yankee;
-    yankee = {'id': 2, 'label': 'Force user to always see search results feedback'};
-    romeon = {'enabled': true, 'force': true};
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    golfie['treatments'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot0 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/search/SearchResultsFeedbackExperiment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useIsSearchResultsFeedbackExperimentEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var7 = {'kind': 'user', 'id': '2025-05_search_results_feedback', 'label': 'Search Results Feedback'};
+    var4 = {'enabled': false, 'force': false};
+    var7['defaultConfig'] = var4;
+    var11 = {'id': 1, 'label': 'Eligible to see search results feedback'};
+    var4 = 1;
+    var10 = {'enabled': true, 'force': false};
+    var11['config'] = var10;
+    var10 = new Array(2);
+    var10[0] = var11;
+    var11 = {'id': 2, 'label': 'Force user to always see search results feedback'};
+    var12 = {'enabled': true, 'force': true};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var7['treatments'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot0 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/search/SearchResultsFeedbackExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useIsSearchResultsFeedbackExperimentEnabled(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = {};
-            zuuluu = michal.enabled;
-            entity['enabled'] = zuuluu;
-            michal = michal.force;
-            entity['force'] = michal;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = {};
+            var3 = var2.enabled;
+            var1['enabled'] = var3;
+            var2 = var2.force;
+            var1['force'] = var2;
+            return var1;
         }
     };
-    zuuluu['useIsSearchResultsFeedbackExperimentEnabled'] = tangon;
-    michal = function(argFoo) { // Original name: getIsSearchResultsFeedbackExperimentEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useIsSearchResultsFeedbackExperimentEnabled'] = var4;
+    var2 = function getIsSearchResultsFeedbackExperimentEnabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0002_ip = 22; continue _fun0002 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['getIsSearchResultsFeedbackExperimentEnabled'] = michal;
-    return entity;
+    var3['getIsSearchResultsFeedbackExperimentEnabled'] = var2;
+    return var1;
 })();

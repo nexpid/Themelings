@@ -1,36 +1,36 @@
 // app/modules/experiments/trigger_points/validateTriggerPoint.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/experiments/trigger_points/validateTriggerPoint.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: validateAllExperiments
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/experiments/trigger_points/validateTriggerPoint.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function validateAllExperiments() {
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['validateAllExperiments'] = tangon;
-    michal = function() { // Original name: validateOneExperiment
-        entity = undefined;
-        return entity;
+    var3['validateAllExperiments'] = var4;
+    var2 = function validateOneExperiment() {
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['validateOneExperiment'] = michal;
-    return entity;
+    var3['validateOneExperiment'] = var2;
+    return var1;
 })();

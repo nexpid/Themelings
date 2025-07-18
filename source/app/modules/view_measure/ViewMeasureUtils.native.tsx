@@ -1,219 +1,219 @@
 // app/modules/view_measure/ViewMeasureUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
-    zuuluu = argFre;
-    oscard = function(argFoo) { // Original name: measureView
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.measure;
-            entity = function(argFoo, argBar, argBaz, argCor, argGra, argFre) {
-                zuuluu = _closure3_slot0;
-                michal = {};
-                entity = argFoo;
-                michal['x'] = entity;
-                entity = argBar;
-                michal['y'] = entity;
-                entity = argBaz;
-                michal['width'] = entity;
-                entity = argCor;
-                michal['height'] = entity;
-                entity = argGra;
-                michal['pageX'] = entity;
-                entity = argFre;
-                michal['pageY'] = entity;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var6 = function measureView(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var3 = _closure2_slot0;
+            var2 = var3.measure;
+            var1 = function(arg1, arg2, arg3, arg4, arg5, arg6) {
+                var3 = _closure3_slot0;
+                var2 = {};
+                var1 = arg1;
+                var2['x'] = var1;
+                var1 = arg2;
+                var2['y'] = var1;
+                var1 = arg3;
+                var2['width'] = var1;
+                var1 = arg4;
+                var2['height'] = var1;
+                var1 = arg5;
+                var2['pageX'] = var1;
+                var1 = arg6;
+                var2['pageY'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot0 = oscard;
-    report = function(argFoo) { // Original name: measureViewInWindow
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.measureInWindow;
-            entity = function(argFoo, argBar, argBaz, argCor) {
-                zuuluu = _closure3_slot0;
-                michal = {};
-                entity = argFoo;
-                michal['x'] = entity;
-                entity = argBar;
-                michal['y'] = entity;
-                entity = argBaz;
-                michal['width'] = entity;
-                entity = argCor;
-                michal['height'] = entity;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+    var _closure1_slot0 = var6;
+    var5 = function measureViewInWindow(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var3 = _closure2_slot0;
+            var2 = var3.measureInWindow;
+            var1 = function(arg1, arg2, arg3, arg4) {
+                var3 = _closure3_slot0;
+                var2 = {};
+                var1 = arg1;
+                var2['x'] = var1;
+                var1 = arg2;
+                var2['y'] = var1;
+                var1 = arg3;
+                var2['width'] = var1;
+                var1 = arg4;
+                var2['height'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot1 = report;
-    tangon = function(argFoo, argBar) { // Original name: measureViewInView
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            michal = argFoo;
-            var _closure3_slot0 = michal;
-            report = _closure2_slot0;
-            tangon = report.measureLayout;
-            zuuluu = _closure2_slot1;
-            michal = function(argFoo, argBar, argBaz, argCor) {
-                zuuluu = _closure3_slot0;
-                michal = {};
-                entity = argFoo;
-                michal['x'] = entity;
-                entity = argBar;
-                michal['y'] = entity;
-                entity = argBaz;
-                michal['width'] = entity;
-                entity = argCor;
-                michal['height'] = entity;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+    var _closure1_slot1 = var5;
+    var4 = function measureViewInView(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var5 = _closure2_slot0;
+            var4 = var5.measureLayout;
+            var3 = _closure2_slot1;
+            var2 = function(arg1, arg2, arg3, arg4) {
+                var3 = _closure3_slot0;
+                var2 = {};
+                var1 = arg1;
+                var2['x'] = var1;
+                var1 = arg2;
+                var2['y'] = var1;
+                var1 = arg3;
+                var2['width'] = var1;
+                var1 = arg4;
+                var2['height'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = function() {
-                michal = _closure3_slot0;
-                entity = undefined;
-                michal = michal.bind(entity)(entity);
-                return entity;
+            var1 = function() {
+                var2 = _closure3_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var1);
+                return var1;
             };
-            entity = tangon.bind(report)(zuuluu, michal, entity);
-            entity = undefined;
-            return entity;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = undefined;
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot2 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    golfie = argPlu;
-    entity = 0;
-    option = golfie[entity];
-    golfie = argBar;
-    entity = undefined;
-    verify = golfie.bind(entity)(option);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/view_measure/ViewMeasureUtils.native.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['measureView'] = oscard;
-    oscard = function(argFoo) { // Original name: measureViewRef
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var7 = native7;
+    var1 = 0;
+    var8 = var7[var1];
+    var7 = native2;
+    var1 = undefined;
+    var9 = var7.bind(var1)(var8);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/view_measure/ViewMeasureUtils.native.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['measureView'] = var6;
+    var6 = function measureViewRef(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.current;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 30; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.current;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 30; continue _fun0001 }
  14:
-            michal = _closure1_slot0;
-            entity = undefined;
-            entity = michal.bind(entity)(zuuluu);
-            _fun00002_ip = 51; continue _fun00001;
+            var2 = _closure1_slot0;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
+            _fun0001_ip = 51; continue _fun0001;
  30:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.resolve;
-            michal = undefined;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.resolve;
+            var2 = undefined;
+            var1 = var3.bind(var4)(var2);
  51:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['measureViewRef'] = oscard;
-    zuuluu['measureViewInWindow'] = report;
-    report = function(argFoo) { // Original name: measureViewRefInWindow
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['measureViewRef'] = var6;
+    var3['measureViewInWindow'] = var5;
+    var5 = function measureViewRefInWindow(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.current;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 30; continue _fun00003 }
+            var1 = arg1;
+            var3 = var1.current;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 30; continue _fun0002 }
  14:
-            michal = _closure1_slot1;
-            entity = undefined;
-            entity = michal.bind(entity)(zuuluu);
-            _fun00004_ip = 51; continue _fun00003;
+            var2 = _closure1_slot1;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
+            _fun0002_ip = 51; continue _fun0002;
  30:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.resolve;
-            michal = undefined;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.resolve;
+            var2 = undefined;
+            var1 = var3.bind(var4)(var2);
  51:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['measureViewRefInWindow'] = report;
-    zuuluu['measureViewInView'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: measureViewRefInView
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['measureViewRefInWindow'] = var5;
+    var3['measureViewInView'] = var4;
+    var2 = function measureViewRefInView(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.current;
-            entity = null;
-            if(!(entity != tangon)) { _fun00006_ip = 34; continue _fun00005 }
+            var1 = arg1;
+            var4 = var1.current;
+            var1 = null;
+            if(!(var1 != var4)) { _fun0003_ip = 34; continue _fun0003 }
  14:
-            zuuluu = _closure1_slot2;
-            michal = undefined;
-            entity = argBar;
-            entity = zuuluu.bind(michal)(tangon, entity);
-            _fun00006_ip = 55; continue _fun00005;
+            var3 = _closure1_slot2;
+            var2 = undefined;
+            var1 = arg2;
+            var1 = var3.bind(var2)(var4, var1);
+            _fun0003_ip = 55; continue _fun0003;
  34:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.resolve;
-            michal = undefined;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.resolve;
+            var2 = undefined;
+            var1 = var3.bind(var4)(var2);
  55:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['measureViewRefInView'] = michal;
-    return entity;
+    var3['measureViewRefInView'] = var2;
+    return var1;
 })();

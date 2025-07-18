@@ -1,230 +1,230 @@
 // app/actions/UserActivityActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _getMetadata
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _getMetadata() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    offset = argFoo;
-                    verify = argBar;
+                    var10 = arg1;
+                    var9 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 296; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 296; continue _fun0001 }
  16:
-                    michal = offset.metadata;
-                    report = null;
-                    if(!(report != michal)) { _fun00002_ip = 60; continue _fun00001 }
+                    var2 = var10.metadata;
+                    var5 = null;
+                    if(!(var5 != var2)) { _fun0001_ip = 60; continue _fun0001 }
  28:
-                    zuuluu = global;
-                    tangon = zuuluu.Object;
-                    zuuluu = tangon.keys;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    tangon = zuuluu.length;
-                    zuuluu = 0;
-                    if(!(!(tangon > zuuluu))) { _fun00002_ip = 293; continue _fun00001 }
+                    var3 = global;
+                    var4 = var3.Object;
+                    var3 = var4.keys;
+                    var3 = var3.bind(var4)(var2);
+                    var4 = var3.length;
+                    var3 = 0;
+                    if(!(!(var4 > var3))) { _fun0001_ip = 293; continue _fun0001 }
  60:
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.getActivityMetadata;
-                    zuuluu = zuuluu.bind(tangon)(verify);
-                    if(!(report == zuuluu)) { _fun00002_ip = 290; continue _fun00001 }
+                    var4 = _closure1_slot4;
+                    var3 = var4.getActivityMetadata;
+                    var3 = var3.bind(var4)(var9);
+                    if(!(var5 == var3)) { _fun0001_ip = 290; continue _fun0001 }
  87:
-                    tangon = offset.session_id;
-                    if(!(report != tangon)) { _fun00002_ip = 254; continue _fun00001 }
+                    var4 = var10.session_id;
+                    if(!(var5 != var4)) { _fun0001_ip = 254; continue _fun0001 }
  100:
-                    report = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    tangon = 5;
-                    tangon = golfie[tangon];
-                    option = undefined;
-                    tangon = report.bind(option)(tangon);
-                    golfie = tangon.HTTP;
-                    report = golfie.get;
-                    tangon = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    foxtra = _closure1_slot5;
-                    romeon = foxtra.USER_ACTIVITY_METADATA;
-                    yankee = offset.session_id;
-                    offset = offset.application_id;
-                    offset = romeon.bind(foxtra)(verify, yankee, offset);
-                    tangon['url'] = offset;
-                    tangon = report.bind(golfie)(tangon);
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 5;
+                    var4 = var7[var4];
+                    var8 = undefined;
+                    var4 = var5.bind(var8)(var4);
+                    var7 = var4.HTTP;
+                    var5 = var7.get;
+                    var4 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
+                    var13 = _closure1_slot5;
+                    var12 = var13.USER_ACTIVITY_METADATA;
+                    var11 = var10.session_id;
+                    var10 = var10.application_id;
+                    var10 = var12.bind(var13)(var9, var11, var10);
+                    var4['url'] = var10;
+                    var4 = var5.bind(var7)(var4);
                     SaveGenerator(address=186);
  184:
-                    return tangon;
+                    return var4;
  186:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 251; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 251; continue _fun0001 }
  192:
-                    report = tangon.body;
-                    golfie = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    oscard = 3;
-                    oscard = offset[oscard];
-                    option = golfie.bind(option)(oscard);
-                    golfie = option.dispatch;
-                    oscard = {};
-                    offset = 'ACTIVITY_METADATA_UPDATE';
-                    oscard['type'] = offset;
-                    oscard['metadata'] = report;
-                    oscard['userId'] = verify;
-                    oscard = golfie.bind(option)(oscard);
-                    return report;
+                    var5 = var4.body;
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var6 = 3;
+                    var6 = var10[var6];
+                    var8 = var7.bind(var8)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'ACTIVITY_METADATA_UPDATE';
+                    var6['type'] = var10;
+                    var6['metadata'] = var5;
+                    var6['userId'] = var9;
+                    var6 = var7.bind(var8)(var6);
+                    return var5;
  251:
-                    return tangon;
+                    return var4;
  254:
-                    tangon = global;
-                    oscard = tangon.Error;
-                    tangon = oscard.prototype;
-                    report = Object.create(tangon, {constructor: {value: oscard}});
-                    sizing = 'null/undefined session_id';
-                    output = report;
-                    tangon = new output[oscard](sizing, kiloes);
-                    tangon = tangon instanceof Object ? tangon : report;
-                    throw tangon;
+                    var4 = global;
+                    var6 = var4.Error;
+                    var4 = var6.prototype;
+                    var5 = Object.create(var4, {constructor: {value: var6}});
+                    var16 = 'null/undefined session_id';
+                    var17 = var5;
+                    var4 = new var17[var6](var16, var15);
+                    var4 = var4 instanceof Object ? var4 : var5;
+                    throw var4;
  290:
-                    return zuuluu;
+                    return var3;
  293:
-                    return michal;
+                    return var2;
  296:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/UserActivityActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: sync
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'ACTIVITY_SYNC';
-        michal['type'] = report;
-        report = argFoo;
-        michal['activity'] = report;
-        report = argBar;
-        michal['userId'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/UserActivityActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function sync(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ACTIVITY_SYNC';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['activity'] = var5;
+        var5 = arg2;
+        var2['userId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['sync'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: play
-        oscard = argFoo;
-        report = argBar;
-        var _closure2_slot0 = oscard;
-        var _closure2_slot1 = report;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 4;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.getSpotifyMetadataFromActivity;
-        report = zuuluu.bind(tangon)(oscard, report);
-        tangon = report.then;
-        zuuluu = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            tangon = 'ACTIVITY_PLAY';
-            entity['type'] = tangon;
-            report = _closure2_slot0;
-            entity['activity'] = report;
-            tangon = _closure2_slot1;
-            entity['userId'] = tangon;
-            tangon = argFoo;
-            entity['metadata'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['sync'] = var4;
+    var4 = function play(arg1, arg2) {
+        var6 = arg1;
+        var5 = arg2;
+        var _closure2_slot0 = var6;
+        var _closure2_slot1 = var5;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.getSpotifyMetadataFromActivity;
+        var5 = var3.bind(var4)(var6, var5);
+        var4 = var5.then;
+        var3 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var4 = 'ACTIVITY_PLAY';
+            var1['type'] = var4;
+            var5 = _closure2_slot0;
+            var1['activity'] = var5;
+            var4 = _closure2_slot1;
+            var1['userId'] = var4;
+            var4 = arg1;
+            var1['metadata'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = tangon.catch;
-        michal = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            tangon = 'ACTIVITY_PLAY';
-            entity['type'] = tangon;
-            report = _closure2_slot0;
-            entity['activity'] = report;
-            tangon = _closure2_slot1;
-            entity['userId'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var4 = var4.bind(var5)(var3);
+        var3 = var4.catch;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var4 = 'ACTIVITY_PLAY';
+            var1['type'] = var4;
+            var5 = _closure2_slot0;
+            var1['activity'] = var5;
+            var4 = _closure2_slot1;
+            var1['userId'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['play'] = tangon;
-    michal = function() { // Original name: getMetadata
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['play'] = var4;
+    var2 = function getMetadata() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getMetadata'] = michal;
-    return entity;
+    var3['getMetadata'] = var2;
+    return var1;
 })();

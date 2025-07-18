@@ -1,207 +1,207 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = {};
-    tangon = 'function getHorizontalOrVerticalStartPoint_getGradientStartPontTsx1(angle,width,height){switch(angle){case 0:return[-width/2,0];case 90:return[0,-height/2];case 180:return[width/2,0];default:return[0,height/2];}}';
-    entity['code'] = tangon;
-    var _closure1_slot0 = entity;
-    tangon = function() {
-        entity = function(argFoo, argBar, argBaz) { // Original name: getHorizontalOrVerticalStartPoint
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = {};
+    var4 = 'function getHorizontalOrVerticalStartPoint_getGradientStartPontTsx1(angle,width,height){switch(angle){case 0:return[-width/2,0];case 90:return[0,-height/2];case 180:return[width/2,0];default:return[0,height/2];}}';
+    var1['code'] = var4;
+    var _closure1_slot0 = var1;
+    var4 = function() {
+        var1 = function getHorizontalOrVerticalStartPoint(arg1, arg2, arg3) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = argFoo;
-                entity = argBar;
-                zuuluu = argBaz;
-                michal = 0;
-                if(!(michal !== report)) { _fun00002_ip = 99; continue _fun00001 }
+                var5 = arg1;
+                var1 = arg2;
+                var3 = arg3;
+                var2 = 0;
+                if(!(var2 !== var5)) { _fun0001_ip = 99; continue _fun0001 }
  15:
-                tangon = 90;
-                if(!(tangon !== report)) { _fun00002_ip = 73; continue _fun00001 }
+                var4 = 90;
+                if(!(var4 !== var5)) { _fun0001_ip = 73; continue _fun0001 }
  22:
-                tangon = 180;
-                if(!(tangon !== report)) { _fun00002_ip = 52; continue _fun00001 }
+                var4 = 180;
+                if(!(var4 !== var5)) { _fun0001_ip = 52; continue _fun0001 }
  29:
-                tangon = 2;
-                report = zuuluu / tangon;
-                tangon = [0];
-                tangon[1] = report;
-                return tangon;
+                var4 = 2;
+                var5 = var3 / var4;
+                var4 = [0];
+                var4[1] = var5;
+                return var4;
  52:
-                tangon = 2;
-                report = entity / tangon;
-                tangon = new Array(2);
-                tangon[0] = report;
-                tangon[1] = michal;
-                return tangon;
+                var4 = 2;
+                var5 = var1 / var4;
+                var4 = new Array(2);
+                var4[0] = var5;
+                var4[1] = var2;
+                return var4;
  73:
-                tangon = -zuuluu;
-                zuuluu = 2;
-                tangon = tangon / zuuluu;
-                zuuluu = [0];
-                zuuluu[1] = tangon;
-                return zuuluu;
+                var4 = -var3;
+                var3 = 2;
+                var4 = var4 / var3;
+                var3 = [0];
+                var3[1] = var4;
+                return var3;
  99:
-                zuuluu = -entity;
-                entity = 2;
-                zuuluu = zuuluu / entity;
-                entity = new Array(2);
-                entity[0] = zuuluu;
-                entity[1] = michal;
-                return entity;
+                var3 = -var1;
+                var1 = 2;
+                var3 = var3 / var1;
+                var1 = new Array(2);
+                var1[0] = var3;
+                var1[1] = var2;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 16439230263550.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot0;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 16439230263550.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot0;
+        var1['__initData'] = var2;
+        return var1;
     };
-    entity = undefined;
-    golfie = tangon.bind(entity)();
-    var _closure1_slot1 = golfie;
-    tangon = {};
-    report = 'function getStartCornerToIntersect_getGradientStartPontTsx2(angle,width,height){const w=width/2;const h=height/2;if(angle<90){return[-w,-h];}else if(angle<180){return[w,-h];}else if(angle<270){return[w,h];}else{return[-w,h];}}';
-    tangon['code'] = report;
-    var _closure1_slot2 = tangon;
-    tangon = function() {
-        entity = function(argFoo, argBar, argBaz) { // Original name: getStartCornerToIntersect
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var1 = undefined;
+    var7 = var4.bind(var1)();
+    var _closure1_slot1 = var7;
+    var4 = {};
+    var5 = 'function getStartCornerToIntersect_getGradientStartPontTsx2(angle,width,height){const w=width/2;const h=height/2;if(angle<90){return[-w,-h];}else if(angle<180){return[w,-h];}else if(angle<270){return[w,h];}else{return[-w,h];}}';
+    var4['code'] = var5;
+    var _closure1_slot2 = var4;
+    var4 = function() {
+        var1 = function getStartCornerToIntersect(arg1, arg2, arg3) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                entity = argBar;
-                zuuluu = 2;
-                tangon = entity / zuuluu;
-                entity = argBaz;
-                zuuluu = entity / zuuluu;
-                entity = 90;
-                if(!(!(michal < entity))) { _fun00004_ip = 98; continue _fun00003 }
+                var2 = arg1;
+                var1 = arg2;
+                var3 = 2;
+                var4 = var1 / var3;
+                var1 = arg3;
+                var3 = var1 / var3;
+                var1 = 90;
+                if(!(!(var2 < var1))) { _fun0002_ip = 98; continue _fun0002 }
  27:
-                entity = 180;
-                if(!(!(michal < entity))) { _fun00004_ip = 78; continue _fun00003 }
+                var1 = 180;
+                if(!(!(var2 < var1))) { _fun0002_ip = 78; continue _fun0002 }
  34:
-                entity = 270;
-                if(!(!(michal < entity))) { _fun00004_ip = 61; continue _fun00003 }
+                var1 = 270;
+                if(!(!(var2 < var1))) { _fun0002_ip = 61; continue _fun0002 }
  44:
-                entity = new Array(2);
-                michal = -tangon;
-                entity[0] = michal;
-                entity[1] = zuuluu;
-                _fun00004_ip = 76; continue _fun00003;
+                var1 = new Array(2);
+                var2 = -var4;
+                var1[0] = var2;
+                var1[1] = var3;
+                _fun0002_ip = 76; continue _fun0002;
  61:
-                michal = new Array(2);
-                michal[0] = tangon;
-                michal[1] = zuuluu;
-                entity = michal;
+                var2 = new Array(2);
+                var2[0] = var4;
+                var2[1] = var3;
+                var1 = var2;
  76:
-                _fun00004_ip = 96; continue _fun00003;
+                _fun0002_ip = 96; continue _fun0002;
  78:
-                michal = new Array(2);
-                michal[0] = tangon;
-                report = -zuuluu;
-                michal[1] = report;
-                entity = michal;
+                var2 = new Array(2);
+                var2[0] = var4;
+                var5 = -var3;
+                var2[1] = var5;
+                var1 = var2;
  96:
-                _fun00004_ip = 119; continue _fun00003;
+                _fun0002_ip = 119; continue _fun0002;
  98:
-                michal = new Array(2);
-                tangon = -tangon;
-                michal[0] = tangon;
-                zuuluu = -zuuluu;
-                michal[1] = zuuluu;
-                entity = michal;
+                var2 = new Array(2);
+                var4 = -var4;
+                var2[0] = var4;
+                var3 = -var3;
+                var2[1] = var3;
+                var1 = var2;
  119:
-                return entity;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 2348332324573.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot2;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 2348332324573.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot2;
+        var1['__initData'] = var2;
+        return var1;
     };
-    oscard = tangon.bind(entity)();
-    var _closure1_slot3 = oscard;
-    tangon = {};
-    report = 'function getGradientStartPoint_getGradientStartPontTsx3(angle,width,height){const{getHorizontalOrVerticalStartPoint,getStartCornerToIntersect}=this.__closure;angle=angle%360;if(angle<0){angle+=360;}if(angle%90===0){return getHorizontalOrVerticalStartPoint(angle,width,height);}const slope=Math.tan(angle*Math.PI/180);const perpendicularSlope=-1/slope;const startCorner=getStartCornerToIntersect(angle,width,height);const b=startCorner[1]-perpendicularSlope*startCorner[0];const startX=b/(slope-perpendicularSlope);const startY=slope*startX;return[startX,startY];}';
-    tangon['code'] = report;
-    michal = function(argFoo, argBar, argBaz) { // Original name: t
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var6 = var4.bind(var1)();
+    var _closure1_slot3 = var6;
+    var4 = {};
+    var5 = 'function getGradientStartPoint_getGradientStartPontTsx3(angle,width,height){const{getHorizontalOrVerticalStartPoint,getStartCornerToIntersect}=this.__closure;angle=angle%360;if(angle<0){angle+=360;}if(angle%90===0){return getHorizontalOrVerticalStartPoint(angle,width,height);}const slope=Math.tan(angle*Math.PI/180);const perpendicularSlope=-1/slope;const startCorner=getStartCornerToIntersect(angle,width,height);const b=startCorner[1]-perpendicularSlope*startCorner[0];const startX=b/(slope-perpendicularSlope);const startY=slope*startX;return[startX,startY];}';
+    var4['code'] = var5;
+    var2 = function t(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argBar;
-            tangon = argBaz;
-            entity = argFoo;
-            michal = 360;
-            entity = entity % michal;
-            option = 0;
-            zuuluu = entity;
-            if(!(zuuluu < option)) { _fun00006_ip = 32; continue _fun00005 }
+            var5 = arg2;
+            var4 = arg3;
+            var1 = arg1;
+            var2 = 360;
+            var1 = var1 % var2;
+            var8 = 0;
+            var3 = var1;
+            if(!(var3 < var8)) { _fun0003_ip = 32; continue _fun0003 }
  28:
-            zuuluu = entity + michal;
+            var3 = var1 + var2;
  32:
-            entity = 90;
-            entity = zuuluu % entity;
-            if(!(entity !== option)) { _fun00006_ip = 156; continue _fun00005 }
+            var1 = 90;
+            var1 = var3 % var1;
+            if(!(var1 !== var8)) { _fun0003_ip = 156; continue _fun0003 }
  43:
-            entity = global;
-            oscard = entity.Math;
-            michal = oscard.tan;
-            entity = entity.Math;
-            entity = entity.PI;
-            golfie = zuuluu * entity;
-            entity = 180;
-            entity = golfie / entity;
-            oscard = michal.bind(oscard)(entity);
-            entity = -1;
-            entity = entity / oscard;
-            golfie = _closure1_slot3;
-            michal = undefined;
-            michal = golfie.bind(michal)(zuuluu, report, tangon);
-            golfie = 1;
-            golfie = michal[golfie];
-            michal = michal[option];
-            michal = entity * michal;
-            michal = golfie - michal;
-            entity = oscard - entity;
-            michal = michal / entity;
-            entity = new Array(2);
-            entity[0] = michal;
-            michal = oscard * michal;
-            entity[1] = michal;
-            return entity;
+            var1 = global;
+            var6 = var1.Math;
+            var2 = var6.tan;
+            var1 = var1.Math;
+            var1 = var1.PI;
+            var7 = var3 * var1;
+            var1 = 180;
+            var1 = var7 / var1;
+            var6 = var2.bind(var6)(var1);
+            var1 = -1;
+            var1 = var1 / var6;
+            var7 = _closure1_slot3;
+            var2 = undefined;
+            var2 = var7.bind(var2)(var3, var5, var4);
+            var7 = 1;
+            var7 = var2[var7];
+            var2 = var2[var8];
+            var2 = var1 * var2;
+            var2 = var7 - var2;
+            var1 = var6 - var1;
+            var2 = var2 / var1;
+            var1 = new Array(2);
+            var1[0] = var2;
+            var2 = var6 * var2;
+            var1[1] = var2;
+            return var1;
  156:
-            michal = _closure1_slot1;
-            entity = undefined;
-            entity = michal.bind(entity)(zuuluu, report, tangon);
-            return entity;
+            var2 = _closure1_slot1;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3, var5, var4);
+            return var1;
         }
     };
-    report = {};
-    report['getHorizontalOrVerticalStartPoint'] = golfie;
-    report['getStartCornerToIntersect'] = oscard;
-    michal['__closure'] = report;
-    report = 11244204401624.0;
-    michal['__workletHash'] = report;
-    michal['__initData'] = tangon;
-    report = argPlu;
-    tangon = 0;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var5 = {};
+    var5['getHorizontalOrVerticalStartPoint'] = var7;
+    var5['getStartCornerToIntersect'] = var6;
+    var2['__closure'] = var5;
+    var5 = 11244204401624.0;
+    var2['__workletHash'] = var5;
+    var2['__initData'] = var4;
+    var5 = native7;
+    var4 = 0;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/screens/appearance/hooks/getGradientStartPont.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

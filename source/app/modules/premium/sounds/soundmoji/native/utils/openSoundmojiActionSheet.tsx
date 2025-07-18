@@ -1,64 +1,64 @@
 // app/modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 4;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: openSoundmojiActionSheet
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 4;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openSoundmojiActionSheet(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 0;
-            michal = michal[entity];
-            entity = undefined;
-            report = tangon.bind(entity)(michal);
-            tangon = report.getSoundmojiRenderingExperiment;
-            michal = {};
-            oscard = 'openSoundmojiActionSheet';
-            michal['location'] = oscard;
-            michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00002_ip = 126; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 0;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.getSoundmojiRenderingExperiment;
+            var2 = {};
+            var6 = 'openSoundmojiActionSheet';
+            var2['location'] = var6;
+            var2 = var4.bind(var5)(var2);
+            if(!var2) { _fun0001_ip = 126; continue _fun0001 }
  50:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            tangon = 1;
-            tangon = michal[tangon];
-            oscard = report.bind(entity)(tangon);
-            report = oscard.openLazy;
-            tangon = _closure1_slot0;
-            zuuluu = 3;
-            zuuluu = michal[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = 2;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            tangon = tangon.bind(entity)(zuuluu, michal);
-            zuuluu = 'soundmoji_actionsheet_key';
-            michal = argFoo;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var4 = 1;
+            var4 = var2[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.openLazy;
+            var4 = _closure1_slot0;
+            var3 = 3;
+            var3 = var2[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = 2;
+            var3 = var2[var3];
+            var2 = var2.paths;
+            var4 = var4.bind(var1)(var3, var2);
+            var3 = 'soundmoji_actionsheet_key';
+            var2 = arg1;
+            var2 = var5.bind(var6)(var4, var3, var2);
  126:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

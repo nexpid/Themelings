@@ -1,144 +1,144 @@
 // app/modules/auth/native/components/atoms/BackgroundImage.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Image;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.View;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.StyleSheet;
-    var _closure1_slot6 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/native/components/atoms/BackgroundImage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: BackgroundImage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Image;
+    var _closure1_slot4 = var7;
+    var7 = var4.View;
+    var _closure1_slot5 = var7;
+    var4 = var4.StyleSheet;
+    var _closure1_slot6 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/native/components/atoms/BackgroundImage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function BackgroundImage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            verify = michal.backgroundImageSource;
-            var _closure2_slot0 = verify;
-            option = michal.backgroundImageCover;
-            tangon = undefined;
-            if(!(option === tangon)) { _fun00002_ip = 29; continue _fun00001 }
+            var2 = arg1;
+            var9 = var2.backgroundImageSource;
+            var _closure2_slot0 = var9;
+            var8 = var2.backgroundImageCover;
+            var4 = undefined;
+            if(!(var8 === var4)) { _fun0001_ip = 29; continue _fun0001 }
  27:
-            option = false;
+            var8 = false;
  29:
-            var _closure2_slot1 = option;
-            var _closure2_slot2 = tangon;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            golfie = michal.bind(tangon)();
-            _closure2_slot2 = golfie;
-            oscard = _closure1_slot3;
-            zuuluu = oscard.useMemo;
-            michal = new Array(3);
-            michal[0] = verify;
-            michal[1] = option;
-            michal[2] = golfie;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var8;
+            var _closure2_slot2 = var4;
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var7 = var2.bind(var4)();
+            _closure2_slot2 = var7;
+            var6 = _closure1_slot3;
+            var3 = var6.useMemo;
+            var2 = new Array(3);
+            var2[0] = var9;
+            var2[1] = var8;
+            var2[2] = var7;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = {};
-                    michal = _closure1_slot6;
-                    zuuluu = michal.absoluteFill;
-                    michal = new Array(2);
-                    michal[0] = zuuluu;
-                    report = _closure2_slot1;
-                    if(report) { _fun00004_ip = 47; continue _fun00003 }
+                    var1 = {};
+                    var2 = _closure1_slot6;
+                    var3 = var2.absoluteFill;
+                    var2 = new Array(2);
+                    var2[0] = var3;
+                    var5 = _closure2_slot1;
+                    if(var5) { _fun0002_ip = 47; continue _fun0002 }
  33:
-                    report = {};
-                    oscard = '100%';
-                    report['width'] = oscard;
-                    _fun00004_ip = 57; continue _fun00003;
+                    var5 = {};
+                    var6 = '100%';
+                    var5['width'] = var6;
+                    _fun0002_ip = 57; continue _fun0002;
  47:
-                    report = {'width': '100%', 'height': '100%'};
+                    var5 = {'width': '100%', 'height': '100%'};
  57:
-                    michal[1] = report;
-                    entity['style'] = michal;
-                    report = _closure2_slot0;
-                    michal = null;
-                    if(!(michal == report)) { _fun00004_ip = 151; continue _fun00003 }
+                    var2[1] = var5;
+                    var1['style'] = var2;
+                    var5 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 == var5)) { _fun0002_ip = 151; continue _fun0002 }
  75:
-                    report = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 4;
-                    michal = oscard[michal];
-                    oscard = undefined;
-                    golfie = report.bind(oscard)(michal);
-                    report = golfie.isThemeDark;
-                    michal = _closure2_slot2;
-                    michal = report.bind(golfie)(michal);
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    if(michal) { _fun00004_ip = 137; continue _fun00003 }
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var6[var2];
+                    var6 = undefined;
+                    var7 = var5.bind(var6)(var2);
+                    var5 = var7.isThemeDark;
+                    var2 = _closure2_slot2;
+                    var2 = var5.bind(var7)(var2);
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    if(var2) { _fun0002_ip = 137; continue _fun0002 }
  123:
-                    michal = 6;
-                    michal = golfie[michal];
-                    michal = report.bind(oscard)(michal);
-                    _fun00004_ip = 149; continue _fun00003;
+                    var2 = 6;
+                    var2 = var7[var2];
+                    var2 = var5.bind(var6)(var2);
+                    _fun0002_ip = 149; continue _fun0002;
  137:
-                    tangon = 5;
-                    tangon = golfie[tangon];
-                    michal = report.bind(oscard)(tangon);
+                    var4 = 5;
+                    var4 = var7[var4];
+                    var2 = var5.bind(var6)(var4);
  149:
-                    _fun00004_ip = 155; continue _fun00003;
+                    _fun0002_ip = 155; continue _fun0002;
  151:
-                    michal = _closure2_slot0;
+                    var2 = _closure2_slot0;
  155:
-                    entity['source'] = michal;
-                    return entity;
+                    var1['source'] = var2;
+                    return var1;
                 }
             };
-            offset = zuuluu.bind(oscard)(entity, michal);
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot5;
-            entity = {};
-            oscard = _closure1_slot6;
-            oscard = oscard.absoluteFill;
-            entity['style'] = oscard;
-            oscard = _closure1_slot4;
-            report = {};
-            yankee = report;
-            golfie = copyDataProperties(yankee, offset);
-            report = zuuluu.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var10 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var6 = _closure1_slot6;
+            var6 = var6.absoluteFill;
+            var1['style'] = var6;
+            var6 = _closure1_slot4;
+            var5 = {};
+            var11 = var5;
+            var7 = copyDataProperties(var11, var10);
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

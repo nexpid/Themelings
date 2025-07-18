@@ -1,45 +1,45 @@
 // app/modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    michal = {'type': null, 'title': 'React Compiler', 'parent': null};
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.RendererType;
-    golfie = golfie.STATIC;
-    michal['type'] = golfie;
-    golfie = 1;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.WrenchIcon;
-    michal['IconComponent'] = golfie;
-    golfie = function() { // Original name: useTrailing
-        entity = 'Enabled';
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var2 = {'type': null, 'title': 'React Compiler', 'parent': null};
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.RendererType;
+    var7 = var7.STATIC;
+    var2['type'] = var7;
+    var7 = 1;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.WrenchIcon;
+    var2['IconComponent'] = var7;
+    var7 = function useTrailing() {
+        var1 = 'Enabled';
+        return var1;
     };
-    michal['useTrailing'] = golfie;
-    tangon = function() { // Original name: usePredicate
-        entity = false;
-        return entity;
+    var2['useTrailing'] = var7;
+    var4 = function usePredicate() {
+        var1 = false;
+        return var1;
     };
-    michal['usePredicate'] = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['usePredicate'] = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/ReactCompilerSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

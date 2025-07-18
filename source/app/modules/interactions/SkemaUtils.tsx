@@ -1,100 +1,100 @@
 // app/modules/interactions/SkemaUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function(argFoo, argBar) { // Original name: getFirstSkemaFieldError
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = function getFirstSkemaFieldError(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            oscard = argBar;
-            michal = _closure1_slot1;
-            michal = report[michal];
-            golfie = null;
-            if(!(golfie != michal)) { _fun00002_ip = 44; continue _fun00001 }
+            var5 = arg1;
+            var6 = arg2;
+            var2 = _closure1_slot1;
+            var2 = var5[var2];
+            var7 = null;
+            if(!(var7 != var2)) { _fun0001_ip = 44; continue _fun0001 }
  23:
-            zuuluu = global;
-            tangon = zuuluu.Array;
-            zuuluu = tangon.isArray;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            if(zuuluu) { _fun00002_ip = 165; continue _fun00001 }
+            var3 = global;
+            var4 = var3.Array;
+            var3 = var4.isArray;
+            var3 = var3.bind(var4)(var2);
+            if(var3) { _fun0001_ip = 165; continue _fun0001 }
  44:
-            zuuluu = global;
-            tangon = zuuluu.Object;
-            zuuluu = tangon.entries;
-            backup = zuuluu.bind(tangon)(report);
-            zuuluu = backup.length;
-            foxtra = 0;
-            zuuluu = foxtra < zuuluu;
-            romeon = 'object';
-            report = undefined;
-            yankee = 2;
-            offset = 1;
-            verify = 0;
-            if(!zuuluu) { _fun00002_ip = 144; continue _fun00001 }
+            var3 = global;
+            var4 = var3.Object;
+            var3 = var4.entries;
+            var14 = var3.bind(var4)(var5);
+            var3 = var14.length;
+            var13 = 0;
+            var3 = var13 < var3;
+            var12 = 'object';
+            var5 = undefined;
+            var11 = 2;
+            var10 = 1;
+            var9 = 0;
+            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
  91:
-            tangon = backup[verify];
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu.bind(report)(tangon, yankee);
-            tangon = zuuluu[foxtra];
-            zuuluu = zuuluu[offset];
-            option = _closure1_slot1;
-            if(!(tangon !== option)) { _fun00002_ip = 132; continue _fun00001 }
+            var4 = var14[var9];
+            var3 = _closure1_slot0;
+            var3 = var3.bind(var5)(var4, var11);
+            var4 = var3[var13];
+            var3 = var3[var10];
+            var8 = _closure1_slot1;
+            if(!(var4 !== var8)) { _fun0001_ip = 132; continue _fun0001 }
  121:
-            if(!(golfie != zuuluu)) { _fun00002_ip = 132; continue _fun00001 }
+            if(!(var7 != var3)) { _fun0001_ip = 132; continue _fun0001 }
  125:
-            option = typeof zuuluu;
-            if(!(romeon !== option)) { _fun00002_ip = 146; continue _fun00001 }
+            var8 = typeof var3;
+            if(!(var12 !== var8)) { _fun0001_ip = 146; continue _fun0001 }
  132:
-            verify = verify + 1;
-            option = backup.length;
-            if(verify < option) { _fun00002_ip = 91; continue _fun00001 }
+            var9 = var9 + 1;
+            var8 = var14.length;
+            if(var9 < var8) { _fun0001_ip = 91; continue _fun0001 }
  144:
-            return golfie;
+            return var7;
  146:
-            entity = _closure1_slot2;
-            if(!(golfie != oscard)) { _fun00002_ip = 157; continue _fun00001 }
+            var1 = _closure1_slot2;
+            if(!(var7 != var6)) { _fun0001_ip = 157; continue _fun0001 }
  154:
-            tangon = oscard;
+            var4 = var6;
  157:
-            entity = entity.bind(report)(zuuluu, tangon);
-            return entity;
+            var1 = var1.bind(var5)(var3, var4);
+            return var1;
  165:
-            entity = 0;
-            entity = michal[entity];
-            return entity;
+            var1 = 0;
+            var1 = var2[var1];
+            return var1;
         }
     };
-    var _closure1_slot2 = entity;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = '_errors';
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interactions/SkemaUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getFirstSkemaError
-        zuuluu = _closure1_slot2;
-        michal = undefined;
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity, michal);
-        return entity;
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = '_errors';
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interactions/SkemaUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getFirstSkemaError(arg1) {
+        var3 = _closure1_slot2;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1, var2);
+        return var1;
     };
-    zuuluu['getFirstSkemaError'] = michal;
-    return entity;
+    var3['getFirstSkemaError'] = var2;
+    return var1;
 })();

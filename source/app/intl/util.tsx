@@ -1,233 +1,233 @@
 // app/intl/util.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function() { // Original name: getLanguages
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function getLanguages() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'intl/util.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: getAvailableLocales
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        tangon = tangon.default;
-        var _closure2_slot0 = tangon;
-        michal = _closure1_slot3;
-        tangon = michal.bind(zuuluu)();
-        zuuluu = tangon.filter;
-        michal = function(argFoo) {
-            entity = argFoo;
-            entity = entity.enabled;
-            return entity;
+    var _closure1_slot3 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'intl/util.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getAvailableLocales() {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var4 = var4.default;
+        var _closure2_slot0 = var4;
+        var2 = _closure1_slot3;
+        var4 = var2.bind(var3)();
+        var3 = var4.filter;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.enabled;
+            return var1;
         };
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.map;
-        michal = function(argFoo) {
-            entity = argFoo;
-            report = entity.code;
-            michal = entity.name;
-            entity = {};
-            entity['value'] = report;
-            entity['name'] = michal;
-            zuuluu = _closure2_slot0;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 2;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = oscard.bind(michal)(tangon);
-            michal = tangon.runtimeHashMessageKey;
-            michal = michal.bind(tangon)(report);
-            michal = zuuluu[michal];
-            entity['localizedName'] = michal;
-            return entity;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.map;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var5 = var1.code;
+            var2 = var1.name;
+            var1 = {};
+            var1['value'] = var5;
+            var1['name'] = var2;
+            var3 = _closure2_slot0;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 2;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var6.bind(var2)(var4);
+            var2 = var4.runtimeHashMessageKey;
+            var2 = var2.bind(var4)(var5);
+            var2 = var3[var2];
+            var1['localizedName'] = var2;
+            return var1;
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.sort;
-        entity = function(argFoo, argBar) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.sort;
+        var1 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.name;
-                entity = argBar;
-                michal = entity.name;
-                entity = zuuluu.toLowerCase;
-                zuuluu = entity.bind(zuuluu)();
-                entity = michal.toLowerCase;
-                michal = entity.bind(michal)();
-                tangon = zuuluu < michal;
-                entity = -1;
-                if(tangon) { _fun00002_ip = 64; continue _fun00001 }
+                var1 = arg1;
+                var3 = var1.name;
+                var1 = arg2;
+                var2 = var1.name;
+                var1 = var3.toLowerCase;
+                var3 = var1.bind(var3)();
+                var1 = var2.toLowerCase;
+                var2 = var1.bind(var2)();
+                var4 = var3 < var2;
+                var1 = -1;
+                if(var4) { _fun0001_ip = 64; continue _fun0001 }
  49:
-                zuuluu = zuuluu > michal;
-                michal = 0;
-                if(!zuuluu) { _fun00002_ip = 61; continue _fun00001 }
+                var3 = var3 > var2;
+                var2 = 0;
+                if(!var3) { _fun0001_ip = 61; continue _fun0001 }
  58:
-                michal = 1;
+                var2 = 1;
  61:
-                entity = michal;
+                var1 = var2;
  64:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getAvailableLocales'] = report;
-    zuuluu['getLanguages'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getNormalizedLocale
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getAvailableLocales'] = var5;
+    var3['getLanguages'] = var4;
+    var4 = function getNormalizedLocale(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            tangon = argBar;
-            zuuluu = _closure1_slot3;
-            michal = undefined;
-            oscard = zuuluu.bind(michal)();
-            zuuluu = oscard.filter;
-            michal = function(argFoo) {
-                entity = argFoo;
-                entity = entity.enabled;
-                return entity;
+            var1 = arg1;
+            var4 = arg2;
+            var3 = _closure1_slot3;
+            var2 = undefined;
+            var6 = var3.bind(var2)();
+            var3 = var6.filter;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.enabled;
+                return var1;
             };
-            oscard = zuuluu.bind(oscard)(michal);
-            zuuluu = oscard.map;
-            michal = function(argFoo) {
-                entity = argFoo;
-                entity = entity.code;
-                return entity;
+            var6 = var3.bind(var6)(var2);
+            var3 = var6.map;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.code;
+                return var1;
             };
-            golfie = zuuluu.bind(oscard)(michal);
-            michal = golfie.includes;
-            michal = michal.bind(golfie)(entity);
-            if(michal) { _fun00004_ip = 205; continue _fun00003 }
+            var7 = var3.bind(var6)(var2);
+            var2 = var7.includes;
+            var2 = var2.bind(var7)(var1);
+            if(var2) { _fun0002_ip = 205; continue _fun0002 }
  67:
-            zuuluu = entity.split;
-            michal = '-';
-            oscard = zuuluu.bind(entity)(michal);
-            var _closure2_slot0 = oscard;
-            option = golfie.includes;
-            zuuluu = 0;
-            michal = oscard[zuuluu];
-            michal = option.bind(golfie)(michal);
-            zuuluu = oscard[zuuluu];
-            if(michal) { _fun00004_ip = 200; continue _fun00003 }
+            var3 = var1.split;
+            var2 = '-';
+            var6 = var3.bind(var1)(var2);
+            var _closure2_slot0 = var6;
+            var8 = var7.includes;
+            var3 = 0;
+            var2 = var6[var3];
+            var2 = var8.bind(var7)(var2);
+            var3 = var6[var3];
+            if(var2) { _fun0002_ip = 200; continue _fun0002 }
  108:
-            michal = 'zh';
-            if(!(michal === zuuluu)) { _fun00004_ip = 142; continue _fun00003 }
+            var2 = 'zh';
+            if(!(var2 === var3)) { _fun0002_ip = 142; continue _fun0002 }
  116:
-            option = oscard.length;
-            michal = 1;
-            if(!(option > michal)) { _fun00004_ip = 142; continue _fun00003 }
+            var8 = var6.length;
+            var2 = 1;
+            if(!(var8 > var2)) { _fun0002_ip = 142; continue _fun0002 }
  128:
-            oscard = oscard[michal];
-            michal = 'Hant';
-            if(!(michal !== oscard)) { _fun00004_ip = 171; continue _fun00003 }
+            var6 = var6[var2];
+            var2 = 'Hant';
+            if(!(var2 !== var6)) { _fun0002_ip = 171; continue _fun0002 }
  142:
-            oscard = golfie.find;
-            michal = function(argFoo) {
-                zuuluu = argFoo;
-                michal = zuuluu.split;
-                entity = '-';
-                entity = michal.bind(zuuluu)(entity);
-                zuuluu = 0;
-                michal = entity[zuuluu];
-                entity = _closure2_slot0;
-                entity = entity[zuuluu];
-                entity = michal === entity;
-                return entity;
+            var6 = var7.find;
+            var2 = function(arg1) {
+                var3 = arg1;
+                var2 = var3.split;
+                var1 = '-';
+                var1 = var2.bind(var3)(var1);
+                var3 = 0;
+                var2 = var1[var3];
+                var1 = _closure2_slot0;
+                var1 = var1[var3];
+                var1 = var2 === var1;
+                return var1;
             };
-            oscard = oscard.bind(golfie)(michal);
-            option = null;
-            michal = tangon;
-            if(!(option != oscard)) { _fun00004_ip = 169; continue _fun00003 }
+            var6 = var6.bind(var7)(var2);
+            var8 = null;
+            var2 = var4;
+            if(!(var8 != var6)) { _fun0002_ip = 169; continue _fun0002 }
  166:
-            michal = oscard;
+            var2 = var6;
  169:
-            _fun00004_ip = 198; continue _fun00003;
+            _fun0002_ip = 198; continue _fun0002;
  171:
-            oscard = golfie.find;
-            report = function(argFoo) {
-                michal = 'zh-TW';
-                entity = argFoo;
-                entity = michal === entity;
-                return entity;
+            var6 = var7.find;
+            var5 = function(arg1) {
+                var2 = 'zh-TW';
+                var1 = arg1;
+                var1 = var2 === var1;
+                return var1;
             };
-            report = oscard.bind(golfie)(report);
-            oscard = null;
-            if(!(oscard != report)) { _fun00004_ip = 195; continue _fun00003 }
+            var5 = var6.bind(var7)(var5);
+            var6 = null;
+            if(!(var6 != var5)) { _fun0002_ip = 195; continue _fun0002 }
  192:
-            tangon = report;
+            var4 = var5;
  195:
-            michal = tangon;
+            var2 = var4;
  198:
-            _fun00004_ip = 203; continue _fun00003;
+            _fun0002_ip = 203; continue _fun0002;
  200:
-            michal = zuuluu;
+            var2 = var3;
  203:
-            return michal;
+            return var2;
  205:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getNormalizedLocale'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useSyncMessages
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useSyncExternalStore;
-        michal = function(argFoo) {
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.onChange;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['getNormalizedLocale'] = var4;
+    var2 = function useSyncMessages(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var4 = _closure1_slot2;
+        var3 = var4.useSyncExternalStore;
+        var2 = function(arg1) {
+            var3 = _closure2_slot0;
+            var2 = var3.onChange;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity = function() {
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.isLocaleLoaded;
-            entity = _closure2_slot1;
-            entity = entity.currentLocale;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1 = function() {
+            var3 = _closure2_slot0;
+            var2 = var3.isLocaleLoaded;
+            var1 = _closure2_slot1;
+            var1 = var1.currentLocale;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = undefined;
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['useSyncMessages'] = michal;
-    return entity;
+    var3['useSyncMessages'] = var2;
+    return var1;
 })();

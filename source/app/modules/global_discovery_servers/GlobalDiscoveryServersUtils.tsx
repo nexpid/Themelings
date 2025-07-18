@@ -1,1017 +1,1017 @@
 // app/modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscard;
-    entity = function() { // Original name: _navigateToGuild
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
+    var1 = function _navigateToGuild() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 203; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 203; continue _fun0001 }
  13:
-                    romeon = michal.loadId;
-                    foxtra = michal.guildId;
-                    yankee = michal.index;
-                    offset = michal.categoryId;
-                    verify = michal.analyticsLocation;
-                    zuuluu = michal.options;
-                    tangon = undefined;
+                    var12 = var2.loadId;
+                    var13 = var2.guildId;
+                    var11 = var2.index;
+                    var10 = var2.categoryId;
+                    var9 = var2.analyticsLocation;
+                    var3 = var2.options;
+                    var4 = undefined;
                     SaveGenerator(address=52);
  50:
-                    return tangon;
+                    return var4;
  52:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 200; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 200; continue _fun0001 }
  61:
-                    golfie = {};
-                    sizing = golfie;
-                    kiloes = zuuluu;
-                    zuuluu = copyDataProperties(sizing, kiloes);
-                    zuuluu = 'loadId';
-                    golfie[zuuluu] = romeon;
-                    oscard = _closure1_slot2;
-                    option = _closure1_slot3;
-                    zuuluu = 7;
-                    zuuluu = option[zuuluu];
-                    oscard = oscard.bind(tangon)(zuuluu);
-                    zuuluu = oscard.startLurking;
-                    zuuluu = zuuluu.bind(oscard)(foxtra, verify, golfie);
+                    var7 = {};
+                    var16 = var7;
+                    var15 = var3;
+                    var3 = copyDataProperties(var16, var15);
+                    var3 = 'loadId';
+                    var7[var3] = var12;
+                    var6 = _closure1_slot2;
+                    var8 = _closure1_slot3;
+                    var3 = 7;
+                    var3 = var8[var3];
+                    var6 = var6.bind(var4)(var3);
+                    var3 = var6.startLurking;
+                    var3 = var3.bind(var6)(var13, var9, var7);
                     SaveGenerator(address=122);
  120:
-                    return zuuluu;
+                    return var3;
  122:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 197; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 197; continue _fun0001 }
  128:
-                    golfie = _closure1_slot1;
-                    option = _closure1_slot3;
-                    oscard = 8;
-                    oscard = option[oscard];
-                    option = golfie.bind(tangon)(oscard);
-                    golfie = option.track;
-                    report = _closure1_slot14;
-                    oscard = report.GUILD_DISCOVERY_GUILD_SELECTED;
-                    report = {};
-                    report['guild_id'] = foxtra;
-                    report['load_id'] = romeon;
-                    report['card_index'] = yankee;
-                    report['category_id'] = offset;
-                    report['location'] = verify;
-                    report = golfie.bind(option)(oscard, report);
-                    return tangon;
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot3;
+                    var6 = 8;
+                    var6 = var8[var6];
+                    var8 = var7.bind(var4)(var6);
+                    var7 = var8.track;
+                    var5 = _closure1_slot14;
+                    var6 = var5.GUILD_DISCOVERY_GUILD_SELECTED;
+                    var5 = {};
+                    var5['guild_id'] = var13;
+                    var5['load_id'] = var12;
+                    var5['card_index'] = var11;
+                    var5['category_id'] = var10;
+                    var5['location'] = var9;
+                    var5 = var7.bind(var8)(var6, var5);
+                    return var4;
  197:
-                    return zuuluu;
+                    return var3;
  200:
-                    return michal;
+                    return var2;
  203:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot15 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot15 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot15 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.GlobalDiscoveryServerTab;
-    var _closure1_slot7 = golfie;
-    golfie = tangon.FEATURED_GUILDS_CACHE_DURATION;
-    var _closure1_slot8 = golfie;
-    golfie = tangon.FEATURED_GUILDS_SEARCH_OPTIONS;
-    var _closure1_slot9 = golfie;
-    golfie = tangon.CategoryId;
-    var _closure1_slot10 = golfie;
-    golfie = tangon.DISCOVERY_ALL_CATEGORIES_ID;
-    var _closure1_slot11 = golfie;
-    golfie = tangon.getLanguageOptions;
-    var _closure1_slot12 = golfie;
-    tangon = tangon.HUBS_CATEGORY_ID;
-    var _closure1_slot13 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot14 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getGlobalDiscoveryServersTabTitle
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot15 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GlobalDiscoveryServerTab;
+    var _closure1_slot7 = var7;
+    var7 = var4.FEATURED_GUILDS_CACHE_DURATION;
+    var _closure1_slot8 = var7;
+    var7 = var4.FEATURED_GUILDS_SEARCH_OPTIONS;
+    var _closure1_slot9 = var7;
+    var7 = var4.CategoryId;
+    var _closure1_slot10 = var7;
+    var7 = var4.DISCOVERY_ALL_CATEGORIES_ID;
+    var _closure1_slot11 = var7;
+    var7 = var4.getLanguageOptions;
+    var _closure1_slot12 = var7;
+    var4 = var4.HUBS_CATEGORY_ID;
+    var _closure1_slot13 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot14 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getGlobalDiscoveryServersTabTitle(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot7;
-            michal = michal.FEATURED;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 479; continue _fun00003 }
+            var3 = arg1;
+            var2 = _closure1_slot7;
+            var2 = var2.FEATURED;
+            if(!(var2 !== var3)) { _fun0002_ip = 479; continue _fun0002 }
  23:
-            michal = _closure1_slot7;
-            michal = michal.GAMING;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 420; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.GAMING;
+            if(!(var2 !== var3)) { _fun0002_ip = 420; continue _fun0002 }
  40:
-            michal = _closure1_slot7;
-            michal = michal.MUSIC;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 361; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.MUSIC;
+            if(!(var2 !== var3)) { _fun0002_ip = 361; continue _fun0002 }
  57:
-            michal = _closure1_slot7;
-            michal = michal.ENTERTAINMENT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 302; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.ENTERTAINMENT;
+            if(!(var2 !== var3)) { _fun0002_ip = 302; continue _fun0002 }
  74:
-            michal = _closure1_slot7;
-            michal = michal.TECH;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 243; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.TECH;
+            if(!(var2 !== var3)) { _fun0002_ip = 243; continue _fun0002 }
  91:
-            michal = _closure1_slot7;
-            michal = michal.EDUCATION;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 184; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.EDUCATION;
+            if(!(var2 !== var3)) { _fun0002_ip = 184; continue _fun0002 }
  105:
-            michal = _closure1_slot7;
-            michal = michal.HUBS;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 123; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var2 = var2.HUBS;
+            if(!(var2 !== var3)) { _fun0002_ip = 123; continue _fun0002 }
  119:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  123:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.q469/f;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.q469/f;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  184:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.Gy9woq;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.Gy9woq;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  243:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.0A0By8;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.0A0By8;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  302:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.gSbmdn;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.gSbmdn;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  361:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.nt9PLy;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.nt9PLy;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  420:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.CD/USE;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.CD/USE;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  479:
-            report = _closure1_slot0;
-            oscard = _closure1_slot3;
-            entity = 5;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.RU+DCQ;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var1 = 5;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.RU+DCQ;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGlobalDiscoveryServersTabTitle'] = tangon;
-    tangon = function(argFoo) { // Original name: getGlobalDiscoveryServersBannerTitle
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getGlobalDiscoveryServersTabTitle'] = var4;
+    var4 = function getGlobalDiscoveryServersBannerTitle(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            michal = _closure1_slot7;
-            michal = michal.FEATURED;
-            if(!(michal !== report)) { _fun00006_ip = 530; continue _fun00005 }
+            var5 = arg1;
+            var2 = _closure1_slot7;
+            var2 = var2.FEATURED;
+            if(!(var2 !== var5)) { _fun0003_ip = 530; continue _fun0003 }
  23:
-            michal = _closure1_slot7;
-            michal = michal.GAMING;
-            if(!(michal !== report)) { _fun00006_ip = 471; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.GAMING;
+            if(!(var2 !== var5)) { _fun0003_ip = 471; continue _fun0003 }
  40:
-            michal = _closure1_slot7;
-            michal = michal.MUSIC;
-            if(!(michal !== report)) { _fun00006_ip = 412; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.MUSIC;
+            if(!(var2 !== var5)) { _fun0003_ip = 412; continue _fun0003 }
  57:
-            michal = _closure1_slot7;
-            michal = michal.ENTERTAINMENT;
-            if(!(michal !== report)) { _fun00006_ip = 353; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.ENTERTAINMENT;
+            if(!(var2 !== var5)) { _fun0003_ip = 353; continue _fun0003 }
  74:
-            michal = _closure1_slot7;
-            michal = michal.TECH;
-            if(!(michal !== report)) { _fun00006_ip = 294; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.TECH;
+            if(!(var2 !== var5)) { _fun0003_ip = 294; continue _fun0003 }
  91:
-            michal = _closure1_slot7;
-            michal = michal.EDUCATION;
-            if(!(michal !== report)) { _fun00006_ip = 235; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.EDUCATION;
+            if(!(var2 !== var5)) { _fun0003_ip = 235; continue _fun0003 }
  108:
-            michal = _closure1_slot7;
-            michal = michal.HUBS;
-            if(!(michal !== report)) { _fun00006_ip = 174; continue _fun00005 }
+            var2 = _closure1_slot7;
+            var2 = var2.HUBS;
+            if(!(var2 !== var5)) { _fun0003_ip = 174; continue _fun0003 }
  122:
-            michal = global;
-            tangon = michal.Error;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '[getGlobalDiscoveryServerTabTitle] Unsupported tab: ';
-            option = zuuluu.bind(michal)(report);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            verify = zuuluu;
-            michal = new verify[tangon](option, golfie);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var2 = global;
+            var4 = var2.Error;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = '[getGlobalDiscoveryServerTabTitle] Unsupported tab: ';
+            var8 = var3.bind(var2)(var5);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var9 = var3;
+            var2 = new var9[var4](var8, var7);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  174:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.X5xPlZ;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.X5xPlZ;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  235:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.Gy9woq;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.Gy9woq;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  294:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.0A0By8;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.0A0By8;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  353:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.gSbmdn;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.gSbmdn;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  412:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.nt9PLy;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.nt9PLy;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  471:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.CD/USE;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.CD/USE;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  530:
-            report = _closure1_slot0;
-            oscard = _closure1_slot3;
-            entity = 5;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.OlDfzM;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var1 = 5;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.OlDfzM;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGlobalDiscoveryServersBannerTitle'] = tangon;
-    tangon = function(argFoo) { // Original name: getGlobalDiscoveryServersBannerDescription
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getGlobalDiscoveryServersBannerTitle'] = var4;
+    var4 = function getGlobalDiscoveryServersBannerDescription(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argFoo;
-            michal = _closure1_slot7;
-            michal = michal.FEATURED;
-            if(!(michal !== report)) { _fun00008_ip = 540; continue _fun00007 }
+            var5 = arg1;
+            var2 = _closure1_slot7;
+            var2 = var2.FEATURED;
+            if(!(var2 !== var5)) { _fun0004_ip = 540; continue _fun0004 }
  23:
-            michal = _closure1_slot7;
-            michal = michal.GAMING;
-            if(!(michal !== report)) { _fun00008_ip = 479; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.GAMING;
+            if(!(var2 !== var5)) { _fun0004_ip = 479; continue _fun0004 }
  40:
-            michal = _closure1_slot7;
-            michal = michal.MUSIC;
-            if(!(michal !== report)) { _fun00008_ip = 418; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.MUSIC;
+            if(!(var2 !== var5)) { _fun0004_ip = 418; continue _fun0004 }
  57:
-            michal = _closure1_slot7;
-            michal = michal.ENTERTAINMENT;
-            if(!(michal !== report)) { _fun00008_ip = 357; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.ENTERTAINMENT;
+            if(!(var2 !== var5)) { _fun0004_ip = 357; continue _fun0004 }
  74:
-            michal = _closure1_slot7;
-            michal = michal.TECH;
-            if(!(michal !== report)) { _fun00008_ip = 296; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.TECH;
+            if(!(var2 !== var5)) { _fun0004_ip = 296; continue _fun0004 }
  91:
-            michal = _closure1_slot7;
-            michal = michal.EDUCATION;
-            if(!(michal !== report)) { _fun00008_ip = 235; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.EDUCATION;
+            if(!(var2 !== var5)) { _fun0004_ip = 235; continue _fun0004 }
  108:
-            michal = _closure1_slot7;
-            michal = michal.HUBS;
-            if(!(michal !== report)) { _fun00008_ip = 174; continue _fun00007 }
+            var2 = _closure1_slot7;
+            var2 = var2.HUBS;
+            if(!(var2 !== var5)) { _fun0004_ip = 174; continue _fun0004 }
  122:
-            michal = global;
-            tangon = michal.Error;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '[getGlobalDiscoveryServerTabTitle] Unsupported tab: ';
-            option = zuuluu.bind(michal)(report);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            verify = zuuluu;
-            michal = new verify[tangon](option, golfie);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var2 = global;
+            var4 = var2.Error;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = '[getGlobalDiscoveryServerTabTitle] Unsupported tab: ';
+            var8 = var3.bind(var2)(var5);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var9 = var3;
+            var2 = new var9[var4](var8, var7);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  174:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.F/IQCA;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.F/IQCA;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  235:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.sasIWV;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.sasIWV;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  296:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.Ew4d5+;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.Ew4d5+;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  357:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.R09vf3;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.R09vf3;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  418:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.SOio+P;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.SOio+P;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  479:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.AAJ5oq;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.AAJ5oq;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  540:
-            report = _closure1_slot0;
-            oscard = _closure1_slot3;
-            entity = 5;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.SdMhrq;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var1 = 5;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.SdMhrq;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGlobalDiscoveryServersBannerDescription'] = tangon;
-    tangon = function(argFoo) { // Original name: getGlobalDiscoveryServersTabSectionTitle
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['getGlobalDiscoveryServersBannerDescription'] = var4;
+    var4 = function getGlobalDiscoveryServersTabSectionTitle(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot7;
-            michal = michal.FEATURED;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 411; continue _fun00009 }
+            var3 = arg1;
+            var2 = _closure1_slot7;
+            var2 = var2.FEATURED;
+            if(!(var2 !== var3)) { _fun0005_ip = 411; continue _fun0005 }
  23:
-            michal = _closure1_slot7;
-            michal = michal.GAMING;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 350; continue _fun00009 }
+            var2 = _closure1_slot7;
+            var2 = var2.GAMING;
+            if(!(var2 !== var3)) { _fun0005_ip = 350; continue _fun0005 }
  40:
-            michal = _closure1_slot7;
-            michal = michal.MUSIC;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 289; continue _fun00009 }
+            var2 = _closure1_slot7;
+            var2 = var2.MUSIC;
+            if(!(var2 !== var3)) { _fun0005_ip = 289; continue _fun0005 }
  57:
-            michal = _closure1_slot7;
-            michal = michal.ENTERTAINMENT;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 228; continue _fun00009 }
+            var2 = _closure1_slot7;
+            var2 = var2.ENTERTAINMENT;
+            if(!(var2 !== var3)) { _fun0005_ip = 228; continue _fun0005 }
  74:
-            michal = _closure1_slot7;
-            michal = michal.TECH;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 167; continue _fun00009 }
+            var2 = _closure1_slot7;
+            var2 = var2.TECH;
+            if(!(var2 !== var3)) { _fun0005_ip = 167; continue _fun0005 }
  88:
-            michal = _closure1_slot7;
-            michal = michal.EDUCATION;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 106; continue _fun00009 }
+            var2 = _closure1_slot7;
+            var2 = var2.EDUCATION;
+            if(!(var2 !== var3)) { _fun0005_ip = 106; continue _fun0005 }
  102:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  106:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.uexPgY;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.uexPgY;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  167:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.4dawpq;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.4dawpq;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  228:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.k1CYxs;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.k1CYxs;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  289:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.nfgDz8;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.nfgDz8;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  350:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot3;
-            michal = 5;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.fWbIpa;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.fWbIpa;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  411:
-            report = _closure1_slot0;
-            oscard = _closure1_slot3;
-            entity = 5;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.crt84e;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var1 = 5;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.crt84e;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getGlobalDiscoveryServersTabSectionTitle'] = tangon;
-    tangon = function(argFoo) { // Original name: getCategoryIdFromServerTab
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['getGlobalDiscoveryServersTabSectionTitle'] = var4;
+    var4 = function getCategoryIdFromServerTab(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            report = argFoo;
-            michal = _closure1_slot7;
-            michal = michal.FEATURED;
-            if(!(michal !== report)) { _fun00012_ip = 214; continue _fun00011 }
+            var5 = arg1;
+            var2 = _closure1_slot7;
+            var2 = var2.FEATURED;
+            if(!(var2 !== var5)) { _fun0006_ip = 214; continue _fun0006 }
  23:
-            michal = _closure1_slot7;
-            michal = michal.GAMING;
-            if(!(michal !== report)) { _fun00012_ip = 202; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.GAMING;
+            if(!(var2 !== var5)) { _fun0006_ip = 202; continue _fun0006 }
  40:
-            michal = _closure1_slot7;
-            michal = michal.MUSIC;
-            if(!(michal !== report)) { _fun00012_ip = 190; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.MUSIC;
+            if(!(var2 !== var5)) { _fun0006_ip = 190; continue _fun0006 }
  57:
-            michal = _closure1_slot7;
-            michal = michal.ENTERTAINMENT;
-            if(!(michal !== report)) { _fun00012_ip = 178; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.ENTERTAINMENT;
+            if(!(var2 !== var5)) { _fun0006_ip = 178; continue _fun0006 }
  71:
-            michal = _closure1_slot7;
-            michal = michal.TECH;
-            if(!(michal !== report)) { _fun00012_ip = 166; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.TECH;
+            if(!(var2 !== var5)) { _fun0006_ip = 166; continue _fun0006 }
  85:
-            michal = _closure1_slot7;
-            michal = michal.EDUCATION;
-            if(!(michal !== report)) { _fun00012_ip = 154; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.EDUCATION;
+            if(!(var2 !== var5)) { _fun0006_ip = 154; continue _fun0006 }
  99:
-            michal = _closure1_slot7;
-            michal = michal.HUBS;
-            if(!(michal !== report)) { _fun00012_ip = 148; continue _fun00011 }
+            var2 = _closure1_slot7;
+            var2 = var2.HUBS;
+            if(!(var2 !== var5)) { _fun0006_ip = 148; continue _fun0006 }
  113:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot3;
-            michal = 6;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
-            zuuluu = tangon.assertNever;
-            zuuluu = zuuluu.bind(tangon)(report);
-            return michal;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
+            var2 = 6;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.assertNever;
+            var3 = var3.bind(var4)(var5);
+            return var2;
  148:
-            michal = _closure1_slot13;
-            return michal;
+            var2 = _closure1_slot13;
+            return var2;
  154:
-            michal = _closure1_slot10;
-            michal = michal.Education;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.Education;
+            return var2;
  166:
-            michal = _closure1_slot10;
-            michal = michal.Science;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.Science;
+            return var2;
  178:
-            michal = _closure1_slot10;
-            michal = michal.Television;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.Television;
+            return var2;
  190:
-            michal = _closure1_slot10;
-            michal = michal.Music;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.Music;
+            return var2;
  202:
-            michal = _closure1_slot10;
-            michal = michal.Activity;
-            return michal;
+            var2 = _closure1_slot10;
+            var2 = var2.Activity;
+            return var2;
  214:
-            entity = _closure1_slot11;
-            return entity;
+            var1 = _closure1_slot11;
+            return var1;
         }
     };
-    zuuluu['getCategoryIdFromServerTab'] = tangon;
-    tangon = function(argFoo) { // Original name: isStaleFeaturedGuilds
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['getCategoryIdFromServerTab'] = var4;
+    var4 = function isStaleFeaturedGuilds(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            entity = entity == zuuluu;
-            if(entity) { _fun00014_ip = 44; continue _fun00013 }
+            var3 = arg1;
+            var1 = null;
+            var1 = var1 == var3;
+            if(var1) { _fun0007_ip = 44; continue _fun0007 }
  12:
-            michal = global;
-            tangon = michal.Date;
-            michal = tangon.now;
-            michal = michal.bind(tangon)();
-            zuuluu = michal - zuuluu;
-            michal = _closure1_slot8;
-            entity = zuuluu > michal;
+            var2 = global;
+            var4 = var2.Date;
+            var2 = var4.now;
+            var2 = var2.bind(var4)();
+            var3 = var2 - var3;
+            var2 = _closure1_slot8;
+            var1 = var3 > var2;
  44:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isStaleFeaturedGuilds'] = tangon;
-    tangon = function(argFoo) { // Original name: fromDiscoverableGuildServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.id;
-        entity['id'] = zuuluu;
-        zuuluu = michal.name;
-        entity['name'] = zuuluu;
-        zuuluu = michal.description;
-        entity['description'] = zuuluu;
-        zuuluu = michal.splash;
-        entity['splash'] = zuuluu;
-        zuuluu = michal.banner;
-        entity['banner'] = zuuluu;
-        zuuluu = michal.icon;
-        entity['icon'] = zuuluu;
-        zuuluu = global;
-        report = zuuluu.Set;
-        oscard = michal.features;
-        tangon = report.prototype;
-        tangon = Object.create(tangon, {constructor: {value: report}});
-        golfie = tangon;
-        zuuluu = new golfie[report](oscard, report);
-        zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-        entity['features'] = zuuluu;
-        zuuluu = michal.approximate_presence_count;
-        entity['presenceCount'] = zuuluu;
-        zuuluu = michal.approximate_member_count;
-        entity['memberCount'] = zuuluu;
-        zuuluu = michal.premium_subscription_count;
-        entity['premiumSubscriptionCount'] = zuuluu;
-        zuuluu = michal.preferred_locale;
-        entity['preferredLocale'] = zuuluu;
-        zuuluu = michal.discovery_splash;
-        entity['discoverySplash'] = zuuluu;
-        zuuluu = michal.emojis;
-        entity['emojis'] = zuuluu;
-        michal = michal.emoji_count;
-        entity['emojiCount'] = michal;
-        return entity;
+    var3['isStaleFeaturedGuilds'] = var4;
+    var4 = function fromDiscoverableGuildServer(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.id;
+        var1['id'] = var3;
+        var3 = var2.name;
+        var1['name'] = var3;
+        var3 = var2.description;
+        var1['description'] = var3;
+        var3 = var2.splash;
+        var1['splash'] = var3;
+        var3 = var2.banner;
+        var1['banner'] = var3;
+        var3 = var2.icon;
+        var1['icon'] = var3;
+        var3 = global;
+        var5 = var3.Set;
+        var6 = var2.features;
+        var4 = var5.prototype;
+        var4 = Object.create(var4, {constructor: {value: var5}});
+        var7 = var4;
+        var3 = new var7[var5](var6, var5);
+        var3 = var3 instanceof Object ? var3 : var4;
+        var1['features'] = var3;
+        var3 = var2.approximate_presence_count;
+        var1['presenceCount'] = var3;
+        var3 = var2.approximate_member_count;
+        var1['memberCount'] = var3;
+        var3 = var2.premium_subscription_count;
+        var1['premiumSubscriptionCount'] = var3;
+        var3 = var2.preferred_locale;
+        var1['preferredLocale'] = var3;
+        var3 = var2.discovery_splash;
+        var1['discoverySplash'] = var3;
+        var3 = var2.emojis;
+        var1['emojis'] = var3;
+        var2 = var2.emoji_count;
+        var1['emojiCount'] = var2;
+        return var1;
     };
-    zuuluu['fromDiscoverableGuildServer'] = tangon;
-    tangon = function(argFoo) { // Original name: fromDiscoverableGuildSearchResult
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.id;
-        entity['id'] = zuuluu;
-        zuuluu = michal.name;
-        entity['name'] = zuuluu;
-        zuuluu = michal.description;
-        entity['description'] = zuuluu;
-        zuuluu = michal.splash;
-        entity['splash'] = zuuluu;
-        zuuluu = michal.banner;
-        entity['banner'] = zuuluu;
-        zuuluu = michal.icon;
-        entity['icon'] = zuuluu;
-        zuuluu = global;
-        report = zuuluu.Set;
-        oscard = michal.features;
-        tangon = report.prototype;
-        tangon = Object.create(tangon, {constructor: {value: report}});
-        golfie = tangon;
-        zuuluu = new golfie[report](oscard, report);
-        zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-        entity['features'] = zuuluu;
-        zuuluu = michal.approximate_presence_count;
-        entity['presenceCount'] = zuuluu;
-        zuuluu = michal.approximate_member_count;
-        entity['memberCount'] = zuuluu;
-        zuuluu = undefined;
-        entity['premiumSubscriptionCount'] = zuuluu;
-        entity['preferredLocale'] = zuuluu;
-        michal = michal.discovery_splash;
-        entity['discoverySplash'] = michal;
-        michal = new Array(0);
-        entity['emojis'] = michal;
-        return entity;
+    var3['fromDiscoverableGuildServer'] = var4;
+    var4 = function fromDiscoverableGuildSearchResult(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.id;
+        var1['id'] = var3;
+        var3 = var2.name;
+        var1['name'] = var3;
+        var3 = var2.description;
+        var1['description'] = var3;
+        var3 = var2.splash;
+        var1['splash'] = var3;
+        var3 = var2.banner;
+        var1['banner'] = var3;
+        var3 = var2.icon;
+        var1['icon'] = var3;
+        var3 = global;
+        var5 = var3.Set;
+        var6 = var2.features;
+        var4 = var5.prototype;
+        var4 = Object.create(var4, {constructor: {value: var5}});
+        var7 = var4;
+        var3 = new var7[var5](var6, var5);
+        var3 = var3 instanceof Object ? var3 : var4;
+        var1['features'] = var3;
+        var3 = var2.approximate_presence_count;
+        var1['presenceCount'] = var3;
+        var3 = var2.approximate_member_count;
+        var1['memberCount'] = var3;
+        var3 = undefined;
+        var1['premiumSubscriptionCount'] = var3;
+        var1['preferredLocale'] = var3;
+        var2 = var2.discovery_splash;
+        var1['discoverySplash'] = var2;
+        var2 = new Array(0);
+        var1['emojis'] = var2;
+        return var1;
     };
-    zuuluu['fromDiscoverableGuildSearchResult'] = tangon;
-    tangon = function() { // Original name: getLanguageCodeFallback
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['fromDiscoverableGuildSearchResult'] = var4;
+    var4 = function getLanguageCodeFallback() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            report = arguments[0];
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00016_ip = 29; continue _fun00015 }
+            var5 = arguments[0];
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0008_ip = 29; continue _fun0008 }
  11:
-            zuuluu = _closure1_slot5;
-            michal = new Array(1);
-            michal[0] = zuuluu;
-            report = michal;
+            var3 = _closure1_slot5;
+            var2 = new Array(1);
+            var2[0] = var3;
+            var5 = var2;
  29:
-            michal = report;
-            zuuluu = michal[Symbol.iterator];
-            michal = zuuluu().next;
-            oscard = michal().value;
-            michal = zuuluu;
-            report = michal === tangon;
-            michal = undefined;
-            if(report) { _fun00016_ip = 54; continue _fun00015 }
+            var2 = var5;
+            var3 = var2[Symbol.iterator];
+            var2 = var3().next;
+            var6 = var2().value;
+            var2 = var3;
+            var5 = var2 === var4;
+            var2 = undefined;
+            if(var5) { _fun0008_ip = 54; continue _fun0008 }
  51:
-            michal = oscard;
+            var2 = var6;
  54:
-            if(report) { _fun00016_ip = 60; continue _fun00015 }
+            if(var5) { _fun0008_ip = 60; continue _fun0008 }
  57:
-            zuuluu.return();
+            var3.return();
  60:
-            var _closure2_slot0 = tangon;
-            zuuluu = _closure1_slot12;
-            zuuluu = zuuluu.bind(tangon)();
-            michal = michal.locale;
-            _closure2_slot0 = michal;
-            michal = zuuluu.find;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.code;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var _closure2_slot0 = var4;
+            var3 = _closure1_slot12;
+            var3 = var3.bind(var4)();
+            var2 = var2.locale;
+            _closure2_slot0 = var2;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.code;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            michal = null;
-            if(!(michal == entity)) { _fun00016_ip = 114; continue _fun00015 }
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0008_ip = 114; continue _fun0008 }
  108:
-            michal = 0;
-            entity = zuuluu[michal];
+            var2 = 0;
+            var1 = var3[var2];
  114:
-            entity = entity.code;
-            return entity;
+            var1 = var1.code;
+            return var1;
         }
     };
-    zuuluu['getLanguageCodeFallback'] = tangon;
-    tangon = function() { // Original name: navigateToGuild
-        entity = undefined;
-        tangon = _closure1_slot15;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getLanguageCodeFallback'] = var4;
+    var4 = function navigateToGuild() {
+        var1 = undefined;
+        var4 = _closure1_slot15;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['navigateToGuild'] = tangon;
-    tangon = function() { // Original name: handleTabPressPrefetch
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var3['navigateToGuild'] = var4;
+    var4 = function handleTabPressPrefetch() {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            oscard = _closure1_slot6;
-            michal = oscard.getError;
-            report = _closure1_slot9;
-            tangon = michal.bind(oscard)(report);
-            michal = oscard.getIsFetching;
-            zuuluu = michal.bind(oscard)(report);
-            michal = oscard.getIsInitialFetchComplete;
-            michal = michal.bind(oscard)(report);
-            if(michal) { _fun00018_ip = 84; continue _fun00017 }
+            var6 = _closure1_slot6;
+            var2 = var6.getError;
+            var5 = _closure1_slot9;
+            var4 = var2.bind(var6)(var5);
+            var2 = var6.getIsFetching;
+            var3 = var2.bind(var6)(var5);
+            var2 = var6.getIsInitialFetchComplete;
+            var2 = var2.bind(var6)(var5);
+            if(var2) { _fun0009_ip = 84; continue _fun0009 }
  47:
-            if(zuuluu) { _fun00018_ip = 84; continue _fun00017 }
+            if(var3) { _fun0009_ip = 84; continue _fun0009 }
  50:
-            golfie = _closure1_slot1;
-            oscard = _closure1_slot3;
-            report = 9;
-            oscard = oscard[report];
-            report = undefined;
-            oscard = golfie.bind(report)(oscard);
-            report = oscard.fetchFeaturedGuilds;
-            report = report.bind(oscard)();
-            _fun00018_ip = 144; continue _fun00017;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot3;
+            var5 = 9;
+            var6 = var6[var5];
+            var5 = undefined;
+            var6 = var7.bind(var5)(var6);
+            var5 = var6.fetchFeaturedGuilds;
+            var5 = var5.bind(var6)();
+            _fun0009_ip = 144; continue _fun0009;
  84:
-            if(!michal) { _fun00018_ip = 90; continue _fun00017 }
+            if(!var2) { _fun0009_ip = 90; continue _fun0009 }
  87:
-            michal = !zuuluu;
+            var2 = !var3;
  90:
-            if(!michal) { _fun00018_ip = 99; continue _fun00017 }
+            if(!var2) { _fun0009_ip = 99; continue _fun0009 }
  93:
-            zuuluu = null;
-            michal = zuuluu != tangon;
+            var3 = null;
+            var2 = var3 != var4;
  99:
-            if(!michal) { _fun00018_ip = 144; continue _fun00017 }
+            if(!var2) { _fun0009_ip = 144; continue _fun0009 }
  102:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot3;
-            entity = 9;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.fetchFeaturedGuilds;
-            entity = {};
-            tangon = true;
-            entity['forceRefresh'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot3;
+            var1 = 9;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.fetchFeaturedGuilds;
+            var1 = {};
+            var4 = true;
+            var1['forceRefresh'] = var4;
+            var1 = var2.bind(var3)(var1);
  144:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['handleTabPressPrefetch'] = tangon;
-    michal = function() { // Original name: makeAnalyticsID
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot3;
-        entity = 10;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        entity = michal.v4;
-        tangon = entity.bind(michal)();
-        zuuluu = tangon.replace;
-        michal = /-/g;
-        entity = '';
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['handleTabPressPrefetch'] = var4;
+    var2 = function makeAnalyticsID() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot3;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.v4;
+        var4 = var1.bind(var2)();
+        var3 = var4.replace;
+        var2 = /-/g;
+        var1 = '';
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['makeAnalyticsID'] = michal;
-    return entity;
+    var3['makeAnalyticsID'] = var2;
+    return var1;
 })();

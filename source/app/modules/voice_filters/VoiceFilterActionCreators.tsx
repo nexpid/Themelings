@@ -1,83 +1,83 @@
 // app/modules/voice_filters/VoiceFilterActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_filters/VoiceFilterActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: setVoiceFilterLoopback
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'VOICE_FILTER_LOOPBACK_TOGGLE';
-        michal['type'] = report;
-        report = argFoo;
-        michal['enabled'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_filters/VoiceFilterActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function setVoiceFilterLoopback(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'VOICE_FILTER_LOOPBACK_TOGGLE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['enabled'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setVoiceFilterLoopback'] = tangon;
-    tangon = function(argFoo) { // Original name: requestVoiceFilterSwitch
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['setVoiceFilterLoopback'] = var4;
+    var4 = function requestVoiceFilterSwitch(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = arguments[1];
-            zuuluu = undefined;
-            if(!(tangon === zuuluu)) { _fun00002_ip = 11; continue _fun00001 }
+            var4 = arguments[1];
+            var3 = undefined;
+            if(!(var4 === var3)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            tangon = null;
+            var4 = null;
  11:
-            michal = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 0;
-            entity = report[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.dispatch;
-            entity = {};
-            report = 'VOICE_FILTER_REQUEST_SWITCH';
-            entity['type'] = report;
-            report = argFoo;
-            entity['newVoiceFilterId'] = report;
-            entity['analyticsContext'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 0;
+            var1 = var5[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'VOICE_FILTER_REQUEST_SWITCH';
+            var1['type'] = var5;
+            var5 = arg1;
+            var1['newVoiceFilterId'] = var5;
+            var1['analyticsContext'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['requestVoiceFilterSwitch'] = tangon;
-    michal = function() { // Original name: prefetchVoiceFilters
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'VOICE_FILTER_PREFETCH';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['requestVoiceFilterSwitch'] = var4;
+    var2 = function prefetchVoiceFilters() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'VOICE_FILTER_PREFETCH';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['prefetchVoiceFilters'] = michal;
-    return entity;
+    var3['prefetchVoiceFilters'] = var2;
+    return var1;
 })();

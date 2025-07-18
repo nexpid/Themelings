@@ -1,151 +1,151 @@
 // app/modules/potions/utils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/potions/utils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/potions/utils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.hasPotions;
-            zuuluu = zuuluu.bind(michal)();
-            if(zuuluu) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var3 = var2.hasPotions;
+            var3 = var3.bind(var2)();
+            if(var3) { _fun0001_ip = 22; continue _fun0001 }
  18:
-            zuuluu = false;
-            return zuuluu;
+            var3 = false;
+            return var3;
  22:
-            zuuluu = michal.potions;
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00002_ip = 38; continue _fun00001 }
+            var3 = var2.potions;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0001_ip = 38; continue _fun0001 }
  34:
-            zuuluu = new Array(0);
+            var3 = new Array(0);
  38:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 0;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            michal = tangon.isAndroid;
-            michal = michal.bind(tangon)();
-            var _closure2_slot0 = michal;
-            michal = zuuluu.some;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 0;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var2 = var4.isAndroid;
+            var2 = var2.bind(var4)();
+            var _closure2_slot0 = var2;
+            var2 = var3.some;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = zuuluu.type;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    entity = 1;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    entity = report.bind(entity)(tangon);
-                    entity = entity.MessagePotionTypes;
-                    entity = entity.CONFETTI;
-                    entity = michal === entity;
-                    if(!entity) { _fun00004_ip = 91; continue _fun00003 }
+                    var3 = arg1;
+                    var2 = var3.type;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var1 = 1;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var1 = var5.bind(var1)(var4);
+                    var1 = var1.MessagePotionTypes;
+                    var1 = var1.CONFETTI;
+                    var1 = var2 === var1;
+                    if(!var1) { _fun0002_ip = 91; continue _fun0002 }
  52:
-                    michal = _closure2_slot0;
-                    michal = !michal;
-                    if(michal) { _fun00004_ip = 88; continue _fun00003 }
+                    var2 = _closure2_slot0;
+                    var2 = !var2;
+                    if(var2) { _fun0002_ip = 88; continue _fun0002 }
  65:
-                    tangon = zuuluu.emoji;
-                    zuuluu = 0;
-                    zuuluu = tangon[zuuluu];
-                    tangon = zuuluu.id;
-                    zuuluu = null;
-                    michal = zuuluu != tangon;
+                    var4 = var3.emoji;
+                    var3 = 0;
+                    var3 = var4[var3];
+                    var4 = var3.id;
+                    var3 = null;
+                    var2 = var3 != var4;
  88:
-                    entity = michal;
+                    var1 = var2;
  91:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['messageHasConfettiPotion'] = tangon;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['messageHasConfettiPotion'] = var4;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            michal = entity.hasPotions;
-            michal = michal.bind(entity)();
-            if(michal) { _fun00006_ip = 20; continue _fun00005 }
+            var1 = arg1;
+            var2 = var1.hasPotions;
+            var2 = var2.bind(var1)();
+            if(var2) { _fun0003_ip = 20; continue _fun0003 }
  16:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  20:
-            zuuluu = entity.potions;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00006_ip = 36; continue _fun00005 }
+            var3 = var1.potions;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0003_ip = 36; continue _fun0003 }
  32:
-            zuuluu = new Array(0);
+            var3 = new Array(0);
  36:
-            michal = zuuluu.find;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.type;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                entity = entity.MessagePotionTypes;
-                entity = entity.CONFETTI;
-                entity = michal === entity;
-                return entity;
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.MessagePotionTypes;
+                var1 = var1.CONFETTI;
+                var1 = var2 === var1;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getFirstConfettiPotion'] = tangon;
-    michal = function(argFoo) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getFirstConfettiPotion'] = var4;
+    var2 = function(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            michal = zuuluu.id;
-            entity = null;
-            if(!(entity == michal)) { _fun00008_ip = 34; continue _fun00007 }
+            var3 = arg1;
+            var2 = var3.id;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0004_ip = 34; continue _fun0004 }
  14:
-            entity = {};
-            michal = zuuluu.optionallyDiverseSequence;
-            entity['name'] = michal;
-            michal = undefined;
-            entity['id'] = michal;
-            _fun00008_ip = 57; continue _fun00007;
+            var1 = {};
+            var2 = var3.optionallyDiverseSequence;
+            var1['name'] = var2;
+            var2 = undefined;
+            var1['id'] = var2;
+            _fun0004_ip = 57; continue _fun0004;
  34:
-            michal = {};
-            tangon = zuuluu.id;
-            michal['id'] = tangon;
-            zuuluu = zuuluu.name;
-            michal['name'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var4 = var3.id;
+            var2['id'] = var4;
+            var3 = var3.name;
+            var2['name'] = var3;
+            var1 = var2;
  57:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['disambiguatedEmojiToMessagePotionEmoji'] = michal;
-    return entity;
+    var3['disambiguatedEmojiToMessagePotionEmoji'] = var2;
+    return var1;
 })();

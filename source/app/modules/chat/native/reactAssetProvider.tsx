@@ -1,117 +1,117 @@
 // app/modules/chat/native/reactAssetProvider.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Image;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/reactAssetProvider.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: reactAssetProvider
-        entity = global;
-        zuuluu = entity.Promise;
-        entity = zuuluu.prototype;
-        michal = Object.create(entity, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Image;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/native/reactAssetProvider.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function reactAssetProvider() {
+        var1 = global;
+        var3 = var1.Promise;
+        var1 = var3.prototype;
+        var2 = Object.create(var1, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = argFoo;
-                var _closure3_slot0 = report;
-                oscard = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 1;
-                tangon = tangon[entity];
-                entity = undefined;
-                oscard = oscard.bind(entity)(tangon);
-                tangon = oscard.isAndroid;
-                tangon = tangon.bind(oscard)();
-                if(tangon) { _fun00002_ip = 55; continue _fun00001 }
+                var5 = arg1;
+                var _closure3_slot0 = var5;
+                var6 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 1;
+                var4 = var4[var1];
+                var1 = undefined;
+                var6 = var6.bind(var1)(var4);
+                var4 = var6.isAndroid;
+                var4 = var4.bind(var6)();
+                if(var4) { _fun0001_ip = 55; continue _fun0001 }
  46:
-                tangon = true;
-                tangon = report.bind(entity)(tangon);
-                _fun00002_ip = 93; continue _fun00001;
+                var4 = true;
+                var4 = var5.bind(var1)(var4);
+                _fun0001_ip = 93; continue _fun0001;
  55:
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                zuuluu = 2;
-                zuuluu = report[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.keysRequest;
-                michal = function(argFoo) {
-                    oscard = argFoo;
-                    golfie = _closure1_slot0;
-                    report = _closure1_slot2;
-                    entity = 3;
-                    tangon = report[entity];
-                    entity = undefined;
-                    golfie = golfie.bind(entity)(tangon);
-                    tangon = golfie.getAssetMap;
-                    tangon = tangon.bind(golfie)();
-                    var _closure4_slot0 = tangon;
-                    tangon = oscard.map;
-                    zuuluu = function(argFoo) {
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 2;
+                var3 = var5[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.keysRequest;
+                var2 = function(arg1) {
+                    var6 = arg1;
+                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 3;
+                    var4 = var5[var1];
+                    var1 = undefined;
+                    var7 = var7.bind(var1)(var4);
+                    var4 = var7.getAssetMap;
+                    var4 = var4.bind(var7)();
+                    var _closure4_slot0 = var4;
+                    var4 = var6.map;
+                    var3 = function(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            report = argFoo;
-                            entity = _closure4_slot0;
-                            zuuluu = entity[report];
-                            entity = null;
-                            zuuluu = entity != zuuluu;
-                            entity = '';
-                            if(!zuuluu) { _fun00004_ip = 59; continue _fun00003 }
+                            var5 = arg1;
+                            var1 = _closure4_slot0;
+                            var3 = var1[var5];
+                            var1 = null;
+                            var3 = var1 != var3;
+                            var1 = '';
+                            if(!var3) { _fun0002_ip = 59; continue _fun0002 }
  27:
-                            tangon = _closure1_slot3;
-                            zuuluu = tangon.resolveAssetSource;
-                            michal = _closure4_slot0;
-                            michal = michal[report];
-                            michal = zuuluu.bind(tangon)(michal);
-                            entity = michal.uri;
+                            var4 = _closure1_slot3;
+                            var3 = var4.resolveAssetSource;
+                            var2 = _closure4_slot0;
+                            var2 = var2[var5];
+                            var2 = var3.bind(var4)(var2);
+                            var1 = var2.uri;
  59:
-                            return entity;
+                            return var1;
                         }
                     };
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = _closure1_slot1;
-                    michal = 2;
-                    michal = report[michal];
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.valuesResult;
-                    michal = michal.bind(zuuluu)(tangon);
-                    zuuluu = _closure3_slot0;
-                    michal = true;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var4 = var4.bind(var6)(var3);
+                    var3 = _closure1_slot1;
+                    var2 = 2;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.valuesResult;
+                    var2 = var2.bind(var3)(var4);
+                    var3 = _closure3_slot0;
+                    var2 = true;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
+                var2 = var3.bind(var4)(var2);
  93:
-                return entity;
+                return var1;
             }
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

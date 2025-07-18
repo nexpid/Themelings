@@ -1,140 +1,140 @@
 // app/design/components/AccessibilityView/useAccessibilityViewIsModalToggle.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = report;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/AccessibilityView/useAccessibilityViewIsModalToggle.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useAccessibilityViewIsModalToggle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/AccessibilityView/useAccessibilityViewIsModalToggle.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useAccessibilityViewIsModalToggle(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            golfie = zuuluu.accessibilityViewIsModal;
-            entity = undefined;
-            if(!(golfie === entity)) { _fun00002_ip = 19; continue _fun00001 }
+            var3 = arg1;
+            var7 = var3.accessibilityViewIsModal;
+            var1 = undefined;
+            if(!(var7 === var1)) { _fun0001_ip = 19; continue _fun0001 }
  17:
-            golfie = false;
+            var7 = false;
  19:
-            var _closure2_slot0 = golfie;
-            zuuluu = zuuluu.nativeID;
-            var _closure2_slot1 = zuuluu;
-            var _closure2_slot2 = entity;
-            var _closure2_slot3 = entity;
-            report = _closure1_slot2;
-            tangon = report.useRef;
-            tangon = tangon.bind(report)(entity);
-            _closure2_slot2 = tangon;
-            oscard = report.useCallback;
-            tangon = new Array(2);
-            tangon[0] = golfie;
-            tangon[1] = zuuluu;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot0 = var7;
+            var3 = var3.nativeID;
+            var _closure2_slot1 = var3;
+            var _closure2_slot2 = var1;
+            var _closure2_slot3 = var1;
+            var5 = _closure1_slot2;
+            var4 = var5.useRef;
+            var4 = var4.bind(var5)(var1);
+            _closure2_slot2 = var4;
+            var6 = var5.useCallback;
+            var4 = new Array(2);
+            var4[0] = var7;
+            var4[1] = var3;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = arguments[0];
-                    entity = undefined;
-                    if(!(michal === entity)) { _fun00004_ip = 16; continue _fun00003 }
+                    var2 = arguments[0];
+                    var1 = undefined;
+                    if(!(var2 === var1)) { _fun0002_ip = 16; continue _fun0002 }
  9:
-                    michal = _closure2_slot0;
+                    var2 = _closure2_slot0;
  16:
-                    if(michal) { _fun00004_ip = 96; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 96; continue _fun0002 }
  22:
-                    michal = _closure2_slot2;
-                    oscard = michal.current;
-                    michal = null;
-                    if(!(michal != oscard)) { _fun00004_ip = 181; continue _fun00003 }
+                    var2 = _closure2_slot2;
+                    var6 = var2.current;
+                    var2 = null;
+                    if(!(var2 != var6)) { _fun0002_ip = 181; continue _fun0002 }
  40:
-                    michal = _closure2_slot2;
-                    michal['current'] = entity;
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot1;
-                    michal = 1;
-                    michal = report[michal];
-                    report = tangon.bind(entity)(michal);
-                    tangon = report.disableAccessibilityFocusLock;
-                    michal = new Array(1);
-                    michal[0] = oscard;
-                    michal = tangon.bind(report)(michal);
-                    _fun00004_ip = 181; continue _fun00003;
+                    var2 = _closure2_slot2;
+                    var2['current'] = var1;
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var2 = 1;
+                    var2 = var5[var2];
+                    var5 = var4.bind(var1)(var2);
+                    var4 = var5.disableAccessibilityFocusLock;
+                    var2 = new Array(1);
+                    var2[0] = var6;
+                    var2 = var4.bind(var5)(var2);
+                    _fun0002_ip = 181; continue _fun0002;
  96:
-                    tangon = _closure2_slot1;
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00004_ip = 183; continue _fun00003 }
+                    var4 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0002_ip = 183; continue _fun0002 }
  106:
-                    michal = _closure2_slot2;
-                    tangon = michal.current;
-                    michal = _closure2_slot1;
-                    if(!(tangon !== michal)) { _fun00004_ip = 181; continue _fun00003 }
+                    var2 = _closure2_slot2;
+                    var4 = var2.current;
+                    var2 = _closure2_slot1;
+                    if(!(var4 !== var2)) { _fun0002_ip = 181; continue _fun0002 }
  123:
-                    michal = _closure2_slot2;
-                    report = _closure2_slot1;
-                    michal['current'] = report;
-                    zuuluu = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    michal = 1;
-                    michal = tangon[michal];
-                    tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.enableAccessibilityFocusLock;
-                    michal = new Array(1);
-                    michal[0] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = _closure2_slot2;
+                    var5 = _closure2_slot1;
+                    var2['current'] = var5;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var2 = 1;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.enableAccessibilityFocusLock;
+                    var2 = new Array(1);
+                    var2[0] = var5;
+                    var2 = var3.bind(var4)(var2);
  181:
-                    return entity;
+                    return var1;
  183:
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    golfie = 'Must have a unique nativeID when accessibilityViewIsModal is enabled.';
-                    option = michal;
-                    entity = new option[zuuluu](golfie, oscard);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var7 = 'Must have a unique nativeID when accessibilityViewIsModal is enabled.';
+                    var8 = var2;
+                    var1 = new var8[var3](var7, var6);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 }
             };
-            oscard = oscard.bind(report)(zuuluu, tangon);
-            _closure2_slot3 = oscard;
-            tangon = report.useEffect;
-            zuuluu = new Array(1);
-            zuuluu[0] = oscard;
-            michal = function() {
-                michal = _closure2_slot3;
-                entity = undefined;
-                entity = michal.bind(entity)();
-                entity = function() {
-                    zuuluu = _closure2_slot3;
-                    entity = undefined;
-                    michal = false;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+            var6 = var6.bind(var5)(var3, var4);
+            _closure2_slot3 = var6;
+            var4 = var5.useEffect;
+            var3 = new Array(1);
+            var3[0] = var6;
+            var2 = function() {
+                var2 = _closure2_slot3;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                var1 = function() {
+                    var3 = _closure2_slot3;
+                    var1 = undefined;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

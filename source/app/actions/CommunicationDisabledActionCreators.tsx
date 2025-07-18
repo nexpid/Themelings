@@ -1,116 +1,116 @@
 // app/actions/CommunicationDisabledActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = report[entity];
-    entity = undefined;
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = {};
-    tangon = function(argFoo, argBar, argBaz, argCor, argGra, argFre) { // Original name: setCommunicationDisabledDuration
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = argCor;
-        var _closure2_slot3 = michal;
-        michal = argGra;
-        var _closure2_slot4 = michal;
-        michal = argFre;
-        var _closure2_slot5 = michal;
-        zuuluu = _closure1_slot2;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var5[var1];
+    var1 = undefined;
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = {};
+    var4 = function setCommunicationDisabledDuration(arg1, arg2, arg3, arg4, arg5, arg6) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var2 = arg4;
+        var _closure2_slot3 = var2;
+        var2 = arg5;
+        var _closure2_slot4 = var2;
+        var2 = arg6;
+        var _closure2_slot5 = var2;
+        var3 = _closure1_slot2;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 193; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 193; continue _fun0001 }
  10:
-                    michal = _closure2_slot2;
-                    golfie = null;
-                    michal = golfie != michal;
-                    if(!michal) { _fun00002_ip = 84; continue _fun00001 }
+                    var2 = _closure2_slot2;
+                    var7 = null;
+                    var2 = var7 != var2;
+                    if(!var2) { _fun0001_ip = 84; continue _fun0001 }
  26:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 1;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.bind(zuuluu)();
-                    tangon = report.add;
-                    zuuluu = _closure2_slot2;
-                    michal = 's';
-                    zuuluu = tangon.bind(report)(zuuluu, michal);
-                    michal = zuuluu.toISOString;
-                    golfie = michal.bind(zuuluu)();
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 1;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.bind(var3)();
+                    var4 = var5.add;
+                    var3 = _closure2_slot2;
+                    var2 = 's';
+                    var3 = var4.bind(var5)(var3, var2);
+                    var2 = var3.toISOString;
+                    var7 = var2.bind(var3)();
  84:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 2;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    report = tangon.bind(zuuluu)(michal);
-                    tangon = report.setCommunicationDisabledUntil;
-                    michal = {};
-                    option = _closure2_slot0;
-                    michal['guildId'] = option;
-                    option = _closure2_slot1;
-                    michal['userId'] = option;
-                    michal['communicationDisabledUntilTimestamp'] = golfie;
-                    golfie = _closure2_slot2;
-                    michal['duration'] = golfie;
-                    golfie = _closure2_slot3;
-                    michal['reason'] = golfie;
-                    golfie = _closure2_slot4;
-                    michal['location'] = golfie;
-                    oscard = _closure2_slot5;
-                    michal['moderatorReportId'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 2;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var5 = var4.bind(var3)(var2);
+                    var4 = var5.setCommunicationDisabledUntil;
+                    var2 = {};
+                    var8 = _closure2_slot0;
+                    var2['guildId'] = var8;
+                    var8 = _closure2_slot1;
+                    var2['userId'] = var8;
+                    var2['communicationDisabledUntilTimestamp'] = var7;
+                    var7 = _closure2_slot2;
+                    var2['duration'] = var7;
+                    var7 = _closure2_slot3;
+                    var2['reason'] = var7;
+                    var7 = _closure2_slot4;
+                    var2['location'] = var7;
+                    var6 = _closure2_slot5;
+                    var2['moderatorReportId'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=181);
  179:
-                    return michal;
+                    return var2;
  181:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 190; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 190; continue _fun0001 }
  187:
-                    return zuuluu;
+                    return var3;
  190:
-                    return michal;
+                    return var2;
  193:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['setCommunicationDisabledDuration'] = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/CommunicationDisabledActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['setCommunicationDisabledDuration'] = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/CommunicationDisabledActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

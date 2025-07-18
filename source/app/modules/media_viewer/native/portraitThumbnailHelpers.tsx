@@ -1,90 +1,90 @@
 // app/modules/media_viewer/native/portraitThumbnailHelpers.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    michal = global;
-    oscard = michal.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    michal = true;
-    tangon['value'] = michal;
-    michal = '__esModule';
-    michal = report.bind(oscard)(zuuluu, michal, tangon);
-    michal = {};
-    tangon = 'function lerpVarWidthThumbnailScrollBounds_portraitThumbnailHelpersTsx1(positions,position){if(positions.length===0)return 0;if(position<0){return 0;}if(position>=positions.length){position=positions.length;}const index=Math.floor(position);const fraction=position-index;if(index>=positions.length){return positions[positions.length-1].scrollStart;}const startPos=positions[index].scrollStart;const endPos=index<positions.length-1?positions[index+1].scrollStart:startPos;return startPos+fraction*(endPos-startPos);}';
-    michal['code'] = tangon;
-    var _closure1_slot0 = michal;
-    michal = function() {
-        entity = function(argFoo, argBar) { // Original name: lerpVarWidthThumbnailScrollBounds
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var2 = global;
+    var6 = var2.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var2 = true;
+    var4['value'] = var2;
+    var2 = '__esModule';
+    var2 = var5.bind(var6)(var3, var2, var4);
+    var2 = {};
+    var4 = 'function lerpVarWidthThumbnailScrollBounds_portraitThumbnailHelpersTsx1(positions,position){if(positions.length===0)return 0;if(position<0){return 0;}if(position>=positions.length){position=positions.length;}const index=Math.floor(position);const fraction=position-index;if(index>=positions.length){return positions[positions.length-1].scrollStart;}const startPos=positions[index].scrollStart;const endPos=index<positions.length-1?positions[index+1].scrollStart:startPos;return startPos+fraction*(endPos-startPos);}';
+    var2['code'] = var4;
+    var _closure1_slot0 = var2;
+    var2 = function() {
+        var1 = function lerpVarWidthThumbnailScrollBounds(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = argFoo;
-                michal = argBar;
-                tangon = zuuluu.length;
-                entity = 0;
-                if(!(entity !== tangon)) { _fun00002_ip = 156; continue _fun00001 }
+                var3 = arg1;
+                var2 = arg2;
+                var4 = var3.length;
+                var1 = 0;
+                if(!(var1 !== var4)) { _fun0001_ip = 156; continue _fun0001 }
  20:
-                if(!(!(michal < entity))) { _fun00002_ip = 154; continue _fun00001 }
+                if(!(!(var2 < var1))) { _fun0001_ip = 154; continue _fun0001 }
  27:
-                tangon = zuuluu.length;
-                if(!(michal >= tangon)) { _fun00002_ip = 41; continue _fun00001 }
+                var4 = var3.length;
+                if(!(var2 >= var4)) { _fun0001_ip = 41; continue _fun0001 }
  36:
-                michal = zuuluu.length;
+                var2 = var3.length;
  41:
-                tangon = global;
-                report = tangon.Math;
-                tangon = report.floor;
-                golfie = tangon.bind(report)(michal);
-                report = michal - golfie;
-                michal = zuuluu.length;
-                if(!(!(golfie >= michal))) { _fun00002_ip = 130; continue _fun00001 }
+                var4 = global;
+                var5 = var4.Math;
+                var4 = var5.floor;
+                var7 = var4.bind(var5)(var2);
+                var5 = var2 - var7;
+                var2 = var3.length;
+                if(!(!(var7 >= var2))) { _fun0001_ip = 130; continue _fun0001 }
  73:
-                michal = zuuluu[golfie];
-                tangon = michal.scrollStart;
-                michal = zuuluu.length;
-                oscard = 1;
-                option = michal - oscard;
-                michal = tangon;
-                if(!(golfie < option)) { _fun00002_ip = 116; continue _fun00001 }
+                var2 = var3[var7];
+                var4 = var2.scrollStart;
+                var2 = var3.length;
+                var6 = 1;
+                var8 = var2 - var6;
+                var2 = var4;
+                if(!(var7 < var8)) { _fun0001_ip = 116; continue _fun0001 }
  102:
-                oscard = golfie + oscard;
-                oscard = zuuluu[oscard];
-                michal = oscard.scrollStart;
+                var6 = var7 + var6;
+                var6 = var3[var6];
+                var2 = var6.scrollStart;
  116:
-                michal = michal - tangon;
-                michal = report * michal;
-                michal = tangon + michal;
-                return michal;
+                var2 = var2 - var4;
+                var2 = var5 * var2;
+                var2 = var4 + var2;
+                return var2;
  130:
-                tangon = zuuluu.length;
-                michal = 1;
-                michal = tangon - michal;
-                michal = zuuluu[michal];
-                michal = michal.scrollStart;
-                return michal;
+                var4 = var3.length;
+                var2 = 1;
+                var2 = var4 - var2;
+                var2 = var3[var2];
+                var2 = var2.scrollStart;
+                return var2;
  154:
-                return entity;
+                return var1;
  156:
-                return entity;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 5256874583737.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot0;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 5256874583737.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot0;
+        var1['__initData'] = var2;
+        return var1;
     };
-    entity = undefined;
-    michal = michal.bind(entity)();
-    report = argPlu;
-    tangon = 0;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_viewer/native/portraitThumbnailHelpers.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['lerpVarWidthThumbnailScrollBounds'] = michal;
-    return entity;
+    var1 = undefined;
+    var2 = var2.bind(var1)();
+    var5 = native7;
+    var4 = 0;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_viewer/native/portraitThumbnailHelpers.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['lerpVarWidthThumbnailScrollBounds'] = var2;
+    return var1;
 })();

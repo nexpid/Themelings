@@ -1,153 +1,153 @@
 // app/modules/guild_automod/DataUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    michal = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = michal;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    michal = michal[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(michal);
-    report = oscard.fileFinishedImporting;
-    michal = 'modules/guild_automod/DataUtils.tsx';
-    michal = report.bind(oscard)(michal);
-    michal = function(argFoo) { // Original name: _transformMetadataToCamelCase
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var2 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var2;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var2 = var2[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var2);
+    var5 = var6.fileFinishedImporting;
+    var2 = 'modules/guild_automod/DataUtils.tsx';
+    var2 = var5.bind(var6)(var2);
+    var2 = function _transformMetadataToCamelCase(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            zuuluu = null;
-            entity = report;
-            if(!(zuuluu != entity)) { _fun00002_ip = 57; continue _fun00001 }
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var3 = null;
+            var1 = var5;
+            if(!(var3 != var1)) { _fun0001_ip = 57; continue _fun0001 }
  18:
-            zuuluu = global;
-            tangon = zuuluu.Object;
-            zuuluu = tangon.keys;
-            report = zuuluu.bind(tangon)(report);
-            tangon = report.reduce;
-            zuuluu = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = global;
+            var4 = var3.Object;
+            var3 = var4.keys;
+            var5 = var3.bind(var4)(var5);
+            var4 = var5.reduce;
+            var3 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    tangon = argBar;
-                    zuuluu = _closure1_slot0;
-                    oscard = _closure1_slot1;
-                    michal = 0;
-                    michal = oscard[michal];
-                    golfie = undefined;
-                    zuuluu = zuuluu.bind(golfie)(michal);
-                    michal = zuuluu.camelCase;
-                    zuuluu = michal.bind(zuuluu)(tangon);
-                    oscard = _closure2_slot0;
-                    oscard = oscard[tangon];
-                    option = 'object';
-                    oscard = typeof oscard;
-                    if(!(option === oscard)) { _fun00004_ip = 115; continue _fun00003 }
+                    var1 = arg1;
+                    var4 = arg2;
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 0;
+                    var2 = var6[var2];
+                    var7 = undefined;
+                    var3 = var3.bind(var7)(var2);
+                    var2 = var3.camelCase;
+                    var3 = var2.bind(var3)(var4);
+                    var6 = _closure2_slot0;
+                    var6 = var6[var4];
+                    var8 = 'object';
+                    var6 = typeof var6;
+                    if(!(var8 === var6)) { _fun0002_ip = 115; continue _fun0002 }
  63:
-                    oscard = global;
-                    verify = oscard.Array;
-                    option = verify.isArray;
-                    oscard = _closure2_slot0;
-                    oscard = oscard[tangon];
-                    oscard = option.bind(verify)(oscard);
-                    if(oscard) { _fun00004_ip = 115; continue _fun00003 }
+                    var6 = global;
+                    var9 = var6.Array;
+                    var8 = var9.isArray;
+                    var6 = _closure2_slot0;
+                    var6 = var6[var4];
+                    var6 = var8.bind(var9)(var6);
+                    if(var6) { _fun0002_ip = 115; continue _fun0002 }
  92:
-                    oscard = _closure1_slot2;
-                    report = _closure2_slot0;
-                    report = report[tangon];
-                    report = oscard.bind(golfie)(report);
-                    entity[zuuluu] = report;
-                    _fun00004_ip = 127; continue _fun00003;
+                    var6 = _closure1_slot2;
+                    var5 = _closure2_slot0;
+                    var5 = var5[var4];
+                    var5 = var6.bind(var7)(var5);
+                    var1[var3] = var5;
+                    _fun0002_ip = 127; continue _fun0002;
  115:
-                    michal = _closure2_slot0;
-                    michal = michal[tangon];
-                    entity[zuuluu] = michal;
+                    var2 = _closure2_slot0;
+                    var2 = var2[var4];
+                    var1[var3] = var2;
  127:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = {};
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
  57:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = michal;
-    zuuluu['_transformMetadataToCamelCase'] = michal;
-    michal = function(argFoo) { // Original name: _transformMetadataToSnakeCase
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot2 = var2;
+    var3['_transformMetadataToCamelCase'] = var2;
+    var2 = function _transformMetadataToSnakeCase(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            zuuluu = null;
-            entity = report;
-            if(!(zuuluu != entity)) { _fun00006_ip = 57; continue _fun00005 }
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var3 = null;
+            var1 = var5;
+            if(!(var3 != var1)) { _fun0003_ip = 57; continue _fun0003 }
  18:
-            zuuluu = global;
-            tangon = zuuluu.Object;
-            zuuluu = tangon.keys;
-            report = zuuluu.bind(tangon)(report);
-            tangon = report.reduce;
-            zuuluu = function(argFoo, argBar) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var3 = global;
+            var4 = var3.Object;
+            var3 = var4.keys;
+            var5 = var3.bind(var4)(var5);
+            var4 = var5.reduce;
+            var3 = function(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = argFoo;
-                    tangon = argBar;
-                    zuuluu = _closure1_slot0;
-                    oscard = _closure1_slot1;
-                    michal = 0;
-                    michal = oscard[michal];
-                    golfie = undefined;
-                    zuuluu = zuuluu.bind(golfie)(michal);
-                    michal = zuuluu.snakeCase;
-                    zuuluu = michal.bind(zuuluu)(tangon);
-                    oscard = _closure2_slot0;
-                    oscard = oscard[tangon];
-                    option = 'object';
-                    oscard = typeof oscard;
-                    if(!(option === oscard)) { _fun00008_ip = 115; continue _fun00007 }
+                    var1 = arg1;
+                    var4 = arg2;
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot1;
+                    var2 = 0;
+                    var2 = var6[var2];
+                    var7 = undefined;
+                    var3 = var3.bind(var7)(var2);
+                    var2 = var3.snakeCase;
+                    var3 = var2.bind(var3)(var4);
+                    var6 = _closure2_slot0;
+                    var6 = var6[var4];
+                    var8 = 'object';
+                    var6 = typeof var6;
+                    if(!(var8 === var6)) { _fun0004_ip = 115; continue _fun0004 }
  63:
-                    oscard = global;
-                    verify = oscard.Array;
-                    option = verify.isArray;
-                    oscard = _closure2_slot0;
-                    oscard = oscard[tangon];
-                    oscard = option.bind(verify)(oscard);
-                    if(oscard) { _fun00008_ip = 115; continue _fun00007 }
+                    var6 = global;
+                    var9 = var6.Array;
+                    var8 = var9.isArray;
+                    var6 = _closure2_slot0;
+                    var6 = var6[var4];
+                    var6 = var8.bind(var9)(var6);
+                    if(var6) { _fun0004_ip = 115; continue _fun0004 }
  92:
-                    oscard = _closure1_slot3;
-                    report = _closure2_slot0;
-                    report = report[tangon];
-                    report = oscard.bind(golfie)(report);
-                    entity[zuuluu] = report;
-                    _fun00008_ip = 127; continue _fun00007;
+                    var6 = _closure1_slot3;
+                    var5 = _closure2_slot0;
+                    var5 = var5[var4];
+                    var5 = var6.bind(var7)(var5);
+                    var1[var3] = var5;
+                    _fun0004_ip = 127; continue _fun0004;
  115:
-                    report = _closure2_slot0;
-                    report = report[tangon];
-                    entity[zuuluu] = report;
+                    var5 = _closure2_slot0;
+                    var5 = var5[var4];
+                    var1[var3] = var5;
  127:
-                    michal = _closure2_slot0;
-                    michal = michal[tangon];
-                    entity[zuuluu] = michal;
-                    return entity;
+                    var2 = _closure2_slot0;
+                    var2 = var2[var4];
+                    var1[var3] = var2;
+                    return var1;
                 }
             };
-            michal = {};
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2 = {};
+            var1 = var4.bind(var5)(var3, var2);
  57:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    zuuluu['_transformMetadataToSnakeCase'] = michal;
-    return entity;
+    var _closure1_slot3 = var2;
+    var3['_transformMetadataToSnakeCase'] = var2;
+    return var1;
 })();

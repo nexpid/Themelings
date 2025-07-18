@@ -1,207 +1,207 @@
 // app/design/components/Colors/shared/Colors.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: toRGBAString
-        michal = argFoo;
-        entity = michal.rgba;
-        tangon = entity.bind(michal)();
-        zuuluu = _closure1_slot2;
-        michal = undefined;
-        entity = 4;
-        michal = zuuluu.bind(michal)(tangon, entity);
-        entity = 0;
-        sizing = michal[entity];
-        entity = 1;
-        backup = michal[entity];
-        entity = 2;
-        romeon = michal[entity];
-        entity = 3;
-        offset = michal[entity];
-        entity = global;
-        entity = entity.HermesInternal;
-        tangon = entity.concat;
-        output = 'rgba(';
-        michal = ', ';
-        verify = ')';
-        kiloes = michal;
-        foxtra = michal;
-        yankee = michal;
-        entity = output[tangon](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify, option);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function toRGBAString(arg1) {
+        var2 = arg1;
+        var1 = var2.rgba;
+        var4 = var1.bind(var2)();
+        var3 = _closure1_slot2;
+        var2 = undefined;
+        var1 = 4;
+        var2 = var3.bind(var2)(var4, var1);
+        var1 = 0;
+        var16 = var2[var1];
+        var1 = 1;
+        var14 = var2[var1];
+        var1 = 2;
+        var12 = var2[var1];
+        var1 = 3;
+        var10 = var2[var1];
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var17 = 'rgba(';
+        var2 = ', ';
+        var9 = ')';
+        var15 = var2;
+        var13 = var2;
+        var11 = var2;
+        var1 = var17[var4](var16, var15, var14, var13, var12, var11, var10, var9, var8);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = {'NonText': 3, 'Text': 4.5, 'HighContrastText': 7};
-    var _closure1_slot3 = tangon;
-    report = 2;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'design/components/Colors/shared/Colors.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['WCAGContrastRatios'] = tangon;
-    tangon = function(argFoo) { // Original name: getContrastingColor
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = {'NonText': 3, 'Text': 4.5, 'HighContrastText': 7};
+    var _closure1_slot3 = var4;
+    var5 = 2;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'design/components/Colors/shared/Colors.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['WCAGContrastRatios'] = var4;
+    var4 = function getContrastingColor(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            michal = arguments[1];
-            zuuluu = undefined;
-            if(!(michal === zuuluu)) { _fun00002_ip = 14; continue _fun00001 }
+            var6 = arg1;
+            var2 = arguments[1];
+            var3 = undefined;
+            if(!(var2 === var3)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            michal = {};
+            var2 = {};
  14:
-            foxtra = michal.contrastRatio;
-            golfie = null;
-            if(!(golfie == foxtra)) { _fun00002_ip = 39; continue _fun00001 }
+            var13 = var2.contrastRatio;
+            var7 = null;
+            if(!(var7 == var13)) { _fun0001_ip = 39; continue _fun0001 }
  26:
-            entity = _closure1_slot3;
-            foxtra = entity.NonText;
+            var1 = _closure1_slot3;
+            var13 = var1.NonText;
  39:
-            entity = michal.tolerance;
-            tangon = golfie != entity;
-            romeon = 3;
-            if(!tangon) { _fun00002_ip = 60; continue _fun00001 }
+            var1 = var2.tolerance;
+            var4 = var7 != var1;
+            var12 = 3;
+            if(!var4) { _fun0001_ip = 60; continue _fun0001 }
  57:
-            romeon = entity;
+            var12 = var1;
  60:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            yankee = 1;
-            tangon = tangon[yankee];
-            tangon = report.bind(zuuluu)(tangon);
-            report = michal.base;
-            michal = oscard;
-            if(!(golfie != report)) { _fun00002_ip = 99; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var11 = 1;
+            var4 = var4[var11];
+            var4 = var5.bind(var3)(var4);
+            var5 = var2.base;
+            var2 = var6;
+            if(!(var7 != var5)) { _fun0001_ip = 99; continue _fun0001 }
  96:
-            michal = report;
+            var2 = var5;
  99:
-            offset = tangon.bind(zuuluu)(michal);
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            tangon = michal[yankee];
-            tangon = report.bind(zuuluu)(tangon);
-            tangon = tangon.bind(zuuluu)(oscard);
-            oscard = offset.luminance;
-            verify = oscard.bind(offset)();
-            michal = michal[yankee];
-            report = report.bind(zuuluu)(michal);
-            michal = report.contrast;
-            report = michal.bind(report)(offset, tangon);
-            option = 99;
-            golfie = 0;
-            oscard = tangon;
+            var10 = var4.bind(var3)(var2);
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var4 = var2[var11];
+            var4 = var5.bind(var3)(var4);
+            var4 = var4.bind(var3)(var6);
+            var6 = var10.luminance;
+            var9 = var6.bind(var10)();
+            var2 = var2[var11];
+            var5 = var5.bind(var3)(var2);
+            var2 = var5.contrast;
+            var5 = var2.bind(var5)(var10, var4);
+            var8 = 99;
+            var7 = 0;
+            var6 = var4;
  165:
-            backup = report < foxtra;
-            michal = foxtra + romeon;
-            kiloes = report > michal;
-            if(backup) { _fun00002_ip = 186; continue _fun00001 }
+            var14 = var5 < var13;
+            var2 = var13 + var12;
+            var15 = var5 > var2;
+            if(var14) { _fun0001_ip = 186; continue _fun0001 }
  180:
-            michal = oscard;
-            if(!kiloes) { _fun00002_ip = 279; continue _fun00001 }
+            var2 = var6;
+            if(!var15) { _fun0001_ip = 279; continue _fun0001 }
  186:
-            tangon = oscard.luminance;
-            tangon = tangon.bind(oscard)();
-            tangon = tangon > verify;
-            if(!kiloes) { _fun00002_ip = 206; continue _fun00001 }
+            var4 = var6.luminance;
+            var4 = var4.bind(var6)();
+            var4 = var4 > var9;
+            if(!var15) { _fun0001_ip = 206; continue _fun0001 }
  203:
-            if(tangon) { _fun00002_ip = 224; continue _fun00001 }
+            if(var4) { _fun0001_ip = 224; continue _fun0001 }
  206:
-            if(!backup) { _fun00002_ip = 212; continue _fun00001 }
+            if(!var14) { _fun0001_ip = 212; continue _fun0001 }
  209:
-            if(!tangon) { _fun00002_ip = 224; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 224; continue _fun0001 }
  212:
-            tangon = oscard.brighten;
-            backup = tangon.bind(oscard)();
-            _fun00002_ip = 234; continue _fun00001;
+            var4 = var6.brighten;
+            var14 = var4.bind(var6)();
+            _fun0001_ip = 234; continue _fun0001;
  224:
-            tangon = oscard.darken;
-            backup = tangon.bind(oscard)();
+            var4 = var6.darken;
+            var14 = var4.bind(var6)();
  234:
-            kiloes = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[yankee];
-            kiloes = kiloes.bind(zuuluu)(tangon);
-            tangon = kiloes.contrast;
-            report = tangon.bind(kiloes)(offset, backup);
-            tangon = parseFloat(option);
-            option = tangon - 1;
-            oscard = backup;
-            michal = oscard;
-            if(tangon > golfie) { _fun00002_ip = 165; continue _fun00001 }
+            var15 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var11];
+            var15 = var15.bind(var3)(var4);
+            var4 = var15.contrast;
+            var5 = var4.bind(var15)(var10, var14);
+            var4 = parseFloat(var8);
+            var8 = var4 - 1;
+            var6 = var14;
+            var2 = var6;
+            if(var4 > var7) { _fun0001_ip = 165; continue _fun0001 }
  279:
-            entity = _closure1_slot4;
-            entity = entity.bind(zuuluu)(michal);
-            return entity;
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var3)(var2);
+            return var1;
         }
     };
-    zuuluu['getContrastingColor'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: darkenColor
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        entity = michal[entity];
-        michal = undefined;
-        tangon = tangon.bind(michal)(entity);
-        entity = argFoo;
-        report = tangon.bind(michal)(entity);
-        tangon = report.darken;
-        entity = argBar;
-        entity = tangon.bind(report)(entity);
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['getContrastingColor'] = var4;
+    var4 = function darkenColor(arg1, arg2) {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var1 = var2[var1];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var1);
+        var1 = arg1;
+        var5 = var4.bind(var2)(var1);
+        var4 = var5.darken;
+        var1 = arg2;
+        var1 = var4.bind(var5)(var1);
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['darkenColor'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: brightenColor
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        entity = michal[entity];
-        michal = undefined;
-        tangon = tangon.bind(michal)(entity);
-        entity = argFoo;
-        report = tangon.bind(michal)(entity);
-        tangon = report.brighten;
-        entity = argBar;
-        entity = tangon.bind(report)(entity);
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['darkenColor'] = var4;
+    var4 = function brightenColor(arg1, arg2) {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var1 = var2[var1];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var1);
+        var1 = arg1;
+        var5 = var4.bind(var2)(var1);
+        var4 = var5.brighten;
+        var1 = arg2;
+        var1 = var4.bind(var5)(var1);
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['brightenColor'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: setColorOpacity
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        entity = michal[entity];
-        michal = undefined;
-        tangon = tangon.bind(michal)(entity);
-        entity = argFoo;
-        report = tangon.bind(michal)(entity);
-        tangon = report.alpha;
-        entity = argBar;
-        entity = tangon.bind(report)(entity);
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['brightenColor'] = var4;
+    var2 = function setColorOpacity(arg1, arg2) {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var1 = var2[var1];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var1);
+        var1 = arg1;
+        var5 = var4.bind(var2)(var1);
+        var4 = var5.alpha;
+        var1 = arg2;
+        var1 = var4.bind(var5)(var1);
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['setColorOpacity'] = michal;
-    return entity;
+    var3['setColorOpacity'] = var2;
+    return var1;
 })();

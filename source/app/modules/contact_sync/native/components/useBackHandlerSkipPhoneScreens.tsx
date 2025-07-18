@@ -1,120 +1,120 @@
 // app/modules/contact_sync/native/components/useBackHandlerSkipPhoneScreens.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ContactSyncScenes;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/contact_sync/native/components/useBackHandlerSkipPhoneScreens.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useBackHandlerSkipPhoneScreens
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.useNavigatorBackPressHandler;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ContactSyncScenes;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/contact_sync/native/components/useBackHandlerSkipPhoneScreens.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useBackHandlerSkipPhoneScreens(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.useNavigatorBackPressHandler;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot1;
-                michal = null;
-                if(!(michal == zuuluu)) { _fun00002_ip = 157; continue _fun00001 }
+                var3 = _closure2_slot1;
+                var2 = null;
+                if(!(var2 == var3)) { _fun0001_ip = 157; continue _fun0001 }
  16:
-                zuuluu = _closure2_slot0;
-                michal = _closure1_slot3;
-                tangon = michal.ADD_PHONE;
-                oscard = new Array(3);
-                oscard[0] = tangon;
-                tangon = michal.VERIFY_PHONE;
-                oscard[1] = tangon;
-                michal = michal.VERIFY_PASSWORD;
-                oscard[2] = michal;
-                michal = zuuluu.getState;
-                michal = michal.bind(zuuluu)();
-                michal = michal.routes;
-                tangon = michal.length;
-                report = 2;
-                if(!(!(tangon <= report))) { _fun00002_ip = 145; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var2 = _closure1_slot3;
+                var4 = var2.ADD_PHONE;
+                var6 = new Array(3);
+                var6[0] = var4;
+                var4 = var2.VERIFY_PHONE;
+                var6[1] = var4;
+                var2 = var2.VERIFY_PASSWORD;
+                var6[2] = var2;
+                var2 = var3.getState;
+                var2 = var2.bind(var3)();
+                var2 = var2.routes;
+                var4 = var2.length;
+                var5 = 2;
+                if(!(!(var4 <= var5))) { _fun0001_ip = 145; continue _fun0001 }
  89:
-                tangon = michal.length;
-                tangon = tangon - report;
-                tangon = michal[tangon];
-                report = oscard.includes;
-                tangon = tangon.name;
-                tangon = report.bind(oscard)(tangon);
-                if(!tangon) { _fun00002_ip = 167; continue _fun00001 }
+                var4 = var2.length;
+                var4 = var4 - var5;
+                var4 = var2[var4];
+                var5 = var6.includes;
+                var4 = var4.name;
+                var4 = var5.bind(var6)(var4);
+                if(!var4) { _fun0001_ip = 167; continue _fun0001 }
  120:
-                tangon = zuuluu.pop;
-                report = michal.length;
-                michal = 1;
-                michal = report - michal;
-                michal = tangon.bind(zuuluu)(michal);
-                _fun00002_ip = 167; continue _fun00001;
+                var4 = var3.pop;
+                var5 = var2.length;
+                var2 = 1;
+                var2 = var5 - var2;
+                var2 = var4.bind(var3)(var2);
+                _fun0001_ip = 167; continue _fun0001;
  145:
-                michal = zuuluu.pop;
-                michal = michal.bind(zuuluu)();
-                _fun00002_ip = 167; continue _fun00001;
+                var2 = var3.pop;
+                var2 = var2.bind(var3)();
+                _fun0001_ip = 167; continue _fun0001;
  157:
-                michal = _closure2_slot1;
-                entity = undefined;
-                entity = michal.bind(entity)();
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
  167:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
             }
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: useBackHandlerMinimizeApp
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.useNavigatorBackPressHandler;
-        michal = function() {
-            entity = _closure1_slot2;
-            michal = entity.MinimizeApp;
-            entity = michal.minimizeApp;
-            entity = entity.bind(michal)();
-            entity = true;
-            return entity;
+    var3['default'] = var4;
+    var2 = function useBackHandlerMinimizeApp() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.useNavigatorBackPressHandler;
+        var2 = function() {
+            var1 = _closure1_slot2;
+            var2 = var1.MinimizeApp;
+            var1 = var2.minimizeApp;
+            var1 = var1.bind(var2)();
+            var1 = true;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['useBackHandlerMinimizeApp'] = michal;
-    return entity;
+    var3['useBackHandlerMinimizeApp'] = var2;
+    return var1;
 })();

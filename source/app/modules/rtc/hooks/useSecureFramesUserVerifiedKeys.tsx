@@ -1,114 +1,114 @@
 // app/modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useSecureFramesUserVerifiedKeys
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStoresArray;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(zuuluu);
-            oscard = _closure1_slot3;
-            report = oscard.getUserVerifiedKeys;
-            michal = _closure2_slot0;
-            michal = report.bind(oscard)(michal);
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.entries;
-            tangon = michal.bind(zuuluu)();
-            zuuluu = tangon.map;
-            michal = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rtc/hooks/useSecureFramesUserVerifiedKeys.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useSecureFramesUserVerifiedKeys(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStoresArray;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 2;
+            var3 = var4[var3];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var3);
+            var6 = _closure1_slot3;
+            var5 = var6.getUserVerifiedKeys;
+            var2 = _closure2_slot0;
+            var2 = var5.bind(var6)(var2);
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.entries;
+            var4 = var2.bind(var3)();
+            var3 = var4.map;
+            var2 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    report = argFoo;
-                    entity = report[Symbol.iterator];
-                    report = entity().next;
-                    michal = report().value;
-                    zuuluu = entity;
-                    golfie = undefined;
-                    tangon = zuuluu === golfie;
-                    zuuluu = undefined;
-                    if(tangon) { _fun00002_ip = 27; continue _fun00001 }
+                    var5 = arg1;
+                    var1 = var5[Symbol.iterator];
+                    var5 = var1().next;
+                    var2 = var5().value;
+                    var3 = var1;
+                    var7 = undefined;
+                    var4 = var3 === var7;
+                    var3 = undefined;
+                    if(var4) { _fun0001_ip = 27; continue _fun0001 }
  24:
-                    zuuluu = michal;
+                    var3 = var2;
  27:
-                    michal = undefined;
-                    if(tangon) { _fun00002_ip = 57; continue _fun00001 }
+                    var2 = undefined;
+                    if(var4) { _fun0001_ip = 57; continue _fun0001 }
  32:
-                    oscard = report().value;
-                    report = entity;
-                    report = report === golfie;
-                    michal = undefined;
-                    tangon = report;
-                    if(report) { _fun00002_ip = 57; continue _fun00001 }
+                    var6 = var5().value;
+                    var5 = var1;
+                    var5 = var5 === var7;
+                    var2 = undefined;
+                    var4 = var5;
+                    if(var5) { _fun0001_ip = 57; continue _fun0001 }
  51:
-                    michal = oscard;
-                    tangon = report;
+                    var2 = var6;
+                    var4 = var5;
  57:
-                    if(tangon) { _fun00002_ip = 63; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 63; continue _fun0001 }
  60:
-                    entity.return();
+                    var1.return();
  63:
-                    entity = {};
-                    entity['verifiedKey'] = zuuluu;
-                    entity['timestamp'] = michal;
-                    return entity;
+                    var1 = {};
+                    var1['verifiedKey'] = var3;
+                    var1['timestamp'] = var2;
+                    return var1;
                 }
             };
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.sortBy;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.timestamp;
-                entity = -1;
-                entity = entity * michal;
-                return entity;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.sortBy;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.timestamp;
+                var1 = -1;
+                var1 = var1 * var2;
+                return var1;
             };
-            michal = michal.bind(zuuluu)(entity);
-            entity = michal.value;
-            entity = entity.bind(michal)();
-            return entity;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.value;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useSecureFramesUserVerifiedKeys'] = michal;
-    return entity;
+    var3['useSecureFramesUserVerifiedKeys'] = var2;
+    return var1;
 })();

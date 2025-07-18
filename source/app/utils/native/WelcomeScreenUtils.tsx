@@ -1,271 +1,271 @@
 // app/utils/native/WelcomeScreenUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    option = oscard[tangon];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot5 = option;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NO_WELCOME_SCREEN;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.JoinGuildSources;
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    golfie = false;
-    tangon['welcomeScreenModalVisible'] = golfie;
-    tangon['shouldFetchGuildId'] = entity;
-    var _closure1_slot10 = tangon;
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/native/WelcomeScreenUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useShowWelcomeModal
-        option = argFoo;
-        golfie = argBar;
-        var _closure2_slot0 = option;
-        var _closure2_slot1 = golfie;
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 6;
-        entity = oscard[entity];
-        tangon = undefined;
-        verify = report.bind(tangon)(entity);
-        entity = verify.useLocation;
-        entity = entity.bind(verify)();
-        entity = entity.welcomeModalChannelId;
-        var _closure2_slot2 = entity;
-        verify = _closure1_slot1;
-        entity = 7;
-        entity = oscard[entity];
-        entity = verify.bind(tangon)(entity);
-        entity = entity.bind(tangon)(golfie, option);
-        var _closure2_slot3 = entity;
-        entity = 8;
-        entity = oscard[entity];
-        oscard = report.bind(tangon)(entity);
-        report = oscard.useStateFromStoresObject;
-        entity = _closure1_slot8;
-        tangon = new Array(3);
-        tangon[0] = entity;
-        entity = _closure1_slot5;
-        tangon[1] = entity;
-        entity = _closure1_slot7;
-        tangon[2] = entity;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var8 = var6[var4];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NO_WELCOME_SCREEN;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.JoinGuildSources;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var7 = false;
+    var4['welcomeScreenModalVisible'] = var7;
+    var4['shouldFetchGuildId'] = var1;
+    var _closure1_slot10 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/native/WelcomeScreenUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useShowWelcomeModal(arg1, arg2) {
+        var8 = arg1;
+        var7 = arg2;
+        var _closure2_slot0 = var8;
+        var _closure2_slot1 = var7;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var1 = var6[var1];
+        var4 = undefined;
+        var9 = var5.bind(var4)(var1);
+        var1 = var9.useLocation;
+        var1 = var1.bind(var9)();
+        var1 = var1.welcomeModalChannelId;
+        var _closure2_slot2 = var1;
+        var9 = _closure1_slot1;
+        var1 = 7;
+        var1 = var6[var1];
+        var1 = var9.bind(var4)(var1);
+        var1 = var1.bind(var4)(var7, var8);
+        var _closure2_slot3 = var1;
+        var1 = 8;
+        var1 = var6[var1];
+        var6 = var5.bind(var4)(var1);
+        var5 = var6.useStateFromStoresObject;
+        var1 = _closure1_slot8;
+        var4 = new Array(3);
+        var4[0] = var1;
+        var1 = _closure1_slot5;
+        var4[1] = var1;
+        var1 = _closure1_slot7;
+        var4[2] = var1;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot3;
-                if(michal) { _fun00002_ip = 19; continue _fun00001 }
+                var2 = _closure2_slot3;
+                if(var2) { _fun0001_ip = 19; continue _fun0001 }
  13:
-                michal = _closure1_slot10;
-                return michal;
+                var2 = _closure1_slot10;
+                return var2;
  19:
-                zuuluu = _closure1_slot8;
-                michal = zuuluu.getGuild;
-                tangon = _closure2_slot0;
-                zuuluu = michal.bind(zuuluu)(tangon);
-                report = _closure1_slot7;
-                michal = report.getSelectableChannelIds;
-                report = michal.bind(report)(tangon);
-                option = _closure1_slot5;
-                michal = option.get;
-                oscard = michal.bind(option)(tangon);
-                michal = option.hasSeen;
-                michal = michal.bind(option)(tangon);
-                tangon = option.hasError;
-                golfie = tangon.bind(option)();
-                tangon = option.isFetching;
-                option = tangon.bind(option)();
-                tangon = !michal;
-                if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
+                var3 = _closure1_slot8;
+                var2 = var3.getGuild;
+                var4 = _closure2_slot0;
+                var3 = var2.bind(var3)(var4);
+                var5 = _closure1_slot7;
+                var2 = var5.getSelectableChannelIds;
+                var5 = var2.bind(var5)(var4);
+                var8 = _closure1_slot5;
+                var2 = var8.get;
+                var6 = var2.bind(var8)(var4);
+                var2 = var8.hasSeen;
+                var2 = var2.bind(var8)(var4);
+                var4 = var8.hasError;
+                var7 = var4.bind(var8)();
+                var4 = var8.isFetching;
+                var8 = var4.bind(var8)();
+                var4 = !var2;
+                if(!var4) { _fun0001_ip = 107; continue _fun0001 }
  103:
-                tangon = _closure2_slot3;
+                var4 = _closure2_slot3;
  107:
-                if(!tangon) { _fun00002_ip = 122; continue _fun00001 }
+                if(!var4) { _fun0001_ip = 122; continue _fun0001 }
  110:
-                michal = _closure2_slot2;
-                entity = _closure2_slot1;
-                tangon = michal === entity;
+                var2 = _closure2_slot2;
+                var1 = _closure2_slot1;
+                var4 = var2 === var1;
  122:
-                entity = {};
-                michal = tangon;
-                if(!michal) { _fun00002_ip = 136; continue _fun00001 }
+                var1 = {};
+                var2 = var4;
+                if(!var2) { _fun0001_ip = 136; continue _fun0001 }
  130:
-                offset = null;
-                michal = offset != oscard;
+                var10 = null;
+                var2 = var10 != var6;
  136:
-                if(!michal) { _fun00002_ip = 147; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 147; continue _fun0001 }
  139:
-                verify = _closure1_slot6;
-                michal = oscard !== verify;
+                var9 = _closure1_slot6;
+                var2 = var6 !== var9;
  147:
-                if(!michal) { _fun00002_ip = 153; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 153; continue _fun0001 }
  150:
-                michal = !option;
+                var2 = !var8;
  153:
-                if(!michal) { _fun00002_ip = 159; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 159; continue _fun0001 }
  156:
-                michal = !golfie;
+                var2 = !var7;
  159:
-                if(!michal) { _fun00002_ip = 173; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 173; continue _fun0001 }
  162:
-                golfie = report.length;
-                report = 0;
-                michal = golfie > report;
+                var7 = var5.length;
+                var5 = 0;
+                var2 = var7 > var5;
  173:
-                entity['welcomeScreenModalVisible'] = michal;
-                michal = undefined;
-                if(!tangon) { _fun00002_ip = 208; continue _fun00001 }
+                var1['welcomeScreenModalVisible'] = var2;
+                var2 = undefined;
+                if(!var4) { _fun0001_ip = 208; continue _fun0001 }
  183:
-                tangon = null;
-                oscard = tangon == oscard;
-                michal = undefined;
-                if(!oscard) { _fun00002_ip = 208; continue _fun00001 }
+                var4 = null;
+                var6 = var4 == var6;
+                var2 = undefined;
+                if(!var6) { _fun0001_ip = 208; continue _fun0001 }
  194:
-                tangon = tangon != zuuluu;
-                michal = undefined;
-                if(!tangon) { _fun00002_ip = 208; continue _fun00001 }
+                var4 = var4 != var3;
+                var2 = undefined;
+                if(!var4) { _fun0001_ip = 208; continue _fun0001 }
  203:
-                michal = zuuluu.id;
+                var2 = var3.id;
  208:
-                entity['shouldFetchGuildId'] = michal;
-                return entity;
+                var1['shouldFetchGuildId'] = var2;
+                return var1;
             }
         };
-        tangon = report.bind(oscard)(tangon, entity);
-        entity = tangon.welcomeScreenModalVisible;
-        oscard = tangon.shouldFetchGuildId;
-        var _closure2_slot4 = oscard;
-        report = _closure1_slot3;
-        tangon = report.useEffect;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var4 = var5.bind(var6)(var4, var1);
+        var1 = var4.welcomeScreenModalVisible;
+        var6 = var4.shouldFetchGuildId;
+        var _closure2_slot4 = var6;
+        var5 = _closure1_slot3;
+        var4 = var5.useEffect;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure2_slot4;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 53; continue _fun00003 }
+                var3 = _closure2_slot4;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0002_ip = 53; continue _fun0002 }
  13:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 9;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.fetchWelcomeScreen;
-                entity = _closure2_slot4;
-                entity = michal.bind(zuuluu)(entity);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 9;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.fetchWelcomeScreen;
+                var1 = _closure2_slot4;
+                var1 = var2.bind(var3)(var1);
  53:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useShowWelcomeModal'] = tangon;
-    michal = function(argFoo) { // Original name: openWelcomeActionSheet
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useShowWelcomeModal'] = var4;
+    var2 = function openWelcomeActionSheet(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.guildId;
-            var _closure2_slot0 = zuuluu;
-            michal = michal.onHide;
-            var _closure2_slot1 = michal;
-            tangon = function() { // Original name: openWelcomeActionSheet
-                report = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 10;
-                tangon = michal[entity];
-                entity = undefined;
-                oscard = report.bind(entity)(tangon);
-                report = oscard.openLazy;
-                tangon = _closure1_slot0;
-                zuuluu = 12;
-                zuuluu = michal[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = 11;
-                zuuluu = michal[zuuluu];
-                michal = michal.paths;
-                tangon = tangon.bind(entity)(zuuluu, michal);
-                option = _closure2_slot0;
-                michal = global;
-                michal = michal.HermesInternal;
-                zuuluu = michal.concat;
-                michal = 'GuildWelcomeActionSheet';
-                zuuluu = zuuluu.bind(michal)(option);
-                michal = {};
-                michal['guildId'] = option;
-                golfie = _closure2_slot1;
-                michal['onHide'] = golfie;
-                michal = report.bind(oscard)(tangon, zuuluu, michal);
-                return entity;
+            var2 = arg1;
+            var3 = var2.guildId;
+            var _closure2_slot0 = var3;
+            var2 = var2.onHide;
+            var _closure2_slot1 = var2;
+            var4 = function openWelcomeActionSheet() {
+                var5 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 10;
+                var4 = var2[var1];
+                var1 = undefined;
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.openLazy;
+                var4 = _closure1_slot0;
+                var3 = 12;
+                var3 = var2[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = 11;
+                var3 = var2[var3];
+                var2 = var2.paths;
+                var4 = var4.bind(var1)(var3, var2);
+                var8 = _closure2_slot0;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var3 = var2.concat;
+                var2 = 'GuildWelcomeActionSheet';
+                var3 = var3.bind(var2)(var8);
+                var2 = {};
+                var2['guildId'] = var8;
+                var7 = _closure2_slot1;
+                var2['onHide'] = var7;
+                var2 = var5.bind(var6)(var4, var3, var2);
+                return var1;
             };
-            zuuluu = _closure1_slot4;
-            entity = zuuluu.getLurkingSource;
-            report = entity.bind(zuuluu)();
-            entity = null;
-            oscard = entity == report;
-            entity = undefined;
-            zuuluu = undefined;
-            if(oscard) { _fun00006_ip = 66; continue _fun00005 }
+            var3 = _closure1_slot4;
+            var1 = var3.getLurkingSource;
+            var5 = var1.bind(var3)();
+            var1 = null;
+            var6 = var1 == var5;
+            var1 = undefined;
+            var3 = undefined;
+            if(var6) { _fun0003_ip = 66; continue _fun0003 }
  61:
-            zuuluu = report.type;
+            var3 = var5.type;
  66:
-            michal = _closure1_slot9;
-            michal = michal.MOBILE_GUILD_DISCOVERY;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 86; continue _fun00005 }
+            var2 = _closure1_slot9;
+            var2 = var2.MOBILE_GUILD_DISCOVERY;
+            if(!(var3 !== var2)) { _fun0003_ip = 86; continue _fun0003 }
  80:
-            michal = tangon.bind(entity)();
-            _fun00006_ip = 106; continue _fun00005;
+            var2 = var4.bind(var1)();
+            _fun0003_ip = 106; continue _fun0003;
  86:
-            michal = global;
-            zuuluu = michal.setTimeout;
-            michal = 600;
-            michal = zuuluu.bind(entity)(tangon, michal);
+            var2 = global;
+            var3 = var2.setTimeout;
+            var2 = 600;
+            var2 = var3.bind(var1)(var4, var2);
  106:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['openWelcomeActionSheet'] = michal;
-    return entity;
+    var3['openWelcomeActionSheet'] = var2;
+    return var1;
 })();

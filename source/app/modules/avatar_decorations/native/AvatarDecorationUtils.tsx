@@ -1,157 +1,157 @@
 // app/modules/avatar_decorations/native/AvatarDecorationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DECORATION_TO_AVATAR_RATIO;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/avatar_decorations/native/AvatarDecorationUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getDecorationSizeForAvatarSize
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DECORATION_TO_AVATAR_RATIO;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/avatar_decorations/native/AvatarDecorationUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getDecorationSizeForAvatarSize(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = 'number';
-            entity = typeof tangon;
-            if(!(michal === entity)) { _fun00002_ip = 27; continue _fun00001 }
+            var4 = arg1;
+            var2 = 'number';
+            var1 = typeof var4;
+            if(!(var2 === var1)) { _fun0001_ip = 27; continue _fun0001 }
  14:
-            entity = _closure1_slot3;
-            entity = tangon * entity;
-            _fun00002_ip = 70; continue _fun00001;
+            var1 = _closure1_slot3;
+            var1 = var4 * var1;
+            _fun0001_ip = 70; continue _fun0001;
  27:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 1;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            zuuluu = oscard.bind(zuuluu)(report);
-            zuuluu = zuuluu.AVATAR_SIZE_MAP;
-            zuuluu = zuuluu[tangon];
-            michal = _closure1_slot3;
-            entity = zuuluu * michal;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 1;
+            var5 = var5[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = var3.AVATAR_SIZE_MAP;
+            var3 = var3[var4];
+            var2 = _closure1_slot3;
+            var1 = var3 * var2;
  70:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getDecorationSizeForAvatarSize'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getDecorationCutoutForAvatarCutout
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getDecorationSizeForAvatarSize'] = var4;
+    var4 = function getDecorationCutoutForAvatarCutout(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            golfie = argBar;
-            var _closure2_slot0 = golfie;
-            report = null;
-            entity = oscard;
-            if(!(report != entity)) { _fun00004_ip = 153; continue _fun00003 }
+            var6 = arg1;
+            var7 = arg2;
+            var _closure2_slot0 = var7;
+            var5 = null;
+            var1 = var6;
+            if(!(var5 != var1)) { _fun0002_ip = 153; continue _fun0002 }
  24:
-            michal = {};
-            zuuluu = oscard.direction;
-            michal['direction'] = zuuluu;
-            zuuluu = oscard.radius;
-            michal['radius'] = zuuluu;
-            option = oscard.inset;
-            verify = report != option;
-            zuuluu = 0;
-            if(!verify) { _fun00004_ip = 66; continue _fun00003 }
+            var2 = {};
+            var3 = var6.direction;
+            var2['direction'] = var3;
+            var3 = var6.radius;
+            var2['radius'] = var3;
+            var8 = var6.inset;
+            var9 = var5 != var8;
+            var3 = 0;
+            if(!var9) { _fun0002_ip = 66; continue _fun0002 }
  63:
-            zuuluu = option;
+            var3 = var8;
  66:
-            zuuluu = zuuluu + golfie;
-            michal['inset'] = zuuluu;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 1;
-            golfie = golfie[zuuluu];
-            zuuluu = undefined;
-            golfie = option.bind(zuuluu)(golfie);
-            golfie = golfie.CutoutType;
-            golfie = golfie.RECTANGULAR;
-            michal['imageType'] = golfie;
-            oscard = oscard.nativeCutouts;
-            report = report == oscard;
-            if(report) { _fun00004_ip = 145; continue _fun00003 }
+            var3 = var3 + var7;
+            var2['inset'] = var3;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 1;
+            var7 = var7[var3];
+            var3 = undefined;
+            var7 = var8.bind(var3)(var7);
+            var7 = var7.CutoutType;
+            var7 = var7.RECTANGULAR;
+            var2['imageType'] = var7;
+            var6 = var6.nativeCutouts;
+            var5 = var5 == var6;
+            if(var5) { _fun0002_ip = 145; continue _fun0002 }
  130:
-            report = oscard.map;
-            tangon = function(argFoo) {
-                michal = argFoo;
-                entity = {};
-                golfie = entity;
-                oscard = michal;
-                zuuluu = copyDataProperties(golfie, oscard);
-                tangon = michal.x;
-                zuuluu = _closure2_slot0;
-                report = tangon + zuuluu;
-                tangon = 'x';
-                entity[tangon] = report;
-                michal = michal.y;
-                zuuluu = michal + zuuluu;
-                michal = 'y';
-                entity[michal] = zuuluu;
-                return entity;
+            var5 = var6.map;
+            var4 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var7 = var1;
+                var6 = var2;
+                var3 = copyDataProperties(var7, var6);
+                var4 = var2.x;
+                var3 = _closure2_slot0;
+                var5 = var4 + var3;
+                var4 = 'x';
+                var1[var4] = var5;
+                var2 = var2.y;
+                var3 = var2 + var3;
+                var2 = 'y';
+                var1[var2] = var3;
+                return var1;
             };
-            zuuluu = report.bind(oscard)(tangon);
+            var3 = var5.bind(var6)(var4);
  145:
-            michal['nativeCutouts'] = zuuluu;
-            entity = michal;
+            var2['nativeCutouts'] = var3;
+            var1 = var2;
  153:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getDecorationCutoutForAvatarCutout'] = tangon;
-    michal = function(argFoo) { // Original name: openAvatarDecorationActionSheet
-        entity = argFoo;
-        verify = entity.user;
-        option = entity.guildId;
-        golfie = entity.currentAvatarDecoration;
-        michal = entity.analyticsLocations;
-        oscard = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        report = 2;
-        offset = zuuluu[report];
-        entity = undefined;
-        yankee = oscard.bind(entity)(offset);
-        offset = yankee.hideActionSheet;
-        offset = offset.bind(yankee)();
-        report = zuuluu[report];
-        oscard = oscard.bind(entity)(report);
-        report = oscard.openLazy;
-        offset = _closure1_slot0;
-        tangon = 4;
-        tangon = zuuluu[tangon];
-        offset = offset.bind(entity)(tangon);
-        tangon = 3;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = offset.bind(entity)(tangon, zuuluu);
-        zuuluu = {};
-        zuuluu['user'] = verify;
-        zuuluu['guildId'] = option;
-        zuuluu['currentAvatarDecoration'] = golfie;
-        zuuluu['analyticsLocations'] = michal;
-        michal = 'Edit Avatar Decoration';
-        michal = report.bind(oscard)(tangon, michal, zuuluu);
-        return entity;
+    var3['getDecorationCutoutForAvatarCutout'] = var4;
+    var2 = function openAvatarDecorationActionSheet(arg1) {
+        var1 = arg1;
+        var9 = var1.user;
+        var8 = var1.guildId;
+        var7 = var1.currentAvatarDecoration;
+        var2 = var1.analyticsLocations;
+        var6 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var5 = 2;
+        var10 = var3[var5];
+        var1 = undefined;
+        var11 = var6.bind(var1)(var10);
+        var10 = var11.hideActionSheet;
+        var10 = var10.bind(var11)();
+        var5 = var3[var5];
+        var6 = var6.bind(var1)(var5);
+        var5 = var6.openLazy;
+        var10 = _closure1_slot0;
+        var4 = 4;
+        var4 = var3[var4];
+        var10 = var10.bind(var1)(var4);
+        var4 = 3;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var10.bind(var1)(var4, var3);
+        var3 = {};
+        var3['user'] = var9;
+        var3['guildId'] = var8;
+        var3['currentAvatarDecoration'] = var7;
+        var3['analyticsLocations'] = var2;
+        var2 = 'Edit Avatar Decoration';
+        var2 = var5.bind(var6)(var4, var2, var3);
+        return var1;
     };
-    zuuluu['openAvatarDecorationActionSheet'] = michal;
-    return entity;
+    var3['openAvatarDecorationActionSheet'] = var2;
+    return var1;
 })();

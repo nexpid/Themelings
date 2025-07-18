@@ -1,263 +1,263 @@
 // app/modules/media_viewer/native/components/openMediaModal.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: pushLazy
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = function pushLazy(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            output = tangon.initialIndex;
-            entity = undefined;
-            if(!(output === entity)) { _fun00002_ip = 17; continue _fun00001 }
+            var4 = arg1;
+            var17 = var4.initialIndex;
+            var1 = undefined;
+            if(!(var17 === var1)) { _fun0001_ip = 17; continue _fun0001 }
  15:
-            output = 0;
+            var17 = 0;
  17:
-            option = tangon.initialSources;
-            romeon = tangon.swipeVelocityThreshold;
-            if(!(romeon === entity)) { _fun00002_ip = 39; continue _fun00001 }
+            var8 = var4.initialSources;
+            var12 = var4.swipeVelocityThreshold;
+            if(!(var12 === var1)) { _fun0001_ip = 39; continue _fun0001 }
  33:
-            romeon = 1000;
+            var12 = 1000;
  39:
-            oscard = tangon.shareable;
-            if(!(oscard === entity)) { _fun00002_ip = 51; continue _fun00001 }
+            var6 = var4.shareable;
+            if(!(var6 === var1)) { _fun0001_ip = 51; continue _fun0001 }
  49:
-            oscard = true;
+            var6 = true;
  51:
-            golfie = tangon.analyticsSource;
-            yankee = tangon.guildId;
-            offset = tangon.channelId;
-            verify = tangon.channelType;
-            zuuluu = {'initialIndex': 0, 'initialSources': 0, 'swipeVelocityThreshold': 0, 'shareable': 0, 'analyticsSource': 0, 'guildId': 0, 'channelId': 0, 'channelType': 0};
-            update = null;
-            source = zuuluu;
-            michal = silentSetPrototypeOf(source, update);
-            source = {};
-            update = tangon;
-            echoed = zuuluu;
-            update = copyDataProperties(source, update, echoed);
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            report = 1;
-            report = tangon[report];
-            kiloes = zuuluu.bind(entity)(report);
-            backup = kiloes.setMediaViewerSources;
-            report = {};
-            report['sources'] = option;
-            report['initialIndex'] = output;
-            report = backup.bind(kiloes)(report);
-            report = _closure1_slot1;
-            backup = 2;
-            backup = tangon[backup];
-            sizing = report.bind(entity)(backup);
-            kiloes = sizing.pushLazy;
-            backup = {};
-            source = backup;
-            michal = copyDataProperties(source, update);
-            michal = 'initialIndex';
-            backup[michal] = output;
-            michal = 'swipeVelocityThreshold';
-            backup[michal] = romeon;
-            michal = 'shareable';
-            backup[michal] = oscard;
-            echoed = _closure1_slot5;
-            result = _closure1_slot6;
-            source = function() {
-                entity = global;
-                zuuluu = entity.Promise;
-                michal = zuuluu.resolve;
-                report = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 3;
-                tangon = tangon[entity];
-                entity = undefined;
-                entity = report.bind(entity)(tangon);
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = var4.analyticsSource;
+            var11 = var4.guildId;
+            var10 = var4.channelId;
+            var9 = var4.channelType;
+            var3 = {'initialIndex': 0, 'initialSources': 0, 'swipeVelocityThreshold': 0, 'shareable': 0, 'analyticsSource': 0, 'guildId': 0, 'channelId': 0, 'channelType': 0};
+            var20 = null;
+            var21 = var3;
+            var2 = silentSetPrototypeOf(var21, var20);
+            var21 = {};
+            var20 = var4;
+            var19 = var3;
+            var20 = copyDataProperties(var21, var20, var19);
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var5 = 1;
+            var5 = var4[var5];
+            var15 = var3.bind(var1)(var5);
+            var14 = var15.setMediaViewerSources;
+            var5 = {};
+            var5['sources'] = var8;
+            var5['initialIndex'] = var17;
+            var5 = var14.bind(var15)(var5);
+            var5 = _closure1_slot1;
+            var14 = 2;
+            var14 = var4[var14];
+            var16 = var5.bind(var1)(var14);
+            var15 = var16.pushLazy;
+            var14 = {};
+            var21 = var14;
+            var2 = copyDataProperties(var21, var20);
+            var2 = 'initialIndex';
+            var14[var2] = var17;
+            var2 = 'swipeVelocityThreshold';
+            var14[var2] = var12;
+            var2 = 'shareable';
+            var14[var2] = var6;
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot6;
+            var21 = function() {
+                var1 = global;
+                var3 = var1.Promise;
+                var2 = var3.resolve;
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 3;
+                var4 = var4[var1];
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4);
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            ctrled = sizing;
-            update = backup;
-            michal = ctrled[kiloes](source, update, echoed, result, output);
-            michal = 4;
-            michal = tangon[michal];
-            romeon = report.bind(entity)(michal);
-            oscard = romeon.track;
-            michal = _closure1_slot3;
-            report = michal.OPEN_MODAL;
-            michal = {};
-            foxtra = _closure1_slot4;
-            foxtra = foxtra.MEDIA_VIEWER;
-            michal['type'] = foxtra;
-            michal['source'] = golfie;
-            michal['channel_id'] = offset;
-            michal['channel_type'] = verify;
-            michal = oscard.bind(romeon)(report, michal);
-            michal = 5;
-            michal = tangon[michal];
-            oscard = zuuluu.bind(entity)(michal);
-            report = oscard.startMediaViewerSession;
-            michal = {};
-            michal['guildId'] = yankee;
-            michal['channelId'] = offset;
-            michal['channelType'] = verify;
-            option = option.length;
-            michal['numMediaItems'] = option;
-            michal['source'] = golfie;
-            michal = report.bind(oscard)(michal);
-            michal = 6;
-            michal = tangon[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.initVideoStateStore;
-            michal = michal.bind(zuuluu)();
-            return entity;
+            var22 = var16;
+            var20 = var14;
+            var2 = var22[var15](var21, var20, var19, var18, var17);
+            var2 = 4;
+            var2 = var4[var2];
+            var12 = var5.bind(var1)(var2);
+            var6 = var12.track;
+            var2 = _closure1_slot3;
+            var5 = var2.OPEN_MODAL;
+            var2 = {};
+            var13 = _closure1_slot4;
+            var13 = var13.MEDIA_VIEWER;
+            var2['type'] = var13;
+            var2['source'] = var7;
+            var2['channel_id'] = var10;
+            var2['channel_type'] = var9;
+            var2 = var6.bind(var12)(var5, var2);
+            var2 = 5;
+            var2 = var4[var2];
+            var6 = var3.bind(var1)(var2);
+            var5 = var6.startMediaViewerSession;
+            var2 = {};
+            var2['guildId'] = var11;
+            var2['channelId'] = var10;
+            var2['channelType'] = var9;
+            var8 = var8.length;
+            var2['numMediaItems'] = var8;
+            var2['source'] = var7;
+            var2 = var5.bind(var6)(var2);
+            var2 = 6;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.initVideoStateStore;
+            var2 = var2.bind(var3)();
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot3 = golfie;
-    golfie = tangon.AnalyticsSections;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.MEDIA_MODAL_KEY;
-    var _closure1_slot5 = tangon;
-    tangon = {};
-    golfie = 'none';
-    tangon['animation'] = golfie;
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_viewer/native/components/openMediaModal.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: openMediaModal
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot3 = var7;
+    var7 = var4.AnalyticsSections;
+    var _closure1_slot4 = var7;
+    var4 = var4.MEDIA_MODAL_KEY;
+    var _closure1_slot5 = var4;
+    var4 = {};
+    var7 = 'none';
+    var4['animation'] = var7;
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_viewer/native/components/openMediaModal.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openMediaModal(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = argBar;
-            var _closure2_slot0 = michal;
-            oscard = michal.originLayout;
-            var _closure2_slot1 = oscard;
-            tangon = null;
-            if(!(tangon == zuuluu)) { _fun00004_ip = 69; continue _fun00003 }
+            var2 = arg1;
+            var3 = arg2;
+            var _closure2_slot0 = var2;
+            var6 = var2.originLayout;
+            var _closure2_slot1 = var6;
+            var4 = null;
+            if(!(var4 == var3)) { _fun0002_ip = 69; continue _fun0002 }
  28:
-            if(!(tangon != oscard)) { _fun00004_ip = 85; continue _fun00003 }
+            if(!(var4 != var6)) { _fun0002_ip = 85; continue _fun0002 }
  32:
-            report = _closure1_slot7;
-            tangon = {};
-            option = tangon;
-            golfie = michal;
-            michal = copyDataProperties(option, golfie);
-            michal = 'originLayout';
-            tangon[michal] = oscard;
-            michal = undefined;
-            michal = report.bind(michal)(tangon);
-            _fun00004_ip = 85; continue _fun00003;
+            var5 = _closure1_slot7;
+            var4 = {};
+            var8 = var4;
+            var7 = var2;
+            var2 = copyDataProperties(var8, var7);
+            var2 = 'originLayout';
+            var4[var2] = var6;
+            var2 = undefined;
+            var2 = var5.bind(var2)(var4);
+            _fun0002_ip = 85; continue _fun0002;
  69:
-            michal = zuuluu.measureInWindow;
-            entity = function(argFoo, argBar, argBaz, argCor) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var2 = var3.measureInWindow;
+            var1 = function(arg1, arg2, arg3, arg4) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    oscard = argBaz;
-                    tangon = argCor;
-                    zuuluu = _closure1_slot7;
-                    michal = {};
-                    foxtra = _closure2_slot0;
-                    backup = michal;
-                    entity = copyDataProperties(backup, foxtra);
-                    report = {};
-                    entity = _closure2_slot1;
-                    golfie = null;
-                    verify = golfie == entity;
-                    entity = undefined;
-                    offset = undefined;
-                    if(verify) { _fun00006_ip = 57; continue _fun00005 }
+                    var6 = arg3;
+                    var4 = arg4;
+                    var3 = _closure1_slot7;
+                    var2 = {};
+                    var13 = _closure2_slot0;
+                    var14 = var2;
+                    var1 = copyDataProperties(var14, var13);
+                    var5 = {};
+                    var1 = _closure2_slot1;
+                    var7 = null;
+                    var9 = var7 == var1;
+                    var1 = undefined;
+                    var10 = undefined;
+                    if(var9) { _fun0003_ip = 57; continue _fun0003 }
  48:
-                    verify = _closure2_slot1;
-                    offset = verify.width;
+                    var9 = _closure2_slot1;
+                    var10 = var9.width;
  57:
-                    verify = oscard;
-                    if(!(golfie != offset)) { _fun00006_ip = 67; continue _fun00005 }
+                    var9 = var6;
+                    if(!(var7 != var10)) { _fun0003_ip = 67; continue _fun0003 }
  64:
-                    verify = offset;
+                    var9 = var10;
  67:
-                    verify = verify - oscard;
-                    offset = 2;
-                    yankee = verify / offset;
-                    verify = argFoo;
-                    verify = verify - yankee;
-                    report['x'] = verify;
-                    verify = _closure2_slot1;
-                    verify = golfie == verify;
-                    yankee = undefined;
-                    if(verify) { _fun00006_ip = 111; continue _fun00005 }
+                    var9 = var9 - var6;
+                    var10 = 2;
+                    var11 = var9 / var10;
+                    var9 = arg1;
+                    var9 = var9 - var11;
+                    var5['x'] = var9;
+                    var9 = _closure2_slot1;
+                    var9 = var7 == var9;
+                    var11 = undefined;
+                    if(var9) { _fun0003_ip = 111; continue _fun0003 }
  102:
-                    verify = _closure2_slot1;
-                    yankee = verify.height;
+                    var9 = _closure2_slot1;
+                    var11 = var9.height;
  111:
-                    verify = tangon;
-                    if(!(golfie != yankee)) { _fun00006_ip = 121; continue _fun00005 }
+                    var9 = var4;
+                    if(!(var7 != var11)) { _fun0003_ip = 121; continue _fun0003 }
  118:
-                    verify = yankee;
+                    var9 = var11;
  121:
-                    verify = verify - tangon;
-                    offset = verify / offset;
-                    verify = argBar;
-                    verify = verify - offset;
-                    report['y'] = verify;
-                    verify = _closure2_slot1;
-                    offset = golfie == verify;
-                    verify = undefined;
-                    if(offset) { _fun00006_ip = 162; continue _fun00005 }
+                    var9 = var9 - var4;
+                    var10 = var9 / var10;
+                    var9 = arg2;
+                    var9 = var9 - var10;
+                    var5['y'] = var9;
+                    var9 = _closure2_slot1;
+                    var10 = var7 == var9;
+                    var9 = undefined;
+                    if(var10) { _fun0003_ip = 162; continue _fun0003 }
  153:
-                    offset = _closure2_slot1;
-                    verify = offset.width;
+                    var10 = _closure2_slot1;
+                    var9 = var10.width;
  162:
-                    if(!(golfie != verify)) { _fun00006_ip = 169; continue _fun00005 }
+                    if(!(var7 != var9)) { _fun0003_ip = 169; continue _fun0003 }
  166:
-                    oscard = verify;
+                    var6 = var9;
  169:
-                    report['width'] = oscard;
-                    oscard = _closure2_slot1;
-                    verify = golfie == oscard;
-                    oscard = undefined;
-                    if(verify) { _fun00006_ip = 195; continue _fun00005 }
+                    var5['width'] = var6;
+                    var6 = _closure2_slot1;
+                    var9 = var7 == var6;
+                    var6 = undefined;
+                    if(var9) { _fun0003_ip = 195; continue _fun0003 }
  186:
-                    option = _closure2_slot1;
-                    oscard = option.height;
+                    var8 = _closure2_slot1;
+                    var6 = var8.height;
  195:
-                    if(!(golfie != oscard)) { _fun00006_ip = 202; continue _fun00005 }
+                    if(!(var7 != var6)) { _fun0003_ip = 202; continue _fun0003 }
  199:
-                    tangon = oscard;
+                    var4 = var6;
  202:
-                    report['height'] = tangon;
-                    tangon = 'originLayout';
-                    michal[tangon] = report;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var5['height'] = var4;
+                    var4 = 'originLayout';
+                    var2[var4] = var5;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
+            var1 = var2.bind(var3)(var1);
  85:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['openMediaModal'] = michal;
-    return entity;
+    var3['openMediaModal'] = var2;
+    return var1;
 })();

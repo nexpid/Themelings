@@ -1,128 +1,128 @@
 // discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    report = {};
-    oscard = 0;
-    report['SKIP_MIGRATION'] = oscard;
-    entity = 'SKIP_MIGRATION';
-    report[oscard] = entity;
-    golfie = 1;
-    report['SEND_DATA'] = golfie;
-    entity = 'SEND_DATA';
-    report[golfie] = entity;
-    tangon = 2;
-    report['DATA_MIGRATED'] = tangon;
-    entity = 'DATA_MIGRATED';
-    report[tangon] = entity;
-    tangon = 3;
-    report['DATA_MIGRATED_CONFIRMED'] = tangon;
-    entity = 'DATA_MIGRATED_CONFIRMED';
-    report[tangon] = entity;
-    tangon = {};
-    tangon['MIGRATION_SOURCE_DOMAIN'] = oscard;
-    entity = 'MIGRATION_SOURCE_DOMAIN';
-    tangon[oscard] = entity;
-    tangon['MIGRATION_DESTINATION_DOMAIN'] = golfie;
-    entity = 'MIGRATION_DESTINATION_DOMAIN';
-    tangon[golfie] = entity;
-    var _closure1_slot0 = tangon;
-    entity = argPlu;
-    golfie = entity[oscard];
-    oscard = argBar;
-    entity = undefined;
-    option = oscard.bind(entity)(golfie);
-    golfie = option.fileFinishedImporting;
-    oscard = '../discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['DomainMigrationEventType'] = report;
-    zuuluu['DomainMigrationMessageFrom'] = tangon;
-    tangon = 'domainMigrationSuccess';
-    zuuluu['DOMAIN_MIGRATION_SUCCESS_KEY'] = tangon;
-    tangon = 'domainMigrationFailed';
-    zuuluu['DOMAIN_MIGRATION_FAILED_KEY'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: sendPostMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var5 = {};
+    var6 = 0;
+    var5['SKIP_MIGRATION'] = var6;
+    var1 = 'SKIP_MIGRATION';
+    var5[var6] = var1;
+    var7 = 1;
+    var5['SEND_DATA'] = var7;
+    var1 = 'SEND_DATA';
+    var5[var7] = var1;
+    var4 = 2;
+    var5['DATA_MIGRATED'] = var4;
+    var1 = 'DATA_MIGRATED';
+    var5[var4] = var1;
+    var4 = 3;
+    var5['DATA_MIGRATED_CONFIRMED'] = var4;
+    var1 = 'DATA_MIGRATED_CONFIRMED';
+    var5[var4] = var1;
+    var4 = {};
+    var4['MIGRATION_SOURCE_DOMAIN'] = var6;
+    var1 = 'MIGRATION_SOURCE_DOMAIN';
+    var4[var6] = var1;
+    var4['MIGRATION_DESTINATION_DOMAIN'] = var7;
+    var1 = 'MIGRATION_DESTINATION_DOMAIN';
+    var4[var7] = var1;
+    var _closure1_slot0 = var4;
+    var1 = native7;
+    var7 = var1[var6];
+    var6 = native2;
+    var1 = undefined;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = '../discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['DomainMigrationEventType'] = var5;
+    var3['DomainMigrationMessageFrom'] = var4;
+    var4 = 'domainMigrationSuccess';
+    var3['DOMAIN_MIGRATION_SUCCESS_KEY'] = var4;
+    var4 = 'domainMigrationFailed';
+    var3['DOMAIN_MIGRATION_FAILED_KEY'] = var4;
+    var4 = function sendPostMessage(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argBar;
-            entity = _closure1_slot0;
-            michal = entity.MIGRATION_SOURCE_DOMAIN;
-            entity = argBaz;
-            if(!(entity !== michal)) { _fun00002_ip = 45; continue _fun00001 }
+            var4 = arg2;
+            var1 = _closure1_slot0;
+            var2 = var1.MIGRATION_SOURCE_DOMAIN;
+            var1 = arg3;
+            if(!(var1 !== var2)) { _fun0001_ip = 45; continue _fun0001 }
  23:
-            entity = global;
-            entity = entity.window;
-            entity = entity.GLOBAL_ENV;
-            zuuluu = entity.MIGRATION_SOURCE_ORIGIN;
-            _fun00002_ip = 65; continue _fun00001;
+            var1 = global;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var3 = var1.MIGRATION_SOURCE_ORIGIN;
+            _fun0001_ip = 65; continue _fun0001;
  45:
-            entity = global;
-            entity = entity.window;
-            entity = entity.GLOBAL_ENV;
-            zuuluu = entity.MIGRATION_DESTINATION_ORIGIN;
+            var1 = global;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var3 = var1.MIGRATION_DESTINATION_ORIGIN;
  65:
-            michal = tangon.postMessage;
-            entity = {};
-            report = argFoo;
-            entity['domainMigrationEvent'] = report;
-            entity = michal.bind(tangon)(entity, zuuluu);
-            entity = undefined;
-            return entity;
+            var2 = var4.postMessage;
+            var1 = {};
+            var5 = arg1;
+            var1['domainMigrationEvent'] = var5;
+            var1 = var2.bind(var4)(var1, var3);
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['sendPostMessage'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: extractMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['sendPostMessage'] = var4;
+    var2 = function extractMessage(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot0;
-            michal = entity.MIGRATION_SOURCE_DOMAIN;
-            entity = argBar;
-            if(!(entity !== michal)) { _fun00004_ip = 45; continue _fun00003 }
+            var3 = arg1;
+            var1 = _closure1_slot0;
+            var2 = var1.MIGRATION_SOURCE_DOMAIN;
+            var1 = arg2;
+            if(!(var1 !== var2)) { _fun0002_ip = 45; continue _fun0002 }
  23:
-            entity = global;
-            entity = entity.window;
-            entity = entity.GLOBAL_ENV;
-            michal = entity.MIGRATION_SOURCE_ORIGIN;
-            _fun00004_ip = 65; continue _fun00003;
+            var1 = global;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var2 = var1.MIGRATION_SOURCE_ORIGIN;
+            _fun0002_ip = 65; continue _fun0002;
  45:
-            entity = global;
-            entity = entity.window;
-            entity = entity.GLOBAL_ENV;
-            michal = entity.MIGRATION_DESTINATION_ORIGIN;
+            var1 = global;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var2 = var1.MIGRATION_DESTINATION_ORIGIN;
  65:
-            entity = zuuluu.origin;
-            tangon = entity === michal;
-            if(!tangon) { _fun00004_ip = 95; continue _fun00003 }
+            var1 = var3.origin;
+            var4 = var1 === var2;
+            if(!var4) { _fun0002_ip = 95; continue _fun0002 }
  78:
-            entity = zuuluu.data;
-            michal = entity.domainMigrationEvent;
-            entity = null;
-            tangon = entity != michal;
+            var1 = var3.data;
+            var2 = var1.domainMigrationEvent;
+            var1 = null;
+            var4 = var1 != var2;
  95:
-            michal = null;
-            entity = null;
-            if(!tangon) { _fun00004_ip = 125; continue _fun00003 }
+            var2 = null;
+            var1 = null;
+            if(!var4) { _fun0002_ip = 125; continue _fun0002 }
  102:
-            zuuluu = zuuluu.data;
-            tangon = michal == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 122; continue _fun00003 }
+            var3 = var3.data;
+            var4 = var2 == var3;
+            var2 = undefined;
+            if(var4) { _fun0002_ip = 122; continue _fun0002 }
  116:
-            michal = zuuluu.domainMigrationEvent;
+            var2 = var3.domainMigrationEvent;
  122:
-            entity = michal;
+            var1 = var2;
  125:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['extractMessage'] = michal;
-    return entity;
+    var3['extractMessage'] = var2;
+    return var1;
 })();

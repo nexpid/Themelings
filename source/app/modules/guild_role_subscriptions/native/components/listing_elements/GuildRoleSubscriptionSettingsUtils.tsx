@@ -1,64 +1,64 @@
 // app/modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getCoverImageURI
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/native/components/listing_elements/GuildRoleSubscriptionSettingsUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getCoverImageURI(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = _closure1_slot2;
-            tangon = report.getApplicationIdForGuild;
-            michal = entity.guild_id;
-            oscard = tangon.bind(report)(michal);
-            report = null;
-            tangon = report != oscard;
-            if(!tangon) { _fun00002_ip = 47; continue _fun00001 }
+            var1 = arg1;
+            var5 = _closure1_slot2;
+            var4 = var5.getApplicationIdForGuild;
+            var2 = var1.guild_id;
+            var6 = var4.bind(var5)(var2);
+            var5 = null;
+            var4 = var5 != var6;
+            if(!var4) { _fun0001_ip = 47; continue _fun0001 }
  37:
-            michal = entity.cover_image_asset;
-            tangon = report != michal;
+            var2 = var1.cover_image_asset;
+            var4 = var5 != var2;
  47:
-            michal = '';
-            if(!tangon) { _fun00002_ip = 101; continue _fun00001 }
+            var2 = '';
+            if(!var4) { _fun0001_ip = 101; continue _fun0001 }
  54:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 1;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            report = report.bind(zuuluu)(tangon);
-            tangon = report.getAssetURL;
-            zuuluu = entity.cover_image_asset;
-            entity = 1024;
-            michal = tangon.bind(report)(oscard, zuuluu, entity);
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 1;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.getAssetURL;
+            var3 = var1.cover_image_asset;
+            var1 = 1024;
+            var2 = var4.bind(var5)(var6, var3, var1);
  101:
-            entity = {};
-            entity['uri'] = michal;
-            return entity;
+            var1 = {};
+            var1['uri'] = var2;
+            return var1;
         }
     };
-    zuuluu['getCoverImageURI'] = michal;
-    return entity;
+    var3['getCoverImageURI'] = var2;
+    return var1;
 })();

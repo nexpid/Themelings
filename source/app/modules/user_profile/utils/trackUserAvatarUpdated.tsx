@@ -1,97 +1,97 @@
 // app/modules/user_profile/utils/trackUserAvatarUpdated.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/utils/trackUserAvatarUpdated.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: trackUserAvatarUpdated
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/utils/trackUserAvatarUpdated.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function trackUserAvatarUpdated(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            backup = michal.avatarHash;
-            yankee = michal.avatarId;
-            verify = michal.isGuildProfile;
-            entity = undefined;
-            if(!(verify === entity)) { _fun00002_ip = 29; continue _fun00001 }
+            var2 = arg1;
+            var14 = var2.avatarHash;
+            var11 = var2.avatarId;
+            var9 = var2.isGuildProfile;
+            var1 = undefined;
+            if(!(var9 === var1)) { _fun0001_ip = 29; continue _fun0001 }
  27:
-            verify = false;
+            var9 = false;
  29:
-            golfie = michal.avatarAssetOrigin;
-            if(!(golfie === entity)) { _fun00002_ip = 74; continue _fun00001 }
+            var7 = var2.avatarAssetOrigin;
+            if(!(var7 === var1)) { _fun0001_ip = 74; continue _fun0001 }
  39:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 1;
-            michal = tangon[michal];
-            michal = zuuluu.bind(entity)(michal);
-            michal = michal.AssetOriginTypes;
-            golfie = michal.NEW_ASSET;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 1;
+            var2 = var4[var2];
+            var2 = var3.bind(var1)(var2);
+            var2 = var2.AssetOriginTypes;
+            var7 = var2.NEW_ASSET;
  74:
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 2;
-            michal = option[michal];
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.track;
-            michal = _closure1_slot3;
-            zuuluu = michal.USER_AVATAR_UPDATED;
-            michal = {};
-            offset = _closure1_slot0;
-            romeon = 3;
-            romeon = option[romeon];
-            foxtra = offset.bind(entity)(romeon);
-            romeon = foxtra.isAnimatedIconHash;
-            romeon = romeon.bind(foxtra)(backup);
-            michal['animated'] = romeon;
-            michal['is_guild_profile'] = verify;
-            verify = 1;
-            option = option[verify];
-            option = offset.bind(entity)(option);
-            option = option.AssetOriginTypes;
-            offset = option.ARCHIVED_ASSET;
-            option = undefined;
-            if(!(golfie === offset)) { _fun00002_ip = 194; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 2;
+            var2 = var8[var2];
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot3;
+            var3 = var2.USER_AVATAR_UPDATED;
+            var2 = {};
+            var10 = _closure1_slot0;
+            var12 = 3;
+            var12 = var8[var12];
+            var13 = var10.bind(var1)(var12);
+            var12 = var13.isAnimatedIconHash;
+            var12 = var12.bind(var13)(var14);
+            var2['animated'] = var12;
+            var2['is_guild_profile'] = var9;
+            var9 = 1;
+            var8 = var8[var9];
+            var8 = var10.bind(var1)(var8);
+            var8 = var8.AssetOriginTypes;
+            var10 = var8.ARCHIVED_ASSET;
+            var8 = undefined;
+            if(!(var7 === var10)) { _fun0001_ip = 194; continue _fun0001 }
  181:
-            offset = global;
-            offset = offset.Number;
-            option = offset.bind(entity)(yankee);
+            var10 = global;
+            var10 = var10.Number;
+            var8 = var10.bind(var1)(var11);
  194:
-            michal['recent_avatar_id'] = option;
-            option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            oscard = oscard[verify];
-            oscard = option.bind(entity)(oscard);
-            oscard = oscard.AssetOriginTypes;
-            oscard = oscard.EDITED_ARCHIVED_ASSET;
-            oscard = golfie === oscard;
-            michal['is_edited_recent_avatar'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2['recent_avatar_id'] = var8;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var9];
+            var6 = var8.bind(var1)(var6);
+            var6 = var6.AssetOriginTypes;
+            var6 = var6.EDITED_ARCHIVED_ASSET;
+            var6 = var7 === var6;
+            var2['is_edited_recent_avatar'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['trackUserAvatarUpdated'] = michal;
-    return entity;
+    var3['trackUserAvatarUpdated'] = var2;
+    return var1;
 })();

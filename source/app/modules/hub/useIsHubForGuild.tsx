@@ -1,85 +1,85 @@
 // app/modules/hub/useIsHubForGuild.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/hub/useIsHubForGuild.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useIsHubForGuild
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/hub/useIsHubForGuild.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsHubForGuild(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00002_ip = 81; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0001_ip = 81; continue _fun0001 }
  13:
-                report = _closure1_slot2;
-                tangon = report.getGuild;
-                michal = _closure2_slot0;
-                tangon = tangon.bind(report)(michal);
-                report = entity == tangon;
-                michal = undefined;
-                if(report) { _fun00002_ip = 69; continue _fun00001 }
+                var5 = _closure1_slot2;
+                var4 = var5.getGuild;
+                var2 = _closure2_slot0;
+                var4 = var4.bind(var5)(var2);
+                var5 = var1 == var4;
+                var2 = undefined;
+                if(var5) { _fun0001_ip = 69; continue _fun0001 }
  43:
-                report = tangon.features;
-                tangon = report.has;
-                zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.HUB;
-                michal = tangon.bind(report)(zuuluu);
+                var5 = var4.features;
+                var4 = var5.has;
+                var3 = _closure1_slot3;
+                var3 = var3.HUB;
+                var2 = var4.bind(var5)(var3);
  69:
-                entity = entity != michal;
-                if(!entity) { _fun00002_ip = 79; continue _fun00001 }
+                var1 = var1 != var2;
+                if(!var1) { _fun0001_ip = 79; continue _fun0001 }
  76:
-                entity = michal;
+                var1 = var2;
  79:
-                return entity;
+                return var1;
  81:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

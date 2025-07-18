@@ -1,66 +1,66 @@
 // app/modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: showLongPressForumPostActionSheet
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function showLongPressForumPostActionSheet(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = arguments[2];
-            entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 37; continue _fun00001 }
+            var2 = arguments[2];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0001_ip = 37; continue _fun0001 }
  9:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 0;
-            zuuluu = report[zuuluu];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            michal = zuuluu.hideActionSheet;
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 0;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var2 = var3.hideActionSheet;
  37:
-            oscard = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            report = 0;
-            report = zuuluu[report];
-            oscard = oscard.bind(entity)(report);
-            report = oscard.openLazy;
-            golfie = _closure1_slot0;
-            tangon = 2;
-            tangon = zuuluu[tangon];
-            golfie = golfie.bind(entity)(tangon);
-            tangon = 1;
-            tangon = zuuluu[tangon];
-            zuuluu = zuuluu.paths;
-            tangon = golfie.bind(entity)(tangon, zuuluu);
-            zuuluu = {};
-            golfie = argFoo;
-            zuuluu['thread'] = golfie;
-            golfie = argBar;
-            zuuluu['parentChannel'] = golfie;
-            zuuluu['onClose'] = michal;
-            michal = 'ForumPostLongPressActionSheet';
-            michal = report.bind(oscard)(tangon, michal, zuuluu);
-            return entity;
+            var6 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var5 = 0;
+            var5 = var3[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.openLazy;
+            var7 = _closure1_slot0;
+            var4 = 2;
+            var4 = var3[var4];
+            var7 = var7.bind(var1)(var4);
+            var4 = 1;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var7.bind(var1)(var4, var3);
+            var3 = {};
+            var7 = arg1;
+            var3['thread'] = var7;
+            var7 = arg2;
+            var3['parentChannel'] = var7;
+            var3['onClose'] = var2;
+            var2 = 'ForumPostLongPressActionSheet';
+            var2 = var5.bind(var6)(var4, var2, var3);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

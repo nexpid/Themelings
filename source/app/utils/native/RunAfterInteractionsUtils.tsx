@@ -1,98 +1,98 @@
 // app/utils/native/RunAfterInteractionsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: runAfterInteractions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function runAfterInteractions(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = arguments[1];
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00002_ip = 24; continue _fun00001 }
+            var5 = arguments[1];
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0001_ip = 24; continue _fun0001 }
  18:
-            report = 2000;
+            var5 = 2000;
  24:
-            var _closure2_slot1 = tangon;
-            var _closure2_slot2 = tangon;
-            golfie = _closure1_slot2;
-            oscard = golfie.runAfterInteractions;
-            zuuluu = function() {
-                zuuluu = _closure2_slot2;
-                michal = zuuluu.cancel;
-                michal = michal.bind(zuuluu)();
-                michal = _closure2_slot0;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                return entity;
+            var _closure2_slot1 = var4;
+            var _closure2_slot2 = var4;
+            var7 = _closure1_slot2;
+            var6 = var7.runAfterInteractions;
+            var3 = function() {
+                var3 = _closure2_slot2;
+                var2 = var3.cancel;
+                var2 = var2.bind(var3)();
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            _closure2_slot1 = zuuluu;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 1;
-            entity = oscard[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            tangon = entity.DelayedCall;
-            entity = tangon.prototype;
-            zuuluu = Object.create(entity, {constructor: {value: tangon}});
-            option = function() {
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.cancel;
-                michal = michal.bind(zuuluu)();
-                michal = _closure2_slot0;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                return entity;
+            var3 = var6.bind(var7)(var3);
+            _closure2_slot1 = var3;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 1;
+            var1 = var6[var1];
+            var1 = var3.bind(var4)(var1);
+            var4 = var1.DelayedCall;
+            var1 = var4.prototype;
+            var3 = Object.create(var1, {constructor: {value: var4}});
+            var8 = function() {
+                var3 = _closure2_slot1;
+                var2 = var3.cancel;
+                var2 = var2.bind(var3)();
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            offset = zuuluu;
-            verify = report;
-            entity = new offset[tangon](verify, option, golfie);
-            zuuluu = entity instanceof Object ? entity : zuuluu;
-            _closure2_slot2 = zuuluu;
-            entity = zuuluu.delay;
-            entity = entity.bind(zuuluu)();
-            entity = {};
-            michal = function() { // Original name: cancel
-                zuuluu = _closure2_slot2;
-                michal = zuuluu.cancel;
-                michal = michal.bind(zuuluu)();
-                michal = _closure2_slot1;
-                entity = michal.cancel;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+            var10 = var3;
+            var9 = var5;
+            var1 = new var10[var4](var9, var8, var7);
+            var3 = var1 instanceof Object ? var1 : var3;
+            _closure2_slot2 = var3;
+            var1 = var3.delay;
+            var1 = var1.bind(var3)();
+            var1 = {};
+            var2 = function cancel() {
+                var3 = _closure2_slot2;
+                var2 = var3.cancel;
+                var2 = var2.bind(var3)();
+                var2 = _closure2_slot1;
+                var1 = var2.cancel;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
             };
-            entity['cancel'] = michal;
-            return entity;
+            var1['cancel'] = var2;
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.InteractionManager;
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    tangon['runAfterInteractions'] = michal;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/native/RunAfterInteractionsUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['runAfterInteractions'] = michal;
-    return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.InteractionManager;
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var4['runAfterInteractions'] = var2;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/native/RunAfterInteractionsUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['runAfterInteractions'] = var2;
+    return var1;
 })();

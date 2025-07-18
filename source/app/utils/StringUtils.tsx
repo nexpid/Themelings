@@ -1,67 +1,67 @@
 // app/utils/StringUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    tangon = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, michal);
-    entity = 0;
-    michal = report[entity];
-    entity = undefined;
-    golfie = tangon.bind(entity)(michal);
-    oscard = golfie.fileFinishedImporting;
-    michal = 'utils/StringUtils.tsx';
-    michal = oscard.bind(golfie)(michal);
-    michal = function(argFoo) { // Original name: isNullOrEmpty
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var4 = native2;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var2);
+    var1 = 0;
+    var2 = var5[var1];
+    var1 = undefined;
+    var7 = var4.bind(var1)(var2);
+    var6 = var7.fileFinishedImporting;
+    var2 = 'utils/StringUtils.tsx';
+    var2 = var6.bind(var7)(var2);
+    var2 = function isNullOrEmpty(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity == michal;
-            if(entity) { _fun00002_ip = 23; continue _fun00001 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 == var2;
+            if(var1) { _fun0001_ip = 23; continue _fun0001 }
  12:
-            zuuluu = michal.length;
-            michal = 0;
-            entity = michal === zuuluu;
+            var3 = var2.length;
+            var2 = 0;
+            var1 = var2 === var3;
  23:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isNullOrEmpty'] = michal;
-    michal = 1;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.upperCaseFirstChar;
-    zuuluu['upperCaseFirstChar'] = oscard;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.getAcronym;
-    zuuluu['getAcronym'] = oscard;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.cssValueToNumber;
-    zuuluu['cssValueToNumber'] = oscard;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.stripDiacritics;
-    zuuluu['stripDiacritics'] = oscard;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.truncateText;
-    zuuluu['truncateText'] = oscard;
-    oscard = report[michal];
-    oscard = tangon.bind(entity)(oscard);
-    oscard = oscard.normalize;
-    zuuluu['normalize'] = oscard;
-    michal = report[michal];
-    michal = tangon.bind(entity)(michal);
-    michal = michal.countGraphemeClusters;
-    zuuluu['countGraphemeClusters'] = michal;
-    return entity;
+    var3['isNullOrEmpty'] = var2;
+    var2 = 1;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.upperCaseFirstChar;
+    var3['upperCaseFirstChar'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.getAcronym;
+    var3['getAcronym'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.cssValueToNumber;
+    var3['cssValueToNumber'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.stripDiacritics;
+    var3['stripDiacritics'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.truncateText;
+    var3['truncateText'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.normalize;
+    var3['normalize'] = var6;
+    var2 = var5[var2];
+    var2 = var4.bind(var1)(var2);
+    var2 = var2.countGraphemeClusters;
+    var3['countGraphemeClusters'] = var2;
+    return var1;
 })();

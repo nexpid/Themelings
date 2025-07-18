@@ -1,1171 +1,1171 @@
 // app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.ENTITY_TYPES_REQUIRED_CHANNEL_ID;
-    var _closure1_slot6 = golfie;
-    golfie = michal.ENTITY_TYPES_REQUIRED_ENTITY_METADATA;
-    var _closure1_slot7 = golfie;
-    golfie = michal.GuildScheduledEventStatus;
-    var _closure1_slot8 = golfie;
-    michal = michal.MAX_RSVP_USER_DISPLAY_COUNT;
-    var _closure1_slot9 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.Endpoints;
-    var _closure1_slot10 = golfie;
-    michal = michal.Routes;
-    var _closure1_slot11 = michal;
-    michal = {};
-    golfie = function(argFoo, argBar) { // Original name: startEvent
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.patch;
-        entity = {};
-        option = _closure1_slot10;
-        golfie = option.GUILD_EVENT;
-        oscard = argBar;
-        tangon = argFoo;
-        tangon = golfie.bind(option)(oscard, tangon);
-        entity['url'] = tangon;
-        tangon = {};
-        report = _closure1_slot8;
-        report = report.ACTIVE;
-        tangon['status'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.ENTITY_TYPES_REQUIRED_CHANNEL_ID;
+    var _closure1_slot6 = var7;
+    var7 = var2.ENTITY_TYPES_REQUIRED_ENTITY_METADATA;
+    var _closure1_slot7 = var7;
+    var7 = var2.GuildScheduledEventStatus;
+    var _closure1_slot8 = var7;
+    var2 = var2.MAX_RSVP_USER_DISPLAY_COUNT;
+    var _closure1_slot9 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.Endpoints;
+    var _closure1_slot10 = var7;
+    var2 = var2.Routes;
+    var _closure1_slot11 = var2;
+    var2 = {};
+    var7 = function startEvent(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.patch;
+        var1 = {};
+        var8 = _closure1_slot10;
+        var7 = var8.GUILD_EVENT;
+        var6 = arg2;
+        var4 = arg1;
+        var4 = var7.bind(var8)(var6, var4);
+        var1['url'] = var4;
+        var4 = {};
+        var5 = _closure1_slot8;
+        var5 = var5.ACTIVE;
+        var4['status'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['startEvent'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: endEvent
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.patch;
-        entity = {};
-        option = _closure1_slot10;
-        golfie = option.GUILD_EVENT;
-        oscard = argBar;
-        tangon = argFoo;
-        tangon = golfie.bind(option)(oscard, tangon);
-        entity['url'] = tangon;
-        tangon = {};
-        report = _closure1_slot8;
-        report = report.COMPLETED;
-        tangon['status'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['startEvent'] = var7;
+    var7 = function endEvent(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.patch;
+        var1 = {};
+        var8 = _closure1_slot10;
+        var7 = var8.GUILD_EVENT;
+        var6 = arg2;
+        var4 = arg1;
+        var4 = var7.bind(var8)(var6, var4);
+        var1['url'] = var4;
+        var4 = {};
+        var5 = _closure1_slot8;
+        var5 = var5.COMPLETED;
+        var4['status'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['endEvent'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: joinVoiceEvent
-        golfie = argBar;
-        tangon = _closure1_slot1;
-        report = _closure1_slot2;
-        entity = 6;
-        zuuluu = report[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.selectVoiceChannel;
-        zuuluu = zuuluu.bind(tangon)(golfie);
-        tangon = _closure1_slot0;
-        zuuluu = 7;
-        zuuluu = report[zuuluu];
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.transitionTo;
-        oscard = _closure1_slot11;
-        report = oscard.CHANNEL;
-        michal = argFoo;
-        michal = report.bind(oscard)(michal, golfie);
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['endEvent'] = var7;
+    var7 = function joinVoiceEvent(arg1, arg2) {
+        var7 = arg2;
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 6;
+        var3 = var5[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.selectVoiceChannel;
+        var3 = var3.bind(var4)(var7);
+        var4 = _closure1_slot0;
+        var3 = 7;
+        var3 = var5[var3];
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.transitionTo;
+        var6 = _closure1_slot11;
+        var5 = var6.CHANNEL;
+        var2 = arg1;
+        var2 = var5.bind(var6)(var2, var7);
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['joinVoiceEvent'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: saveEvent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['joinVoiceEvent'] = var7;
+    var7 = function saveEvent(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argBar;
-            tangon = _closure1_slot6;
-            zuuluu = tangon.has;
-            michal = entity.entityType;
-            michal = zuuluu.bind(tangon)(michal);
-            oscard = null;
-            zuuluu = null;
-            if(!michal) { _fun00002_ip = 38; continue _fun00001 }
+            var1 = arg2;
+            var4 = _closure1_slot6;
+            var3 = var4.has;
+            var2 = var1.entityType;
+            var2 = var3.bind(var4)(var2);
+            var6 = null;
+            var3 = null;
+            if(!var2) { _fun0001_ip = 38; continue _fun0001 }
  33:
-            zuuluu = entity.channelId;
+            var3 = var1.channelId;
  38:
-            golfie = _closure1_slot7;
-            tangon = golfie.has;
-            michal = entity.entityType;
-            tangon = tangon.bind(golfie)(michal);
-            michal = null;
-            if(!tangon) { _fun00002_ip = 69; continue _fun00001 }
+            var7 = _closure1_slot7;
+            var4 = var7.has;
+            var2 = var1.entityType;
+            var4 = var4.bind(var7)(var2);
+            var2 = null;
+            if(!var4) { _fun0001_ip = 69; continue _fun0001 }
  63:
-            michal = entity.entityMetadata;
+            var2 = var1.entityMetadata;
  69:
-            tangon = entity.image;
-            if(!(oscard != tangon)) { _fun00002_ip = 117; continue _fun00001 }
+            var4 = var1.image;
+            if(!(var6 != var4)) { _fun0001_ip = 117; continue _fun0001 }
  79:
-            golfie = /^data:/;
-            oscard = golfie.test;
-            tangon = entity.image;
-            golfie = oscard.bind(golfie)(tangon);
-            tangon = false;
-            oscard = undefined;
-            if(!(tangon !== golfie)) { _fun00002_ip = 123; continue _fun00001 }
+            var7 = /^data:/;
+            var6 = var7.test;
+            var4 = var1.image;
+            var7 = var6.bind(var7)(var4);
+            var4 = false;
+            var6 = undefined;
+            if(!(var4 !== var7)) { _fun0001_ip = 123; continue _fun0001 }
  117:
-            oscard = entity.image;
+            var6 = var1.image;
  123:
-            tangon = {};
-            golfie = entity.name;
-            tangon['name'] = golfie;
-            golfie = entity.description;
-            tangon['description'] = golfie;
-            tangon['image'] = oscard;
-            oscard = entity.privacyLevel;
-            tangon['privacy_level'] = oscard;
-            oscard = entity.scheduledStartTime;
-            tangon['scheduled_start_time'] = oscard;
-            oscard = entity.scheduledEndTime;
-            tangon['scheduled_end_time'] = oscard;
-            oscard = entity.entityType;
-            tangon['entity_type'] = oscard;
-            tangon['channel_id'] = zuuluu;
-            tangon['entity_metadata'] = michal;
-            michal = argCor;
-            michal = michal.broadcastToDirectoryChannels;
-            tangon['broadcast_to_directory_channels'] = michal;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 8;
-            golfie = oscard[michal];
-            michal = undefined;
-            option = zuuluu.bind(michal)(golfie);
-            golfie = option.recurrenceRuleToServer;
-            entity = entity.recurrenceRule;
-            entity = golfie.bind(option)(entity);
-            tangon['recurrence_rule'] = entity;
-            entity = 5;
-            entity = oscard[entity];
-            entity = zuuluu.bind(michal)(entity);
-            zuuluu = entity.HTTP;
-            michal = zuuluu.patch;
-            entity = {};
-            option = _closure1_slot10;
-            golfie = option.GUILD_EVENT;
-            oscard = argBaz;
-            report = argFoo;
-            report = golfie.bind(option)(oscard, report);
-            entity['url'] = report;
-            entity['body'] = tangon;
-            tangon = false;
-            entity['rejectWithError'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var4 = {};
+            var7 = var1.name;
+            var4['name'] = var7;
+            var7 = var1.description;
+            var4['description'] = var7;
+            var4['image'] = var6;
+            var6 = var1.privacyLevel;
+            var4['privacy_level'] = var6;
+            var6 = var1.scheduledStartTime;
+            var4['scheduled_start_time'] = var6;
+            var6 = var1.scheduledEndTime;
+            var4['scheduled_end_time'] = var6;
+            var6 = var1.entityType;
+            var4['entity_type'] = var6;
+            var4['channel_id'] = var3;
+            var4['entity_metadata'] = var2;
+            var2 = arg4;
+            var2 = var2.broadcastToDirectoryChannels;
+            var4['broadcast_to_directory_channels'] = var2;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 8;
+            var7 = var6[var2];
+            var2 = undefined;
+            var8 = var3.bind(var2)(var7);
+            var7 = var8.recurrenceRuleToServer;
+            var1 = var1.recurrenceRule;
+            var1 = var7.bind(var8)(var1);
+            var4['recurrence_rule'] = var1;
+            var1 = 5;
+            var1 = var6[var1];
+            var1 = var3.bind(var2)(var1);
+            var3 = var1.HTTP;
+            var2 = var3.patch;
+            var1 = {};
+            var8 = _closure1_slot10;
+            var7 = var8.GUILD_EVENT;
+            var6 = arg3;
+            var5 = arg1;
+            var5 = var7.bind(var8)(var6, var5);
+            var1['url'] = var5;
+            var1['body'] = var4;
+            var4 = false;
+            var1['rejectWithError'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    michal['saveEvent'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: createGuildEvent
-        entity = argFoo;
-        tangon = {};
-        michal = entity.name;
-        tangon['name'] = michal;
-        michal = entity.description;
-        tangon['description'] = michal;
-        michal = entity.image;
-        tangon['image'] = michal;
-        michal = entity.privacyLevel;
-        tangon['privacy_level'] = michal;
-        michal = entity.scheduledStartTime;
-        tangon['scheduled_start_time'] = michal;
-        michal = entity.scheduledEndTime;
-        tangon['scheduled_end_time'] = michal;
-        michal = entity.entityType;
-        tangon['entity_type'] = michal;
-        michal = entity.channelId;
-        tangon['channel_id'] = michal;
-        michal = entity.entityMetadata;
-        tangon['entity_metadata'] = michal;
-        michal = argBaz;
-        michal = michal.broadcastToDirectoryChannels;
-        tangon['broadcast_to_directory_channels'] = michal;
-        zuuluu = _closure1_slot0;
-        oscard = _closure1_slot2;
-        michal = 8;
-        golfie = oscard[michal];
-        michal = undefined;
-        option = zuuluu.bind(michal)(golfie);
-        golfie = option.recurrenceRuleToServer;
-        entity = entity.recurrenceRule;
-        entity = golfie.bind(option)(entity);
-        tangon['recurrence_rule'] = entity;
-        entity = 5;
-        entity = oscard[entity];
-        entity = zuuluu.bind(michal)(entity);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.post;
-        entity = {};
-        golfie = _closure1_slot10;
-        oscard = golfie.GUILD_EVENTS_FOR_GUILD;
-        report = argBar;
-        report = oscard.bind(golfie)(report);
-        entity['url'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['saveEvent'] = var7;
+    var7 = function createGuildEvent(arg1, arg2, arg3) {
+        var1 = arg1;
+        var4 = {};
+        var2 = var1.name;
+        var4['name'] = var2;
+        var2 = var1.description;
+        var4['description'] = var2;
+        var2 = var1.image;
+        var4['image'] = var2;
+        var2 = var1.privacyLevel;
+        var4['privacy_level'] = var2;
+        var2 = var1.scheduledStartTime;
+        var4['scheduled_start_time'] = var2;
+        var2 = var1.scheduledEndTime;
+        var4['scheduled_end_time'] = var2;
+        var2 = var1.entityType;
+        var4['entity_type'] = var2;
+        var2 = var1.channelId;
+        var4['channel_id'] = var2;
+        var2 = var1.entityMetadata;
+        var4['entity_metadata'] = var2;
+        var2 = arg3;
+        var2 = var2.broadcastToDirectoryChannels;
+        var4['broadcast_to_directory_channels'] = var2;
+        var3 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var2 = 8;
+        var7 = var6[var2];
+        var2 = undefined;
+        var8 = var3.bind(var2)(var7);
+        var7 = var8.recurrenceRuleToServer;
+        var1 = var1.recurrenceRule;
+        var1 = var7.bind(var8)(var1);
+        var4['recurrence_rule'] = var1;
+        var1 = 5;
+        var1 = var6[var1];
+        var1 = var3.bind(var2)(var1);
+        var3 = var1.HTTP;
+        var2 = var3.post;
+        var1 = {};
+        var7 = _closure1_slot10;
+        var6 = var7.GUILD_EVENTS_FOR_GUILD;
+        var5 = arg2;
+        var5 = var6.bind(var7)(var5);
+        var1['url'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['createGuildEvent'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: fetchGuildEvent
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['createGuildEvent'] = var7;
+    var7 = function fetchGuildEvent(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 153; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 153; continue _fun0002 }
  10:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 9;
-                    michal = report[michal];
-                    oscard = undefined;
-                    report = zuuluu.bind(oscard)(michal);
-                    zuuluu = report.httpGetWithCountryCodeQuery;
-                    michal = {};
-                    offset = _closure1_slot10;
-                    verify = offset.GUILD_EVENT;
-                    option = _closure2_slot0;
-                    golfie = _closure2_slot1;
-                    golfie = verify.bind(offset)(option, golfie);
-                    michal['url'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = zuuluu.bind(report)(michal);
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var5[var2];
+                    var6 = undefined;
+                    var5 = var3.bind(var6)(var2);
+                    var3 = var5.httpGetWithCountryCodeQuery;
+                    var2 = {};
+                    var10 = _closure1_slot10;
+                    var9 = var10.GUILD_EVENT;
+                    var8 = _closure2_slot0;
+                    var7 = _closure2_slot1;
+                    var7 = var9.bind(var10)(var8, var7);
+                    var2['url'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=89);
  87:
-                    return michal;
+                    return var2;
  89:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 150; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 150; continue _fun0002 }
  95:
-                    zuuluu = michal.body;
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 10;
-                    tangon = golfie[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    golfie = 'FETCH_GUILD_EVENT';
-                    tangon['type'] = golfie;
-                    tangon['guildScheduledEvent'] = zuuluu;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var3 = var2.body;
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var4 = 10;
+                    var4 = var7[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var7 = 'FETCH_GUILD_EVENT';
+                    var4['type'] = var7;
+                    var4['guildScheduledEvent'] = var3;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  150:
-                    return michal;
+                    return var2;
  153:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['fetchGuildEvent'] = golfie;
-    golfie = function(argFoo) { // Original name: fetchGuildEventsForGuild
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['fetchGuildEvent'] = var7;
+    var7 = function fetchGuildEventsForGuild(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 154; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 154; continue _fun0003 }
  10:
-                    report = {};
-                    oscard = _closure1_slot10;
-                    zuuluu = oscard.GUILD_EVENTS_FOR_GUILD;
-                    michal = _closure2_slot0;
-                    michal = zuuluu.bind(oscard)(michal);
-                    report['url'] = michal;
-                    michal = false;
-                    report['rejectWithError'] = michal;
-                    zuuluu = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 9;
-                    michal = oscard[michal];
-                    oscard = undefined;
-                    zuuluu = zuuluu.bind(oscard)(michal);
-                    michal = zuuluu.httpGetWithCountryCodeQuery;
-                    michal = michal.bind(zuuluu)(report);
+                    var5 = {};
+                    var6 = _closure1_slot10;
+                    var3 = var6.GUILD_EVENTS_FOR_GUILD;
+                    var2 = _closure2_slot0;
+                    var2 = var3.bind(var6)(var2);
+                    var5['url'] = var2;
+                    var2 = false;
+                    var5['rejectWithError'] = var2;
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var6[var2];
+                    var6 = undefined;
+                    var3 = var3.bind(var6)(var2);
+                    var2 = var3.httpGetWithCountryCodeQuery;
+                    var2 = var2.bind(var3)(var5);
                     SaveGenerator(address=84);
  82:
-                    return michal;
+                    return var2;
  84:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 151; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 151; continue _fun0003 }
  90:
-                    zuuluu = michal.body;
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    tangon = 10;
-                    tangon = option[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'FETCH_GUILD_EVENTS_FOR_GUILD';
-                    tangon['type'] = option;
-                    golfie = _closure2_slot0;
-                    tangon['guildId'] = golfie;
-                    tangon['guildScheduledEvents'] = zuuluu;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var3 = var2.body;
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 10;
+                    var4 = var8[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'FETCH_GUILD_EVENTS_FOR_GUILD';
+                    var4['type'] = var8;
+                    var7 = _closure2_slot0;
+                    var4['guildId'] = var7;
+                    var4['guildScheduledEvents'] = var3;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  151:
-                    return michal;
+                    return var2;
  154:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['fetchGuildEventsForGuild'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: fetchGuildEventUserCounts
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['fetchGuildEventsForGuild'] = var7;
+    var7 = function fetchGuildEventUserCounts(arg1, arg2, arg3) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 219; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 219; continue _fun0004 }
  10:
-                    report = {};
-                    option = _closure1_slot10;
-                    oscard = option.GUILD_EVENT_USER_COUNTS;
-                    zuuluu = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    michal = oscard.bind(option)(zuuluu, michal);
-                    report['url'] = michal;
-                    michal = {};
-                    zuuluu = _closure2_slot2;
-                    michal['guild_scheduled_event_exception_ids'] = zuuluu;
-                    report['query'] = michal;
-                    michal = false;
-                    report['rejectWithError'] = michal;
-                    zuuluu = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    michal = 5;
-                    michal = oscard[michal];
-                    oscard = undefined;
-                    michal = zuuluu.bind(oscard)(michal);
-                    zuuluu = michal.HTTP;
-                    michal = zuuluu.get;
-                    michal = michal.bind(zuuluu)(report);
+                    var5 = {};
+                    var8 = _closure1_slot10;
+                    var6 = var8.GUILD_EVENT_USER_COUNTS;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var2 = var6.bind(var8)(var3, var2);
+                    var5['url'] = var2;
+                    var2 = {};
+                    var3 = _closure2_slot2;
+                    var2['guild_scheduled_event_exception_ids'] = var3;
+                    var5['query'] = var2;
+                    var2 = false;
+                    var5['rejectWithError'] = var2;
+                    var3 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var6[var2];
+                    var6 = undefined;
+                    var2 = var3.bind(var6)(var2);
+                    var3 = var2.HTTP;
+                    var2 = var3.get;
+                    var2 = var2.bind(var3)(var5);
                     SaveGenerator(address=110);
  108:
-                    return michal;
+                    return var2;
  110:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 216; continue _fun00007 }
+                    if(var3) { _fun0004_ip = 216; continue _fun0004 }
  116:
-                    report = michal.body;
-                    zuuluu = {};
-                    option = report.guild_scheduled_event_count;
-                    zuuluu['eventCount'] = option;
-                    report = report.guild_scheduled_event_exception_counts;
-                    zuuluu['recurrenceCounts'] = report;
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    tangon = 10;
-                    tangon = option[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'GUILD_SCHEDULED_EVENT_USER_COUNTS_FETCH_SUCCESS';
-                    tangon['type'] = option;
-                    option = _closure2_slot0;
-                    tangon['guildId'] = option;
-                    golfie = _closure2_slot1;
-                    tangon['eventId'] = golfie;
-                    tangon['counts'] = zuuluu;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var5 = var2.body;
+                    var3 = {};
+                    var8 = var5.guild_scheduled_event_count;
+                    var3['eventCount'] = var8;
+                    var5 = var5.guild_scheduled_event_exception_counts;
+                    var3['recurrenceCounts'] = var5;
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 10;
+                    var4 = var8[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'GUILD_SCHEDULED_EVENT_USER_COUNTS_FETCH_SUCCESS';
+                    var4['type'] = var8;
+                    var8 = _closure2_slot0;
+                    var4['guildId'] = var8;
+                    var7 = _closure2_slot1;
+                    var4['eventId'] = var7;
+                    var4['counts'] = var3;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  216:
-                    return michal;
+                    return var2;
  219:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['fetchGuildEventUserCounts'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: cancelGuildEvent
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.patch;
-        entity = {};
-        option = _closure1_slot10;
-        golfie = option.GUILD_EVENT;
-        oscard = argBar;
-        tangon = argFoo;
-        tangon = golfie.bind(option)(oscard, tangon);
-        entity['url'] = tangon;
-        tangon = {};
-        report = _closure1_slot8;
-        report = report.CANCELED;
-        tangon['status'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['fetchGuildEventUserCounts'] = var7;
+    var7 = function cancelGuildEvent(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.patch;
+        var1 = {};
+        var8 = _closure1_slot10;
+        var7 = var8.GUILD_EVENT;
+        var6 = arg2;
+        var4 = arg1;
+        var4 = var7.bind(var8)(var6, var4);
+        var1['url'] = var4;
+        var4 = {};
+        var5 = _closure1_slot8;
+        var5 = var5.CANCELED;
+        var4['status'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['cancelGuildEvent'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: deleteGuildEvent
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.del;
-        entity = {};
-        golfie = _closure1_slot10;
-        oscard = golfie.GUILD_EVENT;
-        report = argBar;
-        tangon = argFoo;
-        tangon = oscard.bind(golfie)(report, tangon);
-        entity['url'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['cancelGuildEvent'] = var7;
+    var7 = function deleteGuildEvent(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.del;
+        var1 = {};
+        var7 = _closure1_slot10;
+        var6 = var7.GUILD_EVENT;
+        var5 = arg2;
+        var4 = arg1;
+        var4 = var6.bind(var7)(var5, var4);
+        var1['url'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['deleteGuildEvent'] = golfie;
-    golfie = function(argFoo) { // Original name: getGuildEventsForCurrentUser
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var2['deleteGuildEvent'] = var7;
+    var7 = function getGuildEventsForCurrentUser(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 174; continue _fun00009 }
+                    if(var2) { _fun0005_ip = 174; continue _fun0005 }
  10:
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 5;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = report.bind(zuuluu)(michal);
-                    oscard = michal.HTTP;
-                    report = oscard.get;
-                    michal = {};
-                    golfie = _closure1_slot10;
-                    golfie = golfie.USER_GUILD_EVENTS;
-                    michal['url'] = golfie;
-                    option = {};
-                    offset = _closure2_slot0;
-                    verify = new Array(1);
-                    verify[0] = offset;
-                    option['guild_ids'] = verify;
-                    michal['query'] = option;
-                    option = false;
-                    michal['rejectWithError'] = option;
-                    michal = report.bind(oscard)(michal);
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var6 = var2.HTTP;
+                    var5 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot10;
+                    var7 = var7.USER_GUILD_EVENTS;
+                    var2['url'] = var7;
+                    var8 = {};
+                    var10 = _closure2_slot0;
+                    var9 = new Array(1);
+                    var9[0] = var10;
+                    var8['guild_ids'] = var9;
+                    var2['query'] = var8;
+                    var8 = false;
+                    var2['rejectWithError'] = var8;
+                    var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=102);
  100:
-                    return michal;
+                    return var2;
  102:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00010_ip = 171; continue _fun00009 }
+                    if(var5) { _fun0005_ip = 171; continue _fun0005 }
  108:
-                    option = michal.body;
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 10;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    verify = 'GUILD_SCHEDULED_EVENT_RSVPS_FETCH_SUCESS';
-                    tangon['type'] = verify;
-                    tangon['guildScheduledEventUsers'] = option;
-                    golfie = _closure2_slot0;
-                    tangon['guildId'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var8 = var2.body;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 10;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var9 = 'GUILD_SCHEDULED_EVENT_RSVPS_FETCH_SUCESS';
+                    var4['type'] = var9;
+                    var4['guildScheduledEventUsers'] = var8;
+                    var7 = _closure2_slot0;
+                    var4['guildId'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  171:
-                    return michal;
+                    return var2;
  174:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['getGuildEventsForCurrentUser'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: createRsvpForGuildEvent
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = argCor;
-        var _closure2_slot3 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var2['getGuildEventsForCurrentUser'] = var7;
+    var7 = function createRsvpForGuildEvent(arg1, arg2, arg3, arg4) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var2 = arg4;
+        var _closure2_slot3 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 292; continue _fun00011 }
+                    if(var2) { _fun0006_ip = 292; continue _fun0006 }
  10:
-                    report = undefined;
-                    oscard = undefined;
-                    tangon = _closure1_slot4;
-                    michal = tangon.getId;
-                    oscard = michal.bind(tangon)();
+                    var5 = undefined;
+                    var6 = undefined;
+                    var4 = _closure1_slot4;
+                    var2 = var4.getId;
+                    var6 = var2.bind(var4)();
  31: // try_start_0
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    michal = 10;
-                    michal = golfie[michal];
-                    option = tangon.bind(report)(michal);
-                    tangon = option.dispatch;
-                    michal = {};
-                    verify = 'GUILD_SCHEDULED_EVENT_USER_ADD';
-                    michal['type'] = verify;
-                    verify = oscard;
-                    michal['userId'] = verify;
-                    foxtra = _closure2_slot2;
-                    michal['guildId'] = foxtra;
-                    romeon = _closure2_slot0;
-                    michal['guildEventId'] = romeon;
-                    yankee = _closure2_slot1;
-                    michal['guildEventExceptionId'] = yankee;
-                    verify = _closure2_slot3;
-                    michal['response'] = verify;
-                    michal = tangon.bind(option)(michal);
-                    tangon = _closure1_slot0;
-                    michal = 5;
-                    michal = golfie[michal];
-                    michal = tangon.bind(report)(michal);
-                    golfie = michal.HTTP;
-                    tangon = golfie.put;
-                    michal = {};
-                    offset = _closure1_slot10;
-                    option = offset.USER_GUILD_EVENT;
-                    option = option.bind(offset)(foxtra, romeon, yankee);
-                    michal['url'] = option;
-                    option = {};
-                    option['response'] = verify;
-                    michal['body'] = option;
-                    option = false;
-                    michal['rejectWithError'] = option;
-                    michal = tangon.bind(golfie)(michal);
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var7[var2];
+                    var8 = var4.bind(var5)(var2);
+                    var4 = var8.dispatch;
+                    var2 = {};
+                    var9 = 'GUILD_SCHEDULED_EVENT_USER_ADD';
+                    var2['type'] = var9;
+                    var9 = var6;
+                    var2['userId'] = var9;
+                    var13 = _closure2_slot2;
+                    var2['guildId'] = var13;
+                    var12 = _closure2_slot0;
+                    var2['guildEventId'] = var12;
+                    var11 = _closure2_slot1;
+                    var2['guildEventExceptionId'] = var11;
+                    var9 = _closure2_slot3;
+                    var2['response'] = var9;
+                    var2 = var4.bind(var8)(var2);
+                    var4 = _closure1_slot0;
+                    var2 = 5;
+                    var2 = var7[var2];
+                    var2 = var4.bind(var5)(var2);
+                    var7 = var2.HTTP;
+                    var4 = var7.put;
+                    var2 = {};
+                    var10 = _closure1_slot10;
+                    var8 = var10.USER_GUILD_EVENT;
+                    var8 = var8.bind(var10)(var13, var12, var11);
+                    var2['url'] = var8;
+                    var8 = {};
+                    var8['response'] = var9;
+                    var2['body'] = var8;
+                    var8 = false;
+                    var2['rejectWithError'] = var8;
+                    var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=192);
  190:
-                    return michal;
+                    return var2;
  192:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00012_ip = 201; continue _fun00011 }
+                    if(var4) { _fun0006_ip = 201; continue _fun0006 }
  198: // try_end0
-                    return michal;
+                    return var2;
  201:
-                    return michal;
+                    return var2;
  204: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    zuuluu = 10;
-                    zuuluu = golfie[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
-                    zuuluu['type'] = golfie;
-                    zuuluu['userId'] = oscard;
-                    golfie = _closure2_slot2;
-                    zuuluu['guildId'] = golfie;
-                    golfie = _closure2_slot0;
-                    zuuluu['guildEventId'] = golfie;
-                    golfie = _closure2_slot1;
-                    zuuluu['guildEventExceptionId'] = golfie;
-                    oscard = _closure2_slot3;
-                    zuuluu['response'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    throw michal;
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var3 = 10;
+                    var3 = var7[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
+                    var3['type'] = var7;
+                    var3['userId'] = var6;
+                    var7 = _closure2_slot2;
+                    var3['guildId'] = var7;
+                    var7 = _closure2_slot0;
+                    var3['guildEventId'] = var7;
+                    var7 = _closure2_slot1;
+                    var3['guildEventExceptionId'] = var7;
+                    var6 = _closure2_slot3;
+                    var3['response'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
  292:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['createRsvpForGuildEvent'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: deleteRsvpForGuildEvent
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var2['createRsvpForGuildEvent'] = var7;
+    var7 = function deleteRsvpForGuildEvent(arg1, arg2, arg3) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 327; continue _fun00013 }
+                    if(var2) { _fun0007_ip = 327; continue _fun0007 }
  10:
-                    report = undefined;
-                    option = undefined;
-                    oscard = undefined;
-                    tangon = _closure1_slot4;
-                    michal = tangon.getId;
-                    yankee = michal.bind(tangon)();
-                    option = yankee;
-                    offset = _closure1_slot5;
-                    verify = offset.getRsvp;
-                    tangon = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    tangon = verify.bind(offset)(tangon, michal, yankee);
-                    oscard = tangon;
-                    michal = null;
-                    if(!(michal == tangon)) { _fun00014_ip = 76; continue _fun00013 }
+                    var5 = undefined;
+                    var8 = undefined;
+                    var6 = undefined;
+                    var4 = _closure1_slot4;
+                    var2 = var4.getId;
+                    var11 = var2.bind(var4)();
+                    var8 = var11;
+                    var10 = _closure1_slot5;
+                    var9 = var10.getRsvp;
+                    var4 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var4 = var9.bind(var10)(var4, var2, var11);
+                    var6 = var4;
+                    var2 = null;
+                    if(!(var2 == var4)) { _fun0007_ip = 76; continue _fun0007 }
  73:
-                    return report;
+                    return var5;
  76: // try_start_0
-                    tangon = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 10;
-                    michal = verify[michal];
-                    offset = tangon.bind(report)(michal);
-                    tangon = offset.dispatch;
-                    michal = {};
-                    yankee = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
-                    michal['type'] = yankee;
-                    yankee = option;
-                    michal['userId'] = yankee;
-                    backup = _closure2_slot2;
-                    michal['guildId'] = backup;
-                    foxtra = _closure2_slot0;
-                    michal['guildEventId'] = foxtra;
-                    romeon = _closure2_slot1;
-                    michal['guildEventExceptionId'] = romeon;
-                    yankee = oscard;
-                    yankee = yankee.response;
-                    michal['response'] = yankee;
-                    michal = tangon.bind(offset)(michal);
-                    tangon = _closure1_slot0;
-                    michal = 5;
-                    michal = verify[michal];
-                    michal = tangon.bind(report)(michal);
-                    verify = michal.HTTP;
-                    tangon = verify.del;
-                    michal = {};
-                    yankee = _closure1_slot10;
-                    offset = yankee.USER_GUILD_EVENT;
-                    offset = offset.bind(yankee)(backup, foxtra, romeon);
-                    michal['url'] = offset;
-                    offset = false;
-                    michal['rejectWithError'] = offset;
-                    michal = tangon.bind(verify)(michal);
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var9[var2];
+                    var10 = var4.bind(var5)(var2);
+                    var4 = var10.dispatch;
+                    var2 = {};
+                    var11 = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
+                    var2['type'] = var11;
+                    var11 = var8;
+                    var2['userId'] = var11;
+                    var14 = _closure2_slot2;
+                    var2['guildId'] = var14;
+                    var13 = _closure2_slot0;
+                    var2['guildEventId'] = var13;
+                    var12 = _closure2_slot1;
+                    var2['guildEventExceptionId'] = var12;
+                    var11 = var6;
+                    var11 = var11.response;
+                    var2['response'] = var11;
+                    var2 = var4.bind(var10)(var2);
+                    var4 = _closure1_slot0;
+                    var2 = 5;
+                    var2 = var9[var2];
+                    var2 = var4.bind(var5)(var2);
+                    var9 = var2.HTTP;
+                    var4 = var9.del;
+                    var2 = {};
+                    var11 = _closure1_slot10;
+                    var10 = var11.USER_GUILD_EVENT;
+                    var10 = var10.bind(var11)(var14, var13, var12);
+                    var2['url'] = var10;
+                    var10 = false;
+                    var2['rejectWithError'] = var10;
+                    var2 = var4.bind(var9)(var2);
                     SaveGenerator(address=230);
  228:
-                    return michal;
+                    return var2;
  230:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00014_ip = 239; continue _fun00013 }
+                    if(var4) { _fun0007_ip = 239; continue _fun0007 }
  236: // try_end0
-                    return michal;
+                    return var2;
  239:
-                    return michal;
+                    return var2;
  242: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tangon = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    zuuluu = 10;
-                    zuuluu = verify[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    verify = 'GUILD_SCHEDULED_EVENT_USER_ADD';
-                    zuuluu['type'] = verify;
-                    zuuluu['userId'] = option;
-                    option = _closure2_slot2;
-                    zuuluu['guildId'] = option;
-                    option = _closure2_slot0;
-                    zuuluu['guildEventId'] = option;
-                    golfie = _closure2_slot1;
-                    zuuluu['guildEventExceptionId'] = golfie;
-                    oscard = oscard.response;
-                    zuuluu['response'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    throw michal;
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = 10;
+                    var3 = var9[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var9 = 'GUILD_SCHEDULED_EVENT_USER_ADD';
+                    var3['type'] = var9;
+                    var3['userId'] = var8;
+                    var8 = _closure2_slot2;
+                    var3['guildId'] = var8;
+                    var8 = _closure2_slot0;
+                    var3['guildEventId'] = var8;
+                    var7 = _closure2_slot1;
+                    var3['guildEventExceptionId'] = var7;
+                    var6 = var6.response;
+                    var3['response'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
  327:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['deleteRsvpForGuildEvent'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: updateRsvp
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = argCor;
-        var _closure2_slot3 = michal;
-        michal = argGra;
-        var _closure2_slot4 = michal;
-        michal = this;
-        var _closure2_slot5 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var2['deleteRsvpForGuildEvent'] = var7;
+    var7 = function updateRsvp(arg1, arg2, arg3, arg4, arg5) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var2 = arg3;
+        var _closure2_slot2 = var2;
+        var2 = arg4;
+        var _closure2_slot3 = var2;
+        var2 = arg5;
+        var _closure2_slot4 = var2;
+        var2 = this;
+        var _closure2_slot5 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 231; continue _fun00015 }
+                    if(var2) { _fun0008_ip = 231; continue _fun0008 }
  10:
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    michal = 11;
-                    tangon = tangon[michal];
-                    michal = undefined;
-                    verify = oscard.bind(michal)(tangon);
-                    option = verify.getExistingRsvp;
-                    golfie = _closure2_slot0;
-                    oscard = _closure2_slot1;
-                    golfie = option.bind(verify)(golfie, oscard);
-                    oscard = null;
-                    if(!(oscard == golfie)) { _fun00016_ip = 149; continue _fun00015 }
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 11;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var9 = var6.bind(var2)(var4);
+                    var8 = var9.getExistingRsvp;
+                    var7 = _closure2_slot0;
+                    var6 = _closure2_slot1;
+                    var7 = var8.bind(var9)(var7, var6);
+                    var6 = null;
+                    if(!(var6 == var7)) { _fun0008_ip = 149; continue _fun0008 }
  64: // try_start_0
-                    romeon = _closure2_slot5;
-                    yankee = romeon.createRsvpForGuildEvent;
-                    sizing = _closure2_slot0;
-                    kiloes = _closure2_slot1;
-                    backup = _closure2_slot2;
-                    foxtra = _closure2_slot3;
-                    output = romeon;
-                    golfie = output[yankee](sizing, kiloes, backup, foxtra, romeon);
+                    var12 = _closure2_slot5;
+                    var11 = var12.createRsvpForGuildEvent;
+                    var16 = _closure2_slot0;
+                    var15 = _closure2_slot1;
+                    var14 = _closure2_slot2;
+                    var13 = _closure2_slot3;
+                    var17 = var12;
+                    var7 = var17[var11](var16, var15, var14, var13, var12);
                     SaveGenerator(address=101);
  99:
-                    return golfie;
+                    return var7;
  101:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00016_ip = 125; continue _fun00015 }
+                    if(var8) { _fun0008_ip = 125; continue _fun0008 }
  107:
-                    option = _closure2_slot4;
-                    if(!(oscard != option)) { _fun00016_ip = 123; continue _fun00015 }
+                    var8 = _closure2_slot4;
+                    if(!(var6 != var8)) { _fun0008_ip = 123; continue _fun0008 }
  115:
-                    option = _closure2_slot4;
-                    option = option.bind(michal)();
+                    var8 = _closure2_slot4;
+                    var8 = var8.bind(var2)();
  123: // try_end0
-                    _fun00016_ip = 228; continue _fun00015;
+                    _fun0008_ip = 228; continue _fun0008;
  125:
-                    return golfie;
+                    return var7;
  128: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    golfie = _closure2_slot4;
-                    if(!(oscard != golfie)) { _fun00016_ip = 228; continue _fun00015 }
+                    var7 = _closure2_slot4;
+                    if(!(var6 != var7)) { _fun0008_ip = 228; continue _fun0008 }
  138:
-                    golfie = _closure2_slot4;
-                    report = golfie.bind(michal)(report);
-                    _fun00016_ip = 228; continue _fun00015;
+                    var7 = _closure2_slot4;
+                    var5 = var7.bind(var2)(var5);
+                    _fun0008_ip = 228; continue _fun0008;
  149: // try_start_1
-                    offset = _closure2_slot5;
-                    verify = offset.deleteRsvpForGuildEvent;
-                    option = _closure2_slot0;
-                    golfie = _closure2_slot1;
-                    report = _closure2_slot2;
-                    report = verify.bind(offset)(option, golfie, report);
+                    var10 = _closure2_slot5;
+                    var9 = var10.deleteRsvpForGuildEvent;
+                    var8 = _closure2_slot0;
+                    var7 = _closure2_slot1;
+                    var5 = _closure2_slot2;
+                    var5 = var9.bind(var10)(var8, var7, var5);
                     SaveGenerator(address=182);
  180:
-                    return report;
+                    return var5;
  182:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00016_ip = 206; continue _fun00015 }
+                    if(var7) { _fun0008_ip = 206; continue _fun0008 }
  188:
-                    golfie = _closure2_slot4;
-                    if(!(oscard != golfie)) { _fun00016_ip = 204; continue _fun00015 }
+                    var7 = _closure2_slot4;
+                    if(!(var6 != var7)) { _fun0008_ip = 204; continue _fun0008 }
  196:
-                    golfie = _closure2_slot4;
-                    golfie = golfie.bind(michal)();
+                    var7 = _closure2_slot4;
+                    var7 = var7.bind(var2)();
  204: // try_end1
-                    _fun00016_ip = 228; continue _fun00015;
+                    _fun0008_ip = 228; continue _fun0008;
  206:
-                    return report;
+                    return var5;
  209: // catch_target1
                     CatchBlockStart(arg_register=2);
-                    report = _closure2_slot4;
-                    if(!(oscard != report)) { _fun00016_ip = 228; continue _fun00015 }
+                    var5 = _closure2_slot4;
+                    if(!(var6 != var5)) { _fun0008_ip = 228; continue _fun0008 }
  219:
-                    tangon = _closure2_slot4;
-                    zuuluu = tangon.bind(michal)(zuuluu);
+                    var4 = _closure2_slot4;
+                    var3 = var4.bind(var2)(var3);
  228:
-                    return michal;
+                    return var2;
  231:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['updateRsvp'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: fetchUsersForGuildEvent
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var2['updateRsvp'] = var7;
+    var7 = function fetchUsersForGuildEvent(arg1, arg2, arg3) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            zuuluu = arguments[3];
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            michal = argBar;
-            var _closure2_slot1 = michal;
-            michal = argBaz;
-            var _closure2_slot2 = michal;
-            michal = undefined;
-            if(!(zuuluu === michal)) { _fun00018_ip = 39; continue _fun00017 }
+            var3 = arguments[3];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = arg2;
+            var _closure2_slot1 = var2;
+            var2 = arg3;
+            var _closure2_slot2 = var2;
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0009_ip = 39; continue _fun0009 }
  32:
-            zuuluu = _closure1_slot9;
+            var3 = _closure1_slot9;
  39:
-            var _closure2_slot3 = zuuluu;
-            zuuluu = _closure1_slot3;
-            entity = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            var _closure2_slot3 = var3;
+            var3 = _closure1_slot3;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00020_ip = 256; continue _fun00019 }
+                        if(var2) { _fun0010_ip = 256; continue _fun0010 }
  10:
-                        michal = _closure2_slot0;
-                        zuuluu = null;
-                        if(!(zuuluu != michal)) { _fun00020_ip = 249; continue _fun00019 }
+                        var2 = _closure2_slot0;
+                        var3 = null;
+                        if(!(var3 != var2)) { _fun0010_ip = 249; continue _fun0010 }
  26:
-                        michal = _closure2_slot2;
-                        if(!(zuuluu != michal)) { _fun00020_ip = 249; continue _fun00019 }
+                        var2 = _closure2_slot2;
+                        if(!(var3 != var2)) { _fun0010_ip = 249; continue _fun0010 }
  37:
-                        tangon = _closure1_slot0;
-                        report = _closure1_slot2;
-                        michal = 5;
-                        michal = report[michal];
-                        report = undefined;
-                        michal = tangon.bind(report)(michal);
-                        golfie = michal.HTTP;
-                        tangon = golfie.get;
-                        michal = {};
-                        romeon = _closure1_slot10;
-                        yankee = romeon.GUILD_EVENT_USERS;
-                        offset = _closure2_slot2;
-                        verify = _closure2_slot0;
-                        option = _closure2_slot1;
-                        option = yankee.bind(romeon)(offset, verify, option);
-                        michal['url'] = option;
-                        option = {'limit': null, 'with_member': true, 'upgrade_response_type': true};
-                        verify = _closure2_slot3;
-                        option['limit'] = verify;
-                        michal['query'] = option;
-                        option = false;
-                        michal['rejectWithError'] = option;
-                        michal = tangon.bind(golfie)(michal);
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var2 = 5;
+                        var2 = var5[var2];
+                        var5 = undefined;
+                        var2 = var4.bind(var5)(var2);
+                        var7 = var2.HTTP;
+                        var4 = var7.get;
+                        var2 = {};
+                        var12 = _closure1_slot10;
+                        var11 = var12.GUILD_EVENT_USERS;
+                        var10 = _closure2_slot2;
+                        var9 = _closure2_slot0;
+                        var8 = _closure2_slot1;
+                        var8 = var11.bind(var12)(var10, var9, var8);
+                        var2['url'] = var8;
+                        var8 = {'limit': null, 'with_member': true, 'upgrade_response_type': true};
+                        var9 = _closure2_slot3;
+                        var8['limit'] = var9;
+                        var2['query'] = var8;
+                        var8 = false;
+                        var2['rejectWithError'] = var8;
+                        var2 = var4.bind(var7)(var2);
                         SaveGenerator(address=150);
  148:
-                        return michal;
+                        return var2;
  150:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00020_ip = 246; continue _fun00019 }
+                        if(var4) { _fun0010_ip = 246; continue _fun0010 }
  156:
-                        tangon = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        zuuluu = 10;
-                        zuuluu = golfie[zuuluu];
-                        report = tangon.bind(report)(zuuluu);
-                        tangon = report.dispatch;
-                        zuuluu = {};
-                        golfie = 'GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS';
-                        zuuluu['type'] = golfie;
-                        golfie = _closure2_slot0;
-                        zuuluu['guildEventId'] = golfie;
-                        golfie = michal.body;
-                        zuuluu['guildScheduledEventUsers'] = golfie;
-                        golfie = _closure2_slot2;
-                        zuuluu['guildId'] = golfie;
-                        oscard = _closure2_slot1;
-                        zuuluu['guildEventExceptionId'] = oscard;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        zuuluu = michal.body;
-                        zuuluu = zuuluu.users;
-                        return zuuluu;
+                        var4 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var3 = 10;
+                        var3 = var7[var3];
+                        var5 = var4.bind(var5)(var3);
+                        var4 = var5.dispatch;
+                        var3 = {};
+                        var7 = 'GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS';
+                        var3['type'] = var7;
+                        var7 = _closure2_slot0;
+                        var3['guildEventId'] = var7;
+                        var7 = var2.body;
+                        var3['guildScheduledEventUsers'] = var7;
+                        var7 = _closure2_slot2;
+                        var3['guildId'] = var7;
+                        var6 = _closure2_slot1;
+                        var3['guildEventExceptionId'] = var6;
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var2.body;
+                        var3 = var3.users;
+                        return var3;
  246:
-                        return michal;
+                        return var2;
  249:
-                        michal = new Array(0);
-                        return michal;
+                        var2 = new Array(0);
+                        return var2;
  256:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = zuuluu.bind(michal)(entity);
-            entity = entity.bind(michal)();
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    michal['fetchUsersForGuildEvent'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: createGuildEventException
-        entity = argFoo;
-        option = entity.original_scheduled_start_time;
-        golfie = entity.scheduled_start_time;
-        oscard = entity.scheduled_end_time;
-        report = entity.is_canceled;
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.post;
-        entity = {};
-        yankee = _closure1_slot10;
-        offset = yankee.GUILD_EVENT_EXCEPTIONS;
-        verify = argBar;
-        tangon = argBaz;
-        tangon = offset.bind(yankee)(verify, tangon);
-        entity['url'] = tangon;
-        tangon = {};
-        tangon['original_scheduled_start_time'] = option;
-        tangon['scheduled_start_time'] = golfie;
-        tangon['scheduled_end_time'] = oscard;
-        tangon['is_canceled'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['fetchUsersForGuildEvent'] = var7;
+    var7 = function createGuildEventException(arg1, arg2, arg3) {
+        var1 = arg1;
+        var8 = var1.original_scheduled_start_time;
+        var7 = var1.scheduled_start_time;
+        var6 = var1.scheduled_end_time;
+        var5 = var1.is_canceled;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.post;
+        var1 = {};
+        var11 = _closure1_slot10;
+        var10 = var11.GUILD_EVENT_EXCEPTIONS;
+        var9 = arg2;
+        var4 = arg3;
+        var4 = var10.bind(var11)(var9, var4);
+        var1['url'] = var4;
+        var4 = {};
+        var4['original_scheduled_start_time'] = var8;
+        var4['scheduled_start_time'] = var7;
+        var4['scheduled_end_time'] = var6;
+        var4['is_canceled'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['createGuildEventException'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: updateGuildEventException
-        entity = argFoo;
-        golfie = entity.scheduled_start_time;
-        oscard = entity.scheduled_end_time;
-        report = entity.is_canceled;
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.patch;
-        entity = {};
-        yankee = _closure1_slot10;
-        offset = yankee.GUILD_EVENT_EXCEPTION;
-        verify = argBar;
-        option = argBaz;
-        tangon = argCor;
-        tangon = offset.bind(yankee)(verify, option, tangon);
-        entity['url'] = tangon;
-        tangon = {};
-        tangon['scheduled_start_time'] = golfie;
-        tangon['scheduled_end_time'] = oscard;
-        tangon['is_canceled'] = report;
-        entity['body'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['createGuildEventException'] = var7;
+    var7 = function updateGuildEventException(arg1, arg2, arg3, arg4) {
+        var1 = arg1;
+        var7 = var1.scheduled_start_time;
+        var6 = var1.scheduled_end_time;
+        var5 = var1.is_canceled;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.patch;
+        var1 = {};
+        var11 = _closure1_slot10;
+        var10 = var11.GUILD_EVENT_EXCEPTION;
+        var9 = arg2;
+        var8 = arg3;
+        var4 = arg4;
+        var4 = var10.bind(var11)(var9, var8, var4);
+        var1['url'] = var4;
+        var4 = {};
+        var4['scheduled_start_time'] = var7;
+        var4['scheduled_end_time'] = var6;
+        var4['is_canceled'] = var5;
+        var1['body'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['updateGuildEventException'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: deleteGuildEventException
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.del;
-        entity = {};
-        option = _closure1_slot10;
-        golfie = option.GUILD_EVENT_EXCEPTION;
-        oscard = argFoo;
-        report = argBar;
-        tangon = argBaz;
-        tangon = golfie.bind(option)(oscard, report, tangon);
-        entity['url'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['updateGuildEventException'] = var7;
+    var7 = function deleteGuildEventException(arg1, arg2, arg3) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.del;
+        var1 = {};
+        var8 = _closure1_slot10;
+        var7 = var8.GUILD_EVENT_EXCEPTION;
+        var6 = arg1;
+        var5 = arg2;
+        var4 = arg3;
+        var4 = var7.bind(var8)(var6, var5, var4);
+        var1['url'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['deleteGuildEventException'] = golfie;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: deleteRecurrence
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var2['deleteGuildEventException'] = var7;
+    var4 = function deleteRecurrence(arg1, arg2, arg3, arg4) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            tangon = argBaz;
-            golfie = argCor;
-            zuuluu = this;
-            entity = null;
-            if(!(entity == golfie)) { _fun00022_ip = 124; continue _fun00021 }
+            var6 = arg1;
+            var5 = arg2;
+            var4 = arg3;
+            var7 = arg4;
+            var3 = this;
+            var1 = null;
+            if(!(var1 == var7)) { _fun0011_ip = 124; continue _fun0011 }
  21:
-            option = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 12;
-            michal = michal[entity];
-            entity = undefined;
-            michal = option.bind(entity)(michal);
-            entity = michal.extractTimestamp;
-            backup = entity.bind(michal)(tangon);
-            michal = zuuluu.createGuildEventException;
-            entity = {};
-            option = global;
-            option = option.Date;
-            verify = option.prototype;
-            verify = Object.create(verify, {constructor: {value: option}});
-            kiloes = verify;
-            option = new kiloes[option](backup, foxtra);
-            verify = option instanceof Object ? option : verify;
-            option = verify.toISOString;
-            option = option.bind(verify)();
-            entity['original_scheduled_start_time'] = option;
-            option = true;
-            entity['is_canceled'] = option;
-            entity = michal.bind(zuuluu)(entity, oscard, report);
-            return entity;
+            var8 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 12;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var8.bind(var1)(var2);
+            var1 = var2.extractTimestamp;
+            var14 = var1.bind(var2)(var4);
+            var2 = var3.createGuildEventException;
+            var1 = {};
+            var8 = global;
+            var8 = var8.Date;
+            var9 = var8.prototype;
+            var9 = Object.create(var9, {constructor: {value: var8}});
+            var15 = var9;
+            var8 = new var15[var8](var14, var13);
+            var9 = var8 instanceof Object ? var8 : var9;
+            var8 = var9.toISOString;
+            var8 = var8.bind(var9)();
+            var1['original_scheduled_start_time'] = var8;
+            var8 = true;
+            var1['is_canceled'] = var8;
+            var1 = var2.bind(var3)(var1, var6, var5);
+            return var1;
  124:
-            michal = zuuluu.updateGuildEventException;
-            entity = {};
-            option = golfie.scheduled_start_time;
-            entity['scheduled_start_time'] = option;
-            golfie = golfie.scheduled_end_time;
-            entity['scheduled_end_time'] = golfie;
-            golfie = true;
-            entity['is_canceled'] = golfie;
-            kiloes = zuuluu;
-            backup = entity;
-            foxtra = oscard;
-            romeon = report;
-            yankee = tangon;
-            entity = kiloes[michal](backup, foxtra, romeon, yankee, offset);
-            return entity;
+            var2 = var3.updateGuildEventException;
+            var1 = {};
+            var8 = var7.scheduled_start_time;
+            var1['scheduled_start_time'] = var8;
+            var7 = var7.scheduled_end_time;
+            var1['scheduled_end_time'] = var7;
+            var7 = true;
+            var1['is_canceled'] = var7;
+            var15 = var3;
+            var14 = var1;
+            var13 = var6;
+            var12 = var5;
+            var11 = var4;
+            var1 = var15[var2](var14, var13, var12, var11, var10);
+            return var1;
         }
     };
-    michal['deleteRecurrence'] = tangon;
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['deleteRecurrence'] = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

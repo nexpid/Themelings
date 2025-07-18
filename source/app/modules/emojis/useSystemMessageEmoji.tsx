@@ -1,121 +1,121 @@
 // app/modules/emojis/useSystemMessageEmoji.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    report = golfie[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    report = golfie[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot3 = tangon;
-    tangon = /^<(a?):(\w+):(\d+)>/;
-    var _closure1_slot4 = tangon;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/emojis/useSystemMessageEmoji.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['CUSTOM_EMOJI_REGEX'] = tangon;
-    tangon = function(argFoo) { // Original name: getSystemMessageEmoji
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var5 = var7[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var5 = var7[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot3 = var4;
+    var4 = /^<(a?):(\w+):(\d+)>/;
+    var _closure1_slot4 = var4;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/emojis/useSystemMessageEmoji.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['CUSTOM_EMOJI_REGEX'] = var4;
+    var4 = function getSystemMessageEmoji(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.exec;
-            entity = argFoo;
-            report = zuuluu.bind(tangon)(entity);
-            entity = null;
-            zuuluu = entity == report;
-            tangon = undefined;
-            if(zuuluu) { _fun00002_ip = 39; continue _fun00001 }
+            var4 = _closure1_slot4;
+            var3 = var4.exec;
+            var1 = arg1;
+            var5 = var3.bind(var4)(var1);
+            var1 = null;
+            var3 = var1 == var5;
+            var4 = undefined;
+            if(var3) { _fun0001_ip = 39; continue _fun0001 }
  32:
-            zuuluu = 3;
-            tangon = report[zuuluu];
+            var3 = 3;
+            var4 = var5[var3];
  39:
-            zuuluu = entity == tangon;
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 63; continue _fun00001 }
+            var3 = var1 == var4;
+            var1 = null;
+            if(var3) { _fun0001_ip = 63; continue _fun0001 }
  48:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.getCustomEmojiById;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot3;
+            var2 = var3.getCustomEmojiById;
+            var1 = var2.bind(var3)(var4);
  63:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getSystemMessageEmoji'] = tangon;
-    michal = function(argFoo) { // Original name: useSystemMessageEmoji
-        zuuluu = argFoo;
-        var _closure2_slot0 = zuuluu;
-        oscard = _closure1_slot2;
-        report = oscard.useMemo;
-        tangon = new Array(1);
-        tangon[0] = zuuluu;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getSystemMessageEmoji'] = var4;
+    var2 = function useSystemMessageEmoji(arg1) {
+        var3 = arg1;
+        var _closure2_slot0 = var3;
+        var6 = _closure1_slot2;
+        var5 = var6.useMemo;
+        var4 = new Array(1);
+        var4[0] = var3;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.exec;
-                entity = _closure2_slot0;
-                zuuluu = michal.bind(zuuluu)(entity);
-                entity = null;
-                michal = entity == zuuluu;
-                entity = undefined;
-                if(michal) { _fun00004_ip = 43; continue _fun00003 }
+                var3 = _closure1_slot4;
+                var2 = var3.exec;
+                var1 = _closure2_slot0;
+                var3 = var2.bind(var3)(var1);
+                var1 = null;
+                var2 = var1 == var3;
+                var1 = undefined;
+                if(var2) { _fun0002_ip = 43; continue _fun0002 }
  36:
-                michal = 3;
-                entity = zuuluu[michal];
+                var2 = 3;
+                var1 = var3[var2];
  43:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = report.bind(oscard)(zuuluu, tangon);
-        var _closure2_slot1 = zuuluu;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3 = var5.bind(var6)(var3, var4);
+        var _closure2_slot1 = var3;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = _closure2_slot1;
-                entity = null;
-                zuuluu = entity == zuuluu;
-                if(zuuluu) { _fun00006_ip = 38; continue _fun00005 }
+                var3 = _closure2_slot1;
+                var1 = null;
+                var3 = var1 == var3;
+                if(var3) { _fun0003_ip = 38; continue _fun0003 }
  16:
-                tangon = _closure1_slot3;
-                zuuluu = tangon.getCustomEmojiById;
-                michal = _closure2_slot1;
-                entity = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot3;
+                var3 = var4.getCustomEmojiById;
+                var2 = _closure2_slot1;
+                var1 = var3.bind(var4)(var2);
  38:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useSystemMessageEmoji'] = michal;
-    return entity;
+    var3['useSystemMessageEmoji'] = var2;
+    return var1;
 })();

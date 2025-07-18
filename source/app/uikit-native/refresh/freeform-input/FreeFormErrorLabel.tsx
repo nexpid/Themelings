@@ -1,93 +1,93 @@
 // app/uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: Label
-        entity = argFoo;
-        report = entity.children;
-        oscard = entity.style;
-        michal = _closure1_slot0;
-        golfie = _closure1_slot1;
-        tangon = 2;
-        option = golfie[tangon];
-        tangon = undefined;
-        verify = michal.bind(tangon)(option);
-        option = verify.getNodeText;
-        yankee = option.bind(verify)(report);
-        var _closure2_slot0 = yankee;
-        offset = _closure1_slot2;
-        verify = offset.useEffect;
-        option = new Array(1);
-        option[0] = yankee;
-        zuuluu = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/refresh/freeform-input/FreeFormErrorLabel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function Label(arg1) {
+        var1 = arg1;
+        var5 = var1.children;
+        var6 = var1.style;
+        var2 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var4 = 2;
+        var8 = var7[var4];
+        var4 = undefined;
+        var9 = var2.bind(var4)(var8);
+        var8 = var9.getNodeText;
+        var11 = var8.bind(var9)(var5);
+        var _closure2_slot0 = var11;
+        var10 = _closure1_slot2;
+        var9 = var10.useEffect;
+        var8 = new Array(1);
+        var8[0] = var11;
+        var3 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                michal = null;
-                michal = michal != zuuluu;
-                if(!michal) { _fun00002_ip = 28; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var2 = null;
+                var2 = var2 != var3;
+                if(!var2) { _fun0001_ip = 28; continue _fun0001 }
  16:
-                tangon = _closure2_slot0;
-                zuuluu = '';
-                michal = zuuluu !== tangon;
+                var4 = _closure2_slot0;
+                var3 = '';
+                var2 = var3 !== var4;
  28:
-                if(!michal) { _fun00002_ip = 77; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 77; continue _fun0001 }
  31:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                michal = 3;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
-                zuuluu = michal.AccessibilityAnnouncer;
-                michal = zuuluu.announce;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 3;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
+                var3 = var2.AccessibilityAnnouncer;
+                var2 = var3.announce;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
  77:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        zuuluu = verify.bind(offset)(zuuluu, option);
-        zuuluu = _closure1_slot3;
-        entity = 4;
-        entity = golfie[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.Text;
-        entity = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-danger'};
-        entity['style'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var3 = var9.bind(var10)(var3, var8);
+        var3 = _closure1_slot3;
+        var1 = 4;
+        var1 = var7[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.Text;
+        var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-danger'};
+        var1['style'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

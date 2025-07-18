@@ -1,264 +1,264 @@
 // app/modules/quests/native/QuestModalContentCloudBackground.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.StyleSheet;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot3 = var7;
+    var4 = var4.StyleSheet;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = {};
-            michal = {};
-            report = _closure1_slot4;
-            offset = report.absoluteFillObject;
-            yankee = michal;
-            report = copyDataProperties(yankee, offset);
-            oscard = {};
-            option = undefined;
-            if(tangon) { _fun00002_ip = 43; continue _fun00001 }
+            var4 = arg1;
+            var1 = {};
+            var2 = {};
+            var5 = _closure1_slot4;
+            var10 = var5.absoluteFillObject;
+            var11 = var2;
+            var5 = copyDataProperties(var11, var10);
+            var6 = {};
+            var8 = undefined;
+            if(var4) { _fun0001_ip = 43; continue _fun0001 }
  34:
-            oscard['bottom'] = option;
-            report = oscard;
-            _fun00002_ip = 50; continue _fun00001;
+            var6['bottom'] = var8;
+            var5 = var6;
+            _fun0001_ip = 50; continue _fun0001;
  43:
-            oscard['top'] = option;
-            report = oscard;
+            var6['top'] = var8;
+            var5 = var6;
  50:
-            yankee = michal;
-            offset = report;
-            report = copyDataProperties(yankee, offset);
-            oscard = 380;
-            report = 'height';
-            michal[report] = oscard;
-            report = 1;
-            oscard = 'zIndex';
-            michal[oscard] = report;
-            entity['wrapper'] = michal;
-            michal = {};
-            oscard = _closure1_slot4;
-            offset = oscard.absoluteFillObject;
-            yankee = michal;
-            oscard = copyDataProperties(yankee, offset);
-            golfie = {};
-            if(tangon) { _fun00002_ip = 125; continue _fun00001 }
+            var11 = var2;
+            var10 = var5;
+            var5 = copyDataProperties(var11, var10);
+            var6 = 380;
+            var5 = 'height';
+            var2[var5] = var6;
+            var5 = 1;
+            var6 = 'zIndex';
+            var2[var6] = var5;
+            var1['wrapper'] = var2;
+            var2 = {};
+            var6 = _closure1_slot4;
+            var10 = var6.absoluteFillObject;
+            var11 = var2;
+            var6 = copyDataProperties(var11, var10);
+            var7 = {};
+            if(var4) { _fun0001_ip = 125; continue _fun0001 }
  116:
-            golfie['bottom'] = option;
-            oscard = golfie;
-            _fun00002_ip = 132; continue _fun00001;
+            var7['bottom'] = var8;
+            var6 = var7;
+            _fun0001_ip = 132; continue _fun0001;
  125:
-            golfie['top'] = option;
-            oscard = golfie;
+            var7['top'] = var8;
+            var6 = var7;
  132:
-            yankee = michal;
-            offset = oscard;
-            oscard = copyDataProperties(yankee, offset);
-            if(tangon) { _fun00002_ip = 174; continue _fun00001 }
+            var11 = var2;
+            var10 = var6;
+            var6 = copyDataProperties(var11, var10);
+            if(var4) { _fun0001_ip = 174; continue _fun0001 }
  145:
-            tangon = {};
-            golfie = {};
-            oscard = '180deg';
-            golfie['rotate'] = oscard;
-            oscard = new Array(1);
-            oscard[0] = golfie;
-            tangon['transform'] = oscard;
-            _fun00002_ip = 176; continue _fun00001;
+            var4 = {};
+            var7 = {};
+            var6 = '180deg';
+            var7['rotate'] = var6;
+            var6 = new Array(1);
+            var6[0] = var7;
+            var4['transform'] = var6;
+            _fun0001_ip = 176; continue _fun0001;
  174:
-            tangon = {};
+            var4 = {};
  176:
-            yankee = michal;
-            offset = tangon;
-            tangon = copyDataProperties(yankee, offset);
-            oscard = '100%';
-            tangon = 'width';
-            michal[tangon] = oscard;
-            entity['cloudsImage'] = michal;
-            michal = {};
-            zuuluu = _closure1_slot4;
-            offset = zuuluu.absoluteFillObject;
-            yankee = michal;
-            golfie = copyDataProperties(yankee, offset);
-            golfie = 'bottom';
-            michal[golfie] = option;
-            michal[tangon] = oscard;
-            entity['cloudsImageLight'] = michal;
-            michal = {};
-            offset = zuuluu.absoluteFillObject;
-            yankee = michal;
-            tangon = copyDataProperties(yankee, offset);
-            tangon = 'opacity';
-            michal[tangon] = report;
-            entity['gradient'] = michal;
-            michal = {};
-            offset = zuuluu.absoluteFillObject;
-            yankee = michal;
-            zuuluu = copyDataProperties(yankee, offset);
-            entity['solidBackground'] = michal;
-            return entity;
+            var11 = var2;
+            var10 = var4;
+            var4 = copyDataProperties(var11, var10);
+            var6 = '100%';
+            var4 = 'width';
+            var2[var4] = var6;
+            var1['cloudsImage'] = var2;
+            var2 = {};
+            var3 = _closure1_slot4;
+            var10 = var3.absoluteFillObject;
+            var11 = var2;
+            var7 = copyDataProperties(var11, var10);
+            var7 = 'bottom';
+            var2[var7] = var8;
+            var2[var4] = var6;
+            var1['cloudsImageLight'] = var2;
+            var2 = {};
+            var10 = var3.absoluteFillObject;
+            var11 = var2;
+            var4 = copyDataProperties(var11, var10);
+            var4 = 'opacity';
+            var2[var4] = var5;
+            var1['gradient'] = var2;
+            var2 = {};
+            var10 = var3.absoluteFillObject;
+            var11 = var2;
+            var3 = copyDataProperties(var11, var10);
+            var1['solidBackground'] = var2;
+            return var1;
         }
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
-    golfie = ['#292252FF', '#1E1F2200'];
-    var _closure1_slot8 = golfie;
-    tangon = golfie.slice;
-    golfie = tangon.bind(golfie)();
-    tangon = golfie.reverse;
-    tangon = tangon.bind(golfie)();
-    var _closure1_slot9 = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/native/QuestModalContentCloudBackground.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: QuestModalContentCloudBackground
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot7 = var4;
+    var7 = ['#292252FF', '#1E1F2200'];
+    var _closure1_slot8 = var7;
+    var4 = var7.slice;
+    var7 = var4.bind(var7)();
+    var4 = var7.reverse;
+    var4 = var4.bind(var7)();
+    var _closure1_slot9 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/native/QuestModalContentCloudBackground.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function QuestModalContentCloudBackground(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.align;
-            entity = 'bottom';
-            tangon = undefined;
-            kiloes = entity;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 25; continue _fun00003 }
+            var2 = arg1;
+            var3 = var2.align;
+            var1 = 'bottom';
+            var4 = undefined;
+            var15 = var1;
+            if(!(var4 !== var3)) { _fun0002_ip = 25; continue _fun0002 }
  22:
-            kiloes = zuuluu;
+            var15 = var3;
  25:
-            oscard = michal.style;
-            foxtra = michal.imgStyle;
-            michal = michal.resizeMode;
-            verify = 'cover';
-            if(!(tangon !== michal)) { _fun00004_ip = 53; continue _fun00003 }
+            var6 = var2.style;
+            var13 = var2.imgStyle;
+            var2 = var2.resizeMode;
+            var9 = 'cover';
+            if(!(var4 !== var2)) { _fun0002_ip = 53; continue _fun0002 }
  50:
-            verify = michal;
+            var9 = var2;
  53:
-            michal = _closure1_slot7;
-            entity = entity === kiloes;
-            yankee = michal.bind(tangon)(entity);
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 4;
-            entity = golfie[entity];
-            zuuluu = report.bind(tangon)(entity);
-            michal = zuuluu.isThemeDark;
-            entity = 5;
-            entity = golfie[entity];
-            report = report.bind(tangon)(entity);
-            entity = report.useTheme;
-            entity = entity.bind(report)();
-            offset = michal.bind(zuuluu)(entity);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot3;
-            entity = {};
-            golfie = yankee.wrapper;
-            report = new Array(2);
-            report[0] = golfie;
-            report[1] = oscard;
-            entity['style'] = report;
-            option = _closure1_slot5;
-            if(offset) { _fun00004_ip = 185; continue _fun00003 }
+            var2 = _closure1_slot7;
+            var1 = var1 === var15;
+            var11 = var2.bind(var4)(var1);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 4;
+            var1 = var7[var1];
+            var3 = var5.bind(var4)(var1);
+            var2 = var3.isThemeDark;
+            var1 = 5;
+            var1 = var7[var1];
+            var5 = var5.bind(var4)(var1);
+            var1 = var5.useTheme;
+            var1 = var1.bind(var5)();
+            var10 = var2.bind(var3)(var1);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var7 = var11.wrapper;
+            var5 = new Array(2);
+            var5[0] = var7;
+            var5[1] = var6;
+            var1['style'] = var5;
+            var8 = _closure1_slot5;
+            if(var10) { _fun0002_ip = 185; continue _fun0002 }
  161:
-            oscard = _closure1_slot3;
-            report = {};
-            golfie = yankee.solidBackground;
-            report['style'] = golfie;
-            oscard = option.bind(tangon)(oscard, report);
-            _fun00004_ip = 245; continue _fun00003;
+            var6 = _closure1_slot3;
+            var5 = {};
+            var7 = var11.solidBackground;
+            var5['style'] = var7;
+            var6 = var8.bind(var4)(var6, var5);
+            _fun0002_ip = 245; continue _fun0002;
  185:
-            golfie = _closure1_slot1;
-            backup = _closure1_slot2;
-            report = 6;
-            report = backup[report];
-            golfie = golfie.bind(tangon)(report);
-            report = {};
-            backup = 'top';
-            if(!(backup !== kiloes)) { _fun00004_ip = 221; continue _fun00003 }
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var5 = 6;
+            var5 = var14[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = {};
+            var14 = 'top';
+            if(!(var14 !== var15)) { _fun0002_ip = 221; continue _fun0002 }
  215:
-            backup = _closure1_slot9;
-            _fun00004_ip = 225; continue _fun00003;
+            var14 = _closure1_slot9;
+            _fun0002_ip = 225; continue _fun0002;
  221:
-            backup = _closure1_slot8;
+            var14 = _closure1_slot8;
  225:
-            report['colors'] = backup;
-            backup = yankee.gradient;
-            report['style'] = backup;
-            oscard = option.bind(tangon)(golfie, report);
+            var5['colors'] = var14;
+            var14 = var11.gradient;
+            var5['style'] = var14;
+            var6 = var8.bind(var4)(var7, var5);
  245:
-            report = new Array(2);
-            report[0] = oscard;
-            option = _closure1_slot5;
-            golfie = _closure1_slot1;
-            backup = _closure1_slot2;
-            oscard = 7;
-            oscard = backup[oscard];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = {};
-            if(offset) { _fun00004_ip = 290; continue _fun00003 }
+            var5 = new Array(2);
+            var5[0] = var6;
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var6 = 7;
+            var6 = var14[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            if(var10) { _fun0002_ip = 290; continue _fun0002 }
  282:
-            backup = yankee.cloudsImageLight;
-            _fun00004_ip = 296; continue _fun00003;
+            var14 = var11.cloudsImageLight;
+            _fun0002_ip = 296; continue _fun0002;
  290:
-            backup = yankee.cloudsImage;
+            var14 = var11.cloudsImage;
  296:
-            yankee = new Array(2);
-            yankee[0] = backup;
-            yankee[1] = foxtra;
-            oscard['style'] = yankee;
-            yankee = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            if(offset) { _fun00004_ip = 332; continue _fun00003 }
+            var11 = new Array(2);
+            var11[0] = var14;
+            var11[1] = var13;
+            var6['style'] = var11;
+            var11 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            if(var10) { _fun0002_ip = 332; continue _fun0002 }
  323:
-            offset = 9;
-            offset = foxtra[offset];
-            _fun00004_ip = 339; continue _fun00003;
+            var10 = 9;
+            var10 = var13[var10];
+            _fun0002_ip = 339; continue _fun0002;
  332:
-            romeon = 8;
-            offset = foxtra[romeon];
+            var12 = 8;
+            var10 = var13[var12];
  339:
-            offset = yankee.bind(tangon)(offset);
-            oscard['source'] = offset;
-            oscard['resizeMode'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var10 = var11.bind(var4)(var10);
+            var6['source'] = var10;
+            var6['resizeMode'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,133 +1,133 @@
 // app/actions/DefaultRouteActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: isLurkingGuildRoute
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function isLurkingGuildRoute(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            entity = 2;
-            entity = offset[entity];
-            oscard = undefined;
-            report = verify.bind(oscard)(entity);
-            tangon = report.matchPath;
-            zuuluu = {};
-            option = _closure1_slot4;
-            golfie = option.CHANNEL;
-            entity = 3;
-            entity = offset[entity];
-            entity = verify.bind(oscard)(entity);
-            verify = entity.RouteParam;
-            entity = verify.guildId;
-            entity = entity.bind(verify)();
-            entity = golfie.bind(option)(entity);
-            zuuluu['path'] = entity;
-            entity = argFoo;
-            zuuluu = tangon.bind(report)(entity, zuuluu);
-            entity = null;
-            report = entity == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 120; continue _fun00001 }
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 2;
+            var1 = var10[var1];
+            var6 = undefined;
+            var5 = var9.bind(var6)(var1);
+            var4 = var5.matchPath;
+            var3 = {};
+            var8 = _closure1_slot4;
+            var7 = var8.CHANNEL;
+            var1 = 3;
+            var1 = var10[var1];
+            var1 = var9.bind(var6)(var1);
+            var9 = var1.RouteParam;
+            var1 = var9.guildId;
+            var1 = var1.bind(var9)();
+            var1 = var7.bind(var8)(var1);
+            var3['path'] = var1;
+            var1 = arg1;
+            var3 = var4.bind(var5)(var1, var3);
+            var1 = null;
+            var5 = var1 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 120; continue _fun0001 }
  100:
-            zuuluu = zuuluu.params;
-            report = entity == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 120; continue _fun00001 }
+            var3 = var3.params;
+            var5 = var1 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 120; continue _fun0001 }
  115:
-            tangon = zuuluu.guildId;
+            var4 = var3.guildId;
  120:
-            entity = entity == tangon;
-            if(entity) { _fun00002_ip = 145; continue _fun00001 }
+            var1 = var1 == var4;
+            if(var1) { _fun0001_ip = 145; continue _fun0001 }
  127:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.isLurking;
-            michal = michal.bind(zuuluu)(tangon);
-            entity = !michal;
+            var3 = _closure1_slot3;
+            var2 = var3.isLurking;
+            var2 = var2.bind(var3)(var4);
+            var1 = !var2;
  145:
-            entity = !entity;
-            return entity;
+            var1 = !var1;
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Routes;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/DefaultRouteActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Routes;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/DefaultRouteActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot5;
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(report);
-            if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+            var5 = arg1;
+            var3 = _closure1_slot5;
+            var1 = undefined;
+            var3 = var3.bind(var1)(var5);
+            if(var3) { _fun0002_ip = 67; continue _fun0002 }
  20:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            oscard = 'SAVE_LAST_ROUTE';
-            michal['type'] = oscard;
-            michal['path'] = report;
-            michal = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var6 = 'SAVE_LAST_ROUTE';
+            var2['type'] = var6;
+            var2['path'] = var5;
+            var2 = var3.bind(var4)(var2);
  67:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['saveLastRoute'] = tangon;
-    michal = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['saveLastRoute'] = var4;
+    var2 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot5;
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(report);
-            if(zuuluu) { _fun00006_ip = 67; continue _fun00005 }
+            var5 = arg1;
+            var3 = _closure1_slot5;
+            var1 = undefined;
+            var3 = var3.bind(var1)(var5);
+            if(var3) { _fun0003_ip = 67; continue _fun0003 }
  20:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            oscard = 'SAVE_LAST_NON_VOICE_ROUTE';
-            michal['type'] = oscard;
-            michal['path'] = report;
-            michal = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var6 = 'SAVE_LAST_NON_VOICE_ROUTE';
+            var2['type'] = var6;
+            var2['path'] = var5;
+            var2 = var3.bind(var4)(var2);
  67:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['saveLastNonVoiceRoute'] = michal;
-    return entity;
+    var3['saveLastNonVoiceRoute'] = var2;
+    return var1;
 })();

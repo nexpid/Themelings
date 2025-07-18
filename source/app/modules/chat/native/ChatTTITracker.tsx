@@ -1,126 +1,126 @@
 // app/modules/chat/native/ChatTTITracker.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot3 = golfie;
-    golfie = tangon.Fragment;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/ChatTTITracker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ChatTTITracker
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot3 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/native/ChatTTITracker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ChatTTITracker(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            option = entity.messages;
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot4;
-            michal = {};
-            report = option.length;
-            entity = 0;
-            entity = report > entity;
-            report = null;
-            if(!entity) { _fun00002_ip = 99; continue _fun00001 }
+            var1 = arg1;
+            var8 = var1.messages;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var5 = var8.length;
+            var1 = 0;
+            var1 = var5 > var1;
+            var5 = null;
+            if(!var1) { _fun0001_ip = 99; continue _fun0001 }
  40:
-            foxtra = _closure1_slot3;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 1;
-            entity = yankee[entity];
-            romeon = undefined;
-            entity = offset.bind(romeon)(entity);
-            yankee = entity.TTIMeasurementView;
-            offset = {};
-            entity = function(argFoo) { // Original name: onMeasurement
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                tangon = michal.displayMessagesWithCache;
-                zuuluu = tangon.record;
-                michal = argFoo;
-                michal = michal.nativeEvent;
-                michal = michal.timestamp;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var13 = _closure1_slot3;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var1 = 1;
+            var1 = var11[var1];
+            var12 = undefined;
+            var1 = var10.bind(var12)(var1);
+            var11 = var1.TTIMeasurementView;
+            var10 = {};
+            var1 = function onMeasurement(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.displayMessagesWithCache;
+                var3 = var4.record;
+                var2 = arg1;
+                var2 = var2.nativeEvent;
+                var2 = var2.timestamp;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            offset['onMeasurement'] = entity;
-            entity = 'cached_messages_tti';
-            report = foxtra.bind(romeon)(yankee, offset, entity);
+            var10['onMeasurement'] = var1;
+            var1 = 'cached_messages_tti';
+            var5 = var13.bind(var12)(var11, var10, var1);
  99:
-            entity = new Array(2);
-            entity[0] = report;
-            report = option.hasFetched;
-            if(report) { _fun00002_ip = 138; continue _fun00001 }
+            var1 = new Array(2);
+            var1[0] = var5;
+            var5 = var8.hasFetched;
+            if(var5) { _fun0001_ip = 138; continue _fun0001 }
  116:
-            offset = option.ready;
-            report = null;
-            if(!offset) { _fun00002_ip = 197; continue _fun00001 }
+            var10 = var8.ready;
+            var5 = null;
+            if(!var10) { _fun0001_ip = 197; continue _fun0001 }
  127:
-            option = option.cached;
-            report = null;
-            if(option) { _fun00002_ip = 197; continue _fun00001 }
+            var8 = var8.cached;
+            var5 = null;
+            if(var8) { _fun0001_ip = 197; continue _fun0001 }
  138:
-            offset = _closure1_slot3;
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            golfie = 1;
-            golfie = verify[golfie];
-            verify = undefined;
-            golfie = option.bind(verify)(golfie);
-            option = golfie.TTIMeasurementView;
-            golfie = {};
-            oscard = function(argFoo) { // Original name: onMeasurement
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                tangon = michal.displayLatestMessages;
-                zuuluu = tangon.record;
-                michal = argFoo;
-                michal = michal.nativeEvent;
-                michal = michal.timestamp;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var10 = _closure1_slot3;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 1;
+            var7 = var9[var7];
+            var9 = undefined;
+            var7 = var8.bind(var9)(var7);
+            var8 = var7.TTIMeasurementView;
+            var7 = {};
+            var6 = function onMeasurement(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var4 = var2.displayLatestMessages;
+                var3 = var4.record;
+                var2 = arg1;
+                var2 = var2.nativeEvent;
+                var2 = var2.timestamp;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            golfie['onMeasurement'] = oscard;
-            oscard = 'latest_messages_tti';
-            report = offset.bind(verify)(option, golfie, oscard);
+            var7['onMeasurement'] = var6;
+            var6 = 'latest_messages_tti';
+            var5 = var10.bind(var9)(var8, var7, var6);
  197:
-            entity[1] = report;
-            michal['children'] = entity;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var1[1] = var5;
+            var2['children'] = var1;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['ChatTTITracker'] = michal;
-    return entity;
+    var3['ChatTTITracker'] = var2;
+    return var1;
 })();

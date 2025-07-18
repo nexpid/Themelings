@@ -1,93 +1,93 @@
 // app/modules/interaction_components/openInteractionIframeModal.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _openInteractionIframeModal
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _openInteractionIframeModal() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 89; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 89; continue _fun0001 }
  7:
-                    oscard = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 2;
-                    report = tangon[michal];
-                    michal = undefined;
-                    golfie = oscard.bind(michal)(report);
-                    oscard = golfie.pushLazy;
-                    option = _closure1_slot0;
-                    report = 4;
-                    report = tangon[report];
-                    option = option.bind(michal)(report);
-                    report = 3;
-                    report = tangon[report];
-                    tangon = tangon.paths;
-                    report = option.bind(michal)(report, tangon);
-                    tangon = _closure1_slot4;
-                    zuuluu = argFoo;
-                    zuuluu = oscard.bind(golfie)(report, zuuluu, tangon);
-                    return michal;
+                    var6 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var5 = var4[var2];
+                    var2 = undefined;
+                    var7 = var6.bind(var2)(var5);
+                    var6 = var7.pushLazy;
+                    var8 = _closure1_slot0;
+                    var5 = 4;
+                    var5 = var4[var5];
+                    var8 = var8.bind(var2)(var5);
+                    var5 = 3;
+                    var5 = var4[var5];
+                    var4 = var4.paths;
+                    var5 = var8.bind(var2)(var5, var4);
+                    var4 = _closure1_slot4;
+                    var3 = arg1;
+                    var3 = var6.bind(var7)(var5, var3, var4);
+                    return var2;
  89:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.INTERACTION_IFRAME_MODAL_KEY;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interaction_components/openInteractionIframeModal.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: openInteractionIframeModal
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.INTERACTION_IFRAME_MODAL_KEY;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interaction_components/openInteractionIframeModal.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openInteractionIframeModal() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

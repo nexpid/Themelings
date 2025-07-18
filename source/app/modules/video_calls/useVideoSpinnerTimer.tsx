@@ -1,123 +1,123 @@
 // app/modules/video_calls/useVideoSpinnerTimer.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/video_calls/useVideoSpinnerTimer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useVideoSpinnerTimer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/video_calls/useVideoSpinnerTimer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVideoSpinnerTimer(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.location;
-            var _closure2_slot0 = zuuluu;
-            golfie = entity.videoSpinnerContext;
-            var _closure2_slot1 = golfie;
-            oscard = entity.userId;
-            var _closure2_slot2 = oscard;
-            verify = entity.streamId;
-            var _closure2_slot3 = verify;
-            yankee = entity.loading;
-            var _closure2_slot4 = yankee;
-            offset = entity.paused;
-            entity = undefined;
-            if(!(offset === entity)) { _fun00002_ip = 67; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.location;
+            var _closure2_slot0 = var3;
+            var7 = var1.videoSpinnerContext;
+            var _closure2_slot1 = var7;
+            var6 = var1.userId;
+            var _closure2_slot2 = var6;
+            var9 = var1.streamId;
+            var _closure2_slot3 = var9;
+            var11 = var1.loading;
+            var _closure2_slot4 = var11;
+            var10 = var1.paused;
+            var1 = undefined;
+            if(!(var10 === var1)) { _fun0001_ip = 67; continue _fun0001 }
  65:
-            offset = false;
+            var10 = false;
  67:
-            var _closure2_slot5 = offset;
-            var _closure2_slot6 = entity;
-            report = _closure1_slot3;
-            option = report.useState;
-            tangon = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                zuuluu = entity.VideoSpinnerTimer;
-                tangon = _closure2_slot0;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+            var _closure2_slot5 = var10;
+            var _closure2_slot6 = var1;
+            var5 = _closure1_slot3;
+            var8 = var5.useState;
+            var4 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var3 = var1.VideoSpinnerTimer;
+                var4 = _closure2_slot0;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             };
-            option = option.bind(report)(tangon);
-            tangon = _closure1_slot2;
-            zuuluu = 1;
-            tangon = tangon.bind(entity)(option, zuuluu);
-            zuuluu = 0;
-            option = tangon[zuuluu];
-            _closure2_slot6 = option;
-            tangon = report.useEffect;
-            zuuluu = new Array(6);
-            zuuluu[0] = yankee;
-            zuuluu[1] = offset;
-            zuuluu[2] = verify;
-            zuuluu[3] = option;
-            zuuluu[4] = golfie;
-            zuuluu[5] = oscard;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = var8.bind(var5)(var4);
+            var4 = _closure1_slot2;
+            var3 = 1;
+            var4 = var4.bind(var1)(var8, var3);
+            var3 = 0;
+            var8 = var4[var3];
+            _closure2_slot6 = var8;
+            var4 = var5.useEffect;
+            var3 = new Array(6);
+            var3[0] = var11;
+            var3[1] = var10;
+            var3[2] = var9;
+            var3[3] = var8;
+            var3[4] = var7;
+            var3[5] = var6;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot5;
-                    if(michal) { _fun00004_ip = 76; continue _fun00003 }
+                    var2 = _closure2_slot5;
+                    if(var2) { _fun0002_ip = 76; continue _fun0002 }
  10:
-                    michal = _closure2_slot4;
-                    if(michal) { _fun00004_ip = 60; continue _fun00003 }
+                    var2 = _closure2_slot4;
+                    if(var2) { _fun0002_ip = 60; continue _fun0002 }
  17:
-                    zuuluu = _closure2_slot3;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 76; continue _fun00003 }
+                    var3 = _closure2_slot3;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 76; continue _fun0002 }
  27:
-                    oscard = _closure2_slot6;
-                    report = oscard.trackSpinnerDuration;
-                    tangon = _closure2_slot1;
-                    zuuluu = _closure2_slot2;
-                    michal = _closure2_slot3;
-                    michal = report.bind(oscard)(tangon, zuuluu, michal);
-                    _fun00004_ip = 76; continue _fun00003;
+                    var6 = _closure2_slot6;
+                    var5 = var6.trackSpinnerDuration;
+                    var4 = _closure2_slot1;
+                    var3 = _closure2_slot2;
+                    var2 = _closure2_slot3;
+                    var2 = var5.bind(var6)(var4, var3, var2);
+                    _fun0002_ip = 76; continue _fun0002;
  60:
-                    michal = _closure2_slot6;
-                    entity = michal.onSpinnerStarted;
-                    entity = entity.bind(michal)();
+                    var2 = _closure2_slot6;
+                    var1 = var2.onSpinnerStarted;
+                    var1 = var1.bind(var2)();
  76:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

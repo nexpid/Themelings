@@ -1,217 +1,217 @@
 // app/design/components/ThemeContextProvider/native/RootThemeContextProvider.native.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ThemeTypes;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/ThemeContextProvider/native/RootThemeContextProvider.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: RootThemeContextProvider
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/ThemeContextProvider/native/RootThemeContextProvider.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function RootThemeContextProvider(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.children;
-            output = entity.theme;
-            tangon = undefined;
-            if(!(output === tangon)) { _fun00002_ip = 34; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.children;
+            var17 = var1.theme;
+            var4 = undefined;
+            if(!(var17 === var4)) { _fun0001_ip = 34; continue _fun0001 }
  21:
-            zuuluu = _closure1_slot3;
-            output = zuuluu.DARK;
+            var3 = _closure1_slot3;
+            var17 = var3.DARK;
  34:
-            var _closure2_slot0 = output;
-            sizing = entity.primaryColor;
-            if(!(sizing === tangon)) { _fun00002_ip = 50; continue _fun00001 }
+            var _closure2_slot0 = var17;
+            var16 = var1.primaryColor;
+            if(!(var16 === var4)) { _fun0001_ip = 50; continue _fun0001 }
  48:
-            sizing = null;
+            var16 = null;
  50:
-            var _closure2_slot1 = sizing;
-            kiloes = entity.secondaryColor;
-            if(!(kiloes === tangon)) { _fun00002_ip = 66; continue _fun00001 }
+            var _closure2_slot1 = var16;
+            var15 = var1.secondaryColor;
+            if(!(var15 === var4)) { _fun0001_ip = 66; continue _fun0001 }
  64:
-            kiloes = null;
+            var15 = null;
  66:
-            var _closure2_slot2 = kiloes;
-            backup = entity.gradient;
-            if(!(backup === tangon)) { _fun00002_ip = 82; continue _fun00001 }
+            var _closure2_slot2 = var15;
+            var14 = var1.gradient;
+            if(!(var14 === var4)) { _fun0001_ip = 82; continue _fun0001 }
  80:
-            backup = null;
+            var14 = null;
  82:
-            var _closure2_slot3 = backup;
-            foxtra = entity.flags;
-            if(!(foxtra === tangon)) { _fun00002_ip = 97; continue _fun00001 }
+            var _closure2_slot3 = var14;
+            var13 = var1.flags;
+            if(!(var13 === var4)) { _fun0001_ip = 97; continue _fun0001 }
  95:
-            foxtra = 0;
+            var13 = 0;
  97:
-            var _closure2_slot4 = foxtra;
-            romeon = entity.contrast;
-            if(!(romeon === tangon)) { _fun00002_ip = 114; continue _fun00001 }
+            var _closure2_slot4 = var13;
+            var12 = var1.contrast;
+            if(!(var12 === var4)) { _fun0001_ip = 114; continue _fun0001 }
  111:
-            romeon = 1;
+            var12 = 1;
  114:
-            var _closure2_slot5 = romeon;
-            yankee = entity.saturation;
-            if(!(yankee === tangon)) { _fun00002_ip = 131; continue _fun00001 }
+            var _closure2_slot5 = var12;
+            var11 = var1.saturation;
+            if(!(var11 === var4)) { _fun0001_ip = 131; continue _fun0001 }
  128:
-            yankee = 1;
+            var11 = 1;
  131:
-            var _closure2_slot6 = yankee;
-            offset = entity.density;
-            if(!(offset === tangon)) { _fun00002_ip = 149; continue _fun00001 }
+            var _closure2_slot6 = var11;
+            var10 = var1.density;
+            if(!(var10 === var4)) { _fun0001_ip = 149; continue _fun0001 }
  145:
-            offset = 'compact';
+            var10 = 'compact';
  149:
-            var _closure2_slot7 = offset;
-            verify = entity.disableAdaptiveTheme;
-            if(!(verify === tangon)) { _fun00002_ip = 165; continue _fun00001 }
+            var _closure2_slot7 = var10;
+            var9 = var1.disableAdaptiveTheme;
+            if(!(var9 === var4)) { _fun0001_ip = 165; continue _fun0001 }
  163:
-            verify = false;
+            var9 = false;
  165:
-            var _closure2_slot8 = verify;
-            option = entity.reduceAdaptiveTheme;
-            if(!(option === tangon)) { _fun00002_ip = 181; continue _fun00001 }
+            var _closure2_slot8 = var9;
+            var8 = var1.reduceAdaptiveTheme;
+            if(!(var8 === var4)) { _fun0001_ip = 181; continue _fun0001 }
  179:
-            option = false;
+            var8 = false;
  181:
-            var _closure2_slot9 = option;
-            golfie = _closure1_slot2;
-            oscard = golfie.useMemo;
-            zuuluu = new Array(10);
-            zuuluu[0] = output;
-            zuuluu[1] = sizing;
-            zuuluu[2] = kiloes;
-            zuuluu[3] = backup;
-            zuuluu[4] = foxtra;
-            zuuluu[5] = romeon;
-            zuuluu[6] = yankee;
-            zuuluu[7] = offset;
-            zuuluu[8] = verify;
-            zuuluu[9] = option;
-            michal = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.createThemedContext;
-                entity = {};
-                report = _closure2_slot0;
-                entity['theme'] = report;
-                report = _closure2_slot1;
-                entity['primaryColor'] = report;
-                report = _closure2_slot2;
-                entity['secondaryColor'] = report;
-                report = _closure2_slot3;
-                entity['gradient'] = report;
-                report = _closure2_slot4;
-                entity['flags'] = report;
-                report = _closure2_slot5;
-                entity['contrast'] = report;
-                report = _closure2_slot6;
-                entity['saturation'] = report;
-                report = _closure2_slot7;
-                entity['density'] = report;
-                report = _closure2_slot8;
-                entity['disableAdaptiveTheme'] = report;
-                tangon = _closure2_slot9;
-                entity['reduceAdaptiveTheme'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var _closure2_slot9 = var8;
+            var7 = _closure1_slot2;
+            var6 = var7.useMemo;
+            var3 = new Array(10);
+            var3[0] = var17;
+            var3[1] = var16;
+            var3[2] = var15;
+            var3[3] = var14;
+            var3[4] = var13;
+            var3[5] = var12;
+            var3[6] = var11;
+            var3[7] = var10;
+            var3[8] = var9;
+            var3[9] = var8;
+            var2 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.createThemedContext;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['theme'] = var5;
+                var5 = _closure2_slot1;
+                var1['primaryColor'] = var5;
+                var5 = _closure2_slot2;
+                var1['secondaryColor'] = var5;
+                var5 = _closure2_slot3;
+                var1['gradient'] = var5;
+                var5 = _closure2_slot4;
+                var1['flags'] = var5;
+                var5 = _closure2_slot5;
+                var1['contrast'] = var5;
+                var5 = _closure2_slot6;
+                var1['saturation'] = var5;
+                var5 = _closure2_slot7;
+                var1['density'] = var5;
+                var5 = _closure2_slot8;
+                var1['disableAdaptiveTheme'] = var5;
+                var4 = _closure2_slot9;
+                var1['reduceAdaptiveTheme'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = oscard.bind(golfie)(michal, zuuluu);
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 3;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.ThemeContext;
-            michal = entity.Provider;
-            entity = {};
-            entity['value'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = var6.bind(var7)(var2, var3);
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 3;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.ThemeContext;
+            var2 = var1.Provider;
+            var1 = {};
+            var1['value'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['RootThemeContextProvider'] = tangon;
-    michal = function(argFoo) { // Original name: DisableCustomTheme
-        michal = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 3;
-        golfie = oscard[entity];
-        tangon = undefined;
-        option = michal.bind(tangon)(golfie);
-        golfie = option.useThemeContext;
-        offset = golfie.bind(option)();
-        var _closure2_slot0 = offset;
-        verify = _closure1_slot2;
-        option = verify.useMemo;
-        golfie = new Array(1);
-        golfie[0] = offset;
-        report = function() {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.createThemedContext;
-            entity = {};
-            oscard = _closure2_slot0;
-            golfie = entity;
-            tangon = copyDataProperties(golfie, oscard);
-            report = null;
-            tangon = 'primaryColor';
-            entity[tangon] = report;
-            tangon = 'secondaryColor';
-            entity[tangon] = report;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['RootThemeContextProvider'] = var4;
+    var2 = function DisableCustomTheme(arg1) {
+        var2 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 3;
+        var7 = var6[var1];
+        var4 = undefined;
+        var8 = var2.bind(var4)(var7);
+        var7 = var8.useThemeContext;
+        var10 = var7.bind(var8)();
+        var _closure2_slot0 = var10;
+        var9 = _closure1_slot2;
+        var8 = var9.useMemo;
+        var7 = new Array(1);
+        var7[0] = var10;
+        var5 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.createThemedContext;
+            var1 = {};
+            var6 = _closure2_slot0;
+            var7 = var1;
+            var4 = copyDataProperties(var7, var6);
+            var5 = null;
+            var4 = 'primaryColor';
+            var1[var4] = var5;
+            var4 = 'secondaryColor';
+            var1[var4] = var5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        report = option.bind(verify)(report, golfie);
-        zuuluu = _closure1_slot4;
-        entity = oscard[entity];
-        entity = michal.bind(tangon)(entity);
-        entity = entity.ThemeContext;
-        michal = entity.Provider;
-        entity = {};
-        entity['value'] = report;
-        report = argFoo;
-        report = report.children;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var5 = var8.bind(var9)(var5, var7);
+        var3 = _closure1_slot4;
+        var1 = var6[var1];
+        var1 = var2.bind(var4)(var1);
+        var1 = var1.ThemeContext;
+        var2 = var1.Provider;
+        var1 = {};
+        var1['value'] = var5;
+        var5 = arg1;
+        var5 = var5.children;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['DisableCustomTheme'] = michal;
-    return entity;
+    var3['DisableCustomTheme'] = var2;
+    return var1;
 })();

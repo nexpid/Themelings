@@ -1,101 +1,101 @@
 // app/modules/activities/native/getDefaultOrientationLockState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = report;
-    michal = function(argFoo) { // Original name: getDefaultOrientationLockState
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var5;
+    var2 = function getDefaultOrientationLockState(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            if(!(tangon == zuuluu)) { _fun00002_ip = 13; continue _fun00001 }
+            var3 = arg1;
+            var4 = null;
+            if(!(var4 == var3)) { _fun0001_ip = 13; continue _fun0001 }
  9:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  13:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 1;
-            entity = michal[entity];
-            michal = undefined;
-            report = report.bind(michal)(entity);
-            entity = report.isIpadOS;
-            entity = entity.bind(report)();
-            zuuluu = zuuluu.embeddedActivityConfig;
-            tangon = tangon == zuuluu;
-            if(entity) { _fun00002_ip = 74; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var1 = var2[var1];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var1);
+            var1 = var5.isIpadOS;
+            var1 = var1.bind(var5)();
+            var3 = var3.embeddedActivityConfig;
+            var4 = var4 == var3;
+            if(var1) { _fun0001_ip = 74; continue _fun0001 }
  61:
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 72; continue _fun00001 }
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 72; continue _fun0001 }
  66:
-            entity = zuuluu.default_orientation_lock_state;
+            var1 = var3.default_orientation_lock_state;
  72:
-            _fun00002_ip = 88; continue _fun00001;
+            _fun0001_ip = 88; continue _fun0001;
  74:
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 85; continue _fun00001 }
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 85; continue _fun0001 }
  79:
-            michal = zuuluu.tablet_default_orientation_lock_state;
+            var2 = var3.tablet_default_orientation_lock_state;
  85:
-            entity = michal;
+            var1 = var2;
  88:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 2;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/activities/native/getDefaultOrientationLockState.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo, argBar) { // Original name: setOrientationLockState
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 2;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/activities/native/getDefaultOrientationLockState.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function setOrientationLockState(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            entity = null;
-            if(!(entity == tangon)) { _fun00004_ip = 26; continue _fun00003 }
+            var5 = arg1;
+            var4 = arg2;
+            var1 = null;
+            if(!(var1 == var4)) { _fun0002_ip = 26; continue _fun0002 }
  12:
-            zuuluu = _closure1_slot3;
-            michal = undefined;
-            tangon = zuuluu.bind(michal)(report);
+            var3 = _closure1_slot3;
+            var2 = undefined;
+            var4 = var3.bind(var2)(var5);
  26:
-            if(!(entity != tangon)) { _fun00004_ip = 88; continue _fun00003 }
+            if(!(var1 != var4)) { _fun0002_ip = 88; continue _fun0002 }
  30:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 0;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            oscard = 'EMBEDDED_ACTIVITY_SET_ORIENTATION_LOCK_STATE';
-            entity['type'] = oscard;
-            report = report.id;
-            entity['applicationId'] = report;
-            entity['lockState'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 0;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var6 = 'EMBEDDED_ACTIVITY_SET_ORIENTATION_LOCK_STATE';
+            var1['type'] = var6;
+            var5 = var5.id;
+            var1['applicationId'] = var5;
+            var1['lockState'] = var4;
+            var1 = var2.bind(var3)(var1);
  88:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['setOrientationLockState'] = tangon;
-    zuuluu['getDefaultOrientationLockState'] = michal;
-    return entity;
+    var3['setOrientationLockState'] = var4;
+    var3['getDefaultOrientationLockState'] = var2;
+    return var1;
 })();

@@ -1,126 +1,126 @@
 // app/modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    option = oscard[entity];
-    golfie = argCor;
-    entity = undefined;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot2 = golfie;
-    option = tangon.Set;
-    golfie = 1;
-    tangon = oscard[golfie];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NotificationCenterLocalItems;
-    verify = tangon.INCOMING_GAME_FRIEND_REQUESTS;
-    tangon = new Array(4);
-    tangon[0] = verify;
-    verify = oscard[golfie];
-    verify = report.bind(entity)(verify);
-    verify = verify.NotificationCenterLocalItems;
-    verify = verify.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
-    tangon[1] = verify;
-    verify = oscard[golfie];
-    verify = report.bind(entity)(verify);
-    verify = verify.NotificationCenterLocalItems;
-    verify = verify.INCOMING_FRIEND_REQUESTS;
-    tangon[2] = verify;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.NotificationCenterLocalItems;
-    golfie = golfie.INCOMING_FRIEND_REQUESTS_ACCEPTED;
-    tangon[3] = golfie;
-    golfie = option.prototype;
-    golfie = Object.create(golfie, {constructor: {value: option}});
-    foxtra = golfie;
-    romeon = tangon;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useGetOrFetchNotificationCenterItemsApplications
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot2;
-        tangon = report.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            entity = global;
-            entity = entity.Set;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            oscard = zuuluu;
-            entity = new oscard[entity](report);
-            entity = entity instanceof Object ? entity : zuuluu;
-            var _closure3_slot0 = entity;
-            entity = new Array(0);
-            var _closure3_slot1 = entity;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.forEach;
-            michal = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var8 = var6[var1];
+    var7 = native4;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot2 = var7;
+    var8 = var4.Set;
+    var7 = 1;
+    var4 = var6[var7];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NotificationCenterLocalItems;
+    var9 = var4.INCOMING_GAME_FRIEND_REQUESTS;
+    var4 = new Array(4);
+    var4[0] = var9;
+    var9 = var6[var7];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.NotificationCenterLocalItems;
+    var9 = var9.INCOMING_GAME_FRIEND_REQUESTS_ACCEPTED;
+    var4[1] = var9;
+    var9 = var6[var7];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.NotificationCenterLocalItems;
+    var9 = var9.INCOMING_FRIEND_REQUESTS;
+    var4[2] = var9;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.NotificationCenterLocalItems;
+    var7 = var7.INCOMING_FRIEND_REQUESTS_ACCEPTED;
+    var4[3] = var7;
+    var7 = var8.prototype;
+    var7 = Object.create(var7, {constructor: {value: var8}});
+    var13 = var7;
+    var12 = var4;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/notification_center/useGetOrFetchNotificationCenterItemApplications.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGetOrFetchNotificationCenterItemsApplications(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot2;
+        var4 = var5.useMemo;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            var1 = global;
+            var1 = var1.Set;
+            var3 = var1.prototype;
+            var3 = Object.create(var3, {constructor: {value: var1}});
+            var6 = var3;
+            var1 = new var6[var1](var5);
+            var1 = var1 instanceof Object ? var1 : var3;
+            var _closure3_slot0 = var1;
+            var1 = new Array(0);
+            var _closure3_slot1 = var1;
+            var4 = _closure2_slot0;
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.applicationId;
-                    tangon = entity.type;
-                    michal = _closure1_slot3;
-                    entity = michal.has;
-                    entity = entity.bind(michal)(tangon);
-                    if(!entity) { _fun00002_ip = 93; continue _fun00001 }
+                    var1 = arg1;
+                    var3 = var1.applicationId;
+                    var4 = var1.type;
+                    var2 = _closure1_slot3;
+                    var1 = var2.has;
+                    var1 = var1.bind(var2)(var4);
+                    if(!var1) { _fun0001_ip = 93; continue _fun0001 }
  33:
-                    entity = null;
-                    entity = entity == zuuluu;
-                    if(entity) { _fun00002_ip = 59; continue _fun00001 }
+                    var1 = null;
+                    var1 = var1 == var3;
+                    if(var1) { _fun0001_ip = 59; continue _fun0001 }
  42:
-                    tangon = _closure3_slot0;
-                    michal = tangon.has;
-                    entity = michal.bind(tangon)(zuuluu);
+                    var4 = _closure3_slot0;
+                    var2 = var4.has;
+                    var1 = var2.bind(var4)(var3);
  59:
-                    if(entity) { _fun00002_ip = 93; continue _fun00001 }
+                    if(var1) { _fun0001_ip = 93; continue _fun0001 }
  62:
-                    tangon = _closure3_slot0;
-                    michal = tangon.add;
-                    michal = michal.bind(tangon)(zuuluu);
-                    michal = _closure3_slot1;
-                    entity = michal.push;
-                    entity = entity.bind(michal)(zuuluu);
+                    var4 = _closure3_slot0;
+                    var2 = var4.add;
+                    var2 = var2.bind(var4)(var3);
+                    var2 = _closure3_slot1;
+                    var1 = var2.push;
+                    var1 = var1.bind(var2)(var3);
  93:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = tangon.bind(report)(michal, zuuluu);
-        tangon = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        entity = michal[entity];
-        michal = undefined;
-        entity = tangon.bind(michal)(entity);
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+        var3 = var4.bind(var5)(var2, var3);
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var4.bind(var2)(var1);
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    zuuluu['useGetOrFetchNotificationCenterItemsApplications'] = michal;
-    return entity;
+    var3['useGetOrFetchNotificationCenterItemsApplications'] = var2;
+    return var1;
 })();

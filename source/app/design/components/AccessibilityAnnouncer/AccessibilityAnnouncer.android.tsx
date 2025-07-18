@@ -1,63 +1,63 @@
 // app/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.AccessibilityInfo;
-    var _closure1_slot2 = michal;
-    michal = {};
-    golfie = function(argFoo, argBar) { // Original name: announce
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.AccessibilityInfo;
+    var _closure1_slot2 = var2;
+    var2 = {};
+    var7 = function announce(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = 'polite';
-            entity = argBar;
-            if(!(michal !== entity)) { _fun00002_ip = 36; continue _fun00001 }
+            var3 = arg1;
+            var2 = 'polite';
+            var1 = arg2;
+            if(!(var2 !== var1)) { _fun0001_ip = 36; continue _fun0001 }
  16:
-            michal = _closure1_slot2;
-            entity = michal.announceForAccessibility;
-            entity = entity.bind(michal)(zuuluu);
-            _fun00002_ip = 72; continue _fun00001;
+            var2 = _closure1_slot2;
+            var1 = var2.announceForAccessibility;
+            var1 = var1.bind(var2)(var3);
+            _fun0001_ip = 72; continue _fun0001;
  36:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.updateAccessibilityAnnouncerLiveRegionMessage;
-            entity = entity.bind(michal)(zuuluu);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.updateAccessibilityAnnouncerLiveRegionMessage;
+            var1 = var1.bind(var2)(var3);
  72:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['announce'] = golfie;
-    tangon = function() { // Original name: clearAnnouncements
-        entity = null;
-        return entity;
+    var2['announce'] = var7;
+    var4 = function clearAnnouncements() {
+        var1 = null;
+        return var1;
     };
-    michal['clearAnnouncements'] = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['AccessibilityAnnouncer'] = michal;
-    return entity;
+    var2['clearAnnouncements'] = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['AccessibilityAnnouncer'] = var2;
+    return var1;
 })();

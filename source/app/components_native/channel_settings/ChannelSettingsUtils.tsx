@@ -1,53 +1,53 @@
 // app/components_native/channel_settings/ChannelSettingsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'components_native/channel_settings/ChannelSettingsUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: getIsChannelNameSettingEditable
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'components_native/channel_settings/ChannelSettingsUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getIsChannelNameSettingEditable(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = zuuluu.canManageThread;
-            report = zuuluu.canManageChannels;
-            entity = zuuluu.canSendMessages;
-            oscard = zuuluu.isForumPost;
-            michal = zuuluu.isThread;
-            zuuluu = zuuluu.isChannelOwner;
-            if(!oscard) { _fun00002_ip = 45; continue _fun00001 }
+            var3 = arg1;
+            var4 = var3.canManageThread;
+            var5 = var3.canManageChannels;
+            var1 = var3.canSendMessages;
+            var6 = var3.isForumPost;
+            var2 = var3.isThread;
+            var3 = var3.isChannelOwner;
+            if(!var6) { _fun0001_ip = 45; continue _fun0001 }
  42:
-            if(zuuluu) { _fun00002_ip = 69; continue _fun00001 }
+            if(var3) { _fun0001_ip = 69; continue _fun0001 }
  45:
-            entity = tangon;
-            if(oscard) { _fun00002_ip = 69; continue _fun00001 }
+            var1 = var4;
+            if(var6) { _fun0001_ip = 69; continue _fun0001 }
  51:
-            entity = report;
-            if(!michal) { _fun00002_ip = 69; continue _fun00001 }
+            var1 = var5;
+            if(!var2) { _fun0001_ip = 69; continue _fun0001 }
  57:
-            michal = tangon;
-            if(tangon) { _fun00002_ip = 66; continue _fun00001 }
+            var2 = var4;
+            if(var4) { _fun0001_ip = 66; continue _fun0001 }
  63:
-            michal = zuuluu;
+            var2 = var3;
  66:
-            entity = michal;
+            var1 = var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getIsChannelNameSettingEditable'] = michal;
-    return entity;
+    var3['getIsChannelNameSettingEditable'] = var2;
+    return var1;
 })();

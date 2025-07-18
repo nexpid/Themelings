@@ -1,395 +1,395 @@
 // app/modules/guild_scheduled_events/LiveChannelNoticesStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot7 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot7 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot0 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot1 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.GuildScheduledEventStatus;
-    var _closure1_slot5 = michal;
-    michal = {};
-    option = new Array(0);
-    michal['hiddenEventsAndStages'] = option;
-    var _closure1_slot6 = michal;
-    michal = 6;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.PersistedStore;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: LiveChannelNoticesStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot1 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.GuildScheduledEventStatus;
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var8 = new Array(0);
+    var2['hiddenEventsAndStages'] = var8;
+    var _closure1_slot6 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.PersistedStore;
+    var2 = function(arg1) {
+        var4 = function LiveChannelNoticesStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot0;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot3;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot2;
-                entity = _closure1_slot7;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot3;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
+                var1 = _closure1_slot7;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot4;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot1;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot4;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = argFoo;
-                tangon = null;
-                entity = tangon != michal;
-                if(!entity) { _fun00006_ip = 22; continue _fun00005 }
+                var2 = arg1;
+                var4 = null;
+                var1 = var4 != var2;
+                if(!var1) { _fun0003_ip = 22; continue _fun0003 }
  12:
-                zuuluu = michal.hiddenEventsAndStages;
-                entity = tangon != zuuluu;
+                var3 = var2.hiddenEventsAndStages;
+                var1 = var4 != var3;
  22:
-                if(!entity) { _fun00006_ip = 32; continue _fun00005 }
+                if(!var1) { _fun0003_ip = 32; continue _fun0003 }
  25:
-                _closure1_slot6 = michal;
+                _closure1_slot6 = var2;
  32:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'isLiveChannelNoticeHidden';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'isLiveChannelNoticeHidden';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                golfie = entity.eventId;
-                option = entity.stageId;
-                michal = null;
-                zuuluu = michal == option;
-                if(zuuluu) { _fun00008_ip = 74; continue _fun00007 }
+                var1 = arg1;
+                var7 = var1.eventId;
+                var8 = var1.stageId;
+                var2 = null;
+                var3 = var2 == var8;
+                if(var3) { _fun0004_ip = 74; continue _fun0004 }
  24:
-                entity = _closure1_slot6;
-                report = entity.hiddenEventsAndStages;
-                tangon = report.includes;
-                entity = global;
-                entity = entity.HermesInternal;
-                oscard = entity.concat;
-                entity = 'stage-';
-                entity = oscard.bind(entity)(option);
-                entity = tangon.bind(report)(entity);
-                zuuluu = !entity;
+                var1 = _closure1_slot6;
+                var5 = var1.hiddenEventsAndStages;
+                var4 = var5.includes;
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var6 = var1.concat;
+                var1 = 'stage-';
+                var1 = var6.bind(var1)(var8);
+                var1 = var4.bind(var5)(var1);
+                var3 = !var1;
  74:
-                entity = !zuuluu;
-                if(!zuuluu) { _fun00008_ip = 137; continue _fun00007 }
+                var1 = !var3;
+                if(!var3) { _fun0004_ip = 137; continue _fun0004 }
  80:
-                michal = michal != golfie;
-                if(!michal) { _fun00008_ip = 134; continue _fun00007 }
+                var2 = var2 != var7;
+                if(!var2) { _fun0004_ip = 134; continue _fun0004 }
  87:
-                zuuluu = _closure1_slot6;
-                report = zuuluu.hiddenEventsAndStages;
-                tangon = report.includes;
-                zuuluu = global;
-                zuuluu = zuuluu.HermesInternal;
-                oscard = zuuluu.concat;
-                zuuluu = 'event-';
-                zuuluu = oscard.bind(zuuluu)(golfie);
-                michal = tangon.bind(report)(zuuluu);
+                var3 = _closure1_slot6;
+                var5 = var3.hiddenEventsAndStages;
+                var4 = var5.includes;
+                var3 = global;
+                var3 = var3.HermesInternal;
+                var6 = var3.concat;
+                var3 = 'event-';
+                var3 = var6.bind(var3)(var7);
+                var2 = var4.bind(var5)(var3);
  134:
-                entity = michal;
+                var1 = var2;
  137:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getState';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot6;
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot6;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(option);
-    michal = 'LiveChannelNoticesStore';
-    option['displayName'] = michal;
-    michal = 'liveChannelNotices_v2';
-    option['persistKey'] = michal;
-    michal = 7;
-    michal = oscard[michal];
-    romeon = golfie.bind(entity)(michal);
-    michal = {};
-    verify = function(argFoo) { // Original name: handleHideNotice
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var8 = var2.bind(var1)(var8);
+    var2 = 'LiveChannelNoticesStore';
+    var8['displayName'] = var2;
+    var2 = 'liveChannelNotices_v2';
+    var8['persistKey'] = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var12 = var7.bind(var1)(var2);
+    var2 = {};
+    var9 = function handleHideNotice(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            report = entity.eventId;
-            oscard = entity.stageId;
-            entity = null;
-            if(!(entity == report)) { _fun00010_ip = 74; continue _fun00009 }
+            var1 = arg1;
+            var5 = var1.eventId;
+            var6 = var1.stageId;
+            var1 = null;
+            if(!(var1 == var5)) { _fun0005_ip = 74; continue _fun0005 }
  21:
-            if(!(entity != oscard)) { _fun00010_ip = 121; continue _fun00009 }
+            if(!(var1 != var6)) { _fun0005_ip = 121; continue _fun0005 }
  25:
-            entity = _closure1_slot6;
-            zuuluu = entity.hiddenEventsAndStages;
-            michal = zuuluu.push;
-            entity = global;
-            entity = entity.HermesInternal;
-            tangon = entity.concat;
-            entity = 'stage-';
-            entity = tangon.bind(entity)(oscard);
-            entity = michal.bind(zuuluu)(entity);
-            _fun00010_ip = 121; continue _fun00009;
+            var1 = _closure1_slot6;
+            var3 = var1.hiddenEventsAndStages;
+            var2 = var3.push;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var1 = 'stage-';
+            var1 = var4.bind(var1)(var6);
+            var1 = var2.bind(var3)(var1);
+            _fun0005_ip = 121; continue _fun0005;
  74:
-            entity = _closure1_slot6;
-            zuuluu = entity.hiddenEventsAndStages;
-            michal = zuuluu.push;
-            entity = global;
-            entity = entity.HermesInternal;
-            tangon = entity.concat;
-            entity = 'event-';
-            entity = tangon.bind(entity)(report);
-            entity = michal.bind(zuuluu)(entity);
+            var1 = _closure1_slot6;
+            var3 = var1.hiddenEventsAndStages;
+            var2 = var3.push;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var1 = 'event-';
+            var1 = var4.bind(var1)(var5);
+            var1 = var2.bind(var3)(var1);
  121:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['LIVE_CHANNEL_NOTICE_HIDE'] = verify;
-    verify = function(argFoo) { // Original name: handleEventUpdate
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var2['LIVE_CHANNEL_NOTICE_HIDE'] = var9;
+    var9 = function handleEventUpdate(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            michal = argFoo;
-            report = michal.guildScheduledEvent;
-            tangon = report.id;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'event-';
-            oscard = zuuluu.bind(michal)(tangon);
-            var _closure2_slot0 = oscard;
-            zuuluu = _closure1_slot6;
-            tangon = zuuluu.hiddenEventsAndStages;
-            zuuluu = tangon.includes;
-            zuuluu = zuuluu.bind(tangon)(oscard);
-            zuuluu = !zuuluu;
-            if(zuuluu) { _fun00012_ip = 117; continue _fun00011 }
+            var2 = arg1;
+            var5 = var2.guildScheduledEvent;
+            var4 = var5.id;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'event-';
+            var6 = var3.bind(var2)(var4);
+            var _closure2_slot0 = var6;
+            var3 = _closure1_slot6;
+            var4 = var3.hiddenEventsAndStages;
+            var3 = var4.includes;
+            var3 = var3.bind(var4)(var6);
+            var3 = !var3;
+            if(var3) { _fun0006_ip = 117; continue _fun0006 }
  73:
-            oscard = report.status;
-            tangon = _closure1_slot5;
-            tangon = tangon.CANCELED;
-            tangon = oscard !== tangon;
-            if(!tangon) { _fun00012_ip = 114; continue _fun00011 }
+            var6 = var5.status;
+            var4 = _closure1_slot5;
+            var4 = var4.CANCELED;
+            var4 = var6 !== var4;
+            if(!var4) { _fun0006_ip = 114; continue _fun0006 }
  95:
-            oscard = report.status;
-            report = _closure1_slot5;
-            report = report.COMPLETED;
-            tangon = oscard !== report;
+            var6 = var5.status;
+            var5 = _closure1_slot5;
+            var5 = var5.COMPLETED;
+            var4 = var6 !== var5;
  114:
-            zuuluu = tangon;
+            var3 = var4;
  117:
-            if(zuuluu) { _fun00012_ip = 153; continue _fun00011 }
+            if(var3) { _fun0006_ip = 153; continue _fun0006 }
  120:
-            michal = _closure1_slot6;
-            tangon = michal.hiddenEventsAndStages;
-            zuuluu = tangon.filter;
-            entity = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = entity !== michal;
-                return entity;
+            var2 = _closure1_slot6;
+            var4 = var2.hiddenEventsAndStages;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1 !== var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            michal['hiddenEventsAndStages'] = entity;
+            var1 = var3.bind(var4)(var1);
+            var2['hiddenEventsAndStages'] = var1;
  153:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GUILD_SCHEDULED_EVENT_UPDATE'] = verify;
-    verify = function(argFoo) { // Original name: handleEventDelete
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var2['GUILD_SCHEDULED_EVENT_UPDATE'] = var9;
+    var9 = function handleEventDelete(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            michal = argFoo;
-            michal = michal.guildScheduledEvent;
-            tangon = michal.id;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'event-';
-            report = zuuluu.bind(michal)(tangon);
-            var _closure2_slot0 = report;
-            zuuluu = _closure1_slot6;
-            tangon = zuuluu.hiddenEventsAndStages;
-            zuuluu = tangon.includes;
-            zuuluu = zuuluu.bind(tangon)(report);
-            if(!zuuluu) { _fun00014_ip = 103; continue _fun00013 }
+            var2 = arg1;
+            var2 = var2.guildScheduledEvent;
+            var4 = var2.id;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'event-';
+            var5 = var3.bind(var2)(var4);
+            var _closure2_slot0 = var5;
+            var3 = _closure1_slot6;
+            var4 = var3.hiddenEventsAndStages;
+            var3 = var4.includes;
+            var3 = var3.bind(var4)(var5);
+            if(!var3) { _fun0007_ip = 103; continue _fun0007 }
  70:
-            michal = _closure1_slot6;
-            tangon = michal.hiddenEventsAndStages;
-            zuuluu = tangon.filter;
-            entity = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = entity !== michal;
-                return entity;
+            var2 = _closure1_slot6;
+            var4 = var2.hiddenEventsAndStages;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1 !== var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            michal['hiddenEventsAndStages'] = entity;
+            var1 = var3.bind(var4)(var1);
+            var2['hiddenEventsAndStages'] = var1;
  103:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GUILD_SCHEDULED_EVENT_DELETE'] = verify;
-    tangon = function(argFoo) { // Original name: handleStageUpdate
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var2['GUILD_SCHEDULED_EVENT_DELETE'] = var9;
+    var4 = function handleStageUpdate(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            michal = argFoo;
-            michal = michal.instance;
-            tangon = michal.id;
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'stage-';
-            report = zuuluu.bind(michal)(tangon);
-            var _closure2_slot0 = report;
-            zuuluu = _closure1_slot6;
-            tangon = zuuluu.hiddenEventsAndStages;
-            zuuluu = tangon.includes;
-            zuuluu = zuuluu.bind(tangon)(report);
-            if(!zuuluu) { _fun00016_ip = 103; continue _fun00015 }
+            var2 = arg1;
+            var2 = var2.instance;
+            var4 = var2.id;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'stage-';
+            var5 = var3.bind(var2)(var4);
+            var _closure2_slot0 = var5;
+            var3 = _closure1_slot6;
+            var4 = var3.hiddenEventsAndStages;
+            var3 = var4.includes;
+            var3 = var3.bind(var4)(var5);
+            if(!var3) { _fun0008_ip = 103; continue _fun0008 }
  70:
-            michal = _closure1_slot6;
-            tangon = michal.hiddenEventsAndStages;
-            zuuluu = tangon.filter;
-            entity = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = entity !== michal;
-                return entity;
+            var2 = _closure1_slot6;
+            var4 = var2.hiddenEventsAndStages;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1 !== var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            michal['hiddenEventsAndStages'] = entity;
+            var1 = var3.bind(var4)(var1);
+            var2['hiddenEventsAndStages'] = var1;
  103:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['STAGE_INSTANCE_DELETE'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    foxtra = tangon;
-    yankee = michal;
-    michal = new foxtra[option](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/LiveChannelNoticesStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['STAGE_INSTANCE_DELETE'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var8](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/LiveChannelNoticesStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

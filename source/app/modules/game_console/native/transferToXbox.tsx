@@ -1,231 +1,231 @@
 // app/modules/game_console/native/transferToXbox.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    golfie = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    var _closure1_slot3 = oscard;
-    entity = function() { // Original name: _transferToXbox
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var7 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var _closure1_slot3 = var6;
+    var1 = function _transferToXbox() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 401; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 401; continue _fun0001 }
  13:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot3;
-                    michal = 5;
-                    michal = tangon[michal];
-                    oscard = undefined;
-                    tangon = zuuluu.bind(oscard)(michal);
-                    zuuluu = tangon.maybeShowPTTAlert;
-                    michal = _closure1_slot6;
-                    michal = michal.XBOX;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot3;
+                    var2 = 5;
+                    var2 = var4[var2];
+                    var6 = undefined;
+                    var4 = var3.bind(var6)(var2);
+                    var3 = var4.maybeShowPTTAlert;
+                    var2 = _closure1_slot6;
+                    var2 = var2.XBOX;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=63);
  61:
-                    return michal;
+                    return var2;
  63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 398; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 398; continue _fun0001 }
  72:
-                    tangon = _closure1_slot2;
-                    zuuluu = _closure1_slot3;
-                    foxtra = 6;
-                    zuuluu = zuuluu[foxtra];
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = tangon.disconnectRemote;
-                    zuuluu = zuuluu.bind(tangon)();
+                    var4 = _closure1_slot2;
+                    var3 = _closure1_slot3;
+                    var13 = 6;
+                    var3 = var3[var13];
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.disconnectRemote;
+                    var3 = var3.bind(var4)();
                     SaveGenerator(address=106);
  104:
-                    return zuuluu;
+                    return var3;
  106:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 395; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 395; continue _fun0001 }
  115:
-                    report = _closure1_slot2;
-                    tangon = _closure1_slot3;
-                    tangon = tangon[foxtra];
-                    report = report.bind(oscard)(tangon);
-                    tangon = report.getConnectNonce;
-                    tangon = tangon.bind(report)();
+                    var5 = _closure1_slot2;
+                    var4 = _closure1_slot3;
+                    var4 = var4[var13];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = var5.getConnectNonce;
+                    var4 = var4.bind(var5)();
                     SaveGenerator(address=146);
  144:
-                    return tangon;
+                    return var4;
  146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 392; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 392; continue _fun0001 }
  155:
-                    verify = _closure1_slot1;
-                    offset = _closure1_slot3;
-                    report = 7;
-                    report = offset[report];
-                    verify = verify.bind(oscard)(report);
-                    report = {};
-                    report['nonce'] = tangon;
-                    yankee = false;
-                    report['forQRCode'] = yankee;
-                    verify = verify.bind(oscard)(option, report);
-                    offset = _closure1_slot5;
-                    report = offset.canOpenURL;
-                    report = report.bind(offset)(verify);
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot3;
+                    var5 = 7;
+                    var5 = var10[var5];
+                    var9 = var9.bind(var6)(var5);
+                    var5 = {};
+                    var5['nonce'] = var4;
+                    var11 = false;
+                    var5['forQRCode'] = var11;
+                    var9 = var9.bind(var6)(var8, var5);
+                    var10 = _closure1_slot5;
+                    var5 = var10.canOpenURL;
+                    var5 = var5.bind(var10)(var9);
                     SaveGenerator(address=214);
  212:
-                    return report;
+                    return var5;
  214:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 389; continue _fun00001 }
+                    if(var10) { _fun0001_ip = 389; continue _fun0001 }
  223:
-                    backup = _closure1_slot1;
-                    romeon = _closure1_slot3;
-                    if(report) { _fun00002_ip = 274; continue _fun00001 }
+                    var14 = _closure1_slot1;
+                    var12 = _closure1_slot3;
+                    if(var5) { _fun0001_ip = 274; continue _fun0001 }
  234:
-                    offset = 8;
-                    offset = romeon[offset];
-                    sizing = backup.bind(oscard)(offset);
-                    kiloes = sizing.openLazy;
-                    offset = {};
-                    output = function() { // Original name: importer
-                        zuuluu = _closure1_slot0;
-                        entity = _closure1_slot3;
-                        michal = 10;
-                        michal = entity[michal];
-                        tangon = undefined;
-                        zuuluu = zuuluu.bind(tangon)(michal);
-                        michal = 9;
-                        michal = entity[michal];
-                        entity = entity.paths;
-                        zuuluu = zuuluu.bind(tangon)(michal, entity);
-                        michal = zuuluu.then;
-                        entity = function(argFoo) {
-                            michal = argFoo;
-                            michal = michal.default;
-                            var _closure6_slot0 = michal;
-                            entity = function(argFoo) {
-                                tangon = _closure1_slot7;
-                                zuuluu = _closure6_slot0;
-                                michal = {};
-                                report = argFoo;
-                                oscard = michal;
-                                entity = copyDataProperties(oscard, report);
-                                entity = undefined;
-                                entity = tangon.bind(entity)(zuuluu, michal);
-                                return entity;
+                    var10 = 8;
+                    var10 = var12[var10];
+                    var16 = var14.bind(var6)(var10);
+                    var15 = var16.openLazy;
+                    var10 = {};
+                    var17 = function importer() {
+                        var3 = _closure1_slot0;
+                        var1 = _closure1_slot3;
+                        var2 = 10;
+                        var2 = var1[var2];
+                        var4 = undefined;
+                        var3 = var3.bind(var4)(var2);
+                        var2 = 9;
+                        var2 = var1[var2];
+                        var1 = var1.paths;
+                        var3 = var3.bind(var4)(var2, var1);
+                        var2 = var3.then;
+                        var1 = function(arg1) {
+                            var2 = arg1;
+                            var2 = var2.default;
+                            var _closure6_slot0 = var2;
+                            var1 = function(arg1) {
+                                var4 = _closure1_slot7;
+                                var3 = _closure6_slot0;
+                                var2 = {};
+                                var5 = arg1;
+                                var6 = var2;
+                                var1 = copyDataProperties(var6, var5);
+                                var1 = undefined;
+                                var1 = var4.bind(var1)(var3, var2);
+                                return var1;
                             };
-                            return entity;
+                            return var1;
                         };
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    offset['importer'] = output;
-                    offset = kiloes.bind(sizing)(offset);
-                    return offset;
+                    var10['importer'] = var17;
+                    var10 = var15.bind(var16)(var10);
+                    return var10;
  274:
-                    offset = 11;
-                    offset = romeon[offset];
-                    kiloes = backup.bind(oscard)(offset);
-                    backup = option.id;
-                    offset = _closure1_slot6;
-                    offset = offset.XBOX;
-                    offset = kiloes.bind(oscard)(backup, offset);
-                    offset = _closure1_slot2;
-                    foxtra = romeon[foxtra];
-                    kiloes = offset.bind(oscard)(foxtra);
-                    backup = kiloes.waitForSession;
-                    foxtra = _closure1_slot6;
-                    foxtra = foxtra.XBOX;
-                    option = option.id;
-                    option = backup.bind(kiloes)(foxtra, option, tangon);
-                    option = 12;
-                    option = romeon[option];
-                    offset = offset.bind(oscard)(option);
-                    option = offset.stopOwnStream;
-                    option = option.bind(offset)(yankee);
-                    option = _closure1_slot5;
-                    golfie = option.openURL;
-                    golfie = golfie.bind(option)(verify);
-                    return oscard;
+                    var10 = 11;
+                    var10 = var12[var10];
+                    var15 = var14.bind(var6)(var10);
+                    var14 = var8.id;
+                    var10 = _closure1_slot6;
+                    var10 = var10.XBOX;
+                    var10 = var15.bind(var6)(var14, var10);
+                    var10 = _closure1_slot2;
+                    var13 = var12[var13];
+                    var15 = var10.bind(var6)(var13);
+                    var14 = var15.waitForSession;
+                    var13 = _closure1_slot6;
+                    var13 = var13.XBOX;
+                    var8 = var8.id;
+                    var8 = var14.bind(var15)(var13, var8, var4);
+                    var8 = 12;
+                    var8 = var12[var8];
+                    var10 = var10.bind(var6)(var8);
+                    var8 = var10.stopOwnStream;
+                    var8 = var8.bind(var10)(var11);
+                    var8 = _closure1_slot5;
+                    var7 = var8.openURL;
+                    var7 = var7.bind(var8)(var9);
+                    return var6;
  389:
-                    return report;
+                    return var5;
  392:
-                    return tangon;
+                    return var4;
  395:
-                    return zuuluu;
+                    return var3;
  398:
-                    return michal;
+                    return var2;
  401:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Linking;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PlatformTypes;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_console/native/transferToXbox.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: transferToXbox
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Linking;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PlatformTypes;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/game_console/native/transferToXbox.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function transferToXbox() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

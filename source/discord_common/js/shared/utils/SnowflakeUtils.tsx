@@ -1,291 +1,291 @@
 // discord_common/js/shared/utils/SnowflakeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    oscard = function(argFoo) { // Original name: extractTimestamp
-        entity = global;
-        zuuluu = entity.Math;
-        michal = zuuluu.floor;
-        report = entity.Number;
-        tangon = undefined;
-        entity = argFoo;
-        tangon = report.bind(tangon)(entity);
-        entity = 4194304;
-        entity = tangon / entity;
-        michal = michal.bind(zuuluu)(entity);
-        entity = _closure1_slot4;
-        entity = michal + entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var6 = function extractTimestamp(arg1) {
+        var1 = global;
+        var3 = var1.Math;
+        var2 = var3.floor;
+        var5 = var1.Number;
+        var4 = undefined;
+        var1 = arg1;
+        var4 = var5.bind(var4)(var1);
+        var1 = 4194304;
+        var1 = var4 / var1;
+        var2 = var2.bind(var3)(var1);
+        var1 = _closure1_slot4;
+        var1 = var2 + var1;
+        return var1;
     };
-    var _closure1_slot5 = oscard;
-    report = function(argFoo) { // Original name: fromTimestamp
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot5 = var6;
+    var5 = function fromTimestamp(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot4;
-            entity = argFoo;
-            tangon = entity - zuuluu;
-            entity = '0';
-            zuuluu = 0;
-            if(!(!(tangon <= zuuluu))) { _fun00002_ip = 76; continue _fun00001 }
+            var3 = _closure1_slot4;
+            var1 = arg1;
+            var4 = var1 - var3;
+            var1 = '0';
+            var3 = 0;
+            if(!(!(var4 <= var3))) { _fun0001_ip = 76; continue _fun0001 }
  26:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            michal = report.bind(zuuluu)(michal);
-            tangon = michal.bind(zuuluu)(tangon);
-            zuuluu = tangon.shiftLeft;
-            michal = 22;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.toString;
-            entity = michal.bind(zuuluu)();
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var2 = var3[var2];
+            var3 = undefined;
+            var2 = var5.bind(var3)(var2);
+            var4 = var2.bind(var3)(var4);
+            var3 = var4.shiftLeft;
+            var2 = 22;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.toString;
+            var1 = var2.bind(var3)();
  76:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = report;
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, michal);
-    entity = 0;
-    michal = verify[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = verify[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    golfie = 1420070400000.0;
-    var _closure1_slot4 = golfie;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function() { // Original name: SnowflakeSequence
-            zuuluu = this;
-            tangon = _closure1_slot2;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = 0;
-            zuuluu['seq'] = michal;
-            return entity;
+    var _closure1_slot6 = var5;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var9[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var9[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var7 = 1420070400000.0;
+    var _closure1_slot4 = var7;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function SnowflakeSequence() {
+            var3 = this;
+            var4 = _closure1_slot2;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = 0;
+            var3['seq'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'next';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'next';
+        var1['key'] = var2;
+        var2 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                zuuluu = michal.seq;
-                entity = 4095;
-                if(!(!(zuuluu > entity))) { _fun00004_ip = 39; continue _fun00003 }
+                var2 = this;
+                var3 = var2.seq;
+                var1 = 4095;
+                if(!(!(var3 > var1))) { _fun0002_ip = 39; continue _fun0002 }
  19:
-                entity = michal.seq;
-                entity = parseFloat(entity);
-                zuuluu = entity + 1;
-                michal['seq'] = zuuluu;
-                return entity;
+                var1 = var2.seq;
+                var1 = parseFloat(var1);
+                var3 = var1 + 1;
+                var2['seq'] = var3;
+                return var1;
  39:
-                entity = global;
-                zuuluu = entity.Error;
-                tangon = michal.seq;
-                entity = entity.HermesInternal;
-                michal = entity.concat;
-                entity = 'Snowflake sequence number overflow: ';
-                report = michal.bind(entity)(tangon);
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                oscard = michal;
-                entity = new oscard[zuuluu](report, tangon);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var4 = var2.seq;
+                var1 = var1.HermesInternal;
+                var2 = var1.concat;
+                var1 = 'Snowflake sequence number overflow: ';
+                var5 = var2.bind(var1)(var4);
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var6 = var2;
+                var1 = new var6[var3](var5, var4);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(2);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'reset';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = 0;
-            entity = this;
-            entity['seq'] = michal;
-            entity = undefined;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(2);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'reset';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = 0;
+            var1 = this;
+            var1['seq'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[1] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[1] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    option = 3;
-    verify = verify[option];
-    option = argBar;
-    offset = option.bind(entity)(verify);
-    verify = offset.fileFinishedImporting;
-    option = '../discord_common/js/shared/utils/SnowflakeUtils.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['DISCORD_EPOCH'] = golfie;
-    golfie = 4095;
-    zuuluu['MAX_SNOWFLAKE_SEQ'] = golfie;
-    zuuluu['extractTimestamp'] = oscard;
-    zuuluu['fromTimestamp'] = report;
-    report = function(argFoo, argBar) { // Original name: fromTimestampWithSequence
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2 = var2.bind(var1)();
+    var8 = 3;
+    var9 = var9[var8];
+    var8 = native2;
+    var10 = var8.bind(var1)(var9);
+    var9 = var10.fileFinishedImporting;
+    var8 = '../discord_common/js/shared/utils/SnowflakeUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['DISCORD_EPOCH'] = var7;
+    var7 = 4095;
+    var3['MAX_SNOWFLAKE_SEQ'] = var7;
+    var3['extractTimestamp'] = var6;
+    var3['fromTimestamp'] = var5;
+    var5 = function fromTimestampWithSequence(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argBar;
-            zuuluu = _closure1_slot4;
-            michal = argFoo;
-            report = michal - zuuluu;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 2;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(entity);
-            entity = 0;
-            if(!(!(report <= entity))) { _fun00006_ip = 48; continue _fun00005 }
+            var4 = arg2;
+            var3 = _closure1_slot4;
+            var2 = arg1;
+            var5 = var2 - var3;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 2;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = 0;
+            if(!(!(var5 <= var1))) { _fun0003_ip = 48; continue _fun0003 }
  45:
-            entity = report;
+            var1 = var5;
  48:
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.shiftLeft;
-            entity = 22;
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.add;
-            entity = tangon.next;
-            entity = entity.bind(tangon)();
-            michal = michal.bind(zuuluu)(entity);
-            entity = michal.toString;
-            entity = entity.bind(michal)();
-            return entity;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.shiftLeft;
+            var1 = 22;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.add;
+            var1 = var4.next;
+            var1 = var1.bind(var4)();
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.toString;
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    zuuluu['fromTimestampWithSequence'] = report;
-    report = function(argFoo) { // Original name: atPreviousMillisecond
-        zuuluu = _closure1_slot6;
-        tangon = _closure1_slot5;
-        michal = undefined;
-        entity = argFoo;
-        tangon = tangon.bind(michal)(entity);
-        entity = 1;
-        entity = tangon - entity;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['fromTimestampWithSequence'] = var5;
+    var5 = function atPreviousMillisecond(arg1) {
+        var3 = _closure1_slot6;
+        var4 = _closure1_slot5;
+        var2 = undefined;
+        var1 = arg1;
+        var4 = var4.bind(var2)(var1);
+        var1 = 1;
+        var1 = var4 - var1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['atPreviousMillisecond'] = report;
-    report = function(argFoo) { // Original name: age
-        entity = global;
-        michal = entity.Date;
-        entity = michal.now;
-        michal = entity.bind(michal)();
-        tangon = _closure1_slot5;
-        zuuluu = undefined;
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(entity);
-        entity = michal - entity;
-        return entity;
+    var3['atPreviousMillisecond'] = var5;
+    var5 = function age(arg1) {
+        var1 = global;
+        var2 = var1.Date;
+        var1 = var2.now;
+        var2 = var1.bind(var2)();
+        var4 = _closure1_slot5;
+        var3 = undefined;
+        var1 = arg1;
+        var1 = var4.bind(var3)(var1);
+        var1 = var2 - var1;
+        return var1;
     };
-    zuuluu['age'] = report;
-    report = function(argFoo, argBar) { // Original name: compare
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['age'] = var5;
+    var5 = function compare(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            verify = argFoo;
-            option = argBar;
-            entity = 0;
-            if(!(verify !== option)) { _fun00008_ip = 108; continue _fun00007 }
+            var9 = arg1;
+            var8 = arg2;
+            var1 = 0;
+            if(!(var9 !== var8)) { _fun0004_ip = 108; continue _fun0004 }
  12:
-            zuuluu = null;
-            tangon = zuuluu == option;
-            golfie = 1;
-            michal = golfie;
-            if(tangon) { _fun00008_ip = 105; continue _fun00007 }
+            var3 = null;
+            var4 = var3 == var8;
+            var7 = 1;
+            var2 = var7;
+            if(var4) { _fun0004_ip = 105; continue _fun0004 }
  27:
-            tangon = zuuluu == verify;
-            oscard = -1;
-            zuuluu = oscard;
-            if(tangon) { _fun00008_ip = 102; continue _fun00007 }
+            var4 = var3 == var9;
+            var6 = -1;
+            var3 = var6;
+            if(var4) { _fun0004_ip = 102; continue _fun0004 }
  43:
-            report = verify.length;
-            tangon = option.length;
-            report = report > tangon;
-            tangon = golfie;
-            if(report) { _fun00008_ip = 99; continue _fun00007 }
+            var5 = var9.length;
+            var4 = var8.length;
+            var5 = var5 > var4;
+            var4 = var7;
+            if(var5) { _fun0004_ip = 99; continue _fun0004 }
  63:
-            offset = verify.length;
-            report = option.length;
-            offset = offset < report;
-            report = oscard;
-            if(offset) { _fun00008_ip = 96; continue _fun00007 }
+            var10 = var9.length;
+            var5 = var8.length;
+            var10 = var10 < var5;
+            var5 = var6;
+            if(var10) { _fun0004_ip = 96; continue _fun0004 }
  83:
-            option = verify > option;
-            if(!option) { _fun00008_ip = 93; continue _fun00007 }
+            var8 = var9 > var8;
+            if(!var8) { _fun0004_ip = 93; continue _fun0004 }
  90:
-            oscard = golfie;
+            var6 = var7;
  93:
-            report = oscard;
+            var5 = var6;
  96:
-            tangon = report;
+            var4 = var5;
  99:
-            zuuluu = tangon;
+            var3 = var4;
  102:
-            michal = zuuluu;
+            var2 = var3;
  105:
-            entity = michal;
+            var1 = var2;
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['compare'] = report;
-    tangon = function(argFoo) { // Original name: isProbablyAValidSnowflake
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['compare'] = var5;
+    var4 = function isProbablyAValidSnowflake(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = argFoo;
-            michal = zuuluu;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00010_ip = 79; continue _fun00009 }
+            var3 = arg1;
+            var2 = var3;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0005_ip = 79; continue _fun0005 }
  12:
-            tangon = /^\d{17,19}$/;
-            zuuluu = tangon.test;
-            entity = michal;
-            entity = zuuluu.bind(tangon)(entity);
-            if(entity) { _fun00010_ip = 46; continue _fun00009 }
+            var4 = /^\d{17,19}$/;
+            var3 = var4.test;
+            var1 = var2;
+            var1 = var3.bind(var4)(var1);
+            if(var1) { _fun0005_ip = 46; continue _fun0005 }
  42:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  46: // try_start_0
-            tangon = _closure1_slot5;
-            zuuluu = michal;
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            entity = _closure1_slot4;
-            entity = michal >= entity;
+            var4 = _closure1_slot5;
+            var3 = var2;
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var1 = _closure1_slot4;
+            var1 = var2 >= var1;
  71: // try_end0
-            return entity;
+            return var1;
  73: // catch_target0
             CatchBlockStart(arg_register=0);
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  79:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isProbablyAValidSnowflake'] = tangon;
-    zuuluu['SnowflakeSequence'] = michal;
-    return entity;
+    var3['isProbablyAValidSnowflake'] = var4;
+    var3['SnowflakeSequence'] = var2;
+    return var1;
 })();

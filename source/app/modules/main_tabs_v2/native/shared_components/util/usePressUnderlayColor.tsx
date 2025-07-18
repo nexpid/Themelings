@@ -1,89 +1,89 @@
 // app/modules/main_tabs_v2/native/shared_components/util/usePressUnderlayColor.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DEFAULT_CHANNEL_EMOJI_BACKGROUND_COLOR;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/util/usePressUnderlayColor.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: usePressUnderlayColor
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DEFAULT_CHANNEL_EMOJI_BACKGROUND_COLOR;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/util/usePressUnderlayColor.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function usePressUnderlayColor(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            option = _closure1_slot1;
-            offset = _closure1_slot2;
-            entity = 1;
-            entity = offset[entity];
-            tangon = undefined;
-            entity = option.bind(tangon)(entity);
-            golfie = entity.bind(tangon)();
-            zuuluu = _closure1_slot0;
-            verify = 2;
-            entity = offset[verify];
-            report = zuuluu.bind(tangon)(entity);
-            zuuluu = report.useToken;
-            entity = 3;
-            entity = offset[entity];
-            entity = option.bind(tangon)(entity);
-            entity = entity.colors;
-            entity = entity.BACKGROUND_MODIFIER_ACTIVE;
-            option = zuuluu.bind(report)(entity);
-            zuuluu = null;
-            entity = zuuluu == oscard;
-            report = undefined;
-            if(entity) { _fun00002_ip = 115; continue _fun00001 }
+            var6 = arg1;
+            var8 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 1;
+            var1 = var10[var1];
+            var4 = undefined;
+            var1 = var8.bind(var4)(var1);
+            var7 = var1.bind(var4)();
+            var3 = _closure1_slot0;
+            var9 = 2;
+            var1 = var10[var9];
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.useToken;
+            var1 = 3;
+            var1 = var10[var1];
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.colors;
+            var1 = var1.BACKGROUND_MODIFIER_ACTIVE;
+            var8 = var3.bind(var5)(var1);
+            var3 = null;
+            var1 = var3 == var6;
+            var5 = undefined;
+            if(var1) { _fun0001_ip = 115; continue _fun0001 }
  93:
-            offset = oscard.slice;
-            entity = oscard.length;
-            verify = entity - verify;
-            entity = 0;
-            report = offset.bind(oscard)(entity, verify);
+            var10 = var6.slice;
+            var1 = var6.length;
+            var9 = var1 - var9;
+            var1 = 0;
+            var5 = var10.bind(var6)(var1, var9);
  115:
-            entity = option;
-            if(!(zuuluu != report)) { _fun00002_ip = 193; continue _fun00001 }
+            var1 = var8;
+            if(!(var3 != var5)) { _fun0001_ip = 193; continue _fun0001 }
  122:
-            zuuluu = _closure1_slot3;
-            entity = option;
-            if(!(oscard !== zuuluu)) { _fun00002_ip = 193; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var1 = var8;
+            if(!(var6 !== var3)) { _fun0001_ip = 193; continue _fun0001 }
  133:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.hexWithOpacity;
-            michal = 0.08;
-            oscard = 'dark';
-            if(!(oscard === golfie)) { _fun00002_ip = 187; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.hexWithOpacity;
+            var2 = 0.08;
+            var6 = 'dark';
+            if(!(var6 === var7)) { _fun0001_ip = 187; continue _fun0001 }
  177:
-            michal = 0.12;
+            var2 = 0.12;
  187:
-            entity = zuuluu.bind(tangon)(report, michal);
+            var1 = var3.bind(var4)(var5, var2);
  193:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

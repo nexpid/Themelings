@@ -1,313 +1,313 @@
 // app/modules/calls/NativeMuteManager.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'NativeMuteManager';
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot7 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: NativeMuteManager
-            michal = this;
-            var _closure3_slot0 = michal;
-            oscard = _closure1_slot3;
-            report = _closure2_slot0;
-            entity = undefined;
-            report = oscard.bind(entity)(michal, report);
-            report = false;
-            michal['ignoreForNativeUnmute'] = report;
-            michal['needToUnmuteNative'] = report;
-            michal['ignoreForAudioRouteChange'] = report;
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            oscard = 5;
-            oscard = report[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.Timeout;
-            golfie = oscard.prototype;
-            golfie = Object.create(golfie, {constructor: {value: oscard}});
-            offset = golfie;
-            oscard = new offset[oscard](verify);
-            oscard = oscard instanceof Object ? oscard : golfie;
-            michal['audioRouteChangeIgnoreTimer'] = oscard;
-            oscard = 300;
-            michal['AUDIO_ROUTE_CHANGE_IGNORE_DURATION_MS'] = oscard;
-            tangon = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 'NativeMuteManager';
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot7 = var4;
+    var4 = function() {
+        var4 = _closure1_slot4;
+        var3 = function NativeMuteManager() {
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var6 = _closure1_slot3;
+            var5 = _closure2_slot0;
+            var1 = undefined;
+            var5 = var6.bind(var1)(var2, var5);
+            var5 = false;
+            var2['ignoreForNativeUnmute'] = var5;
+            var2['needToUnmuteNative'] = var5;
+            var2['ignoreForAudioRouteChange'] = var5;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var6 = 5;
+            var6 = var5[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.Timeout;
+            var7 = var6.prototype;
+            var7 = Object.create(var7, {constructor: {value: var6}});
+            var10 = var7;
+            var6 = new var10[var6](var9);
+            var6 = var6 instanceof Object ? var6 : var7;
+            var2['audioRouteChangeIgnoreTimer'] = var6;
+            var6 = 300;
+            var2['AUDIO_ROUTE_CHANGE_IGNORE_DURATION_MS'] = var6;
+            var4 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure3_slot0;
-                    zuuluu = michal.audioRouteChangeIgnoreTimer;
-                    michal = zuuluu.isStarted;
-                    michal = michal.bind(zuuluu)();
-                    if(!michal) { _fun00002_ip = 46; continue _fun00001 }
+                    var2 = _closure3_slot0;
+                    var3 = var2.audioRouteChangeIgnoreTimer;
+                    var2 = var3.isStarted;
+                    var2 = var2.bind(var3)();
+                    if(!var2) { _fun0001_ip = 46; continue _fun0001 }
  26:
-                    michal = _closure3_slot0;
-                    zuuluu = michal.audioRouteChangeIgnoreTimer;
-                    michal = zuuluu.stop;
-                    michal = michal.bind(zuuluu)();
+                    var2 = _closure3_slot0;
+                    var3 = var2.audioRouteChangeIgnoreTimer;
+                    var2 = var3.stop;
+                    var2 = var2.bind(var3)();
  46:
-                    entity = _closure3_slot0;
-                    michal = true;
-                    entity['ignoreForAudioRouteChange'] = michal;
-                    tangon = entity.audioRouteChangeIgnoreTimer;
-                    zuuluu = tangon.start;
-                    michal = entity.AUDIO_ROUTE_CHANGE_IGNORE_DURATION_MS;
-                    entity = function() {
-                        michal = _closure3_slot0;
-                        entity = false;
-                        michal['ignoreForAudioRouteChange'] = entity;
-                        entity = undefined;
-                        return entity;
+                    var1 = _closure3_slot0;
+                    var2 = true;
+                    var1['ignoreForAudioRouteChange'] = var2;
+                    var4 = var1.audioRouteChangeIgnoreTimer;
+                    var3 = var4.start;
+                    var2 = var1.AUDIO_ROUTE_CHANGE_IGNORE_DURATION_MS;
+                    var1 = function() {
+                        var2 = _closure3_slot0;
+                        var1 = false;
+                        var2['ignoreForAudioRouteChange'] = var1;
+                        var1 = undefined;
+                        return var1;
                     };
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    entity = undefined;
-                    return entity;
+                    var1 = var3.bind(var4)(var2, var1);
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal['handleAudioRouteChange'] = tangon;
-            golfie = _closure1_slot5;
-            oscard = golfie.addChangeListener;
-            tangon = michal.handleAudioRouteChange;
-            tangon = oscard.bind(golfie)(tangon);
-            tangon = _closure1_slot1;
-            zuuluu = 6;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.subscribe;
-            zuuluu = michal.handleVoiceChannelSelect;
-            michal = 'VOICE_CHANNEL_SELECT';
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2['handleAudioRouteChange'] = var4;
+            var7 = _closure1_slot5;
+            var6 = var7.addChangeListener;
+            var4 = var2.handleAudioRouteChange;
+            var4 = var6.bind(var7)(var4);
+            var4 = _closure1_slot1;
+            var3 = 6;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.subscribe;
+            var3 = var2.handleVoiceChannelSelect;
+            var2 = 'VOICE_CHANNEL_SELECT';
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'nativeMuteChanged';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'nativeMuteChanged';
+        var1['key'] = var2;
+        var2 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                tangon = _closure1_slot6;
-                zuuluu = tangon.hasActiveCallKitCall;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00004_ip = 122; continue _fun00003 }
+                var2 = this;
+                var4 = _closure1_slot6;
+                var3 = var4.hasActiveCallKitCall;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0002_ip = 122; continue _fun0002 }
  23:
-                zuuluu = michal.ignoreForNativeUnmute;
-                if(zuuluu) { _fun00004_ip = 114; continue _fun00003 }
+                var3 = var2.ignoreForNativeUnmute;
+                if(var3) { _fun0002_ip = 114; continue _fun0002 }
  32:
-                zuuluu = michal.ignoreForAudioRouteChange;
-                if(zuuluu) { _fun00004_ip = 122; continue _fun00003 }
+                var3 = var2.ignoreForAudioRouteChange;
+                if(var3) { _fun0002_ip = 122; continue _fun0002 }
  41:
-                zuuluu = true;
-                michal['needToUnmuteNative'] = zuuluu;
-                report = _closure1_slot7;
-                tangon = report.log;
-                zuuluu = 'Native mute changed > toggling mute';
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 7;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.toggleSelfMute;
-                entity = {};
-                report = false;
-                entity['playSoundEffect'] = report;
-                entity = zuuluu.bind(tangon)(entity);
-                _fun00004_ip = 122; continue _fun00003;
+                var3 = true;
+                var2['needToUnmuteNative'] = var3;
+                var5 = _closure1_slot7;
+                var4 = var5.log;
+                var3 = 'Native mute changed > toggling mute';
+                var3 = var4.bind(var5)(var3);
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.toggleSelfMute;
+                var1 = {};
+                var5 = false;
+                var1['playSoundEffect'] = var5;
+                var1 = var3.bind(var4)(var1);
+                _fun0002_ip = 122; continue _fun0002;
  114:
-                entity = false;
-                michal['ignoreForNativeUnmute'] = entity;
+                var1 = false;
+                var2['ignoreForNativeUnmute'] = var1;
  122:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'updateNativeMute';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'updateNativeMute';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = this;
-                tangon = _closure1_slot6;
-                michal = tangon.hasActiveCallKitCall;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00006_ip = 124; continue _fun00005 }
+                var3 = this;
+                var4 = _closure1_slot6;
+                var2 = var4.hasActiveCallKitCall;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0003_ip = 124; continue _fun0003 }
  23:
-                michal = zuuluu.needToUnmuteNative;
-                if(!michal) { _fun00006_ip = 124; continue _fun00005 }
+                var2 = var3.needToUnmuteNative;
+                if(!var2) { _fun0003_ip = 124; continue _fun0003 }
  32:
-                tangon = false;
-                zuuluu['needToUnmuteNative'] = tangon;
-                michal = true;
-                zuuluu['ignoreForNativeUnmute'] = michal;
-                report = _closure1_slot7;
-                zuuluu = report.log;
-                michal = 'Update native mute > unmuting native';
-                michal = zuuluu.bind(report)(michal);
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 8;
-                michal = michal[entity];
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                entity = michal.getVoiceEngine;
-                zuuluu = entity.bind(michal)();
-                michal = zuuluu.setNativeMuteState;
-                entity = null;
-                if(!(entity != michal)) { _fun00006_ip = 124; continue _fun00005 }
+                var4 = false;
+                var3['needToUnmuteNative'] = var4;
+                var2 = true;
+                var3['ignoreForNativeUnmute'] = var2;
+                var5 = _closure1_slot7;
+                var3 = var5.log;
+                var2 = 'Update native mute > unmuting native';
+                var2 = var3.bind(var5)(var2);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = var2.getVoiceEngine;
+                var3 = var1.bind(var2)();
+                var2 = var3.setNativeMuteState;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0003_ip = 124; continue _fun0003 }
  113:
-                entity = michal.call;
-                entity = entity.bind(michal)(zuuluu, tangon);
+                var1 = var2.call;
+                var1 = var1.bind(var2)(var3, var4);
  124:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'handleVoiceChannelSelect';
-        entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'handleVoiceChannelSelect';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                michal = entity.channelId;
-                entity = null;
-                if(!(entity == michal)) { _fun00008_ip = 93; continue _fun00007 }
+                var1 = arg1;
+                var2 = var1.channelId;
+                var1 = null;
+                if(!(var1 == var2)) { _fun0004_ip = 93; continue _fun0004 }
  14:
-                report = _closure1_slot7;
-                tangon = report.log;
-                zuuluu = 'Leaving voice channel > unmuting native';
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 8;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.getVoiceEngine;
-                tangon = michal.bind(zuuluu)();
-                zuuluu = tangon.setNativeMuteState;
-                if(!(entity != zuuluu)) { _fun00008_ip = 93; continue _fun00007 }
+                var5 = _closure1_slot7;
+                var4 = var5.log;
+                var3 = 'Leaving voice channel > unmuting native';
+                var3 = var4.bind(var5)(var3);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 8;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.getVoiceEngine;
+                var4 = var2.bind(var3)();
+                var3 = var4.setNativeMuteState;
+                if(!(var1 != var3)) { _fun0004_ip = 93; continue _fun0004 }
  80:
-                michal = zuuluu.call;
-                entity = false;
-                entity = michal.bind(zuuluu)(tangon, entity);
+                var2 = var3.call;
+                var1 = false;
+                var1 = var2.bind(var3)(var4, var1);
  93:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    golfie = tangon.prototype;
-    golfie = Object.create(golfie, {constructor: {value: tangon}});
-    foxtra = golfie;
-    tangon = new foxtra[tangon](romeon);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot8 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: NativeMuteManagerWrapper
-            tangon = _closure1_slot3;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            michal = this;
-            michal = tangon.bind(entity)(michal, zuuluu);
-            return entity;
+    var4 = var4.bind(var1)();
+    var7 = var4.prototype;
+    var7 = Object.create(var7, {constructor: {value: var4}});
+    var13 = var7;
+    var4 = new var13[var4](var12);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot8 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function NativeMuteManagerWrapper() {
+            var4 = _closure1_slot3;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var2 = this;
+            var2 = var4.bind(var1)(var2, var3);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'nativeMuteChanged';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot8;
-            michal = zuuluu.nativeMuteChanged;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'nativeMuteChanged';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            var3 = _closure1_slot8;
+            var2 = var3.nativeMuteChanged;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(2);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'updateNativeMute';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = _closure1_slot8;
-            entity = michal.updateNativeMute;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(2);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'updateNativeMute';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = _closure1_slot8;
+            var1 = var2.updateNativeMute;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[1] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[1] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/calls/NativeMuteManager.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/calls/NativeMuteManager.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

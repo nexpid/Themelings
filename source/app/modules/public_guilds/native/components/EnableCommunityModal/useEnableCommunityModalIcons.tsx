@@ -1,201 +1,201 @@
 // app/modules/public_guilds/native/components/EnableCommunityModal/useEnableCommunityModalIcons.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ThemeTypes;
-    var _closure1_slot7 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot5;
-        zuuluu = function(argFoo) { // Original name: EnableCommunityModalIcons
-            zuuluu = this;
-            report = _closure1_slot4;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            michal = _closure1_slot7;
-            michal = michal.LIGHT;
-            zuuluu['theme'] = michal;
-            michal = argFoo;
-            zuuluu['theme'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot7 = var4;
+    var4 = function() {
+        var4 = _closure1_slot5;
+        var3 = function EnableCommunityModalIcons(arg1) {
+            var3 = this;
+            var5 = _closure1_slot4;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var2 = _closure1_slot7;
+            var2 = var2.LIGHT;
+            var3['theme'] = var2;
+            var2 = arg1;
+            var3['theme'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'safetyCheck';
-        entity['key'] = michal;
-        michal = function() { // Original name: get
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'safetyCheck';
+        var1['key'] = var2;
+        var2 = function get() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 5;
-                entity = tangon[entity];
-                tangon = undefined;
-                report = zuuluu.bind(tangon)(entity);
-                zuuluu = report.isThemeDark;
-                entity = this;
-                entity = entity.theme;
-                entity = zuuluu.bind(report)(entity);
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot2;
-                if(entity) { _fun00002_ip = 69; continue _fun00001 }
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 5;
+                var1 = var4[var1];
+                var4 = undefined;
+                var5 = var3.bind(var4)(var1);
+                var3 = var5.isThemeDark;
+                var1 = this;
+                var1 = var1.theme;
+                var1 = var3.bind(var5)(var1);
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                if(var1) { _fun0001_ip = 69; continue _fun0001 }
  55:
-                entity = 7;
-                entity = report[entity];
-                entity = zuuluu.bind(tangon)(entity);
-                _fun00002_ip = 81; continue _fun00001;
+                var1 = 7;
+                var1 = var5[var1];
+                var1 = var3.bind(var4)(var1);
+                _fun0001_ip = 81; continue _fun0001;
  69:
-                michal = 6;
-                michal = report[michal];
-                entity = zuuluu.bind(tangon)(michal);
+                var2 = 6;
+                var2 = var5[var2];
+                var1 = var3.bind(var4)(var2);
  81:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = michal;
-        michal = new Array(4);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'channelSetup';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 8;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getChannelSetupSource;
-            entity = this;
-            entity = entity.theme;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['get'] = var2;
+        var2 = new Array(4);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'channelSetup';
+        var1['key'] = var6;
+        var6 = function get() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getChannelSetupSource;
+            var1 = this;
+            var1 = var1.theme;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['get'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'finishingTouches';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['get'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'finishingTouches';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 5;
-                entity = tangon[entity];
-                tangon = undefined;
-                report = zuuluu.bind(tangon)(entity);
-                zuuluu = report.isThemeDark;
-                entity = this;
-                entity = entity.theme;
-                entity = zuuluu.bind(report)(entity);
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot2;
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 5;
+                var1 = var4[var1];
+                var4 = undefined;
+                var5 = var3.bind(var4)(var1);
+                var3 = var5.isThemeDark;
+                var1 = this;
+                var1 = var1.theme;
+                var1 = var3.bind(var5)(var1);
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  55:
-                entity = 10;
-                entity = report[entity];
-                entity = zuuluu.bind(tangon)(entity);
-                _fun00004_ip = 81; continue _fun00003;
+                var1 = 10;
+                var1 = var5[var1];
+                var1 = var3.bind(var4)(var1);
+                _fun0002_ip = 81; continue _fun0002;
  69:
-                michal = 9;
-                michal = report[michal];
-                entity = zuuluu.bind(tangon)(michal);
+                var2 = 9;
+                var2 = var5[var2];
+                var1 = var3.bind(var4)(var2);
  81:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'close';
-        entity['key'] = oscard;
-        report = function() { // Original name: get
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 11;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+        var1['get'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'close';
+        var1['key'] = var6;
+        var5 = function get() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 11;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity['get'] = report;
-        michal[3] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['get'] = var5;
+        var2[3] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot8 = tangon;
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/public_guilds/native/components/EnableCommunityModal/useEnableCommunityModalIcons.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useEnableCommunityModalIcons
-        report = _closure1_slot1;
-        tangon = _closure1_slot2;
-        zuuluu = 12;
-        zuuluu = tangon[zuuluu];
-        tangon = undefined;
-        zuuluu = report.bind(tangon)(zuuluu);
-        zuuluu = zuuluu.bind(tangon)();
-        var _closure2_slot0 = zuuluu;
-        report = _closure1_slot6;
-        zuuluu = report.useState;
-        michal = function() {
-            zuuluu = _closure1_slot8;
-            tangon = _closure2_slot0;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+    var4 = var4.bind(var1)();
+    var _closure1_slot8 = var4;
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/public_guilds/native/components/EnableCommunityModal/useEnableCommunityModalIcons.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useEnableCommunityModalIcons() {
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var3 = 12;
+        var3 = var4[var3];
+        var4 = undefined;
+        var3 = var5.bind(var4)(var3);
+        var3 = var3.bind(var4)();
+        var _closure2_slot0 = var3;
+        var5 = _closure1_slot6;
+        var3 = var5.useState;
+        var2 = function() {
+            var3 = _closure1_slot8;
+            var4 = _closure2_slot0;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        zuuluu = zuuluu.bind(report)(michal);
-        michal = _closure1_slot3;
-        entity = 1;
-        michal = michal.bind(tangon)(zuuluu, entity);
-        entity = 0;
-        entity = michal[entity];
-        return entity;
+        var3 = var3.bind(var5)(var2);
+        var2 = _closure1_slot3;
+        var1 = 1;
+        var2 = var2.bind(var4)(var3, var1);
+        var1 = 0;
+        var1 = var2[var1];
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

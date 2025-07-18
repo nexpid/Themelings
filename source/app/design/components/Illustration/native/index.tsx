@@ -1,88 +1,88 @@
 // app/design/components/Illustration/native/index.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/Illustration/native/index.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: getIllustrationSource
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/Illustration/native/index.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getIllustrationSource(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = argBar;
-            entity = 'light';
-            if(!(entity !== tangon)) { _fun00002_ip = 78; continue _fun00001 }
+            var4 = arg1;
+            var2 = arg2;
+            var1 = 'light';
+            if(!(var1 !== var4)) { _fun0001_ip = 78; continue _fun0001 }
  14:
-            entity = 'darker';
-            if(!(entity !== tangon)) { _fun00002_ip = 55; continue _fun00001 }
+            var1 = 'darker';
+            if(!(var1 !== var4)) { _fun0001_ip = 55; continue _fun0001 }
  22:
-            entity = 'midnight';
-            zuuluu = undefined;
-            if(!(entity === tangon)) { _fun00002_ip = 84; continue _fun00001 }
+            var1 = 'midnight';
+            var3 = undefined;
+            if(!(var1 === var4)) { _fun0001_ip = 84; continue _fun0001 }
  32:
-            entity = michal.midnight;
-            tangon = null;
-            if(!(tangon == entity)) { _fun00002_ip = 50; continue _fun00001 }
+            var1 = var2.midnight;
+            var4 = null;
+            if(!(var4 == var1)) { _fun0001_ip = 50; continue _fun0001 }
  44:
-            entity = michal.darker;
+            var1 = var2.darker;
  50:
-            zuuluu = entity;
-            _fun00002_ip = 84; continue _fun00001;
+            var3 = var1;
+            _fun0001_ip = 84; continue _fun0001;
  55:
-            entity = michal.darker;
-            tangon = null;
-            if(!(tangon == entity)) { _fun00002_ip = 73; continue _fun00001 }
+            var1 = var2.darker;
+            var4 = null;
+            if(!(var4 == var1)) { _fun0001_ip = 73; continue _fun0001 }
  67:
-            entity = michal.midnight;
+            var1 = var2.midnight;
  73:
-            zuuluu = entity;
-            _fun00002_ip = 84; continue _fun00001;
+            var3 = var1;
+            _fun0001_ip = 84; continue _fun0001;
  78:
-            zuuluu = michal.light;
+            var3 = var2.light;
  84:
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 102; continue _fun00001 }
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 102; continue _fun0001 }
  90:
-            entity = michal.dark;
-            entity = entity.bind(michal)();
-            _fun00002_ip = 108; continue _fun00001;
+            var1 = var2.dark;
+            var1 = var1.bind(var2)();
+            _fun0001_ip = 108; continue _fun0001;
  102:
-            michal = undefined;
-            entity = zuuluu.bind(michal)();
+            var2 = undefined;
+            var1 = var3.bind(var2)();
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getIllustrationSource'] = tangon;
-    michal = function(argFoo) { // Original name: useIllustrationSource
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 0;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        michal = michal.bind(zuuluu)(entity);
-        entity = michal.useThemeContext;
-        entity = entity.bind(michal)();
-        michal = entity.theme;
-        entity = argFoo;
-        entity = entity.bind(zuuluu)(michal);
-        return entity;
+    var3['getIllustrationSource'] = var4;
+    var2 = function useIllustrationSource(arg1) {
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 0;
+        var1 = var3[var1];
+        var3 = undefined;
+        var2 = var2.bind(var3)(var1);
+        var1 = var2.useThemeContext;
+        var1 = var1.bind(var2)();
+        var2 = var1.theme;
+        var1 = arg1;
+        var1 = var1.bind(var3)(var2);
+        return var1;
     };
-    zuuluu['useIllustrationSource'] = michal;
-    return entity;
+    var3['useIllustrationSource'] = var2;
+    return var1;
 })();

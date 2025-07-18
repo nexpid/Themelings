@@ -1,118 +1,118 @@
 // app/utils/ErrorUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = function(argFoo) { // Original name: getUnderlyingIOSExceptionRecursively
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = function getUnderlyingIOSExceptionRecursively(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.userInfo;
-            entity = entity.NSUnderlyingError;
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00002_ip = 51; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.userInfo;
+            var1 = var1.NSUnderlyingError;
+            var3 = null;
+            if(!(var3 != var1)) { _fun0001_ip = 51; continue _fun0001 }
  21:
-            report = _closure1_slot2;
-            entity = michal.userInfo;
-            tangon = entity.NSUnderlyingError;
-            entity = undefined;
-            entity = report.bind(entity)(tangon);
-            if(!(zuuluu == entity)) { _fun00002_ip = 67; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var1 = var2.userInfo;
+            var4 = var1.NSUnderlyingError;
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            if(!(var3 == var1)) { _fun0001_ip = 67; continue _fun0001 }
  51:
-            michal = michal.userInfo;
-            michal = michal.NSLocalizedDescription;
-            return michal;
+            var2 = var2.userInfo;
+            var2 = var2.NSLocalizedDescription;
+            return var2;
  67:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/ErrorUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getUnderlyingIOSError
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/ErrorUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getUnderlyingIOSError(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            tangon = undefined;
-            michal = undefined;
+            var1 = arg1;
+            var4 = undefined;
+            var2 = undefined;
  7: // try_start_0
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            michal = zuuluu;
-            entity = null;
-            zuuluu = entity != zuuluu;
-            if(!zuuluu) { _fun00004_ip = 34; continue _fun00003 }
+            var3 = _closure1_slot2;
+            var3 = var3.bind(var4)(var1);
+            var2 = var3;
+            var1 = null;
+            var3 = var1 != var3;
+            if(!var3) { _fun0002_ip = 34; continue _fun0002 }
  31:
-            entity = michal;
+            var1 = var2;
  34: // try_end0
-            return entity;
+            return var1;
  36: // catch_target0
             CatchBlockStart(arg_register=0);
-            entity = null;
-            return entity;
+            var1 = null;
+            return var1;
         }
     };
-    zuuluu['getUnderlyingIOSError'] = tangon;
-    michal = function(argFoo) { // Original name: serializeError
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getUnderlyingIOSError'] = var4;
+    var2 = function serializeError(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            entity = global;
-            michal = entity.Boolean;
-            oscard = undefined;
-            michal = michal.bind(oscard)(zuuluu);
-            if(michal) { _fun00006_ip = 53; continue _fun00005 }
+            var3 = arg1;
+            var1 = global;
+            var2 = var1.Boolean;
+            var6 = undefined;
+            var2 = var2.bind(var6)(var3);
+            if(var2) { _fun0003_ip = 53; continue _fun0003 }
  21:
-            report = entity.Error;
-            michal = report.prototype;
-            tangon = Object.create(michal, {constructor: {value: report}});
-            option = 'unknown error';
-            verify = tangon;
-            michal = new verify[report](option, golfie);
-            zuuluu = michal instanceof Object ? michal : tangon;
+            var5 = var1.Error;
+            var2 = var5.prototype;
+            var4 = Object.create(var2, {constructor: {value: var5}});
+            var8 = 'unknown error';
+            var9 = var4;
+            var2 = new var9[var5](var8, var7);
+            var3 = var2 instanceof Object ? var2 : var4;
  53:
-            tangon = 'object';
-            michal = typeof zuuluu;
-            report = zuuluu;
-            if(!(tangon !== michal)) { _fun00006_ip = 104; continue _fun00005 }
+            var4 = 'object';
+            var2 = typeof var3;
+            var5 = var3;
+            if(!(var4 !== var2)) { _fun0003_ip = 104; continue _fun0003 }
  67:
-            tangon = entity.Error;
-            michal = entity.String;
-            option = michal.bind(oscard)(zuuluu);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            verify = zuuluu;
-            michal = new verify[tangon](option, golfie);
-            report = michal instanceof Object ? michal : zuuluu;
+            var4 = var1.Error;
+            var2 = var1.String;
+            var8 = var2.bind(var6)(var3);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var9 = var3;
+            var2 = new var9[var4](var8, var7);
+            var5 = var2 instanceof Object ? var2 : var3;
  104:
-            zuuluu = entity.JSON;
-            michal = zuuluu.stringify;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 0;
-            entity = golfie[entity];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.normalizeToSize;
-            entity = entity.bind(tangon)(report);
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var3 = var1.JSON;
+            var2 = var3.stringify;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 0;
+            var1 = var7[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.normalizeToSize;
+            var1 = var1.bind(var4)(var5);
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['serializeError'] = michal;
-    return entity;
+    var3['serializeError'] = var2;
+    return var1;
 })();

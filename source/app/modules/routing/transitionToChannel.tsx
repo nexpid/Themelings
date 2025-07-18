@@ -1,270 +1,270 @@
 // app/modules/routing/transitionToChannel.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = option;
-    report = function(argFoo, argBar) { // Original name: transitionToChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
+    var5 = function transitionToChannel(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argBar;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.getChannel;
-            entity = argFoo;
-            entity = zuuluu.bind(tangon)(entity);
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00002_ip = 233; continue _fun00001 }
+            var6 = arg2;
+            var4 = _closure1_slot3;
+            var3 = var4.getChannel;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1);
+            var3 = null;
+            if(!(var3 != var1)) { _fun0001_ip = 233; continue _fun0001 }
  32:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            tangon = 2;
-            tangon = option[tangon];
-            report = undefined;
-            verify = golfie.bind(report)(tangon);
-            tangon = verify.getGuildIdForGenericRedirect;
-            yankee = tangon.bind(verify)(entity);
-            verify = _closure1_slot1;
-            tangon = 3;
-            tangon = option[tangon];
-            romeon = verify.bind(report)(tangon);
-            offset = romeon.preload;
-            verify = entity.guild_id;
-            tangon = entity.id;
-            tangon = offset.bind(romeon)(verify, tangon);
-            tangon = 4;
-            tangon = option[tangon];
-            offset = golfie.bind(report)(tangon);
-            verify = offset.transitionTo;
-            option = _closure1_slot4;
-            golfie = option.CHANNEL;
-            tangon = entity.id;
-            option = golfie.bind(option)(yankee, tangon);
-            golfie = {};
-            tangon = true;
-            golfie['openChannel'] = tangon;
-            backup = golfie;
-            foxtra = oscard;
-            yankee = copyDataProperties(backup, foxtra);
-            golfie = verify.bind(offset)(option, golfie);
-            zuuluu = zuuluu != oscard;
-            if(!zuuluu) { _fun00002_ip = 180; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 2;
+            var4 = var8[var4];
+            var5 = undefined;
+            var9 = var7.bind(var5)(var4);
+            var4 = var9.getGuildIdForGenericRedirect;
+            var11 = var4.bind(var9)(var1);
+            var9 = _closure1_slot1;
+            var4 = 3;
+            var4 = var8[var4];
+            var12 = var9.bind(var5)(var4);
+            var10 = var12.preload;
+            var9 = var1.guild_id;
+            var4 = var1.id;
+            var4 = var10.bind(var12)(var9, var4);
+            var4 = 4;
+            var4 = var8[var4];
+            var10 = var7.bind(var5)(var4);
+            var9 = var10.transitionTo;
+            var8 = _closure1_slot4;
+            var7 = var8.CHANNEL;
+            var4 = var1.id;
+            var8 = var7.bind(var8)(var11, var4);
+            var7 = {};
+            var4 = true;
+            var7['openChannel'] = var4;
+            var14 = var7;
+            var13 = var6;
+            var11 = copyDataProperties(var14, var13);
+            var7 = var9.bind(var10)(var8, var7);
+            var3 = var3 != var6;
+            if(!var3) { _fun0001_ip = 180; continue _fun0001 }
  174:
-            zuuluu = oscard.openTextInVoiceIfVoiceChannel;
+            var3 = var6.openTextInVoiceIfVoiceChannel;
  180:
-            if(!zuuluu) { _fun00002_ip = 193; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 193; continue _fun0001 }
  183:
-            oscard = entity.isGuildVocal;
-            zuuluu = oscard.bind(entity)();
+            var6 = var1.isGuildVocal;
+            var3 = var6.bind(var1)();
  193:
-            if(!zuuluu) { _fun00002_ip = 233; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 233; continue _fun0001 }
  196:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 5;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.updateChatOpen;
-            entity = entity.id;
-            entity = michal.bind(zuuluu)(entity, tangon);
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 5;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.updateChatOpen;
+            var1 = var1.id;
+            var1 = var2.bind(var3)(var1, var4);
  233:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot5 = report;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: transitionToThreadMessage
-        michal = argFoo;
-        report = _closure1_slot1;
-        oscard = _closure1_slot2;
-        entity = 6;
-        tangon = oscard[entity];
-        entity = undefined;
-        golfie = report.bind(entity)(tangon);
-        report = michal.parent_id;
-        tangon = null;
-        report = tangon != report;
-        tangon = 'Thread must have a parent ID.';
-        tangon = golfie.bind(entity)(report, tangon);
-        report = _closure1_slot0;
-        tangon = 2;
-        tangon = oscard[tangon];
-        golfie = report.bind(entity)(tangon);
-        tangon = golfie.getGuildIdForGenericRedirect;
-        option = tangon.bind(golfie)(michal);
-        tangon = 4;
-        tangon = oscard[tangon];
-        report = report.bind(entity)(tangon);
-        tangon = report.transitionTo;
-        golfie = _closure1_slot4;
-        oscard = golfie.CHANNEL;
-        zuuluu = michal.id;
-        michal = argBar;
-        zuuluu = oscard.bind(golfie)(option, zuuluu, michal);
-        michal = {};
-        oscard = true;
-        michal['openChannel'] = oscard;
-        offset = argBaz;
-        yankee = michal;
-        oscard = copyDataProperties(yankee, offset);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var _closure1_slot5 = var5;
+    var4 = function transitionToThreadMessage(arg1, arg2, arg3) {
+        var2 = arg1;
+        var5 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var4 = var6[var1];
+        var1 = undefined;
+        var7 = var5.bind(var1)(var4);
+        var5 = var2.parent_id;
+        var4 = null;
+        var5 = var4 != var5;
+        var4 = 'Thread must have a parent ID.';
+        var4 = var7.bind(var1)(var5, var4);
+        var5 = _closure1_slot0;
+        var4 = 2;
+        var4 = var6[var4];
+        var7 = var5.bind(var1)(var4);
+        var4 = var7.getGuildIdForGenericRedirect;
+        var8 = var4.bind(var7)(var2);
+        var4 = 4;
+        var4 = var6[var4];
+        var5 = var5.bind(var1)(var4);
+        var4 = var5.transitionTo;
+        var7 = _closure1_slot4;
+        var6 = var7.CHANNEL;
+        var3 = var2.id;
+        var2 = arg2;
+        var3 = var6.bind(var7)(var8, var3, var2);
+        var2 = {};
+        var6 = true;
+        var2['openChannel'] = var6;
+        var10 = arg3;
+        var11 = var2;
+        var6 = copyDataProperties(var11, var10);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.Routes;
-    var _closure1_slot4 = oscard;
-    oscard = 7;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/routing/transitionToChannel.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['transitionToChannel'] = report;
-    report = function(argFoo, argBar) { // Original name: transitionToThread
-        michal = argFoo;
-        report = _closure1_slot1;
-        oscard = _closure1_slot2;
-        entity = 6;
-        tangon = oscard[entity];
-        entity = undefined;
-        golfie = report.bind(entity)(tangon);
-        report = michal.parent_id;
-        tangon = null;
-        report = tangon != report;
-        tangon = 'Thread must have a parent ID.';
-        tangon = golfie.bind(entity)(report, tangon);
-        report = _closure1_slot0;
-        tangon = 2;
-        tangon = oscard[tangon];
-        golfie = report.bind(entity)(tangon);
-        tangon = golfie.getGuildIdForGenericRedirect;
-        golfie = tangon.bind(golfie)(michal);
-        tangon = 4;
-        tangon = oscard[tangon];
-        report = report.bind(entity)(tangon);
-        tangon = report.transitionTo;
-        oscard = _closure1_slot4;
-        zuuluu = oscard.CHANNEL;
-        michal = michal.id;
-        zuuluu = zuuluu.bind(oscard)(golfie, michal);
-        michal = {};
-        oscard = true;
-        michal['openChannel'] = oscard;
-        option = argBar;
-        verify = michal;
-        oscard = copyDataProperties(verify, option);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.Routes;
+    var _closure1_slot4 = var6;
+    var6 = 7;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/routing/transitionToChannel.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['transitionToChannel'] = var5;
+    var5 = function transitionToThread(arg1, arg2) {
+        var2 = arg1;
+        var5 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var4 = var6[var1];
+        var1 = undefined;
+        var7 = var5.bind(var1)(var4);
+        var5 = var2.parent_id;
+        var4 = null;
+        var5 = var4 != var5;
+        var4 = 'Thread must have a parent ID.';
+        var4 = var7.bind(var1)(var5, var4);
+        var5 = _closure1_slot0;
+        var4 = 2;
+        var4 = var6[var4];
+        var7 = var5.bind(var1)(var4);
+        var4 = var7.getGuildIdForGenericRedirect;
+        var7 = var4.bind(var7)(var2);
+        var4 = 4;
+        var4 = var6[var4];
+        var5 = var5.bind(var1)(var4);
+        var4 = var5.transitionTo;
+        var6 = _closure1_slot4;
+        var3 = var6.CHANNEL;
+        var2 = var2.id;
+        var3 = var3.bind(var6)(var7, var2);
+        var2 = {};
+        var6 = true;
+        var2['openChannel'] = var6;
+        var8 = arg2;
+        var9 = var2;
+        var6 = copyDataProperties(var9, var8);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['transitionToThread'] = report;
-    zuuluu['transitionToThreadMessage'] = tangon;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: tryTransitionToThreadMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['transitionToThread'] = var5;
+    var3['transitionToThreadMessage'] = var4;
+    var4 = function tryTransitionToThreadMessage(arg1, arg2, arg3, arg4) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argCor;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.getChannel;
-            michal = argBar;
-            tangon = zuuluu.bind(tangon)(michal);
-            michal = null;
-            if(!(michal == tangon)) { _fun00004_ip = 46; continue _fun00003 }
+            var5 = arg4;
+            var4 = _closure1_slot3;
+            var3 = var4.getChannel;
+            var2 = arg2;
+            var4 = var3.bind(var4)(var2);
+            var2 = null;
+            if(!(var2 == var4)) { _fun0002_ip = 46; continue _fun0002 }
  29:
-            oscard = _closure1_slot5;
-            zuuluu = undefined;
-            michal = argFoo;
-            michal = oscard.bind(zuuluu)(michal, report);
-            _fun00004_ip = 62; continue _fun00003;
+            var6 = _closure1_slot5;
+            var3 = undefined;
+            var2 = arg1;
+            var2 = var6.bind(var3)(var2, var5);
+            _fun0002_ip = 62; continue _fun0002;
  46:
-            zuuluu = _closure1_slot6;
-            michal = undefined;
-            entity = argBaz;
-            entity = zuuluu.bind(michal)(tangon, entity, report);
+            var3 = _closure1_slot6;
+            var2 = undefined;
+            var1 = arg3;
+            var1 = var3.bind(var2)(var4, var1, var5);
  62:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['tryTransitionToThreadMessage'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: transitionToMessage
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['tryTransitionToThreadMessage'] = var4;
+    var4 = function transitionToMessage(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.getChannel;
-            entity = argFoo;
-            entity = zuuluu.bind(tangon)(entity);
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00006_ip = 127; continue _fun00005 }
+            var4 = _closure1_slot3;
+            var3 = var4.getChannel;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1);
+            var3 = null;
+            if(!(var3 != var1)) { _fun0003_ip = 127; continue _fun0003 }
  26:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = oscard[zuuluu];
-            tangon = undefined;
-            golfie = report.bind(tangon)(zuuluu);
-            zuuluu = golfie.getGuildIdForGenericRedirect;
-            golfie = zuuluu.bind(golfie)(entity);
-            zuuluu = 4;
-            zuuluu = oscard[zuuluu];
-            tangon = report.bind(tangon)(zuuluu);
-            zuuluu = tangon.transitionTo;
-            oscard = _closure1_slot4;
-            report = oscard.CHANNEL;
-            michal = entity.id;
-            entity = argBar;
-            michal = report.bind(oscard)(golfie, michal, entity);
-            entity = {};
-            report = true;
-            entity['openChannel'] = report;
-            verify = argBaz;
-            offset = entity;
-            report = copyDataProperties(offset, verify);
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 2;
+            var3 = var6[var3];
+            var4 = undefined;
+            var7 = var5.bind(var4)(var3);
+            var3 = var7.getGuildIdForGenericRedirect;
+            var7 = var3.bind(var7)(var1);
+            var3 = 4;
+            var3 = var6[var3];
+            var4 = var5.bind(var4)(var3);
+            var3 = var4.transitionTo;
+            var6 = _closure1_slot4;
+            var5 = var6.CHANNEL;
+            var2 = var1.id;
+            var1 = arg2;
+            var2 = var5.bind(var6)(var7, var2, var1);
+            var1 = {};
+            var5 = true;
+            var1['openChannel'] = var5;
+            var9 = arg3;
+            var10 = var1;
+            var5 = copyDataProperties(var10, var9);
+            var1 = var3.bind(var4)(var2, var1);
  127:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['transitionToMessage'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: transitionToStaticChannelRoute
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 4;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.transitionTo;
-        golfie = _closure1_slot4;
-        oscard = golfie.CHANNEL;
-        zuuluu = argFoo;
-        michal = argBar;
-        zuuluu = oscard.bind(golfie)(zuuluu, michal);
-        michal = {};
-        oscard = true;
-        michal['openChannel'] = oscard;
-        option = argBaz;
-        verify = michal;
-        oscard = copyDataProperties(verify, option);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var3['transitionToMessage'] = var4;
+    var2 = function transitionToStaticChannelRoute(arg1, arg2, arg3) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.transitionTo;
+        var7 = _closure1_slot4;
+        var6 = var7.CHANNEL;
+        var3 = arg1;
+        var2 = arg2;
+        var3 = var6.bind(var7)(var3, var2);
+        var2 = {};
+        var6 = true;
+        var2['openChannel'] = var6;
+        var8 = arg3;
+        var9 = var2;
+        var6 = copyDataProperties(var9, var8);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['transitionToStaticChannelRoute'] = michal;
-    return entity;
+    var3['transitionToStaticChannelRoute'] = var2;
+    return var1;
 })();

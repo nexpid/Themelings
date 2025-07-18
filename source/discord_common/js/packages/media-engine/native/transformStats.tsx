@@ -1,1517 +1,1517 @@
 // discord_common/js/packages/media-engine/native/transformStats.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = function(argFoo) { // Original name: convertAudioLevel
-        michal = argFoo;
-        entity = 32768;
-        entity = michal / entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = function convertAudioLevel(arg1) {
+        var2 = arg1;
+        var1 = 32768;
+        var1 = var2 / var1;
+        return var1;
     };
-    var _closure1_slot2 = entity;
-    entity = function(argFoo) { // Original name: sumBytes
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot2 = var1;
+    var1 = function sumBytes(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            report = null;
-            michal = report == oscard;
-            entity = undefined;
-            if(michal) { _fun00002_ip = 20; continue _fun00001 }
+            var6 = arg1;
+            var5 = null;
+            var2 = var5 == var6;
+            var1 = undefined;
+            if(var2) { _fun0001_ip = 20; continue _fun0001 }
  14:
-            entity = oscard.headerBytes;
+            var1 = var6.headerBytes;
  20:
-            tangon = report != entity;
-            michal = 0;
-            if(!tangon) { _fun00002_ip = 32; continue _fun00001 }
+            var4 = var5 != var1;
+            var2 = 0;
+            if(!var4) { _fun0001_ip = 32; continue _fun0001 }
  29:
-            michal = entity;
+            var2 = var1;
  32:
-            entity = report == oscard;
-            tangon = undefined;
-            if(entity) { _fun00002_ip = 47; continue _fun00001 }
+            var1 = var5 == var6;
+            var4 = undefined;
+            if(var1) { _fun0001_ip = 47; continue _fun0001 }
  41:
-            tangon = oscard.payloadBytes;
+            var4 = var6.payloadBytes;
  47:
-            golfie = report != tangon;
-            entity = 0;
-            if(!golfie) { _fun00002_ip = 59; continue _fun00001 }
+            var7 = var5 != var4;
+            var1 = 0;
+            if(!var7) { _fun0001_ip = 59; continue _fun0001 }
  56:
-            entity = tangon;
+            var1 = var4;
  59:
-            michal = michal + entity;
-            entity = report == oscard;
-            tangon = undefined;
-            if(entity) { _fun00002_ip = 78; continue _fun00001 }
+            var2 = var2 + var1;
+            var1 = var5 == var6;
+            var4 = undefined;
+            if(var1) { _fun0001_ip = 78; continue _fun0001 }
  72:
-            tangon = oscard.paddingBytes;
+            var4 = var6.paddingBytes;
  78:
-            golfie = report != tangon;
-            entity = 0;
-            if(!golfie) { _fun00002_ip = 90; continue _fun00001 }
+            var7 = var5 != var4;
+            var1 = 0;
+            if(!var7) { _fun0001_ip = 90; continue _fun0001 }
  87:
-            entity = tangon;
+            var1 = var4;
  90:
-            michal = michal + entity;
-            tangon = report == oscard;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 124; continue _fun00001 }
+            var2 = var2 + var1;
+            var4 = var5 == var6;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 124; continue _fun0001 }
  103:
-            tangon = oscard.fec;
-            golfie = report == tangon;
-            entity = undefined;
-            if(golfie) { _fun00002_ip = 124; continue _fun00001 }
+            var4 = var6.fec;
+            var7 = var5 == var4;
+            var1 = undefined;
+            if(var7) { _fun0001_ip = 124; continue _fun0001 }
  118:
-            entity = tangon.headerBytes;
+            var1 = var4.headerBytes;
  124:
-            golfie = report != entity;
-            tangon = 0;
-            if(!golfie) { _fun00002_ip = 136; continue _fun00001 }
+            var7 = var5 != var1;
+            var4 = 0;
+            if(!var7) { _fun0001_ip = 136; continue _fun0001 }
  133:
-            tangon = entity;
+            var4 = var1;
  136:
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 166; continue _fun00001 }
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 166; continue _fun0001 }
  145:
-            entity = oscard.fec;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 166; continue _fun00001 }
+            var1 = var6.fec;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 166; continue _fun0001 }
  160:
-            golfie = entity.payloadBytes;
+            var7 = var1.payloadBytes;
  166:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 178; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 178; continue _fun0001 }
  175:
-            entity = golfie;
+            var1 = var7;
  178:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 212; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 212; continue _fun0001 }
  191:
-            entity = oscard.fec;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 212; continue _fun00001 }
+            var1 = var6.fec;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 212; continue _fun0001 }
  206:
-            golfie = entity.paddingBytes;
+            var7 = var1.paddingBytes;
  212:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 224; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 224; continue _fun0001 }
  221:
-            entity = golfie;
+            var1 = var7;
  224:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 258; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 258; continue _fun0001 }
  237:
-            entity = oscard.retransmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 258; continue _fun00001 }
+            var1 = var6.retransmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 258; continue _fun0001 }
  252:
-            golfie = entity.headerBytes;
+            var7 = var1.headerBytes;
  258:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 270; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 270; continue _fun0001 }
  267:
-            entity = golfie;
+            var1 = var7;
  270:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 304; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 304; continue _fun0001 }
  283:
-            entity = oscard.retransmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 304; continue _fun00001 }
+            var1 = var6.retransmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 304; continue _fun0001 }
  298:
-            golfie = entity.payloadBytes;
+            var7 = var1.payloadBytes;
  304:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 316; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 316; continue _fun0001 }
  313:
-            entity = golfie;
+            var1 = var7;
  316:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 350; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 350; continue _fun0001 }
  329:
-            entity = oscard.retransmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 350; continue _fun00001 }
+            var1 = var6.retransmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 350; continue _fun0001 }
  344:
-            golfie = entity.paddingBytes;
+            var7 = var1.paddingBytes;
  350:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 362; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 362; continue _fun0001 }
  359:
-            entity = golfie;
+            var1 = var7;
  362:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 396; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 396; continue _fun0001 }
  375:
-            entity = oscard.transmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 396; continue _fun00001 }
+            var1 = var6.transmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 396; continue _fun0001 }
  390:
-            golfie = entity.headerBytes;
+            var7 = var1.headerBytes;
  396:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 408; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 408; continue _fun0001 }
  405:
-            entity = golfie;
+            var1 = var7;
  408:
-            tangon = tangon + entity;
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00002_ip = 442; continue _fun00001 }
+            var4 = var4 + var1;
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0001_ip = 442; continue _fun0001 }
  421:
-            entity = oscard.transmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00002_ip = 442; continue _fun00001 }
+            var1 = var6.transmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0001_ip = 442; continue _fun0001 }
  436:
-            golfie = entity.payloadBytes;
+            var7 = var1.payloadBytes;
  442:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00002_ip = 454; continue _fun00001 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0001_ip = 454; continue _fun0001 }
  451:
-            entity = golfie;
+            var1 = var7;
  454:
-            entity = tangon + entity;
-            golfie = report == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 488; continue _fun00001 }
+            var1 = var4 + var1;
+            var7 = var5 == var6;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 488; continue _fun0001 }
  467:
-            oscard = oscard.transmitted;
-            golfie = report == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 488; continue _fun00001 }
+            var6 = var6.transmitted;
+            var7 = var5 == var6;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 488; continue _fun0001 }
  482:
-            tangon = oscard.paddingBytes;
+            var4 = var6.paddingBytes;
  488:
-            report = report != tangon;
-            zuuluu = 0;
-            if(!report) { _fun00002_ip = 500; continue _fun00001 }
+            var5 = var5 != var4;
+            var3 = 0;
+            if(!var5) { _fun0001_ip = 500; continue _fun0001 }
  497:
-            zuuluu = tangon;
+            var3 = var4;
  500:
-            entity = entity + zuuluu;
-            entity = entity + michal;
-            return entity;
+            var1 = var1 + var3;
+            var1 = var1 + var2;
+            return var1;
         }
     };
-    var _closure1_slot3 = entity;
-    entity = function(argFoo) { // Original name: sumPackets
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var1;
+    var1 = function sumPackets(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            report = null;
-            michal = report == oscard;
-            entity = undefined;
-            if(michal) { _fun00004_ip = 20; continue _fun00003 }
+            var6 = arg1;
+            var5 = null;
+            var2 = var5 == var6;
+            var1 = undefined;
+            if(var2) { _fun0002_ip = 20; continue _fun0002 }
  14:
-            entity = oscard.packets;
+            var1 = var6.packets;
  20:
-            tangon = report != entity;
-            michal = 0;
-            if(!tangon) { _fun00004_ip = 32; continue _fun00003 }
+            var4 = var5 != var1;
+            var2 = 0;
+            if(!var4) { _fun0002_ip = 32; continue _fun0002 }
  29:
-            michal = entity;
+            var2 = var1;
  32:
-            tangon = report == oscard;
-            entity = undefined;
-            if(tangon) { _fun00004_ip = 62; continue _fun00003 }
+            var4 = var5 == var6;
+            var1 = undefined;
+            if(var4) { _fun0002_ip = 62; continue _fun0002 }
  41:
-            tangon = oscard.fec;
-            golfie = report == tangon;
-            entity = undefined;
-            if(golfie) { _fun00004_ip = 62; continue _fun00003 }
+            var4 = var6.fec;
+            var7 = var5 == var4;
+            var1 = undefined;
+            if(var7) { _fun0002_ip = 62; continue _fun0002 }
  56:
-            entity = tangon.packets;
+            var1 = var4.packets;
  62:
-            golfie = report != entity;
-            tangon = 0;
-            if(!golfie) { _fun00004_ip = 74; continue _fun00003 }
+            var7 = var5 != var1;
+            var4 = 0;
+            if(!var7) { _fun0002_ip = 74; continue _fun0002 }
  71:
-            tangon = entity;
+            var4 = var1;
  74:
-            entity = report == oscard;
-            golfie = undefined;
-            if(entity) { _fun00004_ip = 104; continue _fun00003 }
+            var1 = var5 == var6;
+            var7 = undefined;
+            if(var1) { _fun0002_ip = 104; continue _fun0002 }
  83:
-            entity = oscard.retransmitted;
-            verify = report == entity;
-            golfie = undefined;
-            if(verify) { _fun00004_ip = 104; continue _fun00003 }
+            var1 = var6.retransmitted;
+            var9 = var5 == var1;
+            var7 = undefined;
+            if(var9) { _fun0002_ip = 104; continue _fun0002 }
  98:
-            golfie = entity.packets;
+            var7 = var1.packets;
  104:
-            verify = report != golfie;
-            entity = 0;
-            if(!verify) { _fun00004_ip = 116; continue _fun00003 }
+            var9 = var5 != var7;
+            var1 = 0;
+            if(!var9) { _fun0002_ip = 116; continue _fun0002 }
  113:
-            entity = golfie;
+            var1 = var7;
  116:
-            entity = tangon + entity;
-            golfie = report == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00004_ip = 150; continue _fun00003 }
+            var1 = var4 + var1;
+            var7 = var5 == var6;
+            var4 = undefined;
+            if(var7) { _fun0002_ip = 150; continue _fun0002 }
  129:
-            oscard = oscard.transmitted;
-            golfie = report == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00004_ip = 150; continue _fun00003 }
+            var6 = var6.transmitted;
+            var7 = var5 == var6;
+            var4 = undefined;
+            if(var7) { _fun0002_ip = 150; continue _fun0002 }
  144:
-            tangon = oscard.packets;
+            var4 = var6.packets;
  150:
-            report = report != tangon;
-            zuuluu = 0;
-            if(!report) { _fun00004_ip = 162; continue _fun00003 }
+            var5 = var5 != var4;
+            var3 = 0;
+            if(!var5) { _fun0002_ip = 162; continue _fun0002 }
  159:
-            zuuluu = tangon;
+            var3 = var4;
  162:
-            entity = entity + zuuluu;
-            entity = entity + michal;
-            return entity;
+            var1 = var1 + var3;
+            var1 = var1 + var2;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = function(argFoo) { // Original name: transformPlayoutStats
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot4 = var1;
+    var1 = function transformPlayoutStats(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            offset = argFoo;
-            entity = {};
-            option = offset;
-            tangon = global;
-            zuuluu = 1000;
-            michal = null;
-            for(report in option)
+            var10 = arg1;
+            var1 = {};
+            var8 = var10;
+            var4 = global;
+            var3 = 1000;
+            var2 = null;
+            for(var5 in var8)
  29:
             {
  41:
-                romeon = report;
-                backup = offset[romeon];
-                foxtra = michal != backup;
-                yankee = null;
-                if(!foxtra) { _fun00006_ip = 249; continue _fun00005 }
+                var12 = var5;
+                var14 = var10[var12];
+                var13 = var2 != var14;
+                var11 = null;
+                if(!var13) { _fun0003_ip = 249; continue _fun0003 }
  60:
-                foxtra = {};
-                output = tangon.Math;
-                sizing = output.round;
-                kiloes = backup.last;
-                kiloes = zuuluu * kiloes;
-                kiloes = sizing.bind(output)(kiloes);
-                foxtra['last'] = kiloes;
-                output = tangon.Math;
-                sizing = output.round;
-                kiloes = backup.mean;
-                kiloes = zuuluu * kiloes;
-                kiloes = sizing.bind(output)(kiloes);
-                foxtra['mean'] = kiloes;
-                output = tangon.Math;
-                sizing = output.round;
-                kiloes = backup.p75;
-                kiloes = zuuluu * kiloes;
-                kiloes = sizing.bind(output)(kiloes);
-                foxtra['p75'] = kiloes;
-                output = tangon.Math;
-                sizing = output.round;
-                kiloes = backup.p95;
-                kiloes = zuuluu * kiloes;
-                kiloes = sizing.bind(output)(kiloes);
-                foxtra['p95'] = kiloes;
-                output = tangon.Math;
-                sizing = output.round;
-                kiloes = backup.p99;
-                kiloes = zuuluu * kiloes;
-                kiloes = sizing.bind(output)(kiloes);
-                foxtra['p99'] = kiloes;
-                sizing = tangon.Math;
-                kiloes = sizing.round;
-                backup = backup.max;
-                backup = zuuluu * backup;
-                backup = kiloes.bind(sizing)(backup);
-                foxtra['max'] = backup;
-                yankee = foxtra;
+                var13 = {};
+                var17 = var4.Math;
+                var16 = var17.round;
+                var15 = var14.last;
+                var15 = var3 * var15;
+                var15 = var16.bind(var17)(var15);
+                var13['last'] = var15;
+                var17 = var4.Math;
+                var16 = var17.round;
+                var15 = var14.mean;
+                var15 = var3 * var15;
+                var15 = var16.bind(var17)(var15);
+                var13['mean'] = var15;
+                var17 = var4.Math;
+                var16 = var17.round;
+                var15 = var14.p75;
+                var15 = var3 * var15;
+                var15 = var16.bind(var17)(var15);
+                var13['p75'] = var15;
+                var17 = var4.Math;
+                var16 = var17.round;
+                var15 = var14.p95;
+                var15 = var3 * var15;
+                var15 = var16.bind(var17)(var15);
+                var13['p95'] = var15;
+                var17 = var4.Math;
+                var16 = var17.round;
+                var15 = var14.p99;
+                var15 = var3 * var15;
+                var15 = var16.bind(var17)(var15);
+                var13['p99'] = var15;
+                var16 = var4.Math;
+                var15 = var16.round;
+                var14 = var14.max;
+                var14 = var3 * var14;
+                var14 = var15.bind(var16)(var14);
+                var13['max'] = var14;
+                var11 = var13;
  249:
-                entity[romeon] = yankee;
-                _fun00006_ip = 29; continue _fun00005;
+                var1[var12] = var11;
+                _fun0003_ip = 29; continue _fun0003;
             }
  258:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = function(argFoo, argBar) { // Original name: transformOutboundVideoStats
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function transformOutboundVideoStats(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argFoo;
-            romeon = argBar;
-            tangon = report.substreams;
-            zuuluu = tangon.find;
-            michal = function(argFoo) {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var5 = arg1;
+            var12 = arg2;
+            var4 = var5.substreams;
+            var3 = var4.find;
+            var2 = function(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    michal = argFoo;
-                    entity = michal.isRTX;
-                    entity = !entity;
-                    if(!entity) { _fun00010_ip = 28; continue _fun00009 }
+                    var2 = arg1;
+                    var1 = var2.isRTX;
+                    var1 = !var1;
+                    if(!var1) { _fun0005_ip = 28; continue _fun0005 }
  17:
-                    michal = michal.isFlexFEC;
-                    entity = !michal;
+                    var2 = var2.isFlexFEC;
+                    var1 = !var2;
  28:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = zuuluu.bind(tangon)(michal);
-            tangon = null;
-            if(!(tangon == zuuluu)) { _fun00008_ip = 39; continue _fun00007 }
+            var3 = var3.bind(var4)(var2);
+            var4 = null;
+            if(!(var4 == var3)) { _fun0004_ip = 39; continue _fun0004 }
  35:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  39:
-            option = report.substreams;
-            golfie = option.reduce;
-            michal = function(argFoo, argBar) {
-                zuuluu = _closure1_slot3;
-                entity = argBar;
-                michal = entity.rtpStats;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                entity = argFoo;
-                entity = entity + michal;
-                return entity;
+            var8 = var5.substreams;
+            var7 = var8.reduce;
+            var2 = function(arg1, arg2) {
+                var3 = _closure1_slot3;
+                var1 = arg2;
+                var2 = var1.rtpStats;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = arg1;
+                var1 = var1 + var2;
+                return var1;
             };
-            oscard = 0;
-            option = golfie.bind(option)(michal, oscard);
-            golfie = report.substreams;
-            michal = golfie.reduce;
-            entity = function(argFoo, argBar) {
-                zuuluu = _closure1_slot4;
-                entity = argBar;
-                michal = entity.rtpStats;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                entity = argFoo;
-                entity = entity + michal;
-                return entity;
+            var6 = 0;
+            var8 = var7.bind(var8)(var2, var6);
+            var7 = var5.substreams;
+            var2 = var7.reduce;
+            var1 = function(arg1, arg2) {
+                var3 = _closure1_slot4;
+                var1 = arg2;
+                var2 = var1.rtpStats;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var1 = arg1;
+                var1 = var1 + var2;
+                return var1;
             };
-            golfie = michal.bind(golfie)(entity, oscard);
-            entity = {};
-            michal = 'video';
-            entity['type'] = michal;
-            michal = zuuluu.ssrc;
-            entity['ssrc'] = michal;
-            offset = _closure1_slot0;
-            verify = _closure1_slot1;
-            yankee = verify[oscard];
-            michal = undefined;
-            kiloes = offset.bind(michal)(yankee);
-            backup = kiloes.formatSinkWantStat;
-            foxtra = zuuluu.ssrc;
-            yankee = true;
-            yankee = backup.bind(kiloes)(romeon, foxtra, yankee);
-            entity['sinkWant'] = yankee;
-            verify = verify[oscard];
-            yankee = offset.bind(michal)(verify);
-            offset = yankee.formatSinkWantAsInt;
-            verify = zuuluu.ssrc;
-            verify = offset.bind(yankee)(romeon, verify);
-            entity['sinkWantAsInt'] = verify;
-            verify = {};
-            offset = report.codecPayloadType;
-            verify['id'] = offset;
-            offset = report.codecName;
-            verify['name'] = offset;
-            entity['codec'] = verify;
-            verify = report.keyFrameInterval;
-            entity['keyFrameInterval'] = verify;
-            entity['bytesSent'] = option;
-            entity['packetsSent'] = golfie;
-            golfie = zuuluu.rtcpStats;
-            verify = tangon == golfie;
-            option = undefined;
-            if(verify) { _fun00008_ip = 257; continue _fun00007 }
+            var7 = var2.bind(var7)(var1, var6);
+            var1 = {};
+            var2 = 'video';
+            var1['type'] = var2;
+            var2 = var3.ssrc;
+            var1['ssrc'] = var2;
+            var10 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var11 = var9[var6];
+            var2 = undefined;
+            var15 = var10.bind(var2)(var11);
+            var14 = var15.formatSinkWantStat;
+            var13 = var3.ssrc;
+            var11 = true;
+            var11 = var14.bind(var15)(var12, var13, var11);
+            var1['sinkWant'] = var11;
+            var9 = var9[var6];
+            var11 = var10.bind(var2)(var9);
+            var10 = var11.formatSinkWantAsInt;
+            var9 = var3.ssrc;
+            var9 = var10.bind(var11)(var12, var9);
+            var1['sinkWantAsInt'] = var9;
+            var9 = {};
+            var10 = var5.codecPayloadType;
+            var9['id'] = var10;
+            var10 = var5.codecName;
+            var9['name'] = var10;
+            var1['codec'] = var9;
+            var9 = var5.keyFrameInterval;
+            var1['keyFrameInterval'] = var9;
+            var1['bytesSent'] = var8;
+            var1['packetsSent'] = var7;
+            var7 = var3.rtcpStats;
+            var9 = var4 == var7;
+            var8 = undefined;
+            if(var9) { _fun0004_ip = 257; continue _fun0004 }
  251:
-            option = golfie.packetsLost;
+            var8 = var7.packetsLost;
  257:
-            verify = tangon != option;
-            golfie = 0;
-            if(!verify) { _fun00008_ip = 269; continue _fun00007 }
+            var9 = var4 != var8;
+            var7 = 0;
+            if(!var9) { _fun0004_ip = 269; continue _fun0004 }
  266:
-            golfie = option;
+            var7 = var8;
  269:
-            entity['packetsLost'] = golfie;
-            golfie = zuuluu.rtcpStats;
-            verify = tangon == golfie;
-            option = undefined;
-            if(verify) { _fun00008_ip = 295; continue _fun00007 }
+            var1['packetsLost'] = var7;
+            var7 = var3.rtcpStats;
+            var9 = var4 == var7;
+            var8 = undefined;
+            if(var9) { _fun0004_ip = 295; continue _fun0004 }
  289:
-            option = golfie.fractionLost;
+            var8 = var7.fractionLost;
  295:
-            verify = tangon != option;
-            golfie = 0;
-            if(!verify) { _fun00008_ip = 307; continue _fun00007 }
+            var9 = var4 != var8;
+            var7 = 0;
+            if(!var9) { _fun0004_ip = 307; continue _fun0004 }
  304:
-            golfie = option;
+            var7 = var8;
  307:
-            entity['fractionLost'] = golfie;
-            golfie = report.mediaBitrate;
-            entity['bitrate'] = golfie;
-            golfie = report.targetMediaBitrate;
-            entity['bitrateTarget'] = golfie;
-            golfie = report.encoderImplementationName;
-            entity['encoderImplementationName'] = golfie;
-            golfie = report.encodeUsage;
-            entity['encodeUsage'] = golfie;
-            golfie = report.avgEncodeTime;
-            entity['averageEncodeTime'] = golfie;
-            golfie = {};
-            option = zuuluu.height;
-            golfie['height'] = option;
-            option = zuuluu.width;
-            golfie['width'] = option;
-            entity['resolution'] = golfie;
-            golfie = zuuluu.frameCounts;
-            option = golfie.keyFrames;
-            golfie = zuuluu.frameCounts;
-            golfie = golfie.deltaFrames;
-            golfie = option + golfie;
-            entity['framesSent'] = golfie;
-            golfie = zuuluu.frameCounts;
-            golfie = golfie.keyFrames;
-            entity['keyFramesEncoded'] = golfie;
-            golfie = report.framesEncoded;
-            entity['framesEncoded'] = golfie;
-            golfie = report.inputFrameRate;
-            entity['frameRateInput'] = golfie;
-            golfie = report.encodeFrameRate;
-            entity['frameRateEncode'] = golfie;
-            golfie = zuuluu.rtcpStats;
-            verify = tangon == golfie;
-            option = undefined;
-            if(verify) { _fun00008_ip = 502; continue _fun00007 }
+            var1['fractionLost'] = var7;
+            var7 = var5.mediaBitrate;
+            var1['bitrate'] = var7;
+            var7 = var5.targetMediaBitrate;
+            var1['bitrateTarget'] = var7;
+            var7 = var5.encoderImplementationName;
+            var1['encoderImplementationName'] = var7;
+            var7 = var5.encodeUsage;
+            var1['encodeUsage'] = var7;
+            var7 = var5.avgEncodeTime;
+            var1['averageEncodeTime'] = var7;
+            var7 = {};
+            var8 = var3.height;
+            var7['height'] = var8;
+            var8 = var3.width;
+            var7['width'] = var8;
+            var1['resolution'] = var7;
+            var7 = var3.frameCounts;
+            var8 = var7.keyFrames;
+            var7 = var3.frameCounts;
+            var7 = var7.deltaFrames;
+            var7 = var8 + var7;
+            var1['framesSent'] = var7;
+            var7 = var3.frameCounts;
+            var7 = var7.keyFrames;
+            var1['keyFramesEncoded'] = var7;
+            var7 = var5.framesEncoded;
+            var1['framesEncoded'] = var7;
+            var7 = var5.inputFrameRate;
+            var1['frameRateInput'] = var7;
+            var7 = var5.encodeFrameRate;
+            var1['frameRateEncode'] = var7;
+            var7 = var3.rtcpStats;
+            var9 = var4 == var7;
+            var8 = undefined;
+            if(var9) { _fun0004_ip = 502; continue _fun0004 }
  496:
-            option = golfie.firPackets;
+            var8 = var7.firPackets;
  502:
-            verify = tangon != option;
-            golfie = 0;
-            if(!verify) { _fun00008_ip = 514; continue _fun00007 }
+            var9 = var4 != var8;
+            var7 = 0;
+            if(!var9) { _fun0004_ip = 514; continue _fun0004 }
  511:
-            golfie = option;
+            var7 = var8;
  514:
-            entity['firCount'] = golfie;
-            golfie = zuuluu.rtcpStats;
-            verify = tangon == golfie;
-            option = undefined;
-            if(verify) { _fun00008_ip = 540; continue _fun00007 }
+            var1['firCount'] = var7;
+            var7 = var3.rtcpStats;
+            var9 = var4 == var7;
+            var8 = undefined;
+            if(var9) { _fun0004_ip = 540; continue _fun0004 }
  534:
-            option = golfie.nackPackets;
+            var8 = var7.nackPackets;
  540:
-            verify = tangon != option;
-            golfie = 0;
-            if(!verify) { _fun00008_ip = 552; continue _fun00007 }
+            var9 = var4 != var8;
+            var7 = 0;
+            if(!var9) { _fun0004_ip = 552; continue _fun0004 }
  549:
-            golfie = option;
+            var7 = var8;
  552:
-            entity['nackCount'] = golfie;
-            option = zuuluu.rtcpStats;
-            verify = tangon == option;
-            golfie = undefined;
-            if(verify) { _fun00008_ip = 578; continue _fun00007 }
+            var1['nackCount'] = var7;
+            var8 = var3.rtcpStats;
+            var9 = var4 == var8;
+            var7 = undefined;
+            if(var9) { _fun0004_ip = 578; continue _fun0004 }
  572:
-            golfie = option.pliPackets;
+            var7 = var8.pliPackets;
  578:
-            option = tangon != golfie;
-            oscard = 0;
-            if(!option) { _fun00008_ip = 590; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = 0;
+            if(!var8) { _fun0004_ip = 590; continue _fun0004 }
  587:
-            oscard = golfie;
+            var6 = var7;
  590:
-            entity['pliCount'] = oscard;
-            oscard = report.qpSum;
-            entity['qpSum'] = oscard;
-            oscard = report.bwLimitedResolution;
-            entity['bandwidthLimitedResolution'] = oscard;
-            oscard = report.framesDroppedRateLimiter;
-            entity['framesDroppedRateLimiter'] = oscard;
-            oscard = report.framesDroppedEncoderQueue;
-            entity['framesDroppedEncoderQueue'] = oscard;
-            oscard = report.framesDroppedCongestionWindow;
-            entity['framesDroppedCongestionWindow'] = oscard;
-            oscard = report.framesDroppedEncoder;
-            entity['framesDroppedEncoder'] = oscard;
-            oscard = report.cpuLimitedResolution;
-            entity['cpuLimitedResolution'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 697; continue _fun00007 }
+            var1['pliCount'] = var6;
+            var6 = var5.qpSum;
+            var1['qpSum'] = var6;
+            var6 = var5.bwLimitedResolution;
+            var1['bandwidthLimitedResolution'] = var6;
+            var6 = var5.framesDroppedRateLimiter;
+            var1['framesDroppedRateLimiter'] = var6;
+            var6 = var5.framesDroppedEncoderQueue;
+            var1['framesDroppedEncoderQueue'] = var6;
+            var6 = var5.framesDroppedCongestionWindow;
+            var1['framesDroppedCongestionWindow'] = var6;
+            var6 = var5.framesDroppedEncoder;
+            var1['framesDroppedEncoder'] = var6;
+            var6 = var5.cpuLimitedResolution;
+            var1['cpuLimitedResolution'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 697; continue _fun0004 }
  689:
-            golfie = oscard.imageQualityVmaf_v061;
+            var7 = var6.imageQualityVmaf_v061;
  697:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 709; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 709; continue _fun0004 }
  706:
-            oscard = golfie;
+            var6 = var7;
  709:
-            entity['encoderQualityVmaf'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 737; continue _fun00007 }
+            var1['encoderQualityVmaf'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 737; continue _fun0004 }
  729:
-            golfie = oscard.imageQualityWebrtcPsnrDb;
+            var7 = var6.imageQualityWebrtcPsnrDb;
  737:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 749; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 749; continue _fun0004 }
  746:
-            oscard = golfie;
+            var6 = var7;
  749:
-            entity['encoderQualityPsnr'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 777; continue _fun00007 }
+            var1['encoderQualityPsnr'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 777; continue _fun0004 }
  769:
-            golfie = oscard.decodeErrors;
+            var7 = var6.decodeErrors;
  777:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 789; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 789; continue _fun0004 }
  786:
-            oscard = golfie;
+            var6 = var7;
  789:
-            entity['qualityDecodeErrors'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 817; continue _fun00007 }
+            var1['qualityDecodeErrors'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 817; continue _fun0004 }
  809:
-            golfie = oscard.decoderReboots;
+            var7 = var6.decoderReboots;
  817:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 829; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 829; continue _fun0004 }
  826:
-            oscard = golfie;
+            var6 = var7;
  829:
-            entity['qualityDecoderReboots'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 857; continue _fun00007 }
+            var1['qualityDecoderReboots'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 857; continue _fun0004 }
  849:
-            golfie = oscard.scoreErrors;
+            var7 = var6.scoreErrors;
  857:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 869; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 869; continue _fun0004 }
  866:
-            oscard = golfie;
+            var6 = var7;
  869:
-            entity['qualityScoreErrors'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 897; continue _fun00007 }
+            var1['qualityScoreErrors'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 897; continue _fun0004 }
  889:
-            golfie = oscard.frameDrops;
+            var7 = var6.frameDrops;
  897:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 909; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 909; continue _fun0004 }
  906:
-            oscard = golfie;
+            var6 = var7;
  909:
-            entity['qualityFrameDrops'] = oscard;
-            oscard = zuuluu.encoderQualityStats;
-            option = tangon == oscard;
-            golfie = undefined;
-            if(option) { _fun00008_ip = 937; continue _fun00007 }
+            var1['qualityFrameDrops'] = var6;
+            var6 = var3.encoderQualityStats;
+            var8 = var4 == var6;
+            var7 = undefined;
+            if(var8) { _fun0004_ip = 937; continue _fun0004 }
  929:
-            golfie = oscard.sizeMismatches;
+            var7 = var6.sizeMismatches;
  937:
-            option = tangon != golfie;
-            oscard = undefined;
-            if(!option) { _fun00008_ip = 949; continue _fun00007 }
+            var8 = var4 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0004_ip = 949; continue _fun0004 }
  946:
-            oscard = golfie;
+            var6 = var7;
  949:
-            entity['qualitySizeMismatches'] = oscard;
-            oscard = report.filter;
-            entity['filter'] = oscard;
-            oscard = report.passthroughCount;
-            entity['passthroughCount'] = oscard;
-            oscard = report.encryptSuccessCount;
-            entity['encryptSuccessCount'] = oscard;
-            oscard = report.encryptFailureCount;
-            entity['encryptFailureCount'] = oscard;
-            oscard = report.encryptDuration;
-            entity['encryptDuration'] = oscard;
-            oscard = report.encryptAttempts;
-            entity['encryptAttempts'] = oscard;
-            oscard = report.encryptMaxAttempts;
-            entity['encryptMaxAttempts'] = oscard;
-            oscard = report.encryptMissingKeyCount;
-            entity['encryptMissingKeyCount'] = oscard;
-            oscard = report.hqSimulcastStreamEncoded;
-            entity['hqSimulcastStreamEncoded'] = oscard;
-            oscard = report.lqSimulcastStreamEncoded;
-            entity['lqSimulcastStreamEncoded'] = oscard;
-            report = report.bwLimitedFrameRate;
-            entity['bandwidthLimitedFrameRate'] = report;
-            oscard = zuuluu.encoderQualityStats;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00008_ip = 1096; continue _fun00007 }
+            var1['qualitySizeMismatches'] = var6;
+            var6 = var5.filter;
+            var1['filter'] = var6;
+            var6 = var5.passthroughCount;
+            var1['passthroughCount'] = var6;
+            var6 = var5.encryptSuccessCount;
+            var1['encryptSuccessCount'] = var6;
+            var6 = var5.encryptFailureCount;
+            var1['encryptFailureCount'] = var6;
+            var6 = var5.encryptDuration;
+            var1['encryptDuration'] = var6;
+            var6 = var5.encryptAttempts;
+            var1['encryptAttempts'] = var6;
+            var6 = var5.encryptMaxAttempts;
+            var1['encryptMaxAttempts'] = var6;
+            var6 = var5.encryptMissingKeyCount;
+            var1['encryptMissingKeyCount'] = var6;
+            var6 = var5.hqSimulcastStreamEncoded;
+            var1['hqSimulcastStreamEncoded'] = var6;
+            var6 = var5.lqSimulcastStreamEncoded;
+            var1['lqSimulcastStreamEncoded'] = var6;
+            var5 = var5.bwLimitedFrameRate;
+            var1['bandwidthLimitedFrameRate'] = var5;
+            var6 = var3.encoderQualityStats;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0004_ip = 1096; continue _fun0004 }
  1090:
-            report = oscard.freezeCount;
+            var5 = var6.freezeCount;
  1096:
-            entity['freezeCount'] = report;
-            oscard = zuuluu.encoderQualityStats;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00008_ip = 1122; continue _fun00007 }
+            var1['freezeCount'] = var5;
+            var6 = var3.encoderQualityStats;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0004_ip = 1122; continue _fun0004 }
  1116:
-            report = oscard.totalFreezesDuration;
+            var5 = var6.totalFreezesDuration;
  1122:
-            entity['totalFreezesDuration'] = report;
-            oscard = zuuluu.encoderQualityStats;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00008_ip = 1148; continue _fun00007 }
+            var1['totalFreezesDuration'] = var5;
+            var6 = var3.encoderQualityStats;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0004_ip = 1148; continue _fun0004 }
  1142:
-            report = oscard.totalFramesDuration;
+            var5 = var6.totalFramesDuration;
  1148:
-            entity['totalFramesDuration'] = report;
-            zuuluu = zuuluu.encoderQualityStats;
-            tangon = tangon == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00008_ip = 1176; continue _fun00007 }
+            var1['totalFramesDuration'] = var5;
+            var3 = var3.encoderQualityStats;
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0004_ip = 1176; continue _fun0004 }
  1168:
-            michal = zuuluu.interFrameEntropy;
+            var2 = var3.interFrameEntropy;
  1176:
-            entity['videoEntropy'] = michal;
-            return entity;
+            var1['videoEntropy'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = function(argFoo, argBar, argBaz, argCor) { // Original name: transformInboundVideoStats
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function transformInboundVideoStats(arg1, arg2, arg3, arg4) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            tangon = argFoo;
-            sizing = argBar;
-            romeon = argBaz;
-            oscard = argCor;
-            michal = _closure1_slot3;
-            entity = tangon.rtpStats;
-            report = undefined;
-            option = michal.bind(report)(entity);
-            michal = _closure1_slot4;
-            entity = tangon.rtpStats;
-            michal = michal.bind(report)(entity);
-            entity = {};
-            golfie = 'video';
-            entity['type'] = golfie;
-            golfie = tangon.ssrc;
-            entity['ssrc'] = golfie;
-            offset = _closure1_slot0;
-            verify = _closure1_slot1;
-            golfie = 0;
-            yankee = verify[golfie];
-            backup = offset.bind(report)(yankee);
-            foxtra = backup.formatSinkWantStat;
-            yankee = tangon.ssrc;
-            kiloes = true;
-            yankee = foxtra.bind(backup)(sizing, yankee, kiloes);
-            entity['sinkWant'] = yankee;
-            yankee = verify[golfie];
-            backup = offset.bind(report)(yankee);
-            foxtra = backup.formatSinkWantAsInt;
-            yankee = tangon.ssrc;
-            yankee = foxtra.bind(backup)(sizing, yankee);
-            entity['sinkWantAsInt'] = yankee;
-            yankee = verify[golfie];
-            backup = offset.bind(report)(yankee);
-            foxtra = backup.formatSinkWantStat;
-            yankee = tangon.ssrc;
-            yankee = foxtra.bind(backup)(romeon, yankee, kiloes);
-            entity['sinkWantLocal'] = yankee;
-            verify = verify[golfie];
-            yankee = offset.bind(report)(verify);
-            offset = yankee.formatSinkWantAsInt;
-            verify = tangon.ssrc;
-            verify = offset.bind(yankee)(romeon, verify);
-            entity['sinkWantLocalAsInt'] = verify;
-            verify = {};
-            offset = tangon.codecPayloadType;
-            verify['id'] = offset;
-            offset = tangon.codecName;
-            verify['name'] = offset;
-            entity['codec'] = verify;
-            entity['bytesReceived'] = option;
-            entity['packetsReceived'] = michal;
-            michal = tangon.rtpStats;
-            option = michal.packetsLost;
-            michal = null;
-            if(!(michal == option)) { _fun00012_ip = 279; continue _fun00011 }
+            var4 = arg1;
+            var16 = arg2;
+            var12 = arg3;
+            var6 = arg4;
+            var2 = _closure1_slot3;
+            var1 = var4.rtpStats;
+            var5 = undefined;
+            var8 = var2.bind(var5)(var1);
+            var2 = _closure1_slot4;
+            var1 = var4.rtpStats;
+            var2 = var2.bind(var5)(var1);
+            var1 = {};
+            var7 = 'video';
+            var1['type'] = var7;
+            var7 = var4.ssrc;
+            var1['ssrc'] = var7;
+            var10 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var7 = 0;
+            var11 = var9[var7];
+            var14 = var10.bind(var5)(var11);
+            var13 = var14.formatSinkWantStat;
+            var11 = var4.ssrc;
+            var15 = true;
+            var11 = var13.bind(var14)(var16, var11, var15);
+            var1['sinkWant'] = var11;
+            var11 = var9[var7];
+            var14 = var10.bind(var5)(var11);
+            var13 = var14.formatSinkWantAsInt;
+            var11 = var4.ssrc;
+            var11 = var13.bind(var14)(var16, var11);
+            var1['sinkWantAsInt'] = var11;
+            var11 = var9[var7];
+            var14 = var10.bind(var5)(var11);
+            var13 = var14.formatSinkWantStat;
+            var11 = var4.ssrc;
+            var11 = var13.bind(var14)(var12, var11, var15);
+            var1['sinkWantLocal'] = var11;
+            var9 = var9[var7];
+            var11 = var10.bind(var5)(var9);
+            var10 = var11.formatSinkWantAsInt;
+            var9 = var4.ssrc;
+            var9 = var10.bind(var11)(var12, var9);
+            var1['sinkWantLocalAsInt'] = var9;
+            var9 = {};
+            var10 = var4.codecPayloadType;
+            var9['id'] = var10;
+            var10 = var4.codecName;
+            var9['name'] = var10;
+            var1['codec'] = var9;
+            var1['bytesReceived'] = var8;
+            var1['packetsReceived'] = var2;
+            var2 = var4.rtpStats;
+            var8 = var2.packetsLost;
+            var2 = null;
+            if(!(var2 == var8)) { _fun0006_ip = 279; continue _fun0006 }
  267:
-            verify = tangon.rtcpStats;
-            option = verify.packetsLost;
+            var9 = var4.rtcpStats;
+            var8 = var9.packetsLost;
  279:
-            entity['packetsLost'] = option;
-            option = tangon.rtcpStats;
-            option = option.fractionLost;
-            entity['fractionLost'] = option;
-            option = tangon.totalBitrate;
-            entity['bitrate'] = option;
-            option = tangon.jitterBuffer;
-            entity['jitterBuffer'] = option;
-            option = tangon.currentDelay;
-            entity['currentDelay'] = option;
-            option = tangon.targetDelay;
-            entity['targetDelay'] = option;
-            option = tangon.minPlayoutDelay;
-            entity['minPlayoutDelay'] = option;
-            option = tangon.renderDelay;
-            entity['renderDelay'] = option;
-            option = tangon.decode;
-            entity['averageDecodeTime'] = option;
-            option = {};
-            verify = tangon.height;
-            option['height'] = verify;
-            verify = tangon.width;
-            option['width'] = verify;
-            entity['resolution'] = option;
-            option = tangon.decoderImplementationName;
-            entity['decoderImplementationName'] = option;
-            option = tangon.framesDecoded;
-            entity['framesDecoded'] = option;
-            option = tangon.framesDropped;
-            entity['framesDropped'] = option;
-            option = tangon.framesDecodeErrors;
-            entity['framesDecodeErrors'] = option;
-            option = tangon.frameCounts;
-            verify = option.keyFrames;
-            option = tangon.frameCounts;
-            option = option.deltaFrames;
-            option = verify + option;
-            entity['framesReceived'] = option;
-            option = tangon.networkFramesDropped;
-            verify = michal != option;
-            golfie = 0;
-            if(!verify) { _fun00012_ip = 502; continue _fun00011 }
+            var1['packetsLost'] = var8;
+            var8 = var4.rtcpStats;
+            var8 = var8.fractionLost;
+            var1['fractionLost'] = var8;
+            var8 = var4.totalBitrate;
+            var1['bitrate'] = var8;
+            var8 = var4.jitterBuffer;
+            var1['jitterBuffer'] = var8;
+            var8 = var4.currentDelay;
+            var1['currentDelay'] = var8;
+            var8 = var4.targetDelay;
+            var1['targetDelay'] = var8;
+            var8 = var4.minPlayoutDelay;
+            var1['minPlayoutDelay'] = var8;
+            var8 = var4.renderDelay;
+            var1['renderDelay'] = var8;
+            var8 = var4.decode;
+            var1['averageDecodeTime'] = var8;
+            var8 = {};
+            var9 = var4.height;
+            var8['height'] = var9;
+            var9 = var4.width;
+            var8['width'] = var9;
+            var1['resolution'] = var8;
+            var8 = var4.decoderImplementationName;
+            var1['decoderImplementationName'] = var8;
+            var8 = var4.framesDecoded;
+            var1['framesDecoded'] = var8;
+            var8 = var4.framesDropped;
+            var1['framesDropped'] = var8;
+            var8 = var4.framesDecodeErrors;
+            var1['framesDecodeErrors'] = var8;
+            var8 = var4.frameCounts;
+            var9 = var8.keyFrames;
+            var8 = var4.frameCounts;
+            var8 = var8.deltaFrames;
+            var8 = var9 + var8;
+            var1['framesReceived'] = var8;
+            var8 = var4.networkFramesDropped;
+            var9 = var2 != var8;
+            var7 = 0;
+            if(!var9) { _fun0006_ip = 502; continue _fun0006 }
  499:
-            golfie = option;
+            var7 = var8;
  502:
-            entity['networkFramesDropped'] = golfie;
-            golfie = tangon.frameCounts;
-            golfie = golfie.keyFrames;
-            entity['keyFramesDecoded'] = golfie;
-            golfie = tangon.decodeFrameRate;
-            entity['frameRateDecode'] = golfie;
-            golfie = tangon.networkFrameRate;
-            entity['frameRateNetwork'] = golfie;
-            golfie = tangon.renderFrameRate;
-            entity['frameRateRender'] = golfie;
-            golfie = tangon.rtcpStats;
-            golfie = golfie.firPackets;
-            entity['firCount'] = golfie;
-            golfie = tangon.rtcpStats;
-            golfie = golfie.nackPackets;
-            entity['nackCount'] = golfie;
-            golfie = tangon.rtcpStats;
-            golfie = golfie.pliPackets;
-            entity['pliCount'] = golfie;
-            golfie = tangon.qpSum;
-            entity['qpSum'] = golfie;
-            golfie = tangon.freezeCount;
-            entity['freezeCount'] = golfie;
-            golfie = tangon.pauseCount;
-            entity['pauseCount'] = golfie;
-            golfie = tangon.totalFreezesDuration;
-            entity['totalFreezesDuration'] = golfie;
-            golfie = tangon.totalPausesDuration;
-            entity['totalPausesDuration'] = golfie;
-            golfie = tangon.totalFramesDuration;
-            entity['totalFramesDuration'] = golfie;
-            golfie = tangon.sumOfSquaredFramesDurations;
-            entity['sumOfSquaredFramesDurations'] = golfie;
-            golfie = tangon.passthroughCount;
-            entity['passthroughCount'] = golfie;
-            golfie = tangon.decryptSuccessCount;
-            entity['decryptSuccessCount'] = golfie;
-            golfie = tangon.decryptFailureCount;
-            entity['decryptFailureCount'] = golfie;
-            golfie = tangon.decryptDuration;
-            entity['decryptDuration'] = golfie;
-            golfie = tangon.decryptAttempts;
-            entity['decryptAttempts'] = golfie;
-            golfie = tangon.decryptMissingKeyCount;
-            entity['decryptMissingKeyCount'] = golfie;
-            tangon = tangon.decryptInvalidNonceCount;
-            entity['decryptInvalidNonceCount'] = tangon;
-            if(!(michal == oscard)) { _fun00012_ip = 776; continue _fun00011 }
+            var1['networkFramesDropped'] = var7;
+            var7 = var4.frameCounts;
+            var7 = var7.keyFrames;
+            var1['keyFramesDecoded'] = var7;
+            var7 = var4.decodeFrameRate;
+            var1['frameRateDecode'] = var7;
+            var7 = var4.networkFrameRate;
+            var1['frameRateNetwork'] = var7;
+            var7 = var4.renderFrameRate;
+            var1['frameRateRender'] = var7;
+            var7 = var4.rtcpStats;
+            var7 = var7.firPackets;
+            var1['firCount'] = var7;
+            var7 = var4.rtcpStats;
+            var7 = var7.nackPackets;
+            var1['nackCount'] = var7;
+            var7 = var4.rtcpStats;
+            var7 = var7.pliPackets;
+            var1['pliCount'] = var7;
+            var7 = var4.qpSum;
+            var1['qpSum'] = var7;
+            var7 = var4.freezeCount;
+            var1['freezeCount'] = var7;
+            var7 = var4.pauseCount;
+            var1['pauseCount'] = var7;
+            var7 = var4.totalFreezesDuration;
+            var1['totalFreezesDuration'] = var7;
+            var7 = var4.totalPausesDuration;
+            var1['totalPausesDuration'] = var7;
+            var7 = var4.totalFramesDuration;
+            var1['totalFramesDuration'] = var7;
+            var7 = var4.sumOfSquaredFramesDurations;
+            var1['sumOfSquaredFramesDurations'] = var7;
+            var7 = var4.passthroughCount;
+            var1['passthroughCount'] = var7;
+            var7 = var4.decryptSuccessCount;
+            var1['decryptSuccessCount'] = var7;
+            var7 = var4.decryptFailureCount;
+            var1['decryptFailureCount'] = var7;
+            var7 = var4.decryptDuration;
+            var1['decryptDuration'] = var7;
+            var7 = var4.decryptAttempts;
+            var1['decryptAttempts'] = var7;
+            var7 = var4.decryptMissingKeyCount;
+            var1['decryptMissingKeyCount'] = var7;
+            var4 = var4.decryptInvalidNonceCount;
+            var1['decryptInvalidNonceCount'] = var4;
+            if(!(var2 == var6)) { _fun0006_ip = 776; continue _fun0006 }
  772:
-            michal = {};
-            _fun00012_ip = 820; continue _fun00011;
+            var2 = {};
+            _fun0006_ip = 820; continue _fun0006;
  776:
-            tangon = _closure1_slot5;
-            zuuluu = {};
-            golfie = oscard.videoJitterBuffer;
-            zuuluu['videoJitterBuffer'] = golfie;
-            golfie = oscard.videoJitterDelay;
-            zuuluu['videoJitterDelay'] = golfie;
-            oscard = oscard.videoJitterTarget;
-            zuuluu['videoJitterTarget'] = oscard;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = _closure1_slot5;
+            var3 = {};
+            var7 = var6.videoJitterBuffer;
+            var3['videoJitterBuffer'] = var7;
+            var7 = var6.videoJitterDelay;
+            var3['videoJitterDelay'] = var7;
+            var6 = var6.videoJitterTarget;
+            var3['videoJitterTarget'] = var6;
+            var2 = var4.bind(var5)(var3);
  820:
-            echoed = entity;
-            result = michal;
-            michal = copyDataProperties(echoed, result);
-            return entity;
+            var19 = var1;
+            var18 = var2;
+            var2 = copyDataProperties(var19, var18);
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/media-engine/native/transformStats.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: transformStats
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/media-engine/native/transformStats.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function transformStats(arg1, arg2, arg3, arg4) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            tangon = argBar;
-            verify = argBaz;
-            var _closure2_slot0 = verify;
-            entity = argCor;
-            var _closure2_slot1 = entity;
-            oscard = null;
-            var _closure2_slot2 = oscard;
-            var _closure2_slot3 = oscard;
-            zuuluu = 'string';
-            michal = typeof tangon;
-            entity = tangon;
-            if(!(zuuluu === michal)) { _fun00014_ip = 62; continue _fun00013 }
+            var4 = arg2;
+            var9 = arg3;
+            var _closure2_slot0 = var9;
+            var1 = arg4;
+            var _closure2_slot1 = var1;
+            var6 = null;
+            var _closure2_slot2 = var6;
+            var _closure2_slot3 = var6;
+            var3 = 'string';
+            var2 = typeof var4;
+            var1 = var4;
+            if(!(var3 === var2)) { _fun0007_ip = 62; continue _fun0007 }
  43:
-            michal = global;
-            zuuluu = michal.JSON;
-            michal = zuuluu.parse;
-            entity = michal.bind(zuuluu)(tangon);
+            var2 = global;
+            var3 = var2.JSON;
+            var2 = var3.parse;
+            var1 = var2.bind(var3)(var4);
  62:
-            zuuluu = new Array(0);
-            var _closure2_slot4 = zuuluu;
-            michal = entity.outbound;
-            if(!(oscard != michal)) { _fun00014_ip = 658; continue _fun00013 }
+            var3 = new Array(0);
+            var _closure2_slot4 = var3;
+            var2 = var1.outbound;
+            if(!(var6 != var2)) { _fun0007_ip = 658; continue _fun0007 }
  83:
-            michal = entity.outbound;
-            offset = michal.audio;
-            golfie = michal.video;
-            report = michal.videos;
-            if(!(oscard != offset)) { _fun00014_ip = 573; continue _fun00013 }
+            var2 = var1.outbound;
+            var10 = var2.audio;
+            var7 = var2.video;
+            var5 = var2.videos;
+            if(!(var6 != var10)) { _fun0007_ip = 573; continue _fun0007 }
  114:
-            michal = _closure2_slot3;
-            michal = oscard != michal;
-            sizing = 0;
-            tangon = 0;
-            if(!michal) { _fun00014_ip = 133; continue _fun00013 }
+            var2 = _closure2_slot3;
+            var2 = var6 != var2;
+            var16 = 0;
+            var4 = 0;
+            if(!var2) { _fun0007_ip = 133; continue _fun0007 }
  129:
-            tangon = _closure2_slot3;
+            var4 = _closure2_slot3;
  133:
-            michal = offset.bytesSent;
-            michal = tangon + michal;
-            _closure2_slot3 = michal;
-            tangon = zuuluu.push;
-            michal = {};
-            yankee = 'audio';
-            michal['type'] = yankee;
-            yankee = offset.ssrc;
-            michal['ssrc'] = yankee;
-            backup = _closure1_slot0;
-            romeon = _closure1_slot1;
-            kiloes = romeon[sizing];
-            foxtra = undefined;
-            echoed = backup.bind(foxtra)(kiloes);
-            result = echoed.formatSinkWantStat;
-            output = offset.ssrc;
-            kiloes = false;
-            kiloes = result.bind(echoed)(verify, output, kiloes);
-            michal['sinkWant'] = kiloes;
-            romeon = romeon[sizing];
-            kiloes = backup.bind(foxtra)(romeon);
-            backup = kiloes.formatSinkWantAsInt;
-            romeon = offset.ssrc;
-            romeon = backup.bind(kiloes)(verify, romeon);
-            michal['sinkWantAsInt'] = romeon;
-            romeon = {};
-            backup = offset.codecPayloadType;
-            romeon['id'] = backup;
-            backup = offset.codecName;
-            romeon['name'] = backup;
-            michal['codec'] = romeon;
-            romeon = offset.bytesSent;
-            michal['bytesSent'] = romeon;
-            romeon = offset.packetsSent;
-            michal['packetsSent'] = romeon;
-            romeon = global;
-            kiloes = romeon.Math;
-            backup = kiloes.max;
-            romeon = offset.packetsLost;
-            romeon = backup.bind(kiloes)(sizing, romeon);
-            michal['packetsLost'] = romeon;
-            backup = offset.fractionLost;
-            romeon = 100;
-            romeon = romeon * backup;
-            michal['fractionLost'] = romeon;
-            romeon = _closure1_slot2;
-            yankee = offset.audioLevel;
-            yankee = romeon.bind(foxtra)(yankee);
-            michal['audioLevel'] = yankee;
-            yankee = offset.mediaBitrate;
-            michal['bitrate'] = yankee;
-            yankee = offset.targetMediaBitrate;
-            michal['bitrateTarget'] = yankee;
-            yankee = offset.speaking;
-            michal['audioDetected'] = yankee;
-            yankee = offset.framesCaptured;
-            michal['framesCaptured'] = yankee;
-            yankee = offset.framesRendered;
-            michal['framesRendered'] = yankee;
-            yankee = offset.noiseCancellerFrames;
-            michal['noiseCancellerFrames'] = yankee;
-            yankee = offset.noiseCancellerProcessTime;
-            michal['noiseCancellerProcessTime'] = yankee;
-            yankee = offset.voiceActivityDetectorProcessTime;
-            michal['voiceActivityDetectorProcessTime'] = yankee;
-            yankee = offset.passthroughCount;
-            michal['passthroughCount'] = yankee;
-            yankee = offset.encryptSuccessCount;
-            michal['encryptSuccessCount'] = yankee;
-            yankee = offset.encryptFailureCount;
-            michal['encryptFailureCount'] = yankee;
-            yankee = offset.encryptDuration;
-            michal['encryptDuration'] = yankee;
-            yankee = offset.encryptAttempts;
-            michal['encryptAttempts'] = yankee;
-            yankee = offset.encryptMaxAttempts;
-            michal['encryptMaxAttempts'] = yankee;
-            yankee = offset.encryptMissingKeyCount;
-            michal['encryptMissingKeyCount'] = yankee;
-            yankee = offset.pttQueueLatencyMicrosSamples;
-            michal['pttQueueLatencyMicrosSamples'] = yankee;
-            yankee = offset.sampleRateMismatchPercent;
-            michal['sampleRateMismatchPercent'] = yankee;
-            offset = offset.currentSampleRate;
-            michal['currentSampleRate'] = offset;
-            michal = tangon.bind(zuuluu)(michal);
+            var2 = var10.bytesSent;
+            var2 = var4 + var2;
+            _closure2_slot3 = var2;
+            var4 = var3.push;
+            var2 = {};
+            var11 = 'audio';
+            var2['type'] = var11;
+            var11 = var10.ssrc;
+            var2['ssrc'] = var11;
+            var14 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var15 = var12[var16];
+            var13 = undefined;
+            var19 = var14.bind(var13)(var15);
+            var18 = var19.formatSinkWantStat;
+            var17 = var10.ssrc;
+            var15 = false;
+            var15 = var18.bind(var19)(var9, var17, var15);
+            var2['sinkWant'] = var15;
+            var12 = var12[var16];
+            var15 = var14.bind(var13)(var12);
+            var14 = var15.formatSinkWantAsInt;
+            var12 = var10.ssrc;
+            var12 = var14.bind(var15)(var9, var12);
+            var2['sinkWantAsInt'] = var12;
+            var12 = {};
+            var14 = var10.codecPayloadType;
+            var12['id'] = var14;
+            var14 = var10.codecName;
+            var12['name'] = var14;
+            var2['codec'] = var12;
+            var12 = var10.bytesSent;
+            var2['bytesSent'] = var12;
+            var12 = var10.packetsSent;
+            var2['packetsSent'] = var12;
+            var12 = global;
+            var15 = var12.Math;
+            var14 = var15.max;
+            var12 = var10.packetsLost;
+            var12 = var14.bind(var15)(var16, var12);
+            var2['packetsLost'] = var12;
+            var14 = var10.fractionLost;
+            var12 = 100;
+            var12 = var12 * var14;
+            var2['fractionLost'] = var12;
+            var12 = _closure1_slot2;
+            var11 = var10.audioLevel;
+            var11 = var12.bind(var13)(var11);
+            var2['audioLevel'] = var11;
+            var11 = var10.mediaBitrate;
+            var2['bitrate'] = var11;
+            var11 = var10.targetMediaBitrate;
+            var2['bitrateTarget'] = var11;
+            var11 = var10.speaking;
+            var2['audioDetected'] = var11;
+            var11 = var10.framesCaptured;
+            var2['framesCaptured'] = var11;
+            var11 = var10.framesRendered;
+            var2['framesRendered'] = var11;
+            var11 = var10.noiseCancellerFrames;
+            var2['noiseCancellerFrames'] = var11;
+            var11 = var10.noiseCancellerProcessTime;
+            var2['noiseCancellerProcessTime'] = var11;
+            var11 = var10.voiceActivityDetectorProcessTime;
+            var2['voiceActivityDetectorProcessTime'] = var11;
+            var11 = var10.passthroughCount;
+            var2['passthroughCount'] = var11;
+            var11 = var10.encryptSuccessCount;
+            var2['encryptSuccessCount'] = var11;
+            var11 = var10.encryptFailureCount;
+            var2['encryptFailureCount'] = var11;
+            var11 = var10.encryptDuration;
+            var2['encryptDuration'] = var11;
+            var11 = var10.encryptAttempts;
+            var2['encryptAttempts'] = var11;
+            var11 = var10.encryptMaxAttempts;
+            var2['encryptMaxAttempts'] = var11;
+            var11 = var10.encryptMissingKeyCount;
+            var2['encryptMissingKeyCount'] = var11;
+            var11 = var10.pttQueueLatencyMicrosSamples;
+            var2['pttQueueLatencyMicrosSamples'] = var11;
+            var11 = var10.sampleRateMismatchPercent;
+            var2['sampleRateMismatchPercent'] = var11;
+            var10 = var10.currentSampleRate;
+            var2['currentSampleRate'] = var10;
+            var2 = var4.bind(var3)(var2);
  573:
-            if(!(oscard == report)) { _fun00014_ip = 643; continue _fun00013 }
+            if(!(var6 == var5)) { _fun0007_ip = 643; continue _fun0007 }
  577:
-            if(!(oscard != golfie)) { _fun00014_ip = 658; continue _fun00013 }
+            if(!(var6 != var7)) { _fun0007_ip = 658; continue _fun0007 }
  581:
-            tangon = _closure1_slot6;
-            michal = undefined;
-            tangon = tangon.bind(michal)(golfie, verify);
-            if(!(oscard != tangon)) { _fun00014_ip = 658; continue _fun00013 }
+            var4 = _closure1_slot6;
+            var2 = undefined;
+            var4 = var4.bind(var2)(var7, var9);
+            if(!(var6 != var4)) { _fun0007_ip = 658; continue _fun0007 }
  600:
-            michal = _closure2_slot3;
-            michal = oscard != michal;
-            golfie = 0;
-            if(!michal) { _fun00014_ip = 617; continue _fun00013 }
+            var2 = _closure2_slot3;
+            var2 = var6 != var2;
+            var7 = 0;
+            if(!var2) { _fun0007_ip = 617; continue _fun0007 }
  613:
-            golfie = _closure2_slot3;
+            var7 = _closure2_slot3;
  617:
-            michal = tangon.bytesSent;
-            michal = golfie + michal;
-            _closure2_slot3 = michal;
-            michal = zuuluu.push;
-            michal = michal.bind(zuuluu)(tangon);
-            _fun00014_ip = 658; continue _fun00013;
+            var2 = var4.bytesSent;
+            var2 = var7 + var2;
+            _closure2_slot3 = var2;
+            var2 = var3.push;
+            var2 = var2.bind(var3)(var4);
+            _fun0007_ip = 658; continue _fun0007;
  643:
-            tangon = report.forEach;
-            michal = function(argFoo) {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+            var4 = var5.forEach;
+            var2 = function(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                    report = _closure1_slot6;
-                    tangon = _closure2_slot0;
-                    entity = undefined;
-                    zuuluu = argFoo;
-                    tangon = report.bind(entity)(zuuluu, tangon);
-                    report = null;
-                    if(!(report != tangon)) { _fun00016_ip = 76; continue _fun00015 }
+                    var5 = _closure1_slot6;
+                    var4 = _closure2_slot0;
+                    var1 = undefined;
+                    var3 = arg1;
+                    var4 = var5.bind(var1)(var3, var4);
+                    var5 = null;
+                    if(!(var5 != var4)) { _fun0008_ip = 76; continue _fun0008 }
  31:
-                    zuuluu = _closure2_slot3;
-                    zuuluu = report != zuuluu;
-                    report = 0;
-                    if(!zuuluu) { _fun00016_ip = 48; continue _fun00015 }
+                    var3 = _closure2_slot3;
+                    var3 = var5 != var3;
+                    var5 = 0;
+                    if(!var3) { _fun0008_ip = 48; continue _fun0008 }
  44:
-                    report = _closure2_slot3;
+                    var5 = _closure2_slot3;
  48:
-                    zuuluu = tangon.bytesSent;
-                    zuuluu = report + zuuluu;
-                    _closure2_slot3 = zuuluu;
-                    zuuluu = _closure2_slot4;
-                    michal = zuuluu.push;
-                    michal = michal.bind(zuuluu)(tangon);
+                    var3 = var4.bytesSent;
+                    var3 = var5 + var3;
+                    _closure2_slot3 = var3;
+                    var3 = _closure2_slot4;
+                    var2 = var3.push;
+                    var2 = var2.bind(var3)(var4);
  76:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal);
+            var2 = var4.bind(var5)(var2);
  658:
-            tangon = {};
-            var _closure2_slot5 = tangon;
-            michal = entity.inbound;
-            if(!(oscard != michal)) { _fun00014_ip = 695; continue _fun00013 }
+            var4 = {};
+            var _closure2_slot5 = var4;
+            var2 = var1.inbound;
+            if(!(var6 != var2)) { _fun0007_ip = 695; continue _fun0007 }
  674:
-            golfie = entity.inbound;
-            report = golfie.forEach;
-            michal = function(argFoo) {
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+            var7 = var1.inbound;
+            var5 = var7.forEach;
+            var2 = function(arg1) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                    michal = argFoo;
-                    tangon = michal.id;
-                    var _closure3_slot0 = tangon;
-                    offset = michal.audio;
-                    oscard = michal.video;
-                    zuuluu = michal.videos;
-                    romeon = michal.playout;
-                    var _closure3_slot1 = romeon;
-                    golfie = _closure2_slot5;
-                    report = new Array(0);
-                    golfie[tangon] = report;
-                    option = null;
-                    if(!(option != offset)) { _fun00018_ip = 800; continue _fun00017 }
+                    var2 = arg1;
+                    var4 = var2.id;
+                    var _closure3_slot0 = var4;
+                    var10 = var2.audio;
+                    var6 = var2.video;
+                    var3 = var2.videos;
+                    var12 = var2.playout;
+                    var _closure3_slot1 = var12;
+                    var7 = _closure2_slot5;
+                    var5 = new Array(0);
+                    var7[var4] = var5;
+                    var8 = null;
+                    if(!(var8 != var10)) { _fun0009_ip = 800; continue _fun0009 }
  68:
-                    report = _closure2_slot2;
-                    report = option != report;
-                    sizing = 0;
-                    golfie = 0;
-                    if(!report) { _fun00018_ip = 87; continue _fun00017 }
+                    var5 = _closure2_slot2;
+                    var5 = var8 != var5;
+                    var16 = 0;
+                    var7 = 0;
+                    if(!var5) { _fun0009_ip = 87; continue _fun0009 }
  83:
-                    golfie = _closure2_slot2;
+                    var7 = _closure2_slot2;
  87:
-                    report = offset.bytesReceived;
-                    report = golfie + report;
-                    _closure2_slot2 = report;
-                    report = _closure2_slot5;
-                    verify = report[tangon];
-                    golfie = verify.push;
-                    report = {};
-                    yankee = 'audio';
-                    report['type'] = yankee;
-                    yankee = offset.ssrc;
-                    report['ssrc'] = yankee;
-                    kiloes = _closure1_slot0;
-                    foxtra = _closure1_slot1;
-                    output = foxtra[sizing];
-                    backup = undefined;
-                    source = kiloes.bind(backup)(output);
-                    update = source.formatSinkWantStat;
-                    output = _closure2_slot0;
-                    echoed = offset.ssrc;
-                    result = false;
-                    result = update.bind(source)(output, echoed, result);
-                    report['sinkWant'] = result;
-                    foxtra = foxtra[sizing];
-                    sizing = kiloes.bind(backup)(foxtra);
-                    kiloes = sizing.formatSinkWantAsInt;
-                    foxtra = offset.ssrc;
-                    foxtra = kiloes.bind(sizing)(output, foxtra);
-                    report['sinkWantAsInt'] = foxtra;
-                    foxtra = {};
-                    kiloes = offset.codecPayloadType;
-                    foxtra['id'] = kiloes;
-                    kiloes = offset.codecName;
-                    foxtra['name'] = kiloes;
-                    report['codec'] = foxtra;
-                    foxtra = offset.bytesReceived;
-                    report['bytesReceived'] = foxtra;
-                    foxtra = offset.packetsReceived;
-                    report['packetsReceived'] = foxtra;
-                    foxtra = offset.packetsLost;
-                    report['packetsLost'] = foxtra;
-                    foxtra = offset.fractionLost;
-                    kiloes = 100;
-                    foxtra = kiloes * foxtra;
-                    report['fractionLost'] = foxtra;
-                    foxtra = offset.fecPacketsReceived;
-                    report['fecPacketsReceived'] = foxtra;
-                    foxtra = offset.fecPacketsDiscarded;
-                    report['fecPacketsDiscarded'] = foxtra;
-                    sizing = _closure1_slot2;
-                    foxtra = offset.audioLevel;
-                    foxtra = sizing.bind(backup)(foxtra);
-                    report['audioLevel'] = foxtra;
-                    foxtra = offset.speaking;
-                    report['audioDetected'] = foxtra;
-                    foxtra = offset.currentSampleRate;
-                    report['currentSampleRate'] = foxtra;
-                    foxtra = offset.jitter;
-                    report['jitter'] = foxtra;
-                    foxtra = offset.jitterBuffer;
-                    report['jitterBuffer'] = foxtra;
-                    foxtra = offset.jitterBufferPreferred;
-                    report['jitterBufferPreferred'] = foxtra;
-                    foxtra = offset.decodingCNG;
-                    report['decodingCNG'] = foxtra;
-                    foxtra = offset.decodingMutedOutput;
-                    report['decodingMutedOutput'] = foxtra;
-                    foxtra = offset.decodingNormal;
-                    report['decodingNormal'] = foxtra;
-                    foxtra = offset.decodingPLC;
-                    report['decodingPLC'] = foxtra;
-                    foxtra = offset.decodingPLCCNG;
-                    report['decodingPLCCNG'] = foxtra;
-                    foxtra = offset.nackCount;
-                    report['nackCount'] = foxtra;
-                    foxtra = offset.accelerateRate;
-                    foxtra = kiloes * foxtra;
-                    report['accelerateRate'] = foxtra;
-                    foxtra = offset.expandRate;
-                    foxtra = kiloes * foxtra;
-                    report['expandRate'] = foxtra;
-                    foxtra = offset.preemptiveExpandRate;
-                    foxtra = kiloes * foxtra;
-                    report['preemptiveExpandRate'] = foxtra;
-                    foxtra = offset.speechExpandRate;
-                    foxtra = kiloes * foxtra;
-                    report['speechExpandRate'] = foxtra;
-                    foxtra = offset.secondaryDecodedRate;
-                    foxtra = kiloes * foxtra;
-                    report['secondaryDecodedRate'] = foxtra;
-                    foxtra = offset.opSilence;
-                    report['opSilence'] = foxtra;
-                    foxtra = offset.opNormal;
-                    report['opNormal'] = foxtra;
-                    foxtra = offset.opMerge;
-                    report['opMerge'] = foxtra;
-                    foxtra = offset.opExpand;
-                    report['opExpand'] = foxtra;
-                    foxtra = offset.opAccelerate;
-                    report['opAccelerate'] = foxtra;
-                    foxtra = offset.opPreemptiveExpand;
-                    report['opPreemptiveExpand'] = foxtra;
-                    foxtra = offset.opCNG;
-                    report['opCNG'] = foxtra;
-                    foxtra = offset.delayEstimate;
-                    report['delayEstimate'] = foxtra;
-                    foxtra = offset.passthroughCount;
-                    report['passthroughCount'] = foxtra;
-                    foxtra = offset.decryptSuccessCount;
-                    report['decryptSuccessCount'] = foxtra;
-                    foxtra = offset.decryptFailureCount;
-                    report['decryptFailureCount'] = foxtra;
-                    foxtra = offset.decryptDuration;
-                    report['decryptDuration'] = foxtra;
-                    foxtra = offset.decryptAttempts;
-                    report['decryptAttempts'] = foxtra;
-                    foxtra = offset.decryptMissingKeyCount;
-                    report['decryptMissingKeyCount'] = foxtra;
-                    offset = offset.decryptInvalidNonceCount;
-                    report['decryptInvalidNonceCount'] = offset;
-                    if(!(option == romeon)) { _fun00018_ip = 708; continue _fun00017 }
+                    var5 = var10.bytesReceived;
+                    var5 = var7 + var5;
+                    _closure2_slot2 = var5;
+                    var5 = _closure2_slot5;
+                    var9 = var5[var4];
+                    var7 = var9.push;
+                    var5 = {};
+                    var11 = 'audio';
+                    var5['type'] = var11;
+                    var11 = var10.ssrc;
+                    var5['ssrc'] = var11;
+                    var15 = _closure1_slot0;
+                    var13 = _closure1_slot1;
+                    var17 = var13[var16];
+                    var14 = undefined;
+                    var21 = var15.bind(var14)(var17);
+                    var20 = var21.formatSinkWantStat;
+                    var17 = _closure2_slot0;
+                    var19 = var10.ssrc;
+                    var18 = false;
+                    var18 = var20.bind(var21)(var17, var19, var18);
+                    var5['sinkWant'] = var18;
+                    var13 = var13[var16];
+                    var16 = var15.bind(var14)(var13);
+                    var15 = var16.formatSinkWantAsInt;
+                    var13 = var10.ssrc;
+                    var13 = var15.bind(var16)(var17, var13);
+                    var5['sinkWantAsInt'] = var13;
+                    var13 = {};
+                    var15 = var10.codecPayloadType;
+                    var13['id'] = var15;
+                    var15 = var10.codecName;
+                    var13['name'] = var15;
+                    var5['codec'] = var13;
+                    var13 = var10.bytesReceived;
+                    var5['bytesReceived'] = var13;
+                    var13 = var10.packetsReceived;
+                    var5['packetsReceived'] = var13;
+                    var13 = var10.packetsLost;
+                    var5['packetsLost'] = var13;
+                    var13 = var10.fractionLost;
+                    var15 = 100;
+                    var13 = var15 * var13;
+                    var5['fractionLost'] = var13;
+                    var13 = var10.fecPacketsReceived;
+                    var5['fecPacketsReceived'] = var13;
+                    var13 = var10.fecPacketsDiscarded;
+                    var5['fecPacketsDiscarded'] = var13;
+                    var16 = _closure1_slot2;
+                    var13 = var10.audioLevel;
+                    var13 = var16.bind(var14)(var13);
+                    var5['audioLevel'] = var13;
+                    var13 = var10.speaking;
+                    var5['audioDetected'] = var13;
+                    var13 = var10.currentSampleRate;
+                    var5['currentSampleRate'] = var13;
+                    var13 = var10.jitter;
+                    var5['jitter'] = var13;
+                    var13 = var10.jitterBuffer;
+                    var5['jitterBuffer'] = var13;
+                    var13 = var10.jitterBufferPreferred;
+                    var5['jitterBufferPreferred'] = var13;
+                    var13 = var10.decodingCNG;
+                    var5['decodingCNG'] = var13;
+                    var13 = var10.decodingMutedOutput;
+                    var5['decodingMutedOutput'] = var13;
+                    var13 = var10.decodingNormal;
+                    var5['decodingNormal'] = var13;
+                    var13 = var10.decodingPLC;
+                    var5['decodingPLC'] = var13;
+                    var13 = var10.decodingPLCCNG;
+                    var5['decodingPLCCNG'] = var13;
+                    var13 = var10.nackCount;
+                    var5['nackCount'] = var13;
+                    var13 = var10.accelerateRate;
+                    var13 = var15 * var13;
+                    var5['accelerateRate'] = var13;
+                    var13 = var10.expandRate;
+                    var13 = var15 * var13;
+                    var5['expandRate'] = var13;
+                    var13 = var10.preemptiveExpandRate;
+                    var13 = var15 * var13;
+                    var5['preemptiveExpandRate'] = var13;
+                    var13 = var10.speechExpandRate;
+                    var13 = var15 * var13;
+                    var5['speechExpandRate'] = var13;
+                    var13 = var10.secondaryDecodedRate;
+                    var13 = var15 * var13;
+                    var5['secondaryDecodedRate'] = var13;
+                    var13 = var10.opSilence;
+                    var5['opSilence'] = var13;
+                    var13 = var10.opNormal;
+                    var5['opNormal'] = var13;
+                    var13 = var10.opMerge;
+                    var5['opMerge'] = var13;
+                    var13 = var10.opExpand;
+                    var5['opExpand'] = var13;
+                    var13 = var10.opAccelerate;
+                    var5['opAccelerate'] = var13;
+                    var13 = var10.opPreemptiveExpand;
+                    var5['opPreemptiveExpand'] = var13;
+                    var13 = var10.opCNG;
+                    var5['opCNG'] = var13;
+                    var13 = var10.delayEstimate;
+                    var5['delayEstimate'] = var13;
+                    var13 = var10.passthroughCount;
+                    var5['passthroughCount'] = var13;
+                    var13 = var10.decryptSuccessCount;
+                    var5['decryptSuccessCount'] = var13;
+                    var13 = var10.decryptFailureCount;
+                    var5['decryptFailureCount'] = var13;
+                    var13 = var10.decryptDuration;
+                    var5['decryptDuration'] = var13;
+                    var13 = var10.decryptAttempts;
+                    var5['decryptAttempts'] = var13;
+                    var13 = var10.decryptMissingKeyCount;
+                    var5['decryptMissingKeyCount'] = var13;
+                    var10 = var10.decryptInvalidNonceCount;
+                    var5['decryptInvalidNonceCount'] = var10;
+                    if(!(var8 == var12)) { _fun0009_ip = 708; continue _fun0009 }
  704:
-                    offset = {};
-                    _fun00018_ip = 785; continue _fun00017;
+                    var10 = {};
+                    _fun0009_ip = 785; continue _fun0009;
  708:
-                    foxtra = _closure1_slot5;
-                    yankee = {};
-                    kiloes = romeon.audioJitterBuffer;
-                    yankee['audioJitterBuffer'] = kiloes;
-                    kiloes = romeon.audioJitterDelay;
-                    yankee['audioJitterDelay'] = kiloes;
-                    kiloes = romeon.audioJitterTarget;
-                    yankee['audioJitterTarget'] = kiloes;
-                    kiloes = romeon.audioPlayoutUnderruns;
-                    yankee['audioPlayoutUnderruns'] = kiloes;
-                    kiloes = romeon.relativeReceptionDelay;
-                    yankee['relativeReceptionDelay'] = kiloes;
-                    kiloes = romeon.relativePlayoutDelay;
-                    yankee['relativePlayoutDelay'] = kiloes;
-                    offset = foxtra.bind(backup)(yankee);
+                    var13 = _closure1_slot5;
+                    var11 = {};
+                    var15 = var12.audioJitterBuffer;
+                    var11['audioJitterBuffer'] = var15;
+                    var15 = var12.audioJitterDelay;
+                    var11['audioJitterDelay'] = var15;
+                    var15 = var12.audioJitterTarget;
+                    var11['audioJitterTarget'] = var15;
+                    var15 = var12.audioPlayoutUnderruns;
+                    var11['audioPlayoutUnderruns'] = var15;
+                    var15 = var12.relativeReceptionDelay;
+                    var11['relativeReceptionDelay'] = var15;
+                    var15 = var12.relativePlayoutDelay;
+                    var11['relativePlayoutDelay'] = var15;
+                    var10 = var13.bind(var14)(var11);
  785:
-                    config = report;
-                    sequen = offset;
-                    offset = copyDataProperties(config, sequen);
-                    report = golfie.bind(verify)(report);
+                    var25 = var5;
+                    var24 = var10;
+                    var10 = copyDataProperties(var25, var24);
+                    var5 = var7.bind(var9)(var5);
  800:
-                    if(!(option == zuuluu)) { _fun00018_ip = 901; continue _fun00017 }
+                    if(!(var8 == var3)) { _fun0009_ip = 901; continue _fun0009 }
  804:
-                    if(!(option != oscard)) { _fun00018_ip = 916; continue _fun00017 }
+                    if(!(var8 != var6)) { _fun0009_ip = 916; continue _fun0009 }
  808:
-                    yankee = _closure1_slot7;
-                    sequen = _closure2_slot0;
-                    vacuum = _closure2_slot1;
-                    verify = undefined;
-                    record = undefined;
-                    config = oscard;
-                    ctrled = romeon;
-                    report = record[yankee](config, sequen, vacuum, ctrled, source);
-                    if(!(option != report)) { _fun00018_ip = 916; continue _fun00017 }
+                    var11 = _closure1_slot7;
+                    var24 = _closure2_slot0;
+                    var23 = _closure2_slot1;
+                    var9 = undefined;
+                    var26 = undefined;
+                    var25 = var6;
+                    var22 = var12;
+                    var5 = var26[var11](var25, var24, var23, var22, var21);
+                    if(!(var8 != var5)) { _fun0009_ip = 916; continue _fun0009 }
  841:
-                    golfie = _closure1_slot3;
-                    oscard = oscard.rtpStats;
-                    golfie = golfie.bind(verify)(oscard);
-                    oscard = _closure2_slot2;
-                    option = option != oscard;
-                    oscard = 0;
-                    if(!option) { _fun00018_ip = 873; continue _fun00017 }
+                    var7 = _closure1_slot3;
+                    var6 = var6.rtpStats;
+                    var7 = var7.bind(var9)(var6);
+                    var6 = _closure2_slot2;
+                    var8 = var8 != var6;
+                    var6 = 0;
+                    if(!var8) { _fun0009_ip = 873; continue _fun0009 }
  869:
-                    oscard = _closure2_slot2;
+                    var6 = _closure2_slot2;
  873:
-                    oscard = oscard + golfie;
-                    _closure2_slot2 = oscard;
-                    michal = _closure2_slot5;
-                    tangon = michal[tangon];
-                    michal = tangon.push;
-                    michal = michal.bind(tangon)(report);
-                    _fun00018_ip = 916; continue _fun00017;
+                    var6 = var6 + var7;
+                    _closure2_slot2 = var6;
+                    var2 = _closure2_slot5;
+                    var4 = var2[var4];
+                    var2 = var4.push;
+                    var2 = var2.bind(var4)(var5);
+                    _fun0009_ip = 916; continue _fun0009;
  901:
-                    michal = zuuluu.forEach;
-                    entity = function(argFoo) {
-                        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+                    var2 = var3.forEach;
+                    var1 = function(arg1) {
+                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                            report = argFoo;
-                            verify = _closure1_slot7;
-                            romeon = _closure2_slot0;
-                            yankee = _closure2_slot1;
-                            offset = _closure3_slot1;
-                            entity = undefined;
-                            backup = undefined;
-                            foxtra = report;
-                            tangon = backup[verify](foxtra, romeon, yankee, offset, verify);
-                            golfie = null;
-                            if(!(golfie != tangon)) { _fun00020_ip = 107; continue _fun00019 }
+                            var5 = arg1;
+                            var9 = _closure1_slot7;
+                            var12 = _closure2_slot0;
+                            var11 = _closure2_slot1;
+                            var10 = _closure3_slot1;
+                            var1 = undefined;
+                            var14 = undefined;
+                            var13 = var5;
+                            var4 = var14[var9](var13, var12, var11, var10, var9);
+                            var7 = null;
+                            if(!(var7 != var4)) { _fun0010_ip = 107; continue _fun0010 }
  45:
-                            oscard = _closure1_slot3;
-                            report = report.rtpStats;
-                            oscard = oscard.bind(entity)(report);
-                            report = _closure2_slot2;
-                            golfie = golfie != report;
-                            report = 0;
-                            if(!golfie) { _fun00020_ip = 77; continue _fun00019 }
+                            var6 = _closure1_slot3;
+                            var5 = var5.rtpStats;
+                            var6 = var6.bind(var1)(var5);
+                            var5 = _closure2_slot2;
+                            var7 = var7 != var5;
+                            var5 = 0;
+                            if(!var7) { _fun0010_ip = 77; continue _fun0010 }
  73:
-                            report = _closure2_slot2;
+                            var5 = _closure2_slot2;
  77:
-                            report = report + oscard;
-                            _closure2_slot2 = report;
-                            zuuluu = _closure2_slot5;
-                            michal = _closure3_slot0;
-                            zuuluu = zuuluu[michal];
-                            michal = zuuluu.push;
-                            michal = michal.bind(zuuluu)(tangon);
+                            var5 = var5 + var6;
+                            _closure2_slot2 = var5;
+                            var3 = _closure2_slot5;
+                            var2 = _closure3_slot0;
+                            var3 = var3[var2];
+                            var2 = var3.push;
+                            var2 = var2.bind(var3)(var4);
  107:
-                            return entity;
+                            return var1;
                         }
                     };
-                    entity = michal.bind(zuuluu)(entity);
+                    var1 = var2.bind(var3)(var1);
  916:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = report.bind(golfie)(michal);
+            var2 = var5.bind(var7)(var2);
  695:
-            offset = entity.transport;
-            report = entity.clips;
-            verify = {};
-            if(!(oscard != offset)) { _fun00014_ip = 916; continue _fun00013 }
+            var10 = var1.transport;
+            var5 = var1.clips;
+            var9 = {};
+            if(!(var6 != var10)) { _fun0007_ip = 916; continue _fun0007 }
  716:
-            michal = offset.sendBandwidth;
-            verify['availableOutgoingBitrate'] = michal;
-            michal = offset.rtt;
-            verify['ping'] = michal;
-            michal = offset.decryptionFailures;
-            verify['decryptionFailures'] = michal;
-            michal = offset.routingFailures;
-            if(!(oscard != michal)) { _fun00014_ip = 776; continue _fun00013 }
+            var2 = var10.sendBandwidth;
+            var9['availableOutgoingBitrate'] = var2;
+            var2 = var10.rtt;
+            var9['ping'] = var2;
+            var2 = var10.decryptionFailures;
+            var9['decryptionFailures'] = var2;
+            var2 = var10.routingFailures;
+            if(!(var6 != var2)) { _fun0007_ip = 776; continue _fun0007 }
  764:
-            michal = offset.routingFailures;
-            verify['routingFailures'] = michal;
+            var2 = var10.routingFailures;
+            var9['routingFailures'] = var2;
  776:
-            michal = offset.localAddress;
-            verify['localAddress'] = michal;
-            michal = offset.pacerDelay;
-            verify['pacerDelay'] = michal;
-            michal = offset.receiverReports;
-            if(!(oscard != michal)) { _fun00014_ip = 822; continue _fun00013 }
+            var2 = var10.localAddress;
+            var9['localAddress'] = var2;
+            var2 = var10.pacerDelay;
+            var9['pacerDelay'] = var2;
+            var2 = var10.receiverReports;
+            if(!(var6 != var2)) { _fun0007_ip = 822; continue _fun0007 }
  810:
-            michal = offset.receiverReports;
-            verify['receiverReports'] = michal;
+            var2 = var10.receiverReports;
+            var9['receiverReports'] = var2;
  822:
-            michal = offset.receiverBitrateEstimate;
-            verify['receiverBitrateEstimate'] = michal;
-            michal = offset.outboundBitrateEstimate;
-            verify['outboundBitrateEstimate'] = michal;
-            golfie = offset.inboundBitrateEstimate;
-            yankee = oscard != golfie;
-            michal = 0;
-            if(!yankee) { _fun00014_ip = 864; continue _fun00013 }
+            var2 = var10.receiverBitrateEstimate;
+            var9['receiverBitrateEstimate'] = var2;
+            var2 = var10.outboundBitrateEstimate;
+            var9['outboundBitrateEstimate'] = var2;
+            var7 = var10.inboundBitrateEstimate;
+            var11 = var6 != var7;
+            var2 = 0;
+            if(!var11) { _fun0007_ip = 864; continue _fun0007 }
  861:
-            michal = golfie;
+            var2 = var7;
  864:
-            verify['inboundBitrateEstimate'] = michal;
-            michal = offset.packetsReceived;
-            verify['packetsReceived'] = michal;
-            michal = offset.packetsSent;
-            verify['packetsSent'] = michal;
-            michal = offset.secureFramesProtocolVersion;
-            if(!(oscard != michal)) { _fun00014_ip = 916; continue _fun00013 }
+            var9['inboundBitrateEstimate'] = var2;
+            var2 = var10.packetsReceived;
+            var9['packetsReceived'] = var2;
+            var2 = var10.packetsSent;
+            var9['packetsSent'] = var2;
+            var2 = var10.secureFramesProtocolVersion;
+            if(!(var6 != var2)) { _fun0007_ip = 916; continue _fun0007 }
  904:
-            michal = offset.secureFramesProtocolVersion;
-            verify['secureFramesProtocolVersion'] = michal;
+            var2 = var10.secureFramesProtocolVersion;
+            var9['secureFramesProtocolVersion'] = var2;
  916:
-            yankee = oscard == offset;
-            golfie = undefined;
-            if(yankee) { _fun00014_ip = 931; continue _fun00013 }
+            var11 = var6 == var10;
+            var7 = undefined;
+            if(var11) { _fun0007_ip = 931; continue _fun0007 }
  925:
-            golfie = offset.bytesReceived;
+            var7 = var10.bytesReceived;
  931:
-            golfie = oscard != golfie;
-            if(golfie) { _fun00014_ip = 978; continue _fun00013 }
+            var7 = var6 != var7;
+            if(var7) { _fun0007_ip = 978; continue _fun0007 }
  938:
-            yankee = _closure2_slot2;
-            yankee = oscard != yankee;
-            if(!yankee) { _fun00014_ip = 975; continue _fun00013 }
+            var11 = _closure2_slot2;
+            var11 = var6 != var11;
+            if(!var11) { _fun0007_ip = 975; continue _fun0007 }
  949:
-            romeon = global;
-            backup = romeon.Number;
-            foxtra = backup.isNaN;
-            romeon = _closure2_slot2;
-            romeon = foxtra.bind(backup)(romeon);
-            yankee = !romeon;
+            var12 = global;
+            var14 = var12.Number;
+            var13 = var14.isNaN;
+            var12 = _closure2_slot2;
+            var12 = var13.bind(var14)(var12);
+            var11 = !var12;
  975:
-            golfie = yankee;
+            var7 = var11;
  978:
-            if(!golfie) { _fun00014_ip = 1022; continue _fun00013 }
+            if(!var7) { _fun0007_ip = 1022; continue _fun0007 }
  981:
-            golfie = oscard == offset;
-            yankee = undefined;
-            if(golfie) { _fun00014_ip = 996; continue _fun00013 }
+            var7 = var6 == var10;
+            var11 = undefined;
+            if(var7) { _fun0007_ip = 996; continue _fun0007 }
  990:
-            yankee = offset.bytesReceived;
+            var11 = var10.bytesReceived;
  996:
-            if(!(oscard == yankee)) { _fun00014_ip = 1004; continue _fun00013 }
+            if(!(var6 == var11)) { _fun0007_ip = 1004; continue _fun0007 }
  1000:
-            yankee = _closure2_slot2;
+            var11 = _closure2_slot2;
  1004:
-            romeon = oscard != yankee;
-            golfie = undefined;
-            if(!romeon) { _fun00014_ip = 1016; continue _fun00013 }
+            var12 = var6 != var11;
+            var7 = undefined;
+            if(!var12) { _fun0007_ip = 1016; continue _fun0007 }
  1013:
-            golfie = yankee;
+            var7 = var11;
  1016:
-            verify['bytesReceived'] = golfie;
+            var9['bytesReceived'] = var7;
  1022:
-            yankee = oscard == offset;
-            golfie = undefined;
-            if(yankee) { _fun00014_ip = 1037; continue _fun00013 }
+            var11 = var6 == var10;
+            var7 = undefined;
+            if(var11) { _fun0007_ip = 1037; continue _fun0007 }
  1031:
-            golfie = offset.bytesSent;
+            var7 = var10.bytesSent;
  1037:
-            golfie = oscard != golfie;
-            if(golfie) { _fun00014_ip = 1084; continue _fun00013 }
+            var7 = var6 != var7;
+            if(var7) { _fun0007_ip = 1084; continue _fun0007 }
  1044:
-            yankee = _closure2_slot3;
-            yankee = oscard != yankee;
-            if(!yankee) { _fun00014_ip = 1081; continue _fun00013 }
+            var11 = _closure2_slot3;
+            var11 = var6 != var11;
+            if(!var11) { _fun0007_ip = 1081; continue _fun0007 }
  1055:
-            romeon = global;
-            backup = romeon.Number;
-            foxtra = backup.isNaN;
-            romeon = _closure2_slot3;
-            romeon = foxtra.bind(backup)(romeon);
-            yankee = !romeon;
+            var12 = global;
+            var14 = var12.Number;
+            var13 = var14.isNaN;
+            var12 = _closure2_slot3;
+            var12 = var13.bind(var14)(var12);
+            var11 = !var12;
  1081:
-            golfie = yankee;
+            var7 = var11;
  1084:
-            if(!golfie) { _fun00014_ip = 1128; continue _fun00013 }
+            if(!var7) { _fun0007_ip = 1128; continue _fun0007 }
  1087:
-            yankee = oscard == offset;
-            golfie = undefined;
-            if(yankee) { _fun00014_ip = 1102; continue _fun00013 }
+            var11 = var6 == var10;
+            var7 = undefined;
+            if(var11) { _fun0007_ip = 1102; continue _fun0007 }
  1096:
-            golfie = offset.bytesSent;
+            var7 = var10.bytesSent;
  1102:
-            if(!(oscard == golfie)) { _fun00014_ip = 1110; continue _fun00013 }
+            if(!(var6 == var7)) { _fun0007_ip = 1110; continue _fun0007 }
  1106:
-            golfie = _closure2_slot3;
+            var7 = _closure2_slot3;
  1110:
-            option = oscard != golfie;
-            michal = undefined;
-            if(!option) { _fun00014_ip = 1122; continue _fun00013 }
+            var8 = var6 != var7;
+            var2 = undefined;
+            if(!var8) { _fun0007_ip = 1122; continue _fun0007 }
  1119:
-            michal = golfie;
+            var2 = var7;
  1122:
-            verify['bytesSent'] = michal;
+            var9['bytesSent'] = var2;
  1128:
-            golfie = entity.screenshare;
-            option = entity.camera;
-            michal = entity.audioDevice;
-            entity = {};
-            offset = argFoo;
-            entity['mediaEngineConnectionId'] = offset;
-            entity['transport'] = verify;
-            entity['screenshare'] = golfie;
-            golfie = oscard != option;
-            oscard = null;
-            if(!golfie) { _fun00014_ip = 1224; continue _fun00013 }
+            var7 = var1.screenshare;
+            var8 = var1.camera;
+            var2 = var1.audioDevice;
+            var1 = {};
+            var10 = arg1;
+            var1['mediaEngineConnectionId'] = var10;
+            var1['transport'] = var9;
+            var1['screenshare'] = var7;
+            var7 = var6 != var8;
+            var6 = null;
+            if(!var7) { _fun0007_ip = 1224; continue _fun0007 }
  1175:
-            golfie = {};
-            verify = option.capturedFramesDropped;
-            golfie['capturedFramesDropped'] = verify;
-            verify = option.capturedFramesCount;
-            golfie['capturedFramesCount'] = verify;
-            verify = option.capturedFramesMean;
-            golfie['capturedFramesMean'] = verify;
-            option = option.capturedFramesStdev;
-            golfie['capturedFramesStdev'] = option;
-            oscard = golfie;
+            var7 = {};
+            var9 = var8.capturedFramesDropped;
+            var7['capturedFramesDropped'] = var9;
+            var9 = var8.capturedFramesCount;
+            var7['capturedFramesCount'] = var9;
+            var9 = var8.capturedFramesMean;
+            var7['capturedFramesMean'] = var9;
+            var8 = var8.capturedFramesStdev;
+            var7['capturedFramesStdev'] = var8;
+            var6 = var7;
  1224:
-            entity['camera'] = oscard;
-            entity['clips'] = report;
-            entity['audioDevice'] = michal;
-            michal = {};
-            michal['inbound'] = tangon;
-            michal['outbound'] = zuuluu;
-            entity['rtp'] = michal;
-            return entity;
+            var1['camera'] = var6;
+            var1['clips'] = var5;
+            var1['audioDevice'] = var2;
+            var2 = {};
+            var2['inbound'] = var4;
+            var2['outbound'] = var3;
+            var1['rtp'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

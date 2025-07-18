@@ -1,561 +1,561 @@
 // app/stores/views/GIFPickerViewStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot30 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot30 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot30 = entity;
-    entity = function() { // Original name: _getSelectedFormat
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot30 = var1;
+    var1 = function _getSelectedFormat() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 6;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.getCurrentConfig;
-            zuuluu = {};
-            entity = 'GIFPickerViewStore';
-            zuuluu['location'] = entity;
-            entity = {};
-            oscard = true;
-            entity['autoTrackExposure'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
-            entity = entity.optimizationsEnabled;
-            if(entity) { _fun00004_ip = 73; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var3 = var3[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.getCurrentConfig;
+            var3 = {};
+            var1 = 'GIFPickerViewStore';
+            var3['location'] = var1;
+            var1 = {};
+            var6 = true;
+            var1['autoTrackExposure'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.optimizationsEnabled;
+            if(var1) { _fun0002_ip = 73; continue _fun0002 }
  67:
-            entity = _closure1_slot10;
-            _fun00004_ip = 77; continue _fun00003;
+            var1 = _closure1_slot10;
+            _fun0002_ip = 77; continue _fun0002;
  73:
-            entity = _closure1_slot16;
+            var1 = _closure1_slot16;
  77:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot31 = entity;
-    entity = function(argFoo) { // Original name: isVideoFormat
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot31 = var1;
+    var1 = function isVideoFormat(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot17;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var2 = arg1;
+            var3 = _closure1_slot17;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  14:
-            zuuluu = _closure1_slot18;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot18;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  22:
-            zuuluu = _closure1_slot19;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot19;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  30:
-            zuuluu = _closure1_slot20;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot20;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  38:
-            zuuluu = _closure1_slot21;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot21;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  46:
-            zuuluu = _closure1_slot22;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot22;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  54:
-            zuuluu = _closure1_slot9;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot9;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  62:
-            zuuluu = _closure1_slot11;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot11;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  70:
-            zuuluu = _closure1_slot12;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot12;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  78:
-            zuuluu = _closure1_slot13;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot13;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  86:
-            zuuluu = _closure1_slot14;
-            if(!(zuuluu !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var3 = _closure1_slot14;
+            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  94:
-            entity = _closure1_slot15;
-            if(!(entity !== michal)) { _fun00006_ip = 106; continue _fun00005 }
+            var1 = _closure1_slot15;
+            if(!(var1 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
  102:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  106:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    var _closure1_slot32 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.GIFPickerResultTypes;
-    var _closure1_slot8 = michal;
-    michal = 'mp4';
-    var _closure1_slot9 = michal;
-    michal = 'tinygif';
-    var _closure1_slot10 = michal;
-    michal = 'tinymp4';
-    var _closure1_slot11 = michal;
-    michal = 'nanomp4';
-    var _closure1_slot12 = michal;
-    michal = 'webm';
-    var _closure1_slot13 = michal;
-    michal = 'tinywebm';
-    var _closure1_slot14 = michal;
-    michal = 'nanowebm';
-    var _closure1_slot15 = michal;
-    michal = 'tinywebp';
-    var _closure1_slot16 = michal;
-    michal = 'fixed_height.mp4';
-    var _closure1_slot17 = michal;
-    michal = 'fixed_height_small.mp4';
-    var _closure1_slot18 = michal;
-    michal = 'fixed_width.mp4';
-    var _closure1_slot19 = michal;
-    michal = 'fixed_width_small.mp4';
-    var _closure1_slot20 = michal;
-    michal = 'downsized_small.mp4';
-    var _closure1_slot21 = michal;
-    michal = 'original.mp4';
-    var _closure1_slot22 = michal;
-    michal = null;
-    var _closure1_slot23 = michal;
-    michal = '';
-    var _closure1_slot24 = michal;
-    var _closure1_slot25 = michal;
-    michal = new Array(0);
-    var _closure1_slot26 = michal;
-    michal = new Array(0);
-    var _closure1_slot27 = michal;
-    michal = new Array(0);
-    var _closure1_slot28 = michal;
-    michal = new Array(0);
-    var _closure1_slot29 = michal;
-    michal = 9;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.Store;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: GIFPickerViewStore
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot32 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.GIFPickerResultTypes;
+    var _closure1_slot8 = var2;
+    var2 = 'mp4';
+    var _closure1_slot9 = var2;
+    var2 = 'tinygif';
+    var _closure1_slot10 = var2;
+    var2 = 'tinymp4';
+    var _closure1_slot11 = var2;
+    var2 = 'nanomp4';
+    var _closure1_slot12 = var2;
+    var2 = 'webm';
+    var _closure1_slot13 = var2;
+    var2 = 'tinywebm';
+    var _closure1_slot14 = var2;
+    var2 = 'nanowebm';
+    var _closure1_slot15 = var2;
+    var2 = 'tinywebp';
+    var _closure1_slot16 = var2;
+    var2 = 'fixed_height.mp4';
+    var _closure1_slot17 = var2;
+    var2 = 'fixed_height_small.mp4';
+    var _closure1_slot18 = var2;
+    var2 = 'fixed_width.mp4';
+    var _closure1_slot19 = var2;
+    var2 = 'fixed_width_small.mp4';
+    var _closure1_slot20 = var2;
+    var2 = 'downsized_small.mp4';
+    var _closure1_slot21 = var2;
+    var2 = 'original.mp4';
+    var _closure1_slot22 = var2;
+    var2 = null;
+    var _closure1_slot23 = var2;
+    var2 = '';
+    var _closure1_slot24 = var2;
+    var _closure1_slot25 = var2;
+    var2 = new Array(0);
+    var _closure1_slot26 = var2;
+    var2 = new Array(0);
+    var _closure1_slot27 = var2;
+    var2 = new Array(0);
+    var _closure1_slot28 = var2;
+    var2 = new Array(0);
+    var _closure1_slot29 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.Store;
+    var2 = function(arg1) {
+        var4 = function GIFPickerViewStore() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot3;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot6;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot5;
-                entity = _closure1_slot30;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00008_ip = 69; continue _fun00007 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot3;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot6;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot30;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0004_ip = 69; continue _fun0004 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00008_ip = 105; continue _fun00007;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0004_ip = 105; continue _fun0004;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot6;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot6;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot7;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot4;
-        report = {};
-        entity = 'getAnalyticsID';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            entity = _closure1_slot23;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot7;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot4;
+        var5 = {};
+        var1 = 'getAnalyticsID';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = _closure1_slot23;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(8);
-        entity[0] = report;
-        report = {};
-        golfie = 'getQuery';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot24;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(8);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getQuery';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot24;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getResultQuery';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot25;
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getResultQuery';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot25;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'getResultItems';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot26;
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'getResultItems';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot26;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'getTrendingCategories';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot27;
-            return entity;
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getTrendingCategories';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot27;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'getSelectedFormat';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            michal = _closure1_slot31;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'getSelectedFormat';
+        var5['key'] = var7;
+        var7 = function value() {
+            var2 = _closure1_slot31;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         };
-        report['value'] = golfie;
-        entity[5] = report;
-        report = {};
-        golfie = 'getSuggestions';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot28;
-            return entity;
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'getSuggestions';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot28;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[6] = report;
-        report = {};
-        golfie = 'getTrendingSearchTerms';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot29;
-            return entity;
+        var5['value'] = var7;
+        var1[6] = var5;
+        var5 = {};
+        var7 = 'getTrendingSearchTerms';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot29;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[7] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[7] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(option);
-    michal = 'GIFPickerViewStore';
-    option['displayName'] = michal;
-    michal = 10;
-    michal = oscard[michal];
-    romeon = golfie.bind(entity)(michal);
-    michal = {};
-    verify = function(argFoo) { // Original name: handleInitialize
-        entity = argFoo;
-        michal = entity.analyticsID;
-        _closure1_slot23 = michal;
-        entity = undefined;
-        return entity;
+    var8 = var2.bind(var1)(var8);
+    var2 = 'GIFPickerViewStore';
+    var8['displayName'] = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var12 = var7.bind(var1)(var2);
+    var2 = {};
+    var9 = function handleInitialize(arg1) {
+        var1 = arg1;
+        var2 = var1.analyticsID;
+        _closure1_slot23 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['GIF_PICKER_INITIALIZE'] = verify;
-    verify = function(argFoo) { // Original name: handleQuery
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var2['GIF_PICKER_INITIALIZE'] = var9;
+    var9 = function handleQuery(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.query;
-            _closure1_slot24 = zuuluu;
-            entity = '';
-            if(!(entity === zuuluu)) { _fun00010_ip = 43; continue _fun00009 }
+            var1 = arg1;
+            var3 = var1.query;
+            _closure1_slot24 = var3;
+            var1 = '';
+            if(!(var1 === var3)) { _fun0005_ip = 43; continue _fun0005 }
  23:
-            _closure1_slot25 = entity;
-            entity = new Array(0);
-            _closure1_slot26 = entity;
-            entity = new Array(0);
-            _closure1_slot28 = entity;
+            _closure1_slot25 = var1;
+            var1 = new Array(0);
+            _closure1_slot26 = var1;
+            var1 = new Array(0);
+            _closure1_slot28 = var1;
  43:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GIF_PICKER_QUERY'] = verify;
-    verify = function(argFoo) { // Original name: handleQuerySuccess
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var2['GIF_PICKER_QUERY'] = var9;
+    var9 = function handleQuerySuccess(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            michal = entity.query;
-            zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00012_ip = 29; continue _fun00011 }
+            var1 = arg1;
+            var2 = var1.query;
+            var3 = null;
+            if(!(var3 != var2)) { _fun0006_ip = 29; continue _fun0006 }
  14:
-            tangon = _closure1_slot24;
-            michal = _closure1_slot25;
-            if(!(tangon !== michal)) { _fun00012_ip = 84; continue _fun00011 }
+            var4 = _closure1_slot24;
+            var2 = _closure1_slot25;
+            if(!(var4 !== var2)) { _fun0006_ip = 84; continue _fun0006 }
  29:
-            michal = entity.query;
-            if(!(zuuluu != michal)) { _fun00012_ip = 50; continue _fun00011 }
+            var2 = var1.query;
+            if(!(var3 != var2)) { _fun0006_ip = 50; continue _fun0006 }
  38:
-            zuuluu = entity.query;
-            _closure1_slot25 = zuuluu;
+            var3 = var1.query;
+            _closure1_slot25 = var3;
  50:
-            zuuluu = entity.items;
-            michal = zuuluu.map;
-            entity = function(argFoo) {
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+            var3 = var1.items;
+            var2 = var3.map;
+            var1 = function(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    entity = argFoo;
-                    golfie = entity.width;
-                    oscard = entity.height;
-                    report = entity.src;
-                    tangon = entity.gif_src;
-                    zuuluu = entity.url;
-                    michal = entity.id;
-                    entity = {};
-                    entity['width'] = golfie;
-                    entity['height'] = oscard;
-                    entity['src'] = report;
-                    entity['gifSrc'] = tangon;
-                    entity['url'] = zuuluu;
-                    entity['id'] = michal;
-                    tangon = _closure1_slot32;
-                    michal = _closure1_slot31;
-                    report = undefined;
-                    michal = michal.bind(report)();
-                    michal = tangon.bind(report)(michal);
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    zuuluu = 7;
-                    zuuluu = oscard[zuuluu];
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    zuuluu = zuuluu.GIFType;
-                    if(michal) { _fun00014_ip = 126; continue _fun00013 }
+                    var1 = arg1;
+                    var7 = var1.width;
+                    var6 = var1.height;
+                    var5 = var1.src;
+                    var4 = var1.gif_src;
+                    var3 = var1.url;
+                    var2 = var1.id;
+                    var1 = {};
+                    var1['width'] = var7;
+                    var1['height'] = var6;
+                    var1['src'] = var5;
+                    var1['gifSrc'] = var4;
+                    var1['url'] = var3;
+                    var1['id'] = var2;
+                    var4 = _closure1_slot32;
+                    var2 = _closure1_slot31;
+                    var5 = undefined;
+                    var2 = var2.bind(var5)();
+                    var2 = var4.bind(var5)(var2);
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 7;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var3 = var3.GIFType;
+                    if(var2) { _fun0007_ip = 126; continue _fun0007 }
  118:
-                    michal = zuuluu.IMAGE;
-                    _fun00014_ip = 132; continue _fun00013;
+                    var2 = var3.IMAGE;
+                    _fun0007_ip = 132; continue _fun0007;
  126:
-                    michal = zuuluu.VIDEO;
+                    var2 = var3.VIDEO;
  132:
-                    entity['format'] = michal;
-                    return entity;
+                    var1['format'] = var2;
+                    return var1;
                 }
             };
-            michal = michal.bind(zuuluu)(entity);
-            _closure1_slot26 = michal;
-            entity = undefined;
-            return entity;
+            var2 = var2.bind(var3)(var1);
+            _closure1_slot26 = var2;
+            var1 = undefined;
+            return var1;
  84:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['GIF_PICKER_QUERY_SUCCESS'] = verify;
-    verify = function(argFoo) { // Original name: handleQueryFailure
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var2['GIF_PICKER_QUERY_SUCCESS'] = var9;
+    var9 = function handleQueryFailure(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            entity = argFoo;
-            entity = entity.query;
-            michal = null;
-            if(!(michal != entity)) { _fun00016_ip = 33; continue _fun00015 }
+            var1 = arg1;
+            var1 = var1.query;
+            var2 = null;
+            if(!(var2 != var1)) { _fun0008_ip = 33; continue _fun0008 }
  14:
-            _closure1_slot25 = entity;
-            entity = new Array(0);
-            _closure1_slot26 = entity;
-            entity = undefined;
-            return entity;
+            _closure1_slot25 = var1;
+            var1 = new Array(0);
+            _closure1_slot26 = var1;
+            var1 = undefined;
+            return var1;
  33:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['GIF_PICKER_QUERY_FAILURE'] = verify;
-    verify = function(argFoo) { // Original name: handleTrendingFetchSuccess
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var2['GIF_PICKER_QUERY_FAILURE'] = var9;
+    var9 = function handleTrendingFetchSuccess(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            entity = argFoo;
-            report = entity.trendingCategories;
-            zuuluu = entity.trendingGIFPreview;
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00018_ip = 30; continue _fun00017 }
+            var1 = arg1;
+            var5 = var1.trendingCategories;
+            var3 = var1.trendingGIFPreview;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0009_ip = 30; continue _fun0009 }
  21:
-            zuuluu = new Array(0);
-            _fun00018_ip = 168; continue _fun00017;
+            var3 = new Array(0);
+            _fun0009_ip = 168; continue _fun0009;
  30:
-            michal = {};
-            oscard = _closure1_slot8;
-            oscard = oscard.TRENDING_GIFS;
-            michal['type'] = oscard;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            option = 8;
-            verify = golfie[option];
-            tangon = undefined;
-            verify = oscard.bind(tangon)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = golfie[option];
-            option = oscard.bind(tangon)(option);
-            option = option.t;
-            option = option.H6zNFx;
-            option = verify.bind(offset)(option);
-            michal['name'] = option;
-            entity = entity.trendingGIFPreview;
-            entity = entity.src;
-            michal['src'] = entity;
-            entity = 7;
-            entity = golfie[entity];
-            entity = oscard.bind(tangon)(entity);
-            entity = entity.GIFType;
-            entity = entity.IMAGE;
-            michal['format'] = entity;
-            entity = new Array(1);
-            entity[0] = michal;
-            zuuluu = entity;
+            var2 = {};
+            var6 = _closure1_slot8;
+            var6 = var6.TRENDING_GIFS;
+            var2['type'] = var6;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var8 = 8;
+            var9 = var7[var8];
+            var4 = undefined;
+            var9 = var6.bind(var4)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var7[var8];
+            var8 = var6.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.H6zNFx;
+            var8 = var9.bind(var10)(var8);
+            var2['name'] = var8;
+            var1 = var1.trendingGIFPreview;
+            var1 = var1.src;
+            var2['src'] = var1;
+            var1 = 7;
+            var1 = var7[var1];
+            var1 = var6.bind(var4)(var1);
+            var1 = var1.GIFType;
+            var1 = var1.IMAGE;
+            var2['format'] = var1;
+            var1 = new Array(1);
+            var1[0] = var2;
+            var3 = var1;
  168:
-            michal = new Array(0);
-            yankee = 0;
-            foxtra = michal;
-            romeon = zuuluu;
-            yankee = arraySpread(foxtra, romeon, yankee);
-            tangon = report.map;
-            entity = function(argFoo) {
-                michal = argFoo;
-                entity = {};
-                oscard = entity;
-                report = michal;
-                zuuluu = copyDataProperties(oscard, report);
-                zuuluu = michal.src;
-                michal = 'src';
-                entity[michal] = zuuluu;
-                zuuluu = _closure1_slot8;
-                tangon = zuuluu.TRENDING_CATEGORY;
-                zuuluu = 'type';
-                entity[zuuluu] = tangon;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 7;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
-                michal = michal.GIFType;
-                zuuluu = michal.VIDEO;
-                michal = 'format';
-                entity[michal] = zuuluu;
-                return entity;
+            var2 = new Array(0);
+            var11 = 0;
+            var13 = var2;
+            var12 = var3;
+            var11 = arraySpread(var13, var12, var11);
+            var4 = var5.map;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var6 = var1;
+                var5 = var2;
+                var3 = copyDataProperties(var6, var5);
+                var3 = var2.src;
+                var2 = 'src';
+                var1[var2] = var3;
+                var3 = _closure1_slot8;
+                var4 = var3.TRENDING_CATEGORY;
+                var3 = 'type';
+                var1[var3] = var4;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 7;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
+                var2 = var2.GIFType;
+                var3 = var2.VIDEO;
+                var2 = 'format';
+                var1[var2] = var3;
+                return var1;
             };
-            romeon = tangon.bind(report)(entity);
-            foxtra = michal;
-            entity = arraySpread(foxtra, romeon, yankee);
-            _closure1_slot27 = michal;
-            entity = undefined;
-            return entity;
+            var12 = var4.bind(var5)(var1);
+            var13 = var2;
+            var1 = arraySpread(var13, var12, var11);
+            _closure1_slot27 = var2;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GIF_PICKER_TRENDING_FETCH_SUCCESS'] = verify;
-    verify = function(argFoo) { // Original name: handleSuggestionsSuccess
-        entity = argFoo;
-        michal = entity.items;
-        _closure1_slot28 = michal;
-        entity = undefined;
-        return entity;
+    var2['GIF_PICKER_TRENDING_FETCH_SUCCESS'] = var9;
+    var9 = function handleSuggestionsSuccess(arg1) {
+        var1 = arg1;
+        var2 = var1.items;
+        _closure1_slot28 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['GIF_PICKER_SUGGESTIONS_SUCCESS'] = verify;
-    tangon = function(argFoo) { // Original name: handleTrendingSearchSuccess
-        entity = argFoo;
-        michal = entity.items;
-        _closure1_slot29 = michal;
-        entity = undefined;
-        return entity;
+    var2['GIF_PICKER_SUGGESTIONS_SUCCESS'] = var9;
+    var4 = function handleTrendingSearchSuccess(arg1) {
+        var1 = arg1;
+        var2 = var1.items;
+        _closure1_slot29 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['GIF_PICKER_TRENDING_SEARCH_TERMS_SUCCESS'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    foxtra = tangon;
-    yankee = michal;
-    michal = new foxtra[option](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'stores/views/GIFPickerViewStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['GIF_PICKER_TRENDING_SEARCH_TERMS_SUCCESS'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var8](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'stores/views/GIFPickerViewStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

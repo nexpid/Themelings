@@ -1,314 +1,314 @@
 // app/uikit-native/refresh/form/FormCTAButton.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    sizing = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = function(argFoo, argBar) { // Original name: getCTAButtonColor
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var16 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = function getCTAButtonColor(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = argBar;
-            tangon = _closure1_slot10;
-            tangon = tangon.BRAND;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 71; continue _fun00001 }
+            var3 = arg1;
+            var1 = arg2;
+            var4 = _closure1_slot10;
+            var4 = var4.BRAND;
+            if(!(var4 !== var3)) { _fun0001_ip = 71; continue _fun0001 }
  23:
-            tangon = _closure1_slot10;
-            tangon = tangon.DANGER;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 63; continue _fun00001 }
+            var4 = _closure1_slot10;
+            var4 = var4.DANGER;
+            if(!(var4 !== var3)) { _fun0001_ip = 63; continue _fun0001 }
  37:
-            michal = _closure1_slot10;
-            michal = michal.WARNING;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 55; continue _fun00001 }
+            var2 = _closure1_slot10;
+            var2 = var2.WARNING;
+            if(!(var2 !== var3)) { _fun0001_ip = 55; continue _fun0001 }
  51:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  55:
-            michal = entity.textWarning;
-            return michal;
+            var2 = var1.textWarning;
+            return var2;
  63:
-            michal = entity.textDanger;
-            return michal;
+            var2 = var1.textDanger;
+            return var2;
  71:
-            entity = entity.textBrand;
-            return entity;
+            var1 = var1.textBrand;
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    tangon = function(argFoo) { // Original name: FormCTAButton
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot11 = var1;
+    var4 = function FormCTAButton(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            report = entity.color;
-            tangon = undefined;
-            if(!(tangon === report)) { _fun00004_ip = 27; continue _fun00003 }
+            var1 = arg1;
+            var5 = var1.color;
+            var4 = undefined;
+            if(!(var4 === var5)) { _fun0002_ip = 27; continue _fun0002 }
  14:
-            michal = _closure1_slot10;
-            report = michal.BRAND;
+            var2 = _closure1_slot10;
+            var5 = var2.BRAND;
  27:
-            foxtra = entity.label;
-            michal = entity.fontSize;
-            output = 16;
-            if(!(tangon !== michal)) { _fun00004_ip = 48; continue _fun00003 }
+            var13 = var1.label;
+            var2 = var1.fontSize;
+            var17 = 16;
+            if(!(var4 !== var2)) { _fun0002_ip = 48; continue _fun0002 }
  45:
-            output = michal;
+            var17 = var2;
  48:
-            michal = entity.alignLeft;
-            kiloes = tangon !== michal;
-            if(!kiloes) { _fun00004_ip = 64; continue _fun00003 }
+            var2 = var1.alignLeft;
+            var15 = var4 !== var2;
+            if(!var15) { _fun0002_ip = 64; continue _fun0002 }
  61:
-            kiloes = michal;
+            var15 = var2;
  64:
-            michal = entity.disabled;
-            offset = tangon !== michal;
-            if(!offset) { _fun00004_ip = 79; continue _fun00003 }
+            var2 = var1.disabled;
+            var10 = var4 !== var2;
+            if(!var10) { _fun0002_ip = 79; continue _fun0002 }
  76:
-            offset = michal;
+            var10 = var2;
  79:
-            michal = entity.loading;
-            yankee = tangon !== michal;
-            if(!yankee) { _fun00004_ip = 95; continue _fun00003 }
+            var2 = var1.loading;
+            var11 = var4 !== var2;
+            if(!var11) { _fun0002_ip = 95; continue _fun0002 }
  92:
-            yankee = michal;
+            var11 = var2;
  95:
-            verify = entity.testID;
-            option = entity.style;
-            romeon = entity.onPress;
-            entity = _closure1_slot9;
-            golfie = entity.bind(tangon)();
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot0;
-            backup = _closure1_slot1;
-            entity = 8;
-            entity = backup[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.LegacyText;
-            entity = {};
-            sizing = golfie.text;
-            backup = new Array(4);
-            backup[0] = sizing;
-            sizing = _closure1_slot11;
-            sizing = sizing.bind(tangon)(report, golfie);
-            backup[1] = sizing;
-            sizing = {};
-            sizing['fontSize'] = output;
-            backup[2] = sizing;
-            if(!kiloes) { _fun00004_ip = 201; continue _fun00003 }
+            var9 = var1.testID;
+            var8 = var1.style;
+            var12 = var1.onPress;
+            var1 = _closure1_slot9;
+            var7 = var1.bind(var4)();
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var1 = 8;
+            var1 = var14[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.LegacyText;
+            var1 = {};
+            var16 = var7.text;
+            var14 = new Array(4);
+            var14[0] = var16;
+            var16 = _closure1_slot11;
+            var16 = var16.bind(var4)(var5, var7);
+            var14[1] = var16;
+            var16 = {};
+            var16['fontSize'] = var17;
+            var14[2] = var16;
+            if(!var15) { _fun0002_ip = 201; continue _fun0002 }
  195:
-            kiloes = golfie.alignLeft;
+            var15 = var7.alignLeft;
  201:
-            backup[3] = kiloes;
-            entity['style'] = backup;
-            entity['children'] = foxtra;
-            foxtra = zuuluu.bind(tangon)(michal, entity);
-            if(!yankee) { _fun00004_ip = 242; continue _fun00003 }
+            var14[3] = var15;
+            var1['style'] = var14;
+            var1['children'] = var13;
+            var13 = var3.bind(var4)(var2, var1);
+            if(!var11) { _fun0002_ip = 242; continue _fun0002 }
  222:
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot3;
-            entity = {};
-            entity['color'] = report;
-            foxtra = zuuluu.bind(tangon)(michal, entity);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var1['color'] = var5;
+            var13 = var3.bind(var4)(var2, var1);
  242:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.useContext;
-            report = _closure1_slot0;
-            backup = _closure1_slot1;
-            entity = 9;
-            entity = backup[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.RedesignCompatContext;
-            entity = michal.bind(zuuluu)(entity);
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot5;
-            report = {};
-            if(entity) { _fun00004_ip = 423; continue _fun00003 }
+            var3 = _closure1_slot2;
+            var2 = var3.useContext;
+            var5 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var1 = 9;
+            var1 = var14[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.RedesignCompatContext;
+            var1 = var2.bind(var3)(var1);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot5;
+            var5 = {};
+            if(var1) { _fun0002_ip = 423; continue _fun0002 }
  299:
-            backup = golfie.sectionBody;
-            entity = new Array(3);
-            entity[0] = backup;
-            backup = offset;
-            if(!offset) { _fun00004_ip = 324; continue _fun00003 }
+            var14 = var7.sectionBody;
+            var1 = new Array(3);
+            var1[0] = var14;
+            var14 = var10;
+            if(!var10) { _fun0002_ip = 324; continue _fun0002 }
  319:
-            backup = golfie.disabled;
+            var14 = var7.disabled;
  324:
-            entity[1] = backup;
-            entity[2] = option;
-            report['style'] = entity;
-            backup = _closure1_slot8;
-            option = _closure1_slot4;
-            entity = {};
-            entity['testID'] = verify;
-            kiloes = 'button';
-            entity['accessibilityRole'] = kiloes;
-            entity['onPress'] = romeon;
-            kiloes = golfie.button;
-            entity['style'] = kiloes;
-            kiloes = offset;
-            if(offset) { _fun00004_ip = 382; continue _fun00003 }
+            var1[1] = var14;
+            var1[2] = var8;
+            var5['style'] = var1;
+            var14 = _closure1_slot8;
+            var8 = _closure1_slot4;
+            var1 = {};
+            var1['testID'] = var9;
+            var15 = 'button';
+            var1['accessibilityRole'] = var15;
+            var1['onPress'] = var12;
+            var15 = var7.button;
+            var1['style'] = var15;
+            var15 = var10;
+            if(var10) { _fun0002_ip = 382; continue _fun0002 }
  379:
-            kiloes = yankee;
+            var15 = var11;
  382:
-            entity['disabled'] = kiloes;
-            sizing = _closure1_slot7;
-            kiloes = _closure1_slot6;
-            kiloes = sizing.bind(tangon)(kiloes);
-            entity['android_ripple'] = kiloes;
-            entity['children'] = foxtra;
-            entity = backup.bind(tangon)(option, entity);
-            report['children'] = entity;
-            entity = report;
-            _fun00004_ip = 508; continue _fun00003;
+            var1['disabled'] = var15;
+            var16 = _closure1_slot7;
+            var15 = _closure1_slot6;
+            var15 = var16.bind(var4)(var15);
+            var1['android_ripple'] = var15;
+            var1['children'] = var13;
+            var1 = var14.bind(var4)(var8, var1);
+            var5['children'] = var1;
+            var1 = var5;
+            _fun0002_ip = 508; continue _fun0002;
  423:
-            golfie = golfie.rowButton;
-            report['style'] = golfie;
-            option = _closure1_slot8;
-            golfie = _closure1_slot0;
-            backup = _closure1_slot1;
-            oscard = 10;
-            oscard = backup[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.RowButton;
-            oscard = {};
-            oscard['label'] = foxtra;
-            oscard['onPress'] = romeon;
-            romeon = false;
-            oscard['arrow'] = romeon;
-            if(offset) { _fun00004_ip = 486; continue _fun00003 }
+            var7 = var7.rowButton;
+            var5['style'] = var7;
+            var8 = _closure1_slot8;
+            var7 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var6 = 10;
+            var6 = var14[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.RowButton;
+            var6 = {};
+            var6['label'] = var13;
+            var6['onPress'] = var12;
+            var12 = false;
+            var6['arrow'] = var12;
+            if(var10) { _fun0002_ip = 486; continue _fun0002 }
  483:
-            offset = yankee;
+            var10 = var11;
  486:
-            oscard['disabled'] = offset;
-            oscard['testID'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report['children'] = oscard;
-            entity = report;
+            var6['disabled'] = var10;
+            var6['testID'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5['children'] = var6;
+            var1 = var5;
  508:
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    option = golfie[entity];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(option);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.ActivityIndicator;
-    var _closure1_slot3 = option;
-    option = michal.Pressable;
-    var _closure1_slot4 = option;
-    option = michal.Platform;
-    option = michal.StyleSheet;
-    michal = michal.View;
-    var _closure1_slot5 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.ANDROID_FOREGROUND_RIPPLE;
-    var _closure1_slot6 = option;
-    michal = michal.getThemedRippleConfig;
-    var _closure1_slot7 = michal;
-    michal = 3;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    foxtra = michal.Fonts;
-    michal = 4;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot8 = michal;
-    michal = 5;
-    michal = golfie[michal];
-    verify = oscard.bind(entity)(michal);
-    option = verify.createStyles;
-    michal = {};
-    offset = {};
-    kiloes = 16;
-    offset['paddingHorizontal'] = kiloes;
-    michal['rowButton'] = offset;
-    offset = {};
-    michal['sectionBody'] = offset;
-    offset = {'minHeight': 44, 'justifyContent': 'center'};
-    michal['button'] = offset;
-    yankee = 'left';
-    offset = {'lineHeight': 44, 'paddingHorizontal': 17, 'textAlign': 'left'};
-    michal['text'] = offset;
-    offset = {};
-    backup = 6;
-    romeon = golfie[backup];
-    echoed = sizing.bind(entity)(romeon);
-    result = foxtra.PRIMARY_SEMIBOLD;
-    romeon = 7;
-    output = golfie[romeon];
-    output = sizing.bind(entity)(output);
-    output = output.colors;
-    output = output.CONTROL_BRAND_FOREGROUND;
-    source = echoed.bind(entity)(result, output, kiloes);
-    ctrled = offset;
-    output = copyDataProperties(ctrled, source);
-    michal['textBrand'] = offset;
-    offset = {};
-    output = golfie[backup];
-    echoed = sizing.bind(entity)(output);
-    result = foxtra.PRIMARY_SEMIBOLD;
-    output = golfie[romeon];
-    output = sizing.bind(entity)(output);
-    output = output.colors;
-    output = output.TEXT_DANGER;
-    source = echoed.bind(entity)(result, output, kiloes);
-    ctrled = offset;
-    output = copyDataProperties(ctrled, source);
-    michal['textDanger'] = offset;
-    offset = {};
-    backup = golfie[backup];
-    backup = sizing.bind(entity)(backup);
-    foxtra = foxtra.PRIMARY_SEMIBOLD;
-    romeon = golfie[romeon];
-    romeon = sizing.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.STATUS_WARNING;
-    source = backup.bind(entity)(foxtra, romeon, kiloes);
-    ctrled = offset;
-    romeon = copyDataProperties(ctrled, source);
-    michal['textWarning'] = offset;
-    offset = {};
-    offset['textAlign'] = yankee;
-    michal['alignLeft'] = offset;
-    offset = {};
-    yankee = 0.5;
-    offset['opacity'] = yankee;
-    michal['disabled'] = offset;
-    michal = option.bind(verify)(michal);
-    var _closure1_slot9 = michal;
-    michal = {};
-    option = 'brand';
-    michal['BRAND'] = option;
-    option = 'danger';
-    michal['DANGER'] = option;
-    option = 'warning';
-    michal['WARNING'] = option;
-    var _closure1_slot10 = michal;
-    tangon['Colors'] = michal;
-    report = 11;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'uikit-native/refresh/form/FormCTAButton.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['FormCTAButtonColors'] = michal;
-    return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var8 = var7[var1];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var8);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var8 = var2.ActivityIndicator;
+    var _closure1_slot3 = var8;
+    var8 = var2.Pressable;
+    var _closure1_slot4 = var8;
+    var8 = var2.Platform;
+    var8 = var2.StyleSheet;
+    var2 = var2.View;
+    var _closure1_slot5 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var8 = var2.ANDROID_FOREGROUND_RIPPLE;
+    var _closure1_slot6 = var8;
+    var2 = var2.getThemedRippleConfig;
+    var _closure1_slot7 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var13 = var2.Fonts;
+    var2 = 4;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot8 = var2;
+    var2 = 5;
+    var2 = var7[var2];
+    var9 = var6.bind(var1)(var2);
+    var8 = var9.createStyles;
+    var2 = {};
+    var10 = {};
+    var15 = 16;
+    var10['paddingHorizontal'] = var15;
+    var2['rowButton'] = var10;
+    var10 = {};
+    var2['sectionBody'] = var10;
+    var10 = {'minHeight': 44, 'justifyContent': 'center'};
+    var2['button'] = var10;
+    var11 = 'left';
+    var10 = {'lineHeight': 44, 'paddingHorizontal': 17, 'textAlign': 'left'};
+    var2['text'] = var10;
+    var10 = {};
+    var14 = 6;
+    var12 = var7[var14];
+    var19 = var16.bind(var1)(var12);
+    var18 = var13.PRIMARY_SEMIBOLD;
+    var12 = 7;
+    var17 = var7[var12];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.CONTROL_BRAND_FOREGROUND;
+    var21 = var19.bind(var1)(var18, var17, var15);
+    var22 = var10;
+    var17 = copyDataProperties(var22, var21);
+    var2['textBrand'] = var10;
+    var10 = {};
+    var17 = var7[var14];
+    var19 = var16.bind(var1)(var17);
+    var18 = var13.PRIMARY_SEMIBOLD;
+    var17 = var7[var12];
+    var17 = var16.bind(var1)(var17);
+    var17 = var17.colors;
+    var17 = var17.TEXT_DANGER;
+    var21 = var19.bind(var1)(var18, var17, var15);
+    var22 = var10;
+    var17 = copyDataProperties(var22, var21);
+    var2['textDanger'] = var10;
+    var10 = {};
+    var14 = var7[var14];
+    var14 = var16.bind(var1)(var14);
+    var13 = var13.PRIMARY_SEMIBOLD;
+    var12 = var7[var12];
+    var12 = var16.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.STATUS_WARNING;
+    var21 = var14.bind(var1)(var13, var12, var15);
+    var22 = var10;
+    var12 = copyDataProperties(var22, var21);
+    var2['textWarning'] = var10;
+    var10 = {};
+    var10['textAlign'] = var11;
+    var2['alignLeft'] = var10;
+    var10 = {};
+    var11 = 0.5;
+    var10['opacity'] = var11;
+    var2['disabled'] = var10;
+    var2 = var8.bind(var9)(var2);
+    var _closure1_slot9 = var2;
+    var2 = {};
+    var8 = 'brand';
+    var2['BRAND'] = var8;
+    var8 = 'danger';
+    var2['DANGER'] = var8;
+    var8 = 'warning';
+    var2['WARNING'] = var8;
+    var _closure1_slot10 = var2;
+    var4['Colors'] = var2;
+    var5 = 11;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'uikit-native/refresh/form/FormCTAButton.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['FormCTAButtonColors'] = var2;
+    return var1;
 })();

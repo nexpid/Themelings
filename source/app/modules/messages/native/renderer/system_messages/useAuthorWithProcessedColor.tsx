@@ -1,168 +1,168 @@
 // app/modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.processColor;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getMessageAuthorWithProcessedColor
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.processColor;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/system_messages/useAuthorWithProcessedColor.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getMessageAuthorWithProcessedColor(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            oscard = undefined;
-            tangon = michal.bind(oscard)(entity);
-            michal = tangon.getMessageAuthor;
-            entity = argFoo;
-            entity = michal.bind(tangon)(entity);
-            tangon = entity.nick;
-            option = entity.colorString;
-            report = entity.colorStrings;
-            michal = entity.guildId;
-            entity = {};
-            entity['nick'] = tangon;
-            tangon = null;
-            golfie = tangon != option;
-            tangon = undefined;
-            if(!golfie) { _fun00002_ip = 89; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var6 = undefined;
+            var4 = var2.bind(var6)(var1);
+            var2 = var4.getMessageAuthor;
+            var1 = arg1;
+            var1 = var2.bind(var4)(var1);
+            var4 = var1.nick;
+            var8 = var1.colorString;
+            var5 = var1.colorStrings;
+            var2 = var1.guildId;
+            var1 = {};
+            var1['nick'] = var4;
+            var4 = null;
+            var7 = var4 != var8;
+            var4 = undefined;
+            if(!var7) { _fun0001_ip = 89; continue _fun0001 }
  80:
-            golfie = _closure1_slot3;
-            tangon = golfie.bind(oscard)(option);
+            var7 = _closure1_slot3;
+            var4 = var7.bind(var6)(var8);
  89:
-            entity['colorString'] = tangon;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.processColorStrings;
-            zuuluu = zuuluu.bind(tangon)(report);
-            entity['colorStrings'] = zuuluu;
-            entity['guildId'] = michal;
-            return entity;
+            var1['colorString'] = var4;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 2;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.processColorStrings;
+            var3 = var3.bind(var4)(var5);
+            var1['colorStrings'] = var3;
+            var1['guildId'] = var2;
+            return var1;
         }
     };
-    zuuluu['getMessageAuthorWithProcessedColor'] = tangon;
-    tangon = function(argFoo) { // Original name: useMessageAuthorWithProcessedColor
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getMessageAuthorWithProcessedColor'] = var4;
+    var4 = function useMessageAuthorWithProcessedColor(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            report = undefined;
-            michal = michal.bind(report)(entity);
-            entity = argFoo;
-            entity = michal.bind(report)(entity);
-            michal = entity.nick;
-            tangon = entity.colorString;
-            entity = {};
-            entity['nick'] = michal;
-            michal = null;
-            oscard = michal != tangon;
-            michal = undefined;
-            if(!oscard) { _fun00004_ip = 72; continue _fun00003 }
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var5 = undefined;
+            var2 = var2.bind(var5)(var1);
+            var1 = arg1;
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.nick;
+            var4 = var1.colorString;
+            var1 = {};
+            var1['nick'] = var2;
+            var2 = null;
+            var6 = var2 != var4;
+            var2 = undefined;
+            if(!var6) { _fun0002_ip = 72; continue _fun0002 }
  63:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.bind(report)(tangon);
+            var3 = _closure1_slot3;
+            var2 = var3.bind(var5)(var4);
  72:
-            entity['colorString'] = michal;
-            return entity;
+            var1['colorString'] = var2;
+            return var1;
         }
     };
-    zuuluu['useMessageAuthorWithProcessedColor'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getUserAuthorWithProcessedColor
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useMessageAuthorWithProcessedColor'] = var4;
+    var4 = function getUserAuthorWithProcessedColor(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            report = undefined;
-            oscard = zuuluu.bind(report)(entity);
-            tangon = oscard.getUserAuthor;
-            zuuluu = argFoo;
-            entity = argBar;
-            entity = tangon.bind(oscard)(zuuluu, entity);
-            zuuluu = entity.nick;
-            golfie = entity.colorString;
-            tangon = entity.colorStrings;
-            entity = {};
-            entity['nick'] = zuuluu;
-            zuuluu = null;
-            oscard = zuuluu != golfie;
-            zuuluu = undefined;
-            if(!oscard) { _fun00006_ip = 88; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var5 = undefined;
+            var6 = var3.bind(var5)(var1);
+            var4 = var6.getUserAuthor;
+            var3 = arg1;
+            var1 = arg2;
+            var1 = var4.bind(var6)(var3, var1);
+            var3 = var1.nick;
+            var7 = var1.colorString;
+            var4 = var1.colorStrings;
+            var1 = {};
+            var1['nick'] = var3;
+            var3 = null;
+            var6 = var3 != var7;
+            var3 = undefined;
+            if(!var6) { _fun0003_ip = 88; continue _fun0003 }
  79:
-            oscard = _closure1_slot3;
-            zuuluu = oscard.bind(report)(golfie);
+            var6 = _closure1_slot3;
+            var3 = var6.bind(var5)(var7);
  88:
-            entity['colorString'] = zuuluu;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.processColorStrings;
-            michal = michal.bind(zuuluu)(tangon);
-            entity['colorStrings'] = michal;
-            return entity;
+            var1['colorString'] = var3;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.processColorStrings;
+            var2 = var2.bind(var3)(var4);
+            var1['colorStrings'] = var2;
+            return var1;
         }
     };
-    zuuluu['getUserAuthorWithProcessedColor'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useUserAuthorWithProcessedColor
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getUserAuthorWithProcessedColor'] = var4;
+    var2 = function useUserAuthorWithProcessedColor(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            report = undefined;
-            oscard = michal.bind(report)(entity);
-            tangon = oscard.useNullableUserAuthor;
-            michal = argFoo;
-            entity = argBar;
-            entity = tangon.bind(oscard)(michal, entity);
-            michal = entity.nick;
-            tangon = entity.colorString;
-            entity = {};
-            entity['nick'] = michal;
-            michal = null;
-            oscard = michal != tangon;
-            michal = undefined;
-            if(!oscard) { _fun00008_ip = 82; continue _fun00007 }
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var5 = undefined;
+            var6 = var2.bind(var5)(var1);
+            var4 = var6.useNullableUserAuthor;
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var4.bind(var6)(var2, var1);
+            var2 = var1.nick;
+            var4 = var1.colorString;
+            var1 = {};
+            var1['nick'] = var2;
+            var2 = null;
+            var6 = var2 != var4;
+            var2 = undefined;
+            if(!var6) { _fun0004_ip = 82; continue _fun0004 }
  73:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.bind(report)(tangon);
+            var3 = _closure1_slot3;
+            var2 = var3.bind(var5)(var4);
  82:
-            entity['colorString'] = michal;
-            return entity;
+            var1['colorString'] = var2;
+            return var1;
         }
     };
-    zuuluu['useUserAuthorWithProcessedColor'] = michal;
-    return entity;
+    var3['useUserAuthorWithProcessedColor'] = var2;
+    return var1;
 })();

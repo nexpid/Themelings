@@ -1,114 +1,114 @@
 // app/modules/voice_panel/native/hooks/useCanConnect.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/hooks/useCanConnect.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useCanConnect
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 5;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresObject;
-        golfie = _closure1_slot2;
-        zuuluu = new Array(4);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot4;
-        zuuluu[1] = golfie;
-        golfie = _closure1_slot3;
-        zuuluu[2] = golfie;
-        michal = _closure1_slot5;
-        zuuluu[3] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/hooks/useCanConnect.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useCanConnect(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 5;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresObject;
+        var7 = _closure1_slot2;
+        var3 = new Array(4);
+        var3[0] = var7;
+        var7 = _closure1_slot4;
+        var3[1] = var7;
+        var7 = _closure1_slot3;
+        var3[2] = var7;
+        var2 = _closure1_slot5;
+        var3[3] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure1_slot2;
-                michal = tangon.getChannel;
-                entity = _closure2_slot0;
-                golfie = michal.bind(tangon)(entity);
-                entity = {};
-                michal = null;
-                tangon = michal != golfie;
-                if(!tangon) { _fun00002_ip = 77; continue _fun00001 }
+                var4 = _closure1_slot2;
+                var2 = var4.getChannel;
+                var1 = _closure2_slot0;
+                var7 = var2.bind(var4)(var1);
+                var1 = {};
+                var2 = null;
+                var4 = var2 != var7;
+                if(!var4) { _fun0001_ip = 77; continue _fun0001 }
  35:
-                report = golfie.isPrivate;
-                report = report.bind(golfie)();
-                if(report) { _fun00002_ip = 74; continue _fun00001 }
+                var5 = var7.isPrivate;
+                var5 = var5.bind(var7)();
+                if(var5) { _fun0001_ip = 74; continue _fun0001 }
  48:
-                verify = _closure1_slot4;
-                option = verify.can;
-                oscard = _closure1_slot6;
-                oscard = oscard.CONNECT;
-                report = option.bind(verify)(oscard, golfie);
+                var9 = _closure1_slot4;
+                var8 = var9.can;
+                var6 = _closure1_slot6;
+                var6 = var6.CONNECT;
+                var5 = var8.bind(var9)(var6, var7);
  74:
-                tangon = report;
+                var4 = var5;
  77:
-                entity['canConnect'] = tangon;
-                michal = michal == golfie;
-                if(michal) { _fun00002_ip = 132; continue _fun00001 }
+                var1['canConnect'] = var4;
+                var2 = var2 == var7;
+                if(var2) { _fun0001_ip = 132; continue _fun0001 }
  89:
-                oscard = _closure1_slot0;
-                report = _closure1_slot1;
-                tangon = 6;
-                report = report[tangon];
-                tangon = undefined;
-                oscard = oscard.bind(tangon)(report);
-                report = oscard.isChannelFull;
-                tangon = _closure1_slot5;
-                zuuluu = _closure1_slot3;
-                michal = report.bind(oscard)(golfie, tangon, zuuluu);
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var4 = 6;
+                var5 = var5[var4];
+                var4 = undefined;
+                var6 = var6.bind(var4)(var5);
+                var5 = var6.isChannelFull;
+                var4 = _closure1_slot5;
+                var3 = _closure1_slot3;
+                var2 = var5.bind(var6)(var7, var4, var3);
  132:
-                entity['isAtMaxCapacity'] = michal;
-                return entity;
+                var1['isAtMaxCapacity'] = var2;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

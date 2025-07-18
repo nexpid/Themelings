@@ -1,150 +1,150 @@
 // app/design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    golfie = 'function CollapsibleFloatingActionButtonStateNativeTsx1({nativeEvent:nativeEvent}){const{initialScrollStart,previousOffset,MINIMUM_SCROLL_DISTANCE_TO_CLOSE,collapseText,SCROLL_OFFSET_THRESHOLD}=this.__closure;if(nativeEvent==null)return;const{contentOffset:{y:currentOffset},contentSize:{height:contentHeight},layoutMeasurement:{height:layoutHeight}}=nativeEvent;if(currentOffset<initialScrollStart)return;const contentHeightAsOffset=currentOffset+layoutHeight;if(contentHeightAsOffset>contentHeight)return;const offsetChanged=currentOffset-previousOffset.get();if(currentOffset<MINIMUM_SCROLL_DISTANCE_TO_CLOSE){collapseText.set(0);}else{if(Math.abs(offsetChanged)>SCROLL_OFFSET_THRESHOLD){collapseText.set(offsetChanged<0?0:1);}}previousOffset.set(currentOffset);}';
-    tangon['code'] = golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useCollapsibleFloatingActionButtonState
-        entity = {};
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 1;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useSharedValue;
-        michal = 0;
-        michal = zuuluu.bind(tangon)(michal);
-        entity['collapseText'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var7 = 'function CollapsibleFloatingActionButtonStateNativeTsx1({nativeEvent:nativeEvent}){const{initialScrollStart,previousOffset,MINIMUM_SCROLL_DISTANCE_TO_CLOSE,collapseText,SCROLL_OFFSET_THRESHOLD}=this.__closure;if(nativeEvent==null)return;const{contentOffset:{y:currentOffset},contentSize:{height:contentHeight},layoutMeasurement:{height:layoutHeight}}=nativeEvent;if(currentOffset<initialScrollStart)return;const contentHeightAsOffset=currentOffset+layoutHeight;if(contentHeightAsOffset>contentHeight)return;const offsetChanged=currentOffset-previousOffset.get();if(currentOffset<MINIMUM_SCROLL_DISTANCE_TO_CLOSE){collapseText.set(0);}else{if(Math.abs(offsetChanged)>SCROLL_OFFSET_THRESHOLD){collapseText.set(offsetChanged<0?0:1);}}previousOffset.set(currentOffset);}';
+    var4['code'] = var7;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/experimental/Button/native/CollapsibleFloatingActionButtonState.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useCollapsibleFloatingActionButtonState() {
+        var1 = {};
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 1;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useSharedValue;
+        var2 = 0;
+        var2 = var3.bind(var4)(var2);
+        var1['collapseText'] = var2;
+        return var1;
     };
-    zuuluu['useCollapsibleFloatingActionButtonState'] = tangon;
-    michal = function(argFoo) { // Original name: useCollapsibleFloatingActionButtonScroll
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['useCollapsibleFloatingActionButtonState'] = var4;
+    var2 = function useCollapsibleFloatingActionButtonScroll(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = arguments[1];
-            entity = argFoo;
-            report = entity.collapseText;
-            var _closure2_slot0 = report;
-            oscard = undefined;
-            if(!(golfie === oscard)) { _fun00002_ip = 26; continue _fun00001 }
+            var7 = arguments[1];
+            var1 = arg1;
+            var5 = var1.collapseText;
+            var _closure2_slot0 = var5;
+            var6 = undefined;
+            if(!(var7 === var6)) { _fun0001_ip = 26; continue _fun0001 }
  24:
-            golfie = 0;
+            var7 = 0;
  26:
-            var _closure2_slot1 = golfie;
-            var _closure2_slot2 = oscard;
-            tangon = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = option[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.useSharedValue;
-            oscard = zuuluu.bind(tangon)(golfie);
-            _closure2_slot2 = oscard;
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useCallback;
-            michal = function(argFoo) { // Original name: s
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var7;
+            var _closure2_slot2 = var6;
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 1;
+            var3 = var8[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.useSharedValue;
+            var6 = var3.bind(var4)(var7);
+            _closure2_slot2 = var6;
+            var4 = _closure1_slot2;
+            var3 = var4.useCallback;
+            var2 = function s(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    entity = entity.nativeEvent;
-                    michal = null;
-                    if(!(michal != entity)) { _fun00004_ip = 173; continue _fun00003 }
+                    var1 = arg1;
+                    var1 = var1.nativeEvent;
+                    var2 = null;
+                    if(!(var2 != var1)) { _fun0002_ip = 173; continue _fun0002 }
  17:
-                    michal = entity.contentOffset;
-                    zuuluu = michal.y;
-                    michal = entity.contentSize;
-                    tangon = michal.height;
-                    entity = entity.layoutMeasurement;
-                    michal = entity.height;
-                    report = _closure2_slot1;
-                    if(!(!(zuuluu < report))) { _fun00004_ip = 173; continue _fun00003 }
+                    var2 = var1.contentOffset;
+                    var3 = var2.y;
+                    var2 = var1.contentSize;
+                    var4 = var2.height;
+                    var1 = var1.layoutMeasurement;
+                    var2 = var1.height;
+                    var5 = _closure2_slot1;
+                    if(!(!(var3 < var5))) { _fun0002_ip = 173; continue _fun0002 }
  61:
-                    michal = zuuluu + michal;
-                    if(!(!(michal > tangon))) { _fun00004_ip = 173; continue _fun00003 }
+                    var2 = var3 + var2;
+                    if(!(!(var2 > var4))) { _fun0002_ip = 173; continue _fun0002 }
  69:
-                    tangon = _closure2_slot2;
-                    michal = tangon.get;
-                    michal = michal.bind(tangon)();
-                    golfie = zuuluu - michal;
-                    tangon = 10;
-                    if(!(!(zuuluu < tangon))) { _fun00004_ip = 143; continue _fun00003 }
+                    var4 = _closure2_slot2;
+                    var2 = var4.get;
+                    var2 = var2.bind(var4)();
+                    var7 = var3 - var2;
+                    var4 = 10;
+                    if(!(!(var3 < var4))) { _fun0002_ip = 143; continue _fun0002 }
  93:
-                    michal = global;
-                    report = michal.Math;
-                    michal = report.abs;
-                    michal = michal.bind(report)(golfie);
-                    if(!(michal > tangon)) { _fun00004_ip = 159; continue _fun00003 }
+                    var2 = global;
+                    var5 = var2.Math;
+                    var2 = var5.abs;
+                    var2 = var2.bind(var5)(var7);
+                    if(!(var2 > var4)) { _fun0002_ip = 159; continue _fun0002 }
  116:
-                    report = _closure2_slot0;
-                    tangon = report.set;
-                    michal = 1;
-                    oscard = 0;
-                    if(!(golfie < oscard)) { _fun00004_ip = 136; continue _fun00003 }
+                    var5 = _closure2_slot0;
+                    var4 = var5.set;
+                    var2 = 1;
+                    var6 = 0;
+                    if(!(var7 < var6)) { _fun0002_ip = 136; continue _fun0002 }
  134:
-                    michal = 0;
+                    var2 = 0;
  136:
-                    michal = tangon.bind(report)(michal);
-                    _fun00004_ip = 159; continue _fun00003;
+                    var2 = var4.bind(var5)(var2);
+                    _fun0002_ip = 159; continue _fun0002;
  143:
-                    report = _closure2_slot0;
-                    tangon = report.set;
-                    michal = 0;
-                    michal = tangon.bind(report)(michal);
+                    var5 = _closure2_slot0;
+                    var4 = var5.set;
+                    var2 = 0;
+                    var2 = var4.bind(var5)(var2);
  159:
-                    michal = _closure2_slot2;
-                    entity = michal.set;
-                    entity = entity.bind(michal)(zuuluu);
+                    var2 = _closure2_slot2;
+                    var1 = var2.set;
+                    var1 = var1.bind(var2)(var3);
  173:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            option = {};
-            option['initialScrollStart'] = golfie;
-            option['previousOffset'] = oscard;
-            verify = 10;
-            option['MINIMUM_SCROLL_DISTANCE_TO_CLOSE'] = verify;
-            option['collapseText'] = report;
-            option['SCROLL_OFFSET_THRESHOLD'] = verify;
-            michal['__closure'] = option;
-            option = 10435259247914.0;
-            michal['__workletHash'] = option;
-            entity = _closure1_slot3;
-            michal['__initData'] = entity;
-            entity = new Array(3);
-            entity[0] = golfie;
-            entity[1] = oscard;
-            entity[2] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var8 = {};
+            var8['initialScrollStart'] = var7;
+            var8['previousOffset'] = var6;
+            var9 = 10;
+            var8['MINIMUM_SCROLL_DISTANCE_TO_CLOSE'] = var9;
+            var8['collapseText'] = var5;
+            var8['SCROLL_OFFSET_THRESHOLD'] = var9;
+            var2['__closure'] = var8;
+            var8 = 10435259247914.0;
+            var2['__workletHash'] = var8;
+            var1 = _closure1_slot3;
+            var2['__initData'] = var1;
+            var1 = new Array(3);
+            var1[0] = var7;
+            var1[1] = var6;
+            var1[2] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['useCollapsibleFloatingActionButtonScroll'] = michal;
-    return entity;
+    var3['useCollapsibleFloatingActionButtonScroll'] = var2;
+    return var1;
 })();

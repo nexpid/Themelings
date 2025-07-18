@@ -1,109 +1,109 @@
 // app/modules/blocked_domains/BlockedDomainStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot5 = tangon;
-    michal = function() {
-        report = _closure1_slot4;
-        tangon = function() { // Original name: BlockedDomainStore
-            tangon = _closure1_slot3;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            michal = this;
-            michal = tangon.bind(entity)(michal, zuuluu);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot5 = var4;
+    var2 = function() {
+        var5 = _closure1_slot4;
+        var4 = function BlockedDomainStore() {
+            var4 = _closure1_slot3;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var2 = this;
+            var2 = var4.bind(var1)(var2, var3);
+            return var1;
         };
-        var _closure2_slot0 = tangon;
-        entity = {};
-        zuuluu = 'isBlockedDomain';
-        entity['key'] = zuuluu;
-        michal = function(argFoo) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var4;
+        var1 = {};
+        var3 = 'isBlockedDomain';
+        var1['key'] = var3;
+        var2 = function value(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot2;
-                golfie = 3;
-                entity = entity[golfie];
-                report = undefined;
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.isLibdiscoreLoaded;
-                zuuluu = entity.bind(zuuluu)();
-                tangon = null;
-                entity = null;
-                if(!zuuluu) { _fun00002_ip = 73; continue _fun00001 }
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var7 = 3;
+                var1 = var1[var7];
+                var5 = undefined;
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.isLibdiscoreLoaded;
+                var3 = var1.bind(var3)();
+                var4 = null;
+                var1 = null;
+                if(!var3) { _fun0001_ip = 73; continue _fun0001 }
  42:
-                oscard = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                zuuluu = zuuluu[golfie];
-                golfie = oscard.bind(report)(zuuluu);
-                oscard = golfie.isBlockedDomain;
-                zuuluu = argFoo;
-                entity = oscard.bind(golfie)(zuuluu);
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var3 = var3[var7];
+                var7 = var6.bind(var5)(var3);
+                var6 = var7.isBlockedDomain;
+                var3 = arg1;
+                var1 = var6.bind(var7)(var3);
  73:
-                zuuluu = '';
-                zuuluu = zuuluu !== entity;
-                if(!zuuluu) { _fun00002_ip = 88; continue _fun00001 }
+                var3 = '';
+                var3 = var3 !== var1;
+                if(!var3) { _fun0001_ip = 88; continue _fun0001 }
  84:
-                zuuluu = tangon !== entity;
+                var3 = var4 !== var1;
  88:
-                if(!zuuluu) { _fun00002_ip = 141; continue _fun00001 }
+                if(!var3) { _fun0001_ip = 141; continue _fun0001 }
  91:
-                tangon = _closure1_slot1;
-                oscard = _closure1_slot2;
-                zuuluu = 4;
-                zuuluu = oscard[zuuluu];
-                report = tangon.bind(report)(zuuluu);
-                tangon = report.track;
-                michal = _closure1_slot5;
-                zuuluu = michal.LINK_SECURITY_CHECK_BLOCKED;
-                michal = {};
-                michal['blocked_domain'] = entity;
-                michal = tangon.bind(report)(zuuluu, michal);
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 4;
+                var3 = var6[var3];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.track;
+                var2 = _closure1_slot5;
+                var3 = var2.LINK_SECURITY_CHECK_BLOCKED;
+                var2 = {};
+                var2['blocked_domain'] = var1;
+                var2 = var4.bind(var5)(var3, var2);
  141:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        zuuluu = new Array(1);
-        zuuluu[0] = entity;
-        michal = undefined;
-        entity = null;
-        entity = report.bind(michal)(tangon, entity, zuuluu);
-        return entity;
+        var1['value'] = var2;
+        var3 = new Array(1);
+        var3[0] = var1;
+        var2 = undefined;
+        var1 = null;
+        var1 = var5.bind(var2)(var4, var1, var3);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/blocked_domains/BlockedDomainStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/blocked_domains/BlockedDomainStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

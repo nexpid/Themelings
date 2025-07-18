@@ -1,81 +1,81 @@
 // app/utils/native/TimeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'utils/native/TimeUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar) { // Original name: getTimeFormat
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'utils/native/TimeUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getTimeFormat(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argBar;
-            entity = argFoo;
-            entity = entity | 0;
-            michal = 60;
-            option = entity % michal;
-            entity = entity - option;
-            report = entity / michal;
-            michal = null;
-            oscard = michal == zuuluu;
-            tangon = undefined;
-            entity = undefined;
-            if(oscard) { _fun00002_ip = 43; continue _fun00001 }
+            var3 = arg2;
+            var1 = arg1;
+            var1 = var1 | 0;
+            var2 = 60;
+            var8 = var1 % var2;
+            var1 = var1 - var8;
+            var5 = var1 / var2;
+            var2 = null;
+            var6 = var2 == var3;
+            var4 = undefined;
+            var1 = undefined;
+            if(var6) { _fun0001_ip = 43; continue _fun0001 }
  37:
-            entity = zuuluu.padMinutes;
+            var1 = var3.padMinutes;
  43:
-            if(!(michal != entity)) { _fun00002_ip = 50; continue _fun00001 }
+            if(!(var2 != var1)) { _fun0001_ip = 50; continue _fun0001 }
  47:
-            if(entity) { _fun00002_ip = 123; continue _fun00001 }
+            if(var1) { _fun0001_ip = 123; continue _fun0001 }
  50:
-            entity = global;
-            michal = entity.String;
-            golfie = michal.bind(tangon)(report);
-            michal = entity.String;
-            verify = michal.bind(tangon)(option);
-            oscard = verify.padStart;
-            zuuluu = 2;
-            michal = '0';
-            oscard = oscard.bind(verify)(zuuluu, michal);
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = '';
-            entity = ':';
-            entity = zuuluu.bind(michal)(golfie, entity, oscard);
-            _fun00002_ip = 206; continue _fun00001;
+            var1 = global;
+            var2 = var1.String;
+            var7 = var2.bind(var4)(var5);
+            var2 = var1.String;
+            var9 = var2.bind(var4)(var8);
+            var6 = var9.padStart;
+            var3 = 2;
+            var2 = '0';
+            var6 = var6.bind(var9)(var3, var2);
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '';
+            var1 = ':';
+            var1 = var3.bind(var2)(var7, var1, var6);
+            _fun0001_ip = 206; continue _fun0001;
  123:
-            michal = global;
-            zuuluu = michal.String;
-            oscard = zuuluu.bind(tangon)(report);
-            zuuluu = oscard.padStart;
-            golfie = 2;
-            report = '0';
-            oscard = zuuluu.bind(oscard)(golfie, report);
-            zuuluu = michal.String;
-            tangon = zuuluu.bind(tangon)(option);
-            zuuluu = tangon.padStart;
-            report = zuuluu.bind(tangon)(golfie, report);
-            michal = michal.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = '';
-            michal = ':';
-            entity = tangon.bind(zuuluu)(oscard, michal, report);
+            var2 = global;
+            var3 = var2.String;
+            var6 = var3.bind(var4)(var5);
+            var3 = var6.padStart;
+            var7 = 2;
+            var5 = '0';
+            var6 = var3.bind(var6)(var7, var5);
+            var3 = var2.String;
+            var4 = var3.bind(var4)(var8);
+            var3 = var4.padStart;
+            var5 = var3.bind(var4)(var7, var5);
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = ':';
+            var1 = var4.bind(var3)(var6, var2, var5);
  206:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getTimeFormat'] = michal;
-    return entity;
+    var3['getTimeFormat'] = var2;
+    return var1;
 })();

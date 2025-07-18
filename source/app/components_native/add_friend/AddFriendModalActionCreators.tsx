@@ -1,86 +1,86 @@
 // app/components_native/add_friend/AddFriendModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = function() { // Original name: openAddFriendModalDeeplink
-        tangon = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 1;
-        zuuluu = michal[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.pushLazy;
-        oscard = _closure1_slot0;
-        report = 3;
-        report = michal[report];
-        oscard = oscard.bind(entity)(report);
-        report = 2;
-        report = michal[report];
-        michal = michal.paths;
-        michal = oscard.bind(entity)(report, michal);
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = function openAddFriendModalDeeplink() {
+        var4 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var3 = var2[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.pushLazy;
+        var6 = _closure1_slot0;
+        var5 = 3;
+        var5 = var2[var5];
+        var6 = var6.bind(var1)(var5);
+        var5 = 2;
+        var5 = var2[var5];
+        var2 = var2.paths;
+        var2 = var6.bind(var1)(var5, var2);
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['openAddFriendModalDeeplink'] = golfie;
-    tangon = function(argFoo) { // Original name: openAddFriendModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['openAddFriendModalDeeplink'] = var7;
+    var4 = function openAddFriendModal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getCurrentUser;
-            zuuluu = entity.bind(zuuluu)();
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 100; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var1 = var3.getCurrentUser;
+            var3 = var1.bind(var3)();
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 100; continue _fun0001 }
  22:
-            tangon = _closure1_slot1;
-            entity = _closure1_slot2;
-            zuuluu = 1;
-            zuuluu = entity[zuuluu];
-            oscard = undefined;
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.pushLazy;
-            report = _closure1_slot0;
-            michal = 3;
-            michal = entity[michal];
-            report = report.bind(oscard)(michal);
-            michal = 2;
-            michal = entity[michal];
-            entity = entity.paths;
-            michal = report.bind(oscard)(michal, entity);
-            entity = {};
-            report = argFoo;
-            entity['sourceMetadata'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var4 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var3 = 1;
+            var3 = var1[var3];
+            var6 = undefined;
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.pushLazy;
+            var5 = _closure1_slot0;
+            var2 = 3;
+            var2 = var1[var2];
+            var5 = var5.bind(var6)(var2);
+            var2 = 2;
+            var2 = var1[var2];
+            var1 = var1.paths;
+            var2 = var5.bind(var6)(var2, var1);
+            var1 = {};
+            var5 = arg1;
+            var1['sourceMetadata'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
  100:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['openAddFriendModal'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/add_friend/AddFriendModalActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['openAddFriendModal'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/add_friend/AddFriendModalActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

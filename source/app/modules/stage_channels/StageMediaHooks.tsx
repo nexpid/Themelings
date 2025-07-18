@@ -1,253 +1,253 @@
 // app/modules/stage_channels/StageMediaHooks.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    report = function(argFoo) { // Original name: useStageHasStream
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot4;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getMutableParticipants;
-            michal = _closure2_slot0;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 4;
-            report = report[entity];
-            entity = undefined;
-            entity = oscard.bind(entity)(report);
-            entity = entity.StageChannelParticipantNamedIndex;
-            entity = entity.SPEAKER;
-            zuuluu = zuuluu.bind(tangon)(michal, entity);
-            michal = zuuluu.find;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.type;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 4;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                entity = entity.StageChannelParticipantTypes;
-                entity = entity.STREAM;
-                entity = michal === entity;
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var5 = function useStageHasStream(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot4;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var4 = _closure1_slot4;
+            var3 = var4.getMutableParticipants;
+            var2 = _closure2_slot0;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 4;
+            var5 = var5[var1];
+            var1 = undefined;
+            var1 = var6.bind(var1)(var5);
+            var1 = var1.StageChannelParticipantNamedIndex;
+            var1 = var1.SPEAKER;
+            var3 = var3.bind(var4)(var2, var1);
+            var2 = var3.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 4;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.StageChannelParticipantTypes;
+                var1 = var1.STREAM;
+                var1 = var2 === var1;
+                return var1;
             };
-            michal = michal.bind(zuuluu)(entity);
-            entity = null;
-            entity = entity != michal;
-            return entity;
+            var2 = var2.bind(var3)(var1);
+            var1 = null;
+            var1 = var1 != var2;
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = report;
-    tangon = function(argFoo) { // Original name: getStageHasStream
-        tangon = _closure1_slot4;
-        zuuluu = tangon.getMutableParticipants;
-        report = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        entity = report.bind(entity)(michal);
-        entity = entity.StageChannelParticipantNamedIndex;
-        michal = entity.SPEAKER;
-        entity = argFoo;
-        zuuluu = zuuluu.bind(tangon)(entity, michal);
-        michal = zuuluu.find;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.type;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
-            entity = entity.StageChannelParticipantTypes;
-            entity = entity.STREAM;
-            entity = michal === entity;
-            return entity;
+    var _closure1_slot5 = var5;
+    var4 = function getStageHasStream(arg1) {
+        var4 = _closure1_slot4;
+        var3 = var4.getMutableParticipants;
+        var5 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var5.bind(var1)(var2);
+        var1 = var1.StageChannelParticipantNamedIndex;
+        var2 = var1.SPEAKER;
+        var1 = arg1;
+        var3 = var3.bind(var4)(var1, var2);
+        var2 = var3.find;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.type;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            var1 = var1.StageChannelParticipantTypes;
+            var1 = var1.STREAM;
+            var1 = var2 === var1;
+            return var1;
         };
-        michal = michal.bind(zuuluu)(entity);
-        entity = null;
-        entity = entity != michal;
-        return entity;
+        var2 = var2.bind(var3)(var1);
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot2 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot4 = oscard;
-    oscard = 5;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/stage_channels/StageMediaHooks.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function(argFoo) { // Original name: useStageHasMedia
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot2 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/stage_channels/StageMediaHooks.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function useStageHasMedia(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
-            michal = _closure1_slot5;
-            oscard = undefined;
-            michal = michal.bind(oscard)(golfie);
-            report = _closure1_slot0;
-            option = _closure1_slot1;
-            tangon = 3;
-            tangon = option[tangon];
-            oscard = report.bind(oscard)(tangon);
-            report = oscard.useStateFromStores;
-            zuuluu = _closure1_slot3;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
-            zuuluu = new Array(1);
-            zuuluu[0] = golfie;
-            entity = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.hasVideo;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = arg1;
+            var _closure2_slot0 = var7;
+            var2 = _closure1_slot5;
+            var6 = undefined;
+            var2 = var2.bind(var6)(var7);
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var4 = 3;
+            var4 = var8[var4];
+            var6 = var5.bind(var6)(var4);
+            var5 = var6.useStateFromStores;
+            var3 = _closure1_slot3;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var1 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.hasVideo;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = report.bind(oscard)(tangon, entity, zuuluu);
-            if(entity) { _fun00002_ip = 86; continue _fun00001 }
+            var1 = var5.bind(var6)(var4, var1, var3);
+            if(var1) { _fun0001_ip = 86; continue _fun0001 }
  83:
-            entity = michal;
+            var1 = var2;
  86:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useStageHasMedia'] = oscard;
-    zuuluu['useStageHasStream'] = report;
-    report = function(argFoo) { // Original name: getStageHasMedia
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useStageHasMedia'] = var6;
+    var3['useStageHasStream'] = var5;
+    var5 = function getStageHasMedia(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot6;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(tangon);
-            if(entity) { _fun00004_ip = 35; continue _fun00003 }
+            var4 = arg1;
+            var3 = _closure1_slot6;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var4);
+            if(var1) { _fun0002_ip = 35; continue _fun0002 }
  20:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.hasVideo;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot3;
+            var2 = var3.hasVideo;
+            var1 = var2.bind(var3)(var4);
  35:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getStageHasMedia'] = report;
-    zuuluu['getStageHasStream'] = tangon;
-    tangon = function(argFoo) { // Original name: useIsStageVideoEnabled
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getStageHasMedia'] = var5;
+    var3['getStageHasStream'] = var4;
+    var4 = function useIsStageVideoEnabled(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 3;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.useStateFromStores;
-            oscard = _closure1_slot2;
-            michal = new Array(1);
-            michal[0] = oscard;
-            entity = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getGuild;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 3;
+            var3 = var4[var3];
+            var4 = undefined;
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useStateFromStores;
+            var6 = _closure1_slot2;
+            var2 = new Array(1);
+            var2[0] = var6;
+            var1 = function() {
+                var3 = _closure1_slot2;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu = zuuluu.bind(report)(michal, entity);
-            michal = null;
-            entity = michal != zuuluu;
-            if(!entity) { _fun00006_ip = 104; continue _fun00005 }
+            var3 = var3.bind(var5)(var2, var1);
+            var2 = null;
+            var1 = var2 != var3;
+            if(!var1) { _fun0003_ip = 104; continue _fun0003 }
  71:
-            report = michal == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00006_ip = 86; continue _fun00005 }
+            var5 = var2 == var3;
+            var4 = undefined;
+            if(var5) { _fun0003_ip = 86; continue _fun0003 }
  80:
-            tangon = zuuluu.maxStageVideoChannelUsers;
+            var4 = var3.maxStageVideoChannelUsers;
  86:
-            report = michal != tangon;
-            zuuluu = 0;
-            michal = 0;
-            if(!report) { _fun00006_ip = 100; continue _fun00005 }
+            var5 = var2 != var4;
+            var3 = 0;
+            var2 = 0;
+            if(!var5) { _fun0003_ip = 100; continue _fun0003 }
  97:
-            michal = tangon;
+            var2 = var4;
  100:
-            entity = michal > zuuluu;
+            var1 = var2 > var3;
  104:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsStageVideoEnabled'] = tangon;
-    michal = function(argFoo) { // Original name: isStageVideoEnabled
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useIsStageVideoEnabled'] = var4;
+    var2 = function isStageVideoEnabled(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getGuild;
-            entity = argFoo;
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = null;
-            entity = michal != zuuluu;
-            if(!entity) { _fun00008_ip = 62; continue _fun00007 }
+            var3 = _closure1_slot2;
+            var2 = var3.getGuild;
+            var1 = arg1;
+            var3 = var2.bind(var3)(var1);
+            var2 = null;
+            var1 = var2 != var3;
+            if(!var1) { _fun0004_ip = 62; continue _fun0004 }
  29:
-            report = michal == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00008_ip = 44; continue _fun00007 }
+            var5 = var2 == var3;
+            var4 = undefined;
+            if(var5) { _fun0004_ip = 44; continue _fun0004 }
  38:
-            tangon = zuuluu.maxStageVideoChannelUsers;
+            var4 = var3.maxStageVideoChannelUsers;
  44:
-            report = michal != tangon;
-            zuuluu = 0;
-            michal = 0;
-            if(!report) { _fun00008_ip = 58; continue _fun00007 }
+            var5 = var2 != var4;
+            var3 = 0;
+            var2 = 0;
+            if(!var5) { _fun0004_ip = 58; continue _fun0004 }
  55:
-            michal = tangon;
+            var2 = var4;
  58:
-            entity = michal > zuuluu;
+            var1 = var2 > var3;
  62:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isStageVideoEnabled'] = michal;
-    return entity;
+    var3['isStageVideoEnabled'] = var2;
+    return var1;
 })();

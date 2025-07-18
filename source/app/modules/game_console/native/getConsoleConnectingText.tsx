@@ -1,146 +1,146 @@
 // app/modules/game_console/native/getConsoleConnectingText.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PlatformTypes;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_console/native/getConsoleConnectingText.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: getConsoleConnectingText
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PlatformTypes;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/game_console/native/getConsoleConnectingText.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getConsoleConnectingText(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = argBar;
-            michal = argBaz;
-            entity = null;
-            tangon = entity == zuuluu;
-            golfie = undefined;
-            oscard = undefined;
-            if(tangon) { _fun00002_ip = 27; continue _fun00001 }
+            var5 = arg1;
+            var3 = arg2;
+            var2 = arg3;
+            var1 = null;
+            var4 = var1 == var3;
+            var7 = undefined;
+            var6 = undefined;
+            if(var4) { _fun0001_ip = 27; continue _fun0001 }
  22:
-            oscard = zuuluu.type;
+            var6 = var3.type;
  27:
-            if(!(entity == oscard)) { _fun00002_ip = 55; continue _fun00001 }
+            if(!(var1 == var6)) { _fun0001_ip = 55; continue _fun0001 }
  31:
-            option = entity == report;
-            tangon = undefined;
-            if(option) { _fun00002_ip = 52; continue _fun00001 }
+            var8 = var1 == var5;
+            var4 = undefined;
+            if(var8) { _fun0001_ip = 52; continue _fun0001 }
  40:
-            report = report.clientInfo;
-            tangon = report.os;
+            var5 = var5.clientInfo;
+            var4 = var5.os;
  52:
-            oscard = tangon;
+            var6 = var4;
  55:
-            tangon = entity != zuuluu;
-            entity = _closure1_slot2;
-            entity = entity.XBOX;
-            if(!(oscard !== entity)) { _fun00002_ip = 249; continue _fun00001 }
+            var4 = var1 != var3;
+            var1 = _closure1_slot2;
+            var1 = var1.XBOX;
+            if(!(var6 !== var1)) { _fun0001_ip = 249; continue _fun0001 }
  79:
-            entity = _closure1_slot2;
-            entity = entity.PLAYSTATION;
-            if(!(oscard !== entity)) { _fun00002_ip = 112; continue _fun00001 }
+            var1 = _closure1_slot2;
+            var1 = var1.PLAYSTATION;
+            if(!(var6 !== var1)) { _fun0001_ip = 112; continue _fun0001 }
  93:
-            entity = _closure1_slot2;
-            report = entity.PLAYSTATION_STAGING;
-            entity = undefined;
-            if(!(oscard === report)) { _fun00002_ip = 244; continue _fun00001 }
+            var1 = _closure1_slot2;
+            var5 = var1.PLAYSTATION_STAGING;
+            var1 = undefined;
+            if(!(var6 === var5)) { _fun0001_ip = 244; continue _fun0001 }
  112:
-            if(michal) { _fun00002_ip = 181; continue _fun00001 }
+            if(var2) { _fun0001_ip = 181; continue _fun0001 }
  115:
-            report = 'PS5';
-            if(!tangon) { _fun00002_ip = 179; continue _fun00001 }
+            var5 = 'PS5';
+            if(!var4) { _fun0001_ip = 179; continue _fun0001 }
  122:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot1;
-            oscard = 1;
-            option = yankee[oscard];
-            option = offset.bind(golfie)(option);
-            verify = option.intl;
-            option = verify.string;
-            oscard = yankee[oscard];
-            oscard = offset.bind(golfie)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.QCw1oa;
-            report = option.bind(verify)(oscard);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var6 = 1;
+            var8 = var11[var6];
+            var8 = var10.bind(var7)(var8);
+            var9 = var8.intl;
+            var8 = var9.string;
+            var6 = var11[var6];
+            var6 = var10.bind(var7)(var6);
+            var6 = var6.t;
+            var6 = var6.QCw1oa;
+            var5 = var8.bind(var9)(var6);
  179:
-            _fun00002_ip = 241; continue _fun00001;
+            _fun0001_ip = 241; continue _fun0001;
  181:
-            option = _closure1_slot0;
-            yankee = _closure1_slot1;
-            oscard = 1;
-            verify = yankee[oscard];
-            verify = option.bind(golfie)(verify);
-            offset = verify.intl;
-            verify = offset.format;
-            oscard = yankee[oscard];
-            oscard = option.bind(golfie)(oscard);
-            oscard = oscard.t;
-            option = oscard.TZ17Bg;
-            oscard = {};
-            report = verify.bind(offset)(option, oscard);
+            var8 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var6 = 1;
+            var9 = var11[var6];
+            var9 = var8.bind(var7)(var9);
+            var10 = var9.intl;
+            var9 = var10.format;
+            var6 = var11[var6];
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.t;
+            var8 = var6.TZ17Bg;
+            var6 = {};
+            var5 = var9.bind(var10)(var8, var6);
  241:
-            entity = report;
+            var1 = var5;
  244:
-            _fun00002_ip = 381; continue _fun00001;
+            _fun0001_ip = 381; continue _fun0001;
  249:
-            if(michal) { _fun00002_ip = 318; continue _fun00001 }
+            if(var2) { _fun0001_ip = 318; continue _fun0001 }
  252:
-            michal = 'Xbox';
-            if(!tangon) { _fun00002_ip = 316; continue _fun00001 }
+            var2 = 'Xbox';
+            if(!var4) { _fun0001_ip = 316; continue _fun0001 }
  259:
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            tangon = 1;
-            report = verify[tangon];
-            report = option.bind(golfie)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            tangon = verify[tangon];
-            tangon = option.bind(golfie)(tangon);
-            tangon = tangon.t;
-            tangon = tangon.UjA4HR;
-            michal = report.bind(oscard)(tangon);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 1;
+            var5 = var9[var4];
+            var5 = var8.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var9[var4];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.UjA4HR;
+            var2 = var5.bind(var6)(var4);
  316:
-            _fun00002_ip = 378; continue _fun00001;
+            _fun0001_ip = 378; continue _fun0001;
  318:
-            tangon = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 1;
-            report = option[zuuluu];
-            report = tangon.bind(golfie)(report);
-            oscard = report.intl;
-            report = oscard.format;
-            zuuluu = option[zuuluu];
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.t;
-            tangon = zuuluu.ynEs/f;
-            zuuluu = {};
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 1;
+            var5 = var8[var3];
+            var5 = var4.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.format;
+            var3 = var8[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.t;
+            var4 = var3.ynEs/f;
+            var3 = {};
+            var2 = var5.bind(var6)(var4, var3);
  378:
-            entity = michal;
+            var1 = var2;
  381:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getConsoleConnectingText'] = michal;
-    return entity;
+    var3['getConsoleConnectingText'] = var2;
+    return var1;
 })();

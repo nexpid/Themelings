@@ -1,91 +1,91 @@
 // app/modules/game_profile/experiments/GameProfileExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    yankee = true;
-    tangon['value'] = yankee;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    verify = tangon.CommonTriggerPoints;
-    tangon = 1;
-    tangon = golfie[tangon];
-    option = oscard.bind(entity)(tangon);
-    report = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2024-06_game_profile_experiment', 'label': 'Enables the Game Profile'};
-    offset = {};
-    romeon = false;
-    offset['enabled'] = romeon;
-    tangon['defaultConfig'] = offset;
-    verify = verify.CONNECTION_OPEN;
-    tangon['commonTriggerPoint'] = verify;
-    offset = {'id': 1, 'label': 'Enabled'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    tangon['treatments'] = verify;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot0 = tangon;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/game_profile/experiments/GameProfileExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['GameProfileRolloutExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: canSeeGameProfile
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var11 = true;
+    var4['value'] = var11;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var9 = var4.CommonTriggerPoints;
+    var4 = 1;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createExperiment;
+    var4 = {'kind': 'user', 'id': '2024-06_game_profile_experiment', 'label': 'Enables the Game Profile'};
+    var10 = {};
+    var12 = false;
+    var10['enabled'] = var12;
+    var4['defaultConfig'] = var10;
+    var9 = var9.CONNECTION_OPEN;
+    var4['commonTriggerPoint'] = var9;
+    var10 = {'id': 1, 'label': 'Enabled'};
+    var9 = {};
+    var9['enabled'] = var11;
+    var10['config'] = var9;
+    var9 = new Array(1);
+    var9[0] = var10;
+    var4['treatments'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot0 = var4;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/game_profile/experiments/GameProfileExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['GameProfileRolloutExperiment'] = var4;
+    var4 = function canSeeGameProfile(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = arguments[1];
-            entity = undefined;
-            if(!(report === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            var5 = arguments[1];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            report = true;
+            var5 = true;
  11:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            entity = argFoo;
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var1 = arg1;
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['canSeeGameProfile'] = tangon;
-    michal = function(argFoo) { // Original name: useCanSeeGameProfile
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['canSeeGameProfile'] = var4;
+    var2 = function useCanSeeGameProfile(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = arguments[1];
-            entity = undefined;
-            if(!(report === entity)) { _fun00004_ip = 11; continue _fun00003 }
+            var5 = arguments[1];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0002_ip = 11; continue _fun0002 }
  9:
-            report = true;
+            var5 = true;
  11:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            entity = argFoo;
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var1 = arg1;
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['useCanSeeGameProfile'] = michal;
-    return entity;
+    var3['useCanSeeGameProfile'] = var2;
+    return var1;
 })();

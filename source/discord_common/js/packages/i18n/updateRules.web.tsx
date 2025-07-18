@@ -1,154 +1,154 @@
 // discord_common/js/packages/i18n/updateRules.web.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/i18n/updateRules.web.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: updateRules
-        entity = argFoo;
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        michal = 2;
-        golfie = oscard[michal];
-        tangon = undefined;
-        golfie = report.bind(tangon)(golfie);
-        golfie = golfie.defaultRules;
-        golfie = golfie.heading;
-        entity['heading'] = golfie;
-        golfie = oscard[michal];
-        golfie = report.bind(tangon)(golfie);
-        golfie = golfie.defaultRules;
-        golfie = golfie.lheading;
-        entity['lheading'] = golfie;
-        michal = oscard[michal];
-        michal = report.bind(tangon)(michal);
-        michal = michal.defaultRules;
-        michal = michal.list;
-        entity['list'] = michal;
-        michal = {};
-        option = entity.paragraph;
-        verify = michal;
-        tangon = copyDataProperties(verify, option);
-        report = function(argFoo, argBar, argBaz) { // Original name: react
-            entity = argBaz;
-            report = _closure1_slot2;
-            tangon = {};
-            michal = argFoo;
-            oscard = michal.content;
-            michal = argBar;
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(oscard, entity);
-            tangon['children'] = michal;
-            michal = entity.key;
-            entity = 'p';
-            entity = report.bind(zuuluu)(entity, tangon, michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/i18n/updateRules.web.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function updateRules(arg1) {
+        var1 = arg1;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var2 = 2;
+        var7 = var6[var2];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.defaultRules;
+        var7 = var7.heading;
+        var1['heading'] = var7;
+        var7 = var6[var2];
+        var7 = var5.bind(var4)(var7);
+        var7 = var7.defaultRules;
+        var7 = var7.lheading;
+        var1['lheading'] = var7;
+        var2 = var6[var2];
+        var2 = var5.bind(var4)(var2);
+        var2 = var2.defaultRules;
+        var2 = var2.list;
+        var1['list'] = var2;
+        var2 = {};
+        var8 = var1.paragraph;
+        var9 = var2;
+        var4 = copyDataProperties(var9, var8);
+        var5 = function react(arg1, arg2, arg3) {
+            var1 = arg3;
+            var5 = _closure1_slot2;
+            var4 = {};
+            var2 = arg1;
+            var6 = var2.content;
+            var2 = arg2;
+            var3 = undefined;
+            var2 = var2.bind(var3)(var6, var1);
+            var4['children'] = var2;
+            var2 = var1.key;
+            var1 = 'p';
+            var1 = var5.bind(var3)(var1, var4, var2);
+            return var1;
         };
-        tangon = 'react';
-        michal[tangon] = report;
-        entity['paragraph'] = michal;
-        michal = {};
-        option = entity.link;
-        verify = michal;
-        report = copyDataProperties(verify, option);
-        zuuluu = function(argFoo, argBar, argBaz) { // Original name: react
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var4 = 'react';
+        var2[var4] = var5;
+        var1['paragraph'] = var2;
+        var2 = {};
+        var8 = var1.link;
+        var9 = var2;
+        var5 = copyDataProperties(var9, var8);
+        var3 = function react(arg1, arg2, arg3) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                entity = argBaz;
-                zuuluu = {};
-                tangon = michal.context;
-                oscard = null;
-                if(!(oscard != tangon)) { _fun00002_ip = 78; continue _fun00001 }
+                var2 = arg1;
+                var1 = arg3;
+                var3 = {};
+                var4 = var2.context;
+                var6 = null;
+                if(!(var6 != var4)) { _fun0001_ip = 78; continue _fun0001 }
  19:
-                report = michal.context;
-                tangon = michal.target;
-                tangon = report[tangon];
-                if(!tangon) { _fun00002_ip = 46; continue _fun00001 }
+                var5 = var2.context;
+                var4 = var2.target;
+                var4 = var5[var4];
+                if(!var4) { _fun0001_ip = 46; continue _fun0001 }
  37:
-                report = tangon.onClick;
-                if(report) { _fun00002_ip = 54; continue _fun00001 }
+                var5 = var4.onClick;
+                if(var5) { _fun0001_ip = 54; continue _fun0001 }
  46:
-                zuuluu['onClick'] = tangon;
-                _fun00002_ip = 78; continue _fun00001;
+                var3['onClick'] = var4;
+                _fun0001_ip = 78; continue _fun0001;
  54:
-                report = tangon.onClick;
-                zuuluu['onClick'] = report;
-                tangon = tangon.onContextMenu;
-                zuuluu['onContextMenu'] = tangon;
+                var5 = var4.onClick;
+                var3['onClick'] = var5;
+                var4 = var4.onContextMenu;
+                var3['onContextMenu'] = var4;
  78:
-                tangon = zuuluu.onClick;
-                if(!(oscard == tangon)) { _fun00002_ip = 158; continue _fun00001 }
+                var4 = var3.onClick;
+                if(!(var6 == var4)) { _fun0001_ip = 158; continue _fun0001 }
  88:
-                golfie = _closure1_slot0;
-                report = _closure1_slot1;
-                tangon = 2;
-                report = report[tangon];
-                tangon = undefined;
-                option = golfie.bind(tangon)(report);
-                golfie = option.sanitizeUrl;
-                report = michal.target;
-                report = golfie.bind(option)(report);
-                oscard = oscard != report;
-                if(!oscard) { _fun00002_ip = 140; continue _fun00001 }
+                var7 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var4 = 2;
+                var5 = var5[var4];
+                var4 = undefined;
+                var8 = var7.bind(var4)(var5);
+                var7 = var8.sanitizeUrl;
+                var5 = var2.target;
+                var5 = var7.bind(var8)(var5);
+                var6 = var6 != var5;
+                if(!var6) { _fun0001_ip = 140; continue _fun0001 }
  137:
-                tangon = report;
+                var4 = var5;
  140:
-                zuuluu['href'] = tangon;
-                tangon = '_blank';
-                zuuluu['target'] = tangon;
+                var3['href'] = var4;
+                var4 = '_blank';
+                var3['target'] = var4;
  158:
-                report = _closure1_slot2;
-                tangon = {};
-                oscard = michal.title;
-                tangon['title'] = oscard;
-                yankee = tangon;
-                offset = zuuluu;
-                zuuluu = copyDataProperties(yankee, offset);
-                oscard = 'noreferrer';
-                zuuluu = 'rel';
-                tangon[zuuluu] = oscard;
-                oscard = michal.content;
-                michal = argBar;
-                zuuluu = undefined;
-                oscard = michal.bind(zuuluu)(oscard, entity);
-                michal = 'children';
-                tangon[michal] = oscard;
-                michal = entity.key;
-                entity = 'a';
-                entity = report.bind(zuuluu)(entity, tangon, michal);
-                return entity;
+                var5 = _closure1_slot2;
+                var4 = {};
+                var6 = var2.title;
+                var4['title'] = var6;
+                var11 = var4;
+                var10 = var3;
+                var3 = copyDataProperties(var11, var10);
+                var6 = 'noreferrer';
+                var3 = 'rel';
+                var4[var3] = var6;
+                var6 = var2.content;
+                var2 = arg2;
+                var3 = undefined;
+                var6 = var2.bind(var3)(var6, var1);
+                var2 = 'children';
+                var4[var2] = var6;
+                var2 = var1.key;
+                var1 = 'a';
+                var1 = var5.bind(var3)(var1, var4, var2);
+                return var1;
             }
         };
-        michal[tangon] = zuuluu;
-        entity['link'] = michal;
-        return entity;
+        var2[var4] = var3;
+        var1['link'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

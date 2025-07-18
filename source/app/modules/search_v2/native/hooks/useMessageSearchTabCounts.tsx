@@ -1,91 +1,91 @@
 // app/modules/search_v2/native/hooks/useMessageSearchTabCounts.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MESSAGE_SEARCH_RESULT_TABS;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/search_v2/native/hooks/useMessageSearchTabCounts.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useMessageSearchTabCounts
-        oscard = argFoo;
-        golfie = argBar;
-        var _closure2_slot0 = oscard;
-        var _closure2_slot1 = golfie;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresObject;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        entity = function() {
-            tangon = _closure1_slot3;
-            zuuluu = tangon.reduce;
-            michal = function(argFoo, argBar) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MESSAGE_SEARCH_RESULT_TABS;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/search_v2/native/hooks/useMessageSearchTabCounts.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMessageSearchTabCounts(arg1, arg2) {
+        var6 = arg1;
+        var7 = arg2;
+        var _closure2_slot0 = var6;
+        var _closure2_slot1 = var7;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresObject;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
+        var1 = function() {
+            var4 = _closure1_slot3;
+            var3 = var4.reduce;
+            var2 = function(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = argBar;
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot1;
-                    tangon = 3;
-                    report = report[tangon];
-                    tangon = undefined;
-                    golfie = oscard.bind(tangon)(report);
-                    oscard = golfie.getSearchTabFetchId;
-                    report = _closure2_slot0;
-                    tangon = _closure2_slot1;
-                    report = oscard.bind(golfie)(report, zuuluu, tangon);
-                    tangon = _closure1_slot2;
-                    michal = tangon.getTotalCount;
-                    tangon = michal.bind(tangon)(report);
-                    michal = null;
-                    report = michal != tangon;
-                    if(!report) { _fun00002_ip = 82; continue _fun00001 }
+                    var1 = arg1;
+                    var3 = arg2;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var4 = 3;
+                    var5 = var5[var4];
+                    var4 = undefined;
+                    var7 = var6.bind(var4)(var5);
+                    var6 = var7.getSearchTabFetchId;
+                    var5 = _closure2_slot0;
+                    var4 = _closure2_slot1;
+                    var5 = var6.bind(var7)(var5, var3, var4);
+                    var4 = _closure1_slot2;
+                    var2 = var4.getTotalCount;
+                    var4 = var2.bind(var4)(var5);
+                    var2 = null;
+                    var5 = var2 != var4;
+                    if(!var5) { _fun0001_ip = 82; continue _fun0001 }
  79:
-                    michal = tangon;
+                    var2 = var4;
  82:
-                    entity[zuuluu] = michal;
-                    return entity;
+                    var1[var3] = var2;
+                    return var1;
                 }
             };
-            entity = {};
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = {};
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useMessageSearchTabCounts'] = michal;
-    return entity;
+    var3['useMessageSearchTabCounts'] = var2;
+    return var1;
 })();

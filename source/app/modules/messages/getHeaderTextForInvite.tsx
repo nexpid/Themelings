@@ -1,131 +1,131 @@
 // app/modules/messages/getHeaderTextForInvite.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/getHeaderTextForInvite.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getHeaderTextForInvite
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/getHeaderTextForInvite.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getHeaderTextForInvite(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            verify = tangon.isVoiceChannel;
-            entity = tangon.isHubGuild;
-            michal = tangon.isOwnInvite;
-            zuuluu = tangon.isGuest;
-            golfie = tangon.isStage;
-            option = tangon.isStream;
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot1;
-            tangon = 0;
-            report = romeon[tangon];
-            offset = undefined;
-            report = yankee.bind(offset)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            tangon = romeon[tangon];
-            tangon = yankee.bind(offset)(tangon);
-            tangon = tangon.t;
-            if(verify) { _fun00002_ip = 165; continue _fun00001 }
+            var4 = arg1;
+            var9 = var4.isVoiceChannel;
+            var1 = var4.isHubGuild;
+            var2 = var4.isOwnInvite;
+            var3 = var4.isGuest;
+            var7 = var4.isStage;
+            var8 = var4.isStream;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var4 = 0;
+            var5 = var12[var4];
+            var10 = undefined;
+            var5 = var11.bind(var10)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var12[var4];
+            var4 = var11.bind(var10)(var4);
+            var4 = var4.t;
+            if(var9) { _fun0001_ip = 165; continue _fun0001 }
  90:
-            if(entity) { _fun00002_ip = 126; continue _fun00001 }
+            if(var1) { _fun0001_ip = 126; continue _fun0001 }
  93:
-            if(michal) { _fun00002_ip = 111; continue _fun00001 }
+            if(var2) { _fun0001_ip = 111; continue _fun0001 }
  96:
-            entity = tangon.BoQUFR;
-            entity = report.bind(oscard)(entity);
-            _fun00002_ip = 124; continue _fun00001;
+            var1 = var4.BoQUFR;
+            var1 = var5.bind(var6)(var1);
+            _fun0001_ip = 124; continue _fun0001;
  111:
-            verify = tangon.oU/lsr;
-            entity = report.bind(oscard)(verify);
+            var9 = var4.oU/lsr;
+            var1 = var5.bind(var6)(var9);
  124:
-            _fun00002_ip = 160; continue _fun00001;
+            _fun0001_ip = 160; continue _fun0001;
  126:
-            if(michal) { _fun00002_ip = 144; continue _fun00001 }
+            if(var2) { _fun0001_ip = 144; continue _fun0001 }
  129:
-            verify = tangon.sigPER;
-            verify = report.bind(oscard)(verify);
-            _fun00002_ip = 157; continue _fun00001;
+            var9 = var4.sigPER;
+            var9 = var5.bind(var6)(var9);
+            _fun0001_ip = 157; continue _fun0001;
  144:
-            offset = tangon.UxmnHx;
-            verify = report.bind(oscard)(offset);
+            var10 = var4.UxmnHx;
+            var9 = var5.bind(var6)(var10);
  157:
-            entity = verify;
+            var1 = var9;
  160:
-            _fun00002_ip = 310; continue _fun00001;
+            _fun0001_ip = 310; continue _fun0001;
  165:
-            if(michal) { _fun00002_ip = 237; continue _fun00001 }
+            if(var2) { _fun0001_ip = 237; continue _fun0001 }
  168:
-            if(option) { _fun00002_ip = 222; continue _fun00001 }
+            if(var8) { _fun0001_ip = 222; continue _fun0001 }
  171:
-            if(golfie) { _fun00002_ip = 207; continue _fun00001 }
+            if(var7) { _fun0001_ip = 207; continue _fun0001 }
  174:
-            if(zuuluu) { _fun00002_ip = 192; continue _fun00001 }
+            if(var3) { _fun0001_ip = 192; continue _fun0001 }
  177:
-            michal = tangon.H39rER;
-            michal = report.bind(oscard)(michal);
-            _fun00002_ip = 205; continue _fun00001;
+            var2 = var4.H39rER;
+            var2 = var5.bind(var6)(var2);
+            _fun0001_ip = 205; continue _fun0001;
  192:
-            verify = tangon.f4gmra;
-            michal = report.bind(oscard)(verify);
+            var9 = var4.f4gmra;
+            var2 = var5.bind(var6)(var9);
  205:
-            _fun00002_ip = 220; continue _fun00001;
+            _fun0001_ip = 220; continue _fun0001;
  207:
-            verify = tangon.FdPNr6;
-            michal = report.bind(oscard)(verify);
+            var9 = var4.FdPNr6;
+            var2 = var5.bind(var6)(var9);
  220:
-            _fun00002_ip = 235; continue _fun00001;
+            _fun0001_ip = 235; continue _fun0001;
  222:
-            verify = tangon.Mnvc3N;
-            michal = report.bind(oscard)(verify);
+            var9 = var4.Mnvc3N;
+            var2 = var5.bind(var6)(var9);
  235:
-            _fun00002_ip = 307; continue _fun00001;
+            _fun0001_ip = 307; continue _fun0001;
  237:
-            if(option) { _fun00002_ip = 291; continue _fun00001 }
+            if(var8) { _fun0001_ip = 291; continue _fun0001 }
  240:
-            if(golfie) { _fun00002_ip = 276; continue _fun00001 }
+            if(var7) { _fun0001_ip = 276; continue _fun0001 }
  243:
-            if(zuuluu) { _fun00002_ip = 261; continue _fun00001 }
+            if(var3) { _fun0001_ip = 261; continue _fun0001 }
  246:
-            zuuluu = tangon.lxTgPz;
-            zuuluu = report.bind(oscard)(zuuluu);
-            _fun00002_ip = 274; continue _fun00001;
+            var3 = var4.lxTgPz;
+            var3 = var5.bind(var6)(var3);
+            _fun0001_ip = 274; continue _fun0001;
  261:
-            golfie = tangon.mJyBio;
-            zuuluu = report.bind(oscard)(golfie);
+            var7 = var4.mJyBio;
+            var3 = var5.bind(var6)(var7);
  274:
-            _fun00002_ip = 289; continue _fun00001;
+            _fun0001_ip = 289; continue _fun0001;
  276:
-            golfie = tangon.TJQcNj;
-            zuuluu = report.bind(oscard)(golfie);
+            var7 = var4.TJQcNj;
+            var3 = var5.bind(var6)(var7);
  289:
-            _fun00002_ip = 304; continue _fun00001;
+            _fun0001_ip = 304; continue _fun0001;
  291:
-            tangon = tangon.N85DCg;
-            zuuluu = report.bind(oscard)(tangon);
+            var4 = var4.N85DCg;
+            var3 = var5.bind(var6)(var4);
  304:
-            michal = zuuluu;
+            var2 = var3;
  307:
-            entity = michal;
+            var1 = var2;
  310:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getHeaderTextForInvite'] = michal;
-    return entity;
+    var3['getHeaderTextForInvite'] = var2;
+    return var1;
 })();

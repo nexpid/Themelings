@@ -1,63 +1,63 @@
 // app/utils/StylesheetUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/StylesheetUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: getClass
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/StylesheetUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getClass(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = 2;
-            zuuluu = copyRestArgs(oscard);
-            michal = zuuluu.reduce;
-            entity = function(argFoo, argBar) {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 0;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.upperCaseFirstChar;
-                entity = argBar;
-                michal = michal.bind(zuuluu)(entity);
-                entity = argFoo;
-                entity = entity + michal;
-                return entity;
+            var6 = 2;
+            var3 = copyRestArgs(var6);
+            var2 = var3.reduce;
+            var1 = function(arg1, arg2) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 0;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.upperCaseFirstChar;
+                var1 = arg2;
+                var2 = var2.bind(var3)(var1);
+                var1 = arg1;
+                var1 = var1 + var2;
+                return var1;
             };
-            tangon = '';
-            zuuluu = michal.bind(zuuluu)(entity, tangon);
-            entity = global;
-            entity = entity.HermesInternal;
-            michal = entity.concat;
-            entity = argBar;
-            michal = michal.bind(tangon)(entity, zuuluu);
-            entity = argFoo;
-            entity = entity[michal];
-            michal = null;
-            if(!(michal == entity)) { _fun00002_ip = 69; continue _fun00001 }
+            var4 = '';
+            var3 = var2.bind(var3)(var1, var4);
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var2 = var1.concat;
+            var1 = arg2;
+            var2 = var2.bind(var4)(var1, var3);
+            var1 = arg1;
+            var1 = var1[var2];
+            var2 = null;
+            if(!(var2 == var1)) { _fun0001_ip = 69; continue _fun0001 }
  65:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getClass'] = michal;
-    return entity;
+    var3['getClass'] = var2;
+    return var1;
 })();

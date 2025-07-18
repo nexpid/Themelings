@@ -1,83 +1,83 @@
 // discord_common/js/packages/type-utils/TypeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/type-utils/TypeUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: exact
-        entity = argFoo;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/type-utils/TypeUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function exact(arg1) {
+        var1 = arg1;
+        return var1;
     };
-    zuuluu['exact'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: hasOwnProperty
-        zuuluu = argFoo;
-        michal = zuuluu.hasOwnProperty;
-        entity = argBar;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['exact'] = var4;
+    var4 = function hasOwnProperty(arg1, arg2) {
+        var3 = arg1;
+        var2 = var3.hasOwnProperty;
+        var1 = arg2;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['hasOwnProperty'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: dangerouslyCast
-        entity = global;
-        tangon = entity.Object;
-        zuuluu = tangon.setPrototypeOf;
-        entity = argBar;
-        michal = entity.prototype;
-        entity = argFoo;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['hasOwnProperty'] = var4;
+    var4 = function dangerouslyCast(arg1, arg2) {
+        var1 = global;
+        var4 = var1.Object;
+        var3 = var4.setPrototypeOf;
+        var1 = arg2;
+        var2 = var1.prototype;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['dangerouslyCast'] = tangon;
-    tangon = function(argFoo) { // Original name: assertUnreachable
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['dangerouslyCast'] = var4;
+    var4 = function assertUnreachable(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = arguments[1];
-            entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            var2 = arguments[1];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            michal = {};
+            var2 = {};
  11:
-            michal = michal.andFail;
-            if(!(michal === entity)) { _fun00002_ip = 23; continue _fun00001 }
+            var2 = var2.andFail;
+            if(!(var2 === var1)) { _fun0001_ip = 23; continue _fun0001 }
  21:
-            michal = true;
+            var2 = true;
  23:
-            if(michal) { _fun00002_ip = 28; continue _fun00001 }
+            if(var2) { _fun0001_ip = 28; continue _fun0001 }
  26:
-            return entity;
+            return var1;
  28:
-            entity = global;
-            entity = entity.Error;
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            tangon = michal;
-            entity = new tangon[entity](zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var1 = var1.Error;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var4 = var2;
+            var1 = new var4[var1](var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    zuuluu['assertUnreachable'] = tangon;
-    michal = function(argFoo) { // Original name: arrayIsNotEmpty
-        entity = argFoo;
-        michal = entity.length;
-        entity = 0;
-        entity = michal > entity;
-        return entity;
+    var3['assertUnreachable'] = var4;
+    var2 = function arrayIsNotEmpty(arg1) {
+        var1 = arg1;
+        var2 = var1.length;
+        var1 = 0;
+        var1 = var2 > var1;
+        return var1;
     };
-    zuuluu['arrayIsNotEmpty'] = michal;
-    return entity;
+    var3['arrayIsNotEmpty'] = var2;
+    return var1;
 })();

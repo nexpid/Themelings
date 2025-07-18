@@ -1,58 +1,58 @@
 // app/modules/system_dm/navigateToSystemDM.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SYSTEM_USER;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/system_dm/navigateToSystemDM.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: navigateToSystemDM
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SYSTEM_USER;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/system_dm/navigateToSystemDM.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function navigateToSystemDM() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getDMFromUserId;
-            michal = _closure1_slot3;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 61; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = var4.getDMFromUserId;
+            var2 = _closure1_slot3;
+            var3 = var3.bind(var4)(var2);
+            var2 = null;
+            if(!(var2 != var3)) { _fun0001_ip = 61; continue _fun0001 }
  28:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.selectPrivateChannel;
-            entity = entity.bind(michal)(zuuluu);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.selectPrivateChannel;
+            var1 = var1.bind(var2)(var3);
  61:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

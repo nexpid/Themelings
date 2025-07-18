@@ -1,436 +1,436 @@
 // app/modules/activities/utils/CustomActivityLinkUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = option;
-    report = function() { // Original name: fetchCustomActivityLink
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var10 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var8;
+    var5 = function fetchCustomActivityLink() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = report;
-    entity = function() { // Original name: _fetchCustomActivityLink
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var5;
+    var1 = function _fetchCustomActivityLink() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    yankee = argFoo;
-                    report = argBar;
+                    var11 = arg1;
+                    var5 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 348; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 348; continue _fun0001 }
  16:
-                    michal = null;
-                    if(!(michal != yankee)) { _fun00002_ip = 345; continue _fun00001 }
+                    var2 = null;
+                    if(!(var2 != var11)) { _fun0001_ip = 345; continue _fun0001 }
  25:
-                    if(!(michal != report)) { _fun00002_ip = 345; continue _fun00001 }
+                    if(!(var2 != var5)) { _fun0001_ip = 345; continue _fun0001 }
  32:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    offset = 3;
-                    zuuluu = zuuluu[offset];
-                    golfie = undefined;
-                    tangon = tangon.bind(golfie)(zuuluu);
-                    zuuluu = tangon.decodeCustomActivityLink;
-                    option = zuuluu.bind(tangon)(report);
-                    tangon = michal == option;
-                    zuuluu = null;
-                    if(tangon) { _fun00002_ip = 342; continue _fun00001 }
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var10 = 3;
+                    var3 = var3[var10];
+                    var7 = undefined;
+                    var4 = var4.bind(var7)(var3);
+                    var3 = var4.decodeCustomActivityLink;
+                    var8 = var3.bind(var4)(var5);
+                    var4 = var2 == var8;
+                    var3 = null;
+                    if(var4) { _fun0001_ip = 342; continue _fun0001 }
  80:
-                    report = option.type;
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[offset];
-                    tangon = oscard.bind(golfie)(tangon);
-                    tangon = tangon.CustomLinkType;
-                    tangon = tangon.MANAGED;
-                    if(!(report !== tangon)) { _fun00002_ip = 250; continue _fun00001 }
+                    var5 = var8.type;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var10];
+                    var4 = var6.bind(var7)(var4);
+                    var4 = var4.CustomLinkType;
+                    var4 = var4.MANAGED;
+                    if(!(var5 !== var4)) { _fun0001_ip = 250; continue _fun0001 }
  121:
-                    oscard = option.type;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[offset];
-                    tangon = report.bind(golfie)(tangon);
-                    tangon = tangon.CustomLinkType;
-                    tangon = tangon.QUICK;
-                    report = null;
-                    if(!(oscard === tangon)) { _fun00002_ip = 245; continue _fun00001 }
+                    var6 = var8.type;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var10];
+                    var4 = var5.bind(var7)(var4);
+                    var4 = var4.CustomLinkType;
+                    var4 = var4.QUICK;
+                    var5 = null;
+                    if(!(var6 === var4)) { _fun0001_ip = 245; continue _fun0001 }
  161:
-                    oscard = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    tangon = 4;
-                    tangon = offset[tangon];
-                    tangon = oscard.bind(golfie)(tangon);
-                    offset = tangon.HTTP;
-                    oscard = offset.get;
-                    tangon = {};
-                    backup = _closure1_slot5;
-                    foxtra = backup.APPLICATION_QUICK_ACTIVITY_LINK;
-                    romeon = option.decodedLinkId;
-                    romeon = foxtra.bind(backup)(yankee, romeon);
-                    tangon['url'] = romeon;
-                    romeon = false;
-                    tangon['rejectWithError'] = romeon;
-                    tangon = oscard.bind(offset)(tangon);
+                    var6 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var10[var4];
+                    var4 = var6.bind(var7)(var4);
+                    var10 = var4.HTTP;
+                    var6 = var10.get;
+                    var4 = {};
+                    var14 = _closure1_slot5;
+                    var13 = var14.APPLICATION_QUICK_ACTIVITY_LINK;
+                    var12 = var8.decodedLinkId;
+                    var12 = var13.bind(var14)(var11, var12);
+                    var4['url'] = var12;
+                    var12 = false;
+                    var4['rejectWithError'] = var12;
+                    var4 = var6.bind(var10)(var4);
                     SaveGenerator(address=234);
  232:
-                    return tangon;
+                    return var4;
  234:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 247; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 247; continue _fun0001 }
  240:
-                    report = tangon.body;
+                    var5 = var4.body;
  245:
-                    _fun00002_ip = 334; continue _fun00001;
+                    _fun0001_ip = 334; continue _fun0001;
  247:
-                    return tangon;
+                    return var4;
  250:
-                    oscard = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    tangon = 4;
-                    tangon = offset[tangon];
-                    tangon = oscard.bind(golfie)(tangon);
-                    golfie = tangon.HTTP;
-                    oscard = golfie.get;
-                    tangon = {};
-                    offset = _closure1_slot5;
-                    verify = offset.APPLICATION_MANAGED_ACTIVITY_LINK;
-                    option = option.decodedLinkId;
-                    option = verify.bind(offset)(yankee, option);
-                    tangon['url'] = option;
-                    option = false;
-                    tangon['rejectWithError'] = option;
-                    tangon = oscard.bind(golfie)(tangon);
+                    var6 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var10[var4];
+                    var4 = var6.bind(var7)(var4);
+                    var7 = var4.HTTP;
+                    var6 = var7.get;
+                    var4 = {};
+                    var10 = _closure1_slot5;
+                    var9 = var10.APPLICATION_MANAGED_ACTIVITY_LINK;
+                    var8 = var8.decodedLinkId;
+                    var8 = var9.bind(var10)(var11, var8);
+                    var4['url'] = var8;
+                    var8 = false;
+                    var4['rejectWithError'] = var8;
+                    var4 = var6.bind(var7)(var4);
                     SaveGenerator(address=323);
  321:
-                    return tangon;
+                    return var4;
  323:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 339; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 339; continue _fun0001 }
  329:
-                    report = tangon.body;
+                    var5 = var4.body;
  334:
-                    zuuluu = report;
-                    _fun00002_ip = 342; continue _fun00001;
+                    var3 = var5;
+                    _fun0001_ip = 342; continue _fun0001;
  339:
-                    return tangon;
+                    return var4;
  342:
-                    return zuuluu;
+                    return var3;
  345:
-                    return michal;
+                    return var2;
  348:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = function() { // Original name: _getCustomActivityLinkParams
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var1;
+    var1 = function _getCustomActivityLinkParams() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    verify = argBaz;
+                    var9 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 170; continue _fun00003 }
+                    if(var6) { _fun0002_ip = 170; continue _fun0002 }
  13:
-                    tangon = argFoo;
-                    michal = argBar;
-                    option = undefined;
-                    zuuluu = undefined;
-                    report = undefined;
-                    golfie = null;
-                    offset = golfie != verify;
-                    oscard = undefined;
-                    if(!offset) { _fun00004_ip = 39; continue _fun00003 }
+                    var4 = arg1;
+                    var2 = arg2;
+                    var8 = undefined;
+                    var3 = undefined;
+                    var5 = undefined;
+                    var7 = null;
+                    var10 = var7 != var9;
+                    var6 = undefined;
+                    if(!var10) { _fun0002_ip = 39; continue _fun0002 }
  36:
-                    oscard = verify;
+                    var6 = var9;
  39:
-                    zuuluu = oscard;
-                    oscard = michal;
-                    if(!(golfie != oscard)) { _fun00004_ip = 160; continue _fun00003 }
+                    var3 = var6;
+                    var6 = var2;
+                    if(!(var7 != var6)) { _fun0002_ip = 160; continue _fun0002 }
  49:
-                    oscard = zuuluu;
-                    if(!(golfie == oscard)) { _fun00004_ip = 147; continue _fun00003 }
+                    var6 = var3;
+                    if(!(var7 == var6)) { _fun0002_ip = 147; continue _fun0002 }
  56: // try_start_0
-                    oscard = _closure1_slot7;
-                    michal = oscard.bind(option)(tangon, michal);
+                    var6 = _closure1_slot7;
+                    var2 = var6.bind(var8)(var4, var2);
                     SaveGenerator(address=73);
  71:
-                    return michal;
+                    return var2;
  73:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 129; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 129; continue _fun0002 }
  79:
-                    report = michal;
-                    if(!(golfie != michal)) { _fun00004_ip = 113; continue _fun00003 }
+                    var5 = var2;
+                    if(!(var7 != var2)) { _fun0002_ip = 113; continue _fun0002 }
  86:
-                    tangon = {};
-                    oscard = zuuluu;
-                    if(!(golfie == oscard)) { _fun00004_ip = 103; continue _fun00003 }
+                    var4 = {};
+                    var6 = var3;
+                    if(!(var7 == var6)) { _fun0002_ip = 103; continue _fun0002 }
  95:
-                    report = report.custom_id;
-                    _fun00004_ip = 106; continue _fun00003;
+                    var5 = var5.custom_id;
+                    _fun0002_ip = 106; continue _fun0002;
  103:
-                    report = zuuluu;
+                    var5 = var3;
  106:
-                    tangon['customId'] = report;
-                    _fun00004_ip = 126; continue _fun00003;
+                    var4['customId'] = var5;
+                    _fun0002_ip = 126; continue _fun0002;
  113:
-                    report = {};
-                    oscard = zuuluu;
-                    report['customId'] = oscard;
-                    tangon = report;
+                    var5 = {};
+                    var6 = var3;
+                    var5['customId'] = var6;
+                    var4 = var5;
  126: // try_end0
-                    return tangon;
+                    return var4;
  129:
-                    return michal;
+                    return var2;
  132: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    michal = {};
-                    tangon = zuuluu;
-                    michal['customId'] = tangon;
-                    return michal;
+                    var2 = {};
+                    var4 = var3;
+                    var2['customId'] = var4;
+                    return var2;
  147:
-                    michal = {};
-                    tangon = zuuluu;
-                    michal['customId'] = tangon;
-                    return michal;
+                    var2 = {};
+                    var4 = var3;
+                    var2['customId'] = var4;
+                    return var2;
  160:
-                    michal = {};
-                    michal['customId'] = zuuluu;
-                    return michal;
+                    var2 = {};
+                    var2['customId'] = var3;
+                    return var2;
  170:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    tangon = function() { // Original name: loadCustomActivityLink
-        entity = undefined;
-        tangon = _closure1_slot11;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot9 = var1;
+    var4 = function loadCustomActivityLink() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot10 = tangon;
-    entity = function() { // Original name: _loadCustomActivityLink
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot10 = var4;
+    var1 = function _loadCustomActivityLink() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
-                    golfie = argFoo;
-                    oscard = argBar;
+                    var7 = arg1;
+                    var6 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 168; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 168; continue _fun0003 }
  16:
-                    report = null;
-                    if(!(report != golfie)) { _fun00006_ip = 140; continue _fun00005 }
+                    var5 = null;
+                    if(!(var5 != var7)) { _fun0003_ip = 140; continue _fun0003 }
  22:
-                    if(!(report != oscard)) { _fun00006_ip = 140; continue _fun00005 }
+                    if(!(var5 != var6)) { _fun0003_ip = 140; continue _fun0003 }
  26:
-                    michal = _closure1_slot7;
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(golfie, oscard);
+                    var2 = _closure1_slot7;
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var7, var6);
                     SaveGenerator(address=45);
  43:
-                    return michal;
+                    return var2;
  45:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00006_ip = 137; continue _fun00005 }
+                    if(var6) { _fun0003_ip = 137; continue _fun0003 }
  51:
-                    if(!(report != michal)) { _fun00006_ip = 109; continue _fun00005 }
+                    if(!(var5 != var2)) { _fun0003_ip = 109; continue _fun0003 }
  55:
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 5;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'CUSTOM_ACTIVITY_LINK_FETCH_SUCCESS';
-                    tangon['type'] = option;
-                    tangon['applicationId'] = golfie;
-                    tangon['link'] = michal;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 5;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'CUSTOM_ACTIVITY_LINK_FETCH_SUCCESS';
+                    var4['type'] = var8;
+                    var4['applicationId'] = var7;
+                    var4['link'] = var2;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  109:
-                    zuuluu = global;
-                    report = zuuluu.Promise;
-                    tangon = report.reject;
-                    zuuluu = 'fetchCustomActivityLink body is null';
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    return zuuluu;
+                    var3 = global;
+                    var5 = var3.Promise;
+                    var4 = var5.reject;
+                    var3 = 'fetchCustomActivityLink body is null';
+                    var3 = var4.bind(var5)(var3);
+                    return var3;
  137:
-                    return michal;
+                    return var2;
  140:
-                    michal = global;
-                    tangon = michal.Promise;
-                    zuuluu = tangon.reject;
-                    michal = 'appId or linkId null';
-                    michal = zuuluu.bind(tangon)(michal);
-                    return michal;
+                    var2 = global;
+                    var4 = var2.Promise;
+                    var3 = var4.reject;
+                    var2 = 'appId or linkId null';
+                    var2 = var3.bind(var4)(var2);
+                    return var2;
  168:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    oscard = global;
-    romeon = oscard.Object;
-    yankee = romeon.defineProperty;
-    verify = {};
-    entity = true;
-    verify['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, verify);
-    entity = 0;
-    verify = option[entity];
-    entity = undefined;
-    verify = offset.bind(entity)(verify);
-    var _closure1_slot3 = verify;
-    verify = 1;
-    verify = option[verify];
-    verify = offset.bind(entity)(verify);
-    var _closure1_slot4 = verify;
-    verify = 2;
-    verify = option[verify];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.Endpoints;
-    var _closure1_slot5 = verify;
-    oscard = oscard.Set;
-    verify = oscard.prototype;
-    verify = Object.create(verify, {constructor: {value: oscard}});
-    sizing = verify;
-    oscard = new sizing[oscard](kiloes);
-    oscard = oscard instanceof Object ? oscard : verify;
-    var _closure1_slot6 = oscard;
-    oscard = 6;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/activities/utils/CustomActivityLinkUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['fetchCustomActivityLink'] = report;
-    report = function() { // Original name: getCustomActivityLinkParams
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot11 = var1;
+    var6 = global;
+    var12 = var6.Object;
+    var11 = var12.defineProperty;
+    var9 = {};
+    var1 = true;
+    var9['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var9);
+    var1 = 0;
+    var9 = var8[var1];
+    var1 = undefined;
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot3 = var9;
+    var9 = 1;
+    var9 = var8[var9];
+    var9 = var10.bind(var1)(var9);
+    var _closure1_slot4 = var9;
+    var9 = 2;
+    var9 = var8[var9];
+    var9 = var7.bind(var1)(var9);
+    var9 = var9.Endpoints;
+    var _closure1_slot5 = var9;
+    var6 = var6.Set;
+    var9 = var6.prototype;
+    var9 = Object.create(var9, {constructor: {value: var6}});
+    var16 = var9;
+    var6 = new var16[var6](var15);
+    var6 = var6 instanceof Object ? var6 : var9;
+    var _closure1_slot6 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/activities/utils/CustomActivityLinkUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['fetchCustomActivityLink'] = var5;
+    var5 = function getCustomActivityLinkParams() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getCustomActivityLinkParams'] = report;
-    report = function(argFoo) { // Original name: getQuickLinkImage
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getCustomActivityLinkParams'] = var5;
+    var5 = function getQuickLinkImage(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            golfie = argFoo;
-            entity = null;
-            if(!(entity == golfie)) { _fun00008_ip = 13; continue _fun00007 }
+            var7 = arg1;
+            var1 = null;
+            if(!(var1 == var7)) { _fun0004_ip = 13; continue _fun0004 }
  9:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  13:
-            entity = global;
-            michal = entity.location;
-            romeon = michal.protocol;
-            michal = entity.window;
-            michal = michal.GLOBAL_ENV;
-            offset = michal.CDN_HOST;
-            entity = entity.HermesInternal;
-            tangon = entity.concat;
-            foxtra = '';
-            yankee = '//';
-            verify = '/attachments-quick-links/';
-            option = golfie;
-            entity = foxtra[tangon](romeon, yankee, offset, verify, option, golfie);
-            return entity;
+            var1 = global;
+            var2 = var1.location;
+            var12 = var2.protocol;
+            var2 = var1.window;
+            var2 = var2.GLOBAL_ENV;
+            var10 = var2.CDN_HOST;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var13 = '';
+            var11 = '//';
+            var9 = '/attachments-quick-links/';
+            var8 = var7;
+            var1 = var13[var4](var12, var11, var10, var9, var8, var7);
+            return var1;
         }
     };
-    zuuluu['getQuickLinkImage'] = report;
-    zuuluu['loadCustomActivityLink'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getOrFetchCustomActivityLink
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['getQuickLinkImage'] = var5;
+    var3['loadCustomActivityLink'] = var4;
+    var2 = function getOrFetchCustomActivityLink(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            golfie = argFoo;
-            report = argBar;
-            michal = _closure1_slot4;
-            entity = michal.getOne;
-            entity = entity.bind(michal)(golfie, report);
-            michal = null;
-            if(!(michal == entity)) { _fun00010_ip = 80; continue _fun00009 }
+            var7 = arg1;
+            var5 = arg2;
+            var2 = _closure1_slot4;
+            var1 = var2.getOne;
+            var1 = var1.bind(var2)(var7, var5);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0005_ip = 80; continue _fun0005 }
  33:
-            oscard = _closure1_slot6;
-            tangon = oscard.has;
-            tangon = tangon.bind(oscard)(report);
-            entity = null;
-            if(tangon) { _fun00010_ip = 80; continue _fun00009 }
+            var6 = _closure1_slot6;
+            var4 = var6.has;
+            var4 = var4.bind(var6)(var5);
+            var1 = null;
+            if(var4) { _fun0005_ip = 80; continue _fun0005 }
  52:
-            oscard = _closure1_slot10;
-            tangon = undefined;
-            tangon = oscard.bind(tangon)(golfie, report);
-            tangon = _closure1_slot6;
-            zuuluu = tangon.add;
-            zuuluu = zuuluu.bind(tangon)(report);
-            entity = null;
+            var6 = _closure1_slot10;
+            var4 = undefined;
+            var4 = var6.bind(var4)(var7, var5);
+            var4 = _closure1_slot6;
+            var3 = var4.add;
+            var3 = var3.bind(var4)(var5);
+            var1 = null;
  80:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getOrFetchCustomActivityLink'] = michal;
-    return entity;
+    var3['getOrFetchCustomActivityLink'] = var2;
+    return var1;
 })();

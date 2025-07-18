@@ -1,123 +1,123 @@
 // app/modules/people/hooks/useFriendRequestActions.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = report;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/people/hooks/useFriendRequestActions.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useFriendRequestActions
-        entity = argFoo;
-        golfie = entity.userId;
-        var _closure2_slot0 = golfie;
-        romeon = entity.applicationId;
-        var _closure2_slot1 = romeon;
-        yankee = entity.isGameRelationship;
-        var _closure2_slot2 = yankee;
-        offset = entity.location;
-        var _closure2_slot3 = offset;
-        option = entity.onConfirm;
-        var _closure2_slot4 = option;
-        verify = entity.onCancel;
-        var _closure2_slot5 = verify;
-        oscard = _closure1_slot2;
-        tangon = oscard.useCallback;
-        michal = new Array(4);
-        michal[0] = romeon;
-        michal[1] = yankee;
-        michal[2] = offset;
-        michal[3] = golfie;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/people/hooks/useFriendRequestActions.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useFriendRequestActions(arg1) {
+        var1 = arg1;
+        var7 = var1.userId;
+        var _closure2_slot0 = var7;
+        var12 = var1.applicationId;
+        var _closure2_slot1 = var12;
+        var11 = var1.isGameRelationship;
+        var _closure2_slot2 = var11;
+        var10 = var1.location;
+        var _closure2_slot3 = var10;
+        var8 = var1.onConfirm;
+        var _closure2_slot4 = var8;
+        var9 = var1.onCancel;
+        var _closure2_slot5 = var9;
+        var6 = _closure1_slot2;
+        var4 = var6.useCallback;
+        var2 = new Array(4);
+        var2[0] = var12;
+        var2[1] = var11;
+        var2[2] = var10;
+        var2[3] = var7;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.cancelFriendRequest;
-                michal = {};
-                oscard = _closure2_slot0;
-                michal['userId'] = oscard;
-                golfie = _closure2_slot2;
-                oscard = null;
-                if(!golfie) { _fun00002_ip = 57; continue _fun00001 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.cancelFriendRequest;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['userId'] = var6;
+                var7 = _closure2_slot2;
+                var6 = null;
+                if(!var7) { _fun0001_ip = 57; continue _fun0001 }
  53:
-                oscard = _closure2_slot1;
+                var6 = _closure2_slot1;
  57:
-                michal['applicationId'] = oscard;
-                report = _closure2_slot3;
-                michal['location'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2['applicationId'] = var6;
+                var5 = _closure2_slot3;
+                var2['location'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        michal = tangon.bind(oscard)(entity, michal);
-        entity = {};
-        report = oscard.useCallback;
-        tangon = new Array(6);
-        tangon[0] = romeon;
-        tangon[1] = yankee;
-        tangon[2] = offset;
-        tangon[3] = verify;
-        tangon[4] = option;
-        tangon[5] = golfie;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var2 = var4.bind(var6)(var1, var2);
+        var1 = {};
+        var5 = var6.useCallback;
+        var4 = new Array(6);
+        var4[0] = var12;
+        var4[1] = var11;
+        var4[2] = var10;
+        var4[3] = var9;
+        var4[4] = var8;
+        var4[5] = var7;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.maybeConfirmFriendRequestAccept;
-                michal = {};
-                oscard = _closure2_slot0;
-                michal['userId'] = oscard;
-                golfie = _closure2_slot2;
-                oscard = null;
-                if(!golfie) { _fun00004_ip = 57; continue _fun00003 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.maybeConfirmFriendRequestAccept;
+                var2 = {};
+                var6 = _closure2_slot0;
+                var2['userId'] = var6;
+                var7 = _closure2_slot2;
+                var6 = null;
+                if(!var7) { _fun0002_ip = 57; continue _fun0002 }
  53:
-                oscard = _closure2_slot1;
+                var6 = _closure2_slot1;
  57:
-                michal['applicationId'] = oscard;
-                oscard = _closure2_slot3;
-                michal['location'] = oscard;
-                oscard = _closure2_slot4;
-                michal['onConfirm'] = oscard;
-                report = _closure2_slot5;
-                michal['onCancel'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2['applicationId'] = var6;
+                var6 = _closure2_slot3;
+                var2['location'] = var6;
+                var6 = _closure2_slot4;
+                var2['onConfirm'] = var6;
+                var5 = _closure2_slot5;
+                var2['onCancel'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        zuuluu = report.bind(oscard)(zuuluu, tangon);
-        entity['acceptFriendRequest'] = zuuluu;
-        entity['cancelFriendRequest'] = michal;
-        return entity;
+        var3 = var5.bind(var6)(var3, var4);
+        var1['acceptFriendRequest'] = var3;
+        var1['cancelFriendRequest'] = var2;
+        return var1;
     };
-    zuuluu['useFriendRequestActions'] = michal;
-    return entity;
+    var3['useFriendRequestActions'] = var2;
+    return var1;
 })();

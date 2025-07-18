@@ -1,880 +1,880 @@
 // app/modules/explicit_media_redaction/ExplicitMediaRedactionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    oscard = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = oscard;
-    var _closure1_slot2 = offset;
-    entity = function(argFoo) { // Original name: timeoutAttachmentsAndEmbedsForMessage
-        zuuluu = argFoo;
-        entity = {};
-        oscard = zuuluu.attachments;
-        report = oscard.map;
-        tangon = function(argFoo) {
-            entity = argFoo;
-            michal = -1;
-            entity['content_scan_version'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var6 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var10;
+    var1 = function timeoutAttachmentsAndEmbedsForMessage(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var6 = var3.attachments;
+        var5 = var6.map;
+        var4 = function(arg1) {
+            var1 = arg1;
+            var2 = -1;
+            var1['content_scan_version'] = var2;
+            return var1;
         };
-        tangon = report.bind(oscard)(tangon);
-        entity['attachments'] = tangon;
-        tangon = zuuluu.embeds;
-        zuuluu = tangon.map;
-        michal = function(argFoo) {
-            entity = argFoo;
-            michal = -1;
-            entity['contentScanVersion'] = michal;
-            return entity;
+        var4 = var5.bind(var6)(var4);
+        var1['attachments'] = var4;
+        var4 = var3.embeds;
+        var3 = var4.map;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var2 = -1;
+            var1['contentScanVersion'] = var2;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        entity['embeds'] = michal;
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        var1['embeds'] = var2;
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    tangon = function() { // Original name: useShouldAgeVerifyForExplicitMedia
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot9 = var1;
+    var4 = function useShouldAgeVerifyForExplicitMedia() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 13;
-            entity = report[entity];
-            zuuluu = undefined;
-            oscard = tangon.bind(zuuluu)(entity);
-            michal = oscard.useIsEligibleForSensitiveContentDefaults;
-            entity = 'explicit_media_redaction_utils';
-            entity = michal.bind(oscard)(entity);
-            michal = 14;
-            michal = report[michal];
-            zuuluu = tangon.bind(zuuluu)(michal);
-            michal = zuuluu.useShouldShowTiggerPawtect;
-            michal = michal.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 70; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 13;
+            var1 = var5[var1];
+            var3 = undefined;
+            var6 = var4.bind(var3)(var1);
+            var2 = var6.useIsEligibleForSensitiveContentDefaults;
+            var1 = 'explicit_media_redaction_utils';
+            var1 = var2.bind(var6)(var1);
+            var2 = 14;
+            var2 = var5[var2];
+            var3 = var4.bind(var3)(var2);
+            var2 = var3.useShouldShowTiggerPawtect;
+            var2 = var2.bind(var3)();
+            if(!var1) { _fun0001_ip = 70; continue _fun0001 }
  67:
-            entity = michal;
+            var1 = var2;
  70:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, report);
-    entity = 0;
-    report = offset[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = offset[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = offset[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = offset[report];
-    report = verify.bind(entity)(report);
-    oscard = report.EXPLICIT_MEDIA_MIN_HEIGHT;
-    var _closure1_slot6 = oscard;
-    report = report.EXPLICIT_MEDIA_MIN_WIDTH;
-    var _closure1_slot7 = report;
-    report = 4;
-    report = offset[report];
-    report = verify.bind(entity)(report);
-    report = report.AnalyticEvents;
-    var _closure1_slot8 = report;
-    golfie = {};
-    report = 'explicit_media_learn_more_viewed';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_VIEWED'] = report;
-    report = 'explicit_media_learn_more_click_settings';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_SETTINGS'] = report;
-    report = 'explicit_media_learn_more_click_learn_more';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_LEARN_MORE'] = report;
-    report = 'explicit_media_learn_more_click_dismiss';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_DISMISS'] = report;
-    report = 'explicit_media_learn_more_click_false_positive';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_FALSE_POSITIVE'] = report;
-    report = 'explicit_media_learn_more_click_age_verify_reverify';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_AGE_VERIFY_REVERIFY'] = report;
-    report = 'explicit_media_learn_more_click_age_verify_learn_more';
-    golfie['EXPLICIT_MEDIA_LEARN_MORE_CLICK_AGE_VERIFY_LEARN_MORE'] = report;
-    report = 'explicit_media_false_positive_viewed';
-    golfie['EXPLICIT_MEDIA_FALSE_POSITIVE_VIEWED'] = report;
-    report = 'explicit_media_false_positive_click_confirm';
-    golfie['EXPLICIT_MEDIA_FALSE_POSITIVE_CLICK_CONFIRM'] = report;
-    report = 'explicit_media_false_positive_click_cancel';
-    golfie['EXPLICIT_MEDIA_FALSE_POSITIVE_CLICK_CANCEL'] = report;
-    report = 'explicit_media_sender_false_positive_button_clicked';
-    golfie['EXPLICIT_MEDIA_SENDER_FALSE_POSITIVE_BUTTON_CLICKED'] = report;
-    report = 'explicit_media_false_positive_clyde_message_sent';
-    golfie['EXPLICIT_MEDIA_FALSE_POSITIVE_CLYDE_MESSAGE_SENT'] = report;
-    oscard = {};
-    report = 'explicit_media_obscured_false_positive_flow';
-    oscard['EXPLICIT_MEDIA_OBSCURED_FALSE_POSITIVE_FLOW'] = report;
-    report = 'explicit_media_sender_false_positive_flow';
-    oscard['EXPLICIT_MEDIA_SENDER_FALSE_POSITIVE_FLOW'] = report;
-    report = 'explicit_media_message_send_blocked';
-    oscard['EXPLICIT_MEDIA_MESSAGE_SEND_BLOCKED'] = report;
-    report = 'explicit_media_add_media_to_forum_post_blocked';
-    oscard['EXPLICIT_MEDIA_ADD_MEDIA_TO_FORUM_POST_BLOCKED'] = report;
-    report = {};
-    option = 'update';
-    report['UPDATE'] = option;
-    option = 'timeout';
-    report['TIMEOUT'] = option;
-    option = 16;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/explicit_media_redaction/ExplicitMediaRedactionUtils.tsx';
-    option = verify.bind(offset)(option);
-    option = function(argFoo) { // Original name: redactionSettingToRenderedString
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var5);
+    var1 = 0;
+    var5 = var10[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var10[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var10[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var10[var5];
+    var5 = var9.bind(var1)(var5);
+    var6 = var5.EXPLICIT_MEDIA_MIN_HEIGHT;
+    var _closure1_slot6 = var6;
+    var5 = var5.EXPLICIT_MEDIA_MIN_WIDTH;
+    var _closure1_slot7 = var5;
+    var5 = 4;
+    var5 = var10[var5];
+    var5 = var9.bind(var1)(var5);
+    var5 = var5.AnalyticEvents;
+    var _closure1_slot8 = var5;
+    var7 = {};
+    var5 = 'explicit_media_learn_more_viewed';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_VIEWED'] = var5;
+    var5 = 'explicit_media_learn_more_click_settings';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_SETTINGS'] = var5;
+    var5 = 'explicit_media_learn_more_click_learn_more';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_LEARN_MORE'] = var5;
+    var5 = 'explicit_media_learn_more_click_dismiss';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_DISMISS'] = var5;
+    var5 = 'explicit_media_learn_more_click_false_positive';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_FALSE_POSITIVE'] = var5;
+    var5 = 'explicit_media_learn_more_click_age_verify_reverify';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_AGE_VERIFY_REVERIFY'] = var5;
+    var5 = 'explicit_media_learn_more_click_age_verify_learn_more';
+    var7['EXPLICIT_MEDIA_LEARN_MORE_CLICK_AGE_VERIFY_LEARN_MORE'] = var5;
+    var5 = 'explicit_media_false_positive_viewed';
+    var7['EXPLICIT_MEDIA_FALSE_POSITIVE_VIEWED'] = var5;
+    var5 = 'explicit_media_false_positive_click_confirm';
+    var7['EXPLICIT_MEDIA_FALSE_POSITIVE_CLICK_CONFIRM'] = var5;
+    var5 = 'explicit_media_false_positive_click_cancel';
+    var7['EXPLICIT_MEDIA_FALSE_POSITIVE_CLICK_CANCEL'] = var5;
+    var5 = 'explicit_media_sender_false_positive_button_clicked';
+    var7['EXPLICIT_MEDIA_SENDER_FALSE_POSITIVE_BUTTON_CLICKED'] = var5;
+    var5 = 'explicit_media_false_positive_clyde_message_sent';
+    var7['EXPLICIT_MEDIA_FALSE_POSITIVE_CLYDE_MESSAGE_SENT'] = var5;
+    var6 = {};
+    var5 = 'explicit_media_obscured_false_positive_flow';
+    var6['EXPLICIT_MEDIA_OBSCURED_FALSE_POSITIVE_FLOW'] = var5;
+    var5 = 'explicit_media_sender_false_positive_flow';
+    var6['EXPLICIT_MEDIA_SENDER_FALSE_POSITIVE_FLOW'] = var5;
+    var5 = 'explicit_media_message_send_blocked';
+    var6['EXPLICIT_MEDIA_MESSAGE_SEND_BLOCKED'] = var5;
+    var5 = 'explicit_media_add_media_to_forum_post_blocked';
+    var6['EXPLICIT_MEDIA_ADD_MEDIA_TO_FORUM_POST_BLOCKED'] = var5;
+    var5 = {};
+    var8 = 'update';
+    var5['UPDATE'] = var8;
+    var8 = 'timeout';
+    var5['TIMEOUT'] = var8;
+    var8 = 16;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/explicit_media_redaction/ExplicitMediaRedactionUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function redactionSettingToRenderedString(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 5;
-            report = michal[oscard];
-            michal = undefined;
-            report = golfie.bind(michal)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.SHOW;
-            if(!(report !== tangon)) { _fun00004_ip = 128; continue _fun00003 }
+            var4 = arg1;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 5;
+            var5 = var2[var6];
+            var2 = undefined;
+            var5 = var7.bind(var2)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.SHOW;
+            if(!(var5 !== var4)) { _fun0002_ip = 128; continue _fun0002 }
  46:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[oscard];
-            report = golfie.bind(michal)(report);
-            report = report.ExplicitContentRedaction;
-            report = report.BLUR;
-            if(!(report !== tangon)) { _fun00004_ip = 121; continue _fun00003 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var6];
+            var5 = var7.bind(var2)(var5);
+            var5 = var5.ExplicitContentRedaction;
+            var5 = var5.BLUR;
+            if(!(var5 !== var4)) { _fun0002_ip = 121; continue _fun0002 }
  79:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.ExplicitContentRedaction;
-            zuuluu = zuuluu.BLOCK;
-            if(!(zuuluu !== tangon)) { _fun00004_ip = 114; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.ExplicitContentRedaction;
+            var3 = var3.BLOCK;
+            if(!(var3 !== var4)) { _fun0002_ip = 114; continue _fun0002 }
  112:
-            return michal;
+            return var2;
  114:
-            michal = function() {
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 6;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.D/157e;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 6;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.D/157e;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            return michal;
+            return var2;
  121:
-            michal = function() {
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 6;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.S49UaW;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 6;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.S49UaW;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            return michal;
+            return var2;
  128:
-            entity = function() {
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 6;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.5k5OFh;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 6;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.5k5OFh;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            return entity;
+            return var1;
         }
     };
-    zuuluu['redactionSettingToRenderedString'] = option;
-    option = function(argFoo) { // Original name: isPendingScanVersion
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['redactionSettingToRenderedString'] = var8;
+    var8 = function isPendingScanVersion(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot3;
-            michal = report.get;
-            entity = 'explicit_media_redaction_ignore_pending_scan';
-            entity = michal.bind(report)(entity);
-            if(entity) { _fun00006_ip = 117; continue _fun00005 }
+            var4 = arg1;
+            var5 = _closure1_slot3;
+            var2 = var5.get;
+            var1 = 'explicit_media_redaction_ignore_pending_scan';
+            var1 = var2.bind(var5)(var1);
+            if(var1) { _fun0003_ip = 117; continue _fun0003 }
  29:
-            entity = 0;
-            if(!(entity !== tangon)) { _fun00006_ip = 113; continue _fun00005 }
+            var1 = 0;
+            if(!(var1 !== var4)) { _fun0003_ip = 113; continue _fun0003 }
  35:
-            entity = -1;
-            if(!(entity !== tangon)) { _fun00006_ip = 113; continue _fun00005 }
+            var1 = -1;
+            if(!(var1 !== var4)) { _fun0003_ip = 113; continue _fun0003 }
  45:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            report = report.bind(entity)(michal);
-            michal = report.isEligibleForSensitiveContentGoreExperiment;
-            entity = 'isPendingScanVersion';
-            michal = michal.bind(report)(entity);
-            entity = null;
-            entity = entity == tangon;
-            if(entity) { _fun00006_ip = 111; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var2);
+            var2 = var5.isEligibleForSensitiveContentGoreExperiment;
+            var1 = 'isPendingScanVersion';
+            var2 = var2.bind(var5)(var1);
+            var1 = null;
+            var1 = var1 == var4;
+            if(var1) { _fun0003_ip = 111; continue _fun0003 }
  91:
-            if(!michal) { _fun00006_ip = 108; continue _fun00005 }
+            if(!var2) { _fun0003_ip = 108; continue _fun0003 }
  94:
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.validContentScanVersion;
-            michal = tangon !== zuuluu;
+            var3 = _closure1_slot5;
+            var3 = var3.validContentScanVersion;
+            var2 = var4 !== var3;
  108:
-            entity = michal;
+            var1 = var2;
  111:
-            return entity;
+            return var1;
  113:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  117:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isPendingScanVersion'] = option;
-    zuuluu['TrackMediaRedactionActionType'] = golfie;
-    zuuluu['TrackMediaRedactionContext'] = oscard;
-    oscard = function(argFoo) { // Original name: trackMediaRedactionAction
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isPendingScanVersion'] = var8;
+    var3['TrackMediaRedactionActionType'] = var7;
+    var3['TrackMediaRedactionContext'] = var6;
+    var6 = function trackMediaRedactionAction(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.action;
-            verify = entity.channelId;
-            golfie = entity.messageId;
-            report = entity.context;
-            offset = null;
-            if(!(offset != verify)) { _fun00008_ip = 171; continue _fun00007 }
+            var1 = arg1;
+            var12 = var1.action;
+            var9 = var1.channelId;
+            var7 = var1.messageId;
+            var5 = var1.context;
+            var10 = null;
+            if(!(var10 != var9)) { _fun0004_ip = 171; continue _fun0004 }
  32:
-            if(!(offset != golfie)) { _fun00008_ip = 171; continue _fun00007 }
+            if(!(var10 != var7)) { _fun0004_ip = 171; continue _fun0004 }
  39:
-            michal = _closure1_slot4;
-            entity = michal.getChannel;
-            yankee = entity.bind(michal)(verify);
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 8;
-            entity = zuuluu[entity];
-            option = undefined;
-            tangon = michal.bind(option)(entity);
-            zuuluu = tangon.track;
-            entity = _closure1_slot8;
-            michal = entity.EXPLICIT_MEDIA_ACTION;
-            entity = {};
-            entity['action'] = romeon;
-            romeon = offset == yankee;
-            offset = undefined;
-            if(romeon) { _fun00008_ip = 113; continue _fun00007 }
+            var2 = _closure1_slot4;
+            var1 = var2.getChannel;
+            var11 = var1.bind(var2)(var9);
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 8;
+            var1 = var3[var1];
+            var8 = undefined;
+            var4 = var2.bind(var8)(var1);
+            var3 = var4.track;
+            var1 = _closure1_slot8;
+            var2 = var1.EXPLICIT_MEDIA_ACTION;
+            var1 = {};
+            var1['action'] = var12;
+            var12 = var10 == var11;
+            var10 = undefined;
+            if(var12) { _fun0004_ip = 113; continue _fun0004 }
  108:
-            offset = yankee.guild_id;
+            var10 = var11.guild_id;
  113:
-            entity['guild_id'] = offset;
-            entity['channel_id'] = verify;
-            entity['message_id'] = golfie;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            oscard = 9;
-            oscard = verify[oscard];
-            golfie = golfie.bind(option)(oscard);
-            oscard = golfie.isCurrentUserTeen;
-            oscard = oscard.bind(golfie)();
-            entity['user_is_underage'] = oscard;
-            entity['context'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var1['guild_id'] = var10;
+            var1['channel_id'] = var9;
+            var1['message_id'] = var7;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 9;
+            var6 = var9[var6];
+            var7 = var7.bind(var8)(var6);
+            var6 = var7.isCurrentUserTeen;
+            var6 = var6.bind(var7)();
+            var1['user_is_underage'] = var6;
+            var1['context'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
  171:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['trackMediaRedactionAction'] = oscard;
-    zuuluu['TimeoutCancelSource'] = report;
-    report = function(argFoo, argBar) { // Original name: trackScanTiming
-        oscard = global;
-        michal = oscard.Date;
-        entity = michal.now;
-        michal = entity.bind(michal)();
-        entity = argFoo;
-        golfie = michal - entity;
-        tangon = oscard.Math;
-        zuuluu = tangon.min;
-        report = oscard.Math;
-        michal = report.floor;
-        entity = 1000;
-        entity = golfie / entity;
-        michal = michal.bind(report)(entity);
-        entity = 3;
-        option = zuuluu.bind(tangon)(michal, entity);
-        zuuluu = _closure1_slot1;
-        verify = _closure1_slot2;
-        entity = 10;
-        michal = verify[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.increment;
-        michal = {};
-        golfie = _closure1_slot0;
-        report = 11;
-        report = verify[report];
-        report = golfie.bind(entity)(report);
-        report = report.MetricEvents;
-        report = report.EXPLICIT_MEDIA_SCAN_CLIENT_TIMING;
-        michal['name'] = report;
-        report = oscard.HermesInternal;
-        golfie = report.concat;
-        report = 'timingBucket:';
-        golfie = golfie.bind(report)(option);
-        report = new Array(3);
-        report[0] = golfie;
-        oscard = oscard.HermesInternal;
-        option = oscard.concat;
-        golfie = 'source:';
-        oscard = argBar;
-        oscard = option.bind(golfie)(oscard);
-        report[1] = oscard;
-        oscard = 'metricVersion:1';
-        report[2] = oscard;
-        michal['tags'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['trackMediaRedactionAction'] = var6;
+    var3['TimeoutCancelSource'] = var5;
+    var5 = function trackScanTiming(arg1, arg2) {
+        var6 = global;
+        var2 = var6.Date;
+        var1 = var2.now;
+        var2 = var1.bind(var2)();
+        var1 = arg1;
+        var7 = var2 - var1;
+        var4 = var6.Math;
+        var3 = var4.min;
+        var5 = var6.Math;
+        var2 = var5.floor;
+        var1 = 1000;
+        var1 = var7 / var1;
+        var2 = var2.bind(var5)(var1);
+        var1 = 3;
+        var8 = var3.bind(var4)(var2, var1);
+        var3 = _closure1_slot1;
+        var9 = _closure1_slot2;
+        var1 = 10;
+        var2 = var9[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.increment;
+        var2 = {};
+        var7 = _closure1_slot0;
+        var5 = 11;
+        var5 = var9[var5];
+        var5 = var7.bind(var1)(var5);
+        var5 = var5.MetricEvents;
+        var5 = var5.EXPLICIT_MEDIA_SCAN_CLIENT_TIMING;
+        var2['name'] = var5;
+        var5 = var6.HermesInternal;
+        var7 = var5.concat;
+        var5 = 'timingBucket:';
+        var7 = var7.bind(var5)(var8);
+        var5 = new Array(3);
+        var5[0] = var7;
+        var6 = var6.HermesInternal;
+        var8 = var6.concat;
+        var7 = 'source:';
+        var6 = arg2;
+        var6 = var8.bind(var7)(var6);
+        var5[1] = var6;
+        var6 = 'metricVersion:1';
+        var5[2] = var6;
+        var2['tags'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['trackScanTiming'] = report;
-    report = function(argFoo) { // Original name: trackScanningTimedOut
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['trackScanTiming'] = var5;
+    var5 = function trackScanningTimedOut(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            michal = argFoo;
-            yankee = michal.channelId;
-            offset = michal.messageId;
-            entity = michal.attachmentIds;
-            option = michal.embedIds;
-            golfie = null;
-            if(!(golfie != yankee)) { _fun00010_ip = 443; continue _fun00009 }
+            var2 = arg1;
+            var11 = var2.channelId;
+            var10 = var2.messageId;
+            var1 = var2.attachmentIds;
+            var8 = var2.embedIds;
+            var7 = null;
+            if(!(var7 != var11)) { _fun0005_ip = 443; continue _fun0005 }
  34:
-            if(!(golfie != offset)) { _fun00010_ip = 443; continue _fun00009 }
+            if(!(var7 != var10)) { _fun0005_ip = 443; continue _fun0005 }
  41:
-            michal = golfie == entity;
-            oscard = undefined;
-            zuuluu = undefined;
-            if(michal) { _fun00010_ip = 57; continue _fun00009 }
+            var2 = var7 == var1;
+            var6 = undefined;
+            var3 = undefined;
+            if(var2) { _fun0005_ip = 57; continue _fun0005 }
  52:
-            zuuluu = entity.length;
+            var3 = var1.length;
  57:
-            tangon = golfie != zuuluu;
-            report = 0;
-            michal = 0;
-            if(!tangon) { _fun00010_ip = 71; continue _fun00009 }
+            var4 = var7 != var3;
+            var5 = 0;
+            var2 = 0;
+            if(!var4) { _fun0005_ip = 71; continue _fun0005 }
  68:
-            michal = zuuluu;
+            var2 = var3;
  71:
-            if(!(report === michal)) { _fun00010_ip = 108; continue _fun00009 }
+            if(!(var5 === var2)) { _fun0005_ip = 108; continue _fun0005 }
  75:
-            michal = golfie == option;
-            zuuluu = undefined;
-            if(michal) { _fun00010_ip = 89; continue _fun00009 }
+            var2 = var7 == var8;
+            var3 = undefined;
+            if(var2) { _fun0005_ip = 89; continue _fun0005 }
  84:
-            zuuluu = option.length;
+            var3 = var8.length;
  89:
-            tangon = golfie != zuuluu;
-            michal = 0;
-            if(!tangon) { _fun00010_ip = 101; continue _fun00009 }
+            var4 = var7 != var3;
+            var2 = 0;
+            if(!var4) { _fun0005_ip = 101; continue _fun0005 }
  98:
-            michal = zuuluu;
+            var2 = var3;
  101:
-            if(!(report !== michal)) { _fun00010_ip = 443; continue _fun00009 }
+            if(!(var5 !== var2)) { _fun0005_ip = 443; continue _fun0005 }
  108:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getChannel;
-            foxtra = zuuluu.bind(tangon)(yankee);
-            tangon = _closure1_slot1;
-            verify = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = verify[zuuluu];
-            romeon = tangon.bind(oscard)(zuuluu);
-            verify = romeon.track;
-            zuuluu = _closure1_slot8;
-            tangon = zuuluu.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT;
-            zuuluu = {};
-            zuuluu['channel_id'] = yankee;
-            backup = golfie == foxtra;
-            yankee = undefined;
-            if(backup) { _fun00010_ip = 180; continue _fun00009 }
+            var4 = _closure1_slot4;
+            var3 = var4.getChannel;
+            var13 = var3.bind(var4)(var11);
+            var4 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var3 = 8;
+            var3 = var9[var3];
+            var12 = var4.bind(var6)(var3);
+            var9 = var12.track;
+            var3 = _closure1_slot8;
+            var4 = var3.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT;
+            var3 = {};
+            var3['channel_id'] = var11;
+            var14 = var7 == var13;
+            var11 = undefined;
+            if(var14) { _fun0005_ip = 180; continue _fun0005 }
  175:
-            yankee = foxtra.guild_id;
+            var11 = var13.guild_id;
  180:
-            zuuluu['guild_id'] = yankee;
-            zuuluu['message_id'] = offset;
-            zuuluu['embed_ids'] = option;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            foxtra = 9;
-            foxtra = yankee[foxtra];
-            backup = offset.bind(oscard)(foxtra);
-            foxtra = backup.isCurrentUserTeen;
-            foxtra = foxtra.bind(backup)();
-            zuuluu['user_is_underage'] = foxtra;
-            foxtra = 12;
-            foxtra = yankee[foxtra];
-            foxtra = offset.bind(oscard)(foxtra);
-            foxtra = foxtra.MESSAGE_SCAN_TIMEOUT;
-            zuuluu['scan_timeout_duration'] = foxtra;
-            zuuluu['attachment_ids_v2'] = entity;
-            zuuluu = verify.bind(romeon)(tangon, zuuluu);
-            zuuluu = _closure1_slot1;
-            michal = 10;
-            tangon = yankee[michal];
-            foxtra = zuuluu.bind(oscard)(tangon);
-            romeon = foxtra.increment;
-            tangon = {};
-            verify = 11;
-            backup = yankee[verify];
-            backup = offset.bind(oscard)(backup);
-            backup = backup.MetricEvents;
-            backup = backup.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT;
-            tangon['name'] = backup;
-            backup = ['metricVersion:1'];
-            tangon['tags'] = backup;
-            tangon = romeon.bind(foxtra)(tangon);
-            michal = yankee[michal];
-            tangon = zuuluu.bind(oscard)(michal);
-            zuuluu = tangon.distribution;
-            michal = {};
-            verify = yankee[verify];
-            verify = offset.bind(oscard)(verify);
-            verify = verify.MetricEvents;
-            verify = verify.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT_DISTRIBUTION;
-            michal['name'] = verify;
-            offset = golfie == entity;
-            verify = undefined;
-            if(offset) { _fun00010_ip = 395; continue _fun00009 }
+            var3['guild_id'] = var11;
+            var3['message_id'] = var10;
+            var3['embed_ids'] = var8;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var13 = 9;
+            var13 = var11[var13];
+            var14 = var10.bind(var6)(var13);
+            var13 = var14.isCurrentUserTeen;
+            var13 = var13.bind(var14)();
+            var3['user_is_underage'] = var13;
+            var13 = 12;
+            var13 = var11[var13];
+            var13 = var10.bind(var6)(var13);
+            var13 = var13.MESSAGE_SCAN_TIMEOUT;
+            var3['scan_timeout_duration'] = var13;
+            var3['attachment_ids_v2'] = var1;
+            var3 = var9.bind(var12)(var4, var3);
+            var3 = _closure1_slot1;
+            var2 = 10;
+            var4 = var11[var2];
+            var13 = var3.bind(var6)(var4);
+            var12 = var13.increment;
+            var4 = {};
+            var9 = 11;
+            var14 = var11[var9];
+            var14 = var10.bind(var6)(var14);
+            var14 = var14.MetricEvents;
+            var14 = var14.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT;
+            var4['name'] = var14;
+            var14 = ['metricVersion:1'];
+            var4['tags'] = var14;
+            var4 = var12.bind(var13)(var4);
+            var2 = var11[var2];
+            var4 = var3.bind(var6)(var2);
+            var3 = var4.distribution;
+            var2 = {};
+            var9 = var11[var9];
+            var9 = var10.bind(var6)(var9);
+            var9 = var9.MetricEvents;
+            var9 = var9.EXPLICIT_MEDIA_SCAN_CLIENT_TIMED_OUT_DISTRIBUTION;
+            var2['name'] = var9;
+            var10 = var7 == var1;
+            var9 = undefined;
+            if(var10) { _fun0005_ip = 395; continue _fun0005 }
  390:
-            verify = entity.length;
+            var9 = var1.length;
  395:
-            offset = golfie != verify;
-            entity = 0;
-            if(!offset) { _fun00010_ip = 407; continue _fun00009 }
+            var10 = var7 != var9;
+            var1 = 0;
+            if(!var10) { _fun0005_ip = 407; continue _fun0005 }
  404:
-            entity = verify;
+            var1 = var9;
  407:
-            verify = golfie == option;
-            oscard = undefined;
-            if(verify) { _fun00010_ip = 421; continue _fun00009 }
+            var9 = var7 == var8;
+            var6 = undefined;
+            if(var9) { _fun0005_ip = 421; continue _fun0005 }
  416:
-            oscard = option.length;
+            var6 = var8.length;
  421:
-            golfie = golfie != oscard;
-            report = 0;
-            if(!golfie) { _fun00010_ip = 433; continue _fun00009 }
+            var7 = var7 != var6;
+            var5 = 0;
+            if(!var7) { _fun0005_ip = 433; continue _fun0005 }
  430:
-            report = oscard;
+            var5 = var6;
  433:
-            entity = entity + report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var1 = var1 + var5;
+            var1 = var3.bind(var4)(var2, var1);
  443:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['trackScanningTimedOut'] = report;
-    report = function(argFoo) { // Original name: trackExplicitMediaRedactableMessagedLoaded
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['trackScanningTimedOut'] = var5;
+    var5 = function trackExplicitMediaRedactableMessagedLoaded(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            foxtra = entity.channelId;
-            offset = entity.numOfAttachments;
-            michal = entity.numOfAttachmentsPendingScan;
-            verify = entity.numOfEmbeds;
-            entity = entity.numOfEmbedsPendingScan;
-            yankee = null;
-            if(!(yankee != foxtra)) { _fun00012_ip = 225; continue _fun00011 }
+            var1 = arg1;
+            var13 = var1.channelId;
+            var10 = var1.numOfAttachments;
+            var2 = var1.numOfAttachmentsPendingScan;
+            var9 = var1.numOfEmbeds;
+            var1 = var1.numOfEmbedsPendingScan;
+            var11 = null;
+            if(!(var11 != var13)) { _fun0006_ip = 225; continue _fun0006 }
  41:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getChannel;
-            romeon = zuuluu.bind(tangon)(foxtra);
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = oscard[zuuluu];
-            golfie = undefined;
-            option = tangon.bind(golfie)(zuuluu);
-            oscard = option.track;
-            zuuluu = _closure1_slot8;
-            tangon = zuuluu.EXPLICIT_MEDIA_REDACTABLE_MESSAGES_LOADED;
-            zuuluu = {};
-            zuuluu['channel_id'] = foxtra;
-            foxtra = yankee == romeon;
-            yankee = undefined;
-            if(foxtra) { _fun00012_ip = 115; continue _fun00011 }
+            var4 = _closure1_slot4;
+            var3 = var4.getChannel;
+            var12 = var3.bind(var4)(var13);
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 8;
+            var3 = var6[var3];
+            var7 = undefined;
+            var8 = var4.bind(var7)(var3);
+            var6 = var8.track;
+            var3 = _closure1_slot8;
+            var4 = var3.EXPLICIT_MEDIA_REDACTABLE_MESSAGES_LOADED;
+            var3 = {};
+            var3['channel_id'] = var13;
+            var13 = var11 == var12;
+            var11 = undefined;
+            if(var13) { _fun0006_ip = 115; continue _fun0006 }
  110:
-            yankee = romeon.guild_id;
+            var11 = var12.guild_id;
  115:
-            zuuluu['guild_id'] = yankee;
-            zuuluu['num_of_attachments'] = offset;
-            zuuluu['num_of_attachments_pending_scan'] = michal;
-            zuuluu['num_of_embeds'] = verify;
-            zuuluu['num_of_embeds_pending_scan'] = entity;
-            zuuluu = oscard.bind(option)(tangon, zuuluu);
-            tangon = michal + entity;
-            entity = 0;
-            if(!(tangon > entity)) { _fun00012_ip = 225; continue _fun00011 }
+            var3['guild_id'] = var11;
+            var3['num_of_attachments'] = var10;
+            var3['num_of_attachments_pending_scan'] = var2;
+            var3['num_of_embeds'] = var9;
+            var3['num_of_embeds_pending_scan'] = var1;
+            var3 = var6.bind(var8)(var4, var3);
+            var4 = var2 + var1;
+            var1 = 0;
+            if(!(var4 > var1)) { _fun0006_ip = 225; continue _fun0006 }
  159:
-            michal = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 10;
-            entity = option[entity];
-            zuuluu = michal.bind(golfie)(entity);
-            michal = zuuluu.distribution;
-            entity = {};
-            oscard = _closure1_slot0;
-            report = 11;
-            report = option[report];
-            report = oscard.bind(golfie)(report);
-            report = report.MetricEvents;
-            report = report.EXPLICIT_MEDIA_PENDING_MESSAGE_LOADED_V2;
-            entity['name'] = report;
-            entity = michal.bind(zuuluu)(entity, tangon);
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var1 = var8[var1];
+            var3 = var2.bind(var7)(var1);
+            var2 = var3.distribution;
+            var1 = {};
+            var6 = _closure1_slot0;
+            var5 = 11;
+            var5 = var8[var5];
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.MetricEvents;
+            var5 = var5.EXPLICIT_MEDIA_PENDING_MESSAGE_LOADED_V2;
+            var1['name'] = var5;
+            var1 = var2.bind(var3)(var1, var4);
  225:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['trackExplicitMediaRedactableMessagedLoaded'] = report;
-    report = function(argFoo) { // Original name: trackRedactableMessageLoaded
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['trackExplicitMediaRedactableMessagedLoaded'] = var5;
+    var5 = function trackRedactableMessageLoaded(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            output = entity.messageId;
-            sizing = entity.channelId;
-            romeon = entity.numOfAttachments;
-            verify = entity.numOfEmbeds;
-            yankee = entity.numOfGoreAttachments;
-            offset = entity.numOfExplicitAttachments;
-            option = entity.numOfGoreEmbeds;
-            golfie = entity.numOfExplicitEmbeds;
-            entity = 0;
-            oscard = offset > entity;
-            if(oscard) { _fun00014_ip = 62; continue _fun00013 }
+            var1 = arg1;
+            var17 = var1.messageId;
+            var16 = var1.channelId;
+            var12 = var1.numOfAttachments;
+            var9 = var1.numOfEmbeds;
+            var11 = var1.numOfGoreAttachments;
+            var10 = var1.numOfExplicitAttachments;
+            var8 = var1.numOfGoreEmbeds;
+            var7 = var1.numOfExplicitEmbeds;
+            var1 = 0;
+            var6 = var10 > var1;
+            if(var6) { _fun0007_ip = 62; continue _fun0007 }
  58:
-            oscard = golfie > entity;
+            var6 = var7 > var1;
  62:
-            report = yankee > entity;
-            if(report) { _fun00014_ip = 73; continue _fun00013 }
+            var5 = var11 > var1;
+            if(var5) { _fun0007_ip = 73; continue _fun0007 }
  69:
-            report = option > entity;
+            var5 = var8 > var1;
  73:
-            kiloes = null;
-            if(!(kiloes != sizing)) { _fun00014_ip = 254; continue _fun00013 }
+            var15 = null;
+            if(!(var15 != var16)) { _fun0007_ip = 254; continue _fun0007 }
  82:
-            if(!(kiloes != output)) { _fun00014_ip = 254; continue _fun00013 }
+            if(!(var15 != var17)) { _fun0007_ip = 254; continue _fun0007 }
  89:
-            if(oscard) { _fun00014_ip = 98; continue _fun00013 }
+            if(var6) { _fun0007_ip = 98; continue _fun0007 }
  92:
-            if(!report) { _fun00014_ip = 254; continue _fun00013 }
+            if(!var5) { _fun0007_ip = 254; continue _fun0007 }
  98:
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.getChannel;
-            backup = michal.bind(zuuluu)(sizing);
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 8;
-            michal = tangon[michal];
-            foxtra = undefined;
-            tangon = zuuluu.bind(foxtra)(michal);
-            zuuluu = tangon.track;
-            entity = _closure1_slot8;
-            michal = entity.REDACTABLE_MESSAGE_LOADED;
-            entity = {};
-            entity['message_id'] = output;
-            entity['channel_id'] = sizing;
-            output = kiloes == backup;
-            sizing = undefined;
-            if(output) { _fun00014_ip = 177; continue _fun00013 }
+            var3 = _closure1_slot4;
+            var2 = var3.getChannel;
+            var14 = var2.bind(var3)(var16);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
+            var13 = undefined;
+            var4 = var3.bind(var13)(var2);
+            var3 = var4.track;
+            var1 = _closure1_slot8;
+            var2 = var1.REDACTABLE_MESSAGE_LOADED;
+            var1 = {};
+            var1['message_id'] = var17;
+            var1['channel_id'] = var16;
+            var17 = var15 == var14;
+            var16 = undefined;
+            if(var17) { _fun0007_ip = 177; continue _fun0007 }
  172:
-            sizing = backup.type;
+            var16 = var14.type;
  177:
-            entity['channel_type'] = sizing;
-            kiloes = kiloes == backup;
-            foxtra = undefined;
-            if(kiloes) { _fun00014_ip = 196; continue _fun00013 }
+            var1['channel_type'] = var16;
+            var15 = var15 == var14;
+            var13 = undefined;
+            if(var15) { _fun0007_ip = 196; continue _fun0007 }
  191:
-            foxtra = backup.guild_id;
+            var13 = var14.guild_id;
  196:
-            entity['guild_id'] = foxtra;
-            entity['num_of_attachments'] = romeon;
-            entity['num_of_gore_attachments'] = yankee;
-            entity['num_of_explicit_attachments'] = offset;
-            entity['num_of_embeds'] = verify;
-            entity['num_of_gore_embeds'] = option;
-            entity['num_of_explicit_embeds'] = golfie;
-            entity['has_redactable_explicit'] = oscard;
-            entity['has_redactable_gore'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var1['guild_id'] = var13;
+            var1['num_of_attachments'] = var12;
+            var1['num_of_gore_attachments'] = var11;
+            var1['num_of_explicit_attachments'] = var10;
+            var1['num_of_embeds'] = var9;
+            var1['num_of_gore_embeds'] = var8;
+            var1['num_of_explicit_embeds'] = var7;
+            var1['has_redactable_explicit'] = var6;
+            var1['has_redactable_gore'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
  254:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['trackRedactableMessageLoaded'] = report;
-    report = function(argFoo) { // Original name: trackExplicitMediaScanComplete
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['trackRedactableMessageLoaded'] = var5;
+    var5 = function trackExplicitMediaScanComplete(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            entity = argFoo;
-            foxtra = entity.messageId;
-            romeon = entity.channelId;
-            option = entity.numOfAttachments;
-            golfie = entity.numOfExplicitAttachments;
-            oscard = entity.numOfEmbeds;
-            report = entity.numOfExplicitEmbeds;
-            yankee = null;
-            if(!(yankee != romeon)) { _fun00016_ip = 174; continue _fun00015 }
+            var1 = arg1;
+            var13 = var1.messageId;
+            var12 = var1.channelId;
+            var8 = var1.numOfAttachments;
+            var7 = var1.numOfExplicitAttachments;
+            var6 = var1.numOfEmbeds;
+            var5 = var1.numOfExplicitEmbeds;
+            var11 = null;
+            if(!(var11 != var12)) { _fun0008_ip = 174; continue _fun0008 }
  46:
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.getChannel;
-            offset = michal.bind(zuuluu)(romeon);
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 8;
-            michal = tangon[michal];
-            verify = undefined;
-            tangon = zuuluu.bind(verify)(michal);
-            zuuluu = tangon.track;
-            entity = _closure1_slot8;
-            michal = entity.EXPLICIT_MEDIA_RETROACTIVE_SCAN_COMPLETE;
-            entity = {};
-            entity['message_id'] = foxtra;
-            entity['channel_id'] = romeon;
-            foxtra = yankee == offset;
-            romeon = undefined;
-            if(foxtra) { _fun00016_ip = 125; continue _fun00015 }
+            var3 = _closure1_slot4;
+            var2 = var3.getChannel;
+            var10 = var2.bind(var3)(var12);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
+            var9 = undefined;
+            var4 = var3.bind(var9)(var2);
+            var3 = var4.track;
+            var1 = _closure1_slot8;
+            var2 = var1.EXPLICIT_MEDIA_RETROACTIVE_SCAN_COMPLETE;
+            var1 = {};
+            var1['message_id'] = var13;
+            var1['channel_id'] = var12;
+            var13 = var11 == var10;
+            var12 = undefined;
+            if(var13) { _fun0008_ip = 125; continue _fun0008 }
  120:
-            romeon = offset.type;
+            var12 = var10.type;
  125:
-            entity['channel_type'] = romeon;
-            yankee = yankee == offset;
-            verify = undefined;
-            if(yankee) { _fun00016_ip = 144; continue _fun00015 }
+            var1['channel_type'] = var12;
+            var11 = var11 == var10;
+            var9 = undefined;
+            if(var11) { _fun0008_ip = 144; continue _fun0008 }
  139:
-            verify = offset.guild_id;
+            var9 = var10.guild_id;
  144:
-            entity['guild_id'] = verify;
-            entity['num_of_attachments'] = option;
-            entity['num_of_explicit_attachments'] = golfie;
-            entity['num_of_embeds'] = oscard;
-            entity['num_of_explicit_embeds'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var1['guild_id'] = var9;
+            var1['num_of_attachments'] = var8;
+            var1['num_of_explicit_attachments'] = var7;
+            var1['num_of_embeds'] = var6;
+            var1['num_of_explicit_embeds'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
  174:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['trackExplicitMediaScanComplete'] = report;
-    report = function(argFoo) { // Original name: handleExplicitMediaScanTimeoutForMessage
-        zuuluu = argFoo;
-        entity = _closure1_slot9;
-        michal = undefined;
-        entity = entity.bind(michal)(zuuluu);
-        oscard = entity.attachments;
-        report = entity.embeds;
-        entity = function(argFoo) { // Original name: handleExplicitMediaScanTimeoutForForwardedMessage
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var3['trackExplicitMediaScanComplete'] = var5;
+    var5 = function handleExplicitMediaScanTimeoutForMessage(arg1) {
+        var3 = arg1;
+        var1 = _closure1_slot9;
+        var2 = undefined;
+        var1 = var1.bind(var2)(var3);
+        var6 = var1.attachments;
+        var5 = var1.embeds;
+        var1 = function handleExplicitMediaScanTimeoutForForwardedMessage(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                entity = argFoo;
-                entity = entity.messageSnapshots;
-                michal = null;
-                if(!(michal != entity)) { _fun00018_ip = 45; continue _fun00017 }
+                var1 = arg1;
+                var1 = var1.messageSnapshots;
+                var2 = null;
+                if(!(var2 != var1)) { _fun0009_ip = 45; continue _fun0009 }
  15:
-                zuuluu = entity.length;
-                michal = 0;
-                if(!(michal !== zuuluu)) { _fun00018_ip = 45; continue _fun00017 }
+                var3 = var1.length;
+                var2 = 0;
+                if(!(var2 !== var3)) { _fun0009_ip = 45; continue _fun0009 }
  26:
-                zuuluu = entity.map;
-                michal = function(argFoo) {
-                    zuuluu = argFoo;
-                    tangon = zuuluu.message;
-                    michal = _closure1_slot9;
-                    entity = undefined;
-                    entity = michal.bind(entity)(tangon);
-                    oscard = entity.attachments;
-                    report = entity.embeds;
-                    michal = tangon.merge;
-                    entity = {};
-                    entity['attachments'] = oscard;
-                    entity['embeds'] = report;
-                    tangon = michal.bind(tangon)(entity);
-                    michal = zuuluu.merge;
-                    entity = {};
-                    entity['message'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var3 = var1.map;
+                var2 = function(arg1) {
+                    var3 = arg1;
+                    var4 = var3.message;
+                    var2 = _closure1_slot9;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var4);
+                    var6 = var1.attachments;
+                    var5 = var1.embeds;
+                    var2 = var4.merge;
+                    var1 = {};
+                    var1['attachments'] = var6;
+                    var1['embeds'] = var5;
+                    var4 = var2.bind(var4)(var1);
+                    var2 = var3.merge;
+                    var1 = {};
+                    var1['message'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal = zuuluu.bind(entity)(michal);
-                return michal;
+                var2 = var3.bind(var1)(var2);
+                return var2;
  45:
-                return entity;
+                return var1;
             }
         };
-        tangon = entity.bind(michal)(zuuluu);
-        michal = zuuluu.merge;
-        entity = {};
-        entity['attachments'] = oscard;
-        entity['embeds'] = report;
-        entity['messageSnapshots'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var4 = var1.bind(var2)(var3);
+        var2 = var3.merge;
+        var1 = {};
+        var1['attachments'] = var6;
+        var1['embeds'] = var5;
+        var1['messageSnapshots'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['handleExplicitMediaScanTimeoutForMessage'] = report;
-    report = function(argFoo, argBar) {
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var3['handleExplicitMediaScanTimeoutForMessage'] = var5;
+    var5 = function(arg1, arg2) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            michal = null;
-            entity = michal != report;
-            if(!entity) { _fun00020_ip = 19; continue _fun00019 }
+            var5 = arg1;
+            var4 = arg2;
+            var2 = null;
+            var1 = var2 != var5;
+            if(!var1) { _fun0010_ip = 19; continue _fun0010 }
  15:
-            entity = michal != tangon;
+            var1 = var2 != var4;
  19:
-            if(!entity) { _fun00020_ip = 47; continue _fun00019 }
+            if(!var1) { _fun0010_ip = 47; continue _fun0010 }
  22:
-            michal = _closure1_slot7;
-            michal = report <= michal;
-            if(michal) { _fun00020_ip = 44; continue _fun00019 }
+            var2 = _closure1_slot7;
+            var2 = var5 <= var2;
+            if(var2) { _fun0010_ip = 44; continue _fun0010 }
  36:
-            zuuluu = _closure1_slot6;
-            michal = tangon <= zuuluu;
+            var3 = _closure1_slot6;
+            var2 = var4 <= var3;
  44:
-            entity = michal;
+            var1 = var2;
  47:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isObscuredMediaBelowConstraints'] = report;
-    report = function() { // Original name: shouldAgeVerifyForExplicitMedia
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var3['isObscuredMediaBelowConstraints'] = var5;
+    var5 = function shouldAgeVerifyForExplicitMedia() {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 13;
-            entity = report[entity];
-            zuuluu = undefined;
-            oscard = tangon.bind(zuuluu)(entity);
-            michal = oscard.isEligibleForSensitiveContentDefaults;
-            entity = 'explicit_media_redaction_utils';
-            entity = michal.bind(oscard)(entity);
-            michal = 14;
-            michal = report[michal];
-            zuuluu = tangon.bind(zuuluu)(michal);
-            michal = zuuluu.shouldShowTiggerPawtect;
-            michal = michal.bind(zuuluu)();
-            if(!entity) { _fun00022_ip = 70; continue _fun00021 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 13;
+            var1 = var5[var1];
+            var3 = undefined;
+            var6 = var4.bind(var3)(var1);
+            var2 = var6.isEligibleForSensitiveContentDefaults;
+            var1 = 'explicit_media_redaction_utils';
+            var1 = var2.bind(var6)(var1);
+            var2 = 14;
+            var2 = var5[var2];
+            var3 = var4.bind(var3)(var2);
+            var2 = var3.shouldShowTiggerPawtect;
+            var2 = var2.bind(var3)();
+            if(!var1) { _fun0011_ip = 70; continue _fun0011 }
  67:
-            entity = michal;
+            var1 = var2;
  70:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['shouldAgeVerifyForExplicitMedia'] = report;
-    zuuluu['useShouldAgeVerifyForExplicitMedia'] = tangon;
-    tangon = function(argFoo) { // Original name: useShouldAgeVerifyForReason
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    var3['shouldAgeVerifyForExplicitMedia'] = var5;
+    var3['useShouldAgeVerifyForExplicitMedia'] = var4;
+    var4 = function useShouldAgeVerifyForReason(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-            tangon = argFoo;
-            entity = _closure1_slot10;
-            report = undefined;
-            entity = entity.bind(report)();
-            zuuluu = !entity;
-            if(zuuluu) { _fun00024_ip = 28; continue _fun00023 }
+            var4 = arg1;
+            var1 = _closure1_slot10;
+            var5 = undefined;
+            var1 = var1.bind(var5)();
+            var3 = !var1;
+            if(var3) { _fun0012_ip = 28; continue _fun0012 }
  22:
-            entity = null;
-            zuuluu = entity == tangon;
+            var1 = null;
+            var3 = var1 == var4;
  28:
-            entity = !zuuluu;
-            if(zuuluu) { _fun00024_ip = 70; continue _fun00023 }
+            var1 = !var3;
+            if(var3) { _fun0012_ip = 70; continue _fun0012 }
  34:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 15;
-            michal = oscard[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.AGE_VERIFICATION_OBSCURABLE_REASONS;
-            michal = zuuluu.has;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 15;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.AGE_VERIFICATION_OBSCURABLE_REASONS;
+            var2 = var3.has;
+            var1 = var2.bind(var3)(var4);
  70:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldAgeVerifyForReason'] = tangon;
-    michal = function(argFoo) { // Original name: trackToggleMediaObscurityV2
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+    var3['useShouldAgeVerifyForReason'] = var4;
+    var2 = function trackToggleMediaObscurityV2(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.obscure;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 14;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.isVerifiedAdult;
-            zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00026_ip = 108; continue _fun00025 }
+            var1 = arg1;
+            var7 = var1.obscure;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 14;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isVerifiedAdult;
+            var3 = var3.bind(var4)();
+            if(!var3) { _fun0013_ip = 108; continue _fun0013 }
  47:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot8;
-            zuuluu = michal.EXPLICIT_MEDIA_OBSCURITY_TOGGLE_V2;
-            michal = {};
-            oscard = 'show';
-            if(!golfie) { _fun00026_ip = 95; continue _fun00025 }
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 8;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var2 = _closure1_slot8;
+            var3 = var2.EXPLICIT_MEDIA_OBSCURITY_TOGGLE_V2;
+            var2 = {};
+            var6 = 'show';
+            if(!var7) { _fun0013_ip = 95; continue _fun0013 }
  91:
-            oscard = 'hide';
+            var6 = 'hide';
  95:
-            michal['toggle_direction'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
+            var2['toggle_direction'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['trackToggleMediaObscurityV2'] = michal;
-    return entity;
+    var3['trackToggleMediaObscurityV2'] = var2;
+    return var1;
 })();

@@ -1,105 +1,105 @@
 // app/modules/perceptual_volume/PerceptualVolumeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/perceptual_volume/PerceptualVolumeUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: perceptualToAmplitude
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/perceptual_volume/PerceptualVolumeUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function perceptualToAmplitude(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = arguments[1];
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00002_ip = 15; continue _fun00001 }
+            var2 = arg1;
+            var3 = arguments[1];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0001_ip = 15; continue _fun0001 }
  12:
-            zuuluu = 100;
+            var3 = 100;
  15:
-            entity = 0;
-            if(!(entity !== michal)) { _fun00002_ip = 111; continue _fun00001 }
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0001_ip = 111; continue _fun0001 }
  21:
-            golfie = michal / zuuluu;
-            michal = 1;
-            if(!(!(golfie < michal))) { _fun00002_ip = 75; continue _fun00001 }
+            var7 = var2 / var3;
+            var2 = 1;
+            if(!(!(var7 < var2))) { _fun0001_ip = 75; continue _fun0001 }
  32:
-            tangon = global;
-            oscard = tangon.Math;
-            report = oscard.pow;
-            option = golfie - michal;
-            tangon = 10;
-            michal = 6;
-            option = michal * option;
-            michal = 20;
-            michal = option / michal;
-            michal = report.bind(oscard)(tangon, michal);
-            _fun00002_ip = 105; continue _fun00001;
+            var4 = global;
+            var6 = var4.Math;
+            var5 = var6.pow;
+            var8 = var7 - var2;
+            var4 = 10;
+            var2 = 6;
+            var8 = var2 * var8;
+            var2 = 20;
+            var2 = var8 / var2;
+            var2 = var5.bind(var6)(var4, var2);
+            _fun0001_ip = 105; continue _fun0001;
  75:
-            tangon = global;
-            oscard = tangon.Math;
-            report = oscard.pow;
-            tangon = 2.8;
-            michal = report.bind(oscard)(golfie, tangon);
+            var4 = global;
+            var6 = var4.Math;
+            var5 = var6.pow;
+            var4 = 2.8;
+            var2 = var5.bind(var6)(var7, var4);
  105:
-            michal = michal * zuuluu;
-            return michal;
+            var2 = var2 * var3;
+            return var2;
  111:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['perceptualToAmplitude'] = tangon;
-    michal = function(argFoo) { // Original name: amplitudeToPerceptual
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['perceptualToAmplitude'] = var4;
+    var2 = function amplitudeToPerceptual(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = arguments[1];
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00004_ip = 15; continue _fun00003 }
+            var2 = arg1;
+            var3 = arguments[1];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0002_ip = 15; continue _fun0002 }
  12:
-            zuuluu = 100;
+            var3 = 100;
  15:
-            entity = 0;
-            if(!(entity !== michal)) { _fun00004_ip = 107; continue _fun00003 }
+            var1 = 0;
+            if(!(var1 !== var2)) { _fun0002_ip = 107; continue _fun0002 }
  21:
-            golfie = michal / zuuluu;
-            tangon = 1;
-            if(!(!(golfie < tangon))) { _fun00004_ip = 71; continue _fun00003 }
+            var7 = var2 / var3;
+            var4 = 1;
+            if(!(!(var7 < var4))) { _fun0002_ip = 71; continue _fun0002 }
  32:
-            michal = global;
-            report = michal.Math;
-            michal = report.log10;
-            report = michal.bind(report)(golfie);
-            michal = 20;
-            report = michal * report;
-            michal = 6;
-            michal = report / michal;
-            michal = michal + tangon;
-            _fun00004_ip = 101; continue _fun00003;
+            var2 = global;
+            var5 = var2.Math;
+            var2 = var5.log10;
+            var5 = var2.bind(var5)(var7);
+            var2 = 20;
+            var5 = var2 * var5;
+            var2 = 6;
+            var2 = var5 / var2;
+            var2 = var2 + var4;
+            _fun0002_ip = 101; continue _fun0002;
  71:
-            tangon = global;
-            oscard = tangon.Math;
-            report = oscard.pow;
-            tangon = 0.35714285714285715;
-            michal = report.bind(oscard)(golfie, tangon);
+            var4 = global;
+            var6 = var4.Math;
+            var5 = var6.pow;
+            var4 = 0.35714285714285715;
+            var2 = var5.bind(var6)(var7, var4);
  101:
-            michal = michal * zuuluu;
-            return michal;
+            var2 = var2 * var3;
+            return var2;
  107:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['amplitudeToPerceptual'] = michal;
-    return entity;
+    var3['amplitudeToPerceptual'] = var2;
+    return var1;
 })();

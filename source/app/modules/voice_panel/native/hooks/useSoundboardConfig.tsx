@@ -1,181 +1,181 @@
 // app/modules/voice_panel/native/hooks/useSoundboardConfig.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    option = golfie[entity];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(option);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = {};
-    report = 'call control drawer';
-    michal['VOICE_CONTROLS'] = report;
-    report = 'call floating button';
-    michal['FLOATING_BUTTON'] = report;
-    report = 'call header';
-    michal['HEADER'] = report;
-    var _closure1_slot5 = michal;
-    report = 8;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/voice_panel/native/hooks/useSoundboardConfig.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo, argBar) { // Original name: useSoundboardConfig
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var8 = var7[var1];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var8);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var5 = 'call control drawer';
+    var2['VOICE_CONTROLS'] = var5;
+    var5 = 'call floating button';
+    var2['FLOATING_BUTTON'] = var5;
+    var5 = 'call header';
+    var2['HEADER'] = var5;
+    var _closure1_slot5 = var2;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/voice_panel/native/hooks/useSoundboardConfig.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useSoundboardConfig(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            tangon = argBar;
-            var _closure2_slot0 = golfie;
-            var _closure2_slot1 = tangon;
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            entity = 2;
-            entity = offset[entity];
-            option = undefined;
-            entity = verify.bind(option)(entity);
-            oscard = entity.bind(option)(golfie);
-            romeon = _closure1_slot0;
-            entity = 3;
-            entity = offset[entity];
-            yankee = romeon.bind(option)(entity);
-            michal = yankee.UNSAFE_useIsDismissibleContentDismissed;
-            entity = 4;
-            entity = offset[entity];
-            entity = romeon.bind(option)(entity);
-            entity = entity.DismissibleContent;
-            entity = entity.SOUNDBOARD_MOBILE_NEW_BADGE;
-            entity = michal.bind(yankee)(entity);
-            michal = !entity;
-            entity = 5;
-            entity = offset[entity];
-            offset = verify.bind(option)(entity);
-            verify = offset.useExperiment;
-            option = {};
-            option['location'] = tangon;
-            entity = {};
-            yankee = true;
-            entity['autoTrackExposure'] = yankee;
-            yankee = !oscard;
-            entity['disable'] = yankee;
-            entity = verify.bind(offset)(option, entity);
-            verify = entity.enabled;
-            offset = entity.showInHeader;
-            entity = {};
-            if(!oscard) { _fun00002_ip = 241; continue _fun00001 }
+            var7 = arg1;
+            var4 = arg2;
+            var _closure2_slot0 = var7;
+            var _closure2_slot1 = var4;
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 2;
+            var1 = var10[var1];
+            var8 = undefined;
+            var1 = var9.bind(var8)(var1);
+            var6 = var1.bind(var8)(var7);
+            var12 = _closure1_slot0;
+            var1 = 3;
+            var1 = var10[var1];
+            var11 = var12.bind(var8)(var1);
+            var2 = var11.UNSAFE_useIsDismissibleContentDismissed;
+            var1 = 4;
+            var1 = var10[var1];
+            var1 = var12.bind(var8)(var1);
+            var1 = var1.DismissibleContent;
+            var1 = var1.SOUNDBOARD_MOBILE_NEW_BADGE;
+            var1 = var2.bind(var11)(var1);
+            var2 = !var1;
+            var1 = 5;
+            var1 = var10[var1];
+            var10 = var9.bind(var8)(var1);
+            var9 = var10.useExperiment;
+            var8 = {};
+            var8['location'] = var4;
+            var1 = {};
+            var11 = true;
+            var1['autoTrackExposure'] = var11;
+            var11 = !var6;
+            var1['disable'] = var11;
+            var1 = var9.bind(var10)(var8, var1);
+            var9 = var1.enabled;
+            var10 = var1.showInHeader;
+            var1 = {};
+            if(!var6) { _fun0001_ip = 241; continue _fun0001 }
  163:
-            option = _closure1_slot5;
-            option = option.VOICE_CONTROLS;
-            option = tangon === option;
-            if(option) { _fun00002_ip = 209; continue _fun00001 }
+            var8 = _closure1_slot5;
+            var8 = var8.VOICE_CONTROLS;
+            var8 = var4 === var8;
+            if(var8) { _fun0001_ip = 209; continue _fun0001 }
  180:
-            yankee = verify;
-            if(!verify) { _fun00002_ip = 189; continue _fun00001 }
+            var11 = var9;
+            if(!var9) { _fun0001_ip = 189; continue _fun0001 }
  186:
-            yankee = !offset;
+            var11 = !var10;
  189:
-            if(!yankee) { _fun00002_ip = 206; continue _fun00001 }
+            if(!var11) { _fun0001_ip = 206; continue _fun0001 }
  192:
-            romeon = _closure1_slot5;
-            romeon = romeon.FLOATING_BUTTON;
-            yankee = tangon === romeon;
+            var12 = _closure1_slot5;
+            var12 = var12.FLOATING_BUTTON;
+            var11 = var4 === var12;
  206:
-            option = yankee;
+            var8 = var11;
  209:
-            if(option) { _fun00002_ip = 238; continue _fun00001 }
+            if(var8) { _fun0001_ip = 238; continue _fun0001 }
  212:
-            if(!verify) { _fun00002_ip = 218; continue _fun00001 }
+            if(!var9) { _fun0001_ip = 218; continue _fun0001 }
  215:
-            verify = offset;
+            var9 = var10;
  218:
-            if(!verify) { _fun00002_ip = 235; continue _fun00001 }
+            if(!var9) { _fun0001_ip = 235; continue _fun0001 }
  221:
-            offset = _closure1_slot5;
-            offset = offset.HEADER;
-            verify = tangon === offset;
+            var10 = _closure1_slot5;
+            var10 = var10.HEADER;
+            var9 = var4 === var10;
  235:
-            option = verify;
+            var8 = var9;
  238:
-            oscard = option;
+            var6 = var8;
  241:
-            entity['visible'] = oscard;
-            oscard = _closure1_slot3;
-            option = oscard.useCallback;
-            report = new Array(2);
-            report[0] = golfie;
-            report[1] = tangon;
-            tangon = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1['visible'] = var6;
+            var6 = _closure1_slot3;
+            var8 = var6.useCallback;
+            var5 = new Array(2);
+            var5[0] = var7;
+            var5[1] = var4;
+            var4 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = _closure1_slot4;
-                    zuuluu = report.getChannel;
-                    michal = _closure2_slot0;
-                    report = zuuluu.bind(report)(michal);
-                    michal = null;
-                    if(!(michal != report)) { _fun00004_ip = 78; continue _fun00003 }
+                    var5 = _closure1_slot4;
+                    var3 = var5.getChannel;
+                    var2 = _closure2_slot0;
+                    var5 = var3.bind(var5)(var2);
+                    var2 = null;
+                    if(!(var2 != var5)) { _fun0002_ip = 78; continue _fun0002 }
  30:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 6;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.showSoundboardSoundPickerActionSheet;
-                    entity = {};
-                    entity['channel'] = report;
-                    tangon = _closure2_slot1;
-                    entity['analyticsSource'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.showSoundboardSoundPickerActionSheet;
+                    var1 = {};
+                    var1['channel'] = var5;
+                    var4 = _closure2_slot1;
+                    var1['analyticsSource'] = var4;
+                    var1 = var2.bind(var3)(var1);
  78:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            tangon = option.bind(oscard)(tangon, report);
-            entity['handlePress'] = tangon;
-            report = oscard.useMemo;
-            tangon = new Array(1);
-            tangon[0] = golfie;
-            zuuluu = function() {
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 7;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                michal = tangon.bind(zuuluu)(michal);
-                report = _closure1_slot4;
-                tangon = report.getChannel;
-                entity = _closure2_slot0;
-                entity = tangon.bind(report)(entity);
-                entity = michal.bind(zuuluu)(entity);
-                entity = !entity;
-                return entity;
+            var4 = var8.bind(var6)(var4, var5);
+            var1['handlePress'] = var4;
+            var5 = var6.useMemo;
+            var4 = new Array(1);
+            var4[0] = var7;
+            var3 = function() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 7;
+                var2 = var3[var2];
+                var3 = undefined;
+                var2 = var4.bind(var3)(var2);
+                var5 = _closure1_slot4;
+                var4 = var5.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var4.bind(var5)(var1);
+                var1 = var2.bind(var3)(var1);
+                var1 = !var1;
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu, tangon);
-            entity['disabled'] = zuuluu;
-            entity['showIndicator'] = michal;
-            return entity;
+            var3 = var5.bind(var6)(var3, var4);
+            var1['disabled'] = var3;
+            var1['showIndicator'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['SoundboardButtonLocation'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['SoundboardButtonLocation'] = var2;
+    return var1;
 })();

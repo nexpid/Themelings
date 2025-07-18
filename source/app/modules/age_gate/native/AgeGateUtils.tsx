@@ -1,262 +1,262 @@
 // app/modules/age_gate/native/AgeGateUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    tangon = global;
-    offset = tangon.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = golfie[report];
-    option = oscard.bind(entity)(report);
-    report = option.GuildNSFWContentLevel;
-    var _closure1_slot6 = report;
-    option = option.Permissions;
-    var _closure1_slot7 = option;
-    option = tangon.Set;
-    verify = report.EXPLICIT;
-    tangon = new Array(2);
-    tangon[0] = verify;
-    report = report.AGE_RESTRICTED;
-    tangon[1] = report;
-    report = option.prototype;
-    report = Object.create(report, {constructor: {value: option}});
-    backup = report;
-    foxtra = tangon;
-    tangon = new backup[option](foxtra, romeon);
-    tangon = tangon instanceof Object ? tangon : report;
-    var _closure1_slot8 = tangon;
-    tangon = function(argFoo) { // Original name: isNSFWInvite
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var8 = var6.bind(var1)(var5);
+    var5 = var8.GuildNSFWContentLevel;
+    var _closure1_slot6 = var5;
+    var8 = var8.Permissions;
+    var _closure1_slot7 = var8;
+    var8 = var4.Set;
+    var9 = var5.EXPLICIT;
+    var4 = new Array(2);
+    var4[0] = var9;
+    var5 = var5.AGE_RESTRICTED;
+    var4[1] = var5;
+    var5 = var8.prototype;
+    var5 = Object.create(var5, {constructor: {value: var8}});
+    var14 = var5;
+    var13 = var4;
+    var4 = new var14[var8](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot8 = var4;
+    var4 = function isNSFWInvite(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            zuuluu = _closure1_slot8;
-            michal = zuuluu.has;
-            report = null;
-            golfie = report == oscard;
-            entity = undefined;
-            if(golfie) { _fun00002_ip = 46; continue _fun00001 }
+            var6 = arg1;
+            var3 = _closure1_slot8;
+            var2 = var3.has;
+            var5 = null;
+            var7 = var5 == var6;
+            var1 = undefined;
+            if(var7) { _fun0001_ip = 46; continue _fun0001 }
  26:
-            oscard = oscard.guild;
-            golfie = report == oscard;
-            entity = undefined;
-            if(golfie) { _fun00002_ip = 46; continue _fun00001 }
+            var6 = var6.guild;
+            var7 = var5 == var6;
+            var1 = undefined;
+            if(var7) { _fun0001_ip = 46; continue _fun0001 }
  40:
-            entity = oscard.nsfw_level;
+            var1 = var6.nsfw_level;
  46:
-            if(!(report == entity)) { _fun00002_ip = 60; continue _fun00001 }
+            if(!(var5 == var1)) { _fun0001_ip = 60; continue _fun0001 }
  50:
-            tangon = _closure1_slot6;
-            entity = tangon.DEFAULT;
+            var4 = _closure1_slot6;
+            var1 = var4.DEFAULT;
  60:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    var _closure1_slot9 = tangon;
-    report = 9;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/age_gate/native/AgeGateUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['isNSFWInvite'] = tangon;
-    tangon = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var4;
+    var5 = 9;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/age_gate/native/AgeGateUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['isNSFWInvite'] = var4;
+    var4 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            michal = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 4;
-            entity = tangon[entity];
-            verify = undefined;
-            michal = michal.bind(verify)(entity);
-            entity = michal.isIOS;
-            entity = entity.bind(michal)();
-            if(entity) { _fun00004_ip = 45; continue _fun00003 }
+            var7 = arg1;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var9 = undefined;
+            var2 = var2.bind(var9)(var1);
+            var1 = var2.isIOS;
+            var1 = var1.bind(var2)();
+            if(var1) { _fun0002_ip = 45; continue _fun0002 }
  41:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  45:
-            entity = _closure1_slot9;
-            michal = entity.bind(verify)(golfie);
-            report = _closure1_slot3;
-            tangon = report.getGuild;
-            option = null;
-            oscard = option == golfie;
-            entity = undefined;
-            if(oscard) { _fun00004_ip = 93; continue _fun00003 }
+            var1 = _closure1_slot9;
+            var2 = var1.bind(var9)(var7);
+            var5 = _closure1_slot3;
+            var4 = var5.getGuild;
+            var8 = null;
+            var6 = var8 == var7;
+            var1 = undefined;
+            if(var6) { _fun0002_ip = 93; continue _fun0002 }
  74:
-            oscard = golfie.guild;
-            offset = option == oscard;
-            entity = undefined;
-            if(offset) { _fun00004_ip = 93; continue _fun00003 }
+            var6 = var7.guild;
+            var10 = var8 == var6;
+            var1 = undefined;
+            if(var10) { _fun0002_ip = 93; continue _fun0002 }
  88:
-            entity = oscard.id;
+            var1 = var6.id;
  93:
-            entity = tangon.bind(report)(entity);
-            entity = option != entity;
-            michal = !michal;
-            if(michal) { _fun00004_ip = 111; continue _fun00003 }
+            var1 = var4.bind(var5)(var1);
+            var1 = var8 != var1;
+            var2 = !var2;
+            if(var2) { _fun0002_ip = 111; continue _fun0002 }
  108:
-            michal = entity;
+            var2 = var1;
  111:
-            entity = !michal;
-            if(michal) { _fun00004_ip = 219; continue _fun00003 }
+            var1 = !var2;
+            if(var2) { _fun0002_ip = 219; continue _fun0002 }
  117:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            tangon = 5;
-            tangon = michal[tangon];
-            report = report.bind(verify)(tangon);
-            tangon = report.pushLazy;
-            oscard = _closure1_slot0;
-            zuuluu = 7;
-            zuuluu = michal[zuuluu];
-            oscard = oscard.bind(verify)(zuuluu);
-            zuuluu = 6;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            zuuluu = oscard.bind(verify)(zuuluu, michal);
-            michal = {};
-            offset = option == golfie;
-            oscard = undefined;
-            if(offset) { _fun00004_ip = 207; continue _fun00003 }
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var4 = 5;
+            var4 = var2[var4];
+            var5 = var5.bind(var9)(var4);
+            var4 = var5.pushLazy;
+            var6 = _closure1_slot0;
+            var3 = 7;
+            var3 = var2[var3];
+            var6 = var6.bind(var9)(var3);
+            var3 = 6;
+            var3 = var2[var3];
+            var2 = var2.paths;
+            var3 = var6.bind(var9)(var3, var2);
+            var2 = {};
+            var10 = var8 == var7;
+            var6 = undefined;
+            if(var10) { _fun0002_ip = 207; continue _fun0002 }
  188:
-            golfie = golfie.guild;
-            option = option == golfie;
-            oscard = undefined;
-            if(option) { _fun00004_ip = 207; continue _fun00003 }
+            var7 = var7.guild;
+            var8 = var8 == var7;
+            var6 = undefined;
+            if(var8) { _fun0002_ip = 207; continue _fun0002 }
  202:
-            oscard = golfie.id;
+            var6 = var7.id;
  207:
-            michal['guildId'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            entity = true;
+            var2['guildId'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            var1 = true;
  219:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['handleNSFWGuildInvite'] = tangon;
-    michal = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['handleNSFWGuildInvite'] = var4;
+    var2 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 4;
-            entity = tangon[entity];
-            golfie = undefined;
-            zuuluu = zuuluu.bind(golfie)(entity);
-            entity = zuuluu.isIOS;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00006_ip = 42; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var7 = undefined;
+            var3 = var3.bind(var7)(var1);
+            var1 = var3.isIOS;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0003_ip = 42; continue _fun0003 }
  38:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  42:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.getGuild;
-            entity = argFoo;
-            oscard = zuuluu.bind(tangon)(entity);
-            zuuluu = _closure1_slot5;
-            entity = zuuluu.getCurrentUser;
-            tangon = entity.bind(zuuluu)();
-            entity = null;
-            if(!(entity != oscard)) { _fun00006_ip = 311; continue _fun00005 }
+            var4 = _closure1_slot3;
+            var3 = var4.getGuild;
+            var1 = arg1;
+            var6 = var3.bind(var4)(var1);
+            var3 = _closure1_slot5;
+            var1 = var3.getCurrentUser;
+            var4 = var1.bind(var3)();
+            var1 = null;
+            if(!(var1 != var6)) { _fun0003_ip = 311; continue _fun0003 }
  81:
-            if(!(entity != tangon)) { _fun00006_ip = 311; continue _fun00005 }
+            if(!(var1 != var4)) { _fun0003_ip = 311; continue _fun0003 }
  88:
-            report = _closure1_slot4;
-            zuuluu = report.can;
-            entity = _closure1_slot7;
-            entity = entity.ADMINISTRATOR;
-            entity = zuuluu.bind(report)(entity, oscard);
-            if(entity) { _fun00006_ip = 143; continue _fun00005 }
+            var5 = _closure1_slot4;
+            var3 = var5.can;
+            var1 = _closure1_slot7;
+            var1 = var1.ADMINISTRATOR;
+            var1 = var3.bind(var5)(var1, var6);
+            if(var1) { _fun0003_ip = 143; continue _fun0003 }
  117:
-            option = _closure1_slot4;
-            report = option.can;
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.MANAGE_GUILD;
-            entity = report.bind(option)(zuuluu, oscard);
+            var8 = _closure1_slot4;
+            var5 = var8.can;
+            var3 = _closure1_slot7;
+            var3 = var3.MANAGE_GUILD;
+            var1 = var5.bind(var8)(var3, var6);
  143:
-            if(entity) { _fun00006_ip = 172; continue _fun00005 }
+            if(var1) { _fun0003_ip = 172; continue _fun0003 }
  146:
-            option = _closure1_slot4;
-            report = option.can;
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.KICK_MEMBERS;
-            entity = report.bind(option)(zuuluu, oscard);
+            var8 = _closure1_slot4;
+            var5 = var8.can;
+            var3 = _closure1_slot7;
+            var3 = var3.KICK_MEMBERS;
+            var1 = var5.bind(var8)(var3, var6);
  172:
-            if(entity) { _fun00006_ip = 201; continue _fun00005 }
+            if(var1) { _fun0003_ip = 201; continue _fun0003 }
  175:
-            option = _closure1_slot4;
-            report = option.can;
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.BAN_MEMBERS;
-            entity = report.bind(option)(zuuluu, oscard);
+            var8 = _closure1_slot4;
+            var5 = var8.can;
+            var3 = _closure1_slot7;
+            var3 = var3.BAN_MEMBERS;
+            var1 = var5.bind(var8)(var3, var6);
  201:
-            option = oscard.nsfwLevel;
-            report = _closure1_slot6;
-            zuuluu = report.AGE_RESTRICTED;
-            zuuluu = option === zuuluu;
-            oscard = oscard.nsfwLevel;
-            report = report.EXPLICIT;
-            report = oscard === report;
-            tangon = tangon.nsfwAllowed;
-            if(!tangon) { _fun00006_ip = 282; continue _fun00005 }
+            var8 = var6.nsfwLevel;
+            var5 = _closure1_slot6;
+            var3 = var5.AGE_RESTRICTED;
+            var3 = var8 === var3;
+            var6 = var6.nsfwLevel;
+            var5 = var5.EXPLICIT;
+            var5 = var6 === var5;
+            var4 = var4.nsfwAllowed;
+            if(!var4) { _fun0003_ip = 282; continue _fun0003 }
  246:
-            oscard = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 8;
-            michal = option[michal];
-            michal = oscard.bind(golfie)(michal);
-            oscard = michal.ViewNsfwGuilds;
-            michal = oscard.getSetting;
-            tangon = michal.bind(oscard)();
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 8;
+            var2 = var8[var2];
+            var2 = var6.bind(var7)(var2);
+            var6 = var2.ViewNsfwGuilds;
+            var2 = var6.getSetting;
+            var4 = var2.bind(var6)();
  282:
-            entity = !entity;
-            if(!entity) { _fun00006_ip = 309; continue _fun00005 }
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 309; continue _fun0003 }
  288:
-            michal = !report;
-            michal = !michal;
-            if(report) { _fun00006_ip = 306; continue _fun00005 }
+            var2 = !var5;
+            var2 = !var2;
+            if(var5) { _fun0003_ip = 306; continue _fun0003 }
  297:
-            if(!zuuluu) { _fun00006_ip = 303; continue _fun00005 }
+            if(!var3) { _fun0003_ip = 303; continue _fun0003 }
  300:
-            zuuluu = !tangon;
+            var3 = !var4;
  303:
-            michal = zuuluu;
+            var2 = var3;
  306:
-            entity = michal;
+            var1 = var2;
  309:
-            return entity;
+            return var1;
  311:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['shouldNSFWGateGuild'] = michal;
-    return entity;
+    var3['shouldNSFWGateGuild'] = var2;
+    return var1;
 })();

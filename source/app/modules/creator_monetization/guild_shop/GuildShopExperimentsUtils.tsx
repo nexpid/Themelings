@@ -1,101 +1,101 @@
 // app/modules/creator_monetization/guild_shop/GuildShopExperimentsUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/creator_monetization/guild_shop/GuildShopExperimentsUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useIsEligibleForSubscriptionsInGuildShop
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/creator_monetization/guild_shop/GuildShopExperimentsUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useIsEligibleForSubscriptionsInGuildShop(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argBar;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            entity = oscard[entity];
-            zuuluu = undefined;
-            entity = tangon.bind(zuuluu)(entity);
-            golfie = entity.ShowGuildRoleSubInGuildShopExperiment;
-            michal = golfie.useExperiment;
-            entity = {};
-            entity['location'] = report;
-            entity = michal.bind(golfie)(entity);
-            entity = entity.enabled;
-            michal = 1;
-            michal = oscard[michal];
-            tangon = tangon.bind(zuuluu)(michal);
-            zuuluu = tangon.useGuildEligibleForGuildProducts;
-            michal = argFoo;
-            michal = zuuluu.bind(tangon)(michal, report);
-            if(!entity) { _fun00002_ip = 88; continue _fun00001 }
+            var5 = arg2;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var1 = var6[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var7 = var1.ShowGuildRoleSubInGuildShopExperiment;
+            var2 = var7.useExperiment;
+            var1 = {};
+            var1['location'] = var5;
+            var1 = var2.bind(var7)(var1);
+            var1 = var1.enabled;
+            var2 = 1;
+            var2 = var6[var2];
+            var4 = var4.bind(var3)(var2);
+            var3 = var4.useGuildEligibleForGuildProducts;
+            var2 = arg1;
+            var2 = var3.bind(var4)(var2, var5);
+            if(!var1) { _fun0001_ip = 88; continue _fun0001 }
  85:
-            entity = michal;
+            var1 = var2;
  88:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForSubscriptionsInGuildShop'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isEligibleForSubscriptionsInGuildShop
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useIsEligibleForSubscriptionsInGuildShop'] = var4;
+    var4 = function isEligibleForSubscriptionsInGuildShop(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argBar;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            entity = oscard[entity];
-            zuuluu = undefined;
-            entity = tangon.bind(zuuluu)(entity);
-            golfie = entity.ShowGuildRoleSubInGuildShopExperiment;
-            michal = golfie.getCurrentConfig;
-            entity = {};
-            entity['location'] = report;
-            entity = michal.bind(golfie)(entity);
-            entity = entity.enabled;
-            michal = 1;
-            michal = oscard[michal];
-            tangon = tangon.bind(zuuluu)(michal);
-            zuuluu = tangon.isGuildEligibleForGuildProducts;
-            michal = argFoo;
-            michal = zuuluu.bind(tangon)(michal, report);
-            if(!entity) { _fun00004_ip = 88; continue _fun00003 }
+            var5 = arg2;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var1 = var6[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var7 = var1.ShowGuildRoleSubInGuildShopExperiment;
+            var2 = var7.getCurrentConfig;
+            var1 = {};
+            var1['location'] = var5;
+            var1 = var2.bind(var7)(var1);
+            var1 = var1.enabled;
+            var2 = 1;
+            var2 = var6[var2];
+            var4 = var4.bind(var3)(var2);
+            var3 = var4.isGuildEligibleForGuildProducts;
+            var2 = arg1;
+            var2 = var3.bind(var4)(var2, var5);
+            if(!var1) { _fun0002_ip = 88; continue _fun0002 }
  85:
-            entity = michal;
+            var1 = var2;
  88:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForSubscriptionsInGuildShop'] = tangon;
-    michal = function(argFoo) { // Original name: useIsEligibleForGuildShopPreview
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.GuildShopPreviewExperiment;
-        michal = zuuluu.useExperiment;
-        entity = {};
-        tangon = argFoo;
-        entity['location'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
-        return entity;
+    var3['isEligibleForSubscriptionsInGuildShop'] = var4;
+    var2 = function useIsEligibleForGuildShopPreview(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.GuildShopPreviewExperiment;
+        var2 = var3.useExperiment;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
     };
-    zuuluu['useIsEligibleForGuildShopPreview'] = michal;
-    return entity;
+    var3['useIsEligibleForGuildShopPreview'] = var2;
+    return var1;
 })();

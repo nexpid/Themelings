@@ -1,220 +1,220 @@
 // app/modules/user_profile/hooks/useNote.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _fetchNote
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchNote() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    verify = argFoo;
+                    var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 317; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 317; continue _fun0001 }
  13:
-                    oscard = verify;
-                    michal = undefined;
-                    offset = undefined;
-                    golfie = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    report = 5;
-                    tangon = tangon[report];
-                    option = golfie.bind(michal)(tangon);
-                    golfie = option.dispatch;
-                    tangon = {};
-                    yankee = 'USER_NOTE_LOAD_START';
-                    tangon['type'] = yankee;
-                    tangon['userId'] = verify;
-                    tangon = golfie.bind(option)(tangon);
+                    var6 = var9;
+                    var2 = undefined;
+                    var10 = undefined;
+                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var5 = 5;
+                    var4 = var4[var5];
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var11 = 'USER_NOTE_LOAD_START';
+                    var4['type'] = var11;
+                    var4['userId'] = var9;
+                    var4 = var7.bind(var8)(var4);
  69: // try_start_0
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    tangon = 6;
-                    tangon = option[tangon];
-                    tangon = golfie.bind(michal)(tangon);
-                    option = tangon.HTTP;
-                    golfie = option.get;
-                    tangon = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-                    romeon = _closure1_slot6;
-                    yankee = romeon.NOTE;
-                    verify = oscard;
-                    verify = yankee.bind(romeon)(verify);
-                    tangon['url'] = verify;
-                    tangon = golfie.bind(option)(tangon);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 6;
+                    var4 = var8[var4];
+                    var4 = var7.bind(var2)(var4);
+                    var8 = var4.HTTP;
+                    var7 = var8.get;
+                    var4 = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+                    var12 = _closure1_slot6;
+                    var11 = var12.NOTE;
+                    var9 = var6;
+                    var9 = var11.bind(var12)(var9);
+                    var4['url'] = var9;
+                    var4 = var7.bind(var8)(var4);
                     SaveGenerator(address=142);
  140:
-                    return tangon;
+                    return var4;
  142:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 266; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 266; continue _fun0001 }
  148:
-                    golfie = tangon.body;
-                    offset = golfie;
-                    option = golfie.note_user_id;
-                    golfie = oscard;
-                    if(!(option === golfie)) { _fun00002_ip = 230; continue _fun00001 }
+                    var7 = var4.body;
+                    var10 = var7;
+                    var8 = var7.note_user_id;
+                    var7 = var6;
+                    if(!(var8 === var7)) { _fun0001_ip = 230; continue _fun0001 }
  171:
-                    option = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    golfie = golfie[report];
-                    verify = option.bind(michal)(golfie);
-                    option = verify.dispatch;
-                    golfie = {};
-                    yankee = 'USER_NOTE_UPDATE';
-                    golfie['type'] = yankee;
-                    yankee = oscard;
-                    golfie['id'] = yankee;
-                    offset = offset.note;
-                    golfie['note'] = offset;
-                    golfie = option.bind(verify)(golfie);
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var11 = 'USER_NOTE_UPDATE';
+                    var7['type'] = var11;
+                    var11 = var6;
+                    var7['id'] = var11;
+                    var10 = var10.note;
+                    var7['note'] = var10;
+                    var7 = var8.bind(var9)(var7);
  228: // try_end0
-                    _fun00002_ip = 314; continue _fun00001;
+                    _fun0001_ip = 314; continue _fun0001;
  230: // try_start_1
-                    golfie = global;
-                    verify = golfie.Error;
-                    golfie = verify.prototype;
-                    option = Object.create(golfie, {constructor: {value: verify}});
-                    foxtra = 'Invalid response from server';
-                    backup = option;
-                    golfie = new backup[verify](foxtra, romeon);
-                    golfie = golfie instanceof Object ? golfie : option;
-                    throw golfie;
+                    var7 = global;
+                    var9 = var7.Error;
+                    var7 = var9.prototype;
+                    var8 = Object.create(var7, {constructor: {value: var9}});
+                    var13 = 'Invalid response from server';
+                    var14 = var8;
+                    var7 = new var14[var9](var13, var12);
+                    var7 = var7 instanceof Object ? var7 : var8;
+                    throw var7;
  266: // try_end1
-                    return tangon;
+                    return var4;
  269: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[report];
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'USER_NOTE_UPDATE';
-                    zuuluu['type'] = golfie;
-                    zuuluu['id'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'USER_NOTE_UPDATE';
+                    var3['type'] = var7;
+                    var3['id'] = var6;
+                    var3 = var4.bind(var5)(var3);
  314:
-                    return michal;
+                    return var2;
  317:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/hooks/useNote.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useNote
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/hooks/useNote.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useNote(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            var _closure2_slot0 = oscard;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 4;
-            tangon = tangon[entity];
-            entity = undefined;
-            golfie = report.bind(entity)(tangon);
-            report = golfie.useStateFromStores;
-            entity = _closure1_slot5;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.getNote;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var4 = var4[var1];
+            var1 = undefined;
+            var7 = var5.bind(var1)(var4);
+            var5 = var7.useStateFromStores;
+            var1 = _closure1_slot5;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getNote;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = report.bind(golfie)(tangon, entity);
-            var _closure2_slot1 = entity;
-            report = _closure1_slot4;
-            tangon = report.useEffect;
-            zuuluu = new Array(2);
-            zuuluu[0] = entity;
-            zuuluu[1] = oscard;
-            michal = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = var5.bind(var7)(var4, var1);
+            var _closure2_slot1 = var1;
+            var5 = _closure1_slot4;
+            var4 = var5.useEffect;
+            var3 = new Array(2);
+            var3[0] = var1;
+            var3[1] = var6;
+            var2 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    michal = null;
-                    if(!(michal == zuuluu)) { _fun00006_ip = 31; continue _fun00005 }
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 == var3)) { _fun0003_ip = 31; continue _fun0003 }
  13:
-                    zuuluu = _closure2_slot0;
-                    michal = function() { // Original name: fetchNote
-                        entity = undefined;
-                        tangon = _closure1_slot7;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                    var3 = _closure2_slot0;
+                    var2 = function fetchNote() {
+                        var1 = undefined;
+                        var4 = _closure1_slot7;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    entity = undefined;
-                    entity = michal.bind(entity)(zuuluu);
+                    var1 = undefined;
+                    var1 = var2.bind(var1)(var3);
  31:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 118; continue _fun00003 }
+            var2 = var4.bind(var5)(var2, var3);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0002_ip = 118; continue _fun0002 }
  104:
-            entity = {'loading': true, 'note': null};
+            var1 = {'loading': true, 'note': null};
  118:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

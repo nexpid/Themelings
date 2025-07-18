@@ -1,443 +1,443 @@
 // app/utils/ComponentDispatchUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.ComponentActionsKeyed;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: ComponentDispatcher
-            michal = this;
-            report = _closure1_slot3;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(michal, tangon);
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.EventEmitter;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            option = tangon;
-            zuuluu = new option[zuuluu](golfie);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            michal['emitter'] = zuuluu;
-            zuuluu = {};
-            michal['_savedDispatches'] = zuuluu;
-            tangon = michal.emitter;
-            zuuluu = tangon.setMaxListeners;
-            michal = 100;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.ComponentActionsKeyed;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function ComponentDispatcher() {
+            var2 = this;
+            var5 = _closure1_slot3;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var2, var4);
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 3;
+            var3 = var5[var3];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.EventEmitter;
+            var4 = var3.prototype;
+            var4 = Object.create(var4, {constructor: {value: var3}});
+            var8 = var4;
+            var3 = new var8[var3](var7);
+            var3 = var3 instanceof Object ? var3 : var4;
+            var2['emitter'] = var3;
+            var3 = {};
+            var2['_savedDispatches'] = var3;
+            var4 = var2.emitter;
+            var3 = var4.setMaxListeners;
+            var2 = 100;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'safeDispatch';
-        entity['key'] = michal;
-        michal = function(argFoo, argBar) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'safeDispatch';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                oscard = argFoo;
-                zuuluu = this;
-                report = 1;
-                yankee = report;
-                tangon = copyRestArgs(yankee);
-                entity = zuuluu.hasSubscribers;
-                entity = entity.bind(zuuluu)(oscard);
-                if(entity) { _fun00002_ip = 78; continue _fun00001 }
+                var6 = arg1;
+                var3 = this;
+                var5 = 1;
+                var11 = var5;
+                var4 = copyRestArgs(var11);
+                var1 = var3.hasSubscribers;
+                var1 = var1.bind(var3)(var6);
+                if(var1) { _fun0001_ip = 78; continue _fun0001 }
  30:
-                entity = 0;
-                golfie = tangon[entity];
-                entity = zuuluu._savedDispatches;
-                michal = zuuluu._savedDispatches;
-                michal = michal[oscard];
-                option = null;
-                if(!(option == michal)) { _fun00002_ip = 62; continue _fun00001 }
+                var1 = 0;
+                var7 = var4[var1];
+                var1 = var3._savedDispatches;
+                var2 = var3._savedDispatches;
+                var2 = var2[var6];
+                var8 = null;
+                if(!(var8 == var2)) { _fun0001_ip = 62; continue _fun0001 }
  58:
-                michal = new Array(0);
+                var2 = new Array(0);
  62:
-                entity[oscard] = michal;
-                entity = michal.push;
-                entity = entity.bind(michal)(golfie);
-                return zuuluu;
+                var1[var6] = var2;
+                var1 = var2.push;
+                var1 = var1.bind(var2)(var7);
+                return var3;
  78:
-                michal = zuuluu.dispatch;
-                entity = new Array(1);
-                entity[0] = oscard;
-                yankee = entity;
-                offset = tangon;
-                verify = report;
-                tangon = arraySpread(yankee, offset, verify);
-                yankee = michal;
-                offset = entity;
-                verify = zuuluu;
-                entity = apply(yankee, offset, verify);
-                return entity;
+                var2 = var3.dispatch;
+                var1 = new Array(1);
+                var1[0] = var6;
+                var11 = var1;
+                var10 = var4;
+                var9 = var5;
+                var4 = arraySpread(var11, var10, var9);
+                var11 = var2;
+                var10 = var1;
+                var9 = var3;
+                var1 = apply(var11, var10, var9);
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(13);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'dispatch';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var2;
+        var2 = new Array(13);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'dispatch';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = this;
-                zuuluu = argFoo;
-                michal = argBar;
-                tangon = global;
-                report = tangon.Date;
-                tangon = report.now;
-                tangon = tangon.bind(report)();
+                var1 = this;
+                var3 = arg1;
+                var2 = arg2;
+                var4 = global;
+                var5 = var4.Date;
+                var4 = var5.now;
+                var4 = var4.bind(var5)();
  26: // try_start_0
-                report = entity.emitter;
-                tangon = report.emit;
-                michal = tangon.bind(report)(zuuluu, michal);
+                var5 = var1.emitter;
+                var4 = var5.emit;
+                var2 = var4.bind(var5)(var3, var2);
  44: // try_end0
-                return entity;
+                return var1;
  46: // catch_target0
                 CatchBlockStart(arg_register=0);
-                throw entity;
+                throw var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'dispatchToLastSubscribed';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'dispatchToLastSubscribed';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = this;
-                tangon = argFoo;
-                michal = argBar;
-                zuuluu = undefined;
-                report = global;
-                oscard = report.Date;
-                report = oscard.now;
-                report = report.bind(oscard)();
+                var1 = this;
+                var4 = arg1;
+                var2 = arg2;
+                var3 = undefined;
+                var5 = global;
+                var6 = var5.Date;
+                var5 = var6.now;
+                var5 = var5.bind(var6)();
  28: // try_start_0
-                oscard = entity.emitter;
-                report = oscard.listeners;
-                tangon = report.bind(oscard)(tangon);
-                zuuluu = tangon;
-                report = tangon.length;
-                tangon = 0;
-                if(!(report > tangon)) { _fun00006_ip = 83; continue _fun00005 }
+                var6 = var1.emitter;
+                var5 = var6.listeners;
+                var4 = var5.bind(var6)(var4);
+                var3 = var4;
+                var5 = var4.length;
+                var4 = 0;
+                if(!(var5 > var4)) { _fun0003_ip = 83; continue _fun0003 }
  59:
-                tangon = zuuluu;
-                report = tangon.length;
-                zuuluu = 1;
-                zuuluu = report - zuuluu;
-                zuuluu = tangon[zuuluu];
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = var3;
+                var5 = var4.length;
+                var3 = 1;
+                var3 = var5 - var3;
+                var3 = var4[var3];
+                var2 = var3.bind(var4)(var2);
  83: // try_end0
-                return entity;
+                return var1;
  85: // catch_target0
                 CatchBlockStart(arg_register=0);
-                throw entity;
+                throw var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'hasSubscribers';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            entity = this;
-            zuuluu = entity.emitter;
-            michal = zuuluu.listenerCount;
-            entity = argFoo;
-            michal = michal.bind(zuuluu)(entity);
-            entity = 0;
-            entity = michal > entity;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'hasSubscribers';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = this;
+            var3 = var1.emitter;
+            var2 = var3.listenerCount;
+            var1 = arg1;
+            var2 = var2.bind(var3)(var1);
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = '_checkSavedDispatches';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = '_checkSavedDispatches';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = argFoo;
-                entity = this;
-                var _closure3_slot0 = entity;
-                var _closure3_slot1 = zuuluu;
-                tangon = entity._savedDispatches;
-                report = tangon[zuuluu];
-                tangon = null;
-                if(!(tangon != report)) { _fun00008_ip = 59; continue _fun00007 }
+                var3 = arg1;
+                var1 = this;
+                var _closure3_slot0 = var1;
+                var _closure3_slot1 = var3;
+                var4 = var1._savedDispatches;
+                var5 = var4[var3];
+                var4 = null;
+                if(!(var4 != var5)) { _fun0004_ip = 59; continue _fun0004 }
  32:
-                tangon = report.forEach;
-                michal = function(argFoo) {
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.dispatch;
-                    michal = _closure3_slot1;
-                    entity = argFoo;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    entity = undefined;
-                    return entity;
+                var4 = var5.forEach;
+                var2 = function(arg1) {
+                    var4 = _closure3_slot0;
+                    var3 = var4.dispatch;
+                    var2 = _closure3_slot1;
+                    var1 = arg1;
+                    var1 = var3.bind(var4)(var2, var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                michal = tangon.bind(report)(michal);
-                michal = entity._savedDispatches;
-                entity = undefined;
-                michal[zuuluu] = entity;
+                var2 = var4.bind(var5)(var2);
+                var2 = var1._savedDispatches;
+                var1 = undefined;
+                var2[var3] = var1;
  59:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'subscribe';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'subscribe';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                report = argFoo;
-                tangon = argBar;
-                entity = this;
-                zuuluu = entity.emitter;
-                michal = zuuluu.listeners;
-                zuuluu = michal.bind(zuuluu)(report);
-                michal = zuuluu.indexOf;
-                zuuluu = michal.bind(zuuluu)(tangon);
-                michal = 0;
-                if(!(!(zuuluu >= michal))) { _fun00010_ip = 74; continue _fun00009 }
+                var5 = arg1;
+                var4 = arg2;
+                var1 = this;
+                var3 = var1.emitter;
+                var2 = var3.listeners;
+                var3 = var2.bind(var3)(var5);
+                var2 = var3.indexOf;
+                var3 = var2.bind(var3)(var4);
+                var2 = 0;
+                if(!(!(var3 >= var2))) { _fun0005_ip = 74; continue _fun0005 }
  43:
-                zuuluu = entity.emitter;
-                michal = zuuluu.on;
-                michal = michal.bind(zuuluu)(report, tangon);
-                michal = entity._checkSavedDispatches;
-                michal = michal.bind(entity)(report);
-                _fun00010_ip = 142; continue _fun00009;
+                var3 = var1.emitter;
+                var2 = var3.on;
+                var2 = var2.bind(var3)(var5, var4);
+                var2 = var1._checkSavedDispatches;
+                var2 = var2.bind(var1)(var5);
+                _fun0005_ip = 142; continue _fun0005;
  74:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 4;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                michal = tangon.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: tangon}});
-                golfie = 'ComponentDispatchUtils';
-                option = zuuluu;
-                michal = new option[tangon](golfie, oscard);
-                tangon = michal instanceof Object ? michal : zuuluu;
-                zuuluu = tangon.warn;
-                michal = 'ComponentDispatch.subscribe: Attempting to add a duplicate listener';
-                michal = zuuluu.bind(tangon)(michal, report);
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 4;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var2 = var4.prototype;
+                var3 = Object.create(var2, {constructor: {value: var4}});
+                var7 = 'ComponentDispatchUtils';
+                var8 = var3;
+                var2 = new var8[var4](var7, var6);
+                var4 = var2 instanceof Object ? var2 : var3;
+                var3 = var4.warn;
+                var2 = 'ComponentDispatch.subscribe: Attempting to add a duplicate listener';
+                var2 = var3.bind(var4)(var2, var5);
  142:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[5] = entity;
-        entity = {};
-        oscard = 'subscribeOnce';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            zuuluu = argFoo;
-            entity = this;
-            report = entity.emitter;
-            tangon = report.once;
-            michal = argBar;
-            michal = tangon.bind(report)(zuuluu, michal);
-            michal = entity._checkSavedDispatches;
-            michal = michal.bind(entity)(zuuluu);
-            return entity;
+        var1['value'] = var6;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'subscribeOnce';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            var3 = arg1;
+            var1 = this;
+            var5 = var1.emitter;
+            var4 = var5.once;
+            var2 = arg2;
+            var2 = var4.bind(var5)(var3, var2);
+            var2 = var1._checkSavedDispatches;
+            var2 = var2.bind(var1)(var3);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[6] = entity;
-        entity = {};
-        oscard = 'resubscribe';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
+        var6 = 'resubscribe';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                tangon = argFoo;
-                zuuluu = argBar;
-                entity = this;
-                report = entity.emitter;
-                michal = report.listeners;
-                report = michal.bind(report)(tangon);
-                michal = report.includes;
-                michal = michal.bind(report)(zuuluu);
-                if(michal) { _fun00012_ip = 109; continue _fun00011 }
+                var4 = arg1;
+                var3 = arg2;
+                var1 = this;
+                var5 = var1.emitter;
+                var2 = var5.listeners;
+                var5 = var2.bind(var5)(var4);
+                var2 = var5.includes;
+                var2 = var2.bind(var5)(var3);
+                if(var2) { _fun0006_ip = 109; continue _fun0006 }
  39:
-                oscard = _closure1_slot1;
-                report = _closure1_slot2;
-                michal = 4;
-                report = report[michal];
-                michal = undefined;
-                oscard = oscard.bind(michal)(report);
-                michal = oscard.prototype;
-                report = Object.create(michal, {constructor: {value: oscard}});
-                option = 'ComponentDispatchUtils';
-                verify = report;
-                michal = new verify[oscard](option, golfie);
-                oscard = michal instanceof Object ? michal : report;
-                report = oscard.warn;
-                michal = 'ComponentDispatch.resubscribe: Resubscribe without existing subscription';
-                michal = report.bind(oscard)(michal, tangon);
-                return entity;
+                var6 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 4;
+                var5 = var5[var2];
+                var2 = undefined;
+                var6 = var6.bind(var2)(var5);
+                var2 = var6.prototype;
+                var5 = Object.create(var2, {constructor: {value: var6}});
+                var8 = 'ComponentDispatchUtils';
+                var9 = var5;
+                var2 = new var9[var6](var8, var7);
+                var6 = var2 instanceof Object ? var2 : var5;
+                var5 = var6.warn;
+                var2 = 'ComponentDispatch.resubscribe: Resubscribe without existing subscription';
+                var2 = var5.bind(var6)(var2, var4);
+                return var1;
  109:
-                report = entity.emitter;
-                michal = report.off;
-                michal = michal.bind(report)(tangon, zuuluu);
-                michal = entity.emitter;
-                entity = michal.on;
-                entity = entity.bind(michal)(tangon, zuuluu);
-                entity = undefined;
-                return entity;
+                var5 = var1.emitter;
+                var2 = var5.off;
+                var2 = var2.bind(var5)(var4, var3);
+                var2 = var1.emitter;
+                var1 = var2.on;
+                var1 = var1.bind(var2)(var4, var3);
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[7] = entity;
-        entity = {};
-        oscard = 'unsubscribe';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            entity = this;
-            report = entity.emitter;
-            tangon = report.removeListener;
-            zuuluu = argFoo;
-            michal = argBar;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+        var1['value'] = var6;
+        var2[7] = var1;
+        var1 = {};
+        var6 = 'unsubscribe';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            var1 = this;
+            var5 = var1.emitter;
+            var4 = var5.removeListener;
+            var3 = arg1;
+            var2 = arg2;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[8] = entity;
-        entity = {};
-        oscard = 'reset';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.emitter;
-            michal = zuuluu.removeAllListeners;
-            michal = michal.bind(zuuluu)();
-            return entity;
+        var1['value'] = var6;
+        var2[8] = var1;
+        var1 = {};
+        var6 = 'reset';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var3 = var1.emitter;
+            var2 = var3.removeAllListeners;
+            var2 = var2.bind(var3)();
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[9] = entity;
-        entity = {};
-        oscard = 'dispatchKeyed';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
-            zuuluu = this;
-            yankee = 2;
-            report = copyRestArgs(yankee);
-            michal = zuuluu.dispatch;
-            entity = global;
-            entity = entity.HermesInternal;
-            option = entity.concat;
-            golfie = '';
-            oscard = argFoo;
-            tangon = '_';
-            entity = argBar;
-            tangon = option.bind(golfie)(oscard, tangon, entity);
-            entity = new Array(1);
-            entity[0] = tangon;
-            verify = 1;
-            yankee = entity;
-            offset = report;
-            tangon = arraySpread(yankee, offset, verify);
-            yankee = michal;
-            offset = entity;
-            verify = zuuluu;
-            entity = apply(yankee, offset, verify);
-            return entity;
+        var1['value'] = var6;
+        var2[9] = var1;
+        var1 = {};
+        var6 = 'dispatchKeyed';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            var3 = this;
+            var11 = 2;
+            var5 = copyRestArgs(var11);
+            var2 = var3.dispatch;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var8 = var1.concat;
+            var7 = '';
+            var6 = arg1;
+            var4 = '_';
+            var1 = arg2;
+            var4 = var8.bind(var7)(var6, var4, var1);
+            var1 = new Array(1);
+            var1[0] = var4;
+            var9 = 1;
+            var11 = var1;
+            var10 = var5;
+            var4 = arraySpread(var11, var10, var9);
+            var11 = var2;
+            var10 = var1;
+            var9 = var3;
+            var1 = apply(var11, var10, var9);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[10] = entity;
-        entity = {};
-        oscard = 'subscribeKeyed';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
-            tangon = this;
-            zuuluu = tangon.subscribe;
-            entity = global;
-            entity = entity.HermesInternal;
-            golfie = entity.concat;
-            oscard = '';
-            report = argFoo;
-            michal = '_';
-            entity = argBar;
-            michal = golfie.bind(oscard)(report, michal, entity);
-            entity = argBaz;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var1['value'] = var6;
+        var2[10] = var1;
+        var1 = {};
+        var6 = 'subscribeKeyed';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            var4 = this;
+            var3 = var4.subscribe;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var7 = var1.concat;
+            var6 = '';
+            var5 = arg1;
+            var2 = '_';
+            var1 = arg2;
+            var2 = var7.bind(var6)(var5, var2, var1);
+            var1 = arg3;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[11] = entity;
-        entity = {};
-        oscard = 'unsubscribeKeyed';
-        entity['key'] = oscard;
-        report = function(argFoo, argBar, argBaz) { // Original name: value
-            tangon = this;
-            zuuluu = tangon.unsubscribe;
-            entity = global;
-            entity = entity.HermesInternal;
-            golfie = entity.concat;
-            oscard = '';
-            report = argFoo;
-            michal = '_';
-            entity = argBar;
-            michal = golfie.bind(oscard)(report, michal, entity);
-            entity = argBaz;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var1['value'] = var6;
+        var2[11] = var1;
+        var1 = {};
+        var6 = 'unsubscribeKeyed';
+        var1['key'] = var6;
+        var5 = function value(arg1, arg2, arg3) {
+            var4 = this;
+            var3 = var4.unsubscribe;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var7 = var1.concat;
+            var6 = '';
+            var5 = arg1;
+            var2 = '_';
+            var1 = arg2;
+            var2 = var7.bind(var6)(var5, var2, var1);
+            var1 = arg3;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity['value'] = report;
-        michal[12] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[12] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = michal.bind(entity)();
-    michal = tangon.prototype;
-    report = Object.create(michal, {constructor: {value: tangon}});
-    foxtra = report;
-    michal = new foxtra[tangon](romeon);
-    michal = michal instanceof Object ? michal : report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/ComponentDispatchUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['ComponentDispatcher'] = tangon;
-    zuuluu['ComponentDispatch'] = michal;
-    return entity;
+    var4 = var2.bind(var1)();
+    var2 = var4.prototype;
+    var5 = Object.create(var2, {constructor: {value: var4}});
+    var13 = var5;
+    var2 = new var13[var4](var12);
+    var2 = var2 instanceof Object ? var2 : var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/ComponentDispatchUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['ComponentDispatcher'] = var4;
+    var3['ComponentDispatch'] = var2;
+    return var1;
 })();

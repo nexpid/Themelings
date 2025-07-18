@@ -1,334 +1,334 @@
 // app/modules/rpc/server/commands/soundboard.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    tangon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = tangon.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = tangon.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = tangon.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    kiloes = michal.RPC_LOCAL_SCOPE;
-    offset = michal.RPC_SCOPE_CONFIG;
-    michal = 4;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    tangon = michal.RPCCommands;
-    michal = michal.RPCErrors;
-    var _closure1_slot6 = michal;
-    michal = {};
-    verify = tangon.GET_SOUNDBOARD_SOUNDS;
-    golfie = {};
-    yankee = {};
-    backup = offset.ANY;
-    romeon = 5;
-    foxtra = oscard[romeon];
-    foxtra = report.bind(entity)(foxtra);
-    foxtra = foxtra.OAuth2Scopes;
-    sizing = foxtra.RPC;
-    foxtra = new Array(2);
-    foxtra[0] = sizing;
-    foxtra[1] = kiloes;
-    yankee[backup] = foxtra;
-    golfie['scope'] = yankee;
-    yankee = function() { // Original name: handler
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var4 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var4.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var4.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var4.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var15 = var2.RPC_LOCAL_SCOPE;
+    var10 = var2.RPC_SCOPE_CONFIG;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.RPCCommands;
+    var2 = var2.RPCErrors;
+    var _closure1_slot6 = var2;
+    var2 = {};
+    var9 = var4.GET_SOUNDBOARD_SOUNDS;
+    var7 = {};
+    var11 = {};
+    var14 = var10.ANY;
+    var12 = 5;
+    var13 = var6[var12];
+    var13 = var5.bind(var1)(var13);
+    var13 = var13.OAuth2Scopes;
+    var16 = var13.RPC;
+    var13 = new Array(2);
+    var13[0] = var16;
+    var13[1] = var15;
+    var11[var14] = var13;
+    var7['scope'] = var11;
+    var11 = function handler() {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 103; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 103; continue _fun0001 }
  9:
-                    oscard = undefined;
-                    var _closure4_slot0 = oscard;
-                    report = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 6;
-                    michal = golfie[michal];
-                    report = report.bind(oscard)(michal);
-                    michal = report.maybeFetchSoundboardSounds;
-                    michal = michal.bind(report)();
+                    var6 = undefined;
+                    var _closure4_slot0 = var6;
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var7[var2];
+                    var5 = var5.bind(var6)(var2);
+                    var2 = var5.maybeFetchSoundboardSounds;
+                    var2 = var2.bind(var5)();
                     SaveGenerator(address=52);
  50:
-                    return michal;
+                    return var2;
  52:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 100; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 100; continue _fun0001 }
  58:
-                    report = _closure1_slot4;
-                    zuuluu = report.getSounds;
-                    oscard = zuuluu.bind(report)();
-                    zuuluu = new Array(0);
-                    _closure4_slot0 = zuuluu;
-                    report = oscard.forEach;
-                    tangon = function(argFoo) {
-                        zuuluu = argFoo;
-                        michal = zuuluu.forEach;
-                        entity = function(argFoo) {
-                            zuuluu = _closure4_slot0;
-                            michal = zuuluu.push;
-                            report = _closure1_slot0;
-                            tangon = _closure1_slot2;
-                            entity = 7;
-                            tangon = tangon[entity];
-                            entity = undefined;
-                            report = report.bind(entity)(tangon);
-                            tangon = report.soundboardSoundToAPI;
-                            entity = argFoo;
-                            entity = tangon.bind(report)(entity);
-                            entity = michal.bind(zuuluu)(entity);
-                            return entity;
+                    var5 = _closure1_slot4;
+                    var3 = var5.getSounds;
+                    var6 = var3.bind(var5)();
+                    var3 = new Array(0);
+                    _closure4_slot0 = var3;
+                    var5 = var6.forEach;
+                    var4 = function(arg1) {
+                        var3 = arg1;
+                        var2 = var3.forEach;
+                        var1 = function(arg1) {
+                            var3 = _closure4_slot0;
+                            var2 = var3.push;
+                            var5 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var1 = 7;
+                            var4 = var4[var1];
+                            var1 = undefined;
+                            var5 = var5.bind(var1)(var4);
+                            var4 = var5.soundboardSoundToAPI;
+                            var1 = arg1;
+                            var1 = var4.bind(var5)(var1);
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
                         };
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  100:
-                    return michal;
+                    return var2;
  103:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    golfie['handler'] = yankee;
-    michal[verify] = golfie;
-    golfie = tangon.PLAY_SOUNDBOARD_SOUND;
-    tangon = {};
-    verify = {};
-    yankee = offset.ALL;
-    offset = oscard[romeon];
-    offset = report.bind(entity)(offset);
-    offset = offset.OAuth2Scopes;
-    foxtra = offset.RPC;
-    offset = new Array(2);
-    offset[0] = foxtra;
-    romeon = oscard[romeon];
-    romeon = report.bind(entity)(romeon);
-    romeon = romeon.OAuth2Scopes;
-    romeon = romeon.RPC_VOICE_WRITE;
-    offset[1] = romeon;
-    verify[yankee] = offset;
-    tangon['scope'] = verify;
-    verify = function(argFoo) { // Original name: validation
-        report = argFoo;
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 8;
-        entity = michal[entity];
-        michal = undefined;
-        entity = zuuluu.bind(michal)(entity);
-        michal = entity.bind(michal)(report);
-        entity = michal.required;
-        zuuluu = entity.bind(michal)();
-        michal = zuuluu.keys;
-        entity = {};
-        tangon = report.string;
-        tangon = tangon.bind(report)();
-        entity['guild_id'] = tangon;
-        tangon = report.string;
-        tangon = tangon.bind(report)();
-        entity['sound_id'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var7['handler'] = var11;
+    var2[var9] = var7;
+    var7 = var4.PLAY_SOUNDBOARD_SOUND;
+    var4 = {};
+    var9 = {};
+    var11 = var10.ALL;
+    var10 = var6[var12];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.OAuth2Scopes;
+    var13 = var10.RPC;
+    var10 = new Array(2);
+    var10[0] = var13;
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var12 = var12.RPC_VOICE_WRITE;
+    var10[1] = var12;
+    var9[var11] = var10;
+    var4['scope'] = var9;
+    var9 = function validation(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var3.bind(var2)(var1);
+        var2 = var1.bind(var2)(var5);
+        var1 = var2.required;
+        var3 = var1.bind(var2)();
+        var2 = var3.keys;
+        var1 = {};
+        var4 = var5.string;
+        var4 = var4.bind(var5)();
+        var1['guild_id'] = var4;
+        var4 = var5.string;
+        var4 = var4.bind(var5)();
+        var1['sound_id'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['validation'] = verify;
-    option = function(argFoo) { // Original name: handler
-        michal = argFoo;
-        michal = michal.args;
-        zuuluu = michal.guild_id;
-        var _closure2_slot0 = zuuluu;
-        michal = michal.sound_id;
-        var _closure2_slot1 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4['validation'] = var9;
+    var8 = function handler(arg1) {
+        var2 = arg1;
+        var2 = var2.args;
+        var3 = var2.guild_id;
+        var _closure2_slot0 = var3;
+        var2 = var2.sound_id;
+        var _closure2_slot1 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 483; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 483; continue _fun0002 }
  10:
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 6;
-                    michal = report[michal];
-                    oscard = undefined;
-                    tangon = tangon.bind(oscard)(michal);
-                    michal = tangon.maybeFetchSoundboardSounds;
-                    michal = michal.bind(tangon)();
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var5[var2];
+                    var6 = undefined;
+                    var4 = var4.bind(var6)(var2);
+                    var2 = var4.maybeFetchSoundboardSounds;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=49);
  47:
-                    return michal;
+                    return var2;
  49:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 480; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 480; continue _fun0002 }
  58:
-                    report = _closure1_slot5;
-                    tangon = report.getCurrentUser;
-                    yankee = tangon.bind(report)();
-                    option = _closure1_slot4;
-                    golfie = option.getSound;
-                    report = _closure2_slot0;
-                    tangon = _closure2_slot1;
-                    verify = golfie.bind(option)(report, tangon);
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 9;
-                    tangon = golfie[tangon];
-                    tangon = report.bind(oscard)(tangon);
-                    tangon = tangon.bind(oscard)();
-                    report = null;
-                    golfie = report != verify;
-                    if(!golfie) { _fun00004_ip = 135; continue _fun00003 }
+                    var5 = _closure1_slot5;
+                    var4 = var5.getCurrentUser;
+                    var11 = var4.bind(var5)();
+                    var8 = _closure1_slot4;
+                    var7 = var8.getSound;
+                    var5 = _closure2_slot0;
+                    var4 = _closure2_slot1;
+                    var9 = var7.bind(var8)(var5, var4);
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var4 = 9;
+                    var4 = var7[var4];
+                    var4 = var5.bind(var6)(var4);
+                    var4 = var4.bind(var6)();
+                    var5 = null;
+                    var7 = var5 != var9;
+                    if(!var7) { _fun0002_ip = 135; continue _fun0002 }
  131:
-                    golfie = report != yankee;
+                    var7 = var5 != var11;
  135:
-                    if(!golfie) { _fun00004_ip = 171; continue _fun00003 }
+                    if(!var7) { _fun0002_ip = 171; continue _fun0002 }
  138:
-                    offset = _closure1_slot0;
-                    romeon = _closure1_slot2;
-                    option = 10;
-                    option = romeon[option];
-                    offset = offset.bind(oscard)(option);
-                    option = offset.canUseSoundboardSound;
-                    golfie = option.bind(offset)(yankee, verify, tangon);
+                    var10 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var8 = 10;
+                    var8 = var12[var8];
+                    var10 = var10.bind(var6)(var8);
+                    var8 = var10.canUseSoundboardSound;
+                    var7 = var8.bind(var10)(var11, var9, var4);
  171:
-                    if(!(report != tangon)) { _fun00004_ip = 412; continue _fun00003 }
+                    if(!(var5 != var4)) { _fun0002_ip = 412; continue _fun0002 }
  178:
-                    option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    if(golfie) { _fun00004_ip = 249; continue _fun00003 }
+                    var8 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    if(var7) { _fun0002_ip = 249; continue _fun0002 }
  189:
-                    golfie = 11;
-                    golfie = offset[golfie];
-                    foxtra = option.bind(oscard)(golfie);
-                    romeon = {};
-                    golfie = _closure1_slot6;
-                    golfie = golfie.INVALID_SOUND;
-                    romeon['errorCode'] = golfie;
-                    golfie = foxtra.prototype;
-                    yankee = Object.create(golfie, {constructor: {value: foxtra}});
-                    kiloes = 'Invalid Sound.';
-                    output = yankee;
-                    sizing = romeon;
-                    golfie = new output[foxtra](sizing, kiloes, backup);
-                    golfie = golfie instanceof Object ? golfie : yankee;
-                    throw golfie;
+                    var7 = 11;
+                    var7 = var10[var7];
+                    var13 = var8.bind(var6)(var7);
+                    var12 = {};
+                    var7 = _closure1_slot6;
+                    var7 = var7.INVALID_SOUND;
+                    var12['errorCode'] = var7;
+                    var7 = var13.prototype;
+                    var11 = Object.create(var7, {constructor: {value: var13}});
+                    var15 = 'Invalid Sound.';
+                    var17 = var11;
+                    var16 = var12;
+                    var7 = new var17[var13](var16, var15, var14);
+                    var7 = var7 instanceof Object ? var7 : var11;
+                    throw var7;
  249:
-                    golfie = 12;
-                    golfie = offset[golfie];
-                    golfie = option.bind(oscard)(golfie);
-                    golfie = golfie.bind(oscard)(tangon);
-                    if(golfie) { _fun00004_ip = 337; continue _fun00003 }
+                    var7 = 12;
+                    var7 = var10[var7];
+                    var7 = var8.bind(var6)(var7);
+                    var7 = var7.bind(var6)(var4);
+                    if(var7) { _fun0002_ip = 337; continue _fun0002 }
  269:
-                    option = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    golfie = 11;
-                    golfie = offset[golfie];
-                    yankee = option.bind(oscard)(golfie);
-                    offset = {};
-                    golfie = _closure1_slot6;
-                    golfie = golfie.INVALID_PERMISSIONS;
-                    offset['errorCode'] = golfie;
-                    golfie = yankee.prototype;
-                    option = Object.create(golfie, {constructor: {value: yankee}});
-                    kiloes = 'Invalid Permissions.';
-                    output = option;
-                    sizing = offset;
-                    golfie = new output[yankee](sizing, kiloes, backup);
-                    golfie = golfie instanceof Object ? golfie : option;
-                    throw golfie;
+                    var8 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var7 = 11;
+                    var7 = var10[var7];
+                    var11 = var8.bind(var6)(var7);
+                    var10 = {};
+                    var7 = _closure1_slot6;
+                    var7 = var7.INVALID_PERMISSIONS;
+                    var10['errorCode'] = var7;
+                    var7 = var11.prototype;
+                    var8 = Object.create(var7, {constructor: {value: var11}});
+                    var15 = 'Invalid Permissions.';
+                    var17 = var8;
+                    var16 = var10;
+                    var7 = new var17[var11](var16, var15, var14);
+                    var7 = var7 instanceof Object ? var7 : var8;
+                    throw var7;
  337:
-                    if(!(report != verify)) { _fun00004_ip = 409; continue _fun00003 }
+                    if(!(var5 != var9)) { _fun0002_ip = 409; continue _fun0002 }
  341:
-                    golfie = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    report = 10;
-                    report = yankee[report];
-                    option = golfie.bind(oscard)(report);
-                    golfie = option.playSound;
-                    report = tangon.id;
-                    offset = _closure1_slot1;
-                    tangon = 13;
-                    tangon = yankee[tangon];
-                    tangon = offset.bind(oscard)(tangon);
-                    offset = tangon.RPC;
-                    tangon = new Array(1);
-                    tangon[0] = offset;
-                    tangon = golfie.bind(option)(verify, report, tangon);
+                    var7 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var5 = 10;
+                    var5 = var11[var5];
+                    var8 = var7.bind(var6)(var5);
+                    var7 = var8.playSound;
+                    var5 = var4.id;
+                    var10 = _closure1_slot1;
+                    var4 = 13;
+                    var4 = var11[var4];
+                    var4 = var10.bind(var6)(var4);
+                    var10 = var4.RPC;
+                    var4 = new Array(1);
+                    var4[0] = var10;
+                    var4 = var7.bind(var8)(var9, var5, var4);
  409:
-                    return oscard;
+                    return var6;
  412:
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 11;
-                    tangon = golfie[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = {};
-                    zuuluu = _closure1_slot6;
-                    zuuluu = zuuluu.INVALID_CHANNEL;
-                    report['errorCode'] = zuuluu;
-                    zuuluu = oscard.prototype;
-                    tangon = Object.create(zuuluu, {constructor: {value: oscard}});
-                    kiloes = 'Invalid Channel.';
-                    output = tangon;
-                    sizing = report;
-                    zuuluu = new output[oscard](sizing, kiloes, backup);
-                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-                    throw zuuluu;
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var4 = 11;
+                    var4 = var7[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = {};
+                    var3 = _closure1_slot6;
+                    var3 = var3.INVALID_CHANNEL;
+                    var5['errorCode'] = var3;
+                    var3 = var6.prototype;
+                    var4 = Object.create(var3, {constructor: {value: var6}});
+                    var15 = 'Invalid Channel.';
+                    var17 = var4;
+                    var16 = var5;
+                    var3 = new var17[var6](var16, var15, var14);
+                    var3 = var3 instanceof Object ? var3 : var4;
+                    throw var3;
  480:
-                    return michal;
+                    return var2;
  483:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    tangon['handler'] = option;
-    michal[golfie] = tangon;
-    tangon = 14;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rpc/server/commands/soundboard.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var4['handler'] = var8;
+    var2[var7] = var4;
+    var4 = 14;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rpc/server/commands/soundboard.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

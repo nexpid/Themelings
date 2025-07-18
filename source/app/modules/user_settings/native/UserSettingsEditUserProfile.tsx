@@ -1,132 +1,132 @@
 // app/modules/user_settings/native/UserSettingsEditUserProfile.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/native/UserSettingsEditUserProfile.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: UserSettingsEditUserProfile
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/UserSettingsEditUserProfile.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function UserSettingsEditUserProfile(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 3;
-            zuuluu = option[michal];
-            report = undefined;
-            tangon = golfie.bind(report)(zuuluu);
-            zuuluu = 4;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(report)(zuuluu);
-            zuuluu = zuuluu.USER_SETTINGS_USER_PROFILE;
-            zuuluu = tangon.bind(report)(zuuluu);
-            golfie = zuuluu.analyticsLocations;
-            tangon = _closure1_slot0;
-            zuuluu = 5;
-            zuuluu = option[zuuluu];
-            verify = tangon.bind(report)(zuuluu);
-            option = verify.useStateFromStores;
-            zuuluu = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot4;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 3;
+            var3 = var8[var2];
+            var5 = undefined;
+            var4 = var7.bind(var5)(var3);
+            var3 = 4;
+            var3 = var8[var3];
+            var3 = var7.bind(var5)(var3);
+            var3 = var3.USER_SETTINGS_USER_PROFILE;
+            var3 = var4.bind(var5)(var3);
+            var7 = var3.analyticsLocations;
+            var4 = _closure1_slot0;
+            var3 = 5;
+            var3 = var8[var3];
+            var9 = var4.bind(var5)(var3);
+            var8 = var9.useStateFromStores;
+            var3 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = option.bind(verify)(tangon, zuuluu);
-            var _closure2_slot0 = option;
-            verify = _closure1_slot3;
-            tangon = verify.useEffect;
-            zuuluu = new Array(1);
-            zuuluu[0] = option;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = var8.bind(var9)(var4, var3);
+            var _closure2_slot0 = var8;
+            var9 = _closure1_slot3;
+            var4 = var9.useEffect;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 78; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 78; continue _fun0002 }
  13:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 6;
-                    michal = tangon[michal];
-                    report = undefined;
-                    tangon = zuuluu.bind(report)(michal);
-                    oscard = _closure2_slot0;
-                    zuuluu = oscard.id;
-                    michal = oscard.getAvatarURL;
-                    entity = 80;
-                    michal = michal.bind(oscard)(report, entity);
-                    entity = {};
-                    oscard = true;
-                    entity['dispatchWait'] = oscard;
-                    entity = tangon.bind(report)(zuuluu, michal, entity);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var4[var2];
+                    var5 = undefined;
+                    var4 = var3.bind(var5)(var2);
+                    var6 = _closure2_slot0;
+                    var3 = var6.id;
+                    var2 = var6.getAvatarURL;
+                    var1 = 80;
+                    var2 = var2.bind(var6)(var5, var1);
+                    var1 = {};
+                    var6 = true;
+                    var1['dispatchWait'] = var6;
+                    var1 = var4.bind(var5)(var3, var2, var1);
  78:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = tangon.bind(verify)(entity, zuuluu);
-            entity = null;
-            zuuluu = entity == option;
-            if(zuuluu) { _fun00002_ip = 227; continue _fun00001 }
+            var1 = var4.bind(var9)(var1, var3);
+            var1 = null;
+            var3 = var1 == var8;
+            if(var3) { _fun0001_ip = 227; continue _fun0001 }
  145:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            verify = _closure1_slot2;
-            michal = verify[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.AnalyticsLocationProvider;
-            michal = {};
-            michal['value'] = golfie;
-            golfie = _closure1_slot1;
-            oscard = 7;
-            oscard = verify[oscard];
-            golfie = golfie.bind(report)(oscard);
-            oscard = {};
-            oscard['currentUser'] = option;
-            yankee = argFoo;
-            romeon = oscard;
-            option = copyDataProperties(romeon, yankee);
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = var9[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.AnalyticsLocationProvider;
+            var2 = {};
+            var2['value'] = var7;
+            var7 = _closure1_slot1;
+            var6 = 7;
+            var6 = var9[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6['currentUser'] = var8;
+            var11 = arg1;
+            var12 = var6;
+            var8 = copyDataProperties(var12, var11);
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  227:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

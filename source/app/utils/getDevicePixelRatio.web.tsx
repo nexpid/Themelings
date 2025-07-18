@@ -1,39 +1,39 @@
 // app/utils/getDevicePixelRatio.web.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'utils/getDevicePixelRatio.web.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function() { // Original name: getDevicePixelRatio
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'utils/getDevicePixelRatio.web.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getDevicePixelRatio() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = global;
-            entity = entity.window;
-            michal = entity.devicePixelRatio;
-            entity = null;
-            zuuluu = entity != michal;
-            entity = 1;
-            if(!zuuluu) { _fun00002_ip = 29; continue _fun00001 }
+            var1 = global;
+            var1 = var1.window;
+            var2 = var1.devicePixelRatio;
+            var1 = null;
+            var3 = var1 != var2;
+            var1 = 1;
+            if(!var3) { _fun0001_ip = 29; continue _fun0001 }
  26:
-            entity = michal;
+            var1 = var2;
  29:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,174 +1,174 @@
 // app/utils/ReportUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    oscard = function(argFoo) { // Original name: canReportUser
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var10 = native3;
+    var3 = native6;
+    var9 = native7;
+    var6 = function canReportUser(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 66; continue _fun00001 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 66; continue _fun0001 }
  9:
-            tangon = zuuluu.id;
-            report = _closure1_slot3;
-            michal = report.getCurrentUser;
-            michal = michal.bind(report)();
-            entity = entity != michal;
-            if(!entity) { _fun00002_ip = 64; continue _fun00001 }
+            var4 = var3.id;
+            var5 = _closure1_slot3;
+            var2 = var5.getCurrentUser;
+            var2 = var2.bind(var5)();
+            var1 = var1 != var2;
+            if(!var1) { _fun0001_ip = 64; continue _fun0001 }
  37:
-            michal = michal.id;
-            michal = michal !== tangon;
-            if(!michal) { _fun00002_ip = 61; continue _fun00001 }
+            var2 = var2.id;
+            var2 = var2 !== var4;
+            if(!var2) { _fun0001_ip = 61; continue _fun0001 }
  49:
-            tangon = zuuluu.system;
-            zuuluu = true;
-            michal = zuuluu !== tangon;
+            var4 = var3.system;
+            var3 = true;
+            var2 = var3 !== var4;
  61:
-            entity = michal;
+            var1 = var2;
  64:
-            return entity;
+            return var1;
  66:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot6 = oscard;
-    report = function(argFoo) { // Original name: canReportMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var6;
+    var5 = function canReportMessage(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00004_ip = 32; continue _fun00003 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0002_ip = 32; continue _fun0002 }
  12:
-            tangon = _closure1_slot6;
-            zuuluu = michal.author;
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot6;
+            var3 = var2.author;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  32:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = report;
-    tangon = function(argFoo) { // Original name: canReportAndDeleteInChannel
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var5;
+    var4 = function canReportAndDeleteInChannel(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            option = argFoo;
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.getChannel;
-            report = entity.bind(zuuluu)(option);
-            entity = null;
-            if(!(entity != report)) { _fun00006_ip = 151; continue _fun00005 }
+            var8 = arg1;
+            var3 = _closure1_slot0;
+            var1 = var3.getChannel;
+            var5 = var1.bind(var3)(var8);
+            var1 = null;
+            if(!(var1 != var5)) { _fun0003_ip = 151; continue _fun0003 }
  29:
-            tangon = report.type;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.DM;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 147; continue _fun00005 }
+            var4 = var5.type;
+            var3 = _closure1_slot4;
+            var3 = var3.DM;
+            if(!(var4 !== var3)) { _fun0003_ip = 147; continue _fun0003 }
  48:
-            tangon = report.type;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.GROUP_DM;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 147; continue _fun00005 }
+            var4 = var5.type;
+            var3 = _closure1_slot4;
+            var3 = var3.GROUP_DM;
+            if(!(var4 !== var3)) { _fun0003_ip = 147; continue _fun0003 }
  67:
-            golfie = _closure1_slot2;
-            oscard = golfie.canWithPartialContext;
-            zuuluu = _closure1_slot5;
-            tangon = zuuluu.MANAGE_MESSAGES;
-            zuuluu = {};
-            zuuluu['channelId'] = option;
-            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
-            if(zuuluu) { _fun00006_ip = 106; continue _fun00005 }
+            var7 = _closure1_slot2;
+            var6 = var7.canWithPartialContext;
+            var3 = _closure1_slot5;
+            var4 = var3.MANAGE_MESSAGES;
+            var3 = {};
+            var3['channelId'] = var8;
+            var3 = var6.bind(var7)(var4, var3);
+            if(var3) { _fun0003_ip = 106; continue _fun0003 }
  102:
-            zuuluu = false;
-            return zuuluu;
+            var3 = false;
+            return var3;
  106:
-            tangon = _closure1_slot1;
-            zuuluu = tangon.getMemberCount;
-            michal = report.getGuildId;
-            michal = michal.bind(report)();
-            zuuluu = zuuluu.bind(tangon)(michal);
-            entity = entity != zuuluu;
-            if(!entity) { _fun00006_ip = 145; continue _fun00005 }
+            var4 = _closure1_slot1;
+            var3 = var4.getMemberCount;
+            var2 = var5.getGuildId;
+            var2 = var2.bind(var5)();
+            var3 = var3.bind(var4)(var2);
+            var1 = var1 != var3;
+            if(!var1) { _fun0003_ip = 145; continue _fun0003 }
  138:
-            michal = 50;
-            entity = zuuluu >= michal;
+            var2 = 50;
+            var1 = var3 >= var2;
  145:
-            return entity;
+            return var1;
  147:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  151:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = verify[entity];
-    entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot0 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot1 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot2 = golfie;
-    golfie = 3;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 4;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    offset = golfie.ChannelTypes;
-    var _closure1_slot4 = offset;
-    golfie = golfie.Permissions;
-    var _closure1_slot5 = golfie;
-    golfie = 5;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'utils/ReportUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['canReportUser'] = oscard;
-    zuuluu['canReportMessage'] = report;
-    zuuluu['canReportAndDeleteInChannel'] = tangon;
-    michal = function(argFoo) { // Original name: canDeleteAndReportMessage
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot8 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot0 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot1 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot2 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 4;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var10 = var7.ChannelTypes;
+    var _closure1_slot4 = var10;
+    var7 = var7.Permissions;
+    var _closure1_slot5 = var7;
+    var7 = 5;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'utils/ReportUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['canReportUser'] = var6;
+    var3['canReportMessage'] = var5;
+    var3['canReportAndDeleteInChannel'] = var4;
+    var2 = function canDeleteAndReportMessage(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            entity = entity != zuuluu;
-            if(!entity) { _fun00008_ip = 26; continue _fun00007 }
+            var3 = arg1;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0004_ip = 26; continue _fun0004 }
  12:
-            tangon = _closure1_slot7;
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot7;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  26:
-            if(!entity) { _fun00008_ip = 53; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 53; continue _fun0004 }
  29:
-            tangon = _closure1_slot8;
-            michal = zuuluu.getChannelId;
-            zuuluu = michal.bind(zuuluu)();
-            michal = undefined;
-            entity = tangon.bind(michal)(zuuluu);
+            var4 = _closure1_slot8;
+            var2 = var3.getChannelId;
+            var3 = var2.bind(var3)();
+            var2 = undefined;
+            var1 = var4.bind(var2)(var3);
  53:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canDeleteAndReportMessage'] = michal;
-    return entity;
+    var3['canDeleteAndReportMessage'] = var2;
+    return var1;
 })();

@@ -1,124 +1,124 @@
 // app/modules/profile_customization/useOpenProfileSettings.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useCallback;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserSettingsSections;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ProfileCustomizationSubsection;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/profile_customization/useOpenProfileSettings.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useOpenProfileSettings
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useCallback;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsSections;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ProfileCustomizationSubsection;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/profile_customization/useOpenProfileSettings.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useOpenProfileSettings() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = arguments[0];
-            tangon = undefined;
-            if(!(michal === tangon)) { _fun00002_ip = 13; continue _fun00001 }
+            var2 = arguments[0];
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0001_ip = 13; continue _fun0001 }
  11:
-            michal = {};
+            var2 = {};
  13:
-            verify = michal.guild;
-            var _closure2_slot0 = verify;
-            option = michal.scrollPosition;
-            var _closure2_slot1 = option;
-            golfie = michal.analyticsLocation;
-            var _closure2_slot2 = golfie;
-            oscard = michal.analyticsLocations;
-            var _closure2_slot3 = oscard;
-            report = michal.openWithoutBackstack;
-            zuuluu = _closure1_slot2;
-            michal = new Array(5);
-            michal[0] = verify;
-            michal[1] = option;
-            michal[2] = golfie;
-            michal[3] = oscard;
-            michal[4] = report;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var9 = var2.guild;
+            var _closure2_slot0 = var9;
+            var8 = var2.scrollPosition;
+            var _closure2_slot1 = var8;
+            var7 = var2.analyticsLocation;
+            var _closure2_slot2 = var7;
+            var6 = var2.analyticsLocations;
+            var _closure2_slot3 = var6;
+            var5 = var2.openWithoutBackstack;
+            var3 = _closure1_slot2;
+            var2 = new Array(5);
+            var2[0] = var9;
+            var2[1] = var8;
+            var2[2] = var7;
+            var2[3] = var6;
+            var2[4] = var5;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure2_slot0;
-                    golfie = null;
-                    if(!(golfie != entity)) { _fun00004_ip = 53; continue _fun00003 }
+                    var1 = _closure2_slot0;
+                    var7 = null;
+                    if(!(var7 != var1)) { _fun0002_ip = 53; continue _fun0002 }
  13:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.initGuildIdentitySettings;
-                    entity = _closure2_slot0;
-                    entity = michal.bind(zuuluu)(entity);
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.initGuildIdentitySettings;
+                    var1 = _closure2_slot0;
+                    var1 = var2.bind(var3)(var1);
  53:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    entity = 6;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    zuuluu = michal.openUserSettings;
-                    michal = {};
-                    report = _closure1_slot3;
-                    report = report.PROFILE_CUSTOMIZATION;
-                    michal['screen'] = report;
-                    report = _closure2_slot0;
-                    if(!(golfie == report)) { _fun00004_ip = 121; continue _fun00003 }
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var3 = var2.openUserSettings;
+                    var2 = {};
+                    var5 = _closure1_slot3;
+                    var5 = var5.PROFILE_CUSTOMIZATION;
+                    var2['screen'] = var5;
+                    var5 = _closure2_slot0;
+                    if(!(var7 == var5)) { _fun0002_ip = 121; continue _fun0002 }
  109:
-                    report = _closure1_slot4;
-                    report = report.USER_PROFILE;
-                    _fun00004_ip = 131; continue _fun00003;
+                    var5 = _closure1_slot4;
+                    var5 = var5.USER_PROFILE;
+                    _fun0002_ip = 131; continue _fun0002;
  121:
-                    oscard = _closure1_slot4;
-                    report = oscard.GUILD;
+                    var6 = _closure1_slot4;
+                    var5 = var6.GUILD;
  131:
-                    michal['subsection'] = report;
-                    report = _closure2_slot2;
-                    michal['analyticsLocation'] = report;
-                    report = _closure2_slot3;
-                    michal['analyticsLocations'] = report;
-                    tangon = _closure2_slot1;
-                    michal['scrollPosition'] = tangon;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var2['subsection'] = var5;
+                    var5 = _closure2_slot2;
+                    var2['analyticsLocation'] = var5;
+                    var5 = _closure2_slot3;
+                    var2['analyticsLocations'] = var5;
+                    var4 = _closure2_slot1;
+                    var2['scrollPosition'] = var4;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

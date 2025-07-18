@@ -1,109 +1,109 @@
 // app/modules/video_calls/native/useActionBarHeight.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    tangon = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = tangon;
-    var _closure1_slot2 = option;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = option[entity];
-    entity = undefined;
-    michal = tangon.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = option[michal];
-    michal = golfie.bind(entity)(michal);
-    michal = michal.InputModes;
-    var _closure1_slot4 = michal;
-    tangon = 2;
-    michal = option[tangon];
-    michal = golfie.bind(entity)(michal);
-    michal = michal.ACTION_SHEET_HANDLE_SPACING;
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = option[michal];
-    michal = golfie.bind(entity)(michal);
-    michal = michal.SMALL_ACTION_BUTTON_DIMENSIONS;
-    michal = michal.buttonRadius;
-    michal = tangon * michal;
-    tangon = 16;
-    michal = michal + tangon;
-    michal = michal + tangon;
-    var _closure1_slot6 = michal;
-    oscard = 7;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/video_calls/native/useActionBarHeight.tsx';
-    oscard = golfie.bind(option)(oscard);
-    report = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var4 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var4;
+    var _closure1_slot2 = var8;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var8[var1];
+    var1 = undefined;
+    var2 = var4.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
+    var2 = var2.InputModes;
+    var _closure1_slot4 = var2;
+    var4 = 2;
+    var2 = var8[var4];
+    var2 = var7.bind(var1)(var2);
+    var2 = var2.ACTION_SHEET_HANDLE_SPACING;
+    var _closure1_slot5 = var2;
+    var2 = 3;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
+    var2 = var2.SMALL_ACTION_BUTTON_DIMENSIONS;
+    var2 = var2.buttonRadius;
+    var2 = var4 * var2;
+    var4 = 16;
+    var2 = var2 + var4;
+    var2 = var2 + var4;
+    var _closure1_slot6 = var2;
+    var6 = 7;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/video_calls/native/useActionBarHeight.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 4;
-            michal = golfie[michal];
-            report = undefined;
-            tangon = oscard.bind(report)(michal);
-            michal = tangon.useIsFiveButtonLayout;
-            tangon = michal.bind(tangon)(zuuluu);
-            option = _closure1_slot1;
-            michal = 5;
-            michal = golfie[michal];
-            michal = option.bind(report)(michal);
-            zuuluu = michal.bind(report)(zuuluu);
-            michal = 6;
-            michal = golfie[michal];
-            golfie = oscard.bind(report)(michal);
-            oscard = golfie.useStateFromStores;
-            michal = _closure1_slot3;
-            report = new Array(1);
-            report[0] = michal;
-            michal = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getMode;
-                michal = michal.bind(zuuluu)();
-                entity = _closure1_slot4;
-                entity = entity.PUSH_TO_TALK;
-                entity = michal === entity;
-                return entity;
+            var3 = arg1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var5 = undefined;
+            var4 = var6.bind(var5)(var2);
+            var2 = var4.useIsFiveButtonLayout;
+            var4 = var2.bind(var4)(var3);
+            var8 = _closure1_slot1;
+            var2 = 5;
+            var2 = var7[var2];
+            var2 = var8.bind(var5)(var2);
+            var3 = var2.bind(var5)(var3);
+            var2 = 6;
+            var2 = var7[var2];
+            var7 = var6.bind(var5)(var2);
+            var6 = var7.useStateFromStores;
+            var2 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getMode;
+                var2 = var2.bind(var3)();
+                var1 = _closure1_slot4;
+                var1 = var1.PUSH_TO_TALK;
+                var1 = var2 === var1;
+                return var1;
             };
-            report = oscard.bind(golfie)(report, michal);
-            michal = 88;
-            if(!tangon) { _fun00002_ip = 112; continue _fun00001 }
+            var5 = var6.bind(var7)(var5, var2);
+            var2 = 88;
+            if(!var4) { _fun0001_ip = 112; continue _fun0001 }
  108:
-            michal = _closure1_slot6;
+            var2 = _closure1_slot6;
  112:
-            entity = _closure1_slot5;
-            michal = michal + entity;
-            entity = 0;
-            if(!report) { _fun00002_ip = 133; continue _fun00001 }
+            var1 = _closure1_slot5;
+            var2 = var2 + var1;
+            var1 = 0;
+            if(!var5) { _fun0001_ip = 133; continue _fun0001 }
  125:
-            entity = 0;
-            if(!zuuluu) { _fun00002_ip = 133; continue _fun00001 }
+            var1 = 0;
+            if(!var3) { _fun0001_ip = 133; continue _fun0001 }
  130:
-            entity = 56;
+            var1 = 56;
  133:
-            entity = michal + entity;
-            return entity;
+            var1 = var2 + var1;
+            return var1;
         }
     };
-    zuuluu['default'] = report;
-    report = 88;
-    zuuluu['CALL_ACTION_BAR_HEIGHT'] = report;
-    zuuluu['FIVE_BUTTON_CONTAINER_PADDING_TOP'] = tangon;
-    zuuluu['FIVE_BUTTON_CONTAINER_PADDING_BOTTOM'] = tangon;
-    zuuluu['FIVE_BUTTON_LAYOUT_ACTION_BAR_HEIGHT'] = michal;
-    return entity;
+    var3['default'] = var5;
+    var5 = 88;
+    var3['CALL_ACTION_BAR_HEIGHT'] = var5;
+    var3['FIVE_BUTTON_CONTAINER_PADDING_TOP'] = var4;
+    var3['FIVE_BUTTON_CONTAINER_PADDING_BOTTOM'] = var4;
+    var3['FIVE_BUTTON_LAYOUT_ACTION_BAR_HEIGHT'] = var2;
+    return var1;
 })();

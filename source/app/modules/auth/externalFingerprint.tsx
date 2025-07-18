@@ -1,72 +1,72 @@
 // app/modules/auth/externalFingerprint.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/externalFingerprint.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: externalFingerprint
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/externalFingerprint.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function externalFingerprint(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.isAuthenticated;
-            michal = michal.bind(zuuluu)();
-            if(michal) { _fun00002_ip = 133; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var2 = var3.isAuthenticated;
+            var2 = var2.bind(var3)();
+            if(var2) { _fun0001_ip = 133; continue _fun0001 }
  20:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 1;
-            tangon = golfie[michal];
-            zuuluu = undefined;
-            report = oscard.bind(zuuluu)(tangon);
-            tangon = report.parse;
-            michal = golfie[michal];
-            golfie = oscard.bind(zuuluu)(michal);
-            oscard = golfie.extract;
-            michal = argFoo;
-            michal = oscard.bind(golfie)(michal);
-            michal = tangon.bind(report)(michal);
-            tangon = michal.fingerprint;
-            michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 133; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var4 = var7[var2];
+            var3 = undefined;
+            var5 = var6.bind(var3)(var4);
+            var4 = var5.parse;
+            var2 = var7[var2];
+            var7 = var6.bind(var3)(var2);
+            var6 = var7.extract;
+            var2 = arg1;
+            var2 = var6.bind(var7)(var2);
+            var2 = var4.bind(var5)(var2);
+            var4 = var2.fingerprint;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 133; continue _fun0001 }
  88:
-            michal = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 2;
-            entity = report[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.dispatch;
-            entity = {};
-            report = 'FINGERPRINT';
-            entity['type'] = report;
-            entity['fingerprint'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 2;
+            var1 = var5[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'FINGERPRINT';
+            var1['type'] = var5;
+            var1['fingerprint'] = var4;
+            var1 = var2.bind(var3)(var1);
  133:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

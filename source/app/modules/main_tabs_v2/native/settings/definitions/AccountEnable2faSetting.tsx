@@ -1,137 +1,137 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AccountEnable2faSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    michal = {};
-    golfie = true;
-    michal['value'] = golfie;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.MobileSetting;
-    michal = {};
-    verify = 2;
-    verify = oscard[verify];
-    verify = report.bind(entity)(verify);
-    verify = verify.RendererType;
-    verify = verify.PRESSABLE;
-    michal['type'] = verify;
-    verify = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 6;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.cDgKtb;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
+    var7 = true;
+    var2['value'] = var7;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.MobileSetting;
+    var2 = {};
+    var9 = 2;
+    var9 = var6[var9];
+    var9 = var5.bind(var1)(var9);
+    var9 = var9.RendererType;
+    var9 = var9.PRESSABLE;
+    var2['type'] = var9;
+    var9 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.cDgKtb;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = verify;
-    option = option.ACCOUNT;
-    michal['parent'] = option;
-    option = function() { // Original name: onAccountEnable2FASettingPress
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['title'] = var9;
+    var8 = var8.ACCOUNT;
+    var2['parent'] = var8;
+    var8 = function onAccountEnable2FASettingPress() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getCurrentUser;
-            report = entity.bind(zuuluu)();
-            tangon = null;
-            oscard = tangon == report;
-            entity = undefined;
-            zuuluu = undefined;
-            if(oscard) { _fun00002_ip = 35; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var1 = var3.getCurrentUser;
+            var5 = var1.bind(var3)();
+            var4 = null;
+            var6 = var4 == var5;
+            var1 = undefined;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 35; continue _fun0001 }
  29:
-            zuuluu = report.verified;
+            var3 = var5.verified;
  35:
-            if(!(tangon != zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
+            if(!(var4 != var3)) { _fun0001_ip = 45; continue _fun0001 }
  39:
-            if(zuuluu) { _fun00002_ip = 183; continue _fun00001 }
+            if(var3) { _fun0001_ip = 183; continue _fun0001 }
  45:
-            tangon = _closure1_slot1;
-            offset = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = offset[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.show;
-            zuuluu = {};
-            verify = _closure1_slot0;
-            oscard = 6;
-            golfie = offset[oscard];
-            golfie = verify.bind(entity)(golfie);
-            yankee = golfie.intl;
-            option = yankee.string;
-            golfie = offset[oscard];
-            golfie = verify.bind(entity)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.v740sr;
-            golfie = option.bind(yankee)(golfie);
-            zuuluu['title'] = golfie;
-            golfie = offset[oscard];
-            golfie = verify.bind(entity)(golfie);
-            option = golfie.intl;
-            golfie = option.string;
-            oscard = offset[oscard];
-            oscard = verify.bind(entity)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.uggF7u;
-            oscard = golfie.bind(option)(oscard);
-            zuuluu['body'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
-            _fun00002_ip = 213; continue _fun00001;
+            var4 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var3 = 5;
+            var3 = var10[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.show;
+            var3 = {};
+            var9 = _closure1_slot0;
+            var6 = 6;
+            var7 = var10[var6];
+            var7 = var9.bind(var1)(var7);
+            var11 = var7.intl;
+            var8 = var11.string;
+            var7 = var10[var6];
+            var7 = var9.bind(var1)(var7);
+            var7 = var7.t;
+            var7 = var7.v740sr;
+            var7 = var8.bind(var11)(var7);
+            var3['title'] = var7;
+            var7 = var10[var6];
+            var7 = var9.bind(var1)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var10[var6];
+            var6 = var9.bind(var1)(var6);
+            var6 = var6.t;
+            var6 = var6.uggF7u;
+            var6 = var7.bind(var8)(var6);
+            var3['body'] = var6;
+            var3 = var4.bind(var5)(var3);
+            _fun0001_ip = 213; continue _fun0001;
  183:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.open;
-            michal = michal.bind(zuuluu)();
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.open;
+            var2 = var2.bind(var3)();
  213:
-            return entity;
+            return var1;
         }
     };
-    michal['onPress'] = option;
-    michal['withArrow'] = golfie;
-    tangon = function() { // Original name: useHasAccountEnable2FASetting
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        entity = michal.useIsTOTPEnabled;
-        entity = entity.bind(michal)();
-        entity = !entity;
-        return entity;
+    var2['onPress'] = var8;
+    var2['withArrow'] = var7;
+    var4 = function useHasAccountEnable2FASetting() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useIsTOTPEnabled;
+        var1 = var1.bind(var2)();
+        var1 = !var1;
+        return var1;
     };
-    michal['usePredicate'] = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/AccountEnable2faSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['usePredicate'] = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/AccountEnable2faSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

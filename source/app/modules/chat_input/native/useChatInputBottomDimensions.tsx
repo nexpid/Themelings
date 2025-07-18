@@ -1,181 +1,181 @@
 // app/modules/chat_input/native/useChatInputBottomDimensions.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: getChatInputBottomDimensions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function getChatInputBottomDimensions() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 3;
-            entity = report[entity];
-            golfie = undefined;
-            zuuluu = oscard.bind(golfie)(entity);
-            michal = zuuluu.getSystemKeyboardHeight;
-            entity = {};
-            option = 4;
-            report = report[option];
-            oscard = oscard.bind(golfie)(report);
-            report = oscard.isIOS;
-            report = report.bind(oscard)();
-            entity['excludeSafeAreaInsets'] = report;
-            report = michal.bind(zuuluu)(entity);
-            zuuluu = 0;
-            if(!(zuuluu === report)) { _fun00002_ip = 330; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 3;
+            var1 = var5[var1];
+            var7 = undefined;
+            var3 = var6.bind(var7)(var1);
+            var2 = var3.getSystemKeyboardHeight;
+            var1 = {};
+            var8 = 4;
+            var5 = var5[var8];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.isIOS;
+            var5 = var5.bind(var6)();
+            var1['excludeSafeAreaInsets'] = var5;
+            var5 = var2.bind(var3)(var1);
+            var3 = 0;
+            if(!(var3 === var5)) { _fun0001_ip = 330; continue _fun0001 }
  74:
-            entity = {};
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            verify = 5;
-            offset = michal[verify];
-            yankee = oscard.bind(golfie)(offset);
-            offset = yankee.getKeyboardType;
-            yankee = offset.bind(yankee)();
-            offset = 6;
-            michal = michal[offset];
-            michal = oscard.bind(golfie)(michal);
-            michal = michal.KeyboardTypes;
-            oscard = michal.SYSTEM;
-            michal = 0;
-            if(!(yankee !== oscard)) { _fun00002_ip = 229; continue _fun00001 }
+            var1 = {};
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var9 = 5;
+            var10 = var2[var9];
+            var11 = var6.bind(var7)(var10);
+            var10 = var11.getKeyboardType;
+            var11 = var10.bind(var11)();
+            var10 = 6;
+            var2 = var2[var10];
+            var2 = var6.bind(var7)(var2);
+            var2 = var2.KeyboardTypes;
+            var6 = var2.SYSTEM;
+            var2 = 0;
+            if(!(var11 !== var6)) { _fun0001_ip = 229; continue _fun0001 }
  136:
-            romeon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            yankee = 7;
-            yankee = oscard[yankee];
-            foxtra = romeon.bind(golfie)(yankee);
-            yankee = foxtra.getCustomKeyboardHeight;
-            yankee = yankee.bind(foxtra)();
-            oscard = oscard[option];
-            romeon = romeon.bind(golfie)(oscard);
-            oscard = romeon.isIOS;
-            romeon = oscard.bind(romeon)();
-            oscard = 0;
-            if(romeon) { _fun00002_ip = 225; continue _fun00001 }
+            var12 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var11 = 7;
+            var11 = var6[var11];
+            var13 = var12.bind(var7)(var11);
+            var11 = var13.getCustomKeyboardHeight;
+            var11 = var11.bind(var13)();
+            var6 = var6[var8];
+            var12 = var12.bind(var7)(var6);
+            var6 = var12.isIOS;
+            var12 = var6.bind(var12)();
+            var6 = 0;
+            if(var12) { _fun0001_ip = 225; continue _fun0001 }
  190:
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot1;
-            romeon = 8;
-            romeon = backup[romeon];
-            foxtra = foxtra.bind(golfie)(romeon);
-            romeon = foxtra.getSafeAreaInsets;
-            romeon = romeon.bind(foxtra)();
-            oscard = romeon.bottom;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var12 = 8;
+            var12 = var14[var12];
+            var13 = var13.bind(var7)(var12);
+            var12 = var13.getSafeAreaInsets;
+            var12 = var12.bind(var13)();
+            var6 = var12.bottom;
  225:
-            michal = yankee + oscard;
+            var2 = var11 + var6;
  229:
-            entity['keyboardHeight'] = michal;
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            verify = michal[verify];
-            yankee = oscard.bind(golfie)(verify);
-            verify = yankee.getKeyboardType;
-            verify = verify.bind(yankee)();
-            michal = michal[offset];
-            michal = oscard.bind(golfie)(michal);
-            michal = michal.KeyboardTypes;
-            oscard = michal.SYSTEM;
-            michal = 0;
-            if(!(verify === oscard)) { _fun00002_ip = 323; continue _fun00001 }
+            var1['keyboardHeight'] = var2;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var9 = var2[var9];
+            var11 = var6.bind(var7)(var9);
+            var9 = var11.getKeyboardType;
+            var9 = var9.bind(var11)();
+            var2 = var2[var10];
+            var2 = var6.bind(var7)(var2);
+            var2 = var2.KeyboardTypes;
+            var6 = var2.SYSTEM;
+            var2 = 0;
+            if(!(var9 === var6)) { _fun0001_ip = 323; continue _fun0001 }
  288:
-            verify = _closure1_slot0;
-            offset = _closure1_slot1;
-            oscard = 8;
-            oscard = offset[oscard];
-            verify = verify.bind(golfie)(oscard);
-            oscard = verify.getSafeAreaInsets;
-            oscard = oscard.bind(verify)();
-            michal = oscard.bottom;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var6 = 8;
+            var6 = var10[var6];
+            var9 = var9.bind(var7)(var6);
+            var6 = var9.getSafeAreaInsets;
+            var6 = var6.bind(var9)();
+            var2 = var6.bottom;
  323:
-            entity['safeAreaBottom'] = michal;
-            _fun00002_ip = 380; continue _fun00001;
+            var1['safeAreaBottom'] = var2;
+            _fun0001_ip = 380; continue _fun0001;
  330:
-            michal = {};
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[option];
-            oscard = oscard.bind(golfie)(tangon);
-            tangon = oscard.isIOS;
-            oscard = tangon.bind(oscard)();
-            tangon = 0;
-            if(!oscard) { _fun00002_ip = 367; continue _fun00001 }
+            var2 = {};
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var8];
+            var6 = var6.bind(var7)(var4);
+            var4 = var6.isIOS;
+            var6 = var4.bind(var6)();
+            var4 = 0;
+            if(!var6) { _fun0001_ip = 367; continue _fun0001 }
  364:
-            tangon = report;
+            var4 = var5;
  367:
-            michal['keyboardHeight'] = tangon;
-            michal['safeAreaBottom'] = zuuluu;
-            entity = michal;
+            var2['keyboardHeight'] = var4;
+            var2['safeAreaBottom'] = var3;
+            var1 = var2;
  380:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat_input/native/useChatInputBottomDimensions.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useChatInputBottomDimensions
-        report = _closure1_slot3;
-        tangon = report.useState;
-        zuuluu = _closure1_slot5;
-        oscard = undefined;
-        zuuluu = zuuluu.bind(oscard)();
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        tangon = zuuluu.bind(oscard)(tangon, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot0 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = function() {
-            zuuluu = _closure1_slot4;
-            michal = undefined;
-            entity = function() {
-                zuuluu = _closure2_slot0;
-                michal = _closure1_slot5;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat_input/native/useChatInputBottomDimensions.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useChatInputBottomDimensions() {
+        var5 = _closure1_slot3;
+        var4 = var5.useState;
+        var3 = _closure1_slot5;
+        var6 = undefined;
+        var3 = var3.bind(var6)();
+        var4 = var4.bind(var5)(var3);
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var4 = var3.bind(var6)(var4, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot0 = var3;
+        var4 = var5.useEffect;
+        var3 = function() {
+            var3 = _closure1_slot4;
+            var2 = undefined;
+            var1 = function() {
+                var3 = _closure2_slot0;
+                var2 = _closure1_slot5;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            return var1;
         };
-        michal = new Array(0);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+        var2 = new Array(0);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

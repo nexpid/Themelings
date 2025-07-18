@@ -1,67 +1,67 @@
 // app/uikit-native/refresh/form/FormSubLabel.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/refresh/form/FormSubLabel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: FormSubLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/refresh/form/FormSubLabel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function FormSubLabel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.text;
-            option = entity.numberOfLines;
-            golfie = entity.style;
-            oscard = entity.accessible;
-            verify = entity.color;
-            tangon = undefined;
-            if(!(verify === tangon)) { _fun00002_ip = 42; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.text;
+            var8 = var1.numberOfLines;
+            var7 = var1.style;
+            var6 = var1.accessible;
+            var9 = var1.color;
+            var4 = undefined;
+            if(!(var9 === var4)) { _fun0001_ip = 42; continue _fun0001 }
  36:
-            verify = 'text-secondary';
+            var9 = 'text-secondary';
  42:
-            zuuluu = _closure1_slot2;
-            michal = _closure1_slot0;
-            offset = _closure1_slot1;
-            entity = 2;
-            entity = offset[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Text;
-            entity = {};
-            entity['color'] = verify;
-            verify = 'text-xs/normal';
-            entity['variant'] = verify;
-            entity['lineClamp'] = option;
-            entity['style'] = golfie;
-            entity['accessible'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var1 = 2;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Text;
+            var1 = {};
+            var1['color'] = var9;
+            var9 = 'text-xs/normal';
+            var1['variant'] = var9;
+            var1['lineClamp'] = var8;
+            var1['style'] = var7;
+            var1['accessible'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

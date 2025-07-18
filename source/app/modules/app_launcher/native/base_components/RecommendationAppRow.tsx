@@ -1,91 +1,91 @@
 // app/modules/app_launcher/native/base_components/RecommendationAppRow.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/native/base_components/RecommendationAppRow.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: RecommendationAppRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/native/base_components/RecommendationAppRow.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function RecommendationAppRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            offset = entity.application;
-            option = entity.onPress;
-            golfie = entity.isFirstRow;
-            tangon = undefined;
-            if(!(golfie === tangon)) { _fun00002_ip = 27; continue _fun00001 }
+            var1 = arg1;
+            var10 = var1.application;
+            var8 = var1.onPress;
+            var7 = var1.isFirstRow;
+            var4 = undefined;
+            if(!(var7 === var4)) { _fun0001_ip = 27; continue _fun0001 }
  25:
-            golfie = false;
+            var7 = false;
  27:
-            oscard = entity.isLastRow;
-            if(!(oscard === tangon)) { _fun00002_ip = 39; continue _fun00001 }
+            var6 = var1.isLastRow;
+            if(!(var6 === var4)) { _fun0001_ip = 39; continue _fun0001 }
  37:
-            oscard = false;
+            var6 = false;
  39:
-            report = entity.showsPromoted;
-            if(!(report === tangon)) { _fun00002_ip = 51; continue _fun00001 }
+            var5 = var1.showsPromoted;
+            if(!(var5 === var4)) { _fun0001_ip = 51; continue _fun0001 }
  49:
-            report = false;
+            var5 = false;
  51:
-            zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 2;
-            michal = yankee[michal];
-            verify = zuuluu.bind(tangon)(michal);
-            zuuluu = verify.getApplicationIconSource;
-            michal = {};
-            romeon = offset.id;
-            michal['id'] = romeon;
-            romeon = offset.icon;
-            michal['icon'] = romeon;
-            romeon = offset.bot;
-            michal['bot'] = romeon;
-            romeon = true;
-            michal['botIconFirst'] = romeon;
-            verify = zuuluu.bind(verify)(michal);
-            zuuluu = _closure1_slot3;
-            michal = _closure1_slot0;
-            entity = 3;
-            entity = yankee[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.BaseAppRow;
-            entity = {};
-            entity['application'] = offset;
-            entity['iconSource'] = verify;
-            entity['onPress'] = option;
-            entity['isFirstRow'] = golfie;
-            entity['isLastRow'] = oscard;
-            entity['showsPromoted'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 2;
+            var2 = var11[var2];
+            var9 = var3.bind(var4)(var2);
+            var3 = var9.getApplicationIconSource;
+            var2 = {};
+            var12 = var10.id;
+            var2['id'] = var12;
+            var12 = var10.icon;
+            var2['icon'] = var12;
+            var12 = var10.bot;
+            var2['bot'] = var12;
+            var12 = true;
+            var2['botIconFirst'] = var12;
+            var9 = var3.bind(var9)(var2);
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot0;
+            var1 = 3;
+            var1 = var11[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.BaseAppRow;
+            var1 = {};
+            var1['application'] = var10;
+            var1['iconSource'] = var9;
+            var1['onPress'] = var8;
+            var1['isFirstRow'] = var7;
+            var1['isLastRow'] = var6;
+            var1['showsPromoted'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,389 +1,389 @@
 // app/modules/quests/types/SharedQuestFields.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        report = function(argFoo) { // Original name: SharedQuestFields
-            zuuluu = this;
-            tangon = _closure1_slot2;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = argFoo;
-            zuuluu['quest'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var5 = function SharedQuestFields(arg1) {
+            var3 = this;
+            var4 = _closure1_slot2;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = arg1;
+            var3['quest'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot3;
-        entity = {};
-        zuuluu = 'features';
-        entity['key'] = zuuluu;
-        zuuluu = function() { // Original name: get
-            entity = global;
-            zuuluu = entity.Set;
-            entity = this;
-            entity = entity.quest;
-            tangon = entity.features;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot3;
+        var1 = {};
+        var3 = 'features';
+        var1['key'] = var3;
+        var3 = function get() {
+            var1 = global;
+            var3 = var1.Set;
+            var1 = this;
+            var1 = var1.quest;
+            var4 = var1.features;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity['get'] = zuuluu;
-        zuuluu = new Array(12);
-        zuuluu[0] = entity;
-        entity = {};
-        oscard = '_defaultRewardV2';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            entity = argFoo;
-            entity = entity.rewardsConfig;
-            michal = entity.rewards;
-            entity = 0;
-            entity = michal[entity];
-            return entity;
+        var1['get'] = var3;
+        var3 = new Array(12);
+        var3[0] = var1;
+        var1 = {};
+        var6 = '_defaultRewardV2';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = arg1;
+            var1 = var1.rewardsConfig;
+            var2 = var1.rewards;
+            var1 = 0;
+            var1 = var2[var1];
+            return var1;
         };
-        entity['value'] = oscard;
-        zuuluu[1] = entity;
-        entity = {};
-        oscard = 'defaultReward';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            zuuluu = this;
-            michal = zuuluu._defaultRewardV2;
-            entity = zuuluu.quest;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['value'] = var6;
+        var3[1] = var1;
+        var1 = {};
+        var6 = 'defaultReward';
+        var1['key'] = var6;
+        var6 = function get() {
+            var3 = this;
+            var2 = var3._defaultRewardV2;
+            var1 = var3.quest;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['get'] = oscard;
-        zuuluu[2] = entity;
-        entity = {};
-        oscard = 'defaultRewardNameWithArticle';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['get'] = var6;
+        var3[2] = var1;
+        var1 = {};
+        var6 = 'defaultRewardNameWithArticle';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = this;
-                tangon = _closure1_slot0;
-                report = _closure1_slot1;
-                entity = 2;
-                entity = report[entity];
-                report = undefined;
-                oscard = tangon.bind(report)(entity);
-                tangon = oscard.hasFractionalPremiumQuestReward;
-                entity = michal.quest;
-                entity = tangon.bind(oscard)(entity);
-                if(entity) { _fun00002_ip = 68; continue _fun00001 }
+                var2 = this;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 2;
+                var1 = var5[var1];
+                var5 = undefined;
+                var6 = var4.bind(var5)(var1);
+                var4 = var6.hasFractionalPremiumQuestReward;
+                var1 = var2.quest;
+                var1 = var4.bind(var6)(var1);
+                if(var1) { _fun0001_ip = 68; continue _fun0001 }
  48:
-                entity = michal.defaultReward;
-                entity = entity.messages;
-                entity = entity.nameWithArticle;
-                _fun00002_ip = 105; continue _fun00001;
+                var1 = var2.defaultReward;
+                var1 = var1.messages;
+                var1 = var1.nameWithArticle;
+                _fun0001_ip = 105; continue _fun0001;
  68:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot1;
-                zuuluu = 3;
-                zuuluu = oscard[zuuluu];
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.getFractionalPremiumQuestRewardName;
-                michal = michal.quest;
-                entity = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 3;
+                var3 = var6[var3];
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.getFractionalPremiumQuestRewardName;
+                var2 = var2.quest;
+                var1 = var3.bind(var4)(var2);
  105:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        zuuluu[3] = entity;
-        entity = {};
-        oscard = 'defaultRewardName';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['get'] = var6;
+        var3[3] = var1;
+        var1 = {};
+        var6 = 'defaultRewardName';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                tangon = _closure1_slot0;
-                report = _closure1_slot1;
-                entity = 2;
-                entity = report[entity];
-                report = undefined;
-                oscard = tangon.bind(report)(entity);
-                tangon = oscard.hasFractionalPremiumQuestReward;
-                entity = michal.quest;
-                entity = tangon.bind(oscard)(entity);
-                if(entity) { _fun00004_ip = 67; continue _fun00003 }
+                var2 = this;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 2;
+                var1 = var5[var1];
+                var5 = undefined;
+                var6 = var4.bind(var5)(var1);
+                var4 = var6.hasFractionalPremiumQuestReward;
+                var1 = var2.quest;
+                var1 = var4.bind(var6)(var1);
+                if(var1) { _fun0002_ip = 67; continue _fun0002 }
  48:
-                entity = michal.defaultReward;
-                entity = entity.messages;
-                entity = entity.name;
-                _fun00004_ip = 104; continue _fun00003;
+                var1 = var2.defaultReward;
+                var1 = var1.messages;
+                var1 = var1.name;
+                _fun0002_ip = 104; continue _fun0002;
  67:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot1;
-                zuuluu = 3;
-                zuuluu = oscard[zuuluu];
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.getFractionalPremiumQuestRewardName;
-                michal = michal.quest;
-                entity = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 3;
+                var3 = var6[var3];
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.getFractionalPremiumQuestRewardName;
+                var2 = var2.quest;
+                var1 = var3.bind(var4)(var2);
  104:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        zuuluu[4] = entity;
-        entity = {};
-        oscard = 'defaultRewardRedemptionInstructionsByPlatform';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            zuuluu = this;
-            michal = zuuluu._defaultRewardV2;
-            entity = zuuluu.quest;
-            entity = michal.bind(zuuluu)(entity);
-            entity = entity.messages;
-            entity = entity.redemptionInstructionsByPlatform;
-            return entity;
+        var1['get'] = var6;
+        var3[4] = var1;
+        var1 = {};
+        var6 = 'defaultRewardRedemptionInstructionsByPlatform';
+        var1['key'] = var6;
+        var6 = function get() {
+            var3 = this;
+            var2 = var3._defaultRewardV2;
+            var1 = var3.quest;
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.messages;
+            var1 = var1.redemptionInstructionsByPlatform;
+            return var1;
         };
-        entity['get'] = oscard;
-        zuuluu[5] = entity;
-        entity = {};
-        oscard = 'rewardsExpireAt';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            entity = this;
-            entity = entity.quest;
-            entity = entity.rewardsConfig;
-            entity = entity.rewardsExpireAt;
-            return entity;
+        var1['get'] = var6;
+        var3[5] = var1;
+        var1 = {};
+        var6 = 'rewardsExpireAt';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1.quest;
+            var1 = var1.rewardsConfig;
+            var1 = var1.rewardsExpireAt;
+            return var1;
         };
-        entity['get'] = oscard;
-        zuuluu[6] = entity;
-        entity = {};
-        oscard = 'application';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            michal = this;
-            entity = {};
-            zuuluu = michal.quest;
-            tangon = zuuluu.application;
-            report = entity;
-            zuuluu = copyDataProperties(report, tangon);
-            michal = michal.quest;
-            michal = michal.application;
-            michal = michal.id;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = 'ids';
-            entity[michal] = zuuluu;
-            return entity;
+        var1['get'] = var6;
+        var3[6] = var1;
+        var1 = {};
+        var6 = 'application';
+        var1['key'] = var6;
+        var6 = function get() {
+            var2 = this;
+            var1 = {};
+            var3 = var2.quest;
+            var4 = var3.application;
+            var5 = var1;
+            var3 = copyDataProperties(var5, var4);
+            var2 = var2.quest;
+            var2 = var2.application;
+            var2 = var2.id;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = 'ids';
+            var1[var2] = var3;
+            return var1;
         };
-        entity['get'] = oscard;
-        zuuluu[7] = entity;
-        entity = {};
-        oscard = 'rewardPlatforms';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            entity = this;
-            entity = entity.quest;
-            entity = entity.rewardsConfig;
-            entity = entity.platforms;
-            return entity;
+        var1['get'] = var6;
+        var3[7] = var1;
+        var1 = {};
+        var6 = 'rewardPlatforms';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1.quest;
+            var1 = var1.rewardsConfig;
+            var1 = var1.platforms;
+            return var1;
         };
-        entity['get'] = oscard;
-        zuuluu[8] = entity;
-        entity = {};
-        oscard = 'questType';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['get'] = var6;
+        var3[8] = var1;
+        var1 = {};
+        var6 = 'questType';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot1;
-                entity = 2;
-                entity = tangon[entity];
-                tangon = undefined;
-                report = zuuluu.bind(tangon)(entity);
-                zuuluu = report.hasWatchVideoTasks;
-                entity = {};
-                oscard = this;
-                oscard = oscard.quest;
-                entity['config'] = oscard;
-                entity = zuuluu.bind(report)(entity);
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot1;
-                michal = 4;
-                michal = report[michal];
-                michal = zuuluu.bind(tangon)(michal);
-                michal = michal.QuestType;
-                if(entity) { _fun00006_ip = 88; continue _fun00005 }
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 2;
+                var1 = var4[var1];
+                var4 = undefined;
+                var5 = var3.bind(var4)(var1);
+                var3 = var5.hasWatchVideoTasks;
+                var1 = {};
+                var6 = this;
+                var6 = var6.quest;
+                var1['config'] = var6;
+                var1 = var3.bind(var5)(var1);
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var2 = 4;
+                var2 = var5[var2];
+                var2 = var3.bind(var4)(var2);
+                var2 = var2.QuestType;
+                if(var1) { _fun0003_ip = 88; continue _fun0003 }
  80:
-                entity = michal.GAMEPLAY;
-                _fun00006_ip = 94; continue _fun00005;
+                var1 = var2.GAMEPLAY;
+                _fun0003_ip = 94; continue _fun0003;
  88:
-                entity = michal.VIDEO;
+                var1 = var2.VIDEO;
  94:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        zuuluu[9] = entity;
-        entity = {};
-        oscard = 'defaultInGameTask';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['get'] = var6;
+        var3[9] = var1;
+        var1 = {};
+        var6 = 'defaultInGameTask';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = this;
-                entity = entity.quest;
-                entity = entity.taskConfigV2;
-                michal = entity.tasks;
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
-                entity = 5;
-                zuuluu = oscard[entity];
-                tangon = undefined;
-                zuuluu = report.bind(tangon)(zuuluu);
-                zuuluu = zuuluu.FirstPartyQuestTaskTypes;
-                zuuluu = zuuluu.ACHIEVEMENT_IN_ACTIVITY;
-                zuuluu = michal[zuuluu];
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.FirstPartyQuestTaskTypes;
-                entity = entity.ACHIEVEMENT_IN_GAME;
-                michal = michal[entity];
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00008_ip = 96; continue _fun00007 }
+                var1 = this;
+                var1 = var1.quest;
+                var1 = var1.taskConfigV2;
+                var2 = var1.tasks;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 5;
+                var3 = var6[var1];
+                var4 = undefined;
+                var3 = var5.bind(var4)(var3);
+                var3 = var3.FirstPartyQuestTaskTypes;
+                var3 = var3.ACHIEVEMENT_IN_ACTIVITY;
+                var3 = var2[var3];
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.FirstPartyQuestTaskTypes;
+                var1 = var1.ACHIEVEMENT_IN_GAME;
+                var2 = var2[var1];
+                var1 = null;
+                if(!(var1 != var3)) { _fun0004_ip = 96; continue _fun0004 }
  93:
-                michal = zuuluu;
+                var2 = var3;
  96:
-                zuuluu = entity != michal;
-                entity = null;
-                if(!zuuluu) { _fun00008_ip = 108; continue _fun00007 }
+                var3 = var1 != var2;
+                var1 = null;
+                if(!var3) { _fun0004_ip = 108; continue _fun0004 }
  105:
-                entity = michal;
+                var1 = var2;
  108:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        zuuluu[10] = entity;
-        entity = {};
-        oscard = 'defaultWatchVideoTask';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['get'] = var6;
+        var3[10] = var1;
+        var1 = {};
+        var6 = 'defaultWatchVideoTask';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                michal = this;
-                entity = michal.quest;
-                entity = entity.taskConfigV2;
-                golfie = entity.tasks;
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
-                entity = 5;
-                zuuluu = oscard[entity];
-                tangon = undefined;
-                zuuluu = report.bind(tangon)(zuuluu);
-                zuuluu = zuuluu.FirstPartyQuestTaskTypes;
-                zuuluu = zuuluu.WATCH_VIDEO;
-                zuuluu = golfie[zuuluu];
-                michal = michal.quest;
-                michal = michal.taskConfigV2;
-                michal = michal.tasks;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.FirstPartyQuestTaskTypes;
-                entity = entity.WATCH_VIDEO_ON_MOBILE;
-                tangon = michal[entity];
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00010_ip = 118; continue _fun00009 }
+                var2 = this;
+                var1 = var2.quest;
+                var1 = var1.taskConfigV2;
+                var7 = var1.tasks;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 5;
+                var3 = var6[var1];
+                var4 = undefined;
+                var3 = var5.bind(var4)(var3);
+                var3 = var3.FirstPartyQuestTaskTypes;
+                var3 = var3.WATCH_VIDEO;
+                var3 = var7[var3];
+                var2 = var2.quest;
+                var2 = var2.taskConfigV2;
+                var2 = var2.tasks;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.FirstPartyQuestTaskTypes;
+                var1 = var1.WATCH_VIDEO_ON_MOBILE;
+                var4 = var2[var1];
+                var2 = null;
+                if(!(var2 != var3)) { _fun0005_ip = 118; continue _fun0005 }
  111:
-                entity = tangon;
-                if(!(michal == entity)) { _fun00010_ip = 140; continue _fun00009 }
+                var1 = var4;
+                if(!(var2 == var1)) { _fun0005_ip = 140; continue _fun0005 }
  118:
-                if(!(michal != tangon)) { _fun00010_ip = 125; continue _fun00009 }
+                if(!(var2 != var4)) { _fun0005_ip = 125; continue _fun0005 }
  122:
-                zuuluu = tangon;
+                var3 = var4;
  125:
-                tangon = michal != zuuluu;
-                michal = null;
-                if(!tangon) { _fun00010_ip = 137; continue _fun00009 }
+                var4 = var2 != var3;
+                var2 = null;
+                if(!var4) { _fun0005_ip = 137; continue _fun0005 }
  134:
-                michal = zuuluu;
+                var2 = var3;
  137:
-                entity = michal;
+                var1 = var2;
  140:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        zuuluu[11] = entity;
-        entity = {};
-        oscard = 'build';
-        entity['key'] = oscard;
-        michal = function(argFoo) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['get'] = var6;
+        var3[11] = var1;
+        var1 = {};
+        var6 = 'build';
+        var1['key'] = var6;
+        var2 = function value(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                zuuluu = argFoo;
-                michal = zuuluu.configVersion;
-                entity = 2;
-                if(!(entity === michal)) { _fun00012_ip = 48; continue _fun00011 }
+                var3 = arg1;
+                var2 = var3.configVersion;
+                var1 = 2;
+                if(!(var1 === var2)) { _fun0006_ip = 48; continue _fun0006 }
  16:
-                entity = _closure2_slot0;
-                michal = entity.prototype;
-                michal = Object.create(michal, {constructor: {value: entity}});
-                report = michal;
-                tangon = zuuluu;
-                entity = new report[entity](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var1 = _closure2_slot0;
+                var2 = var1.prototype;
+                var2 = Object.create(var2, {constructor: {value: var1}});
+                var5 = var2;
+                var4 = var3;
+                var1 = new var5[var1](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
  48:
-                entity = global;
-                zuuluu = entity.Error;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                tangon = 'Cannot build SharedQuestFields when [configVersion !== 2]';
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var4 = 'Cannot build SharedQuestFields when [configVersion !== 2]';
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(report, zuuluu, michal);
-        return entity;
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var5, var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/types/SharedQuestFields.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['SharedQuestFields'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/types/SharedQuestFields.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['SharedQuestFields'] = var2;
+    return var1;
 })();

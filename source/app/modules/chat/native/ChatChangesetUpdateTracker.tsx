@@ -1,76 +1,76 @@
 // app/modules/chat/native/ChatChangesetUpdateTracker.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    tangon = true;
-    report['value'] = tangon;
-    tangon = '__esModule';
-    tangon = oscard.bind(golfie)(zuuluu, tangon, report);
-    entity = entity.WeakMap;
-    tangon = entity.prototype;
-    tangon = Object.create(tangon, {constructor: {value: entity}});
-    yankee = tangon;
-    entity = new yankee[entity](offset);
-    entity = entity instanceof Object ? entity : tangon;
-    var _closure1_slot0 = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/ChatChangesetUpdateTracker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getAndIncrementChangesetIdForChat
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var4 = true;
+    var5['value'] = var4;
+    var4 = '__esModule';
+    var4 = var6.bind(var7)(var3, var4, var5);
+    var1 = var1.WeakMap;
+    var4 = var1.prototype;
+    var4 = Object.create(var4, {constructor: {value: var1}});
+    var11 = var4;
+    var1 = new var11[var1](var10);
+    var1 = var1 instanceof Object ? var1 : var4;
+    var _closure1_slot0 = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/native/ChatChangesetUpdateTracker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAndIncrementChangesetIdForChat(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.get;
-            entity = entity.bind(zuuluu)(tangon);
-            zuuluu = null;
-            report = zuuluu != entity;
-            zuuluu = 0;
-            if(!report) { _fun00002_ip = 34; continue _fun00001 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var1 = var3.get;
+            var1 = var1.bind(var3)(var4);
+            var3 = null;
+            var5 = var3 != var1;
+            var3 = 0;
+            if(!var5) { _fun0001_ip = 34; continue _fun0001 }
  31:
-            zuuluu = entity;
+            var3 = var1;
  34:
-            entity = 1;
-            entity = zuuluu + entity;
-            zuuluu = _closure1_slot0;
-            michal = zuuluu.set;
-            michal = michal.bind(zuuluu)(tangon, entity);
-            return entity;
+            var1 = 1;
+            var1 = var3 + var1;
+            var3 = _closure1_slot0;
+            var2 = var3.set;
+            var2 = var2.bind(var3)(var4, var1);
+            return var1;
         }
     };
-    zuuluu['getAndIncrementChangesetIdForChat'] = tangon;
-    michal = function(argFoo) { // Original name: getChangesetIdForChat
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getAndIncrementChangesetIdForChat'] = var4;
+    var2 = function getChangesetIdForChat(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            tangon = null;
-            zuuluu = tangon == oscard;
-            entity = 0;
-            if(zuuluu) { _fun00004_ip = 46; continue _fun00003 }
+            var6 = arg1;
+            var4 = null;
+            var3 = var4 == var6;
+            var1 = 0;
+            if(var3) { _fun0002_ip = 46; continue _fun0002 }
  14:
-            report = _closure1_slot0;
-            zuuluu = report.get;
-            zuuluu = zuuluu.bind(report)(oscard);
-            tangon = tangon != zuuluu;
-            michal = 0;
-            if(!tangon) { _fun00004_ip = 43; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var3 = var5.get;
+            var3 = var3.bind(var5)(var6);
+            var4 = var4 != var3;
+            var2 = 0;
+            if(!var4) { _fun0002_ip = 43; continue _fun0002 }
  40:
-            michal = zuuluu;
+            var2 = var3;
  43:
-            entity = michal;
+            var1 = var2;
  46:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getChangesetIdForChat'] = michal;
-    return entity;
+    var3['getChangesetIdForChat'] = var2;
+    return var1;
 })();

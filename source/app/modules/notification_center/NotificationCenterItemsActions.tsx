@@ -1,753 +1,753 @@
 // app/modules/notification_center/NotificationCenterItemsActions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    entity = function() { // Original name: _fetchNotificationCenterItems
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var10 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
+    var1 = function _fetchNotificationCenterItems() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 478; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 478; continue _fun0001 }
  12:
-                    romeon = argFoo;
-                    report = argBar;
-                    michal = undefined;
-                    var _closure4_slot0 = michal;
-                    yankee = undefined;
-                    zuuluu = _closure1_slot4;
-                    zuuluu = zuuluu.loading;
-                    if(zuuluu) { _fun00002_ip = 475; continue _fun00001 }
+                    var12 = arg1;
+                    var5 = arg2;
+                    var2 = undefined;
+                    var _closure4_slot0 = var2;
+                    var11 = undefined;
+                    var3 = _closure1_slot4;
+                    var3 = var3.loading;
+                    if(var3) { _fun0001_ip = 475; continue _fun0001 }
  45:
-                    golfie = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    oscard = 3;
-                    zuuluu = zuuluu[oscard];
-                    option = golfie.bind(michal)(zuuluu);
-                    golfie = option.dispatch;
-                    zuuluu = {};
-                    verify = 'LOAD_NOTIFICATION_CENTER_ITEMS';
-                    zuuluu['type'] = verify;
-                    zuuluu = golfie.bind(option)(zuuluu);
+                    var7 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var6 = 3;
+                    var3 = var3[var6];
+                    var8 = var7.bind(var2)(var3);
+                    var7 = var8.dispatch;
+                    var3 = {};
+                    var9 = 'LOAD_NOTIFICATION_CENTER_ITEMS';
+                    var3['type'] = var9;
+                    var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=91);
  89:
-                    return zuuluu;
+                    return var3;
  91:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 472; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 472; continue _fun0001 }
  100:
-                    golfie = global;
-                    verify = golfie.Math;
-                    option = verify.ceil;
-                    golfie = _closure1_slot4;
-                    golfie = golfie.items;
-                    offset = golfie.length;
-                    golfie = romeon;
-                    golfie = golfie.limit;
-                    golfie = offset / golfie;
-                    golfie = option.bind(verify)(golfie);
-                    _closure4_slot0 = golfie;
+                    var7 = global;
+                    var9 = var7.Math;
+                    var8 = var9.ceil;
+                    var7 = _closure1_slot4;
+                    var7 = var7.items;
+                    var10 = var7.length;
+                    var7 = var12;
+                    var7 = var7.limit;
+                    var7 = var10 / var7;
+                    var7 = var8.bind(var9)(var7);
+                    _closure4_slot0 = var7;
  151: // try_start_0
-                    option = _closure1_slot1;
-                    sizing = _closure1_slot2;
-                    golfie = 4;
-                    golfie = sizing[golfie];
-                    verify = option.bind(michal)(golfie);
-                    option = verify.get;
-                    golfie = {};
-                    backup = _closure1_slot5;
-                    offset = backup.NOTIF_CENTER_ITEMS;
-                    offset = offset.bind(backup)();
-                    golfie['url'] = offset;
-                    offset = {};
-                    kiloes = _closure1_slot0;
-                    backup = 5;
-                    backup = sizing[backup];
-                    backup = kiloes.bind(michal)(backup);
-                    backup = backup.NetworkActionNames;
-                    backup = backup.NOTIFICATION_CENTER_PAGE_FETCH;
-                    offset['event'] = backup;
-                    foxtra = function(argFoo) { // Original name: properties
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var8 = _closure1_slot1;
+                    var16 = _closure1_slot2;
+                    var7 = 4;
+                    var7 = var16[var7];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.get;
+                    var7 = {};
+                    var14 = _closure1_slot5;
+                    var10 = var14.NOTIF_CENTER_ITEMS;
+                    var10 = var10.bind(var14)();
+                    var7['url'] = var10;
+                    var10 = {};
+                    var15 = _closure1_slot0;
+                    var14 = 5;
+                    var14 = var16[var14];
+                    var14 = var15.bind(var2)(var14);
+                    var14 = var14.NetworkActionNames;
+                    var14 = var14.NOTIFICATION_CENTER_PAGE_FETCH;
+                    var10['event'] = var14;
+                    var13 = function properties(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            entity = argFoo;
-                            entity = entity.body;
-                            michal = null;
-                            michal = michal == entity;
-                            zuuluu = undefined;
-                            tangon = undefined;
-                            if(michal) { _fun00004_ip = 27; continue _fun00003 }
+                            var1 = arg1;
+                            var1 = var1.body;
+                            var2 = null;
+                            var2 = var2 == var1;
+                            var3 = undefined;
+                            var4 = undefined;
+                            if(var2) { _fun0002_ip = 27; continue _fun0002 }
  21:
-                            tangon = entity.items;
+                            var4 = var1.items;
  27:
-                            if(tangon) { _fun00004_ip = 34; continue _fun00003 }
+                            if(var4) { _fun0002_ip = 34; continue _fun0002 }
  30:
-                            tangon = new Array(0);
+                            var4 = new Array(0);
  34:
-                            michal = tangon.map;
-                            entity = function(argFoo) {
-                                entity = argFoo;
-                                entity = entity.type;
-                                return entity;
+                            var2 = var4.map;
+                            var1 = function(arg1) {
+                                var1 = arg1;
+                                var1 = var1.type;
+                                return var1;
                             };
-                            tangon = michal.bind(tangon)(entity);
-                            michal = _closure1_slot0;
-                            report = _closure1_slot2;
-                            entity = 6;
-                            entity = report[entity];
-                            zuuluu = michal.bind(zuuluu)(entity);
-                            michal = zuuluu.exact;
-                            entity = {};
-                            report = _closure4_slot0;
-                            entity['page'] = report;
-                            entity['items'] = tangon;
-                            tangon = tangon.length;
-                            entity['item_count'] = tangon;
-                            entity = michal.bind(zuuluu)(entity);
-                            return entity;
+                            var4 = var2.bind(var4)(var1);
+                            var2 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var1 = 6;
+                            var1 = var5[var1];
+                            var3 = var2.bind(var3)(var1);
+                            var2 = var3.exact;
+                            var1 = {};
+                            var5 = _closure4_slot0;
+                            var1['page'] = var5;
+                            var1['items'] = var4;
+                            var4 = var4.length;
+                            var1['item_count'] = var4;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
                         }
                     };
-                    offset['properties'] = foxtra;
-                    golfie['trackedActionData'] = offset;
-                    offset = {};
-                    output = romeon;
-                    result = offset;
-                    romeon = copyDataProperties(result, output);
-                    golfie['query'] = offset;
-                    offset = true;
-                    golfie['rejectWithError'] = offset;
-                    golfie = option.bind(verify)(golfie);
+                    var10['properties'] = var13;
+                    var7['trackedActionData'] = var10;
+                    var10 = {};
+                    var17 = var12;
+                    var18 = var10;
+                    var12 = copyDataProperties(var18, var17);
+                    var7['query'] = var10;
+                    var10 = true;
+                    var7['rejectWithError'] = var10;
+                    var7 = var8.bind(var9)(var7);
                     SaveGenerator(address=279);
  277:
-                    return golfie;
+                    return var7;
  279:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 404; continue _fun00001 }
+                    if(var8) { _fun0001_ip = 404; continue _fun0001 }
  285:
-                    yankee = golfie;
-                    verify = report;
-                    option = null;
-                    if(!(option != verify)) { _fun00002_ip = 304; continue _fun00001 }
+                    var11 = var7;
+                    var9 = var5;
+                    var8 = null;
+                    if(!(var8 != var9)) { _fun0001_ip = 304; continue _fun0001 }
  297:
-                    option = report;
-                    option = option.bind(michal)();
+                    var8 = var5;
+                    var8 = var8.bind(var2)();
  304:
-                    verify = _closure1_slot1;
-                    option = _closure1_slot2;
-                    option = option[oscard];
-                    offset = verify.bind(michal)(option);
-                    verify = offset.dispatch;
-                    option = {};
-                    romeon = 'LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS';
-                    option['type'] = romeon;
-                    romeon = yankee.body;
-                    romeon = romeon.items;
-                    option['items'] = romeon;
-                    romeon = yankee.body;
-                    romeon = romeon.cursor;
-                    option['cursor'] = romeon;
-                    yankee = yankee.body;
-                    yankee = yankee.has_more;
-                    option['hasMore'] = yankee;
-                    option = verify.bind(offset)(option);
+                    var9 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var6];
+                    var10 = var9.bind(var2)(var8);
+                    var9 = var10.dispatch;
+                    var8 = {};
+                    var12 = 'LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS';
+                    var8['type'] = var12;
+                    var12 = var11.body;
+                    var12 = var12.items;
+                    var8['items'] = var12;
+                    var12 = var11.body;
+                    var12 = var12.cursor;
+                    var8['cursor'] = var12;
+                    var11 = var11.body;
+                    var11 = var11.has_more;
+                    var8['hasMore'] = var11;
+                    var8 = var9.bind(var10)(var8);
                     SaveGenerator(address=393);
  391:
-                    return option;
+                    return var8;
  393:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 401; continue _fun00001 }
+                    if(var9) { _fun0001_ip = 401; continue _fun0001 }
  399: // try_end0
-                    _fun00002_ip = 475; continue _fun00001;
+                    _fun0001_ip = 475; continue _fun0001;
  401:
-                    return option;
+                    return var8;
  404:
-                    return golfie;
+                    return var7;
  407: // catch_target0
                     CatchBlockStart(arg_register=6);
-                    option = report;
-                    golfie = null;
-                    if(!(golfie != option)) { _fun00002_ip = 422; continue _fun00001 }
+                    var8 = var5;
+                    var7 = null;
+                    if(!(var7 != var8)) { _fun0001_ip = 422; continue _fun0001 }
  418:
-                    report = report.bind(michal)();
+                    var5 = var5.bind(var2)();
  422:
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[oscard];
-                    oscard = report.bind(michal)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    golfie = 'LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE';
-                    tangon['type'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var6];
+                    var6 = var5.bind(var2)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var7 = 'LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE';
+                    var4['type'] = var7;
+                    var4 = var5.bind(var6)(var4);
                     SaveGenerator(address=463);
  461:
-                    return tangon;
+                    return var4;
  463:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(!report) { _fun00002_ip = 475; continue _fun00001 }
+                    if(!var5) { _fun0001_ip = 475; continue _fun0001 }
  469:
-                    return tangon;
+                    return var4;
  472:
-                    return zuuluu;
+                    return var3;
  475:
-                    return michal;
+                    return var2;
  478:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    oscard = function(argFoo) { // Original name: markNotificationCenterLocalItemsAcked
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'NOTIFICATION_CENTER_ITEMS_LOCAL_ACK';
-        michal['type'] = report;
-        report = argFoo;
-        michal['localIds'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var6 = function markNotificationCenterLocalItemsAcked(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'NOTIFICATION_CENTER_ITEMS_LOCAL_ACK';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['localIds'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    var _closure1_slot7 = oscard;
-    report = function() { // Original name: markNotificationCenterRemoteItemAcked
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot7 = var6;
+    var5 = function markNotificationCenterRemoteItemAcked() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = report;
-    entity = function() { // Original name: _markNotificationCenterRemoteItemAcked
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var5;
+    var1 = function _markNotificationCenterRemoteItemAcked() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 222; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 222; continue _fun0003 }
  10:
-                    report = argFoo;
+                    var5 = arg1;
  13: // try_start_0
-                    zuuluu = _closure1_slot1;
-                    option = _closure1_slot2;
-                    michal = 3;
-                    michal = option[michal];
-                    tangon = undefined;
-                    offset = zuuluu.bind(tangon)(michal);
-                    zuuluu = offset.dispatch;
-                    michal = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
-                    oscard = true;
-                    verify = report;
-                    yankee = new Array(1);
-                    yankee[0] = verify;
-                    michal['ids'] = yankee;
-                    michal = zuuluu.bind(offset)(michal);
-                    zuuluu = _closure1_slot0;
-                    michal = 8;
-                    michal = option[michal];
-                    michal = zuuluu.bind(tangon)(michal);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.post;
-                    michal = {};
-                    option = _closure1_slot5;
-                    golfie = option.NOTIF_CENTER_ITEMS_ACK;
-                    golfie = golfie.bind(option)(verify);
-                    michal['url'] = golfie;
-                    michal['rejectWithError'] = oscard;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var8[var2];
+                    var4 = undefined;
+                    var10 = var3.bind(var4)(var2);
+                    var3 = var10.dispatch;
+                    var2 = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
+                    var6 = true;
+                    var9 = var5;
+                    var11 = new Array(1);
+                    var11[0] = var9;
+                    var2['ids'] = var11;
+                    var2 = var3.bind(var10)(var2);
+                    var3 = _closure1_slot0;
+                    var2 = 8;
+                    var2 = var8[var2];
+                    var2 = var3.bind(var4)(var2);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var8 = _closure1_slot5;
+                    var7 = var8.NOTIF_CENTER_ITEMS_ACK;
+                    var7 = var7.bind(var8)(var9);
+                    var2['url'] = var7;
+                    var2['rejectWithError'] = var6;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=141);
  139:
-                    return michal;
+                    return var2;
  141:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 149; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 149; continue _fun0003 }
  147: // try_end0
-                    _fun00006_ip = 217; continue _fun00005;
+                    _fun0003_ip = 217; continue _fun0003;
  149:
-                    return michal;
+                    return var2;
  152: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.dispatch;
-                    michal = {};
-                    oscard = 'NOTIFICATION_CENTER_ITEMS_ACK_FAILURE';
-                    michal['type'] = oscard;
-                    oscard = report;
-                    report = new Array(1);
-                    report[0] = oscard;
-                    michal['ids'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var6 = 'NOTIFICATION_CENTER_ITEMS_ACK_FAILURE';
+                    var2['type'] = var6;
+                    var6 = var5;
+                    var5 = new Array(1);
+                    var5[0] = var6;
+                    var2['ids'] = var5;
+                    var2 = var3.bind(var4)(var2);
  217:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  222:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    tangon = function(argFoo) { // Original name: markNotificationCenterMentionAcked
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
-        report = new Array(1);
-        oscard = argFoo;
-        report[0] = oscard;
-        michal['ids'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot9 = var1;
+    var4 = function markNotificationCenterMentionAcked(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
+        var5 = new Array(1);
+        var6 = arg1;
+        var5[0] = var6;
+        var2['ids'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    var _closure1_slot10 = tangon;
-    entity = function() { // Original name: _bulkMarkNotificationCenterItemsAcked
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot10 = var4;
+    var1 = function _bulkMarkNotificationCenterItemsAcked() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 268; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 268; continue _fun0004 }
  15:
-                    tangon = option;
-                    michal = undefined;
-                    oscard = undefined;
-                    golfie = option.map;
-                    report = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.id;
-                        return entity;
+                    var4 = var8;
+                    var2 = undefined;
+                    var6 = undefined;
+                    var7 = var8.map;
+                    var5 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
                     };
-                    oscard = golfie.bind(option)(report);
+                    var6 = var7.bind(var8)(var5);
  39: // try_start_0
-                    verify = _closure1_slot1;
-                    report = _closure1_slot2;
-                    golfie = 3;
-                    golfie = report[golfie];
-                    yankee = verify.bind(michal)(golfie);
-                    offset = yankee.dispatch;
-                    verify = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
-                    golfie = true;
-                    romeon = oscard;
-                    verify['ids'] = romeon;
-                    verify = offset.bind(yankee)(verify);
-                    offset = tangon;
-                    verify = offset.filter;
-                    tangon = function(argFoo) {
-                        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                    var9 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var7 = 3;
+                    var7 = var5[var7];
+                    var11 = var9.bind(var2)(var7);
+                    var10 = var11.dispatch;
+                    var9 = {'type': 'NOTIFICATION_CENTER_ITEMS_ACK', 'optimistic': true};
+                    var7 = true;
+                    var12 = var6;
+                    var9['ids'] = var12;
+                    var9 = var10.bind(var11)(var9);
+                    var10 = var4;
+                    var9 = var10.filter;
+                    var4 = function(arg1) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            tangon = argFoo;
-                            michal = tangon.local_id;
-                            entity = null;
-                            entity = entity == michal;
-                            if(entity) { _fun00010_ip = 54; continue _fun00009 }
+                            var4 = arg1;
+                            var2 = var4.local_id;
+                            var1 = null;
+                            var1 = var1 == var2;
+                            if(var1) { _fun0005_ip = 54; continue _fun0005 }
  18:
-                            report = _closure1_slot0;
-                            zuuluu = _closure1_slot2;
-                            michal = 7;
-                            zuuluu = zuuluu[michal];
-                            michal = undefined;
-                            zuuluu = report.bind(michal)(zuuluu);
-                            michal = zuuluu.isMentionItem;
-                            entity = michal.bind(zuuluu)(tangon);
+                            var5 = _closure1_slot0;
+                            var3 = _closure1_slot2;
+                            var2 = 7;
+                            var3 = var3[var2];
+                            var2 = undefined;
+                            var3 = var5.bind(var2)(var3);
+                            var2 = var3.isMentionItem;
+                            var1 = var2.bind(var3)(var4);
  54:
-                            return entity;
+                            return var1;
                         }
                     };
-                    verify = verify.bind(offset)(tangon);
-                    tangon = verify.map;
-                    zuuluu = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.id;
-                        return entity;
+                    var9 = var9.bind(var10)(var4);
+                    var4 = var9.map;
+                    var3 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
                     };
-                    verify = tangon.bind(verify)(zuuluu);
-                    tangon = _closure1_slot0;
-                    zuuluu = 8;
-                    zuuluu = report[zuuluu];
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    report = zuuluu.HTTP;
-                    tangon = report.post;
-                    zuuluu = {};
-                    option = _closure1_slot5;
-                    option = option.NOTIF_CENTER_ITEMS_BULK_ACK;
-                    zuuluu['url'] = option;
-                    option = {};
-                    option['item_ids'] = verify;
-                    zuuluu['query'] = option;
-                    zuuluu['rejectWithError'] = golfie;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var9 = var4.bind(var9)(var3);
+                    var4 = _closure1_slot0;
+                    var3 = 8;
+                    var3 = var5[var3];
+                    var3 = var4.bind(var2)(var3);
+                    var5 = var3.HTTP;
+                    var4 = var5.post;
+                    var3 = {};
+                    var8 = _closure1_slot5;
+                    var8 = var8.NOTIF_CENTER_ITEMS_BULK_ACK;
+                    var3['url'] = var8;
+                    var8 = {};
+                    var8['item_ids'] = var9;
+                    var3['query'] = var8;
+                    var3['rejectWithError'] = var7;
+                    var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=202);
  200:
-                    return zuuluu;
+                    return var3;
  202:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 210; continue _fun00007 }
+                    if(var4) { _fun0004_ip = 210; continue _fun0004 }
  208: // try_end0
-                    _fun00008_ip = 265; continue _fun00007;
+                    _fun0004_ip = 265; continue _fun0004;
  210:
-                    return zuuluu;
+                    return var3;
  213: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = report[zuuluu];
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'NOTIFICATION_CENTER_ITEMS_ACK_FAILURE';
-                    zuuluu['type'] = golfie;
-                    zuuluu['ids'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'NOTIFICATION_CENTER_ITEMS_ACK_FAILURE';
+                    var3['type'] = var7;
+                    var3['ids'] = var6;
+                    var3 = var4.bind(var5)(var3);
  265:
-                    return michal;
+                    return var2;
  268:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    entity = function() { // Original name: _deleteNotificationCenterItem
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function _deleteNotificationCenterItem() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 377; continue _fun00011 }
+                    if(var2) { _fun0006_ip = 377; continue _fun0006 }
  10:
-                    oscard = argFoo;
-                    report = undefined;
-                    yankee = undefined;
-                    tangon = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = 9;
-                    michal = golfie[michal];
-                    michal = tangon.bind(report)(michal);
-                    tangon = michal.NotificationCenterAckedBeforeId;
-                    michal = tangon.getSetting;
-                    yankee = michal.bind(tangon)();
+                    var6 = arg1;
+                    var5 = undefined;
+                    var11 = undefined;
+                    var4 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var7[var2];
+                    var2 = var4.bind(var5)(var2);
+                    var4 = var2.NotificationCenterAckedBeforeId;
+                    var2 = var4.getSetting;
+                    var11 = var2.bind(var4)();
  56: // try_start_0
-                    tangon = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 3;
-                    michal = verify[michal];
-                    option = tangon.bind(report)(michal);
-                    golfie = option.dispatch;
-                    michal = {};
-                    offset = 'NOTIFICATION_CENTER_ITEM_DELETE';
-                    michal['type'] = offset;
-                    romeon = oscard;
-                    offset = romeon.id;
-                    michal['id'] = offset;
-                    michal = golfie.bind(option)(michal);
-                    michal = 4;
-                    michal = verify[michal];
-                    golfie = tangon.bind(report)(michal);
-                    tangon = golfie.delete;
-                    michal = {};
-                    foxtra = _closure1_slot5;
-                    offset = foxtra.NOTIF_CENTER_ITEMS;
-                    option = romeon.id;
-                    option = offset.bind(foxtra)(option);
-                    michal['url'] = option;
-                    option = {};
-                    offset = _closure1_slot0;
-                    backup = 7;
-                    verify = verify[backup];
-                    offset = offset.bind(report)(verify);
-                    verify = offset.isMentionItem;
-                    offset = verify.bind(offset)(romeon);
-                    verify = 'regular';
-                    if(!offset) { _fun00012_ip = 191; continue _fun00011 }
+                    var4 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var9[var2];
+                    var8 = var4.bind(var5)(var2);
+                    var7 = var8.dispatch;
+                    var2 = {};
+                    var10 = 'NOTIFICATION_CENTER_ITEM_DELETE';
+                    var2['type'] = var10;
+                    var12 = var6;
+                    var10 = var12.id;
+                    var2['id'] = var10;
+                    var2 = var7.bind(var8)(var2);
+                    var2 = 4;
+                    var2 = var9[var2];
+                    var7 = var4.bind(var5)(var2);
+                    var4 = var7.delete;
+                    var2 = {};
+                    var13 = _closure1_slot5;
+                    var10 = var13.NOTIF_CENTER_ITEMS;
+                    var8 = var12.id;
+                    var8 = var10.bind(var13)(var8);
+                    var2['url'] = var8;
+                    var8 = {};
+                    var10 = _closure1_slot0;
+                    var14 = 7;
+                    var9 = var9[var14];
+                    var10 = var10.bind(var5)(var9);
+                    var9 = var10.isMentionItem;
+                    var10 = var9.bind(var10)(var12);
+                    var9 = 'regular';
+                    if(!var10) { _fun0006_ip = 191; continue _fun0006 }
  187:
-                    verify = 'mention';
+                    var9 = 'mention';
  191:
-                    option['item_type'] = verify;
-                    michal['body'] = option;
-                    option = {};
-                    foxtra = _closure1_slot0;
-                    romeon = _closure1_slot2;
-                    verify = 5;
-                    verify = romeon[verify];
-                    verify = foxtra.bind(report)(verify);
-                    verify = verify.NetworkActionNames;
-                    verify = verify.NOTIFICATION_CENTER_ITEM_DELETE;
-                    option['event'] = verify;
-                    verify = {};
-                    offset = oscard;
-                    kiloes = offset.id;
-                    verify['notification_center_id'] = kiloes;
-                    romeon = romeon[backup];
-                    foxtra = foxtra.bind(report)(romeon);
-                    romeon = foxtra.isRemoteAcked;
-                    yankee = romeon.bind(foxtra)(offset, yankee);
-                    verify['acked'] = yankee;
-                    offset = offset.type;
-                    verify['item_type'] = offset;
-                    option['properties'] = verify;
-                    michal['trackedActionData'] = option;
-                    option = false;
-                    michal['rejectWithError'] = option;
-                    michal = tangon.bind(golfie)(michal);
+                    var8['item_type'] = var9;
+                    var2['body'] = var8;
+                    var8 = {};
+                    var13 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var9 = 5;
+                    var9 = var12[var9];
+                    var9 = var13.bind(var5)(var9);
+                    var9 = var9.NetworkActionNames;
+                    var9 = var9.NOTIFICATION_CENTER_ITEM_DELETE;
+                    var8['event'] = var9;
+                    var9 = {};
+                    var10 = var6;
+                    var15 = var10.id;
+                    var9['notification_center_id'] = var15;
+                    var12 = var12[var14];
+                    var13 = var13.bind(var5)(var12);
+                    var12 = var13.isRemoteAcked;
+                    var11 = var12.bind(var13)(var10, var11);
+                    var9['acked'] = var11;
+                    var10 = var10.type;
+                    var9['item_type'] = var10;
+                    var8['properties'] = var9;
+                    var2['trackedActionData'] = var8;
+                    var8 = false;
+                    var2['rejectWithError'] = var8;
+                    var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=315);
  313:
-                    return michal;
+                    return var2;
  315:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00012_ip = 324; continue _fun00011 }
+                    if(var4) { _fun0006_ip = 324; continue _fun0006 }
  321: // try_end0
-                    return report;
+                    return var5;
  324:
-                    return michal;
+                    return var2;
  327: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = golfie[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'NOTIFICATION_CENTER_ITEM_DELETE_FAILURE';
-                    zuuluu['type'] = golfie;
-                    zuuluu['item'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    throw michal;
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var7[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'NOTIFICATION_CENTER_ITEM_DELETE_FAILURE';
+                    var3['type'] = var7;
+                    var3['item'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
  377:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot12 = entity;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = verify[entity];
-    entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.Endpoints;
-    var _closure1_slot5 = golfie;
-    golfie = 10;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/notification_center/NotificationCenterItemsActions.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo) { // Original name: setNotificationCenterActive
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'NOTIFICATION_CENTER_SET_ACTIVE';
-        michal['type'] = report;
-        report = argFoo;
-        michal['active'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.Endpoints;
+    var _closure1_slot5 = var7;
+    var7 = 10;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/notification_center/NotificationCenterItemsActions.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function setNotificationCenterActive(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'NOTIFICATION_CENTER_SET_ACTIVE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['active'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setNotificationCenterActive'] = golfie;
-    golfie = function(argFoo) { // Original name: setNotificationCenterTabFocused
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'NOTIFICATION_CENTER_TAB_FOCUSED';
-        michal['type'] = report;
-        report = argFoo;
-        michal['focused'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['setNotificationCenterActive'] = var7;
+    var7 = function setNotificationCenterTabFocused(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'NOTIFICATION_CENTER_TAB_FOCUSED';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['focused'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setNotificationCenterTabFocused'] = golfie;
-    golfie = function() { // Original name: resetNotificationCenter
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'RESET_NOTIFICATION_CENTER';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['setNotificationCenterTabFocused'] = var7;
+    var7 = function resetNotificationCenter() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'RESET_NOTIFICATION_CENTER';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['resetNotificationCenter'] = golfie;
-    golfie = function() { // Original name: fetchNotificationCenterItems
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['resetNotificationCenter'] = var7;
+    var7 = function fetchNotificationCenterItems() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchNotificationCenterItems'] = golfie;
-    golfie = function(argFoo) { // Original name: markNotificationCenterItemAcked
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['fetchNotificationCenterItems'] = var7;
+    var7 = function markNotificationCenterItemAcked(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.local_id;
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00014_ip = 86; continue _fun00013 }
+            var1 = arg1;
+            var3 = var1.local_id;
+            var2 = null;
+            if(!(var2 == var3)) { _fun0007_ip = 86; continue _fun0007 }
  15:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.isMentionItem;
-            zuuluu = zuuluu.bind(report)(entity);
-            if(zuuluu) { _fun00014_ip = 70; continue _fun00013 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 7;
+            var3 = var4[var3];
+            var4 = undefined;
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.isMentionItem;
+            var3 = var3.bind(var5)(var1);
+            if(var3) { _fun0007_ip = 70; continue _fun0007 }
  54:
-            report = _closure1_slot8;
-            zuuluu = entity.id;
-            zuuluu = report.bind(tangon)(zuuluu);
-            _fun00014_ip = 114; continue _fun00013;
+            var5 = _closure1_slot8;
+            var3 = var1.id;
+            var3 = var5.bind(var4)(var3);
+            _fun0007_ip = 114; continue _fun0007;
  70:
-            zuuluu = _closure1_slot10;
-            michal = entity.id;
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00014_ip = 114; continue _fun00013;
+            var3 = _closure1_slot10;
+            var2 = var1.id;
+            var2 = var3.bind(var4)(var2);
+            _fun0007_ip = 114; continue _fun0007;
  86:
-            zuuluu = _closure1_slot7;
-            entity = entity.local_id;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
+            var3 = _closure1_slot7;
+            var1 = var1.local_id;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
  114:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['markNotificationCenterItemAcked'] = golfie;
-    zuuluu['markNotificationCenterLocalItemsAcked'] = oscard;
-    zuuluu['markNotificationCenterRemoteItemAcked'] = report;
-    zuuluu['markNotificationCenterMentionAcked'] = tangon;
-    tangon = function() { // Original name: bulkMarkNotificationCenterItemsAcked
-        entity = undefined;
-        tangon = _closure1_slot11;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['markNotificationCenterItemAcked'] = var7;
+    var3['markNotificationCenterLocalItemsAcked'] = var6;
+    var3['markNotificationCenterRemoteItemAcked'] = var5;
+    var3['markNotificationCenterMentionAcked'] = var4;
+    var4 = function bulkMarkNotificationCenterItemsAcked() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['bulkMarkNotificationCenterItemsAcked'] = tangon;
-    michal = function() { // Original name: deleteNotificationCenterItem
-        entity = undefined;
-        tangon = _closure1_slot12;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['bulkMarkNotificationCenterItemsAcked'] = var4;
+    var2 = function deleteNotificationCenterItem() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['deleteNotificationCenterItem'] = michal;
-    return entity;
+    var3['deleteNotificationCenterItem'] = var2;
+    return var1;
 })();

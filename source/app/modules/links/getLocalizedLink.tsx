@@ -1,50 +1,50 @@
 // app/modules/links/getLocalizedLink.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/links/getLocalizedLink.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getLocalizedLink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/links/getLocalizedLink.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getLocalizedLink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 0;
-            michal = michal[entity];
-            entity = undefined;
-            entity = tangon.bind(entity)(michal);
-            entity = entity.intl;
-            michal = entity.currentLocale;
-            entity = michal.toLowerCase;
-            michal = entity.bind(michal)();
-            entity = michal in zuuluu;
-            if(entity) { _fun00002_ip = 62; continue _fun00001 }
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 0;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var2);
+            var1 = var1.intl;
+            var2 = var1.currentLocale;
+            var1 = var2.toLowerCase;
+            var2 = var1.bind(var2)();
+            var1 = var2 in var3;
+            if(var1) { _fun0001_ip = 62; continue _fun0001 }
  55:
-            entity = zuuluu.default;
-            _fun00002_ip = 66; continue _fun00001;
+            var1 = var3.default;
+            _fun0001_ip = 66; continue _fun0001;
  62:
-            entity = zuuluu[michal];
+            var1 = var3[var2];
  66:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

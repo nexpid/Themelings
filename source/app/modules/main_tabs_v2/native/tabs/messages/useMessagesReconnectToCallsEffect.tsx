@@ -1,148 +1,148 @@
 // app/modules/main_tabs_v2/native/tabs/messages/useMessagesReconnectToCallsEffect.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = report[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 6;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/tabs/messages/useMessagesReconnectToCallsEffect.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useMessagesReconnectToCallsEffect
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useEffect;
-        michal = function() {
-            tangon = _closure1_slot4;
-            michal = tangon.isConnected;
-            michal = michal.bind(tangon)();
-            var _closure3_slot0 = michal;
-            zuuluu = function() { // Original name: isGatewayConnectedListener
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var5[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 6;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/tabs/messages/useMessagesReconnectToCallsEffect.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMessagesReconnectToCallsEffect() {
+        var4 = _closure1_slot3;
+        var3 = var4.useEffect;
+        var2 = function() {
+            var4 = _closure1_slot4;
+            var2 = var4.isConnected;
+            var2 = var2.bind(var4)();
+            var _closure3_slot0 = var2;
+            var3 = function isGatewayConnectedListener() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.isConnected;
-                    michal = michal.bind(zuuluu)();
-                    tangon = _closure3_slot0;
-                    if(!(tangon !== michal)) { _fun00002_ip = 261; continue _fun00001 }
+                    var3 = _closure1_slot4;
+                    var2 = var3.isConnected;
+                    var2 = var2.bind(var3)();
+                    var4 = _closure3_slot0;
+                    if(!(var4 !== var2)) { _fun0001_ip = 261; continue _fun0001 }
  31:
-                    _closure3_slot0 = michal;
-                    if(!michal) { _fun00002_ip = 261; continue _fun00001 }
+                    _closure3_slot0 = var2;
+                    if(!var2) { _fun0001_ip = 261; continue _fun0001 }
  41:
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.getSortedChannels;
-                    report = michal.bind(zuuluu)();
-                    tangon = _closure1_slot2;
-                    zuuluu = undefined;
-                    michal = 2;
-                    tangon = tangon.bind(zuuluu)(report, michal);
-                    verify = 0;
-                    michal = tangon[verify];
-                    michal = 1;
-                    option = tangon[michal];
-                    tangon = new Array(0);
-                    golfie = global;
-                    offset = golfie.Math;
-                    report = offset.min;
-                    michal = option.length;
-                    oscard = 20;
-                    michal = report.bind(offset)(oscard, michal);
-                    michal = verify < michal;
-                    report = null;
-                    if(!michal) { _fun00002_ip = 214; continue _fun00001 }
+                    var3 = _closure1_slot6;
+                    var2 = var3.getSortedChannels;
+                    var5 = var2.bind(var3)();
+                    var4 = _closure1_slot2;
+                    var3 = undefined;
+                    var2 = 2;
+                    var4 = var4.bind(var3)(var5, var2);
+                    var9 = 0;
+                    var2 = var4[var9];
+                    var2 = 1;
+                    var8 = var4[var2];
+                    var4 = new Array(0);
+                    var7 = global;
+                    var10 = var7.Math;
+                    var5 = var10.min;
+                    var2 = var8.length;
+                    var6 = 20;
+                    var2 = var5.bind(var10)(var6, var2);
+                    var2 = var9 < var2;
+                    var5 = null;
+                    if(!var2) { _fun0001_ip = 214; continue _fun0001 }
  123:
-                    yankee = _closure1_slot5;
-                    offset = yankee.getChannel;
-                    michal = option[verify];
-                    michal = michal.channelId;
-                    yankee = offset.bind(yankee)(michal);
-                    michal = report != yankee;
-                    if(!michal) { _fun00002_ip = 163; continue _fun00001 }
+                    var11 = _closure1_slot5;
+                    var10 = var11.getChannel;
+                    var2 = var8[var9];
+                    var2 = var2.channelId;
+                    var11 = var10.bind(var11)(var2);
+                    var2 = var5 != var11;
+                    if(!var2) { _fun0001_ip = 163; continue _fun0001 }
  153:
-                    offset = yankee.isGroupDM;
-                    michal = offset.bind(yankee)();
+                    var10 = var11.isGroupDM;
+                    var2 = var10.bind(var11)();
  163:
-                    if(!michal) { _fun00002_ip = 185; continue _fun00001 }
+                    if(!var2) { _fun0001_ip = 185; continue _fun0001 }
  166:
-                    offset = tangon.push;
-                    michal = option[verify];
-                    michal = michal.channelId;
-                    michal = offset.bind(tangon)(michal);
+                    var10 = var4.push;
+                    var2 = var8[var9];
+                    var2 = var2.channelId;
+                    var2 = var10.bind(var4)(var2);
  185:
-                    verify = verify + 1;
-                    yankee = golfie.Math;
-                    offset = yankee.min;
-                    michal = option.length;
-                    michal = offset.bind(yankee)(oscard, michal);
-                    if(verify < michal) { _fun00002_ip = 123; continue _fun00001 }
+                    var9 = var9 + 1;
+                    var11 = var7.Math;
+                    var10 = var11.min;
+                    var2 = var8.length;
+                    var2 = var10.bind(var11)(var6, var2);
+                    if(var9 < var2) { _fun0001_ip = 123; continue _fun0001 }
  214:
-                    michal = _closure1_slot0;
-                    report = _closure1_slot1;
-                    entity = 5;
-                    entity = report[entity];
-                    zuuluu = michal.bind(zuuluu)(entity);
-                    michal = zuuluu.dispatch;
-                    entity = {};
-                    report = 'CALL_CONNECT_MULTIPLE';
-                    entity['type'] = report;
-                    entity['channelIds'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var2 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var1 = 5;
+                    var1 = var5[var1];
+                    var3 = var2.bind(var3)(var1);
+                    var2 = var3.dispatch;
+                    var1 = {};
+                    var5 = 'CALL_CONNECT_MULTIPLE';
+                    var1['type'] = var5;
+                    var1['channelIds'] = var4;
+                    var1 = var2.bind(var3)(var1);
  261:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            var _closure3_slot1 = zuuluu;
-            michal = tangon.addChangeListener;
-            michal = michal.bind(tangon)(zuuluu);
-            entity = function() {
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.removeChangeListener;
-                entity = _closure3_slot1;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+            var _closure3_slot1 = var3;
+            var2 = var4.addChangeListener;
+            var2 = var2.bind(var4)(var3);
+            var1 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.removeChangeListener;
+                var1 = _closure3_slot1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        entity = new Array(0);
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = undefined;
-        return entity;
+        var1 = new Array(0);
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

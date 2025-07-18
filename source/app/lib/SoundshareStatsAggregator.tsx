@@ -1,159 +1,159 @@
 // app/lib/SoundshareStatsAggregator.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function() { // Original name: SoundshareStatsAggregator
-            zuuluu = this;
-            tangon = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = {'soundshare_attach_requested_count': 0, 'soundshare_capturing_count': 0, 'soundshare_capture_stopped_count': 0, 'soundshare_hooked_count': 0, 'soundshare_recv_connect_count': 0, 'soundshare_recv_disconnect_count': 0, 'soundshare_recv_started_count': 0, 'soundshare_recv_stopped_count': 0, 'soundshare_recv_failed_count': 0, 'soundshare_recv_format_count': 0, 'soundshare_send_announce_count': 0, 'soundshare_send_start_count': 0, 'soundshare_send_stop_count': 0, 'soundshare_malformed_trace_count': 0, 'soundshare_audio_detected_count': 0, 'soundshare_state_transition_detached_count': 0, 'soundshare_state_transition_waiting_count': 0, 'soundshare_state_transition_attached_count': 0, 'soundshare_state_transition_started_count': 0, 'soundshare_state_transition_playing_count': 0, 'soundshare_state_transition_silence_count': 0, 'soundshare_unknown_event_count': 0, 'soundshare_first_pid': 0, 'soundshare_last_pid': 0, 'soundshare_unique_pids': 0, 'soundshare_first_session': null, 'soundshare_last_session': null};
-            zuuluu['_report'] = michal;
-            michal = global;
-            michal = michal.Set;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            michal = new golfie[michal](oscard);
-            michal = michal instanceof Object ? michal : tangon;
-            zuuluu['_pids'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function SoundshareStatsAggregator() {
+            var3 = this;
+            var4 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = {'soundshare_attach_requested_count': 0, 'soundshare_capturing_count': 0, 'soundshare_capture_stopped_count': 0, 'soundshare_hooked_count': 0, 'soundshare_recv_connect_count': 0, 'soundshare_recv_disconnect_count': 0, 'soundshare_recv_started_count': 0, 'soundshare_recv_stopped_count': 0, 'soundshare_recv_failed_count': 0, 'soundshare_recv_format_count': 0, 'soundshare_send_announce_count': 0, 'soundshare_send_start_count': 0, 'soundshare_send_stop_count': 0, 'soundshare_malformed_trace_count': 0, 'soundshare_audio_detected_count': 0, 'soundshare_state_transition_detached_count': 0, 'soundshare_state_transition_waiting_count': 0, 'soundshare_state_transition_attached_count': 0, 'soundshare_state_transition_started_count': 0, 'soundshare_state_transition_playing_count': 0, 'soundshare_state_transition_silence_count': 0, 'soundshare_unknown_event_count': 0, 'soundshare_first_pid': 0, 'soundshare_last_pid': 0, 'soundshare_unique_pids': 0, 'soundshare_first_session': null, 'soundshare_last_session': null};
+            var3['_report'] = var2;
+            var2 = global;
+            var2 = var2.Set;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var2 = new var7[var2](var6);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var3['_pids'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'traceEvent';
-        entity['key'] = michal;
-        michal = function(argFoo, argBar) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'traceEvent';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = argFoo;
-                tangon = argBar;
-                report = this;
-                michal = report._report;
-                oscard = tangon.type;
-                entity = 'soundshare_state_transition';
-                if(!(entity !== oscard)) { _fun00002_ip = 64; continue _fun00001 }
+                var3 = arg1;
+                var4 = arg2;
+                var5 = this;
+                var2 = var5._report;
+                var6 = var4.type;
+                var1 = 'soundshare_state_transition';
+                if(!(var1 !== var6)) { _fun0001_ip = 64; continue _fun0001 }
  30:
-                option = tangon.type;
-                entity = global;
-                entity = entity.HermesInternal;
-                golfie = entity.concat;
-                oscard = '';
-                entity = '_count';
-                golfie = golfie.bind(oscard)(option, entity);
-                _fun00002_ip = 113; continue _fun00001;
+                var8 = var4.type;
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var7 = var1.concat;
+                var6 = '';
+                var1 = '_count';
+                var7 = var7.bind(var6)(var8, var1);
+                _fun0001_ip = 113; continue _fun0001;
  64:
-                oscard = tangon.newState;
-                entity = ['detached', 'waiting', 'attached', 'started', 'playing', 'silence'];
-                verify = entity[oscard];
-                entity = global;
-                entity = entity.HermesInternal;
-                option = entity.concat;
-                oscard = 'soundshare_state_transition_';
-                entity = '_count';
-                golfie = option.bind(oscard)(verify, entity);
+                var6 = var4.newState;
+                var1 = ['detached', 'waiting', 'attached', 'started', 'playing', 'silence'];
+                var9 = var1[var6];
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var8 = var1.concat;
+                var6 = 'soundshare_state_transition_';
+                var1 = '_count';
+                var7 = var8.bind(var6)(var9, var1);
  113:
-                oscard = michal[golfie];
-                entity = undefined;
-                if(!(entity === oscard)) { _fun00002_ip = 140; continue _fun00001 }
+                var6 = var2[var7];
+                var1 = undefined;
+                if(!(var1 === var6)) { _fun0001_ip = 140; continue _fun0001 }
  123:
-                oscard = michal.soundshare_unknown_event_count;
-                oscard = oscard + 1;
-                michal['soundshare_unknown_event_count'] = oscard;
-                _fun00002_ip = 165; continue _fun00001;
+                var6 = var2.soundshare_unknown_event_count;
+                var6 = var6 + 1;
+                var2['soundshare_unknown_event_count'] = var6;
+                _fun0001_ip = 165; continue _fun0001;
  140:
-                option = michal[golfie];
-                oscard = 32767;
-                if(!(option < oscard)) { _fun00002_ip = 165; continue _fun00001 }
+                var8 = var2[var7];
+                var6 = 32767;
+                if(!(var8 < var6)) { _fun0001_ip = 165; continue _fun0001 }
  154:
-                oscard = michal[golfie];
-                oscard = oscard + 1;
-                michal[golfie] = oscard;
+                var6 = var2[var7];
+                var6 = var6 + 1;
+                var2[var7] = var6;
  165:
-                oscard = 'pid';
-                oscard = oscard in tangon;
-                if(!oscard) { _fun00002_ip = 234; continue _fun00001 }
+                var6 = 'pid';
+                var6 = var6 in var4;
+                if(!var6) { _fun0001_ip = 234; continue _fun0001 }
  176:
-                golfie = michal.soundshare_first_pid;
-                oscard = 0;
-                if(!(oscard === golfie)) { _fun00002_ip = 200; continue _fun00001 }
+                var7 = var2.soundshare_first_pid;
+                var6 = 0;
+                if(!(var6 === var7)) { _fun0001_ip = 200; continue _fun0001 }
  188:
-                oscard = tangon.pid;
-                michal['soundshare_first_pid'] = oscard;
+                var6 = var4.pid;
+                var2['soundshare_first_pid'] = var6;
  200:
-                oscard = tangon.pid;
-                michal['soundshare_last_pid'] = oscard;
-                oscard = report._pids;
-                report = oscard.add;
-                tangon = tangon.pid;
-                tangon = report.bind(oscard)(tangon);
+                var6 = var4.pid;
+                var2['soundshare_last_pid'] = var6;
+                var6 = var5._pids;
+                var5 = var6.add;
+                var4 = var4.pid;
+                var4 = var5.bind(var6)(var4);
  234:
-                report = null;
-                if(!(report != zuuluu)) { _fun00002_ip = 262; continue _fun00001 }
+                var5 = null;
+                if(!(var5 != var3)) { _fun0001_ip = 262; continue _fun0001 }
  240:
-                tangon = michal.soundshare_first_session;
-                if(!(report == tangon)) { _fun00002_ip = 256; continue _fun00001 }
+                var4 = var2.soundshare_first_session;
+                if(!(var5 == var4)) { _fun0001_ip = 256; continue _fun0001 }
  250:
-                michal['soundshare_first_session'] = zuuluu;
+                var2['soundshare_first_session'] = var3;
  256:
-                michal['soundshare_last_session'] = zuuluu;
+                var2['soundshare_last_session'] = var3;
  262:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(2);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'getStats';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = this;
-            entity = {};
-            tangon = michal._report;
-            report = entity;
-            zuuluu = copyDataProperties(report, tangon);
-            michal = michal._pids;
-            zuuluu = michal.size;
-            michal = 'soundshare_unique_pids';
-            entity[michal] = zuuluu;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(2);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getStats';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = this;
+            var1 = {};
+            var4 = var2._report;
+            var5 = var1;
+            var3 = copyDataProperties(var5, var4);
+            var2 = var2._pids;
+            var3 = var2.size;
+            var2 = 'soundshare_unique_pids';
+            var1[var2] = var3;
+            return var1;
         };
-        entity['value'] = report;
-        michal[1] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[1] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/SoundshareStatsAggregator.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/SoundshareStatsAggregator.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

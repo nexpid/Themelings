@@ -1,84 +1,84 @@
 // app/modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: showMediaMessagePreviewActionSheet
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_viewer/native/components/showMediaMessagePreviewActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function showMediaMessagePreviewActionSheet(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            report = michal.channelId;
-            entity = michal.closeMediaModal;
-            golfie = michal.message;
-            tangon = _closure1_slot3;
-            michal = tangon.getChannel;
-            option = michal.bind(tangon)(report);
-            michal = null;
-            if(!(michal != option)) { _fun00002_ip = 176; continue _fun00001 }
+            var2 = arg1;
+            var5 = var2.channelId;
+            var1 = var2.closeMediaModal;
+            var7 = var2.message;
+            var4 = _closure1_slot3;
+            var2 = var4.getChannel;
+            var8 = var2.bind(var4)(var5);
+            var2 = null;
+            if(!(var2 != var8)) { _fun0001_ip = 176; continue _fun0001 }
  45:
-            if(!(michal != golfie)) { _fun00002_ip = 176; continue _fun00001 }
+            if(!(var2 != var7)) { _fun0001_ip = 176; continue _fun0001 }
  52:
-            oscard = _closure1_slot4;
-            report = oscard.getUser;
-            tangon = golfie.author;
-            tangon = tangon.id;
-            oscard = report.bind(oscard)(tangon);
-            if(!(michal != oscard)) { _fun00002_ip = 176; continue _fun00001 }
+            var6 = _closure1_slot4;
+            var5 = var6.getUser;
+            var4 = var7.author;
+            var4 = var4.id;
+            var6 = var5.bind(var6)(var4);
+            if(!(var2 != var6)) { _fun0001_ip = 176; continue _fun0001 }
  82:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            tangon = 2;
-            tangon = michal[tangon];
-            offset = undefined;
-            report = report.bind(offset)(tangon);
-            tangon = report.openLazy;
-            verify = _closure1_slot0;
-            zuuluu = 4;
-            zuuluu = michal[zuuluu];
-            verify = verify.bind(offset)(zuuluu);
-            zuuluu = 3;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            zuuluu = verify.bind(offset)(zuuluu, michal);
-            michal = {};
-            michal['channel'] = option;
-            michal['message'] = golfie;
-            michal['user'] = oscard;
-            michal['closeMediaModal'] = entity;
-            entity = 'MediaMessagePreviewActionSheet';
-            entity = tangon.bind(report)(zuuluu, entity, michal);
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var4 = 2;
+            var4 = var2[var4];
+            var10 = undefined;
+            var5 = var5.bind(var10)(var4);
+            var4 = var5.openLazy;
+            var9 = _closure1_slot0;
+            var3 = 4;
+            var3 = var2[var3];
+            var9 = var9.bind(var10)(var3);
+            var3 = 3;
+            var3 = var2[var3];
+            var2 = var2.paths;
+            var3 = var9.bind(var10)(var3, var2);
+            var2 = {};
+            var2['channel'] = var8;
+            var2['message'] = var7;
+            var2['user'] = var6;
+            var2['closeMediaModal'] = var1;
+            var1 = 'MediaMessagePreviewActionSheet';
+            var1 = var4.bind(var5)(var3, var1, var2);
  176:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

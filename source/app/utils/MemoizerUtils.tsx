@@ -1,58 +1,58 @@
 // app/utils/MemoizerUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = {};
-    entity = function(argFoo) { // Original name: makeMemoizer
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        michal = michal.Map;
-        zuuluu = michal.prototype;
-        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-        tangon = zuuluu;
-        michal = new tangon[michal](zuuluu);
-        michal = michal instanceof Object ? michal : zuuluu;
-        var _closure2_slot1 = michal;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = {};
+    var1 = function makeMemoizer(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var2 = var2.Map;
+        var3 = var2.prototype;
+        var3 = Object.create(var3, {constructor: {value: var2}});
+        var4 = var3;
+        var2 = new var4[var2](var3);
+        var2 = var2 instanceof Object ? var2 : var3;
+        var _closure2_slot1 = var2;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = argFoo;
-                michal = _closure2_slot1;
-                entity = michal.get;
-                entity = entity.bind(michal)(report);
-                tangon = undefined;
-                if(!(tangon === entity)) { _fun00002_ip = 53; continue _fun00001 }
+                var5 = arg1;
+                var2 = _closure2_slot1;
+                var1 = var2.get;
+                var1 = var1.bind(var2)(var5);
+                var4 = undefined;
+                if(!(var4 === var1)) { _fun0001_ip = 53; continue _fun0001 }
  26:
-                michal = _closure2_slot0;
-                michal = michal.bind(tangon)(report);
-                tangon = _closure2_slot1;
-                zuuluu = tangon.set;
-                zuuluu = zuuluu.bind(tangon)(report, michal);
-                entity = michal;
+                var2 = _closure2_slot0;
+                var2 = var2.bind(var4)(var5);
+                var4 = _closure2_slot1;
+                var3 = var4.set;
+                var3 = var3.bind(var4)(var5, var2);
+                var1 = var2;
  53:
-                return entity;
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    michal['makeMemoizer'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/MemoizerUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['makeMemoizer'] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/MemoizerUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

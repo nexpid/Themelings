@@ -1,147 +1,147 @@
 // app/modules/rpc/server/commands/logs.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    tangon = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    tangon = michal.RPCCommands;
-    verify = michal.RPC_APPLICATION_LOGGING_CATEGORY;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    golfie = michal.prototype;
-    golfie = Object.create(golfie, {constructor: {value: michal}});
-    foxtra = golfie;
-    romeon = verify;
-    michal = new foxtra[michal](romeon, yankee);
-    michal = michal instanceof Object ? michal : golfie;
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = tangon.CAPTURE_LOG;
-    tangon = {};
-    verify = function(argFoo) { // Original name: validation
-        report = argFoo;
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        entity = michal[entity];
-        michal = undefined;
-        entity = zuuluu.bind(michal)(entity);
-        michal = entity.bind(michal)(report);
-        entity = michal.required;
-        zuuluu = entity.bind(michal)();
-        michal = zuuluu.keys;
-        entity = {};
-        tangon = report.string;
-        golfie = tangon.bind(report)();
-        oscard = golfie.max;
-        tangon = 10;
-        oscard = oscard.bind(golfie)(tangon);
-        tangon = oscard.required;
-        tangon = tangon.bind(oscard)();
-        entity['level'] = tangon;
-        tangon = report.string;
-        oscard = tangon.bind(report)();
-        report = oscard.max;
-        tangon = 1000;
-        report = report.bind(oscard)(tangon);
-        tangon = report.required;
-        tangon = tangon.bind(report)();
-        entity['message'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var4 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.RPCCommands;
+    var9 = var2.RPC_APPLICATION_LOGGING_CATEGORY;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var7 = var2.prototype;
+    var7 = Object.create(var7, {constructor: {value: var2}});
+    var13 = var7;
+    var12 = var9;
+    var2 = new var13[var2](var12, var11);
+    var2 = var2 instanceof Object ? var2 : var7;
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = var4.CAPTURE_LOG;
+    var4 = {};
+    var9 = function validation(arg1) {
+        var5 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var3.bind(var2)(var1);
+        var2 = var1.bind(var2)(var5);
+        var1 = var2.required;
+        var3 = var1.bind(var2)();
+        var2 = var3.keys;
+        var1 = {};
+        var4 = var5.string;
+        var7 = var4.bind(var5)();
+        var6 = var7.max;
+        var4 = 10;
+        var6 = var6.bind(var7)(var4);
+        var4 = var6.required;
+        var4 = var4.bind(var6)();
+        var1['level'] = var4;
+        var4 = var5.string;
+        var6 = var4.bind(var5)();
+        var5 = var6.max;
+        var4 = 1000;
+        var5 = var5.bind(var6)(var4);
+        var4 = var5.required;
+        var4 = var4.bind(var5)();
+        var1['message'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon['validation'] = verify;
-    option = function(argFoo) { // Original name: handler
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4['validation'] = var9;
+    var8 = function handler(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.socket;
-            entity = entity.args;
-            report = entity.level;
-            option = entity.message;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 3;
-            tangon = tangon[entity];
-            entity = undefined;
-            golfie = oscard.bind(entity)(tangon);
-            oscard = golfie.validatePostMessageTransport;
-            tangon = zuuluu.transport;
-            tangon = oscard.bind(golfie)(tangon);
-            zuuluu = zuuluu.application;
-            golfie = zuuluu.id;
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            oscard = zuuluu.concat;
-            tangon = '';
-            zuuluu = ' - ';
-            tangon = oscard.bind(tangon)(golfie, zuuluu, option);
-            zuuluu = 'log';
-            if(!(zuuluu !== report)) { _fun00002_ip = 214; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.socket;
+            var1 = var1.args;
+            var5 = var1.level;
+            var8 = var1.message;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var7 = var6.bind(var1)(var4);
+            var6 = var7.validatePostMessageTransport;
+            var4 = var3.transport;
+            var4 = var6.bind(var7)(var4);
+            var3 = var3.application;
+            var7 = var3.id;
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var6 = var3.concat;
+            var4 = '';
+            var3 = ' - ';
+            var4 = var6.bind(var4)(var7, var3, var8);
+            var3 = 'log';
+            if(!(var3 !== var5)) { _fun0001_ip = 214; continue _fun0001 }
  116:
-            zuuluu = 'warn';
-            if(!(zuuluu !== report)) { _fun00002_ip = 198; continue _fun00001 }
+            var3 = 'warn';
+            if(!(var3 !== var5)) { _fun0001_ip = 198; continue _fun0001 }
  124:
-            zuuluu = 'debug';
-            if(!(zuuluu !== report)) { _fun00002_ip = 181; continue _fun00001 }
+            var3 = 'debug';
+            if(!(var3 !== var5)) { _fun0001_ip = 181; continue _fun0001 }
  132:
-            zuuluu = 'info';
-            if(!(zuuluu !== report)) { _fun00002_ip = 164; continue _fun00001 }
+            var3 = 'info';
+            if(!(var3 !== var5)) { _fun0001_ip = 164; continue _fun0001 }
  140:
-            zuuluu = 'error';
-            if(!(zuuluu === report)) { _fun00002_ip = 229; continue _fun00001 }
+            var3 = 'error';
+            if(!(var3 === var5)) { _fun0001_ip = 229; continue _fun0001 }
  148:
-            report = _closure1_slot3;
-            zuuluu = report.error;
-            zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            var5 = _closure1_slot3;
+            var3 = var5.error;
+            var3 = var3.bind(var5)(var4);
+            _fun0001_ip = 229; continue _fun0001;
  164:
-            report = _closure1_slot3;
-            zuuluu = report.info;
-            zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            var5 = _closure1_slot3;
+            var3 = var5.info;
+            var3 = var3.bind(var5)(var4);
+            _fun0001_ip = 229; continue _fun0001;
  181:
-            report = _closure1_slot3;
-            zuuluu = report.verbose;
-            zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            var5 = _closure1_slot3;
+            var3 = var5.verbose;
+            var3 = var3.bind(var5)(var4);
+            _fun0001_ip = 229; continue _fun0001;
  198:
-            report = _closure1_slot3;
-            zuuluu = report.warn;
-            zuuluu = zuuluu.bind(report)(tangon);
-            _fun00002_ip = 229; continue _fun00001;
+            var5 = _closure1_slot3;
+            var3 = var5.warn;
+            var3 = var3.bind(var5)(var4);
+            _fun0001_ip = 229; continue _fun0001;
  214:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.log;
-            michal = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot3;
+            var2 = var3.log;
+            var2 = var2.bind(var3)(var4);
  229:
-            return entity;
+            return var1;
         }
     };
-    tangon['handler'] = option;
-    michal[golfie] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rpc/server/commands/logs.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var4['handler'] = var8;
+    var2[var7] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rpc/server/commands/logs.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

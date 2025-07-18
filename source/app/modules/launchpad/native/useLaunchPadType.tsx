@@ -1,92 +1,92 @@
 // app/modules/launchpad/native/useLaunchPadType.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.LaunchPadTypes;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/launchpad/native/useLaunchPadType.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useLaunchPadType
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.LaunchPadTypes;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/launchpad/native/useLaunchPadType.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useLaunchPadType() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            tangon = zuuluu[michal];
-            michal = undefined;
-            tangon = report.bind(michal)(tangon);
-            oscard = tangon.LaunchPadModeSetting;
-            tangon = oscard.useSetting;
-            tangon = tangon.bind(oscard)();
-            oscard = 2;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.LaunchPadMode;
-            zuuluu = zuuluu.LAUNCH_PAD_DISABLED;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 209; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var4 = var3[var2];
+            var2 = undefined;
+            var4 = var5.bind(var2)(var4);
+            var6 = var4.LaunchPadModeSetting;
+            var4 = var6.useSetting;
+            var4 = var4.bind(var6)();
+            var6 = 2;
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.LaunchPadMode;
+            var3 = var3.LAUNCH_PAD_DISABLED;
+            if(!(var3 !== var4)) { _fun0001_ip = 209; continue _fun0001 }
  72:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.LaunchPadMode;
-            zuuluu = zuuluu.LAUNCH_PAD_GESTURE_FULL_SCREEN;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 197; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.LaunchPadMode;
+            var3 = var3.LAUNCH_PAD_GESTURE_FULL_SCREEN;
+            if(!(var3 !== var4)) { _fun0001_ip = 197; continue _fun0001 }
  105:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.LaunchPadMode;
-            zuuluu = zuuluu.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 185; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.LaunchPadMode;
+            var3 = var3.LAUNCH_PAD_GESTURE_RIGHT_EDGE;
+            if(!(var3 !== var4)) { _fun0001_ip = 185; continue _fun0001 }
  138:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.LaunchPadMode;
-            zuuluu = zuuluu.LAUNCH_PAD_PULL_TAB;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 173; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.LaunchPadMode;
+            var3 = var3.LAUNCH_PAD_PULL_TAB;
+            if(!(var3 !== var4)) { _fun0001_ip = 173; continue _fun0001 }
  171:
-            return michal;
+            return var2;
  173:
-            michal = _closure1_slot2;
-            michal = michal.PULL_TAB;
-            return michal;
+            var2 = _closure1_slot2;
+            var2 = var2.PULL_TAB;
+            return var2;
  185:
-            michal = _closure1_slot2;
-            michal = michal.GESTURE_EDGE;
-            return michal;
+            var2 = _closure1_slot2;
+            var2 = var2.GESTURE_EDGE;
+            return var2;
  197:
-            michal = _closure1_slot2;
-            michal = michal.GESTURE_FULL;
-            return michal;
+            var2 = _closure1_slot2;
+            var2 = var2.GESTURE_FULL;
+            return var2;
  209:
-            entity = _closure1_slot2;
-            entity = entity.DISABLED;
-            return entity;
+            var1 = _closure1_slot2;
+            var1 = var1.DISABLED;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

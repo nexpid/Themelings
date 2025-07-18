@@ -1,74 +1,74 @@
 // app/modules/applications/ApplicationInteractionInfoUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/ApplicationInteractionInfoUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: canViewInteractionInfo
-        entity = argFoo;
-        michal = entity.interactionMetadata;
-        entity = null;
-        entity = entity != michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/ApplicationInteractionInfoUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function canViewInteractionInfo(arg1) {
+        var1 = arg1;
+        var2 = var1.interactionMetadata;
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    zuuluu['canViewInteractionInfo'] = tangon;
-    michal = function(argFoo) { // Original name: isPrimaryEntryPointCommandMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['canViewInteractionInfo'] = var4;
+    var2 = function isPrimaryEntryPointCommandMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = tangon.interactionMetadata;
-            zuuluu = null;
-            michal = zuuluu == entity;
-            report = undefined;
-            golfie = undefined;
-            if(michal) { _fun00002_ip = 27; continue _fun00001 }
+            var4 = arg1;
+            var1 = var4.interactionMetadata;
+            var3 = null;
+            var2 = var3 == var1;
+            var5 = undefined;
+            var7 = undefined;
+            if(var2) { _fun0001_ip = 27; continue _fun0001 }
  22:
-            golfie = entity.type;
+            var7 = var1.type;
  27:
-            option = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            entity = option.bind(report)(entity);
-            entity = entity.InteractionTypes;
-            entity = entity.APPLICATION_COMMAND;
-            entity = golfie === entity;
-            if(!entity) { _fun00002_ip = 122; continue _fun00001 }
+            var8 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var1 = var8.bind(var5)(var1);
+            var1 = var1.InteractionTypes;
+            var1 = var1.APPLICATION_COMMAND;
+            var1 = var7 === var1;
+            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
  68:
-            tangon = tangon.interactionMetadata;
-            golfie = zuuluu == tangon;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 89; continue _fun00001 }
+            var4 = var4.interactionMetadata;
+            var7 = var3 == var4;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 89; continue _fun0001 }
  83:
-            zuuluu = tangon.command_type;
+            var3 = var4.command_type;
  89:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.ApplicationCommandType;
-            michal = michal.PRIMARY_ENTRY_POINT;
-            entity = zuuluu === michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ApplicationCommandType;
+            var2 = var2.PRIMARY_ENTRY_POINT;
+            var1 = var3 === var2;
  122:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isPrimaryEntryPointCommandMessage'] = michal;
-    return entity;
+    var3['isPrimaryEntryPointCommandMessage'] = var2;
+    return var1;
 })();

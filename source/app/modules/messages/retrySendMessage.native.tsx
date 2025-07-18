@@ -1,175 +1,175 @@
 // app/modules/messages/retrySendMessage.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 4;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/retrySendMessage.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: retrySendMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 4;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/retrySendMessage.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function retrySendMessage(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            offset = argBaz;
-            tangon = arguments[3];
-            var _closure2_slot0 = oscard;
-            entity = undefined;
-            if(!(tangon === entity)) { _fun00002_ip = 26; continue _fun00001 }
+            var6 = arg1;
+            var5 = arg2;
+            var10 = arg3;
+            var4 = arguments[3];
+            var _closure2_slot0 = var6;
+            var1 = undefined;
+            if(!(var4 === var1)) { _fun0001_ip = 26; continue _fun0001 }
  24:
-            tangon = {};
+            var4 = {};
  26:
-            golfie = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            verify = 0;
-            zuuluu = zuuluu[verify];
-            foxtra = golfie.bind(entity)(zuuluu);
-            romeon = foxtra.deleteMessage;
-            option = oscard.id;
-            golfie = report.id;
-            zuuluu = true;
-            zuuluu = romeon.bind(foxtra)(option, golfie, zuuluu);
-            zuuluu = report.isCommandType;
-            zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00002_ip = 298; continue _fun00001 }
+            var7 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var9 = 0;
+            var3 = var3[var9];
+            var13 = var7.bind(var1)(var3);
+            var12 = var13.deleteMessage;
+            var8 = var6.id;
+            var7 = var5.id;
+            var3 = true;
+            var3 = var12.bind(var13)(var8, var7, var3);
+            var3 = var5.isCommandType;
+            var3 = var3.bind(var5)();
+            if(var3) { _fun0001_ip = 298; continue _fun0001 }
  89:
-            kiloes = report.content;
-            zuuluu = report.tts;
-            romeon = report.messageReference;
-            sizing = report.flags;
-            output = report.nonce;
-            backup = null;
-            golfie = backup == offset;
-            foxtra = undefined;
-            if(golfie) { _fun00002_ip = 145; continue _fun00001 }
+            var15 = var5.content;
+            var3 = var5.tts;
+            var12 = var5.messageReference;
+            var16 = var5.flags;
+            var17 = var5.nonce;
+            var14 = null;
+            var7 = var14 == var10;
+            var13 = undefined;
+            if(var7) { _fun0001_ip = 145; continue _fun0001 }
  128:
-            option = offset.map;
-            golfie = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = var10.map;
+            var7 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = argFoo;
-                    zuuluu = tangon.on;
-                    michal = null;
-                    entity = tangon;
-                    if(!(michal == zuuluu)) { _fun00004_ip = 60; continue _fun00003 }
+                    var4 = arg1;
+                    var3 = var4.on;
+                    var2 = null;
+                    var1 = var4;
+                    if(!(var2 == var3)) { _fun0002_ip = 60; continue _fun0002 }
  18:
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = report.bind(michal)(zuuluu);
-                    zuuluu = michal.CloudUpload;
-                    michal = zuuluu.fromJson;
-                    entity = michal.bind(zuuluu)(tangon);
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var3);
+                    var3 = var2.CloudUpload;
+                    var2 = var3.fromJson;
+                    var1 = var2.bind(var3)(var4);
  60:
-                    return entity;
+                    return var1;
                 }
             };
-            foxtra = option.bind(offset)(golfie);
+            var13 = var8.bind(var10)(var7);
  145:
-            option = _closure1_slot1;
-            golfie = _closure1_slot2;
-            golfie = golfie[verify];
-            offset = option.bind(entity)(golfie);
-            verify = offset.sendMessage;
-            option = oscard.id;
-            golfie = {};
-            golfie['content'] = kiloes;
-            golfie['tts'] = zuuluu;
-            zuuluu = new Array(0);
-            golfie['invalidEmojis'] = zuuluu;
-            zuuluu = new Array(0);
-            golfie['validNonShortcutEmojis'] = zuuluu;
-            zuuluu = {};
-            source = zuuluu;
-            update = tangon;
-            kiloes = copyDataProperties(source, update);
-            kiloes = 'nonce';
-            zuuluu[kiloes] = output;
-            kiloes = 'flags';
-            zuuluu[kiloes] = sizing;
-            kiloes = backup != romeon;
-            backup = undefined;
-            if(!kiloes) { _fun00002_ip = 244; continue _fun00001 }
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var7 = var7[var9];
+            var10 = var8.bind(var1)(var7);
+            var9 = var10.sendMessage;
+            var8 = var6.id;
+            var7 = {};
+            var7['content'] = var15;
+            var7['tts'] = var3;
+            var3 = new Array(0);
+            var7['invalidEmojis'] = var3;
+            var3 = new Array(0);
+            var7['validNonShortcutEmojis'] = var3;
+            var3 = {};
+            var21 = var3;
+            var20 = var4;
+            var15 = copyDataProperties(var21, var20);
+            var15 = 'nonce';
+            var3[var15] = var17;
+            var15 = 'flags';
+            var3[var15] = var16;
+            var15 = var14 != var12;
+            var14 = undefined;
+            if(!var15) { _fun0001_ip = 244; continue _fun0001 }
  241:
-            backup = romeon;
+            var14 = var12;
  244:
-            romeon = 'messageReference';
-            zuuluu[romeon] = backup;
-            romeon = 'attachmentsToUpload';
-            zuuluu[romeon] = foxtra;
-            romeon = function(argFoo, argBar, argBaz) { // Original name: onAttachmentUploadError
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.handleUploadMessageAttachmentsErrors;
-                michal = {};
-                report = argFoo;
-                michal['file'] = report;
-                oscard = _closure2_slot0;
-                report = oscard.getGuildId;
-                report = report.bind(oscard)();
-                michal['guildId'] = report;
-                report = new Array(0);
-                michal['analyticsLocations'] = report;
-                report = argBar;
-                michal['code'] = report;
-                report = argBaz;
-                michal['reason'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var12 = 'messageReference';
+            var3[var12] = var14;
+            var12 = 'attachmentsToUpload';
+            var3[var12] = var13;
+            var12 = function onAttachmentUploadError(arg1, arg2, arg3) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.handleUploadMessageAttachmentsErrors;
+                var2 = {};
+                var5 = arg1;
+                var2['file'] = var5;
+                var6 = _closure2_slot0;
+                var5 = var6.getGuildId;
+                var5 = var5.bind(var6)();
+                var2['guildId'] = var5;
+                var5 = new Array(0);
+                var2['analyticsLocations'] = var5;
+                var5 = arg2;
+                var2['code'] = var5;
+                var5 = arg3;
+                var2['reason'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            yankee = 'onAttachmentUploadError';
-            zuuluu[yankee] = romeon;
-            ctrled = offset;
-            source = option;
-            update = golfie;
-            echoed = undefined;
-            result = zuuluu;
-            zuuluu = ctrled[verify](source, update, echoed, result, output);
-            _fun00002_ip = 358; continue _fun00001;
+            var11 = 'onAttachmentUploadError';
+            var3[var11] = var12;
+            var22 = var10;
+            var21 = var8;
+            var20 = var7;
+            var19 = undefined;
+            var18 = var3;
+            var3 = var22[var9](var21, var20, var19, var18, var17);
+            _fun0001_ip = 358; continue _fun0001;
  298:
-            zuuluu = report.interactionData;
-            option = null;
-            zuuluu = option != zuuluu;
-            if(!zuuluu) { _fun00002_ip = 322; continue _fun00001 }
+            var3 = var5.interactionData;
+            var8 = null;
+            var3 = var8 != var3;
+            if(!var3) { _fun0001_ip = 322; continue _fun0001 }
  313:
-            golfie = tangon.applicationId;
-            zuuluu = option != golfie;
+            var7 = var4.applicationId;
+            var3 = var8 != var7;
  322:
-            if(!zuuluu) { _fun00002_ip = 358; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 358; continue _fun0001 }
  325:
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 1;
-            michal = golfie[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.retryCommandMessage;
-            michal = michal.bind(zuuluu)(report, oscard, tangon);
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 1;
+            var2 = var7[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.retryCommandMessage;
+            var2 = var2.bind(var3)(var5, var6, var4);
  358:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,129 +1,129 @@
 // app/modules/threads/useGetThreadDraftSettings.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/threads/useGetThreadDraftSettings.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useGetThreadDraftSettings
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/threads/useGetThreadDraftSettings.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useGetThreadDraftSettings(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                tangon = null;
-                michal = tangon == entity;
-                entity = null;
-                if(michal) { _fun00002_ip = 99; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var4 = null;
+                var2 = var4 == var1;
+                var1 = null;
+                if(var2) { _fun0001_ip = 99; continue _fun0001 }
  18:
-                golfie = _closure1_slot3;
-                report = golfie.getThreadSettings;
-                michal = _closure2_slot0;
-                michal = report.bind(golfie)(michal);
-                if(!(tangon == michal)) { _fun00002_ip = 96; continue _fun00001 }
+                var7 = _closure1_slot3;
+                var5 = var7.getThreadSettings;
+                var2 = _closure2_slot0;
+                var2 = var5.bind(var7)(var2);
+                if(!(var4 == var2)) { _fun0001_ip = 96; continue _fun0001 }
  44:
-                report = _closure1_slot3;
-                tangon = report.getThreadDraftWithParentMessageId;
-                option = _closure1_slot1;
-                golfie = _closure1_slot2;
-                oscard = 2;
-                golfie = golfie[oscard];
-                oscard = undefined;
-                golfie = option.bind(oscard)(golfie);
-                oscard = golfie.castChannelIdAsMessageId;
-                zuuluu = _closure2_slot0;
-                zuuluu = oscard.bind(golfie)(zuuluu);
-                michal = tangon.bind(report)(zuuluu);
+                var5 = _closure1_slot3;
+                var4 = var5.getThreadDraftWithParentMessageId;
+                var8 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var6 = 2;
+                var7 = var7[var6];
+                var6 = undefined;
+                var7 = var8.bind(var6)(var7);
+                var6 = var7.castChannelIdAsMessageId;
+                var3 = _closure2_slot0;
+                var3 = var6.bind(var7)(var3);
+                var2 = var4.bind(var5)(var3);
  96:
-                entity = michal;
+                var1 = var2;
  99:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: useHasThreadDraft
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function useHasThreadDraft(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = _closure2_slot0;
-                zuuluu = null;
-                entity = zuuluu != entity;
-                if(!entity) { _fun00004_ip = 98; continue _fun00003 }
+                var1 = _closure2_slot0;
+                var3 = null;
+                var1 = var3 != var1;
+                if(!var1) { _fun0002_ip = 98; continue _fun0002 }
  16:
-                oscard = _closure1_slot3;
-                report = oscard.getThreadSettings;
-                michal = _closure2_slot0;
-                michal = report.bind(oscard)(michal);
-                if(!(zuuluu == michal)) { _fun00004_ip = 94; continue _fun00003 }
+                var6 = _closure1_slot3;
+                var5 = var6.getThreadSettings;
+                var2 = _closure2_slot0;
+                var2 = var5.bind(var6)(var2);
+                if(!(var3 == var2)) { _fun0002_ip = 94; continue _fun0002 }
  42:
-                oscard = _closure1_slot3;
-                report = oscard.getThreadDraftWithParentMessageId;
-                verify = _closure1_slot1;
-                option = _closure1_slot2;
-                golfie = 2;
-                option = option[golfie];
-                golfie = undefined;
-                option = verify.bind(golfie)(option);
-                golfie = option.castChannelIdAsMessageId;
-                tangon = _closure2_slot0;
-                tangon = golfie.bind(option)(tangon);
-                michal = report.bind(oscard)(tangon);
+                var6 = _closure1_slot3;
+                var5 = var6.getThreadDraftWithParentMessageId;
+                var9 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var7 = 2;
+                var8 = var8[var7];
+                var7 = undefined;
+                var8 = var9.bind(var7)(var8);
+                var7 = var8.castChannelIdAsMessageId;
+                var4 = _closure2_slot0;
+                var4 = var7.bind(var8)(var4);
+                var2 = var5.bind(var6)(var4);
  94:
-                entity = zuuluu != michal;
+                var1 = var3 != var2;
  98:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useHasThreadDraft'] = michal;
-    return entity;
+    var3['useHasThreadDraft'] = var2;
+    return var1;
 })();

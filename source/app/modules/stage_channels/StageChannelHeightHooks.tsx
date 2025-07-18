@@ -1,80 +1,80 @@
 // app/modules/stage_channels/StageChannelHeightHooks.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/stage_channels/StageChannelHeightHooks.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useGetStageRTCPanelHeight
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/stage_channels/StageChannelHeightHooks.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useGetStageRTCPanelHeight(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            oscard = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = 0;
-            zuuluu = entity[michal];
-            tangon = undefined;
-            golfie = oscard.bind(tangon)(zuuluu);
-            zuuluu = golfie.useStageBlockedUsersCount;
-            zuuluu = zuuluu.bind(golfie)(report);
-            entity = entity[michal];
-            tangon = oscard.bind(tangon)(entity);
-            entity = tangon.useStageIgnoredUsersCount;
-            entity = entity.bind(tangon)(report);
-            if(!(!(zuuluu > michal))) { _fun00002_ip = 72; continue _fun00001 }
+            var5 = arg1;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = 0;
+            var3 = var1[var2];
+            var4 = undefined;
+            var7 = var6.bind(var4)(var3);
+            var3 = var7.useStageBlockedUsersCount;
+            var3 = var3.bind(var7)(var5);
+            var1 = var1[var2];
+            var4 = var6.bind(var4)(var1);
+            var1 = var4.useStageIgnoredUsersCount;
+            var1 = var1.bind(var4)(var5);
+            if(!(!(var3 > var2))) { _fun0001_ip = 72; continue _fun0001 }
  62:
-            michal = entity > michal;
-            entity = 68;
-            if(!michal) { _fun00002_ip = 75; continue _fun00001 }
+            var2 = var1 > var2;
+            var1 = 68;
+            if(!var2) { _fun0001_ip = 75; continue _fun0001 }
  72:
-            entity = 88;
+            var1 = 88;
  75:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGetStageRTCPanelHeight'] = tangon;
-    michal = function(argFoo) { // Original name: useGetActionBarHeight
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useGetStageRTCPanelHeight'] = var4;
+    var2 = function useGetActionBarHeight(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            oscard = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = 0;
-            zuuluu = entity[michal];
-            tangon = undefined;
-            golfie = oscard.bind(tangon)(zuuluu);
-            zuuluu = golfie.useStageBlockedUsersCount;
-            zuuluu = zuuluu.bind(golfie)(report);
-            entity = entity[michal];
-            tangon = oscard.bind(tangon)(entity);
-            entity = tangon.useStageIgnoredUsersCount;
-            entity = entity.bind(tangon)(report);
-            if(!(!(zuuluu > michal))) { _fun00004_ip = 72; continue _fun00003 }
+            var5 = arg1;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = 0;
+            var3 = var1[var2];
+            var4 = undefined;
+            var7 = var6.bind(var4)(var3);
+            var3 = var7.useStageBlockedUsersCount;
+            var3 = var3.bind(var7)(var5);
+            var1 = var1[var2];
+            var4 = var6.bind(var4)(var1);
+            var1 = var4.useStageIgnoredUsersCount;
+            var1 = var1.bind(var4)(var5);
+            if(!(!(var3 > var2))) { _fun0002_ip = 72; continue _fun0002 }
  62:
-            michal = entity > michal;
-            entity = 112;
-            if(!michal) { _fun00004_ip = 75; continue _fun00003 }
+            var2 = var1 > var2;
+            var1 = 112;
+            if(!var2) { _fun0002_ip = 75; continue _fun0002 }
  72:
-            entity = 132;
+            var1 = 132;
  75:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGetActionBarHeight'] = michal;
-    return entity;
+    var3['useGetActionBarHeight'] = var2;
+    return var1;
 })();

@@ -1,350 +1,350 @@
 // app/lib/VoiceStateAnalytics.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SpeakingFlags;
-    var _closure1_slot4 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo, argBar) { // Original name: VoiceStateAnalytics
-            tangon = this;
-            report = _closure1_slot0;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            zuuluu = report.bind(entity)(tangon, zuuluu);
-            zuuluu = 1;
-            tangon['maxVoiceStateCount'] = zuuluu;
-            michal = _closure1_slot4;
-            michal = michal.NONE;
-            tangon['speaking'] = michal;
-            michal = 0;
-            tangon['maxListenerCount'] = michal;
-            tangon['maxSpeakerCount'] = michal;
-            michal = argFoo;
-            tangon['userId'] = michal;
-            zuuluu = tangon.setChannelId;
-            michal = argBar;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SpeakingFlags;
+    var _closure1_slot4 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function VoiceStateAnalytics(arg1, arg2) {
+            var4 = this;
+            var5 = _closure1_slot0;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var3 = var5.bind(var1)(var4, var3);
+            var3 = 1;
+            var4['maxVoiceStateCount'] = var3;
+            var2 = _closure1_slot4;
+            var2 = var2.NONE;
+            var4['speaking'] = var2;
+            var2 = 0;
+            var4['maxListenerCount'] = var2;
+            var4['maxSpeakerCount'] = var2;
+            var2 = arg1;
+            var4['userId'] = var2;
+            var3 = var4.setChannelId;
+            var2 = arg2;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'updateVoiceStates';
-        entity['key'] = michal;
-        michal = function(argFoo, argBar) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'updateVoiceStates';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = argFoo;
-                oscard = argBar;
-                michal = this;
-                entity = michal.channelId;
-                if(!(oscard !== entity)) { _fun00002_ip = 95; continue _fun00001 }
+                var4 = arg1;
+                var6 = arg2;
+                var2 = this;
+                var1 = var2.channelId;
+                if(!(var6 !== var1)) { _fun0001_ip = 95; continue _fun0001 }
  18:
-                zuuluu = null;
-                entity = zuuluu == oscard;
-                if(!entity) { _fun00002_ip = 37; continue _fun00001 }
+                var3 = null;
+                var1 = var3 == var6;
+                if(!var1) { _fun0001_ip = 37; continue _fun0001 }
  27:
-                report = michal.totalSpeakers;
-                entity = tangon in report;
+                var5 = var2.totalSpeakers;
+                var1 = var4 in var5;
  37:
-                if(!entity) { _fun00002_ip = 63; continue _fun00001 }
+                if(!var1) { _fun0001_ip = 63; continue _fun0001 }
  40:
-                report = michal.totalSpeakers;
-                entity = _closure1_slot4;
-                entity = entity.NONE;
-                report[tangon] = entity;
+                var5 = var2.totalSpeakers;
+                var1 = _closure1_slot4;
+                var1 = var1.NONE;
+                var5[var4] = var1;
  63:
-                entity = michal.userId;
-                entity = tangon === entity;
-                if(!entity) { _fun00002_ip = 79; continue _fun00001 }
+                var1 = var2.userId;
+                var1 = var4 === var1;
+                if(!var1) { _fun0001_ip = 79; continue _fun0001 }
  75:
-                entity = zuuluu != oscard;
+                var1 = var3 != var6;
  79:
-                if(!entity) { _fun00002_ip = 160; continue _fun00001 }
+                if(!var1) { _fun0001_ip = 160; continue _fun0001 }
  82:
-                entity = michal.setChannelId;
-                entity = entity.bind(michal)(oscard);
-                _fun00002_ip = 160; continue _fun00001;
+                var1 = var2.setChannelId;
+                var1 = var1.bind(var2)(var6);
+                _fun0001_ip = 160; continue _fun0001;
  95:
-                zuuluu = michal.totalParticipants;
-                entity = zuuluu.add;
-                entity = entity.bind(zuuluu)(tangon);
-                entity = global;
-                report = entity.Math;
-                tangon = report.max;
-                zuuluu = _closure1_slot3;
-                entity = zuuluu.countVoiceStatesForChannel;
-                zuuluu = entity.bind(zuuluu)(oscard);
-                entity = michal.maxVoiceStateCount;
-                entity = tangon.bind(report)(zuuluu, entity);
-                michal['maxVoiceStateCount'] = entity;
+                var3 = var2.totalParticipants;
+                var1 = var3.add;
+                var1 = var1.bind(var3)(var4);
+                var1 = global;
+                var5 = var1.Math;
+                var4 = var5.max;
+                var3 = _closure1_slot3;
+                var1 = var3.countVoiceStatesForChannel;
+                var3 = var1.bind(var3)(var6);
+                var1 = var2.maxVoiceStateCount;
+                var1 = var4.bind(var5)(var3, var1);
+                var2['maxVoiceStateCount'] = var1;
  160:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(4);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'getStats';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            michal = this;
-            entity = {};
-            zuuluu = michal.maxVoiceStateCount;
-            entity['max_voice_state_count'] = zuuluu;
-            zuuluu = michal.totalParticipants;
-            zuuluu = zuuluu.size;
-            entity['total_voice_state_count'] = zuuluu;
-            zuuluu = michal.maxListenerCount;
-            entity['max_listener_count'] = zuuluu;
-            zuuluu = michal.totalListeners;
-            zuuluu = zuuluu.size;
-            entity['total_listener_count'] = zuuluu;
-            zuuluu = michal.maxSpeakerCount;
-            entity['max_speaker_count'] = zuuluu;
-            zuuluu = global;
-            tangon = zuuluu.Object;
-            zuuluu = tangon.keys;
-            michal = michal.totalSpeakers;
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.length;
-            entity['total_speaker_count'] = michal;
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(4);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getStats';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var1 = {};
+            var3 = var2.maxVoiceStateCount;
+            var1['max_voice_state_count'] = var3;
+            var3 = var2.totalParticipants;
+            var3 = var3.size;
+            var1['total_voice_state_count'] = var3;
+            var3 = var2.maxListenerCount;
+            var1['max_listener_count'] = var3;
+            var3 = var2.totalListeners;
+            var3 = var3.size;
+            var1['total_listener_count'] = var3;
+            var3 = var2.maxSpeakerCount;
+            var1['max_speaker_count'] = var3;
+            var3 = global;
+            var4 = var3.Object;
+            var3 = var4.keys;
+            var2 = var2.totalSpeakers;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.length;
+            var1['total_speaker_count'] = var2;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'setSpeaking';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'setSpeaking';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                oscard = argFoo;
-                michal = argBar;
-                entity = this;
-                var _closure3_slot0 = entity;
-                tangon = _closure1_slot4;
-                tangon = tangon.NONE;
-                if(!(michal === tangon)) { _fun00004_ip = 73; continue _fun00003 }
+                var6 = arg1;
+                var2 = arg2;
+                var1 = this;
+                var _closure3_slot0 = var1;
+                var4 = _closure1_slot4;
+                var4 = var4.NONE;
+                if(!(var2 === var4)) { _fun0002_ip = 73; continue _fun0002 }
  32:
-                tangon = entity.totalSpeakers;
-                tangon = oscard in tangon;
-                if(!tangon) { _fun00004_ip = 203; continue _fun00003 }
+                var4 = var1.totalSpeakers;
+                var4 = var6 in var4;
+                if(!var4) { _fun0002_ip = 203; continue _fun0002 }
  48:
-                golfie = entity.totalSpeakers;
-                tangon = _closure1_slot4;
-                tangon = tangon.NONE;
-                golfie[oscard] = tangon;
-                _fun00004_ip = 203; continue _fun00003;
+                var7 = var1.totalSpeakers;
+                var4 = _closure1_slot4;
+                var4 = var4.NONE;
+                var7[var6] = var4;
+                _fun0002_ip = 203; continue _fun0002;
  73:
-                option = _closure1_slot2;
-                golfie = option.getVoiceStateForChannel;
-                tangon = entity.channelId;
-                tangon = golfie.bind(option)(tangon, oscard);
-                golfie = null;
-                if(!(golfie != tangon)) { _fun00004_ip = 203; continue _fun00003 }
+                var8 = _closure1_slot2;
+                var7 = var8.getVoiceStateForChannel;
+                var4 = var1.channelId;
+                var4 = var7.bind(var8)(var4, var6);
+                var7 = null;
+                if(!(var7 != var4)) { _fun0002_ip = 203; continue _fun0002 }
  100:
-                golfie = tangon.selfMute;
-                if(golfie) { _fun00004_ip = 203; continue _fun00003 }
+                var7 = var4.selfMute;
+                if(var7) { _fun0002_ip = 203; continue _fun0002 }
  109:
-                tangon = tangon.mute;
-                if(tangon) { _fun00004_ip = 203; continue _fun00003 }
+                var4 = var4.mute;
+                if(var4) { _fun0002_ip = 203; continue _fun0002 }
  118:
-                tangon = entity.totalSpeakers;
-                tangon[oscard] = michal;
-                tangon = global;
-                verify = tangon.Object;
-                option = verify.values;
-                golfie = entity.totalSpeakers;
-                verify = option.bind(verify)(golfie);
-                option = verify.filter;
-                golfie = function(argFoo) {
-                    entity = _closure1_slot4;
-                    michal = entity.NONE;
-                    entity = argFoo;
-                    entity = entity !== michal;
-                    return entity;
+                var4 = var1.totalSpeakers;
+                var4[var6] = var2;
+                var4 = global;
+                var9 = var4.Object;
+                var8 = var9.values;
+                var7 = var1.totalSpeakers;
+                var9 = var8.bind(var9)(var7);
+                var8 = var9.filter;
+                var7 = function(arg1) {
+                    var1 = _closure1_slot4;
+                    var2 = var1.NONE;
+                    var1 = arg1;
+                    var1 = var1 !== var2;
+                    return var1;
                 };
-                golfie = option.bind(verify)(golfie);
-                verify = golfie.length;
-                option = tangon.Math;
-                golfie = option.max;
-                tangon = entity.maxSpeakerCount;
-                tangon = golfie.bind(option)(tangon, verify);
-                entity['maxSpeakerCount'] = tangon;
+                var7 = var8.bind(var9)(var7);
+                var9 = var7.length;
+                var8 = var4.Math;
+                var7 = var8.max;
+                var4 = var1.maxSpeakerCount;
+                var4 = var7.bind(var8)(var4, var9);
+                var1['maxSpeakerCount'] = var4;
  203:
-                tangon = entity.userId;
-                if(!(tangon === oscard)) { _fun00004_ip = 354; continue _fun00003 }
+                var4 = var1.userId;
+                if(!(var4 === var6)) { _fun0002_ip = 354; continue _fun0002 }
  215:
-                tangon = entity.speaking;
-                if(!(michal !== tangon)) { _fun00004_ip = 358; continue _fun00003 }
+                var4 = var1.speaking;
+                if(!(var2 !== var4)) { _fun0002_ip = 358; continue _fun0002 }
  228:
-                tangon = _closure1_slot4;
-                tangon = tangon.NONE;
-                if(!(michal !== tangon)) { _fun00004_ip = 348; continue _fun00003 }
+                var4 = _closure1_slot4;
+                var4 = var4.NONE;
+                if(!(var2 !== var4)) { _fun0002_ip = 348; continue _fun0002 }
  242:
-                tangon = global;
-                golfie = tangon.Object;
-                oscard = golfie.values;
-                verify = _closure1_slot2;
-                option = verify.getVoiceStatesForChannel;
-                zuuluu = entity.channelId;
-                zuuluu = option.bind(verify)(zuuluu);
-                golfie = oscard.bind(golfie)(zuuluu);
-                oscard = golfie.filter;
-                zuuluu = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var4 = global;
+                var7 = var4.Object;
+                var6 = var7.values;
+                var9 = _closure1_slot2;
+                var8 = var9.getVoiceStatesForChannel;
+                var3 = var1.channelId;
+                var3 = var8.bind(var9)(var3);
+                var7 = var6.bind(var7)(var3);
+                var6 = var7.filter;
+                var3 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = argFoo;
-                        entity = michal.selfDeaf;
-                        entity = !entity;
-                        if(!entity) { _fun00006_ip = 24; continue _fun00005 }
+                        var2 = arg1;
+                        var1 = var2.selfDeaf;
+                        var1 = !var1;
+                        if(!var1) { _fun0003_ip = 24; continue _fun0003 }
  15:
-                        michal = michal.deaf;
-                        entity = !michal;
+                        var2 = var2.deaf;
+                        var1 = !var2;
  24:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = oscard.bind(golfie)(zuuluu);
-                oscard = zuuluu.forEach;
-                report = function(argFoo) {
-                    entity = _closure3_slot0;
-                    zuuluu = entity.totalListeners;
-                    michal = zuuluu.add;
-                    entity = argFoo;
-                    entity = entity.userId;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var3 = var6.bind(var7)(var3);
+                var6 = var3.forEach;
+                var5 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var3 = var1.totalListeners;
+                    var2 = var3.add;
+                    var1 = arg1;
+                    var1 = var1.userId;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                report = oscard.bind(zuuluu)(report);
-                oscard = tangon.Math;
-                report = oscard.max;
-                tangon = zuuluu.length;
-                zuuluu = entity.maxListenerCount;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
-                entity['maxListenerCount'] = zuuluu;
+                var5 = var6.bind(var3)(var5);
+                var6 = var4.Math;
+                var5 = var6.max;
+                var4 = var3.length;
+                var3 = var1.maxListenerCount;
+                var3 = var5.bind(var6)(var4, var3);
+                var1['maxListenerCount'] = var3;
  348:
-                entity['speaking'] = michal;
+                var1['speaking'] = var2;
  354:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
  358:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'setChannelId';
-        entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'setChannelId';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                michal = this;
-                var _closure3_slot0 = michal;
-                zuuluu = michal.channelId;
-                if(!(entity !== zuuluu)) { _fun00008_ip = 217; continue _fun00007 }
+                var1 = arg1;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = var2.channelId;
+                if(!(var1 !== var3)) { _fun0004_ip = 217; continue _fun0004 }
  24:
-                michal['channelId'] = entity;
-                zuuluu = global;
-                oscard = zuuluu.Set;
-                tangon = michal.userId;
-                entity = new Array(1);
-                entity[0] = tangon;
-                tangon = oscard.prototype;
-                tangon = Object.create(tangon, {constructor: {value: oscard}});
-                yankee = tangon;
-                offset = entity;
-                entity = new yankee[oscard](offset, verify);
-                entity = entity instanceof Object ? entity : tangon;
-                michal['totalParticipants'] = entity;
-                golfie = zuuluu.Object;
-                oscard = golfie.keys;
-                verify = _closure1_slot2;
-                option = verify.getVoiceStatesForChannel;
-                tangon = michal.channelId;
-                tangon = option.bind(verify)(tangon);
-                tangon = oscard.bind(golfie)(tangon);
-                oscard = tangon.forEach;
-                report = function(argFoo) {
-                    entity = _closure3_slot0;
-                    zuuluu = entity.totalParticipants;
-                    michal = zuuluu.add;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var2['channelId'] = var1;
+                var3 = global;
+                var6 = var3.Set;
+                var4 = var2.userId;
+                var1 = new Array(1);
+                var1[0] = var4;
+                var4 = var6.prototype;
+                var4 = Object.create(var4, {constructor: {value: var6}});
+                var11 = var4;
+                var10 = var1;
+                var1 = new var11[var6](var10, var9);
+                var1 = var1 instanceof Object ? var1 : var4;
+                var2['totalParticipants'] = var1;
+                var7 = var3.Object;
+                var6 = var7.keys;
+                var9 = _closure1_slot2;
+                var8 = var9.getVoiceStatesForChannel;
+                var4 = var2.channelId;
+                var4 = var8.bind(var9)(var4);
+                var4 = var6.bind(var7)(var4);
+                var6 = var4.forEach;
+                var5 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var3 = var1.totalParticipants;
+                    var2 = var3.add;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                report = oscard.bind(tangon)(report);
-                tangon = tangon.length;
-                michal['maxVoiceStateCount'] = tangon;
-                entity = _closure1_slot4;
-                entity = entity.NONE;
-                michal['speaking'] = entity;
-                entity = 0;
-                michal['maxListenerCount'] = entity;
-                zuuluu = zuuluu.Set;
-                tangon = zuuluu.prototype;
-                tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-                yankee = tangon;
-                zuuluu = new yankee[zuuluu](offset);
-                zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-                michal['totalListeners'] = zuuluu;
-                michal['maxSpeakerCount'] = entity;
-                entity = {};
-                michal['totalSpeakers'] = entity;
+                var5 = var6.bind(var4)(var5);
+                var4 = var4.length;
+                var2['maxVoiceStateCount'] = var4;
+                var1 = _closure1_slot4;
+                var1 = var1.NONE;
+                var2['speaking'] = var1;
+                var1 = 0;
+                var2['maxListenerCount'] = var1;
+                var3 = var3.Set;
+                var4 = var3.prototype;
+                var4 = Object.create(var4, {constructor: {value: var3}});
+                var11 = var4;
+                var3 = new var11[var3](var10);
+                var3 = var3 instanceof Object ? var3 : var4;
+                var2['totalListeners'] = var3;
+                var2['maxSpeakerCount'] = var1;
+                var1 = {};
+                var2['totalSpeakers'] = var1;
  217:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[3] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[3] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/VoiceStateAnalytics.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/VoiceStateAnalytics.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

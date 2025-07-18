@@ -1,157 +1,157 @@
 // app/uikit-native/GuildBadgeV2.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    offset = {};
-    tangon = 8;
-    offset['marginRight'] = tangon;
-    golfie['icon'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot4 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/GuildBadgeV2.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: GuildBadgeV2
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
+    var10 = {};
+    var4 = 8;
+    var10['marginRight'] = var4;
+    var7['icon'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot4 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/GuildBadgeV2.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function GuildBadgeV2(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            verify = tangon.guild;
-            offset = tangon.size;
-            oscard = undefined;
-            if(!(offset === oscard)) { _fun00002_ip = 54; continue _fun00001 }
+            var4 = arg1;
+            var9 = var4.guild;
+            var10 = var4.size;
+            var6 = undefined;
+            if(!(var10 === var6)) { _fun0001_ip = 54; continue _fun0001 }
  19:
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            entity = zuuluu[entity];
-            entity = michal.bind(oscard)(entity);
-            entity = entity.Sizes;
-            offset = entity.MEDIUM;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var1 = var3[var1];
+            var1 = var2.bind(var6)(var1);
+            var1 = var1.Sizes;
+            var10 = var1.MEDIUM;
  54:
-            entity = null;
-            zuuluu = Object.create(entity);
-            michal = 0;
-            zuuluu['guild'] = michal;
-            zuuluu['size'] = michal;
-            backup = {};
-            foxtra = tangon;
-            romeon = zuuluu;
-            golfie = copyDataProperties(backup, foxtra, romeon);
-            michal = _closure1_slot4;
-            option = michal.bind(oscard)();
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 4;
-            michal = report[michal];
-            tangon = tangon.bind(oscard)(michal);
-            michal = tangon.useThemeContext;
-            michal = michal.bind(tangon)();
-            report = michal.theme;
-            if(!(entity != verify)) { _fun00002_ip = 240; continue _fun00001 }
+            var1 = null;
+            var3 = Object.create(var1);
+            var2 = 0;
+            var3['guild'] = var2;
+            var3['size'] = var2;
+            var14 = {};
+            var13 = var4;
+            var12 = var3;
+            var7 = copyDataProperties(var14, var13, var12);
+            var2 = _closure1_slot4;
+            var8 = var2.bind(var6)();
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.useThemeContext;
+            var2 = var2.bind(var4)();
+            var5 = var2.theme;
+            if(!(var1 != var9)) { _fun0001_ip = 240; continue _fun0001 }
  131:
-            tangon = _closure1_slot0;
-            yankee = _closure1_slot2;
-            michal = 5;
-            michal = yankee[michal];
-            tangon = tangon.bind(oscard)(michal);
-            michal = tangon.getGuildBadgeImageSource;
-            verify = michal.bind(tangon)(verify, report);
-            tangon = entity == verify;
-            michal = null;
-            if(tangon) { _fun00002_ip = 238; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 5;
+            var2 = var11[var2];
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.getGuildBadgeImageSource;
+            var9 = var2.bind(var4)(var9, var5);
+            var4 = var1 == var9;
+            var2 = null;
+            if(var4) { _fun0001_ip = 238; continue _fun0001 }
  172:
-            report = _closure1_slot3;
-            tangon = _closure1_slot1;
-            yankee = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = yankee[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = {};
-            zuuluu['size'] = offset;
-            zuuluu['source'] = verify;
-            option = option.icon;
-            zuuluu['style'] = option;
-            option = true;
-            zuuluu['disableColor'] = option;
-            backup = zuuluu;
-            foxtra = golfie;
-            golfie = copyDataProperties(backup, foxtra);
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var5 = _closure1_slot3;
+            var4 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var3 = 3;
+            var3 = var11[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = {};
+            var3['size'] = var10;
+            var3['source'] = var9;
+            var8 = var8.icon;
+            var3['style'] = var8;
+            var8 = true;
+            var3['disableColor'] = var8;
+            var14 = var3;
+            var13 = var7;
+            var7 = copyDataProperties(var14, var13);
+            var2 = var5.bind(var6)(var4, var3);
  238:
-            return michal;
+            return var2;
  240:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: hasGuildBadge
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function hasGuildBadge(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = entity[zuuluu];
-            report = undefined;
-            golfie = tangon.bind(report)(zuuluu);
-            oscard = golfie.getGuildTraits;
-            zuuluu = argFoo;
-            golfie = oscard.bind(golfie)(zuuluu);
-            zuuluu = 7;
-            zuuluu = entity[zuuluu];
-            oscard = tangon.bind(report)(zuuluu);
-            zuuluu = oscard.getBadgeCategory;
-            zuuluu = zuuluu.bind(oscard)(golfie);
-            option = 5;
-            entity = entity[option];
-            entity = tangon.bind(report)(entity);
-            entity = entity.badgeVariants;
-            oscard = entity[zuuluu];
-            zuuluu = null;
-            entity = zuuluu != oscard;
-            if(!entity) { _fun00004_ip = 130; continue _fun00003 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var3 = 6;
+            var3 = var1[var3];
+            var5 = undefined;
+            var7 = var4.bind(var5)(var3);
+            var6 = var7.getGuildTraits;
+            var3 = arg1;
+            var7 = var6.bind(var7)(var3);
+            var3 = 7;
+            var3 = var1[var3];
+            var6 = var4.bind(var5)(var3);
+            var3 = var6.getBadgeCategory;
+            var3 = var3.bind(var6)(var7);
+            var8 = 5;
+            var1 = var1[var8];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.badgeVariants;
+            var6 = var1[var3];
+            var3 = null;
+            var1 = var3 != var6;
+            if(!var1) { _fun0002_ip = 130; continue _fun0002 }
  93:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            report = tangon.bind(report)(michal);
-            tangon = report.resolveImageSource;
-            michal = argBar;
-            michal = tangon.bind(report)(oscard, golfie, michal);
-            entity = zuuluu != michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.resolveImageSource;
+            var2 = arg2;
+            var2 = var4.bind(var5)(var6, var7, var2);
+            var1 = var3 != var2;
  130:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['hasGuildBadge'] = michal;
-    return entity;
+    var3['hasGuildBadge'] = var2;
+    return var1;
 })();

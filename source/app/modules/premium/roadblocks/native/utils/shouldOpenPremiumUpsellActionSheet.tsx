@@ -1,189 +1,189 @@
 // app/modules/premium/roadblocks/native/utils/shouldOpenPremiumUpsellActionSheet.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar) { // Original name: _maybeOpenPremiumUpsellActionSheet
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _maybeOpenPremiumUpsellActionSheet(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argBar;
-            michal = null;
-            entity = michal == oscard;
-            if(entity) { _fun00002_ip = 60; continue _fun00001 }
+            var6 = arg2;
+            var2 = null;
+            var1 = var2 == var6;
+            if(var1) { _fun0001_ip = 60; continue _fun0001 }
  12:
-            michal = michal != oscard;
-            if(!michal) { _fun00002_ip = 57; continue _fun00001 }
+            var2 = var2 != var6;
+            if(!var2) { _fun0001_ip = 57; continue _fun0001 }
  19:
-            report = oscard.getCurrentConfig;
-            tangon = {};
-            zuuluu = 'isUpsellEnabled';
-            tangon['location'] = zuuluu;
-            zuuluu = {};
-            golfie = true;
-            zuuluu['autoTrackExposure'] = golfie;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            michal = zuuluu.enabled;
+            var5 = var6.getCurrentConfig;
+            var4 = {};
+            var3 = 'isUpsellEnabled';
+            var4['location'] = var3;
+            var3 = {};
+            var7 = true;
+            var3['autoTrackExposure'] = var7;
+            var3 = var5.bind(var6)(var4, var3);
+            var2 = var3.enabled;
  57:
-            entity = michal;
+            var1 = var2;
  60:
-            if(entity) { _fun00002_ip = 86; continue _fun00001 }
+            if(var1) { _fun0001_ip = 86; continue _fun0001 }
  63:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.get;
-            michal = 'premium_roadblocks';
-            entity = zuuluu.bind(tangon)(michal);
+            var4 = _closure1_slot3;
+            var3 = var4.get;
+            var2 = 'premium_roadblocks';
+            var1 = var3.bind(var4)(var2);
  86:
-            michal = !entity;
-            entity = !michal;
-            if(michal) { _fun00002_ip = 130; continue _fun00001 }
+            var2 = !var1;
+            var1 = !var2;
+            if(var2) { _fun0001_ip = 130; continue _fun0001 }
  95:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 1;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = argFoo;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = true;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 1;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = arg1;
+            var2 = var3.bind(var4)(var2);
+            var1 = true;
  130:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/roadblocks/native/utils/shouldOpenPremiumUpsellActionSheet.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: maybeOpenPremiumUpsellActionSheet
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/roadblocks/native/utils/shouldOpenPremiumUpsellActionSheet.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function maybeOpenPremiumUpsellActionSheet(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.initialUpsellKey;
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 2;
-            michal = michal[oscard];
-            zuuluu = undefined;
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.UpsellTypes;
-            michal = michal.UPLOAD;
-            if(!(michal !== tangon)) { _fun00004_ip = 386; continue _fun00003 }
+            var1 = arg1;
+            var4 = var1.initialUpsellKey;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 2;
+            var2 = var2[var6];
+            var3 = undefined;
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.UPLOAD;
+            if(!(var2 !== var4)) { _fun0002_ip = 386; continue _fun0002 }
  53:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.UpsellTypes;
-            michal = michal.GLOBAL_EMOJI;
-            if(!(michal !== tangon)) { _fun00004_ip = 343; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.GLOBAL_EMOJI;
+            if(!(var2 !== var4)) { _fun0002_ip = 343; continue _fun0002 }
  89:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.UpsellTypes;
-            michal = michal.ANIMATED_EMOJI;
-            if(!(michal !== tangon)) { _fun00004_ip = 300; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.ANIMATED_EMOJI;
+            if(!(var2 !== var4)) { _fun0002_ip = 300; continue _fun0002 }
  125:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.UpsellTypes;
-            michal = michal.SOUNDBOARD;
-            if(!(michal !== tangon)) { _fun00004_ip = 257; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.SOUNDBOARD;
+            if(!(var2 !== var4)) { _fun0002_ip = 257; continue _fun0002 }
  158:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.UpsellTypes;
-            michal = michal.APP_ICONS;
-            if(!(michal !== tangon)) { _fun00004_ip = 195; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.UpsellTypes;
+            var2 = var2.APP_ICONS;
+            if(!(var2 !== var4)) { _fun0002_ip = 195; continue _fun0002 }
  191:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  195:
-            report = _closure1_slot4;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 3;
-            michal = golfie[michal];
-            michal = oscard.bind(zuuluu)(michal);
-            michal = michal.EntitlementFeatureNames;
-            tangon = michal.APP_ICONS;
-            michal = 4;
-            michal = golfie[michal];
-            michal = oscard.bind(zuuluu)(michal);
-            michal = michal.PremiumAppIconsUpsellExperiment;
-            michal = report.bind(zuuluu)(tangon, michal);
-            return michal;
+            var5 = _closure1_slot4;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var2 = var7[var2];
+            var2 = var6.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var4 = var2.APP_ICONS;
+            var2 = 4;
+            var2 = var7[var2];
+            var2 = var6.bind(var3)(var2);
+            var2 = var2.PremiumAppIconsUpsellExperiment;
+            var2 = var5.bind(var3)(var4, var2);
+            return var2;
  257:
-            tangon = _closure1_slot4;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.EntitlementFeatureNames;
-            michal = michal.SOUNDBOARD_EVERYWHERE;
-            michal = tangon.bind(zuuluu)(michal);
-            return michal;
+            var4 = _closure1_slot4;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var2 = var2.SOUNDBOARD_EVERYWHERE;
+            var2 = var4.bind(var3)(var2);
+            return var2;
  300:
-            tangon = _closure1_slot4;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.EntitlementFeatureNames;
-            michal = michal.ANIMATED_EMOJIS;
-            michal = tangon.bind(zuuluu)(michal);
-            return michal;
+            var4 = _closure1_slot4;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var2 = var2.ANIMATED_EMOJIS;
+            var2 = var4.bind(var3)(var2);
+            return var2;
  343:
-            tangon = _closure1_slot4;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            michal = report.bind(zuuluu)(michal);
-            michal = michal.EntitlementFeatureNames;
-            michal = michal.EMOJIS_EVERYWHERE;
-            michal = tangon.bind(zuuluu)(michal);
-            return michal;
+            var4 = _closure1_slot4;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            var2 = var2.EntitlementFeatureNames;
+            var2 = var2.EMOJIS_EVERYWHERE;
+            var2 = var4.bind(var3)(var2);
+            return var2;
  386:
-            michal = _closure1_slot4;
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 3;
-            entity = report[entity];
-            entity = tangon.bind(zuuluu)(entity);
-            entity = entity.EntitlementFeatureNames;
-            entity = entity.INCREASED_FILE_UPLOAD_SIZE;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot4;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 3;
+            var1 = var5[var1];
+            var1 = var4.bind(var3)(var1);
+            var1 = var1.EntitlementFeatureNames;
+            var1 = var1.INCREASED_FILE_UPLOAD_SIZE;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

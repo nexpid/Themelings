@@ -1,273 +1,273 @@
 // app/modules/app_launcher/hooks/useSortedSectionCommands.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    golfie = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.CommandListSortOrder;
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/hooks/useSortedSectionCommands.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useSortedSectionCommands
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var7 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.CommandListSortOrder;
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/hooks/useSortedSectionCommands.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useSortedSectionCommands(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.sectionId;
-            var _closure2_slot0 = verify;
-            entity = entity.commandsByActiveSection;
-            var _closure2_slot1 = entity;
-            yankee = _closure1_slot4;
-            zuuluu = yankee.useState;
-            golfie = _closure1_slot5;
-            michal = golfie.ALPHABETICAL;
-            tangon = zuuluu.bind(yankee)(michal);
-            zuuluu = _closure1_slot3;
-            offset = undefined;
-            michal = 2;
-            zuuluu = zuuluu.bind(offset)(tangon, michal);
-            michal = 0;
-            report = zuuluu[michal];
-            michal = 1;
-            tangon = zuuluu[michal];
-            var _closure2_slot2 = tangon;
-            zuuluu = yankee.useMemo;
-            michal = new Array(2);
-            michal[0] = entity;
-            michal[1] = verify;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1 = arg1;
+            var9 = var1.sectionId;
+            var _closure2_slot0 = var9;
+            var1 = var1.commandsByActiveSection;
+            var _closure2_slot1 = var1;
+            var11 = _closure1_slot4;
+            var3 = var11.useState;
+            var7 = _closure1_slot5;
+            var2 = var7.ALPHABETICAL;
+            var4 = var3.bind(var11)(var2);
+            var3 = _closure1_slot3;
+            var10 = undefined;
+            var2 = 2;
+            var3 = var3.bind(var10)(var4, var2);
+            var2 = 0;
+            var5 = var3[var2];
+            var2 = 1;
+            var4 = var3[var2];
+            var _closure2_slot2 = var4;
+            var3 = var11.useMemo;
+            var2 = new Array(2);
+            var2[0] = var1;
+            var2[1] = var9;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.find;
-                    entity = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.section;
-                        michal = entity.id;
-                        entity = _closure2_slot0;
-                        entity = michal === entity;
-                        return entity;
+                    var3 = _closure2_slot1;
+                    var2 = var3.find;
+                    var1 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.section;
+                        var2 = var1.id;
+                        var1 = _closure2_slot0;
+                        var1 = var2 === var1;
+                        return var1;
                     };
-                    zuuluu = michal.bind(zuuluu)(entity);
-                    michal = null;
-                    tangon = michal == zuuluu;
-                    entity = undefined;
-                    if(tangon) { _fun00004_ip = 42; continue _fun00003 }
+                    var3 = var2.bind(var3)(var1);
+                    var2 = null;
+                    var4 = var2 == var3;
+                    var1 = undefined;
+                    if(var4) { _fun0002_ip = 42; continue _fun0002 }
  37:
-                    entity = zuuluu.data;
+                    var1 = var3.data;
  42:
-                    if(!(michal == entity)) { _fun00004_ip = 50; continue _fun00003 }
+                    if(!(var2 == var1)) { _fun0002_ip = 50; continue _fun0002 }
  46:
-                    entity = new Array(0);
+                    var1 = new Array(0);
  50:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(yankee)(entity, michal);
-            zuuluu = {};
-            zuuluu['alphabeticalSortedCommands'] = entity;
-            michal = function(argFoo) { // Original name: usePopularSortedCommands
-                michal = argFoo;
-                report = michal.alphabeticalSortedCommands;
-                var _closure3_slot0 = report;
-                tangon = _closure1_slot4;
-                zuuluu = tangon.useMemo;
-                michal = new Array(1);
-                michal[0] = report;
-                entity = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = var3.bind(var11)(var1, var2);
+            var3 = {};
+            var3['alphabeticalSortedCommands'] = var1;
+            var2 = function usePopularSortedCommands(arg1) {
+                var2 = arg1;
+                var5 = var2.alphabeticalSortedCommands;
+                var _closure3_slot0 = var5;
+                var4 = _closure1_slot4;
+                var3 = var4.useMemo;
+                var2 = new Array(1);
+                var2[0] = var5;
+                var1 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = _closure3_slot0;
-                        zuuluu = entity.length;
-                        entity = 1;
-                        if(!(!(zuuluu <= entity))) { _fun00006_ip = 128; continue _fun00005 }
+                        var1 = _closure3_slot0;
+                        var3 = var1.length;
+                        var1 = 1;
+                        if(!(!(var3 <= var1))) { _fun0003_ip = 128; continue _fun0003 }
  21:
-                        entity = false;
-                        var _closure4_slot0 = entity;
-                        oscard = _closure3_slot0;
-                        report = oscard.map;
-                        zuuluu = function(argFoo, argBar) {
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                        var1 = false;
+                        var _closure4_slot0 = var1;
+                        var6 = _closure3_slot0;
+                        var5 = var6.map;
+                        var3 = function(arg1, arg2) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                michal = argFoo;
-                                entity = _closure4_slot0;
-                                if(entity) { _fun00008_ip = 25; continue _fun00007 }
+                                var2 = arg1;
+                                var1 = _closure4_slot0;
+                                if(var1) { _fun0004_ip = 25; continue _fun0004 }
  13:
-                                report = michal.global_popularity_rank;
-                                tangon = null;
-                                entity = tangon != report;
+                                var5 = var2.global_popularity_rank;
+                                var4 = null;
+                                var1 = var4 != var5;
  25:
-                                _closure4_slot0 = entity;
-                                entity = {};
-                                entity['command'] = michal;
-                                michal = argBar;
-                                entity['alphabeticalSortIndex'] = michal;
-                                return entity;
+                                _closure4_slot0 = var1;
+                                var1 = {};
+                                var1['command'] = var2;
+                                var2 = arg2;
+                                var1['alphabeticalSortIndex'] = var2;
+                                return var1;
                             }
                         };
-                        oscard = report.bind(oscard)(zuuluu);
-                        report = _closure4_slot0;
-                        zuuluu = {};
-                        if(report) { _fun00006_ip = 76; continue _fun00005 }
+                        var6 = var5.bind(var6)(var3);
+                        var5 = _closure4_slot0;
+                        var3 = {};
+                        if(var5) { _fun0003_ip = 76; continue _fun0003 }
  57:
-                        report = _closure3_slot0;
-                        zuuluu['popularSortedCommands'] = report;
-                        zuuluu['canSort'] = entity;
-                        entity = zuuluu;
-                        _fun00006_ip = 126; continue _fun00005;
+                        var5 = _closure3_slot0;
+                        var3['popularSortedCommands'] = var5;
+                        var3['canSort'] = var1;
+                        var1 = var3;
+                        _fun0003_ip = 126; continue _fun0003;
  76:
-                        golfie = oscard.sort;
-                        report = function(argFoo, argBar) {
-                            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                        var7 = var6.sort;
+                        var5 = function(arg1, arg2) {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                                tangon = argFoo;
-                                zuuluu = argBar;
-                                entity = tangon.command;
-                                michal = entity.global_popularity_rank;
-                                entity = zuuluu.command;
-                                entity = entity.global_popularity_rank;
-                                report = null;
-                                if(!(report != michal)) { _fun00010_ip = 40; continue _fun00009 }
+                                var4 = arg1;
+                                var3 = arg2;
+                                var1 = var4.command;
+                                var2 = var1.global_popularity_rank;
+                                var1 = var3.command;
+                                var1 = var1.global_popularity_rank;
+                                var5 = null;
+                                if(!(var5 != var2)) { _fun0005_ip = 40; continue _fun0005 }
  36:
-                                if(!(report == entity)) { _fun00010_ip = 61; continue _fun00009 }
+                                if(!(var5 == var1)) { _fun0005_ip = 61; continue _fun0005 }
  40:
-                                if(!(report == michal)) { _fun00010_ip = 53; continue _fun00009 }
+                                if(!(var5 == var2)) { _fun0005_ip = 53; continue _fun0005 }
  44:
-                                if(!(report != entity)) { _fun00010_ip = 65; continue _fun00009 }
+                                if(!(var5 != var1)) { _fun0005_ip = 65; continue _fun0005 }
  48:
-                                report = 1;
-                                return report;
+                                var5 = 1;
+                                return var5;
  53:
-                                report = -1;
-                                return report;
+                                var5 = -1;
+                                return var5;
  61:
-                                if(!(michal === entity)) { _fun00010_ip = 83; continue _fun00009 }
+                                if(!(var2 === var1)) { _fun0005_ip = 83; continue _fun0005 }
  65:
-                                tangon = tangon.alphabeticalSortIndex;
-                                zuuluu = zuuluu.alphabeticalSortIndex;
-                                zuuluu = tangon - zuuluu;
-                                return zuuluu;
+                                var4 = var4.alphabeticalSortIndex;
+                                var3 = var3.alphabeticalSortIndex;
+                                var3 = var4 - var3;
+                                return var3;
  83:
-                                entity = michal - entity;
-                                return entity;
+                                var1 = var2 - var1;
+                                return var1;
                             }
                         };
-                        report = golfie.bind(oscard)(report);
-                        report = oscard.map;
-                        tangon = function(argFoo) {
-                            entity = argFoo;
-                            entity = entity.command;
-                            return entity;
+                        var5 = var7.bind(var6)(var5);
+                        var5 = var6.map;
+                        var4 = function(arg1) {
+                            var1 = arg1;
+                            var1 = var1.command;
+                            return var1;
                         };
-                        tangon = report.bind(oscard)(tangon);
-                        zuuluu['popularSortedCommands'] = tangon;
-                        tangon = true;
-                        zuuluu['canSort'] = tangon;
-                        entity = zuuluu;
+                        var4 = var5.bind(var6)(var4);
+                        var3['popularSortedCommands'] = var4;
+                        var4 = true;
+                        var3['canSort'] = var4;
+                        var1 = var3;
  126:
-                        return entity;
+                        return var1;
  128:
-                        entity = {};
-                        michal = _closure3_slot0;
-                        entity['popularSortedCommands'] = michal;
-                        michal = false;
-                        entity['canSort'] = michal;
-                        return entity;
+                        var1 = {};
+                        var2 = _closure3_slot0;
+                        var1['popularSortedCommands'] = var2;
+                        var2 = false;
+                        var1['canSort'] = var2;
+                        return var1;
                     }
                 };
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            michal = michal.bind(offset)(zuuluu);
-            zuuluu = michal.popularSortedCommands;
-            michal = michal.canSort;
-            var _closure2_slot3 = michal;
-            romeon = yankee.useEffect;
-            offset = new Array(1);
-            offset[0] = verify;
-            verify = function() {
-                zuuluu = _closure1_slot1;
-                option = _closure1_slot2;
-                entity = 3;
-                michal = option[entity];
-                entity = undefined;
-                report = zuuluu.bind(entity)(michal);
-                tangon = report.getApplication;
-                zuuluu = _closure2_slot0;
-                michal = {};
-                golfie = _closure1_slot0;
-                oscard = 4;
-                oscard = option[oscard];
-                oscard = golfie.bind(entity)(oscard);
-                oscard = oscard.Millis;
-                oscard = oscard.DAY;
-                michal['dontRefetchMs'] = oscard;
-                michal = tangon.bind(report)(zuuluu, michal);
-                return entity;
+            var2 = var2.bind(var10)(var3);
+            var3 = var2.popularSortedCommands;
+            var2 = var2.canSort;
+            var _closure2_slot3 = var2;
+            var12 = var11.useEffect;
+            var10 = new Array(1);
+            var10[0] = var9;
+            var9 = function() {
+                var3 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var1 = 3;
+                var2 = var8[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.getApplication;
+                var3 = _closure2_slot0;
+                var2 = {};
+                var7 = _closure1_slot0;
+                var6 = 4;
+                var6 = var8[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.Millis;
+                var6 = var6.DAY;
+                var2['dontRefetchMs'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             };
-            verify = romeon.bind(yankee)(verify, offset);
-            offset = yankee.useLayoutEffect;
-            verify = new Array(1);
-            verify[0] = michal;
-            option = function() {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var9 = var12.bind(var11)(var9, var10);
+            var10 = var11.useLayoutEffect;
+            var9 = new Array(1);
+            var9[0] = var2;
+            var8 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    michal = _closure2_slot3;
-                    if(!michal) { _fun00012_ip = 34; continue _fun00011 }
+                    var2 = _closure2_slot3;
+                    if(!var2) { _fun0006_ip = 34; continue _fun0006 }
  10:
-                    zuuluu = _closure2_slot2;
-                    entity = _closure1_slot5;
-                    michal = entity.POPULAR;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
+                    var3 = _closure2_slot2;
+                    var1 = _closure1_slot5;
+                    var2 = var1.POPULAR;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
  34:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            option = offset.bind(yankee)(option, verify);
-            golfie = golfie.POPULAR;
-            if(!(golfie !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            var8 = var10.bind(var11)(var8, var9);
+            var7 = var7.POPULAR;
+            if(!(var7 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
  212:
-            oscard = _closure1_slot5;
-            oscard = oscard.ALPHABETICAL;
-            zuuluu = entity;
+            var6 = _closure1_slot5;
+            var6 = var6.ALPHABETICAL;
+            var3 = var1;
  225:
-            entity = {};
-            entity['sortOrder'] = report;
-            entity['setSortOrder'] = tangon;
-            entity['commands'] = zuuluu;
-            entity['canSort'] = michal;
-            return entity;
+            var1 = {};
+            var1['sortOrder'] = var5;
+            var1['setSortOrder'] = var4;
+            var1['commands'] = var3;
+            var1['canSort'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

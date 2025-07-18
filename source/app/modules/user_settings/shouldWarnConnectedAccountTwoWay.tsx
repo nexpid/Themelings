@@ -1,59 +1,59 @@
 // app/modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.PlatformTypes;
-    option = tangon.Set;
-    verify = golfie.XBOX;
-    tangon = new Array(4);
-    tangon[0] = verify;
-    verify = golfie.PLAYSTATION;
-    tangon[1] = verify;
-    verify = golfie.PLAYSTATION_STAGING;
-    tangon[2] = verify;
-    golfie = golfie.CRUNCHYROLL;
-    tangon[3] = golfie;
-    golfie = option.prototype;
-    golfie = Object.create(golfie, {constructor: {value: option}});
-    foxtra = golfie;
-    romeon = tangon;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: shouldWarnConnectedAccountTwoWay
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.PlatformTypes;
+    var8 = var4.Set;
+    var9 = var7.XBOX;
+    var4 = new Array(4);
+    var4[0] = var9;
+    var9 = var7.PLAYSTATION;
+    var4[1] = var9;
+    var9 = var7.PLAYSTATION_STAGING;
+    var4[2] = var9;
+    var7 = var7.CRUNCHYROLL;
+    var4[3] = var7;
+    var7 = var8.prototype;
+    var7 = Object.create(var7, {constructor: {value: var8}});
+    var13 = var7;
+    var12 = var4;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/shouldWarnConnectedAccountTwoWay.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function shouldWarnConnectedAccountTwoWay(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.has;
-            entity = michal.type;
-            entity = zuuluu.bind(tangon)(entity);
-            if(!entity) { _fun00002_ip = 34; continue _fun00001 }
+            var2 = arg1;
+            var4 = _closure1_slot0;
+            var3 = var4.has;
+            var1 = var2.type;
+            var1 = var3.bind(var4)(var1);
+            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
  28:
-            entity = michal.twoWayLink;
+            var1 = var2.twoWayLink;
  34:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

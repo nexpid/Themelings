@@ -1,151 +1,151 @@
 // app/modules/guild_role_subscriptions/ui/RoleSubscriptionsCreateTierFromTemplatePickerFeatureSpec.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.GuildFeatures;
-    var _closure1_slot4 = golfie;
-    michal = michal.Permissions;
-    var _closure1_slot5 = michal;
-    michal = {};
-    golfie = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 3;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.aTFQKi;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.GuildFeatures;
+    var _closure1_slot4 = var7;
+    var2 = var2.Permissions;
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var7 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.aTFQKi;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = golfie;
-    golfie = function() { // Original name: description
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 3;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.oTbFQk;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['title'] = var7;
+    var7 = function description() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 3;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.oTbFQk;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['description'] = golfie;
-    golfie = false;
-    michal['canCreateGuild'] = golfie;
-    tangon = function() { // Original name: useIsGuildSupported
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 4;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        report = tangon.bind(michal)(zuuluu);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(2);
-        zuuluu[0] = michal;
-        entity = _closure1_slot3;
-        zuuluu[1] = entity;
-        michal = function() {
-            entity = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['description'] = var7;
+    var7 = false;
+    var2['canCreateGuild'] = var7;
+    var4 = function useIsGuildSupported() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var3 = var3[var2];
+        var2 = undefined;
+        var5 = var4.bind(var2)(var3);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(2);
+        var3[0] = var2;
+        var1 = _closure1_slot3;
+        var3[1] = var1;
+        var2 = function() {
+            var1 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = argFoo;
-                    report = michal.features;
-                    tangon = report.has;
-                    entity = _closure1_slot4;
-                    entity = entity.ROLE_SUBSCRIPTIONS_ENABLED;
-                    entity = tangon.bind(report)(entity);
-                    if(!entity) { _fun00002_ip = 64; continue _fun00001 }
+                    var2 = arg1;
+                    var5 = var2.features;
+                    var4 = var5.has;
+                    var1 = _closure1_slot4;
+                    var1 = var1.ROLE_SUBSCRIPTIONS_ENABLED;
+                    var1 = var4.bind(var5)(var1);
+                    if(!var1) { _fun0001_ip = 64; continue _fun0001 }
  35:
-                    oscard = michal.features;
-                    report = oscard.has;
-                    tangon = _closure1_slot4;
-                    tangon = tangon.CREATOR_MONETIZABLE_RESTRICTED;
-                    tangon = report.bind(oscard)(tangon);
-                    entity = !tangon;
+                    var6 = var2.features;
+                    var5 = var6.has;
+                    var4 = _closure1_slot4;
+                    var4 = var4.CREATOR_MONETIZABLE_RESTRICTED;
+                    var4 = var5.bind(var6)(var4);
+                    var1 = !var4;
  64:
-                    if(!entity) { _fun00002_ip = 93; continue _fun00001 }
+                    if(!var1) { _fun0001_ip = 93; continue _fun0001 }
  67:
-                    oscard = _closure1_slot3;
-                    report = oscard.can;
-                    tangon = _closure1_slot5;
-                    tangon = tangon.ADMINISTRATOR;
-                    entity = report.bind(oscard)(tangon, michal);
+                    var6 = _closure1_slot3;
+                    var5 = var6.can;
+                    var4 = _closure1_slot5;
+                    var4 = var4.ADMINISTRATOR;
+                    var1 = var5.bind(var6)(var4, var2);
  93:
-                    if(!entity) { _fun00002_ip = 128; continue _fun00001 }
+                    if(!var1) { _fun0001_ip = 128; continue _fun0001 }
  96:
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot1;
-                    tangon = 5;
-                    report = report[tangon];
-                    tangon = undefined;
-                    report = oscard.bind(tangon)(report);
-                    tangon = report.isUserEligibleForTierTemplates;
-                    entity = tangon.bind(report)();
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var4 = 5;
+                    var5 = var5[var4];
+                    var4 = undefined;
+                    var5 = var6.bind(var4)(var5);
+                    var4 = var5.isUserEligibleForTierTemplates;
+                    var1 = var4.bind(var5)();
  128:
-                    if(!entity) { _fun00002_ip = 169; continue _fun00001 }
+                    if(!var1) { _fun0001_ip = 169; continue _fun0001 }
  131:
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    zuuluu = 5;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    tangon = report.bind(zuuluu)(tangon);
-                    zuuluu = tangon.isGuildEligibleForTierTemplates;
-                    michal = michal.id;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var3 = 5;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.isGuildEligibleForTierTemplates;
+                    var2 = var2.id;
+                    var1 = var3.bind(var4)(var2);
  169:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = new Array(0);
-        entity = tangon.bind(report)(zuuluu, michal, entity);
-        return entity;
+        var1 = new Array(0);
+        var1 = var4.bind(var5)(var3, var2, var1);
+        return var1;
     };
-    michal['useIsGuildSupported'] = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/ui/RoleSubscriptionsCreateTierFromTemplatePickerFeatureSpec.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['useIsGuildSupported'] = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/ui/RoleSubscriptionsCreateTierFromTemplatePickerFeatureSpec.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

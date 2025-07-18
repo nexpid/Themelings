@@ -1,126 +1,126 @@
 // app/actions/native/BundleUpdaterActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.NativeModules;
-    var _closure1_slot3 = michal;
-    michal = false;
-    var _closure1_slot4 = michal;
-    michal = {};
-    golfie = function(argFoo) { // Original name: prepareUpdate
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.NativeModules;
+    var _closure1_slot3 = var2;
+    var2 = false;
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var7 = function prepareUpdate(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            if(!entity) { _fun00002_ip = 276; continue _fun00001 }
+            var1 = arg1;
+            if(!var1) { _fun0001_ip = 276; continue _fun0001 }
  9:
-            zuuluu = _closure1_slot1;
-            offset = _closure1_slot2;
-            entity = 1;
-            entity = offset[entity];
-            verify = undefined;
-            tangon = zuuluu.bind(verify)(entity);
-            zuuluu = tangon.show;
-            entity = {};
-            option = _closure1_slot0;
-            report = 2;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            yankee = oscard.intl;
-            golfie = yankee.string;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.GQZdmJ;
-            oscard = golfie.bind(yankee)(oscard);
-            entity['title'] = oscard;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            yankee = oscard.intl;
-            golfie = yankee.string;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.Fizu9/;
-            oscard = golfie.bind(yankee)(oscard);
-            entity['body'] = oscard;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            yankee = oscard.intl;
-            golfie = yankee.string;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.UefCDQ;
-            oscard = golfie.bind(yankee)(oscard);
-            entity['confirmText'] = oscard;
-            oscard = offset[report];
-            oscard = option.bind(verify)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            report = offset[report];
-            report = option.bind(verify)(report);
-            report = report.t;
-            report = report.1SzcGx;
-            report = oscard.bind(golfie)(report);
-            entity['cancelText'] = report;
-            report = function() { // Original name: onConfirm
-                entity = _closure1_slot3;
-                michal = entity.BundleUpdaterManager;
-                entity = michal.reload;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 1;
+            var1 = var10[var1];
+            var9 = undefined;
+            var4 = var3.bind(var9)(var1);
+            var3 = var4.show;
+            var1 = {};
+            var8 = _closure1_slot0;
+            var5 = 2;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var11 = var6.intl;
+            var7 = var11.string;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var6 = var6.t;
+            var6 = var6.GQZdmJ;
+            var6 = var7.bind(var11)(var6);
+            var1['title'] = var6;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var11 = var6.intl;
+            var7 = var11.string;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var6 = var6.t;
+            var6 = var6.Fizu9/;
+            var6 = var7.bind(var11)(var6);
+            var1['body'] = var6;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var11 = var6.intl;
+            var7 = var11.string;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var6 = var6.t;
+            var6 = var6.UefCDQ;
+            var6 = var7.bind(var11)(var6);
+            var1['confirmText'] = var6;
+            var6 = var10[var5];
+            var6 = var8.bind(var9)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var10[var5];
+            var5 = var8.bind(var9)(var5);
+            var5 = var5.t;
+            var5 = var5.1SzcGx;
+            var5 = var6.bind(var7)(var5);
+            var1['cancelText'] = var5;
+            var5 = function onConfirm() {
+                var1 = _closure1_slot3;
+                var2 = var1.BundleUpdaterManager;
+                var1 = var2.reload;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            entity['onConfirm'] = report;
-            entity = zuuluu.bind(tangon)(entity);
-            entity = true;
-            _closure1_slot4 = entity;
+            var1['onConfirm'] = var5;
+            var1 = var3.bind(var4)(var1);
+            var1 = true;
+            _closure1_slot4 = var1;
  276:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['prepareUpdate'] = golfie;
-    tangon = function() { // Original name: deferUpdate
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['prepareUpdate'] = var7;
+    var4 = function deferUpdate() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot4;
-            if(!michal) { _fun00004_ip = 36; continue _fun00003 }
+            var2 = _closure1_slot4;
+            if(!var2) { _fun0002_ip = 36; continue _fun0002 }
  10:
-            michal = false;
-            _closure1_slot4 = michal;
-            entity = _closure1_slot3;
-            michal = entity.BundleUpdaterManager;
-            entity = michal.reload;
-            entity = entity.bind(michal)();
+            var2 = false;
+            _closure1_slot4 = var2;
+            var1 = _closure1_slot3;
+            var2 = var1.BundleUpdaterManager;
+            var1 = var2.reload;
+            var1 = var1.bind(var2)();
  36:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['deferUpdate'] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/native/BundleUpdaterActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['deferUpdate'] = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/native/BundleUpdaterActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,55 +1,55 @@
 // app/modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: hasAndroidNotificationChannels
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/screens/notifications/SettingsNotificationUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function hasAndroidNotificationChannels() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 0;
-            entity = tangon[entity];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 0;
+            var1 = var4[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(!var1) { _fun0001_ip = 90; continue _fun0001 }
  36:
-            zuuluu = global;
-            tangon = zuuluu.parseInt;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 1;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.getSystemVersion;
-            zuuluu = michal.bind(zuuluu)();
-            michal = 10;
-            zuuluu = tangon.bind(report)(zuuluu, michal);
-            michal = 26;
-            entity = zuuluu >= michal;
+            var3 = global;
+            var4 = var3.parseInt;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 1;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.getSystemVersion;
+            var3 = var2.bind(var3)();
+            var2 = 10;
+            var3 = var4.bind(var5)(var3, var2);
+            var2 = 26;
+            var1 = var3 >= var2;
  90:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['hasAndroidNotificationChannels'] = michal;
-    return entity;
+    var3['hasAndroidNotificationChannels'] = var2;
+    return var1;
 })();

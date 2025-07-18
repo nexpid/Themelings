@@ -1,345 +1,345 @@
 // app/modules/channel_list_v2/native/components/ChannelHighlight.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    option = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = verify;
-    tangon = function() { // Original name: useJumpToChannelId
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var13 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var9;
+    var4 = function useJumpToChannelId() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.useRoute;
-            michal = michal.bind(zuuluu)();
-            michal = michal.params;
-            zuuluu = null;
-            zuuluu = zuuluu == michal;
-            if(zuuluu) { _fun00002_ip = 56; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.useRoute;
+            var2 = var2.bind(var3)();
+            var2 = var2.params;
+            var3 = null;
+            var3 = var3 == var2;
+            if(var3) { _fun0001_ip = 56; continue _fun0001 }
  50:
-            entity = michal.jumpToChannelId;
+            var1 = var2.jumpToChannelId;
  56:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot11 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    yankee = 0;
-    oscard = verify[yankee];
-    report = argCor;
-    entity = undefined;
-    offset = report.bind(entity)(oscard);
-    var _closure1_slot3 = offset;
-    report = 1;
-    report = verify[report];
-    report = foxtra.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = verify[report];
-    report = option.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
-    golfie = 3;
-    report = verify[golfie];
-    oscard = option.bind(entity)(report);
-    report = oscard.makeMutable;
-    report = report.bind(oscard)(yankee);
-    var _closure1_slot6 = report;
-    oscard = {};
-    oscard['mass'] = golfie;
-    var _closure1_slot7 = oscard;
-    oscard = {};
-    golfie = 'function ChannelHighlightTsx1(finished){const{runOnJS,clearNavigationParams}=this.__closure;if(finished){runOnJS(clearNavigationParams)();}}';
-    oscard['code'] = golfie;
-    var _closure1_slot8 = oscard;
-    oscard = 8;
-    oscard = verify[oscard];
-    yankee = option.bind(entity)(oscard);
-    golfie = yankee.createStyleProperties;
-    oscard = {};
-    romeon = 9;
-    romeon = verify[romeon];
-    romeon = foxtra.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.INTERACTIVE_ACTIVE;
-    oscard['highlightOpaque'] = romeon;
-    oscard = golfie.bind(yankee)(oscard);
-    var _closure1_slot9 = oscard;
-    oscard = {};
-    golfie = 'function ChannelHighlightTsx2(){const{interpolateColor,jumpToChannelHighlightOpacity,backgroundColorTransparent,backgroundColorWithOpacity}=this.__closure;return{backgroundColor:interpolateColor(jumpToChannelHighlightOpacity.get(),[0,1],[backgroundColorTransparent,backgroundColorWithOpacity])};}';
-    oscard['code'] = golfie;
-    var _closure1_slot10 = oscard;
-    golfie = offset.memo;
-    oscard = function(argFoo) { // Original name: ChannelHighlight
-        entity = argFoo;
-        report = entity.children;
-        entity = _closure1_slot9;
-        tangon = undefined;
-        entity = entity.bind(tangon)();
-        option = entity.highlightOpaque;
-        backup = _closure1_slot0;
-        golfie = _closure1_slot2;
-        entity = 10;
-        entity = golfie[entity];
-        verify = backup.bind(tangon)(entity);
-        michal = verify.hexWithOpacity;
-        entity = 0;
-        romeon = michal.bind(verify)(option, entity);
-        var _closure2_slot0 = romeon;
-        michal = _closure1_slot1;
-        entity = 11;
-        entity = golfie[entity];
-        entity = michal.bind(tangon)(entity);
-        yankee = entity.bind(tangon)(option);
-        var _closure2_slot1 = yankee;
-        entity = 3;
-        option = golfie[entity];
-        verify = backup.bind(tangon)(option);
-        option = verify.useAnimatedStyle;
-        oscard = function() { // Original name: t
-            entity = {};
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 3;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            oscard = report.bind(zuuluu)(tangon);
-            report = oscard.interpolateColor;
-            zuuluu = _closure1_slot6;
-            michal = zuuluu.get;
-            tangon = michal.bind(zuuluu)();
-            golfie = _closure2_slot0;
-            zuuluu = new Array(2);
-            zuuluu[0] = golfie;
-            michal = _closure2_slot1;
-            zuuluu[1] = michal;
-            michal = [0, 1];
-            michal = report.bind(oscard)(tangon, michal, zuuluu);
-            entity['backgroundColor'] = michal;
-            return entity;
+    var _closure1_slot11 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var11 = 0;
+    var6 = var9[var11];
+    var5 = native4;
+    var1 = undefined;
+    var10 = var5.bind(var1)(var6);
+    var _closure1_slot3 = var10;
+    var5 = 1;
+    var5 = var9[var5];
+    var5 = var13.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot5 = var5;
+    var7 = 3;
+    var5 = var9[var7];
+    var6 = var8.bind(var1)(var5);
+    var5 = var6.makeMutable;
+    var5 = var5.bind(var6)(var11);
+    var _closure1_slot6 = var5;
+    var6 = {};
+    var6['mass'] = var7;
+    var _closure1_slot7 = var6;
+    var6 = {};
+    var7 = 'function ChannelHighlightTsx1(finished){const{runOnJS,clearNavigationParams}=this.__closure;if(finished){runOnJS(clearNavigationParams)();}}';
+    var6['code'] = var7;
+    var _closure1_slot8 = var6;
+    var6 = 8;
+    var6 = var9[var6];
+    var11 = var8.bind(var1)(var6);
+    var7 = var11.createStyleProperties;
+    var6 = {};
+    var12 = 9;
+    var12 = var9[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_ACTIVE;
+    var6['highlightOpaque'] = var12;
+    var6 = var7.bind(var11)(var6);
+    var _closure1_slot9 = var6;
+    var6 = {};
+    var7 = 'function ChannelHighlightTsx2(){const{interpolateColor,jumpToChannelHighlightOpacity,backgroundColorTransparent,backgroundColorWithOpacity}=this.__closure;return{backgroundColor:interpolateColor(jumpToChannelHighlightOpacity.get(),[0,1],[backgroundColorTransparent,backgroundColorWithOpacity])};}';
+    var6['code'] = var7;
+    var _closure1_slot10 = var6;
+    var7 = var10.memo;
+    var6 = function ChannelHighlight(arg1) {
+        var1 = arg1;
+        var5 = var1.children;
+        var1 = _closure1_slot9;
+        var4 = undefined;
+        var1 = var1.bind(var4)();
+        var8 = var1.highlightOpaque;
+        var14 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var1 = 10;
+        var1 = var7[var1];
+        var9 = var14.bind(var4)(var1);
+        var2 = var9.hexWithOpacity;
+        var1 = 0;
+        var12 = var2.bind(var9)(var8, var1);
+        var _closure2_slot0 = var12;
+        var2 = _closure1_slot1;
+        var1 = 11;
+        var1 = var7[var1];
+        var1 = var2.bind(var4)(var1);
+        var11 = var1.bind(var4)(var8);
+        var _closure2_slot1 = var11;
+        var1 = 3;
+        var8 = var7[var1];
+        var9 = var14.bind(var4)(var8);
+        var8 = var9.useAnimatedStyle;
+        var6 = function t() {
+            var1 = {};
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 3;
+            var4 = var4[var3];
+            var3 = undefined;
+            var6 = var5.bind(var3)(var4);
+            var5 = var6.interpolateColor;
+            var3 = _closure1_slot6;
+            var2 = var3.get;
+            var4 = var2.bind(var3)();
+            var7 = _closure2_slot0;
+            var3 = new Array(2);
+            var3[0] = var7;
+            var2 = _closure2_slot1;
+            var3[1] = var2;
+            var2 = [0, 1];
+            var2 = var5.bind(var6)(var4, var2, var3);
+            var1['backgroundColor'] = var2;
+            return var1;
         };
-        offset = {};
-        foxtra = golfie[entity];
-        foxtra = backup.bind(tangon)(foxtra);
-        foxtra = foxtra.interpolateColor;
-        offset['interpolateColor'] = foxtra;
-        foxtra = _closure1_slot6;
-        offset['jumpToChannelHighlightOpacity'] = foxtra;
-        offset['backgroundColorTransparent'] = romeon;
-        offset['backgroundColorWithOpacity'] = yankee;
-        oscard['__closure'] = offset;
-        offset = 2192852776907.0;
-        oscard['__workletHash'] = offset;
-        offset = _closure1_slot10;
-        oscard['__initData'] = offset;
-        oscard = option.bind(verify)(oscard);
-        zuuluu = _closure1_slot5;
-        entity = golfie[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.View;
-        entity = {};
-        entity['style'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var10 = {};
+        var13 = var7[var1];
+        var13 = var14.bind(var4)(var13);
+        var13 = var13.interpolateColor;
+        var10['interpolateColor'] = var13;
+        var13 = _closure1_slot6;
+        var10['jumpToChannelHighlightOpacity'] = var13;
+        var10['backgroundColorTransparent'] = var12;
+        var10['backgroundColorWithOpacity'] = var11;
+        var6['__closure'] = var10;
+        var10 = 2192852776907.0;
+        var6['__workletHash'] = var10;
+        var10 = _closure1_slot10;
+        var6['__initData'] = var10;
+        var6 = var8.bind(var9)(var6);
+        var3 = _closure1_slot5;
+        var1 = var7[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.View;
+        var1 = {};
+        var1['style'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    oscard = golfie.bind(offset)(oscard);
-    golfie = 12;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/channel_list_v2/native/components/ChannelHighlight.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['default'] = oscard;
-    zuuluu['jumpToChannelHighlightOpacity'] = report;
-    zuuluu['useJumpToChannelId'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useJumpToChannel
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 5;
-        entity = oscard[entity];
-        tangon = undefined;
-        golfie = report.bind(tangon)(entity);
-        entity = golfie.useNavigation;
-        entity = entity.bind(golfie)();
-        var _closure2_slot2 = entity;
-        entity = 6;
-        entity = oscard[entity];
-        golfie = report.bind(tangon)(entity);
-        oscard = golfie.useStateFromStores;
-        entity = _closure1_slot4;
-        report = new Array(1);
-        report[0] = entity;
-        entity = function() {
-            entity = _closure1_slot4;
-            entity = entity.useReducedMotion;
-            return entity;
+    var6 = var7.bind(var10)(var6);
+    var7 = 12;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/channel_list_v2/native/components/ChannelHighlight.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['default'] = var6;
+    var3['jumpToChannelHighlightOpacity'] = var5;
+    var3['useJumpToChannelId'] = var4;
+    var2 = function useJumpToChannel(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 5;
+        var1 = var6[var1];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var1);
+        var1 = var7.useNavigation;
+        var1 = var1.bind(var7)();
+        var _closure2_slot2 = var1;
+        var1 = 6;
+        var1 = var6[var1];
+        var7 = var5.bind(var4)(var1);
+        var6 = var7.useStateFromStores;
+        var1 = _closure1_slot4;
+        var5 = new Array(1);
+        var5[0] = var1;
+        var1 = function() {
+            var1 = _closure1_slot4;
+            var1 = var1.useReducedMotion;
+            return var1;
         };
-        entity = oscard.bind(golfie)(report, entity);
-        var _closure2_slot3 = entity;
-        entity = _closure1_slot11;
-        entity = entity.bind(tangon)();
-        var _closure2_slot4 = entity;
-        tangon = _closure1_slot3;
-        report = tangon.useRef;
-        zuuluu = null;
-        zuuluu = report.bind(tangon)(zuuluu);
-        var _closure2_slot5 = zuuluu;
-        zuuluu = tangon.useEffect;
-        michal = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1 = var6.bind(var7)(var5, var1);
+        var _closure2_slot3 = var1;
+        var1 = _closure1_slot11;
+        var1 = var1.bind(var4)();
+        var _closure2_slot4 = var1;
+        var4 = _closure1_slot3;
+        var5 = var4.useRef;
+        var3 = null;
+        var3 = var5.bind(var4)(var3);
+        var _closure2_slot5 = var3;
+        var3 = var4.useEffect;
+        var2 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                backup = function() { // Original name: clearNavigationParams
-                    tangon = _closure2_slot2;
-                    zuuluu = tangon.setParams;
-                    michal = {};
-                    entity = undefined;
-                    michal['jumpToChannelId'] = entity;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
+                var14 = function clearNavigationParams() {
+                    var4 = _closure2_slot2;
+                    var3 = var4.setParams;
+                    var2 = {};
+                    var1 = undefined;
+                    var2['jumpToChannelId'] = var1;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
                 };
-                var _closure3_slot0 = backup;
-                entity = _closure2_slot5;
-                michal = entity.current;
-                entity = _closure2_slot4;
-                if(!(michal !== entity)) { _fun00004_ip = 363; continue _fun00003 }
+                var _closure3_slot0 = var14;
+                var1 = _closure2_slot5;
+                var2 = var1.current;
+                var1 = _closure2_slot4;
+                if(!(var2 !== var1)) { _fun0002_ip = 363; continue _fun0002 }
  36:
-                entity = _closure2_slot5;
-                michal = _closure2_slot4;
-                entity['current'] = michal;
-                entity = null;
-                if(!(entity != michal)) { _fun00004_ip = 363; continue _fun00003 }
+                var1 = _closure2_slot5;
+                var2 = _closure2_slot4;
+                var1['current'] = var2;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0002_ip = 363; continue _fun0002 }
  59:
-                report = _closure2_slot0;
-                zuuluu = report.findIndex;
-                michal = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var5 = _closure2_slot0;
+                var3 = var5.findIndex;
+                var2 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = argFoo;
-                        zuuluu = michal.kind;
-                        entity = 'channel';
-                        entity = entity === zuuluu;
-                        if(!entity) { _fun00006_ip = 40; continue _fun00005 }
+                        var2 = arg1;
+                        var3 = var2.kind;
+                        var1 = 'channel';
+                        var1 = var1 === var3;
+                        if(!var1) { _fun0003_ip = 40; continue _fun0003 }
  19:
-                        michal = michal.channel;
-                        zuuluu = michal.id;
-                        michal = _closure2_slot4;
-                        entity = zuuluu === michal;
+                        var2 = var2.channel;
+                        var3 = var2.id;
+                        var2 = _closure2_slot4;
+                        var1 = var3 === var2;
  40:
-                        return entity;
+                        return var1;
                     }
                 };
-                report = zuuluu.bind(report)(michal);
-                michal = -1;
-                if(!(!(report > michal))) { _fun00004_ip = 102; continue _fun00003 }
+                var5 = var3.bind(var5)(var2);
+                var2 = -1;
+                if(!(!(var5 > var2))) { _fun0002_ip = 102; continue _fun0002 }
  91:
-                michal = undefined;
-                michal = backup.bind(michal)();
-                _fun00004_ip = 363; continue _fun00003;
+                var2 = undefined;
+                var2 = var14.bind(var2)();
+                _fun0002_ip = 363; continue _fun0002;
  102:
-                michal = _closure2_slot1;
-                zuuluu = michal.current;
-                if(!(entity != zuuluu)) { _fun00004_ip = 159; continue _fun00003 }
+                var2 = _closure2_slot1;
+                var3 = var2.current;
+                if(!(var1 != var3)) { _fun0002_ip = 159; continue _fun0002 }
  115:
-                michal = zuuluu.scrollToIndex;
-                entity = {};
-                entity['index'] = report;
-                tangon = _closure2_slot3;
-                tangon = !tangon;
-                entity['animated'] = tangon;
-                tangon = 0.5;
-                entity['viewPosition'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
+                var2 = var3.scrollToIndex;
+                var1 = {};
+                var1['index'] = var5;
+                var4 = _closure2_slot3;
+                var4 = !var4;
+                var1['animated'] = var4;
+                var4 = 0.5;
+                var1['viewPosition'] = var4;
+                var1 = var2.bind(var3)(var1);
  159:
-                zuuluu = _closure1_slot6;
-                michal = zuuluu.set;
-                output = _closure1_slot0;
-                result = _closure1_slot2;
-                kiloes = 3;
-                tangon = result[kiloes];
-                sizing = undefined;
-                oscard = output.bind(sizing)(tangon);
-                report = oscard.withSequence;
-                offset = 7;
-                tangon = result[offset];
-                verify = output.bind(sizing)(tangon);
-                option = verify.withSpring;
-                foxtra = _closure1_slot7;
-                tangon = 1;
-                tangon = option.bind(verify)(tangon, foxtra);
-                option = result[kiloes];
-                verify = output.bind(sizing)(option);
-                option = verify.withDelay;
-                offset = result[offset];
-                romeon = output.bind(sizing)(offset);
-                yankee = romeon.withSpring;
-                offset = function(argFoo) { // Original name: n
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var3 = _closure1_slot6;
+                var2 = var3.set;
+                var17 = _closure1_slot0;
+                var18 = _closure1_slot2;
+                var15 = 3;
+                var4 = var18[var15];
+                var16 = undefined;
+                var6 = var17.bind(var16)(var4);
+                var5 = var6.withSequence;
+                var10 = 7;
+                var4 = var18[var10];
+                var9 = var17.bind(var16)(var4);
+                var8 = var9.withSpring;
+                var13 = _closure1_slot7;
+                var4 = 1;
+                var4 = var8.bind(var9)(var4, var13);
+                var8 = var18[var15];
+                var9 = var17.bind(var16)(var8);
+                var8 = var9.withDelay;
+                var10 = var18[var10];
+                var12 = var17.bind(var16)(var10);
+                var11 = var12.withSpring;
+                var10 = function n(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        entity = argFoo;
-                        if(!entity) { _fun00008_ip = 52; continue _fun00007 }
+                        var1 = arg1;
+                        if(!var1) { _fun0004_ip = 52; continue _fun0004 }
  6:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 3;
-                        entity = michal[entity];
-                        michal = undefined;
-                        tangon = zuuluu.bind(michal)(entity);
-                        zuuluu = tangon.runOnJS;
-                        entity = _closure3_slot0;
-                        entity = zuuluu.bind(tangon)(entity);
-                        entity = entity.bind(michal)();
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 3;
+                        var1 = var2[var1];
+                        var2 = undefined;
+                        var4 = var3.bind(var2)(var1);
+                        var3 = var4.runOnJS;
+                        var1 = _closure3_slot0;
+                        var1 = var3.bind(var4)(var1);
+                        var1 = var1.bind(var2)();
  52:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                golfie = {};
-                kiloes = result[kiloes];
-                kiloes = output.bind(sizing)(kiloes);
-                kiloes = kiloes.runOnJS;
-                golfie['runOnJS'] = kiloes;
-                golfie['clearNavigationParams'] = backup;
-                offset['__closure'] = golfie;
-                golfie = 433061212924.0;
-                offset['__workletHash'] = golfie;
-                entity = _closure1_slot8;
-                offset['__initData'] = entity;
-                ctrled = 0;
-                update = 'respect-motion-settings';
-                vacuum = romeon;
-                source = foxtra;
-                echoed = offset;
-                golfie = vacuum[yankee](ctrled, source, update, echoed, result);
-                entity = 150;
-                entity = option.bind(verify)(entity, golfie);
-                entity = report.bind(oscard)(tangon, entity);
-                entity = michal.bind(zuuluu)(entity);
+                var7 = {};
+                var15 = var18[var15];
+                var15 = var17.bind(var16)(var15);
+                var15 = var15.runOnJS;
+                var7['runOnJS'] = var15;
+                var7['clearNavigationParams'] = var14;
+                var10['__closure'] = var7;
+                var7 = 433061212924.0;
+                var10['__workletHash'] = var7;
+                var1 = _closure1_slot8;
+                var10['__initData'] = var1;
+                var22 = 0;
+                var20 = 'respect-motion-settings';
+                var23 = var12;
+                var21 = var13;
+                var19 = var10;
+                var7 = var23[var11](var22, var21, var20, var19, var18);
+                var1 = 150;
+                var1 = var8.bind(var9)(var1, var7);
+                var1 = var5.bind(var6)(var4, var1);
+                var1 = var2.bind(var3)(var1);
  363:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['useJumpToChannel'] = michal;
-    return entity;
+    var3['useJumpToChannel'] = var2;
+    return var1;
 })();

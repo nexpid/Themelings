@@ -1,205 +1,205 @@
 // app/modules/interaction_components/native/actions/TextInputActionComponent.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interaction_components/native/actions/TextInputActionComponent.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TextInputActionComponent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interaction_components/native/actions/TextInputActionComponent.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function TextInputActionComponent(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            output = entity.type;
-            var _closure2_slot0 = output;
-            zuuluu = entity.style;
-            foxtra = entity.label;
-            romeon = entity.placeholder;
-            offset = entity.required;
-            yankee = entity.maxLength;
-            sizing = entity.value;
-            golfie = _closure1_slot3;
-            oscard = golfie.useState;
-            verify = null;
-            option = verify != sizing;
-            report = '';
-            if(!option) { _fun00002_ip = 75; continue _fun00001 }
+            var1 = arg1;
+            var17 = var1.type;
+            var _closure2_slot0 = var17;
+            var3 = var1.style;
+            var13 = var1.label;
+            var12 = var1.placeholder;
+            var10 = var1.required;
+            var11 = var1.maxLength;
+            var16 = var1.value;
+            var7 = _closure1_slot3;
+            var6 = var7.useState;
+            var9 = null;
+            var8 = var9 != var16;
+            var5 = '';
+            if(!var8) { _fun0001_ip = 75; continue _fun0001 }
  72:
-            report = sizing;
+            var5 = var16;
  75:
-            option = oscard.bind(golfie)(report);
-            golfie = _closure1_slot2;
-            report = undefined;
-            oscard = 2;
-            option = golfie.bind(report)(option, oscard);
-            oscard = 0;
-            golfie = option[oscard];
-            oscard = 1;
-            oscard = option[oscard];
-            var _closure2_slot1 = oscard;
-            option = _closure1_slot0;
-            backup = _closure1_slot1;
-            oscard = 3;
-            oscard = backup[oscard];
-            backup = option.bind(report)(oscard);
-            option = backup.useComponentState;
-            kiloes = verify != sizing;
-            oscard = undefined;
-            if(!kiloes) { _fun00002_ip = 160; continue _fun00001 }
+            var8 = var6.bind(var7)(var5);
+            var7 = _closure1_slot2;
+            var5 = undefined;
+            var6 = 2;
+            var8 = var7.bind(var5)(var8, var6);
+            var6 = 0;
+            var7 = var8[var6];
+            var6 = 1;
+            var6 = var8[var6];
+            var _closure2_slot1 = var6;
+            var8 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var6 = 3;
+            var6 = var14[var6];
+            var14 = var8.bind(var5)(var6);
+            var8 = var14.useComponentState;
+            var15 = var9 != var16;
+            var6 = undefined;
+            if(!var15) { _fun0001_ip = 160; continue _fun0001 }
  147:
-            kiloes = {};
-            kiloes['type'] = output;
-            kiloes['value'] = sizing;
-            oscard = kiloes;
+            var15 = {};
+            var15['type'] = var17;
+            var15['value'] = var16;
+            var6 = var15;
  160:
-            option = option.bind(backup)(entity, oscard);
-            oscard = option.state;
-            var _closure2_slot2 = oscard;
-            sizing = option.executeStateUpdate;
-            var _closure2_slot3 = sizing;
-            option = option.error;
-            kiloes = _closure1_slot0;
-            result = _closure1_slot1;
-            backup = 4;
-            backup = result[backup];
-            kiloes = kiloes.bind(report)(backup);
-            backup = kiloes.useIsFirstTextInputInModal;
-            entity = entity.id;
-            entity = backup.bind(kiloes)(entity);
-            kiloes = _closure1_slot3;
-            result = kiloes.useEffect;
-            backup = new Array(2);
-            backup[0] = output;
-            backup[1] = oscard;
-            oscard = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = var8.bind(var14)(var1, var6);
+            var6 = var8.state;
+            var _closure2_slot2 = var6;
+            var16 = var8.executeStateUpdate;
+            var _closure2_slot3 = var16;
+            var8 = var8.error;
+            var15 = _closure1_slot0;
+            var18 = _closure1_slot1;
+            var14 = 4;
+            var14 = var18[var14];
+            var15 = var15.bind(var5)(var14);
+            var14 = var15.useIsFirstTextInputInModal;
+            var1 = var1.id;
+            var1 = var14.bind(var15)(var1);
+            var15 = _closure1_slot3;
+            var18 = var15.useEffect;
+            var14 = new Array(2);
+            var14[0] = var17;
+            var14[1] = var6;
+            var6 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot2;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    entity = undefined;
-                    tangon = undefined;
-                    if(zuuluu) { _fun00004_ip = 29; continue _fun00003 }
+                    var3 = _closure2_slot2;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var1 = undefined;
+                    var4 = undefined;
+                    if(var3) { _fun0002_ip = 29; continue _fun0002 }
  20:
-                    zuuluu = _closure2_slot2;
-                    tangon = zuuluu.type;
+                    var3 = _closure2_slot2;
+                    var4 = var3.type;
  29:
-                    zuuluu = _closure2_slot0;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    if(!(var4 === var3)) { _fun0002_ip = 55; continue _fun0002 }
  37:
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot2;
-                    michal = michal.value;
-                    michal = zuuluu.bind(entity)(michal);
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot2;
+                    var2 = var2.value;
+                    var2 = var3.bind(var1)(var2);
  55:
-                    return entity;
+                    return var1;
                 }
             };
-            oscard = result.bind(kiloes)(oscard, backup);
-            backup = kiloes.useCallback;
-            oscard = new Array(2);
-            oscard[0] = output;
-            oscard[1] = sizing;
-            tangon = function(argFoo) {
-                tangon = argFoo;
-                michal = _closure2_slot1;
-                entity = undefined;
-                michal = michal.bind(entity)(tangon);
-                zuuluu = _closure2_slot3;
-                michal = {};
-                report = _closure2_slot0;
-                michal['type'] = report;
-                michal['value'] = tangon;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var6 = var18.bind(var15)(var6, var14);
+            var14 = var15.useCallback;
+            var6 = new Array(2);
+            var6[0] = var17;
+            var6[1] = var16;
+            var4 = function(arg1) {
+                var4 = arg1;
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var4);
+                var3 = _closure2_slot3;
+                var2 = {};
+                var5 = _closure2_slot0;
+                var2['type'] = var5;
+                var2['value'] = var4;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            tangon = backup.bind(kiloes)(tangon, oscard);
-            oscard = {};
-            oscard['label'] = foxtra;
-            oscard['placeholder'] = romeon;
-            oscard['maxLength'] = yankee;
-            oscard['required'] = offset;
-            offset = verify != option;
-            verify = 'default';
-            if(!offset) { _fun00002_ip = 326; continue _fun00001 }
+            var4 = var14.bind(var15)(var4, var6);
+            var6 = {};
+            var6['label'] = var13;
+            var6['placeholder'] = var12;
+            var6['maxLength'] = var11;
+            var6['required'] = var10;
+            var10 = var9 != var8;
+            var9 = 'default';
+            if(!var10) { _fun0001_ip = 326; continue _fun0001 }
  322:
-            verify = 'error';
+            var9 = 'error';
  326:
-            oscard['status'] = verify;
-            oscard['errorMessage'] = option;
-            oscard['value'] = golfie;
-            oscard['onChange'] = tangon;
-            oscard['autoFocus'] = entity;
-            entity = true;
-            oscard['isClearable'] = entity;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 5;
-            entity = golfie[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.TextInputComponentStyle;
-            entity = entity.PARAGRAPH;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 442; continue _fun00001 }
+            var6['status'] = var9;
+            var6['errorMessage'] = var8;
+            var6['value'] = var7;
+            var6['onChange'] = var4;
+            var6['autoFocus'] = var1;
+            var1 = true;
+            var6['isClearable'] = var1;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 5;
+            var1 = var7[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.TextInputComponentStyle;
+            var1 = var1.PARAGRAPH;
+            if(!(var3 !== var1)) { _fun0001_ip = 442; continue _fun0001 }
  392:
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 7;
-            entity = golfie[entity];
-            entity = zuuluu.bind(report)(entity);
-            zuuluu = entity.TextInput;
-            entity = {};
-            source = entity;
-            update = oscard;
-            golfie = copyDataProperties(source, update);
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 490; continue _fun00001;
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 7;
+            var1 = var7[var1];
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.TextInput;
+            var1 = {};
+            var21 = var1;
+            var20 = var6;
+            var7 = copyDataProperties(var21, var20);
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 490; continue _fun0001;
  442:
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 6;
-            michal = golfie[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.TextArea;
-            michal = {};
-            source = michal;
-            update = oscard;
-            oscard = copyDataProperties(source, update);
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 6;
+            var2 = var7[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.TextArea;
+            var2 = {};
+            var21 = var2;
+            var20 = var6;
+            var6 = copyDataProperties(var21, var20);
+            var1 = var4.bind(var5)(var3, var2);
  490:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

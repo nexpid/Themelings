@@ -1,129 +1,129 @@
 // app/modules/rpc/helpers/stripSensitiveLoggingData.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCommands;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rpc/helpers/stripSensitiveLoggingData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: stripSensitiveLoggingData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RPCCommands;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rpc/helpers/stripSensitiveLoggingData.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function stripSensitiveLoggingData(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = {};
-            option = argFoo;
-            verify = report;
-            entity = copyDataProperties(verify, option);
-            entity = report.args;
-            michal = 'object';
-            entity = typeof entity;
-            entity = michal === entity;
-            if(!entity) { _fun00002_ip = 49; continue _fun00001 }
+            var5 = {};
+            var8 = arg1;
+            var9 = var5;
+            var1 = copyDataProperties(var9, var8);
+            var1 = var5.args;
+            var2 = 'object';
+            var1 = typeof var1;
+            var1 = var2 === var1;
+            if(!var1) { _fun0001_ip = 49; continue _fun0001 }
  32:
-            zuuluu = report.cmd;
-            tangon = 'string';
-            zuuluu = typeof zuuluu;
-            entity = tangon === zuuluu;
+            var3 = var5.cmd;
+            var4 = 'string';
+            var3 = typeof var3;
+            var1 = var4 === var3;
  49:
-            tangon = report;
-            if(!entity) { _fun00002_ip = 163; continue _fun00001 }
+            var4 = var5;
+            if(!var1) { _fun0001_ip = 163; continue _fun0001 }
  55:
-            zuuluu = report.cmd;
-            oscard = _closure1_slot0;
-            oscard = oscard.AUTHENTICATE;
-            if(!(oscard !== zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
+            var3 = var5.cmd;
+            var6 = _closure1_slot0;
+            var6 = var6.AUTHENTICATE;
+            if(!(var6 !== var3)) { _fun0001_ip = 106; continue _fun0001 }
  78:
-            entity = _closure1_slot0;
-            entity = entity.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
+            var1 = _closure1_slot0;
+            var1 = var1.GET_PROVIDER_ACCESS_TOKEN;
+            if(!(var1 !== var3)) { _fun0001_ip = 106; continue _fun0001 }
  92:
-            entity = {};
-            verify = entity;
-            option = report;
-            zuuluu = copyDataProperties(verify, option);
-            _fun00002_ip = 160; continue _fun00001;
+            var1 = {};
+            var9 = var1;
+            var8 = var5;
+            var3 = copyDataProperties(var9, var8);
+            _fun0001_ip = 160; continue _fun0001;
  106:
-            zuuluu = {};
-            verify = zuuluu;
-            option = report;
-            oscard = copyDataProperties(verify, option);
-            oscard = {};
-            option = report.args;
-            verify = oscard;
-            report = copyDataProperties(verify, option);
-            golfie = '<removed>';
-            report = 'access_token';
-            oscard[report] = golfie;
-            report = 'args';
-            zuuluu[report] = oscard;
-            entity = zuuluu;
+            var3 = {};
+            var9 = var3;
+            var8 = var5;
+            var6 = copyDataProperties(var9, var8);
+            var6 = {};
+            var8 = var5.args;
+            var9 = var6;
+            var5 = copyDataProperties(var9, var8);
+            var7 = '<removed>';
+            var5 = 'access_token';
+            var6[var5] = var7;
+            var5 = 'args';
+            var3[var5] = var6;
+            var1 = var3;
  160:
-            tangon = entity;
+            var4 = var1;
  163:
-            entity = tangon.data;
-            entity = typeof entity;
-            michal = michal === entity;
-            if(!michal) { _fun00002_ip = 195; continue _fun00001 }
+            var1 = var4.data;
+            var1 = typeof var1;
+            var2 = var2 === var1;
+            if(!var2) { _fun0001_ip = 195; continue _fun0001 }
  178:
-            entity = tangon.cmd;
-            zuuluu = 'string';
-            entity = typeof entity;
-            michal = zuuluu === entity;
+            var1 = var4.cmd;
+            var3 = 'string';
+            var1 = typeof var1;
+            var2 = var3 === var1;
  195:
-            entity = tangon;
-            if(!michal) { _fun00002_ip = 308; continue _fun00001 }
+            var1 = var4;
+            if(!var2) { _fun0001_ip = 308; continue _fun0001 }
  201:
-            zuuluu = tangon.cmd;
-            report = _closure1_slot0;
-            report = report.AUTHENTICATE;
-            if(!(report !== zuuluu)) { _fun00002_ip = 252; continue _fun00001 }
+            var3 = var4.cmd;
+            var5 = _closure1_slot0;
+            var5 = var5.AUTHENTICATE;
+            if(!(var5 !== var3)) { _fun0001_ip = 252; continue _fun0001 }
  224:
-            michal = _closure1_slot0;
-            michal = michal.GET_PROVIDER_ACCESS_TOKEN;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 252; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var2 = var2.GET_PROVIDER_ACCESS_TOKEN;
+            if(!(var2 !== var3)) { _fun0001_ip = 252; continue _fun0001 }
  238:
-            michal = {};
-            verify = michal;
-            option = tangon;
-            zuuluu = copyDataProperties(verify, option);
-            _fun00002_ip = 305; continue _fun00001;
+            var2 = {};
+            var9 = var2;
+            var8 = var4;
+            var3 = copyDataProperties(var9, var8);
+            _fun0001_ip = 305; continue _fun0001;
  252:
-            zuuluu = {};
-            verify = zuuluu;
-            option = tangon;
-            report = copyDataProperties(verify, option);
-            report = {};
-            option = tangon.data;
-            verify = report;
-            tangon = copyDataProperties(verify, option);
-            oscard = '<removed>';
-            tangon = 'access_token';
-            report[tangon] = oscard;
-            tangon = 'data';
-            zuuluu[tangon] = report;
-            michal = zuuluu;
+            var3 = {};
+            var9 = var3;
+            var8 = var4;
+            var5 = copyDataProperties(var9, var8);
+            var5 = {};
+            var8 = var4.data;
+            var9 = var5;
+            var4 = copyDataProperties(var9, var8);
+            var6 = '<removed>';
+            var4 = 'access_token';
+            var5[var4] = var6;
+            var4 = 'data';
+            var3[var4] = var5;
+            var2 = var3;
  305:
-            entity = michal;
+            var1 = var2;
  308:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

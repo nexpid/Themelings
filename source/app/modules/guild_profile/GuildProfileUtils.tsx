@@ -1,131 +1,131 @@
 // app/modules/guild_profile/GuildProfileUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.createChannelRecordFromInvite;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_profile/GuildProfileUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: getEstablishedDate
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.createChannelRecordFromInvite;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_profile/GuildProfileUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getEstablishedDate(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            if(!(entity != report)) { _fun00002_ip = 122; continue _fun00001 }
+            var5 = arg1;
+            var1 = null;
+            if(!(var1 != var5)) { _fun0001_ip = 122; continue _fun0001 }
  9:
-            michal = '';
-            if(!(michal !== report)) { _fun00002_ip = 122; continue _fun00001 }
+            var2 = '';
+            if(!(var2 !== var5)) { _fun0001_ip = 122; continue _fun0001 }
  17:
-            zuuluu = global;
-            michal = zuuluu.Date;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            verify = tangon;
-            option = report;
-            michal = new verify[michal](option, golfie);
-            oscard = michal instanceof Object ? michal : tangon;
-            michal = zuuluu.Date;
-            tangon = oscard instanceof michal;
-            michal = null;
-            if(!tangon) { _fun00002_ip = 120; continue _fun00001 }
+            var3 = global;
+            var2 = var3.Date;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var9 = var4;
+            var8 = var5;
+            var2 = new var9[var2](var8, var7);
+            var6 = var2 instanceof Object ? var2 : var4;
+            var2 = var3.Date;
+            var4 = var6 instanceof var2;
+            var2 = null;
+            if(!var4) { _fun0001_ip = 120; continue _fun0001 }
  63:
-            report = zuuluu.isNaN;
-            zuuluu = oscard.getTime;
-            tangon = zuuluu.bind(oscard)();
-            zuuluu = undefined;
-            zuuluu = report.bind(zuuluu)(tangon);
-            michal = null;
-            if(zuuluu) { _fun00002_ip = 120; continue _fun00001 }
+            var5 = var3.isNaN;
+            var3 = var6.getTime;
+            var4 = var3.bind(var6)();
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var2 = null;
+            if(var3) { _fun0001_ip = 120; continue _fun0001 }
  91:
-            report = oscard.toLocaleDateString;
-            tangon = argBar;
-            zuuluu = {'year': 'numeric', 'month': 'short'};
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var5 = var6.toLocaleDateString;
+            var4 = arg2;
+            var3 = {'year': 'numeric', 'month': 'short'};
+            var2 = var5.bind(var6)(var4, var3);
  120:
-            return michal;
+            return var2;
  122:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getEstablishedDate'] = tangon;
-    michal = function(argFoo) { // Original name: guildInviteCanEmbedProfile
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getEstablishedDate'] = var4;
+    var2 = function guildInviteCanEmbedProfile(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.guild;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
+            var2 = arg1;
+            var3 = var2.guild;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 150; continue _fun0002 }
  17:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            report = undefined;
-            golfie = oscard.bind(report)(zuuluu);
-            oscard = golfie.fromInviteGuild;
-            zuuluu = michal.guild;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            golfie = zuuluu.features;
-            oscard = golfie.has;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.HUB;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            if(zuuluu) { _fun00004_ip = 146; continue _fun00003 }
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 2;
+            var3 = var5[var3];
+            var5 = undefined;
+            var7 = var6.bind(var5)(var3);
+            var6 = var7.fromInviteGuild;
+            var3 = var2.guild;
+            var3 = var6.bind(var7)(var3);
+            var7 = var3.features;
+            var6 = var7.has;
+            var3 = _closure1_slot3;
+            var3 = var3.HUB;
+            var3 = var6.bind(var7)(var3);
+            if(var3) { _fun0002_ip = 146; continue _fun0002 }
  87:
-            oscard = entity == michal;
-            zuuluu = undefined;
-            if(oscard) { _fun00004_ip = 101; continue _fun00003 }
+            var6 = var1 == var2;
+            var3 = undefined;
+            if(var6) { _fun0002_ip = 101; continue _fun0002 }
  96:
-            zuuluu = michal.channel;
+            var3 = var2.channel;
  101:
-            oscard = entity != zuuluu;
-            zuuluu = null;
-            if(!oscard) { _fun00004_ip = 124; continue _fun00003 }
+            var6 = var1 != var3;
+            var3 = null;
+            if(!var6) { _fun0002_ip = 124; continue _fun0002 }
  110:
-            tangon = _closure1_slot2;
-            michal = michal.channel;
-            zuuluu = tangon.bind(report)(michal);
+            var4 = _closure1_slot2;
+            var2 = var2.channel;
+            var3 = var4.bind(var5)(var2);
  124:
-            entity = entity == zuuluu;
-            if(entity) { _fun00004_ip = 144; continue _fun00003 }
+            var1 = var1 == var3;
+            if(var1) { _fun0002_ip = 144; continue _fun0002 }
  131:
-            michal = zuuluu.isGuildVocal;
-            michal = michal.bind(zuuluu)();
-            entity = !michal;
+            var2 = var3.isGuildVocal;
+            var2 = var2.bind(var3)();
+            var1 = !var2;
  144:
-            return entity;
+            return var1;
  146:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  150:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['guildInviteCanEmbedProfile'] = michal;
-    return entity;
+    var3['guildInviteCanEmbedProfile'] = var2;
+    return var1;
 })();

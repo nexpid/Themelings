@@ -1,142 +1,142 @@
 // app/modules/recent_channels/RecentChannelsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _bulkClearRecents
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _bulkClearRecents() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    offset = argFoo;
+                    var10 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 195; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 195; continue _fun0001 }
  13:
-                    report = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 2;
-                    oscard = option[michal];
-                    zuuluu = undefined;
-                    golfie = report.bind(zuuluu)(oscard);
-                    oscard = golfie.updateUserGuildSettings;
-                    michal = option[michal];
-                    michal = report.bind(zuuluu)(michal);
-                    michal = michal.UserSettingsDelay;
-                    report = michal.INFREQUENT_USER_ACTION;
-                    michal = function(argFoo) {
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 3;
-                        michal = michal[entity];
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
-                        zuuluu = entity.Timestamp;
-                        michal = zuuluu.fromDate;
-                        entity = global;
-                        entity = entity.Date;
-                        tangon = entity.prototype;
-                        tangon = Object.create(tangon, {constructor: {value: entity}});
-                        oscard = tangon;
-                        entity = new oscard[entity](report);
-                        entity = entity instanceof Object ? entity : tangon;
-                        michal = michal.bind(zuuluu)(entity);
-                        entity = argFoo;
-                        entity['guildRecentsDismissedAt'] = michal;
-                        entity = true;
-                        return entity;
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 2;
+                    var6 = var8[var2];
+                    var3 = undefined;
+                    var7 = var5.bind(var3)(var6);
+                    var6 = var7.updateUserGuildSettings;
+                    var2 = var8[var2];
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.UserSettingsDelay;
+                    var5 = var2.INFREQUENT_USER_ACTION;
+                    var2 = function(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 3;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        var3 = var1.Timestamp;
+                        var2 = var3.fromDate;
+                        var1 = global;
+                        var1 = var1.Date;
+                        var4 = var1.prototype;
+                        var4 = Object.create(var4, {constructor: {value: var1}});
+                        var6 = var4;
+                        var1 = new var6[var1](var5);
+                        var1 = var1 instanceof Object ? var1 : var4;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = arg1;
+                        var1['guildRecentsDismissedAt'] = var2;
+                        var1 = true;
+                        return var1;
                     };
-                    michal = oscard.bind(golfie)(offset, michal, report);
+                    var2 = var6.bind(var7)(var10, var2, var5);
                     SaveGenerator(address=85);
  83:
-                    return michal;
+                    return var2;
  85:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 192; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 192; continue _fun0001 }
  91:
-                    oscard = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    report = 4;
-                    report = golfie[report];
-                    verify = oscard.bind(zuuluu)(report);
-                    option = verify.dispatch;
-                    report = {};
-                    yankee = 'BULK_CLEAR_RECENTS';
-                    report['type'] = yankee;
-                    report['guildId'] = offset;
-                    offset = argBar;
-                    report['channelIds'] = offset;
-                    report = option.bind(verify)(report);
-                    report = 5;
-                    report = golfie[report];
-                    golfie = oscard.bind(zuuluu)(report);
-                    oscard = golfie.track;
-                    tangon = _closure1_slot4;
-                    report = tangon.CHANNEL_LIST_UPDATED;
-                    tangon = {};
-                    option = 'recents_dismissed';
-                    tangon['action_type'] = option;
-                    tangon = oscard.bind(golfie)(report, tangon);
-                    return zuuluu;
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var5 = 4;
+                    var5 = var7[var5];
+                    var9 = var6.bind(var3)(var5);
+                    var8 = var9.dispatch;
+                    var5 = {};
+                    var11 = 'BULK_CLEAR_RECENTS';
+                    var5['type'] = var11;
+                    var5['guildId'] = var10;
+                    var10 = arg2;
+                    var5['channelIds'] = var10;
+                    var5 = var8.bind(var9)(var5);
+                    var5 = 5;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.track;
+                    var4 = _closure1_slot4;
+                    var5 = var4.CHANNEL_LIST_UPDATED;
+                    var4 = {};
+                    var8 = 'recents_dismissed';
+                    var4['action_type'] = var8;
+                    var4 = var6.bind(var7)(var5, var4);
+                    return var3;
  192:
-                    return michal;
+                    return var2;
  195:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/recent_channels/RecentChannelsActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: bulkClearRecents
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/recent_channels/RecentChannelsActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function bulkClearRecents() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['bulkClearRecents'] = michal;
-    return entity;
+    var3['bulkClearRecents'] = var2;
+    return var1;
 })();

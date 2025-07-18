@@ -1,203 +1,203 @@
 // app/modules/directory_channels/GuildDirectoryUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = option;
-    report = function(argFoo) { // Original name: orderByTotalMemberCount
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.orderBy;
-        zuuluu = new Array(1);
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.approximateMemberCount;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var8;
+    var5 = function orderByTotalMemberCount(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.orderBy;
+        var3 = new Array(1);
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.approximateMemberCount;
+            return var1;
         };
-        zuuluu[0] = entity;
-        michal = argFoo;
-        entity = ['desc'];
-        entity = tangon.bind(report)(michal, zuuluu, entity);
-        return entity;
+        var3[0] = var1;
+        var2 = arg1;
+        var1 = ['desc'];
+        var1 = var4.bind(var5)(var2, var3, var1);
+        return var1;
     };
-    var _closure1_slot3 = report;
-    tangon = function(argFoo) { // Original name: orderByDateAdded
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.orderBy;
-        zuuluu = new Array(1);
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.createdAt;
-            return entity;
+    var _closure1_slot3 = var5;
+    var4 = function orderByDateAdded(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.orderBy;
+        var3 = new Array(1);
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.createdAt;
+            return var1;
         };
-        zuuluu[0] = entity;
-        michal = argFoo;
-        entity = ['desc'];
-        entity = tangon.bind(report)(michal, zuuluu, entity);
-        return entity;
+        var3[0] = var1;
+        var2 = arg1;
+        var1 = ['desc'];
+        var1 = var4.bind(var5)(var2, var3, var1);
+        return var1;
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.DirectoryEntryTypes;
-    var _closure1_slot2 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/directory_channels/GuildDirectoryUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function(argFoo) { // Original name: guildDirectoryEntryFromServer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.DirectoryEntryTypes;
+    var _closure1_slot2 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/directory_channels/GuildDirectoryUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function guildDirectoryEntryFromServer(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 1;
-            tangon = tangon[michal];
-            michal = undefined;
-            report = report.bind(michal)(tangon);
-            tangon = zuuluu.type;
-            entity = _closure1_slot2;
-            entity = entity.GUILD;
-            tangon = tangon === entity;
-            entity = 'Directory entries must be connected to a guild!';
-            entity = report.bind(michal)(tangon, entity);
-            entity = {};
-            tangon = zuuluu.directory_channel_id;
-            entity['channelId'] = tangon;
-            tangon = zuuluu.entity_id;
-            entity['guildId'] = tangon;
-            tangon = zuuluu.type;
-            entity['type'] = tangon;
-            tangon = zuuluu.author_id;
-            entity['authorId'] = tangon;
-            tangon = zuuluu.created_at;
-            entity['createdAt'] = tangon;
-            tangon = zuuluu.description;
-            entity['description'] = tangon;
-            tangon = zuuluu.primary_category_id;
-            entity['primaryCategoryId'] = tangon;
-            oscard = zuuluu.guild;
-            tangon = null;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 153; continue _fun00001 }
+            var3 = arg1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 1;
+            var4 = var4[var2];
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4);
+            var4 = var3.type;
+            var1 = _closure1_slot2;
+            var1 = var1.GUILD;
+            var4 = var4 === var1;
+            var1 = 'Directory entries must be connected to a guild!';
+            var1 = var5.bind(var2)(var4, var1);
+            var1 = {};
+            var4 = var3.directory_channel_id;
+            var1['channelId'] = var4;
+            var4 = var3.entity_id;
+            var1['guildId'] = var4;
+            var4 = var3.type;
+            var1['type'] = var4;
+            var4 = var3.author_id;
+            var1['authorId'] = var4;
+            var4 = var3.created_at;
+            var1['createdAt'] = var4;
+            var4 = var3.description;
+            var1['description'] = var4;
+            var4 = var3.primary_category_id;
+            var1['primaryCategoryId'] = var4;
+            var6 = var3.guild;
+            var4 = null;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 153; continue _fun0001 }
  148:
-            report = oscard.name;
+            var5 = var6.name;
  153:
-            entity['name'] = report;
-            oscard = zuuluu.guild;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 176; continue _fun00001 }
+            var1['name'] = var5;
+            var6 = var3.guild;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 176; continue _fun0001 }
  171:
-            report = oscard.icon;
+            var5 = var6.icon;
  176:
-            entity['icon'] = report;
-            oscard = zuuluu.guild;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 200; continue _fun00001 }
+            var1['icon'] = var5;
+            var6 = var3.guild;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 200; continue _fun0001 }
  194:
-            report = oscard.splash;
+            var5 = var6.splash;
  200:
-            entity['splash'] = report;
-            report = global;
-            golfie = report.Set;
-            oscard = zuuluu.guild;
-            option = tangon == oscard;
-            report = undefined;
-            if(option) { _fun00002_ip = 233; continue _fun00001 }
+            var1['splash'] = var5;
+            var5 = global;
+            var7 = var5.Set;
+            var6 = var3.guild;
+            var8 = var4 == var6;
+            var5 = undefined;
+            if(var8) { _fun0001_ip = 233; continue _fun0001 }
  227:
-            report = oscard.features;
+            var5 = var6.features;
  233:
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            yankee = oscard;
-            offset = report;
-            report = new yankee[golfie](offset, verify);
-            report = report instanceof Object ? report : oscard;
-            entity['features'] = report;
-            oscard = zuuluu.guild;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 281; continue _fun00001 }
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var11 = var6;
+            var10 = var5;
+            var5 = new var11[var7](var10, var9);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var1['features'] = var5;
+            var6 = var3.guild;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 281; continue _fun0001 }
  275:
-            report = oscard.approximate_member_count;
+            var5 = var6.approximate_member_count;
  281:
-            entity['approximateMemberCount'] = report;
-            oscard = zuuluu.guild;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 306; continue _fun00001 }
+            var1['approximateMemberCount'] = var5;
+            var6 = var3.guild;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 306; continue _fun0001 }
  300:
-            report = oscard.approximate_presence_count;
+            var5 = var6.approximate_presence_count;
  306:
-            entity['approximatePresenceCount'] = report;
-            zuuluu = zuuluu.guild;
-            tangon = tangon == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 333; continue _fun00001 }
+            var1['approximatePresenceCount'] = var5;
+            var3 = var3.guild;
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 333; continue _fun0001 }
  325:
-            michal = zuuluu.featurable_in_directory;
+            var2 = var3.featurable_in_directory;
  333:
-            entity['featurableInDirectory'] = michal;
-            return entity;
+            var1['featurableInDirectory'] = var2;
+            return var1;
         }
     };
-    zuuluu['guildDirectoryEntryFromServer'] = oscard;
-    oscard = 5;
-    zuuluu['MAX_CATEGORY_SERVERS'] = oscard;
-    zuuluu['orderByTotalMemberCount'] = report;
-    zuuluu['orderByDateAdded'] = tangon;
-    tangon = function(argFoo) { // Original name: rankByDateAdded
-        tangon = argFoo;
-        zuuluu = _closure1_slot4;
-        michal = tangon.filter;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.featurableInDirectory;
-            return entity;
+    var3['guildDirectoryEntryFromServer'] = var6;
+    var6 = 5;
+    var3['MAX_CATEGORY_SERVERS'] = var6;
+    var3['orderByTotalMemberCount'] = var5;
+    var3['orderByDateAdded'] = var4;
+    var4 = function rankByDateAdded(arg1) {
+        var4 = arg1;
+        var3 = _closure1_slot4;
+        var2 = var4.filter;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.featurableInDirectory;
+            return var1;
         };
-        michal = michal.bind(tangon)(entity);
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.slice;
-        michal = 0;
-        entity = 5;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var2 = var2.bind(var4)(var1);
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.slice;
+        var2 = 0;
+        var1 = 5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['rankByDateAdded'] = tangon;
-    michal = function(argFoo) { // Original name: rankGuildEntries
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['rankByDateAdded'] = var4;
+    var2 = function rankGuildEntries(arg1) {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['rankGuildEntries'] = michal;
-    return entity;
+    var3['rankGuildEntries'] = var2;
+    return var1;
 })();

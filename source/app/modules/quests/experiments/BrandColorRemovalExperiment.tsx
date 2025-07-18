@@ -1,133 +1,133 @@
 // app/modules/quests/experiments/BrandColorRemovalExperiment.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    yankee = true;
-    golfie['value'] = yankee;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    option = oscard[entity];
-    golfie = argCor;
-    entity = undefined;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot0 = golfie;
-    option = tangon.Date;
-    romeon = tangon.Date;
-    offset = romeon.UTC;
-    verify = 2025;
-    golfie = 5;
-    tangon = 16;
-    kiloes = offset.bind(romeon)(verify, golfie, tangon);
-    golfie = option.prototype;
-    golfie = Object.create(golfie, {constructor: {value: option}});
-    sizing = golfie;
-    tangon = new sizing[option](kiloes, backup);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createExperiment;
-    tangon = {'id': '2025-06_quest_brand_color_removal', 'kind': 'user', 'label': 'Quest Brand Color Removal'};
-    verify = {};
-    offset = false;
-    verify['enabled'] = offset;
-    tangon['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'Enabled'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    tangon['treatments'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/experiments/BrandColorRemovalExperiment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useIsQuestBrandColorRemovalExperimentEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var11 = true;
+    var7['value'] = var11;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var8 = var6[var1];
+    var7 = native4;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot0 = var7;
+    var8 = var4.Date;
+    var12 = var4.Date;
+    var10 = var12.UTC;
+    var9 = 2025;
+    var7 = 5;
+    var4 = 16;
+    var15 = var10.bind(var12)(var9, var7, var4);
+    var7 = var8.prototype;
+    var7 = Object.create(var7, {constructor: {value: var8}});
+    var16 = var7;
+    var4 = new var16[var8](var15, var14);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createExperiment;
+    var4 = {'id': '2025-06_quest_brand_color_removal', 'kind': 'user', 'label': 'Quest Brand Color Removal'};
+    var9 = {};
+    var10 = false;
+    var9['enabled'] = var10;
+    var4['defaultConfig'] = var9;
+    var10 = {'id': 1, 'label': 'Enabled'};
+    var9 = {};
+    var9['enabled'] = var11;
+    var10['config'] = var9;
+    var9 = new Array(1);
+    var9[0] = var10;
+    var4['treatments'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/experiments/BrandColorRemovalExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useIsQuestBrandColorRemovalExperimentEnabled(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.questConfig;
-            var _closure2_slot0 = tangon;
-            entity = entity.location;
-            oscard = _closure1_slot0;
-            report = oscard.useMemo;
-            golfie = tangon.startsAt;
-            tangon = new Array(1);
-            tangon[0] = golfie;
-            michal = function() {
-                entity = global;
-                zuuluu = entity.Date;
-                entity = _closure2_slot0;
-                tangon = entity.startsAt;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+            var1 = arg1;
+            var4 = var1.questConfig;
+            var _closure2_slot0 = var4;
+            var1 = var1.location;
+            var6 = _closure1_slot0;
+            var5 = var6.useMemo;
+            var7 = var4.startsAt;
+            var4 = new Array(1);
+            var4[0] = var7;
+            var2 = function() {
+                var1 = global;
+                var3 = var1.Date;
+                var1 = _closure2_slot0;
+                var4 = var1.startsAt;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             };
-            tangon = report.bind(oscard)(michal, tangon);
-            michal = _closure1_slot1;
-            michal = tangon >= michal;
-            report = _closure1_slot2;
-            tangon = report.useExperiment;
-            zuuluu = {};
-            zuuluu['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = michal;
-            entity = tangon.bind(report)(zuuluu, entity);
-            entity = entity.enabled;
-            if(!entity) { _fun00002_ip = 107; continue _fun00001 }
+            var4 = var5.bind(var6)(var2, var4);
+            var2 = _closure1_slot1;
+            var2 = var4 >= var2;
+            var5 = _closure1_slot2;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var2;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.enabled;
+            if(!var1) { _fun0001_ip = 107; continue _fun0001 }
  104:
-            entity = michal;
+            var1 = var2;
  107:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsQuestBrandColorRemovalExperimentEnabled'] = tangon;
-    michal = function(argFoo) { // Original name: getIsQuestBrandColorRemovalExperimentEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useIsQuestBrandColorRemovalExperimentEnabled'] = var4;
+    var2 = function getIsQuestBrandColorRemovalExperimentEnabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = entity.questConfig;
-            entity = entity.location;
-            zuuluu = global;
-            tangon = zuuluu.Date;
-            option = michal.startsAt;
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            verify = zuuluu;
-            michal = new verify[tangon](option, golfie);
-            tangon = michal instanceof Object ? michal : zuuluu;
-            michal = _closure1_slot1;
-            michal = tangon >= michal;
-            report = _closure1_slot2;
-            tangon = report.getCurrentConfig;
-            zuuluu = {};
-            zuuluu['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = michal;
-            entity = tangon.bind(report)(zuuluu, entity);
-            entity = entity.enabled;
-            if(!entity) { _fun00004_ip = 99; continue _fun00003 }
+            var1 = arg1;
+            var2 = var1.questConfig;
+            var1 = var1.location;
+            var3 = global;
+            var4 = var3.Date;
+            var8 = var2.startsAt;
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var9 = var3;
+            var2 = new var9[var4](var8, var7);
+            var4 = var2 instanceof Object ? var2 : var3;
+            var2 = _closure1_slot1;
+            var2 = var4 >= var2;
+            var5 = _closure1_slot2;
+            var4 = var5.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var2;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.enabled;
+            if(!var1) { _fun0002_ip = 99; continue _fun0002 }
  96:
-            entity = michal;
+            var1 = var2;
  99:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getIsQuestBrandColorRemovalExperimentEnabled'] = michal;
-    return entity;
+    var3['getIsQuestBrandColorRemovalExperimentEnabled'] = var2;
+    return var1;
 })();

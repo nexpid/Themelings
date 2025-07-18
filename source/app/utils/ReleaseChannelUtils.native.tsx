@@ -1,78 +1,78 @@
 // app/utils/ReleaseChannelUtils.native.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        zuuluu = argFre;
-        golfie = argPlu;
-        entity = global;
-        report = entity.Object;
-        tangon = report.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        entity = 0;
-        tangon = golfie[entity];
-        michal = argCor;
-        entity = undefined;
-        tangon = michal.bind(entity)(tangon);
-        michal = tangon.getConstants;
-        michal = michal.bind(tangon)();
-        michal = michal.ReleaseChannel;
-        tangon = 1;
-        tangon = golfie[tangon];
-        report = oscard.bind(entity)(tangon);
-        tangon = report.isAndroid;
-        option = tangon.bind(report)();
-        if(!option) { _fun00002_ip = 122; continue _fun00001 }
+        var6 = native2;
+        var3 = native6;
+        var7 = native7;
+        var1 = global;
+        var5 = var1.Object;
+        var4 = var5.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var5)(var3, var1, var2);
+        var1 = 0;
+        var4 = var7[var1];
+        var2 = native4;
+        var1 = undefined;
+        var4 = var2.bind(var1)(var4);
+        var2 = var4.getConstants;
+        var2 = var2.bind(var4)();
+        var2 = var2.ReleaseChannel;
+        var4 = 1;
+        var4 = var7[var4];
+        var5 = var6.bind(var1)(var4);
+        var4 = var5.isAndroid;
+        var8 = var4.bind(var5)();
+        if(!var8) { _fun0001_ip = 122; continue _fun0001 }
  97:
-        report = michal.indexOf;
-        tangon = 'canary';
-        report = report.bind(michal)(tangon);
-        tangon = -1;
-        option = tangon === report;
+        var5 = var2.indexOf;
+        var4 = 'canary';
+        var5 = var5.bind(var2)(var4);
+        var4 = -1;
+        var8 = var4 === var5;
  122:
-        if(!option) { _fun00002_ip = 150; continue _fun00001 }
+        if(!var8) { _fun0001_ip = 150; continue _fun0001 }
  125:
-        report = michal.indexOf;
-        tangon = 'beta';
-        report = report.bind(michal)(tangon);
-        tangon = -1;
-        option = tangon === report;
+        var5 = var2.indexOf;
+        var4 = 'beta';
+        var5 = var5.bind(var2)(var4);
+        var4 = -1;
+        var8 = var4 === var5;
  150:
-        tangon = 'stable';
-        report = tangon === michal;
-        verify = michal.indexOf;
-        tangon = 'debug';
-        tangon = verify.bind(michal)(tangon);
-        offset = -1;
-        verify = offset !== tangon;
-        if(verify) { _fun00002_ip = 207; continue _fun00001 }
+        var4 = 'stable';
+        var5 = var4 === var2;
+        var9 = var2.indexOf;
+        var4 = 'debug';
+        var4 = var9.bind(var2)(var4);
+        var10 = -1;
+        var9 = var10 !== var4;
+        if(var9) { _fun0001_ip = 207; continue _fun0001 }
  186:
-        yankee = michal.indexOf;
-        tangon = 'developer';
-        tangon = yankee.bind(michal)(tangon);
-        verify = offset !== tangon;
+        var11 = var2.indexOf;
+        var4 = 'developer';
+        var4 = var11.bind(var2)(var4);
+        var9 = var10 !== var4;
  207:
-        tangon = !verify;
-        if(verify) { _fun00002_ip = 222; continue _fun00001 }
+        var4 = !var9;
+        if(var9) { _fun0001_ip = 222; continue _fun0001 }
  213:
-        if(report) { _fun00002_ip = 219; continue _fun00001 }
+        if(var5) { _fun0001_ip = 219; continue _fun0001 }
  216:
-        report = option;
+        var5 = var8;
  219:
-        tangon = report;
+        var4 = var5;
  222:
-        report = 2;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = 'utils/ReleaseChannelUtils.native.tsx';
-        report = oscard.bind(golfie)(report);
-        zuuluu['isStable'] = tangon;
-        zuuluu['CurrentReleaseChannel'] = michal;
-        return entity;
+        var5 = 2;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'utils/ReleaseChannelUtils.native.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['isStable'] = var4;
+        var3['CurrentReleaseChannel'] = var2;
+        return var1;
     }
 })();

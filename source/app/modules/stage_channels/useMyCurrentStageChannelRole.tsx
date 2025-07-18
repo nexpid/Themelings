@@ -1,81 +1,81 @@
 // app/modules/stage_channels/useMyCurrentStageChannelRole.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/stage_channels/useMyCurrentStageChannelRole.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useMyCurrentStageChannelRole
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        golfie = _closure1_slot2;
-        zuuluu = new Array(3);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot3;
-        zuuluu[1] = golfie;
-        michal = _closure1_slot4;
-        zuuluu[2] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/stage_channels/useMyCurrentStageChannelRole.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMyCurrentStageChannelRole(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var7 = _closure1_slot2;
+        var3 = new Array(3);
+        var3[0] = var7;
+        var7 = _closure1_slot3;
+        var3[1] = var7;
+        var2 = _closure1_slot4;
+        var3[2] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure1_slot2;
-                entity = michal.getId;
-                report = entity.bind(michal)();
-                michal = _closure1_slot3;
-                entity = michal.getVoiceChannelId;
-                oscard = entity.bind(michal)();
-                tangon = _closure2_slot0;
-                entity = null;
-                if(!(oscard === tangon)) { _fun00002_ip = 64; continue _fun00001 }
+                var2 = _closure1_slot2;
+                var1 = var2.getId;
+                var5 = var1.bind(var2)();
+                var2 = _closure1_slot3;
+                var1 = var2.getVoiceChannelId;
+                var6 = var1.bind(var2)();
+                var4 = _closure2_slot0;
+                var1 = null;
+                if(!(var6 === var4)) { _fun0001_ip = 64; continue _fun0001 }
  44:
-                tangon = _closure1_slot4;
-                zuuluu = tangon.getPermissionsForUser;
-                michal = _closure2_slot0;
-                entity = zuuluu.bind(tangon)(report, michal);
+                var4 = _closure1_slot4;
+                var3 = var4.getPermissionsForUser;
+                var2 = _closure2_slot0;
+                var1 = var3.bind(var4)(var5, var2);
  64:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

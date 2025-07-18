@@ -1,63 +1,63 @@
 // app/modules/auth/QRLoginUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = /^\\/ra\\/([\w-]+)$/;
-    var _closure1_slot2 = entity;
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/QRLoginUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: findRemoteAuthFingerprint
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = /^\\/ra\\/([\w-]+)$/;
+    var _closure1_slot2 = var1;
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/QRLoginUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function findRemoteAuthFingerprint(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            tangon = argBar;
-            entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 87; continue _fun00001 }
+            var6 = arg1;
+            var4 = arg2;
+            var1 = null;
+            if(!(var1 != var6)) { _fun0001_ip = 87; continue _fun0001 }
  12:
-            if(!(entity != tangon)) { _fun00002_ip = 87; continue _fun00001 }
+            if(!(var1 != var4)) { _fun0001_ip = 87; continue _fun0001 }
  16:
-            golfie = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 0;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            report = golfie.bind(zuuluu)(report);
-            zuuluu = report.isDiscordHostname;
-            zuuluu = zuuluu.bind(report)(oscard);
-            if(!zuuluu) { _fun00002_ip = 87; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 0;
+            var5 = var5[var3];
+            var3 = undefined;
+            var5 = var7.bind(var3)(var5);
+            var3 = var5.isDiscordHostname;
+            var3 = var3.bind(var5)(var6);
+            if(!var3) { _fun0001_ip = 87; continue _fun0001 }
  54:
-            zuuluu = tangon.match;
-            michal = _closure1_slot2;
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = entity != tangon;
-            michal = null;
-            if(!zuuluu) { _fun00002_ip = 85; continue _fun00001 }
+            var3 = var4.match;
+            var2 = _closure1_slot2;
+            var4 = var3.bind(var4)(var2);
+            var3 = var1 != var4;
+            var2 = null;
+            if(!var3) { _fun0001_ip = 85; continue _fun0001 }
  78:
-            zuuluu = 1;
-            michal = tangon[zuuluu];
+            var3 = 1;
+            var2 = var4[var3];
  85:
-            return michal;
+            return var2;
  87:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['findRemoteAuthFingerprint'] = michal;
-    return entity;
+    var3['findRemoteAuthFingerprint'] = var2;
+    return var1;
 })();

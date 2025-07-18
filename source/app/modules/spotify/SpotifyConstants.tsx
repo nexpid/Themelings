@@ -1,315 +1,315 @@
 // app/modules/spotify/SpotifyConstants.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        verify = argBar;
-        zuuluu = argFre;
-        offset = argPlu;
-        romeon = global;
-        oscard = romeon.Object;
-        report = oscard.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(oscard)(zuuluu, entity, tangon);
-        entity = 0;
-        tangon = offset[entity];
-        entity = undefined;
-        tangon = verify.bind(entity)(tangon);
-        tangon = tangon.PlatformTypes;
-        report = 1;
-        oscard = offset[report];
-        report = argBaz;
-        oscard = report.bind(entity)(oscard);
-        report = oscard.get;
-        tangon = tangon.SPOTIFY;
-        tangon = report.bind(oscard)(tangon);
-        golfie = tangon.name;
-        oscard = {};
-        tangon = 'track';
-        oscard['TRACK'] = tangon;
-        tangon = 'artist';
-        oscard['ARTIST'] = tangon;
-        tangon = 'album';
-        oscard['ALBUM'] = tangon;
-        tangon = 'playlist';
-        oscard['PLAYLIST'] = tangon;
-        tangon = 'episode';
-        oscard['EPISODE'] = tangon;
-        tangon = 'show';
-        oscard['SHOW'] = tangon;
-        var _closure1_slot0 = oscard;
-        report = {};
-        tangon = 'user_activity_play';
-        report['USER_ACTIVITY_PLAY'] = tangon;
-        tangon = 'user_activity_sync';
-        report['USER_ACTIVITY_SYNC'] = tangon;
-        tangon = 'embed_sync';
-        report['EMBED_SYNC'] = tangon;
-        backup = function(argFoo) { // Original name: spotifyUtmParams
-            entity = global;
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = '?utm_source=discord&utm_medium=';
-            entity = argFoo;
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+        var9 = native2;
+        var3 = native6;
+        var10 = native7;
+        var12 = global;
+        var6 = var12.Object;
+        var5 = var6.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var6)(var3, var1, var4);
+        var1 = 0;
+        var4 = var10[var1];
+        var1 = undefined;
+        var4 = var9.bind(var1)(var4);
+        var4 = var4.PlatformTypes;
+        var5 = 1;
+        var6 = var10[var5];
+        var5 = native3;
+        var6 = var5.bind(var1)(var6);
+        var5 = var6.get;
+        var4 = var4.SPOTIFY;
+        var4 = var5.bind(var6)(var4);
+        var7 = var4.name;
+        var6 = {};
+        var4 = 'track';
+        var6['TRACK'] = var4;
+        var4 = 'artist';
+        var6['ARTIST'] = var4;
+        var4 = 'album';
+        var6['ALBUM'] = var4;
+        var4 = 'playlist';
+        var6['PLAYLIST'] = var4;
+        var4 = 'episode';
+        var6['EPISODE'] = var4;
+        var4 = 'show';
+        var6['SHOW'] = var4;
+        var _closure1_slot0 = var6;
+        var5 = {};
+        var4 = 'user_activity_play';
+        var5['USER_ACTIVITY_PLAY'] = var4;
+        var4 = 'user_activity_sync';
+        var5['USER_ACTIVITY_SYNC'] = var4;
+        var4 = 'embed_sync';
+        var5['EMBED_SYNC'] = var4;
+        var14 = function spotifyUtmParams(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = '?utm_source=discord&utm_medium=';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
         };
-        var _closure1_slot1 = backup;
-        yankee = romeon.Object;
-        option = yankee.freeze;
-        tangon = {};
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        output = '';
-        sizing = 'https://api.spotify.com/v1';
-        foxtra = '/me';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PROFILE'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/notifications/player';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['NOTIFICATIONS_PLAYER'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/player';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PLAYER'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/player/devices';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PLAYER_DEVICES'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/player/play';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PLAYER_PLAY'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/player/pause';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PLAYER_PAUSE'] = foxtra;
-        foxtra = romeon.HermesInternal;
-        kiloes = foxtra.concat;
-        foxtra = '/me/player/repeat';
-        foxtra = kiloes.bind(output)(sizing, foxtra);
-        tangon['PLAYER_REPEAT'] = foxtra;
-        foxtra = function(argFoo, argBar) { // Original name: WEB_OPEN
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure1_slot1 = var14;
+        var11 = var12.Object;
+        var8 = var11.freeze;
+        var4 = {};
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var17 = '';
+        var16 = 'https://api.spotify.com/v1';
+        var13 = '/me';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PROFILE'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/notifications/player';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['NOTIFICATIONS_PLAYER'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/player';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PLAYER'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/player/devices';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PLAYER_DEVICES'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/player/play';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PLAYER_PLAY'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/player/pause';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PLAYER_PAUSE'] = var13;
+        var13 = var12.HermesInternal;
+        var15 = var13.concat;
+        var13 = '/me/player/repeat';
+        var13 = var15.bind(var17)(var16, var13);
+        var4['PLAYER_REPEAT'] = var13;
+        var13 = function WEB_OPEN(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = arguments[2];
-                zuuluu = undefined;
-                if(!(tangon === zuuluu)) { _fun00004_ip = 13; continue _fun00003 }
+                var4 = arguments[2];
+                var3 = undefined;
+                if(!(var4 === var3)) { _fun0002_ip = 13; continue _fun0002 }
  9:
-                tangon = 'desktop';
+                var4 = 'desktop';
  13:
-                entity = global;
-                report = entity.encodeURIComponent;
-                michal = argFoo;
-                oscard = report.bind(zuuluu)(michal);
-                report = entity.encodeURIComponent;
-                michal = argBar;
-                option = report.bind(zuuluu)(michal);
-                michal = _closure1_slot1;
-                golfie = michal.bind(zuuluu)(tangon);
-                entity = entity.HermesInternal;
-                zuuluu = entity.concat;
-                yankee = 'https://open.spotify.com/';
-                verify = '/';
-                offset = oscard;
-                entity = yankee[zuuluu](offset, verify, option, golfie, oscard);
-                return entity;
+                var1 = global;
+                var5 = var1.encodeURIComponent;
+                var2 = arg1;
+                var6 = var5.bind(var3)(var2);
+                var5 = var1.encodeURIComponent;
+                var2 = arg2;
+                var8 = var5.bind(var3)(var2);
+                var2 = _closure1_slot1;
+                var7 = var2.bind(var3)(var4);
+                var1 = var1.HermesInternal;
+                var3 = var1.concat;
+                var11 = 'https://open.spotify.com/';
+                var9 = '/';
+                var10 = var6;
+                var1 = var11[var3](var10, var9, var8, var7, var6);
+                return var1;
             }
         };
-        tangon['WEB_OPEN'] = foxtra;
-        foxtra = function(argFoo) { // Original name: EMBED
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var4['WEB_OPEN'] = var13;
+        var13 = function EMBED(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = arguments[1];
-                michal = undefined;
-                if(!(zuuluu === michal)) { _fun00006_ip = 13; continue _fun00005 }
+                var3 = arguments[1];
+                var2 = undefined;
+                if(!(var3 === var2)) { _fun0003_ip = 13; continue _fun0003 }
  9:
-                zuuluu = 'desktop';
+                var3 = 'desktop';
  13:
-                entity = _closure1_slot1;
-                tangon = entity.bind(michal)(zuuluu);
-                entity = global;
-                entity = entity.HermesInternal;
-                zuuluu = entity.concat;
-                michal = 'https://open.spotify.com/embed';
-                entity = argFoo;
-                entity = zuuluu.bind(michal)(entity, tangon);
-                return entity;
+                var1 = _closure1_slot1;
+                var4 = var1.bind(var2)(var3);
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var3 = var1.concat;
+                var2 = 'https://open.spotify.com/embed';
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1, var4);
+                return var1;
             }
         };
-        tangon['EMBED'] = foxtra;
-        foxtra = function(argFoo, argBar) { // Original name: PLAYER_OPEN
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var4['EMBED'] = var13;
+        var13 = function PLAYER_OPEN(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                michal = arguments[2];
-                option = arguments[3];
-                zuuluu = undefined;
-                if(!(michal === zuuluu)) { _fun00008_ip = 14; continue _fun00007 }
+                var2 = arguments[2];
+                var8 = arguments[3];
+                var3 = undefined;
+                if(!(var2 === var3)) { _fun0004_ip = 14; continue _fun0004 }
  12:
-                michal = true;
+                var2 = true;
  14:
-                if(!(option === zuuluu)) { _fun00008_ip = 22; continue _fun00007 }
+                if(!(var8 === var3)) { _fun0004_ip = 22; continue _fun0004 }
  18:
-                option = 'desktop';
+                var8 = 'desktop';
  22:
-                entity = global;
-                report = entity.encodeURIComponent;
-                tangon = argFoo;
-                golfie = report.bind(zuuluu)(tangon);
-                report = entity.encodeURIComponent;
-                tangon = argBar;
-                oscard = report.bind(zuuluu)(tangon);
-                report = '';
-                tangon = report;
-                if(!michal) { _fun00008_ip = 74; continue _fun00007 }
+                var1 = global;
+                var5 = var1.encodeURIComponent;
+                var4 = arg1;
+                var7 = var5.bind(var3)(var4);
+                var5 = var1.encodeURIComponent;
+                var4 = arg2;
+                var6 = var5.bind(var3)(var4);
+                var5 = '';
+                var4 = var5;
+                if(!var2) { _fun0004_ip = 74; continue _fun0004 }
  62:
-                michal = _closure1_slot1;
-                tangon = michal.bind(zuuluu)(option);
+                var2 = _closure1_slot1;
+                var4 = var2.bind(var3)(var8);
  74:
-                entity = entity.HermesInternal;
-                zuuluu = entity.concat;
-                backup = 'spotify';
-                entity = ':';
-                kiloes = report;
-                foxtra = entity;
-                romeon = golfie;
-                yankee = entity;
-                offset = oscard;
-                verify = tangon;
-                entity = kiloes[zuuluu](backup, foxtra, romeon, yankee, offset, verify, option);
-                return entity;
+                var1 = var1.HermesInternal;
+                var3 = var1.concat;
+                var14 = 'spotify';
+                var1 = ':';
+                var15 = var5;
+                var13 = var1;
+                var12 = var7;
+                var11 = var1;
+                var10 = var6;
+                var9 = var4;
+                var1 = var15[var3](var14, var13, var12, var11, var10, var9, var8);
+                return var1;
             }
         };
-        tangon['PLAYER_OPEN'] = foxtra;
-        foxtra = 'desktop';
-        backup = backup.bind(entity)(foxtra);
-        romeon = romeon.HermesInternal;
-        foxtra = romeon.concat;
-        romeon = 'https://www.spotify.com/premium/';
-        romeon = foxtra.bind(romeon)(backup);
-        tangon['PREMIUM_SITE'] = romeon;
-        romeon = function(argFoo) { // Original name: INSTALL_ATTRIBUTION
-            entity = global;
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            michal = 'https://app.adjust.com/bdyga9?campaign=';
-            entity = argFoo;
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+        var4['PLAYER_OPEN'] = var13;
+        var13 = 'desktop';
+        var14 = var14.bind(var1)(var13);
+        var12 = var12.HermesInternal;
+        var13 = var12.concat;
+        var12 = 'https://www.spotify.com/premium/';
+        var12 = var13.bind(var12)(var14);
+        var4['PREMIUM_SITE'] = var12;
+        var12 = function INSTALL_ATTRIBUTION(arg1) {
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var2 = 'https://app.adjust.com/bdyga9?campaign=';
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            return var1;
         };
-        tangon['INSTALL_ATTRIBUTION'] = romeon;
-        romeon = 2;
-        romeon = offset[romeon];
-        foxtra = verify.bind(entity)(romeon);
-        romeon = foxtra.isAndroid;
-        backup = romeon.bind(foxtra)();
-        romeon = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
-        foxtra = romeon;
-        if(!backup) { _fun00002_ip = 558; continue _fun00001 }
+        var4['INSTALL_ATTRIBUTION'] = var12;
+        var12 = 2;
+        var12 = var10[var12];
+        var13 = var9.bind(var1)(var12);
+        var12 = var13.isAndroid;
+        var14 = var12.bind(var13)();
+        var12 = 'https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8';
+        var13 = var12;
+        if(!var14) { _fun0001_ip = 558; continue _fun0001 }
  552:
-        foxtra = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
+        var13 = 'https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_US&gl=US';
  558:
-        tangon['APP_STORE'] = foxtra;
-        tangon['IOS_APP_STORE'] = romeon;
-        tangon = option.bind(yankee)(tangon);
-        option = 3;
-        option = offset[option];
-        offset = verify.bind(entity)(option);
-        verify = offset.fileFinishedImporting;
-        option = 'modules/spotify/SpotifyConstants.tsx';
-        option = verify.bind(offset)(option);
-        option = 'spotify';
-        zuuluu['SPOTIFY_APP_PROTOCOL'] = option;
-        option = 'spotify:';
-        zuuluu['SPOTIFY_PARTY_PREFIX'] = option;
-        zuuluu['SPOTIFY_PLATFORM_NAME'] = golfie;
-        golfie = function(argFoo) { // Original name: isSpotifyParty
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var4['APP_STORE'] = var13;
+        var4['IOS_APP_STORE'] = var12;
+        var4 = var8.bind(var11)(var4);
+        var8 = 3;
+        var8 = var10[var8];
+        var10 = var9.bind(var1)(var8);
+        var9 = var10.fileFinishedImporting;
+        var8 = 'modules/spotify/SpotifyConstants.tsx';
+        var8 = var9.bind(var10)(var8);
+        var8 = 'spotify';
+        var3['SPOTIFY_APP_PROTOCOL'] = var8;
+        var8 = 'spotify:';
+        var3['SPOTIFY_PARTY_PREFIX'] = var8;
+        var3['SPOTIFY_PLATFORM_NAME'] = var7;
+        var7 = function isSpotifyParty(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = argFoo;
-                entity = null;
-                entity = entity != tangon;
-                if(!entity) { _fun00010_ip = 29; continue _fun00009 }
+                var4 = arg1;
+                var1 = null;
+                var1 = var1 != var4;
+                if(!var1) { _fun0005_ip = 29; continue _fun0005 }
  12:
-                zuuluu = tangon.startsWith;
-                michal = 'spotify:';
-                entity = zuuluu.bind(tangon)(michal);
+                var3 = var4.startsWith;
+                var2 = 'spotify:';
+                var1 = var3.bind(var4)(var2);
  29:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['isSpotifyParty'] = golfie;
-        zuuluu['SpotifyResourceTypes'] = oscard;
-        zuuluu['SpotifyActionTypes'] = report;
-        report = ['open.spotify.com', 'www.spotify.com'];
-        zuuluu['SPOTIFY_HOSTNAMES'] = report;
-        zuuluu['SpotifyEndpoints'] = tangon;
-        michal = function(argFoo) { // Original name: getSpotifyResourceType
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var3['isSpotifyParty'] = var7;
+        var3['SpotifyResourceTypes'] = var6;
+        var3['SpotifyActionTypes'] = var5;
+        var5 = ['open.spotify.com', 'www.spotify.com'];
+        var3['SPOTIFY_HOSTNAMES'] = var5;
+        var3['SpotifyEndpoints'] = var4;
+        var2 = function getSpotifyResourceType(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                michal = argFoo;
-                zuuluu = 'string';
-                entity = typeof michal;
-                if(!(zuuluu === entity)) { _fun00012_ip = 166; continue _fun00011 }
+                var2 = arg1;
+                var3 = 'string';
+                var1 = typeof var2;
+                if(!(var3 === var1)) { _fun0006_ip = 166; continue _fun0006 }
  17:
-                entity = 'track';
-                if(!(entity !== michal)) { _fun00012_ip = 151; continue _fun00011 }
+                var1 = 'track';
+                if(!(var1 !== var2)) { _fun0006_ip = 151; continue _fun0006 }
  28:
-                entity = 'artist';
-                if(!(entity !== michal)) { _fun00012_ip = 136; continue _fun00011 }
+                var1 = 'artist';
+                if(!(var1 !== var2)) { _fun0006_ip = 136; continue _fun0006 }
  36:
-                entity = 'album';
-                if(!(entity !== michal)) { _fun00012_ip = 121; continue _fun00011 }
+                var1 = 'album';
+                if(!(var1 !== var2)) { _fun0006_ip = 121; continue _fun0006 }
  44:
-                entity = 'playlist';
-                if(!(entity !== michal)) { _fun00012_ip = 106; continue _fun00011 }
+                var1 = 'playlist';
+                if(!(var1 !== var2)) { _fun0006_ip = 106; continue _fun0006 }
  54:
-                entity = 'episode';
-                if(!(entity !== michal)) { _fun00012_ip = 91; continue _fun00011 }
+                var1 = 'episode';
+                if(!(var1 !== var2)) { _fun0006_ip = 91; continue _fun0006 }
  64:
-                entity = 'show';
-                if(!(entity !== michal)) { _fun00012_ip = 76; continue _fun00011 }
+                var1 = 'show';
+                if(!(var1 !== var2)) { _fun0006_ip = 76; continue _fun0006 }
  72:
-                entity = null;
-                return entity;
+                var1 = null;
+                return var1;
  76:
-                entity = _closure1_slot0;
-                entity = entity.SHOW;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.SHOW;
+                return var1;
  91:
-                entity = _closure1_slot0;
-                entity = entity.EPISODE;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.EPISODE;
+                return var1;
  106:
-                entity = _closure1_slot0;
-                entity = entity.PLAYLIST;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.PLAYLIST;
+                return var1;
  121:
-                entity = _closure1_slot0;
-                entity = entity.ALBUM;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.ALBUM;
+                return var1;
  136:
-                entity = _closure1_slot0;
-                entity = entity.ARTIST;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.ARTIST;
+                return var1;
  151:
-                entity = _closure1_slot0;
-                entity = entity.TRACK;
-                return entity;
+                var1 = _closure1_slot0;
+                var1 = var1.TRACK;
+                return var1;
  166:
-                entity = null;
-                return entity;
+                var1 = null;
+                return var1;
             }
         };
-        zuuluu['getSpotifyResourceType'] = michal;
-        return entity;
+        var3['getSpotifyResourceType'] = var2;
+        return var1;
     }
 })();

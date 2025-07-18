@@ -1,205 +1,205 @@
 // app/modules/collectibles/utils/ErrorHandlingUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    option = golfie.AbortCodes;
-    verify = option.UNAUTHORIZED;
-    golfie = new Array(3);
-    golfie[0] = verify;
-    verify = option.EMAIL_VERIFICATION_REQUIRED;
-    golfie[1] = verify;
-    option = option.USER_BANNED;
-    golfie[2] = option;
-    var _closure1_slot2 = golfie;
-    verify = tangon.Set;
-    golfie = verify.prototype;
-    option = Object.create(golfie, {constructor: {value: verify}});
-    romeon = [500, 502, 503, 504];
-    foxtra = option;
-    golfie = new foxtra[verify](romeon, yankee);
-    golfie = golfie instanceof Object ? golfie : option;
-    var _closure1_slot3 = golfie;
-    option = tangon.Set;
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = [401, 403, 405, 409, 429];
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/utils/ErrorHandlingUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var8 = var7.AbortCodes;
+    var9 = var8.UNAUTHORIZED;
+    var7 = new Array(3);
+    var7[0] = var9;
+    var9 = var8.EMAIL_VERIFICATION_REQUIRED;
+    var7[1] = var9;
+    var8 = var8.USER_BANNED;
+    var7[2] = var8;
+    var _closure1_slot2 = var7;
+    var9 = var4.Set;
+    var7 = var9.prototype;
+    var8 = Object.create(var7, {constructor: {value: var9}});
+    var12 = [500, 502, 503, 504];
+    var13 = var8;
+    var7 = new var13[var9](var12, var11);
+    var7 = var7 instanceof Object ? var7 : var8;
+    var _closure1_slot3 = var7;
+    var8 = var4.Set;
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = [401, 403, 405, 409, 429];
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/collectibles/utils/ErrorHandlingUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            offset = null;
-            entity = offset == zuuluu;
-            if(entity) { _fun00002_ip = 377; continue _fun00001 }
+            var3 = arg1;
+            var10 = null;
+            var1 = var10 == var3;
+            if(var1) { _fun0001_ip = 377; continue _fun0001 }
  15:
-            tangon = offset == zuuluu;
-            michal = false;
-            if(tangon) { _fun00002_ip = 374; continue _fun00001 }
+            var4 = var10 == var3;
+            var2 = false;
+            if(var4) { _fun0001_ip = 374; continue _fun0001 }
  27:
-            report = offset == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 42; continue _fun00001 }
+            var5 = var10 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 42; continue _fun0001 }
  36:
-            tangon = zuuluu.cause;
+            var4 = var3.cause;
  42:
-            oscard = offset == tangon;
-            report = undefined;
-            if(oscard) { _fun00002_ip = 57; continue _fun00001 }
+            var6 = var10 == var4;
+            var5 = undefined;
+            if(var6) { _fun0001_ip = 57; continue _fun0001 }
  51:
-            report = tangon.crossDomain;
+            var5 = var4.crossDomain;
  57:
-            tangon = true;
-            tangon = tangon === report;
-            if(tangon) { _fun00002_ip = 371; continue _fun00001 }
+            var4 = true;
+            var4 = var4 === var5;
+            if(var4) { _fun0001_ip = 371; continue _fun0001 }
  69:
-            report = 'status';
-            report = report in zuuluu;
-            oscard = !report;
-            if(!report) { _fun00002_ip = 99; continue _fun00001 }
+            var5 = 'status';
+            var5 = var5 in var3;
+            var6 = !var5;
+            if(!var5) { _fun0001_ip = 99; continue _fun0001 }
  83:
-            report = zuuluu.status;
-            golfie = 'number';
-            report = typeof report;
-            oscard = golfie !== report;
+            var5 = var3.status;
+            var7 = 'number';
+            var5 = typeof var5;
+            var6 = var7 !== var5;
  99:
-            if(oscard) { _fun00002_ip = 172; continue _fun00001 }
+            if(var6) { _fun0001_ip = 172; continue _fun0001 }
  102:
-            golfie = zuuluu.status;
-            report = 0;
-            report = report !== golfie;
-            if(!report) { _fun00002_ip = 141; continue _fun00001 }
+            var7 = var3.status;
+            var5 = 0;
+            var5 = var5 !== var7;
+            if(!var5) { _fun0001_ip = 141; continue _fun0001 }
  116:
-            yankee = _closure1_slot3;
-            verify = yankee.has;
-            golfie = zuuluu.status;
-            golfie = verify.bind(yankee)(golfie);
-            report = !golfie;
+            var11 = _closure1_slot3;
+            var9 = var11.has;
+            var7 = var3.status;
+            var7 = var9.bind(var11)(var7);
+            var5 = !var7;
  141:
-            if(!report) { _fun00002_ip = 169; continue _fun00001 }
+            if(!var5) { _fun0001_ip = 169; continue _fun0001 }
  144:
-            yankee = _closure1_slot4;
-            verify = yankee.has;
-            golfie = zuuluu.status;
-            golfie = verify.bind(yankee)(golfie);
-            report = !golfie;
+            var11 = _closure1_slot4;
+            var9 = var11.has;
+            var7 = var3.status;
+            var7 = var9.bind(var11)(var7);
+            var5 = !var7;
  169:
-            oscard = report;
+            var6 = var5;
  172:
-            report = !oscard;
-            if(!oscard) { _fun00002_ip = 368; continue _fun00001 }
+            var5 = !var6;
+            if(!var6) { _fun0001_ip = 368; continue _fun0001 }
  181:
-            yankee = 'code';
-            oscard = yankee in zuuluu;
-            golfie = !oscard;
-            if(!oscard) { _fun00002_ip = 211; continue _fun00001 }
+            var11 = 'code';
+            var6 = var11 in var3;
+            var7 = !var6;
+            if(!var6) { _fun0001_ip = 211; continue _fun0001 }
  195:
-            oscard = zuuluu.code;
-            verify = 'number';
-            oscard = typeof oscard;
-            golfie = verify !== oscard;
+            var6 = var3.code;
+            var9 = 'number';
+            var6 = typeof var6;
+            var7 = var9 !== var6;
  211:
-            if(golfie) { _fun00002_ip = 239; continue _fun00001 }
+            if(var7) { _fun0001_ip = 239; continue _fun0001 }
  214:
-            romeon = _closure1_slot2;
-            verify = romeon.includes;
-            oscard = zuuluu.code;
-            oscard = verify.bind(romeon)(oscard);
-            golfie = !oscard;
+            var12 = _closure1_slot2;
+            var9 = var12.includes;
+            var6 = var3.code;
+            var6 = var9.bind(var12)(var6);
+            var7 = !var6;
  239:
-            oscard = !golfie;
-            if(!golfie) { _fun00002_ip = 365; continue _fun00001 }
+            var6 = !var7;
+            if(!var7) { _fun0001_ip = 365; continue _fun0001 }
  245:
-            golfie = 'body';
-            golfie = golfie in zuuluu;
-            if(!golfie) { _fun00002_ip = 265; continue _fun00001 }
+            var7 = 'body';
+            var7 = var7 in var3;
+            if(!var7) { _fun0001_ip = 265; continue _fun0001 }
  256:
-            verify = zuuluu.body;
-            golfie = offset != verify;
+            var9 = var3.body;
+            var7 = var10 != var9;
  265:
-            if(!golfie) { _fun00002_ip = 284; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 284; continue _fun0001 }
  268:
-            verify = zuuluu.body;
-            romeon = 'object';
-            verify = typeof verify;
-            golfie = romeon === verify;
+            var9 = var3.body;
+            var12 = 'object';
+            var9 = typeof var9;
+            var7 = var12 === var9;
  284:
-            if(!golfie) { _fun00002_ip = 296; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 296; continue _fun0001 }
  287:
-            verify = zuuluu.body;
-            golfie = yankee in verify;
+            var9 = var3.body;
+            var7 = var11 in var9;
  296:
-            if(!golfie) { _fun00002_ip = 329; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 329; continue _fun0001 }
  299:
-            verify = zuuluu.body;
-            offset = offset == verify;
-            option = undefined;
-            if(offset) { _fun00002_ip = 318; continue _fun00001 }
+            var9 = var3.body;
+            var10 = var10 == var9;
+            var8 = undefined;
+            if(var10) { _fun0001_ip = 318; continue _fun0001 }
  313:
-            option = verify.code;
+            var8 = var9.code;
  318:
-            verify = 'number';
-            option = typeof option;
-            golfie = verify === option;
+            var9 = 'number';
+            var8 = typeof var8;
+            var7 = var9 === var8;
  329:
-            if(!golfie) { _fun00002_ip = 359; continue _fun00001 }
+            if(!var7) { _fun0001_ip = 359; continue _fun0001 }
  332:
-            offset = _closure1_slot2;
-            verify = offset.includes;
-            option = zuuluu.body;
-            option = option.code;
-            golfie = verify.bind(offset)(option);
+            var10 = _closure1_slot2;
+            var9 = var10.includes;
+            var8 = var3.body;
+            var8 = var8.code;
+            var7 = var9.bind(var10)(var8);
  359:
-            golfie = !golfie;
-            oscard = !golfie;
+            var7 = !var7;
+            var6 = !var7;
  365:
-            report = oscard;
+            var5 = var6;
  368:
-            tangon = report;
+            var4 = var5;
  371:
-            michal = tangon;
+            var2 = var4;
  374:
-            entity = michal;
+            var1 = var2;
  377:
-            if(entity) { _fun00002_ip = 416; continue _fun00001 }
+            if(var1) { _fun0001_ip = 416; continue _fun0001 }
  380:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            entity = michal.captureException;
-            entity = entity.bind(michal)(zuuluu);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var1 = var2.captureException;
+            var1 = var1.bind(var2)(var3);
  416:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['captureOrIgnoreApiError'] = michal;
-    return entity;
+    var3['captureOrIgnoreApiError'] = var2;
+    return var1;
 })();

@@ -1,109 +1,109 @@
 // app/modules/activities/useIsActivityFocused.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: isActivityFocused
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function isActivityFocused(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.channelId;
-            michal = entity.ChannelRTCStore;
-            zuuluu = entity.EmbeddedActivitiesStore;
-            entity = michal.getSelectedParticipant;
-            michal = entity.bind(michal)(tangon);
-            entity = zuuluu.getCurrentEmbeddedActivity;
-            golfie = entity.bind(zuuluu)();
-            option = null;
-            entity = option != michal;
-            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
+            var1 = arg1;
+            var4 = var1.channelId;
+            var2 = var1.ChannelRTCStore;
+            var3 = var1.EmbeddedActivitiesStore;
+            var1 = var2.getSelectedParticipant;
+            var2 = var1.bind(var2)(var4);
+            var1 = var3.getCurrentEmbeddedActivity;
+            var7 = var1.bind(var3)();
+            var8 = null;
+            var1 = var8 != var2;
+            if(!var1) { _fun0001_ip = 54; continue _fun0001 }
  50:
-            entity = option != golfie;
+            var1 = var8 != var7;
  54:
-            if(!entity) { _fun00002_ip = 131; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 131; continue _fun0001 }
  57:
-            zuuluu = michal.id;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 2;
-            michal = report[michal];
-            oscard = undefined;
-            report = tangon.bind(oscard)(michal);
-            tangon = report.getEmbeddedActivityParticipantId;
-            michal = {};
-            verify = golfie.applicationId;
-            michal['applicationId'] = verify;
-            option = option == golfie;
-            if(option) { _fun00002_ip = 117; continue _fun00001 }
+            var3 = var2.id;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 2;
+            var2 = var5[var2];
+            var6 = undefined;
+            var5 = var4.bind(var6)(var2);
+            var4 = var5.getEmbeddedActivityParticipantId;
+            var2 = {};
+            var9 = var7.applicationId;
+            var2['applicationId'] = var9;
+            var8 = var8 == var7;
+            if(var8) { _fun0001_ip = 117; continue _fun0001 }
  111:
-            oscard = golfie.compositeInstanceId;
+            var6 = var7.compositeInstanceId;
  117:
-            michal['instanceId'] = oscard;
-            michal = tangon.bind(report)(michal);
-            entity = zuuluu === michal;
+            var2['instanceId'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var1 = var3 === var2;
  131:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/activities/useIsActivityFocused.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useIsActivityFocused
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 3;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot2;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot3;
-        michal[1] = report;
-        entity = function() {
-            zuuluu = _closure1_slot4;
-            michal = {};
-            tangon = _closure2_slot0;
-            michal['channelId'] = tangon;
-            tangon = _closure1_slot2;
-            michal['ChannelRTCStore'] = tangon;
-            entity = _closure1_slot3;
-            michal['EmbeddedActivitiesStore'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/activities/useIsActivityFocused.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useIsActivityFocused(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 3;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot2;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot3;
+        var2[1] = var5;
+        var1 = function() {
+            var3 = _closure1_slot4;
+            var2 = {};
+            var4 = _closure2_slot0;
+            var2['channelId'] = var4;
+            var4 = _closure1_slot2;
+            var2['ChannelRTCStore'] = var4;
+            var1 = _closure1_slot3;
+            var2['EmbeddedActivitiesStore'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['isActivityFocused'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['isActivityFocused'] = var2;
+    return var1;
 })();

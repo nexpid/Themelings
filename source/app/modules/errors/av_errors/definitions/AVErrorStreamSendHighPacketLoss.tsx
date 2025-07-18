@@ -1,145 +1,145 @@
 // app/modules/errors/av_errors/definitions/AVErrorStreamSendHighPacketLoss.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = function() { // Original name: getActiveErrors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = function getActiveErrors() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot2;
-            entity = michal.getCurrentUserActiveStream;
-            verify = entity.bind(michal)();
-            entity = null;
-            if(!(entity != verify)) { _fun00002_ip = 335; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var1 = var2.getCurrentUserActiveStream;
+            var9 = var1.bind(var2)();
+            var1 = null;
+            if(!(var1 != var9)) { _fun0001_ip = 335; continue _fun0001 }
  26:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getViewerIds;
-            michal = michal.bind(zuuluu)(verify);
-            zuuluu = michal.length;
-            michal = 0;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 333; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var2 = var3.getViewerIds;
+            var2 = var2.bind(var3)(var9);
+            var3 = var2.length;
+            var2 = 0;
+            if(!(var2 !== var3)) { _fun0001_ip = 333; continue _fun0001 }
  55:
-            report = _closure1_slot3;
-            zuuluu = report.getRTCConnection;
-            oscard = _closure1_slot0;
-            michal = _closure1_slot1;
-            yankee = 2;
-            michal = michal[yankee];
-            offset = undefined;
-            oscard = oscard.bind(offset)(michal);
-            michal = oscard.encodeStreamKey;
-            michal = michal.bind(oscard)(verify);
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = entity == zuuluu;
-            oscard = undefined;
-            if(michal) { _fun00002_ip = 122; continue _fun00001 }
+            var5 = _closure1_slot3;
+            var3 = var5.getRTCConnection;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var11 = 2;
+            var2 = var2[var11];
+            var10 = undefined;
+            var6 = var6.bind(var10)(var2);
+            var2 = var6.encodeStreamKey;
+            var2 = var2.bind(var6)(var9);
+            var3 = var3.bind(var5)(var2);
+            var2 = var1 == var3;
+            var6 = undefined;
+            if(var2) { _fun0001_ip = 122; continue _fun0001 }
  112:
-            michal = zuuluu.getMediaEngineConnectionId;
-            oscard = michal.bind(zuuluu)();
+            var2 = var3.getMediaEngineConnectionId;
+            var6 = var2.bind(var3)();
  122:
-            if(!(entity != oscard)) { _fun00002_ip = 331; continue _fun00001 }
+            if(!(var1 != var6)) { _fun0001_ip = 331; continue _fun0001 }
  129:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            report = zuuluu.bind(offset)(michal);
-            zuuluu = report.getAccumulatedStatsWithMinDatapoints;
-            michal = verify.ownerId;
-            zuuluu = zuuluu.bind(report)(oscard, michal);
-            report = entity == zuuluu;
-            michal = null;
-            if(report) { _fun00002_ip = 329; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 3;
+            var2 = var5[var2];
+            var5 = var3.bind(var10)(var2);
+            var3 = var5.getAccumulatedStatsWithMinDatapoints;
+            var2 = var9.ownerId;
+            var3 = var3.bind(var5)(var6, var2);
+            var5 = var1 == var3;
+            var2 = null;
+            if(var5) { _fun0001_ip = 329; continue _fun0001 }
  179:
-            report = zuuluu.short;
-            oscard = report.packetLossRate;
-            report = 100;
-            golfie = report * oscard;
-            oscard = 10;
-            if(!(!(golfie > oscard))) { _fun00002_ip = 227; continue _fun00001 }
+            var5 = var3.short;
+            var6 = var5.packetLossRate;
+            var5 = 100;
+            var7 = var5 * var6;
+            var6 = 10;
+            if(!(!(var7 > var6))) { _fun0001_ip = 227; continue _fun0001 }
  205:
-            zuuluu = zuuluu.long;
-            zuuluu = zuuluu.packetLossRate;
-            report = report * zuuluu;
-            zuuluu = undefined;
-            if(!(report > oscard)) { _fun00002_ip = 326; continue _fun00001 }
+            var3 = var3.long;
+            var3 = var3.packetLossRate;
+            var5 = var5 * var3;
+            var3 = undefined;
+            if(!(var5 > var6)) { _fun0001_ip = 326; continue _fun0001 }
  227:
-            report = {};
-            option = _closure1_slot0;
-            tangon = _closure1_slot1;
-            oscard = 4;
-            oscard = tangon[oscard];
-            oscard = option.bind(offset)(oscard);
-            oscard = oscard.AVError;
-            oscard = oscard.STREAM_SEND_HIGH_PACKET_LOSS;
-            report['type'] = oscard;
-            oscard = 5;
-            oscard = tangon[oscard];
-            golfie = option.bind(offset)(oscard);
-            oscard = golfie.getStreamErrorContext;
-            tangon = tangon[yankee];
-            option = option.bind(offset)(tangon);
-            tangon = option.encodeStreamKey;
-            tangon = tangon.bind(option)(verify);
-            romeon = oscard.bind(golfie)(tangon);
-            foxtra = report;
-            tangon = copyDataProperties(foxtra, romeon);
-            tangon = new Array(1);
-            tangon[0] = report;
-            zuuluu = tangon;
+            var5 = {};
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var6 = 4;
+            var6 = var4[var6];
+            var6 = var8.bind(var10)(var6);
+            var6 = var6.AVError;
+            var6 = var6.STREAM_SEND_HIGH_PACKET_LOSS;
+            var5['type'] = var6;
+            var6 = 5;
+            var6 = var4[var6];
+            var7 = var8.bind(var10)(var6);
+            var6 = var7.getStreamErrorContext;
+            var4 = var4[var11];
+            var8 = var8.bind(var10)(var4);
+            var4 = var8.encodeStreamKey;
+            var4 = var4.bind(var8)(var9);
+            var12 = var6.bind(var7)(var4);
+            var13 = var5;
+            var4 = copyDataProperties(var13, var12);
+            var4 = new Array(1);
+            var4[0] = var5;
+            var3 = var4;
  326:
-            michal = zuuluu;
+            var2 = var3;
  329:
-            return michal;
+            return var2;
  331:
-            return entity;
+            return var1;
  333:
-            return entity;
+            return var1;
  335:
-            return entity;
+            return var1;
         }
     };
-    michal['getActiveErrors'] = golfie;
-    tangon = function(argFoo) { // Original name: makeErrorContextKey
-        entity = argFoo;
-        report = entity.streamKey;
-        tangon = entity.mediaSessionId;
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = '';
-        entity = ':';
-        entity = zuuluu.bind(michal)(report, entity, tangon);
-        return entity;
+    var2['getActiveErrors'] = var7;
+    var4 = function makeErrorContextKey(arg1) {
+        var1 = arg1;
+        var5 = var1.streamKey;
+        var4 = var1.mediaSessionId;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '';
+        var1 = ':';
+        var1 = var3.bind(var2)(var5, var1, var4);
+        return var1;
     };
-    michal['makeErrorContextKey'] = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/av_errors/definitions/AVErrorStreamSendHighPacketLoss.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['AVErrorStreamSendHighPacketLossDefinition'] = michal;
-    return entity;
+    var2['makeErrorContextKey'] = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/errors/av_errors/definitions/AVErrorStreamSendHighPacketLoss.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['AVErrorStreamSendHighPacketLossDefinition'] = var2;
+    return var1;
 })();

@@ -1,289 +1,289 @@
 // app/components_native/chat/getMessageJumpData.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/chat/getMessageJumpData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz) { // Original name: getMessageJumpData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/chat/getMessageJumpData.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getMessageJumpData(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            yankee = argFoo;
-            offset = argBar;
-            backup = argBaz;
-            entity = yankee.messages;
-            michal = entity.last;
-            kiloes = michal.bind(entity)();
-            verify = backup.messages;
-            michal = verify.last;
-            oscard = michal.bind(verify)();
-            zuuluu = _closure1_slot6;
-            michal = zuuluu.getCurrentUser;
-            option = michal.bind(zuuluu)();
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 6;
-            michal = tangon[michal];
-            sizing = undefined;
-            michal = zuuluu.bind(sizing)(michal);
-            michal = michal.JumpTypes;
-            romeon = michal.ANIMATED;
-            golfie = entity.jumpSequenceId;
-            tangon = entity.focusTargetId;
-            zuuluu = entity.initialScrollSequenceId;
-            michal = verify.initialScrollSequenceId;
-            michal = zuuluu !== michal;
-            output = michal;
-            if(michal) { _fun00002_ip = 141; continue _fun00001 }
+            var11 = arg1;
+            var10 = arg2;
+            var14 = arg3;
+            var1 = var11.messages;
+            var2 = var1.last;
+            var15 = var2.bind(var1)();
+            var9 = var14.messages;
+            var2 = var9.last;
+            var6 = var2.bind(var9)();
+            var3 = _closure1_slot6;
+            var2 = var3.getCurrentUser;
+            var8 = var2.bind(var3)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var16 = undefined;
+            var2 = var3.bind(var16)(var2);
+            var2 = var2.JumpTypes;
+            var12 = var2.ANIMATED;
+            var7 = var1.jumpSequenceId;
+            var4 = var1.focusTargetId;
+            var3 = var1.initialScrollSequenceId;
+            var2 = var9.initialScrollSequenceId;
+            var2 = var3 !== var2;
+            var17 = var2;
+            if(var2) { _fun0001_ip = 141; continue _fun0001 }
  125:
-            report = verify.jumpSequenceId;
-            zuuluu = entity.jumpSequenceId;
-            output = report !== zuuluu;
+            var5 = var9.jumpSequenceId;
+            var3 = var1.jumpSequenceId;
+            var17 = var5 !== var3;
  141:
-            report = michal;
-            if(report) { _fun00002_ip = 163; continue _fun00001 }
+            var5 = var2;
+            if(var5) { _fun0001_ip = 163; continue _fun0001 }
  147:
-            result = verify.focusSequenceId;
-            zuuluu = entity.focusSequenceId;
-            report = result !== zuuluu;
+            var18 = var9.focusSequenceId;
+            var3 = var1.focusSequenceId;
+            var5 = var18 !== var3;
  163:
-            result = entity.jumpTargetId;
-            zuuluu = null;
-            if(!(zuuluu != result)) { _fun00002_ip = 181; continue _fun00001 }
+            var18 = var1.jumpTargetId;
+            var3 = null;
+            if(!(var3 != var18)) { _fun0001_ip = 181; continue _fun0001 }
  175:
-            if(output) { _fun00002_ip = 484; continue _fun00001 }
+            if(var17) { _fun0001_ip = 484; continue _fun0001 }
  181:
-            result = offset.isAtBottom;
-            if(result) { _fun00002_ip = 354; continue _fun00001 }
+            var18 = var10.isAtBottom;
+            if(var18) { _fun0001_ip = 354; continue _fun0001 }
  193:
-            offset = offset.hasPreviousMessages;
-            if(!offset) { _fun00002_ip = 354; continue _fun00001 }
+            var10 = var10.hasPreviousMessages;
+            if(!var10) { _fun0001_ip = 354; continue _fun0001 }
  205:
-            verify = verify.loadingMore;
-            if(verify) { _fun00002_ip = 354; continue _fun00001 }
+            var9 = var9.loadingMore;
+            if(var9) { _fun0001_ip = 354; continue _fun0001 }
  217:
-            if(!(zuuluu != kiloes)) { _fun00002_ip = 354; continue _fun00001 }
+            if(!(var3 != var15)) { _fun0001_ip = 354; continue _fun0001 }
  224:
-            if(!(zuuluu != option)) { _fun00002_ip = 354; continue _fun00001 }
+            if(!(var3 != var8)) { _fun0001_ip = 354; continue _fun0001 }
  231:
-            verify = kiloes.author;
-            offset = verify.id;
-            verify = option.id;
-            if(!(offset !== verify)) { _fun00002_ip = 285; continue _fun00001 }
+            var9 = var15.author;
+            var10 = var9.id;
+            var9 = var8.id;
+            if(!(var10 !== var9)) { _fun0001_ip = 285; continue _fun0001 }
  251:
-            offset = kiloes.interaction;
-            result = zuuluu == offset;
-            verify = undefined;
-            if(result) { _fun00002_ip = 276; continue _fun00001 }
+            var10 = var15.interaction;
+            var18 = var3 == var10;
+            var9 = undefined;
+            if(var18) { _fun0001_ip = 276; continue _fun0001 }
  266:
-            offset = offset.user;
-            verify = offset.id;
+            var10 = var10.user;
+            var9 = var10.id;
  276:
-            option = option.id;
-            if(!(verify === option)) { _fun00002_ip = 354; continue _fun00001 }
+            var8 = var8.id;
+            if(!(var9 === var8)) { _fun0001_ip = 354; continue _fun0001 }
  285:
-            if(!(zuuluu != oscard)) { _fun00002_ip = 337; continue _fun00001 }
+            if(!(var3 != var6)) { _fun0001_ip = 337; continue _fun0001 }
  289:
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            option = 7;
-            option = offset[option];
-            offset = verify.bind(sizing)(option);
-            verify = offset.compare;
-            option = oscard.id;
-            oscard = kiloes.id;
-            option = verify.bind(offset)(option, oscard);
-            oscard = 0;
-            if(!(option < oscard)) { _fun00002_ip = 354; continue _fun00001 }
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var8 = 7;
+            var8 = var10[var8];
+            var10 = var9.bind(var16)(var8);
+            var9 = var10.compare;
+            var8 = var6.id;
+            var6 = var15.id;
+            var8 = var9.bind(var10)(var8, var6);
+            var6 = 0;
+            if(!(var8 < var6)) { _fun0001_ip = 354; continue _fun0001 }
  337:
-            offset = kiloes.id;
-            verify = null;
-            option = romeon;
-            oscard = false;
-            _fun00002_ip = 540; continue _fun00001;
+            var10 = var15.id;
+            var9 = null;
+            var8 = var12;
+            var6 = false;
+            _fun0001_ip = 540; continue _fun0001;
  354:
-            result = entity.loadingMore;
-            if(result) { _fun00002_ip = 396; continue _fun00001 }
+            var18 = var1.loadingMore;
+            if(var18) { _fun0001_ip = 396; continue _fun0001 }
  363:
-            result = entity.jumpedToPresent;
-            if(!result) { _fun00002_ip = 396; continue _fun00001 }
+            var18 = var1.jumpedToPresent;
+            if(!var18) { _fun0001_ip = 396; continue _fun0001 }
  372:
-            if(!output) { _fun00002_ip = 396; continue _fun00001 }
+            if(!var17) { _fun0001_ip = 396; continue _fun0001 }
  375:
-            if(!(zuuluu != kiloes)) { _fun00002_ip = 396; continue _fun00001 }
+            if(!(var3 != var15)) { _fun0001_ip = 396; continue _fun0001 }
  379:
-            offset = kiloes.id;
-            oscard = false;
-            verify = null;
-            option = romeon;
-            _fun00002_ip = 540; continue _fun00001;
+            var10 = var15.id;
+            var6 = false;
+            var9 = null;
+            var8 = var12;
+            _fun0001_ip = 540; continue _fun0001;
  396:
-            kiloes = _closure1_slot0;
-            output = _closure1_slot2;
-            foxtra = 4;
-            foxtra = output[foxtra];
-            kiloes = kiloes.bind(sizing)(foxtra);
-            foxtra = kiloes.isAndroid;
-            foxtra = foxtra.bind(kiloes)();
-            if(!foxtra) { _fun00002_ip = 444; continue _fun00001 }
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var13 = 4;
+            var13 = var17[var13];
+            var15 = var15.bind(var16)(var13);
+            var13 = var15.isAndroid;
+            var13 = var13.bind(var15)();
+            if(!var13) { _fun0001_ip = 444; continue _fun0001 }
  428:
-            kiloes = backup.androidKeyboardHeight;
-            backup = yankee.androidKeyboardHeight;
-            foxtra = kiloes < backup;
+            var15 = var14.androidKeyboardHeight;
+            var14 = var11.androidKeyboardHeight;
+            var13 = var15 < var14;
  444:
-            if(!foxtra) { _fun00002_ip = 457; continue _fun00001 }
+            if(!var13) { _fun0001_ip = 457; continue _fun0001 }
  447:
-            backup = yankee.replyingMessageId;
-            foxtra = zuuluu != backup;
+            var14 = var11.replyingMessageId;
+            var13 = var3 != var14;
  457:
-            oscard = false;
-            offset = null;
-            verify = null;
-            option = romeon;
-            if(!foxtra) { _fun00002_ip = 540; continue _fun00001 }
+            var6 = false;
+            var10 = null;
+            var9 = null;
+            var8 = var12;
+            if(!var13) { _fun0001_ip = 540; continue _fun0001 }
  469:
-            offset = yankee.replyingMessageId;
-            oscard = true;
-            verify = null;
-            option = romeon;
-            _fun00002_ip = 540; continue _fun00001;
+            var10 = var11.replyingMessageId;
+            var6 = true;
+            var9 = null;
+            var8 = var12;
+            _fun0001_ip = 540; continue _fun0001;
  484:
-            foxtra = entity.channelId;
-            romeon = entity.jumpTargetId;
-            yankee = entity.first;
-            yankee = yankee.bind(entity)();
-            if(!(foxtra === romeon)) { _fun00002_ip = 513; continue _fun00001 }
+            var13 = var1.channelId;
+            var12 = var1.jumpTargetId;
+            var11 = var1.first;
+            var11 = var11.bind(var1)();
+            if(!(var13 === var12)) { _fun0001_ip = 513; continue _fun0001 }
  509:
-            if(!(zuuluu == yankee)) { _fun00002_ip = 521; continue _fun00001 }
+            if(!(var3 == var11)) { _fun0001_ip = 521; continue _fun0001 }
  513:
-            romeon = entity.jumpTargetId;
-            _fun00002_ip = 526; continue _fun00001;
+            var12 = var1.jumpTargetId;
+            _fun0001_ip = 526; continue _fun0001;
  521:
-            romeon = yankee.id;
+            var12 = var11.id;
  526:
-            option = entity.jumpType;
-            oscard = false;
-            offset = romeon;
-            verify = offset;
+            var8 = var1.jumpType;
+            var6 = false;
+            var10 = var12;
+            var9 = var10;
  540:
-            entity = {};
-            entity['scrollToMessageId'] = offset;
-            entity['jumpTargetId'] = verify;
-            entity['jumpType'] = option;
-            entity['jumpSequenceId'] = golfie;
-            entity['minimizeScrolling'] = oscard;
-            zuuluu = null;
-            if(!report) { _fun00002_ip = 575; continue _fun00001 }
+            var1 = {};
+            var1['scrollToMessageId'] = var10;
+            var1['jumpTargetId'] = var9;
+            var1['jumpType'] = var8;
+            var1['jumpSequenceId'] = var7;
+            var1['minimizeScrolling'] = var6;
+            var3 = null;
+            if(!var5) { _fun0001_ip = 575; continue _fun0001 }
  572:
-            zuuluu = tangon;
+            var3 = var4;
  575:
-            entity['focusTargetId'] = zuuluu;
-            entity['shouldInitialScroll'] = michal;
-            return entity;
+            var1['focusTargetId'] = var3;
+            var1['shouldInitialScroll'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: useMessageJumpAndroidKeyboardHeight
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function useMessageJumpAndroidKeyboardHeight() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = _closure1_slot4;
-            report = oscard.useState;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 4;
-            entity = golfie[entity];
-            golfie = undefined;
-            tangon = tangon.bind(golfie)(entity);
-            entity = tangon.isAndroid;
-            option = entity.bind(tangon)();
-            entity = 0;
-            tangon = 0;
-            if(!option) { _fun00004_ip = 82; continue _fun00003 }
+            var6 = _closure1_slot4;
+            var5 = var6.useState;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 4;
+            var1 = var7[var1];
+            var7 = undefined;
+            var4 = var4.bind(var7)(var1);
+            var1 = var4.isAndroid;
+            var8 = var1.bind(var4)();
+            var1 = 0;
+            var4 = 0;
+            if(!var8) { _fun0002_ip = 82; continue _fun0002 }
  52:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            option = 5;
-            option = offset[option];
-            verify = verify.bind(golfie)(option);
-            option = verify.getSystemKeyboardHeight;
-            tangon = option.bind(verify)();
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 5;
+            var8 = var10[var8];
+            var9 = var9.bind(var7)(var8);
+            var8 = var9.getSystemKeyboardHeight;
+            var4 = var8.bind(var9)();
  82:
-            oscard = report.bind(oscard)(tangon);
-            report = _closure1_slot3;
-            tangon = 2;
-            report = report.bind(golfie)(oscard, tangon);
-            entity = report[entity];
-            tangon = 1;
-            tangon = report[tangon];
-            var _closure2_slot0 = tangon;
-            report = _closure1_slot4;
-            tangon = report.useEffect;
-            zuuluu = function() {
-                zuuluu = _closure1_slot5;
-                michal = undefined;
-                entity = function(argFoo) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var6 = var5.bind(var6)(var4);
+            var5 = _closure1_slot3;
+            var4 = 2;
+            var5 = var5.bind(var7)(var6, var4);
+            var1 = var5[var1];
+            var4 = 1;
+            var4 = var5[var4];
+            var _closure2_slot0 = var4;
+            var5 = _closure1_slot4;
+            var4 = var5.useEffect;
+            var3 = function() {
+                var3 = _closure1_slot5;
+                var2 = undefined;
+                var1 = function(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 4;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.isAndroid;
-                        michal = michal.bind(zuuluu)();
-                        if(!michal) { _fun00006_ip = 58; continue _fun00005 }
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 4;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.isAndroid;
+                        var2 = var2.bind(var3)();
+                        if(!var2) { _fun0003_ip = 58; continue _fun0003 }
  37:
-                        zuuluu = _closure2_slot0;
-                        michal = argFoo;
-                        michal = michal.keyboardHeight;
-                        michal = zuuluu.bind(entity)(michal);
+                        var3 = _closure2_slot0;
+                        var2 = arg1;
+                        var2 = var2.keyboardHeight;
+                        var2 = var3.bind(var1)(var2);
  58:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity = zuuluu.bind(michal)(entity);
-                return entity;
+                var1 = var3.bind(var2)(var1);
+                return var1;
             };
-            michal = new Array(0);
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2 = new Array(0);
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['useMessageJumpAndroidKeyboardHeight'] = michal;
-    return entity;
+    var3['useMessageJumpAndroidKeyboardHeight'] = var2;
+    return var1;
 })();

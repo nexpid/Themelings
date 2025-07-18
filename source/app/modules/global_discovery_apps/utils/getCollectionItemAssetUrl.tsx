@@ -1,120 +1,120 @@
 // app/modules/global_discovery_apps/utils/getCollectionItemAssetUrl.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.Endpoints;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.window;
-    tangon = tangon.GLOBAL_ENV;
-    golfie = tangon.API_ENDPOINT;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.CDN_HOST;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/global_discovery_apps/utils/getCollectionItemAssetUrl.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getCollectionItemAssetUrl
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.Endpoints;
+    var _closure1_slot2 = var7;
+    var4 = var4.window;
+    var4 = var4.GLOBAL_ENV;
+    var7 = var4.API_ENDPOINT;
+    var _closure1_slot3 = var7;
+    var4 = var4.CDN_HOST;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/global_discovery_apps/utils/getCollectionItemAssetUrl.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getCollectionItemAssetUrl(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.itemId;
-            yankee = entity.hash;
-            option = entity.containerWidth;
-            report = undefined;
-            if(!(option === report)) { _fun00002_ip = 32; continue _fun00001 }
+            var1 = arg1;
+            var12 = var1.itemId;
+            var11 = var1.hash;
+            var8 = var1.containerWidth;
+            var5 = undefined;
+            if(!(var8 === var5)) { _fun0001_ip = 32; continue _fun0001 }
  26:
-            option = 1024;
+            var8 = 1024;
  32:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 1;
-            michal = oscard[entity];
-            golfie = tangon.bind(report)(michal);
-            michal = golfie.getBestMediaProxySize;
-            entity = oscard[entity];
-            verify = tangon.bind(report)(entity);
-            entity = verify.getDevicePixelRatio;
-            entity = entity.bind(verify)();
-            entity = option * entity;
-            michal = michal.bind(golfie)(entity);
-            entity = michal.toString;
-            golfie = entity.bind(michal)();
-            michal = global;
-            option = michal.URLSearchParams;
-            entity = {};
-            entity['size'] = golfie;
-            golfie = option.prototype;
-            golfie = Object.create(golfie, {constructor: {value: option}});
-            ctrled = golfie;
-            source = entity;
-            entity = new ctrled[option](source, update);
-            golfie = entity instanceof Object ? entity : golfie;
-            entity = golfie.toString;
-            offset = entity.bind(golfie)();
-            entity = 2;
-            entity = oscard[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.SUPPORTS_WEBP;
-            verify = 'png';
-            if(!entity) { _fun00002_ip = 177; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 1;
+            var2 = var6[var1];
+            var7 = var4.bind(var5)(var2);
+            var2 = var7.getBestMediaProxySize;
+            var1 = var6[var1];
+            var9 = var4.bind(var5)(var1);
+            var1 = var9.getDevicePixelRatio;
+            var1 = var1.bind(var9)();
+            var1 = var8 * var1;
+            var2 = var2.bind(var7)(var1);
+            var1 = var2.toString;
+            var7 = var1.bind(var2)();
+            var2 = global;
+            var8 = var2.URLSearchParams;
+            var1 = {};
+            var1['size'] = var7;
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var22 = var7;
+            var21 = var1;
+            var1 = new var22[var8](var21, var20);
+            var7 = var1 instanceof Object ? var1 : var7;
+            var1 = var7.toString;
+            var10 = var1.bind(var7)();
+            var1 = 2;
+            var1 = var6[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.SUPPORTS_WEBP;
+            var9 = 'png';
+            if(!var1) { _fun0001_ip = 177; continue _fun0001 }
  171:
-            verify = 'webp';
+            var9 = 'webp';
  177:
-            tangon = _closure1_slot4;
-            entity = null;
-            if(!(entity == tangon)) { _fun00002_ip = 254; continue _fun00001 }
+            var4 = _closure1_slot4;
+            var1 = null;
+            if(!(var1 == var4)) { _fun0001_ip = 254; continue _fun0001 }
  187:
-            entity = michal.location;
-            option = entity.protocol;
-            golfie = _closure1_slot3;
-            tangon = _closure1_slot2;
-            entity = tangon.APPLICATION_DIRECTORY_COLLECTION_ITEM_IMAGE;
-            echoed = entity.bind(tangon)(romeon, yankee, verify);
-            entity = michal.HermesInternal;
-            report = entity.concat;
-            ctrled = '';
-            result = '?';
-            source = option;
-            update = golfie;
-            output = offset;
-            entity = ctrled[report](source, update, echoed, result, output, sizing);
-            _fun00002_ip = 309; continue _fun00001;
+            var1 = var2.location;
+            var8 = var1.protocol;
+            var7 = _closure1_slot3;
+            var4 = _closure1_slot2;
+            var1 = var4.APPLICATION_DIRECTORY_COLLECTION_ITEM_IMAGE;
+            var19 = var1.bind(var4)(var12, var11, var9);
+            var1 = var2.HermesInternal;
+            var5 = var1.concat;
+            var22 = '';
+            var18 = '?';
+            var21 = var8;
+            var20 = var7;
+            var17 = var10;
+            var1 = var22[var5](var21, var20, var19, var18, var17, var16);
+            _fun0001_ip = 309; continue _fun0001;
  254:
-            source = _closure1_slot4;
-            michal = michal.HermesInternal;
-            golfie = michal.concat;
-            ctrled = 'https://';
-            update = '/app-assets/application-directory/collection-items/';
-            result = '/';
-            sizing = '.';
-            backup = '?';
-            echoed = romeon;
-            output = yankee;
-            kiloes = verify;
-            foxtra = offset;
-            entity = ctrled[golfie](source, update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
+            var21 = _closure1_slot4;
+            var2 = var2.HermesInternal;
+            var7 = var2.concat;
+            var22 = 'https://';
+            var20 = '/app-assets/application-directory/collection-items/';
+            var18 = '/';
+            var16 = '.';
+            var14 = '?';
+            var19 = var12;
+            var17 = var11;
+            var15 = var9;
+            var13 = var10;
+            var1 = var22[var7](var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
  309:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getCollectionItemAssetUrl'] = michal;
-    return entity;
+    var3['getCollectionItemAssetUrl'] = var2;
+    return var1;
 })();

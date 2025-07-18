@@ -1,252 +1,252 @@
 // app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = option;
-    entity = function(argFoo) { // Original name: processColorStringsInternal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
+    var1 = function processColorStringsInternal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot6;
-            tangon = michal.theme;
-            michal = _closure1_slot7;
-            michal = michal.LIGHT;
-            if(!(tangon === michal)) { _fun00002_ip = 165; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot6;
+            var4 = var2.theme;
+            var2 = _closure1_slot7;
+            var2 = var2.LIGHT;
+            if(!(var4 === var2)) { _fun0001_ip = 165; continue _fun0001 }
  32:
-            report = undefined;
-            if(!(report !== zuuluu)) { _fun00002_ip = 165; continue _fun00001 }
+            var5 = undefined;
+            if(!(var5 !== var3)) { _fun0001_ip = 165; continue _fun0001 }
  41:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 5;
-            tangon = golfie[michal];
-            tangon = oscard.bind(report)(tangon);
-            option = tangon.bind(report)(zuuluu);
-            tangon = option.hsl;
-            verify = tangon.bind(option)();
-            option = _closure1_slot3;
-            tangon = 3;
-            offset = option.bind(report)(verify, tangon);
-            tangon = 0;
-            verify = offset[tangon];
-            tangon = 1;
-            option = offset[tangon];
-            tangon = 2;
-            offset = offset[tangon];
-            tangon = _closure1_slot5;
-            michal = golfie[michal];
-            golfie = oscard.bind(report)(michal);
-            oscard = golfie.hsl;
-            michal = 0.85;
-            michal = michal * offset;
-            oscard = oscard.bind(golfie)(verify, option, michal);
-            michal = oscard.hex;
-            michal = michal.bind(oscard)();
-            michal = tangon.bind(report)(michal);
-            return michal;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 5;
+            var4 = var7[var2];
+            var4 = var6.bind(var5)(var4);
+            var8 = var4.bind(var5)(var3);
+            var4 = var8.hsl;
+            var9 = var4.bind(var8)();
+            var8 = _closure1_slot3;
+            var4 = 3;
+            var10 = var8.bind(var5)(var9, var4);
+            var4 = 0;
+            var9 = var10[var4];
+            var4 = 1;
+            var8 = var10[var4];
+            var4 = 2;
+            var10 = var10[var4];
+            var4 = _closure1_slot5;
+            var2 = var7[var2];
+            var7 = var6.bind(var5)(var2);
+            var6 = var7.hsl;
+            var2 = 0.85;
+            var2 = var2 * var10;
+            var6 = var6.bind(var7)(var9, var8, var2);
+            var2 = var6.hex;
+            var2 = var2.bind(var6)();
+            var2 = var4.bind(var5)(var2);
+            return var2;
  165:
-            michal = _closure1_slot5;
-            entity = undefined;
-            entity = michal.bind(entity)(zuuluu);
-            return entity;
+            var2 = _closure1_slot5;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
+            return var1;
         }
     };
-    var _closure1_slot8 = entity;
-    report = function(argFoo) { // Original name: processColorStrings
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var1;
+    var5 = function processColorStrings(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity == michal)) { _fun00004_ip = 13; continue _fun00003 }
+            var2 = arg1;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0002_ip = 13; continue _fun0002 }
  9:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  13:
-            entity = {};
-            tangon = _closure1_slot8;
-            report = michal.primaryColor;
-            zuuluu = undefined;
-            report = tangon.bind(zuuluu)(report);
-            entity['primaryColor'] = report;
-            report = michal.secondaryColor;
-            report = tangon.bind(zuuluu)(report);
-            entity['secondaryColor'] = report;
-            michal = michal.tertiaryColor;
-            michal = tangon.bind(zuuluu)(michal);
-            entity['tertiaryColor'] = michal;
-            return entity;
+            var1 = {};
+            var4 = _closure1_slot8;
+            var5 = var2.primaryColor;
+            var3 = undefined;
+            var5 = var4.bind(var3)(var5);
+            var1['primaryColor'] = var5;
+            var5 = var2.secondaryColor;
+            var5 = var4.bind(var3)(var5);
+            var1['secondaryColor'] = var5;
+            var2 = var2.tertiaryColor;
+            var2 = var4.bind(var3)(var2);
+            var1['tertiaryColor'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot9 = report;
-    tangon = function(argFoo) { // Original name: processColorStringsArray
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot9 = var5;
+    var4 = function processColorStringsArray(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00006_ip = 95; continue _fun00005 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0003_ip = 95; continue _fun0003 }
  9:
-            michal = _closure1_slot9;
-            report = undefined;
-            michal = michal.bind(report)(zuuluu);
-            tangon = michal.primaryColor;
-            zuuluu = new Array(3);
-            zuuluu[0] = tangon;
-            tangon = michal.secondaryColor;
-            zuuluu[1] = tangon;
-            michal = michal.tertiaryColor;
-            zuuluu[2] = michal;
-            michal = zuuluu.filter;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 6;
-            entity = oscard[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.isNotNullish;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot9;
+            var5 = undefined;
+            var2 = var2.bind(var5)(var3);
+            var4 = var2.primaryColor;
+            var3 = new Array(3);
+            var3[0] = var4;
+            var4 = var2.secondaryColor;
+            var3[1] = var4;
+            var2 = var2.tertiaryColor;
+            var3[2] = var2;
+            var2 = var3.filter;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 6;
+            var1 = var6[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.isNotNullish;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  95:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
         }
     };
-    var _closure1_slot10 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 1;
-    offset = option[oscard];
-    oscard = argCor;
-    oscard = oscard.bind(entity)(offset);
-    var _closure1_slot4 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.processColor;
-    var _closure1_slot5 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot6 = oscard;
-    oscard = 4;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.ThemeTypes;
-    var _closure1_slot7 = oscard;
-    oscard = 8;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['processColorStrings'] = report;
-    zuuluu['processColorStringsArray'] = tangon;
-    tangon = function(argFoo) { // Original name: useProcessColorStringsArray
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot10 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var10 = var8[var6];
+    var6 = native4;
+    var6 = var6.bind(var1)(var10);
+    var _closure1_slot4 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.processColor;
+    var _closure1_slot5 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.ThemeTypes;
+    var _closure1_slot7 = var6;
+    var6 = 8;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['processColorStrings'] = var5;
+    var3['processColorStringsArray'] = var4;
+    var4 = function useProcessColorStringsArray(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = argFoo;
-            var _closure2_slot0 = oscard;
-            tangon = _closure1_slot4;
-            zuuluu = tangon.useMemo;
-            golfie = null;
-            michal = golfie == oscard;
-            option = undefined;
-            if(michal) { _fun00008_ip = 38; continue _fun00007 }
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var4 = _closure1_slot4;
+            var3 = var4.useMemo;
+            var7 = null;
+            var2 = var7 == var6;
+            var8 = undefined;
+            if(var2) { _fun0004_ip = 38; continue _fun0004 }
  32:
-            option = oscard.primaryColor;
+            var8 = var6.primaryColor;
  38:
-            michal = new Array(3);
-            michal[0] = option;
-            verify = golfie == oscard;
-            option = undefined;
-            if(verify) { _fun00008_ip = 61; continue _fun00007 }
+            var2 = new Array(3);
+            var2[0] = var8;
+            var9 = var7 == var6;
+            var8 = undefined;
+            if(var9) { _fun0004_ip = 61; continue _fun0004 }
  55:
-            option = oscard.secondaryColor;
+            var8 = var6.secondaryColor;
  61:
-            michal[1] = option;
-            golfie = golfie == oscard;
-            report = undefined;
-            if(golfie) { _fun00008_ip = 80; continue _fun00007 }
+            var2[1] = var8;
+            var7 = var7 == var6;
+            var5 = undefined;
+            if(var7) { _fun0004_ip = 80; continue _fun0004 }
  74:
-            report = oscard.tertiaryColor;
+            var5 = var6.tertiaryColor;
  80:
-            michal[2] = report;
-            entity = function() {
-                zuuluu = _closure1_slot10;
-                michal = _closure2_slot0;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+            var2[2] = var5;
+            var1 = function() {
+                var3 = _closure1_slot10;
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['useProcessColorStringsArray'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: isNativeMessageEligibleForEnhancedRoleColors
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['useProcessColorStringsArray'] = var4;
+    var4 = function isNativeMessageEligibleForEnhancedRoleColors(arg1, arg2, arg3) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.getHasEnhancedRoleColors;
-            michal = argFoo;
-            entity = argBar;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            if(!entity) { _fun00010_ip = 57; continue _fun00009 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.getHasEnhancedRoleColors;
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var2, var1);
+            if(!var1) { _fun0005_ip = 57; continue _fun0005 }
  46:
-            zuuluu = 'hidden';
-            michal = argBaz;
-            entity = zuuluu !== michal;
+            var3 = 'hidden';
+            var2 = arg3;
+            var1 = var3 !== var2;
  57:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isNativeMessageEligibleForEnhancedRoleColors'] = tangon;
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: useIsRoleStyleAndRoleColorsEligibleForERC
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['isNativeMessageEligibleForEnhancedRoleColors'] = var4;
+    var2 = function useIsRoleStyleAndRoleColorsEligibleForERC(arg1, arg2, arg3, arg4) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            entity = zuuluu[entity];
-            tangon = undefined;
-            zuuluu = michal.bind(tangon)(entity);
-            michal = argFoo;
-            entity = argBar;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            if(!entity) { _fun00012_ip = 51; continue _fun00011 }
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var2, var1);
+            if(!var1) { _fun0006_ip = 51; continue _fun0006 }
  40:
-            zuuluu = 'hidden';
-            michal = argBaz;
-            entity = zuuluu !== michal;
+            var3 = 'hidden';
+            var2 = arg3;
+            var1 = var3 !== var2;
  51:
-            if(!entity) { _fun00012_ip = 69; continue _fun00011 }
+            if(!var1) { _fun0006_ip = 69; continue _fun0006 }
  54:
-            michal = argCor;
-            zuuluu = michal.length;
-            michal = 1;
-            entity = zuuluu > michal;
+            var2 = arg4;
+            var3 = var2.length;
+            var2 = 1;
+            var1 = var3 > var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsRoleStyleAndRoleColorsEligibleForERC'] = michal;
-    return entity;
+    var3['useIsRoleStyleAndRoleColorsEligibleForERC'] = var2;
+    return var1;
 })();

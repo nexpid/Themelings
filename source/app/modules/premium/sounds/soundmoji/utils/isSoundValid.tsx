@@ -1,127 +1,127 @@
 // app/modules/premium/sounds/soundmoji/utils/isSoundValid.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DEFAULT_SOUND_GUILD_ID;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    var _closure1_slot6 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/sounds/soundmoji/utils/isSoundValid.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: isSoundValid
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DEFAULT_SOUND_GUILD_ID;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot6 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/sounds/soundmoji/utils/isSoundValid.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isSoundValid(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = _closure1_slot2;
-            tangon = report.getChannel;
-            michal = argBaz;
-            oscard = tangon.bind(report)(michal);
-            report = null;
-            michal = report == entity;
-            tangon = undefined;
-            golfie = undefined;
-            if(michal) { _fun00002_ip = 41; continue _fun00001 }
+            var1 = arg1;
+            var5 = _closure1_slot2;
+            var4 = var5.getChannel;
+            var2 = arg3;
+            var6 = var4.bind(var5)(var2);
+            var5 = null;
+            var2 = var5 == var1;
+            var4 = undefined;
+            var7 = undefined;
+            if(var2) { _fun0001_ip = 41; continue _fun0001 }
  36:
-            golfie = entity.guildId;
+            var7 = var1.guildId;
  41:
-            michal = _closure1_slot5;
-            if(!(golfie !== michal)) { _fun00002_ip = 206; continue _fun00001 }
+            var2 = _closure1_slot5;
+            if(!(var7 !== var2)) { _fun0001_ip = 206; continue _fun0001 }
  52:
-            michal = report == entity;
-            golfie = undefined;
-            if(michal) { _fun00002_ip = 66; continue _fun00001 }
+            var2 = var5 == var1;
+            var7 = undefined;
+            if(var2) { _fun0001_ip = 66; continue _fun0001 }
  61:
-            golfie = entity.guildId;
+            var7 = var1.guildId;
  66:
-            option = report == oscard;
-            michal = undefined;
-            if(option) { _fun00002_ip = 80; continue _fun00001 }
+            var8 = var5 == var6;
+            var2 = undefined;
+            if(var8) { _fun0001_ip = 80; continue _fun0001 }
  75:
-            michal = oscard.guild_id;
+            var2 = var6.guild_id;
  80:
-            if(!(golfie !== michal)) { _fun00002_ip = 202; continue _fun00001 }
+            if(!(var7 !== var2)) { _fun0001_ip = 202; continue _fun0001 }
  84:
-            golfie = report == entity;
-            michal = undefined;
-            if(golfie) { _fun00002_ip = 98; continue _fun00001 }
+            var7 = var5 == var1;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 98; continue _fun0001 }
  93:
-            michal = entity.guildId;
+            var2 = var1.guildId;
  98:
-            entity = argBar;
-            if(!(michal !== entity)) { _fun00002_ip = 202; continue _fun00001 }
+            var1 = arg2;
+            if(!(var2 !== var1)) { _fun0001_ip = 202; continue _fun0001 }
  105:
-            michal = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 5;
-            entity = golfie[entity];
-            tangon = michal.bind(tangon)(entity);
-            michal = tangon.canUseSoundboardEverywhere;
-            golfie = _closure1_slot4;
-            entity = golfie.getCurrentUser;
-            entity = entity.bind(golfie)();
-            michal = michal.bind(tangon)(entity);
-            entity = report == oscard;
-            if(entity) { _fun00002_ip = 165; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 5;
+            var1 = var7[var1];
+            var4 = var2.bind(var4)(var1);
+            var2 = var4.canUseSoundboardEverywhere;
+            var7 = _closure1_slot4;
+            var1 = var7.getCurrentUser;
+            var1 = var1.bind(var7)();
+            var2 = var2.bind(var4)(var1);
+            var1 = var5 == var6;
+            if(var1) { _fun0001_ip = 165; continue _fun0001 }
  156:
-            tangon = oscard.guild_id;
-            entity = report == tangon;
+            var4 = var6.guild_id;
+            var1 = var5 == var4;
  165:
-            if(entity) { _fun00002_ip = 194; continue _fun00001 }
+            if(var1) { _fun0001_ip = 194; continue _fun0001 }
  168:
-            report = _closure1_slot3;
-            tangon = report.can;
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.USE_EXTERNAL_SOUNDS;
-            entity = tangon.bind(report)(zuuluu, oscard);
+            var5 = _closure1_slot3;
+            var4 = var5.can;
+            var3 = _closure1_slot6;
+            var3 = var3.USE_EXTERNAL_SOUNDS;
+            var1 = var4.bind(var5)(var3, var6);
  194:
-            if(!entity) { _fun00002_ip = 200; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 200; continue _fun0001 }
  197:
-            entity = michal;
+            var1 = var2;
  200:
-            return entity;
+            return var1;
  202:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  206:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

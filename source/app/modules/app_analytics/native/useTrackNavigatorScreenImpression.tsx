@@ -1,63 +1,63 @@
 // app/modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useTrackNavigatorScreenImpression
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_analytics/native/useTrackNavigatorScreenImpression.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useTrackNavigatorScreenImpression(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.impressionName;
-            zuuluu = entity.impressionProperties;
-            michal = 'function';
-            entity = typeof zuuluu;
-            tangon = zuuluu;
-            if(!(michal === entity)) { _fun00002_ip = 45; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.impressionName;
+            var3 = var1.impressionProperties;
+            var2 = 'function';
+            var1 = typeof var3;
+            var4 = var3;
+            if(!(var2 === var1)) { _fun0001_ip = 45; continue _fun0001 }
  29:
-            entity = argBar;
-            michal = entity.params;
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
+            var1 = arg2;
+            var2 = var1.params;
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
  45:
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 0;
-            michal = option[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = {};
-            golfie = _closure1_slot0;
-            oscard = 1;
-            oscard = option[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.ImpressionTypes;
-            oscard = oscard.PAGE;
-            michal['type'] = oscard;
-            michal['name'] = report;
-            michal['properties'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 0;
+            var2 = var8[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = {};
+            var7 = _closure1_slot0;
+            var6 = 1;
+            var6 = var8[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.ImpressionTypes;
+            var6 = var6.PAGE;
+            var2['type'] = var6;
+            var2['name'] = var5;
+            var2['properties'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         }
     };
-    zuuluu['useTrackNavigatorScreenImpression'] = michal;
-    return entity;
+    var3['useTrackNavigatorScreenImpression'] = var2;
+    return var1;
 })();

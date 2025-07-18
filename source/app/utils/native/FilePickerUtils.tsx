@@ -1,200 +1,200 @@
 // app/utils/native/FilePickerUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _handleDocumentSelection
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _handleDocumentSelection() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = arguments[0];
+                    var2 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 452; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 452; continue _fun0001 }
  13:
-                    zuuluu = undefined;
-                    if(!(michal === zuuluu)) { _fun00002_ip = 21; continue _fun00001 }
+                    var3 = undefined;
+                    if(!(var2 === var3)) { _fun0001_ip = 21; continue _fun0001 }
  19:
-                    michal = {};
+                    var2 = {};
  21:
-                    michal = michal.pickMultiple;
-                    if(!(michal === zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
+                    var2 = var2.pickMultiple;
+                    if(!(var2 === var3)) { _fun0001_ip = 33; continue _fun0001 }
  31:
-                    michal = true;
+                    var2 = true;
  33:
-                    option = michal;
+                    var8 = var2;
                     SaveGenerator(address=40);
  38:
-                    return zuuluu;
+                    return var3;
  40:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 449; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 449; continue _fun0001 }
  49: // try_start_0
-                    golfie = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    tangon = 2;
-                    tangon = offset[tangon];
-                    oscard = golfie.bind(zuuluu)(tangon);
-                    report = oscard.pick;
-                    tangon = 3;
-                    tangon = offset[tangon];
-                    golfie = golfie.bind(zuuluu)(tangon);
-                    tangon = golfie.isIOS;
-                    tangon = tangon.bind(golfie)();
-                    golfie = {};
-                    golfie['allowMultiSelection'] = option;
-                    if(tangon) { _fun00002_ip = 125; continue _fun00001 }
+                    var7 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var4 = 2;
+                    var4 = var10[var4];
+                    var6 = var7.bind(var3)(var4);
+                    var5 = var6.pick;
+                    var4 = 3;
+                    var4 = var10[var4];
+                    var7 = var7.bind(var3)(var4);
+                    var4 = var7.isIOS;
+                    var4 = var4.bind(var7)();
+                    var7 = {};
+                    var7['allowMultiSelection'] = var8;
+                    if(var4) { _fun0001_ip = 125; continue _fun0001 }
  110:
-                    tangon = 'import';
-                    golfie['mode'] = tangon;
-                    tangon = golfie;
-                    _fun00002_ip = 136; continue _fun00001;
+                    var4 = 'import';
+                    var7['mode'] = var4;
+                    var4 = var7;
+                    _fun0001_ip = 136; continue _fun0001;
  125:
-                    option = 'open';
-                    golfie['mode'] = option;
-                    tangon = golfie;
+                    var8 = 'open';
+                    var7['mode'] = var8;
+                    var4 = var7;
  136:
-                    tangon = report.bind(oscard)(tangon);
+                    var4 = var5.bind(var6)(var4);
                     SaveGenerator(address=145);
  143:
-                    return tangon;
+                    return var4;
  145:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 154; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 154; continue _fun0001 }
  151: // try_end0
-                    return tangon;
+                    return var4;
  154:
-                    return tangon;
+                    return var4;
  157: // catch_target0
                     CatchBlockStart(arg_register=6);
-                    verify = golfie;
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot2;
-                    option = 2;
-                    report = report[option];
-                    oscard = oscard.bind(zuuluu)(report);
-                    report = oscard.isErrorWithCode;
-                    report = report.bind(oscard)(golfie);
-                    if(!report) { _fun00002_ip = 243; continue _fun00001 }
+                    var9 = var7;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var8 = 2;
+                    var5 = var5[var8];
+                    var6 = var6.bind(var3)(var5);
+                    var5 = var6.isErrorWithCode;
+                    var5 = var5.bind(var6)(var7);
+                    if(!var5) { _fun0001_ip = 243; continue _fun0001 }
  199:
-                    report = verify;
-                    oscard = report.code;
-                    golfie = _closure1_slot0;
-                    report = _closure1_slot2;
-                    report = report[option];
-                    report = golfie.bind(zuuluu)(report);
-                    report = report.errorCodes;
-                    report = report.OPERATION_CANCELED;
-                    if(!(oscard !== report)) { _fun00002_ip = 446; continue _fun00001 }
+                    var5 = var9;
+                    var6 = var5.code;
+                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var8];
+                    var5 = var7.bind(var3)(var5);
+                    var5 = var5.errorCodes;
+                    var5 = var5.OPERATION_CANCELED;
+                    if(!(var6 !== var5)) { _fun0001_ip = 446; continue _fun0001 }
  243:
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    report = 4;
-                    report = yankee[report];
-                    option = offset.bind(zuuluu)(report);
-                    golfie = option.trackWithMetadata;
-                    report = _closure1_slot4;
-                    oscard = report.MOBILE_FILE_PICKER_ERROR;
-                    report = {};
-                    romeon = global;
-                    foxtra = romeon.JSON;
-                    romeon = foxtra.stringify;
-                    verify = romeon.bind(foxtra)(verify);
-                    report['error_message'] = verify;
-                    report = golfie.bind(option)(oscard, report);
-                    report = _closure1_slot1;
-                    tangon = 5;
-                    tangon = yankee[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.show;
-                    tangon = {};
-                    golfie = 6;
-                    option = yankee[golfie];
-                    option = offset.bind(zuuluu)(option);
-                    romeon = option.intl;
-                    verify = romeon.string;
-                    option = yankee[golfie];
-                    option = offset.bind(zuuluu)(option);
-                    option = option.t;
-                    option = option.rWHepa;
-                    option = verify.bind(romeon)(option);
-                    tangon['title'] = option;
-                    option = yankee[golfie];
-                    option = offset.bind(zuuluu)(option);
-                    verify = option.intl;
-                    option = verify.string;
-                    golfie = yankee[golfie];
-                    golfie = offset.bind(zuuluu)(golfie);
-                    golfie = golfie.t;
-                    golfie = golfie.fZRH9P;
-                    golfie = option.bind(verify)(golfie);
-                    tangon['body'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var5 = 4;
+                    var5 = var11[var5];
+                    var8 = var10.bind(var3)(var5);
+                    var7 = var8.trackWithMetadata;
+                    var5 = _closure1_slot4;
+                    var6 = var5.MOBILE_FILE_PICKER_ERROR;
+                    var5 = {};
+                    var12 = global;
+                    var13 = var12.JSON;
+                    var12 = var13.stringify;
+                    var9 = var12.bind(var13)(var9);
+                    var5['error_message'] = var9;
+                    var5 = var7.bind(var8)(var6, var5);
+                    var5 = _closure1_slot1;
+                    var4 = 5;
+                    var4 = var11[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.show;
+                    var4 = {};
+                    var7 = 6;
+                    var8 = var11[var7];
+                    var8 = var10.bind(var3)(var8);
+                    var12 = var8.intl;
+                    var9 = var12.string;
+                    var8 = var11[var7];
+                    var8 = var10.bind(var3)(var8);
+                    var8 = var8.t;
+                    var8 = var8.rWHepa;
+                    var8 = var9.bind(var12)(var8);
+                    var4['title'] = var8;
+                    var8 = var11[var7];
+                    var8 = var10.bind(var3)(var8);
+                    var9 = var8.intl;
+                    var8 = var9.string;
+                    var7 = var11[var7];
+                    var7 = var10.bind(var3)(var7);
+                    var7 = var7.t;
+                    var7 = var7.fZRH9P;
+                    var7 = var8.bind(var9)(var7);
+                    var4['body'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  446:
-                    return zuuluu;
+                    return var3;
  449:
-                    return michal;
+                    return var2;
  452:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/native/FilePickerUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: handleDocumentSelection
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot4 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/native/FilePickerUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function handleDocumentSelection() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['handleDocumentSelection'] = michal;
-    return entity;
+    var3['handleDocumentSelection'] = var2;
+    return var1;
 })();

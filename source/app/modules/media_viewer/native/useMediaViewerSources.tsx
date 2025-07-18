@@ -1,184 +1,184 @@
 // app/modules/media_viewer/native/useMediaViewerSources.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.createZustandStore;
-    tangon = function() {
-        entity = {};
-        michal = new Array(0);
-        entity['sources'] = michal;
-        michal = global;
-        michal = michal.Set;
-        zuuluu = michal.prototype;
-        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-        tangon = zuuluu;
-        michal = new tangon[michal](zuuluu);
-        michal = michal instanceof Object ? michal : zuuluu;
-        entity['spoilerIndexes'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.createZustandStore;
+    var4 = function() {
+        var1 = {};
+        var2 = new Array(0);
+        var1['sources'] = var2;
+        var2 = global;
+        var2 = var2.Set;
+        var3 = var2.prototype;
+        var3 = Object.create(var3, {constructor: {value: var2}});
+        var4 = var3;
+        var2 = new var4[var2](var3);
+        var2 = var2 instanceof Object ? var2 : var3;
+        var1['spoilerIndexes'] = var2;
+        return var1;
     };
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/media_viewer/native/useMediaViewerSources.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['MediaViewerSourcesStore'] = tangon;
-    tangon = function(argFoo) { // Original name: setMediaViewerSources
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/media_viewer/native/useMediaViewerSources.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['MediaViewerSourcesStore'] = var4;
+    var4 = function setMediaViewerSources(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.sources;
-            zuuluu = entity.initialIndex;
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00002_ip = 25; continue _fun00001 }
+            var1 = arg1;
+            var4 = var1.sources;
+            var3 = var1.initialIndex;
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0001_ip = 25; continue _fun0001 }
  23:
-            zuuluu = null;
+            var3 = null;
  25:
-            var _closure2_slot0 = zuuluu;
-            var _closure2_slot2 = entity;
-            oscard = new Array(0);
-            var _closure2_slot1 = oscard;
-            zuuluu = global;
-            zuuluu = zuuluu.Set;
-            report = zuuluu.prototype;
-            report = Object.create(report, {constructor: {value: zuuluu}});
-            option = report;
-            zuuluu = new option[zuuluu](golfie);
-            report = zuuluu instanceof Object ? zuuluu : report;
-            _closure2_slot2 = report;
-            zuuluu = tangon.forEach;
-            michal = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot0 = var3;
+            var _closure2_slot2 = var1;
+            var6 = new Array(0);
+            var _closure2_slot1 = var6;
+            var3 = global;
+            var3 = var3.Set;
+            var5 = var3.prototype;
+            var5 = Object.create(var5, {constructor: {value: var3}});
+            var8 = var5;
+            var3 = new var8[var3](var7);
+            var5 = var3 instanceof Object ? var3 : var5;
+            _closure2_slot2 = var5;
+            var3 = var4.forEach;
+            var2 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = argFoo;
-                    report = argBar;
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    entity = 1;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.flattenSource;
-                    zuuluu = michal.bind(zuuluu)(tangon);
-                    michal = zuuluu.spoiler;
-                    if(michal) { _fun00004_ip = 57; continue _fun00003 }
+                    var4 = arg1;
+                    var5 = arg2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 1;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.flattenSource;
+                    var3 = var2.bind(var3)(var4);
+                    var2 = var3.spoiler;
+                    if(var2) { _fun0002_ip = 57; continue _fun0002 }
  51:
-                    michal = zuuluu.obscure;
+                    var2 = var3.obscure;
  57:
-                    if(!michal) { _fun00004_ip = 71; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 71; continue _fun0002 }
  60:
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu !== report;
+                    var3 = _closure2_slot0;
+                    var2 = var3 !== var5;
  71:
-                    if(!michal) { _fun00004_ip = 91; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 91; continue _fun0002 }
  74:
-                    zuuluu = _closure2_slot2;
-                    michal = zuuluu.add;
-                    michal = michal.bind(zuuluu)(report);
+                    var3 = _closure2_slot2;
+                    var2 = var3.add;
+                    var2 = var2.bind(var3)(var5);
  91:
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.push;
-                    michal = michal.bind(zuuluu)(tangon);
-                    return entity;
+                    var3 = _closure2_slot1;
+                    var2 = var3.push;
+                    var2 = var2.bind(var3)(var4);
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            tangon = _closure1_slot2;
-            zuuluu = tangon.setState;
-            michal = {};
-            michal['sources'] = oscard;
-            michal['spoilerIndexes'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            var4 = _closure1_slot2;
+            var3 = var4.setState;
+            var2 = {};
+            var2['sources'] = var6;
+            var2['spoilerIndexes'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['setMediaViewerSources'] = tangon;
-    tangon = function(argFoo) { // Original name: removeSpoiler
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['setMediaViewerSources'] = var4;
+    var4 = function removeSpoiler(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            report = _closure1_slot2;
-            tangon = report.getField;
-            michal = 'spoilerIndexes';
-            report = tangon.bind(report)(michal);
-            michal = report.has;
-            michal = michal.bind(report)(zuuluu);
-            if(!michal) { _fun00006_ip = 101; continue _fun00005 }
+            var3 = arg1;
+            var5 = _closure1_slot2;
+            var4 = var5.getField;
+            var2 = 'spoilerIndexes';
+            var5 = var4.bind(var5)(var2);
+            var2 = var5.has;
+            var2 = var2.bind(var5)(var3);
+            if(!var2) { _fun0003_ip = 101; continue _fun0003 }
  38:
-            michal = global;
-            michal = michal.Set;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            oscard = report;
-            michal = new golfie[michal](oscard, report);
-            tangon = michal instanceof Object ? michal : tangon;
-            michal = tangon.delete;
-            michal = michal.bind(tangon)(zuuluu);
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.setState;
-            entity = {};
-            entity['spoilerIndexes'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            var2 = global;
+            var2 = var2.Set;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var6 = var5;
+            var2 = new var7[var2](var6, var5);
+            var4 = var2 instanceof Object ? var2 : var4;
+            var2 = var4.delete;
+            var2 = var2.bind(var4)(var3);
+            var3 = _closure1_slot2;
+            var2 = var3.setState;
+            var1 = {};
+            var1['spoilerIndexes'] = var4;
+            var1 = var2.bind(var3)(var1);
  101:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['removeSpoiler'] = tangon;
-    michal = function(argFoo) { // Original name: toggleSpoiler
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['removeSpoiler'] = var4;
+    var2 = function toggleSpoiler(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            report = _closure1_slot2;
-            tangon = report.getField;
-            michal = 'spoilerIndexes';
-            oscard = tangon.bind(report)(michal);
-            michal = global;
-            michal = michal.Set;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            michal = new golfie[michal](oscard, report);
-            tangon = michal instanceof Object ? michal : tangon;
-            michal = tangon.has;
-            michal = michal.bind(tangon)(zuuluu);
-            if(michal) { _fun00008_ip = 78; continue _fun00007 }
+            var3 = arg1;
+            var5 = _closure1_slot2;
+            var4 = var5.getField;
+            var2 = 'spoilerIndexes';
+            var6 = var4.bind(var5)(var2);
+            var2 = global;
+            var2 = var2.Set;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var2 = new var7[var2](var6, var5);
+            var4 = var2 instanceof Object ? var2 : var4;
+            var2 = var4.has;
+            var2 = var2.bind(var4)(var3);
+            if(var2) { _fun0004_ip = 78; continue _fun0004 }
  66:
-            michal = tangon.add;
-            michal = michal.bind(tangon)(zuuluu);
-            _fun00008_ip = 88; continue _fun00007;
+            var2 = var4.add;
+            var2 = var2.bind(var4)(var3);
+            _fun0004_ip = 88; continue _fun0004;
  78:
-            michal = tangon.delete;
-            michal = michal.bind(tangon)(zuuluu);
+            var2 = var4.delete;
+            var2 = var2.bind(var4)(var3);
  88:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.setState;
-            entity = {};
-            entity['spoilerIndexes'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var3 = _closure1_slot2;
+            var2 = var3.setState;
+            var1 = {};
+            var1['spoilerIndexes'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['toggleSpoiler'] = michal;
-    return entity;
+    var3['toggleSpoiler'] = var2;
+    return var1;
 })();

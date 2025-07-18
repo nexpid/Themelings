@@ -1,98 +1,98 @@
 // app/modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useMemo;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = new Array(0);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useUserProfileApplicationRoleConnections
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useMemo;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = new Array(0);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useUserProfileApplicationRoleConnections(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 2;
-            michal = tangon[michal];
-            tangon = undefined;
-            golfie = report.bind(tangon)(michal);
-            oscard = golfie.useStateFromStores;
-            michal = _closure1_slot3;
-            report = new Array(1);
-            report[0] = michal;
-            michal = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getUserProfile;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 2;
+            var2 = var4[var2];
+            var4 = undefined;
+            var7 = var5.bind(var4)(var2);
+            var6 = var7.useStateFromStores;
+            var2 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getUserProfile;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = oscard.bind(golfie)(report, michal);
-            var _closure2_slot1 = michal;
-            zuuluu = _closure1_slot2;
-            report = null;
-            oscard = report == michal;
-            report = undefined;
-            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
+            var2 = var6.bind(var7)(var5, var2);
+            var _closure2_slot1 = var2;
+            var3 = _closure1_slot2;
+            var5 = null;
+            var6 = var5 == var2;
+            var5 = undefined;
+            if(var6) { _fun0001_ip = 89; continue _fun0001 }
  83:
-            report = michal.applicationRoleConnections;
+            var5 = var2.applicationRoleConnections;
  89:
-            michal = new Array(1);
-            michal[0] = report;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = new Array(1);
+            var2[0] = var5;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot1;
-                    zuuluu = null;
-                    tangon = zuuluu == michal;
-                    michal = undefined;
-                    if(tangon) { _fun00004_ip = 28; continue _fun00003 }
+                    var2 = _closure2_slot1;
+                    var3 = null;
+                    var4 = var3 == var2;
+                    var2 = undefined;
+                    if(var4) { _fun0002_ip = 28; continue _fun0002 }
  18:
-                    tangon = _closure2_slot1;
-                    michal = tangon.applicationRoleConnections;
+                    var4 = _closure2_slot1;
+                    var2 = var4.applicationRoleConnections;
  28:
-                    if(!(zuuluu != michal)) { _fun00004_ip = 44; continue _fun00003 }
+                    if(!(var3 != var2)) { _fun0002_ip = 44; continue _fun0002 }
  32:
-                    entity = _closure2_slot1;
-                    entity = entity.applicationRoleConnections;
-                    _fun00004_ip = 51; continue _fun00003;
+                    var1 = _closure2_slot1;
+                    var1 = var1.applicationRoleConnections;
+                    _fun0002_ip = 51; continue _fun0002;
  44:
-                    entity = _closure1_slot4;
+                    var1 = _closure1_slot4;
  51:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

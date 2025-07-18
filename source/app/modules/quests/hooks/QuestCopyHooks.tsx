@@ -1,1270 +1,1270 @@
 // app/modules/quests/hooks/QuestCopyHooks.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            var _closure2_slot0 = zuuluu;
-            report = global;
-            michal = report.Symbol;
-            tangon = 'undefined';
-            michal = typeof michal;
-            michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var5 = global;
+            var2 = var5.Symbol;
+            var4 = 'undefined';
+            var2 = typeof var2;
+            var2 = var4 !== var2;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  30:
-            tangon = report.Symbol;
-            tangon = tangon.iterator;
-            michal = zuuluu[tangon];
+            var4 = var5.Symbol;
+            var4 = var4.iterator;
+            var2 = var3[var4];
  45:
-            if(michal) { _fun00002_ip = 54; continue _fun00001 }
+            if(var2) { _fun0001_ip = 54; continue _fun0001 }
  48:
-            michal = zuuluu.@@iterator;
+            var2 = var3.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+            if(var2) { _fun0001_ip = 344; continue _fun0001 }
  60:
-            oscard = report.Array;
-            tangon = oscard.isArray;
-            oscard = tangon.bind(oscard)(zuuluu);
-            tangon = michal;
-            if(oscard) { _fun00002_ip = 322; continue _fun00001 }
+            var6 = var5.Array;
+            var4 = var6.isArray;
+            var6 = var4.bind(var6)(var3);
+            var4 = var2;
+            if(var6) { _fun0001_ip = 322; continue _fun0001 }
  85:
-            option = undefined;
-            oscard = undefined;
-            if(!zuuluu) { _fun00002_ip = 282; continue _fun00001 }
+            var8 = undefined;
+            var6 = undefined;
+            if(!var3) { _fun0001_ip = 282; continue _fun0001 }
  95:
-            verify = 'string';
-            golfie = typeof zuuluu;
-            if(!(verify !== golfie)) { _fun00002_ip = 269; continue _fun00001 }
+            var9 = 'string';
+            var7 = typeof var3;
+            if(!(var9 !== var7)) { _fun0001_ip = 269; continue _fun0001 }
  109:
-            golfie = {};
-            verify = golfie.toString;
-            golfie = verify.call;
-            yankee = golfie.bind(verify)(zuuluu);
-            offset = yankee.slice;
-            verify = 8;
-            golfie = -1;
-            verify = offset.bind(yankee)(verify, golfie);
-            golfie = 'Object';
-            golfie = golfie === verify;
-            if(!golfie) { _fun00002_ip = 162; continue _fun00001 }
+            var7 = {};
+            var9 = var7.toString;
+            var7 = var9.call;
+            var11 = var7.bind(var9)(var3);
+            var10 = var11.slice;
+            var9 = 8;
+            var7 = -1;
+            var9 = var10.bind(var11)(var9, var7);
+            var7 = 'Object';
+            var7 = var7 === var9;
+            if(!var7) { _fun0001_ip = 162; continue _fun0001 }
  157:
-            golfie = zuuluu.constructor;
+            var7 = var3.constructor;
  162:
-            offset = verify;
-            if(!golfie) { _fun00002_ip = 178; continue _fun00001 }
+            var10 = var9;
+            if(!var7) { _fun0001_ip = 178; continue _fun0001 }
  168:
-            golfie = zuuluu.constructor;
-            offset = golfie.name;
+            var7 = var3.constructor;
+            var10 = var7.name;
  178:
-            golfie = 'Map';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Map';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  186:
-            golfie = 'Set';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Set';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  194:
-            golfie = 'Arguments';
-            if(!(golfie !== offset)) { _fun00002_ip = 233; continue _fun00001 }
+            var7 = 'Arguments';
+            if(!(var7 !== var10)) { _fun0001_ip = 233; continue _fun0001 }
  204:
-            verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
-            golfie = verify.test;
-            verify = golfie.bind(verify)(offset);
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 246; continue _fun00001 }
+            var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
+            var7 = var9.test;
+            var9 = var7.bind(var9)(var10);
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            verify = _closure1_slot11;
-            golfie = verify.bind(option)(zuuluu, option);
+            var9 = _closure1_slot11;
+            var7 = var9.bind(var8)(var3, var8);
  246:
-            _fun00002_ip = 264; continue _fun00001;
+            _fun0001_ip = 264; continue _fun0001;
  248:
-            offset = report.Array;
-            verify = offset.from;
-            golfie = verify.bind(offset)(zuuluu);
+            var10 = var5.Array;
+            var9 = var10.from;
+            var7 = var9.bind(var10)(var3);
  264:
-            oscard = golfie;
-            _fun00002_ip = 282; continue _fun00001;
+            var6 = var7;
+            _fun0001_ip = 282; continue _fun0001;
  269:
-            golfie = _closure1_slot11;
-            oscard = golfie.bind(option)(zuuluu, option);
+            var7 = _closure1_slot11;
+            var6 = var7.bind(var8)(var3, var8);
  282:
-            tangon = oscard;
-            if(tangon) { _fun00002_ip = 322; continue _fun00001 }
+            var4 = var6;
+            if(var4) { _fun0001_ip = 322; continue _fun0001 }
  288:
-            golfie = report.TypeError;
-            report = golfie.prototype;
-            oscard = Object.create(report, {constructor: {value: golfie}});
-            foxtra = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
-            backup = oscard;
-            report = new backup[golfie](foxtra, romeon);
-            report = report instanceof Object ? report : oscard;
-            throw report;
+            var7 = var5.TypeError;
+            var5 = var7.prototype;
+            var6 = Object.create(var5, {constructor: {value: var7}});
+            var13 = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
+            var14 = var6;
+            var5 = new var14[var7](var13, var12);
+            var5 = var5 instanceof Object ? var5 : var6;
+            throw var5;
  322:
-            if(!tangon) { _fun00002_ip = 329; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 329; continue _fun0001 }
  325:
-            _closure2_slot0 = tangon;
+            _closure2_slot0 = var4;
  329:
-            tangon = 0;
-            var _closure2_slot1 = tangon;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = 0;
+            var _closure2_slot1 = var4;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot0;
-                    entity = entity.length;
-                    if(!(!(michal >= entity))) { _fun00004_ip = 56; continue _fun00003 }
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var1 = var1.length;
+                    if(!(!(var2 >= var1))) { _fun0002_ip = 56; continue _fun0002 }
  20:
-                    entity = {};
-                    michal = false;
-                    entity['done'] = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    michal = parseFloat(michal);
-                    tangon = michal + 1;
-                    _closure2_slot1 = tangon;
-                    michal = zuuluu[michal];
-                    entity['value'] = michal;
-                    _fun00004_ip = 67; continue _fun00003;
+                    var1 = {};
+                    var2 = false;
+                    var1['done'] = var2;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var2 = parseFloat(var2);
+                    var4 = var2 + 1;
+                    _closure2_slot1 = var4;
+                    var2 = var3[var2];
+                    var1['value'] = var2;
+                    _fun0002_ip = 67; continue _fun0002;
  56:
-                    michal = {};
-                    zuuluu = true;
-                    michal['done'] = zuuluu;
-                    entity = michal;
+                    var2 = {};
+                    var3 = true;
+                    var2['done'] = var3;
+                    var1 = var2;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
  344:
-            entity = michal.call;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.next;
-            entity = michal.bind;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var1 = var2.call;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.next;
+            var1 = var2.bind;
+            var1 = var1.bind(var2)(var3);
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function _arrayLikeToArray(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            zuuluu = undefined;
-            entity = entity == zuuluu;
-            if(entity) { _fun00006_ip = 23; continue _fun00005 }
+            var4 = arg1;
+            var1 = null;
+            var3 = undefined;
+            var1 = var1 == var3;
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
  14:
-            michal = tangon.length;
-            entity = zuuluu > michal;
+            var2 = var4.length;
+            var1 = var3 > var2;
  23:
-            michal = undefined;
-            if(!entity) { _fun00006_ip = 33; continue _fun00005 }
+            var2 = undefined;
+            if(!var1) { _fun0003_ip = 33; continue _fun0003 }
  28:
-            michal = tangon.length;
+            var2 = var4.length;
  33:
-            entity = global;
-            entity = entity.Array;
-            entity = entity.bind(zuuluu)(michal);
-            zuuluu = 0;
-            report = zuuluu < michal;
-            if(!report) { _fun00006_ip = 70; continue _fun00005 }
+            var1 = global;
+            var1 = var1.Array;
+            var1 = var1.bind(var3)(var2);
+            var3 = 0;
+            var5 = var3 < var2;
+            if(!var5) { _fun0003_ip = 70; continue _fun0003 }
  55:
-            report = tangon[zuuluu];
-            entity[zuuluu] = report;
-            zuuluu = zuuluu + 1;
-            if(zuuluu < michal) { _fun00006_ip = 55; continue _fun00005 }
+            var5 = var4[var3];
+            var1[var3] = var5;
+            var3 = var3 + 1;
+            if(var3 < var2) { _fun0003_ip = 55; continue _fun0003 }
  70:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = function(argFoo, argBar, argBaz) { // Original name: formatWithOrWithoutMarkdown
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function formatWithOrWithoutMarkdown(arg1, arg2, arg3) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            zuuluu = entity.intl;
-            entity = argBaz;
-            if(entity) { _fun00008_ip = 55; continue _fun00007 }
+            var5 = arg1;
+            var4 = arg2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.intl;
+            var1 = arg3;
+            if(var1) { _fun0004_ip = 55; continue _fun0004 }
  42:
-            entity = zuuluu.formatToPlainString;
-            entity = entity.bind(zuuluu)(report, tangon);
-            _fun00008_ip = 67; continue _fun00007;
+            var1 = var3.formatToPlainString;
+            var1 = var1.bind(var3)(var5, var4);
+            _fun0004_ip = 67; continue _fun0004;
  55:
-            michal = zuuluu.formatToParts;
-            entity = michal.bind(zuuluu)(report, tangon);
+            var2 = var3.formatToParts;
+            var1 = var2.bind(var3)(var5, var4);
  67:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot12 = entity;
-    entity = function(argFoo) { // Original name: _getQuestsInstructionsToWinReward
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot12 = var1;
+    var1 = function _getQuestsInstructionsToWinReward(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            option = entity.quest;
-            golfie = entity.taskDetails;
-            offset = entity.thirdPartyTaskDetails;
-            report = entity.withoutMarkdown;
-            romeon = entity.currentUser;
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = 8;
-            michal = entity[michal];
-            oscard = undefined;
-            verify = tangon.bind(oscard)(michal);
-            zuuluu = verify.isPremium;
-            michal = _closure1_slot6;
-            michal = michal.TIER_2;
-            zuuluu = zuuluu.bind(verify)(romeon, michal);
-            backup = 7;
-            michal = entity[backup];
-            romeon = tangon.bind(oscard)(michal);
-            verify = romeon.getCollectibleQuestRewardDuration;
-            michal = option.config;
-            michal = verify.bind(romeon)(michal);
-            entity = entity[backup];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.isConsoleQuest;
-            entity = entity.bind(tangon)(option);
-            if(!entity) { _fun00010_ip = 165; continue _fun00009 }
+            var1 = arg1;
+            var8 = var1.quest;
+            var7 = var1.taskDetails;
+            var10 = var1.thirdPartyTaskDetails;
+            var5 = var1.withoutMarkdown;
+            var12 = var1.currentUser;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = 8;
+            var2 = var1[var2];
+            var6 = undefined;
+            var9 = var4.bind(var6)(var2);
+            var3 = var9.isPremium;
+            var2 = _closure1_slot6;
+            var2 = var2.TIER_2;
+            var3 = var3.bind(var9)(var12, var2);
+            var14 = 7;
+            var2 = var1[var14];
+            var12 = var4.bind(var6)(var2);
+            var9 = var12.getCollectibleQuestRewardDuration;
+            var2 = var8.config;
+            var2 = var9.bind(var12)(var2);
+            var1 = var1[var14];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.isConsoleQuest;
+            var1 = var1.bind(var4)(var8);
+            if(!var1) { _fun0005_ip = 165; continue _fun0005 }
  131:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[backup];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.shouldUsePlayOnDesktopTask;
-            entity = entity.bind(tangon)(option);
-            if(entity) { _fun00010_ip = 2042; continue _fun00009 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var14];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.shouldUsePlayOnDesktopTask;
+            var1 = var1.bind(var4)(var8);
+            if(var1) { _fun0005_ip = 2042; continue _fun0005 }
  165:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[backup];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.isConsoleQuest;
-            entity = entity.bind(tangon)(option);
-            if(entity) { _fun00010_ip = 1696; continue _fun00009 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var14];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.isConsoleQuest;
+            var1 = var1.bind(var4)(var8);
+            if(var1) { _fun0005_ip = 1696; continue _fun0005 }
  199:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[backup];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.shouldUsePlayOnDesktopTask;
-            entity = entity.bind(tangon)(option);
-            if(entity) { _fun00010_ip = 1348; continue _fun00009 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var14];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.shouldUsePlayOnDesktopTask;
+            var1 = var1.bind(var4)(var8);
+            if(var1) { _fun0005_ip = 1348; continue _fun0005 }
  233:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[backup];
-            verify = tangon.bind(oscard)(entity);
-            tangon = verify.isTieredRewardCodeQuest;
-            entity = {};
-            entity['quest'] = option;
-            entity = tangon.bind(verify)(entity);
-            if(entity) { _fun00010_ip = 1229; continue _fun00009 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var14];
+            var9 = var4.bind(var6)(var1);
+            var4 = var9.isTieredRewardCodeQuest;
+            var1 = {};
+            var1['quest'] = var8;
+            var1 = var4.bind(var9)(var1);
+            if(var1) { _fun0005_ip = 1229; continue _fun0005 }
  274:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[backup];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.hasWatchVideoTasks;
-            entity = entity.bind(tangon)(option);
-            verify = _closure1_slot0;
-            tangon = _closure1_slot1;
-            if(entity) { _fun00010_ip = 845; continue _fun00009 }
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var14];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.hasWatchVideoTasks;
+            var1 = var1.bind(var4)(var8);
+            var9 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            if(var1) { _fun0005_ip = 845; continue _fun0005 }
  316:
-            entity = tangon[backup];
-            romeon = verify.bind(oscard)(entity);
-            entity = romeon.hasPlayActivityTask;
-            entity = entity.bind(romeon)(option);
-            if(entity) { _fun00010_ip = 703; continue _fun00009 }
+            var1 = var4[var14];
+            var12 = var9.bind(var6)(var1);
+            var1 = var12.hasPlayActivityTask;
+            var1 = var1.bind(var12)(var8);
+            if(var1) { _fun0005_ip = 703; continue _fun0005 }
  342:
-            romeon = null;
-            if(!(romeon == offset)) { _fun00010_ip = 693; continue _fun00009 }
+            var12 = null;
+            if(!(var12 == var10)) { _fun0005_ip = 693; continue _fun0005 }
  351:
-            foxtra = {};
-            foxtra['quest'] = option;
-            foxtra['taskDetails'] = golfie;
-            foxtra['withoutMarkdown'] = report;
-            foxtra['hasNitro'] = zuuluu;
-            foxtra['collectibleRewardDuration'] = michal;
-            entity = foxtra.quest;
-            result = foxtra.taskDetails;
-            kiloes = foxtra.withoutMarkdown;
-            source = foxtra.hasNitro;
-            output = foxtra.collectibleRewardDuration;
-            ctrled = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            sizing = 6;
-            sizing = foxtra[sizing];
-            sizing = ctrled.bind(oscard)(sizing);
-            update = sizing.SharedQuestFields;
-            echoed = update.build;
-            sizing = entity.config;
-            sizing = echoed.bind(update)(sizing);
-            sizing = sizing.defaultRewardNameWithArticle;
-            result = result.targetMinutes;
-            echoed = entity.config;
-            echoed = echoed.messages;
-            echoed = echoed.gameTitle;
-            update = foxtra[backup];
-            sequen = ctrled.bind(oscard)(update);
-            vacuum = sequen.isCollectibleQuestRewardPremiumExtendable;
-            update = entity.config;
-            update = vacuum.bind(sequen)(update);
-            foxtra = foxtra[backup];
-            ctrled = ctrled.bind(oscard)(foxtra);
-            foxtra = ctrled.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            entity = entity.config;
-            entity = foxtra.bind(ctrled)(entity);
-            foxtra = _closure1_slot12;
-            if(!source) { _fun00010_ip = 539; continue _fun00009 }
+            var13 = {};
+            var13['quest'] = var8;
+            var13['taskDetails'] = var7;
+            var13['withoutMarkdown'] = var5;
+            var13['hasNitro'] = var3;
+            var13['collectibleRewardDuration'] = var2;
+            var1 = var13.quest;
+            var18 = var13.taskDetails;
+            var15 = var13.withoutMarkdown;
+            var21 = var13.hasNitro;
+            var17 = var13.collectibleRewardDuration;
+            var22 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var16 = 6;
+            var16 = var13[var16];
+            var16 = var22.bind(var6)(var16);
+            var20 = var16.SharedQuestFields;
+            var19 = var20.build;
+            var16 = var1.config;
+            var16 = var19.bind(var20)(var16);
+            var16 = var16.defaultRewardNameWithArticle;
+            var18 = var18.targetMinutes;
+            var19 = var1.config;
+            var19 = var19.messages;
+            var19 = var19.gameTitle;
+            var20 = var13[var14];
+            var24 = var22.bind(var6)(var20);
+            var23 = var24.isCollectibleQuestRewardPremiumExtendable;
+            var20 = var1.config;
+            var20 = var23.bind(var24)(var20);
+            var13 = var13[var14];
+            var22 = var22.bind(var6)(var13);
+            var13 = var22.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var1 = var1.config;
+            var1 = var13.bind(var22)(var1);
+            var13 = _closure1_slot12;
+            if(!var21) { _fun0005_ip = 539; continue _fun0005 }
  536:
-            if(update) { _fun00010_ip = 614; continue _fun00009 }
+            if(var20) { _fun0005_ip = 614; continue _fun0005 }
  539:
-            if(update) { _fun00010_ip = 579; continue _fun00009 }
+            if(var20) { _fun0005_ip = 579; continue _fun0005 }
  542:
-            if(!(romeon == output)) { _fun00010_ip = 579; continue _fun00009 }
+            if(!(var12 == var17)) { _fun0005_ip = 579; continue _fun0005 }
  546:
-            update = _closure1_slot0;
-            source = _closure1_slot1;
-            romeon = 5;
-            romeon = source[romeon];
-            romeon = update.bind(oscard)(romeon);
-            romeon = romeon.t;
-            romeon = romeon.hkJ+Gh;
-            _fun00010_ip = 612; continue _fun00009;
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot1;
+            var12 = 5;
+            var12 = var21[var12];
+            var12 = var20.bind(var6)(var12);
+            var12 = var12.t;
+            var12 = var12.hkJ+Gh;
+            _fun0005_ip = 612; continue _fun0005;
  579:
-            source = _closure1_slot0;
-            ctrled = _closure1_slot1;
-            update = 5;
-            update = ctrled[update];
-            update = source.bind(oscard)(update);
-            update = update.t;
-            romeon = update.BLyDvL;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot1;
+            var20 = 5;
+            var20 = var22[var20];
+            var20 = var21.bind(var6)(var20);
+            var20 = var20.t;
+            var12 = var20.BLyDvL;
  612:
-            _fun00010_ip = 663; continue _fun00009;
+            _fun0005_ip = 663; continue _fun0005;
  614:
-            source = _closure1_slot0;
-            ctrled = _closure1_slot1;
-            update = 5;
-            update = ctrled[update];
-            update = source.bind(oscard)(update);
-            update = update.t;
-            if(entity) { _fun00010_ip = 652; continue _fun00009 }
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot1;
+            var20 = 5;
+            var20 = var22[var20];
+            var20 = var21.bind(var6)(var20);
+            var20 = var20.t;
+            if(var1) { _fun0005_ip = 652; continue _fun0005 }
  642:
-            entity = update.smG9qq;
-            _fun00010_ip = 660; continue _fun00009;
+            var1 = var20.smG9qq;
+            _fun0005_ip = 660; continue _fun0005;
  652:
-            entity = update.X8Yt//;
+            var1 = var20.X8Yt//;
  660:
-            romeon = entity;
+            var12 = var1;
  663:
-            entity = {};
-            entity['gameTitle'] = echoed;
-            entity['streamingDurationRequirement'] = result;
-            entity['duration'] = output;
-            entity['questReward'] = sizing;
-            entity = foxtra.bind(oscard)(romeon, entity, kiloes);
-            _fun00010_ip = 698; continue _fun00009;
+            var1 = {};
+            var1['gameTitle'] = var19;
+            var1['streamingDurationRequirement'] = var18;
+            var1['duration'] = var17;
+            var1['questReward'] = var16;
+            var1 = var13.bind(var6)(var12, var1, var15);
+            _fun0005_ip = 698; continue _fun0005;
  693:
-            entity = offset.description;
+            var1 = var10.description;
  698:
-            _fun00010_ip = 840; continue _fun00009;
+            _fun0005_ip = 840; continue _fun0005;
  703:
-            foxtra = {};
-            foxtra['quest'] = option;
-            foxtra['taskDetails'] = golfie;
-            foxtra['withoutMarkdown'] = report;
-            offset = foxtra.quest;
-            romeon = foxtra.taskDetails;
-            kiloes = foxtra.withoutMarkdown;
-            output = romeon.targetMinutes;
-            romeon = _closure1_slot0;
-            result = _closure1_slot1;
-            foxtra = 6;
-            foxtra = result[foxtra];
-            foxtra = romeon.bind(oscard)(foxtra);
-            sizing = foxtra.SharedQuestFields;
-            foxtra = sizing.build;
-            offset = offset.config;
-            offset = foxtra.bind(sizing)(offset);
-            sizing = offset.defaultRewardNameWithArticle;
-            foxtra = _closure1_slot12;
-            offset = 5;
-            offset = result[offset];
-            offset = romeon.bind(oscard)(offset);
-            offset = offset.t;
-            romeon = offset.VYwSSk;
-            offset = {};
-            offset['streamingDurationRequirement'] = output;
-            offset['questReward'] = sizing;
-            entity = foxtra.bind(oscard)(romeon, offset, kiloes);
+            var13 = {};
+            var13['quest'] = var8;
+            var13['taskDetails'] = var7;
+            var13['withoutMarkdown'] = var5;
+            var10 = var13.quest;
+            var12 = var13.taskDetails;
+            var15 = var13.withoutMarkdown;
+            var17 = var12.targetMinutes;
+            var12 = _closure1_slot0;
+            var18 = _closure1_slot1;
+            var13 = 6;
+            var13 = var18[var13];
+            var13 = var12.bind(var6)(var13);
+            var16 = var13.SharedQuestFields;
+            var13 = var16.build;
+            var10 = var10.config;
+            var10 = var13.bind(var16)(var10);
+            var16 = var10.defaultRewardNameWithArticle;
+            var13 = _closure1_slot12;
+            var10 = 5;
+            var10 = var18[var10];
+            var10 = var12.bind(var6)(var10);
+            var10 = var10.t;
+            var12 = var10.VYwSSk;
+            var10 = {};
+            var10['streamingDurationRequirement'] = var17;
+            var10['questReward'] = var16;
+            var1 = var13.bind(var6)(var12, var10, var15);
  840:
-            _fun00010_ip = 1227; continue _fun00009;
+            _fun0005_ip = 1227; continue _fun0005;
  845:
-            romeon = 6;
-            tangon = tangon[romeon];
-            tangon = verify.bind(oscard)(tangon);
-            offset = tangon.SharedQuestFields;
-            verify = offset.build;
-            tangon = option.config;
-            tangon = verify.bind(offset)(tangon);
-            offset = tangon.defaultWatchVideoTask;
-            verify = null;
-            foxtra = verify == offset;
-            tangon = undefined;
-            if(foxtra) { _fun00010_ip = 908; continue _fun00009 }
+            var12 = 6;
+            var4 = var4[var12];
+            var4 = var9.bind(var6)(var4);
+            var10 = var4.SharedQuestFields;
+            var9 = var10.build;
+            var4 = var8.config;
+            var4 = var9.bind(var10)(var4);
+            var10 = var4.defaultWatchVideoTask;
+            var9 = null;
+            var13 = var9 == var10;
+            var4 = undefined;
+            if(var13) { _fun0005_ip = 908; continue _fun0005 }
  896:
-            offset = offset.messages;
-            tangon = offset.videoTitle;
+            var10 = var10.messages;
+            var4 = var10.videoTitle;
  908:
-            offset = verify != tangon;
-            foxtra = 'video';
-            if(!offset) { _fun00010_ip = 922; continue _fun00009 }
+            var10 = var9 != var4;
+            var13 = 'video';
+            if(!var10) { _fun0005_ip = 922; continue _fun0005 }
  919:
-            foxtra = tangon;
+            var13 = var4;
  922:
-            offset = _closure1_slot0;
-            tangon = _closure1_slot1;
-            romeon = tangon[romeon];
-            romeon = offset.bind(oscard)(romeon);
-            sizing = romeon.SharedQuestFields;
-            kiloes = sizing.build;
-            romeon = option.config;
-            romeon = kiloes.bind(sizing)(romeon);
-            romeon = romeon.defaultRewardNameWithArticle;
-            kiloes = tangon[backup];
-            output = offset.bind(oscard)(kiloes);
-            sizing = output.isCollectibleQuestRewardPremiumExtendable;
-            kiloes = option.config;
-            kiloes = sizing.bind(output)(kiloes);
-            tangon = tangon[backup];
-            sizing = offset.bind(oscard)(tangon);
-            offset = sizing.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            tangon = option.config;
-            tangon = offset.bind(sizing)(tangon);
-            offset = _closure1_slot12;
-            if(!kiloes) { _fun00010_ip = 1030; continue _fun00009 }
+            var10 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var12 = var4[var12];
+            var12 = var10.bind(var6)(var12);
+            var16 = var12.SharedQuestFields;
+            var15 = var16.build;
+            var12 = var8.config;
+            var12 = var15.bind(var16)(var12);
+            var12 = var12.defaultRewardNameWithArticle;
+            var15 = var4[var14];
+            var17 = var10.bind(var6)(var15);
+            var16 = var17.isCollectibleQuestRewardPremiumExtendable;
+            var15 = var8.config;
+            var15 = var16.bind(var17)(var15);
+            var4 = var4[var14];
+            var16 = var10.bind(var6)(var4);
+            var10 = var16.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var4 = var8.config;
+            var4 = var10.bind(var16)(var4);
+            var10 = _closure1_slot12;
+            if(!var15) { _fun0005_ip = 1030; continue _fun0005 }
  1024:
-            if(zuuluu) { _fun00010_ip = 1155; continue _fun00009 }
+            if(var3) { _fun0005_ip = 1155; continue _fun0005 }
  1030:
-            if(kiloes) { _fun00010_ip = 1120; continue _fun00009 }
+            if(var15) { _fun0005_ip = 1120; continue _fun0005 }
  1033:
-            if(!(verify == michal)) { _fun00010_ip = 1120; continue _fun00009 }
+            if(!(var9 == var2)) { _fun0005_ip = 1120; continue _fun0005 }
  1037:
-            kiloes = option.id;
-            verify = _closure1_slot4;
-            if(!(kiloes !== verify)) { _fun00010_ip = 1085; continue _fun00009 }
+            var15 = var8.id;
+            var9 = _closure1_slot4;
+            if(!(var15 !== var9)) { _fun0005_ip = 1085; continue _fun0005 }
  1050:
-            kiloes = _closure1_slot0;
-            sizing = _closure1_slot1;
-            verify = 5;
-            verify = sizing[verify];
-            verify = kiloes.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.g+InPD;
-            _fun00010_ip = 1118; continue _fun00009;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot1;
+            var9 = 5;
+            var9 = var16[var9];
+            var9 = var15.bind(var6)(var9);
+            var9 = var9.t;
+            var9 = var9.g+InPD;
+            _fun0005_ip = 1118; continue _fun0005;
  1085:
-            sizing = _closure1_slot0;
-            output = _closure1_slot1;
-            kiloes = 5;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(oscard)(kiloes);
-            kiloes = kiloes.t;
-            verify = kiloes.Rsd5bG;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var15 = 5;
+            var15 = var17[var15];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.t;
+            var9 = var15.Rsd5bG;
  1118:
-            _fun00010_ip = 1153; continue _fun00009;
+            _fun0005_ip = 1153; continue _fun0005;
  1120:
-            sizing = _closure1_slot0;
-            output = _closure1_slot1;
-            kiloes = 5;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(oscard)(kiloes);
-            kiloes = kiloes.t;
-            verify = kiloes.W/HkLC;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var15 = 5;
+            var15 = var17[var15];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.t;
+            var9 = var15.W/HkLC;
  1153:
-            _fun00010_ip = 1204; continue _fun00009;
+            _fun0005_ip = 1204; continue _fun0005;
  1155:
-            sizing = _closure1_slot0;
-            output = _closure1_slot1;
-            kiloes = 5;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(oscard)(kiloes);
-            kiloes = kiloes.t;
-            if(tangon) { _fun00010_ip = 1193; continue _fun00009 }
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var15 = 5;
+            var15 = var17[var15];
+            var15 = var16.bind(var6)(var15);
+            var15 = var15.t;
+            if(var4) { _fun0005_ip = 1193; continue _fun0005 }
  1183:
-            tangon = kiloes.vs/xBg;
-            _fun00010_ip = 1201; continue _fun00009;
+            var4 = var15.vs/xBg;
+            _fun0005_ip = 1201; continue _fun0005;
  1193:
-            tangon = kiloes.xqX+golfie;
+            var4 = var15.xqX+var7;
  1201:
-            verify = tangon;
+            var9 = var4;
  1204:
-            tangon = {};
-            tangon['videoTitle'] = foxtra;
-            tangon['rewardNameWithArticle'] = romeon;
-            tangon['duration'] = michal;
-            entity = offset.bind(oscard)(verify, tangon, report);
+            var4 = {};
+            var4['videoTitle'] = var13;
+            var4['rewardNameWithArticle'] = var12;
+            var4['duration'] = var2;
+            var1 = var10.bind(var6)(var9, var4, var5);
  1227:
-            _fun00010_ip = 1343; continue _fun00009;
+            _fun0005_ip = 1343; continue _fun0005;
  1229:
-            offset = {};
-            offset['quest'] = option;
-            offset['taskDetails'] = golfie;
-            offset['withoutMarkdown'] = report;
-            tangon = offset.quest;
-            verify = offset.taskDetails;
-            romeon = offset.withoutMarkdown;
-            foxtra = verify.targetMinutes;
-            tangon = tangon.config;
-            tangon = tangon.messages;
-            kiloes = tangon.gameTitle;
-            offset = _closure1_slot12;
-            verify = _closure1_slot0;
-            sizing = _closure1_slot1;
-            tangon = 5;
-            tangon = sizing[tangon];
-            tangon = verify.bind(oscard)(tangon);
-            tangon = tangon.t;
-            verify = tangon.a/ia7O;
-            tangon = {};
-            tangon['gameTitle'] = kiloes;
-            tangon['streamingDurationRequirement'] = foxtra;
-            entity = offset.bind(oscard)(verify, tangon, romeon);
+            var10 = {};
+            var10['quest'] = var8;
+            var10['taskDetails'] = var7;
+            var10['withoutMarkdown'] = var5;
+            var4 = var10.quest;
+            var9 = var10.taskDetails;
+            var12 = var10.withoutMarkdown;
+            var13 = var9.targetMinutes;
+            var4 = var4.config;
+            var4 = var4.messages;
+            var15 = var4.gameTitle;
+            var10 = _closure1_slot12;
+            var9 = _closure1_slot0;
+            var16 = _closure1_slot1;
+            var4 = 5;
+            var4 = var16[var4];
+            var4 = var9.bind(var6)(var4);
+            var4 = var4.t;
+            var9 = var4.a/ia7O;
+            var4 = {};
+            var4['gameTitle'] = var15;
+            var4['streamingDurationRequirement'] = var13;
+            var1 = var10.bind(var6)(var9, var4, var12);
  1343:
-            _fun00010_ip = 1691; continue _fun00009;
+            _fun0005_ip = 1691; continue _fun0005;
  1348:
-            offset = {};
-            offset['quest'] = option;
-            offset['taskDetails'] = golfie;
-            offset['withoutMarkdown'] = report;
-            offset['hasNitro'] = zuuluu;
-            offset['collectibleRewardDuration'] = michal;
-            tangon = offset.quest;
-            verify = offset.taskDetails;
-            romeon = offset.withoutMarkdown;
-            result = offset.hasNitro;
-            kiloes = offset.collectibleRewardDuration;
-            echoed = _closure1_slot0;
-            offset = _closure1_slot1;
-            foxtra = 6;
-            foxtra = offset[foxtra];
-            foxtra = echoed.bind(oscard)(foxtra);
-            output = foxtra.SharedQuestFields;
-            sizing = output.build;
-            foxtra = tangon.config;
-            foxtra = sizing.bind(output)(foxtra);
-            foxtra = foxtra.defaultRewardNameWithArticle;
-            sizing = verify.targetMinutes;
-            verify = tangon.config;
-            verify = verify.messages;
-            output = verify.gameTitle;
-            verify = offset[backup];
-            source = echoed.bind(oscard)(verify);
-            update = source.isCollectibleQuestRewardPremiumExtendable;
-            verify = tangon.config;
-            verify = update.bind(source)(verify);
-            offset = offset[backup];
-            echoed = echoed.bind(oscard)(offset);
-            offset = echoed.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            tangon = tangon.config;
-            tangon = offset.bind(echoed)(tangon);
-            offset = _closure1_slot12;
-            if(!result) { _fun00010_ip = 1536; continue _fun00009 }
+            var10 = {};
+            var10['quest'] = var8;
+            var10['taskDetails'] = var7;
+            var10['withoutMarkdown'] = var5;
+            var10['hasNitro'] = var3;
+            var10['collectibleRewardDuration'] = var2;
+            var4 = var10.quest;
+            var9 = var10.taskDetails;
+            var12 = var10.withoutMarkdown;
+            var18 = var10.hasNitro;
+            var15 = var10.collectibleRewardDuration;
+            var19 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var13 = 6;
+            var13 = var10[var13];
+            var13 = var19.bind(var6)(var13);
+            var17 = var13.SharedQuestFields;
+            var16 = var17.build;
+            var13 = var4.config;
+            var13 = var16.bind(var17)(var13);
+            var13 = var13.defaultRewardNameWithArticle;
+            var16 = var9.targetMinutes;
+            var9 = var4.config;
+            var9 = var9.messages;
+            var17 = var9.gameTitle;
+            var9 = var10[var14];
+            var21 = var19.bind(var6)(var9);
+            var20 = var21.isCollectibleQuestRewardPremiumExtendable;
+            var9 = var4.config;
+            var9 = var20.bind(var21)(var9);
+            var10 = var10[var14];
+            var19 = var19.bind(var6)(var10);
+            var10 = var19.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var4 = var4.config;
+            var4 = var10.bind(var19)(var4);
+            var10 = _closure1_slot12;
+            if(!var18) { _fun0005_ip = 1536; continue _fun0005 }
  1533:
-            if(verify) { _fun00010_ip = 1613; continue _fun00009 }
+            if(var9) { _fun0005_ip = 1613; continue _fun0005 }
  1536:
-            if(verify) { _fun00010_ip = 1580; continue _fun00009 }
+            if(var9) { _fun0005_ip = 1580; continue _fun0005 }
  1539:
-            verify = null;
-            if(!(verify == kiloes)) { _fun00010_ip = 1580; continue _fun00009 }
+            var9 = null;
+            if(!(var9 == var15)) { _fun0005_ip = 1580; continue _fun0005 }
  1545:
-            result = _closure1_slot0;
-            echoed = _closure1_slot1;
-            verify = 5;
-            verify = echoed[verify];
-            verify = result.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.FZL5Q0;
-            _fun00010_ip = 1611; continue _fun00009;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var9 = 5;
+            var9 = var19[var9];
+            var9 = var18.bind(var6)(var9);
+            var9 = var9.t;
+            var9 = var9.FZL5Q0;
+            _fun0005_ip = 1611; continue _fun0005;
  1580:
-            echoed = _closure1_slot0;
-            update = _closure1_slot1;
-            result = 5;
-            result = update[result];
-            result = echoed.bind(oscard)(result);
-            result = result.t;
-            verify = result.AwuMRU;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var18 = 5;
+            var18 = var20[var18];
+            var18 = var19.bind(var6)(var18);
+            var18 = var18.t;
+            var9 = var18.AwuMRU;
  1611:
-            _fun00010_ip = 1658; continue _fun00009;
+            _fun0005_ip = 1658; continue _fun0005;
  1613:
-            echoed = _closure1_slot0;
-            update = _closure1_slot1;
-            result = 5;
-            result = update[result];
-            result = echoed.bind(oscard)(result);
-            result = result.t;
-            if(tangon) { _fun00010_ip = 1649; continue _fun00009 }
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var18 = 5;
+            var18 = var20[var18];
+            var18 = var19.bind(var6)(var18);
+            var18 = var18.t;
+            if(var4) { _fun0005_ip = 1649; continue _fun0005 }
  1641:
-            tangon = result.ziB0HB;
-            _fun00010_ip = 1655; continue _fun00009;
+            var4 = var18.ziB0HB;
+            _fun0005_ip = 1655; continue _fun0005;
  1649:
-            tangon = result.eb/SnZ;
+            var4 = var18.eb/SnZ;
  1655:
-            verify = tangon;
+            var9 = var4;
  1658:
-            tangon = {};
-            tangon['gameTitle'] = output;
-            tangon['streamingDurationRequirement'] = sizing;
-            tangon['rewardNameWithArticle'] = foxtra;
-            tangon['duration'] = kiloes;
-            tangon['questReward'] = foxtra;
-            entity = offset.bind(oscard)(verify, tangon, romeon);
+            var4 = {};
+            var4['gameTitle'] = var17;
+            var4['streamingDurationRequirement'] = var16;
+            var4['rewardNameWithArticle'] = var13;
+            var4['duration'] = var15;
+            var4['questReward'] = var13;
+            var1 = var10.bind(var6)(var9, var4, var12);
  1691:
-            _fun00010_ip = 2037; continue _fun00009;
+            _fun0005_ip = 2037; continue _fun0005;
  1696:
-            offset = {};
-            offset['quest'] = option;
-            offset['taskDetails'] = golfie;
-            offset['withoutMarkdown'] = report;
-            offset['hasNitro'] = zuuluu;
-            offset['collectibleRewardDuration'] = michal;
-            tangon = offset.quest;
-            verify = offset.taskDetails;
-            romeon = offset.withoutMarkdown;
-            result = offset.hasNitro;
-            kiloes = offset.collectibleRewardDuration;
-            echoed = _closure1_slot0;
-            offset = _closure1_slot1;
-            foxtra = 6;
-            foxtra = offset[foxtra];
-            foxtra = echoed.bind(oscard)(foxtra);
-            output = foxtra.SharedQuestFields;
-            sizing = output.build;
-            foxtra = tangon.config;
-            foxtra = sizing.bind(output)(foxtra);
-            sizing = foxtra.defaultRewardNameWithArticle;
-            foxtra = verify.targetMinutes;
-            verify = tangon.config;
-            verify = verify.messages;
-            output = verify.gameTitle;
-            verify = offset[backup];
-            source = echoed.bind(oscard)(verify);
-            update = source.isCollectibleQuestRewardPremiumExtendable;
-            verify = tangon.config;
-            verify = update.bind(source)(verify);
-            offset = offset[backup];
-            echoed = echoed.bind(oscard)(offset);
-            offset = echoed.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            tangon = tangon.config;
-            tangon = offset.bind(echoed)(tangon);
-            offset = _closure1_slot12;
-            if(!result) { _fun00010_ip = 1884; continue _fun00009 }
+            var10 = {};
+            var10['quest'] = var8;
+            var10['taskDetails'] = var7;
+            var10['withoutMarkdown'] = var5;
+            var10['hasNitro'] = var3;
+            var10['collectibleRewardDuration'] = var2;
+            var4 = var10.quest;
+            var9 = var10.taskDetails;
+            var12 = var10.withoutMarkdown;
+            var18 = var10.hasNitro;
+            var15 = var10.collectibleRewardDuration;
+            var19 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var13 = 6;
+            var13 = var10[var13];
+            var13 = var19.bind(var6)(var13);
+            var17 = var13.SharedQuestFields;
+            var16 = var17.build;
+            var13 = var4.config;
+            var13 = var16.bind(var17)(var13);
+            var16 = var13.defaultRewardNameWithArticle;
+            var13 = var9.targetMinutes;
+            var9 = var4.config;
+            var9 = var9.messages;
+            var17 = var9.gameTitle;
+            var9 = var10[var14];
+            var21 = var19.bind(var6)(var9);
+            var20 = var21.isCollectibleQuestRewardPremiumExtendable;
+            var9 = var4.config;
+            var9 = var20.bind(var21)(var9);
+            var10 = var10[var14];
+            var19 = var19.bind(var6)(var10);
+            var10 = var19.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var4 = var4.config;
+            var4 = var10.bind(var19)(var4);
+            var10 = _closure1_slot12;
+            if(!var18) { _fun0005_ip = 1884; continue _fun0005 }
  1881:
-            if(verify) { _fun00010_ip = 1959; continue _fun00009 }
+            if(var9) { _fun0005_ip = 1959; continue _fun0005 }
  1884:
-            if(verify) { _fun00010_ip = 1926; continue _fun00009 }
+            if(var9) { _fun0005_ip = 1926; continue _fun0005 }
  1887:
-            verify = null;
-            if(!(verify == kiloes)) { _fun00010_ip = 1926; continue _fun00009 }
+            var9 = null;
+            if(!(var9 == var15)) { _fun0005_ip = 1926; continue _fun0005 }
  1893:
-            result = _closure1_slot0;
-            echoed = _closure1_slot1;
-            verify = 5;
-            verify = echoed[verify];
-            verify = result.bind(oscard)(verify);
-            verify = verify.t;
-            verify = verify.NIimTk;
-            _fun00010_ip = 1957; continue _fun00009;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var9 = 5;
+            var9 = var19[var9];
+            var9 = var18.bind(var6)(var9);
+            var9 = var9.t;
+            var9 = var9.NIimTk;
+            _fun0005_ip = 1957; continue _fun0005;
  1926:
-            echoed = _closure1_slot0;
-            update = _closure1_slot1;
-            result = 5;
-            result = update[result];
-            result = echoed.bind(oscard)(result);
-            result = result.t;
-            verify = result.AwuMRU;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var18 = 5;
+            var18 = var20[var18];
+            var18 = var19.bind(var6)(var18);
+            var18 = var18.t;
+            var9 = var18.AwuMRU;
  1957:
-            _fun00010_ip = 2004; continue _fun00009;
+            _fun0005_ip = 2004; continue _fun0005;
  1959:
-            echoed = _closure1_slot0;
-            update = _closure1_slot1;
-            result = 5;
-            result = update[result];
-            result = echoed.bind(oscard)(result);
-            result = result.t;
-            if(tangon) { _fun00010_ip = 1995; continue _fun00009 }
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var18 = 5;
+            var18 = var20[var18];
+            var18 = var19.bind(var6)(var18);
+            var18 = var18.t;
+            if(var4) { _fun0005_ip = 1995; continue _fun0005 }
  1987:
-            tangon = result.ziB0HB;
-            _fun00010_ip = 2001; continue _fun00009;
+            var4 = var18.ziB0HB;
+            _fun0005_ip = 2001; continue _fun0005;
  1995:
-            tangon = result.eb/SnZ;
+            var4 = var18.eb/SnZ;
  2001:
-            verify = tangon;
+            var9 = var4;
  2004:
-            tangon = {};
-            tangon['gameTitle'] = output;
-            tangon['targetMinutes'] = foxtra;
-            tangon['rewardNameWithArticle'] = sizing;
-            tangon['duration'] = kiloes;
-            tangon['streamingDurationRequirement'] = foxtra;
-            entity = offset.bind(oscard)(verify, tangon, romeon);
+            var4 = {};
+            var4['gameTitle'] = var17;
+            var4['targetMinutes'] = var13;
+            var4['rewardNameWithArticle'] = var16;
+            var4['duration'] = var15;
+            var4['streamingDurationRequirement'] = var13;
+            var1 = var10.bind(var6)(var9, var4, var12);
  2037:
-            _fun00010_ip = 2383; continue _fun00009;
+            _fun0005_ip = 2383; continue _fun0005;
  2042:
-            tangon = {};
-            tangon['quest'] = option;
-            tangon['taskDetails'] = golfie;
-            tangon['withoutMarkdown'] = report;
-            tangon['hasNitro'] = zuuluu;
-            tangon['collectibleRewardDuration'] = michal;
-            michal = tangon.quest;
-            zuuluu = tangon.taskDetails;
-            report = tangon.withoutMarkdown;
-            romeon = tangon.hasNitro;
-            option = tangon.collectibleRewardDuration;
-            foxtra = _closure1_slot0;
-            tangon = _closure1_slot1;
-            golfie = 6;
-            golfie = tangon[golfie];
-            golfie = foxtra.bind(oscard)(golfie);
-            offset = golfie.SharedQuestFields;
-            verify = offset.build;
-            golfie = michal.config;
-            golfie = verify.bind(offset)(golfie);
-            verify = golfie.defaultRewardNameWithArticle;
-            golfie = zuuluu.targetMinutes;
-            zuuluu = michal.config;
-            zuuluu = zuuluu.messages;
-            offset = zuuluu.gameTitle;
-            zuuluu = tangon[backup];
-            sizing = foxtra.bind(oscard)(zuuluu);
-            kiloes = sizing.isCollectibleQuestRewardPremiumExtendable;
-            zuuluu = michal.config;
-            zuuluu = kiloes.bind(sizing)(zuuluu);
-            tangon = tangon[backup];
-            foxtra = foxtra.bind(oscard)(tangon);
-            tangon = foxtra.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            michal = michal.config;
-            michal = tangon.bind(foxtra)(michal);
-            tangon = _closure1_slot12;
-            if(!romeon) { _fun00010_ip = 2230; continue _fun00009 }
+            var4 = {};
+            var4['quest'] = var8;
+            var4['taskDetails'] = var7;
+            var4['withoutMarkdown'] = var5;
+            var4['hasNitro'] = var3;
+            var4['collectibleRewardDuration'] = var2;
+            var2 = var4.quest;
+            var3 = var4.taskDetails;
+            var5 = var4.withoutMarkdown;
+            var12 = var4.hasNitro;
+            var8 = var4.collectibleRewardDuration;
+            var13 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var7 = 6;
+            var7 = var4[var7];
+            var7 = var13.bind(var6)(var7);
+            var10 = var7.SharedQuestFields;
+            var9 = var10.build;
+            var7 = var2.config;
+            var7 = var9.bind(var10)(var7);
+            var9 = var7.defaultRewardNameWithArticle;
+            var7 = var3.targetMinutes;
+            var3 = var2.config;
+            var3 = var3.messages;
+            var10 = var3.gameTitle;
+            var3 = var4[var14];
+            var16 = var13.bind(var6)(var3);
+            var15 = var16.isCollectibleQuestRewardPremiumExtendable;
+            var3 = var2.config;
+            var3 = var15.bind(var16)(var3);
+            var4 = var4[var14];
+            var13 = var13.bind(var6)(var4);
+            var4 = var13.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var2 = var2.config;
+            var2 = var4.bind(var13)(var2);
+            var4 = _closure1_slot12;
+            if(!var12) { _fun0005_ip = 2230; continue _fun0005 }
  2227:
-            if(zuuluu) { _fun00010_ip = 2305; continue _fun00009 }
+            if(var3) { _fun0005_ip = 2305; continue _fun0005 }
  2230:
-            if(zuuluu) { _fun00010_ip = 2272; continue _fun00009 }
+            if(var3) { _fun0005_ip = 2272; continue _fun0005 }
  2233:
-            zuuluu = null;
-            if(!(zuuluu == option)) { _fun00010_ip = 2272; continue _fun00009 }
+            var3 = null;
+            if(!(var3 == var8)) { _fun0005_ip = 2272; continue _fun0005 }
  2239:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.NIimTk;
-            _fun00010_ip = 2303; continue _fun00009;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var3 = 5;
+            var3 = var13[var3];
+            var3 = var12.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.NIimTk;
+            _fun0005_ip = 2303; continue _fun0005;
  2272:
-            foxtra = _closure1_slot0;
-            backup = _closure1_slot1;
-            romeon = 5;
-            romeon = backup[romeon];
-            romeon = foxtra.bind(oscard)(romeon);
-            romeon = romeon.t;
-            zuuluu = romeon.AwuMRU;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var12 = 5;
+            var12 = var14[var12];
+            var12 = var13.bind(var6)(var12);
+            var12 = var12.t;
+            var3 = var12.AwuMRU;
  2303:
-            _fun00010_ip = 2350; continue _fun00009;
+            _fun0005_ip = 2350; continue _fun0005;
  2305:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            yankee = 5;
-            yankee = foxtra[yankee];
-            yankee = romeon.bind(oscard)(yankee);
-            yankee = yankee.t;
-            if(michal) { _fun00010_ip = 2341; continue _fun00009 }
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var11 = 5;
+            var11 = var13[var11];
+            var11 = var12.bind(var6)(var11);
+            var11 = var11.t;
+            if(var2) { _fun0005_ip = 2341; continue _fun0005 }
  2333:
-            michal = yankee.ziB0HB;
-            _fun00010_ip = 2347; continue _fun00009;
+            var2 = var11.ziB0HB;
+            _fun0005_ip = 2347; continue _fun0005;
  2341:
-            michal = yankee.eb/SnZ;
+            var2 = var11.eb/SnZ;
  2347:
-            zuuluu = michal;
+            var3 = var2;
  2350:
-            michal = {};
-            michal['gameTitle'] = offset;
-            michal['streamingDurationRequirement'] = golfie;
-            michal['rewardNameWithArticle'] = verify;
-            michal['duration'] = option;
-            michal['targetMinutes'] = golfie;
-            entity = tangon.bind(oscard)(zuuluu, michal, report);
+            var2 = {};
+            var2['gameTitle'] = var10;
+            var2['streamingDurationRequirement'] = var7;
+            var2['rewardNameWithArticle'] = var9;
+            var2['duration'] = var8;
+            var2['targetMinutes'] = var7;
+            var1 = var4.bind(var6)(var3, var2, var5);
  2383:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot13 = entity;
-    tangon = function(argFoo) { // Original name: getQuestsInstructionsToWinReward
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot13 = var1;
+    var4 = function getQuestsInstructionsToWinReward(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            report = _closure1_slot13;
-            zuuluu = {};
-            verify = zuuluu;
-            option = entity;
-            tangon = copyDataProperties(verify, option);
-            oscard = entity.currentUser;
-            tangon = null;
-            if(!(tangon == oscard)) { _fun00012_ip = 47; continue _fun00011 }
+            var1 = arg1;
+            var5 = _closure1_slot13;
+            var3 = {};
+            var9 = var3;
+            var8 = var1;
+            var4 = copyDataProperties(var9, var8);
+            var6 = var1.currentUser;
+            var4 = null;
+            if(!(var4 == var6)) { _fun0006_ip = 47; continue _fun0006 }
  34:
-            golfie = _closure1_slot3;
-            tangon = golfie.getCurrentUser;
-            oscard = tangon.bind(golfie)();
+            var7 = _closure1_slot3;
+            var4 = var7.getCurrentUser;
+            var6 = var4.bind(var7)();
  47:
-            tangon = 'currentUser';
-            zuuluu[tangon] = oscard;
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(zuuluu);
-            report = entity.withoutMarkdown;
-            entity = zuuluu;
-            if(!report) { _fun00012_ip = 84; continue _fun00011 }
+            var4 = 'currentUser';
+            var3[var4] = var6;
+            var4 = undefined;
+            var3 = var5.bind(var4)(var3);
+            var5 = var1.withoutMarkdown;
+            var1 = var3;
+            if(!var5) { _fun0006_ip = 84; continue _fun0006 }
  75:
-            michal = _closure1_slot8;
-            entity = michal.bind(tangon)(zuuluu);
+            var2 = _closure1_slot8;
+            var1 = var2.bind(var4)(var3);
  84:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot14 = tangon;
-    entity = function(argFoo) { // Original name: useSimplifiedQuestTaskType
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot14 = var4;
+    var1 = function useSimplifiedQuestTaskType(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                tangon = _closure2_slot0;
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot1;
-                oscard = 7;
-                entity = entity[oscard];
-                report = undefined;
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.isConsoleQuest;
-                entity = entity.bind(zuuluu)(tangon);
-                if(entity) { _fun00014_ip = 227; continue _fun00013 }
+                var4 = _closure2_slot0;
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var6 = 7;
+                var1 = var1[var6];
+                var5 = undefined;
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.isConsoleQuest;
+                var1 = var1.bind(var3)(var4);
+                if(var1) { _fun0007_ip = 227; continue _fun0007 }
  49:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot1;
-                entity = entity[oscard];
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.hasPlayActivityTask;
-                entity = entity.bind(zuuluu)(tangon);
-                if(entity) { _fun00014_ip = 227; continue _fun00013 }
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var1 = var1[var6];
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.hasPlayActivityTask;
+                var1 = var1.bind(var3)(var4);
+                if(var1) { _fun0007_ip = 227; continue _fun0007 }
  83:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot1;
-                entity = entity[oscard];
-                golfie = zuuluu.bind(report)(entity);
-                zuuluu = golfie.hasStreamOnDesktopTask;
-                entity = {};
-                entity['quest'] = tangon;
-                entity = zuuluu.bind(golfie)(entity);
-                if(entity) { _fun00014_ip = 215; continue _fun00013 }
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var1 = var1[var6];
+                var7 = var3.bind(var5)(var1);
+                var3 = var7.hasStreamOnDesktopTask;
+                var1 = {};
+                var1['quest'] = var4;
+                var1 = var3.bind(var7)(var1);
+                if(var1) { _fun0007_ip = 215; continue _fun0007 }
  121:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot1;
-                entity = entity[oscard];
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.hasWatchVideoTasks;
-                entity = entity.bind(zuuluu)(tangon);
-                if(entity) { _fun00014_ip = 203; continue _fun00013 }
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var1 = var1[var6];
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.hasWatchVideoTasks;
+                var1 = var1.bind(var3)(var4);
+                if(var1) { _fun0007_ip = 203; continue _fun0007 }
  152:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot1;
-                entity = entity[oscard];
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.isInGameQuest;
-                entity = entity.bind(zuuluu)(tangon);
-                zuuluu = _closure1_slot9;
-                if(entity) { _fun00014_ip = 195; continue _fun00013 }
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var1 = var1[var6];
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.isInGameQuest;
+                var1 = var1.bind(var3)(var4);
+                var3 = _closure1_slot9;
+                if(var1) { _fun0007_ip = 195; continue _fun0007 }
  187:
-                entity = zuuluu.PLAY;
-                _fun00014_ip = 201; continue _fun00013;
+                var1 = var3.PLAY;
+                _fun0007_ip = 201; continue _fun0007;
  195:
-                entity = zuuluu.IN_GAME;
+                var1 = var3.IN_GAME;
  201:
-                _fun00014_ip = 213; continue _fun00013;
+                _fun0007_ip = 213; continue _fun0007;
  203:
-                zuuluu = _closure1_slot9;
-                entity = zuuluu.WATCH_VIDEO;
+                var3 = _closure1_slot9;
+                var1 = var3.WATCH_VIDEO;
  213:
-                _fun00014_ip = 225; continue _fun00013;
+                _fun0007_ip = 225; continue _fun0007;
  215:
-                zuuluu = _closure1_slot9;
-                entity = zuuluu.STREAM;
+                var3 = _closure1_slot9;
+                var1 = var3.STREAM;
  225:
-                _fun00014_ip = 237; continue _fun00013;
+                _fun0007_ip = 237; continue _fun0007;
  227:
-                michal = _closure1_slot9;
-                entity = michal.PLAY;
+                var2 = _closure1_slot9;
+                var1 = var2.PLAY;
  237:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot15 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    romeon = 0;
-    option = golfie[romeon];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    yankee = 1;
-    option = golfie[yankee];
-    report = argBaz;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    offset = 2;
-    report = golfie[offset];
-    report = oscard.bind(entity)(report);
-    option = report.ORBS_INTRO_QUEST_ID;
-    var _closure1_slot4 = option;
-    report = report.QuestVariants;
-    var _closure1_slot5 = report;
-    verify = 3;
-    report = golfie[verify];
-    report = oscard.bind(entity)(report);
-    report = report.PremiumTypes;
-    var _closure1_slot6 = report;
-    report = 4;
-    report = golfie[report];
-    foxtra = oscard.bind(entity)(report);
-    option = foxtra.getQuestLogger;
-    report = {};
-    report = option.bind(foxtra)(report);
-    var _closure1_slot7 = report;
-    report = function(argFoo) { // Original name: astNodeToString
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var _closure1_slot15 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var12 = 0;
+    var8 = var7[var12];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var11 = 1;
+    var8 = var7[var11];
+    var5 = native3;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var10 = 2;
+    var5 = var7[var10];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.ORBS_INTRO_QUEST_ID;
+    var _closure1_slot4 = var8;
+    var5 = var5.QuestVariants;
+    var _closure1_slot5 = var5;
+    var9 = 3;
+    var5 = var7[var9];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.PremiumTypes;
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var13 = var6.bind(var1)(var5);
+    var8 = var13.getQuestLogger;
+    var5 = {};
+    var5 = var8.bind(var13)(var5);
+    var _closure1_slot7 = var5;
+    var5 = function astNodeToString(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            entity = argFoo;
-            report = undefined;
-            michal = undefined;
-            oscard = undefined;
-            golfie = undefined;
+            var1 = arg1;
+            var5 = undefined;
+            var2 = undefined;
+            var6 = undefined;
+            var7 = undefined;
  11: // try_start_0
-            michal = '';
-            zuuluu = entity;
-            tangon = 'string';
-            zuuluu = typeof zuuluu;
-            if(!(tangon !== zuuluu)) { _fun00016_ip = 157; continue _fun00015 }
+            var2 = '';
+            var3 = var1;
+            var4 = 'string';
+            var3 = typeof var3;
+            if(!(var4 !== var3)) { _fun0008_ip = 157; continue _fun0008 }
  32:
-            zuuluu = global;
-            option = zuuluu.Array;
-            tangon = option.isArray;
-            zuuluu = entity;
-            zuuluu = tangon.bind(option)(zuuluu);
-            if(zuuluu) { _fun00016_ip = 78; continue _fun00015 }
+            var3 = global;
+            var8 = var3.Array;
+            var4 = var8.isArray;
+            var3 = var1;
+            var3 = var4.bind(var8)(var3);
+            if(var3) { _fun0008_ip = 78; continue _fun0008 }
  59:
-            option = _closure1_slot8;
-            zuuluu = entity;
-            zuuluu = zuuluu.content;
-            zuuluu = option.bind(report)(zuuluu);
+            var8 = _closure1_slot8;
+            var3 = var1;
+            var3 = var3.content;
+            var3 = var8.bind(var5)(var3);
  76: // try_end0
-            return zuuluu;
+            return var3;
  78: // try_start_1
-            option = _closure1_slot10;
-            zuuluu = entity;
-            zuuluu = option.bind(report)(zuuluu);
-            golfie = zuuluu;
-            zuuluu = zuuluu.bind(report)();
-            oscard = zuuluu;
-            zuuluu = zuuluu.done;
-            if(zuuluu) { _fun00016_ip = 155; continue _fun00015 }
+            var8 = _closure1_slot10;
+            var3 = var1;
+            var3 = var8.bind(var5)(var3);
+            var7 = var3;
+            var3 = var3.bind(var5)();
+            var6 = var3;
+            var3 = var3.done;
+            if(var3) { _fun0008_ip = 155; continue _fun0008 }
  108:
-            zuuluu = oscard;
-            zuuluu = zuuluu.value;
-            option = michal;
-            verify = _closure1_slot8;
-            zuuluu = zuuluu.content;
-            zuuluu = verify.bind(report)(zuuluu);
-            michal = option + zuuluu;
-            zuuluu = golfie;
-            zuuluu = zuuluu.bind(report)();
-            oscard = zuuluu;
-            zuuluu = zuuluu.done;
-            if(!zuuluu) { _fun00016_ip = 108; continue _fun00015 }
+            var3 = var6;
+            var3 = var3.value;
+            var8 = var2;
+            var9 = _closure1_slot8;
+            var3 = var3.content;
+            var3 = var9.bind(var5)(var3);
+            var2 = var8 + var3;
+            var3 = var7;
+            var3 = var3.bind(var5)();
+            var6 = var3;
+            var3 = var3.done;
+            if(!var3) { _fun0008_ip = 108; continue _fun0008 }
  155: // try_end1
-            return michal;
+            return var2;
  157:
-            return entity;
+            return var1;
  159: // catch_target0 // catch_target1
             CatchBlockStart(arg_register=3);
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.error;
-            entity = 'Failed to convert ASTNode to string';
-            entity = michal.bind(zuuluu)(entity, tangon);
-            entity = '';
-            return entity;
+            var3 = _closure1_slot7;
+            var2 = var3.error;
+            var1 = 'Failed to convert ASTNode to string';
+            var1 = var2.bind(var3)(var1, var4);
+            var1 = '';
+            return var1;
         }
     };
-    var _closure1_slot8 = report;
-    report = {};
-    report['PLAY'] = romeon;
-    option = 'PLAY';
-    report[romeon] = option;
-    report['STREAM'] = yankee;
-    option = 'STREAM';
-    report[yankee] = option;
-    report['WATCH_VIDEO'] = offset;
-    option = 'WATCH_VIDEO';
-    report[offset] = option;
-    report['IN_GAME'] = verify;
-    option = 'IN_GAME';
-    report[verify] = option;
-    var _closure1_slot9 = report;
-    report = 11;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/quests/hooks/QuestCopyHooks.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getQuestsInstructionsToWinReward'] = tangon;
-    tangon = function(argFoo) { // Original name: useQuestsInstructionsToWinReward
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var _closure1_slot8 = var5;
+    var5 = {};
+    var5['PLAY'] = var12;
+    var8 = 'PLAY';
+    var5[var12] = var8;
+    var5['STREAM'] = var11;
+    var8 = 'STREAM';
+    var5[var11] = var8;
+    var5['WATCH_VIDEO'] = var10;
+    var8 = 'WATCH_VIDEO';
+    var5[var10] = var8;
+    var5['IN_GAME'] = var9;
+    var8 = 'IN_GAME';
+    var5[var9] = var8;
+    var _closure1_slot9 = var5;
+    var5 = 11;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/quests/hooks/QuestCopyHooks.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getQuestsInstructionsToWinReward'] = var4;
+    var4 = function useQuestsInstructionsToWinReward(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            report = argFoo;
-            option = report.quest;
-            romeon = report.questContent;
-            yankee = report.sourceQuestContent;
-            tangon = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 9;
-            oscard = verify[michal];
-            zuuluu = undefined;
-            offset = tangon.bind(zuuluu)(oscard);
-            golfie = offset.useConnectedConsoleLinkOnClick;
-            oscard = {};
-            oscard['quest'] = option;
-            oscard['questContent'] = romeon;
-            oscard['sourceQuestContent'] = yankee;
-            golfie = golfie.bind(offset)(oscard);
-            oscard = 10;
-            oscard = verify[oscard];
-            romeon = tangon.bind(zuuluu)(oscard);
-            yankee = romeon.useStateFromStores;
-            oscard = _closure1_slot3;
-            offset = new Array(1);
-            offset[0] = oscard;
-            oscard = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var5 = arg1;
+            var8 = var5.quest;
+            var12 = var5.questContent;
+            var11 = var5.sourceQuestContent;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 9;
+            var6 = var9[var2];
+            var3 = undefined;
+            var10 = var4.bind(var3)(var6);
+            var7 = var10.useConnectedConsoleLinkOnClick;
+            var6 = {};
+            var6['quest'] = var8;
+            var6['questContent'] = var12;
+            var6['sourceQuestContent'] = var11;
+            var7 = var7.bind(var10)(var6);
+            var6 = 10;
+            var6 = var9[var6];
+            var12 = var4.bind(var3)(var6);
+            var11 = var12.useStateFromStores;
+            var6 = _closure1_slot3;
+            var10 = new Array(1);
+            var10[0] = var6;
+            var6 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            oscard = yankee.bind(romeon)(offset, oscard);
-            michal = verify[michal];
-            tangon = tangon.bind(zuuluu)(michal);
-            michal = tangon.useThirdPartyTaskDetails;
-            tangon = michal.bind(tangon)(option);
-            michal = _closure1_slot14;
-            entity = {};
-            kiloes = entity;
-            backup = report;
-            report = copyDataProperties(kiloes, backup);
-            report = 'connectedConsoleLinkOnClick';
-            entity[report] = golfie;
-            golfie = false;
-            report = 'withoutMarkdown';
-            entity[report] = golfie;
-            report = 'currentUser';
-            entity[report] = oscard;
-            report = null;
-            oscard = report != tangon;
-            report = undefined;
-            if(!oscard) { _fun00018_ip = 199; continue _fun00017 }
+            var6 = var11.bind(var12)(var10, var6);
+            var2 = var9[var2];
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.useThirdPartyTaskDetails;
+            var4 = var2.bind(var4)(var8);
+            var2 = _closure1_slot14;
+            var1 = {};
+            var15 = var1;
+            var14 = var5;
+            var5 = copyDataProperties(var15, var14);
+            var5 = 'connectedConsoleLinkOnClick';
+            var1[var5] = var7;
+            var7 = false;
+            var5 = 'withoutMarkdown';
+            var1[var5] = var7;
+            var5 = 'currentUser';
+            var1[var5] = var6;
+            var5 = null;
+            var6 = var5 != var4;
+            var5 = undefined;
+            if(!var6) { _fun0009_ip = 199; continue _fun0009 }
  196:
-            report = tangon;
+            var5 = var4;
  199:
-            tangon = 'thirdPartyTaskDetails';
-            entity[tangon] = report;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var4 = 'thirdPartyTaskDetails';
+            var1[var4] = var5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['useQuestsInstructionsToWinReward'] = tangon;
-    tangon = function(argFoo) { // Original name: usePrimaryCtaCopy
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var3['useQuestsInstructionsToWinReward'] = var4;
+    var4 = function usePrimaryCtaCopy(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            entity = argFoo;
-            michal = entity.quest;
-            zuuluu = _closure1_slot15;
-            report = undefined;
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.PLAY;
-            if(!(zuuluu !== tangon)) { _fun00020_ip = 255; continue _fun00019 }
+            var1 = arg1;
+            var2 = var1.quest;
+            var3 = _closure1_slot15;
+            var5 = undefined;
+            var4 = var3.bind(var5)(var2);
+            var3 = _closure1_slot9;
+            var3 = var3.PLAY;
+            if(!(var3 !== var4)) { _fun0010_ip = 255; continue _fun0010 }
  40:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.STREAM;
-            if(!(zuuluu !== tangon)) { _fun00020_ip = 255; continue _fun00019 }
+            var3 = _closure1_slot9;
+            var3 = var3.STREAM;
+            if(!(var3 !== var4)) { _fun0010_ip = 255; continue _fun0010 }
  57:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.WATCH_VIDEO;
-            if(!(zuuluu !== tangon)) { _fun00020_ip = 196; continue _fun00019 }
+            var3 = _closure1_slot9;
+            var3 = var3.WATCH_VIDEO;
+            if(!(var3 !== var4)) { _fun0010_ip = 196; continue _fun0010 }
  74:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.IN_GAME;
-            if(!(zuuluu !== tangon)) { _fun00020_ip = 90; continue _fun00019 }
+            var3 = _closure1_slot9;
+            var3 = var3.IN_GAME;
+            if(!(var3 !== var4)) { _fun0010_ip = 90; continue _fun0010 }
  88:
-            return report;
+            return var5;
  90:
-            michal = michal.config;
-            tangon = michal.features;
-            zuuluu = tangon.includes;
-            michal = _closure1_slot5;
-            michal = michal.START_QUEST_CTA;
-            michal = zuuluu.bind(tangon)(michal);
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 5;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(report)(tangon);
-            oscard = tangon.intl;
-            tangon = oscard.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(report)(zuuluu);
-            zuuluu = zuuluu.t;
-            if(michal) { _fun00020_ip = 181; continue _fun00019 }
+            var2 = var2.config;
+            var4 = var2.features;
+            var3 = var4.includes;
+            var2 = _closure1_slot5;
+            var2 = var2.START_QUEST_CTA;
+            var2 = var3.bind(var4)(var2);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 5;
+            var4 = var8[var3];
+            var4 = var7.bind(var5)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var5)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0010_ip = 181; continue _fun0010 }
  168:
-            michal = zuuluu.l7E81t;
-            michal = tangon.bind(oscard)(michal);
-            _fun00020_ip = 194; continue _fun00019;
+            var2 = var3.l7E81t;
+            var2 = var4.bind(var6)(var2);
+            _fun0010_ip = 194; continue _fun0010;
  181:
-            zuuluu = zuuluu.ToGcxM;
-            michal = tangon.bind(oscard)(zuuluu);
+            var3 = var3.ToGcxM;
+            var2 = var4.bind(var6)(var3);
  194:
-            return michal;
+            return var2;
  196:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 5;
-            zuuluu = golfie[michal];
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.umdNio;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 5;
+            var3 = var7[var2];
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.umdNio;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  255:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 5;
-            michal = oscard[entity];
-            michal = tangon.bind(report)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.t;
-            entity = entity.l7E81t;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 5;
+            var2 = var6[var1];
+            var2 = var4.bind(var5)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.t;
+            var1 = var1.l7E81t;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['usePrimaryCtaCopy'] = tangon;
-    michal = function(argFoo) { // Original name: usePremiumExtendableCopy
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var3['usePrimaryCtaCopy'] = var4;
+    var2 = function usePremiumExtendableCopy(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
-            oscard = _closure1_slot2;
-            report = oscard.useMemo;
-            tangon = new Array(1);
-            tangon[0] = golfie;
-            michal = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 7;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.isCollectibleQuestRewardPremiumExtendable;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = arg1;
+            var _closure2_slot0 = var7;
+            var6 = _closure1_slot2;
+            var5 = var6.useMemo;
+            var4 = new Array(1);
+            var4[0] = var7;
+            var2 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.isCollectibleQuestRewardPremiumExtendable;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            tangon = report.bind(oscard)(michal, tangon);
-            oscard = _closure1_slot2;
-            report = oscard.useMemo;
-            michal = new Array(1);
-            michal[0] = golfie;
-            entity = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 7;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var4 = var5.bind(var6)(var2, var4);
+            var6 = _closure1_slot2;
+            var5 = var6.useMemo;
+            var2 = new Array(1);
+            var2[0] = var7;
+            var1 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 7;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = report.bind(oscard)(entity, michal);
-            entity = null;
-            if(!tangon) { _fun00022_ip = 157; continue _fun00021 }
+            var2 = var5.bind(var6)(var1, var2);
+            var1 = null;
+            if(!var4) { _fun0011_ip = 157; continue _fun0011 }
  77:
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 5;
-            tangon = option[zuuluu];
-            oscard = undefined;
-            tangon = golfie.bind(oscard)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            if(michal) { _fun00022_ip = 141; continue _fun00021 }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 5;
+            var4 = var8[var3];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0011_ip = 141; continue _fun0011 }
  126:
-            michal = zuuluu.GYGb3N;
-            michal = tangon.bind(report)(michal);
-            _fun00022_ip = 154; continue _fun00021;
+            var2 = var3.GYGb3N;
+            var2 = var4.bind(var5)(var2);
+            _fun0011_ip = 154; continue _fun0011;
  141:
-            zuuluu = zuuluu.hh7Rb2;
-            michal = tangon.bind(report)(zuuluu);
+            var3 = var3.hh7Rb2;
+            var2 = var4.bind(var5)(var3);
  154:
-            entity = michal;
+            var1 = var2;
  157:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['usePremiumExtendableCopy'] = michal;
-    return entity;
+    var3['usePremiumExtendableCopy'] = var2;
+    return var1;
 })();

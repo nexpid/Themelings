@@ -1,157 +1,157 @@
 // app/modules/premium/powerups/hooks/useGuildPowerupsBoostLevelProgress.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AppliedGuildBoostsRequiredForBoostedGuildTier;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.BoostedGuildTiers;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/powerups/hooks/useGuildPowerupsBoostLevelProgress.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useGuildPowerupBoostLevelProgress
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AppliedGuildBoostsRequiredForBoostedGuildTier;
+    var _closure1_slot4 = var7;
+    var7 = var4.BoostedGuildTiers;
+    var _closure1_slot5 = var7;
+    var4 = var4.GuildFeatures;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/powerups/hooks/useGuildPowerupsBoostLevelProgress.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useGuildPowerupBoostLevelProgress(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            var _closure2_slot0 = tangon;
-            report = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 2;
-            entity = verify[entity];
-            golfie = undefined;
-            entity = report.bind(golfie)(entity);
-            entity = entity.bind(golfie)(tangon);
-            oscard = _closure1_slot0;
-            report = 3;
-            tangon = verify[report];
-            romeon = oscard.bind(golfie)(tangon);
-            yankee = romeon.useStateFromStores;
-            option = _closure1_slot3;
-            offset = new Array(1);
-            offset[0] = option;
-            tangon = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var5 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 2;
+            var1 = var9[var1];
+            var7 = undefined;
+            var1 = var5.bind(var7)(var1);
+            var1 = var1.bind(var7)(var4);
+            var6 = _closure1_slot0;
+            var5 = 3;
+            var4 = var9[var5];
+            var12 = var6.bind(var7)(var4);
+            var11 = var12.useStateFromStores;
+            var8 = _closure1_slot3;
+            var10 = new Array(1);
+            var10[0] = var8;
+            var4 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getGuild;
-                    entity = _closure2_slot0;
-                    tangon = zuuluu.bind(tangon)(entity);
-                    zuuluu = null;
-                    report = zuuluu == tangon;
-                    entity = undefined;
-                    if(report) { _fun00004_ip = 41; continue _fun00003 }
+                    var4 = _closure1_slot3;
+                    var3 = var4.getGuild;
+                    var1 = _closure2_slot0;
+                    var4 = var3.bind(var4)(var1);
+                    var3 = null;
+                    var5 = var3 == var4;
+                    var1 = undefined;
+                    if(var5) { _fun0002_ip = 41; continue _fun0002 }
  35:
-                    entity = tangon.premiumTier;
+                    var1 = var4.premiumTier;
  41:
-                    if(!(zuuluu == entity)) { _fun00004_ip = 55; continue _fun00003 }
+                    if(!(var3 == var1)) { _fun0002_ip = 55; continue _fun0002 }
  45:
-                    michal = _closure1_slot5;
-                    entity = michal.NONE;
+                    var2 = _closure1_slot5;
+                    var1 = var2.NONE;
  55:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = yankee.bind(romeon)(offset, tangon);
-            report = verify[report];
-            golfie = oscard.bind(golfie)(report);
-            oscard = golfie.useStateFromStores;
-            report = new Array(1);
-            report[0] = option;
-            michal = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var4 = var11.bind(var12)(var10, var4);
+            var5 = var9[var5];
+            var7 = var6.bind(var7)(var5);
+            var6 = var7.useStateFromStores;
+            var5 = new Array(1);
+            var5[0] = var8;
+            var2 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getGuild;
-                    michal = _closure2_slot0;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = null;
-                    tangon = michal == zuuluu;
-                    michal = undefined;
-                    if(tangon) { _fun00006_ip = 61; continue _fun00005 }
+                    var4 = _closure1_slot3;
+                    var3 = var4.getGuild;
+                    var2 = _closure2_slot0;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = null;
+                    var4 = var2 == var3;
+                    var2 = undefined;
+                    if(var4) { _fun0003_ip = 61; continue _fun0003 }
  35:
-                    tangon = zuuluu.features;
-                    zuuluu = tangon.has;
-                    entity = _closure1_slot6;
-                    entity = entity.PREMIUM_TIER_3_OVERRIDE;
-                    michal = zuuluu.bind(tangon)(entity);
+                    var4 = var3.features;
+                    var3 = var4.has;
+                    var1 = _closure1_slot6;
+                    var1 = var1.PREMIUM_TIER_3_OVERRIDE;
+                    var2 = var3.bind(var4)(var1);
  61:
-                    entity = true;
-                    entity = entity === michal;
-                    return entity;
+                    var1 = true;
+                    var1 = var1 === var2;
+                    return var1;
                 }
             };
-            report = oscard.bind(golfie)(report, michal);
-            michal = 0;
-            if(report) { _fun00002_ip = 129; continue _fun00001 }
+            var5 = var6.bind(var7)(var5, var2);
+            var2 = 0;
+            if(var5) { _fun0001_ip = 129; continue _fun0001 }
  121:
-            zuuluu = _closure1_slot4;
-            michal = zuuluu[tangon];
+            var3 = _closure1_slot4;
+            var2 = var3[var4];
  129:
-            entity = entity.available;
-            entity = michal + entity;
-            return entity;
+            var1 = var1.available;
+            var1 = var2 + var1;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: getGuildPowerupBoostLevelProgress
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['default'] = var4;
+    var2 = function getGuildPowerupBoostLevelProgress(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            tangon = tangon.bind(zuuluu)(entity);
-            entity = tangon.getGuildPowerupsBoostCount;
-            entity = entity.bind(tangon)(oscard);
-            report = _closure1_slot3;
-            tangon = report.getGuild;
-            report = tangon.bind(report)(oscard);
-            tangon = null;
-            oscard = tangon == report;
-            if(oscard) { _fun00008_ip = 68; continue _fun00007 }
+            var6 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var1 = var3[var1];
+            var3 = undefined;
+            var4 = var4.bind(var3)(var1);
+            var1 = var4.getGuildPowerupsBoostCount;
+            var1 = var1.bind(var4)(var6);
+            var5 = _closure1_slot3;
+            var4 = var5.getGuild;
+            var5 = var4.bind(var5)(var6);
+            var4 = null;
+            var6 = var4 == var5;
+            if(var6) { _fun0004_ip = 68; continue _fun0004 }
  62:
-            zuuluu = report.premiumTier;
+            var3 = var5.premiumTier;
  68:
-            if(!(tangon == zuuluu)) { _fun00008_ip = 82; continue _fun00007 }
+            if(!(var4 == var3)) { _fun0004_ip = 82; continue _fun0004 }
  72:
-            tangon = _closure1_slot5;
-            zuuluu = tangon.NONE;
+            var4 = _closure1_slot5;
+            var3 = var4.NONE;
  82:
-            michal = _closure1_slot4;
-            michal = michal[zuuluu];
-            entity = entity.available;
-            entity = michal + entity;
-            return entity;
+            var2 = _closure1_slot4;
+            var2 = var2[var3];
+            var1 = var1.available;
+            var1 = var2 + var1;
+            return var1;
         }
     };
-    zuuluu['getGuildPowerupBoostLevelProgress'] = michal;
-    return entity;
+    var3['getGuildPowerupBoostLevelProgress'] = var2;
+    return var1;
 })();

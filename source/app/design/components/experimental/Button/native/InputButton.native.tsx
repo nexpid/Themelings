@@ -1,234 +1,234 @@
 // app/design/components/experimental/Button/native/InputButton.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = ['size', 'isRound', 'text', 'value', 'icon', 'iconPosition', 'accessibilityLabel', 'accessibilityValue', 'maxFontSizeMultiplier'];
-    var _closure1_slot2 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = romeon.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Text;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    tangon = {};
-    offset = {'flexGrow': 1, 'flexShrink': 1, 'width': '100%'};
-    tangon['buttonText'] = offset;
-    offset = {};
-    yankee = 5;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.INPUT_PLACEHOLDER_TEXT;
-    offset['color'] = foxtra;
-    tangon['buttonTextPlaceholder'] = offset;
-    offset = {};
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.REDESIGN_BUTTON_TERTIARY_TEXT;
-    offset['color'] = yankee;
-    tangon['buttonTextValue'] = offset;
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = golfie.forwardRef;
-    michal = function(argFoo, argBar) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var12 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = ['size', 'isRound', 'text', 'value', 'icon', 'iconPosition', 'accessibilityLabel', 'accessibilityValue', 'maxFontSizeMultiplier'];
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Text;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var4 = {};
+    var10 = {'flexGrow': 1, 'flexShrink': 1, 'width': '100%'};
+    var4['buttonText'] = var10;
+    var10 = {};
+    var11 = 5;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.INPUT_PLACEHOLDER_TEXT;
+    var10['color'] = var13;
+    var4['buttonTextPlaceholder'] = var10;
+    var10 = {};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.REDESIGN_BUTTON_TERTIARY_TEXT;
+    var10['color'] = var11;
+    var4['buttonTextValue'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot6 = var4;
+    var4 = var7.forwardRef;
+    var2 = function(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            entity = oscard.size;
-            result = 'lg';
-            tangon = undefined;
-            if(!(tangon !== entity)) { _fun00002_ip = 21; continue _fun00001 }
+            var6 = arg1;
+            var1 = var6.size;
+            var18 = 'lg';
+            var4 = undefined;
+            if(!(var4 !== var1)) { _fun0001_ip = 21; continue _fun0001 }
  18:
-            result = entity;
+            var18 = var1;
  21:
-            entity = oscard.isRound;
-            romeon = tangon !== entity;
-            if(!romeon) { _fun00002_ip = 37; continue _fun00001 }
+            var1 = var6.isRound;
+            var12 = var4 !== var1;
+            if(!var12) { _fun0001_ip = 37; continue _fun0001 }
  34:
-            romeon = entity;
+            var12 = var1;
  37:
-            option = oscard.text;
-            verify = oscard.value;
-            output = oscard.icon;
-            michal = oscard.iconPosition;
-            entity = 'start';
-            sizing = entity;
-            if(!(tangon !== michal)) { _fun00002_ip = 72; continue _fun00001 }
+            var8 = var6.text;
+            var9 = var6.value;
+            var17 = var6.icon;
+            var2 = var6.iconPosition;
+            var1 = 'start';
+            var16 = var1;
+            if(!(var4 !== var2)) { _fun0001_ip = 72; continue _fun0001 }
  69:
-            sizing = michal;
+            var16 = var2;
  72:
-            backup = oscard.accessibilityLabel;
-            golfie = oscard.accessibilityValue;
-            yankee = oscard.maxFontSizeMultiplier;
-            if(!(tangon === yankee)) { _fun00002_ip = 122; continue _fun00001 }
+            var14 = var6.accessibilityLabel;
+            var7 = var6.accessibilityValue;
+            var11 = var6.maxFontSizeMultiplier;
+            if(!(var4 === var11)) { _fun0001_ip = 122; continue _fun0001 }
  93:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 6;
-            michal = report[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            yankee = michal.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 6;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var11 = var2.BUTTON_DEFAULT_MAX_FONT_SIZE_MULTIPLIER;
  122:
-            zuuluu = _closure1_slot3;
-            michal = _closure1_slot2;
-            oscard = zuuluu.bind(tangon)(oscard, michal);
-            zuuluu = _closure1_slot0;
-            offset = _closure1_slot1;
-            michal = 7;
-            michal = offset[michal];
-            offset = zuuluu.bind(tangon)(michal);
-            zuuluu = offset.useInputStyles;
-            michal = {};
-            michal['size'] = result;
-            michal['isRound'] = romeon;
-            entity = entity === sizing;
-            michal['hasLeadingIcon'] = entity;
-            romeon = zuuluu.bind(offset)(michal);
-            michal = _closure1_slot6;
-            kiloes = michal.bind(tangon)();
-            offset = null;
-            if(!(offset == output)) { _fun00002_ip = 208; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot2;
+            var6 = var3.bind(var4)(var6, var2);
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 7;
+            var2 = var10[var2];
+            var10 = var3.bind(var4)(var2);
+            var3 = var10.useInputStyles;
+            var2 = {};
+            var2['size'] = var18;
+            var2['isRound'] = var12;
+            var1 = var1 === var16;
+            var2['hasLeadingIcon'] = var1;
+            var12 = var3.bind(var10)(var2);
+            var2 = _closure1_slot6;
+            var15 = var2.bind(var4)();
+            var10 = null;
+            if(!(var10 == var17)) { _fun0001_ip = 208; continue _fun0001 }
  204:
-            foxtra = {};
-            _fun00002_ip = 258; continue _fun00001;
+            var13 = {};
+            _fun0001_ip = 258; continue _fun0001;
  208:
-            michal = {};
-            if(entity) { _fun00002_ip = 235; continue _fun00001 }
+            var2 = {};
+            if(var1) { _fun0001_ip = 235; continue _fun0001 }
  213:
-            entity = romeon.trailingIcon;
-            entity = entity.paddingStart;
-            michal['paddingEnd'] = entity;
-            entity = michal;
-            _fun00002_ip = 255; continue _fun00001;
+            var1 = var12.trailingIcon;
+            var1 = var1.paddingStart;
+            var2['paddingEnd'] = var1;
+            var1 = var2;
+            _fun0001_ip = 255; continue _fun0001;
  235:
-            zuuluu = romeon.leadingIcon;
-            zuuluu = zuuluu.paddingEnd;
-            michal['paddingStart'] = zuuluu;
-            entity = michal;
+            var3 = var12.leadingIcon;
+            var3 = var3.paddingEnd;
+            var2['paddingStart'] = var3;
+            var1 = var2;
  255:
-            foxtra = entity;
+            var13 = var1;
  258:
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot0;
-            echoed = _closure1_slot1;
-            entity = 8;
-            entity = echoed[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.BaseTextButton;
-            entity = {};
-            source = entity;
-            update = oscard;
-            oscard = copyDataProperties(source, update);
-            echoed = argBar;
-            oscard = 'ref';
-            entity[oscard] = echoed;
-            oscard = 'size';
-            entity[oscard] = result;
-            result = 'tertiary';
-            oscard = 'variant';
-            entity[oscard] = result;
-            oscard = 'icon';
-            entity[oscard] = output;
-            oscard = 'iconPosition';
-            entity[oscard] = sizing;
-            oscard = romeon.padding;
-            sizing = new Array(2);
-            sizing[0] = oscard;
-            oscard = romeon.radius;
-            sizing[1] = oscard;
-            oscard = 'pillStyle';
-            entity[oscard] = sizing;
-            if(!(offset == backup)) { _fun00002_ip = 411; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var1 = 8;
+            var1 = var19[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.BaseTextButton;
+            var1 = {};
+            var21 = var1;
+            var20 = var6;
+            var6 = copyDataProperties(var21, var20);
+            var19 = arg2;
+            var6 = 'ref';
+            var1[var6] = var19;
+            var6 = 'size';
+            var1[var6] = var18;
+            var18 = 'tertiary';
+            var6 = 'variant';
+            var1[var6] = var18;
+            var6 = 'icon';
+            var1[var6] = var17;
+            var6 = 'iconPosition';
+            var1[var6] = var16;
+            var6 = var12.padding;
+            var16 = new Array(2);
+            var16[0] = var6;
+            var6 = var12.radius;
+            var16[1] = var6;
+            var6 = 'pillStyle';
+            var1[var6] = var16;
+            if(!(var10 == var14)) { _fun0001_ip = 411; continue _fun0001 }
  390:
-            sizing = offset == option;
-            oscard = undefined;
-            if(sizing) { _fun00002_ip = 408; continue _fun00001 }
+            var16 = var10 == var8;
+            var6 = undefined;
+            if(var16) { _fun0001_ip = 408; continue _fun0001 }
  399:
-            sizing = option.toString;
-            oscard = sizing.bind(option)();
+            var16 = var8.toString;
+            var6 = var16.bind(var8)();
  408:
-            backup = oscard;
+            var14 = var6;
  411:
-            oscard = 'accessibilityLabel';
-            entity[oscard] = backup;
-            if(!(offset == golfie)) { _fun00002_ip = 433; continue _fun00001 }
+            var6 = 'accessibilityLabel';
+            var1[var6] = var14;
+            if(!(var10 == var7)) { _fun0001_ip = 433; continue _fun0001 }
  424:
-            oscard = {};
-            oscard['text'] = verify;
-            golfie = oscard;
+            var6 = {};
+            var6['text'] = var9;
+            var7 = var6;
  433:
-            oscard = 'accessibilityValue';
-            entity[oscard] = golfie;
-            golfie = _closure1_slot5;
-            oscard = _closure1_slot4;
-            report = {};
-            backup = romeon.text;
-            romeon = new Array(4);
-            romeon[0] = backup;
-            backup = kiloes.buttonText;
-            romeon[1] = backup;
-            if(!(offset == verify)) { _fun00002_ip = 487; continue _fun00001 }
+            var6 = 'accessibilityValue';
+            var1[var6] = var7;
+            var7 = _closure1_slot5;
+            var6 = _closure1_slot4;
+            var5 = {};
+            var14 = var12.text;
+            var12 = new Array(4);
+            var12[0] = var14;
+            var14 = var15.buttonText;
+            var12[1] = var14;
+            if(!(var10 == var9)) { _fun0001_ip = 487; continue _fun0001 }
  479:
-            backup = kiloes.buttonTextPlaceholder;
-            _fun00002_ip = 493; continue _fun00001;
+            var14 = var15.buttonTextPlaceholder;
+            _fun0001_ip = 493; continue _fun0001;
  487:
-            backup = kiloes.buttonTextValue;
+            var14 = var15.buttonTextValue;
  493:
-            romeon[2] = backup;
-            romeon[3] = foxtra;
-            report['style'] = romeon;
-            romeon = 1;
-            report['numberOfLines'] = romeon;
-            report['maxFontSizeMultiplier'] = yankee;
-            if(!(offset != verify)) { _fun00002_ip = 525; continue _fun00001 }
+            var12[2] = var14;
+            var12[3] = var13;
+            var5['style'] = var12;
+            var12 = 1;
+            var5['numberOfLines'] = var12;
+            var5['maxFontSizeMultiplier'] = var11;
+            if(!(var10 != var9)) { _fun0001_ip = 525; continue _fun0001 }
  522:
-            option = verify;
+            var8 = var9;
  525:
-            report['children'] = option;
-            oscard = golfie.bind(tangon)(oscard, report);
-            report = 'textElement';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5['children'] = var8;
+            var6 = var7.bind(var4)(var6, var5);
+            var5 = 'textElement';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/experimental/Button/native/InputButton.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['InputButton'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/experimental/Button/native/InputButton.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['InputButton'] = var2;
+    return var1;
 })();

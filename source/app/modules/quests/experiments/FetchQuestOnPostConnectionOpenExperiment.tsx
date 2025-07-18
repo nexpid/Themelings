@@ -1,91 +1,91 @@
 // app/modules/quests/experiments/FetchQuestOnPostConnectionOpenExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    foxtra = true;
-    tangon['value'] = foxtra;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    verify = report.bind(entity)(tangon);
-    option = verify.createExperiment;
-    golfie = {'id': '2025-04_fetch_quests_on_postconnectionopen', 'kind': 'user', 'label': 'Fetch Quests ON_POST_CONNECTION_OPEN'};
-    tangon = {};
-    yankee = false;
-    tangon['enabled'] = yankee;
-    golfie['defaultConfig'] = tangon;
-    tangon = {'id': 0, 'label': 'Control'};
-    offset = {};
-    offset['enabled'] = yankee;
-    tangon['config'] = offset;
-    offset = new Array(2);
-    offset[0] = tangon;
-    yankee = {'id': 1, 'label': 'Fetch quests during ON_POST_CONNECTION_OPEN'};
-    tangon = 1;
-    romeon = {};
-    romeon['enabled'] = foxtra;
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    golfie['treatments'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot0 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/experiments/FetchQuestOnPostConnectionOpenExperiment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var13 = true;
+    var4['value'] = var13;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var7 = {'id': '2025-04_fetch_quests_on_postconnectionopen', 'kind': 'user', 'label': 'Fetch Quests ON_POST_CONNECTION_OPEN'};
+    var4 = {};
+    var11 = false;
+    var4['enabled'] = var11;
+    var7['defaultConfig'] = var4;
+    var4 = {'id': 0, 'label': 'Control'};
+    var10 = {};
+    var10['enabled'] = var11;
+    var4['config'] = var10;
+    var10 = new Array(2);
+    var10[0] = var4;
+    var11 = {'id': 1, 'label': 'Fetch quests during ON_POST_CONNECTION_OPEN'};
+    var4 = 1;
+    var12 = {};
+    var12['enabled'] = var13;
+    var11['config'] = var12;
+    var10[1] = var11;
+    var7['treatments'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot0 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/experiments/FetchQuestOnPostConnectionOpenExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            report = false;
+            var5 = false;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['getIsEligibleForFetchQuestOnPostConnectionOpen'] = tangon;
-    michal = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getIsEligibleForFetchQuestOnPostConnectionOpen'] = var4;
+    var2 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0002_ip = 22; continue _fun0002 }
  20:
-            report = false;
+            var5 = false;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForFetchQuestOnPostConnectionOpen'] = michal;
-    return entity;
+    var3['useIsEligibleForFetchQuestOnPostConnectionOpen'] = var2;
+    return var1;
 })();

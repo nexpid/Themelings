@@ -1,123 +1,123 @@
 // app/modules/chat/useTypingUsersIds.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/useTypingUsersIds.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useTypingUserIds
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/useTypingUsersIds.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useTypingUserIds(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            oscard = arguments[1];
-            var _closure2_slot0 = golfie;
-            report = undefined;
-            if(!(oscard === report)) { _fun00002_ip = 32; continue _fun00001 }
+            var7 = arg1;
+            var6 = arguments[1];
+            var _closure2_slot0 = var7;
+            var5 = undefined;
+            if(!(var6 === var5)) { _fun0001_ip = 32; continue _fun0001 }
  18:
-            michal = global;
-            michal = michal.Number;
-            oscard = michal.MAX_SAFE_INTEGER;
+            var2 = global;
+            var2 = var2.Number;
+            var6 = var2.MAX_SAFE_INTEGER;
  32:
-            var _closure2_slot1 = oscard;
-            tangon = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 3;
-            zuuluu = option[zuuluu];
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.useStateFromStoresArray;
-            option = _closure1_slot4;
-            zuuluu = new Array(3);
-            zuuluu[0] = option;
-            option = _closure1_slot3;
-            zuuluu[1] = option;
-            michal = _closure1_slot2;
-            zuuluu[2] = michal;
-            michal = new Array(2);
-            michal[0] = golfie;
-            michal[1] = oscard;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var6;
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 3;
+            var3 = var8[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.useStateFromStoresArray;
+            var8 = _closure1_slot4;
+            var3 = new Array(3);
+            var3[0] = var8;
+            var8 = _closure1_slot3;
+            var3[1] = var8;
+            var2 = _closure1_slot2;
+            var3[2] = var2;
+            var2 = new Array(2);
+            var2[0] = var7;
+            var2[1] = var6;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure1_slot4;
-                    entity = michal.getCurrentUser;
-                    entity = entity.bind(michal)();
-                    verify = null;
-                    michal = verify == entity;
-                    option = undefined;
-                    if(michal) { _fun00004_ip = 32; continue _fun00003 }
+                    var2 = _closure1_slot4;
+                    var1 = var2.getCurrentUser;
+                    var1 = var1.bind(var2)();
+                    var9 = null;
+                    var2 = var9 == var1;
+                    var8 = undefined;
+                    if(var2) { _fun0002_ip = 32; continue _fun0002 }
  27:
-                    option = entity.id;
+                    var8 = var1.id;
  32:
-                    zuuluu = _closure1_slot3;
-                    michal = zuuluu.getTypingUsers;
-                    entity = _closure2_slot0;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = new Array(0);
-                    report = michal;
-                    for(michal in report)
+                    var3 = _closure1_slot3;
+                    var2 = var3.getTypingUsers;
+                    var1 = _closure2_slot0;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = new Array(0);
+                    var5 = var2;
+                    for(var2 in var5)
  69:
                     {
  78:
-                        foxtra = michal;
-                        romeon = entity.length;
-                        yankee = _closure2_slot1;
-                        if(!(!(romeon >= yankee))) { _fun00004_ip = 162; continue _fun00003 }
+                        var13 = var2;
+                        var12 = var1.length;
+                        var11 = _closure2_slot1;
+                        if(!(!(var12 >= var11))) { _fun0002_ip = 162; continue _fun0002 }
  94:
-                        romeon = _closure1_slot4;
-                        yankee = romeon.getUser;
-                        yankee = yankee.bind(romeon)(foxtra);
-                        if(verify == yankee) { _fun00004_ip = 69; continue _fun00003 }
+                        var12 = _closure1_slot4;
+                        var11 = var12.getUser;
+                        var11 = var11.bind(var12)(var13);
+                        if(var9 == var11) { _fun0002_ip = 69; continue _fun0002 }
  113:
-                        romeon = yankee.id;
-                        if(romeon === option) { _fun00004_ip = 69; continue _fun00003 }
+                        var12 = var11.id;
+                        if(var12 === var8) { _fun0002_ip = 69; continue _fun0002 }
  122:
-                        backup = _closure1_slot2;
-                        foxtra = backup.isBlockedOrIgnored;
-                        romeon = yankee.id;
-                        romeon = foxtra.bind(backup)(romeon);
-                        if(romeon) { _fun00004_ip = 69; continue _fun00003 }
+                        var14 = _closure1_slot2;
+                        var13 = var14.isBlockedOrIgnored;
+                        var12 = var11.id;
+                        var12 = var13.bind(var14)(var12);
+                        if(var12) { _fun0002_ip = 69; continue _fun0002 }
  145:
-                        romeon = entity.push;
-                        yankee = yankee.id;
-                        yankee = romeon.bind(entity)(yankee);
-                        _fun00004_ip = 69; continue _fun00003;
+                        var12 = var1.push;
+                        var11 = var11.id;
+                        var11 = var12.bind(var1)(var11);
+                        _fun0002_ip = 69; continue _fun0002;
                     }
  162:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = tangon.bind(report)(zuuluu, entity, michal);
-            return entity;
+            var1 = var4.bind(var5)(var3, var1, var2);
+            return var1;
         }
     };
-    zuuluu['useTypingUserIds'] = michal;
-    return entity;
+    var3['useTypingUserIds'] = var2;
+    return var1;
 })();

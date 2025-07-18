@@ -1,136 +1,136 @@
 // app/modules/keyboard/native/useKeyboardIsOpen.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = {};
-    var _closure1_slot3 = entity;
-    entity = function(argFoo) { // Original name: KEYBOARD_OPEN_GETTER
-        entity = argFoo;
-        entity = entity.keyboardOpen;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = {};
+    var _closure1_slot3 = var1;
+    var1 = function KEYBOARD_OPEN_GETTER(arg1) {
+        var1 = arg1;
+        var1 = var1.keyboardOpen;
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = function(argFoo) { // Original name: KEYBOARD_OPEN_OR_CUSTOM_KEYBOARD_OPEN_GETTER
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot4 = var1;
+    var1 = function KEYBOARD_OPEN_OR_CUSTOM_KEYBOARD_OPEN_GETTER(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.keyboardOpen;
-            if(entity) { _fun00002_ip = 58; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.keyboardOpen;
+            if(var1) { _fun0001_ip = 58; continue _fun0001 }
  12:
-            zuuluu = michal.keyboardType;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 0;
-            tangon = tangon[michal];
-            michal = undefined;
-            michal = report.bind(michal)(tangon);
-            michal = michal.KeyboardTypes;
-            michal = michal.SYSTEM;
-            entity = zuuluu !== michal;
+            var3 = var2.keyboardType;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 0;
+            var4 = var4[var2];
+            var2 = undefined;
+            var2 = var5.bind(var2)(var4);
+            var2 = var2.KeyboardTypes;
+            var2 = var2.SYSTEM;
+            var1 = var3 !== var2;
  58:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/keyboard/native/useKeyboardIsOpen.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useKeyboardIsOpen
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/keyboard/native/useKeyboardIsOpen.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useKeyboardIsOpen() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = arguments[0];
-            zuuluu = undefined;
-            if(!(entity === zuuluu)) { _fun00004_ip = 16; continue _fun00003 }
+            var1 = arguments[0];
+            var3 = undefined;
+            if(!(var1 === var3)) { _fun0002_ip = 16; continue _fun0002 }
  9:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  16:
-            entity = entity.includeCustomKeyboard;
-            if(!(entity === zuuluu)) { _fun00004_ip = 28; continue _fun00003 }
+            var1 = var1.includeCustomKeyboard;
+            if(!(var1 === var3)) { _fun0002_ip = 28; continue _fun0002 }
  26:
-            entity = false;
+            var1 = false;
  28:
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 1;
-            michal = oscard[michal];
-            michal = report.bind(zuuluu)(michal);
-            if(entity) { _fun00004_ip = 60; continue _fun00003 }
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 1;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            if(var1) { _fun0002_ip = 60; continue _fun0002 }
  54:
-            entity = _closure1_slot4;
-            _fun00004_ip = 64; continue _fun00003;
+            var1 = _closure1_slot4;
+            _fun0002_ip = 64; continue _fun0002;
  60:
-            entity = _closure1_slot5;
+            var1 = _closure1_slot5;
  64:
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: getKeyboardIsOpen
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var4;
+    var2 = function getKeyboardIsOpen() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = arguments[0];
-            oscard = undefined;
-            if(!(entity === oscard)) { _fun00006_ip = 16; continue _fun00005 }
+            var1 = arguments[0];
+            var6 = undefined;
+            if(!(var1 === var6)) { _fun0003_ip = 16; continue _fun0003 }
  9:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  16:
-            michal = entity.includeCustomKeyboard;
-            if(!(michal === oscard)) { _fun00006_ip = 28; continue _fun00005 }
+            var2 = var1.includeCustomKeyboard;
+            if(!(var2 === var6)) { _fun0003_ip = 28; continue _fun0003 }
  26:
-            michal = false;
+            var2 = false;
  28:
-            report = _closure1_slot1;
-            entity = _closure1_slot2;
-            tangon = 1;
-            entity = entity[tangon];
-            report = report.bind(oscard)(entity);
-            entity = report.getState;
-            entity = entity.bind(report)();
-            report = entity.keyboardOpen;
-            entity = report;
-            if(!michal) { _fun00006_ip = 146; continue _fun00005 }
+            var5 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var4 = 1;
+            var1 = var1[var4];
+            var5 = var5.bind(var6)(var1);
+            var1 = var5.getState;
+            var1 = var1.bind(var5)();
+            var5 = var1.keyboardOpen;
+            var1 = var5;
+            if(!var2) { _fun0003_ip = 146; continue _fun0003 }
  73:
-            michal = report;
-            if(report) { _fun00006_ip = 143; continue _fun00005 }
+            var2 = var5;
+            if(var5) { _fun0003_ip = 143; continue _fun0003 }
  79:
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            tangon = golfie[tangon];
-            report = report.bind(oscard)(tangon);
-            tangon = report.getState;
-            tangon = tangon.bind(report)();
-            tangon = tangon.keyboardType;
-            report = _closure1_slot0;
-            zuuluu = 0;
-            zuuluu = golfie[zuuluu];
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.KeyboardTypes;
-            zuuluu = zuuluu.SYSTEM;
-            michal = tangon !== zuuluu;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.getState;
+            var4 = var4.bind(var5)();
+            var4 = var4.keyboardType;
+            var5 = _closure1_slot0;
+            var3 = 0;
+            var3 = var7[var3];
+            var3 = var5.bind(var6)(var3);
+            var3 = var3.KeyboardTypes;
+            var3 = var3.SYSTEM;
+            var2 = var4 !== var3;
  143:
-            entity = michal;
+            var1 = var2;
  146:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getKeyboardIsOpen'] = michal;
-    return entity;
+    var3['getKeyboardIsOpen'] = var2;
+    return var1;
 })();

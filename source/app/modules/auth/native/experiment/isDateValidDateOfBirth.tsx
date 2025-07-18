@@ -1,50 +1,50 @@
 // app/modules/auth/native/experiment/isDateValidDateOfBirth.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/native/experiment/isDateValidDateOfBirth.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: isDateValidDateOfBirth
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/native/experiment/isDateValidDateOfBirth.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isDateValidDateOfBirth(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
+            var5 = arg1;
+            var1 = null;
+            var1 = var1 != var5;
+            if(!var1) { _fun0001_ip = 63; continue _fun0001 }
  12:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 0;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            michal = tangon.bind(zuuluu)(michal);
-            tangon = michal.bind(zuuluu)();
-            zuuluu = tangon.diff;
-            michal = 'days';
-            zuuluu = zuuluu.bind(tangon)(report, michal);
-            michal = 1;
-            entity = zuuluu >= michal;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 0;
+            var2 = var3[var2];
+            var3 = undefined;
+            var2 = var4.bind(var3)(var2);
+            var4 = var2.bind(var3)();
+            var3 = var4.diff;
+            var2 = 'days';
+            var3 = var3.bind(var4)(var5, var2);
+            var2 = 1;
+            var1 = var3 >= var2;
  63:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

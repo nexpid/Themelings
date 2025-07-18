@@ -1,743 +1,743 @@
 // app/modules/soundboard/SoundboardUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = offset;
-    golfie = function(argFoo, argBar) { // Original name: hasPermissionToPlaySound
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var11 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var10;
+    var7 = function hasPermissionToPlaySound(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = argBar;
-            report = null;
-            oscard = report == tangon;
-            entity = undefined;
-            if(oscard) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var4 = arg2;
+            var5 = null;
+            var6 = var5 == var4;
+            var1 = undefined;
+            if(var6) { _fun0001_ip = 22; continue _fun0001 }
  17:
-            entity = tangon.guild_id;
+            var1 = var4.guild_id;
  22:
-            entity = report == entity;
-            if(entity) { _fun00002_ip = 58; continue _fun00001 }
+            var1 = var5 == var1;
+            if(var1) { _fun0001_ip = 58; continue _fun0001 }
  29:
-            option = _closure1_slot6;
-            golfie = option.can;
-            oscard = _closure1_slot11;
-            oscard = oscard.USE_EXTERNAL_SOUNDS;
-            entity = golfie.bind(option)(oscard, tangon);
+            var8 = _closure1_slot6;
+            var7 = var8.can;
+            var6 = _closure1_slot11;
+            var6 = var6.USE_EXTERNAL_SOUNDS;
+            var1 = var7.bind(var8)(var6, var4);
  58:
-            if(entity) { _fun00002_ip = 77; continue _fun00001 }
+            if(var1) { _fun0001_ip = 77; continue _fun0001 }
  61:
-            golfie = michal.guildId;
-            oscard = _closure1_slot10;
-            entity = golfie === oscard;
+            var7 = var2.guildId;
+            var6 = _closure1_slot10;
+            var1 = var7 === var6;
  77:
-            if(entity) { _fun00002_ip = 103; continue _fun00001 }
+            if(var1) { _fun0001_ip = 103; continue _fun0001 }
  80:
-            michal = michal.guildId;
-            report = report == tangon;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 99; continue _fun00001 }
+            var2 = var2.guildId;
+            var5 = var5 == var4;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 99; continue _fun0001 }
  94:
-            zuuluu = tangon.guild_id;
+            var3 = var4.guild_id;
  99:
-            entity = michal === zuuluu;
+            var1 = var2 === var3;
  103:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot14 = golfie;
-    oscard = function(argFoo, argBar, argBaz) { // Original name: canUseSoundboardSound
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot14 = var7;
+    var6 = function canUseSoundboardSound(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argBar;
-            oscard = argBaz;
-            michal = arguments[3];
-            report = undefined;
-            if(!(michal === report)) { _fun00004_ip = 17; continue _fun00003 }
+            var3 = arg2;
+            var6 = arg3;
+            var2 = arguments[3];
+            var5 = undefined;
+            if(!(var2 === var5)) { _fun0002_ip = 17; continue _fun0002 }
  15:
-            michal = true;
+            var2 = true;
  17:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 10;
-            entity = option[entity];
-            option = golfie.bind(report)(entity);
-            golfie = option.canUseSoundboardEverywhere;
-            entity = argFoo;
-            entity = golfie.bind(option)(entity);
-            if(entity) { _fun00004_ip = 82; continue _fun00003 }
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var1 = var8[var1];
+            var8 = var7.bind(var5)(var1);
+            var7 = var8.canUseSoundboardEverywhere;
+            var1 = arg1;
+            var1 = var7.bind(var8)(var1);
+            if(var1) { _fun0002_ip = 82; continue _fun0002 }
  57:
-            option = zuuluu.guildId;
-            golfie = null;
-            verify = golfie == oscard;
-            golfie = undefined;
-            if(verify) { _fun00004_ip = 78; continue _fun00003 }
+            var8 = var3.guildId;
+            var7 = null;
+            var9 = var7 == var6;
+            var7 = undefined;
+            if(var9) { _fun0002_ip = 78; continue _fun0002 }
  73:
-            golfie = oscard.guild_id;
+            var7 = var6.guild_id;
  78:
-            entity = option === golfie;
+            var1 = var8 === var7;
  82:
-            if(entity) { _fun00004_ip = 98; continue _fun00003 }
+            if(var1) { _fun0002_ip = 98; continue _fun0002 }
  85:
-            option = zuuluu.guildId;
-            golfie = _closure1_slot10;
-            entity = option === golfie;
+            var8 = var3.guildId;
+            var7 = _closure1_slot10;
+            var1 = var8 === var7;
  98:
-            if(!entity) { _fun00004_ip = 111; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 111; continue _fun0002 }
  101:
-            tangon = _closure1_slot14;
-            entity = tangon.bind(report)(zuuluu, oscard);
+            var4 = _closure1_slot14;
+            var1 = var4.bind(var5)(var3, var6);
  111:
-            if(!entity) { _fun00004_ip = 129; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 129; continue _fun0002 }
  114:
-            michal = !michal;
-            if(michal) { _fun00004_ip = 126; continue _fun00003 }
+            var2 = !var2;
+            if(var2) { _fun0002_ip = 126; continue _fun0002 }
  120:
-            michal = zuuluu.available;
+            var2 = var3.available;
  126:
-            entity = michal;
+            var1 = var2;
  129:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot15 = oscard;
-    report = function(argFoo) { // Original name: canMakeSound
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot15 = var6;
+    var5 = function canMakeSound(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 11;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getMuteStates;
-            entity = {};
-            tangon = argFoo;
-            entity['channel'] = tangon;
-            michal = michal.bind(zuuluu)(entity);
-            entity = michal.mute;
-            michal = michal.suppress;
-            entity = !entity;
-            if(!entity) { _fun00006_ip = 66; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 11;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getMuteStates;
+            var1 = {};
+            var4 = arg1;
+            var1['channel'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.mute;
+            var2 = var2.suppress;
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 66; continue _fun0003 }
  63:
-            entity = !michal;
+            var1 = !var2;
  66:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot16 = report;
-    tangon = function() { // Original name: hasSetAnyCustomJoinSound
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot16 = var5;
+    var4 = function hasSetAnyCustomJoinSound() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = _closure1_slot4;
-            entity = entity.settings;
-            michal = entity.guilds;
-            entity = null;
-            tangon = entity == michal;
-            zuuluu = undefined;
-            if(tangon) { _fun00008_ip = 36; continue _fun00007 }
+            var1 = _closure1_slot4;
+            var1 = var1.settings;
+            var2 = var1.guilds;
+            var1 = null;
+            var4 = var1 == var2;
+            var3 = undefined;
+            if(var4) { _fun0004_ip = 36; continue _fun0004 }
  30:
-            zuuluu = michal.guilds;
+            var3 = var2.guilds;
  36:
-            if(!(entity == zuuluu)) { _fun00008_ip = 42; continue _fun00007 }
+            if(!(var1 == var3)) { _fun0004_ip = 42; continue _fun0004 }
  40:
-            zuuluu = {};
+            var3 = {};
  42:
-            entity = global;
-            michal = entity.Object;
-            entity = michal.values;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.some;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.joinSound;
-                entity = null;
-                entity = entity != michal;
-                return entity;
+            var1 = global;
+            var2 = var1.Object;
+            var1 = var2.values;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.joinSound;
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    var _closure1_slot17 = tangon;
-    entity = function() { // Original name: _maybePlayCustomJoinSound
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot17 = var4;
+    var1 = function _maybePlayCustomJoinSound() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 447; continue _fun00009 }
+                    if(var2) { _fun0005_ip = 447; continue _fun0005 }
  10:
-                    zuuluu = _closure1_slot7;
-                    michal = zuuluu.getCurrentUser;
-                    romeon = michal.bind(zuuluu)();
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    michal = 15;
-                    zuuluu = report[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    oscard = zuuluu.bind(michal)();
-                    tangon = _closure1_slot0;
-                    zuuluu = 16;
-                    zuuluu = report[zuuluu];
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.getCustomJoinSound;
-                    zuuluu = argFoo;
-                    tangon = tangon.bind(report)(zuuluu);
-                    offset = null;
-                    if(!(offset != oscard)) { _fun00010_ip = 444; continue _fun00009 }
+                    var3 = _closure1_slot7;
+                    var2 = var3.getCurrentUser;
+                    var12 = var2.bind(var3)();
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = 15;
+                    var3 = var5[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var6 = var3.bind(var2)();
+                    var4 = _closure1_slot0;
+                    var3 = 16;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.getCustomJoinSound;
+                    var3 = arg1;
+                    var4 = var4.bind(var5)(var3);
+                    var10 = null;
+                    if(!(var10 != var6)) { _fun0005_ip = 444; continue _fun0005 }
  91:
-                    option = _closure1_slot5;
-                    report = option.has;
-                    zuuluu = oscard.type;
-                    zuuluu = report.bind(option)(zuuluu);
-                    if(zuuluu) { _fun00010_ip = 444; continue _fun00009 }
+                    var8 = _closure1_slot5;
+                    var5 = var8.has;
+                    var3 = var6.type;
+                    var3 = var5.bind(var8)(var3);
+                    if(var3) { _fun0005_ip = 444; continue _fun0005 }
  116:
-                    if(!(offset != tangon)) { _fun00010_ip = 444; continue _fun00009 }
+                    if(!(var10 != var4)) { _fun0005_ip = 444; continue _fun0005 }
  123:
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    zuuluu = 10;
-                    zuuluu = option[zuuluu];
-                    report = report.bind(michal)(zuuluu);
-                    zuuluu = report.canUseCustomCallSounds;
-                    zuuluu = zuuluu.bind(report)(romeon);
-                    if(!zuuluu) { _fun00010_ip = 444; continue _fun00009 }
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var3 = 10;
+                    var3 = var8[var3];
+                    var5 = var5.bind(var2)(var3);
+                    var3 = var5.canUseCustomCallSounds;
+                    var3 = var3.bind(var5)(var12);
+                    if(!var3) { _fun0005_ip = 444; continue _fun0005 }
  160:
-                    report = _closure1_slot0;
-                    option = _closure1_slot2;
-                    zuuluu = 17;
-                    zuuluu = option[zuuluu];
-                    report = report.bind(michal)(zuuluu);
-                    zuuluu = report.canSelectedVoiceChannelUseSoundboard;
-                    zuuluu = zuuluu.bind(report)();
-                    if(!zuuluu) { _fun00010_ip = 444; continue _fun00009 }
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 17;
+                    var3 = var8[var3];
+                    var5 = var5.bind(var2)(var3);
+                    var3 = var5.canSelectedVoiceChannelUseSoundboard;
+                    var3 = var3.bind(var5)();
+                    if(!var3) { _fun0005_ip = 444; continue _fun0005 }
  196:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    report = 12;
-                    zuuluu = zuuluu[report];
-                    option = option.bind(michal)(zuuluu);
-                    zuuluu = option.maybeFetchSoundboardSounds;
-                    zuuluu = zuuluu.bind(option)();
+                    var8 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var5 = 12;
+                    var3 = var3[var5];
+                    var8 = var8.bind(var2)(var3);
+                    var3 = var8.maybeFetchSoundboardSounds;
+                    var3 = var3.bind(var8)();
                     SaveGenerator(address=230);
  228:
-                    return zuuluu;
+                    return var3;
  230:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00010_ip = 441; continue _fun00009 }
+                    if(var8) { _fun0005_ip = 441; continue _fun0005 }
  239:
-                    verify = tangon.guildId;
-                    option = _closure1_slot9;
-                    if(!(verify !== option)) { _fun00010_ip = 259; continue _fun00009 }
+                    var9 = var4.guildId;
+                    var8 = _closure1_slot9;
+                    if(!(var9 !== var8)) { _fun0005_ip = 259; continue _fun0005 }
  252:
-                    yankee = tangon.guildId;
-                    _fun00010_ip = 263; continue _fun00009;
+                    var11 = var4.guildId;
+                    _fun0005_ip = 263; continue _fun0005;
  259:
-                    yankee = _closure1_slot10;
+                    var11 = _closure1_slot10;
  263:
-                    verify = _closure1_slot8;
-                    option = verify.getSound;
-                    tangon = tangon.soundId;
-                    verify = option.bind(verify)(yankee, tangon);
-                    if(!(offset != verify)) { _fun00010_ip = 444; continue _fun00009 }
+                    var9 = _closure1_slot8;
+                    var8 = var9.getSound;
+                    var4 = var4.soundId;
+                    var9 = var8.bind(var9)(var11, var4);
+                    if(!(var10 != var9)) { _fun0005_ip = 444; continue _fun0005 }
  292:
-                    tangon = _closure1_slot14;
-                    option = tangon.bind(michal)(verify, oscard);
-                    tangon = null;
-                    if(!option) { _fun00010_ip = 438; continue _fun00009 }
+                    var4 = _closure1_slot14;
+                    var8 = var4.bind(var2)(var9, var6);
+                    var4 = null;
+                    if(!var8) { _fun0005_ip = 438; continue _fun0005 }
  310:
-                    yankee = _closure1_slot15;
-                    foxtra = true;
-                    output = undefined;
-                    sizing = romeon;
-                    kiloes = verify;
-                    backup = oscard;
-                    option = output[yankee](sizing, kiloes, backup, foxtra, romeon);
-                    tangon = null;
-                    if(!option) { _fun00010_ip = 438; continue _fun00009 }
+                    var11 = _closure1_slot15;
+                    var13 = true;
+                    var17 = undefined;
+                    var16 = var12;
+                    var15 = var9;
+                    var14 = var6;
+                    var8 = var17[var11](var16, var15, var14, var13, var12);
+                    var4 = null;
+                    if(!var8) { _fun0005_ip = 438; continue _fun0005 }
  336:
-                    option = _closure1_slot16;
-                    option = option.bind(michal)(oscard);
-                    tangon = null;
-                    if(!option) { _fun00010_ip = 438; continue _fun00009 }
+                    var8 = _closure1_slot16;
+                    var8 = var8.bind(var2)(var6);
+                    var4 = null;
+                    if(!var8) { _fun0005_ip = 438; continue _fun0005 }
  350:
-                    option = oscard.id;
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    report = golfie[report];
-                    yankee = oscard.bind(michal)(report);
-                    offset = yankee.playSoundLocally;
-                    report = 13;
-                    report = golfie[report];
-                    report = oscard.bind(michal)(report);
-                    report = report.LocalSoundTrigger;
-                    report = report.JOINED_VOICE_CHANNEL;
-                    report = offset.bind(yankee)(option, verify, report);
-                    report = 14;
-                    report = golfie[report];
-                    golfie = oscard.bind(michal)(report);
-                    oscard = golfie.sendVoiceChannelCustomCallSoundEffect;
-                    report = false;
-                    report = oscard.bind(golfie)(option, verify, report);
-                    tangon = undefined;
+                    var8 = var6.id;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var5 = var7[var5];
+                    var11 = var6.bind(var2)(var5);
+                    var10 = var11.playSoundLocally;
+                    var5 = 13;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var2)(var5);
+                    var5 = var5.LocalSoundTrigger;
+                    var5 = var5.JOINED_VOICE_CHANNEL;
+                    var5 = var10.bind(var11)(var8, var9, var5);
+                    var5 = 14;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var2)(var5);
+                    var6 = var7.sendVoiceChannelCustomCallSoundEffect;
+                    var5 = false;
+                    var5 = var6.bind(var7)(var8, var9, var5);
+                    var4 = undefined;
  438:
-                    return tangon;
+                    return var4;
  441:
-                    return zuuluu;
+                    return var3;
  444:
-                    return michal;
+                    return var2;
  447:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot18 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot18 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot18 = entity;
-    entity = function(argFoo) { // Original name: trackCustomCallSettingsChanged
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot18 = var1;
+    var1 = function trackCustomCallSettingsChanged(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.guildId;
-            option = entity.changeType;
-            golfie = entity.soundType;
-            oscard = entity.soundSource;
-            verify = entity.location;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 22;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot12;
-            zuuluu = michal.USER_CUSTOM_CALL_SOUND_SETTING_UPDATED;
-            michal = {};
-            michal['location_stack'] = verify;
-            offset = '';
-            verify = 0;
-            if(!(offset !== yankee)) { _fun00012_ip = 101; continue _fun00011 }
+            var1 = arg1;
+            var11 = var1.guildId;
+            var8 = var1.changeType;
+            var7 = var1.soundType;
+            var6 = var1.soundSource;
+            var9 = var1.location;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 22;
+            var3 = var3[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.track;
+            var2 = _closure1_slot12;
+            var3 = var2.USER_CUSTOM_CALL_SOUND_SETTING_UPDATED;
+            var2 = {};
+            var2['location_stack'] = var9;
+            var10 = '';
+            var9 = 0;
+            if(!(var10 !== var11)) { _fun0006_ip = 101; continue _fun0006 }
  88:
-            offset = global;
-            offset = offset.Number;
-            verify = offset.bind(entity)(yankee);
+            var10 = global;
+            var10 = var10.Number;
+            var9 = var10.bind(var1)(var11);
  101:
-            michal['guild_id'] = verify;
-            michal['change_type'] = option;
-            michal['sound_type'] = golfie;
-            michal['sound_source'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2['guild_id'] = var9;
+            var2['change_type'] = var8;
+            var2['sound_type'] = var7;
+            var2['sound_source'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    var _closure1_slot19 = entity;
-    entity = global;
-    foxtra = entity.Object;
-    romeon = foxtra.defineProperty;
-    option = {};
-    entity = true;
-    option['value'] = entity;
-    entity = '__esModule';
-    entity = romeon.bind(foxtra)(zuuluu, entity, option);
-    entity = 0;
-    option = offset[entity];
-    entity = undefined;
-    option = yankee.bind(entity)(option);
-    var _closure1_slot3 = option;
-    option = 1;
-    option = offset[option];
-    option = yankee.bind(entity)(option);
-    var _closure1_slot4 = option;
-    option = 2;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    option = option.SILENT_JOIN_LEAVE_CHANNEL_TYPES;
-    var _closure1_slot5 = option;
-    option = 3;
-    option = offset[option];
-    option = yankee.bind(entity)(option);
-    var _closure1_slot6 = option;
-    option = 4;
-    option = offset[option];
-    option = yankee.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 5;
-    option = offset[option];
-    option = yankee.bind(entity)(option);
-    var _closure1_slot8 = option;
-    option = 6;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    yankee = option.CUSTOM_CALL_SOUND_GLOBAL_GUILD_ID;
-    var _closure1_slot9 = yankee;
-    option = option.DEFAULT_SOUND_GUILD_ID;
-    var _closure1_slot10 = option;
-    option = 7;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    yankee = option.Permissions;
-    var _closure1_slot11 = yankee;
-    option = option.AnalyticEvents;
-    var _closure1_slot12 = option;
-    option = 8;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    option = option.ExpressionPickerViewType;
-    var _closure1_slot13 = option;
-    option = 24;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/soundboard/SoundboardUtils.tsx';
-    option = verify.bind(offset)(option);
-    option = function() { // Original name: getAmplitudinalSoundboardVolume
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot19 = var1;
+    var1 = global;
+    var13 = var1.Object;
+    var12 = var13.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var12.bind(var13)(var3, var1, var8);
+    var1 = 0;
+    var8 = var10[var1];
+    var1 = undefined;
+    var8 = var11.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 1;
+    var8 = var10[var8];
+    var8 = var11.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 2;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8.SILENT_JOIN_LEAVE_CHANNEL_TYPES;
+    var _closure1_slot5 = var8;
+    var8 = 3;
+    var8 = var10[var8];
+    var8 = var11.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 4;
+    var8 = var10[var8];
+    var8 = var11.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 5;
+    var8 = var10[var8];
+    var8 = var11.bind(var1)(var8);
+    var _closure1_slot8 = var8;
+    var8 = 6;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var11 = var8.CUSTOM_CALL_SOUND_GLOBAL_GUILD_ID;
+    var _closure1_slot9 = var11;
+    var8 = var8.DEFAULT_SOUND_GUILD_ID;
+    var _closure1_slot10 = var8;
+    var8 = 7;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var11 = var8.Permissions;
+    var _closure1_slot11 = var11;
+    var8 = var8.AnalyticEvents;
+    var _closure1_slot12 = var8;
+    var8 = 8;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8.ExpressionPickerViewType;
+    var _closure1_slot13 = var8;
+    var8 = 24;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/soundboard/SoundboardUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function getAmplitudinalSoundboardVolume() {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 9;
-            entity = michal[entity];
-            michal = undefined;
-            entity = zuuluu.bind(michal)(entity);
-            zuuluu = entity.SoundboardSettings;
-            entity = zuuluu.getSetting;
-            zuuluu = entity.bind(zuuluu)();
-            entity = null;
-            tangon = entity == zuuluu;
-            if(tangon) { _fun00014_ip = 56; continue _fun00013 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 9;
+            var1 = var2[var1];
+            var2 = undefined;
+            var1 = var3.bind(var2)(var1);
+            var3 = var1.SoundboardSettings;
+            var1 = var3.getSetting;
+            var3 = var1.bind(var3)();
+            var1 = null;
+            var4 = var1 == var3;
+            if(var4) { _fun0007_ip = 56; continue _fun0007 }
  50:
-            michal = zuuluu.volume;
+            var2 = var3.volume;
  56:
-            zuuluu = entity != michal;
-            entity = 100;
-            if(!zuuluu) { _fun00014_ip = 69; continue _fun00013 }
+            var3 = var1 != var2;
+            var1 = 100;
+            if(!var3) { _fun0007_ip = 69; continue _fun0007 }
  66:
-            entity = michal;
+            var1 = var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAmplitudinalSoundboardVolume'] = option;
-    zuuluu['hasPermissionToPlaySound'] = golfie;
-    zuuluu['canUseSoundboardSound'] = oscard;
-    zuuluu['canMakeSound'] = report;
-    report = function(argFoo, argBar, argBaz) { // Original name: playSound
-        golfie = argFoo;
-        oscard = argBar;
-        zuuluu = _closure1_slot0;
-        tangon = _closure1_slot2;
-        entity = 12;
-        michal = tangon[entity];
-        entity = undefined;
-        option = zuuluu.bind(entity)(michal);
-        report = option.playSoundLocally;
-        michal = 13;
-        michal = tangon[michal];
-        michal = zuuluu.bind(entity)(michal);
-        michal = michal.LocalSoundTrigger;
-        michal = michal.SOUNDBOARD;
-        michal = report.bind(option)(oscard, golfie, michal);
-        michal = 14;
-        michal = tangon[michal];
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.sendVoiceChannelSoundboardEffect;
-        offset = false;
-        verify = argBaz;
-        foxtra = report;
-        romeon = oscard;
-        yankee = golfie;
-        michal = foxtra[tangon](romeon, yankee, offset, verify, option);
-        return entity;
+    var3['getAmplitudinalSoundboardVolume'] = var8;
+    var3['hasPermissionToPlaySound'] = var7;
+    var3['canUseSoundboardSound'] = var6;
+    var3['canMakeSound'] = var5;
+    var5 = function playSound(arg1, arg2, arg3) {
+        var7 = arg1;
+        var6 = arg2;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 12;
+        var2 = var4[var1];
+        var1 = undefined;
+        var8 = var3.bind(var1)(var2);
+        var5 = var8.playSoundLocally;
+        var2 = 13;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.LocalSoundTrigger;
+        var2 = var2.SOUNDBOARD;
+        var2 = var5.bind(var8)(var6, var7, var2);
+        var2 = 14;
+        var2 = var4[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.sendVoiceChannelSoundboardEffect;
+        var10 = false;
+        var9 = arg3;
+        var13 = var5;
+        var12 = var6;
+        var11 = var7;
+        var2 = var13[var4](var12, var11, var10, var9, var8);
+        return var1;
     };
-    zuuluu['playSound'] = report;
-    zuuluu['hasSetAnyCustomJoinSound'] = tangon;
-    tangon = function() { // Original name: maybePlayCustomJoinSound
-        entity = undefined;
-        tangon = _closure1_slot18;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['playSound'] = var5;
+    var3['hasSetAnyCustomJoinSound'] = var4;
+    var4 = function maybePlayCustomJoinSound() {
+        var1 = undefined;
+        var4 = _closure1_slot18;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['maybePlayCustomJoinSound'] = tangon;
-    tangon = function(argFoo) { // Original name: useSoundBoardDismissContentTypes
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['maybePlayCustomJoinSound'] = var4;
+    var4 = function useSoundBoardDismissContentTypes(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.isSoundboardButtonDisabled;
-            report = undefined;
-            if(!(zuuluu === report)) { _fun00016_ip = 19; continue _fun00015 }
+            var1 = arg1;
+            var3 = var1.isSoundboardButtonDisabled;
+            var5 = undefined;
+            if(!(var3 === var5)) { _fun0008_ip = 19; continue _fun0008 }
  17:
-            zuuluu = false;
+            var3 = false;
  19:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 18;
-            entity = oscard[entity];
-            golfie = tangon.bind(report)(entity);
-            oscard = golfie.useStateFromStores;
-            entity = _closure1_slot7;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                michal = _closure1_slot7;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 18;
+            var1 = var6[var1];
+            var7 = var4.bind(var5)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot7;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot7;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = oscard.bind(golfie)(tangon, entity);
-            entity = new Array(0);
-            if(zuuluu) { _fun00016_ip = 236; continue _fun00015 }
+            var8 = var6.bind(var7)(var4, var1);
+            var1 = new Array(0);
+            if(var3) { _fun0008_ip = 236; continue _fun0008 }
  82:
-            zuuluu = _closure1_slot17;
-            zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00016_ip = 236; continue _fun00015 }
+            var3 = _closure1_slot17;
+            var3 = var3.bind(var5)();
+            if(var3) { _fun0008_ip = 236; continue _fun0008 }
  96:
-            golfie = entity.push;
-            tangon = _closure1_slot0;
-            verify = _closure1_slot2;
-            oscard = 19;
-            zuuluu = verify[oscard];
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.DismissibleContent;
-            zuuluu = zuuluu.CUSTOM_CALL_SOUNDS_SPARKLES;
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = 20;
-            zuuluu = verify[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.ageEligibleForPremiumUpsell;
-            tangon = zuuluu.bind(tangon)(option);
-            golfie = _closure1_slot1;
-            zuuluu = 10;
-            zuuluu = verify[zuuluu];
-            golfie = golfie.bind(report)(zuuluu);
-            zuuluu = golfie.canUseCustomCallSounds;
-            zuuluu = zuuluu.bind(golfie)(option);
-            if(zuuluu) { _fun00016_ip = 194; continue _fun00015 }
+            var7 = var1.push;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 19;
+            var3 = var9[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.CUSTOM_CALL_SOUNDS_SPARKLES;
+            var3 = var7.bind(var1)(var3);
+            var3 = 20;
+            var3 = var9[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.ageEligibleForPremiumUpsell;
+            var4 = var3.bind(var4)(var8);
+            var7 = _closure1_slot1;
+            var3 = 10;
+            var3 = var9[var3];
+            var7 = var7.bind(var5)(var3);
+            var3 = var7.canUseCustomCallSounds;
+            var3 = var3.bind(var7)(var8);
+            if(var3) { _fun0008_ip = 194; continue _fun0008 }
  191:
-            zuuluu = tangon;
+            var3 = var4;
  194:
-            if(!zuuluu) { _fun00016_ip = 236; continue _fun00015 }
+            if(!var3) { _fun0008_ip = 236; continue _fun0008 }
  197:
-            zuuluu = entity.push;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.DismissibleContent;
-            michal = michal.CUSTOM_CALL_SOUNDS_PICKER_UPSELL;
-            michal = zuuluu.bind(entity)(michal);
+            var3 = var1.push;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.DismissibleContent;
+            var2 = var2.CUSTOM_CALL_SOUNDS_PICKER_UPSELL;
+            var2 = var3.bind(var1)(var2);
  236:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useSoundBoardDismissContentTypes'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: removeCustomJoinSound
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        golfie = _closure1_slot0;
-        option = _closure1_slot2;
-        zuuluu = 21;
-        tangon = option[zuuluu];
-        entity = undefined;
-        report = golfie.bind(entity)(tangon);
-        tangon = report.updateUserGuildSettings;
-        zuuluu = option[zuuluu];
-        zuuluu = golfie.bind(entity)(zuuluu);
-        zuuluu = zuuluu.UserSettingsDelay;
-        zuuluu = zuuluu.INFREQUENT_USER_ACTION;
-        michal = function(argFoo) {
-            entity = undefined;
-            michal = argFoo;
-            michal['joinSound'] = entity;
-            zuuluu = _closure1_slot19;
-            michal = {};
-            oscard = _closure2_slot0;
-            michal['guildId'] = oscard;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            report = 13;
-            option = golfie[report];
-            option = oscard.bind(entity)(option);
-            option = option.AnalyticsChangeType;
-            option = option.REMOVED;
-            michal['changeType'] = option;
-            report = golfie[report];
-            report = oscard.bind(entity)(report);
-            report = report.AnalyticsSoundType;
-            report = report.ENTRY;
-            michal['soundType'] = report;
-            tangon = _closure2_slot1;
-            michal['location'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+    var3['useSoundBoardDismissContentTypes'] = var4;
+    var4 = function removeCustomJoinSound(arg1, arg2) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var3 = 21;
+        var4 = var8[var3];
+        var1 = undefined;
+        var5 = var7.bind(var1)(var4);
+        var4 = var5.updateUserGuildSettings;
+        var3 = var8[var3];
+        var3 = var7.bind(var1)(var3);
+        var3 = var3.UserSettingsDelay;
+        var3 = var3.INFREQUENT_USER_ACTION;
+        var2 = function(arg1) {
+            var1 = undefined;
+            var2 = arg1;
+            var2['joinSound'] = var1;
+            var3 = _closure1_slot19;
+            var2 = {};
+            var6 = _closure2_slot0;
+            var2['guildId'] = var6;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 13;
+            var8 = var7[var5];
+            var8 = var6.bind(var1)(var8);
+            var8 = var8.AnalyticsChangeType;
+            var8 = var8.REMOVED;
+            var2['changeType'] = var8;
+            var5 = var7[var5];
+            var5 = var6.bind(var1)(var5);
+            var5 = var5.AnalyticsSoundType;
+            var5 = var5.ENTRY;
+            var2['soundType'] = var5;
+            var4 = _closure2_slot1;
+            var2['location'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        michal = tangon.bind(report)(oscard, michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var6, var2, var3);
+        return var1;
     };
-    zuuluu['removeCustomJoinSound'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: updateCustomJoinSound
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        entity = argBaz;
-        var _closure2_slot2 = entity;
-        golfie = _closure1_slot0;
-        option = _closure1_slot2;
-        zuuluu = 21;
-        tangon = option[zuuluu];
-        entity = undefined;
-        report = golfie.bind(entity)(tangon);
-        tangon = report.updateUserGuildSettings;
-        zuuluu = option[zuuluu];
-        zuuluu = golfie.bind(entity)(zuuluu);
-        zuuluu = zuuluu.UserSettingsDelay;
-        zuuluu = zuuluu.INFREQUENT_USER_ACTION;
-        michal = function(argFoo) {
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var3['removeCustomJoinSound'] = var4;
+    var4 = function updateCustomJoinSound(arg1, arg2, arg3) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var1 = arg3;
+        var _closure2_slot2 = var1;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var3 = 21;
+        var4 = var8[var3];
+        var1 = undefined;
+        var5 = var7.bind(var1)(var4);
+        var4 = var5.updateUserGuildSettings;
+        var3 = var8[var3];
+        var3 = var7.bind(var1)(var3);
+        var3 = var3.UserSettingsDelay;
+        var3 = var3.INFREQUENT_USER_ACTION;
+        var2 = function(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                zuuluu = argFoo;
-                entity = _closure2_slot1;
-                michal = entity.guildId;
-                entity = _closure1_slot10;
-                verify = michal === entity;
-                oscard = _closure1_slot0;
-                entity = _closure1_slot2;
-                golfie = 13;
-                michal = entity[golfie];
-                entity = undefined;
-                michal = oscard.bind(entity)(michal);
-                michal = michal.AnalyticsSoundSource;
-                if(verify) { _fun00018_ip = 65; continue _fun00017 }
+                var3 = arg1;
+                var1 = _closure2_slot1;
+                var2 = var1.guildId;
+                var1 = _closure1_slot10;
+                var9 = var2 === var1;
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var7 = 13;
+                var2 = var1[var7];
+                var1 = undefined;
+                var2 = var6.bind(var1)(var2);
+                var2 = var2.AnalyticsSoundSource;
+                if(var9) { _fun0009_ip = 65; continue _fun0009 }
  57:
-                oscard = michal.CUSTOM;
-                _fun00018_ip = 71; continue _fun00017;
+                var6 = var2.CUSTOM;
+                _fun0009_ip = 71; continue _fun0009;
  65:
-                oscard = michal.DEFAULT;
+                var6 = var2.DEFAULT;
  71:
-                option = zuuluu.joinSound;
-                michal = null;
-                if(!(michal == option)) { _fun00018_ip = 114; continue _fun00017 }
+                var8 = var3.joinSound;
+                var2 = null;
+                if(!(var2 == var8)) { _fun0009_ip = 114; continue _fun0009 }
  83:
-                option = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[golfie];
-                michal = option.bind(entity)(michal);
-                michal = michal.AnalyticsChangeType;
-                option = michal.ADDED;
-                _fun00018_ip = 143; continue _fun00017;
+                var8 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var7];
+                var2 = var8.bind(var1)(var2);
+                var2 = var2.AnalyticsChangeType;
+                var8 = var2.ADDED;
+                _fun0009_ip = 143; continue _fun0009;
  114:
-                offset = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[golfie];
-                michal = offset.bind(entity)(michal);
-                michal = michal.AnalyticsChangeType;
-                option = michal.UPDATED;
+                var10 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var7];
+                var2 = var10.bind(var1)(var2);
+                var2 = var2.AnalyticsChangeType;
+                var8 = var2.UPDATED;
  143:
-                michal = {};
-                offset = _closure2_slot1;
-                offset = offset.soundId;
-                michal['soundId'] = offset;
-                if(verify) { _fun00018_ip = 174; continue _fun00017 }
+                var2 = {};
+                var10 = _closure2_slot1;
+                var10 = var10.soundId;
+                var2['soundId'] = var10;
+                if(var9) { _fun0009_ip = 174; continue _fun0009 }
  163:
-                verify = _closure2_slot1;
-                verify = verify.guildId;
-                _fun00018_ip = 178; continue _fun00017;
+                var9 = _closure2_slot1;
+                var9 = var9.guildId;
+                _fun0009_ip = 178; continue _fun0009;
  174:
-                verify = _closure1_slot9;
+                var9 = _closure1_slot9;
  178:
-                michal['guildId'] = verify;
-                zuuluu['joinSound'] = michal;
-                zuuluu = _closure1_slot19;
-                michal = {};
-                verify = _closure2_slot0;
-                michal['guildId'] = verify;
-                michal['changeType'] = option;
-                michal['soundSource'] = oscard;
-                oscard = _closure1_slot0;
-                report = _closure1_slot2;
-                report = report[golfie];
-                report = oscard.bind(entity)(report);
-                report = report.AnalyticsSoundType;
-                report = report.ENTRY;
-                michal['soundType'] = report;
-                tangon = _closure2_slot2;
-                michal['location'] = tangon;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+                var2['guildId'] = var9;
+                var3['joinSound'] = var2;
+                var3 = _closure1_slot19;
+                var2 = {};
+                var9 = _closure2_slot0;
+                var2['guildId'] = var9;
+                var2['changeType'] = var8;
+                var2['soundSource'] = var6;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var5 = var5[var7];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.AnalyticsSoundType;
+                var5 = var5.ENTRY;
+                var2['soundType'] = var5;
+                var4 = _closure2_slot2;
+                var2['location'] = var4;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             }
         };
-        michal = tangon.bind(report)(oscard, michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var6, var2, var3);
+        return var1;
     };
-    zuuluu['updateCustomJoinSound'] = tangon;
-    tangon = function(argFoo) { // Original name: trackCustomCallSoundExternallyDeleted
-        entity = argFoo;
-        oscard = entity.location;
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 22;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.track;
-        michal = _closure1_slot12;
-        zuuluu = michal.USER_CUSTOM_CALL_SOUND_SETTING_GUILD_REMOVED;
-        michal = {};
-        michal['location_stack'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var3['updateCustomJoinSound'] = var4;
+    var4 = function trackCustomCallSoundExternallyDeleted(arg1) {
+        var1 = arg1;
+        var6 = var1.location;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 22;
+        var3 = var3[var1];
+        var1 = undefined;
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.track;
+        var2 = _closure1_slot12;
+        var3 = var2.USER_CUSTOM_CALL_SOUND_SETTING_GUILD_REMOVED;
+        var2 = {};
+        var2['location_stack'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['trackCustomCallSoundExternallyDeleted'] = tangon;
-    michal = function(argFoo) { // Original name: trackSoundFavorited
-        entity = argFoo;
-        oscard = entity.sound;
-        option = entity.location;
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 23;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.trackWithMetadata;
-        michal = _closure1_slot12;
-        zuuluu = michal.EXPRESSION_FAVORITED;
-        michal = {};
-        michal['location'] = option;
-        golfie = _closure1_slot13;
-        golfie = golfie.SOUNDBOARD;
-        michal['expression_type'] = golfie;
-        golfie = oscard.soundId;
-        michal['expression_id'] = golfie;
-        golfie = oscard.name;
-        michal['expression_name'] = golfie;
-        oscard = oscard.guildId;
-        michal['expression_guild_id'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var3['trackCustomCallSoundExternallyDeleted'] = var4;
+    var2 = function trackSoundFavorited(arg1) {
+        var1 = arg1;
+        var6 = var1.sound;
+        var8 = var1.location;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 23;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.trackWithMetadata;
+        var2 = _closure1_slot12;
+        var3 = var2.EXPRESSION_FAVORITED;
+        var2 = {};
+        var2['location'] = var8;
+        var7 = _closure1_slot13;
+        var7 = var7.SOUNDBOARD;
+        var2['expression_type'] = var7;
+        var7 = var6.soundId;
+        var2['expression_id'] = var7;
+        var7 = var6.name;
+        var2['expression_name'] = var7;
+        var6 = var6.guildId;
+        var2['expression_guild_id'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['trackSoundFavorited'] = michal;
-    return entity;
+    var3['trackSoundFavorited'] = var2;
+    return var1;
 })();

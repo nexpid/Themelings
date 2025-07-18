@@ -1,176 +1,176 @@
 // app/modules/stickers/StickerSendability.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = option;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    oscard = 0;
-    tangon = option[oscard];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    var _closure1_slot4 = tangon;
-    report = {};
-    report['SENDABLE'] = oscard;
-    tangon = 'SENDABLE';
-    report[oscard] = tangon;
-    oscard = 1;
-    report['SENDABLE_WITH_PREMIUM'] = oscard;
-    tangon = 'SENDABLE_WITH_PREMIUM';
-    report[oscard] = tangon;
-    oscard = 2;
-    report['NONSENDABLE'] = oscard;
-    tangon = 'NONSENDABLE';
-    report[oscard] = tangon;
-    oscard = 3;
-    report['SENDABLE_WITH_BOOSTED_GUILD'] = oscard;
-    tangon = 'SENDABLE_WITH_BOOSTED_GUILD';
-    report[oscard] = tangon;
-    var _closure1_slot5 = report;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: getStickerSendability
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var8;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var6 = 0;
+    var4 = var8[var6];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot4 = var4;
+    var5 = {};
+    var5['SENDABLE'] = var6;
+    var4 = 'SENDABLE';
+    var5[var6] = var4;
+    var6 = 1;
+    var5['SENDABLE_WITH_PREMIUM'] = var6;
+    var4 = 'SENDABLE_WITH_PREMIUM';
+    var5[var6] = var4;
+    var6 = 2;
+    var5['NONSENDABLE'] = var6;
+    var4 = 'NONSENDABLE';
+    var5[var6] = var4;
+    var6 = 3;
+    var5['SENDABLE_WITH_BOOSTED_GUILD'] = var6;
+    var4 = 'SENDABLE_WITH_BOOSTED_GUILD';
+    var5[var6] = var4;
+    var _closure1_slot5 = var5;
+    var4 = function getStickerSendability(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            verify = argBar;
-            option = argBaz;
-            oscard = null;
-            if(!(oscard != verify)) { _fun00002_ip = 333; continue _fun00001 }
+            var4 = arg1;
+            var9 = arg2;
+            var8 = arg3;
+            var6 = null;
+            if(!(var6 != var9)) { _fun0001_ip = 333; continue _fun0001 }
  18:
-            report = _closure1_slot1;
-            entity = _closure1_slot3;
-            zuuluu = 1;
-            zuuluu = entity[zuuluu];
-            golfie = undefined;
-            report = report.bind(golfie)(zuuluu);
-            zuuluu = report.canUseCustomStickersEverywhere;
-            report = zuuluu.bind(report)(verify);
-            zuuluu = _closure1_slot0;
-            offset = 2;
-            entity = entity[offset];
-            zuuluu = zuuluu.bind(golfie)(entity);
-            entity = zuuluu.isStandardSticker;
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00002_ip = 321; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var1 = _closure1_slot3;
+            var3 = 1;
+            var3 = var1[var3];
+            var7 = undefined;
+            var5 = var5.bind(var7)(var3);
+            var3 = var5.canUseCustomStickersEverywhere;
+            var5 = var3.bind(var5)(var9);
+            var3 = _closure1_slot0;
+            var10 = 2;
+            var1 = var1[var10];
+            var3 = var3.bind(var7)(var1);
+            var1 = var3.isStandardSticker;
+            var1 = var1.bind(var3)(var4);
+            if(var1) { _fun0001_ip = 321; continue _fun0001 }
  87:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot3;
-            entity = entity[offset];
-            zuuluu = zuuluu.bind(golfie)(entity);
-            entity = zuuluu.isGuildSticker;
-            entity = entity.bind(zuuluu)(tangon);
-            if(!entity) { _fun00002_ip = 122; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot3;
+            var1 = var1[var10];
+            var3 = var3.bind(var7)(var1);
+            var1 = var3.isGuildSticker;
+            var1 = var1.bind(var3)(var4);
+            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
  118:
-            if(!(oscard == option)) { _fun00002_ip = 137; continue _fun00001 }
+            if(!(var6 == var8)) { _fun0001_ip = 137; continue _fun0001 }
  122:
-            entity = _closure1_slot5;
-            entity = entity.NONSENDABLE;
-            _fun00002_ip = 319; continue _fun00001;
+            var1 = _closure1_slot5;
+            var1 = var1.NONSENDABLE;
+            _fun0001_ip = 319; continue _fun0001;
  137:
-            zuuluu = tangon.available;
-            if(zuuluu) { _fun00002_ip = 161; continue _fun00001 }
+            var3 = var4.available;
+            if(var3) { _fun0001_ip = 161; continue _fun0001 }
  146:
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.SENDABLE_WITH_BOOSTED_GUILD;
-            _fun00002_ip = 316; continue _fun00001;
+            var3 = _closure1_slot5;
+            var3 = var3.SENDABLE_WITH_BOOSTED_GUILD;
+            _fun0001_ip = 316; continue _fun0001;
  161:
-            offset = option.guild_id;
-            if(!(oscard != offset)) { _fun00002_ip = 197; continue _fun00001 }
+            var10 = var8.guild_id;
+            if(!(var6 != var10)) { _fun0001_ip = 197; continue _fun0001 }
  170:
-            yankee = option.guild_id;
-            offset = '';
-            if(!(offset !== yankee)) { _fun00002_ip = 197; continue _fun00001 }
+            var11 = var8.guild_id;
+            var10 = '';
+            if(!(var10 !== var11)) { _fun0001_ip = 197; continue _fun0001 }
  183:
-            offset = option.guild_id;
-            tangon = tangon.guild_id;
-            if(!(offset !== tangon)) { _fun00002_ip = 303; continue _fun00001 }
+            var10 = var8.guild_id;
+            var4 = var4.guild_id;
+            if(!(var10 !== var4)) { _fun0001_ip = 303; continue _fun0001 }
  197:
-            tangon = option.guild_id;
-            if(!(oscard != tangon)) { _fun00002_ip = 277; continue _fun00001 }
+            var4 = var8.guild_id;
+            if(!(var6 != var4)) { _fun0001_ip = 277; continue _fun0001 }
  206:
-            oscard = _closure1_slot2;
-            offset = _closure1_slot3;
-            tangon = 3;
-            tangon = offset[tangon];
-            golfie = oscard.bind(golfie)(tangon);
-            oscard = golfie.can;
-            tangon = {};
-            offset = _closure1_slot4;
-            offset = offset.USE_EXTERNAL_STICKERS;
-            tangon['permission'] = offset;
-            tangon['user'] = verify;
-            tangon['context'] = option;
-            tangon = oscard.bind(golfie)(tangon);
-            if(tangon) { _fun00002_ip = 277; continue _fun00001 }
+            var6 = _closure1_slot2;
+            var10 = _closure1_slot3;
+            var4 = 3;
+            var4 = var10[var4];
+            var7 = var6.bind(var7)(var4);
+            var6 = var7.can;
+            var4 = {};
+            var10 = _closure1_slot4;
+            var10 = var10.USE_EXTERNAL_STICKERS;
+            var4['permission'] = var10;
+            var4['user'] = var9;
+            var4['context'] = var8;
+            var4 = var6.bind(var7)(var4);
+            if(var4) { _fun0001_ip = 277; continue _fun0001 }
  265:
-            tangon = _closure1_slot5;
-            tangon = tangon.NONSENDABLE;
-            _fun00002_ip = 301; continue _fun00001;
+            var4 = _closure1_slot5;
+            var4 = var4.NONSENDABLE;
+            _fun0001_ip = 301; continue _fun0001;
  277:
-            oscard = _closure1_slot5;
-            if(report) { _fun00002_ip = 292; continue _fun00001 }
+            var6 = _closure1_slot5;
+            if(var5) { _fun0001_ip = 292; continue _fun0001 }
  284:
-            report = oscard.SENDABLE_WITH_PREMIUM;
-            _fun00002_ip = 298; continue _fun00001;
+            var5 = var6.SENDABLE_WITH_PREMIUM;
+            _fun0001_ip = 298; continue _fun0001;
  292:
-            report = oscard.SENDABLE;
+            var5 = var6.SENDABLE;
  298:
-            tangon = report;
+            var4 = var5;
  301:
-            _fun00002_ip = 313; continue _fun00001;
+            _fun0001_ip = 313; continue _fun0001;
  303:
-            report = _closure1_slot5;
-            tangon = report.SENDABLE;
+            var5 = _closure1_slot5;
+            var4 = var5.SENDABLE;
  313:
-            zuuluu = tangon;
+            var3 = var4;
  316:
-            entity = zuuluu;
+            var1 = var3;
  319:
-            _fun00002_ip = 331; continue _fun00001;
+            _fun0001_ip = 331; continue _fun0001;
  321:
-            michal = _closure1_slot5;
-            entity = michal.SENDABLE;
+            var2 = _closure1_slot5;
+            var1 = var2.SENDABLE;
  331:
-            return entity;
+            return var1;
  333:
-            entity = _closure1_slot5;
-            entity = entity.NONSENDABLE;
-            return entity;
+            var1 = _closure1_slot5;
+            var1 = var1.NONSENDABLE;
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    oscard = 4;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/stickers/StickerSendability.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['StickerSendability'] = report;
-    zuuluu['getStickerSendability'] = tangon;
-    michal = function(argFoo, argBar, argBaz) {
-        oscard = _closure1_slot6;
-        report = undefined;
-        tangon = argFoo;
-        zuuluu = argBar;
-        michal = argBaz;
-        michal = oscard.bind(report)(tangon, zuuluu, michal);
-        entity = _closure1_slot5;
-        entity = entity.SENDABLE;
-        entity = michal === entity;
-        return entity;
+    var _closure1_slot6 = var4;
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/stickers/StickerSendability.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['StickerSendability'] = var5;
+    var3['getStickerSendability'] = var4;
+    var2 = function(arg1, arg2, arg3) {
+        var6 = _closure1_slot6;
+        var5 = undefined;
+        var4 = arg1;
+        var3 = arg2;
+        var2 = arg3;
+        var2 = var6.bind(var5)(var4, var3, var2);
+        var1 = _closure1_slot5;
+        var1 = var1.SENDABLE;
+        var1 = var2 === var1;
+        return var1;
     };
-    zuuluu['isSendableSticker'] = michal;
-    return entity;
+    var3['isSendableSticker'] = var2;
+    return var1;
 })();

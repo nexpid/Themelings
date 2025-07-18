@@ -1,396 +1,396 @@
 // app/modules/roblox_subgame_detection/RobloxSubgameUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = option;
-    report = function(argFoo, argBar) { // Original name: hasRunningGameChanged
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
+    var5 = function hasRunningGameChanged(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            zuuluu = oscard.distributor;
-            entity = _closure1_slot3;
-            entity = entity.ROBLOX;
-            entity = zuuluu === entity;
-            if(!entity) { _fun00002_ip = 207; continue _fun00001 }
+            var6 = arg1;
+            var3 = var6.distributor;
+            var1 = _closure1_slot3;
+            var1 = var1.ROBLOX;
+            var1 = var3 === var1;
+            if(!var1) { _fun0001_ip = 207; continue _fun0001 }
  32:
-            report = _closure1_slot5;
-            golfie = oscard.distributor;
-            michal = _closure1_slot3;
-            michal = michal.ROBLOX;
-            zuuluu = null;
-            tangon = null;
-            if(!(golfie === michal)) { _fun00002_ip = 196; continue _fun00001 }
+            var5 = _closure1_slot5;
+            var7 = var6.distributor;
+            var2 = _closure1_slot3;
+            var2 = var2.ROBLOX;
+            var3 = null;
+            var4 = null;
+            if(!(var7 === var2)) { _fun0001_ip = 196; continue _fun0001 }
  63:
-            michal = oscard.gameMetadata;
-            michal = zuuluu == michal;
-            tangon = null;
-            if(michal) { _fun00002_ip = 196; continue _fun00001 }
+            var2 = var6.gameMetadata;
+            var2 = var3 == var2;
+            var4 = null;
+            if(var2) { _fun0001_ip = 196; continue _fun0001 }
  78:
-            michal = oscard.sku;
-            michal = zuuluu == michal;
-            tangon = null;
-            if(michal) { _fun00002_ip = 196; continue _fun00001 }
+            var2 = var6.sku;
+            var2 = var3 == var2;
+            var4 = null;
+            if(var2) { _fun0001_ip = 196; continue _fun0001 }
  93:
-            michal = {};
-            golfie = oscard.gameMetadata;
-            option = golfie.placeId;
-            verify = zuuluu != option;
-            golfie = null;
-            if(!verify) { _fun00002_ip = 119; continue _fun00001 }
+            var2 = {};
+            var7 = var6.gameMetadata;
+            var8 = var7.placeId;
+            var9 = var3 != var8;
+            var7 = null;
+            if(!var9) { _fun0001_ip = 119; continue _fun0001 }
  116:
-            golfie = option;
+            var7 = var8;
  119:
-            michal['placeId'] = golfie;
-            golfie = oscard.sku;
-            michal['universeId'] = golfie;
-            golfie = oscard.gameMetadata;
-            option = golfie.jobId;
-            verify = zuuluu != option;
-            golfie = null;
-            if(!verify) { _fun00002_ip = 159; continue _fun00001 }
+            var2['placeId'] = var7;
+            var7 = var6.sku;
+            var2['universeId'] = var7;
+            var7 = var6.gameMetadata;
+            var8 = var7.jobId;
+            var9 = var3 != var8;
+            var7 = null;
+            if(!var9) { _fun0001_ip = 159; continue _fun0001 }
  156:
-            golfie = option;
+            var7 = var8;
  159:
-            michal['jobId'] = golfie;
-            oscard = oscard.gameMetadata;
-            oscard = oscard.robloxUserId;
-            golfie = zuuluu != oscard;
-            zuuluu = null;
-            if(!golfie) { _fun00002_ip = 188; continue _fun00001 }
+            var2['jobId'] = var7;
+            var6 = var6.gameMetadata;
+            var6 = var6.robloxUserId;
+            var7 = var3 != var6;
+            var3 = null;
+            if(!var7) { _fun0001_ip = 188; continue _fun0001 }
  185:
-            zuuluu = oscard;
+            var3 = var6;
  188:
-            michal['robloxUserId'] = zuuluu;
-            tangon = michal;
+            var2['robloxUserId'] = var3;
+            var4 = var2;
  196:
-            zuuluu = undefined;
-            michal = argBar;
-            entity = report.bind(zuuluu)(tangon, michal);
+            var3 = undefined;
+            var2 = arg2;
+            var1 = var5.bind(var3)(var4, var2);
  207:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = report;
-    tangon = function(argFoo, argBar) { // Original name: hasSubgameInfoChanged
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var5;
+    var4 = function hasSubgameInfoChanged(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            oscard = argBar;
-            tangon = null;
-            entity = tangon == golfie;
-            if(!entity) { _fun00004_ip = 19; continue _fun00003 }
+            var7 = arg1;
+            var6 = arg2;
+            var4 = null;
+            var1 = var4 == var7;
+            if(!var1) { _fun0002_ip = 19; continue _fun0002 }
  15:
-            entity = tangon != oscard;
+            var1 = var4 != var6;
  19:
-            if(entity) { _fun00004_ip = 96; continue _fun00003 }
+            if(var1) { _fun0002_ip = 96; continue _fun0002 }
  22:
-            michal = tangon != golfie;
-            if(!michal) { _fun00004_ip = 33; continue _fun00003 }
+            var2 = var4 != var7;
+            if(!var2) { _fun0002_ip = 33; continue _fun0002 }
  29:
-            michal = tangon == oscard;
+            var2 = var4 == var6;
  33:
-            if(michal) { _fun00004_ip = 93; continue _fun00003 }
+            if(var2) { _fun0002_ip = 93; continue _fun0002 }
  36:
-            zuuluu = tangon != golfie;
-            if(!zuuluu) { _fun00004_ip = 47; continue _fun00003 }
+            var3 = var4 != var7;
+            if(!var3) { _fun0002_ip = 47; continue _fun0002 }
  43:
-            zuuluu = tangon != oscard;
+            var3 = var4 != var6;
  47:
-            if(!zuuluu) { _fun00004_ip = 90; continue _fun00003 }
+            if(!var3) { _fun0002_ip = 90; continue _fun0002 }
  50:
-            option = _closure1_slot1;
-            report = _closure1_slot2;
-            tangon = 2;
-            report = report[tangon];
-            tangon = undefined;
-            report = option.bind(tangon)(report);
-            tangon = report.isEqual;
-            tangon = tangon.bind(report)(golfie, oscard);
-            zuuluu = !tangon;
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var4 = 2;
+            var5 = var5[var4];
+            var4 = undefined;
+            var5 = var8.bind(var4)(var5);
+            var4 = var5.isEqual;
+            var4 = var4.bind(var5)(var7, var6);
+            var3 = !var4;
  90:
-            michal = zuuluu;
+            var2 = var3;
  93:
-            entity = michal;
+            var1 = var2;
  96:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.Distributors;
-    var _closure1_slot3 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/roblox_subgame_detection/RobloxSubgameUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function(argFoo) { // Original name: keyForRobloxGame
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.Distributors;
+    var _closure1_slot3 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/roblox_subgame_detection/RobloxSubgameUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function keyForRobloxGame(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            oscard = michal.distributor;
-            entity = _closure1_slot3;
-            report = entity.ROBLOX;
-            zuuluu = null;
-            entity = null;
-            if(!(oscard === report)) { _fun00006_ip = 145; continue _fun00005 }
+            var2 = arg1;
+            var6 = var2.distributor;
+            var1 = _closure1_slot3;
+            var5 = var1.ROBLOX;
+            var3 = null;
+            var1 = null;
+            if(!(var6 === var5)) { _fun0003_ip = 145; continue _fun0003 }
  30:
-            report = michal.sku;
-            report = zuuluu != report;
-            entity = null;
-            if(!report) { _fun00006_ip = 145; continue _fun00005 }
+            var5 = var2.sku;
+            var5 = var3 != var5;
+            var1 = null;
+            if(!var5) { _fun0003_ip = 145; continue _fun0003 }
  45:
-            oscard = michal.sku;
-            report = michal.gameMetadata;
-            golfie = zuuluu == report;
-            option = undefined;
-            michal = undefined;
-            if(golfie) { _fun00006_ip = 104; continue _fun00005 }
+            var6 = var2.sku;
+            var5 = var2.gameMetadata;
+            var7 = var3 == var5;
+            var8 = undefined;
+            var2 = undefined;
+            if(var7) { _fun0003_ip = 104; continue _fun0003 }
  68:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            tangon = 1;
-            tangon = verify[tangon];
-            tangon = golfie.bind(option)(tangon);
-            tangon = tangon.RobloxMetadataKeys;
-            tangon = tangon.PLACE_ID;
-            michal = report[tangon];
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 1;
+            var4 = var9[var4];
+            var4 = var7.bind(var8)(var4);
+            var4 = var4.RobloxMetadataKeys;
+            var4 = var4.PLACE_ID;
+            var2 = var5[var4];
  104:
-            zuuluu = zuuluu != michal;
-            report = '';
-            tangon = report;
-            if(!zuuluu) { _fun00006_ip = 121; continue _fun00005 }
+            var3 = var3 != var2;
+            var5 = '';
+            var4 = var5;
+            if(!var3) { _fun0003_ip = 121; continue _fun0003 }
  118:
-            tangon = michal;
+            var4 = var2;
  121:
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = ':';
-            entity = zuuluu.bind(report)(oscard, michal, tangon);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = ':';
+            var1 = var3.bind(var5)(var6, var2, var4);
  145:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['keyForRobloxGame'] = oscard;
-    zuuluu['hasRunningGameChanged'] = report;
-    zuuluu['hasSubgameInfoChanged'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: updateRunningGameWithRobloxSubgameInfo
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['keyForRobloxGame'] = var6;
+    var3['hasRunningGameChanged'] = var5;
+    var3['hasSubgameInfoChanged'] = var4;
+    var4 = function updateRunningGameWithRobloxSubgameInfo(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = argBar;
-            entity = {};
-            verify = entity;
-            option = tangon;
-            michal = copyDataProperties(verify, option);
-            report = _closure1_slot4;
-            michal = undefined;
-            report = report.bind(michal)(tangon, zuuluu);
-            if(report) { _fun00008_ip = 38; continue _fun00007 }
+            var4 = arg1;
+            var3 = arg2;
+            var1 = {};
+            var9 = var1;
+            var8 = var4;
+            var2 = copyDataProperties(var9, var8);
+            var5 = _closure1_slot4;
+            var2 = undefined;
+            var5 = var5.bind(var2)(var4, var3);
+            if(var5) { _fun0004_ip = 38; continue _fun0004 }
  36:
-            return tangon;
+            return var4;
  38:
-            oscard = null;
-            if(!(oscard != zuuluu)) { _fun00008_ip = 184; continue _fun00007 }
+            var6 = null;
+            if(!(var6 != var3)) { _fun0004_ip = 184; continue _fun0004 }
  47:
-            report = zuuluu.universeId;
-            golfie = oscard != report;
-            tangon = undefined;
-            if(!golfie) { _fun00008_ip = 65; continue _fun00007 }
+            var5 = var3.universeId;
+            var7 = var6 != var5;
+            var4 = undefined;
+            if(!var7) { _fun0004_ip = 65; continue _fun0004 }
  62:
-            tangon = report;
+            var4 = var5;
  65:
-            entity['sku'] = tangon;
-            tangon = {};
-            report = zuuluu.placeId;
-            if(!(oscard != report)) { _fun00008_ip = 95; continue _fun00007 }
+            var1['sku'] = var4;
+            var4 = {};
+            var5 = var3.placeId;
+            if(!(var6 != var5)) { _fun0004_ip = 95; continue _fun0004 }
  83:
-            report = zuuluu.placeId;
-            tangon['placeId'] = report;
+            var5 = var3.placeId;
+            var4['placeId'] = var5;
  95:
-            report = zuuluu.jobId;
-            if(!(oscard != report)) { _fun00008_ip = 117; continue _fun00007 }
+            var5 = var3.jobId;
+            if(!(var6 != var5)) { _fun0004_ip = 117; continue _fun0004 }
  105:
-            report = zuuluu.jobId;
-            tangon['jobId'] = report;
+            var5 = var3.jobId;
+            var4['jobId'] = var5;
  117:
-            report = zuuluu.robloxUserId;
-            if(!(oscard != report)) { _fun00008_ip = 139; continue _fun00007 }
+            var5 = var3.robloxUserId;
+            if(!(var6 != var5)) { _fun0004_ip = 139; continue _fun0004 }
  127:
-            zuuluu = zuuluu.robloxUserId;
-            tangon['robloxUserId'] = zuuluu;
+            var3 = var3.robloxUserId;
+            var4['robloxUserId'] = var3;
  139:
-            zuuluu = global;
-            report = zuuluu.Object;
-            zuuluu = report.keys;
-            zuuluu = zuuluu.bind(report)(tangon);
-            report = zuuluu.length;
-            zuuluu = 0;
-            report = report > zuuluu;
-            zuuluu = undefined;
-            if(!report) { _fun00008_ip = 176; continue _fun00007 }
+            var3 = global;
+            var5 = var3.Object;
+            var3 = var5.keys;
+            var3 = var3.bind(var5)(var4);
+            var5 = var3.length;
+            var3 = 0;
+            var5 = var5 > var3;
+            var3 = undefined;
+            if(!var5) { _fun0004_ip = 176; continue _fun0004 }
  173:
-            zuuluu = tangon;
+            var3 = var4;
  176:
-            entity['gameMetadata'] = zuuluu;
-            _fun00008_ip = 196; continue _fun00007;
+            var1['gameMetadata'] = var3;
+            _fun0004_ip = 196; continue _fun0004;
  184:
-            entity['gameMetadata'] = michal;
-            entity['sku'] = michal;
+            var1['gameMetadata'] = var2;
+            var1['sku'] = var2;
  196:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['updateRunningGameWithRobloxSubgameInfo'] = tangon;
-    tangon = function(argFoo) { // Original name: convertMapToRobloxSubgameInfo
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['updateRunningGameWithRobloxSubgameInfo'] = var4;
+    var4 = function convertMapToRobloxSubgameInfo(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            tangon = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            golfie = 1;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            entity = entity.NativeRobloxSubgameKeys;
-            entity = entity.UNIVERSE_ID;
-            entity = tangon[entity];
-            report = null;
-            michal = report == entity;
-            entity = null;
-            if(michal) { _fun00010_ip = 326; continue _fun00009 }
+            var4 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var1 = var1.NativeRobloxSubgameKeys;
+            var1 = var1.UNIVERSE_ID;
+            var1 = var4[var1];
+            var5 = null;
+            var2 = var5 == var1;
+            var1 = null;
+            if(var2) { _fun0005_ip = 326; continue _fun0005 }
  58:
-            option = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[golfie];
-            michal = option.bind(oscard)(michal);
-            michal = michal.NativeRobloxSubgameKeys;
-            michal = michal.PLACE_ID;
-            michal = tangon[michal];
-            michal = report == michal;
-            entity = null;
-            if(michal) { _fun00010_ip = 326; continue _fun00009 }
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var8.bind(var6)(var2);
+            var2 = var2.NativeRobloxSubgameKeys;
+            var2 = var2.PLACE_ID;
+            var2 = var4[var2];
+            var2 = var5 == var2;
+            var1 = null;
+            if(var2) { _fun0005_ip = 326; continue _fun0005 }
  103:
-            option = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[golfie];
-            michal = option.bind(oscard)(michal);
-            michal = michal.NativeRobloxSubgameKeys;
-            michal = michal.JOB_ID;
-            michal = tangon[michal];
-            michal = report == michal;
-            entity = null;
-            if(michal) { _fun00010_ip = 326; continue _fun00009 }
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var8.bind(var6)(var2);
+            var2 = var2.NativeRobloxSubgameKeys;
+            var2 = var2.JOB_ID;
+            var2 = var4[var2];
+            var2 = var5 == var2;
+            var1 = null;
+            if(var2) { _fun0005_ip = 326; continue _fun0005 }
  148:
-            option = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[golfie];
-            michal = option.bind(oscard)(michal);
-            michal = michal.NativeRobloxSubgameKeys;
-            michal = michal.USER_ID;
-            michal = tangon[michal];
-            michal = report == michal;
-            entity = null;
-            if(michal) { _fun00010_ip = 326; continue _fun00009 }
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var8.bind(var6)(var2);
+            var2 = var2.NativeRobloxSubgameKeys;
+            var2 = var2.USER_ID;
+            var2 = var4[var2];
+            var2 = var5 == var2;
+            var1 = null;
+            if(var2) { _fun0005_ip = 326; continue _fun0005 }
  193:
-            michal = {};
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            option = zuuluu[golfie];
-            option = report.bind(oscard)(option);
-            option = option.NativeRobloxSubgameKeys;
-            option = option.UNIVERSE_ID;
-            option = tangon[option];
-            michal['universeId'] = option;
-            option = zuuluu[golfie];
-            option = report.bind(oscard)(option);
-            option = option.NativeRobloxSubgameKeys;
-            option = option.PLACE_ID;
-            option = tangon[option];
-            michal['placeId'] = option;
-            option = zuuluu[golfie];
-            option = report.bind(oscard)(option);
-            option = option.NativeRobloxSubgameKeys;
-            option = option.JOB_ID;
-            option = tangon[option];
-            michal['jobId'] = option;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.NativeRobloxSubgameKeys;
-            zuuluu = zuuluu.USER_ID;
-            zuuluu = tangon[zuuluu];
-            michal['robloxUserId'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var8 = var3[var7];
+            var8 = var5.bind(var6)(var8);
+            var8 = var8.NativeRobloxSubgameKeys;
+            var8 = var8.UNIVERSE_ID;
+            var8 = var4[var8];
+            var2['universeId'] = var8;
+            var8 = var3[var7];
+            var8 = var5.bind(var6)(var8);
+            var8 = var8.NativeRobloxSubgameKeys;
+            var8 = var8.PLACE_ID;
+            var8 = var4[var8];
+            var2['placeId'] = var8;
+            var8 = var3[var7];
+            var8 = var5.bind(var6)(var8);
+            var8 = var8.NativeRobloxSubgameKeys;
+            var8 = var8.JOB_ID;
+            var8 = var4[var8];
+            var2['jobId'] = var8;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var3 = var3.NativeRobloxSubgameKeys;
+            var3 = var3.USER_ID;
+            var3 = var4[var3];
+            var2['robloxUserId'] = var3;
+            var1 = var2;
  326:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['convertMapToRobloxSubgameInfo'] = tangon;
-    michal = function(argFoo) { // Original name: getSubgameMetadata
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['convertMapToRobloxSubgameInfo'] = var4;
+    var2 = function getSubgameMetadata(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            oscard = argFoo;
-            tangon = oscard.distributor;
-            entity = _closure1_slot3;
-            michal = entity.ROBLOX;
-            zuuluu = null;
-            entity = null;
-            if(!(tangon === michal)) { _fun00012_ip = 166; continue _fun00011 }
+            var6 = arg1;
+            var4 = var6.distributor;
+            var1 = _closure1_slot3;
+            var2 = var1.ROBLOX;
+            var3 = null;
+            var1 = null;
+            if(!(var4 === var2)) { _fun0006_ip = 166; continue _fun0006 }
  33:
-            michal = oscard.gameMetadata;
-            michal = zuuluu != michal;
-            entity = null;
-            if(!michal) { _fun00012_ip = 166; continue _fun00011 }
+            var2 = var6.gameMetadata;
+            var2 = var3 != var2;
+            var1 = null;
+            if(!var2) { _fun0006_ip = 166; continue _fun0006 }
  48:
-            tangon = oscard.gameMetadata;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            verify = 1;
-            michal = michal[verify];
-            option = undefined;
-            michal = golfie.bind(option)(michal);
-            michal = michal.RobloxMetadataKeys;
-            michal = michal.PLACE_ID;
-            michal = tangon[michal];
-            michal = zuuluu != michal;
-            entity = null;
-            if(!michal) { _fun00012_ip = 166; continue _fun00011 }
+            var4 = var6.gameMetadata;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var9 = 1;
+            var2 = var2[var9];
+            var8 = undefined;
+            var2 = var7.bind(var8)(var2);
+            var2 = var2.RobloxMetadataKeys;
+            var2 = var2.PLACE_ID;
+            var2 = var4[var2];
+            var2 = var3 != var2;
+            var1 = null;
+            if(!var2) { _fun0006_ip = 166; continue _fun0006 }
  101:
-            michal = global;
-            tangon = michal.JSON;
-            zuuluu = tangon.stringify;
-            michal = {};
-            oscard = oscard.gameMetadata;
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[verify];
-            report = golfie.bind(option)(report);
-            report = report.RobloxMetadataKeys;
-            report = report.PLACE_ID;
-            report = oscard[report];
-            michal['placeId'] = report;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.JSON;
+            var3 = var4.stringify;
+            var2 = {};
+            var6 = var6.gameMetadata;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var9];
+            var5 = var7.bind(var8)(var5);
+            var5 = var5.RobloxMetadataKeys;
+            var5 = var5.PLACE_ID;
+            var5 = var6[var5];
+            var2['placeId'] = var5;
+            var1 = var3.bind(var4)(var2);
  166:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getSubgameMetadata'] = michal;
-    return entity;
+    var3['getSubgameMetadata'] = var2;
+    return var1;
 })();

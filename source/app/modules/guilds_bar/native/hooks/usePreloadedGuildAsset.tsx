@@ -1,187 +1,187 @@
 // app/modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    oscard = report[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: usePreloadedGuildAsset
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var6 = var5[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function usePreloadedGuildAsset(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            option = argBar;
-            entity = argBaz;
-            var _closure2_slot0 = oscard;
-            var _closure2_slot1 = option;
-            var _closure2_slot2 = entity;
-            yankee = _closure1_slot3;
-            report = yankee.useState;
-            tangon = {};
-            report = report.bind(yankee)(tangon);
-            tangon = _closure1_slot2;
-            golfie = undefined;
-            verify = 2;
-            report = tangon.bind(golfie)(report, verify);
-            tangon = 1;
-            tangon = report[tangon];
-            var _closure2_slot3 = tangon;
-            report = yankee.useRef;
-            tangon = {};
-            tangon['guildId'] = oscard;
-            tangon['asset'] = entity;
-            tangon['icon'] = option;
-            tangon['preloading'] = option;
-            report = report.bind(yankee)(tangon);
-            var _closure2_slot4 = report;
-            offset = yankee.useEffect;
-            option = function() {
-                entity = function() {
-                    entity = _closure2_slot4;
-                    michal = entity.current;
-                    entity = undefined;
-                    michal['guildId'] = entity;
-                    return entity;
+            var6 = arg1;
+            var8 = arg2;
+            var1 = arg3;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var8;
+            var _closure2_slot2 = var1;
+            var11 = _closure1_slot3;
+            var5 = var11.useState;
+            var4 = {};
+            var5 = var5.bind(var11)(var4);
+            var4 = _closure1_slot2;
+            var7 = undefined;
+            var9 = 2;
+            var5 = var4.bind(var7)(var5, var9);
+            var4 = 1;
+            var4 = var5[var4];
+            var _closure2_slot3 = var4;
+            var5 = var11.useRef;
+            var4 = {};
+            var4['guildId'] = var6;
+            var4['asset'] = var1;
+            var4['icon'] = var8;
+            var4['preloading'] = var8;
+            var5 = var5.bind(var11)(var4);
+            var _closure2_slot4 = var5;
+            var10 = var11.useEffect;
+            var8 = function() {
+                var1 = function() {
+                    var1 = _closure2_slot4;
+                    var2 = var1.current;
+                    var1 = undefined;
+                    var2['guildId'] = var1;
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            tangon = new Array(0);
-            tangon = offset.bind(yankee)(option, tangon);
-            option = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[verify];
-            tangon = option.bind(golfie)(tangon);
-            tangon = tangon.bind(golfie)(report);
-            report = tangon.guildId;
-            if(!(oscard === report)) { _fun00002_ip = 161; continue _fun00001 }
+            var4 = new Array(0);
+            var4 = var10.bind(var11)(var8, var4);
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var9];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.bind(var7)(var5);
+            var5 = var4.guildId;
+            if(!(var6 === var5)) { _fun0001_ip = 161; continue _fun0001 }
  155:
-            entity = tangon.asset;
+            var1 = var4.asset;
  161:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useEffect;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = _closure1_slot3;
+            var3 = var4.useEffect;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    michal = _closure2_slot4;
-                    michal = michal.current;
-                    michal = michal.guildId;
-                    if(!(zuuluu === michal)) { _fun00004_ip = 171; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot4;
+                    var2 = var2.current;
+                    var2 = var2.guildId;
+                    if(!(var3 === var2)) { _fun0002_ip = 171; continue _fun0002 }
  28:
-                    zuuluu = _closure2_slot1;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 171; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 171; continue _fun0002 }
  41:
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot4;
-                    michal = michal.current;
-                    michal = michal.icon;
-                    michal = zuuluu !== michal;
-                    if(!michal) { _fun00004_ip = 89; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot4;
+                    var2 = var2.current;
+                    var2 = var2.icon;
+                    var2 = var3 !== var2;
+                    if(!var2) { _fun0002_ip = 89; continue _fun0002 }
  66:
-                    tangon = _closure2_slot1;
-                    zuuluu = _closure2_slot4;
-                    zuuluu = zuuluu.current;
-                    zuuluu = zuuluu.preloading;
-                    michal = tangon !== zuuluu;
+                    var4 = _closure2_slot1;
+                    var3 = _closure2_slot4;
+                    var3 = var3.current;
+                    var3 = var3.preloading;
+                    var2 = var4 !== var3;
  89:
-                    if(!michal) { _fun00004_ip = 231; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 231; continue _fun0002 }
  95:
-                    michal = _closure2_slot4;
-                    michal = michal.current;
-                    tangon = _closure2_slot1;
-                    michal['preloading'] = tangon;
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = report.bind(michal)(zuuluu);
-                    michal = zuuluu.preload;
-                    tangon = michal.bind(zuuluu)(tangon);
-                    zuuluu = tangon.then;
-                    michal = function() {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                    var2 = _closure2_slot4;
+                    var2 = var2.current;
+                    var4 = _closure2_slot1;
+                    var2['preloading'] = var4;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var5.bind(var2)(var3);
+                    var2 = var3.preload;
+                    var4 = var2.bind(var3)(var4);
+                    var3 = var4.then;
+                    var2 = function() {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                            michal = _closure2_slot4;
-                            michal = michal.current;
-                            zuuluu = michal.guildId;
-                            michal = _closure2_slot0;
-                            michal = zuuluu === michal;
-                            if(!michal) { _fun00006_ip = 51; continue _fun00005 }
+                            var2 = _closure2_slot4;
+                            var2 = var2.current;
+                            var3 = var2.guildId;
+                            var2 = _closure2_slot0;
+                            var2 = var3 === var2;
+                            if(!var2) { _fun0003_ip = 51; continue _fun0003 }
  28:
-                            zuuluu = _closure2_slot4;
-                            zuuluu = zuuluu.current;
-                            tangon = zuuluu.preloading;
-                            zuuluu = _closure2_slot1;
-                            michal = tangon === zuuluu;
+                            var3 = _closure2_slot4;
+                            var3 = var3.current;
+                            var4 = var3.preloading;
+                            var3 = _closure2_slot1;
+                            var2 = var4 === var3;
  51:
-                            if(!michal) { _fun00006_ip = 101; continue _fun00005 }
+                            if(!var2) { _fun0003_ip = 101; continue _fun0003 }
  54:
-                            michal = _closure2_slot4;
-                            tangon = michal.current;
-                            zuuluu = _closure2_slot1;
-                            tangon['icon'] = zuuluu;
-                            zuuluu = michal.current;
-                            michal = _closure2_slot2;
-                            zuuluu['asset'] = michal;
-                            zuuluu = _closure2_slot3;
-                            michal = undefined;
-                            entity = {};
-                            entity = zuuluu.bind(michal)(entity);
+                            var2 = _closure2_slot4;
+                            var4 = var2.current;
+                            var3 = _closure2_slot1;
+                            var4['icon'] = var3;
+                            var3 = var2.current;
+                            var2 = _closure2_slot2;
+                            var3['asset'] = var2;
+                            var3 = _closure2_slot3;
+                            var2 = undefined;
+                            var1 = {};
+                            var1 = var3.bind(var2)(var1);
  101:
-                            entity = undefined;
-                            return entity;
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    michal = zuuluu.bind(tangon)(michal);
-                    _fun00004_ip = 231; continue _fun00003;
+                    var2 = var3.bind(var4)(var2);
+                    _fun0002_ip = 231; continue _fun0002;
  171:
-                    michal = _closure2_slot4;
-                    tangon = michal.current;
-                    zuuluu = _closure2_slot0;
-                    tangon['guildId'] = zuuluu;
-                    zuuluu = michal.current;
-                    tangon = _closure2_slot1;
-                    zuuluu['icon'] = tangon;
-                    zuuluu = michal.current;
-                    zuuluu['preloading'] = tangon;
-                    michal = michal.current;
-                    entity = _closure2_slot2;
-                    michal['asset'] = entity;
+                    var2 = _closure2_slot4;
+                    var4 = var2.current;
+                    var3 = _closure2_slot0;
+                    var4['guildId'] = var3;
+                    var3 = var2.current;
+                    var4 = _closure2_slot1;
+                    var3['icon'] = var4;
+                    var3 = var2.current;
+                    var3['preloading'] = var4;
+                    var2 = var2.current;
+                    var1 = _closure2_slot2;
+                    var2['asset'] = var1;
  231:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

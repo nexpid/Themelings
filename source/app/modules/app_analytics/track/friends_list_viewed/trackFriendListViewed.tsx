@@ -1,100 +1,100 @@
 // app/modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: trackFriendsListViewed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_analytics/track/friends_list_viewed/trackFriendListViewed.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function trackFriendsListViewed(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.tab_opened;
-            yankee = entity.source;
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 1;
-            michal = report[entity];
-            entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            golfie = michal.bind(entity)();
-            michal = 2;
-            michal = report[michal];
-            offset = tangon.bind(entity)(michal);
-            option = offset.track;
-            michal = _closure1_slot3;
-            oscard = michal.FRIENDS_LIST_VIEWED;
-            tangon = {};
-            tangon['tab_opened'] = verify;
-            tangon['source'] = yankee;
-            backup = tangon;
-            foxtra = golfie;
-            yankee = copyDataProperties(backup, foxtra);
-            tangon = option.bind(offset)(oscard, tangon);
-            tangon = _closure1_slot0;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.trackClickstream;
-            zuuluu = michal.FRIENDS_LIST_VIEWED_CLICKSTREAM;
-            michal = {};
-            option = null;
-            offset = option != verify;
-            oscard = 'tabless';
-            if(!offset) { _fun00002_ip = 145; continue _fun00001 }
+            var1 = arg1;
+            var9 = var1.tab_opened;
+            var11 = var1.source;
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 1;
+            var2 = var5[var1];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var7 = var2.bind(var1)();
+            var2 = 2;
+            var2 = var5[var2];
+            var10 = var4.bind(var1)(var2);
+            var8 = var10.track;
+            var2 = _closure1_slot3;
+            var6 = var2.FRIENDS_LIST_VIEWED;
+            var4 = {};
+            var4['tab_opened'] = var9;
+            var4['source'] = var11;
+            var14 = var4;
+            var13 = var7;
+            var11 = copyDataProperties(var14, var13);
+            var4 = var8.bind(var10)(var6, var4);
+            var4 = _closure1_slot0;
+            var3 = 3;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.trackClickstream;
+            var3 = var2.FRIENDS_LIST_VIEWED_CLICKSTREAM;
+            var2 = {};
+            var8 = null;
+            var10 = var8 != var9;
+            var6 = 'tabless';
+            if(!var10) { _fun0001_ip = 145; continue _fun0001 }
  142:
-            oscard = verify;
+            var6 = var9;
  145:
-            michal['tab_opened'] = oscard;
-            offset = golfie.num_friends;
-            yankee = option != offset;
-            verify = 0;
-            if(!yankee) { _fun00002_ip = 168; continue _fun00001 }
+            var2['tab_opened'] = var6;
+            var10 = var7.num_friends;
+            var11 = var8 != var10;
+            var9 = 0;
+            if(!var11) { _fun0001_ip = 168; continue _fun0001 }
  165:
-            verify = offset;
+            var9 = var10;
  168:
-            michal['num_friends'] = verify;
-            offset = golfie.now_playing_visible;
-            verify = option != offset;
-            if(!verify) { _fun00002_ip = 189; continue _fun00001 }
+            var2['num_friends'] = var9;
+            var10 = var7.now_playing_visible;
+            var9 = var8 != var10;
+            if(!var9) { _fun0001_ip = 189; continue _fun0001 }
  186:
-            verify = offset;
+            var9 = var10;
  189:
-            michal['now_playing_visible'] = verify;
-            golfie = golfie.now_playing_num_cards;
-            option = option != golfie;
-            oscard = 0;
-            if(!option) { _fun00002_ip = 212; continue _fun00001 }
+            var2['now_playing_visible'] = var9;
+            var7 = var7.now_playing_num_cards;
+            var8 = var8 != var7;
+            var6 = 0;
+            if(!var8) { _fun0001_ip = 212; continue _fun0001 }
  209:
-            oscard = golfie;
+            var6 = var7;
  212:
-            michal['now_playing_num_cards'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2['now_playing_num_cards'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

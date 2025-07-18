@@ -1,275 +1,275 @@
 // app/modules/rpc/transports/PostMessageProxySocket.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot9 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot9 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.TransportTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RPCCloseCodes;
-    var _closure1_slot8 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    michal = function(argFoo) {
-        tangon = function(argFoo) { // Original name: WindowProxySocket
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.TransportTypes;
+    var _closure1_slot7 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RPCCloseCodes;
+    var _closure1_slot8 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var2 = function(arg1) {
+        var4 = function WindowProxySocket(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                romeon = this;
-                offset = entity.origin;
-                verify = entity.postMessageToRPCClient;
-                option = entity.frameId;
-                michal = entity.version;
-                report = entity.encoding;
-                golfie = entity.logger;
-                oscard = entity.postClose;
-                zuuluu = entity.onSendingToRPCClient;
-                foxtra = _closure1_slot2;
-                yankee = _closure2_slot0;
-                tangon = undefined;
-                foxtra = foxtra.bind(tangon)(romeon, yankee);
-                foxtra = _closure1_slot7;
-                foxtra = foxtra.POST_MESSAGE;
-                output = new Array(3);
-                output[0] = foxtra;
-                output[1] = michal;
-                output[2] = report;
-                michal = _closure1_slot5;
-                sizing = michal.bind(tangon)(yankee);
-                yankee = _closure1_slot4;
-                michal = _closure1_slot9;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00004_ip = 138; continue _fun00003 }
+                var1 = arg1;
+                var12 = this;
+                var10 = var1.origin;
+                var9 = var1.postMessageToRPCClient;
+                var8 = var1.frameId;
+                var2 = var1.version;
+                var5 = var1.encoding;
+                var7 = var1.logger;
+                var6 = var1.postClose;
+                var3 = var1.onSendingToRPCClient;
+                var13 = _closure1_slot2;
+                var11 = _closure2_slot0;
+                var4 = undefined;
+                var13 = var13.bind(var4)(var12, var11);
+                var13 = _closure1_slot7;
+                var13 = var13.POST_MESSAGE;
+                var17 = new Array(3);
+                var17[0] = var13;
+                var17[1] = var2;
+                var17[2] = var5;
+                var2 = _closure1_slot5;
+                var16 = var2.bind(var4)(var11);
+                var11 = _closure1_slot4;
+                var2 = _closure1_slot9;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0002_ip = 138; continue _fun0002 }
  125:
-                michal = sizing.apply;
-                michal = michal.bind(sizing)(romeon, output);
-                _fun00004_ip = 172; continue _fun00003;
+                var2 = var16.apply;
+                var2 = var2.bind(var16)(var12, var17);
+                _fun0002_ip = 172; continue _fun0002;
  138:
-                foxtra = global;
-                kiloes = foxtra.Reflect;
-                backup = kiloes.construct;
-                foxtra = _closure1_slot5;
-                foxtra = foxtra.bind(tangon)(romeon);
-                foxtra = foxtra.constructor;
-                michal = backup.bind(kiloes)(sizing, output, foxtra);
+                var13 = global;
+                var15 = var13.Reflect;
+                var14 = var15.construct;
+                var13 = _closure1_slot5;
+                var13 = var13.bind(var4)(var12);
+                var13 = var13.constructor;
+                var2 = var14.bind(var15)(var16, var17, var13);
  172:
-                michal = yankee.bind(tangon)(romeon, michal);
-                romeon = ['etf', 'json'];
-                yankee = romeon.indexOf;
-                romeon = yankee.bind(romeon)(report);
-                yankee = -1;
-                if(!(yankee !== romeon)) { _fun00004_ip = 336; continue _fun00003 }
+                var2 = var11.bind(var4)(var12, var2);
+                var12 = ['etf', 'json'];
+                var11 = var12.indexOf;
+                var12 = var11.bind(var12)(var5);
+                var11 = -1;
+                if(!(var11 !== var12)) { _fun0002_ip = 336; continue _fun0002 }
  212:
-                yankee = 'etf';
-                if(!(yankee !== report)) { _fun00004_ip = 268; continue _fun00003 }
+                var11 = 'etf';
+                if(!(var11 !== var5)) { _fun0002_ip = 268; continue _fun0002 }
  222:
-                michal['origin'] = offset;
-                michal['postMessageToRPCClient'] = verify;
-                michal['frameId'] = option;
-                michal['logger'] = golfie;
-                michal['postClose'] = oscard;
-                michal['onSendingToRPCClient'] = zuuluu;
-                zuuluu = false;
-                michal['closed'] = zuuluu;
-                return michal;
+                var2['origin'] = var10;
+                var2['postMessageToRPCClient'] = var9;
+                var2['frameId'] = var8;
+                var2['logger'] = var7;
+                var2['postClose'] = var6;
+                var2['onSendingToRPCClient'] = var3;
+                var3 = false;
+                var2['closed'] = var3;
+                return var2;
  268:
-                zuuluu = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 7;
-                michal = oscard[michal];
-                golfie = zuuluu.bind(tangon)(michal);
-                oscard = {};
-                michal = _closure1_slot8;
-                michal = michal.INVALID_ENCODING;
-                oscard['closeCode'] = michal;
-                michal = golfie.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: golfie}});
-                echoed = 'Erlpack cannot be used on this client';
-                source = zuuluu;
-                update = oscard;
-                michal = new source[golfie](update, echoed, result);
-                michal = michal instanceof Object ? michal : zuuluu;
-                throw michal;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 7;
+                var2 = var6[var2];
+                var7 = var3.bind(var4)(var2);
+                var6 = {};
+                var2 = _closure1_slot8;
+                var2 = var2.INVALID_ENCODING;
+                var6['closeCode'] = var2;
+                var2 = var7.prototype;
+                var3 = Object.create(var2, {constructor: {value: var7}});
+                var19 = 'Erlpack cannot be used on this client';
+                var21 = var3;
+                var20 = var6;
+                var2 = new var21[var7](var20, var19, var18);
+                var2 = var2 instanceof Object ? var2 : var3;
+                throw var2;
  336:
-                zuuluu = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 7;
-                michal = oscard[michal];
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = {};
-                entity = _closure1_slot8;
-                entity = entity.INVALID_ENCODING;
-                zuuluu['closeCode'] = entity;
-                entity = global;
-                entity = entity.HermesInternal;
-                michal = entity.concat;
-                entity = 'Invalid Encoding: ';
-                echoed = michal.bind(entity)(report);
-                michal = tangon.prototype;
-                michal = Object.create(michal, {constructor: {value: tangon}});
-                source = michal;
-                update = zuuluu;
-                entity = new source[tangon](update, echoed, result);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 7;
+                var2 = var6[var2];
+                var4 = var3.bind(var4)(var2);
+                var3 = {};
+                var1 = _closure1_slot8;
+                var1 = var1.INVALID_ENCODING;
+                var3['closeCode'] = var1;
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var2 = var1.concat;
+                var1 = 'Invalid Encoding: ';
+                var19 = var2.bind(var1)(var5);
+                var2 = var4.prototype;
+                var2 = Object.create(var2, {constructor: {value: var4}});
+                var21 = var2;
+                var20 = var3;
+                var1 = new var21[var4](var20, var19, var18);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot6;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot3;
-        report = {};
-        entity = 'send';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot6;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot3;
+        var5 = {};
+        var1 = 'send';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = argFoo;
-                report = this;
-                tangon = report.onSendingToRPCClient;
-                entity = null;
-                if(!(entity != tangon)) { _fun00006_ip = 35; continue _fun00005 }
+                var2 = arg1;
+                var5 = this;
+                var4 = var5.onSendingToRPCClient;
+                var1 = null;
+                if(!(var1 != var4)) { _fun0003_ip = 35; continue _fun0003 }
  18:
-                zuuluu = tangon.call;
-                entity = report.id;
-                entity = zuuluu.bind(tangon)(report, michal, entity);
+                var3 = var4.call;
+                var1 = var5.id;
+                var1 = var3.bind(var4)(var5, var2, var1);
  35:
-                tangon = report.postMessageToRPCClient;
-                oscard = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 8;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                zuuluu = oscard.bind(entity)(zuuluu);
-                oscard = zuuluu.FRAME;
-                zuuluu = new Array(2);
-                zuuluu[0] = oscard;
-                zuuluu[1] = michal;
-                michal = report.origin;
-                michal = tangon.bind(report)(zuuluu, michal);
-                return entity;
+                var4 = var5.postMessageToRPCClient;
+                var6 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var6.bind(var1)(var3);
+                var6 = var3.FRAME;
+                var3 = new Array(2);
+                var3[0] = var6;
+                var3[1] = var2;
+                var2 = var5.origin;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(2);
-        entity[0] = report;
-        report = {};
-        golfie = 'close';
-        report['key'] = golfie;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'close';
+        var5['key'] = var7;
+        var6 = function value(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                michal = this;
-                entity = michal.closed;
-                if(entity) { _fun00008_ip = 53; continue _fun00007 }
+                var2 = this;
+                var1 = var2.closed;
+                if(var1) { _fun0004_ip = 53; continue _fun0004 }
  12:
-                report = michal.postClose;
-                tangon = michal.origin;
-                zuuluu = {};
-                entity = argFoo;
-                zuuluu['code'] = entity;
-                entity = argBar;
-                zuuluu['message'] = entity;
-                entity = michal.postMessageToRPCClient;
-                entity = report.bind(michal)(tangon, zuuluu, entity);
+                var5 = var2.postClose;
+                var4 = var2.origin;
+                var3 = {};
+                var1 = arg1;
+                var3['code'] = var1;
+                var1 = arg2;
+                var3['message'] = var1;
+                var1 = var2.postMessageToRPCClient;
+                var1 = var5.bind(var2)(var4, var3, var1);
  53:
-                entity = true;
-                michal['closed'] = entity;
-                entity = undefined;
-                return entity;
+                var1 = true;
+                var2['closed'] = var1;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = oscard;
-        entity[1] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[1] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rpc/transports/PostMessageProxySocket.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rpc/transports/PostMessageProxySocket.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

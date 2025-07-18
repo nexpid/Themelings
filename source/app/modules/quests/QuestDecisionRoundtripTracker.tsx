@@ -1,242 +1,242 @@
 // app/modules/quests/QuestDecisionRoundtripTracker.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: trackRoundtrip
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function trackRoundtrip(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            entity = global;
-            michal = entity.Math;
-            entity = michal.random;
-            michal = entity.bind(michal)();
-            entity = 0.1;
-            if(!(!(michal > entity))) { _fun00002_ip = 263; continue _fun00001 }
+            var8 = arg1;
+            var1 = global;
+            var2 = var1.Math;
+            var1 = var2.random;
+            var2 = var1.bind(var2)();
+            var1 = 0.1;
+            if(!(!(var2 > var1))) { _fun0001_ip = 263; continue _fun0001 }
  38:
-            entity = option.apiResponseTimestamp;
-            report = null;
-            entity = report == entity;
-            verify = null;
-            if(entity) { _fun00002_ip = 71; continue _fun00001 }
+            var1 = var8.apiResponseTimestamp;
+            var5 = null;
+            var1 = var5 == var1;
+            var9 = null;
+            if(var1) { _fun0001_ip = 71; continue _fun0001 }
  55:
-            michal = option.apiResponseTimestamp;
-            entity = option.initialSendTimestamp;
-            verify = michal - entity;
+            var2 = var8.apiResponseTimestamp;
+            var1 = var8.initialSendTimestamp;
+            var9 = var2 - var1;
  71:
-            michal = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            entity = 4;
-            entity = foxtra[entity];
-            yankee = undefined;
-            michal = michal.bind(yankee)(entity);
-            entity = michal.getSignalStrength;
-            golfie = entity.bind(michal)();
-            romeon = _closure1_slot1;
-            entity = 5;
-            entity = foxtra[entity];
-            tangon = romeon.bind(yankee)(entity);
-            zuuluu = tangon.track;
-            entity = _closure1_slot6;
-            michal = entity.QUEST_DECISION_ROUNDTRIP;
-            entity = {};
-            offset = 6;
-            offset = foxtra[offset];
-            offset = romeon.bind(yankee)(offset);
-            backup = offset.bind(yankee)();
-            kiloes = entity;
-            offset = copyDataProperties(kiloes, backup);
-            yankee = option.endpoint;
-            offset = 'endpoint';
-            entity[offset] = yankee;
-            offset = option.wasSuccessful;
-            option = 'was_successful';
-            entity[option] = offset;
-            option = 'api_latency_ms';
-            entity[option] = verify;
-            option = _closure1_slot5;
-            oscard = option.getType;
-            option = oscard.bind(option)();
-            oscard = 'mobile_network_type';
-            entity[oscard] = option;
-            report = report != golfie;
-            if(!report) { _fun00002_ip = 247; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var1 = 4;
+            var1 = var13[var1];
+            var11 = undefined;
+            var2 = var2.bind(var11)(var1);
+            var1 = var2.getSignalStrength;
+            var7 = var1.bind(var2)();
+            var12 = _closure1_slot1;
+            var1 = 5;
+            var1 = var13[var1];
+            var4 = var12.bind(var11)(var1);
+            var3 = var4.track;
+            var1 = _closure1_slot6;
+            var2 = var1.QUEST_DECISION_ROUNDTRIP;
+            var1 = {};
+            var10 = 6;
+            var10 = var13[var10];
+            var10 = var12.bind(var11)(var10);
+            var14 = var10.bind(var11)();
+            var15 = var1;
+            var10 = copyDataProperties(var15, var14);
+            var11 = var8.endpoint;
+            var10 = 'endpoint';
+            var1[var10] = var11;
+            var10 = var8.wasSuccessful;
+            var8 = 'was_successful';
+            var1[var8] = var10;
+            var8 = 'api_latency_ms';
+            var1[var8] = var9;
+            var8 = _closure1_slot5;
+            var6 = var8.getType;
+            var8 = var6.bind(var8)();
+            var6 = 'mobile_network_type';
+            var1[var6] = var8;
+            var5 = var5 != var7;
+            if(!var5) { _fun0001_ip = 247; continue _fun0001 }
  237:
-            oscard = {};
-            oscard['mobile_signal_strength_level'] = golfie;
-            report = oscard;
+            var6 = {};
+            var6['mobile_signal_strength_level'] = var7;
+            var5 = var6;
  247:
-            kiloes = entity;
-            backup = report;
-            report = copyDataProperties(kiloes, backup);
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var15 = var1;
+            var14 = var5;
+            var5 = copyDataProperties(var15, var14);
+            var1 = var3.bind(var4)(var2, var1);
  263:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot6 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: QuestDecisionRoundtripTracker
-            zuuluu = this;
-            tangon = _closure1_slot3;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = global;
-            michal = michal.Map;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            michal = new golfie[michal](oscard);
-            michal = michal instanceof Object ? michal : tangon;
-            zuuluu['pendingRequests'] = michal;
-            return entity;
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot6 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function QuestDecisionRoundtripTracker() {
+            var3 = this;
+            var4 = _closure1_slot3;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = global;
+            var2 = var2.Map;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var2 = new var7[var2](var6);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var3['pendingRequests'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'recordQuestRequestAttempt';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            oscard = argFoo;
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            var _closure3_slot1 = oscard;
-            report = {};
-            entity = global;
-            golfie = entity.Date;
-            tangon = golfie.now;
-            tangon = tangon.bind(golfie)();
-            report['initialSendTimestamp'] = tangon;
-            report['endpoint'] = oscard;
-            tangon = null;
-            report['apiResponseTimestamp'] = tangon;
-            tangon = false;
-            report['wasSuccessful'] = tangon;
-            tangon = zuuluu.pendingRequests;
-            zuuluu = tangon.set;
-            zuuluu = zuuluu.bind(tangon)(oscard, report);
-            tangon = entity.setTimeout;
-            entity = undefined;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'recordQuestRequestAttempt';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            var6 = arg1;
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var _closure3_slot1 = var6;
+            var5 = {};
+            var1 = global;
+            var7 = var1.Date;
+            var4 = var7.now;
+            var4 = var4.bind(var7)();
+            var5['initialSendTimestamp'] = var4;
+            var5['endpoint'] = var6;
+            var4 = null;
+            var5['apiResponseTimestamp'] = var4;
+            var4 = false;
+            var5['wasSuccessful'] = var4;
+            var4 = var3.pendingRequests;
+            var3 = var4.set;
+            var3 = var3.bind(var4)(var6, var5);
+            var4 = var1.setTimeout;
+            var1 = undefined;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure3_slot0;
-                    tangon = michal.pendingRequests;
-                    zuuluu = tangon.get;
-                    michal = _closure3_slot1;
-                    tangon = zuuluu.bind(tangon)(michal);
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00004_ip = 71; continue _fun00003 }
+                    var2 = _closure3_slot0;
+                    var4 = var2.pendingRequests;
+                    var3 = var4.get;
+                    var2 = _closure3_slot1;
+                    var4 = var3.bind(var4)(var2);
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0002_ip = 71; continue _fun0002 }
  33:
-                    zuuluu = _closure1_slot7;
-                    michal = undefined;
-                    michal = zuuluu.bind(michal)(tangon);
-                    michal = _closure3_slot0;
-                    zuuluu = michal.pendingRequests;
-                    michal = zuuluu.delete;
-                    entity = _closure3_slot1;
-                    entity = michal.bind(zuuluu)(entity);
+                    var3 = _closure1_slot7;
+                    var2 = undefined;
+                    var2 = var3.bind(var2)(var4);
+                    var2 = _closure3_slot0;
+                    var3 = var2.pendingRequests;
+                    var2 = var3.delete;
+                    var1 = _closure3_slot1;
+                    var1 = var2.bind(var3)(var1);
  71:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = 30000;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var2 = 30000;
+            var2 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(2);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'recordQuestRequestApiResponse';
-        entity['key'] = oscard;
-        report = function(argFoo, argBar) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var2;
+        var2 = new Array(2);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'recordQuestRequestApiResponse';
+        var1['key'] = var6;
+        var5 = function value(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = argFoo;
-                entity = this;
-                michal = argBar;
-                oscard = michal.wasSuccessful;
-                tangon = entity.pendingRequests;
-                michal = tangon.get;
-                michal = michal.bind(tangon)(zuuluu);
-                tangon = null;
-                if(!(tangon != michal)) { _fun00006_ip = 114; continue _fun00005 }
+                var3 = arg1;
+                var1 = this;
+                var2 = arg2;
+                var6 = var2.wasSuccessful;
+                var4 = var1.pendingRequests;
+                var2 = var4.get;
+                var2 = var2.bind(var4)(var3);
+                var4 = null;
+                if(!(var4 != var2)) { _fun0003_ip = 114; continue _fun0003 }
  37:
-                report = _closure1_slot7;
-                tangon = {};
-                verify = tangon;
-                option = michal;
-                michal = copyDataProperties(verify, option);
-                michal = global;
-                golfie = michal.Date;
-                michal = golfie.now;
-                golfie = michal.bind(golfie)();
-                michal = 'apiResponseTimestamp';
-                tangon[michal] = golfie;
-                michal = 'wasSuccessful';
-                tangon[michal] = oscard;
-                michal = undefined;
-                michal = report.bind(michal)(tangon);
-                michal = entity.pendingRequests;
-                entity = michal.delete;
-                entity = entity.bind(michal)(zuuluu);
+                var5 = _closure1_slot7;
+                var4 = {};
+                var9 = var4;
+                var8 = var2;
+                var2 = copyDataProperties(var9, var8);
+                var2 = global;
+                var7 = var2.Date;
+                var2 = var7.now;
+                var7 = var2.bind(var7)();
+                var2 = 'apiResponseTimestamp';
+                var4[var2] = var7;
+                var2 = 'wasSuccessful';
+                var4[var2] = var6;
+                var2 = undefined;
+                var2 = var5.bind(var2)(var4);
+                var2 = var1.pendingRequests;
+                var1 = var2.delete;
+                var1 = var1.bind(var2)(var3);
  114:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[1] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[1] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/QuestDecisionRoundtripTracker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/QuestDecisionRoundtripTracker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,271 +1,271 @@
 // app/utils/LibraryApplicationUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo) { // Original name: convertToTransitionState
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function convertToTransitionState(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = null;
-            tangon = michal == zuuluu;
-            entity = null;
-            if(tangon) { _fun00002_ip = 82; continue _fun00001 }
+            var3 = arg1;
+            var2 = null;
+            var4 = var2 == var3;
+            var1 = null;
+            if(var4) { _fun0001_ip = 82; continue _fun0001 }
  14:
-            oscard = zuuluu.type;
-            report = _closure1_slot6;
-            report = report.INSTALLING;
-            if(!(oscard !== report)) { _fun00002_ip = 76; continue _fun00001 }
+            var6 = var3.type;
+            var5 = _closure1_slot6;
+            var5 = var5.INSTALLING;
+            if(!(var6 !== var5)) { _fun0001_ip = 76; continue _fun0001 }
  36:
-            oscard = zuuluu.type;
-            report = _closure1_slot6;
-            report = report.UPDATING;
-            if(!(oscard !== report)) { _fun00002_ip = 76; continue _fun00001 }
+            var6 = var3.type;
+            var5 = _closure1_slot6;
+            var5 = var5.UPDATING;
+            if(!(var6 !== var5)) { _fun0001_ip = 76; continue _fun0001 }
  55:
-            report = zuuluu.type;
-            tangon = _closure1_slot6;
-            tangon = tangon.UNINSTALLING;
-            michal = null;
-            if(!(report === tangon)) { _fun00002_ip = 79; continue _fun00001 }
+            var5 = var3.type;
+            var4 = _closure1_slot6;
+            var4 = var4.UNINSTALLING;
+            var2 = null;
+            if(!(var5 === var4)) { _fun0001_ip = 79; continue _fun0001 }
  76:
-            michal = zuuluu;
+            var2 = var3;
  79:
-            entity = michal;
+            var1 = var2;
  82:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.LibraryApplicationFlags;
-    var _closure1_slot5 = option;
-    option = report.LocalDispatchApplicationStates;
-    var _closure1_slot6 = option;
-    report = report.StatusTypes;
-    var _closure1_slot7 = report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/LibraryApplicationUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar) { // Original name: getComboId
-        entity = global;
-        entity = entity.HermesInternal;
-        report = entity.concat;
-        tangon = '';
-        zuuluu = argFoo;
-        michal = ':';
-        entity = argBar;
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        return entity;
+    var _closure1_slot8 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.LibraryApplicationFlags;
+    var _closure1_slot5 = var8;
+    var8 = var5.LocalDispatchApplicationStates;
+    var _closure1_slot6 = var8;
+    var5 = var5.StatusTypes;
+    var _closure1_slot7 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/LibraryApplicationUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getComboId(arg1, arg2) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var5 = var1.concat;
+        var4 = '';
+        var3 = arg1;
+        var2 = ':';
+        var1 = arg2;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
     };
-    zuuluu['getComboId'] = report;
-    report = function(argFoo) { // Original name: convertComboId
-        zuuluu = argFoo;
-        michal = zuuluu.split;
-        entity = ':';
-        tangon = michal.bind(zuuluu)(entity);
-        zuuluu = _closure1_slot2;
-        michal = undefined;
-        entity = 2;
-        zuuluu = zuuluu.bind(michal)(tangon, entity);
-        entity = {};
-        michal = 0;
-        michal = zuuluu[michal];
-        entity['applicationId'] = michal;
-        michal = 1;
-        michal = zuuluu[michal];
-        entity['branchId'] = michal;
-        return entity;
+    var3['getComboId'] = var5;
+    var5 = function convertComboId(arg1) {
+        var3 = arg1;
+        var2 = var3.split;
+        var1 = ':';
+        var4 = var2.bind(var3)(var1);
+        var3 = _closure1_slot2;
+        var2 = undefined;
+        var1 = 2;
+        var3 = var3.bind(var2)(var4, var1);
+        var1 = {};
+        var2 = 0;
+        var2 = var3[var2];
+        var1['applicationId'] = var2;
+        var2 = 1;
+        var2 = var3[var2];
+        var1['branchId'] = var2;
+        return var1;
     };
-    zuuluu['convertComboId'] = report;
-    report = function(argFoo, argBar) { // Original name: shouldShareApplicationActivity
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['convertComboId'] = var5;
+    var5 = function shouldShareApplicationActivity(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argBar;
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 4;
-            entity = entity[oscard];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            zuuluu = entity.ShowCurrentGame;
-            entity = zuuluu.getSetting;
-            entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00004_ip = 143; continue _fun00003 }
+            var4 = arg2;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 4;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.ShowCurrentGame;
+            var1 = var3.getSetting;
+            var1 = var1.bind(var3)();
+            if(!var1) { _fun0002_ip = 143; continue _fun0002 }
  47:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            entity = zuuluu.bind(report)(entity);
-            zuuluu = entity.StatusSetting;
-            entity = zuuluu.getSetting;
-            zuuluu = entity.bind(zuuluu)();
-            entity = _closure1_slot7;
-            entity = entity.INVISIBLE;
-            if(!(zuuluu !== entity)) { _fun00004_ip = 143; continue _fun00003 }
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var6];
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.StatusSetting;
+            var1 = var3.getSetting;
+            var3 = var1.bind(var3)();
+            var1 = _closure1_slot7;
+            var1 = var1.INVISIBLE;
+            if(!(var3 !== var1)) { _fun0002_ip = 143; continue _fun0002 }
  94:
-            zuuluu = tangon.getActiveLibraryApplication;
-            entity = argFoo;
-            tangon = zuuluu.bind(tangon)(entity);
-            entity = null;
-            entity = entity == tangon;
-            if(entity) { _fun00004_ip = 141; continue _fun00003 }
+            var3 = var4.getActiveLibraryApplication;
+            var1 = arg1;
+            var4 = var3.bind(var4)(var1);
+            var1 = null;
+            var1 = var1 == var4;
+            if(var1) { _fun0002_ip = 141; continue _fun0002 }
  117:
-            zuuluu = tangon.hasFlag;
-            michal = _closure1_slot5;
-            michal = michal.PRIVATE;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
+            var3 = var4.hasFlag;
+            var2 = _closure1_slot5;
+            var2 = var2.PRIVATE;
+            var2 = var3.bind(var4)(var2);
+            var1 = !var2;
  141:
-            return entity;
+            return var1;
  143:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['shouldShareApplicationActivity'] = report;
-    report = function(argFoo, argBar) { // Original name: calculateProgressPercentage
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['shouldShareApplicationActivity'] = var5;
+    var5 = function calculateProgressPercentage(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argBar;
-            zuuluu = 100;
-            michal = 0;
-            entity = zuuluu;
-            if(!(michal !== tangon)) { _fun00006_ip = 26; continue _fun00005 }
+            var4 = arg2;
+            var3 = 100;
+            var2 = 0;
+            var1 = var3;
+            if(!(var2 !== var4)) { _fun0003_ip = 26; continue _fun0003 }
  15:
-            michal = argFoo;
-            michal = michal / tangon;
-            entity = michal * zuuluu;
+            var2 = arg1;
+            var2 = var2 / var4;
+            var1 = var2 * var3;
  26:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['calculateProgressPercentage'] = report;
-    report = function(argFoo, argBar, argBaz) { // Original name: shouldShowGameInLibrary
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['calculateProgressPercentage'] = var5;
+    var5 = function shouldShowGameInLibrary(arg1, arg2, arg3) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argBar;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00008_ip = 72; continue _fun00007 }
+            var4 = arg2;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0004_ip = 72; continue _fun0004 }
  12:
-            michal = argBaz;
-            michal = michal.enabled;
-            michal = !michal;
-            if(michal) { _fun00008_ip = 53; continue _fun00007 }
+            var2 = arg3;
+            var2 = var2.enabled;
+            var2 = !var2;
+            if(var2) { _fun0004_ip = 53; continue _fun0004 }
  26:
-            report = tangon.hasFlag;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.PRIVATE;
-            zuuluu = report.bind(tangon)(zuuluu);
-            michal = !zuuluu;
+            var5 = var4.hasFlag;
+            var3 = _closure1_slot5;
+            var3 = var3.PRIVATE;
+            var3 = var5.bind(var4)(var3);
+            var2 = !var3;
  53:
-            if(!michal) { _fun00008_ip = 69; continue _fun00007 }
+            if(!var2) { _fun0004_ip = 69; continue _fun0004 }
  56:
-            zuuluu = tangon.isHidden;
-            zuuluu = zuuluu.bind(tangon)();
-            michal = !zuuluu;
+            var3 = var4.isHidden;
+            var3 = var3.bind(var4)();
+            var2 = !var3;
  69:
-            entity = michal;
+            var1 = var2;
  72:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['shouldShowGameInLibrary'] = report;
-    zuuluu['convertToTransitionState'] = tangon;
-    tangon = function(argFoo) { // Original name: getCombinedProgress
-        tangon = argFoo;
-        zuuluu = tangon.reduce;
-        michal = function(argFoo, argBar) {
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['shouldShowGameInLibrary'] = var5;
+    var3['convertToTransitionState'] = var4;
+    var4 = function getCombinedProgress(arg1) {
+        var4 = arg1;
+        var3 = var4.reduce;
+        var2 = function(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = argFoo;
-                report = argBar;
-                entity = _closure1_slot8;
-                oscard = undefined;
-                zuuluu = entity.bind(oscard)(report);
-                golfie = null;
-                entity = tangon;
-                if(!(golfie != zuuluu)) { _fun00010_ip = 122; continue _fun00009 }
+                var4 = arg1;
+                var5 = arg2;
+                var1 = _closure1_slot8;
+                var6 = undefined;
+                var3 = var1.bind(var6)(var5);
+                var7 = null;
+                var1 = var4;
+                if(!(var7 != var3)) { _fun0005_ip = 122; continue _fun0005 }
  29:
-                report = report.type;
-                michal = _closure1_slot6;
-                michal = michal.UP_TO_DATE;
-                entity = tangon;
-                if(!(report !== michal)) { _fun00010_ip = 122; continue _fun00009 }
+                var5 = var5.type;
+                var2 = _closure1_slot6;
+                var2 = var2.UP_TO_DATE;
+                var1 = var4;
+                if(!(var5 !== var2)) { _fun0005_ip = 122; continue _fun0005 }
  51:
-                michal = {};
-                option = tangon.total;
-                report = global;
-                verify = report.Number;
-                golfie = zuuluu.total;
-                golfie = verify.bind(oscard)(golfie);
-                golfie = option + golfie;
-                michal['total'] = golfie;
-                tangon = tangon.progress;
-                report = report.Number;
-                zuuluu = zuuluu.progress;
-                zuuluu = report.bind(oscard)(zuuluu);
-                zuuluu = tangon + zuuluu;
-                michal['progress'] = zuuluu;
-                entity = michal;
+                var2 = {};
+                var8 = var4.total;
+                var5 = global;
+                var9 = var5.Number;
+                var7 = var3.total;
+                var7 = var9.bind(var6)(var7);
+                var7 = var8 + var7;
+                var2['total'] = var7;
+                var4 = var4.progress;
+                var5 = var5.Number;
+                var3 = var3.progress;
+                var3 = var5.bind(var6)(var3);
+                var3 = var4 + var3;
+                var2['progress'] = var3;
+                var1 = var2;
  122:
-                return entity;
+                return var1;
             }
         };
-        entity = {'total': 0, 'progress': 0};
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = {'total': 0, 'progress': 0};
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['getCombinedProgress'] = tangon;
-    michal = function(argFoo) { // Original name: isUserEntitledToLibraryApplication
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['getCombinedProgress'] = var4;
+    var2 = function isUserEntitledToLibraryApplication(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            report = argFoo;
-            entity = report.isDiscordApplication;
-            entity = entity.bind(report)();
-            michal = !entity;
-            entity = !michal;
-            if(michal) { _fun00012_ip = 56; continue _fun00011 }
+            var5 = arg1;
+            var1 = var5.isDiscordApplication;
+            var1 = var1.bind(var5)();
+            var2 = !var1;
+            var1 = !var2;
+            if(var2) { _fun0006_ip = 56; continue _fun0006 }
  22:
-            tangon = report.isEntitled;
-            oscard = _closure1_slot3;
-            zuuluu = oscard.getCurrentUser;
-            zuuluu = zuuluu.bind(oscard)();
-            michal = _closure1_slot4;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = var5.isEntitled;
+            var6 = _closure1_slot3;
+            var3 = var6.getCurrentUser;
+            var3 = var3.bind(var6)();
+            var2 = _closure1_slot4;
+            var1 = var4.bind(var5)(var3, var2);
  56:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isUserEntitledToLibraryApplication'] = michal;
-    return entity;
+    var3['isUserEntitledToLibraryApplication'] = var2;
+    return var1;
 })();

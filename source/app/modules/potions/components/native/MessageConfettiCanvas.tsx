@@ -1,248 +1,248 @@
 // app/modules/potions/components/native/MessageConfettiCanvas.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.View;
-    var _closure1_slot5 = option;
-    option = tangon.StyleSheet;
-    var _closure1_slot6 = option;
-    tangon = tangon.TurboModuleRegistry;
-    var _closure1_slot7 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot9 = tangon;
-    tangon = function() { // Original name: MessageConfettiCanvas
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.View;
+    var _closure1_slot5 = var8;
+    var8 = var4.StyleSheet;
+    var _closure1_slot6 = var8;
+    var4 = var4.TurboModuleRegistry;
+    var _closure1_slot7 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
+    var4 = function MessageConfettiCanvas() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 5;
-            entity = tangon[entity];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            entity = entity.bind(report)();
-            verify = {};
-            michal = entity.width;
-            verify['w'] = michal;
-            entity = entity.height;
-            verify['h'] = entity;
-            entity = 6;
-            entity = tangon[entity];
-            entity = zuuluu.bind(report)(entity);
-            offset = entity.bind(report)(verify);
-            var _closure2_slot0 = offset;
-            golfie = _closure1_slot4;
-            michal = golfie.useState;
-            entity = false;
-            yankee = michal.bind(golfie)(entity);
-            michal = _closure1_slot3;
-            entity = 2;
-            yankee = michal.bind(report)(yankee, entity);
-            entity = 0;
-            michal = yankee[entity];
-            var _closure2_slot1 = michal;
-            entity = 1;
-            entity = yankee[entity];
-            var _closure2_slot2 = entity;
-            entity = 7;
-            entity = tangon[entity];
-            entity = zuuluu.bind(report)(entity);
-            entity = entity.bind(report)();
-            tangon = golfie.useEffect;
-            entity = offset.playing;
-            zuuluu = new Array(2);
-            zuuluu[0] = entity;
-            zuuluu[1] = michal;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var9 = {};
+            var2 = var1.width;
+            var9['w'] = var2;
+            var1 = var1.height;
+            var9['h'] = var1;
+            var1 = 6;
+            var1 = var4[var1];
+            var1 = var3.bind(var5)(var1);
+            var10 = var1.bind(var5)(var9);
+            var _closure2_slot0 = var10;
+            var7 = _closure1_slot4;
+            var2 = var7.useState;
+            var1 = false;
+            var11 = var2.bind(var7)(var1);
+            var2 = _closure1_slot3;
+            var1 = 2;
+            var11 = var2.bind(var5)(var11, var1);
+            var1 = 0;
+            var2 = var11[var1];
+            var _closure2_slot1 = var2;
+            var1 = 1;
+            var1 = var11[var1];
+            var _closure2_slot2 = var1;
+            var1 = 7;
+            var1 = var4[var1];
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var4 = var7.useEffect;
+            var1 = var10.playing;
+            var3 = new Array(2);
+            var3[0] = var1;
+            var3[1] = var2;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot0;
-                    michal = michal.playing;
-                    if(!michal) { _fun00004_ip = 23; continue _fun00003 }
+                    var2 = _closure2_slot0;
+                    var2 = var2.playing;
+                    if(!var2) { _fun0002_ip = 23; continue _fun0002 }
  16:
-                    zuuluu = _closure2_slot1;
-                    michal = !zuuluu;
+                    var3 = _closure2_slot1;
+                    var2 = !var3;
  23:
-                    if(!michal) { _fun00004_ip = 39; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 39; continue _fun0002 }
  26:
-                    zuuluu = _closure2_slot2;
-                    michal = undefined;
-                    entity = true;
-                    entity = zuuluu.bind(michal)(entity);
+                    var3 = _closure2_slot2;
+                    var2 = undefined;
+                    var1 = true;
+                    var1 = var3.bind(var2)(var1);
  39:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = tangon.bind(golfie)(entity, zuuluu);
-            tangon = golfie.useMemo;
-            zuuluu = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = var4.bind(var7)(var1, var3);
+            var4 = var7.useMemo;
+            var3 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 8;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.isAndroid;
-                    michal = entity.bind(michal)();
-                    entity = 16.666666666666668;
-                    if(!michal) { _fun00006_ip = 57; continue _fun00005 }
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 8;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.isAndroid;
+                    var2 = var1.bind(var2)();
+                    var1 = 16.666666666666668;
+                    if(!var2) { _fun0003_ip = 57; continue _fun0003 }
  47:
-                    entity = 33.333333333333336;
+                    var1 = 33.333333333333336;
  57:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = new Array(0);
-            yankee = tangon.bind(golfie)(zuuluu, entity);
-            entity = null;
-            if(!michal) { _fun00002_ip = 374; continue _fun00001 }
+            var1 = new Array(0);
+            var11 = var4.bind(var7)(var3, var1);
+            var1 = null;
+            if(!var2) { _fun0001_ip = 374; continue _fun0001 }
  204:
-            tangon = _closure1_slot9;
-            zuuluu = _closure1_slot5;
-            michal = {};
-            golfie = {};
-            romeon = _closure1_slot6;
-            backup = romeon.absoluteFillObject;
-            kiloes = golfie;
-            romeon = copyDataProperties(kiloes, backup);
-            foxtra = 'none';
-            romeon = 'pointerEvents';
-            golfie[romeon] = foxtra;
-            michal['style'] = golfie;
-            golfie = _closure1_slot0;
-            romeon = _closure1_slot2;
-            oscard = 9;
-            oscard = romeon[oscard];
-            oscard = golfie.bind(report)(oscard);
-            golfie = oscard.AnimatedDiscordCanvasComponent;
-            oscard = {};
-            romeon = offset.playing;
-            oscard['playing'] = romeon;
-            oscard['size'] = verify;
-            verify = {};
-            romeon = offset.tickRate;
-            verify['minInterval'] = romeon;
-            verify['allowableMinInterval'] = yankee;
-            yankee = 10;
-            verify['droppedFramesCallbackThreshold'] = yankee;
-            yankee = 2000;
-            verify['droppedFramesResetTime'] = yankee;
-            offset = offset.improvePerformance;
-            verify['droppedFramesCallback'] = offset;
-            oscard['useClockOptions'] = verify;
-            option = function(argFoo, argBar) { // Original name: drawCallback
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.update;
-                entity = argBar;
-                entity = michal.bind(zuuluu)(entity);
-                michal = zuuluu.draw;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var7 = {};
+            var12 = _closure1_slot6;
+            var14 = var12.absoluteFillObject;
+            var15 = var7;
+            var12 = copyDataProperties(var15, var14);
+            var13 = 'none';
+            var12 = 'pointerEvents';
+            var7[var12] = var13;
+            var2['style'] = var7;
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var6 = 9;
+            var6 = var12[var6];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.AnimatedDiscordCanvasComponent;
+            var6 = {};
+            var12 = var10.playing;
+            var6['playing'] = var12;
+            var6['size'] = var9;
+            var9 = {};
+            var12 = var10.tickRate;
+            var9['minInterval'] = var12;
+            var9['allowableMinInterval'] = var11;
+            var11 = 10;
+            var9['droppedFramesCallbackThreshold'] = var11;
+            var11 = 2000;
+            var9['droppedFramesResetTime'] = var11;
+            var10 = var10.improvePerformance;
+            var9['droppedFramesCallback'] = var10;
+            var6['useClockOptions'] = var9;
+            var8 = function drawCallback(arg1, arg2) {
+                var3 = _closure2_slot0;
+                var2 = var3.update;
+                var1 = arg2;
+                var1 = var2.bind(var3)(var1);
+                var2 = var3.draw;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            oscard['drawCallback'] = option;
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var6['drawCallback'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  374:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/potions/components/native/MessageConfettiCanvas.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: _default
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot10 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/potions/components/native/MessageConfettiCanvas.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 10;
-            entity = report[entity];
-            oscard = undefined;
-            golfie = michal.bind(oscard)(entity);
-            tangon = golfie.useShouldMountConfettiCanvas;
-            entity = 'ConfettiCanvasComponent';
-            tangon = tangon.bind(golfie)(entity);
-            entity = 11;
-            entity = report[entity];
-            golfie = michal.bind(oscard)(entity);
-            report = golfie.useStateFromStores;
-            entity = _closure1_slot8;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                entity = _closure1_slot8;
-                michal = entity.lastConfetti;
-                entity = null;
-                entity = entity != michal;
-                return entity;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 10;
+            var1 = var5[var1];
+            var6 = undefined;
+            var7 = var2.bind(var6)(var1);
+            var4 = var7.useShouldMountConfettiCanvas;
+            var1 = 'ConfettiCanvasComponent';
+            var4 = var4.bind(var7)(var1);
+            var1 = 11;
+            var1 = var5[var1];
+            var7 = var2.bind(var6)(var1);
+            var5 = var7.useStateFromStores;
+            var1 = _closure1_slot8;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var1 = _closure1_slot8;
+                var2 = var1.lastConfetti;
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
             };
-            report = report.bind(golfie)(michal, entity);
-            michal = null;
-            entity = null;
-            if(!report) { _fun00008_ip = 146; continue _fun00007 }
+            var5 = var5.bind(var7)(var2, var1);
+            var2 = null;
+            var1 = null;
+            if(!var5) { _fun0004_ip = 146; continue _fun0004 }
  93:
-            entity = null;
-            if(!tangon) { _fun00008_ip = 146; continue _fun00007 }
+            var1 = null;
+            if(!var4) { _fun0004_ip = 146; continue _fun0004 }
  98:
-            golfie = _closure1_slot7;
-            report = golfie.get;
-            tangon = 'RNSkiaModule';
-            tangon = report.bind(golfie)(tangon);
-            tangon = michal == tangon;
-            michal = null;
-            if(tangon) { _fun00008_ip = 143; continue _fun00007 }
+            var7 = _closure1_slot7;
+            var5 = var7.get;
+            var4 = 'RNSkiaModule';
+            var4 = var5.bind(var7)(var4);
+            var4 = var2 == var4;
+            var2 = null;
+            if(var4) { _fun0004_ip = 143; continue _fun0004 }
  127:
-            report = _closure1_slot9;
-            tangon = _closure1_slot10;
-            zuuluu = {};
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var5 = _closure1_slot9;
+            var4 = _closure1_slot10;
+            var3 = {};
+            var2 = var5.bind(var6)(var4, var3);
  143:
-            entity = michal;
+            var1 = var2;
  146:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

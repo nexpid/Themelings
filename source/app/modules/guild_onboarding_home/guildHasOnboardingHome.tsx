@@ -1,81 +1,81 @@
 // app/modules/guild_onboarding_home/guildHasOnboardingHome.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.GuildFeatures;
-    var _closure1_slot0 = golfie;
-    golfie = tangon.FAVORITES;
-    var _closure1_slot1 = golfie;
-    tangon = tangon.ME;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_onboarding_home/guildHasOnboardingHome.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: guildHasOnboardingHome
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GuildFeatures;
+    var _closure1_slot0 = var7;
+    var7 = var4.FAVORITES;
+    var _closure1_slot1 = var7;
+    var4 = var4.ME;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_onboarding_home/guildHasOnboardingHome.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function guildHasOnboardingHome(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity == michal;
-            if(entity) { _fun00002_ip = 28; continue _fun00001 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 == var2;
+            if(var1) { _fun0001_ip = 28; continue _fun0001 }
  12:
-            tangon = michal.id;
-            zuuluu = _closure1_slot2;
-            entity = tangon === zuuluu;
+            var4 = var2.id;
+            var3 = _closure1_slot2;
+            var1 = var4 === var3;
  28:
-            if(entity) { _fun00002_ip = 47; continue _fun00001 }
+            if(var1) { _fun0001_ip = 47; continue _fun0001 }
  31:
-            tangon = michal.id;
-            zuuluu = _closure1_slot1;
-            entity = tangon === zuuluu;
+            var4 = var2.id;
+            var3 = _closure1_slot1;
+            var1 = var4 === var3;
  47:
-            if(entity) { _fun00002_ip = 82; continue _fun00001 }
+            if(var1) { _fun0001_ip = 82; continue _fun0001 }
  50:
-            report = michal.features;
-            tangon = report.has;
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu.COMMUNITY;
-            zuuluu = tangon.bind(report)(zuuluu);
-            entity = !zuuluu;
+            var5 = var2.features;
+            var4 = var5.has;
+            var3 = _closure1_slot0;
+            var3 = var3.COMMUNITY;
+            var3 = var4.bind(var5)(var3);
+            var1 = !var3;
  82:
-            if(entity) { _fun00002_ip = 117; continue _fun00001 }
+            if(var1) { _fun0001_ip = 117; continue _fun0001 }
  85:
-            report = michal.features;
-            tangon = report.has;
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu.GUILD_SERVER_GUIDE;
-            zuuluu = tangon.bind(report)(zuuluu);
-            entity = !zuuluu;
+            var5 = var2.features;
+            var4 = var5.has;
+            var3 = _closure1_slot0;
+            var3 = var3.GUILD_SERVER_GUIDE;
+            var3 = var4.bind(var5)(var3);
+            var1 = !var3;
  117:
-            if(entity) { _fun00002_ip = 152; continue _fun00001 }
+            if(var1) { _fun0001_ip = 152; continue _fun0001 }
  120:
-            tangon = michal.features;
-            zuuluu = tangon.has;
-            michal = _closure1_slot0;
-            michal = michal.GUILD_ONBOARDING;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
+            var4 = var2.features;
+            var3 = var4.has;
+            var2 = _closure1_slot0;
+            var2 = var2.GUILD_ONBOARDING;
+            var2 = var3.bind(var4)(var2);
+            var1 = !var2;
  152:
-            entity = !entity;
-            return entity;
+            var1 = !var1;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,167 +1,167 @@
 // app/modules/threads/MessageCountUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = option;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    report = tangon.MAX_THREAD_MESSAGE_COUNT;
-    var _closure1_slot3 = report;
-    tangon = tangon.MAX_THREAD_MESSAGE_COUNT_OLD;
-    var _closure1_slot4 = tangon;
-    report = function(argFoo) { // Original name: shouldUseOldMaxMessageCount
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.compare;
-        michal = '992549565104128000';
-        entity = argFoo;
-        michal = zuuluu.bind(tangon)(michal, entity);
-        entity = -1;
-        entity = michal > entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var5 = var4.MAX_THREAD_MESSAGE_COUNT;
+    var _closure1_slot3 = var5;
+    var4 = var4.MAX_THREAD_MESSAGE_COUNT_OLD;
+    var _closure1_slot4 = var4;
+    var5 = function shouldUseOldMaxMessageCount(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.compare;
+        var2 = '992549565104128000';
+        var1 = arg1;
+        var2 = var3.bind(var4)(var2, var1);
+        var1 = -1;
+        var1 = var2 > var1;
+        return var1;
     };
-    var _closure1_slot5 = report;
-    tangon = function(argFoo, argBar) { // Original name: getMessageCountText
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot5 = var5;
+    var4 = function getMessageCountText(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            zuuluu = null;
-            if(!(zuuluu != report)) { _fun00002_ip = 100; continue _fun00001 }
+            var5 = arg1;
+            var4 = arg2;
+            var3 = null;
+            if(!(var3 != var5)) { _fun0001_ip = 100; continue _fun0001 }
  12:
-            entity = 0;
-            if(!(!(report < entity))) { _fun00002_ip = 100; continue _fun00001 }
+            var1 = 0;
+            if(!(!(var5 < var1))) { _fun0001_ip = 100; continue _fun0001 }
  18:
-            oscard = _closure1_slot5;
-            entity = undefined;
-            entity = oscard.bind(entity)(tangon);
-            if(!(zuuluu != tangon)) { _fun00002_ip = 39; continue _fun00001 }
+            var6 = _closure1_slot5;
+            var1 = undefined;
+            var1 = var6.bind(var1)(var4);
+            if(!(var3 != var4)) { _fun0001_ip = 39; continue _fun0001 }
  36:
-            if(!entity) { _fun00002_ip = 56; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 56; continue _fun0001 }
  39:
-            entity = _closure1_slot4;
-            zuuluu = report >= entity;
-            entity = '50+';
-            if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var3 = var5 >= var1;
+            var1 = '50+';
+            if(var3) { _fun0001_ip = 98; continue _fun0001 }
  56:
-            michal = _closure1_slot3;
-            zuuluu = report >= michal;
-            michal = '100k+';
-            if(zuuluu) { _fun00002_ip = 95; continue _fun00001 }
+            var2 = _closure1_slot3;
+            var3 = var5 >= var2;
+            var2 = '100k+';
+            if(var3) { _fun0001_ip = 95; continue _fun0001 }
  73:
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            tangon = zuuluu.concat;
-            zuuluu = '';
-            michal = tangon.bind(zuuluu)(report);
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = '';
+            var2 = var4.bind(var3)(var5);
  95:
-            entity = michal;
+            var1 = var2;
  98:
-            return entity;
+            return var1;
  100:
-            entity = '0';
-            return entity;
+            var1 = '0';
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    oscard = function(argFoo, argBar, argBaz) { // Original name: _formatMessageCountLabel
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var6 = function _formatMessageCountLabel(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = _closure1_slot6;
-            oscard = undefined;
-            zuuluu = argFoo;
-            entity = argBaz;
-            entity = tangon.bind(oscard)(zuuluu, entity);
-            zuuluu = '0';
-            if(!(zuuluu !== entity)) { _fun00004_ip = 78; continue _fun00003 }
+            var4 = _closure1_slot6;
+            var6 = undefined;
+            var3 = arg1;
+            var1 = arg3;
+            var1 = var4.bind(var6)(var3, var1);
+            var3 = '0';
+            if(!(var3 !== var1)) { _fun0002_ip = 78; continue _fun0002 }
  31:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            report = zuuluu.intl;
-            tangon = report.formatToPlainString;
-            zuuluu = {};
-            zuuluu['count'] = entity;
-            entity = argBar;
-            entity = tangon.bind(report)(entity, zuuluu);
-            _fun00004_ip = 135; continue _fun00003;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 2;
+            var3 = var5[var3];
+            var3 = var4.bind(var6)(var3);
+            var5 = var3.intl;
+            var4 = var5.formatToPlainString;
+            var3 = {};
+            var3['count'] = var1;
+            var1 = arg2;
+            var1 = var4.bind(var5)(var1, var3);
+            _fun0002_ip = 135; continue _fun0002;
  78:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 2;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            michal = michal.eXHkho;
-            entity = zuuluu.bind(tangon)(michal);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.eXHkho;
+            var1 = var3.bind(var4)(var2);
  135:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/threads/MessageCountUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['shouldUseOldMaxMessageCount'] = report;
-    zuuluu['getMessageCountText'] = tangon;
-    tangon = function(argFoo, argBar) {
-        report = _closure1_slot7;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        entity = zuuluu[entity];
-        tangon = undefined;
-        entity = michal.bind(tangon)(entity);
-        entity = entity.t;
-        zuuluu = entity.iTS3XV;
-        michal = argFoo;
-        entity = argBar;
-        entity = report.bind(tangon)(michal, zuuluu, entity);
-        return entity;
+    var _closure1_slot7 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/threads/MessageCountUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['shouldUseOldMaxMessageCount'] = var5;
+    var3['getMessageCountText'] = var4;
+    var4 = function(arg1, arg2) {
+        var5 = _closure1_slot7;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var1 = var3[var1];
+        var4 = undefined;
+        var1 = var2.bind(var4)(var1);
+        var1 = var1.t;
+        var3 = var1.iTS3XV;
+        var2 = arg1;
+        var1 = arg2;
+        var1 = var5.bind(var4)(var2, var3, var1);
+        return var1;
     };
-    zuuluu['formatMobileMessageCountLabel'] = tangon;
-    michal = function(argFoo, argBar) {
-        report = _closure1_slot7;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        entity = zuuluu[entity];
-        tangon = undefined;
-        entity = michal.bind(tangon)(entity);
-        entity = entity.t;
-        zuuluu = entity.rfAXDQ;
-        michal = argFoo;
-        entity = argBar;
-        entity = report.bind(tangon)(michal, zuuluu, entity);
-        return entity;
+    var3['formatMobileMessageCountLabel'] = var4;
+    var2 = function(arg1, arg2) {
+        var5 = _closure1_slot7;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var1 = var3[var1];
+        var4 = undefined;
+        var1 = var2.bind(var4)(var1);
+        var1 = var1.t;
+        var3 = var1.rfAXDQ;
+        var2 = arg1;
+        var1 = arg2;
+        var1 = var5.bind(var4)(var2, var3, var1);
+        return var1;
     };
-    zuuluu['formatMessageCountLabel'] = michal;
-    return entity;
+    var3['formatMessageCountLabel'] = var2;
+    return var1;
 })();

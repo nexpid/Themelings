@@ -1,97 +1,97 @@
 // app/modules/auth/getAuthenticationErrorsFromAPIError.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/getAuthenticationErrorsFromAPIError.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getAuthenticationErrorsFromAPIError
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/getAuthenticationErrorsFromAPIError.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAuthenticationErrorsFromAPIError(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = {};
-            michal = report.code;
-            entity['error_code'] = michal;
-            michal = report.errors;
-            zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00002_ip = 63; continue _fun00001 }
+            var5 = arg1;
+            var1 = {};
+            var2 = var5.code;
+            var1['error_code'] = var2;
+            var2 = var5.errors;
+            var3 = null;
+            if(!(var3 == var2)) { _fun0001_ip = 63; continue _fun0001 }
  28:
-            michal = report.message;
-            entity['message'] = michal;
-            michal = report.retryAfter;
-            if(!(zuuluu != michal)) { _fun00002_ip = 61; continue _fun00001 }
+            var2 = var5.message;
+            var1['message'] = var2;
+            var2 = var5.retryAfter;
+            if(!(var3 != var2)) { _fun0001_ip = 61; continue _fun0001 }
  49:
-            michal = report.retryAfter;
-            entity['retry_after'] = michal;
+            var2 = var5.retryAfter;
+            var1['retry_after'] = var2;
  61:
-            return entity;
+            return var1;
  63:
-            michal = global;
-            tangon = michal.Object;
-            zuuluu = tangon.keys;
-            michal = report.errors;
-            tangon = zuuluu.bind(tangon)(michal);
-            michal = tangon.length;
-            zuuluu = 0;
-            michal = zuuluu < michal;
-            if(!michal) { _fun00002_ip = 140; continue _fun00001 }
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.keys;
+            var2 = var5.errors;
+            var4 = var3.bind(var4)(var2);
+            var2 = var4.length;
+            var3 = 0;
+            var2 = var3 < var2;
+            if(!var2) { _fun0001_ip = 140; continue _fun0001 }
  101:
-            oscard = tangon[zuuluu];
-            michal = report.getFirstFieldErrorMessage;
-            golfie = michal.bind(report)(oscard);
-            michal = new Array(1);
-            michal[0] = golfie;
-            entity[oscard] = michal;
-            zuuluu = zuuluu + 1;
-            michal = tangon.length;
-            if(zuuluu < michal) { _fun00002_ip = 101; continue _fun00001 }
+            var6 = var4[var3];
+            var2 = var5.getFirstFieldErrorMessage;
+            var7 = var2.bind(var5)(var6);
+            var2 = new Array(1);
+            var2[0] = var7;
+            var1[var6] = var2;
+            var3 = var3 + 1;
+            var2 = var4.length;
+            if(var3 < var2) { _fun0001_ip = 101; continue _fun0001 }
  140:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAuthenticationErrorsFromAPIError'] = tangon;
-    michal = function(argFoo) { // Original name: getAuthenticationErrorsFromV6OrEarlierAPIError
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getAuthenticationErrorsFromAPIError'] = var4;
+    var2 = function getAuthenticationErrorsFromV6OrEarlierAPIError(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = global;
-            tangon = michal.Object;
-            zuuluu = tangon.keys;
-            michal = entity.fields;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.length;
-            michal = 0;
-            if(!(!(zuuluu > michal))) { _fun00004_ip = 75; continue _fun00003 }
+            var1 = arg1;
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.keys;
+            var2 = var1.fields;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.length;
+            var2 = 0;
+            if(!(!(var3 > var2))) { _fun0002_ip = 75; continue _fun0002 }
  38:
-            michal = {};
-            zuuluu = entity.message;
-            michal['message'] = zuuluu;
-            tangon = entity.retryAfter;
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00004_ip = 73; continue _fun00003 }
+            var2 = {};
+            var3 = var1.message;
+            var2['message'] = var3;
+            var4 = var1.retryAfter;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0002_ip = 73; continue _fun0002 }
  61:
-            zuuluu = entity.retryAfter;
-            michal['retry_after'] = zuuluu;
+            var3 = var1.retryAfter;
+            var2['retry_after'] = var3;
  73:
-            return michal;
+            return var2;
  75:
-            entity = entity.fields;
-            return entity;
+            var1 = var1.fields;
+            return var1;
         }
     };
-    zuuluu['getAuthenticationErrorsFromV6OrEarlierAPIError'] = michal;
-    return entity;
+    var3['getAuthenticationErrorsFromV6OrEarlierAPIError'] = var2;
+    return var1;
 })();

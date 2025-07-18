@@ -1,172 +1,172 @@
 // app/modules/user_settings/native/premium_marketing/PremiumFeaturesCards.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
-    verify = 0;
-    report = golfie[verify];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(report);
-    option = 1;
-    michal = golfie[option];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.View;
-    var _closure1_slot2 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.PremiumTypes;
-    var _closure1_slot3 = michal;
-    michal = 3;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot4 = michal;
-    michal = 4;
-    michal = golfie[michal];
-    offset = oscard.bind(entity)(michal);
-    report = offset.createStyles;
-    michal = {};
-    yankee = {};
-    romeon = '100%';
-    yankee['width'] = romeon;
-    michal['container'] = yankee;
-    yankee = {};
-    romeon = 12;
-    yankee['marginBottom'] = romeon;
-    michal['cardWithMargin'] = yankee;
-    michal = report.bind(offset)(michal);
-    var _closure1_slot5 = michal;
-    michal = {};
-    michal['TIER_0_LEADING'] = verify;
-    report = 'TIER_0_LEADING';
-    michal[verify] = report;
-    michal['TIER_2_LEADING'] = option;
-    report = 'TIER_2_LEADING';
-    michal[option] = report;
-    var _closure1_slot6 = michal;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/user_settings/native/premium_marketing/PremiumFeaturesCards.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var2);
+    var9 = 0;
+    var5 = var7[var9];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var5);
+    var8 = 1;
+    var2 = var7[var8];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.View;
+    var _closure1_slot2 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.PremiumTypes;
+    var _closure1_slot3 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot4 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var10 = var6.bind(var1)(var2);
+    var5 = var10.createStyles;
+    var2 = {};
+    var11 = {};
+    var12 = '100%';
+    var11['width'] = var12;
+    var2['container'] = var11;
+    var11 = {};
+    var12 = 12;
+    var11['marginBottom'] = var12;
+    var2['cardWithMargin'] = var11;
+    var2 = var5.bind(var10)(var2);
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var2['TIER_0_LEADING'] = var9;
+    var5 = 'TIER_0_LEADING';
+    var2[var9] = var5;
+    var2['TIER_2_LEADING'] = var8;
+    var5 = 'TIER_2_LEADING';
+    var2[var8] = var5;
+    var _closure1_slot6 = var2;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_settings/native/premium_marketing/PremiumFeaturesCards.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.style;
-            michal = entity.applicationId;
-            var _closure2_slot0 = michal;
-            michal = entity.onPaymentSuccess;
-            var _closure2_slot1 = michal;
-            michal = entity.onPaymentDismiss;
-            var _closure2_slot2 = michal;
-            zuuluu = entity.order;
-            tangon = undefined;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 64; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.style;
+            var2 = var1.applicationId;
+            var _closure2_slot0 = var2;
+            var2 = var1.onPaymentSuccess;
+            var _closure2_slot1 = var2;
+            var2 = var1.onPaymentDismiss;
+            var _closure2_slot2 = var2;
+            var3 = var1.order;
+            var4 = undefined;
+            if(!(var3 === var4)) { _fun0001_ip = 64; continue _fun0001 }
  51:
-            entity = _closure1_slot6;
-            zuuluu = entity.TIER_0_LEADING;
+            var1 = _closure1_slot6;
+            var3 = var1.TIER_0_LEADING;
  64:
-            var _closure2_slot3 = tangon;
-            var _closure2_slot4 = tangon;
-            michal = _closure1_slot5;
-            report = michal.bind(tangon)();
-            _closure2_slot3 = report;
-            michal = _closure1_slot6;
-            michal = michal.TIER_2_LEADING;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 141; continue _fun00001 }
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var2 = _closure1_slot5;
+            var5 = var2.bind(var4)();
+            _closure2_slot3 = var5;
+            var2 = _closure1_slot6;
+            var2 = var2.TIER_2_LEADING;
+            if(!(var2 !== var3)) { _fun0001_ip = 141; continue _fun0001 }
  101:
-            michal = _closure1_slot6;
-            michal = michal.TIER_0_LEADING;
-            michal = _closure1_slot3;
-            zuuluu = michal.TIER_0;
-            option = new Array(2);
-            option[0] = zuuluu;
-            michal = michal.TIER_2;
-            option[1] = michal;
-            _fun00002_ip = 172; continue _fun00001;
+            var2 = _closure1_slot6;
+            var2 = var2.TIER_0_LEADING;
+            var2 = _closure1_slot3;
+            var3 = var2.TIER_0;
+            var8 = new Array(2);
+            var8[0] = var3;
+            var2 = var2.TIER_2;
+            var8[1] = var2;
+            _fun0001_ip = 172; continue _fun0001;
  141:
-            zuuluu = _closure1_slot3;
-            verify = zuuluu.TIER_2;
-            michal = new Array(2);
-            michal[0] = verify;
-            zuuluu = zuuluu.TIER_0;
-            michal[1] = zuuluu;
-            option = michal;
+            var3 = _closure1_slot3;
+            var9 = var3.TIER_2;
+            var2 = new Array(2);
+            var2[0] = var9;
+            var3 = var3.TIER_0;
+            var2[1] = var3;
+            var8 = var2;
  172:
-            _closure2_slot4 = option;
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot2;
-            entity = {};
-            verify = report.container;
-            report = new Array(2);
-            report[0] = verify;
-            report[1] = golfie;
-            entity['style'] = report;
-            report = null;
-            golfie = report == option;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 233; continue _fun00001 }
+            _closure2_slot4 = var8;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot2;
+            var1 = {};
+            var9 = var5.container;
+            var5 = new Array(2);
+            var5[0] = var9;
+            var5[1] = var7;
+            var1['style'] = var5;
+            var5 = null;
+            var7 = var5 == var8;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 233; continue _fun0001 }
  218:
-            golfie = option.map;
-            oscard = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var7 = var8.map;
+            var6 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = argFoo;
-                    tangon = _closure1_slot4;
-                    michal = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    entity = 5;
-                    entity = zuuluu[entity];
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(entity);
-                    entity = {};
-                    entity['premiumType'] = report;
-                    golfie = _closure2_slot4;
-                    option = golfie.length;
-                    golfie = 1;
-                    option = option - golfie;
-                    golfie = argBar;
-                    option = golfie < option;
-                    golfie = undefined;
-                    if(!option) { _fun00004_ip = 80; continue _fun00003 }
+                    var5 = arg1;
+                    var4 = _closure1_slot4;
+                    var2 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var1 = 5;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var1['premiumType'] = var5;
+                    var7 = _closure2_slot4;
+                    var8 = var7.length;
+                    var7 = 1;
+                    var8 = var8 - var7;
+                    var7 = arg2;
+                    var8 = var7 < var8;
+                    var7 = undefined;
+                    if(!var8) { _fun0002_ip = 80; continue _fun0002 }
  70:
-                    option = _closure2_slot3;
-                    golfie = option.cardWithMargin;
+                    var8 = _closure2_slot3;
+                    var7 = var8.cardWithMargin;
  80:
-                    entity['style'] = golfie;
-                    golfie = _closure2_slot0;
-                    entity['applicationId'] = golfie;
-                    golfie = _closure2_slot1;
-                    entity['onPaymentSuccess'] = golfie;
-                    oscard = _closure2_slot2;
-                    entity['onPaymentDismiss'] = oscard;
-                    entity = tangon.bind(zuuluu)(michal, entity, report);
-                    return entity;
+                    var1['style'] = var7;
+                    var7 = _closure2_slot0;
+                    var1['applicationId'] = var7;
+                    var7 = _closure2_slot1;
+                    var1['onPaymentSuccess'] = var7;
+                    var6 = _closure2_slot2;
+                    var1['onPaymentDismiss'] = var6;
+                    var1 = var4.bind(var3)(var2, var1, var5);
+                    return var1;
                 }
             };
-            report = golfie.bind(option)(oscard);
+            var5 = var7.bind(var8)(var6);
  233:
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['PremiumFeatureCardOrder'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['PremiumFeatureCardOrder'] = var2;
+    return var1;
 })();

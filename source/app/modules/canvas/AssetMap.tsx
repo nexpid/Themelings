@@ -1,379 +1,379 @@
 // app/modules/canvas/AssetMap.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = function() { // Original name: _loadAssetMap
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = function _loadAssetMap() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 118; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 118; continue _fun0001 }
  9:
-                    michal = undefined;
-                    var _closure4_slot0 = michal;
-                    michal = _closure1_slot7;
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    verify = zuuluu;
-                    michal = new verify[michal](option);
-                    zuuluu = michal instanceof Object ? michal : zuuluu;
-                    _closure4_slot0 = zuuluu;
-                    michal = global;
-                    golfie = michal.Object;
-                    oscard = golfie.entries;
-                    report = argFoo;
-                    oscard = oscard.bind(golfie)(report);
-                    report = oscard.map;
-                    tangon = function(argFoo) {
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var2 = undefined;
+                    var _closure4_slot0 = var2;
+                    var2 = _closure1_slot7;
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var9 = var3;
+                    var2 = new var9[var2](var8);
+                    var3 = var2 instanceof Object ? var2 : var3;
+                    _closure4_slot0 = var3;
+                    var2 = global;
+                    var7 = var2.Object;
+                    var6 = var7.entries;
+                    var5 = arg1;
+                    var6 = var6.bind(var7)(var5);
+                    var5 = var6.map;
+                    var4 = function(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            oscard = argFoo;
-                            michal = oscard[Symbol.iterator];
-                            oscard = michal().next;
-                            tangon = oscard().value;
-                            zuuluu = michal;
-                            option = undefined;
-                            zuuluu = zuuluu === option;
-                            report = undefined;
-                            if(zuuluu) { _fun00004_ip = 29; continue _fun00003 }
+                            var6 = arg1;
+                            var2 = var6[Symbol.iterator];
+                            var6 = var2().next;
+                            var4 = var6().value;
+                            var3 = var2;
+                            var8 = undefined;
+                            var3 = var3 === var8;
+                            var5 = undefined;
+                            if(var3) { _fun0002_ip = 29; continue _fun0002 }
  26:
-                            report = tangon;
+                            var5 = var4;
  29:
-                            var _closure5_slot0 = report;
-                            tangon = undefined;
-                            if(zuuluu) { _fun00004_ip = 63; continue _fun00003 }
+                            var _closure5_slot0 = var5;
+                            var4 = undefined;
+                            if(var3) { _fun0002_ip = 63; continue _fun0002 }
  38:
-                            golfie = oscard().value;
-                            oscard = michal;
-                            oscard = oscard === option;
-                            tangon = undefined;
-                            zuuluu = oscard;
-                            if(oscard) { _fun00004_ip = 63; continue _fun00003 }
+                            var7 = var6().value;
+                            var6 = var2;
+                            var6 = var6 === var8;
+                            var4 = undefined;
+                            var3 = var6;
+                            if(var6) { _fun0002_ip = 63; continue _fun0002 }
  57:
-                            tangon = golfie;
-                            zuuluu = oscard;
+                            var4 = var7;
+                            var3 = var6;
  63:
-                            var _closure5_slot1 = tangon;
-                            if(zuuluu) { _fun00004_ip = 73; continue _fun00003 }
+                            var _closure5_slot1 = var4;
+                            if(var3) { _fun0002_ip = 73; continue _fun0002 }
  70:
-                            michal.return();
+                            var2.return();
  73:
-                            zuuluu = _closure4_slot0;
-                            michal = zuuluu.loadRemoteImage;
-                            zuuluu = michal.bind(zuuluu)(report, tangon);
-                            michal = zuuluu.catch;
-                            entity = function(argFoo) {
-                                oscard = _closure1_slot5;
-                                report = oscard.warn;
-                                option = _closure5_slot0;
-                                golfie = _closure5_slot1;
-                                offset = 'Failed to load canvas asset';
-                                verify = argFoo;
-                                yankee = oscard;
-                                entity = yankee[report](offset, verify, option, golfie, oscard);
-                                return entity;
+                            var3 = _closure4_slot0;
+                            var2 = var3.loadRemoteImage;
+                            var3 = var2.bind(var3)(var5, var4);
+                            var2 = var3.catch;
+                            var1 = function(arg1) {
+                                var6 = _closure1_slot5;
+                                var5 = var6.warn;
+                                var8 = _closure5_slot0;
+                                var7 = _closure5_slot1;
+                                var10 = 'Failed to load canvas asset';
+                                var9 = arg1;
+                                var11 = var6;
+                                var1 = var11[var5](var10, var9, var8, var7, var6);
+                                return var1;
                             };
-                            entity = michal.bind(zuuluu)(entity);
-                            return entity;
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
                         }
                     };
-                    report = report.bind(oscard)(tangon);
-                    tangon = michal.Promise;
-                    michal = tangon.all;
-                    michal = michal.bind(tangon)(report);
+                    var5 = var5.bind(var6)(var4);
+                    var4 = var2.Promise;
+                    var2 = var4.all;
+                    var2 = var2.bind(var4)(var5);
                     SaveGenerator(address=106);
  104:
-                    return michal;
+                    return var2;
  106:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 115; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 115; continue _fun0001 }
  112:
-                    return zuuluu;
+                    return var3;
  115:
-                    return michal;
+                    return var2;
  118:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = golfie[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = golfie[michal];
-    option = report.bind(entity)(michal);
-    michal = option.prototype;
-    report = Object.create(michal, {constructor: {value: option}});
-    romeon = 'AssetMap';
-    foxtra = report;
-    michal = new foxtra[option](romeon, yankee);
-    michal = michal instanceof Object ? michal : report;
-    var _closure1_slot5 = michal;
-    michal = ['./fonts/ggsans-400-normal.ttf', './fonts/ggsans-700-bold.ttf', 'https://cdn.discordapp.com/assets/remix/fonts/ggsans-400-normal.ttf', 'https://cdn.discordapp.com/assets/remix/fonts/ggsans-700-bold.ttf'];
-    var _closure1_slot6 = michal;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function() { // Original name: AssetMap
-            zuuluu = this;
-            report = _closure1_slot2;
-            tangon = _closure2_slot1;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            tangon = {};
-            zuuluu['assets'] = tangon;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 4;
-            michal = report[michal];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.Skia;
-            tangon = michal.TypefaceFontProvider;
-            michal = tangon.Make;
-            michal = michal.bind(tangon)();
-            zuuluu['fontManager'] = michal;
-            return entity;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var7[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var8 = var5.bind(var1)(var2);
+    var2 = var8.prototype;
+    var5 = Object.create(var2, {constructor: {value: var8}});
+    var12 = 'AssetMap';
+    var13 = var5;
+    var2 = new var13[var8](var12, var11);
+    var2 = var2 instanceof Object ? var2 : var5;
+    var _closure1_slot5 = var2;
+    var2 = ['./fonts/ggsans-400-normal.ttf', './fonts/ggsans-700-bold.ttf', 'https://cdn.discordapp.com/assets/remix/fonts/ggsans-400-normal.ttf', 'https://cdn.discordapp.com/assets/remix/fonts/ggsans-700-bold.ttf'];
+    var _closure1_slot6 = var2;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function AssetMap() {
+            var3 = this;
+            var5 = _closure1_slot2;
+            var4 = _closure2_slot1;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = {};
+            var3['assets'] = var4;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.Skia;
+            var4 = var2.TypefaceFontProvider;
+            var2 = var4.Make;
+            var2 = var2.bind(var4)();
+            var3['fontManager'] = var2;
+            return var1;
         };
-        var _closure2_slot1 = zuuluu;
-        report = {};
-        michal = 'loadFonts';
-        report['key'] = michal;
-        michal = function() { // Original name: value
-            michal = this;
-            var _closure3_slot0 = michal;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 4;
-            michal = report[michal];
-            oscard = undefined;
-            michal = zuuluu.bind(oscard)(michal);
-            michal = michal.Skia;
-            var _closure3_slot1 = michal;
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.all;
-            report = _closure1_slot6;
-            tangon = report.map;
-            entity = function() {
-                tangon = _closure1_slot4;
-                zuuluu = undefined;
-                michal = function* (argFoo) {
-                    entity = function* (argFoo) { // Original name: ?anon_0_
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot1 = var3;
+        var5 = {};
+        var2 = 'loadFonts';
+        var5['key'] = var2;
+        var2 = function value() {
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var6 = undefined;
+            var2 = var3.bind(var6)(var2);
+            var2 = var2.Skia;
+            var _closure3_slot1 = var2;
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.all;
+            var5 = _closure1_slot6;
+            var4 = var5.map;
+            var1 = function() {
+                var4 = _closure1_slot4;
+                var3 = undefined;
+                var2 = function* (arg1) {
+                    var1 = function* anon_0_(arg1) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00006_ip = 109; continue _fun00005 }
+                            if(var2) { _fun0003_ip = 109; continue _fun0003 }
  7:
-                            michal = _closure3_slot1;
-                            tangon = michal.Data;
-                            zuuluu = tangon.fromURI;
-                            michal = argFoo;
-                            michal = zuuluu.bind(tangon)(michal);
+                            var2 = _closure3_slot1;
+                            var4 = var2.Data;
+                            var3 = var4.fromURI;
+                            var2 = arg1;
+                            var2 = var3.bind(var4)(var2);
                             SaveGenerator(address=38);
  36:
-                            return michal;
+                            return var2;
  38:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00006_ip = 106; continue _fun00005 }
+                            if(var3) { _fun0003_ip = 106; continue _fun0003 }
  44:
-                            zuuluu = _closure3_slot1;
-                            tangon = zuuluu.Typeface;
-                            zuuluu = tangon.MakeFreeTypeFaceFromData;
-                            zuuluu = zuuluu.bind(tangon)(michal);
-                            tangon = null;
-                            if(!(tangon != zuuluu)) { _fun00006_ip = 103; continue _fun00005 }
+                            var3 = _closure3_slot1;
+                            var4 = var3.Typeface;
+                            var3 = var4.MakeFreeTypeFaceFromData;
+                            var3 = var3.bind(var4)(var2);
+                            var4 = null;
+                            if(!(var4 != var3)) { _fun0003_ip = 103; continue _fun0003 }
  71:
-                            report = _closure3_slot0;
-                            oscard = report.fontManager;
-                            if(!(tangon != oscard)) { _fun00006_ip = 103; continue _fun00005 }
+                            var5 = _closure3_slot0;
+                            var6 = var5.fontManager;
+                            if(!(var4 != var6)) { _fun0003_ip = 103; continue _fun0003 }
  85:
-                            report = oscard.registerFont;
-                            tangon = 'gg sans';
-                            tangon = report.bind(oscard)(zuuluu, tangon);
+                            var5 = var6.registerFont;
+                            var4 = 'gg sans';
+                            var4 = var5.bind(var6)(var3, var4);
  103:
-                            return zuuluu;
+                            return var3;
  106:
-                            return michal;
+                            return var2;
  109:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure4_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure4_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure4_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure4_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            entity = entity.bind(oscard)();
-            entity = tangon.bind(report)(entity);
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var1.bind(var6)();
+            var1 = var4.bind(var5)(var1);
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        report['value'] = michal;
-        michal = new Array(4);
-        michal[0] = report;
-        report = {};
-        golfie = 'loadRemoteImage';
-        report['key'] = golfie;
-        option = _closure1_slot4;
-        entity = undefined;
-        golfie = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var2;
+        var2 = new Array(4);
+        var2[0] = var5;
+        var5 = {};
+        var7 = 'loadRemoteImage';
+        var5['key'] = var7;
+        var8 = _closure1_slot4;
+        var1 = undefined;
+        var7 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 125; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 125; continue _fun0004 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 4;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    zuuluu = michal.Skia;
-                    report = zuuluu.Data;
-                    tangon = report.fromURI;
-                    michal = argBar;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 4;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var3 = var2.Skia;
+                    var5 = var3.Data;
+                    var4 = var5.fromURI;
+                    var2 = arg2;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=62);
  60:
-                    return michal;
+                    return var2;
  62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 122; continue _fun00007 }
+                    if(var4) { _fun0004_ip = 122; continue _fun0004 }
  68:
-                    tangon = zuuluu.Image;
-                    zuuluu = tangon.MakeImageFromEncoded;
-                    report = zuuluu.bind(tangon)(michal);
-                    zuuluu = this;
-                    tangon = zuuluu.assets;
-                    zuuluu = argFoo;
-                    tangon[zuuluu] = report;
-                    zuuluu = global;
-                    tangon = zuuluu.Promise;
-                    zuuluu = tangon.resolve;
-                    zuuluu = zuuluu.bind(tangon)();
-                    return zuuluu;
+                    var4 = var3.Image;
+                    var3 = var4.MakeImageFromEncoded;
+                    var5 = var3.bind(var4)(var2);
+                    var3 = this;
+                    var4 = var3.assets;
+                    var3 = arg1;
+                    var4[var3] = var5;
+                    var3 = global;
+                    var4 = var3.Promise;
+                    var3 = var4.resolve;
+                    var3 = var3.bind(var4)();
+                    return var3;
  122:
-                    return michal;
+                    return var2;
  125:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot0 = golfie;
-        golfie = function() { // Original name: loadRemoteImage
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot0 = var7;
+        var7 = function loadRemoteImage() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = golfie;
-        michal[1] = report;
-        report = {};
-        golfie = 'get';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = this;
-            michal = entity.assets;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var7;
+        var2[1] = var5;
+        var5 = {};
+        var7 = 'get';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var1 = this;
+            var2 = var1.assets;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = golfie;
-        michal[2] = report;
-        report = {};
-        golfie = 'has';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            entity = this;
-            michal = entity.assets;
-            entity = argFoo;
-            michal = michal[entity];
-            entity = null;
-            entity = entity != michal;
-            return entity;
+        var5['value'] = var7;
+        var2[2] = var5;
+        var5 = {};
+        var7 = 'has';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var1 = this;
+            var2 = var1.assets;
+            var1 = arg1;
+            var2 = var2[var1];
+            var1 = null;
+            var1 = var1 != var2;
+            return var1;
         };
-        report['value'] = oscard;
-        michal[3] = report;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var5['value'] = var6;
+        var2[3] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    var _closure1_slot7 = michal;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/canvas/AssetMap.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = michal;
-    tangon = function() { // Original name: loadAssetMap
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var2 = var2.bind(var1)();
+    var _closure1_slot7 = var2;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/canvas/AssetMap.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var2;
+    var4 = function loadAssetMap() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['loadAssetMap'] = tangon;
-    zuuluu['AssetMap'] = michal;
-    return entity;
+    var3['loadAssetMap'] = var4;
+    var3['AssetMap'] = var2;
+    return var1;
 })();

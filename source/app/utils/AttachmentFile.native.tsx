@@ -1,240 +1,240 @@
 // app/utils/AttachmentFile.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _getAttachmentFile
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _getAttachmentFile() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    zuuluu = argFoo;
+                    var3 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 348; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 348; continue _fun0001 }
  13:
-                    verify = zuuluu;
-                    tangon = argBar;
-                    offset = undefined;
-                    golfie = undefined;
-                    report = undefined;
-                    option = undefined;
-                    oscard = undefined;
-                    romeon = _closure1_slot1;
-                    backup = _closure1_slot2;
-                    yankee = 2;
-                    yankee = backup[yankee];
-                    romeon = romeon.bind(offset)(yankee);
-                    zuuluu = zuuluu.item;
-                    yankee = zuuluu.platform;
-                    foxtra = _closure1_slot0;
-                    zuuluu = 3;
-                    zuuluu = backup[zuuluu];
-                    zuuluu = foxtra.bind(offset)(zuuluu);
-                    zuuluu = zuuluu.UploadPlatform;
-                    zuuluu = zuuluu.REACT_NATIVE;
-                    yankee = yankee === zuuluu;
-                    zuuluu = 'Upload must be in the React Native format';
-                    zuuluu = romeon.bind(offset)(yankee, zuuluu);
+                    var9 = var3;
+                    var4 = arg2;
+                    var10 = undefined;
+                    var7 = undefined;
+                    var5 = undefined;
+                    var8 = undefined;
+                    var6 = undefined;
+                    var12 = _closure1_slot1;
+                    var14 = _closure1_slot2;
+                    var11 = 2;
+                    var11 = var14[var11];
+                    var12 = var12.bind(var10)(var11);
+                    var3 = var3.item;
+                    var11 = var3.platform;
+                    var13 = _closure1_slot0;
+                    var3 = 3;
+                    var3 = var14[var3];
+                    var3 = var13.bind(var10)(var3);
+                    var3 = var3.UploadPlatform;
+                    var3 = var3.REACT_NATIVE;
+                    var11 = var11 === var3;
+                    var3 = 'Upload must be in the React Native format';
+                    var3 = var12.bind(var10)(var11, var3);
  107: // try_start_1
-                    romeon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    yankee = 4;
-                    zuuluu = zuuluu[yankee];
-                    backup = romeon.bind(offset)(zuuluu);
-                    foxtra = backup.getFileInfo;
-                    romeon = verify;
-                    zuuluu = tangon;
-                    zuuluu = foxtra.bind(backup)(romeon, zuuluu);
+                    var12 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var11 = 4;
+                    var3 = var3[var11];
+                    var14 = var12.bind(var10)(var3);
+                    var13 = var14.getFileInfo;
+                    var12 = var9;
+                    var3 = var4;
+                    var3 = var13.bind(var14)(var12, var3);
                     SaveGenerator(address=149);
  147:
-                    return zuuluu;
+                    return var3;
  149:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 317; continue _fun00001 }
+                    if(var12) { _fun0001_ip = 317; continue _fun0001 }
  158:
-                    option = zuuluu;
-                    foxtra = _closure1_slot0;
-                    backup = _closure1_slot2;
-                    romeon = 5;
-                    romeon = backup[romeon];
-                    backup = foxtra.bind(offset)(romeon);
-                    foxtra = backup.getAttachmentPayload;
-                    romeon = verify;
-                    verify = tangon;
-                    tangon = zuuluu.name;
-                    oscard = foxtra.bind(backup)(romeon, verify, tangon);
+                    var8 = var3;
+                    var13 = _closure1_slot0;
+                    var14 = _closure1_slot2;
+                    var12 = 5;
+                    var12 = var14[var12];
+                    var14 = var13.bind(var10)(var12);
+                    var13 = var14.getAttachmentPayload;
+                    var12 = var9;
+                    var9 = var4;
+                    var4 = var3.name;
+                    var6 = var13.bind(var14)(var12, var9, var4);
  205: // try_start_0
-                    verify = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[yankee];
-                    offset = verify.bind(offset)(tangon);
-                    verify = offset.getFileSize;
-                    tangon = option;
-                    tangon = tangon.uri;
-                    tangon = verify.bind(offset)(tangon);
+                    var9 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var11];
+                    var10 = var9.bind(var10)(var4);
+                    var9 = var10.getFileSize;
+                    var4 = var8;
+                    var4 = var4.uri;
+                    var4 = var9.bind(var10)(var4);
                     SaveGenerator(address=246);
  244:
-                    return tangon;
+                    return var4;
  246:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                    if(verify) { _fun00002_ip = 257; continue _fun00001 }
+                    if(var9) { _fun0001_ip = 257; continue _fun0001 }
  252:
-                    report = tangon;
+                    var5 = var4;
  255: // try_end0
-                    _fun00002_ip = 262; continue _fun00001;
+                    _fun0001_ip = 262; continue _fun0001;
  257: // try_end1
-                    return tangon;
+                    return var4;
  260: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=3);
  262:
-                    tangon = {};
-                    tangon['file'] = option;
-                    option = option.uri;
-                    tangon['uri'] = option;
-                    option = oscard.filename;
-                    golfie = option;
-                    oscard = null;
-                    option = oscard != option;
-                    oscard = '';
-                    if(!option) { _fun00002_ip = 305; continue _fun00001 }
+                    var4 = {};
+                    var4['file'] = var8;
+                    var8 = var8.uri;
+                    var4['uri'] = var8;
+                    var8 = var6.filename;
+                    var7 = var8;
+                    var6 = null;
+                    var8 = var6 != var8;
+                    var6 = '';
+                    if(!var8) { _fun0001_ip = 305; continue _fun0001 }
  302:
-                    oscard = golfie;
+                    var6 = var7;
  305:
-                    tangon['name'] = oscard;
-                    tangon['fileSize'] = report;
+                    var4['name'] = var6;
+                    var4['fileSize'] = var5;
  314: // try_end2
-                    return tangon;
+                    return var4;
  317:
-                    return zuuluu;
+                    return var3;
  320: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=4);
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.error;
-                    michal = 'Failed to get attachment file';
-                    michal = zuuluu.bind(tangon)(michal, report);
-                    michal = undefined;
-                    return michal;
+                    var4 = _closure1_slot4;
+                    var3 = var4.error;
+                    var2 = 'Failed to get attachment file';
+                    var2 = var3.bind(var4)(var2, var5);
+                    var2 = undefined;
+                    return var2;
  348:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = function() { // Original name: _cancelGetAttachmentFile
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function _cancelGetAttachmentFile() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 62; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 62; continue _fun0002 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 4;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    report = tangon.bind(zuuluu)(michal);
-                    tangon = report.cancelGetFileInfo;
-                    michal = argFoo;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var5 = var4.bind(var3)(var2);
+                    var4 = var5.cancelGetFileInfo;
+                    var2 = arg1;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=50);
  48:
-                    return michal;
+                    return var2;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 59; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 59; continue _fun0002 }
  56:
-                    return zuuluu;
+                    return var3;
  59:
-                    return michal;
+                    return var2;
  62:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'AttachmentFile';
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/AttachmentFile.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: getAttachmentFile
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 'AttachmentFile';
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/AttachmentFile.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAttachmentFile() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getAttachmentFile'] = tangon;
-    michal = function() { // Original name: cancelGetAttachmentFile
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getAttachmentFile'] = var4;
+    var2 = function cancelGetAttachmentFile() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['cancelGetAttachmentFile'] = michal;
-    return entity;
+    var3['cancelGetAttachmentFile'] = var2;
+    return var1;
 })();

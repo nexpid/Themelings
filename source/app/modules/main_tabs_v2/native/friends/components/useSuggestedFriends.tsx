@@ -1,200 +1,200 @@
 // app/modules/main_tabs_v2/native/friends/components/useSuggestedFriends.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SuggestedFriendSource;
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/friends/components/useSuggestedFriends.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useSuggestedFriends
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SuggestedFriendSource;
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/friends/components/useSuggestedFriends.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useSuggestedFriends(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = null;
-            if(!(tangon == michal)) { _fun00002_ip = 13; continue _fun00001 }
+            var2 = arg1;
+            var4 = null;
+            if(!(var4 == var2)) { _fun0001_ip = 13; continue _fun0001 }
  11:
-            michal = {};
+            var2 = {};
  13:
-            golfie = michal.isConnected;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            verify = undefined;
-            option = report.bind(verify)(michal);
-            oscard = option.useStateFromStoresArray;
-            michal = _closure1_slot5;
-            report = new Array(1);
-            report[0] = michal;
-            michal = function() {
-                michal = _closure1_slot5;
-                entity = michal.getSuggestions;
-                entity = entity.bind(michal)();
-                return entity;
+            var7 = var2.isConnected;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var9 = undefined;
+            var8 = var5.bind(var9)(var2);
+            var6 = var8.useStateFromStoresArray;
+            var2 = _closure1_slot5;
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getSuggestions;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            michal = oscard.bind(option)(report, michal);
-            var _closure2_slot0 = michal;
-            option = _closure1_slot4;
-            oscard = option.useState;
-            report = new Array(0);
-            option = oscard.bind(option)(report);
-            oscard = _closure1_slot3;
-            report = 2;
-            option = oscard.bind(verify)(option, report);
-            report = 0;
-            oscard = option[report];
-            var _closure2_slot1 = oscard;
-            report = 1;
-            report = option[report];
-            tangon = tangon == golfie;
-            if(tangon) { _fun00002_ip = 137; continue _fun00001 }
+            var2 = var6.bind(var8)(var5, var2);
+            var _closure2_slot0 = var2;
+            var8 = _closure1_slot4;
+            var6 = var8.useState;
+            var5 = new Array(0);
+            var8 = var6.bind(var8)(var5);
+            var6 = _closure1_slot3;
+            var5 = 2;
+            var8 = var6.bind(var9)(var8, var5);
+            var5 = 0;
+            var6 = var8[var5];
+            var _closure2_slot1 = var6;
+            var5 = 1;
+            var5 = var8[var5];
+            var4 = var4 == var7;
+            if(var4) { _fun0001_ip = 137; continue _fun0001 }
  134:
-            tangon = golfie;
+            var4 = var7;
  137:
-            var _closure2_slot2 = tangon;
-            option = _closure1_slot4;
-            golfie = option.useMemo;
-            zuuluu = new Array(3);
-            zuuluu[0] = oscard;
-            zuuluu[1] = michal;
-            zuuluu[2] = tangon;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot2 = var4;
+            var8 = _closure1_slot4;
+            var7 = var8.useMemo;
+            var3 = new Array(3);
+            var3[0] = var6;
+            var3[1] = var2;
+            var3[2] = var4;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot2;
-                    if(zuuluu) { _fun00004_ip = 18; continue _fun00003 }
+                    var3 = _closure2_slot2;
+                    if(var3) { _fun0002_ip = 18; continue _fun0002 }
  12:
-                    zuuluu = new Array(0);
-                    return zuuluu;
+                    var3 = new Array(0);
+                    return var3;
  18:
-                    report = _closure2_slot1;
-                    tangon = report.filter;
-                    zuuluu = function(argFoo) {
-                        entity = argFoo;
-                        michal = entity.source;
-                        entity = _closure1_slot6;
-                        entity = entity.USER_SUGGESTIONS;
-                        entity = michal === entity;
-                        return entity;
+                    var5 = _closure2_slot1;
+                    var4 = var5.filter;
+                    var3 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.source;
+                        var1 = _closure1_slot6;
+                        var1 = var1.USER_SUGGESTIONS;
+                        var1 = var2 === var1;
+                        return var1;
                     };
-                    oscard = tangon.bind(report)(zuuluu);
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.map;
-                    michal = function(argFoo) {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                    var6 = var4.bind(var5)(var3);
+                    var4 = _closure2_slot0;
+                    var3 = var4.map;
+                    var2 = function(arg1) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                            michal = argFoo;
-                            entity = {};
-                            zuuluu = michal.user;
-                            entity['user'] = zuuluu;
-                            tangon = michal.name;
-                            zuuluu = null;
-                            report = zuuluu != tangon;
-                            zuuluu = undefined;
-                            if(!report) { _fun00006_ip = 33; continue _fun00005 }
+                            var2 = arg1;
+                            var1 = {};
+                            var3 = var2.user;
+                            var1['user'] = var3;
+                            var4 = var2.name;
+                            var3 = null;
+                            var5 = var3 != var4;
+                            var3 = undefined;
+                            if(!var5) { _fun0003_ip = 33; continue _fun0003 }
  30:
-                            zuuluu = tangon;
+                            var3 = var4;
  33:
-                            entity['friendSuggestionName'] = zuuluu;
-                            zuuluu = _closure1_slot6;
-                            zuuluu = zuuluu.USER_SUGGESTIONS;
-                            entity['source'] = zuuluu;
-                            michal = michal.contactNames;
-                            entity['contactNames'] = michal;
-                            return entity;
+                            var1['friendSuggestionName'] = var3;
+                            var3 = _closure1_slot6;
+                            var3 = var3.USER_SUGGESTIONS;
+                            var1['source'] = var3;
+                            var2 = var2.contactNames;
+                            var1['contactNames'] = var2;
+                            return var1;
                         }
                     };
-                    report = zuuluu.bind(tangon)(michal);
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 5;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.unionBy;
-                    michal = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.user;
-                        entity = entity.id;
-                        return entity;
+                    var5 = var3.bind(var4)(var2);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 5;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.unionBy;
+                    var2 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.user;
+                        var1 = var1.id;
+                        return var1;
                     };
-                    zuuluu = zuuluu.bind(tangon)(oscard, report, michal);
-                    michal = zuuluu.sort;
-                    entity = function(argFoo, argBar) {
-                        report = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        entity = 6;
-                        michal = oscard[entity];
-                        tangon = undefined;
-                        golfie = report.bind(tangon)(michal);
-                        zuuluu = golfie.getName;
-                        michal = argFoo;
-                        michal = michal.user;
-                        zuuluu = zuuluu.bind(golfie)(michal);
-                        michal = zuuluu.localeCompare;
-                        entity = oscard[entity];
-                        report = report.bind(tangon)(entity);
-                        tangon = report.getName;
-                        entity = argBar;
-                        entity = entity.user;
-                        entity = tangon.bind(report)(entity);
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                    var3 = var3.bind(var4)(var6, var5, var2);
+                    var2 = var3.sort;
+                    var1 = function(arg1, arg2) {
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var1 = 6;
+                        var2 = var6[var1];
+                        var4 = undefined;
+                        var7 = var5.bind(var4)(var2);
+                        var3 = var7.getName;
+                        var2 = arg1;
+                        var2 = var2.user;
+                        var3 = var3.bind(var7)(var2);
+                        var2 = var3.localeCompare;
+                        var1 = var6[var1];
+                        var5 = var5.bind(var4)(var1);
+                        var4 = var5.getName;
+                        var1 = arg2;
+                        var1 = var1.user;
+                        var1 = var4.bind(var5)(var1);
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 }
             };
-            zuuluu = golfie.bind(option)(entity, zuuluu);
-            entity = {};
-            entity['added'] = oscard;
-            entity['setAdded'] = report;
-            entity['friendSuggestions'] = zuuluu;
-            if(tangon) { _fun00002_ip = 206; continue _fun00001 }
+            var3 = var7.bind(var8)(var1, var3);
+            var1 = {};
+            var1['added'] = var6;
+            var1['setAdded'] = var5;
+            var1['friendSuggestions'] = var3;
+            if(var4) { _fun0001_ip = 206; continue _fun0001 }
  199:
-            michal = michal.length;
-            _fun00002_ip = 211; continue _fun00001;
+            var2 = var2.length;
+            _fun0001_ip = 211; continue _fun0001;
  206:
-            michal = zuuluu.length;
+            var2 = var3.length;
  211:
-            entity['numFriendSuggestions'] = michal;
-            return entity;
+            var1['numFriendSuggestions'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,47 +1,47 @@
 // app/modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) { // Original name: getNumSubscriptionsPurchasedFromSystemMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getNumSubscriptionsPurchasedFromSystemMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = global;
-            tangon = entity.Number;
-            michal = argFoo;
-            michal = michal.content;
-            zuuluu = undefined;
-            michal = tangon.bind(zuuluu)(michal);
-            entity = entity.isNaN;
-            zuuluu = entity.bind(zuuluu)(michal);
-            tangon = 1;
-            entity = tangon;
-            if(zuuluu) { _fun00002_ip = 55; continue _fun00001 }
+            var1 = global;
+            var4 = var1.Number;
+            var2 = arg1;
+            var2 = var2.content;
+            var3 = undefined;
+            var2 = var4.bind(var3)(var2);
+            var1 = var1.isNaN;
+            var3 = var1.bind(var3)(var2);
+            var4 = 1;
+            var1 = var4;
+            if(var3) { _fun0001_ip = 55; continue _fun0001 }
  43:
-            zuuluu = 0;
-            entity = tangon;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 55; continue _fun00001 }
+            var3 = 0;
+            var1 = var4;
+            if(!(var3 !== var2)) { _fun0001_ip = 55; continue _fun0001 }
  52:
-            entity = michal;
+            var1 = var2;
  55:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

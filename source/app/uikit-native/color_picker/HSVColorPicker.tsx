@@ -1,138 +1,138 @@
 // app/uikit-native/color_picker/HSVColorPicker.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = 'center';
-    verify['alignItems'] = offset;
-    tangon['hsvColorPicker'] = verify;
-    verify = {};
-    offset = 12;
-    verify['marginTop'] = offset;
-    tangon['huePicker'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/color_picker/HSVColorPicker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: HSVColorPicker
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = 'center';
+    var9['alignItems'] = var10;
+    var4['hsvColorPicker'] = var9;
+    var9 = {};
+    var10 = 12;
+    var9['marginTop'] = var10;
+    var4['huePicker'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/color_picker/HSVColorPicker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function HSVColorPicker(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.hue;
-            sizing = entity.saturation;
-            backup = entity.value;
-            verify = entity.onPanFinalize;
-            entity = _closure1_slot6;
-            tangon = undefined;
-            report = entity.bind(tangon)();
-            michal = _closure1_slot0;
-            romeon = _closure1_slot2;
-            entity = 4;
-            zuuluu = romeon[entity];
-            option = michal.bind(tangon)(zuuluu);
-            golfie = option.useSharedValue;
-            zuuluu = 0;
-            offset = golfie.bind(option)(zuuluu);
-            zuuluu = romeon[entity];
-            option = michal.bind(tangon)(zuuluu);
-            golfie = option.useSharedValue;
-            zuuluu = 1;
-            kiloes = golfie.bind(option)(zuuluu);
-            entity = romeon[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.useSharedValue;
-            foxtra = entity.bind(michal)(zuuluu);
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot3;
-            entity = {};
-            report = report.hsvColorPicker;
-            entity['style'] = report;
-            option = _closure1_slot4;
-            golfie = _closure1_slot1;
-            report = 5;
-            report = romeon[report];
-            golfie = golfie.bind(tangon)(report);
-            report = {};
-            romeon = null;
-            output = offset;
-            if(!(romeon != yankee)) { _fun00002_ip = 166; continue _fun00001 }
+            var1 = arg1;
+            var11 = var1.hue;
+            var16 = var1.saturation;
+            var14 = var1.value;
+            var9 = var1.onPanFinalize;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 4;
+            var3 = var12[var1];
+            var8 = var2.bind(var4)(var3);
+            var7 = var8.useSharedValue;
+            var3 = 0;
+            var10 = var7.bind(var8)(var3);
+            var3 = var12[var1];
+            var8 = var2.bind(var4)(var3);
+            var7 = var8.useSharedValue;
+            var3 = 1;
+            var15 = var7.bind(var8)(var3);
+            var1 = var12[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useSharedValue;
+            var13 = var1.bind(var2)(var3);
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var5.hsvColorPicker;
+            var1['style'] = var5;
+            var8 = _closure1_slot4;
+            var7 = _closure1_slot1;
+            var5 = 5;
+            var5 = var12[var5];
+            var7 = var7.bind(var4)(var5);
+            var5 = {};
+            var12 = null;
+            var17 = var10;
+            if(!(var12 != var11)) { _fun0001_ip = 166; continue _fun0001 }
  163:
-            output = yankee;
+            var17 = var11;
  166:
-            report['hue'] = output;
-            if(!(romeon != sizing)) { _fun00002_ip = 178; continue _fun00001 }
+            var5['hue'] = var17;
+            if(!(var12 != var16)) { _fun0001_ip = 178; continue _fun0001 }
  175:
-            kiloes = sizing;
+            var15 = var16;
  178:
-            report['saturation'] = kiloes;
-            if(!(romeon != backup)) { _fun00002_ip = 190; continue _fun00001 }
+            var5['saturation'] = var15;
+            if(!(var12 != var14)) { _fun0001_ip = 190; continue _fun0001 }
  187:
-            foxtra = backup;
+            var13 = var14;
  190:
-            report['value'] = foxtra;
-            report['onPanFinalize'] = verify;
-            golfie = option.bind(tangon)(golfie, report);
-            report = new Array(2);
-            report[0] = golfie;
-            option = _closure1_slot4;
-            golfie = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            oscard = 6;
-            oscard = foxtra[oscard];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = {};
-            if(!(romeon != yankee)) { _fun00002_ip = 246; continue _fun00001 }
+            var5['value'] = var13;
+            var5['onPanFinalize'] = var9;
+            var7 = var8.bind(var4)(var7, var5);
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot4;
+            var7 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var6 = 6;
+            var6 = var13[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            if(!(var12 != var11)) { _fun0001_ip = 246; continue _fun0001 }
  243:
-            offset = yankee;
+            var10 = var11;
  246:
-            oscard['hue'] = offset;
-            oscard['onPanFinalize'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6['hue'] = var10;
+            var6['onPanFinalize'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

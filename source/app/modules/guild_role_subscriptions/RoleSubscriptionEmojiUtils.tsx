@@ -1,179 +1,179 @@
 // app/modules/guild_role_subscriptions/RoleSubscriptionEmojiUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    oscard = argPlu;
-    tangon = function(argFoo) { // Original name: isPurchasableRoleSubscriptionEmoji
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var6 = native7;
+    var4 = function isPurchasableRoleSubscriptionEmoji(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = null;
-            report = tangon == michal;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var4 = null;
+            var5 = var4 == var2;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 22; continue _fun0001 }
  16:
-            zuuluu = michal.roles;
+            var3 = var2.roles;
  22:
-            if(!(tangon != zuuluu)) { _fun00002_ip = 105; continue _fun00001 }
+            if(!(var4 != var3)) { _fun0001_ip = 105; continue _fun0001 }
  26:
-            zuuluu = michal.roles;
-            report = zuuluu.length;
-            zuuluu = 0;
-            if(!(zuuluu !== report)) { _fun00002_ip = 105; continue _fun00001 }
+            var3 = var2.roles;
+            var5 = var3.length;
+            var3 = 0;
+            if(!(var3 !== var5)) { _fun0001_ip = 105; continue _fun0001 }
  43:
-            zuuluu = michal.guildId;
-            if(!(tangon != zuuluu)) { _fun00002_ip = 105; continue _fun00001 }
+            var3 = var2.guildId;
+            if(!(var4 != var3)) { _fun0001_ip = 105; continue _fun0001 }
  52:
-            report = _closure1_slot0;
-            tangon = report.getPurchasableSubscriptionRoles;
-            zuuluu = michal.guildId;
-            zuuluu = tangon.bind(report)(zuuluu);
-            var _closure2_slot0 = zuuluu;
-            zuuluu = michal.roles;
-            michal = zuuluu.some;
-            entity = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var5 = _closure1_slot0;
+            var4 = var5.getPurchasableSubscriptionRoles;
+            var3 = var2.guildId;
+            var3 = var4.bind(var5)(var3);
+            var _closure2_slot0 = var3;
+            var3 = var2.roles;
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  105:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, report);
-    entity = 0;
-    golfie = oscard[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(golfie);
-    var _closure1_slot0 = report;
-    report = 1;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_role_subscriptions/RoleSubscriptionEmojiUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar) { // Original name: isRoleSubscriptionEmoji
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var5);
+    var1 = 0;
+    var7 = var6[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var7);
+    var _closure1_slot0 = var5;
+    var5 = 1;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_role_subscriptions/RoleSubscriptionEmojiUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function isRoleSubscriptionEmoji(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            report = argBar;
-            zuuluu = null;
-            oscard = zuuluu == michal;
-            tangon = undefined;
-            if(oscard) { _fun00004_ip = 25; continue _fun00003 }
+            var2 = arg1;
+            var5 = arg2;
+            var3 = null;
+            var6 = var3 == var2;
+            var4 = undefined;
+            if(var6) { _fun0002_ip = 25; continue _fun0002 }
  19:
-            tangon = michal.roles;
+            var4 = var2.roles;
  25:
-            if(!(zuuluu != tangon)) { _fun00004_ip = 96; continue _fun00003 }
+            if(!(var3 != var4)) { _fun0002_ip = 96; continue _fun0002 }
  29:
-            tangon = michal.roles;
-            oscard = tangon.length;
-            tangon = 0;
-            if(!(tangon !== oscard)) { _fun00004_ip = 96; continue _fun00003 }
+            var4 = var2.roles;
+            var6 = var4.length;
+            var4 = 0;
+            if(!(var4 !== var6)) { _fun0002_ip = 96; continue _fun0002 }
  46:
-            if(!(zuuluu != report)) { _fun00004_ip = 96; continue _fun00003 }
+            if(!(var3 != var5)) { _fun0002_ip = 96; continue _fun0002 }
  50:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getSubscriptionRoles;
-            zuuluu = zuuluu.bind(tangon)(report);
-            var _closure2_slot0 = zuuluu;
-            zuuluu = michal.roles;
-            michal = zuuluu.some;
-            entity = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getSubscriptionRoles;
+            var3 = var3.bind(var4)(var5);
+            var _closure2_slot0 = var3;
+            var3 = var2.roles;
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  96:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isRoleSubscriptionEmoji'] = report;
-    zuuluu['isPurchasableRoleSubscriptionEmoji'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: isUnusableRoleSubscriptionEmoji
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isRoleSubscriptionEmoji'] = var5;
+    var3['isPurchasableRoleSubscriptionEmoji'] = var4;
+    var2 = function isUnusableRoleSubscriptionEmoji(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            oscard = tangon == zuuluu;
-            report = undefined;
-            michal = undefined;
-            if(oscard) { _fun00006_ip = 24; continue _fun00005 }
+            var3 = arg1;
+            var4 = null;
+            var6 = var4 == var3;
+            var5 = undefined;
+            var2 = undefined;
+            if(var6) { _fun0003_ip = 24; continue _fun0003 }
  18:
-            michal = zuuluu.roles;
+            var2 = var3.roles;
  24:
-            if(!(tangon != michal)) { _fun00006_ip = 167; continue _fun00005 }
+            if(!(var4 != var2)) { _fun0003_ip = 167; continue _fun0003 }
  31:
-            michal = zuuluu.roles;
-            oscard = michal.length;
-            michal = 0;
-            if(!(michal !== oscard)) { _fun00006_ip = 167; continue _fun00005 }
+            var2 = var3.roles;
+            var6 = var2.length;
+            var2 = 0;
+            if(!(var2 !== var6)) { _fun0003_ip = 167; continue _fun0003 }
  48:
-            michal = zuuluu.guildId;
-            if(!(tangon != michal)) { _fun00006_ip = 167; continue _fun00005 }
+            var2 = var3.guildId;
+            if(!(var4 != var2)) { _fun0003_ip = 167; continue _fun0003 }
  57:
-            michal = _closure1_slot1;
-            michal = michal.bind(report)(zuuluu);
-            if(!michal) { _fun00006_ip = 163; continue _fun00005 }
+            var2 = _closure1_slot1;
+            var2 = var2.bind(var5)(var3);
+            if(!var2) { _fun0003_ip = 163; continue _fun0003 }
  72:
-            oscard = _closure1_slot0;
-            report = oscard.getUserSubscriptionRoles;
-            michal = zuuluu.guildId;
-            michal = report.bind(oscard)(michal);
-            var _closure2_slot0 = michal;
-            report = zuuluu.roles;
-            michal = report.some;
-            entity = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var6 = _closure1_slot0;
+            var5 = var6.getUserSubscriptionRoles;
+            var2 = var3.guildId;
+            var2 = var5.bind(var6)(var2);
+            var _closure2_slot0 = var2;
+            var5 = var3.roles;
+            var2 = var5.some;
+            var1 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = michal.bind(report)(entity);
-            report = zuuluu.guildId;
-            entity = argBar;
-            entity = entity === report;
-            if(!entity) { _fun00006_ip = 153; continue _fun00005 }
+            var2 = var2.bind(var5)(var1);
+            var5 = var3.guildId;
+            var1 = arg2;
+            var1 = var1 === var5;
+            if(!var1) { _fun0003_ip = 153; continue _fun0003 }
  133:
-            report = _closure1_slot0;
-            tangon = report.getUserIsAdmin;
-            zuuluu = zuuluu.guildId;
-            entity = tangon.bind(report)(zuuluu);
+            var5 = _closure1_slot0;
+            var4 = var5.getUserIsAdmin;
+            var3 = var3.guildId;
+            var1 = var4.bind(var5)(var3);
  153:
-            if(michal) { _fun00006_ip = 163; continue _fun00005 }
+            if(var2) { _fun0003_ip = 163; continue _fun0003 }
  156:
-            if(entity) { _fun00006_ip = 163; continue _fun00005 }
+            if(var1) { _fun0003_ip = 163; continue _fun0003 }
  159:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  163:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  167:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isUnusableRoleSubscriptionEmoji'] = michal;
-    return entity;
+    var3['isUnusableRoleSubscriptionEmoji'] = var2;
+    return var1;
 })();

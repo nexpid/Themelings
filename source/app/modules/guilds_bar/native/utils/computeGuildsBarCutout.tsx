@@ -1,117 +1,117 @@
 // app/modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PixelRatio;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GUILD_ITEM_SIZE;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.BADGE_PADDING;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.BADGE_SIZE;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: computeGuildsBarCutout
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PixelRatio;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GUILD_ITEM_SIZE;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.BADGE_PADDING;
+    var _closure1_slot4 = var7;
+    var4 = var4.BADGE_SIZE;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function computeGuildsBarCutout(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.position;
-            tangon = entity.containerSize;
-            offset = undefined;
-            if(!(tangon === offset)) { _fun00002_ip = 27; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.position;
+            var4 = var1.containerSize;
+            var10 = undefined;
+            if(!(var4 === var10)) { _fun0001_ip = 27; continue _fun0001 }
  20:
-            tangon = _closure1_slot3;
+            var4 = _closure1_slot3;
  27:
-            report = entity.width;
-            if(!(report === offset)) { _fun00002_ip = 43; continue _fun00001 }
+            var5 = var1.width;
+            if(!(var5 === var10)) { _fun0001_ip = 43; continue _fun0001 }
  36:
-            report = _closure1_slot5;
+            var5 = _closure1_slot5;
  43:
-            oscard = entity.height;
-            if(!(oscard === offset)) { _fun00002_ip = 59; continue _fun00001 }
+            var6 = var1.height;
+            if(!(var6 === var10)) { _fun0001_ip = 59; continue _fun0001 }
  52:
-            oscard = _closure1_slot5;
+            var6 = _closure1_slot5;
  59:
-            michal = entity.padding;
-            if(!(michal === offset)) { _fun00002_ip = 75; continue _fun00001 }
+            var2 = var1.padding;
+            if(!(var2 === var10)) { _fun0001_ip = 75; continue _fun0001 }
  68:
-            michal = _closure1_slot4;
+            var2 = _closure1_slot4;
  75:
-            verify = _closure1_slot2;
-            zuuluu = verify.roundToNearestPixel;
-            yankee = 2;
-            entity = yankee * michal;
-            entity = report + entity;
-            zuuluu = zuuluu.bind(verify)(entity);
-            report = verify.roundToNearestPixel;
-            entity = yankee * michal;
-            entity = oscard + entity;
-            report = report.bind(verify)(entity);
-            oscard = verify.roundToNearestPixel;
-            entity = global;
-            romeon = entity.Math;
-            entity = romeon.min;
-            entity = entity.bind(romeon)(zuuluu, report);
-            entity = entity / yankee;
-            oscard = oscard.bind(verify)(entity);
-            entity = {'shape': null, 'x': 0, 'y': 0};
-            verify = _closure1_slot0;
-            yankee = _closure1_slot1;
-            option = 3;
-            option = yankee[option];
-            option = verify.bind(offset)(option);
-            option = option.CutoutShape;
-            option = option.RoundedRect;
-            entity['shape'] = option;
-            entity['width'] = zuuluu;
-            entity['height'] = report;
-            entity['cornerRadius'] = oscard;
-            oscard = 'top-right';
-            if(!(oscard !== golfie)) { _fun00002_ip = 262; continue _fun00001 }
+            var9 = _closure1_slot2;
+            var3 = var9.roundToNearestPixel;
+            var11 = 2;
+            var1 = var11 * var2;
+            var1 = var5 + var1;
+            var3 = var3.bind(var9)(var1);
+            var5 = var9.roundToNearestPixel;
+            var1 = var11 * var2;
+            var1 = var6 + var1;
+            var5 = var5.bind(var9)(var1);
+            var6 = var9.roundToNearestPixel;
+            var1 = global;
+            var12 = var1.Math;
+            var1 = var12.min;
+            var1 = var1.bind(var12)(var3, var5);
+            var1 = var1 / var11;
+            var6 = var6.bind(var9)(var1);
+            var1 = {'shape': null, 'x': 0, 'y': 0};
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var8 = 3;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.CutoutShape;
+            var8 = var8.RoundedRect;
+            var1['shape'] = var8;
+            var1['width'] = var3;
+            var1['height'] = var5;
+            var1['cornerRadius'] = var6;
+            var6 = 'top-right';
+            if(!(var6 !== var7)) { _fun0001_ip = 262; continue _fun0001 }
  232:
-            oscard = tangon - zuuluu;
-            oscard = oscard + michal;
-            entity['x'] = oscard;
-            report = tangon - report;
-            report = report + michal;
-            entity['y'] = report;
-            _fun00002_ip = 285; continue _fun00001;
+            var6 = var4 - var3;
+            var6 = var6 + var2;
+            var1['x'] = var6;
+            var5 = var4 - var5;
+            var5 = var5 + var2;
+            var1['y'] = var5;
+            _fun0001_ip = 285; continue _fun0001;
  262:
-            zuuluu = tangon - zuuluu;
-            zuuluu = zuuluu + michal;
-            entity['x'] = zuuluu;
-            michal = -michal;
-            entity['y'] = michal;
+            var3 = var4 - var3;
+            var3 = var3 + var2;
+            var1['x'] = var3;
+            var2 = -var2;
+            var1['y'] = var2;
  285:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

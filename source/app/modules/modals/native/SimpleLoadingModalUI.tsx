@@ -1,267 +1,267 @@
 // app/modules/modals/native/SimpleLoadingModalUI.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    offset = 0;
-    golfie = oscard[offset];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    verify = 1;
-    tangon = oscard[verify];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ActivityIndicator;
-    var _closure1_slot3 = golfie;
-    golfie = tangon.Modal;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.View;
-    var _closure1_slot5 = tangon;
-    option = 2;
-    tangon = oscard[option];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    yankee = report.bind(entity)(tangon);
-    golfie = yankee.createStyles;
-    tangon = {};
-    romeon = {'flex': 1, 'alignItems': 'center', 'flexDirection': 'column', 'justifyContent': 'center'};
-    tangon['modalBackground'] = romeon;
-    tangon = golfie.bind(yankee)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = {};
-    tangon['OPENING'] = offset;
-    golfie = 'OPENING';
-    tangon[offset] = golfie;
-    tangon['SHOWN'] = verify;
-    golfie = 'SHOWN';
-    tangon[verify] = golfie;
-    tangon['DISMISSED'] = option;
-    golfie = 'DISMISSED';
-    tangon[option] = golfie;
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/modals/native/SimpleLoadingModalUI.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: SimpleLoadingModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var10 = 0;
+    var7 = var6[var10];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var9 = 1;
+    var4 = var6[var9];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ActivityIndicator;
+    var _closure1_slot3 = var7;
+    var7 = var4.Modal;
+    var _closure1_slot4 = var7;
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var8 = 2;
+    var4 = var6[var8];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var11 = var5.bind(var1)(var4);
+    var7 = var11.createStyles;
+    var4 = {};
+    var12 = {'flex': 1, 'alignItems': 'center', 'flexDirection': 'column', 'justifyContent': 'center'};
+    var4['modalBackground'] = var12;
+    var4 = var7.bind(var11)(var4);
+    var _closure1_slot7 = var4;
+    var4 = {};
+    var4['OPENING'] = var10;
+    var7 = 'OPENING';
+    var4[var10] = var7;
+    var4['SHOWN'] = var9;
+    var7 = 'SHOWN';
+    var4[var9] = var7;
+    var4['DISMISSED'] = var8;
+    var7 = 'DISMISSED';
+    var4[var8] = var7;
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/modals/native/SimpleLoadingModalUI.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function SimpleLoadingModal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            offset = zuuluu.operation;
-            var _closure2_slot0 = offset;
-            michal = zuuluu.onResolved;
-            tangon = undefined;
-            if(!(michal === tangon)) { _fun00002_ip = 32; continue _fun00001 }
+            var3 = arg1;
+            var10 = var3.operation;
+            var _closure2_slot0 = var10;
+            var2 = var3.onResolved;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0001_ip = 32; continue _fun0001 }
  27:
-            michal = function() { // Original name: I
-                entity = undefined;
-                return entity;
+            var2 = function I() {
+                var1 = undefined;
+                return var1;
             };
  32:
-            var _closure2_slot1 = michal;
-            entity = zuuluu.onRejected;
-            if(!(entity === tangon)) { _fun00002_ip = 51; continue _fun00001 }
+            var _closure2_slot1 = var2;
+            var1 = var3.onRejected;
+            if(!(var1 === var4)) { _fun0001_ip = 51; continue _fun0001 }
  46:
-            entity = function() { // Original name: f
-                entity = undefined;
-                return entity;
+            var1 = function f() {
+                var1 = undefined;
+                return var1;
             };
  51:
-            var _closure2_slot2 = entity;
-            oscard = zuuluu.cancelable;
-            if(!(oscard === tangon)) { _fun00002_ip = 67; continue _fun00001 }
+            var _closure2_slot2 = var1;
+            var6 = var3.cancelable;
+            if(!(var6 === var4)) { _fun0001_ip = 67; continue _fun0001 }
  65:
-            oscard = false;
+            var6 = false;
  67:
-            var _closure2_slot3 = oscard;
-            zuuluu = zuuluu.onDismissed;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 86; continue _fun00001 }
+            var _closure2_slot3 = var6;
+            var3 = var3.onDismissed;
+            if(!(var3 === var4)) { _fun0001_ip = 86; continue _fun0001 }
  81:
-            zuuluu = function() { // Original name: N
-                entity = undefined;
-                return entity;
+            var3 = function N() {
+                var1 = undefined;
+                return var1;
             };
  86:
-            var _closure2_slot4 = zuuluu;
-            var _closure2_slot5 = tangon;
-            var _closure2_slot6 = tangon;
-            var _closure2_slot7 = tangon;
-            var _closure2_slot8 = tangon;
-            oscard = _closure1_slot7;
-            golfie = oscard.bind(tangon)();
-            oscard = _closure1_slot2;
-            yankee = oscard.useRef;
-            option = _closure1_slot8;
-            option = option.OPENING;
-            option = yankee.bind(oscard)(option);
-            _closure2_slot5 = option;
-            yankee = oscard.useCallback;
-            option = new Array(1);
-            option[0] = zuuluu;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot4 = var3;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
+            var _closure2_slot8 = var4;
+            var6 = _closure1_slot7;
+            var7 = var6.bind(var4)();
+            var6 = _closure1_slot2;
+            var11 = var6.useRef;
+            var8 = _closure1_slot8;
+            var8 = var8.OPENING;
+            var8 = var11.bind(var6)(var8);
+            _closure2_slot5 = var8;
+            var11 = var6.useCallback;
+            var8 = new Array(1);
+            var8[0] = var3;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure2_slot5;
-                    tangon = entity.current;
-                    zuuluu = _closure1_slot8;
-                    zuuluu = zuuluu.SHOWN;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 39; continue _fun00003 }
+                    var1 = _closure2_slot5;
+                    var4 = var1.current;
+                    var3 = _closure1_slot8;
+                    var3 = var3.SHOWN;
+                    if(!(var4 === var3)) { _fun0002_ip = 39; continue _fun0002 }
  29:
-                    tangon = _closure2_slot4;
-                    zuuluu = undefined;
-                    zuuluu = tangon.bind(zuuluu)();
+                    var4 = _closure2_slot4;
+                    var3 = undefined;
+                    var3 = var4.bind(var3)();
  39:
-                    michal = _closure2_slot5;
-                    entity = _closure1_slot8;
-                    entity = entity.DISMISSED;
-                    michal['current'] = entity;
-                    entity = undefined;
-                    return entity;
+                    var2 = _closure2_slot5;
+                    var1 = _closure1_slot8;
+                    var1 = var1.DISMISSED;
+                    var2['current'] = var1;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            yankee = yankee.bind(oscard)(zuuluu, option);
-            _closure2_slot6 = yankee;
-            option = oscard.useCallback;
-            zuuluu = new Array(2);
-            zuuluu[0] = yankee;
-            zuuluu[1] = michal;
-            michal = function(argFoo) {
-                tangon = _closure2_slot1;
-                entity = undefined;
-                zuuluu = argFoo;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                michal = _closure2_slot6;
-                michal = michal.bind(entity)();
-                return entity;
+            var11 = var11.bind(var6)(var3, var8);
+            _closure2_slot6 = var11;
+            var8 = var6.useCallback;
+            var3 = new Array(2);
+            var3[0] = var11;
+            var3[1] = var2;
+            var2 = function(arg1) {
+                var4 = _closure2_slot1;
+                var1 = undefined;
+                var3 = arg1;
+                var3 = var4.bind(var1)(var3);
+                var2 = _closure2_slot6;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            option = option.bind(oscard)(michal, zuuluu);
-            _closure2_slot7 = option;
-            zuuluu = oscard.useCallback;
-            michal = new Array(2);
-            michal[0] = yankee;
-            michal[1] = entity;
-            entity = function(argFoo) {
-                tangon = _closure2_slot2;
-                entity = undefined;
-                zuuluu = argFoo;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                michal = _closure2_slot6;
-                michal = michal.bind(entity)();
-                return entity;
+            var8 = var8.bind(var6)(var2, var3);
+            _closure2_slot7 = var8;
+            var3 = var6.useCallback;
+            var2 = new Array(2);
+            var2[0] = var11;
+            var2[1] = var1;
+            var1 = function(arg1) {
+                var4 = _closure2_slot2;
+                var1 = undefined;
+                var3 = arg1;
+                var3 = var4.bind(var1)(var3);
+                var2 = _closure2_slot6;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            entity = zuuluu.bind(oscard)(entity, michal);
-            _closure2_slot8 = entity;
-            zuuluu = oscard.useEffect;
-            michal = new Array(3);
-            michal[0] = offset;
-            michal[1] = option;
-            michal[2] = entity;
-            entity = function() {
-                zuuluu = _closure2_slot0;
-                entity = undefined;
-                report = zuuluu.bind(entity)();
-                tangon = report.then;
-                zuuluu = function(argFoo) {
-                    zuuluu = _closure2_slot7;
-                    michal = undefined;
-                    entity = argFoo;
-                    entity = zuuluu.bind(michal)(entity);
-                    return entity;
+            var1 = var3.bind(var6)(var1, var2);
+            _closure2_slot8 = var1;
+            var3 = var6.useEffect;
+            var2 = new Array(3);
+            var2[0] = var10;
+            var2[1] = var8;
+            var2[2] = var1;
+            var1 = function() {
+                var3 = _closure2_slot0;
+                var1 = undefined;
+                var5 = var3.bind(var1)();
+                var4 = var5.then;
+                var3 = function(arg1) {
+                    var3 = _closure2_slot7;
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var3.bind(var2)(var1);
+                    return var1;
                 };
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.catch;
-                michal = function(argFoo) {
-                    zuuluu = _closure2_slot8;
-                    michal = undefined;
-                    entity = argFoo;
-                    entity = zuuluu.bind(michal)(entity);
-                    return entity;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.catch;
+                var2 = function(arg1) {
+                    var3 = _closure2_slot8;
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var3.bind(var2)(var1);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            entity = zuuluu.bind(oscard)(entity, michal);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot4;
-            entity = {'transparent': true, 'animationType': 'none'};
-            oscard = function() { // Original name: onShow
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = var3.bind(var6)(var1, var2);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot4;
+            var1 = {'transparent': true, 'animationType': 'none'};
+            var6 = function onShow() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure2_slot5;
-                    tangon = michal.current;
-                    zuuluu = _closure1_slot8;
-                    zuuluu = zuuluu.DISMISSED;
-                    if(!(tangon !== zuuluu)) { _fun00006_ip = 51; continue _fun00005 }
+                    var2 = _closure2_slot5;
+                    var4 = var2.current;
+                    var3 = _closure1_slot8;
+                    var3 = var3.DISMISSED;
+                    if(!(var4 !== var3)) { _fun0003_ip = 51; continue _fun0003 }
  29:
-                    zuuluu = _closure2_slot5;
-                    michal = _closure1_slot8;
-                    michal = michal.SHOWN;
-                    zuuluu['current'] = michal;
-                    _fun00006_ip = 61; continue _fun00005;
+                    var3 = _closure2_slot5;
+                    var2 = _closure1_slot8;
+                    var2 = var2.SHOWN;
+                    var3['current'] = var2;
+                    _fun0003_ip = 61; continue _fun0003;
  51:
-                    michal = _closure2_slot4;
-                    entity = undefined;
-                    entity = michal.bind(entity)();
+                    var2 = _closure2_slot4;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)();
  61:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity['onShow'] = oscard;
-            report = function() { // Original name: onRequestClose
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var1['onShow'] = var6;
+            var5 = function onRequestClose() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    michal = _closure2_slot3;
-                    if(!michal) { _fun00008_ip = 20; continue _fun00007 }
+                    var2 = _closure2_slot3;
+                    if(!var2) { _fun0004_ip = 20; continue _fun0004 }
  10:
-                    michal = _closure2_slot6;
-                    entity = undefined;
-                    entity = michal.bind(entity)();
+                    var2 = _closure2_slot6;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)();
  20:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity['onRequestClose'] = report;
-            oscard = _closure1_slot5;
-            report = {};
-            golfie = golfie.modalBackground;
-            report['style'] = golfie;
-            option = _closure1_slot3;
-            golfie = {'animating': true, 'color': null, 'size': 'large'};
-            offset = _closure1_slot0;
-            yankee = _closure1_slot1;
-            verify = 4;
-            verify = yankee[verify];
-            verify = offset.bind(tangon)(verify);
-            verify = verify.unsafe_rawColors;
-            verify = verify.BRAND_500;
-            golfie['color'] = verify;
-            golfie = zuuluu.bind(tangon)(option, golfie);
-            report['children'] = golfie;
-            report = zuuluu.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['onRequestClose'] = var5;
+            var6 = _closure1_slot5;
+            var5 = {};
+            var7 = var7.modalBackground;
+            var5['style'] = var7;
+            var8 = _closure1_slot3;
+            var7 = {'animating': true, 'color': null, 'size': 'large'};
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var9 = 4;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var9 = var9.unsafe_rawColors;
+            var9 = var9.BRAND_500;
+            var7['color'] = var9;
+            var7 = var3.bind(var4)(var8, var7);
+            var5['children'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

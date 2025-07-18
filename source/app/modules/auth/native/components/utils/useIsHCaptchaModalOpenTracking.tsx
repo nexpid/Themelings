@@ -1,120 +1,120 @@
 // app/modules/auth/native/components/utils/useIsHCaptchaModalOpenTracking.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.doesRegistrationHaveIdentityType;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.RegisterTransitionSteps;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.RegistrationTransitionActionTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/auth/native/components/utils/useIsHCaptchaModalOpenTracking.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useIsHCaptchaModalOpenTracking
-        report = _closure1_slot2;
-        tangon = report.useContext;
-        oscard = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 3;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        zuuluu = oscard.bind(entity)(zuuluu);
-        zuuluu = zuuluu.TrackRegistrationContext;
-        oscard = tangon.bind(report)(zuuluu);
-        var _closure2_slot0 = oscard;
-        tangon = report.useLayoutEffect;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.doesRegistrationHaveIdentityType;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.RegisterTransitionSteps;
+    var _closure1_slot4 = var7;
+    var4 = var4.RegistrationTransitionActionTypes;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/auth/native/components/utils/useIsHCaptchaModalOpenTracking.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsHCaptchaModalOpenTracking() {
+        var5 = _closure1_slot2;
+        var4 = var5.useContext;
+        var6 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 3;
+        var3 = var3[var1];
+        var1 = undefined;
+        var3 = var6.bind(var1)(var3);
+        var3 = var3.TrackRegistrationContext;
+        var6 = var4.bind(var5)(var3);
+        var _closure2_slot0 = var6;
+        var4 = var5.useLayoutEffect;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.getRootNavigationRef;
-                tangon = michal.bind(zuuluu)();
-                zuuluu = null;
-                report = zuuluu == tangon;
-                michal = undefined;
-                if(report) { _fun00002_ip = 51; continue _fun00001 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.getRootNavigationRef;
+                var4 = var2.bind(var3)();
+                var3 = null;
+                var5 = var3 == var4;
+                var2 = undefined;
+                if(var5) { _fun0001_ip = 51; continue _fun0001 }
  46:
-                michal = tangon.current;
+                var2 = var4.current;
  51:
-                if(!(zuuluu == michal)) { _fun00002_ip = 57; continue _fun00001 }
+                if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
  55:
-                return entity;
+                return var1;
  57:
-                zuuluu = tangon.addListener;
-                michal = 'state';
-                entity = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var3 = var4.addListener;
+                var2 = 'state';
+                var1 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 5;
-                        michal = michal[entity];
-                        entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        zuuluu = report.isModalOpen;
-                        michal = 'hcaptcha';
-                        michal = zuuluu.bind(report)(michal);
-                        if(!michal) { _fun00004_ip = 53; continue _fun00003 }
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 5;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var5 = var3.bind(var1)(var2);
+                        var3 = var5.isModalOpen;
+                        var2 = 'hcaptcha';
+                        var2 = var3.bind(var5)(var2);
+                        if(!var2) { _fun0002_ip = 53; continue _fun0002 }
  45:
-                        zuuluu = _closure1_slot3;
-                        michal = zuuluu.bind(entity)();
+                        var3 = _closure1_slot3;
+                        var2 = var3.bind(var1)();
  53:
-                        if(!michal) { _fun00004_ip = 100; continue _fun00003 }
+                        if(!var2) { _fun0002_ip = 100; continue _fun0002 }
  56:
-                        zuuluu = _closure2_slot0;
-                        michal = {};
-                        report = _closure1_slot4;
-                        report = report.CAPTCHA;
-                        michal['step'] = report;
-                        tangon = _closure1_slot5;
-                        tangon = tangon.VIEWED;
-                        michal['actionType'] = tangon;
-                        michal = zuuluu.bind(entity)(michal);
+                        var3 = _closure2_slot0;
+                        var2 = {};
+                        var5 = _closure1_slot4;
+                        var5 = var5.CAPTCHA;
+                        var2['step'] = var5;
+                        var4 = _closure1_slot5;
+                        var4 = var4.VIEWED;
+                        var2['actionType'] = var4;
+                        var2 = var3.bind(var1)(var2);
  100:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useIsHCaptchaModalOpenTracking'] = michal;
-    return entity;
+    var3['useIsHCaptchaModalOpenTracking'] = var2;
+    return var1;
 })();

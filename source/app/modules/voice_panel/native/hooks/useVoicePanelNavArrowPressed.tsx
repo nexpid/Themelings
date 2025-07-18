@@ -1,98 +1,98 @@
 // app/modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VoicePanelControlsModes;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useVoicePanelNavArrowPressed
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useContext;
-        oscard = _closure1_slot0;
-        report = _closure1_slot1;
-        michal = 2;
-        report = report[michal];
-        michal = undefined;
-        michal = oscard.bind(michal)(report);
-        michal = zuuluu.bind(tangon)(michal);
-        option = michal.focused;
-        var _closure2_slot0 = option;
-        report = michal.setFocused;
-        var _closure2_slot1 = report;
-        oscard = michal.dismissPanel;
-        var _closure2_slot2 = oscard;
-        golfie = michal.controlsSpecs;
-        var _closure2_slot3 = golfie;
-        zuuluu = tangon.useCallback;
-        michal = new Array(4);
-        michal[0] = option;
-        michal[1] = golfie;
-        michal[2] = oscard;
-        michal[3] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VoicePanelControlsModes;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/hooks/useVoicePanelNavArrowPressed.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVoicePanelNavArrowPressed() {
+        var4 = _closure1_slot2;
+        var3 = var4.useContext;
+        var6 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var2 = 2;
+        var5 = var5[var2];
+        var2 = undefined;
+        var2 = var6.bind(var2)(var5);
+        var2 = var3.bind(var4)(var2);
+        var8 = var2.focused;
+        var _closure2_slot0 = var8;
+        var5 = var2.setFocused;
+        var _closure2_slot1 = var5;
+        var6 = var2.dismissPanel;
+        var _closure2_slot2 = var6;
+        var7 = var2.controlsSpecs;
+        var _closure2_slot3 = var7;
+        var3 = var4.useCallback;
+        var2 = new Array(4);
+        var2[0] = var8;
+        var2[1] = var7;
+        var2[2] = var6;
+        var2[3] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = zuuluu.get;
-                report = entity.bind(zuuluu)();
-                tangon = null;
-                oscard = tangon == report;
-                zuuluu = undefined;
-                entity = undefined;
-                if(oscard) { _fun00002_ip = 34; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var1 = var3.get;
+                var5 = var1.bind(var3)();
+                var4 = null;
+                var6 = var4 == var5;
+                var3 = undefined;
+                var1 = undefined;
+                if(var6) { _fun0001_ip = 34; continue _fun0001 }
  29:
-                entity = report.id;
+                var1 = var5.id;
  34:
-                if(!(tangon != entity)) { _fun00002_ip = 73; continue _fun00001 }
+                if(!(var4 != var1)) { _fun0001_ip = 73; continue _fun0001 }
  38:
-                report = _closure2_slot3;
-                entity = report.get;
-                entity = entity.bind(report)();
-                report = entity.mode;
-                entity = _closure1_slot3;
-                entity = entity.DRAWER;
-                if(!(report === entity)) { _fun00002_ip = 83; continue _fun00001 }
+                var5 = _closure2_slot3;
+                var1 = var5.get;
+                var1 = var1.bind(var5)();
+                var5 = var1.mode;
+                var1 = _closure1_slot3;
+                var1 = var1.DRAWER;
+                if(!(var5 === var1)) { _fun0001_ip = 83; continue _fun0001 }
  73:
-                entity = _closure2_slot2;
-                entity = entity.bind(zuuluu)();
-                _fun00002_ip = 94; continue _fun00001;
+                var1 = _closure2_slot2;
+                var1 = var1.bind(var3)();
+                _fun0001_ip = 94; continue _fun0001;
  83:
-                michal = _closure2_slot1;
-                michal = michal.bind(zuuluu)(tangon);
-                entity = true;
+                var2 = _closure2_slot1;
+                var2 = var2.bind(var3)(var4);
+                var1 = true;
  94:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,192 +1,192 @@
 // app/modules/emojis/top_emojis/TopEmojisActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emojis/top_emojis/TopEmojisActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: fetchTopEmojis
-        option = argFoo;
-        var _closure2_slot0 = option;
-        tangon = _closure1_slot1;
-        report = _closure1_slot2;
-        entity = 1;
-        zuuluu = report[entity];
-        entity = undefined;
-        golfie = tangon.bind(entity)(zuuluu);
-        tangon = golfie.dispatch;
-        zuuluu = {};
-        verify = 'TOP_EMOJIS_FETCH';
-        zuuluu['type'] = verify;
-        zuuluu['guildId'] = option;
-        zuuluu = tangon.bind(golfie)(zuuluu);
-        tangon = _closure1_slot0;
-        zuuluu = 2;
-        zuuluu = report[zuuluu];
-        zuuluu = tangon.bind(entity)(zuuluu);
-        report = zuuluu.HTTP;
-        tangon = report.get;
-        zuuluu = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-        golfie = _closure1_slot3;
-        oscard = golfie.TOP_EMOJIS_FOR_GUILD;
-        oscard = oscard.bind(golfie)(option);
-        zuuluu['url'] = oscard;
-        report = tangon.bind(report)(zuuluu);
-        tangon = report.then;
-        zuuluu = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            report = 'TOP_EMOJIS_FETCH_SUCCESS';
-            entity['type'] = report;
-            report = _closure2_slot0;
-            entity['guildId'] = report;
-            report = argFoo;
-            report = report.body;
-            golfie = report.items;
-            oscard = golfie.map;
-            report = function(argFoo) {
-                michal = argFoo;
-                entity = {};
-                zuuluu = michal.emoji_id;
-                entity['emojiId'] = zuuluu;
-                michal = michal.emoji_rank;
-                entity['rank'] = michal;
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emojis/top_emojis/TopEmojisActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function fetchTopEmojis(arg1) {
+        var8 = arg1;
+        var _closure2_slot0 = var8;
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 1;
+        var3 = var5[var1];
+        var1 = undefined;
+        var7 = var4.bind(var1)(var3);
+        var4 = var7.dispatch;
+        var3 = {};
+        var9 = 'TOP_EMOJIS_FETCH';
+        var3['type'] = var9;
+        var3['guildId'] = var8;
+        var3 = var4.bind(var7)(var3);
+        var4 = _closure1_slot0;
+        var3 = 2;
+        var3 = var5[var3];
+        var3 = var4.bind(var1)(var3);
+        var5 = var3.HTTP;
+        var4 = var5.get;
+        var3 = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+        var7 = _closure1_slot3;
+        var6 = var7.TOP_EMOJIS_FOR_GUILD;
+        var6 = var6.bind(var7)(var8);
+        var3['url'] = var6;
+        var5 = var4.bind(var5)(var3);
+        var4 = var5.then;
+        var3 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'TOP_EMOJIS_FETCH_SUCCESS';
+            var1['type'] = var5;
+            var5 = _closure2_slot0;
+            var1['guildId'] = var5;
+            var5 = arg1;
+            var5 = var5.body;
+            var7 = var5.items;
+            var6 = var7.map;
+            var5 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.emoji_id;
+                var1['emojiId'] = var3;
+                var2 = var2.emoji_rank;
+                var1['rank'] = var2;
+                return var1;
             };
-            oscard = oscard.bind(golfie)(report);
-            report = oscard.sort;
-            tangon = function(argFoo, argBar) {
-                entity = argFoo;
-                michal = entity.rank;
-                entity = argBar;
-                entity = entity.rank;
-                entity = michal - entity;
-                return entity;
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.sort;
+            var4 = function(arg1, arg2) {
+                var1 = arg1;
+                var2 = var1.rank;
+                var1 = arg2;
+                var1 = var1.rank;
+                var1 = var2 - var1;
+                return var1;
             };
-            tangon = report.bind(oscard)(tangon);
-            entity['topEmojisMetadata'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var4 = var5.bind(var6)(var4);
+            var1['topEmojisMetadata'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            tangon = 'TOP_EMOJIS_FETCH_FAILURE';
-            entity['type'] = tangon;
-            tangon = _closure2_slot0;
-            entity['guildId'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var4 = 'TOP_EMOJIS_FETCH_FAILURE';
+            var1['type'] = var4;
+            var4 = _closure2_slot0;
+            var1['guildId'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['fetchTopEmojis'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: updateNewlyAddedLastSeen
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['fetchTopEmojis'] = var4;
+    var4 = function updateNewlyAddedLastSeen(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            golfie = _closure1_slot1;
-            entity = _closure1_slot2;
-            tangon = 1;
-            zuuluu = entity[tangon];
-            entity = undefined;
-            option = golfie.bind(entity)(zuuluu);
-            golfie = option.dispatch;
-            zuuluu = {};
-            verify = 'NEWLY_ADDED_EMOJI_SEEN_UPDATED';
-            zuuluu['type'] = verify;
-            zuuluu = golfie.bind(option)(zuuluu);
-            golfie = null;
-            zuuluu = golfie != oscard;
-            if(!zuuluu) { _fun00002_ip = 66; continue _fun00001 }
+            var6 = arg1;
+            var5 = arg2;
+            var7 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var4 = 1;
+            var3 = var1[var4];
+            var1 = undefined;
+            var8 = var7.bind(var1)(var3);
+            var7 = var8.dispatch;
+            var3 = {};
+            var9 = 'NEWLY_ADDED_EMOJI_SEEN_UPDATED';
+            var3['type'] = var9;
+            var3 = var7.bind(var8)(var3);
+            var7 = null;
+            var3 = var7 != var6;
+            if(!var3) { _fun0001_ip = 66; continue _fun0001 }
  62:
-            zuuluu = golfie != report;
+            var3 = var7 != var5;
  66:
-            if(!zuuluu) { _fun00002_ip = 117; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 117; continue _fun0001 }
  69:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[tangon];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            golfie = 'NEWLY_ADDED_EMOJI_SEEN_PENDING';
-            michal['type'] = golfie;
-            michal['guildId'] = oscard;
-            michal['emojiId'] = report;
-            michal = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var4];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var7 = 'NEWLY_ADDED_EMOJI_SEEN_PENDING';
+            var2['type'] = var7;
+            var2['guildId'] = var6;
+            var2['emojiId'] = var5;
+            var2 = var3.bind(var4)(var2);
  117:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['updateNewlyAddedLastSeen'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: updateNewlyAddedEmojiSeenAcknowledged
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['updateNewlyAddedLastSeen'] = var4;
+    var2 = function updateNewlyAddedEmojiSeenAcknowledged(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            michal = null;
-            entity = michal != report;
-            if(!entity) { _fun00004_ip = 19; continue _fun00003 }
+            var5 = arg1;
+            var4 = arg2;
+            var2 = null;
+            var1 = var2 != var5;
+            if(!var1) { _fun0002_ip = 19; continue _fun0002 }
  15:
-            entity = michal != tangon;
+            var1 = var2 != var4;
  19:
-            if(!entity) { _fun00004_ip = 78; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 78; continue _fun0002 }
  22:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            oscard = 'NEWLY_ADDED_EMOJI_SEEN_ACKNOWLEDGED';
-            entity['type'] = oscard;
-            entity['guildId'] = report;
-            entity['emojiId'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var6 = 'NEWLY_ADDED_EMOJI_SEEN_ACKNOWLEDGED';
+            var1['type'] = var6;
+            var1['guildId'] = var5;
+            var1['emojiId'] = var4;
+            var1 = var2.bind(var3)(var1);
  78:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['updateNewlyAddedEmojiSeenAcknowledged'] = michal;
-    return entity;
+    var3['updateNewlyAddedEmojiSeenAcknowledged'] = var2;
+    return var1;
 })();

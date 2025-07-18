@@ -1,130 +1,130 @@
 // app/modules/guild_role_subscriptions/useRoleSubscriptionFormat.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    option = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildRoleSubscriptionFormat;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    tangon = tangon.VIEW_CHANNEL;
-    var _closure1_slot7 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/useRoleSubscriptionFormat.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useRoleSubscriptionFormat
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 5;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        oscard = report.bind(zuuluu)(tangon);
-        report = oscard.useStateFromStores;
-        zuuluu = _closure1_slot5;
-        tangon = new Array(2);
-        tangon[0] = zuuluu;
-        zuuluu = _closure1_slot4;
-        tangon[1] = zuuluu;
-        zuuluu = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var8 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildRoleSubscriptionFormat;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var4 = var4.VIEW_CHANNEL;
+    var _closure1_slot7 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/useRoleSubscriptionFormat.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useRoleSubscriptionFormat(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 5;
+        var4 = var4[var3];
+        var3 = undefined;
+        var6 = var5.bind(var3)(var4);
+        var5 = var6.useStateFromStores;
+        var3 = _closure1_slot5;
+        var4 = new Array(2);
+        var4[0] = var3;
+        var3 = _closure1_slot4;
+        var4[1] = var3;
+        var3 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure1_slot5;
-                zuuluu = tangon.getGuild;
-                entity = _closure2_slot0;
-                tangon = zuuluu.bind(tangon)(entity);
-                entity = null;
-                zuuluu = entity != tangon;
-                entity = undefined;
-                if(!zuuluu) { _fun00002_ip = 50; continue _fun00001 }
+                var4 = _closure1_slot5;
+                var3 = var4.getGuild;
+                var1 = _closure2_slot0;
+                var4 = var3.bind(var4)(var1);
+                var1 = null;
+                var3 = var1 != var4;
+                var1 = undefined;
+                if(!var3) { _fun0001_ip = 50; continue _fun0001 }
  35:
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.getEveryoneRole;
-                entity = michal.bind(zuuluu)(tangon);
+                var3 = _closure1_slot4;
+                var2 = var3.getEveryoneRole;
+                var1 = var2.bind(var3)(var4);
  50:
-                return entity;
+                return var1;
             }
         };
-        oscard = report.bind(oscard)(tangon, zuuluu);
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot3;
-        tangon = report.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = var5.bind(var6)(var4, var3);
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot3;
+        var4 = var5.useMemo;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure2_slot1;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00004_ip = 78; continue _fun00003 }
+                var3 = _closure2_slot1;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0002_ip = 78; continue _fun0002 }
  13:
-                report = _closure1_slot1;
-                tangon = _closure1_slot2;
-                zuuluu = 6;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                report = report.bind(zuuluu)(tangon);
-                tangon = report.has;
-                michal = _closure2_slot1;
-                zuuluu = michal.permissions;
-                michal = _closure1_slot7;
-                michal = tangon.bind(report)(zuuluu, michal);
-                if(michal) { _fun00004_ip = 78; continue _fun00003 }
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var3 = 6;
+                var4 = var4[var3];
+                var3 = undefined;
+                var5 = var5.bind(var3)(var4);
+                var4 = var5.has;
+                var2 = _closure2_slot1;
+                var3 = var2.permissions;
+                var2 = _closure1_slot7;
+                var2 = var4.bind(var5)(var3, var2);
+                if(var2) { _fun0002_ip = 78; continue _fun0002 }
  66:
-                entity = _closure1_slot6;
-                entity = entity.ALL_CHANNELS;
-                _fun00004_ip = 91; continue _fun00003;
+                var1 = _closure1_slot6;
+                var1 = var1.ALL_CHANNELS;
+                _fun0002_ip = 91; continue _fun0002;
  78:
-                michal = _closure1_slot6;
-                entity = michal.SOME_CHANNELS;
+                var2 = _closure1_slot6;
+                var1 = var2.SOME_CHANNELS;
  91:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = tangon.bind(report)(entity, zuuluu);
-        entity = {};
-        entity['format'] = zuuluu;
-        michal = _closure1_slot6;
-        michal = michal.ALL_CHANNELS;
-        michal = zuuluu === michal;
-        entity['isFullServerGating'] = michal;
-        return entity;
+        var3 = var4.bind(var5)(var1, var3);
+        var1 = {};
+        var1['format'] = var3;
+        var2 = _closure1_slot6;
+        var2 = var2.ALL_CHANNELS;
+        var2 = var3 === var2;
+        var1['isFullServerGating'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

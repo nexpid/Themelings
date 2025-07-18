@@ -1,237 +1,237 @@
 // app/modules/pomelo/native/components/PomeloModalStepContainer.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    option = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.ScrollView;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    offset = report.bind(entity)(tangon);
-    verify = offset.createStyles;
-    golfie = {};
-    tangon = {'flex': 1, 'flexDirection': 'column'};
-    romeon = 4;
-    yankee = oscard[romeon];
-    yankee = foxtra.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BACKGROUND_PRIMARY;
-    tangon['backgroundColor'] = yankee;
-    golfie['container'] = tangon;
-    tangon = {'width': '100%', 'flexDirection': 'column', 'marginTop': 16, 'marginBottom': 16};
-    golfie['actionContainer'] = tangon;
-    tangon = {'textAlign': 'center', 'marginBottom': 12};
-    golfie['infoText'] = tangon;
-    tangon = {'paddingHorizontal': 16, 'alignItems': 'center', 'flexGrow': 1};
-    golfie['scrollContainer'] = tangon;
-    yankee = {};
-    tangon = 8;
-    yankee['paddingTop'] = tangon;
-    golfie['space8'] = yankee;
-    yankee = {'shadowColor': null, 'shadowOpacity': 1, 'shadowOffset': null, 'shadowRadius': 12, 'elevation': 4};
-    romeon = oscard[romeon];
-    romeon = foxtra.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BACKGROUND_SECONDARY;
-    yankee['shadowColor'] = romeon;
-    romeon = {'height': 4294967272, 'width': 0};
-    yankee['shadowOffset'] = romeon;
-    golfie['shadow'] = yankee;
-    golfie = verify.bind(offset)(golfie);
-    var _closure1_slot7 = golfie;
-    golfie = option.forwardRef;
-    michal = function(argFoo, argBar) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var13 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.View;
+    var _closure1_slot3 = var7;
+    var4 = var4.ScrollView;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var10 = var5.bind(var1)(var4);
+    var9 = var10.createStyles;
+    var7 = {};
+    var4 = {'flex': 1, 'flexDirection': 'column'};
+    var12 = 4;
+    var11 = var6[var12];
+    var11 = var13.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_PRIMARY;
+    var4['backgroundColor'] = var11;
+    var7['container'] = var4;
+    var4 = {'width': '100%', 'flexDirection': 'column', 'marginTop': 16, 'marginBottom': 16};
+    var7['actionContainer'] = var4;
+    var4 = {'textAlign': 'center', 'marginBottom': 12};
+    var7['infoText'] = var4;
+    var4 = {'paddingHorizontal': 16, 'alignItems': 'center', 'flexGrow': 1};
+    var7['scrollContainer'] = var4;
+    var11 = {};
+    var4 = 8;
+    var11['paddingTop'] = var4;
+    var7['space8'] = var11;
+    var11 = {'shadowColor': null, 'shadowOpacity': 1, 'shadowOffset': null, 'shadowRadius': 12, 'elevation': 4};
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_SECONDARY;
+    var11['shadowColor'] = var12;
+    var12 = {'height': 4294967272, 'width': 0};
+    var11['shadowOffset'] = var12;
+    var7['shadow'] = var11;
+    var7 = var9.bind(var10)(var7);
+    var _closure1_slot7 = var7;
+    var7 = var8.forwardRef;
+    var2 = function(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.action;
-            golfie = entity.secondaryAction;
-            report = entity.infoText;
-            option = entity.absoluteBottom;
-            tangon = undefined;
-            if(!(option === tangon)) { _fun00002_ip = 34; continue _fun00001 }
+            var1 = arg1;
+            var11 = var1.action;
+            var7 = var1.secondaryAction;
+            var5 = var1.infoText;
+            var8 = var1.absoluteBottom;
+            var4 = undefined;
+            if(!(var8 === var4)) { _fun0001_ip = 34; continue _fun0001 }
  32:
-            option = false;
+            var8 = false;
  34:
-            sizing = entity.hasNavbar;
-            if(!(sizing === tangon)) { _fun00002_ip = 46; continue _fun00001 }
+            var16 = var1.hasNavbar;
+            if(!(var16 === var4)) { _fun0001_ip = 46; continue _fun0001 }
  44:
-            sizing = true;
+            var16 = true;
  46:
-            verify = entity.fixActionButtonsToBottom;
-            if(!(verify === tangon)) { _fun00002_ip = 58; continue _fun00001 }
+            var9 = var1.fixActionButtonsToBottom;
+            if(!(var9 === var4)) { _fun0001_ip = 58; continue _fun0001 }
  56:
-            verify = false;
+            var9 = false;
  58:
-            backup = entity.children;
-            entity = _closure1_slot7;
-            romeon = entity.bind(tangon)();
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.bind(tangon)();
-            offset = entity.insets;
-            oscard = null;
-            entity = oscard != report;
-            output = null;
-            if(!entity) { _fun00002_ip = 180; continue _fun00001 }
+            var14 = var1.children;
+            var1 = _closure1_slot7;
+            var12 = var1.bind(var4)();
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var10 = var1.insets;
+            var6 = null;
+            var1 = var6 != var5;
+            var17 = null;
+            if(!var1) { _fun0001_ip = 180; continue _fun0001 }
  115:
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            entity = 6;
-            entity = kiloes[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Text;
-            entity = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-normal'};
-            kiloes = romeon.infoText;
-            entity['style'] = kiloes;
-            entity['children'] = report;
-            output = zuuluu.bind(tangon)(michal, entity);
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var1 = 6;
+            var1 = var15[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Text;
+            var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-normal'};
+            var15 = var12.infoText;
+            var1['style'] = var15;
+            var1['children'] = var5;
+            var17 = var3.bind(var4)(var2, var1);
  180:
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot3;
-            entity = {};
-            kiloes = romeon.actionContainer;
-            report = new Array(3);
-            report[0] = kiloes;
-            result = {};
-            echoed = 0;
-            if(!verify) { _fun00002_ip = 214; continue _fun00001 }
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var15 = var12.actionContainer;
+            var5 = new Array(3);
+            var5[0] = var15;
+            var18 = {};
+            var19 = 0;
+            if(!var9) { _fun0001_ip = 214; continue _fun0001 }
  211:
-            echoed = 16;
+            var19 = 16;
  214:
-            result['paddingHorizontal'] = echoed;
-            report[1] = result;
-            result = null;
-            if(!verify) { _fun00002_ip = 233; continue _fun00001 }
+            var18['paddingHorizontal'] = var19;
+            var5[1] = var18;
+            var18 = null;
+            if(!var9) { _fun0001_ip = 233; continue _fun0001 }
  227:
-            result = romeon.shadow;
+            var18 = var12.shadow;
  233:
-            report[2] = result;
-            entity['style'] = report;
-            report = new Array(4);
-            report[0] = output;
-            report[1] = yankee;
-            yankee = oscard != golfie;
-            if(!yankee) { _fun00002_ip = 286; continue _fun00001 }
+            var5[2] = var18;
+            var1['style'] = var5;
+            var5 = new Array(4);
+            var5[0] = var17;
+            var5[1] = var11;
+            var11 = var6 != var7;
+            if(!var11) { _fun0001_ip = 286; continue _fun0001 }
  260:
-            echoed = _closure1_slot5;
-            result = _closure1_slot3;
-            output = {};
-            update = romeon.space8;
-            output['style'] = update;
-            yankee = echoed.bind(tangon)(result, output);
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot3;
+            var17 = {};
+            var20 = var12.space8;
+            var17['style'] = var20;
+            var11 = var19.bind(var4)(var18, var17);
  286:
-            report[2] = yankee;
-            report[3] = golfie;
-            entity['children'] = report;
-            golfie = zuuluu.bind(tangon)(michal, entity);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot3;
-            entity = {};
-            report = {};
-            source = romeon.container;
-            ctrled = report;
-            yankee = copyDataProperties(ctrled, source);
-            yankee = offset.top;
-            kiloes = 0;
-            if(!sizing) { _fun00002_ip = 364; continue _fun00001 }
+            var5[2] = var11;
+            var5[3] = var7;
+            var1['children'] = var5;
+            var7 = var3.bind(var4)(var2, var1);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = {};
+            var21 = var12.container;
+            var22 = var5;
+            var11 = copyDataProperties(var22, var21);
+            var11 = var10.top;
+            var15 = 0;
+            if(!var16) { _fun0001_ip = 364; continue _fun0001 }
  338:
-            output = _closure1_slot0;
-            result = _closure1_slot2;
-            sizing = 7;
-            sizing = result[sizing];
-            sizing = output.bind(tangon)(sizing);
-            kiloes = sizing.NAV_BAR_HEIGHT;
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var16 = 7;
+            var16 = var18[var16];
+            var16 = var17.bind(var4)(var16);
+            var15 = var16.NAV_BAR_HEIGHT;
  364:
-            kiloes = yankee + kiloes;
-            yankee = 'paddingTop';
-            report[yankee] = kiloes;
-            yankee = offset.bottom;
-            offset = 'paddingBottom';
-            report[offset] = yankee;
-            entity['style'] = report;
-            yankee = _closure1_slot6;
-            offset = _closure1_slot4;
-            report = {'contentContainerStyle': null, 'showsVerticalScrollIndicator': false, 'keyboardShouldPersistTaps': 'handled'};
-            romeon = romeon.scrollContainer;
-            report['contentContainerStyle'] = romeon;
-            romeon = argBar;
-            report['ref'] = romeon;
-            romeon = new Array(3);
-            romeon[0] = backup;
-            if(!option) { _fun00002_ip = 476; continue _fun00001 }
+            var15 = var11 + var15;
+            var11 = 'paddingTop';
+            var5[var11] = var15;
+            var11 = var10.bottom;
+            var10 = 'paddingBottom';
+            var5[var10] = var11;
+            var1['style'] = var5;
+            var11 = _closure1_slot6;
+            var10 = _closure1_slot4;
+            var5 = {'contentContainerStyle': null, 'showsVerticalScrollIndicator': false, 'keyboardShouldPersistTaps': 'handled'};
+            var12 = var12.scrollContainer;
+            var5['contentContainerStyle'] = var12;
+            var12 = arg2;
+            var5['ref'] = var12;
+            var12 = new Array(3);
+            var12[0] = var14;
+            if(!var8) { _fun0001_ip = 476; continue _fun0001 }
  447:
-            kiloes = _closure1_slot5;
-            backup = _closure1_slot3;
-            foxtra = {};
-            sizing = {};
-            output = 1;
-            sizing['flex'] = output;
-            foxtra['style'] = sizing;
-            option = kiloes.bind(tangon)(backup, foxtra);
+            var15 = _closure1_slot5;
+            var14 = _closure1_slot3;
+            var13 = {};
+            var16 = {};
+            var17 = 1;
+            var16['flex'] = var17;
+            var13['style'] = var16;
+            var8 = var15.bind(var4)(var14, var13);
  476:
-            romeon[1] = option;
-            option = true;
-            foxtra = null;
-            if(!(option !== verify)) { _fun00002_ip = 491; continue _fun00001 }
+            var12[1] = var8;
+            var8 = true;
+            var13 = null;
+            if(!(var8 !== var9)) { _fun0001_ip = 491; continue _fun0001 }
  488:
-            foxtra = golfie;
+            var13 = var7;
  491:
-            romeon[2] = foxtra;
-            report['children'] = romeon;
-            offset = yankee.bind(tangon)(offset, report);
-            report = new Array(2);
-            report[0] = offset;
-            oscard = null;
-            if(!(option === verify)) { _fun00002_ip = 522; continue _fun00001 }
+            var12[2] = var13;
+            var5['children'] = var12;
+            var10 = var11.bind(var4)(var10, var5);
+            var5 = new Array(2);
+            var5[0] = var10;
+            var6 = null;
+            if(!(var8 === var9)) { _fun0001_ip = 522; continue _fun0001 }
  519:
-            oscard = golfie;
+            var6 = var7;
  522:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = golfie.bind(option)(michal);
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/pomelo/native/components/PomeloModalStepContainer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var7.bind(var8)(var2);
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/pomelo/native/components/PomeloModalStepContainer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

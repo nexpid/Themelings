@@ -1,302 +1,302 @@
 // app/utils/checkEnv.tsx
-export default (function(argFoo, argBar, _, __, ___, ____, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        michal = argFoo;
-        entity = global;
-        zuuluu = entity.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        report = null;
-        if(!(report == zuuluu)) { _fun00002_ip = 37; continue _fun00001 }
+        var2 = native1;
+        var1 = global;
+        var3 = var1.window;
+        var3 = var3.GLOBAL_ENV;
+        var5 = null;
+        if(!(var5 == var3)) { _fun0001_ip = 37; continue _fun0001 }
  23:
-        tangon = entity.window;
-        zuuluu = {};
-        tangon['GLOBAL_ENV'] = zuuluu;
+        var4 = var1.window;
+        var3 = {};
+        var4['GLOBAL_ENV'] = var3;
  37:
-        zuuluu = entity.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        zuuluu = zuuluu.API_VERSION;
-        zuuluu = report != zuuluu;
-        if(zuuluu) { _fun00002_ip = 84; continue _fun00001 }
+        var3 = var1.window;
+        var3 = var3.GLOBAL_ENV;
+        var3 = var3.API_VERSION;
+        var3 = var5 != var3;
+        if(var3) { _fun0001_ip = 84; continue _fun0001 }
  62:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.API_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.API_ENDPOINT;
+        var3 = var5 != var4;
  84:
-        if(zuuluu) { _fun00002_ip = 109; continue _fun00001 }
+        if(var3) { _fun0001_ip = 109; continue _fun0001 }
  87:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.GATEWAY_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.GATEWAY_ENDPOINT;
+        var3 = var5 != var4;
  109:
-        if(zuuluu) { _fun00002_ip = 134; continue _fun00001 }
+        if(var3) { _fun0001_ip = 134; continue _fun0001 }
  112:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.WEBAPP_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.WEBAPP_ENDPOINT;
+        var3 = var5 != var4;
  134:
-        if(zuuluu) { _fun00002_ip = 159; continue _fun00001 }
+        if(var3) { _fun0001_ip = 159; continue _fun0001 }
  137:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.CDN_HOST;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.CDN_HOST;
+        var3 = var5 != var4;
  159:
-        if(zuuluu) { _fun00002_ip = 184; continue _fun00001 }
+        if(var3) { _fun0001_ip = 184; continue _fun0001 }
  162:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.ASSET_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.ASSET_ENDPOINT;
+        var3 = var5 != var4;
  184:
-        if(zuuluu) { _fun00002_ip = 209; continue _fun00001 }
+        if(var3) { _fun0001_ip = 209; continue _fun0001 }
  187:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.MEDIA_PROXY_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.MEDIA_PROXY_ENDPOINT;
+        var3 = var5 != var4;
  209:
-        if(zuuluu) { _fun00002_ip = 234; continue _fun00001 }
+        if(var3) { _fun0001_ip = 234; continue _fun0001 }
  212:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.IMAGE_PROXY_ENDPOINTS;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.IMAGE_PROXY_ENDPOINTS;
+        var3 = var5 != var4;
  234:
-        if(zuuluu) { _fun00002_ip = 259; continue _fun00001 }
+        if(var3) { _fun0001_ip = 259; continue _fun0001 }
  237:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.WIDGET_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.WIDGET_ENDPOINT;
+        var3 = var5 != var4;
  259:
-        if(zuuluu) { _fun00002_ip = 284; continue _fun00001 }
+        if(var3) { _fun0001_ip = 284; continue _fun0001 }
  262:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.INVITE_HOST;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.INVITE_HOST;
+        var3 = var5 != var4;
  284:
-        if(zuuluu) { _fun00002_ip = 309; continue _fun00001 }
+        if(var3) { _fun0001_ip = 309; continue _fun0001 }
  287:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.GUILD_TEMPLATE_HOST;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.GUILD_TEMPLATE_HOST;
+        var3 = var5 != var4;
  309:
-        if(zuuluu) { _fun00002_ip = 334; continue _fun00001 }
+        if(var3) { _fun0001_ip = 334; continue _fun0001 }
  312:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.GIFT_CODE_HOST;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.GIFT_CODE_HOST;
+        var3 = var5 != var4;
  334:
-        if(zuuluu) { _fun00002_ip = 359; continue _fun00001 }
+        if(var3) { _fun0001_ip = 359; continue _fun0001 }
  337:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.RELEASE_CHANNEL;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.RELEASE_CHANNEL;
+        var3 = var5 != var4;
  359:
-        if(zuuluu) { _fun00002_ip = 384; continue _fun00001 }
+        if(var3) { _fun0001_ip = 384; continue _fun0001 }
  362:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.DEVELOPERS_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.DEVELOPERS_ENDPOINT;
+        var3 = var5 != var4;
  384:
-        if(zuuluu) { _fun00002_ip = 409; continue _fun00001 }
+        if(var3) { _fun0001_ip = 409; continue _fun0001 }
  387:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.MARKETING_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.MARKETING_ENDPOINT;
+        var3 = var5 != var4;
  409:
-        if(zuuluu) { _fun00002_ip = 434; continue _fun00001 }
+        if(var3) { _fun0001_ip = 434; continue _fun0001 }
  412:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.NETWORKING_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.NETWORKING_ENDPOINT;
+        var3 = var5 != var4;
  434:
-        if(zuuluu) { _fun00002_ip = 459; continue _fun00001 }
+        if(var3) { _fun0001_ip = 459; continue _fun0001 }
  437:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.BRAINTREE_KEY;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.BRAINTREE_KEY;
+        var3 = var5 != var4;
  459:
-        if(zuuluu) { _fun00002_ip = 484; continue _fun00001 }
+        if(var3) { _fun0001_ip = 484; continue _fun0001 }
  462:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.STRIPE_KEY;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.STRIPE_KEY;
+        var3 = var5 != var4;
  484:
-        if(zuuluu) { _fun00002_ip = 509; continue _fun00001 }
+        if(var3) { _fun0001_ip = 509; continue _fun0001 }
  487:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.ADYEN_KEY;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.ADYEN_KEY;
+        var3 = var5 != var4;
  509:
-        if(zuuluu) { _fun00002_ip = 534; continue _fun00001 }
+        if(var3) { _fun0001_ip = 534; continue _fun0001 }
  512:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.PROJECT_ENV;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.PROJECT_ENV;
+        var3 = var5 != var4;
  534:
-        if(zuuluu) { _fun00002_ip = 559; continue _fun00001 }
+        if(var3) { _fun0001_ip = 559; continue _fun0001 }
  537:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.REMOTE_AUTH_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.REMOTE_AUTH_ENDPOINT;
+        var3 = var5 != var4;
  559:
-        if(zuuluu) { _fun00002_ip = 584; continue _fun00001 }
+        if(var3) { _fun0001_ip = 584; continue _fun0001 }
  562:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.RTC_LATENCY_ENDPOINT;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.RTC_LATENCY_ENDPOINT;
+        var3 = var5 != var4;
  584:
-        if(zuuluu) { _fun00002_ip = 609; continue _fun00001 }
+        if(var3) { _fun0001_ip = 609; continue _fun0001 }
  587:
-        tangon = entity.window;
-        tangon = tangon.GLOBAL_ENV;
-        tangon = tangon.ACTIVITY_APPLICATION_HOST;
-        zuuluu = report != tangon;
+        var4 = var1.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.ACTIVITY_APPLICATION_HOST;
+        var3 = var5 != var4;
  609:
-        if(zuuluu) { _fun00002_ip = 630; continue _fun00001 }
+        if(var3) { _fun0001_ip = 630; continue _fun0001 }
  612:
-        zuuluu = entity.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        zuuluu = zuuluu.PUBLIC_PATH;
+        var3 = var1.window;
+        var3 = var3.GLOBAL_ENV;
+        var3 = var3.PUBLIC_PATH;
  630:
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = '//discord.com/api';
-        tangon['API_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 9;
-        tangon['API_VERSION'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'wss://gateway.discord.gg';
-        tangon['GATEWAY_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        tangon = '//discord.com';
-        zuuluu['WEBAPP_ENDPOINT'] = tangon;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = 'cdn.discordapp.com';
-        report['CDN_HOST'] = zuuluu;
-        zuuluu = michal.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        zuuluu['ASSET_ENDPOINT'] = tangon;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = '//media.discordapp.net';
-        report['MEDIA_PROXY_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = '//images-ext-1.discordapp.net,//images-ext-2.discordapp.net';
-        report['IMAGE_PROXY_ENDPOINTS'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = '//discord.com/widget';
-        report['WIDGET_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = 'discord.gg';
-        report['INVITE_HOST'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = 'discord.new';
-        report['GUILD_TEMPLATE_HOST'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = 'discord.gift';
-        report['GIFT_CODE_HOST'] = zuuluu;
-        zuuluu = michal.window;
-        report = zuuluu.GLOBAL_ENV;
-        zuuluu = 'alpha';
-        report['RELEASE_CHANNEL'] = zuuluu;
-        zuuluu = michal.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        zuuluu['DEVELOPERS_ENDPOINT'] = tangon;
-        zuuluu = michal.window;
-        zuuluu = zuuluu.GLOBAL_ENV;
-        zuuluu['MARKETING_ENDPOINT'] = tangon;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = '//router.discordapp.net';
-        tangon['NETWORKING_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'production_ktzp8hfp_49pp2rp4phym7387';
-        tangon['BRAINTREE_KEY'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi';
-        tangon['STRIPE_KEY'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'live_E3OQ33V6GVGTXOVQZEAFQJ6DJIDVG6SY';
-        tangon['ADYEN_KEY'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'production';
-        tangon['PROJECT_ENV'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = '//remote-auth-gateway.discord.gg';
-        tangon['REMOTE_AUTH_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = {};
-        tangon['SENTRY_TAGS'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'https://discordapp.com';
-        tangon['MIGRATION_SOURCE_ORIGIN'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'https://discord.com';
-        tangon['MIGRATION_DESTINATION_ORIGIN'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = '//latency.discord.media/rtc';
-        tangon['RTC_LATENCY_ENDPOINT'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = 'discordsays.com';
-        tangon['ACTIVITY_APPLICATION_HOST'] = zuuluu;
-        zuuluu = michal.window;
-        tangon = zuuluu.GLOBAL_ENV;
-        zuuluu = '/';
-        tangon['PUBLIC_PATH'] = zuuluu;
-        michal = michal.window;
-        michal = michal.GLOBAL_ENV;
-        entity = entity.process;
-        entity = entity.env;
-        entity = entity.DEV_SESSION_KEY;
-        michal['DEV_SESSION_KEY'] = entity;
-        michal = argPlu;
-        entity = 0;
-        zuuluu = michal[entity];
-        michal = argBar;
-        entity = undefined;
-        tangon = michal.bind(entity)(zuuluu);
-        zuuluu = tangon.fileFinishedImporting;
-        michal = 'utils/checkEnv.tsx';
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = '//discord.com/api';
+        var4['API_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 9;
+        var4['API_VERSION'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'wss://gateway.discord.gg';
+        var4['GATEWAY_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var3 = var3.GLOBAL_ENV;
+        var4 = '//discord.com';
+        var3['WEBAPP_ENDPOINT'] = var4;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = 'cdn.discordapp.com';
+        var5['CDN_HOST'] = var3;
+        var3 = var2.window;
+        var3 = var3.GLOBAL_ENV;
+        var3['ASSET_ENDPOINT'] = var4;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = '//media.discordapp.net';
+        var5['MEDIA_PROXY_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = '//images-ext-1.discordapp.net,//images-ext-2.discordapp.net';
+        var5['IMAGE_PROXY_ENDPOINTS'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = '//discord.com/widget';
+        var5['WIDGET_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = 'discord.gg';
+        var5['INVITE_HOST'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = 'discord.new';
+        var5['GUILD_TEMPLATE_HOST'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = 'discord.gift';
+        var5['GIFT_CODE_HOST'] = var3;
+        var3 = var2.window;
+        var5 = var3.GLOBAL_ENV;
+        var3 = 'alpha';
+        var5['RELEASE_CHANNEL'] = var3;
+        var3 = var2.window;
+        var3 = var3.GLOBAL_ENV;
+        var3['DEVELOPERS_ENDPOINT'] = var4;
+        var3 = var2.window;
+        var3 = var3.GLOBAL_ENV;
+        var3['MARKETING_ENDPOINT'] = var4;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = '//router.discordapp.net';
+        var4['NETWORKING_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'production_ktzp8hfp_49pp2rp4phym7387';
+        var4['BRAINTREE_KEY'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi';
+        var4['STRIPE_KEY'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'live_E3OQ33V6GVGTXOVQZEAFQJ6DJIDVG6SY';
+        var4['ADYEN_KEY'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'production';
+        var4['PROJECT_ENV'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = '//remote-auth-gateway.discord.gg';
+        var4['REMOTE_AUTH_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = {};
+        var4['SENTRY_TAGS'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'https://discordapp.com';
+        var4['MIGRATION_SOURCE_ORIGIN'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'https://discord.com';
+        var4['MIGRATION_DESTINATION_ORIGIN'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = '//latency.discord.media/rtc';
+        var4['RTC_LATENCY_ENDPOINT'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = 'discordsays.com';
+        var4['ACTIVITY_APPLICATION_HOST'] = var3;
+        var3 = var2.window;
+        var4 = var3.GLOBAL_ENV;
+        var3 = '/';
+        var4['PUBLIC_PATH'] = var3;
+        var2 = var2.window;
+        var2 = var2.GLOBAL_ENV;
+        var1 = var1.process;
+        var1 = var1.env;
+        var1 = var1.DEV_SESSION_KEY;
+        var2['DEV_SESSION_KEY'] = var1;
+        var2 = native7;
+        var1 = 0;
+        var3 = var2[var1];
+        var2 = native2;
+        var1 = undefined;
+        var4 = var2.bind(var1)(var3);
+        var3 = var4.fileFinishedImporting;
+        var2 = 'utils/checkEnv.tsx';
+        var2 = var3.bind(var4)(var2);
+        return var1;
     }
 })();

@@ -1,99 +1,99 @@
 // app/modules/guild_settings/GuildContentLevelSettingExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    yankee = true;
-    tangon['value'] = yankee;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    verify = tangon.CommonTriggerPoints;
-    tangon = 1;
-    tangon = golfie[tangon];
-    option = oscard.bind(entity)(tangon);
-    report = option.createExperiment;
-    tangon = {'kind': 'guild', 'id': '2025-06_server_content_level_setting', 'label': 'Guild content level setting'};
-    offset = {};
-    romeon = false;
-    offset['enabled'] = romeon;
-    tangon['defaultConfig'] = offset;
-    verify = verify.CONNECTION_OPEN;
-    tangon['commonTriggerPoint'] = verify;
-    offset = {'id': 1, 'label': 'Guild content level setting'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    tangon['treatments'] = verify;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot0 = tangon;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_settings/GuildContentLevelSettingExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['GuildContentLevelSettingExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForGuildContentLevelSetting
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var11 = true;
+    var4['value'] = var11;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var9 = var4.CommonTriggerPoints;
+    var4 = 1;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createExperiment;
+    var4 = {'kind': 'guild', 'id': '2025-06_server_content_level_setting', 'label': 'Guild content level setting'};
+    var10 = {};
+    var12 = false;
+    var10['enabled'] = var12;
+    var4['defaultConfig'] = var10;
+    var9 = var9.CONNECTION_OPEN;
+    var4['commonTriggerPoint'] = var9;
+    var10 = {'id': 1, 'label': 'Guild content level setting'};
+    var9 = {};
+    var9['enabled'] = var11;
+    var10['config'] = var9;
+    var9 = new Array(1);
+    var9[0] = var10;
+    var4['treatments'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot0 = var4;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_settings/GuildContentLevelSettingExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['GuildContentLevelSettingExperiment'] = var4;
+    var4 = function isEligibleForGuildContentLevelSetting(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.guildId;
-            entity = entity.location;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['guildId'] = report;
-            michal['location'] = entity;
-            entity = {};
-            report = true;
-            entity['autoTrackExposure'] = report;
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = null;
-            zuuluu = entity == michal;
-            entity = undefined;
-            if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.guildId;
+            var1 = var1.location;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['guildId'] = var5;
+            var2['location'] = var1;
+            var1 = {};
+            var5 = true;
+            var1['autoTrackExposure'] = var5;
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = null;
+            var3 = var1 == var2;
+            var1 = undefined;
+            if(var3) { _fun0001_ip = 67; continue _fun0001 }
  62:
-            entity = michal.enabled;
+            var1 = var2.enabled;
  67:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForGuildContentLevelSetting'] = tangon;
-    michal = function(argFoo) { // Original name: useIsGuildContentLevelSettingEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isEligibleForGuildContentLevelSetting'] = var4;
+    var2 = function useIsGuildContentLevelSettingEnabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            report = entity.guildId;
-            entity = entity.location;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['guildId'] = report;
-            michal['location'] = entity;
-            entity = {};
-            report = true;
-            entity['autoTrackExposure'] = report;
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = null;
-            zuuluu = entity == michal;
-            entity = undefined;
-            if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+            var1 = arg1;
+            var5 = var1.guildId;
+            var1 = var1.location;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['guildId'] = var5;
+            var2['location'] = var1;
+            var1 = {};
+            var5 = true;
+            var1['autoTrackExposure'] = var5;
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = null;
+            var3 = var1 == var2;
+            var1 = undefined;
+            if(var3) { _fun0002_ip = 67; continue _fun0002 }
  62:
-            entity = michal.enabled;
+            var1 = var2.enabled;
  67:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsGuildContentLevelSettingEnabled'] = michal;
-    return entity;
+    var3['useIsGuildContentLevelSettingEnabled'] = var2;
+    return var1;
 })();

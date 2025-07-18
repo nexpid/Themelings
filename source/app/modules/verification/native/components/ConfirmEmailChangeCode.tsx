@@ -1,217 +1,217 @@
 // app/modules/verification/native/components/ConfirmEmailChangeCode.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.setEmailToken;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/verification/native/components/ConfirmEmailChangeCode.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ConfirmEmailChangeCode
-        entity = argFoo;
-        offset = entity.isChangeEmail;
-        var _closure2_slot0 = offset;
-        option = _closure1_slot0;
-        verify = _closure1_slot2;
-        entity = 4;
-        entity = verify[entity];
-        tangon = undefined;
-        michal = option.bind(tangon)(entity);
-        entity = michal.useNavigation;
-        entity = entity.bind(michal)();
-        var _closure2_slot1 = entity;
-        golfie = _closure1_slot4;
-        zuuluu = golfie.useCallback;
-        michal = new Array(2);
-        michal[0] = offset;
-        michal[1] = entity;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.setEmailToken;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/verification/native/components/ConfirmEmailChangeCode.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ConfirmEmailChangeCode(arg1) {
+        var1 = arg1;
+        var10 = var1.isChangeEmail;
+        var _closure2_slot0 = var10;
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var1 = 4;
+        var1 = var9[var1];
+        var4 = undefined;
+        var2 = var8.bind(var4)(var1);
+        var1 = var2.useNavigation;
+        var1 = var1.bind(var2)();
+        var _closure2_slot1 = var1;
+        var7 = _closure1_slot4;
+        var3 = var7.useCallback;
+        var2 = new Array(2);
+        var2[0] = var10;
+        var2[1] = var1;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                tangon = _closure1_slot5;
-                zuuluu = null;
-                report = zuuluu != entity;
-                if(!report) { _fun00002_ip = 22; continue _fun00001 }
+                var1 = arg1;
+                var4 = _closure1_slot5;
+                var3 = null;
+                var5 = var3 != var1;
+                if(!var5) { _fun0001_ip = 22; continue _fun0001 }
  19:
-                zuuluu = entity;
+                var3 = var1;
  22:
-                entity = undefined;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                report = _closure2_slot0;
-                tangon = _closure2_slot1;
-                zuuluu = tangon.push;
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 5;
-                michal = golfie[michal];
-                michal = oscard.bind(entity)(michal);
-                michal = michal.VerificationModalScenes;
-                if(report) { _fun00002_ip = 87; continue _fun00001 }
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var5 = _closure2_slot0;
+                var4 = _closure2_slot1;
+                var3 = var4.push;
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 5;
+                var2 = var7[var2];
+                var2 = var6.bind(var1)(var2);
+                var2 = var2.VerificationModalScenes;
+                if(var5) { _fun0001_ip = 87; continue _fun0001 }
  74:
-                report = michal.ENTER_EMAIL;
-                report = zuuluu.bind(tangon)(report);
-                _fun00002_ip = 98; continue _fun00001;
+                var5 = var2.ENTER_EMAIL;
+                var5 = var3.bind(var4)(var5);
+                _fun0001_ip = 98; continue _fun0001;
  87:
-                michal = michal.CHANGE_EMAIL_COLLECT_REASONS;
-                michal = zuuluu.bind(tangon)(michal);
+                var2 = var2.CHANGE_EMAIL_COLLECT_REASONS;
+                var2 = var3.bind(var4)(var2);
  98:
-                return entity;
+                return var1;
             }
         };
-        golfie = zuuluu.bind(golfie)(entity, michal);
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot1;
-        entity = 6;
-        entity = verify[entity];
-        michal = michal.bind(tangon)(entity);
-        entity = {};
-        offset = function() {
-            tangon = _closure1_slot3;
-            zuuluu = undefined;
-            michal = function* (argFoo) {
-                entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var7 = var3.bind(var7)(var1, var2);
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot1;
+        var1 = 6;
+        var1 = var9[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = {};
+        var10 = function() {
+            var4 = _closure1_slot3;
+            var3 = undefined;
+            var2 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 62; continue _fun00003 }
+                        if(var2) { _fun0002_ip = 62; continue _fun0002 }
  7:
-                        tangon = _closure1_slot0;
-                        zuuluu = _closure1_slot2;
-                        michal = 7;
-                        zuuluu = zuuluu[michal];
-                        michal = undefined;
-                        tangon = tangon.bind(michal)(zuuluu);
-                        zuuluu = tangon.confirmEmailChange;
-                        michal = argFoo;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 7;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
+                        var3 = var4.confirmEmailChange;
+                        var2 = arg1;
+                        var2 = var3.bind(var4)(var2);
                         SaveGenerator(address=50);
  48:
-                        return michal;
+                        return var2;
  50:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00004_ip = 59; continue _fun00003 }
+                        if(var3) { _fun0002_ip = 59; continue _fun0002 }
  56:
-                        return michal;
+                        return var2;
  59:
-                        return michal;
+                        return var2;
  62:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            michal = tangon.bind(zuuluu)(michal);
-            var _closure3_slot0 = michal;
-            entity = function() {
-                entity = undefined;
-                tangon = _closure3_slot0;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+            var2 = var4.bind(var3)(var2);
+            var _closure3_slot0 = var2;
+            var1 = function() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        offset = offset.bind(tangon)();
-        entity['onFormSubmit'] = offset;
-        entity['onSuccess'] = golfie;
-        oscard = _closure1_slot3;
-        report = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var10 = var10.bind(var4)();
+        var1['onFormSubmit'] = var10;
+        var1['onSuccess'] = var7;
+        var6 = _closure1_slot3;
+        var5 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 58; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 58; continue _fun0003 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 7;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    tangon = tangon.bind(zuuluu)(michal);
-                    michal = tangon.sendConfirmationCode;
-                    michal = michal.bind(tangon)();
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 7;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var4 = var4.bind(var3)(var2);
+                    var2 = var4.sendConfirmationCode;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=46);
  44:
-                    return michal;
+                    return var2;
  46:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 55; continue _fun00005 }
+                    if(var4) { _fun0003_ip = 55; continue _fun0003 }
  52:
-                    return zuuluu;
+                    return var3;
  55:
-                    return michal;
+                    return var2;
  58:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        report = oscard.bind(tangon)(report);
-        entity['onResend'] = report;
-        report = 8;
-        oscard = verify[report];
-        oscard = option.bind(tangon)(oscard);
-        offset = oscard.intl;
-        golfie = offset.string;
-        oscard = verify[report];
-        oscard = option.bind(tangon)(oscard);
-        oscard = oscard.t;
-        oscard = oscard.2x/2Ul;
-        oscard = golfie.bind(offset)(oscard);
-        entity['headerText'] = oscard;
-        oscard = verify[report];
-        oscard = option.bind(tangon)(oscard);
-        golfie = oscard.intl;
-        oscard = golfie.string;
-        report = verify[report];
-        report = option.bind(tangon)(report);
-        report = report.t;
-        report = report.PDTjLC;
-        report = oscard.bind(golfie)(report);
-        entity['confirmButtonText'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var5 = var6.bind(var4)(var5);
+        var1['onResend'] = var5;
+        var5 = 8;
+        var6 = var9[var5];
+        var6 = var8.bind(var4)(var6);
+        var10 = var6.intl;
+        var7 = var10.string;
+        var6 = var9[var5];
+        var6 = var8.bind(var4)(var6);
+        var6 = var6.t;
+        var6 = var6.2x/2Ul;
+        var6 = var7.bind(var10)(var6);
+        var1['headerText'] = var6;
+        var6 = var9[var5];
+        var6 = var8.bind(var4)(var6);
+        var7 = var6.intl;
+        var6 = var7.string;
+        var5 = var9[var5];
+        var5 = var8.bind(var4)(var5);
+        var5 = var5.t;
+        var5 = var5.PDTjLC;
+        var5 = var6.bind(var7)(var5);
+        var1['confirmButtonText'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

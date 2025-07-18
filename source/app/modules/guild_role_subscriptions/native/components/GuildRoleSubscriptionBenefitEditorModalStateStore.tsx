@@ -1,348 +1,348 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionBenefitEditorModalStateStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    tangon = true;
-    golfie['value'] = tangon;
-    tangon = '__esModule';
-    tangon = option.bind(verify)(zuuluu, tangon, golfie);
-    option = entity.Object;
-    golfie = option.freeze;
-    tangon = {};
-    entity = '';
-    tangon['name'] = entity;
-    entity = undefined;
-    tangon['emojiId'] = entity;
-    tangon['emojiName'] = entity;
-    tangon['description'] = entity;
-    tangon['refId'] = entity;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 0;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createWithEqualityFn;
-    tangon = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = {};
-        report = _closure1_slot2;
-        oscard = entity;
-        zuuluu = copyDataProperties(oscard, report);
-        tangon = function(argFoo) { // Original name: setEmojiId
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['emojiId'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var4 = true;
+    var7['value'] = var4;
+    var4 = '__esModule';
+    var4 = var8.bind(var9)(var3, var4, var7);
+    var8 = var1.Object;
+    var7 = var8.freeze;
+    var4 = {};
+    var1 = '';
+    var4['name'] = var1;
+    var1 = undefined;
+    var4['emojiId'] = var1;
+    var4['emojiName'] = var1;
+    var4['description'] = var1;
+    var4['refId'] = var1;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 0;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createWithEqualityFn;
+    var4 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = {};
+        var5 = _closure1_slot2;
+        var6 = var1;
+        var3 = copyDataProperties(var6, var5);
+        var4 = function setEmojiId(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['emojiId'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = 'setEmojiId';
-        entity[zuuluu] = tangon;
-        tangon = function(argFoo) { // Original name: setEmojiName
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['emojiName'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var3 = 'setEmojiId';
+        var1[var3] = var4;
+        var4 = function setEmojiName(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['emojiName'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = 'setEmojiName';
-        entity[zuuluu] = tangon;
-        tangon = function(argFoo) { // Original name: setName
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['name'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var3 = 'setEmojiName';
+        var1[var3] = var4;
+        var4 = function setName(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['name'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = 'setName';
-        entity[zuuluu] = tangon;
-        tangon = function(argFoo) { // Original name: setDescription
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['description'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var3 = 'setName';
+        var1[var3] = var4;
+        var4 = function setDescription(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['description'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = 'setDescription';
-        entity[zuuluu] = tangon;
-        tangon = function(argFoo) { // Original name: setRefId
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['refId'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var3 = 'setDescription';
+        var1[var3] = var4;
+        var4 = function setRefId(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['refId'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        zuuluu = 'setRefId';
-        entity[zuuluu] = tangon;
-        zuuluu = function() { // Original name: reset
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = _closure1_slot2;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var3 = 'setRefId';
+        var1[var3] = var4;
+        var3 = function reset() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = _closure1_slot2;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        michal = 'reset';
-        entity[michal] = zuuluu;
-        return entity;
+        var2 = 'reset';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionBenefitEditorModalStateStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: resetImperatively
-        michal = _closure1_slot3;
-        entity = michal.getState;
-        michal = entity.bind(michal)();
-        entity = michal.reset;
-        entity = entity.bind(michal)();
-        entity = undefined;
-        return entity;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionBenefitEditorModalStateStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function resetImperatively() {
+        var2 = _closure1_slot3;
+        var1 = var2.getState;
+        var2 = var1.bind(var2)();
+        var1 = var2.reset;
+        var1 = var1.bind(var2)();
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['resetImperatively'] = tangon;
-    tangon = function(argFoo) { // Original name: initializeImperatively
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['resetImperatively'] = var4;
+    var4 = function initializeImperatively(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getState;
-            entity = entity.bind(zuuluu)();
-            verify = entity.setDescription;
-            option = entity.setEmojiId;
-            golfie = entity.setEmojiName;
-            oscard = entity.setName;
-            zuuluu = entity.setRefId;
-            tangon = entity.reset;
-            entity = undefined;
-            tangon = tangon.bind(entity)();
-            tangon = michal.description;
-            report = null;
-            if(!(report != tangon)) { _fun00002_ip = 83; continue _fun00001 }
+            var2 = arg1;
+            var3 = _closure1_slot3;
+            var1 = var3.getState;
+            var1 = var1.bind(var3)();
+            var9 = var1.setDescription;
+            var8 = var1.setEmojiId;
+            var7 = var1.setEmojiName;
+            var6 = var1.setName;
+            var3 = var1.setRefId;
+            var4 = var1.reset;
+            var1 = undefined;
+            var4 = var4.bind(var1)();
+            var4 = var2.description;
+            var5 = null;
+            if(!(var5 != var4)) { _fun0001_ip = 83; continue _fun0001 }
  73:
-            tangon = michal.description;
-            tangon = verify.bind(entity)(tangon);
+            var4 = var2.description;
+            var4 = var9.bind(var1)(var4);
  83:
-            tangon = michal.emoji_id;
-            tangon = option.bind(entity)(tangon);
-            tangon = michal.emoji_name;
-            tangon = golfie.bind(entity)(tangon);
-            tangon = michal.name;
-            tangon = oscard.bind(entity)(tangon);
-            tangon = michal.ref_id;
-            if(!(report != tangon)) { _fun00002_ip = 136; continue _fun00001 }
+            var4 = var2.emoji_id;
+            var4 = var8.bind(var1)(var4);
+            var4 = var2.emoji_name;
+            var4 = var7.bind(var1)(var4);
+            var4 = var2.name;
+            var4 = var6.bind(var1)(var4);
+            var4 = var2.ref_id;
+            if(!(var5 != var4)) { _fun0001_ip = 136; continue _fun0001 }
  125:
-            michal = michal.ref_id;
-            michal = zuuluu.bind(entity)(michal);
+            var2 = var2.ref_id;
+            var2 = var3.bind(var1)(var2);
  136:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['initializeImperatively'] = tangon;
-    tangon = function() { // Original name: useDescriptionState
-        tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.description;
-            michal = entity.setDescription;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['initializeImperatively'] = var4;
+    var4 = function useDescriptionState() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.description;
+            var2 = var1.setDescription;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useDescriptionState'] = tangon;
-    tangon = function() { // Original name: useEmojiIdState
-        tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.emojiId;
-            michal = entity.setEmojiId;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['useDescriptionState'] = var4;
+    var4 = function useEmojiIdState() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.emojiId;
+            var2 = var1.setEmojiId;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useEmojiIdState'] = tangon;
-    tangon = function() { // Original name: useEmojiNameState
-        tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.emojiName;
-            michal = entity.setEmojiName;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['useEmojiIdState'] = var4;
+    var4 = function useEmojiNameState() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.emojiName;
+            var2 = var1.setEmojiName;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useEmojiNameState'] = tangon;
-    tangon = function() { // Original name: useNameState
-        tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.name;
-            michal = entity.setName;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['useEmojiNameState'] = var4;
+    var4 = function useNameState() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.name;
+            var2 = var1.setName;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useNameState'] = tangon;
-    michal = function() { // Original name: useRefIdState
-        tangon = _closure1_slot3;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.shallow;
-        entity = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.refId;
-            michal = entity.setRefId;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['useNameState'] = var4;
+    var2 = function useRefIdState() {
+        var4 = _closure1_slot3;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.shallow;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.refId;
+            var2 = var1.setRefId;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['useRefIdState'] = michal;
-    return entity;
+    var3['useRefIdState'] = var2;
+    return var1;
 })();

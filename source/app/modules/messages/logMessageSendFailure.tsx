@@ -1,100 +1,100 @@
 // app/modules/messages/logMessageSendFailure.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: getAttachmentMimeTypes
-        zuuluu = argFoo;
-        michal = zuuluu.map;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getAttachmentMimeTypes(arg1) {
+        var3 = arg1;
+        var2 = var3.map;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                michal = entity.mimeType;
-                entity = null;
-                zuuluu = entity != michal;
-                entity = 'unknown';
-                if(!zuuluu) { _fun00002_ip = 25; continue _fun00001 }
+                var1 = arg1;
+                var2 = var1.mimeType;
+                var1 = null;
+                var3 = var1 != var2;
+                var1 = 'unknown';
+                if(!var3) { _fun0001_ip = 25; continue _fun0001 }
  22:
-                entity = michal;
+                var1 = var2;
  25:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot3 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = report.AnalyticEvents;
-    var _closure1_slot2 = report;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/messages/logMessageSendFailure.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: logMessageSendFailure
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.AnalyticEvents;
+    var _closure1_slot2 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/messages/logMessageSendFailure.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function logMessageSendFailure(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.fileItems;
-            zuuluu = null;
-            if(!(zuuluu == entity)) { _fun00004_ip = 21; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.fileItems;
+            var3 = null;
+            if(!(var3 == var1)) { _fun0002_ip = 21; continue _fun0002 }
  15:
-            oscard = new Array(0);
-            _fun00004_ip = 41; continue _fun00003;
+            var6 = new Array(0);
+            _fun0002_ip = 41; continue _fun0002;
  21:
-            report = _closure1_slot3;
-            tangon = michal.fileItems;
-            entity = undefined;
-            oscard = report.bind(entity)(tangon);
+            var5 = _closure1_slot3;
+            var4 = var2.fileItems;
+            var1 = undefined;
+            var6 = var5.bind(var1)(var4);
  41:
-            tangon = michal.errorMessage;
-            report = zuuluu != tangon;
-            entity = undefined;
-            golfie = undefined;
-            if(!report) { _fun00004_ip = 61; continue _fun00003 }
+            var4 = var2.errorMessage;
+            var5 = var3 != var4;
+            var1 = undefined;
+            var7 = undefined;
+            if(!var5) { _fun0002_ip = 61; continue _fun0002 }
  58:
-            golfie = tangon;
+            var7 = var4;
  61:
-            michal = michal.failureCode;
-            zuuluu = zuuluu != michal;
-            option = undefined;
-            if(!zuuluu) { _fun00004_ip = 79; continue _fun00003 }
+            var2 = var2.failureCode;
+            var3 = var3 != var2;
+            var8 = undefined;
+            if(!var3) { _fun0002_ip = 79; continue _fun0002 }
  76:
-            option = michal;
+            var8 = var2;
  79:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.trackWithMetadata;
-            michal = _closure1_slot2;
-            zuuluu = michal.SEND_MESSAGE_FAILURE;
-            michal = {};
-            michal['failure_code'] = option;
-            michal['error_message'] = golfie;
-            michal['attachment_mimetypes'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 1;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.trackWithMetadata;
+            var2 = _closure1_slot2;
+            var3 = var2.SEND_MESSAGE_FAILURE;
+            var2 = {};
+            var2['failure_code'] = var8;
+            var2['error_message'] = var7;
+            var2['attachment_mimetypes'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['logMessageSendFailure'] = tangon;
-    zuuluu['getAttachmentMimeTypes'] = michal;
-    return entity;
+    var3['logMessageSendFailure'] = var4;
+    var3['getAttachmentMimeTypes'] = var2;
+    return var1;
 })();

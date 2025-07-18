@@ -1,169 +1,169 @@
 // discord_common/js/shared/lib/PlatformUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        offset = argBaz;
-        zuuluu = argFre;
-        option = argPlu;
-        tangon = global;
-        oscard = tangon.Object;
-        report = oscard.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(oscard)(zuuluu, entity, michal);
-        report = tangon.Set;
-        entity = report.prototype;
-        michal = Object.create(entity, {constructor: {value: report}});
-        output = ['iPad', 'Kindle', 'Kindle Fire', 'Nook', 'PlayBook'];
-        result = michal;
-        entity = new result[report](output, sizing);
-        romeon = entity instanceof Object ? entity : michal;
-        report = tangon.Set;
-        entity = report.prototype;
-        michal = Object.create(entity, {constructor: {value: report}});
-        output = ['Android', 'iOS', 'Windows Phone'];
-        result = michal;
-        entity = new result[report](output, sizing);
-        yankee = entity instanceof Object ? entity : michal;
-        michal = tangon.window;
-        verify = null;
-        oscard = verify == michal;
-        entity = undefined;
-        report = undefined;
-        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
+        var10 = native3;
+        var3 = native6;
+        var8 = native7;
+        var4 = global;
+        var6 = var4.Object;
+        var5 = var6.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var6)(var3, var1, var2);
+        var5 = var4.Set;
+        var1 = var5.prototype;
+        var2 = Object.create(var1, {constructor: {value: var5}});
+        var17 = ['iPad', 'Kindle', 'Kindle Fire', 'Nook', 'PlayBook'];
+        var18 = var2;
+        var1 = new var18[var5](var17, var16);
+        var12 = var1 instanceof Object ? var1 : var2;
+        var5 = var4.Set;
+        var1 = var5.prototype;
+        var2 = Object.create(var1, {constructor: {value: var5}});
+        var17 = ['Android', 'iOS', 'Windows Phone'];
+        var18 = var2;
+        var1 = new var18[var5](var17, var16);
+        var11 = var1 instanceof Object ? var1 : var2;
+        var2 = var4.window;
+        var9 = null;
+        var6 = var9 == var2;
+        var1 = undefined;
+        var5 = undefined;
+        if(var6) { _fun0001_ip = 153; continue _fun0001 }
  132:
-        michal = michal.navigator;
-        oscard = verify == michal;
-        report = undefined;
-        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
+        var2 = var2.navigator;
+        var6 = var9 == var2;
+        var5 = undefined;
+        if(var6) { _fun0001_ip = 153; continue _fun0001 }
  147:
-        report = michal.platform;
+        var5 = var2.platform;
  153:
-        michal = 'MacIntel';
-        michal = michal === report;
-        if(!michal) { _fun00002_ip = 206; continue _fun00001 }
+        var2 = 'MacIntel';
+        var2 = var2 === var5;
+        if(!var2) { _fun0001_ip = 206; continue _fun0001 }
  166:
-        oscard = tangon.window;
-        golfie = verify == oscard;
-        report = undefined;
-        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
+        var6 = var4.window;
+        var7 = var9 == var6;
+        var5 = undefined;
+        if(var7) { _fun0001_ip = 202; continue _fun0001 }
  181:
-        oscard = oscard.navigator;
-        golfie = verify == oscard;
-        report = undefined;
-        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
+        var6 = var6.navigator;
+        var7 = var9 == var6;
+        var5 = undefined;
+        if(var7) { _fun0001_ip = 202; continue _fun0001 }
  196:
-        report = oscard.standalone;
+        var5 = var6.standalone;
  202:
-        michal = entity !== report;
+        var2 = var1 !== var5;
  206:
-        if(!michal) { _fun00002_ip = 254; continue _fun00001 }
+        if(!var2) { _fun0001_ip = 254; continue _fun0001 }
  209:
-        tangon = tangon.window;
-        oscard = verify == tangon;
-        report = undefined;
-        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
+        var4 = var4.window;
+        var6 = var9 == var4;
+        var5 = undefined;
+        if(var6) { _fun0001_ip = 247; continue _fun0001 }
  224:
-        tangon = tangon.navigator;
-        oscard = verify == tangon;
-        report = undefined;
-        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
+        var4 = var4.navigator;
+        var6 = var9 == var4;
+        var5 = undefined;
+        if(var6) { _fun0001_ip = 247; continue _fun0001 }
  239:
-        report = tangon.maxTouchPoints;
+        var5 = var4.maxTouchPoints;
  247:
-        tangon = 1;
-        michal = report > tangon;
+        var4 = 1;
+        var2 = var5 > var4;
  254:
-        oscard = romeon.has;
-        golfie = 0;
-        tangon = option[golfie];
-        tangon = offset.bind(entity)(tangon);
-        foxtra = tangon.product;
-        backup = verify != foxtra;
-        report = '';
-        tangon = report;
-        if(!backup) { _fun00002_ip = 293; continue _fun00001 }
+        var6 = var12.has;
+        var7 = 0;
+        var4 = var8[var7];
+        var4 = var10.bind(var1)(var4);
+        var13 = var4.product;
+        var14 = var9 != var13;
+        var5 = '';
+        var4 = var5;
+        if(!var14) { _fun0001_ip = 293; continue _fun0001 }
  290:
-        tangon = foxtra;
+        var4 = var13;
  293:
-        oscard = oscard.bind(romeon)(tangon);
-        if(oscard) { _fun00002_ip = 304; continue _fun00001 }
+        var6 = var6.bind(var12)(var4);
+        if(var6) { _fun0001_ip = 304; continue _fun0001 }
  301:
-        oscard = michal;
+        var6 = var2;
  304:
-        michal = !oscard;
-        if(!michal) { _fun00002_ip = 378; continue _fun00001 }
+        var2 = !var6;
+        if(!var2) { _fun0001_ip = 378; continue _fun0001 }
  310:
-        tangon = yankee.has;
-        romeon = option[golfie];
-        romeon = offset.bind(entity)(romeon);
-        foxtra = verify == romeon;
-        romeon = undefined;
-        if(foxtra) { _fun00002_ip = 363; continue _fun00001 }
+        var4 = var11.has;
+        var12 = var8[var7];
+        var12 = var10.bind(var1)(var12);
+        var13 = var9 == var12;
+        var12 = undefined;
+        if(var13) { _fun0001_ip = 363; continue _fun0001 }
  333:
-        foxtra = option[golfie];
-        foxtra = offset.bind(entity)(foxtra);
-        foxtra = foxtra.os;
-        backup = verify == foxtra;
-        romeon = undefined;
-        if(backup) { _fun00002_ip = 363; continue _fun00001 }
+        var13 = var8[var7];
+        var13 = var10.bind(var1)(var13);
+        var13 = var13.os;
+        var14 = var9 == var13;
+        var12 = undefined;
+        if(var14) { _fun0001_ip = 363; continue _fun0001 }
  357:
-        romeon = foxtra.family;
+        var12 = var13.family;
  363:
-        foxtra = verify != romeon;
-        if(!foxtra) { _fun00002_ip = 373; continue _fun00001 }
+        var13 = var9 != var12;
+        if(!var13) { _fun0001_ip = 373; continue _fun0001 }
  370:
-        report = romeon;
+        var5 = var12;
  373:
-        michal = tangon.bind(yankee)(report);
+        var2 = var4.bind(var11)(var5);
  378:
-        tangon = option[golfie];
-        tangon = offset.bind(entity)(tangon);
-        tangon = verify == tangon;
-        report = undefined;
-        if(tangon) { _fun00002_ip = 426; continue _fun00001 }
+        var4 = var8[var7];
+        var4 = var10.bind(var1)(var4);
+        var4 = var9 == var4;
+        var5 = undefined;
+        if(var4) { _fun0001_ip = 426; continue _fun0001 }
  396:
-        tangon = option[golfie];
-        tangon = offset.bind(entity)(tangon);
-        tangon = tangon.os;
-        yankee = verify == tangon;
-        report = undefined;
-        if(yankee) { _fun00002_ip = 426; continue _fun00001 }
+        var4 = var8[var7];
+        var4 = var10.bind(var1)(var4);
+        var4 = var4.os;
+        var11 = var9 == var4;
+        var5 = undefined;
+        if(var11) { _fun0001_ip = 426; continue _fun0001 }
  420:
-        report = tangon.family;
+        var5 = var4.family;
  426:
-        tangon = option[golfie];
-        tangon = offset.bind(entity)(tangon);
-        yankee = verify == tangon;
-        tangon = undefined;
-        if(yankee) { _fun00002_ip = 474; continue _fun00001 }
+        var4 = var8[var7];
+        var4 = var10.bind(var1)(var4);
+        var11 = var9 == var4;
+        var4 = undefined;
+        if(var11) { _fun0001_ip = 474; continue _fun0001 }
  444:
-        golfie = option[golfie];
-        golfie = offset.bind(entity)(golfie);
-        golfie = golfie.os;
-        verify = verify == golfie;
-        tangon = undefined;
-        if(verify) { _fun00002_ip = 474; continue _fun00001 }
+        var7 = var8[var7];
+        var7 = var10.bind(var1)(var7);
+        var7 = var7.os;
+        var9 = var9 == var7;
+        var4 = undefined;
+        if(var9) { _fun0001_ip = 474; continue _fun0001 }
  468:
-        tangon = golfie.family;
+        var4 = var7.family;
  474:
-        golfie = 1;
-        option = option[golfie];
-        golfie = argBar;
-        verify = golfie.bind(entity)(option);
-        option = verify.fileFinishedImporting;
-        golfie = '../discord_common/js/shared/lib/PlatformUtils.tsx';
-        golfie = option.bind(verify)(golfie);
-        zuuluu['isTablet'] = oscard;
-        zuuluu['isMobile'] = michal;
-        michal = 'iOS';
-        michal = michal === report;
-        zuuluu['isIOSWeb'] = michal;
-        michal = 'Android';
-        michal = michal === tangon;
-        zuuluu['isAndroidWeb'] = michal;
-        return entity;
+        var7 = 1;
+        var8 = var8[var7];
+        var7 = native2;
+        var9 = var7.bind(var1)(var8);
+        var8 = var9.fileFinishedImporting;
+        var7 = '../discord_common/js/shared/lib/PlatformUtils.tsx';
+        var7 = var8.bind(var9)(var7);
+        var3['isTablet'] = var6;
+        var3['isMobile'] = var2;
+        var2 = 'iOS';
+        var2 = var2 === var5;
+        var3['isIOSWeb'] = var2;
+        var2 = 'Android';
+        var2 = var2 === var4;
+        var3['isAndroidWeb'] = var2;
+        return var1;
     }
 })();

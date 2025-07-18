@@ -1,197 +1,197 @@
 // app/design/components/Card/native/CardTokens.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = offset;
-    yankee = function(argFoo, argBar) { // Original name: createCardBackgroundToken
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 0;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        zuuluu = tangon.bind(michal)(zuuluu);
-        michal = zuuluu.experimental_createToken;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var12 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var10;
+    var11 = function createCardBackgroundToken(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 0;
+        var3 = var3[var2];
+        var2 = undefined;
+        var3 = var4.bind(var2)(var3);
+        var2 = var3.experimental_createToken;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                michal = entity.primaryColor;
-                entity = null;
-                if(!(entity == michal)) { _fun00002_ip = 24; continue _fun00001 }
+                var1 = arg1;
+                var2 = var1.primaryColor;
+                var1 = null;
+                if(!(var1 == var2)) { _fun0001_ip = 24; continue _fun0001 }
  15:
-                entity = _closure2_slot0;
-                _fun00002_ip = 31; continue _fun00001;
+                var1 = _closure2_slot0;
+                _fun0001_ip = 31; continue _fun0001;
  24:
-                entity = _closure2_slot1;
+                var1 = _closure2_slot1;
  31:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = 1;
-    report = offset[tangon];
-    entity = undefined;
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    oscard = report.CARD_PRIMARY_BG;
-    report = offset[tangon];
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    report = report.CARD_GRADIENT_BG;
-    golfie = yankee.bind(entity)(oscard, report);
-    report = offset[tangon];
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    oscard = report.CARD_SECONDARY_BG;
-    report = offset[tangon];
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    report = report.CARD_GRADIENT_BG;
-    oscard = yankee.bind(entity)(oscard, report);
-    report = offset[tangon];
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    option = report.CARD_PRIMARY_PRESSED_BG;
-    report = offset[tangon];
-    report = romeon.bind(entity)(report);
-    report = report.colors;
-    report = report.CARD_GRADIENT_PRESSED_BG;
-    report = yankee.bind(entity)(option, report);
-    option = offset[tangon];
-    option = romeon.bind(entity)(option);
-    option = option.colors;
-    option = option.CARD_SECONDARY_PRESSED_BG;
-    tangon = offset[tangon];
-    tangon = romeon.bind(entity)(tangon);
-    tangon = tangon.colors;
-    tangon = tangon.CARD_GRADIENT_PRESSED_BG;
-    tangon = yankee.bind(entity)(option, tangon);
-    option = 2;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'design/components/Card/native/CardTokens.native.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['CARD_PRIMARY_BG'] = golfie;
-    zuuluu['CARD_SECONDARY_BG'] = oscard;
-    zuuluu['CARD_PRIMARY_PRESSED_BG'] = report;
-    zuuluu['CARD_SECONDARY_PRESSED_BG'] = tangon;
-    michal = function(argFoo) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 0;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        zuuluu = tangon.bind(michal)(zuuluu);
-        michal = zuuluu.experimental_createToken;
-        entity = function(argFoo) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = 1;
+    var5 = var10[var4];
+    var1 = undefined;
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var6 = var5.CARD_PRIMARY_BG;
+    var5 = var10[var4];
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var5 = var5.CARD_GRADIENT_BG;
+    var7 = var11.bind(var1)(var6, var5);
+    var5 = var10[var4];
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var6 = var5.CARD_SECONDARY_BG;
+    var5 = var10[var4];
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var5 = var5.CARD_GRADIENT_BG;
+    var6 = var11.bind(var1)(var6, var5);
+    var5 = var10[var4];
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var8 = var5.CARD_PRIMARY_PRESSED_BG;
+    var5 = var10[var4];
+    var5 = var12.bind(var1)(var5);
+    var5 = var5.colors;
+    var5 = var5.CARD_GRADIENT_PRESSED_BG;
+    var5 = var11.bind(var1)(var8, var5);
+    var8 = var10[var4];
+    var8 = var12.bind(var1)(var8);
+    var8 = var8.colors;
+    var8 = var8.CARD_SECONDARY_PRESSED_BG;
+    var4 = var10[var4];
+    var4 = var12.bind(var1)(var4);
+    var4 = var4.colors;
+    var4 = var4.CARD_GRADIENT_PRESSED_BG;
+    var4 = var11.bind(var1)(var8, var4);
+    var8 = 2;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'design/components/Card/native/CardTokens.native.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['CARD_PRIMARY_BG'] = var7;
+    var3['CARD_SECONDARY_BG'] = var6;
+    var3['CARD_PRIMARY_PRESSED_BG'] = var5;
+    var3['CARD_SECONDARY_PRESSED_BG'] = var4;
+    var2 = function(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 0;
+        var3 = var3[var2];
+        var2 = undefined;
+        var3 = var4.bind(var2)(var3);
+        var2 = var3.experimental_createToken;
+        var1 = function(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                michal = entity.gradient;
-                entity = null;
-                if(!(entity == michal)) { _fun00004_ip = 287; continue _fun00003 }
+                var1 = arg1;
+                var2 = var1.gradient;
+                var1 = null;
+                if(!(var1 == var2)) { _fun0002_ip = 287; continue _fun0002 }
  18:
-                zuuluu = _closure2_slot0;
-                michal = 'none';
-                if(!(michal !== zuuluu)) { _fun00004_ip = 287; continue _fun00003 }
+                var3 = _closure2_slot0;
+                var2 = 'none';
+                if(!(var2 !== var3)) { _fun0002_ip = 287; continue _fun0002 }
  36:
-                michal = _closure2_slot0;
-                entity = 'border';
-                if(!(entity !== michal)) { _fun00004_ip = 248; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var1 = 'border';
+                if(!(var1 !== var2)) { _fun0002_ip = 248; continue _fun0002 }
  51:
-                entity = 'high';
-                if(!(entity !== michal)) { _fun00004_ip = 209; continue _fun00003 }
+                var1 = 'high';
+                if(!(var1 !== var2)) { _fun0002_ip = 209; continue _fun0002 }
  62:
-                entity = 'ledge';
-                if(!(entity !== michal)) { _fun00004_ip = 170; continue _fun00003 }
+                var1 = 'ledge';
+                if(!(var1 !== var2)) { _fun0002_ip = 170; continue _fun0002 }
  72:
-                entity = 'low';
-                if(!(entity !== michal)) { _fun00004_ip = 131; continue _fun00003 }
+                var1 = 'low';
+                if(!(var1 !== var2)) { _fun0002_ip = 131; continue _fun0002 }
  80:
-                entity = 'medium';
-                if(!(entity !== michal)) { _fun00004_ip = 92; continue _fun00003 }
+                var1 = 'medium';
+                if(!(var1 !== var2)) { _fun0002_ip = 92; continue _fun0002 }
  88:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
  92:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.shadows;
-                entity = entity.SHADOW_MEDIUM;
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.shadows;
+                var1 = var1.SHADOW_MEDIUM;
+                return var1;
  131:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.shadows;
-                entity = entity.SHADOW_LOW;
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.shadows;
+                var1 = var1.SHADOW_LOW;
+                return var1;
  170:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.shadows;
-                entity = entity.SHADOW_LEDGE;
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.shadows;
+                var1 = var1.SHADOW_LEDGE;
+                return var1;
  209:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.shadows;
-                entity = entity.SHADOW_HIGH;
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.shadows;
+                var1 = var1.SHADOW_HIGH;
+                return var1;
  248:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                entity = entity.shadows;
-                entity = entity.SHADOW_BORDER;
-                return entity;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var1 = var1.shadows;
+                var1 = var1.SHADOW_BORDER;
+                return var1;
  287:
-                entity = {};
-                return entity;
+                var1 = {};
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['createCardShadowToken'] = michal;
-    return entity;
+    var3['createCardShadowToken'] = var2;
+    return var1;
 })();

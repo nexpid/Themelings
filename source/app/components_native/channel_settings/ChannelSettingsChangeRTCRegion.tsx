@@ -1,449 +1,449 @@
 // app/components_native/channel_settings/ChannelSettingsChangeRTCRegion.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot13 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot13 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot13 = entity;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    golfie = 7;
-    golfie = oscard[golfie];
-    golfie = option.bind(entity)(golfie);
-    var _closure1_slot9 = golfie;
-    golfie = 8;
-    golfie = oscard[golfie];
-    golfie = option.bind(entity)(golfie);
-    var _closure1_slot10 = golfie;
-    golfie = 9;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.jsx;
-    var _closure1_slot11 = golfie;
-    golfie = tangon.PureComponent;
-    tangon = function(argFoo) {
-        tangon = function(argFoo) { // Original name: ChannelSettingsChangeRTCRegion
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot13 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var7 = 7;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot9 = var7;
+    var7 = 8;
+    var7 = var6[var7];
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot10 = var7;
+    var7 = 9;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.jsx;
+    var _closure1_slot11 = var7;
+    var7 = var4.PureComponent;
+    var4 = function(arg1) {
+        var4 = function ChannelSettingsChangeRTCRegion(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                report = this;
-                foxtra = 0;
-                entity = copyRestArgs(foxtra);
-                option = _closure1_slot4;
-                tangon = _closure2_slot0;
-                zuuluu = undefined;
-                option = option.bind(zuuluu)(report, tangon);
-                offset = new Array(0);
-                foxtra = offset;
-                romeon = entity;
-                yankee = 0;
-                entity = arraySpread(foxtra, romeon, yankee);
-                entity = _closure1_slot7;
-                verify = entity.bind(zuuluu)(tangon);
-                tangon = _closure1_slot6;
-                entity = _closure1_slot13;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+                var5 = this;
+                var13 = 0;
+                var1 = copyRestArgs(var13);
+                var8 = _closure1_slot4;
+                var4 = _closure2_slot0;
+                var3 = undefined;
+                var8 = var8.bind(var3)(var5, var4);
+                var10 = new Array(0);
+                var13 = var10;
+                var12 = var1;
+                var11 = 0;
+                var1 = arraySpread(var13, var12, var11);
+                var1 = _closure1_slot7;
+                var9 = var1.bind(var3)(var4);
+                var4 = _closure1_slot6;
+                var1 = _closure1_slot13;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 86; continue _fun0002 }
  73:
-                entity = verify.apply;
-                entity = entity.bind(verify)(report, offset);
-                _fun00004_ip = 120; continue _fun00003;
+                var1 = var9.apply;
+                var1 = var1.bind(var9)(var5, var10);
+                _fun0002_ip = 120; continue _fun0002;
  86:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot7;
-                oscard = oscard.bind(zuuluu)(report);
-                oscard = oscard.constructor;
-                entity = golfie.bind(option)(verify, offset, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot7;
+                var6 = var6.bind(var3)(var5);
+                var6 = var6.constructor;
+                var1 = var7.bind(var8)(var9, var10, var6);
  120:
-                entity = tangon.bind(zuuluu)(report, entity);
-                var _closure3_slot0 = entity;
-                michal = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var1 = var4.bind(var3)(var5, var1);
+                var _closure3_slot0 = var1;
+                var2 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = {'regions': null, 'submitting': false, 'selectedRegionId': 'AUTOMATIC_RTC_REGION'};
-                        michal = new Array(0);
-                        entity['regions'] = michal;
-                        zuuluu = 'AUTOMATIC_RTC_REGION';
-                        golfie = _closure1_slot10;
-                        report = golfie.getRegions;
-                        tangon = _closure3_slot0;
-                        tangon = tangon.props;
-                        option = tangon.channel;
-                        tangon = option.getGuildId;
-                        tangon = tangon.bind(option)();
-                        option = report.bind(golfie)(tangon);
-                        report = {'id': 'AUTOMATIC_RTC_REGION', 'name': null, 'sample_hostname': '', 'sample_port': 0, 'vip': false, 'deprecated': false, 'optimal': false, 'hidden': false};
-                        offset = _closure1_slot0;
-                        yankee = _closure1_slot2;
-                        michal = 10;
-                        golfie = yankee[michal];
-                        tangon = undefined;
-                        golfie = offset.bind(tangon)(golfie);
-                        verify = golfie.intl;
-                        golfie = verify.string;
-                        michal = yankee[michal];
-                        michal = offset.bind(tangon)(michal);
-                        michal = michal.t;
-                        michal = michal.JEmsam;
-                        michal = golfie.bind(verify)(michal);
-                        report['name'] = michal;
-                        michal = new Array(1);
-                        michal[0] = report;
-                        report = null;
-                        if(!(report != option)) { _fun00006_ip = 263; continue _fun00005 }
+                        var1 = {'regions': null, 'submitting': false, 'selectedRegionId': 'AUTOMATIC_RTC_REGION'};
+                        var2 = new Array(0);
+                        var1['regions'] = var2;
+                        var3 = 'AUTOMATIC_RTC_REGION';
+                        var7 = _closure1_slot10;
+                        var5 = var7.getRegions;
+                        var4 = _closure3_slot0;
+                        var4 = var4.props;
+                        var8 = var4.channel;
+                        var4 = var8.getGuildId;
+                        var4 = var4.bind(var8)();
+                        var8 = var5.bind(var7)(var4);
+                        var5 = {'id': 'AUTOMATIC_RTC_REGION', 'name': null, 'sample_hostname': '', 'sample_port': 0, 'vip': false, 'deprecated': false, 'optimal': false, 'hidden': false};
+                        var10 = _closure1_slot0;
+                        var11 = _closure1_slot2;
+                        var2 = 10;
+                        var7 = var11[var2];
+                        var4 = undefined;
+                        var7 = var10.bind(var4)(var7);
+                        var9 = var7.intl;
+                        var7 = var9.string;
+                        var2 = var11[var2];
+                        var2 = var10.bind(var4)(var2);
+                        var2 = var2.t;
+                        var2 = var2.JEmsam;
+                        var2 = var7.bind(var9)(var2);
+                        var5['name'] = var2;
+                        var2 = new Array(1);
+                        var2[0] = var5;
+                        var5 = null;
+                        if(!(var5 != var8)) { _fun0003_ip = 263; continue _fun0003 }
  168:
-                        verify = michal.push;
-                        offset = option.filter;
-                        golfie = function(argFoo) {
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                        var9 = var2.push;
+                        var10 = var8.filter;
+                        var7 = function(arg1) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                michal = argFoo;
-                                entity = michal.deprecated;
-                                entity = !entity;
-                                if(!entity) { _fun00008_ip = 24; continue _fun00007 }
+                                var2 = arg1;
+                                var1 = var2.deprecated;
+                                var1 = !var1;
+                                if(!var1) { _fun0004_ip = 24; continue _fun0004 }
  15:
-                                michal = michal.hidden;
-                                entity = !michal;
+                                var2 = var2.hidden;
+                                var1 = !var2;
  24:
-                                return entity;
+                                return var1;
                             }
                         };
-                        foxtra = offset.bind(option)(golfie);
-                        golfie = new Array(0);
-                        backup = golfie;
-                        romeon = 0;
-                        offset = arraySpread(backup, foxtra, romeon);
-                        backup = verify;
-                        foxtra = golfie;
-                        romeon = michal;
-                        golfie = apply(backup, foxtra, romeon);
-                        golfie = option.find;
-                        oscard = function(argFoo) {
-                            entity = argFoo;
-                            michal = entity.id;
-                            entity = _closure3_slot0;
-                            entity = entity.props;
-                            entity = entity.channel;
-                            entity = entity.rtcRegion;
-                            entity = michal === entity;
-                            return entity;
+                        var13 = var10.bind(var8)(var7);
+                        var7 = new Array(0);
+                        var14 = var7;
+                        var12 = 0;
+                        var10 = arraySpread(var14, var13, var12);
+                        var14 = var9;
+                        var13 = var7;
+                        var12 = var2;
+                        var7 = apply(var14, var13, var12);
+                        var7 = var8.find;
+                        var6 = function(arg1) {
+                            var1 = arg1;
+                            var2 = var1.id;
+                            var1 = _closure3_slot0;
+                            var1 = var1.props;
+                            var1 = var1.channel;
+                            var1 = var1.rtcRegion;
+                            var1 = var2 === var1;
+                            return var1;
                         };
-                        oscard = golfie.bind(option)(oscard);
-                        golfie = report == oscard;
-                        tangon = undefined;
-                        if(golfie) { _fun00006_ip = 247; continue _fun00005 }
+                        var6 = var7.bind(var8)(var6);
+                        var7 = var5 == var6;
+                        var4 = undefined;
+                        if(var7) { _fun0003_ip = 247; continue _fun0003 }
  242:
-                        tangon = oscard.id;
+                        var4 = var6.id;
  247:
-                        report = report != tangon;
-                        if(!report) { _fun00006_ip = 257; continue _fun00005 }
+                        var5 = var5 != var4;
+                        if(!var5) { _fun0003_ip = 257; continue _fun0003 }
  254:
-                        zuuluu = tangon;
+                        var3 = var4;
  257:
-                        entity['selectedRegionId'] = zuuluu;
+                        var1['selectedRegionId'] = var3;
  263:
-                        entity['regions'] = michal;
-                        return entity;
+                        var1['regions'] = var2;
+                        return var1;
                     }
                 };
-                michal = michal.bind(zuuluu)();
-                entity['state'] = michal;
-                return entity;
+                var2 = var2.bind(var3)();
+                var1['state'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot8;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot5;
-        report = {};
-        entity = 'handleSetRegion';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot8;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot5;
+        var5 = {};
+        var1 = 'handleSetRegion';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                golfie = argFoo;
-                report = this;
-                var _closure3_slot0 = report;
-                var _closure3_slot1 = golfie;
-                oscard = report.state;
-                entity = null;
-                option = entity != golfie;
-                zuuluu = 'AUTOMATIC_RTC_REGION';
-                tangon = zuuluu;
-                if(!option) { _fun00010_ip = 42; continue _fun00009 }
+                var7 = arg1;
+                var5 = this;
+                var _closure3_slot0 = var5;
+                var _closure3_slot1 = var7;
+                var6 = var5.state;
+                var1 = null;
+                var8 = var1 != var7;
+                var3 = 'AUTOMATIC_RTC_REGION';
+                var4 = var3;
+                if(!var8) { _fun0005_ip = 42; continue _fun0005 }
  39:
-                tangon = golfie;
+                var4 = var7;
  42:
-                oscard['selectedRegionId'] = tangon;
-                if(!(golfie === zuuluu)) { _fun00010_ip = 58; continue _fun00009 }
+                var6['selectedRegionId'] = var4;
+                if(!(var7 === var3)) { _fun0005_ip = 58; continue _fun0005 }
  52:
-                _closure3_slot1 = entity;
-                golfie = null;
+                _closure3_slot1 = var1;
+                var7 = null;
  58:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 11;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                oscard = tangon.bind(entity)(zuuluu);
-                tangon = oscard.updateChannel;
-                zuuluu = {};
-                zuuluu['rtcRegion'] = golfie;
-                zuuluu = tangon.bind(oscard)(zuuluu);
-                tangon = report.setState;
-                zuuluu = {};
-                oscard = true;
-                zuuluu['submitting'] = oscard;
-                michal = function() {
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 11;
-                    michal = michal[entity];
-                    entity = undefined;
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = report.saveChannel;
-                    michal = _closure3_slot0;
-                    michal = michal.props;
-                    michal = michal.channel;
-                    zuuluu = michal.id;
-                    michal = {};
-                    oscard = _closure3_slot1;
-                    michal['rtcRegion'] = oscard;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    return entity;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 11;
+                var3 = var3[var1];
+                var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var4 = var6.updateChannel;
+                var3 = {};
+                var3['rtcRegion'] = var7;
+                var3 = var4.bind(var6)(var3);
+                var4 = var5.setState;
+                var3 = {};
+                var6 = true;
+                var3['submitting'] = var6;
+                var2 = function() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 11;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.saveChannel;
+                    var2 = _closure3_slot0;
+                    var2 = var2.props;
+                    var2 = var2.channel;
+                    var3 = var2.id;
+                    var2 = {};
+                    var6 = _closure3_slot1;
+                    var2['rtcRegion'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
                 };
-                michal = tangon.bind(report)(zuuluu, michal);
-                return entity;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(4);
-        entity[0] = report;
-        report = {};
-        golfie = 'renderRegion';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            entity = argFoo;
-            option = this;
-            var _closure3_slot0 = option;
-            var _closure3_slot1 = entity;
-            report = _closure1_slot11;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            oscard = 12;
-            michal = verify[oscard];
-            tangon = undefined;
-            michal = golfie.bind(tangon)(michal);
-            zuuluu = michal.FormRow;
-            michal = {};
-            yankee = entity.name;
-            michal['label'] = yankee;
-            offset = function() { // Original name: onPress
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handleSetRegion;
-                entity = _closure3_slot1;
-                entity = entity.id;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+        var5['value'] = var1;
+        var1 = new Array(4);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'renderRegion';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var1 = arg1;
+            var8 = this;
+            var _closure3_slot0 = var8;
+            var _closure3_slot1 = var1;
+            var5 = _closure1_slot11;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 12;
+            var2 = var9[var6];
+            var4 = undefined;
+            var2 = var7.bind(var4)(var2);
+            var3 = var2.FormRow;
+            var2 = {};
+            var11 = var1.name;
+            var2['label'] = var11;
+            var10 = function onPress() {
+                var3 = _closure3_slot0;
+                var2 = var3.handleSetRegion;
+                var1 = _closure3_slot1;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal['onPress'] = offset;
-            oscard = verify[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            oscard = oscard.FormRow;
-            golfie = oscard.Checkmark;
-            oscard = {};
-            option = option.state;
-            verify = option.selectedRegionId;
-            option = entity.id;
-            option = verify === option;
-            oscard['selected'] = option;
-            oscard = report.bind(tangon)(golfie, oscard);
-            michal['trailing'] = oscard;
-            entity = entity.id;
-            entity = report.bind(tangon)(zuuluu, michal, entity);
-            return entity;
+            var2['onPress'] = var10;
+            var6 = var9[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.FormRow;
+            var7 = var6.Checkmark;
+            var6 = {};
+            var8 = var8.state;
+            var9 = var8.selectedRegionId;
+            var8 = var1.id;
+            var8 = var9 === var8;
+            var6['selected'] = var8;
+            var6 = var5.bind(var4)(var7, var6);
+            var2['trailing'] = var6;
+            var1 = var1.id;
+            var1 = var5.bind(var4)(var3, var2, var1);
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'renderRegions';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            oscard = this;
-            zuuluu = _closure1_slot3;
-            michal = oscard.state;
-            michal = michal.regions;
-            tangon = undefined;
-            report = zuuluu.bind(tangon)(michal);
-            zuuluu = report.slice;
-            michal = 0;
-            report = zuuluu.bind(report)(michal);
-            zuuluu = report.map;
-            michal = oscard.renderRegion;
-            report = zuuluu.bind(report)(michal, oscard);
-            zuuluu = _closure1_slot11;
-            michal = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 12;
-            entity = oscard[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.FormSection;
-            entity = {};
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'renderRegions';
+        var5['key'] = var7;
+        var7 = function value() {
+            var6 = this;
+            var3 = _closure1_slot3;
+            var2 = var6.state;
+            var2 = var2.regions;
+            var4 = undefined;
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.slice;
+            var2 = 0;
+            var5 = var3.bind(var5)(var2);
+            var3 = var5.map;
+            var2 = var6.renderRegion;
+            var5 = var3.bind(var5)(var2, var6);
+            var3 = _closure1_slot11;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 12;
+            var1 = var6[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.FormSection;
+            var1 = {};
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'render';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            oscard = this;
-            tangon = _closure1_slot11;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 12;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = michal.bind(zuuluu)(entity);
-            michal = entity.Form;
-            entity = {};
-            report = oscard.renderRegions;
-            report = report.bind(oscard)();
-            entity['children'] = report;
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'render';
+        var5['key'] = var7;
+        var6 = function value() {
+            var6 = this;
+            var4 = _closure1_slot11;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 12;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.Form;
+            var1 = {};
+            var5 = var6.renderRegions;
+            var5 = var5.bind(var6)();
+            var1['children'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
         };
-        report['value'] = oscard;
-        entity[3] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[3] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot12 = tangon;
-    tangon = 15;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/channel_settings/ChannelSettingsChangeRTCRegion.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ConnectedChannelSettingsChangeRTCRegion
-        entity = argFoo;
-        entity = entity.channelId;
-        var _closure2_slot0 = entity;
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        zuuluu = 13;
-        zuuluu = oscard[zuuluu];
-        tangon = undefined;
-        golfie = report.bind(tangon)(zuuluu);
-        report = golfie.useStateFromStores;
-        option = _closure1_slot9;
-        zuuluu = new Array(1);
-        zuuluu[0] = option;
-        michal = function() {
-            zuuluu = _closure1_slot9;
-            michal = zuuluu.getChannel;
-            entity = _closure2_slot0;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot12 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/channel_settings/ChannelSettingsChangeRTCRegion.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ConnectedChannelSettingsChangeRTCRegion(arg1) {
+        var1 = arg1;
+        var1 = var1.channelId;
+        var _closure2_slot0 = var1;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var3 = 13;
+        var3 = var6[var3];
+        var4 = undefined;
+        var7 = var5.bind(var4)(var3);
+        var5 = var7.useStateFromStores;
+        var8 = _closure1_slot9;
+        var3 = new Array(1);
+        var3[0] = var8;
+        var2 = function() {
+            var3 = _closure1_slot9;
+            var2 = var3.getChannel;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        report = report.bind(golfie)(zuuluu, michal);
-        zuuluu = _closure1_slot1;
-        michal = 14;
-        michal = oscard[michal];
-        oscard = zuuluu.bind(tangon)(michal);
-        michal = null;
-        zuuluu = michal != report;
-        michal = 'ConnectedChannelSettingsChangeRTCRegion: channel cannot be undefined';
-        michal = oscard.bind(tangon)(zuuluu, michal);
-        zuuluu = _closure1_slot11;
-        michal = _closure1_slot12;
-        entity = {};
-        entity['channel'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var5 = var5.bind(var7)(var3, var2);
+        var3 = _closure1_slot1;
+        var2 = 14;
+        var2 = var6[var2];
+        var6 = var3.bind(var4)(var2);
+        var2 = null;
+        var3 = var2 != var5;
+        var2 = 'ConnectedChannelSettingsChangeRTCRegion: channel cannot be undefined';
+        var2 = var6.bind(var4)(var3, var2);
+        var3 = _closure1_slot11;
+        var2 = _closure1_slot12;
+        var1 = {};
+        var1['channel'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,92 +1,92 @@
 // app/modules/user_settings/native/openUserSettings.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserSettingsSections;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/native/openUserSettings.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsSections;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/openUserSettings.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getRootNavigationRef;
-            tangon = michal.bind(zuuluu)();
-            golfie = null;
-            michal = golfie != tangon;
-            if(!michal) { _fun00002_ip = 57; continue _fun00001 }
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getRootNavigationRef;
+            var4 = var2.bind(var3)();
+            var7 = null;
+            var2 = var7 != var4;
+            if(!var2) { _fun0001_ip = 57; continue _fun0001 }
  47:
-            zuuluu = tangon.isReady;
-            michal = zuuluu.bind(tangon)();
+            var3 = var4.isReady;
+            var2 = var3.bind(var4)();
  57:
-            if(!michal) { _fun00002_ip = 188; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 188; continue _fun0001 }
  63:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            oscard = zuuluu.bind(entity)(michal);
-            zuuluu = oscard.dispatch;
-            michal = {};
-            option = 'USER_SETTINGS_MODAL_INIT';
-            michal['type'] = option;
-            option = report.screen;
-            if(!(golfie == option)) { _fun00002_ip = 118; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var6 = var3.bind(var1)(var2);
+            var3 = var6.dispatch;
+            var2 = {};
+            var8 = 'USER_SETTINGS_MODAL_INIT';
+            var2['type'] = var8;
+            var8 = var5.screen;
+            if(!(var7 == var8)) { _fun0001_ip = 118; continue _fun0001 }
  108:
-            verify = _closure1_slot3;
-            option = verify.OVERVIEW;
+            var9 = _closure1_slot3;
+            var8 = var9.OVERVIEW;
  118:
-            michal['section'] = option;
-            option = report.subsection;
-            verify = golfie != option;
-            golfie = null;
-            if(!verify) { _fun00002_ip = 140; continue _fun00001 }
+            var2['section'] = var8;
+            var8 = var5.subsection;
+            var9 = var7 != var8;
+            var7 = null;
+            if(!var9) { _fun0001_ip = 140; continue _fun0001 }
  137:
-            golfie = option;
+            var7 = var8;
  140:
-            michal['subsection'] = golfie;
-            golfie = report.analyticsLocation;
-            michal['analyticsLocation'] = golfie;
-            golfie = report.scrollPosition;
-            michal['scrollPosition'] = golfie;
-            michal = zuuluu.bind(oscard)(michal);
-            zuuluu = tangon.navigate;
-            michal = 'settings';
-            michal = zuuluu.bind(tangon)(michal, report);
+            var2['subsection'] = var7;
+            var7 = var5.analyticsLocation;
+            var2['analyticsLocation'] = var7;
+            var7 = var5.scrollPosition;
+            var2['scrollPosition'] = var7;
+            var2 = var3.bind(var6)(var2);
+            var3 = var4.navigate;
+            var2 = 'settings';
+            var2 = var3.bind(var4)(var2, var5);
  188:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['openUserSettings'] = michal;
-    return entity;
+    var3['openUserSettings'] = var2;
+    return var1;
 })();

@@ -1,185 +1,185 @@
 // app/modules/locale/native/LocaleUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.getSystemLocale;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/locale/native/LocaleUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.getSystemLocale;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/locale/native/LocaleUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getSuperProperties;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = null;
-            report = tangon == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 52; continue _fun00001 }
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getSuperProperties;
+            var3 = var3.bind(var4)();
+            var4 = null;
+            var5 = var4 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 52; continue _fun0001 }
  46:
-            tangon = zuuluu.os;
+            var4 = var3.os;
  52:
-            zuuluu = 'iOS';
-            zuuluu = zuuluu === tangon;
-            if(!zuuluu) { _fun00002_ip = 104; continue _fun00001 }
+            var3 = 'iOS';
+            var3 = var3 === var4;
+            if(!var3) { _fun0001_ip = 104; continue _fun0001 }
  65:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            tangon = 5;
-            tangon = oscard[tangon];
-            tangon = report.bind(entity)(tangon);
-            tangon = tangon.intl;
-            report = tangon.currentLocale;
-            tangon = 'en-US';
-            zuuluu = tangon === report;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 5;
+            var4 = var6[var4];
+            var4 = var5.bind(var1)(var4);
+            var4 = var4.intl;
+            var5 = var4.currentLocale;
+            var4 = 'en-US';
+            var3 = var4 === var5;
  104:
-            if(!zuuluu) { _fun00002_ip = 130; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 130; continue _fun0001 }
  107:
-            tangon = _closure1_slot3;
-            oscard = tangon.bind(entity)();
-            report = oscard.startsWith;
-            tangon = 'es';
-            zuuluu = report.bind(oscard)(tangon);
+            var4 = _closure1_slot3;
+            var6 = var4.bind(var1)();
+            var5 = var6.startsWith;
+            var4 = 'es';
+            var3 = var5.bind(var6)(var4);
  130:
-            if(!zuuluu) { _fun00002_ip = 286; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 286; continue _fun0001 }
  136:
-            report = _closure1_slot1;
-            option = _closure1_slot2;
-            tangon = 6;
-            zuuluu = option[tangon];
-            oscard = report.bind(entity)(zuuluu);
-            report = oscard.trackExposure;
-            zuuluu = {};
-            golfie = 'caaf7b_1';
-            zuuluu['location'] = golfie;
-            zuuluu = report.bind(oscard)(zuuluu);
-            golfie = _closure1_slot0;
-            zuuluu = 7;
-            report = option[zuuluu];
-            report = golfie.bind(entity)(report);
-            oscard = report.HotspotStore;
-            report = oscard.hasHotspot;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.HotspotLocations;
-            zuuluu = zuuluu.CHANGE_LANGUAGE_MODAL;
-            zuuluu = report.bind(oscard)(zuuluu);
-            if(!zuuluu) { _fun00002_ip = 286; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var4 = 6;
+            var3 = var8[var4];
+            var6 = var5.bind(var1)(var3);
+            var5 = var6.trackExposure;
+            var3 = {};
+            var7 = 'caaf7b_1';
+            var3['location'] = var7;
+            var3 = var5.bind(var6)(var3);
+            var7 = _closure1_slot0;
+            var3 = 7;
+            var5 = var8[var3];
+            var5 = var7.bind(var1)(var5);
+            var6 = var5.HotspotStore;
+            var5 = var6.hasHotspot;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.HotspotLocations;
+            var3 = var3.CHANGE_LANGUAGE_MODAL;
+            var3 = var5.bind(var6)(var3);
+            if(!var3) { _fun0001_ip = 286; continue _fun0001 }
  236:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            michal = michal[tangon];
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.subscribe;
-            zuuluu = {};
-            michal = '1';
-            zuuluu['location'] = michal;
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var2 = var2[var4];
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.subscribe;
+            var3 = {};
+            var2 = '1';
+            var3['location'] = var2;
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    entity = entity.enabled;
-                    if(!entity) { _fun00004_ip = 95; continue _fun00003 }
+                    var1 = arg1;
+                    var1 = var1.enabled;
+                    if(!var1) { _fun0002_ip = 95; continue _fun0002 }
  11:
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    michal = 8;
-                    michal = report[michal];
-                    zuuluu = undefined;
-                    golfie = tangon.bind(zuuluu)(michal);
-                    oscard = golfie.openLazy;
-                    michal = {};
-                    option = function() { // Original name: importer
-                        zuuluu = _closure1_slot0;
-                        entity = _closure1_slot2;
-                        michal = 10;
-                        michal = entity[michal];
-                        tangon = undefined;
-                        zuuluu = zuuluu.bind(tangon)(michal);
-                        michal = 9;
-                        michal = entity[michal];
-                        entity = entity.paths;
-                        zuuluu = zuuluu.bind(tangon)(michal, entity);
-                        michal = zuuluu.then;
-                        entity = function(argFoo) {
-                            michal = argFoo;
-                            michal = michal.default;
-                            var _closure5_slot0 = michal;
-                            entity = function(argFoo) {
-                                tangon = _closure1_slot5;
-                                zuuluu = _closure5_slot0;
-                                michal = {};
-                                report = argFoo;
-                                oscard = michal;
-                                entity = copyDataProperties(oscard, report);
-                                entity = undefined;
-                                entity = tangon.bind(entity)(zuuluu, michal);
-                                return entity;
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var5[var2];
+                    var3 = undefined;
+                    var7 = var4.bind(var3)(var2);
+                    var6 = var7.openLazy;
+                    var2 = {};
+                    var8 = function importer() {
+                        var3 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var2 = 10;
+                        var2 = var1[var2];
+                        var4 = undefined;
+                        var3 = var3.bind(var4)(var2);
+                        var2 = 9;
+                        var2 = var1[var2];
+                        var1 = var1.paths;
+                        var3 = var3.bind(var4)(var2, var1);
+                        var2 = var3.then;
+                        var1 = function(arg1) {
+                            var2 = arg1;
+                            var2 = var2.default;
+                            var _closure5_slot0 = var2;
+                            var1 = function(arg1) {
+                                var4 = _closure1_slot5;
+                                var3 = _closure5_slot0;
+                                var2 = {};
+                                var5 = arg1;
+                                var6 = var2;
+                                var1 = copyDataProperties(var6, var5);
+                                var1 = undefined;
+                                var1 = var4.bind(var1)(var3, var2);
+                                return var1;
                             };
-                            return entity;
+                            return var1;
                         };
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    michal['importer'] = option;
-                    michal = oscard.bind(golfie)(michal);
-                    michal = 4;
-                    michal = report[michal];
-                    zuuluu = tangon.bind(zuuluu)(michal);
-                    michal = zuuluu.track;
-                    entity = _closure1_slot4;
-                    entity = entity.CHANGE_LANGUAGE_MODAL_SHOWN;
-                    entity = michal.bind(zuuluu)(entity);
+                    var2['importer'] = var8;
+                    var2 = var6.bind(var7)(var2);
+                    var2 = 4;
+                    var2 = var5[var2];
+                    var3 = var4.bind(var3)(var2);
+                    var2 = var3.track;
+                    var1 = _closure1_slot4;
+                    var1 = var1.CHANGE_LANGUAGE_MODAL_SHOWN;
+                    var1 = var2.bind(var3)(var1);
  95:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(zuuluu, michal);
+            var2 = var4.bind(var5)(var3, var2);
  286:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['maybeShowChangeLanguageToast'] = michal;
-    return entity;
+    var3['maybeShowChangeLanguageToast'] = var2;
+    return var1;
 })();

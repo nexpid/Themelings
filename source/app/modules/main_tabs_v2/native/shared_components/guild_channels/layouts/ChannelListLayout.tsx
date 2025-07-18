@@ -1,299 +1,299 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/ChannelListLayout.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    report = function(argFoo) { // Original name: getLayoutStyles
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var5 = function getLayoutStyles(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = arguments[1];
-            zuuluu = undefined;
-            if(!(michal === zuuluu)) { _fun00002_ip = 14; continue _fun00001 }
+            var5 = arg1;
+            var2 = arguments[1];
+            var3 = undefined;
+            if(!(var2 === var3)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            michal = false;
+            var2 = false;
  14:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
-            oscard = 0;
-            tangon = tangon[oscard];
-            tangon = golfie.bind(zuuluu)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.COZY_DRAWER;
-            if(!(tangon !== report)) { _fun00002_ip = 292; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var6 = 0;
+            var4 = var4[var6];
+            var4 = var7.bind(var3)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.COZY_DRAWER;
+            if(!(var4 !== var5)) { _fun0001_ip = 292; continue _fun0001 }
  55:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = golfie.bind(zuuluu)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.COZY_DRAWER_SMOL;
-            if(!(tangon !== report)) { _fun00002_ip = 264; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var7.bind(var3)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.COZY_DRAWER_SMOL;
+            if(!(var4 !== var5)) { _fun0001_ip = 264; continue _fun0001 }
  91:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = golfie.bind(zuuluu)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.COMPACT;
-            if(!(tangon !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var7.bind(var3)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.COMPACT;
+            if(!(var4 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
  124:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = golfie.bind(zuuluu)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.MINIMAL;
-            if(!(tangon !== report)) { _fun00002_ip = 186; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var7.bind(var3)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.MINIMAL;
+            if(!(var4 !== var5)) { _fun0001_ip = 186; continue _fun0001 }
  157:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = report.bind(zuuluu)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.COZY;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var5.bind(var3)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.COZY;
  186:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            tangon = 3;
-            tangon = oscard[tangon];
-            report = report.bind(zuuluu)(tangon);
-            if(michal) { _fun00002_ip = 217; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 3;
+            var4 = var6[var4];
+            var5 = var5.bind(var3)(var4);
+            if(var2) { _fun0001_ip = 217; continue _fun0001 }
  209:
-            tangon = report.CHANNEL_LIST_STYLES_COZY;
-            _fun00002_ip = 223; continue _fun00001;
+            var4 = var5.CHANNEL_LIST_STYLES_COZY;
+            _fun0001_ip = 223; continue _fun0001;
  217:
-            tangon = report.CHANNEL_LIST_STYLES_COZY_LAUNCHPAD;
+            var4 = var5.CHANNEL_LIST_STYLES_COZY_LAUNCHPAD;
  223:
-            return tangon;
+            return var4;
  225:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            tangon = 2;
-            tangon = oscard[tangon];
-            tangon = report.bind(zuuluu)(tangon);
-            if(michal) { _fun00002_ip = 256; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 2;
+            var4 = var6[var4];
+            var4 = var5.bind(var3)(var4);
+            if(var2) { _fun0001_ip = 256; continue _fun0001 }
  248:
-            michal = tangon.CHANNEL_LIST_STYLES_COMPACT;
-            _fun00002_ip = 262; continue _fun00001;
+            var2 = var4.CHANNEL_LIST_STYLES_COMPACT;
+            _fun0001_ip = 262; continue _fun0001;
  256:
-            michal = tangon.CHANNEL_LIST_STYLES_COMPACT_LAUNCHPAD;
+            var2 = var4.CHANNEL_LIST_STYLES_COMPACT_LAUNCHPAD;
  262:
-            return michal;
+            return var2;
  264:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 1;
-            michal = report[michal];
-            michal = tangon.bind(zuuluu)(michal);
-            michal = michal.CHANNEL_LIST_STYLES_COZY_DRAWER_SMOL;
-            return michal;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 1;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.CHANNEL_LIST_STYLES_COZY_DRAWER_SMOL;
+            return var2;
  292:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 1;
-            entity = tangon[entity];
-            entity = michal.bind(zuuluu)(entity);
-            entity = entity.CHANNEL_LIST_STYLES_COZY_DRAWER;
-            return entity;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 1;
+            var1 = var4[var1];
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.CHANNEL_LIST_STYLES_COZY_DRAWER;
+            return var1;
         }
     };
-    var _closure1_slot2 = report;
-    tangon = function(argFoo) { // Original name: isLayoutCompact
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.ChannelListLayoutTypes;
-        michal = entity.COMPACT;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+    var _closure1_slot2 = var5;
+    var4 = function isLayoutCompact(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.ChannelListLayoutTypes;
+        var2 = var1.COMPACT;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    option = {};
-    entity = true;
-    option['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, option);
-    entity = 5;
-    oscard = oscard[entity];
-    entity = undefined;
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/main_tabs_v2/native/shared_components/guild_channels/layouts/ChannelListLayout.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['getLayoutStyles'] = report;
-    report = function(argFoo) { // Original name: makeSizeStyle
-        michal = argFoo;
-        entity = {};
-        entity['width'] = michal;
-        entity['height'] = michal;
-        return entity;
+    var _closure1_slot3 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var8);
+    var1 = 5;
+    var6 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/main_tabs_v2/native/shared_components/guild_channels/layouts/ChannelListLayout.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['getLayoutStyles'] = var5;
+    var5 = function makeSizeStyle(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var1['width'] = var2;
+        var1['height'] = var2;
+        return var1;
     };
-    zuuluu['makeSizeStyle'] = report;
-    zuuluu['isLayoutCompact'] = tangon;
-    tangon = function(argFoo) { // Original name: isLayoutCozy
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['makeSizeStyle'] = var5;
+    var3['isLayoutCompact'] = var4;
+    var4 = function isLayoutCozy(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            report = undefined;
-            entity = tangon.bind(report)(entity);
-            entity = entity.ChannelListLayoutTypes;
-            entity = entity.COZY;
-            entity = zuuluu === entity;
-            if(entity) { _fun00004_ip = 79; continue _fun00003 }
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.ChannelListLayoutTypes;
+            var1 = var1.COZY;
+            var1 = var3 === var1;
+            if(var1) { _fun0002_ip = 79; continue _fun0002 }
  46:
-            golfie = _closure1_slot0;
-            tangon = _closure1_slot1;
-            tangon = tangon[oscard];
-            tangon = golfie.bind(report)(tangon);
-            tangon = tangon.ChannelListLayoutTypes;
-            tangon = tangon.COZY_DRAWER;
-            entity = zuuluu === tangon;
+            var7 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var4 = var4[var6];
+            var4 = var7.bind(var5)(var4);
+            var4 = var4.ChannelListLayoutTypes;
+            var4 = var4.COZY_DRAWER;
+            var1 = var3 === var4;
  79:
-            if(entity) { _fun00004_ip = 115; continue _fun00003 }
+            if(var1) { _fun0002_ip = 115; continue _fun0002 }
  82:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.ChannelListLayoutTypes;
-            michal = michal.COZY_DRAWER_SMOL;
-            entity = zuuluu === michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ChannelListLayoutTypes;
+            var2 = var2.COZY_DRAWER_SMOL;
+            var1 = var3 === var2;
  115:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isLayoutCozy'] = tangon;
-    tangon = function(argFoo) { // Original name: useMessagesTabLayout
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isLayoutCozy'] = var4;
+    var4 = function useMessagesTabLayout(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 4;
-            entity = tangon[entity];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            michal = entity.ChannelListLayoutSetting;
-            entity = michal.useSetting;
-            tangon = entity.bind(michal)();
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            entity = michal.bind(report)(entity);
-            michal = entity.ChannelListLayoutTypes;
-            entity = argFoo;
-            if(entity) { _fun00006_ip = 144; continue _fun00005 }
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 4;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.ChannelListLayoutSetting;
+            var1 = var2.useSetting;
+            var4 = var1.bind(var2)();
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.ChannelListLayoutTypes;
+            var1 = arg1;
+            if(var1) { _fun0003_ip = 144; continue _fun0003 }
  72:
-            entity = michal.COMPACT;
-            if(!(tangon !== entity)) { _fun00006_ip = 113; continue _fun00005 }
+            var1 = var2.COMPACT;
+            if(!(var4 !== var1)) { _fun0003_ip = 113; continue _fun0003 }
  82:
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            entity = tangon.bind(report)(entity);
-            entity = entity.ChannelListLayoutTypes;
-            entity = entity.COZY;
-            _fun00006_ip = 142; continue _fun00005;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var6];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.ChannelListLayoutTypes;
+            var1 = var1.COZY;
+            _fun0003_ip = 142; continue _fun0003;
  113:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.ChannelListLayoutTypes;
-            entity = zuuluu.COMPACT;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var6];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.ChannelListLayoutTypes;
+            var1 = var3.COMPACT;
  142:
-            _fun00006_ip = 150; continue _fun00005;
+            _fun0003_ip = 150; continue _fun0003;
  144:
-            entity = michal.COZY_DRAWER_SMOL;
+            var1 = var2.COZY_DRAWER_SMOL;
  150:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useMessagesTabLayout'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getScaledChannelRowHeight
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useMessagesTabLayout'] = var4;
+    var2 = function getScaledChannelRowHeight(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argBar;
-            entity = arguments[2];
-            tangon = undefined;
-            if(!(entity === tangon)) { _fun00008_ip = 14; continue _fun00007 }
+            var5 = arg2;
+            var1 = arguments[2];
+            var4 = undefined;
+            if(!(var1 === var4)) { _fun0004_ip = 14; continue _fun0004 }
  12:
-            entity = false;
+            var1 = false;
  14:
-            zuuluu = _closure1_slot2;
-            golfie = zuuluu.bind(tangon)(report);
-            zuuluu = global;
-            verify = zuuluu.Math;
-            option = verify.max;
-            yankee = zuuluu.Math;
-            offset = yankee.max;
-            oscard = argFoo;
-            zuuluu = 1;
-            oscard = offset.bind(yankee)(oscard, zuuluu);
-            zuuluu = golfie.channelName;
-            offset = zuuluu.height;
-            zuuluu = golfie.messagePreview;
-            zuuluu = zuuluu.margin;
-            yankee = zuuluu.marginTop;
-            zuuluu = golfie.messagePreview;
-            zuuluu = zuuluu.height;
-            zuuluu = yankee + zuuluu;
-            zuuluu = offset + zuuluu;
-            oscard = oscard * zuuluu;
-            zuuluu = golfie.icon;
-            zuuluu = zuuluu.wrapper;
-            zuuluu = zuuluu.size;
-            option = option.bind(verify)(oscard, zuuluu);
-            oscard = golfie.container;
-            if(entity) { _fun00008_ip = 156; continue _fun00007 }
+            var3 = _closure1_slot2;
+            var7 = var3.bind(var4)(var5);
+            var3 = global;
+            var9 = var3.Math;
+            var8 = var9.max;
+            var11 = var3.Math;
+            var10 = var11.max;
+            var6 = arg1;
+            var3 = 1;
+            var6 = var10.bind(var11)(var6, var3);
+            var3 = var7.channelName;
+            var10 = var3.height;
+            var3 = var7.messagePreview;
+            var3 = var3.margin;
+            var11 = var3.marginTop;
+            var3 = var7.messagePreview;
+            var3 = var3.height;
+            var3 = var11 + var3;
+            var3 = var10 + var3;
+            var6 = var6 * var3;
+            var3 = var7.icon;
+            var3 = var3.wrapper;
+            var3 = var3.size;
+            var8 = var8.bind(var9)(var6, var3);
+            var6 = var7.container;
+            if(var1) { _fun0004_ip = 156; continue _fun0004 }
  143:
-            zuuluu = oscard.padding;
-            zuuluu = zuuluu.paddingVertical;
-            _fun00008_ip = 168; continue _fun00007;
+            var3 = var6.padding;
+            var3 = var3.paddingVertical;
+            _fun0004_ip = 168; continue _fun0004;
  156:
-            oscard = oscard.paddingThread;
-            zuuluu = oscard.paddingVertical;
+            var6 = var6.paddingThread;
+            var3 = var6.paddingVertical;
  168:
-            oscard = 2;
-            zuuluu = oscard * zuuluu;
-            zuuluu = option + zuuluu;
-            golfie = golfie.layout;
-            if(entity) { _fun00008_ip = 202; continue _fun00007 }
+            var6 = 2;
+            var3 = var6 * var3;
+            var3 = var8 + var3;
+            var7 = var7.layout;
+            if(var1) { _fun0004_ip = 202; continue _fun0004 }
  188:
-            entity = golfie.margin;
-            entity = entity.marginVertical;
-            _fun00008_ip = 214; continue _fun00007;
+            var1 = var7.margin;
+            var1 = var1.marginVertical;
+            _fun0004_ip = 214; continue _fun0004;
  202:
-            golfie = golfie.marginThread;
-            entity = golfie.marginVertical;
+            var7 = var7.marginThread;
+            var1 = var7.marginVertical;
  214:
-            entity = oscard * entity;
-            michal = _closure1_slot3;
-            tangon = michal.bind(tangon)(report);
-            michal = 0;
-            if(!tangon) { _fun00008_ip = 235; continue _fun00007 }
+            var1 = var6 * var1;
+            var2 = _closure1_slot3;
+            var4 = var2.bind(var4)(var5);
+            var2 = 0;
+            if(!var4) { _fun0004_ip = 235; continue _fun0004 }
  232:
-            michal = 4;
+            var2 = 4;
  235:
-            entity = zuuluu + entity;
-            entity = entity + michal;
-            return entity;
+            var1 = var3 + var1;
+            var1 = var1 + var2;
+            return var1;
         }
     };
-    zuuluu['getScaledChannelRowHeight'] = michal;
-    return entity;
+    var3['getScaledChannelRowHeight'] = var2;
+    return var1;
 })();

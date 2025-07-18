@@ -1,221 +1,221 @@
 // discord_common/js/packages/markup/native/MarkupParser.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    michal = argBaz;
-    var _closure1_slot1 = michal;
-    var _closure1_slot2 = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: saferParse
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var2 = native3;
+    var _closure1_slot1 = var2;
+    var _closure1_slot2 = var4;
+    var2 = function saferParse(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            verify = arguments[3];
-            option = arguments[4];
-            oscard = argFoo;
-            golfie = argBar;
-            michal = argBaz;
-            report = undefined;
-            if(!(verify === report)) { _fun00002_ip = 23; continue _fun00001 }
+            var9 = arguments[3];
+            var8 = arguments[4];
+            var6 = arg1;
+            var7 = arg2;
+            var2 = arg3;
+            var5 = undefined;
+            if(!(var9 === var5)) { _fun0001_ip = 23; continue _fun0001 }
  21:
-            verify = null;
+            var9 = null;
  23:
-            zuuluu = verify;
-            if(!(option === report)) { _fun00002_ip = 32; continue _fun00001 }
+            var3 = var9;
+            if(!(var8 === var5)) { _fun0001_ip = 32; continue _fun0001 }
  30:
-            option = true;
+            var8 = true;
  32:
-            tangon = option;
-            entity = undefined;
+            var4 = var8;
+            var1 = undefined;
  37: // try_start_0
-            option = tangon;
-            if(!option) { _fun00002_ip = 56; continue _fun00001 }
+            var8 = var4;
+            if(!var8) { _fun0001_ip = 56; continue _fun0001 }
  43:
-            verify = golfie;
-            option = '\n\n';
-            golfie = verify + option;
+            var9 = var7;
+            var8 = '\n\n';
+            var7 = var9 + var8;
  56:
-            option = oscard;
-            offset = michal;
-            foxtra = option.bind(report)(golfie, offset);
-            entity = foxtra;
-            option = _closure1_slot0;
-            yankee = _closure1_slot2;
-            golfie = 0;
-            verify = yankee[golfie];
-            romeon = option.bind(report)(verify);
-            verify = romeon.constrainAst;
-            verify = verify.bind(romeon)(foxtra);
-            entity = verify;
-            golfie = yankee[golfie];
-            option = option.bind(report)(golfie);
-            golfie = option.flattenAst;
-            entity = golfie.bind(option)(offset, verify);
+            var8 = var6;
+            var10 = var2;
+            var13 = var8.bind(var5)(var7, var10);
+            var1 = var13;
+            var8 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var7 = 0;
+            var9 = var11[var7];
+            var12 = var8.bind(var5)(var9);
+            var9 = var12.constrainAst;
+            var9 = var9.bind(var12)(var13);
+            var1 = var9;
+            var7 = var11[var7];
+            var8 = var8.bind(var5)(var7);
+            var7 = var8.flattenAst;
+            var1 = var7.bind(var8)(var10, var9);
  128: // try_end0
-            _fun00002_ip = 157; continue _fun00001;
+            _fun0001_ip = 157; continue _fun0001;
  130: // catch_target0
             CatchBlockStart(arg_register=6);
-            golfie = oscard;
-            oscard = '';
-            if(!tangon) { _fun00002_ip = 148; continue _fun00001 }
+            var7 = var6;
+            var6 = '';
+            if(!var4) { _fun0001_ip = 148; continue _fun0001 }
  142:
-            oscard = '\n\n';
+            var6 = '\n\n';
  148:
-            tangon = michal;
-            entity = golfie.bind(report)(oscard, tangon);
+            var4 = var2;
+            var1 = var7.bind(var5)(var6, var4);
  157:
-            tangon = zuuluu;
-            if(!tangon) { _fun00002_ip = 181; continue _fun00001 }
+            var4 = var3;
+            if(!var4) { _fun0001_ip = 181; continue _fun0001 }
  163:
-            tangon = zuuluu;
-            zuuluu = entity;
-            michal = michal.inline;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = var3;
+            var3 = var1;
+            var2 = var2.inline;
+            var1 = var4.bind(var5)(var3, var2);
  181:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    michal = global;
-    option = michal.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    michal = true;
-    oscard['value'] = michal;
-    michal = '__esModule';
-    michal = golfie.bind(option)(zuuluu, michal, oscard);
-    michal = {};
-    oscard = function(argFoo) { // Original name: astParserFor
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        michal = 1;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.parserFor;
-        michal = argFoo;
-        michal = zuuluu.bind(tangon)(michal);
-        var _closure2_slot0 = michal;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var2;
+    var2 = global;
+    var8 = var2.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var2 = true;
+    var6['value'] = var2;
+    var2 = '__esModule';
+    var2 = var7.bind(var8)(var3, var2, var6);
+    var2 = {};
+    var6 = function astParserFor(arg1) {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var2 = 1;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.parserFor;
+        var2 = arg1;
+        var2 = var3.bind(var4)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                golfie = arguments[0];
-                entity = arguments[1];
-                option = arguments[2];
-                oscard = arguments[3];
-                report = undefined;
-                if(!(golfie === report)) { _fun00004_ip = 22; continue _fun00003 }
+                var7 = arguments[0];
+                var1 = arguments[1];
+                var8 = arguments[2];
+                var6 = arguments[3];
+                var5 = undefined;
+                if(!(var7 === var5)) { _fun0002_ip = 22; continue _fun0002 }
  18:
-                golfie = '';
+                var7 = '';
  22:
-                if(!(option === report)) { _fun00004_ip = 28; continue _fun00003 }
+                if(!(var8 === var5)) { _fun0002_ip = 28; continue _fun0002 }
  26:
-                option = {};
+                var8 = {};
  28:
-                if(!(oscard === report)) { _fun00004_ip = 34; continue _fun00003 }
+                if(!(var6 === var5)) { _fun0002_ip = 34; continue _fun0002 }
  32:
-                oscard = null;
+                var6 = null;
  34:
-                tangon = _closure1_slot3;
-                zuuluu = _closure2_slot0;
-                michal = {};
-                michal['inline'] = entity;
-                backup = michal;
-                foxtra = option;
-                option = copyDataProperties(backup, foxtra);
-                offset = !entity;
-                kiloes = undefined;
-                backup = zuuluu;
-                foxtra = golfie;
-                romeon = michal;
-                yankee = oscard;
-                entity = kiloes[tangon](backup, foxtra, romeon, yankee, offset, verify);
-                return entity;
+                var4 = _closure1_slot3;
+                var3 = _closure2_slot0;
+                var2 = {};
+                var2['inline'] = var1;
+                var14 = var2;
+                var13 = var8;
+                var8 = copyDataProperties(var14, var13);
+                var10 = !var1;
+                var15 = undefined;
+                var14 = var3;
+                var13 = var7;
+                var12 = var2;
+                var11 = var6;
+                var1 = var15[var4](var14, var13, var12, var11, var10, var9);
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    michal['astParserFor'] = oscard;
-    entity = function(argFoo) { // Original name: reactParserFor
-        golfie = argFoo;
-        oscard = _closure1_slot1;
-        option = _closure1_slot2;
-        michal = 1;
-        zuuluu = option[michal];
-        report = undefined;
-        tangon = oscard.bind(report)(zuuluu);
-        zuuluu = tangon.parserFor;
-        zuuluu = zuuluu.bind(tangon)(golfie);
-        var _closure2_slot0 = zuuluu;
-        zuuluu = option[michal];
-        tangon = oscard.bind(report)(zuuluu);
-        zuuluu = tangon.reactFor;
-        michal = option[michal];
-        oscard = oscard.bind(report)(michal);
-        report = oscard.ruleOutput;
-        michal = 'react';
-        michal = report.bind(oscard)(golfie, michal);
-        michal = zuuluu.bind(tangon)(michal);
-        var _closure2_slot1 = michal;
-        entity = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['astParserFor'] = var6;
+    var1 = function reactParserFor(arg1) {
+        var7 = arg1;
+        var6 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var2 = 1;
+        var3 = var8[var2];
+        var5 = undefined;
+        var4 = var6.bind(var5)(var3);
+        var3 = var4.parserFor;
+        var3 = var3.bind(var4)(var7);
+        var _closure2_slot0 = var3;
+        var3 = var8[var2];
+        var4 = var6.bind(var5)(var3);
+        var3 = var4.reactFor;
+        var2 = var8[var2];
+        var6 = var6.bind(var5)(var2);
+        var5 = var6.ruleOutput;
+        var2 = 'react';
+        var2 = var5.bind(var6)(var7, var2);
+        var2 = var3.bind(var4)(var2);
+        var _closure2_slot1 = var2;
+        var1 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                option = arguments[0];
-                michal = arguments[1];
-                entity = arguments[2];
-                golfie = arguments[3];
-                tangon = undefined;
-                if(!(option === tangon)) { _fun00006_ip = 22; continue _fun00005 }
+                var8 = arguments[0];
+                var2 = arguments[1];
+                var1 = arguments[2];
+                var7 = arguments[3];
+                var4 = undefined;
+                if(!(var8 === var4)) { _fun0003_ip = 22; continue _fun0003 }
  18:
-                option = '';
+                var8 = '';
  22:
-                if(!(michal === tangon)) { _fun00006_ip = 28; continue _fun00005 }
+                if(!(var2 === var4)) { _fun0003_ip = 28; continue _fun0003 }
  26:
-                michal = true;
+                var2 = true;
  28:
-                if(!(entity === tangon)) { _fun00006_ip = 34; continue _fun00005 }
+                if(!(var1 === var4)) { _fun0003_ip = 34; continue _fun0003 }
  32:
-                entity = {};
+                var1 = {};
  34:
-                if(!(golfie === tangon)) { _fun00006_ip = 40; continue _fun00005 }
+                if(!(var7 === var4)) { _fun0003_ip = 40; continue _fun0003 }
  38:
-                golfie = null;
+                var7 = null;
  40:
-                zuuluu = option.trim;
-                zuuluu = zuuluu.bind(option)();
-                if(zuuluu) { _fun00006_ip = 57; continue _fun00005 }
+                var3 = var8.trim;
+                var3 = var3.bind(var8)();
+                if(var3) { _fun0003_ip = 57; continue _fun0003 }
  53:
-                zuuluu = null;
-                return zuuluu;
+                var3 = null;
+                return var3;
  57:
-                zuuluu = {};
-                zuuluu['inline'] = michal;
-                foxtra = zuuluu;
-                romeon = entity;
-                entity = copyDataProperties(foxtra, romeon);
-                oscard = _closure1_slot3;
-                foxtra = _closure2_slot0;
-                verify = !michal;
-                backup = undefined;
-                romeon = option;
-                yankee = zuuluu;
-                offset = golfie;
-                michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
-                entity = _closure2_slot1;
-                entity = entity.bind(tangon)(michal, zuuluu);
-                return entity;
+                var3 = {};
+                var3['inline'] = var2;
+                var13 = var3;
+                var12 = var1;
+                var1 = copyDataProperties(var13, var12);
+                var6 = _closure1_slot3;
+                var13 = _closure2_slot0;
+                var9 = !var2;
+                var14 = undefined;
+                var12 = var8;
+                var11 = var3;
+                var10 = var7;
+                var2 = var14[var6](var13, var12, var11, var10, var9, var8);
+                var1 = _closure2_slot1;
+                var1 = var1.bind(var4)(var2, var3);
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    michal['reactParserFor'] = entity;
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/markup/native/MarkupParser.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['reactParserFor'] = var1;
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/markup/native/MarkupParser.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

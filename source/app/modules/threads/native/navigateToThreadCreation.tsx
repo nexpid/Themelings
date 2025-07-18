@@ -1,62 +1,62 @@
 // app/modules/threads/native/navigateToThreadCreation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/threads/native/navigateToThreadCreation.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: navigateToThreadCreation
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/threads/native/navigateToThreadCreation.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function navigateToThreadCreation(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            entity = 0;
-            tangon = oscard[entity];
-            entity = undefined;
-            golfie = report.bind(entity)(tangon);
-            report = golfie.openThreadCreationForMobile;
-            tangon = argBar;
-            tangon = report.bind(golfie)(michal, entity, tangon);
-            report = _closure1_slot0;
-            tangon = 1;
-            tangon = oscard[tangon];
-            golfie = report.bind(entity)(tangon);
-            oscard = golfie.navigateToCreateThread;
-            report = michal.guild_id;
-            tangon = michal.id;
-            tangon = oscard.bind(golfie)(report, tangon);
-            if(tangon) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = arg1;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 0;
+            var4 = var6[var1];
+            var1 = undefined;
+            var7 = var5.bind(var1)(var4);
+            var5 = var7.openThreadCreationForMobile;
+            var4 = arg2;
+            var4 = var5.bind(var7)(var2, var1, var4);
+            var5 = _closure1_slot0;
+            var4 = 1;
+            var4 = var6[var4];
+            var7 = var5.bind(var1)(var4);
+            var6 = var7.navigateToCreateThread;
+            var5 = var2.guild_id;
+            var4 = var2.id;
+            var4 = var6.bind(var7)(var5, var4);
+            if(var4) { _fun0001_ip = 120; continue _fun0001 }
  84:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.transitionToChannel;
-            michal = michal.id;
-            michal = zuuluu.bind(tangon)(michal);
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 2;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.transitionToChannel;
+            var2 = var2.id;
+            var2 = var3.bind(var4)(var2);
  120:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['navigateToThreadCreation'] = michal;
-    return entity;
+    var3['navigateToThreadCreation'] = var2;
+    return var1;
 })();

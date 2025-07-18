@@ -1,62 +1,62 @@
 // app/modules/instant_invite/getInviteURL.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/instant_invite/getInviteURL.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function() { // Original name: getInviteURL
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/instant_invite/getInviteURL.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function getInviteURL() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = arguments[0];
-            oscard = arguments[1];
-            entity = undefined;
-            if(!(tangon === entity)) { _fun00002_ip = 16; continue _fun00001 }
+            var4 = arguments[0];
+            var6 = arguments[1];
+            var1 = undefined;
+            if(!(var4 === var1)) { _fun0001_ip = 16; continue _fun0001 }
  12:
-            tangon = '';
+            var4 = '';
  16:
-            if(!(oscard === entity)) { _fun00002_ip = 22; continue _fun00001 }
+            if(!(var6 === var1)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            oscard = true;
+            var6 = true;
  22:
-            entity = global;
-            michal = entity.window;
-            michal = michal.GLOBAL_ENV;
-            report = michal.INVITE_HOST;
-            michal = entity.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '/';
-            tangon = zuuluu.bind(michal)(tangon);
-            zuuluu = '';
-            michal = zuuluu;
-            if(!oscard) { _fun00002_ip = 107; continue _fun00001 }
+            var1 = global;
+            var2 = var1.window;
+            var2 = var2.GLOBAL_ENV;
+            var5 = var2.INVITE_HOST;
+            var2 = var1.HermesInternal;
+            var3 = var2.concat;
+            var2 = '/';
+            var4 = var3.bind(var2)(var4);
+            var3 = '';
+            var2 = var3;
+            if(!var6) { _fun0001_ip = 107; continue _fun0001 }
  72:
-            oscard = entity.location;
-            option = oscard.protocol;
-            oscard = entity.HermesInternal;
-            golfie = oscard.concat;
-            oscard = '//';
-            michal = golfie.bind(zuuluu)(option, oscard);
+            var6 = var1.location;
+            var8 = var6.protocol;
+            var6 = var1.HermesInternal;
+            var7 = var6.concat;
+            var6 = '//';
+            var2 = var7.bind(var3)(var8, var6);
  107:
-            entity = entity.HermesInternal;
-            entity = entity.concat;
-            entity = entity.bind(zuuluu)(michal, report, tangon);
-            return entity;
+            var1 = var1.HermesInternal;
+            var1 = var1.concat;
+            var1 = var1.bind(var3)(var2, var5, var4);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

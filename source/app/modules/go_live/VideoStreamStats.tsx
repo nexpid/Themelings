@@ -1,340 +1,340 @@
 // app/modules/go_live/VideoStreamStats.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: round
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function round(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = arguments[1];
-            michal = undefined;
-            if(!(entity === michal)) { _fun00002_ip = 14; continue _fun00001 }
+            var4 = arg1;
+            var1 = arguments[1];
+            var2 = undefined;
+            if(!(var1 === var2)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            entity = 0;
+            var1 = 0;
  14:
-            michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 38; continue _fun00001 }
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 38; continue _fun0001 }
  20:
-            michal = global;
-            zuuluu = michal.Math;
-            michal = zuuluu.round;
-            entity = michal.bind(zuuluu)(tangon);
+            var2 = global;
+            var3 = var2.Math;
+            var2 = var3.round;
+            var1 = var2.bind(var3)(var4);
  38:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.StreamLayouts;
-    var _closure1_slot5 = tangon;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function(argFoo, argBar) { // Original name: VideoStreamStats
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            oscard = _closure1_slot2;
-            report = _closure2_slot0;
-            entity = undefined;
-            report = oscard.bind(entity)(zuuluu, report);
-            report = 0;
-            zuuluu['_targetResolution'] = report;
-            zuuluu['_targetFPS'] = report;
-            oscard = false;
-            zuuluu['_streamSettingsChanged'] = oscard;
-            zuuluu['_lastLayoutChanged'] = report;
-            zuuluu['_layoutChanges'] = report;
-            report = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.StreamLayouts;
+    var _closure1_slot5 = var4;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function VideoStreamStats(arg1, arg2) {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var6 = _closure1_slot2;
+            var5 = _closure2_slot0;
+            var1 = undefined;
+            var5 = var6.bind(var1)(var3, var5);
+            var5 = 0;
+            var3['_targetResolution'] = var5;
+            var3['_targetFPS'] = var5;
+            var6 = false;
+            var3['_streamSettingsChanged'] = var6;
+            var3['_lastLayoutChanged'] = var5;
+            var3['_layoutChanges'] = var5;
+            var5 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = _closure3_slot0;
-                    michal = michal._layoutBuckets;
-                    tangon = michal[zuuluu];
-                    michal = null;
-                    if(!(michal == tangon)) { _fun00004_ip = 42; continue _fun00003 }
+                    var3 = arg1;
+                    var2 = _closure3_slot0;
+                    var2 = var2._layoutBuckets;
+                    var4 = var2[var3];
+                    var2 = null;
+                    if(!(var2 == var4)) { _fun0002_ip = 42; continue _fun0002 }
  26:
-                    michal = _closure3_slot0;
-                    tangon = michal._layoutBuckets;
-                    michal = 0;
-                    tangon[zuuluu] = michal;
+                    var2 = _closure3_slot0;
+                    var4 = var2._layoutBuckets;
+                    var2 = 0;
+                    var4[var3] = var2;
  42:
-                    entity = _closure3_slot0;
-                    michal = entity._layoutBuckets;
-                    tangon = michal[zuuluu];
-                    entity = argBar;
-                    entity = tangon + entity;
-                    michal[zuuluu] = entity;
-                    entity = undefined;
-                    return entity;
+                    var1 = _closure3_slot0;
+                    var2 = var1._layoutBuckets;
+                    var4 = var2[var3];
+                    var1 = arg2;
+                    var1 = var4 + var1;
+                    var2[var3] = var1;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu['_incrementLayout'] = report;
-            tangon = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var3['_incrementLayout'] = var5;
+            var4 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure1_slot4;
-                    entity = michal.getState;
-                    entity = entity.bind(michal)();
-                    report = entity.resolution;
-                    tangon = entity.fps;
-                    michal = _closure3_slot0;
-                    entity = michal._targetResolution;
-                    entity = report !== entity;
-                    if(entity) { _fun00006_ip = 63; continue _fun00005 }
+                    var2 = _closure1_slot4;
+                    var1 = var2.getState;
+                    var1 = var1.bind(var2)();
+                    var5 = var1.resolution;
+                    var4 = var1.fps;
+                    var2 = _closure3_slot0;
+                    var1 = var2._targetResolution;
+                    var1 = var5 !== var1;
+                    if(var1) { _fun0003_ip = 63; continue _fun0003 }
  49:
-                    zuuluu = _closure3_slot0;
-                    zuuluu = zuuluu._targetFPS;
-                    entity = tangon !== zuuluu;
+                    var3 = _closure3_slot0;
+                    var3 = var3._targetFPS;
+                    var1 = var4 !== var3;
  63:
-                    michal['_streamSettingsChanged'] = entity;
-                    entity = undefined;
-                    return entity;
+                    var2['_streamSettingsChanged'] = var1;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu['_sampleStats'] = tangon;
-            tangon = argBar;
-            zuuluu['_isSender'] = tangon;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 4;
-            michal = report[michal];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.Interval;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            verify = tangon;
-            michal = new verify[michal](option);
-            michal = michal instanceof Object ? michal : tangon;
-            zuuluu['_statInterval'] = michal;
-            michal = argFoo;
-            zuuluu['_lastLayout'] = michal;
-            michal = {};
-            zuuluu['_layoutBuckets'] = michal;
-            return entity;
+            var3['_sampleStats'] = var4;
+            var4 = arg2;
+            var3['_isSender'] = var4;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.Interval;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var9 = var4;
+            var2 = new var9[var2](var8);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var3['_statInterval'] = var2;
+            var2 = arg1;
+            var3['_lastLayout'] = var2;
+            var2 = {};
+            var3['_layoutBuckets'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'start';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            zuuluu = this;
-            tangon = _closure1_slot4;
-            michal = tangon.getState;
-            michal = michal.bind(tangon)();
-            tangon = michal.resolution;
-            michal = michal.fps;
-            zuuluu['_targetResolution'] = tangon;
-            zuuluu['_targetFPS'] = michal;
-            oscard = zuuluu._statInterval;
-            report = oscard.start;
-            tangon = zuuluu._sampleStats;
-            michal = 1000;
-            michal = report.bind(oscard)(michal, tangon);
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(michal);
-            michal = tangon.now;
-            michal = michal.bind(tangon)();
-            zuuluu['_lastLayoutChanged'] = michal;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'start';
+        var1['key'] = var2;
+        var2 = function value() {
+            var3 = this;
+            var4 = _closure1_slot4;
+            var2 = var4.getState;
+            var2 = var2.bind(var4)();
+            var4 = var2.resolution;
+            var2 = var2.fps;
+            var3['_targetResolution'] = var4;
+            var3['_targetFPS'] = var2;
+            var6 = var3._statInterval;
+            var5 = var6.start;
+            var4 = var3._sampleStats;
+            var2 = 1000;
+            var2 = var5.bind(var6)(var2, var4);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.now;
+            var2 = var2.bind(var4)();
+            var3['_lastLayoutChanged'] = var2;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(5);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'stop';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            report = this;
-            michal = report._statInterval;
-            entity = michal.stop;
-            entity = entity.bind(michal)();
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.now;
-            michal = michal.bind(zuuluu)();
-            report['_streamEnd'] = michal;
-            tangon = report._incrementLayout;
-            zuuluu = report._lastLayout;
-            oscard = report._streamEnd;
-            michal = report._lastLayoutChanged;
-            oscard = oscard - michal;
-            michal = 1000;
-            michal = oscard / michal;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+        var1['value'] = var2;
+        var2 = new Array(5);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'stop';
+        var1['key'] = var6;
+        var6 = function value() {
+            var5 = this;
+            var2 = var5._statInterval;
+            var1 = var2.stop;
+            var1 = var1.bind(var2)();
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.now;
+            var2 = var2.bind(var3)();
+            var5['_streamEnd'] = var2;
+            var4 = var5._incrementLayout;
+            var3 = var5._lastLayout;
+            var6 = var5._streamEnd;
+            var2 = var5._lastLayoutChanged;
+            var6 = var6 - var2;
+            var2 = 1000;
+            var2 = var6 / var2;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'layoutChange';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'layoutChange';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                entity = michal._lastLayout;
-                if(!(zuuluu !== entity)) { _fun00008_ip = 127; continue _fun00007 }
+                var3 = arg1;
+                var2 = this;
+                var1 = var2._lastLayout;
+                if(!(var3 !== var1)) { _fun0004_ip = 127; continue _fun0004 }
  16:
-                tangon = michal._streamEnd;
-                entity = null;
-                if(!(entity == tangon)) { _fun00008_ip = 127; continue _fun00007 }
+                var4 = var2._streamEnd;
+                var1 = null;
+                if(!(var1 == var4)) { _fun0004_ip = 127; continue _fun0004 }
  28:
-                report = _closure1_slot0;
-                tangon = _closure1_slot1;
-                entity = 5;
-                tangon = tangon[entity];
-                entity = undefined;
-                tangon = report.bind(entity)(tangon);
-                entity = tangon.now;
-                entity = entity.bind(tangon)();
-                oscard = michal._incrementLayout;
-                report = michal._lastLayout;
-                tangon = michal._lastLayoutChanged;
-                golfie = entity - tangon;
-                tangon = 1000;
-                tangon = golfie / tangon;
-                tangon = oscard.bind(michal)(report, tangon);
-                tangon = michal._layoutChanges;
-                tangon = tangon + 1;
-                michal['_layoutChanges'] = tangon;
-                michal['_lastLayout'] = zuuluu;
-                michal['_lastLayoutChanged'] = entity;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 5;
+                var4 = var4[var1];
+                var1 = undefined;
+                var4 = var5.bind(var1)(var4);
+                var1 = var4.now;
+                var1 = var1.bind(var4)();
+                var6 = var2._incrementLayout;
+                var5 = var2._lastLayout;
+                var4 = var2._lastLayoutChanged;
+                var7 = var1 - var4;
+                var4 = 1000;
+                var4 = var7 / var4;
+                var4 = var6.bind(var2)(var5, var4);
+                var4 = var2._layoutChanges;
+                var4 = var4 + 1;
+                var2['_layoutChanges'] = var4;
+                var2['_lastLayout'] = var3;
+                var2['_lastLayoutChanged'] = var1;
  127:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'getLayout';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            entity = entity._lastLayout;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'getLayout';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1._lastLayout;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'getStats';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'getStats';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                zuuluu = this;
-                tangon = {};
-                entity = zuuluu._layoutChanges;
-                tangon['num_layout_changes'] = entity;
-                report = _closure1_slot6;
-                oscard = zuuluu._layoutBuckets;
-                entity = _closure1_slot5;
-                michal = entity.FULL_SCREEN;
-                oscard = oscard[michal];
-                michal = undefined;
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_fullscreen'] = oscard;
-                golfie = zuuluu._layoutBuckets;
-                oscard = entity.THEATRE;
-                oscard = golfie[oscard];
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_theatre'] = oscard;
-                golfie = zuuluu._layoutBuckets;
-                oscard = entity.PIP;
-                oscard = golfie[oscard];
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_pip'] = oscard;
-                golfie = zuuluu._layoutBuckets;
-                oscard = entity.POPOUT;
-                oscard = golfie[oscard];
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_popout'] = oscard;
-                golfie = zuuluu._layoutBuckets;
-                oscard = entity.PORTRAIT;
-                oscard = golfie[oscard];
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_portrait'] = oscard;
-                golfie = zuuluu._layoutBuckets;
-                oscard = entity.LANDSCAPE;
-                oscard = golfie[oscard];
-                oscard = report.bind(michal)(oscard);
-                tangon['duration_layout_landscape'] = oscard;
-                oscard = zuuluu._layoutBuckets;
-                entity = entity.MINIMIZED;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                tangon['duration_layout_minimized'] = entity;
-                michal = zuuluu._isSender;
-                entity = tangon;
-                if(!michal) { _fun00010_ip = 305; continue _fun00009 }
+                var3 = this;
+                var4 = {};
+                var1 = var3._layoutChanges;
+                var4['num_layout_changes'] = var1;
+                var5 = _closure1_slot6;
+                var6 = var3._layoutBuckets;
+                var1 = _closure1_slot5;
+                var2 = var1.FULL_SCREEN;
+                var6 = var6[var2];
+                var2 = undefined;
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_fullscreen'] = var6;
+                var7 = var3._layoutBuckets;
+                var6 = var1.THEATRE;
+                var6 = var7[var6];
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_theatre'] = var6;
+                var7 = var3._layoutBuckets;
+                var6 = var1.PIP;
+                var6 = var7[var6];
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_pip'] = var6;
+                var7 = var3._layoutBuckets;
+                var6 = var1.POPOUT;
+                var6 = var7[var6];
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_popout'] = var6;
+                var7 = var3._layoutBuckets;
+                var6 = var1.PORTRAIT;
+                var6 = var7[var6];
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_portrait'] = var6;
+                var7 = var3._layoutBuckets;
+                var6 = var1.LANDSCAPE;
+                var6 = var7[var6];
+                var6 = var5.bind(var2)(var6);
+                var4['duration_layout_landscape'] = var6;
+                var6 = var3._layoutBuckets;
+                var1 = var1.MINIMIZED;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var4['duration_layout_minimized'] = var1;
+                var2 = var3._isSender;
+                var1 = var4;
+                if(!var2) { _fun0005_ip = 305; continue _fun0005 }
  239:
-                michal = {};
-                verify = michal;
-                option = tangon;
-                tangon = copyDataProperties(verify, option);
-                report = zuuluu._targetFPS;
-                tangon = 'target_fps';
-                michal[tangon] = report;
-                report = zuuluu._targetResolution;
-                tangon = 'target_resolution_height';
-                michal[tangon] = report;
-                tangon = zuuluu._streamSettingsChanged;
-                zuuluu = 'stream_settings_changed';
-                michal[zuuluu] = tangon;
-                entity = michal;
+                var2 = {};
+                var9 = var2;
+                var8 = var4;
+                var4 = copyDataProperties(var9, var8);
+                var5 = var3._targetFPS;
+                var4 = 'target_fps';
+                var2[var4] = var5;
+                var5 = var3._targetResolution;
+                var4 = 'target_resolution_height';
+                var2[var4] = var5;
+                var4 = var3._streamSettingsChanged;
+                var3 = 'stream_settings_changed';
+                var2[var3] = var4;
+                var1 = var2;
  305:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[4] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[4] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/go_live/VideoStreamStats.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/go_live/VideoStreamStats.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

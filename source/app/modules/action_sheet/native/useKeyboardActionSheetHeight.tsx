@@ -1,115 +1,115 @@
 // app/modules/action_sheet/native/useKeyboardActionSheetHeight.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = function(argFoo, argBar, argBaz) { // Original name: computeKeyboardActionSheetHeight
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = function computeKeyboardActionSheetHeight(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = argBar;
-            tangon = michal.height;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 0;
-            michal = golfie[zuuluu];
-            report = undefined;
-            michal = oscard.bind(report)(michal);
-            michal = michal.NAV_BAR_HEIGHT_MULTILINE;
-            tangon = tangon - michal;
-            michal = entity.top;
-            michal = tangon - michal;
-            tangon = 1;
-            tangon = golfie[tangon];
-            report = oscard.bind(report)(tangon);
-            tangon = report.isAndroid;
-            tangon = tangon.bind(report)();
-            if(!tangon) { _fun00002_ip = 83; continue _fun00001 }
+            var1 = arg1;
+            var2 = arg2;
+            var4 = var2.height;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 0;
+            var2 = var7[var3];
+            var5 = undefined;
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.NAV_BAR_HEIGHT_MULTILINE;
+            var4 = var4 - var2;
+            var2 = var1.top;
+            var2 = var4 - var2;
+            var4 = 1;
+            var4 = var7[var4];
+            var5 = var6.bind(var5)(var4);
+            var4 = var5.isAndroid;
+            var4 = var4.bind(var5)();
+            if(!var4) { _fun0001_ip = 83; continue _fun0001 }
  78:
-            zuuluu = entity.bottom;
+            var3 = var1.bottom;
  83:
-            entity = argBaz;
-            zuuluu = entity + zuuluu;
-            if(!(zuuluu >= michal)) { _fun00002_ip = 97; continue _fun00001 }
+            var1 = arg3;
+            var3 = var1 + var3;
+            if(!(var3 >= var2)) { _fun0001_ip = 97; continue _fun0001 }
  94:
-            michal = zuuluu;
+            var2 = var3;
  97:
-            entity = {};
-            entity['minimum'] = zuuluu;
-            entity['maximum'] = michal;
-            return entity;
+            var1 = {};
+            var1['minimum'] = var3;
+            var1['maximum'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 5;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/action_sheet/native/useKeyboardActionSheetHeight.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useKeyboardActionSheetHeight
-        report = _closure1_slot3;
-        oscard = _closure1_slot1;
-        golfie = _closure1_slot2;
-        entity = 2;
-        entity = golfie[entity];
-        tangon = undefined;
-        entity = oscard.bind(tangon)(entity);
-        zuuluu = entity.bind(tangon)();
-        entity = 3;
-        entity = golfie[entity];
-        michal = oscard.bind(tangon)(entity);
-        entity = {};
-        option = true;
-        entity['ignoreKeyboard'] = option;
-        michal = michal.bind(tangon)(entity);
-        entity = 4;
-        entity = golfie[entity];
-        entity = oscard.bind(tangon)(entity);
-        entity = entity.bind(tangon)();
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        return entity;
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 5;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/action_sheet/native/useKeyboardActionSheetHeight.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useKeyboardActionSheetHeight() {
+        var5 = _closure1_slot3;
+        var6 = _closure1_slot1;
+        var7 = _closure1_slot2;
+        var1 = 2;
+        var1 = var7[var1];
+        var4 = undefined;
+        var1 = var6.bind(var4)(var1);
+        var3 = var1.bind(var4)();
+        var1 = 3;
+        var1 = var7[var1];
+        var2 = var6.bind(var4)(var1);
+        var1 = {};
+        var8 = true;
+        var1['ignoreKeyboard'] = var8;
+        var2 = var2.bind(var4)(var1);
+        var1 = 4;
+        var1 = var7[var1];
+        var1 = var6.bind(var4)(var1);
+        var1 = var1.bind(var4)();
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: getKeyboardActionSheetHeight
-        report = _closure1_slot3;
-        oscard = _closure1_slot0;
-        golfie = _closure1_slot2;
-        entity = 2;
-        entity = golfie[entity];
-        tangon = undefined;
-        michal = oscard.bind(tangon)(entity);
-        entity = michal.getSafeAreaInsets;
-        zuuluu = entity.bind(michal)();
-        entity = 3;
-        entity = golfie[entity];
-        option = oscard.bind(tangon)(entity);
-        michal = option.getWindowDimensions;
-        entity = {};
-        verify = true;
-        entity['ignoreKeyboard'] = verify;
-        michal = michal.bind(option)(entity);
-        entity = 4;
-        entity = golfie[entity];
-        oscard = oscard.bind(tangon)(entity);
-        entity = oscard.getCustomKeyboardHeight;
-        entity = entity.bind(oscard)();
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        return entity;
+    var3['default'] = var4;
+    var2 = function getKeyboardActionSheetHeight() {
+        var5 = _closure1_slot3;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var1 = 2;
+        var1 = var7[var1];
+        var4 = undefined;
+        var2 = var6.bind(var4)(var1);
+        var1 = var2.getSafeAreaInsets;
+        var3 = var1.bind(var2)();
+        var1 = 3;
+        var1 = var7[var1];
+        var8 = var6.bind(var4)(var1);
+        var2 = var8.getWindowDimensions;
+        var1 = {};
+        var9 = true;
+        var1['ignoreKeyboard'] = var9;
+        var2 = var2.bind(var8)(var1);
+        var1 = 4;
+        var1 = var7[var1];
+        var6 = var6.bind(var4)(var1);
+        var1 = var6.getCustomKeyboardHeight;
+        var1 = var1.bind(var6)();
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
     };
-    zuuluu['getKeyboardActionSheetHeight'] = michal;
-    return entity;
+    var3['getKeyboardActionSheetHeight'] = var2;
+    return var1;
 })();

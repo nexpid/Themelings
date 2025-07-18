@@ -1,104 +1,104 @@
 // app/modules/app_database/modules/messages/isLimitedChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    tangon = function(argFoo) { // Original name: isLimitedChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var4 = function isLimitedChannel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            oscard = _closure1_slot1;
-            report = oscard.getMemberCount;
-            entity = null;
-            golfie = entity == tangon;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 32; continue _fun00001 }
+            var4 = arg1;
+            var6 = _closure1_slot1;
+            var5 = var6.getMemberCount;
+            var1 = null;
+            var7 = var1 == var4;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 32; continue _fun0001 }
  27:
-            zuuluu = tangon.guild_id;
+            var3 = var4.guild_id;
  32:
-            report = report.bind(oscard)(zuuluu);
-            oscard = entity != report;
-            zuuluu = 0;
-            if(!oscard) { _fun00002_ip = 49; continue _fun00001 }
+            var5 = var5.bind(var6)(var3);
+            var6 = var1 != var5;
+            var3 = 0;
+            if(!var6) { _fun0001_ip = 49; continue _fun0001 }
  46:
-            zuuluu = report;
+            var3 = var5;
  49:
-            entity = entity != tangon;
-            if(!entity) { _fun00002_ip = 75; continue _fun00001 }
+            var1 = var1 != var4;
+            if(!var1) { _fun0001_ip = 75; continue _fun0001 }
  56:
-            oscard = tangon.type;
-            report = _closure1_slot2;
-            report = report.DM;
-            entity = oscard !== report;
+            var6 = var4.type;
+            var5 = _closure1_slot2;
+            var5 = var5.DM;
+            var1 = var6 !== var5;
  75:
-            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 97; continue _fun0001 }
  78:
-            tangon = tangon.type;
-            michal = _closure1_slot2;
-            michal = michal.GROUP_DM;
-            entity = tangon !== michal;
+            var4 = var4.type;
+            var2 = _closure1_slot2;
+            var2 = var2.GROUP_DM;
+            var1 = var4 !== var2;
  97:
-            if(!entity) { _fun00002_ip = 110; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
  100:
-            michal = 10000;
-            entity = zuuluu >= michal;
+            var2 = 10000;
+            var1 = var3 >= var2;
  110:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot0 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot1 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.ChannelTypes;
-    var _closure1_slot2 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
-    report = oscard.bind(golfie)(report);
-    report = 10000;
-    zuuluu['LIMITED_GUILD_MEMBER_THRESHOLD'] = report;
-    zuuluu['isLimitedChannel'] = tangon;
-    michal = function(argFoo) { // Original name: isLimitedChannelId
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot0 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot1 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ChannelTypes;
+    var _closure1_slot2 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/app_database/modules/messages/isLimitedChannel.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = 10000;
+    var3['LIMITED_GUILD_MEMBER_THRESHOLD'] = var5;
+    var3['isLimitedChannel'] = var4;
+    var2 = function isLimitedChannelId(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot3;
-            tangon = _closure1_slot0;
-            michal = tangon.getBasicChannel;
-            entity = null;
-            oscard = entity != report;
-            entity = '_';
-            if(!oscard) { _fun00004_ip = 36; continue _fun00003 }
+            var5 = arg1;
+            var3 = _closure1_slot3;
+            var4 = _closure1_slot0;
+            var2 = var4.getBasicChannel;
+            var1 = null;
+            var6 = var1 != var5;
+            var1 = '_';
+            if(!var6) { _fun0002_ip = 36; continue _fun0002 }
  33:
-            entity = report;
+            var1 = var5;
  36:
-            michal = michal.bind(tangon)(entity);
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+            var2 = var2.bind(var4)(var1);
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         }
     };
-    zuuluu['isLimitedChannelId'] = michal;
-    return entity;
+    var3['isLimitedChannelId'] = var2;
+    return var1;
 })();

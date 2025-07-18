@@ -1,151 +1,151 @@
 // app/actions/native/GuildActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = option;
-    tangon = function(argFoo, argBar) { // Original name: batchChannelUpdate
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
+    var4 = function batchChannelUpdate(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argBar;
-            michal = report.length;
-            entity = 0;
-            if(!(!(michal <= entity))) { _fun00002_ip = 153; continue _fun00001 }
+            var5 = arg2;
+            var2 = var5.length;
+            var1 = 0;
+            if(!(!(var2 <= var1))) { _fun0001_ip = 153; continue _fun0001 }
  17:
-            zuuluu = function() { // Original name: onEnd
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.dispatch;
-                entity = {};
-                tangon = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
-                entity['type'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var3 = function onEnd() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.dispatch;
+                var1 = {};
+                var4 = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
+                var1['type'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 1;
-            entity = golfie[entity];
-            tangon = undefined;
-            option = michal.bind(tangon)(entity);
-            michal = option.dispatch;
-            entity = {};
-            verify = 'GUILD_SETTINGS_SUBMIT';
-            entity['type'] = verify;
-            entity = michal.bind(option)(entity);
-            michal = _closure1_slot0;
-            entity = 2;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            tangon = entity.HTTP;
-            michal = tangon.patch;
-            entity = {};
-            option = _closure1_slot3;
-            golfie = option.GUILD_CHANNELS;
-            oscard = argFoo;
-            oscard = golfie.bind(option)(oscard);
-            entity['url'] = oscard;
-            entity['body'] = report;
-            report = true;
-            entity['oldFormErrors'] = report;
-            entity['rejectWithError'] = report;
-            michal = michal.bind(tangon)(entity);
-            entity = michal.then;
-            entity = entity.bind(michal)(zuuluu, zuuluu);
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 1;
+            var1 = var7[var1];
+            var4 = undefined;
+            var8 = var2.bind(var4)(var1);
+            var2 = var8.dispatch;
+            var1 = {};
+            var9 = 'GUILD_SETTINGS_SUBMIT';
+            var1['type'] = var9;
+            var1 = var2.bind(var8)(var1);
+            var2 = _closure1_slot0;
+            var1 = 2;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var4 = var1.HTTP;
+            var2 = var4.patch;
+            var1 = {};
+            var8 = _closure1_slot3;
+            var7 = var8.GUILD_CHANNELS;
+            var6 = arg1;
+            var6 = var7.bind(var8)(var6);
+            var1['url'] = var6;
+            var1['body'] = var5;
+            var5 = true;
+            var1['oldFormErrors'] = var5;
+            var1['rejectWithError'] = var5;
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.then;
+            var1 = var1.bind(var2)(var3, var3);
  153:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal = function(argFoo, argBar) { // Original name: batchRoleUpdate
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2 = function batchRoleUpdate(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argBar;
-            michal = report.length;
-            entity = 0;
-            if(!(!(michal <= entity))) { _fun00004_ip = 153; continue _fun00003 }
+            var5 = arg2;
+            var2 = var5.length;
+            var1 = 0;
+            if(!(!(var2 <= var1))) { _fun0002_ip = 153; continue _fun0002 }
  17:
-            zuuluu = function() { // Original name: onEnd
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.dispatch;
-                entity = {};
-                tangon = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
-                entity['type'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var3 = function onEnd() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.dispatch;
+                var1 = {};
+                var4 = 'GUILD_SETTINGS_SUBMIT_SUCCESS';
+                var1['type'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 1;
-            entity = golfie[entity];
-            tangon = undefined;
-            option = michal.bind(tangon)(entity);
-            michal = option.dispatch;
-            entity = {};
-            verify = 'GUILD_SETTINGS_SUBMIT';
-            entity['type'] = verify;
-            entity = michal.bind(option)(entity);
-            michal = _closure1_slot0;
-            entity = 2;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            tangon = entity.HTTP;
-            michal = tangon.patch;
-            entity = {};
-            option = _closure1_slot3;
-            golfie = option.GUILD_ROLES;
-            oscard = argFoo;
-            oscard = golfie.bind(option)(oscard);
-            entity['url'] = oscard;
-            entity['body'] = report;
-            report = true;
-            entity['oldFormErrors'] = report;
-            entity['rejectWithError'] = report;
-            michal = michal.bind(tangon)(entity);
-            entity = michal.then;
-            entity = entity.bind(michal)(zuuluu, zuuluu);
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 1;
+            var1 = var7[var1];
+            var4 = undefined;
+            var8 = var2.bind(var4)(var1);
+            var2 = var8.dispatch;
+            var1 = {};
+            var9 = 'GUILD_SETTINGS_SUBMIT';
+            var1['type'] = var9;
+            var1 = var2.bind(var8)(var1);
+            var2 = _closure1_slot0;
+            var1 = 2;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var4 = var1.HTTP;
+            var2 = var4.patch;
+            var1 = {};
+            var8 = _closure1_slot3;
+            var7 = var8.GUILD_ROLES;
+            var6 = arg1;
+            var6 = var7.bind(var8)(var6);
+            var1['url'] = var6;
+            var1['body'] = var5;
+            var5 = true;
+            var1['oldFormErrors'] = var5;
+            var1['rejectWithError'] = var5;
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.then;
+            var1 = var1.bind(var2)(var3, var3);
  153:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = option[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    report = report.Endpoints;
-    var _closure1_slot3 = report;
-    report = {};
-    report['batchChannelUpdate'] = tangon;
-    report['batchRoleUpdate'] = michal;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'actions/native/GuildActionCreators.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = report;
-    zuuluu['batchChannelUpdate'] = tangon;
-    zuuluu['batchRoleUpdate'] = michal;
-    return entity;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var8[var1];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.Endpoints;
+    var _closure1_slot3 = var5;
+    var5 = {};
+    var5['batchChannelUpdate'] = var4;
+    var5['batchRoleUpdate'] = var2;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'actions/native/GuildActionCreators.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['batchChannelUpdate'] = var4;
+    var3['batchRoleUpdate'] = var2;
+    return var1;
 })();

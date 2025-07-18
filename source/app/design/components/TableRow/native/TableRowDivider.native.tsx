@@ -1,134 +1,134 @@
 // app/design/components/TableRow/native/TableRowDivider.native.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.StyleSheet;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.TABLE_DIVIDER_WIDTH;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.TABLE_ROW_DIVIDER_PADDING;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.StyleSheet;
+    var _closure1_slot2 = var7;
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.TABLE_DIVIDER_WIDTH;
+    var _closure1_slot4 = var7;
+    var4 = var4.TABLE_ROW_DIVIDER_PADDING;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = {};
-            michal = {};
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            tangon = 5;
-            tangon = report[tangon];
-            report = undefined;
-            tangon = oscard.bind(report)(tangon);
-            tangon = tangon.CARD_PRIMARY_BG;
-            michal['backgroundColor'] = tangon;
-            tangon = _closure1_slot4;
-            michal['height'] = tangon;
-            tangon = 12;
-            oscard = argFoo;
-            if(!oscard) { _fun00002_ip = 60; continue _fun00001 }
+            var1 = {};
+            var2 = {};
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 5;
+            var4 = var5[var4];
+            var5 = undefined;
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.CARD_PRIMARY_BG;
+            var2['backgroundColor'] = var4;
+            var4 = _closure1_slot4;
+            var2['height'] = var4;
+            var4 = 12;
+            var6 = arg1;
+            if(!var6) { _fun0001_ip = 60; continue _fun0001 }
  56:
-            tangon = _closure1_slot5;
+            var4 = _closure1_slot5;
  60:
-            michal['paddingStart'] = tangon;
-            oscard = _closure1_slot4;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            tangon = 6;
-            tangon = option[tangon];
-            golfie = golfie.bind(report)(tangon);
-            tangon = golfie.isAndroid;
-            golfie = tangon.bind(golfie)();
-            tangon = 0;
-            if(!golfie) { _fun00002_ip = 113; continue _fun00001 }
+            var2['paddingStart'] = var4;
+            var6 = _closure1_slot4;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var4 = 6;
+            var4 = var8[var4];
+            var7 = var7.bind(var5)(var4);
+            var4 = var7.isAndroid;
+            var7 = var4.bind(var7)();
+            var4 = 0;
+            if(!var7) { _fun0001_ip = 113; continue _fun0001 }
  103:
-            golfie = _closure1_slot2;
-            tangon = golfie.hairlineWidth;
+            var7 = _closure1_slot2;
+            var4 = var7.hairlineWidth;
  113:
-            tangon = oscard + tangon;
-            tangon = -tangon;
-            michal['marginTop'] = tangon;
-            entity['container'] = michal;
-            michal = {};
-            tangon = _closure1_slot4;
-            michal['height'] = tangon;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            zuuluu = 7;
-            zuuluu = oscard[zuuluu];
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.DIVIDER_BACKGROUND;
-            michal['backgroundColor'] = zuuluu;
-            entity['divider'] = michal;
-            return entity;
+            var4 = var6 + var4;
+            var4 = -var4;
+            var2['marginTop'] = var4;
+            var1['container'] = var2;
+            var2 = {};
+            var4 = _closure1_slot4;
+            var2['height'] = var4;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 7;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.DIVIDER_BACKGROUND;
+            var2['backgroundColor'] = var3;
+            var1['divider'] = var2;
+            return var1;
         }
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/TableRow/native/TableRowDivider.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TableRowDivider
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/TableRow/native/TableRowDivider.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function TableRowDivider(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.adjustSpacingForIcon;
-            tangon = undefined;
-            if(!(zuuluu === tangon)) { _fun00004_ip = 17; continue _fun00003 }
+            var1 = arg1;
+            var3 = var1.adjustSpacingForIcon;
+            var4 = undefined;
+            if(!(var3 === var4)) { _fun0002_ip = 17; continue _fun0002 }
  15:
-            zuuluu = false;
+            var3 = false;
  17:
-            michal = _closure1_slot7;
-            oscard = michal.bind(tangon)(zuuluu);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot3;
-            entity = {};
-            report = oscard.container;
-            entity['style'] = report;
-            report = {};
-            oscard = oscard.divider;
-            report['style'] = oscard;
-            report = zuuluu.bind(tangon)(michal, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var2 = _closure1_slot7;
+            var6 = var2.bind(var4)(var3);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var6.container;
+            var1['style'] = var5;
+            var5 = {};
+            var6 = var6.divider;
+            var5['style'] = var6;
+            var5 = var3.bind(var4)(var2, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['TableRowDivider'] = michal;
-    return entity;
+    var3['TableRowDivider'] = var2;
+    return var1;
 })();

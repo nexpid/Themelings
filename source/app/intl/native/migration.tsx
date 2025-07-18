@@ -1,139 +1,139 @@
 // app/intl/native/migration.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    michal = function(argFoo) { // Original name: IntlLink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var2 = function IntlLink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.target;
-            var _closure2_slot0 = zuuluu;
-            report = entity.children;
-            option = _closure1_slot3;
-            golfie = option.useContext;
-            verify = _closure1_slot0;
-            oscard = _closure1_slot2;
-            tangon = 4;
-            oscard = oscard[tangon];
-            tangon = undefined;
-            oscard = verify.bind(tangon)(oscard);
-            oscard = oscard.AccessibilityPreferencesContext;
-            oscard = golfie.bind(option)(oscard);
-            golfie = oscard.alwaysShowLinkDecorations;
-            oscard = _closure1_slot5;
-            oscard = oscard.bind(tangon)(golfie);
-            verify = typeof zuuluu;
-            golfie = 'string';
-            if(!(golfie !== verify)) { _fun00002_ip = 126; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.target;
+            var _closure2_slot0 = var3;
+            var5 = var1.children;
+            var8 = _closure1_slot3;
+            var7 = var8.useContext;
+            var9 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 4;
+            var6 = var6[var4];
+            var4 = undefined;
+            var6 = var9.bind(var4)(var6);
+            var6 = var6.AccessibilityPreferencesContext;
+            var6 = var7.bind(var8)(var6);
+            var7 = var6.alwaysShowLinkDecorations;
+            var6 = _closure1_slot5;
+            var6 = var6.bind(var4)(var7);
+            var9 = typeof var3;
+            var7 = 'string';
+            if(!(var7 !== var9)) { _fun0001_ip = 126; continue _fun0001 }
  92:
-            option = 'object';
-            golfie = zuuluu;
-            if(!(option === verify)) { _fun00002_ip = 124; continue _fun00001 }
+            var8 = 'object';
+            var7 = var3;
+            if(!(var8 === var9)) { _fun0001_ip = 124; continue _fun0001 }
  103:
-            verify = zuuluu.onClick;
-            option = null;
-            golfie = zuuluu;
-            if(!(option != verify)) { _fun00002_ip = 124; continue _fun00001 }
+            var9 = var3.onClick;
+            var8 = null;
+            var7 = var3;
+            if(!(var8 != var9)) { _fun0001_ip = 124; continue _fun0001 }
  118:
-            golfie = zuuluu.onClick;
+            var7 = var3.onClick;
  124:
-            _fun00002_ip = 131; continue _fun00001;
+            _fun0001_ip = 131; continue _fun0001;
  126:
-            golfie = function() {
-                report = _closure1_slot1;
-                oscard = _closure1_slot2;
-                entity = 5;
-                entity = oscard[entity];
-                tangon = undefined;
-                zuuluu = report.bind(tangon)(entity);
-                michal = zuuluu.openURL;
-                entity = 6;
-                entity = oscard[entity];
-                report = report.bind(tangon)(entity);
-                tangon = report.sanitizeUrl;
-                entity = _closure2_slot0;
-                entity = tangon.bind(report)(entity);
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = function() {
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var1 = 5;
+                var1 = var6[var1];
+                var4 = undefined;
+                var3 = var5.bind(var4)(var1);
+                var2 = var3.openURL;
+                var1 = 6;
+                var1 = var6[var1];
+                var5 = var5.bind(var4)(var1);
+                var4 = var5.sanitizeUrl;
+                var1 = _closure2_slot0;
+                var1 = var4.bind(var5)(var1);
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
  131:
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 7;
-            entity = option[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {'accessible': true, 'accessibilityRole': 'link'};
-            entity['onPress'] = golfie;
-            oscard = oscard.link;
-            entity['style'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 7;
+            var1 = var8[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {'accessible': true, 'accessibilityRole': 'link'};
+            var1['onPress'] = var7;
+            var6 = var6.link;
+            var1['style'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    tangon = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var4 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = {};
-            michal = {};
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            zuuluu = 3;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            zuuluu = report.bind(zuuluu)(tangon);
-            zuuluu = zuuluu.colors;
-            zuuluu = zuuluu.TEXT_LINK;
-            michal['color'] = zuuluu;
-            zuuluu = 'none';
-            tangon = argFoo;
-            if(!tangon) { _fun00004_ip = 58; continue _fun00003 }
+            var1 = {};
+            var2 = {};
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 3;
+            var4 = var4[var3];
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var3 = var3.colors;
+            var3 = var3.TEXT_LINK;
+            var2['color'] = var3;
+            var3 = 'none';
+            var4 = arg1;
+            if(!var4) { _fun0002_ip = 58; continue _fun0002 }
  54:
-            zuuluu = 'underline';
+            var3 = 'underline';
  58:
-            michal['textDecorationLine'] = zuuluu;
-            entity['link'] = michal;
-            return entity;
+            var2['textDecorationLine'] = var3;
+            var1['link'] = var2;
+            return var1;
         }
     };
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'intl/native/migration.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['IntlLink'] = michal;
-    zuuluu['I18nLinkComponent'] = michal;
-    return entity;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'intl/native/migration.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['IntlLink'] = var2;
+    var3['I18nLinkComponent'] = var2;
+    return var1;
 })();

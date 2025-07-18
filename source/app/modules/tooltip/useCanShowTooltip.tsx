@@ -1,109 +1,109 @@
 // app/modules/tooltip/useCanShowTooltip.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/tooltip/useCanShowTooltip.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/tooltip/useCanShowTooltip.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            golfie = arguments[1];
-            option = arguments[2];
-            var _closure2_slot0 = oscard;
-            report = undefined;
-            if(!(golfie === report)) { _fun00002_ip = 23; continue _fun00001 }
+            var6 = arg1;
+            var7 = arguments[1];
+            var8 = arguments[2];
+            var _closure2_slot0 = var6;
+            var5 = undefined;
+            if(!(var7 === var5)) { _fun0001_ip = 23; continue _fun0001 }
  21:
-            golfie = false;
+            var7 = false;
  23:
-            var _closure2_slot1 = golfie;
-            if(!(option === report)) { _fun00002_ip = 33; continue _fun00001 }
+            var _closure2_slot1 = var7;
+            if(!(var8 === var5)) { _fun0001_ip = 33; continue _fun0001 }
  31:
-            option = true;
+            var8 = true;
  33:
-            var _closure2_slot2 = option;
-            tangon = _closure1_slot0;
-            verify = _closure1_slot2;
-            entity = 2;
-            entity = verify[entity];
-            verify = tangon.bind(report)(entity);
-            report = verify.useStateFromStores;
-            entity = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot2 = var8;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 2;
+            var1 = var9[var1];
+            var9 = var4.bind(var5)(var1);
+            var5 = var9.useStateFromStores;
+            var1 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.canShowTooltip;
-                    entity = _closure2_slot0;
-                    entity = zuuluu.bind(tangon)(entity);
-                    if(!entity) { _fun00004_ip = 32; continue _fun00003 }
+                    var4 = _closure1_slot4;
+                    var3 = var4.canShowTooltip;
+                    var1 = _closure2_slot0;
+                    var1 = var3.bind(var4)(var1);
+                    if(!var1) { _fun0002_ip = 32; continue _fun0002 }
  28:
-                    entity = _closure2_slot2;
+                    var1 = _closure2_slot2;
  32:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = report.bind(verify)(tangon, entity);
-            report = _closure1_slot3;
-            tangon = report.useEffect;
-            zuuluu = new Array(3);
-            zuuluu[0] = option;
-            zuuluu[1] = golfie;
-            zuuluu[2] = oscard;
-            michal = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = var5.bind(var9)(var4, var1);
+            var5 = _closure1_slot3;
+            var4 = var5.useEffect;
+            var3 = new Array(3);
+            var3[0] = var8;
+            var3[1] = var7;
+            var3[2] = var6;
+            var2 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure2_slot2;
-                    if(!michal) { _fun00006_ip = 55; continue _fun00005 }
+                    var2 = _closure2_slot2;
+                    if(!var2) { _fun0003_ip = 55; continue _fun0003 }
  10:
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.attemptToShowTooltip;
-                    michal = _closure2_slot0;
-                    entity = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal, entity);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.attemptToShowTooltip;
+                    var2 = _closure2_slot0;
+                    var1 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2, var1);
  55:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['useCanShowTooltip'] = michal;
-    return entity;
+    var3['useCanShowTooltip'] = var2;
+    return var1;
 })();

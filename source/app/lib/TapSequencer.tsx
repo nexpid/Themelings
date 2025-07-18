@@ -1,269 +1,269 @@
 // app/lib/TapSequencer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = option[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = option[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = option[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    report = tangon.useState;
-    var _closure1_slot3 = report;
-    tangon = tangon.useEffect;
-    var _closure1_slot4 = tangon;
-    report = {};
-    tangon = 'short';
-    report['SHORT'] = tangon;
-    tangon = 'long';
-    report['LONG'] = tangon;
-    var _closure1_slot5 = report;
-    tangon = {'long': 1250, 'short': 500};
-    var _closure1_slot6 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot2;
-        zuuluu = function(argFoo) { // Original name: TapSequencer
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            report = _closure1_slot1;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            tangon = argFoo;
-            zuuluu['tapSequenceHandlers'] = tangon;
-            tangon = null;
-            zuuluu['_state'] = tangon;
-            tangon = function() {
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handlePress;
-                entity = _closure1_slot5;
-                entity = entity.SHORT;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var5 = native3;
+    var3 = native6;
+    var8 = native7;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
+    var5 = var4.useState;
+    var _closure1_slot3 = var5;
+    var4 = var4.useEffect;
+    var _closure1_slot4 = var4;
+    var5 = {};
+    var4 = 'short';
+    var5['SHORT'] = var4;
+    var4 = 'long';
+    var5['LONG'] = var4;
+    var _closure1_slot5 = var5;
+    var4 = {'long': 1250, 'short': 500};
+    var _closure1_slot6 = var4;
+    var4 = function() {
+        var4 = _closure1_slot2;
+        var3 = function TapSequencer(arg1) {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var5 = _closure1_slot1;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = arg1;
+            var3['tapSequenceHandlers'] = var4;
+            var4 = null;
+            var3['_state'] = var4;
+            var4 = function() {
+                var3 = _closure3_slot0;
+                var2 = var3.handlePress;
+                var1 = _closure1_slot5;
+                var1 = var1.SHORT;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu['handleShortPress'] = tangon;
-            michal = function() {
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.handlePress;
-                entity = _closure1_slot5;
-                entity = entity.LONG;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var3['handleShortPress'] = var4;
+            var2 = function() {
+                var3 = _closure3_slot0;
+                var2 = var3.handlePress;
+                var1 = _closure1_slot5;
+                var1 = var1.LONG;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu['handleLongPress'] = michal;
-            return entity;
+            var3['handleLongPress'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'setTapSequenceHandlers';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            entity['tapSequenceHandlers'] = michal;
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'setTapSequenceHandlers';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['tapSequenceHandlers'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(4);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'getState';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var2;
+        var2 = new Array(4);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getState';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = this;
-                michal = global;
-                zuuluu = michal.Date;
-                michal = zuuluu.now;
-                zuuluu = michal.bind(zuuluu)();
-                tangon = _closure1_slot6;
-                michal = argFoo;
-                report = tangon[michal];
-                tangon = entity._state;
-                michal = null;
-                michal = michal === tangon;
-                if(michal) { _fun00002_ip = 69; continue _fun00001 }
+                var1 = this;
+                var2 = global;
+                var3 = var2.Date;
+                var2 = var3.now;
+                var3 = var2.bind(var3)();
+                var4 = _closure1_slot6;
+                var2 = arg1;
+                var5 = var4[var2];
+                var4 = var1._state;
+                var2 = null;
+                var2 = var2 === var4;
+                if(var2) { _fun0001_ip = 69; continue _fun0001 }
  49:
-                tangon = entity._state;
-                tangon = tangon.timestamp;
-                tangon = tangon + report;
-                michal = tangon < zuuluu;
+                var4 = var1._state;
+                var4 = var4.timestamp;
+                var4 = var4 + var5;
+                var2 = var4 < var3;
  69:
-                if(!michal) { _fun00002_ip = 96; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 96; continue _fun0001 }
  72:
-                michal = {};
-                tangon = entity.tapSequenceHandlers;
-                michal['handlers'] = tangon;
-                michal['timestamp'] = zuuluu;
-                entity['_state'] = michal;
+                var2 = {};
+                var4 = var1.tapSequenceHandlers;
+                var2['handlers'] = var4;
+                var2['timestamp'] = var3;
+                var1['_state'] = var2;
  96:
-                entity = entity._state;
-                entity = entity.handlers;
-                return entity;
+                var1 = var1._state;
+                var1 = var1.handlers;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'progressState';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'progressState';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                michal = null;
-                entity = michal == zuuluu;
-                if(entity) { _fun00004_ip = 44; continue _fun00003 }
+                var3 = arg1;
+                var2 = null;
+                var1 = var2 == var3;
+                if(var1) { _fun0002_ip = 44; continue _fun0002 }
  12:
-                entity = {};
-                entity['handlers'] = zuuluu;
-                zuuluu = global;
-                tangon = zuuluu.Date;
-                zuuluu = tangon.now;
-                zuuluu = zuuluu.bind(tangon)();
-                entity['timestamp'] = zuuluu;
-                michal = entity;
+                var1 = {};
+                var1['handlers'] = var3;
+                var3 = global;
+                var4 = var3.Date;
+                var3 = var4.now;
+                var3 = var3.bind(var4)();
+                var1['timestamp'] = var3;
+                var2 = var1;
  44:
-                entity = this;
-                entity['_state'] = michal;
-                entity = undefined;
-                return entity;
+                var1 = this;
+                var1['_state'] = var2;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'handlePress';
-        entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'handlePress';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                tangon = this;
-                michal = tangon.getState;
-                option = michal.bind(tangon)(entity);
-                zuuluu = tangon.progressState;
-                golfie = option[entity];
-                michal = null;
-                oscard = michal == golfie;
-                entity = undefined;
-                report = undefined;
-                if(oscard) { _fun00006_ip = 52; continue _fun00005 }
+                var1 = arg1;
+                var4 = this;
+                var2 = var4.getState;
+                var8 = var2.bind(var4)(var1);
+                var3 = var4.progressState;
+                var7 = var8[var1];
+                var2 = null;
+                var6 = var2 == var7;
+                var1 = undefined;
+                var5 = undefined;
+                if(var6) { _fun0003_ip = 52; continue _fun0003 }
  42:
-                oscard = golfie.call;
-                report = oscard.bind(golfie)(option);
+                var6 = var7.call;
+                var5 = var6.bind(var7)(var8);
  52:
-                oscard = michal != report;
-                michal = undefined;
-                if(!oscard) { _fun00006_ip = 64; continue _fun00005 }
+                var6 = var2 != var5;
+                var2 = undefined;
+                if(!var6) { _fun0003_ip = 64; continue _fun0003 }
  61:
-                michal = report;
+                var2 = var5;
  64:
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[3] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[3] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot7 = tangon;
-    oscard = 4;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'lib/TapSequencer.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['TapSequencerPressType'] = report;
-    zuuluu['TapSequencer'] = tangon;
-    michal = function(argFoo) { // Original name: useTapSequencer
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        report = _closure1_slot3;
-        tangon = undefined;
-        entity = function() {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot7 = var4;
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'lib/TapSequencer.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['TapSequencerPressType'] = var5;
+    var3['TapSequencer'] = var4;
+    var2 = function useTapSequencer(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var5 = _closure1_slot3;
+        var4 = undefined;
+        var1 = function() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = _closure1_slot7;
-                entity = _closure2_slot0;
-                tangon = 'function';
-                entity = typeof entity;
-                if(!(tangon !== entity)) { _fun00008_ip = 31; continue _fun00007 }
+                var3 = _closure1_slot7;
+                var1 = _closure2_slot0;
+                var4 = 'function';
+                var1 = typeof var1;
+                if(!(var4 !== var1)) { _fun0004_ip = 31; continue _fun0004 }
  25:
-                entity = _closure2_slot0;
-                _fun00008_ip = 41; continue _fun00007;
+                var1 = _closure2_slot0;
+                _fun0004_ip = 41; continue _fun0004;
  31:
-                tangon = _closure2_slot0;
-                michal = undefined;
-                entity = tangon.bind(michal)();
+                var4 = _closure2_slot0;
+                var2 = undefined;
+                var1 = var4.bind(var2)();
  41:
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                oscard = michal;
-                report = entity;
-                entity = new oscard[zuuluu](report, tangon);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var6 = var2;
+                var5 = var1;
+                var1 = new var6[var3](var5, var4);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             }
         };
-        oscard = report.bind(tangon)(entity);
-        report = _closure1_slot0;
-        entity = 1;
-        report = report.bind(tangon)(oscard, entity);
-        entity = 0;
-        entity = report[entity];
-        var _closure2_slot1 = entity;
-        zuuluu = _closure1_slot4;
-        michal = function() {
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var6 = var5.bind(var4)(var1);
+        var5 = _closure1_slot0;
+        var1 = 1;
+        var5 = var5.bind(var4)(var6, var1);
+        var1 = 0;
+        var1 = var5[var1];
+        var _closure2_slot1 = var1;
+        var3 = _closure1_slot4;
+        var2 = function() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.setTapSequenceHandlers;
-                entity = _closure2_slot0;
-                report = 'function';
-                entity = typeof entity;
-                if(!(report !== entity)) { _fun00010_ip = 36; continue _fun00009 }
+                var3 = _closure2_slot1;
+                var2 = var3.setTapSequenceHandlers;
+                var1 = _closure2_slot0;
+                var5 = 'function';
+                var1 = typeof var1;
+                if(!(var5 !== var1)) { _fun0005_ip = 36; continue _fun0005 }
  30:
-                entity = _closure2_slot0;
-                _fun00010_ip = 46; continue _fun00009;
+                var1 = _closure2_slot0;
+                _fun0005_ip = 46; continue _fun0005;
  36:
-                report = _closure2_slot0;
-                tangon = undefined;
-                entity = report.bind(tangon)();
+                var5 = _closure2_slot0;
+                var4 = undefined;
+                var1 = var5.bind(var4)();
  46:
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['useTapSequencer'] = michal;
-    return entity;
+    var3['useTapSequencer'] = var2;
+    return var1;
 })();

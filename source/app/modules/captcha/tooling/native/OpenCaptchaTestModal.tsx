@@ -1,98 +1,98 @@
 // app/modules/captcha/tooling/native/OpenCaptchaTestModal.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/captcha/tooling/native/OpenCaptchaTestModal.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 3;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.pushLazy;
-        report = _closure1_slot3;
-        michal = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/captcha/tooling/native/OpenCaptchaTestModal.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 3;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.pushLazy;
+        var5 = _closure1_slot3;
+        var2 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 88; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 88; continue _fun0001 }
  9:
-                    oscard = undefined;
-                    var _closure4_slot0 = oscard;
-                    report = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    tangon = 5;
-                    tangon = michal[tangon];
-                    report = report.bind(oscard)(tangon);
-                    tangon = 4;
-                    tangon = michal[tangon];
-                    michal = michal.paths;
-                    michal = report.bind(oscard)(tangon, michal);
+                    var6 = undefined;
+                    var _closure4_slot0 = var6;
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var4 = 5;
+                    var4 = var2[var4];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = 4;
+                    var4 = var2[var4];
+                    var2 = var2.paths;
+                    var2 = var5.bind(var6)(var4, var2);
                     SaveGenerator(address=60);
  58:
-                    return michal;
+                    return var2;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 85; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 85; continue _fun0001 }
  66:
-                    tangon = michal.default;
-                    _closure4_slot0 = tangon;
-                    zuuluu = function() {
-                        tangon = _closure1_slot4;
-                        zuuluu = _closure4_slot0;
-                        michal = undefined;
-                        entity = {};
-                        entity = tangon.bind(michal)(zuuluu, entity);
-                        return entity;
+                    var4 = var2.default;
+                    _closure4_slot0 = var4;
+                    var3 = function() {
+                        var4 = _closure1_slot4;
+                        var3 = _closure4_slot0;
+                        var2 = undefined;
+                        var1 = {};
+                        var1 = var4.bind(var2)(var3, var1);
+                        return var1;
                     };
-                    return zuuluu;
+                    return var3;
  85:
-                    return michal;
+                    return var2;
  88:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        michal = report.bind(entity)(michal);
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var5.bind(var1)(var2);
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['showCaptchaTestModal'] = michal;
-    return entity;
+    var3['showCaptchaTestModal'] = var2;
+    return var1;
 })();

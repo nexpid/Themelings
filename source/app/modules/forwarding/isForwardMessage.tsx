@@ -1,65 +1,65 @@
 // app/modules/forwarding/isForwardMessage.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MessageReferenceTypes;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forwarding/isForwardMessage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: isForwardMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MessageReferenceTypes;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forwarding/isForwardMessage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isForwardMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            entity = entity.messageReference;
-            michal = null;
-            zuuluu = michal == entity;
-            michal = undefined;
-            if(zuuluu) { _fun00002_ip = 25; continue _fun00001 }
+            var1 = arg1;
+            var1 = var1.messageReference;
+            var2 = null;
+            var3 = var2 == var1;
+            var2 = undefined;
+            if(var3) { _fun0001_ip = 25; continue _fun0001 }
  20:
-            michal = entity.type;
+            var2 = var1.type;
  25:
-            entity = _closure1_slot0;
-            entity = entity.FORWARD;
-            entity = michal === entity;
-            return entity;
+            var1 = _closure1_slot0;
+            var1 = var1.FORWARD;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: isForwardServerMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function isForwardServerMessage(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            entity = entity.message_reference;
-            michal = null;
-            zuuluu = michal == entity;
-            michal = undefined;
-            if(zuuluu) { _fun00004_ip = 25; continue _fun00003 }
+            var1 = arg1;
+            var1 = var1.message_reference;
+            var2 = null;
+            var3 = var2 == var1;
+            var2 = undefined;
+            if(var3) { _fun0002_ip = 25; continue _fun0002 }
  20:
-            michal = entity.type;
+            var2 = var1.type;
  25:
-            entity = _closure1_slot0;
-            entity = entity.FORWARD;
-            entity = michal === entity;
-            return entity;
+            var1 = _closure1_slot0;
+            var1 = var1.FORWARD;
+            var1 = var2 === var1;
+            return var1;
         }
     };
-    zuuluu['isForwardServerMessage'] = michal;
-    return entity;
+    var3['isForwardServerMessage'] = var2;
+    return var1;
 })();

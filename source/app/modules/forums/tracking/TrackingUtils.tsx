@@ -1,719 +1,719 @@
 // app/modules/forums/tracking/TrackingUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    oscard = function(argFoo) { // Original name: getForumChannelSessionId
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 12;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.getForumChannelSessionId;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var10 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
+    var6 = function getForumChannelSessionId(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 12;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.getForumChannelSessionId;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot16 = oscard;
-    entity = function(argFoo) { // Original name: getForumPostFirstMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot16 = var6;
+    var1 = function getForumPostFirstMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot12;
-            michal = zuuluu.getMessage;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            zuuluu = entity.loaded;
-            michal = entity.firstMessage;
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 41; continue _fun00001 }
+            var3 = _closure1_slot12;
+            var2 = var3.getMessage;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var3 = var1.loaded;
+            var2 = var1.firstMessage;
+            var1 = null;
+            if(!var3) { _fun0001_ip = 41; continue _fun0001 }
  38:
-            entity = michal;
+            var1 = var2;
  41:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot17 = entity;
-    entity = function(argFoo) { // Original name: getForumPostUniqueReactionCount
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot17 = var1;
+    var1 = function getForumPostUniqueReactionCount(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot17;
-            michal = undefined;
-            entity = argFoo;
-            michal = zuuluu.bind(michal)(entity);
-            entity = null;
-            zuuluu = entity == michal;
-            entity = 0;
-            if(zuuluu) { _fun00004_ip = 39; continue _fun00003 }
+            var3 = _closure1_slot17;
+            var2 = undefined;
+            var1 = arg1;
+            var2 = var3.bind(var2)(var1);
+            var1 = null;
+            var3 = var1 == var2;
+            var1 = 0;
+            if(var3) { _fun0002_ip = 39; continue _fun0002 }
  28:
-            michal = michal.reactions;
-            entity = michal.length;
+            var2 = var2.reactions;
+            var1 = var2.length;
  39:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot18 = entity;
-    entity = function(argFoo) { // Original name: getForumPostReactionCount
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot18 = var1;
+    var1 = function getForumPostReactionCount(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot17;
-            michal = undefined;
-            entity = argFoo;
-            michal = zuuluu.bind(michal)(entity);
-            entity = null;
-            zuuluu = entity == michal;
-            report = 0;
-            entity = 0;
-            if(zuuluu) { _fun00006_ip = 55; continue _fun00005 }
+            var3 = _closure1_slot17;
+            var2 = undefined;
+            var1 = arg1;
+            var2 = var3.bind(var2)(var1);
+            var1 = null;
+            var3 = var1 == var2;
+            var5 = 0;
+            var1 = 0;
+            if(var3) { _fun0003_ip = 55; continue _fun0003 }
  30:
-            tangon = michal.reactions;
-            zuuluu = tangon.reduce;
-            michal = function(argFoo, argBar) {
-                entity = argBar;
-                michal = entity.count;
-                entity = argFoo;
-                entity = entity + michal;
-                return entity;
+            var4 = var2.reactions;
+            var3 = var4.reduce;
+            var2 = function(arg1, arg2) {
+                var1 = arg2;
+                var2 = var1.count;
+                var1 = arg1;
+                var1 = var1 + var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(michal, report);
+            var1 = var3.bind(var4)(var2, var5);
  55:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot19 = entity;
-    entity = function(argFoo) { // Original name: getForumPostAppliedTagIds
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot19 = var1;
+    var1 = function getForumPostAppliedTagIds(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = _closure1_slot7;
-            tangon = report.getChannel;
-            michal = argFoo;
-            tangon = tangon.bind(report)(michal);
-            michal = null;
-            if(!(michal != tangon)) { _fun00008_ip = 167; continue _fun00007 }
+            var5 = _closure1_slot7;
+            var4 = var5.getChannel;
+            var2 = arg1;
+            var4 = var4.bind(var5)(var2);
+            var2 = null;
+            if(!(var2 != var4)) { _fun0004_ip = 167; continue _fun0004 }
  31:
-            oscard = _closure1_slot7;
-            report = oscard.getChannel;
-            entity = tangon.parent_id;
-            report = report.bind(oscard)(entity);
-            oscard = michal == report;
-            option = undefined;
-            if(oscard) { _fun00008_ip = 66; continue _fun00007 }
+            var6 = _closure1_slot7;
+            var5 = var6.getChannel;
+            var1 = var4.parent_id;
+            var5 = var5.bind(var6)(var1);
+            var6 = var2 == var5;
+            var8 = undefined;
+            if(var6) { _fun0004_ip = 66; continue _fun0004 }
  60:
-            option = report.availableTags;
+            var8 = var5.availableTags;
  66:
-            if(!(michal != report)) { _fun00008_ip = 161; continue _fun00007 }
+            if(!(var2 != var5)) { _fun0004_ip = 161; continue _fun0004 }
  70:
-            if(!(michal != option)) { _fun00008_ip = 161; continue _fun00007 }
+            if(!(var2 != var8)) { _fun0004_ip = 161; continue _fun0004 }
  74:
-            report = global;
-            golfie = report.Set;
-            oscard = option.map;
-            report = function(argFoo) {
-                entity = argFoo;
-                entity = entity.id;
-                return entity;
+            var5 = global;
+            var7 = var5.Set;
+            var6 = var8.map;
+            var5 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
             };
-            verify = oscard.bind(option)(report);
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            offset = oscard;
-            report = new offset[golfie](verify, option);
-            report = report instanceof Object ? report : oscard;
-            var _closure2_slot0 = report;
-            report = tangon.appliedTags;
-            tangon = michal == report;
-            entity = undefined;
-            if(tangon) { _fun00008_ip = 151; continue _fun00007 }
+            var9 = var6.bind(var8)(var5);
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var10 = var6;
+            var5 = new var10[var7](var9, var8);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var _closure2_slot0 = var5;
+            var5 = var4.appliedTags;
+            var4 = var2 == var5;
+            var1 = undefined;
+            if(var4) { _fun0004_ip = 151; continue _fun0004 }
  136:
-            tangon = report.filter;
-            zuuluu = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var4 = var5.filter;
+            var3 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = tangon.bind(report)(zuuluu);
+            var1 = var4.bind(var5)(var3);
  151:
-            if(!(michal == entity)) { _fun00008_ip = 159; continue _fun00007 }
+            if(!(var2 == var1)) { _fun0004_ip = 159; continue _fun0004 }
  155:
-            entity = new Array(0);
+            var1 = new Array(0);
  159:
-            return entity;
+            return var1;
  161:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
  167:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
         }
     };
-    var _closure1_slot20 = entity;
-    report = function(argFoo) { // Original name: getForumPostAttachmentMimetypes
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot20 = var1;
+    var5 = function getForumPostAttachmentMimetypes(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = _closure1_slot17;
-            michal = undefined;
-            entity = argFoo;
-            entity = zuuluu.bind(michal)(entity);
-            michal = null;
-            if(!(michal != entity)) { _fun00010_ip = 48; continue _fun00009 }
+            var3 = _closure1_slot17;
+            var2 = undefined;
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1);
+            var2 = null;
+            if(!(var2 != var1)) { _fun0005_ip = 48; continue _fun0005 }
  23:
-            zuuluu = entity.attachments;
-            michal = zuuluu.map;
-            entity = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var3 = var1.attachments;
+            var2 = var3.map;
+            var1 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    entity = argFoo;
-                    michal = entity.content_type;
-                    entity = null;
-                    zuuluu = entity != michal;
-                    entity = 'unknown';
-                    if(!zuuluu) { _fun00012_ip = 25; continue _fun00011 }
+                    var1 = arg1;
+                    var2 = var1.content_type;
+                    var1 = null;
+                    var3 = var1 != var2;
+                    var1 = 'unknown';
+                    if(!var3) { _fun0006_ip = 25; continue _fun0006 }
  22:
-                    entity = michal;
+                    var1 = var2;
  25:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            _fun00010_ip = 52; continue _fun00009;
+            var1 = var2.bind(var3)(var1);
+            _fun0005_ip = 52; continue _fun0005;
  48:
-            entity = new Array(0);
+            var1 = new Array(0);
  52:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot21 = report;
-    tangon = function(argFoo) { // Original name: collectForumAnalyticsMetadata
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot21 = var5;
+    var4 = function collectForumAnalyticsMetadata(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.channelId;
-            report = entity.sessionId;
-            michal = _closure1_slot7;
-            entity = michal.getChannel;
-            tangon = entity.bind(michal)(tangon);
-            option = null;
-            michal = option != tangon;
-            entity = null;
-            if(!michal) { _fun00014_ip = 490; continue _fun00013 }
+            var1 = arg1;
+            var4 = var1.channelId;
+            var5 = var1.sessionId;
+            var2 = _closure1_slot7;
+            var1 = var2.getChannel;
+            var4 = var1.bind(var2)(var4);
+            var8 = null;
+            var2 = var8 != var4;
+            var1 = null;
+            if(!var2) { _fun0007_ip = 490; continue _fun0007 }
  45:
-            michal = tangon.isForumLikeChannel;
-            michal = michal.bind(tangon)();
-            entity = null;
-            if(!michal) { _fun00014_ip = 490; continue _fun00013 }
+            var2 = var4.isForumLikeChannel;
+            var2 = var2.bind(var4)();
+            var1 = null;
+            if(!var2) { _fun0007_ip = 490; continue _fun0007 }
  63:
-            michal = {};
-            oscard = tangon.topic;
-            oscard = option != oscard;
-            if(!oscard) { _fun00014_ip = 105; continue _fun00013 }
+            var2 = {};
+            var6 = var4.topic;
+            var6 = var8 != var6;
+            if(!var6) { _fun0007_ip = 105; continue _fun0007 }
  78:
-            verify = tangon.topic;
-            golfie = verify.trim;
-            golfie = golfie.bind(verify)();
-            verify = golfie.length;
-            golfie = 0;
-            oscard = verify > golfie;
+            var9 = var4.topic;
+            var7 = var9.trim;
+            var7 = var7.bind(var9)();
+            var9 = var7.length;
+            var7 = 0;
+            var6 = var9 > var7;
  105:
-            michal['forum_channel_has_guidelines'] = oscard;
-            verify = tangon.defaultReactionEmoji;
-            offset = option == verify;
-            oscard = undefined;
-            golfie = undefined;
-            if(offset) { _fun00014_ip = 135; continue _fun00013 }
+            var2['forum_channel_has_guidelines'] = var6;
+            var9 = var4.defaultReactionEmoji;
+            var10 = var8 == var9;
+            var6 = undefined;
+            var7 = undefined;
+            if(var10) { _fun0007_ip = 135; continue _fun0007 }
  129:
-            golfie = verify.emojiId;
+            var7 = var9.emojiId;
  135:
-            michal['forum_channel_default_emoji_reaction_id'] = golfie;
-            verify = tangon.defaultReactionEmoji;
-            offset = option == verify;
-            golfie = undefined;
-            if(offset) { _fun00014_ip = 163; continue _fun00013 }
+            var2['forum_channel_default_emoji_reaction_id'] = var7;
+            var9 = var4.defaultReactionEmoji;
+            var10 = var8 == var9;
+            var7 = undefined;
+            if(var10) { _fun0007_ip = 163; continue _fun0007 }
  157:
-            golfie = verify.emojiName;
+            var7 = var9.emojiName;
  163:
-            michal['forum_channel_default_emoji_reaction_name'] = golfie;
-            yankee = tangon.availableTags;
-            verify = option == yankee;
-            golfie = undefined;
-            if(verify) { _fun00014_ip = 202; continue _fun00013 }
+            var2['forum_channel_default_emoji_reaction_name'] = var7;
+            var11 = var4.availableTags;
+            var9 = var8 == var11;
+            var7 = undefined;
+            if(var9) { _fun0007_ip = 202; continue _fun0007 }
  185:
-            offset = yankee.map;
-            verify = function(argFoo) {
-                entity = argFoo;
-                entity = entity.id;
-                return entity;
+            var10 = var11.map;
+            var9 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
             };
-            golfie = offset.bind(yankee)(verify);
+            var7 = var10.bind(var11)(var9);
  202:
-            if(!(option == golfie)) { _fun00014_ip = 210; continue _fun00013 }
+            if(!(var8 == var7)) { _fun0007_ip = 210; continue _fun0007 }
  206:
-            golfie = new Array(0);
+            var7 = new Array(0);
  210:
-            michal['forum_channel_available_tag_ids'] = golfie;
-            verify = tangon.hasFlag;
-            golfie = _closure1_slot14;
-            golfie = golfie.REQUIRE_TAG;
-            golfie = verify.bind(tangon)(golfie);
-            michal['forum_channel_tag_required'] = golfie;
-            offset = _closure1_slot10;
-            verify = offset.can;
-            golfie = _closure1_slot13;
-            golfie = golfie.SEND_MESSAGES;
-            golfie = verify.bind(offset)(golfie, tangon);
-            michal['forum_channel_can_create_post'] = golfie;
-            offset = _closure1_slot1;
-            verify = _closure1_slot2;
-            golfie = 14;
-            yankee = verify[golfie];
-            romeon = offset.bind(oscard)(yankee);
-            yankee = romeon.getFilterTagIdsAnalytics;
-            yankee = yankee.bind(romeon)();
-            michal['forum_channel_filter_tag_ids'] = yankee;
-            verify = verify[golfie];
-            yankee = offset.bind(oscard)(verify);
-            offset = yankee.getSortOrderAnalytics;
-            verify = tangon.id;
-            verify = offset.bind(yankee)(verify);
-            michal['forum_channel_sort_order'] = verify;
-            if(!(option == report)) { _fun00014_ip = 365; continue _fun00013 }
+            var2['forum_channel_available_tag_ids'] = var7;
+            var9 = var4.hasFlag;
+            var7 = _closure1_slot14;
+            var7 = var7.REQUIRE_TAG;
+            var7 = var9.bind(var4)(var7);
+            var2['forum_channel_tag_required'] = var7;
+            var10 = _closure1_slot10;
+            var9 = var10.can;
+            var7 = _closure1_slot13;
+            var7 = var7.SEND_MESSAGES;
+            var7 = var9.bind(var10)(var7, var4);
+            var2['forum_channel_can_create_post'] = var7;
+            var10 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 14;
+            var11 = var9[var7];
+            var12 = var10.bind(var6)(var11);
+            var11 = var12.getFilterTagIdsAnalytics;
+            var11 = var11.bind(var12)();
+            var2['forum_channel_filter_tag_ids'] = var11;
+            var9 = var9[var7];
+            var11 = var10.bind(var6)(var9);
+            var10 = var11.getSortOrderAnalytics;
+            var9 = var4.id;
+            var9 = var10.bind(var11)(var9);
+            var2['forum_channel_sort_order'] = var9;
+            if(!(var8 == var5)) { _fun0007_ip = 365; continue _fun0007 }
  351:
-            verify = _closure1_slot16;
-            option = tangon.id;
-            report = verify.bind(oscard)(option);
+            var9 = _closure1_slot16;
+            var8 = var4.id;
+            var5 = var9.bind(var6)(var8);
  365:
-            michal['forum_channel_session_id'] = report;
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            option = zuuluu[golfie];
-            offset = report.bind(oscard)(option);
-            verify = offset.getLayoutAnalytics;
-            option = tangon.id;
-            option = verify.bind(offset)(option);
-            michal['forum_channel_layout'] = option;
-            option = tangon.defaultSortOrder;
-            michal['forum_channel_default_sort_order'] = option;
-            zuuluu = zuuluu[golfie];
-            oscard = report.bind(oscard)(zuuluu);
-            report = oscard.getTagSettingAnalytics;
-            zuuluu = tangon.id;
-            zuuluu = report.bind(oscard)(zuuluu);
-            michal['forum_channel_tag_setting'] = zuuluu;
-            zuuluu = tangon.defaultForumLayout;
-            michal['forum_channel_default_layout'] = zuuluu;
-            zuuluu = tangon.isModeratorReportChannel;
-            zuuluu = zuuluu.bind(tangon)();
-            michal['forum_channel_is_moderator_report_channel'] = zuuluu;
-            entity = michal;
+            var2['forum_channel_session_id'] = var5;
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var8 = var3[var7];
+            var10 = var5.bind(var6)(var8);
+            var9 = var10.getLayoutAnalytics;
+            var8 = var4.id;
+            var8 = var9.bind(var10)(var8);
+            var2['forum_channel_layout'] = var8;
+            var8 = var4.defaultSortOrder;
+            var2['forum_channel_default_sort_order'] = var8;
+            var3 = var3[var7];
+            var6 = var5.bind(var6)(var3);
+            var5 = var6.getTagSettingAnalytics;
+            var3 = var4.id;
+            var3 = var5.bind(var6)(var3);
+            var2['forum_channel_tag_setting'] = var3;
+            var3 = var4.defaultForumLayout;
+            var2['forum_channel_default_layout'] = var3;
+            var3 = var4.isModeratorReportChannel;
+            var3 = var3.bind(var4)();
+            var2['forum_channel_is_moderator_report_channel'] = var3;
+            var1 = var2;
  490:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot22 = tangon;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = verify[entity];
-    entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot5 = golfie;
-    golfie = 3;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot6 = golfie;
-    golfie = 4;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot7 = golfie;
-    golfie = 5;
-    yankee = verify[golfie];
-    yankee = offset.bind(entity)(yankee);
-    var _closure1_slot8 = yankee;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.DraftType;
-    var _closure1_slot9 = golfie;
-    golfie = 6;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot10 = golfie;
-    golfie = 7;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot11 = golfie;
-    golfie = 8;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot12 = golfie;
-    golfie = 9;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.Permissions;
-    var _closure1_slot13 = golfie;
-    golfie = 10;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.ChannelFlags;
-    var _closure1_slot14 = golfie;
-    golfie = 11;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.ThreadSortOrderReadableForAnalytics;
-    var _closure1_slot15 = golfie;
-    golfie = 17;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/forums/tracking/TrackingUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['getForumChannelSessionId'] = oscard;
-    oscard = function(argFoo) { // Original name: convertSortOrderToReadableString
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var _closure1_slot22 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var7);
+    var1 = 0;
+    var7 = var9[var1];
+    var1 = undefined;
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = 4;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var7 = 5;
+    var11 = var9[var7];
+    var11 = var10.bind(var1)(var11);
+    var _closure1_slot8 = var11;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.DraftType;
+    var _closure1_slot9 = var7;
+    var7 = 6;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot10 = var7;
+    var7 = 7;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot11 = var7;
+    var7 = 8;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot12 = var7;
+    var7 = 9;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.Permissions;
+    var _closure1_slot13 = var7;
+    var7 = 10;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.ChannelFlags;
+    var _closure1_slot14 = var7;
+    var7 = 11;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.ThreadSortOrderReadableForAnalytics;
+    var _closure1_slot15 = var7;
+    var7 = 17;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/forums/tracking/TrackingUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['getForumChannelSessionId'] = var6;
+    var6 = function convertSortOrderToReadableString(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 13;
-            michal = michal[oscard];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.ThreadSortOrder;
-            michal = michal.CREATION_DATE;
-            if(!(michal !== report)) { _fun00016_ip = 141; continue _fun00015 }
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 13;
+            var2 = var2[var6];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.ThreadSortOrder;
+            var2 = var2.CREATION_DATE;
+            if(!(var2 !== var5)) { _fun0008_ip = 141; continue _fun0008 }
  44:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.ThreadSortOrder;
-            michal = michal.LATEST_ACTIVITY;
-            if(!(michal !== report)) { _fun00016_ip = 129; continue _fun00015 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.ThreadSortOrder;
+            var2 = var2.LATEST_ACTIVITY;
+            if(!(var2 !== var5)) { _fun0008_ip = 129; continue _fun0008 }
  77:
-            michal = global;
-            tangon = michal.Error;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'Unexpected sort order ';
-            golfie = zuuluu.bind(michal)(report);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            option = zuuluu;
-            michal = new option[tangon](golfie, oscard);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var2 = global;
+            var4 = var2.Error;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'Unexpected sort order ';
+            var7 = var3.bind(var2)(var5);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var8 = var3;
+            var2 = new var8[var4](var7, var6);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  129:
-            michal = _closure1_slot15;
-            michal = michal.LATEST_ACTIVITY;
-            return michal;
+            var2 = _closure1_slot15;
+            var2 = var2.LATEST_ACTIVITY;
+            return var2;
  141:
-            entity = _closure1_slot15;
-            entity = entity.CREATION_DATE;
-            return entity;
+            var1 = _closure1_slot15;
+            var1 = var1.CREATION_DATE;
+            return var1;
         }
     };
-    zuuluu['convertSortOrderToReadableString'] = oscard;
-    oscard = function(argFoo) { // Original name: getForumPostDraftNumAttachments
-        tangon = _closure1_slot11;
-        zuuluu = tangon.getUploads;
-        entity = _closure1_slot9;
-        michal = entity.FirstThreadMessage;
-        entity = argFoo;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = entity.length;
-        return entity;
+    var3['convertSortOrderToReadableString'] = var6;
+    var6 = function getForumPostDraftNumAttachments(arg1) {
+        var4 = _closure1_slot11;
+        var3 = var4.getUploads;
+        var1 = _closure1_slot9;
+        var2 = var1.FirstThreadMessage;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = var1.length;
+        return var1;
     };
-    zuuluu['getForumPostDraftNumAttachments'] = oscard;
-    oscard = function(argFoo) { // Original name: getForumPostDraftAppliedTagIds
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var3['getForumPostDraftNumAttachments'] = var6;
+    var6 = function getForumPostDraftAppliedTagIds(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            oscard = argFoo;
-            tangon = _closure1_slot7;
-            michal = tangon.getChannel;
-            tangon = michal.bind(tangon)(oscard);
-            michal = null;
-            if(!(michal != tangon)) { _fun00018_ip = 228; continue _fun00017 }
+            var6 = arg1;
+            var4 = _closure1_slot7;
+            var2 = var4.getChannel;
+            var4 = var2.bind(var4)(var6);
+            var2 = null;
+            if(!(var2 != var4)) { _fun0009_ip = 228; continue _fun0009 }
  31:
-            golfie = _closure1_slot7;
-            report = golfie.getChannel;
-            tangon = tangon.parent_id;
-            report = report.bind(golfie)(tangon);
-            option = michal == report;
-            golfie = undefined;
-            if(option) { _fun00018_ip = 66; continue _fun00017 }
+            var7 = _closure1_slot7;
+            var5 = var7.getChannel;
+            var4 = var4.parent_id;
+            var5 = var5.bind(var7)(var4);
+            var8 = var2 == var5;
+            var7 = undefined;
+            if(var8) { _fun0009_ip = 66; continue _fun0009 }
  60:
-            golfie = report.availableTags;
+            var7 = var5.availableTags;
  66:
-            if(!(michal != report)) { _fun00018_ip = 222; continue _fun00017 }
+            if(!(var2 != var5)) { _fun0009_ip = 222; continue _fun0009 }
  73:
-            if(!(michal != golfie)) { _fun00018_ip = 222; continue _fun00017 }
+            if(!(var2 != var7)) { _fun0009_ip = 222; continue _fun0009 }
  80:
-            report = _closure1_slot8;
-            zuuluu = report.getThreadSettings;
-            zuuluu = zuuluu.bind(report)(oscard);
-            report = michal == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00018_ip = 110; continue _fun00017 }
+            var5 = _closure1_slot8;
+            var3 = var5.getThreadSettings;
+            var3 = var3.bind(var5)(var6);
+            var5 = var2 == var3;
+            var4 = undefined;
+            if(var5) { _fun0009_ip = 110; continue _fun0009 }
  104:
-            tangon = zuuluu.appliedTags;
+            var4 = var3.appliedTags;
  110:
-            if(!(michal == tangon)) { _fun00018_ip = 142; continue _fun00017 }
+            if(!(var2 == var4)) { _fun0009_ip = 142; continue _fun0009 }
  114:
-            michal = global;
-            michal = michal.Set;
-            zuuluu = michal.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-            offset = zuuluu;
-            michal = new offset[michal](verify);
-            tangon = michal instanceof Object ? michal : zuuluu;
+            var2 = global;
+            var2 = var2.Set;
+            var3 = var2.prototype;
+            var3 = Object.create(var3, {constructor: {value: var2}});
+            var10 = var3;
+            var2 = new var10[var2](var9);
+            var4 = var2 instanceof Object ? var2 : var3;
  142:
-            michal = global;
-            oscard = michal.Set;
-            report = golfie.map;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                entity = entity.id;
-                return entity;
+            var2 = global;
+            var6 = var2.Set;
+            var5 = var7.map;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
             };
-            verify = report.bind(golfie)(zuuluu);
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            offset = report;
-            zuuluu = new offset[oscard](verify, option);
-            zuuluu = zuuluu instanceof Object ? zuuluu : report;
-            var _closure2_slot0 = zuuluu;
-            zuuluu = michal.Array;
-            michal = zuuluu.from;
-            zuuluu = michal.bind(zuuluu)(tangon);
-            michal = zuuluu.filter;
-            entity = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = var5.bind(var7)(var3);
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var10 = var5;
+            var3 = new var10[var6](var9, var8);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var _closure2_slot0 = var3;
+            var3 = var2.Array;
+            var2 = var3.from;
+            var3 = var2.bind(var3)(var4);
+            var2 = var3.filter;
+            var1 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.has;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  222:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
  228:
-            entity = new Array(0);
-            return entity;
+            var1 = new Array(0);
+            return var1;
         }
     };
-    zuuluu['getForumPostDraftAppliedTagIds'] = oscard;
-    oscard = function(argFoo, argBar) { // Original name: getNumActiveThreads
-        entity = global;
-        zuuluu = entity.Object;
-        michal = zuuluu.keys;
-        oscard = _closure1_slot3;
-        report = oscard.getThreadsForParent;
-        tangon = argFoo;
-        entity = argBar;
-        entity = report.bind(oscard)(tangon, entity);
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.length;
-        return entity;
+    var3['getForumPostDraftAppliedTagIds'] = var6;
+    var6 = function getNumActiveThreads(arg1, arg2) {
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.keys;
+        var6 = _closure1_slot3;
+        var5 = var6.getThreadsForParent;
+        var4 = arg1;
+        var1 = arg2;
+        var1 = var5.bind(var6)(var4, var1);
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.length;
+        return var1;
     };
-    zuuluu['getNumActiveThreads'] = oscard;
-    zuuluu['getForumPostAttachmentMimetypes'] = report;
-    zuuluu['collectForumAnalyticsMetadata'] = tangon;
-    michal = function(argFoo) { // Original name: collectForumPostAnalyticsMetadata
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var3['getNumActiveThreads'] = var6;
+    var3['getForumPostAttachmentMimetypes'] = var5;
+    var3['collectForumAnalyticsMetadata'] = var4;
+    var2 = function collectForumPostAnalyticsMetadata(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.channelId;
-            oscard = entity.sessionId;
-            michal = _closure1_slot7;
-            entity = michal.getChannel;
-            tangon = entity.bind(michal)(romeon);
-            entity = null;
-            if(!(entity != tangon)) { _fun00020_ip = 693; continue _fun00019 }
+            var1 = arg1;
+            var12 = var1.channelId;
+            var6 = var1.sessionId;
+            var2 = _closure1_slot7;
+            var1 = var2.getChannel;
+            var4 = var1.bind(var2)(var12);
+            var1 = null;
+            if(!(var1 != var4)) { _fun0010_ip = 693; continue _fun0010 }
  40:
-            michal = tangon.isForumPost;
-            michal = michal.bind(tangon)();
-            if(!michal) { _fun00020_ip = 693; continue _fun00019 }
+            var2 = var4.isForumPost;
+            var2 = var2.bind(var4)();
+            if(!var2) { _fun0010_ip = 693; continue _fun0010 }
  56:
-            golfie = _closure1_slot7;
-            zuuluu = golfie.getChannel;
-            michal = tangon.parent_id;
-            verify = zuuluu.bind(golfie)(michal);
-            zuuluu = entity != verify;
-            michal = null;
-            if(!zuuluu) { _fun00020_ip = 691; continue _fun00019 }
+            var7 = _closure1_slot7;
+            var3 = var7.getChannel;
+            var2 = var4.parent_id;
+            var9 = var3.bind(var7)(var2);
+            var3 = var1 != var9;
+            var2 = null;
+            if(!var3) { _fun0010_ip = 691; continue _fun0010 }
  88:
-            zuuluu = verify.isForumLikeChannel;
-            zuuluu = zuuluu.bind(verify)();
-            michal = null;
-            if(!zuuluu) { _fun00020_ip = 691; continue _fun00019 }
+            var3 = var9.isForumLikeChannel;
+            var3 = var3.bind(var9)();
+            var2 = null;
+            if(!var3) { _fun0010_ip = 691; continue _fun0010 }
  106:
-            zuuluu = {};
-            option = _closure1_slot22;
-            golfie = {};
-            verify = verify.id;
-            golfie['channelId'] = verify;
-            golfie['sessionId'] = oscard;
-            oscard = undefined;
-            foxtra = option.bind(oscard)(golfie);
-            backup = zuuluu;
-            golfie = copyDataProperties(backup, foxtra);
-            option = _closure1_slot5;
-            golfie = option.getMemberCount;
-            option = golfie.bind(option)(romeon);
-            golfie = 'thread_approximate_member_count';
-            zuuluu[golfie] = option;
-            option = _closure1_slot6;
-            golfie = option.getCount;
-            option = golfie.bind(option)(romeon);
-            golfie = 'thread_approximate_message_count';
-            zuuluu[golfie] = option;
-            golfie = tangon.threadMetadata;
-            verify = entity == golfie;
-            option = undefined;
-            if(verify) { _fun00020_ip = 215; continue _fun00019 }
+            var3 = {};
+            var8 = _closure1_slot22;
+            var7 = {};
+            var9 = var9.id;
+            var7['channelId'] = var9;
+            var7['sessionId'] = var6;
+            var6 = undefined;
+            var13 = var8.bind(var6)(var7);
+            var14 = var3;
+            var7 = copyDataProperties(var14, var13);
+            var8 = _closure1_slot5;
+            var7 = var8.getMemberCount;
+            var8 = var7.bind(var8)(var12);
+            var7 = 'thread_approximate_member_count';
+            var3[var7] = var8;
+            var8 = _closure1_slot6;
+            var7 = var8.getCount;
+            var8 = var7.bind(var8)(var12);
+            var7 = 'thread_approximate_message_count';
+            var3[var7] = var8;
+            var7 = var4.threadMetadata;
+            var9 = var1 == var7;
+            var8 = undefined;
+            if(var9) { _fun0010_ip = 215; continue _fun0010 }
  209:
-            option = golfie.archived;
+            var8 = var7.archived;
  215:
-            golfie = true;
-            option = golfie === option;
-            golfie = 'thread_archived';
-            zuuluu[golfie] = option;
-            option = tangon.threadMetadata;
-            verify = entity == option;
-            golfie = undefined;
-            if(verify) { _fun00020_ip = 253; continue _fun00019 }
+            var7 = true;
+            var8 = var7 === var8;
+            var7 = 'thread_archived';
+            var3[var7] = var8;
+            var8 = var4.threadMetadata;
+            var9 = var1 == var8;
+            var7 = undefined;
+            if(var9) { _fun0010_ip = 253; continue _fun0010 }
  247:
-            golfie = option.locked;
+            var7 = var8.locked;
  253:
-            option = entity != golfie;
-            if(!option) { _fun00020_ip = 263; continue _fun00019 }
+            var8 = var1 != var7;
+            if(!var8) { _fun0010_ip = 263; continue _fun0010 }
  260:
-            option = golfie;
+            var8 = var7;
  263:
-            golfie = 'thread_locked';
-            zuuluu[golfie] = option;
-            option = tangon.threadMetadata;
-            verify = entity == option;
-            golfie = undefined;
-            if(verify) { _fun00020_ip = 295; continue _fun00019 }
+            var7 = 'thread_locked';
+            var3[var7] = var8;
+            var8 = var4.threadMetadata;
+            var9 = var1 == var8;
+            var7 = undefined;
+            if(var9) { _fun0010_ip = 295; continue _fun0010 }
  289:
-            golfie = option.autoArchiveDuration;
+            var7 = var8.autoArchiveDuration;
  295:
-            verify = entity != golfie;
-            option = 0;
-            if(!verify) { _fun00020_ip = 307; continue _fun00019 }
+            var9 = var1 != var7;
+            var8 = 0;
+            if(!var9) { _fun0010_ip = 307; continue _fun0010 }
  304:
-            option = golfie;
+            var8 = var7;
  307:
-            golfie = 'thread_auto_archive_duration_minutes';
-            zuuluu[golfie] = option;
-            option = _closure1_slot1;
-            golfie = _closure1_slot2;
-            verify = 15;
-            offset = golfie[verify];
-            yankee = option.bind(oscard)(offset);
-            offset = yankee.extractTimestamp;
-            yankee = offset.bind(yankee)(romeon);
-            offset = 'thread_approximate_creation_date';
-            zuuluu[offset] = yankee;
-            yankee = tangon.id;
-            offset = 'forum_post_id';
-            zuuluu[offset] = yankee;
-            verify = golfie[verify];
-            yankee = option.bind(oscard)(verify);
-            offset = yankee.castChannelIdAsMessageId;
-            verify = tangon.id;
-            offset = offset.bind(yankee)(verify);
-            verify = 'forum_post_first_message_id';
-            zuuluu[verify] = offset;
-            offset = _closure1_slot19;
-            verify = tangon.id;
-            offset = offset.bind(oscard)(verify);
-            verify = 'forum_post_num_reactions';
-            zuuluu[verify] = offset;
-            offset = _closure1_slot18;
-            verify = tangon.id;
-            offset = offset.bind(oscard)(verify);
-            verify = 'forum_post_num_unique_reactions';
-            zuuluu[verify] = offset;
-            offset = _closure1_slot20;
-            verify = tangon.id;
-            offset = offset.bind(oscard)(verify);
-            verify = 'forum_post_applied_tag_ids';
-            zuuluu[verify] = offset;
-            offset = tangon.hasFlag;
-            verify = _closure1_slot14;
-            verify = verify.PINNED;
-            offset = offset.bind(tangon)(verify);
-            verify = 'forum_post_is_pinned';
-            zuuluu[verify] = offset;
-            verify = 16;
-            golfie = golfie[verify];
-            offset = option.bind(oscard)(golfie);
-            option = offset.getReadStateSnapshotAnalytics;
-            golfie = tangon.id;
-            golfie = option.bind(offset)(golfie);
-            offset = entity == golfie;
-            option = undefined;
-            if(offset) { _fun00020_ip = 562; continue _fun00019 }
+            var7 = 'thread_auto_archive_duration_minutes';
+            var3[var7] = var8;
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var9 = 15;
+            var10 = var7[var9];
+            var11 = var8.bind(var6)(var10);
+            var10 = var11.extractTimestamp;
+            var11 = var10.bind(var11)(var12);
+            var10 = 'thread_approximate_creation_date';
+            var3[var10] = var11;
+            var11 = var4.id;
+            var10 = 'forum_post_id';
+            var3[var10] = var11;
+            var9 = var7[var9];
+            var11 = var8.bind(var6)(var9);
+            var10 = var11.castChannelIdAsMessageId;
+            var9 = var4.id;
+            var10 = var10.bind(var11)(var9);
+            var9 = 'forum_post_first_message_id';
+            var3[var9] = var10;
+            var10 = _closure1_slot19;
+            var9 = var4.id;
+            var10 = var10.bind(var6)(var9);
+            var9 = 'forum_post_num_reactions';
+            var3[var9] = var10;
+            var10 = _closure1_slot18;
+            var9 = var4.id;
+            var10 = var10.bind(var6)(var9);
+            var9 = 'forum_post_num_unique_reactions';
+            var3[var9] = var10;
+            var10 = _closure1_slot20;
+            var9 = var4.id;
+            var10 = var10.bind(var6)(var9);
+            var9 = 'forum_post_applied_tag_ids';
+            var3[var9] = var10;
+            var10 = var4.hasFlag;
+            var9 = _closure1_slot14;
+            var9 = var9.PINNED;
+            var10 = var10.bind(var4)(var9);
+            var9 = 'forum_post_is_pinned';
+            var3[var9] = var10;
+            var9 = 16;
+            var7 = var7[var9];
+            var10 = var8.bind(var6)(var7);
+            var8 = var10.getReadStateSnapshotAnalytics;
+            var7 = var4.id;
+            var7 = var8.bind(var10)(var7);
+            var10 = var1 == var7;
+            var8 = undefined;
+            if(var10) { _fun0010_ip = 562; continue _fun0010 }
  556:
-            option = golfie.isNew;
+            var8 = var7.isNew;
  562:
-            golfie = 'forum_post_is_new';
-            zuuluu[golfie] = option;
-            option = _closure1_slot1;
-            golfie = _closure1_slot2;
-            golfie = golfie[verify];
-            verify = option.bind(oscard)(golfie);
-            option = verify.getReadStateSnapshotAnalytics;
-            golfie = tangon.id;
-            golfie = option.bind(verify)(golfie);
-            verify = entity == golfie;
-            option = undefined;
-            if(verify) { _fun00020_ip = 621; continue _fun00019 }
+            var7 = 'forum_post_is_new';
+            var3[var7] = var8;
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var7 = var7[var9];
+            var9 = var8.bind(var6)(var7);
+            var8 = var9.getReadStateSnapshotAnalytics;
+            var7 = var4.id;
+            var7 = var8.bind(var9)(var7);
+            var9 = var1 == var7;
+            var8 = undefined;
+            if(var9) { _fun0010_ip = 621; continue _fun0010 }
  615:
-            option = golfie.hasUnreads;
+            var8 = var7.hasUnreads;
  621:
-            golfie = 'forum_post_is_unread';
-            zuuluu[golfie] = option;
-            verify = _closure1_slot4;
-            option = verify.hasJoined;
-            golfie = tangon.id;
-            option = option.bind(verify)(golfie);
-            golfie = 'forum_post_is_following';
-            zuuluu[golfie] = option;
-            report = _closure1_slot21;
-            tangon = tangon.id;
-            report = report.bind(oscard)(tangon);
-            tangon = 'forum_post_attachment_mimetypes';
-            zuuluu[tangon] = report;
-            michal = zuuluu;
+            var7 = 'forum_post_is_unread';
+            var3[var7] = var8;
+            var9 = _closure1_slot4;
+            var8 = var9.hasJoined;
+            var7 = var4.id;
+            var8 = var8.bind(var9)(var7);
+            var7 = 'forum_post_is_following';
+            var3[var7] = var8;
+            var5 = _closure1_slot21;
+            var4 = var4.id;
+            var5 = var5.bind(var6)(var4);
+            var4 = 'forum_post_attachment_mimetypes';
+            var3[var4] = var5;
+            var2 = var3;
  691:
-            return michal;
+            return var2;
  693:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['collectForumPostAnalyticsMetadata'] = michal;
-    return entity;
+    var3['collectForumPostAnalyticsMetadata'] = var2;
+    return var1;
 })();

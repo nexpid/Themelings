@@ -1,115 +1,115 @@
 // app/modules/parent_tools/hooks/useSelectedTeenUser.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/parent_tools/hooks/useSelectedTeenUser.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() {
-        zuuluu = _closure1_slot1;
-        oscard = _closure1_slot2;
-        michal = 2;
-        michal = oscard[michal];
-        tangon = undefined;
-        michal = zuuluu.bind(tangon)(michal);
-        michal = michal.bind(tangon)();
-        var _closure2_slot0 = michal;
-        zuuluu = _closure1_slot0;
-        michal = 3;
-        michal = oscard[michal];
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot4;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot3;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/parent_tools/hooks/useSelectedTeenUser.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function() {
+        var3 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var2 = 2;
+        var2 = var6[var2];
+        var4 = undefined;
+        var2 = var3.bind(var4)(var2);
+        var2 = var2.bind(var4)();
+        var _closure2_slot0 = var2;
+        var3 = _closure1_slot0;
+        var2 = 3;
+        var2 = var6[var2];
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot4;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot3;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                if(entity) { _fun00002_ip = 28; continue _fun00001 }
+                var1 = _closure2_slot0;
+                if(var1) { _fun0001_ip = 28; continue _fun0001 }
  13:
-                zuuluu = _closure1_slot3;
-                entity = zuuluu.getCurrentUser;
-                entity = entity.bind(zuuluu)();
-                return entity;
+                var3 = _closure1_slot3;
+                var1 = var3.getCurrentUser;
+                var1 = var1.bind(var3)();
+                return var1;
  28:
-                zuuluu = _closure1_slot4;
-                entity = zuuluu.getSelectedTeenId;
-                tangon = entity.bind(zuuluu)();
-                zuuluu = null;
-                entity = undefined;
-                if(!(zuuluu !== tangon)) { _fun00002_ip = 65; continue _fun00001 }
+                var3 = _closure1_slot4;
+                var1 = var3.getSelectedTeenId;
+                var4 = var1.bind(var3)();
+                var3 = null;
+                var1 = undefined;
+                if(!(var3 !== var4)) { _fun0001_ip = 65; continue _fun0001 }
  50:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getUser;
-                entity = michal.bind(zuuluu)(tangon);
+                var3 = _closure1_slot3;
+                var2 = var3.getUser;
+                var1 = var2.bind(var3)(var4);
  65:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useSelectedTeenUser'] = tangon;
-    michal = function(argFoo) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useSelectedTeenUser'] = var4;
+    var2 = function(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getUser;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                michal = null;
-                if(!(michal == entity)) { _fun00004_ip = 35; continue _fun00003 }
+                var3 = _closure1_slot3;
+                var2 = var3.getUser;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                var2 = null;
+                if(!(var2 == var1)) { _fun0002_ip = 35; continue _fun0002 }
  31:
-                michal = undefined;
-                return michal;
+                var2 = undefined;
+                return var2;
  35:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useTeenUserForId'] = michal;
-    return entity;
+    var3['useTeenUserForId'] = var2;
+    return var1;
 })();

@@ -1,512 +1,512 @@
 // app/modules/icymi/native/ICYMIForumThreadRow.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    golfie = argBar;
-    kiloes = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = kiloes;
-    var _closure1_slot2 = option;
-    michal = function(argFoo) { // Original name: ICYMIForumThreadRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var15 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var15;
+    var _closure1_slot2 = var8;
+    var2 = function ICYMIForumThreadRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            kiloes = michal.channel;
-            var _closure2_slot0 = kiloes;
-            backup = michal.message;
-            var _closure2_slot1 = backup;
-            record = michal.visible;
-            michal = _closure1_slot9;
-            report = undefined;
-            echoed = michal.bind(report)();
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 8;
-            oscard = tangon[michal];
-            verify = zuuluu.bind(report)(oscard);
-            option = verify.useStateFromStores;
-            oscard = _closure1_slot6;
-            golfie = new Array(1);
-            golfie[0] = oscard;
-            oscard = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var15 = var2.channel;
+            var _closure2_slot0 = var15;
+            var14 = var2.message;
+            var _closure2_slot1 = var14;
+            var26 = var2.visible;
+            var2 = _closure1_slot9;
+            var5 = undefined;
+            var19 = var2.bind(var5)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var6 = var4[var2];
+            var9 = var3.bind(var5)(var6);
+            var8 = var9.useStateFromStores;
+            var6 = _closure1_slot6;
+            var7 = new Array(1);
+            var7[0] = var6;
+            var6 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure1_slot6;
-                    michal = zuuluu.getGuild;
-                    report = _closure2_slot0;
-                    entity = null;
-                    report = entity == report;
-                    entity = undefined;
-                    if(report) { _fun00004_ip = 44; continue _fun00003 }
+                    var3 = _closure1_slot6;
+                    var2 = var3.getGuild;
+                    var5 = _closure2_slot0;
+                    var1 = null;
+                    var5 = var1 == var5;
+                    var1 = undefined;
+                    if(var5) { _fun0002_ip = 44; continue _fun0002 }
  30:
-                    report = _closure2_slot0;
-                    tangon = report.getGuildId;
-                    entity = tangon.bind(report)();
+                    var5 = _closure2_slot0;
+                    var4 = var5.getGuildId;
+                    var1 = var4.bind(var5)();
  44:
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 }
             };
-            ctrled = option.bind(verify)(golfie, oscard);
-            var _closure2_slot2 = ctrled;
-            oscard = backup.author;
-            var _closure2_slot3 = oscard;
-            michal = tangon[michal];
-            golfie = zuuluu.bind(report)(michal);
-            tangon = golfie.useStateFromStores;
-            michal = _closure1_slot5;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.getChannel;
-                entity = _closure2_slot0;
-                entity = entity.parent_id;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var22 = var8.bind(var9)(var7, var6);
+            var _closure2_slot2 = var22;
+            var6 = var14.author;
+            var _closure2_slot3 = var6;
+            var2 = var4[var2];
+            var7 = var3.bind(var5)(var2);
+            var4 = var7.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.parent_id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie = tangon.bind(golfie)(zuuluu, michal);
-            verify = _closure1_slot3;
-            option = verify.useEffect;
-            michal = oscard.id;
-            tangon = new Array(2);
-            tangon[0] = michal;
-            zuuluu = null;
-            offset = zuuluu == ctrled;
-            michal = undefined;
-            if(offset) { _fun00002_ip = 183; continue _fun00001 }
+            var7 = var4.bind(var7)(var3, var2);
+            var9 = _closure1_slot3;
+            var8 = var9.useEffect;
+            var2 = var6.id;
+            var4 = new Array(2);
+            var4[0] = var2;
+            var3 = null;
+            var10 = var3 == var22;
+            var2 = undefined;
+            if(var10) { _fun0001_ip = 183; continue _fun0001 }
  178:
-            michal = ctrled.id;
+            var2 = var22.id;
  183:
-            tangon[1] = michal;
-            michal = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var4[1] = var2;
+            var2 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = _closure2_slot2;
-                    oscard = null;
-                    tangon = oscard == entity;
-                    entity = undefined;
-                    zuuluu = undefined;
-                    if(tangon) { _fun00006_ip = 29; continue _fun00005 }
+                    var1 = _closure2_slot2;
+                    var6 = null;
+                    var4 = var6 == var1;
+                    var1 = undefined;
+                    var3 = undefined;
+                    if(var4) { _fun0003_ip = 29; continue _fun0003 }
  20:
-                    tangon = _closure2_slot2;
-                    zuuluu = tangon.id;
+                    var4 = _closure2_slot2;
+                    var3 = var4.id;
  29:
-                    if(!(oscard != zuuluu)) { _fun00006_ip = 107; continue _fun00005 }
+                    if(!(var6 != var3)) { _fun0003_ip = 107; continue _fun0003 }
  33:
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    zuuluu = 9;
-                    zuuluu = report[zuuluu];
-                    report = tangon.bind(entity)(zuuluu);
-                    tangon = report.requestMembersById;
-                    zuuluu = _closure2_slot2;
-                    oscard = oscard == zuuluu;
-                    zuuluu = undefined;
-                    if(oscard) { _fun00006_ip = 84; continue _fun00005 }
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 9;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.requestMembersById;
+                    var3 = _closure2_slot2;
+                    var6 = var6 == var3;
+                    var3 = undefined;
+                    if(var6) { _fun0003_ip = 84; continue _fun0003 }
  75:
-                    oscard = _closure2_slot2;
-                    zuuluu = oscard.id;
+                    var6 = _closure2_slot2;
+                    var3 = var6.id;
  84:
-                    michal = _closure2_slot3;
-                    oscard = michal.id;
-                    michal = new Array(1);
-                    michal[0] = oscard;
-                    michal = tangon.bind(report)(zuuluu, michal);
+                    var2 = _closure2_slot3;
+                    var6 = var2.id;
+                    var2 = new Array(1);
+                    var2[0] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
  107:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = option.bind(verify)(michal, tangon);
-            verify = _closure1_slot3;
-            option = verify.useCallback;
-            tangon = new Array(3);
-            tangon[0] = kiloes;
-            tangon[1] = ctrled;
-            michal = backup.id;
-            tangon[2] = michal;
-            michal = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var2 = var8.bind(var9)(var2, var4);
+            var9 = _closure1_slot3;
+            var8 = var9.useCallback;
+            var4 = new Array(3);
+            var4[0] = var15;
+            var4[1] = var22;
+            var2 = var14.id;
+            var4[2] = var2;
+            var2 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    tangon = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    report = 10;
-                    michal = entity[report];
-                    entity = undefined;
-                    verify = tangon.bind(entity)(michal);
-                    option = verify.trackItemInteraction;
-                    tangon = _closure2_slot1;
-                    golfie = tangon.id;
-                    oscard = 'forum_thread';
-                    tangon = 'press_forum_thread';
-                    tangon = option.bind(verify)(golfie, oscard, tangon);
-                    tangon = _closure2_slot0;
-                    golfie = null;
-                    tangon = golfie != tangon;
-                    if(!tangon) { _fun00008_ip = 83; continue _fun00007 }
+                    var4 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var5 = 10;
+                    var2 = var1[var5];
+                    var1 = undefined;
+                    var9 = var4.bind(var1)(var2);
+                    var8 = var9.trackItemInteraction;
+                    var4 = _closure2_slot1;
+                    var7 = var4.id;
+                    var6 = 'forum_thread';
+                    var4 = 'press_forum_thread';
+                    var4 = var8.bind(var9)(var7, var6, var4);
+                    var4 = _closure2_slot0;
+                    var7 = null;
+                    var4 = var7 != var4;
+                    if(!var4) { _fun0004_ip = 83; continue _fun0004 }
  75:
-                    oscard = _closure2_slot2;
-                    tangon = golfie != oscard;
+                    var6 = _closure2_slot2;
+                    var4 = var7 != var6;
  83:
-                    if(!tangon) { _fun00008_ip = 143; continue _fun00007 }
+                    if(!var4) { _fun0004_ip = 143; continue _fun0004 }
  86:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[report];
-                    oscard = tangon.bind(entity)(zuuluu);
-                    report = oscard.navigateToPost;
-                    zuuluu = _closure2_slot0;
-                    tangon = zuuluu.id;
-                    zuuluu = _closure2_slot2;
-                    zuuluu = zuuluu.id;
-                    michal = _closure2_slot1;
-                    michal = michal.id;
-                    michal = report.bind(oscard)(tangon, zuuluu, michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var6 = var4.bind(var1)(var3);
+                    var5 = var6.navigateToPost;
+                    var3 = _closure2_slot0;
+                    var4 = var3.id;
+                    var3 = _closure2_slot2;
+                    var3 = var3.id;
+                    var2 = _closure2_slot1;
+                    var2 = var2.id;
+                    var2 = var5.bind(var6)(var4, var3, var2);
  143:
-                    return entity;
+                    return var1;
                 }
             };
-            offset = option.bind(verify)(michal, tangon);
-            verify = _closure1_slot3;
-            option = verify.useCallback;
-            michal = kiloes.parent_id;
-            tangon = new Array(2);
-            tangon[0] = michal;
-            michal = backup.id;
-            tangon[1] = michal;
-            michal = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var10 = var8.bind(var9)(var2, var4);
+            var9 = _closure1_slot3;
+            var8 = var9.useCallback;
+            var2 = var15.parent_id;
+            var4 = new Array(2);
+            var4[0] = var2;
+            var2 = var14.id;
+            var4[1] = var2;
+            var2 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    michal = _closure2_slot0;
-                    zuuluu = michal.parent_id;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00010_ip = 111; continue _fun00009 }
+                    var2 = _closure2_slot0;
+                    var3 = var2.parent_id;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 111; continue _fun0005 }
  19:
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 10;
-                    michal = report[michal];
-                    zuuluu = undefined;
-                    verify = tangon.bind(zuuluu)(michal);
-                    option = verify.trackItemInteraction;
-                    michal = _closure2_slot1;
-                    golfie = michal.id;
-                    oscard = 'forum_thread';
-                    michal = 'long_press_forum_thread';
-                    michal = option.bind(verify)(golfie, oscard, michal);
-                    michal = 11;
-                    michal = report[michal];
-                    zuuluu = tangon.bind(zuuluu)(michal);
-                    michal = zuuluu.openChannelLongPressActionSheet;
-                    entity = _closure2_slot0;
-                    entity = entity.parent_id;
-                    entity = michal.bind(zuuluu)(entity);
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var5[var2];
+                    var3 = undefined;
+                    var9 = var4.bind(var3)(var2);
+                    var8 = var9.trackItemInteraction;
+                    var2 = _closure2_slot1;
+                    var7 = var2.id;
+                    var6 = 'forum_thread';
+                    var2 = 'long_press_forum_thread';
+                    var2 = var8.bind(var9)(var7, var6, var2);
+                    var2 = 11;
+                    var2 = var5[var2];
+                    var3 = var4.bind(var3)(var2);
+                    var2 = var3.openChannelLongPressActionSheet;
+                    var1 = _closure2_slot0;
+                    var1 = var1.parent_id;
+                    var1 = var2.bind(var3)(var1);
  111:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            verify = option.bind(verify)(michal, tangon);
-            option = _closure1_slot3;
-            tangon = option.useCallback;
-            michal = new Array(3);
-            michal[0] = backup;
-            romeon = kiloes.id;
-            michal[1] = romeon;
-            foxtra = zuuluu == ctrled;
-            romeon = undefined;
-            if(foxtra) { _fun00002_ip = 328; continue _fun00001 }
+            var9 = var8.bind(var9)(var2, var4);
+            var8 = _closure1_slot3;
+            var4 = var8.useCallback;
+            var2 = new Array(3);
+            var2[0] = var14;
+            var12 = var15.id;
+            var2[1] = var12;
+            var13 = var3 == var22;
+            var12 = undefined;
+            if(var13) { _fun0001_ip = 328; continue _fun0001 }
  323:
-            romeon = ctrled.id;
+            var12 = var22.id;
  328:
-            michal[2] = romeon;
-            entity = function() {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var2[2] = var12;
+            var1 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    report = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    tangon = 10;
-                    zuuluu = entity[tangon];
-                    entity = undefined;
-                    offset = report.bind(entity)(zuuluu);
-                    verify = offset.trackItemInteraction;
-                    zuuluu = _closure2_slot1;
-                    option = zuuluu.id;
-                    golfie = 'forum_thread';
-                    report = 'press_comments';
-                    report = verify.bind(offset)(option, golfie, report);
-                    golfie = null;
-                    if(!(golfie != zuuluu)) { _fun00012_ip = 129; continue _fun00011 }
+                    var5 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var4 = 10;
+                    var3 = var1[var4];
+                    var1 = undefined;
+                    var10 = var5.bind(var1)(var3);
+                    var9 = var10.trackItemInteraction;
+                    var3 = _closure2_slot1;
+                    var8 = var3.id;
+                    var7 = 'forum_thread';
+                    var5 = 'press_comments';
+                    var5 = var9.bind(var10)(var8, var7, var5);
+                    var7 = null;
+                    if(!(var7 != var3)) { _fun0006_ip = 129; continue _fun0006 }
  68:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[tangon];
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = report.navigateToPost;
-                    michal = _closure2_slot0;
-                    zuuluu = michal.id;
-                    michal = _closure2_slot2;
-                    golfie = golfie == michal;
-                    michal = undefined;
-                    if(golfie) { _fun00012_ip = 122; continue _fun00011 }
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var4];
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.navigateToPost;
+                    var2 = _closure2_slot0;
+                    var3 = var2.id;
+                    var2 = _closure2_slot2;
+                    var7 = var7 == var2;
+                    var2 = undefined;
+                    if(var7) { _fun0006_ip = 122; continue _fun0006 }
  113:
-                    oscard = _closure2_slot2;
-                    michal = oscard.id;
+                    var6 = _closure2_slot2;
+                    var2 = var6.id;
  122:
-                    michal = tangon.bind(report)(zuuluu, michal, entity);
+                    var2 = var4.bind(var5)(var3, var2, var1);
  129:
-                    return entity;
+                    return var1;
                 }
             };
-            source = tangon.bind(option)(entity, michal);
-            michal = zuuluu == kiloes;
-            entity = null;
-            if(michal) { _fun00002_ip = 984; continue _fun00001 }
+            var21 = var4.bind(var8)(var1, var2);
+            var2 = var3 == var15;
+            var1 = null;
+            if(var2) { _fun0001_ip = 984; continue _fun0001 }
  357:
-            michal = kiloes.guild_id;
-            michal = zuuluu == michal;
-            entity = null;
-            if(michal) { _fun00002_ip = 984; continue _fun00001 }
+            var2 = var15.guild_id;
+            var2 = var3 == var2;
+            var1 = null;
+            if(var2) { _fun0001_ip = 984; continue _fun0001 }
  374:
-            michal = zuuluu == ctrled;
-            entity = null;
-            if(michal) { _fun00002_ip = 984; continue _fun00001 }
+            var2 = var3 == var22;
+            var1 = null;
+            if(var2) { _fun0001_ip = 984; continue _fun0001 }
  386:
-            michal = zuuluu == oscard;
-            entity = null;
-            if(michal) { _fun00002_ip = 984; continue _fun00001 }
+            var2 = var3 == var6;
+            var1 = null;
+            if(var2) { _fun0001_ip = 984; continue _fun0001 }
  398:
-            michal = zuuluu == golfie;
-            entity = null;
-            if(michal) { _fun00002_ip = 984; continue _fun00001 }
+            var2 = var3 == var7;
+            var1 = null;
+            if(var2) { _fun0001_ip = 984; continue _fun0001 }
  410:
-            tangon = _closure1_slot8;
-            romeon = _closure1_slot0;
-            sizing = _closure1_slot2;
-            result = 10;
-            michal = sizing[result];
-            michal = romeon.bind(report)(michal);
-            zuuluu = michal.MessageContentPost;
-            michal = {};
-            michal['channel'] = golfie;
-            michal['guild'] = ctrled;
-            michal['author'] = oscard;
-            oscard = backup.id;
-            michal['id'] = oscard;
-            sequen = _closure1_slot1;
-            oscard = 12;
-            oscard = sizing[oscard];
-            option = sequen.bind(report)(oscard);
-            golfie = option.extractTimestamp;
-            oscard = backup.id;
-            oscard = golfie.bind(option)(oscard);
-            michal['timestamp'] = oscard;
-            oscard = 'forum_thread';
-            michal['type'] = oscard;
-            michal['onHeaderPress'] = offset;
-            michal['onHeaderLongPress'] = verify;
-            michal['message'] = backup;
-            option = _closure1_slot7;
-            oscard = 13;
-            oscard = sizing[oscard];
-            oscard = romeon.bind(report)(oscard);
-            golfie = oscard.PressableHighlight;
-            oscard = {};
-            oscard['onPress'] = offset;
-            oscard['onLongPress'] = verify;
-            verify = 'button';
-            oscard['accessibilityRole'] = verify;
-            verify = 130;
-            oscard['unstable_pressDelay'] = verify;
-            verify = echoed.pressable;
-            oscard['style'] = verify;
-            foxtra = _closure1_slot8;
-            offset = _closure1_slot4;
-            verify = {};
-            output = echoed.container;
-            verify['style'] = output;
-            config = _closure1_slot7;
-            update = 14;
-            output = sizing[update];
-            output = romeon.bind(report)(output);
-            vacuum = output.Text;
-            output = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
-            cntext = kiloes.name;
-            output['children'] = cntext;
-            vacuum = config.bind(report)(vacuum, output);
-            output = new Array(3);
-            output[0] = vacuum;
-            cntext = _closure1_slot7;
-            update = sizing[update];
-            update = romeon.bind(report)(update);
-            config = update.Text;
-            update = {'variant': 'text-md/normal', 'color': 'text-secondary', 'style': null, 'lineClamp': 5};
-            vacuum = echoed.subtitle;
-            update['style'] = vacuum;
-            vacuum = 15;
-            vacuum = sizing[vacuum];
-            status = sequen.bind(report)(vacuum);
-            target = status.parseInlineReply;
-            papara = backup.content;
-            vacuum = true;
-            papara = target.bind(status)(papara, vacuum);
-            update['children'] = papara;
-            update = cntext.bind(report)(config, update);
-            output[1] = update;
-            config = _closure1_slot7;
-            update = 16;
-            update = sizing[update];
-            sequen = sequen.bind(report)(update);
-            update = {};
-            update['message'] = backup;
-            update['visible'] = record;
-            update = config.bind(report)(sequen, update);
-            output[2] = update;
-            verify['children'] = output;
-            verify = foxtra.bind(report)(offset, verify);
-            oscard['children'] = verify;
-            golfie = option.bind(report)(golfie, oscard);
-            oscard = new Array(2);
-            oscard[0] = golfie;
-            verify = _closure1_slot8;
-            option = _closure1_slot4;
-            golfie = {};
-            offset = echoed.footer;
-            golfie['style'] = offset;
-            output = _closure1_slot7;
-            foxtra = _closure1_slot4;
-            offset = {};
-            echoed = echoed.threadAsComments;
-            offset['style'] = echoed;
-            update = _closure1_slot7;
-            result = sizing[result];
-            result = romeon.bind(report)(result);
-            echoed = result.ThreadAsComments;
-            result = {};
-            result['inForum'] = vacuum;
-            result['guild'] = ctrled;
-            result['parentMessage'] = backup;
-            result['onPress'] = source;
-            result = update.bind(report)(echoed, result);
-            offset['children'] = result;
-            foxtra = output.bind(report)(foxtra, offset);
-            offset = new Array(2);
-            offset[0] = foxtra;
-            foxtra = _closure1_slot7;
-            yankee = 17;
-            yankee = sizing[yankee];
-            yankee = romeon.bind(report)(yankee);
-            romeon = yankee.MessageReplyRow;
-            yankee = {};
-            yankee['channel'] = kiloes;
-            yankee['message'] = backup;
-            yankee = foxtra.bind(report)(romeon, yankee);
-            offset[1] = yankee;
-            golfie['children'] = offset;
-            golfie = verify.bind(report)(option, golfie);
-            oscard[1] = golfie;
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot8;
+            var12 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var18 = 10;
+            var2 = var16[var18];
+            var2 = var12.bind(var5)(var2);
+            var3 = var2.MessageContentPost;
+            var2 = {};
+            var2['channel'] = var7;
+            var2['guild'] = var22;
+            var2['author'] = var6;
+            var6 = var14.id;
+            var2['id'] = var6;
+            var24 = _closure1_slot1;
+            var6 = 12;
+            var6 = var16[var6];
+            var8 = var24.bind(var5)(var6);
+            var7 = var8.extractTimestamp;
+            var6 = var14.id;
+            var6 = var7.bind(var8)(var6);
+            var2['timestamp'] = var6;
+            var6 = 'forum_thread';
+            var2['type'] = var6;
+            var2['onHeaderPress'] = var10;
+            var2['onHeaderLongPress'] = var9;
+            var2['message'] = var14;
+            var8 = _closure1_slot7;
+            var6 = 13;
+            var6 = var16[var6];
+            var6 = var12.bind(var5)(var6);
+            var7 = var6.PressableHighlight;
+            var6 = {};
+            var6['onPress'] = var10;
+            var6['onLongPress'] = var9;
+            var9 = 'button';
+            var6['accessibilityRole'] = var9;
+            var9 = 130;
+            var6['unstable_pressDelay'] = var9;
+            var9 = var19.pressable;
+            var6['style'] = var9;
+            var13 = _closure1_slot8;
+            var10 = _closure1_slot4;
+            var9 = {};
+            var17 = var19.container;
+            var9['style'] = var17;
+            var25 = _closure1_slot7;
+            var20 = 14;
+            var17 = var16[var20];
+            var17 = var12.bind(var5)(var17);
+            var23 = var17.Text;
+            var17 = {'variant': 'text-lg/semibold', 'color': 'header-primary'};
+            var27 = var15.name;
+            var17['children'] = var27;
+            var23 = var25.bind(var5)(var23, var17);
+            var17 = new Array(3);
+            var17[0] = var23;
+            var27 = _closure1_slot7;
+            var20 = var16[var20];
+            var20 = var12.bind(var5)(var20);
+            var25 = var20.Text;
+            var20 = {'variant': 'text-md/normal', 'color': 'text-secondary', 'style': null, 'lineClamp': 5};
+            var23 = var19.subtitle;
+            var20['style'] = var23;
+            var23 = 15;
+            var23 = var16[var23];
+            var30 = var24.bind(var5)(var23);
+            var29 = var30.parseInlineReply;
+            var28 = var14.content;
+            var23 = true;
+            var28 = var29.bind(var30)(var28, var23);
+            var20['children'] = var28;
+            var20 = var27.bind(var5)(var25, var20);
+            var17[1] = var20;
+            var25 = _closure1_slot7;
+            var20 = 16;
+            var20 = var16[var20];
+            var24 = var24.bind(var5)(var20);
+            var20 = {};
+            var20['message'] = var14;
+            var20['visible'] = var26;
+            var20 = var25.bind(var5)(var24, var20);
+            var17[2] = var20;
+            var9['children'] = var17;
+            var9 = var13.bind(var5)(var10, var9);
+            var6['children'] = var9;
+            var7 = var8.bind(var5)(var7, var6);
+            var6 = new Array(2);
+            var6[0] = var7;
+            var9 = _closure1_slot8;
+            var8 = _closure1_slot4;
+            var7 = {};
+            var10 = var19.footer;
+            var7['style'] = var10;
+            var17 = _closure1_slot7;
+            var13 = _closure1_slot4;
+            var10 = {};
+            var19 = var19.threadAsComments;
+            var10['style'] = var19;
+            var20 = _closure1_slot7;
+            var18 = var16[var18];
+            var18 = var12.bind(var5)(var18);
+            var19 = var18.ThreadAsComments;
+            var18 = {};
+            var18['inForum'] = var23;
+            var18['guild'] = var22;
+            var18['parentMessage'] = var14;
+            var18['onPress'] = var21;
+            var18 = var20.bind(var5)(var19, var18);
+            var10['children'] = var18;
+            var13 = var17.bind(var5)(var13, var10);
+            var10 = new Array(2);
+            var10[0] = var13;
+            var13 = _closure1_slot7;
+            var11 = 17;
+            var11 = var16[var11];
+            var11 = var12.bind(var5)(var11);
+            var12 = var11.MessageReplyRow;
+            var11 = {};
+            var11['channel'] = var15;
+            var11['message'] = var14;
+            var11 = var13.bind(var5)(var12, var11);
+            var10[1] = var11;
+            var7['children'] = var10;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  984:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = michal;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = option[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot3 = tangon;
-    backup = 1;
-    tangon = option[backup];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = option[tangon];
-    tangon = kiloes.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    oscard = option[tangon];
-    oscard = kiloes.bind(entity)(oscard);
-    var _closure1_slot6 = oscard;
-    oscard = 4;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    romeon = oscard.ICYMI_MARGIN;
-    foxtra = oscard.MESSAGE_CONTENT_INSET;
-    oscard = 5;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    verify = oscard.jsx;
-    var _closure1_slot7 = verify;
-    oscard = oscard.jsxs;
-    var _closure1_slot8 = oscard;
-    oscard = 6;
-    oscard = option[oscard];
-    offset = golfie.bind(entity)(oscard);
-    verify = offset.createStyles;
-    oscard = {};
-    yankee = {};
-    yankee['flex'] = backup;
-    yankee['paddingLeft'] = foxtra;
-    oscard['pressable'] = yankee;
-    yankee = {};
-    yankee['marginHorizontal'] = romeon;
-    oscard['container'] = yankee;
-    yankee = {};
-    backup = 7;
-    backup = option[backup];
-    backup = kiloes.bind(entity)(backup);
-    backup = backup.spacing;
-    backup = backup.PX_8;
-    yankee['marginTop'] = backup;
-    yankee['marginBottom'] = romeon;
-    oscard['subtitle'] = yankee;
-    yankee = {};
-    backup = 'flex-end';
-    yankee['justifyContent'] = backup;
-    yankee['paddingLeft'] = foxtra;
-    yankee['marginTop'] = romeon;
-    yankee['gap'] = romeon;
-    oscard['footer'] = yankee;
-    yankee = {};
-    yankee['marginHorizontal'] = romeon;
-    oscard['threadAsComments'] = yankee;
-    oscard = verify.bind(offset)(oscard);
-    var _closure1_slot9 = oscard;
-    oscard = 18;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/icymi/native/ICYMIForumThreadRow.tsx';
-    oscard = golfie.bind(option)(oscard);
-    report = function(argFoo) { // Original name: ForumThreadRowWrapper
-        entity = argFoo;
-        oscard = entity.message;
-        report = entity.threadChannel;
-        entity = entity.visible;
-        tangon = _closure1_slot7;
-        zuuluu = _closure1_slot10;
-        michal = {};
-        michal['message'] = oscard;
-        michal['channel'] = report;
-        michal['visible'] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+    var _closure1_slot10 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var6 = var8[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot3 = var4;
+    var14 = 1;
+    var4 = var8[var14];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var8[var4];
+    var4 = var15.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var6 = var8[var4];
+    var6 = var15.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var12 = var6.ICYMI_MARGIN;
+    var13 = var6.MESSAGE_CONTENT_INSET;
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.jsx;
+    var _closure1_slot7 = var9;
+    var6 = var6.jsxs;
+    var _closure1_slot8 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var10 = var7.bind(var1)(var6);
+    var9 = var10.createStyles;
+    var6 = {};
+    var11 = {};
+    var11['flex'] = var14;
+    var11['paddingLeft'] = var13;
+    var6['pressable'] = var11;
+    var11 = {};
+    var11['marginHorizontal'] = var12;
+    var6['container'] = var11;
+    var11 = {};
+    var14 = 7;
+    var14 = var8[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.spacing;
+    var14 = var14.PX_8;
+    var11['marginTop'] = var14;
+    var11['marginBottom'] = var12;
+    var6['subtitle'] = var11;
+    var11 = {};
+    var14 = 'flex-end';
+    var11['justifyContent'] = var14;
+    var11['paddingLeft'] = var13;
+    var11['marginTop'] = var12;
+    var11['gap'] = var12;
+    var6['footer'] = var11;
+    var11 = {};
+    var11['marginHorizontal'] = var12;
+    var6['threadAsComments'] = var11;
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot9 = var6;
+    var6 = 18;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/icymi/native/ICYMIForumThreadRow.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function ForumThreadRowWrapper(arg1) {
+        var1 = arg1;
+        var6 = var1.message;
+        var5 = var1.threadChannel;
+        var1 = var1.visible;
+        var4 = _closure1_slot7;
+        var3 = _closure1_slot10;
+        var2 = {};
+        var2['message'] = var6;
+        var2['channel'] = var5;
+        var2['visible'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    zuuluu['default'] = report;
-    zuuluu['MAX_AVATARS_IN_PILE'] = tangon;
-    zuuluu['ICYMIForumThreadRow'] = michal;
-    return entity;
+    var3['default'] = var5;
+    var3['MAX_AVATARS_IN_PILE'] = var4;
+    var3['ICYMIForumThreadRow'] = var2;
+    return var1;
 })();

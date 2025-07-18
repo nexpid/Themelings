@@ -1,150 +1,150 @@
 // app/modules/safe_area/useSafeAreaGlobalHorizontalStyle.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MEDIA_MODAL_KEY;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.OAUTH2_AUTHORIZE_MODAL_KEY;
-    var _closure1_slot6 = golfie;
-    golfie = tangon.OAUTH2_ERROR_RESULT_MODAL_KEY;
-    var _closure1_slot7 = golfie;
-    tangon = tangon.OAUTH2_SUCCESS_RESULT_MODAL_KEY;
-    var _closure1_slot8 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/safe_area/useSafeAreaGlobalHorizontalStyle.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useSafeAreaGlobalHorizontalStyle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MEDIA_MODAL_KEY;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.OAUTH2_AUTHORIZE_MODAL_KEY;
+    var _closure1_slot6 = var7;
+    var7 = var4.OAUTH2_ERROR_RESULT_MODAL_KEY;
+    var _closure1_slot7 = var7;
+    var4 = var4.OAUTH2_SUCCESS_RESULT_MODAL_KEY;
+    var _closure1_slot8 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/safe_area/useSafeAreaGlobalHorizontalStyle.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useSafeAreaGlobalHorizontalStyle() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot4;
-            tangon = undefined;
-            zuuluu = function(argFoo) {
-                michal = argFoo;
-                entity = michal.shouldDisableSafeAreas;
-                entity = entity.bind(michal)();
-                return entity;
+            var5 = _closure1_slot4;
+            var4 = undefined;
+            var3 = function(arg1) {
+                var2 = arg1;
+                var1 = var2.shouldDisableSafeAreas;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            oscard = report.bind(tangon)(zuuluu);
-            var _closure2_slot0 = oscard;
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = golfie[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.useOpenModalKey;
-            verify = zuuluu.bind(report)();
-            zuuluu = null;
-            report = zuuluu != verify;
-            if(!report) { _fun00002_ip = 149; continue _fun00001 }
+            var6 = var5.bind(var4)(var3);
+            var _closure2_slot0 = var6;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 4;
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useOpenModalKey;
+            var9 = var3.bind(var5)();
+            var3 = null;
+            var5 = var3 != var9;
+            if(!var5) { _fun0001_ip = 149; continue _fun0001 }
  66:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = option[zuuluu];
-            golfie = golfie.bind(tangon)(zuuluu);
-            zuuluu = golfie.isVoiceChannelModalKey;
-            zuuluu = zuuluu.bind(golfie)(verify);
-            if(zuuluu) { _fun00002_ip = 146; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 5;
+            var3 = var8[var3];
+            var7 = var7.bind(var4)(var3);
+            var3 = var7.isVoiceChannelModalKey;
+            var3 = var3.bind(var7)(var9);
+            if(var3) { _fun0001_ip = 146; continue _fun0001 }
  100:
-            golfie = _closure1_slot5;
-            option = new Array(4);
-            option[0] = golfie;
-            golfie = _closure1_slot6;
-            option[1] = golfie;
-            golfie = _closure1_slot8;
-            option[2] = golfie;
-            golfie = _closure1_slot7;
-            option[3] = golfie;
-            golfie = option.includes;
-            zuuluu = golfie.bind(option)(verify);
+            var7 = _closure1_slot5;
+            var8 = new Array(4);
+            var8[0] = var7;
+            var7 = _closure1_slot6;
+            var8[1] = var7;
+            var7 = _closure1_slot8;
+            var8[2] = var7;
+            var7 = _closure1_slot7;
+            var8[3] = var7;
+            var7 = var8.includes;
+            var3 = var7.bind(var8)(var9);
  146:
-            report = zuuluu;
+            var5 = var3;
  149:
-            var _closure2_slot1 = report;
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            golfie = zuuluu.bind(tangon)();
-            var _closure2_slot2 = golfie;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useMemo;
-            michal = new Array(3);
-            michal[0] = golfie;
-            michal[1] = oscard;
-            michal[2] = report;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var5;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 6;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            var7 = var3.bind(var4)();
+            var _closure2_slot2 = var7;
+            var4 = _closure1_slot3;
+            var3 = var4.useMemo;
+            var2 = new Array(3);
+            var2[0] = var7;
+            var2[1] = var6;
+            var2[2] = var5;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure2_slot0;
-                    tangon = !entity;
-                    if(!tangon) { _fun00004_ip = 20; continue _fun00003 }
+                    var1 = _closure2_slot0;
+                    var4 = !var1;
+                    if(!var4) { _fun0002_ip = 20; continue _fun0002 }
  13:
-                    entity = _closure2_slot1;
-                    tangon = !entity;
+                    var1 = _closure2_slot1;
+                    var4 = !var1;
  20:
-                    entity = {};
-                    oscard = _closure2_slot0;
-                    report = undefined;
-                    if(oscard) { _fun00004_ip = 49; continue _fun00003 }
+                    var1 = {};
+                    var6 = _closure2_slot0;
+                    var5 = undefined;
+                    if(var6) { _fun0002_ip = 49; continue _fun0002 }
  31:
-                    oscard = _closure2_slot1;
-                    report = undefined;
-                    if(oscard) { _fun00004_ip = 49; continue _fun00003 }
+                    var6 = _closure2_slot1;
+                    var5 = undefined;
+                    if(var6) { _fun0002_ip = 49; continue _fun0002 }
  40:
-                    oscard = _closure2_slot2;
-                    report = oscard.right;
+                    var6 = _closure2_slot2;
+                    var5 = var6.right;
  49:
-                    entity['paddingRight'] = report;
-                    michal = undefined;
-                    if(!tangon) { _fun00004_ip = 68; continue _fun00003 }
+                    var1['paddingRight'] = var5;
+                    var2 = undefined;
+                    if(!var4) { _fun0002_ip = 68; continue _fun0002 }
  59:
-                    zuuluu = _closure2_slot2;
-                    michal = zuuluu.left;
+                    var3 = _closure2_slot2;
+                    var2 = var3.left;
  68:
-                    entity['paddingLeft'] = michal;
-                    michal = 1;
-                    entity['flex'] = michal;
-                    return entity;
+                    var1['paddingLeft'] = var2;
+                    var2 = 1;
+                    var1['flex'] = var2;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

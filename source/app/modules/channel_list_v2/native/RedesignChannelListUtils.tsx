@@ -1,98 +1,98 @@
 // app/modules/channel_list_v2/native/RedesignChannelListUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/channel_list_v2/native/RedesignChannelListUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) {
-        entity = argBar;
-        michal = entity.height;
-        entity = argFoo;
-        entity['size'] = michal;
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/channel_list_v2/native/RedesignChannelListUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1, arg2) {
+        var1 = arg2;
+        var2 = var1.height;
+        var1 = arg1;
+        var1['size'] = var2;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['redesignChannelListOverrideItemLayout'] = tangon;
-    tangon = function(argFoo) {
-        entity = argFoo;
-        entity = entity.itemKey;
-        return entity;
+    var3['redesignChannelListOverrideItemLayout'] = var4;
+    var4 = function(arg1) {
+        var1 = arg1;
+        var1 = var1.itemKey;
+        return var1;
     };
-    zuuluu['redesignChannelListKeyExtractor'] = tangon;
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['redesignChannelListKeyExtractor'] = var4;
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.kind;
-            entity = 'channel';
-            if(!(entity !== zuuluu)) { _fun00002_ip = 158; continue _fun00001 }
+            var2 = arg1;
+            var3 = var2.kind;
+            var1 = 'channel';
+            if(!(var1 !== var3)) { _fun0001_ip = 158; continue _fun0001 }
  19:
-            zuuluu = michal.kind;
-            entity = 'sectionFooterVoice';
-            if(!(entity === zuuluu)) { _fun00002_ip = 52; continue _fun00001 }
+            var3 = var2.kind;
+            var1 = 'sectionFooterVoice';
+            if(!(var1 === var3)) { _fun0001_ip = 52; continue _fun0001 }
  34:
-            entity = michal.activeVoiceChannels;
-            zuuluu = entity.length;
-            entity = 1;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 115; continue _fun00001 }
+            var1 = var2.activeVoiceChannels;
+            var3 = var1.length;
+            var1 = 1;
+            if(!(var1 !== var3)) { _fun0001_ip = 115; continue _fun0001 }
  52:
-            zuuluu = michal.kind;
-            entity = 'sectionHeaderCategory';
-            if(!(entity !== zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
+            var3 = var2.kind;
+            var1 = 'sectionHeaderCategory';
+            if(!(var1 !== var3)) { _fun0001_ip = 74; continue _fun0001 }
  67:
-            entity = michal.kind;
-            _fun00002_ip = 113; continue _fun00001;
+            var1 = var2.kind;
+            _fun0001_ip = 113; continue _fun0001;
  74:
-            golfie = michal.kind;
-            oscard = michal.isFirstCategory;
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            report = zuuluu.concat;
-            tangon = '';
-            zuuluu = '-';
-            entity = report.bind(tangon)(golfie, zuuluu, oscard);
+            var7 = var2.kind;
+            var6 = var2.isFirstCategory;
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var5 = var3.concat;
+            var4 = '';
+            var3 = '-';
+            var1 = var5.bind(var4)(var7, var3, var6);
  113:
-            _fun00002_ip = 156; continue _fun00001;
+            _fun0001_ip = 156; continue _fun0001;
  115:
-            tangon = michal.activeVoiceChannels;
-            zuuluu = 0;
-            zuuluu = tangon[zuuluu];
-            report = zuuluu.type;
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            tangon = zuuluu.concat;
-            zuuluu = 'channel-';
-            entity = tangon.bind(zuuluu)(report);
+            var4 = var2.activeVoiceChannels;
+            var3 = 0;
+            var3 = var4[var3];
+            var5 = var3.type;
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = 'channel-';
+            var1 = var4.bind(var3)(var5);
  156:
-            _fun00002_ip = 201; continue _fun00001;
+            _fun0001_ip = 201; continue _fun0001;
  158:
-            oscard = michal.kind;
-            michal = michal.channel;
-            report = michal.type;
-            michal = global;
-            michal = michal.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = '';
-            michal = '-';
-            entity = tangon.bind(zuuluu)(oscard, michal, report);
+            var6 = var2.kind;
+            var2 = var2.channel;
+            var5 = var2.type;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = '-';
+            var1 = var4.bind(var3)(var6, var2, var5);
  201:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getRedesignChannelListItemType'] = michal;
-    return entity;
+    var3['getRedesignChannelListItemType'] = var2;
+    return var1;
 })();

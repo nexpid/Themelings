@@ -1,294 +1,294 @@
 // app/uikit-native/BotTag.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = golfie;
-    michal = function() { // Original name: getBotLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var13 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var7;
+    var2 = function getBotLabel() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = arguments[0];
-            oscard = undefined;
-            if(!(zuuluu === oscard)) { _fun00002_ip = 22; continue _fun00001 }
+            var3 = arguments[0];
+            var6 = undefined;
+            if(!(var3 === var6)) { _fun0001_ip = 22; continue _fun0001 }
  9:
-            entity = _closure1_slot4;
-            zuuluu = entity.BOT;
+            var1 = _closure1_slot4;
+            var3 = var1.BOT;
  22:
-            entity = _closure1_slot4;
-            entity = entity.SYSTEM_DM;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 197; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.SYSTEM_DM;
+            if(!(var1 !== var3)) { _fun0001_ip = 197; continue _fun0001 }
  42:
-            entity = _closure1_slot4;
-            entity = entity.OFFICIAL;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 197; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.OFFICIAL;
+            if(!(var1 !== var3)) { _fun0001_ip = 197; continue _fun0001 }
  59:
-            entity = _closure1_slot4;
-            entity = entity.SERVER;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 140; continue _fun00001 }
+            var1 = _closure1_slot4;
+            var1 = var1.SERVER;
+            if(!(var1 !== var3)) { _fun0001_ip = 140; continue _fun0001 }
  73:
-            entity = _closure1_slot4;
-            entity = entity.BOT;
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 7;
-            zuuluu = golfie[entity];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            entity = golfie[entity];
-            entity = report.bind(oscard)(entity);
-            entity = entity.t;
-            entity = entity.9RNkeH;
-            entity = zuuluu.bind(tangon)(entity);
-            _fun00002_ip = 252; continue _fun00001;
+            var1 = _closure1_slot4;
+            var1 = var1.BOT;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 7;
+            var3 = var7[var1];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var1 = var7[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.t;
+            var1 = var1.9RNkeH;
+            var1 = var3.bind(var4)(var1);
+            _fun0001_ip = 252; continue _fun0001;
  140:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 7;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(oscard)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.PuJGuL;
-            entity = tangon.bind(report)(zuuluu);
-            _fun00002_ip = 252; continue _fun00001;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 7;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.PuJGuL;
+            var1 = var4.bind(var5)(var3);
+            _fun0001_ip = 252; continue _fun0001;
  197:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 7;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            michal = michal.lKQ7Wl;
-            entity = zuuluu.bind(tangon)(michal);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.lKQ7Wl;
+            var1 = var3.bind(var4)(var2);
  252:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    kiloes = 1;
-    report = golfie[kiloes];
-    report = oscard.bind(entity)(report);
-    report = report.View;
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    backup = report.Fonts;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.BotTagTypes;
-    var _closure1_slot4 = report;
-    option = 4;
-    option = golfie[option];
-    option = oscard.bind(entity)(option);
-    verify = option.jsx;
-    var _closure1_slot5 = verify;
-    option = option.jsxs;
-    var _closure1_slot6 = option;
-    option = 5;
-    option = golfie[option];
-    offset = oscard.bind(entity)(option);
-    verify = offset.createStyles;
-    option = {};
-    yankee = {'height': 16, 'paddingLeft': 4, 'paddingRight': 4, 'borderRadius': null, 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center', 'gap': 1};
-    romeon = 6;
-    sizing = golfie[romeon];
-    sizing = foxtra.bind(entity)(sizing);
-    sizing = sizing.radii;
-    sizing = sizing.xs;
-    yankee['borderRadius'] = sizing;
-    option['tag'] = yankee;
-    yankee = {};
-    yankee['paddingLeft'] = kiloes;
-    option['verifiedTagLeftPadding'] = yankee;
-    yankee = {};
-    kiloes = golfie[romeon];
-    kiloes = foxtra.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.BG_BRAND;
-    yankee['backgroundColor'] = kiloes;
-    option['tagNormal'] = yankee;
-    yankee = {};
-    kiloes = golfie[romeon];
-    kiloes = foxtra.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.WHITE;
-    yankee['backgroundColor'] = kiloes;
-    option['tagInverted'] = yankee;
-    yankee = {};
-    kiloes = 12;
-    yankee['fontSize'] = kiloes;
-    backup = backup.PRIMARY_SEMIBOLD;
-    yankee['fontFamily'] = backup;
-    backup = golfie[romeon];
-    backup = foxtra.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.WHITE;
-    yankee['color'] = backup;
-    option['tagText'] = yankee;
-    yankee = {};
-    backup = golfie[romeon];
-    backup = foxtra.bind(entity)(backup);
-    backup = backup.colors;
-    backup = backup.WHITE;
-    yankee['color'] = backup;
-    option['tagTextNormal'] = yankee;
-    yankee = {};
-    romeon = golfie[romeon];
-    romeon = foxtra.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_BRAND;
-    yankee['color'] = romeon;
-    option['tagTextInverted'] = yankee;
-    option = verify.bind(offset)(option);
-    var _closure1_slot7 = option;
-    tangon = function(argFoo) { // Original name: BotTag
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var15 = 1;
+    var5 = var7[var15];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.View;
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var14 = var5.Fonts;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.BotTagTypes;
+    var _closure1_slot4 = var5;
+    var8 = 4;
+    var8 = var7[var8];
+    var8 = var6.bind(var1)(var8);
+    var9 = var8.jsx;
+    var _closure1_slot5 = var9;
+    var8 = var8.jsxs;
+    var _closure1_slot6 = var8;
+    var8 = 5;
+    var8 = var7[var8];
+    var10 = var6.bind(var1)(var8);
+    var9 = var10.createStyles;
+    var8 = {};
+    var11 = {'height': 16, 'paddingLeft': 4, 'paddingRight': 4, 'borderRadius': null, 'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center', 'gap': 1};
+    var12 = 6;
+    var16 = var7[var12];
+    var16 = var13.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.xs;
+    var11['borderRadius'] = var16;
+    var8['tag'] = var11;
+    var11 = {};
+    var11['paddingLeft'] = var15;
+    var8['verifiedTagLeftPadding'] = var11;
+    var11 = {};
+    var15 = var7[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BG_BRAND;
+    var11['backgroundColor'] = var15;
+    var8['tagNormal'] = var11;
+    var11 = {};
+    var15 = var7[var12];
+    var15 = var13.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.WHITE;
+    var11['backgroundColor'] = var15;
+    var8['tagInverted'] = var11;
+    var11 = {};
+    var15 = 12;
+    var11['fontSize'] = var15;
+    var14 = var14.PRIMARY_SEMIBOLD;
+    var11['fontFamily'] = var14;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.WHITE;
+    var11['color'] = var14;
+    var8['tagText'] = var11;
+    var11 = {};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.WHITE;
+    var11['color'] = var14;
+    var8['tagTextNormal'] = var11;
+    var11 = {};
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_BRAND;
+    var11['color'] = var12;
+    var8['tagTextInverted'] = var11;
+    var8 = var9.bind(var10)(var8);
+    var _closure1_slot7 = var8;
+    var4 = function BotTag(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.invertColor;
-            tangon = undefined;
-            if(!(entity === tangon)) { _fun00004_ip = 19; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.invertColor;
+            var4 = undefined;
+            if(!(var1 === var4)) { _fun0002_ip = 19; continue _fun0002 }
  17:
-            entity = false;
+            var1 = false;
  19:
-            report = michal.type;
-            if(!(report === tangon)) { _fun00004_ip = 41; continue _fun00003 }
+            var5 = var2.type;
+            if(!(var5 === var4)) { _fun0002_ip = 41; continue _fun0002 }
  28:
-            zuuluu = _closure1_slot4;
-            report = zuuluu.BOT;
+            var3 = _closure1_slot4;
+            var5 = var3.BOT;
  41:
-            romeon = michal.style;
-            michal = michal.verified;
-            zuuluu = _closure1_slot7;
-            offset = zuuluu.bind(tangon)();
-            zuuluu = _closure1_slot8;
-            verify = zuuluu.bind(tangon)(report);
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.OFFICIAL;
-            zuuluu = report === zuuluu;
-            golfie = report;
-            if(zuuluu) { _fun00004_ip = 106; continue _fun00003 }
+            var12 = var2.style;
+            var2 = var2.verified;
+            var3 = _closure1_slot7;
+            var10 = var3.bind(var4)();
+            var3 = _closure1_slot8;
+            var9 = var3.bind(var4)(var5);
+            var3 = _closure1_slot4;
+            var3 = var3.OFFICIAL;
+            var3 = var5 === var3;
+            var7 = var5;
+            if(var3) { _fun0002_ip = 106; continue _fun0002 }
  92:
-            report = _closure1_slot4;
-            report = report.SYSTEM_DM;
-            zuuluu = golfie === report;
+            var5 = _closure1_slot4;
+            var5 = var5.SYSTEM_DM;
+            var3 = var7 === var5;
  106:
-            if(michal) { _fun00004_ip = 112; continue _fun00003 }
+            if(var2) { _fun0002_ip = 112; continue _fun0002 }
  109:
-            michal = zuuluu;
+            var2 = var3;
  112:
-            option = null;
-            golfie = null;
-            if(!michal) { _fun00004_ip = 196; continue _fun00003 }
+            var8 = null;
+            var7 = null;
+            if(!var2) { _fun0002_ip = 196; continue _fun0002 }
  119:
-            report = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            backup = _closure1_slot2;
-            michal = 8;
-            michal = backup[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.CheckmarkSmallBoldIcon;
-            michal = {};
-            yankee = 'xs';
-            michal['size'] = yankee;
-            foxtra = _closure1_slot1;
-            yankee = 6;
-            yankee = backup[yankee];
-            yankee = foxtra.bind(tangon)(yankee);
-            yankee = yankee.colors;
-            yankee = yankee.WHITE;
-            michal['color'] = yankee;
-            golfie = report.bind(tangon)(zuuluu, michal);
+            var5 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var2 = 8;
+            var2 = var14[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.CheckmarkSmallBoldIcon;
+            var2 = {};
+            var11 = 'xs';
+            var2['size'] = var11;
+            var13 = _closure1_slot1;
+            var11 = 6;
+            var11 = var14[var11];
+            var11 = var13.bind(var4)(var11);
+            var11 = var11.colors;
+            var11 = var11.WHITE;
+            var2['color'] = var11;
+            var7 = var5.bind(var4)(var3, var2);
  196:
-            if(entity) { _fun00004_ip = 207; continue _fun00003 }
+            if(var1) { _fun0002_ip = 207; continue _fun0002 }
  199:
-            foxtra = offset.tagNormal;
-            _fun00004_ip = 213; continue _fun00003;
+            var13 = var10.tagNormal;
+            _fun0002_ip = 213; continue _fun0002;
  207:
-            foxtra = offset.tagInverted;
+            var13 = var10.tagInverted;
  213:
-            if(entity) { _fun00004_ip = 224; continue _fun00003 }
+            if(var1) { _fun0002_ip = 224; continue _fun0002 }
  216:
-            yankee = offset.tagTextNormal;
-            _fun00004_ip = 230; continue _fun00003;
+            var11 = var10.tagTextNormal;
+            _fun0002_ip = 230; continue _fun0002;
  224:
-            yankee = offset.tagTextInverted;
+            var11 = var10.tagTextInverted;
  230:
-            entity = option != golfie;
-            option = null;
-            if(!entity) { _fun00004_ip = 245; continue _fun00003 }
+            var1 = var8 != var7;
+            var8 = null;
+            if(!var1) { _fun0002_ip = 245; continue _fun0002 }
  239:
-            option = offset.verifiedTagLeftPadding;
+            var8 = var10.verifiedTagLeftPadding;
  245:
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot3;
-            entity = {};
-            backup = offset.tag;
-            report = new Array(4);
-            report[0] = backup;
-            report[1] = foxtra;
-            report[2] = romeon;
-            report[3] = option;
-            entity['style'] = report;
-            report = new Array(2);
-            report[0] = golfie;
-            option = _closure1_slot5;
-            golfie = _closure1_slot0;
-            romeon = _closure1_slot2;
-            oscard = 9;
-            oscard = romeon[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.LegacyText;
-            oscard = {};
-            romeon = 2;
-            oscard['maxFontSizeMultiplier'] = romeon;
-            romeon = offset.tagText;
-            offset = new Array(2);
-            offset[0] = romeon;
-            offset[1] = yankee;
-            oscard['style'] = offset;
-            oscard['children'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var14 = var10.tag;
+            var5 = new Array(4);
+            var5[0] = var14;
+            var5[1] = var13;
+            var5[2] = var12;
+            var5[3] = var8;
+            var1['style'] = var5;
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var6 = 9;
+            var6 = var12[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.LegacyText;
+            var6 = {};
+            var12 = 2;
+            var6['maxFontSizeMultiplier'] = var12;
+            var12 = var10.tagText;
+            var10 = new Array(2);
+            var10[0] = var12;
+            var10[1] = var11;
+            var6['style'] = var10;
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    tangon['Types'] = report;
-    report = 10;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'uikit-native/BotTag.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['getBotLabel'] = michal;
-    return entity;
+    var4['Types'] = var5;
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'uikit-native/BotTag.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['getBotLabel'] = var2;
+    return var1;
 })();

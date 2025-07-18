@@ -1,193 +1,193 @@
 // app/modules/message_request/hooks/useListHasSingleMessageRequest.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/message_request/hooks/useListHasSingleMessageRequest.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useListHasSingleMessageRequest
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/message_request/hooks/useListHasSingleMessageRequest.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useListHasSingleMessageRequest() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 3;
-            michal = oscard[michal];
-            tangon = undefined;
-            zuuluu = option.bind(tangon)(michal);
-            michal = zuuluu.useMessageRequestsCount;
-            zuuluu = michal.bind(zuuluu)();
-            var _closure2_slot0 = zuuluu;
-            verify = _closure1_slot3;
-            michal = verify.useRef;
-            michal = michal.bind(verify)(zuuluu);
-            var _closure2_slot1 = michal;
-            golfie = 4;
-            golfie = oscard[golfie];
-            yankee = option.bind(tangon)(golfie);
-            offset = yankee.useStateFromStores;
-            golfie = _closure1_slot4;
-            option = new Array(1);
-            option[0] = golfie;
-            golfie = function() {
-                michal = _closure1_slot4;
-                entity = michal.isReady;
-                entity = entity.bind(michal)();
-                return entity;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 3;
+            var2 = var6[var2];
+            var4 = undefined;
+            var3 = var8.bind(var4)(var2);
+            var2 = var3.useMessageRequestsCount;
+            var3 = var2.bind(var3)();
+            var _closure2_slot0 = var3;
+            var9 = _closure1_slot3;
+            var2 = var9.useRef;
+            var2 = var2.bind(var9)(var3);
+            var _closure2_slot1 = var2;
+            var7 = 4;
+            var7 = var6[var7];
+            var11 = var8.bind(var4)(var7);
+            var10 = var11.useStateFromStores;
+            var7 = _closure1_slot4;
+            var8 = new Array(1);
+            var8[0] = var7;
+            var7 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.isReady;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            offset = offset.bind(yankee)(option, golfie);
-            var _closure2_slot2 = offset;
-            golfie = verify.useRef;
-            golfie = golfie.bind(verify)(offset);
-            var _closure2_slot3 = golfie;
-            option = verify.useEffect;
-            golfie = new Array(2);
-            golfie[0] = offset;
-            golfie[1] = zuuluu;
-            report = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var10 = var10.bind(var11)(var8, var7);
+            var _closure2_slot2 = var10;
+            var7 = var9.useRef;
+            var7 = var7.bind(var9)(var10);
+            var _closure2_slot3 = var7;
+            var8 = var9.useEffect;
+            var7 = new Array(2);
+            var7[0] = var10;
+            var7[1] = var3;
+            var5 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot2;
-                    if(!michal) { _fun00004_ip = 22; continue _fun00003 }
+                    var2 = _closure2_slot2;
+                    if(!var2) { _fun0002_ip = 22; continue _fun0002 }
  10:
-                    zuuluu = _closure2_slot3;
-                    zuuluu = zuuluu.current;
-                    michal = !zuuluu;
+                    var3 = _closure2_slot3;
+                    var3 = var3.current;
+                    var2 = !var3;
  22:
-                    if(!michal) { _fun00004_ip = 51; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 51; continue _fun0002 }
  25:
-                    zuuluu = _closure2_slot3;
-                    michal = true;
-                    zuuluu['current'] = michal;
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot0;
-                    michal['current'] = entity;
+                    var3 = _closure2_slot3;
+                    var2 = true;
+                    var3['current'] = var2;
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var2['current'] = var1;
  51:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            report = option.bind(verify)(report, golfie);
-            report = _closure1_slot1;
-            entity = 5;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.bind(tangon)(michal);
-            michal = 1;
-            entity = entity <= michal;
-            if(!entity) { _fun00002_ip = 184; continue _fun00001 }
+            var5 = var8.bind(var9)(var5, var7);
+            var5 = _closure1_slot1;
+            var1 = 5;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.bind(var4)(var2);
+            var2 = 1;
+            var1 = var1 <= var2;
+            if(!var1) { _fun0001_ip = 184; continue _fun0001 }
  180:
-            entity = michal === zuuluu;
+            var1 = var2 === var3;
  184:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useListHasSingleMessageRequest'] = tangon;
-    michal = function() { // Original name: useListHasSingleSpamMessageRequest
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useListHasSingleMessageRequest'] = var4;
+    var2 = function useListHasSingleSpamMessageRequest() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 6;
-            michal = oscard[michal];
-            tangon = undefined;
-            zuuluu = option.bind(tangon)(michal);
-            michal = zuuluu.useSpamMessageRequestCount;
-            zuuluu = michal.bind(zuuluu)();
-            var _closure2_slot0 = zuuluu;
-            verify = _closure1_slot3;
-            michal = verify.useRef;
-            michal = michal.bind(verify)(zuuluu);
-            var _closure2_slot1 = michal;
-            golfie = 4;
-            golfie = oscard[golfie];
-            yankee = option.bind(tangon)(golfie);
-            offset = yankee.useStateFromStores;
-            golfie = _closure1_slot5;
-            option = new Array(1);
-            option[0] = golfie;
-            golfie = function() {
-                michal = _closure1_slot5;
-                entity = michal.isReady;
-                entity = entity.bind(michal)();
-                return entity;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var2 = var6[var2];
+            var4 = undefined;
+            var3 = var8.bind(var4)(var2);
+            var2 = var3.useSpamMessageRequestCount;
+            var3 = var2.bind(var3)();
+            var _closure2_slot0 = var3;
+            var9 = _closure1_slot3;
+            var2 = var9.useRef;
+            var2 = var2.bind(var9)(var3);
+            var _closure2_slot1 = var2;
+            var7 = 4;
+            var7 = var6[var7];
+            var11 = var8.bind(var4)(var7);
+            var10 = var11.useStateFromStores;
+            var7 = _closure1_slot5;
+            var8 = new Array(1);
+            var8[0] = var7;
+            var7 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.isReady;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            offset = offset.bind(yankee)(option, golfie);
-            var _closure2_slot2 = offset;
-            golfie = verify.useRef;
-            golfie = golfie.bind(verify)(offset);
-            var _closure2_slot3 = golfie;
-            option = verify.useEffect;
-            golfie = new Array(2);
-            golfie[0] = offset;
-            golfie[1] = zuuluu;
-            report = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var10 = var10.bind(var11)(var8, var7);
+            var _closure2_slot2 = var10;
+            var7 = var9.useRef;
+            var7 = var7.bind(var9)(var10);
+            var _closure2_slot3 = var7;
+            var8 = var9.useEffect;
+            var7 = new Array(2);
+            var7[0] = var10;
+            var7[1] = var3;
+            var5 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    michal = _closure2_slot2;
-                    if(!michal) { _fun00008_ip = 22; continue _fun00007 }
+                    var2 = _closure2_slot2;
+                    if(!var2) { _fun0004_ip = 22; continue _fun0004 }
  10:
-                    zuuluu = _closure2_slot3;
-                    zuuluu = zuuluu.current;
-                    michal = !zuuluu;
+                    var3 = _closure2_slot3;
+                    var3 = var3.current;
+                    var2 = !var3;
  22:
-                    if(!michal) { _fun00008_ip = 51; continue _fun00007 }
+                    if(!var2) { _fun0004_ip = 51; continue _fun0004 }
  25:
-                    zuuluu = _closure2_slot3;
-                    michal = true;
-                    zuuluu['current'] = michal;
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot0;
-                    michal['current'] = entity;
+                    var3 = _closure2_slot3;
+                    var2 = true;
+                    var3['current'] = var2;
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var2['current'] = var1;
  51:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            report = option.bind(verify)(report, golfie);
-            report = _closure1_slot1;
-            entity = 5;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.bind(tangon)(michal);
-            michal = 1;
-            entity = entity <= michal;
-            if(!entity) { _fun00006_ip = 184; continue _fun00005 }
+            var5 = var8.bind(var9)(var5, var7);
+            var5 = _closure1_slot1;
+            var1 = 5;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.bind(var4)(var2);
+            var2 = 1;
+            var1 = var1 <= var2;
+            if(!var1) { _fun0003_ip = 184; continue _fun0003 }
  180:
-            entity = michal === zuuluu;
+            var1 = var2 === var3;
  184:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useListHasSingleSpamMessageRequest'] = michal;
-    return entity;
+    var3['useListHasSingleSpamMessageRequest'] = var2;
+    return var1;
 })();

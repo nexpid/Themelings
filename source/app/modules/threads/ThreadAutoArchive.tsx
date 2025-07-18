@@ -1,223 +1,223 @@
 // app/modules/threads/ThreadAutoArchive.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = verify;
-    report = function() { // Original name: getAutoArchiveOptions
-        michal = {};
-        offset = _closure1_slot0;
-        oscard = _closure1_slot2;
-        golfie = 2;
-        zuuluu = oscard[golfie];
-        report = undefined;
-        zuuluu = offset.bind(report)(zuuluu);
-        option = zuuluu.intl;
-        tangon = option.string;
-        zuuluu = oscard[golfie];
-        zuuluu = offset.bind(report)(zuuluu);
-        zuuluu = zuuluu.t;
-        zuuluu = zuuluu.cs8A1d;
-        zuuluu = tangon.bind(option)(zuuluu);
-        michal['label'] = zuuluu;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        entity = oscard[zuuluu];
-        entity = tangon.bind(report)(entity);
-        entity = entity.Minutes;
-        entity = entity.HOUR;
-        michal['value'] = entity;
-        entity = new Array(4);
-        entity[0] = michal;
-        michal = {};
-        option = oscard[golfie];
-        option = offset.bind(report)(option);
-        yankee = option.intl;
-        verify = yankee.string;
-        option = oscard[golfie];
-        option = offset.bind(report)(option);
-        option = option.t;
-        option = option.zFKbrK;
-        option = verify.bind(yankee)(option);
-        michal['label'] = option;
-        option = oscard[zuuluu];
-        option = tangon.bind(report)(option);
-        option = option.Minutes;
-        option = option.DAY;
-        michal['value'] = option;
-        entity[1] = michal;
-        michal = {};
-        option = oscard[golfie];
-        option = offset.bind(report)(option);
-        yankee = option.intl;
-        verify = yankee.string;
-        option = oscard[golfie];
-        option = offset.bind(report)(option);
-        option = option.t;
-        option = option.TmPIZW;
-        option = verify.bind(yankee)(option);
-        michal['label'] = option;
-        option = oscard[zuuluu];
-        option = tangon.bind(report)(option);
-        option = option.Minutes;
-        verify = option.DAY;
-        option = 3;
-        option = option * verify;
-        michal['value'] = option;
-        entity[2] = michal;
-        michal = {};
-        option = oscard[golfie];
-        option = offset.bind(report)(option);
-        verify = option.intl;
-        option = verify.string;
-        golfie = oscard[golfie];
-        golfie = offset.bind(report)(golfie);
-        golfie = golfie.t;
-        golfie = golfie./7i2en;
-        golfie = option.bind(verify)(golfie);
-        michal['label'] = golfie;
-        zuuluu = oscard[zuuluu];
-        zuuluu = tangon.bind(report)(zuuluu);
-        zuuluu = zuuluu.Minutes;
-        zuuluu = zuuluu.WEEK;
-        michal['value'] = zuuluu;
-        entity[3] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var7 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var9;
+    var5 = function getAutoArchiveOptions() {
+        var2 = {};
+        var10 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var7 = 2;
+        var3 = var6[var7];
+        var5 = undefined;
+        var3 = var10.bind(var5)(var3);
+        var8 = var3.intl;
+        var4 = var8.string;
+        var3 = var6[var7];
+        var3 = var10.bind(var5)(var3);
+        var3 = var3.t;
+        var3 = var3.cs8A1d;
+        var3 = var4.bind(var8)(var3);
+        var2['label'] = var3;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var1 = var6[var3];
+        var1 = var4.bind(var5)(var1);
+        var1 = var1.Minutes;
+        var1 = var1.HOUR;
+        var2['value'] = var1;
+        var1 = new Array(4);
+        var1[0] = var2;
+        var2 = {};
+        var8 = var6[var7];
+        var8 = var10.bind(var5)(var8);
+        var11 = var8.intl;
+        var9 = var11.string;
+        var8 = var6[var7];
+        var8 = var10.bind(var5)(var8);
+        var8 = var8.t;
+        var8 = var8.zFKbrK;
+        var8 = var9.bind(var11)(var8);
+        var2['label'] = var8;
+        var8 = var6[var3];
+        var8 = var4.bind(var5)(var8);
+        var8 = var8.Minutes;
+        var8 = var8.DAY;
+        var2['value'] = var8;
+        var1[1] = var2;
+        var2 = {};
+        var8 = var6[var7];
+        var8 = var10.bind(var5)(var8);
+        var11 = var8.intl;
+        var9 = var11.string;
+        var8 = var6[var7];
+        var8 = var10.bind(var5)(var8);
+        var8 = var8.t;
+        var8 = var8.TmPIZW;
+        var8 = var9.bind(var11)(var8);
+        var2['label'] = var8;
+        var8 = var6[var3];
+        var8 = var4.bind(var5)(var8);
+        var8 = var8.Minutes;
+        var9 = var8.DAY;
+        var8 = 3;
+        var8 = var8 * var9;
+        var2['value'] = var8;
+        var1[2] = var2;
+        var2 = {};
+        var8 = var6[var7];
+        var8 = var10.bind(var5)(var8);
+        var9 = var8.intl;
+        var8 = var9.string;
+        var7 = var6[var7];
+        var7 = var10.bind(var5)(var7);
+        var7 = var7.t;
+        var7 = var7./7i2en;
+        var7 = var8.bind(var9)(var7);
+        var2['label'] = var7;
+        var3 = var6[var3];
+        var3 = var4.bind(var5)(var3);
+        var3 = var3.Minutes;
+        var3 = var3.WEEK;
+        var2['value'] = var3;
+        var1[3] = var2;
+        return var1;
     };
-    var _closure1_slot4 = report;
-    entity = global;
-    offset = entity.Object;
-    oscard = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = verify[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    tangon = tangon.DEFAULT_AUTO_ARCHIVE_DURATION;
-    var _closure1_slot3 = tangon;
-    yankee = 1;
-    tangon = verify[yankee];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Minutes;
-    tangon = tangon.HOUR;
-    tangon = yankee * tangon;
-    oscard = new Array(4);
-    oscard[0] = tangon;
-    tangon = verify[yankee];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Minutes;
-    tangon = tangon.DAY;
-    tangon = yankee * tangon;
-    oscard[1] = tangon;
-    tangon = verify[yankee];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Minutes;
-    offset = tangon.DAY;
-    tangon = 3;
-    offset = tangon * offset;
-    oscard[2] = offset;
-    offset = verify[yankee];
-    offset = golfie.bind(entity)(offset);
-    offset = offset.Minutes;
-    offset = offset.WEEK;
-    offset = yankee * offset;
-    oscard[3] = offset;
-    tangon = verify[tangon];
-    golfie = golfie.bind(entity)(tangon);
-    tangon = function() {
-        michal = _closure1_slot4;
-        entity = undefined;
-        zuuluu = michal.bind(entity)();
-        michal = zuuluu.map;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.value;
-            return entity;
+    var _closure1_slot4 = var5;
+    var1 = global;
+    var10 = var1.Object;
+    var6 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var9[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var4 = var4.DEFAULT_AUTO_ARCHIVE_DURATION;
+    var _closure1_slot3 = var4;
+    var11 = 1;
+    var4 = var9[var11];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.Minutes;
+    var4 = var4.HOUR;
+    var4 = var11 * var4;
+    var6 = new Array(4);
+    var6[0] = var4;
+    var4 = var9[var11];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.Minutes;
+    var4 = var4.DAY;
+    var4 = var11 * var4;
+    var6[1] = var4;
+    var4 = var9[var11];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.Minutes;
+    var10 = var4.DAY;
+    var4 = 3;
+    var10 = var4 * var10;
+    var6[2] = var10;
+    var10 = var9[var11];
+    var10 = var7.bind(var1)(var10);
+    var10 = var10.Minutes;
+    var10 = var10.WEEK;
+    var10 = var11 * var10;
+    var6[3] = var10;
+    var4 = var9[var4];
+    var7 = var7.bind(var1)(var4);
+    var4 = function() {
+        var2 = _closure1_slot4;
+        var1 = undefined;
+        var3 = var2.bind(var1)();
+        var2 = var3.map;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.value;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    tangon = golfie.bind(entity)(tangon);
-    golfie = 5;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/threads/ThreadAutoArchive.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['AUTO_ARCHIVE_OPTION_VALUES'] = oscard;
-    zuuluu['getAutoArchiveOptions'] = report;
-    zuuluu['getAutoArchiveDurations'] = tangon;
-    tangon = function(argFoo) { // Original name: getAutoArchiveDurationText
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4 = var7.bind(var1)(var4);
+    var7 = 5;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/threads/ThreadAutoArchive.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['AUTO_ARCHIVE_OPTION_VALUES'] = var6;
+    var3['getAutoArchiveOptions'] = var5;
+    var3['getAutoArchiveDurations'] = var4;
+    var4 = function getAutoArchiveDurationText(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            zuuluu = _closure1_slot4;
-            tangon = undefined;
-            oscard = zuuluu.bind(tangon)();
-            zuuluu = oscard.find;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.value;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var3 = _closure1_slot4;
+            var4 = undefined;
+            var6 = var3.bind(var4)();
+            var3 = var6.find;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.value;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            oscard = zuuluu.bind(oscard)(entity);
-            zuuluu = null;
-            golfie = zuuluu == oscard;
-            entity = undefined;
-            if(golfie) { _fun00002_ip = 53; continue _fun00001 }
+            var6 = var3.bind(var6)(var1);
+            var3 = null;
+            var7 = var3 == var6;
+            var1 = undefined;
+            if(var7) { _fun0001_ip = 53; continue _fun0001 }
  48:
-            entity = oscard.label;
+            var1 = var6.label;
  53:
-            if(!(zuuluu == entity)) { _fun00002_ip = 102; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 102; continue _fun0001 }
  57:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.duration;
-            michal = 'minutes';
-            zuuluu = zuuluu.bind(tangon)(report, michal);
-            michal = zuuluu.humanize;
-            entity = michal.bind(zuuluu)();
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.duration;
+            var2 = 'minutes';
+            var3 = var3.bind(var4)(var5, var2);
+            var2 = var3.humanize;
+            var1 = var2.bind(var3)();
  102:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAutoArchiveDurationText'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getAutoArchiveDuration
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getAutoArchiveDurationText'] = var4;
+    var2 = function getAutoArchiveDuration(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            entity = argBar;
-            michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 30; continue _fun00003 }
+            var4 = arg1;
+            var1 = arg2;
+            var2 = null;
+            if(!(var2 == var1)) { _fun0002_ip = 30; continue _fun0002 }
  12:
-            report = michal == tangon;
-            zuuluu = undefined;
-            if(report) { _fun00004_ip = 27; continue _fun00003 }
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0002_ip = 27; continue _fun0002 }
  21:
-            zuuluu = tangon.defaultAutoArchiveDuration;
+            var3 = var4.defaultAutoArchiveDuration;
  27:
-            entity = zuuluu;
+            var1 = var3;
  30:
-            if(!(michal == entity)) { _fun00004_ip = 41; continue _fun00003 }
+            if(!(var2 == var1)) { _fun0002_ip = 41; continue _fun0002 }
  34:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  41:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAutoArchiveDuration'] = michal;
-    return entity;
+    var3['getAutoArchiveDuration'] = var2;
+    return var1;
 })();

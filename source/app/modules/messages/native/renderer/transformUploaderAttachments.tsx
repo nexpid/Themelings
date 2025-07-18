@@ -1,305 +1,305 @@
 // app/modules/messages/native/renderer/transformUploaderAttachments.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AttachmentType;
-    var _closure1_slot2 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/transformUploaderAttachments.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: createUploaderAttachments
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AttachmentType;
+    var _closure1_slot2 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/transformUploaderAttachments.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function createUploaderAttachments(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.uploaderFile;
-            var _closure2_slot0 = entity;
-            tangon = michal.isFailedMessage;
-            var _closure2_slot1 = tangon;
-            michal = michal.shouldInlineAttachmentMedia;
-            var _closure2_slot2 = michal;
-            report = entity.items;
-            michal = null;
-            tangon = michal == report;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 67; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.uploaderFile;
+            var _closure2_slot0 = var1;
+            var4 = var2.isFailedMessage;
+            var _closure2_slot1 = var4;
+            var2 = var2.shouldInlineAttachmentMedia;
+            var _closure2_slot2 = var2;
+            var5 = var1.items;
+            var2 = null;
+            var4 = var2 == var5;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 67; continue _fun0001 }
  52:
-            tangon = report.map;
-            zuuluu = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = var5.map;
+            var3 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = argFoo;
-                    entity = report.filename;
-                    tangon = null;
-                    michal = tangon != entity;
-                    option = '';
-                    backup = option;
-                    if(!michal) { _fun00004_ip = 28; continue _fun00003 }
+                    var5 = arg1;
+                    var1 = var5.filename;
+                    var4 = null;
+                    var2 = var4 != var1;
+                    var8 = '';
+                    var14 = var8;
+                    if(!var2) { _fun0002_ip = 28; continue _fun0002 }
  25:
-                    backup = entity;
+                    var14 = var1;
  28:
-                    oscard = report.item;
-                    entity = oscard.originalUri;
-                    michal = tangon != entity;
-                    sizing = option;
-                    if(!michal) { _fun00004_ip = 52; continue _fun00003 }
+                    var6 = var5.item;
+                    var1 = var6.originalUri;
+                    var2 = var4 != var1;
+                    var16 = var8;
+                    if(!var2) { _fun0002_ip = 52; continue _fun0002 }
  49:
-                    sizing = entity;
+                    var16 = var1;
  52:
-                    golfie = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    entity = 1;
-                    offset = verify[entity];
-                    michal = undefined;
-                    yankee = golfie.bind(michal)(offset);
-                    offset = yankee.isImageFile;
-                    foxtra = offset.bind(yankee)(backup);
-                    offset = verify[entity];
-                    yankee = golfie.bind(michal)(offset);
-                    offset = yankee.isVideoFile;
-                    romeon = offset.bind(yankee)(backup);
-                    entity = verify[entity];
-                    golfie = golfie.bind(michal)(entity);
-                    entity = golfie.isAudioFile;
-                    yankee = entity.bind(golfie)(backup);
-                    entity = oscard.progress;
-                    golfie = tangon != entity;
-                    kiloes = 0;
-                    output = 0;
-                    if(!golfie) { _fun00004_ip = 148; continue _fun00003 }
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var1 = 1;
+                    var10 = var9[var1];
+                    var2 = undefined;
+                    var11 = var7.bind(var2)(var10);
+                    var10 = var11.isImageFile;
+                    var13 = var10.bind(var11)(var14);
+                    var10 = var9[var1];
+                    var11 = var7.bind(var2)(var10);
+                    var10 = var11.isVideoFile;
+                    var12 = var10.bind(var11)(var14);
+                    var1 = var9[var1];
+                    var7 = var7.bind(var2)(var1);
+                    var1 = var7.isAudioFile;
+                    var11 = var1.bind(var7)(var14);
+                    var1 = var6.progress;
+                    var7 = var4 != var1;
+                    var15 = 0;
+                    var17 = 0;
+                    if(!var7) { _fun0002_ip = 148; continue _fun0002 }
  145:
-                    output = entity;
+                    var17 = var1;
  148:
-                    golfie = oscard.compressionProgress;
-                    verify = tangon != golfie;
-                    entity = 0;
-                    if(!verify) { _fun00004_ip = 166; continue _fun00003 }
+                    var7 = var6.compressionProgress;
+                    var9 = var4 != var7;
+                    var1 = 0;
+                    if(!var9) { _fun0002_ip = 166; continue _fun0002 }
  163:
-                    entity = golfie;
+                    var1 = var7;
  166:
-                    verify = 0.7;
-                    result = verify;
-                    if(!(kiloes === entity)) { _fun00004_ip = 195; continue _fun00003 }
+                    var9 = 0.7;
+                    var18 = var9;
+                    if(!(var15 === var1)) { _fun0002_ip = 195; continue _fun0002 }
  183:
-                    golfie = output > kiloes;
-                    result = verify;
-                    if(!golfie) { _fun00004_ip = 195; continue _fun00003 }
+                    var7 = var17 > var15;
+                    var18 = var9;
+                    if(!var7) { _fun0002_ip = 195; continue _fun0002 }
  193:
-                    result = 0;
+                    var18 = 0;
  195:
-                    golfie = global;
-                    verify = golfie.Math;
-                    golfie = verify.floor;
-                    offset = entity * result;
-                    entity = 0.9;
-                    entity = entity - result;
-                    entity = output * entity;
-                    offset = offset + entity;
-                    entity = 10;
-                    entity = offset + entity;
-                    entity = golfie.bind(verify)(entity);
-                    verify = _closure2_slot1;
-                    if(!verify) { _fun00004_ip = 266; continue _fun00003 }
+                    var7 = global;
+                    var9 = var7.Math;
+                    var7 = var9.floor;
+                    var10 = var1 * var18;
+                    var1 = 0.9;
+                    var1 = var1 - var18;
+                    var1 = var17 * var1;
+                    var10 = var10 + var1;
+                    var1 = 10;
+                    var1 = var10 + var1;
+                    var1 = var7.bind(var9)(var1);
+                    var9 = _closure2_slot1;
+                    if(!var9) { _fun0002_ip = 266; continue _fun0002 }
  257:
-                    verify = 100;
-                    offset = undefined;
-                    if(!(verify === entity)) { _fun00004_ip = 269; continue _fun00003 }
+                    var9 = 100;
+                    var10 = undefined;
+                    if(!(var9 === var1)) { _fun0002_ip = 269; continue _fun0002 }
  266:
-                    offset = entity;
+                    var10 = var1;
  269:
-                    entity = {};
-                    entity['url'] = sizing;
-                    verify = undefined;
-                    if(!romeon) { _fun00004_ip = 283; continue _fun00003 }
+                    var1 = {};
+                    var1['url'] = var16;
+                    var9 = undefined;
+                    if(!var12) { _fun0002_ip = 283; continue _fun0002 }
  280:
-                    verify = sizing;
+                    var9 = var16;
  283:
-                    entity['videoUrl'] = verify;
-                    sizing = _closure1_slot0;
-                    output = _closure1_slot1;
-                    verify = 2;
-                    verify = output[verify];
-                    sizing = sizing.bind(michal)(verify);
-                    verify = sizing.getAttachmentObscurityDefaults;
-                    echoed = verify.bind(sizing)();
-                    update = entity;
-                    verify = copyDataProperties(update, echoed);
-                    verify = 'filename';
-                    entity[verify] = backup;
-                    verify = oscard.size;
-                    verify = tangon != verify;
-                    backup = option;
-                    if(!verify) { _fun00004_ip = 363; continue _fun00003 }
+                    var1['videoUrl'] = var9;
+                    var16 = _closure1_slot0;
+                    var17 = _closure1_slot1;
+                    var9 = 2;
+                    var9 = var17[var9];
+                    var16 = var16.bind(var2)(var9);
+                    var9 = var16.getAttachmentObscurityDefaults;
+                    var19 = var9.bind(var16)();
+                    var20 = var1;
+                    var9 = copyDataProperties(var20, var19);
+                    var9 = 'filename';
+                    var1[var9] = var14;
+                    var9 = var6.size;
+                    var9 = var4 != var9;
+                    var14 = var8;
+                    if(!var9) { _fun0002_ip = 363; continue _fun0002 }
  349:
-                    sizing = oscard.size;
-                    verify = sizing.toString;
-                    backup = verify.bind(sizing)();
+                    var16 = var6.size;
+                    var9 = var16.toString;
+                    var14 = var9.bind(var16)();
  363:
-                    verify = 'size';
-                    entity[verify] = backup;
-                    backup = false;
-                    verify = 'showDescription';
-                    entity[verify] = backup;
-                    verify = _closure2_slot2;
-                    backup = 0;
-                    if(!verify) { _fun00004_ip = 411; continue _fun00003 }
+                    var9 = 'size';
+                    var1[var9] = var14;
+                    var14 = false;
+                    var9 = 'showDescription';
+                    var1[var9] = var14;
+                    var9 = _closure2_slot2;
+                    var14 = 0;
+                    if(!var9) { _fun0002_ip = 411; continue _fun0002 }
  392:
-                    verify = oscard.width;
-                    verify = tangon != verify;
-                    backup = 0;
-                    if(!verify) { _fun00004_ip = 411; continue _fun00003 }
+                    var9 = var6.width;
+                    var9 = var4 != var9;
+                    var14 = 0;
+                    if(!var9) { _fun0002_ip = 411; continue _fun0002 }
  406:
-                    backup = oscard.width;
+                    var14 = var6.width;
  411:
-                    verify = 'width';
-                    entity[verify] = backup;
-                    verify = _closure2_slot2;
-                    backup = 0;
-                    if(!verify) { _fun00004_ip = 448; continue _fun00003 }
+                    var9 = 'width';
+                    var1[var9] = var14;
+                    var9 = _closure2_slot2;
+                    var14 = 0;
+                    if(!var9) { _fun0002_ip = 448; continue _fun0002 }
  429:
-                    verify = oscard.height;
-                    verify = tangon != verify;
-                    backup = 0;
-                    if(!verify) { _fun00004_ip = 448; continue _fun00003 }
+                    var9 = var6.height;
+                    var9 = var4 != var9;
+                    var14 = 0;
+                    if(!var9) { _fun0002_ip = 448; continue _fun0002 }
  443:
-                    backup = oscard.height;
+                    var14 = var6.height;
  448:
-                    verify = 'height';
-                    entity[verify] = backup;
-                    backup = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    output = 3;
-                    kiloes = verify[output];
-                    kiloes = backup.bind(michal)(kiloes);
-                    sizing = kiloes.intl;
-                    kiloes = sizing.string;
-                    verify = verify[output];
-                    verify = backup.bind(michal)(verify);
-                    verify = verify.t;
-                    if(romeon) { _fun00004_ip = 517; continue _fun00003 }
+                    var9 = 'height';
+                    var1[var9] = var14;
+                    var14 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var17 = 3;
+                    var15 = var9[var17];
+                    var15 = var14.bind(var2)(var15);
+                    var16 = var15.intl;
+                    var15 = var16.string;
+                    var9 = var9[var17];
+                    var9 = var14.bind(var2)(var9);
+                    var9 = var9.t;
+                    if(var12) { _fun0002_ip = 517; continue _fun0002 }
  504:
-                    backup = verify.IPzNKC;
-                    backup = kiloes.bind(sizing)(backup);
-                    _fun00004_ip = 528; continue _fun00003;
+                    var14 = var9.IPzNKC;
+                    var14 = var15.bind(var16)(var14);
+                    _fun0002_ip = 528; continue _fun0002;
  517:
-                    verify = verify.BEWw//;
-                    backup = kiloes.bind(sizing)(verify);
+                    var9 = var9.BEWw//;
+                    var14 = var15.bind(var16)(var9);
  528:
-                    verify = 'hint';
-                    entity[verify] = backup;
-                    backup = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    kiloes = verify[output];
-                    kiloes = backup.bind(michal)(kiloes);
-                    sizing = kiloes.intl;
-                    kiloes = sizing.string;
-                    verify = verify[output];
-                    verify = backup.bind(michal)(verify);
-                    verify = verify.t;
-                    if(romeon) { _fun00004_ip = 594; continue _fun00003 }
+                    var9 = 'hint';
+                    var1[var9] = var14;
+                    var14 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var15 = var9[var17];
+                    var15 = var14.bind(var2)(var15);
+                    var16 = var15.intl;
+                    var15 = var16.string;
+                    var9 = var9[var17];
+                    var9 = var14.bind(var2)(var9);
+                    var9 = var9.t;
+                    if(var12) { _fun0002_ip = 594; continue _fun0002 }
  581:
-                    backup = verify.fKyfcX;
-                    backup = kiloes.bind(sizing)(backup);
-                    _fun00004_ip = 605; continue _fun00003;
+                    var14 = var9.fKyfcX;
+                    var14 = var15.bind(var16)(var14);
+                    _fun0002_ip = 605; continue _fun0002;
  594:
-                    verify = verify./SCpvr;
-                    backup = kiloes.bind(sizing)(verify);
+                    var9 = var9./SCpvr;
+                    var14 = var15.bind(var16)(var9);
  605:
-                    verify = 'role';
-                    entity[verify] = backup;
-                    verify = _closure1_slot2;
-                    if(foxtra) { _fun00004_ip = 651; continue _fun00003 }
+                    var9 = 'role';
+                    var1[var9] = var14;
+                    var9 = _closure1_slot2;
+                    if(var13) { _fun0002_ip = 651; continue _fun0002 }
  621:
-                    if(romeon) { _fun00004_ip = 643; continue _fun00003 }
+                    if(var12) { _fun0002_ip = 643; continue _fun0002 }
  624:
-                    if(yankee) { _fun00004_ip = 635; continue _fun00003 }
+                    if(var11) { _fun0002_ip = 635; continue _fun0002 }
  627:
-                    yankee = verify.OTHER;
-                    _fun00004_ip = 641; continue _fun00003;
+                    var11 = var9.OTHER;
+                    _fun0002_ip = 641; continue _fun0002;
  635:
-                    yankee = verify.AUDIO;
+                    var11 = var9.AUDIO;
  641:
-                    _fun00004_ip = 649; continue _fun00003;
+                    _fun0002_ip = 649; continue _fun0002;
  643:
-                    yankee = verify.VIDEO;
+                    var11 = var9.VIDEO;
  649:
-                    _fun00004_ip = 657; continue _fun00003;
+                    _fun0002_ip = 657; continue _fun0002;
  651:
-                    yankee = verify.IMAGE;
+                    var11 = var9.IMAGE;
  657:
-                    verify = 'attachmentType';
-                    entity[verify] = yankee;
-                    verify = 'progress';
-                    entity[verify] = offset;
-                    golfie = _closure2_slot0;
-                    verify = golfie.id;
-                    golfie = 'uploaderId';
-                    entity[golfie] = verify;
-                    golfie = report.id;
-                    verify = tangon != golfie;
-                    if(!verify) { _fun00004_ip = 708; continue _fun00003 }
+                    var9 = 'attachmentType';
+                    var1[var9] = var11;
+                    var9 = 'progress';
+                    var1[var9] = var10;
+                    var7 = _closure2_slot0;
+                    var9 = var7.id;
+                    var7 = 'uploaderId';
+                    var1[var7] = var9;
+                    var7 = var5.id;
+                    var9 = var4 != var7;
+                    if(!var9) { _fun0002_ip = 708; continue _fun0002 }
  705:
-                    option = golfie;
+                    var8 = var7;
  708:
-                    golfie = 'uploaderItemId';
-                    entity[golfie] = option;
-                    option = oscard.durationSecs;
-                    golfie = 'durationSecs';
-                    entity[golfie] = option;
-                    golfie = oscard.waveform;
-                    oscard = 'waveform';
-                    entity[oscard] = golfie;
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot1;
-                    zuuluu = 4;
-                    zuuluu = golfie[zuuluu];
-                    zuuluu = oscard.bind(michal)(zuuluu);
-                    zuuluu = zuuluu.CloudUpload;
-                    oscard = report instanceof zuuluu;
-                    zuuluu = undefined;
-                    if(!oscard) { _fun00004_ip = 809; continue _fun00003 }
+                    var7 = 'uploaderItemId';
+                    var1[var7] = var8;
+                    var8 = var6.durationSecs;
+                    var7 = 'durationSecs';
+                    var1[var7] = var8;
+                    var7 = var6.waveform;
+                    var6 = 'waveform';
+                    var1[var6] = var7;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var3 = 4;
+                    var3 = var7[var3];
+                    var3 = var6.bind(var2)(var3);
+                    var3 = var3.CloudUpload;
+                    var6 = var5 instanceof var3;
+                    var3 = undefined;
+                    if(!var6) { _fun0002_ip = 809; continue _fun0002 }
  782:
-                    report = report.reactNativeFileIndex;
-                    tangon = tangon == report;
-                    michal = undefined;
-                    if(tangon) { _fun00004_ip = 806; continue _fun00003 }
+                    var5 = var5.reactNativeFileIndex;
+                    var4 = var4 == var5;
+                    var2 = undefined;
+                    if(var4) { _fun0002_ip = 806; continue _fun0002 }
  797:
-                    tangon = report.toString;
-                    michal = tangon.bind(report)();
+                    var4 = var5.toString;
+                    var2 = var4.bind(var5)();
  806:
-                    zuuluu = michal;
+                    var3 = var2;
  809:
-                    michal = 'id';
-                    entity[michal] = zuuluu;
-                    return entity;
+                    var2 = 'id';
+                    var1[var2] = var3;
+                    return var1;
                 }
             };
-            entity = tangon.bind(report)(zuuluu);
+            var1 = var4.bind(var5)(var3);
  67:
-            if(!(michal == entity)) { _fun00002_ip = 75; continue _fun00001 }
+            if(!(var2 == var1)) { _fun0001_ip = 75; continue _fun0001 }
  71:
-            entity = new Array(0);
+            var1 = new Array(0);
  75:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

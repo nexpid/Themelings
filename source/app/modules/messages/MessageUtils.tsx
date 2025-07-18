@@ -1,113 +1,113 @@
 // app/modules/messages/MessageUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/MessageUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: canViewPotentiallyNSFWChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/MessageUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function canViewPotentiallyNSFWChannel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot4;
-            entity = michal.getCurrentUser;
-            report = entity.bind(michal)();
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getChannel;
-            entity = argFoo;
-            golfie = michal.bind(zuuluu)(entity);
-            oscard = null;
-            entity = oscard != report;
-            if(!entity) { _fun00002_ip = 46; continue _fun00001 }
+            var2 = _closure1_slot4;
+            var1 = var2.getCurrentUser;
+            var5 = var1.bind(var2)();
+            var3 = _closure1_slot2;
+            var2 = var3.getChannel;
+            var1 = arg1;
+            var7 = var2.bind(var3)(var1);
+            var6 = null;
+            var1 = var6 != var5;
+            if(!var1) { _fun0001_ip = 46; continue _fun0001 }
  42:
-            entity = oscard != golfie;
+            var1 = var6 != var7;
  46:
-            if(!entity) { _fun00002_ip = 141; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 141; continue _fun0001 }
  49:
-            option = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = option.bind(michal)(zuuluu);
-            michal = zuuluu.isChannelNSFW;
-            michal = michal.bind(zuuluu)(golfie);
-            michal = !michal;
-            if(michal) { _fun00002_ip = 138; continue _fun00001 }
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var8.bind(var2)(var3);
+            var2 = var3.isChannelNSFW;
+            var2 = var2.bind(var3)(var7);
+            var2 = !var2;
+            if(var2) { _fun0001_ip = 138; continue _fun0001 }
  88:
-            zuuluu = report.nsfwAllowed;
-            zuuluu = oscard != zuuluu;
-            if(!zuuluu) { _fun00002_ip = 107; continue _fun00001 }
+            var3 = var5.nsfwAllowed;
+            var3 = var6 != var3;
+            if(!var3) { _fun0001_ip = 107; continue _fun0001 }
  101:
-            zuuluu = report.nsfwAllowed;
+            var3 = var5.nsfwAllowed;
  107:
-            if(!zuuluu) { _fun00002_ip = 135; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 135; continue _fun0001 }
  110:
-            oscard = _closure1_slot3;
-            report = oscard.didAgree;
-            tangon = golfie.getGuildId;
-            tangon = tangon.bind(golfie)();
-            zuuluu = report.bind(oscard)(tangon);
+            var6 = _closure1_slot3;
+            var5 = var6.didAgree;
+            var4 = var7.getGuildId;
+            var4 = var4.bind(var7)();
+            var3 = var5.bind(var6)(var4);
  135:
-            michal = zuuluu;
+            var2 = var3;
  138:
-            entity = michal;
+            var1 = var2;
  141:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canViewPotentiallyNSFWChannel'] = tangon;
-    michal = function(argFoo) { // Original name: getGuildIdFromMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['canViewPotentiallyNSFWChannel'] = var4;
+    var2 = function getGuildIdFromMessage(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getChannel;
-            entity = argFoo;
-            entity = entity.channel_id;
-            tangon = michal.bind(zuuluu)(entity);
-            zuuluu = null;
-            report = zuuluu == tangon;
-            michal = undefined;
-            if(report) { _fun00004_ip = 41; continue _fun00003 }
+            var3 = _closure1_slot2;
+            var2 = var3.getChannel;
+            var1 = arg1;
+            var1 = var1.channel_id;
+            var4 = var2.bind(var3)(var1);
+            var3 = null;
+            var5 = var3 == var4;
+            var2 = undefined;
+            if(var5) { _fun0002_ip = 41; continue _fun0002 }
  36:
-            michal = tangon.guild_id;
+            var2 = var4.guild_id;
  41:
-            zuuluu = zuuluu != michal;
-            entity = undefined;
-            if(!zuuluu) { _fun00004_ip = 53; continue _fun00003 }
+            var3 = var3 != var2;
+            var1 = undefined;
+            if(!var3) { _fun0002_ip = 53; continue _fun0002 }
  50:
-            entity = michal;
+            var1 = var2;
  53:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getGuildIdFromMessage'] = michal;
-    return entity;
+    var3['getGuildIdFromMessage'] = var2;
+    return var1;
 })();

@@ -1,101 +1,101 @@
 // app/modules/interaction_components/native/renderComponents.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    michal = function(argFoo) { // Original name: renderComponents
-        zuuluu = argFoo;
-        michal = zuuluu.map;
-        entity = function(argFoo, argBar) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var2 = function renderComponents(arg1) {
+        var3 = arg1;
+        var2 = var3.map;
+        var1 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                option = argFoo;
-                michal = argBar;
-                entity = michal.toString;
-                oscard = entity.bind(michal)();
-                zuuluu = option.type;
-                michal = _closure1_slot0;
-                entity = _closure1_slot2;
-                tangon = 2;
-                entity = entity[tangon];
-                report = undefined;
-                entity = michal.bind(report)(entity);
-                entity = entity.ComponentType;
-                entity = entity.ACTION_ROW;
-                if(!(entity !== zuuluu)) { _fun00002_ip = 141; continue _fun00001 }
+                var8 = arg1;
+                var2 = arg2;
+                var1 = var2.toString;
+                var6 = var1.bind(var2)();
+                var3 = var8.type;
+                var2 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var4 = 2;
+                var1 = var1[var4];
+                var5 = undefined;
+                var1 = var2.bind(var5)(var1);
+                var1 = var1.ComponentType;
+                var1 = var1.ACTION_ROW;
+                if(!(var1 !== var3)) { _fun0001_ip = 141; continue _fun0001 }
  61:
-                michal = _closure1_slot0;
-                entity = _closure1_slot2;
-                entity = entity[tangon];
-                entity = michal.bind(report)(entity);
-                entity = entity.ComponentType;
-                michal = entity.TEXT_INPUT;
-                entity = undefined;
-                if(!(michal === zuuluu)) { _fun00002_ip = 197; continue _fun00001 }
+                var2 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var4];
+                var1 = var2.bind(var5)(var1);
+                var1 = var1.ComponentType;
+                var2 = var1.TEXT_INPUT;
+                var1 = undefined;
+                if(!(var2 === var3)) { _fun0001_ip = 197; continue _fun0001 }
  96:
-                tangon = _closure1_slot3;
-                zuuluu = _closure1_slot1;
-                verify = _closure1_slot2;
-                michal = 4;
-                michal = verify[michal];
-                zuuluu = zuuluu.bind(report)(michal);
-                michal = {};
-                romeon = michal;
-                yankee = option;
-                verify = copyDataProperties(romeon, yankee);
-                entity = tangon.bind(report)(zuuluu, michal, oscard);
-                _fun00002_ip = 197; continue _fun00001;
+                var4 = _closure1_slot3;
+                var3 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var2 = 4;
+                var2 = var9[var2];
+                var3 = var3.bind(var5)(var2);
+                var2 = {};
+                var12 = var2;
+                var11 = var8;
+                var9 = copyDataProperties(var12, var11);
+                var1 = var4.bind(var5)(var3, var2, var6);
+                _fun0001_ip = 197; continue _fun0001;
  141:
-                tangon = _closure1_slot3;
-                zuuluu = _closure1_slot1;
-                verify = _closure1_slot2;
-                michal = 3;
-                michal = verify[michal];
-                zuuluu = zuuluu.bind(report)(michal);
-                michal = {};
-                romeon = michal;
-                yankee = option;
-                option = copyDataProperties(romeon, yankee);
-                option = _closure1_slot4;
-                golfie = 'renderComponents';
-                michal[golfie] = option;
-                entity = tangon.bind(report)(zuuluu, michal, oscard);
+                var4 = _closure1_slot3;
+                var3 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var2 = 3;
+                var2 = var9[var2];
+                var3 = var3.bind(var5)(var2);
+                var2 = {};
+                var12 = var2;
+                var11 = var8;
+                var8 = copyDataProperties(var12, var11);
+                var8 = _closure1_slot4;
+                var7 = 'renderComponents';
+                var2[var7] = var8;
+                var1 = var4.bind(var5)(var3, var2, var6);
  197:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interaction_components/native/renderComponents.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['renderComponents'] = michal;
-    return entity;
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interaction_components/native/renderComponents.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['renderComponents'] = var2;
+    return var1;
 })();

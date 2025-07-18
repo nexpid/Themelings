@@ -1,129 +1,129 @@
 // app/modules/polls/useVoteReactors.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DEFAULT_NUM_REACTION_USERS;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/polls/useVoteReactors.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useVoteReactors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DEFAULT_NUM_REACTION_USERS;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/polls/useVoteReactors.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVoteReactors(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            yankee = michal.channelId;
-            var _closure2_slot0 = yankee;
-            verify = michal.messageId;
-            var _closure2_slot1 = verify;
-            zuuluu = michal.reaction;
-            var _closure2_slot2 = zuuluu;
-            oscard = _closure1_slot0;
-            offset = _closure1_slot2;
-            tangon = 2;
-            report = offset[tangon];
-            tangon = undefined;
-            option = oscard.bind(tangon)(report);
-            golfie = option.useStateFromStores;
-            report = _closure1_slot3;
-            oscard = new Array(1);
-            oscard[0] = report;
-            report = new Array(3);
-            report[0] = yankee;
-            report[1] = verify;
-            verify = zuuluu.emoji;
-            report[2] = verify;
-            verify = _closure1_slot1;
-            michal = 4;
-            michal = offset[michal];
-            romeon = verify.bind(tangon)(michal);
-            backup = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var11 = var2.channelId;
+            var _closure2_slot0 = var11;
+            var9 = var2.messageId;
+            var _closure2_slot1 = var9;
+            var3 = var2.reaction;
+            var _closure2_slot2 = var3;
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var4 = 2;
+            var5 = var10[var4];
+            var4 = undefined;
+            var8 = var6.bind(var4)(var5);
+            var7 = var8.useStateFromStores;
+            var5 = _closure1_slot3;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = new Array(3);
+            var5[0] = var11;
+            var5[1] = var9;
+            var9 = var3.emoji;
+            var5[2] = var9;
+            var9 = _closure1_slot1;
+            var2 = 4;
+            var2 = var10[var2];
+            var12 = var9.bind(var4)(var2);
+            var14 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    option = _closure1_slot3;
-                    golfie = option.getReactions;
-                    oscard = _closure2_slot0;
-                    foxtra = _closure2_slot1;
-                    michal = _closure2_slot2;
-                    romeon = michal.emoji;
-                    yankee = _closure1_slot4;
-                    verify = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 3;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = verify.bind(entity)(michal);
-                    michal = michal.ReactionTypes;
-                    offset = michal.VOTE;
-                    kiloes = option;
-                    backup = oscard;
-                    oscard = kiloes[golfie](backup, foxtra, romeon, yankee, offset, verify);
-                    michal = global;
-                    zuuluu = michal.Array;
-                    michal = zuuluu.from;
-                    tangon = null;
-                    report = tangon == oscard;
-                    if(report) { _fun00004_ip = 113; continue _fun00003 }
+                    var8 = _closure1_slot3;
+                    var7 = var8.getReactions;
+                    var6 = _closure2_slot0;
+                    var13 = _closure2_slot1;
+                    var2 = _closure2_slot2;
+                    var12 = var2.emoji;
+                    var11 = _closure1_slot4;
+                    var9 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 3;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var9.bind(var1)(var2);
+                    var2 = var2.ReactionTypes;
+                    var10 = var2.VOTE;
+                    var15 = var8;
+                    var14 = var6;
+                    var6 = var15[var7](var14, var13, var12, var11, var10, var9);
+                    var2 = global;
+                    var3 = var2.Array;
+                    var2 = var3.from;
+                    var4 = null;
+                    var5 = var4 == var6;
+                    if(var5) { _fun0002_ip = 113; continue _fun0002 }
  104:
-                    report = oscard.values;
-                    entity = report.bind(oscard)();
+                    var5 = var6.values;
+                    var1 = var5.bind(var6)();
  113:
-                    if(!(tangon == entity)) { _fun00004_ip = 121; continue _fun00003 }
+                    if(!(var4 == var1)) { _fun0002_ip = 121; continue _fun0002 }
  117:
-                    entity = new Array(0);
+                    var1 = new Array(0);
  121:
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 }
             };
-            sizing = option;
-            kiloes = oscard;
-            foxtra = report;
-            michal = sizing[golfie](kiloes, backup, foxtra, romeon, yankee);
-            entity = {};
-            entity['reactors'] = michal;
-            report = zuuluu.count_details;
-            zuuluu = null;
-            oscard = zuuluu == report;
-            if(oscard) { _fun00002_ip = 161; continue _fun00001 }
+            var16 = var8;
+            var15 = var6;
+            var13 = var5;
+            var2 = var16[var7](var15, var14, var13, var12, var11);
+            var1 = {};
+            var1['reactors'] = var2;
+            var5 = var3.count_details;
+            var3 = null;
+            var6 = var3 == var5;
+            if(var6) { _fun0001_ip = 161; continue _fun0001 }
  155:
-            tangon = report.vote;
+            var4 = var5.vote;
  161:
-            report = zuuluu != tangon;
-            zuuluu = 0;
-            if(!report) { _fun00002_ip = 173; continue _fun00001 }
+            var5 = var3 != var4;
+            var3 = 0;
+            if(!var5) { _fun0001_ip = 173; continue _fun0001 }
  170:
-            zuuluu = tangon;
+            var3 = var4;
  173:
-            michal = michal.length;
-            michal = zuuluu > michal;
-            entity['hasMore'] = michal;
-            return entity;
+            var2 = var2.length;
+            var2 = var3 > var2;
+            var1['hasMore'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

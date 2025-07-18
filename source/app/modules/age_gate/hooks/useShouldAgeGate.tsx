@@ -1,128 +1,128 @@
 // app/modules/age_gate/hooks/useShouldAgeGate.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/age_gate/hooks/useShouldAgeGate.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/age_gate/hooks/useShouldAgeGate.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            option = 3;
-            report = michal[option];
-            oscard = undefined;
-            offset = tangon.bind(oscard)(report);
-            verify = offset.useStateFromStores;
-            report = _closure1_slot2;
-            golfie = new Array(1);
-            golfie[0] = report;
-            report = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getChannel;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var8 = 3;
+            var5 = var2[var8];
+            var6 = undefined;
+            var10 = var4.bind(var6)(var5);
+            var9 = var10.useStateFromStores;
+            var5 = _closure1_slot2;
+            var7 = new Array(1);
+            var7[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot2;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            report = verify.bind(offset)(golfie, report);
-            var _closure2_slot1 = report;
-            michal = michal[option];
-            verify = tangon.bind(oscard)(michal);
-            golfie = verify.useStateFromStores;
-            michal = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = michal;
-            michal = function() {
-                michal = _closure1_slot4;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var5 = var9.bind(var10)(var7, var5);
+            var _closure2_slot1 = var5;
+            var2 = var2[var8];
+            var9 = var4.bind(var6)(var2);
+            var7 = var9.useStateFromStores;
+            var2 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            michal = golfie.bind(verify)(tangon, michal);
-            tangon = null;
-            golfie = tangon == michal;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = var7.bind(var9)(var4, var2);
+            var4 = null;
+            var7 = var4 == var2;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 120; continue _fun0001 }
  114:
-            tangon = michal.nsfwAllowed;
+            var4 = var2.nsfwAllowed;
  120:
-            michal = true;
-            tangon = michal === tangon;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot1;
-            option = golfie[option];
-            verify = michal.bind(oscard)(option);
-            option = verify.useStateFromStores;
-            offset = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = offset;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = true;
+            var4 = var2 === var4;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var8 = var7[var8];
+            var9 = var2.bind(var6)(var8);
+            var8 = var9.useStateFromStores;
+            var10 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure1_slot3;
-                    michal = zuuluu.didAgree;
-                    report = _closure2_slot1;
-                    entity = null;
-                    report = entity == report;
-                    entity = undefined;
-                    if(report) { _fun00004_ip = 40; continue _fun00003 }
+                    var3 = _closure1_slot3;
+                    var2 = var3.didAgree;
+                    var5 = _closure2_slot1;
+                    var1 = null;
+                    var5 = var1 == var5;
+                    var1 = undefined;
+                    if(var5) { _fun0002_ip = 40; continue _fun0002 }
  31:
-                    tangon = _closure2_slot1;
-                    entity = tangon.guild_id;
+                    var4 = _closure2_slot1;
+                    var1 = var4.guild_id;
  40:
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 }
             };
-            zuuluu = option.bind(verify)(zuuluu, entity);
-            entity = 4;
-            entity = golfie[entity];
-            michal = michal.bind(oscard)(entity);
-            entity = michal.isChannelNSFW;
-            entity = entity.bind(michal)(report);
-            if(!entity) { _fun00002_ip = 209; continue _fun00001 }
+            var3 = var8.bind(var9)(var3, var1);
+            var1 = 4;
+            var1 = var7[var1];
+            var2 = var2.bind(var6)(var1);
+            var1 = var2.isChannelNSFW;
+            var1 = var1.bind(var2)(var5);
+            if(!var1) { _fun0001_ip = 209; continue _fun0001 }
  197:
-            michal = !tangon;
-            if(!tangon) { _fun00002_ip = 206; continue _fun00001 }
+            var2 = !var4;
+            if(!var4) { _fun0001_ip = 206; continue _fun0001 }
  203:
-            michal = !zuuluu;
+            var2 = !var3;
  206:
-            entity = michal;
+            var1 = var2;
  209:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldAgeGateChannel'] = michal;
-    return entity;
+    var3['useShouldAgeGateChannel'] = var2;
+    return var1;
 })();

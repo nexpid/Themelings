@@ -1,60 +1,60 @@
 // app/design/components/RedesignCompat/native/RedesignCompat.native.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    report = golfie[entity];
-    tangon = argCor;
-    entity = undefined;
-    option = tangon.bind(entity)(report);
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot0 = tangon;
-    report = option.createContext;
-    tangon = false;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot1 = tangon;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'design/components/RedesignCompat/native/RedesignCompat.native.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['RedesignCompatContext'] = tangon;
-    michal = function(argFoo) { // Original name: RedesignCompat
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var5 = var7[var1];
+    var4 = native4;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var5);
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot0 = var4;
+    var5 = var8.createContext;
+    var4 = false;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot1 = var4;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'design/components/RedesignCompat/native/RedesignCompat.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['RedesignCompatContext'] = var4;
+    var2 = function RedesignCompat(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.children;
-            oscard = michal.enabled;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal.Provider;
-            michal = {};
-            report = null;
-            report = report == oscard;
-            if(report) { _fun00002_ip = 44; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.children;
+            var6 = var2.enabled;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2.Provider;
+            var2 = {};
+            var5 = null;
+            var5 = var5 == var6;
+            if(var5) { _fun0001_ip = 44; continue _fun0001 }
  41:
-            report = oscard;
+            var5 = var6;
  44:
-            michal['value'] = report;
-            michal['children'] = entity;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var2['value'] = var5;
+            var2['children'] = var1;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['RedesignCompat'] = michal;
-    return entity;
+    var3['RedesignCompat'] = var2;
+    return var1;
 })();

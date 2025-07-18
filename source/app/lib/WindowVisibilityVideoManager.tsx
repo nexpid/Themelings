@@ -1,315 +1,315 @@
 // app/lib/WindowVisibilityVideoManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot9 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot9 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    verify = entity.Object;
-    report = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = {};
-    report = 'window-visibility-changed';
-    tangon['WindowVisibilityChanged'] = report;
-    report = 'incoming-video-enabled-changed';
-    tangon['IncomingVideoEnabledChanged'] = report;
-    var _closure1_slot8 = tangon;
-    report = 11;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    michal = function(argFoo) {
-        tangon = function() { // Original name: WindowVisibilityVideoManager
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var5 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = {};
+    var5 = 'window-visibility-changed';
+    var4['WindowVisibilityChanged'] = var5;
+    var5 = 'incoming-video-enabled-changed';
+    var4['IncomingVideoEnabledChanged'] = var5;
+    var _closure1_slot8 = var4;
+    var5 = 11;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var2 = function(arg1) {
+        var4 = function WindowVisibilityVideoManager() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                oscard = this;
-                entity = _closure1_slot3;
-                report = _closure2_slot0;
-                tangon = undefined;
-                entity = entity.bind(tangon)(oscard, report);
-                entity = _closure1_slot6;
-                yankee = entity.bind(tangon)(report);
-                report = _closure1_slot5;
-                entity = _closure1_slot9;
-                entity = entity.bind(tangon)();
-                if(entity) { _fun00004_ip = 64; continue _fun00003 }
+                var6 = this;
+                var1 = _closure1_slot3;
+                var5 = _closure2_slot0;
+                var4 = undefined;
+                var1 = var1.bind(var4)(var6, var5);
+                var1 = _closure1_slot6;
+                var11 = var1.bind(var4)(var5);
+                var5 = _closure1_slot5;
+                var1 = _closure1_slot9;
+                var1 = var1.bind(var4)();
+                if(var1) { _fun0002_ip = 64; continue _fun0002 }
  51:
-                entity = yankee.apply;
-                entity = entity.bind(yankee)(oscard, tangon);
-                _fun00004_ip = 102; continue _fun00003;
+                var1 = var11.apply;
+                var1 = var1.bind(var11)(var6, var4);
+                _fun0002_ip = 102; continue _fun0002;
  64:
-                golfie = global;
-                offset = golfie.Reflect;
-                verify = offset.construct;
-                golfie = _closure1_slot6;
-                golfie = golfie.bind(tangon)(oscard);
-                option = golfie.constructor;
-                golfie = new Array(0);
-                entity = verify.bind(offset)(yankee, golfie, option);
+                var7 = global;
+                var10 = var7.Reflect;
+                var9 = var10.construct;
+                var7 = _closure1_slot6;
+                var7 = var7.bind(var4)(var6);
+                var8 = var7.constructor;
+                var7 = new Array(0);
+                var1 = var9.bind(var10)(var11, var7, var8);
  102:
-                entity = report.bind(tangon)(oscard, entity);
-                var _closure3_slot0 = entity;
-                golfie = _closure1_slot0;
-                report = _closure1_slot2;
-                oscard = 5;
-                oscard = report[oscard];
-                oscard = golfie.bind(tangon)(oscard);
-                oscard = oscard.Timeout;
-                golfie = oscard.prototype;
-                golfie = Object.create(golfie, {constructor: {value: oscard}});
-                kiloes = golfie;
-                oscard = new kiloes[oscard](backup);
-                oscard = oscard instanceof Object ? oscard : golfie;
-                entity['disableVideoTimer'] = oscard;
-                oscard = true;
-                entity['discordVisible'] = oscard;
-                entity['incomingVideoEnabled'] = oscard;
-                oscard = global;
-                golfie = oscard.performance;
-                oscard = golfie.now;
-                oscard = oscard.bind(golfie)();
-                entity['lastEnabledChange'] = oscard;
-                zuuluu = _closure1_slot1;
-                oscard = 6;
-                oscard = report[oscard];
-                option = zuuluu.bind(tangon)(oscard);
-                oscard = option.prototype;
-                golfie = Object.create(oscard, {constructor: {value: option}});
-                backup = 'WindowVisibilityVideoManager';
-                kiloes = golfie;
-                oscard = new kiloes[option](backup, foxtra);
-                oscard = oscard instanceof Object ? oscard : golfie;
-                entity['logger'] = oscard;
-                oscard = 7;
-                oscard = report[oscard];
-                oscard = zuuluu.bind(tangon)(oscard);
-                oscard = oscard.Millis;
-                golfie = oscard.SECOND;
-                oscard = 30;
-                oscard = oscard * golfie;
-                entity['HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS'] = oscard;
-                michal = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var1 = var5.bind(var4)(var6, var1);
+                var _closure3_slot0 = var1;
+                var7 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var6 = 5;
+                var6 = var5[var6];
+                var6 = var7.bind(var4)(var6);
+                var6 = var6.Timeout;
+                var7 = var6.prototype;
+                var7 = Object.create(var7, {constructor: {value: var6}});
+                var15 = var7;
+                var6 = new var15[var6](var14);
+                var6 = var6 instanceof Object ? var6 : var7;
+                var1['disableVideoTimer'] = var6;
+                var6 = true;
+                var1['discordVisible'] = var6;
+                var1['incomingVideoEnabled'] = var6;
+                var6 = global;
+                var7 = var6.performance;
+                var6 = var7.now;
+                var6 = var6.bind(var7)();
+                var1['lastEnabledChange'] = var6;
+                var3 = _closure1_slot1;
+                var6 = 6;
+                var6 = var5[var6];
+                var8 = var3.bind(var4)(var6);
+                var6 = var8.prototype;
+                var7 = Object.create(var6, {constructor: {value: var8}});
+                var14 = 'WindowVisibilityVideoManager';
+                var15 = var7;
+                var6 = new var15[var8](var14, var13);
+                var6 = var6 instanceof Object ? var6 : var7;
+                var1['logger'] = var6;
+                var6 = 7;
+                var6 = var5[var6];
+                var6 = var3.bind(var4)(var6);
+                var6 = var6.Millis;
+                var7 = var6.SECOND;
+                var6 = 30;
+                var6 = var6 * var7;
+                var1['HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS'] = var6;
+                var2 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = _closure3_slot0;
-                        report = entity.discordVisible;
-                        oscard = _closure1_slot1;
-                        entity = _closure1_slot2;
-                        golfie = 8;
-                        michal = entity[golfie];
-                        entity = undefined;
-                        michal = oscard.bind(entity)(michal);
-                        michal = michal.bind(entity)();
-                        if(!(report !== michal)) { _fun00006_ip = 178; continue _fun00005 }
+                        var1 = _closure3_slot0;
+                        var5 = var1.discordVisible;
+                        var6 = _closure1_slot1;
+                        var1 = _closure1_slot2;
+                        var7 = 8;
+                        var2 = var1[var7];
+                        var1 = undefined;
+                        var2 = var6.bind(var1)(var2);
+                        var2 = var2.bind(var1)();
+                        if(!(var5 !== var2)) { _fun0003_ip = 178; continue _fun0003 }
  49:
-                        michal = _closure3_slot0;
-                        oscard = _closure1_slot1;
-                        report = _closure1_slot2;
-                        report = report[golfie];
-                        report = oscard.bind(entity)(report);
-                        report = report.bind(entity)();
-                        michal['discordVisible'] = report;
-                        oscard = michal.emit;
-                        tangon = _closure1_slot8;
-                        report = tangon.WindowVisibilityChanged;
-                        tangon = michal.discordVisible;
-                        tangon = oscard.bind(michal)(report, tangon);
-                        michal = michal.discordVisible;
-                        tangon = _closure3_slot0;
-                        zuuluu = tangon.disableVideoTimer;
-                        if(michal) { _fun00006_ip = 155; continue _fun00005 }
+                        var2 = _closure3_slot0;
+                        var6 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var5 = var5[var7];
+                        var5 = var6.bind(var1)(var5);
+                        var5 = var5.bind(var1)();
+                        var2['discordVisible'] = var5;
+                        var6 = var2.emit;
+                        var4 = _closure1_slot8;
+                        var5 = var4.WindowVisibilityChanged;
+                        var4 = var2.discordVisible;
+                        var4 = var6.bind(var2)(var5, var4);
+                        var2 = var2.discordVisible;
+                        var4 = _closure3_slot0;
+                        var3 = var4.disableVideoTimer;
+                        if(var2) { _fun0003_ip = 155; continue _fun0003 }
  127:
-                        oscard = zuuluu.start;
-                        report = tangon.HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS;
-                        michal = function() {
-                            zuuluu = _closure3_slot0;
-                            michal = zuuluu.setIncomingVideoEnabled;
-                            entity = false;
-                            entity = michal.bind(zuuluu)(entity);
-                            entity = undefined;
-                            return entity;
+                        var6 = var3.start;
+                        var5 = var4.HIDDEN_WINDOW_DISABLE_VIDEO_DURATION_MS;
+                        var2 = function() {
+                            var3 = _closure3_slot0;
+                            var2 = var3.setIncomingVideoEnabled;
+                            var1 = false;
+                            var1 = var2.bind(var3)(var1);
+                            var1 = undefined;
+                            return var1;
                         };
-                        michal = oscard.bind(zuuluu)(report, michal);
-                        _fun00006_ip = 178; continue _fun00005;
+                        var2 = var6.bind(var3)(var5, var2);
+                        _fun0003_ip = 178; continue _fun0003;
  155:
-                        michal = zuuluu.stop;
-                        michal = michal.bind(zuuluu)();
-                        zuuluu = tangon.setIncomingVideoEnabled;
-                        michal = true;
-                        michal = zuuluu.bind(tangon)(michal);
+                        var2 = var3.stop;
+                        var2 = var2.bind(var3)();
+                        var3 = var4.setIncomingVideoEnabled;
+                        var2 = true;
+                        var2 = var3.bind(var4)(var2);
  178:
-                        return entity;
+                        return var1;
                     }
                 };
-                entity['update'] = michal;
-                michal = 9;
-                oscard = report[michal];
-                verify = zuuluu.bind(tangon)(oscard);
-                option = verify.subscribe;
-                golfie = entity.update;
-                oscard = 'WINDOW_VISIBILITY_CHANGE';
-                oscard = option.bind(verify)(oscard, golfie);
-                michal = report[michal];
-                option = zuuluu.bind(tangon)(michal);
-                golfie = option.subscribe;
-                oscard = entity.update;
-                michal = 'APP_STATE_UPDATE';
-                michal = golfie.bind(option)(michal, oscard);
-                michal = 10;
-                michal = report[michal];
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.addOnPipModeChangedListener;
-                michal = entity.update;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var1['update'] = var2;
+                var2 = 9;
+                var6 = var5[var2];
+                var9 = var3.bind(var4)(var6);
+                var8 = var9.subscribe;
+                var7 = var1.update;
+                var6 = 'WINDOW_VISIBILITY_CHANGE';
+                var6 = var8.bind(var9)(var6, var7);
+                var2 = var5[var2];
+                var8 = var3.bind(var4)(var2);
+                var7 = var8.subscribe;
+                var6 = var1.update;
+                var2 = 'APP_STATE_UPDATE';
+                var2 = var7.bind(var8)(var2, var6);
+                var2 = 10;
+                var2 = var5[var2];
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.addOnPipModeChangedListener;
+                var2 = var1.update;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot7;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot4;
-        report = {};
-        entity = 'isIncomingVideoEnabled';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            entity = this;
-            entity = entity.incomingVideoEnabled;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot7;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot4;
+        var5 = {};
+        var1 = 'isIncomingVideoEnabled';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = this;
+            var1 = var1.incomingVideoEnabled;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'lastIncomingVideoEnabledChangeTime';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = this;
-            entity = entity.lastEnabledChange;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'lastIncomingVideoEnabledChangeTime';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var1 = var1.lastEnabledChange;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'setIncomingVideoEnabled';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'setIncomingVideoEnabled';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                michal = argFoo;
-                tangon = this;
-                entity = tangon.incomingVideoEnabled;
-                tangon['incomingVideoEnabled'] = michal;
-                if(!(entity !== michal)) { _fun00008_ip = 120; continue _fun00007 }
+                var2 = arg1;
+                var4 = this;
+                var1 = var4.incomingVideoEnabled;
+                var4['incomingVideoEnabled'] = var2;
+                if(!(var1 !== var2)) { _fun0004_ip = 120; continue _fun0004 }
  22:
-                report = tangon.logger;
-                zuuluu = report.info;
-                golfie = tangon.incomingVideoEnabled;
-                entity = global;
-                michal = entity.HermesInternal;
-                oscard = michal.concat;
-                michal = 'Incoming video enabled changed, incomingVideoEnabled = ';
-                michal = oscard.bind(michal)(golfie);
-                michal = zuuluu.bind(report)(michal);
-                michal = entity.performance;
-                entity = michal.now;
-                entity = entity.bind(michal)();
-                tangon['lastEnabledChange'] = entity;
-                zuuluu = tangon.emit;
-                entity = _closure1_slot8;
-                michal = entity.IncomingVideoEnabledChanged;
-                entity = tangon.incomingVideoEnabled;
-                entity = zuuluu.bind(tangon)(michal, entity);
+                var5 = var4.logger;
+                var3 = var5.info;
+                var7 = var4.incomingVideoEnabled;
+                var1 = global;
+                var2 = var1.HermesInternal;
+                var6 = var2.concat;
+                var2 = 'Incoming video enabled changed, incomingVideoEnabled = ';
+                var2 = var6.bind(var2)(var7);
+                var2 = var3.bind(var5)(var2);
+                var2 = var1.performance;
+                var1 = var2.now;
+                var1 = var1.bind(var2)();
+                var4['lastEnabledChange'] = var1;
+                var3 = var4.emit;
+                var1 = _closure1_slot8;
+                var2 = var1.IncomingVideoEnabledChanged;
+                var1 = var4.incomingVideoEnabled;
+                var1 = var3.bind(var4)(var2, var1);
  120:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    michal = michal.bind(entity)(report);
-    report = michal.prototype;
-    report = Object.create(report, {constructor: {value: michal}});
-    foxtra = report;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : report;
-    report = 12;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'lib/WindowVisibilityVideoManager.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['WindowVisibilityEvent'] = tangon;
-    zuuluu['WindowVisibilityVideoManager'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var5);
+    var5 = var2.prototype;
+    var5 = Object.create(var5, {constructor: {value: var2}});
+    var13 = var5;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var5;
+    var5 = 12;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'lib/WindowVisibilityVideoManager.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['WindowVisibilityEvent'] = var4;
+    var3['WindowVisibilityVideoManager'] = var2;
+    return var1;
 })();

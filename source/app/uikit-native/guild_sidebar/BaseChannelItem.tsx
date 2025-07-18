@@ -1,574 +1,574 @@
 // app/uikit-native/guild_sidebar/BaseChannelItem.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    verify = argBar;
-    backup = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = backup;
-    var _closure1_slot2 = offset;
-    oscard = function(argFoo) { // Original name: BaseChannelSubtitle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var14 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var14;
+    var _closure1_slot2 = var10;
+    var6 = function BaseChannelSubtitle(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.mode;
-            golfie = entity.subtitle;
-            entity = _closure1_slot12;
-            report = undefined;
-            oscard = entity.bind(report)(zuuluu);
-            entity = null;
-            zuuluu = entity == golfie;
-            if(zuuluu) { _fun00002_ip = 105; continue _fun00001 }
+            var1 = arg1;
+            var3 = var1.mode;
+            var7 = var1.subtitle;
+            var1 = _closure1_slot12;
+            var5 = undefined;
+            var6 = var1.bind(var5)(var3);
+            var1 = null;
+            var3 = var1 == var7;
+            if(var3) { _fun0001_ip = 105; continue _fun0001 }
  37:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 6;
-            michal = option[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.Text;
-            michal = {'experimental_useNativeText': true, 'lineClamp': 1};
-            offset = michal;
-            verify = oscard;
-            oscard = copyDataProperties(offset, verify);
-            oscard = 'children';
-            michal[oscard] = golfie;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 6;
+            var2 = var8[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Text;
+            var2 = {'experimental_useNativeText': true, 'lineClamp': 1};
+            var10 = var2;
+            var9 = var6;
+            var6 = copyDataProperties(var10, var9);
+            var6 = 'children';
+            var2[var6] = var7;
+            var1 = var4.bind(var5)(var3, var2);
  105:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = oscard;
-    report = function(argFoo) { // Original name: useChannelNameTextProps
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var6;
+    var5 = function useChannelNameTextProps(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.UNREAD_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 140; continue _fun00003 }
+            var2 = arg1;
+            var3 = _closure1_slot9;
+            var3 = var3.UNREAD_IMPORTANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 140; continue _fun0002 }
  20:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.RELEVANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 140; continue _fun00003 }
+            var3 = _closure1_slot9;
+            var3 = var3.RELEVANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 140; continue _fun0002 }
  34:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.UNREAD_LESS_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 124; continue _fun00003 }
+            var3 = _closure1_slot9;
+            var3 = var3.UNREAD_LESS_IMPORTANT;
+            if(!(var2 !== var3)) { _fun0002_ip = 124; continue _fun0002 }
  48:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.MUTED;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 108; continue _fun00003 }
+            var3 = _closure1_slot9;
+            var3 = var3.MUTED;
+            if(!(var2 !== var3)) { _fun0002_ip = 108; continue _fun0002 }
  62:
-            entity = _closure1_slot9;
-            entity = entity.SELECTED;
-            if(!(michal !== entity)) { _fun00004_ip = 92; continue _fun00003 }
+            var1 = _closure1_slot9;
+            var1 = var1.SELECTED;
+            if(!(var2 !== var1)) { _fun0002_ip = 92; continue _fun0002 }
  76:
-            entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
-            _fun00004_ip = 106; continue _fun00003;
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
+            _fun0002_ip = 106; continue _fun0002;
  92:
-            entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-text'};
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-text'};
  106:
-            _fun00004_ip = 122; continue _fun00003;
+            _fun0002_ip = 122; continue _fun0002;
  108:
-            entity = {'variant': 'text-md/medium', 'color': 'interactive-muted'};
+            var1 = {'variant': 'text-md/medium', 'color': 'interactive-muted'};
  122:
-            _fun00004_ip = 138; continue _fun00003;
+            _fun0002_ip = 138; continue _fun0002;
  124:
-            entity = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
+            var1 = {'variant': 'text-md/medium', 'color': 'redesign-channel-name-muted-text'};
  138:
-            _fun00004_ip = 154; continue _fun00003;
+            _fun0002_ip = 154; continue _fun0002;
  140:
-            entity = {'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
+            var1 = {'variant': 'text-md/semibold', 'color': 'redesign-channel-name-text'};
  154:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot11 = report;
-    tangon = function(argFoo) { // Original name: getChannelSubtitleTextProps
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot11 = var5;
+    var4 = function getChannelSubtitleTextProps(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.UNREAD_IMPORTANT;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
+            var2 = arg1;
+            var3 = _closure1_slot9;
+            var3 = var3.UNREAD_IMPORTANT;
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  20:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.RELEVANT;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
+            var3 = _closure1_slot9;
+            var3 = var3.RELEVANT;
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  34:
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.SELECTED;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 94; continue _fun00005 }
+            var3 = _closure1_slot9;
+            var3 = var3.SELECTED;
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  48:
-            entity = _closure1_slot9;
-            entity = entity.MUTED;
-            if(!(michal !== entity)) { _fun00006_ip = 78; continue _fun00005 }
+            var1 = _closure1_slot9;
+            var1 = var1.MUTED;
+            if(!(var2 !== var1)) { _fun0003_ip = 78; continue _fun0003 }
  62:
-            entity = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            _fun00006_ip = 92; continue _fun00005;
+            var1 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
+            _fun0003_ip = 92; continue _fun0003;
  78:
-            entity = {'variant': 'text-xs/medium', 'color': 'interactive-muted'};
+            var1 = {'variant': 'text-xs/medium', 'color': 'interactive-muted'};
  92:
-            _fun00006_ip = 108; continue _fun00005;
+            _fun0003_ip = 108; continue _fun0003;
  94:
-            entity = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
+            var1 = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
  108:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot12 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    option = yankee.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(yankee)(zuuluu, entity, golfie);
-    entity = 0;
-    option = offset[entity];
-    golfie = argCor;
-    entity = undefined;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = offset[golfie];
-    golfie = verify.bind(entity)(golfie);
-    golfie = golfie.View;
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = offset[golfie];
-    golfie = verify.bind(entity)(golfie);
-    golfie = golfie.UnreadSetting;
-    var _closure1_slot5 = golfie;
-    golfie = 3;
-    golfie = offset[golfie];
-    golfie = verify.bind(entity)(golfie);
-    option = golfie.jsx;
-    var _closure1_slot6 = option;
-    golfie = golfie.jsxs;
-    var _closure1_slot7 = golfie;
-    golfie = 4;
-    golfie = offset[golfie];
-    yankee = verify.bind(entity)(golfie);
-    option = yankee.createStyles;
-    golfie = {};
-    romeon = {};
-    foxtra = 6;
-    romeon['paddingHorizontal'] = foxtra;
-    golfie['rowPaddingNoIcon'] = romeon;
-    romeon = {};
-    foxtra = 5;
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.md;
-    romeon['borderRadius'] = kiloes;
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.BG_MOD_FAINT;
-    romeon['backgroundColor'] = kiloes;
-    golfie['rowSelected'] = romeon;
-    romeon = {};
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.md;
-    romeon['borderRadius'] = kiloes;
-    golfie['rowSelectedThemed'] = romeon;
-    romeon = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.BORDER_FAINT;
-    romeon['borderColor'] = kiloes;
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.radii;
-    kiloes = kiloes.md;
-    romeon['borderRadius'] = kiloes;
-    golfie['selectedBorder'] = romeon;
-    romeon = {};
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.spacing;
-    kiloes = kiloes.PX_8;
-    kiloes = -kiloes;
-    romeon['left'] = kiloes;
-    golfie['unreadIndicator'] = romeon;
-    kiloes = 8;
-    romeon = {'width': 16, 'height': 16, 'marginRight': 8};
-    golfie['channelIcon'] = romeon;
-    romeon = {};
-    romeon['marginRight'] = kiloes;
-    golfie['redesignedChannelIcon'] = romeon;
-    romeon = {};
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.CHANNEL_ICON;
-    romeon['tintColor'] = kiloes;
-    golfie['channelIconNormal'] = romeon;
-    romeon = {};
-    kiloes = offset[foxtra];
-    kiloes = backup.bind(entity)(kiloes);
-    kiloes = kiloes.colors;
-    kiloes = kiloes.INTERACTIVE_ACTIVE;
-    romeon['tintColor'] = kiloes;
-    golfie['channelIconUnread'] = romeon;
-    romeon = {};
-    foxtra = offset[foxtra];
-    foxtra = backup.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.INTERACTIVE_MUTED;
-    romeon['tintColor'] = foxtra;
-    golfie['channelIconMuted'] = romeon;
-    romeon = {'paddingHorizontal': 8, 'paddingVertical': 8, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
-    golfie['channel'] = romeon;
-    romeon = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'stretch', 'justifyContent': 'center'};
-    golfie['channelNameContainer'] = romeon;
-    romeon = {'flexGrow': 1, 'textAlign': 'left'};
-    golfie['channelName'] = romeon;
-    golfie = option.bind(yankee)(golfie);
-    var _closure1_slot8 = golfie;
-    golfie = {};
-    option = 'Selected';
-    golfie['SELECTED'] = option;
-    option = 'Locked';
-    golfie['LOCKED'] = option;
-    option = 'Muted';
-    golfie['MUTED'] = option;
-    option = 'Relevant';
-    golfie['RELEVANT'] = option;
-    option = 'UnreadLessImportant';
-    golfie['UNREAD_LESS_IMPORTANT'] = option;
-    option = 'UnreadImportant';
-    golfie['UNREAD_IMPORTANT'] = option;
-    option = 'Default';
-    golfie['DEFAULT'] = option;
-    var _closure1_slot9 = golfie;
-    option = 11;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'uikit-native/guild_sidebar/BaseChannelItem.tsx';
-    option = verify.bind(offset)(option);
-    option = function(argFoo) { // Original name: BaseChannelItem
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot12 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var8 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var8 = var10[var1];
+    var7 = native4;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.View;
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.UnreadSetting;
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var8 = var7.jsx;
+    var _closure1_slot6 = var8;
+    var7 = var7.jsxs;
+    var _closure1_slot7 = var7;
+    var7 = 4;
+    var7 = var10[var7];
+    var11 = var9.bind(var1)(var7);
+    var8 = var11.createStyles;
+    var7 = {};
+    var12 = {};
+    var13 = 6;
+    var12['paddingHorizontal'] = var13;
+    var7['rowPaddingNoIcon'] = var12;
+    var12 = {};
+    var13 = 5;
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.md;
+    var12['borderRadius'] = var15;
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BG_MOD_FAINT;
+    var12['backgroundColor'] = var15;
+    var7['rowSelected'] = var12;
+    var12 = {};
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.md;
+    var12['borderRadius'] = var15;
+    var7['rowSelectedThemed'] = var12;
+    var12 = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0, 'borderWidth': 1};
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BORDER_FAINT;
+    var12['borderColor'] = var15;
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.radii;
+    var15 = var15.md;
+    var12['borderRadius'] = var15;
+    var7['selectedBorder'] = var12;
+    var12 = {};
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.spacing;
+    var15 = var15.PX_8;
+    var15 = -var15;
+    var12['left'] = var15;
+    var7['unreadIndicator'] = var12;
+    var15 = 8;
+    var12 = {'width': 16, 'height': 16, 'marginRight': 8};
+    var7['channelIcon'] = var12;
+    var12 = {};
+    var12['marginRight'] = var15;
+    var7['redesignedChannelIcon'] = var12;
+    var12 = {};
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.CHANNEL_ICON;
+    var12['tintColor'] = var15;
+    var7['channelIconNormal'] = var12;
+    var12 = {};
+    var15 = var10[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.INTERACTIVE_ACTIVE;
+    var12['tintColor'] = var15;
+    var7['channelIconUnread'] = var12;
+    var12 = {};
+    var13 = var10[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.INTERACTIVE_MUTED;
+    var12['tintColor'] = var13;
+    var7['channelIconMuted'] = var12;
+    var12 = {'paddingHorizontal': 8, 'paddingVertical': 8, 'flexDirection': 'row', 'alignItems': 'center', 'position': 'relative'};
+    var7['channel'] = var12;
+    var12 = {'flex': 1, 'flexDirection': 'column', 'alignItems': 'stretch', 'justifyContent': 'center'};
+    var7['channelNameContainer'] = var12;
+    var12 = {'flexGrow': 1, 'textAlign': 'left'};
+    var7['channelName'] = var12;
+    var7 = var8.bind(var11)(var7);
+    var _closure1_slot8 = var7;
+    var7 = {};
+    var8 = 'Selected';
+    var7['SELECTED'] = var8;
+    var8 = 'Locked';
+    var7['LOCKED'] = var8;
+    var8 = 'Muted';
+    var7['MUTED'] = var8;
+    var8 = 'Relevant';
+    var7['RELEVANT'] = var8;
+    var8 = 'UnreadLessImportant';
+    var7['UNREAD_LESS_IMPORTANT'] = var8;
+    var8 = 'UnreadImportant';
+    var7['UNREAD_IMPORTANT'] = var8;
+    var8 = 'Default';
+    var7['DEFAULT'] = var8;
+    var _closure1_slot9 = var7;
+    var8 = 11;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'uikit-native/guild_sidebar/BaseChannelItem.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function BaseChannelItem(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            golfie = argFoo;
-            foxtra = golfie.icon;
-            yankee = golfie.name;
-            echoed = golfie.mode;
-            var _closure2_slot0 = echoed;
-            romeon = golfie.hideIcon;
-            var _closure2_slot1 = romeon;
-            michal = golfie.disableHighlightOnPress;
-            tangon = undefined;
-            if(!(michal === tangon)) { _fun00008_ip = 48; continue _fun00007 }
+            var7 = arg1;
+            var13 = var7.icon;
+            var11 = var7.name;
+            var19 = var7.mode;
+            var _closure2_slot0 = var19;
+            var12 = var7.hideIcon;
+            var _closure2_slot1 = var12;
+            var2 = var7.disableHighlightOnPress;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0004_ip = 48; continue _fun0004 }
  46:
-            michal = false;
+            var2 = false;
  48:
-            offset = golfie.channelInfo;
-            report = golfie.children;
-            result = golfie.unread;
-            if(!(result === tangon)) { _fun00008_ip = 71; continue _fun00007 }
+            var10 = var7.channelInfo;
+            var5 = var7.children;
+            var18 = var7.unread;
+            if(!(var18 === var4)) { _fun0004_ip = 71; continue _fun0004 }
  69:
-            result = false;
+            var18 = false;
  71:
-            oscard = {'icon': 0, 'name': 0, 'mode': 0, 'hideIcon': 0, 'disableHighlightOnPress': 0, 'channelInfo': 0, 'children': 0, 'unread': 0};
-            vacuum = null;
-            sequen = oscard;
-            entity = silentSetPrototypeOf(sequen, vacuum);
-            sequen = {};
-            vacuum = golfie;
-            ctrled = oscard;
-            oscard = copyDataProperties(sequen, vacuum, ctrled);
-            var _closure2_slot2 = tangon;
-            golfie = _closure1_slot8;
-            update = golfie.bind(tangon)();
-            _closure2_slot2 = update;
-            verify = _closure1_slot3;
-            option = verify.useMemo;
-            golfie = new Array(3);
-            golfie[0] = romeon;
-            golfie[1] = echoed;
-            golfie[2] = update;
-            zuuluu = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var6 = {'icon': 0, 'name': 0, 'mode': 0, 'hideIcon': 0, 'disableHighlightOnPress': 0, 'channelInfo': 0, 'children': 0, 'unread': 0};
+            var23 = null;
+            var24 = var6;
+            var1 = silentSetPrototypeOf(var24, var23);
+            var24 = {};
+            var23 = var7;
+            var22 = var6;
+            var6 = copyDataProperties(var24, var23, var22);
+            var _closure2_slot2 = var4;
+            var7 = _closure1_slot8;
+            var20 = var7.bind(var4)();
+            _closure2_slot2 = var20;
+            var9 = _closure1_slot3;
+            var8 = var9.useMemo;
+            var7 = new Array(3);
+            var7[0] = var12;
+            var7[1] = var19;
+            var7[2] = var20;
+            var3 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    entity = _closure2_slot2;
-                    michal = entity.channel;
-                    entity = new Array(3);
-                    entity[0] = michal;
-                    michal = _closure2_slot1;
-                    if(!michal) { _fun00010_ip = 37; continue _fun00009 }
+                    var1 = _closure2_slot2;
+                    var2 = var1.channel;
+                    var1 = new Array(3);
+                    var1[0] = var2;
+                    var2 = _closure2_slot1;
+                    if(!var2) { _fun0005_ip = 37; continue _fun0005 }
  27:
-                    tangon = _closure2_slot2;
-                    michal = tangon.rowPaddingNoIcon;
+                    var4 = _closure2_slot2;
+                    var2 = var4.rowPaddingNoIcon;
  37:
-                    entity[1] = michal;
-                    tangon = _closure2_slot0;
-                    michal = _closure1_slot9;
-                    michal = michal.SELECTED;
-                    michal = tangon === michal;
-                    if(!michal) { _fun00010_ip = 75; continue _fun00009 }
+                    var1[1] = var2;
+                    var4 = _closure2_slot0;
+                    var2 = _closure1_slot9;
+                    var2 = var2.SELECTED;
+                    var2 = var4 === var2;
+                    if(!var2) { _fun0005_ip = 75; continue _fun0005 }
  65:
-                    zuuluu = _closure2_slot2;
-                    michal = zuuluu.rowSelected;
+                    var3 = _closure2_slot2;
+                    var2 = var3.rowSelected;
  75:
-                    entity[2] = michal;
-                    return entity;
+                    var1[2] = var2;
+                    return var1;
                 }
             };
-            verify = option.bind(verify)(zuuluu, golfie);
-            option = _closure1_slot7;
-            golfie = _closure1_slot4;
-            zuuluu = {};
-            zuuluu['style'] = verify;
-            verify = _closure1_slot9;
-            verify = verify.SELECTED;
-            backup = echoed === verify;
-            if(!backup) { _fun00008_ip = 220; continue _fun00007 }
+            var9 = var8.bind(var9)(var3, var7);
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot4;
+            var3 = {};
+            var3['style'] = var9;
+            var9 = _closure1_slot9;
+            var9 = var9.SELECTED;
+            var14 = var19 === var9;
+            if(!var14) { _fun0004_ip = 220; continue _fun0004 }
  194:
-            sizing = _closure1_slot6;
-            kiloes = _closure1_slot4;
-            verify = {};
-            output = update.selectedBorder;
-            verify['style'] = output;
-            backup = sizing.bind(tangon)(kiloes, verify);
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot4;
+            var9 = {};
+            var17 = var20.selectedBorder;
+            var9['style'] = var17;
+            var14 = var16.bind(var4)(var15, var9);
  220:
-            verify = new Array(5);
-            verify[0] = backup;
-            backup = !romeon;
-            if(!backup) { _fun00008_ip = 322; continue _fun00007 }
+            var9 = new Array(5);
+            var9[0] = var14;
+            var14 = !var12;
+            if(!var14) { _fun0004_ip = 322; continue _fun0004 }
  234:
-            output = _closure1_slot6;
-            sizing = _closure1_slot1;
-            source = _closure1_slot2;
-            kiloes = 8;
-            kiloes = source[kiloes];
-            sizing = sizing.bind(tangon)(kiloes);
-            kiloes = {};
-            update = update.unreadIndicator;
-            kiloes['style'] = update;
-            kiloes['unread'] = result;
-            result = _closure1_slot9;
-            result = result.UNREAD_LESS_IMPORTANT;
-            if(!(echoed !== result)) { _fun00008_ip = 301; continue _fun00007 }
+            var17 = _closure1_slot6;
+            var16 = _closure1_slot1;
+            var21 = _closure1_slot2;
+            var15 = 8;
+            var15 = var21[var15];
+            var16 = var16.bind(var4)(var15);
+            var15 = {};
+            var20 = var20.unreadIndicator;
+            var15['style'] = var20;
+            var15['unread'] = var18;
+            var18 = _closure1_slot9;
+            var18 = var18.UNREAD_LESS_IMPORTANT;
+            if(!(var19 !== var18)) { _fun0004_ip = 301; continue _fun0004 }
  289:
-            result = _closure1_slot5;
-            result = result.ALL_MESSAGES;
-            _fun00008_ip = 311; continue _fun00007;
+            var18 = _closure1_slot5;
+            var18 = var18.ALL_MESSAGES;
+            _fun0004_ip = 311; continue _fun0004;
  301:
-            echoed = _closure1_slot5;
-            result = echoed.ONLY_MENTIONS;
+            var19 = _closure1_slot5;
+            var18 = var19.ONLY_MENTIONS;
  311:
-            kiloes['resolvedUnreadSetting'] = result;
-            backup = output.bind(tangon)(sizing, kiloes);
+            var15['resolvedUnreadSetting'] = var18;
+            var14 = var17.bind(var4)(var16, var15);
  322:
-            verify[1] = backup;
-            romeon = !romeon;
-            if(!romeon) { _fun00008_ip = 335; continue _fun00007 }
+            var9[1] = var14;
+            var12 = !var12;
+            if(!var12) { _fun0004_ip = 335; continue _fun0004 }
  332:
-            romeon = foxtra;
+            var12 = var13;
  335:
-            verify[2] = romeon;
-            verify[3] = yankee;
-            verify[4] = offset;
-            zuuluu['children'] = verify;
-            golfie = option.bind(tangon)(golfie, zuuluu);
-            zuuluu = _closure1_slot7;
-            if(michal) { _fun00008_ip = 392; continue _fun00007 }
+            var9[2] = var12;
+            var9[3] = var11;
+            var9[4] = var10;
+            var3['children'] = var9;
+            var7 = var8.bind(var4)(var7, var3);
+            var3 = _closure1_slot7;
+            if(var2) { _fun0004_ip = 392; continue _fun0004 }
  364:
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            michal = 9;
-            michal = verify[michal];
-            michal = option.bind(tangon)(michal);
-            michal = michal.AnimatedPressableHighlight;
-            _fun00008_ip = 412; continue _fun00007;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 9;
+            var2 = var9[var2];
+            var2 = var8.bind(var4)(var2);
+            var2 = var2.AnimatedPressableHighlight;
+            _fun0004_ip = 412; continue _fun0004;
  392:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 10;
-            entity = verify[entity];
-            michal = option.bind(tangon)(entity);
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 10;
+            var1 = var9[var1];
+            var2 = var8.bind(var4)(var1);
  412:
-            entity = {};
-            sequen = entity;
-            vacuum = oscard;
-            oscard = copyDataProperties(sequen, vacuum);
-            oscard = new Array(2);
-            oscard[0] = golfie;
-            oscard[1] = report;
-            report = 'children';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = {};
+            var24 = var1;
+            var23 = var6;
+            var6 = copyDataProperties(var24, var23);
+            var6 = new Array(2);
+            var6[0] = var7;
+            var6[1] = var5;
+            var5 = 'children';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = option;
-    zuuluu['ChannelModes'] = golfie;
-    zuuluu['BaseChannelSubtitle'] = oscard;
-    oscard = function(argFoo) { // Original name: BaseChannelIcon
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['default'] = var8;
+    var3['ChannelModes'] = var7;
+    var3['BaseChannelSubtitle'] = var6;
+    var6 = function BaseChannelIcon(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            output = entity.disableColor;
-            zuuluu = entity.mode;
-            romeon = entity.source;
-            report = entity.IconComponent;
-            yankee = entity.style;
-            golfie = entity.isChannelLive;
-            entity = _closure1_slot8;
-            tangon = undefined;
-            oscard = entity.bind(tangon)();
-            entity = _closure1_slot9;
-            entity = entity.MUTED;
-            offset = zuuluu === entity;
-            entity = _closure1_slot9;
-            entity = entity.UNREAD_IMPORTANT;
-            option = zuuluu === entity;
-            entity = _closure1_slot9;
-            entity = entity.SELECTED;
-            verify = zuuluu === entity;
-            entity = oscard.channelIcon;
-            foxtra = new Array(1);
-            foxtra[0] = entity;
-            entity = true;
-            if(!(entity !== output)) { _fun00012_ip = 152; continue _fun00011 }
+            var1 = arg1;
+            var17 = var1.disableColor;
+            var3 = var1.mode;
+            var12 = var1.source;
+            var5 = var1.IconComponent;
+            var11 = var1.style;
+            var7 = var1.isChannelLive;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var6 = var1.bind(var4)();
+            var1 = _closure1_slot9;
+            var1 = var1.MUTED;
+            var10 = var3 === var1;
+            var1 = _closure1_slot9;
+            var1 = var1.UNREAD_IMPORTANT;
+            var8 = var3 === var1;
+            var1 = _closure1_slot9;
+            var1 = var1.SELECTED;
+            var9 = var3 === var1;
+            var1 = var6.channelIcon;
+            var13 = new Array(1);
+            var13[0] = var1;
+            var1 = true;
+            if(!(var1 !== var17)) { _fun0006_ip = 152; continue _fun0006 }
  111:
-            zuuluu = foxtra.push;
-            if(offset) { _fun00012_ip = 141; continue _fun00011 }
+            var3 = var13.push;
+            if(var10) { _fun0006_ip = 141; continue _fun0006 }
  119:
-            if(option) { _fun00012_ip = 133; continue _fun00011 }
+            if(var8) { _fun0006_ip = 133; continue _fun0006 }
  122:
-            if(verify) { _fun00012_ip = 133; continue _fun00011 }
+            if(var9) { _fun0006_ip = 133; continue _fun0006 }
  125:
-            entity = oscard.channelIconNormal;
-            _fun00012_ip = 139; continue _fun00011;
+            var1 = var6.channelIconNormal;
+            _fun0006_ip = 139; continue _fun0006;
  133:
-            entity = oscard.channelIconUnread;
+            var1 = var6.channelIconUnread;
  139:
-            _fun00012_ip = 147; continue _fun00011;
+            _fun0006_ip = 147; continue _fun0006;
  141:
-            entity = oscard.channelIconMuted;
+            var1 = var6.channelIconMuted;
  147:
-            entity = zuuluu.bind(foxtra)(entity);
+            var1 = var3.bind(var13)(var1);
  152:
-            entity = null;
-            if(!(entity != yankee)) { _fun00012_ip = 168; continue _fun00011 }
+            var1 = null;
+            if(!(var1 != var11)) { _fun0006_ip = 168; continue _fun0006 }
  158:
-            zuuluu = foxtra.push;
-            zuuluu = zuuluu.bind(foxtra)(yankee);
+            var3 = var13.push;
+            var3 = var3.bind(var13)(var11);
  168:
-            if(!(entity == report)) { _fun00012_ip = 244; continue _fun00011 }
+            if(!(var1 == var5)) { _fun0006_ip = 244; continue _fun0006 }
  172:
-            yankee = _closure1_slot6;
-            kiloes = _closure1_slot1;
-            sizing = _closure1_slot2;
-            backup = 7;
-            entity = sizing[backup];
-            zuuluu = kiloes.bind(tangon)(entity);
-            entity = {};
-            entity['disableColor'] = output;
-            backup = sizing[backup];
-            backup = kiloes.bind(tangon)(backup);
-            backup = backup.Sizes;
-            backup = backup.CUSTOM;
-            entity['size'] = backup;
-            entity['style'] = foxtra;
-            entity['source'] = romeon;
-            entity = yankee.bind(tangon)(zuuluu, entity);
-            _fun00012_ip = 320; continue _fun00011;
+            var11 = _closure1_slot6;
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var14 = 7;
+            var1 = var16[var14];
+            var3 = var15.bind(var4)(var1);
+            var1 = {};
+            var1['disableColor'] = var17;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.Sizes;
+            var14 = var14.CUSTOM;
+            var1['size'] = var14;
+            var1['style'] = var13;
+            var1['source'] = var12;
+            var1 = var11.bind(var4)(var3, var1);
+            _fun0006_ip = 320; continue _fun0006;
  244:
-            zuuluu = _closure1_slot6;
-            michal = {};
-            yankee = 'sm';
-            michal['size'] = yankee;
-            oscard = oscard.redesignedChannelIcon;
-            michal['style'] = oscard;
-            oscard = 'status-positive';
-            if(golfie) { _fun00012_ip = 310; continue _fun00011 }
+            var3 = _closure1_slot6;
+            var2 = {};
+            var11 = 'sm';
+            var2['size'] = var11;
+            var6 = var6.redesignedChannelIcon;
+            var2['style'] = var6;
+            var6 = 'status-positive';
+            if(var7) { _fun0006_ip = 310; continue _fun0006 }
  277:
-            golfie = 'interactive-muted';
-            if(offset) { _fun00012_ip = 307; continue _fun00011 }
+            var7 = 'interactive-muted';
+            if(var10) { _fun0006_ip = 307; continue _fun0006 }
  286:
-            if(option) { _fun00012_ip = 298; continue _fun00011 }
+            if(var8) { _fun0006_ip = 298; continue _fun0006 }
  289:
-            option = 'channel-icon';
-            if(!verify) { _fun00012_ip = 304; continue _fun00011 }
+            var8 = 'channel-icon';
+            if(!var9) { _fun0006_ip = 304; continue _fun0006 }
  298:
-            option = 'interactive-active';
+            var8 = 'interactive-active';
  304:
-            golfie = option;
+            var7 = var8;
  307:
-            oscard = golfie;
+            var6 = var7;
  310:
-            michal['color'] = oscard;
-            entity = zuuluu.bind(tangon)(report, michal);
+            var2['color'] = var6;
+            var1 = var3.bind(var4)(var5, var2);
  320:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['BaseChannelIcon'] = oscard;
-    zuuluu['useChannelNameTextProps'] = report;
-    zuuluu['getChannelSubtitleTextProps'] = tangon;
-    michal = function(argFoo) { // Original name: BaseChannelName
-        entity = argFoo;
-        offset = entity.mode;
-        romeon = entity.name;
-        verify = entity.subtitle;
-        yankee = entity.textStyle;
-        entity = _closure1_slot8;
-        tangon = undefined;
-        foxtra = entity.bind(tangon)();
-        zuuluu = _closure1_slot7;
-        michal = _closure1_slot4;
-        entity = {};
-        report = foxtra.channelNameContainer;
-        entity['style'] = report;
-        option = _closure1_slot6;
-        golfie = _closure1_slot0;
-        backup = _closure1_slot2;
-        report = 6;
-        report = backup[report];
-        report = golfie.bind(tangon)(report);
-        golfie = report.Text;
-        report = {};
-        backup = true;
-        report['experimental_useNativeText'] = backup;
-        backup = _closure1_slot11;
-        sizing = backup.bind(tangon)(offset);
-        output = report;
-        backup = copyDataProperties(output, sizing);
-        kiloes = 1;
-        backup = 'lineClamp';
-        report[backup] = kiloes;
-        backup = foxtra.channelName;
-        foxtra = new Array(2);
-        foxtra[0] = backup;
-        foxtra[1] = yankee;
-        yankee = 'style';
-        report[yankee] = foxtra;
-        yankee = 'children';
-        report[yankee] = romeon;
-        golfie = option.bind(tangon)(golfie, report);
-        report = new Array(2);
-        report[0] = golfie;
-        option = _closure1_slot6;
-        golfie = _closure1_slot10;
-        oscard = {};
-        oscard['mode'] = offset;
-        oscard['subtitle'] = verify;
-        oscard = option.bind(tangon)(golfie, oscard);
-        report[1] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['BaseChannelIcon'] = var6;
+    var3['useChannelNameTextProps'] = var5;
+    var3['getChannelSubtitleTextProps'] = var4;
+    var2 = function BaseChannelName(arg1) {
+        var1 = arg1;
+        var10 = var1.mode;
+        var12 = var1.name;
+        var9 = var1.subtitle;
+        var11 = var1.textStyle;
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var13 = var1.bind(var4)();
+        var3 = _closure1_slot7;
+        var2 = _closure1_slot4;
+        var1 = {};
+        var5 = var13.channelNameContainer;
+        var1['style'] = var5;
+        var8 = _closure1_slot6;
+        var7 = _closure1_slot0;
+        var14 = _closure1_slot2;
+        var5 = 6;
+        var5 = var14[var5];
+        var5 = var7.bind(var4)(var5);
+        var7 = var5.Text;
+        var5 = {};
+        var14 = true;
+        var5['experimental_useNativeText'] = var14;
+        var14 = _closure1_slot11;
+        var16 = var14.bind(var4)(var10);
+        var17 = var5;
+        var14 = copyDataProperties(var17, var16);
+        var15 = 1;
+        var14 = 'lineClamp';
+        var5[var14] = var15;
+        var14 = var13.channelName;
+        var13 = new Array(2);
+        var13[0] = var14;
+        var13[1] = var11;
+        var11 = 'style';
+        var5[var11] = var13;
+        var11 = 'children';
+        var5[var11] = var12;
+        var7 = var8.bind(var4)(var7, var5);
+        var5 = new Array(2);
+        var5[0] = var7;
+        var8 = _closure1_slot6;
+        var7 = _closure1_slot10;
+        var6 = {};
+        var6['mode'] = var10;
+        var6['subtitle'] = var9;
+        var6 = var8.bind(var4)(var7, var6);
+        var5[1] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['BaseChannelName'] = michal;
-    return entity;
+    var3['BaseChannelName'] = var2;
+    return var1;
 })();

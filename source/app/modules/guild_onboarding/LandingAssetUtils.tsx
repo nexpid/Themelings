@@ -1,123 +1,123 @@
 // app/modules/guild_onboarding/LandingAssetUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/guild_onboarding/LandingAssetUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo, argBar, argBaz) { // Original name: replaceFlagIconAndFlagColor
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        zuuluu = argBaz;
-        var _closure2_slot1 = zuuluu;
-        zuuluu = entity.assets;
-        tangon = 0;
-        report = zuuluu[tangon];
-        zuuluu = argBar;
-        report['p'] = zuuluu;
-        oscard = entity.layers;
-        report = oscard.findIndex;
-        zuuluu = function(argFoo) {
-            entity = argFoo;
-            michal = entity.nm;
-            entity = 'flag';
-            entity = entity === michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/guild_onboarding/LandingAssetUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function replaceFlagIconAndFlagColor(arg1, arg2, arg3) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var3 = arg3;
+        var _closure2_slot1 = var3;
+        var3 = var1.assets;
+        var4 = 0;
+        var5 = var3[var4];
+        var3 = arg2;
+        var5['p'] = var3;
+        var6 = var1.layers;
+        var5 = var6.findIndex;
+        var3 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.nm;
+            var1 = 'flag';
+            var1 = var1 === var2;
+            return var1;
         };
-        report = report.bind(oscard)(zuuluu);
-        var _closure2_slot2 = report;
-        zuuluu = entity.layers;
-        zuuluu = zuuluu[report];
-        zuuluu = zuuluu.shapes;
-        zuuluu = zuuluu[tangon];
-        tangon = zuuluu.it;
-        zuuluu = tangon.forEach;
-        michal = function(argFoo, argBar) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var5 = var5.bind(var6)(var3);
+        var _closure2_slot2 = var5;
+        var3 = var1.layers;
+        var3 = var3[var5];
+        var3 = var3.shapes;
+        var3 = var3[var4];
+        var4 = var3.it;
+        var3 = var4.forEach;
+        var2 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = argBar;
-                michal = _closure2_slot0;
-                report = michal.layers;
-                michal = _closure2_slot2;
-                michal = report[michal];
-                michal = michal.shapes;
-                report = 0;
-                michal = michal[report];
-                michal = michal.it;
-                michal = michal[tangon];
-                oscard = michal.ty;
-                michal = 'gr';
-                if(!(michal === oscard)) { _fun00002_ip = 229; continue _fun00001 }
+                var4 = arg2;
+                var2 = _closure2_slot0;
+                var5 = var2.layers;
+                var2 = _closure2_slot2;
+                var2 = var5[var2];
+                var2 = var2.shapes;
+                var5 = 0;
+                var2 = var2[var5];
+                var2 = var2.it;
+                var2 = var2[var4];
+                var6 = var2.ty;
+                var2 = 'gr';
+                if(!(var2 === var6)) { _fun0001_ip = 229; continue _fun0001 }
  64:
-                michal = _closure2_slot0;
-                oscard = michal.layers;
-                michal = _closure2_slot2;
-                michal = oscard[michal];
-                michal = michal.shapes;
-                michal = michal[report];
-                michal = michal.it;
-                michal = michal[tangon];
-                golfie = michal.it;
-                oscard = golfie.findIndex;
-                michal = function(argFoo) {
-                    entity = argFoo;
-                    michal = entity.ty;
-                    entity = 'fl';
-                    entity = entity === michal;
-                    return entity;
+                var2 = _closure2_slot0;
+                var6 = var2.layers;
+                var2 = _closure2_slot2;
+                var2 = var6[var2];
+                var2 = var2.shapes;
+                var2 = var2[var5];
+                var2 = var2.it;
+                var2 = var2[var4];
+                var7 = var2.it;
+                var6 = var7.findIndex;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.ty;
+                    var1 = 'fl';
+                    var1 = var1 === var2;
+                    return var1;
                 };
-                michal = oscard.bind(golfie)(michal);
-                if(!(michal >= report)) { _fun00002_ip = 229; continue _fun00001 }
+                var2 = var6.bind(var7)(var2);
+                if(!(var2 >= var5)) { _fun0001_ip = 229; continue _fun0001 }
  127:
-                michal = _closure2_slot0;
-                oscard = michal.layers;
-                michal = _closure2_slot2;
-                michal = oscard[michal];
-                michal = michal.shapes;
-                michal = michal[report];
-                michal = michal.it;
-                michal = michal[tangon];
-                michal = michal.it;
-                tangon = 1;
-                michal = michal[tangon];
-                michal = michal.c;
-                oscard = _closure2_slot1;
-                zuuluu = oscard.map;
-                entity = function(argFoo) {
-                    michal = argFoo;
-                    entity = 256;
-                    entity = michal / entity;
-                    return entity;
+                var2 = _closure2_slot0;
+                var6 = var2.layers;
+                var2 = _closure2_slot2;
+                var2 = var6[var2];
+                var2 = var2.shapes;
+                var2 = var2[var5];
+                var2 = var2.it;
+                var2 = var2[var4];
+                var2 = var2.it;
+                var4 = 1;
+                var2 = var2[var4];
+                var2 = var2.c;
+                var6 = _closure2_slot1;
+                var3 = var6.map;
+                var1 = function(arg1) {
+                    var2 = arg1;
+                    var1 = 256;
+                    var1 = var2 / var1;
+                    return var1;
                 };
-                verify = zuuluu.bind(oscard)(entity);
-                entity = new Array(1);
-                offset = entity;
-                option = 0;
-                zuuluu = arraySpread(offset, verify, option);
-                entity[zuuluu] = tangon;
-                zuuluu = zuuluu + tangon;
-                michal['k'] = entity;
+                var9 = var3.bind(var6)(var1);
+                var1 = new Array(1);
+                var10 = var1;
+                var8 = 0;
+                var3 = arraySpread(var10, var9, var8);
+                var1[var3] = var4;
+                var3 = var3 + var4;
+                var2['k'] = var1;
  229:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

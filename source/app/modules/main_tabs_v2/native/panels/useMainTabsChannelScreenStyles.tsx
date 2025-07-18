@@ -1,155 +1,155 @@
 // app/modules/main_tabs_v2/native/panels/useMainTabsChannelScreenStyles.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    offset = tangon.StyleSheet;
-    tangon = 2;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    foxtra = offset.absoluteFillObject;
-    backup = verify;
-    offset = copyDataProperties(backup, foxtra);
-    offset = 3;
-    yankee = oscard[offset];
-    offset = argBaz;
-    offset = offset.bind(entity)(yankee);
-    offset = offset.shadows;
-    foxtra = offset.SHADOW_LOW;
-    backup = verify;
-    offset = copyDataProperties(backup, foxtra);
-    tangon['elevation'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = {};
-    golfie = 'function useMainTabsChannelScreenStylesTsx1(){const{isDragging,translateX,maxWidth,elevationStyle}=this.__closure;const showBorder=isDragging.get()||translateX.get()!==0&&translateX.get()!==maxWidth;return{transform:[{translateX:translateX.get()}],shadowOpacity:showBorder?elevationStyle.shadowOpacity:0,elevation:showBorder?elevationStyle.elevation:0};}';
-    tangon['code'] = golfie;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/panels/useMainTabsChannelScreenStyles.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: useMainTabsChannelScreenStyles
-        yankee = argFoo;
-        offset = argBar;
-        verify = argBaz;
-        var _closure2_slot0 = yankee;
-        var _closure2_slot1 = offset;
-        var _closure2_slot2 = verify;
-        zuuluu = _closure1_slot3;
-        report = undefined;
-        oscard = zuuluu.bind(report)();
-        var _closure2_slot3 = oscard;
-        option = oscard.elevation;
-        var _closure2_slot4 = option;
-        tangon = _closure1_slot0;
-        golfie = _closure1_slot1;
-        zuuluu = 4;
-        zuuluu = golfie[zuuluu];
-        report = tangon.bind(report)(zuuluu);
-        tangon = report.useAnimatedStyle;
-        zuuluu = function() { // Original name: u
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var10 = var4.StyleSheet;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var13 = var10.absoluteFillObject;
+    var14 = var9;
+    var10 = copyDataProperties(var14, var13);
+    var10 = 3;
+    var11 = var6[var10];
+    var10 = native3;
+    var10 = var10.bind(var1)(var11);
+    var10 = var10.shadows;
+    var13 = var10.SHADOW_LOW;
+    var14 = var9;
+    var10 = copyDataProperties(var14, var13);
+    var4['elevation'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var4 = {};
+    var7 = 'function useMainTabsChannelScreenStylesTsx1(){const{isDragging,translateX,maxWidth,elevationStyle}=this.__closure;const showBorder=isDragging.get()||translateX.get()!==0&&translateX.get()!==maxWidth;return{transform:[{translateX:translateX.get()}],shadowOpacity:showBorder?elevationStyle.shadowOpacity:0,elevation:showBorder?elevationStyle.elevation:0};}';
+    var4['code'] = var7;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/panels/useMainTabsChannelScreenStyles.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMainTabsChannelScreenStyles(arg1, arg2, arg3) {
+        var11 = arg1;
+        var10 = arg2;
+        var9 = arg3;
+        var _closure2_slot0 = var11;
+        var _closure2_slot1 = var10;
+        var _closure2_slot2 = var9;
+        var3 = _closure1_slot3;
+        var5 = undefined;
+        var6 = var3.bind(var5)();
+        var _closure2_slot3 = var6;
+        var8 = var6.elevation;
+        var _closure2_slot4 = var8;
+        var4 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var3 = 4;
+        var3 = var7[var3];
+        var5 = var4.bind(var5)(var3);
+        var4 = var5.useAnimatedStyle;
+        var3 = function u() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = michal.get;
-                tangon = entity.bind(michal)();
-                if(tangon) { _fun00002_ip = 65; continue _fun00001 }
+                var2 = _closure2_slot0;
+                var1 = var2.get;
+                var4 = var1.bind(var2)();
+                if(var4) { _fun0001_ip = 65; continue _fun0001 }
  19:
-                michal = _closure2_slot1;
-                entity = michal.get;
-                michal = entity.bind(michal)();
-                entity = 0;
-                entity = entity !== michal;
-                if(!entity) { _fun00002_ip = 62; continue _fun00001 }
+                var2 = _closure2_slot1;
+                var1 = var2.get;
+                var2 = var1.bind(var2)();
+                var1 = 0;
+                var1 = var1 !== var2;
+                if(!var1) { _fun0001_ip = 62; continue _fun0001 }
  41:
-                report = _closure2_slot1;
-                michal = report.get;
-                report = michal.bind(report)();
-                michal = _closure2_slot2;
-                entity = report !== michal;
+                var5 = _closure2_slot1;
+                var2 = var5.get;
+                var5 = var2.bind(var5)();
+                var2 = _closure2_slot2;
+                var1 = var5 !== var2;
  62:
-                tangon = entity;
+                var4 = var1;
  65:
-                entity = {};
-                report = {};
-                oscard = _closure2_slot1;
-                michal = oscard.get;
-                michal = michal.bind(oscard)();
-                report['translateX'] = michal;
-                michal = new Array(1);
-                michal[0] = report;
-                entity['transform'] = michal;
-                report = 0;
-                if(!tangon) { _fun00002_ip = 114; continue _fun00001 }
+                var1 = {};
+                var5 = {};
+                var6 = _closure2_slot1;
+                var2 = var6.get;
+                var2 = var2.bind(var6)();
+                var5['translateX'] = var2;
+                var2 = new Array(1);
+                var2[0] = var5;
+                var1['transform'] = var2;
+                var5 = 0;
+                if(!var4) { _fun0001_ip = 114; continue _fun0001 }
  104:
-                oscard = _closure2_slot4;
-                report = oscard.shadowOpacity;
+                var6 = _closure2_slot4;
+                var5 = var6.shadowOpacity;
  114:
-                entity['shadowOpacity'] = report;
-                michal = 0;
-                if(!tangon) { _fun00002_ip = 134; continue _fun00001 }
+                var1['shadowOpacity'] = var5;
+                var2 = 0;
+                if(!var4) { _fun0001_ip = 134; continue _fun0001 }
  124:
-                zuuluu = _closure2_slot4;
-                michal = zuuluu.elevation;
+                var3 = _closure2_slot4;
+                var2 = var3.elevation;
  134:
-                entity['elevation'] = michal;
-                return entity;
+                var1['elevation'] = var2;
+                return var1;
             }
         };
-        golfie = {};
-        golfie['isDragging'] = yankee;
-        golfie['translateX'] = offset;
-        golfie['maxWidth'] = verify;
-        golfie['elevationStyle'] = option;
-        zuuluu['__closure'] = golfie;
-        golfie = 9545011275058.0;
-        zuuluu['__workletHash'] = golfie;
-        golfie = _closure1_slot4;
-        zuuluu['__initData'] = golfie;
-        report = tangon.bind(report)(zuuluu);
-        var _closure2_slot5 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            entity = _closure2_slot3;
-            zuuluu = entity.elevation;
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            michal = _closure2_slot5;
-            entity[1] = michal;
-            return entity;
+        var7 = {};
+        var7['isDragging'] = var11;
+        var7['translateX'] = var10;
+        var7['maxWidth'] = var9;
+        var7['elevationStyle'] = var8;
+        var3['__closure'] = var7;
+        var7 = 9545011275058.0;
+        var3['__workletHash'] = var7;
+        var7 = _closure1_slot4;
+        var3['__initData'] = var7;
+        var5 = var4.bind(var5)(var3);
+        var _closure2_slot5 = var5;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            var1 = _closure2_slot3;
+            var3 = var1.elevation;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var2 = _closure2_slot5;
+            var1[1] = var2;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useMainTabsChannelScreenStyles'] = michal;
-    return entity;
+    var3['useMainTabsChannelScreenStyles'] = var2;
+    return var1;
 })();

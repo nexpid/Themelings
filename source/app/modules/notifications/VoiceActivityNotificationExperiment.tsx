@@ -1,179 +1,179 @@
 // app/modules/notifications/VoiceActivityNotificationExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    foxtra = true;
-    tangon['value'] = foxtra;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    report = tangon.ChannelTypes;
-    var _closure1_slot0 = report;
-    tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    report = option[tangon];
-    offset = golfie.bind(entity)(report);
-    verify = offset.createExperiment;
-    report = {'kind': 'user', 'id': '2023-11_voice_activity_notification_user', 'label': 'Voice Activity Notifications for User'};
-    oscard = {};
-    romeon = false;
-    oscard['enabled'] = romeon;
-    report['defaultConfig'] = oscard;
-    oscard = {'id': 1, 'label': 'Voice Activity Notifications are enabled for user'};
-    yankee = {};
-    yankee['enabled'] = foxtra;
-    oscard['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = oscard;
-    backup = {'id': 2, 'label': 'Control for AA test. Voice Activity Notifications are NOT enabled for user.'};
-    oscard = 2;
-    kiloes = {};
-    kiloes['enabled'] = romeon;
-    backup['config'] = kiloes;
-    yankee[1] = backup;
-    report['treatments'] = yankee;
-    report = verify.bind(offset)(report);
-    var _closure1_slot2 = report;
-    tangon = option[tangon];
-    offset = golfie.bind(entity)(tangon);
-    verify = offset.createExperiment;
-    tangon = {'kind': 'guild', 'id': '2023-11_voice_activity_notification_guild', 'label': 'General Voice Channel Notifications for Guild'};
-    yankee = {};
-    yankee['voiceChannelActivityNotifsEnabled'] = romeon;
-    tangon['defaultConfig'] = yankee;
-    romeon = {'id': 2, 'label': 'Deadchat notifs disabled, voice channel activity notifs enabled'};
-    yankee = {};
-    yankee['voiceChannelActivityNotifsEnabled'] = foxtra;
-    romeon['config'] = yankee;
-    yankee = new Array(1);
-    yankee[0] = romeon;
-    tangon['treatments'] = yankee;
-    tangon = verify.bind(offset)(tangon);
-    var _closure1_slot3 = tangon;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/notifications/VoiceActivityNotificationExperiment.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['VoiceActivityNotificationUserExperiment'] = report;
-    zuuluu['VoiceActivityNotificationGuildExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: useVoiceActivityNotificationSettingsExperiment
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var13 = true;
+    var4['value'] = var13;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var5 = var4.ChannelTypes;
+    var _closure1_slot0 = var5;
+    var4 = var4.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var5 = var8[var4];
+    var10 = var7.bind(var1)(var5);
+    var9 = var10.createExperiment;
+    var5 = {'kind': 'user', 'id': '2023-11_voice_activity_notification_user', 'label': 'Voice Activity Notifications for User'};
+    var6 = {};
+    var12 = false;
+    var6['enabled'] = var12;
+    var5['defaultConfig'] = var6;
+    var6 = {'id': 1, 'label': 'Voice Activity Notifications are enabled for user'};
+    var11 = {};
+    var11['enabled'] = var13;
+    var6['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var6;
+    var14 = {'id': 2, 'label': 'Control for AA test. Voice Activity Notifications are NOT enabled for user.'};
+    var6 = 2;
+    var15 = {};
+    var15['enabled'] = var12;
+    var14['config'] = var15;
+    var11[1] = var14;
+    var5['treatments'] = var11;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot2 = var5;
+    var4 = var8[var4];
+    var10 = var7.bind(var1)(var4);
+    var9 = var10.createExperiment;
+    var4 = {'kind': 'guild', 'id': '2023-11_voice_activity_notification_guild', 'label': 'General Voice Channel Notifications for Guild'};
+    var11 = {};
+    var11['voiceChannelActivityNotifsEnabled'] = var12;
+    var4['defaultConfig'] = var11;
+    var12 = {'id': 2, 'label': 'Deadchat notifs disabled, voice channel activity notifs enabled'};
+    var11 = {};
+    var11['voiceChannelActivityNotifsEnabled'] = var13;
+    var12['config'] = var11;
+    var11 = new Array(1);
+    var11[0] = var12;
+    var4['treatments'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot3 = var4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/notifications/VoiceActivityNotificationExperiment.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['VoiceActivityNotificationUserExperiment'] = var5;
+    var3['VoiceActivityNotificationGuildExperiment'] = var4;
+    var4 = function useVoiceActivityNotificationSettingsExperiment(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            verify = _closure1_slot3;
-            option = verify.useExperiment;
-            golfie = {};
-            michal = 'useVoiceActivityNotificationSettingsExperiment';
-            golfie['location'] = michal;
-            oscard = null;
-            offset = oscard == report;
-            zuuluu = undefined;
-            if(offset) { _fun00002_ip = 47; continue _fun00001 }
+            var5 = arg1;
+            var9 = _closure1_slot3;
+            var8 = var9.useExperiment;
+            var7 = {};
+            var2 = 'useVoiceActivityNotificationSettingsExperiment';
+            var7['location'] = var2;
+            var6 = null;
+            var10 = var6 == var5;
+            var3 = undefined;
+            if(var10) { _fun0001_ip = 47; continue _fun0001 }
  37:
-            offset = report.getGuildId;
-            zuuluu = offset.bind(report)();
+            var10 = var5.getGuildId;
+            var3 = var10.bind(var5)();
  47:
-            if(!(oscard == zuuluu)) { _fun00002_ip = 55; continue _fun00001 }
+            if(!(var6 == var3)) { _fun0001_ip = 55; continue _fun0001 }
  51:
-            zuuluu = _closure1_slot1;
+            var3 = _closure1_slot1;
  55:
-            golfie['guildId'] = zuuluu;
-            zuuluu = {};
-            offset = oscard == report;
-            yankee = undefined;
-            if(offset) { _fun00002_ip = 75; continue _fun00001 }
+            var7['guildId'] = var3;
+            var3 = {};
+            var10 = var6 == var5;
+            var11 = undefined;
+            if(var10) { _fun0001_ip = 75; continue _fun0001 }
  70:
-            yankee = report.type;
+            var11 = var5.type;
  75:
-            offset = _closure1_slot0;
-            offset = offset.GUILD_VOICE;
-            offset = yankee !== offset;
-            zuuluu['disable'] = offset;
-            offset = false;
-            zuuluu['autoTrackExposure'] = offset;
-            zuuluu = option.bind(verify)(golfie, zuuluu);
-            zuuluu = zuuluu.voiceChannelActivityNotifsEnabled;
-            verify = _closure1_slot2;
-            option = verify.useExperiment;
-            golfie = {};
-            golfie['location'] = michal;
-            michal = {};
-            offset = oscard == report;
-            yankee = undefined;
-            if(offset) { _fun00002_ip = 145; continue _fun00001 }
+            var10 = _closure1_slot0;
+            var10 = var10.GUILD_VOICE;
+            var10 = var11 !== var10;
+            var3['disable'] = var10;
+            var10 = false;
+            var3['autoTrackExposure'] = var10;
+            var3 = var8.bind(var9)(var7, var3);
+            var3 = var3.voiceChannelActivityNotifsEnabled;
+            var9 = _closure1_slot2;
+            var8 = var9.useExperiment;
+            var7 = {};
+            var7['location'] = var2;
+            var2 = {};
+            var10 = var6 == var5;
+            var11 = undefined;
+            if(var10) { _fun0001_ip = 145; continue _fun0001 }
  140:
-            yankee = report.type;
+            var11 = var5.type;
  145:
-            offset = _closure1_slot0;
-            offset = offset.GUILD_VOICE;
-            offset = yankee !== offset;
-            if(offset) { _fun00002_ip = 165; continue _fun00001 }
+            var10 = _closure1_slot0;
+            var10 = var10.GUILD_VOICE;
+            var10 = var11 !== var10;
+            if(var10) { _fun0001_ip = 165; continue _fun0001 }
  162:
-            offset = !zuuluu;
+            var10 = !var3;
  165:
-            michal['disable'] = offset;
-            offset = true;
-            michal['autoTrackExposure'] = offset;
-            michal = option.bind(verify)(golfie, michal);
-            michal = michal.enabled;
-            oscard = oscard == report;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 202; continue _fun00001 }
+            var2['disable'] = var10;
+            var10 = true;
+            var2['autoTrackExposure'] = var10;
+            var2 = var8.bind(var9)(var7, var2);
+            var2 = var2.enabled;
+            var6 = var6 == var5;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 202; continue _fun0001 }
  197:
-            tangon = report.type;
+            var4 = var5.type;
  202:
-            entity = _closure1_slot0;
-            entity = entity.GUILD_VOICE;
-            entity = tangon === entity;
-            if(!entity) { _fun00002_ip = 222; continue _fun00001 }
+            var1 = _closure1_slot0;
+            var1 = var1.GUILD_VOICE;
+            var1 = var4 === var1;
+            if(!var1) { _fun0001_ip = 222; continue _fun0001 }
  219:
-            entity = zuuluu;
+            var1 = var3;
  222:
-            if(!entity) { _fun00002_ip = 228; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 228; continue _fun0001 }
  225:
-            entity = michal;
+            var1 = var2;
  228:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useVoiceActivityNotificationSettingsExperiment'] = tangon;
-    michal = function(argFoo) { // Original name: hasVoiceChannelActivityNotifsEnabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useVoiceActivityNotificationSettingsExperiment'] = var4;
+    var2 = function hasVoiceChannelActivityNotifsEnabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            option = argFoo;
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.getCurrentConfig;
-            entity = {};
-            oscard = null;
-            golfie = oscard == option;
-            tangon = undefined;
-            if(golfie) { _fun00004_ip = 39; continue _fun00003 }
+            var8 = arg1;
+            var3 = _closure1_slot3;
+            var2 = var3.getCurrentConfig;
+            var1 = {};
+            var6 = null;
+            var7 = var6 == var8;
+            var4 = undefined;
+            if(var7) { _fun0002_ip = 39; continue _fun0002 }
  29:
-            golfie = option.getGuildId;
-            tangon = golfie.bind(option)();
+            var7 = var8.getGuildId;
+            var4 = var7.bind(var8)();
  39:
-            if(!(oscard == tangon)) { _fun00004_ip = 47; continue _fun00003 }
+            if(!(var6 == var4)) { _fun0002_ip = 47; continue _fun0002 }
  43:
-            tangon = _closure1_slot1;
+            var4 = _closure1_slot1;
  47:
-            entity['guildId'] = tangon;
-            tangon = 'hasVoiceChannelActivityNotifsEnabled';
-            entity['location'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = entity.voiceChannelActivityNotifsEnabled;
-            return entity;
+            var1['guildId'] = var4;
+            var4 = 'hasVoiceChannelActivityNotifsEnabled';
+            var1['location'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.voiceChannelActivityNotifsEnabled;
+            return var1;
         }
     };
-    zuuluu['hasVoiceChannelActivityNotifsEnabled'] = michal;
-    return entity;
+    var3['hasVoiceChannelActivityNotifsEnabled'] = var2;
+    return var1;
 })();

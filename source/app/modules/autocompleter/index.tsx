@@ -1,57 +1,57 @@
 // app/modules/autocompleter/index.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        tangon = argBaz;
-        zuuluu = argFre;
-        report = argPlu;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, michal);
-        entity = 0;
-        michal = report[entity];
-        entity = undefined;
-        option = oscard.bind(entity)(michal);
-        golfie = option.fileFinishedImporting;
-        michal = 'modules/autocompleter/index.tsx';
-        michal = golfie.bind(option)(michal);
-        michal = 1;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        zuuluu['default'] = michal;
-        michal = 2;
-        michal = report[michal];
-        yankee = oscard.bind(entity)(michal);
-        verify = yankee;
-        for(michal in verify)
+        var6 = native2;
+        var4 = native3;
+        var3 = native6;
+        var5 = native7;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var2);
+        var1 = 0;
+        var2 = var5[var1];
+        var1 = undefined;
+        var8 = var6.bind(var1)(var2);
+        var7 = var8.fileFinishedImporting;
+        var2 = 'modules/autocompleter/index.tsx';
+        var2 = var7.bind(var8)(var2);
+        var2 = 1;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var3['default'] = var2;
+        var2 = 2;
+        var2 = var5[var2];
+        var11 = var6.bind(var1)(var2);
+        var9 = var11;
+        for(var2 in var9)
  114:
         {
  123:
-            foxtra = michal;
-            romeon = yankee[foxtra];
-            zuuluu[foxtra] = romeon;
-            _fun00002_ip = 114; continue _fun00001;
+            var13 = var2;
+            var12 = var11[var13];
+            var3[var13] = var12;
+            _fun0001_ip = 114; continue _fun0001;
         }
  136:
-        michal = 3;
-        michal = report[michal];
-        michal = oscard.bind(entity)(michal);
-        michal = michal.createHeaderResult;
-        zuuluu['createHeaderResult'] = michal;
-        michal = 4;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        zuuluu['findNextSelectedResult'] = michal;
-        michal = 5;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        zuuluu['sortByMatchScore'] = michal;
-        return entity;
+        var2 = 3;
+        var2 = var5[var2];
+        var2 = var6.bind(var1)(var2);
+        var2 = var2.createHeaderResult;
+        var3['createHeaderResult'] = var2;
+        var2 = 4;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var3['findNextSelectedResult'] = var2;
+        var2 = 5;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var3['sortByMatchScore'] = var2;
+        return var1;
     }
 })();

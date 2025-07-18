@@ -1,103 +1,103 @@
 // app/modules/multi_account/native/useMultiAccountMobile.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argCor;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/multi_account/native/useMultiAccountMobile.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useMultiAccountMobile
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native4;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/multi_account/native/useMultiAccountMobile.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMultiAccountMobile() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 1;
-            entity = zuuluu[entity];
-            tangon = undefined;
-            option = oscard.bind(tangon)(entity);
-            golfie = option.useStateFromStores;
-            entity = _closure1_slot3;
-            report = new Array(1);
-            report[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCanUseMultiAccountMobile;
-                entity = entity.bind(michal)();
-                return entity;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 1;
+            var1 = var3[var1];
+            var4 = undefined;
+            var8 = var6.bind(var4)(var1);
+            var7 = var8.useStateFromStores;
+            var1 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCanUseMultiAccountMobile;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            entity = golfie.bind(option)(report, entity);
-            report = 2;
-            zuuluu = zuuluu[report];
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            verify = zuuluu.MultiAccountMobileExperiment;
-            option = verify.useExperiment;
-            oscard = {};
-            zuuluu = '9fc8b9_1';
-            oscard['location'] = zuuluu;
-            zuuluu = {};
-            golfie = false;
-            zuuluu['autoTrackExposure'] = golfie;
-            zuuluu = option.bind(verify)(oscard, zuuluu);
-            oscard = zuuluu.isMultiAccountMobileEnabled;
-            zuuluu = zuuluu.clearCanUseMultiAccountMobile;
-            if(entity) { _fun00002_ip = 161; continue _fun00001 }
+            var1 = var7.bind(var8)(var5, var1);
+            var5 = 2;
+            var3 = var3[var5];
+            var3 = var6.bind(var4)(var3);
+            var9 = var3.MultiAccountMobileExperiment;
+            var8 = var9.useExperiment;
+            var6 = {};
+            var3 = '9fc8b9_1';
+            var6['location'] = var3;
+            var3 = {};
+            var7 = false;
+            var3['autoTrackExposure'] = var7;
+            var3 = var8.bind(var9)(var6, var3);
+            var6 = var3.isMultiAccountMobileEnabled;
+            var3 = var3.clearCanUseMultiAccountMobile;
+            if(var1) { _fun0001_ip = 161; continue _fun0001 }
  123:
-            if(!oscard) { _fun00002_ip = 161; continue _fun00001 }
+            if(!var6) { _fun0001_ip = 161; continue _fun0001 }
  126:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            oscard = 3;
-            oscard = verify[oscard];
-            verify = option.bind(tangon)(oscard);
-            option = verify.multiAccountMobileExperimentUpdate;
-            oscard = true;
-            oscard = option.bind(verify)(oscard);
-            _fun00002_ip = 195; continue _fun00001;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var6 = 3;
+            var6 = var9[var6];
+            var9 = var8.bind(var4)(var6);
+            var8 = var9.multiAccountMobileExperimentUpdate;
+            var6 = true;
+            var6 = var8.bind(var9)(var6);
+            _fun0001_ip = 195; continue _fun0001;
  161:
-            if(!zuuluu) { _fun00002_ip = 195; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 195; continue _fun0001 }
  164:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = option[zuuluu];
-            oscard = oscard.bind(tangon)(zuuluu);
-            zuuluu = oscard.multiAccountMobileExperimentUpdate;
-            zuuluu = zuuluu.bind(oscard)(golfie);
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var3 = var8[var3];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.multiAccountMobileExperimentUpdate;
+            var3 = var3.bind(var6)(var7);
  195:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[report];
-            michal = zuuluu.bind(tangon)(michal);
-            tangon = michal.MultiAccountMobileExperiment;
-            zuuluu = tangon.trackExposure;
-            michal = {};
-            report = '9fc8b9_2';
-            michal['location'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var5];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.MultiAccountMobileExperiment;
+            var3 = var4.trackExposure;
+            var2 = {};
+            var5 = '9fc8b9_2';
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['useMultiAccountMobile'] = michal;
-    return entity;
+    var3['useMultiAccountMobile'] = var2;
+    return var1;
 })();

@@ -1,150 +1,150 @@
 // app/actions/native/CreateChannelModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.CREATEABLE_NON_VOCAL_CHANNEL_NAME_TYPES;
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = {};
-    golfie = 'CREATE_CHANNEL_MODAL_KEY';
-    michal['CREATE_CHANNEL_MODAL_KEY'] = golfie;
-    golfie = function(argFoo, argBar, argBaz, argCor) { // Original name: open
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.CREATEABLE_NON_VOCAL_CHANNEL_NAME_TYPES;
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var7 = 'CREATE_CHANNEL_MODAL_KEY';
+    var2['CREATE_CHANNEL_MODAL_KEY'] = var7;
+    var7 = function open(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            romeon = argFoo;
-            verify = argBar;
-            offset = argBaz;
-            golfie = argCor;
-            michal = this;
-            var _closure2_slot0 = michal;
-            option = null;
-            if(!(option != verify)) { _fun00002_ip = 173; continue _fun00001 }
+            var12 = arg1;
+            var9 = arg2;
+            var10 = arg3;
+            var7 = arg4;
+            var2 = this;
+            var _closure2_slot0 = var2;
+            var8 = null;
+            if(!(var8 != var9)) { _fun0001_ip = 173; continue _fun0001 }
  30:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            tangon = 3;
-            tangon = michal[tangon];
-            oscard = undefined;
-            report = report.bind(oscard)(tangon);
-            tangon = report.pushLazy;
-            yankee = _closure1_slot0;
-            zuuluu = 5;
-            zuuluu = michal[zuuluu];
-            yankee = yankee.bind(oscard)(zuuluu);
-            zuuluu = 4;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            zuuluu = yankee.bind(oscard)(zuuluu, michal);
-            michal = {};
-            foxtra = option != romeon;
-            yankee = undefined;
-            if(!foxtra) { _fun00002_ip = 109; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var4 = 3;
+            var4 = var2[var4];
+            var6 = undefined;
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.pushLazy;
+            var11 = _closure1_slot0;
+            var3 = 5;
+            var3 = var2[var3];
+            var11 = var11.bind(var6)(var3);
+            var3 = 4;
+            var3 = var2[var3];
+            var2 = var2.paths;
+            var3 = var11.bind(var6)(var3, var2);
+            var2 = {};
+            var13 = var8 != var12;
+            var11 = undefined;
+            if(!var13) { _fun0001_ip = 109; continue _fun0001 }
  106:
-            yankee = romeon;
+            var11 = var12;
  109:
-            michal['channelType'] = yankee;
-            michal['guildId'] = verify;
-            yankee = option != offset;
-            verify = undefined;
-            if(!yankee) { _fun00002_ip = 130; continue _fun00001 }
+            var2['channelType'] = var11;
+            var2['guildId'] = var9;
+            var11 = var8 != var10;
+            var9 = undefined;
+            if(!var11) { _fun0001_ip = 130; continue _fun0001 }
  127:
-            verify = offset;
+            var9 = var10;
  130:
-            michal['categoryId'] = verify;
-            option = option != golfie;
-            oscard = undefined;
-            if(!option) { _fun00002_ip = 147; continue _fun00001 }
+            var2['categoryId'] = var9;
+            var8 = var8 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0001_ip = 147; continue _fun0001 }
  144:
-            oscard = golfie;
+            var6 = var7;
  147:
-            michal['cloneChannelId'] = oscard;
-            entity = function(argFoo, argBar) { // Original name: onChannelCreated
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2['cloneChannelId'] = var6;
+            var1 = function onChannelCreated(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = _closure2_slot0;
-                    entity = michal.close;
-                    entity = entity.bind(michal)();
-                    tangon = _closure1_slot4;
-                    michal = tangon.getChannel;
-                    tangon = michal.bind(tangon)(zuuluu);
-                    report = null;
-                    michal = argBar;
-                    michal = report != michal;
-                    if(!michal) { _fun00004_ip = 53; continue _fun00003 }
+                    var3 = arg1;
+                    var2 = _closure2_slot0;
+                    var1 = var2.close;
+                    var1 = var1.bind(var2)();
+                    var4 = _closure1_slot4;
+                    var2 = var4.getChannel;
+                    var4 = var2.bind(var4)(var3);
+                    var5 = null;
+                    var2 = arg2;
+                    var2 = var5 != var2;
+                    if(!var2) { _fun0002_ip = 53; continue _fun0002 }
  49:
-                    michal = report != tangon;
+                    var2 = var5 != var4;
  53:
-                    if(!michal) { _fun00004_ip = 75; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 75; continue _fun0002 }
  56:
-                    oscard = _closure1_slot3;
-                    report = oscard.has;
-                    tangon = tangon.type;
-                    michal = report.bind(oscard)(tangon);
+                    var6 = _closure1_slot3;
+                    var5 = var6.has;
+                    var4 = var4.type;
+                    var2 = var5.bind(var6)(var4);
  75:
-                    if(!michal) { _fun00004_ip = 111; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 111; continue _fun0002 }
  78:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 2;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    entity = michal.transitionToChannel;
-                    entity = entity.bind(michal)(zuuluu);
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 2;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var1 = var2.transitionToChannel;
+                    var1 = var1.bind(var2)(var3);
  111:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal['onChannelCreated'] = entity;
-            entity = 'CREATE_CHANNEL_MODAL_KEY';
-            entity = tangon.bind(report)(zuuluu, michal, entity);
+            var2['onChannelCreated'] = var1;
+            var1 = 'CREATE_CHANNEL_MODAL_KEY';
+            var1 = var4.bind(var5)(var3, var2, var1);
  173:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['open'] = golfie;
-    tangon = function() { // Original name: close
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.popWithKey;
-        michal = 'CREATE_CHANNEL_MODAL_KEY';
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['open'] = var7;
+    var4 = function close() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.popWithKey;
+        var2 = 'CREATE_CHANNEL_MODAL_KEY';
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['close'] = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/native/CreateChannelModalActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['close'] = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/native/CreateChannelModalActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

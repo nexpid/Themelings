@@ -1,544 +1,544 @@
 // app/modules/messages/getBurstAnimation.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    golfie = {};
-    tangon = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var7 = {};
+    var4 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = tangon;
-    tangon = new Array(18);
-    tangon[0] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var4;
+    var4 = new Array(18);
+    var4[0] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[1] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[1] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[2] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[2] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[3] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[3] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[4] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[4] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[5] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 7;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[5] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[6] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 8;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[6] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[7] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 9;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[7] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[8] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 10;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[8] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[9] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 11;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[9] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 11;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[10] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 12;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[10] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 12;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[11] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 13;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[11] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 13;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[12] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 14;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[12] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 14;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[13] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 15;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[13] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 15;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[14] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 16;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[14] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 16;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[15] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 17;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[15] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 17;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[16] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 18;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[16] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 18;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[17] = golfie;
-    var _closure1_slot3 = tangon;
-    golfie = {};
-    tangon = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 19;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[17] = var7;
+    var _closure1_slot3 = var4;
+    var7 = {};
+    var4 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 19;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = tangon;
-    tangon = new Array(18);
-    tangon[0] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 20;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var4;
+    var4 = new Array(18);
+    var4[0] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 20;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[1] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 21;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[1] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 21;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[2] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 22;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[2] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 22;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[3] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 23;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[3] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 23;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[4] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 24;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[4] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 24;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[5] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 25;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[5] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 25;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[6] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 26;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[6] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 26;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[7] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 27;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[7] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 27;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[8] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 28;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[8] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 28;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[9] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 29;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[9] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 29;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[10] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 30;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[10] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 30;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[11] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 31;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[11] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 31;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[12] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 32;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[12] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 32;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[13] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 33;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[13] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 33;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[14] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 34;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[14] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 34;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[15] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 35;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[15] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 35;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[16] = golfie;
-    golfie = {};
-    option = function() { // Original name: load
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 36;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var7['load'] = var8;
+    var4[16] = var7;
+    var7 = {};
+    var8 = function load() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 36;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    golfie['load'] = option;
-    tangon[17] = golfie;
-    var _closure1_slot4 = tangon;
-    michal = function() {
-        tangon = _closure1_slot2;
-        zuuluu = undefined;
-        michal = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var7['load'] = var8;
+    var4[17] = var7;
+    var _closure1_slot4 = var4;
+    var2 = function() {
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var2 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    tangon = arguments[3];
+                    var4 = arguments[3];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 144; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 144; continue _fun0001 }
  13:
-                    golfie = undefined;
-                    if(!(tangon === golfie)) { _fun00002_ip = 21; continue _fun00001 }
+                    var7 = undefined;
+                    if(!(var4 === var7)) { _fun0001_ip = 21; continue _fun0001 }
  19:
-                    tangon = false;
+                    var4 = false;
  21:
                     SaveGenerator(address=25);
  23:
-                    return golfie;
+                    return var7;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 141; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 141; continue _fun0001 }
  31:
-                    oscard = _closure1_slot0;
-                    option = _closure1_slot1;
-                    report = 37;
-                    report = option[report];
-                    golfie = oscard.bind(golfie)(report);
-                    oscard = golfie.getBurstAnimationHash;
-                    report = global;
-                    report = report.HermesInternal;
-                    yankee = report.concat;
-                    offset = '';
-                    verify = argFoo;
-                    option = argBar;
-                    report = argBaz;
-                    report = yankee.bind(offset)(verify, option, report);
-                    report = oscard.bind(golfie)(report);
-                    if(tangon) { _fun00002_ip = 107; continue _fun00001 }
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 37;
+                    var5 = var8[var5];
+                    var7 = var6.bind(var7)(var5);
+                    var6 = var7.getBurstAnimationHash;
+                    var5 = global;
+                    var5 = var5.HermesInternal;
+                    var11 = var5.concat;
+                    var10 = '';
+                    var9 = arg1;
+                    var8 = arg2;
+                    var5 = arg3;
+                    var5 = var11.bind(var10)(var9, var8, var5);
+                    var5 = var6.bind(var7)(var5);
+                    if(var4) { _fun0001_ip = 107; continue _fun0001 }
  101:
-                    tangon = _closure1_slot4;
-                    _fun00002_ip = 111; continue _fun00001;
+                    var4 = _closure1_slot4;
+                    _fun0001_ip = 111; continue _fun0001;
  107:
-                    tangon = _closure1_slot3;
+                    var4 = _closure1_slot3;
  111:
-                    zuuluu = _closure1_slot4;
-                    zuuluu = zuuluu.length;
-                    zuuluu = report % zuuluu;
-                    tangon = tangon[zuuluu];
-                    zuuluu = tangon.load;
-                    zuuluu = zuuluu.bind(tangon)();
-                    return zuuluu;
+                    var3 = _closure1_slot4;
+                    var3 = var3.length;
+                    var3 = var5 % var3;
+                    var4 = var4[var3];
+                    var3 = var4.load;
+                    var3 = var3.bind(var4)();
+                    return var3;
  141:
-                    return michal;
+                    return var2;
  144:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function() {
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 38;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/getBurstAnimation.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['getBurstAnimation'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 38;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/getBurstAnimation.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['getBurstAnimation'] = var2;
+    return var1;
 })();

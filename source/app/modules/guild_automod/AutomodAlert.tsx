@@ -1,97 +1,97 @@
 // app/modules/guild_automod/AutomodAlert.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = {};
-    tangon = 1;
-    michal['SET_COMPLETED'] = tangon;
-    entity = 'SET_COMPLETED';
-    michal[tangon] = entity;
-    tangon = 2;
-    michal['UNSET_COMPLETED'] = tangon;
-    entity = 'UNSET_COMPLETED';
-    michal[tangon] = entity;
-    tangon = 3;
-    michal['DELETE_USER_MESSAGE'] = tangon;
-    entity = 'DELETE_USER_MESSAGE';
-    michal[tangon] = entity;
-    tangon = 4;
-    michal['SUBMIT_FEEDBACK'] = tangon;
-    entity = 'SUBMIT_FEEDBACK';
-    michal[tangon] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_automod/AutomodAlert.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['AutomodAlertActionType'] = michal;
-    michal = function(argFoo) { // Original name: parseAlertActionsExecution
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = {};
+    var4 = 1;
+    var2['SET_COMPLETED'] = var4;
+    var1 = 'SET_COMPLETED';
+    var2[var4] = var1;
+    var4 = 2;
+    var2['UNSET_COMPLETED'] = var4;
+    var1 = 'UNSET_COMPLETED';
+    var2[var4] = var1;
+    var4 = 3;
+    var2['DELETE_USER_MESSAGE'] = var4;
+    var1 = 'DELETE_USER_MESSAGE';
+    var2[var4] = var1;
+    var4 = 4;
+    var2['SUBMIT_FEEDBACK'] = var4;
+    var1 = 'SUBMIT_FEEDBACK';
+    var2[var4] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_automod/AutomodAlert.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['AutomodAlertActionType'] = var2;
+    var2 = function parseAlertActionsExecution(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 123; continue _fun00001 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 123; continue _fun0001 }
  11:
-            michal = zuuluu;
-            report = entity == zuuluu;
-            zuuluu = null;
-            if(report) { _fun00002_ip = 51; continue _fun00001 }
+            var2 = var3;
+            var5 = var1 == var3;
+            var3 = null;
+            if(var5) { _fun0001_ip = 51; continue _fun0001 }
  23: // try_start_0
-            report = global;
-            oscard = report.JSON;
-            report = oscard.parse;
-            michal = report.bind(oscard)(michal);
+            var5 = global;
+            var6 = var5.JSON;
+            var5 = var6.parse;
+            var2 = var5.bind(var6)(var2);
  42: // try_end0
-            zuuluu = michal;
-            _fun00002_ip = 51; continue _fun00001;
+            var3 = var2;
+            _fun0001_ip = 51; continue _fun0001;
  47: // catch_target0
             CatchBlockStart(arg_register=1);
-            zuuluu = null;
+            var3 = null;
  51:
-            var _closure2_slot0 = zuuluu;
-            report = entity == zuuluu;
-            michal = null;
-            if(report) { _fun00002_ip = 121; continue _fun00001 }
+            var _closure2_slot0 = var3;
+            var5 = var1 == var3;
+            var2 = null;
+            if(var5) { _fun0001_ip = 121; continue _fun0001 }
  64:
-            report = zuuluu.actions;
-            report = entity == report;
-            michal = null;
-            if(report) { _fun00002_ip = 121; continue _fun00001 }
+            var5 = var3.actions;
+            var5 = var1 == var5;
+            var2 = null;
+            if(var5) { _fun0001_ip = 121; continue _fun0001 }
  79:
-            report = global;
-            golfie = report.Object;
-            oscard = golfie.keys;
-            report = zuuluu.actions;
-            oscard = oscard.bind(golfie)(report);
-            report = oscard.forEach;
-            tangon = function(argFoo) {
-                michal = argFoo;
-                entity = _closure2_slot0;
-                entity = entity.actions;
-                entity = entity[michal];
-                entity['actionType'] = michal;
-                entity = undefined;
-                return entity;
+            var5 = global;
+            var7 = var5.Object;
+            var6 = var7.keys;
+            var5 = var3.actions;
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.forEach;
+            var4 = function(arg1) {
+                var2 = arg1;
+                var1 = _closure2_slot0;
+                var1 = var1.actions;
+                var1 = var1[var2];
+                var1['actionType'] = var2;
+                var1 = undefined;
+                return var1;
             };
-            tangon = report.bind(oscard)(tangon);
-            michal = zuuluu;
+            var4 = var5.bind(var6)(var4);
+            var2 = var3;
  121:
-            return michal;
+            return var2;
  123:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['parseAlertActionsExecution'] = michal;
-    return entity;
+    var3['parseAlertActionsExecution'] = var2;
+    return var1;
 })();

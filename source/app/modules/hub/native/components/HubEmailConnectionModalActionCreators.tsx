@@ -1,107 +1,107 @@
 // app/modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = function(argFoo, argBar) { // Original name: open
-        entity = argBar;
-        var _closure2_slot0 = entity;
-        report = _closure1_slot1;
-        tangon = _closure1_slot2;
-        entity = 1;
-        tangon = tangon[entity];
-        entity = undefined;
-        oscard = report.bind(entity)(tangon);
-        report = oscard.pushLazy;
-        zuuluu = _closure1_slot3;
-        michal = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = function open(arg1, arg2) {
+        var1 = arg2;
+        var _closure2_slot0 = var1;
+        var5 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var1 = 1;
+        var4 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.pushLazy;
+        var3 = _closure1_slot3;
+        var2 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 101; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 101; continue _fun0001 }
  7:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = michal[zuuluu];
-                    report = undefined;
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = 2;
-                    zuuluu = michal[zuuluu];
-                    michal = michal.paths;
-                    michal = tangon.bind(report)(zuuluu, michal);
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var2[var3];
+                    var5 = undefined;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = 2;
+                    var3 = var2[var3];
+                    var2 = var2.paths;
+                    var2 = var4.bind(var5)(var3, var2);
                     SaveGenerator(address=54);
  52:
-                    return michal;
+                    return var2;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 98; continue _fun0001 }
  60:
-                    zuuluu = michal.default;
-                    oscard = _closure2_slot0;
-                    tangon = null;
-                    if(!(tangon != oscard)) { _fun00002_ip = 95; continue _fun00001 }
+                    var3 = var2.default;
+                    var6 = _closure2_slot0;
+                    var4 = null;
+                    if(!(var4 != var6)) { _fun0001_ip = 95; continue _fun0001 }
  78:
-                    tangon = {};
-                    report = _closure2_slot0;
-                    tangon['animation'] = report;
-                    zuuluu['modalConfig'] = tangon;
+                    var4 = {};
+                    var5 = _closure2_slot0;
+                    var4['animation'] = var5;
+                    var3['modalConfig'] = var4;
  95:
-                    return zuuluu;
+                    return var3;
  98:
-                    return michal;
+                    return var2;
  101:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = argFoo;
-        michal = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+        var4 = var3.bind(var1)(var2);
+        var3 = arg1;
+        var2 = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    michal['open'] = golfie;
-    tangon = function() { // Original name: close
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.popWithKey;
-        michal = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['open'] = var7;
+    var4 = function close() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.popWithKey;
+        var2 = 'HUB_EMAIL_CONNECTION_MODAL_KEY';
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['close'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['close'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

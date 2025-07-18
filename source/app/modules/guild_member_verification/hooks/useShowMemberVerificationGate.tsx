@@ -1,188 +1,188 @@
 // app/modules/guild_member_verification/hooks/useShowMemberVerificationGate.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo) { // Original name: shouldShowMembershipVerificationGate
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function shouldShowMembershipVerificationGate(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            michal = arguments[1];
-            report = undefined;
-            if(!(michal === report)) { _fun00002_ip = 46; continue _fun00001 }
+            var8 = arg1;
+            var2 = arguments[1];
+            var5 = undefined;
+            if(!(var2 === var5)) { _fun0001_ip = 46; continue _fun0001 }
  12:
-            tangon = _closure1_slot3;
-            entity = new Array(3);
-            entity[0] = tangon;
-            tangon = _closure1_slot4;
-            entity[1] = tangon;
-            zuuluu = _closure1_slot2;
-            entity[2] = zuuluu;
-            michal = entity;
+            var4 = _closure1_slot3;
+            var1 = new Array(3);
+            var1[0] = var4;
+            var4 = _closure1_slot4;
+            var1[1] = var4;
+            var3 = _closure1_slot2;
+            var1[2] = var3;
+            var2 = var1;
  46:
-            oscard = michal;
-            entity = oscard[Symbol.iterator];
-            oscard = entity().next;
-            zuuluu = oscard().value;
-            michal = entity;
-            michal = michal === report;
-            tangon = undefined;
-            if(michal) { _fun00002_ip = 71; continue _fun00001 }
+            var6 = var2;
+            var1 = var6[Symbol.iterator];
+            var6 = var1().next;
+            var3 = var6().value;
+            var2 = var1;
+            var2 = var2 === var5;
+            var4 = undefined;
+            if(var2) { _fun0001_ip = 71; continue _fun0001 }
  68:
-            tangon = zuuluu;
+            var4 = var3;
  71:
-            zuuluu = undefined;
-            if(michal) { _fun00002_ip = 101; continue _fun00001 }
+            var3 = undefined;
+            if(var2) { _fun0001_ip = 101; continue _fun0001 }
  76:
-            verify = oscard().value;
-            golfie = entity;
-            golfie = golfie === report;
-            zuuluu = undefined;
-            michal = golfie;
-            if(golfie) { _fun00002_ip = 101; continue _fun00001 }
+            var9 = var6().value;
+            var7 = var1;
+            var7 = var7 === var5;
+            var3 = undefined;
+            var2 = var7;
+            if(var7) { _fun0001_ip = 101; continue _fun0001 }
  95:
-            zuuluu = verify;
-            michal = golfie;
+            var3 = var9;
+            var2 = var7;
  101:
-            golfie = undefined;
-            if(michal) { _fun00002_ip = 131; continue _fun00001 }
+            var7 = undefined;
+            if(var2) { _fun0001_ip = 131; continue _fun0001 }
  106:
-            verify = oscard().value;
-            oscard = entity;
-            oscard = oscard === report;
-            golfie = undefined;
-            michal = oscard;
-            if(oscard) { _fun00002_ip = 131; continue _fun00001 }
+            var9 = var6().value;
+            var6 = var1;
+            var6 = var6 === var5;
+            var7 = undefined;
+            var2 = var6;
+            if(var6) { _fun0001_ip = 131; continue _fun0001 }
  125:
-            golfie = verify;
-            michal = oscard;
+            var7 = var9;
+            var2 = var6;
  131:
-            if(michal) { _fun00002_ip = 137; continue _fun00001 }
+            if(var2) { _fun0001_ip = 137; continue _fun0001 }
  134:
-            entity.return();
+            var1.return();
  137:
-            michal = null;
-            if(!(michal != option)) { _fun00002_ip = 261; continue _fun00001 }
+            var2 = null;
+            if(!(var2 != var8)) { _fun0001_ip = 261; continue _fun0001 }
  143:
-            entity = tangon.getGuild;
-            tangon = entity.bind(tangon)(option);
-            entity = zuuluu.getCurrentUser;
-            zuuluu = entity.bind(zuuluu)();
-            oscard = michal != zuuluu;
-            entity = false;
-            if(!oscard) { _fun00002_ip = 216; continue _fun00001 }
+            var1 = var4.getGuild;
+            var4 = var1.bind(var4)(var8);
+            var1 = var3.getCurrentUser;
+            var3 = var1.bind(var3)();
+            var6 = var2 != var3;
+            var1 = false;
+            if(!var6) { _fun0001_ip = 216; continue _fun0001 }
  171:
-            oscard = golfie.getMember;
-            zuuluu = zuuluu.id;
-            oscard = oscard.bind(golfie)(option, zuuluu);
-            golfie = michal == oscard;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 203; continue _fun00001 }
+            var6 = var7.getMember;
+            var3 = var3.id;
+            var6 = var6.bind(var7)(var8, var3);
+            var7 = var2 == var6;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 203; continue _fun0001 }
  197:
-            zuuluu = oscard.isPending;
+            var3 = var6.isPending;
  203:
-            michal = michal != zuuluu;
-            if(!michal) { _fun00002_ip = 213; continue _fun00001 }
+            var2 = var2 != var3;
+            if(!var2) { _fun0001_ip = 213; continue _fun0001 }
  210:
-            michal = zuuluu;
+            var2 = var3;
  213:
-            entity = michal;
+            var1 = var2;
  216:
-            if(!entity) { _fun00002_ip = 259; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 259; continue _fun0001 }
  219:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 3;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.guildHasVerificationGate;
-            michal = michal.bind(zuuluu)(tangon);
-            michal = !michal;
-            entity = !michal;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 3;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.guildHasVerificationGate;
+            var2 = var2.bind(var3)(var4);
+            var2 = !var2;
+            var1 = !var2;
  259:
-            return entity;
+            return var1;
  261:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_member_verification/hooks/useShowMemberVerificationGate.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['shouldShowMembershipVerificationGate'] = tangon;
-    michal = function(argFoo) { // Original name: useShowMemberVerificationGate
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 4;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        golfie = _closure1_slot3;
-        zuuluu = new Array(3);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot4;
-        zuuluu[1] = golfie;
-        michal = _closure1_slot2;
-        zuuluu[2] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_member_verification/hooks/useShowMemberVerificationGate.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['shouldShowMembershipVerificationGate'] = var4;
+    var2 = function useShowMemberVerificationGate(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var7 = _closure1_slot3;
+        var3 = new Array(3);
+        var3[0] = var7;
+        var7 = _closure1_slot4;
+        var3[1] = var7;
+        var2 = _closure1_slot2;
+        var3[2] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = null;
-                entity = entity != michal;
-                if(!entity) { _fun00004_ip = 63; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var1 = null;
+                var1 = var1 != var2;
+                if(!var1) { _fun0002_ip = 63; continue _fun0002 }
  16:
-                report = _closure1_slot5;
-                tangon = _closure2_slot0;
-                oscard = _closure1_slot3;
-                zuuluu = new Array(3);
-                zuuluu[0] = oscard;
-                oscard = _closure1_slot4;
-                zuuluu[1] = oscard;
-                michal = _closure1_slot2;
-                zuuluu[2] = michal;
-                michal = undefined;
-                entity = report.bind(michal)(tangon, zuuluu);
+                var5 = _closure1_slot5;
+                var4 = _closure2_slot0;
+                var6 = _closure1_slot3;
+                var3 = new Array(3);
+                var3[0] = var6;
+                var6 = _closure1_slot4;
+                var3[1] = var6;
+                var2 = _closure1_slot2;
+                var3[2] = var2;
+                var2 = undefined;
+                var1 = var5.bind(var2)(var4, var3);
  63:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useShowMemberVerificationGate'] = michal;
-    return entity;
+    var3['useShowMemberVerificationGate'] = var2;
+    return var1;
 })();

@@ -1,676 +1,676 @@
 // app/stores/UploadStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot14 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot14 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot14 = entity;
-    entity = function(argFoo, argBar) { // Original name: storeLocalUriForUpload
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot14 = var1;
+    var1 = function storeLocalUriForUpload(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argBar;
-            var _closure2_slot0 = entity;
-            tangon = _closure1_slot13;
-            golfie = entity.items;
-            michal = null;
-            oscard = michal == golfie;
-            entity = undefined;
-            zuuluu = undefined;
-            if(oscard) { _fun00004_ip = 50; continue _fun00003 }
+            var1 = arg2;
+            var _closure2_slot0 = var1;
+            var4 = _closure1_slot13;
+            var7 = var1.items;
+            var2 = null;
+            var6 = var2 == var7;
+            var1 = undefined;
+            var3 = undefined;
+            if(var6) { _fun0002_ip = 50; continue _fun0002 }
  35:
-            oscard = golfie.map;
-            report = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var6 = var7.map;
+            var5 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = zuuluu.item;
-                    oscard = _closure1_slot6;
-                    report = oscard.test;
-                    tangon = michal.originalUri;
-                    tangon = report.bind(oscard)(tangon);
-                    if(tangon) { _fun00006_ip = 61; continue _fun00005 }
+                    var3 = arg1;
+                    var2 = var3.item;
+                    var6 = _closure1_slot6;
+                    var5 = var6.test;
+                    var4 = var2.originalUri;
+                    var4 = var5.bind(var6)(var4);
+                    if(var4) { _fun0003_ip = 61; continue _fun0003 }
  34:
-                    report = _closure1_slot7;
-                    tangon = report.test;
-                    entity = michal.originalUri;
-                    entity = tangon.bind(report)(entity);
-                    if(entity) { _fun00006_ip = 61; continue _fun00005 }
+                    var5 = _closure1_slot7;
+                    var4 = var5.test;
+                    var1 = var2.originalUri;
+                    var1 = var4.bind(var5)(var1);
+                    if(var1) { _fun0003_ip = 61; continue _fun0003 }
  57:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
  61:
-                    entity = {};
-                    golfie = michal.width;
-                    tangon = null;
-                    option = tangon != golfie;
-                    oscard = 0;
-                    if(!option) { _fun00006_ip = 82; continue _fun00005 }
+                    var1 = {};
+                    var7 = var2.width;
+                    var4 = null;
+                    var8 = var4 != var7;
+                    var6 = 0;
+                    if(!var8) { _fun0003_ip = 82; continue _fun0003 }
  79:
-                    oscard = golfie;
+                    var6 = var7;
  82:
-                    entity['width'] = oscard;
-                    oscard = michal.height;
-                    golfie = tangon != oscard;
-                    report = 0;
-                    if(!golfie) { _fun00006_ip = 103; continue _fun00005 }
+                    var1['width'] = var6;
+                    var6 = var2.height;
+                    var7 = var4 != var6;
+                    var5 = 0;
+                    if(!var7) { _fun0003_ip = 103; continue _fun0003 }
  100:
-                    report = oscard;
+                    var5 = var6;
  103:
-                    entity['height'] = report;
-                    oscard = michal.originalUri;
-                    golfie = tangon != oscard;
-                    michal = '';
-                    report = michal;
-                    if(!golfie) { _fun00006_ip = 130; continue _fun00005 }
+                    var1['height'] = var5;
+                    var6 = var2.originalUri;
+                    var7 = var4 != var6;
+                    var2 = '';
+                    var5 = var2;
+                    if(!var7) { _fun0003_ip = 130; continue _fun0003 }
  127:
-                    report = oscard;
+                    var5 = var6;
  130:
-                    entity['localUri'] = report;
-                    report = _closure2_slot0;
-                    report = report.id;
-                    entity['uploaderId'] = report;
-                    zuuluu = zuuluu.id;
-                    tangon = tangon != zuuluu;
-                    if(!tangon) { _fun00006_ip = 167; continue _fun00005 }
+                    var1['localUri'] = var5;
+                    var5 = _closure2_slot0;
+                    var5 = var5.id;
+                    var1['uploaderId'] = var5;
+                    var3 = var3.id;
+                    var4 = var4 != var3;
+                    if(!var4) { _fun0003_ip = 167; continue _fun0003 }
  164:
-                    michal = zuuluu;
+                    var2 = var3;
  167:
-                    entity['uploaderItemId'] = michal;
-                    return entity;
+                    var1['uploaderItemId'] = var2;
+                    return var1;
                 }
             };
-            zuuluu = oscard.bind(golfie)(report);
+            var3 = var6.bind(var7)(var5);
  50:
-            if(!(michal == zuuluu)) { _fun00004_ip = 58; continue _fun00003 }
+            if(!(var2 == var3)) { _fun0002_ip = 58; continue _fun0002 }
  54:
-            zuuluu = new Array(0);
+            var3 = new Array(0);
  58:
-            michal = argFoo;
-            tangon[michal] = zuuluu;
-            return entity;
+            var2 = arg1;
+            var4[var2] = var3;
+            return var1;
         }
     };
-    var _closure1_slot15 = entity;
-    entity = function() { // Original name: clearLocalUriForUpload
-        entity = {};
-        _closure1_slot13 = entity;
-        entity = undefined;
-        return entity;
+    var _closure1_slot15 = var1;
+    var1 = function clearLocalUriForUpload() {
+        var1 = {};
+        _closure1_slot13 = var1;
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot16 = entity;
-    entity = function(argFoo, argBar) { // Original name: clearFile
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot16 = var1;
+    var1 = function clearFile(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            oscard = argBar;
-            var _closure2_slot0 = oscard;
-            entity = _closure1_slot9;
-            zuuluu = entity[tangon];
-            entity = null;
-            entity = entity != zuuluu;
-            if(!entity) { _fun00008_ip = 93; continue _fun00007 }
+            var4 = arg1;
+            var6 = arg2;
+            var _closure2_slot0 = var6;
+            var1 = _closure1_slot9;
+            var3 = var1[var4];
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0004_ip = 93; continue _fun0004 }
  32:
-            golfie = _closure1_slot9;
-            option = zuuluu.filter;
-            report = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = michal !== entity;
-                return entity;
+            var7 = _closure1_slot9;
+            var8 = var3.filter;
+            var5 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var2 !== var1;
+                return var1;
             };
-            report = option.bind(zuuluu)(report);
-            golfie[tangon] = report;
-            report = _closure1_slot10;
-            report = delete report[oscard];
-            report = _closure1_slot11;
-            report = delete report[oscard];
-            zuuluu = zuuluu.length;
-            michal = _closure1_slot9;
-            michal = michal[tangon];
-            michal = michal.length;
-            entity = zuuluu !== michal;
+            var5 = var8.bind(var3)(var5);
+            var7[var4] = var5;
+            var5 = _closure1_slot10;
+            var5 = delete var5[var6];
+            var5 = _closure1_slot11;
+            var5 = delete var5[var6];
+            var3 = var3.length;
+            var2 = _closure1_slot9;
+            var2 = var2[var4];
+            var2 = var2.length;
+            var1 = var3 !== var2;
  93:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot17 = entity;
-    entity = function(argFoo, argBar) { // Original name: updateFile
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot17 = var1;
+    var1 = function updateFile(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            var _closure2_slot0 = tangon;
-            michal = _closure1_slot9;
-            option = michal[report];
-            zuuluu = null;
-            if(!(zuuluu != option)) { _fun00010_ip = 141; continue _fun00009 }
+            var5 = arg1;
+            var4 = arg2;
+            var _closure2_slot0 = var4;
+            var2 = _closure1_slot9;
+            var8 = var2[var5];
+            var3 = null;
+            if(!(var3 != var8)) { _fun0005_ip = 141; continue _fun0005 }
  29:
-            michal = _closure1_slot9;
-            golfie = option.map;
-            entity = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var2 = _closure1_slot9;
+            var7 = var8.map;
+            var1 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    tangon = argFoo;
-                    report = tangon.id;
-                    entity = _closure2_slot0;
-                    michal = entity.id;
-                    entity = tangon;
-                    if(!(report === michal)) { _fun00012_ip = 53; continue _fun00011 }
+                    var4 = arg1;
+                    var5 = var4.id;
+                    var1 = _closure2_slot0;
+                    var2 = var1.id;
+                    var1 = var4;
+                    if(!(var5 === var2)) { _fun0006_ip = 53; continue _fun0006 }
  27:
-                    michal = {};
-                    golfie = michal;
-                    oscard = tangon;
-                    tangon = copyDataProperties(golfie, oscard);
-                    oscard = _closure2_slot0;
-                    golfie = michal;
-                    zuuluu = copyDataProperties(golfie, oscard);
-                    entity = michal;
+                    var2 = {};
+                    var7 = var2;
+                    var6 = var4;
+                    var4 = copyDataProperties(var7, var6);
+                    var6 = _closure2_slot0;
+                    var7 = var2;
+                    var3 = copyDataProperties(var7, var6);
+                    var1 = var2;
  53:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = golfie.bind(option)(entity);
-            michal[report] = entity;
-            michal = _closure1_slot11;
-            entity = tangon.id;
-            report = michal[entity];
-            entity = zuuluu != report;
-            if(!entity) { _fun00010_ip = 89; continue _fun00009 }
+            var1 = var7.bind(var8)(var1);
+            var2[var5] = var1;
+            var2 = _closure1_slot11;
+            var1 = var4.id;
+            var5 = var2[var1];
+            var1 = var3 != var5;
+            if(!var1) { _fun0005_ip = 89; continue _fun0005 }
  72:
-            golfie = _closure1_slot12;
-            michal = report.id;
-            michal = golfie[michal];
-            entity = zuuluu != michal;
+            var7 = _closure1_slot12;
+            var2 = var5.id;
+            var2 = var7[var2];
+            var1 = var3 != var2;
  89:
-            if(!entity) { _fun00010_ip = 137; continue _fun00009 }
+            if(!var1) { _fun0005_ip = 137; continue _fun0005 }
  92:
-            zuuluu = _closure1_slot12;
-            michal = report.id;
-            entity = {};
-            oscard = _closure1_slot12;
-            report = report.id;
-            verify = oscard[report];
-            offset = entity;
-            report = copyDataProperties(offset, verify);
-            offset = entity;
-            verify = tangon;
-            tangon = copyDataProperties(offset, verify);
-            zuuluu[michal] = entity;
+            var3 = _closure1_slot12;
+            var2 = var5.id;
+            var1 = {};
+            var6 = _closure1_slot12;
+            var5 = var5.id;
+            var9 = var6[var5];
+            var10 = var1;
+            var5 = copyDataProperties(var10, var9);
+            var10 = var1;
+            var9 = var4;
+            var4 = copyDataProperties(var10, var9);
+            var3[var2] = var1;
  137:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  141:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot18 = entity;
-    michal = global;
-    verify = michal.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot0 = golfie;
-    golfie = 1;
-    golfie = report[golfie];
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot1 = golfie;
-    golfie = 2;
-    golfie = report[golfie];
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot2 = golfie;
-    golfie = 3;
-    golfie = report[golfie];
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 4;
-    golfie = report[golfie];
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 5;
-    golfie = report[golfie];
-    golfie = oscard.bind(entity)(golfie);
-    var _closure1_slot5 = golfie;
-    golfie = /^(assets-library|ph|file):\\/\\//;
-    var _closure1_slot6 = golfie;
-    golfie = /^content:\\/\\//;
-    var _closure1_slot7 = golfie;
-    option = michal.Object;
-    golfie = option.freeze;
-    michal = new Array(0);
-    michal = golfie.bind(option)(michal);
-    var _closure1_slot8 = michal;
-    michal = {};
-    var _closure1_slot9 = michal;
-    michal = {};
-    var _closure1_slot10 = michal;
-    michal = {};
-    var _closure1_slot11 = michal;
-    michal = {};
-    var _closure1_slot12 = michal;
-    michal = {};
-    var _closure1_slot13 = michal;
-    michal = 6;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    golfie = michal.Store;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: UploadStore
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot18 = var1;
+    var2 = global;
+    var9 = var2.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot0 = var7;
+    var7 = 1;
+    var7 = var5[var7];
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot1 = var7;
+    var7 = 2;
+    var7 = var5[var7];
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot2 = var7;
+    var7 = 3;
+    var7 = var5[var7];
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 4;
+    var7 = var5[var7];
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 5;
+    var7 = var5[var7];
+    var7 = var6.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = /^(assets-library|ph|file):\\/\\//;
+    var _closure1_slot6 = var7;
+    var7 = /^content:\\/\\//;
+    var _closure1_slot7 = var7;
+    var8 = var2.Object;
+    var7 = var8.freeze;
+    var2 = new Array(0);
+    var2 = var7.bind(var8)(var2);
+    var _closure1_slot8 = var2;
+    var2 = {};
+    var _closure1_slot9 = var2;
+    var2 = {};
+    var _closure1_slot10 = var2;
+    var2 = {};
+    var _closure1_slot11 = var2;
+    var2 = {};
+    var _closure1_slot12 = var2;
+    var2 = {};
+    var _closure1_slot13 = var2;
+    var2 = 6;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.Store;
+    var2 = function(arg1) {
+        var4 = function UploadStore() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot0;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot3;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot2;
-                entity = _closure1_slot14;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00014_ip = 69; continue _fun00013 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot3;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
+                var1 = _closure1_slot14;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0007_ip = 69; continue _fun0007 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00014_ip = 105; continue _fun00013;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0007_ip = 105; continue _fun0007;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot4;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot1;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            zuuluu = this;
-            michal = zuuluu.waitFor;
-            entity = _closure1_slot5;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot4;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value() {
+            var3 = this;
+            var2 = var3.waitFor;
+            var1 = _closure1_slot5;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(5);
-        entity[0] = report;
-        report = {};
-        golfie = 'getFiles';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var5['value'] = var1;
+        var1 = new Array(5);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getFiles';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                zuuluu = _closure1_slot9;
-                entity = argFoo;
-                entity = zuuluu[entity];
-                zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00016_ip = 24; continue _fun00015 }
+                var3 = _closure1_slot9;
+                var1 = arg1;
+                var1 = var3[var1];
+                var3 = null;
+                if(!(var3 == var1)) { _fun0008_ip = 24; continue _fun0008 }
  20:
-                entity = _closure1_slot8;
+                var1 = _closure1_slot8;
  24:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getMessageForFile';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            michal = _closure1_slot11;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getMessageForFile';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot11;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'getUploaderFileForMessageId';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            michal = _closure1_slot12;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'getUploaderFileForMessageId';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot12;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'getUploadAttachments';
-        report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getUploadAttachments';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                michal = argFoo;
-                entity = null;
-                if(!(entity == michal)) { _fun00018_ip = 13; continue _fun00017 }
+                var2 = arg1;
+                var1 = null;
+                if(!(var1 == var2)) { _fun0009_ip = 13; continue _fun0009 }
  9:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
  13:
-                entity = _closure1_slot13;
-                entity = entity[michal];
-                return entity;
+                var1 = _closure1_slot13;
+                var1 = var1[var2];
+                return var1;
             }
         };
-        report['value'] = oscard;
-        entity[4] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[4] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    golfie = michal.bind(entity)(golfie);
-    michal = 'UploadStore';
-    golfie['displayName'] = michal;
-    michal = 7;
-    michal = report[michal];
-    romeon = oscard.bind(entity)(michal);
-    michal = {};
-    option = function() { // Original name: handleConnectionOpen
-        michal = _closure1_slot16;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        return entity;
+    var7 = var2.bind(var1)(var7);
+    var2 = 'UploadStore';
+    var7['displayName'] = var2;
+    var2 = 7;
+    var2 = var5[var2];
+    var12 = var6.bind(var1)(var2);
+    var2 = {};
+    var8 = function handleConnectionOpen() {
+        var2 = _closure1_slot16;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        return var1;
     };
-    michal['CONNECTION_OPEN'] = option;
-    option = function() { // Original name: handleLogout
-        michal = _closure1_slot16;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        return entity;
+    var2['CONNECTION_OPEN'] = var8;
+    var8 = function handleLogout() {
+        var2 = _closure1_slot16;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        return var1;
     };
-    michal['LOGOUT'] = option;
-    option = function(argFoo) { // Original name: handleUploadStart
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var2['LOGOUT'] = var8;
+    var8 = function handleUploadStart(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.channelId;
-            tangon = entity.file;
-            option = entity.uploader;
-            entity = entity.message;
-            michal = option._aborted;
-            if(michal) { _fun00020_ip = 207; continue _fun00019 }
+            var1 = arg1;
+            var7 = var1.channelId;
+            var4 = var1.file;
+            var8 = var1.uploader;
+            var1 = var1.message;
+            var2 = var8._aborted;
+            if(var2) { _fun0010_ip = 207; continue _fun0010 }
  37:
-            michal = option._errored;
-            if(michal) { _fun00020_ip = 207; continue _fun00019 }
+            var2 = var8._errored;
+            if(var2) { _fun0010_ip = 207; continue _fun0010 }
  49:
-            zuuluu = _closure1_slot9;
-            verify = zuuluu[golfie];
-            report = null;
-            if(!(report == verify)) { _fun00020_ip = 70; continue _fun00019 }
+            var3 = _closure1_slot9;
+            var9 = var3[var7];
+            var5 = null;
+            if(!(var5 == var9)) { _fun0010_ip = 70; continue _fun0010 }
  66:
-            verify = _closure1_slot8;
+            var9 = _closure1_slot8;
  70:
-            oscard = _closure1_slot10;
-            zuuluu = tangon.id;
-            oscard[zuuluu] = option;
-            oscard = _closure1_slot9;
-            zuuluu = new Array(1);
-            offset = 0;
-            romeon = zuuluu;
-            yankee = verify;
-            verify = arraySpread(romeon, yankee, offset);
-            zuuluu[verify] = tangon;
-            option = 1;
-            option = verify + option;
-            oscard[golfie] = zuuluu;
-            if(!(report != entity)) { _fun00020_ip = 207; continue _fun00019 }
+            var6 = _closure1_slot10;
+            var3 = var4.id;
+            var6[var3] = var8;
+            var6 = _closure1_slot9;
+            var3 = new Array(1);
+            var10 = 0;
+            var12 = var3;
+            var11 = var9;
+            var9 = arraySpread(var12, var11, var10);
+            var3[var9] = var4;
+            var8 = 1;
+            var8 = var9 + var8;
+            var6[var7] = var3;
+            if(!(var5 != var1)) { _fun0010_ip = 207; continue _fun0010 }
  123:
-            oscard = _closure1_slot11;
-            zuuluu = tangon.id;
-            oscard[zuuluu] = entity;
-            verify = tangon.items;
-            if(!(report != verify)) { _fun00020_ip = 180; continue _fun00019 }
+            var6 = _closure1_slot11;
+            var3 = var4.id;
+            var6[var3] = var1;
+            var9 = var4.items;
+            if(!(var5 != var9)) { _fun0010_ip = 180; continue _fun0010 }
  146:
-            golfie = _closure1_slot12;
-            oscard = entity.id;
-            zuuluu = {};
-            romeon = zuuluu;
-            yankee = tangon;
-            option = copyDataProperties(romeon, yankee);
-            option = 'items';
-            zuuluu[option] = verify;
-            golfie[oscard] = zuuluu;
+            var7 = _closure1_slot12;
+            var6 = var1.id;
+            var3 = {};
+            var12 = var3;
+            var11 = var4;
+            var8 = copyDataProperties(var12, var11);
+            var8 = 'items';
+            var3[var8] = var9;
+            var7[var6] = var3;
  180:
-            zuuluu = _closure1_slot15;
-            michal = entity.nonce;
-            if(!(report == michal)) { _fun00020_ip = 199; continue _fun00019 }
+            var3 = _closure1_slot15;
+            var2 = var1.nonce;
+            if(!(var5 == var2)) { _fun0010_ip = 199; continue _fun0010 }
  194:
-            michal = entity.id;
+            var2 = var1.id;
  199:
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal, tangon);
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2, var4);
  207:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['UPLOAD_START'] = option;
-    option = function(argFoo) { // Original name: handleUploadCompressionProgress
-        entity = argFoo;
-        tangon = entity.channelId;
-        zuuluu = entity.file;
-        michal = _closure1_slot18;
-        entity = undefined;
-        michal = michal.bind(entity)(tangon, zuuluu);
-        return entity;
+    var2['UPLOAD_START'] = var8;
+    var8 = function handleUploadCompressionProgress(arg1) {
+        var1 = arg1;
+        var4 = var1.channelId;
+        var3 = var1.file;
+        var2 = _closure1_slot18;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var4, var3);
+        return var1;
     };
-    michal['UPLOAD_COMPRESSION_PROGRESS'] = option;
-    option = function(argFoo) { // Original name: handleUploadProgress
-        entity = argFoo;
-        tangon = entity.channelId;
-        zuuluu = entity.file;
-        michal = _closure1_slot18;
-        entity = undefined;
-        michal = michal.bind(entity)(tangon, zuuluu);
-        return entity;
+    var2['UPLOAD_COMPRESSION_PROGRESS'] = var8;
+    var8 = function handleUploadProgress(arg1) {
+        var1 = arg1;
+        var4 = var1.channelId;
+        var3 = var1.file;
+        var2 = _closure1_slot18;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var4, var3);
+        return var1;
     };
-    michal['UPLOAD_PROGRESS'] = option;
-    option = function(argFoo) { // Original name: handleUploadComplete
-        entity = argFoo;
-        tangon = entity.channelId;
-        entity = entity.file;
-        zuuluu = _closure1_slot17;
-        michal = entity.id;
-        entity = undefined;
-        entity = zuuluu.bind(entity)(tangon, michal);
-        return entity;
+    var2['UPLOAD_PROGRESS'] = var8;
+    var8 = function handleUploadComplete(arg1) {
+        var1 = arg1;
+        var4 = var1.channelId;
+        var1 = var1.file;
+        var3 = _closure1_slot17;
+        var2 = var1.id;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var4, var2);
+        return var1;
     };
-    michal['UPLOAD_COMPLETE'] = option;
-    option = function(argFoo) { // Original name: handleUploadFail
-        entity = argFoo;
-        tangon = entity.channelId;
-        entity = entity.file;
-        zuuluu = _closure1_slot17;
-        michal = entity.id;
-        entity = undefined;
-        entity = zuuluu.bind(entity)(tangon, michal);
-        return entity;
+    var2['UPLOAD_COMPLETE'] = var8;
+    var8 = function handleUploadFail(arg1) {
+        var1 = arg1;
+        var4 = var1.channelId;
+        var1 = var1.file;
+        var3 = _closure1_slot17;
+        var2 = var1.id;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var4, var2);
+        return var1;
     };
-    michal['UPLOAD_FAIL'] = option;
-    option = function(argFoo) { // Original name: handleUploadCancel
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var2['UPLOAD_FAIL'] = var8;
+    var8 = function handleUploadCancel(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            entity = argFoo;
-            entity = entity.file;
-            zuuluu = _closure1_slot10;
-            entity = entity.id;
-            zuuluu = zuuluu[entity];
-            var _closure2_slot0 = zuuluu;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00022_ip = 59; continue _fun00021 }
+            var1 = arg1;
+            var1 = var1.file;
+            var3 = _closure1_slot10;
+            var1 = var1.id;
+            var3 = var3[var1];
+            var _closure2_slot0 = var3;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0011_ip = 59; continue _fun0011 }
  37:
-            entity = global;
-            zuuluu = entity.setImmediate;
-            entity = undefined;
-            michal = function() {
-                _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+            var1 = global;
+            var3 = var1.setImmediate;
+            var1 = undefined;
+            var2 = function() {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                    entity = _closure2_slot0;
-                    zuuluu = entity.cancel;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    entity = undefined;
-                    if(zuuluu) { _fun00024_ip = 38; continue _fun00023 }
+                    var1 = _closure2_slot0;
+                    var3 = var1.cancel;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var1 = undefined;
+                    if(var3) { _fun0012_ip = 38; continue _fun0012 }
  24:
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu.cancel;
-                    entity = michal.bind(zuuluu)();
+                    var3 = _closure2_slot0;
+                    var2 = var3.cancel;
+                    var1 = var2.bind(var3)();
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+            var2 = var3.bind(var1)(var2);
+            return var1;
  59:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['UPLOAD_CANCEL_REQUEST'] = option;
-    option = function(argFoo) { // Original name: handleUploadItemCancel
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+    var2['UPLOAD_CANCEL_REQUEST'] = var8;
+    var8 = function handleUploadItemCancel(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-            zuuluu = argFoo;
-            entity = zuuluu.file;
-            zuuluu = zuuluu.itemId;
-            var _closure2_slot0 = zuuluu;
-            zuuluu = _closure1_slot10;
-            entity = entity.id;
-            zuuluu = zuuluu[entity];
-            var _closure2_slot1 = zuuluu;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00026_ip = 69; continue _fun00025 }
+            var3 = arg1;
+            var1 = var3.file;
+            var3 = var3.itemId;
+            var _closure2_slot0 = var3;
+            var3 = _closure1_slot10;
+            var1 = var1.id;
+            var3 = var3[var1];
+            var _closure2_slot1 = var3;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0013_ip = 69; continue _fun0013 }
  47:
-            entity = global;
-            zuuluu = entity.setImmediate;
-            entity = undefined;
-            michal = function() {
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.cancelItem;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1 = global;
+            var3 = var1.setImmediate;
+            var1 = undefined;
+            var2 = function() {
+                var3 = _closure2_slot1;
+                var2 = var3.cancelItem;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+            var2 = var3.bind(var1)(var2);
+            return var1;
  69:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['UPLOAD_ITEM_CANCEL_REQUEST'] = option;
-    option = function(argFoo) { // Original name: handleUploadFileUpdate
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+    var2['UPLOAD_ITEM_CANCEL_REQUEST'] = var8;
+    var8 = function handleUploadFileUpdate(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.channelId;
-            zuuluu = entity.file;
-            report = _closure1_slot11;
-            michal = zuuluu.id;
-            michal = report[michal];
-            golfie = null;
-            if(!(golfie != michal)) { _fun00028_ip = 63; continue _fun00027 }
+            var1 = arg1;
+            var4 = var1.channelId;
+            var3 = var1.file;
+            var5 = _closure1_slot11;
+            var2 = var3.id;
+            var2 = var5[var2];
+            var7 = null;
+            if(!(var7 != var2)) { _fun0014_ip = 63; continue _fun0014 }
  36:
-            oscard = _closure1_slot15;
-            report = michal.nonce;
-            if(!(golfie == report)) { _fun00028_ip = 55; continue _fun00027 }
+            var6 = _closure1_slot15;
+            var5 = var2.nonce;
+            if(!(var7 == var5)) { _fun0014_ip = 55; continue _fun0014 }
  50:
-            report = michal.id;
+            var5 = var2.id;
  55:
-            michal = undefined;
-            michal = oscard.bind(michal)(report, zuuluu);
+            var2 = undefined;
+            var2 = var6.bind(var2)(var5, var3);
  63:
-            michal = _closure1_slot18;
-            entity = undefined;
-            michal = michal.bind(entity)(tangon, zuuluu);
-            return entity;
+            var2 = _closure1_slot18;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var4, var3);
+            return var1;
         }
     };
-    michal['UPLOAD_FILE_UPDATE'] = option;
-    tangon = function(argFoo) { // Original name: restoreFailedUpload
-        entity = argFoo;
-        zuuluu = entity.file;
-        michal = entity.messageId;
-        entity = _closure1_slot12;
-        entity[michal] = zuuluu;
-        entity = undefined;
-        return entity;
+    var2['UPLOAD_FILE_UPDATE'] = var8;
+    var4 = function restoreFailedUpload(arg1) {
+        var1 = arg1;
+        var3 = var1.file;
+        var2 = var1.messageId;
+        var1 = _closure1_slot12;
+        var1[var2] = var3;
+        var1 = undefined;
+        return var1;
     };
-    michal['UPLOAD_RESTORE_FAILED_UPLOAD'] = tangon;
-    tangon = golfie.prototype;
-    tangon = Object.create(tangon, {constructor: {value: golfie}});
-    foxtra = tangon;
-    yankee = michal;
-    michal = new foxtra[golfie](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 8;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'stores/UploadStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['UPLOAD_RESTORE_FAILED_UPLOAD'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var7](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'stores/UploadStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

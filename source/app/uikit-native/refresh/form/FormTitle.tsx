@@ -1,195 +1,195 @@
 // app/uikit-native/refresh/form/FormTitle.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        foxtra = argBaz;
-        zuuluu = argFre;
-        option = argPlu;
-        var _closure1_slot0 = golfie;
-        var _closure1_slot1 = option;
-        entity = global;
-        oscard = entity.Object;
-        tangon = oscard.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(oscard)(zuuluu, entity, michal);
-        entity = 0;
-        tangon = option[entity];
-        michal = argCor;
-        entity = undefined;
-        michal = michal.bind(entity)(tangon);
-        michal = 1;
-        michal = option[michal];
-        michal = golfie.bind(entity)(michal);
-        tangon = michal.View;
-        var _closure1_slot2 = tangon;
-        michal = michal.Platform;
-        michal = 2;
-        michal = option[michal];
-        michal = golfie.bind(entity)(michal);
-        romeon = michal.Fonts;
-        michal = 3;
-        michal = option[michal];
-        michal = golfie.bind(entity)(michal);
-        tangon = michal.jsx;
-        var _closure1_slot3 = tangon;
-        michal = michal.jsxs;
-        var _closure1_slot4 = michal;
-        michal = 4;
-        tangon = option[michal];
-        oscard = golfie.bind(entity)(tangon);
-        tangon = oscard.isAndroid;
-        oscard = tangon.bind(oscard)();
-        tangon = 58;
-        if(!oscard) { _fun00002_ip = 175; continue _fun00001 }
+        var7 = native2;
+        var13 = native3;
+        var3 = native6;
+        var8 = native7;
+        var _closure1_slot0 = var7;
+        var _closure1_slot1 = var8;
+        var1 = global;
+        var6 = var1.Object;
+        var4 = var6.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var6)(var3, var1, var2);
+        var1 = 0;
+        var4 = var8[var1];
+        var2 = native4;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var4);
+        var2 = 1;
+        var2 = var8[var2];
+        var2 = var7.bind(var1)(var2);
+        var4 = var2.View;
+        var _closure1_slot2 = var4;
+        var2 = var2.Platform;
+        var2 = 2;
+        var2 = var8[var2];
+        var2 = var7.bind(var1)(var2);
+        var12 = var2.Fonts;
+        var2 = 3;
+        var2 = var8[var2];
+        var2 = var7.bind(var1)(var2);
+        var4 = var2.jsx;
+        var _closure1_slot3 = var4;
+        var2 = var2.jsxs;
+        var _closure1_slot4 = var2;
+        var2 = 4;
+        var4 = var8[var2];
+        var6 = var7.bind(var1)(var4);
+        var4 = var6.isAndroid;
+        var6 = var4.bind(var6)();
+        var4 = 58;
+        if(!var6) { _fun0001_ip = 175; continue _fun0001 }
  172:
-        tangon = 48;
+        var4 = 48;
  175:
-        michal = option[michal];
-        oscard = golfie.bind(entity)(michal);
-        michal = oscard.isAndroid;
-        oscard = michal.bind(oscard)();
-        michal = 48;
-        if(!oscard) { _fun00002_ip = 202; continue _fun00001 }
+        var2 = var8[var2];
+        var6 = var7.bind(var1)(var2);
+        var2 = var6.isAndroid;
+        var6 = var2.bind(var6)();
+        var2 = 48;
+        if(!var6) { _fun0001_ip = 202; continue _fun0001 }
  199:
-        michal = 56;
+        var2 = 56;
  202:
-        oscard = 5;
-        oscard = option[oscard];
-        offset = golfie.bind(entity)(oscard);
-        verify = offset.createStyles;
-        oscard = {};
-        backup = 16;
-        yankee = {'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingTop': 16, 'paddingBottom': 16};
-        oscard['titleWrapper'] = yankee;
-        yankee = {};
-        yankee['paddingHorizontal'] = backup;
-        oscard['horizontalPadding'] = yankee;
-        yankee = {};
-        backup = 26;
-        yankee['paddingTop'] = backup;
-        oscard['thinTitle'] = yankee;
-        yankee = {};
-        romeon = romeon.PRIMARY_SEMIBOLD;
-        yankee['fontFamily'] = romeon;
-        romeon = 13;
-        yankee['fontSize'] = romeon;
-        romeon = 6;
-        backup = option[romeon];
-        backup = foxtra.bind(entity)(backup);
-        backup = backup.colors;
-        backup = backup.HEADER_SECONDARY;
-        yankee['color'] = backup;
-        oscard['titleText'] = yankee;
-        yankee = {};
-        romeon = option[romeon];
-        romeon = foxtra.bind(entity)(romeon);
-        romeon = romeon.unsafe_rawColors;
-        romeon = romeon.RED_400;
-        yankee['color'] = romeon;
-        oscard['error'] = yankee;
-        oscard = verify.bind(offset)(oscard);
-        var _closure1_slot5 = oscard;
-        oscard = 8;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'uikit-native/refresh/form/FormTitle.tsx';
-        oscard = golfie.bind(option)(oscard);
-        report = function(argFoo) { // Original name: FormTitle
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = 5;
+        var6 = var8[var6];
+        var10 = var7.bind(var1)(var6);
+        var9 = var10.createStyles;
+        var6 = {};
+        var14 = 16;
+        var11 = {'flexDirection': 'row', 'justifyContent': 'space-between', 'paddingTop': 16, 'paddingBottom': 16};
+        var6['titleWrapper'] = var11;
+        var11 = {};
+        var11['paddingHorizontal'] = var14;
+        var6['horizontalPadding'] = var11;
+        var11 = {};
+        var14 = 26;
+        var11['paddingTop'] = var14;
+        var6['thinTitle'] = var11;
+        var11 = {};
+        var12 = var12.PRIMARY_SEMIBOLD;
+        var11['fontFamily'] = var12;
+        var12 = 13;
+        var11['fontSize'] = var12;
+        var12 = 6;
+        var14 = var8[var12];
+        var14 = var13.bind(var1)(var14);
+        var14 = var14.colors;
+        var14 = var14.HEADER_SECONDARY;
+        var11['color'] = var14;
+        var6['titleText'] = var11;
+        var11 = {};
+        var12 = var8[var12];
+        var12 = var13.bind(var1)(var12);
+        var12 = var12.unsafe_rawColors;
+        var12 = var12.RED_400;
+        var11['color'] = var12;
+        var6['error'] = var11;
+        var6 = var9.bind(var10)(var6);
+        var _closure1_slot5 = var6;
+        var6 = 8;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'uikit-native/refresh/form/FormTitle.tsx';
+        var6 = var7.bind(var8)(var6);
+        var5 = function FormTitle(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                yankee = entity.title;
-                oscard = entity.icon;
-                verify = entity.numberOfLines;
-                offset = entity.uppercaseTitle;
-                tangon = undefined;
-                if(!(offset === tangon)) { _fun00004_ip = 33; continue _fun00003 }
+                var1 = arg1;
+                var11 = var1.title;
+                var6 = var1.icon;
+                var9 = var1.numberOfLines;
+                var10 = var1.uppercaseTitle;
+                var4 = undefined;
+                if(!(var10 === var4)) { _fun0002_ip = 33; continue _fun0002 }
  31:
-                offset = true;
+                var10 = true;
  33:
-                sizing = entity.thinTitle;
-                if(!(sizing === tangon)) { _fun00004_ip = 45; continue _fun00003 }
+                var16 = var1.thinTitle;
+                if(!(var16 === var4)) { _fun0002_ip = 45; continue _fun0002 }
  43:
-                sizing = false;
+                var16 = false;
  45:
-                foxtra = entity.error;
-                if(!(foxtra === tangon)) { _fun00004_ip = 56; continue _fun00003 }
+                var13 = var1.error;
+                if(!(var13 === var4)) { _fun0002_ip = 56; continue _fun0002 }
  54:
-                foxtra = false;
+                var13 = false;
  56:
-                romeon = entity.inset;
-                if(!(romeon === tangon)) { _fun00004_ip = 68; continue _fun00003 }
+                var12 = var1.inset;
+                if(!(var12 === var4)) { _fun0002_ip = 68; continue _fun0002 }
  66:
-                romeon = false;
+                var12 = false;
  68:
-                option = entity.viewStyle;
-                kiloes = entity.textStyle;
-                entity = _closure1_slot5;
-                backup = entity.bind(tangon)();
-                zuuluu = _closure1_slot4;
-                michal = _closure1_slot2;
-                entity = {};
-                output = backup.titleWrapper;
-                golfie = new Array(4);
-                golfie[0] = output;
-                if(!sizing) { _fun00004_ip = 124; continue _fun00003 }
+                var8 = var1.viewStyle;
+                var15 = var1.textStyle;
+                var1 = _closure1_slot5;
+                var14 = var1.bind(var4)();
+                var3 = _closure1_slot4;
+                var2 = _closure1_slot2;
+                var1 = {};
+                var17 = var14.titleWrapper;
+                var7 = new Array(4);
+                var7[0] = var17;
+                if(!var16) { _fun0002_ip = 124; continue _fun0002 }
  118:
-                sizing = backup.thinTitle;
+                var16 = var14.thinTitle;
  124:
-                golfie[1] = sizing;
-                romeon = !romeon;
-                if(!romeon) { _fun00004_ip = 140; continue _fun00003 }
+                var7[1] = var16;
+                var12 = !var12;
+                if(!var12) { _fun0002_ip = 140; continue _fun0002 }
  134:
-                romeon = backup.horizontalPadding;
+                var12 = var14.horizontalPadding;
  140:
-                golfie[2] = romeon;
-                golfie[3] = option;
-                entity['style'] = golfie;
-                option = _closure1_slot3;
-                golfie = _closure1_slot0;
-                romeon = _closure1_slot1;
-                report = 7;
-                report = romeon[report];
-                report = golfie.bind(tangon)(report);
-                golfie = report.LegacyText;
-                report = {};
-                sizing = backup.titleText;
-                romeon = new Array(3);
-                romeon[0] = sizing;
-                romeon[1] = kiloes;
-                if(!foxtra) { _fun00004_ip = 210; continue _fun00003 }
+                var7[2] = var12;
+                var7[3] = var8;
+                var1['style'] = var7;
+                var8 = _closure1_slot3;
+                var7 = _closure1_slot0;
+                var12 = _closure1_slot1;
+                var5 = 7;
+                var5 = var12[var5];
+                var5 = var7.bind(var4)(var5);
+                var7 = var5.LegacyText;
+                var5 = {};
+                var16 = var14.titleText;
+                var12 = new Array(3);
+                var12[0] = var16;
+                var12[1] = var15;
+                if(!var13) { _fun0002_ip = 210; continue _fun0002 }
  205:
-                foxtra = backup.error;
+                var13 = var14.error;
  210:
-                romeon[2] = foxtra;
-                report['style'] = romeon;
-                report['numberOfLines'] = verify;
-                verify = 'header';
-                report['accessibilityRole'] = verify;
-                verify = yankee;
-                if(!offset) { _fun00004_ip = 247; continue _fun00003 }
+                var12[2] = var13;
+                var5['style'] = var12;
+                var5['numberOfLines'] = var9;
+                var9 = 'header';
+                var5['accessibilityRole'] = var9;
+                var9 = var11;
+                if(!var10) { _fun0002_ip = 247; continue _fun0002 }
  237:
-                offset = yankee.toUpperCase;
-                verify = offset.bind(yankee)();
+                var10 = var11.toUpperCase;
+                var9 = var10.bind(var11)();
  247:
-                report['children'] = verify;
-                golfie = option.bind(tangon)(golfie, report);
-                report = new Array(2);
-                report[0] = golfie;
-                report[1] = oscard;
-                entity['children'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var5['children'] = var9;
+                var7 = var8.bind(var4)(var7, var5);
+                var5 = new Array(2);
+                var5[0] = var7;
+                var5[1] = var6;
+                var1['children'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
-        zuuluu['default'] = report;
-        zuuluu['FORM_TITLE_HEIGHT'] = tangon;
-        zuuluu['THIN_FORM_TITLE_HEIGHT'] = michal;
-        return entity;
+        var3['default'] = var5;
+        var3['FORM_TITLE_HEIGHT'] = var4;
+        var3['THIN_FORM_TITLE_HEIGHT'] = var2;
+        return var1;
     }
 })();

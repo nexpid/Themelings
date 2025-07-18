@@ -1,159 +1,159 @@
 // app/modules/create_guild/CreateGuildActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _createGuildFromTemplate
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz, argCor, argGra) {
-            entity = function* (argFoo, argBar, argBaz, argCor, argGra) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _createGuildFromTemplate() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3, arg4, arg5) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4, arg5) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 308; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 308; continue _fun0001 }
  10:
-                    romeon = argFoo;
-                    verify = argBar;
-                    option = argBaz;
-                    golfie = argCor;
-                    yankee = argGra;
+                    var12 = arg1;
+                    var9 = arg2;
+                    var8 = arg3;
+                    var7 = arg4;
+                    var11 = arg5;
  25: // try_start_0
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 2;
-                    michal = tangon[michal];
-                    offset = undefined;
-                    tangon = zuuluu.bind(offset)(michal);
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.GUILDS;
-                    michal['url'] = report;
-                    report = {};
-                    report['name'] = romeon;
-                    report['icon'] = verify;
-                    verify = option;
-                    romeon = verify.channels;
-                    report['channels'] = romeon;
-                    romeon = verify.system_channel_id;
-                    report['system_channel_id'] = romeon;
-                    romeon = verify.roles;
-                    report['roles'] = romeon;
-                    verify = verify.code;
-                    report['guild_template_code'] = verify;
-                    yankee = !yankee;
-                    verify = !yankee;
-                    if(!yankee) { _fun00002_ip = 139; continue _fun00001 }
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var4[var2];
+                    var10 = undefined;
+                    var4 = var3.bind(var10)(var2);
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.GUILDS;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var5['name'] = var12;
+                    var5['icon'] = var9;
+                    var9 = var8;
+                    var12 = var9.channels;
+                    var5['channels'] = var12;
+                    var12 = var9.system_channel_id;
+                    var5['system_channel_id'] = var12;
+                    var12 = var9.roles;
+                    var5['roles'] = var12;
+                    var9 = var9.code;
+                    var5['guild_template_code'] = var9;
+                    var11 = !var11;
+                    var9 = !var11;
+                    if(!var11) { _fun0001_ip = 139; continue _fun0001 }
  137:
-                    verify = undefined;
+                    var9 = undefined;
  139:
-                    report['staff_only'] = verify;
-                    michal['body'] = report;
-                    report = {};
-                    verify = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    oscard = 3;
-                    oscard = yankee[oscard];
-                    oscard = verify.bind(offset)(oscard);
-                    oscard = oscard.NetworkActionNames;
-                    oscard = oscard.GUILD_CREATE;
-                    report['event'] = oscard;
-                    oscard = {};
-                    option = option.id;
-                    oscard['template_name'] = option;
-                    oscard['is_community_intent'] = golfie;
-                    report['properties'] = oscard;
-                    michal['trackedActionData'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var5['staff_only'] = var9;
+                    var2['body'] = var5;
+                    var5 = {};
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var6 = 3;
+                    var6 = var11[var6];
+                    var6 = var9.bind(var10)(var6);
+                    var6 = var6.NetworkActionNames;
+                    var6 = var6.GUILD_CREATE;
+                    var5['event'] = var6;
+                    var6 = {};
+                    var8 = var8.id;
+                    var6['template_name'] = var8;
+                    var6['is_community_intent'] = var7;
+                    var5['properties'] = var6;
+                    var2['trackedActionData'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=233);
  231:
-                    return michal;
+                    return var2;
  233:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 247; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 247; continue _fun0001 }
  239:
-                    zuuluu = michal.body;
+                    var3 = var2.body;
  244: // try_end0
-                    return zuuluu;
+                    return var3;
  247:
-                    return michal;
+                    return var2;
  250: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 4;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = report.bind(michal)(zuuluu);
-                    michal = michal.APIError;
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    backup = zuuluu;
-                    foxtra = tangon;
-                    michal = new backup[michal](foxtra, romeon);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    throw michal;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 4;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var3);
+                    var2 = var2.APIError;
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var14 = var3;
+                    var13 = var4;
+                    var2 = new var14[var2](var13, var12);
+                    var2 = var2 instanceof Object ? var2 : var3;
+                    throw var2;
  308:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.Endpoints;
-    var _closure1_slot4 = michal;
-    michal = {};
-    tangon = function() { // Original name: createGuildFromTemplate
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Endpoints;
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var4 = function createGuildFromTemplate() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    michal['createGuildFromTemplate'] = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/create_guild/CreateGuildActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['createGuildFromTemplate'] = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/create_guild/CreateGuildActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

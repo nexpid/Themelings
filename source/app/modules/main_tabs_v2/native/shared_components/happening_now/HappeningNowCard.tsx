@@ -1,447 +1,447 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.HAPPENING_NOW_CARD_MARGIN_RIGHT;
-    var _closure1_slot5 = golfie;
-    option = tangon.HAPPENING_NOW_CARD_PADDING;
-    var _closure1_slot6 = option;
-    option = tangon.HAPPENING_NOW_CARD_HEIGHT;
-    var _closure1_slot7 = option;
-    yankee = tangon.HAPPENING_NOW_BADGE_SIZE;
-    var _closure1_slot8 = yankee;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_SMALL_MIN;
-    var _closure1_slot9 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_SMALL_MAX;
-    var _closure1_slot10 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MIN;
-    var _closure1_slot11 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MAX;
-    var _closure1_slot12 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_LARGE_MIN;
-    var _closure1_slot13 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_LARGE_MAX;
-    var _closure1_slot14 = option;
-    option = tangon.HAPPENING_NOW_CARD_PADDING_RIGHT;
-    var _closure1_slot15 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MIN;
-    var _closure1_slot16 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MAX;
-    var _closure1_slot17 = option;
-    option = tangon.HAPPENING_NOW_CARD_WIDTH_LARGE_PANELS_MAX;
-    var _closure1_slot18 = option;
-    tangon = tangon.HAPPENING_NOW_PANELS_CONTAINER_PADDING;
-    offset = 4;
-    option = oscard[offset];
-    option = report.bind(entity)(option);
-    verify = option.jsx;
-    var _closure1_slot19 = verify;
-    option = option.jsxs;
-    var _closure1_slot20 = option;
-    tangon = tangon + golfie;
-    var _closure1_slot21 = tangon;
-    tangon = 5;
-    golfie = oscard[tangon];
-    verify = report.bind(entity)(golfie);
-    option = verify.createStyles;
-    golfie = function(argFoo, argBar, argBaz) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.HAPPENING_NOW_CARD_MARGIN_RIGHT;
+    var _closure1_slot5 = var7;
+    var8 = var4.HAPPENING_NOW_CARD_PADDING;
+    var _closure1_slot6 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_HEIGHT;
+    var _closure1_slot7 = var8;
+    var11 = var4.HAPPENING_NOW_BADGE_SIZE;
+    var _closure1_slot8 = var11;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_SMALL_MIN;
+    var _closure1_slot9 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_SMALL_MAX;
+    var _closure1_slot10 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MIN;
+    var _closure1_slot11 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MAX;
+    var _closure1_slot12 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_MIN;
+    var _closure1_slot13 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_MAX;
+    var _closure1_slot14 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_PADDING_RIGHT;
+    var _closure1_slot15 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MIN;
+    var _closure1_slot16 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MAX;
+    var _closure1_slot17 = var8;
+    var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_PANELS_MAX;
+    var _closure1_slot18 = var8;
+    var4 = var4.HAPPENING_NOW_PANELS_CONTAINER_PADDING;
+    var10 = 4;
+    var8 = var6[var10];
+    var8 = var5.bind(var1)(var8);
+    var9 = var8.jsx;
+    var _closure1_slot19 = var9;
+    var8 = var8.jsxs;
+    var _closure1_slot20 = var8;
+    var4 = var4 + var7;
+    var _closure1_slot21 = var4;
+    var4 = 5;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = function(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            michal = argBar;
-            zuuluu = argBaz;
-            entity = 'small';
-            if(!(entity !== report)) { _fun00002_ip = 221; continue _fun00001 }
+            var5 = arg1;
+            var2 = arg2;
+            var3 = arg3;
+            var1 = 'small';
+            if(!(var1 !== var5)) { _fun0001_ip = 221; continue _fun0001 }
  20:
-            entity = 'medium';
-            if(!(entity !== report)) { _fun00002_ip = 193; continue _fun00001 }
+            var1 = 'medium';
+            if(!(var1 !== var5)) { _fun0001_ip = 193; continue _fun0001 }
  31:
-            entity = 'large';
-            if(!(entity !== report)) { _fun00002_ip = 137; continue _fun00001 }
+            var1 = 'large';
+            if(!(var1 !== var5)) { _fun0001_ip = 137; continue _fun0001 }
  39:
-            entity = 'stretchy';
-            if(!(entity !== report)) { _fun00002_ip = 81; continue _fun00001 }
+            var1 = 'stretchy';
+            if(!(var1 !== var5)) { _fun0001_ip = 81; continue _fun0001 }
  49:
-            entity = 'full';
-            tangon = undefined;
-            if(!(entity === report)) { _fun00002_ip = 247; continue _fun00001 }
+            var1 = 'full';
+            var4 = undefined;
+            if(!(var1 === var5)) { _fun0001_ip = 247; continue _fun0001 }
  62:
-            tangon = {'width': 'auto', 'marginLeft': 0, 'marginRight': 0};
-            _fun00002_ip = 247; continue _fun00001;
+            var4 = {'width': 'auto', 'marginLeft': 0, 'marginRight': 0};
+            _fun0001_ip = 247; continue _fun0001;
  81:
-            entity = {};
-            report = _closure1_slot16;
-            entity['minWidth'] = report;
-            if(michal) { _fun00002_ip = 104; continue _fun00001 }
+            var1 = {};
+            var5 = _closure1_slot16;
+            var1['minWidth'] = var5;
+            if(var2) { _fun0001_ip = 104; continue _fun0001 }
  98:
-            report = _closure1_slot17;
-            _fun00002_ip = 127; continue _fun00001;
+            var5 = _closure1_slot17;
+            _fun0001_ip = 127; continue _fun0001;
  104:
-            if(zuuluu) { _fun00002_ip = 113; continue _fun00001 }
+            if(var3) { _fun0001_ip = 113; continue _fun0001 }
  107:
-            oscard = _closure1_slot18;
-            _fun00002_ip = 124; continue _fun00001;
+            var6 = _closure1_slot18;
+            _fun0001_ip = 124; continue _fun0001;
  113:
-            option = _closure1_slot21;
-            golfie = 252;
-            oscard = golfie - option;
+            var8 = _closure1_slot21;
+            var7 = 252;
+            var6 = var7 - var8;
  124:
-            report = oscard;
+            var5 = var6;
  127:
-            entity['maxWidth'] = report;
-            tangon = entity;
-            _fun00002_ip = 247; continue _fun00001;
+            var1['maxWidth'] = var5;
+            var4 = var1;
+            _fun0001_ip = 247; continue _fun0001;
  137:
-            entity = {};
-            oscard = _closure1_slot13;
-            entity['minWidth'] = oscard;
-            if(michal) { _fun00002_ip = 160; continue _fun00001 }
+            var1 = {};
+            var6 = _closure1_slot13;
+            var1['minWidth'] = var6;
+            if(var2) { _fun0001_ip = 160; continue _fun0001 }
  154:
-            michal = _closure1_slot14;
-            _fun00002_ip = 183; continue _fun00001;
+            var2 = _closure1_slot14;
+            _fun0001_ip = 183; continue _fun0001;
  160:
-            if(zuuluu) { _fun00002_ip = 169; continue _fun00001 }
+            if(var3) { _fun0001_ip = 169; continue _fun0001 }
  163:
-            zuuluu = _closure1_slot18;
-            _fun00002_ip = 180; continue _fun00001;
+            var3 = _closure1_slot18;
+            _fun0001_ip = 180; continue _fun0001;
  169:
-            oscard = _closure1_slot21;
-            report = 252;
-            zuuluu = report - oscard;
+            var6 = _closure1_slot21;
+            var5 = 252;
+            var3 = var5 - var6;
  180:
-            michal = zuuluu;
+            var2 = var3;
  183:
-            entity['maxWidth'] = michal;
-            tangon = entity;
-            _fun00002_ip = 247; continue _fun00001;
+            var1['maxWidth'] = var2;
+            var4 = var1;
+            _fun0001_ip = 247; continue _fun0001;
  193:
-            entity = {};
-            zuuluu = _closure1_slot11;
-            entity['minWidth'] = zuuluu;
-            michal = _closure1_slot12;
-            entity['maxWidth'] = michal;
-            tangon = entity;
-            _fun00002_ip = 247; continue _fun00001;
+            var1 = {};
+            var3 = _closure1_slot11;
+            var1['minWidth'] = var3;
+            var2 = _closure1_slot12;
+            var1['maxWidth'] = var2;
+            var4 = var1;
+            _fun0001_ip = 247; continue _fun0001;
  221:
-            entity = {};
-            zuuluu = _closure1_slot9;
-            entity['minWidth'] = zuuluu;
-            michal = _closure1_slot10;
-            entity['maxWidth'] = michal;
-            tangon = entity;
+            var1 = {};
+            var3 = _closure1_slot9;
+            var1['minWidth'] = var3;
+            var2 = _closure1_slot10;
+            var1['maxWidth'] = var2;
+            var4 = var1;
  247:
-            entity = {};
-            michal = {};
-            report = _closure1_slot6;
-            michal['padding'] = report;
-            report = _closure1_slot15;
-            michal['paddingRight'] = report;
-            report = _closure1_slot5;
-            michal['marginRight'] = report;
-            report = _closure1_slot7;
-            michal['height'] = report;
-            report = 'row';
-            michal['flexDirection'] = report;
-            report = 'center';
-            michal['alignItems'] = report;
-            offset = michal;
-            verify = tangon;
-            tangon = copyDataProperties(offset, verify);
-            entity['card'] = michal;
-            michal = {'position': 'absolute', 'top': 0, 'right': 0};
-            entity['cardBadgeWrapper'] = michal;
-            michal = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
-            tangon = _closure1_slot8;
-            michal['width'] = tangon;
-            michal['height'] = tangon;
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 6;
-            golfie = oscard[zuuluu];
-            tangon = undefined;
-            golfie = report.bind(tangon)(golfie);
-            golfie = golfie.colors;
-            golfie = golfie.BG_MOD_SUBTLE;
-            michal['backgroundColor'] = golfie;
-            golfie = oscard[zuuluu];
-            golfie = report.bind(tangon)(golfie);
-            golfie = golfie.radii;
-            option = golfie.lg;
-            golfie = 1;
-            golfie = option - golfie;
-            michal['borderTopRightRadius'] = golfie;
-            golfie = oscard[zuuluu];
-            golfie = report.bind(tangon)(golfie);
-            golfie = golfie.radii;
-            golfie = golfie.md;
-            michal['borderBottomLeftRadius'] = golfie;
-            entity['cardBadge'] = michal;
-            michal = {};
-            zuuluu = oscard[zuuluu];
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.colors;
-            zuuluu = zuuluu.REDESIGN_ACTIVITY_CARD_BADGE_ICON;
-            michal['color'] = zuuluu;
-            entity['cardBadgeIcon'] = michal;
-            return entity;
+            var1 = {};
+            var2 = {};
+            var5 = _closure1_slot6;
+            var2['padding'] = var5;
+            var5 = _closure1_slot15;
+            var2['paddingRight'] = var5;
+            var5 = _closure1_slot5;
+            var2['marginRight'] = var5;
+            var5 = _closure1_slot7;
+            var2['height'] = var5;
+            var5 = 'row';
+            var2['flexDirection'] = var5;
+            var5 = 'center';
+            var2['alignItems'] = var5;
+            var10 = var2;
+            var9 = var4;
+            var4 = copyDataProperties(var10, var9);
+            var1['card'] = var2;
+            var2 = {'position': 'absolute', 'top': 0, 'right': 0};
+            var1['cardBadgeWrapper'] = var2;
+            var2 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
+            var4 = _closure1_slot8;
+            var2['width'] = var4;
+            var2['height'] = var4;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 6;
+            var7 = var6[var3];
+            var4 = undefined;
+            var7 = var5.bind(var4)(var7);
+            var7 = var7.colors;
+            var7 = var7.BG_MOD_SUBTLE;
+            var2['backgroundColor'] = var7;
+            var7 = var6[var3];
+            var7 = var5.bind(var4)(var7);
+            var7 = var7.radii;
+            var8 = var7.lg;
+            var7 = 1;
+            var7 = var8 - var7;
+            var2['borderTopRightRadius'] = var7;
+            var7 = var6[var3];
+            var7 = var5.bind(var4)(var7);
+            var7 = var7.radii;
+            var7 = var7.md;
+            var2['borderBottomLeftRadius'] = var7;
+            var1['cardBadge'] = var2;
+            var2 = {};
+            var3 = var6[var3];
+            var3 = var5.bind(var4)(var3);
+            var3 = var3.colors;
+            var3 = var3.REDESIGN_ACTIVITY_CARD_BADGE_ICON;
+            var2['color'] = var3;
+            var1['cardBadgeIcon'] = var2;
+            return var1;
         }
     };
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot22 = golfie;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = yankee + offset;
-    verify['marginRight'] = offset;
-    tangon['cardHeaderMargin'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot23 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: HappeningNowCard
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot22 = var7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = var11 + var10;
+    var9['marginRight'] = var10;
+    var4['cardHeaderMargin'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot23 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function HappeningNowCard(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            sizing = argFoo;
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            entity = zuuluu[entity];
-            tangon = undefined;
-            entity = michal.bind(tangon)(entity);
-            report = entity.bind(tangon)();
-            zuuluu = _closure1_slot22;
-            michal = sizing.width;
-            oscard = sizing.panelVariant;
-            yankee = null;
-            entity = yankee != oscard;
-            if(!entity) { _fun00004_ip = 59; continue _fun00003 }
+            var16 = arg1;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 7;
+            var1 = var3[var1];
+            var4 = undefined;
+            var1 = var2.bind(var4)(var1);
+            var5 = var1.bind(var4)();
+            var3 = _closure1_slot22;
+            var2 = var16.width;
+            var6 = var16.panelVariant;
+            var11 = null;
+            var1 = var11 != var6;
+            if(!var1) { _fun0002_ip = 59; continue _fun0002 }
  56:
-            entity = oscard;
+            var1 = var6;
  59:
-            output = zuuluu.bind(tangon)(michal, entity, report);
-            michal = _closure1_slot0;
-            option = _closure1_slot2;
-            entity = 8;
-            entity = option[entity];
-            oscard = michal.bind(tangon)(entity);
-            report = oscard.useStateFromStores;
-            entity = _closure1_slot4;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                entity = _closure1_slot4;
-                entity = entity.gradientPreset;
-                return entity;
+            var17 = var3.bind(var4)(var2, var1, var5);
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 8;
+            var1 = var8[var1];
+            var6 = var2.bind(var4)(var1);
+            var5 = var6.useStateFromStores;
+            var1 = _closure1_slot4;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var1 = _closure1_slot4;
+                var1 = var1.gradientPreset;
+                return var1;
             };
-            golfie = report.bind(oscard)(zuuluu, entity);
-            backup = sizing.IconComponent;
-            oscard = sizing.accessibilityLabel;
-            report = sizing.accessibilityHint;
-            zuuluu = _closure1_slot20;
-            entity = 9;
-            entity = option[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Card;
-            entity = {};
-            option = 'secondary';
-            entity['variant'] = option;
-            verify = output.card;
-            option = new Array(2);
-            option[0] = verify;
-            verify = sizing.style;
-            option[1] = verify;
-            entity['style'] = option;
-            option = sizing.onPress;
-            entity['onPress'] = option;
-            option = 'faint';
-            entity['border'] = option;
-            option = yankee == golfie;
-            golfie = undefined;
-            if(!option) { _fun00004_ip = 227; continue _fun00003 }
+            var7 = var5.bind(var6)(var3, var1);
+            var14 = var16.IconComponent;
+            var6 = var16.accessibilityLabel;
+            var5 = var16.accessibilityHint;
+            var3 = _closure1_slot20;
+            var1 = 9;
+            var1 = var8[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Card;
+            var1 = {};
+            var8 = 'secondary';
+            var1['variant'] = var8;
+            var9 = var17.card;
+            var8 = new Array(2);
+            var8[0] = var9;
+            var9 = var16.style;
+            var8[1] = var9;
+            var1['style'] = var8;
+            var8 = var16.onPress;
+            var1['onPress'] = var8;
+            var8 = 'faint';
+            var1['border'] = var8;
+            var8 = var11 == var7;
+            var7 = undefined;
+            if(!var8) { _fun0002_ip = 227; continue _fun0002 }
  223:
-            golfie = 'low';
+            var7 = 'low';
  227:
-            entity['shadow'] = golfie;
-            golfie = sizing.onLongPress;
-            entity['onLongPress'] = golfie;
-            golfie = sizing.onPress;
-            golfie = yankee == golfie;
-            entity['disabled'] = golfie;
-            entity['accessibilityLabel'] = oscard;
-            entity['accessibilityHint'] = report;
-            oscard = sizing.children;
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = sizing.badgeIcon;
-            golfie = yankee != oscard;
-            oscard = null;
-            if(!golfie) { _fun00004_ip = 456; continue _fun00003 }
+            var1['shadow'] = var7;
+            var7 = var16.onLongPress;
+            var1['onLongPress'] = var7;
+            var7 = var16.onPress;
+            var7 = var11 == var7;
+            var1['disabled'] = var7;
+            var1['accessibilityLabel'] = var6;
+            var1['accessibilityHint'] = var5;
+            var6 = var16.children;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = var16.badgeIcon;
+            var7 = var11 != var6;
+            var6 = null;
+            if(!var7) { _fun0002_ip = 456; continue _fun0002 }
  296:
-            verify = _closure1_slot19;
-            option = _closure1_slot3;
-            golfie = {};
-            offset = output.cardBadgeWrapper;
-            golfie['style'] = offset;
-            offset = {};
-            foxtra = output.cardBadge;
-            offset['style'] = foxtra;
-            if(!(yankee == backup)) { _fun00004_ip = 416; continue _fun00003 }
+            var9 = _closure1_slot19;
+            var8 = _closure1_slot3;
+            var7 = {};
+            var10 = var17.cardBadgeWrapper;
+            var7['style'] = var10;
+            var10 = {};
+            var13 = var17.cardBadge;
+            var10['style'] = var13;
+            if(!(var11 == var14)) { _fun0002_ip = 416; continue _fun0002 }
  332:
-            kiloes = _closure1_slot19;
-            echoed = _closure1_slot1;
-            update = _closure1_slot2;
-            result = 10;
-            yankee = update[result];
-            foxtra = echoed.bind(tangon)(yankee);
-            yankee = {};
-            result = update[result];
-            result = echoed.bind(tangon)(result);
-            result = result.Sizes;
-            result = result.REFRESH_SMALL_16;
-            yankee['size'] = result;
-            output = output.cardBadgeIcon;
-            output = output.color;
-            yankee['color'] = output;
-            sizing = sizing.badgeIcon;
-            yankee['source'] = sizing;
-            yankee = kiloes.bind(tangon)(foxtra, yankee);
-            _fun00004_ip = 436; continue _fun00003;
+            var15 = _closure1_slot19;
+            var19 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var18 = 10;
+            var11 = var20[var18];
+            var13 = var19.bind(var4)(var11);
+            var11 = {};
+            var18 = var20[var18];
+            var18 = var19.bind(var4)(var18);
+            var18 = var18.Sizes;
+            var18 = var18.REFRESH_SMALL_16;
+            var11['size'] = var18;
+            var17 = var17.cardBadgeIcon;
+            var17 = var17.color;
+            var11['color'] = var17;
+            var16 = var16.badgeIcon;
+            var11['source'] = var16;
+            var11 = var15.bind(var4)(var13, var11);
+            _fun0002_ip = 436; continue _fun0002;
  416:
-            foxtra = _closure1_slot19;
-            romeon = {};
-            kiloes = 'xs';
-            romeon['size'] = kiloes;
-            yankee = foxtra.bind(tangon)(backup, romeon);
+            var13 = _closure1_slot19;
+            var12 = {};
+            var15 = 'xs';
+            var12['size'] = var15;
+            var11 = var13.bind(var4)(var14, var12);
  436:
-            offset['children'] = yankee;
-            offset = verify.bind(tangon)(option, offset);
-            golfie['children'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var10['children'] = var11;
+            var10 = var9.bind(var4)(var8, var10);
+            var7['children'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  456:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo) { // Original name: HappeningNowCardHeader
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var4;
+    var4 = function HappeningNowCardHeader(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            oscard = zuuluu.children;
-            verify = zuuluu.noMargin;
-            golfie = null;
-            michal = Object.create(golfie);
-            entity = 0;
-            michal['children'] = entity;
-            michal['noMargin'] = entity;
-            foxtra = {};
-            romeon = zuuluu;
-            yankee = michal;
-            report = copyDataProperties(foxtra, romeon, yankee);
-            michal = _closure1_slot23;
-            tangon = undefined;
-            option = michal.bind(tangon)();
-            zuuluu = _closure1_slot19;
-            michal = _closure1_slot0;
-            offset = _closure1_slot2;
-            entity = 11;
-            entity = offset[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Text;
-            entity = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            if(verify) { _fun00006_ip = 107; continue _fun00005 }
+            var3 = arg1;
+            var6 = var3.children;
+            var9 = var3.noMargin;
+            var7 = null;
+            var2 = Object.create(var7);
+            var1 = 0;
+            var2['children'] = var1;
+            var2['noMargin'] = var1;
+            var13 = {};
+            var12 = var3;
+            var11 = var2;
+            var5 = copyDataProperties(var13, var12, var11);
+            var2 = _closure1_slot23;
+            var4 = undefined;
+            var8 = var2.bind(var4)();
+            var3 = _closure1_slot19;
+            var2 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var1 = 11;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Text;
+            var1 = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+            if(var9) { _fun0003_ip = 107; continue _fun0003 }
  101:
-            golfie = option.cardHeaderMargin;
+            var7 = var8.cardHeaderMargin;
  107:
-            entity['style'] = golfie;
-            foxtra = entity;
-            romeon = report;
-            report = copyDataProperties(foxtra, romeon);
-            report = 'children';
-            entity[report] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['style'] = var7;
+            var13 = var1;
+            var12 = var5;
+            var5 = copyDataProperties(var13, var12);
+            var5 = 'children';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['HappeningNowCardHeader'] = tangon;
-    michal = function(argFoo) { // Original name: HappeningNowCardSubtitle
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['HappeningNowCardHeader'] = var4;
+    var2 = function HappeningNowCardSubtitle(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            oscard = zuuluu.children;
-            option = zuuluu.variant;
-            golfie = null;
-            michal = Object.create(golfie);
-            entity = 0;
-            michal['children'] = entity;
-            michal['variant'] = entity;
-            romeon = {};
-            yankee = zuuluu;
-            offset = michal;
-            report = copyDataProperties(romeon, yankee, offset);
-            tangon = _closure1_slot19;
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 11;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = michal.bind(zuuluu)(entity);
-            michal = entity.Text;
-            entity = {'variant': null, 'color': 'header-secondary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            verify = golfie != option;
-            golfie = 'text-xs/medium';
-            if(!verify) { _fun00008_ip = 102; continue _fun00007 }
+            var3 = arg1;
+            var6 = var3.children;
+            var8 = var3.variant;
+            var7 = null;
+            var2 = Object.create(var7);
+            var1 = 0;
+            var2['children'] = var1;
+            var2['variant'] = var1;
+            var12 = {};
+            var11 = var3;
+            var10 = var2;
+            var5 = copyDataProperties(var12, var11, var10);
+            var4 = _closure1_slot19;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.Text;
+            var1 = {'variant': null, 'color': 'header-secondary', 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+            var9 = var7 != var8;
+            var7 = 'text-xs/medium';
+            if(!var9) { _fun0004_ip = 102; continue _fun0004 }
  99:
-            golfie = option;
+            var7 = var8;
  102:
-            entity['variant'] = golfie;
-            romeon = entity;
-            yankee = report;
-            report = copyDataProperties(romeon, yankee);
-            report = 'children';
-            entity[report] = oscard;
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
+            var1['variant'] = var7;
+            var12 = var1;
+            var11 = var5;
+            var5 = copyDataProperties(var12, var11);
+            var5 = 'children';
+            var1[var5] = var6;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['HappeningNowCardSubtitle'] = michal;
-    return entity;
+    var3['HappeningNowCardSubtitle'] = var2;
+    return var1;
 })();

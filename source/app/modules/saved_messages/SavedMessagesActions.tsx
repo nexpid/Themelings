@@ -1,322 +1,322 @@
 // app/modules/saved_messages/SavedMessagesActions.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _upsertSavedMessage
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _upsertSavedMessage() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 173; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 173; continue _fun0001 }
  13:
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 3;
-                    michal = report[michal];
-                    report = undefined;
-                    michal = tangon.bind(report)(michal);
-                    oscard = michal.HTTP;
-                    tangon = oscard.put;
-                    michal = {};
-                    yankee = _closure1_slot5;
-                    offset = yankee.PUT_SAVED_MESSAGE;
-                    verify = option.channelId;
-                    golfie = option.messageId;
-                    golfie = offset.bind(yankee)(verify, golfie);
-                    michal['url'] = golfie;
-                    golfie = {};
-                    option = option.dueAt;
-                    golfie['due_at'] = option;
-                    michal['body'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = tangon.bind(oscard)(michal);
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var2 = var4.bind(var5)(var2);
+                    var6 = var2.HTTP;
+                    var4 = var6.put;
+                    var2 = {};
+                    var11 = _closure1_slot5;
+                    var10 = var11.PUT_SAVED_MESSAGE;
+                    var9 = var8.channelId;
+                    var7 = var8.messageId;
+                    var7 = var10.bind(var11)(var9, var7);
+                    var2['url'] = var7;
+                    var7 = {};
+                    var8 = var8.dueAt;
+                    var7['due_at'] = var8;
+                    var2['body'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var4.bind(var6)(var2);
                     SaveGenerator(address=113);
  111:
-                    return michal;
+                    return var2;
  113:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 170; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 170; continue _fun0001 }
  119:
-                    tangon = michal.ok;
-                    if(tangon) { _fun00002_ip = 131; continue _fun00001 }
+                    var4 = var2.ok;
+                    if(var4) { _fun0001_ip = 131; continue _fun0001 }
  128:
-                    return report;
+                    return var5;
  131:
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = oscard[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.savedMessageCreateObjectToClient;
-                    zuuluu = michal.body;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    return zuuluu;
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var6[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.savedMessageCreateObjectToClient;
+                    var3 = var2.body;
+                    var3 = var4.bind(var5)(var3);
+                    return var3;
  170:
-                    return michal;
+                    return var2;
  173:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function() { // Original name: _deleteSavedMessage
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _deleteSavedMessage() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    oscard = argFoo;
+                    var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 119; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 119; continue _fun0002 }
  10:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.del;
-                    michal = {};
-                    verify = _closure1_slot5;
-                    option = verify.DELETE_SAVED_MESSAGE;
-                    golfie = oscard.channelId;
-                    oscard = oscard.messageId;
-                    oscard = option.bind(verify)(golfie, oscard);
-                    michal['url'] = oscard;
-                    oscard = false;
-                    michal['rejectWithError'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.del;
+                    var2 = {};
+                    var9 = _closure1_slot5;
+                    var8 = var9.DELETE_SAVED_MESSAGE;
+                    var7 = var6.channelId;
+                    var6 = var6.messageId;
+                    var6 = var8.bind(var9)(var7, var6);
+                    var2['url'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=93);
  91:
-                    return michal;
+                    return var2;
  93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 116; continue _fun00003 }
+                    if(var4) { _fun0002_ip = 116; continue _fun0002 }
  99:
-                    tangon = michal.ok;
-                    if(tangon) { _fun00004_ip = 111; continue _fun00003 }
+                    var4 = var2.ok;
+                    if(var4) { _fun0002_ip = 111; continue _fun0002 }
  108:
-                    return zuuluu;
+                    return var3;
  111:
-                    zuuluu = true;
-                    return zuuluu;
+                    var3 = true;
+                    return var3;
  116:
-                    return michal;
+                    return var2;
  119:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function() { // Original name: _fetchAndUpdateSavedMessages
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function _fetchAndUpdateSavedMessages() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 201; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 201; continue _fun0003 }
  10:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.getIsStale;
-                    michal = michal.bind(zuuluu)();
-                    if(michal) { _fun00006_ip = 51; continue _fun00005 }
+                    var3 = _closure1_slot4;
+                    var2 = var3.getIsStale;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0003_ip = 51; continue _fun0003 }
  30:
-                    michal = global;
-                    zuuluu = michal.Promise;
-                    michal = zuuluu.resolve;
-                    michal = michal.bind(zuuluu)();
-                    return michal;
+                    var2 = global;
+                    var3 = var2.Promise;
+                    var2 = var3.resolve;
+                    var2 = var2.bind(var3)();
+                    return var2;
  51:
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = report.bind(zuuluu)(michal);
-                    oscard = michal.HTTP;
-                    report = oscard.get;
-                    michal = {};
-                    golfie = _closure1_slot5;
-                    golfie = golfie.GET_SAVED_MESSAGES;
-                    michal['url'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = report.bind(oscard)(michal);
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var6 = var2.HTTP;
+                    var5 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot5;
+                    var7 = var7.GET_SAVED_MESSAGES;
+                    var2['url'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=114);
  112:
-                    return michal;
+                    return var2;
  114:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 198; continue _fun00005 }
+                    if(var5) { _fun0003_ip = 198; continue _fun0003 }
  120:
-                    report = michal.body;
-                    golfie = report.results;
-                    oscard = golfie.map;
-                    report = function(argFoo) {
-                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                    var5 = var2.body;
+                    var7 = var5.results;
+                    var6 = var7.map;
+                    var5 = function(arg1) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                            michal = argFoo;
-                            entity = {};
-                            tangon = michal.message;
-                            zuuluu = null;
-                            tangon = zuuluu != tangon;
-                            if(!tangon) { _fun00008_ip = 60; continue _fun00007 }
+                            var2 = arg1;
+                            var1 = {};
+                            var4 = var2.message;
+                            var3 = null;
+                            var4 = var3 != var4;
+                            if(!var4) { _fun0004_ip = 60; continue _fun0004 }
  19:
-                            oscard = _closure1_slot0;
-                            report = _closure1_slot2;
-                            tangon = 5;
-                            report = report[tangon];
-                            tangon = undefined;
-                            oscard = oscard.bind(tangon)(report);
-                            report = oscard.createMessageRecord;
-                            tangon = michal.message;
-                            zuuluu = report.bind(oscard)(tangon);
+                            var6 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var4 = 5;
+                            var5 = var5[var4];
+                            var4 = undefined;
+                            var6 = var6.bind(var4)(var5);
+                            var5 = var6.createMessageRecord;
+                            var4 = var2.message;
+                            var3 = var5.bind(var6)(var4);
  60:
-                            entity['message'] = zuuluu;
-                            report = _closure1_slot0;
-                            tangon = _closure1_slot2;
-                            zuuluu = 4;
-                            tangon = tangon[zuuluu];
-                            zuuluu = undefined;
-                            tangon = report.bind(zuuluu)(tangon);
-                            zuuluu = tangon.savedMessageDataToClient;
-                            michal = michal.save_data;
-                            michal = zuuluu.bind(tangon)(michal);
-                            entity['saveData'] = michal;
-                            return entity;
+                            var1['message'] = var3;
+                            var5 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var3 = 4;
+                            var4 = var4[var3];
+                            var3 = undefined;
+                            var4 = var5.bind(var3)(var4);
+                            var3 = var4.savedMessageDataToClient;
+                            var2 = var2.save_data;
+                            var2 = var3.bind(var4)(var2);
+                            var1['saveData'] = var2;
+                            return var1;
                         }
                     };
-                    golfie = oscard.bind(golfie)(report);
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 6;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'SAVED_MESSAGES_UPDATE';
-                    tangon['type'] = option;
-                    tangon['savedMessages'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var7 = var6.bind(var7)(var5);
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 6;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'SAVED_MESSAGES_UPDATE';
+                    var4['type'] = var8;
+                    var4['savedMessages'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  198:
-                    return michal;
+                    return var2;
  201:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/saved_messages/SavedMessagesActions.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: upsertSavedMessage
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/saved_messages/SavedMessagesActions.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function upsertSavedMessage() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['upsertSavedMessage'] = tangon;
-    tangon = function() { // Original name: deleteSavedMessage
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['upsertSavedMessage'] = var4;
+    var4 = function deleteSavedMessage() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['deleteSavedMessage'] = tangon;
-    michal = function() { // Original name: fetchAndUpdateSavedMessages
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['deleteSavedMessage'] = var4;
+    var2 = function fetchAndUpdateSavedMessages() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchAndUpdateSavedMessages'] = michal;
-    return entity;
+    var3['fetchAndUpdateSavedMessages'] = var2;
+    return var1;
 })();

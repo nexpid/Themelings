@@ -1,51 +1,51 @@
 // app/modules/premium/gifting/hooks/useGiftStyles.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.STANDARD_GIFT_OPTIONS;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.SEASONAL_GIFT_OPTIONS;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/gifting/hooks/useGiftStyles.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.STANDARD_GIFT_OPTIONS;
+    var _closure1_slot2 = var7;
+    var4 = var4.SEASONAL_GIFT_OPTIONS;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/gifting/hooks/useGiftStyles.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            entity = zuuluu.useIsInSeasonalGiftingXPAndSeasonalGiftingActive;
-            zuuluu = entity.bind(zuuluu)();
-            entity = _closure1_slot2;
-            if(!zuuluu) { _fun00002_ip = 46; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var1 = var3.useIsInSeasonalGiftingXPAndSeasonalGiftingActive;
+            var3 = var1.bind(var3)();
+            var1 = _closure1_slot2;
+            if(!var3) { _fun0001_ip = 46; continue _fun0001 }
  42:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  46:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGiftStyles'] = michal;
-    return entity;
+    var3['useGiftStyles'] = var2;
+    return var1;
 })();

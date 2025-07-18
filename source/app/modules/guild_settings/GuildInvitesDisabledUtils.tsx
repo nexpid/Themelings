@@ -1,173 +1,173 @@
 // app/modules/guild_settings/GuildInvitesDisabledUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    report = function(argFoo) { // Original name: useInvitesDisabledPermission
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot3;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var5 = function useInvitesDisabledPermission(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot3;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = null;
-                entity = entity != zuuluu;
-                if(!entity) { _fun00002_ip = 49; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var1 = null;
+                var1 = var1 != var3;
+                if(!var1) { _fun0001_ip = 49; continue _fun0001 }
  16:
-                report = _closure1_slot3;
-                tangon = report.can;
-                zuuluu = _closure1_slot5;
-                zuuluu = zuuluu.MANAGE_GUILD;
-                michal = _closure2_slot0;
-                entity = tangon.bind(report)(zuuluu, michal);
+                var5 = _closure1_slot3;
+                var4 = var5.can;
+                var3 = _closure1_slot5;
+                var3 = var3.MANAGE_GUILD;
+                var2 = _closure2_slot0;
+                var1 = var4.bind(var5)(var3, var2);
  49:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = report;
-    tangon = function(argFoo) { // Original name: useInvitesDisabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var5;
+    var4 = function useInvitesDisabled(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            var _closure2_slot0 = oscard;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            golfie = tangon.bind(michal)(zuuluu);
-            tangon = golfie.useStateFromStores;
-            option = _closure1_slot2;
-            zuuluu = new Array(1);
-            zuuluu[0] = option;
-            entity = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var7 = var4.bind(var2)(var3);
+            var4 = var7.useStateFromStores;
+            var8 = _closure1_slot2;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    zuuluu = entity != zuuluu;
-                    if(!zuuluu) { _fun00006_ip = 43; continue _fun00005 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 != var3;
+                    if(!var3) { _fun0003_ip = 43; continue _fun0003 }
  16:
-                    tangon = _closure1_slot2;
-                    zuuluu = tangon.getGuildIncident;
-                    michal = _closure2_slot0;
-                    michal = michal.id;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot2;
+                    var3 = var4.getGuildIncident;
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var1 = var3.bind(var4)(var2);
  43:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = tangon.bind(golfie)(zuuluu, entity);
-            zuuluu = null;
-            golfie = zuuluu == oscard;
-            entity = undefined;
-            if(golfie) { _fun00004_ip = 101; continue _fun00003 }
+            var4 = var4.bind(var7)(var3, var1);
+            var3 = null;
+            var7 = var3 == var6;
+            var1 = undefined;
+            if(var7) { _fun0002_ip = 101; continue _fun0002 }
  75:
-            golfie = oscard.features;
-            oscard = golfie.has;
-            report = _closure1_slot4;
-            report = report.INVITES_DISABLED;
-            entity = oscard.bind(golfie)(report);
+            var7 = var6.features;
+            var6 = var7.has;
+            var5 = _closure1_slot4;
+            var5 = var5.INVITES_DISABLED;
+            var1 = var6.bind(var7)(var5);
  101:
-            if(entity) { _fun00004_ip = 193; continue _fun00003 }
+            if(var1) { _fun0002_ip = 193; continue _fun0002 }
  104:
-            report = zuuluu == tangon;
-            michal = undefined;
-            if(report) { _fun00004_ip = 119; continue _fun00003 }
+            var5 = var3 == var4;
+            var2 = undefined;
+            if(var5) { _fun0002_ip = 119; continue _fun0002 }
  113:
-            michal = tangon.invitesDisabledUntil;
+            var2 = var4.invitesDisabledUntil;
  119:
-            michal = zuuluu != michal;
-            if(!michal) { _fun00004_ip = 190; continue _fun00003 }
+            var2 = var3 != var2;
+            if(!var2) { _fun0002_ip = 190; continue _fun0002 }
  126:
-            zuuluu = global;
-            oscard = zuuluu.Date;
-            offset = tangon.invitesDisabledUntil;
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            yankee = report;
-            tangon = new yankee[oscard](offset, verify);
-            tangon = tangon instanceof Object ? tangon : report;
-            zuuluu = zuuluu.Date;
-            report = zuuluu.prototype;
-            report = Object.create(report, {constructor: {value: zuuluu}});
-            yankee = report;
-            zuuluu = new yankee[zuuluu](offset);
-            zuuluu = zuuluu instanceof Object ? zuuluu : report;
-            michal = tangon > zuuluu;
+            var3 = global;
+            var6 = var3.Date;
+            var10 = var4.invitesDisabledUntil;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var11 = var5;
+            var4 = new var11[var6](var10, var9);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3 = var3.Date;
+            var5 = var3.prototype;
+            var5 = Object.create(var5, {constructor: {value: var3}});
+            var11 = var5;
+            var3 = new var11[var3](var10);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var2 = var4 > var3;
  190:
-            entity = michal;
+            var1 = var2;
  193:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot2 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    verify = oscard.GuildFeatures;
-    var _closure1_slot4 = verify;
-    oscard = oscard.Permissions;
-    var _closure1_slot5 = oscard;
-    oscard = 4;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/guild_settings/GuildInvitesDisabledUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['useInvitesDisabledPermission'] = report;
-    zuuluu['useInvitesDisabled'] = tangon;
-    michal = function(argFoo) { // Original name: useShouldShowInvitesDisabledNotif
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot2 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.GuildFeatures;
+    var _closure1_slot4 = var9;
+    var6 = var6.Permissions;
+    var _closure1_slot5 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/guild_settings/GuildInvitesDisabledUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['useInvitesDisabledPermission'] = var5;
+    var3['useInvitesDisabled'] = var4;
+    var2 = function useShouldShowInvitesDisabledNotif(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            entity = _closure1_slot6;
-            zuuluu = undefined;
-            entity = entity.bind(zuuluu)(tangon);
-            michal = _closure1_slot7;
-            michal = michal.bind(zuuluu)(tangon);
-            if(!entity) { _fun00008_ip = 32; continue _fun00007 }
+            var4 = arg1;
+            var1 = _closure1_slot6;
+            var3 = undefined;
+            var1 = var1.bind(var3)(var4);
+            var2 = _closure1_slot7;
+            var2 = var2.bind(var3)(var4);
+            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
  29:
-            entity = michal;
+            var1 = var2;
  32:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldShowInvitesDisabledNotif'] = michal;
-    return entity;
+    var3['useShouldShowInvitesDisabledNotif'] = var2;
+    return var1;
 })();

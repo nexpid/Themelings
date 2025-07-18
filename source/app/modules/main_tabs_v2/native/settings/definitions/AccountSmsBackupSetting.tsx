@@ -1,322 +1,322 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AccountSmsBackupSetting.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    tangon = function() { // Original name: useAccountSMSBackupSettingDescription
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var4 = function useAccountSMSBackupSettingDescription() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 5;
-            entity = tangon[entity];
-            report = undefined;
-            oscard = zuuluu.bind(report)(entity);
-            tangon = oscard.useStateFromStores;
-            entity = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var5 = undefined;
+            var6 = var3.bind(var5)(var1);
+            var4 = var6.useStateFromStores;
+            var1 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            tangon = tangon.bind(oscard)(zuuluu, entity);
-            entity = null;
-            zuuluu = entity == tangon;
-            if(zuuluu) { _fun00002_ip = 97; continue _fun00001 }
+            var4 = var4.bind(var6)(var3, var1);
+            var1 = null;
+            var3 = var1 == var4;
+            if(var3) { _fun0001_ip = 97; continue _fun0001 }
  66:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 6;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.getSMSBackupDisabledMessage;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.getSMSBackupDisabledMessage;
+            var1 = var2.bind(var3)(var4);
  97:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.MobileSetting;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    verify = michal.RendererType;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.UserFlags;
-    var _closure1_slot4 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.PHONE_VERIFICATION_MODAL_KEY;
-    var _closure1_slot5 = michal;
-    michal = 15;
-    michal = oscard[michal];
-    romeon = report.bind(entity)(michal);
-    yankee = romeon.debounce;
-    offset = function(argFoo) { // Original name: toggleSMS
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.MobileSetting;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.RendererType;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.UserFlags;
+    var _closure1_slot4 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.PHONE_VERIFICATION_MODAL_KEY;
+    var _closure1_slot5 = var2;
+    var2 = 15;
+    var2 = var6[var2];
+    var12 = var5.bind(var1)(var2);
+    var11 = var12.debounce;
+    var10 = function toggleSMS(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = entity.mfaSMSEnabled;
-            entity = entity.user;
-            if(michal) { _fun00004_ip = 275; continue _fun00003 }
+            var1 = arg1;
+            var2 = var1.mfaSMSEnabled;
+            var1 = var1.user;
+            if(var2) { _fun0002_ip = 275; continue _fun0002 }
  20:
-            michal = null;
-            if(!(michal != entity)) { _fun00004_ip = 36; continue _fun00003 }
+            var2 = null;
+            if(!(var2 != var1)) { _fun0002_ip = 36; continue _fun0002 }
  26:
-            entity = entity.phone;
-            if(!(michal == entity)) { _fun00004_ip = 148; continue _fun00003 }
+            var1 = var1.phone;
+            if(!(var2 == var1)) { _fun0002_ip = 148; continue _fun0002 }
  36:
-            zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
-            michal = 11;
-            michal = verify[michal];
-            option = undefined;
-            report = zuuluu.bind(option)(michal);
-            tangon = report.pushLazy;
-            golfie = _closure1_slot0;
-            michal = 13;
-            michal = verify[michal];
-            oscard = golfie.bind(option)(michal);
-            michal = 12;
-            zuuluu = verify[michal];
-            michal = verify.paths;
-            zuuluu = oscard.bind(option)(zuuluu, michal);
-            michal = {};
-            oscard = 14;
-            oscard = verify[oscard];
-            oscard = golfie.bind(option)(oscard);
-            oscard = oscard.ChangePhoneReason;
-            oscard = oscard.USER_SETTINGS_UPDATE;
-            michal['reason'] = oscard;
-            entity = _closure1_slot5;
-            entity = tangon.bind(report)(zuuluu, michal, entity);
-            _fun00004_ip = 463; continue _fun00003;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 11;
+            var2 = var9[var2];
+            var8 = undefined;
+            var5 = var3.bind(var8)(var2);
+            var4 = var5.pushLazy;
+            var7 = _closure1_slot0;
+            var2 = 13;
+            var2 = var9[var2];
+            var6 = var7.bind(var8)(var2);
+            var2 = 12;
+            var3 = var9[var2];
+            var2 = var9.paths;
+            var3 = var6.bind(var8)(var3, var2);
+            var2 = {};
+            var6 = 14;
+            var6 = var9[var6];
+            var6 = var7.bind(var8)(var6);
+            var6 = var6.ChangePhoneReason;
+            var6 = var6.USER_SETTINGS_UPDATE;
+            var2['reason'] = var6;
+            var1 = _closure1_slot5;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            _fun0002_ip = 463; continue _fun0002;
  148:
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 7;
-            tangon = report[michal];
-            zuuluu = undefined;
-            tangon = golfie.bind(zuuluu)(tangon);
-            oscard = tangon.intl;
-            tangon = oscard.string;
-            michal = report[michal];
-            michal = golfie.bind(zuuluu)(michal);
-            michal = michal.t;
-            michal = michal.DZQe29;
-            tangon = tangon.bind(oscard)(michal);
-            michal = tangon.toUpperCase;
-            tangon = michal.bind(tangon)();
-            michal = _closure1_slot1;
-            entity = 10;
-            entity = report[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.confirm;
-            entity = {};
-            entity['title'] = tangon;
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.then;
-            entity = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 7;
+            var4 = var5[var2];
+            var3 = undefined;
+            var4 = var7.bind(var3)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var2 = var5[var2];
+            var2 = var7.bind(var3)(var2);
+            var2 = var2.t;
+            var2 = var2.DZQe29;
+            var4 = var4.bind(var6)(var2);
+            var2 = var4.toUpperCase;
+            var4 = var2.bind(var4)();
+            var2 = _closure1_slot1;
+            var1 = 10;
+            var1 = var5[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.confirm;
+            var1 = {};
+            var1['title'] = var4;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = argFoo;
-                    if(!entity) { _fun00006_ip = 41; continue _fun00005 }
+                    var1 = arg1;
+                    if(!var1) { _fun0003_ip = 41; continue _fun0003 }
  6:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 8;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.enableSMS;
-                    entity = entity.bind(michal)();
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 8;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.enableSMS;
+                    var1 = var1.bind(var2)();
  41:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            _fun00004_ip = 463; continue _fun00003;
+            var1 = var2.bind(var3)(var1);
+            _fun0002_ip = 463; continue _fun0002;
  275:
-            option = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 7;
-            entity = report[michal];
-            zuuluu = undefined;
-            entity = option.bind(zuuluu)(entity);
-            golfie = entity.intl;
-            oscard = golfie.string;
-            entity = report[michal];
-            entity = option.bind(zuuluu)(entity);
-            entity = entity.t;
-            entity = entity.CIGa+/;
-            oscard = oscard.bind(golfie)(entity);
-            entity = oscard.toUpperCase;
-            entity = entity.bind(oscard)();
-            oscard = report[michal];
-            oscard = option.bind(zuuluu)(oscard);
-            golfie = oscard.intl;
-            oscard = golfie.string;
-            michal = report[michal];
-            michal = option.bind(zuuluu)(michal);
-            michal = michal.t;
-            michal = michal.wlfmlZ;
-            oscard = oscard.bind(golfie)(michal);
-            michal = oscard.toUpperCase;
-            oscard = michal.bind(oscard)();
-            michal = {};
-            tangon = _closure1_slot1;
-            golfie = 8;
-            golfie = report[golfie];
-            golfie = tangon.bind(zuuluu)(golfie);
-            golfie = golfie.disableSMS;
-            michal['onSubmit'] = golfie;
-            michal['title'] = oscard;
-            michal['placeholder'] = entity;
-            entity = true;
-            michal['closeOnSuccess'] = entity;
-            entity = 9;
-            entity = report[entity];
-            entity = tangon.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)(michal);
+            var8 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 7;
+            var1 = var5[var2];
+            var3 = undefined;
+            var1 = var8.bind(var3)(var1);
+            var7 = var1.intl;
+            var6 = var7.string;
+            var1 = var5[var2];
+            var1 = var8.bind(var3)(var1);
+            var1 = var1.t;
+            var1 = var1.CIGa+/;
+            var6 = var6.bind(var7)(var1);
+            var1 = var6.toUpperCase;
+            var1 = var1.bind(var6)();
+            var6 = var5[var2];
+            var6 = var8.bind(var3)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var2 = var5[var2];
+            var2 = var8.bind(var3)(var2);
+            var2 = var2.t;
+            var2 = var2.wlfmlZ;
+            var6 = var6.bind(var7)(var2);
+            var2 = var6.toUpperCase;
+            var6 = var2.bind(var6)();
+            var2 = {};
+            var4 = _closure1_slot1;
+            var7 = 8;
+            var7 = var5[var7];
+            var7 = var4.bind(var3)(var7);
+            var7 = var7.disableSMS;
+            var2['onSubmit'] = var7;
+            var2['title'] = var6;
+            var2['placeholder'] = var1;
+            var1 = true;
+            var2['closeOnSuccess'] = var1;
+            var1 = 9;
+            var1 = var5[var1];
+            var1 = var4.bind(var3)(var1);
+            var1 = var1.bind(var3)(var2);
  463:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal = 200;
-    michal = yankee.bind(romeon)(offset, michal);
-    var _closure1_slot6 = michal;
-    michal = {};
-    verify = verify.TOGGLE;
-    michal['type'] = verify;
-    verify = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 7;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.uHAJ5u;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2 = 200;
+    var2 = var11.bind(var12)(var10, var2);
+    var _closure1_slot6 = var2;
+    var2 = {};
+    var9 = var9.TOGGLE;
+    var2['type'] = var9;
+    var9 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 7;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.uHAJ5u;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = verify;
-    option = option.ACCOUNT;
-    michal['parent'] = option;
-    option = function() { // Original name: useAccountSMSBackupSettingIsDisabled
-        michal = _closure1_slot7;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        entity = null;
-        entity = entity != michal;
-        return entity;
+    var2['title'] = var9;
+    var8 = var8.ACCOUNT;
+    var2['parent'] = var8;
+    var8 = function useAccountSMSBackupSettingIsDisabled() {
+        var2 = _closure1_slot7;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    michal['useIsDisabled'] = option;
-    option = function() { // Original name: useAccountSMSBackupSettingToggleValue
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['useIsDisabled'] = var8;
+    var8 = function useAccountSMSBackupSettingToggleValue() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 5;
-            entity = michal[entity];
-            michal = undefined;
-            oscard = tangon.bind(michal)(entity);
-            report = oscard.useStateFromStores;
-            entity = _closure1_slot3;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 5;
+            var1 = var2[var1];
+            var2 = undefined;
+            var6 = var4.bind(var2)(var1);
+            var5 = var6.useStateFromStores;
+            var1 = _closure1_slot3;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            report = report.bind(oscard)(tangon, entity);
-            entity = null;
-            tangon = entity == report;
-            if(tangon) { _fun00008_ip = 87; continue _fun00007 }
+            var5 = var5.bind(var6)(var4, var1);
+            var1 = null;
+            var4 = var1 == var5;
+            if(var4) { _fun0004_ip = 87; continue _fun0004 }
  66:
-            tangon = report.hasFlag;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.MFA_SMS;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.hasFlag;
+            var3 = _closure1_slot4;
+            var3 = var3.MFA_SMS;
+            var2 = var4.bind(var5)(var3);
  87:
-            entity = entity != michal;
-            if(!entity) { _fun00008_ip = 97; continue _fun00007 }
+            var1 = var1 != var2;
+            if(!var1) { _fun0004_ip = 97; continue _fun0004 }
  94:
-            entity = michal;
+            var1 = var2;
  97:
-            return entity;
+            return var1;
         }
     };
-    michal['useValue'] = option;
-    golfie = function(argFoo) { // Original name: onAccountSMSBackupSettingTogglePress
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var2['useValue'] = var8;
+    var7 = function onAccountSMSBackupSettingTogglePress(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getCurrentUser;
-            entity = entity.bind(zuuluu)();
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00010_ip = 50; continue _fun00009 }
+            var3 = _closure1_slot3;
+            var1 = var3.getCurrentUser;
+            var1 = var1.bind(var3)();
+            var3 = null;
+            if(!(var3 != var1)) { _fun0005_ip = 50; continue _fun0005 }
  22:
-            zuuluu = _closure1_slot6;
-            michal = {};
-            tangon = argFoo;
-            tangon = !tangon;
-            michal['mfaSMSEnabled'] = tangon;
-            michal['user'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
+            var3 = _closure1_slot6;
+            var2 = {};
+            var4 = arg1;
+            var4 = !var4;
+            var2['mfaSMSEnabled'] = var4;
+            var2['user'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
  50:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['onValueChange'] = golfie;
-    michal['useDescription'] = tangon;
-    tangon = 16;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useIsTOTPEnabled;
-    michal['usePredicate'] = tangon;
-    tangon = 17;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/AccountSmsBackupSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['onValueChange'] = var7;
+    var2['useDescription'] = var4;
+    var4 = 16;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useIsTOTPEnabled;
+    var2['usePredicate'] = var4;
+    var4 = 17;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/AccountSmsBackupSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

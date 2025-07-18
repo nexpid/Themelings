@@ -1,171 +1,171 @@
 // app/modules/errors/av_errors/definitions/AVErrorAudioCaptureSampleRateMismatch.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    michal = michal.Millis;
-    golfie = michal.SECOND;
-    michal = 10;
-    michal = michal * golfie;
-    var _closure1_slot5 = michal;
-    michal = {};
-    golfie = function() { // Original name: getActiveErrors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var2 = var2.Millis;
+    var7 = var2.SECOND;
+    var2 = 10;
+    var2 = var2 * var7;
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var7 = function getActiveErrors() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot4;
-            entity = michal.getRTCConnection;
-            zuuluu = entity.bind(michal)();
-            golfie = null;
-            michal = golfie == zuuluu;
-            entity = undefined;
-            tangon = undefined;
-            if(michal) { _fun00002_ip = 40; continue _fun00001 }
+            var2 = _closure1_slot4;
+            var1 = var2.getRTCConnection;
+            var3 = var1.bind(var2)();
+            var7 = null;
+            var2 = var7 == var3;
+            var1 = undefined;
+            var4 = undefined;
+            if(var2) { _fun0001_ip = 40; continue _fun0001 }
  30:
-            michal = zuuluu.getDurationSeconds;
-            tangon = michal.bind(zuuluu)();
+            var2 = var3.getDurationSeconds;
+            var4 = var2.bind(var3)();
  40:
-            report = golfie != tangon;
-            zuuluu = 0;
-            if(!report) { _fun00002_ip = 52; continue _fun00001 }
+            var5 = var7 != var4;
+            var3 = 0;
+            if(!var5) { _fun0001_ip = 52; continue _fun0001 }
  49:
-            zuuluu = tangon;
+            var3 = var4;
  52:
-            tangon = 30;
-            if(!(!(zuuluu < tangon))) { _fun00002_ip = 345; continue _fun00001 }
+            var4 = 30;
+            if(!(!(var3 < var4))) { _fun0001_ip = 345; continue _fun0001 }
  62:
-            zuuluu = global;
-            option = zuuluu.performance;
-            report = option.now;
-            option = report.bind(option)();
-            verify = _closure1_slot3;
-            report = verify.getLastAudioInputDeviceChangeTimestamp;
-            report = report.bind(verify)();
-            option = option - report;
-            report = _closure1_slot5;
-            if(!(!(option < report))) { _fun00002_ip = 345; continue _fun00001 }
+            var3 = global;
+            var8 = var3.performance;
+            var5 = var8.now;
+            var8 = var5.bind(var8)();
+            var9 = _closure1_slot3;
+            var5 = var9.getLastAudioInputDeviceChangeTimestamp;
+            var5 = var5.bind(var9)();
+            var8 = var8 - var5;
+            var5 = _closure1_slot5;
+            if(!(!(var8 < var5))) { _fun0001_ip = 345; continue _fun0001 }
  110:
-            verify = _closure1_slot2;
-            option = verify.getConnectionStats;
-            offset = _closure1_slot4;
-            report = offset.getRTCConnection;
-            yankee = report.bind(offset)();
-            offset = golfie == yankee;
-            report = undefined;
-            if(offset) { _fun00002_ip = 153; continue _fun00001 }
+            var9 = _closure1_slot2;
+            var8 = var9.getConnectionStats;
+            var10 = _closure1_slot4;
+            var5 = var10.getRTCConnection;
+            var11 = var5.bind(var10)();
+            var10 = var7 == var11;
+            var5 = undefined;
+            if(var10) { _fun0001_ip = 153; continue _fun0001 }
  143:
-            offset = yankee.getMediaEngineConnectionId;
-            report = offset.bind(yankee)();
+            var10 = var11.getMediaEngineConnectionId;
+            var5 = var10.bind(var11)();
  153:
-            option = option.bind(verify)(report);
-            verify = golfie == option;
-            report = undefined;
-            if(verify) { _fun00002_ip = 219; continue _fun00001 }
+            var8 = var8.bind(var9)(var5);
+            var9 = var7 == var8;
+            var5 = undefined;
+            if(var9) { _fun0001_ip = 219; continue _fun0001 }
  167:
-            option = option.stats;
-            option = option.rtp;
-            offset = option.outbound;
-            verify = offset.find;
-            option = function(argFoo) {
-                entity = argFoo;
-                michal = entity.type;
-                entity = 'audio';
-                entity = entity === michal;
-                return entity;
+            var8 = var8.stats;
+            var8 = var8.rtp;
+            var10 = var8.outbound;
+            var9 = var10.find;
+            var8 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var1 = 'audio';
+                var1 = var1 === var2;
+                return var1;
             };
-            option = verify.bind(offset)(option);
-            verify = golfie == option;
-            report = undefined;
-            if(verify) { _fun00002_ip = 219; continue _fun00001 }
+            var8 = var9.bind(var10)(var8);
+            var9 = var7 == var8;
+            var5 = undefined;
+            if(var9) { _fun0001_ip = 219; continue _fun0001 }
  213:
-            report = option.sampleRateMismatchPercent;
+            var5 = var8.sampleRateMismatchPercent;
  219:
-            golfie = golfie != report;
-            michal = 0;
-            if(!golfie) { _fun00002_ip = 231; continue _fun00001 }
+            var7 = var7 != var5;
+            var2 = 0;
+            if(!var7) { _fun0001_ip = 231; continue _fun0001 }
  228:
-            michal = report;
+            var2 = var5;
  231:
-            report = zuuluu.Math;
-            zuuluu = report.abs;
-            zuuluu = zuuluu.bind(report)(michal);
-            tangon = zuuluu > tangon;
-            zuuluu = michal;
-            michal = undefined;
-            if(!tangon) { _fun00002_ip = 343; continue _fun00001 }
+            var5 = var3.Math;
+            var3 = var5.abs;
+            var3 = var3.bind(var5)(var2);
+            var4 = var3 > var4;
+            var3 = var2;
+            var2 = undefined;
+            if(!var4) { _fun0001_ip = 343; continue _fun0001 }
  260:
-            tangon = {};
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            golfie = 4;
-            golfie = oscard[golfie];
-            golfie = report.bind(entity)(golfie);
-            golfie = golfie.AVError;
-            golfie = golfie.AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH;
-            tangon['type'] = golfie;
-            tangon['audioCaptureSampleRateMismatchPercent'] = zuuluu;
-            zuuluu = 5;
-            zuuluu = oscard[zuuluu];
-            report = report.bind(entity)(zuuluu);
-            zuuluu = report.getVoiceChannelErrorContext;
-            romeon = zuuluu.bind(report)();
-            foxtra = tangon;
-            zuuluu = copyDataProperties(foxtra, romeon);
-            zuuluu = new Array(1);
-            zuuluu[0] = tangon;
-            michal = zuuluu;
+            var4 = {};
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var7 = 4;
+            var7 = var6[var7];
+            var7 = var5.bind(var1)(var7);
+            var7 = var7.AVError;
+            var7 = var7.AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH;
+            var4['type'] = var7;
+            var4['audioCaptureSampleRateMismatchPercent'] = var3;
+            var3 = 5;
+            var3 = var6[var3];
+            var5 = var5.bind(var1)(var3);
+            var3 = var5.getVoiceChannelErrorContext;
+            var12 = var3.bind(var5)();
+            var13 = var4;
+            var3 = copyDataProperties(var13, var12);
+            var3 = new Array(1);
+            var3[0] = var4;
+            var2 = var3;
  343:
-            return michal;
+            return var2;
  345:
-            return entity;
+            return var1;
         }
     };
-    michal['getActiveErrors'] = golfie;
-    tangon = function(argFoo) { // Original name: makeErrorContextKey
-        entity = argFoo;
-        report = entity.mediaSessionId;
-        tangon = entity.audioInputDeviceName;
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        michal = '';
-        entity = ':';
-        entity = zuuluu.bind(michal)(report, entity, tangon);
-        return entity;
+    var2['getActiveErrors'] = var7;
+    var4 = function makeErrorContextKey(arg1) {
+        var1 = arg1;
+        var5 = var1.mediaSessionId;
+        var4 = var1.audioInputDeviceName;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '';
+        var1 = ':';
+        var1 = var3.bind(var2)(var5, var1, var4);
+        return var1;
     };
-    michal['makeErrorContextKey'] = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/av_errors/definitions/AVErrorAudioCaptureSampleRateMismatch.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['AVErrorAudioCaptureSampleRateMismatchDefinition'] = michal;
-    return entity;
+    var2['makeErrorContextKey'] = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/errors/av_errors/definitions/AVErrorAudioCaptureSampleRateMismatch.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['AVErrorAudioCaptureSampleRateMismatchDefinition'] = var2;
+    return var1;
 })();

@@ -1,344 +1,344 @@
 // app/design/components/TableRow/native/TableRowIcon.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
-    entity = ['color'];
-    var _closure1_slot3 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = yankee.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    offset = tangon.TABLE_ROW_ICON_SIZE;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    verify['width'] = offset;
-    verify['height'] = offset;
-    offset = 'center';
-    verify['justifyContent'] = offset;
-    verify['alignItems'] = offset;
-    offset = 6;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.radii;
-    romeon = romeon.lg;
-    verify['borderRadius'] = romeon;
-    tangon['container'] = verify;
-    verify = {};
-    romeon = 'currentColor';
-    verify['tintColor'] = romeon;
-    tangon['icon'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.INTERACTIVE_NORMAL;
-    verify['color'] = romeon;
-    tangon['default'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_BRAND;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.WHITE;
-    verify['color'] = romeon;
-    tangon['blurple'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.unsafe_rawColors;
-    romeon = romeon.GUILD_BOOSTING_PINK;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.WHITE;
-    verify['color'] = romeon;
-    tangon['boostingPink'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.STATUS_ONLINE;
-    verify['color'] = romeon;
-    tangon['statusOnline'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.STATUS_IDLE;
-    verify['color'] = romeon;
-    tangon['statusIdle'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.STATUS_DND;
-    verify['color'] = romeon;
-    tangon['statusDND'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.STATUS_OFFLINE;
-    verify['color'] = romeon;
-    tangon['statusOffline'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.unsafe_rawColors;
-    romeon = romeon.XBOX;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.WHITE;
-    verify['color'] = romeon;
-    tangon['xbox'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.unsafe_rawColors;
-    romeon = romeon.PLAYSTATION;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.WHITE;
-    verify['color'] = romeon;
-    tangon['playstation'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_MOD_SUBTLE;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.TEXT_DANGER;
-    verify['color'] = romeon;
-    tangon['danger'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_MOD_STRONG;
-    verify['backgroundColor'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.INTERACTIVE_NORMAL;
-    verify['color'] = romeon;
-    tangon['secondary'] = verify;
-    verify = {};
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_MOD_STRONG;
-    verify['backgroundColor'] = romeon;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.WHITE;
-    verify['color'] = offset;
-    tangon['translucent'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/TableRow/native/TableRowIcon.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TableRowIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = ['color'];
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var10 = var4.TABLE_ROW_ICON_SIZE;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var9['width'] = var10;
+    var9['height'] = var10;
+    var10 = 'center';
+    var9['justifyContent'] = var10;
+    var9['alignItems'] = var10;
+    var10 = 6;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.lg;
+    var9['borderRadius'] = var12;
+    var4['container'] = var9;
+    var9 = {};
+    var12 = 'currentColor';
+    var9['tintColor'] = var12;
+    var4['icon'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_NORMAL;
+    var9['color'] = var12;
+    var4['default'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_BRAND;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var9['color'] = var12;
+    var4['blurple'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.unsafe_rawColors;
+    var12 = var12.GUILD_BOOSTING_PINK;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var9['color'] = var12;
+    var4['boostingPink'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.STATUS_ONLINE;
+    var9['color'] = var12;
+    var4['statusOnline'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.STATUS_IDLE;
+    var9['color'] = var12;
+    var4['statusIdle'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.STATUS_DND;
+    var9['color'] = var12;
+    var4['statusDND'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.STATUS_OFFLINE;
+    var9['color'] = var12;
+    var4['statusOffline'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.unsafe_rawColors;
+    var12 = var12.XBOX;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var9['color'] = var12;
+    var4['xbox'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.unsafe_rawColors;
+    var12 = var12.PLAYSTATION;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.WHITE;
+    var9['color'] = var12;
+    var4['playstation'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_MOD_SUBTLE;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.TEXT_DANGER;
+    var9['color'] = var12;
+    var4['danger'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_MOD_STRONG;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.INTERACTIVE_NORMAL;
+    var9['color'] = var12;
+    var4['secondary'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_MOD_STRONG;
+    var9['backgroundColor'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.WHITE;
+    var9['color'] = var10;
+    var4['translucent'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/TableRow/native/TableRowIcon.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function TableRowIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            backup = entity.source;
-            verify = entity.IconComponent;
-            michal = entity.variant;
-            report = undefined;
-            if(!(michal === report)) { _fun00002_ip = 29; continue _fun00001 }
+            var1 = arg1;
+            var14 = var1.source;
+            var9 = var1.IconComponent;
+            var2 = var1.variant;
+            var5 = undefined;
+            if(!(var2 === var5)) { _fun0001_ip = 29; continue _fun0001 }
  25:
-            michal = 'default';
+            var2 = 'default';
  29:
-            entity = _closure1_slot7;
-            option = entity.bind(report)();
-            entity = 'default';
-            if(!(entity !== michal)) { _fun00002_ip = 248; continue _fun00001 }
+            var1 = _closure1_slot7;
+            var8 = var1.bind(var5)();
+            var1 = 'default';
+            if(!(var1 !== var2)) { _fun0001_ip = 248; continue _fun0001 }
  51:
-            zuuluu = 'blurple';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 240; continue _fun00001 }
+            var3 = 'blurple';
+            if(!(var3 !== var2)) { _fun0001_ip = 240; continue _fun0001 }
  62:
-            zuuluu = 'boosting-pink';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 232; continue _fun00001 }
+            var3 = 'boosting-pink';
+            if(!(var3 !== var2)) { _fun0001_ip = 232; continue _fun0001 }
  75:
-            zuuluu = 'status-online';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 224; continue _fun00001 }
+            var3 = 'status-online';
+            if(!(var3 !== var2)) { _fun0001_ip = 224; continue _fun0001 }
  88:
-            zuuluu = 'status-idle';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 216; continue _fun00001 }
+            var3 = 'status-idle';
+            if(!(var3 !== var2)) { _fun0001_ip = 216; continue _fun0001 }
  98:
-            zuuluu = 'status-dnd';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 208; continue _fun00001 }
+            var3 = 'status-dnd';
+            if(!(var3 !== var2)) { _fun0001_ip = 208; continue _fun0001 }
  108:
-            zuuluu = 'status-offline';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 200; continue _fun00001 }
+            var3 = 'status-offline';
+            if(!(var3 !== var2)) { _fun0001_ip = 200; continue _fun0001 }
  118:
-            zuuluu = 'xbox';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 192; continue _fun00001 }
+            var3 = 'xbox';
+            if(!(var3 !== var2)) { _fun0001_ip = 192; continue _fun0001 }
  126:
-            zuuluu = 'playstation';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 184; continue _fun00001 }
+            var3 = 'playstation';
+            if(!(var3 !== var2)) { _fun0001_ip = 184; continue _fun0001 }
  134:
-            zuuluu = 'danger';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 176; continue _fun00001 }
+            var3 = 'danger';
+            if(!(var3 !== var2)) { _fun0001_ip = 176; continue _fun0001 }
  142:
-            zuuluu = 'secondary';
-            if(!(zuuluu !== michal)) { _fun00002_ip = 168; continue _fun00001 }
+            var3 = 'secondary';
+            if(!(var3 !== var2)) { _fun0001_ip = 168; continue _fun0001 }
  150:
-            zuuluu = 'translucent';
-            oscard = undefined;
-            if(!(zuuluu === michal)) { _fun00002_ip = 253; continue _fun00001 }
+            var3 = 'translucent';
+            var6 = undefined;
+            if(!(var3 === var2)) { _fun0001_ip = 253; continue _fun0001 }
  160:
-            oscard = option.translucent;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.translucent;
+            _fun0001_ip = 253; continue _fun0001;
  168:
-            oscard = option.secondary;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.secondary;
+            _fun0001_ip = 253; continue _fun0001;
  176:
-            oscard = option.danger;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.danger;
+            _fun0001_ip = 253; continue _fun0001;
  184:
-            oscard = option.playstation;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.playstation;
+            _fun0001_ip = 253; continue _fun0001;
  192:
-            oscard = option.xbox;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.xbox;
+            _fun0001_ip = 253; continue _fun0001;
  200:
-            oscard = option.statusOffline;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.statusOffline;
+            _fun0001_ip = 253; continue _fun0001;
  208:
-            oscard = option.statusDND;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.statusDND;
+            _fun0001_ip = 253; continue _fun0001;
  216:
-            oscard = option.statusIdle;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.statusIdle;
+            _fun0001_ip = 253; continue _fun0001;
  224:
-            oscard = option.statusOnline;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.statusOnline;
+            _fun0001_ip = 253; continue _fun0001;
  232:
-            oscard = option.boostingPink;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.boostingPink;
+            _fun0001_ip = 253; continue _fun0001;
  240:
-            oscard = option.blurple;
-            _fun00002_ip = 253; continue _fun00001;
+            var6 = var8.blurple;
+            _fun0001_ip = 253; continue _fun0001;
  248:
-            oscard = option.default;
+            var6 = var8.default;
  253:
-            offset = oscard.color;
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot3;
-            romeon = tangon.bind(report)(oscard, zuuluu);
-            entity = entity === michal;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            kiloes = 7;
-            michal = michal[kiloes];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.IconSizes;
-            if(entity) { _fun00002_ip = 313; continue _fun00001 }
+            var10 = var6.color;
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var12 = var4.bind(var5)(var6, var3);
+            var1 = var1 === var2;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var15 = 7;
+            var2 = var2[var15];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.IconSizes;
+            if(var1) { _fun0001_ip = 313; continue _fun0001 }
  305:
-            foxtra = michal.REFRESH_SMALL_16;
-            _fun00002_ip = 319; continue _fun00001;
+            var13 = var2.REFRESH_SMALL_16;
+            _fun0001_ip = 319; continue _fun0001;
  313:
-            foxtra = michal.MEDIUM;
+            var13 = var2.MEDIUM;
  319:
-            yankee = 'sm';
-            if(!entity) { _fun00002_ip = 330; continue _fun00001 }
+            var11 = 'sm';
+            if(!var1) { _fun0001_ip = 330; continue _fun0001 }
  326:
-            yankee = 'md';
+            var11 = 'md';
  330:
-            oscard = null;
-            if(!(oscard == backup)) { _fun00002_ip = 345; continue _fun00001 }
+            var6 = null;
+            if(!(var6 == var14)) { _fun0001_ip = 345; continue _fun0001 }
  336:
-            michal = oscard == verify;
-            entity = null;
-            if(michal) { _fun00002_ip = 453; continue _fun00001 }
+            var2 = var6 == var9;
+            var1 = null;
+            if(var2) { _fun0001_ip = 453; continue _fun0001 }
  345:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot5;
-            michal = {};
-            sizing = option.container;
-            option = new Array(2);
-            option[0] = sizing;
-            option[1] = romeon;
-            michal['style'] = option;
-            if(!(oscard == verify)) { _fun00002_ip = 423; continue _fun00001 }
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var16 = var8.container;
+            var8 = new Array(2);
+            var8[0] = var16;
+            var8[1] = var12;
+            var2['style'] = var8;
+            if(!(var6 == var9)) { _fun0001_ip = 423; continue _fun0001 }
  380:
-            romeon = _closure1_slot6;
-            option = _closure1_slot1;
-            oscard = _closure1_slot2;
-            oscard = oscard[kiloes];
-            option = option.bind(report)(oscard);
-            oscard = {};
-            oscard['color'] = offset;
-            oscard['source'] = backup;
-            oscard['size'] = foxtra;
-            oscard = romeon.bind(report)(option, oscard);
-            _fun00002_ip = 443; continue _fun00001;
+            var12 = _closure1_slot6;
+            var8 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var6 = var6[var15];
+            var8 = var8.bind(var5)(var6);
+            var6 = {};
+            var6['color'] = var10;
+            var6['source'] = var14;
+            var6['size'] = var13;
+            var6 = var12.bind(var5)(var8, var6);
+            _fun0001_ip = 443; continue _fun0001;
  423:
-            option = _closure1_slot6;
-            golfie = {};
-            golfie['size'] = yankee;
-            golfie['color'] = offset;
-            oscard = option.bind(report)(verify, golfie);
+            var8 = _closure1_slot6;
+            var7 = {};
+            var7['size'] = var11;
+            var7['color'] = var10;
+            var6 = var8.bind(var5)(var9, var7);
  443:
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  453:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['TableRowIcon'] = michal;
-    return entity;
+    var3['TableRowIcon'] = var2;
+    return var1;
 })();

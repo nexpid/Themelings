@@ -1,163 +1,163 @@
 // app/modules/premium/PremiumSubscriptionInvoiceItem.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/PremiumSubscriptionInvoiceItem.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: coalesceInvoiceItems
-        report = argFoo;
-        zuuluu = new Array(0);
-        var _closure2_slot0 = zuuluu;
-        michal = global;
-        michal = michal.Set;
-        tangon = michal.prototype;
-        tangon = Object.create(tangon, {constructor: {value: michal}});
-        golfie = tangon;
-        michal = new golfie[michal](oscard);
-        michal = michal instanceof Object ? michal : tangon;
-        var _closure2_slot1 = michal;
-        tangon = report.map;
-        michal = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/PremiumSubscriptionInvoiceItem.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function coalesceInvoiceItems(arg1) {
+        var5 = arg1;
+        var3 = new Array(0);
+        var _closure2_slot0 = var3;
+        var2 = global;
+        var2 = var2.Set;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var7 = var4;
+        var2 = new var7[var2](var6);
+        var2 = var2 instanceof Object ? var2 : var4;
+        var _closure2_slot1 = var2;
+        var4 = var5.map;
+        var2 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                verify = _closure2_slot0;
-                michal = verify.length;
-                option = 0;
-                michal = option < michal;
-                tangon = undefined;
-                oscard = 0;
-                if(!michal) { _fun00002_ip = 139; continue _fun00001 }
+                var1 = arg1;
+                var9 = _closure2_slot0;
+                var2 = var9.length;
+                var8 = 0;
+                var2 = var8 < var2;
+                var4 = undefined;
+                var6 = 0;
+                if(!var2) { _fun0001_ip = 139; continue _fun0001 }
  31:
-                michal = verify[oscard];
-                offset = michal.subscriptionPlanId;
-                report = entity.subscriptionPlanId;
-                if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
+                var2 = var9[var6];
+                var10 = var2.subscriptionPlanId;
+                var5 = var1.subscriptionPlanId;
+                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
  51:
-                offset = michal.subscriptionPlanPrice;
-                report = entity.subscriptionPlanPrice;
-                if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
+                var10 = var2.subscriptionPlanPrice;
+                var5 = var1.subscriptionPlanPrice;
+                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
  67:
-                offset = michal.amount;
-                report = entity.amount;
-                if(!(offset === report)) { _fun00002_ip = 127; continue _fun00001 }
+                var10 = var2.amount;
+                var5 = var1.amount;
+                if(!(var10 === var5)) { _fun0001_ip = 127; continue _fun0001 }
  83:
-                offset = _closure1_slot0;
-                report = _closure1_slot1;
-                report = report[option];
-                romeon = offset.bind(tangon)(report);
-                yankee = romeon.isEqual;
-                offset = michal.discounts;
-                report = entity.discounts;
-                report = yankee.bind(romeon)(offset, report);
-                if(report) { _fun00002_ip = 167; continue _fun00001 }
+                var10 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var5 = var5[var8];
+                var12 = var10.bind(var4)(var5);
+                var11 = var12.isEqual;
+                var10 = var2.discounts;
+                var5 = var1.discounts;
+                var5 = var11.bind(var12)(var10, var5);
+                if(var5) { _fun0001_ip = 167; continue _fun0001 }
  127:
-                oscard = oscard + 1;
-                report = verify.length;
-                if(oscard < report) { _fun00002_ip = 31; continue _fun00001 }
+                var6 = var6 + 1;
+                var5 = var9.length;
+                if(var6 < var5) { _fun0001_ip = 31; continue _fun0001 }
  139:
-                golfie = _closure2_slot0;
-                oscard = golfie.push;
-                report = {};
-                backup = report;
-                foxtra = entity;
-                option = copyDataProperties(backup, foxtra);
-                report = oscard.bind(golfie)(report);
-                return tangon;
+                var7 = _closure2_slot0;
+                var6 = var7.push;
+                var5 = {};
+                var14 = var5;
+                var13 = var1;
+                var8 = copyDataProperties(var14, var13);
+                var5 = var6.bind(var7)(var5);
+                return var4;
  167:
-                report = _closure2_slot1;
-                tangon = report.add;
-                zuuluu = michal.subscriptionPlanId;
-                zuuluu = tangon.bind(report)(zuuluu);
-                zuuluu = michal.quantity;
-                entity = entity.quantity;
-                entity = zuuluu + entity;
-                michal['quantity'] = entity;
-                entity = undefined;
-                return entity;
+                var5 = _closure2_slot1;
+                var4 = var5.add;
+                var3 = var2.subscriptionPlanId;
+                var3 = var4.bind(var5)(var3);
+                var3 = var2.quantity;
+                var1 = var1.quantity;
+                var1 = var3 + var1;
+                var2['quantity'] = var1;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal);
-        michal = zuuluu.map;
-        entity = function(argFoo) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var2 = var4.bind(var5)(var2);
+        var2 = var3.map;
+        var1 = function(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                entity = {};
-                golfie = entity;
-                oscard = zuuluu;
-                tangon = copyDataProperties(golfie, oscard);
-                var _closure3_slot0 = entity;
-                report = _closure2_slot1;
-                tangon = report.has;
-                zuuluu = zuuluu.subscriptionPlanId;
-                zuuluu = tangon.bind(report)(zuuluu);
-                if(!zuuluu) { _fun00004_ip = 96; continue _fun00003 }
+                var3 = arg1;
+                var1 = {};
+                var7 = var1;
+                var6 = var3;
+                var4 = copyDataProperties(var7, var6);
+                var _closure3_slot0 = var1;
+                var5 = _closure2_slot1;
+                var4 = var5.has;
+                var3 = var3.subscriptionPlanId;
+                var3 = var4.bind(var5)(var3);
+                if(!var3) { _fun0002_ip = 96; continue _fun0002 }
  47:
-                tangon = entity.amount;
-                zuuluu = entity.quantity;
-                zuuluu = tangon * zuuluu;
-                entity['amount'] = zuuluu;
-                tangon = entity.discounts;
-                zuuluu = tangon.map;
-                michal = function(argFoo) {
-                    michal = argFoo;
-                    entity = {};
-                    report = entity;
-                    tangon = michal;
-                    zuuluu = copyDataProperties(report, tangon);
-                    zuuluu = michal.amount;
-                    michal = _closure3_slot0;
-                    michal = michal.quantity;
-                    zuuluu = zuuluu * michal;
-                    michal = 'amount';
-                    entity[michal] = zuuluu;
-                    return entity;
+                var4 = var1.amount;
+                var3 = var1.quantity;
+                var3 = var4 * var3;
+                var1['amount'] = var3;
+                var4 = var1.discounts;
+                var3 = var4.map;
+                var2 = function(arg1) {
+                    var2 = arg1;
+                    var1 = {};
+                    var5 = var1;
+                    var4 = var2;
+                    var3 = copyDataProperties(var5, var4);
+                    var3 = var2.amount;
+                    var2 = _closure3_slot0;
+                    var2 = var2.quantity;
+                    var3 = var3 * var2;
+                    var2 = 'amount';
+                    var1[var2] = var3;
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                entity['discounts'] = michal;
+                var2 = var3.bind(var4)(var2);
+                var1['discounts'] = var2;
  96:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['coalesceInvoiceItems'] = tangon;
-    michal = function(argFoo) { // Original name: createInvoiceItemFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.id;
-        entity['id'] = zuuluu;
-        zuuluu = michal.subscription_plan_id;
-        entity['subscriptionPlanId'] = zuuluu;
-        zuuluu = michal.subscription_plan_price;
-        entity['subscriptionPlanPrice'] = zuuluu;
-        zuuluu = michal.amount;
-        entity['amount'] = zuuluu;
-        zuuluu = michal.quantity;
-        entity['quantity'] = zuuluu;
-        michal = michal.discounts;
-        entity['discounts'] = michal;
-        return entity;
+    var3['coalesceInvoiceItems'] = var4;
+    var2 = function createInvoiceItemFromServer(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.id;
+        var1['id'] = var3;
+        var3 = var2.subscription_plan_id;
+        var1['subscriptionPlanId'] = var3;
+        var3 = var2.subscription_plan_price;
+        var1['subscriptionPlanPrice'] = var3;
+        var3 = var2.amount;
+        var1['amount'] = var3;
+        var3 = var2.quantity;
+        var1['quantity'] = var3;
+        var2 = var2.discounts;
+        var1['discounts'] = var2;
+        return var1;
     };
-    zuuluu['createInvoiceItemFromServer'] = michal;
-    return entity;
+    var3['createInvoiceItemFromServer'] = var2;
+    return var1;
 })();

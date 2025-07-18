@@ -1,141 +1,141 @@
 // app/modules/experiments/trigger_points/Helpers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.CommonTriggerPoints;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo, argBar, argBaz) { // Original name: CommonTriggerPointConfiguration
-            zuuluu = this;
-            tangon = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = argFoo;
-            zuuluu['experiments'] = michal;
-            michal = argBar;
-            zuuluu['triggerPoint'] = michal;
-            michal = argBaz;
-            zuuluu['params'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.CommonTriggerPoints;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function CommonTriggerPointConfiguration(arg1, arg2, arg3) {
+            var3 = this;
+            var4 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = arg1;
+            var3['experiments'] = var2;
+            var2 = arg2;
+            var3['triggerPoint'] = var2;
+            var2 = arg3;
+            var3['params'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'registeredExperimentIds';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.experiments;
-            michal = zuuluu.map;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.definition;
-                entity = entity.id;
-                return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'registeredExperimentIds';
+        var1['key'] = var2;
+        var2 = function value() {
+            var1 = this;
+            var3 = var1.experiments;
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.definition;
+                var1 = var1.id;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'trigger';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'trigger';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = arguments[0];
-                michal = this;
-                entity = undefined;
-                if(!(zuuluu === entity)) { _fun00002_ip = 14; continue _fun00001 }
+                var3 = arguments[0];
+                var2 = this;
+                var1 = undefined;
+                if(!(var3 === var1)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-                zuuluu = {};
+                var3 = {};
  14:
-                tangon = michal.triggerPoint;
-                report = michal.experiments;
-                tangon = {};
-                option = michal.params;
-                verify = tangon;
-                oscard = copyDataProperties(verify, option);
-                verify = tangon;
-                option = zuuluu;
-                zuuluu = copyDataProperties(verify, option);
-                zuuluu = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
-                    zuuluu = argBar;
-                    michal = argBaz;
-                    var _closure4_slot0 = michal;
-                    michal = zuuluu.forEach;
-                    entity = function(argFoo) {
-                        zuuluu = argFoo;
-                        michal = zuuluu.trackExposure;
-                        entity = _closure4_slot0;
-                        entity = michal.bind(zuuluu)(entity);
-                        entity = undefined;
-                        return entity;
+                var4 = var2.triggerPoint;
+                var5 = var2.experiments;
+                var4 = {};
+                var8 = var2.params;
+                var9 = var4;
+                var6 = copyDataProperties(var9, var8);
+                var9 = var4;
+                var8 = var3;
+                var3 = copyDataProperties(var9, var8);
+                var3 = function triggerCommonExperiments(arg1, arg2, arg3) {
+                    var3 = arg2;
+                    var2 = arg3;
+                    var _closure4_slot0 = var2;
+                    var2 = var3.forEach;
+                    var1 = function(arg1) {
+                        var3 = arg1;
+                        var2 = var3.trackExposure;
+                        var1 = _closure4_slot0;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = undefined;
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                zuuluu = zuuluu.bind(entity)(entity, report, tangon);
-                tangon = _closure1_slot2;
-                zuuluu = tangon.trackCommonTriggerPointExposures;
-                michal = michal.params;
-                michal = michal.location;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var3 = var3.bind(var1)(var1, var5, var4);
+                var4 = _closure1_slot2;
+                var3 = var4.trackCommonTriggerPointExposures;
+                var2 = var2.params;
+                var2 = var2.location;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'getExperiments';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            entity = this;
-            entity = entity.experiments;
-            return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'getExperiments';
+        var1['key'] = var6;
+        var5 = function value() {
+            var1 = this;
+            var1 = var1.experiments;
+            return var1;
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/experiments/trigger_points/Helpers.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['CommonTriggerPointConfiguration'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/experiments/trigger_points/Helpers.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['CommonTriggerPointConfiguration'] = var2;
+    return var1;
 })();

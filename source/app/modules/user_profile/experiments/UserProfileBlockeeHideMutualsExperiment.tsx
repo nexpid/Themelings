@@ -1,87 +1,87 @@
 // app/modules/user_profile/experiments/UserProfileBlockeeHideMutualsExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    romeon = true;
-    tangon['value'] = romeon;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    verify = oscard.bind(entity)(tangon);
-    option = verify.createExperiment;
-    tangon = {'kind': 'user', 'id': '2024-08_user_profile_blockee_hide_mutuals', 'label': 'User Profile Blockee Hide Mutuals'};
-    report = {};
-    offset = false;
-    report['enabled'] = offset;
-    tangon['defaultConfig'] = report;
-    yankee = {'id': 1, 'label': 'Enable User Profile Blockee Hide Mutuals'};
-    report = 1;
-    offset = {};
-    offset['enabled'] = romeon;
-    yankee['config'] = offset;
-    offset = new Array(1);
-    offset[0] = yankee;
-    tangon['treatments'] = offset;
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot0 = tangon;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/user_profile/experiments/UserProfileBlockeeHideMutualsExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['UserProfileBlockeeHideMutualsExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForUserProfileBlockeeHideMutuals
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var12 = true;
+    var4['value'] = var12;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var9 = var6.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var4 = {'kind': 'user', 'id': '2024-08_user_profile_blockee_hide_mutuals', 'label': 'User Profile Blockee Hide Mutuals'};
+    var5 = {};
+    var10 = false;
+    var5['enabled'] = var10;
+    var4['defaultConfig'] = var5;
+    var11 = {'id': 1, 'label': 'Enable User Profile Blockee Hide Mutuals'};
+    var5 = 1;
+    var10 = {};
+    var10['enabled'] = var12;
+    var11['config'] = var10;
+    var10 = new Array(1);
+    var10[0] = var11;
+    var4['treatments'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot0 = var4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_profile/experiments/UserProfileBlockeeHideMutualsExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['UserProfileBlockeeHideMutualsExperiment'] = var4;
+    var4 = function isEligibleForUserProfileBlockeeHideMutuals(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['isEligibleForUserProfileBlockeeHideMutuals'] = tangon;
-    michal = function(argFoo) { // Original name: useIsEligibleForUserProfileBlockeeHideMutuals
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isEligibleForUserProfileBlockeeHideMutuals'] = var4;
+    var2 = function useIsEligibleForUserProfileBlockeeHideMutuals(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            michal = undefined;
-            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0002_ip = 22; continue _fun0002 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enabled;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enabled;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForUserProfileBlockeeHideMutuals'] = michal;
-    return entity;
+    var3['useIsEligibleForUserProfileBlockeeHideMutuals'] = var2;
+    return var1;
 })();

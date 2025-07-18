@@ -1,164 +1,164 @@
 // app/modules/premium/GuildCapUpsellHooks.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MAX_USER_GUILDS;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/GuildCapUpsellHooks.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useShouldShowInlineGuildCapUpsell
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MAX_USER_GUILDS;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/GuildCapUpsellHooks.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useShouldShowInlineGuildCapUpsell() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 3;
-            entity = option[report];
-            oscard = undefined;
-            offset = golfie.bind(oscard)(entity);
-            verify = offset.useStateFromStores;
-            entity = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getGuildCount;
-                michal = entity.bind(michal)();
-                entity = 95;
-                entity = michal >= entity;
-                return entity;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 3;
+            var1 = var8[var5];
+            var6 = undefined;
+            var10 = var7.bind(var6)(var1);
+            var9 = var10.useStateFromStores;
+            var1 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getGuildCount;
+                var2 = var1.bind(var2)();
+                var1 = 95;
+                var1 = var2 >= var1;
+                return var1;
             };
-            entity = verify.bind(offset)(zuuluu, entity);
-            zuuluu = option[report];
-            yankee = golfie.bind(oscard)(zuuluu);
-            offset = yankee.useStateFromStores;
-            zuuluu = 4;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.HotspotStore;
-            verify = new Array(1);
-            verify[0] = zuuluu;
-            zuuluu = function() {
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 4;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.HotspotStore;
-                michal = zuuluu.hasHotspot;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.HotspotLocations;
-                entity = entity.GUILD_CAP_INLINE_UPSELL;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1 = var9.bind(var10)(var3, var1);
+            var3 = var8[var5];
+            var11 = var7.bind(var6)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = 4;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.HotspotStore;
+            var9 = new Array(1);
+            var9[0] = var3;
+            var3 = function() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 4;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.HotspotStore;
+                var2 = var3.hasHotspot;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.HotspotLocations;
+                var1 = var1.GUILD_CAP_INLINE_UPSELL;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu = offset.bind(yankee)(verify, zuuluu);
-            report = option[report];
-            oscard = golfie.bind(oscard)(report);
-            report = oscard.useStateFromStoresObject;
-            golfie = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = golfie;
-            michal = function() {
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 5;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.isPremium;
-                tangon = _closure1_slot4;
-                entity = tangon.getCurrentUser;
-                entity = entity.bind(tangon)();
-                entity = michal.bind(zuuluu)(entity);
-                entity = !entity;
-                return entity;
+            var3 = var10.bind(var11)(var9, var3);
+            var5 = var8[var5];
+            var6 = var7.bind(var6)(var5);
+            var5 = var6.useStateFromStoresObject;
+            var7 = _closure1_slot4;
+            var4 = new Array(1);
+            var4[0] = var7;
+            var2 = function() {
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 5;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.isPremium;
+                var4 = _closure1_slot4;
+                var1 = var4.getCurrentUser;
+                var1 = var1.bind(var4)();
+                var1 = var2.bind(var3)(var1);
+                var1 = !var1;
+                return var1;
             };
-            michal = report.bind(oscard)(tangon, michal);
-            if(!entity) { _fun00002_ip = 156; continue _fun00001 }
+            var2 = var5.bind(var6)(var4, var2);
+            if(!var1) { _fun0001_ip = 156; continue _fun0001 }
  153:
-            entity = zuuluu;
+            var1 = var3;
  156:
-            if(!entity) { _fun00002_ip = 162; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 162; continue _fun0001 }
  159:
-            entity = michal;
+            var1 = var2;
  162:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldShowInlineGuildCapUpsell'] = tangon;
-    tangon = function() { // Original name: hideInlineGuildCapUpsell
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        michal = 4;
-        zuuluu = oscard[michal];
-        entity = undefined;
-        tangon = report.bind(entity)(zuuluu);
-        zuuluu = tangon.hideHotspot;
-        michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        michal = michal.HotspotLocations;
-        michal = michal.GUILD_CAP_INLINE_UPSELL;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['useShouldShowInlineGuildCapUpsell'] = var4;
+    var4 = function hideInlineGuildCapUpsell() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var2 = 4;
+        var3 = var6[var2];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var3);
+        var3 = var4.hideHotspot;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.HotspotLocations;
+        var2 = var2.GUILD_CAP_INLINE_UPSELL;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['hideInlineGuildCapUpsell'] = tangon;
-    michal = function() { // Original name: isAtGuildCapAndNonPremium
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['hideInlineGuildCapUpsell'] = var4;
+    var2 = function isAtGuildCapAndNonPremium() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getGuildCount;
-            zuuluu = entity.bind(zuuluu)();
-            entity = _closure1_slot5;
-            entity = zuuluu >= entity;
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            zuuluu = 5;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            tangon = report.bind(zuuluu)(tangon);
-            zuuluu = tangon.canUseIncreasedGuildCap;
-            report = _closure1_slot4;
-            michal = report.getCurrentUser;
-            michal = michal.bind(report)();
-            michal = zuuluu.bind(tangon)(michal);
-            if(!entity) { _fun00004_ip = 77; continue _fun00003 }
+            var3 = _closure1_slot3;
+            var1 = var3.getGuildCount;
+            var3 = var1.bind(var3)();
+            var1 = _closure1_slot5;
+            var1 = var3 >= var1;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var3 = 5;
+            var4 = var4[var3];
+            var3 = undefined;
+            var4 = var5.bind(var3)(var4);
+            var3 = var4.canUseIncreasedGuildCap;
+            var5 = _closure1_slot4;
+            var2 = var5.getCurrentUser;
+            var2 = var2.bind(var5)();
+            var2 = var3.bind(var4)(var2);
+            if(!var1) { _fun0002_ip = 77; continue _fun0002 }
  74:
-            entity = !michal;
+            var1 = !var2;
  77:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isAtGuildCapAndNonPremium'] = michal;
-    return entity;
+    var3['isAtGuildCapAndNonPremium'] = var2;
+    return var1;
 })();

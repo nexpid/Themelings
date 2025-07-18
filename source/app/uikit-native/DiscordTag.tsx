@@ -1,174 +1,174 @@
 // app/uikit-native/DiscordTag.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexGrow': 1, 'alignItems': 'center', 'flexDirection': 'row'};
-    tangon['container'] = verify;
-    verify = {};
-    offset = 4;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.spacing;
-    offset = offset.PX_4;
-    verify['marginLeft'] = offset;
-    tangon['botTag'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/DiscordTag.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: DiscordTag
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flexGrow': 1, 'alignItems': 'center', 'flexDirection': 'row'};
+    var4['container'] = var9;
+    var9 = {};
+    var10 = 4;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_4;
+    var9['marginLeft'] = var10;
+    var4['botTag'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/DiscordTag.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function DiscordTag(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.user;
-            backup = entity.nick;
-            sizing = entity.usernameStyle;
-            kiloes = entity.nicknameStyle;
-            source = entity.discriminatorStyle;
-            option = entity.hideBotTag;
-            tangon = undefined;
-            if(!(option === tangon)) { _fun00002_ip = 46; continue _fun00001 }
+            var1 = arg1;
+            var11 = var1.user;
+            var14 = var1.nick;
+            var16 = var1.usernameStyle;
+            var15 = var1.nicknameStyle;
+            var21 = var1.discriminatorStyle;
+            var8 = var1.hideBotTag;
+            var4 = undefined;
+            if(!(var8 === var4)) { _fun0001_ip = 46; continue _fun0001 }
  44:
-            option = false;
+            var8 = false;
  46:
-            entity = _closure1_slot6;
-            offset = entity.bind(tangon)();
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot3;
-            entity = {};
-            report = offset.container;
-            entity['style'] = report;
-            verify = null;
-            if(!(verify == backup)) { _fun00002_ip = 269; continue _fun00001 }
+            var1 = _closure1_slot6;
+            var10 = var1.bind(var4)();
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var10.container;
+            var1['style'] = var5;
+            var9 = null;
+            if(!(var9 == var14)) { _fun0001_ip = 269; continue _fun0001 }
  85:
-            report = verify != yankee;
-            oscard = null;
-            if(!report) { _fun00002_ip = 267; continue _fun00001 }
+            var5 = var9 != var11;
+            var6 = null;
+            if(!var5) { _fun0001_ip = 267; continue _fun0001 }
  97:
-            foxtra = _closure1_slot5;
-            romeon = _closure1_slot0;
-            report = _closure1_slot2;
-            ctrled = 5;
-            report = report[ctrled];
-            report = romeon.bind(tangon)(report);
-            romeon = report.Text;
-            report = {'variant': 'text-md/semibold', 'style': null, 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
-            report['style'] = sizing;
-            sizing = yankee.toString;
-            output = sizing.bind(yankee)();
-            sizing = new Array(2);
-            sizing[0] = output;
-            output = yankee.isPomelo;
-            output = output.bind(yankee)();
-            output = !output;
-            if(!output) { _fun00002_ip = 253; continue _fun00001 }
+            var13 = _closure1_slot5;
+            var12 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var22 = 5;
+            var5 = var5[var22];
+            var5 = var12.bind(var4)(var5);
+            var12 = var5.Text;
+            var5 = {'variant': 'text-md/semibold', 'style': null, 'lineClamp': 1, 'maxFontSizeMultiplier': 2};
+            var5['style'] = var16;
+            var16 = var11.toString;
+            var17 = var16.bind(var11)();
+            var16 = new Array(2);
+            var16[0] = var17;
+            var17 = var11.isPomelo;
+            var17 = var17.bind(var11)();
+            var17 = !var17;
+            if(!var17) { _fun0001_ip = 253; continue _fun0001 }
  179:
-            update = _closure1_slot5;
-            echoed = _closure1_slot0;
-            result = _closure1_slot2;
-            result = result[ctrled];
-            result = echoed.bind(tangon)(result);
-            echoed = result.Text;
-            result = {'variant': 'text-md/semibold', 'color': 'text-muted'};
-            result['style'] = source;
-            ctrled = yankee.discriminator;
-            source = ['#'];
-            source[1] = ctrled;
-            result['children'] = source;
-            output = update.bind(tangon)(echoed, result);
+            var20 = _closure1_slot5;
+            var19 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var18 = var18[var22];
+            var18 = var19.bind(var4)(var18);
+            var19 = var18.Text;
+            var18 = {'variant': 'text-md/semibold', 'color': 'text-muted'};
+            var18['style'] = var21;
+            var22 = var11.discriminator;
+            var21 = ['#'];
+            var21[1] = var22;
+            var18['children'] = var21;
+            var17 = var20.bind(var4)(var19, var18);
  253:
-            sizing[1] = output;
-            report['children'] = sizing;
-            oscard = foxtra.bind(tangon)(romeon, report);
+            var16[1] = var17;
+            var5['children'] = var16;
+            var6 = var13.bind(var4)(var12, var5);
  267:
-            _fun00002_ip = 328; continue _fun00001;
+            _fun0001_ip = 328; continue _fun0001;
  269:
-            foxtra = _closure1_slot4;
-            romeon = _closure1_slot0;
-            sizing = _closure1_slot2;
-            report = 5;
-            report = sizing[report];
-            report = romeon.bind(tangon)(report);
-            romeon = report.Text;
-            report = {'variant': 'text-md/semibold', 'maxFontSizeMultiplier': 2, 'style': null, 'lineClamp': 1};
-            report['style'] = kiloes;
-            report['children'] = backup;
-            oscard = foxtra.bind(tangon)(romeon, report);
+            var13 = _closure1_slot4;
+            var12 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var5 = 5;
+            var5 = var16[var5];
+            var5 = var12.bind(var4)(var5);
+            var12 = var5.Text;
+            var5 = {'variant': 'text-md/semibold', 'maxFontSizeMultiplier': 2, 'style': null, 'lineClamp': 1};
+            var5['style'] = var15;
+            var5['children'] = var14;
+            var6 = var13.bind(var4)(var12, var5);
  328:
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = verify == yankee;
-            foxtra = undefined;
-            if(oscard) { _fun00002_ip = 351; continue _fun00001 }
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = var9 == var11;
+            var13 = undefined;
+            if(var6) { _fun0001_ip = 351; continue _fun0001 }
  345:
-            foxtra = yankee.bot;
+            var13 = var11.bot;
  351:
-            romeon = true;
-            oscard = null;
-            if(!(romeon === foxtra)) { _fun00002_ip = 421; continue _fun00001 }
+            var12 = true;
+            var6 = null;
+            if(!(var12 === var13)) { _fun0001_ip = 421; continue _fun0001 }
  359:
-            oscard = null;
-            if(option) { _fun00002_ip = 421; continue _fun00001 }
+            var6 = null;
+            if(var8) { _fun0001_ip = 421; continue _fun0001 }
  364:
-            verify = _closure1_slot4;
-            option = _closure1_slot1;
-            romeon = _closure1_slot2;
-            golfie = 6;
-            golfie = romeon[golfie];
-            option = option.bind(tangon)(golfie);
-            golfie = {};
-            offset = offset.botTag;
-            golfie['style'] = offset;
-            offset = yankee.isVerifiedBot;
-            offset = offset.bind(yankee)();
-            golfie['verified'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var7 = 6;
+            var7 = var12[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = {};
+            var10 = var10.botTag;
+            var7['style'] = var10;
+            var10 = var11.isVerifiedBot;
+            var10 = var10.bind(var11)();
+            var7['verified'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  421:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

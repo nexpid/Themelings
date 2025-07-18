@@ -1,170 +1,170 @@
 // app/modules/icymi/native/useICYMITabBadge.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/icymi/native/useICYMITabBadge.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useICYMITabBadge
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/icymi/native/useICYMITabBadge.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useICYMITabBadge() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot0;
-            yankee = _closure1_slot2;
-            oscard = 2;
-            michal = yankee[oscard];
-            verify = undefined;
-            romeon = golfie.bind(verify)(michal);
-            offset = romeon.useStateFromStores;
-            tangon = _closure1_slot4;
-            option = new Array(1);
-            option[0] = tangon;
-            zuuluu = function() {
-                michal = _closure1_slot4;
-                entity = michal.hasNewContent;
-                entity = entity.bind(michal)();
-                return entity;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 2;
+            var2 = var11[var6];
+            var9 = undefined;
+            var12 = var7.bind(var9)(var2);
+            var10 = var12.useStateFromStores;
+            var4 = _closure1_slot4;
+            var8 = new Array(1);
+            var8[0] = var4;
+            var3 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.hasNewContent;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            michal = new Array(0);
-            michal = offset.bind(romeon)(option, zuuluu, michal);
-            zuuluu = 3;
-            zuuluu = yankee[zuuluu];
-            offset = golfie.bind(verify)(zuuluu);
-            option = offset.useIsNotificationsTabMerged;
-            zuuluu = {};
-            romeon = 'useICYMITabBadge';
-            zuuluu['location'] = romeon;
-            zuuluu = option.bind(offset)(zuuluu);
-            zuuluu = zuuluu.enabled;
-            oscard = yankee[oscard];
-            option = golfie.bind(verify)(oscard);
-            golfie = option.useStateFromStores;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                michal = _closure1_slot4;
-                entity = michal.getIsTabFocused;
-                entity = entity.bind(michal)();
-                return entity;
+            var2 = new Array(0);
+            var2 = var10.bind(var12)(var8, var3, var2);
+            var3 = 3;
+            var3 = var11[var3];
+            var10 = var7.bind(var9)(var3);
+            var8 = var10.useIsNotificationsTabMerged;
+            var3 = {};
+            var12 = 'useICYMITabBadge';
+            var3['location'] = var12;
+            var3 = var8.bind(var10)(var3);
+            var3 = var3.enabled;
+            var6 = var11[var6];
+            var8 = var7.bind(var9)(var6);
+            var7 = var8.useStateFromStores;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getIsTabFocused;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            offset = golfie.bind(option)(oscard, tangon);
-            var _closure2_slot0 = offset;
-            golfie = _closure1_slot1;
-            tangon = 4;
-            tangon = yankee[tangon];
-            tangon = golfie.bind(verify)(tangon);
-            tangon = tangon.bind(verify)();
-            oscard = tangon.value;
-            option = tangon.showDot;
-            var _closure2_slot1 = option;
-            tangon = 5;
-            tangon = yankee[tangon];
-            golfie = golfie.bind(verify)(tangon);
-            tangon = {};
-            tangon['isFocused'] = offset;
-            tangon['mergedNotificationsEnabled'] = zuuluu;
-            golfie = golfie.bind(verify)(tangon);
-            tangon = golfie.displayUnreadMentionMessages;
-            var _closure2_slot2 = tangon;
-            verify = golfie.newUnreadMentionMessages;
-            var _closure2_slot3 = verify;
-            golfie = _closure1_slot3;
-            report = golfie.useMemo;
-            yankee = tangon.length;
-            tangon = new Array(4);
-            tangon[0] = yankee;
-            tangon[1] = offset;
-            verify = verify.length;
-            tangon[2] = verify;
-            tangon[3] = option;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var10 = var7.bind(var8)(var6, var4);
+            var _closure2_slot0 = var10;
+            var7 = _closure1_slot1;
+            var4 = 4;
+            var4 = var11[var4];
+            var4 = var7.bind(var9)(var4);
+            var4 = var4.bind(var9)();
+            var6 = var4.value;
+            var8 = var4.showDot;
+            var _closure2_slot1 = var8;
+            var4 = 5;
+            var4 = var11[var4];
+            var7 = var7.bind(var9)(var4);
+            var4 = {};
+            var4['isFocused'] = var10;
+            var4['mergedNotificationsEnabled'] = var3;
+            var7 = var7.bind(var9)(var4);
+            var4 = var7.displayUnreadMentionMessages;
+            var _closure2_slot2 = var4;
+            var9 = var7.newUnreadMentionMessages;
+            var _closure2_slot3 = var9;
+            var7 = _closure1_slot3;
+            var5 = var7.useMemo;
+            var11 = var4.length;
+            var4 = new Array(4);
+            var4[0] = var11;
+            var4[1] = var10;
+            var9 = var9.length;
+            var4[2] = var9;
+            var4[3] = var8;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    if(entity) { _fun00004_ip = 55; continue _fun00003 }
+                    var1 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    if(var1) { _fun0002_ip = 55; continue _fun0002 }
  14:
-                    entity = michal;
-                    if(michal) { _fun00004_ip = 35; continue _fun00003 }
+                    var1 = var2;
+                    if(var2) { _fun0002_ip = 35; continue _fun0002 }
  20:
-                    tangon = _closure2_slot2;
-                    report = tangon.length;
-                    tangon = 0;
-                    entity = report > tangon;
+                    var4 = _closure2_slot2;
+                    var5 = var4.length;
+                    var4 = 0;
+                    var1 = var5 > var4;
  35:
-                    if(entity) { _fun00004_ip = 53; continue _fun00003 }
+                    if(var1) { _fun0002_ip = 53; continue _fun0002 }
  38:
-                    tangon = _closure2_slot3;
-                    report = tangon.length;
-                    tangon = 0;
-                    entity = report > tangon;
+                    var4 = _closure2_slot3;
+                    var5 = var4.length;
+                    var4 = 0;
+                    var1 = var5 > var4;
  53:
-                    _fun00004_ip = 76; continue _fun00003;
+                    _fun0002_ip = 76; continue _fun0002;
  55:
-                    if(michal) { _fun00004_ip = 73; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 73; continue _fun0002 }
  58:
-                    zuuluu = _closure2_slot2;
-                    tangon = zuuluu.length;
-                    zuuluu = 0;
-                    michal = tangon > zuuluu;
+                    var3 = _closure2_slot2;
+                    var4 = var3.length;
+                    var3 = 0;
+                    var2 = var4 > var3;
  73:
-                    entity = michal;
+                    var1 = var2;
  76:
-                    return entity;
+                    return var1;
                 }
             };
-            tangon = report.bind(golfie)(entity, tangon);
-            entity = {};
-            report = 0;
-            if(!zuuluu) { _fun00002_ip = 287; continue _fun00001 }
+            var4 = var5.bind(var7)(var1, var4);
+            var1 = {};
+            var5 = 0;
+            if(!var3) { _fun0001_ip = 287; continue _fun0001 }
  284:
-            report = oscard;
+            var5 = var6;
  287:
-            entity['value'] = report;
-            if(michal) { _fun00002_ip = 303; continue _fun00001 }
+            var1['value'] = var5;
+            if(var2) { _fun0001_ip = 303; continue _fun0001 }
  294:
-            if(!zuuluu) { _fun00002_ip = 300; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 300; continue _fun0001 }
  297:
-            zuuluu = tangon;
+            var3 = var4;
  300:
-            michal = zuuluu;
+            var2 = var3;
  303:
-            entity['showDot'] = michal;
-            return entity;
+            var1['showDot'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: icymiTabBadgeShown
-        michal = _closure1_slot4;
-        entity = michal.hasNewContent;
-        entity = entity.bind(michal)();
-        return entity;
+    var3['default'] = var4;
+    var2 = function icymiTabBadgeShown() {
+        var2 = _closure1_slot4;
+        var1 = var2.hasNewContent;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    zuuluu['icymiTabBadgeShown'] = michal;
-    return entity;
+    var3['icymiTabBadgeShown'] = var2;
+    return var1;
 })();

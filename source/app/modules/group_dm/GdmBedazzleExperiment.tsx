@@ -1,99 +1,99 @@
 // app/modules/group_dm/GdmBedazzleExperiment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: useGdmBedazzleExperiment
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = argFoo;
-        michal['location'] = entity;
-        entity = argBar;
-        michal['guildId'] = entity;
-        entity = argBaz;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var4 = function useGdmBedazzleExperiment(arg1, arg2, arg3) {
+        var4 = _closure1_slot0;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = arg2;
+        var2['guildId'] = var1;
+        var1 = arg3;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot1 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    offset = oscard.bind(entity)(report);
-    verify = offset.createExperiment;
-    option = {'kind': 'guild', 'id': '2025-04_gdm_bedazzling', 'label': 'GDM Bedazzling'};
-    report = {'enabled': false, 'unifiedEditing': false};
-    option['defaultConfig'] = report;
-    romeon = {'id': 1, 'label': 'Enabled - T1 - Unified editing'};
-    report = 1;
-    yankee = {'enabled': true, 'unifiedEditing': true};
-    romeon['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = romeon;
-    romeon = {'id': 2, 'label': 'Enabled - T2 - Retain Change Icon'};
-    foxtra = {'enabled': true, 'unifiedEditing': false};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    option['treatments'] = yankee;
-    option = verify.bind(offset)(option);
-    var _closure1_slot0 = option;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/group_dm/GdmBedazzleExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar, argBaz) { // Original name: isGdmBedazzleExperimentEnabled
-        tangon = _closure1_slot0;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = argFoo;
-        michal['location'] = entity;
-        entity = argBar;
-        michal['guildId'] = entity;
-        entity = argBaz;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var10 = var6.bind(var1)(var5);
+    var9 = var10.createExperiment;
+    var8 = {'kind': 'guild', 'id': '2025-04_gdm_bedazzling', 'label': 'GDM Bedazzling'};
+    var5 = {'enabled': false, 'unifiedEditing': false};
+    var8['defaultConfig'] = var5;
+    var12 = {'id': 1, 'label': 'Enabled - T1 - Unified editing'};
+    var5 = 1;
+    var11 = {'enabled': true, 'unifiedEditing': true};
+    var12['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var12;
+    var12 = {'id': 2, 'label': 'Enabled - T2 - Retain Change Icon'};
+    var13 = {'enabled': true, 'unifiedEditing': false};
+    var12['config'] = var13;
+    var11[1] = var12;
+    var8['treatments'] = var11;
+    var8 = var9.bind(var10)(var8);
+    var _closure1_slot0 = var8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/group_dm/GdmBedazzleExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function isGdmBedazzleExperimentEnabled(arg1, arg2, arg3) {
+        var4 = _closure1_slot0;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = arg2;
+        var2['guildId'] = var1;
+        var1 = arg3;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enabled;
+        return var1;
     };
-    zuuluu['isGdmBedazzleExperimentEnabled'] = report;
-    zuuluu['useGdmBedazzleExperiment'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: useIsGdmBedazzleExperimentEnabled
-        report = _closure1_slot1;
-        tangon = undefined;
-        zuuluu = argFoo;
-        michal = argBar;
-        entity = argBaz;
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        entity = entity.enabled;
-        return entity;
+    var3['isGdmBedazzleExperimentEnabled'] = var5;
+    var3['useGdmBedazzleExperiment'] = var4;
+    var4 = function useIsGdmBedazzleExperimentEnabled(arg1, arg2, arg3) {
+        var5 = _closure1_slot1;
+        var4 = undefined;
+        var3 = arg1;
+        var2 = arg2;
+        var1 = arg3;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        var1 = var1.enabled;
+        return var1;
     };
-    zuuluu['useIsGdmBedazzleExperimentEnabled'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useIsGdmIconChangeItemEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['useIsGdmBedazzleExperimentEnabled'] = var4;
+    var2 = function useIsGdmIconChangeItemEnabled(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot1;
-            zuuluu = undefined;
-            michal = argFoo;
-            entity = argBar;
-            michal = tangon.bind(zuuluu)(michal, entity);
-            entity = michal.enabled;
-            michal = michal.unifiedEditing;
-            entity = !entity;
-            if(entity) { _fun00002_ip = 41; continue _fun00001 }
+            var4 = _closure1_slot1;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = arg2;
+            var2 = var4.bind(var3)(var2, var1);
+            var1 = var2.enabled;
+            var2 = var2.unifiedEditing;
+            var1 = !var1;
+            if(var1) { _fun0001_ip = 41; continue _fun0001 }
  38:
-            entity = !michal;
+            var1 = !var2;
  41:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsGdmIconChangeItemEnabled'] = michal;
-    return entity;
+    var3['useIsGdmIconChangeItemEnabled'] = var2;
+    return var1;
 })();

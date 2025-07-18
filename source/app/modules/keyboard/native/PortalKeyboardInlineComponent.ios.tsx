@@ -1,396 +1,396 @@
 // app/modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: customKeyboardWillHide
-        entity = argFoo;
-        result = entity.viewHandle;
-        output = entity.height;
-        sizing = entity.width;
-        kiloes = entity.x;
-        backup = entity.y;
-        yankee = entity.resetOffset;
-        entity = _closure1_slot4;
-        tangon = entity.DCDChatManager;
-        zuuluu = tangon.customKeyboardWillHide;
-        foxtra = 0.25;
-        romeon = 7;
-        echoed = tangon;
-        entity = echoed[zuuluu](result, output, sizing, kiloes, backup, foxtra, romeon, yankee, offset);
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = function customKeyboardWillHide(arg1) {
+        var1 = arg1;
+        var18 = var1.viewHandle;
+        var17 = var1.height;
+        var16 = var1.width;
+        var15 = var1.x;
+        var14 = var1.y;
+        var11 = var1.resetOffset;
+        var1 = _closure1_slot4;
+        var4 = var1.DCDChatManager;
+        var3 = var4.customKeyboardWillHide;
+        var13 = 0.25;
+        var12 = 7;
+        var19 = var4;
+        var1 = var19[var3](var18, var17, var16, var15, var14, var13, var12, var11, var10);
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function(argFoo, argBar) { // Original name: withChatViewHandle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function withChatViewHandle(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.current;
-            michal = null;
-            tangon = michal == report;
-            entity = undefined;
-            zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 31; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.current;
+            var2 = null;
+            var4 = var2 == var5;
+            var1 = undefined;
+            var3 = undefined;
+            if(var4) { _fun0001_ip = 31; continue _fun0001 }
  21:
-            tangon = report.getChatRef;
-            zuuluu = tangon.bind(report)();
+            var4 = var5.getChatRef;
+            var3 = var4.bind(var5)();
  31:
-            if(!(michal != zuuluu)) { _fun00002_ip = 64; continue _fun00001 }
+            if(!(var2 != var3)) { _fun0001_ip = 64; continue _fun0001 }
  35:
-            tangon = _closure1_slot5;
-            zuuluu = zuuluu.current;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            if(!(michal != zuuluu)) { _fun00002_ip = 64; continue _fun00001 }
+            var4 = _closure1_slot5;
+            var3 = var3.current;
+            var3 = var4.bind(var1)(var3);
+            if(!(var2 != var3)) { _fun0001_ip = 64; continue _fun0001 }
  56:
-            michal = argBar;
-            michal = michal.bind(entity)(zuuluu);
+            var2 = arg2;
+            var2 = var2.bind(var1)(var3);
  64:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    verify = tangon.NativeModules;
-    var _closure1_slot4 = verify;
-    tangon = tangon.findNodeHandle;
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) { // Original name: InlinePortalKeyboard
-        michal = argFoo;
-        foxtra = michal.channelId;
-        option = michal.messagesRef;
-        var _closure2_slot0 = option;
-        tangon = _closure1_slot3;
-        michal = tangon.useId;
-        romeon = michal.bind(tangon)();
-        var _closure2_slot1 = romeon;
-        yankee = _closure1_slot1;
-        kiloes = _closure1_slot2;
-        michal = 3;
-        zuuluu = kiloes[michal];
-        backup = undefined;
-        zuuluu = yankee.bind(backup)(zuuluu);
-        verify = zuuluu.bind(backup)();
-        var _closure2_slot2 = verify;
-        zuuluu = 4;
-        zuuluu = kiloes[zuuluu];
-        report = yankee.bind(backup)(zuuluu);
-        zuuluu = {};
-        oscard = true;
-        zuuluu['excludeSafeAreaInsets'] = oscard;
-        oscard = report.bind(backup)(zuuluu);
-        var _closure2_slot3 = oscard;
-        zuuluu = 5;
-        zuuluu = kiloes[zuuluu];
-        offset = yankee.bind(backup)(zuuluu);
-        report = {};
-        zuuluu = false;
-        report['includeCustomKeyboard'] = zuuluu;
-        report = offset.bind(backup)(report);
-        var _closure2_slot4 = report;
-        offset = _closure1_slot0;
-        michal = kiloes[michal];
-        sizing = offset.bind(backup)(michal);
-        golfie = sizing.useKeyboardContextForType;
-        michal = 6;
-        michal = kiloes[michal];
-        michal = offset.bind(backup)(michal);
-        michal = michal.KeyboardTypes;
-        michal = michal.SYSTEM;
-        golfie = golfie.bind(sizing)(michal);
-        var _closure2_slot5 = golfie;
-        michal = 7;
-        michal = kiloes[michal];
-        yankee = yankee.bind(backup)(michal);
-        michal = function() {
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.NativeModules;
+    var _closure1_slot4 = var9;
+    var4 = var4.findNodeHandle;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = var7.memo;
+    var2 = function InlinePortalKeyboard(arg1) {
+        var2 = arg1;
+        var13 = var2.channelId;
+        var8 = var2.messagesRef;
+        var _closure2_slot0 = var8;
+        var4 = _closure1_slot3;
+        var2 = var4.useId;
+        var12 = var2.bind(var4)();
+        var _closure2_slot1 = var12;
+        var11 = _closure1_slot1;
+        var15 = _closure1_slot2;
+        var2 = 3;
+        var3 = var15[var2];
+        var14 = undefined;
+        var3 = var11.bind(var14)(var3);
+        var9 = var3.bind(var14)();
+        var _closure2_slot2 = var9;
+        var3 = 4;
+        var3 = var15[var3];
+        var5 = var11.bind(var14)(var3);
+        var3 = {};
+        var6 = true;
+        var3['excludeSafeAreaInsets'] = var6;
+        var6 = var5.bind(var14)(var3);
+        var _closure2_slot3 = var6;
+        var3 = 5;
+        var3 = var15[var3];
+        var10 = var11.bind(var14)(var3);
+        var5 = {};
+        var3 = false;
+        var5['includeCustomKeyboard'] = var3;
+        var5 = var10.bind(var14)(var5);
+        var _closure2_slot4 = var5;
+        var10 = _closure1_slot0;
+        var2 = var15[var2];
+        var16 = var10.bind(var14)(var2);
+        var7 = var16.useKeyboardContextForType;
+        var2 = 6;
+        var2 = var15[var2];
+        var2 = var10.bind(var14)(var2);
+        var2 = var2.KeyboardTypes;
+        var2 = var2.SYSTEM;
+        var7 = var7.bind(var16)(var2);
+        var _closure2_slot5 = var7;
+        var2 = 7;
+        var2 = var15[var2];
+        var11 = var11.bind(var14)(var2);
+        var2 = function() {
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    tangon = 8;
-                    zuuluu = entity[tangon];
-                    entity = undefined;
-                    zuuluu = report.bind(entity)(zuuluu);
-                    oscard = zuuluu.PortalKeyboardUIStore;
-                    report = oscard.getField;
-                    zuuluu = 'keyboard';
-                    report = report.bind(oscard)(zuuluu);
-                    zuuluu = null;
-                    zuuluu = zuuluu != report;
-                    if(!zuuluu) { _fun00004_ip = 72; continue _fun00003 }
+                    var5 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var4 = 8;
+                    var3 = var1[var4];
+                    var1 = undefined;
+                    var3 = var5.bind(var1)(var3);
+                    var6 = var3.PortalKeyboardUIStore;
+                    var5 = var6.getField;
+                    var3 = 'keyboard';
+                    var5 = var5.bind(var6)(var3);
+                    var3 = null;
+                    var3 = var3 != var5;
+                    if(!var3) { _fun0002_ip = 72; continue _fun0002 }
  55:
-                    oscard = report.handlerId;
-                    report = _closure2_slot1;
-                    zuuluu = oscard === report;
+                    var6 = var5.handlerId;
+                    var5 = _closure2_slot1;
+                    var3 = var6 === var5;
  72:
-                    if(!zuuluu) { _fun00004_ip = 124; continue _fun00003 }
+                    if(!var3) { _fun0002_ip = 124; continue _fun0002 }
  75:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    report = 9;
-                    report = michal[report];
-                    oscard = zuuluu.bind(entity)(report);
-                    report = oscard.dismissKeyboard;
-                    report = report.bind(oscard)();
-                    michal = michal[tangon];
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.closePortalKeyboard;
-                    michal = michal.bind(zuuluu)();
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var5 = 9;
+                    var5 = var2[var5];
+                    var6 = var3.bind(var1)(var5);
+                    var5 = var6.dismissKeyboard;
+                    var5 = var5.bind(var6)();
+                    var2 = var2[var4];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.closePortalKeyboard;
+                    var2 = var2.bind(var3)();
  124:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        michal = yankee.bind(backup)(michal);
-        michal = 8;
-        yankee = kiloes[michal];
-        yankee = offset.bind(backup)(yankee);
-        output = yankee.PortalKeyboardUIStore;
-        sizing = output.useField;
-        yankee = 'keyboard';
-        yankee = sizing.bind(output)(yankee);
-        var _closure2_slot6 = yankee;
-        michal = kiloes[michal];
-        michal = offset.bind(backup)(michal);
-        backup = michal.PortalKeyboardUIStore;
-        offset = backup.useField;
-        michal = 'state';
-        offset = offset.bind(backup)(michal);
-        var _closure2_slot7 = offset;
-        michal = tangon.useRef;
-        michal = michal.bind(tangon)(zuuluu);
-        var _closure2_slot8 = michal;
-        zuuluu = tangon.useLayoutEffect;
-        michal = new Array(9);
-        michal[0] = foxtra;
-        michal[1] = romeon;
-        michal[2] = yankee;
-        michal[3] = offset;
-        michal[4] = verify;
-        michal[5] = option;
-        michal[6] = golfie;
-        michal[7] = oscard;
-        michal[8] = report;
-        entity = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var2 = var11.bind(var14)(var2);
+        var2 = 8;
+        var11 = var15[var2];
+        var11 = var10.bind(var14)(var11);
+        var17 = var11.PortalKeyboardUIStore;
+        var16 = var17.useField;
+        var11 = 'keyboard';
+        var11 = var16.bind(var17)(var11);
+        var _closure2_slot6 = var11;
+        var2 = var15[var2];
+        var2 = var10.bind(var14)(var2);
+        var14 = var2.PortalKeyboardUIStore;
+        var10 = var14.useField;
+        var2 = 'state';
+        var10 = var10.bind(var14)(var2);
+        var _closure2_slot7 = var10;
+        var2 = var4.useRef;
+        var2 = var2.bind(var4)(var3);
+        var _closure2_slot8 = var2;
+        var3 = var4.useLayoutEffect;
+        var2 = new Array(9);
+        var2[0] = var13;
+        var2[1] = var12;
+        var2[2] = var11;
+        var2[3] = var10;
+        var2[4] = var9;
+        var2[5] = var8;
+        var2[6] = var7;
+        var2[7] = var6;
+        var2[8] = var5;
+        var1 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 10;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                report = report.bind(entity)(zuuluu);
-                zuuluu = report.getWindowDimensions;
-                zuuluu = zuuluu.bind(report)();
-                var _closure3_slot0 = zuuluu;
-                report = _closure2_slot8;
-                golfie = report.current;
-                report = _closure2_slot6;
-                oscard = null;
-                if(!(oscard == report)) { _fun00006_ip = 124; continue _fun00005 }
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 10;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.getWindowDimensions;
+                var3 = var3.bind(var5)();
+                var _closure3_slot0 = var3;
+                var5 = _closure2_slot8;
+                var7 = var5.current;
+                var5 = _closure2_slot6;
+                var6 = null;
+                if(!(var6 == var5)) { _fun0003_ip = 124; continue _fun0003 }
  63:
-                report = _closure1_slot6;
-                option = report.systemPrefersCrossfades;
-                report = _closure2_slot4;
-                if(report) { _fun00006_ip = 92; continue _fun00005 }
+                var5 = _closure1_slot6;
+                var8 = var5.systemPrefersCrossfades;
+                var5 = _closure2_slot4;
+                if(var5) { _fun0003_ip = 92; continue _fun0003 }
  80:
-                golfie = !golfie;
-                if(!golfie) { _fun00006_ip = 89; continue _fun00005 }
+                var7 = !var7;
+                if(!var7) { _fun0003_ip = 89; continue _fun0003 }
  86:
-                golfie = !option;
+                var7 = !var8;
  89:
-                report = golfie;
+                var5 = var7;
  92:
-                if(report) { _fun00006_ip = 340; continue _fun00005 }
+                if(var5) { _fun0003_ip = 340; continue _fun0003 }
  98:
-                option = _closure1_slot8;
-                golfie = _closure2_slot0;
-                report = function(argFoo) {
-                    michal = _closure2_slot8;
-                    entity = false;
-                    michal['current'] = entity;
-                    zuuluu = _closure1_slot7;
-                    michal = {'viewHandle': null, 'height': 0, 'width': null, 'x': 0, 'y': null, 'resetOffset': true};
-                    entity = argFoo;
-                    michal['viewHandle'] = entity;
-                    entity = _closure3_slot0;
-                    tangon = entity.width;
-                    michal['width'] = tangon;
-                    entity = entity.height;
-                    michal['y'] = entity;
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                var8 = _closure1_slot8;
+                var7 = _closure2_slot0;
+                var5 = function(arg1) {
+                    var2 = _closure2_slot8;
+                    var1 = false;
+                    var2['current'] = var1;
+                    var3 = _closure1_slot7;
+                    var2 = {'viewHandle': null, 'height': 0, 'width': null, 'x': 0, 'y': null, 'resetOffset': true};
+                    var1 = arg1;
+                    var2['viewHandle'] = var1;
+                    var1 = _closure3_slot0;
+                    var4 = var1.width;
+                    var2['width'] = var4;
+                    var1 = var1.height;
+                    var2['y'] = var1;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                report = option.bind(entity)(golfie, report);
-                _fun00006_ip = 340; continue _fun00005;
+                var5 = var8.bind(var1)(var7, var5);
+                _fun0003_ip = 340; continue _fun0003;
  124:
-                report = _closure2_slot6;
-                report = report.handlerId;
-                report = oscard != report;
-                if(!report) { _fun00006_ip = 159; continue _fun00005 }
+                var5 = _closure2_slot6;
+                var5 = var5.handlerId;
+                var5 = var6 != var5;
+                if(!var5) { _fun0003_ip = 159; continue _fun0003 }
  141:
-                golfie = _closure2_slot6;
-                option = golfie.handlerId;
-                golfie = _closure2_slot1;
-                report = option !== golfie;
+                var7 = _closure2_slot6;
+                var8 = var7.handlerId;
+                var7 = _closure2_slot1;
+                var5 = var8 !== var7;
  159:
-                if(report) { _fun00006_ip = 340; continue _fun00005 }
+                if(var5) { _fun0003_ip = 340; continue _fun0003 }
  165:
-                report = _closure2_slot6;
-                if(!(oscard != report)) { _fun00006_ip = 236; continue _fun00005 }
+                var5 = _closure2_slot6;
+                if(!(var6 != var5)) { _fun0003_ip = 236; continue _fun0003 }
  173:
-                oscard = _closure2_slot7;
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                report = 11;
-                report = option[report];
-                report = golfie.bind(entity)(report);
-                report = report.PortalKeyboardState;
-                report = report.REQUEST_OPEN;
-                if(!(oscard === report)) { _fun00006_ip = 236; continue _fun00005 }
+                var6 = _closure2_slot7;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var5 = 11;
+                var5 = var8[var5];
+                var5 = var7.bind(var1)(var5);
+                var5 = var5.PortalKeyboardState;
+                var5 = var5.REQUEST_OPEN;
+                if(!(var6 === var5)) { _fun0003_ip = 236; continue _fun0003 }
  213:
-                golfie = _closure1_slot8;
-                oscard = _closure2_slot0;
-                report = function(argFoo) {
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    entity = 8;
-                    zuuluu = report[entity];
-                    entity = undefined;
-                    option = tangon.bind(entity)(zuuluu);
-                    golfie = option.handlePortalKeyboardOpen;
-                    oscard = _closure2_slot1;
-                    oscard = golfie.bind(option)(oscard);
-                    oscard = _closure2_slot8;
-                    zuuluu = true;
-                    oscard['current'] = zuuluu;
-                    zuuluu = 12;
-                    zuuluu = report[zuuluu];
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.getKeyboardActionSheetHeight;
-                    zuuluu = zuuluu.bind(tangon)();
-                    report = zuuluu.minimum;
-                    zuuluu = {};
-                    tangon = argFoo;
-                    zuuluu['viewHandle'] = tangon;
-                    zuuluu['height'] = report;
-                    tangon = _closure3_slot0;
-                    oscard = tangon.width;
-                    zuuluu['width'] = oscard;
-                    oscard = 0;
-                    zuuluu['x'] = oscard;
-                    tangon = tangon.height;
-                    tangon = tangon - report;
-                    zuuluu['y'] = tangon;
-                    output = zuuluu.viewHandle;
-                    sizing = zuuluu.height;
-                    kiloes = zuuluu.width;
-                    backup = zuuluu.x;
-                    foxtra = zuuluu.y;
-                    michal = _closure1_slot4;
-                    report = michal.DCDChatManager;
-                    tangon = report.customKeyboardWillShow;
-                    romeon = 0.25;
-                    yankee = 7;
-                    result = report;
-                    michal = result[tangon](output, sizing, kiloes, backup, foxtra, romeon, yankee, offset);
-                    return entity;
+                var7 = _closure1_slot8;
+                var6 = _closure2_slot0;
+                var5 = function(arg1) {
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var1 = 8;
+                    var3 = var5[var1];
+                    var1 = undefined;
+                    var8 = var4.bind(var1)(var3);
+                    var7 = var8.handlePortalKeyboardOpen;
+                    var6 = _closure2_slot1;
+                    var6 = var7.bind(var8)(var6);
+                    var6 = _closure2_slot8;
+                    var3 = true;
+                    var6['current'] = var3;
+                    var3 = 12;
+                    var3 = var5[var3];
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.getKeyboardActionSheetHeight;
+                    var3 = var3.bind(var4)();
+                    var5 = var3.minimum;
+                    var3 = {};
+                    var4 = arg1;
+                    var3['viewHandle'] = var4;
+                    var3['height'] = var5;
+                    var4 = _closure3_slot0;
+                    var6 = var4.width;
+                    var3['width'] = var6;
+                    var6 = 0;
+                    var3['x'] = var6;
+                    var4 = var4.height;
+                    var4 = var4 - var5;
+                    var3['y'] = var4;
+                    var17 = var3.viewHandle;
+                    var16 = var3.height;
+                    var15 = var3.width;
+                    var14 = var3.x;
+                    var13 = var3.y;
+                    var2 = _closure1_slot4;
+                    var5 = var2.DCDChatManager;
+                    var4 = var5.customKeyboardWillShow;
+                    var12 = 0.25;
+                    var11 = 7;
+                    var18 = var5;
+                    var2 = var18[var4](var17, var16, var15, var14, var13, var12, var11, var10);
+                    return var1;
                 };
-                report = golfie.bind(entity)(oscard, report);
-                _fun00006_ip = 340; continue _fun00005;
+                var5 = var7.bind(var1)(var6, var5);
+                _fun0003_ip = 340; continue _fun0003;
  236:
-                oscard = _closure2_slot2;
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                report = 6;
-                report = option[report];
-                report = golfie.bind(entity)(report);
-                report = report.KeyboardTypes;
-                report = report.SYSTEM;
-                if(!(oscard === report)) { _fun00006_ip = 340; continue _fun00005 }
+                var6 = _closure2_slot2;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var5 = 6;
+                var5 = var8[var5];
+                var5 = var7.bind(var1)(var5);
+                var5 = var5.KeyboardTypes;
+                var5 = var5.SYSTEM;
+                if(!(var6 === var5)) { _fun0003_ip = 340; continue _fun0003 }
  276:
-                report = _closure2_slot5;
-                report = report.keyboardWillOpen;
-                if(report) { _fun00006_ip = 340; continue _fun00005 }
+                var5 = _closure2_slot5;
+                var5 = var5.keyboardWillOpen;
+                if(var5) { _fun0003_ip = 340; continue _fun0003 }
  289:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                report = 8;
-                report = golfie[report];
-                oscard = oscard.bind(entity)(report);
-                report = oscard.closePortalKeyboard;
-                report = report.bind(oscard)();
-                tangon = _closure1_slot8;
-                zuuluu = _closure2_slot0;
-                michal = function(argFoo) {
-                    zuuluu = _closure2_slot8;
-                    michal = false;
-                    zuuluu['current'] = michal;
-                    zuuluu = _closure1_slot7;
-                    michal = {};
-                    tangon = argFoo;
-                    michal['viewHandle'] = tangon;
-                    report = _closure2_slot3;
-                    michal['height'] = report;
-                    tangon = _closure3_slot0;
-                    oscard = tangon.width;
-                    michal['width'] = oscard;
-                    oscard = 0;
-                    michal['x'] = oscard;
-                    tangon = tangon.height;
-                    tangon = tangon - report;
-                    michal['y'] = tangon;
-                    entity = _closure2_slot4;
-                    entity = !entity;
-                    michal['resetOffset'] = entity;
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var5 = 8;
+                var5 = var7[var5];
+                var6 = var6.bind(var1)(var5);
+                var5 = var6.closePortalKeyboard;
+                var5 = var5.bind(var6)();
+                var4 = _closure1_slot8;
+                var3 = _closure2_slot0;
+                var2 = function(arg1) {
+                    var3 = _closure2_slot8;
+                    var2 = false;
+                    var3['current'] = var2;
+                    var3 = _closure1_slot7;
+                    var2 = {};
+                    var4 = arg1;
+                    var2['viewHandle'] = var4;
+                    var5 = _closure2_slot3;
+                    var2['height'] = var5;
+                    var4 = _closure3_slot0;
+                    var6 = var4.width;
+                    var2['width'] = var6;
+                    var6 = 0;
+                    var2['x'] = var6;
+                    var4 = var4.height;
+                    var4 = var4 - var5;
+                    var2['y'] = var4;
+                    var1 = _closure2_slot4;
+                    var1 = !var1;
+                    var2['resetOffset'] = var1;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = tangon.bind(entity)(zuuluu, michal);
+                var2 = var4.bind(var1)(var3, var2);
  340:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = null;
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = null;
+        return var1;
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

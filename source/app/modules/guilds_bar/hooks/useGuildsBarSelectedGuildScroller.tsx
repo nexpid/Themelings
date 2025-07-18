@@ -1,93 +1,93 @@
 // app/modules/guilds_bar/hooks/useGuildsBarSelectedGuildScroller.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    oscard = report[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guilds_bar/hooks/useGuildsBarSelectedGuildScroller.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useGuildsBarSelectedGuildScroller
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useEffect;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            tangon = function() { // Original name: handleSelectedGuildChange
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var6 = var5[var4];
+    var4 = native3;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guilds_bar/hooks/useGuildsBarSelectedGuildScroller.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildsBarSelectedGuildScroller(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot0;
+        var3 = var4.useEffect;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var4 = function handleSelectedGuildChange() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure1_slot1;
-                    entity = michal.getGuildId;
-                    entity = entity.bind(michal)();
-                    michal = _closure3_slot0;
-                    if(!(entity !== michal)) { _fun00002_ip = 75; continue _fun00001 }
+                    var2 = _closure1_slot1;
+                    var1 = var2.getGuildId;
+                    var1 = var1.bind(var2)();
+                    var2 = _closure3_slot0;
+                    if(!(var1 !== var2)) { _fun0001_ip = 75; continue _fun0001 }
  28:
-                    tangon = null;
-                    report = tangon != entity;
-                    michal = null;
-                    if(!report) { _fun00002_ip = 42; continue _fun00001 }
+                    var4 = null;
+                    var5 = var4 != var1;
+                    var2 = null;
+                    if(!var5) { _fun0001_ip = 42; continue _fun0001 }
  39:
-                    michal = entity;
+                    var2 = var1;
  42:
-                    _closure3_slot0 = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = tangon != entity;
-                    tangon = null;
-                    if(!michal) { _fun00002_ip = 65; continue _fun00001 }
+                    _closure3_slot0 = var2;
+                    var3 = _closure2_slot0;
+                    var2 = var4 != var1;
+                    var4 = null;
+                    if(!var2) { _fun0001_ip = 65; continue _fun0001 }
  62:
-                    tangon = entity;
+                    var4 = var1;
  65:
-                    michal = undefined;
-                    entity = false;
-                    entity = zuuluu.bind(michal)(tangon, entity);
+                    var2 = undefined;
+                    var1 = false;
+                    var1 = var3.bind(var2)(var4, var1);
  75:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            var _closure3_slot1 = tangon;
-            michal = null;
-            var _closure3_slot0 = michal;
-            zuuluu = _closure1_slot1;
-            michal = zuuluu.addChangeListener;
-            michal = michal.bind(zuuluu)(tangon);
-            entity = function() {
-                zuuluu = _closure1_slot1;
-                michal = zuuluu.removeChangeListener;
-                entity = _closure3_slot1;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+            var _closure3_slot1 = var4;
+            var2 = null;
+            var _closure3_slot0 = var2;
+            var3 = _closure1_slot1;
+            var2 = var3.addChangeListener;
+            var2 = var2.bind(var3)(var4);
+            var1 = function() {
+                var3 = _closure1_slot1;
+                var2 = var3.removeChangeListener;
+                var1 = _closure3_slot1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = undefined;
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

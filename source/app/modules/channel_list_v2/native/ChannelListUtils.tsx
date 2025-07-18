@@ -1,99 +1,99 @@
 // app/modules/channel_list_v2/native/ChannelListUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/channel_list_v2/native/ChannelListUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: isFavoritesSection
-        entity = argBar;
-        michal = entity.favoritesSectionNumber;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/channel_list_v2/native/ChannelListUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isFavoritesSection(arg1, arg2) {
+        var1 = arg2;
+        var2 = var1.favoritesSectionNumber;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    zuuluu['isFavoritesSection'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isRecentsSection
-        entity = argBar;
-        michal = entity.recentsSectionNumber;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+    var3['isFavoritesSection'] = var4;
+    var4 = function isRecentsSection(arg1, arg2) {
+        var1 = arg2;
+        var2 = var1.recentsSectionNumber;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    zuuluu['isRecentsSection'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isVoiceChannelsSection
-        entity = argBar;
-        michal = entity.voiceChannelsSectionNumber;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+    var3['isRecentsSection'] = var4;
+    var4 = function isVoiceChannelsSection(arg1, arg2) {
+        var1 = arg2;
+        var2 = var1.voiceChannelsSectionNumber;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    zuuluu['isVoiceChannelsSection'] = tangon;
-    tangon = function(argFoo) { // Original name: isNamedCategorySection
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        michal = entity.SECTION_INDEX_FIRST_NAMED_CATEGORY;
-        entity = argFoo;
-        entity = entity >= michal;
-        return entity;
+    var3['isVoiceChannelsSection'] = var4;
+    var4 = function isNamedCategorySection(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var2 = var1.SECTION_INDEX_FIRST_NAMED_CATEGORY;
+        var1 = arg1;
+        var1 = var1 >= var2;
+        return var1;
     };
-    zuuluu['isNamedCategorySection'] = tangon;
-    tangon = function(argFoo) { // Original name: isReadableItem
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['isNamedCategorySection'] = var4;
+    var4 = function isReadableItem(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.kind;
-            entity = 'channel';
-            entity = entity === zuuluu;
-            if(entity) { _fun00002_ip = 32; continue _fun00001 }
+            var2 = arg1;
+            var3 = var2.kind;
+            var1 = 'channel';
+            var1 = var1 === var3;
+            if(var1) { _fun0001_ip = 32; continue _fun0001 }
  19:
-            zuuluu = michal.kind;
-            michal = 'thread';
-            entity = michal === zuuluu;
+            var3 = var2.kind;
+            var2 = 'thread';
+            var1 = var2 === var3;
  32:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isReadableItem'] = tangon;
-    michal = function() { // Original name: logChannelListEndReached
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.trackWithMetadata;
-        michal = _closure1_slot3;
-        michal = michal.CHANNEL_LIST_END_REACHED;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['isReadableItem'] = var4;
+    var2 = function logChannelListEndReached() {
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.trackWithMetadata;
+        var2 = _closure1_slot3;
+        var2 = var2.CHANNEL_LIST_END_REACHED;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['logChannelListEndReached'] = michal;
-    return entity;
+    var3['logChannelListEndReached'] = var2;
+    return var1;
 })();

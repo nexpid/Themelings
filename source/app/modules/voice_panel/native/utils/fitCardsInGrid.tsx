@@ -1,237 +1,237 @@
 // app/modules/voice_panel/native/utils/fitCardsInGrid.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = function(argFoo, argBar) { // Original name: isNewLayoutBetter
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = function isNewLayoutBetter(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = argBar;
-            zuuluu = entity.unusedSpace;
-            tangon = 0;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 373; continue _fun00001 }
+            var2 = arg1;
+            var1 = arg2;
+            var3 = var1.unusedSpace;
+            var4 = 0;
+            if(!(var4 !== var3)) { _fun0001_ip = 373; continue _fun0001 }
  21:
-            report = michal.unusedSpace;
-            zuuluu = entity.unusedSpace;
-            if(!(report !== zuuluu)) { _fun00002_ip = 373; continue _fun00001 }
+            var5 = var2.unusedSpace;
+            var3 = var1.unusedSpace;
+            if(!(var5 !== var3)) { _fun0001_ip = 373; continue _fun0001 }
  40:
-            zuuluu = michal.unusedSpace;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 369; continue _fun00001 }
+            var3 = var2.unusedSpace;
+            if(!(var4 !== var3)) { _fun0001_ip = 369; continue _fun0001 }
  53:
-            report = entity.unusedSpace;
-            zuuluu = inf;
-            if(!(report !== zuuluu)) { _fun00002_ip = 369; continue _fun00001 }
+            var5 = var1.unusedSpace;
+            var3 = inf;
+            if(!(var5 !== var3)) { _fun0001_ip = 369; continue _fun0001 }
  76:
-            zuuluu = entity.unusedSpace;
-            if(!(zuuluu > tangon)) { _fun00002_ip = 99; continue _fun00001 }
+            var3 = var1.unusedSpace;
+            if(!(var3 > var4)) { _fun0001_ip = 99; continue _fun0001 }
  86:
-            zuuluu = michal.unusedSpace;
-            if(!(!(zuuluu < tangon))) { _fun00002_ip = 365; continue _fun00001 }
+            var3 = var2.unusedSpace;
+            if(!(!(var3 < var4))) { _fun0001_ip = 365; continue _fun0001 }
  99:
-            zuuluu = michal.unusedSpace;
-            if(!(zuuluu > tangon)) { _fun00002_ip = 122; continue _fun00001 }
+            var3 = var2.unusedSpace;
+            if(!(var3 > var4)) { _fun0001_ip = 122; continue _fun0001 }
  109:
-            zuuluu = entity.unusedSpace;
-            if(!(!(zuuluu < tangon))) { _fun00002_ip = 361; continue _fun00001 }
+            var3 = var1.unusedSpace;
+            if(!(!(var3 < var4))) { _fun0001_ip = 361; continue _fun0001 }
  122:
-            tangon = global;
-            oscard = tangon.Math;
-            report = oscard.abs;
-            zuuluu = entity.unusedSpace;
-            report = report.bind(oscard)(zuuluu);
-            golfie = tangon.Math;
-            oscard = golfie.abs;
-            zuuluu = michal.unusedSpace;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            golfie = tangon.Math;
-            oscard = golfie.max;
-            golfie = oscard.bind(golfie)(report, zuuluu);
-            option = tangon.Math;
-            oscard = option.min;
-            oscard = oscard.bind(option)(report, zuuluu);
-            golfie = golfie - oscard;
-            oscard = 5000;
-            if(!(!(golfie < oscard))) { _fun00002_ip = 224; continue _fun00001 }
+            var4 = global;
+            var6 = var4.Math;
+            var5 = var6.abs;
+            var3 = var1.unusedSpace;
+            var5 = var5.bind(var6)(var3);
+            var7 = var4.Math;
+            var6 = var7.abs;
+            var3 = var2.unusedSpace;
+            var3 = var6.bind(var7)(var3);
+            var7 = var4.Math;
+            var6 = var7.max;
+            var7 = var6.bind(var7)(var5, var3);
+            var8 = var4.Math;
+            var6 = var8.min;
+            var6 = var6.bind(var8)(var5, var3);
+            var7 = var7 - var6;
+            var6 = 5000;
+            if(!(!(var7 < var6))) { _fun0001_ip = 224; continue _fun0001 }
  218:
-            zuuluu = zuuluu < report;
-            return zuuluu;
+            var3 = var3 < var5;
+            return var3;
  224:
-            golfie = tangon.Math;
-            oscard = golfie.max;
-            report = michal.rows;
-            zuuluu = michal.columns;
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
-            golfie = tangon.Math;
-            oscard = golfie.min;
-            report = michal.rows;
-            michal = michal.columns;
-            michal = oscard.bind(golfie)(report, michal);
-            zuuluu = zuuluu - michal;
-            golfie = tangon.Math;
-            oscard = golfie.max;
-            report = entity.rows;
-            michal = entity.columns;
-            michal = oscard.bind(golfie)(report, michal);
-            oscard = tangon.Math;
-            report = oscard.min;
-            tangon = entity.rows;
-            entity = entity.columns;
-            entity = report.bind(oscard)(tangon, entity);
-            michal = michal - entity;
-            entity = michal !== zuuluu;
-            if(!entity) { _fun00002_ip = 359; continue _fun00001 }
+            var7 = var4.Math;
+            var6 = var7.max;
+            var5 = var2.rows;
+            var3 = var2.columns;
+            var3 = var6.bind(var7)(var5, var3);
+            var7 = var4.Math;
+            var6 = var7.min;
+            var5 = var2.rows;
+            var2 = var2.columns;
+            var2 = var6.bind(var7)(var5, var2);
+            var3 = var3 - var2;
+            var7 = var4.Math;
+            var6 = var7.max;
+            var5 = var1.rows;
+            var2 = var1.columns;
+            var2 = var6.bind(var7)(var5, var2);
+            var6 = var4.Math;
+            var5 = var6.min;
+            var4 = var1.rows;
+            var1 = var1.columns;
+            var1 = var5.bind(var6)(var4, var1);
+            var2 = var2 - var1;
+            var1 = var2 !== var3;
+            if(!var1) { _fun0001_ip = 359; continue _fun0001 }
  355:
-            entity = zuuluu < michal;
+            var1 = var3 < var2;
  359:
-            return entity;
+            return var1;
  361:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  365:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  369:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  373:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot0 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/utils/fitCardsInGrid.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: fitCardsInGrid
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot0 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/utils/fitCardsInGrid.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function fitCardsInGrid(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            sizing = entity.cardCount;
-            kiloes = entity.gutterSize;
-            backup = entity.availableWidth;
-            foxtra = entity.availableHeight;
-            tangon = {'columns': 1, 'rows': 0, 'cardSize': 0, 'overscroll': 0, 'unusedSpace': inf};
-            romeon = 1;
-            yankee = 0;
-            output = romeon <= sizing;
-            offset = undefined;
-            verify = 'unusedSpace';
-            option = 'overscroll';
-            golfie = 'cardSize';
-            report = global;
-            zuuluu = romeon;
-            entity = undefined;
-            michal = tangon;
-            if(!output) { _fun00004_ip = 415; continue _fun00003 }
+            var1 = arg1;
+            var16 = var1.cardCount;
+            var15 = var1.gutterSize;
+            var14 = var1.availableWidth;
+            var13 = var1.availableHeight;
+            var4 = {'columns': 1, 'rows': 0, 'cardSize': 0, 'overscroll': 0, 'unusedSpace': inf};
+            var12 = 1;
+            var11 = 0;
+            var17 = var12 <= var16;
+            var10 = undefined;
+            var9 = 'unusedSpace';
+            var8 = 'overscroll';
+            var7 = 'cardSize';
+            var5 = global;
+            var3 = var12;
+            var1 = undefined;
+            var2 = var4;
+            if(!var17) { _fun0002_ip = 415; continue _fun0002 }
  83:
-            output = zuuluu - romeon;
-            output = output * kiloes;
-            output = backup - output;
-            output = output / zuuluu;
-            update = sizing % zuuluu;
-            source = report.Math;
-            echoed = source.floor;
-            result = sizing / zuuluu;
-            echoed = echoed.bind(source)(result);
-            result = 0;
-            if(!(update > result)) { _fun00004_ip = 133; continue _fun00003 }
+            var17 = var3 - var12;
+            var17 = var17 * var15;
+            var17 = var14 - var17;
+            var17 = var17 / var3;
+            var20 = var16 % var3;
+            var21 = var5.Math;
+            var19 = var21.floor;
+            var18 = var16 / var3;
+            var19 = var19.bind(var21)(var18);
+            var18 = 0;
+            if(!(var20 > var18)) { _fun0002_ip = 133; continue _fun0002 }
  130:
-            result = romeon;
+            var18 = var12;
  133:
-            result = echoed + result;
-            ctrled = {};
-            vacuum = output * zuuluu;
-            source = backup * foxtra;
-            echoed = zuuluu - romeon;
-            update = echoed * kiloes;
-            echoed = result - romeon;
-            sequen = echoed * kiloes;
-            echoed = output * result;
-            echoed = echoed + sequen;
-            update = vacuum + update;
-            update = update * echoed;
-            update = source - update;
-            ctrled['unusedSpace'] = update;
-            ctrled['columns'] = zuuluu;
-            echoed = foxtra - echoed;
-            ctrled['overscroll'] = echoed;
-            ctrled['rows'] = result;
-            ctrled['cardSize'] = output;
-            output = _closure1_slot0;
-            output = output.bind(offset)(ctrled, tangon);
-            update = tangon;
-            if(!output) { _fun00004_ip = 231; continue _fun00003 }
+            var18 = var19 + var18;
+            var22 = {};
+            var23 = var17 * var3;
+            var21 = var14 * var13;
+            var19 = var3 - var12;
+            var20 = var19 * var15;
+            var19 = var18 - var12;
+            var24 = var19 * var15;
+            var19 = var17 * var18;
+            var19 = var19 + var24;
+            var20 = var23 + var20;
+            var20 = var20 * var19;
+            var20 = var21 - var20;
+            var22['unusedSpace'] = var20;
+            var22['columns'] = var3;
+            var19 = var13 - var19;
+            var22['overscroll'] = var19;
+            var22['rows'] = var18;
+            var22['cardSize'] = var17;
+            var17 = _closure1_slot0;
+            var17 = var17.bind(var10)(var22, var4);
+            var20 = var4;
+            if(!var17) { _fun0002_ip = 231; continue _fun0002 }
  228:
-            update = ctrled;
+            var20 = var22;
  231:
-            result = ctrled.overscroll;
-            output = update;
-            if(!(result < yankee)) { _fun00004_ip = 399; continue _fun00003 }
+            var18 = var22.overscroll;
+            var17 = var20;
+            if(!(var18 < var11)) { _fun0002_ip = 399; continue _fun0002 }
  247:
-            result = ctrled.rows;
-            result = result - romeon;
-            result = result * kiloes;
-            echoed = foxtra - result;
-            result = ctrled.rows;
-            echoed = echoed / result;
-            result = ctrled.rows;
-            source = echoed * result;
-            result = ctrled.rows;
-            result = result - romeon;
-            result = result * kiloes;
-            source = source + result;
-            result = {};
-            record = result;
-            config = ctrled;
-            vacuum = copyDataProperties(record, config);
-            vacuum = ctrled.columns;
-            sequen = echoed * vacuum;
-            ctrled = ctrled.columns;
-            ctrled = ctrled - romeon;
-            ctrled = ctrled * kiloes;
-            vacuum = backup * foxtra;
-            ctrled = sequen + ctrled;
-            ctrled = ctrled * source;
-            ctrled = vacuum - ctrled;
-            result[verify] = ctrled;
-            source = foxtra - source;
-            result[option] = source;
-            result[golfie] = echoed;
-            echoed = _closure1_slot0;
-            echoed = echoed.bind(offset)(result, update);
-            output = update;
-            entity = result;
-            if(!echoed) { _fun00004_ip = 399; continue _fun00003 }
+            var18 = var22.rows;
+            var18 = var18 - var12;
+            var18 = var18 * var15;
+            var19 = var13 - var18;
+            var18 = var22.rows;
+            var19 = var19 / var18;
+            var18 = var22.rows;
+            var21 = var19 * var18;
+            var18 = var22.rows;
+            var18 = var18 - var12;
+            var18 = var18 * var15;
+            var21 = var21 + var18;
+            var18 = {};
+            var26 = var18;
+            var25 = var22;
+            var23 = copyDataProperties(var26, var25);
+            var23 = var22.columns;
+            var24 = var19 * var23;
+            var22 = var22.columns;
+            var22 = var22 - var12;
+            var22 = var22 * var15;
+            var23 = var14 * var13;
+            var22 = var24 + var22;
+            var22 = var22 * var21;
+            var22 = var23 - var22;
+            var18[var9] = var22;
+            var21 = var13 - var21;
+            var18[var8] = var21;
+            var18[var7] = var19;
+            var19 = _closure1_slot0;
+            var19 = var19.bind(var10)(var18, var20);
+            var17 = var20;
+            var1 = var18;
+            if(!var19) { _fun0002_ip = 399; continue _fun0002 }
  393:
-            output = result;
-            entity = output;
+            var17 = var18;
+            var1 = var17;
  399:
-            zuuluu = zuuluu + 1;
-            tangon = output;
-            michal = tangon;
-            if(zuuluu <= sizing) { _fun00004_ip = 83; continue _fun00003 }
+            var3 = var3 + 1;
+            var4 = var17;
+            var2 = var4;
+            if(var3 <= var16) { _fun0002_ip = 83; continue _fun0002 }
  415:
-            entity = {};
-            zuuluu = michal.columns;
-            entity['columns'] = zuuluu;
-            michal = michal.cardSize;
-            entity['cardSize'] = michal;
-            return entity;
+            var1 = {};
+            var3 = var2.columns;
+            var1['columns'] = var3;
+            var2 = var2.cardSize;
+            var1['cardSize'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

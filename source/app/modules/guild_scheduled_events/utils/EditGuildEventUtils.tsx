@@ -1,509 +1,509 @@
 // app/modules/guild_scheduled_events/utils/EditGuildEventUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    oscard = function(argFoo) { // Original name: recurrenceRuleToServer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var6 = function recurrenceRuleToServer(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            michal = tangon == zuuluu;
-            entity = null;
-            if(michal) { _fun00002_ip = 169; continue _fun00001 }
+            var3 = arg1;
+            var4 = null;
+            var2 = var4 == var3;
+            var1 = null;
+            if(var2) { _fun0001_ip = 169; continue _fun0001 }
  17:
-            michal = {};
-            report = zuuluu.start;
-            michal['start'] = report;
-            report = zuuluu.end;
-            michal['end'] = report;
-            report = zuuluu.frequency;
-            michal['frequency'] = report;
-            report = zuuluu.interval;
-            michal['interval'] = report;
-            report = zuuluu.byWeekday;
-            michal['by_weekday'] = report;
-            report = zuuluu.byNWeekday;
-            michal['by_n_weekday'] = report;
-            report = zuuluu.byMonth;
-            michal['by_month'] = report;
-            report = zuuluu.byMonthDay;
-            oscard = tangon == report;
-            golfie = undefined;
-            if(oscard) { _fun00002_ip = 112; continue _fun00001 }
+            var2 = {};
+            var5 = var3.start;
+            var2['start'] = var5;
+            var5 = var3.end;
+            var2['end'] = var5;
+            var5 = var3.frequency;
+            var2['frequency'] = var5;
+            var5 = var3.interval;
+            var2['interval'] = var5;
+            var5 = var3.byWeekday;
+            var2['by_weekday'] = var5;
+            var5 = var3.byNWeekday;
+            var2['by_n_weekday'] = var5;
+            var5 = var3.byMonth;
+            var2['by_month'] = var5;
+            var5 = var3.byMonthDay;
+            var6 = var4 == var5;
+            var7 = undefined;
+            if(var6) { _fun0001_ip = 112; continue _fun0001 }
  107:
-            golfie = report.length;
+            var7 = var5.length;
  112:
-            option = tangon != golfie;
-            oscard = 0;
-            report = 0;
-            if(!option) { _fun00002_ip = 126; continue _fun00001 }
+            var8 = var4 != var7;
+            var6 = 0;
+            var5 = 0;
+            if(!var8) { _fun0001_ip = 126; continue _fun0001 }
  123:
-            report = golfie;
+            var5 = var7;
  126:
-            report = report > oscard;
-            tangon = null;
-            if(!report) { _fun00002_ip = 141; continue _fun00001 }
+            var5 = var5 > var6;
+            var4 = null;
+            if(!var5) { _fun0001_ip = 141; continue _fun0001 }
  135:
-            tangon = zuuluu.byMonthDay;
+            var4 = var3.byMonthDay;
  141:
-            michal['by_month_day'] = tangon;
-            tangon = zuuluu.byYearDay;
-            michal['by_year_day'] = tangon;
-            zuuluu = zuuluu.count;
-            michal['count'] = zuuluu;
-            entity = michal;
+            var2['by_month_day'] = var4;
+            var4 = var3.byYearDay;
+            var2['by_year_day'] = var4;
+            var3 = var3.count;
+            var2['count'] = var3;
+            var1 = var2;
  169:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = oscard;
-    report = function(argFoo) { // Original name: recurrenceRuleFromServer
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var6;
+    var5 = function recurrenceRuleFromServer(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            michal = tangon == zuuluu;
-            entity = null;
-            if(michal) { _fun00004_ip = 214; continue _fun00003 }
+            var3 = arg1;
+            var4 = null;
+            var2 = var4 == var3;
+            var1 = null;
+            if(var2) { _fun0002_ip = 214; continue _fun0002 }
  17:
-            michal = {};
-            report = global;
-            option = report.Date;
-            verify = zuuluu.start;
-            golfie = option.prototype;
-            golfie = Object.create(golfie, {constructor: {value: option}});
-            offset = golfie;
-            oscard = new offset[option](verify, option);
-            golfie = oscard instanceof Object ? oscard : golfie;
-            oscard = golfie.toISOString;
-            oscard = oscard.bind(golfie)();
-            michal['start'] = oscard;
-            oscard = zuuluu.end;
-            oscard = tangon != oscard;
-            tangon = null;
-            if(!oscard) { _fun00004_ip = 121; continue _fun00003 }
+            var2 = {};
+            var5 = global;
+            var8 = var5.Date;
+            var9 = var3.start;
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var10 = var7;
+            var6 = new var10[var8](var9, var8);
+            var7 = var6 instanceof Object ? var6 : var7;
+            var6 = var7.toISOString;
+            var6 = var6.bind(var7)();
+            var2['start'] = var6;
+            var6 = var3.end;
+            var6 = var4 != var6;
+            var4 = null;
+            if(!var6) { _fun0002_ip = 121; continue _fun0002 }
  80:
-            golfie = report.Date;
-            verify = zuuluu.end;
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            offset = oscard;
-            report = new offset[golfie](verify, option);
-            oscard = report instanceof Object ? report : oscard;
-            report = oscard.toISOString;
-            tangon = report.bind(oscard)();
+            var7 = var5.Date;
+            var9 = var3.end;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var10 = var6;
+            var5 = new var10[var7](var9, var8);
+            var6 = var5 instanceof Object ? var5 : var6;
+            var5 = var6.toISOString;
+            var4 = var5.bind(var6)();
  121:
-            michal['end'] = tangon;
-            tangon = zuuluu.frequency;
-            michal['frequency'] = tangon;
-            tangon = zuuluu.interval;
-            michal['interval'] = tangon;
-            tangon = zuuluu.by_weekday;
-            michal['byWeekday'] = tangon;
-            tangon = zuuluu.by_n_weekday;
-            michal['byNWeekday'] = tangon;
-            tangon = zuuluu.by_month;
-            michal['byMonth'] = tangon;
-            tangon = zuuluu.by_month_day;
-            michal['byMonthDay'] = tangon;
-            tangon = zuuluu.by_year_day;
-            michal['byYearDay'] = tangon;
-            zuuluu = zuuluu.count;
-            michal['count'] = zuuluu;
-            entity = michal;
+            var2['end'] = var4;
+            var4 = var3.frequency;
+            var2['frequency'] = var4;
+            var4 = var3.interval;
+            var2['interval'] = var4;
+            var4 = var3.by_weekday;
+            var2['byWeekday'] = var4;
+            var4 = var3.by_n_weekday;
+            var2['byNWeekday'] = var4;
+            var4 = var3.by_month;
+            var2['byMonth'] = var4;
+            var4 = var3.by_month_day;
+            var2['byMonthDay'] = var4;
+            var4 = var3.by_year_day;
+            var2['byYearDay'] = var4;
+            var3 = var3.count;
+            var2['count'] = var3;
+            var1 = var2;
  214:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = report;
-    entity = function(argFoo) { // Original name: eventExceptionsToServer
-        zuuluu = argFoo;
-        michal = zuuluu.map;
-        entity = function(argFoo) {
-            michal = argFoo;
-            entity = {};
-            zuuluu = michal.eventExceptionId;
-            entity['event_exception_id'] = zuuluu;
-            zuuluu = michal.eventId;
-            entity['event_id'] = zuuluu;
-            zuuluu = michal.guildId;
-            entity['guild_id'] = zuuluu;
-            zuuluu = michal.scheduledStartTime;
-            entity['scheduled_start_time'] = zuuluu;
-            zuuluu = michal.scheduledEndTime;
-            entity['scheduled_end_time'] = zuuluu;
-            michal = michal.isCanceled;
-            entity['is_canceled'] = michal;
-            return entity;
+    var _closure1_slot8 = var5;
+    var1 = function eventExceptionsToServer(arg1) {
+        var3 = arg1;
+        var2 = var3.map;
+        var1 = function(arg1) {
+            var2 = arg1;
+            var1 = {};
+            var3 = var2.eventExceptionId;
+            var1['event_exception_id'] = var3;
+            var3 = var2.eventId;
+            var1['event_id'] = var3;
+            var3 = var2.guildId;
+            var1['guild_id'] = var3;
+            var3 = var2.scheduledStartTime;
+            var1['scheduled_start_time'] = var3;
+            var3 = var2.scheduledEndTime;
+            var1['scheduled_end_time'] = var3;
+            var2 = var2.isCanceled;
+            var1['is_canceled'] = var2;
+            return var1;
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    tangon = function(argFoo) { // Original name: isExistingGuildEvent
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot9 = var1;
+    var4 = function isExistingGuildEvent(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            entity = entity != zuuluu;
-            if(!entity) { _fun00006_ip = 20; continue _fun00005 }
+            var3 = arg1;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0003_ip = 20; continue _fun0003 }
  12:
-            michal = 'id';
-            entity = michal in zuuluu;
+            var2 = 'id';
+            var1 = var2 in var3;
  20:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = tangon;
-    entity = global;
-    yankee = entity.Object;
-    option = yankee.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(yankee)(zuuluu, entity, golfie);
-    entity = 0;
-    option = offset[entity];
-    golfie = argBaz;
-    entity = undefined;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot2 = golfie;
-    golfie = 1;
-    golfie = offset[golfie];
-    golfie = verify.bind(entity)(golfie);
-    option = golfie.GuildScheduledEventEntityTypes;
-    var _closure1_slot3 = option;
-    option = golfie.GuildScheduledEventStatus;
-    var _closure1_slot4 = option;
-    option = golfie.GuildScheduledEventPrivacyLevel;
-    var _closure1_slot5 = option;
-    golfie = golfie.FAKE_EVENT_ID;
-    var _closure1_slot6 = golfie;
-    golfie = {};
-    option = 'ChannelSelector';
-    golfie['CHANNEL_SELECTOR'] = option;
-    option = 'Details';
-    golfie['DETAILS'] = option;
-    option = 'Preview';
-    golfie['PREVIEW'] = option;
-    option = 4;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/guild_scheduled_events/utils/EditGuildEventUtils.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['EditGuildEventScreens'] = golfie;
-    golfie = function(argFoo) { // Original name: isEditingEvent
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot10 = var4;
+    var1 = global;
+    var11 = var1.Object;
+    var8 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var8 = var10[var1];
+    var7 = native3;
+    var1 = undefined;
+    var7 = var7.bind(var1)(var8);
+    var _closure1_slot2 = var7;
+    var7 = 1;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var8 = var7.GuildScheduledEventEntityTypes;
+    var _closure1_slot3 = var8;
+    var8 = var7.GuildScheduledEventStatus;
+    var _closure1_slot4 = var8;
+    var8 = var7.GuildScheduledEventPrivacyLevel;
+    var _closure1_slot5 = var8;
+    var7 = var7.FAKE_EVENT_ID;
+    var _closure1_slot6 = var7;
+    var7 = {};
+    var8 = 'ChannelSelector';
+    var7['CHANNEL_SELECTOR'] = var8;
+    var8 = 'Details';
+    var7['DETAILS'] = var8;
+    var8 = 'Preview';
+    var7['PREVIEW'] = var8;
+    var8 = 4;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/guild_scheduled_events/utils/EditGuildEventUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['EditGuildEventScreens'] = var7;
+    var7 = function isEditingEvent(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            entity = global;
-            zuuluu = entity.Boolean;
-            entity = null;
-            report = entity == tangon;
-            michal = undefined;
-            entity = undefined;
-            if(report) { _fun00008_ip = 29; continue _fun00007 }
+            var4 = arg1;
+            var1 = global;
+            var3 = var1.Boolean;
+            var1 = null;
+            var5 = var1 == var4;
+            var2 = undefined;
+            var1 = undefined;
+            if(var5) { _fun0004_ip = 29; continue _fun0004 }
  24:
-            entity = tangon.id;
+            var1 = var4.id;
  29:
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            return var1;
         }
     };
-    zuuluu['isEditingEvent'] = golfie;
-    zuuluu['recurrenceRuleToServer'] = oscard;
-    zuuluu['recurrenceRuleFromServer'] = report;
-    zuuluu['isExistingGuildEvent'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: convertToFakeGuildEvent
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['isEditingEvent'] = var7;
+    var3['recurrenceRuleToServer'] = var6;
+    var3['recurrenceRuleFromServer'] = var5;
+    var3['isExistingGuildEvent'] = var4;
+    var4 = function convertToFakeGuildEvent(arg1, arg2, arg3) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            backup = argBaz;
-            romeon = entity.name;
-            foxtra = entity.description;
-            yankee = entity.privacyLevel;
-            michal = entity.channelId;
-            offset = entity.scheduledStartTime;
-            verify = entity.scheduledEndTime;
-            report = entity.entityType;
-            option = entity.entityMetadata;
-            golfie = entity.image;
-            oscard = entity.recurrenceRule;
-            tangon = entity.eventExceptions;
-            entity = {};
-            zuuluu = null;
-            if(!(zuuluu == backup)) { _fun00010_ip = 84; continue _fun00009 }
+            var1 = arg1;
+            var14 = arg3;
+            var12 = var1.name;
+            var13 = var1.description;
+            var11 = var1.privacyLevel;
+            var2 = var1.channelId;
+            var10 = var1.scheduledStartTime;
+            var9 = var1.scheduledEndTime;
+            var5 = var1.entityType;
+            var8 = var1.entityMetadata;
+            var7 = var1.image;
+            var6 = var1.recurrenceRule;
+            var4 = var1.eventExceptions;
+            var1 = {};
+            var3 = null;
+            if(!(var3 == var14)) { _fun0005_ip = 84; continue _fun0005 }
  77:
-            backup = _closure1_slot6;
+            var14 = _closure1_slot6;
  84:
-            entity['id'] = backup;
-            entity['name'] = romeon;
-            backup = zuuluu != foxtra;
-            romeon = null;
-            if(!backup) { _fun00010_ip = 104; continue _fun00009 }
+            var1['id'] = var14;
+            var1['name'] = var12;
+            var14 = var3 != var13;
+            var12 = null;
+            if(!var14) { _fun0005_ip = 104; continue _fun0005 }
  101:
-            romeon = foxtra;
+            var12 = var13;
  104:
-            entity['description'] = romeon;
-            entity['privacy_level'] = yankee;
-            entity['scheduled_start_time'] = offset;
-            entity['scheduled_end_time'] = verify;
-            entity['entity_type'] = report;
-            verify = zuuluu != option;
-            report = null;
-            if(!verify) { _fun00010_ip = 140; continue _fun00009 }
+            var1['description'] = var12;
+            var1['privacy_level'] = var11;
+            var1['scheduled_start_time'] = var10;
+            var1['scheduled_end_time'] = var9;
+            var1['entity_type'] = var5;
+            var9 = var3 != var8;
+            var5 = null;
+            if(!var9) { _fun0005_ip = 140; continue _fun0005 }
  137:
-            report = option;
+            var5 = var8;
  140:
-            entity['entity_metadata'] = report;
-            option = zuuluu != golfie;
-            zuuluu = undefined;
-            report = undefined;
-            if(!option) { _fun00010_ip = 159; continue _fun00009 }
+            var1['entity_metadata'] = var5;
+            var8 = var3 != var7;
+            var3 = undefined;
+            var5 = undefined;
+            if(!var8) { _fun0005_ip = 159; continue _fun0005 }
  156:
-            report = golfie;
+            var5 = var7;
  159:
-            entity['image'] = report;
-            entity['channel_id'] = michal;
-            michal = argBar;
-            entity['guild_id'] = michal;
-            golfie = _closure1_slot2;
-            report = golfie.getId;
-            report = report.bind(golfie)();
-            entity['creator_id'] = report;
-            report = _closure1_slot4;
-            report = report.SCHEDULED;
-            entity['status'] = report;
-            report = _closure1_slot7;
-            report = report.bind(zuuluu)(oscard);
-            entity['recurrence_rule'] = report;
-            michal = _closure1_slot9;
-            michal = michal.bind(zuuluu)(tangon);
-            entity['guild_scheduled_event_exceptions'] = michal;
-            return entity;
+            var1['image'] = var5;
+            var1['channel_id'] = var2;
+            var2 = arg2;
+            var1['guild_id'] = var2;
+            var7 = _closure1_slot2;
+            var5 = var7.getId;
+            var5 = var5.bind(var7)();
+            var1['creator_id'] = var5;
+            var5 = _closure1_slot4;
+            var5 = var5.SCHEDULED;
+            var1['status'] = var5;
+            var5 = _closure1_slot7;
+            var5 = var5.bind(var3)(var6);
+            var1['recurrence_rule'] = var5;
+            var2 = _closure1_slot9;
+            var2 = var2.bind(var3)(var4);
+            var1['guild_scheduled_event_exceptions'] = var2;
+            return var1;
         }
     };
-    zuuluu['convertToFakeGuildEvent'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getInitialGuildEventData
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['convertToFakeGuildEvent'] = var4;
+    var2 = function getInitialGuildEventData(arg1, arg2) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            report = argFoo;
-            golfie = argBar;
-            entity = {};
-            michal = null;
-            zuuluu = michal == report;
-            oscard = undefined;
-            option = undefined;
-            if(zuuluu) { _fun00012_ip = 26; continue _fun00011 }
+            var5 = arg1;
+            var7 = arg2;
+            var1 = {};
+            var2 = null;
+            var3 = var2 == var5;
+            var6 = undefined;
+            var8 = undefined;
+            if(var3) { _fun0006_ip = 26; continue _fun0006 }
  21:
-            option = report.name;
+            var8 = var5.name;
  26:
-            verify = michal != option;
-            zuuluu = '';
-            tangon = zuuluu;
-            if(!verify) { _fun00012_ip = 43; continue _fun00011 }
+            var9 = var2 != var8;
+            var3 = '';
+            var4 = var3;
+            if(!var9) { _fun0006_ip = 43; continue _fun0006 }
  40:
-            tangon = option;
+            var4 = var8;
  43:
-            entity['name'] = tangon;
-            option = michal == report;
-            tangon = undefined;
-            if(option) { _fun00012_ip = 62; continue _fun00011 }
+            var1['name'] = var4;
+            var8 = var2 == var5;
+            var4 = undefined;
+            if(var8) { _fun0006_ip = 62; continue _fun0006 }
  56:
-            tangon = report.privacy_level;
+            var4 = var5.privacy_level;
  62:
-            if(!(michal == tangon)) { _fun00012_ip = 79; continue _fun00011 }
+            if(!(var2 == var4)) { _fun0006_ip = 79; continue _fun0006 }
  66:
-            option = _closure1_slot5;
-            tangon = option.GUILD_ONLY;
+            var8 = _closure1_slot5;
+            var4 = var8.GUILD_ONLY;
  79:
-            entity['privacyLevel'] = tangon;
-            option = michal == report;
-            tangon = undefined;
-            if(option) { _fun00012_ip = 98; continue _fun00011 }
+            var1['privacyLevel'] = var4;
+            var8 = var2 == var5;
+            var4 = undefined;
+            if(var8) { _fun0006_ip = 98; continue _fun0006 }
  93:
-            tangon = report.description;
+            var4 = var5.description;
  98:
-            option = michal != tangon;
-            if(!option) { _fun00012_ip = 108; continue _fun00011 }
+            var8 = var2 != var4;
+            if(!var8) { _fun0006_ip = 108; continue _fun0006 }
  105:
-            zuuluu = tangon;
+            var3 = var4;
  108:
-            entity['description'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 127; continue _fun00011 }
+            var1['description'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 127; continue _fun0006 }
  121:
-            zuuluu = report.scheduled_start_time;
+            var3 = var5.scheduled_start_time;
  127:
-            if(!(michal == zuuluu)) { _fun00012_ip = 174; continue _fun00011 }
+            if(!(var2 == var3)) { _fun0006_ip = 174; continue _fun0006 }
  131:
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            tangon = 2;
-            tangon = verify[tangon];
-            option = option.bind(oscard)(tangon);
-            tangon = option.getInitialEventStartDate;
-            option = tangon.bind(option)();
-            tangon = option.toISOString;
-            zuuluu = tangon.bind(option)();
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 2;
+            var4 = var9[var4];
+            var8 = var8.bind(var6)(var4);
+            var4 = var8.getInitialEventStartDate;
+            var8 = var4.bind(var8)();
+            var4 = var8.toISOString;
+            var3 = var4.bind(var8)();
  174:
-            entity['scheduledStartTime'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 194; continue _fun00011 }
+            var1['scheduledStartTime'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 194; continue _fun0006 }
  188:
-            zuuluu = report.entity_type;
+            var3 = var5.entity_type;
  194:
-            if(!(michal == zuuluu)) { _fun00012_ip = 211; continue _fun00011 }
+            if(!(var2 == var3)) { _fun0006_ip = 211; continue _fun0006 }
  198:
-            tangon = _closure1_slot3;
-            zuuluu = tangon.NONE;
+            var4 = _closure1_slot3;
+            var3 = var4.NONE;
  211:
-            entity['entityType'] = zuuluu;
-            zuuluu = michal == report;
-            tangon = undefined;
-            if(zuuluu) { _fun00012_ip = 231; continue _fun00011 }
+            var1['entityType'] = var3;
+            var3 = var2 == var5;
+            var4 = undefined;
+            if(var3) { _fun0006_ip = 231; continue _fun0006 }
  225:
-            tangon = report.entity_metadata;
+            var4 = var5.entity_metadata;
  231:
-            option = michal != tangon;
-            zuuluu = undefined;
-            if(!option) { _fun00012_ip = 243; continue _fun00011 }
+            var8 = var2 != var4;
+            var3 = undefined;
+            if(!var8) { _fun0006_ip = 243; continue _fun0006 }
  240:
-            zuuluu = tangon;
+            var3 = var4;
  243:
-            entity['entityMetadata'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 262; continue _fun00011 }
+            var1['entityMetadata'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 262; continue _fun0006 }
  257:
-            zuuluu = report.channel_id;
+            var3 = var5.channel_id;
  262:
-            entity['channelId'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 281; continue _fun00011 }
+            var1['channelId'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 281; continue _fun0006 }
  275:
-            zuuluu = report.creator_id;
+            var3 = var5.creator_id;
  281:
-            entity['creatorId'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 301; continue _fun00011 }
+            var1['creatorId'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 301; continue _fun0006 }
  295:
-            zuuluu = report.image;
+            var3 = var5.image;
  301:
-            entity['image'] = zuuluu;
-            tangon = michal == report;
-            zuuluu = undefined;
-            if(tangon) { _fun00012_ip = 321; continue _fun00011 }
+            var1['image'] = var3;
+            var4 = var2 == var5;
+            var3 = undefined;
+            if(var4) { _fun0006_ip = 321; continue _fun0006 }
  315:
-            zuuluu = report.scheduled_end_time;
+            var3 = var5.scheduled_end_time;
  321:
-            entity['scheduledEndTime'] = zuuluu;
-            option = _closure1_slot8;
-            verify = michal == report;
-            tangon = undefined;
-            if(verify) { _fun00012_ip = 348; continue _fun00011 }
+            var1['scheduledEndTime'] = var3;
+            var8 = _closure1_slot8;
+            var9 = var2 == var5;
+            var4 = undefined;
+            if(var9) { _fun0006_ip = 348; continue _fun0006 }
  342:
-            tangon = report.recurrence_rule;
+            var4 = var5.recurrence_rule;
  348:
-            tangon = option.bind(oscard)(tangon);
-            entity['recurrenceRule'] = tangon;
-            tangon = michal == report;
-            verify = undefined;
-            if(tangon) { _fun00012_ip = 373; continue _fun00011 }
+            var4 = var8.bind(var6)(var4);
+            var1['recurrenceRule'] = var4;
+            var4 = var2 == var5;
+            var9 = undefined;
+            if(var4) { _fun0006_ip = 373; continue _fun0006 }
  367:
-            verify = report.guild_scheduled_event_exceptions;
+            var9 = var5.guild_scheduled_event_exceptions;
  373:
-            if(!(michal == verify)) { _fun00012_ip = 381; continue _fun00011 }
+            if(!(var2 == var9)) { _fun0006_ip = 381; continue _fun0006 }
  377:
-            verify = new Array(0);
+            var9 = new Array(0);
  381:
-            option = verify.map;
-            tangon = function(argFoo) {
-                michal = argFoo;
-                entity = {};
-                zuuluu = michal.event_exception_id;
-                entity['eventExceptionId'] = zuuluu;
-                zuuluu = michal.event_id;
-                entity['eventId'] = zuuluu;
-                zuuluu = michal.guild_id;
-                entity['guildId'] = zuuluu;
-                zuuluu = michal.scheduled_start_time;
-                entity['scheduledStartTime'] = zuuluu;
-                zuuluu = michal.scheduled_end_time;
-                entity['scheduledEndTime'] = zuuluu;
-                michal = michal.is_canceled;
-                entity['isCanceled'] = michal;
-                return entity;
+            var8 = var9.map;
+            var4 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.event_exception_id;
+                var1['eventExceptionId'] = var3;
+                var3 = var2.event_id;
+                var1['eventId'] = var3;
+                var3 = var2.guild_id;
+                var1['guildId'] = var3;
+                var3 = var2.scheduled_start_time;
+                var1['scheduledStartTime'] = var3;
+                var3 = var2.scheduled_end_time;
+                var1['scheduledEndTime'] = var3;
+                var2 = var2.is_canceled;
+                var1['isCanceled'] = var2;
+                return var1;
             };
-            tangon = option.bind(verify)(tangon);
-            entity['eventExceptions'] = tangon;
-            tangon = _closure1_slot10;
-            tangon = tangon.bind(oscard)(report);
-            if(!tangon) { _fun00012_ip = 444; continue _fun00011 }
+            var4 = var8.bind(var9)(var4);
+            var1['eventExceptions'] = var4;
+            var4 = _closure1_slot10;
+            var4 = var4.bind(var6)(var5);
+            if(!var4) { _fun0006_ip = 444; continue _fun0006 }
  415:
-            tangon = michal == report;
-            option = undefined;
-            if(tangon) { _fun00012_ip = 430; continue _fun00011 }
+            var4 = var2 == var5;
+            var8 = undefined;
+            if(var4) { _fun0006_ip = 430; continue _fun0006 }
  424:
-            option = report.entity_type;
+            var8 = var5.entity_type;
  430:
-            tangon = _closure1_slot3;
-            tangon = tangon.EXTERNAL;
-            if(!(option !== tangon)) { _fun00012_ip = 536; continue _fun00011 }
+            var4 = _closure1_slot3;
+            var4 = var4.EXTERNAL;
+            if(!(var8 !== var4)) { _fun0006_ip = 536; continue _fun0006 }
  444:
-            tangon = entity.channelId;
-            tangon = michal == tangon;
-            if(!tangon) { _fun00012_ip = 460; continue _fun00011 }
+            var4 = var1.channelId;
+            var4 = var2 == var4;
+            if(!var4) { _fun0006_ip = 460; continue _fun0006 }
  456:
-            tangon = michal != golfie;
+            var4 = var2 != var7;
  460:
-            if(!tangon) { _fun00012_ip = 583; continue _fun00011 }
+            if(!var4) { _fun0006_ip = 583; continue _fun0006 }
  463:
-            tangon = golfie.id;
-            entity['channelId'] = tangon;
-            tangon = golfie.isGuildStageVoice;
-            tangon = tangon.bind(golfie)();
-            if(tangon) { _fun00012_ip = 518; continue _fun00011 }
+            var4 = var7.id;
+            var1['channelId'] = var4;
+            var4 = var7.isGuildStageVoice;
+            var4 = var4.bind(var7)();
+            if(var4) { _fun0006_ip = 518; continue _fun0006 }
  487:
-            tangon = golfie.isGuildVoice;
-            tangon = tangon.bind(golfie)();
-            if(!tangon) { _fun00012_ip = 583; continue _fun00011 }
+            var4 = var7.isGuildVoice;
+            var4 = var4.bind(var7)();
+            if(!var4) { _fun0006_ip = 583; continue _fun0006 }
  500:
-            tangon = _closure1_slot3;
-            tangon = tangon.VOICE;
-            entity['entityType'] = tangon;
-            _fun00012_ip = 583; continue _fun00011;
+            var4 = _closure1_slot3;
+            var4 = var4.VOICE;
+            var1['entityType'] = var4;
+            _fun0006_ip = 583; continue _fun0006;
  518:
-            tangon = _closure1_slot3;
-            tangon = tangon.STAGE_INSTANCE;
-            entity['entityType'] = tangon;
-            _fun00012_ip = 583; continue _fun00011;
+            var4 = _closure1_slot3;
+            var4 = var4.STAGE_INSTANCE;
+            var1['entityType'] = var4;
+            _fun0006_ip = 583; continue _fun0006;
  536:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 3;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.getLocationFromEvent;
-            zuuluu = zuuluu.bind(tangon)(report);
-            if(!(michal != zuuluu)) { _fun00012_ip = 583; continue _fun00011 }
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 3;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.getLocationFromEvent;
+            var3 = var3.bind(var4)(var5);
+            if(!(var2 != var3)) { _fun0006_ip = 583; continue _fun0006 }
  571:
-            michal = {};
-            michal['location'] = zuuluu;
-            entity['entityMetadata'] = michal;
+            var2 = {};
+            var2['location'] = var3;
+            var1['entityMetadata'] = var2;
  583:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getInitialGuildEventData'] = michal;
-    return entity;
+    var3['getInitialGuildEventData'] = var2;
+    return var1;
 })();

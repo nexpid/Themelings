@@ -1,252 +1,252 @@
 // app/modules/guild_role_subscriptions/GroupListingsFetchContext.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    verify = argBaz;
-    golfie = argCor;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    golfie = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = golfie;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = verify.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    option = oscard[tangon];
-    option = verify.bind(entity)(option);
-    var _closure1_slot5 = option;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.FetchState;
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = golfie.createContext;
-    tangon = tangon.bind(golfie)(entity);
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/GroupListingsFetchContext.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useGroupListingsFetchContext
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var9 = native3;
+    var7 = native4;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var7 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var9.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var8 = var6[var4];
+    var8 = var9.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.FetchState;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = var7.createContext;
+    var4 = var4.bind(var7)(var1);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/GroupListingsFetchContext.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useGroupListingsFetchContext(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useContext;
-            entity = _closure1_slot8;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            tangon = null;
-            if(!(tangon != zuuluu)) { _fun00002_ip = 51; continue _fun00001 }
+            var2 = arg1;
+            var4 = _closure1_slot3;
+            var3 = var4.useContext;
+            var1 = _closure1_slot8;
+            var3 = var3.bind(var4)(var1);
+            var4 = null;
+            if(!(var4 != var3)) { _fun0001_ip = 51; continue _fun0001 }
  31:
-            entity = zuuluu.listingsLoaded;
-            report = zuuluu.fetchGroupListingsForGuild;
-            zuuluu = undefined;
-            zuuluu = report.bind(zuuluu)();
-            return entity;
+            var1 = var3.listingsLoaded;
+            var5 = var3.fetchGroupListingsForGuild;
+            var3 = undefined;
+            var3 = var5.bind(var3)();
+            return var1;
  51:
-            entity = global;
-            zuuluu = entity.Error;
-            tangon = tangon != michal;
-            report = 'useGroupListingsFetchContext';
-            if(!tangon) { _fun00002_ip = 73; continue _fun00001 }
+            var1 = global;
+            var3 = var1.Error;
+            var4 = var4 != var2;
+            var5 = 'useGroupListingsFetchContext';
+            if(!var4) { _fun0001_ip = 73; continue _fun0001 }
  70:
-            report = michal;
+            var5 = var2;
  73:
-            entity = entity.HermesInternal;
-            tangon = entity.concat;
-            michal = '';
-            entity = ' must be used within a GroupListingsFetchContextProvider';
-            golfie = tangon.bind(michal)(report, entity);
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            option = michal;
-            entity = new option[zuuluu](golfie, oscard);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var2 = '';
+            var1 = ' must be used within a GroupListingsFetchContextProvider';
+            var7 = var4.bind(var2)(var5, var1);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    zuuluu['useGroupListingsFetchContext'] = tangon;
-    michal = function(argFoo) { // Original name: GroupListingsFetchContextProvider
-        entity = argFoo;
-        foxtra = entity.guildId;
-        var _closure2_slot0 = foxtra;
-        report = entity.children;
-        option = entity.refetchOnMount;
-        romeon = entity.includeSoftDeleted;
-        var _closure2_slot1 = romeon;
-        yankee = entity.countryCode;
-        var _closure2_slot2 = yankee;
-        golfie = entity.dontFetchWhileTrue;
-        var _closure2_slot3 = golfie;
-        oscard = _closure1_slot0;
-        verify = _closure1_slot2;
-        zuuluu = 4;
-        offset = verify[zuuluu];
-        tangon = undefined;
-        sizing = oscard.bind(tangon)(offset);
-        kiloes = sizing.useStateFromStores;
-        offset = _closure1_slot4;
-        backup = new Array(1);
-        backup[0] = offset;
-        offset = function() {
-            michal = _closure1_slot4;
-            entity = michal.isConnected;
-            entity = entity.bind(michal)();
-            return entity;
+    var3['useGroupListingsFetchContext'] = var4;
+    var2 = function GroupListingsFetchContextProvider(arg1) {
+        var1 = arg1;
+        var13 = var1.guildId;
+        var _closure2_slot0 = var13;
+        var5 = var1.children;
+        var8 = var1.refetchOnMount;
+        var12 = var1.includeSoftDeleted;
+        var _closure2_slot1 = var12;
+        var11 = var1.countryCode;
+        var _closure2_slot2 = var11;
+        var7 = var1.dontFetchWhileTrue;
+        var _closure2_slot3 = var7;
+        var6 = _closure1_slot0;
+        var9 = _closure1_slot2;
+        var3 = 4;
+        var10 = var9[var3];
+        var4 = undefined;
+        var16 = var6.bind(var4)(var10);
+        var15 = var16.useStateFromStores;
+        var10 = _closure1_slot4;
+        var14 = new Array(1);
+        var14[0] = var10;
+        var10 = function() {
+            var2 = _closure1_slot4;
+            var1 = var2.isConnected;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        backup = kiloes.bind(sizing)(backup, offset);
-        var _closure2_slot4 = backup;
-        zuuluu = verify[zuuluu];
-        offset = oscard.bind(tangon)(zuuluu);
-        verify = offset.useStateFromStores;
-        zuuluu = _closure1_slot5;
-        oscard = new Array(1);
-        oscard[0] = zuuluu;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var14 = var15.bind(var16)(var14, var10);
+        var _closure2_slot4 = var14;
+        var3 = var9[var3];
+        var10 = var6.bind(var4)(var3);
+        var9 = var10.useStateFromStores;
+        var3 = _closure1_slot5;
+        var6 = new Array(1);
+        var6[0] = var3;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = null;
-                if(!(entity == zuuluu)) { _fun00004_ip = 28; continue _fun00003 }
+                var3 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0002_ip = 28; continue _fun0002 }
  13:
-                entity = _closure1_slot6;
-                entity = entity.FETCHED;
-                _fun00004_ip = 50; continue _fun00003;
+                var1 = _closure1_slot6;
+                var1 = var1.FETCHED;
+                _fun0002_ip = 50; continue _fun0002;
  28:
-                tangon = _closure1_slot5;
-                zuuluu = tangon.getSubscriptionGroupListingsForGuildFetchState;
-                michal = _closure2_slot0;
-                entity = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot5;
+                var3 = var4.getSubscriptionGroupListingsForGuildFetchState;
+                var2 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2);
  50:
-                return entity;
+                return var1;
             }
         };
-        oscard = verify.bind(offset)(oscard, zuuluu);
-        offset = _closure1_slot3;
-        zuuluu = offset.useRef;
-        zuuluu = zuuluu.bind(offset)(option);
-        var _closure2_slot5 = zuuluu;
-        verify = offset.useCallback;
-        option = new Array(5);
-        option[0] = backup;
-        option[1] = foxtra;
-        option[2] = romeon;
-        option[3] = yankee;
-        option[4] = golfie;
-        golfie = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var6 = var9.bind(var10)(var6, var3);
+        var10 = _closure1_slot3;
+        var3 = var10.useRef;
+        var3 = var3.bind(var10)(var8);
+        var _closure2_slot5 = var3;
+        var9 = var10.useCallback;
+        var8 = new Array(5);
+        var8[0] = var14;
+        var8[1] = var13;
+        var8[2] = var12;
+        var8[3] = var11;
+        var8[4] = var7;
+        var7 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = null;
-                if(!(entity != michal)) { _fun00006_ip = 160; continue _fun00005 }
+                var2 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0003_ip = 160; continue _fun0003 }
  16:
-                entity = _closure2_slot4;
-                if(!entity) { _fun00006_ip = 160; continue _fun00005 }
+                var1 = _closure2_slot4;
+                if(!var1) { _fun0003_ip = 160; continue _fun0003 }
  26:
-                michal = _closure2_slot3;
-                entity = true;
-                if(!(entity !== michal)) { _fun00006_ip = 160; continue _fun00005 }
+                var2 = _closure2_slot3;
+                var1 = true;
+                if(!(var1 !== var2)) { _fun0003_ip = 160; continue _fun0003 }
  39:
-                tangon = _closure1_slot5;
-                zuuluu = tangon.getSubscriptionGroupListingsForGuildFetchState;
-                michal = _closure2_slot0;
-                tangon = zuuluu.bind(tangon)(michal);
-                michal = _closure2_slot5;
-                michal = michal.current;
-                if(michal) { _fun00006_ip = 87; continue _fun00005 }
+                var4 = _closure1_slot5;
+                var3 = var4.getSubscriptionGroupListingsForGuildFetchState;
+                var2 = _closure2_slot0;
+                var4 = var3.bind(var4)(var2);
+                var2 = _closure2_slot5;
+                var2 = var2.current;
+                if(var2) { _fun0003_ip = 87; continue _fun0003 }
  73:
-                zuuluu = _closure1_slot6;
-                zuuluu = zuuluu.NOT_FETCHED;
-                michal = tangon === zuuluu;
+                var3 = _closure1_slot6;
+                var3 = var3.NOT_FETCHED;
+                var2 = var4 === var3;
  87:
-                if(!michal) { _fun00006_ip = 160; continue _fun00005 }
+                if(!var2) { _fun0003_ip = 160; continue _fun0003 }
  90:
-                zuuluu = _closure2_slot5;
-                michal = false;
-                zuuluu['current'] = michal;
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 5;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.fetchAllSubscriptionListingsDataForGuild;
-                michal = _closure2_slot0;
-                entity = {};
-                oscard = _closure2_slot1;
-                entity['includeSoftDeleted'] = oscard;
-                report = _closure2_slot2;
-                entity['countryCode'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
+                var3 = _closure2_slot5;
+                var2 = false;
+                var3['current'] = var2;
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.fetchAllSubscriptionListingsDataForGuild;
+                var2 = _closure2_slot0;
+                var1 = {};
+                var6 = _closure2_slot1;
+                var1['includeSoftDeleted'] = var6;
+                var5 = _closure2_slot2;
+                var1['countryCode'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
  160:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        golfie = verify.bind(offset)(golfie, option);
-        michal = function(argFoo, argBar) { // Original name: useListingsLoaded
-            oscard = argFoo;
-            report = argBar;
-            var _closure3_slot0 = oscard;
-            var _closure3_slot1 = report;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useMemo;
-            michal = new Array(2);
-            michal[0] = oscard;
-            michal[1] = report;
-            entity = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var7 = var9.bind(var10)(var7, var8);
+        var2 = function useListingsLoaded(arg1, arg2) {
+            var6 = arg1;
+            var5 = arg2;
+            var _closure3_slot0 = var6;
+            var _closure3_slot1 = var5;
+            var4 = _closure1_slot3;
+            var3 = var4.useMemo;
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var5;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = _closure3_slot0;
-                    entity = _closure1_slot6;
-                    entity = entity.FETCHED;
-                    entity = zuuluu === entity;
-                    if(!entity) { _fun00008_ip = 42; continue _fun00007 }
+                    var3 = _closure3_slot0;
+                    var1 = _closure1_slot6;
+                    var1 = var1.FETCHED;
+                    var1 = var3 === var1;
+                    if(!var1) { _fun0004_ip = 42; continue _fun0004 }
  27:
-                    michal = _closure3_slot1;
-                    zuuluu = michal.current;
-                    michal = true;
-                    entity = michal !== zuuluu;
+                    var2 = _closure3_slot1;
+                    var3 = var2.current;
+                    var2 = true;
+                    var1 = var2 !== var3;
  42:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        option = michal.bind(tangon)(oscard, zuuluu);
-        zuuluu = _closure1_slot7;
-        entity = _closure1_slot8;
-        michal = entity.Provider;
-        entity = {};
-        oscard = {};
-        oscard['listingsLoaded'] = option;
-        oscard['fetchGroupListingsForGuild'] = golfie;
-        entity['value'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var8 = var2.bind(var4)(var6, var3);
+        var3 = _closure1_slot7;
+        var1 = _closure1_slot8;
+        var2 = var1.Provider;
+        var1 = {};
+        var6 = {};
+        var6['listingsLoaded'] = var8;
+        var6['fetchGroupListingsForGuild'] = var7;
+        var1['value'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['GroupListingsFetchContextProvider'] = michal;
-    return entity;
+    var3['GroupListingsFetchContextProvider'] = var2;
+    return var1;
 })();

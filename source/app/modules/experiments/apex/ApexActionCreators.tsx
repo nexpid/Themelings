@@ -1,166 +1,166 @@
 // app/modules/experiments/apex/ApexActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _fetchApexExperimentsMetadata
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchApexExperimentsMetadata() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 232; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 232; continue _fun0001 }
  10:
-                    option = argFoo;
+                    var8 = arg1;
  13: // try_start_0
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 2;
-                    michal = report[michal];
-                    report = undefined;
-                    michal = tangon.bind(report)(michal);
-                    oscard = michal.HTTP;
-                    tangon = oscard.get;
-                    michal = {};
-                    golfie = _closure1_slot4;
-                    golfie = golfie.APEX_EXPERIMENTS_METADATA;
-                    michal['url'] = golfie;
-                    golfie = {};
-                    golfie['surface'] = option;
-                    michal['query'] = golfie;
-                    golfie = true;
-                    michal['rejectWithError'] = golfie;
-                    michal = tangon.bind(oscard)(michal);
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var2 = var4.bind(var5)(var2);
+                    var6 = var2.HTTP;
+                    var4 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var7 = var7.APEX_EXPERIMENTS_METADATA;
+                    var2['url'] = var7;
+                    var7 = {};
+                    var7['surface'] = var8;
+                    var2['query'] = var7;
+                    var7 = true;
+                    var2['rejectWithError'] = var7;
+                    var2 = var4.bind(var6)(var2);
                     SaveGenerator(address=90);
  88:
-                    return michal;
+                    return var2;
  90:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 175; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 175; continue _fun0001 }
  96:
-                    tangon = michal.body;
-                    golfie = tangon.experiments;
-                    oscard = golfie.map;
-                    tangon = function(argFoo) {
-                        michal = argFoo;
-                        entity = {};
-                        zuuluu = michal.id;
-                        entity['id'] = zuuluu;
-                        zuuluu = michal.name;
-                        entity['name'] = zuuluu;
-                        zuuluu = michal.title;
-                        entity['title'] = zuuluu;
-                        zuuluu = michal.revision;
-                        entity['revision'] = zuuluu;
-                        zuuluu = michal.unit_type;
-                        entity['unitType'] = zuuluu;
-                        tangon = michal.variants;
-                        zuuluu = tangon.map;
-                        michal = function(argFoo) {
-                            michal = argFoo;
-                            entity = {};
-                            zuuluu = michal.id;
-                            entity['id'] = zuuluu;
-                            zuuluu = michal.label;
-                            entity['label'] = zuuluu;
-                            michal = michal.type;
-                            entity['type'] = michal;
-                            return entity;
+                    var4 = var2.body;
+                    var7 = var4.experiments;
+                    var6 = var7.map;
+                    var4 = function(arg1) {
+                        var2 = arg1;
+                        var1 = {};
+                        var3 = var2.id;
+                        var1['id'] = var3;
+                        var3 = var2.name;
+                        var1['name'] = var3;
+                        var3 = var2.title;
+                        var1['title'] = var3;
+                        var3 = var2.revision;
+                        var1['revision'] = var3;
+                        var3 = var2.unit_type;
+                        var1['unitType'] = var3;
+                        var4 = var2.variants;
+                        var3 = var4.map;
+                        var2 = function(arg1) {
+                            var2 = arg1;
+                            var1 = {};
+                            var3 = var2.id;
+                            var1['id'] = var3;
+                            var3 = var2.label;
+                            var1['label'] = var3;
+                            var2 = var2.type;
+                            var1['type'] = var2;
+                            return var1;
                         };
-                        michal = zuuluu.bind(tangon)(michal);
-                        entity['variants'] = michal;
-                        return entity;
+                        var2 = var3.bind(var4)(var2);
+                        var1['variants'] = var2;
+                        return var1;
                     };
-                    oscard = oscard.bind(golfie)(tangon);
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = golfie[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'APEX_EXPERIMENTS_METADATA_FETCH_SUCCESS';
-                    zuuluu['type'] = golfie;
-                    zuuluu['experiments'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var6 = var6.bind(var7)(var4);
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var7[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'APEX_EXPERIMENTS_METADATA_FETCH_SUCCESS';
+                    var3['type'] = var7;
+                    var3['experiments'] = var6;
+                    var3 = var4.bind(var5)(var3);
  173: // try_end0
-                    _fun00002_ip = 227; continue _fun00001;
+                    _fun0001_ip = 227; continue _fun0001;
  175:
-                    return michal;
+                    return var2;
  178: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.dispatch;
-                    michal = {};
-                    report = 'APEX_EXPERIMENTS_METADATA_FETCH_FAILURE';
-                    michal['type'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'APEX_EXPERIMENTS_METADATA_FETCH_FAILURE';
+                    var2['type'] = var5;
+                    var2 = var3.bind(var4)(var2);
  227:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  232:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/experiments/apex/ApexActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: fetchApexExperimentsMetadata
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/experiments/apex/ApexActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function fetchApexExperimentsMetadata() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchApexExperimentsMetadata'] = michal;
-    return entity;
+    var3['fetchApexExperimentsMetadata'] = var2;
+    return var1;
 })();

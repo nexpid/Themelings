@@ -1,53 +1,53 @@
 // app/utils/GlobalUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/GlobalUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: assertNever
-        entity = global;
-        zuuluu = entity.Error;
-        entity = entity.HermesInternal;
-        tangon = entity.concat;
-        michal = 'Unhandled value: ';
-        entity = argFoo;
-        report = tangon.bind(michal)(entity);
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        oscard = michal;
-        entity = new oscard[zuuluu](report, tangon);
-        entity = entity instanceof Object ? entity : michal;
-        throw entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/GlobalUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function assertNever(arg1) {
+        var1 = global;
+        var3 = var1.Error;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var2 = 'Unhandled value: ';
+        var1 = arg1;
+        var5 = var4.bind(var2)(var1);
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var6 = var2;
+        var1 = new var6[var3](var5, var4);
+        var1 = var1 instanceof Object ? var1 : var2;
+        throw var1;
     };
-    zuuluu['assertNever'] = tangon;
-    tangon = function(argFoo) { // Original name: isNotNullish
-        michal = null;
-        entity = argFoo;
-        entity = michal != entity;
-        return entity;
+    var3['assertNever'] = var4;
+    var4 = function isNotNullish(arg1) {
+        var2 = null;
+        var1 = arg1;
+        var1 = var2 != var1;
+        return var1;
     };
-    zuuluu['isNotNullish'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: isIn
-        zuuluu = argBar;
-        michal = zuuluu.includes;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['isNotNullish'] = var4;
+    var2 = function isIn(arg1, arg2) {
+        var3 = arg2;
+        var2 = var3.includes;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['isIn'] = michal;
-    return entity;
+    var3['isIn'] = var2;
+    return var1;
 })();

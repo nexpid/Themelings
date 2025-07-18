@@ -1,447 +1,447 @@
 // app/modules/guild_scheduled_events/native/components/GuildEventCard.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = golfie;
-    entity = function(argFoo) { // Original name: HubGuildEventCardControls
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var13 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var7;
+    var1 = function HubGuildEventCardControls(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            offset = michal.event;
-            var _closure2_slot0 = offset;
-            foxtra = michal.isConnected;
-            backup = michal.onCloseAction;
-            michal = _closure1_slot9;
-            tangon = undefined;
-            option = michal.bind(tangon)();
-            michal = _closure1_slot0;
-            romeon = _closure1_slot2;
-            yankee = 8;
-            zuuluu = romeon[yankee];
-            report = michal.bind(tangon)(zuuluu);
-            zuuluu = report.useHubPrimaryActionButtonType;
-            verify = zuuluu.bind(report)(offset, foxtra);
-            zuuluu = romeon[yankee];
-            zuuluu = michal.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.HubPrimaryActionType;
-            report = zuuluu.RSVP;
-            zuuluu = 9;
-            zuuluu = romeon[zuuluu];
-            kiloes = michal.bind(tangon)(zuuluu);
-            oscard = kiloes.useStateFromStores;
-            sizing = _closure1_slot4;
-            zuuluu = new Array(1);
-            zuuluu[0] = sizing;
-            entity = function() {
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.getGuild;
-                entity = _closure2_slot0;
-                entity = entity.guild_id;
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                entity = entity != michal;
-                return entity;
+            var2 = arg1;
+            var10 = var2.event;
+            var _closure2_slot0 = var10;
+            var13 = var2.isConnected;
+            var14 = var2.onCloseAction;
+            var2 = _closure1_slot9;
+            var4 = undefined;
+            var8 = var2.bind(var4)();
+            var2 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var11 = 8;
+            var3 = var12[var11];
+            var5 = var2.bind(var4)(var3);
+            var3 = var5.useHubPrimaryActionButtonType;
+            var9 = var3.bind(var5)(var10, var13);
+            var3 = var12[var11];
+            var3 = var2.bind(var4)(var3);
+            var3 = var3.HubPrimaryActionType;
+            var5 = var3.RSVP;
+            var3 = 9;
+            var3 = var12[var3];
+            var15 = var2.bind(var4)(var3);
+            var6 = var15.useStateFromStores;
+            var16 = _closure1_slot4;
+            var3 = new Array(1);
+            var3[0] = var16;
+            var1 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var1.guild_id;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
             };
-            oscard = oscard.bind(kiloes)(zuuluu, entity);
-            zuuluu = _closure1_slot8;
-            entity = 10;
-            entity = romeon[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.ButtonGroup;
-            entity = {};
-            romeon = 'horizontal';
-            entity['direction'] = romeon;
-            option = option.actionContainer;
-            entity['style'] = option;
-            option = null;
-            if(!(verify === report)) { _fun00002_ip = 224; continue _fun00001 }
+            var6 = var6.bind(var15)(var3, var1);
+            var3 = _closure1_slot8;
+            var1 = 10;
+            var1 = var12[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.ButtonGroup;
+            var1 = {};
+            var12 = 'horizontal';
+            var1['direction'] = var12;
+            var8 = var8.actionContainer;
+            var1['style'] = var8;
+            var8 = null;
+            if(!(var9 === var5)) { _fun0001_ip = 224; continue _fun0001 }
  184:
-            romeon = _closure1_slot7;
-            verify = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[yankee];
-            report = verify.bind(tangon)(report);
-            verify = report.GuildEventCardTransitionTo;
-            report = {};
-            report['event'] = offset;
-            option = romeon.bind(tangon)(verify, report);
+            var12 = _closure1_slot7;
+            var9 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var11];
+            var5 = var9.bind(var4)(var5);
+            var9 = var5.GuildEventCardTransitionTo;
+            var5 = {};
+            var5['event'] = var10;
+            var8 = var12.bind(var4)(var9, var5);
  224:
-            report = new Array(3);
-            report[0] = option;
-            romeon = _closure1_slot7;
-            verify = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[yankee];
-            option = verify.bind(tangon)(option);
-            verify = option.HubGuildEventCardPrimaryAction;
-            option = {};
-            option['event'] = offset;
-            option['onCloseAction'] = backup;
-            option['isConnected'] = foxtra;
-            option = romeon.bind(tangon)(verify, option);
-            report[1] = option;
-            if(!oscard) { _fun00002_ip = 329; continue _fun00001 }
+            var5 = new Array(3);
+            var5[0] = var8;
+            var12 = _closure1_slot7;
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.HubGuildEventCardPrimaryAction;
+            var8 = {};
+            var8['event'] = var10;
+            var8['onCloseAction'] = var14;
+            var8['isConnected'] = var13;
+            var8 = var12.bind(var4)(var9, var8);
+            var5[1] = var8;
+            if(!var6) { _fun0001_ip = 329; continue _fun0001 }
  289:
-            verify = _closure1_slot7;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            golfie = golfie[yankee];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.GuildEventShareAction;
-            golfie = {};
-            golfie['event'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot7;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var7 = var7[var11];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.GuildEventShareAction;
+            var7 = {};
+            var7['event'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  329:
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = function(argFoo) { // Original name: GuildEventCardControls
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function GuildEventCardControls(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            verify = entity.event;
-            backup = entity.isConnected;
-            kiloes = entity.onCloseAction;
-            entity = _closure1_slot9;
-            tangon = undefined;
-            report = entity.bind(tangon)();
-            yankee = _closure1_slot0;
-            golfie = _closure1_slot2;
-            offset = 8;
-            entity = golfie[offset];
-            michal = yankee.bind(tangon)(entity);
-            entity = michal.usePrimaryActionButtonType;
-            option = entity.bind(michal)(verify, backup);
-            zuuluu = _closure1_slot8;
-            entity = 10;
-            entity = golfie[entity];
-            entity = yankee.bind(tangon)(entity);
-            michal = entity.ButtonGroup;
-            entity = {};
-            romeon = 'horizontal';
-            entity['direction'] = romeon;
-            report = report.actionContainer;
-            entity['style'] = report;
-            foxtra = _closure1_slot7;
-            report = golfie[offset];
-            report = yankee.bind(tangon)(report);
-            romeon = report.GuildEventCardPrimaryAction;
-            report = {};
-            report['event'] = verify;
-            report['onCloseAction'] = kiloes;
-            report['isConnected'] = backup;
-            romeon = foxtra.bind(tangon)(romeon, report);
-            report = new Array(3);
-            report[0] = romeon;
-            golfie = golfie[offset];
-            golfie = yankee.bind(tangon)(golfie);
-            golfie = golfie.PrimaryActionType;
-            golfie = golfie.START;
-            golfie = option === golfie;
-            if(!golfie) { _fun00004_ip = 227; continue _fun00003 }
+            var1 = arg1;
+            var9 = var1.event;
+            var14 = var1.isConnected;
+            var15 = var1.onCloseAction;
+            var1 = _closure1_slot9;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var11 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var10 = 8;
+            var1 = var7[var10];
+            var2 = var11.bind(var4)(var1);
+            var1 = var2.usePrimaryActionButtonType;
+            var8 = var1.bind(var2)(var9, var14);
+            var3 = _closure1_slot8;
+            var1 = 10;
+            var1 = var7[var1];
+            var1 = var11.bind(var4)(var1);
+            var2 = var1.ButtonGroup;
+            var1 = {};
+            var12 = 'horizontal';
+            var1['direction'] = var12;
+            var5 = var5.actionContainer;
+            var1['style'] = var5;
+            var13 = _closure1_slot7;
+            var5 = var7[var10];
+            var5 = var11.bind(var4)(var5);
+            var12 = var5.GuildEventCardPrimaryAction;
+            var5 = {};
+            var5['event'] = var9;
+            var5['onCloseAction'] = var15;
+            var5['isConnected'] = var14;
+            var12 = var13.bind(var4)(var12, var5);
+            var5 = new Array(3);
+            var5[0] = var12;
+            var7 = var7[var10];
+            var7 = var11.bind(var4)(var7);
+            var7 = var7.PrimaryActionType;
+            var7 = var7.START;
+            var7 = var8 === var7;
+            if(!var7) { _fun0002_ip = 227; continue _fun0002 }
  187:
-            romeon = _closure1_slot7;
-            yankee = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[offset];
-            option = yankee.bind(tangon)(option);
-            yankee = option.GuildEventCardRSVPAction;
-            option = {};
-            option['event'] = verify;
-            golfie = romeon.bind(tangon)(yankee, option);
+            var12 = _closure1_slot7;
+            var11 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var10];
+            var8 = var11.bind(var4)(var8);
+            var11 = var8.GuildEventCardRSVPAction;
+            var8 = {};
+            var8['event'] = var9;
+            var7 = var12.bind(var4)(var11, var8);
  227:
-            report[1] = golfie;
-            option = _closure1_slot7;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            oscard = oscard[offset];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.GuildEventShareAction;
-            oscard = {};
-            oscard['event'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var7;
+            var8 = _closure1_slot7;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var10];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.GuildEventShareAction;
+            var6 = {};
+            var6['event'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
-    yankee = 0;
-    report = golfie[yankee];
-    michal = argCor;
-    entity = undefined;
-    option = michal.bind(entity)(report);
-    michal = 1;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.View;
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = foxtra.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = golfie[michal];
-    michal = foxtra.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 4;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.isGuildScheduledEventActive;
-    var _closure1_slot6 = michal;
-    michal = 5;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    report = michal.jsx;
-    var _closure1_slot7 = report;
-    michal = michal.jsxs;
-    var _closure1_slot8 = michal;
-    michal = 6;
-    michal = golfie[michal];
-    verify = oscard.bind(entity)(michal);
-    report = verify.createStyles;
-    michal = {};
-    offset = {};
-    romeon = 7;
-    romeon = golfie[romeon];
-    romeon = foxtra.bind(entity)(romeon);
-    romeon = romeon.spacing;
-    romeon = romeon.PX_16;
-    offset['paddingTop'] = romeon;
-    offset['paddingBottom'] = yankee;
-    michal['actionContainer'] = offset;
-    michal = report.bind(verify)(michal);
-    var _closure1_slot9 = michal;
-    report = option.memo;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot11 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var2);
+    var11 = 0;
+    var5 = var7[var11];
+    var2 = native4;
+    var1 = undefined;
+    var8 = var2.bind(var1)(var5);
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.View;
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var13.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var13.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.isGuildScheduledEventActive;
+    var _closure1_slot6 = var2;
+    var2 = 5;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var5 = var2.jsx;
+    var _closure1_slot7 = var5;
+    var2 = var2.jsxs;
+    var _closure1_slot8 = var2;
+    var2 = 6;
+    var2 = var7[var2];
+    var9 = var6.bind(var1)(var2);
+    var5 = var9.createStyles;
+    var2 = {};
+    var10 = {};
+    var12 = 7;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_16;
+    var10['paddingTop'] = var12;
+    var10['paddingBottom'] = var11;
+    var2['actionContainer'] = var10;
+    var2 = var5.bind(var9)(var2);
+    var _closure1_slot9 = var2;
+    var5 = var8.memo;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            backup = entity.event;
-            var _closure2_slot0 = backup;
-            michal = entity.onPress;
-            var _closure2_slot1 = michal;
-            oscard = entity.onCloseAction;
-            sizing = entity.hideControls;
-            tangon = undefined;
-            if(!(sizing === tangon)) { _fun00006_ip = 44; continue _fun00005 }
+            var1 = arg1;
+            var14 = var1.event;
+            var _closure2_slot0 = var14;
+            var2 = var1.onPress;
+            var _closure2_slot1 = var2;
+            var6 = var1.onCloseAction;
+            var16 = var1.hideControls;
+            var4 = undefined;
+            if(!(var16 === var4)) { _fun0003_ip = 44; continue _fun0003 }
  42:
-            sizing = false;
+            var16 = false;
  44:
-            output = entity.isHubContext;
-            source = entity.isNew;
-            if(!(source === tangon)) { _fun00006_ip = 62; continue _fun00005 }
+            var17 = var1.isHubContext;
+            var21 = var1.isNew;
+            if(!(var21 === var4)) { _fun0003_ip = 62; continue _fun0003 }
  60:
-            source = false;
+            var21 = false;
  62:
-            var _closure2_slot2 = tangon;
-            entity = backup.channel_id;
-            _closure2_slot2 = entity;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 9;
-            michal = report[michal];
-            golfie = zuuluu.bind(tangon)(michal);
-            report = golfie.useStateFromStores;
-            michal = _closure1_slot5;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var _closure2_slot2 = var4;
+            var1 = var14.channel_id;
+            _closure2_slot2 = var1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 9;
+            var2 = var5[var2];
+            var7 = var3.bind(var4)(var2);
+            var5 = var7.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = _closure1_slot5;
-                    entity = zuuluu.isConnected;
-                    entity = entity.bind(zuuluu)();
-                    if(!entity) { _fun00008_ip = 45; continue _fun00007 }
+                    var3 = _closure1_slot5;
+                    var1 = var3.isConnected;
+                    var1 = var1.bind(var3)();
+                    if(!var1) { _fun0004_ip = 45; continue _fun0004 }
  20:
-                    zuuluu = _closure1_slot5;
-                    michal = zuuluu.getChannelId;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = _closure2_slot2;
-                    entity = zuuluu === michal;
+                    var3 = _closure1_slot5;
+                    var2 = var3.getChannelId;
+                    var3 = var2.bind(var3)();
+                    var2 = _closure2_slot2;
+                    var1 = var3 === var2;
  45:
-                    return entity;
+                    return var1;
                 }
             };
-            report = report.bind(golfie)(zuuluu, entity, michal);
-            if(!report) { _fun00006_ip = 149; continue _fun00005 }
+            var5 = var5.bind(var7)(var3, var1, var2);
+            if(!var5) { _fun0003_ip = 149; continue _fun0003 }
  140:
-            entity = _closure1_slot6;
-            report = entity.bind(tangon)(backup);
+            var1 = _closure1_slot6;
+            var5 = var1.bind(var4)(var14);
  149:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 11;
-            entity = zuuluu[entity];
-            zuuluu = michal.bind(tangon)(entity);
-            michal = zuuluu.recurrenceRuleFromServer;
-            entity = backup.recurrence_rule;
-            kiloes = michal.bind(zuuluu)(entity);
-            ctrled = function() { // Original name: handlePress
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.recurrenceRuleFromServer;
+            var1 = var14.recurrence_rule;
+            var15 = var2.bind(var3)(var1);
+            var22 = function handlePress() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00010_ip = 28; continue _fun00009 }
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 28; continue _fun0005 }
  13:
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
  28:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu = _closure1_slot7;
-            if(output) { _fun00006_ip = 206; continue _fun00005 }
+            var3 = _closure1_slot7;
+            if(var17) { _fun0003_ip = 206; continue _fun0003 }
  200:
-            michal = _closure1_slot11;
-            _fun00006_ip = 210; continue _fun00005;
+            var2 = _closure1_slot11;
+            _fun0003_ip = 210; continue _fun0003;
  206:
-            michal = _closure1_slot10;
+            var2 = _closure1_slot10;
  210:
-            entity = {};
-            entity['event'] = backup;
-            entity['onCloseAction'] = oscard;
-            entity['isConnected'] = report;
-            romeon = zuuluu.bind(tangon)(michal, entity);
-            zuuluu = _closure1_slot7;
-            yankee = _closure1_slot0;
-            verify = _closure1_slot2;
-            entity = 12;
-            entity = verify[entity];
-            entity = yankee.bind(tangon)(entity);
-            michal = entity.Card;
-            entity = {};
-            report = false;
-            entity['accessible'] = report;
-            entity['onPress'] = ctrled;
-            golfie = _closure1_slot8;
-            oscard = _closure1_slot3;
-            report = {};
-            echoed = _closure1_slot7;
-            update = 8;
-            option = verify[update];
-            option = yankee.bind(tangon)(option);
-            result = option.GuildEventCardHeader;
-            option = {};
-            option['event'] = backup;
-            vacuum = !output;
-            option['showCreator'] = vacuum;
-            option['isNew'] = source;
-            result = echoed.bind(tangon)(result, option);
-            option = new Array(6);
-            option[0] = result;
-            source = _closure1_slot7;
-            result = verify[update];
-            result = yankee.bind(tangon)(result);
-            echoed = result.GuildEventCardMetaInfo;
-            result = {};
-            result['event'] = backup;
-            result['onTitlePress'] = ctrled;
-            result = source.bind(tangon)(echoed, result);
-            option[1] = result;
-            result = _closure1_slot7;
-            verify = verify[update];
-            verify = yankee.bind(tangon)(verify);
-            yankee = verify.GuildEventSimpleLocation;
-            verify = {};
-            verify['event'] = backup;
-            verify = result.bind(tangon)(yankee, verify);
-            option[2] = verify;
-            verify = null;
-            yankee = null;
-            if(!output) { _fun00006_ip = 466; continue _fun00005 }
+            var1 = {};
+            var1['event'] = var14;
+            var1['onCloseAction'] = var6;
+            var1['isConnected'] = var5;
+            var12 = var3.bind(var4)(var2, var1);
+            var3 = _closure1_slot7;
+            var11 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 12;
+            var1 = var9[var1];
+            var1 = var11.bind(var4)(var1);
+            var2 = var1.Card;
+            var1 = {};
+            var5 = false;
+            var1['accessible'] = var5;
+            var1['onPress'] = var22;
+            var7 = _closure1_slot8;
+            var6 = _closure1_slot3;
+            var5 = {};
+            var19 = _closure1_slot7;
+            var20 = 8;
+            var8 = var9[var20];
+            var8 = var11.bind(var4)(var8);
+            var18 = var8.GuildEventCardHeader;
+            var8 = {};
+            var8['event'] = var14;
+            var23 = !var17;
+            var8['showCreator'] = var23;
+            var8['isNew'] = var21;
+            var18 = var19.bind(var4)(var18, var8);
+            var8 = new Array(6);
+            var8[0] = var18;
+            var21 = _closure1_slot7;
+            var18 = var9[var20];
+            var18 = var11.bind(var4)(var18);
+            var19 = var18.GuildEventCardMetaInfo;
+            var18 = {};
+            var18['event'] = var14;
+            var18['onTitlePress'] = var22;
+            var18 = var21.bind(var4)(var19, var18);
+            var8[1] = var18;
+            var18 = _closure1_slot7;
+            var9 = var9[var20];
+            var9 = var11.bind(var4)(var9);
+            var11 = var9.GuildEventSimpleLocation;
+            var9 = {};
+            var9['event'] = var14;
+            var9 = var18.bind(var4)(var11, var9);
+            var8[2] = var9;
+            var9 = null;
+            var11 = null;
+            if(!var17) { _fun0003_ip = 466; continue _fun0003 }
  426:
-            echoed = _closure1_slot7;
-            result = _closure1_slot0;
-            output = _closure1_slot2;
-            output = output[update];
-            output = result.bind(tangon)(output);
-            result = output.HubEventGuildInfo;
-            output = {};
-            output['event'] = backup;
-            yankee = echoed.bind(tangon)(result, output);
+            var19 = _closure1_slot7;
+            var18 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var17 = var17[var20];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.HubEventGuildInfo;
+            var17 = {};
+            var17['event'] = var14;
+            var11 = var19.bind(var4)(var18, var17);
  466:
-            option[3] = yankee;
-            yankee = null;
-            if(sizing) { _fun00006_ip = 478; continue _fun00005 }
+            var8[3] = var11;
+            var11 = null;
+            if(var16) { _fun0003_ip = 478; continue _fun0003 }
  475:
-            yankee = romeon;
+            var11 = var12;
  478:
-            option[4] = yankee;
-            verify = verify != kiloes;
-            if(!verify) { _fun00006_ip = 557; continue _fun00005 }
+            var8[4] = var11;
+            var9 = var9 != var15;
+            if(!var9) { _fun0003_ip = 557; continue _fun0003 }
  489:
-            romeon = _closure1_slot7;
-            yankee = _closure1_slot1;
-            sizing = _closure1_slot2;
-            offset = 13;
-            offset = sizing[offset];
-            yankee = yankee.bind(tangon)(offset);
-            offset = {};
-            sizing = backup.guild_id;
-            offset['guildId'] = sizing;
-            offset['recurrenceRule'] = kiloes;
-            backup = backup.id;
-            offset['guildEventId'] = backup;
-            foxtra = function(argFoo) { // Original name: onRecurrencePress
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var12 = _closure1_slot7;
+            var11 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var10 = 13;
+            var10 = var16[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            var16 = var14.guild_id;
+            var10['guildId'] = var16;
+            var10['recurrenceRule'] = var15;
+            var14 = var14.id;
+            var10['guildEventId'] = var14;
+            var13 = function onRecurrencePress(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    report = undefined;
-                    entity = undefined;
-                    if(zuuluu) { _fun00012_ip = 37; continue _fun00011 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var5 = undefined;
+                    var1 = undefined;
+                    if(var3) { _fun0006_ip = 37; continue _fun0006 }
  20:
-                    tangon = _closure2_slot1;
-                    zuuluu = _closure2_slot0;
-                    michal = argFoo;
-                    entity = tangon.bind(report)(zuuluu, michal);
+                    var4 = _closure2_slot1;
+                    var3 = _closure2_slot0;
+                    var2 = arg1;
+                    var1 = var4.bind(var5)(var3, var2);
  37:
-                    return entity;
+                    return var1;
                 }
             };
-            offset['onRecurrencePress'] = foxtra;
-            verify = romeon.bind(tangon)(yankee, offset);
+            var10['onRecurrencePress'] = var13;
+            var9 = var12.bind(var4)(var11, var10);
  557:
-            option[5] = verify;
-            report['children'] = option;
-            report = golfie.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var8[5] = var9;
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    tangon = report.bind(option)(tangon);
-    report = 14;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_scheduled_events/native/components/GuildEventCard.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['useGuildEventCardStyles'] = michal;
-    return entity;
+    var4 = var5.bind(var8)(var4);
+    var5 = 14;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_scheduled_events/native/components/GuildEventCard.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['useGuildEventCardStyles'] = var2;
+    return var1;
 })();

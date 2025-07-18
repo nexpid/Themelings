@@ -1,813 +1,813 @@
 // app/modules/guilds_bar/GuildsTree.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = option;
-    entity = function() { // Original name: randomFolderId
-        entity = global;
-        zuuluu = entity.Math;
-        michal = zuuluu.floor;
-        tangon = entity.Math;
-        entity = tangon.random;
-        tangon = entity.bind(tangon)();
-        entity = 4294967296.0;
-        entity = entity * tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var5 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var8;
+    var1 = function randomFolderId() {
+        var1 = global;
+        var3 = var1.Math;
+        var2 = var3.floor;
+        var4 = var1.Math;
+        var1 = var4.random;
+        var4 = var1.bind(var4)();
+        var1 = 4294967296.0;
+        var1 = var1 * var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = option[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    report = {};
-    tangon = 'root';
-    report['ROOT'] = tangon;
-    tangon = 'folder';
-    report['FOLDER'] = tangon;
-    tangon = 'guild';
-    report['GUILD'] = tangon;
-    var _closure1_slot5 = report;
-    tangon = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: GuildsTree
-            zuuluu = this;
-            report = _closure1_slot3;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = report.bind(entity)(zuuluu, michal);
-            michal = {};
-            tangon = _closure1_slot5;
-            tangon = tangon.ROOT;
-            michal['type'] = tangon;
-            tangon = new Array(0);
-            michal['children'] = tangon;
-            zuuluu['root'] = michal;
-            michal = {};
-            zuuluu['nodes'] = michal;
-            michal = 0;
-            zuuluu['version'] = michal;
-            return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var5 = {};
+    var4 = 'root';
+    var5['ROOT'] = var4;
+    var4 = 'folder';
+    var5['FOLDER'] = var4;
+    var4 = 'guild';
+    var5['GUILD'] = var4;
+    var _closure1_slot5 = var5;
+    var4 = function() {
+        var4 = _closure1_slot4;
+        var3 = function GuildsTree() {
+            var3 = this;
+            var5 = _closure1_slot3;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var5.bind(var1)(var3, var2);
+            var2 = {};
+            var4 = _closure1_slot5;
+            var4 = var4.ROOT;
+            var2['type'] = var4;
+            var4 = new Array(0);
+            var2['children'] = var4;
+            var3['root'] = var2;
+            var2 = {};
+            var3['nodes'] = var2;
+            var2 = 0;
+            var3['version'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'getSnapshot';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'getSnapshot';
+        var1['key'] = var2;
+        var2 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = this;
-                michal = {};
-                offset = tangon.nodes;
-                oscard = undefined;
-                report = 'children';
-                entity = 'childrenIds';
-                for(golfie in offset)
+                var4 = this;
+                var2 = {};
+                var10 = var4.nodes;
+                var6 = undefined;
+                var5 = 'children';
+                var1 = 'childrenIds';
+                for(var7 in var10)
  31:
                 {
  40:
-                    foxtra = golfie;
-                    romeon = tangon.nodes;
-                    backup = romeon[foxtra];
-                    romeon = {};
-                    result = romeon;
-                    output = backup;
-                    kiloes = copyDataProperties(result, output);
-                    romeon[report] = oscard;
-                    sizing = backup.children;
-                    kiloes = sizing.map;
-                    backup = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.id;
-                        return entity;
+                    var13 = var7;
+                    var12 = var4.nodes;
+                    var14 = var12[var13];
+                    var12 = {};
+                    var18 = var12;
+                    var17 = var14;
+                    var15 = copyDataProperties(var18, var17);
+                    var12[var5] = var6;
+                    var16 = var14.children;
+                    var15 = var16.map;
+                    var14 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
                     };
-                    backup = kiloes.bind(sizing)(backup);
-                    romeon[entity] = backup;
-                    michal[foxtra] = romeon;
-                    _fun00002_ip = 31; continue _fun00001;
+                    var14 = var15.bind(var16)(var14);
+                    var12[var1] = var14;
+                    var2[var13] = var12;
+                    _fun0001_ip = 31; continue _fun0001;
                 }
  101:
-                entity = {};
-                tangon = tangon.root;
-                report = tangon.children;
-                tangon = report.map;
-                zuuluu = function(argFoo) {
-                    entity = argFoo;
-                    entity = entity.id;
-                    return entity;
+                var1 = {};
+                var4 = var4.root;
+                var5 = var4.children;
+                var4 = var5.map;
+                var3 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.id;
+                    return var1;
                 };
-                zuuluu = tangon.bind(report)(zuuluu);
-                entity['rootChildrenIds'] = zuuluu;
-                entity['nodes'] = michal;
-                return entity;
+                var3 = var4.bind(var5)(var3);
+                var1['rootChildrenIds'] = var3;
+                var1['nodes'] = var2;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(15);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'loadSnapshot';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var2;
+        var2 = new Array(15);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'loadSnapshot';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = argFoo;
-                michal = this;
-                var _closure3_slot0 = michal;
-                zuuluu = tangon.nodes;
-                michal['nodes'] = zuuluu;
-                golfie = michal.nodes;
-                for(zuuluu in golfie)
+                var4 = arg1;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = var4.nodes;
+                var2['nodes'] = var3;
+                var7 = var2.nodes;
+                for(var3 in var7)
  38:
                 {
  47:
-                    offset = zuuluu;
-                    verify = michal.nodes;
-                    verify = verify[offset];
-                    romeon = verify.childrenIds;
-                    yankee = romeon.map;
-                    offset = function(argFoo) {
-                        entity = _closure3_slot0;
-                        michal = entity.nodes;
-                        entity = argFoo;
-                        entity = michal[entity];
-                        return entity;
+                    var10 = var3;
+                    var9 = var2.nodes;
+                    var9 = var9[var10];
+                    var12 = var9.childrenIds;
+                    var11 = var12.map;
+                    var10 = function(arg1) {
+                        var1 = _closure3_slot0;
+                        var2 = var1.nodes;
+                        var1 = arg1;
+                        var1 = var2[var1];
+                        return var1;
                     };
-                    offset = yankee.bind(romeon)(offset);
-                    verify['children'] = offset;
-                    verify = delete verify.childrenIds;
-                    _fun00004_ip = 38; continue _fun00003;
+                    var10 = var11.bind(var12)(var10);
+                    var9['children'] = var10;
+                    var9 = delete var9.childrenIds;
+                    _fun0002_ip = 38; continue _fun0002;
                 }
  94:
-                zuuluu = michal.root;
-                report = tangon.rootChildrenIds;
-                tangon = report.map;
-                entity = function(argFoo) {
-                    entity = _closure3_slot0;
-                    michal = entity.nodes;
-                    entity = argFoo;
-                    entity = michal[entity];
-                    return entity;
+                var3 = var2.root;
+                var5 = var4.rootChildrenIds;
+                var4 = var5.map;
+                var1 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var2 = var1.nodes;
+                    var1 = arg1;
+                    var1 = var2[var1];
+                    return var1;
                 };
-                entity = tangon.bind(report)(entity);
-                zuuluu['children'] = entity;
-                entity = michal.version;
-                entity = entity + 1;
-                michal['version'] = entity;
-                entity = undefined;
-                return entity;
+                var1 = var4.bind(var5)(var1);
+                var3['children'] = var1;
+                var1 = var2.version;
+                var1 = var1 + 1;
+                var2['version'] = var1;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'moveNextTo';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'moveNextTo';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = argFoo;
-                yankee = argBar;
-                report = arguments[2];
-                entity = this;
-                offset = undefined;
-                if(!(report === offset)) { _fun00006_ip = 20; continue _fun00005 }
+                var3 = arg1;
+                var11 = arg2;
+                var5 = arguments[2];
+                var1 = this;
+                var10 = undefined;
+                if(!(var5 === var10)) { _fun0003_ip = 20; continue _fun0003 }
  18:
-                report = false;
+                var5 = false;
  20:
-                michal = entity._pluckNode;
-                michal = michal.bind(entity)(zuuluu);
-                tangon = yankee.parentId;
-                michal = null;
-                if(!(michal == tangon)) { _fun00006_ip = 51; continue _fun00005 }
+                var2 = var1._pluckNode;
+                var2 = var2.bind(var1)(var3);
+                var4 = var11.parentId;
+                var2 = null;
+                if(!(var2 == var4)) { _fun0003_ip = 51; continue _fun0003 }
  43:
-                michal = entity.root;
-                _fun00006_ip = 67; continue _fun00005;
+                var2 = var1.root;
+                _fun0003_ip = 67; continue _fun0003;
  51:
-                oscard = entity.nodes;
-                tangon = yankee.parentId;
-                michal = oscard[tangon];
+                var6 = var1.nodes;
+                var4 = var11.parentId;
+                var2 = var6[var4];
  67:
-                oscard = michal.children;
-                tangon = oscard.indexOf;
-                option = tangon.bind(oscard)(yankee);
-                golfie = _closure1_slot1;
-                tangon = _closure1_slot2;
-                verify = 2;
-                tangon = tangon[verify];
-                foxtra = golfie.bind(offset)(tangon);
-                golfie = zuuluu.type;
-                tangon = _closure1_slot5;
-                tangon = tangon.FOLDER;
-                golfie = golfie === tangon;
-                if(!golfie) { _fun00006_ip = 147; continue _fun00005 }
+                var6 = var2.children;
+                var4 = var6.indexOf;
+                var8 = var4.bind(var6)(var11);
+                var7 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var9 = 2;
+                var4 = var4[var9];
+                var13 = var7.bind(var10)(var4);
+                var7 = var3.type;
+                var4 = _closure1_slot5;
+                var4 = var4.FOLDER;
+                var7 = var7 === var4;
+                if(!var7) { _fun0003_ip = 147; continue _fun0003 }
  128:
-                romeon = michal.type;
-                tangon = _closure1_slot5;
-                tangon = tangon.FOLDER;
-                golfie = romeon === tangon;
+                var12 = var2.type;
+                var4 = _closure1_slot5;
+                var4 = var4.FOLDER;
+                var7 = var12 === var4;
  147:
-                ctrled = zuuluu.id;
-                update = michal.id;
-                tangon = global;
-                romeon = tangon.HermesInternal;
-                sizing = romeon.concat;
-                vacuum = '[GUILDS TREE] Tried moving a folder (';
-                source = ') inside of another folder (';
-                kiloes = ')';
-                echoed = kiloes;
-                romeon = vacuum[sizing](ctrled, source, update, echoed, result);
-                golfie = !golfie;
-                golfie = foxtra.bind(offset)(golfie, romeon);
-                golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                oscard = oscard[verify];
-                verify = golfie.bind(offset)(oscard);
-                golfie = 0;
-                oscard = option >= golfie;
-                ctrled = yankee.id;
-                update = yankee.parentId;
-                tangon = tangon.HermesInternal;
-                romeon = tangon.concat;
-                vacuum = '[GUILDS TREE] target node (';
-                source = ') did not exist within its specified parent (';
-                tangon = vacuum[romeon](ctrled, source, update, echoed, result);
-                tangon = verify.bind(offset)(oscard, tangon);
-                tangon = 0;
-                if(!report) { _fun00006_ip = 277; continue _fun00005 }
+                var22 = var3.id;
+                var20 = var2.id;
+                var4 = global;
+                var12 = var4.HermesInternal;
+                var16 = var12.concat;
+                var23 = '[GUILDS TREE] Tried moving a folder (';
+                var21 = ') inside of another folder (';
+                var15 = ')';
+                var19 = var15;
+                var12 = var23[var16](var22, var21, var20, var19, var18);
+                var7 = !var7;
+                var7 = var13.bind(var10)(var7, var12);
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var6 = var6[var9];
+                var9 = var7.bind(var10)(var6);
+                var7 = 0;
+                var6 = var8 >= var7;
+                var22 = var11.id;
+                var20 = var11.parentId;
+                var4 = var4.HermesInternal;
+                var12 = var4.concat;
+                var23 = '[GUILDS TREE] target node (';
+                var21 = ') did not exist within its specified parent (';
+                var4 = var23[var12](var22, var21, var20, var19, var18);
+                var4 = var9.bind(var10)(var6, var4);
+                var4 = 0;
+                if(!var5) { _fun0003_ip = 277; continue _fun0003 }
  274:
-                tangon = 1;
+                var4 = 1;
  277:
-                source = michal.children;
-                report = new Array(0);
-                ctrled = report;
-                update = 0;
-                oscard = arraySpread(ctrled, source, update);
-                michal['children'] = report;
-                oscard = michal.children;
-                report = oscard.splice;
-                tangon = option + tangon;
-                tangon = report.bind(oscard)(tangon, golfie, zuuluu);
-                michal = michal.id;
-                zuuluu['parentId'] = michal;
-                michal = entity.version;
-                michal = michal + 1;
-                entity['version'] = michal;
-                return entity;
+                var21 = var2.children;
+                var5 = new Array(0);
+                var22 = var5;
+                var20 = 0;
+                var6 = arraySpread(var22, var21, var20);
+                var2['children'] = var5;
+                var6 = var2.children;
+                var5 = var6.splice;
+                var4 = var8 + var4;
+                var4 = var5.bind(var6)(var4, var7, var3);
+                var2 = var2.id;
+                var3['parentId'] = var2;
+                var2 = var1.version;
+                var2 = var2 + 1;
+                var1['version'] = var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'moveInto';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'moveInto';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = argFoo;
-                michal = argBar;
-                tangon = arguments[2];
-                entity = this;
-                report = undefined;
-                if(!(tangon === report)) { _fun00008_ip = 20; continue _fun00007 }
+                var3 = arg1;
+                var2 = arg2;
+                var4 = arguments[2];
+                var1 = this;
+                var5 = undefined;
+                if(!(var4 === var5)) { _fun0004_ip = 20; continue _fun0004 }
  18:
-                tangon = true;
+                var4 = true;
  20:
-                report = entity._pluckNode;
-                report = report.bind(entity)(zuuluu);
-                golfie = 0;
-                oscard = 0;
-                if(!tangon) { _fun00008_ip = 48; continue _fun00007 }
+                var5 = var1._pluckNode;
+                var5 = var5.bind(var1)(var3);
+                var7 = 0;
+                var6 = 0;
+                if(!var4) { _fun0004_ip = 48; continue _fun0004 }
  38:
-                tangon = michal.children;
-                oscard = tangon.length;
+                var4 = var2.children;
+                var6 = var4.length;
  48:
-                verify = michal.children;
-                tangon = new Array(0);
-                offset = tangon;
-                option = 0;
-                report = arraySpread(offset, verify, option);
-                michal['children'] = tangon;
-                report = michal.children;
-                tangon = report.splice;
-                tangon = tangon.bind(report)(oscard, golfie, zuuluu);
-                michal = michal.id;
-                zuuluu['parentId'] = michal;
-                michal = entity.version;
-                michal = michal + 1;
-                entity['version'] = michal;
-                return entity;
+                var9 = var2.children;
+                var4 = new Array(0);
+                var10 = var4;
+                var8 = 0;
+                var5 = arraySpread(var10, var9, var8);
+                var2['children'] = var4;
+                var5 = var2.children;
+                var4 = var5.splice;
+                var4 = var4.bind(var5)(var6, var7, var3);
+                var2 = var2.id;
+                var3['parentId'] = var2;
+                var2 = var1.version;
+                var2 = var2 + 1;
+                var1['version'] = var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'addNode';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'addNode';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                report = argFoo;
-                tangon = arguments[1];
-                zuuluu = arguments[2];
-                michal = this;
-                option = undefined;
-                if(!(tangon === option)) { _fun00010_ip = 24; continue _fun00009 }
+                var5 = arg1;
+                var4 = arguments[1];
+                var3 = arguments[2];
+                var2 = this;
+                var8 = undefined;
+                if(!(var4 === var8)) { _fun0005_ip = 24; continue _fun0005 }
  18:
-                tangon = michal.root;
+                var4 = var2.root;
  24:
-                if(!(zuuluu === option)) { _fun00010_ip = 30; continue _fun00009 }
+                if(!(var3 === var8)) { _fun0005_ip = 30; continue _fun0005 }
  28:
-                zuuluu = true;
+                var3 = true;
  30:
-                golfie = _closure1_slot1;
-                verify = _closure1_slot2;
-                entity = 2;
-                offset = verify[entity];
-                yankee = golfie.bind(option)(offset);
-                offset = report.type;
-                oscard = _closure1_slot5;
-                oscard = oscard.ROOT;
-                offset = offset !== oscard;
-                oscard = '[GUILDS TREE] Tried adding another root node into the tree';
-                oscard = yankee.bind(option)(offset, oscard);
-                oscard = verify[entity];
-                romeon = golfie.bind(option)(oscard);
-                offset = report.id;
-                oscard = null;
-                yankee = oscard != offset;
-                offset = '[GUILDS TREE] Tried adding a node without an id';
-                offset = romeon.bind(option)(yankee, offset);
-                entity = verify[entity];
-                golfie = golfie.bind(option)(entity);
-                verify = michal.nodes;
-                entity = report.id;
-                entity = verify[entity];
-                oscard = oscard == entity;
-                yankee = report.id;
-                entity = global;
-                entity = entity.HermesInternal;
-                offset = entity.concat;
-                verify = '[GUILDS TREE] Tried adding a node that already exists (';
-                entity = ')';
-                entity = offset.bind(verify)(yankee, entity);
-                entity = golfie.bind(option)(oscard, entity);
-                oscard = michal.nodes;
-                entity = report.id;
-                oscard[entity] = report;
-                entity = michal.version;
-                entity = entity + 1;
-                michal['version'] = entity;
-                entity = michal.moveInto;
-                entity = entity.bind(michal)(report, tangon, zuuluu);
-                return entity;
+                var7 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var1 = 2;
+                var10 = var9[var1];
+                var11 = var7.bind(var8)(var10);
+                var10 = var5.type;
+                var6 = _closure1_slot5;
+                var6 = var6.ROOT;
+                var10 = var10 !== var6;
+                var6 = '[GUILDS TREE] Tried adding another root node into the tree';
+                var6 = var11.bind(var8)(var10, var6);
+                var6 = var9[var1];
+                var12 = var7.bind(var8)(var6);
+                var10 = var5.id;
+                var6 = null;
+                var11 = var6 != var10;
+                var10 = '[GUILDS TREE] Tried adding a node without an id';
+                var10 = var12.bind(var8)(var11, var10);
+                var1 = var9[var1];
+                var7 = var7.bind(var8)(var1);
+                var9 = var2.nodes;
+                var1 = var5.id;
+                var1 = var9[var1];
+                var6 = var6 == var1;
+                var11 = var5.id;
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var10 = var1.concat;
+                var9 = '[GUILDS TREE] Tried adding a node that already exists (';
+                var1 = ')';
+                var1 = var10.bind(var9)(var11, var1);
+                var1 = var7.bind(var8)(var6, var1);
+                var6 = var2.nodes;
+                var1 = var5.id;
+                var6[var1] = var5;
+                var1 = var2.version;
+                var1 = var1 + 1;
+                var2['version'] = var1;
+                var1 = var2.moveInto;
+                var1 = var1.bind(var2)(var5, var4, var3);
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'removeNode';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            tangon = 2;
-            golfie = oscard[tangon];
-            zuuluu = undefined;
-            verify = report.bind(zuuluu)(golfie);
-            golfie = entity.root;
-            option = michal !== golfie;
-            golfie = '[GUILDS TREE] Tried removing the root node from the tree';
-            golfie = verify.bind(zuuluu)(option, golfie);
-            tangon = oscard[tangon];
-            oscard = report.bind(zuuluu)(tangon);
-            report = michal.id;
-            tangon = null;
-            report = tangon != report;
-            tangon = '[GUILDS TREE] Tried removing a node without an id';
-            tangon = oscard.bind(zuuluu)(report, tangon);
-            tangon = entity._pluckNode;
-            tangon = tangon.bind(entity)(michal);
-            michal['parentId'] = zuuluu;
-            zuuluu = entity.nodes;
-            michal = michal.id;
-            michal = delete zuuluu[michal];
-            michal = entity.version;
-            michal = michal + 1;
-            entity['version'] = michal;
-            return entity;
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'removeNode';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 2;
+            var7 = var6[var4];
+            var3 = undefined;
+            var9 = var5.bind(var3)(var7);
+            var7 = var1.root;
+            var8 = var2 !== var7;
+            var7 = '[GUILDS TREE] Tried removing the root node from the tree';
+            var7 = var9.bind(var3)(var8, var7);
+            var4 = var6[var4];
+            var6 = var5.bind(var3)(var4);
+            var5 = var2.id;
+            var4 = null;
+            var5 = var4 != var5;
+            var4 = '[GUILDS TREE] Tried removing a node without an id';
+            var4 = var6.bind(var3)(var5, var4);
+            var4 = var1._pluckNode;
+            var4 = var4.bind(var1)(var2);
+            var2['parentId'] = var3;
+            var3 = var1.nodes;
+            var2 = var2.id;
+            var2 = delete var3[var2];
+            var2 = var1.version;
+            var2 = var2 + 1;
+            var1['version'] = var2;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[5] = entity;
-        entity = {};
-        oscard = 'replaceNode';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['value'] = var6;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'replaceNode';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                michal = argFoo;
-                tangon = argBar;
-                entity = this;
-                verify = _closure1_slot1;
-                report = _closure1_slot2;
-                option = 2;
-                golfie = report[option];
-                zuuluu = undefined;
-                romeon = verify.bind(zuuluu)(golfie);
-                offset = michal.id;
-                golfie = null;
-                yankee = golfie != offset;
-                offset = '[GUILDS TREE] Tried replacing a node without an id';
-                offset = romeon.bind(zuuluu)(yankee, offset);
-                report = report[option];
-                offset = verify.bind(zuuluu)(report);
-                report = tangon.id;
-                verify = golfie != report;
-                report = '[GUILDS TREE] Tried replacing a node with one that does not have an id';
-                report = offset.bind(zuuluu)(verify, report);
-                report = michal.parentId;
-                if(!(golfie == report)) { _fun00012_ip = 105; continue _fun00011 }
+                var2 = arg1;
+                var4 = arg2;
+                var1 = this;
+                var9 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var8 = 2;
+                var7 = var5[var8];
+                var3 = undefined;
+                var12 = var9.bind(var3)(var7);
+                var10 = var2.id;
+                var7 = null;
+                var11 = var7 != var10;
+                var10 = '[GUILDS TREE] Tried replacing a node without an id';
+                var10 = var12.bind(var3)(var11, var10);
+                var5 = var5[var8];
+                var10 = var9.bind(var3)(var5);
+                var5 = var4.id;
+                var9 = var7 != var5;
+                var5 = '[GUILDS TREE] Tried replacing a node with one that does not have an id';
+                var5 = var10.bind(var3)(var9, var5);
+                var5 = var2.parentId;
+                if(!(var7 == var5)) { _fun0006_ip = 105; continue _fun0006 }
  97:
-                report = entity.root;
-                _fun00012_ip = 121; continue _fun00011;
+                var5 = var1.root;
+                _fun0006_ip = 121; continue _fun0006;
  105:
-                verify = entity.nodes;
-                golfie = michal.parentId;
-                report = verify[golfie];
+                var9 = var1.nodes;
+                var7 = var2.parentId;
+                var5 = var9[var7];
  121:
-                verify = report.children;
-                golfie = verify.indexOf;
-                verify = golfie.bind(verify)(michal);
-                golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                oscard = oscard[option];
-                offset = golfie.bind(zuuluu)(oscard);
-                option = 0;
-                golfie = verify >= option;
-                echoed = michal.id;
-                output = michal.parentId;
-                oscard = global;
-                oscard = oscard.HermesInternal;
-                foxtra = oscard.concat;
-                update = '[GUILDS TREE] existing node (';
-                result = ') did not exist within its specified parent (';
-                sizing = ')';
-                oscard = update[foxtra](echoed, result, output, sizing, kiloes);
-                oscard = offset.bind(zuuluu)(golfie, oscard);
-                result = report.children;
-                oscard = new Array(0);
-                echoed = oscard;
-                output = 0;
-                golfie = arraySpread(echoed, result, output);
-                report['children'] = oscard;
-                option = report.children;
-                golfie = option.splice;
-                oscard = 1;
-                oscard = golfie.bind(option)(verify, oscard, tangon);
-                report = report.id;
-                tangon['parentId'] = report;
-                michal['parentId'] = zuuluu;
-                zuuluu = entity.nodes;
-                michal = michal.id;
-                michal = delete zuuluu[michal];
-                zuuluu = entity.nodes;
-                michal = tangon.id;
-                zuuluu[michal] = tangon;
-                michal = entity.version;
-                michal = michal + 1;
-                entity['version'] = michal;
-                return entity;
+                var9 = var5.children;
+                var7 = var9.indexOf;
+                var9 = var7.bind(var9)(var2);
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var10 = var7.bind(var3)(var6);
+                var8 = 0;
+                var7 = var9 >= var8;
+                var19 = var2.id;
+                var17 = var2.parentId;
+                var6 = global;
+                var6 = var6.HermesInternal;
+                var13 = var6.concat;
+                var20 = '[GUILDS TREE] existing node (';
+                var18 = ') did not exist within its specified parent (';
+                var16 = ')';
+                var6 = var20[var13](var19, var18, var17, var16, var15);
+                var6 = var10.bind(var3)(var7, var6);
+                var18 = var5.children;
+                var6 = new Array(0);
+                var19 = var6;
+                var17 = 0;
+                var7 = arraySpread(var19, var18, var17);
+                var5['children'] = var6;
+                var8 = var5.children;
+                var7 = var8.splice;
+                var6 = 1;
+                var6 = var7.bind(var8)(var9, var6, var4);
+                var5 = var5.id;
+                var4['parentId'] = var5;
+                var2['parentId'] = var3;
+                var3 = var1.nodes;
+                var2 = var2.id;
+                var2 = delete var3[var2];
+                var3 = var1.nodes;
+                var2 = var4.id;
+                var3[var2] = var4;
+                var2 = var1.version;
+                var2 = var2 + 1;
+                var1['version'] = var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[6] = entity;
-        entity = {};
-        oscard = 'cloneNode';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.clone;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
+        var6 = 'cloneNode';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.clone;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[7] = entity;
-        entity = {};
-        oscard = 'convertToFolder';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var1['value'] = var6;
+        var2[7] = var1;
+        var1 = {};
+        var6 = 'convertToFolder';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                report = argFoo;
-                zuuluu = this;
-                entity = _closure1_slot6;
-                golfie = undefined;
-                michal = entity.bind(golfie)();
-                entity = zuuluu.getNode;
-                entity = entity.bind(zuuluu)(michal);
-                oscard = null;
-                if(!(oscard != entity)) { _fun00014_ip = 62; continue _fun00013 }
+                var5 = arg1;
+                var3 = this;
+                var1 = _closure1_slot6;
+                var7 = undefined;
+                var2 = var1.bind(var7)();
+                var1 = var3.getNode;
+                var1 = var1.bind(var3)(var2);
+                var6 = null;
+                if(!(var6 != var1)) { _fun0007_ip = 62; continue _fun0007 }
  36:
-                entity = _closure1_slot6;
-                option = entity.bind(golfie)();
-                entity = zuuluu.getNode;
-                entity = entity.bind(zuuluu)(option);
-                michal = option;
-                if(oscard != entity) { _fun00014_ip = 36; continue _fun00013 }
+                var1 = _closure1_slot6;
+                var8 = var1.bind(var7)();
+                var1 = var3.getNode;
+                var1 = var1.bind(var3)(var8);
+                var2 = var8;
+                if(var6 != var1) { _fun0007_ip = 36; continue _fun0007 }
  62:
-                entity = {};
-                tangon = _closure1_slot5;
-                tangon = tangon.FOLDER;
-                entity['type'] = tangon;
-                entity['id'] = michal;
-                tangon = false;
-                entity['expanded'] = tangon;
-                michal = new Array(0);
-                entity['children'] = michal;
-                michal = zuuluu.replaceNode;
-                michal = michal.bind(zuuluu)(report, entity);
-                michal = zuuluu.removeNode;
-                michal = michal.bind(zuuluu)(report);
-                michal = zuuluu.addNode;
-                michal = michal.bind(zuuluu)(report, entity, tangon);
-                michal = zuuluu.version;
-                michal = michal + 1;
-                zuuluu['version'] = michal;
-                return entity;
+                var1 = {};
+                var4 = _closure1_slot5;
+                var4 = var4.FOLDER;
+                var1['type'] = var4;
+                var1['id'] = var2;
+                var4 = false;
+                var1['expanded'] = var4;
+                var2 = new Array(0);
+                var1['children'] = var2;
+                var2 = var3.replaceNode;
+                var2 = var2.bind(var3)(var5, var1);
+                var2 = var3.removeNode;
+                var2 = var2.bind(var3)(var5);
+                var2 = var3.addNode;
+                var2 = var2.bind(var3)(var5, var1, var4);
+                var2 = var3.version;
+                var2 = var2 + 1;
+                var3['version'] = var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[8] = entity;
-        entity = {};
-        oscard = 'allNodes';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = global;
-            zuuluu = entity.Object;
-            michal = zuuluu.values;
-            entity = this;
-            entity = entity.nodes;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['value'] = var6;
+        var2[8] = var1;
+        var1 = {};
+        var6 = 'allNodes';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.values;
+            var1 = this;
+            var1 = var1.nodes;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[9] = entity;
-        entity = {};
-        oscard = 'getNode';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            entity = this;
-            michal = entity.nodes;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var1['value'] = var6;
+        var2[9] = var1;
+        var1 = {};
+        var6 = 'getNode';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = this;
+            var2 = var1.nodes;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[10] = entity;
-        entity = {};
-        oscard = 'getRoots';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            entity = entity.root;
-            entity = entity.children;
-            return entity;
+        var1['value'] = var6;
+        var2[10] = var1;
+        var1 = {};
+        var6 = 'getRoots';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.root;
+            var1 = var1.children;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[11] = entity;
-        entity = {};
-        oscard = 'size';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            michal = this;
-            entity = michal.allNodes;
-            entity = entity.bind(michal)();
-            entity = entity.length;
-            return entity;
+        var1['value'] = var6;
+        var2[11] = var1;
+        var1 = {};
+        var6 = 'size';
+        var1['key'] = var6;
+        var6 = function get() {
+            var2 = this;
+            var1 = var2.allNodes;
+            var1 = var1.bind(var2)();
+            var1 = var1.length;
+            return var1;
         };
-        entity['get'] = oscard;
-        michal[12] = entity;
-        entity = {};
-        oscard = 'sortedGuildNodes';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            zuuluu = function(argFoo) { // Original name: collectChildren
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var1['get'] = var6;
+        var2[12] = var1;
+        var1 = {};
+        var6 = 'sortedGuildNodes';
+        var1['key'] = var6;
+        var6 = function value() {
+            var3 = function collectChildren(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = zuuluu.type;
-                    entity = _closure1_slot5;
-                    entity = entity.GUILD;
-                    if(!(michal !== entity)) { _fun00016_ip = 76; continue _fun00015 }
+                    var3 = arg1;
+                    var2 = var3.type;
+                    var1 = _closure1_slot5;
+                    var1 = var1.GUILD;
+                    if(!(var2 !== var1)) { _fun0008_ip = 76; continue _fun0008 }
  25:
-                    michal = zuuluu.children;
-                    entity = null;
-                    if(!(entity != michal)) { _fun00016_ip = 70; continue _fun00015 }
+                    var2 = var3.children;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0008_ip = 70; continue _fun0008 }
  36:
-                    tangon = zuuluu.children;
-                    michal = tangon.map;
-                    entity = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var4 = var3.children;
+                    var2 = var4.map;
+                    var1 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    michal = michal.bind(tangon)(entity);
-                    entity = michal.flat;
-                    entity = entity.bind(michal)();
-                    _fun00016_ip = 74; continue _fun00015;
+                    var2 = var2.bind(var4)(var1);
+                    var1 = var2.flat;
+                    var1 = var1.bind(var2)();
+                    _fun0008_ip = 74; continue _fun0008;
  70:
-                    entity = new Array(0);
+                    var1 = new Array(0);
  74:
-                    _fun00016_ip = 87; continue _fun00015;
+                    _fun0008_ip = 87; continue _fun0008;
  76:
-                    michal = new Array(1);
-                    michal[0] = zuuluu;
-                    entity = michal;
+                    var2 = new Array(1);
+                    var2[0] = var3;
+                    var1 = var2;
  87:
-                    return entity;
+                    return var1;
                 }
             };
-            var _closure3_slot0 = zuuluu;
-            entity = this;
-            michal = entity.root;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+            var _closure3_slot0 = var3;
+            var1 = this;
+            var2 = var1.root;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[13] = entity;
-        entity = {};
-        oscard = '_pluckNode';
-        entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var1['value'] = var6;
+        var2[13] = var1;
+        var1 = {};
+        var6 = '_pluckNode';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                michal = argFoo;
-                zuuluu = this;
-                var _closure3_slot0 = michal;
-                entity = michal.parentId;
-                option = null;
-                if(!(option == entity)) { _fun00018_ip = 32; continue _fun00017 }
+                var2 = arg1;
+                var3 = this;
+                var _closure3_slot0 = var2;
+                var1 = var2.parentId;
+                var8 = null;
+                if(!(var8 == var1)) { _fun0009_ip = 32; continue _fun0009 }
  24:
-                report = zuuluu.root;
-                _fun00018_ip = 48; continue _fun00017;
+                var5 = var3.root;
+                _fun0009_ip = 48; continue _fun0009;
  32:
-                oscard = zuuluu.nodes;
-                entity = michal.parentId;
-                report = oscard[entity];
+                var6 = var3.nodes;
+                var1 = var2.parentId;
+                var5 = var6[var1];
  48:
-                offset = _closure1_slot1;
-                yankee = _closure1_slot2;
-                verify = 2;
-                oscard = yankee[verify];
-                entity = undefined;
-                kiloes = offset.bind(entity)(oscard);
-                romeon = option != report;
-                ctrled = michal.id;
-                update = michal.parentId;
-                oscard = global;
-                golfie = oscard.HermesInternal;
-                sizing = golfie.concat;
-                backup = '[GUILDS TREE] source node (';
-                foxtra = ') had a parent id (';
-                echoed = ") which doesn't exist in the tree";
-                vacuum = backup;
-                source = foxtra;
-                golfie = vacuum[sizing](ctrled, source, update, echoed, result);
-                golfie = kiloes.bind(entity)(romeon, golfie);
-                golfie = report.children;
-                verify = yankee[verify];
-                verify = offset.bind(entity)(verify);
-                option = option != golfie;
-                ctrled = michal.id;
-                update = michal.parentId;
-                oscard = oscard.HermesInternal;
-                offset = oscard.concat;
-                echoed = ') which contains no children';
-                vacuum = backup;
-                source = foxtra;
-                oscard = vacuum[offset](ctrled, source, update, echoed, result);
-                oscard = verify.bind(entity)(option, oscard);
-                oscard = golfie.filter;
-                tangon = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = argFoo;
-                    entity = entity !== michal;
-                    return entity;
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var9 = 2;
+                var6 = var11[var9];
+                var1 = undefined;
+                var15 = var10.bind(var1)(var6);
+                var12 = var8 != var5;
+                var22 = var2.id;
+                var20 = var2.parentId;
+                var6 = global;
+                var7 = var6.HermesInternal;
+                var16 = var7.concat;
+                var14 = '[GUILDS TREE] source node (';
+                var13 = ') had a parent id (';
+                var19 = ") which doesn't exist in the tree";
+                var23 = var14;
+                var21 = var13;
+                var7 = var23[var16](var22, var21, var20, var19, var18);
+                var7 = var15.bind(var1)(var12, var7);
+                var7 = var5.children;
+                var9 = var11[var9];
+                var9 = var10.bind(var1)(var9);
+                var8 = var8 != var7;
+                var22 = var2.id;
+                var20 = var2.parentId;
+                var6 = var6.HermesInternal;
+                var10 = var6.concat;
+                var19 = ') which contains no children';
+                var23 = var14;
+                var21 = var13;
+                var6 = var23[var10](var22, var21, var20, var19, var18);
+                var6 = var9.bind(var1)(var8, var6);
+                var6 = var7.filter;
+                var4 = function(arg1) {
+                    var2 = _closure3_slot0;
+                    var1 = arg1;
+                    var1 = var1 !== var2;
+                    return var1;
                 };
-                tangon = oscard.bind(golfie)(tangon);
-                report['children'] = tangon;
-                michal['parentId'] = entity;
-                michal = zuuluu.version;
-                michal = michal + 1;
-                zuuluu['version'] = michal;
-                return entity;
+                var4 = var6.bind(var7)(var4);
+                var5['children'] = var4;
+                var2['parentId'] = var1;
+                var2 = var3.version;
+                var2 = var2 + 1;
+                var3['version'] = var2;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[14] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[14] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    oscard = 4;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/guilds_bar/GuildsTree.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['GuildsNodeType'] = report;
-    zuuluu['GuildsTree'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: createGuildNode
-        entity = {};
-        michal = _closure1_slot5;
-        michal = michal.GUILD;
-        entity['type'] = michal;
-        michal = argFoo;
-        entity['id'] = michal;
-        michal = argBar;
-        entity['parentId'] = michal;
-        michal = new Array(0);
-        entity['children'] = michal;
-        michal = false;
-        entity['unavailable'] = michal;
-        return entity;
+    var4 = var4.bind(var1)();
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/guilds_bar/GuildsTree.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['GuildsNodeType'] = var5;
+    var3['GuildsTree'] = var4;
+    var4 = function createGuildNode(arg1, arg2) {
+        var1 = {};
+        var2 = _closure1_slot5;
+        var2 = var2.GUILD;
+        var1['type'] = var2;
+        var2 = arg1;
+        var1['id'] = var2;
+        var2 = arg2;
+        var1['parentId'] = var2;
+        var2 = new Array(0);
+        var1['children'] = var2;
+        var2 = false;
+        var1['unavailable'] = var2;
+        return var1;
     };
-    zuuluu['createGuildNode'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: createFolderNode
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var3['createGuildNode'] = var4;
+    var2 = function createFolderNode(arg1, arg2, arg3) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            tangon = argFoo;
-            michal = argBaz;
-            entity = {};
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.FOLDER;
-            entity['type'] = zuuluu;
-            zuuluu = tangon.folderId;
-            entity['id'] = zuuluu;
-            zuuluu = argBar;
-            entity['parentId'] = zuuluu;
-            golfie = tangon.folderName;
-            zuuluu = null;
-            option = zuuluu != golfie;
-            oscard = undefined;
-            if(!option) { _fun00020_ip = 63; continue _fun00019 }
+            var4 = arg1;
+            var2 = arg3;
+            var1 = {};
+            var3 = _closure1_slot5;
+            var3 = var3.FOLDER;
+            var1['type'] = var3;
+            var3 = var4.folderId;
+            var1['id'] = var3;
+            var3 = arg2;
+            var1['parentId'] = var3;
+            var7 = var4.folderName;
+            var3 = null;
+            var8 = var3 != var7;
+            var6 = undefined;
+            if(!var8) { _fun0010_ip = 63; continue _fun0010 }
  60:
-            oscard = golfie;
+            var6 = var7;
  63:
-            entity['name'] = oscard;
-            oscard = tangon.folderColor;
-            golfie = zuuluu != oscard;
-            report = undefined;
-            if(!golfie) { _fun00020_ip = 85; continue _fun00019 }
+            var1['name'] = var6;
+            var6 = var4.folderColor;
+            var7 = var3 != var6;
+            var5 = undefined;
+            if(!var7) { _fun0010_ip = 85; continue _fun0010 }
  82:
-            report = oscard;
+            var5 = var6;
  85:
-            entity['color'] = report;
-            if(!(zuuluu == michal)) { _fun00020_ip = 112; continue _fun00019 }
+            var1['color'] = var5;
+            if(!(var3 == var2)) { _fun0010_ip = 112; continue _fun0010 }
  93:
-            tangon = tangon.expanded;
-            zuuluu = zuuluu != tangon;
-            if(!zuuluu) { _fun00020_ip = 109; continue _fun00019 }
+            var4 = var4.expanded;
+            var3 = var3 != var4;
+            if(!var3) { _fun0010_ip = 109; continue _fun0010 }
  106:
-            zuuluu = tangon;
+            var3 = var4;
  109:
-            michal = zuuluu;
+            var2 = var3;
  112:
-            entity['expanded'] = michal;
-            michal = new Array(0);
-            entity['children'] = michal;
-            return entity;
+            var1['expanded'] = var2;
+            var2 = new Array(0);
+            var1['children'] = var2;
+            return var1;
         }
     };
-    zuuluu['createFolderNode'] = michal;
-    return entity;
+    var3['createFolderNode'] = var2;
+    return var1;
 })();

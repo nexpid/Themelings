@@ -1,189 +1,189 @@
 // app/modules/guild_profile/native/GuildProfileUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_profile/native/GuildProfileUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useProfilePrimaryColor
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_profile/native/GuildProfileUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useProfilePrimaryColor(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            tangon = null;
-            entity = tangon != michal;
-            oscard = null;
-            if(!entity) { _fun00002_ip = 92; continue _fun00001 }
+            var2 = arg1;
+            var4 = null;
+            var1 = var4 != var2;
+            var6 = null;
+            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
  14:
-            entity = michal.brandColorPrimary;
-            entity = tangon == entity;
-            oscard = null;
-            if(!entity) { _fun00002_ip = 92; continue _fun00001 }
+            var1 = var2.brandColorPrimary;
+            var1 = var4 == var1;
+            var6 = null;
+            if(!var1) { _fun0001_ip = 92; continue _fun0001 }
  29:
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            report = report.bind(entity)(zuuluu);
-            zuuluu = report.getGuildIconURL;
-            entity = {};
-            golfie = michal.id;
-            entity['id'] = golfie;
-            golfie = michal.icon;
-            entity['icon'] = golfie;
-            golfie = 64;
-            entity['size'] = golfie;
-            oscard = zuuluu.bind(report)(entity);
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var3 = var3[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var3);
+            var3 = var5.getGuildIconURL;
+            var1 = {};
+            var7 = var2.id;
+            var1['id'] = var7;
+            var7 = var2.icon;
+            var1['icon'] = var7;
+            var7 = 64;
+            var1['size'] = var7;
+            var6 = var3.bind(var5)(var1);
  92:
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            report = report.bind(zuuluu)(entity);
-            entity = argBar;
-            entity = report.bind(zuuluu)(oscard, entity);
-            report = tangon == michal;
-            if(report) { _fun00002_ip = 139; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var1);
+            var1 = arg2;
+            var1 = var5.bind(var3)(var6, var1);
+            var5 = var4 == var2;
+            if(var5) { _fun0001_ip = 139; continue _fun0001 }
  133:
-            zuuluu = michal.brandColorPrimary;
+            var3 = var2.brandColorPrimary;
  139:
-            if(!(tangon != zuuluu)) { _fun00002_ip = 149; continue _fun00001 }
+            if(!(var4 != var3)) { _fun0001_ip = 149; continue _fun0001 }
  143:
-            entity = michal.brandColorPrimary;
+            var1 = var2.brandColorPrimary;
  149:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useProfilePrimaryColor'] = tangon;
-    michal = function(argFoo) { // Original name: getProfilePrimaryColor
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useProfilePrimaryColor'] = var4;
+    var2 = function getProfilePrimaryColor(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity != michal)) { _fun00004_ip = 359; continue _fun00003 }
+            var2 = arg1;
+            var1 = null;
+            if(!(var1 != var2)) { _fun0002_ip = 359; continue _fun0002 }
  12:
-            zuuluu = michal.brandColorPrimary;
-            if(!(entity == zuuluu)) { _fun00004_ip = 351; continue _fun00003 }
+            var3 = var2.brandColorPrimary;
+            if(!(var1 == var3)) { _fun0002_ip = 351; continue _fun0002 }
  25:
-            golfie = _closure1_slot1;
-            tangon = _closure1_slot2;
-            oscard = 2;
-            tangon = tangon[oscard];
-            report = undefined;
-            option = golfie.bind(report)(tangon);
-            golfie = option.getGuildIconURL;
-            tangon = {};
-            verify = michal.id;
-            tangon['id'] = verify;
-            verify = michal.icon;
-            tangon['icon'] = verify;
-            verify = 64;
-            tangon['size'] = verify;
-            golfie = golfie.bind(option)(tangon);
-            if(!(entity != golfie)) { _fun00004_ip = 349; continue _fun00003 }
+            var7 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var6 = 2;
+            var4 = var4[var6];
+            var5 = undefined;
+            var8 = var7.bind(var5)(var4);
+            var7 = var8.getGuildIconURL;
+            var4 = {};
+            var9 = var2.id;
+            var4['id'] = var9;
+            var9 = var2.icon;
+            var4['icon'] = var9;
+            var9 = 64;
+            var4['size'] = var9;
+            var7 = var7.bind(var8)(var4);
+            if(!(var1 != var7)) { _fun0002_ip = 349; continue _fun0002 }
  95:
-            verify = _closure1_slot0;
-            tangon = _closure1_slot2;
-            option = 3;
-            offset = tangon[option];
-            yankee = verify.bind(report)(offset);
-            offset = yankee.maybeFetchColors;
-            offset = offset.bind(yankee)(golfie);
-            tangon = tangon[option];
-            tangon = verify.bind(report)(tangon);
-            verify = tangon.useColorStore;
-            tangon = verify.getState;
-            tangon = tangon.bind(verify)();
-            tangon = tangon.palette;
-            verify = tangon[golfie];
-            tangon = entity == verify;
-            golfie = undefined;
-            if(tangon) { _fun00004_ip = 176; continue _fun00003 }
+            var9 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var8 = 3;
+            var10 = var4[var8];
+            var11 = var9.bind(var5)(var10);
+            var10 = var11.maybeFetchColors;
+            var10 = var10.bind(var11)(var7);
+            var4 = var4[var8];
+            var4 = var9.bind(var5)(var4);
+            var9 = var4.useColorStore;
+            var4 = var9.getState;
+            var4 = var4.bind(var9)();
+            var4 = var4.palette;
+            var9 = var4[var7];
+            var4 = var1 == var9;
+            var7 = undefined;
+            if(var4) { _fun0002_ip = 176; continue _fun0002 }
  170:
-            tangon = 0;
-            golfie = verify[tangon];
+            var4 = 0;
+            var7 = var9[var4];
  176:
-            if(!(entity == golfie)) { _fun00004_ip = 182; continue _fun00003 }
+            if(!(var1 == var7)) { _fun0002_ip = 182; continue _fun0002 }
  180:
-            return entity;
+            return var1;
  182:
-            tangon = _closure1_slot3;
-            tangon = tangon.bind(report)(golfie, option);
-            golfie = 0;
-            yankee = tangon[golfie];
-            option = 1;
-            verify = tangon[option];
-            golfie = tangon[oscard];
-            oscard = _closure1_slot1;
-            tangon = _closure1_slot2;
-            offset = 4;
-            tangon = tangon[offset];
-            oscard = oscard.bind(report)(tangon);
-            tangon = {};
-            tangon['r'] = yankee;
-            tangon['g'] = verify;
-            tangon['b'] = golfie;
-            oscard = oscard.bind(report)(tangon);
-            tangon = oscard.toHsl;
-            tangon = tangon.bind(oscard)();
-            verify = tangon.h;
-            golfie = tangon.s;
-            oscard = tangon.l;
-            tangon = _closure1_slot4;
-            tangon = tangon.desaturateUserColors;
-            if(!tangon) { _fun00004_ip = 297; continue _fun00003 }
+            var4 = _closure1_slot3;
+            var4 = var4.bind(var5)(var7, var8);
+            var7 = 0;
+            var11 = var4[var7];
+            var8 = 1;
+            var9 = var4[var8];
+            var7 = var4[var6];
+            var6 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var10 = 4;
+            var4 = var4[var10];
+            var6 = var6.bind(var5)(var4);
+            var4 = {};
+            var4['r'] = var11;
+            var4['g'] = var9;
+            var4['b'] = var7;
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.toHsl;
+            var4 = var4.bind(var6)();
+            var9 = var4.h;
+            var7 = var4.s;
+            var6 = var4.l;
+            var4 = _closure1_slot4;
+            var4 = var4.desaturateUserColors;
+            if(!var4) { _fun0002_ip = 297; continue _fun0002 }
  287:
-            tangon = _closure1_slot4;
-            option = tangon.saturation;
+            var4 = _closure1_slot4;
+            var8 = var4.saturation;
  297:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[offset];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['h'] = verify;
-            golfie = golfie * option;
-            zuuluu['s'] = golfie;
-            zuuluu['l'] = oscard;
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.toHexString;
-            zuuluu = zuuluu.bind(tangon)();
-            return zuuluu;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var10];
+            var4 = var4.bind(var5)(var3);
+            var3 = {};
+            var3['h'] = var9;
+            var7 = var7 * var8;
+            var3['s'] = var7;
+            var3['l'] = var6;
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.toHexString;
+            var3 = var3.bind(var4)();
+            return var3;
  349:
-            return entity;
+            return var1;
  351:
-            michal = michal.brandColorPrimary;
-            return michal;
+            var2 = var2.brandColorPrimary;
+            return var2;
  359:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getProfilePrimaryColor'] = michal;
-    return entity;
+    var3['getProfilePrimaryColor'] = var2;
+    return var1;
 })();

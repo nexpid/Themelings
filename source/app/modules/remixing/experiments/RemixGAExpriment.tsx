@@ -1,181 +1,181 @@
 // app/modules/remixing/experiments/RemixGAExpriment.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    option = report.bind(entity)(tangon);
-    golfie = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2023-08_remix_ga', 'label': 'Remix General Available'};
-    verify = {'canSeeRemixBadge': false, 'canRemix': false, 'isNitroPerk': false};
-    tangon['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'Remix for Nitro Subscribers'};
-    verify = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': true};
-    offset['config'] = verify;
-    verify = new Array(3);
-    verify[0] = offset;
-    offset = {'id': 3, 'label': 'Upsell Remix for Non-Nitro Users'};
-    yankee = {'canSeeRemixBadge': true, 'canRemix': false, 'isNitroPerk': true};
-    offset['config'] = yankee;
-    verify[1] = offset;
-    offset = {'id': 5, 'label': 'Remix GA for everyone'};
-    yankee = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': false};
-    offset['config'] = yankee;
-    verify[2] = offset;
-    tangon['treatments'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/experiments/RemixGAExpriment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useCanRemix
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createExperiment;
+    var4 = {'kind': 'user', 'id': '2023-08_remix_ga', 'label': 'Remix General Available'};
+    var9 = {'canSeeRemixBadge': false, 'canRemix': false, 'isNitroPerk': false};
+    var4['defaultConfig'] = var9;
+    var10 = {'id': 1, 'label': 'Remix for Nitro Subscribers'};
+    var9 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': true};
+    var10['config'] = var9;
+    var9 = new Array(3);
+    var9[0] = var10;
+    var10 = {'id': 3, 'label': 'Upsell Remix for Non-Nitro Users'};
+    var11 = {'canSeeRemixBadge': true, 'canRemix': false, 'isNitroPerk': true};
+    var10['config'] = var11;
+    var9[1] = var10;
+    var10 = {'id': 5, 'label': 'Remix GA for everyone'};
+    var11 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': false};
+    var10['config'] = var11;
+    var9[2] = var10;
+    var4['treatments'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/experiments/RemixGAExpriment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useCanRemix(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            golfie = {};
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            michal = tangon.bind(zuuluu)(michal);
-            michal = michal.bind(zuuluu)();
-            michal = michal.analyticsLocations;
-            golfie['analyticsLocations'] = michal;
-            if(!report) { _fun00002_ip = 66; continue _fun00001 }
+            var5 = arg1;
+            var7 = {};
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var2 = var3[var2];
+            var3 = undefined;
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.bind(var3)();
+            var2 = var2.analyticsLocations;
+            var7['analyticsLocations'] = var2;
+            if(!var5) { _fun0001_ip = 66; continue _fun0001 }
  48:
-            michal = {};
-            tangon = new Array(1);
-            tangon[0] = report;
-            michal['analyticsLocations'] = tangon;
-            golfie = michal;
+            var2 = {};
+            var4 = new Array(1);
+            var4[0] = var5;
+            var2['analyticsLocations'] = var4;
+            var7 = var2;
  66:
-            michal = global;
-            michal = michal.Boolean;
-            oscard = _closure1_slot2;
-            report = oscard.useExperiment;
-            tangon = {};
-            entity = 'canRemixHook';
-            tangon['location'] = entity;
-            entity = {};
-            option = true;
-            entity['autoTrackExposure'] = option;
-            entity['trackExposureOptions'] = golfie;
-            entity = report.bind(oscard)(tangon, entity);
-            entity = entity.canRemix;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = global;
+            var2 = var2.Boolean;
+            var6 = _closure1_slot2;
+            var5 = var6.useExperiment;
+            var4 = {};
+            var1 = 'canRemixHook';
+            var4['location'] = var1;
+            var1 = {};
+            var8 = true;
+            var1['autoTrackExposure'] = var8;
+            var1['trackExposureOptions'] = var7;
+            var1 = var5.bind(var6)(var4, var1);
+            var1 = var1.canRemix;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['useCanRemix'] = tangon;
-    tangon = function() { // Original name: canRemix
-        tangon = _closure1_slot2;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'canRemix';
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canRemix;
-        return entity;
+    var3['useCanRemix'] = var4;
+    var4 = function canRemix() {
+        var4 = _closure1_slot2;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'canRemix';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = true;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.canRemix;
+        return var1;
     };
-    zuuluu['canRemix'] = tangon;
-    tangon = function() { // Original name: canSeeRemixBadge
-        tangon = _closure1_slot2;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'canSeeRemixBadge';
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canSeeRemixBadge;
-        return entity;
+    var3['canRemix'] = var4;
+    var4 = function canSeeRemixBadge() {
+        var4 = _closure1_slot2;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'canSeeRemixBadge';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = true;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.canSeeRemixBadge;
+        return var1;
     };
-    zuuluu['canSeeRemixBadge'] = tangon;
-    tangon = function() { // Original name: useCanSeeRemixBadge
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = 'canSeeRemixBadge';
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.canSeeRemixBadge;
-        return entity;
+    var3['canSeeRemixBadge'] = var4;
+    var4 = function useCanSeeRemixBadge() {
+        var4 = _closure1_slot2;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = 'canSeeRemixBadge';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = true;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.canSeeRemixBadge;
+        return var1;
     };
-    zuuluu['useCanSeeRemixBadge'] = tangon;
-    tangon = function() { // Original name: useIsRemixANitroPerk
-        entity = global;
-        zuuluu = entity.Boolean;
-        report = _closure1_slot2;
-        tangon = report.useExperiment;
-        michal = {};
-        entity = 'isRemixANitroPerkHook';
-        michal['location'] = entity;
-        entity = {};
-        oscard = true;
-        entity['autoTrackExposure'] = oscard;
-        entity = tangon.bind(report)(michal, entity);
-        michal = entity.isNitroPerk;
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var3['useCanSeeRemixBadge'] = var4;
+    var4 = function useIsRemixANitroPerk() {
+        var1 = global;
+        var3 = var1.Boolean;
+        var5 = _closure1_slot2;
+        var4 = var5.useExperiment;
+        var2 = {};
+        var1 = 'isRemixANitroPerkHook';
+        var2['location'] = var1;
+        var1 = {};
+        var6 = true;
+        var1['autoTrackExposure'] = var6;
+        var1 = var4.bind(var5)(var2, var1);
+        var2 = var1.isNitroPerk;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    zuuluu['useIsRemixANitroPerk'] = tangon;
-    michal = function() { // Original name: useShouldUpsellRemix
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useIsRemixANitroPerk'] = var4;
+    var2 = function useShouldUpsellRemix() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = arguments[0];
-            oscard = arguments[1];
-            entity = undefined;
-            if(!(report === entity)) { _fun00004_ip = 14; continue _fun00003 }
+            var5 = arguments[0];
+            var6 = arguments[1];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0002_ip = 14; continue _fun0002 }
  12:
-            report = {};
+            var5 = {};
  14:
-            if(!(oscard === entity)) { _fun00004_ip = 20; continue _fun00003 }
+            if(!(var6 === var1)) { _fun0002_ip = 20; continue _fun0002 }
  18:
-            oscard = true;
+            var6 = true;
  20:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            entity = 'useShouldUpsellRemixHook';
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = oscard;
-            entity['trackExposureOptions'] = report;
-            michal = zuuluu.bind(tangon)(michal, entity);
-            entity = michal.canRemix;
-            entity = !entity;
-            if(!entity) { _fun00004_ip = 81; continue _fun00003 }
+            var4 = _closure1_slot2;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var1 = 'useShouldUpsellRemixHook';
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var6;
+            var1['trackExposureOptions'] = var5;
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = var2.canRemix;
+            var1 = !var1;
+            if(!var1) { _fun0002_ip = 81; continue _fun0002 }
  75:
-            entity = michal.isNitroPerk;
+            var1 = var2.isNitroPerk;
  81:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldUpsellRemix'] = michal;
-    return entity;
+    var3['useShouldUpsellRemix'] = var2;
+    return var1;
 })();

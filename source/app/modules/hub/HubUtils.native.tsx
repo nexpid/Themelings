@@ -1,77 +1,77 @@
 // app/modules/hub/HubUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = report[entity];
-    entity = undefined;
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = report[michal];
-    verify = oscard.bind(entity)(michal);
-    option = verify.throttle;
-    golfie = {};
-    michal = false;
-    golfie['trailing'] = michal;
-    oscard = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var5[var1];
+    var1 = undefined;
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var5[var2];
+    var9 = var6.bind(var1)(var2);
+    var8 = var9.throttle;
+    var7 = {};
+    var2 = false;
+    var7['trailing'] = var2;
+    var6 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getInvite;
-            michal = argFoo;
-            michal = michal.code;
-            oscard = zuuluu.bind(tangon)(michal);
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.open;
-            michal = {};
-            report = null;
-            golfie = report != oscard;
-            report = undefined;
-            if(!golfie) { _fun00002_ip = 70; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = var4.getInvite;
+            var2 = arg1;
+            var2 = var2.code;
+            var6 = var3.bind(var4)(var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.open;
+            var2 = {};
+            var5 = null;
+            var7 = var5 != var6;
+            var5 = undefined;
+            if(!var7) { _fun0001_ip = 70; continue _fun0001 }
  67:
-            report = oscard;
+            var5 = var6;
  70:
-            michal['invite'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2['invite'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    michal = 1000;
-    michal = option.bind(verify)(oscard, michal, golfie);
-    var _closure1_slot3 = michal;
-    michal = {};
-    tangon = function(argFoo) { // Original name: onOpenHubInvite
-        zuuluu = _closure1_slot3;
-        entity = undefined;
-        michal = argFoo;
-        michal = zuuluu.bind(entity)(michal);
-        return entity;
+    var2 = 1000;
+    var2 = var8.bind(var9)(var6, var2, var7);
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var4 = function onOpenHubInvite(arg1) {
+        var3 = _closure1_slot3;
+        var1 = undefined;
+        var2 = arg1;
+        var2 = var3.bind(var1)(var2);
+        return var1;
     };
-    michal['onOpenHubInvite'] = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/hub/HubUtils.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['onOpenHubInvite'] = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/hub/HubUtils.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

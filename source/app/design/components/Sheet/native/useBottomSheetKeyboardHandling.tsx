@@ -1,119 +1,119 @@
 // app/design/components/Sheet/native/useBottomSheetKeyboardHandling.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/Sheet/native/useBottomSheetKeyboardHandling.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useBottomSheetKeyboardHandling
-        michal = argFoo;
-        report = michal.onFocus;
-        var _closure2_slot0 = report;
-        oscard = michal.onBlur;
-        var _closure2_slot1 = oscard;
-        golfie = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        golfie = golfie.bind(zuuluu)(tangon);
-        tangon = golfie.useBottomSheetInternal;
-        zuuluu = true;
-        golfie = tangon.bind(golfie)(zuuluu);
-        var _closure2_slot2 = golfie;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(3);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        michal[2] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/Sheet/native/useBottomSheetKeyboardHandling.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useBottomSheetKeyboardHandling(arg1) {
+        var2 = arg1;
+        var5 = var2.onFocus;
+        var _closure2_slot0 = var5;
+        var6 = var2.onBlur;
+        var _closure2_slot1 = var6;
+        var7 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var7 = var7.bind(var3)(var4);
+        var4 = var7.useBottomSheetInternal;
+        var3 = true;
+        var7 = var4.bind(var7)(var3);
+        var _closure2_slot2 = var7;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure2_slot2;
-                entity = null;
-                if(!(entity != tangon)) { _fun00002_ip = 39; continue _fun00001 }
+                var4 = _closure2_slot2;
+                var1 = null;
+                if(!(var1 != var4)) { _fun0001_ip = 39; continue _fun0001 }
  15:
-                entity = {};
-                tangon = function(argFoo) { // Original name: onFocus
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var1 = {};
+                var4 = function onFocus(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        michal = _closure2_slot2;
-                        tangon = michal.shouldHandleKeyboardEvents;
-                        zuuluu = tangon.set;
-                        michal = true;
-                        michal = zuuluu.bind(tangon)(michal);
-                        zuuluu = _closure2_slot0;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 49; continue _fun00003 }
+                        var2 = _closure2_slot2;
+                        var4 = var2.shouldHandleKeyboardEvents;
+                        var3 = var4.set;
+                        var2 = true;
+                        var2 = var3.bind(var4)(var2);
+                        var3 = _closure2_slot0;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0002_ip = 49; continue _fun0002 }
  35:
-                        zuuluu = _closure2_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
+                        var3 = _closure2_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
  49:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity['onFocus'] = tangon;
-                michal = function(argFoo) { // Original name: onBlur
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var1['onFocus'] = var4;
+                var2 = function onBlur(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = _closure2_slot2;
-                        tangon = michal.shouldHandleKeyboardEvents;
-                        zuuluu = tangon.set;
-                        michal = false;
-                        michal = zuuluu.bind(tangon)(michal);
-                        zuuluu = _closure2_slot1;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00006_ip = 49; continue _fun00005 }
+                        var2 = _closure2_slot2;
+                        var4 = var2.shouldHandleKeyboardEvents;
+                        var3 = var4.set;
+                        var2 = false;
+                        var2 = var3.bind(var4)(var2);
+                        var3 = _closure2_slot1;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0003_ip = 49; continue _fun0003 }
  35:
-                        zuuluu = _closure2_slot1;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
+                        var3 = _closure2_slot1;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
  49:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity['onBlur'] = michal;
-                _fun00002_ip = 62; continue _fun00001;
+                var1['onBlur'] = var2;
+                _fun0001_ip = 62; continue _fun0001;
  39:
-                michal = {};
-                tangon = _closure2_slot0;
-                michal['onFocus'] = tangon;
-                zuuluu = _closure2_slot1;
-                michal['onBlur'] = zuuluu;
-                entity = michal;
+                var2 = {};
+                var4 = _closure2_slot0;
+                var2['onFocus'] = var4;
+                var3 = _closure2_slot1;
+                var2['onBlur'] = var3;
+                var1 = var2;
  62:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,312 +1,312 @@
 // app/modules/lurker_mode/LurkerActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    tangon = function() { // Original name: stopLurkingAll
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var4 = function stopLurkingAll() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = tangon;
-    entity = function() { // Original name: _stopLurkingAll
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var4;
+    var1 = function _stopLurkingAll() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    option = argFoo;
+                    var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 169; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 169; continue _fun0001 }
  15:
-                    var _closure4_slot0 = option;
-                    report = _closure1_slot5;
-                    tangon = report.lurkingGuildIds;
-                    oscard = tangon.bind(report)();
-                    report = oscard.filter;
-                    tangon = function(argFoo) {
-                        zuuluu = _closure4_slot0;
-                        michal = zuuluu.includes;
-                        entity = argFoo;
-                        entity = michal.bind(zuuluu)(entity);
-                        entity = !entity;
-                        return entity;
+                    var _closure4_slot0 = var8;
+                    var5 = _closure1_slot5;
+                    var4 = var5.lurkingGuildIds;
+                    var6 = var4.bind(var5)();
+                    var5 = var6.filter;
+                    var4 = function(arg1) {
+                        var3 = _closure4_slot0;
+                        var2 = var3.includes;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = !var1;
+                        return var1;
                     };
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.length;
-                    tangon = 0;
-                    if(!(tangon !== report)) { _fun00002_ip = 161; continue _fun00001 }
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.length;
+                    var4 = 0;
+                    if(!(var4 !== var5)) { _fun0001_ip = 161; continue _fun0001 }
  64:
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = report[zuuluu];
-                    golfie = undefined;
-                    report = tangon.bind(golfie)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    verify = 'GUILD_STOP_LURKING';
-                    zuuluu['type'] = verify;
-                    zuuluu['ignoredGuildIds'] = option;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    zuuluu = global;
-                    tangon = zuuluu.Promise;
-                    zuuluu = tangon.all;
-                    report = oscard.map;
-                    michal = function() {
-                        tangon = _closure1_slot3;
-                        zuuluu = undefined;
-                        michal = function* (argFoo) {
-                            entity = function* (argFoo) { // Original name: ?anon_0_
-                                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var5[var3];
+                    var7 = undefined;
+                    var5 = var4.bind(var7)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var9 = 'GUILD_STOP_LURKING';
+                    var3['type'] = var9;
+                    var3['ignoredGuildIds'] = var8;
+                    var3 = var4.bind(var5)(var3);
+                    var3 = global;
+                    var4 = var3.Promise;
+                    var3 = var4.all;
+                    var5 = var6.map;
+                    var2 = function() {
+                        var4 = _closure1_slot3;
+                        var3 = undefined;
+                        var2 = function* (arg1) {
+                            var1 = function* anon_0_(arg1) {
+                                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00004_ip = 188; continue _fun00003 }
+                                    if(var2) { _fun0002_ip = 188; continue _fun0002 }
  10:
-                                    golfie = argFoo;
-                                    michal = undefined;
-                                    oscard = undefined;
-                                    report = _closure1_slot5;
-                                    tangon = report.getLurkingSource;
-                                    oscard = tangon.bind(report)();
+                                    var7 = arg1;
+                                    var2 = undefined;
+                                    var6 = undefined;
+                                    var5 = _closure1_slot5;
+                                    var4 = var5.getLurkingSource;
+                                    var6 = var4.bind(var5)();
  34: // try_start_0
-                                    report = _closure1_slot0;
-                                    option = _closure1_slot2;
-                                    tangon = 5;
-                                    tangon = option[tangon];
-                                    tangon = report.bind(michal)(tangon);
-                                    option = tangon.HTTP;
-                                    report = option.del;
-                                    tangon = {};
-                                    yankee = _closure1_slot6;
-                                    offset = yankee.GUILD_LEAVE;
-                                    verify = golfie;
-                                    verify = offset.bind(yankee)(verify);
-                                    tangon['url'] = verify;
-                                    offset = {};
-                                    verify = true;
-                                    offset['lurking'] = verify;
-                                    tangon['body'] = offset;
-                                    tangon['oldFormErrors'] = verify;
-                                    tangon['rejectWithError'] = verify;
-                                    tangon = report.bind(option)(tangon);
+                                    var5 = _closure1_slot0;
+                                    var8 = _closure1_slot2;
+                                    var4 = 5;
+                                    var4 = var8[var4];
+                                    var4 = var5.bind(var2)(var4);
+                                    var8 = var4.HTTP;
+                                    var5 = var8.del;
+                                    var4 = {};
+                                    var11 = _closure1_slot6;
+                                    var10 = var11.GUILD_LEAVE;
+                                    var9 = var7;
+                                    var9 = var10.bind(var11)(var9);
+                                    var4['url'] = var9;
+                                    var10 = {};
+                                    var9 = true;
+                                    var10['lurking'] = var9;
+                                    var4['body'] = var10;
+                                    var4['oldFormErrors'] = var9;
+                                    var4['rejectWithError'] = var9;
+                                    var4 = var5.bind(var8)(var4);
                                     SaveGenerator(address=120);
  118:
-                                    return tangon;
+                                    return var4;
  120:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                                    if(report) { _fun00004_ip = 128; continue _fun00003 }
+                                    if(var5) { _fun0002_ip = 128; continue _fun0002 }
  126: // try_end0
-                                    _fun00004_ip = 185; continue _fun00003;
+                                    _fun0002_ip = 185; continue _fun0002;
  128:
-                                    return tangon;
+                                    return var4;
  131: // catch_target0
                                     CatchBlockStart(arg_register=3);
-                                    tangon = _closure1_slot1;
-                                    report = _closure1_slot2;
-                                    zuuluu = 4;
-                                    zuuluu = report[zuuluu];
-                                    report = tangon.bind(michal)(zuuluu);
-                                    tangon = report.dispatch;
-                                    zuuluu = {};
-                                    option = 'GUILD_STOP_LURKING_FAILURE';
-                                    zuuluu['type'] = option;
-                                    zuuluu['lurkingGuildId'] = golfie;
-                                    zuuluu['lurkingSource'] = oscard;
-                                    zuuluu = tangon.bind(report)(zuuluu);
+                                    var4 = _closure1_slot1;
+                                    var5 = _closure1_slot2;
+                                    var3 = 4;
+                                    var3 = var5[var3];
+                                    var5 = var4.bind(var2)(var3);
+                                    var4 = var5.dispatch;
+                                    var3 = {};
+                                    var8 = 'GUILD_STOP_LURKING_FAILURE';
+                                    var3['type'] = var8;
+                                    var3['lurkingGuildId'] = var7;
+                                    var3['lurkingSource'] = var6;
+                                    var3 = var4.bind(var5)(var3);
  185:
-                                    return michal;
+                                    return var2;
  188:
-                                    return entity;
+                                    return var1;
                                 }
                             };
-                            return entity;
+                            return var1;
                         };
-                        michal = tangon.bind(zuuluu)(michal);
-                        var _closure5_slot0 = michal;
-                        entity = function() {
-                            entity = undefined;
-                            tangon = _closure5_slot0;
-                            zuuluu = tangon.apply;
-                            entity = arguments;
-                            michal = entity;
-                            entity = this;
-                            entity = zuuluu.bind(tangon)(entity, michal);
-                            return entity;
+                        var2 = var4.bind(var3)(var2);
+                        var _closure5_slot0 = var2;
+                        var1 = function() {
+                            var1 = undefined;
+                            var4 = _closure5_slot0;
+                            var3 = var4.apply;
+                            var1 = arguments;
+                            var2 = var1;
+                            var1 = this;
+                            var1 = var3.bind(var4)(var1, var2);
+                            return var1;
                         };
-                        return entity;
+                        return var1;
                     };
-                    michal = michal.bind(golfie)();
-                    michal = report.bind(oscard)(michal);
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var2.bind(var7)();
+                    var2 = var5.bind(var6)(var2);
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=155);
  153:
-                    return michal;
+                    return var2;
  155:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 166; continue _fun0001 }
  161:
-                    zuuluu = undefined;
-                    return zuuluu;
+                    var3 = undefined;
+                    return var3;
  166:
-                    return michal;
+                    return var2;
  169:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = function() { // Original name: _stopLurking
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var1;
+    var1 = function _stopLurking() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
-                    report = arguments[0];
+                    var5 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 171; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 171; continue _fun0003 }
  13:
-                    tangon = undefined;
-                    if(!(report === tangon)) { _fun00006_ip = 21; continue _fun00005 }
+                    var4 = undefined;
+                    if(!(var5 === var4)) { _fun0003_ip = 21; continue _fun0003 }
  19:
-                    report = null;
+                    var5 = null;
  21:
                     SaveGenerator(address=25);
  23:
-                    return tangon;
+                    return var4;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 168; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 168; continue _fun0003 }
  34:
-                    golfie = _closure1_slot5;
-                    oscard = golfie.lurkingGuildIds;
-                    golfie = oscard.bind(golfie)();
-                    option = golfie.length;
-                    oscard = 0;
-                    if(!(oscard !== option)) { _fun00006_ip = 162; continue _fun00005 }
+                    var7 = _closure1_slot5;
+                    var6 = var7.lurkingGuildIds;
+                    var7 = var6.bind(var7)();
+                    var8 = var7.length;
+                    var6 = 0;
+                    if(!(var6 !== var8)) { _fun0003_ip = 162; continue _fun0003 }
  62:
-                    oscard = null;
-                    if(!(oscard != report)) { _fun00006_ip = 81; continue _fun00005 }
+                    var6 = null;
+                    if(!(var6 != var5)) { _fun0003_ip = 81; continue _fun0003 }
  68:
-                    oscard = golfie.includes;
-                    oscard = oscard.bind(golfie)(report);
-                    if(oscard) { _fun00006_ip = 162; continue _fun00005 }
+                    var6 = var7.includes;
+                    var6 = var6.bind(var7)(var5);
+                    if(var6) { _fun0003_ip = 162; continue _fun0003 }
  81:
-                    golfie = new Array(2);
-                    golfie[0] = report;
-                    oscard = _closure1_slot4;
-                    report = oscard.getGuildId;
-                    report = report.bind(oscard)();
-                    golfie[1] = report;
-                    oscard = golfie.filter;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    report = 6;
-                    report = verify[report];
-                    report = option.bind(tangon)(report);
-                    report = report.isNotNullish;
-                    report = oscard.bind(golfie)(report);
-                    zuuluu = _closure1_slot7;
-                    zuuluu = zuuluu.bind(tangon)(report);
+                    var7 = new Array(2);
+                    var7[0] = var5;
+                    var6 = _closure1_slot4;
+                    var5 = var6.getGuildId;
+                    var5 = var5.bind(var6)();
+                    var7[1] = var5;
+                    var6 = var7.filter;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var5 = 6;
+                    var5 = var9[var5];
+                    var5 = var8.bind(var4)(var5);
+                    var5 = var5.isNotNullish;
+                    var5 = var6.bind(var7)(var5);
+                    var3 = _closure1_slot7;
+                    var3 = var3.bind(var4)(var5);
                     SaveGenerator(address=156);
  154:
-                    return zuuluu;
+                    return var3;
  156:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 165; continue _fun00005 }
+                    if(var5) { _fun0003_ip = 165; continue _fun0003 }
  162:
-                    return tangon;
+                    return var4;
  165:
-                    return zuuluu;
+                    return var3;
  168:
-                    return michal;
+                    return var2;
  171:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.Endpoints;
-    var _closure1_slot6 = report;
-    report = 7;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/lurker_mode/LurkerActionCreators.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['stopLurkingAll'] = tangon;
-    michal = function() { // Original name: stopLurking
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Endpoints;
+    var _closure1_slot6 = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/lurker_mode/LurkerActionCreators.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['stopLurkingAll'] = var4;
+    var2 = function stopLurking() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['stopLurking'] = michal;
-    return entity;
+    var3['stopLurking'] = var2;
+    return var1;
 })();

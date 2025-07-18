@@ -1,591 +1,591 @@
 // app/modules/webauthn/WebAuthnActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _fetchWebAuthnConditionalChallenge
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchWebAuthnConditionalChallenge() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 91; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 91; continue _fun0001 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.WEBAUTHN_CONDITIONAL_UI_CHALLENGE;
-                    michal['url'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.WEBAUTHN_CONDITIONAL_UI_CHALLENGE;
+                    var2['url'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=74);
  72:
-                    return michal;
+                    return var2;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 88; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 88; continue _fun0001 }
  80:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  88:
-                    return michal;
+                    return var2;
  91:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = function() { // Original name: _fetchWebAuthnPasswordlessChallenge
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function _fetchWebAuthnPasswordlessChallenge() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 115; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 115; continue _fun0002 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.WEBAUTHN_PASSWORDLESS_CHALLENGE;
-                    michal['url'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.WEBAUTHN_PASSWORDLESS_CHALLENGE;
+                    var2['url'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=74);
  72:
-                    return michal;
+                    return var2;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 112; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 112; continue _fun0002 }
  80:
-                    tangon = michal.body;
-                    zuuluu = {};
-                    report = tangon.challenge;
-                    zuuluu['challenge'] = report;
-                    tangon = tangon.ticket;
-                    zuuluu['ticket'] = tangon;
-                    return zuuluu;
+                    var4 = var2.body;
+                    var3 = {};
+                    var5 = var4.challenge;
+                    var3['challenge'] = var5;
+                    var4 = var4.ticket;
+                    var3['ticket'] = var4;
+                    return var3;
  112:
-                    return michal;
+                    return var2;
  115:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function() { // Original name: _deleteWebAuthnCredentialAsync
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _deleteWebAuthnCredentialAsync() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
-                    oscard = argFoo;
+                    var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 120; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 120; continue _fun0003 }
  12:
-                    var _closure4_slot0 = oscard;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 2;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    zuuluu = report.bind(zuuluu)(tangon);
-                    report = zuuluu.HTTP;
-                    tangon = report.del;
-                    zuuluu = {};
-                    option = _closure1_slot4;
-                    golfie = option.MFA_WEBAUTHN_CREDENTIAL;
-                    oscard = oscard.id;
-                    oscard = golfie.bind(option)(oscard);
-                    zuuluu['url'] = oscard;
-                    oscard = false;
-                    zuuluu['rejectWithError'] = oscard;
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = tangon.then;
-                    michal = function() {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 3;
-                        michal = michal[entity];
-                        entity = undefined;
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.dispatch;
-                        michal = {};
-                        report = 'AUTHENTICATOR_DELETE';
-                        michal['type'] = report;
-                        report = _closure4_slot0;
-                        michal['credential'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                    var _closure4_slot0 = var6;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 2;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var3 = var5.bind(var3)(var4);
+                    var5 = var3.HTTP;
+                    var4 = var5.del;
+                    var3 = {};
+                    var8 = _closure1_slot4;
+                    var7 = var8.MFA_WEBAUTHN_CREDENTIAL;
+                    var6 = var6.id;
+                    var6 = var7.bind(var8)(var6);
+                    var3['url'] = var6;
+                    var6 = false;
+                    var3['rejectWithError'] = var6;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = var4.then;
+                    var2 = function() {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 3;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.dispatch;
+                        var2 = {};
+                        var5 = 'AUTHENTICATOR_DELETE';
+                        var2['type'] = var5;
+                        var5 = _closure4_slot0;
+                        var2['credential'] = var5;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=108);
  106:
-                    return michal;
+                    return var2;
  108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 117; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 117; continue _fun0003 }
  114:
-                    return michal;
+                    return var2;
  117:
-                    return michal;
+                    return var2;
  120:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function() { // Original name: _editWebAuthnCredential
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function _editWebAuthnCredential() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 162; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 162; continue _fun0004 }
  10:
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = report.bind(zuuluu)(michal);
-                    oscard = michal.HTTP;
-                    report = oscard.patch;
-                    michal = {};
-                    verify = _closure1_slot4;
-                    option = verify.MFA_WEBAUTHN_CREDENTIAL;
-                    golfie = argFoo;
-                    golfie = option.bind(verify)(golfie);
-                    michal['url'] = golfie;
-                    golfie = {};
-                    option = argBar;
-                    golfie['name'] = option;
-                    michal['body'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = report.bind(oscard)(michal);
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var6 = var2.HTTP;
+                    var5 = var6.patch;
+                    var2 = {};
+                    var9 = _closure1_slot4;
+                    var8 = var9.MFA_WEBAUTHN_CREDENTIAL;
+                    var7 = arg1;
+                    var7 = var8.bind(var9)(var7);
+                    var2['url'] = var7;
+                    var7 = {};
+                    var8 = arg2;
+                    var7['name'] = var8;
+                    var2['body'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=98);
  96:
-                    return michal;
+                    return var2;
  98:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 159; continue _fun00007 }
+                    if(var5) { _fun0004_ip = 159; continue _fun0004 }
  104:
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 3;
-                    tangon = oscard[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    golfie = 'AUTHENTICATOR_UPDATE';
-                    tangon['type'] = golfie;
-                    golfie = michal.body;
-                    tangon['credential'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 3;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var7 = 'AUTHENTICATOR_UPDATE';
+                    var4['type'] = var7;
+                    var7 = var2.body;
+                    var4['credential'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  159:
-                    return michal;
+                    return var2;
  162:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = function() { // Original name: _startRegisterWebAuthnCredential
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot8 = var1;
+    var1 = function _startRegisterWebAuthnCredential() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 121; continue _fun00009 }
+                    if(var2) { _fun0005_ip = 121; continue _fun0005 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.MFA_WEBAUTHN_CREDENTIALS;
-                    michal['url'] = report;
-                    report = {};
-                    michal['body'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.MFA_WEBAUTHN_CREDENTIALS;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var2['body'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=80);
  78:
-                    return michal;
+                    return var2;
  80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 118; continue _fun00009 }
+                    if(var3) { _fun0005_ip = 118; continue _fun0005 }
  86:
-                    tangon = michal.body;
-                    zuuluu = {};
-                    report = tangon.ticket;
-                    zuuluu['ticket'] = report;
-                    tangon = tangon.challenge;
-                    zuuluu['challenge'] = tangon;
-                    return zuuluu;
+                    var4 = var2.body;
+                    var3 = {};
+                    var5 = var4.ticket;
+                    var3['ticket'] = var5;
+                    var4 = var4.challenge;
+                    var3['challenge'] = var4;
+                    return var3;
  118:
-                    return michal;
+                    return var2;
  121:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    entity = function() { // Original name: _finishRegisterWebAuthnCredential
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot9 = var1;
+    var1 = function _finishRegisterWebAuthnCredential() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 252; continue _fun00011 }
+                    if(var2) { _fun0006_ip = 252; continue _fun0006 }
  10:
-                    report = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    michal = 4;
-                    michal = offset[michal];
-                    zuuluu = undefined;
-                    oscard = report.bind(zuuluu)(michal);
-                    report = oscard.post;
-                    michal = {};
-                    golfie = _closure1_slot4;
-                    golfie = golfie.MFA_WEBAUTHN_CREDENTIALS;
-                    michal['url'] = golfie;
-                    golfie = {};
-                    option = argFoo;
-                    golfie['name'] = option;
-                    option = argBar;
-                    golfie['ticket'] = option;
-                    option = argBaz;
-                    golfie['credential'] = option;
-                    michal['body'] = golfie;
-                    golfie = {};
-                    verify = _closure1_slot0;
-                    option = 5;
-                    option = offset[option];
-                    option = verify.bind(zuuluu)(option);
-                    option = option.NetworkActionNames;
-                    option = option.WEBAUTHN_REGISTER;
-                    golfie['event'] = option;
-                    michal['trackedActionData'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = report.bind(oscard)(michal);
+                    var5 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var10[var2];
+                    var3 = undefined;
+                    var6 = var5.bind(var3)(var2);
+                    var5 = var6.post;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var7 = var7.MFA_WEBAUTHN_CREDENTIALS;
+                    var2['url'] = var7;
+                    var7 = {};
+                    var8 = arg1;
+                    var7['name'] = var8;
+                    var8 = arg2;
+                    var7['ticket'] = var8;
+                    var8 = arg3;
+                    var7['credential'] = var8;
+                    var2['body'] = var7;
+                    var7 = {};
+                    var9 = _closure1_slot0;
+                    var8 = 5;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var3)(var8);
+                    var8 = var8.NetworkActionNames;
+                    var8 = var8.WEBAUTHN_REGISTER;
+                    var7['event'] = var8;
+                    var2['trackedActionData'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var5.bind(var6)(var2);
                     SaveGenerator(address=141);
  139:
-                    return michal;
+                    return var2;
  141:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00012_ip = 249; continue _fun00011 }
+                    if(var5) { _fun0006_ip = 249; continue _fun0006 }
  147:
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    tangon = 3;
-                    golfie = oscard[tangon];
-                    verify = report.bind(zuuluu)(golfie);
-                    option = verify.dispatch;
-                    golfie = {};
-                    offset = 'AUTHENTICATOR_CREATE';
-                    golfie['type'] = offset;
-                    offset = michal.body;
-                    golfie['credential'] = offset;
-                    golfie = option.bind(verify)(golfie);
-                    tangon = oscard[tangon];
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    golfie = 'MFA_ENABLE_SUCCESS';
-                    tangon['type'] = golfie;
-                    golfie = michal.body;
-                    golfie = golfie.backup_codes;
-                    tangon['codes'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
-                    return zuuluu;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 3;
+                    var7 = var6[var4];
+                    var9 = var5.bind(var3)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var10 = 'AUTHENTICATOR_CREATE';
+                    var7['type'] = var10;
+                    var10 = var2.body;
+                    var7['credential'] = var10;
+                    var7 = var8.bind(var9)(var7);
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var7 = 'MFA_ENABLE_SUCCESS';
+                    var4['type'] = var7;
+                    var7 = var2.body;
+                    var7 = var7.backup_codes;
+                    var4['codes'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    return var3;
  249:
-                    return michal;
+                    return var2;
  252:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot10 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/webauthn/WebAuthnActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: fetchWebAuthnConditionalChallenge
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/webauthn/WebAuthnActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function fetchWebAuthnConditionalChallenge() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchWebAuthnConditionalChallenge'] = tangon;
-    tangon = function() { // Original name: fetchWebAuthnPasswordlessChallenge
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['fetchWebAuthnConditionalChallenge'] = var4;
+    var4 = function fetchWebAuthnPasswordlessChallenge() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchWebAuthnPasswordlessChallenge'] = tangon;
-    tangon = function() { // Original name: fetchWebAuthnCredentials
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        tangon = michal.HTTP;
-        zuuluu = tangon.get;
-        michal = {};
-        report = _closure1_slot4;
-        report = report.MFA_WEBAUTHN_CREDENTIALS;
-        michal['url'] = report;
-        report = true;
-        michal['rejectWithError'] = report;
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.then;
-        michal = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'MFA_WEBAUTHN_CREDENTIALS_LOADED';
-            michal['type'] = report;
-            report = argFoo;
-            report = report.body;
-            michal['credentials'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+    var3['fetchWebAuthnPasswordlessChallenge'] = var4;
+    var4 = function fetchWebAuthnCredentials() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var4 = var2.HTTP;
+        var3 = var4.get;
+        var2 = {};
+        var5 = _closure1_slot4;
+        var5 = var5.MFA_WEBAUTHN_CREDENTIALS;
+        var2['url'] = var5;
+        var5 = true;
+        var2['rejectWithError'] = var5;
+        var4 = var3.bind(var4)(var2);
+        var3 = var4.then;
+        var2 = function(arg1) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'MFA_WEBAUTHN_CREDENTIALS_LOADED';
+            var2['type'] = var5;
+            var5 = arg1;
+            var5 = var5.body;
+            var2['credentials'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['fetchWebAuthnCredentials'] = tangon;
-    tangon = function(argFoo) { // Original name: deleteWebAuthnCredential
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        entity = 2;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        zuuluu = tangon.bind(entity)(zuuluu);
-        report = zuuluu.HTTP;
-        tangon = report.del;
-        zuuluu = {};
-        option = _closure1_slot4;
-        golfie = option.MFA_WEBAUTHN_CREDENTIAL;
-        oscard = oscard.id;
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['url'] = oscard;
-        oscard = true;
-        zuuluu['rejectWithError'] = oscard;
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = tangon.then;
-        michal = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'AUTHENTICATOR_DELETE';
-            michal['type'] = report;
-            report = _closure2_slot0;
-            michal['credential'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+    var3['fetchWebAuthnCredentials'] = var4;
+    var4 = function deleteWebAuthnCredential(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var3 = var4.bind(var1)(var3);
+        var5 = var3.HTTP;
+        var4 = var5.del;
+        var3 = {};
+        var8 = _closure1_slot4;
+        var7 = var8.MFA_WEBAUTHN_CREDENTIAL;
+        var6 = var6.id;
+        var6 = var7.bind(var8)(var6);
+        var3['url'] = var6;
+        var6 = true;
+        var3['rejectWithError'] = var6;
+        var4 = var4.bind(var5)(var3);
+        var3 = var4.then;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'AUTHENTICATOR_DELETE';
+            var2['type'] = var5;
+            var5 = _closure2_slot0;
+            var2['credential'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['deleteWebAuthnCredential'] = tangon;
-    tangon = function() { // Original name: deleteWebAuthnCredentialAsync
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['deleteWebAuthnCredential'] = var4;
+    var4 = function deleteWebAuthnCredentialAsync() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['deleteWebAuthnCredentialAsync'] = tangon;
-    tangon = function() { // Original name: editWebAuthnCredential
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['deleteWebAuthnCredentialAsync'] = var4;
+    var4 = function editWebAuthnCredential() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['editWebAuthnCredential'] = tangon;
-    tangon = function() { // Original name: startRegisterWebAuthnCredential
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['editWebAuthnCredential'] = var4;
+    var4 = function startRegisterWebAuthnCredential() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['startRegisterWebAuthnCredential'] = tangon;
-    michal = function() { // Original name: finishRegisterWebAuthnCredential
-        entity = undefined;
-        tangon = _closure1_slot10;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['startRegisterWebAuthnCredential'] = var4;
+    var2 = function finishRegisterWebAuthnCredential() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['finishRegisterWebAuthnCredential'] = michal;
-    return entity;
+    var3['finishRegisterWebAuthnCredential'] = var2;
+    return var1;
 })();

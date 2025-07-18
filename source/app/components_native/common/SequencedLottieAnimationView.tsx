@@ -1,351 +1,351 @@
 // app/components_native/common/SequencedLottieAnimationView.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot11 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot11 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = ['source', 'style'];
-    var _closure1_slot2 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    tangon = {};
-    golfie = true;
-    tangon['value'] = golfie;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    option = 7;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.View;
-    var _closure1_slot9 = option;
-    option = 8;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.jsx;
-    var _closure1_slot10 = option;
-    tangon = tangon.PureComponent;
-    michal = function(argFoo) {
-        tangon = function(argFoo) { // Original name: SequencedLottieAnimationView
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot11 = var1;
+    var1 = ['source', 'style'];
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var4 = {};
+    var7 = true;
+    var4['value'] = var7;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.View;
+    var _closure1_slot9 = var8;
+    var8 = 8;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.jsx;
+    var _closure1_slot10 = var8;
+    var4 = var4.PureComponent;
+    var2 = function(arg1) {
+        var4 = function SequencedLottieAnimationView(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                report = this;
-                foxtra = 0;
-                entity = copyRestArgs(foxtra);
-                option = _closure1_slot4;
-                zuuluu = _closure2_slot0;
-                tangon = undefined;
-                option = option.bind(tangon)(report, zuuluu);
-                offset = new Array(0);
-                foxtra = offset;
-                romeon = entity;
-                yankee = 0;
-                entity = arraySpread(foxtra, romeon, yankee);
-                entity = _closure1_slot7;
-                verify = entity.bind(tangon)(zuuluu);
-                zuuluu = _closure1_slot6;
-                entity = _closure1_slot11;
-                entity = entity.bind(tangon)();
-                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+                var5 = this;
+                var13 = 0;
+                var1 = copyRestArgs(var13);
+                var8 = _closure1_slot4;
+                var3 = _closure2_slot0;
+                var4 = undefined;
+                var8 = var8.bind(var4)(var5, var3);
+                var10 = new Array(0);
+                var13 = var10;
+                var12 = var1;
+                var11 = 0;
+                var1 = arraySpread(var13, var12, var11);
+                var1 = _closure1_slot7;
+                var9 = var1.bind(var4)(var3);
+                var3 = _closure1_slot6;
+                var1 = _closure1_slot11;
+                var1 = var1.bind(var4)();
+                if(var1) { _fun0002_ip = 86; continue _fun0002 }
  73:
-                entity = verify.apply;
-                entity = entity.bind(verify)(report, offset);
-                _fun00004_ip = 120; continue _fun00003;
+                var1 = var9.apply;
+                var1 = var1.bind(var9)(var5, var10);
+                _fun0002_ip = 120; continue _fun0002;
  86:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot7;
-                oscard = oscard.bind(tangon)(report);
-                oscard = oscard.constructor;
-                entity = golfie.bind(option)(verify, offset, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot7;
+                var6 = var6.bind(var4)(var5);
+                var6 = var6.constructor;
+                var1 = var7.bind(var8)(var9, var10, var6);
  120:
-                entity = zuuluu.bind(tangon)(report, entity);
-                var _closure3_slot0 = entity;
-                zuuluu = null;
-                entity['animationRef'] = zuuluu;
-                zuuluu = entity.props;
-                zuuluu = zuuluu.nextScene;
-                entity['currentScene'] = zuuluu;
-                zuuluu = false;
-                entity['isUnmounted'] = zuuluu;
-                zuuluu = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var1 = var3.bind(var4)(var5, var1);
+                var _closure3_slot0 = var1;
+                var3 = null;
+                var1['animationRef'] = var3;
+                var3 = var1.props;
+                var3 = var3.nextScene;
+                var1['currentScene'] = var3;
+                var3 = false;
+                var1['isUnmounted'] = var3;
+                var3 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = _closure3_slot0;
-                        michal = michal.props;
-                        zuuluu = michal.onSceneComplete;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00006_ip = 41; continue _fun00005 }
+                        var2 = _closure3_slot0;
+                        var2 = var2.props;
+                        var3 = var2.onSceneComplete;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0003_ip = 41; continue _fun0003 }
  24:
-                        entity = _closure3_slot0;
-                        michal = entity.currentScene;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
+                        var1 = _closure3_slot0;
+                        var2 = var1.currentScene;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
  41:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity['handleComplete'] = zuuluu;
-                michal = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = argFoo;
-                    michal['animationRef'] = entity;
-                    entity = undefined;
-                    return entity;
+                var1['handleComplete'] = var3;
+                var2 = function(arg1) {
+                    var2 = _closure3_slot0;
+                    var1 = arg1;
+                    var2['animationRef'] = var1;
+                    var1 = undefined;
+                    return var1;
                 };
-                entity['handleSetRef'] = michal;
-                return entity;
+                var1['handleSetRef'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot8;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot5;
-        report = {};
-        entity = 'componentDidMount';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            zuuluu = this;
-            entity = zuuluu.props;
-            michal = entity.nextScene;
-            entity = zuuluu.playScene;
-            entity = entity.bind(zuuluu)(michal);
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot8;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot5;
+        var5 = {};
+        var1 = 'componentDidMount';
+        var5['key'] = var1;
+        var1 = function value() {
+            var3 = this;
+            var1 = var3.props;
+            var2 = var1.nextScene;
+            var1 = var3.playScene;
+            var1 = var1.bind(var3)(var2);
+            var1 = undefined;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(4);
-        entity[0] = report;
-        report = {};
-        golfie = 'componentDidUpdate';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var1;
+        var1 = new Array(4);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'componentDidUpdate';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = this;
-                entity = zuuluu.props;
-                michal = entity.nextScene;
-                entity = zuuluu.currentScene;
-                if(!(michal !== entity)) { _fun00008_ip = 35; continue _fun00007 }
+                var3 = this;
+                var1 = var3.props;
+                var2 = var1.nextScene;
+                var1 = var3.currentScene;
+                if(!(var2 !== var1)) { _fun0004_ip = 35; continue _fun0004 }
  24:
-                entity = zuuluu.playScene;
-                entity = entity.bind(zuuluu)(michal);
+                var1 = var3.playScene;
+                var1 = var1.bind(var3)(var2);
  35:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'playScene';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'playScene';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                michal = argFoo;
-                entity = this;
-                zuuluu = entity.props;
-                report = zuuluu.sceneSegments;
-                zuuluu = report[michal];
-                tangon = entity.currentScene;
-                oscard = report[tangon];
-                report = entity.animationRef;
-                tangon = null;
-                tangon = tangon == report;
-                if(tangon) { _fun00010_ip = 97; continue _fun00009 }
+                var2 = arg1;
+                var1 = this;
+                var3 = var1.props;
+                var5 = var3.sceneSegments;
+                var3 = var5[var2];
+                var4 = var1.currentScene;
+                var6 = var5[var4];
+                var5 = var1.animationRef;
+                var4 = null;
+                var4 = var4 == var5;
+                if(var4) { _fun0005_ip = 97; continue _fun0005 }
  46:
-                report = entity.currentScene;
-                report = michal !== report;
-                if(!report) { _fun00010_ip = 75; continue _fun00009 }
+                var5 = var1.currentScene;
+                var5 = var2 !== var5;
+                if(!var5) { _fun0005_ip = 75; continue _fun0005 }
  59:
-                option = zuuluu.BEG;
-                golfie = oscard.BEG;
-                report = option === golfie;
+                var8 = var3.BEG;
+                var7 = var6.BEG;
+                var5 = var8 === var7;
  75:
-                if(!report) { _fun00010_ip = 94; continue _fun00009 }
+                if(!var5) { _fun0005_ip = 94; continue _fun0005 }
  78:
-                golfie = zuuluu.END;
-                oscard = oscard.END;
-                report = golfie === oscard;
+                var7 = var3.END;
+                var6 = var6.END;
+                var5 = var7 === var6;
  94:
-                tangon = report;
+                var4 = var5;
  97:
-                if(tangon) { _fun00010_ip = 130; continue _fun00009 }
+                if(var4) { _fun0005_ip = 130; continue _fun0005 }
  100:
-                oscard = entity.animationRef;
-                report = oscard.play;
-                tangon = zuuluu.BEG;
-                zuuluu = zuuluu.END;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
+                var6 = var1.animationRef;
+                var5 = var6.play;
+                var4 = var3.BEG;
+                var3 = var3.END;
+                var3 = var5.bind(var6)(var4, var3);
  130:
-                entity['currentScene'] = michal;
-                entity = undefined;
-                return entity;
+                var1['currentScene'] = var2;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'render';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'render';
+        var5['key'] = var7;
+        var6 = function value() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                golfie = this;
-                zuuluu = golfie.props;
-                verify = zuuluu.source;
-                offset = zuuluu.style;
-                michal = _closure1_slot3;
-                entity = _closure1_slot2;
-                tangon = undefined;
-                option = michal.bind(tangon)(zuuluu, entity);
-                zuuluu = 'object';
-                michal = typeof verify;
-                entity = undefined;
-                if(!(zuuluu === michal)) { _fun00012_ip = 80; continue _fun00011 }
+                var7 = this;
+                var3 = var7.props;
+                var9 = var3.source;
+                var10 = var3.style;
+                var2 = _closure1_slot3;
+                var1 = _closure1_slot2;
+                var4 = undefined;
+                var8 = var2.bind(var4)(var3, var1);
+                var3 = 'object';
+                var2 = typeof var9;
+                var1 = undefined;
+                if(!(var3 === var2)) { _fun0006_ip = 80; continue _fun0006 }
  50:
-                michal = verify.uri;
-                entity = undefined;
-                if(michal) { _fun00012_ip = 80; continue _fun00011 }
+                var2 = var9.uri;
+                var1 = undefined;
+                if(var2) { _fun0006_ip = 80; continue _fun0006 }
  61:
-                michal = global;
-                zuuluu = michal.JSON;
-                michal = zuuluu.stringify;
-                entity = michal.bind(zuuluu)(verify);
+                var2 = global;
+                var3 = var2.JSON;
+                var2 = var3.stringify;
+                var1 = var2.bind(var3)(var9);
  80:
-                yankee = undefined;
-                if(!(yankee !== entity)) { _fun00012_ip = 110; continue _fun00011 }
+                var11 = undefined;
+                if(!(var11 !== var1)) { _fun0006_ip = 110; continue _fun0006 }
  86:
-                entity = {};
-                zuuluu = verify.w;
-                michal = verify.h;
-                michal = zuuluu / michal;
-                entity['aspectRatio'] = michal;
-                yankee = entity;
+                var1 = {};
+                var3 = var9.w;
+                var2 = var9.h;
+                var2 = var3 / var2;
+                var1['aspectRatio'] = var2;
+                var11 = var1;
  110:
-                zuuluu = _closure1_slot10;
-                michal = _closure1_slot9;
-                entity = {};
-                oscard = new Array(2);
-                oscard[0] = yankee;
-                oscard[1] = offset;
-                entity['style'] = oscard;
-                oscard = _closure1_slot0;
-                romeon = _closure1_slot1;
-                report = 9;
-                report = romeon[report];
-                oscard = oscard.bind(tangon)(report);
-                report = {};
-                report['source'] = verify;
-                verify = new Array(2);
-                verify[0] = yankee;
-                verify[1] = offset;
-                report['style'] = verify;
-                backup = report;
-                foxtra = option;
-                option = copyDataProperties(backup, foxtra);
-                verify = golfie.handleSetRef;
-                option = 'ref';
-                report[option] = verify;
-                option = golfie.handleComplete;
-                golfie = 'onAnimationFinish';
-                report[golfie] = option;
-                report = zuuluu.bind(tangon)(oscard, report);
-                entity['children'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var3 = _closure1_slot10;
+                var2 = _closure1_slot9;
+                var1 = {};
+                var6 = new Array(2);
+                var6[0] = var11;
+                var6[1] = var10;
+                var1['style'] = var6;
+                var6 = _closure1_slot0;
+                var12 = _closure1_slot1;
+                var5 = 9;
+                var5 = var12[var5];
+                var6 = var6.bind(var4)(var5);
+                var5 = {};
+                var5['source'] = var9;
+                var9 = new Array(2);
+                var9[0] = var11;
+                var9[1] = var10;
+                var5['style'] = var9;
+                var14 = var5;
+                var13 = var8;
+                var8 = copyDataProperties(var14, var13);
+                var9 = var7.handleSetRef;
+                var8 = 'ref';
+                var5[var8] = var9;
+                var8 = var7.handleComplete;
+                var7 = 'onAnimationFinish';
+                var5[var7] = var8;
+                var5 = var3.bind(var4)(var6, var5);
+                var1['children'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
-        report['value'] = oscard;
-        entity[3] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[3] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = {};
-    tangon['autoPlay'] = golfie;
-    michal['defaultProps'] = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/common/SequencedLottieAnimationView.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = {};
+    var4['autoPlay'] = var7;
+    var2['defaultProps'] = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/common/SequencedLottieAnimationView.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

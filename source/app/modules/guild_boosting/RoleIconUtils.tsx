@@ -1,293 +1,293 @@
 // app/modules/guild_boosting/RoleIconUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    tangon = global;
-    verify = tangon.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    option = golfie.Endpoints;
-    var _closure1_slot3 = option;
-    golfie = golfie.GuildFeatures;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.location;
-    sizing = golfie.protocol;
-    golfie = tangon.window;
-    golfie = golfie.GLOBAL_ENV;
-    backup = golfie.CDN_HOST;
-    golfie = tangon.HermesInternal;
-    offset = golfie.concat;
-    verify = '';
-    kiloes = '//';
-    foxtra = '/role-icons';
-    output = verify;
-    golfie = output[offset](sizing, kiloes, backup, foxtra, romeon);
-    var _closure1_slot5 = golfie;
-    golfie = tangon.location;
-    option = golfie.protocol;
-    golfie = tangon.window;
-    golfie = golfie.GLOBAL_ENV;
-    golfie = golfie.API_ENDPOINT;
-    tangon = tangon.HermesInternal;
-    tangon = tangon.concat;
-    tangon = tangon.bind(verify)(option, golfie);
-    var _closure1_slot6 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    golfie = report.bind(entity)(tangon);
-    tangon = golfie.isAndroid;
-    tangon = tangon.bind(golfie)();
-    var _closure1_slot7 = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getRoleIconSource
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var8 = var7.Endpoints;
+    var _closure1_slot3 = var8;
+    var7 = var7.GuildFeatures;
+    var _closure1_slot4 = var7;
+    var7 = var4.location;
+    var16 = var7.protocol;
+    var7 = var4.window;
+    var7 = var7.GLOBAL_ENV;
+    var14 = var7.CDN_HOST;
+    var7 = var4.HermesInternal;
+    var10 = var7.concat;
+    var9 = '';
+    var15 = '//';
+    var13 = '/role-icons';
+    var17 = var9;
+    var7 = var17[var10](var16, var15, var14, var13, var12);
+    var _closure1_slot5 = var7;
+    var7 = var4.location;
+    var8 = var7.protocol;
+    var7 = var4.window;
+    var7 = var7.GLOBAL_ENV;
+    var7 = var7.API_ENDPOINT;
+    var4 = var4.HermesInternal;
+    var4 = var4.concat;
+    var4 = var4.bind(var9)(var8, var7);
+    var _closure1_slot6 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var7 = var5.bind(var1)(var4);
+    var4 = var7.isAndroid;
+    var4 = var4.bind(var7)();
+    var _closure1_slot7 = var4;
+    var4 = function getRoleIconSource(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = argBar;
-            romeon = entity.id;
-            entity = entity.icon;
-            report = null;
-            if(!(report == entity)) { _fun00002_ip = 26; continue _fun00001 }
+            var1 = arg1;
+            var7 = arg2;
+            var12 = var1.id;
+            var1 = var1.icon;
+            var5 = null;
+            if(!(var5 == var1)) { _fun0001_ip = 26; continue _fun0001 }
  22:
-            michal = undefined;
-            return michal;
+            var2 = undefined;
+            return var2;
  26:
-            zuuluu = entity.startsWith;
-            michal = 'data:';
-            michal = zuuluu.bind(entity)(michal);
-            if(michal) { _fun00002_ip = 332; continue _fun00001 }
+            var3 = var1.startsWith;
+            var2 = 'data:';
+            var2 = var3.bind(var1)(var2);
+            if(var2) { _fun0001_ip = 332; continue _fun0001 }
  49:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            backup = undefined;
-            michal = zuuluu.bind(backup)(michal);
-            michal = michal.SUPPORTS_WEBP;
-            yankee = 'png';
-            if(!michal) { _fun00002_ip = 95; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var14 = undefined;
+            var2 = var3.bind(var14)(var2);
+            var2 = var2.SUPPORTS_WEBP;
+            var11 = 'png';
+            if(!var2) { _fun0001_ip = 95; continue _fun0001 }
  89:
-            yankee = 'webp';
+            var11 = 'webp';
  95:
-            michal = report != golfie;
-            offset = '';
-            verify = 'quality=lossless';
-            option = offset;
-            if(!michal) { _fun00002_ip = 201; continue _fun00001 }
+            var2 = var5 != var7;
+            var10 = '';
+            var9 = 'quality=lossless';
+            var8 = var10;
+            if(!var2) { _fun0001_ip = 201; continue _fun0001 }
  115:
-            foxtra = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            michal = 3;
-            zuuluu = kiloes[michal];
-            oscard = foxtra.bind(backup)(zuuluu);
-            zuuluu = oscard.getBestMediaProxySize;
-            michal = kiloes[michal];
-            foxtra = foxtra.bind(backup)(michal);
-            michal = foxtra.getDevicePixelRatio;
-            michal = michal.bind(foxtra)();
-            michal = golfie * michal;
-            zuuluu = zuuluu.bind(oscard)(michal);
-            michal = 'size=';
-            zuuluu = michal + zuuluu;
-            oscard = _closure1_slot7;
-            michal = offset;
-            if(oscard) { _fun00002_ip = 195; continue _fun00001 }
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var2 = 3;
+            var3 = var15[var2];
+            var6 = var13.bind(var14)(var3);
+            var3 = var6.getBestMediaProxySize;
+            var2 = var15[var2];
+            var13 = var13.bind(var14)(var2);
+            var2 = var13.getDevicePixelRatio;
+            var2 = var2.bind(var13)();
+            var2 = var7 * var2;
+            var3 = var3.bind(var6)(var2);
+            var2 = 'size=';
+            var3 = var2 + var3;
+            var6 = _closure1_slot7;
+            var2 = var10;
+            if(var6) { _fun0001_ip = 195; continue _fun0001 }
  189:
-            michal = '&quality=lossless';
+            var2 = '&quality=lossless';
  195:
-            verify = michal;
-            option = zuuluu;
+            var9 = var2;
+            var8 = var3;
  201:
-            zuuluu = global;
-            michal = zuuluu.window;
-            michal = michal.GLOBAL_ENV;
-            michal = michal.CDN_HOST;
-            if(!(report == michal)) { _fun00002_ip = 275; continue _fun00001 }
+            var3 = global;
+            var2 = var3.window;
+            var2 = var2.GLOBAL_ENV;
+            var2 = var2.CDN_HOST;
+            if(!(var5 == var2)) { _fun0001_ip = 275; continue _fun0001 }
  225:
-            golfie = _closure1_slot6;
-            report = _closure1_slot3;
-            michal = report.ROLE_ICON;
-            sequen = michal.bind(report)(romeon, entity);
-            michal = zuuluu.HermesInternal;
-            report = michal.concat;
-            vacuum = '?';
-            record = offset;
-            config = golfie;
-            ctrled = option;
-            michal = record[report](config, sequen, vacuum, ctrled, source);
-            _fun00002_ip = 330; continue _fun00001;
+            var7 = _closure1_slot6;
+            var5 = _closure1_slot3;
+            var2 = var5.ROLE_ICON;
+            var24 = var2.bind(var5)(var12, var1);
+            var2 = var3.HermesInternal;
+            var5 = var2.concat;
+            var23 = '?';
+            var26 = var10;
+            var25 = var7;
+            var22 = var8;
+            var2 = var26[var5](var25, var24, var23, var22, var21);
+            _fun0001_ip = 330; continue _fun0001;
  275:
-            config = _closure1_slot5;
-            zuuluu = zuuluu.HermesInternal;
-            oscard = zuuluu.concat;
-            report = '/';
-            update = '.';
-            result = '?';
-            record = offset;
-            sequen = report;
-            vacuum = romeon;
-            ctrled = report;
-            source = entity;
-            echoed = yankee;
-            output = option;
-            sizing = verify;
-            michal = record[oscard](config, sequen, vacuum, ctrled, source, update, echoed, result, output, sizing, kiloes);
+            var25 = _closure1_slot5;
+            var3 = var3.HermesInternal;
+            var6 = var3.concat;
+            var5 = '/';
+            var20 = '.';
+            var18 = '?';
+            var26 = var10;
+            var24 = var5;
+            var23 = var12;
+            var22 = var5;
+            var21 = var1;
+            var19 = var11;
+            var17 = var8;
+            var16 = var9;
+            var2 = var26[var6](var25, var24, var23, var22, var21, var20, var19, var18, var17, var16, var15);
  330:
-            return michal;
+            return var2;
  332:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_boosting/RoleIconUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_boosting/RoleIconUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            entity = null;
-            if(!(entity != golfie)) { _fun00004_ip = 134; continue _fun00003 }
+            var7 = arg1;
+            var1 = null;
+            if(!(var1 != var7)) { _fun0002_ip = 134; continue _fun0002 }
  12:
-            michal = golfie.unicodeEmoji;
-            michal = entity != michal;
-            zuuluu = undefined;
-            tangon = undefined;
-            if(!michal) { _fun00004_ip = 92; continue _fun00003 }
+            var2 = var7.unicodeEmoji;
+            var2 = var1 != var2;
+            var3 = undefined;
+            var4 = undefined;
+            if(!var2) { _fun0002_ip = 92; continue _fun0002 }
  29:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            michal = 2;
-            report = verify[michal];
-            oscard = option.bind(zuuluu)(report);
-            report = oscard.getByName;
-            michal = verify[michal];
-            offset = option.bind(zuuluu)(michal);
-            verify = offset.convertSurrogateToName;
-            option = golfie.unicodeEmoji;
-            michal = false;
-            michal = verify.bind(offset)(option, michal);
-            tangon = report.bind(oscard)(michal);
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 2;
+            var5 = var9[var2];
+            var6 = var8.bind(var3)(var5);
+            var5 = var6.getByName;
+            var2 = var9[var2];
+            var10 = var8.bind(var3)(var2);
+            var9 = var10.convertSurrogateToName;
+            var8 = var7.unicodeEmoji;
+            var2 = false;
+            var2 = var9.bind(var10)(var8, var2);
+            var4 = var5.bind(var6)(var2);
  92:
-            michal = {};
-            oscard = _closure1_slot8;
-            report = argBar;
-            report = oscard.bind(zuuluu)(golfie, report);
-            michal['customIconSrc'] = report;
-            report = entity != tangon;
-            zuuluu = undefined;
-            if(!report) { _fun00004_ip = 127; continue _fun00003 }
+            var2 = {};
+            var6 = _closure1_slot8;
+            var5 = arg2;
+            var5 = var6.bind(var3)(var7, var5);
+            var2['customIconSrc'] = var5;
+            var5 = var1 != var4;
+            var3 = undefined;
+            if(!var5) { _fun0002_ip = 127; continue _fun0002 }
  124:
-            zuuluu = tangon;
+            var3 = var4;
  127:
-            michal['unicodeEmoji'] = zuuluu;
-            return michal;
+            var2['unicodeEmoji'] = var3;
+            return var2;
  134:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getRoleIconData'] = tangon;
-    tangon = function(argFoo, argBar) {
-        tangon = argFoo;
-        zuuluu = tangon.replace;
-        golfie = _closure1_slot0;
-        option = _closure1_slot2;
-        entity = 3;
-        michal = option[entity];
-        oscard = undefined;
-        report = golfie.bind(oscard)(michal);
-        michal = report.getBestMediaProxySize;
-        entity = option[entity];
-        oscard = golfie.bind(oscard)(entity);
-        entity = oscard.getDevicePixelRatio;
-        oscard = entity.bind(oscard)();
-        entity = argBar;
-        entity = entity * oscard;
-        report = michal.bind(report)(entity);
-        entity = global;
-        entity = entity.HermesInternal;
-        michal = entity.concat;
-        entity = 'size=';
-        michal = michal.bind(entity)(report);
-        entity = /size=[0-9]+/g;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getRoleIconData'] = var4;
+    var4 = function(arg1, arg2) {
+        var4 = arg1;
+        var3 = var4.replace;
+        var7 = _closure1_slot0;
+        var8 = _closure1_slot2;
+        var1 = 3;
+        var2 = var8[var1];
+        var6 = undefined;
+        var5 = var7.bind(var6)(var2);
+        var2 = var5.getBestMediaProxySize;
+        var1 = var8[var1];
+        var6 = var7.bind(var6)(var1);
+        var1 = var6.getDevicePixelRatio;
+        var6 = var1.bind(var6)();
+        var1 = arg2;
+        var1 = var1 * var6;
+        var5 = var2.bind(var5)(var1);
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var2 = var1.concat;
+        var1 = 'size=';
+        var2 = var2.bind(var1)(var5);
+        var1 = /size=[0-9]+/g;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['replaceRoleIconSourceSize'] = tangon;
-    tangon = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['replaceRoleIconSourceSize'] = var4;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            zuuluu = report.startsWith;
-            entity = _closure1_slot5;
-            entity = zuuluu.bind(report)(entity);
-            if(entity) { _fun00006_ip = 90; continue _fun00005 }
+            var5 = arg1;
+            var3 = var5.startsWith;
+            var1 = _closure1_slot5;
+            var1 = var3.bind(var5)(var1);
+            if(var1) { _fun0003_ip = 90; continue _fun0003 }
  24:
-            zuuluu = report.startsWith;
-            golfie = _closure1_slot6;
-            michal = global;
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
-            tangon = '';
-            michal = '/roles';
-            michal = oscard.bind(tangon)(golfie, michal);
-            michal = zuuluu.bind(report)(michal);
-            if(!michal) { _fun00006_ip = 87; continue _fun00005 }
+            var3 = var5.startsWith;
+            var7 = _closure1_slot6;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var6 = var2.concat;
+            var4 = '';
+            var2 = '/roles';
+            var2 = var6.bind(var4)(var7, var2);
+            var2 = var3.bind(var5)(var2);
+            if(!var2) { _fun0003_ip = 87; continue _fun0003 }
  71:
-            tangon = report.includes;
-            zuuluu = '/icons/';
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.includes;
+            var3 = '/icons/';
+            var2 = var4.bind(var5)(var3);
  87:
-            entity = michal;
+            var1 = var2;
  90:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isRoleIconAssetUrl'] = tangon;
-    michal = function(argFoo, argBar) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isRoleIconAssetUrl'] = var4;
+    var2 = function(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argBar;
-            michal = null;
-            tangon = michal == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00008_ip = 35; continue _fun00007 }
+            var3 = arg2;
+            var2 = null;
+            var4 = var2 == var3;
+            var1 = undefined;
+            if(var4) { _fun0004_ip = 35; continue _fun0004 }
  14:
-            zuuluu = zuuluu.tags;
-            tangon = michal == zuuluu;
-            entity = undefined;
-            if(tangon) { _fun00008_ip = 35; continue _fun00007 }
+            var3 = var3.tags;
+            var4 = var2 == var3;
+            var1 = undefined;
+            if(var4) { _fun0004_ip = 35; continue _fun0004 }
  29:
-            entity = zuuluu.subscription_listing_id;
+            var1 = var3.subscription_listing_id;
  35:
-            entity = michal != entity;
-            if(entity) { _fun00008_ip = 74; continue _fun00007 }
+            var1 = var2 != var1;
+            if(var1) { _fun0004_ip = 74; continue _fun0004 }
  42:
-            michal = argFoo;
-            tangon = michal.features;
-            zuuluu = tangon.has;
-            michal = _closure1_slot4;
-            michal = michal.ROLE_ICONS;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = arg1;
+            var4 = var2.features;
+            var3 = var4.has;
+            var2 = _closure1_slot4;
+            var2 = var2.ROLE_ICONS;
+            var1 = var3.bind(var4)(var2);
  74:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canGuildUseRoleIcons'] = michal;
-    return entity;
+    var3['canGuildUseRoleIcons'] = var2;
+    return var1;
 })();

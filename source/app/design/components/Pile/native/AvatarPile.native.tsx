@@ -1,116 +1,116 @@
 // app/design/components/Pile/native/AvatarPile.native.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/Pile/native/AvatarPile.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: AvatarPile
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot3 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot4 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/Pile/native/AvatarPile.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function AvatarPile(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.size;
-            yankee = entity.totalCount;
-            sizing = entity.names;
-            oscard = entity.children;
-            entity = _closure1_slot2;
-            zuuluu = entity.Children;
-            entity = zuuluu.count;
-            offset = entity.bind(zuuluu)(oscard);
-            verify = _closure1_slot0;
-            backup = _closure1_slot1;
-            foxtra = 2;
-            entity = backup[foxtra];
-            tangon = undefined;
-            entity = verify.bind(tangon)(entity);
-            entity = entity.AVATAR_SIZE_MAP;
-            romeon = entity[michal];
-            zuuluu = _closure1_slot4;
-            report = 3;
-            entity = backup[report];
-            entity = verify.bind(tangon)(entity);
-            michal = entity.Pile;
-            entity = {};
-            option = 4;
-            option = backup[option];
-            kiloes = verify.bind(tangon)(option);
-            option = kiloes.getListSummaryLabel;
-            option = option.bind(kiloes)(sizing, yankee);
-            entity['aria-label'] = option;
-            option = 5;
-            option = backup[option];
-            option = verify.bind(tangon)(option);
-            option = option.CutoutShape;
-            option = option.Circle;
-            entity['shape'] = option;
-            entity['size'] = romeon;
-            option = 40;
-            option = romeon <= option;
-            if(!option) { _fun00002_ip = 178; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.size;
+            var11 = var1.totalCount;
+            var16 = var1.names;
+            var6 = var1.children;
+            var1 = _closure1_slot2;
+            var3 = var1.Children;
+            var1 = var3.count;
+            var10 = var1.bind(var3)(var6);
+            var9 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var13 = 2;
+            var1 = var14[var13];
+            var4 = undefined;
+            var1 = var9.bind(var4)(var1);
+            var1 = var1.AVATAR_SIZE_MAP;
+            var12 = var1[var2];
+            var3 = _closure1_slot4;
+            var5 = 3;
+            var1 = var14[var5];
+            var1 = var9.bind(var4)(var1);
+            var2 = var1.Pile;
+            var1 = {};
+            var8 = 4;
+            var8 = var14[var8];
+            var15 = var9.bind(var4)(var8);
+            var8 = var15.getListSummaryLabel;
+            var8 = var8.bind(var15)(var16, var11);
+            var1['aria-label'] = var8;
+            var8 = 5;
+            var8 = var14[var8];
+            var8 = var9.bind(var4)(var8);
+            var8 = var8.CutoutShape;
+            var8 = var8.Circle;
+            var1['shape'] = var8;
+            var1['size'] = var12;
+            var8 = 40;
+            var8 = var12 <= var8;
+            if(!var8) { _fun0001_ip = 178; continue _fun0001 }
  175:
-            report = foxtra;
+            var5 = var13;
  178:
-            entity['gap'] = report;
-            report = 0.4;
-            entity['depthX'] = report;
-            report = new Array(2);
-            report[0] = oscard;
-            oscard = null;
-            oscard = oscard != yankee;
-            if(!oscard) { _fun00002_ip = 219; continue _fun00001 }
+            var1['gap'] = var5;
+            var5 = 0.4;
+            var1['depthX'] = var5;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = null;
+            var6 = var6 != var11;
+            if(!var6) { _fun0001_ip = 219; continue _fun0001 }
  215:
-            oscard = offset < yankee;
+            var6 = var10 < var11;
  219:
-            if(!oscard) { _fun00002_ip = 280; continue _fun00001 }
+            if(!var6) { _fun0001_ip = 280; continue _fun0001 }
  222:
-            verify = _closure1_slot3;
-            option = _closure1_slot0;
-            backup = _closure1_slot1;
-            golfie = 6;
-            golfie = backup[golfie];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.PileOverflow;
-            golfie = {};
-            golfie['size'] = romeon;
-            romeon = romeon / foxtra;
-            golfie['borderRadius'] = romeon;
-            offset = yankee - offset;
-            golfie['value'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot3;
+            var8 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var7 = 6;
+            var7 = var14[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.PileOverflow;
+            var7 = {};
+            var7['size'] = var12;
+            var12 = var12 / var13;
+            var7['borderRadius'] = var12;
+            var10 = var11 - var10;
+            var7['value'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  280:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['AvatarPile'] = michal;
-    return entity;
+    var3['AvatarPile'] = var2;
+    return var1;
 })();

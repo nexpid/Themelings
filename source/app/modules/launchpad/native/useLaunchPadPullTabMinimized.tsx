@@ -1,207 +1,207 @@
 // app/modules/launchpad/native/useLaunchPadPullTabMinimized.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        var _closure1_slot1 = oscard;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, tangon);
-        entity = 0;
-        golfie = oscard[entity];
-        tangon = argCor;
-        entity = undefined;
-        tangon = tangon.bind(entity)(golfie);
-        var _closure1_slot2 = tangon;
-        tangon = 1;
-        tangon = oscard[tangon];
-        tangon = report.bind(entity)(tangon);
-        verify = tangon.NativeEventEmitter;
-        tangon = tangon.NativeModules;
-        golfie = tangon.DCDScrollTracker;
-        tangon = undefined;
-        if(!golfie) { _fun00002_ip = 131; continue _fun00001 }
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var6;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var4);
+        var1 = 0;
+        var7 = var6[var1];
+        var4 = native4;
+        var1 = undefined;
+        var4 = var4.bind(var1)(var7);
+        var _closure1_slot2 = var4;
+        var4 = 1;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var9 = var4.NativeEventEmitter;
+        var4 = var4.NativeModules;
+        var7 = var4.DCDScrollTracker;
+        var4 = undefined;
+        if(!var7) { _fun0001_ip = 131; continue _fun0001 }
  108:
-        option = verify.prototype;
-        option = Object.create(option, {constructor: {value: verify}});
-        foxtra = option;
-        romeon = golfie;
-        golfie = new foxtra[verify](romeon, yankee);
-        tangon = golfie instanceof Object ? golfie : option;
+        var8 = var9.prototype;
+        var8 = Object.create(var8, {constructor: {value: var9}});
+        var13 = var8;
+        var12 = var7;
+        var7 = new var13[var9](var12, var11);
+        var4 = var7 instanceof Object ? var7 : var8;
  131:
-        var _closure1_slot3 = tangon;
-        tangon = {};
-        golfie = 'function useLaunchPadPullTabMinimizedTsx1(){const{launchPadPullTabState,isVoicePanelOpen,launchPadSharedState,isMinimizedDuringScroll}=this.__closure;const isMinimized=(launchPadPullTabState.get().minimized||isVoicePanelOpen)&&launchPadSharedState.get()<=0;return isMinimized||isMinimizedDuringScroll.get();}';
-        tangon['code'] = golfie;
-        var _closure1_slot4 = tangon;
-        tangon = 4;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/launchpad/native/useLaunchPadPullTabMinimized.tsx';
-        tangon = report.bind(oscard)(tangon);
-        michal = function(argFoo) { // Original name: useLaunchPadPullTabMinimized
-            michal = argFoo;
-            golfie = michal.launchPadSharedState;
-            var _closure2_slot0 = golfie;
-            verify = michal.launchPadPullTabState;
-            var _closure2_slot1 = verify;
-            report = _closure1_slot0;
-            offset = _closure1_slot1;
-            michal = 3;
-            michal = offset[michal];
-            zuuluu = undefined;
-            oscard = report.bind(zuuluu)(michal);
-            michal = oscard.useIsVoicePanelFullscreen;
-            option = michal.bind(oscard)();
-            var _closure2_slot2 = option;
-            michal = function() { // Original name: useIsMinimizedDuringScroll
-                report = _closure1_slot0;
-                tangon = _closure1_slot1;
-                entity = 2;
-                tangon = tangon[entity];
-                entity = undefined;
-                report = report.bind(entity)(tangon);
-                tangon = report.useSharedValue;
-                entity = false;
-                entity = tangon.bind(report)(entity);
-                var _closure3_slot0 = entity;
-                report = _closure1_slot2;
-                tangon = report.useEffect;
-                zuuluu = new Array(1);
-                zuuluu[0] = entity;
-                michal = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure1_slot3 = var4;
+        var4 = {};
+        var7 = 'function useLaunchPadPullTabMinimizedTsx1(){const{launchPadPullTabState,isVoicePanelOpen,launchPadSharedState,isMinimizedDuringScroll}=this.__closure;const isMinimized=(launchPadPullTabState.get().minimized||isVoicePanelOpen)&&launchPadSharedState.get()<=0;return isMinimized||isMinimizedDuringScroll.get();}';
+        var4['code'] = var7;
+        var _closure1_slot4 = var4;
+        var4 = 4;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/launchpad/native/useLaunchPadPullTabMinimized.tsx';
+        var4 = var5.bind(var6)(var4);
+        var2 = function useLaunchPadPullTabMinimized(arg1) {
+            var2 = arg1;
+            var7 = var2.launchPadSharedState;
+            var _closure2_slot0 = var7;
+            var9 = var2.launchPadPullTabState;
+            var _closure2_slot1 = var9;
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var2 = 3;
+            var2 = var10[var2];
+            var3 = undefined;
+            var6 = var5.bind(var3)(var2);
+            var2 = var6.useIsVoicePanelFullscreen;
+            var8 = var2.bind(var6)();
+            var _closure2_slot2 = var8;
+            var2 = function useIsMinimizedDuringScroll() {
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var1 = 2;
+                var4 = var4[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var4);
+                var4 = var5.useSharedValue;
+                var1 = false;
+                var1 = var4.bind(var5)(var1);
+                var _closure3_slot0 = var1;
+                var5 = _closure1_slot2;
+                var4 = var5.useEffect;
+                var3 = new Array(1);
+                var3[0] = var1;
+                var2 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        michal = -1;
-                        var _closure4_slot0 = michal;
-                        tangon = _closure1_slot3;
-                        michal = null;
-                        tangon = michal == tangon;
-                        michal = undefined;
-                        if(tangon) { _fun00004_ip = 59; continue _fun00003 }
+                        var2 = -1;
+                        var _closure4_slot0 = var2;
+                        var4 = _closure1_slot3;
+                        var2 = null;
+                        var4 = var2 == var4;
+                        var2 = undefined;
+                        if(var4) { _fun0002_ip = 59; continue _fun0002 }
  30:
-                        oscard = _closure1_slot3;
-                        report = oscard.addListener;
-                        tangon = 'isScrollingOrDragging';
-                        zuuluu = function(argFoo) {
-                            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                        var6 = _closure1_slot3;
+                        var5 = var6.addListener;
+                        var4 = 'isScrollingOrDragging';
+                        var3 = function(arg1) {
+                            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                                entity = argFoo;
-                                tangon = entity.isScrollingOrDragging;
-                                michal = global;
-                                oscard = michal.clearTimeout;
-                                report = _closure4_slot0;
-                                entity = undefined;
-                                report = oscard.bind(entity)(report);
-                                if(tangon) { _fun00006_ip = 69; continue _fun00005 }
+                                var1 = arg1;
+                                var4 = var1.isScrollingOrDragging;
+                                var2 = global;
+                                var6 = var2.clearTimeout;
+                                var5 = _closure4_slot0;
+                                var1 = undefined;
+                                var5 = var6.bind(var1)(var5);
+                                if(var4) { _fun0003_ip = 69; continue _fun0003 }
  36:
-                                report = michal.setTimeout;
-                                tangon = function() {
-                                    zuuluu = _closure3_slot0;
-                                    michal = zuuluu.set;
-                                    entity = false;
-                                    entity = michal.bind(zuuluu)(entity);
-                                    entity = undefined;
-                                    return entity;
+                                var5 = var2.setTimeout;
+                                var4 = function() {
+                                    var3 = _closure3_slot0;
+                                    var2 = var3.set;
+                                    var1 = false;
+                                    var1 = var2.bind(var3)(var1);
+                                    var1 = undefined;
+                                    return var1;
                                 };
-                                michal = 1000;
-                                michal = report.bind(entity)(tangon, michal);
-                                _closure4_slot0 = michal;
-                                _fun00006_ip = 88; continue _fun00005;
+                                var2 = 1000;
+                                var2 = var5.bind(var1)(var4, var2);
+                                _closure4_slot0 = var2;
+                                _fun0003_ip = 88; continue _fun0003;
  69:
-                                tangon = _closure3_slot0;
-                                zuuluu = tangon.set;
-                                michal = true;
-                                michal = zuuluu.bind(tangon)(michal);
+                                var4 = _closure3_slot0;
+                                var3 = var4.set;
+                                var2 = true;
+                                var2 = var3.bind(var4)(var2);
  88:
-                                return entity;
+                                return var1;
                             }
                         };
-                        michal = report.bind(oscard)(tangon, zuuluu);
+                        var2 = var5.bind(var6)(var4, var3);
  59:
-                        var _closure4_slot1 = michal;
-                        entity = function() {
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                        var _closure4_slot1 = var2;
+                        var1 = function() {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                entity = global;
-                                tangon = entity.clearTimeout;
-                                zuuluu = _closure4_slot0;
-                                entity = undefined;
-                                zuuluu = tangon.bind(entity)(zuuluu);
-                                tangon = _closure4_slot1;
-                                zuuluu = null;
-                                if(!(zuuluu != tangon)) { _fun00008_ip = 46; continue _fun00007 }
+                                var1 = global;
+                                var4 = var1.clearTimeout;
+                                var3 = _closure4_slot0;
+                                var1 = undefined;
+                                var3 = var4.bind(var1)(var3);
+                                var4 = _closure4_slot1;
+                                var3 = null;
+                                if(!(var3 != var4)) { _fun0004_ip = 46; continue _fun0004 }
  32:
-                                zuuluu = _closure4_slot1;
-                                michal = zuuluu.remove;
-                                michal = michal.bind(zuuluu)();
+                                var3 = _closure4_slot1;
+                                var2 = var3.remove;
+                                var2 = var2.bind(var3)();
  46:
-                                return entity;
+                                return var1;
                             }
                         };
-                        return entity;
+                        return var1;
                     }
                 };
-                michal = tangon.bind(report)(michal, zuuluu);
-                return entity;
+                var2 = var4.bind(var5)(var2, var3);
+                return var1;
             };
-            oscard = michal.bind(zuuluu)();
-            var _closure2_slot3 = oscard;
-            michal = 2;
-            michal = offset[michal];
-            zuuluu = report.bind(zuuluu)(michal);
-            michal = zuuluu.useDerivedValue;
-            entity = function() { // Original name: u
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var6 = var2.bind(var3)();
+            var _closure2_slot3 = var6;
+            var2 = 2;
+            var2 = var10[var2];
+            var3 = var5.bind(var3)(var2);
+            var2 = var3.useDerivedValue;
+            var1 = function u() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = zuuluu.get;
-                    entity = entity.bind(zuuluu)();
-                    entity = entity.minimized;
-                    if(entity) { _fun00010_ip = 29; continue _fun00009 }
+                    var3 = _closure2_slot1;
+                    var1 = var3.get;
+                    var1 = var1.bind(var3)();
+                    var1 = var1.minimized;
+                    if(var1) { _fun0005_ip = 29; continue _fun0005 }
  25:
-                    entity = _closure2_slot2;
+                    var1 = _closure2_slot2;
  29:
-                    if(!entity) { _fun00010_ip = 51; continue _fun00009 }
+                    if(!var1) { _fun0005_ip = 51; continue _fun0005 }
  32:
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.get;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = 0;
-                    entity = tangon <= zuuluu;
+                    var4 = _closure2_slot0;
+                    var3 = var4.get;
+                    var4 = var3.bind(var4)();
+                    var3 = 0;
+                    var1 = var4 <= var3;
  51:
-                    if(entity) { _fun00010_ip = 67; continue _fun00009 }
+                    if(var1) { _fun0005_ip = 67; continue _fun0005 }
  54:
-                    zuuluu = _closure2_slot3;
-                    michal = zuuluu.get;
-                    entity = michal.bind(zuuluu)();
+                    var3 = _closure2_slot3;
+                    var2 = var3.get;
+                    var1 = var2.bind(var3)();
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            report = {};
-            report['launchPadPullTabState'] = verify;
-            report['isVoicePanelOpen'] = option;
-            report['launchPadSharedState'] = golfie;
-            report['isMinimizedDuringScroll'] = oscard;
-            entity['__closure'] = report;
-            report = 14263056934448.0;
-            entity['__workletHash'] = report;
-            tangon = _closure1_slot4;
-            entity['__initData'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = {};
+            var5['launchPadPullTabState'] = var9;
+            var5['isVoicePanelOpen'] = var8;
+            var5['launchPadSharedState'] = var7;
+            var5['isMinimizedDuringScroll'] = var6;
+            var1['__closure'] = var5;
+            var5 = 14263056934448.0;
+            var1['__workletHash'] = var5;
+            var4 = _closure1_slot4;
+            var1['__initData'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        zuuluu['default'] = michal;
-        return entity;
+        var3['default'] = var2;
+        return var1;
     }
 })();

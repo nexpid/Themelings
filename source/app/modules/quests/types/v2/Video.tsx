@@ -1,189 +1,189 @@
 // app/modules/quests/types/v2/Video.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = function(argFoo) { // Original name: videoAssetFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.url;
-        entity['url'] = zuuluu;
-        zuuluu = michal.width;
-        entity['width'] = zuuluu;
-        zuuluu = michal.height;
-        entity['height'] = zuuluu;
-        zuuluu = michal.thumbnail;
-        entity['thumbnail'] = zuuluu;
-        zuuluu = michal.caption;
-        entity['caption'] = zuuluu;
-        michal = michal.transcript;
-        entity['transcript'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = function videoAssetFromServer(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.url;
+        var1['url'] = var3;
+        var3 = var2.width;
+        var1['width'] = var3;
+        var3 = var2.height;
+        var1['height'] = var3;
+        var3 = var2.thumbnail;
+        var1['thumbnail'] = var3;
+        var3 = var2.caption;
+        var1['caption'] = var3;
+        var2 = var2.transcript;
+        var1['transcript'] = var2;
+        return var1;
     };
-    var _closure1_slot0 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/quests/types/v2/Video.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: questVideoMetadataFromServer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot0 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/quests/types/v2/Video.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function questVideoMetadataFromServer(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 13; continue _fun00001 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 13; continue _fun0001 }
  9:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  13:
-            entity = {};
-            michal = {};
-            tangon = zuuluu.messages;
-            tangon = tangon.video_title;
-            michal['videoTitle'] = tangon;
-            tangon = zuuluu.messages;
-            tangon = tangon.video_end_cta_title;
-            michal['videoEndCtaTitle'] = tangon;
-            tangon = zuuluu.messages;
-            tangon = tangon.video_end_cta_subtitle;
-            michal['videoEndCtaSubtitle'] = tangon;
-            tangon = zuuluu.messages;
-            tangon = tangon.video_end_cta_button_label;
-            michal['videoEndCtaButtonLabel'] = tangon;
-            entity['messages'] = michal;
-            michal = {};
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_video;
-            michal['videoPlayerVideo'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_video_hls;
-            michal['videoPlayerVideoHls'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_thumbnail;
-            michal['videoPlayerThumbnail'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_video_low_res;
-            michal['videoPlayerVideoLowRes'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_caption;
-            michal['videoPlayerCaption'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.video_player_transcript;
-            michal['videoPlayerTranscript'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.quest_bar_preview_video;
-            michal['questBarPreviewVideo'] = tangon;
-            tangon = zuuluu.assets;
-            tangon = tangon.quest_bar_preview_thumbnail;
-            michal['questBarPreviewThumbnail'] = tangon;
-            zuuluu = zuuluu.assets;
-            zuuluu = zuuluu.quest_home_video;
-            michal['questHomeVideo'] = zuuluu;
-            entity['assets'] = michal;
-            return entity;
+            var1 = {};
+            var2 = {};
+            var4 = var3.messages;
+            var4 = var4.video_title;
+            var2['videoTitle'] = var4;
+            var4 = var3.messages;
+            var4 = var4.video_end_cta_title;
+            var2['videoEndCtaTitle'] = var4;
+            var4 = var3.messages;
+            var4 = var4.video_end_cta_subtitle;
+            var2['videoEndCtaSubtitle'] = var4;
+            var4 = var3.messages;
+            var4 = var4.video_end_cta_button_label;
+            var2['videoEndCtaButtonLabel'] = var4;
+            var1['messages'] = var2;
+            var2 = {};
+            var4 = var3.assets;
+            var4 = var4.video_player_video;
+            var2['videoPlayerVideo'] = var4;
+            var4 = var3.assets;
+            var4 = var4.video_player_video_hls;
+            var2['videoPlayerVideoHls'] = var4;
+            var4 = var3.assets;
+            var4 = var4.video_player_thumbnail;
+            var2['videoPlayerThumbnail'] = var4;
+            var4 = var3.assets;
+            var4 = var4.video_player_video_low_res;
+            var2['videoPlayerVideoLowRes'] = var4;
+            var4 = var3.assets;
+            var4 = var4.video_player_caption;
+            var2['videoPlayerCaption'] = var4;
+            var4 = var3.assets;
+            var4 = var4.video_player_transcript;
+            var2['videoPlayerTranscript'] = var4;
+            var4 = var3.assets;
+            var4 = var4.quest_bar_preview_video;
+            var2['questBarPreviewVideo'] = var4;
+            var4 = var3.assets;
+            var4 = var4.quest_bar_preview_thumbnail;
+            var2['questBarPreviewThumbnail'] = var4;
+            var3 = var3.assets;
+            var3 = var3.quest_home_video;
+            var2['questHomeVideo'] = var3;
+            var1['assets'] = var2;
+            return var1;
         }
     };
-    zuuluu['questVideoMetadataFromServer'] = report;
-    zuuluu['videoAssetFromServer'] = tangon;
-    tangon = function(argFoo) { // Original name: desktopVideoAssetsFromServer
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['questVideoMetadataFromServer'] = var5;
+    var3['videoAssetFromServer'] = var4;
+    var4 = function desktopVideoAssetsFromServer(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = {};
-            oscard = _closure1_slot0;
-            report = michal.video;
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
-            entity['video'] = report;
-            report = michal.video_low_res;
-            oscard = null;
-            if(!(oscard != report)) { _fun00004_ip = 63; continue _fun00003 }
+            var2 = arg1;
+            var1 = {};
+            var6 = _closure1_slot0;
+            var5 = var2.video;
+            var4 = undefined;
+            var5 = var6.bind(var4)(var5);
+            var1['video'] = var5;
+            var5 = var2.video_low_res;
+            var6 = null;
+            if(!(var6 != var5)) { _fun0002_ip = 63; continue _fun0002 }
  42:
-            golfie = _closure1_slot0;
-            report = michal.video_low_res;
-            report = golfie.bind(tangon)(report);
-            entity['videoLowRes'] = report;
+            var7 = _closure1_slot0;
+            var5 = var2.video_low_res;
+            var5 = var7.bind(var4)(var5);
+            var1['videoLowRes'] = var5;
  63:
-            report = michal.video_hls;
-            if(!(oscard != report)) { _fun00004_ip = 94; continue _fun00003 }
+            var5 = var2.video_hls;
+            if(!(var6 != var5)) { _fun0002_ip = 94; continue _fun0002 }
  73:
-            zuuluu = _closure1_slot0;
-            michal = michal.video_hls;
-            michal = zuuluu.bind(tangon)(michal);
-            entity['videoHls'] = michal;
+            var3 = _closure1_slot0;
+            var2 = var2.video_hls;
+            var2 = var3.bind(var4)(var2);
+            var1['videoHls'] = var2;
  94:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['desktopVideoAssetsFromServer'] = tangon;
-    tangon = function(argFoo) { // Original name: desktopVideoMessagesFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.video_title;
-        entity['videoTitle'] = zuuluu;
-        zuuluu = michal.video_end_cta_title;
-        entity['videoEndCtaTitle'] = zuuluu;
-        zuuluu = michal.video_end_cta_subtitle;
-        entity['videoEndCtaSubtitle'] = zuuluu;
-        michal = michal.video_end_cta_button_label;
-        entity['videoEndCtaButtonLabel'] = michal;
-        return entity;
+    var3['desktopVideoAssetsFromServer'] = var4;
+    var4 = function desktopVideoMessagesFromServer(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.video_title;
+        var1['videoTitle'] = var3;
+        var3 = var2.video_end_cta_title;
+        var1['videoEndCtaTitle'] = var3;
+        var3 = var2.video_end_cta_subtitle;
+        var1['videoEndCtaSubtitle'] = var3;
+        var2 = var2.video_end_cta_button_label;
+        var1['videoEndCtaButtonLabel'] = var2;
+        return var1;
     };
-    zuuluu['desktopVideoMessagesFromServer'] = tangon;
-    tangon = function(argFoo) { // Original name: mobileVideoAssetsFromServer
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['desktopVideoMessagesFromServer'] = var4;
+    var4 = function mobileVideoAssetsFromServer(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = {};
-            oscard = _closure1_slot0;
-            report = michal.video;
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
-            entity['video'] = report;
-            report = michal.video_low_res;
-            oscard = null;
-            if(!(oscard != report)) { _fun00006_ip = 63; continue _fun00005 }
+            var2 = arg1;
+            var1 = {};
+            var6 = _closure1_slot0;
+            var5 = var2.video;
+            var4 = undefined;
+            var5 = var6.bind(var4)(var5);
+            var1['video'] = var5;
+            var5 = var2.video_low_res;
+            var6 = null;
+            if(!(var6 != var5)) { _fun0003_ip = 63; continue _fun0003 }
  42:
-            golfie = _closure1_slot0;
-            report = michal.video_low_res;
-            report = golfie.bind(tangon)(report);
-            entity['videoLowRes'] = report;
+            var7 = _closure1_slot0;
+            var5 = var2.video_low_res;
+            var5 = var7.bind(var4)(var5);
+            var1['videoLowRes'] = var5;
  63:
-            report = michal.video_hls;
-            if(!(oscard != report)) { _fun00006_ip = 94; continue _fun00005 }
+            var5 = var2.video_hls;
+            if(!(var6 != var5)) { _fun0003_ip = 94; continue _fun0003 }
  73:
-            zuuluu = _closure1_slot0;
-            michal = michal.video_hls;
-            michal = zuuluu.bind(tangon)(michal);
-            entity['videoHls'] = michal;
+            var3 = _closure1_slot0;
+            var2 = var2.video_hls;
+            var2 = var3.bind(var4)(var2);
+            var1['videoHls'] = var2;
  94:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['mobileVideoAssetsFromServer'] = tangon;
-    michal = function(argFoo) { // Original name: mobileVideoMessagesFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.video_title;
-        entity['videoTitle'] = zuuluu;
-        zuuluu = michal.video_end_cta_title;
-        entity['videoEndCtaTitle'] = zuuluu;
-        zuuluu = michal.video_end_cta_subtitle;
-        entity['videoEndCtaSubtitle'] = zuuluu;
-        michal = michal.video_end_cta_button_label;
-        entity['videoEndCtaButtonLabel'] = michal;
-        return entity;
+    var3['mobileVideoAssetsFromServer'] = var4;
+    var2 = function mobileVideoMessagesFromServer(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.video_title;
+        var1['videoTitle'] = var3;
+        var3 = var2.video_end_cta_title;
+        var1['videoEndCtaTitle'] = var3;
+        var3 = var2.video_end_cta_subtitle;
+        var1['videoEndCtaSubtitle'] = var3;
+        var2 = var2.video_end_cta_button_label;
+        var1['videoEndCtaButtonLabel'] = var2;
+        return var1;
     };
-    zuuluu['mobileVideoMessagesFromServer'] = michal;
-    return entity;
+    var3['mobileVideoMessagesFromServer'] = var2;
+    return var1;
 })();

@@ -1,376 +1,376 @@
 // app/modules/links/native/BrowserManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = option;
-    report = function() { // Original name: getBrowserManagerIsChromeInstalled
-        michal = _closure1_slot5;
-        entity = michal.getState;
-        entity = entity.bind(michal)();
-        entity = entity.isChromeInstalled;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
+    var5 = function getBrowserManagerIsChromeInstalled() {
+        var2 = _closure1_slot5;
+        var1 = var2.getState;
+        var1 = var1.bind(var2)();
+        var1 = var1.isChromeInstalled;
+        return var1;
     };
-    var _closure1_slot6 = report;
-    tangon = function() { // Original name: getBrowserManagerSelectedBrowser
-        michal = _closure1_slot5;
-        entity = michal.getState;
-        entity = entity.bind(michal)();
-        entity = entity.selectedBrowser;
-        return entity;
+    var _closure1_slot6 = var5;
+    var4 = function getBrowserManagerSelectedBrowser() {
+        var2 = _closure1_slot5;
+        var1 = var2.getState;
+        var1 = var1.bind(var2)();
+        var1 = var1.selectedBrowser;
+        return var1;
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.NativeModules;
-    var _closure1_slot3 = oscard;
-    oscard = oscard.BrowserManager;
-    var _closure1_slot4 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    offset = golfie.bind(entity)(oscard);
-    verify = offset.create;
-    oscard = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.NativeModules;
+    var _closure1_slot3 = var6;
+    var6 = var6.BrowserManager;
+    var _closure1_slot4 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var10 = var7.bind(var1)(var6);
+    var9 = var10.create;
+    var6 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = {};
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 2;
-            michal = michal[oscard];
-            report = undefined;
-            tangon = tangon.bind(report)(michal);
-            michal = tangon.isAndroid;
-            michal = michal.bind(tangon)();
-            if(michal) { _fun00002_ip = 51; continue _fun00001 }
+            var1 = {};
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 2;
+            var2 = var2[var6];
+            var5 = undefined;
+            var4 = var4.bind(var5)(var2);
+            var2 = var4.isAndroid;
+            var2 = var2.bind(var4)();
+            if(var2) { _fun0001_ip = 51; continue _fun0001 }
  39:
-            michal = _closure1_slot4;
-            michal = michal.isChromeInstalled;
-            _fun00002_ip = 87; continue _fun00001;
+            var2 = _closure1_slot4;
+            var2 = var2.isChromeInstalled;
+            _fun0001_ip = 87; continue _fun0001;
  51:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            tangon = 3;
-            tangon = option[tangon];
-            golfie = golfie.bind(report)(tangon);
-            tangon = golfie.getConstants;
-            tangon = tangon.bind(golfie)();
-            michal = tangon.isChromeInstalled;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var4 = 3;
+            var4 = var8[var4];
+            var7 = var7.bind(var5)(var4);
+            var4 = var7.getConstants;
+            var4 = var4.bind(var7)();
+            var2 = var4.isChromeInstalled;
  87:
-            entity['isChromeInstalled'] = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            tangon = tangon.bind(report)(michal);
-            michal = tangon.isAndroid;
-            michal = michal.bind(tangon)();
-            if(michal) { _fun00002_ip = 133; continue _fun00001 }
+            var1['isChromeInstalled'] = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var4 = var4.bind(var5)(var2);
+            var2 = var4.isAndroid;
+            var2 = var2.bind(var4)();
+            if(var2) { _fun0001_ip = 133; continue _fun0001 }
  121:
-            michal = _closure1_slot4;
-            michal = michal.selectedBrowser;
-            _fun00002_ip = 169; continue _fun00001;
+            var2 = _closure1_slot4;
+            var2 = var2.selectedBrowser;
+            _fun0001_ip = 169; continue _fun0001;
  133:
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.getConstants;
-            zuuluu = zuuluu.bind(tangon)();
-            michal = zuuluu.selectedBrowser;
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 3;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.getConstants;
+            var3 = var3.bind(var4)();
+            var2 = var3.selectedBrowser;
  169:
-            entity['selectedBrowser'] = michal;
-            return entity;
+            var1['selectedBrowser'] = var2;
+            return var1;
         }
     };
-    oscard = verify.bind(offset)(oscard);
-    var _closure1_slot5 = oscard;
-    oscard = 6;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/links/native/BrowserManager.tsx';
-    oscard = golfie.bind(option)(oscard);
-    oscard = function() { // Original name: useBrowserManagerIsChromeInstalled
-        zuuluu = _closure1_slot5;
-        michal = undefined;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.isChromeInstalled;
-            return entity;
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot5 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/links/native/BrowserManager.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function useBrowserManagerIsChromeInstalled() {
+        var3 = _closure1_slot5;
+        var2 = undefined;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.isChromeInstalled;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useBrowserManagerIsChromeInstalled'] = oscard;
-    zuuluu['getBrowserManagerIsChromeInstalled'] = report;
-    report = function() { // Original name: useBrowserManagerSelectedBrowser
-        zuuluu = _closure1_slot5;
-        michal = undefined;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.selectedBrowser;
-            return entity;
+    var3['useBrowserManagerIsChromeInstalled'] = var6;
+    var3['getBrowserManagerIsChromeInstalled'] = var5;
+    var5 = function useBrowserManagerSelectedBrowser() {
+        var3 = _closure1_slot5;
+        var2 = undefined;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.selectedBrowser;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useBrowserManagerSelectedBrowser'] = report;
-    zuuluu['getBrowserManagerSelectedBrowser'] = tangon;
-    tangon = function(argFoo) { // Original name: browserManagerOpenUrl
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useBrowserManagerSelectedBrowser'] = var5;
+    var3['getBrowserManagerSelectedBrowser'] = var4;
+    var4 = function browserManagerOpenUrl(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            golfie = arguments[1];
-            tangon = undefined;
-            if(!(golfie === tangon)) { _fun00004_ip = 23; continue _fun00003 }
+            var3 = arg1;
+            var7 = arguments[1];
+            var4 = undefined;
+            if(!(var7 === var4)) { _fun0002_ip = 23; continue _fun0002 }
  12:
-            entity = _closure1_slot7;
-            golfie = entity.bind(tangon)();
+            var1 = _closure1_slot7;
+            var7 = var1.bind(var4)();
  23:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 4;
-            michal = michal[oscard];
-            michal = report.bind(tangon)(michal);
-            michal = michal.WebBrowserType;
-            michal = michal.SAFARI;
-            if(!(golfie !== michal)) { _fun00004_ip = 400; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 4;
+            var2 = var2[var6];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.WebBrowserType;
+            var2 = var2.SAFARI;
+            if(!(var7 !== var2)) { _fun0002_ip = 400; continue _fun0002 }
  65:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(tangon)(michal);
-            michal = michal.WebBrowserType;
-            michal = michal.CHROME;
-            if(!(golfie === michal)) { _fun00004_ip = 112; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.WebBrowserType;
+            var2 = var2.CHROME;
+            if(!(var7 === var2)) { _fun0002_ip = 112; continue _fun0002 }
  98:
-            michal = _closure1_slot6;
-            michal = michal.bind(tangon)();
-            if(!michal) { _fun00004_ip = 400; continue _fun00003 }
+            var2 = _closure1_slot6;
+            var2 = var2.bind(var4)();
+            if(!var2) { _fun0002_ip = 400; continue _fun0002 }
  112:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(tangon)(michal);
-            michal = michal.WebBrowserType;
-            michal = michal.IN_APP;
-            if(!(golfie !== michal)) { _fun00004_ip = 318; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.WebBrowserType;
+            var2 = var2.IN_APP;
+            if(!(var7 !== var2)) { _fun0002_ip = 318; continue _fun0002 }
  148:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            michal = report.bind(tangon)(michal);
-            michal = michal.WebBrowserType;
-            michal = michal.CHROME;
-            if(!(golfie !== michal)) { _fun00004_ip = 233; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.WebBrowserType;
+            var2 = var2.CHROME;
+            if(!(var7 !== var2)) { _fun0002_ip = 233; continue _fun0002 }
  181:
-            michal = global;
-            oscard = michal.Error;
-            michal = michal.HermesInternal;
-            report = michal.concat;
-            michal = 'Unknown browser type: ';
-            verify = report.bind(michal)(golfie);
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            offset = report;
-            michal = new offset[oscard](verify, option);
-            michal = michal instanceof Object ? michal : report;
-            throw michal;
+            var2 = global;
+            var6 = var2.Error;
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var2 = 'Unknown browser type: ';
+            var9 = var5.bind(var2)(var7);
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var10 = var5;
+            var2 = new var10[var6](var9, var8);
+            var2 = var2 instanceof Object ? var2 : var5;
+            throw var2;
  233:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            report = report.bind(tangon)(michal);
-            michal = report.isAndroid;
-            michal = michal.bind(report)();
-            if(michal) { _fun00004_ip = 285; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.isAndroid;
+            var2 = var2.bind(var5)();
+            if(var2) { _fun0002_ip = 285; continue _fun0002 }
  265:
-            oscard = _closure1_slot4;
-            report = oscard.openInChromeURL;
-            michal = true;
-            michal = report.bind(oscard)(zuuluu, michal);
-            _fun00004_ip = 316; continue _fun00003;
+            var6 = _closure1_slot4;
+            var5 = var6.openInChromeURL;
+            var2 = true;
+            var2 = var5.bind(var6)(var3, var2);
+            _fun0002_ip = 316; continue _fun0002;
  285:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            report = 3;
-            report = golfie[report];
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.openInChromeURL;
-            michal = report.bind(oscard)(zuuluu);
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 3;
+            var5 = var7[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.openInChromeURL;
+            var2 = var5.bind(var6)(var3);
  316:
-            return michal;
+            return var2;
  318:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            report = report.bind(tangon)(michal);
-            michal = report.isAndroid;
-            michal = michal.bind(report)();
-            if(michal) { _fun00004_ip = 367; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.isAndroid;
+            var2 = var2.bind(var5)();
+            if(var2) { _fun0002_ip = 367; continue _fun0002 }
  350:
-            report = _closure1_slot4;
-            michal = report.openInAppURL;
-            michal = michal.bind(report)(zuuluu);
-            _fun00004_ip = 398; continue _fun00003;
+            var5 = _closure1_slot4;
+            var2 = var5.openInAppURL;
+            var2 = var2.bind(var5)(var3);
+            _fun0002_ip = 398; continue _fun0002;
  367:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            report = 3;
-            report = golfie[report];
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.openInAppURL;
-            michal = report.bind(oscard)(zuuluu);
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 3;
+            var5 = var7[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.openInAppURL;
+            var2 = var5.bind(var6)(var3);
  398:
-            return michal;
+            return var2;
  400:
-            michal = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 5;
-            entity = report[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.performURLNavigation;
-            entity = entity.bind(michal)(zuuluu);
-            entity = global;
-            michal = entity.Promise;
-            entity = michal.resolve;
-            entity = entity.bind(michal)();
-            return entity;
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 5;
+            var1 = var5[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.performURLNavigation;
+            var1 = var1.bind(var2)(var3);
+            var1 = global;
+            var2 = var1.Promise;
+            var1 = var2.resolve;
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    zuuluu['browserManagerOpenUrl'] = tangon;
-    tangon = function(argFoo) { // Original name: browserManagerSelectBrowser
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['browserManagerOpenUrl'] = var4;
+    var4 = function browserManagerSelectBrowser(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.isAndroid;
-            zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00006_ip = 66; continue _fun00005 }
+            var5 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isAndroid;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0003_ip = 66; continue _fun0003 }
  40:
-            zuuluu = _closure1_slot3;
-            tangon = zuuluu.BrowserManager;
-            zuuluu = tangon.selectBrowser;
-            zuuluu = zuuluu.bind(tangon)(report);
-            _fun00006_ip = 346; continue _fun00005;
+            var3 = _closure1_slot3;
+            var4 = var3.BrowserManager;
+            var3 = var4.selectBrowser;
+            var3 = var3.bind(var4)(var5);
+            _fun0003_ip = 346; continue _fun0003;
  66:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            oscard = 4;
-            zuuluu = zuuluu[oscard];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.WebBrowserType;
-            zuuluu = zuuluu.SAFARI;
-            if(!(zuuluu !== report)) { _fun00006_ip = 290; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var6 = 4;
+            var3 = var3[var6];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.WebBrowserType;
+            var3 = var3.SAFARI;
+            if(!(var3 !== var5)) { _fun0003_ip = 290; continue _fun0003 }
  105:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[oscard];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.WebBrowserType;
-            zuuluu = zuuluu.IN_APP;
-            if(!(zuuluu !== report)) { _fun00006_ip = 232; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.WebBrowserType;
+            var3 = var3.IN_APP;
+            if(!(var3 !== var5)) { _fun0003_ip = 232; continue _fun0003 }
  138:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[oscard];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.WebBrowserType;
-            zuuluu = zuuluu.CHROME;
-            if(!(zuuluu === report)) { _fun00006_ip = 346; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var6];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.WebBrowserType;
+            var3 = var3.CHROME;
+            if(!(var3 === var5)) { _fun0003_ip = 346; continue _fun0003 }
  174:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 3;
-            tangon = option[zuuluu];
-            oscard = oscard.bind(entity)(tangon);
-            tangon = oscard.selectBrowser;
-            golfie = _closure1_slot0;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.BrowserType;
-            zuuluu = zuuluu.CHROME;
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            _fun00006_ip = 346; continue _fun00005;
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.selectBrowser;
+            var7 = _closure1_slot0;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.BrowserType;
+            var3 = var3.CHROME;
+            var3 = var4.bind(var6)(var3);
+            _fun0003_ip = 346; continue _fun0003;
  232:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 3;
-            tangon = option[zuuluu];
-            oscard = oscard.bind(entity)(tangon);
-            tangon = oscard.selectBrowser;
-            golfie = _closure1_slot0;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.BrowserType;
-            zuuluu = zuuluu.IN_APP;
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            _fun00006_ip = 346; continue _fun00005;
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.selectBrowser;
+            var7 = _closure1_slot0;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.BrowserType;
+            var3 = var3.IN_APP;
+            var3 = var4.bind(var6)(var3);
+            _fun0003_ip = 346; continue _fun0003;
  290:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 3;
-            tangon = option[zuuluu];
-            oscard = oscard.bind(entity)(tangon);
-            tangon = oscard.selectBrowser;
-            golfie = _closure1_slot0;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.BrowserType;
-            zuuluu = zuuluu.SAFARI;
-            zuuluu = tangon.bind(oscard)(zuuluu);
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.selectBrowser;
+            var7 = _closure1_slot0;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.BrowserType;
+            var3 = var3.SAFARI;
+            var3 = var4.bind(var6)(var3);
  346:
-            tangon = _closure1_slot5;
-            zuuluu = tangon.setState;
-            michal = {};
-            michal['selectedBrowser'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var4 = _closure1_slot5;
+            var3 = var4.setState;
+            var2 = {};
+            var2['selectedBrowser'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['browserManagerSelectBrowser'] = tangon;
-    michal = function() { // Original name: browserManagerCloseBrowser
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['browserManagerSelectBrowser'] = var4;
+    var2 = function browserManagerCloseBrowser() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.isAndroid;
-            zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00008_ip = 59; continue _fun00007 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isAndroid;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0004_ip = 59; continue _fun0004 }
  37:
-            michal = _closure1_slot3;
-            zuuluu = michal.BrowserManager;
-            michal = zuuluu.closeBrowser;
-            michal = michal.bind(zuuluu)();
+            var2 = _closure1_slot3;
+            var3 = var2.BrowserManager;
+            var2 = var3.closeBrowser;
+            var2 = var2.bind(var3)();
  59:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['browserManagerCloseBrowser'] = michal;
-    return entity;
+    var3['browserManagerCloseBrowser'] = var2;
+    return var1;
 })();

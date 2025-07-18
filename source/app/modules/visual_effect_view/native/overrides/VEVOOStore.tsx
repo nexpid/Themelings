@@ -1,90 +1,90 @@
 // app/modules/visual_effect_view/native/overrides/VEVOOStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = {};
-    var _closure1_slot2 = entity;
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    option = report.bind(entity)(tangon);
-    golfie = option.create;
-    tangon = function() {
-        entity = _closure1_slot2;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = {};
+    var _closure1_slot2 = var1;
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.create;
+    var4 = function() {
+        var1 = _closure1_slot2;
+        return var1;
     };
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/visual_effect_view/native/overrides/VEVOOStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useVisualEffectViewOverrides
-        michal = _closure1_slot3;
-        entity = undefined;
-        entity = michal.bind(entity)();
-        return entity;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/visual_effect_view/native/overrides/VEVOOStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useVisualEffectViewOverrides() {
+        var2 = _closure1_slot3;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
     };
-    zuuluu['useVisualEffectViewOverrides'] = tangon;
-    tangon = function() { // Original name: getVisualEffectViewOverrides
-        michal = _closure1_slot3;
-        entity = michal.getState;
-        entity = entity.bind(michal)();
-        return entity;
+    var3['useVisualEffectViewOverrides'] = var4;
+    var4 = function getVisualEffectViewOverrides() {
+        var2 = _closure1_slot3;
+        var1 = var2.getState;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    zuuluu['getVisualEffectViewOverrides'] = tangon;
-    tangon = function(argFoo) { // Original name: setVisualEffectViewOverides
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 1;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = _closure2_slot0;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['getVisualEffectViewOverrides'] = var4;
+    var4 = function setVisualEffectViewOverides(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 1;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setVisualEffectViewOverides'] = tangon;
-    michal = function() { // Original name: clearVisualEffectViewOverrides
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = _closure1_slot2;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['setVisualEffectViewOverides'] = var4;
+    var2 = function clearVisualEffectViewOverrides() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = _closure1_slot2;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['clearVisualEffectViewOverrides'] = michal;
-    return entity;
+    var3['clearVisualEffectViewOverrides'] = var2;
+    return var1;
 })();

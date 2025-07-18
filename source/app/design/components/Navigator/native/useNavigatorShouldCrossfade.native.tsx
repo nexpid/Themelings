@@ -1,58 +1,58 @@
 // app/design/components/Navigator/native/useNavigatorShouldCrossfade.native.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/Navigator/native/useNavigatorShouldCrossfade.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useNavigatorShouldCrossfade
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/Navigator/native/useNavigatorShouldCrossfade.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useNavigatorShouldCrossfade() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.useContext;
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 2;
-            entity = oscard[entity];
-            tangon = undefined;
-            entity = report.bind(tangon)(entity);
-            entity = entity.AccessibilityPreferencesContext;
-            entity = michal.bind(zuuluu)(entity);
-            michal = entity.reducedMotion;
-            michal = michal.enabled;
-            entity = entity.prefersCrossfades;
-            zuuluu = 1;
-            zuuluu = oscard[zuuluu];
-            tangon = report.bind(tangon)(zuuluu);
-            zuuluu = tangon.isAndroid;
-            zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00002_ip = 90; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var2 = var3.useContext;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 2;
+            var1 = var6[var1];
+            var4 = undefined;
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.AccessibilityPreferencesContext;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.reducedMotion;
+            var2 = var2.enabled;
+            var1 = var1.prefersCrossfades;
+            var3 = 1;
+            var3 = var6[var3];
+            var4 = var5.bind(var4)(var3);
+            var3 = var4.isAndroid;
+            var3 = var3.bind(var4)();
+            if(!var3) { _fun0001_ip = 90; continue _fun0001 }
  87:
-            entity = michal;
+            var1 = var2;
  90:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useNavigatorShouldCrossfade'] = michal;
-    return entity;
+    var3['useNavigatorShouldCrossfade'] = var2;
+    return var1;
 })();

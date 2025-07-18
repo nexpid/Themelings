@@ -1,162 +1,162 @@
 // app/modules/guild_role_subscriptions/native/components/EmojiIcon.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/native/components/EmojiIcon.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: EmojiIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/native/components/EmojiIcon.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function EmojiIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.guildId;
-            report = entity.id;
-            offset = entity.size;
-            oscard = undefined;
-            if(!(offset === oscard)) { _fun00002_ip = 27; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.guildId;
+            var5 = var1.id;
+            var10 = var1.size;
+            var6 = undefined;
+            if(!(var10 === var6)) { _fun0001_ip = 27; continue _fun0001 }
  24:
-            offset = 20;
+            var10 = 20;
  27:
-            tangon = entity.useFallbackIcon;
-            if(!(tangon === oscard)) { _fun00002_ip = 41; continue _fun00001 }
+            var4 = var1.useFallbackIcon;
+            if(!(var4 === var6)) { _fun0001_ip = 41; continue _fun0001 }
  39:
-            tangon = true;
+            var4 = true;
  41:
-            romeon = entity.fontSize;
-            verify = entity.lineHeight;
-            if(!(verify === oscard)) { _fun00002_ip = 64; continue _fun00001 }
+            var12 = var1.fontSize;
+            var9 = var1.lineHeight;
+            if(!(var9 === var6)) { _fun0001_ip = 64; continue _fun0001 }
  57:
-            michal = 4;
-            verify = offset + michal;
+            var2 = 4;
+            var9 = var10 + var2;
  64:
-            option = entity.style;
-            michal = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 2;
-            entity = yankee[entity];
-            michal = michal.bind(oscard)(entity);
-            entity = michal.useEmojiById;
-            foxtra = entity.bind(michal)(golfie, report);
-            michal = null;
-            if(!(michal != foxtra)) { _fun00002_ip = 319; continue _fun00001 }
+            var8 = var1.style;
+            var2 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var1 = 2;
+            var1 = var11[var1];
+            var2 = var2.bind(var6)(var1);
+            var1 = var2.useEmojiById;
+            var13 = var1.bind(var2)(var7, var5);
+            var2 = null;
+            if(!(var2 != var13)) { _fun0001_ip = 319; continue _fun0001 }
  113:
-            golfie = _closure1_slot3;
-            report = _closure1_slot1;
-            yankee = _closure1_slot2;
-            entity = 5;
-            entity = yankee[entity];
-            report = report.bind(oscard)(entity);
-            entity = {};
-            entity['style'] = option;
-            option = {};
-            option['width'] = offset;
-            option['height'] = offset;
-            entity['fastImageStyle'] = option;
-            option = {};
-            yankee = offset;
-            if(!(michal != romeon)) { _fun00002_ip = 170; continue _fun00001 }
+            var7 = _closure1_slot3;
+            var5 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var1 = 5;
+            var1 = var11[var1];
+            var5 = var5.bind(var6)(var1);
+            var1 = {};
+            var1['style'] = var8;
+            var8 = {};
+            var8['width'] = var10;
+            var8['height'] = var10;
+            var1['fastImageStyle'] = var8;
+            var8 = {};
+            var11 = var10;
+            if(!(var2 != var12)) { _fun0001_ip = 170; continue _fun0001 }
  167:
-            yankee = romeon;
+            var11 = var12;
  170:
-            option['fontSize'] = yankee;
-            option['lineHeight'] = verify;
-            entity['textEmojiStyle'] = option;
-            option = foxtra.id;
-            if(!(michal == option)) { _fun00002_ip = 224; continue _fun00001 }
+            var8['fontSize'] = var11;
+            var8['lineHeight'] = var9;
+            var1['textEmojiStyle'] = var8;
+            var8 = var13.id;
+            if(!(var2 == var8)) { _fun0001_ip = 224; continue _fun0001 }
  194:
-            verify = foxtra.surrogates;
-            if(!(michal == verify)) { _fun00002_ip = 208; continue _fun00001 }
+            var9 = var13.surrogates;
+            if(!(var2 == var9)) { _fun0001_ip = 208; continue _fun0001 }
  203:
-            verify = foxtra.name;
+            var9 = var13.name;
  208:
-            yankee = michal != verify;
-            option = '';
-            if(!yankee) { _fun00002_ip = 222; continue _fun00001 }
+            var11 = var2 != var9;
+            var8 = '';
+            if(!var11) { _fun0001_ip = 222; continue _fun0001 }
  219:
-            option = verify;
+            var8 = var9;
  222:
-            _fun00002_ip = 229; continue _fun00001;
+            _fun0001_ip = 229; continue _fun0001;
  224:
-            option = foxtra.name;
+            var8 = var13.name;
  229:
-            entity['name'] = option;
-            option = foxtra.id;
-            if(!(michal == option)) { _fun00002_ip = 249; continue _fun00001 }
+            var1['name'] = var8;
+            var8 = var13.id;
+            if(!(var2 == var8)) { _fun0001_ip = 249; continue _fun0001 }
  242:
-            option = foxtra.url;
-            _fun00002_ip = 306; continue _fun00001;
+            var8 = var13.url;
+            _fun0001_ip = 306; continue _fun0001;
  249:
-            yankee = _closure1_slot1;
-            romeon = _closure1_slot2;
-            verify = 6;
-            verify = romeon[verify];
-            romeon = yankee.bind(oscard)(verify);
-            yankee = romeon.getEmojiURL;
-            verify = {};
-            backup = foxtra.id;
-            verify['id'] = backup;
-            foxtra = foxtra.animated;
-            verify['animated'] = foxtra;
-            verify['size'] = offset;
-            option = yankee.bind(romeon)(verify);
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var9 = 6;
+            var9 = var12[var9];
+            var12 = var11.bind(var6)(var9);
+            var11 = var12.getEmojiURL;
+            var9 = {};
+            var14 = var13.id;
+            var9['id'] = var14;
+            var13 = var13.animated;
+            var9['animated'] = var13;
+            var9['size'] = var10;
+            var8 = var11.bind(var12)(var9);
  306:
-            entity['src'] = option;
-            entity = golfie.bind(oscard)(report, entity);
-            _fun00002_ip = 398; continue _fun00001;
+            var1['src'] = var8;
+            var1 = var7.bind(var6)(var5, var1);
+            _fun0001_ip = 398; continue _fun0001;
  319:
-            michal = null;
-            if(!tangon) { _fun00002_ip = 395; continue _fun00001 }
+            var2 = null;
+            if(!var4) { _fun0001_ip = 395; continue _fun0001 }
  324:
-            report = _closure1_slot3;
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = verify[zuuluu];
-            tangon = option.bind(oscard)(zuuluu);
-            zuuluu = {};
-            golfie = 'contain';
-            zuuluu['resizeMode'] = golfie;
-            golfie = {};
-            golfie['width'] = offset;
-            golfie['height'] = offset;
-            zuuluu['style'] = golfie;
-            golfie = 4;
-            golfie = verify[golfie];
-            golfie = option.bind(oscard)(golfie);
-            zuuluu['source'] = golfie;
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var5 = _closure1_slot3;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var3 = 3;
+            var3 = var9[var3];
+            var4 = var8.bind(var6)(var3);
+            var3 = {};
+            var7 = 'contain';
+            var3['resizeMode'] = var7;
+            var7 = {};
+            var7['width'] = var10;
+            var7['height'] = var10;
+            var3['style'] = var7;
+            var7 = 4;
+            var7 = var9[var7];
+            var7 = var8.bind(var6)(var7);
+            var3['source'] = var7;
+            var2 = var5.bind(var6)(var4, var3);
  395:
-            entity = michal;
+            var1 = var2;
  398:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

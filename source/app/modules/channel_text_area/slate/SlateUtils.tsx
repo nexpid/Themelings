@@ -1,207 +1,207 @@
 // app/modules/channel_text_area/slate/SlateUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = function(argFoo) { // Original name: toRichValue
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = function toRichValue(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            entity = '';
-            if(!(entity === tangon)) { _fun00002_ip = 20; continue _fun00001 }
+            var4 = arg1;
+            var1 = '';
+            if(!(var1 === var4)) { _fun0001_ip = 20; continue _fun0001 }
  11:
-            entity = _closure1_slot0;
-            _fun00002_ip = 51; continue _fun00001;
+            var1 = _closure1_slot0;
+            _fun0001_ip = 51; continue _fun0001;
  20:
-            zuuluu = tangon.split;
-            michal = '\n';
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.map;
-            michal = function(argFoo) {
-                entity = {};
-                michal = 'line';
-                entity['type'] = michal;
-                zuuluu = {};
-                michal = argFoo;
-                zuuluu['text'] = michal;
-                michal = new Array(1);
-                michal[0] = zuuluu;
-                entity['children'] = michal;
-                return entity;
+            var3 = var4.split;
+            var2 = '\n';
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.map;
+            var2 = function(arg1) {
+                var1 = {};
+                var2 = 'line';
+                var1['type'] = var2;
+                var3 = {};
+                var2 = arg1;
+                var3['text'] = var2;
+                var2 = new Array(1);
+                var2[0] = var3;
+                var1['children'] = var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(michal);
+            var1 = var3.bind(var4)(var2);
  51:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot1 = tangon;
-    verify = global;
-    golfie = verify.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    oscard = verify.Object;
-    report = oscard.freeze;
-    option = verify.Object;
-    golfie = option.freeze;
-    entity = {};
-    offset = 'line';
-    entity['type'] = offset;
-    yankee = verify.Object;
-    offset = yankee.freeze;
-    foxtra = verify.Object;
-    romeon = foxtra.freeze;
-    verify = {};
-    backup = '';
-    verify['text'] = backup;
-    romeon = romeon.bind(foxtra)(verify);
-    verify = new Array(1);
-    verify[0] = romeon;
-    verify = offset.bind(yankee)(verify);
-    entity['children'] = verify;
-    golfie = golfie.bind(option)(entity);
-    entity = new Array(1);
-    entity[0] = golfie;
-    entity = report.bind(oscard)(entity);
-    var _closure1_slot0 = entity;
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/channel_text_area/slate/SlateUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: createEmptyState
-        entity = {};
-        michal = '';
-        entity['textValue'] = michal;
-        zuuluu = {};
-        tangon = 'line';
-        zuuluu['type'] = tangon;
-        tangon = {};
-        tangon['text'] = michal;
-        michal = new Array(1);
-        michal[0] = tangon;
-        zuuluu['children'] = michal;
-        michal = new Array(1);
-        michal[0] = zuuluu;
-        entity['richValue'] = michal;
-        return entity;
+    var _closure1_slot1 = var4;
+    var9 = global;
+    var7 = var9.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var6 = var9.Object;
+    var5 = var6.freeze;
+    var8 = var9.Object;
+    var7 = var8.freeze;
+    var1 = {};
+    var10 = 'line';
+    var1['type'] = var10;
+    var11 = var9.Object;
+    var10 = var11.freeze;
+    var13 = var9.Object;
+    var12 = var13.freeze;
+    var9 = {};
+    var14 = '';
+    var9['text'] = var14;
+    var12 = var12.bind(var13)(var9);
+    var9 = new Array(1);
+    var9[0] = var12;
+    var9 = var10.bind(var11)(var9);
+    var1['children'] = var9;
+    var7 = var7.bind(var8)(var1);
+    var1 = new Array(1);
+    var1[0] = var7;
+    var1 = var5.bind(var6)(var1);
+    var _closure1_slot0 = var1;
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/channel_text_area/slate/SlateUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function createEmptyState() {
+        var1 = {};
+        var2 = '';
+        var1['textValue'] = var2;
+        var3 = {};
+        var4 = 'line';
+        var3['type'] = var4;
+        var4 = {};
+        var4['text'] = var2;
+        var2 = new Array(1);
+        var2[0] = var4;
+        var3['children'] = var2;
+        var2 = new Array(1);
+        var2[0] = var3;
+        var1['richValue'] = var2;
+        return var1;
     };
-    zuuluu['createEmptyState'] = report;
-    report = function(argFoo) { // Original name: createState
-        tangon = argFoo;
-        entity = {};
-        entity['textValue'] = tangon;
-        zuuluu = _closure1_slot1;
-        michal = undefined;
-        michal = zuuluu.bind(michal)(tangon);
-        entity['richValue'] = michal;
-        return entity;
+    var3['createEmptyState'] = var5;
+    var5 = function createState(arg1) {
+        var4 = arg1;
+        var1 = {};
+        var1['textValue'] = var4;
+        var3 = _closure1_slot1;
+        var2 = undefined;
+        var2 = var3.bind(var2)(var4);
+        var1['richValue'] = var2;
+        return var1;
     };
-    zuuluu['createState'] = report;
-    zuuluu['toRichValue'] = tangon;
-    michal = function(argFoo) { // Original name: voidToOptionValue
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['createState'] = var5;
+    var3['toRichValue'] = var4;
+    var2 = function voidToOptionValue(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            offset = michal.type;
-            zuuluu = 'userMention';
-            if(!(zuuluu !== offset)) { _fun00004_ip = 311; continue _fun00003 }
+            var2 = arg1;
+            var10 = var2.type;
+            var3 = 'userMention';
+            if(!(var3 !== var10)) { _fun0002_ip = 311; continue _fun0002 }
  21:
-            tangon = 'channelMention';
-            if(!(tangon !== offset)) { _fun00004_ip = 294; continue _fun00003 }
+            var4 = 'channelMention';
+            if(!(var4 !== var10)) { _fun0002_ip = 294; continue _fun0002 }
  32:
-            report = 'soundboard';
-            if(!(report !== offset)) { _fun00004_ip = 266; continue _fun00003 }
+            var5 = 'soundboard';
+            if(!(var5 !== var10)) { _fun0002_ip = 266; continue _fun0002 }
  43:
-            oscard = 'roleMention';
-            if(!(oscard !== offset)) { _fun00004_ip = 247; continue _fun00003 }
+            var6 = 'roleMention';
+            if(!(var6 !== var10)) { _fun0002_ip = 247; continue _fun0002 }
  54:
-            golfie = 'textMention';
-            if(!(golfie !== offset)) { _fun00004_ip = 230; continue _fun00003 }
+            var7 = 'textMention';
+            if(!(var7 !== var10)) { _fun0002_ip = 230; continue _fun0002 }
  67:
-            option = 'emoji';
-            if(!(option !== offset)) { _fun00004_ip = 190; continue _fun00003 }
+            var8 = 'emoji';
+            if(!(var8 !== var10)) { _fun0002_ip = 190; continue _fun0002 }
  75:
-            verify = 'customEmoji';
-            if(!(verify !== offset)) { _fun00004_ip = 133; continue _fun00003 }
+            var9 = 'customEmoji';
+            if(!(var9 !== var10)) { _fun0002_ip = 133; continue _fun0002 }
  83:
-            entity = 'testInlineVoid';
-            if(!(entity !== offset)) { _fun00004_ip = 97; continue _fun00003 }
+            var1 = 'testInlineVoid';
+            if(!(var1 !== var10)) { _fun0002_ip = 97; continue _fun0002 }
  93:
-            entity = null;
-            return entity;
+            var1 = null;
+            return var1;
  97:
-            entity = global;
-            yankee = entity.Error;
-            entity = yankee.prototype;
-            offset = Object.create(entity, {constructor: {value: yankee}});
-            romeon = 'Unable to convert test types';
-            foxtra = offset;
-            entity = new foxtra[yankee](romeon, yankee);
-            entity = entity instanceof Object ? entity : offset;
-            throw entity;
+            var1 = global;
+            var11 = var1.Error;
+            var1 = var11.prototype;
+            var10 = Object.create(var1, {constructor: {value: var11}});
+            var12 = 'Unable to convert test types';
+            var13 = var10;
+            var1 = new var13[var11](var12, var11);
+            var1 = var1 instanceof Object ? var1 : var10;
+            throw var1;
  133:
-            entity = {};
-            entity['type'] = verify;
-            verify = michal.emoji;
-            verify = verify.emojiId;
-            entity['emojiId'] = verify;
-            verify = michal.emoji;
-            verify = verify.name;
-            entity['name'] = verify;
-            verify = michal.emoji;
-            verify = verify.animated;
-            entity['animated'] = verify;
-            return entity;
+            var1 = {};
+            var1['type'] = var9;
+            var9 = var2.emoji;
+            var9 = var9.emojiId;
+            var1['emojiId'] = var9;
+            var9 = var2.emoji;
+            var9 = var9.name;
+            var1['name'] = var9;
+            var9 = var2.emoji;
+            var9 = var9.animated;
+            var1['animated'] = var9;
+            return var1;
  190:
-            entity = {};
-            entity['type'] = option;
-            option = michal.emoji;
-            option = option.name;
-            entity['name'] = option;
-            option = michal.emoji;
-            option = option.surrogate;
-            entity['surrogate'] = option;
-            return entity;
+            var1 = {};
+            var1['type'] = var8;
+            var8 = var2.emoji;
+            var8 = var8.name;
+            var1['name'] = var8;
+            var8 = var2.emoji;
+            var8 = var8.surrogate;
+            var1['surrogate'] = var8;
+            return var1;
  230:
-            entity = {};
-            entity['type'] = golfie;
-            golfie = michal.name;
-            entity['text'] = golfie;
-            return entity;
+            var1 = {};
+            var1['type'] = var7;
+            var7 = var2.name;
+            var1['text'] = var7;
+            return var1;
  247:
-            entity = {};
-            entity['type'] = oscard;
-            oscard = michal.roleId;
-            entity['roleId'] = oscard;
-            return entity;
+            var1 = {};
+            var1['type'] = var6;
+            var6 = var2.roleId;
+            var1['roleId'] = var6;
+            return var1;
  266:
-            entity = {};
-            entity['type'] = report;
-            report = michal.guildId;
-            entity['guildId'] = report;
-            report = michal.soundId;
-            entity['soundId'] = report;
-            return entity;
+            var1 = {};
+            var1['type'] = var5;
+            var5 = var2.guildId;
+            var1['guildId'] = var5;
+            var5 = var2.soundId;
+            var1['soundId'] = var5;
+            return var1;
  294:
-            entity = {};
-            entity['type'] = tangon;
-            tangon = michal.channelId;
-            entity['channelId'] = tangon;
-            return entity;
+            var1 = {};
+            var1['type'] = var4;
+            var4 = var2.channelId;
+            var1['channelId'] = var4;
+            return var1;
  311:
-            entity = {};
-            entity['type'] = zuuluu;
-            michal = michal.userId;
-            entity['userId'] = michal;
-            return entity;
+            var1 = {};
+            var1['type'] = var3;
+            var2 = var2.userId;
+            var1['userId'] = var2;
+            return var1;
         }
     };
-    zuuluu['voidToOptionValue'] = michal;
-    return entity;
+    var3['voidToOptionValue'] = var2;
+    return var1;
 })();

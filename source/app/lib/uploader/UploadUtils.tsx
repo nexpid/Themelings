@@ -1,108 +1,108 @@
 // app/lib/uploader/UploadUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/uploader/UploadUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: doesImageMatchUpload
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/uploader/UploadUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function doesImageMatchUpload(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = argBar;
-            zuuluu = michal.id;
-            entity = tangon.uri;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 173; continue _fun00001 }
+            var4 = arg1;
+            var2 = arg2;
+            var3 = var2.id;
+            var1 = var4.uri;
+            if(!(var3 !== var1)) { _fun0001_ip = 173; continue _fun0001 }
  24:
-            zuuluu = michal.id;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 52; continue _fun00001 }
+            var3 = var2.id;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 52; continue _fun0001 }
  35:
-            report = michal.id;
-            zuuluu = tangon.id;
-            if(!(report !== zuuluu)) { _fun00002_ip = 173; continue _fun00001 }
+            var5 = var2.id;
+            var3 = var4.id;
+            if(!(var5 !== var3)) { _fun0001_ip = 173; continue _fun0001 }
  52:
-            zuuluu = michal.item;
-            report = zuuluu.platform;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot1;
-            zuuluu = 0;
-            oscard = oscard[zuuluu];
-            zuuluu = undefined;
-            zuuluu = golfie.bind(zuuluu)(oscard);
-            zuuluu = zuuluu.UploadPlatform;
-            zuuluu = zuuluu.REACT_NATIVE;
-            if(!(report !== zuuluu)) { _fun00002_ip = 107; continue _fun00001 }
+            var3 = var2.item;
+            var5 = var3.platform;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 0;
+            var6 = var6[var3];
+            var3 = undefined;
+            var3 = var7.bind(var3)(var6);
+            var3 = var3.UploadPlatform;
+            var3 = var3.REACT_NATIVE;
+            if(!(var5 !== var3)) { _fun0001_ip = 107; continue _fun0001 }
  103:
-            zuuluu = false;
-            return zuuluu;
+            var3 = false;
+            return var3;
  107:
-            michal = michal.item;
-            zuuluu = tangon.filename;
-            report = michal.originalUri;
-            tangon = tangon.uri;
-            if(!(report !== tangon)) { _fun00002_ip = 169; continue _fun00001 }
+            var2 = var2.item;
+            var3 = var4.filename;
+            var5 = var2.originalUri;
+            var4 = var4.uri;
+            if(!(var5 !== var4)) { _fun0001_ip = 169; continue _fun0001 }
  134:
-            if(!(entity != zuuluu)) { _fun00002_ip = 161; continue _fun00001 }
+            if(!(var1 != var3)) { _fun0001_ip = 161; continue _fun0001 }
  138:
-            michal = michal.originalUri;
-            if(!(entity != michal)) { _fun00002_ip = 161; continue _fun00001 }
+            var2 = var2.originalUri;
+            if(!(var1 != var2)) { _fun0001_ip = 161; continue _fun0001 }
  148:
-            entity = michal.includes;
-            entity = entity.bind(michal)(zuuluu);
-            if(entity) { _fun00002_ip = 165; continue _fun00001 }
+            var1 = var2.includes;
+            var1 = var1.bind(var2)(var3);
+            if(var1) { _fun0001_ip = 165; continue _fun0001 }
  161:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  165:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  169:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
  173:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    zuuluu['doesImageMatchUpload'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: calculateProgress
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['doesImageMatchUpload'] = var4;
+    var2 = function calculateProgress(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argBar;
-            entity = 0;
-            if(!(entity !== zuuluu)) { _fun00004_ip = 59; continue _fun00003 }
+            var3 = arg2;
+            var1 = 0;
+            if(!(var1 !== var3)) { _fun0002_ip = 59; continue _fun0002 }
  9:
-            michal = global;
-            report = michal.Math;
-            tangon = report.min;
-            golfie = michal.Math;
-            oscard = golfie.floor;
-            michal = argFoo;
-            michal = michal / zuuluu;
-            zuuluu = 100;
-            michal = michal * zuuluu;
-            michal = oscard.bind(golfie)(michal);
-            entity = tangon.bind(report)(michal, zuuluu);
+            var2 = global;
+            var5 = var2.Math;
+            var4 = var5.min;
+            var7 = var2.Math;
+            var6 = var7.floor;
+            var2 = arg1;
+            var2 = var2 / var3;
+            var3 = 100;
+            var2 = var2 * var3;
+            var2 = var6.bind(var7)(var2);
+            var1 = var4.bind(var5)(var2, var3);
  59:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['calculateProgress'] = michal;
-    return entity;
+    var3['calculateProgress'] = var2;
+    return var1;
 })();

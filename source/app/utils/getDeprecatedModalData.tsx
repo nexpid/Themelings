@@ -1,128 +1,128 @@
 // app/utils/getDeprecatedModalData.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ModalAnimation;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/getDeprecatedModalData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: getDeprecatedModalData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ModalAnimation;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/getDeprecatedModalData.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getDeprecatedModalData(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argBar;
-            report = arguments[3];
-            entity = undefined;
-            if(!(report === entity)) { _fun00002_ip = 14; continue _fun00001 }
+            var3 = arg2;
+            var5 = arguments[3];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            report = null;
+            var5 = null;
  14:
-            entity = {};
-            tangon = zuuluu.key;
-            michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 30; continue _fun00001 }
+            var1 = {};
+            var4 = var3.key;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 30; continue _fun0001 }
  27:
-            report = tangon;
+            var5 = var4;
  30:
-            oscard = michal != report;
-            tangon = 'modal';
-            if(!oscard) { _fun00002_ip = 44; continue _fun00001 }
+            var6 = var2 != var5;
+            var4 = 'modal';
+            if(!var6) { _fun0001_ip = 44; continue _fun0001 }
  41:
-            tangon = report;
+            var4 = var5;
  44:
-            entity['key'] = tangon;
-            tangon = argFoo;
-            entity['modal'] = tangon;
-            tangon = zuuluu.animation;
-            if(!(michal == tangon)) { _fun00002_ip = 103; continue _fun00001 }
+            var1['key'] = var4;
+            var4 = arg1;
+            var1['modal'] = var4;
+            var4 = var3.animation;
+            if(!(var2 == var4)) { _fun0001_ip = 103; continue _fun0001 }
  66:
-            report = _closure1_slot0;
-            report = report.useReducedMotion;
-            oscard = _closure1_slot1;
-            if(report) { _fun00002_ip = 94; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var5 = var5.useReducedMotion;
+            var6 = _closure1_slot1;
+            if(var5) { _fun0001_ip = 94; continue _fun0001 }
  86:
-            report = oscard.SLIDE_UP;
-            _fun00002_ip = 100; continue _fun00001;
+            var5 = var6.SLIDE_UP;
+            _fun0001_ip = 100; continue _fun0001;
  94:
-            report = oscard.FADE;
+            var5 = var6.FADE;
  100:
-            tangon = report;
+            var4 = var5;
  103:
-            entity['animation'] = tangon;
-            report = zuuluu.shouldPersistUnderModals;
-            tangon = michal != report;
-            if(!tangon) { _fun00002_ip = 124; continue _fun00001 }
+            var1['animation'] = var4;
+            var5 = var3.shouldPersistUnderModals;
+            var4 = var2 != var5;
+            if(!var4) { _fun0001_ip = 124; continue _fun0001 }
  121:
-            tangon = report;
+            var4 = var5;
  124:
-            entity['shouldPersistUnderModals'] = tangon;
-            tangon = argBaz;
-            entity['props'] = tangon;
-            report = zuuluu.backdropStyle;
-            oscard = michal != report;
-            tangon = null;
-            if(!oscard) { _fun00002_ip = 154; continue _fun00001 }
+            var1['shouldPersistUnderModals'] = var4;
+            var4 = arg3;
+            var1['props'] = var4;
+            var5 = var3.backdropStyle;
+            var6 = var2 != var5;
+            var4 = null;
+            if(!var6) { _fun0001_ip = 154; continue _fun0001 }
  151:
-            tangon = report;
+            var4 = var5;
  154:
-            entity['backdropStyle'] = tangon;
-            report = zuuluu.backdropInstant;
-            tangon = michal != report;
-            if(!tangon) { _fun00002_ip = 175; continue _fun00001 }
+            var1['backdropStyle'] = var4;
+            var5 = var3.backdropInstant;
+            var4 = var2 != var5;
+            if(!var4) { _fun0001_ip = 175; continue _fun0001 }
  172:
-            tangon = report;
+            var4 = var5;
  175:
-            entity['backdropInstant'] = tangon;
-            report = zuuluu.disableAnimation;
-            tangon = michal != report;
-            if(!tangon) { _fun00002_ip = 196; continue _fun00001 }
+            var1['backdropInstant'] = var4;
+            var5 = var3.disableAnimation;
+            var4 = var2 != var5;
+            if(!var4) { _fun0001_ip = 196; continue _fun0001 }
  193:
-            tangon = report;
+            var4 = var5;
  196:
-            entity['disableAnimation'] = tangon;
-            tangon = zuuluu.closable;
-            report = 'boolean';
-            tangon = typeof tangon;
-            tangon = report !== tangon;
-            if(tangon) { _fun00002_ip = 227; continue _fun00001 }
+            var1['disableAnimation'] = var4;
+            var4 = var3.closable;
+            var5 = 'boolean';
+            var4 = typeof var4;
+            var4 = var5 !== var4;
+            if(var4) { _fun0001_ip = 227; continue _fun0001 }
  221:
-            tangon = zuuluu.closable;
+            var4 = var3.closable;
  227:
-            entity['closable'] = tangon;
-            zuuluu = zuuluu.label;
-            tangon = michal != zuuluu;
-            michal = '';
-            if(!tangon) { _fun00002_ip = 251; continue _fun00001 }
+            var1['closable'] = var4;
+            var3 = var3.label;
+            var4 = var2 != var3;
+            var2 = '';
+            if(!var4) { _fun0001_ip = 251; continue _fun0001 }
  248:
-            michal = zuuluu;
+            var2 = var3;
  251:
-            entity['label'] = michal;
-            michal = {};
-            entity['callbacks'] = michal;
-            return entity;
+            var1['label'] = var2;
+            var2 = {};
+            var1['callbacks'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,156 +1,156 @@
 // app/modules/analytics_sessions/SessionAdGenerator.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    michal = function(argFoo) { // Original name: isAdSessionExpired
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var2 = function isAdSessionExpired(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            tangon = global;
-            michal = tangon.Date;
-            entity = michal.now;
-            option = entity.bind(michal)();
-            entity = report.createdAtTimestamp;
-            if(!(!(option < entity))) { _fun00002_ip = 101; continue _fun00001 }
+            var5 = arg1;
+            var4 = global;
+            var2 = var4.Date;
+            var1 = var2.now;
+            var8 = var1.bind(var2)();
+            var1 = var5.createdAtTimestamp;
+            if(!(!(var8 < var1))) { _fun0001_ip = 101; continue _fun0001 }
  30:
-            entity = report.lastUsedTimestamp;
-            zuuluu = option - entity;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 2;
-            oscard = oscard[entity];
-            entity = undefined;
-            entity = golfie.bind(entity)(oscard);
-            entity = entity.SESSION_IDLE_TIMEOUT_MILLIS;
-            entity = zuuluu > entity;
-            zuuluu = report.createdAtTimestamp;
-            zuuluu = option - zuuluu;
-            michal = _closure1_slot3;
-            michal = zuuluu > michal;
-            if(entity) { _fun00002_ip = 99; continue _fun00001 }
+            var1 = var5.lastUsedTimestamp;
+            var3 = var8 - var1;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 2;
+            var6 = var6[var1];
+            var1 = undefined;
+            var1 = var7.bind(var1)(var6);
+            var1 = var1.SESSION_IDLE_TIMEOUT_MILLIS;
+            var1 = var3 > var1;
+            var3 = var5.createdAtTimestamp;
+            var3 = var8 - var3;
+            var2 = _closure1_slot3;
+            var2 = var3 > var2;
+            if(var1) { _fun0001_ip = 99; continue _fun0001 }
  96:
-            entity = michal;
+            var1 = var2;
  99:
-            return entity;
+            return var1;
  101:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.addBreadcrumb;
-            entity = {};
-            oscard = 'ad';
-            entity['category'] = oscard;
-            golfie = report.createdAtTimestamp;
-            tangon = tangon.HermesInternal;
-            oscard = tangon.concat;
-            report = 'future facing timestamp Date.now(): ';
-            tangon = ', initialized timestamp: ';
-            tangon = oscard.bind(report)(option, tangon, golfie);
-            entity['message'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = true;
-            return entity;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.addBreadcrumb;
+            var1 = {};
+            var6 = 'ad';
+            var1['category'] = var6;
+            var7 = var5.createdAtTimestamp;
+            var4 = var4.HermesInternal;
+            var6 = var4.concat;
+            var5 = 'future facing timestamp Date.now(): ';
+            var4 = ', initialized timestamp: ';
+            var4 = var6.bind(var5)(var8, var4, var7);
+            var1['message'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    report = report.Millis;
-    option = report.HOUR;
-    report = 12;
-    report = report * option;
-    var _closure1_slot3 = report;
-    report = null;
-    var _closure1_slot4 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/analytics_sessions/SessionAdGenerator.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: getOrRefreshAdSession
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.Millis;
+    var8 = var5.HOUR;
+    var5 = 12;
+    var5 = var5 * var8;
+    var _closure1_slot3 = var5;
+    var5 = null;
+    var _closure1_slot4 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/analytics_sessions/SessionAdGenerator.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getOrRefreshAdSession() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = arguments[0];
-            oscard = undefined;
-            if(!(entity === oscard)) { _fun00004_ip = 11; continue _fun00003 }
+            var1 = arguments[0];
+            var6 = undefined;
+            if(!(var1 === var6)) { _fun0002_ip = 11; continue _fun0002 }
  9:
-            entity = false;
+            var1 = false;
  11:
-            michal = global;
-            zuuluu = michal.Date;
-            michal = zuuluu.now;
-            tangon = michal.bind(zuuluu)();
-            report = _closure1_slot4;
-            michal = null;
-            if(!(michal != report)) { _fun00004_ip = 76; continue _fun00003 }
+            var2 = global;
+            var3 = var2.Date;
+            var2 = var3.now;
+            var4 = var2.bind(var3)();
+            var5 = _closure1_slot4;
+            var2 = null;
+            if(!(var2 != var5)) { _fun0002_ip = 76; continue _fun0002 }
  41:
-            report = _closure1_slot5;
-            michal = _closure1_slot4;
-            michal = report.bind(oscard)(michal);
-            if(michal) { _fun00004_ip = 76; continue _fun00003 }
+            var5 = _closure1_slot5;
+            var2 = _closure1_slot4;
+            var2 = var5.bind(var6)(var2);
+            if(var2) { _fun0002_ip = 76; continue _fun0002 }
  57:
-            if(!entity) { _fun00004_ip = 70; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 70; continue _fun0002 }
  60:
-            entity = _closure1_slot4;
-            entity['lastUsedTimestamp'] = tangon;
+            var1 = _closure1_slot4;
+            var1['lastUsedTimestamp'] = var4;
  70:
-            entity = _closure1_slot4;
-            _fun00004_ip = 153; continue _fun00003;
+            var1 = _closure1_slot4;
+            _fun0002_ip = 153; continue _fun0002;
  76:
-            michal = {};
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            option = 1;
-            option = golfie[option];
-            verify = report.bind(oscard)(option);
-            option = verify.v4;
-            option = option.bind(verify)();
-            michal['uuid'] = option;
-            michal['createdAtTimestamp'] = tangon;
-            michal['lastUsedTimestamp'] = tangon;
-            tangon = 2;
-            tangon = golfie[tangon];
-            tangon = report.bind(oscard)(tangon);
-            tangon = tangon.CLIENT_SESSION_STORAGE_VERSION;
-            michal['version'] = tangon;
-            _closure1_slot4 = michal;
-            entity = michal;
+            var2 = {};
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var8 = 1;
+            var8 = var7[var8];
+            var9 = var5.bind(var6)(var8);
+            var8 = var9.v4;
+            var8 = var8.bind(var9)();
+            var2['uuid'] = var8;
+            var2['createdAtTimestamp'] = var4;
+            var2['lastUsedTimestamp'] = var4;
+            var4 = 2;
+            var4 = var7[var4];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.CLIENT_SESSION_STORAGE_VERSION;
+            var2['version'] = var4;
+            _closure1_slot4 = var2;
+            var1 = var2;
  153:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getOrRefreshAdSession'] = report;
-    report = function() { // Original name: clearAdSession
-        entity = null;
-        _closure1_slot4 = entity;
-        entity = undefined;
-        return entity;
+    var3['getOrRefreshAdSession'] = var5;
+    var5 = function clearAdSession() {
+        var1 = null;
+        _closure1_slot4 = var1;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['clearAdSession'] = report;
-    tangon = function() { // Original name: getCurrentAdSession
-        entity = _closure1_slot4;
-        return entity;
+    var3['clearAdSession'] = var5;
+    var4 = function getCurrentAdSession() {
+        var1 = _closure1_slot4;
+        return var1;
     };
-    zuuluu['getCurrentAdSession'] = tangon;
-    zuuluu['isAdSessionExpired'] = michal;
-    return entity;
+    var3['getCurrentAdSession'] = var4;
+    var3['isAdSessionExpired'] = var2;
+    return var1;
 })();

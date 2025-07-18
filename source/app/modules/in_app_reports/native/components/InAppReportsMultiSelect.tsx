@@ -1,307 +1,307 @@
 // app/modules/in_app_reports/native/components/InAppReportsMultiSelect.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: CheckboxRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var12 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var6;
+    var1 = function CheckboxRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            option = entity.showDivider;
-            romeon = entity.onPress;
-            echoed = entity.selected;
-            ctrled = entity.title;
-            record = entity.subtitle;
-            entity = _closure1_slot6;
-            tangon = undefined;
-            offset = entity.bind(tangon)();
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot3;
-            entity = {};
-            report = offset.rowContainer;
-            entity['style'] = report;
-            yankee = _closure1_slot4;
-            result = _closure1_slot0;
-            oscard = _closure1_slot2;
-            report = 5;
-            report = oscard[report];
-            report = result.bind(tangon)(report);
-            verify = report.PressableOpacity;
-            report = {};
-            report['onPress'] = romeon;
-            romeon = 'checkbox';
-            report['accessibilityRole'] = romeon;
-            romeon = {};
-            romeon['selected'] = echoed;
-            report['accessibilityState'] = romeon;
-            backup = _closure1_slot5;
-            foxtra = _closure1_slot3;
-            romeon = {};
-            kiloes = offset.row;
-            romeon['style'] = kiloes;
-            output = _closure1_slot5;
-            sizing = _closure1_slot3;
-            kiloes = {};
-            update = offset.optionText;
-            kiloes['style'] = update;
-            update = _closure1_slot4;
-            cntext = 6;
-            oscard = oscard[cntext];
-            oscard = result.bind(tangon)(oscard);
-            result = oscard.Text;
-            oscard = {};
-            source = 'text-md/bold';
-            oscard['variant'] = source;
-            sequen = global;
-            source = sequen.HermesInternal;
-            source = source.concat;
-            config = '';
-            source = source.bind(config)(ctrled);
-            oscard['children'] = source;
-            oscard = update.bind(tangon)(result, oscard);
-            result = new Array(2);
-            result[0] = oscard;
-            oscard = null;
-            source = oscard != record;
-            update = null;
-            if(!source) { _fun00002_ip = 308; continue _fun00001 }
+            var1 = arg1;
+            var8 = var1.showDivider;
+            var12 = var1.onPress;
+            var19 = var1.selected;
+            var22 = var1.title;
+            var26 = var1.subtitle;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var10 = var1.bind(var4)();
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var10.rowContainer;
+            var1['style'] = var5;
+            var11 = _closure1_slot4;
+            var18 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var5 = 5;
+            var5 = var6[var5];
+            var5 = var18.bind(var4)(var5);
+            var9 = var5.PressableOpacity;
+            var5 = {};
+            var5['onPress'] = var12;
+            var12 = 'checkbox';
+            var5['accessibilityRole'] = var12;
+            var12 = {};
+            var12['selected'] = var19;
+            var5['accessibilityState'] = var12;
+            var14 = _closure1_slot5;
+            var13 = _closure1_slot3;
+            var12 = {};
+            var15 = var10.row;
+            var12['style'] = var15;
+            var17 = _closure1_slot5;
+            var16 = _closure1_slot3;
+            var15 = {};
+            var20 = var10.optionText;
+            var15['style'] = var20;
+            var20 = _closure1_slot4;
+            var27 = 6;
+            var6 = var6[var27];
+            var6 = var18.bind(var4)(var6);
+            var18 = var6.Text;
+            var6 = {};
+            var21 = 'text-md/bold';
+            var6['variant'] = var21;
+            var24 = global;
+            var21 = var24.HermesInternal;
+            var21 = var21.concat;
+            var25 = '';
+            var21 = var21.bind(var25)(var22);
+            var6['children'] = var21;
+            var6 = var20.bind(var4)(var18, var6);
+            var18 = new Array(2);
+            var18[0] = var6;
+            var6 = null;
+            var21 = var6 != var26;
+            var20 = null;
+            if(!var21) { _fun0001_ip = 308; continue _fun0001 }
  244:
-            vacuum = _closure1_slot4;
-            ctrled = _closure1_slot0;
-            source = _closure1_slot2;
-            source = source[cntext];
-            source = ctrled.bind(tangon)(source);
-            ctrled = source.Text;
-            source = {};
-            cntext = 'text-md/normal';
-            source['variant'] = cntext;
-            sequen = sequen.HermesInternal;
-            sequen = sequen.concat;
-            sequen = sequen.bind(config)(record);
-            source['children'] = sequen;
-            update = vacuum.bind(tangon)(ctrled, source);
+            var23 = _closure1_slot4;
+            var22 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var21 = var21[var27];
+            var21 = var22.bind(var4)(var21);
+            var22 = var21.Text;
+            var21 = {};
+            var27 = 'text-md/normal';
+            var21['variant'] = var27;
+            var24 = var24.HermesInternal;
+            var24 = var24.concat;
+            var24 = var24.bind(var25)(var26);
+            var21['children'] = var24;
+            var20 = var23.bind(var4)(var22, var21);
  308:
-            result[1] = update;
-            kiloes['children'] = result;
-            sizing = output.bind(tangon)(sizing, kiloes);
-            kiloes = new Array(2);
-            kiloes[0] = sizing;
-            result = _closure1_slot4;
-            output = _closure1_slot1;
-            update = _closure1_slot2;
-            sizing = 7;
-            sizing = update[sizing];
-            output = output.bind(tangon)(sizing);
-            sizing = {};
-            sizing['selected'] = echoed;
-            sizing = result.bind(tangon)(output, sizing);
-            kiloes[1] = sizing;
-            romeon['children'] = kiloes;
-            romeon = backup.bind(tangon)(foxtra, romeon);
-            report['children'] = romeon;
-            verify = yankee.bind(tangon)(verify, report);
-            report = new Array(3);
-            report[0] = verify;
-            romeon = _closure1_slot4;
-            yankee = _closure1_slot3;
-            verify = {};
-            foxtra = offset.flex;
-            verify['style'] = foxtra;
-            verify = romeon.bind(tangon)(yankee, verify);
-            report[1] = verify;
-            oscard = null;
-            if(!option) { _fun00002_ip = 459; continue _fun00001 }
+            var18[1] = var20;
+            var15['children'] = var18;
+            var16 = var17.bind(var4)(var16, var15);
+            var15 = new Array(2);
+            var15[0] = var16;
+            var18 = _closure1_slot4;
+            var17 = _closure1_slot1;
+            var20 = _closure1_slot2;
+            var16 = 7;
+            var16 = var20[var16];
+            var17 = var17.bind(var4)(var16);
+            var16 = {};
+            var16['selected'] = var19;
+            var16 = var18.bind(var4)(var17, var16);
+            var15[1] = var16;
+            var12['children'] = var15;
+            var12 = var14.bind(var4)(var13, var12);
+            var5['children'] = var12;
+            var9 = var11.bind(var4)(var9, var5);
+            var5 = new Array(3);
+            var5[0] = var9;
+            var12 = _closure1_slot4;
+            var11 = _closure1_slot3;
+            var9 = {};
+            var13 = var10.flex;
+            var9['style'] = var13;
+            var9 = var12.bind(var4)(var11, var9);
+            var5[1] = var9;
+            var6 = null;
+            if(!var8) { _fun0001_ip = 459; continue _fun0001 }
  433:
-            verify = _closure1_slot4;
-            option = _closure1_slot3;
-            golfie = {};
-            offset = offset.divider;
-            golfie['style'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot3;
+            var7 = {};
+            var10 = var10.divider;
+            var7['style'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  459:
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    offset = 1;
-    tangon = oscard[offset];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    tangon = {'flex': 1, 'alignSelf': 'stretch', 'marginBottom': 16};
-    golfie['container'] = tangon;
-    tangon = {};
-    tangon['flex'] = offset;
-    golfie['flex'] = tangon;
-    tangon = {'minHeight': 48, 'marginBottom': 13};
-    golfie['rowContainer'] = tangon;
-    tangon = 8;
-    offset = {'marginHorizontal': 16, 'paddingTop': 14, 'marginBottom': 8, 'flexDirection': 'row', 'alignSelf': 'stretch'};
-    golfie['row'] = offset;
-    offset = {'flex': 1, 'lineHeight': 20, 'marginEnd': 8};
-    golfie['optionText'] = offset;
-    offset = {'alignSelf': 'stretch', 'marginStart': 16, 'height': 1};
-    yankee = 4;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BACKGROUND_MODIFIER_ACCENT;
-    offset['backgroundColor'] = yankee;
-    golfie['divider'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot6 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/in_app_reports/native/components/InAppReportsMultiSelect.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: MultiSelect
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var10 = 1;
+    var4 = var6[var10];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
+    var4 = {'flex': 1, 'alignSelf': 'stretch', 'marginBottom': 16};
+    var7['container'] = var4;
+    var4 = {};
+    var4['flex'] = var10;
+    var7['flex'] = var4;
+    var4 = {'minHeight': 48, 'marginBottom': 13};
+    var7['rowContainer'] = var4;
+    var4 = 8;
+    var10 = {'marginHorizontal': 16, 'paddingTop': 14, 'marginBottom': 8, 'flexDirection': 'row', 'alignSelf': 'stretch'};
+    var7['row'] = var10;
+    var10 = {'flex': 1, 'lineHeight': 20, 'marginEnd': 8};
+    var7['optionText'] = var10;
+    var10 = {'alignSelf': 'stretch', 'marginStart': 16, 'height': 1};
+    var11 = 4;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.BACKGROUND_MODIFIER_ACCENT;
+    var10['backgroundColor'] = var11;
+    var7['divider'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot6 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_reports/native/components/InAppReportsMultiSelect.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function MultiSelect(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.element;
-            michal = entity.onPress;
-            var _closure2_slot0 = michal;
-            entity = entity.state;
-            var _closure2_slot1 = entity;
-            entity = _closure1_slot6;
-            report = undefined;
-            golfie = entity.bind(report)();
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
+            var1 = arg1;
+            var3 = var1.element;
+            var2 = var1.onPress;
+            var _closure2_slot0 = var2;
+            var1 = var1.state;
+            var _closure2_slot1 = var1;
+            var1 = _closure1_slot6;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 114; continue _fun0002 }
  48:
-            option = zuuluu.type;
-            tangon = 'checkbox';
-            if(!(tangon === option)) { _fun00004_ip = 114; continue _fun00003 }
+            var8 = var3.type;
+            var4 = 'checkbox';
+            if(!(var4 === var8)) { _fun0002_ip = 114; continue _fun0002 }
  61:
-            option = zuuluu.data;
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot3;
-            michal = {};
-            golfie = golfie.container;
-            michal['style'] = golfie;
-            golfie = option.map;
-            oscard = function(argFoo, argBar, argBaz) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var8 = var3.data;
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var7 = var7.container;
+            var2['style'] = var7;
+            var7 = var8.map;
+            var6 = function(arg1, arg2, arg3) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    option = argBar;
-                    tangon = argFoo;
-                    michal = tangon[Symbol.iterator];
-                    tangon = michal().next;
-                    entity = tangon().value;
-                    zuuluu = michal;
-                    report = undefined;
-                    zuuluu = zuuluu === report;
-                    verify = undefined;
-                    if(zuuluu) { _fun00006_ip = 32; continue _fun00005 }
+                    var8 = arg2;
+                    var4 = arg1;
+                    var2 = var4[Symbol.iterator];
+                    var4 = var2().next;
+                    var1 = var4().value;
+                    var3 = var2;
+                    var5 = undefined;
+                    var3 = var3 === var5;
+                    var9 = undefined;
+                    if(var3) { _fun0003_ip = 32; continue _fun0003 }
  29:
-                    verify = entity;
+                    var9 = var1;
  32:
-                    var _closure3_slot0 = verify;
-                    oscard = undefined;
-                    if(zuuluu) { _fun00006_ip = 66; continue _fun00005 }
+                    var _closure3_slot0 = var9;
+                    var6 = undefined;
+                    if(var3) { _fun0003_ip = 66; continue _fun0003 }
  41:
-                    offset = tangon().value;
-                    entity = michal;
-                    entity = entity === report;
-                    oscard = undefined;
-                    zuuluu = entity;
-                    if(entity) { _fun00006_ip = 66; continue _fun00005 }
+                    var10 = var4().value;
+                    var1 = var2;
+                    var1 = var1 === var5;
+                    var6 = undefined;
+                    var3 = var1;
+                    if(var1) { _fun0003_ip = 66; continue _fun0003 }
  60:
-                    oscard = offset;
-                    zuuluu = entity;
+                    var6 = var10;
+                    var3 = var1;
  66:
-                    var _closure3_slot1 = oscard;
-                    entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 100; continue _fun00005 }
+                    var _closure3_slot1 = var6;
+                    var1 = undefined;
+                    if(var3) { _fun0003_ip = 100; continue _fun0003 }
  75:
-                    offset = tangon().value;
-                    tangon = michal;
-                    tangon = tangon === report;
-                    entity = undefined;
-                    zuuluu = tangon;
-                    if(tangon) { _fun00006_ip = 100; continue _fun00005 }
+                    var10 = var4().value;
+                    var4 = var2;
+                    var4 = var4 === var5;
+                    var1 = undefined;
+                    var3 = var4;
+                    if(var4) { _fun0003_ip = 100; continue _fun0003 }
  94:
-                    entity = offset;
-                    zuuluu = tangon;
+                    var1 = var10;
+                    var3 = var4;
  100:
-                    if(zuuluu) { _fun00006_ip = 106; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 106; continue _fun0003 }
  103:
-                    michal.return();
+                    var2.return();
  106:
-                    michal = argBaz;
-                    yankee = michal.length;
-                    tangon = _closure1_slot4;
-                    zuuluu = _closure1_slot7;
-                    michal = {};
-                    offset = 1;
-                    offset = yankee - offset;
-                    offset = option < offset;
-                    michal['showDivider'] = offset;
-                    golfie = function() { // Original name: onPress
-                        tangon = _closure2_slot0;
-                        zuuluu = _closure3_slot0;
-                        michal = _closure3_slot1;
-                        entity = undefined;
-                        entity = tangon.bind(entity)(zuuluu, michal);
-                        return entity;
+                    var2 = arg3;
+                    var11 = var2.length;
+                    var4 = _closure1_slot4;
+                    var3 = _closure1_slot7;
+                    var2 = {};
+                    var10 = 1;
+                    var10 = var11 - var10;
+                    var10 = var8 < var10;
+                    var2['showDivider'] = var10;
+                    var7 = function onPress() {
+                        var4 = _closure2_slot0;
+                        var3 = _closure3_slot0;
+                        var2 = _closure3_slot1;
+                        var1 = undefined;
+                        var1 = var4.bind(var1)(var3, var2);
+                        return var1;
                     };
-                    michal['onPress'] = golfie;
-                    golfie = _closure2_slot1;
-                    golfie = verify in golfie;
-                    michal['selected'] = golfie;
-                    michal['title'] = oscard;
-                    michal['subtitle'] = entity;
-                    entity = global;
-                    entity = entity.HermesInternal;
-                    golfie = entity.concat;
-                    oscard = '';
-                    entity = '+button';
-                    entity = golfie.bind(oscard)(option, entity);
-                    entity = tangon.bind(report)(zuuluu, michal, entity);
-                    return entity;
+                    var2['onPress'] = var7;
+                    var7 = _closure2_slot1;
+                    var7 = var9 in var7;
+                    var2['selected'] = var7;
+                    var2['title'] = var6;
+                    var2['subtitle'] = var1;
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var7 = var1.concat;
+                    var6 = '';
+                    var1 = '+button';
+                    var1 = var7.bind(var6)(var8, var1);
+                    var1 = var4.bind(var5)(var3, var2, var1);
+                    return var1;
                 }
             };
-            oscard = golfie.bind(option)(oscard);
-            michal['children'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var6 = var7.bind(var8)(var6);
+            var2['children'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  114:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

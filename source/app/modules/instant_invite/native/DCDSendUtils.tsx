@@ -1,285 +1,285 @@
 // app/modules/instant_invite/native/DCDSendUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Linking;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.NativeModules;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/instant_invite/native/DCDSendUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Linking;
+    var _closure1_slot3 = var7;
+    var4 = var4.NativeModules;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/instant_invite/native/DCDSendUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            tangon = tangon[entity];
-            entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.isAndroid;
-            tangon = tangon.bind(report)();
-            if(tangon) { _fun00002_ip = 67; continue _fun00001 }
+            var2 = arg1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isAndroid;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0001_ip = 67; continue _fun0001 }
  40:
-            tangon = _closure1_slot4;
-            oscard = tangon.DCDSend;
-            report = oscard.sendSMS;
-            tangon = argBar;
-            tangon = report.bind(oscard)(michal, tangon);
-            _fun00002_ip = 134; continue _fun00001;
+            var4 = _closure1_slot4;
+            var6 = var4.DCDSend;
+            var5 = var6.sendSMS;
+            var4 = arg2;
+            var4 = var5.bind(var6)(var2, var4);
+            _fun0001_ip = 134; continue _fun0001;
  67:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.sendSMS;
-            golfie = michal.body;
-            oscard = null;
-            option = oscard != golfie;
-            zuuluu = '';
-            if(!option) { _fun00002_ip = 114; continue _fun00001 }
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 2;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.sendSMS;
+            var7 = var2.body;
+            var6 = null;
+            var8 = var6 != var7;
+            var3 = '';
+            if(!var8) { _fun0001_ip = 114; continue _fun0001 }
  111:
-            zuuluu = golfie;
+            var3 = var7;
  114:
-            michal = michal.recipients;
-            if(!(oscard == michal)) { _fun00002_ip = 128; continue _fun00001 }
+            var2 = var2.recipients;
+            if(!(var6 == var2)) { _fun0001_ip = 128; continue _fun0001 }
  124:
-            michal = new Array(0);
+            var2 = new Array(0);
  128:
-            michal = tangon.bind(report)(zuuluu, michal);
+            var2 = var4.bind(var5)(var3, var2);
  134:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['sendSMS'] = tangon;
-    tangon = function(argFoo, argBar) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['sendSMS'] = var4;
+    var4 = function(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            tangon = tangon[entity];
-            entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.isAndroid;
-            tangon = tangon.bind(report)();
-            if(tangon) { _fun00004_ip = 67; continue _fun00003 }
+            var2 = arg1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isAndroid;
+            var4 = var4.bind(var5)();
+            if(var4) { _fun0002_ip = 67; continue _fun0002 }
  40:
-            tangon = _closure1_slot4;
-            oscard = tangon.DCDSend;
-            report = oscard.sendMail;
-            tangon = argBar;
-            tangon = report.bind(oscard)(michal, tangon);
-            _fun00004_ip = 154; continue _fun00003;
+            var4 = _closure1_slot4;
+            var6 = var4.DCDSend;
+            var5 = var6.sendMail;
+            var4 = arg2;
+            var4 = var5.bind(var6)(var2, var4);
+            _fun0002_ip = 154; continue _fun0002;
  67:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            oscard = tangon.bind(entity)(zuuluu);
-            report = oscard.sendMail;
-            option = michal.subject;
-            golfie = null;
-            verify = golfie != option;
-            tangon = '';
-            zuuluu = tangon;
-            if(!verify) { _fun00004_ip = 118; continue _fun00003 }
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 2;
+            var3 = var5[var3];
+            var6 = var4.bind(var1)(var3);
+            var5 = var6.sendMail;
+            var8 = var2.subject;
+            var7 = null;
+            var9 = var7 != var8;
+            var4 = '';
+            var3 = var4;
+            if(!var9) { _fun0002_ip = 118; continue _fun0002 }
  115:
-            zuuluu = option;
+            var3 = var8;
  118:
-            option = michal.body;
-            verify = golfie != option;
-            if(!verify) { _fun00004_ip = 133; continue _fun00003 }
+            var8 = var2.body;
+            var9 = var7 != var8;
+            if(!var9) { _fun0002_ip = 133; continue _fun0002 }
  130:
-            tangon = option;
+            var4 = var8;
  133:
-            michal = michal.recipients;
-            if(!(golfie == michal)) { _fun00004_ip = 147; continue _fun00003 }
+            var2 = var2.recipients;
+            if(!(var7 == var2)) { _fun0002_ip = 147; continue _fun0002 }
  143:
-            michal = new Array(0);
+            var2 = new Array(0);
  147:
-            michal = report.bind(oscard)(zuuluu, tangon, michal);
+            var2 = var5.bind(var6)(var3, var4, var2);
  154:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['sendMail'] = tangon;
-    tangon = function() {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['sendMail'] = var4;
+    var4 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            oscard = undefined;
-            zuuluu = zuuluu.bind(oscard)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00006_ip = 59; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0003_ip = 59; continue _fun0003 }
  37:
-            entity = _closure1_slot4;
-            zuuluu = entity.DCDSend;
-            entity = zuuluu.canSendSMS;
-            entity = entity.bind(zuuluu)();
-            _fun00006_ip = 108; continue _fun00005;
+            var1 = _closure1_slot4;
+            var3 = var1.DCDSend;
+            var1 = var3.canSendSMS;
+            var1 = var1.bind(var3)();
+            _fun0003_ip = 108; continue _fun0003;
  59:
-            zuuluu = global;
-            tangon = zuuluu.Promise;
-            zuuluu = tangon.resolve;
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 2;
-            michal = golfie[michal];
-            report = report.bind(oscard)(michal);
-            michal = report.canSendSMS;
-            michal = michal.bind(report)();
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = global;
+            var4 = var3.Promise;
+            var3 = var4.resolve;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var2 = var7[var2];
+            var5 = var5.bind(var6)(var2);
+            var2 = var5.canSendSMS;
+            var2 = var2.bind(var5)();
+            var1 = var3.bind(var4)(var2);
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canSendSMS'] = tangon;
-    tangon = function() {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['canSendSMS'] = var4;
+    var4 = function() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 1;
-            entity = tangon[entity];
-            oscard = undefined;
-            zuuluu = zuuluu.bind(oscard)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00008_ip = 59; continue _fun00007 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var6 = undefined;
+            var3 = var3.bind(var6)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0004_ip = 59; continue _fun0004 }
  37:
-            entity = _closure1_slot4;
-            zuuluu = entity.DCDSend;
-            entity = zuuluu.canSendMail;
-            entity = entity.bind(zuuluu)();
-            _fun00008_ip = 108; continue _fun00007;
+            var1 = _closure1_slot4;
+            var3 = var1.DCDSend;
+            var1 = var3.canSendMail;
+            var1 = var1.bind(var3)();
+            _fun0004_ip = 108; continue _fun0004;
  59:
-            zuuluu = global;
-            tangon = zuuluu.Promise;
-            zuuluu = tangon.resolve;
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 2;
-            michal = golfie[michal];
-            report = report.bind(oscard)(michal);
-            michal = report.canSendMail;
-            michal = michal.bind(report)();
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = global;
+            var4 = var3.Promise;
+            var3 = var4.resolve;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var2 = var7[var2];
+            var5 = var5.bind(var6)(var2);
+            var2 = var5.canSendMail;
+            var2 = var2.bind(var5)();
+            var1 = var3.bind(var4)(var2);
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canSendMail'] = tangon;
-    michal = function(argFoo) { // Original name: canOpenUrlScheme
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['canSendMail'] = var4;
+    var2 = function canOpenUrlScheme(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = argFoo;
-            entity = zuuluu;
-            var _closure2_slot0 = zuuluu;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 1;
-            zuuluu = oscard[zuuluu];
-            oscard = undefined;
-            report = report.bind(oscard)(zuuluu);
-            zuuluu = report.isAndroid;
-            zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00010_ip = 86; continue _fun00009 }
+            var3 = arg1;
+            var1 = var3;
+            var _closure2_slot0 = var3;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 1;
+            var3 = var6[var3];
+            var6 = undefined;
+            var5 = var5.bind(var6)(var3);
+            var3 = var5.isAndroid;
+            var3 = var3.bind(var5)();
+            if(var3) { _fun0005_ip = 86; continue _fun0005 }
  49:
-            zuuluu = global;
-            report = zuuluu.Promise;
-            zuuluu = report.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-            option = function(argFoo) {
-                michal = argFoo;
-                var _closure3_slot0 = michal;
-                tangon = _closure1_slot3;
-                zuuluu = tangon.canOpenURL;
-                golfie = _closure2_slot0;
-                michal = global;
-                michal = michal.HermesInternal;
-                oscard = michal.concat;
-                report = '';
-                michal = '://app';
-                michal = oscard.bind(report)(golfie, michal);
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.then;
-                michal = function(argFoo) {
-                    zuuluu = _closure3_slot0;
-                    entity = undefined;
-                    michal = argFoo;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+            var3 = global;
+            var5 = var3.Promise;
+            var3 = var5.prototype;
+            var3 = Object.create(var3, {constructor: {value: var5}});
+            var8 = function(arg1) {
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var4 = _closure1_slot3;
+                var3 = var4.canOpenURL;
+                var7 = _closure2_slot0;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var6 = var2.concat;
+                var5 = '';
+                var2 = '://app';
+                var2 = var6.bind(var5)(var7, var2);
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.then;
+                var2 = function(arg1) {
+                    var3 = _closure3_slot0;
+                    var1 = undefined;
+                    var2 = arg1;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.catch;
-                entity = function() {
-                    zuuluu = _closure3_slot0;
-                    entity = undefined;
-                    michal = false;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.catch;
+                var1 = function() {
+                    var3 = _closure3_slot0;
+                    var1 = undefined;
+                    var2 = false;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            verify = zuuluu;
-            michal = new verify[report](option, golfie);
-            michal = michal instanceof Object ? michal : zuuluu;
-            return michal;
+            var9 = var3;
+            var2 = new var9[var5](var8, var7);
+            var2 = var2 instanceof Object ? var2 : var3;
+            return var2;
  86: // try_start_0
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.resolve;
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            tangon = 2;
-            tangon = golfie[tangon];
-            report = report.bind(oscard)(tangon);
-            tangon = report.canOpenUrlScheme;
-            entity = tangon.bind(report)(entity);
-            entity = michal.bind(zuuluu)(entity);
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.resolve;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 2;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.canOpenUrlScheme;
+            var1 = var4.bind(var5)(var1);
+            var1 = var2.bind(var3)(var1);
  136: // try_end0
-            return entity;
+            return var1;
  138: // catch_target0
             CatchBlockStart(arg_register=0);
-            entity = global;
-            zuuluu = entity.Promise;
-            michal = zuuluu.resolve;
-            entity = false;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = false;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['canOpenUrlScheme'] = michal;
-    return entity;
+    var3['canOpenUrlScheme'] = var2;
+    return var1;
 })();

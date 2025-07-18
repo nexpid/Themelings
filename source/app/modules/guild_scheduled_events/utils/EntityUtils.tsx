@@ -1,134 +1,134 @@
 // app/modules/guild_scheduled_events/utils/EntityUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function(argFoo, argBar) { // Original name: _getLocationFromEvent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = function _getLocationFromEvent(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argBar;
-            entity = _closure1_slot1;
-            zuuluu = entity.EXTERNAL;
-            entity = argFoo;
-            zuuluu = entity === zuuluu;
-            if(!zuuluu) { _fun00002_ip = 32; continue _fun00001 }
+            var2 = arg2;
+            var1 = _closure1_slot1;
+            var3 = var1.EXTERNAL;
+            var1 = arg1;
+            var3 = var1 === var3;
+            if(!var3) { _fun0001_ip = 32; continue _fun0001 }
  26:
-            entity = null;
-            zuuluu = entity != michal;
+            var1 = null;
+            var3 = var1 != var2;
  32:
-            if(!zuuluu) { _fun00002_ip = 43; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 43; continue _fun0001 }
  35:
-            entity = 'location';
-            zuuluu = entity in michal;
+            var1 = 'location';
+            var3 = var1 in var2;
  43:
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 53; continue _fun00001 }
+            var1 = null;
+            if(!var3) { _fun0001_ip = 53; continue _fun0001 }
  48:
-            entity = michal.location;
+            var1 = var2.location;
  53:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.GuildScheduledEventEntityTypes;
-    var _closure1_slot1 = golfie;
-    tangon = tangon.EntityChannelTypes;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/utils/EntityUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getChannelFromEvent
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GuildScheduledEventEntityTypes;
+    var _closure1_slot1 = var7;
+    var4 = var4.EntityChannelTypes;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/utils/EntityUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getChannelFromEvent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            report = zuuluu.entity_type;
-            michal = zuuluu.channel_id;
-            entity = _closure1_slot2;
-            report = report in entity;
-            if(!report) { _fun00004_ip = 34; continue _fun00003 }
+            var3 = arg1;
+            var5 = var3.entity_type;
+            var2 = var3.channel_id;
+            var1 = _closure1_slot2;
+            var5 = var5 in var1;
+            if(!var5) { _fun0002_ip = 34; continue _fun0002 }
  28:
-            entity = null;
-            report = entity != michal;
+            var1 = null;
+            var5 = var1 != var2;
  34:
-            entity = undefined;
-            if(!report) { _fun00004_ip = 75; continue _fun00003 }
+            var1 = undefined;
+            if(!var5) { _fun0002_ip = 75; continue _fun0002 }
  39:
-            report = _closure1_slot0;
-            tangon = report.getChannel;
-            zuuluu = zuuluu.channel_id;
-            zuuluu = tangon.bind(report)(zuuluu);
-            tangon = null;
-            tangon = tangon != zuuluu;
-            michal = undefined;
-            if(!tangon) { _fun00004_ip = 72; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var4 = var5.getChannel;
+            var3 = var3.channel_id;
+            var3 = var4.bind(var5)(var3);
+            var4 = null;
+            var4 = var4 != var3;
+            var2 = undefined;
+            if(!var4) { _fun0002_ip = 72; continue _fun0002 }
  69:
-            michal = zuuluu;
+            var2 = var3;
  72:
-            entity = michal;
+            var1 = var2;
  75:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getChannelFromEvent'] = tangon;
-    tangon = function(argFoo) { // Original name: getLocationFromEvent
-        entity = argFoo;
-        tangon = _closure1_slot3;
-        zuuluu = entity.entity_type;
-        michal = entity.entity_metadata;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+    var3['getChannelFromEvent'] = var4;
+    var4 = function getLocationFromEvent(arg1) {
+        var1 = arg1;
+        var4 = _closure1_slot3;
+        var3 = var1.entity_type;
+        var2 = var1.entity_metadata;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    zuuluu['getLocationFromEvent'] = tangon;
-    tangon = function(argFoo) { // Original name: getLocationFromEventData
-        entity = argFoo;
-        tangon = _closure1_slot3;
-        zuuluu = entity.entityType;
-        michal = entity.entityMetadata;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+    var3['getLocationFromEvent'] = var4;
+    var4 = function getLocationFromEventData(arg1) {
+        var1 = arg1;
+        var4 = _closure1_slot3;
+        var3 = var1.entityType;
+        var2 = var1.entityMetadata;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    zuuluu['getLocationFromEventData'] = tangon;
-    michal = function(argFoo) { // Original name: getChannelTypeFromEntity
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getLocationFromEventData'] = var4;
+    var2 = function getChannelTypeFromEntity(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot1;
-            entity = entity.VOICE;
-            if(!(zuuluu !== entity)) { _fun00006_ip = 36; continue _fun00005 }
+            var3 = arg1;
+            var1 = _closure1_slot1;
+            var1 = var1.VOICE;
+            if(!(var3 !== var1)) { _fun0003_ip = 36; continue _fun0003 }
  20:
-            entity = _closure1_slot1;
-            tangon = entity.STAGE_INSTANCE;
-            entity = undefined;
-            if(!(zuuluu === tangon)) { _fun00006_ip = 44; continue _fun00005 }
+            var1 = _closure1_slot1;
+            var4 = var1.STAGE_INSTANCE;
+            var1 = undefined;
+            if(!(var3 === var4)) { _fun0003_ip = 44; continue _fun0003 }
  36:
-            michal = _closure1_slot2;
-            entity = michal[zuuluu];
+            var2 = _closure1_slot2;
+            var1 = var2[var3];
  44:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getChannelTypeFromEntity'] = michal;
-    return entity;
+    var3['getChannelTypeFromEntity'] = var2;
+    return var1;
 })();

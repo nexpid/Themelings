@@ -1,149 +1,149 @@
 // app/modules/activities/confirmActivityChangeAlert.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/confirmActivityChangeAlert.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: confirmActivityChangeModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/confirmActivityChangeAlert.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function confirmActivityChangeModal(arg1, arg2, arg3, arg4) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            foxtra = argFoo;
-            yankee = argBar;
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 0;
-            michal = report[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.show;
-            michal = {};
-            oscard = _closure1_slot0;
-            backup = 1;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            verify = golfie.intl;
-            option = verify.string;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.XkIWkp;
-            golfie = option.bind(verify)(golfie);
-            michal['title'] = golfie;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            verify = golfie.intl;
-            option = verify.string;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.ETE/oK;
-            golfie = option.bind(verify)(golfie);
-            michal['cancelText'] = golfie;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            verify = golfie.intl;
-            option = verify.string;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.cY+Ooa;
-            golfie = option.bind(verify)(golfie);
-            michal['confirmText'] = golfie;
-            golfie = argBaz;
-            michal['onConfirm'] = golfie;
-            golfie = argCor;
-            michal['onCancel'] = golfie;
-            golfie = report[backup];
-            golfie = oscard.bind(entity)(golfie);
-            option = golfie.intl;
-            golfie = option.format;
-            report = report[backup];
-            report = oscard.bind(entity)(report);
-            report = report.t;
-            oscard = report.5/Xorq;
-            report = {};
-            verify = null;
-            kiloes = verify == foxtra;
-            romeon = undefined;
-            if(kiloes) { _fun00002_ip = 268; continue _fun00001 }
+            var13 = arg1;
+            var11 = arg2;
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 0;
+            var2 = var5[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.show;
+            var2 = {};
+            var6 = _closure1_slot0;
+            var14 = 1;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var9 = var7.intl;
+            var8 = var9.string;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var7 = var7.t;
+            var7 = var7.XkIWkp;
+            var7 = var8.bind(var9)(var7);
+            var2['title'] = var7;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var9 = var7.intl;
+            var8 = var9.string;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var7 = var7.t;
+            var7 = var7.ETE/oK;
+            var7 = var8.bind(var9)(var7);
+            var2['cancelText'] = var7;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var9 = var7.intl;
+            var8 = var9.string;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var7 = var7.t;
+            var7 = var7.cY+Ooa;
+            var7 = var8.bind(var9)(var7);
+            var2['confirmText'] = var7;
+            var7 = arg3;
+            var2['onConfirm'] = var7;
+            var7 = arg4;
+            var2['onCancel'] = var7;
+            var7 = var5[var14];
+            var7 = var6.bind(var1)(var7);
+            var8 = var7.intl;
+            var7 = var8.format;
+            var5 = var5[var14];
+            var5 = var6.bind(var1)(var5);
+            var5 = var5.t;
+            var6 = var5.5/Xorq;
+            var5 = {};
+            var9 = null;
+            var15 = var9 == var13;
+            var12 = undefined;
+            if(var15) { _fun0001_ip = 268; continue _fun0001 }
  263:
-            romeon = foxtra.name;
+            var12 = var13.name;
  268:
-            if(!(verify == romeon)) { _fun00002_ip = 326; continue _fun00001 }
+            if(!(var9 == var12)) { _fun0001_ip = 326; continue _fun0001 }
  272:
-            output = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            kiloes = foxtra[backup];
-            kiloes = output.bind(entity)(kiloes);
-            sizing = kiloes.intl;
-            kiloes = sizing.string;
-            foxtra = foxtra[backup];
-            foxtra = output.bind(entity)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.G99XFh;
-            romeon = kiloes.bind(sizing)(foxtra);
+            var17 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var15 = var13[var14];
+            var15 = var17.bind(var1)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
+            var13 = var13[var14];
+            var13 = var17.bind(var1)(var13);
+            var13 = var13.t;
+            var13 = var13.G99XFh;
+            var12 = var15.bind(var16)(var13);
  326:
-            report['currentApplicationName'] = romeon;
-            foxtra = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            romeon = 2;
-            romeon = kiloes[romeon];
-            kiloes = foxtra.bind(entity)(romeon);
-            foxtra = kiloes.isNullOrEmpty;
-            sizing = verify == yankee;
-            romeon = undefined;
-            if(sizing) { _fun00002_ip = 373; continue _fun00001 }
+            var5['currentApplicationName'] = var12;
+            var13 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var12 = 2;
+            var12 = var15[var12];
+            var15 = var13.bind(var1)(var12);
+            var13 = var15.isNullOrEmpty;
+            var16 = var9 == var11;
+            var12 = undefined;
+            if(var16) { _fun0001_ip = 373; continue _fun0001 }
  368:
-            romeon = yankee.name;
+            var12 = var11.name;
  373:
-            romeon = foxtra.bind(kiloes)(romeon);
-            if(romeon) { _fun00002_ip = 397; continue _fun00001 }
+            var12 = var13.bind(var15)(var12);
+            if(var12) { _fun0001_ip = 397; continue _fun0001 }
  381:
-            romeon = verify == yankee;
-            verify = undefined;
-            if(romeon) { _fun00002_ip = 395; continue _fun00001 }
+            var12 = var9 == var11;
+            var9 = undefined;
+            if(var12) { _fun0001_ip = 395; continue _fun0001 }
  390:
-            verify = yankee.name;
+            var9 = var11.name;
  395:
-            _fun00002_ip = 451; continue _fun00001;
+            _fun0001_ip = 451; continue _fun0001;
  397:
-            foxtra = _closure1_slot0;
-            offset = _closure1_slot2;
-            yankee = offset[backup];
-            yankee = foxtra.bind(entity)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            offset = offset[backup];
-            offset = foxtra.bind(entity)(offset);
-            offset = offset.t;
-            offset = offset.OGUjmp;
-            verify = yankee.bind(romeon)(offset);
+            var13 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var11 = var10[var14];
+            var11 = var13.bind(var1)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var10 = var10[var14];
+            var10 = var13.bind(var1)(var10);
+            var10 = var10.t;
+            var10 = var10.OGUjmp;
+            var9 = var11.bind(var12)(var10);
  451:
-            report['currentApplicationChannelName'] = verify;
-            report = golfie.bind(option)(oscard, report);
-            michal['body'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var5['currentApplicationChannelName'] = var9;
+            var5 = var7.bind(var8)(var6, var5);
+            var2['body'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

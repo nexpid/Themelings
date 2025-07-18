@@ -1,172 +1,172 @@
 // app/modules/quests/experiments/QuestsLoggingExperiment.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    romeon = true;
-    tangon['value'] = romeon;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NOOP;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createExperiment;
-    tangon = {'id': '2024-04_quests_logging', 'kind': 'user', 'label': 'Quests Logging'};
-    verify = {};
-    yankee = false;
-    verify['enabled'] = yankee;
-    tangon['defaultConfig'] = verify;
-    offset = {'id': 0, 'label': 'Control'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(2);
-    verify[0] = offset;
-    offset = {'id': 1, 'label': 'Quest logging enabled'};
-    yankee = {};
-    yankee['enabled'] = romeon;
-    offset['config'] = yankee;
-    verify[1] = offset;
-    tangon['treatments'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/experiments/QuestsLoggingExperiment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: getQuestLogger
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var12 = true;
+    var4['value'] = var12;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NOOP;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createExperiment;
+    var4 = {'id': '2024-04_quests_logging', 'kind': 'user', 'label': 'Quests Logging'};
+    var9 = {};
+    var11 = false;
+    var9['enabled'] = var11;
+    var4['defaultConfig'] = var9;
+    var10 = {'id': 0, 'label': 'Control'};
+    var9 = {};
+    var9['enabled'] = var11;
+    var10['config'] = var9;
+    var9 = new Array(2);
+    var9[0] = var10;
+    var10 = {'id': 1, 'label': 'Quest logging enabled'};
+    var11 = {};
+    var11['enabled'] = var12;
+    var10['config'] = var11;
+    var9[1] = var10;
+    var4['treatments'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/experiments/QuestsLoggingExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getQuestLogger() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = arguments[0];
-            report = undefined;
-            if(!(entity === report)) { _fun00002_ip = 11; continue _fun00001 }
+            var1 = arguments[0];
+            var5 = undefined;
+            if(!(var1 === var5)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            entity = {};
+            var1 = {};
  11:
-            zuuluu = entity.quest;
-            offset = entity.location;
-            golfie = _closure1_slot3;
-            oscard = golfie.getCurrentConfig;
-            tangon = {};
-            entity = 'quests_logging';
-            tangon['location'] = entity;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = oscard.bind(golfie)(tangon, entity);
-            tangon = entity.enabled;
-            entity = null;
-            oscard = entity == zuuluu;
-            verify = undefined;
-            if(oscard) { _fun00002_ip = 95; continue _fun00001 }
+            var3 = var1.quest;
+            var10 = var1.location;
+            var7 = _closure1_slot3;
+            var6 = var7.getCurrentConfig;
+            var4 = {};
+            var1 = 'quests_logging';
+            var4['location'] = var1;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var6.bind(var7)(var4, var1);
+            var4 = var1.enabled;
+            var1 = null;
+            var6 = var1 == var3;
+            var9 = undefined;
+            if(var6) { _fun0001_ip = 95; continue _fun0001 }
  78:
-            zuuluu = zuuluu.config;
-            zuuluu = zuuluu.messages;
-            verify = zuuluu.questName;
+            var3 = var3.config;
+            var3 = var3.messages;
+            var9 = var3.questName;
  95:
-            zuuluu = entity != offset;
-            golfie = '';
-            oscard = golfie;
-            if(!zuuluu) { _fun00002_ip = 131; continue _fun00001 }
+            var3 = var1 != var10;
+            var7 = '';
+            var6 = var7;
+            if(!var3) { _fun0001_ip = 131; continue _fun0001 }
  109:
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            option = zuuluu.concat;
-            zuuluu = '-';
-            oscard = option.bind(zuuluu)(offset);
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var8 = var3.concat;
+            var3 = '-';
+            var6 = var8.bind(var3)(var10);
  131:
-            entity = entity != verify;
-            if(!entity) { _fun00002_ip = 165; continue _fun00001 }
+            var1 = var1 != var9;
+            if(!var1) { _fun0001_ip = 165; continue _fun0001 }
  138:
-            entity = global;
-            entity = entity.HermesInternal;
-            option = entity.concat;
-            zuuluu = '-';
-            entity = ')';
-            golfie = option.bind(zuuluu)(verify, entity);
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var8 = var1.concat;
+            var3 = '-';
+            var1 = ')';
+            var7 = var8.bind(var3)(var9, var1);
  165:
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 2;
-            entity = option[entity];
-            report = zuuluu.bind(report)(entity);
-            entity = global;
-            entity = entity.HermesInternal;
-            zuuluu = entity.concat;
-            entity = 'QuestLogger';
-            romeon = zuuluu.bind(entity)(oscard, golfie);
-            zuuluu = report.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-            foxtra = zuuluu;
-            entity = new foxtra[report](romeon, yankee);
-            zuuluu = entity instanceof Object ? entity : zuuluu;
-            entity = {};
-            if(tangon) { _fun00002_ip = 241; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 2;
+            var1 = var8[var1];
+            var5 = var3.bind(var5)(var1);
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var1 = 'QuestLogger';
+            var12 = var3.bind(var1)(var6, var7);
+            var3 = var5.prototype;
+            var3 = Object.create(var3, {constructor: {value: var5}});
+            var13 = var3;
+            var1 = new var13[var5](var12, var11);
+            var3 = var1 instanceof Object ? var1 : var3;
+            var1 = {};
+            if(var4) { _fun0001_ip = 241; continue _fun0001 }
  235:
-            report = _closure1_slot2;
-            _fun00002_ip = 247; continue _fun00001;
+            var5 = _closure1_slot2;
+            _fun0001_ip = 247; continue _fun0001;
  241:
-            report = zuuluu.log;
+            var5 = var3.log;
  247:
-            entity['log'] = report;
-            if(tangon) { _fun00002_ip = 261; continue _fun00001 }
+            var1['log'] = var5;
+            if(var4) { _fun0001_ip = 261; continue _fun0001 }
  255:
-            report = _closure1_slot2;
-            _fun00002_ip = 266; continue _fun00001;
+            var5 = _closure1_slot2;
+            _fun0001_ip = 266; continue _fun0001;
  261:
-            report = zuuluu.warn;
+            var5 = var3.warn;
  266:
-            entity['warn'] = report;
-            if(tangon) { _fun00002_ip = 279; continue _fun00001 }
+            var1['warn'] = var5;
+            if(var4) { _fun0001_ip = 279; continue _fun0001 }
  273:
-            report = _closure1_slot2;
-            _fun00002_ip = 284; continue _fun00001;
+            var5 = _closure1_slot2;
+            _fun0001_ip = 284; continue _fun0001;
  279:
-            report = zuuluu.error;
+            var5 = var3.error;
  284:
-            entity['error'] = report;
-            if(tangon) { _fun00002_ip = 297; continue _fun00001 }
+            var1['error'] = var5;
+            if(var4) { _fun0001_ip = 297; continue _fun0001 }
  291:
-            report = _closure1_slot2;
-            _fun00002_ip = 303; continue _fun00001;
+            var5 = _closure1_slot2;
+            _fun0001_ip = 303; continue _fun0001;
  297:
-            report = zuuluu.info;
+            var5 = var3.info;
  303:
-            entity['info'] = report;
-            if(tangon) { _fun00002_ip = 317; continue _fun00001 }
+            var1['info'] = var5;
+            if(var4) { _fun0001_ip = 317; continue _fun0001 }
  311:
-            report = _closure1_slot2;
-            _fun00002_ip = 323; continue _fun00001;
+            var5 = _closure1_slot2;
+            _fun0001_ip = 323; continue _fun0001;
  317:
-            report = zuuluu.verbose;
+            var5 = var3.verbose;
  323:
-            entity['verbose'] = report;
-            if(tangon) { _fun00002_ip = 337; continue _fun00001 }
+            var1['verbose'] = var5;
+            if(var4) { _fun0001_ip = 337; continue _fun0001 }
  331:
-            michal = _closure1_slot2;
-            _fun00002_ip = 343; continue _fun00001;
+            var2 = _closure1_slot2;
+            _fun0001_ip = 343; continue _fun0001;
  337:
-            michal = zuuluu.trace;
+            var2 = var3.trace;
  343:
-            entity['trace'] = michal;
-            return entity;
+            var1['trace'] = var2;
+            return var1;
         }
     };
-    zuuluu['getQuestLogger'] = michal;
-    return entity;
+    var3['getQuestLogger'] = var2;
+    return var1;
 })();

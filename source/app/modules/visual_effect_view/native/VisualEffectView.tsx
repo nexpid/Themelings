@@ -1,352 +1,352 @@
 // app/modules/visual_effect_view/native/VisualEffectView.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    entity = function(argFoo, argBar) { // Original name: getIOSBlurEffect
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var1 = function getIOSBlurEffect(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            entity = entity.MODERN_IOS_BLURS_EFFECTS_AVAILABLE;
-            if(!entity) { _fun00002_ip = 48; continue _fun00001 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.MODERN_IOS_BLURS_EFFECTS_AVAILABLE;
+            if(!var1) { _fun0001_ip = 48; continue _fun0001 }
  37:
-            michal = 'default';
-            entity = argBar;
-            if(!(michal === entity)) { _fun00002_ip = 70; continue _fun00001 }
+            var2 = 'default';
+            var1 = arg2;
+            if(!(var2 === var1)) { _fun0001_ip = 70; continue _fun0001 }
  48:
-            entity = 'UIBlurEffectStyleDark';
-            michal = 'light';
-            if(!(michal === tangon)) { _fun00002_ip = 68; continue _fun00001 }
+            var1 = 'UIBlurEffectStyleDark';
+            var2 = 'light';
+            if(!(var2 === var4)) { _fun0001_ip = 68; continue _fun0001 }
  62:
-            entity = 'UIBlurEffectStyleLight';
+            var1 = 'UIBlurEffectStyleLight';
  68:
-            _fun00002_ip = 93; continue _fun00001;
+            _fun0001_ip = 93; continue _fun0001;
  70:
-            michal = 'UIBlurEffectStyleSystemUltraThinMaterialDark';
-            zuuluu = 'light';
-            if(!(zuuluu === tangon)) { _fun00002_ip = 90; continue _fun00001 }
+            var2 = 'UIBlurEffectStyleSystemUltraThinMaterialDark';
+            var3 = 'light';
+            if(!(var3 === var4)) { _fun0001_ip = 90; continue _fun0001 }
  84:
-            michal = 'UIBlurEffectStyleSystemUltraThinMaterialLight';
+            var2 = 'UIBlurEffectStyleSystemUltraThinMaterialLight';
  90:
-            entity = michal;
+            var1 = var2;
  93:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = function(argFoo, argBar) { // Original name: getAndroidBlurAmount
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function getAndroidBlurAmount(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argBar;
-            michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 36; continue _fun00003 }
+            var1 = arg2;
+            var2 = null;
+            if(!(var2 == var1)) { _fun0002_ip = 36; continue _fun0002 }
  9:
-            michal = 1;
-            tangon = 'light';
-            zuuluu = argFoo;
-            if(!(tangon === zuuluu)) { _fun00004_ip = 33; continue _fun00003 }
+            var2 = 1;
+            var4 = 'light';
+            var3 = arg1;
+            if(!(var4 === var3)) { _fun0002_ip = 33; continue _fun0002 }
  23:
-            michal = 0.85;
+            var2 = 0.85;
  33:
-            entity = michal;
+            var1 = var2;
  36:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot8 = entity;
-    michal = function(argFoo) { // Original name: isBlurDisabled
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var1;
+    var2 = function isBlurDisabled(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.android_softwareBlurDisabled;
-            report = entity.android_blurTargetViewNativeId;
-            entity = _closure1_slot6;
-            if(!entity) { _fun00006_ip = 77; continue _fun00005 }
+            var1 = arg1;
+            var4 = var1.android_softwareBlurDisabled;
+            var5 = var1.android_blurTargetViewNativeId;
+            var1 = _closure1_slot6;
+            if(!var1) { _fun0003_ip = 77; continue _fun0003 }
  25:
-            michal = null;
-            michal = michal == report;
-            if(michal) { _fun00006_ip = 74; continue _fun00005 }
+            var2 = null;
+            var2 = var2 == var5;
+            if(var2) { _fun0003_ip = 74; continue _fun0003 }
  34:
-            if(!tangon) { _fun00006_ip = 68; continue _fun00005 }
+            if(!var4) { _fun0003_ip = 68; continue _fun0003 }
  37:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 8;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            zuuluu = oscard.bind(zuuluu)(report);
-            zuuluu = zuuluu.MODERN_ANDROID_BLURRING_AVAILABLE;
-            tangon = !zuuluu;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 8;
+            var5 = var5[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = var3.MODERN_ANDROID_BLURRING_AVAILABLE;
+            var4 = !var3;
  68:
-            zuuluu = true;
-            michal = zuuluu === tangon;
+            var3 = true;
+            var2 = var3 === var4;
  74:
-            entity = michal;
+            var1 = var2;
  77:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot9 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    option = report.bind(entity)(option);
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.View;
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.useVisualEffectViewOverrides;
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.jsx;
-    var _closure1_slot5 = report;
-    report = 4;
-    report = golfie[report];
-    verify = oscard.bind(entity)(report);
-    report = verify.isAndroid;
-    report = report.bind(verify)();
-    var _closure1_slot6 = report;
-    report = option.forwardRef;
-    tangon = function(argFoo, argBar) { // Original name: VisualEffectView
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot9 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var8 = var5.bind(var1)(var8);
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.View;
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.useVisualEffectViewOverrides;
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.jsx;
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var9 = var6.bind(var1)(var5);
+    var5 = var9.isAndroid;
+    var5 = var5.bind(var9)();
+    var _closure1_slot6 = var5;
+    var5 = var8.forwardRef;
+    var4 = function VisualEffectView(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = argFoo;
-            option = argBar;
-            result = oscard.blurTheme;
-            source = oscard.blurStyle;
-            report = undefined;
-            if(!(source === report)) { _fun00008_ip = 28; continue _fun00007 }
+            var6 = arg1;
+            var8 = arg2;
+            var18 = var6.blurTheme;
+            var21 = var6.blurStyle;
+            var5 = undefined;
+            if(!(var21 === var5)) { _fun0004_ip = 28; continue _fun0004 }
  24:
-            source = 'default';
+            var21 = 'default';
  28:
-            output = oscard.blurAmount;
-            if(!(output === report)) { _fun00008_ip = 41; continue _fun00007 }
+            var17 = var6.blurAmount;
+            if(!(var17 === var5)) { _fun0004_ip = 41; continue _fun0004 }
  38:
-            output = 1;
+            var17 = 1;
  41:
-            yankee = oscard.blurTintRgba;
-            entity = oscard.android_fallbackColor;
-            offset = oscard.android_blurTargetViewNativeId;
-            tangon = oscard.android_softwareBlurDisabled;
-            if(!(tangon === report)) { _fun00008_ip = 71; continue _fun00007 }
+            var11 = var6.blurTintRgba;
+            var1 = var6.android_fallbackColor;
+            var10 = var6.android_blurTargetViewNativeId;
+            var4 = var6.android_softwareBlurDisabled;
+            if(!(var4 === var5)) { _fun0004_ip = 71; continue _fun0004 }
  69:
-            tangon = false;
+            var4 = false;
  71:
-            zuuluu = {'blurTheme': 0, 'blurStyle': 0, 'blurAmount': 0, 'blurTintRgba': 0, 'android_fallbackColor': 0, 'android_blurTargetViewNativeId': 0, 'android_softwareBlurDisabled': 0};
-            foxtra = null;
-            target = zuuluu;
-            papara = null;
-            michal = silentSetPrototypeOf(target, papara);
-            target = {};
-            papara = oscard;
-            cntext = zuuluu;
-            oscard = copyDataProperties(target, papara, cntext);
-            golfie = oscard.style;
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.bind(report)();
-            backup = zuuluu.blurAmountOverride;
-            romeon = zuuluu.blurTintRgbaOverride;
-            echoed = zuuluu.blurEffectNameOverride;
-            zuuluu = {};
-            zuuluu['blurTheme'] = result;
-            zuuluu['blurStyle'] = source;
-            zuuluu['style'] = golfie;
-            zuuluu['android_fallbackColor'] = entity;
-            entity = zuuluu.style;
-            sequen = zuuluu.blurTheme;
-            vacuum = zuuluu.blurStyle;
-            sizing = zuuluu.android_fallbackColor;
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            kiloes = 6;
-            golfie = zuuluu[kiloes];
-            record = verify.bind(report)(golfie);
-            update = record.useToken;
-            config = _closure1_slot1;
-            ctrled = 7;
-            golfie = zuuluu[ctrled];
-            golfie = config.bind(report)(golfie);
-            golfie = golfie.colors;
-            golfie = golfie.LEGACY_BLUR_FALLBACK_DEFAULT;
-            update = update.bind(record)(golfie, sequen);
-            golfie = zuuluu[kiloes];
-            verify = verify.bind(report)(golfie);
-            golfie = verify.useToken;
-            zuuluu = zuuluu[ctrled];
-            zuuluu = config.bind(report)(zuuluu);
-            zuuluu = zuuluu.colors;
-            zuuluu = zuuluu.LEGACY_BLUR_FALLBACK_ULTRA_THIN;
-            golfie = golfie.bind(verify)(zuuluu, sequen);
-            verify = {};
-            zuuluu = 'default';
-            if(!(zuuluu === vacuum)) { _fun00008_ip = 301; continue _fun00007 }
+            var3 = {'blurTheme': 0, 'blurStyle': 0, 'blurAmount': 0, 'blurTintRgba': 0, 'android_fallbackColor': 0, 'android_blurTargetViewNativeId': 0, 'android_softwareBlurDisabled': 0};
+            var13 = null;
+            var29 = var3;
+            var28 = null;
+            var2 = silentSetPrototypeOf(var29, var28);
+            var29 = {};
+            var28 = var6;
+            var27 = var3;
+            var6 = copyDataProperties(var29, var28, var27);
+            var7 = var6.style;
+            var3 = _closure1_slot4;
+            var3 = var3.bind(var5)();
+            var14 = var3.blurAmountOverride;
+            var12 = var3.blurTintRgbaOverride;
+            var19 = var3.blurEffectNameOverride;
+            var3 = {};
+            var3['blurTheme'] = var18;
+            var3['blurStyle'] = var21;
+            var3['style'] = var7;
+            var3['android_fallbackColor'] = var1;
+            var1 = var3.style;
+            var24 = var3.blurTheme;
+            var23 = var3.blurStyle;
+            var16 = var3.android_fallbackColor;
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var15 = 6;
+            var7 = var3[var15];
+            var26 = var9.bind(var5)(var7);
+            var20 = var26.useToken;
+            var25 = _closure1_slot1;
+            var22 = 7;
+            var7 = var3[var22];
+            var7 = var25.bind(var5)(var7);
+            var7 = var7.colors;
+            var7 = var7.LEGACY_BLUR_FALLBACK_DEFAULT;
+            var20 = var20.bind(var26)(var7, var24);
+            var7 = var3[var15];
+            var9 = var9.bind(var5)(var7);
+            var7 = var9.useToken;
+            var3 = var3[var22];
+            var3 = var25.bind(var5)(var3);
+            var3 = var3.colors;
+            var3 = var3.LEGACY_BLUR_FALLBACK_ULTRA_THIN;
+            var7 = var7.bind(var9)(var3, var24);
+            var9 = {};
+            var3 = 'default';
+            if(!(var3 === var23)) { _fun0004_ip = 301; continue _fun0004 }
  298:
-            golfie = update;
+            var7 = var20;
  301:
-            verify['backgroundColor'] = golfie;
-            golfie = new Array(3);
-            golfie[0] = verify;
-            golfie[1] = entity;
-            verify = foxtra != sizing;
-            entity = undefined;
-            if(!verify) { _fun00008_ip = 335; continue _fun00007 }
+            var9['backgroundColor'] = var7;
+            var7 = new Array(3);
+            var7[0] = var9;
+            var7[1] = var1;
+            var9 = var13 != var16;
+            var1 = undefined;
+            if(!var9) { _fun0004_ip = 335; continue _fun0004 }
  326:
-            verify = {};
-            verify['backgroundColor'] = sizing;
-            entity = verify;
+            var9 = {};
+            var9['backgroundColor'] = var16;
+            var1 = var9;
  335:
-            golfie[2] = entity;
-            sizing = _closure1_slot0;
-            verify = _closure1_slot2;
-            entity = verify[kiloes];
-            sequen = sizing.bind(report)(entity);
-            vacuum = sequen.useToken;
-            update = _closure1_slot1;
-            entity = verify[ctrled];
-            entity = update.bind(report)(entity);
-            entity = entity.colors;
-            entity = entity.LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT;
-            entity = vacuum.bind(sequen)(entity, result);
-            kiloes = verify[kiloes];
-            sizing = sizing.bind(report)(kiloes);
-            kiloes = sizing.useToken;
-            verify = verify[ctrled];
-            verify = update.bind(report)(verify);
-            verify = verify.colors;
-            verify = verify.LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN;
-            verify = kiloes.bind(sizing)(verify, result);
-            if(!(zuuluu !== source)) { _fun00008_ip = 454; continue _fun00007 }
+            var7[2] = var1;
+            var16 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = var9[var15];
+            var24 = var16.bind(var5)(var1);
+            var23 = var24.useToken;
+            var20 = _closure1_slot1;
+            var1 = var9[var22];
+            var1 = var20.bind(var5)(var1);
+            var1 = var1.colors;
+            var1 = var1.LEGACY_ANDROID_BLUR_OVERLAY_DEFAULT;
+            var1 = var23.bind(var24)(var1, var18);
+            var15 = var9[var15];
+            var16 = var16.bind(var5)(var15);
+            var15 = var16.useToken;
+            var9 = var9[var22];
+            var9 = var20.bind(var5)(var9);
+            var9 = var9.colors;
+            var9 = var9.LEGACY_ANDROID_BLUR_OVERLAY_ULTRA_THIN;
+            var9 = var15.bind(var16)(var9, var18);
+            if(!(var3 !== var21)) { _fun0004_ip = 454; continue _fun0004 }
  437:
-            zuuluu = 'ultra-thin';
-            sizing = verify;
-            if(!(zuuluu !== source)) { _fun00008_ip = 457; continue _fun00007 }
+            var3 = 'ultra-thin';
+            var16 = var9;
+            if(!(var3 !== var21)) { _fun0004_ip = 457; continue _fun0004 }
  450:
-            sizing = undefined;
-            _fun00008_ip = 457; continue _fun00007;
+            var16 = undefined;
+            _fun0004_ip = 457; continue _fun0004;
  454:
-            sizing = entity;
+            var16 = var1;
  457:
-            zuuluu = _closure1_slot9;
-            entity = {};
-            entity['android_softwareBlurDisabled'] = tangon;
-            entity['android_blurTargetViewNativeId'] = offset;
-            entity = zuuluu.bind(report)(entity);
-            if(entity) { _fun00008_ip = 698; continue _fun00007 }
+            var3 = _closure1_slot9;
+            var1 = {};
+            var1['android_softwareBlurDisabled'] = var4;
+            var1['android_blurTargetViewNativeId'] = var10;
+            var1 = var3.bind(var5)(var1);
+            if(var1) { _fun0004_ip = 698; continue _fun0004 }
  484:
-            entity = _closure1_slot6;
-            verify = _closure1_slot5;
-            tangon = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            if(entity) { _fun00008_ip = 590; continue _fun00007 }
+            var1 = _closure1_slot6;
+            var9 = _closure1_slot5;
+            var4 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            if(var1) { _fun0004_ip = 590; continue _fun0004 }
  503:
-            entity = 5;
-            entity = kiloes[entity];
-            zuuluu = tangon.bind(report)(entity);
-            entity = {};
-            entity['ref'] = option;
-            if(!(foxtra == echoed)) { _fun00008_ip = 535; continue _fun00007 }
+            var1 = 5;
+            var1 = var15[var1];
+            var3 = var4.bind(var5)(var1);
+            var1 = {};
+            var1['ref'] = var8;
+            if(!(var13 == var19)) { _fun0004_ip = 535; continue _fun0004 }
  525:
-            update = _closure1_slot7;
-            echoed = update.bind(report)(result, source);
+            var20 = _closure1_slot7;
+            var19 = var20.bind(var5)(var18, var21);
  535:
-            entity['blurEffectName'] = echoed;
-            echoed = output;
-            if(!(foxtra != backup)) { _fun00008_ip = 552; continue _fun00007 }
+            var1['blurEffectName'] = var19;
+            var19 = var17;
+            if(!(var13 != var14)) { _fun0004_ip = 552; continue _fun0004 }
  549:
-            echoed = backup;
+            var19 = var14;
  552:
-            entity['blurAmount'] = echoed;
-            echoed = yankee;
-            if(!(foxtra != romeon)) { _fun00008_ip = 567; continue _fun00007 }
+            var1['blurAmount'] = var19;
+            var19 = var11;
+            if(!(var13 != var12)) { _fun0004_ip = 567; continue _fun0004 }
  564:
-            echoed = romeon;
+            var19 = var12;
  567:
-            entity['blurTintRgba'] = echoed;
-            target = entity;
-            papara = oscard;
-            echoed = copyDataProperties(target, papara);
-            entity = verify.bind(report)(zuuluu, entity);
-            _fun00008_ip = 696; continue _fun00007;
+            var1['blurTintRgba'] = var19;
+            var29 = var1;
+            var28 = var6;
+            var19 = copyDataProperties(var29, var28);
+            var1 = var9.bind(var5)(var3, var1);
+            _fun0004_ip = 696; continue _fun0004;
  590:
-            zuuluu = 8;
-            zuuluu = kiloes[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = {};
-            zuuluu['ref'] = option;
-            if(!(foxtra == backup)) { _fun00008_ip = 622; continue _fun00007 }
+            var3 = 8;
+            var3 = var15[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = {};
+            var3['ref'] = var8;
+            if(!(var13 == var14)) { _fun0004_ip = 622; continue _fun0004 }
  612:
-            kiloes = _closure1_slot8;
-            backup = kiloes.bind(report)(result, output);
+            var15 = _closure1_slot8;
+            var14 = var15.bind(var5)(var18, var17);
  622:
-            zuuluu['blurAmount'] = backup;
-            kiloes = _closure1_slot0;
-            output = _closure1_slot2;
-            backup = 9;
-            backup = output[backup];
-            kiloes = kiloes.bind(report)(backup);
-            backup = kiloes.hexToRgbaString;
-            backup = backup.bind(kiloes)(sizing);
-            zuuluu['blurTintIOSParityCompensationRgba'] = backup;
-            if(!(foxtra != romeon)) { _fun00008_ip = 670; continue _fun00007 }
+            var3['blurAmount'] = var14;
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var14 = 9;
+            var14 = var17[var14];
+            var15 = var15.bind(var5)(var14);
+            var14 = var15.hexToRgbaString;
+            var14 = var14.bind(var15)(var16);
+            var3['blurTintIOSParityCompensationRgba'] = var14;
+            if(!(var13 != var12)) { _fun0004_ip = 670; continue _fun0004 }
  667:
-            yankee = romeon;
+            var11 = var12;
  670:
-            zuuluu['blurTintRgba'] = yankee;
-            zuuluu['blurTargetViewNativeId'] = offset;
-            target = zuuluu;
-            papara = oscard;
-            offset = copyDataProperties(target, papara);
-            entity = verify.bind(report)(tangon, zuuluu);
+            var3['blurTintRgba'] = var11;
+            var3['blurTargetViewNativeId'] = var10;
+            var29 = var3;
+            var28 = var6;
+            var10 = copyDataProperties(var29, var28);
+            var1 = var9.bind(var5)(var4, var3);
  696:
-            _fun00008_ip = 737; continue _fun00007;
+            _fun0004_ip = 737; continue _fun0004;
  698:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot3;
-            michal = {};
-            michal['ref'] = option;
-            target = michal;
-            papara = oscard;
-            oscard = copyDataProperties(target, papara);
-            oscard = 'style';
-            michal[oscard] = golfie;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot3;
+            var2 = {};
+            var2['ref'] = var8;
+            var29 = var2;
+            var28 = var6;
+            var6 = copyDataProperties(var29, var28);
+            var6 = 'style';
+            var2[var6] = var7;
+            var1 = var4.bind(var5)(var3, var2);
  737:
-            return entity;
+            return var1;
         }
     };
-    tangon = report.bind(option)(tangon);
-    report = 10;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/visual_effect_view/native/VisualEffectView.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['isBlurDisabled'] = michal;
-    return entity;
+    var4 = var5.bind(var8)(var4);
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/visual_effect_view/native/VisualEffectView.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['isBlurDisabled'] = var2;
+    return var1;
 })();

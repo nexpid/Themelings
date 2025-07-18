@@ -1,81 +1,81 @@
 // app/modules/activities/utils/getGamePlatform.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ActivityTypes;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.ActivityGamePlatforms;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/getGamePlatform.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getGamePlatform
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.ActivityTypes;
+    var _closure1_slot2 = var7;
+    var4 = var4.ActivityGamePlatforms;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/getGamePlatform.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getGamePlatform(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            report = null;
-            michal = report == tangon;
-            entity = null;
-            if(michal) { _fun00002_ip = 125; continue _fun00001 }
+            var4 = arg1;
+            var5 = null;
+            var2 = var5 == var4;
+            var1 = null;
+            if(var2) { _fun0001_ip = 125; continue _fun0001 }
  14:
-            michal = tangon.type;
-            michal = report == michal;
-            entity = null;
-            if(michal) { _fun00002_ip = 125; continue _fun00001 }
+            var2 = var4.type;
+            var2 = var5 == var2;
+            var1 = null;
+            if(var2) { _fun0001_ip = 125; continue _fun0001 }
  28:
-            oscard = tangon.type;
-            michal = _closure1_slot2;
-            michal = michal.PLAYING;
-            entity = null;
-            if(!(oscard === michal)) { _fun00002_ip = 125; continue _fun00001 }
+            var6 = var4.type;
+            var2 = _closure1_slot2;
+            var2 = var2.PLAYING;
+            var1 = null;
+            if(!(var6 === var2)) { _fun0001_ip = 125; continue _fun0001 }
  52:
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 1;
-            michal = oscard[michal];
-            oscard = undefined;
-            michal = golfie.bind(oscard)(michal);
-            michal = michal.bind(oscard)(tangon);
-            if(michal) { _fun00002_ip = 112; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 1;
+            var2 = var6[var2];
+            var6 = undefined;
+            var2 = var7.bind(var6)(var2);
+            var2 = var2.bind(var6)(var4);
+            if(var2) { _fun0001_ip = 112; continue _fun0001 }
  82:
-            michal = tangon.platform;
-            if(!(report == michal)) { _fun00002_ip = 104; continue _fun00001 }
+            var2 = var4.platform;
+            if(!(var5 == var2)) { _fun0001_ip = 104; continue _fun0001 }
  92:
-            michal = _closure1_slot3;
-            michal = michal.DESKTOP;
-            _fun00002_ip = 110; continue _fun00001;
+            var2 = _closure1_slot3;
+            var2 = var2.DESKTOP;
+            _fun0001_ip = 110; continue _fun0001;
  104:
-            michal = tangon.platform;
+            var2 = var4.platform;
  110:
-            _fun00002_ip = 122; continue _fun00001;
+            _fun0001_ip = 122; continue _fun0001;
  112:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.XBOX;
+            var3 = _closure1_slot3;
+            var2 = var3.XBOX;
  122:
-            entity = michal;
+            var1 = var2;
  125:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,258 +1,258 @@
 // app/lib/MuteTimers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function() { // Original name: MuteTimers
-            zuuluu = this;
-            tangon = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = {};
-            zuuluu['timers'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = function() {
+        var4 = _closure1_slot1;
+        var3 = function MuteTimers() {
+            var3 = this;
+            var4 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = {};
+            var3['timers'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'reset';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            michal = this;
-            entity = global;
-            tangon = entity.Object;
-            zuuluu = tangon.values;
-            entity = michal.timers;
-            tangon = zuuluu.bind(tangon)(entity);
-            zuuluu = tangon.forEach;
-            entity = function(argFoo) {
-                entity = global;
-                zuuluu = entity.clearTimeout;
-                michal = undefined;
-                entity = argFoo;
-                entity = zuuluu.bind(michal)(entity);
-                return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'reset';
+        var1['key'] = var2;
+        var2 = function value() {
+            var2 = this;
+            var1 = global;
+            var4 = var1.Object;
+            var3 = var4.values;
+            var1 = var2.timers;
+            var4 = var3.bind(var4)(var1);
+            var3 = var4.forEach;
+            var1 = function(arg1) {
+                var1 = global;
+                var3 = var1.clearTimeout;
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            entity = {};
-            michal['timers'] = entity;
-            entity = undefined;
-            return entity;
+            var1 = var3.bind(var4)(var1);
+            var1 = {};
+            var2['timers'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'setTimer';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'setTimer';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = argFoo;
-                zuuluu = argBar;
-                entity = null;
-                if(!(entity != report)) { _fun00002_ip = 176; continue _fun00001 }
+                var5 = arg1;
+                var3 = arg2;
+                var1 = null;
+                if(!(var1 != var5)) { _fun0001_ip = 176; continue _fun0001 }
  15:
-                if(!(entity != zuuluu)) { _fun00002_ip = 172; continue _fun00001 }
+                if(!(var1 != var3)) { _fun0001_ip = 172; continue _fun0001 }
  22:
-                michal = zuuluu.end_time;
-                michal = entity == michal;
-                verify = null;
-                if(michal) { _fun00002_ip = 100; continue _fun00001 }
+                var2 = var3.end_time;
+                var2 = var1 == var2;
+                var9 = null;
+                if(var2) { _fun0001_ip = 100; continue _fun0001 }
  37:
-                michal = global;
-                oscard = michal.Date;
-                yankee = zuuluu.end_time;
-                tangon = oscard.prototype;
-                tangon = Object.create(tangon, {constructor: {value: oscard}});
-                romeon = tangon;
-                zuuluu = new romeon[oscard](yankee, offset);
-                tangon = zuuluu instanceof Object ? zuuluu : tangon;
-                zuuluu = tangon.getTime;
-                zuuluu = zuuluu.bind(tangon)();
-                tangon = michal.Date;
-                michal = tangon.now;
-                michal = michal.bind(tangon)();
-                verify = zuuluu - michal;
+                var2 = global;
+                var6 = var2.Date;
+                var11 = var3.end_time;
+                var4 = var6.prototype;
+                var4 = Object.create(var4, {constructor: {value: var6}});
+                var12 = var4;
+                var3 = new var12[var6](var11, var10);
+                var4 = var3 instanceof Object ? var3 : var4;
+                var3 = var4.getTime;
+                var3 = var3.bind(var4)();
+                var4 = var2.Date;
+                var2 = var4.now;
+                var2 = var2.bind(var4)();
+                var9 = var3 - var2;
  100:
-                entity = entity != verify;
-                if(!entity) { _fun00002_ip = 170; continue _fun00001 }
+                var1 = var1 != var9;
+                if(!var1) { _fun0001_ip = 170; continue _fun0001 }
  107:
-                golfie = 0;
-                michal = verify <= golfie;
-                if(michal) { _fun00002_ip = 167; continue _fun00001 }
+                var7 = 0;
+                var2 = var9 <= var7;
+                if(var2) { _fun0001_ip = 167; continue _fun0001 }
  116:
-                zuuluu = this;
-                tangon = zuuluu.timers;
-                zuuluu = global;
-                option = zuuluu.setTimeout;
-                oscard = zuuluu.Math;
-                zuuluu = oscard.max;
-                golfie = zuuluu.bind(oscard)(golfie, verify);
-                oscard = undefined;
-                zuuluu = argBaz;
-                zuuluu = option.bind(oscard)(zuuluu, golfie);
-                tangon[report] = zuuluu;
-                michal = false;
+                var3 = this;
+                var4 = var3.timers;
+                var3 = global;
+                var8 = var3.setTimeout;
+                var6 = var3.Math;
+                var3 = var6.max;
+                var7 = var3.bind(var6)(var7, var9);
+                var6 = undefined;
+                var3 = arg3;
+                var3 = var8.bind(var6)(var3, var7);
+                var4[var5] = var3;
+                var2 = false;
  167:
-                entity = michal;
+                var1 = var2;
  170:
-                return entity;
+                return var1;
  172:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  176:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'clearTimer';
-        entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'clearTimer';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                entity = this;
-                zuuluu = null;
-                zuuluu = zuuluu != michal;
-                if(!zuuluu) { _fun00004_ip = 25; continue _fun00003 }
+                var2 = arg1;
+                var1 = this;
+                var3 = null;
+                var3 = var3 != var2;
+                if(!var3) { _fun0002_ip = 25; continue _fun0002 }
  15:
-                tangon = entity.timers;
-                zuuluu = michal in tangon;
+                var4 = var1.timers;
+                var3 = var2 in var4;
  25:
-                if(!zuuluu) { _fun00004_ip = 63; continue _fun00003 }
+                if(!var3) { _fun0002_ip = 63; continue _fun0002 }
  28:
-                zuuluu = global;
-                report = zuuluu.clearTimeout;
-                zuuluu = entity.timers;
-                tangon = zuuluu[michal];
-                zuuluu = undefined;
-                zuuluu = report.bind(zuuluu)(tangon);
-                entity = entity.timers;
-                entity = delete entity[michal];
+                var3 = global;
+                var5 = var3.clearTimeout;
+                var3 = var1.timers;
+                var4 = var3[var2];
+                var3 = undefined;
+                var3 = var5.bind(var3)(var4);
+                var1 = var1.timers;
+                var1 = delete var1[var2];
  63:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    report = 2;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'lib/MuteTimers.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo) { // Original name: computeIsMuted
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var4 = var4.bind(var1)();
+    var5 = 2;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'lib/MuteTimers.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var4 = function computeIsMuted(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = michal.muted;
-            tangon = michal.mute_config;
-            michal = !entity;
-            entity = !michal;
-            if(michal) { _fun00006_ip = 113; continue _fun00005 }
+            var2 = arg1;
+            var1 = var2.muted;
+            var4 = var2.mute_config;
+            var2 = !var1;
+            var1 = !var2;
+            if(var2) { _fun0003_ip = 113; continue _fun0003 }
  24:
-            report = null;
-            michal = report == tangon;
-            if(michal) { _fun00006_ip = 43; continue _fun00005 }
+            var5 = null;
+            var2 = var5 == var4;
+            if(var2) { _fun0003_ip = 43; continue _fun0003 }
  33:
-            zuuluu = tangon.end_time;
-            michal = report == zuuluu;
+            var3 = var4.end_time;
+            var2 = var5 == var3;
  43:
-            if(michal) { _fun00006_ip = 110; continue _fun00005 }
+            if(var2) { _fun0003_ip = 110; continue _fun0003 }
  46:
-            zuuluu = global;
-            oscard = zuuluu.Date;
-            golfie = tangon.end_time;
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            option = report;
-            tangon = new option[oscard](golfie, oscard);
-            tangon = tangon instanceof Object ? tangon : report;
-            zuuluu = zuuluu.Date;
-            report = zuuluu.prototype;
-            report = Object.create(report, {constructor: {value: zuuluu}});
-            option = report;
-            zuuluu = new option[zuuluu](golfie);
-            zuuluu = zuuluu instanceof Object ? zuuluu : report;
-            michal = tangon >= zuuluu;
+            var3 = global;
+            var6 = var3.Date;
+            var7 = var4.end_time;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var8 = var5;
+            var4 = new var8[var6](var7, var6);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3 = var3.Date;
+            var5 = var3.prototype;
+            var5 = Object.create(var5, {constructor: {value: var3}});
+            var8 = var5;
+            var3 = new var8[var3](var7);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var2 = var4 >= var3;
  110:
-            entity = michal;
+            var1 = var2;
  113:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['computeIsMuted'] = tangon;
-    michal = function(argFoo) { // Original name: isTemporarilyMuted
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['computeIsMuted'] = var4;
+    var2 = function isTemporarilyMuted(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argFoo;
-            entity = michal.muted;
-            zuuluu = michal.mute_config;
-            michal = !entity;
-            entity = !michal;
-            if(michal) { _fun00008_ip = 30; continue _fun00007 }
+            var2 = arg1;
+            var1 = var2.muted;
+            var3 = var2.mute_config;
+            var2 = !var1;
+            var1 = !var2;
+            if(var2) { _fun0004_ip = 30; continue _fun0004 }
  24:
-            michal = null;
-            entity = michal != zuuluu;
+            var2 = null;
+            var1 = var2 != var3;
  30:
-            if(!entity) { _fun00008_ip = 45; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 45; continue _fun0004 }
  33:
-            tangon = zuuluu.end_time;
-            michal = null;
-            entity = michal != tangon;
+            var4 = var3.end_time;
+            var2 = null;
+            var1 = var2 != var4;
  45:
-            if(!entity) { _fun00008_ip = 112; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 112; continue _fun0004 }
  48:
-            michal = global;
-            report = michal.Date;
-            oscard = zuuluu.end_time;
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            golfie = tangon;
-            zuuluu = new golfie[report](oscard, report);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            michal = michal.Date;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            golfie = tangon;
-            michal = new golfie[michal](oscard);
-            michal = michal instanceof Object ? michal : tangon;
-            entity = zuuluu >= michal;
+            var2 = global;
+            var5 = var2.Date;
+            var6 = var3.end_time;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var7 = var4;
+            var3 = new var7[var5](var6, var5);
+            var3 = var3 instanceof Object ? var3 : var4;
+            var2 = var2.Date;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var7 = var4;
+            var2 = new var7[var2](var6);
+            var2 = var2 instanceof Object ? var2 : var4;
+            var1 = var3 >= var2;
  112:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isTemporarilyMuted'] = michal;
-    return entity;
+    var3['isTemporarilyMuted'] = var2;
+    return var1;
 })();

@@ -1,352 +1,352 @@
 // app/stores/billing/BraintreeStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        golfie = argBaz;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        var _closure1_slot1 = oscard;
-        entity = function() { // Original name: _isNativeReflectConstruct
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5 = native2;
+        var7 = native3;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var6;
+        var1 = function _isNativeReflectConstruct() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
  2: // try_start_0
-                michal = global;
-                zuuluu = michal.Boolean;
-                zuuluu = zuuluu.prototype;
-                tangon = zuuluu.valueOf;
-                zuuluu = tangon.call;
-                option = michal.Reflect;
-                golfie = option.construct;
-                oscard = michal.Boolean;
-                report = new Array(0);
-                michal = function() {
-                    entity = undefined;
-                    return entity;
+                var2 = global;
+                var3 = var2.Boolean;
+                var3 = var3.prototype;
+                var4 = var3.valueOf;
+                var3 = var4.call;
+                var8 = var2.Reflect;
+                var7 = var8.construct;
+                var6 = var2.Boolean;
+                var5 = new Array(0);
+                var2 = function() {
+                    var1 = undefined;
+                    return var1;
                 };
-                michal = golfie.bind(option)(oscard, report, michal);
-                michal = zuuluu.bind(tangon)(michal);
-                michal = !michal;
-                var _closure2_slot0 = michal;
+                var2 = var7.bind(var8)(var6, var5, var2);
+                var2 = var3.bind(var4)(var2);
+                var2 = !var2;
+                var _closure2_slot0 = var2;
  70: // try_end0
-                _fun00004_ip = 74; continue _fun00003;
+                _fun0002_ip = 74; continue _fun0002;
  72: // catch_target0
                 CatchBlockStart(arg_register=1);
  74:
-                michal = function() { // Original name: _isNativeReflectConstruct
-                    entity = _closure2_slot0;
-                    entity = !entity;
-                    entity = !entity;
-                    return entity;
+                var2 = function _isNativeReflectConstruct() {
+                    var1 = _closure2_slot0;
+                    var1 = !var1;
+                    var1 = !var1;
+                    return var1;
                 };
-                _closure1_slot16 = michal;
-                entity = undefined;
-                entity = michal.bind(entity)();
-                return entity;
+                _closure1_slot16 = var2;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                return var1;
             }
         };
-        var _closure1_slot16 = entity;
-        michal = global;
-        offset = michal.Object;
-        verify = offset.defineProperty;
-        option = {};
-        entity = true;
-        option['value'] = entity;
-        entity = '__esModule';
-        entity = verify.bind(offset)(zuuluu, entity, option);
-        entity = 0;
-        option = oscard[entity];
-        entity = undefined;
-        option = golfie.bind(entity)(option);
-        var _closure1_slot2 = option;
-        option = 1;
-        option = oscard[option];
-        option = golfie.bind(entity)(option);
-        var _closure1_slot3 = option;
-        option = 2;
-        option = oscard[option];
-        option = golfie.bind(entity)(option);
-        var _closure1_slot4 = option;
-        option = 3;
-        option = oscard[option];
-        option = golfie.bind(entity)(option);
-        var _closure1_slot5 = option;
-        option = 4;
-        option = oscard[option];
-        option = golfie.bind(entity)(option);
-        var _closure1_slot6 = option;
-        option = 5;
-        option = oscard[option];
-        option = report.bind(entity)(option);
-        verify = option.Endpoints;
-        var _closure1_slot7 = verify;
-        verify = option.PaymentGateways;
-        var _closure1_slot8 = verify;
-        option = option.PaymentSourceTypes;
-        var _closure1_slot9 = option;
-        option = null;
-        var _closure1_slot12 = option;
-        var _closure1_slot13 = option;
-        var _closure1_slot14 = option;
-        option = 6;
-        option = oscard[option];
-        verify = report.bind(entity)(option);
-        option = verify.isDesktop;
-        option = option.bind(verify)();
-        if(!option) { _fun00002_ip = 259; continue _fun00001 }
+        var _closure1_slot16 = var1;
+        var2 = global;
+        var10 = var2.Object;
+        var9 = var10.defineProperty;
+        var8 = {};
+        var1 = true;
+        var8['value'] = var1;
+        var1 = '__esModule';
+        var1 = var9.bind(var10)(var3, var1, var8);
+        var1 = 0;
+        var8 = var6[var1];
+        var1 = undefined;
+        var8 = var7.bind(var1)(var8);
+        var _closure1_slot2 = var8;
+        var8 = 1;
+        var8 = var6[var8];
+        var8 = var7.bind(var1)(var8);
+        var _closure1_slot3 = var8;
+        var8 = 2;
+        var8 = var6[var8];
+        var8 = var7.bind(var1)(var8);
+        var _closure1_slot4 = var8;
+        var8 = 3;
+        var8 = var6[var8];
+        var8 = var7.bind(var1)(var8);
+        var _closure1_slot5 = var8;
+        var8 = 4;
+        var8 = var6[var8];
+        var8 = var7.bind(var1)(var8);
+        var _closure1_slot6 = var8;
+        var8 = 5;
+        var8 = var6[var8];
+        var8 = var5.bind(var1)(var8);
+        var9 = var8.Endpoints;
+        var _closure1_slot7 = var9;
+        var9 = var8.PaymentGateways;
+        var _closure1_slot8 = var9;
+        var8 = var8.PaymentSourceTypes;
+        var _closure1_slot9 = var8;
+        var8 = null;
+        var _closure1_slot12 = var8;
+        var _closure1_slot13 = var8;
+        var _closure1_slot14 = var8;
+        var8 = 6;
+        var8 = var6[var8];
+        var9 = var5.bind(var1)(var8);
+        var8 = var9.isDesktop;
+        var8 = var8.bind(var9)();
+        if(!var8) { _fun0001_ip = 259; continue _fun0001 }
  225:
-        option = michal.window;
-        michal = {};
-        verify = function() { // Original name: getReturnUrlPrefix
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var8 = var2.window;
+        var2 = {};
+        var9 = function getReturnUrlPrefix() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = _closure1_slot10;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00006_ip = 81; continue _fun00005 }
+                var3 = _closure1_slot10;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0003_ip = 81; continue _fun0003 }
  13:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                michal = 7;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.getAPIBaseURL;
-                michal = michal.bind(zuuluu)();
-                report = _closure1_slot7;
-                tangon = report.BILLING_POPUP_BRIDGE_CALLBACK_REDIRECT_PREFIX;
-                zuuluu = _closure1_slot8;
-                zuuluu = zuuluu.BRAINTREE;
-                entity = _closure1_slot10;
-                entity = tangon.bind(report)(zuuluu, entity);
-                entity = michal + entity;
-                return entity;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 7;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.getAPIBaseURL;
+                var2 = var2.bind(var3)();
+                var5 = _closure1_slot7;
+                var4 = var5.BILLING_POPUP_BRIDGE_CALLBACK_REDIRECT_PREFIX;
+                var3 = _closure1_slot8;
+                var3 = var3.BRAINTREE;
+                var1 = _closure1_slot10;
+                var1 = var4.bind(var5)(var3, var1);
+                var1 = var2 + var1;
+                return var1;
  81:
-                entity = global;
-                zuuluu = entity.Error;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                golfie = 'popupBridgeState is unset';
-                option = michal;
-                entity = new option[zuuluu](golfie, oscard);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var7 = 'popupBridgeState is unset';
+                var8 = var2;
+                var1 = new var8[var3](var7, var6);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
             }
         };
-        michal['getReturnUrlPrefix'] = verify;
-        verify = function(argFoo) { // Original name: open
-            tangon = argFoo;
-            var _closure1_slot11 = tangon;
-            michal = global;
-            zuuluu = michal.window;
-            michal = zuuluu.open;
-            michal = michal.bind(zuuluu)(tangon);
-            michal = _closure1_slot15;
-            entity = michal.emitChange;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var2['getReturnUrlPrefix'] = var9;
+        var9 = function open(arg1) {
+            var4 = arg1;
+            var _closure1_slot11 = var4;
+            var2 = global;
+            var3 = var2.window;
+            var2 = var3.open;
+            var2 = var2.bind(var3)(var4);
+            var2 = _closure1_slot15;
+            var1 = var2.emitChange;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        michal['open'] = verify;
-        option['popupBridge'] = michal;
+        var2['open'] = var9;
+        var8['popupBridge'] = var2;
  259:
-        michal = 8;
-        michal = oscard[michal];
-        michal = golfie.bind(entity)(michal);
-        option = michal.Store;
-        michal = function(argFoo) {
-            tangon = function() { // Original name: BraintreeStore
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var2 = 8;
+        var2 = var6[var2];
+        var2 = var7.bind(var1)(var2);
+        var8 = var2.Store;
+        var2 = function(arg1) {
+            var4 = function BraintreeStore() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    tangon = this;
-                    zuuluu = undefined;
-                    report = undefined;
-                    entity = _closure1_slot2;
-                    michal = _closure2_slot0;
-                    entity = entity.bind(zuuluu)(tangon, michal);
-                    entity = _closure1_slot5;
-                    verify = entity.bind(zuuluu)(michal);
-                    michal = _closure1_slot4;
-                    entity = _closure1_slot16;
-                    entity = entity.bind(zuuluu)();
-                    if(entity) { _fun00008_ip = 69; continue _fun00007 }
+                    var4 = this;
+                    var3 = undefined;
+                    var5 = undefined;
+                    var1 = _closure1_slot2;
+                    var2 = _closure2_slot0;
+                    var1 = var1.bind(var3)(var4, var2);
+                    var1 = _closure1_slot5;
+                    var9 = var1.bind(var3)(var2);
+                    var2 = _closure1_slot4;
+                    var1 = _closure1_slot16;
+                    var1 = var1.bind(var3)();
+                    if(var1) { _fun0004_ip = 69; continue _fun0004 }
  51:
-                    golfie = verify.apply;
-                    report = arguments;
-                    entity = report;
-                    entity = golfie.bind(verify)(tangon, entity);
-                    _fun00008_ip = 105; continue _fun00007;
+                    var7 = var9.apply;
+                    var5 = arguments;
+                    var1 = var5;
+                    var1 = var7.bind(var9)(var4, var1);
+                    _fun0004_ip = 105; continue _fun0004;
  69:
-                    golfie = global;
-                    option = golfie.Reflect;
-                    golfie = option.construct;
-                    oscard = _closure1_slot5;
-                    oscard = oscard.bind(zuuluu)(tangon);
-                    oscard = oscard.constructor;
-                    report = arguments;
-                    entity = golfie.bind(option)(verify, report, oscard);
+                    var7 = global;
+                    var8 = var7.Reflect;
+                    var7 = var8.construct;
+                    var6 = _closure1_slot5;
+                    var6 = var6.bind(var3)(var4);
+                    var6 = var6.constructor;
+                    var5 = arguments;
+                    var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                    entity = michal.bind(zuuluu)(tangon, entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var4, var1);
+                    return var1;
                 }
             };
-            var _closure2_slot0 = tangon;
-            report = _closure1_slot6;
-            zuuluu = undefined;
-            michal = argFoo;
-            michal = report.bind(zuuluu)(tangon, michal);
-            michal = _closure1_slot3;
-            report = {};
-            entity = 'getClient';
-            report['key'] = entity;
-            entity = function() { // Original name: value
-                entity = _closure1_slot12;
-                return entity;
+            var _closure2_slot0 = var4;
+            var5 = _closure1_slot6;
+            var3 = undefined;
+            var2 = arg1;
+            var2 = var5.bind(var3)(var4, var2);
+            var2 = _closure1_slot3;
+            var5 = {};
+            var1 = 'getClient';
+            var5['key'] = var1;
+            var1 = function value() {
+                var1 = _closure1_slot12;
+                return var1;
             };
-            report['value'] = entity;
-            entity = new Array(4);
-            entity[0] = report;
-            report = {};
-            golfie = 'getPayPalClient';
-            report['key'] = golfie;
-            golfie = function() { // Original name: value
-                entity = _closure1_slot13;
-                return entity;
+            var5['value'] = var1;
+            var1 = new Array(4);
+            var1[0] = var5;
+            var5 = {};
+            var7 = 'getPayPalClient';
+            var5['key'] = var7;
+            var7 = function value() {
+                var1 = _closure1_slot13;
+                return var1;
             };
-            report['value'] = golfie;
-            entity[1] = report;
-            report = {};
-            golfie = 'getVenmoClient';
-            report['key'] = golfie;
-            golfie = function() { // Original name: value
-                entity = _closure1_slot14;
-                return entity;
+            var5['value'] = var7;
+            var1[1] = var5;
+            var5 = {};
+            var7 = 'getVenmoClient';
+            var5['key'] = var7;
+            var7 = function value() {
+                var1 = _closure1_slot14;
+                return var1;
             };
-            report['value'] = golfie;
-            entity[2] = report;
-            report = {};
-            golfie = 'getLastURL';
-            report['key'] = golfie;
-            oscard = function() { // Original name: value
-                entity = _closure1_slot11;
-                return entity;
+            var5['value'] = var7;
+            var1[2] = var5;
+            var5 = {};
+            var7 = 'getLastURL';
+            var5['key'] = var7;
+            var6 = function value() {
+                var1 = _closure1_slot11;
+                return var1;
             };
-            report['value'] = oscard;
-            entity[3] = report;
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
+            var5['value'] = var6;
+            var1[3] = var5;
+            var1 = var2.bind(var3)(var4, var1);
+            return var1;
         };
-        verify = michal.bind(entity)(option);
-        michal = 'BraintreeStore';
-        verify['displayName'] = michal;
-        michal = 9;
-        michal = oscard[michal];
-        foxtra = golfie.bind(entity)(michal);
-        michal = {};
-        golfie = function(argFoo) { // Original name: handleBraintreeCreateClientSuccess
-            entity = argFoo;
-            michal = entity.client;
-            _closure1_slot12 = michal;
-            entity = undefined;
-            return entity;
+        var9 = var2.bind(var1)(var8);
+        var2 = 'BraintreeStore';
+        var9['displayName'] = var2;
+        var2 = 9;
+        var2 = var6[var2];
+        var13 = var7.bind(var1)(var2);
+        var2 = {};
+        var7 = function handleBraintreeCreateClientSuccess(arg1) {
+            var1 = arg1;
+            var2 = var1.client;
+            _closure1_slot12 = var2;
+            var1 = undefined;
+            return var1;
         };
-        michal['BRAINTREE_CREATE_CLIENT_SUCCESS'] = golfie;
-        golfie = function(argFoo) { // Original name: handleBraintreeCreatePayPalClientSuccess
-            entity = argFoo;
-            michal = entity.paypalClient;
-            _closure1_slot13 = michal;
-            entity = undefined;
-            return entity;
+        var2['BRAINTREE_CREATE_CLIENT_SUCCESS'] = var7;
+        var7 = function handleBraintreeCreatePayPalClientSuccess(arg1) {
+            var1 = arg1;
+            var2 = var1.paypalClient;
+            _closure1_slot13 = var2;
+            var1 = undefined;
+            return var1;
         };
-        michal['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = golfie;
-        golfie = function(argFoo) { // Original name: handleBillingPopupBridgeCallback
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var2['BRAINTREE_CREATE_PAYPAL_CLIENT_SUCCESS'] = var7;
+        var7 = function handleBillingPopupBridgeCallback(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                entity = argFoo;
-                oscard = entity.paymentSourceType;
-                tangon = entity.state;
-                michal = entity.path;
-                entity = entity.query;
-                report = _closure1_slot9;
-                report = report.PAYPAL;
-                if(!(oscard === report)) { _fun00010_ip = 103; continue _fun00009 }
+                var1 = arg1;
+                var6 = var1.paymentSourceType;
+                var4 = var1.state;
+                var2 = var1.path;
+                var1 = var1.query;
+                var5 = _closure1_slot9;
+                var5 = var5.PAYPAL;
+                if(!(var6 === var5)) { _fun0005_ip = 103; continue _fun0005 }
  42:
-                zuuluu = _closure1_slot10;
-                if(!(tangon === zuuluu)) { _fun00010_ip = 103; continue _fun00009 }
+                var3 = _closure1_slot10;
+                if(!(var4 === var3)) { _fun0005_ip = 103; continue _fun0005 }
  50:
-                zuuluu = global;
-                zuuluu = zuuluu.window;
-                zuuluu = zuuluu.popupBridge;
-                tangon = zuuluu.onComplete;
-                report = 'function';
-                zuuluu = typeof tangon;
-                if(!(report === zuuluu)) { _fun00010_ip = 103; continue _fun00009 }
+                var3 = global;
+                var3 = var3.window;
+                var3 = var3.popupBridge;
+                var4 = var3.onComplete;
+                var5 = 'function';
+                var3 = typeof var4;
+                if(!(var5 === var3)) { _fun0005_ip = 103; continue _fun0005 }
  81:
-                zuuluu = {};
-                zuuluu['path'] = michal;
-                zuuluu['queryItems'] = entity;
-                michal = undefined;
-                entity = null;
-                entity = tangon.bind(michal)(entity, zuuluu);
+                var3 = {};
+                var3['path'] = var2;
+                var3['queryItems'] = var1;
+                var2 = undefined;
+                var1 = null;
+                var1 = var4.bind(var2)(var1, var3);
  103:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal['BILLING_POPUP_BRIDGE_CALLBACK'] = golfie;
-        golfie = function(argFoo) { // Original name: handleBillingPopupBridgeStateUpdate
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var2['BILLING_POPUP_BRIDGE_CALLBACK'] = var7;
+        var7 = function handleBillingPopupBridgeStateUpdate(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                entity = argFoo;
-                tangon = entity.paymentSourceType;
-                michal = entity.state;
-                zuuluu = _closure1_slot9;
-                zuuluu = zuuluu.PAYPAL;
-                if(!(tangon === zuuluu)) { _fun00012_ip = 35; continue _fun00011 }
+                var1 = arg1;
+                var4 = var1.paymentSourceType;
+                var2 = var1.state;
+                var3 = _closure1_slot9;
+                var3 = var3.PAYPAL;
+                if(!(var4 === var3)) { _fun0006_ip = 35; continue _fun0006 }
  31:
-                var _closure1_slot10 = michal;
+                var _closure1_slot10 = var2;
  35:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal['BILLING_POPUP_BRIDGE_STATE_UPDATE'] = golfie;
-        golfie = function() { // Original name: handleBraintreeTeardownPayPalClient
-            entity = null;
-            _closure1_slot13 = entity;
-            entity = undefined;
-            return entity;
+        var2['BILLING_POPUP_BRIDGE_STATE_UPDATE'] = var7;
+        var7 = function handleBraintreeTeardownPayPalClient() {
+            var1 = null;
+            _closure1_slot13 = var1;
+            var1 = undefined;
+            return var1;
         };
-        michal['BRAINTREE_TEARDOWN_PAYPAL_CLIENT'] = golfie;
-        golfie = function(argFoo) { // Original name: handleBraintreeCreateVenmoClientSuccess
-            entity = argFoo;
-            michal = entity.venmoClient;
-            _closure1_slot14 = michal;
-            entity = undefined;
-            return entity;
+        var2['BRAINTREE_TEARDOWN_PAYPAL_CLIENT'] = var7;
+        var7 = function handleBraintreeCreateVenmoClientSuccess(arg1) {
+            var1 = arg1;
+            var2 = var1.venmoClient;
+            _closure1_slot14 = var2;
+            var1 = undefined;
+            return var1;
         };
-        michal['BRAINTREE_CREATE_VENMO_CLIENT_SUCCESS'] = golfie;
-        golfie = function() { // Original name: handleBraintreeTeardownVenmoClient
-            entity = null;
-            _closure1_slot14 = entity;
-            entity = undefined;
-            return entity;
+        var2['BRAINTREE_CREATE_VENMO_CLIENT_SUCCESS'] = var7;
+        var7 = function handleBraintreeTeardownVenmoClient() {
+            var1 = null;
+            _closure1_slot14 = var1;
+            var1 = undefined;
+            return var1;
         };
-        michal['BRAINTREE_TEARDOWN_VENMO_CLIENT'] = golfie;
-        golfie = verify.prototype;
-        golfie = Object.create(golfie, {constructor: {value: verify}});
-        backup = golfie;
-        romeon = michal;
-        michal = new backup[verify](foxtra, romeon, yankee);
-        michal = michal instanceof Object ? michal : golfie;
-        var _closure1_slot15 = michal;
-        tangon = 10;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'stores/billing/BraintreeStore.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['default'] = michal;
-        return entity;
+        var2['BRAINTREE_TEARDOWN_VENMO_CLIENT'] = var7;
+        var7 = var9.prototype;
+        var7 = Object.create(var7, {constructor: {value: var9}});
+        var14 = var7;
+        var12 = var2;
+        var2 = new var14[var9](var13, var12, var11);
+        var2 = var2 instanceof Object ? var2 : var7;
+        var _closure1_slot15 = var2;
+        var4 = 10;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'stores/billing/BraintreeStore.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['default'] = var2;
+        return var1;
     }
 })();

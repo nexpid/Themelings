@@ -1,83 +1,83 @@
 // app/modules/friends/experiments/FriendsPopoutExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.CommonTriggerPoints;
-    tangon = 1;
-    tangon = golfie[tangon];
-    verify = oscard.bind(entity)(tangon);
-    option = verify.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-03_friends_popout', 'label': 'Friends Popout'};
-    report = report.CONNECTION_OPEN;
-    tangon['commonTriggerPoint'] = report;
-    report = {'enableTopNavButton': false, 'enableOverlayWidget': false};
-    tangon['defaultConfig'] = report;
-    report = {'id': 1, 'label': 'All Enabled'};
-    offset = {'enableTopNavButton': true, 'enableOverlayWidget': true};
-    report['config'] = offset;
-    offset = new Array(2);
-    offset[0] = report;
-    yankee = {'id': 2, 'label': 'Top Nav Only'};
-    report = 2;
-    romeon = {'enableTopNavButton': true, 'enableOverlayWidget': false};
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    tangon['treatments'] = offset;
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot0 = tangon;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/friends/experiments/FriendsPopoutExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['FriendsPopoutExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: useFriendsPopoutExperiment
-        entity = argFoo;
-        entity = entity.location;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.CommonTriggerPoints;
+    var4 = 1;
+    var4 = var7[var4];
+    var9 = var6.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-03_friends_popout', 'label': 'Friends Popout'};
+    var5 = var5.CONNECTION_OPEN;
+    var4['commonTriggerPoint'] = var5;
+    var5 = {'enableTopNavButton': false, 'enableOverlayWidget': false};
+    var4['defaultConfig'] = var5;
+    var5 = {'id': 1, 'label': 'All Enabled'};
+    var10 = {'enableTopNavButton': true, 'enableOverlayWidget': true};
+    var5['config'] = var10;
+    var10 = new Array(2);
+    var10[0] = var5;
+    var11 = {'id': 2, 'label': 'Top Nav Only'};
+    var5 = 2;
+    var12 = {'enableTopNavButton': true, 'enableOverlayWidget': false};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var4['treatments'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot0 = var4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/friends/experiments/FriendsPopoutExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['FriendsPopoutExperiment'] = var4;
+    var4 = function useFriendsPopoutExperiment(arg1) {
+        var1 = arg1;
+        var1 = var1.location;
+        var4 = _closure1_slot0;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var2['location'] = var1;
+        var1 = {};
+        var5 = true;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useFriendsPopoutExperiment'] = tangon;
-    michal = function(argFoo) { // Original name: getFriendsPopoutEnabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['useFriendsPopoutExperiment'] = var4;
+    var2 = function getFriendsPopoutEnabled(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = arguments[1];
-            entity = undefined;
-            if(!(report === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            var5 = arguments[1];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            report = false;
+            var5 = false;
  11:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            entity = argFoo;
-            michal['location'] = entity;
-            entity = {};
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var1 = arg1;
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['getFriendsPopoutEnabled'] = michal;
-    return entity;
+    var3['getFriendsPopoutEnabled'] = var2;
+    return var1;
 })();

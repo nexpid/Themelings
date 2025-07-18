@@ -1,571 +1,571 @@
 // app/modules/global_discovery_servers/GlobalDiscoveryServersFeaturedSearchManager.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot13 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot13 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot13 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot9 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot10 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DISCOVERY_ALL_CATEGORIES_ID;
-    var _closure1_slot11 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot12 = tangon;
-    tangon = 15;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    michal = function(argFoo) {
-        zuuluu = function(argFoo) { // Original name: GlobalDiscoveryServersFeaturedSearchManager
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot13 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DISCOVERY_ALL_CATEGORIES_ID;
+    var _closure1_slot11 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot12 = var4;
+    var4 = 15;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var2 = function(arg1) {
+        var3 = function GlobalDiscoveryServersFeaturedSearchManager(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                report = this;
-                foxtra = 0;
-                entity = copyRestArgs(foxtra);
-                option = _closure1_slot6;
-                tangon = _closure2_slot0;
-                zuuluu = undefined;
-                option = option.bind(zuuluu)(report, tangon);
-                offset = new Array(0);
-                foxtra = offset;
-                romeon = entity;
-                yankee = 0;
-                entity = arraySpread(foxtra, romeon, yankee);
-                entity = _closure1_slot8;
-                verify = entity.bind(zuuluu)(tangon);
-                tangon = _closure1_slot7;
-                entity = _closure1_slot13;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+                var5 = this;
+                var13 = 0;
+                var1 = copyRestArgs(var13);
+                var8 = _closure1_slot6;
+                var4 = _closure2_slot0;
+                var3 = undefined;
+                var8 = var8.bind(var3)(var5, var4);
+                var10 = new Array(0);
+                var13 = var10;
+                var12 = var1;
+                var11 = 0;
+                var1 = arraySpread(var13, var12, var11);
+                var1 = _closure1_slot8;
+                var9 = var1.bind(var3)(var4);
+                var4 = _closure1_slot7;
+                var1 = _closure1_slot13;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 86; continue _fun0002 }
  73:
-                entity = verify.apply;
-                entity = entity.bind(verify)(report, offset);
-                _fun00004_ip = 120; continue _fun00003;
+                var1 = var9.apply;
+                var1 = var1.bind(var9)(var5, var10);
+                _fun0002_ip = 120; continue _fun0002;
  86:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot8;
-                oscard = oscard.bind(zuuluu)(report);
-                oscard = oscard.constructor;
-                entity = golfie.bind(option)(verify, offset, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot8;
+                var6 = var6.bind(var3)(var5);
+                var6 = var6.constructor;
+                var1 = var7.bind(var8)(var9, var10, var6);
  120:
-                entity = tangon.bind(zuuluu)(report, entity);
-                var _closure3_slot0 = entity;
-                tangon = {};
-                report = function() { // Original name: POST_CONNECTION_OPEN
-                    michal = _closure3_slot0;
-                    entity = michal.handleConnectionOpen;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var1 = var4.bind(var3)(var5, var1);
+                var _closure3_slot0 = var1;
+                var4 = {};
+                var5 = function POST_CONNECTION_OPEN() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.handleConnectionOpen;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                tangon['POST_CONNECTION_OPEN'] = report;
-                entity['actions'] = tangon;
-                tangon = global;
-                tangon = tangon.Set;
-                report = tangon.prototype;
-                report = Object.create(report, {constructor: {value: tangon}});
-                backup = report;
-                tangon = new backup[tangon](foxtra);
-                tangon = tangon instanceof Object ? tangon : report;
-                entity['queue'] = tangon;
-                tangon = false;
-                entity['isFetchEnabled'] = tangon;
-                tangon = function() {
-                    entity = _closure3_slot0;
-                    michal = true;
-                    entity['isFetchEnabled'] = michal;
-                    zuuluu = entity.queue;
-                    michal = zuuluu.forEach;
-                    entity = function(argFoo) {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var4['POST_CONNECTION_OPEN'] = var5;
+                var1['actions'] = var4;
+                var4 = global;
+                var4 = var4.Set;
+                var5 = var4.prototype;
+                var5 = Object.create(var5, {constructor: {value: var4}});
+                var14 = var5;
+                var4 = new var14[var4](var13);
+                var4 = var4 instanceof Object ? var4 : var5;
+                var1['queue'] = var4;
+                var4 = false;
+                var1['isFetchEnabled'] = var4;
+                var4 = function() {
+                    var1 = _closure3_slot0;
+                    var2 = true;
+                    var1['isFetchEnabled'] = var2;
+                    var3 = var1.queue;
+                    var2 = var3.forEach;
+                    var1 = function(arg1) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                            tangon = argFoo;
-                            entity = _closure1_slot11;
-                            if(!(tangon !== entity)) { _fun00006_ip = 41; continue _fun00005 }
+                            var4 = arg1;
+                            var1 = _closure1_slot11;
+                            if(!(var4 !== var1)) { _fun0003_ip = 41; continue _fun0003 }
  14:
-                            zuuluu = _closure3_slot0;
-                            michal = zuuluu.fetchCategoryFeaturedGuilds;
-                            entity = {};
-                            entity['categoryId'] = tangon;
-                            entity = michal.bind(zuuluu)(entity);
-                            _fun00006_ip = 58; continue _fun00005;
+                            var3 = _closure3_slot0;
+                            var2 = var3.fetchCategoryFeaturedGuilds;
+                            var1 = {};
+                            var1['categoryId'] = var4;
+                            var1 = var2.bind(var3)(var1);
+                            _fun0003_ip = 58; continue _fun0003;
  41:
-                            michal = _closure3_slot0;
-                            entity = michal.fetchFeaturedGuilds;
-                            entity = entity.bind(michal)();
+                            var2 = _closure3_slot0;
+                            var1 = var2.fetchFeaturedGuilds;
+                            var1 = var1.bind(var2)();
  58:
-                            entity = undefined;
-                            return entity;
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                entity['handleConnectionOpen'] = tangon;
-                tangon = function() {
-                    tangon = _closure1_slot4;
-                    zuuluu = undefined;
-                    michal = function* (argFoo) {
-                        entity = function* (argFoo) { // Original name: ?anon_0_
-                            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var1['handleConnectionOpen'] = var4;
+                var4 = function() {
+                    var4 = _closure1_slot4;
+                    var3 = undefined;
+                    var2 = function* (arg1) {
+                        var1 = function* anon_0_(arg1) {
+                            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                                 StartGenerator();
-                                report = argFoo;
+                                var5 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00008_ip = 566; continue _fun00007 }
+                                if(var2) { _fun0004_ip = 566; continue _fun0004 }
  13:
-                                zuuluu = _closure3_slot0;
-                                zuuluu = zuuluu.isFetchEnabled;
-                                if(zuuluu) { _fun00008_ip = 61; continue _fun00007 }
+                                var3 = _closure3_slot0;
+                                var3 = var3.isFetchEnabled;
+                                if(var3) { _fun0004_ip = 61; continue _fun0004 }
  29:
-                                michal = _closure3_slot0;
-                                tangon = michal.queue;
-                                zuuluu = tangon.add;
-                                michal = _closure1_slot11;
-                                michal = zuuluu.bind(tangon)(michal);
-                                _fun00008_ip = 561; continue _fun00007;
+                                var2 = _closure3_slot0;
+                                var4 = var2.queue;
+                                var3 = var4.add;
+                                var2 = _closure1_slot11;
+                                var2 = var3.bind(var4)(var2);
+                                _fun0004_ip = 561; continue _fun0004;
  61:
-                                zuuluu = null;
-                                oscard = zuuluu == report;
-                                tangon = undefined;
-                                michal = undefined;
-                                if(oscard) { _fun00008_ip = 80; continue _fun00007 }
+                                var3 = null;
+                                var6 = var3 == var5;
+                                var4 = undefined;
+                                var2 = undefined;
+                                if(var6) { _fun0004_ip = 80; continue _fun0004 }
  74:
-                                michal = report.forceRefresh;
+                                var2 = var5.forceRefresh;
  80:
-                                zuuluu = zuuluu != michal;
-                                if(!zuuluu) { _fun00008_ip = 90; continue _fun00007 }
+                                var3 = var3 != var2;
+                                if(!var3) { _fun0004_ip = 90; continue _fun0004 }
  87:
-                                zuuluu = michal;
+                                var3 = var2;
  90:
-                                golfie = _closure1_slot10;
-                                oscard = golfie.getLastFetchTimestamp;
-                                report = {};
-                                option = _closure1_slot11;
-                                report['categoryId'] = option;
-                                oscard = oscard.bind(golfie)(report);
-                                if(zuuluu) { _fun00008_ip = 159; continue _fun00007 }
+                                var7 = _closure1_slot10;
+                                var6 = var7.getLastFetchTimestamp;
+                                var5 = {};
+                                var8 = _closure1_slot11;
+                                var5['categoryId'] = var8;
+                                var6 = var6.bind(var7)(var5);
+                                if(var3) { _fun0004_ip = 159; continue _fun0004 }
  122:
-                                report = _closure1_slot0;
-                                golfie = _closure1_slot3;
-                                zuuluu = 9;
-                                zuuluu = golfie[zuuluu];
-                                report = report.bind(tangon)(zuuluu);
-                                zuuluu = report.isStaleFeaturedGuilds;
-                                zuuluu = zuuluu.bind(report)(oscard);
-                                if(!zuuluu) { _fun00008_ip = 561; continue _fun00007 }
+                                var5 = _closure1_slot0;
+                                var7 = _closure1_slot3;
+                                var3 = 9;
+                                var3 = var7[var3];
+                                var5 = var5.bind(var4)(var3);
+                                var3 = var5.isStaleFeaturedGuilds;
+                                var3 = var3.bind(var5)(var6);
+                                if(!var3) { _fun0004_ip = 561; continue _fun0004 }
  159:
-                                oscard = _closure1_slot1;
-                                report = _closure1_slot3;
-                                zuuluu = 10;
-                                report = report[zuuluu];
-                                golfie = oscard.bind(tangon)(report);
-                                oscard = golfie.dispatch;
-                                report = {'type': 'GLOBAL_DISCOVERY_SERVERS_SEARCH_START', 'categoryId': null, 'reset': true};
-                                option = _closure1_slot11;
-                                report['categoryId'] = option;
-                                option = true;
-                                report = oscard.bind(golfie)(report);
+                                var6 = _closure1_slot1;
+                                var5 = _closure1_slot3;
+                                var3 = 10;
+                                var5 = var5[var3];
+                                var7 = var6.bind(var4)(var5);
+                                var6 = var7.dispatch;
+                                var5 = {'type': 'GLOBAL_DISCOVERY_SERVERS_SEARCH_START', 'categoryId': null, 'reset': true};
+                                var8 = _closure1_slot11;
+                                var5['categoryId'] = var8;
+                                var8 = true;
+                                var5 = var6.bind(var7)(var5);
  215: // try_start_0
-                                foxtra = _closure1_slot0;
-                                backup = _closure1_slot3;
-                                report = 11;
-                                report = backup[report];
-                                report = foxtra.bind(tangon)(report);
-                                golfie = report.HTTP;
-                                oscard = golfie.get;
-                                report = {};
-                                verify = _closure1_slot12;
-                                verify = verify.GUILD_DISCOVERY;
-                                report['url'] = verify;
-                                offset = _closure1_slot1;
-                                verify = 12;
-                                verify = backup[verify];
-                                yankee = offset.bind(tangon)(verify);
-                                offset = yankee.stringify;
-                                verify = {};
-                                romeon = 0;
-                                verify['offset'] = romeon;
-                                romeon = 13;
-                                romeon = backup[romeon];
-                                romeon = foxtra.bind(tangon)(romeon);
-                                romeon = romeon.GlobalDiscoveryServersLimits;
-                                romeon = romeon.FEATURED_DEFAULT_LIMIT;
-                                verify['limit'] = romeon;
-                                verify = offset.bind(yankee)(verify);
-                                report['query'] = verify;
-                                report['oldFormErrors'] = option;
-                                option = false;
-                                report['rejectWithError'] = option;
-                                report = oscard.bind(golfie)(report);
+                                var13 = _closure1_slot0;
+                                var14 = _closure1_slot3;
+                                var5 = 11;
+                                var5 = var14[var5];
+                                var5 = var13.bind(var4)(var5);
+                                var7 = var5.HTTP;
+                                var6 = var7.get;
+                                var5 = {};
+                                var9 = _closure1_slot12;
+                                var9 = var9.GUILD_DISCOVERY;
+                                var5['url'] = var9;
+                                var10 = _closure1_slot1;
+                                var9 = 12;
+                                var9 = var14[var9];
+                                var11 = var10.bind(var4)(var9);
+                                var10 = var11.stringify;
+                                var9 = {};
+                                var12 = 0;
+                                var9['offset'] = var12;
+                                var12 = 13;
+                                var12 = var14[var12];
+                                var12 = var13.bind(var4)(var12);
+                                var12 = var12.GlobalDiscoveryServersLimits;
+                                var12 = var12.FEATURED_DEFAULT_LIMIT;
+                                var9['limit'] = var12;
+                                var9 = var10.bind(var11)(var9);
+                                var5['query'] = var9;
+                                var5['oldFormErrors'] = var8;
+                                var8 = false;
+                                var5['rejectWithError'] = var8;
+                                var5 = var6.bind(var7)(var5);
                                 SaveGenerator(address=350);
  348:
-                                return report;
+                                return var5;
  350:
                                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                                if(oscard) { _fun00008_ip = 470; continue _fun00007 }
+                                if(var6) { _fun0004_ip = 470; continue _fun0004 }
  356:
-                                oscard = report.body;
-                                verify = oscard.total;
-                                oscard = report.body;
-                                offset = oscard.guilds;
-                                option = offset.map;
-                                yankee = _closure1_slot0;
-                                oscard = _closure1_slot3;
-                                golfie = 9;
-                                golfie = oscard[golfie];
-                                golfie = yankee.bind(tangon)(golfie);
-                                golfie = golfie.fromDiscoverableGuildServer;
-                                offset = option.bind(offset)(golfie);
-                                golfie = _closure1_slot1;
-                                oscard = oscard[zuuluu];
-                                option = golfie.bind(tangon)(oscard);
-                                golfie = option.dispatch;
-                                oscard = {};
-                                yankee = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_SUCCESS';
-                                oscard['type'] = yankee;
-                                yankee = _closure1_slot11;
-                                oscard['categoryId'] = yankee;
-                                oscard['guilds'] = offset;
-                                oscard['total'] = verify;
-                                oscard = golfie.bind(option)(oscard);
+                                var6 = var5.body;
+                                var9 = var6.total;
+                                var6 = var5.body;
+                                var10 = var6.guilds;
+                                var8 = var10.map;
+                                var11 = _closure1_slot0;
+                                var6 = _closure1_slot3;
+                                var7 = 9;
+                                var7 = var6[var7];
+                                var7 = var11.bind(var4)(var7);
+                                var7 = var7.fromDiscoverableGuildServer;
+                                var10 = var8.bind(var10)(var7);
+                                var7 = _closure1_slot1;
+                                var6 = var6[var3];
+                                var8 = var7.bind(var4)(var6);
+                                var7 = var8.dispatch;
+                                var6 = {};
+                                var11 = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_SUCCESS';
+                                var6['type'] = var11;
+                                var11 = _closure1_slot11;
+                                var6['categoryId'] = var11;
+                                var6['guilds'] = var10;
+                                var6['total'] = var9;
+                                var6 = var7.bind(var8)(var6);
  468: // try_end0
-                                _fun00008_ip = 561; continue _fun00007;
+                                _fun0004_ip = 561; continue _fun0004;
  470:
-                                return report;
+                                return var5;
  473: // catch_target0
                                 CatchBlockStart(arg_register=8);
-                                report = _closure1_slot1;
-                                oscard = _closure1_slot3;
-                                zuuluu = oscard[zuuluu];
-                                option = report.bind(tangon)(zuuluu);
-                                golfie = option.dispatch;
-                                zuuluu = {};
-                                report = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_FAILURE';
-                                zuuluu['type'] = report;
-                                report = _closure1_slot11;
-                                zuuluu['categoryId'] = report;
-                                zuuluu['error'] = verify;
-                                zuuluu = golfie.bind(option)(zuuluu);
-                                zuuluu = _closure1_slot2;
-                                michal = 14;
-                                michal = oscard[michal];
-                                tangon = zuuluu.bind(tangon)(michal);
-                                zuuluu = tangon.trackGuildDiscoveryGetFeaturedGuildsFailed;
-                                michal = {};
-                                michal['categoryId'] = report;
-                                michal = zuuluu.bind(tangon)(michal);
+                                var5 = _closure1_slot1;
+                                var6 = _closure1_slot3;
+                                var3 = var6[var3];
+                                var8 = var5.bind(var4)(var3);
+                                var7 = var8.dispatch;
+                                var3 = {};
+                                var5 = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_FAILURE';
+                                var3['type'] = var5;
+                                var5 = _closure1_slot11;
+                                var3['categoryId'] = var5;
+                                var3['error'] = var9;
+                                var3 = var7.bind(var8)(var3);
+                                var3 = _closure1_slot2;
+                                var2 = 14;
+                                var2 = var6[var2];
+                                var4 = var3.bind(var4)(var2);
+                                var3 = var4.trackGuildDiscoveryGetFeaturedGuildsFailed;
+                                var2 = {};
+                                var2['categoryId'] = var5;
+                                var2 = var3.bind(var4)(var2);
  561:
-                                michal = undefined;
-                                return michal;
+                                var2 = undefined;
+                                return var2;
  566:
-                                return entity;
+                                return var1;
                             }
                         };
-                        return entity;
+                        return var1;
                     };
-                    michal = tangon.bind(zuuluu)(michal);
-                    var _closure4_slot0 = michal;
-                    entity = function() {
-                        entity = undefined;
-                        tangon = _closure4_slot0;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                    var2 = var4.bind(var3)(var2);
+                    var _closure4_slot0 = var2;
+                    var1 = function() {
+                        var1 = undefined;
+                        var4 = _closure4_slot0;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    return entity;
+                    return var1;
                 };
-                tangon = tangon.bind(zuuluu)();
-                entity['fetchFeaturedGuilds'] = tangon;
-                michal = function() {
-                    tangon = _closure1_slot4;
-                    zuuluu = undefined;
-                    michal = function* (argFoo) {
-                        entity = function* (argFoo) { // Original name: ?anon_0_
-                            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var4 = var4.bind(var3)();
+                var1['fetchFeaturedGuilds'] = var4;
+                var2 = function() {
+                    var4 = _closure1_slot4;
+                    var3 = undefined;
+                    var2 = function* (arg1) {
+                        var1 = function* anon_0_(arg1) {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                                 StartGenerator();
-                                michal = argFoo;
+                                var2 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                if(zuuluu) { _fun00010_ip = 540; continue _fun00009 }
+                                if(var3) { _fun0005_ip = 540; continue _fun0005 }
  13:
-                                golfie = michal.categoryId;
-                                report = michal.forceRefresh;
-                                zuuluu = undefined;
-                                if(!(report === zuuluu)) { _fun00010_ip = 33; continue _fun00009 }
+                                var7 = var2.categoryId;
+                                var5 = var2.forceRefresh;
+                                var3 = undefined;
+                                if(!(var5 === var3)) { _fun0005_ip = 33; continue _fun0005 }
  31:
-                                report = false;
+                                var5 = false;
  33:
                                 SaveGenerator(address=37);
  35:
-                                return zuuluu;
+                                return var3;
  37:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(tangon) { _fun00010_ip = 537; continue _fun00009 }
+                                if(var4) { _fun0005_ip = 537; continue _fun0005 }
  46:
-                                oscard = _closure3_slot0;
-                                oscard = oscard.isFetchEnabled;
-                                if(oscard) { _fun00010_ip = 90; continue _fun00009 }
+                                var6 = _closure3_slot0;
+                                var6 = var6.isFetchEnabled;
+                                if(var6) { _fun0005_ip = 90; continue _fun0005 }
  62:
-                                tangon = _closure3_slot0;
-                                option = tangon.queue;
-                                oscard = option.add;
-                                tangon = golfie;
-                                tangon = oscard.bind(option)(tangon);
-                                _fun00010_ip = 534; continue _fun00009;
+                                var4 = _closure3_slot0;
+                                var8 = var4.queue;
+                                var6 = var8.add;
+                                var4 = var7;
+                                var4 = var6.bind(var8)(var4);
+                                _fun0005_ip = 534; continue _fun0005;
  90:
-                                verify = _closure1_slot10;
-                                option = verify.getLastFetchTimestamp;
-                                oscard = {};
-                                offset = golfie;
-                                oscard['categoryId'] = offset;
-                                option = option.bind(verify)(oscard);
-                                if(report) { _fun00010_ip = 158; continue _fun00009 }
+                                var9 = _closure1_slot10;
+                                var8 = var9.getLastFetchTimestamp;
+                                var6 = {};
+                                var10 = var7;
+                                var6['categoryId'] = var10;
+                                var8 = var8.bind(var9)(var6);
+                                if(var5) { _fun0005_ip = 158; continue _fun0005 }
  121:
-                                oscard = _closure1_slot0;
-                                verify = _closure1_slot3;
-                                report = 9;
-                                report = verify[report];
-                                oscard = oscard.bind(zuuluu)(report);
-                                report = oscard.isStaleFeaturedGuilds;
-                                report = report.bind(oscard)(option);
-                                if(!report) { _fun00010_ip = 534; continue _fun00009 }
+                                var6 = _closure1_slot0;
+                                var9 = _closure1_slot3;
+                                var5 = 9;
+                                var5 = var9[var5];
+                                var6 = var6.bind(var3)(var5);
+                                var5 = var6.isStaleFeaturedGuilds;
+                                var5 = var5.bind(var6)(var8);
+                                if(!var5) { _fun0005_ip = 534; continue _fun0005 }
  158:
-                                option = _closure1_slot1;
-                                oscard = _closure1_slot3;
-                                report = 10;
-                                oscard = oscard[report];
-                                verify = option.bind(zuuluu)(oscard);
-                                option = verify.dispatch;
-                                oscard = {'type': 'GLOBAL_DISCOVERY_SERVERS_SEARCH_START', 'categoryId': null, 'reset': true};
-                                offset = golfie;
-                                oscard['categoryId'] = offset;
-                                offset = true;
-                                oscard = option.bind(verify)(oscard);
+                                var8 = _closure1_slot1;
+                                var6 = _closure1_slot3;
+                                var5 = 10;
+                                var6 = var6[var5];
+                                var9 = var8.bind(var3)(var6);
+                                var8 = var9.dispatch;
+                                var6 = {'type': 'GLOBAL_DISCOVERY_SERVERS_SEARCH_START', 'categoryId': null, 'reset': true};
+                                var10 = var7;
+                                var6['categoryId'] = var10;
+                                var10 = true;
+                                var6 = var8.bind(var9)(var6);
  213: // try_start_0
-                                option = _closure1_slot0;
-                                foxtra = _closure1_slot3;
-                                oscard = 11;
-                                oscard = foxtra[oscard];
-                                oscard = option.bind(zuuluu)(oscard);
-                                verify = oscard.HTTP;
-                                option = verify.get;
-                                oscard = {};
-                                yankee = _closure1_slot12;
-                                yankee = yankee.GUILD_DISCOVERY;
-                                oscard['url'] = yankee;
-                                romeon = _closure1_slot1;
-                                yankee = 12;
-                                yankee = foxtra[yankee];
-                                foxtra = romeon.bind(zuuluu)(yankee);
-                                romeon = foxtra.stringify;
-                                yankee = {};
-                                kiloes = golfie;
-                                backup = new Array(1);
-                                backup[0] = kiloes;
-                                yankee['categories'] = backup;
-                                yankee = romeon.bind(foxtra)(yankee);
-                                oscard['query'] = yankee;
-                                oscard['oldFormErrors'] = offset;
-                                offset = false;
-                                oscard['rejectWithError'] = offset;
-                                oscard = option.bind(verify)(oscard);
+                                var8 = _closure1_slot0;
+                                var13 = _closure1_slot3;
+                                var6 = 11;
+                                var6 = var13[var6];
+                                var6 = var8.bind(var3)(var6);
+                                var9 = var6.HTTP;
+                                var8 = var9.get;
+                                var6 = {};
+                                var11 = _closure1_slot12;
+                                var11 = var11.GUILD_DISCOVERY;
+                                var6['url'] = var11;
+                                var12 = _closure1_slot1;
+                                var11 = 12;
+                                var11 = var13[var11];
+                                var13 = var12.bind(var3)(var11);
+                                var12 = var13.stringify;
+                                var11 = {};
+                                var15 = var7;
+                                var14 = new Array(1);
+                                var14[0] = var15;
+                                var11['categories'] = var14;
+                                var11 = var12.bind(var13)(var11);
+                                var6['query'] = var11;
+                                var6['oldFormErrors'] = var10;
+                                var10 = false;
+                                var6['rejectWithError'] = var10;
+                                var6 = var8.bind(var9)(var6);
                                 SaveGenerator(address=328);
  326:
-                                return oscard;
+                                return var6;
  328:
                                 ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                                if(option) { _fun00010_ip = 447; continue _fun00009 }
+                                if(var8) { _fun0005_ip = 447; continue _fun0005 }
  334:
-                                option = oscard.body;
-                                yankee = option.total;
-                                option = oscard.body;
-                                romeon = option.guilds;
-                                offset = romeon.map;
-                                foxtra = _closure1_slot0;
-                                option = _closure1_slot3;
-                                verify = 9;
-                                verify = option[verify];
-                                verify = foxtra.bind(zuuluu)(verify);
-                                verify = verify.fromDiscoverableGuildServer;
-                                romeon = offset.bind(romeon)(verify);
-                                verify = _closure1_slot1;
-                                option = option[report];
-                                offset = verify.bind(zuuluu)(option);
-                                verify = offset.dispatch;
-                                option = {};
-                                foxtra = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_SUCCESS';
-                                option['type'] = foxtra;
-                                foxtra = golfie;
-                                option['categoryId'] = foxtra;
-                                option['guilds'] = romeon;
-                                option['total'] = yankee;
-                                option = verify.bind(offset)(option);
+                                var8 = var6.body;
+                                var11 = var8.total;
+                                var8 = var6.body;
+                                var12 = var8.guilds;
+                                var10 = var12.map;
+                                var13 = _closure1_slot0;
+                                var8 = _closure1_slot3;
+                                var9 = 9;
+                                var9 = var8[var9];
+                                var9 = var13.bind(var3)(var9);
+                                var9 = var9.fromDiscoverableGuildServer;
+                                var12 = var10.bind(var12)(var9);
+                                var9 = _closure1_slot1;
+                                var8 = var8[var5];
+                                var10 = var9.bind(var3)(var8);
+                                var9 = var10.dispatch;
+                                var8 = {};
+                                var13 = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_SUCCESS';
+                                var8['type'] = var13;
+                                var13 = var7;
+                                var8['categoryId'] = var13;
+                                var8['guilds'] = var12;
+                                var8['total'] = var11;
+                                var8 = var9.bind(var10)(var8);
  445: // try_end0
-                                _fun00010_ip = 534; continue _fun00009;
+                                _fun0005_ip = 534; continue _fun0005;
  447:
-                                return oscard;
+                                return var6;
  450: // catch_target0
                                 CatchBlockStart(arg_register=9);
-                                option = _closure1_slot1;
-                                oscard = _closure1_slot3;
-                                report = oscard[report];
-                                verify = option.bind(zuuluu)(report);
-                                option = verify.dispatch;
-                                report = {};
-                                yankee = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_FAILURE';
-                                report['type'] = yankee;
-                                report['categoryId'] = golfie;
-                                report['error'] = offset;
-                                report = option.bind(verify)(report);
-                                report = _closure1_slot2;
-                                tangon = 14;
-                                tangon = oscard[tangon];
-                                oscard = report.bind(zuuluu)(tangon);
-                                report = oscard.trackGuildDiscoveryGetFeaturedGuildsFailed;
-                                tangon = {};
-                                tangon['categoryId'] = golfie;
-                                tangon = report.bind(oscard)(tangon);
+                                var8 = _closure1_slot1;
+                                var6 = _closure1_slot3;
+                                var5 = var6[var5];
+                                var9 = var8.bind(var3)(var5);
+                                var8 = var9.dispatch;
+                                var5 = {};
+                                var11 = 'GLOBAL_DISCOVERY_SERVERS_SEARCH_FAILURE';
+                                var5['type'] = var11;
+                                var5['categoryId'] = var7;
+                                var5['error'] = var10;
+                                var5 = var8.bind(var9)(var5);
+                                var5 = _closure1_slot2;
+                                var4 = 14;
+                                var4 = var6[var4];
+                                var6 = var5.bind(var3)(var4);
+                                var5 = var6.trackGuildDiscoveryGetFeaturedGuildsFailed;
+                                var4 = {};
+                                var4['categoryId'] = var7;
+                                var4 = var5.bind(var6)(var4);
  534:
-                                return zuuluu;
+                                return var3;
  537:
-                                return michal;
+                                return var2;
  540:
-                                return entity;
+                                return var1;
                             }
                         };
-                        michal = entity.next;
-                        michal = michal.bind(entity)();
-                        return entity;
+                        var2 = var1.next;
+                        var2 = var2.bind(var1)();
+                        return var1;
                     };
-                    michal = tangon.bind(zuuluu)(michal);
-                    var _closure4_slot0 = michal;
-                    entity = function() {
-                        entity = undefined;
-                        tangon = _closure4_slot0;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                    var2 = var4.bind(var3)(var2);
+                    var _closure4_slot0 = var2;
+                    var1 = function() {
+                        var1 = undefined;
+                        var4 = _closure4_slot0;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = michal.bind(zuuluu)();
-                entity['fetchCategoryFeaturedGuilds'] = michal;
-                return entity;
+                var2 = var2.bind(var3)();
+                var1['fetchCategoryFeaturedGuilds'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        report = _closure1_slot9;
-        michal = undefined;
-        tangon = argFoo;
-        tangon = report.bind(michal)(zuuluu, tangon);
-        entity = _closure1_slot5;
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+        var _closure2_slot0 = var3;
+        var5 = _closure1_slot9;
+        var2 = undefined;
+        var4 = arg1;
+        var4 = var5.bind(var2)(var3, var4);
+        var1 = _closure1_slot5;
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 16;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/global_discovery_servers/GlobalDiscoveryServersFeaturedSearchManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 16;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/global_discovery_servers/GlobalDiscoveryServersFeaturedSearchManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

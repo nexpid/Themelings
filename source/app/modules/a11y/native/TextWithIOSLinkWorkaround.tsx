@@ -1,159 +1,159 @@
 // app/modules/a11y/native/TextWithIOSLinkWorkaround.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: findLinks
-        michal = _closure1_slot2;
-        tangon = michal.Children;
-        zuuluu = tangon.toArray;
-        michal = argFoo;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.filter;
-        entity = _closure1_slot2;
-        entity = entity.isValidElement;
-        zuuluu = michal.bind(zuuluu)(entity);
-        michal = zuuluu.flatMap;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function findLinks(arg1) {
+        var2 = _closure1_slot2;
+        var4 = var2.Children;
+        var3 = var4.toArray;
+        var2 = arg1;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.filter;
+        var1 = _closure1_slot2;
+        var1 = var1.isValidElement;
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.flatMap;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                zuuluu = michal.type;
-                oscard = _closure1_slot0;
-                report = _closure1_slot1;
-                entity = 4;
-                entity = report[entity];
-                report = undefined;
-                entity = oscard.bind(report)(entity);
-                entity = entity.I18nLinkComponent;
-                if(!(zuuluu !== entity)) { _fun00002_ip = 81; continue _fun00001 }
+                var2 = arg1;
+                var3 = var2.type;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var1 = 4;
+                var1 = var5[var1];
+                var5 = undefined;
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.I18nLinkComponent;
+                if(!(var3 !== var1)) { _fun0001_ip = 81; continue _fun0001 }
  43:
-                zuuluu = michal.props;
-                oscard = zuuluu.children;
-                entity = null;
-                if(!(entity == oscard)) { _fun00002_ip = 65; continue _fun00001 }
+                var3 = var2.props;
+                var6 = var3.children;
+                var1 = null;
+                if(!(var1 == var6)) { _fun0001_ip = 65; continue _fun0001 }
  59:
-                entity = new Array(0);
-                _fun00002_ip = 79; continue _fun00001;
+                var1 = new Array(0);
+                _fun0001_ip = 79; continue _fun0001;
  65:
-                tangon = _closure1_slot7;
-                zuuluu = zuuluu.children;
-                entity = tangon.bind(report)(zuuluu);
+                var4 = _closure1_slot7;
+                var3 = var3.children;
+                var1 = var4.bind(var5)(var3);
  79:
-                return entity;
+                return var1;
  81:
-                entity = new Array(1);
-                entity[0] = michal;
-                return entity;
+                var1 = new Array(1);
+                var1[0] = var2;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexDirection': 'column', 'flexShrink': 1};
-    tangon['column'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/a11y/native/TextWithIOSLinkWorkaround.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: TextWithIOSLinkWorkaround
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flexDirection': 'column', 'flexShrink': 1};
+    var4['column'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/a11y/native/TextWithIOSLinkWorkaround.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function TextWithIOSLinkWorkaround(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = tangon.children;
-            entity = null;
-            michal = Object.create(entity);
-            entity = 0;
-            michal['children'] = entity;
-            backup = {};
-            foxtra = tangon;
-            romeon = michal;
-            foxtra = copyDataProperties(backup, foxtra, romeon);
-            michal = _closure1_slot6;
-            tangon = undefined;
-            report = michal.bind(tangon)();
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 5;
-            michal = verify[michal];
-            oscard = option.bind(tangon)(michal);
-            michal = oscard.useIsScreenReaderEnabled;
-            michal = michal.bind(oscard)();
-            offset = _closure1_slot4;
-            oscard = 6;
-            oscard = verify[oscard];
-            oscard = option.bind(tangon)(oscard);
-            golfie = oscard.Text;
-            oscard = {};
-            backup = oscard;
-            yankee = copyDataProperties(backup, foxtra);
-            yankee = 'children';
-            oscard[yankee] = zuuluu;
-            golfie = offset.bind(tangon)(golfie, oscard);
-            oscard = 7;
-            oscard = verify[oscard];
-            option = option.bind(tangon)(oscard);
-            oscard = option.isIOS;
-            oscard = oscard.bind(option)();
-            if(!oscard) { _fun00004_ip = 147; continue _fun00003 }
+            var4 = arg1;
+            var3 = var4.children;
+            var1 = null;
+            var2 = Object.create(var1);
+            var1 = 0;
+            var2['children'] = var1;
+            var14 = {};
+            var13 = var4;
+            var12 = var2;
+            var13 = copyDataProperties(var14, var13, var12);
+            var2 = _closure1_slot6;
+            var4 = undefined;
+            var5 = var2.bind(var4)();
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var2 = 5;
+            var2 = var9[var2];
+            var6 = var8.bind(var4)(var2);
+            var2 = var6.useIsScreenReaderEnabled;
+            var2 = var2.bind(var6)();
+            var10 = _closure1_slot4;
+            var6 = 6;
+            var6 = var9[var6];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.Text;
+            var6 = {};
+            var14 = var6;
+            var11 = copyDataProperties(var14, var13);
+            var11 = 'children';
+            var6[var11] = var3;
+            var7 = var10.bind(var4)(var7, var6);
+            var6 = 7;
+            var6 = var9[var6];
+            var8 = var8.bind(var4)(var6);
+            var6 = var8.isIOS;
+            var6 = var6.bind(var8)();
+            if(!var6) { _fun0002_ip = 147; continue _fun0002 }
  144:
-            if(michal) { _fun00004_ip = 149; continue _fun00003 }
+            if(var2) { _fun0002_ip = 149; continue _fun0002 }
  147:
-            return golfie;
+            return var7;
  149:
-            michal = _closure1_slot7;
-            oscard = michal.bind(tangon)(zuuluu);
-            zuuluu = _closure1_slot5;
-            michal = _closure1_slot3;
-            entity = {};
-            report = report.column;
-            entity['style'] = report;
-            report = new Array(2);
-            report[0] = golfie;
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var2 = _closure1_slot7;
+            var6 = var2.bind(var4)(var3);
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var5.column;
+            var1['style'] = var5;
+            var5 = new Array(2);
+            var5[0] = var7;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['TextWithIOSLinkWorkaround'] = michal;
-    return entity;
+    var3['TextWithIOSLinkWorkaround'] = var2;
+    return var1;
 })();

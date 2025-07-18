@@ -1,237 +1,237 @@
 // app/modules/stage_channels/useStageBlockedUsersCount.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/stage_channels/useStageBlockedUsersCount.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useStageBlockedUsersCount
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/stage_channels/useStageBlockedUsersCount.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useStageBlockedUsersCount(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = null;
-                michal = entity != michal;
-                entity = 0;
-                if(!michal) { _fun00002_ip = 75; continue _fun00001 }
+                var2 = _closure2_slot0;
+                var1 = null;
+                var2 = var1 != var2;
+                var1 = 0;
+                if(!var2) { _fun0001_ip = 75; continue _fun0001 }
  18:
-                report = _closure1_slot2;
-                tangon = report.getParticipantCount;
-                zuuluu = _closure2_slot0;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 2;
-                oscard = oscard[michal];
-                michal = undefined;
-                michal = golfie.bind(michal)(oscard);
-                michal = michal.StageChannelParticipantNamedIndex;
-                michal = michal.BLOCKED;
-                entity = tangon.bind(report)(zuuluu, michal);
+                var5 = _closure1_slot2;
+                var4 = var5.getParticipantCount;
+                var3 = _closure2_slot0;
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 2;
+                var6 = var6[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var6);
+                var2 = var2.StageChannelParticipantNamedIndex;
+                var2 = var2.BLOCKED;
+                var1 = var4.bind(var5)(var3, var2);
  75:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useStageBlockedUsersCount'] = tangon;
-    tangon = function(argFoo) { // Original name: useStageIgnoredUsersCount
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useStageBlockedUsersCount'] = var4;
+    var4 = function useStageIgnoredUsersCount(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = null;
-                michal = entity != michal;
-                entity = 0;
-                if(!michal) { _fun00004_ip = 75; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var1 = null;
+                var2 = var1 != var2;
+                var1 = 0;
+                if(!var2) { _fun0002_ip = 75; continue _fun0002 }
  18:
-                report = _closure1_slot2;
-                tangon = report.getParticipantCount;
-                zuuluu = _closure2_slot0;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 2;
-                oscard = oscard[michal];
-                michal = undefined;
-                michal = golfie.bind(michal)(oscard);
-                michal = michal.StageChannelParticipantNamedIndex;
-                michal = michal.IGNORED;
-                entity = tangon.bind(report)(zuuluu, michal);
+                var5 = _closure1_slot2;
+                var4 = var5.getParticipantCount;
+                var3 = _closure2_slot0;
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 2;
+                var6 = var6[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var6);
+                var2 = var2.StageChannelParticipantNamedIndex;
+                var2 = var2.IGNORED;
+                var1 = var4.bind(var5)(var3, var2);
  75:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useStageIgnoredUsersCount'] = tangon;
-    tangon = function(argFoo) { // Original name: getStageBlockedUsersCount
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useStageIgnoredUsersCount'] = var4;
+    var4 = function getStageBlockedUsersCount(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getParticipantCount;
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            entity = report.bind(entity)(michal);
-            entity = entity.StageChannelParticipantNamedIndex;
-            michal = entity.BLOCKED;
-            entity = argFoo;
-            michal = zuuluu.bind(tangon)(entity, michal);
-            entity = null;
-            zuuluu = entity != michal;
-            entity = 0;
-            if(!zuuluu) { _fun00006_ip = 70; continue _fun00005 }
+            var4 = _closure1_slot2;
+            var3 = var4.getParticipantCount;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var2);
+            var1 = var1.StageChannelParticipantNamedIndex;
+            var2 = var1.BLOCKED;
+            var1 = arg1;
+            var2 = var3.bind(var4)(var1, var2);
+            var1 = null;
+            var3 = var1 != var2;
+            var1 = 0;
+            if(!var3) { _fun0003_ip = 70; continue _fun0003 }
  67:
-            entity = michal;
+            var1 = var2;
  70:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getStageBlockedUsersCount'] = tangon;
-    tangon = function(argFoo) { // Original name: getStageIgnoredUsersCount
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getStageBlockedUsersCount'] = var4;
+    var4 = function getStageIgnoredUsersCount(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getParticipantCount;
-            report = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            entity = report.bind(entity)(michal);
-            entity = entity.StageChannelParticipantNamedIndex;
-            michal = entity.IGNORED;
-            entity = argFoo;
-            michal = zuuluu.bind(tangon)(entity, michal);
-            entity = null;
-            zuuluu = entity != michal;
-            entity = 0;
-            if(!zuuluu) { _fun00008_ip = 70; continue _fun00007 }
+            var4 = _closure1_slot2;
+            var3 = var4.getParticipantCount;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var2);
+            var1 = var1.StageChannelParticipantNamedIndex;
+            var2 = var1.IGNORED;
+            var1 = arg1;
+            var2 = var3.bind(var4)(var1, var2);
+            var1 = null;
+            var3 = var1 != var2;
+            var1 = 0;
+            if(!var3) { _fun0004_ip = 70; continue _fun0004 }
  67:
-            entity = michal;
+            var1 = var2;
  70:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getStageIgnoredUsersCount'] = tangon;
-    tangon = function(argFoo) { // Original name: useStageBlockedUsers
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getMutableParticipants;
-            michal = _closure2_slot0;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 2;
-            report = report[entity];
-            entity = undefined;
-            entity = oscard.bind(entity)(report);
-            entity = entity.StageChannelParticipantNamedIndex;
-            entity = entity.BLOCKED;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+    var3['getStageIgnoredUsersCount'] = var4;
+    var4 = function useStageBlockedUsers(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var4 = _closure1_slot2;
+            var3 = var4.getMutableParticipants;
+            var2 = _closure2_slot0;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 2;
+            var5 = var5[var1];
+            var1 = undefined;
+            var1 = var6.bind(var1)(var5);
+            var1 = var1.StageChannelParticipantNamedIndex;
+            var1 = var1.BLOCKED;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useStageBlockedUsers'] = tangon;
-    michal = function(argFoo) { // Original name: useStageIgnoredUsers
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getMutableParticipants;
-            michal = _closure2_slot0;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 2;
-            report = report[entity];
-            entity = undefined;
-            entity = oscard.bind(entity)(report);
-            entity = entity.StageChannelParticipantNamedIndex;
-            entity = entity.IGNORED;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+    var3['useStageBlockedUsers'] = var4;
+    var2 = function useStageIgnoredUsers(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var4 = _closure1_slot2;
+            var3 = var4.getMutableParticipants;
+            var2 = _closure2_slot0;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 2;
+            var5 = var5[var1];
+            var1 = undefined;
+            var1 = var6.bind(var1)(var5);
+            var1 = var1.StageChannelParticipantNamedIndex;
+            var1 = var1.IGNORED;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useStageIgnoredUsers'] = michal;
-    return entity;
+    var3['useStageIgnoredUsers'] = var2;
+    return var1;
 })();

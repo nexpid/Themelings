@@ -1,289 +1,289 @@
 // app/modules/app_database/app/TryLoad.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = function() { // Original name: _tryLoadAsync
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = function _tryLoadAsync() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 67; continue _fun0001 }
  7:
-                    michal = argFoo;
+                    var2 = arg1;
  10: // try_start_0
-                    zuuluu = michal;
-                    michal = undefined;
-                    michal = zuuluu.bind(michal)();
+                    var3 = var2;
+                    var2 = undefined;
+                    var2 = var3.bind(var2)();
                     SaveGenerator(address=23);
  21:
-                    return michal;
+                    return var2;
  23:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 32; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 32; continue _fun0001 }
  29: // try_end0
-                    return michal;
+                    return var2;
  32:
-                    return michal;
+                    return var2;
  35: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.log;
-                    michal = 'database load failed.';
-                    michal = zuuluu.bind(tangon)(michal, report);
-                    michal = null;
-                    return michal;
+                    var4 = _closure1_slot3;
+                    var3 = var4.log;
+                    var2 = 'database load failed.';
+                    var2 = var3.bind(var4)(var2, var5);
+                    var2 = null;
+                    return var2;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = function() { // Original name: _tryLoadOrResetCacheGatewayAsync
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = function _tryLoadOrResetCacheGatewayAsync() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 234; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 234; continue _fun0002 }
  10:
-                    option = argFoo;
-                    michal = argBar;
-                    yankee = argBaz;
+                    var8 = arg1;
+                    var2 = arg2;
+                    var11 = arg3;
  19: // try_start_0
-                    zuuluu = michal;
-                    michal = undefined;
-                    michal = zuuluu.bind(michal)();
+                    var3 = var2;
+                    var2 = undefined;
+                    var2 = var3.bind(var2)();
                     SaveGenerator(address=32);
  30:
-                    return michal;
+                    return var2;
  32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 41; continue _fun0002 }
  38: // try_end0
-                    return michal;
+                    return var2;
  41:
-                    return michal;
+                    return var2;
  44: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    verify = _closure1_slot3;
-                    oscard = verify.log;
-                    romeon = option;
-                    golfie = global;
-                    tangon = golfie.HermesInternal;
-                    offset = tangon.concat;
-                    report = '';
-                    tangon = ': exception thrown, resetting socket.';
-                    report = offset.bind(report)(romeon, tangon);
-                    tangon = michal.stack;
-                    tangon = oscard.bind(verify)(report, michal, tangon);
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    zuuluu = 2;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    report = report.bind(zuuluu)(tangon);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    oscard = 'RESET_SOCKET';
-                    zuuluu['type'] = oscard;
-                    oscard = {};
-                    oscard['error'] = michal;
-                    michal = golfie.HermesInternal;
-                    michal = michal.concat;
-                    offset = 'tryLoadOrResetCacheGatewayAsync (';
-                    verify = ')';
-                    michal = michal.bind(offset)(romeon, verify);
-                    oscard['action'] = michal;
-                    romeon = yankee;
-                    michal = null;
-                    if(!(michal == romeon)) { _fun00004_ip = 189; continue _fun00003 }
+                    var9 = _closure1_slot3;
+                    var6 = var9.log;
+                    var12 = var8;
+                    var7 = global;
+                    var4 = var7.HermesInternal;
+                    var10 = var4.concat;
+                    var5 = '';
+                    var4 = ': exception thrown, resetting socket.';
+                    var5 = var10.bind(var5)(var12, var4);
+                    var4 = var2.stack;
+                    var4 = var6.bind(var9)(var5, var2, var4);
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var3 = 2;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var6 = 'RESET_SOCKET';
+                    var3['type'] = var6;
+                    var6 = {};
+                    var6['error'] = var2;
+                    var2 = var7.HermesInternal;
+                    var2 = var2.concat;
+                    var10 = 'tryLoadOrResetCacheGatewayAsync (';
+                    var9 = ')';
+                    var2 = var2.bind(var10)(var12, var9);
+                    var6['action'] = var2;
+                    var12 = var11;
+                    var2 = null;
+                    if(!(var2 == var12)) { _fun0002_ip = 189; continue _fun0002 }
  187:
-                    _fun00004_ip = 192; continue _fun00003;
+                    _fun0002_ip = 192; continue _fun0002;
  189:
-                    option = yankee;
+                    var8 = var11;
  192:
-                    golfie = golfie.HermesInternal;
-                    golfie = golfie.concat;
-                    golfie = golfie.bind(offset)(option, verify);
-                    oscard['metricAction'] = golfie;
-                    golfie = true;
-                    oscard['clearCache'] = golfie;
-                    zuuluu['args'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    return michal;
+                    var7 = var7.HermesInternal;
+                    var7 = var7.concat;
+                    var7 = var7.bind(var10)(var8, var9);
+                    var6['metricAction'] = var7;
+                    var7 = true;
+                    var6['clearCache'] = var7;
+                    var3['args'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    return var2;
  234:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    golfie = oscard.bind(entity)(tangon);
-    tangon = golfie.prototype;
-    oscard = Object.create(tangon, {constructor: {value: golfie}});
-    yankee = 'TryLoad';
-    romeon = oscard;
-    tangon = new romeon[golfie](yankee, offset);
-    tangon = tangon instanceof Object ? tangon : oscard;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_database/app/TryLoad.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: tryLoad
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var7 = var6.bind(var1)(var4);
+    var4 = var7.prototype;
+    var6 = Object.create(var4, {constructor: {value: var7}});
+    var11 = 'TryLoad';
+    var12 = var6;
+    var4 = new var12[var7](var11, var10);
+    var4 = var4 instanceof Object ? var4 : var6;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_database/app/TryLoad.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function tryLoad(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
+            var1 = arg1;
  3: // try_start_0
-            michal = entity;
-            entity = undefined;
-            entity = michal.bind(entity)();
+            var2 = var1;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
  12: // try_end0
-            return entity;
+            return var1;
  14: // catch_target0
             CatchBlockStart(arg_register=3);
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.log;
-            entity = 'database load failed.';
-            entity = michal.bind(zuuluu)(entity, tangon);
-            entity = null;
-            return entity;
+            var3 = _closure1_slot3;
+            var2 = var3.log;
+            var1 = 'database load failed.';
+            var1 = var2.bind(var3)(var1, var4);
+            var1 = null;
+            return var1;
         }
     };
-    zuuluu['tryLoad'] = tangon;
-    tangon = function() { // Original name: tryLoadAsync
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['tryLoad'] = var4;
+    var4 = function tryLoadAsync() {
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['tryLoadAsync'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: tryLoadOrResetCacheGateway
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['tryLoadAsync'] = var4;
+    var4 = function tryLoadOrResetCacheGateway(arg1, arg2, arg3) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            golfie = argFoo;
-            entity = argBar;
-            offset = argBaz;
+            var7 = arg1;
+            var1 = arg2;
+            var10 = arg3;
  9: // try_start_0
-            michal = entity;
-            entity = undefined;
-            entity = michal.bind(entity)();
+            var2 = var1;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
  18: // try_end0
-            return entity;
+            return var1;
  20: // catch_target0
             CatchBlockStart(arg_register=0);
-            option = _closure1_slot3;
-            report = option.log;
-            yankee = golfie;
-            oscard = global;
-            zuuluu = oscard.HermesInternal;
-            verify = zuuluu.concat;
-            tangon = '';
-            zuuluu = ': exception thrown, resetting socket.';
-            tangon = verify.bind(tangon)(yankee, zuuluu);
-            zuuluu = entity.stack;
-            zuuluu = report.bind(option)(tangon, entity, zuuluu);
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'RESET_SOCKET';
-            michal['type'] = report;
-            report = {};
-            report['error'] = entity;
-            entity = oscard.HermesInternal;
-            entity = entity.concat;
-            verify = 'tryLoadOrResetCacheGateway (';
-            option = ')';
-            entity = entity.bind(verify)(yankee, option);
-            report['action'] = entity;
-            yankee = offset;
-            entity = null;
-            if(!(entity == yankee)) { _fun00008_ip = 165; continue _fun00007 }
+            var8 = _closure1_slot3;
+            var5 = var8.log;
+            var11 = var7;
+            var6 = global;
+            var3 = var6.HermesInternal;
+            var9 = var3.concat;
+            var4 = '';
+            var3 = ': exception thrown, resetting socket.';
+            var4 = var9.bind(var4)(var11, var3);
+            var3 = var1.stack;
+            var3 = var5.bind(var8)(var4, var1, var3);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.dispatch;
+            var2 = {};
+            var5 = 'RESET_SOCKET';
+            var2['type'] = var5;
+            var5 = {};
+            var5['error'] = var1;
+            var1 = var6.HermesInternal;
+            var1 = var1.concat;
+            var9 = 'tryLoadOrResetCacheGateway (';
+            var8 = ')';
+            var1 = var1.bind(var9)(var11, var8);
+            var5['action'] = var1;
+            var11 = var10;
+            var1 = null;
+            if(!(var1 == var11)) { _fun0004_ip = 165; continue _fun0004 }
  163:
-            _fun00008_ip = 168; continue _fun00007;
+            _fun0004_ip = 168; continue _fun0004;
  165:
-            golfie = offset;
+            var7 = var10;
  168:
-            oscard = oscard.HermesInternal;
-            oscard = oscard.concat;
-            oscard = oscard.bind(verify)(golfie, option);
-            report['metricAction'] = oscard;
-            oscard = true;
-            report['clearCache'] = oscard;
-            michal['args'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var6 = var6.HermesInternal;
+            var6 = var6.concat;
+            var6 = var6.bind(var9)(var7, var8);
+            var5['metricAction'] = var6;
+            var6 = true;
+            var5['clearCache'] = var6;
+            var2['args'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['tryLoadOrResetCacheGateway'] = tangon;
-    michal = function() { // Original name: tryLoadOrResetCacheGatewayAsync
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['tryLoadOrResetCacheGateway'] = var4;
+    var2 = function tryLoadOrResetCacheGatewayAsync() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['tryLoadOrResetCacheGatewayAsync'] = michal;
-    return entity;
+    var3['tryLoadOrResetCacheGatewayAsync'] = var2;
+    return var1;
 })();

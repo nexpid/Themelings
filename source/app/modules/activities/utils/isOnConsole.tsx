@@ -1,49 +1,49 @@
 // app/modules/activities/utils/isOnConsole.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 2;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/isOnConsole.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: isOnConsole
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 2;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/isOnConsole.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function isOnConsole(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 0;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = report.bind(zuuluu)(entity);
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00002_ip = 60; continue _fun00001 }
+            var4 = arg1;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 0;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var5.bind(var3)(var1);
+            var1 = var1.bind(var3)(var4);
+            if(var1) { _fun0001_ip = 60; continue _fun0001 }
  35:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 1;
-            michal = oscard[michal];
-            michal = report.bind(zuuluu)(michal);
-            entity = michal.bind(zuuluu)(tangon);
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 1;
+            var2 = var6[var2];
+            var2 = var5.bind(var3)(var2);
+            var1 = var2.bind(var3)(var4);
  60:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,286 +1,286 @@
 // app/modules/forums/tracking/ForumChannelSeenManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    oscard = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var6 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot7 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot7 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    tangon = function(argFoo) { // Original name: getForumPostSeenManagerId
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 5;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.AnalyticsFeedTypes;
-        report = entity.FORUM_CHANNEL;
-        entity = global;
-        entity = entity.HermesInternal;
-        tangon = entity.concat;
-        zuuluu = '';
-        michal = '_';
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(report, michal, entity);
-        return entity;
+    var _closure1_slot7 = var1;
+    var4 = function getForumPostSeenManagerId(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.AnalyticsFeedTypes;
+        var5 = var1.FORUM_CHANNEL;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = '';
+        var2 = '_';
+        var1 = arg1;
+        var1 = var4.bind(var3)(var5, var2, var1);
+        return var1;
     };
-    var _closure1_slot8 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = option[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = option[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = option[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = option[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 4;
-    report = option[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot6 = report;
-    report = 5;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    oscard = report.AnalyticsFeedItemSeenManager;
-    report = function(argFoo) {
-        zuuluu = function(argFoo) { // Original name: ForumChannelSeenManager
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot8 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var8[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var8[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var8[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var8[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var8[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 5;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var6 = var5.AnalyticsFeedItemSeenManager;
+    var5 = function(arg1) {
+        var3 = function ForumChannelSeenManager(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                option = this;
-                zuuluu = entity.guildId;
-                tangon = entity.channelId;
-                offset = entity.windowId;
-                verify = entity.isPaused;
-                entity = _closure1_slot3;
-                golfie = _closure2_slot0;
-                report = undefined;
-                entity = entity.bind(report)(option, golfie);
-                entity = {};
-                entity['windowId'] = offset;
-                entity['isPaused'] = verify;
-                verify = _closure1_slot8;
-                verify = verify.bind(report)(tangon);
-                entity['id'] = verify;
-                foxtra = new Array(1);
-                foxtra[0] = entity;
-                entity = _closure1_slot5;
-                romeon = entity.bind(report)(golfie);
-                golfie = _closure1_slot4;
-                entity = _closure1_slot7;
-                entity = entity.bind(report)();
-                if(entity) { _fun00004_ip = 122; continue _fun00003 }
+                var1 = arg1;
+                var8 = this;
+                var3 = var1.guildId;
+                var4 = var1.channelId;
+                var10 = var1.windowId;
+                var9 = var1.isPaused;
+                var1 = _closure1_slot3;
+                var7 = _closure2_slot0;
+                var5 = undefined;
+                var1 = var1.bind(var5)(var8, var7);
+                var1 = {};
+                var1['windowId'] = var10;
+                var1['isPaused'] = var9;
+                var9 = _closure1_slot8;
+                var9 = var9.bind(var5)(var4);
+                var1['id'] = var9;
+                var13 = new Array(1);
+                var13[0] = var1;
+                var1 = _closure1_slot5;
+                var12 = var1.bind(var5)(var7);
+                var7 = _closure1_slot4;
+                var1 = _closure1_slot7;
+                var1 = var1.bind(var5)();
+                if(var1) { _fun0002_ip = 122; continue _fun0002 }
  109:
-                entity = romeon.apply;
-                entity = entity.bind(romeon)(option, foxtra);
-                _fun00004_ip = 156; continue _fun00003;
+                var1 = var12.apply;
+                var1 = var1.bind(var12)(var8, var13);
+                _fun0002_ip = 156; continue _fun0002;
  122:
-                verify = global;
-                yankee = verify.Reflect;
-                offset = yankee.construct;
-                verify = _closure1_slot5;
-                verify = verify.bind(report)(option);
-                verify = verify.constructor;
-                entity = offset.bind(yankee)(romeon, foxtra, verify);
+                var9 = global;
+                var11 = var9.Reflect;
+                var10 = var11.construct;
+                var9 = _closure1_slot5;
+                var9 = var9.bind(var5)(var8);
+                var9 = var9.constructor;
+                var1 = var10.bind(var11)(var12, var13, var9);
  156:
-                entity = golfie.bind(report)(option, entity);
-                var _closure3_slot0 = entity;
-                oscard = function(argFoo) {
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.trackedFeedItems;
-                    report = tangon.channelId;
-                    michal = {};
-                    oscard = tangon.guildId;
-                    michal['guildId'] = oscard;
-                    michal['channelId'] = report;
-                    tangon = tangon.sessionId;
-                    michal['sessionId'] = tangon;
-                    michal['trackedFeedItems'] = zuuluu;
-                    tangon = null;
-                    zuuluu = argFoo;
-                    zuuluu = tangon != zuuluu;
-                    michal['isForcedFlush'] = zuuluu;
-                    var _closure4_slot0 = michal;
-                    entity = function() {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var1 = var7.bind(var5)(var8, var1);
+                var _closure3_slot0 = var1;
+                var6 = function(arg1) {
+                    var4 = _closure3_slot0;
+                    var3 = var4.trackedFeedItems;
+                    var5 = var4.channelId;
+                    var2 = {};
+                    var6 = var4.guildId;
+                    var2['guildId'] = var6;
+                    var2['channelId'] = var5;
+                    var4 = var4.sessionId;
+                    var2['sessionId'] = var4;
+                    var2['trackedFeedItems'] = var3;
+                    var4 = null;
+                    var3 = arg1;
+                    var3 = var4 != var3;
+                    var2['isForcedFlush'] = var3;
+                    var _closure4_slot0 = var2;
+                    var1 = function() {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                            entity = _closure4_slot0;
-                            option = entity.guildId;
-                            golfie = entity.channelId;
-                            oscard = entity.sessionId;
-                            yankee = entity.trackedFeedItems;
-                            offset = entity.isForcedFlush;
-                            report = new Array(0);
-                            tangon = new Array(0);
-                            entity = global;
-                            michal = entity.Object;
-                            entity = michal.keys;
-                            verify = entity.bind(michal)(yankee);
-                            entity = verify.length;
-                            michal = 0;
-                            entity = michal < entity;
-                            zuuluu = 0;
-                            if(!entity) { _fun00006_ip = 134; continue _fun00005 }
+                            var1 = _closure4_slot0;
+                            var8 = var1.guildId;
+                            var7 = var1.channelId;
+                            var6 = var1.sessionId;
+                            var11 = var1.trackedFeedItems;
+                            var10 = var1.isForcedFlush;
+                            var5 = new Array(0);
+                            var4 = new Array(0);
+                            var1 = global;
+                            var2 = var1.Object;
+                            var1 = var2.keys;
+                            var9 = var1.bind(var2)(var11);
+                            var1 = var9.length;
+                            var2 = 0;
+                            var1 = var2 < var1;
+                            var3 = 0;
+                            if(!var1) { _fun0003_ip = 134; continue _fun0003 }
  77:
-                            foxtra = verify[zuuluu];
-                            romeon = yankee[foxtra];
-                            entity = romeon.computeSeenTimeDestructive;
-                            romeon = entity.bind(romeon)(offset);
-                            if(!(romeon > michal)) { _fun00006_ip = 122; continue _fun00005 }
+                            var13 = var9[var3];
+                            var12 = var11[var13];
+                            var1 = var12.computeSeenTimeDestructive;
+                            var12 = var1.bind(var12)(var10);
+                            if(!(var12 > var2)) { _fun0003_ip = 122; continue _fun0003 }
  102:
-                            entity = report.push;
-                            entity = entity.bind(report)(foxtra);
-                            entity = tangon.push;
-                            entity = entity.bind(tangon)(romeon);
+                            var1 = var5.push;
+                            var1 = var1.bind(var5)(var13);
+                            var1 = var4.push;
+                            var1 = var1.bind(var4)(var12);
  122:
-                            zuuluu = zuuluu + 1;
-                            entity = verify.length;
-                            if(zuuluu < entity) { _fun00006_ip = 77; continue _fun00005 }
+                            var3 = var3 + 1;
+                            var1 = var9.length;
+                            if(var3 < var1) { _fun0003_ip = 77; continue _fun0003 }
  134:
-                            entity = report.length;
-                            if(!(michal !== entity)) { _fun00006_ip = 204; continue _fun00005 }
+                            var1 = var5.length;
+                            if(!(var2 !== var1)) { _fun0003_ip = 204; continue _fun0003 }
  143:
-                            zuuluu = _closure1_slot0;
-                            michal = _closure1_slot1;
-                            entity = 7;
-                            michal = michal[entity];
-                            entity = undefined;
-                            zuuluu = zuuluu.bind(entity)(michal);
-                            michal = zuuluu.trackForumChannelSeenBatch;
-                            entity = {};
-                            entity['guildId'] = option;
-                            entity['channelId'] = golfie;
-                            entity['sessionId'] = oscard;
-                            entity['postIds'] = report;
-                            entity['additionalTimes'] = tangon;
-                            entity = michal.bind(zuuluu)(entity);
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot1;
+                            var1 = 7;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var3 = var3.bind(var1)(var2);
+                            var2 = var3.trackForumChannelSeenBatch;
+                            var1 = {};
+                            var1['guildId'] = var8;
+                            var1['channelId'] = var7;
+                            var1['sessionId'] = var6;
+                            var1['postIds'] = var5;
+                            var1['additionalTimes'] = var4;
+                            var1 = var2.bind(var3)(var1);
  204:
-                            entity = undefined;
-                            return entity;
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                entity['createFlushSeenItemsFunction'] = oscard;
-                entity['guildId'] = zuuluu;
-                entity['channelId'] = tangon;
-                zuuluu = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 8;
-                michal = oscard[michal];
-                zuuluu = zuuluu.bind(report)(michal);
-                michal = zuuluu.getForumChannelSessionId;
-                michal = michal.bind(zuuluu)(tangon);
-                entity['sessionId'] = michal;
-                return entity;
+                var1['createFlushSeenItemsFunction'] = var6;
+                var1['guildId'] = var3;
+                var1['channelId'] = var4;
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 8;
+                var2 = var6[var2];
+                var3 = var3.bind(var5)(var2);
+                var2 = var3.getForumChannelSessionId;
+                var2 = var2.bind(var3)(var4);
+                var1['sessionId'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        report = _closure1_slot6;
-        michal = undefined;
-        tangon = argFoo;
-        tangon = report.bind(michal)(zuuluu, tangon);
-        entity = _closure1_slot2;
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+        var _closure2_slot0 = var3;
+        var5 = _closure1_slot6;
+        var2 = undefined;
+        var4 = arg1;
+        var4 = var5.bind(var2)(var3, var4);
+        var1 = _closure1_slot2;
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    report = report.bind(entity)(oscard);
-    oscard = 9;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/forums/tracking/ForumChannelSeenManager.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = report;
-    zuuluu['getForumPostSeenManagerId'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: markForumPostItemAsSeen
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 6;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        oscard = tangon.bind(entity)(zuuluu);
-        report = oscard.markAnalyticsFeedItemSeen;
-        zuuluu = _closure1_slot8;
-        michal = argFoo;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = argBar;
-        michal = argBaz;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+    var5 = var5.bind(var1)(var6);
+    var6 = 9;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/forums/tracking/ForumChannelSeenManager.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['getForumPostSeenManagerId'] = var4;
+    var4 = function markForumPostItemAsSeen(arg1, arg2, arg3) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 6;
+        var3 = var3[var1];
+        var1 = undefined;
+        var6 = var4.bind(var1)(var3);
+        var5 = var6.markAnalyticsFeedItemSeen;
+        var3 = _closure1_slot8;
+        var2 = arg1;
+        var4 = var3.bind(var1)(var2);
+        var3 = arg2;
+        var2 = arg3;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    zuuluu['markForumPostItemAsSeen'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: markForumPostItemAsUnseen
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 6;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        oscard = tangon.bind(entity)(zuuluu);
-        report = oscard.markAnalyticsFeedItemUnseen;
-        zuuluu = _closure1_slot8;
-        michal = argFoo;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = argBar;
-        michal = argBaz;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+    var3['markForumPostItemAsSeen'] = var4;
+    var2 = function markForumPostItemAsUnseen(arg1, arg2, arg3) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 6;
+        var3 = var3[var1];
+        var1 = undefined;
+        var6 = var4.bind(var1)(var3);
+        var5 = var6.markAnalyticsFeedItemUnseen;
+        var3 = _closure1_slot8;
+        var2 = arg1;
+        var4 = var3.bind(var1)(var2);
+        var3 = arg2;
+        var2 = arg3;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    zuuluu['markForumPostItemAsUnseen'] = michal;
-    return entity;
+    var3['markForumPostItemAsUnseen'] = var2;
+    return var1;
 })();

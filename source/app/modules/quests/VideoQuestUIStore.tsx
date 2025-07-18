@@ -1,492 +1,492 @@
 // app/modules/quests/VideoQuestUIStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = function(argFoo) { // Original name: _toPropertyKey
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = function _toPropertyKey(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            tangon = 'object';
-            entity = typeof golfie;
-            michal = golfie;
-            if(!(tangon === entity)) { _fun00002_ip = 119; continue _fun00001 }
+            var7 = arg1;
+            var4 = 'object';
+            var1 = typeof var7;
+            var2 = var7;
+            if(!(var4 === var1)) { _fun0001_ip = 119; continue _fun0001 }
  17:
-            michal = golfie;
-            if(!michal) { _fun00002_ip = 119; continue _fun00001 }
+            var2 = var7;
+            if(!var2) { _fun0001_ip = 119; continue _fun0001 }
  23:
-            entity = global;
-            zuuluu = entity.Symbol;
-            zuuluu = zuuluu.toPrimitive;
-            oscard = golfie[zuuluu];
-            report = undefined;
-            if(!(report === oscard)) { _fun00002_ip = 60; continue _fun00001 }
+            var1 = global;
+            var3 = var1.Symbol;
+            var3 = var3.toPrimitive;
+            var6 = var7[var3];
+            var5 = undefined;
+            if(!(var5 === var6)) { _fun0001_ip = 60; continue _fun0001 }
  47:
-            zuuluu = entity.String;
-            michal = zuuluu.bind(report)(golfie);
-            _fun00002_ip = 119; continue _fun00001;
+            var3 = var1.String;
+            var2 = var3.bind(var5)(var7);
+            _fun0001_ip = 119; continue _fun0001;
  60:
-            report = oscard.call;
-            zuuluu = 'string';
-            report = report.bind(oscard)(golfie, zuuluu);
-            zuuluu = typeof report;
-            michal = report;
-            if(!(tangon === zuuluu)) { _fun00002_ip = 119; continue _fun00001 }
+            var5 = var6.call;
+            var3 = 'string';
+            var5 = var5.bind(var6)(var7, var3);
+            var3 = typeof var5;
+            var2 = var5;
+            if(!(var4 === var3)) { _fun0001_ip = 119; continue _fun0001 }
  85:
-            tangon = entity.TypeError;
-            entity = tangon.prototype;
-            zuuluu = Object.create(entity, {constructor: {value: tangon}});
-            verify = '@@toPrimitive must return a primitive value.';
-            offset = zuuluu;
-            entity = new offset[tangon](verify, option);
-            entity = entity instanceof Object ? entity : zuuluu;
-            throw entity;
+            var4 = var1.TypeError;
+            var1 = var4.prototype;
+            var3 = Object.create(var1, {constructor: {value: var4}});
+            var9 = '@@toPrimitive must return a primitive value.';
+            var10 = var3;
+            var1 = new var10[var4](var9, var8);
+            var1 = var1 instanceof Object ? var1 : var3;
+            throw var1;
  119:
-            tangon = 'symbol';
-            zuuluu = typeof michal;
-            entity = michal;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 136; continue _fun00001 }
+            var4 = 'symbol';
+            var3 = typeof var2;
+            var1 = var2;
+            if(!(var4 !== var3)) { _fun0001_ip = 136; continue _fun0001 }
  133:
-            entity = '' + michal;
+            var1 = '' + var2;
  136:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    romeon = 0;
-    report = option[romeon];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot2 = tangon;
-    report = {};
-    tangon = 'UNKNOWN';
-    report['UNKNOWN'] = tangon;
-    tangon = 'NOT_STARTED';
-    report['NOT_STARTED'] = tangon;
-    tangon = 'IN_PROGRESS';
-    report['IN_PROGRESS'] = tangon;
-    tangon = 'COMPLETED';
-    report['COMPLETED'] = tangon;
-    var _closure1_slot3 = report;
-    tangon = {};
-    oscard = 'NONE';
-    tangon['NONE'] = oscard;
-    oscard = 'FETCHING';
-    tangon['FETCHING'] = oscard;
-    oscard = 'SUCCESS';
-    tangon['SUCCESS'] = oscard;
-    oscard = 'FAILURE';
-    tangon['FAILURE'] = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    verify = golfie.bind(entity)(oscard);
-    oscard = verify.createWithEqualityFn;
-    oscard = oscard.bind(verify)();
-    foxtra = 2;
-    verify = option[foxtra];
-    yankee = golfie.bind(entity)(verify);
-    offset = yankee.persist;
-    verify = {};
-    backup = 'videoQuestUIState';
-    verify['name'] = backup;
-    foxtra = option[foxtra];
-    kiloes = golfie.bind(entity)(foxtra);
-    backup = kiloes.createJSONStorage;
-    foxtra = function() {
-        entity = {};
-        zuuluu = function(argFoo) { // Original name: getItem
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var12 = 0;
+    var5 = var8[var12];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot2 = var4;
+    var5 = {};
+    var4 = 'UNKNOWN';
+    var5['UNKNOWN'] = var4;
+    var4 = 'NOT_STARTED';
+    var5['NOT_STARTED'] = var4;
+    var4 = 'IN_PROGRESS';
+    var5['IN_PROGRESS'] = var4;
+    var4 = 'COMPLETED';
+    var5['COMPLETED'] = var4;
+    var _closure1_slot3 = var5;
+    var4 = {};
+    var6 = 'NONE';
+    var4['NONE'] = var6;
+    var6 = 'FETCHING';
+    var4['FETCHING'] = var6;
+    var6 = 'SUCCESS';
+    var4['SUCCESS'] = var6;
+    var6 = 'FAILURE';
+    var4['FAILURE'] = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var9 = var7.bind(var1)(var6);
+    var6 = var9.createWithEqualityFn;
+    var6 = var6.bind(var9)();
+    var13 = 2;
+    var9 = var8[var13];
+    var11 = var7.bind(var1)(var9);
+    var10 = var11.persist;
+    var9 = {};
+    var14 = 'videoQuestUIState';
+    var9['name'] = var14;
+    var13 = var8[var13];
+    var15 = var7.bind(var1)(var13);
+    var14 = var15.createJSONStorage;
+    var13 = function() {
+        var1 = {};
+        var3 = function getItem(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                zuuluu = entity.Storage;
-                michal = zuuluu.get;
-                entity = argFoo;
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                zuuluu = entity != michal;
-                if(!zuuluu) { _fun00004_ip = 56; continue _fun00003 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var3 = var1.Storage;
+                var2 = var3.get;
+                var1 = arg1;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0002_ip = 56; continue _fun0002 }
  53:
-                entity = michal;
+                var1 = var2;
  56:
-                return entity;
+                return var1;
             }
         };
-        entity['getItem'] = zuuluu;
-        zuuluu = function(argFoo, argBar) { // Original name: setItem
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            tangon = entity.Storage;
-            zuuluu = tangon.set;
-            michal = argFoo;
-            entity = argBar;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var1['getItem'] = var3;
+        var3 = function setItem(arg1, arg2) {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var4 = var1.Storage;
+            var3 = var4.set;
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity['setItem'] = zuuluu;
-        michal = function(argFoo) { // Original name: removeItem
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            zuuluu = entity.Storage;
-            michal = zuuluu.remove;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var1['setItem'] = var3;
+        var2 = function removeItem(arg1) {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.Storage;
+            var2 = var3.remove;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['removeItem'] = michal;
-        return entity;
+        var1['removeItem'] = var2;
+        return var1;
     };
-    foxtra = backup.bind(kiloes)(foxtra);
-    verify['storage'] = foxtra;
-    foxtra = function(argFoo) { // Original name: partialize
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.volume;
-        entity['volume'] = zuuluu;
-        zuuluu = michal.muted;
-        entity['muted'] = zuuluu;
-        michal = michal.videoProgress;
-        entity['videoProgress'] = michal;
-        return entity;
+    var13 = var14.bind(var15)(var13);
+    var9['storage'] = var13;
+    var13 = function partialize(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var3 = var2.volume;
+        var1['volume'] = var3;
+        var3 = var2.muted;
+        var1['muted'] = var3;
+        var2 = var2.videoProgress;
+        var1['videoProgress'] = var2;
+        return var1;
     };
-    verify['partialize'] = foxtra;
-    verify['version'] = romeon;
-    michal = function(argFoo, argBar) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        entity = {'volume': 0.3, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'fullScreenEnabled': false, 'videoProgress': null, 'transcript': null};
-        zuuluu = {};
-        entity['videoProgress'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: setVolume
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['volume'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+    var9['partialize'] = var13;
+    var9['version'] = var12;
+    var2 = function(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var1 = {'volume': 0.3, 'muted': false, 'transcriptEnabled': false, 'captionEnabled': false, 'fullScreenEnabled': false, 'videoProgress': null, 'transcript': null};
+        var3 = {};
+        var1['videoProgress'] = var3;
+        var3 = function setVolume(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['volume'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setVolume'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: setMuted
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['muted'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['setVolume'] = var3;
+        var3 = function setMuted(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['muted'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setMuted'] = zuuluu;
-        zuuluu = function(argFoo, argBar, argBaz) { // Original name: setVideoProgress
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['setMuted'] = var3;
+        var3 = function setVideoProgress(arg1, arg2, arg3) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                tangon = argFoo;
-                option = argBar;
-                var _closure3_slot0 = tangon;
-                var _closure3_slot1 = option;
-                entity = argBaz;
-                var _closure3_slot2 = entity;
-                zuuluu = _closure2_slot1;
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)();
-                zuuluu = zuuluu.videoProgress;
-                report = zuuluu[tangon];
-                tangon = null;
-                oscard = tangon == report;
-                zuuluu = undefined;
-                if(oscard) { _fun00006_ip = 63; continue _fun00005 }
+                var4 = arg1;
+                var8 = arg2;
+                var _closure3_slot0 = var4;
+                var _closure3_slot1 = var8;
+                var1 = arg3;
+                var _closure3_slot2 = var1;
+                var3 = _closure2_slot1;
+                var1 = undefined;
+                var3 = var3.bind(var1)();
+                var3 = var3.videoProgress;
+                var5 = var3[var4];
+                var4 = null;
+                var6 = var4 == var5;
+                var3 = undefined;
+                if(var6) { _fun0003_ip = 63; continue _fun0003 }
  57:
-                zuuluu = report.maxTimestampSec;
+                var3 = var5.maxTimestampSec;
  63:
-                tangon = tangon != zuuluu;
-                oscard = 0;
-                if(!tangon) { _fun00006_ip = 75; continue _fun00005 }
+                var4 = var4 != var3;
+                var6 = 0;
+                if(!var4) { _fun0003_ip = 75; continue _fun0003 }
  72:
-                oscard = zuuluu;
+                var6 = var3;
  75:
-                zuuluu = global;
-                report = zuuluu.Math;
-                tangon = report.max;
-                golfie = zuuluu.Math;
-                zuuluu = golfie.floor;
-                zuuluu = zuuluu.bind(golfie)(option);
-                zuuluu = tangon.bind(report)(oscard, zuuluu);
-                var _closure3_slot3 = zuuluu;
-                tangon = _closure1_slot0;
-                report = _closure1_slot1;
-                zuuluu = 3;
-                zuuluu = report[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.batchUpdates;
-                michal = function() {
-                    zuuluu = _closure2_slot0;
-                    michal = {};
-                    tangon = {};
-                    report = _closure2_slot1;
-                    entity = undefined;
-                    report = report.bind(entity)();
-                    verify = report.videoProgress;
-                    offset = tangon;
-                    report = copyDataProperties(offset, verify);
-                    oscard = _closure3_slot0;
-                    report = {};
-                    option = _closure3_slot1;
-                    report['timestampSec'] = option;
-                    option = _closure3_slot2;
-                    report['duration'] = option;
-                    golfie = _closure3_slot3;
-                    report['maxTimestampSec'] = golfie;
-                    tangon[oscard] = report;
-                    michal['videoProgress'] = tangon;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                var3 = global;
+                var5 = var3.Math;
+                var4 = var5.max;
+                var7 = var3.Math;
+                var3 = var7.floor;
+                var3 = var3.bind(var7)(var8);
+                var3 = var4.bind(var5)(var6, var3);
+                var _closure3_slot3 = var3;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 3;
+                var3 = var5[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.batchUpdates;
+                var2 = function() {
+                    var3 = _closure2_slot0;
+                    var2 = {};
+                    var4 = {};
+                    var5 = _closure2_slot1;
+                    var1 = undefined;
+                    var5 = var5.bind(var1)();
+                    var9 = var5.videoProgress;
+                    var10 = var4;
+                    var5 = copyDataProperties(var10, var9);
+                    var6 = _closure3_slot0;
+                    var5 = {};
+                    var8 = _closure3_slot1;
+                    var5['timestampSec'] = var8;
+                    var8 = _closure3_slot2;
+                    var5['duration'] = var8;
+                    var7 = _closure3_slot3;
+                    var5['maxTimestampSec'] = var7;
+                    var4[var6] = var5;
+                    var2['videoProgress'] = var4;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        entity['setVideoProgress'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: setTranscriptEnabled
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['transcriptEnabled'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['setVideoProgress'] = var3;
+        var3 = function setTranscriptEnabled(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['transcriptEnabled'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setTranscriptEnabled'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: setCaptionEnabled
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['captionEnabled'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['setTranscriptEnabled'] = var3;
+        var3 = function setCaptionEnabled(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['captionEnabled'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setCaptionEnabled'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: setFullScreenEnabled
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['fullScreenEnabled'] = entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['setCaptionEnabled'] = var3;
+        var3 = function setFullScreenEnabled(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['fullScreenEnabled'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setFullScreenEnabled'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: getVideoProgress
-            michal = _closure2_slot1;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            michal = entity.videoProgress;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var1['setFullScreenEnabled'] = var3;
+        var3 = function getVideoProgress(arg1) {
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            var2 = var1.videoProgress;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        entity['getVideoProgress'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: getVideoProgressState
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['getVideoProgress'] = var3;
+        var3 = function getVideoProgressState(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                michal = _closure2_slot1;
-                entity = undefined;
-                entity = michal.bind(entity)();
-                michal = entity.videoProgress;
-                entity = argFoo;
-                entity = michal[entity];
-                michal = null;
-                if(!(michal != entity)) { _fun00008_ip = 104; continue _fun00007 }
+                var2 = _closure2_slot1;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                var2 = var1.videoProgress;
+                var1 = arg1;
+                var1 = var2[var1];
+                var2 = null;
+                if(!(var2 != var1)) { _fun0004_ip = 104; continue _fun0004 }
  32:
-                zuuluu = entity.timestampSec;
-                michal = 0;
-                if(!(michal !== zuuluu)) { _fun00008_ip = 89; continue _fun00007 }
+                var3 = var1.timestampSec;
+                var2 = 0;
+                if(!(var2 !== var3)) { _fun0004_ip = 89; continue _fun0004 }
  44:
-                michal = entity.timestampSec;
-                entity = entity.duration;
-                if(!(!(michal >= entity))) { _fun00008_ip = 74; continue _fun00007 }
+                var2 = var1.timestampSec;
+                var1 = var1.duration;
+                if(!(!(var2 >= var1))) { _fun0004_ip = 74; continue _fun0004 }
  59:
-                entity = _closure1_slot3;
-                entity = entity.IN_PROGRESS;
-                _fun00008_ip = 87; continue _fun00007;
+                var1 = _closure1_slot3;
+                var1 = var1.IN_PROGRESS;
+                _fun0004_ip = 87; continue _fun0004;
  74:
-                michal = _closure1_slot3;
-                entity = michal.COMPLETED;
+                var2 = _closure1_slot3;
+                var1 = var2.COMPLETED;
  87:
-                _fun00008_ip = 102; continue _fun00007;
+                _fun0004_ip = 102; continue _fun0004;
  89:
-                michal = _closure1_slot3;
-                entity = michal.NOT_STARTED;
+                var2 = _closure1_slot3;
+                var1 = var2.NOT_STARTED;
  102:
-                _fun00008_ip = 117; continue _fun00007;
+                _fun0004_ip = 117; continue _fun0004;
  104:
-                michal = _closure1_slot3;
-                entity = michal.UNKNOWN;
+                var2 = _closure1_slot3;
+                var1 = var2.UNKNOWN;
  117:
-                return entity;
+                return var1;
             }
         };
-        entity['getVideoProgressState'] = zuuluu;
-        zuuluu = function(argFoo) { // Original name: resetQuest
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot1;
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)();
-                report = zuuluu.videoProgress;
-                oscard = _closure3_slot0;
-                zuuluu = report[oscard];
-                tangon = _closure1_slot2;
-                golfie = new Array(1);
-                golfie[0] = oscard;
-                oscard = golfie.map;
-                zuuluu = _closure1_slot4;
-                zuuluu = oscard.bind(golfie)(zuuluu);
-                tangon = tangon.bind(entity)(report, zuuluu);
-                zuuluu = _closure2_slot0;
-                michal = {};
-                michal['videoProgress'] = tangon;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['getVideoProgressState'] = var3;
+        var3 = function resetQuest(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot1;
+                var1 = undefined;
+                var3 = var3.bind(var1)();
+                var5 = var3.videoProgress;
+                var6 = _closure3_slot0;
+                var3 = var5[var6];
+                var4 = _closure1_slot2;
+                var7 = new Array(1);
+                var7[0] = var6;
+                var6 = var7.map;
+                var3 = _closure1_slot4;
+                var3 = var6.bind(var7)(var3);
+                var4 = var4.bind(var1)(var5, var3);
+                var3 = _closure2_slot0;
+                var2 = {};
+                var2['videoProgress'] = var4;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['resetQuest'] = zuuluu;
-        michal = function(argFoo) { // Original name: setTranscriptAsset
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                michal = {};
-                entity = _closure3_slot0;
-                michal['transcript'] = entity;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+        var1['resetQuest'] = var3;
+        var2 = function setTranscriptAsset(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var2 = {};
+                var1 = _closure3_slot0;
+                var2['transcript'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['setTranscriptAsset'] = michal;
-        return entity;
+        var1['setTranscriptAsset'] = var2;
+        return var1;
     };
-    michal = offset.bind(yankee)(michal, verify);
-    michal = oscard.bind(entity)(michal);
-    oscard = 5;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/quests/VideoQuestUIStore.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = michal;
-    zuuluu['VideoProgressState'] = report;
-    zuuluu['FetchStatus'] = tangon;
-    zuuluu['useVideoQuestUIStore'] = michal;
-    return entity;
+    var2 = var10.bind(var11)(var2, var9);
+    var2 = var6.bind(var1)(var2);
+    var6 = 5;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/quests/VideoQuestUIStore.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var2;
+    var3['VideoProgressState'] = var5;
+    var3['FetchStatus'] = var4;
+    var3['useVideoQuestUIStore'] = var2;
+    return var1;
 })();

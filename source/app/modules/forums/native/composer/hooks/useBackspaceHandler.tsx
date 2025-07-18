@@ -1,127 +1,127 @@
 // app/modules/forums/native/composer/hooks/useBackspaceHandler.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = /((\ud83c[\udde6-\uddff]){2}|([#*0-9]\u20e3)|(\u00a9|\u00ae|[\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])((\ud83c[\udffb-\udfff])?(\ud83e[\uddb0-\uddb3])?(\ufe0f?\u200d([\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])\ufe0f?)?)*)/g;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forums/native/composer/hooks/useBackspaceHandler.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useBackspaceHandler
-        michal = argFoo;
-        golfie = michal.selection;
-        var _closure2_slot0 = golfie;
-        oscard = michal.draftContent;
-        var _closure2_slot1 = oscard;
-        report = michal.handleTextChange;
-        var _closure2_slot2 = report;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useCallback;
-        michal = new Array(3);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        michal[2] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = /((\ud83c[\udde6-\uddff]){2}|([#*0-9]\u20e3)|(\u00a9|\u00ae|[\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])((\ud83c[\udffb-\udfff])?(\ud83e[\uddb0-\uddb3])?(\ufe0f?\u200d([\u2000-\u3300]|[\ud83c-\ud83e][\ud000-\udfff])\ufe0f?)?)*)/g;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forums/native/composer/hooks/useBackspaceHandler.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useBackspaceHandler(arg1) {
+        var2 = arg1;
+        var7 = var2.selection;
+        var _closure2_slot0 = var7;
+        var6 = var2.draftContent;
+        var _closure2_slot1 = var6;
+        var5 = var2.handleTextChange;
+        var _closure2_slot2 = var5;
+        var4 = _closure1_slot0;
+        var3 = var4.useCallback;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                report = entity.start;
-                offset = entity.end;
-                oscard = 0;
-                if(!(oscard !== report)) { _fun00002_ip = 261; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var5 = var1.start;
+                var10 = var1.end;
+                var6 = 0;
+                if(!(var6 !== var5)) { _fun0001_ip = 261; continue _fun0001 }
  26:
-                entity = null;
-                entity = entity == offset;
-                golfie = 1;
-                tangon = golfie;
-                if(entity) { _fun00002_ip = 95; continue _fun00001 }
+                var1 = null;
+                var1 = var1 == var10;
+                var7 = 1;
+                var4 = var7;
+                if(var1) { _fun0001_ip = 95; continue _fun0001 }
  41:
-                tangon = golfie;
-                if(!(report !== offset)) { _fun00002_ip = 95; continue _fun00001 }
+                var4 = var7;
+                if(!(var5 !== var10)) { _fun0001_ip = 95; continue _fun0001 }
  48:
-                option = _closure2_slot2;
-                verify = _closure2_slot1;
-                entity = verify.substring;
-                zuuluu = entity.bind(verify)(oscard, report);
-                entity = verify.substring;
-                entity = entity.bind(verify)(offset);
-                zuuluu = zuuluu + entity;
-                entity = undefined;
-                entity = option.bind(entity)(zuuluu);
-                _fun00002_ip = 261; continue _fun00001;
+                var8 = _closure2_slot2;
+                var9 = _closure2_slot1;
+                var1 = var9.substring;
+                var3 = var1.bind(var9)(var6, var5);
+                var1 = var9.substring;
+                var1 = var1.bind(var9)(var10);
+                var3 = var3 + var1;
+                var1 = undefined;
+                var1 = var8.bind(var1)(var3);
+                _fun0001_ip = 261; continue _fun0001;
  95:
-                if(!(report >= tangon)) { _fun00002_ip = 139; continue _fun00001 }
+                if(!(var5 >= var4)) { _fun0001_ip = 139; continue _fun0001 }
  99:
-                verify = _closure1_slot1;
-                option = verify.test;
-                yankee = _closure2_slot1;
-                offset = yankee.substring;
-                entity = report - tangon;
-                entity = offset.bind(yankee)(entity, report);
-                entity = option.bind(verify)(entity);
-                if(entity) { _fun00002_ip = 144; continue _fun00001 }
+                var9 = _closure1_slot1;
+                var8 = var9.test;
+                var11 = _closure2_slot1;
+                var10 = var11.substring;
+                var1 = var5 - var4;
+                var1 = var10.bind(var11)(var1, var5);
+                var1 = var8.bind(var9)(var1);
+                if(var1) { _fun0001_ip = 144; continue _fun0001 }
  139:
-                option = tangon + 1;
-                _fun00002_ip = 202; continue _fun00001;
+                var8 = var4 + 1;
+                _fun0001_ip = 202; continue _fun0001;
  144:
-                verify = tangon + golfie;
-                entity = tangon;
-                if(!(report >= verify)) { _fun00002_ip = 215; continue _fun00001 }
+                var9 = var4 + var7;
+                var1 = var4;
+                if(!(var5 >= var9)) { _fun0001_ip = 215; continue _fun0001 }
  155:
-                offset = _closure1_slot1;
-                verify = offset.test;
-                romeon = _closure2_slot1;
-                yankee = romeon.substring;
-                zuuluu = report - tangon;
-                zuuluu = zuuluu - golfie;
-                zuuluu = yankee.bind(romeon)(zuuluu, report);
-                zuuluu = verify.bind(offset)(zuuluu);
-                entity = tangon;
-                if(!zuuluu) { _fun00002_ip = 215; continue _fun00001 }
+                var10 = _closure1_slot1;
+                var9 = var10.test;
+                var12 = _closure2_slot1;
+                var11 = var12.substring;
+                var3 = var5 - var4;
+                var3 = var3 - var7;
+                var3 = var11.bind(var12)(var3, var5);
+                var3 = var9.bind(var10)(var3);
+                var1 = var4;
+                if(!var3) { _fun0001_ip = 215; continue _fun0001 }
  199:
-                option = tangon + 1;
+                var8 = var4 + 1;
  202:
-                zuuluu = 8;
-                tangon = option;
-                entity = golfie;
-                if(tangon <= zuuluu) { _fun00002_ip = 95; continue _fun00001 }
+                var3 = 8;
+                var4 = var8;
+                var1 = var7;
+                if(var4 <= var3) { _fun0001_ip = 95; continue _fun0001 }
  215:
-                zuuluu = _closure2_slot2;
-                tangon = _closure2_slot1;
-                michal = tangon.substring;
-                entity = report - entity;
-                michal = michal.bind(tangon)(oscard, entity);
-                entity = tangon.substring;
-                entity = entity.bind(tangon)(report);
-                michal = michal + entity;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
+                var3 = _closure2_slot2;
+                var4 = _closure2_slot1;
+                var2 = var4.substring;
+                var1 = var5 - var1;
+                var2 = var2.bind(var4)(var6, var1);
+                var1 = var4.substring;
+                var1 = var1.bind(var4)(var5);
+                var2 = var2 + var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
  261:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useBackspaceHandler'] = michal;
-    return entity;
+    var3['useBackspaceHandler'] = var2;
+    return var1;
 })();

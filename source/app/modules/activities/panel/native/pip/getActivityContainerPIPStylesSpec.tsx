@@ -1,119 +1,119 @@
 // app/modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    offset = tangon.OrientationLockState;
-    var _closure1_slot2 = offset;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.LANDSCAPE_ACTIVITY_ASPECT_RATIO;
-    var _closure1_slot3 = option;
-    tangon = {};
-    golfie = 'function getActivityContainerPipStylesSpec_getActivityContainerPIPStylesSpecTsx1({pipWidth:pipWidth,pipHeight:pipHeight,pipOrientationLockState:pipOrientationLockState,isLandscape:isLandscape}){const{OrientationLockState,LANDSCAPE_ACTIVITY_ASPECT_RATIO,roundToNearestPixel}=this.__closure;const nonNullPipOrientationLockState=pipOrientationLockState!==null&&pipOrientationLockState!==void 0?pipOrientationLockState:OrientationLockState.UNLOCKED;const shouldUsePortraitAspectRatio=nonNullPipOrientationLockState===OrientationLockState.PORTRAIT||nonNullPipOrientationLockState===OrientationLockState.UNLOCKED&&!isLandscape;let width=pipWidth;let height=pipHeight;let shouldHorizontallyCenter=false;let shouldVerticallyCenter=false;let marginLeft=0;let marginTop=0;if(shouldUsePortraitAspectRatio){width=pipWidth;height=width*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldVerticallyCenter=true;marginTop=roundToNearestPixel(height/2)*-1;}else{height=pipHeight;width=height*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldHorizontallyCenter=true;marginLeft=roundToNearestPixel(width/2)*-1;}return{width:width,height:height,shouldHorizontallyCenter:shouldHorizontallyCenter,shouldVerticallyCenter:shouldVerticallyCenter,marginLeft:marginLeft,marginTop:marginTop};}';
-    tangon['code'] = golfie;
-    michal = function(argFoo) { // Original name: t
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var9 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var10 = var4.OrientationLockState;
+    var _closure1_slot2 = var10;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.LANDSCAPE_ACTIVITY_ASPECT_RATIO;
+    var _closure1_slot3 = var8;
+    var4 = {};
+    var7 = 'function getActivityContainerPipStylesSpec_getActivityContainerPIPStylesSpecTsx1({pipWidth:pipWidth,pipHeight:pipHeight,pipOrientationLockState:pipOrientationLockState,isLandscape:isLandscape}){const{OrientationLockState,LANDSCAPE_ACTIVITY_ASPECT_RATIO,roundToNearestPixel}=this.__closure;const nonNullPipOrientationLockState=pipOrientationLockState!==null&&pipOrientationLockState!==void 0?pipOrientationLockState:OrientationLockState.UNLOCKED;const shouldUsePortraitAspectRatio=nonNullPipOrientationLockState===OrientationLockState.PORTRAIT||nonNullPipOrientationLockState===OrientationLockState.UNLOCKED&&!isLandscape;let width=pipWidth;let height=pipHeight;let shouldHorizontallyCenter=false;let shouldVerticallyCenter=false;let marginLeft=0;let marginTop=0;if(shouldUsePortraitAspectRatio){width=pipWidth;height=width*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldVerticallyCenter=true;marginTop=roundToNearestPixel(height/2)*-1;}else{height=pipHeight;width=height*LANDSCAPE_ACTIVITY_ASPECT_RATIO;shouldHorizontallyCenter=true;marginLeft=roundToNearestPixel(width/2)*-1;}return{width:width,height:height,shouldHorizontallyCenter:shouldHorizontallyCenter,shouldVerticallyCenter:shouldVerticallyCenter,marginLeft:marginLeft,marginTop:marginTop};}';
+    var4['code'] = var7;
+    var2 = function t(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.pipWidth;
-            oscard = entity.pipHeight;
-            tangon = entity.pipOrientationLockState;
-            michal = entity.isLandscape;
-            entity = null;
-            if(!(entity == tangon)) { _fun00002_ip = 46; continue _fun00001 }
+            var1 = arg1;
+            var12 = var1.pipWidth;
+            var6 = var1.pipHeight;
+            var4 = var1.pipOrientationLockState;
+            var2 = var1.isLandscape;
+            var1 = null;
+            if(!(var1 == var4)) { _fun0001_ip = 46; continue _fun0001 }
  33:
-            entity = _closure1_slot2;
-            tangon = entity.UNLOCKED;
+            var1 = _closure1_slot2;
+            var4 = var1.UNLOCKED;
  46:
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.PORTRAIT;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 137; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var3 = var3.PORTRAIT;
+            if(!(var4 !== var3)) { _fun0001_ip = 137; continue _fun0001 }
  63:
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.UNLOCKED;
-            if(!(tangon === zuuluu)) { _fun00002_ip = 80; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var3 = var3.UNLOCKED;
+            if(!(var4 === var3)) { _fun0001_ip = 80; continue _fun0001 }
  77:
-            if(!michal) { _fun00002_ip = 137; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 137; continue _fun0001 }
  80:
-            michal = _closure1_slot3;
-            golfie = oscard * michal;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            zuuluu = zuuluu[michal];
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(zuuluu);
-            michal = golfie / michal;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = -1;
-            zuuluu = michal * zuuluu;
-            report = true;
-            tangon = false;
-            michal = 0;
-            _fun00002_ip = 198; continue _fun00001;
+            var2 = _closure1_slot3;
+            var7 = var6 * var2;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var3 = var3[var2];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var3);
+            var2 = var7 / var2;
+            var3 = var3.bind(var4)(var2);
+            var2 = -1;
+            var3 = var2 * var3;
+            var5 = true;
+            var4 = false;
+            var2 = 0;
+            _fun0001_ip = 198; continue _fun0001;
  137:
-            option = _closure1_slot3;
-            yankee = romeon * option;
-            offset = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 2;
-            option = option[entity];
-            verify = undefined;
-            option = offset.bind(verify)(option);
-            entity = yankee / entity;
-            option = option.bind(verify)(entity);
-            entity = -1;
-            michal = entity * option;
-            report = false;
-            tangon = true;
-            zuuluu = 0;
-            golfie = romeon;
-            oscard = yankee;
+            var8 = _closure1_slot3;
+            var11 = var12 * var8;
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 2;
+            var8 = var8[var1];
+            var9 = undefined;
+            var8 = var10.bind(var9)(var8);
+            var1 = var11 / var1;
+            var8 = var8.bind(var9)(var1);
+            var1 = -1;
+            var2 = var1 * var8;
+            var5 = false;
+            var4 = true;
+            var3 = 0;
+            var7 = var12;
+            var6 = var11;
  198:
-            entity = {};
-            entity['width'] = golfie;
-            entity['height'] = oscard;
-            entity['shouldHorizontallyCenter'] = report;
-            entity['shouldVerticallyCenter'] = tangon;
-            entity['marginLeft'] = zuuluu;
-            entity['marginTop'] = michal;
-            return entity;
+            var1 = {};
+            var1['width'] = var7;
+            var1['height'] = var6;
+            var1['shouldHorizontallyCenter'] = var5;
+            var1['shouldVerticallyCenter'] = var4;
+            var1['marginLeft'] = var3;
+            var1['marginTop'] = var2;
+            return var1;
         }
     };
-    golfie = {};
-    golfie['OrientationLockState'] = offset;
-    golfie['LANDSCAPE_ACTIVITY_ASPECT_RATIO'] = option;
-    option = 2;
-    option = oscard[option];
-    option = verify.bind(entity)(option);
-    golfie['roundToNearestPixel'] = option;
-    michal['__closure'] = golfie;
-    golfie = 7141745103186.0;
-    michal['__workletHash'] = golfie;
-    michal['__initData'] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var7 = {};
+    var7['OrientationLockState'] = var10;
+    var7['LANDSCAPE_ACTIVITY_ASPECT_RATIO'] = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var9.bind(var1)(var8);
+    var7['roundToNearestPixel'] = var8;
+    var2['__closure'] = var7;
+    var7 = 7141745103186.0;
+    var2['__workletHash'] = var7;
+    var2['__initData'] = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/panel/native/pip/getActivityContainerPIPStylesSpec.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

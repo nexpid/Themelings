@@ -1,206 +1,206 @@
 // app/modules/user_settings/native/UserSettingsNativeBridgeManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot9 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot9 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot7 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    michal = function(argFoo) {
-        zuuluu = function(argFoo) { // Original name: UserSettingsNativeBridgeManager
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot7 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var2 = function(arg1) {
+        var3 = function UserSettingsNativeBridgeManager(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                oscard = this;
-                backup = 0;
-                entity = copyRestArgs(backup);
-                option = _closure1_slot3;
-                tangon = _closure2_slot0;
-                report = undefined;
-                option = option.bind(report)(oscard, tangon);
-                yankee = new Array(0);
-                backup = yankee;
-                foxtra = entity;
-                romeon = 0;
-                entity = arraySpread(backup, foxtra, romeon);
-                entity = _closure1_slot5;
-                offset = entity.bind(report)(tangon);
-                tangon = _closure1_slot4;
-                entity = _closure1_slot9;
-                entity = entity.bind(report)();
-                if(entity) { _fun00004_ip = 86; continue _fun00003 }
+                var6 = this;
+                var14 = 0;
+                var1 = copyRestArgs(var14);
+                var8 = _closure1_slot3;
+                var4 = _closure2_slot0;
+                var5 = undefined;
+                var8 = var8.bind(var5)(var6, var4);
+                var11 = new Array(0);
+                var14 = var11;
+                var13 = var1;
+                var12 = 0;
+                var1 = arraySpread(var14, var13, var12);
+                var1 = _closure1_slot5;
+                var10 = var1.bind(var5)(var4);
+                var4 = _closure1_slot4;
+                var1 = _closure1_slot9;
+                var1 = var1.bind(var5)();
+                if(var1) { _fun0002_ip = 86; continue _fun0002 }
  73:
-                entity = offset.apply;
-                entity = entity.bind(offset)(oscard, yankee);
-                _fun00004_ip = 120; continue _fun00003;
+                var1 = var10.apply;
+                var1 = var1.bind(var10)(var6, var11);
+                _fun0002_ip = 120; continue _fun0002;
  86:
-                golfie = global;
-                verify = golfie.Reflect;
-                option = verify.construct;
-                golfie = _closure1_slot5;
-                golfie = golfie.bind(report)(oscard);
-                golfie = golfie.constructor;
-                entity = option.bind(verify)(offset, yankee, golfie);
+                var7 = global;
+                var9 = var7.Reflect;
+                var8 = var9.construct;
+                var7 = _closure1_slot5;
+                var7 = var7.bind(var5)(var6);
+                var7 = var7.constructor;
+                var1 = var8.bind(var9)(var10, var11, var7);
  120:
-                entity = tangon.bind(report)(oscard, entity);
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 7;
-                michal = oscard[michal];
-                tangon = tangon.bind(report)(michal);
-                michal = tangon.isIOS;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00004_ip = 168; continue _fun00003 }
+                var1 = var4.bind(var5)(var6, var1);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 7;
+                var2 = var6[var2];
+                var4 = var4.bind(var5)(var2);
+                var2 = var4.isIOS;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0002_ip = 168; continue _fun0002 }
  159:
-                michal = function() {
-                    entity = undefined;
-                    return entity;
+                var2 = function() {
+                    var1 = undefined;
+                    return var1;
                 };
-                _fun00004_ip = 175; continue _fun00003;
+                _fun0002_ip = 175; continue _fun0002;
  168:
-                michal = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var2 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = _closure1_slot8;
-                        tangon = entity.settings;
-                        michal = null;
-                        report = michal == tangon;
-                        entity = undefined;
-                        oscard = undefined;
-                        if(report) { _fun00006_ip = 47; continue _fun00005 }
+                        var1 = _closure1_slot8;
+                        var4 = var1.settings;
+                        var2 = null;
+                        var5 = var2 == var4;
+                        var1 = undefined;
+                        var6 = undefined;
+                        if(var5) { _fun0003_ip = 47; continue _fun0003 }
  26:
-                        tangon = tangon.textAndImages;
-                        report = michal == tangon;
-                        oscard = undefined;
-                        if(report) { _fun00006_ip = 47; continue _fun00005 }
+                        var4 = var4.textAndImages;
+                        var5 = var2 == var4;
+                        var6 = undefined;
+                        if(var5) { _fun0003_ip = 47; continue _fun0003 }
  41:
-                        oscard = tangon.explicitContentSettings;
+                        var6 = var4.explicitContentSettings;
  47:
-                        zuuluu = _closure1_slot7;
-                        tangon = zuuluu.NSUserDefaultsBridge;
-                        if(!(michal != tangon)) { _fun00006_ip = 93; continue _fun00005 }
+                        var3 = _closure1_slot7;
+                        var4 = var3.NSUserDefaultsBridge;
+                        if(!(var2 != var4)) { _fun0003_ip = 93; continue _fun0003 }
  61:
-                        zuuluu = tangon.setExplicitContentSettingsJSONString;
-                        michal = global;
-                        report = michal.JSON;
-                        michal = report.stringify;
-                        michal = michal.bind(report)(oscard);
-                        michal = zuuluu.bind(tangon)(michal);
+                        var3 = var4.setExplicitContentSettingsJSONString;
+                        var2 = global;
+                        var5 = var2.JSON;
+                        var2 = var5.stringify;
+                        var2 = var2.bind(var5)(var6);
+                        var2 = var3.bind(var4)(var2);
  93:
-                        return entity;
+                        return var1;
                     }
                 };
  175:
-                entity['saveExplicitContentSettingsToDisk'] = michal;
-                michal = {};
-                zuuluu = entity.saveExplicitContentSettingsToDisk;
-                michal['POST_CONNECTION_OPEN'] = zuuluu;
-                zuuluu = entity.saveExplicitContentSettingsToDisk;
-                michal['USER_SETTINGS_PROTO_UPDATE'] = zuuluu;
-                entity['actions'] = michal;
-                return entity;
+                var1['saveExplicitContentSettingsToDisk'] = var2;
+                var2 = {};
+                var3 = var1.saveExplicitContentSettingsToDisk;
+                var2['POST_CONNECTION_OPEN'] = var3;
+                var3 = var1.saveExplicitContentSettingsToDisk;
+                var2['USER_SETTINGS_PROTO_UPDATE'] = var3;
+                var1['actions'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        report = _closure1_slot6;
-        michal = undefined;
-        tangon = argFoo;
-        tangon = report.bind(michal)(zuuluu, tangon);
-        entity = _closure1_slot2;
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+        var _closure2_slot0 = var3;
+        var5 = _closure1_slot6;
+        var2 = undefined;
+        var4 = arg1;
+        var4 = var5.bind(var2)(var3, var4);
+        var1 = _closure1_slot2;
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    michal = michal.bind(entity)(tangon);
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/native/UserSettingsNativeBridgeManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)(var4);
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/UserSettingsNativeBridgeManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,317 +1,317 @@
 // app/modules/messages/native/renderer/MessageConnected.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: ThreadStarterMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var9 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var6;
+    var1 = function ThreadStarterMessage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            yankee = michal.row;
-            var _closure2_slot0 = yankee;
-            verify = michal.starterMessage;
-            var _closure2_slot1 = verify;
-            tangon = undefined;
-            var _closure2_slot3 = tangon;
-            zuuluu = yankee.message;
-            var _closure2_slot2 = zuuluu;
-            backup = yankee.isFirst;
-            foxtra = yankee.isEditing;
-            michal = yankee.isSystemDM;
-            option = tangon !== michal;
-            if(!option) { _fun00002_ip = 68; continue _fun00001 }
+            var2 = arg1;
+            var11 = var2.row;
+            var _closure2_slot0 = var11;
+            var9 = var2.starterMessage;
+            var _closure2_slot1 = var9;
+            var4 = undefined;
+            var _closure2_slot3 = var4;
+            var3 = var11.message;
+            var _closure2_slot2 = var3;
+            var14 = var11.isFirst;
+            var13 = var11.isEditing;
+            var2 = var11.isSystemDM;
+            var8 = var4 !== var2;
+            if(!var8) { _fun0001_ip = 68; continue _fun0001 }
  65:
-            option = michal;
+            var8 = var2;
  68:
-            michal = yankee.canShowImages;
-            romeon = tangon === michal;
-            if(romeon) { _fun00002_ip = 84; continue _fun00001 }
+            var2 = var11.canShowImages;
+            var12 = var4 === var2;
+            if(var12) { _fun0001_ip = 84; continue _fun0001 }
  81:
-            romeon = michal;
+            var12 = var2;
  84:
-            oscard = _closure1_slot1;
-            offset = _closure1_slot2;
-            michal = 5;
-            michal = offset[michal];
-            golfie = oscard.bind(tangon)(michal);
-            michal = {};
-            michal['message'] = verify;
-            michal['isFirst'] = backup;
-            michal['isEditing'] = foxtra;
-            michal['canShowImages'] = romeon;
-            michal['isSystemDM'] = option;
-            option = false;
-            michal['canShowReactions'] = option;
-            michal = golfie.bind(tangon)(michal);
-            _closure2_slot3 = michal;
-            option = _closure1_slot3;
-            golfie = option.useMemo;
-            romeon = zuuluu.id;
-            zuuluu = new Array(2);
-            zuuluu[0] = romeon;
-            zuuluu[1] = michal;
-            michal = function() {
-                entity = {};
-                verify = _closure2_slot3;
-                offset = entity;
-                zuuluu = copyDataProperties(offset, verify);
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                zuuluu = 6;
-                tangon = option[zuuluu];
-                oscard = undefined;
-                tangon = golfie.bind(oscard)(tangon);
-                report = tangon.intl;
-                tangon = report.string;
-                zuuluu = option[zuuluu];
-                zuuluu = golfie.bind(oscard)(zuuluu);
-                zuuluu = zuuluu.t;
-                zuuluu = zuuluu.uBid4u;
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = 'threadStarterMessageHeader';
-                entity[zuuluu] = tangon;
-                michal = _closure2_slot2;
-                zuuluu = michal.id;
-                michal = 'id';
-                entity[michal] = zuuluu;
-                return entity;
+            var6 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var2 = 5;
+            var2 = var10[var2];
+            var7 = var6.bind(var4)(var2);
+            var2 = {};
+            var2['message'] = var9;
+            var2['isFirst'] = var14;
+            var2['isEditing'] = var13;
+            var2['canShowImages'] = var12;
+            var2['isSystemDM'] = var8;
+            var8 = false;
+            var2['canShowReactions'] = var8;
+            var2 = var7.bind(var4)(var2);
+            _closure2_slot3 = var2;
+            var8 = _closure1_slot3;
+            var7 = var8.useMemo;
+            var12 = var3.id;
+            var3 = new Array(2);
+            var3[0] = var12;
+            var3[1] = var2;
+            var2 = function() {
+                var1 = {};
+                var9 = _closure2_slot3;
+                var10 = var1;
+                var3 = copyDataProperties(var10, var9);
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var3 = 6;
+                var4 = var8[var3];
+                var6 = undefined;
+                var4 = var7.bind(var6)(var4);
+                var5 = var4.intl;
+                var4 = var5.string;
+                var3 = var8[var3];
+                var3 = var7.bind(var6)(var3);
+                var3 = var3.t;
+                var3 = var3.uBid4u;
+                var4 = var4.bind(var5)(var3);
+                var3 = 'threadStarterMessageHeader';
+                var1[var3] = var4;
+                var2 = _closure2_slot2;
+                var3 = var2.id;
+                var2 = 'id';
+                var1[var2] = var3;
+                return var1;
             };
-            option = golfie.bind(option)(michal, zuuluu);
-            golfie = _closure1_slot3;
-            zuuluu = golfie.useMemo;
-            michal = new Array(2);
-            michal[0] = yankee;
-            michal[1] = verify;
-            entity = function() {
-                entity = {};
-                tangon = _closure2_slot0;
-                report = entity;
-                zuuluu = copyDataProperties(report, tangon);
-                zuuluu = _closure2_slot1;
-                michal = 'message';
-                entity[michal] = zuuluu;
-                return entity;
+            var8 = var7.bind(var8)(var2, var3);
+            var7 = _closure1_slot3;
+            var3 = var7.useMemo;
+            var2 = new Array(2);
+            var2[0] = var11;
+            var2[1] = var9;
+            var1 = function() {
+                var1 = {};
+                var4 = _closure2_slot0;
+                var5 = var1;
+                var3 = copyDataProperties(var5, var4);
+                var3 = _closure2_slot1;
+                var2 = 'message';
+                var1[var2] = var3;
+                return var1;
             };
-            verify = zuuluu.bind(golfie)(entity, michal);
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot0;
-            entity = 7;
-            entity = offset[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.RenderMessageOptionsOverride;
-            entity = {'renderThreadEmbeds': false, 'renderReactions': false};
-            golfie = _closure1_slot6;
-            report = 8;
-            report = offset[report];
-            oscard = oscard.bind(tangon)(report);
-            report = {};
-            report['row'] = verify;
-            report['messageContent'] = option;
-            report = golfie.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var9 = var3.bind(var7)(var1, var2);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot0;
+            var1 = 7;
+            var1 = var10[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.RenderMessageOptionsOverride;
+            var1 = {'renderThreadEmbeds': false, 'renderReactions': false};
+            var7 = _closure1_slot6;
+            var5 = 8;
+            var5 = var10[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var5['row'] = var9;
+            var5['messageContent'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = function(argFoo) { // Original name: UserMessage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function UserMessage(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.row;
-            option = entity.isMentioningReply;
-            backup = oscard.message;
-            foxtra = oscard.isFirst;
-            romeon = oscard.isEditing;
-            entity = oscard.isSystemDM;
-            tangon = undefined;
-            offset = tangon !== entity;
-            if(!offset) { _fun00004_ip = 50; continue _fun00003 }
+            var1 = arg1;
+            var6 = var1.row;
+            var8 = var1.isMentioningReply;
+            var14 = var6.message;
+            var13 = var6.isFirst;
+            var12 = var6.isEditing;
+            var1 = var6.isSystemDM;
+            var4 = undefined;
+            var10 = var4 !== var1;
+            if(!var10) { _fun0002_ip = 50; continue _fun0002 }
  47:
-            offset = entity;
+            var10 = var1;
  50:
-            entity = oscard.canShowImages;
-            yankee = tangon === entity;
-            if(yankee) { _fun00004_ip = 66; continue _fun00003 }
+            var1 = var6.canShowImages;
+            var11 = var4 === var1;
+            if(var11) { _fun0002_ip = 66; continue _fun0002 }
  63:
-            yankee = entity;
+            var11 = var1;
  66:
-            verify = oscard.renderContentOnly;
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = golfie[zuuluu];
-            report = michal.bind(tangon)(zuuluu);
-            zuuluu = {};
-            zuuluu['message'] = backup;
-            zuuluu['isFirst'] = foxtra;
-            zuuluu['isEditing'] = romeon;
-            zuuluu['canShowImages'] = yankee;
-            zuuluu['isSystemDM'] = offset;
-            zuuluu['renderContentOnly'] = verify;
-            zuuluu['isMentioningReply'] = option;
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = _closure1_slot6;
-            entity = 8;
-            entity = golfie[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity['row'] = oscard;
-            entity['messageContent'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var9 = var6.renderContentOnly;
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = 5;
+            var3 = var7[var3];
+            var5 = var2.bind(var4)(var3);
+            var3 = {};
+            var3['message'] = var14;
+            var3['isFirst'] = var13;
+            var3['isEditing'] = var12;
+            var3['canShowImages'] = var11;
+            var3['isSystemDM'] = var10;
+            var3['renderContentOnly'] = var9;
+            var3['isMentioningReply'] = var8;
+            var5 = var5.bind(var4)(var3);
+            var3 = _closure1_slot6;
+            var1 = 8;
+            var1 = var7[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['row'] = var6;
+            var1['messageContent'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    option = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = option;
-    tangon = 1;
-    golfie = oscard[tangon];
-    golfie = verify.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ReferencedMessageState;
-    var _closure1_slot5 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    golfie = option.memo;
-    tangon = function(argFoo) { // Original name: MessageConnected
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var8;
+    var4 = 1;
+    var7 = var6[var4];
+    var7 = var9.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ReferencedMessageState;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var7 = var8.memo;
+    var4 = function MessageConnected(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.row;
-            option = entity.isMentioningReply;
-            zuuluu = golfie.message;
-            entity = function(argFoo) { // Original name: useReferencedThreadStarterMessage
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var1 = arg1;
+            var7 = var1.row;
+            var8 = var1.isMentioningReply;
+            var3 = var7.message;
+            var1 = function useReferencedThreadStarterMessage(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    tangon = argFoo;
-                    golfie = tangon.type;
-                    oscard = _closure1_slot0;
-                    report = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = report[zuuluu];
-                    report = undefined;
-                    zuuluu = oscard.bind(report)(zuuluu);
-                    zuuluu = zuuluu.MessageTypes;
-                    oscard = zuuluu.THREAD_STARTER_MESSAGE;
-                    zuuluu = undefined;
-                    if(!(golfie === oscard)) { _fun00008_ip = 59; continue _fun00007 }
+                    var4 = arg1;
+                    var7 = var4.type;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var5[var3];
+                    var5 = undefined;
+                    var3 = var6.bind(var5)(var3);
+                    var3 = var3.MessageTypes;
+                    var6 = var3.THREAD_STARTER_MESSAGE;
+                    var3 = undefined;
+                    if(!(var7 === var6)) { _fun0004_ip = 59; continue _fun0004 }
  53:
-                    zuuluu = tangon.messageReference;
+                    var3 = var4.messageReference;
  59:
-                    var _closure3_slot0 = zuuluu;
-                    tangon = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = oscard[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.useStateFromStores;
-                    oscard = _closure1_slot4;
-                    zuuluu = new Array(1);
-                    zuuluu[0] = oscard;
-                    michal = function() {
-                        zuuluu = _closure1_slot4;
-                        michal = zuuluu.getMessageByReference;
-                        entity = _closure3_slot0;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                    var _closure3_slot0 = var3;
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var6[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.useStateFromStores;
+                    var6 = _closure1_slot4;
+                    var3 = new Array(1);
+                    var3[0] = var6;
+                    var2 = function() {
+                        var3 = _closure1_slot4;
+                        var2 = var3.getMessageByReference;
+                        var1 = _closure3_slot0;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    tangon = michal.state;
-                    entity = _closure1_slot5;
-                    zuuluu = entity.LOADED;
-                    entity = null;
-                    if(!(tangon === zuuluu)) { _fun00008_ip = 137; continue _fun00007 }
+                    var2 = var4.bind(var5)(var3, var2);
+                    var4 = var2.state;
+                    var1 = _closure1_slot5;
+                    var3 = var1.LOADED;
+                    var1 = null;
+                    if(!(var4 === var3)) { _fun0004_ip = 137; continue _fun0004 }
  132:
-                    entity = michal.message;
+                    var1 = var2.message;
  137:
-                    return entity;
+                    return var1;
                 }
             };
-            report = undefined;
-            oscard = entity.bind(report)(zuuluu);
-            entity = null;
-            if(!(entity == oscard)) { _fun00006_ip = 134; continue _fun00005 }
+            var5 = undefined;
+            var6 = var1.bind(var5)(var3);
+            var1 = null;
+            if(!(var1 == var6)) { _fun0003_ip = 134; continue _fun0003 }
  40:
-            tangon = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 9;
-            entity = verify[entity];
-            entity = tangon.bind(report)(entity);
-            entity = entity.bind(report)(zuuluu);
-            tangon = _closure1_slot6;
-            if(entity) { _fun00006_ip = 99; continue _fun00005 }
+            var4 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 9;
+            var1 = var9[var1];
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.bind(var5)(var3);
+            var4 = _closure1_slot6;
+            if(var1) { _fun0003_ip = 99; continue _fun0003 }
  75:
-            zuuluu = _closure1_slot8;
-            entity = {};
-            entity['row'] = golfie;
-            entity['isMentioningReply'] = option;
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00006_ip = 132; continue _fun00005;
+            var3 = _closure1_slot8;
+            var1 = {};
+            var1['row'] = var7;
+            var1['isMentioningReply'] = var8;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0003_ip = 132; continue _fun0003;
  99:
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 10;
-            michal = option[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = {};
-            michal['row'] = golfie;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 10;
+            var2 = var8[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['row'] = var7;
+            var1 = var4.bind(var5)(var3, var2);
  132:
-            _fun00006_ip = 163; continue _fun00005;
+            _fun0003_ip = 163; continue _fun0003;
  134:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot7;
-            michal = {};
-            michal['row'] = golfie;
-            michal['starterMessage'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot7;
+            var2 = {};
+            var2['row'] = var7;
+            var2['starterMessage'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  163:
-            return entity;
+            return var1;
         }
     };
-    michal = function(argFoo, argBar) {
-        michal = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 11;
-        entity = zuuluu[entity];
-        tangon = undefined;
-        zuuluu = michal.bind(tangon)(entity);
-        entity = argFoo;
-        michal = entity.row;
-        entity = argBar;
-        entity = entity.row;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var2 = function(arg1, arg2) {
+        var2 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 11;
+        var1 = var3[var1];
+        var4 = undefined;
+        var3 = var2.bind(var4)(var1);
+        var1 = arg1;
+        var2 = var1.row;
+        var1 = arg2;
+        var1 = var1.row;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    michal = golfie.bind(option)(tangon, michal);
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/MessageConnected.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var7.bind(var8)(var4, var2);
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/MessageConnected.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

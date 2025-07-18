@@ -1,86 +1,86 @@
 // app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: getFastestListVisibleItemsWithErrorChecking
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getFastestListVisibleItemsWithErrorChecking(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            entity = argBar;
-            michal = argBaz;
-            tangon = entity.sectionStart;
-            zuuluu = michal.length;
-            zuuluu = tangon > zuuluu;
-            if(zuuluu) { _fun00002_ip = 42; continue _fun00001 }
+            var6 = arg1;
+            var1 = arg2;
+            var2 = arg3;
+            var4 = var1.sectionStart;
+            var3 = var2.length;
+            var3 = var4 > var3;
+            if(var3) { _fun0001_ip = 42; continue _fun0001 }
  27:
-            report = entity.sectionEnd;
-            tangon = michal.length;
-            zuuluu = report > tangon;
+            var5 = var1.sectionEnd;
+            var4 = var2.length;
+            var3 = var5 > var4;
  42:
-            if(!zuuluu) { _fun00002_ip = 104; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 104; continue _fun0001 }
  45:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 0;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            golfie = report.bind(zuuluu)(tangon);
-            report = golfie.logFastestListError;
-            tangon = {};
-            tangon['listId'] = oscard;
-            tangon['sections'] = michal;
-            tangon['visibleItems'] = entity;
-            zuuluu = 'Visible items `sectionStart/End` is greater than the number of sections';
-            zuuluu = report.bind(golfie)(zuuluu, tangon);
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 0;
+            var4 = var4[var3];
+            var3 = undefined;
+            var7 = var5.bind(var3)(var4);
+            var5 = var7.logFastestListError;
+            var4 = {};
+            var4['listId'] = var6;
+            var4['sections'] = var2;
+            var4['visibleItems'] = var1;
+            var3 = 'Visible items `sectionStart/End` is greater than the number of sections';
+            var3 = var5.bind(var7)(var3, var4);
  104:
-            tangon = entity.itemStart;
-            zuuluu = entity.sectionStart;
-            zuuluu = michal[zuuluu];
-            zuuluu = tangon > zuuluu;
-            if(zuuluu) { _fun00002_ip = 147; continue _fun00001 }
+            var4 = var1.itemStart;
+            var3 = var1.sectionStart;
+            var3 = var2[var3];
+            var3 = var4 > var3;
+            if(var3) { _fun0001_ip = 147; continue _fun0001 }
  127:
-            report = entity.itemEnd;
-            tangon = entity.sectionEnd;
-            tangon = michal[tangon];
-            zuuluu = report > tangon;
+            var5 = var1.itemEnd;
+            var4 = var1.sectionEnd;
+            var4 = var2[var4];
+            var3 = var5 > var4;
  147:
-            if(!zuuluu) { _fun00002_ip = 209; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 209; continue _fun0001 }
  150:
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 0;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            report = report.bind(zuuluu)(tangon);
-            tangon = report.logFastestListError;
-            zuuluu = {};
-            zuuluu['listId'] = oscard;
-            zuuluu['sections'] = michal;
-            zuuluu['visibleItems'] = entity;
-            michal = 'Visible items `itemStart/End` is greater than the number of items in the first section';
-            michal = tangon.bind(report)(michal, zuuluu);
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 0;
+            var4 = var4[var3];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var4);
+            var4 = var5.logFastestListError;
+            var3 = {};
+            var3['listId'] = var6;
+            var3['sections'] = var2;
+            var3['visibleItems'] = var1;
+            var2 = 'Visible items `itemStart/End` is greater than the number of items in the first section';
+            var2 = var4.bind(var5)(var2, var3);
  209:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

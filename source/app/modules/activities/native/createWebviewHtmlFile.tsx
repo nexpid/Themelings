@@ -1,328 +1,328 @@
 // app/modules/activities/native/createWebviewHtmlFile.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _createWebviewHtmlFile
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _createWebviewHtmlFile() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 342; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 342; continue _fun0001 }
  13:
-                    yankee = michal.iFrameUri;
-                    offset = michal.iFrameSandboxAttributes;
-                    verify = michal.referrerPolicy;
-                    option = michal.insets;
-                    zuuluu = michal.messageForDisallowedNavigationError;
-                    oscard = undefined;
-                    golfie = undefined;
-                    report = undefined;
+                    var11 = var2.iFrameUri;
+                    var10 = var2.iFrameSandboxAttributes;
+                    var9 = var2.referrerPolicy;
+                    var8 = var2.insets;
+                    var3 = var2.messageForDisallowedNavigationError;
+                    var6 = undefined;
+                    var7 = undefined;
+                    var5 = undefined;
                     SaveGenerator(address=53);
  51:
-                    return oscard;
+                    return var6;
  53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 339; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 339; continue _fun0001 }
  62:
-                    golfie = 'discord_activity_data/activity.html';
-                    tangon = {};
-                    tangon['iFrameUri'] = yankee;
-                    tangon['iFrameSandboxAttributes'] = offset;
-                    tangon['referrerPolicy'] = verify;
-                    tangon['insets'] = option;
-                    tangon['messageForDisallowedNavigationError'] = zuuluu;
-                    zuuluu = function(argFoo) {
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    var7 = 'discord_activity_data/activity.html';
+                    var4 = {};
+                    var4['iFrameUri'] = var11;
+                    var4['iFrameSandboxAttributes'] = var10;
+                    var4['referrerPolicy'] = var9;
+                    var4['insets'] = var8;
+                    var4['messageForDisallowedNavigationError'] = var3;
+                    var3 = function(arg1) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                            entity = argFoo;
-                            romeon = entity.iFrameUri;
-                            yankee = entity.iFrameSandboxAttributes;
-                            offset = entity.referrerPolicy;
-                            report = entity.insets;
-                            golfie = entity.messageForDisallowedNavigationError;
-                            tangon = _closure1_slot0;
-                            zuuluu = _closure1_slot2;
-                            michal = 2;
-                            michal = zuuluu[michal];
-                            zuuluu = undefined;
-                            tangon = tangon.bind(zuuluu)(michal);
-                            michal = tangon.isAndroid;
-                            michal = michal.bind(tangon)();
-                            verify = '';
-                            option = verify;
-                            if(!michal) { _fun00004_ip = 167; continue _fun00003 }
+                            var1 = arg1;
+                            var12 = var1.iFrameUri;
+                            var11 = var1.iFrameSandboxAttributes;
+                            var10 = var1.referrerPolicy;
+                            var5 = var1.insets;
+                            var7 = var1.messageForDisallowedNavigationError;
+                            var4 = _closure1_slot0;
+                            var3 = _closure1_slot2;
+                            var2 = 2;
+                            var2 = var3[var2];
+                            var3 = undefined;
+                            var4 = var4.bind(var3)(var2);
+                            var2 = var4.isAndroid;
+                            var2 = var2.bind(var4)();
+                            var9 = '';
+                            var8 = var9;
+                            if(!var2) { _fun0002_ip = 167; continue _fun0002 }
  77:
-                            tangon = _closure1_slot5;
-                            michal = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-                            michal['insets'] = report;
-                            oscard = tangon.bind(zuuluu)(michal);
-                            michal = _closure1_slot6;
-                            entity = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-                            update = michal.bind(zuuluu)(entity);
-                            entity = global;
-                            entity = entity.HermesInternal;
-                            tangon = entity.concat;
-                            vacuum = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        var isIframeLoaded = false;\n        ';
-                            source = '\n        ';
-                            echoed = '\n      </script>\n      ';
-                            ctrled = oscard;
-                            option = vacuum[tangon](ctrled, source, update, echoed, result);
+                            var4 = _closure1_slot5;
+                            var2 = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+                            var2['insets'] = var5;
+                            var6 = var4.bind(var3)(var2);
+                            var2 = _closure1_slot6;
+                            var1 = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+                            var20 = var2.bind(var3)(var1);
+                            var1 = global;
+                            var1 = var1.HermesInternal;
+                            var4 = var1.concat;
+                            var23 = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        var isIframeLoaded = false;\n        ';
+                            var21 = '\n        ';
+                            var19 = '\n      </script>\n      ';
+                            var22 = var6;
+                            var8 = var23[var4](var22, var21, var20, var19, var18);
  167:
-                            entity = null;
-                            entity = entity != golfie;
-                            if(!entity) { _fun00004_ip = 249; continue _fun00003 }
+                            var1 = null;
+                            var1 = var1 != var7;
+                            if(!var1) { _fun0002_ip = 249; continue _fun0002 }
  176:
-                            entity = global;
-                            michal = entity.HermesInternal;
-                            oscard = michal.concat;
-                            vacuum = '\n  ';
-                            ctrled = 'iframeWindow';
-                            source = ".addEventListener('beforeunload', function (e) {\n    window.ReactNativeWebView.postMessage('";
-                            echoed = "');\n    e.preventDefault();\n  });\n";
-                            update = golfie;
-                            tangon = vacuum[oscard](ctrled, source, update, echoed, result);
-                            entity = entity.HermesInternal;
-                            zuuluu = entity.concat;
-                            michal = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        ';
-                            entity = '\n      </script>\n      ';
-                            verify = zuuluu.bind(michal)(tangon, entity);
+                            var1 = global;
+                            var2 = var1.HermesInternal;
+                            var6 = var2.concat;
+                            var23 = '\n  ';
+                            var22 = 'iframeWindow';
+                            var21 = ".addEventListener('beforeunload', function (e) {\n    window.ReactNativeWebView.postMessage('";
+                            var19 = "');\n    e.preventDefault();\n  });\n";
+                            var20 = var7;
+                            var4 = var23[var6](var22, var21, var20, var19, var18);
+                            var1 = var1.HermesInternal;
+                            var3 = var1.concat;
+                            var2 = '\n      <script type="text/javascript">\n        var iframe = document.getElementById("activityFrame");\n        var iframeWindow = iframe.contentWindow;\n        ';
+                            var1 = '\n      </script>\n      ';
+                            var9 = var3.bind(var2)(var4, var1);
  249:
-                            entity = global;
-                            entity = entity.HermesInternal;
-                            golfie = entity.concat;
-                            vacuum = '\n  <html>\n  <head>\n      <style>\n      body {\n          padding: 0;\n          margin: 0;\n          width: 100vw;\n          min-height: 100vh; /* This keeps a small white gap at the bottom of the screen, the options below help prevent this. */\n          min-height: -moz-available; /* See: https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487 for more info */\n          min-height: -webkit-fill-available;\n          min-height: fill-available;\n      }\n      </style>\n      <meta\n      name="viewport"\n      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"\n      />\n  </head>\n  <body>\n      <script type="text/javascript">\n          window.addEventListener(\'message\', e => {\n            window.ReactNativeWebView.postMessage(JSON.stringify(e.data));\n          });\n      </script>\n      <iframe id="activityFrame" width="100%" height="100%" src="';
-                            source = '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen sandbox="';
-                            echoed = '" referrerPolicy="';
-                            output = '">\n      </iframe>\n      ';
-                            kiloes = '\n      ';
-                            foxtra = '\n  </body>\n  </html>\n';
-                            ctrled = romeon;
-                            update = yankee;
-                            result = offset;
-                            sizing = option;
-                            backup = verify;
-                            entity = vacuum[golfie](ctrled, source, update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
-                            return entity;
+                            var1 = global;
+                            var1 = var1.HermesInternal;
+                            var7 = var1.concat;
+                            var23 = '\n  <html>\n  <head>\n      <style>\n      body {\n          padding: 0;\n          margin: 0;\n          width: 100vw;\n          min-height: 100vh; /* This keeps a small white gap at the bottom of the screen, the options below help prevent this. */\n          min-height: -moz-available; /* See: https://ilxanlar.medium.com/you-shouldnt-rely-on-css-100vh-and-here-s-why-1b4721e74487 for more info */\n          min-height: -webkit-fill-available;\n          min-height: fill-available;\n      }\n      </style>\n      <meta\n      name="viewport"\n      content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover"\n      />\n  </head>\n  <body>\n      <script type="text/javascript">\n          window.addEventListener(\'message\', e => {\n            window.ReactNativeWebView.postMessage(JSON.stringify(e.data));\n          });\n      </script>\n      <iframe id="activityFrame" width="100%" height="100%" src="';
+                            var21 = '" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen sandbox="';
+                            var19 = '" referrerPolicy="';
+                            var17 = '">\n      </iframe>\n      ';
+                            var15 = '\n      ';
+                            var13 = '\n  </body>\n  </html>\n';
+                            var22 = var12;
+                            var20 = var11;
+                            var18 = var10;
+                            var16 = var8;
+                            var14 = var9;
+                            var1 = var23[var7](var22, var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
+                            return var1;
                         }
                     };
-                    report = zuuluu.bind(oscard)(tangon);
+                    var5 = var3.bind(var6)(var4);
  109: // try_start_0
-                    tangon = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    zuuluu = 2;
-                    zuuluu = verify[zuuluu];
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = tangon.isAndroid;
-                    zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00002_ip = 202; continue _fun00001 }
+                    var4 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var3 = 2;
+                    var3 = var9[var3];
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.isAndroid;
+                    var3 = var3.bind(var4)();
+                    if(var3) { _fun0001_ip = 202; continue _fun0001 }
  144:
-                    zuuluu = _closure1_slot4;
-                    romeon = zuuluu.DCDFileManager;
-                    yankee = romeon.writeFile;
-                    kiloes = golfie;
-                    backup = report;
-                    sizing = 'cache';
-                    foxtra = 'utf8';
-                    output = romeon;
-                    zuuluu = output[yankee](sizing, kiloes, backup, foxtra, romeon);
+                    var3 = _closure1_slot4;
+                    var12 = var3.DCDFileManager;
+                    var11 = var12.writeFile;
+                    var15 = var7;
+                    var14 = var5;
+                    var16 = 'cache';
+                    var13 = 'utf8';
+                    var17 = var12;
+                    var3 = var17[var11](var16, var15, var14, var13, var12);
                     SaveGenerator(address=187);
  185:
-                    return zuuluu;
+                    return var3;
  187:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    verify = tangon;
-                    tangon = zuuluu;
-                    if(!verify) { _fun00002_ip = 292; continue _fun00001 }
+                    var9 = var4;
+                    var4 = var3;
+                    if(!var9) { _fun0001_ip = 292; continue _fun0001 }
  199: // try_end0
-                    return zuuluu;
+                    return var3;
  202: // try_start_1
-                    verify = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    offset = 3;
-                    zuuluu = zuuluu[offset];
-                    verify = verify.bind(oscard)(zuuluu);
-                    zuuluu = null;
-                    verify = zuuluu == verify;
-                    zuuluu = undefined;
-                    if(verify) { _fun00002_ip = 279; continue _fun00001 }
+                    var9 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var10 = 3;
+                    var3 = var3[var10];
+                    var9 = var9.bind(var6)(var3);
+                    var3 = null;
+                    var9 = var3 == var9;
+                    var3 = undefined;
+                    if(var9) { _fun0001_ip = 279; continue _fun0001 }
  233:
-                    verify = _closure1_slot1;
-                    option = _closure1_slot2;
-                    option = option[offset];
-                    yankee = verify.bind(oscard)(option);
-                    offset = yankee.writeFile;
-                    kiloes = golfie;
-                    backup = report;
-                    sizing = 'cache';
-                    foxtra = 'utf8';
-                    output = yankee;
-                    zuuluu = output[offset](sizing, kiloes, backup, foxtra, romeon);
+                    var9 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var10];
+                    var11 = var9.bind(var6)(var8);
+                    var10 = var11.writeFile;
+                    var15 = var7;
+                    var14 = var5;
+                    var16 = 'cache';
+                    var13 = 'utf8';
+                    var17 = var11;
+                    var3 = var17[var10](var16, var15, var14, var13, var12);
  279:
                     SaveGenerator(address=283);
  281:
-                    return zuuluu;
+                    return var3;
  283:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    tangon = zuuluu;
-                    if(report) { _fun00002_ip = 295; continue _fun00001 }
+                    var4 = var3;
+                    if(var5) { _fun0001_ip = 295; continue _fun0001 }
  292: // try_end1
-                    return tangon;
+                    return var4;
  295:
-                    return zuuluu;
+                    return var3;
  298: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=4);
-                    tangon = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = golfie[zuuluu];
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = tangon.captureException;
-                    zuuluu = zuuluu.bind(tangon)(report);
-                    zuuluu = null;
-                    return zuuluu;
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var7[var3];
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.captureException;
+                    var3 = var3.bind(var4)(var5);
+                    var3 = null;
+                    return var3;
  339:
-                    return michal;
+                    return var2;
  342:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot4 = tangon;
-    tangon = function(argFoo) { // Original name: safeAreaInitJs
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot4 = var4;
+    var4 = function safeAreaInitJs(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = michal.insets;
-            kiloes = michal.iframeWindowVarName;
-            backup = michal.isIframeLoadedVarName;
-            michal = null;
-            if(!(michal == entity)) { _fun00006_ip = 37; continue _fun00005 }
+            var2 = arg1;
+            var1 = var2.insets;
+            var15 = var2.iframeWindowVarName;
+            var14 = var2.isIframeLoadedVarName;
+            var2 = null;
+            if(!(var2 == var1)) { _fun0003_ip = 37; continue _fun0003 }
  27:
-            entity = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
+            var1 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
  37:
-            config = entity.left;
-            vacuum = entity.right;
-            source = entity.top;
-            echoed = entity.bottom;
-            entity = global;
-            entity = entity.HermesInternal;
-            verify = entity.concat;
-            status = '\n  ';
-            papara = '.addEventListener("load", () => {\n    var iframeDoc = ';
-            record = ".document;\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-left', '";
-            sequen = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-right', '";
-            ctrled = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-top', '";
-            update = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-bottom', '";
-            result = "px');\n    ";
-            sizing = ' = true;\n  });\n';
-            target = kiloes;
-            cntext = kiloes;
-            output = backup;
-            entity = status[verify](target, papara, cntext, record, config, sequen, vacuum, ctrled, source, update, echoed, result, output, sizing, kiloes);
-            return entity;
+            var25 = var1.left;
+            var23 = var1.right;
+            var21 = var1.top;
+            var19 = var1.bottom;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var9 = var1.concat;
+            var30 = '\n  ';
+            var28 = '.addEventListener("load", () => {\n    var iframeDoc = ';
+            var26 = ".document;\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-left', '";
+            var24 = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-right', '";
+            var22 = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-top', '";
+            var20 = "px');\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-bottom', '";
+            var18 = "px');\n    ";
+            var16 = ' = true;\n  });\n';
+            var29 = var15;
+            var27 = var15;
+            var17 = var14;
+            var1 = var30[var9](var29, var28, var27, var26, var25, var24, var23, var22, var21, var20, var19, var18, var17, var16, var15);
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    tangon = function(argFoo) { // Original name: safeAreasUpdateListenerJs
-        entity = argFoo;
-        verify = entity.iframeWindowVarName;
-        foxtra = entity.isIframeLoadedVarName;
-        entity = global;
-        entity = entity.HermesInternal;
-        golfie = entity.concat;
-        update = '\n  function updateSafeAreaVars(insets) {\n    var iframeDoc = ';
-        result = ".document;\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-left', `${insets.left}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-right', `${insets.right}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-top', `${insets.top}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-bottom', `${insets.bottom}px`);\n    ";
-        sizing = ".dispatchEvent(new Event('resize'));\n    // Force redraw\n    iframeDoc.documentElement.offsetHeight;\n  }\n  ";
-        backup = ".addEventListener('message', function (e) {\n    const messageData = e.data;\n    const {type, data} = messageData;\n    if (type === 'safeAreaUpdateEvent') {\n      const {insets} = data;\n      if (";
-        romeon = ') {\n        updateSafeAreaVars(insets);\n      } else {\n        ';
-        offset = '.addEventListener("load", () => {\n          updateSafeAreaVars(insets);\n        });\n      }\n    }\n  });\n';
-        echoed = verify;
-        output = verify;
-        kiloes = verify;
-        yankee = verify;
-        entity = update[golfie](echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
-        return entity;
+    var _closure1_slot5 = var4;
+    var4 = function safeAreasUpdateListenerJs(arg1) {
+        var1 = arg1;
+        var9 = var1.iframeWindowVarName;
+        var13 = var1.isIframeLoadedVarName;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var7 = var1.concat;
+        var20 = '\n  function updateSafeAreaVars(insets) {\n    var iframeDoc = ';
+        var18 = ".document;\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-left', `${insets.left}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-right', `${insets.right}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-top', `${insets.top}px`);\n    iframeDoc.documentElement.style.setProperty('--discord-safe-area-inset-bottom', `${insets.bottom}px`);\n    ";
+        var16 = ".dispatchEvent(new Event('resize'));\n    // Force redraw\n    iframeDoc.documentElement.offsetHeight;\n  }\n  ";
+        var14 = ".addEventListener('message', function (e) {\n    const messageData = e.data;\n    const {type, data} = messageData;\n    if (type === 'safeAreaUpdateEvent') {\n      const {insets} = data;\n      if (";
+        var12 = ') {\n        updateSafeAreaVars(insets);\n      } else {\n        ';
+        var10 = '.addEventListener("load", () => {\n          updateSafeAreaVars(insets);\n        });\n      }\n    }\n  });\n';
+        var19 = var9;
+        var17 = var9;
+        var15 = var9;
+        var11 = var9;
+        var1 = var20[var7](var19, var18, var17, var16, var15, var14, var13, var12, var11, var10, var9);
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/native/createWebviewHtmlFile.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: createWebviewHtmlFile
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/native/createWebviewHtmlFile.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function createWebviewHtmlFile() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) {
-        tangon = _closure1_slot5;
-        michal = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-        zuuluu = argFoo;
-        michal['insets'] = zuuluu;
-        zuuluu = undefined;
-        report = tangon.bind(zuuluu)(michal);
-        michal = _closure1_slot6;
-        entity = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
-        golfie = michal.bind(zuuluu)(entity);
-        entity = global;
-        entity = entity.HermesInternal;
-        zuuluu = entity.concat;
-        offset = '\nvar iframeWindow = window;\nvar isIframeLoaded = false;\n';
-        entity = '\n';
-        verify = report;
-        option = entity;
-        oscard = entity;
-        entity = offset[zuuluu](verify, option, golfie, oscard, report);
-        return entity;
+    var3['default'] = var4;
+    var2 = function(arg1) {
+        var4 = _closure1_slot5;
+        var2 = {'insets': null, 'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+        var3 = arg1;
+        var2['insets'] = var3;
+        var3 = undefined;
+        var5 = var4.bind(var3)(var2);
+        var2 = _closure1_slot6;
+        var1 = {'iframeWindowVarName': 'iframeWindow', 'isIframeLoadedVarName': 'isIframeLoaded'};
+        var7 = var2.bind(var3)(var1);
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var10 = '\nvar iframeWindow = window;\nvar isIframeLoaded = false;\n';
+        var1 = '\n';
+        var9 = var5;
+        var8 = var1;
+        var6 = var1;
+        var1 = var10[var3](var9, var8, var7, var6, var5);
+        return var1;
     };
-    zuuluu['createInjectedJavascriptForIOS'] = michal;
-    return entity;
+    var3['createInjectedJavascriptForIOS'] = var2;
+    return var1;
 })();

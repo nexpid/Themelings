@@ -1,56 +1,56 @@
 // app/modules/native_permissions/NativePermissionUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        tangon = argBar;
-        zuuluu = argFre;
-        report = argPlu;
-        entity = global;
-        golfie = entity.Object;
-        oscard = golfie.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = oscard.bind(golfie)(zuuluu, entity, michal);
-        entity = 0;
-        oscard = report[entity];
-        michal = argBaz;
-        entity = undefined;
-        oscard = michal.bind(entity)(oscard);
-        michal = oscard.initialize;
-        michal = michal.bind(oscard)();
-        michal = 1;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        oscard = michal.ProcessArgs;
-        michal = oscard.isDiscordTestSet;
-        michal = michal.bind(oscard)();
-        if(michal) { _fun00002_ip = 117; continue _fun00001 }
+        var4 = native2;
+        var3 = native6;
+        var5 = native7;
+        var1 = global;
+        var7 = var1.Object;
+        var6 = var7.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var6.bind(var7)(var3, var1, var2);
+        var1 = 0;
+        var6 = var5[var1];
+        var2 = native3;
+        var1 = undefined;
+        var6 = var2.bind(var1)(var6);
+        var2 = var6.initialize;
+        var2 = var2.bind(var6)();
+        var2 = 1;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var6 = var2.ProcessArgs;
+        var2 = var6.isDiscordTestSet;
+        var2 = var2.bind(var6)();
+        if(var2) { _fun0001_ip = 117; continue _fun0001 }
  98:
-        michal = 3;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        michal = michal.default;
-        _fun00002_ip = 134; continue _fun00001;
+        var2 = 3;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.default;
+        _fun0001_ip = 134; continue _fun0001;
  117:
-        oscard = 2;
-        oscard = report[oscard];
-        oscard = tangon.bind(entity)(oscard);
-        michal = oscard.default;
+        var6 = 2;
+        var6 = var5[var6];
+        var6 = var4.bind(var1)(var6);
+        var2 = var6.default;
  134:
-        oscard = 4;
-        oscard = report[oscard];
-        option = tangon.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'modules/native_permissions/NativePermissionUtils.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['default'] = michal;
-        michal = 5;
-        michal = report[michal];
-        michal = tangon.bind(entity)(michal);
-        michal = michal.NativePermissionsRequestOptions;
-        zuuluu['NativePermissionsRequestOptions'] = michal;
-        return entity;
+        var6 = 4;
+        var6 = var5[var6];
+        var8 = var4.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'modules/native_permissions/NativePermissionUtils.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['default'] = var2;
+        var2 = 5;
+        var2 = var5[var2];
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.NativePermissionsRequestOptions;
+        var3['NativePermissionsRequestOptions'] = var2;
+        return var1;
     }
 })();

@@ -1,422 +1,422 @@
 // discord_common/js/packages/tokens/native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    verify = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = offset;
-    golfie = global;
-    report = golfie.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    entity = 0;
-    michal = offset[entity];
-    entity = undefined;
-    michal = verify.bind(entity)(michal);
-    michal = michal._private;
-    oscard = michal.Themes;
-    var _closure1_slot3 = oscard;
-    michal = 1;
-    michal = offset[michal];
-    michal = verify.bind(entity)(michal);
-    michal = michal._private;
-    tangon = michal.SemanticColors;
-    var _closure1_slot4 = tangon;
-    michal = 2;
-    michal = offset[michal];
-    michal = verify.bind(entity)(michal);
-    michal = michal._private;
-    report = michal.RawColors;
-    var _closure1_slot5 = report;
-    michal = 3;
-    michal = offset[michal];
-    michal = verify.bind(entity)(michal);
-    michal = michal._private;
-    michal = michal.Shadows;
-    option = 4;
-    option = offset[option];
-    option = verify.bind(entity)(option);
-    option = option._private;
-    option = option.Spacing;
-    romeon = golfie.Symbol;
-    golfie = 'semanticColor';
-    golfie = romeon.bind(entity)(golfie);
-    var _closure1_slot6 = golfie;
-    golfie = {};
-    golfie['themes'] = oscard;
-    romeon = 5;
-    backup = offset[romeon];
-    kiloes = foxtra.bind(entity)(backup);
-    backup = function(argFoo, argBar) {
-        entity = {};
-        zuuluu = _closure1_slot6;
-        michal = argBar;
-        entity[zuuluu] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var13 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var10;
+    var7 = global;
+    var5 = var7.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var1 = 0;
+    var2 = var10[var1];
+    var1 = undefined;
+    var2 = var9.bind(var1)(var2);
+    var2 = var2._private;
+    var6 = var2.Themes;
+    var _closure1_slot3 = var6;
+    var2 = 1;
+    var2 = var10[var2];
+    var2 = var9.bind(var1)(var2);
+    var2 = var2._private;
+    var4 = var2.SemanticColors;
+    var _closure1_slot4 = var4;
+    var2 = 2;
+    var2 = var10[var2];
+    var2 = var9.bind(var1)(var2);
+    var2 = var2._private;
+    var5 = var2.RawColors;
+    var _closure1_slot5 = var5;
+    var2 = 3;
+    var2 = var10[var2];
+    var2 = var9.bind(var1)(var2);
+    var2 = var2._private;
+    var2 = var2.Shadows;
+    var8 = 4;
+    var8 = var10[var8];
+    var8 = var9.bind(var1)(var8);
+    var8 = var8._private;
+    var8 = var8.Spacing;
+    var12 = var7.Symbol;
+    var7 = 'semanticColor';
+    var7 = var12.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = {};
+    var7['themes'] = var6;
+    var12 = 5;
+    var14 = var10[var12];
+    var15 = var13.bind(var1)(var14);
+    var14 = function(arg1, arg2) {
+        var1 = {};
+        var3 = _closure1_slot6;
+        var2 = arg2;
+        var1[var3] = var2;
+        return var1;
     };
-    backup = kiloes.bind(entity)(tangon, backup);
-    golfie['colors'] = backup;
-    golfie['unsafe_rawColors'] = report;
-    romeon = offset[romeon];
-    foxtra = foxtra.bind(entity)(romeon);
-    romeon = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = function(argFoo) { // Original name: createResolve
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            entity = {};
-            michal = function(argFoo, argBar) { // Original name: resolve
-                tangon = _closure3_slot0;
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = michal[entity];
-                zuuluu = entity.nativeStyles;
-                michal = undefined;
-                entity = argBar;
-                entity = tangon.bind(michal)(zuuluu, entity);
-                return entity;
+    var14 = var15.bind(var1)(var4, var14);
+    var7['colors'] = var14;
+    var7['unsafe_rawColors'] = var5;
+    var12 = var10[var12];
+    var13 = var13.bind(var1)(var12);
+    var12 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = function createResolve(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var1 = {};
+            var2 = function resolve(arg1, arg2) {
+                var4 = _closure3_slot0;
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var2[var1];
+                var3 = var1.nativeStyles;
+                var2 = undefined;
+                var1 = arg2;
+                var1 = var4.bind(var2)(var3, var1);
+                return var1;
             };
-            entity['resolve'] = michal;
-            return entity;
+            var1['resolve'] = var2;
+            return var1;
         };
-        entity = {};
-        zuuluu = undefined;
-        report = function(argFoo) {
-            entity = argFoo;
-            entity = entity.shadowOffset;
-            return entity;
+        var1 = {};
+        var3 = undefined;
+        var5 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.shadowOffset;
+            return var1;
         };
-        report = tangon.bind(zuuluu)(report);
-        entity['shadowOffset'] = report;
-        report = function(argFoo, argBar) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var5 = var4.bind(var3)(var5);
+        var1['shadowOffset'] = var5;
+        var5 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                entity = argBar;
-                if(entity) { _fun00002_ip = 17; continue _fun00001 }
+                var2 = arg1;
+                var1 = arg2;
+                if(var1) { _fun0001_ip = 17; continue _fun0001 }
  9:
-                entity = michal.shadowColor;
-                _fun00002_ip = 23; continue _fun00001;
+                var1 = var2.shadowColor;
+                _fun0001_ip = 23; continue _fun0001;
  17:
-                entity = michal.shadowColorAndroid;
+                var1 = var2.shadowColorAndroid;
  23:
-                return entity;
+                return var1;
             }
         };
-        report = tangon.bind(zuuluu)(report);
-        entity['shadowColor'] = report;
-        report = function(argFoo) {
-            entity = argFoo;
-            entity = entity.shadowOpacity;
-            return entity;
+        var5 = var4.bind(var3)(var5);
+        var1['shadowColor'] = var5;
+        var5 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.shadowOpacity;
+            return var1;
         };
-        report = tangon.bind(zuuluu)(report);
-        entity['shadowOpacity'] = report;
-        report = function(argFoo) {
-            entity = argFoo;
-            entity = entity.shadowRadius;
-            return entity;
+        var5 = var4.bind(var3)(var5);
+        var1['shadowOpacity'] = var5;
+        var5 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.shadowRadius;
+            return var1;
         };
-        report = tangon.bind(zuuluu)(report);
-        entity['shadowRadius'] = report;
-        michal = function(argFoo) {
-            entity = argFoo;
-            entity = entity.elevation;
-            return entity;
+        var5 = var4.bind(var3)(var5);
+        var1['shadowRadius'] = var5;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.elevation;
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        entity['elevation'] = michal;
-        return entity;
+        var2 = var4.bind(var3)(var2);
+        var1['elevation'] = var2;
+        return var1;
     };
-    romeon = foxtra.bind(entity)(michal, romeon);
-    golfie['shadows'] = romeon;
-    romeon = 6;
-    romeon = offset[romeon];
-    romeon = verify.bind(entity)(romeon);
-    romeon = romeon.Radius;
-    golfie['radii'] = romeon;
-    golfie['spacing'] = option;
-    option = {};
-    romeon = function(argFoo) { // Original name: isSemanticColor
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var12 = var13.bind(var1)(var2, var12);
+    var7['shadows'] = var12;
+    var12 = 6;
+    var12 = var10[var12];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.Radius;
+    var7['radii'] = var12;
+    var7['spacing'] = var8;
+    var8 = {};
+    var12 = function isSemanticColor(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = 'object';
-            entity = typeof zuuluu;
-            entity = michal === entity;
-            if(!entity) { _fun00004_ip = 23; continue _fun00003 }
+            var3 = arg1;
+            var2 = 'object';
+            var1 = typeof var3;
+            var1 = var2 === var1;
+            if(!var1) { _fun0002_ip = 23; continue _fun0002 }
  17:
-            michal = null;
-            entity = michal !== zuuluu;
+            var2 = null;
+            var1 = var2 !== var3;
  23:
-            if(!entity) { _fun00004_ip = 37; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 37; continue _fun0002 }
  26:
-            michal = _closure1_slot6;
-            entity = michal in zuuluu;
+            var2 = _closure1_slot6;
+            var1 = var2 in var3;
  37:
-            return entity;
+            return var1;
         }
     };
-    option['isSemanticColor'] = romeon;
-    romeon = function(argFoo) { // Original name: getSemanticColorName
-        michal = _closure1_slot6;
-        entity = argFoo;
-        entity = entity[michal];
-        return entity;
+    var8['isSemanticColor'] = var12;
+    var12 = function getSemanticColorName(arg1) {
+        var2 = _closure1_slot6;
+        var1 = arg1;
+        var1 = var1[var2];
+        return var1;
     };
-    option['getSemanticColorName'] = romeon;
-    romeon = function(argFoo, argBar, argBaz) { // Original name: resolveSemanticColor
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var8['getSemanticColorName'] = var12;
+    var12 = function resolveSemanticColor(arg1, arg2, arg3) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            oscard = argFoo;
-            golfie = argBaz;
-            michal = 'string';
-            entity = typeof oscard;
-            yankee = oscard;
-            if(!(michal === entity)) { _fun00006_ip = 104; continue _fun00005 }
+            var6 = arg1;
+            var7 = arg3;
+            var2 = 'string';
+            var1 = typeof var6;
+            var11 = var6;
+            if(!(var2 === var1)) { _fun0003_ip = 104; continue _fun0003 }
  20:
-            entity = oscard.toUpperCase;
-            michal = entity.bind(oscard)();
-            zuuluu = _closure1_slot3;
-            zuuluu = michal in zuuluu;
-            if(zuuluu) { _fun00006_ip = 96; continue _fun00005 }
+            var1 = var6.toUpperCase;
+            var2 = var1.bind(var6)();
+            var3 = _closure1_slot3;
+            var3 = var2 in var3;
+            if(var3) { _fun0003_ip = 96; continue _fun0003 }
  44:
-            zuuluu = global;
-            report = zuuluu.Error;
-            zuuluu = zuuluu.HermesInternal;
-            tangon = zuuluu.concat;
-            zuuluu = 'Invalid theme: ';
-            result = tangon.bind(zuuluu)(oscard);
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            echoed = tangon;
-            zuuluu = new echoed[report](result, output);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            throw zuuluu;
+            var3 = global;
+            var5 = var3.Error;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = 'Invalid theme: ';
+            var18 = var4.bind(var3)(var6);
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var19 = var4;
+            var3 = new var19[var5](var18, var17);
+            var3 = var3 instanceof Object ? var3 : var4;
+            throw var3;
  96:
-            entity = _closure1_slot3;
-            yankee = entity[michal];
+            var1 = _closure1_slot3;
+            var11 = var1[var2];
  104:
-            zuuluu = _closure1_slot4;
-            tangon = _closure1_slot6;
-            entity = argBar;
-            entity = entity[tangon];
-            option = zuuluu[entity];
-            offset = option.category;
-            entity = option[yankee];
-            tangon = _closure1_slot5;
-            zuuluu = entity.raw;
-            oscard = tangon[zuuluu];
-            entity = entity.opacity;
-            zuuluu = null;
-            tangon = zuuluu == golfie;
-            report = undefined;
-            verify = undefined;
-            if(tangon) { _fun00006_ip = 172; continue _fun00005 }
+            var3 = _closure1_slot4;
+            var4 = _closure1_slot6;
+            var1 = arg2;
+            var1 = var1[var4];
+            var8 = var3[var1];
+            var10 = var8.category;
+            var1 = var8[var11];
+            var4 = _closure1_slot5;
+            var3 = var1.raw;
+            var6 = var4[var3];
+            var1 = var1.opacity;
+            var3 = null;
+            var4 = var3 == var7;
+            var5 = undefined;
+            var9 = undefined;
+            if(var4) { _fun0003_ip = 172; continue _fun0003 }
  166:
-            verify = golfie.gradient;
+            var9 = var7.gradient;
  172:
-            romeon = oscard;
-            tangon = entity;
-            if(!(zuuluu != verify)) { _fun00006_ip = 441; continue _fun00005 }
+            var12 = var6;
+            var4 = var1;
+            if(!(var3 != var9)) { _fun0003_ip = 441; continue _fun0003 }
  185:
-            verify = 'gradient';
-            verify = verify in option;
-            romeon = oscard;
-            tangon = entity;
-            if(!verify) { _fun00006_ip = 441; continue _fun00005 }
+            var9 = 'gradient';
+            var9 = var9 in var8;
+            var12 = var6;
+            var4 = var1;
+            if(!var9) { _fun0003_ip = 441; continue _fun0003 }
  205:
-            verify = option.gradient;
-            foxtra = zuuluu == golfie;
-            option = undefined;
-            if(foxtra) { _fun00006_ip = 231; continue _fun00005 }
+            var9 = var8.gradient;
+            var13 = var3 == var7;
+            var8 = undefined;
+            if(var13) { _fun0003_ip = 231; continue _fun0003 }
  220:
-            foxtra = golfie.gradient;
-            option = foxtra.theme;
+            var13 = var7.gradient;
+            var8 = var13.theme;
  231:
-            option = verify[option];
-            romeon = oscard;
-            tangon = entity;
-            if(!(zuuluu != option)) { _fun00006_ip = 441; continue _fun00005 }
+            var8 = var9[var8];
+            var12 = var6;
+            var4 = var1;
+            if(!(var3 != var8)) { _fun0003_ip = 441; continue _fun0003 }
  248:
-            oscard = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 7;
-            entity = verify[entity];
-            oscard = oscard.bind(report)(entity);
-            verify = option.color;
-            entity = _closure1_slot5;
-            entity = verify in entity;
-            if(entity) { _fun00006_ip = 315; continue _fun00005 }
+            var6 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 7;
+            var1 = var9[var1];
+            var6 = var6.bind(var5)(var1);
+            var9 = var8.color;
+            var1 = _closure1_slot5;
+            var1 = var9 in var1;
+            if(var1) { _fun0003_ip = 315; continue _fun0003 }
  284:
-            verify = zuuluu == golfie;
-            entity = undefined;
-            if(verify) { _fun00006_ip = 313; continue _fun00005 }
+            var9 = var3 == var7;
+            var1 = undefined;
+            if(var9) { _fun0003_ip = 313; continue _fun0003 }
  293:
-            verify = golfie.gradient;
-            foxtra = verify.colors;
-            verify = option.color;
-            entity = foxtra[verify];
+            var9 = var7.gradient;
+            var13 = var9.colors;
+            var9 = var8.color;
+            var1 = var13[var9];
  313:
-            _fun00006_ip = 328; continue _fun00005;
+            _fun0003_ip = 328; continue _fun0003;
  315:
-            foxtra = _closure1_slot5;
-            verify = option.color;
-            entity = foxtra[verify];
+            var13 = _closure1_slot5;
+            var9 = var8.color;
+            var1 = var13[var9];
  328:
-            foxtra = oscard.bind(report)(entity);
-            entity = 'saturation';
-            entity = entity in option;
-            backup = foxtra;
-            if(!entity) { _fun00006_ip = 370; continue _fun00005 }
+            var13 = var6.bind(var5)(var1);
+            var1 = 'saturation';
+            var1 = var1 in var8;
+            var14 = var13;
+            if(!var1) { _fun0003_ip = 370; continue _fun0003 }
  347:
-            verify = foxtra.set;
-            oscard = option.saturation;
-            entity = 'hsl.s';
-            backup = verify.bind(foxtra)(entity, oscard);
+            var9 = var13.set;
+            var6 = var8.saturation;
+            var1 = 'hsl.s';
+            var14 = var9.bind(var13)(var1, var6);
  370:
-            entity = 'lightness';
-            entity = entity in option;
-            oscard = backup;
-            if(!entity) { _fun00006_ip = 407; continue _fun00005 }
+            var1 = 'lightness';
+            var1 = var1 in var8;
+            var6 = var14;
+            if(!var1) { _fun0003_ip = 407; continue _fun0003 }
  384:
-            foxtra = backup.set;
-            verify = option.lightness;
-            entity = 'hsl.l';
-            oscard = foxtra.bind(backup)(entity, verify);
+            var13 = var14.set;
+            var9 = var8.lightness;
+            var1 = 'hsl.l';
+            var6 = var13.bind(var14)(var1, var9);
  407:
-            entity = oscard.hex;
-            oscard = entity.bind(oscard)();
-            entity = 'opacity';
-            verify = entity in option;
-            entity = 1;
-            if(!verify) { _fun00006_ip = 435; continue _fun00005 }
+            var1 = var6.hex;
+            var6 = var1.bind(var6)();
+            var1 = 'opacity';
+            var9 = var1 in var8;
+            var1 = 1;
+            if(!var9) { _fun0003_ip = 435; continue _fun0003 }
  430:
-            entity = option.opacity;
+            var1 = var8.opacity;
  435:
-            tangon = entity;
-            romeon = oscard;
+            var4 = var1;
+            var12 = var6;
  441:
-            oscard = zuuluu == golfie;
-            entity = undefined;
-            if(oscard) { _fun00006_ip = 456; continue _fun00005 }
+            var6 = var3 == var7;
+            var1 = undefined;
+            if(var6) { _fun0003_ip = 456; continue _fun0003 }
  450:
-            entity = golfie.contrast;
+            var1 = var7.contrast;
  456:
-            option = zuuluu != entity;
-            oscard = 1;
-            verify = oscard;
-            if(!option) { _fun00006_ip = 472; continue _fun00005 }
+            var8 = var3 != var1;
+            var6 = 1;
+            var9 = var6;
+            if(!var8) { _fun0003_ip = 472; continue _fun0003 }
  469:
-            verify = entity;
+            var9 = var1;
  472:
-            option = zuuluu == golfie;
-            entity = undefined;
-            if(option) { _fun00006_ip = 487; continue _fun00005 }
+            var8 = var3 == var7;
+            var1 = undefined;
+            if(var8) { _fun0003_ip = 487; continue _fun0003 }
  481:
-            entity = golfie.saturation;
+            var1 = var7.saturation;
  487:
-            zuuluu = zuuluu != entity;
-            golfie = oscard;
-            if(!zuuluu) { _fun00006_ip = 500; continue _fun00005 }
+            var3 = var3 != var1;
+            var7 = var6;
+            if(!var3) { _fun0003_ip = 500; continue _fun0003 }
  497:
-            golfie = entity;
+            var7 = var1;
  500:
-            option = romeon;
-            if(!(golfie < oscard)) { _fun00006_ip = 540; continue _fun00005 }
+            var8 = var12;
+            if(!(var7 < var6)) { _fun0003_ip = 540; continue _fun0003 }
  507:
-            zuuluu = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            entity = 8;
-            entity = foxtra[entity];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.transformColorForReducedSaturation;
-            option = entity.bind(zuuluu)(romeon, offset, golfie);
+            var3 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var1 = 8;
+            var1 = var13[var1];
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.transformColorForReducedSaturation;
+            var8 = var1.bind(var3)(var12, var10, var7);
  540:
-            zuuluu = option;
-            if(!(oscard !== verify)) { _fun00006_ip = 592; continue _fun00005 }
+            var3 = var8;
+            if(!(var6 !== var9)) { _fun0003_ip = 592; continue _fun0003 }
  547:
-            golfie = _closure1_slot0;
-            romeon = _closure1_slot2;
-            entity = 8;
-            entity = romeon[entity];
-            golfie = golfie.bind(report)(entity);
-            entity = golfie.transformColorContrast;
-            echoed = golfie;
-            result = option;
-            output = offset;
-            sizing = yankee;
-            kiloes = verify;
-            zuuluu = echoed[entity](result, output, sizing, kiloes, backup);
+            var7 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var1 = 8;
+            var1 = var12[var1];
+            var7 = var7.bind(var5)(var1);
+            var1 = var7.transformColorContrast;
+            var19 = var7;
+            var18 = var8;
+            var17 = var10;
+            var16 = var11;
+            var15 = var9;
+            var3 = var19[var1](var18, var17, var16, var15, var14);
  592:
-            entity = zuuluu;
-            if(!(oscard !== tangon)) { _fun00006_ip = 644; continue _fun00005 }
+            var1 = var3;
+            if(!(var6 !== var4)) { _fun0003_ip = 644; continue _fun0003 }
  599:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 7;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            zuuluu = michal.bind(report)(zuuluu);
-            michal = zuuluu.alpha;
-            zuuluu = michal.bind(zuuluu)(tangon);
-            michal = zuuluu.hex;
-            entity = michal.bind(zuuluu)();
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var3 = var2.bind(var5)(var3);
+            var2 = var3.alpha;
+            var3 = var2.bind(var3)(var4);
+            var2 = var3.hex;
+            var1 = var2.bind(var3)();
  644:
-            return entity;
+            return var1;
         }
     };
-    option['resolveSemanticColor'] = romeon;
-    romeon = function(argFoo, argBar, argBaz) { // Original name: adjustColorSaturation
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 8;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.transformColorForReducedSaturation;
-        zuuluu = argFoo;
-        michal = argBaz;
-        entity = argBar;
-        entity = tangon.bind(report)(zuuluu, michal, entity);
-        return entity;
+    var8['resolveSemanticColor'] = var12;
+    var12 = function adjustColorSaturation(arg1, arg2, arg3) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.transformColorForReducedSaturation;
+        var3 = arg1;
+        var2 = arg3;
+        var1 = arg2;
+        var1 = var4.bind(var5)(var3, var2, var1);
+        return var1;
     };
-    option['adjustColorSaturation'] = romeon;
-    yankee = function(argFoo, argBar, argBaz, argCor) { // Original name: adjustColorContrast
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 8;
-        michal = michal[entity];
-        entity = undefined;
-        oscard = zuuluu.bind(entity)(michal);
-        report = oscard.transformColorContrast;
-        offset = argFoo;
-        verify = argBaz;
-        option = argCor;
-        golfie = argBar;
-        yankee = oscard;
-        entity = yankee[report](offset, verify, option, golfie, oscard);
-        return entity;
+    var8['adjustColorSaturation'] = var12;
+    var11 = function adjustColorContrast(arg1, arg2, arg3, arg4) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var6 = var3.bind(var1)(var2);
+        var5 = var6.transformColorContrast;
+        var10 = arg1;
+        var9 = arg3;
+        var8 = arg4;
+        var7 = arg2;
+        var11 = var6;
+        var1 = var11[var5](var10, var9, var8, var7, var6);
+        return var1;
     };
-    option['adjustColorContrast'] = yankee;
-    golfie['internal'] = option;
-    option = 9;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = '../discord_common/js/packages/tokens/native.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['default'] = golfie;
-    zuuluu['Theme'] = oscard;
-    zuuluu['RawColor'] = report;
-    zuuluu['SemanticColor'] = tangon;
-    zuuluu['Shadow'] = michal;
-    return entity;
+    var8['adjustColorContrast'] = var11;
+    var7['internal'] = var8;
+    var8 = 9;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = '../discord_common/js/packages/tokens/native.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['Theme'] = var6;
+    var3['RawColor'] = var5;
+    var3['SemanticColor'] = var4;
+    var3['Shadow'] = var2;
+    return var1;
 })();

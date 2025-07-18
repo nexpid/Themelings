@@ -1,168 +1,168 @@
 // app/modules/remixing/native/components/RemixingImage.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/native/components/RemixingImage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/native/components/RemixingImage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            update = michal.id;
-            kiloes = michal.source;
-            option = michal.size;
-            yankee = michal.fit;
-            verify = michal.position;
-            echoed = michal.transform;
-            result = michal.transformMap;
-            tangon = _closure1_slot4;
-            zuuluu = tangon.useState;
-            sizing = false;
-            tangon = zuuluu.bind(tangon)(sizing);
-            offset = _closure1_slot3;
-            report = undefined;
-            zuuluu = 2;
-            oscard = offset.bind(report)(tangon, zuuluu);
-            zuuluu = 0;
-            tangon = oscard[zuuluu];
-            golfie = 1;
-            oscard = oscard[golfie];
-            backup = _closure1_slot0;
-            output = _closure1_slot2;
-            foxtra = 3;
-            romeon = output[foxtra];
-            backup = backup.bind(report)(romeon);
-            romeon = backup.useImage;
-            romeon = romeon.bind(backup)(kiloes);
-            var _closure2_slot0 = romeon;
-            kiloes = _closure1_slot1;
-            backup = 4;
-            backup = output[backup];
-            backup = kiloes.bind(report)(backup);
-            backup = backup.bind(report)(update, result, echoed);
-            result = 5;
-            result = output[result];
-            result = kiloes.bind(report)(result);
-            entity = function() {
-                entity = function() {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var20 = var2.id;
+            var15 = var2.source;
+            var8 = var2.size;
+            var11 = var2.fit;
+            var9 = var2.position;
+            var19 = var2.transform;
+            var18 = var2.transformMap;
+            var4 = _closure1_slot4;
+            var3 = var4.useState;
+            var16 = false;
+            var4 = var3.bind(var4)(var16);
+            var10 = _closure1_slot3;
+            var5 = undefined;
+            var3 = 2;
+            var6 = var10.bind(var5)(var4, var3);
+            var3 = 0;
+            var4 = var6[var3];
+            var7 = 1;
+            var6 = var6[var7];
+            var14 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var13 = 3;
+            var12 = var17[var13];
+            var14 = var14.bind(var5)(var12);
+            var12 = var14.useImage;
+            var12 = var12.bind(var14)(var15);
+            var _closure2_slot0 = var12;
+            var15 = _closure1_slot1;
+            var14 = 4;
+            var14 = var17[var14];
+            var14 = var15.bind(var5)(var14);
+            var14 = var14.bind(var5)(var20, var18, var19);
+            var18 = 5;
+            var18 = var17[var18];
+            var18 = var15.bind(var5)(var18);
+            var1 = function() {
+                var1 = function() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = _closure2_slot0;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 27; continue _fun00003 }
+                        var3 = _closure2_slot0;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0002_ip = 27; continue _fun0002 }
  13:
-                        michal = _closure2_slot0;
-                        entity = michal.dispose;
-                        entity = entity.bind(michal)();
+                        var2 = _closure2_slot0;
+                        var1 = var2.dispose;
+                        var1 = var1.bind(var2)();
  27:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = result.bind(report)(entity);
-            entity = 6;
-            entity = output[entity];
-            kiloes = kiloes.bind(report)(entity);
-            entity = {};
-            entity['autoplay'] = sizing;
-            entity = kiloes.bind(report)(backup, entity);
-            entity = offset.bind(report)(entity, golfie);
-            zuuluu = entity[zuuluu];
-            offset = null;
-            golfie = offset == romeon;
-            entity = null;
-            if(golfie) { _fun00002_ip = 428; continue _fun00001 }
+            var1 = var18.bind(var5)(var1);
+            var1 = 6;
+            var1 = var17[var1];
+            var15 = var15.bind(var5)(var1);
+            var1 = {};
+            var1['autoplay'] = var16;
+            var1 = var15.bind(var5)(var14, var1);
+            var1 = var10.bind(var5)(var1, var7);
+            var3 = var1[var3];
+            var10 = null;
+            var7 = var10 == var12;
+            var1 = null;
+            if(var7) { _fun0001_ip = 428; continue _fun0001 }
  218:
-            if(tangon) { _fun00002_ip = 232; continue _fun00001 }
+            if(var4) { _fun0001_ip = 232; continue _fun0001 }
  221:
-            tangon = true;
-            tangon = oscard.bind(report)(tangon);
-            zuuluu = zuuluu.bind(report)();
+            var4 = true;
+            var4 = var6.bind(var5)(var4);
+            var3 = var3.bind(var5)();
  232:
-            tangon = _closure1_slot5;
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = oscard[foxtra];
-            michal = golfie.bind(report)(michal);
-            zuuluu = michal.Group;
-            michal = {};
-            michal['transform'] = backup;
-            backup = 7;
-            backup = oscard[backup];
-            sizing = golfie.bind(report)(backup);
-            kiloes = sizing.centerOfRect;
-            backup = oscard[foxtra];
-            source = golfie.bind(report)(backup);
-            update = source.rect;
-            config = verify.x;
-            sequen = verify.y;
-            vacuum = option.width;
-            ctrled = option.height;
-            record = source;
-            backup = record[update](config, sequen, vacuum, ctrled, source);
-            backup = kiloes.bind(sizing)(backup);
-            michal['origin'] = backup;
-            oscard = oscard[foxtra];
-            oscard = golfie.bind(report)(oscard);
-            golfie = oscard.Image;
-            oscard = {};
-            oscard['image'] = romeon;
-            romeon = offset != yankee;
-            offset = 'contain';
-            if(!romeon) { _fun00002_ip = 371; continue _fun00001 }
+            var4 = _closure1_slot5;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = var6[var13];
+            var2 = var7.bind(var5)(var2);
+            var3 = var2.Group;
+            var2 = {};
+            var2['transform'] = var14;
+            var14 = 7;
+            var14 = var6[var14];
+            var16 = var7.bind(var5)(var14);
+            var15 = var16.centerOfRect;
+            var14 = var6[var13];
+            var21 = var7.bind(var5)(var14);
+            var20 = var21.rect;
+            var25 = var9.x;
+            var24 = var9.y;
+            var23 = var8.width;
+            var22 = var8.height;
+            var26 = var21;
+            var14 = var26[var20](var25, var24, var23, var22, var21);
+            var14 = var15.bind(var16)(var14);
+            var2['origin'] = var14;
+            var6 = var6[var13];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.Image;
+            var6 = {};
+            var6['image'] = var12;
+            var12 = var10 != var11;
+            var10 = 'contain';
+            if(!var12) { _fun0001_ip = 371; continue _fun0001 }
  368:
-            offset = yankee;
+            var10 = var11;
  371:
-            oscard['fit'] = offset;
-            offset = verify.x;
-            oscard['x'] = offset;
-            verify = verify.y;
-            oscard['y'] = verify;
-            verify = option.height;
-            oscard['height'] = verify;
-            option = option.width;
-            oscard['width'] = option;
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var6['fit'] = var10;
+            var10 = var9.x;
+            var6['x'] = var10;
+            var9 = var9.y;
+            var6['y'] = var9;
+            var9 = var8.height;
+            var6['height'] = var9;
+            var8 = var8.width;
+            var6['width'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  428:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

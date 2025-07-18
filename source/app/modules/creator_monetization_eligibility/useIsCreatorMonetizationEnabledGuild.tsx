@@ -1,101 +1,101 @@
 // app/modules/creator_monetization_eligibility/useIsCreatorMonetizationEnabledGuild.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: isCreatorMonetizationEnabledGuild
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function isCreatorMonetizationEnabledGuild(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            report = tangon.features;
-            michal = report.has;
-            entity = _closure1_slot3;
-            entity = entity.CREATOR_MONETIZABLE_DISABLED;
-            entity = michal.bind(report)(entity);
-            entity = !entity;
-            if(!entity) { _fun00002_ip = 96; continue _fun00001 }
+            var4 = arg1;
+            var5 = var4.features;
+            var2 = var5.has;
+            var1 = _closure1_slot3;
+            var1 = var1.CREATOR_MONETIZABLE_DISABLED;
+            var1 = var2.bind(var5)(var1);
+            var1 = !var1;
+            if(!var1) { _fun0001_ip = 96; continue _fun0001 }
  38:
-            oscard = tangon.features;
-            report = oscard.has;
-            michal = _closure1_slot3;
-            michal = michal.CREATOR_MONETIZABLE;
-            michal = report.bind(oscard)(michal);
-            if(michal) { _fun00002_ip = 93; continue _fun00001 }
+            var6 = var4.features;
+            var5 = var6.has;
+            var2 = _closure1_slot3;
+            var2 = var2.CREATOR_MONETIZABLE;
+            var2 = var5.bind(var6)(var2);
+            if(var2) { _fun0001_ip = 93; continue _fun0001 }
  67:
-            report = tangon.features;
-            tangon = report.has;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.CREATOR_MONETIZABLE_PROVISIONAL;
-            michal = tangon.bind(report)(zuuluu);
+            var5 = var4.features;
+            var4 = var5.has;
+            var3 = _closure1_slot3;
+            var3 = var3.CREATOR_MONETIZABLE_PROVISIONAL;
+            var2 = var4.bind(var5)(var3);
  93:
-            entity = michal;
+            var1 = var2;
  96:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.GuildFeatures;
-    var _closure1_slot3 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/creator_monetization_eligibility/useIsCreatorMonetizationEnabledGuild.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useIsCreatorMonetizationEnabledGuild
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot2;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.GuildFeatures;
+    var _closure1_slot3 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/creator_monetization_eligibility/useIsCreatorMonetizationEnabledGuild.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useIsCreatorMonetizationEnabledGuild(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure1_slot2;
-                zuuluu = tangon.getGuild;
-                entity = _closure2_slot0;
-                tangon = zuuluu.bind(tangon)(entity);
-                entity = null;
-                entity = entity != tangon;
-                if(!entity) { _fun00004_ip = 44; continue _fun00003 }
+                var4 = _closure1_slot2;
+                var3 = var4.getGuild;
+                var1 = _closure2_slot0;
+                var4 = var3.bind(var4)(var1);
+                var1 = null;
+                var1 = var1 != var4;
+                if(!var1) { _fun0002_ip = 44; continue _fun0002 }
  33:
-                zuuluu = _closure1_slot4;
-                michal = undefined;
-                entity = zuuluu.bind(michal)(tangon);
+                var3 = _closure1_slot4;
+                var2 = undefined;
+                var1 = var3.bind(var2)(var4);
  44:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['isCreatorMonetizationEnabledGuild'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['isCreatorMonetizationEnabledGuild'] = var2;
+    return var1;
 })();

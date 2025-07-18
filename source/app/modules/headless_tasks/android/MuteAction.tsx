@@ -1,113 +1,113 @@
 // app/modules/headless_tasks/android/MuteAction.tsx
-export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
-    zuuluu = argBar;
-    tangon = argPlu;
-    var _closure1_slot0 = zuuluu;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = 0;
-    report = tangon[entity];
-    entity = undefined;
-    report = zuuluu.bind(entity)(report);
-    report = report.MuteUntilSeconds;
-    var _closure1_slot3 = report;
-    report = function(argFoo) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            entity = argFoo;
-            var _closure3_slot0 = entity;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.awaitStorage;
-            michal = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native2;
+    var4 = native7;
+    var _closure1_slot0 = var3;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = 0;
+    var5 = var4[var1];
+    var1 = undefined;
+    var5 = var3.bind(var1)(var5);
+    var5 = var5.MuteUntilSeconds;
+    var _closure1_slot3 = var5;
+    var5 = function(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var1 = arg1;
+            var _closure3_slot0 = var1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.awaitStorage;
+            var2 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    entity = _closure2_slot0;
-                    michal = entity.muteTime;
-                    oscard = null;
-                    entity = -1;
-                    yankee = null;
-                    if(!(entity !== michal)) { _fun00002_ip = 105; continue _fun00001 }
+                    var1 = _closure2_slot0;
+                    var2 = var1.muteTime;
+                    var6 = null;
+                    var1 = -1;
+                    var11 = null;
+                    if(!(var1 !== var2)) { _fun0001_ip = 105; continue _fun0001 }
  27:
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 2;
-                    michal = tangon[michal];
-                    tangon = undefined;
-                    michal = report.bind(tangon)(michal);
-                    report = michal.bind(tangon)();
-                    tangon = report.add;
-                    michal = _closure2_slot0;
-                    michal = michal.muteTime;
-                    if(!(oscard == michal)) { _fun00002_ip = 85; continue _fun00001 }
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var2 = var5.bind(var4)(var2);
+                    var5 = var2.bind(var4)();
+                    var4 = var5.add;
+                    var2 = _closure2_slot0;
+                    var2 = var2.muteTime;
+                    if(!(var6 == var2)) { _fun0001_ip = 85; continue _fun0001 }
  75:
-                    entity = _closure1_slot3;
-                    michal = entity.HOURS_1;
+                    var1 = _closure1_slot3;
+                    var2 = var1.HOURS_1;
  85:
-                    entity = 'second';
-                    michal = tangon.bind(report)(michal, entity);
-                    entity = michal.toISOString;
-                    yankee = entity.bind(michal)();
+                    var1 = 'second';
+                    var2 = var4.bind(var5)(var2, var1);
+                    var1 = var2.toISOString;
+                    var11 = var1.bind(var2)();
  105:
-                    report = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    entity = 3;
-                    tangon = offset[entity];
-                    entity = undefined;
-                    option = report.bind(entity)(tangon);
-                    golfie = option.updateChannelOverrideSettings;
-                    zuuluu = _closure2_slot0;
-                    oscard = zuuluu.guildId;
-                    kiloes = zuuluu.channelId;
-                    tangon = {};
-                    zuuluu = true;
-                    tangon['muted'] = zuuluu;
-                    verify = {};
-                    romeon = _closure1_slot3;
-                    romeon = romeon.HOURS_1;
-                    verify['selected_time_window'] = romeon;
-                    verify['end_time'] = yankee;
-                    tangon['mute_config'] = verify;
-                    verify = _closure1_slot0;
-                    michal = 4;
-                    michal = offset[michal];
-                    michal = verify.bind(entity)(michal);
-                    michal = michal.NotificationLabels;
-                    foxtra = michal.Muted;
-                    output = option;
-                    sizing = oscard;
-                    backup = tangon;
-                    michal = output[golfie](sizing, kiloes, backup, foxtra, romeon);
-                    michal = _closure3_slot0;
-                    michal = michal.bind(entity)(zuuluu);
-                    return entity;
+                    var5 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var1 = 3;
+                    var4 = var10[var1];
+                    var1 = undefined;
+                    var8 = var5.bind(var1)(var4);
+                    var7 = var8.updateChannelOverrideSettings;
+                    var3 = _closure2_slot0;
+                    var6 = var3.guildId;
+                    var15 = var3.channelId;
+                    var4 = {};
+                    var3 = true;
+                    var4['muted'] = var3;
+                    var9 = {};
+                    var12 = _closure1_slot3;
+                    var12 = var12.HOURS_1;
+                    var9['selected_time_window'] = var12;
+                    var9['end_time'] = var11;
+                    var4['mute_config'] = var9;
+                    var9 = _closure1_slot0;
+                    var2 = 4;
+                    var2 = var10[var2];
+                    var2 = var9.bind(var1)(var2);
+                    var2 = var2.NotificationLabels;
+                    var13 = var2.Muted;
+                    var17 = var8;
+                    var16 = var6;
+                    var14 = var4;
+                    var2 = var17[var7](var16, var15, var14, var13, var12);
+                    var2 = _closure3_slot0;
+                    var2 = var2.bind(var1)(var3);
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    michal = argGra;
-    michal['exports'] = report;
-    michal = 5;
-    michal = tangon[michal];
-    tangon = zuuluu.bind(entity)(michal);
-    zuuluu = tangon.fileFinishedImporting;
-    michal = 'modules/headless_tasks/android/MuteAction.tsx';
-    michal = zuuluu.bind(tangon)(michal);
-    return entity;
+    var2 = native5;
+    var2['exports'] = var5;
+    var2 = 5;
+    var2 = var4[var2];
+    var4 = var3.bind(var1)(var2);
+    var3 = var4.fileFinishedImporting;
+    var2 = 'modules/headless_tasks/android/MuteAction.tsx';
+    var2 = var3.bind(var4)(var2);
+    return var1;
 })();

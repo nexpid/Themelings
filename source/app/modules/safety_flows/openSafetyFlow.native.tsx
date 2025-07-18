@@ -1,197 +1,197 @@
 // app/modules/safety_flows/openSafetyFlow.native.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _openSafetyFlow
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _openSafetyFlow() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = arguments[0];
+                    var2 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 422; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 422; continue _fun0001 }
  13:
-                    tangon = undefined;
-                    if(!(michal === tangon)) { _fun00002_ip = 21; continue _fun00001 }
+                    var4 = undefined;
+                    if(!(var2 === var4)) { _fun0001_ip = 21; continue _fun0001 }
  19:
-                    michal = {};
+                    var2 = {};
  21:
-                    option = michal.requiredAction;
+                    var8 = var2.requiredAction;
                     SaveGenerator(address=31);
  29:
-                    return tangon;
+                    return var4;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 419; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 419; continue _fun0001 }
  40:
-                    report = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = golfie[zuuluu];
-                    golfie = report.bind(tangon)(zuuluu);
-                    report = golfie.isEligibleForSafetyFlowsExperiment;
-                    zuuluu = {};
-                    verify = 'open-safety-flow';
-                    zuuluu['location'] = verify;
-                    zuuluu = report.bind(golfie)(zuuluu);
-                    if(!zuuluu) { _fun00002_ip = 410; continue _fun00001 }
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var7[var3];
+                    var7 = var5.bind(var4)(var3);
+                    var5 = var7.isEligibleForSafetyFlowsExperiment;
+                    var3 = {};
+                    var9 = 'open-safety-flow';
+                    var3['location'] = var9;
+                    var3 = var5.bind(var7)(var3);
+                    if(!var3) { _fun0001_ip = 410; continue _fun0001 }
  92:
-                    golfie = null;
-                    if(!(golfie == option)) { _fun00002_ip = 112; continue _fun00001 }
+                    var7 = null;
+                    if(!(var7 == var8)) { _fun0001_ip = 112; continue _fun0001 }
  98:
-                    report = _closure1_slot4;
-                    zuuluu = report.getAction;
-                    option = zuuluu.bind(report)();
+                    var5 = _closure1_slot4;
+                    var3 = var5.getAction;
+                    var8 = var3.bind(var5)();
  112:
-                    zuuluu = _closure1_slot5;
-                    zuuluu = zuuluu.REQUIRE_SAFETY_FLOWS;
-                    if(!(option !== zuuluu)) { _fun00002_ip = 163; continue _fun00001 }
+                    var3 = _closure1_slot5;
+                    var3 = var3.REQUIRE_SAFETY_FLOWS;
+                    if(!(var8 !== var3)) { _fun0001_ip = 163; continue _fun0001 }
  126:
-                    report = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = verify[zuuluu];
-                    report = report.bind(tangon)(zuuluu);
-                    zuuluu = report.isFullScreenVerification;
-                    zuuluu = zuuluu.bind(report)(option);
-                    if(!zuuluu) { _fun00002_ip = 410; continue _fun00001 }
+                    var5 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var9[var3];
+                    var5 = var5.bind(var4)(var3);
+                    var3 = var5.isFullScreenVerification;
+                    var3 = var3.bind(var5)(var8);
+                    if(!var3) { _fun0001_ip = 410; continue _fun0001 }
  163:
-                    report = _closure1_slot0;
-                    option = _closure1_slot2;
-                    zuuluu = 5;
-                    zuuluu = option[zuuluu];
-                    report = report.bind(tangon)(zuuluu);
-                    zuuluu = report.getCurrentTask;
-                    zuuluu = zuuluu.bind(report)();
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var5 = var5.bind(var4)(var3);
+                    var3 = var5.getCurrentTask;
+                    var3 = var3.bind(var5)();
                     SaveGenerator(address=197);
  195:
-                    return zuuluu;
+                    return var3;
  197:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 416; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 416; continue _fun0001 }
  206:
-                    if(!(golfie != zuuluu)) { _fun00002_ip = 413; continue _fun00001 }
+                    if(!(var7 != var3)) { _fun0001_ip = 413; continue _fun0001 }
  213:
-                    option = _closure1_slot0;
-                    report = _closure1_slot2;
-                    verify = 6;
-                    report = report[verify];
-                    report = option.bind(tangon)(report);
-                    option = report.TASK_TYPE_TO_SCREENS;
-                    report = zuuluu.task_type;
-                    report = option[report];
-                    if(!(golfie == report)) { _fun00002_ip = 284; continue _fun00001 }
+                    var8 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var9 = 6;
+                    var5 = var5[var9];
+                    var5 = var8.bind(var4)(var5);
+                    var8 = var5.TASK_TYPE_TO_SCREENS;
+                    var5 = var3.task_type;
+                    var5 = var8[var5];
+                    if(!(var7 == var5)) { _fun0001_ip = 284; continue _fun0001 }
  253:
-                    golfie = _closure1_slot0;
-                    report = _closure1_slot2;
-                    report = report[verify];
-                    report = golfie.bind(tangon)(report);
-                    report = report.SafetyFlowScreens;
-                    report = report.UPDATE_APP;
-                    _fun00002_ip = 313; continue _fun00001;
+                    var7 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var9];
+                    var5 = var7.bind(var4)(var5);
+                    var5 = var5.SafetyFlowScreens;
+                    var5 = var5.UPDATE_APP;
+                    _fun0001_ip = 313; continue _fun0001;
  284:
-                    option = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    golfie = golfie[verify];
-                    golfie = option.bind(tangon)(golfie);
-                    golfie = golfie.SafetyFlowScreens;
-                    report = golfie.OVERVIEW;
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var9];
+                    var7 = var8.bind(var4)(var7);
+                    var7 = var7.SafetyFlowScreens;
+                    var5 = var7.OVERVIEW;
  313:
-                    option = _closure1_slot1;
-                    yankee = _closure1_slot2;
-                    golfie = 7;
-                    golfie = yankee[golfie];
-                    verify = option.bind(tangon)(golfie);
-                    option = verify.pushLazy;
-                    offset = _closure1_slot0;
-                    oscard = 9;
-                    oscard = yankee[oscard];
-                    romeon = offset.bind(tangon)(oscard);
-                    oscard = 8;
-                    golfie = yankee[oscard];
-                    oscard = yankee.paths;
-                    golfie = romeon.bind(tangon)(golfie, oscard);
-                    oscard = {};
-                    oscard['task'] = zuuluu;
-                    oscard['initialScreen'] = report;
-                    report = 10;
-                    report = yankee[report];
-                    report = offset.bind(tangon)(report);
-                    report = report.SAFETY_FLOWS_MODAL_KEY;
-                    report = option.bind(verify)(golfie, oscard, report);
+                    var8 = _closure1_slot1;
+                    var11 = _closure1_slot2;
+                    var7 = 7;
+                    var7 = var11[var7];
+                    var9 = var8.bind(var4)(var7);
+                    var8 = var9.pushLazy;
+                    var10 = _closure1_slot0;
+                    var6 = 9;
+                    var6 = var11[var6];
+                    var12 = var10.bind(var4)(var6);
+                    var6 = 8;
+                    var7 = var11[var6];
+                    var6 = var11.paths;
+                    var7 = var12.bind(var4)(var7, var6);
+                    var6 = {};
+                    var6['task'] = var3;
+                    var6['initialScreen'] = var5;
+                    var5 = 10;
+                    var5 = var11[var5];
+                    var5 = var10.bind(var4)(var5);
+                    var5 = var5.SAFETY_FLOWS_MODAL_KEY;
+                    var5 = var8.bind(var9)(var7, var6, var5);
  410:
-                    return tangon;
+                    return var4;
  413:
-                    return tangon;
+                    return var4;
  416:
-                    return zuuluu;
+                    return var3;
  419:
-                    return michal;
+                    return var2;
  422:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.UserRequiredActions;
-    var _closure1_slot5 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/safety_flows/openSafetyFlow.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: openSafetyFlow
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserRequiredActions;
+    var _closure1_slot5 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/safety_flows/openSafetyFlow.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openSafetyFlow() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['openSafetyFlow'] = michal;
-    return entity;
+    var3['openSafetyFlow'] = var2;
+    return var1;
 })();

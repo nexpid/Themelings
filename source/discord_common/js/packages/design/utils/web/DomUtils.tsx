@@ -1,91 +1,91 @@
 // discord_common/js/packages/design/utils/web/DomUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/design/utils/web/DomUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: isElement
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/design/utils/web/DomUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isElement(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = argBar;
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 95; continue _fun00001 }
+            var3 = arg1;
+            var2 = arg2;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0001_ip = 95; continue _fun0001 }
  12:
-            oscard = entity == zuuluu;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 42; continue _fun00001 }
+            var6 = var1 == var3;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 42; continue _fun0001 }
  21:
-            oscard = zuuluu.ownerDocument;
-            golfie = entity == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 42; continue _fun00001 }
+            var6 = var3.ownerDocument;
+            var7 = var1 == var6;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 42; continue _fun0001 }
  36:
-            tangon = oscard.defaultView;
+            var4 = var6.defaultView;
  42:
-            if(!(entity != tangon)) { _fun00002_ip = 91; continue _fun00001 }
+            if(!(var1 != var4)) { _fun0001_ip = 91; continue _fun0001 }
  46:
-            oscard = entity == michal;
-            report = undefined;
-            if(oscard) { _fun00002_ip = 60; continue _fun00001 }
+            var6 = var1 == var2;
+            var5 = undefined;
+            if(var6) { _fun0001_ip = 60; continue _fun0001 }
  55:
-            report = michal.name;
+            var5 = var2.name;
  60:
-            oscard = entity != report;
-            michal = 'Element';
-            if(!oscard) { _fun00002_ip = 74; continue _fun00001 }
+            var6 = var1 != var5;
+            var2 = 'Element';
+            if(!var6) { _fun0001_ip = 74; continue _fun0001 }
  71:
-            michal = report;
+            var2 = var5;
  74:
-            michal = tangon[michal];
-            entity = entity != michal;
-            if(!entity) { _fun00002_ip = 89; continue _fun00001 }
+            var2 = var4[var2];
+            var1 = var1 != var2;
+            if(!var1) { _fun0001_ip = 89; continue _fun0001 }
  85:
-            entity = zuuluu instanceof michal;
+            var1 = var3 instanceof var2;
  89:
-            return entity;
+            return var1;
  91:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  95:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['isElement'] = tangon;
-    michal = function(argFoo) { // Original name: cssValueToNumber
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isElement'] = var4;
+    var2 = function cssValueToNumber(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = global;
-            report = entity.parseInt;
-            zuuluu = undefined;
-            tangon = argFoo;
-            michal = 10;
-            michal = report.bind(zuuluu)(tangon, michal);
-            entity = entity.isNaN;
-            zuuluu = entity.bind(zuuluu)(michal);
-            entity = 0;
-            if(zuuluu) { _fun00004_ip = 41; continue _fun00003 }
+            var1 = global;
+            var5 = var1.parseInt;
+            var3 = undefined;
+            var4 = arg1;
+            var2 = 10;
+            var2 = var5.bind(var3)(var4, var2);
+            var1 = var1.isNaN;
+            var3 = var1.bind(var3)(var2);
+            var1 = 0;
+            if(var3) { _fun0002_ip = 41; continue _fun0002 }
  38:
-            entity = michal;
+            var1 = var2;
  41:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['cssValueToNumber'] = michal;
-    return entity;
+    var3['cssValueToNumber'] = var2;
+    return var1;
 })();

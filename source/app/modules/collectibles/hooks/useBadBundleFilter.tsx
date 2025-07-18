@@ -1,199 +1,199 @@
 // app/modules/collectibles/hooks/useBadBundleFilter.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useCallback;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/hooks/useBadBundleFilter.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useCallback;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/collectibles/hooks/useBadBundleFilter.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            golfie = report.bind(tangon)(zuuluu);
-            oscard = golfie.useStateFromStores;
-            zuuluu = _closure1_slot4;
-            report = new Array(1);
-            report[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot4;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 3;
+            var3 = var4[var3];
+            var4 = undefined;
+            var7 = var5.bind(var4)(var3);
+            var6 = var7.useStateFromStores;
+            var3 = _closure1_slot4;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot4;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            golfie = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = null;
-            report = zuuluu != golfie;
-            if(!report) { _fun00002_ip = 97; continue _fun00001 }
+            var7 = var6.bind(var7)(var5, var3);
+            var3 = null;
+            var5 = var3 != var7;
+            if(!var5) { _fun0001_ip = 97; continue _fun0001 }
  66:
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = option[zuuluu];
-            oscard = oscard.bind(tangon)(zuuluu);
-            zuuluu = oscard.canUseCollectibles;
-            report = zuuluu.bind(oscard)(golfie);
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 4;
+            var3 = var8[var3];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.canUseCollectibles;
+            var5 = var3.bind(var6)(var7);
  97:
-            var _closure2_slot0 = report;
-            zuuluu = _closure1_slot3;
-            michal = new Array(1);
-            michal[0] = report;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot0 = var5;
+            var3 = _closure1_slot3;
+            var2 = new Array(1);
+            var2[0] = var5;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = argFoo;
-                    michal = null;
-                    entity = tangon;
-                    if(!(michal != tangon)) { _fun00004_ip = 45; continue _fun00003 }
+                    var4 = arg1;
+                    var2 = null;
+                    var1 = var4;
+                    if(!(var2 != var4)) { _fun0002_ip = 45; continue _fun0002 }
  12:
-                    zuuluu = tangon.length;
-                    michal = 0;
-                    entity = tangon;
-                    if(!(michal !== zuuluu)) { _fun00004_ip = 45; continue _fun00003 }
+                    var3 = var4.length;
+                    var2 = 0;
+                    var1 = var4;
+                    if(!(var2 !== var3)) { _fun0002_ip = 45; continue _fun0002 }
  26:
-                    zuuluu = tangon.filter;
-                    michal = function(argFoo) {
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                    var3 = var4.filter;
+                    var2 = function(arg1) {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                            tangon = argFoo;
-                            option = _closure1_slot0;
-                            report = _closure1_slot2;
-                            michal = 5;
-                            michal = report[michal];
-                            oscard = undefined;
-                            verify = option.bind(oscard)(michal);
-                            golfie = verify.getProductPurchaseState;
-                            michal = _closure1_slot5;
-                            michal = golfie.bind(verify)(michal, tangon);
-                            michal = michal.isPurchased;
-                            golfie = 6;
-                            report = report[golfie];
-                            option = option.bind(oscard)(report);
-                            report = option.isBundleProduct;
-                            report = report.bind(option)(tangon);
-                            if(!report) { _fun00006_ip = 255; continue _fun00005 }
+                            var4 = arg1;
+                            var8 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var2 = 5;
+                            var2 = var5[var2];
+                            var6 = undefined;
+                            var9 = var8.bind(var6)(var2);
+                            var7 = var9.getProductPurchaseState;
+                            var2 = _closure1_slot5;
+                            var2 = var7.bind(var9)(var2, var4);
+                            var2 = var2.isPurchased;
+                            var7 = 6;
+                            var5 = var5[var7];
+                            var8 = var8.bind(var6)(var5);
+                            var5 = var8.isBundleProduct;
+                            var5 = var5.bind(var8)(var4);
+                            if(!var5) { _fun0003_ip = 255; continue _fun0003 }
  81:
-                            option = _closure1_slot0;
-                            report = _closure1_slot2;
-                            report = report[golfie];
-                            option = option.bind(oscard)(report);
-                            report = option.isFreeCollectiblesProduct;
-                            report = report.bind(option)(tangon);
-                            if(report) { _fun00006_ip = 255; continue _fun00005 }
+                            var8 = _closure1_slot0;
+                            var5 = _closure1_slot2;
+                            var5 = var5[var7];
+                            var8 = var8.bind(var6)(var5);
+                            var5 = var8.isFreeCollectiblesProduct;
+                            var5 = var5.bind(var8)(var4);
+                            if(var5) { _fun0003_ip = 255; continue _fun0003 }
  115:
-                            if(michal) { _fun00006_ip = 255; continue _fun00005 }
+                            if(var2) { _fun0003_ip = 255; continue _fun0003 }
  121:
-                            michal = _closure1_slot0;
-                            entity = _closure1_slot2;
-                            report = entity[golfie];
-                            verify = michal.bind(oscard)(report);
-                            option = verify.getDefaultPriceSetAssignmentPurchaseType;
-                            report = _closure2_slot0;
-                            report = option.bind(verify)(report);
-                            var _closure4_slot0 = report;
-                            entity = entity[golfie];
-                            michal = michal.bind(oscard)(entity);
-                            entity = michal.extractPriceByPurchaseTypes;
-                            entity = entity.bind(michal)(tangon, report);
-                            report = null;
-                            if(!(report != entity)) { _fun00006_ip = 251; continue _fun00005 }
+                            var2 = _closure1_slot0;
+                            var1 = _closure1_slot2;
+                            var5 = var1[var7];
+                            var9 = var2.bind(var6)(var5);
+                            var8 = var9.getDefaultPriceSetAssignmentPurchaseType;
+                            var5 = _closure2_slot0;
+                            var5 = var8.bind(var9)(var5);
+                            var _closure4_slot0 = var5;
+                            var1 = var1[var7];
+                            var2 = var2.bind(var6)(var1);
+                            var1 = var2.extractPriceByPurchaseTypes;
+                            var1 = var1.bind(var2)(var4, var5);
+                            var5 = null;
+                            if(!(var5 != var1)) { _fun0003_ip = 251; continue _fun0003 }
  187:
-                            michal = entity.amount;
-                            oscard = 0;
-                            if(!(oscard !== michal)) { _fun00006_ip = 251; continue _fun00005 }
+                            var2 = var1.amount;
+                            var6 = 0;
+                            if(!(var6 !== var2)) { _fun0003_ip = 251; continue _fun0003 }
  199:
-                            michal = tangon.bundledProducts;
-                            report = report != michal;
-                            michal = 0;
-                            if(!report) { _fun00006_ip = 239; continue _fun00005 }
+                            var2 = var4.bundledProducts;
+                            var5 = var5 != var2;
+                            var2 = 0;
+                            if(!var5) { _fun0003_ip = 239; continue _fun0003 }
  214:
-                            report = tangon.bundledProducts;
-                            tangon = report.reduce;
-                            zuuluu = function(argFoo, argBar) {
-                                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                            var5 = var4.bundledProducts;
+                            var4 = var5.reduce;
+                            var3 = function(arg1, arg2) {
+                                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                                    zuuluu = _closure1_slot0;
-                                    michal = _closure1_slot2;
-                                    entity = 6;
-                                    michal = michal[entity];
-                                    entity = undefined;
-                                    report = zuuluu.bind(entity)(michal);
-                                    tangon = report.extractPriceByPurchaseTypes;
-                                    zuuluu = _closure4_slot0;
-                                    michal = argBar;
-                                    zuuluu = tangon.bind(report)(michal, zuuluu);
-                                    michal = null;
-                                    tangon = michal == zuuluu;
-                                    if(tangon) { _fun00008_ip = 62; continue _fun00007 }
+                                    var3 = _closure1_slot0;
+                                    var2 = _closure1_slot2;
+                                    var1 = 6;
+                                    var2 = var2[var1];
+                                    var1 = undefined;
+                                    var5 = var3.bind(var1)(var2);
+                                    var4 = var5.extractPriceByPurchaseTypes;
+                                    var3 = _closure4_slot0;
+                                    var2 = arg2;
+                                    var3 = var4.bind(var5)(var2, var3);
+                                    var2 = null;
+                                    var4 = var2 == var3;
+                                    if(var4) { _fun0004_ip = 62; continue _fun0004 }
  56:
-                                    entity = zuuluu.amount;
+                                    var1 = var3.amount;
  62:
-                                    zuuluu = michal != entity;
-                                    michal = 0;
-                                    if(!zuuluu) { _fun00008_ip = 74; continue _fun00007 }
+                                    var3 = var2 != var1;
+                                    var2 = 0;
+                                    if(!var3) { _fun0004_ip = 74; continue _fun0004 }
  71:
-                                    michal = entity;
+                                    var2 = var1;
  74:
-                                    entity = argFoo;
-                                    entity = entity + michal;
-                                    return entity;
+                                    var1 = arg1;
+                                    var1 = var1 + var2;
+                                    return var1;
                                 }
                             };
-                            michal = tangon.bind(report)(zuuluu, oscard);
+                            var2 = var4.bind(var5)(var3, var6);
  239:
-                            entity = entity.amount;
-                            entity = entity < michal;
-                            return entity;
+                            var1 = var1.amount;
+                            var1 = var1 < var2;
+                            return var1;
  251:
-                            entity = true;
-                            return entity;
+                            var1 = true;
+                            return var1;
  255:
-                            entity = true;
-                            return entity;
+                            var1 = true;
+                            return var1;
                         }
                     };
-                    entity = zuuluu.bind(tangon)(michal);
+                    var1 = var3.bind(var4)(var2);
  45:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['useBadBundleFilter'] = michal;
-    return entity;
+    var3['useBadBundleFilter'] = var2;
+    return var1;
 })();

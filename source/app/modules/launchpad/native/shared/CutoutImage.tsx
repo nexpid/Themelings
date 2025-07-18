@@ -1,608 +1,608 @@
 // app/modules/launchpad/native/shared/CutoutImage.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Image;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.jsx;
-    var _closure1_slot6 = option;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) { // Original name: CutoutImage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Image;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = var7.memo;
+    var2 = function CutoutImage(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            report = michal.style;
-            variable42 = michal.cutoutTopLeftSize;
-            tangon = undefined;
-            if(!(variable42 === tangon)) { _fun00002_ip = 26; continue _fun00001 }
+            var2 = arg1;
+            var5 = var2.style;
+            var42 = var2.cutoutTopLeftSize;
+            var4 = undefined;
+            if(!(var42 === var4)) { _fun0001_ip = 26; continue _fun0001 }
  24:
-            variable42 = 0;
+            var42 = 0;
  26:
-            variable44 = michal.cutoutTopLeftInsetX;
-            if(!(variable44 === tangon)) { _fun00002_ip = 40; continue _fun00001 }
+            var44 = var2.cutoutTopLeftInsetX;
+            if(!(var44 === var4)) { _fun0001_ip = 40; continue _fun0001 }
  38:
-            variable44 = 0;
+            var44 = 0;
  40:
-            variable43 = michal.cutoutTopLeftInsetY;
-            if(!(variable43 === tangon)) { _fun00002_ip = 54; continue _fun00001 }
+            var43 = var2.cutoutTopLeftInsetY;
+            if(!(var43 === var4)) { _fun0001_ip = 54; continue _fun0001 }
  52:
-            variable43 = 0;
+            var43 = 0;
  54:
-            variable39 = michal.cutoutTopRightSize;
-            if(!(variable39 === tangon)) { _fun00002_ip = 66; continue _fun00001 }
+            var39 = var2.cutoutTopRightSize;
+            if(!(var39 === var4)) { _fun0001_ip = 66; continue _fun0001 }
  64:
-            variable39 = 0;
+            var39 = 0;
  66:
-            variable41 = michal.cutoutTopRightInsetX;
-            if(!(variable41 === tangon)) { _fun00002_ip = 78; continue _fun00001 }
+            var41 = var2.cutoutTopRightInsetX;
+            if(!(var41 === var4)) { _fun0001_ip = 78; continue _fun0001 }
  76:
-            variable41 = 0;
+            var41 = 0;
  78:
-            variable40 = michal.cutoutTopRightInsetY;
-            if(!(variable40 === tangon)) { _fun00002_ip = 90; continue _fun00001 }
+            var40 = var2.cutoutTopRightInsetY;
+            if(!(var40 === var4)) { _fun0001_ip = 90; continue _fun0001 }
  88:
-            variable40 = 0;
+            var40 = 0;
  90:
-            variable36 = michal.cutoutBottomLeftSize;
-            if(!(variable36 === tangon)) { _fun00002_ip = 104; continue _fun00001 }
+            var36 = var2.cutoutBottomLeftSize;
+            if(!(var36 === var4)) { _fun0001_ip = 104; continue _fun0001 }
  102:
-            variable36 = 0;
+            var36 = 0;
  104:
-            variable38 = michal.cutoutBottomLeftInsetX;
-            if(!(variable38 === tangon)) { _fun00002_ip = 118; continue _fun00001 }
+            var38 = var2.cutoutBottomLeftInsetX;
+            if(!(var38 === var4)) { _fun0001_ip = 118; continue _fun0001 }
  116:
-            variable38 = 0;
+            var38 = 0;
  118:
-            variable37 = michal.cutoutBottomLeftInsetY;
-            if(!(variable37 === tangon)) { _fun00002_ip = 132; continue _fun00001 }
+            var37 = var2.cutoutBottomLeftInsetY;
+            if(!(var37 === var4)) { _fun0001_ip = 132; continue _fun0001 }
  130:
-            variable37 = 0;
+            var37 = 0;
  132:
-            whisks = michal.cutoutBottomRightSize;
-            if(!(whisks === tangon)) { _fun00002_ip = 144; continue _fun00001 }
+            var33 = var2.cutoutBottomRightSize;
+            if(!(var33 === var4)) { _fun0001_ip = 144; continue _fun0001 }
  142:
-            whisks = 0;
+            var33 = 0;
  144:
-            quebec = michal.cutoutBottomRightInsetX;
-            if(!(quebec === tangon)) { _fun00002_ip = 156; continue _fun00001 }
+            var35 = var2.cutoutBottomRightInsetX;
+            if(!(var35 === var4)) { _fun0001_ip = 156; continue _fun0001 }
  154:
-            quebec = 0;
+            var35 = 0;
  156:
-            equals = michal.cutoutBottomRightInsetY;
-            if(!(equals === tangon)) { _fun00002_ip = 168; continue _fun00001 }
+            var34 = var2.cutoutBottomRightInsetY;
+            if(!(var34 === var4)) { _fun0001_ip = 168; continue _fun0001 }
  166:
-            equals = 0;
+            var34 = 0;
  168:
-            sizing = michal.imageSize;
-            sequen = michal.imageSource;
-            offset = michal.imageBorderRadius;
-            if(!(offset === tangon)) { _fun00002_ip = 197; continue _fun00001 }
+            var16 = var2.imageSize;
+            var24 = var2.imageSource;
+            var10 = var2.imageBorderRadius;
+            if(!(var10 === var4)) { _fun0001_ip = 197; continue _fun0001 }
  190:
-            zuuluu = 2;
-            offset = sizing / zuuluu;
+            var3 = 2;
+            var10 = var16 / var3;
  197:
-            update = michal.imageBackgroundColor;
-            record = michal.imageTintColor;
-            var _closure2_slot0 = record;
-            limora = michal.clipInnerAmount;
-            if(!(limora === tangon)) { _fun00002_ip = 227; continue _fun00001 }
+            var20 = var2.imageBackgroundColor;
+            var26 = var2.imageTintColor;
+            var _closure2_slot0 = var26;
+            var32 = var2.clipInnerAmount;
+            if(!(var32 === var4)) { _fun0001_ip = 227; continue _fun0001 }
  225:
-            limora = 0;
+            var32 = 0;
  227:
-            target = michal.clipOuterAmount;
-            if(!(target === tangon)) { _fun00002_ip = 239; continue _fun00001 }
+            var29 = var2.clipOuterAmount;
+            if(!(var29 === var4)) { _fun0001_ip = 239; continue _fun0001 }
  237:
-            target = 0;
+            var29 = 0;
  239:
-            backup = michal.borderStroke;
-            kiloes = michal.borderStrokeColor;
-            var _closure2_slot1 = tangon;
-            oscard = _closure1_slot4;
-            zuuluu = oscard.useState;
-            option = _closure1_slot0;
-            michal = _closure1_slot2;
-            status = 4;
-            michal = michal[status];
-            option = option.bind(tangon)(michal);
-            michal = option.v4;
-            michal = michal.bind(option)();
-            zuuluu = zuuluu.bind(oscard)(michal);
-            michal = _closure1_slot3;
-            foxtra = 2;
-            zuuluu = michal.bind(tangon)(zuuluu, foxtra);
-            source = 0;
-            echoed = zuuluu[source];
-            michal = 1;
-            michal = zuuluu[michal];
-            _closure2_slot1 = michal;
-            oscard = null;
-            michal = oscard != echoed;
-            romeon = undefined;
-            if(!michal) { _fun00002_ip = 372; continue _fun00001 }
+            var14 = var2.borderStroke;
+            var15 = var2.borderStrokeColor;
+            var _closure2_slot1 = var4;
+            var6 = _closure1_slot4;
+            var3 = var6.useState;
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var30 = 4;
+            var2 = var2[var30];
+            var8 = var8.bind(var4)(var2);
+            var2 = var8.v4;
+            var2 = var2.bind(var8)();
+            var3 = var3.bind(var6)(var2);
+            var2 = _closure1_slot3;
+            var13 = 2;
+            var3 = var2.bind(var4)(var3, var13);
+            var21 = 0;
+            var19 = var3[var21];
+            var2 = 1;
+            var2 = var3[var2];
+            _closure2_slot1 = var2;
+            var6 = null;
+            var2 = var6 != var19;
+            var12 = undefined;
+            if(!var2) { _fun0001_ip = 372; continue _fun0001 }
  343:
-            michal = global;
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            zuuluu = 'url(#';
-            michal = ')';
-            romeon = option.bind(zuuluu)(echoed, michal);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var3 = 'url(#';
+            var2 = ')';
+            var12 = var8.bind(var3)(var19, var2);
  372:
-            michal = target > source;
-            config = undefined;
-            if(!michal) { _fun00002_ip = 408; continue _fun00001 }
+            var2 = var29 > var21;
+            var25 = undefined;
+            if(!var2) { _fun0001_ip = 408; continue _fun0001 }
  381:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[status];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.v4;
-            config = michal.bind(zuuluu)();
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var30];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.v4;
+            var25 = var2.bind(var3)();
  408:
-            michal = oscard != config;
-            yankee = undefined;
-            if(!michal) { _fun00002_ip = 446; continue _fun00001 }
+            var2 = var6 != var25;
+            var11 = undefined;
+            if(!var2) { _fun0001_ip = 446; continue _fun0001 }
  417:
-            michal = global;
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            zuuluu = 'url(#';
-            michal = ')';
-            yankee = option.bind(zuuluu)(config, michal);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var3 = 'url(#';
+            var2 = ')';
+            var11 = var8.bind(var3)(var25, var2);
  446:
-            option = _closure1_slot4;
-            verify = option.useCallback;
-            zuuluu = function() {
-                zuuluu = _closure2_slot1;
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(michal);
-                michal = tangon.v4;
-                michal = michal.bind(tangon)();
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var8 = _closure1_slot4;
+            var9 = var8.useCallback;
+            var3 = function() {
+                var3 = _closure2_slot1;
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.v4;
+                var2 = var2.bind(var4)();
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = new Array(0);
-            vacuum = verify.bind(option)(zuuluu, michal);
-            zuuluu = option.useLayoutEffect;
-            michal = new Array(1);
-            michal[0] = record;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = new Array(0);
+            var23 = var9.bind(var8)(var3, var2);
+            var3 = var8.useLayoutEffect;
+            var2 = new Array(1);
+            var2[0] = var26;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00004_ip = 57; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 57; continue _fun0002 }
  13:
-                    zuuluu = _closure2_slot1;
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 4;
-                    entity = michal[entity];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(entity);
-                    entity = tangon.v4;
-                    entity = entity.bind(tangon)();
-                    entity = zuuluu.bind(michal)(entity);
+                    var3 = _closure2_slot1;
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var1 = var2[var1];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var1);
+                    var1 = var4.v4;
+                    var1 = var1.bind(var4)();
+                    var1 = var3.bind(var2)(var1);
  57:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(option)(entity, michal);
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot1;
-            verify = _closure1_slot2;
-            output = 5;
-            entity = verify[output];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity['style'] = report;
-            entity['height'] = sizing;
-            entity['width'] = sizing;
-            result = _closure1_slot0;
-            report = verify[output];
-            report = result.bind(tangon)(report);
-            option = report.Defs;
-            report = {};
-            verify = verify[output];
-            verify = result.bind(tangon)(verify);
-            result = verify.Mask;
-            verify = {};
-            verify['width'] = sizing;
-            verify['height'] = sizing;
-            verify['id'] = echoed;
-            echoed = sizing / foxtra;
-            if(!(offset !== echoed)) { _fun00002_ip = 667; continue _fun00001 }
+            var1 = var3.bind(var8)(var1, var2);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var17 = 5;
+            var1 = var9[var17];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['style'] = var5;
+            var1['height'] = var16;
+            var1['width'] = var16;
+            var18 = _closure1_slot0;
+            var5 = var9[var17];
+            var5 = var18.bind(var4)(var5);
+            var8 = var5.Defs;
+            var5 = {};
+            var9 = var9[var17];
+            var9 = var18.bind(var4)(var9);
+            var18 = var9.Mask;
+            var9 = {};
+            var9['width'] = var16;
+            var9['height'] = var16;
+            var9['id'] = var19;
+            var19 = var16 / var13;
+            if(!(var10 !== var19)) { _fun0001_ip = 667; continue _fun0001 }
  595:
-            cntext = _closure1_slot6;
-            ctrled = _closure1_slot0;
-            echoed = _closure1_slot2;
-            echoed = echoed[output];
-            echoed = ctrled.bind(tangon)(echoed);
-            ctrled = echoed.Rect;
-            echoed = {'x': 0, 'y': 0};
-            echoed['width'] = sizing;
-            echoed['height'] = sizing;
-            echoed['rx'] = offset;
-            echoed['ry'] = offset;
-            papara = 'white';
-            echoed['fill'] = papara;
-            ctrled = cntext.bind(tangon)(ctrled, echoed);
-            _fun00002_ip = 737; continue _fun00001;
+            var27 = _closure1_slot6;
+            var22 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var17];
+            var19 = var22.bind(var4)(var19);
+            var22 = var19.Rect;
+            var19 = {'x': 0, 'y': 0};
+            var19['width'] = var16;
+            var19['height'] = var16;
+            var19['rx'] = var10;
+            var19['ry'] = var10;
+            var28 = 'white';
+            var19['fill'] = var28;
+            var22 = var27.bind(var4)(var22, var19);
+            _fun0001_ip = 737; continue _fun0001;
  667:
-            papara = _closure1_slot6;
-            cntext = _closure1_slot0;
-            echoed = _closure1_slot2;
-            echoed = echoed[output];
-            echoed = cntext.bind(tangon)(echoed);
-            cntext = echoed.Circle;
-            echoed = {};
-            sierra = sizing / foxtra;
-            echoed['cx'] = sierra;
-            sierra = sizing / foxtra;
-            echoed['cy'] = sierra;
-            sierra = sizing / foxtra;
-            echoed['r'] = sierra;
-            sierra = 'white';
-            echoed['fill'] = sierra;
-            ctrled = papara.bind(tangon)(cntext, echoed);
+            var28 = _closure1_slot6;
+            var27 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var17];
+            var19 = var27.bind(var4)(var19);
+            var27 = var19.Circle;
+            var19 = {};
+            var31 = var16 / var13;
+            var19['cx'] = var31;
+            var31 = var16 / var13;
+            var19['cy'] = var31;
+            var31 = var16 / var13;
+            var19['r'] = var31;
+            var31 = 'white';
+            var19['fill'] = var31;
+            var22 = var28.bind(var4)(var27, var19);
  737:
-            echoed = new Array(6);
-            echoed[0] = ctrled;
-            cntext = variable42 > source;
-            ctrled = null;
-            if(!cntext) { _fun00002_ip = 812; continue _fun00001 }
+            var19 = new Array(6);
+            var19[0] = var22;
+            var27 = var42 > var21;
+            var22 = null;
+            if(!var27) { _fun0001_ip = 812; continue _fun0001 }
  754:
-            sierra = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            cntext['cx'] = variable44;
-            cntext['cy'] = variable43;
-            cntext['r'] = variable42;
-            variable42 = 'black';
-            cntext['fill'] = variable42;
-            ctrled = sierra.bind(tangon)(papara, cntext);
+            var31 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var27['cx'] = var44;
+            var27['cy'] = var43;
+            var27['r'] = var42;
+            var42 = 'black';
+            var27['fill'] = var42;
+            var22 = var31.bind(var4)(var28, var27);
  812:
-            echoed[1] = ctrled;
-            cntext = variable39 > source;
-            ctrled = null;
-            if(!cntext) { _fun00002_ip = 887; continue _fun00001 }
+            var19[1] = var22;
+            var27 = var39 > var21;
+            var22 = null;
+            if(!var27) { _fun0001_ip = 887; continue _fun0001 }
  825:
-            sierra = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            variable41 = sizing - variable41;
-            cntext['cx'] = variable41;
-            cntext['cy'] = variable40;
-            cntext['r'] = variable39;
-            variable39 = 'black';
-            cntext['fill'] = variable39;
-            ctrled = sierra.bind(tangon)(papara, cntext);
+            var31 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var41 = var16 - var41;
+            var27['cx'] = var41;
+            var27['cy'] = var40;
+            var27['r'] = var39;
+            var39 = 'black';
+            var27['fill'] = var39;
+            var22 = var31.bind(var4)(var28, var27);
  887:
-            echoed[2] = ctrled;
-            cntext = variable36 > source;
-            ctrled = null;
-            if(!cntext) { _fun00002_ip = 962; continue _fun00001 }
+            var19[2] = var22;
+            var27 = var36 > var21;
+            var22 = null;
+            if(!var27) { _fun0001_ip = 962; continue _fun0001 }
  900:
-            sierra = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            cntext['cx'] = variable38;
-            variable37 = sizing - variable37;
-            cntext['cy'] = variable37;
-            cntext['r'] = variable36;
-            variable36 = 'black';
-            cntext['fill'] = variable36;
-            ctrled = sierra.bind(tangon)(papara, cntext);
+            var31 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var27['cx'] = var38;
+            var37 = var16 - var37;
+            var27['cy'] = var37;
+            var27['r'] = var36;
+            var36 = 'black';
+            var27['fill'] = var36;
+            var22 = var31.bind(var4)(var28, var27);
  962:
-            echoed[3] = ctrled;
-            cntext = whisks > source;
-            ctrled = null;
-            if(!cntext) { _fun00002_ip = 1041; continue _fun00001 }
+            var19[3] = var22;
+            var27 = var33 > var21;
+            var22 = null;
+            if(!var27) { _fun0001_ip = 1041; continue _fun0001 }
  975:
-            sierra = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            quebec = sizing - quebec;
-            cntext['cx'] = quebec;
-            equals = sizing - equals;
-            cntext['cy'] = equals;
-            cntext['r'] = whisks;
-            whisks = 'black';
-            cntext['fill'] = whisks;
-            ctrled = sierra.bind(tangon)(papara, cntext);
+            var31 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var35 = var16 - var35;
+            var27['cx'] = var35;
+            var34 = var16 - var34;
+            var27['cy'] = var34;
+            var27['r'] = var33;
+            var33 = 'black';
+            var27['fill'] = var33;
+            var22 = var31.bind(var4)(var28, var27);
  1041:
-            echoed[4] = ctrled;
-            ctrled = limora > source;
-            source = null;
-            if(!ctrled) { _fun00002_ip = 1242; continue _fun00001 }
+            var19[4] = var22;
+            var22 = var32 > var21;
+            var21 = null;
+            if(!var22) { _fun0001_ip = 1242; continue _fun0001 }
  1057:
-            ctrled = sizing / foxtra;
-            if(!(offset !== ctrled)) { _fun00002_ip = 1169; continue _fun00001 }
+            var22 = var16 / var13;
+            if(!(var10 !== var22)) { _fun0001_ip = 1169; continue _fun0001 }
  1065:
-            papara = _closure1_slot6;
-            cntext = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            ctrled = ctrled[output];
-            ctrled = cntext.bind(tangon)(ctrled);
-            cntext = ctrled.Rect;
-            ctrled = {};
-            sierra = sizing - limora;
-            sierra = sierra / foxtra;
-            ctrled['x'] = sierra;
-            sierra = sizing - limora;
-            sierra = sierra / foxtra;
-            ctrled['y'] = sierra;
-            ctrled['width'] = limora;
-            ctrled['height'] = limora;
-            sierra = limora / sizing;
-            sierra = offset * sierra;
-            ctrled['rx'] = sierra;
-            sierra = limora / sizing;
-            sierra = offset * sierra;
-            ctrled['ry'] = sierra;
-            sierra = 'black';
-            ctrled['fill'] = sierra;
-            ctrled = papara.bind(tangon)(cntext, ctrled);
-            _fun00002_ip = 1239; continue _fun00001;
+            var28 = _closure1_slot6;
+            var27 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var22 = var22[var17];
+            var22 = var27.bind(var4)(var22);
+            var27 = var22.Rect;
+            var22 = {};
+            var31 = var16 - var32;
+            var31 = var31 / var13;
+            var22['x'] = var31;
+            var31 = var16 - var32;
+            var31 = var31 / var13;
+            var22['y'] = var31;
+            var22['width'] = var32;
+            var22['height'] = var32;
+            var31 = var32 / var16;
+            var31 = var10 * var31;
+            var22['rx'] = var31;
+            var31 = var32 / var16;
+            var31 = var10 * var31;
+            var22['ry'] = var31;
+            var31 = 'black';
+            var22['fill'] = var31;
+            var22 = var28.bind(var4)(var27, var22);
+            _fun0001_ip = 1239; continue _fun0001;
  1169:
-            sierra = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            whisks = sizing / foxtra;
-            cntext['cx'] = whisks;
-            whisks = sizing / foxtra;
-            cntext['cy'] = whisks;
-            limora = limora / foxtra;
-            cntext['r'] = limora;
-            limora = 'black';
-            cntext['fill'] = limora;
-            ctrled = sierra.bind(tangon)(papara, cntext);
+            var31 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var33 = var16 / var13;
+            var27['cx'] = var33;
+            var33 = var16 / var13;
+            var27['cy'] = var33;
+            var32 = var32 / var13;
+            var27['r'] = var32;
+            var32 = 'black';
+            var27['fill'] = var32;
+            var22 = var31.bind(var4)(var28, var27);
  1239:
-            source = ctrled;
+            var21 = var22;
  1242:
-            echoed[5] = source;
-            verify['children'] = echoed;
-            result = zuuluu.bind(tangon)(result, verify);
-            verify = new Array(2);
-            verify[0] = result;
-            echoed = oscard != config;
-            result = null;
-            if(!echoed) { _fun00002_ip = 1517; continue _fun00001 }
+            var19[5] = var21;
+            var9['children'] = var19;
+            var18 = var3.bind(var4)(var18, var9);
+            var9 = new Array(2);
+            var9[0] = var18;
+            var19 = var6 != var25;
+            var18 = null;
+            if(!var19) { _fun0001_ip = 1517; continue _fun0001 }
  1276:
-            ctrled = _closure1_slot6;
-            source = _closure1_slot0;
-            echoed = _closure1_slot2;
-            echoed = echoed[output];
-            echoed = source.bind(tangon)(echoed);
-            source = echoed.ClipPath;
-            echoed = {};
-            echoed['id'] = config;
-            config = sizing / foxtra;
-            if(!(offset !== config)) { _fun00002_ip = 1437; continue _fun00001 }
+            var22 = _closure1_slot6;
+            var21 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var17];
+            var19 = var21.bind(var4)(var19);
+            var21 = var19.ClipPath;
+            var19 = {};
+            var19['id'] = var25;
+            var25 = var16 / var13;
+            if(!(var10 !== var25)) { _fun0001_ip = 1437; continue _fun0001 }
  1317:
-            papara = _closure1_slot6;
-            cntext = _closure1_slot0;
-            config = _closure1_slot2;
-            config = config[output];
-            config = cntext.bind(tangon)(config);
-            cntext = config.Rect;
-            config = {};
-            config['x'] = target;
-            config['y'] = target;
-            sierra = foxtra * target;
-            sierra = sizing - sierra;
-            config['width'] = sierra;
-            sierra = foxtra * target;
-            sierra = sizing - sierra;
-            config['height'] = sierra;
-            sierra = foxtra * target;
-            sierra = sizing - sierra;
-            sierra = sierra / sizing;
-            sierra = offset * sierra;
-            config['rx'] = sierra;
-            target = foxtra * target;
-            target = sizing - target;
-            target = target / sizing;
-            target = offset * target;
-            config['ry'] = target;
-            target = 'white';
-            config['fill'] = target;
-            config = papara.bind(tangon)(cntext, config);
-            _fun00002_ip = 1507; continue _fun00001;
+            var28 = _closure1_slot6;
+            var27 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var25 = var25[var17];
+            var25 = var27.bind(var4)(var25);
+            var27 = var25.Rect;
+            var25 = {};
+            var25['x'] = var29;
+            var25['y'] = var29;
+            var31 = var13 * var29;
+            var31 = var16 - var31;
+            var25['width'] = var31;
+            var31 = var13 * var29;
+            var31 = var16 - var31;
+            var25['height'] = var31;
+            var31 = var13 * var29;
+            var31 = var16 - var31;
+            var31 = var31 / var16;
+            var31 = var10 * var31;
+            var25['rx'] = var31;
+            var29 = var13 * var29;
+            var29 = var16 - var29;
+            var29 = var29 / var16;
+            var29 = var10 * var29;
+            var25['ry'] = var29;
+            var29 = 'white';
+            var25['fill'] = var29;
+            var25 = var28.bind(var4)(var27, var25);
+            _fun0001_ip = 1507; continue _fun0001;
  1437:
-            target = _closure1_slot6;
-            papara = _closure1_slot0;
-            cntext = _closure1_slot2;
-            cntext = cntext[output];
-            cntext = papara.bind(tangon)(cntext);
-            papara = cntext.Circle;
-            cntext = {};
-            sierra = sizing / foxtra;
-            cntext['cx'] = sierra;
-            sierra = sizing / foxtra;
-            cntext['cy'] = sierra;
-            status = sizing / status;
-            cntext['r'] = status;
-            status = 'white';
-            cntext['fill'] = status;
-            config = target.bind(tangon)(papara, cntext);
+            var29 = _closure1_slot6;
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var17];
+            var27 = var28.bind(var4)(var27);
+            var28 = var27.Circle;
+            var27 = {};
+            var31 = var16 / var13;
+            var27['cx'] = var31;
+            var31 = var16 / var13;
+            var27['cy'] = var31;
+            var30 = var16 / var30;
+            var27['r'] = var30;
+            var30 = 'white';
+            var27['fill'] = var30;
+            var25 = var29.bind(var4)(var28, var27);
  1507:
-            echoed['children'] = config;
-            result = ctrled.bind(tangon)(source, echoed);
+            var19['children'] = var25;
+            var18 = var22.bind(var4)(var21, var19);
  1517:
-            verify[1] = result;
-            report['children'] = verify;
-            option = zuuluu.bind(tangon)(option, report);
-            report = new Array(4);
-            report[0] = option;
-            verify = oscard != update;
-            option = null;
-            if(!verify) { _fun00002_ip = 1606; continue _fun00001 }
+            var9[1] = var18;
+            var5['children'] = var9;
+            var8 = var3.bind(var4)(var8, var5);
+            var5 = new Array(4);
+            var5[0] = var8;
+            var9 = var6 != var20;
+            var8 = null;
+            if(!var9) { _fun0001_ip = 1606; continue _fun0001 }
  1548:
-            echoed = _closure1_slot6;
-            result = _closure1_slot0;
-            verify = _closure1_slot2;
-            verify = verify[output];
-            verify = result.bind(tangon)(verify);
-            result = verify.Rect;
-            verify = {};
-            verify['height'] = sizing;
-            verify['width'] = sizing;
-            verify['fill'] = update;
-            verify['mask'] = romeon;
-            verify['clipPath'] = yankee;
-            option = echoed.bind(tangon)(result, verify);
+            var19 = _closure1_slot6;
+            var18 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var9 = var9[var17];
+            var9 = var18.bind(var4)(var9);
+            var18 = var9.Rect;
+            var9 = {};
+            var9['height'] = var16;
+            var9['width'] = var16;
+            var9['fill'] = var20;
+            var9['mask'] = var12;
+            var9['clipPath'] = var11;
+            var8 = var19.bind(var4)(var18, var9);
  1606:
-            report[1] = option;
-            verify = oscard != sequen;
-            option = null;
-            if(!verify) { _fun00002_ip = 1818; continue _fun00001 }
+            var5[1] = var8;
+            var9 = var6 != var24;
+            var8 = null;
+            if(!var9) { _fun0001_ip = 1818; continue _fun0001 }
  1622:
-            result = 'number';
-            verify = typeof sequen;
-            if(!(result === verify)) { _fun00002_ip = 1637; continue _fun00001 }
+            var18 = 'number';
+            var9 = typeof var24;
+            if(!(var18 === var9)) { _fun0001_ip = 1637; continue _fun0001 }
  1633:
-            if(!(oscard == record)) { _fun00002_ip = 1718; continue _fun00001 }
+            if(!(var6 == var26)) { _fun0001_ip = 1718; continue _fun0001 }
  1637:
-            echoed = _closure1_slot6;
-            result = _closure1_slot0;
-            ctrled = _closure1_slot2;
-            verify = ctrled[output];
-            verify = result.bind(tangon)(verify);
-            result = verify.Image;
-            verify = {};
-            verify['height'] = sizing;
-            verify['width'] = sizing;
-            source = _closure1_slot1;
-            update = 6;
-            update = ctrled[update];
-            update = source.bind(tangon)(update);
-            update = update.bind(tangon)(sequen);
-            verify['href'] = update;
-            verify['mask'] = romeon;
-            verify['clipPath'] = yankee;
-            verify = echoed.bind(tangon)(result, verify);
-            _fun00002_ip = 1815; continue _fun00001;
+            var19 = _closure1_slot6;
+            var18 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var9 = var22[var17];
+            var9 = var18.bind(var4)(var9);
+            var18 = var9.Image;
+            var9 = {};
+            var9['height'] = var16;
+            var9['width'] = var16;
+            var21 = _closure1_slot1;
+            var20 = 6;
+            var20 = var22[var20];
+            var20 = var21.bind(var4)(var20);
+            var20 = var20.bind(var4)(var24);
+            var9['href'] = var20;
+            var9['mask'] = var12;
+            var9['clipPath'] = var11;
+            var9 = var19.bind(var4)(var18, var9);
+            _fun0001_ip = 1815; continue _fun0001;
  1718:
-            update = _closure1_slot6;
-            echoed = _closure1_slot0;
-            result = _closure1_slot2;
-            result = result[output];
-            result = echoed.bind(tangon)(result);
-            echoed = result.ForeignObject;
-            result = {};
-            result['height'] = sizing;
-            result['width'] = sizing;
-            result['mask'] = romeon;
-            result['clipPath'] = yankee;
-            ctrled = _closure1_slot5;
-            source = {};
-            config = {};
-            config['width'] = sizing;
-            config['height'] = sizing;
-            config['tintColor'] = record;
-            source['style'] = config;
-            source['source'] = sequen;
-            source['onLoad'] = vacuum;
-            source = update.bind(tangon)(ctrled, source);
-            result['children'] = source;
-            verify = update.bind(tangon)(echoed, result);
+            var20 = _closure1_slot6;
+            var19 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var18 = var18[var17];
+            var18 = var19.bind(var4)(var18);
+            var19 = var18.ForeignObject;
+            var18 = {};
+            var18['height'] = var16;
+            var18['width'] = var16;
+            var18['mask'] = var12;
+            var18['clipPath'] = var11;
+            var22 = _closure1_slot5;
+            var21 = {};
+            var25 = {};
+            var25['width'] = var16;
+            var25['height'] = var16;
+            var25['tintColor'] = var26;
+            var21['style'] = var25;
+            var21['source'] = var24;
+            var21['onLoad'] = var23;
+            var21 = var20.bind(var4)(var22, var21);
+            var18['children'] = var21;
+            var9 = var20.bind(var4)(var19, var18);
  1815:
-            option = verify;
+            var8 = var9;
  1818:
-            report[2] = option;
-            option = oscard != backup;
-            oscard = null;
-            if(!option) { _fun00002_ip = 1917; continue _fun00001 }
+            var5[2] = var8;
+            var8 = var6 != var14;
+            var6 = null;
+            if(!var8) { _fun0001_ip = 1917; continue _fun0001 }
  1831:
-            verify = _closure1_slot6;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            golfie = golfie[output];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.Rect;
-            golfie = {};
-            golfie['height'] = sizing;
-            golfie['width'] = sizing;
-            sizing = 'transparent';
-            golfie['fill'] = sizing;
-            golfie['stroke'] = kiloes;
-            foxtra = foxtra * backup;
-            golfie['strokeWidth'] = foxtra;
-            golfie['mask'] = romeon;
-            golfie['clipPath'] = yankee;
-            golfie['rx'] = offset;
-            golfie['ry'] = offset;
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var7 = var7[var17];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.Rect;
+            var7 = {};
+            var7['height'] = var16;
+            var7['width'] = var16;
+            var16 = 'transparent';
+            var7['fill'] = var16;
+            var7['stroke'] = var15;
+            var13 = var13 * var14;
+            var7['strokeWidth'] = var13;
+            var7['mask'] = var12;
+            var7['clipPath'] = var11;
+            var7['rx'] = var10;
+            var7['ry'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
  1917:
-            report[3] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[3] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/launchpad/native/shared/CutoutImage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/launchpad/native/shared/CutoutImage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

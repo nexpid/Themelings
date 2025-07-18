@@ -1,77 +1,77 @@
 // discord_common/js/packages/media-engine/native/ui/Camera.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = oscard;
-    michal = function(argFoo) { // Original name: Camera
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var2 = function Camera(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.disabled;
-            golfie = entity.deviceId;
-            oscard = entity.width;
-            zuuluu = entity.height;
-            report = _closure1_slot2;
-            if(michal) { _fun00002_ip = 85; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.disabled;
+            var7 = var1.deviceId;
+            var6 = var1.width;
+            var3 = var1.height;
+            var5 = _closure1_slot2;
+            if(var2) { _fun0001_ip = 85; continue _fun0001 }
  34:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 2;
-            entity = tangon[entity];
-            tangon = undefined;
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity['streamId'] = golfie;
-            golfie = {};
-            golfie['width'] = oscard;
-            golfie['height'] = zuuluu;
-            entity['style'] = golfie;
-            entity = report.bind(tangon)(michal, entity);
-            _fun00002_ip = 124; continue _fun00001;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['streamId'] = var7;
+            var7 = {};
+            var7['width'] = var6;
+            var7['height'] = var3;
+            var1['style'] = var7;
+            var1 = var5.bind(var4)(var2, var1);
+            _fun0001_ip = 124; continue _fun0001;
  85:
-            tangon = {};
-            michal = 'media-engine-video';
-            tangon['className'] = michal;
-            michal = {};
-            michal['width'] = oscard;
-            michal['height'] = zuuluu;
-            tangon['style'] = michal;
-            zuuluu = undefined;
-            michal = 'div';
-            entity = report.bind(zuuluu)(michal, tangon);
+            var4 = {};
+            var2 = 'media-engine-video';
+            var4['className'] = var2;
+            var2 = {};
+            var2['width'] = var6;
+            var2['height'] = var3;
+            var4['style'] = var2;
+            var3 = undefined;
+            var2 = 'div';
+            var1 = var5.bind(var3)(var2, var4);
  124:
-            return entity;
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = {'disabled': false, 'width': 320, 'height': 180};
-    michal['defaultProps'] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/media-engine/native/ui/Camera.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = {'disabled': false, 'width': 320, 'height': 180};
+    var2['defaultProps'] = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/media-engine/native/ui/Camera.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

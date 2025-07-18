@@ -1,257 +1,257 @@
 // app/modules/collectibles/native/useHandleBuyNow.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'useHandleBuyNow';
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot6 = tangon;
-    michal = function(argFoo) { // Original name: useHandleBuyNow
-        entity = argFoo;
-        offset = entity.product;
-        var _closure2_slot0 = offset;
-        option = entity.analyticsLocations;
-        golfie = entity.onBuy;
-        var _closure2_slot1 = golfie;
-        verify = undefined;
-        var _closure2_slot2 = verify;
-        var _closure2_slot4 = verify;
-        entity = function() { // Original name: _onPurchaseComplete
-            tangon = undefined;
-            entity = undefined;
-            zuuluu = _closure1_slot3;
-            michal = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var8 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 'useHandleBuyNow';
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot6 = var4;
+    var2 = function useHandleBuyNow(arg1) {
+        var1 = arg1;
+        var10 = var1.product;
+        var _closure2_slot0 = var10;
+        var8 = var1.analyticsLocations;
+        var7 = var1.onBuy;
+        var _closure2_slot1 = var7;
+        var9 = undefined;
+        var _closure2_slot2 = var9;
+        var _closure2_slot4 = var9;
+        var1 = function _onPurchaseComplete() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot3;
+            var2 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00002_ip = 168; continue _fun00001 }
+                        if(var2) { _fun0001_ip = 168; continue _fun0001 }
  10:
-                        report = _closure1_slot0;
-                        zuuluu = _closure1_slot2;
-                        michal = 6;
-                        michal = zuuluu[michal];
-                        zuuluu = undefined;
-                        oscard = report.bind(zuuluu)(michal);
-                        report = oscard.fetchCollectiblesPurchases;
-                        michal = {};
-                        option = _closure2_slot2;
-                        michal['variantsReturnStyle'] = option;
-                        option = 'useHandleBuyNow';
-                        michal['location'] = option;
-                        michal = report.bind(oscard)(michal);
+                        var5 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 6;
+                        var2 = var3[var2];
+                        var3 = undefined;
+                        var6 = var5.bind(var3)(var2);
+                        var5 = var6.fetchCollectiblesPurchases;
+                        var2 = {};
+                        var8 = _closure2_slot2;
+                        var2['variantsReturnStyle'] = var8;
+                        var8 = 'useHandleBuyNow';
+                        var2['location'] = var8;
+                        var2 = var5.bind(var6)(var2);
                         SaveGenerator(address=74);
  72:
-                        return michal;
+                        return var2;
  74:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00002_ip = 165; continue _fun00001 }
+                        if(var5) { _fun0001_ip = 165; continue _fun0001 }
  80:
-                        oscard = _closure2_slot4;
-                        report = false;
-                        report = oscard.bind(zuuluu)(report);
-                        report = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        tangon = 7;
-                        tangon = oscard[tangon];
-                        option = report.bind(zuuluu)(tangon);
-                        tangon = option.hideActionSheet;
-                        tangon = tangon.bind(option)();
-                        tangon = 8;
-                        tangon = oscard[tangon];
-                        oscard = report.bind(zuuluu)(tangon);
-                        report = oscard.open;
-                        tangon = {};
-                        golfie = _closure2_slot0;
-                        tangon['product'] = golfie;
-                        golfie = true;
-                        tangon['useCategoryImage'] = golfie;
-                        tangon = report.bind(oscard)(tangon);
-                        return zuuluu;
+                        var6 = _closure2_slot4;
+                        var5 = false;
+                        var5 = var6.bind(var3)(var5);
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 7;
+                        var4 = var6[var4];
+                        var8 = var5.bind(var3)(var4);
+                        var4 = var8.hideActionSheet;
+                        var4 = var4.bind(var8)();
+                        var4 = 8;
+                        var4 = var6[var4];
+                        var6 = var5.bind(var3)(var4);
+                        var5 = var6.open;
+                        var4 = {};
+                        var7 = _closure2_slot0;
+                        var4['product'] = var7;
+                        var7 = true;
+                        var4['useCategoryImage'] = var7;
+                        var4 = var5.bind(var6)(var4);
+                        return var3;
  165:
-                        return michal;
+                        return var2;
  168:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = zuuluu.bind(tangon)(michal);
-            _closure2_slot6 = tangon;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot6 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        var _closure2_slot6 = entity;
-        michal = _closure1_slot0;
-        yankee = _closure1_slot2;
-        entity = 4;
-        entity = yankee[entity];
-        report = michal.bind(verify)(entity);
-        michal = report.useShopVariantsReturnStyle;
-        entity = 'useHandleBuyNow';
-        entity = michal.bind(report)(entity);
-        _closure2_slot2 = entity;
-        oscard = _closure1_slot5;
-        michal = oscard.useState;
-        entity = false;
-        report = michal.bind(oscard)(entity);
-        michal = _closure1_slot4;
-        entity = 2;
-        report = michal.bind(verify)(report, entity);
-        entity = 0;
-        michal = report[entity];
-        var _closure2_slot3 = michal;
-        entity = 1;
-        entity = report[entity];
-        _closure2_slot4 = entity;
-        report = _closure1_slot1;
-        entity = 5;
-        entity = yankee[entity];
-        report = report.bind(verify)(entity);
-        entity = {};
-        entity['product'] = offset;
-        entity['analyticsLocations'] = option;
-        option = function() { // Original name: onPurchaseComplete
-            entity = undefined;
-            tangon = _closure2_slot6;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var _closure2_slot6 = var1;
+        var2 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var1 = 4;
+        var1 = var11[var1];
+        var5 = var2.bind(var9)(var1);
+        var2 = var5.useShopVariantsReturnStyle;
+        var1 = 'useHandleBuyNow';
+        var1 = var2.bind(var5)(var1);
+        _closure2_slot2 = var1;
+        var6 = _closure1_slot5;
+        var2 = var6.useState;
+        var1 = false;
+        var5 = var2.bind(var6)(var1);
+        var2 = _closure1_slot4;
+        var1 = 2;
+        var5 = var2.bind(var9)(var5, var1);
+        var1 = 0;
+        var2 = var5[var1];
+        var _closure2_slot3 = var2;
+        var1 = 1;
+        var1 = var5[var1];
+        _closure2_slot4 = var1;
+        var5 = _closure1_slot1;
+        var1 = 5;
+        var1 = var11[var1];
+        var5 = var5.bind(var9)(var1);
+        var1 = {};
+        var1['product'] = var10;
+        var1['analyticsLocations'] = var8;
+        var8 = function onPurchaseComplete() {
+            var1 = undefined;
+            var4 = _closure2_slot6;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        entity['onPurchaseComplete'] = option;
-        option = function() { // Original name: onPurchaseError
-            zuuluu = _closure2_slot4;
-            entity = undefined;
-            michal = false;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+        var1['onPurchaseComplete'] = var8;
+        var8 = function onPurchaseError() {
+            var3 = _closure2_slot4;
+            var1 = undefined;
+            var2 = false;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity['onPurchaseError'] = option;
-        option = function() { // Original name: onPurchasePending
-            entity = undefined;
-            return entity;
+        var1['onPurchaseError'] = var8;
+        var8 = function onPurchasePending() {
+            var1 = undefined;
+            return var1;
         };
-        entity['onPurchasePending'] = option;
-        option = report.bind(verify)(entity);
-        var _closure2_slot5 = option;
-        entity = {};
-        report = oscard.useCallback;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['onPurchasePending'] = var8;
+        var8 = var5.bind(var9)(var1);
+        var _closure2_slot5 = var8;
+        var1 = {};
+        var5 = var6.useCallback;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 141; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 141; continue _fun0002 }
  10: // try_start_0
-                    michal = _closure2_slot3;
-                    if(michal) { _fun00004_ip = 74; continue _fun00003 }
+                    var2 = _closure2_slot3;
+                    if(var2) { _fun0002_ip = 74; continue _fun0002 }
  20:
-                    report = _closure2_slot4;
-                    tangon = undefined;
-                    michal = true;
-                    michal = report.bind(tangon)(michal);
-                    michal = _closure2_slot5;
-                    michal = michal.bind(tangon)();
+                    var5 = _closure2_slot4;
+                    var4 = undefined;
+                    var2 = true;
+                    var2 = var5.bind(var4)(var2);
+                    var2 = _closure2_slot5;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=45);
  43:
-                    return michal;
+                    return var2;
  45:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 71; continue _fun00003 }
+                    if(var5) { _fun0002_ip = 71; continue _fun0002 }
  51:
-                    oscard = _closure2_slot1;
-                    report = null;
-                    if(!(report != oscard)) { _fun00004_ip = 74; continue _fun00003 }
+                    var6 = _closure2_slot1;
+                    var5 = null;
+                    if(!(var5 != var6)) { _fun0002_ip = 74; continue _fun0002 }
  61:
-                    zuuluu = _closure2_slot1;
-                    zuuluu = zuuluu.bind(tangon)();
-                    _fun00004_ip = 74; continue _fun00003;
+                    var3 = _closure2_slot1;
+                    var3 = var3.bind(var4)();
+                    _fun0002_ip = 74; continue _fun0002;
  71: // try_end0
-                    return michal;
+                    return var2;
  74:
-                    _fun00004_ip = 136; continue _fun00003;
+                    _fun0002_ip = 136; continue _fun0002;
  76: // catch_target0
                     CatchBlockStart(arg_register=6);
-                    tangon = _closure1_slot6;
-                    zuuluu = tangon.error;
-                    michal = global;
-                    oscard = michal.JSON;
-                    report = oscard.stringify;
-                    oscard = report.bind(oscard)(golfie);
-                    michal = michal.HermesInternal;
-                    report = michal.concat;
-                    michal = 'Error running purchase: ';
-                    michal = report.bind(michal)(oscard);
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot6;
+                    var3 = var4.error;
+                    var2 = global;
+                    var6 = var2.JSON;
+                    var5 = var6.stringify;
+                    var6 = var5.bind(var6)(var7);
+                    var2 = var2.HermesInternal;
+                    var5 = var2.concat;
+                    var2 = 'Error running purchase: ';
+                    var2 = var5.bind(var2)(var6);
+                    var2 = var3.bind(var4)(var2);
  136:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  141:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(verify)(zuuluu);
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = michal;
-        zuuluu[2] = golfie;
-        zuuluu = report.bind(oscard)(tangon, zuuluu);
-        entity['handleBuyNow'] = zuuluu;
-        entity['isBuying'] = michal;
-        return entity;
+        var4 = var4.bind(var9)(var3);
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var2;
+        var3[2] = var7;
+        var3 = var5.bind(var6)(var4, var3);
+        var1['handleBuyNow'] = var3;
+        var1['isBuying'] = var2;
+        return var1;
     };
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/native/useHandleBuyNow.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    zuuluu['useHandleBuyNow'] = michal;
-    return entity;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/collectibles/native/useHandleBuyNow.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    var3['useHandleBuyNow'] = var2;
+    return var1;
 })();

@@ -1,677 +1,677 @@
 // app/modules/pomelo/PomeloActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.AnalyticEvents;
-    var _closure1_slot4 = golfie;
-    michal = michal.Endpoints;
-    var _closure1_slot5 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = {};
-    golfie = function() { // Original name: resetSuggestions
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.dispatch;
-        entity = {};
-        tangon = 'POMELO_SUGGESTIONS_RESET';
-        entity['type'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.AnalyticEvents;
+    var _closure1_slot4 = var7;
+    var2 = var2.Endpoints;
+    var _closure1_slot5 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = {};
+    var7 = function resetSuggestions() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'POMELO_SUGGESTIONS_RESET';
+        var1['type'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['resetSuggestions'] = golfie;
-    golfie = function(argFoo) { // Original name: fetchSuggestionsRegistration
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['resetSuggestions'] = var7;
+    var7 = function fetchSuggestionsRegistration(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = arguments[1];
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            michal = undefined;
-            if(!(zuuluu === michal)) { _fun00002_ip = 24; continue _fun00001 }
+            var3 = arguments[1];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0001_ip = 24; continue _fun0001 }
  18:
-            zuuluu = 1500;
+            var3 = 1500;
  24:
-            var _closure2_slot1 = zuuluu;
-            zuuluu = _closure1_slot3;
-            entity = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var _closure2_slot1 = var3;
+            var3 = _closure1_slot3;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 289; continue _fun00003 }
+                        if(var2) { _fun0002_ip = 289; continue _fun0002 }
  10:
-                        michal = undefined;
-                        offset = undefined;
-                        option = undefined;
-                        report = _closure1_slot1;
-                        zuuluu = _closure1_slot2;
-                        oscard = 4;
-                        zuuluu = zuuluu[oscard];
-                        golfie = report.bind(michal)(zuuluu);
-                        report = golfie.dispatch;
-                        zuuluu = {};
-                        verify = 'POMELO_SUGGESTIONS_RESET';
-                        zuuluu['type'] = verify;
-                        zuuluu = report.bind(golfie)(zuuluu);
+                        var2 = undefined;
+                        var10 = undefined;
+                        var8 = undefined;
+                        var5 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var6 = 4;
+                        var3 = var3[var6];
+                        var7 = var5.bind(var2)(var3);
+                        var5 = var7.dispatch;
+                        var3 = {};
+                        var9 = 'POMELO_SUGGESTIONS_RESET';
+                        var3['type'] = var9;
+                        var3 = var5.bind(var7)(var3);
  61: // try_start_0
-                        report = _closure1_slot0;
-                        golfie = _closure1_slot2;
-                        zuuluu = 5;
-                        zuuluu = golfie[zuuluu];
-                        zuuluu = report.bind(michal)(zuuluu);
-                        yankee = zuuluu.HTTP;
-                        report = yankee.get;
-                        zuuluu = {};
-                        golfie = _closure1_slot5;
-                        golfie = golfie.POMELO_SUGGESTIONS_UNAUTHED;
-                        zuuluu['url'] = golfie;
-                        romeon = _closure2_slot0;
-                        verify = null;
-                        foxtra = verify == romeon;
-                        romeon = undefined;
-                        if(foxtra) { _fun00004_ip = 139; continue _fun00003 }
+                        var5 = _closure1_slot0;
+                        var7 = _closure1_slot2;
+                        var3 = 5;
+                        var3 = var7[var3];
+                        var3 = var5.bind(var2)(var3);
+                        var11 = var3.HTTP;
+                        var5 = var11.get;
+                        var3 = {};
+                        var7 = _closure1_slot5;
+                        var7 = var7.POMELO_SUGGESTIONS_UNAUTHED;
+                        var3['url'] = var7;
+                        var12 = _closure2_slot0;
+                        var9 = null;
+                        var13 = var9 == var12;
+                        var12 = undefined;
+                        if(var13) { _fun0002_ip = 139; continue _fun0002 }
  125:
-                        foxtra = {};
-                        backup = _closure2_slot0;
-                        foxtra['global_name'] = backup;
-                        romeon = foxtra;
+                        var13 = {};
+                        var14 = _closure2_slot0;
+                        var13['global_name'] = var14;
+                        var12 = var13;
  139:
-                        zuuluu['query'] = romeon;
-                        romeon = _closure2_slot1;
-                        zuuluu['timeout'] = romeon;
-                        romeon = true;
-                        zuuluu['rejectWithError'] = romeon;
-                        zuuluu['failImmediatelyWhenRateLimited'] = romeon;
-                        zuuluu = report.bind(yankee)(zuuluu);
+                        var3['query'] = var12;
+                        var12 = _closure2_slot1;
+                        var3['timeout'] = var12;
+                        var12 = true;
+                        var3['rejectWithError'] = var12;
+                        var3['failImmediatelyWhenRateLimited'] = var12;
+                        var3 = var5.bind(var11)(var3);
                         SaveGenerator(address=172);
  170:
-                        return zuuluu;
+                        return var3;
  172:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 281; continue _fun00003 }
+                        if(var5) { _fun0002_ip = 281; continue _fun0002 }
  178:
-                        option = zuuluu;
-                        report = zuuluu.ok;
-                        if(!report) { _fun00004_ip = 219; continue _fun00003 }
+                        var8 = var3;
+                        var5 = var3.ok;
+                        if(!var5) { _fun0002_ip = 219; continue _fun0002 }
  190:
-                        report = option;
-                        report = report.body;
-                        offset = report;
-                        yankee = verify == report;
-                        report = undefined;
-                        if(yankee) { _fun00004_ip = 215; continue _fun00003 }
+                        var5 = var8;
+                        var5 = var5.body;
+                        var10 = var5;
+                        var11 = var9 == var5;
+                        var5 = undefined;
+                        if(var11) { _fun0002_ip = 215; continue _fun0002 }
  210:
-                        report = offset.username;
+                        var5 = var10.username;
  215:
-                        if(!(verify == report)) { _fun00004_ip = 221; continue _fun00003 }
+                        if(!(var9 == var5)) { _fun0002_ip = 221; continue _fun0002 }
  219: // try_end0
-                        _fun00004_ip = 286; continue _fun00003;
+                        _fun0002_ip = 286; continue _fun0002;
  221: // try_start_1
-                        report = _closure1_slot1;
-                        tangon = _closure1_slot2;
-                        tangon = tangon[oscard];
-                        oscard = report.bind(michal)(tangon);
-                        report = oscard.dispatch;
-                        tangon = {};
-                        verify = 'POMELO_REGISTRATION_SUGGESTIONS_SUCCESS';
-                        tangon['type'] = verify;
-                        option = option.body;
-                        tangon['suggestion'] = option;
-                        golfie = _closure2_slot0;
-                        tangon['source'] = golfie;
-                        tangon = report.bind(oscard)(tangon);
+                        var5 = _closure1_slot1;
+                        var4 = _closure1_slot2;
+                        var4 = var4[var6];
+                        var6 = var5.bind(var2)(var4);
+                        var5 = var6.dispatch;
+                        var4 = {};
+                        var9 = 'POMELO_REGISTRATION_SUGGESTIONS_SUCCESS';
+                        var4['type'] = var9;
+                        var8 = var8.body;
+                        var4['suggestion'] = var8;
+                        var7 = _closure2_slot0;
+                        var4['source'] = var7;
+                        var4 = var5.bind(var6)(var4);
  278: // try_end1
-                        return tangon;
+                        return var4;
  281:
-                        return zuuluu;
+                        return var3;
  284: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=2);
  286:
-                        return michal;
+                        return var2;
  289:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = zuuluu.bind(michal)(entity);
-            entity = entity.bind(michal)();
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    michal['fetchSuggestionsRegistration'] = golfie;
-    golfie = function(argFoo) { // Original name: fetchSuggestions
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['fetchSuggestionsRegistration'] = var7;
+    var7 = function fetchSuggestions(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 279; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 279; continue _fun0003 }
  10:
-                    michal = undefined;
-                    verify = undefined;
-                    golfie = undefined;
-                    report = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    zuuluu = 6;
-                    zuuluu = oscard[zuuluu];
-                    report = report.bind(michal)(zuuluu);
-                    zuuluu = report.isInPomeloSuggestionsExperiment;
-                    zuuluu = zuuluu.bind(report)();
-                    if(!zuuluu) { _fun00006_ip = 276; continue _fun00005 }
+                    var2 = undefined;
+                    var9 = undefined;
+                    var7 = undefined;
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var6[var3];
+                    var5 = var5.bind(var2)(var3);
+                    var3 = var5.isInPomeloSuggestionsExperiment;
+                    var3 = var3.bind(var5)();
+                    if(!var3) { _fun0003_ip = 276; continue _fun0003 }
  55: // try_start_0
-                    report = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 4;
-                    zuuluu = option[oscard];
-                    yankee = report.bind(michal)(zuuluu);
-                    report = yankee.dispatch;
-                    offset = true;
-                    zuuluu = {'type': 'POMELO_SUGGESTIONS_FETCH', 'usernameSuggestionLoading': true};
-                    zuuluu = report.bind(yankee)(zuuluu);
-                    report = _closure1_slot0;
-                    zuuluu = 5;
-                    zuuluu = option[zuuluu];
-                    zuuluu = report.bind(michal)(zuuluu);
-                    option = zuuluu.HTTP;
-                    report = option.get;
-                    zuuluu = {};
-                    yankee = _closure1_slot5;
-                    yankee = yankee.POMELO_SUGGESTIONS;
-                    zuuluu['url'] = yankee;
-                    yankee = _closure2_slot0;
-                    zuuluu['timeout'] = yankee;
-                    zuuluu['rejectWithError'] = offset;
-                    zuuluu = report.bind(option)(zuuluu);
+                    var5 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var6 = 4;
+                    var3 = var8[var6];
+                    var11 = var5.bind(var2)(var3);
+                    var5 = var11.dispatch;
+                    var10 = true;
+                    var3 = {'type': 'POMELO_SUGGESTIONS_FETCH', 'usernameSuggestionLoading': true};
+                    var3 = var5.bind(var11)(var3);
+                    var5 = _closure1_slot0;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var3 = var5.bind(var2)(var3);
+                    var8 = var3.HTTP;
+                    var5 = var8.get;
+                    var3 = {};
+                    var11 = _closure1_slot5;
+                    var11 = var11.POMELO_SUGGESTIONS;
+                    var3['url'] = var11;
+                    var11 = _closure2_slot0;
+                    var3['timeout'] = var11;
+                    var3['rejectWithError'] = var10;
+                    var3 = var5.bind(var8)(var3);
                     SaveGenerator(address=168);
  166:
-                    return zuuluu;
+                    return var3;
  168:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 271; continue _fun00005 }
+                    if(var5) { _fun0003_ip = 271; continue _fun0003 }
  174:
-                    golfie = zuuluu;
-                    report = zuuluu.ok;
-                    if(!report) { _fun00006_ip = 217; continue _fun00005 }
+                    var7 = var3;
+                    var5 = var3.ok;
+                    if(!var5) { _fun0003_ip = 217; continue _fun0003 }
  186:
-                    report = golfie;
-                    report = report.body;
-                    verify = report;
-                    option = null;
-                    offset = option == report;
-                    report = undefined;
-                    if(offset) { _fun00006_ip = 213; continue _fun00005 }
+                    var5 = var7;
+                    var5 = var5.body;
+                    var9 = var5;
+                    var8 = null;
+                    var10 = var8 == var5;
+                    var5 = undefined;
+                    if(var10) { _fun0003_ip = 213; continue _fun0003 }
  208:
-                    report = verify.username;
+                    var5 = var9.username;
  213:
-                    if(!(option == report)) { _fun00006_ip = 219; continue _fun00005 }
+                    if(!(var8 == var5)) { _fun0003_ip = 219; continue _fun0003 }
  217: // try_end0
-                    _fun00006_ip = 276; continue _fun00005;
+                    _fun0003_ip = 276; continue _fun0003;
  219: // try_start_1
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[oscard];
-                    oscard = report.bind(michal)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    option = 'POMELO_SUGGESTIONS_SUCCESS';
-                    tangon['type'] = option;
-                    golfie = golfie.body;
-                    tangon['suggestion'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var6];
+                    var6 = var5.bind(var2)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var8 = 'POMELO_SUGGESTIONS_SUCCESS';
+                    var4['type'] = var8;
+                    var7 = var7.body;
+                    var4['suggestion'] = var7;
+                    var4 = var5.bind(var6)(var4);
  268: // try_end1
-                    return tangon;
+                    return var4;
  271:
-                    return zuuluu;
+                    return var3;
  274: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
  276:
-                    return michal;
+                    return var2;
  279:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['fetchSuggestions'] = golfie;
-    golfie = function(argFoo) { // Original name: attemptPomelo
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['fetchSuggestions'] = var7;
+    var7 = function attemptPomelo(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = arguments[1];
-            tangon = arguments[2];
-            zuuluu = arguments[3];
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            michal = undefined;
-            if(!(report === michal)) { _fun00008_ip = 28; continue _fun00007 }
+            var5 = arguments[1];
+            var4 = arguments[2];
+            var3 = arguments[3];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = undefined;
+            if(!(var5 === var2)) { _fun0004_ip = 28; continue _fun0004 }
  24:
-            report = 'modal';
+            var5 = 'modal';
  28:
-            var _closure2_slot1 = report;
-            if(!(tangon === michal)) { _fun00008_ip = 38; continue _fun00007 }
+            var _closure2_slot1 = var5;
+            if(!(var4 === var2)) { _fun0004_ip = 38; continue _fun0004 }
  36:
-            tangon = false;
+            var4 = false;
  38:
-            var _closure2_slot2 = tangon;
-            if(!(zuuluu === michal)) { _fun00008_ip = 48; continue _fun00007 }
+            var _closure2_slot2 = var4;
+            if(!(var3 === var2)) { _fun0004_ip = 48; continue _fun0004 }
  46:
-            zuuluu = false;
+            var3 = false;
  48:
-            var _closure2_slot3 = zuuluu;
-            zuuluu = _closure1_slot3;
-            entity = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var _closure2_slot3 = var3;
+            var3 = _closure1_slot3;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00010_ip = 1043; continue _fun00009 }
+                        if(var2) { _fun0005_ip = 1043; continue _fun0005 }
  10:
-                        tangon = undefined;
-                        foxtra = undefined;
-                        zuuluu = undefined;
-                        option = undefined;
-                        offset = undefined;
-                        michal = _closure2_slot0;
-                        golfie = /^[A-Za-z0-9_.]*$/;
-                        report = golfie.test;
-                        report = report.bind(golfie)(michal);
-                        backup = false;
-                        if(!(backup !== report)) { _fun00010_ip = 245; continue _fun00009 }
+                        var4 = undefined;
+                        var13 = undefined;
+                        var3 = undefined;
+                        var8 = undefined;
+                        var10 = undefined;
+                        var2 = _closure2_slot0;
+                        var7 = /^[A-Za-z0-9_.]*$/;
+                        var5 = var7.test;
+                        var5 = var5.bind(var7)(var2);
+                        var14 = false;
+                        if(!(var14 !== var5)) { _fun0005_ip = 245; continue _fun0005 }
  60:
-                        golfie = michal.includes;
-                        report = '..';
-                        report = golfie.bind(michal)(report);
-                        if(report) { _fun00010_ip = 183; continue _fun00009 }
+                        var7 = var2.includes;
+                        var5 = '..';
+                        var5 = var7.bind(var2)(var5);
+                        if(var5) { _fun0005_ip = 183; continue _fun0005 }
  79:
-                        golfie = michal.length;
-                        report = 2;
-                        if(!(!(golfie < report))) { _fun00010_ip = 108; continue _fun00009 }
+                        var7 = var2.length;
+                        var5 = 2;
+                        if(!(!(var7 < var5))) { _fun0005_ip = 108; continue _fun0005 }
  91:
-                        report = michal.length;
-                        michal = 32;
-                        michal = report > michal;
-                        report = undefined;
-                        if(!michal) { _fun00010_ip = 181; continue _fun00009 }
+                        var5 = var2.length;
+                        var2 = 32;
+                        var2 = var5 > var2;
+                        var5 = undefined;
+                        if(!var2) { _fun0005_ip = 181; continue _fun0005 }
  108:
-                        golfie = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        michal = 3;
-                        verify = romeon[michal];
-                        verify = golfie.bind(tangon)(verify);
-                        yankee = verify.intl;
-                        verify = yankee.formatToPlainString;
-                        michal = romeon[michal];
-                        michal = golfie.bind(tangon)(michal);
-                        michal = michal.t;
-                        golfie = michal.IpijXF;
-                        michal = {'maxNum': 32, 'minNum': 2};
-                        report = verify.bind(yankee)(golfie, michal);
+                        var7 = _closure1_slot0;
+                        var12 = _closure1_slot2;
+                        var2 = 3;
+                        var9 = var12[var2];
+                        var9 = var7.bind(var4)(var9);
+                        var11 = var9.intl;
+                        var9 = var11.formatToPlainString;
+                        var2 = var12[var2];
+                        var2 = var7.bind(var4)(var2);
+                        var2 = var2.t;
+                        var7 = var2.IpijXF;
+                        var2 = {'maxNum': 32, 'minNum': 2};
+                        var5 = var9.bind(var11)(var7, var2);
  181:
-                        _fun00010_ip = 243; continue _fun00009;
+                        _fun0005_ip = 243; continue _fun0005;
  183:
-                        yankee = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        michal = 3;
-                        golfie = romeon[michal];
-                        golfie = yankee.bind(tangon)(golfie);
-                        verify = golfie.intl;
-                        golfie = verify.string;
-                        michal = romeon[michal];
-                        michal = yankee.bind(tangon)(michal);
-                        michal = michal.t;
-                        michal = michal.C7G+go;
-                        report = golfie.bind(verify)(michal);
+                        var11 = _closure1_slot0;
+                        var12 = _closure1_slot2;
+                        var2 = 3;
+                        var7 = var12[var2];
+                        var7 = var11.bind(var4)(var7);
+                        var9 = var7.intl;
+                        var7 = var9.string;
+                        var2 = var12[var2];
+                        var2 = var11.bind(var4)(var2);
+                        var2 = var2.t;
+                        var2 = var2.C7G+go;
+                        var5 = var7.bind(var9)(var2);
  243:
-                        _fun00010_ip = 303; continue _fun00009;
+                        _fun0005_ip = 303; continue _fun0005;
  245:
-                        yankee = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        michal = 3;
-                        golfie = romeon[michal];
-                        golfie = yankee.bind(tangon)(golfie);
-                        verify = golfie.intl;
-                        golfie = verify.string;
-                        michal = romeon[michal];
-                        michal = yankee.bind(tangon)(michal);
-                        michal = michal.t;
-                        michal = michal.z7c4bG;
-                        report = golfie.bind(verify)(michal);
+                        var11 = _closure1_slot0;
+                        var12 = _closure1_slot2;
+                        var2 = 3;
+                        var7 = var12[var2];
+                        var7 = var11.bind(var4)(var7);
+                        var9 = var7.intl;
+                        var7 = var9.string;
+                        var2 = var12[var2];
+                        var2 = var11.bind(var4)(var2);
+                        var2 = var2.t;
+                        var2 = var2.z7c4bG;
+                        var5 = var7.bind(var9)(var2);
  303:
-                        yankee = null;
-                        if(!(yankee == report)) { _fun00010_ip = 919; continue _fun00009 }
+                        var11 = null;
+                        if(!(var11 == var5)) { _fun0005_ip = 919; continue _fun0005 }
  312: // try_start_0
-                        verify = _closure1_slot1;
-                        romeon = _closure1_slot2;
-                        michal = 8;
-                        michal = romeon[michal];
-                        romeon = verify.bind(tangon)(michal);
-                        verify = romeon.post;
-                        michal = {};
-                        kiloes = _closure2_slot2;
-                        sizing = _closure1_slot5;
-                        if(kiloes) { _fun00010_ip = 362; continue _fun00009 }
+                        var9 = _closure1_slot1;
+                        var12 = _closure1_slot2;
+                        var2 = 8;
+                        var2 = var12[var2];
+                        var12 = var9.bind(var4)(var2);
+                        var9 = var12.post;
+                        var2 = {};
+                        var15 = _closure2_slot2;
+                        var16 = _closure1_slot5;
+                        if(var15) { _fun0005_ip = 362; continue _fun0005 }
  354:
-                        kiloes = sizing.POMELO_ATTEMPT;
-                        _fun00010_ip = 368; continue _fun00009;
+                        var15 = var16.POMELO_ATTEMPT;
+                        _fun0005_ip = 368; continue _fun0005;
  362:
-                        kiloes = sizing.POMELO_ATTEMPT_UNAUTHED;
+                        var15 = var16.POMELO_ATTEMPT_UNAUTHED;
  368:
-                        michal['url'] = kiloes;
-                        kiloes = {};
-                        output = _closure2_slot0;
-                        kiloes['username'] = output;
-                        michal['body'] = kiloes;
-                        kiloes = {};
-                        result = _closure1_slot0;
-                        echoed = _closure1_slot2;
-                        sizing = 9;
-                        sizing = echoed[sizing];
-                        sizing = result.bind(tangon)(sizing);
-                        sizing = sizing.NetworkActionNames;
-                        sizing = sizing.POMELO_ATTEMPT;
-                        kiloes['event'] = sizing;
-                        sizing = {};
-                        sizing['requested_username'] = output;
-                        kiloes['properties'] = sizing;
-                        michal['trackedActionData'] = kiloes;
-                        michal['rejectWithError'] = backup;
-                        michal = verify.bind(romeon)(michal);
+                        var2['url'] = var15;
+                        var15 = {};
+                        var17 = _closure2_slot0;
+                        var15['username'] = var17;
+                        var2['body'] = var15;
+                        var15 = {};
+                        var18 = _closure1_slot0;
+                        var19 = _closure1_slot2;
+                        var16 = 9;
+                        var16 = var19[var16];
+                        var16 = var18.bind(var4)(var16);
+                        var16 = var16.NetworkActionNames;
+                        var16 = var16.POMELO_ATTEMPT;
+                        var15['event'] = var16;
+                        var16 = {};
+                        var16['requested_username'] = var17;
+                        var15['properties'] = var16;
+                        var2['trackedActionData'] = var15;
+                        var2['rejectWithError'] = var14;
+                        var2 = var9.bind(var12)(var2);
                         SaveGenerator(address=457);
  455:
-                        return michal;
+                        return var2;
  457:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
-                        if(verify) { _fun00010_ip = 626; continue _fun00009 }
+                        if(var9) { _fun0005_ip = 626; continue _fun0005 }
  466:
-                        foxtra = michal;
-                        verify = michal.body;
-                        verify = verify.taken;
-                        if(!verify) { _fun00010_ip = 555; continue _fun00009 }
+                        var13 = var2;
+                        var9 = var2.body;
+                        var9 = var9.taken;
+                        if(!var9) { _fun0005_ip = 555; continue _fun0005 }
  483:
-                        romeon = _closure1_slot1;
-                        backup = _closure1_slot2;
-                        verify = 7;
-                        verify = backup[verify];
-                        kiloes = romeon.bind(tangon)(verify);
-                        backup = kiloes.track;
-                        verify = _closure1_slot4;
-                        romeon = verify.POMELO_ERRORS;
-                        verify = {'reason': 'already_taken', 'username_error': true};
-                        sizing = _closure2_slot1;
-                        verify['location'] = sizing;
-                        sizing = _closure2_slot3;
-                        verify['one_click_flow'] = sizing;
-                        verify = backup.bind(kiloes)(romeon, verify);
+                        var12 = _closure1_slot1;
+                        var14 = _closure1_slot2;
+                        var9 = 7;
+                        var9 = var14[var9];
+                        var15 = var12.bind(var4)(var9);
+                        var14 = var15.track;
+                        var9 = _closure1_slot4;
+                        var12 = var9.POMELO_ERRORS;
+                        var9 = {'reason': 'already_taken', 'username_error': true};
+                        var16 = _closure2_slot1;
+                        var9['location'] = var16;
+                        var16 = _closure2_slot3;
+                        var9['one_click_flow'] = var16;
+                        var9 = var14.bind(var15)(var12, var9);
  555:
-                        verify = _closure1_slot1;
-                        romeon = _closure1_slot2;
-                        golfie = 4;
-                        golfie = romeon[golfie];
-                        romeon = verify.bind(tangon)(golfie);
-                        verify = romeon.dispatch;
-                        golfie = {};
-                        backup = 'POMELO_ATTEMPT_SUCCESS';
-                        golfie['type'] = backup;
-                        backup = _closure2_slot0;
-                        golfie['username'] = backup;
-                        foxtra = foxtra.body;
-                        foxtra = foxtra.taken;
-                        golfie['taken'] = foxtra;
-                        golfie = verify.bind(romeon)(golfie);
+                        var9 = _closure1_slot1;
+                        var12 = _closure1_slot2;
+                        var7 = 4;
+                        var7 = var12[var7];
+                        var12 = var9.bind(var4)(var7);
+                        var9 = var12.dispatch;
+                        var7 = {};
+                        var14 = 'POMELO_ATTEMPT_SUCCESS';
+                        var7['type'] = var14;
+                        var14 = _closure2_slot0;
+                        var7['username'] = var14;
+                        var13 = var13.body;
+                        var13 = var13.taken;
+                        var7['taken'] = var13;
+                        var7 = var9.bind(var12)(var7);
  621: // try_end0
-                        _fun00010_ip = 916; continue _fun00009;
+                        _fun0005_ip = 916; continue _fun0005;
  626:
-                        return michal;
+                        return var2;
  629: // catch_target0
                         CatchBlockStart(arg_register=11);
-                        verify = _closure1_slot0;
-                        foxtra = _closure1_slot2;
-                        golfie = 10;
-                        golfie = foxtra[golfie];
-                        golfie = verify.bind(tangon)(golfie);
-                        golfie = golfie.APIError;
-                        verify = golfie.prototype;
-                        verify = Object.create(verify, {constructor: {value: golfie}});
-                        ctrled = verify;
-                        source = romeon;
-                        golfie = new ctrled[golfie](source, update);
-                        verify = golfie instanceof Object ? golfie : verify;
-                        option = verify;
-                        golfie = verify.getAnyErrorMessage;
-                        golfie = golfie.bind(verify)();
-                        zuuluu = golfie;
-                        golfie = yankee != golfie;
-                        backup = undefined;
-                        if(!golfie) { _fun00010_ip = 711; continue _fun00009 }
+                        var9 = _closure1_slot0;
+                        var13 = _closure1_slot2;
+                        var7 = 10;
+                        var7 = var13[var7];
+                        var7 = var9.bind(var4)(var7);
+                        var7 = var7.APIError;
+                        var9 = var7.prototype;
+                        var9 = Object.create(var9, {constructor: {value: var7}});
+                        var22 = var9;
+                        var21 = var12;
+                        var7 = new var22[var7](var21, var20);
+                        var9 = var7 instanceof Object ? var7 : var9;
+                        var8 = var9;
+                        var7 = var9.getAnyErrorMessage;
+                        var7 = var7.bind(var9)();
+                        var3 = var7;
+                        var7 = var11 != var7;
+                        var14 = undefined;
+                        if(!var7) { _fun0005_ip = 711; continue _fun0005 }
  708:
-                        backup = zuuluu;
+                        var14 = var3;
  711:
-                        offset = backup;
-                        zuuluu = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        verify = 7;
-                        verify = golfie[verify];
-                        foxtra = zuuluu.bind(tangon)(verify);
-                        romeon = foxtra.track;
-                        michal = _closure1_slot4;
-                        verify = michal.POMELO_ERRORS;
-                        michal = {};
-                        michal['reason'] = backup;
-                        backup = true;
-                        michal['username_error'] = backup;
-                        backup = _closure2_slot1;
-                        michal['location'] = backup;
-                        backup = _closure2_slot3;
-                        michal['one_click_flow'] = backup;
-                        michal = romeon.bind(foxtra)(verify, michal);
-                        michal = 4;
-                        michal = golfie[michal];
-                        golfie = zuuluu.bind(tangon)(michal);
-                        zuuluu = golfie.dispatch;
-                        michal = {};
-                        verify = _closure2_slot0;
-                        michal['username'] = verify;
-                        verify = 'POMELO_ATTEMPT_FAILURE';
-                        michal['type'] = verify;
-                        verify = option;
-                        verify = verify.status;
-                        yankee = yankee != verify;
-                        verify = undefined;
-                        if(!yankee) { _fun00010_ip = 886; continue _fun00009 }
+                        var10 = var14;
+                        var3 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var9 = 7;
+                        var9 = var7[var9];
+                        var13 = var3.bind(var4)(var9);
+                        var12 = var13.track;
+                        var2 = _closure1_slot4;
+                        var9 = var2.POMELO_ERRORS;
+                        var2 = {};
+                        var2['reason'] = var14;
+                        var14 = true;
+                        var2['username_error'] = var14;
+                        var14 = _closure2_slot1;
+                        var2['location'] = var14;
+                        var14 = _closure2_slot3;
+                        var2['one_click_flow'] = var14;
+                        var2 = var12.bind(var13)(var9, var2);
+                        var2 = 4;
+                        var2 = var7[var2];
+                        var7 = var3.bind(var4)(var2);
+                        var3 = var7.dispatch;
+                        var2 = {};
+                        var9 = _closure2_slot0;
+                        var2['username'] = var9;
+                        var9 = 'POMELO_ATTEMPT_FAILURE';
+                        var2['type'] = var9;
+                        var9 = var8;
+                        var9 = var9.status;
+                        var11 = var11 != var9;
+                        var9 = undefined;
+                        if(!var11) { _fun0005_ip = 886; continue _fun0005 }
  840:
-                        yankee = option;
-                        romeon = yankee.status;
-                        yankee = 500;
-                        yankee = romeon < yankee;
-                        verify = undefined;
-                        if(!yankee) { _fun00010_ip = 886; continue _fun00009 }
+                        var11 = var8;
+                        var12 = var11.status;
+                        var11 = 500;
+                        var11 = var12 < var11;
+                        var9 = undefined;
+                        if(!var11) { _fun0005_ip = 886; continue _fun0005 }
  863:
-                        yankee = option;
-                        romeon = yankee.status;
-                        yankee = 401;
-                        verify = undefined;
-                        if(!(yankee !== romeon)) { _fun00010_ip = 886; continue _fun00009 }
+                        var11 = var8;
+                        var12 = var11.status;
+                        var11 = 401;
+                        var9 = undefined;
+                        if(!(var11 !== var12)) { _fun0005_ip = 886; continue _fun0005 }
  883:
-                        verify = offset;
+                        var9 = var10;
  886:
-                        michal['error'] = verify;
-                        verify = option.status;
-                        michal['statusCode'] = verify;
-                        option = option.retryAfter;
-                        michal['retryAfter'] = option;
-                        michal = zuuluu.bind(golfie)(michal);
+                        var2['error'] = var9;
+                        var9 = var8.status;
+                        var2['statusCode'] = var9;
+                        var8 = var8.retryAfter;
+                        var2['retryAfter'] = var8;
+                        var2 = var3.bind(var7)(var2);
  916:
-                        return tangon;
+                        return var4;
  919:
-                        zuuluu = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        option = 7;
-                        option = golfie[option];
-                        offset = zuuluu.bind(tangon)(option);
-                        verify = offset.track;
-                        michal = _closure1_slot4;
-                        option = michal.POMELO_ERRORS;
-                        michal = {};
-                        michal['reason'] = report;
-                        yankee = true;
-                        michal['username_error'] = yankee;
-                        yankee = _closure2_slot1;
-                        michal['location'] = yankee;
-                        yankee = _closure2_slot3;
-                        michal['one_click_flow'] = yankee;
-                        michal = verify.bind(offset)(option, michal);
-                        michal = 4;
-                        michal = golfie[michal];
-                        tangon = zuuluu.bind(tangon)(michal);
-                        zuuluu = tangon.dispatch;
-                        michal = {};
-                        golfie = 'POMELO_ATTEMPT_FAILURE';
-                        michal['type'] = golfie;
-                        oscard = _closure2_slot0;
-                        michal['username'] = oscard;
-                        michal['error'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return michal;
+                        var3 = _closure1_slot1;
+                        var7 = _closure1_slot2;
+                        var8 = 7;
+                        var8 = var7[var8];
+                        var10 = var3.bind(var4)(var8);
+                        var9 = var10.track;
+                        var2 = _closure1_slot4;
+                        var8 = var2.POMELO_ERRORS;
+                        var2 = {};
+                        var2['reason'] = var5;
+                        var11 = true;
+                        var2['username_error'] = var11;
+                        var11 = _closure2_slot1;
+                        var2['location'] = var11;
+                        var11 = _closure2_slot3;
+                        var2['one_click_flow'] = var11;
+                        var2 = var9.bind(var10)(var8, var2);
+                        var2 = 4;
+                        var2 = var7[var2];
+                        var4 = var3.bind(var4)(var2);
+                        var3 = var4.dispatch;
+                        var2 = {};
+                        var7 = 'POMELO_ATTEMPT_FAILURE';
+                        var2['type'] = var7;
+                        var6 = _closure2_slot0;
+                        var2['username'] = var6;
+                        var2['error'] = var5;
+                        var2 = var3.bind(var4)(var2);
+                        return var2;
  1043:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = zuuluu.bind(michal)(entity);
-            entity = entity.bind(michal)();
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    michal['attemptPomelo'] = golfie;
-    tangon = function(argFoo) { // Original name: createPomelo
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var2['attemptPomelo'] = var7;
+    var4 = function createPomelo(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            zuuluu = arguments[1];
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            michal = undefined;
-            if(!(zuuluu === michal)) { _fun00012_ip = 20; continue _fun00011 }
+            var3 = arguments[1];
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0006_ip = 20; continue _fun0006 }
  18:
-            zuuluu = false;
+            var3 = false;
  20:
-            var _closure2_slot1 = zuuluu;
-            zuuluu = _closure1_slot3;
-            entity = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+            var _closure2_slot1 = var3;
+            var3 = _closure1_slot3;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00014_ip = 205; continue _fun00013 }
+                        if(var2) { _fun0007_ip = 205; continue _fun0007 }
  10:
-                        tangon = _closure1_slot1;
-                        yankee = _closure1_slot2;
-                        michal = 8;
-                        michal = yankee[michal];
-                        report = undefined;
-                        oscard = tangon.bind(report)(michal);
-                        tangon = oscard.post;
-                        michal = {};
-                        golfie = _closure2_slot0;
-                        michal['body'] = golfie;
-                        golfie = _closure1_slot5;
-                        golfie = golfie.POMELO_CREATE;
-                        michal['url'] = golfie;
-                        golfie = {};
-                        offset = _closure1_slot0;
-                        option = 9;
-                        option = yankee[option];
-                        option = offset.bind(report)(option);
-                        option = option.NetworkActionNames;
-                        option = option.POMELO_CREATE;
-                        golfie['event'] = option;
-                        option = {};
-                        verify = _closure2_slot1;
-                        option['one_click_flow'] = verify;
-                        golfie['properties'] = option;
-                        michal['trackedActionData'] = golfie;
-                        golfie = false;
-                        michal['rejectWithError'] = golfie;
-                        michal = tangon.bind(oscard)(michal);
+                        var4 = _closure1_slot1;
+                        var11 = _closure1_slot2;
+                        var2 = 8;
+                        var2 = var11[var2];
+                        var5 = undefined;
+                        var6 = var4.bind(var5)(var2);
+                        var4 = var6.post;
+                        var2 = {};
+                        var7 = _closure2_slot0;
+                        var2['body'] = var7;
+                        var7 = _closure1_slot5;
+                        var7 = var7.POMELO_CREATE;
+                        var2['url'] = var7;
+                        var7 = {};
+                        var10 = _closure1_slot0;
+                        var8 = 9;
+                        var8 = var11[var8];
+                        var8 = var10.bind(var5)(var8);
+                        var8 = var8.NetworkActionNames;
+                        var8 = var8.POMELO_CREATE;
+                        var7['event'] = var8;
+                        var8 = {};
+                        var9 = _closure2_slot1;
+                        var8['one_click_flow'] = var9;
+                        var7['properties'] = var8;
+                        var2['trackedActionData'] = var7;
+                        var7 = false;
+                        var2['rejectWithError'] = var7;
+                        var2 = var4.bind(var6)(var2);
                         SaveGenerator(address=139);
  137:
-                        return michal;
+                        return var2;
  139:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00014_ip = 202; continue _fun00013 }
+                        if(var4) { _fun0007_ip = 202; continue _fun0007 }
  145:
-                        tangon = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        zuuluu = 4;
-                        zuuluu = oscard[zuuluu];
-                        report = tangon.bind(report)(zuuluu);
-                        tangon = report.dispatch;
-                        zuuluu = {};
-                        oscard = 'CURRENT_USER_UPDATE';
-                        zuuluu['type'] = oscard;
-                        oscard = michal.body;
-                        zuuluu['user'] = oscard;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        zuuluu = michal.body;
-                        return zuuluu;
+                        var4 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var3 = 4;
+                        var3 = var6[var3];
+                        var5 = var4.bind(var5)(var3);
+                        var4 = var5.dispatch;
+                        var3 = {};
+                        var6 = 'CURRENT_USER_UPDATE';
+                        var3['type'] = var6;
+                        var6 = var2.body;
+                        var3['user'] = var6;
+                        var3 = var4.bind(var5)(var3);
+                        var3 = var2.body;
+                        return var3;
  202:
-                        return michal;
+                        return var2;
  205:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            entity = zuuluu.bind(michal)(entity);
-            entity = entity.bind(michal)();
-            return entity;
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
+            return var1;
         }
     };
-    michal['createPomelo'] = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/pomelo/PomeloActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['createPomelo'] = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/pomelo/PomeloActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

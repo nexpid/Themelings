@@ -1,230 +1,230 @@
 // app/modules/user_settings/native/UserSettingsAppearanceThemeUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    option = argBar;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = verify;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = verify[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    report = tangon.AnalyticEvents;
-    var _closure1_slot3 = report;
-    tangon = tangon.ThemeTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = verify[tangon];
-    tangon = option.bind(entity)(tangon);
-    yankee = tangon.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    tangon = tangon.REDESIGN_STANDARD_BACKGROUND_THEMES;
-    report = 2;
-    report = verify[report];
-    report = option.bind(entity)(report);
-    report = report.AnalyticsPremiumFeatureNames;
-    var _closure1_slot5 = report;
-    oscard = function(argFoo) { // Original name: trackClientThemeUpdated
-        entity = argFoo;
-        option = entity.isPersisted;
-        golfie = entity.isSynced;
-        verify = entity.themeName;
-        oscard = entity.analyticsLocations;
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.track;
-        michal = _closure1_slot3;
-        zuuluu = michal.CLIENT_THEME_UPDATED;
-        michal = {};
-        offset = _closure1_slot5;
-        offset = offset.CLIENT_THEME;
-        michal['feature_name'] = offset;
-        michal['theme_name'] = verify;
-        michal['is_persisted'] = option;
-        michal['is_synced'] = golfie;
-        michal['location_stack'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var9;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var9[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var5 = var4.AnalyticEvents;
+    var _closure1_slot3 = var5;
+    var4 = var4.ThemeTypes;
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
+    var11 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
+    var4 = var4.REDESIGN_STANDARD_BACKGROUND_THEMES;
+    var5 = 2;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.AnalyticsPremiumFeatureNames;
+    var _closure1_slot5 = var5;
+    var6 = function trackClientThemeUpdated(arg1) {
+        var1 = arg1;
+        var8 = var1.isPersisted;
+        var7 = var1.isSynced;
+        var9 = var1.themeName;
+        var6 = var1.analyticsLocations;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot3;
+        var3 = var2.CLIENT_THEME_UPDATED;
+        var2 = {};
+        var10 = _closure1_slot5;
+        var10 = var10.CLIENT_THEME;
+        var2['feature_name'] = var10;
+        var2['theme_name'] = var9;
+        var2['is_persisted'] = var8;
+        var2['is_synced'] = var7;
+        var2['location_stack'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    var _closure1_slot6 = oscard;
-    report = tangon.length;
-    var _closure1_slot7 = report;
-    offset = yankee.reduce;
-    golfie = function(argFoo, argBar, argBaz) {
-        entity = {};
-        report = argFoo;
-        oscard = entity;
-        michal = copyDataProperties(oscard, report);
-        michal = argBar;
-        zuuluu = michal.id;
-        tangon = _closure1_slot7;
-        michal = argBaz;
-        michal = michal + tangon;
-        entity[zuuluu] = michal;
-        return entity;
+    var _closure1_slot6 = var6;
+    var5 = var4.length;
+    var _closure1_slot7 = var5;
+    var10 = var11.reduce;
+    var7 = function(arg1, arg2, arg3) {
+        var1 = {};
+        var5 = arg1;
+        var6 = var1;
+        var2 = copyDataProperties(var6, var5);
+        var2 = arg2;
+        var3 = var2.id;
+        var4 = _closure1_slot7;
+        var2 = arg3;
+        var2 = var2 + var4;
+        var1[var3] = var2;
+        return var1;
     };
-    tangon = {};
-    tangon = offset.bind(yankee)(golfie, tangon);
-    var _closure1_slot8 = tangon;
-    golfie = 7;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/user_settings/native/UserSettingsAppearanceThemeUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo, argBar, argBaz) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4 = {};
+    var4 = var10.bind(var11)(var7, var4);
+    var _closure1_slot8 = var4;
+    var7 = 7;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/user_settings/native/UserSettingsAppearanceThemeUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            oscard = _closure1_slot6;
-            entity = {};
-            zuuluu = true;
-            entity['isPersisted'] = zuuluu;
-            zuuluu = argBaz;
-            entity['isSynced'] = zuuluu;
-            tangon = report.colors;
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 77; continue _fun00001 }
+            var5 = arg1;
+            var6 = _closure1_slot6;
+            var1 = {};
+            var3 = true;
+            var1['isPersisted'] = var3;
+            var3 = arg3;
+            var1['isSynced'] = var3;
+            var4 = var5.colors;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0001_ip = 77; continue _fun0001 }
  38:
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            tangon = 3;
-            golfie = golfie[tangon];
-            tangon = undefined;
-            tangon = option.bind(tangon)(golfie);
-            golfie = tangon.BackgroundGradientPresetId;
-            tangon = report.id;
-            tangon = golfie[tangon];
-            _fun00002_ip = 106; continue _fun00001;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 3;
+            var7 = var7[var4];
+            var4 = undefined;
+            var4 = var8.bind(var4)(var7);
+            var7 = var4.BackgroundGradientPresetId;
+            var4 = var5.id;
+            var4 = var7[var4];
+            _fun0001_ip = 106; continue _fun0001;
  77:
-            verify = report.theme;
-            golfie = global;
-            golfie = golfie.HermesInternal;
-            option = golfie.concat;
-            golfie = 'default ';
-            tangon = option.bind(golfie)(verify);
+            var9 = var5.theme;
+            var7 = global;
+            var7 = var7.HermesInternal;
+            var8 = var7.concat;
+            var7 = 'default ';
+            var4 = var8.bind(var7)(var9);
  106:
-            entity['themeName'] = tangon;
-            tangon = argBar;
-            entity['analyticsLocations'] = tangon;
-            tangon = undefined;
-            entity = oscard.bind(tangon)(entity);
-            oscard = report.theme;
-            entity = _closure1_slot4;
-            entity = entity.MIDNIGHT;
-            if(!(oscard === entity)) { _fun00002_ip = 178; continue _fun00001 }
+            var1['themeName'] = var4;
+            var4 = arg2;
+            var1['analyticsLocations'] = var4;
+            var4 = undefined;
+            var1 = var6.bind(var4)(var1);
+            var6 = var5.theme;
+            var1 = _closure1_slot4;
+            var1 = var1.MIDNIGHT;
+            if(!(var6 === var1)) { _fun0001_ip = 178; continue _fun0001 }
  145:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 4;
-            entity = golfie[entity];
-            golfie = oscard.bind(tangon)(entity);
-            oscard = golfie.setShouldSyncAppearanceSettings;
-            entity = false;
-            entity = oscard.bind(golfie)(entity);
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 4;
+            var1 = var7[var1];
+            var7 = var6.bind(var4)(var1);
+            var6 = var7.setShouldSyncAppearanceSettings;
+            var1 = false;
+            var1 = var6.bind(var7)(var1);
  178:
-            oscard = report.theme;
-            entity = 'system';
-            if(!(entity !== oscard)) { _fun00002_ip = 282; continue _fun00001 }
+            var6 = var5.theme;
+            var1 = 'system';
+            if(!(var1 !== var6)) { _fun0001_ip = 282; continue _fun0001 }
  191:
-            entity = report.colors;
-            if(!(zuuluu != entity)) { _fun00002_ip = 282; continue _fun00001 }
+            var1 = var5.colors;
+            if(!(var3 != var1)) { _fun0001_ip = 282; continue _fun0001 }
  200:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 5;
-            entity = oscard[entity];
-            option = zuuluu.bind(tangon)(entity);
-            golfie = option.updateBackgroundGradientPreset;
-            entity = report.id;
-            entity = golfie.bind(option)(entity);
-            entity = 4;
-            entity = oscard[entity];
-            oscard = zuuluu.bind(tangon)(entity);
-            zuuluu = oscard.saveClientTheme;
-            entity = {};
-            golfie = report.id;
-            entity['backgroundGradientPresetId'] = golfie;
-            golfie = report.theme;
-            entity['theme'] = golfie;
-            entity = zuuluu.bind(oscard)(entity);
-            _fun00002_ip = 346; continue _fun00001;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 5;
+            var1 = var6[var1];
+            var8 = var3.bind(var4)(var1);
+            var7 = var8.updateBackgroundGradientPreset;
+            var1 = var5.id;
+            var1 = var7.bind(var8)(var1);
+            var1 = 4;
+            var1 = var6[var1];
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.saveClientTheme;
+            var1 = {};
+            var7 = var5.id;
+            var1['backgroundGradientPresetId'] = var7;
+            var7 = var5.theme;
+            var1['theme'] = var7;
+            var1 = var3.bind(var6)(var1);
+            _fun0001_ip = 346; continue _fun0001;
  282:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 5;
-            michal = oscard[michal];
-            golfie = zuuluu.bind(tangon)(michal);
-            michal = golfie.resetBackgroundGradientPreset;
-            michal = michal.bind(golfie)();
-            michal = 4;
-            michal = oscard[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.saveClientTheme;
-            michal = {};
-            report = report.theme;
-            michal['theme'] = report;
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 5;
+            var2 = var6[var2];
+            var7 = var3.bind(var4)(var2);
+            var2 = var7.resetBackgroundGradientPreset;
+            var2 = var2.bind(var7)();
+            var2 = 4;
+            var2 = var6[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.saveClientTheme;
+            var2 = {};
+            var5 = var5.theme;
+            var2['theme'] = var5;
+            var1 = var3.bind(var4)(var2);
  346:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['handleSaveTheme'] = golfie;
-    zuuluu['trackClientThemeUpdated'] = oscard;
-    zuuluu['STANDARD_BACKGROUND_THEME_BUFFER'] = report;
-    zuuluu['PRESET_ID_TO_CAROUSEL_INDEX_MAP'] = tangon;
-    michal = function(argFoo, argBar, argBaz, argCor) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['handleSaveTheme'] = var7;
+    var3['trackClientThemeUpdated'] = var6;
+    var3['STANDARD_BACKGROUND_THEME_BUFFER'] = var5;
+    var3['PRESET_ID_TO_CAROUSEL_INDEX_MAP'] = var4;
+    var2 = function(arg1, arg2, arg3, arg4) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            tangon = argBaz;
-            report = argCor;
-            zuuluu = null;
-            if(!(zuuluu == entity)) { _fun00004_ip = 66; continue _fun00003 }
+            var1 = arg1;
+            var4 = arg3;
+            var5 = arg4;
+            var3 = null;
+            if(!(var3 == var1)) { _fun0002_ip = 66; continue _fun0002 }
  17:
-            zuuluu = 'system';
-            oscard = argBar;
-            if(oscard) { _fun00004_ip = 30; continue _fun00003 }
+            var3 = 'system';
+            var6 = arg2;
+            if(var6) { _fun0002_ip = 30; continue _fun0002 }
  27:
-            zuuluu = report;
+            var3 = var5;
  30:
-            var _closure2_slot0 = zuuluu;
-            zuuluu = tangon.findIndex;
-            michal = function(argFoo) {
-                entity = argFoo;
-                michal = entity.theme;
-                entity = _closure2_slot0;
-                entity = michal === entity;
-                return entity;
+            var _closure2_slot0 = var3;
+            var3 = var4.findIndex;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.theme;
+                var1 = _closure2_slot0;
+                var1 = var2 === var1;
+                return var1;
             };
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = 0;
-            tangon = zuuluu >= michal;
-            if(!tangon) { _fun00004_ip = 64; continue _fun00003 }
+            var3 = var3.bind(var4)(var2);
+            var2 = 0;
+            var4 = var3 >= var2;
+            if(!var4) { _fun0002_ip = 64; continue _fun0002 }
  61:
-            michal = zuuluu;
+            var2 = var3;
  64:
-            return michal;
+            return var2;
  66:
-            michal = _closure1_slot8;
-            entity = entity.id;
-            entity = michal[entity];
-            return entity;
+            var2 = _closure1_slot8;
+            var1 = var1.id;
+            var1 = var2[var1];
+            return var1;
         }
     };
-    zuuluu['getUserThemeIndex'] = michal;
-    return entity;
+    var3['getUserThemeIndex'] = var2;
+    return var1;
 })();

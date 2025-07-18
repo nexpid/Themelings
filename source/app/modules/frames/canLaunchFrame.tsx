@@ -1,90 +1,90 @@
 // app/modules/frames/canLaunchFrame.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ApplicationFlags;
-    var _closure1_slot2 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/frames/canLaunchFrame.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: canLaunchFrame
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ApplicationFlags;
+    var _closure1_slot2 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/frames/canLaunchFrame.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function canLaunchFrame(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.isRealApplication;
-            zuuluu = zuuluu.bind(report)(entity);
-            if(zuuluu) { _fun00002_ip = 46; continue _fun00001 }
+            var1 = arg1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 1;
+            var3 = var4[var3];
+            var4 = undefined;
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.isRealApplication;
+            var3 = var3.bind(var5)(var1);
+            if(var3) { _fun0001_ip = 46; continue _fun0001 }
  42:
-            zuuluu = false;
-            return zuuluu;
+            var3 = false;
+            return var3;
  46:
-            entity = entity.flags;
-            zuuluu = null;
-            zuuluu = zuuluu != entity;
-            golfie = 0;
-            if(!zuuluu) { _fun00002_ip = 65; continue _fun00001 }
+            var1 = var1.flags;
+            var3 = null;
+            var3 = var3 != var1;
+            var7 = 0;
+            if(!var3) { _fun0001_ip = 65; continue _fun0001 }
  62:
-            golfie = entity;
+            var7 = var1;
  65:
-            oscard = _closure1_slot0;
-            option = _closure1_slot1;
-            report = 2;
-            entity = option[report];
-            offset = oscard.bind(tangon)(entity);
-            verify = offset.hasFlag;
-            entity = _closure1_slot2;
-            zuuluu = entity.EMBEDDED;
-            zuuluu = verify.bind(offset)(golfie, zuuluu);
-            report = option[report];
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.hasFlag;
-            entity = entity.CONTEXTLESS_ACTIVITY;
-            entity = report.bind(oscard)(golfie, entity);
-            zuuluu = !zuuluu;
-            if(zuuluu) { _fun00002_ip = 143; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 2;
+            var1 = var8[var5];
+            var10 = var6.bind(var4)(var1);
+            var9 = var10.hasFlag;
+            var1 = _closure1_slot2;
+            var3 = var1.EMBEDDED;
+            var3 = var9.bind(var10)(var7, var3);
+            var5 = var8[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.hasFlag;
+            var1 = var1.CONTEXTLESS_ACTIVITY;
+            var1 = var5.bind(var6)(var7, var1);
+            var3 = !var3;
+            if(var3) { _fun0001_ip = 143; continue _fun0001 }
  140:
-            zuuluu = !entity;
+            var3 = !var1;
  143:
-            entity = !zuuluu;
-            if(zuuluu) { _fun00002_ip = 189; continue _fun00001 }
+            var1 = !var3;
+            if(var3) { _fun0001_ip = 189; continue _fun0001 }
  149:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.getContextlessFramesExperiment;
-            michal = 'canLaunchFrame';
-            michal = zuuluu.bind(tangon)(michal);
-            entity = michal.enabled;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 3;
+            var2 = var5[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.getContextlessFramesExperiment;
+            var2 = 'canLaunchFrame';
+            var2 = var3.bind(var4)(var2);
+            var1 = var2.enabled;
  189:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['canLaunchFrame'] = michal;
-    return entity;
+    var3['canLaunchFrame'] = var2;
+    return var1;
 })();

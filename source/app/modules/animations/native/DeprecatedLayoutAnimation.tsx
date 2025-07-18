@@ -1,126 +1,126 @@
 // app/modules/animations/native/DeprecatedLayoutAnimation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = verify;
-    tangon = function(argFoo) { // Original name: DeprecatedLayoutAnimation
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
+    var4 = function DeprecatedLayoutAnimation(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot4;
-            michal = michal.useReducedMotion;
-            if(michal) { _fun00002_ip = 50; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot4;
+            var2 = var2.useReducedMotion;
+            if(var2) { _fun0001_ip = 50; continue _fun0001 }
  19:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            tangon = 2;
-            report = report[tangon];
-            tangon = undefined;
-            report = oscard.bind(tangon)(report);
-            tangon = report.isAndroid;
-            michal = tangon.bind(report)();
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 2;
+            var5 = var5[var4];
+            var4 = undefined;
+            var5 = var6.bind(var4)(var5);
+            var4 = var5.isAndroid;
+            var2 = var4.bind(var5)();
  50:
-            if(michal) { _fun00002_ip = 90; continue _fun00001 }
+            if(var2) { _fun0001_ip = 90; continue _fun0001 }
  53:
-            michal = null;
-            if(!(michal == zuuluu)) { _fun00002_ip = 75; continue _fun00001 }
+            var2 = null;
+            if(!(var2 == var3)) { _fun0001_ip = 75; continue _fun0001 }
  59:
-            tangon = _closure1_slot3;
-            michal = tangon.easeInEaseOut;
-            michal = michal.bind(tangon)();
-            _fun00002_ip = 90; continue _fun00001;
+            var4 = _closure1_slot3;
+            var2 = var4.easeInEaseOut;
+            var2 = var2.bind(var4)();
+            _fun0001_ip = 90; continue _fun0001;
  75:
-            michal = _closure1_slot3;
-            entity = michal.configureNext;
-            entity = entity.bind(michal)(zuuluu);
+            var2 = _closure1_slot3;
+            var1 = var2.configureNext;
+            var1 = var1.bind(var2)(var3);
  90:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 0;
-    report = verify[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    oscard = report.Keyboard;
-    var _closure1_slot2 = oscard;
-    romeon = report.LayoutAnimation;
-    var _closure1_slot3 = romeon;
-    report = 1;
-    oscard = verify[report];
-    report = argBaz;
-    report = report.bind(entity)(oscard);
-    var _closure1_slot4 = report;
-    oscard = romeon.create;
-    yankee = 150;
-    offset = 'easeInEaseOut';
-    report = 'opacity';
-    oscard = oscard.bind(romeon)(yankee, offset, report);
-    golfie = romeon.create;
-    report = 'scaleXY';
-    report = golfie.bind(romeon)(yankee, offset, report);
-    golfie = 3;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/animations/native/DeprecatedLayoutAnimation.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['CONFIG_GUILD_FOLDER_OPACITY'] = oscard;
-    zuuluu['CONFIG_GUILD_FOLDER_SCALEXY'] = report;
-    zuuluu['DeprecatedLayoutAnimation'] = tangon;
-    michal = function(argFoo) { // Original name: DeprecatedLayoutAnimationKeyboard
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 0;
+    var5 = var9[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var6 = var5.Keyboard;
+    var _closure1_slot2 = var6;
+    var12 = var5.LayoutAnimation;
+    var _closure1_slot3 = var12;
+    var5 = 1;
+    var6 = var9[var5];
+    var5 = native3;
+    var5 = var5.bind(var1)(var6);
+    var _closure1_slot4 = var5;
+    var6 = var12.create;
+    var11 = 150;
+    var10 = 'easeInEaseOut';
+    var5 = 'opacity';
+    var6 = var6.bind(var12)(var11, var10, var5);
+    var7 = var12.create;
+    var5 = 'scaleXY';
+    var5 = var7.bind(var12)(var11, var10, var5);
+    var7 = 3;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/animations/native/DeprecatedLayoutAnimation.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['CONFIG_GUILD_FOLDER_OPACITY'] = var6;
+    var3['CONFIG_GUILD_FOLDER_SCALEXY'] = var5;
+    var3['DeprecatedLayoutAnimation'] = var4;
+    var2 = function DeprecatedLayoutAnimationKeyboard(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            michal = arguments[1];
-            entity = undefined;
-            if(!(michal === entity)) { _fun00004_ip = 14; continue _fun00003 }
+            var6 = arg1;
+            var2 = arguments[1];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0002_ip = 14; continue _fun0002 }
  12:
-            michal = false;
+            var2 = false;
  14:
-            if(!michal) { _fun00004_ip = 75; continue _fun00003 }
+            if(!var2) { _fun0002_ip = 75; continue _fun0002 }
  17:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.isAndroid;
-            zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00004_ip = 75; continue _fun00003 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 2;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.isAndroid;
+            var3 = var3.bind(var4)();
+            if(var3) { _fun0002_ip = 75; continue _fun0002 }
  52:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.scheduleLayoutAnimation;
-            michal = {};
-            michal['duration'] = oscard;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var4 = _closure1_slot2;
+            var3 = var4.scheduleLayoutAnimation;
+            var2 = {};
+            var2['duration'] = var6;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  75:
-            zuuluu = _closure1_slot5;
-            michal = {};
-            michal['duration'] = oscard;
-            tangon = {};
-            tangon['duration'] = oscard;
-            report = _closure1_slot3;
-            report = report.Types;
-            report = report.keyboard;
-            tangon['type'] = report;
-            michal['update'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var2['duration'] = var6;
+            var4 = {};
+            var4['duration'] = var6;
+            var5 = _closure1_slot3;
+            var5 = var5.Types;
+            var5 = var5.keyboard;
+            var4['type'] = var5;
+            var2['update'] = var4;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         }
     };
-    zuuluu['DeprecatedLayoutAnimationKeyboard'] = michal;
-    return entity;
+    var3['DeprecatedLayoutAnimationKeyboard'] = var2;
+    return var1;
 })();

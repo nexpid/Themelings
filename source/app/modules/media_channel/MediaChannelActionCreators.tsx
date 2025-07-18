@@ -1,247 +1,247 @@
 // app/modules/media_channel/MediaChannelActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _fetchMediaPostEmbed
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _fetchMediaPostEmbed() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    verify = argFoo;
+                    var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 254; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 254; continue _fun0001 }
  13:
-                    oscard = verify;
-                    golfie = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    report = 2;
-                    tangon = michal[report];
-                    michal = undefined;
-                    option = golfie.bind(michal)(tangon);
-                    golfie = option.dispatch;
-                    tangon = {};
-                    offset = 'MEDIA_POST_EMBED_FETCH';
-                    tangon['type'] = offset;
-                    tangon['threadId'] = verify;
-                    tangon = golfie.bind(option)(tangon);
+                    var6 = var9;
+                    var7 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var5 = 2;
+                    var4 = var2[var5];
+                    var2 = undefined;
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var10 = 'MEDIA_POST_EMBED_FETCH';
+                    var4['type'] = var10;
+                    var4['threadId'] = var9;
+                    var4 = var7.bind(var8)(var4);
  68: // try_start_0
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    tangon = 3;
-                    tangon = option[tangon];
-                    tangon = golfie.bind(michal)(tangon);
-                    option = tangon.HTTP;
-                    golfie = option.get;
-                    tangon = {};
-                    yankee = _closure1_slot4;
-                    offset = yankee.MEDIA_POST_RESHARE_GET_PREVIEW;
-                    verify = oscard;
-                    verify = offset.bind(yankee)(verify);
-                    tangon['url'] = verify;
-                    verify = true;
-                    tangon['rejectWithError'] = verify;
-                    tangon = golfie.bind(option)(tangon);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 3;
+                    var4 = var8[var4];
+                    var4 = var7.bind(var2)(var4);
+                    var8 = var4.HTTP;
+                    var7 = var8.get;
+                    var4 = {};
+                    var11 = _closure1_slot4;
+                    var10 = var11.MEDIA_POST_RESHARE_GET_PREVIEW;
+                    var9 = var6;
+                    var9 = var10.bind(var11)(var9);
+                    var4['url'] = var9;
+                    var9 = true;
+                    var4['rejectWithError'] = var9;
+                    var4 = var7.bind(var8)(var4);
                     SaveGenerator(address=137);
  135:
-                    return tangon;
+                    return var4;
  137:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 202; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 202; continue _fun0001 }
  143:
-                    offset = tangon.body;
-                    option = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    golfie = golfie[report];
-                    verify = option.bind(michal)(golfie);
-                    option = verify.dispatch;
-                    golfie = {};
-                    yankee = 'MEDIA_POST_EMBED_FETCH_SUCCESS';
-                    golfie['type'] = yankee;
-                    yankee = oscard;
-                    golfie['threadId'] = yankee;
-                    golfie['mediaPostEmbed'] = offset;
-                    golfie = option.bind(verify)(golfie);
+                    var10 = var4.body;
+                    var8 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var5];
+                    var9 = var8.bind(var2)(var7);
+                    var8 = var9.dispatch;
+                    var7 = {};
+                    var11 = 'MEDIA_POST_EMBED_FETCH_SUCCESS';
+                    var7['type'] = var11;
+                    var11 = var6;
+                    var7['threadId'] = var11;
+                    var7['mediaPostEmbed'] = var10;
+                    var7 = var8.bind(var9)(var7);
  200: // try_end0
-                    _fun00002_ip = 251; continue _fun00001;
+                    _fun0001_ip = 251; continue _fun0001;
  202:
-                    return tangon;
+                    return var4;
  205: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[report];
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    golfie = 'MEDIA_POST_EMBED_FETCH_FAILURE';
-                    zuuluu['type'] = golfie;
-                    zuuluu['threadId'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'MEDIA_POST_EMBED_FETCH_FAILURE';
+                    var3['type'] = var7;
+                    var3['threadId'] = var6;
+                    var3 = var4.bind(var5)(var3);
  251:
-                    return michal;
+                    return var2;
  254:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = function() { // Original name: _unfurlEmbedUrl
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function _unfurlEmbedUrl() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 166; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 166; continue _fun0002 }
  10:
-                    oscard = argFoo;
+                    var6 = arg1;
  13: // try_start_0
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.UNFURL_EMBED_URLS;
-                    michal['url'] = report;
-                    report = {};
-                    report['urls'] = oscard;
-                    michal['body'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.UNFURL_EMBED_URLS;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var5['urls'] = var6;
+                    var2['body'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=91);
  89:
-                    return michal;
+                    return var2;
  91:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 105; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 105; continue _fun0002 }
  97:
-                    zuuluu = michal.body;
+                    var3 = var2.body;
  102: // try_end0
-                    return zuuluu;
+                    return var3;
  105:
-                    return michal;
+                    return var2;
  108: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    report = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 4;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = report.bind(michal)(zuuluu);
-                    michal = michal.APIError;
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    option = zuuluu;
-                    golfie = tangon;
-                    michal = new option[michal](golfie, oscard);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    throw michal;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 4;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var3);
+                    var2 = var2.APIError;
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var8 = var3;
+                    var7 = var4;
+                    var2 = new var8[var2](var7, var6);
+                    var2 = var2 instanceof Object ? var2 : var3;
+                    throw var2;
  166:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_channel/MediaChannelActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: dismissMediaPostSharePrompt
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'DISMISS_MEDIA_POST_SHARE_PROMPT';
-        michal['type'] = report;
-        report = argFoo;
-        michal['threadId'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_channel/MediaChannelActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function dismissMediaPostSharePrompt(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'DISMISS_MEDIA_POST_SHARE_PROMPT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['threadId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['dismissMediaPostSharePrompt'] = tangon;
-    tangon = function() { // Original name: fetchMediaPostEmbed
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['dismissMediaPostSharePrompt'] = var4;
+    var4 = function fetchMediaPostEmbed() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchMediaPostEmbed'] = tangon;
-    michal = function() { // Original name: unfurlEmbedUrl
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['fetchMediaPostEmbed'] = var4;
+    var2 = function unfurlEmbedUrl() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['unfurlEmbedUrl'] = michal;
-    return entity;
+    var3['unfurlEmbedUrl'] = var2;
+    return var1;
 })();

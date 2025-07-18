@@ -1,139 +1,139 @@
 // app/modules/errors/hooks/useVideoStreamError.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/hooks/useVideoStreamError.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useVideoStreamError
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 2;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot3;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot2;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/errors/hooks/useVideoStreamError.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useVideoStreamError(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 2;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot3;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot2;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getId;
-                zuuluu = michal.bind(zuuluu)();
-                michal = _closure2_slot1;
-                if(!(zuuluu !== michal)) { _fun00002_ip = 134; continue _fun00001 }
+                var3 = _closure1_slot2;
+                var2 = var3.getId;
+                var3 = var2.bind(var3)();
+                var2 = _closure2_slot1;
+                if(!(var3 !== var2)) { _fun0001_ip = 134; continue _fun0001 }
  28:
-                golfie = _closure1_slot3;
-                tangon = golfie.getActiveErrorsOfType;
-                verify = _closure1_slot0;
-                offset = _closure1_slot1;
-                zuuluu = 3;
-                michal = offset[zuuluu];
-                option = undefined;
-                michal = verify.bind(option)(michal);
-                michal = michal.AVError;
-                michal = michal.VIDEO_STREAM_RECEIVER_READY_TIMEOUT;
-                romeon = tangon.bind(golfie)(michal);
-                michal = new Array(0);
-                yankee = 0;
-                foxtra = michal;
-                yankee = arraySpread(foxtra, romeon, yankee);
-                oscard = golfie.getActiveErrorsOfType;
-                zuuluu = offset[zuuluu];
-                zuuluu = verify.bind(option)(zuuluu);
-                zuuluu = zuuluu.AVError;
-                zuuluu = zuuluu.VIDEO_STREAM_RECEIVER_READY_TIMEOUT_NO_STREAM;
-                romeon = oscard.bind(golfie)(zuuluu);
-                foxtra = michal;
-                zuuluu = arraySpread(foxtra, romeon, yankee);
-                tangon = michal;
-                _fun00002_ip = 238; continue _fun00001;
+                var7 = _closure1_slot3;
+                var4 = var7.getActiveErrorsOfType;
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var3 = 3;
+                var2 = var10[var3];
+                var8 = undefined;
+                var2 = var9.bind(var8)(var2);
+                var2 = var2.AVError;
+                var2 = var2.VIDEO_STREAM_RECEIVER_READY_TIMEOUT;
+                var12 = var4.bind(var7)(var2);
+                var2 = new Array(0);
+                var11 = 0;
+                var13 = var2;
+                var11 = arraySpread(var13, var12, var11);
+                var6 = var7.getActiveErrorsOfType;
+                var3 = var10[var3];
+                var3 = var9.bind(var8)(var3);
+                var3 = var3.AVError;
+                var3 = var3.VIDEO_STREAM_RECEIVER_READY_TIMEOUT_NO_STREAM;
+                var12 = var6.bind(var7)(var3);
+                var13 = var2;
+                var3 = arraySpread(var13, var12, var11);
+                var4 = var2;
+                _fun0001_ip = 238; continue _fun0001;
  134:
-                golfie = _closure1_slot3;
-                zuuluu = golfie.getActiveErrorsOfType;
-                verify = _closure1_slot0;
-                offset = _closure1_slot1;
-                michal = 3;
-                entity = offset[michal];
-                option = undefined;
-                entity = verify.bind(option)(entity);
-                entity = entity.AVError;
-                entity = entity.VIDEO_STREAM_SENDER_READY_TIMEOUT;
-                romeon = zuuluu.bind(golfie)(entity);
-                entity = new Array(0);
-                yankee = 0;
-                foxtra = entity;
-                yankee = arraySpread(foxtra, romeon, yankee);
-                oscard = golfie.getActiveErrorsOfType;
-                michal = offset[michal];
-                michal = verify.bind(option)(michal);
-                michal = michal.AVError;
-                michal = michal.VIDEO_STREAM_SENDER_READY_TIMEOUT_NO_STREAM;
-                romeon = oscard.bind(golfie)(michal);
-                foxtra = entity;
-                michal = arraySpread(foxtra, romeon, yankee);
-                tangon = entity;
+                var7 = _closure1_slot3;
+                var3 = var7.getActiveErrorsOfType;
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var2 = 3;
+                var1 = var10[var2];
+                var8 = undefined;
+                var1 = var9.bind(var8)(var1);
+                var1 = var1.AVError;
+                var1 = var1.VIDEO_STREAM_SENDER_READY_TIMEOUT;
+                var12 = var3.bind(var7)(var1);
+                var1 = new Array(0);
+                var11 = 0;
+                var13 = var1;
+                var11 = arraySpread(var13, var12, var11);
+                var6 = var7.getActiveErrorsOfType;
+                var2 = var10[var2];
+                var2 = var9.bind(var8)(var2);
+                var2 = var2.AVError;
+                var2 = var2.VIDEO_STREAM_SENDER_READY_TIMEOUT_NO_STREAM;
+                var12 = var6.bind(var7)(var2);
+                var13 = var1;
+                var2 = arraySpread(var13, var12, var11);
+                var4 = var1;
  238:
-                entity = tangon.length;
-                zuuluu = 0;
-                entity = zuuluu < entity;
-                if(!entity) { _fun00002_ip = 295; continue _fun00001 }
+                var1 = var4.length;
+                var3 = 0;
+                var1 = var3 < var1;
+                if(!var1) { _fun0001_ip = 295; continue _fun0001 }
  252:
-                entity = tangon[zuuluu];
-                oscard = entity.mediaContext;
-                michal = _closure2_slot0;
-                if(!(oscard === michal)) { _fun00002_ip = 283; continue _fun00001 }
+                var1 = var4[var3];
+                var6 = var1.mediaContext;
+                var2 = _closure2_slot0;
+                if(!(var6 === var2)) { _fun0001_ip = 283; continue _fun0001 }
  270:
-                oscard = entity.userId;
-                michal = _closure2_slot1;
-                if(!(oscard !== michal)) { _fun00002_ip = 299; continue _fun00001 }
+                var6 = var1.userId;
+                var2 = _closure2_slot1;
+                if(!(var6 !== var2)) { _fun0001_ip = 299; continue _fun0001 }
  283:
-                zuuluu = zuuluu + 1;
-                michal = tangon.length;
-                if(zuuluu < michal) { _fun00002_ip = 252; continue _fun00001 }
+                var3 = var3 + 1;
+                var2 = var4.length;
+                if(var3 < var2) { _fun0001_ip = 252; continue _fun0001 }
  295:
-                michal = undefined;
-                return michal;
+                var2 = undefined;
+                return var2;
  299:
-                entity = entity.type;
-                return entity;
+                var1 = var1.type;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

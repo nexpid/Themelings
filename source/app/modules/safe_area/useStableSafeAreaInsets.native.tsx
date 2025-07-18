@@ -1,109 +1,109 @@
 // app/modules/safe_area/useStableSafeAreaInsets.native.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    michal = function() { // Original name: getStableSafeAreaInsets
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var2 = function getStableSafeAreaInsets() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 69; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0001_ip = 69; continue _fun0001 }
  37:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 4;
-            entity = report[entity];
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.getSafeAreaInsets;
-            entity = entity.bind(zuuluu)();
-            _fun00002_ip = 99; continue _fun00001;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 4;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getSafeAreaInsets;
+            var1 = var1.bind(var3)();
+            _fun0001_ip = 99; continue _fun0001;
  69:
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            michal = 3;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.getStableSafeAreaInsets;
-            entity = michal.bind(zuuluu)();
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 3;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.getStableSafeAreaInsets;
+            var1 = var2.bind(var3)();
  99:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    option = golfie[report];
-    report = argCor;
-    report = report.bind(entity)(option);
-    var _closure1_slot4 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/safe_area/useStableSafeAreaInsets.native.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function() { // Original name: useStableSafeAreaInsets
-        report = _closure1_slot4;
-        tangon = report.useState;
-        zuuluu = _closure1_slot5;
-        oscard = undefined;
-        zuuluu = zuuluu.bind(oscard)();
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = _closure1_slot3;
-        entity = 2;
-        tangon = zuuluu.bind(oscard)(tangon, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot0 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = function() {
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(entity);
-            entity = function() {
-                zuuluu = _closure2_slot0;
-                michal = _closure1_slot5;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var8 = var7[var5];
+    var5 = native4;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot4 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/safe_area/useStableSafeAreaInsets.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useStableSafeAreaInsets() {
+        var5 = _closure1_slot4;
+        var4 = var5.useState;
+        var3 = _closure1_slot5;
+        var6 = undefined;
+        var3 = var3.bind(var6)();
+        var4 = var4.bind(var5)(var3);
+        var3 = _closure1_slot3;
+        var1 = 2;
+        var4 = var3.bind(var6)(var4, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot0 = var3;
+        var4 = var5.useEffect;
+        var3 = function() {
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = function() {
+                var3 = _closure2_slot0;
+                var2 = _closure1_slot5;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = new Array(0);
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+        var2 = new Array(0);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getStableSafeAreaInsets'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getStableSafeAreaInsets'] = var2;
+    return var1;
 })();

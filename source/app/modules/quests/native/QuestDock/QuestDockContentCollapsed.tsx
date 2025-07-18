@@ -1,255 +1,255 @@
 // app/modules/quests/native/QuestDock/QuestDockContentCollapsed.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    yankee = tangon.StyleSheet;
-    romeon = 2;
-    tangon = oscard[romeon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.QuestDockMode;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.QUEST_DOCK_MODE_CHANGE_PHYSICS;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.jsx;
-    var _closure1_slot6 = option;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    tangon = {};
-    offset = {};
-    backup = yankee.absoluteFillObject;
-    kiloes = offset;
-    yankee = copyDataProperties(kiloes, backup);
-    yankee = 'bottom';
-    offset[yankee] = entity;
-    yankee = 'zIndex';
-    offset[yankee] = romeon;
-    tangon['questDockContentCollapsed'] = offset;
-    tangon = option.bind(verify)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = {};
-    option = 'function QuestDockContentCollapsedTsx1(){const{withSpring,activeQuestDockMode,QuestDockMode,hideOnExpand,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
-    tangon['code'] = option;
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    option = "function QuestDockContentCollapsedTsx2(){const{activeQuestDockMode,QuestDockMode,hideOnExpand}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?'auto':'none'};}";
-    tangon['code'] = option;
-    var _closure1_slot10 = tangon;
-    tangon = golfie.memo;
-    michal = function(argFoo) { // Original name: QuestDockContentCollapsed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var11 = var4.StyleSheet;
+    var12 = 2;
+    var4 = var6[var12];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.QuestDockMode;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.QUEST_DOCK_MODE_CHANGE_PHYSICS;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var4 = {};
+    var10 = {};
+    var14 = var11.absoluteFillObject;
+    var15 = var10;
+    var11 = copyDataProperties(var15, var14);
+    var11 = 'bottom';
+    var10[var11] = var1;
+    var11 = 'zIndex';
+    var10[var11] = var12;
+    var4['questDockContentCollapsed'] = var10;
+    var4 = var8.bind(var9)(var4);
+    var _closure1_slot8 = var4;
+    var4 = {};
+    var8 = 'function QuestDockContentCollapsedTsx1(){const{withSpring,activeQuestDockMode,QuestDockMode,hideOnExpand,QUEST_DOCK_MODE_CHANGE_PHYSICS}=this.__closure;return{opacity:withSpring(activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?1:0,QUEST_DOCK_MODE_CHANGE_PHYSICS)};}';
+    var4['code'] = var8;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var8 = "function QuestDockContentCollapsedTsx2(){const{activeQuestDockMode,QuestDockMode,hideOnExpand}=this.__closure;return{pointerEvents:activeQuestDockMode.get()===QuestDockMode.COLLAPSED||!hideOnExpand?'auto':'none'};}";
+    var4['code'] = var8;
+    var _closure1_slot10 = var4;
+    var4 = var7.memo;
+    var2 = function QuestDockContentCollapsed(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            michal = michal.hideOnExpand;
-            tangon = undefined;
-            yankee = tangon === michal;
-            if(yankee) { _fun00002_ip = 23; continue _fun00001 }
+            var2 = arg1;
+            var2 = var2.hideOnExpand;
+            var4 = undefined;
+            var11 = var4 === var2;
+            if(var11) { _fun0001_ip = 23; continue _fun0001 }
  20:
-            yankee = michal;
+            var11 = var2;
  23:
-            var _closure2_slot0 = yankee;
-            report = _closure1_slot3;
-            zuuluu = report.useContext;
-            oscard = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 6;
-            michal = option[michal];
-            michal = oscard.bind(tangon)(michal);
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.quest;
-            zuuluu = _closure1_slot8;
-            option = zuuluu.bind(tangon)();
-            report = michal.userStatus;
-            zuuluu = null;
-            oscard = zuuluu == report;
-            michal = undefined;
-            if(oscard) { _fun00002_ip = 102; continue _fun00001 }
+            var _closure2_slot0 = var11;
+            var5 = _closure1_slot3;
+            var3 = var5.useContext;
+            var6 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 6;
+            var2 = var8[var2];
+            var2 = var6.bind(var4)(var2);
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.quest;
+            var3 = _closure1_slot8;
+            var8 = var3.bind(var4)();
+            var5 = var2.userStatus;
+            var3 = null;
+            var6 = var3 == var5;
+            var2 = undefined;
+            if(var6) { _fun0001_ip = 102; continue _fun0001 }
  96:
-            michal = report.enrolledAt;
+            var2 = var5.enrolledAt;
  102:
-            oscard = zuuluu != michal;
-            verify = _closure1_slot3;
-            report = verify.useContext;
-            zuuluu = _closure1_slot0;
-            offset = _closure1_slot2;
-            michal = 7;
-            michal = offset[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.QuestDockGestureContext;
-            michal = report.bind(verify)(michal);
-            foxtra = michal.activeQuestDockMode;
-            var _closure2_slot1 = foxtra;
-            michal = 8;
-            report = offset[michal];
-            backup = zuuluu.bind(tangon)(report);
-            verify = backup.useAnimatedStyle;
-            report = function() { // Original name: p
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var6 = var3 != var2;
+            var9 = _closure1_slot3;
+            var5 = var9.useContext;
+            var3 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 7;
+            var2 = var10[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.QuestDockGestureContext;
+            var2 = var5.bind(var9)(var2);
+            var13 = var2.activeQuestDockMode;
+            var _closure2_slot1 = var13;
+            var2 = 8;
+            var5 = var10[var2];
+            var14 = var3.bind(var4)(var5);
+            var9 = var14.useAnimatedStyle;
+            var5 = function p() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = {};
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 9;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    report = report.bind(zuuluu)(tangon);
-                    tangon = report.withSpring;
-                    golfie = _closure2_slot1;
-                    zuuluu = golfie.get;
-                    verify = zuuluu.bind(golfie)();
-                    zuuluu = _closure1_slot4;
-                    option = zuuluu.COLLAPSED;
-                    golfie = 1;
-                    zuuluu = golfie;
-                    if(!(verify !== option)) { _fun00004_ip = 80; continue _fun00003 }
+                    var1 = {};
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 9;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.withSpring;
+                    var7 = _closure2_slot1;
+                    var3 = var7.get;
+                    var9 = var3.bind(var7)();
+                    var3 = _closure1_slot4;
+                    var8 = var3.COLLAPSED;
+                    var7 = 1;
+                    var3 = var7;
+                    if(!(var9 !== var8)) { _fun0002_ip = 80; continue _fun0002 }
  68:
-                    oscard = _closure2_slot0;
-                    zuuluu = golfie;
-                    if(!oscard) { _fun00004_ip = 80; continue _fun00003 }
+                    var6 = _closure2_slot0;
+                    var3 = var7;
+                    if(!var6) { _fun0002_ip = 80; continue _fun0002 }
  78:
-                    zuuluu = 0;
+                    var3 = 0;
  80:
-                    michal = _closure1_slot5;
-                    michal = tangon.bind(report)(zuuluu, michal);
-                    entity['opacity'] = michal;
-                    return entity;
+                    var2 = _closure1_slot5;
+                    var2 = var4.bind(var5)(var3, var2);
+                    var1['opacity'] = var2;
+                    return var1;
                 }
             };
-            kiloes = {};
-            romeon = 9;
-            romeon = offset[romeon];
-            romeon = zuuluu.bind(tangon)(romeon);
-            romeon = romeon.withSpring;
-            kiloes['withSpring'] = romeon;
-            kiloes['activeQuestDockMode'] = foxtra;
-            romeon = _closure1_slot4;
-            kiloes['QuestDockMode'] = romeon;
-            kiloes['hideOnExpand'] = yankee;
-            sizing = _closure1_slot5;
-            kiloes['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = sizing;
-            report['__closure'] = kiloes;
-            kiloes = 13361221764426.0;
-            report['__workletHash'] = kiloes;
-            kiloes = _closure1_slot9;
-            report['__initData'] = kiloes;
-            verify = verify.bind(backup)(report);
-            michal = offset[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useAnimatedProps;
-            entity = function() { // Original name: S
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var15 = {};
+            var12 = 9;
+            var12 = var10[var12];
+            var12 = var3.bind(var4)(var12);
+            var12 = var12.withSpring;
+            var15['withSpring'] = var12;
+            var15['activeQuestDockMode'] = var13;
+            var12 = _closure1_slot4;
+            var15['QuestDockMode'] = var12;
+            var15['hideOnExpand'] = var11;
+            var16 = _closure1_slot5;
+            var15['QUEST_DOCK_MODE_CHANGE_PHYSICS'] = var16;
+            var5['__closure'] = var15;
+            var15 = 13361221764426.0;
+            var5['__workletHash'] = var15;
+            var15 = _closure1_slot9;
+            var5['__initData'] = var15;
+            var9 = var9.bind(var14)(var5);
+            var2 = var10[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useAnimatedProps;
+            var1 = function S() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = {};
-                    tangon = _closure2_slot1;
-                    michal = tangon.get;
-                    oscard = michal.bind(tangon)();
-                    michal = _closure1_slot4;
-                    report = michal.COLLAPSED;
-                    tangon = 'auto';
-                    michal = tangon;
-                    if(!(oscard !== report)) { _fun00006_ip = 56; continue _fun00005 }
+                    var1 = {};
+                    var4 = _closure2_slot1;
+                    var2 = var4.get;
+                    var6 = var2.bind(var4)();
+                    var2 = _closure1_slot4;
+                    var5 = var2.COLLAPSED;
+                    var4 = 'auto';
+                    var2 = var4;
+                    if(!(var6 !== var5)) { _fun0003_ip = 56; continue _fun0003 }
  42:
-                    zuuluu = _closure2_slot0;
-                    michal = tangon;
-                    if(!zuuluu) { _fun00006_ip = 56; continue _fun00005 }
+                    var3 = _closure2_slot0;
+                    var2 = var4;
+                    if(!var3) { _fun0003_ip = 56; continue _fun0003 }
  52:
-                    michal = 'none';
+                    var2 = 'none';
  56:
-                    entity['pointerEvents'] = michal;
-                    return entity;
+                    var1['pointerEvents'] = var2;
+                    return var1;
                 }
             };
-            report = {};
-            report['activeQuestDockMode'] = foxtra;
-            report['QuestDockMode'] = romeon;
-            report['hideOnExpand'] = yankee;
-            entity['__closure'] = report;
-            report = 14339269503421.0;
-            entity['__workletHash'] = report;
-            report = _closure1_slot10;
-            entity['__initData'] = report;
-            report = michal.bind(zuuluu)(entity);
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot1;
-            entity = 10;
-            entity = offset[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            offset = option.questDockContentCollapsed;
-            option = new Array(2);
-            option[0] = offset;
-            option[1] = verify;
-            entity['style'] = option;
-            entity['animatedProps'] = report;
-            option = !oscard;
-            if(oscard) { _fun00002_ip = 433; continue _fun00001 }
+            var5 = {};
+            var5['activeQuestDockMode'] = var13;
+            var5['QuestDockMode'] = var12;
+            var5['hideOnExpand'] = var11;
+            var1['__closure'] = var5;
+            var5 = 14339269503421.0;
+            var1['__workletHash'] = var5;
+            var5 = _closure1_slot10;
+            var1['__initData'] = var5;
+            var5 = var2.bind(var3)(var1);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot1;
+            var1 = 10;
+            var1 = var10[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var10 = var8.questDockContentCollapsed;
+            var8 = new Array(2);
+            var8[0] = var10;
+            var8[1] = var9;
+            var1['style'] = var8;
+            var1['animatedProps'] = var5;
+            var8 = !var6;
+            if(var6) { _fun0001_ip = 433; continue _fun0001 }
  401:
-            offset = _closure1_slot6;
-            verify = _closure1_slot1;
-            yankee = _closure1_slot2;
-            report = 11;
-            report = yankee[report];
-            verify = verify.bind(tangon)(report);
-            report = {};
-            option = offset.bind(tangon)(verify, report);
+            var10 = _closure1_slot6;
+            var9 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var5 = 11;
+            var5 = var11[var5];
+            var9 = var9.bind(var4)(var5);
+            var5 = {};
+            var8 = var10.bind(var4)(var9, var5);
  433:
-            report = new Array(2);
-            report[0] = option;
-            if(!oscard) { _fun00002_ip = 476; continue _fun00001 }
+            var5 = new Array(2);
+            var5[0] = var8;
+            if(!var6) { _fun0001_ip = 476; continue _fun0001 }
  444:
-            verify = _closure1_slot6;
-            option = _closure1_slot1;
-            offset = _closure1_slot2;
-            golfie = 12;
-            golfie = offset[golfie];
-            option = option.bind(tangon)(golfie);
-            golfie = {};
-            oscard = verify.bind(tangon)(option, golfie);
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var7 = 12;
+            var7 = var10[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = {};
+            var6 = var9.bind(var4)(var8, var7);
  476:
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/native/QuestDock/QuestDockContentCollapsed.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/native/QuestDock/QuestDockContentCollapsed.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

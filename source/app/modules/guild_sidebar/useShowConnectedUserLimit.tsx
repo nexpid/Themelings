@@ -1,199 +1,199 @@
 // app/modules/guild_sidebar/useShowConnectedUserLimit.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = golfie;
-    entity = function(argFoo) { // Original name: formatNumber
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var7;
+    var1 = function formatNumber(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = arguments[1];
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00002_ip = 18; continue _fun00001 }
+            var4 = arg1;
+            var3 = arguments[1];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0001_ip = 18; continue _fun0001 }
  12:
-            zuuluu = 1000;
+            var3 = 1000;
  18:
-            if(!(!(tangon >= zuuluu))) { _fun00002_ip = 58; continue _fun00001 }
+            if(!(!(var4 >= var3))) { _fun0001_ip = 58; continue _fun0001 }
  22:
-            michal = tangon.toFixed;
-            entity = 0;
-            oscard = michal.bind(tangon)(entity);
-            report = oscard.padStart;
-            michal = 2;
-            entity = '0';
-            entity = report.bind(oscard)(michal, entity);
-            _fun00002_ip = 124; continue _fun00001;
+            var2 = var4.toFixed;
+            var1 = 0;
+            var6 = var2.bind(var4)(var1);
+            var5 = var6.padStart;
+            var2 = 2;
+            var1 = '0';
+            var1 = var5.bind(var6)(var2, var1);
+            _fun0001_ip = 124; continue _fun0001;
  58:
-            michal = global;
-            golfie = michal.Math;
-            oscard = golfie.floor;
-            report = tangon / zuuluu;
-            oscard = oscard.bind(golfie)(report);
-            golfie = tangon % zuuluu;
-            report = '';
-            zuuluu = 0;
-            tangon = report;
-            if(!(golfie != zuuluu)) { _fun00002_ip = 102; continue _fun00001 }
+            var2 = global;
+            var7 = var2.Math;
+            var6 = var7.floor;
+            var5 = var4 / var3;
+            var6 = var6.bind(var7)(var5);
+            var7 = var4 % var3;
+            var5 = '';
+            var3 = 0;
+            var4 = var5;
+            if(!(var7 != var3)) { _fun0001_ip = 102; continue _fun0001 }
  98:
-            tangon = '+';
+            var4 = '+';
  102:
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'k';
-            entity = zuuluu.bind(report)(oscard, michal, tangon);
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = 'k';
+            var1 = var3.bind(var5)(var6, var2, var4);
  124:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = entity;
-    tangon = function(argFoo) { // Original name: useConnectedUserLimit
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var1;
+    var4 = function useConnectedUserLimit(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = entity.channel;
-            report = entity.video;
-            tangon = entity.considerMaxStageVoiceUserLimit;
-            oscard = undefined;
-            if(!(tangon === oscard)) { _fun00004_ip = 30; continue _fun00003 }
+            var1 = arg1;
+            var2 = var1.channel;
+            var5 = var1.video;
+            var4 = var1.considerMaxStageVoiceUserLimit;
+            var6 = undefined;
+            if(!(var4 === var6)) { _fun0002_ip = 30; continue _fun0002 }
  28:
-            tangon = true;
+            var4 = true;
  30:
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 1;
-            entity = option[entity];
-            entity = golfie.bind(oscard)(entity);
-            entity = entity.bind(oscard)(michal);
-            verify = entity.limit;
-            oscard = michal.userLimit;
-            entity = 0;
-            oscard = oscard > entity;
-            option = -1;
-            if(!oscard) { _fun00004_ip = 91; continue _fun00003 }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 1;
+            var1 = var8[var1];
+            var1 = var7.bind(var6)(var1);
+            var1 = var1.bind(var6)(var2);
+            var9 = var1.limit;
+            var6 = var2.userLimit;
+            var1 = 0;
+            var6 = var6 > var1;
+            var8 = -1;
+            if(!var6) { _fun0002_ip = 91; continue _fun0002 }
  85:
-            option = michal.userLimit;
+            var8 = var2.userLimit;
  91:
-            if(!report) { _fun00004_ip = 98; continue _fun00003 }
+            if(!var5) { _fun0002_ip = 98; continue _fun0002 }
  94:
-            report = verify > entity;
+            var5 = var9 > var1;
  98:
-            michal = option;
-            if(!report) { _fun00004_ip = 133; continue _fun00003 }
+            var2 = var8;
+            if(!var5) { _fun0002_ip = 133; continue _fun0002 }
  104:
-            report = verify;
-            if(!(option > entity)) { _fun00004_ip = 130; continue _fun00003 }
+            var5 = var9;
+            if(!(var8 > var1)) { _fun0002_ip = 130; continue _fun0002 }
  111:
-            oscard = global;
-            golfie = oscard.Math;
-            oscard = golfie.min;
-            report = oscard.bind(golfie)(option, verify);
+            var6 = global;
+            var7 = var6.Math;
+            var6 = var7.min;
+            var5 = var6.bind(var7)(var8, var9);
  130:
-            michal = report;
+            var2 = var5;
  133:
-            if(!tangon) { _fun00004_ip = 146; continue _fun00003 }
+            if(!var4) { _fun0002_ip = 146; continue _fun0002 }
  136:
-            zuuluu = _closure1_slot2;
-            entity = 0;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 149; continue _fun00003 }
+            var3 = _closure1_slot2;
+            var1 = 0;
+            if(!(var2 !== var3)) { _fun0002_ip = 149; continue _fun0002 }
  146:
-            entity = michal;
+            var1 = var2;
  149:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = report.MAX_STAGE_VOICE_USER_LIMIT;
-    var _closure1_slot2 = report;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_sidebar/useShowConnectedUserLimit.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: useShowConnectedUserLimit
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.MAX_STAGE_VOICE_USER_LIMIT;
+    var _closure1_slot2 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_sidebar/useShowConnectedUserLimit.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function useShowConnectedUserLimit(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            oscard = michal.channel;
-            zuuluu = michal.locked;
-            entity = michal.video;
-            michal = michal.selected;
-            report = _closure1_slot4;
-            tangon = {};
-            tangon['channel'] = oscard;
-            tangon['video'] = entity;
-            entity = undefined;
-            tangon = report.bind(entity)(tangon);
-            entity = 0;
-            entity = tangon > entity;
-            if(!entity) { _fun00006_ip = 63; continue _fun00005 }
+            var2 = arg1;
+            var6 = var2.channel;
+            var3 = var2.locked;
+            var1 = var2.video;
+            var2 = var2.selected;
+            var5 = _closure1_slot4;
+            var4 = {};
+            var4['channel'] = var6;
+            var4['video'] = var1;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var4);
+            var1 = 0;
+            var1 = var4 > var1;
+            if(!var1) { _fun0003_ip = 63; continue _fun0003 }
  60:
-            entity = !zuuluu;
+            var1 = !var3;
  63:
-            if(!entity) { _fun00006_ip = 69; continue _fun00005 }
+            if(!var1) { _fun0003_ip = 69; continue _fun0003 }
  66:
-            entity = !michal;
+            var1 = !var2;
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = report;
-    zuuluu['useConnectedUserLimit'] = tangon;
-    michal = function(argFoo) { // Original name: useConnectedUserLimitFormatted
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['default'] = var5;
+    var3['useConnectedUserLimit'] = var4;
+    var2 = function useConnectedUserLimitFormatted(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            report = entity.channel;
-            tangon = entity.video;
-            oscard = entity.userCount;
-            michal = _closure1_slot4;
-            entity = {};
-            entity['channel'] = report;
-            entity['video'] = tangon;
-            report = undefined;
-            tangon = michal.bind(report)(entity);
-            entity = 0;
-            golfie = tangon <= entity;
-            michal = null;
-            entity = null;
-            if(golfie) { _fun00008_ip = 118; continue _fun00007 }
+            var1 = arg1;
+            var5 = var1.channel;
+            var4 = var1.video;
+            var6 = var1.userCount;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var1['channel'] = var5;
+            var1['video'] = var4;
+            var5 = undefined;
+            var4 = var2.bind(var5)(var1);
+            var1 = 0;
+            var7 = var4 <= var1;
+            var2 = null;
+            var1 = null;
+            if(var7) { _fun0004_ip = 118; continue _fun0004 }
  58:
-            if(!(michal == oscard)) { _fun00008_ip = 73; continue _fun00007 }
+            if(!(var2 == var6)) { _fun0004_ip = 73; continue _fun0004 }
  62:
-            michal = _closure1_slot3;
-            michal = michal.bind(report)(tangon);
-            _fun00008_ip = 115; continue _fun00007;
+            var2 = _closure1_slot3;
+            var2 = var2.bind(var5)(var4);
+            _fun0004_ip = 115; continue _fun0004;
  73:
-            zuuluu = _closure1_slot3;
-            golfie = zuuluu.bind(report)(oscard);
-            oscard = zuuluu.bind(report)(tangon);
-            zuuluu = global;
-            zuuluu = zuuluu.HermesInternal;
-            report = zuuluu.concat;
-            tangon = '';
-            zuuluu = '/';
-            michal = report.bind(tangon)(golfie, zuuluu, oscard);
+            var3 = _closure1_slot3;
+            var7 = var3.bind(var5)(var6);
+            var6 = var3.bind(var5)(var4);
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var5 = var3.concat;
+            var4 = '';
+            var3 = '/';
+            var2 = var5.bind(var4)(var7, var3, var6);
  115:
-            entity = michal;
+            var1 = var2;
  118:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useConnectedUserLimitFormatted'] = michal;
-    return entity;
+    var3['useConnectedUserLimitFormatted'] = var2;
+    return var1;
 })();

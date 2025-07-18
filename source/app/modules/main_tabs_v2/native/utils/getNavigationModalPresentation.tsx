@@ -1,122 +1,122 @@
 // app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        var _closure1_slot1 = oscard;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, tangon);
-        tangon = {};
-        golfie = 0;
-        option = oscard[golfie];
-        entity = undefined;
-        verify = report.bind(entity)(option);
-        option = verify.isAndroid;
-        option = option.bind(verify)();
-        if(option) { _fun00002_ip = 115; continue _fun00001 }
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var _closure1_slot1 = var6;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var4);
+        var4 = {};
+        var7 = 0;
+        var8 = var6[var7];
+        var1 = undefined;
+        var9 = var5.bind(var1)(var8);
+        var8 = var9.isAndroid;
+        var8 = var8.bind(var9)();
+        if(var8) { _fun0001_ip = 115; continue _fun0001 }
  78:
-        option = 2;
-        option = oscard[option];
-        verify = report.bind(entity)(option);
-        option = verify.isIpadOS;
-        verify = option.bind(verify)();
-        option = 'modal';
-        if(!verify) { _fun00002_ip = 113; continue _fun00001 }
+        var8 = 2;
+        var8 = var6[var8];
+        var9 = var5.bind(var1)(var8);
+        var8 = var9.isIpadOS;
+        var9 = var8.bind(var9)();
+        var8 = 'modal';
+        if(!var9) { _fun0001_ip = 113; continue _fun0001 }
  107:
-        option = 'fullScreenModal';
+        var8 = 'fullScreenModal';
  113:
-        _fun00002_ip = 153; continue _fun00001;
+        _fun0001_ip = 153; continue _fun0001;
  115:
-        verify = 1;
-        verify = oscard[verify];
-        offset = report.bind(entity)(verify);
-        verify = offset.getIsWindowLarge;
-        offset = verify.bind(offset)();
-        verify = 'modal';
-        if(!offset) { _fun00002_ip = 150; continue _fun00001 }
+        var9 = 1;
+        var9 = var6[var9];
+        var10 = var5.bind(var1)(var9);
+        var9 = var10.getIsWindowLarge;
+        var10 = var9.bind(var10)();
+        var9 = 'modal';
+        if(!var10) { _fun0001_ip = 150; continue _fun0001 }
  144:
-        verify = 'fullScreenModal';
+        var9 = 'fullScreenModal';
  150:
-        option = verify;
+        var8 = var9;
  153:
-        tangon['presentation'] = option;
-        golfie = oscard[golfie];
-        option = report.bind(entity)(golfie);
-        golfie = option.isAndroid;
-        golfie = golfie.bind(option)();
-        golfie = !golfie;
-        tangon['lockOrientation'] = golfie;
-        var _closure1_slot2 = tangon;
-        tangon = 4;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx';
-        tangon = report.bind(oscard)(tangon);
-        michal = function() { // Original name: getNavigationModalPresentation
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var4['presentation'] = var8;
+        var7 = var6[var7];
+        var8 = var5.bind(var1)(var7);
+        var7 = var8.isAndroid;
+        var7 = var7.bind(var8)();
+        var7 = !var7;
+        var4['lockOrientation'] = var7;
+        var _closure1_slot2 = var4;
+        var4 = 4;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx';
+        var4 = var5.bind(var6)(var4);
+        var2 = function getNavigationModalPresentation() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = arguments[0];
-                oscard = undefined;
-                if(!(entity === oscard)) { _fun00004_ip = 16; continue _fun00003 }
+                var1 = arguments[0];
+                var6 = undefined;
+                if(!(var1 === var6)) { _fun0002_ip = 16; continue _fun0002 }
  9:
-                entity = _closure1_slot2;
+                var1 = _closure1_slot2;
  16:
-                michal = entity.presentation;
-                if(!(michal === oscard)) { _fun00004_ip = 39; continue _fun00003 }
+                var2 = var1.presentation;
+                if(!(var2 === var6)) { _fun0002_ip = 39; continue _fun0002 }
  26:
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.presentation;
+                var3 = _closure1_slot2;
+                var2 = var3.presentation;
  39:
-                zuuluu = entity.lockOrientation;
-                if(!(zuuluu === oscard)) { _fun00004_ip = 78; continue _fun00003 }
+                var3 = var1.lockOrientation;
+                if(!(var3 === var6)) { _fun0002_ip = 78; continue _fun0002 }
  49:
-                entity = _closure1_slot2;
-                entity = entity.lockOrientation;
-                if(!entity) { _fun00004_ip = 75; continue _fun00003 }
+                var1 = _closure1_slot2;
+                var1 = var1.lockOrientation;
+                if(!var1) { _fun0002_ip = 75; continue _fun0002 }
  65:
-                tangon = 'transparentModal';
-                entity = tangon !== michal;
+                var4 = 'transparentModal';
+                var1 = var4 !== var2;
  75:
-                zuuluu = entity;
+                var3 = var1;
  78:
-                entity = {};
-                entity['presentation'] = michal;
-                michal = undefined;
-                if(!zuuluu) { _fun00004_ip = 161; continue _fun00003 }
+                var1 = {};
+                var1['presentation'] = var2;
+                var2 = undefined;
+                if(!var3) { _fun0002_ip = 161; continue _fun0002 }
  90:
-                tangon = _closure1_slot0;
-                golfie = _closure1_slot1;
-                zuuluu = 3;
-                report = golfie[zuuluu];
-                option = tangon.bind(oscard)(report);
-                report = option.getOrientation;
-                report = report.bind(option)();
-                zuuluu = golfie[zuuluu];
-                zuuluu = tangon.bind(oscard)(zuuluu);
-                zuuluu = zuuluu.OrientationType;
-                tangon = zuuluu.PORTRAIT;
-                zuuluu = 'landscape';
-                if(!(report === tangon)) { _fun00004_ip = 158; continue _fun00003 }
+                var4 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var3 = 3;
+                var5 = var7[var3];
+                var8 = var4.bind(var6)(var5);
+                var5 = var8.getOrientation;
+                var5 = var5.bind(var8)();
+                var3 = var7[var3];
+                var3 = var4.bind(var6)(var3);
+                var3 = var3.OrientationType;
+                var4 = var3.PORTRAIT;
+                var3 = 'landscape';
+                if(!(var5 === var4)) { _fun0002_ip = 158; continue _fun0002 }
  152:
-                zuuluu = 'portrait';
+                var3 = 'portrait';
  158:
-                michal = zuuluu;
+                var2 = var3;
  161:
-                entity['orientation'] = michal;
-                return entity;
+                var1['orientation'] = var2;
+                return var1;
             }
         };
-        zuuluu['default'] = michal;
-        return entity;
+        var3['default'] = var2;
+        return var1;
     }
 })();

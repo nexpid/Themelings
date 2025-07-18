@@ -1,55 +1,55 @@
 // app/utils/web/WindowIdUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    tangon = function(argFoo) { // Original name: getWindowId
-        entity = argFoo;
-        entity = entity.__DISCORD_WINDOW_ID;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var4 = function getWindowId(arg1) {
+        var1 = arg1;
+        var1 = var1.__DISCORD_WINDOW_ID;
+        return var1;
     };
-    var _closure1_slot2 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 1;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/web/WindowIdUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getWindowId'] = tangon;
-    tangon = function(argFoo) { // Original name: setupWindowId
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.uniqueId;
-        entity = 'window-';
-        entity = michal.bind(zuuluu)(entity);
-        michal = argFoo;
-        michal['__DISCORD_WINDOW_ID'] = entity;
-        return entity;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 1;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/web/WindowIdUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getWindowId'] = var4;
+    var4 = function setupWindowId(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.uniqueId;
+        var1 = 'window-';
+        var1 = var2.bind(var3)(var1);
+        var2 = arg1;
+        var2['__DISCORD_WINDOW_ID'] = var1;
+        return var1;
     };
-    zuuluu['setupWindowId'] = tangon;
-    michal = function() { // Original name: getMainWindowId
-        zuuluu = _closure1_slot2;
-        entity = global;
-        michal = entity.window;
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var3['setupWindowId'] = var4;
+    var2 = function getMainWindowId() {
+        var3 = _closure1_slot2;
+        var1 = global;
+        var2 = var1.window;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    zuuluu['getMainWindowId'] = michal;
-    return entity;
+    var3['getMainWindowId'] = var2;
+    return var1;
 })();

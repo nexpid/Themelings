@@ -1,84 +1,84 @@
 // app/modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Dimensions;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useFastestListPropsEstimatedListSize
-        entity = argFoo;
-        zuuluu = entity.estimatedListSize;
-        var _closure2_slot0 = zuuluu;
-        entity = entity.horizontal;
-        var _closure2_slot1 = entity;
-        tangon = _closure1_slot1;
-        zuuluu = tangon.useState;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Dimensions;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/fastest_list/props/useFastestListPropsEstimatedListSize.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useFastestListPropsEstimatedListSize(arg1) {
+        var1 = arg1;
+        var3 = var1.estimatedListSize;
+        var _closure2_slot0 = var3;
+        var1 = var1.horizontal;
+        var _closure2_slot1 = var1;
+        var4 = _closure1_slot1;
+        var3 = var4.useState;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                entity = 'windowSize';
-                if(!(entity !== zuuluu)) { _fun00002_ip = 21; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var1 = 'windowSize';
+                if(!(var1 !== var3)) { _fun0001_ip = 21; continue _fun0001 }
  15:
-                entity = _closure2_slot0;
-                _fun00002_ip = 64; continue _fun00001;
+                var1 = _closure2_slot0;
+                _fun0001_ip = 64; continue _fun0001;
  21:
-                michal = _closure2_slot1;
-                report = _closure1_slot2;
-                tangon = report.get;
-                zuuluu = 'window';
-                zuuluu = tangon.bind(report)(zuuluu);
-                if(michal) { _fun00002_ip = 56; continue _fun00001 }
+                var2 = _closure2_slot1;
+                var5 = _closure1_slot2;
+                var4 = var5.get;
+                var3 = 'window';
+                var3 = var4.bind(var5)(var3);
+                if(var2) { _fun0001_ip = 56; continue _fun0001 }
  49:
-                michal = zuuluu.height;
-                _fun00002_ip = 61; continue _fun00001;
+                var2 = var3.height;
+                _fun0001_ip = 61; continue _fun0001;
  56:
-                michal = zuuluu.width;
+                var2 = var3.width;
  61:
-                entity = michal;
+                var1 = var2;
  64:
-                return entity;
+                return var1;
             }
         };
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = _closure1_slot0;
-        michal = undefined;
-        entity = 2;
-        zuuluu = zuuluu.bind(michal)(tangon, entity);
-        entity = 0;
-        entity = zuuluu[entity];
-        michal = 1;
-        michal = zuuluu[michal];
-        return entity;
+        var4 = var3.bind(var4)(var2);
+        var3 = _closure1_slot0;
+        var2 = undefined;
+        var1 = 2;
+        var3 = var3.bind(var2)(var4, var1);
+        var1 = 0;
+        var1 = var3[var1];
+        var2 = 1;
+        var2 = var3[var2];
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,953 +1,953 @@
 // app/lib/pushnotification/PushNotification.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        entity = argBaz;
-        var _closure1_slot1 = entity;
-        var _closure1_slot2 = oscard;
-        entity = function(argFoo) { // Original name: createNotification
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var1 = native3;
+        var _closure1_slot1 = var1;
+        var _closure1_slot2 = var6;
+        var1 = function createNotification(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                var _closure2_slot0 = michal;
-                entity = null;
-                michal = entity == michal;
-                if(michal) { _fun00004_ip = 119; continue _fun00003 }
+                var2 = arg1;
+                var _closure2_slot0 = var2;
+                var1 = null;
+                var2 = var1 == var2;
+                if(var2) { _fun0002_ip = 119; continue _fun0002 }
  18:
-                michal = {};
-                tangon = function() { // Original name: getData
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var2 = {};
+                var4 = function getData() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = {};
-                        zuuluu = _closure2_slot0;
-                        golfie = entity;
-                        oscard = zuuluu;
-                        tangon = copyDataProperties(golfie, oscard);
-                        tangon = zuuluu.message;
-                        zuuluu = null;
-                        tangon = zuuluu != tangon;
-                        if(!tangon) { _fun00006_ip = 61; continue _fun00005 }
+                        var1 = {};
+                        var3 = _closure2_slot0;
+                        var7 = var1;
+                        var6 = var3;
+                        var4 = copyDataProperties(var7, var6);
+                        var4 = var3.message;
+                        var3 = null;
+                        var4 = var3 != var4;
+                        if(!var4) { _fun0003_ip = 61; continue _fun0003 }
  33:
-                        tangon = global;
-                        report = tangon.JSON;
-                        tangon = report.parse;
-                        michal = _closure2_slot0;
-                        michal = michal.message;
-                        zuuluu = tangon.bind(report)(michal);
+                        var4 = global;
+                        var5 = var4.JSON;
+                        var4 = var5.parse;
+                        var2 = _closure2_slot0;
+                        var2 = var2.message;
+                        var3 = var4.bind(var5)(var2);
  61:
-                        michal = 'message';
-                        entity[michal] = zuuluu;
-                        return entity;
+                        var2 = 'message';
+                        var1[var2] = var3;
+                        return var1;
                     }
                 };
-                michal['getData'] = tangon;
-                tangon = function() { // Original name: getMessage
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getData'] = var4;
+                var4 = function getMessage() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getMessage'] = tangon;
-                tangon = function() { // Original name: getSound
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getMessage'] = var4;
+                var4 = function getSound() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getSound'] = tangon;
-                tangon = function() { // Original name: getCategory
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getSound'] = var4;
+                var4 = function getCategory() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getCategory'] = tangon;
-                tangon = function() { // Original name: getAlert
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getCategory'] = var4;
+                var4 = function getAlert() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getAlert'] = tangon;
-                tangon = function() { // Original name: getContentAvailable
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getAlert'] = var4;
+                var4 = function getContentAvailable() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getContentAvailable'] = tangon;
-                tangon = function() { // Original name: getBadgeCount
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = zuuluu.prototype;
-                    michal = Object.create(entity, {constructor: {value: zuuluu}});
-                    tangon = 'TODO: Implement on Android';
-                    report = michal;
-                    entity = new report[zuuluu](tangon, zuuluu);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getContentAvailable'] = var4;
+                var4 = function getBadgeCount() {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var3.prototype;
+                    var2 = Object.create(var1, {constructor: {value: var3}});
+                    var4 = 'TODO: Implement on Android';
+                    var5 = var2;
+                    var1 = new var5[var3](var4, var3);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['getBadgeCount'] = tangon;
-                zuuluu = function(argFoo) { // Original name: finish
-                    entity = global;
-                    zuuluu = entity.Error;
-                    entity = entity.HermesInternal;
-                    tangon = entity.concat;
-                    michal = 'Not implemented on Android: ';
-                    entity = argFoo;
-                    report = tangon.bind(michal)(entity);
-                    michal = zuuluu.prototype;
-                    michal = Object.create(michal, {constructor: {value: zuuluu}});
-                    oscard = michal;
-                    entity = new oscard[zuuluu](report, tangon);
-                    entity = entity instanceof Object ? entity : michal;
-                    throw entity;
+                var2['getBadgeCount'] = var4;
+                var3 = function finish(arg1) {
+                    var1 = global;
+                    var3 = var1.Error;
+                    var1 = var1.HermesInternal;
+                    var4 = var1.concat;
+                    var2 = 'Not implemented on Android: ';
+                    var1 = arg1;
+                    var5 = var4.bind(var2)(var1);
+                    var2 = var3.prototype;
+                    var2 = Object.create(var2, {constructor: {value: var3}});
+                    var6 = var2;
+                    var1 = new var6[var3](var5, var4);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
                 };
-                michal['finish'] = zuuluu;
-                entity = michal;
+                var2['finish'] = var3;
+                var1 = var2;
  119:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot5 = entity;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, michal);
-        entity = 0;
-        michal = oscard[entity];
-        entity = undefined;
-        michal = report.bind(entity)(michal);
-        golfie = michal.NativeModules;
-        verify = michal.NativeEventEmitter;
-        option = golfie.PushNotificationAndroid;
-        var _closure1_slot3 = option;
-        michal = null;
-        option = michal != option;
-        if(!option) { _fun00002_ip = 139; continue _fun00001 }
+        var _closure1_slot5 = var1;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var2);
+        var1 = 0;
+        var2 = var6[var1];
+        var1 = undefined;
+        var2 = var5.bind(var1)(var2);
+        var7 = var2.NativeModules;
+        var9 = var2.NativeEventEmitter;
+        var8 = var7.PushNotificationAndroid;
+        var _closure1_slot3 = var8;
+        var2 = null;
+        var8 = var2 != var8;
+        if(!var8) { _fun0001_ip = 139; continue _fun0001 }
  113:
-        romeon = golfie.PushNotificationAndroid;
-        option = verify.prototype;
-        option = Object.create(option, {constructor: {value: verify}});
-        foxtra = option;
-        golfie = new foxtra[verify](romeon, yankee);
-        michal = golfie instanceof Object ? golfie : option;
+        var12 = var7.PushNotificationAndroid;
+        var8 = var9.prototype;
+        var8 = Object.create(var8, {constructor: {value: var9}});
+        var13 = var8;
+        var7 = new var13[var9](var12, var11);
+        var2 = var7 instanceof Object ? var7 : var8;
  139:
-        var _closure1_slot4 = michal;
-        michal = {};
-        golfie = function() { // Original name: getInitialNotification
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var _closure1_slot4 = var2;
+        var2 = {};
+        var7 = function getInitialNotification() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 1;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                tangon = tangon.bind(zuuluu)(michal);
-                michal = tangon.isAndroid;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00008_ip = 69; continue _fun00007 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 1;
+                var2 = var3[var2];
+                var3 = undefined;
+                var4 = var4.bind(var3)(var2);
+                var2 = var4.isAndroid;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0004_ip = 69; continue _fun0004 }
  37:
-                michal = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 2;
-                entity = tangon[entity];
-                michal = michal.bind(zuuluu)(entity);
-                entity = michal.getInitialNotification;
-                entity = entity.bind(michal)();
-                _fun00008_ip = 106; continue _fun00007;
+                var2 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 2;
+                var1 = var4[var1];
+                var2 = var2.bind(var3)(var1);
+                var1 = var2.getInitialNotification;
+                var1 = var1.bind(var2)();
+                _fun0004_ip = 106; continue _fun0004;
  69:
-                michal = global;
-                tangon = michal.Promise;
-                michal = tangon.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: tangon}});
-                report = function(argFoo) {
-                    michal = argFoo;
-                    var _closure3_slot0 = michal;
-                    zuuluu = _closure1_slot3;
-                    michal = zuuluu.getInitialNotification;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = zuuluu.then;
-                    entity = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        tangon = _closure1_slot5;
-                        entity = undefined;
-                        michal = argFoo;
-                        michal = tangon.bind(entity)(michal);
-                        michal = zuuluu.bind(entity)(michal);
-                        return entity;
+                var2 = global;
+                var4 = var2.Promise;
+                var2 = var4.prototype;
+                var3 = Object.create(var2, {constructor: {value: var4}});
+                var5 = function(arg1) {
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var3 = _closure1_slot3;
+                    var2 = var3.getInitialNotification;
+                    var3 = var2.bind(var3)();
+                    var2 = var3.then;
+                    var1 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var4 = _closure1_slot5;
+                        var1 = undefined;
+                        var2 = arg1;
+                        var2 = var4.bind(var1)(var2);
+                        var2 = var3.bind(var1)(var2);
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                oscard = zuuluu;
-                michal = new oscard[tangon](report, tangon);
-                entity = michal instanceof Object ? michal : zuuluu;
+                var6 = var3;
+                var2 = new var6[var4](var5, var4);
+                var1 = var2 instanceof Object ? var2 : var3;
  106:
-                return entity;
+                return var1;
             }
         };
-        michal['getInitialNotification'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: setCurrentUser
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var2['getInitialNotification'] = var7;
+        var7 = function setCurrentUser(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00010_ip = 59; continue _fun00009 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0005_ip = 59; continue _fun0005 }
  37:
-                report = _closure1_slot3;
-                tangon = report.setCurrentUser;
-                zuuluu = argFoo;
-                michal = argBar;
-                michal = tangon.bind(report)(zuuluu, michal);
+                var5 = _closure1_slot3;
+                var4 = var5.setCurrentUser;
+                var3 = arg1;
+                var2 = arg2;
+                var2 = var4.bind(var5)(var3, var2);
  59:
-                return entity;
+                return var1;
             }
         };
-        michal['setCurrentUser'] = golfie;
-        golfie = function() { // Original name: clearPushNotificationLogs
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var2['setCurrentUser'] = var7;
+        var7 = function clearPushNotificationLogs() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00012_ip = 72; continue _fun00011 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0006_ip = 72; continue _fun0006 }
  37:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
-                michal = 3;
-                michal = tangon[michal];
-                michal = zuuluu.bind(entity)(michal);
-                zuuluu = michal.default;
-                michal = zuuluu.clearLogs;
-                michal = michal.bind(zuuluu)();
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 3;
+                var2 = var4[var2];
+                var2 = var3.bind(var1)(var2);
+                var3 = var2.default;
+                var2 = var3.clearLogs;
+                var2 = var2.bind(var3)();
  72:
-                return entity;
+                return var1;
             }
         };
-        michal['clearPushNotificationLogs'] = golfie;
-        golfie = function(argFoo) { // Original name: setApplicationIconBadgeNumber
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var2['clearPushNotificationLogs'] = var7;
+        var7 = function setApplicationIconBadgeNumber(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00014_ip = 71; continue _fun00013 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0007_ip = 71; continue _fun0007 }
  37:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.setApplicationIconBadgeNumber;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 2;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setApplicationIconBadgeNumber;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  71:
-                return entity;
+                return var1;
             }
         };
-        michal['setApplicationIconBadgeNumber'] = golfie;
-        golfie = function() { // Original name: clearAllNotifications
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var2['setApplicationIconBadgeNumber'] = var7;
+        var7 = function clearAllNotifications() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00016_ip = 72; continue _fun00015 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0008_ip = 72; continue _fun0008 }
  37:
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                zuuluu = 2;
-                zuuluu = report[zuuluu];
-                report = tangon.bind(entity)(zuuluu);
-                tangon = report.setApplicationIconBadgeNumber;
-                zuuluu = 0;
-                zuuluu = tangon.bind(report)(zuuluu);
-                _fun00016_ip = 86; continue _fun00015;
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 2;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.setApplicationIconBadgeNumber;
+                var3 = 0;
+                var3 = var4.bind(var5)(var3);
+                _fun0008_ip = 86; continue _fun0008;
  72:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.clearAllNotifications;
-                michal = michal.bind(zuuluu)();
+                var3 = _closure1_slot3;
+                var2 = var3.clearAllNotifications;
+                var2 = var2.bind(var3)();
  86:
-                return entity;
+                return var1;
             }
         };
-        michal['clearAllNotifications'] = golfie;
-        golfie = function(argFoo) { // Original name: presentLocalNotification
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var2['clearAllNotifications'] = var7;
+        var7 = function presentLocalNotification(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                tangon = argFoo;
-                report = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                report = report.bind(entity)(zuuluu);
-                zuuluu = report.isAndroid;
-                zuuluu = zuuluu.bind(report)();
-                if(zuuluu) { _fun00018_ip = 73; continue _fun00017 }
+                var4 = arg1;
+                var5 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.isAndroid;
+                var3 = var3.bind(var5)();
+                if(var3) { _fun0009_ip = 73; continue _fun0009 }
  40:
-                report = _closure1_slot1;
-                oscard = _closure1_slot2;
-                zuuluu = 2;
-                zuuluu = oscard[zuuluu];
-                report = report.bind(entity)(zuuluu);
-                zuuluu = report.presentLocalNotification;
-                zuuluu = zuuluu.bind(report)(tangon);
-                _fun00018_ip = 88; continue _fun00017;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 2;
+                var3 = var6[var3];
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.presentLocalNotification;
+                var3 = var3.bind(var5)(var4);
+                _fun0009_ip = 88; continue _fun0009;
  73:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.presentLocalNotification;
-                michal = michal.bind(zuuluu)(tangon);
+                var3 = _closure1_slot3;
+                var2 = var3.presentLocalNotification;
+                var2 = var2.bind(var3)(var4);
  88:
-                return entity;
+                return var1;
             }
         };
-        michal['presentLocalNotification'] = golfie;
-        golfie = function(argFoo) { // Original name: scheduleLocalNotification
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        var2['presentLocalNotification'] = var7;
+        var7 = function scheduleLocalNotification(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00020_ip = 71; continue _fun00019 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0010_ip = 71; continue _fun0010 }
  37:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.scheduleLocalNotification;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 2;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.scheduleLocalNotification;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  71:
-                return entity;
+                return var1;
             }
         };
-        michal['scheduleLocalNotification'] = golfie;
-        golfie = function(argFoo) { // Original name: getScheduledLocalNotifications
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        var2['scheduleLocalNotification'] = var7;
+        var7 = function getScheduledLocalNotifications(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00022_ip = 71; continue _fun00021 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0011_ip = 71; continue _fun0011 }
  37:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.getScheduledLocalNotifications;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 2;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.getScheduledLocalNotifications;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  71:
-                return entity;
+                return var1;
             }
         };
-        michal['getScheduledLocalNotifications'] = golfie;
-        golfie = function(argFoo) { // Original name: cancelLocalNotifications
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+        var2['getScheduledLocalNotifications'] = var7;
+        var7 = function cancelLocalNotifications(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00024_ip = 71; continue _fun00023 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0012_ip = 71; continue _fun0012 }
  37:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.cancelLocalNotifications;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 2;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.cancelLocalNotifications;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  71:
-                return entity;
+                return var1;
             }
         };
-        michal['cancelLocalNotifications'] = golfie;
-        golfie = function() { // Original name: cancelAllLocalNotifications
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+        var2['cancelLocalNotifications'] = var7;
+        var7 = function cancelAllLocalNotifications() {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00026_ip = 67; continue _fun00025 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0013_ip = 67; continue _fun0013 }
  37:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 2;
-                michal = tangon[michal];
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.cancelAllLocalNotifications;
-                michal = michal.bind(zuuluu)();
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 2;
+                var2 = var4[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.cancelAllLocalNotifications;
+                var2 = var2.bind(var3)();
  67:
-                return entity;
+                return var1;
             }
         };
-        michal['cancelAllLocalNotifications'] = golfie;
-        golfie = function(argFoo) { // Original name: checkPermissions
-            _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+        var2['cancelAllLocalNotifications'] = var7;
+        var7 = function checkPermissions(arg1) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-                zuuluu = argFoo;
-                report = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 1;
-                tangon = tangon[entity];
-                entity = undefined;
-                report = report.bind(entity)(tangon);
-                tangon = report.isAndroid;
-                tangon = tangon.bind(report)();
-                if(tangon) { _fun00028_ip = 73; continue _fun00027 }
+                var3 = arg1;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 1;
+                var4 = var4[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var4);
+                var4 = var5.isAndroid;
+                var4 = var4.bind(var5)();
+                if(var4) { _fun0014_ip = 73; continue _fun0014 }
  40:
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                michal = 2;
-                michal = report[michal];
-                tangon = tangon.bind(entity)(michal);
-                michal = tangon.checkPermissions;
-                michal = michal.bind(tangon)(zuuluu);
-                _fun00028_ip = 80; continue _fun00027;
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 2;
+                var2 = var5[var2];
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.checkPermissions;
+                var2 = var2.bind(var4)(var3);
+                _fun0014_ip = 80; continue _fun0014;
  73:
-                michal = {};
-                michal = zuuluu.bind(entity)(michal);
+                var2 = {};
+                var2 = var3.bind(var1)(var2);
  80:
-                return entity;
+                return var1;
             }
         };
-        michal['checkPermissions'] = golfie;
-        golfie = function(argFoo) { // Original name: requestPermissions
-            _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+        var2['checkPermissions'] = var7;
+        var7 = function requestPermissions(arg1) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 1;
-                michal = zuuluu[michal];
-                zuuluu = undefined;
-                tangon = tangon.bind(zuuluu)(michal);
-                michal = tangon.isAndroid;
-                michal = michal.bind(tangon)();
-                if(michal) { _fun00030_ip = 73; continue _fun00029 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 1;
+                var2 = var3[var2];
+                var3 = undefined;
+                var4 = var4.bind(var3)(var2);
+                var2 = var4.isAndroid;
+                var2 = var2.bind(var4)();
+                if(var2) { _fun0015_ip = 73; continue _fun0015 }
  37:
-                michal = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 2;
-                entity = tangon[entity];
-                zuuluu = michal.bind(zuuluu)(entity);
-                michal = zuuluu.requestPermissions;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                _fun00030_ip = 110; continue _fun00029;
+                var2 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 2;
+                var1 = var4[var1];
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.requestPermissions;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                _fun0015_ip = 110; continue _fun0015;
  73:
-                michal = global;
-                tangon = michal.Promise;
-                michal = tangon.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: tangon}});
-                report = function(argFoo) {
-                    zuuluu = argFoo;
-                    michal = undefined;
-                    entity = {};
-                    entity = zuuluu.bind(michal)(entity);
-                    return entity;
+                var2 = global;
+                var4 = var2.Promise;
+                var2 = var4.prototype;
+                var3 = Object.create(var2, {constructor: {value: var4}});
+                var5 = function(arg1) {
+                    var3 = arg1;
+                    var2 = undefined;
+                    var1 = {};
+                    var1 = var3.bind(var2)(var1);
+                    return var1;
                 };
-                oscard = zuuluu;
-                michal = new oscard[tangon](report, tangon);
-                entity = michal instanceof Object ? michal : zuuluu;
+                var6 = var3;
+                var2 = new var6[var4](var5, var4);
+                var1 = var2 instanceof Object ? var2 : var3;
  110:
-                return entity;
+                return var1;
             }
         };
-        michal['requestPermissions'] = golfie;
-        golfie = function() { // Original name: openNotificationSettings
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            michal = michal.bind(entity)();
-            return entity;
+        var2['requestPermissions'] = var7;
+        var7 = function openNotificationSettings() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal['openNotificationSettings'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: addNotificationEventListener
-            _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+        var2['openNotificationSettings'] = var7;
+        var7 = function addNotificationEventListener(arg1, arg2) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
-                tangon = argFoo;
-                golfie = argBar;
-                var _closure2_slot0 = golfie;
-                oscard = _closure1_slot0;
-                report = _closure1_slot2;
-                entity = 1;
-                report = report[entity];
-                entity = undefined;
-                oscard = oscard.bind(entity)(report);
-                report = oscard.isAndroid;
-                report = report.bind(oscard)();
-                if(report) { _fun00032_ip = 83; continue _fun00031 }
+                var4 = arg1;
+                var7 = arg2;
+                var _closure2_slot0 = var7;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 1;
+                var5 = var5[var1];
+                var1 = undefined;
+                var6 = var6.bind(var1)(var5);
+                var5 = var6.isAndroid;
+                var5 = var5.bind(var6)();
+                if(var5) { _fun0016_ip = 83; continue _fun0016 }
  49:
-                oscard = _closure1_slot1;
-                option = _closure1_slot2;
-                report = 2;
-                report = option[report];
-                oscard = oscard.bind(entity)(report);
-                report = oscard.addEventListener;
-                report = report.bind(oscard)(tangon, golfie);
-                _fun00032_ip = 162; continue _fun00031;
+                var6 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var5 = 2;
+                var5 = var8[var5];
+                var6 = var6.bind(var1)(var5);
+                var5 = var6.addEventListener;
+                var5 = var5.bind(var6)(var4, var7);
+                _fun0016_ip = 162; continue _fun0016;
  83:
-                option = 'notification';
-                if(!(option === tangon)) { _fun00032_ip = 114; continue _fun00031 }
+                var8 = 'notification';
+                if(!(var8 === var4)) { _fun0016_ip = 114; continue _fun0016 }
  91:
-                golfie = _closure1_slot4;
-                oscard = golfie.addListener;
-                report = function(argFoo) {
-                    _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+                var7 = _closure1_slot4;
+                var6 = var7.addListener;
+                var5 = function(arg1) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
-                        zuuluu = _closure1_slot5;
-                        entity = undefined;
-                        michal = argFoo;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00034_ip = 35; continue _fun00033 }
+                        var3 = _closure1_slot5;
+                        var1 = undefined;
+                        var2 = arg1;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0017_ip = 35; continue _fun0017 }
  23:
-                        michal = _closure2_slot0;
-                        michal = michal.bind(entity)(zuuluu);
+                        var2 = _closure2_slot0;
+                        var2 = var2.bind(var1)(var3);
  35:
-                        return entity;
+                        return var1;
                     }
                 };
-                report = oscard.bind(golfie)(option, report);
+                var5 = var6.bind(var7)(var8, var5);
  114:
-                golfie = 'localNotification';
-                if(!(golfie === tangon)) { _fun00032_ip = 147; continue _fun00031 }
+                var7 = 'localNotification';
+                if(!(var7 === var4)) { _fun0016_ip = 147; continue _fun0016 }
  124:
-                oscard = _closure1_slot4;
-                report = oscard.addListener;
-                zuuluu = function(argFoo) {
-                    _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+                var6 = _closure1_slot4;
+                var5 = var6.addListener;
+                var3 = function(arg1) {
+                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
-                        zuuluu = _closure1_slot5;
-                        entity = undefined;
-                        michal = argFoo;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00036_ip = 35; continue _fun00035 }
+                        var3 = _closure1_slot5;
+                        var1 = undefined;
+                        var2 = arg1;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0018_ip = 35; continue _fun0018 }
  23:
-                        michal = _closure2_slot0;
-                        michal = michal.bind(entity)(zuuluu);
+                        var2 = _closure2_slot0;
+                        var2 = var2.bind(var1)(var3);
  35:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = report.bind(oscard)(golfie, zuuluu);
+                var3 = var5.bind(var6)(var7, var3);
  147:
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.registerEventListener;
-                michal = michal.bind(zuuluu)(tangon);
+                var3 = _closure1_slot3;
+                var2 = var3.registerEventListener;
+                var2 = var2.bind(var3)(var4);
  162:
-                return entity;
+                return var1;
             }
         };
-        michal['addNotificationEventListener'] = golfie;
-        golfie = function(argFoo) { // Original name: addRegisterEventListener
-            _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+        var2['addNotificationEventListener'] = var7;
+        var7 = function addRegisterEventListener(arg1) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
-                golfie = argFoo;
-                var _closure2_slot0 = golfie;
-                report = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 1;
-                tangon = tangon[entity];
-                entity = undefined;
-                report = report.bind(entity)(tangon);
-                tangon = report.isAndroid;
-                tangon = tangon.bind(report)();
-                if(tangon) { _fun00038_ip = 84; continue _fun00037 }
+                var7 = arg1;
+                var _closure2_slot0 = var7;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 1;
+                var4 = var4[var1];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var4);
+                var4 = var5.isAndroid;
+                var4 = var4.bind(var5)();
+                if(var4) { _fun0019_ip = 84; continue _fun0019 }
  46:
-                report = _closure1_slot1;
-                oscard = _closure1_slot2;
-                tangon = 2;
-                tangon = oscard[tangon];
-                oscard = report.bind(entity)(tangon);
-                report = oscard.addEventListener;
-                tangon = 'register';
-                tangon = report.bind(oscard)(tangon, golfie);
-                _fun00038_ip = 126; continue _fun00037;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var4 = 2;
+                var4 = var6[var4];
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.addEventListener;
+                var4 = 'register';
+                var4 = var5.bind(var6)(var4, var7);
+                _fun0019_ip = 126; continue _fun0019;
  84:
-                oscard = _closure1_slot4;
-                report = oscard.addListener;
-                tangon = 'register';
-                zuuluu = function(argFoo) {
-                    entity = argFoo;
-                    zuuluu = entity.token;
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    michal = michal.bind(entity)(zuuluu);
-                    return entity;
+                var6 = _closure1_slot4;
+                var5 = var6.addListener;
+                var4 = 'register';
+                var3 = function(arg1) {
+                    var1 = arg1;
+                    var3 = var1.token;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3);
+                    return var1;
                 };
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.registerEventListener;
-                michal = michal.bind(zuuluu)(tangon);
+                var3 = var5.bind(var6)(var4, var3);
+                var3 = _closure1_slot3;
+                var2 = var3.registerEventListener;
+                var2 = var2.bind(var3)(var4);
  126:
-                return entity;
+                return var1;
             }
         };
-        michal['addRegisterEventListener'] = golfie;
-        golfie = function() { // Original name: getSoundsEnabled
-            entity = global;
-            zuuluu = entity.Promise;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+        var2['addRegisterEventListener'] = var7;
+        var7 = function getSoundsEnabled() {
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 1;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = oscard.isAndroid;
-                    tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00040_ip = 55; continue _fun00039 }
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 1;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var4);
+                    var4 = var6.isAndroid;
+                    var4 = var4.bind(var6)();
+                    if(var4) { _fun0020_ip = 55; continue _fun0020 }
  46:
-                    tangon = false;
-                    tangon = report.bind(entity)(tangon);
-                    _fun00040_ip = 86; continue _fun00039;
+                    var4 = false;
+                    var4 = var5.bind(var1)(var4);
+                    _fun0020_ip = 86; continue _fun0020;
  55:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getSoundsEnabled;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = tangon.then;
-                    michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var4 = _closure1_slot3;
+                    var3 = var4.getSoundsEnabled;
+                    var4 = var3.bind(var4)();
+                    var3 = var4.then;
+                    var2 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var3.bind(var4)(var2);
  86:
-                    return entity;
+                    return var1;
                 }
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        michal['getSoundsEnabled'] = golfie;
-        golfie = function() { // Original name: getVibrationsEnabled
-            entity = global;
-            zuuluu = entity.Promise;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+        var2['getSoundsEnabled'] = var7;
+        var7 = function getVibrationsEnabled() {
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 1;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = oscard.isAndroid;
-                    tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00042_ip = 55; continue _fun00041 }
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 1;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var4);
+                    var4 = var6.isAndroid;
+                    var4 = var4.bind(var6)();
+                    if(var4) { _fun0021_ip = 55; continue _fun0021 }
  46:
-                    tangon = false;
-                    tangon = report.bind(entity)(tangon);
-                    _fun00042_ip = 86; continue _fun00041;
+                    var4 = false;
+                    var4 = var5.bind(var1)(var4);
+                    _fun0021_ip = 86; continue _fun0021;
  55:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getVibrationsEnabled;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = tangon.then;
-                    michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var4 = _closure1_slot3;
+                    var3 = var4.getVibrationsEnabled;
+                    var4 = var3.bind(var4)();
+                    var3 = var4.then;
+                    var2 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var3.bind(var4)(var2);
  86:
-                    return entity;
+                    return var1;
                 }
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        michal['getVibrationsEnabled'] = golfie;
-        golfie = function() { // Original name: getLightsEnabled
-            entity = global;
-            zuuluu = entity.Promise;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+        var2['getVibrationsEnabled'] = var7;
+        var7 = function getLightsEnabled() {
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 1;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = oscard.isAndroid;
-                    tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00044_ip = 55; continue _fun00043 }
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 1;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var4);
+                    var4 = var6.isAndroid;
+                    var4 = var4.bind(var6)();
+                    if(var4) { _fun0022_ip = 55; continue _fun0022 }
  46:
-                    tangon = false;
-                    tangon = report.bind(entity)(tangon);
-                    _fun00044_ip = 86; continue _fun00043;
+                    var4 = false;
+                    var4 = var5.bind(var1)(var4);
+                    _fun0022_ip = 86; continue _fun0022;
  55:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.getLightsEnabled;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = tangon.then;
-                    michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var4 = _closure1_slot3;
+                    var3 = var4.getLightsEnabled;
+                    var4 = var3.bind(var4)();
+                    var3 = var4.then;
+                    var2 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var3.bind(var4)(var2);
  86:
-                    return entity;
+                    return var1;
                 }
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        michal['getLightsEnabled'] = golfie;
-        golfie = function(argFoo) { // Original name: setSoundsEnabled
-            _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+        var2['getLightsEnabled'] = var7;
+        var7 = function setSoundsEnabled(arg1) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00046_ip = 55; continue _fun00045 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0023_ip = 55; continue _fun0023 }
  37:
-                tangon = _closure1_slot3;
-                zuuluu = tangon.setSoundsEnabled;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot3;
+                var3 = var4.setSoundsEnabled;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  55:
-                return entity;
+                return var1;
             }
         };
-        michal['setSoundsEnabled'] = golfie;
-        golfie = function(argFoo) { // Original name: setVibrationsEnabled
-            _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
+        var2['setSoundsEnabled'] = var7;
+        var7 = function setVibrationsEnabled(arg1) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00048_ip = 55; continue _fun00047 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0024_ip = 55; continue _fun0024 }
  37:
-                tangon = _closure1_slot3;
-                zuuluu = tangon.setVibrationsEnabled;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot3;
+                var3 = var4.setVibrationsEnabled;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  55:
-                return entity;
+                return var1;
             }
         };
-        michal['setVibrationsEnabled'] = golfie;
-        golfie = function(argFoo) { // Original name: setLightsEnabled
-            _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
+        var2['setVibrationsEnabled'] = var7;
+        var7 = function setLightsEnabled(arg1) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00050_ip = 55; continue _fun00049 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0025_ip = 55; continue _fun0025 }
  37:
-                tangon = _closure1_slot3;
-                zuuluu = tangon.setLightsEnabled;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot3;
+                var3 = var4.setLightsEnabled;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  55:
-                return entity;
+                return var1;
             }
         };
-        michal['setLightsEnabled'] = golfie;
-        golfie = function(argFoo) { // Original name: setAndroidNotifyEveryTime
-            _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+        var2['setLightsEnabled'] = var7;
+        var7 = function setAndroidNotifyEveryTime(arg1) {
+            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isAndroid;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00052_ip = 57; continue _fun00051 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isAndroid;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0026_ip = 57; continue _fun0026 }
  37:
-                tangon = _closure1_slot3;
-                zuuluu = tangon.setNotifyEveryTime;
-                michal = argFoo;
-                michal = zuuluu.bind(tangon)(michal);
+                var4 = _closure1_slot3;
+                var3 = var4.setNotifyEveryTime;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
  57:
-                return entity;
+                return var1;
             }
         };
-        michal['setAndroidNotifyEveryTime'] = golfie;
-        tangon = function() { // Original name: shouldAndroidNotifyEveryTime
-            entity = global;
-            zuuluu = entity.Promise;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
+        var2['setAndroidNotifyEveryTime'] = var7;
+        var4 = function shouldAndroidNotifyEveryTime() {
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 1;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = oscard.isAndroid;
-                    tangon = tangon.bind(oscard)();
-                    if(tangon) { _fun00054_ip = 55; continue _fun00053 }
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 1;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var4);
+                    var4 = var6.isAndroid;
+                    var4 = var4.bind(var6)();
+                    if(var4) { _fun0027_ip = 55; continue _fun0027 }
  46:
-                    tangon = false;
-                    tangon = report.bind(entity)(tangon);
-                    _fun00054_ip = 88; continue _fun00053;
+                    var4 = false;
+                    var4 = var5.bind(var1)(var4);
+                    _fun0027_ip = 88; continue _fun0027;
  55:
-                    tangon = _closure1_slot3;
-                    zuuluu = tangon.shouldNotifyEveryTime;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = tangon.then;
-                    michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var4 = _closure1_slot3;
+                    var3 = var4.shouldNotifyEveryTime;
+                    var4 = var3.bind(var4)();
+                    var3 = var4.then;
+                    var2 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    var2 = var3.bind(var4)(var2);
  88:
-                    return entity;
+                    return var1;
                 }
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        michal['shouldAndroidNotifyEveryTime'] = tangon;
-        tangon = 5;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'lib/pushnotification/PushNotification.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['default'] = michal;
-        return entity;
+        var2['shouldAndroidNotifyEveryTime'] = var4;
+        var4 = 5;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'lib/pushnotification/PushNotification.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['default'] = var2;
+        return var1;
     }
 })();

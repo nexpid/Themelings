@@ -1,155 +1,155 @@
 // app/modules/activities/panel/native/ActivityPanelContainer.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    tangon = golfie.memo;
-    michal = function() { // Original name: ActivityPanelContainer
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot6 = var4;
+    var4 = var7.memo;
+    var2 = function ActivityPanelContainer() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 5;
-            entity = tangon[entity];
-            report = undefined;
-            golfie = zuuluu.bind(report)(entity);
-            oscard = golfie.useStateFromStores;
-            entity = _closure1_slot5;
-            tangon = new Array(3);
-            tangon[0] = entity;
-            entity = _closure1_slot3;
-            tangon[1] = entity;
-            entity = _closure1_slot4;
-            tangon[2] = entity;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var5 = undefined;
+            var7 = var3.bind(var5)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot5;
+            var4 = new Array(3);
+            var4[0] = var1;
+            var1 = _closure1_slot3;
+            var4[1] = var1;
+            var1 = _closure1_slot4;
+            var4[2] = var1;
+            var3 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure1_slot5;
-                    entity = michal.getConnectedActivityLocation;
-                    oscard = entity.bind(michal)();
-                    report = null;
-                    if(!(report != oscard)) { _fun00004_ip = 184; continue _fun00003 }
+                    var2 = _closure1_slot5;
+                    var1 = var2.getConnectedActivityLocation;
+                    var6 = var1.bind(var2)();
+                    var5 = null;
+                    if(!(var5 != var6)) { _fun0002_ip = 184; continue _fun0002 }
  26:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 6;
-                    entity = michal[entity];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(entity);
-                    entity = tangon.getEmbeddedActivityLocationChannelId;
-                    tangon = entity.bind(tangon)(oscard);
-                    if(!(report != tangon)) { _fun00004_ip = 180; continue _fun00003 }
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var1 = var2[var1];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var1);
+                    var1 = var4.getEmbeddedActivityLocationChannelId;
+                    var4 = var1.bind(var4)(var6);
+                    if(!(var5 != var4)) { _fun0002_ip = 180; continue _fun0002 }
  63:
-                    oscard = _closure1_slot3;
-                    entity = oscard.getChannel;
-                    golfie = entity.bind(oscard)(tangon);
-                    entity = report == golfie;
-                    oscard = undefined;
-                    if(entity) { _fun00004_ip = 91; continue _fun00003 }
+                    var6 = _closure1_slot3;
+                    var1 = var6.getChannel;
+                    var7 = var1.bind(var6)(var4);
+                    var1 = var5 == var7;
+                    var6 = undefined;
+                    if(var1) { _fun0002_ip = 91; continue _fun0002 }
  86:
-                    oscard = golfie.type;
+                    var6 = var7.type;
  91:
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    entity = 7;
-                    entity = verify[entity];
-                    entity = option.bind(michal)(entity);
-                    entity = entity.ChannelTypes;
-                    entity = entity.GUILD_TEXT;
-                    entity = oscard === entity;
-                    if(entity) { _fun00004_ip = 178; continue _fun00003 }
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var1 = 7;
+                    var1 = var9[var1];
+                    var1 = var8.bind(var2)(var1);
+                    var1 = var1.ChannelTypes;
+                    var1 = var1.GUILD_TEXT;
+                    var1 = var6 === var1;
+                    if(var1) { _fun0002_ip = 178; continue _fun0002 }
  130:
-                    report = report == golfie;
-                    oscard = undefined;
-                    if(report) { _fun00004_ip = 149; continue _fun00003 }
+                    var5 = var5 == var7;
+                    var6 = undefined;
+                    if(var5) { _fun0002_ip = 149; continue _fun0002 }
  139:
-                    report = golfie.isPrivate;
-                    oscard = report.bind(golfie)();
+                    var5 = var7.isPrivate;
+                    var6 = var5.bind(var7)();
  149:
-                    report = true;
-                    michal = undefined;
-                    if(!(report === oscard)) { _fun00004_ip = 175; continue _fun00003 }
+                    var5 = true;
+                    var2 = undefined;
+                    if(!(var5 === var6)) { _fun0002_ip = 175; continue _fun0002 }
  157:
-                    report = _closure1_slot4;
-                    zuuluu = report.getVoiceChannelId;
-                    zuuluu = zuuluu.bind(report)();
-                    michal = zuuluu !== tangon;
+                    var5 = _closure1_slot4;
+                    var3 = var5.getVoiceChannelId;
+                    var3 = var3.bind(var5)();
+                    var2 = var3 !== var4;
  175:
-                    entity = michal;
+                    var1 = var2;
  178:
-                    return entity;
+                    return var1;
  180:
-                    entity = false;
-                    return entity;
+                    var1 = false;
+                    return var1;
  184:
-                    entity = false;
-                    return entity;
+                    var1 = false;
+                    return var1;
                 }
             };
-            entity = new Array(0);
-            zuuluu = oscard.bind(golfie)(tangon, zuuluu, entity);
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 139; continue _fun00001 }
+            var1 = new Array(0);
+            var3 = var6.bind(var7)(var4, var3, var1);
+            var1 = null;
+            if(!var3) { _fun0001_ip = 139; continue _fun0001 }
  83:
-            tangon = _closure1_slot6;
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 8;
-            michal = option[michal];
-            zuuluu = golfie.bind(report)(michal);
-            michal = {};
-            oscard = 9;
-            oscard = option[oscard];
-            golfie = golfie.bind(report)(oscard);
-            oscard = {};
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 8;
+            var2 = var8[var2];
+            var3 = var7.bind(var5)(var2);
+            var2 = {};
+            var6 = 9;
+            var6 = var8[var6];
+            var7 = var7.bind(var5)(var6);
+            var6 = {};
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  139:
-            return entity;
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/panel/native/ActivityPanelContainer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/panel/native/ActivityPanelContainer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,180 +1,180 @@
 // app/modules/game_store/getAnalyticsDataForSKU.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SKUFeatureTypes;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_store/getAnalyticsDataForSKU.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getAnalyticsDataForSKU
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SKUFeatureTypes;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/game_store/getAnalyticsDataForSKU.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getAnalyticsDataForSKU(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            entity = arguments[1];
-            oscard = arguments[2];
-            michal = undefined;
-            if(!(entity === michal)) { _fun00002_ip = 17; continue _fun00001 }
+            var7 = arg1;
+            var1 = arguments[1];
+            var6 = arguments[2];
+            var2 = undefined;
+            if(!(var1 === var2)) { _fun0001_ip = 17; continue _fun0001 }
  15:
-            entity = false;
+            var1 = false;
  17:
-            if(!(oscard === michal)) { _fun00002_ip = 23; continue _fun00001 }
+            if(!(var6 === var2)) { _fun0001_ip = 23; continue _fun0001 }
  21:
-            oscard = true;
+            var6 = true;
  23:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getApplication;
-            michal = golfie.applicationId;
-            option = zuuluu.bind(tangon)(michal);
-            michal = golfie.getPrice;
-            verify = michal.bind(golfie)();
-            tangon = golfie.getPrice;
-            michal = null;
-            zuuluu = false;
-            offset = tangon.bind(golfie)(michal, zuuluu);
-            tangon = {};
-            zuuluu = golfie.id;
-            tangon['sku_id'] = zuuluu;
-            zuuluu = golfie.type;
-            tangon['sku_type'] = zuuluu;
-            zuuluu = golfie.applicationId;
-            tangon['application_id'] = zuuluu;
-            yankee = michal != option;
-            zuuluu = null;
-            if(!yankee) { _fun00002_ip = 118; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var3 = var4.getApplication;
+            var2 = var7.applicationId;
+            var8 = var3.bind(var4)(var2);
+            var2 = var7.getPrice;
+            var9 = var2.bind(var7)();
+            var4 = var7.getPrice;
+            var2 = null;
+            var3 = false;
+            var10 = var4.bind(var7)(var2, var3);
+            var4 = {};
+            var3 = var7.id;
+            var4['sku_id'] = var3;
+            var3 = var7.type;
+            var4['sku_type'] = var3;
+            var3 = var7.applicationId;
+            var4['application_id'] = var3;
+            var11 = var2 != var8;
+            var3 = null;
+            if(!var11) { _fun0001_ip = 118; continue _fun0001 }
  113:
-            zuuluu = option.name;
+            var3 = var8.name;
  118:
-            tangon['application_name'] = zuuluu;
-            zuuluu = golfie.name;
-            tangon['store_title'] = zuuluu;
-            option = golfie.premium;
-            zuuluu = 'distribution';
-            if(!option) { _fun00002_ip = 150; continue _fun00001 }
+            var4['application_name'] = var3;
+            var3 = var7.name;
+            var4['store_title'] = var3;
+            var8 = var7.premium;
+            var3 = 'distribution';
+            if(!var8) { _fun0001_ip = 150; continue _fun0001 }
  146:
-            zuuluu = 'premium';
+            var3 = 'premium';
  150:
-            tangon['distribution_type'] = zuuluu;
-            zuuluu = null;
-            if(!oscard) { _fun00002_ip = 227; continue _fun00001 }
+            var4['distribution_type'] = var3;
+            var3 = null;
+            if(!var6) { _fun0001_ip = 227; continue _fun0001 }
  162:
-            oscard = {};
-            yankee = michal != verify;
-            option = null;
-            if(!yankee) { _fun00002_ip = 179; continue _fun00001 }
+            var6 = {};
+            var11 = var2 != var9;
+            var8 = null;
+            if(!var11) { _fun0001_ip = 179; continue _fun0001 }
  173:
-            option = verify.amount;
+            var8 = var9.amount;
  179:
-            oscard['price'] = option;
-            yankee = michal != offset;
-            option = null;
-            if(!yankee) { _fun00002_ip = 199; continue _fun00001 }
+            var6['price'] = var8;
+            var11 = var2 != var10;
+            var8 = null;
+            if(!var11) { _fun0001_ip = 199; continue _fun0001 }
  193:
-            option = offset.amount;
+            var8 = var10.amount;
  199:
-            oscard['regular_price'] = option;
-            offset = michal != verify;
-            option = null;
-            if(!offset) { _fun00002_ip = 219; continue _fun00001 }
+            var6['regular_price'] = var8;
+            var10 = var2 != var9;
+            var8 = null;
+            if(!var10) { _fun0001_ip = 219; continue _fun0001 }
  213:
-            option = verify.currency;
+            var8 = var9.currency;
  219:
-            oscard['currency'] = option;
-            zuuluu = oscard;
+            var6['currency'] = var8;
+            var3 = var6;
  227:
-            michal = null;
-            if(!entity) { _fun00002_ip = 556; continue _fun00001 }
+            var2 = null;
+            if(!var1) { _fun0001_ip = 556; continue _fun0001 }
  235:
-            entity = {};
-            option = golfie.hasFeature;
-            report = _closure1_slot1;
-            oscard = report.SINGLE_PLAYER;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_single_player'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.ONLINE_MULTIPLAYER;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_online_multiplayer'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.LOCAL_MULTIPLAYER;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_local_multiplayer'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.PVP;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_pvp_features'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.LOCAL_COOP;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_local_coop'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.ONLINE_COOP;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_online_coop'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.CROSS_PLATFORM;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_cross_platform'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.RICH_PRESENCE;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_rich_presence'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.DISCORD_GAME_INVITES;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_game_invites'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.SPECTATOR_MODE;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_spectator_mode'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.CONTROLLER_SUPPORT;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_controller_support'] = oscard;
-            option = golfie.hasFeature;
-            oscard = report.CLOUD_SAVES;
-            oscard = option.bind(golfie)(oscard);
-            entity['has_cloud_saves'] = oscard;
-            oscard = golfie.hasFeature;
-            report = report.SECURE_NETWORKING;
-            report = oscard.bind(golfie)(report);
-            entity['has_secure_networking'] = report;
-            michal = entity;
+            var1 = {};
+            var8 = var7.hasFeature;
+            var5 = _closure1_slot1;
+            var6 = var5.SINGLE_PLAYER;
+            var6 = var8.bind(var7)(var6);
+            var1['has_single_player'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.ONLINE_MULTIPLAYER;
+            var6 = var8.bind(var7)(var6);
+            var1['has_online_multiplayer'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.LOCAL_MULTIPLAYER;
+            var6 = var8.bind(var7)(var6);
+            var1['has_local_multiplayer'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.PVP;
+            var6 = var8.bind(var7)(var6);
+            var1['has_pvp_features'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.LOCAL_COOP;
+            var6 = var8.bind(var7)(var6);
+            var1['has_local_coop'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.ONLINE_COOP;
+            var6 = var8.bind(var7)(var6);
+            var1['has_online_coop'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.CROSS_PLATFORM;
+            var6 = var8.bind(var7)(var6);
+            var1['has_cross_platform'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.RICH_PRESENCE;
+            var6 = var8.bind(var7)(var6);
+            var1['has_rich_presence'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.DISCORD_GAME_INVITES;
+            var6 = var8.bind(var7)(var6);
+            var1['has_game_invites'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.SPECTATOR_MODE;
+            var6 = var8.bind(var7)(var6);
+            var1['has_spectator_mode'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.CONTROLLER_SUPPORT;
+            var6 = var8.bind(var7)(var6);
+            var1['has_controller_support'] = var6;
+            var8 = var7.hasFeature;
+            var6 = var5.CLOUD_SAVES;
+            var6 = var8.bind(var7)(var6);
+            var1['has_cloud_saves'] = var6;
+            var6 = var7.hasFeature;
+            var5 = var5.SECURE_NETWORKING;
+            var5 = var6.bind(var7)(var5);
+            var1['has_secure_networking'] = var5;
+            var2 = var1;
  556:
-            entity = {};
-            foxtra = entity;
-            romeon = tangon;
-            tangon = copyDataProperties(foxtra, romeon);
-            foxtra = entity;
-            romeon = zuuluu;
-            zuuluu = copyDataProperties(foxtra, romeon);
-            foxtra = entity;
-            romeon = michal;
-            michal = copyDataProperties(foxtra, romeon);
-            return entity;
+            var1 = {};
+            var13 = var1;
+            var12 = var4;
+            var4 = copyDataProperties(var13, var12);
+            var13 = var1;
+            var12 = var3;
+            var3 = copyDataProperties(var13, var12);
+            var13 = var1;
+            var12 = var2;
+            var2 = copyDataProperties(var13, var12);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

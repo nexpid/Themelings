@@ -1,413 +1,413 @@
 // app/modules/messages/native/renderer/RenderMessageOptionsContext.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    entity = function(argFoo) { // Original name: useResolvedUserOption
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var1 = function useResolvedUserOption(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = arguments[1];
-            michal = undefined;
-            if(!(tangon === michal)) { _fun00002_ip = 25; continue _fun00001 }
+            var3 = arg1;
+            var4 = arguments[1];
+            var2 = undefined;
+            if(!(var4 === var2)) { _fun0001_ip = 25; continue _fun0001 }
  12:
-            entity = _closure1_slot4;
-            tangon = entity.USER_SETTING;
+            var1 = _closure1_slot4;
+            var4 = var1.USER_SETTING;
  25:
-            entity = zuuluu.useSetting;
-            entity = entity.bind(zuuluu)();
-            report = _closure1_slot4;
-            report = report.USER_SETTING;
-            if(!(report !== tangon)) { _fun00002_ip = 90; continue _fun00001 }
+            var1 = var3.useSetting;
+            var1 = var1.bind(var3)();
+            var5 = _closure1_slot4;
+            var5 = var5.USER_SETTING;
+            if(!(var5 !== var4)) { _fun0001_ip = 90; continue _fun0001 }
  52:
-            report = _closure1_slot4;
-            report = report.FORCE_ENABLE;
-            if(!(report !== tangon)) { _fun00002_ip = 86; continue _fun00001 }
+            var5 = _closure1_slot4;
+            var5 = var5.FORCE_ENABLE;
+            if(!(var5 !== var4)) { _fun0001_ip = 86; continue _fun0001 }
  66:
-            zuuluu = _closure1_slot4;
-            zuuluu = zuuluu.FORCE_DISABLE;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 82; continue _fun00001 }
+            var3 = _closure1_slot4;
+            var3 = var3.FORCE_DISABLE;
+            if(!(var3 !== var4)) { _fun0001_ip = 82; continue _fun0001 }
  80:
-            return michal;
+            return var2;
  82:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  86:
-            michal = true;
-            return michal;
+            var2 = true;
+            return var2;
  90:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    oscard = 0;
-    report = offset[oscard];
-    tangon = argCor;
-    entity = undefined;
-    yankee = tangon.bind(entity)(report);
-    var _closure1_slot2 = yankee;
-    report = 1;
-    tangon = offset[report];
-    tangon = verify.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    golfie = {};
-    golfie['USER_SETTING'] = oscard;
-    tangon = 'USER_SETTING';
-    golfie[oscard] = tangon;
-    golfie['FORCE_ENABLE'] = report;
-    tangon = 'FORCE_ENABLE';
-    golfie[report] = tangon;
-    report = 2;
-    golfie['FORCE_DISABLE'] = report;
-    tangon = 'FORCE_DISABLE';
-    golfie[report] = tangon;
-    var _closure1_slot4 = golfie;
-    oscard = {'renderEmbeds': true, 'renderReactions': true, 'renderShortcuts': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderForumPostActions': true, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
-    var _closure1_slot5 = oscard;
-    tangon = yankee.createContext;
-    report = tangon.bind(yankee)(oscard);
-    var _closure1_slot6 = report;
-    option = yankee.memo;
-    tangon = function(argFoo) {
-        tangon = argFoo;
-        entity = tangon.children;
-        michal = null;
-        zuuluu = Object.create(michal);
-        michal = 0;
-        zuuluu['children'] = michal;
-        offset = {};
-        verify = tangon;
-        option = zuuluu;
-        oscard = copyDataProperties(offset, verify, option);
-        report = _closure1_slot2;
-        tangon = report.useContext;
-        michal = _closure1_slot6;
-        verify = tangon.bind(report)(michal);
-        tangon = _closure1_slot3;
-        zuuluu = michal.Provider;
-        michal = {};
-        report = {};
-        offset = report;
-        golfie = copyDataProperties(offset, verify);
-        offset = report;
-        verify = oscard;
-        oscard = copyDataProperties(offset, verify);
-        michal['value'] = report;
-        michal['children'] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var6 = 0;
+    var5 = var10[var6];
+    var4 = native4;
+    var1 = undefined;
+    var11 = var4.bind(var1)(var5);
+    var _closure1_slot2 = var11;
+    var5 = 1;
+    var4 = var10[var5];
+    var4 = var9.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var7 = {};
+    var7['USER_SETTING'] = var6;
+    var4 = 'USER_SETTING';
+    var7[var6] = var4;
+    var7['FORCE_ENABLE'] = var5;
+    var4 = 'FORCE_ENABLE';
+    var7[var5] = var4;
+    var5 = 2;
+    var7['FORCE_DISABLE'] = var5;
+    var4 = 'FORCE_DISABLE';
+    var7[var5] = var4;
+    var _closure1_slot4 = var7;
+    var6 = {'renderEmbeds': true, 'renderReactions': true, 'renderShortcuts': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderForumPostActions': true, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
+    var _closure1_slot5 = var6;
+    var4 = var11.createContext;
+    var5 = var4.bind(var11)(var6);
+    var _closure1_slot6 = var5;
+    var8 = var11.memo;
+    var4 = function(arg1) {
+        var4 = arg1;
+        var1 = var4.children;
+        var2 = null;
+        var3 = Object.create(var2);
+        var2 = 0;
+        var3['children'] = var2;
+        var10 = {};
+        var9 = var4;
+        var8 = var3;
+        var6 = copyDataProperties(var10, var9, var8);
+        var5 = _closure1_slot2;
+        var4 = var5.useContext;
+        var2 = _closure1_slot6;
+        var9 = var4.bind(var5)(var2);
+        var4 = _closure1_slot3;
+        var3 = var2.Provider;
+        var2 = {};
+        var5 = {};
+        var10 = var5;
+        var7 = copyDataProperties(var10, var9);
+        var10 = var5;
+        var9 = var6;
+        var6 = copyDataProperties(var10, var9);
+        var2['value'] = var5;
+        var2['children'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = option.bind(yankee)(tangon);
-    option = 3;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/messages/native/renderer/RenderMessageOptionsContext.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['UserOption'] = golfie;
-    zuuluu['DEFAULT_OPTIONS'] = oscard;
-    zuuluu['RenderMessageOptionsContext'] = report;
-    zuuluu['RenderMessageOptionsOverride'] = tangon;
-    michal = function(argFoo) { // Original name: RenderMessageOptionsContextProvider
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var8.bind(var11)(var4);
+    var8 = 3;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/messages/native/renderer/RenderMessageOptionsContext.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['UserOption'] = var7;
+    var3['DEFAULT_OPTIONS'] = var6;
+    var3['RenderMessageOptionsContext'] = var5;
+    var3['RenderMessageOptionsOverride'] = var4;
+    var2 = function RenderMessageOptionsContextProvider(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            report = oscard.children;
-            zuuluu = null;
-            tangon = Object.create(zuuluu);
-            entity = 0;
-            tangon['children'] = entity;
-            equals = {};
-            whisks = oscard;
-            limora = tangon;
-            oscard = copyDataProperties(equals, whisks, limora);
-            tangon = undefined;
-            var _closure2_slot6 = tangon;
-            var _closure2_slot7 = tangon;
-            var _closure2_slot8 = tangon;
-            var _closure2_slot9 = tangon;
-            var _closure2_slot10 = tangon;
-            var _closure2_slot11 = tangon;
-            var _closure2_slot12 = tangon;
-            var _closure2_slot13 = tangon;
-            var _closure2_slot14 = tangon;
-            var _closure2_slot15 = tangon;
-            var _closure2_slot16 = tangon;
-            var _closure2_slot17 = tangon;
-            var _closure2_slot18 = tangon;
-            var _closure2_slot19 = tangon;
-            var _closure2_slot20 = tangon;
-            var _closure2_slot21 = tangon;
-            var _closure2_slot22 = tangon;
-            var _closure2_slot23 = tangon;
-            verify = _closure1_slot7;
-            option = _closure1_slot0;
-            offset = _closure1_slot1;
-            golfie = 2;
-            yankee = offset[golfie];
-            yankee = option.bind(tangon)(yankee);
-            romeon = yankee.RenderEmbeds;
-            yankee = oscard.renderEmbeds;
-            sizing = verify.bind(tangon)(romeon, yankee);
-            var _closure2_slot0 = sizing;
-            yankee = offset[golfie];
-            yankee = option.bind(tangon)(yankee);
-            romeon = yankee.RenderReactions;
-            yankee = oscard.renderReactions;
-            backup = verify.bind(tangon)(romeon, yankee);
-            var _closure2_slot1 = backup;
-            yankee = offset[golfie];
-            yankee = option.bind(tangon)(yankee);
-            romeon = yankee.InlineEmbedMedia;
-            yankee = oscard.inlineEmbedMedia;
-            sequen = verify.bind(tangon)(romeon, yankee);
-            var _closure2_slot2 = sequen;
-            yankee = offset[golfie];
-            yankee = option.bind(tangon)(yankee);
-            romeon = yankee.InlineAttachmentMedia;
-            yankee = oscard.inlineAttachmentMedia;
-            config = verify.bind(tangon)(romeon, yankee);
-            var _closure2_slot3 = config;
-            yankee = offset[golfie];
-            yankee = option.bind(tangon)(yankee);
-            romeon = yankee.AnimateEmoji;
-            yankee = oscard.animateEmoji;
-            sierra = verify.bind(tangon)(romeon, yankee);
-            var _closure2_slot4 = sierra;
-            golfie = offset[golfie];
-            golfie = option.bind(tangon)(golfie);
-            option = golfie.GifAutoPlay;
-            golfie = oscard.gifAutoPlay;
-            papara = verify.bind(tangon)(option, golfie);
-            var _closure2_slot5 = papara;
-            echoed = oscard.renderCodedLinks;
-            if(!(zuuluu == echoed)) { _fun00004_ip = 331; continue _fun00003 }
+            var6 = arg1;
+            var5 = var6.children;
+            var3 = null;
+            var4 = Object.create(var3);
+            var1 = 0;
+            var4['children'] = var1;
+            var34 = {};
+            var33 = var6;
+            var32 = var4;
+            var6 = copyDataProperties(var34, var33, var32);
+            var4 = undefined;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
+            var _closure2_slot8 = var4;
+            var _closure2_slot9 = var4;
+            var _closure2_slot10 = var4;
+            var _closure2_slot11 = var4;
+            var _closure2_slot12 = var4;
+            var _closure2_slot13 = var4;
+            var _closure2_slot14 = var4;
+            var _closure2_slot15 = var4;
+            var _closure2_slot16 = var4;
+            var _closure2_slot17 = var4;
+            var _closure2_slot18 = var4;
+            var _closure2_slot19 = var4;
+            var _closure2_slot20 = var4;
+            var _closure2_slot21 = var4;
+            var _closure2_slot22 = var4;
+            var _closure2_slot23 = var4;
+            var9 = _closure1_slot7;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var7 = 2;
+            var11 = var10[var7];
+            var11 = var8.bind(var4)(var11);
+            var12 = var11.RenderEmbeds;
+            var11 = var6.renderEmbeds;
+            var16 = var9.bind(var4)(var12, var11);
+            var _closure2_slot0 = var16;
+            var11 = var10[var7];
+            var11 = var8.bind(var4)(var11);
+            var12 = var11.RenderReactions;
+            var11 = var6.renderReactions;
+            var14 = var9.bind(var4)(var12, var11);
+            var _closure2_slot1 = var14;
+            var11 = var10[var7];
+            var11 = var8.bind(var4)(var11);
+            var12 = var11.InlineEmbedMedia;
+            var11 = var6.inlineEmbedMedia;
+            var24 = var9.bind(var4)(var12, var11);
+            var _closure2_slot2 = var24;
+            var11 = var10[var7];
+            var11 = var8.bind(var4)(var11);
+            var12 = var11.InlineAttachmentMedia;
+            var11 = var6.inlineAttachmentMedia;
+            var25 = var9.bind(var4)(var12, var11);
+            var _closure2_slot3 = var25;
+            var11 = var10[var7];
+            var11 = var8.bind(var4)(var11);
+            var12 = var11.AnimateEmoji;
+            var11 = var6.animateEmoji;
+            var31 = var9.bind(var4)(var12, var11);
+            var _closure2_slot4 = var31;
+            var7 = var10[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.GifAutoPlay;
+            var7 = var6.gifAutoPlay;
+            var28 = var9.bind(var4)(var8, var7);
+            var _closure2_slot5 = var28;
+            var19 = var6.renderCodedLinks;
+            if(!(var3 == var19)) { _fun0002_ip = 331; continue _fun0002 }
  321:
-            golfie = _closure1_slot5;
-            echoed = golfie.renderCodedLinks;
+            var7 = _closure1_slot5;
+            var19 = var7.renderCodedLinks;
  331:
-            _closure2_slot6 = echoed;
-            kiloes = oscard.renderGiftCode;
-            if(!(zuuluu == kiloes)) { _fun00004_ip = 355; continue _fun00003 }
+            _closure2_slot6 = var19;
+            var15 = var6.renderGiftCode;
+            if(!(var3 == var15)) { _fun0002_ip = 355; continue _fun0002 }
  345:
-            golfie = _closure1_slot5;
-            kiloes = golfie.renderGiftCode;
+            var7 = _closure1_slot5;
+            var15 = var7.renderGiftCode;
  355:
-            _closure2_slot7 = kiloes;
-            foxtra = oscard.renderShortcuts;
-            if(!(zuuluu == foxtra)) { _fun00004_ip = 379; continue _fun00003 }
+            _closure2_slot7 = var15;
+            var13 = var6.renderShortcuts;
+            if(!(var3 == var13)) { _fun0002_ip = 379; continue _fun0002 }
  369:
-            golfie = _closure1_slot5;
-            foxtra = golfie.renderShortcuts;
+            var7 = _closure1_slot5;
+            var13 = var7.renderShortcuts;
  379:
-            _closure2_slot8 = foxtra;
-            vacuum = oscard.renderActivityInstanceEmbed;
-            if(!(zuuluu == vacuum)) { _fun00004_ip = 403; continue _fun00003 }
+            _closure2_slot8 = var13;
+            var23 = var6.renderActivityInstanceEmbed;
+            if(!(var3 == var23)) { _fun0002_ip = 403; continue _fun0002 }
  393:
-            golfie = _closure1_slot5;
-            vacuum = golfie.renderActivityInstanceEmbed;
+            var7 = _closure1_slot5;
+            var23 = var7.renderActivityInstanceEmbed;
  403:
-            _closure2_slot9 = vacuum;
-            ctrled = oscard.renderActivityInviteEmbed;
-            if(!(zuuluu == ctrled)) { _fun00004_ip = 427; continue _fun00003 }
+            _closure2_slot9 = var23;
+            var22 = var6.renderActivityInviteEmbed;
+            if(!(var3 == var22)) { _fun0002_ip = 427; continue _fun0002 }
  417:
-            golfie = _closure1_slot5;
-            ctrled = golfie.renderActivityInviteEmbed;
+            var7 = _closure1_slot5;
+            var22 = var7.renderActivityInviteEmbed;
  427:
-            _closure2_slot10 = ctrled;
-            output = oscard.renderComponents;
-            if(!(zuuluu == output)) { _fun00004_ip = 451; continue _fun00003 }
+            _closure2_slot10 = var22;
+            var17 = var6.renderComponents;
+            if(!(var3 == var17)) { _fun0002_ip = 451; continue _fun0002 }
  441:
-            golfie = _closure1_slot5;
-            output = golfie.renderComponents;
+            var7 = _closure1_slot5;
+            var17 = var7.renderComponents;
  451:
-            _closure2_slot11 = output;
-            yankee = oscard.renderThreadEmbeds;
-            if(!(zuuluu == yankee)) { _fun00004_ip = 475; continue _fun00003 }
+            _closure2_slot11 = var17;
+            var11 = var6.renderThreadEmbeds;
+            if(!(var3 == var11)) { _fun0002_ip = 475; continue _fun0002 }
  465:
-            golfie = _closure1_slot5;
-            yankee = golfie.renderThreadEmbeds;
+            var7 = _closure1_slot5;
+            var11 = var7.renderThreadEmbeds;
  475:
-            _closure2_slot12 = yankee;
-            romeon = oscard.renderReplies;
-            if(!(zuuluu == romeon)) { _fun00004_ip = 499; continue _fun00003 }
+            _closure2_slot12 = var11;
+            var12 = var6.renderReplies;
+            if(!(var3 == var12)) { _fun0002_ip = 499; continue _fun0002 }
  489:
-            golfie = _closure1_slot5;
-            romeon = golfie.renderReplies;
+            var7 = _closure1_slot5;
+            var12 = var7.renderReplies;
  499:
-            _closure2_slot13 = romeon;
-            result = oscard.renderCommunicationDisabled;
-            if(!(zuuluu == result)) { _fun00004_ip = 523; continue _fun00003 }
+            _closure2_slot13 = var12;
+            var18 = var6.renderCommunicationDisabled;
+            if(!(var3 == var18)) { _fun0002_ip = 523; continue _fun0002 }
  513:
-            golfie = _closure1_slot5;
-            result = golfie.renderCommunicationDisabled;
+            var7 = _closure1_slot5;
+            var18 = var7.renderCommunicationDisabled;
  523:
-            _closure2_slot14 = result;
-            source = oscard.renderAttachments;
-            if(!(zuuluu == source)) { _fun00004_ip = 547; continue _fun00003 }
+            _closure2_slot14 = var18;
+            var21 = var6.renderAttachments;
+            if(!(var3 == var21)) { _fun0002_ip = 547; continue _fun0002 }
  537:
-            golfie = _closure1_slot5;
-            source = golfie.renderAttachments;
+            var7 = _closure1_slot5;
+            var21 = var7.renderAttachments;
  547:
-            _closure2_slot15 = source;
-            update = oscard.renderExecutedCommands;
-            if(!(zuuluu == update)) { _fun00004_ip = 571; continue _fun00003 }
+            _closure2_slot15 = var21;
+            var20 = var6.renderExecutedCommands;
+            if(!(var3 == var20)) { _fun0002_ip = 571; continue _fun0002 }
  561:
-            golfie = _closure1_slot5;
-            update = golfie.renderExecutedCommands;
+            var7 = _closure1_slot5;
+            var20 = var7.renderExecutedCommands;
  571:
-            _closure2_slot16 = update;
-            record = oscard.ignoreMentioned;
-            if(!(zuuluu == record)) { _fun00004_ip = 595; continue _fun00003 }
+            _closure2_slot16 = var20;
+            var26 = var6.ignoreMentioned;
+            if(!(var3 == var26)) { _fun0002_ip = 595; continue _fun0002 }
  585:
-            golfie = _closure1_slot5;
-            record = golfie.ignoreMentioned;
+            var7 = _closure1_slot5;
+            var26 = var7.ignoreMentioned;
  595:
-            _closure2_slot17 = record;
-            cntext = oscard.ignoreEmbedDescriptionCache;
-            if(!(zuuluu == cntext)) { _fun00004_ip = 619; continue _fun00003 }
+            _closure2_slot17 = var26;
+            var27 = var6.ignoreEmbedDescriptionCache;
+            if(!(var3 == var27)) { _fun0002_ip = 619; continue _fun0002 }
  609:
-            golfie = _closure1_slot5;
-            cntext = golfie.ignoreEmbedDescriptionCache;
+            var7 = _closure1_slot5;
+            var27 = var7.ignoreEmbedDescriptionCache;
  619:
-            _closure2_slot18 = cntext;
-            target = oscard.forceHideSimpleEmbedContent;
-            if(!(zuuluu == target)) { _fun00004_ip = 643; continue _fun00003 }
+            _closure2_slot18 = var27;
+            var29 = var6.forceHideSimpleEmbedContent;
+            if(!(var3 == var29)) { _fun0002_ip = 643; continue _fun0002 }
  633:
-            golfie = _closure1_slot5;
-            target = golfie.forceHideSimpleEmbedContent;
+            var7 = _closure1_slot5;
+            var29 = var7.forceHideSimpleEmbedContent;
  643:
-            _closure2_slot19 = target;
-            status = oscard.enableSwipeActions;
-            if(!(zuuluu == status)) { _fun00004_ip = 667; continue _fun00003 }
+            _closure2_slot19 = var29;
+            var30 = var6.enableSwipeActions;
+            if(!(var3 == var30)) { _fun0002_ip = 667; continue _fun0002 }
  657:
-            golfie = _closure1_slot5;
-            status = golfie.enableSwipeActions;
+            var7 = _closure1_slot5;
+            var30 = var7.enableSwipeActions;
  667:
-            _closure2_slot20 = status;
-            offset = oscard.renderPolls;
-            if(!(zuuluu == offset)) { _fun00004_ip = 691; continue _fun00003 }
+            _closure2_slot20 = var30;
+            var10 = var6.renderPolls;
+            if(!(var3 == var10)) { _fun0002_ip = 691; continue _fun0002 }
  681:
-            golfie = _closure1_slot5;
-            offset = golfie.renderPolls;
+            var7 = _closure1_slot5;
+            var10 = var7.renderPolls;
  691:
-            _closure2_slot21 = offset;
-            verify = oscard.renderForumPostActions;
-            if(!(zuuluu == verify)) { _fun00004_ip = 715; continue _fun00003 }
+            _closure2_slot21 = var10;
+            var9 = var6.renderForumPostActions;
+            if(!(var3 == var9)) { _fun0002_ip = 715; continue _fun0002 }
  705:
-            golfie = _closure1_slot5;
-            verify = golfie.renderForumPostActions;
+            var7 = _closure1_slot5;
+            var9 = var7.renderForumPostActions;
  715:
-            _closure2_slot22 = verify;
-            option = oscard.useAlternateEmbedColors;
-            if(!(zuuluu == option)) { _fun00004_ip = 739; continue _fun00003 }
+            _closure2_slot22 = var9;
+            var8 = var6.useAlternateEmbedColors;
+            if(!(var3 == var8)) { _fun0002_ip = 739; continue _fun0002 }
  729:
-            zuuluu = _closure1_slot5;
-            option = zuuluu.useAlternateEmbedColors;
+            var3 = _closure1_slot5;
+            var8 = var3.useAlternateEmbedColors;
  739:
-            _closure2_slot23 = option;
-            golfie = _closure1_slot2;
-            oscard = golfie.useMemo;
-            zuuluu = new Array(24);
-            zuuluu[0] = sierra;
-            zuuluu[1] = status;
-            zuuluu[2] = target;
-            zuuluu[3] = papara;
-            zuuluu[4] = cntext;
-            zuuluu[5] = record;
-            zuuluu[6] = config;
-            zuuluu[7] = sequen;
-            zuuluu[8] = vacuum;
-            zuuluu[9] = ctrled;
-            zuuluu[10] = source;
-            zuuluu[11] = update;
-            zuuluu[12] = echoed;
-            zuuluu[13] = result;
-            zuuluu[14] = output;
-            zuuluu[15] = sizing;
-            zuuluu[16] = kiloes;
-            zuuluu[17] = backup;
-            zuuluu[18] = foxtra;
-            zuuluu[19] = romeon;
-            zuuluu[20] = yankee;
-            zuuluu[21] = offset;
-            zuuluu[22] = verify;
-            zuuluu[23] = option;
-            michal = function() {
-                entity = {};
-                zuuluu = _closure2_slot4;
-                entity['animateEmoji'] = zuuluu;
-                zuuluu = _closure2_slot20;
-                entity['enableSwipeActions'] = zuuluu;
-                zuuluu = _closure2_slot19;
-                entity['forceHideSimpleEmbedContent'] = zuuluu;
-                zuuluu = _closure2_slot5;
-                entity['gifAutoPlay'] = zuuluu;
-                zuuluu = _closure2_slot18;
-                entity['ignoreEmbedDescriptionCache'] = zuuluu;
-                zuuluu = _closure2_slot17;
-                entity['ignoreMentioned'] = zuuluu;
-                zuuluu = _closure2_slot3;
-                entity['inlineAttachmentMedia'] = zuuluu;
-                zuuluu = _closure2_slot2;
-                entity['inlineEmbedMedia'] = zuuluu;
-                zuuluu = _closure2_slot9;
-                entity['renderActivityInstanceEmbed'] = zuuluu;
-                zuuluu = _closure2_slot10;
-                entity['renderActivityInviteEmbed'] = zuuluu;
-                zuuluu = _closure2_slot15;
-                entity['renderAttachments'] = zuuluu;
-                zuuluu = _closure2_slot16;
-                entity['renderExecutedCommands'] = zuuluu;
-                zuuluu = _closure2_slot6;
-                entity['renderCodedLinks'] = zuuluu;
-                zuuluu = _closure2_slot14;
-                entity['renderCommunicationDisabled'] = zuuluu;
-                zuuluu = _closure2_slot11;
-                entity['renderComponents'] = zuuluu;
-                zuuluu = _closure2_slot0;
-                entity['renderEmbeds'] = zuuluu;
-                zuuluu = _closure2_slot7;
-                entity['renderGiftCode'] = zuuluu;
-                zuuluu = _closure2_slot1;
-                entity['renderReactions'] = zuuluu;
-                zuuluu = _closure2_slot8;
-                entity['renderShortcuts'] = zuuluu;
-                zuuluu = _closure2_slot13;
-                entity['renderReplies'] = zuuluu;
-                zuuluu = _closure2_slot12;
-                entity['renderThreadEmbeds'] = zuuluu;
-                zuuluu = _closure2_slot21;
-                entity['renderPolls'] = zuuluu;
-                zuuluu = _closure2_slot22;
-                entity['renderForumPostActions'] = zuuluu;
-                michal = _closure2_slot23;
-                entity['useAlternateEmbedColors'] = michal;
-                return entity;
+            _closure2_slot23 = var8;
+            var7 = _closure1_slot2;
+            var6 = var7.useMemo;
+            var3 = new Array(24);
+            var3[0] = var31;
+            var3[1] = var30;
+            var3[2] = var29;
+            var3[3] = var28;
+            var3[4] = var27;
+            var3[5] = var26;
+            var3[6] = var25;
+            var3[7] = var24;
+            var3[8] = var23;
+            var3[9] = var22;
+            var3[10] = var21;
+            var3[11] = var20;
+            var3[12] = var19;
+            var3[13] = var18;
+            var3[14] = var17;
+            var3[15] = var16;
+            var3[16] = var15;
+            var3[17] = var14;
+            var3[18] = var13;
+            var3[19] = var12;
+            var3[20] = var11;
+            var3[21] = var10;
+            var3[22] = var9;
+            var3[23] = var8;
+            var2 = function() {
+                var1 = {};
+                var3 = _closure2_slot4;
+                var1['animateEmoji'] = var3;
+                var3 = _closure2_slot20;
+                var1['enableSwipeActions'] = var3;
+                var3 = _closure2_slot19;
+                var1['forceHideSimpleEmbedContent'] = var3;
+                var3 = _closure2_slot5;
+                var1['gifAutoPlay'] = var3;
+                var3 = _closure2_slot18;
+                var1['ignoreEmbedDescriptionCache'] = var3;
+                var3 = _closure2_slot17;
+                var1['ignoreMentioned'] = var3;
+                var3 = _closure2_slot3;
+                var1['inlineAttachmentMedia'] = var3;
+                var3 = _closure2_slot2;
+                var1['inlineEmbedMedia'] = var3;
+                var3 = _closure2_slot9;
+                var1['renderActivityInstanceEmbed'] = var3;
+                var3 = _closure2_slot10;
+                var1['renderActivityInviteEmbed'] = var3;
+                var3 = _closure2_slot15;
+                var1['renderAttachments'] = var3;
+                var3 = _closure2_slot16;
+                var1['renderExecutedCommands'] = var3;
+                var3 = _closure2_slot6;
+                var1['renderCodedLinks'] = var3;
+                var3 = _closure2_slot14;
+                var1['renderCommunicationDisabled'] = var3;
+                var3 = _closure2_slot11;
+                var1['renderComponents'] = var3;
+                var3 = _closure2_slot0;
+                var1['renderEmbeds'] = var3;
+                var3 = _closure2_slot7;
+                var1['renderGiftCode'] = var3;
+                var3 = _closure2_slot1;
+                var1['renderReactions'] = var3;
+                var3 = _closure2_slot8;
+                var1['renderShortcuts'] = var3;
+                var3 = _closure2_slot13;
+                var1['renderReplies'] = var3;
+                var3 = _closure2_slot12;
+                var1['renderThreadEmbeds'] = var3;
+                var3 = _closure2_slot21;
+                var1['renderPolls'] = var3;
+                var3 = _closure2_slot22;
+                var1['renderForumPostActions'] = var3;
+                var2 = _closure2_slot23;
+                var1['useAlternateEmbedColors'] = var2;
+                return var1;
             };
-            oscard = oscard.bind(golfie)(michal, zuuluu);
-            zuuluu = _closure1_slot3;
-            entity = _closure1_slot6;
-            michal = entity.Provider;
-            entity = {};
-            entity['value'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = var6.bind(var7)(var2, var3);
+            var3 = _closure1_slot3;
+            var1 = _closure1_slot6;
+            var2 = var1.Provider;
+            var1 = {};
+            var1['value'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['RenderMessageOptionsContextProvider'] = michal;
-    return entity;
+    var3['RenderMessageOptionsContextProvider'] = var2;
+    return var1;
 })();

@@ -1,162 +1,162 @@
 // app/modules/go_live/useStreamError.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    verify = 0;
-    golfie = oscard[verify];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    golfie = {};
-    tangon = 1;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    option = option.STREAM_SOUNDSHARE_FAILED;
-    golfie[option] = verify;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    option = option.STREAM_SEND_HIGH_PACKET_LOSS;
-    golfie[option] = tangon;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    option = option.STREAM_VIEW_HIGH_PACKET_LOSS;
-    golfie[option] = tangon;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    option = option.STREAM_SEND_LOW_FPS;
-    verify = 2;
-    golfie[option] = verify;
-    option = oscard[tangon];
-    option = report.bind(entity)(option);
-    option = option.AVError;
-    option = option.STREAM_VIEW_LOW_FPS;
-    golfie[option] = verify;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AVError;
-    option = tangon.STREAM_BAD_NETWORK_QUALITY;
-    tangon = 3;
-    golfie[option] = tangon;
-    var _closure1_slot3 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/go_live/useStreamError.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useStreamError
-        michal = argFoo;
-        oscard = michal.id;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 2;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var9 = 0;
+    var7 = var6[var9];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var7 = {};
+    var4 = 1;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVError;
+    var8 = var8.STREAM_SOUNDSHARE_FAILED;
+    var7[var8] = var9;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVError;
+    var8 = var8.STREAM_SEND_HIGH_PACKET_LOSS;
+    var7[var8] = var4;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVError;
+    var8 = var8.STREAM_VIEW_HIGH_PACKET_LOSS;
+    var7[var8] = var4;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVError;
+    var8 = var8.STREAM_SEND_LOW_FPS;
+    var9 = 2;
+    var7[var8] = var9;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AVError;
+    var8 = var8.STREAM_VIEW_LOW_FPS;
+    var7[var8] = var9;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AVError;
+    var8 = var4.STREAM_BAD_NETWORK_QUALITY;
+    var4 = 3;
+    var7[var8] = var4;
+    var _closure1_slot3 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/go_live/useStreamError.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useStreamError(arg1) {
+        var2 = arg1;
+        var6 = var2.id;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 2;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getActiveErrors;
-                report = michal.bind(zuuluu)();
-                michal = global;
-                tangon = michal.Array;
-                zuuluu = tangon.from;
-                michal = report.values;
-                michal = michal.bind(report)();
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.filter;
-                michal = function(argFoo) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var3 = _closure1_slot2;
+                var2 = var3.getActiveErrors;
+                var5 = var2.bind(var3)();
+                var2 = global;
+                var4 = var2.Array;
+                var3 = var4.from;
+                var2 = var5.values;
+                var2 = var2.bind(var5)();
+                var4 = var3.bind(var4)(var2);
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        michal = argFoo;
-                        entity = 'streamKey';
-                        entity = entity in michal;
-                        if(!entity) { _fun00004_ip = 31; continue _fun00003 }
+                        var2 = arg1;
+                        var1 = 'streamKey';
+                        var1 = var1 in var2;
+                        if(!var1) { _fun0002_ip = 31; continue _fun0002 }
  14:
-                        tangon = michal.streamKey;
-                        zuuluu = _closure2_slot0;
-                        entity = tangon === zuuluu;
+                        var4 = var2.streamKey;
+                        var3 = _closure2_slot0;
+                        var1 = var4 === var3;
  31:
-                        if(!entity) { _fun00004_ip = 56; continue _fun00003 }
+                        if(!var1) { _fun0002_ip = 56; continue _fun0002 }
  34:
-                        zuuluu = _closure1_slot3;
-                        michal = michal.type;
-                        zuuluu = zuuluu[michal];
-                        michal = null;
-                        entity = michal != zuuluu;
+                        var3 = _closure1_slot3;
+                        var2 = var2.type;
+                        var3 = var3[var2];
+                        var2 = null;
+                        var1 = var2 != var3;
  56:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.sort;
-                entity = function(argFoo, argBar) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.sort;
+                var1 = function(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        michal = _closure1_slot3;
-                        entity = argFoo;
-                        entity = entity.type;
-                        report = michal[entity];
-                        tangon = null;
-                        oscard = tangon != report;
-                        entity = 0;
-                        if(!oscard) { _fun00006_ip = 33; continue _fun00005 }
+                        var2 = _closure1_slot3;
+                        var1 = arg1;
+                        var1 = var1.type;
+                        var5 = var2[var1];
+                        var4 = null;
+                        var6 = var4 != var5;
+                        var1 = 0;
+                        if(!var6) { _fun0003_ip = 33; continue _fun0003 }
  30:
-                        entity = report;
+                        var1 = var5;
  33:
-                        report = _closure1_slot3;
-                        zuuluu = argBar;
-                        zuuluu = zuuluu.type;
-                        zuuluu = report[zuuluu];
-                        tangon = tangon != zuuluu;
-                        michal = 0;
-                        if(!tangon) { _fun00006_ip = 61; continue _fun00005 }
+                        var5 = _closure1_slot3;
+                        var3 = arg2;
+                        var3 = var3.type;
+                        var3 = var5[var3];
+                        var4 = var4 != var3;
+                        var2 = 0;
+                        if(!var4) { _fun0003_ip = 61; continue _fun0003 }
  58:
-                        michal = zuuluu;
+                        var2 = var3;
  61:
-                        entity = entity - michal;
-                        return entity;
+                        var1 = var1 - var2;
+                        return var1;
                     }
                 };
-                michal = michal.bind(zuuluu)(entity);
-                entity = 0;
-                michal = michal[entity];
-                entity = null;
-                zuuluu = entity == michal;
-                entity = undefined;
-                if(zuuluu) { _fun00002_ip = 103; continue _fun00001 }
+                var2 = var2.bind(var3)(var1);
+                var1 = 0;
+                var2 = var2[var1];
+                var1 = null;
+                var3 = var1 == var2;
+                var1 = undefined;
+                if(var3) { _fun0001_ip = 103; continue _fun0001 }
  98:
-                entity = michal.type;
+                var1 = var2.type;
  103:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

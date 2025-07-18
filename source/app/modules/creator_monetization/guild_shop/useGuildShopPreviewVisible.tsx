@@ -1,173 +1,173 @@
 // app/modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Permissions;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useGuildShopPreviewVisible
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Permissions;
+    var _closure1_slot3 = var7;
+    var4 = var4.GuildFeatures;
+    var _closure1_slot4 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildShopPreviewVisible(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            var _closure2_slot0 = option;
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 2;
-            entity = oscard[entity];
-            offset = undefined;
-            tangon = zuuluu.bind(offset)(entity);
-            michal = tangon.useIsEligibleForGuildShopPreview;
-            entity = argBar;
-            tangon = michal.bind(tangon)(entity);
-            entity = 3;
-            entity = oscard[entity];
-            golfie = zuuluu.bind(offset)(entity);
-            michal = golfie.UNSAFE_useIsDismissibleContentDismissed;
-            entity = 4;
-            entity = oscard[entity];
-            entity = zuuluu.bind(offset)(entity);
-            entity = entity.DismissibleContent;
-            entity = entity.SERVER_SHOP_PHANTOM_PREVIEW;
-            michal = michal.bind(golfie)(entity);
-            entity = 5;
-            entity = oscard[entity];
-            golfie = zuuluu.bind(offset)(entity);
-            oscard = golfie.useStateFromStores;
-            entity = _closure1_slot2;
-            zuuluu = new Array(1);
-            zuuluu[0] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = arg1;
+            var _closure2_slot0 = var8;
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 2;
+            var1 = var6[var1];
+            var10 = undefined;
+            var4 = var3.bind(var10)(var1);
+            var2 = var4.useIsEligibleForGuildShopPreview;
+            var1 = arg2;
+            var4 = var2.bind(var4)(var1);
+            var1 = 3;
+            var1 = var6[var1];
+            var7 = var3.bind(var10)(var1);
+            var2 = var7.UNSAFE_useIsDismissibleContentDismissed;
+            var1 = 4;
+            var1 = var6[var1];
+            var1 = var3.bind(var10)(var1);
+            var1 = var1.DismissibleContent;
+            var1 = var1.SERVER_SHOP_PHANTOM_PREVIEW;
+            var2 = var2.bind(var7)(var1);
+            var1 = 5;
+            var1 = var6[var1];
+            var7 = var3.bind(var10)(var1);
+            var6 = var7.useStateFromStores;
+            var1 = _closure1_slot2;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    entity = entity != zuuluu;
-                    if(!entity) { _fun00004_ip = 49; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var1 = var1 != var3;
+                    if(!var1) { _fun0002_ip = 49; continue _fun0002 }
  16:
-                    report = _closure1_slot2;
-                    tangon = report.can;
-                    zuuluu = _closure1_slot3;
-                    zuuluu = zuuluu.ADMINISTRATOR;
-                    michal = _closure2_slot0;
-                    entity = tangon.bind(report)(zuuluu, michal);
+                    var5 = _closure1_slot2;
+                    var4 = var5.can;
+                    var3 = _closure1_slot3;
+                    var3 = var3.ADMINISTRATOR;
+                    var2 = _closure2_slot0;
+                    var1 = var4.bind(var5)(var3, var2);
  49:
-                    return entity;
+                    return var1;
                 }
             };
-            golfie = oscard.bind(golfie)(zuuluu, entity);
-            entity = null;
-            oscard = entity == option;
-            zuuluu = undefined;
-            if(oscard) { _fun00002_ip = 172; continue _fun00001 }
+            var7 = var6.bind(var7)(var3, var1);
+            var1 = null;
+            var6 = var1 == var8;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 172; continue _fun0001 }
  146:
-            romeon = option.features;
-            yankee = romeon.has;
-            oscard = _closure1_slot4;
-            oscard = oscard.PRODUCTS_AVAILABLE_FOR_PURCHASE;
-            zuuluu = yankee.bind(romeon)(oscard);
+            var12 = var8.features;
+            var11 = var12.has;
+            var6 = _closure1_slot4;
+            var6 = var6.PRODUCTS_AVAILABLE_FOR_PURCHASE;
+            var3 = var11.bind(var12)(var6);
  172:
-            oscard = entity != zuuluu;
-            if(!oscard) { _fun00002_ip = 182; continue _fun00001 }
+            var6 = var1 != var3;
+            if(!var6) { _fun0001_ip = 182; continue _fun0001 }
  179:
-            oscard = zuuluu;
+            var6 = var3;
  182:
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot1;
-            zuuluu = 6;
-            zuuluu = romeon[zuuluu];
-            romeon = yankee.bind(offset)(zuuluu);
-            yankee = romeon.useGuildEligibleForGuildProducts;
-            zuuluu = entity == option;
-            offset = undefined;
-            if(zuuluu) { _fun00002_ip = 222; continue _fun00001 }
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var3 = 6;
+            var3 = var12[var3];
+            var12 = var11.bind(var10)(var3);
+            var11 = var12.useGuildEligibleForGuildProducts;
+            var3 = var1 == var8;
+            var10 = undefined;
+            if(var3) { _fun0001_ip = 222; continue _fun0001 }
  217:
-            offset = option.id;
+            var10 = var8.id;
  222:
-            zuuluu = 'useGuildShopPreviewVisible';
-            zuuluu = yankee.bind(romeon)(offset, zuuluu);
-            verify = _closure1_slot4;
-            yankee = verify.CREATOR_MONETIZABLE;
-            offset = new Array(3);
-            offset[0] = yankee;
-            yankee = verify.CREATOR_MONETIZABLE_PROVISIONAL;
-            offset[1] = yankee;
-            verify = verify.ROLE_SUBSCRIPTIONS_ENABLED;
-            offset[2] = verify;
-            verify = offset.some;
-            report = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var3 = 'useGuildShopPreviewVisible';
+            var3 = var11.bind(var12)(var10, var3);
+            var9 = _closure1_slot4;
+            var11 = var9.CREATOR_MONETIZABLE;
+            var10 = new Array(3);
+            var10[0] = var11;
+            var11 = var9.CREATOR_MONETIZABLE_PROVISIONAL;
+            var10[1] = var11;
+            var9 = var9.ROLE_SUBSCRIPTIONS_ENABLED;
+            var10[2] = var9;
+            var9 = var10.some;
+            var5 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 41; continue _fun00005 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var1 = undefined;
+                    if(var3) { _fun0003_ip = 41; continue _fun0003 }
  18:
-                    michal = _closure2_slot0;
-                    tangon = michal.features;
-                    zuuluu = tangon.has;
-                    michal = argFoo;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var2 = _closure2_slot0;
+                    var4 = var2.features;
+                    var3 = var4.has;
+                    var2 = arg1;
+                    var1 = var3.bind(var4)(var2);
  41:
-                    return entity;
+                    return var1;
                 }
             };
-            report = verify.bind(offset)(report);
-            entity = entity != option;
-            if(!entity) { _fun00002_ip = 296; continue _fun00001 }
+            var5 = var9.bind(var10)(var5);
+            var1 = var1 != var8;
+            if(!var1) { _fun0001_ip = 296; continue _fun0001 }
  293:
-            entity = golfie;
+            var1 = var7;
  296:
-            if(!entity) { _fun00002_ip = 302; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 302; continue _fun0001 }
  299:
-            entity = !oscard;
+            var1 = !var6;
  302:
-            if(!entity) { _fun00002_ip = 308; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 308; continue _fun0001 }
  305:
-            entity = report;
+            var1 = var5;
  308:
-            if(!entity) { _fun00002_ip = 314; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 314; continue _fun0001 }
  311:
-            entity = tangon;
+            var1 = var4;
  314:
-            if(!entity) { _fun00002_ip = 320; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 320; continue _fun0001 }
  317:
-            entity = zuuluu;
+            var1 = var3;
  320:
-            if(!entity) { _fun00002_ip = 326; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 326; continue _fun0001 }
  323:
-            entity = !michal;
+            var1 = !var2;
  326:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useGuildShopPreviewVisible'] = michal;
-    return entity;
+    var3['useGuildShopPreviewVisible'] = var2;
+    return var1;
 })();

@@ -1,279 +1,279 @@
 // app/design/components/Backdrop/native/Backdrop.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: getBlurAmount
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = function getBlurAmount(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = 'none';
-            if(!(entity !== michal)) { _fun00002_ip = 57; continue _fun00001 }
+            var2 = arg1;
+            var1 = 'none';
+            if(!(var1 !== var2)) { _fun0001_ip = 57; continue _fun0001 }
  11:
-            entity = 'subtle';
-            if(!(entity !== michal)) { _fun00002_ip = 45; continue _fun00001 }
+            var1 = 'subtle';
+            if(!(var1 !== var2)) { _fun0001_ip = 45; continue _fun0001 }
  21:
-            entity = 'strong';
-            if(!(entity !== michal)) { _fun00002_ip = 33; continue _fun00001 }
+            var1 = 'strong';
+            if(!(var1 !== var2)) { _fun0001_ip = 33; continue _fun0001 }
  29:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  33:
-            entity = 0.25;
-            return entity;
+            var1 = 0.25;
+            return var1;
  45:
-            entity = 0.05;
-            return entity;
+            var1 = 0.05;
+            return var1;
  57:
-            entity = 0;
-            return entity;
+            var1 = 0;
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    verify = tangon.StyleSheet;
-    tangon = tangon.Pressable;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot6 = tangon;
-    tangon = {};
-    var _closure1_slot7 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = verify.absoluteFillObject;
-    tangon['fill'] = verify;
-    verify = {};
-    offset = 4;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_BACKDROP;
-    verify['backgroundColor'] = romeon;
-    tangon['backdrop'] = verify;
-    verify = {};
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.BG_BACKDROP_NO_OPACITY;
-    verify['backgroundColor'] = offset;
-    tangon['backdropOpaque'] = verify;
-    verify = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'height': 16};
-    tangon['accessibilityDismiss'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'design/components/Backdrop/native/Backdrop.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: Backdrop
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.StyleSheet;
+    var4 = var4.Pressable;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot5 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot6 = var4;
+    var4 = {};
+    var _closure1_slot7 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = var9.absoluteFillObject;
+    var4['fill'] = var9;
+    var9 = {};
+    var10 = 4;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_BACKDROP;
+    var9['backgroundColor'] = var12;
+    var4['backdrop'] = var9;
+    var9 = {};
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BG_BACKDROP_NO_OPACITY;
+    var9['backgroundColor'] = var10;
+    var4['backdropOpaque'] = var9;
+    var9 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'height': 16};
+    var4['accessibilityDismiss'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'design/components/Backdrop/native/Backdrop.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function Backdrop(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            golfie = michal.style;
-            update = michal.accessibleDismissStyle;
-            report = michal.animatedProps;
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00004_ip = 35; continue _fun00003 }
+            var2 = arg1;
+            var7 = var2.style;
+            var20 = var2.accessibleDismissStyle;
+            var5 = var2.animatedProps;
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0002_ip = 35; continue _fun0002 }
  28:
-            report = _closure1_slot7;
+            var5 = _closure1_slot7;
  35:
-            verify = michal.opaque;
-            if(!(verify === tangon)) { _fun00004_ip = 47; continue _fun00003 }
+            var9 = var2.opaque;
+            if(!(var9 === var4)) { _fun0002_ip = 47; continue _fun0002 }
  45:
-            verify = false;
+            var9 = false;
  47:
-            output = michal.blur;
-            if(!(output === tangon)) { _fun00004_ip = 61; continue _fun00003 }
+            var17 = var2.blur;
+            if(!(var17 === var4)) { _fun0002_ip = 61; continue _fun0002 }
  57:
-            output = 'none';
+            var17 = 'none';
  61:
-            result = michal.onDismiss;
-            romeon = michal.accessibilityLabel;
-            if(!(romeon === tangon)) { _fun00004_ip = 134; continue _fun00003 }
+            var18 = var2.onDismiss;
+            var12 = var2.accessibilityLabel;
+            if(!(var12 === var4)) { _fun0002_ip = 134; continue _fun0002 }
  76:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 5;
-            oscard = yankee[zuuluu];
-            oscard = offset.bind(tangon)(oscard);
-            option = oscard.intl;
-            oscard = option.string;
-            zuuluu = yankee[zuuluu];
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.WAI6xs;
-            romeon = oscard.bind(option)(zuuluu);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = 5;
+            var6 = var11[var3];
+            var6 = var10.bind(var4)(var6);
+            var8 = var6.intl;
+            var6 = var8.string;
+            var3 = var11[var3];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.WAI6xs;
+            var12 = var6.bind(var8)(var3);
  134:
-            yankee = michal.aria-hidden;
-            var _closure2_slot0 = tangon;
-            michal = _closure1_slot8;
-            foxtra = michal.bind(tangon)();
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 6;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useThemeContext;
-            michal = michal.bind(zuuluu)();
-            kiloes = michal.theme;
-            michal = _closure1_slot1;
-            zuuluu = 7;
-            zuuluu = oscard[zuuluu];
-            zuuluu = michal.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.bind(tangon)();
-            ctrled = zuuluu.top;
-            zuuluu = foxtra.backdrop;
-            backup = zuuluu.backgroundColor;
-            _closure2_slot0 = backup;
-            offset = _closure1_slot3;
-            option = offset.useMemo;
-            zuuluu = new Array(1);
-            zuuluu[0] = backup;
-            entity = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 8;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.hexToRgbaString;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var11 = var2.aria-hidden;
+            var _closure2_slot0 = var4;
+            var2 = _closure1_slot8;
+            var13 = var2.bind(var4)();
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 6;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useThemeContext;
+            var2 = var2.bind(var3)();
+            var15 = var2.theme;
+            var2 = _closure1_slot1;
+            var3 = 7;
+            var3 = var6[var3];
+            var3 = var2.bind(var4)(var3);
+            var3 = var3.bind(var4)();
+            var22 = var3.top;
+            var3 = var13.backdrop;
+            var14 = var3.backgroundColor;
+            _closure2_slot0 = var14;
+            var10 = _closure1_slot3;
+            var8 = var10.useMemo;
+            var3 = new Array(1);
+            var3[0] = var14;
+            var1 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 8;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.hexToRgbaString;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            backup = option.bind(offset)(entity, zuuluu);
-            offset = {};
-            offset['onPress'] = result;
-            entity = true;
-            offset['aria-hidden'] = entity;
-            zuuluu = _closure1_slot6;
-            entity = 9;
-            entity = oscard[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.View;
-            entity = {};
-            option = foxtra.fill;
-            oscard = new Array(2);
-            oscard[0] = option;
-            oscard[1] = golfie;
-            entity['style'] = oscard;
-            oscard = 'box-none';
-            entity['pointerEvents'] = oscard;
-            entity['animatedProps'] = report;
-            report = null;
-            oscard = report != result;
-            if(!oscard) { _fun00004_ip = 410; continue _fun00003 }
+            var14 = var8.bind(var10)(var1, var3);
+            var10 = {};
+            var10['onPress'] = var18;
+            var1 = true;
+            var10['aria-hidden'] = var1;
+            var3 = _closure1_slot6;
+            var1 = 9;
+            var1 = var6[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.View;
+            var1 = {};
+            var8 = var13.fill;
+            var6 = new Array(2);
+            var6[0] = var8;
+            var6[1] = var7;
+            var1['style'] = var6;
+            var6 = 'box-none';
+            var1['pointerEvents'] = var6;
+            var1['animatedProps'] = var5;
+            var5 = null;
+            var6 = var5 != var18;
+            if(!var6) { _fun0002_ip = 410; continue _fun0002 }
  341:
-            option = _closure1_slot5;
-            golfie = _closure1_slot4;
-            report = {};
-            source = foxtra.accessibilityDismiss;
-            echoed = new Array(3);
-            echoed[0] = source;
-            source = {};
-            source['top'] = ctrled;
-            echoed[1] = source;
-            echoed[2] = update;
-            report['style'] = echoed;
-            report['onPress'] = result;
-            result = 'button';
-            report['accessibilityRole'] = result;
-            report['accessibilityLabel'] = romeon;
-            report['aria-hidden'] = yankee;
-            oscard = option.bind(tangon)(golfie, report);
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot4;
+            var5 = {};
+            var21 = var13.accessibilityDismiss;
+            var19 = new Array(3);
+            var19[0] = var21;
+            var21 = {};
+            var21['top'] = var22;
+            var19[1] = var21;
+            var19[2] = var20;
+            var5['style'] = var19;
+            var5['onPress'] = var18;
+            var18 = 'button';
+            var5['accessibilityRole'] = var18;
+            var5['accessibilityLabel'] = var12;
+            var5['aria-hidden'] = var11;
+            var6 = var8.bind(var4)(var7, var5);
  410:
-            report = new Array(2);
-            report[0] = oscard;
-            option = _closure1_slot5;
-            golfie = _closure1_slot4;
-            oscard = 'none';
-            if(!(oscard === output)) { _fun00004_ip = 492; continue _fun00003 }
+            var5 = new Array(2);
+            var5[0] = var6;
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot4;
+            var6 = 'none';
+            if(!(var6 === var17)) { _fun0002_ip = 492; continue _fun0002 }
  434:
-            oscard = {};
-            sequen = oscard;
-            vacuum = offset;
-            yankee = copyDataProperties(sequen, vacuum);
-            romeon = foxtra.fill;
-            yankee = new Array(2);
-            yankee[0] = romeon;
-            if(verify) { _fun00004_ip = 471; continue _fun00003 }
+            var6 = {};
+            var24 = var6;
+            var23 = var10;
+            var11 = copyDataProperties(var24, var23);
+            var12 = var13.fill;
+            var11 = new Array(2);
+            var11[0] = var12;
+            if(var9) { _fun0002_ip = 471; continue _fun0002 }
  463:
-            verify = foxtra.backdrop;
-            _fun00004_ip = 477; continue _fun00003;
+            var9 = var13.backdrop;
+            _fun0002_ip = 477; continue _fun0002;
  471:
-            verify = foxtra.backdropOpaque;
+            var9 = var13.backdropOpaque;
  477:
-            yankee[1] = verify;
-            verify = 'style';
-            oscard[verify] = yankee;
-            _fun00004_ip = 613; continue _fun00003;
+            var11[1] = var9;
+            var9 = 'style';
+            var6[var9] = var11;
+            _fun0002_ip = 613; continue _fun0002;
  492:
-            verify = {};
-            sequen = verify;
-            vacuum = offset;
-            offset = copyDataProperties(sequen, vacuum);
-            yankee = foxtra.fill;
-            offset = 'style';
-            verify[offset] = yankee;
-            romeon = _closure1_slot5;
-            yankee = _closure1_slot1;
-            result = _closure1_slot2;
-            offset = 10;
-            offset = result[offset];
-            yankee = yankee.bind(tangon)(offset);
-            offset = {};
-            sizing = _closure1_slot9;
-            sizing = sizing.bind(tangon)(output);
-            offset['blurAmount'] = sizing;
-            sizing = foxtra.fill;
-            offset['style'] = sizing;
-            offset['blurTheme'] = kiloes;
-            offset['blurTintRgba'] = backup;
-            foxtra = foxtra.backdrop;
-            foxtra = foxtra.backgroundColor;
-            offset['android_fallbackColor'] = foxtra;
-            yankee = romeon.bind(tangon)(yankee, offset);
-            offset = 'children';
-            verify[offset] = yankee;
-            oscard = verify;
+            var9 = {};
+            var24 = var9;
+            var23 = var10;
+            var10 = copyDataProperties(var24, var23);
+            var11 = var13.fill;
+            var10 = 'style';
+            var9[var10] = var11;
+            var12 = _closure1_slot5;
+            var11 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var10 = 10;
+            var10 = var18[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            var16 = _closure1_slot9;
+            var16 = var16.bind(var4)(var17);
+            var10['blurAmount'] = var16;
+            var16 = var13.fill;
+            var10['style'] = var16;
+            var10['blurTheme'] = var15;
+            var10['blurTintRgba'] = var14;
+            var13 = var13.backdrop;
+            var13 = var13.backgroundColor;
+            var10['android_fallbackColor'] = var13;
+            var11 = var12.bind(var4)(var11, var10);
+            var10 = 'children';
+            var9[var10] = var11;
+            var6 = var9;
  613:
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[1] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['Backdrop'] = michal;
-    return entity;
+    var3['Backdrop'] = var2;
+    return var1;
 })();

@@ -1,197 +1,197 @@
 // app/modules/errors/av_errors/AVErrorContext.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function() { // Original name: getCommonErrorContext
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getCommonErrorContext() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = {};
-            tangon = _closure1_slot2;
-            michal = tangon.getVideoDevices;
-            tangon = michal.bind(tangon)();
-            report = _closure1_slot2;
-            michal = report.getVideoDeviceId;
-            michal = michal.bind(report)();
-            oscard = tangon[michal];
-            tangon = null;
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 53; continue _fun00001 }
+            var1 = {};
+            var4 = _closure1_slot2;
+            var2 = var4.getVideoDevices;
+            var4 = var2.bind(var4)();
+            var5 = _closure1_slot2;
+            var2 = var5.getVideoDeviceId;
+            var2 = var2.bind(var5)();
+            var6 = var4[var2];
+            var4 = null;
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 53; continue _fun0001 }
  48:
-            report = oscard.name;
+            var5 = var6.name;
  53:
-            entity['videoDeviceName'] = report;
-            oscard = _closure1_slot2;
-            report = oscard.getInputDevices;
-            oscard = report.bind(oscard)();
-            golfie = _closure1_slot2;
-            report = golfie.getInputDeviceId;
-            report = report.bind(golfie)();
-            oscard = oscard[report];
-            golfie = tangon == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 104; continue _fun00001 }
+            var1['videoDeviceName'] = var5;
+            var6 = _closure1_slot2;
+            var5 = var6.getInputDevices;
+            var6 = var5.bind(var6)();
+            var7 = _closure1_slot2;
+            var5 = var7.getInputDeviceId;
+            var5 = var5.bind(var7)();
+            var6 = var6[var5];
+            var7 = var4 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 104; continue _fun0001 }
  99:
-            report = oscard.name;
+            var5 = var6.name;
  104:
-            entity['audioInputDeviceName'] = report;
-            oscard = _closure1_slot2;
-            report = oscard.getOutputDevices;
-            report = report.bind(oscard)();
-            oscard = _closure1_slot2;
-            zuuluu = oscard.getOutputDeviceId;
-            zuuluu = zuuluu.bind(oscard)();
-            zuuluu = report[zuuluu];
-            tangon = tangon == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00002_ip = 155; continue _fun00001 }
+            var1['audioInputDeviceName'] = var5;
+            var6 = _closure1_slot2;
+            var5 = var6.getOutputDevices;
+            var5 = var5.bind(var6)();
+            var6 = _closure1_slot2;
+            var3 = var6.getOutputDeviceId;
+            var3 = var3.bind(var6)();
+            var3 = var5[var3];
+            var4 = var4 == var3;
+            var2 = undefined;
+            if(var4) { _fun0001_ip = 155; continue _fun0001 }
  150:
-            michal = zuuluu.name;
+            var2 = var3.name;
  155:
-            entity['audioOutputDeviceName'] = michal;
-            return entity;
+            var1['audioOutputDeviceName'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot6 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/errors/av_errors/AVErrorContext.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: getVoiceChannelErrorContext
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/errors/av_errors/AVErrorContext.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getVoiceChannelErrorContext() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot4;
-            entity = zuuluu.getVoiceChannelId;
-            oscard = entity.bind(zuuluu)();
-            entity = {};
-            tangon = null;
-            golfie = tangon != oscard;
-            zuuluu = undefined;
-            report = undefined;
-            if(!golfie) { _fun00004_ip = 35; continue _fun00003 }
+            var3 = _closure1_slot4;
+            var1 = var3.getVoiceChannelId;
+            var6 = var1.bind(var3)();
+            var1 = {};
+            var4 = null;
+            var7 = var4 != var6;
+            var3 = undefined;
+            var5 = undefined;
+            if(!var7) { _fun0002_ip = 35; continue _fun0002 }
  32:
-            report = oscard;
+            var5 = var6;
  35:
-            entity['channelId'] = report;
-            oscard = _closure1_slot3;
-            report = oscard.getMediaSessionId;
-            report = report.bind(oscard)();
-            oscard = tangon != report;
-            tangon = undefined;
-            if(!oscard) { _fun00004_ip = 65; continue _fun00003 }
+            var1['channelId'] = var5;
+            var6 = _closure1_slot3;
+            var5 = var6.getMediaSessionId;
+            var5 = var5.bind(var6)();
+            var6 = var4 != var5;
+            var4 = undefined;
+            if(!var6) { _fun0002_ip = 65; continue _fun0002 }
  62:
-            tangon = report;
+            var4 = var5;
  65:
-            entity['mediaSessionId'] = tangon;
-            report = _closure1_slot3;
-            tangon = report.getRTCConnectionId;
-            tangon = tangon.bind(report)();
-            entity['rtcConnectionId'] = tangon;
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            tangon = 4;
-            tangon = oscard[tangon];
-            tangon = report.bind(zuuluu)(tangon);
-            tangon = tangon.MediaEngineContextTypes;
-            tangon = tangon.DEFAULT;
-            entity['mediaContext'] = tangon;
-            michal = _closure1_slot6;
-            option = michal.bind(zuuluu)();
-            verify = entity;
-            michal = copyDataProperties(verify, option);
-            return entity;
+            var1['mediaSessionId'] = var4;
+            var5 = _closure1_slot3;
+            var4 = var5.getRTCConnectionId;
+            var4 = var4.bind(var5)();
+            var1['rtcConnectionId'] = var4;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var4 = 4;
+            var4 = var6[var4];
+            var4 = var5.bind(var3)(var4);
+            var4 = var4.MediaEngineContextTypes;
+            var4 = var4.DEFAULT;
+            var1['mediaContext'] = var4;
+            var2 = _closure1_slot6;
+            var8 = var2.bind(var3)();
+            var9 = var1;
+            var2 = copyDataProperties(var9, var8);
+            return var1;
         }
     };
-    zuuluu['getVoiceChannelErrorContext'] = report;
-    tangon = function(argFoo) { // Original name: getStreamErrorContext
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getVoiceChannelErrorContext'] = var5;
+    var4 = function getStreamErrorContext(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 5;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            report = report.bind(zuuluu)(entity);
-            entity = report.decodeStreamKey;
-            entity = entity.bind(report)(tangon);
-            report = entity.channelId;
-            oscard = _closure1_slot5;
-            entity = oscard.getRTCConnection;
-            golfie = entity.bind(oscard)(tangon);
-            entity = {};
-            entity['channelId'] = report;
-            report = null;
-            oscard = report == golfie;
-            option = undefined;
-            if(oscard) { _fun00006_ip = 86; continue _fun00005 }
+            var4 = arg1;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 5;
+            var1 = var3[var1];
+            var3 = undefined;
+            var5 = var5.bind(var3)(var1);
+            var1 = var5.decodeStreamKey;
+            var1 = var1.bind(var5)(var4);
+            var5 = var1.channelId;
+            var6 = _closure1_slot5;
+            var1 = var6.getRTCConnection;
+            var7 = var1.bind(var6)(var4);
+            var1 = {};
+            var1['channelId'] = var5;
+            var5 = null;
+            var6 = var5 == var7;
+            var8 = undefined;
+            if(var6) { _fun0003_ip = 86; continue _fun0003 }
  76:
-            oscard = golfie.getMediaSessionId;
-            option = oscard.bind(golfie)();
+            var6 = var7.getMediaSessionId;
+            var8 = var6.bind(var7)();
  86:
-            verify = report != option;
-            oscard = undefined;
-            if(!verify) { _fun00006_ip = 98; continue _fun00005 }
+            var9 = var5 != var8;
+            var6 = undefined;
+            if(!var9) { _fun0003_ip = 98; continue _fun0003 }
  95:
-            oscard = option;
+            var6 = var8;
  98:
-            entity['mediaSessionId'] = oscard;
-            oscard = report == golfie;
-            report = undefined;
-            if(oscard) { _fun00006_ip = 122; continue _fun00005 }
+            var1['mediaSessionId'] = var6;
+            var6 = var5 == var7;
+            var5 = undefined;
+            if(var6) { _fun0003_ip = 122; continue _fun0003 }
  112:
-            oscard = golfie.getRTCConnectionId;
-            report = oscard.bind(golfie)();
+            var6 = var7.getRTCConnectionId;
+            var5 = var6.bind(var7)();
  122:
-            entity['rtcConnectionId'] = report;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            report = 4;
-            report = golfie[report];
-            report = oscard.bind(zuuluu)(report);
-            report = report.MediaEngineContextTypes;
-            report = report.STREAM;
-            entity['mediaContext'] = report;
-            entity['streamKey'] = tangon;
-            michal = _closure1_slot6;
-            offset = michal.bind(zuuluu)();
-            yankee = entity;
-            michal = copyDataProperties(yankee, offset);
-            return entity;
+            var1['rtcConnectionId'] = var5;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 4;
+            var5 = var7[var5];
+            var5 = var6.bind(var3)(var5);
+            var5 = var5.MediaEngineContextTypes;
+            var5 = var5.STREAM;
+            var1['mediaContext'] = var5;
+            var1['streamKey'] = var4;
+            var2 = _closure1_slot6;
+            var10 = var2.bind(var3)();
+            var11 = var1;
+            var2 = copyDataProperties(var11, var10);
+            return var1;
         }
     };
-    zuuluu['getStreamErrorContext'] = tangon;
-    zuuluu['getCommonErrorContext'] = michal;
-    return entity;
+    var3['getStreamErrorContext'] = var4;
+    var3['getCommonErrorContext'] = var2;
+    return var1;
 })();

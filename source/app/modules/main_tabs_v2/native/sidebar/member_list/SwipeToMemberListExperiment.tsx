@@ -1,147 +1,147 @@
 // app/modules/main_tabs_v2/native/sidebar/member_list/SwipeToMemberListExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = option[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    offset = tangon.CommonTriggerPoints;
-    tangon = 1;
-    report = option[tangon];
-    verify = golfie.bind(entity)(report);
-    oscard = verify.createExperiment;
-    report = {'kind': 'user', 'id': '2024-12_swipe_to_view_memberlist', 'label': 'Swipe to view member list'};
-    yankee = {};
-    yankee['defaultValue'] = entity;
-    report['defaultConfig'] = yankee;
-    yankee = offset.CONNECTION_OPEN_MOBILE;
-    report['commonTriggerPoint'] = yankee;
-    foxtra = {'id': 1, 'label': 'Swipe to view member list is default'};
-    yankee = {};
-    romeon = 2;
-    backup = option[romeon];
-    backup = golfie.bind(entity)(backup);
-    backup = backup.SwipeRightToLeftMode;
-    backup = backup.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
-    yankee['defaultValue'] = backup;
-    foxtra['config'] = yankee;
-    yankee = new Array(1);
-    yankee[0] = foxtra;
-    report['treatments'] = yankee;
-    report = oscard.bind(verify)(report);
-    var _closure1_slot2 = report;
-    tangon = option[tangon];
-    verify = golfie.bind(entity)(tangon);
-    oscard = verify.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-04_swipe_to_view_memberlist_2', 'label': 'Swipe to view member list 2'};
-    yankee = {};
-    yankee['defaultValue'] = entity;
-    tangon['defaultConfig'] = yankee;
-    offset = offset.CONNECTION_OPEN_MOBILE;
-    tangon['commonTriggerPoint'] = offset;
-    yankee = {'id': 1, 'label': 'Swipe to view member list is default'};
-    offset = {};
-    romeon = option[romeon];
-    romeon = golfie.bind(entity)(romeon);
-    romeon = romeon.SwipeRightToLeftMode;
-    romeon = romeon.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
-    offset['defaultValue'] = romeon;
-    yankee['config'] = offset;
-    offset = new Array(1);
-    offset[0] = yankee;
-    tangon['treatments'] = offset;
-    tangon = oscard.bind(verify)(tangon);
-    var _closure1_slot3 = tangon;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/main_tabs_v2/native/sidebar/member_list/SwipeToMemberListExperiment.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['SwipeToMemberListExperiment'] = report;
-    zuuluu['SwipeToMemberList2Experiment'] = tangon;
-    tangon = function() { // Original name: useSwipeActionDefaultValue
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var8[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var10 = var4.CommonTriggerPoints;
+    var4 = 1;
+    var5 = var8[var4];
+    var9 = var7.bind(var1)(var5);
+    var6 = var9.createExperiment;
+    var5 = {'kind': 'user', 'id': '2024-12_swipe_to_view_memberlist', 'label': 'Swipe to view member list'};
+    var11 = {};
+    var11['defaultValue'] = var1;
+    var5['defaultConfig'] = var11;
+    var11 = var10.CONNECTION_OPEN_MOBILE;
+    var5['commonTriggerPoint'] = var11;
+    var13 = {'id': 1, 'label': 'Swipe to view member list is default'};
+    var11 = {};
+    var12 = 2;
+    var14 = var8[var12];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.SwipeRightToLeftMode;
+    var14 = var14.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
+    var11['defaultValue'] = var14;
+    var13['config'] = var11;
+    var11 = new Array(1);
+    var11[0] = var13;
+    var5['treatments'] = var11;
+    var5 = var6.bind(var9)(var5);
+    var _closure1_slot2 = var5;
+    var4 = var8[var4];
+    var9 = var7.bind(var1)(var4);
+    var6 = var9.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-04_swipe_to_view_memberlist_2', 'label': 'Swipe to view member list 2'};
+    var11 = {};
+    var11['defaultValue'] = var1;
+    var4['defaultConfig'] = var11;
+    var10 = var10.CONNECTION_OPEN_MOBILE;
+    var4['commonTriggerPoint'] = var10;
+    var11 = {'id': 1, 'label': 'Swipe to view member list is default'};
+    var10 = {};
+    var12 = var8[var12];
+    var12 = var7.bind(var1)(var12);
+    var12 = var12.SwipeRightToLeftMode;
+    var12 = var12.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
+    var10['defaultValue'] = var12;
+    var11['config'] = var10;
+    var10 = new Array(1);
+    var10[0] = var11;
+    var4['treatments'] = var10;
+    var4 = var6.bind(var9)(var4);
+    var _closure1_slot3 = var4;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/main_tabs_v2/native/sidebar/member_list/SwipeToMemberListExperiment.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['SwipeToMemberListExperiment'] = var5;
+    var3['SwipeToMemberList2Experiment'] = var4;
+    var4 = function useSwipeActionDefaultValue() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useExperiment;
-            entity = {};
-            oscard = 'hook';
-            entity['location'] = oscard;
-            entity = zuuluu.bind(tangon)(entity);
-            tangon = entity.defaultValue;
-            report = _closure1_slot3;
-            zuuluu = report.useExperiment;
-            entity = {};
-            entity['location'] = oscard;
-            entity = zuuluu.bind(report)(entity);
-            entity = entity.defaultValue;
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 70; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = var4.useExperiment;
+            var1 = {};
+            var6 = 'hook';
+            var1['location'] = var6;
+            var1 = var3.bind(var4)(var1);
+            var4 = var1.defaultValue;
+            var5 = _closure1_slot3;
+            var3 = var5.useExperiment;
+            var1 = {};
+            var1['location'] = var6;
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.defaultValue;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0001_ip = 70; continue _fun0001 }
  67:
-            entity = tangon;
+            var1 = var4;
  70:
-            if(!(zuuluu == entity)) { _fun00002_ip = 108; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 108; continue _fun0001 }
  74:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            michal = michal.SwipeRightToLeftMode;
-            entity = michal.SWIPE_RIGHT_TO_LEFT_REPLY;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var2 = var2.SwipeRightToLeftMode;
+            var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useSwipeActionDefaultValue'] = tangon;
-    michal = function() { // Original name: getSwipeActionDefaultValue
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useSwipeActionDefaultValue'] = var4;
+    var2 = function getSwipeActionDefaultValue() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getCurrentConfig;
-            entity = {};
-            golfie = 'getter';
-            entity['location'] = golfie;
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.defaultValue;
-            zuuluu = null;
-            if(!(zuuluu == entity)) { _fun00004_ip = 67; continue _fun00003 }
+            var4 = _closure1_slot2;
+            var3 = var4.getCurrentConfig;
+            var1 = {};
+            var7 = 'getter';
+            var1['location'] = var7;
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.defaultValue;
+            var3 = null;
+            if(!(var3 == var1)) { _fun0002_ip = 67; continue _fun0002 }
  40:
-            oscard = _closure1_slot3;
-            report = oscard.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = golfie;
-            tangon = report.bind(oscard)(tangon);
-            entity = tangon.defaultValue;
+            var6 = _closure1_slot3;
+            var5 = var6.getCurrentConfig;
+            var4 = {};
+            var4['location'] = var7;
+            var4 = var5.bind(var6)(var4);
+            var1 = var4.defaultValue;
  67:
-            if(!(zuuluu == entity)) { _fun00004_ip = 105; continue _fun00003 }
+            if(!(var3 == var1)) { _fun0002_ip = 105; continue _fun0002 }
  71:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            michal = michal.SwipeRightToLeftMode;
-            entity = michal.SWIPE_RIGHT_TO_LEFT_REPLY;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var2 = var2.SwipeRightToLeftMode;
+            var1 = var2.SWIPE_RIGHT_TO_LEFT_REPLY;
  105:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getSwipeActionDefaultValue'] = michal;
-    return entity;
+    var3['getSwipeActionDefaultValue'] = var2;
+    return var1;
 })();

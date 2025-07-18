@@ -1,65 +1,65 @@
 // app/modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.native.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getFastestListSectionsWithErrorChecking
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getFastestListSectionsWithErrorChecking(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.itemSizes;
-            michal = michal.length;
-            tangon = 1000;
-            michal = michal > tangon;
-            if(michal) { _fun00002_ip = 42; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.itemSizes;
+            var2 = var2.length;
+            var4 = 1000;
+            var2 = var2 > var4;
+            if(var2) { _fun0001_ip = 42; continue _fun0001 }
  27:
-            zuuluu = entity.itemKeys;
-            zuuluu = zuuluu.length;
-            michal = zuuluu > tangon;
+            var3 = var1.itemKeys;
+            var3 = var3.length;
+            var2 = var3 > var4;
  42:
-            if(!michal) { _fun00002_ip = 147; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 147; continue _fun0001 }
  45:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 0;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            report = tangon.bind(michal)(zuuluu);
-            tangon = report.logFastestListError;
-            zuuluu = {};
-            michal = entity.itemSizes;
-            michal = michal.length;
-            zuuluu['itemSizesLength'] = michal;
-            michal = entity.itemKeys;
-            michal = michal.length;
-            zuuluu['itemKeysLength'] = michal;
-            michal = entity.listId;
-            zuuluu['listId'] = michal;
-            michal = 'Using non-uniform item sizes or list keys forces a full iteration of the list entries. This will cause performance issues on slower devices, please consider using a uniform configuration.';
-            zuuluu['detail'] = michal;
-            michal = 'Non-uniform configuration with large data set detected.';
-            michal = tangon.bind(report)(michal, zuuluu);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 0;
+            var3 = var3[var2];
+            var2 = undefined;
+            var5 = var4.bind(var2)(var3);
+            var4 = var5.logFastestListError;
+            var3 = {};
+            var2 = var1.itemSizes;
+            var2 = var2.length;
+            var3['itemSizesLength'] = var2;
+            var2 = var1.itemKeys;
+            var2 = var2.length;
+            var3['itemKeysLength'] = var2;
+            var2 = var1.listId;
+            var3['listId'] = var2;
+            var2 = 'Using non-uniform item sizes or list keys forces a full iteration of the list entries. This will cause performance issues on slower devices, please consider using a uniform configuration.';
+            var3['detail'] = var2;
+            var2 = 'Non-uniform configuration with large data set detected.';
+            var2 = var4.bind(var5)(var2, var3);
  147:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

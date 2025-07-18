@@ -1,261 +1,261 @@
 // app/utils/native/DeviceUtils.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        offset = argBaz;
-        zuuluu = argFre;
-        golfie = argPlu;
-        var _closure1_slot0 = oscard;
-        var _closure1_slot1 = offset;
-        var _closure1_slot2 = golfie;
-        tangon = function() { // Original name: getDevice
-            entity = _closure1_slot3;
-            entity = entity.device;
-            return entity;
+        var6 = native2;
+        var10 = native3;
+        var3 = native6;
+        var7 = native7;
+        var _closure1_slot0 = var6;
+        var _closure1_slot1 = var10;
+        var _closure1_slot2 = var7;
+        var4 = function getDevice() {
+            var1 = _closure1_slot3;
+            var1 = var1.device;
+            return var1;
         };
-        var _closure1_slot6 = tangon;
-        entity = global;
-        verify = entity.Object;
-        option = verify.defineProperty;
-        report = {};
-        entity = true;
-        report['value'] = entity;
-        entity = '__esModule';
-        entity = option.bind(verify)(zuuluu, entity, report);
-        entity = 0;
-        report = golfie[entity];
-        entity = undefined;
-        report = oscard.bind(entity)(report);
-        report = report.NativeModules;
-        option = 1;
-        option = golfie[option];
-        verify = oscard.bind(entity)(option);
-        option = verify.isAndroid;
-        option = option.bind(verify)();
-        if(option) { _fun00002_ip = 118; continue _fun00001 }
+        var _closure1_slot6 = var4;
+        var1 = global;
+        var9 = var1.Object;
+        var8 = var9.defineProperty;
+        var5 = {};
+        var1 = true;
+        var5['value'] = var1;
+        var1 = '__esModule';
+        var1 = var8.bind(var9)(var3, var1, var5);
+        var1 = 0;
+        var5 = var7[var1];
+        var1 = undefined;
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.NativeModules;
+        var8 = 1;
+        var8 = var7[var8];
+        var9 = var6.bind(var1)(var8);
+        var8 = var9.isAndroid;
+        var8 = var8.bind(var9)();
+        if(var8) { _fun0001_ip = 118; continue _fun0001 }
  110:
-        report = report.DCDDeviceManager;
-        _fun00002_ip = 163; continue _fun00001;
+        var5 = var5.DCDDeviceManager;
+        _fun0001_ip = 163; continue _fun0001;
  118:
-        verify = 2;
-        option = golfie[verify];
-        yankee = offset.bind(entity)(option);
-        option = null;
-        yankee = option == yankee;
-        option = undefined;
-        if(yankee) { _fun00002_ip = 160; continue _fun00001 }
+        var9 = 2;
+        var8 = var7[var9];
+        var11 = var10.bind(var1)(var8);
+        var8 = null;
+        var11 = var8 == var11;
+        var8 = undefined;
+        if(var11) { _fun0001_ip = 160; continue _fun0001 }
  141:
-        verify = golfie[verify];
-        offset = offset.bind(entity)(verify);
-        verify = offset.getConstants;
-        option = verify.bind(offset)();
+        var9 = var7[var9];
+        var10 = var10.bind(var1)(var9);
+        var9 = var10.getConstants;
+        var8 = var9.bind(var10)();
  160:
-        report = option;
+        var5 = var8;
  163:
-        var _closure1_slot3 = report;
-        report = null;
-        var _closure1_slot4 = report;
-        report = 'mediaPerformanceClass';
-        var _closure1_slot5 = report;
-        report = 4;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = 'utils/native/DeviceUtils.tsx';
-        report = oscard.bind(golfie)(report);
-        report = function() { // Original name: isIpadOS
-            entity = _closure1_slot3;
-            michal = entity.deviceModel;
-            entity = 'iPad';
-            entity = entity === michal;
-            return entity;
+        var _closure1_slot3 = var5;
+        var5 = null;
+        var _closure1_slot4 = var5;
+        var5 = 'mediaPerformanceClass';
+        var _closure1_slot5 = var5;
+        var5 = 4;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'utils/native/DeviceUtils.tsx';
+        var5 = var6.bind(var7)(var5);
+        var5 = function isIpadOS() {
+            var1 = _closure1_slot3;
+            var2 = var1.deviceModel;
+            var1 = 'iPad';
+            var1 = var1 === var2;
+            return var1;
         };
-        zuuluu['isIpadOS'] = report;
-        report = function() { // Original name: isGestureNavigationEnabled
-            entity = _closure1_slot3;
-            entity = entity.isGestureNavigationEnabled;
-            return entity;
+        var3['isIpadOS'] = var5;
+        var5 = function isGestureNavigationEnabled() {
+            var1 = _closure1_slot3;
+            var1 = var1.isGestureNavigationEnabled;
+            return var1;
         };
-        zuuluu['isGestureNavigationEnabled'] = report;
-        report = function() { // Original name: getSystemVersion
-            entity = _closure1_slot3;
-            entity = entity.systemVersion;
-            return entity;
+        var3['isGestureNavigationEnabled'] = var5;
+        var5 = function getSystemVersion() {
+            var1 = _closure1_slot3;
+            var1 = var1.systemVersion;
+            return var1;
         };
-        zuuluu['getSystemVersion'] = report;
-        zuuluu['getDevice'] = tangon;
-        tangon = function() { // Original name: getDeviceInfo
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var3['getSystemVersion'] = var5;
+        var3['getDevice'] = var4;
+        var4 = function getDeviceInfo() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 1;
-                entity = tangon[entity];
-                tangon = undefined;
-                zuuluu = zuuluu.bind(tangon)(entity);
-                entity = zuuluu.isAndroid;
-                entity = entity.bind(zuuluu)();
-                zuuluu = _closure1_slot6;
-                tangon = zuuluu.bind(tangon)();
-                if(entity) { _fun00004_ip = 50; continue _fun00003 }
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 1;
+                var1 = var4[var1];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var1);
+                var1 = var3.isAndroid;
+                var1 = var1.bind(var3)();
+                var3 = _closure1_slot6;
+                var4 = var3.bind(var4)();
+                if(var1) { _fun0002_ip = 50; continue _fun0002 }
  45:
-                entity = tangon;
-                _fun00004_ip = 82; continue _fun00003;
+                var1 = var4;
+                _fun0002_ip = 82; continue _fun0002;
  50:
-                zuuluu = ' (';
-                zuuluu = tangon + zuuluu;
-                michal = _closure1_slot3;
-                michal = michal.deviceModel;
-                zuuluu = zuuluu + michal;
-                michal = ')';
-                entity = zuuluu + michal;
+                var3 = ' (';
+                var3 = var4 + var3;
+                var2 = _closure1_slot3;
+                var2 = var2.deviceModel;
+                var3 = var3 + var2;
+                var2 = ')';
+                var1 = var3 + var2;
  82:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['getDeviceInfo'] = tangon;
-        tangon = function() { // Original name: getDeviceMediaPerformanceClass
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3['getDeviceInfo'] = var4;
+        var4 = function getDeviceMediaPerformanceClass() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 1;
-                entity = tangon[entity];
-                report = undefined;
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = zuuluu.isAndroid;
-                zuuluu = entity.bind(zuuluu)();
-                oscard = null;
-                entity = null;
-                if(!zuuluu) { _fun00006_ip = 187; continue _fun00005 }
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 1;
+                var1 = var4[var1];
+                var5 = undefined;
+                var3 = var3.bind(var5)(var1);
+                var1 = var3.isAndroid;
+                var3 = var1.bind(var3)();
+                var6 = null;
+                var1 = null;
+                if(!var3) { _fun0003_ip = 187; continue _fun0003 }
  44:
-                zuuluu = _closure1_slot4;
-                zuuluu = oscard == zuuluu;
-                if(!zuuluu) { _fun00006_ip = 103; continue _fun00005 }
+                var3 = _closure1_slot4;
+                var3 = var6 == var3;
+                if(!var3) { _fun0003_ip = 103; continue _fun0003 }
  55:
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                tangon = 3;
-                tangon = option[tangon];
-                tangon = golfie.bind(report)(tangon);
-                option = tangon.Storage;
-                golfie = option.get;
-                tangon = _closure1_slot5;
-                tangon = golfie.bind(option)(tangon);
-                _closure1_slot4 = tangon;
-                zuuluu = oscard == tangon;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var4 = 3;
+                var4 = var8[var4];
+                var4 = var7.bind(var5)(var4);
+                var8 = var4.Storage;
+                var7 = var8.get;
+                var4 = _closure1_slot5;
+                var4 = var7.bind(var8)(var4);
+                _closure1_slot4 = var4;
+                var3 = var6 == var4;
  103:
-                if(!zuuluu) { _fun00006_ip = 183; continue _fun00005 }
+                if(!var3) { _fun0003_ip = 183; continue _fun0003 }
  106:
-                tangon = _closure1_slot1;
-                oscard = _closure1_slot2;
-                zuuluu = 2;
-                zuuluu = oscard[zuuluu];
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.getMediaPerformanceClass;
-                zuuluu = zuuluu.bind(tangon)();
-                _closure1_slot4 = zuuluu;
-                tangon = _closure1_slot0;
-                zuuluu = 3;
-                zuuluu = oscard[zuuluu];
-                zuuluu = tangon.bind(report)(zuuluu);
-                oscard = zuuluu.Storage;
-                report = oscard.set;
-                tangon = _closure1_slot5;
-                zuuluu = _closure1_slot4;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 2;
+                var3 = var6[var3];
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.getMediaPerformanceClass;
+                var3 = var3.bind(var4)();
+                _closure1_slot4 = var3;
+                var4 = _closure1_slot0;
+                var3 = 3;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var6 = var3.Storage;
+                var5 = var6.set;
+                var4 = _closure1_slot5;
+                var3 = _closure1_slot4;
+                var3 = var5.bind(var6)(var4, var3);
  183:
-                entity = _closure1_slot4;
+                var1 = _closure1_slot4;
  187:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['getDeviceMediaPerformanceClass'] = tangon;
-        tangon = function() { // Original name: getDeviceModel
-            entity = _closure1_slot3;
-            entity = entity.deviceModel;
-            return entity;
+        var3['getDeviceMediaPerformanceClass'] = var4;
+        var4 = function getDeviceModel() {
+            var1 = _closure1_slot3;
+            var1 = var1.deviceModel;
+            return var1;
         };
-        zuuluu['getDeviceModel'] = tangon;
-        tangon = function() { // Original name: getDeviceBrand
-            entity = _closure1_slot3;
-            entity = entity.deviceBrand;
-            return entity;
+        var3['getDeviceModel'] = var4;
+        var4 = function getDeviceBrand() {
+            var1 = _closure1_slot3;
+            var1 = var1.deviceBrand;
+            return var1;
         };
-        zuuluu['getDeviceBrand'] = tangon;
-        tangon = function() { // Original name: getDeviceProduct
-            entity = _closure1_slot3;
-            entity = entity.deviceProduct;
-            return entity;
+        var3['getDeviceBrand'] = var4;
+        var4 = function getDeviceProduct() {
+            var1 = _closure1_slot3;
+            var1 = var1.deviceProduct;
+            return var1;
         };
-        zuuluu['getDeviceProduct'] = tangon;
-        tangon = function() { // Original name: getDeviceManufacturer
-            entity = _closure1_slot3;
-            entity = entity.deviceManufacturer;
-            return entity;
+        var3['getDeviceProduct'] = var4;
+        var4 = function getDeviceManufacturer() {
+            var1 = _closure1_slot3;
+            var1 = var1.deviceManufacturer;
+            return var1;
         };
-        zuuluu['getDeviceManufacturer'] = tangon;
-        tangon = function() { // Original name: getSmallestScreenWidth
-            entity = _closure1_slot3;
-            entity = entity.smallestScreenWidth;
-            return entity;
+        var3['getDeviceManufacturer'] = var4;
+        var4 = function getSmallestScreenWidth() {
+            var1 = _closure1_slot3;
+            var1 = var1.smallestScreenWidth;
+            return var1;
         };
-        zuuluu['getSmallestScreenWidth'] = tangon;
-        tangon = function() { // Original name: getSocName
-            entity = _closure1_slot3;
-            entity = entity.socName;
-            return entity;
+        var3['getSmallestScreenWidth'] = var4;
+        var4 = function getSocName() {
+            var1 = _closure1_slot3;
+            var1 = var1.socName;
+            return var1;
         };
-        zuuluu['getSocName'] = tangon;
-        tangon = function() { // Original name: getRamSize
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var3['getSocName'] = var4;
+        var4 = function getRamSize() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = _closure1_slot3;
-                tangon = entity.ramSize;
-                zuuluu = undefined;
-                michal = '';
-                entity = undefined;
-                if(!(michal !== tangon)) { _fun00008_ip = 40; continue _fun00007 }
+                var1 = _closure1_slot3;
+                var4 = var1.ramSize;
+                var3 = undefined;
+                var2 = '';
+                var1 = undefined;
+                if(!(var2 !== var4)) { _fun0004_ip = 40; continue _fun0004 }
  27:
-                michal = global;
-                michal = michal.parseFloat;
-                entity = michal.bind(zuuluu)(tangon);
+                var2 = global;
+                var2 = var2.parseFloat;
+                var1 = var2.bind(var3)(var4);
  40:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['getRamSize'] = tangon;
-        tangon = function() { // Original name: getMaxCpuFreq
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var3['getRamSize'] = var4;
+        var4 = function getMaxCpuFreq() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                entity = _closure1_slot3;
-                tangon = entity.maxCpuFreq;
-                zuuluu = undefined;
-                michal = '';
-                entity = undefined;
-                if(!(michal !== tangon)) { _fun00010_ip = 40; continue _fun00009 }
+                var1 = _closure1_slot3;
+                var4 = var1.maxCpuFreq;
+                var3 = undefined;
+                var2 = '';
+                var1 = undefined;
+                if(!(var2 !== var4)) { _fun0005_ip = 40; continue _fun0005 }
  27:
-                michal = global;
-                michal = michal.parseFloat;
-                entity = michal.bind(zuuluu)(tangon);
+                var2 = global;
+                var2 = var2.parseFloat;
+                var1 = var2.bind(var3)(var4);
  40:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['getMaxCpuFreq'] = tangon;
-        tangon = function() { // Original name: getTimeZone
-            entity = _closure1_slot3;
-            entity = entity.timeZone;
-            return entity;
+        var3['getMaxCpuFreq'] = var4;
+        var4 = function getTimeZone() {
+            var1 = _closure1_slot3;
+            var1 = var1.timeZone;
+            return var1;
         };
-        zuuluu['getTimeZone'] = tangon;
-        michal = function() { // Original name: getIsRunningOnSimulator
-            entity = _closure1_slot3;
-            entity = entity.isRunningOnSimulator;
-            return entity;
+        var3['getTimeZone'] = var4;
+        var2 = function getIsRunningOnSimulator() {
+            var1 = _closure1_slot3;
+            var1 = var1.isRunningOnSimulator;
+            return var1;
         };
-        zuuluu['getIsRunningOnSimulator'] = michal;
-        return entity;
+        var3['getIsRunningOnSimulator'] = var2;
+        return var1;
     }
 })();

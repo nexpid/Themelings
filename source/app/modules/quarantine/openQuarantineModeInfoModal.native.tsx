@@ -1,105 +1,105 @@
 // app/modules/quarantine/openQuarantineModeInfoModal.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Keyboard;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quarantine/openQuarantineModeInfoModal.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: openQuarantineModeInfoModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Keyboard;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quarantine/openQuarantineModeInfoModal.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function openQuarantineModeInfoModal() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.dismiss;
-            entity = entity.bind(zuuluu)();
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 3;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getBestActiveInput;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 65; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var1 = var3.dismiss;
+            var1 = var1.bind(var3)();
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 3;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getBestActiveInput;
+            var4 = var3.bind(var4)();
+            var3 = null;
+            if(!(var3 != var4)) { _fun0001_ip = 65; continue _fun0001 }
  55:
-            zuuluu = tangon.blur;
-            zuuluu = zuuluu.bind(tangon)();
+            var3 = var4.blur;
+            var3 = var3.bind(var4)();
  65:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.openLazy;
-            michal = {};
-            report = function() { // Original name: importer
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot2;
-                michal = 6;
-                michal = entity[michal];
-                tangon = undefined;
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = 5;
-                michal = entity[michal];
-                entity = entity.paths;
-                zuuluu = zuuluu.bind(tangon)(michal, entity);
-                michal = zuuluu.then;
-                entity = function(argFoo) {
-                    michal = argFoo;
-                    michal = michal.default;
-                    var _closure4_slot0 = michal;
-                    entity = function(argFoo) {
-                        tangon = _closure1_slot4;
-                        zuuluu = _closure4_slot0;
-                        michal = {};
-                        report = argFoo;
-                        oscard = michal;
-                        entity = copyDataProperties(oscard, report);
-                        entity = undefined;
-                        entity = tangon.bind(entity)(zuuluu, michal);
-                        return entity;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 4;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.openLazy;
+            var2 = {};
+            var5 = function importer() {
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var2 = 6;
+                var2 = var1[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = 5;
+                var2 = var1[var2];
+                var1 = var1.paths;
+                var3 = var3.bind(var4)(var2, var1);
+                var2 = var3.then;
+                var1 = function(arg1) {
+                    var2 = arg1;
+                    var2 = var2.default;
+                    var _closure4_slot0 = var2;
+                    var1 = function(arg1) {
+                        var4 = _closure1_slot4;
+                        var3 = _closure4_slot0;
+                        var2 = {};
+                        var5 = arg1;
+                        var6 = var2;
+                        var1 = copyDataProperties(var6, var5);
+                        var1 = undefined;
+                        var1 = var4.bind(var1)(var3, var2);
+                        return var1;
                     };
-                    return entity;
+                    return var1;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal['importer'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2['importer'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,327 +1,327 @@
 // app/modules/premium/ReverseTrialUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _shouldShowReverseTrialFollowUpUpsell
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _shouldShowReverseTrialFollowUpUpsell() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 386; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 386; continue _fun0001 }
  10:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.getCurrentUser;
-                    michal = michal.bind(zuuluu)();
-                    report = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    zuuluu = 7;
-                    zuuluu = oscard[zuuluu];
-                    golfie = undefined;
-                    report = report.bind(golfie)(zuuluu);
-                    zuuluu = report.isPremium;
-                    oscard = zuuluu.bind(report)(michal);
-                    report = null;
-                    michal = report == michal;
-                    if(michal) { _fun00002_ip = 71; continue _fun00001 }
+                    var3 = _closure1_slot4;
+                    var2 = var3.getCurrentUser;
+                    var2 = var2.bind(var3)();
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 7;
+                    var3 = var6[var3];
+                    var7 = undefined;
+                    var5 = var5.bind(var7)(var3);
+                    var3 = var5.isPremium;
+                    var6 = var3.bind(var5)(var2);
+                    var5 = null;
+                    var2 = var5 == var2;
+                    if(var2) { _fun0001_ip = 71; continue _fun0001 }
  68:
-                    michal = oscard;
+                    var2 = var6;
  71:
-                    if(michal) { _fun00002_ip = 86; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 86; continue _fun0001 }
  74:
-                    zuuluu = _closure1_slot7;
-                    michal = zuuluu.fetchedEndedEntitlements;
+                    var3 = _closure1_slot7;
+                    var2 = var3.fetchedEndedEntitlements;
  86:
-                    if(michal) { _fun00002_ip = 157; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 157; continue _fun0001 }
  89:
-                    zuuluu = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 8;
-                    michal = option[michal];
-                    option = zuuluu.bind(golfie)(michal);
-                    zuuluu = option.fetchUserEntitlements;
-                    michal = {};
-                    verify = _closure1_slot10;
-                    verify = verify.FRACTIONAL_REDEMPTION;
-                    michal['entitlementType'] = verify;
-                    verify = false;
-                    michal['excludeEnded'] = verify;
-                    michal = zuuluu.bind(option)(michal);
+                    var3 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var8[var2];
+                    var8 = var3.bind(var7)(var2);
+                    var3 = var8.fetchUserEntitlements;
+                    var2 = {};
+                    var9 = _closure1_slot10;
+                    var9 = var9.FRACTIONAL_REDEMPTION;
+                    var2['entitlementType'] = var9;
+                    var9 = false;
+                    var2['excludeEnded'] = var9;
+                    var2 = var3.bind(var8)(var2);
                     SaveGenerator(address=148);
  146:
-                    return michal;
+                    return var2;
  148:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(!zuuluu) { _fun00002_ip = 157; continue _fun00001 }
+                    if(!var3) { _fun0001_ip = 157; continue _fun0001 }
  154:
-                    return michal;
+                    return var2;
  157:
-                    option = _closure1_slot7;
-                    michal = option.getReverseTrialEntitlement;
-                    zuuluu = true;
-                    michal = michal.bind(option)(zuuluu);
-                    if(oscard) { _fun00002_ip = 381; continue _fun00001 }
+                    var8 = _closure1_slot7;
+                    var2 = var8.getReverseTrialEntitlement;
+                    var3 = true;
+                    var2 = var2.bind(var8)(var3);
+                    if(var6) { _fun0001_ip = 381; continue _fun0001 }
  180:
-                    if(!(report != michal)) { _fun00002_ip = 381; continue _fun00001 }
+                    if(!(var5 != var2)) { _fun0001_ip = 381; continue _fun0001 }
  187:
-                    oscard = michal.endsAt;
-                    if(!(report != oscard)) { _fun00002_ip = 381; continue _fun00001 }
+                    var6 = var2.endsAt;
+                    if(!(var5 != var6)) { _fun0001_ip = 381; continue _fun0001 }
  200:
-                    option = michal.endsAt;
-                    oscard = option.getTime;
-                    verify = oscard.bind(option)();
-                    oscard = global;
-                    offset = oscard.Date;
-                    option = offset.now;
-                    option = option.bind(offset)();
-                    if(!(verify < option)) { _fun00002_ip = 381; continue _fun00001 }
+                    var8 = var2.endsAt;
+                    var6 = var8.getTime;
+                    var9 = var6.bind(var8)();
+                    var6 = global;
+                    var10 = var6.Date;
+                    var8 = var10.now;
+                    var8 = var8.bind(var10)();
+                    if(!(var9 < var8)) { _fun0001_ip = 381; continue _fun0001 }
  240:
-                    verify = michal.endsAt;
-                    option = verify.getTime;
-                    option = option.bind(verify)();
-                    verify = oscard.Date;
-                    oscard = verify.now;
-                    verify = oscard.bind(verify)();
-                    oscard = 259200000;
-                    oscard = verify - oscard;
-                    if(!(!(option < oscard))) { _fun00002_ip = 381; continue _fun00001 }
+                    var9 = var2.endsAt;
+                    var8 = var9.getTime;
+                    var8 = var8.bind(var9)();
+                    var9 = var6.Date;
+                    var6 = var9.now;
+                    var9 = var6.bind(var9)();
+                    var6 = 259200000;
+                    var6 = var9 - var6;
+                    if(!(!(var8 < var6))) { _fun0001_ip = 381; continue _fun0001 }
  285:
-                    oscard = michal.sourceType;
-                    michal = _closure1_slot9;
-                    michal = michal.REVERSE_TRIAL;
-                    if(!(oscard === michal)) { _fun00002_ip = 381; continue _fun00001 }
+                    var6 = var2.sourceType;
+                    var2 = _closure1_slot9;
+                    var2 = var2.REVERSE_TRIAL;
+                    if(!(var6 === var2)) { _fun0001_ip = 381; continue _fun0001 }
  305:
-                    michal = argFoo;
-                    if(!(report == michal)) { _fun00002_ip = 352; continue _fun00001 }
+                    var2 = arg1;
+                    if(!(var5 == var2)) { _fun0001_ip = 352; continue _fun0001 }
  312:
-                    oscard = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 9;
-                    michal = option[michal];
-                    oscard = oscard.bind(golfie)(michal);
-                    michal = oscard.fetchUserOffer;
-                    michal = michal.bind(oscard)();
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var8[var2];
+                    var6 = var6.bind(var7)(var2);
+                    var2 = var6.fetchUserOffer;
+                    var2 = var2.bind(var6)();
                     SaveGenerator(address=346);
  344:
-                    return michal;
+                    return var2;
  346:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 378; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 378; continue _fun0001 }
  352:
-                    golfie = _closure1_slot6;
-                    oscard = golfie.getUserTrialOffer;
-                    tangon = _closure1_slot8;
-                    tangon = oscard.bind(golfie)(tangon);
-                    if(!(report != tangon)) { _fun00002_ip = 381; continue _fun00001 }
+                    var7 = _closure1_slot6;
+                    var6 = var7.getUserTrialOffer;
+                    var4 = _closure1_slot8;
+                    var4 = var6.bind(var7)(var4);
+                    if(!(var5 != var4)) { _fun0001_ip = 381; continue _fun0001 }
  375:
-                    return zuuluu;
+                    return var3;
  378:
-                    return michal;
+                    return var2;
  381:
-                    michal = false;
-                    return michal;
+                    var2 = false;
+                    return var2;
  386:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PREMIUM_TIER_2_REVERSE_FOLLOWUP_TRIAL_ID;
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.EntitlementSourceTypes;
-    var _closure1_slot9 = golfie;
-    tangon = tangon.EntitlementTypes;
-    var _closure1_slot10 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/ReverseTrialUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: shouldShowReverseTrialFollowUpUpsell
-        entity = undefined;
-        tangon = _closure1_slot11;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot11 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PREMIUM_TIER_2_REVERSE_FOLLOWUP_TRIAL_ID;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.EntitlementSourceTypes;
+    var _closure1_slot9 = var7;
+    var4 = var4.EntitlementTypes;
+    var _closure1_slot10 = var4;
+    var4 = 12;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/ReverseTrialUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function shouldShowReverseTrialFollowUpUpsell() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['shouldShowReverseTrialFollowUpUpsell'] = tangon;
-    michal = function() { // Original name: useIsInReverseTrial
-        michal = function() { // Original name: useGetActiveReverseTrialEntitlement
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['shouldShowReverseTrialFollowUpUpsell'] = var4;
+    var2 = function useIsInReverseTrial() {
+        var2 = function useGetActiveReverseTrialEntitlement() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = _closure1_slot0;
-                entity = _closure1_slot2;
-                michal = 10;
-                entity = entity[michal];
-                oscard = undefined;
-                option = zuuluu.bind(oscard)(entity);
-                golfie = option.useStateFromStores;
-                entity = _closure1_slot4;
-                zuuluu = new Array(1);
-                zuuluu[0] = entity;
-                entity = function() {
-                    michal = _closure1_slot4;
-                    entity = michal.getCurrentUser;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var3 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var2 = 10;
+                var1 = var1[var2];
+                var6 = undefined;
+                var8 = var3.bind(var6)(var1);
+                var7 = var8.useStateFromStores;
+                var1 = _closure1_slot4;
+                var3 = new Array(1);
+                var3[0] = var1;
+                var1 = function() {
+                    var2 = _closure1_slot4;
+                    var1 = var2.getCurrentUser;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                entity = golfie.bind(option)(zuuluu, entity);
-                var _closure3_slot0 = entity;
-                zuuluu = _closure1_slot5;
-                entity = zuuluu.getPremiumTypeSubscription;
-                golfie = entity.bind(zuuluu)();
-                entity = null;
-                zuuluu = entity != golfie;
-                if(!zuuluu) { _fun00004_ip = 91; continue _fun00003 }
+                var1 = var7.bind(var8)(var3, var1);
+                var _closure3_slot0 = var1;
+                var3 = _closure1_slot5;
+                var1 = var3.getPremiumTypeSubscription;
+                var7 = var1.bind(var3)();
+                var1 = null;
+                var3 = var1 != var7;
+                if(!var3) { _fun0002_ip = 91; continue _fun0002 }
  82:
-                golfie = golfie.isBoostOnly;
-                zuuluu = !golfie;
+                var7 = var7.isBoostOnly;
+                var3 = !var7;
  91:
-                var _closure3_slot1 = zuuluu;
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                michal = option[michal];
-                offset = golfie.bind(oscard)(michal);
-                verify = offset.useStateFromStores;
-                michal = _closure1_slot7;
-                golfie = new Array(1);
-                golfie[0] = michal;
-                michal = function() {
-                    zuuluu = _closure1_slot7;
-                    michal = zuuluu.getReverseTrialEntitlement;
-                    entity = false;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var _closure3_slot1 = var3;
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var2 = var8[var2];
+                var10 = var7.bind(var6)(var2);
+                var9 = var10.useStateFromStores;
+                var2 = _closure1_slot7;
+                var7 = new Array(1);
+                var7[0] = var2;
+                var2 = function() {
+                    var3 = _closure1_slot7;
+                    var2 = var3.getReverseTrialEntitlement;
+                    var1 = false;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal = verify.bind(offset)(golfie, michal);
-                golfie = _closure1_slot1;
-                report = 11;
-                report = option[report];
-                report = golfie.bind(oscard)(report);
-                tangon = function() {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var2 = var9.bind(var10)(var7, var2);
+                var7 = _closure1_slot1;
+                var5 = 11;
+                var5 = var8[var5];
+                var5 = var7.bind(var6)(var5);
+                var4 = function() {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = _closure3_slot0;
-                        entity = null;
-                        entity = entity != zuuluu;
-                        if(!entity) { _fun00006_ip = 56; continue _fun00005 }
+                        var3 = _closure3_slot0;
+                        var1 = null;
+                        var1 = var1 != var3;
+                        if(!var1) { _fun0003_ip = 56; continue _fun0003 }
  16:
-                        report = _closure1_slot0;
-                        tangon = _closure1_slot2;
-                        zuuluu = 7;
-                        tangon = tangon[zuuluu];
-                        zuuluu = undefined;
-                        report = report.bind(zuuluu)(tangon);
-                        tangon = report.isPremium;
-                        zuuluu = _closure3_slot0;
-                        entity = tangon.bind(report)(zuuluu);
+                        var5 = _closure1_slot0;
+                        var4 = _closure1_slot2;
+                        var3 = 7;
+                        var4 = var4[var3];
+                        var3 = undefined;
+                        var5 = var5.bind(var3)(var4);
+                        var4 = var5.isPremium;
+                        var3 = _closure3_slot0;
+                        var1 = var4.bind(var5)(var3);
  56:
-                        if(!entity) { _fun00006_ip = 66; continue _fun00005 }
+                        if(!var1) { _fun0003_ip = 66; continue _fun0003 }
  59:
-                        michal = _closure3_slot1;
-                        entity = !michal;
+                        var2 = _closure3_slot1;
+                        var1 = !var2;
  66:
-                        if(!entity) { _fun00006_ip = 148; continue _fun00005 }
+                        if(!var1) { _fun0003_ip = 148; continue _fun0003 }
  69:
-                        entity = _closure1_slot7;
-                        entity = entity.fetchedAllEntitlements;
-                        if(entity) { _fun00006_ip = 95; continue _fun00005 }
+                        var1 = _closure1_slot7;
+                        var1 = var1.fetchedAllEntitlements;
+                        if(var1) { _fun0003_ip = 95; continue _fun0003 }
  85:
-                        michal = _closure1_slot7;
-                        entity = michal.fetchingAllEntitlements;
+                        var2 = _closure1_slot7;
+                        var1 = var2.fetchingAllEntitlements;
  95:
-                        if(entity) { _fun00006_ip = 148; continue _fun00005 }
+                        if(var1) { _fun0003_ip = 148; continue _fun0003 }
  98:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 8;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.fetchUserEntitlements;
-                        entity = {};
-                        tangon = _closure1_slot10;
-                        tangon = tangon.FRACTIONAL_REDEMPTION;
-                        entity['entitlementType'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 8;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.fetchUserEntitlements;
+                        var1 = {};
+                        var4 = _closure1_slot10;
+                        var4 = var4.FRACTIONAL_REDEMPTION;
+                        var1['entitlementType'] = var4;
+                        var1 = var2.bind(var3)(var1);
  148:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                tangon = report.bind(oscard)(tangon);
-                entity = null;
-                if(zuuluu) { _fun00004_ip = 174; continue _fun00003 }
+                var4 = var5.bind(var6)(var4);
+                var1 = null;
+                if(var3) { _fun0002_ip = 174; continue _fun0002 }
  171:
-                entity = michal;
+                var1 = var2;
  174:
-                return entity;
+                return var1;
             }
         };
-        entity = undefined;
-        michal = michal.bind(entity)();
-        entity = null;
-        entity = entity != michal;
-        return entity;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    zuuluu['useIsInReverseTrial'] = michal;
-    return entity;
+    var3['useIsInReverseTrial'] = var2;
+    return var1;
 })();

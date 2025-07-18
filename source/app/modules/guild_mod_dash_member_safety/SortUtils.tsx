@@ -1,92 +1,92 @@
 // app/modules/guild_mod_dash_member_safety/SortUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_mod_dash_member_safety/SortUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getSortValueForMember
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_mod_dash_member_safety/SortUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getSortValueForMember(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            report = argBar;
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            entity = oscard[entity];
-            tangon = undefined;
-            verify = option.bind(tangon)(entity);
-            golfie = verify.getJoinedAtTimestamp;
-            entity = michal.joinedAt;
-            entity = golfie.bind(verify)(entity);
-            golfie = 1;
-            oscard = oscard[golfie];
-            oscard = option.bind(tangon)(oscard);
-            oscard = oscard.OrderBy;
-            oscard = oscard.ORDER_BY_GUILD_JOINED_AT_ASC;
-            if(!(oscard !== report)) { _fun00002_ip = 230; continue _fun00001 }
+            var2 = arg1;
+            var5 = arg2;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var1 = var6[var1];
+            var4 = undefined;
+            var9 = var8.bind(var4)(var1);
+            var7 = var9.getJoinedAtTimestamp;
+            var1 = var2.joinedAt;
+            var1 = var7.bind(var9)(var1);
+            var7 = 1;
+            var6 = var6[var7];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.OrderBy;
+            var6 = var6.ORDER_BY_GUILD_JOINED_AT_ASC;
+            if(!(var6 !== var5)) { _fun0001_ip = 230; continue _fun0001 }
  78:
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            oscard = oscard[golfie];
-            oscard = option.bind(tangon)(oscard);
-            oscard = oscard.OrderBy;
-            oscard = oscard.ORDER_BY_GUILD_JOINED_AT_DESC;
-            if(!(oscard !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var7];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.OrderBy;
+            var6 = var6.ORDER_BY_GUILD_JOINED_AT_DESC;
+            if(!(var6 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
  111:
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            oscard = oscard[golfie];
-            oscard = option.bind(tangon)(oscard);
-            oscard = oscard.OrderBy;
-            oscard = oscard.ORDER_BY_USER_ID_ASC;
-            if(!(oscard !== report)) { _fun00002_ip = 205; continue _fun00001 }
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var7];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.OrderBy;
+            var6 = var6.ORDER_BY_USER_ID_ASC;
+            if(!(var6 !== var5)) { _fun0001_ip = 205; continue _fun0001 }
  144:
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.OrderBy;
-            zuuluu = zuuluu.ORDER_BY_USER_ID_DESC;
-            if(!(zuuluu !== report)) { _fun00002_ip = 182; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var6.bind(var4)(var3);
+            var3 = var3.OrderBy;
+            var3 = var3.ORDER_BY_USER_ID_DESC;
+            if(!(var3 !== var5)) { _fun0001_ip = 182; continue _fun0001 }
  177:
-            zuuluu = -entity;
-            return zuuluu;
+            var3 = -var1;
+            return var3;
  182:
-            zuuluu = global;
-            report = zuuluu.parseInt;
-            zuuluu = michal.userId;
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = -zuuluu;
-            return zuuluu;
+            var3 = global;
+            var5 = var3.parseInt;
+            var3 = var2.userId;
+            var3 = var5.bind(var4)(var3);
+            var3 = -var3;
+            return var3;
  205:
-            zuuluu = global;
-            zuuluu = zuuluu.parseInt;
-            michal = michal.userId;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var3 = global;
+            var3 = var3.parseInt;
+            var2 = var2.userId;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  225:
-            michal = -entity;
-            return michal;
+            var2 = -var1;
+            return var2;
  230:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getSortValueForMember'] = michal;
-    return entity;
+    var3['getSortValueForMember'] = var2;
+    return var1;
 })();

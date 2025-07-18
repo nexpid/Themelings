@@ -1,73 +1,73 @@
 // app/design/utils/shared/getNodeText.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, michal);
-    entity = 0;
-    oscard = report[entity];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(oscard);
-    var _closure1_slot0 = michal;
-    michal = 1;
-    report = report[michal];
-    michal = argBar;
-    oscard = michal.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    michal = 'design/utils/shared/getNodeText.tsx';
-    michal = report.bind(oscard)(michal);
-    michal = function(argFoo) { // Original name: getNodeText
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var2);
+    var1 = 0;
+    var6 = var5[var1];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var6);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var5 = var5[var2];
+    var2 = native2;
+    var6 = var2.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var2 = 'design/utils/shared/getNodeText.tsx';
+    var2 = var5.bind(var6)(var2);
+    var2 = function getNodeText(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = typeof report;
-            michal = 'string';
-            entity = report;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 120; continue _fun00001 }
+            var5 = arg1;
+            var3 = typeof var5;
+            var2 = 'string';
+            var1 = var5;
+            if(!(var2 !== var3)) { _fun0001_ip = 120; continue _fun0001 }
  17:
-            michal = 'number';
-            entity = report;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = 'number';
+            var1 = var5;
+            if(!(var2 !== var3)) { _fun0001_ip = 120; continue _fun0001 }
  28:
-            michal = global;
-            michal = michal.Array;
-            michal = report instanceof michal;
-            if(michal) { _fun00002_ip = 89; continue _fun00001 }
+            var2 = global;
+            var2 = var2.Array;
+            var2 = var5 instanceof var2;
+            if(var2) { _fun0001_ip = 89; continue _fun0001 }
  46:
-            tangon = _closure1_slot0;
-            michal = tangon.isValidElement;
-            tangon = michal.bind(tangon)(report);
-            golfie = undefined;
-            michal = undefined;
-            if(!tangon) { _fun00002_ip = 87; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var2 = var4.isValidElement;
+            var4 = var2.bind(var4)(var5);
+            var7 = undefined;
+            var2 = undefined;
+            if(!var4) { _fun0001_ip = 87; continue _fun0001 }
  68:
-            oscard = _closure1_slot1;
-            tangon = report.props;
-            tangon = tangon.children;
-            michal = oscard.bind(golfie)(tangon);
+            var6 = _closure1_slot1;
+            var4 = var5.props;
+            var4 = var4.children;
+            var2 = var6.bind(var7)(var4);
  87:
-            _fun00002_ip = 117; continue _fun00001;
+            _fun0001_ip = 117; continue _fun0001;
  89:
-            tangon = report.map;
-            zuuluu = _closure1_slot1;
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.join;
-            zuuluu = '';
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.map;
+            var3 = _closure1_slot1;
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.join;
+            var3 = '';
+            var2 = var4.bind(var5)(var3);
  117:
-            entity = michal;
+            var1 = var2;
  120:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot1 = michal;
-    zuuluu['getNodeText'] = michal;
-    return entity;
+    var _closure1_slot1 = var2;
+    var3['getNodeText'] = var2;
+    return var1;
 })();

@@ -1,151 +1,151 @@
 // app/modules/calls/useHideSelfVideo.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VideoToggleState;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.MediaEngineContextTypes;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.Features;
-    var _closure1_slot7 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/calls/useHideSelfVideo.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useHideSelfVideo
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VideoToggleState;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MediaEngineContextTypes;
+    var _closure1_slot6 = var7;
+    var4 = var4.Features;
+    var _closure1_slot7 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/calls/useHideSelfVideo.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useHideSelfVideo(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            zuuluu = arguments[1];
-            verify = undefined;
-            if(!(zuuluu === verify)) { _fun00002_ip = 27; continue _fun00001 }
+            var6 = arg1;
+            var3 = arguments[1];
+            var9 = undefined;
+            if(!(var3 === var9)) { _fun0001_ip = 27; continue _fun0001 }
  14:
-            entity = _closure1_slot6;
-            zuuluu = entity.DEFAULT;
+            var1 = _closure1_slot6;
+            var3 = var1.DEFAULT;
  27:
-            var _closure2_slot0 = zuuluu;
-            var _closure2_slot1 = verify;
-            option = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 4;
-            tangon = offset[golfie];
-            romeon = option.bind(verify)(tangon);
-            yankee = romeon.useStateFromStores;
-            tangon = _closure1_slot3;
-            report = new Array(1);
-            report[0] = tangon;
-            tangon = function() {
-                michal = _closure1_slot3;
-                entity = michal.getId;
-                entity = entity.bind(michal)();
-                return entity;
+            var _closure2_slot0 = var3;
+            var _closure2_slot1 = var9;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 4;
+            var4 = var10[var7];
+            var12 = var8.bind(var9)(var4);
+            var11 = var12.useStateFromStores;
+            var4 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getId;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            report = yankee.bind(romeon)(report, tangon);
-            _closure2_slot1 = report;
-            tangon = offset[golfie];
-            foxtra = option.bind(verify)(tangon);
-            romeon = foxtra.useStateFromStores;
-            tangon = _closure1_slot4;
-            yankee = new Array(1);
-            yankee[0] = tangon;
-            entity = function() {
-                zuuluu = _closure1_slot4;
-                michal = zuuluu.supports;
-                entity = _closure1_slot7;
-                entity = entity.DISABLE_VIDEO;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var5 = var11.bind(var12)(var5, var4);
+            _closure2_slot1 = var5;
+            var4 = var10[var7];
+            var13 = var8.bind(var9)(var4);
+            var12 = var13.useStateFromStores;
+            var4 = _closure1_slot4;
+            var11 = new Array(1);
+            var11[0] = var4;
+            var1 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.supports;
+                var1 = _closure1_slot7;
+                var1 = var1.DISABLE_VIDEO;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = romeon.bind(foxtra)(yankee, entity);
-            golfie = offset[golfie];
-            verify = option.bind(verify)(golfie);
-            option = verify.useStateFromStores;
-            golfie = new Array(1);
-            golfie[0] = tangon;
-            tangon = new Array(2);
-            tangon[0] = report;
-            tangon[1] = zuuluu;
-            zuuluu = function() {
-                tangon = _closure1_slot4;
-                zuuluu = tangon.isLocalVideoDisabled;
-                michal = _closure2_slot1;
-                entity = _closure2_slot0;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var1 = var12.bind(var13)(var11, var1);
+            var7 = var10[var7];
+            var9 = var8.bind(var9)(var7);
+            var8 = var9.useStateFromStores;
+            var7 = new Array(1);
+            var7[0] = var4;
+            var4 = new Array(2);
+            var4[0] = var5;
+            var4[1] = var3;
+            var3 = function() {
+                var4 = _closure1_slot4;
+                var3 = var4.isLocalVideoDisabled;
+                var2 = _closure2_slot1;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            zuuluu = option.bind(verify)(golfie, zuuluu, tangon);
-            tangon = null;
-            tangon = tangon == oscard;
-            if(tangon) { _fun00002_ip = 192; continue _fun00001 }
+            var3 = var8.bind(var9)(var7, var3, var4);
+            var4 = null;
+            var4 = var4 == var6;
+            if(var4) { _fun0001_ip = 192; continue _fun0001 }
  188:
-            tangon = oscard === report;
+            var4 = var6 === var5;
  192:
-            if(!tangon) { _fun00002_ip = 198; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 198; continue _fun0001 }
  195:
-            tangon = entity;
+            var4 = var1;
  198:
-            entity = new Array(3);
-            entity[0] = tangon;
-            entity[1] = zuuluu;
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1 = new Array(3);
+            var1[0] = var4;
+            var1[1] = var3;
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure1_slot5;
-                    zuuluu = argFoo;
-                    if(zuuluu) { _fun00004_ip = 21; continue _fun00003 }
+                    var2 = _closure1_slot5;
+                    var3 = arg1;
+                    if(var3) { _fun0002_ip = 21; continue _fun0002 }
  13:
-                    oscard = michal.MANUAL_ENABLED;
-                    _fun00004_ip = 27; continue _fun00003;
+                    var6 = var2.MANUAL_ENABLED;
+                    _fun0002_ip = 27; continue _fun0002;
  21:
-                    oscard = michal.DISABLED;
+                    var6 = var2.DISABLED;
  27:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = report.setDisableLocalVideo;
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot0;
-                    michal = tangon.bind(report)(zuuluu, oscard, michal);
-                    return entity;
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.setDisableLocalVideo;
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var2 = var4.bind(var5)(var3, var6, var2);
+                    return var1;
                 }
             };
-            entity[2] = michal;
-            return entity;
+            var1[2] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

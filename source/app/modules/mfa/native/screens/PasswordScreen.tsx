@@ -1,294 +1,294 @@
 // app/modules/mfa/native/screens/PasswordScreen.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/mfa/native/screens/PasswordScreen.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: PasswordScreen
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/mfa/native/screens/PasswordScreen.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function PasswordScreen(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            option = michal.mfaChallenge;
-            golfie = michal.finish;
-            var _closure2_slot0 = golfie;
-            michal = _closure1_slot1;
-            ctrled = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = ctrled[zuuluu];
-            tangon = undefined;
-            report = michal.bind(tangon)(zuuluu);
-            zuuluu = report.useScreenStyles;
-            report = zuuluu.bind(report)();
-            foxtra = _closure1_slot5;
-            oscard = foxtra.useState;
-            zuuluu = null;
-            zuuluu = oscard.bind(foxtra)(zuuluu);
-            offset = _closure1_slot4;
-            verify = 2;
-            zuuluu = offset.bind(tangon)(zuuluu, verify);
-            sizing = 0;
-            source = zuuluu[sizing];
-            oscard = 1;
-            zuuluu = zuuluu[oscard];
-            var _closure2_slot1 = zuuluu;
-            yankee = foxtra.useState;
-            zuuluu = '';
-            zuuluu = yankee.bind(foxtra)(zuuluu);
-            zuuluu = offset.bind(tangon)(zuuluu, verify);
-            kiloes = zuuluu[sizing];
-            var _closure2_slot2 = kiloes;
-            echoed = zuuluu[oscard];
-            zuuluu = foxtra.useState;
-            yankee = false;
-            zuuluu = zuuluu.bind(foxtra)(yankee);
-            zuuluu = offset.bind(tangon)(zuuluu, verify);
-            romeon = zuuluu[sizing];
-            zuuluu = zuuluu[oscard];
-            var _closure2_slot3 = zuuluu;
-            zuuluu = foxtra.useState;
-            zuuluu = zuuluu.bind(foxtra)(yankee);
-            zuuluu = offset.bind(tangon)(zuuluu, verify);
-            foxtra = zuuluu[sizing];
-            zuuluu = zuuluu[oscard];
-            var _closure2_slot4 = zuuluu;
-            entity = function() {
-                tangon = _closure1_slot3;
-                zuuluu = undefined;
-                michal = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = arg1;
+            var8 = var2.mfaChallenge;
+            var7 = var2.finish;
+            var _closure2_slot0 = var7;
+            var2 = _closure1_slot1;
+            var22 = _closure1_slot2;
+            var3 = 5;
+            var3 = var22[var3];
+            var4 = undefined;
+            var5 = var2.bind(var4)(var3);
+            var3 = var5.useScreenStyles;
+            var5 = var3.bind(var5)();
+            var13 = _closure1_slot5;
+            var6 = var13.useState;
+            var3 = null;
+            var3 = var6.bind(var13)(var3);
+            var10 = _closure1_slot4;
+            var9 = 2;
+            var3 = var10.bind(var4)(var3, var9);
+            var16 = 0;
+            var21 = var3[var16];
+            var6 = 1;
+            var3 = var3[var6];
+            var _closure2_slot1 = var3;
+            var11 = var13.useState;
+            var3 = '';
+            var3 = var11.bind(var13)(var3);
+            var3 = var10.bind(var4)(var3, var9);
+            var15 = var3[var16];
+            var _closure2_slot2 = var15;
+            var19 = var3[var6];
+            var3 = var13.useState;
+            var11 = false;
+            var3 = var3.bind(var13)(var11);
+            var3 = var10.bind(var4)(var3, var9);
+            var12 = var3[var16];
+            var3 = var3[var6];
+            var _closure2_slot3 = var3;
+            var3 = var13.useState;
+            var3 = var3.bind(var13)(var11);
+            var3 = var10.bind(var4)(var3, var9);
+            var13 = var3[var16];
+            var3 = var3[var6];
+            var _closure2_slot4 = var3;
+            var1 = function() {
+                var4 = _closure1_slot3;
+                var3 = undefined;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 160; continue _fun00003 }
+                            if(var2) { _fun0002_ip = 160; continue _fun0002 }
  10:
-                            michal = undefined;
-                            oscard = undefined;
-                            verify = undefined;
-                            report = _closure2_slot1;
-                            option = null;
-                            report = report.bind(michal)(option);
-                            report = _closure2_slot3;
-                            offset = true;
-                            report = report.bind(michal)(offset);
+                            var2 = undefined;
+                            var6 = undefined;
+                            var9 = undefined;
+                            var5 = _closure2_slot1;
+                            var8 = null;
+                            var5 = var5.bind(var2)(var8);
+                            var5 = _closure2_slot3;
+                            var10 = true;
+                            var5 = var5.bind(var2)(var10);
  41: // try_start_0
-                            golfie = _closure2_slot0;
-                            report = {};
-                            yankee = 'password';
-                            report['mfaType'] = yankee;
-                            yankee = _closure2_slot2;
-                            report['data'] = yankee;
-                            report = golfie.bind(michal)(report);
+                            var7 = _closure2_slot0;
+                            var5 = {};
+                            var11 = 'password';
+                            var5['mfaType'] = var11;
+                            var11 = _closure2_slot2;
+                            var5['data'] = var11;
+                            var5 = var7.bind(var2)(var5);
                             SaveGenerator(address=73);
  71:
-                            return report;
+                            return var5;
  73:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(golfie) { _fun00004_ip = 90; continue _fun00003 }
+                            if(var7) { _fun0002_ip = 90; continue _fun0002 }
  79:
-                            golfie = _closure2_slot4;
-                            golfie = golfie.bind(michal)(offset);
+                            var7 = _closure2_slot4;
+                            var7 = var7.bind(var2)(var10);
  88: // try_end0
-                            _fun00004_ip = 146; continue _fun00003;
+                            _fun0002_ip = 146; continue _fun0002;
  90:
-                            return report;
+                            return var5;
  93: // catch_target0
                             CatchBlockStart(arg_register=6);
-                            tangon = golfie;
-                            report = _closure2_slot1;
-                            golfie = golfie.body;
-                            verify = golfie;
-                            offset = option == golfie;
-                            golfie = undefined;
-                            if(offset) { _fun00004_ip = 124; continue _fun00003 }
+                            var4 = var7;
+                            var5 = _closure2_slot1;
+                            var7 = var7.body;
+                            var9 = var7;
+                            var10 = var8 == var7;
+                            var7 = undefined;
+                            if(var10) { _fun0002_ip = 124; continue _fun0002 }
  119:
-                            golfie = verify.message;
+                            var7 = var9.message;
  124:
-                            oscard = golfie;
-                            if(!(option == golfie)) { _fun00004_ip = 138; continue _fun00003 }
+                            var6 = var7;
+                            if(!(var8 == var7)) { _fun0002_ip = 138; continue _fun0002 }
  131:
-                            tangon = tangon.message;
-                            _fun00004_ip = 141; continue _fun00003;
+                            var4 = var4.message;
+                            _fun0002_ip = 141; continue _fun0002;
  138:
-                            tangon = oscard;
+                            var4 = var6;
  141:
-                            tangon = report.bind(michal)(tangon);
+                            var4 = var5.bind(var2)(var4);
  146:
-                            tangon = _closure2_slot3;
-                            zuuluu = false;
-                            zuuluu = tangon.bind(michal)(zuuluu);
-                            return michal;
+                            var4 = _closure2_slot3;
+                            var3 = false;
+                            var3 = var4.bind(var2)(var3);
+                            return var2;
  160:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                michal = tangon.bind(zuuluu)(michal);
-                var _closure3_slot0 = michal;
-                entity = function() {
-                    entity = undefined;
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.apply;
-                    entity = arguments;
-                    michal = entity;
-                    entity = this;
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    return entity;
+                var2 = var4.bind(var3)(var2);
+                var _closure3_slot0 = var2;
+                var1 = function() {
+                    var1 = undefined;
+                    var4 = _closure3_slot0;
+                    var3 = var4.apply;
+                    var1 = arguments;
+                    var2 = var1;
+                    var1 = this;
+                    var1 = var3.bind(var4)(var1, var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             };
-            yankee = entity.bind(tangon)();
-            zuuluu = _closure1_slot7;
-            entity = 6;
-            entity = ctrled[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            config = _closure1_slot0;
-            update = 7;
-            oscard = ctrled[update];
-            oscard = config.bind(tangon)(oscard);
-            offset = oscard.intl;
-            verify = offset.string;
-            oscard = ctrled[update];
-            oscard = config.bind(tangon)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.Rw1XuL;
-            oscard = verify.bind(offset)(oscard);
-            entity['headerText'] = oscard;
-            verify = _closure1_slot6;
-            oscard = {};
-            report = report.inputContainer;
-            oscard['style'] = report;
-            report = 8;
-            report = ctrled[report];
-            report = config.bind(tangon)(report);
-            backup = report.TextInput;
-            offset = {'autoFocus': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
-            result = true;
-            report = 'password';
-            vacuum = ctrled[update];
-            vacuum = config.bind(tangon)(vacuum);
-            record = vacuum.intl;
-            sequen = record.string;
-            vacuum = ctrled[update];
-            vacuum = config.bind(tangon)(vacuum);
-            vacuum = vacuum.t;
-            vacuum = vacuum.CIGa+/;
-            vacuum = sequen.bind(record)(vacuum);
-            offset['label'] = vacuum;
-            vacuum = ctrled[update];
-            vacuum = config.bind(tangon)(vacuum);
-            sequen = vacuum.intl;
-            vacuum = sequen.string;
-            ctrled = ctrled[update];
-            ctrled = config.bind(tangon)(ctrled);
-            ctrled = ctrled.t;
-            ctrled = ctrled.CIGa+/;
-            ctrled = vacuum.bind(sequen)(ctrled);
-            offset['placeholder'] = ctrled;
-            offset['errorMessage'] = source;
-            offset['onChange'] = echoed;
-            offset['onSubmitEditing'] = yankee;
-            echoed = romeon;
-            if(romeon) { _fun00002_ip = 458; continue _fun00001 }
+            var11 = var1.bind(var4)();
+            var3 = _closure1_slot7;
+            var1 = 6;
+            var1 = var22[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var25 = _closure1_slot0;
+            var20 = 7;
+            var6 = var22[var20];
+            var6 = var25.bind(var4)(var6);
+            var10 = var6.intl;
+            var9 = var10.string;
+            var6 = var22[var20];
+            var6 = var25.bind(var4)(var6);
+            var6 = var6.t;
+            var6 = var6.Rw1XuL;
+            var6 = var9.bind(var10)(var6);
+            var1['headerText'] = var6;
+            var9 = _closure1_slot6;
+            var6 = {};
+            var5 = var5.inputContainer;
+            var6['style'] = var5;
+            var5 = 8;
+            var5 = var22[var5];
+            var5 = var25.bind(var4)(var5);
+            var14 = var5.TextInput;
+            var10 = {'autoFocus': true, 'textContentType': 'password', 'label': null, 'placeholder': null, 'autoComplete': 'current-password', 'errorMessage': null, 'returnKeyType': 'done'};
+            var18 = true;
+            var5 = 'password';
+            var23 = var22[var20];
+            var23 = var25.bind(var4)(var23);
+            var26 = var23.intl;
+            var24 = var26.string;
+            var23 = var22[var20];
+            var23 = var25.bind(var4)(var23);
+            var23 = var23.t;
+            var23 = var23.CIGa+/;
+            var23 = var24.bind(var26)(var23);
+            var10['label'] = var23;
+            var23 = var22[var20];
+            var23 = var25.bind(var4)(var23);
+            var24 = var23.intl;
+            var23 = var24.string;
+            var22 = var22[var20];
+            var22 = var25.bind(var4)(var22);
+            var22 = var22.t;
+            var22 = var22.CIGa+/;
+            var22 = var23.bind(var24)(var22);
+            var10['placeholder'] = var22;
+            var10['errorMessage'] = var21;
+            var10['onChange'] = var19;
+            var10['onSubmitEditing'] = var11;
+            var19 = var12;
+            if(var12) { _fun0001_ip = 458; continue _fun0001 }
  455:
-            echoed = foxtra;
+            var19 = var13;
  458:
-            offset['isDisabled'] = echoed;
-            offset['isClearable'] = result;
-            offset['secureTextEntry'] = result;
-            offset = zuuluu.bind(tangon)(backup, offset);
-            oscard['children'] = offset;
-            oscard = zuuluu.bind(tangon)(verify, oscard);
-            entity['input'] = oscard;
-            offset = _closure1_slot7;
-            verify = _closure1_slot1;
-            backup = _closure1_slot2;
-            oscard = 9;
-            oscard = backup[oscard];
-            verify = verify.bind(tangon)(oscard);
-            oscard = {};
-            echoed = _closure1_slot0;
-            output = backup[update];
-            output = echoed.bind(tangon)(output);
-            result = output.intl;
-            output = result.string;
-            backup = backup[update];
-            backup = echoed.bind(tangon)(backup);
-            backup = backup.t;
-            backup = backup.geKm7u;
-            backup = output.bind(result)(backup);
-            oscard['text'] = backup;
-            backup = romeon;
-            if(romeon) { _fun00002_ip = 581; continue _fun00001 }
+            var10['isDisabled'] = var19;
+            var10['isClearable'] = var18;
+            var10['secureTextEntry'] = var18;
+            var10 = var3.bind(var4)(var14, var10);
+            var6['children'] = var10;
+            var6 = var3.bind(var4)(var9, var6);
+            var1['input'] = var6;
+            var10 = _closure1_slot7;
+            var9 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var6 = 9;
+            var6 = var14[var6];
+            var9 = var9.bind(var4)(var6);
+            var6 = {};
+            var19 = _closure1_slot0;
+            var17 = var14[var20];
+            var17 = var19.bind(var4)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var14 = var14[var20];
+            var14 = var19.bind(var4)(var14);
+            var14 = var14.t;
+            var14 = var14.geKm7u;
+            var14 = var17.bind(var18)(var14);
+            var6['text'] = var14;
+            var14 = var12;
+            if(var12) { _fun0001_ip = 581; continue _fun0001 }
  578:
-            backup = foxtra;
+            var14 = var13;
  581:
-            if(backup) { _fun00002_ip = 593; continue _fun00001 }
+            if(var14) { _fun0001_ip = 593; continue _fun0001 }
  584:
-            kiloes = kiloes.length;
-            backup = sizing === kiloes;
+            var15 = var15.length;
+            var14 = var16 === var15;
  593:
-            oscard['disabled'] = backup;
-            if(romeon) { _fun00002_ip = 603; continue _fun00001 }
+            var6['disabled'] = var14;
+            if(var12) { _fun0001_ip = 603; continue _fun0001 }
  600:
-            romeon = foxtra;
+            var12 = var13;
  603:
-            oscard['loading'] = romeon;
-            oscard['onPress'] = yankee;
-            oscard = offset.bind(tangon)(verify, oscard);
-            entity['submit'] = oscard;
-            oscard = {};
-            oscard['mfaChallenge'] = option;
-            oscard['finish'] = golfie;
-            entity['screenProps'] = oscard;
-            entity['mfaMethod'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6['loading'] = var12;
+            var6['onPress'] = var11;
+            var6 = var10.bind(var4)(var9, var6);
+            var1['submit'] = var6;
+            var6 = {};
+            var6['mfaChallenge'] = var8;
+            var6['finish'] = var7;
+            var1['screenProps'] = var6;
+            var1['mfaMethod'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,128 +1,128 @@
 // app/modules/app_launcher/utils/AppLauncherPlayUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = function() { // Original name: _launchActivityInBotDM
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = function _launchActivityInBotDM() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 193; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 193; continue _fun0001 }
  13:
-                    yankee = michal.appId;
-                    foxtra = michal.botId;
-                    offset = michal.analyticsLocations;
-                    verify = michal.customId;
-                    option = michal.referrerId;
-                    golfie = michal.commandOrigin;
-                    oscard = undefined;
+                    var11 = var2.appId;
+                    var13 = var2.botId;
+                    var10 = var2.analyticsLocations;
+                    var9 = var2.customId;
+                    var8 = var2.referrerId;
+                    var7 = var2.commandOrigin;
+                    var6 = undefined;
                     SaveGenerator(address=55);
  53:
-                    return oscard;
+                    return var6;
  55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 190; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 190; continue _fun0001 }
  64:
-                    report = _closure1_slot0;
-                    romeon = _closure1_slot1;
-                    zuuluu = 1;
-                    zuuluu = romeon[zuuluu];
-                    romeon = report.bind(oscard)(zuuluu);
-                    report = romeon.openPrivateChannel;
-                    zuuluu = {};
-                    zuuluu['recipientIds'] = foxtra;
-                    zuuluu = report.bind(romeon)(zuuluu);
+                    var5 = _closure1_slot0;
+                    var12 = _closure1_slot1;
+                    var3 = 1;
+                    var3 = var12[var3];
+                    var12 = var5.bind(var6)(var3);
+                    var5 = var12.openPrivateChannel;
+                    var3 = {};
+                    var3['recipientIds'] = var13;
+                    var3 = var5.bind(var12)(var3);
                     SaveGenerator(address=109);
  107:
-                    return zuuluu;
+                    return var3;
  109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 187; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 187; continue _fun0001 }
  115:
-                    report = _closure1_slot0;
-                    romeon = _closure1_slot1;
-                    tangon = 2;
-                    tangon = romeon[tangon];
-                    report = report.bind(oscard)(tangon);
-                    tangon = {};
-                    tangon['targetApplicationId'] = yankee;
-                    tangon['channelId'] = zuuluu;
-                    tangon['analyticsLocations'] = offset;
-                    tangon['customId'] = verify;
-                    tangon['referrerId'] = option;
-                    tangon['commandOrigin'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = _closure1_slot0;
+                    var12 = _closure1_slot1;
+                    var4 = 2;
+                    var4 = var12[var4];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = {};
+                    var4['targetApplicationId'] = var11;
+                    var4['channelId'] = var3;
+                    var4['analyticsLocations'] = var10;
+                    var4['customId'] = var9;
+                    var4['referrerId'] = var8;
+                    var4['commandOrigin'] = var7;
+                    var4 = var5.bind(var6)(var4);
                     SaveGenerator(address=175);
  173:
-                    return tangon;
+                    return var4;
  175:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 184; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 184; continue _fun0001 }
  181:
-                    return tangon;
+                    return var4;
  184:
-                    return tangon;
+                    return var4;
  187:
-                    return zuuluu;
+                    return var3;
  190:
-                    return michal;
+                    return var2;
  193:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot3 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot3 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/utils/AppLauncherPlayUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: launchActivityInBotDM
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/utils/AppLauncherPlayUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function launchActivityInBotDM() {
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['launchActivityInBotDM'] = michal;
-    return entity;
+    var3['launchActivityInBotDM'] = var2;
+    return var1;
 })();

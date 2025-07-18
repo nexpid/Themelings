@@ -1,182 +1,182 @@
 // discord_common/js/packages/flux/BatchedStoreListener.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function(argFoo, argBar, argBaz) { // Original name: BatchedStoreListener
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            report = _closure1_slot3;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            michal = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function BatchedStoreListener(arg1, arg2, arg3) {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var5 = _closure1_slot3;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var2 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 2;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.getChangeSentinel;
-                    zuuluu = michal.bind(zuuluu)();
-                    tangon = _closure3_slot0;
-                    tangon = tangon.storeVersionHandled;
-                    if(!(tangon !== zuuluu)) { _fun00002_ip = 72; continue _fun00001 }
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 2;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.getChangeSentinel;
+                    var3 = var2.bind(var3)();
+                    var4 = _closure3_slot0;
+                    var4 = var4.storeVersionHandled;
+                    if(!(var4 !== var3)) { _fun0001_ip = 72; continue _fun0001 }
  52:
-                    michal = _closure3_slot0;
-                    tangon = michal.changeCallback;
-                    tangon = tangon.bind(michal)();
-                    michal['storeVersionHandled'] = zuuluu;
+                    var2 = _closure3_slot0;
+                    var4 = var2.changeCallback;
+                    var4 = var4.bind(var2)();
+                    var2['storeVersionHandled'] = var3;
  72:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu['handleStoreChange'] = michal;
-            michal = argFoo;
-            zuuluu['stores'] = michal;
-            michal = argBaz;
-            zuuluu['libDiscoreContextId'] = michal;
-            michal = argBar;
-            zuuluu['changeCallback'] = michal;
-            return entity;
+            var3['handleStoreChange'] = var2;
+            var2 = arg1;
+            var3['stores'] = var2;
+            var2 = arg3;
+            var3['libDiscoreContextId'] = var2;
+            var2 = arg2;
+            var3['changeCallback'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'attach';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'attach';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                var _closure3_slot0 = michal;
-                zuuluu = argFoo;
-                var _closure3_slot1 = zuuluu;
-                tangon = michal.stores;
-                report = michal.libDiscoreContextId;
-                zuuluu = tangon.forEach;
-                entity = function(argFoo, argBar) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = arg1;
+                var _closure3_slot1 = var3;
+                var4 = var2.stores;
+                var5 = var2.libDiscoreContextId;
+                var3 = var4.forEach;
+                var1 = function(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        zuuluu = argFoo;
-                        entity = null;
-                        if(!(entity != zuuluu)) { _fun00006_ip = 37; continue _fun00005 }
+                        var3 = arg1;
+                        var1 = null;
+                        if(!(var1 != var3)) { _fun0003_ip = 37; continue _fun0003 }
  9:
-                        michal = zuuluu.addReactChangeListener;
-                        entity = _closure3_slot0;
-                        entity = entity.handleStoreChange;
-                        entity = michal.bind(zuuluu)(entity);
-                        entity = undefined;
-                        return entity;
+                        var2 = var3.addReactChangeListener;
+                        var1 = _closure3_slot0;
+                        var1 = var1.handleStoreChange;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = undefined;
+                        return var1;
  37:
-                        entity = global;
-                        zuuluu = entity.Error;
-                        yankee = _closure3_slot1;
-                        entity = entity.HermesInternal;
-                        oscard = entity.concat;
-                        romeon = '';
-                        offset = " tried to load a non-existent store. Either it isn't defined or there is a circular dependency. Loaded ";
-                        verify = argBar;
-                        option = ' stores before error.';
-                        yankee = romeon[oscard](yankee, offset, verify, option, golfie);
-                        michal = zuuluu.prototype;
-                        michal = Object.create(michal, {constructor: {value: zuuluu}});
-                        romeon = michal;
-                        entity = new romeon[zuuluu](yankee, offset);
-                        entity = entity instanceof Object ? entity : michal;
-                        throw entity;
+                        var1 = global;
+                        var3 = var1.Error;
+                        var11 = _closure3_slot1;
+                        var1 = var1.HermesInternal;
+                        var6 = var1.concat;
+                        var12 = '';
+                        var10 = " tried to load a non-existent store. Either it isn't defined or there is a circular dependency. Loaded ";
+                        var9 = arg2;
+                        var8 = ' stores before error.';
+                        var11 = var12[var6](var11, var10, var9, var8, var7);
+                        var2 = var3.prototype;
+                        var2 = Object.create(var2, {constructor: {value: var3}});
+                        var12 = var2;
+                        var1 = new var12[var3](var11, var10);
+                        var1 = var1 instanceof Object ? var1 : var2;
+                        throw var1;
                     }
                 };
-                entity = zuuluu.bind(tangon)(entity);
-                entity = undefined;
-                if(!(entity !== report)) { _fun00004_ip = 90; continue _fun00003 }
+                var1 = var3.bind(var4)(var1);
+                var1 = undefined;
+                if(!(var1 !== var5)) { _fun0002_ip = 90; continue _fun0002 }
  49:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 3;
-                zuuluu = oscard[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.attachContextListener;
-                michal = michal.handleStoreChange;
-                michal = zuuluu.bind(tangon)(report, michal);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 3;
+                var3 = var6[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.attachContextListener;
+                var2 = var2.handleStoreChange;
+                var2 = var3.bind(var4)(var5, var2);
  90:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(2);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'detach';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var2;
+        var2 = new Array(2);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'detach';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                michal = this;
-                var _closure3_slot0 = michal;
-                zuuluu = michal.stores;
-                tangon = michal.libDiscoreContextId;
-                michal = zuuluu.forEach;
-                entity = function(argFoo) {
-                    zuuluu = argFoo;
-                    michal = zuuluu.removeReactChangeListener;
-                    entity = _closure3_slot0;
-                    entity = entity.handleStoreChange;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = var2.stores;
+                var4 = var2.libDiscoreContextId;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var3 = arg1;
+                    var2 = var3.removeReactChangeListener;
+                    var1 = _closure3_slot0;
+                    var1 = var1.handleStoreChange;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                if(!(entity !== tangon)) { _fun00008_ip = 76; continue _fun00007 }
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                if(!(var1 !== var4)) { _fun0004_ip = 76; continue _fun0004 }
  42:
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot2;
-                michal = 3;
-                michal = report[michal];
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.destroyContext;
-                michal = michal.bind(zuuluu)(tangon);
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 3;
+                var2 = var5[var2];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.destroyContext;
+                var2 = var2.bind(var3)(var4);
  76:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[1] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[1] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/flux/BatchedStoreListener.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['BatchedStoreListener'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/flux/BatchedStoreListener.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['BatchedStoreListener'] = var2;
+    return var1;
 })();

@@ -1,130 +1,130 @@
 // app/modules/video_calls/native/useTrackActivityVideoPip.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/video_calls/native/useTrackActivityVideoPip.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useTrackActivityPip
-        golfie = argFoo;
-        var _closure2_slot0 = golfie;
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 3;
-        tangon = oscard[entity];
-        entity = undefined;
-        verify = report.bind(entity)(tangon);
-        option = verify.useStateFromStores;
-        tangon = _closure1_slot4;
-        report = new Array(1);
-        report[0] = tangon;
-        tangon = function() {
-            michal = _closure1_slot4;
-            entity = michal.isPipEnabledWhileFocusedOnActivityOrStream;
-            entity = entity.bind(michal)();
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/video_calls/native/useTrackActivityVideoPip.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useTrackActivityPip(arg1) {
+        var7 = arg1;
+        var _closure2_slot0 = var7;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var4 = var6[var1];
+        var1 = undefined;
+        var9 = var5.bind(var1)(var4);
+        var8 = var9.useStateFromStores;
+        var4 = _closure1_slot4;
+        var5 = new Array(1);
+        var5[0] = var4;
+        var4 = function() {
+            var2 = _closure1_slot4;
+            var1 = var2.isPipEnabledWhileFocusedOnActivityOrStream;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        verify = option.bind(verify)(report, tangon);
-        var _closure2_slot1 = verify;
-        report = _closure1_slot1;
-        tangon = 4;
-        tangon = oscard[tangon];
-        tangon = report.bind(entity)(tangon);
-        option = tangon.bind(entity)(verify);
-        var _closure2_slot2 = option;
-        tangon = 5;
-        tangon = oscard[tangon];
-        tangon = report.bind(entity)(tangon);
-        oscard = tangon.bind(entity)();
-        var _closure2_slot3 = oscard;
-        report = _closure1_slot3;
-        tangon = report.useEffect;
-        zuuluu = new Array(4);
-        zuuluu[0] = verify;
-        zuuluu[1] = option;
-        zuuluu[2] = golfie;
-        zuuluu[3] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var9 = var8.bind(var9)(var5, var4);
+        var _closure2_slot1 = var9;
+        var5 = _closure1_slot1;
+        var4 = 4;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var8 = var4.bind(var1)(var9);
+        var _closure2_slot2 = var8;
+        var4 = 5;
+        var4 = var6[var4];
+        var4 = var5.bind(var1)(var4);
+        var6 = var4.bind(var1)();
+        var _closure2_slot3 = var6;
+        var5 = _closure1_slot3;
+        var4 = var5.useEffect;
+        var3 = new Array(4);
+        var3[0] = var9;
+        var3[1] = var8;
+        var3[2] = var7;
+        var3[3] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot3;
-                michal = null;
-                if(!(michal != entity)) { _fun00002_ip = 149; continue _fun00001 }
+                var1 = _closure2_slot3;
+                var2 = null;
+                if(!(var2 != var1)) { _fun0001_ip = 149; continue _fun0001 }
  16:
-                entity = _closure2_slot2;
-                if(!(michal != entity)) { _fun00002_ip = 149; continue _fun00001 }
+                var1 = _closure2_slot2;
+                if(!(var2 != var1)) { _fun0001_ip = 149; continue _fun0001 }
  27:
-                michal = _closure2_slot1;
-                entity = _closure2_slot2;
-                if(!(michal !== entity)) { _fun00002_ip = 149; continue _fun00001 }
+                var2 = _closure2_slot1;
+                var1 = _closure2_slot2;
+                if(!(var2 !== var1)) { _fun0001_ip = 149; continue _fun0001 }
  39:
-                zuuluu = _closure2_slot1;
-                michal = _closure1_slot5;
-                if(zuuluu) { _fun00002_ip = 61; continue _fun00001 }
+                var3 = _closure2_slot1;
+                var2 = _closure1_slot5;
+                if(var3) { _fun0001_ip = 61; continue _fun0001 }
  53:
-                tangon = michal.ACTIVITY_VIDEO_PIP_HIDDEN;
-                _fun00002_ip = 67; continue _fun00001;
+                var4 = var2.ACTIVITY_VIDEO_PIP_HIDDEN;
+                _fun0001_ip = 67; continue _fun0001;
  61:
-                tangon = michal.ACTIVITY_VIDEO_PIP_SHOWN;
+                var4 = var2.ACTIVITY_VIDEO_PIP_SHOWN;
  67:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 6;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.track;
-                entity = {};
-                oscard = _closure2_slot0;
-                golfie = oscard.id;
-                entity['channel_id'] = golfie;
-                oscard = oscard.guild_id;
-                entity['guild_id'] = oscard;
-                report = _closure2_slot3;
-                oscard = report.applicationId;
-                entity['application_id'] = oscard;
-                report = report.compositeInstanceId;
-                entity['activity_session_id'] = report;
-                entity = michal.bind(zuuluu)(tangon, entity);
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.track;
+                var1 = {};
+                var6 = _closure2_slot0;
+                var7 = var6.id;
+                var1['channel_id'] = var7;
+                var6 = var6.guild_id;
+                var1['guild_id'] = var6;
+                var5 = _closure2_slot3;
+                var6 = var5.applicationId;
+                var1['application_id'] = var6;
+                var5 = var5.compositeInstanceId;
+                var1['activity_session_id'] = var5;
+                var1 = var2.bind(var3)(var4, var1);
  149:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

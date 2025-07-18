@@ -1,277 +1,277 @@
 // app/uikit-native/refresh/Pressables.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        foxtra = argBaz;
-        zuuluu = argFre;
-        golfie = argPlu;
-        var _closure1_slot0 = oscard;
-        var _closure1_slot1 = foxtra;
-        var _closure1_slot2 = golfie;
-        entity = function(argFoo) { // Original name: PressableBase
-            golfie = argFoo;
-            report = golfie.children;
-            yankee = golfie.androidRippleConfig;
-            var _closure2_slot0 = yankee;
-            offset = golfie.style;
-            var _closure2_slot1 = offset;
-            tangon = golfie.iosPressedStyle;
-            var _closure2_slot2 = tangon;
-            oscard = golfie.innerRef;
-            michal = {'children': 0, 'androidRippleConfig': 0, 'style': 0, 'iosPressedStyle': 0, 'innerRef': 0};
-            foxtra = null;
-            backup = michal;
-            entity = silentSetPrototypeOf(backup, foxtra);
-            backup = {};
-            foxtra = golfie;
-            romeon = michal;
-            entity = copyDataProperties(backup, foxtra, romeon);
-            verify = _closure1_slot3;
-            option = verify.useCallback;
-            golfie = new Array(2);
-            golfie[0] = tangon;
-            golfie[1] = offset;
-            tangon = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = native2;
+        var13 = native3;
+        var3 = native6;
+        var7 = native7;
+        var _closure1_slot0 = var6;
+        var _closure1_slot1 = var13;
+        var _closure1_slot2 = var7;
+        var1 = function PressableBase(arg1) {
+            var7 = arg1;
+            var5 = var7.children;
+            var11 = var7.androidRippleConfig;
+            var _closure2_slot0 = var11;
+            var10 = var7.style;
+            var _closure2_slot1 = var10;
+            var4 = var7.iosPressedStyle;
+            var _closure2_slot2 = var4;
+            var6 = var7.innerRef;
+            var2 = {'children': 0, 'androidRippleConfig': 0, 'style': 0, 'iosPressedStyle': 0, 'innerRef': 0};
+            var13 = null;
+            var14 = var2;
+            var1 = silentSetPrototypeOf(var14, var13);
+            var14 = {};
+            var13 = var7;
+            var12 = var2;
+            var1 = copyDataProperties(var14, var13, var12);
+            var9 = _closure1_slot3;
+            var8 = var9.useCallback;
+            var7 = new Array(2);
+            var7[0] = var4;
+            var7[1] = var10;
+            var4 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 6;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    entity = michal.isAndroid;
-                    entity = entity.bind(michal)();
-                    michal = _closure2_slot1;
-                    if(entity) { _fun00004_ip = 84; continue _fun00003 }
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var1 = var2.isAndroid;
+                    var1 = var1.bind(var2)();
+                    var2 = _closure2_slot1;
+                    if(var1) { _fun0002_ip = 84; continue _fun0002 }
  44:
-                    entity = new Array(3);
-                    entity[0] = michal;
-                    tangon = argFoo;
-                    oscard = tangon.pressed;
-                    tangon = null;
-                    if(!oscard) { _fun00004_ip = 70; continue _fun00003 }
+                    var1 = new Array(3);
+                    var1[0] = var2;
+                    var4 = arg1;
+                    var6 = var4.pressed;
+                    var4 = null;
+                    if(!var6) { _fun0002_ip = 70; continue _fun0002 }
  66:
-                    tangon = _closure2_slot2;
+                    var4 = _closure2_slot2;
  70:
-                    entity[1] = tangon;
-                    zuuluu = _closure1_slot5;
-                    entity[2] = zuuluu;
-                    _fun00004_ip = 87; continue _fun00003;
+                    var1[1] = var4;
+                    var3 = _closure1_slot5;
+                    var1[2] = var3;
+                    _fun0002_ip = 87; continue _fun0002;
  84:
-                    entity = michal;
+                    var1 = var2;
  87:
-                    return entity;
+                    return var1;
                 }
             };
-            golfie = option.bind(verify)(tangon, golfie);
-            verify = _closure1_slot3;
-            option = verify.useMemo;
-            tangon = new Array(2);
-            tangon[0] = yankee;
-            tangon[1] = offset;
-            zuuluu = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var7 = var8.bind(var9)(var4, var7);
+            var9 = _closure1_slot3;
+            var8 = var9.useMemo;
+            var4 = new Array(2);
+            var4[0] = var11;
+            var4[1] = var10;
+            var3 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure2_slot0;
-                    zuuluu = null;
-                    if(!(zuuluu == michal)) { _fun00006_ip = 17; continue _fun00005 }
+                    var2 = _closure2_slot0;
+                    var3 = null;
+                    if(!(var3 == var2)) { _fun0003_ip = 17; continue _fun0003 }
  13:
-                    michal = {};
-                    _fun00006_ip = 21; continue _fun00005;
+                    var2 = {};
+                    _fun0003_ip = 21; continue _fun0003;
  17:
-                    michal = _closure2_slot0;
+                    var2 = _closure2_slot0;
  21:
-                    report = michal.cornerRadius;
-                    tangon = report;
-                    if(!(zuuluu == tangon)) { _fun00006_ip = 89; continue _fun00005 }
+                    var5 = var2.cornerRadius;
+                    var4 = var5;
+                    if(!(var3 == var4)) { _fun0003_ip = 89; continue _fun0003 }
  34:
-                    golfie = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    michal = 8;
-                    oscard = oscard[michal];
-                    michal = undefined;
-                    option = golfie.bind(michal)(oscard);
-                    golfie = option.getStyleProp;
-                    oscard = _closure2_slot1;
-                    michal = 'borderRadius';
-                    michal = golfie.bind(option)(oscard, michal);
-                    tangon = report;
-                    if(!(zuuluu != michal)) { _fun00006_ip = 89; continue _fun00005 }
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var2 = 8;
+                    var6 = var6[var2];
+                    var2 = undefined;
+                    var8 = var7.bind(var2)(var6);
+                    var7 = var8.getStyleProp;
+                    var6 = _closure2_slot1;
+                    var2 = 'borderRadius';
+                    var2 = var7.bind(var8)(var6, var2);
+                    var4 = var5;
+                    if(!(var3 != var2)) { _fun0003_ip = 89; continue _fun0003 }
  86:
-                    tangon = michal;
+                    var4 = var2;
  89:
-                    zuuluu = _closure1_slot6;
-                    michal = {};
-                    verify = _closure2_slot0;
-                    offset = michal;
-                    entity = copyDataProperties(offset, verify);
-                    entity = 'cornerRadius';
-                    michal[entity] = tangon;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var3 = _closure1_slot6;
+                    var2 = {};
+                    var9 = _closure2_slot0;
+                    var10 = var2;
+                    var1 = copyDataProperties(var10, var9);
+                    var1 = 'cornerRadius';
+                    var2[var1] = var4;
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            option = option.bind(verify)(zuuluu, tangon);
-            tangon = _closure1_slot7;
-            zuuluu = _closure1_slot4;
-            michal = {};
-            michal['android_ripple'] = option;
-            michal['style'] = golfie;
-            michal['ref'] = oscard;
-            backup = michal;
-            foxtra = entity;
-            entity = copyDataProperties(backup, foxtra);
-            entity = 'children';
-            michal[entity] = report;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var8 = var8.bind(var9)(var3, var4);
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var2['android_ripple'] = var8;
+            var2['style'] = var7;
+            var2['ref'] = var6;
+            var14 = var2;
+            var13 = var1;
+            var1 = copyDataProperties(var14, var13);
+            var1 = 'children';
+            var2[var1] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        var _closure1_slot9 = entity;
-        entity = global;
-        option = entity.Object;
-        report = option.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(option)(zuuluu, entity, tangon);
-        entity = 0;
-        report = golfie[entity];
-        tangon = argCor;
-        entity = undefined;
-        option = tangon.bind(entity)(report);
-        var _closure1_slot3 = option;
-        tangon = 1;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(entity)(tangon);
-        tangon = tangon.Pressable;
-        var _closure1_slot4 = tangon;
-        tangon = 2;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(entity)(tangon);
-        tangon = tangon.IOS_POINTER_STYLE;
-        var _closure1_slot5 = tangon;
-        tangon = 3;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(entity)(tangon);
-        tangon = tangon.getThemedRippleConfig;
-        var _closure1_slot6 = tangon;
-        tangon = 4;
-        tangon = golfie[tangon];
-        tangon = oscard.bind(entity)(tangon);
-        tangon = tangon.jsx;
-        var _closure1_slot7 = tangon;
-        tangon = 5;
-        tangon = golfie[tangon];
-        verify = oscard.bind(entity)(tangon);
-        report = verify.createStyles;
-        tangon = {};
-        offset = {};
-        yankee = 6;
-        yankee = golfie[yankee];
-        romeon = oscard.bind(entity)(yankee);
-        yankee = romeon.isAndroid;
-        romeon = yankee.bind(romeon)();
-        yankee = undefined;
-        if(romeon) { _fun00002_ip = 244; continue _fun00001 }
+        var _closure1_slot9 = var1;
+        var1 = global;
+        var8 = var1.Object;
+        var5 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var8)(var3, var1, var4);
+        var1 = 0;
+        var5 = var7[var1];
+        var4 = native4;
+        var1 = undefined;
+        var8 = var4.bind(var1)(var5);
+        var _closure1_slot3 = var8;
+        var4 = 1;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var4 = var4.Pressable;
+        var _closure1_slot4 = var4;
+        var4 = 2;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var4 = var4.IOS_POINTER_STYLE;
+        var _closure1_slot5 = var4;
+        var4 = 3;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var4 = var4.getThemedRippleConfig;
+        var _closure1_slot6 = var4;
+        var4 = 4;
+        var4 = var7[var4];
+        var4 = var6.bind(var1)(var4);
+        var4 = var4.jsx;
+        var _closure1_slot7 = var4;
+        var4 = 5;
+        var4 = var7[var4];
+        var9 = var6.bind(var1)(var4);
+        var5 = var9.createStyles;
+        var4 = {};
+        var10 = {};
+        var11 = 6;
+        var11 = var7[var11];
+        var12 = var6.bind(var1)(var11);
+        var11 = var12.isAndroid;
+        var12 = var11.bind(var12)();
+        var11 = undefined;
+        if(var12) { _fun0001_ip = 244; continue _fun0001 }
  221:
-        romeon = 7;
-        romeon = golfie[romeon];
-        romeon = foxtra.bind(entity)(romeon);
-        romeon = romeon.colors;
-        yankee = romeon.BG_MOD_FAINT;
+        var12 = 7;
+        var12 = var7[var12];
+        var12 = var13.bind(var1)(var12);
+        var12 = var12.colors;
+        var11 = var12.BG_MOD_FAINT;
  244:
-        offset['backgroundColor'] = yankee;
-        tangon['pressedHighlight'] = offset;
-        tangon = report.bind(verify)(tangon);
-        var _closure1_slot8 = tangon;
-        report = option.forwardRef;
-        tangon = function(argFoo, argBar) {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var10['backgroundColor'] = var11;
+        var4['pressedHighlight'] = var10;
+        var4 = var5.bind(var9)(var4);
+        var _closure1_slot8 = var4;
+        var5 = var8.forwardRef;
+        var4 = function(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = argFoo;
-                golfie = zuuluu.activeOpacity;
-                tangon = undefined;
-                if(!(golfie === tangon)) { _fun00008_ip = 25; continue _fun00007 }
+                var3 = arg1;
+                var7 = var3.activeOpacity;
+                var4 = undefined;
+                if(!(var7 === var4)) { _fun0004_ip = 25; continue _fun0004 }
  15:
-                golfie = 0.2;
+                var7 = 0.2;
  25:
-                entity = null;
-                michal = Object.create(entity);
-                entity = 0;
-                michal['activeOpacity'] = entity;
-                offset = {};
-                verify = zuuluu;
-                option = michal;
-                verify = copyDataProperties(offset, verify, option);
-                zuuluu = _closure1_slot7;
-                michal = _closure1_slot9;
-                entity = {};
-                oscard = argBar;
-                entity['innerRef'] = oscard;
-                oscard = {};
-                oscard['opacity'] = golfie;
-                entity['iosPressedStyle'] = oscard;
-                offset = entity;
-                report = copyDataProperties(offset, verify);
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var1 = null;
+                var2 = Object.create(var1);
+                var1 = 0;
+                var2['activeOpacity'] = var1;
+                var10 = {};
+                var9 = var3;
+                var8 = var2;
+                var9 = copyDataProperties(var10, var9, var8);
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot9;
+                var1 = {};
+                var6 = arg2;
+                var1['innerRef'] = var6;
+                var6 = {};
+                var6['opacity'] = var7;
+                var1['iosPressedStyle'] = var6;
+                var10 = var1;
+                var5 = copyDataProperties(var10, var9);
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
-        tangon = report.bind(option)(tangon);
-        report = option.forwardRef;
-        michal = function(argFoo, argBar) {
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var4 = var5.bind(var8)(var4);
+        var5 = var8.forwardRef;
+        var2 = function(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                zuuluu = argFoo;
-                option = zuuluu.underlayColor;
-                golfie = zuuluu.activeOpacity;
-                offset = null;
-                michal = Object.create(offset);
-                entity = 0;
-                michal['underlayColor'] = entity;
-                michal['activeOpacity'] = entity;
-                foxtra = {};
-                romeon = zuuluu;
-                yankee = michal;
-                report = copyDataProperties(foxtra, romeon, yankee);
-                michal = _closure1_slot8;
-                tangon = undefined;
-                verify = michal.bind(tangon)();
-                zuuluu = _closure1_slot7;
-                michal = _closure1_slot9;
-                entity = {};
-                oscard = argBar;
-                entity['innerRef'] = oscard;
-                oscard = {};
-                if(!(offset == option)) { _fun00010_ip = 92; continue _fun00009 }
+                var3 = arg1;
+                var8 = var3.underlayColor;
+                var7 = var3.activeOpacity;
+                var10 = null;
+                var2 = Object.create(var10);
+                var1 = 0;
+                var2['underlayColor'] = var1;
+                var2['activeOpacity'] = var1;
+                var13 = {};
+                var12 = var3;
+                var11 = var2;
+                var5 = copyDataProperties(var13, var12, var11);
+                var2 = _closure1_slot8;
+                var4 = undefined;
+                var9 = var2.bind(var4)();
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot9;
+                var1 = {};
+                var6 = arg2;
+                var1['innerRef'] = var6;
+                var6 = {};
+                if(!(var10 == var8)) { _fun0005_ip = 92; continue _fun0005 }
  81:
-                verify = verify.pressedHighlight;
-                option = verify.backgroundColor;
+                var9 = var9.pressedHighlight;
+                var8 = var9.backgroundColor;
  92:
-                oscard['backgroundColor'] = option;
-                oscard['opacity'] = golfie;
-                entity['iosPressedStyle'] = oscard;
-                foxtra = entity;
-                romeon = report;
-                report = copyDataProperties(foxtra, romeon);
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+                var6['backgroundColor'] = var8;
+                var6['opacity'] = var7;
+                var1['iosPressedStyle'] = var6;
+                var13 = var1;
+                var12 = var5;
+                var5 = copyDataProperties(var13, var12);
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             }
         };
-        michal = report.bind(option)(michal);
-        report = 9;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = 'uikit-native/refresh/Pressables.tsx';
-        report = oscard.bind(golfie)(report);
-        zuuluu['PressableOpacity'] = tangon;
-        zuuluu['PressableHighlight'] = michal;
-        return entity;
+        var2 = var5.bind(var8)(var2);
+        var5 = 9;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'uikit-native/refresh/Pressables.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['PressableOpacity'] = var4;
+        var3['PressableHighlight'] = var2;
+        return var1;
     }
 })();

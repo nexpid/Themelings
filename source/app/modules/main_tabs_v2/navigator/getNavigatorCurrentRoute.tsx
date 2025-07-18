@@ -1,64 +1,64 @@
 // app/modules/main_tabs_v2/navigator/getNavigatorCurrentRoute.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/navigator/getNavigatorCurrentRoute.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: getNavigatorCurrentRoute
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/navigator/getNavigatorCurrentRoute.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getNavigatorCurrentRoute() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = arguments[0];
-            michal = undefined;
-            if(!(tangon === michal)) { _fun00002_ip = 41; continue _fun00001 }
+            var4 = arguments[0];
+            var2 = undefined;
+            if(!(var4 === var2)) { _fun0001_ip = 41; continue _fun0001 }
  9:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 0;
-            entity = report[entity];
-            zuuluu = zuuluu.bind(michal)(entity);
-            entity = zuuluu.getRootNavigationRef;
-            tangon = entity.bind(zuuluu)();
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 0;
+            var1 = var5[var1];
+            var3 = var3.bind(var2)(var1);
+            var1 = var3.getRootNavigationRef;
+            var4 = var1.bind(var3)();
  41:
-            zuuluu = null;
-            entity = zuuluu == tangon;
-            oscard = undefined;
-            if(entity) { _fun00002_ip = 62; continue _fun00001 }
+            var3 = null;
+            var1 = var3 == var4;
+            var6 = undefined;
+            if(var1) { _fun0001_ip = 62; continue _fun0001 }
  52:
-            entity = tangon.isReady;
-            oscard = entity.bind(tangon)();
+            var1 = var4.isReady;
+            var6 = var1.bind(var4)();
  62:
-            report = true;
-            entity = undefined;
-            if(!(report === oscard)) { _fun00002_ip = 92; continue _fun00001 }
+            var5 = true;
+            var1 = undefined;
+            if(!(var5 === var6)) { _fun0001_ip = 92; continue _fun0001 }
  70:
-            zuuluu = zuuluu == tangon;
-            michal = undefined;
-            if(zuuluu) { _fun00002_ip = 89; continue _fun00001 }
+            var3 = var3 == var4;
+            var2 = undefined;
+            if(var3) { _fun0001_ip = 89; continue _fun0001 }
  79:
-            zuuluu = tangon.getCurrentRoute;
-            michal = zuuluu.bind(tangon)();
+            var3 = var4.getCurrentRoute;
+            var2 = var3.bind(var4)();
  89:
-            entity = michal;
+            var1 = var2;
  92:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

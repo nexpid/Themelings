@@ -1,157 +1,157 @@
 // app/modules/directory_channels/useCanManageGuildDirectoryEntry.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Permissions;
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/directory_channels/useCanManageGuildDirectoryEntry.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useCanManageGuildDirectoryEntry
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Permissions;
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/directory_channels/useCanManageGuildDirectoryEntry.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useCanManageGuildDirectoryEntry(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            report = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 4;
-            oscard = golfie[zuuluu];
-            tangon = undefined;
-            offset = report.bind(tangon)(oscard);
-            verify = offset.useStateFromStores;
-            oscard = _closure1_slot3;
-            option = new Array(1);
-            option[0] = oscard;
-            oscard = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getGuild;
-                entity = _closure2_slot0;
-                entity = entity.guildId;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 4;
+            var6 = var7[var3];
+            var4 = undefined;
+            var10 = var5.bind(var4)(var6);
+            var9 = var10.useStateFromStores;
+            var6 = _closure1_slot3;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var6 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var1.guildId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = verify.bind(offset)(option, oscard);
-            var _closure2_slot1 = oscard;
-            oscard = golfie[zuuluu];
-            offset = report.bind(tangon)(oscard);
-            verify = offset.useStateFromStores;
-            oscard = _closure1_slot2;
-            option = new Array(1);
-            option[0] = oscard;
-            oscard = function() {
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getChannel;
-                entity = _closure2_slot0;
-                entity = entity.channelId;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var6 = var9.bind(var10)(var8, var6);
+            var _closure2_slot1 = var6;
+            var6 = var7[var3];
+            var10 = var5.bind(var4)(var6);
+            var9 = var10.useStateFromStores;
+            var6 = _closure1_slot2;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var6 = function() {
+                var3 = _closure1_slot2;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.channelId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = verify.bind(offset)(option, oscard);
-            var _closure2_slot2 = oscard;
-            oscard = golfie[zuuluu];
-            offset = report.bind(tangon)(oscard);
-            verify = offset.useStateFromStores;
-            oscard = _closure1_slot4;
-            option = new Array(1);
-            option[0] = oscard;
-            michal = function() {
-                tangon = _closure1_slot4;
-                zuuluu = tangon.can;
-                entity = _closure1_slot5;
-                michal = entity.ADMINISTRATOR;
-                entity = _closure2_slot1;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var6 = var9.bind(var10)(var8, var6);
+            var _closure2_slot2 = var6;
+            var6 = var7[var3];
+            var10 = var5.bind(var4)(var6);
+            var9 = var10.useStateFromStores;
+            var6 = _closure1_slot4;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var2 = function() {
+                var4 = _closure1_slot4;
+                var3 = var4.can;
+                var1 = _closure1_slot5;
+                var2 = var1.ADMINISTRATOR;
+                var1 = _closure2_slot1;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal = verify.bind(offset)(option, michal);
-            zuuluu = golfie[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            tangon = report.useStateFromStores;
-            zuuluu = new Array(1);
-            zuuluu[0] = oscard;
-            entity = function() {
-                tangon = _closure1_slot4;
-                zuuluu = tangon.can;
-                entity = _closure1_slot5;
-                michal = entity.MANAGE_MESSAGES;
-                entity = _closure2_slot2;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2 = var9.bind(var10)(var8, var2);
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var4 = var5.useStateFromStores;
+            var3 = new Array(1);
+            var3[0] = var6;
+            var1 = function() {
+                var4 = _closure1_slot4;
+                var3 = var4.can;
+                var1 = _closure1_slot5;
+                var2 = var1.MANAGE_MESSAGES;
+                var1 = _closure2_slot2;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            zuuluu = tangon.bind(report)(zuuluu, entity);
-            entity = {};
-            entity['isEntryAdmin'] = michal;
-            tangon = michal;
-            if(michal) { _fun00002_ip = 193; continue _fun00001 }
+            var3 = var4.bind(var5)(var3, var1);
+            var1 = {};
+            var1['isEntryAdmin'] = var2;
+            var4 = var2;
+            if(var2) { _fun0001_ip = 193; continue _fun0001 }
  190:
-            tangon = zuuluu;
+            var4 = var3;
  193:
-            entity['canEdit'] = tangon;
-            if(michal) { _fun00002_ip = 204; continue _fun00001 }
+            var1['canEdit'] = var4;
+            if(var2) { _fun0001_ip = 204; continue _fun0001 }
  201:
-            michal = zuuluu;
+            var2 = var3;
  204:
-            entity['canRemove'] = michal;
-            return entity;
+            var1['canRemove'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: useCanCreateOrAddGuildInDirectory
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 4;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStores;
-        report = _closure1_slot4;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            tangon = _closure1_slot4;
-            zuuluu = tangon.can;
-            entity = _closure1_slot5;
-            michal = entity.SEND_MESSAGES;
-            entity = _closure2_slot0;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+    var3['default'] = var4;
+    var2 = function useCanCreateOrAddGuildInDirectory(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStores;
+        var5 = _closure1_slot4;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var4 = _closure1_slot4;
+            var3 = var4.can;
+            var1 = _closure1_slot5;
+            var2 = var1.SEND_MESSAGES;
+            var1 = _closure2_slot0;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useCanCreateOrAddGuildInDirectory'] = michal;
-    return entity;
+    var3['useCanCreateOrAddGuildInDirectory'] = var2;
+    return var1;
 })();

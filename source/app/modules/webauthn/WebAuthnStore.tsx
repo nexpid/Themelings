@@ -1,322 +1,322 @@
 // app/modules/webauthn/WebAuthnStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot9 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot9 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot9 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = false;
-    var _closure1_slot7 = michal;
-    michal = new Array(0);
-    var _closure1_slot8 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.Store;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: WebAuthnStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = false;
+    var _closure1_slot7 = var2;
+    var2 = new Array(0);
+    var _closure1_slot8 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.Store;
+    var2 = function(arg1) {
+        var4 = function WebAuthnStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot2;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot5;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot4;
-                entity = _closure1_slot9;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot2;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot5;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot4;
+                var1 = _closure1_slot9;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot5;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot5;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot6;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot3;
-        report = {};
-        entity = 'hasFetchedCredentials';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            entity = _closure1_slot7;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot6;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot3;
+        var5 = {};
+        var1 = 'hasFetchedCredentials';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = _closure1_slot7;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'hasCredentials';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot8;
-            michal = entity.length;
-            entity = 0;
-            entity = michal > entity;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'hasCredentials';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot8;
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getCredentials';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot8;
-            return entity;
+        var5['get'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getCredentials';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot8;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(option);
-    michal = 'WebAuthnStore';
-    option['displayName'] = michal;
-    michal = 6;
-    michal = oscard[michal];
-    romeon = golfie.bind(entity)(michal);
-    michal = {};
-    verify = function() { // Original name: handleReset
-        entity = new Array(0);
-        _closure1_slot8 = entity;
-        entity = false;
-        _closure1_slot7 = entity;
-        entity = undefined;
-        return entity;
+    var8 = var2.bind(var1)(var8);
+    var2 = 'WebAuthnStore';
+    var8['displayName'] = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var12 = var7.bind(var1)(var2);
+    var2 = {};
+    var9 = function handleReset() {
+        var1 = new Array(0);
+        _closure1_slot8 = var1;
+        var1 = false;
+        _closure1_slot7 = var1;
+        var1 = undefined;
+        return var1;
     };
-    michal['LOGOUT'] = verify;
-    verify = function(argFoo) { // Original name: MFA_WEBAUTHN_CREDENTIALS_LOADED
-        entity = argFoo;
-        entity = entity.credentials;
-        _closure1_slot8 = entity;
-        entity = true;
-        _closure1_slot7 = entity;
-        entity = undefined;
-        return entity;
+    var2['LOGOUT'] = var9;
+    var9 = function MFA_WEBAUTHN_CREDENTIALS_LOADED(arg1) {
+        var1 = arg1;
+        var1 = var1.credentials;
+        _closure1_slot8 = var1;
+        var1 = true;
+        _closure1_slot7 = var1;
+        var1 = undefined;
+        return var1;
     };
-    michal['MFA_WEBAUTHN_CREDENTIALS_LOADED'] = verify;
-    verify = function(argFoo) { // Original name: AUTHENTICATOR_CREATE
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['MFA_WEBAUTHN_CREDENTIALS_LOADED'] = var9;
+    var9 = function AUTHENTICATOR_CREATE(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.credential;
-            var _closure2_slot0 = tangon;
-            oscard = tangon.type;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            michal = golfie.bind(entity)(michal);
-            michal = michal.AuthenticatorType;
-            michal = michal.WEBAUTHN;
-            michal = oscard === michal;
-            if(!michal) { _fun00006_ip = 89; continue _fun00005 }
+            var1 = arg1;
+            var4 = var1.credential;
+            var _closure2_slot0 = var4;
+            var6 = var4.type;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var7.bind(var1)(var2);
+            var2 = var2.AuthenticatorType;
+            var2 = var2.WEBAUTHN;
+            var2 = var6 === var2;
+            if(!var2) { _fun0003_ip = 89; continue _fun0003 }
  64:
-            golfie = _closure1_slot8;
-            oscard = golfie.find;
-            report = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal === entity;
-                return entity;
+            var7 = _closure1_slot8;
+            var6 = var7.find;
+            var5 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 === var1;
+                return var1;
             };
-            report = oscard.bind(golfie)(report);
-            michal = entity === report;
+            var5 = var6.bind(var7)(var5);
+            var2 = var1 === var5;
  89:
-            if(!michal) { _fun00006_ip = 125; continue _fun00005 }
+            if(!var2) { _fun0003_ip = 125; continue _fun0003 }
  92:
-            verify = _closure1_slot8;
-            michal = new Array(1);
-            option = 0;
-            offset = michal;
-            report = arraySpread(offset, verify, option);
-            michal[report] = tangon;
-            tangon = 1;
-            tangon = report + tangon;
-            _closure1_slot8 = michal;
+            var9 = _closure1_slot8;
+            var2 = new Array(1);
+            var8 = 0;
+            var10 = var2;
+            var5 = arraySpread(var10, var9, var8);
+            var2[var5] = var4;
+            var4 = 1;
+            var4 = var5 + var4;
+            _closure1_slot8 = var2;
  125:
-            return entity;
+            return var1;
         }
     };
-    michal['AUTHENTICATOR_CREATE'] = verify;
-    verify = function(argFoo) { // Original name: AUTHENTICATOR_UPDATE
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['AUTHENTICATOR_CREATE'] = var9;
+    var9 = function AUTHENTICATOR_UPDATE(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            entity = entity.credential;
-            var _closure2_slot0 = entity;
-            report = entity.type;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 7;
-            tangon = tangon[entity];
-            entity = undefined;
-            tangon = oscard.bind(entity)(tangon);
-            tangon = tangon.AuthenticatorType;
-            tangon = tangon.WEBAUTHN;
-            if(!(report === tangon)) { _fun00008_ip = 86; continue _fun00007 }
+            var1 = arg1;
+            var1 = var1.credential;
+            var _closure2_slot0 = var1;
+            var5 = var1.type;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 7;
+            var4 = var4[var1];
+            var1 = undefined;
+            var4 = var6.bind(var1)(var4);
+            var4 = var4.AuthenticatorType;
+            var4 = var4.WEBAUTHN;
+            if(!(var5 === var4)) { _fun0004_ip = 86; continue _fun0004 }
  61:
-            report = _closure1_slot8;
-            tangon = report.map;
-            michal = function(argFoo) {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var5 = _closure1_slot8;
+            var4 = var5.map;
+            var2 = function(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    entity = argFoo;
-                    tangon = entity.id;
-                    zuuluu = _closure2_slot0;
-                    zuuluu = zuuluu.id;
-                    if(!(tangon === zuuluu)) { _fun00010_ip = 28; continue _fun00009 }
+                    var1 = arg1;
+                    var4 = var1.id;
+                    var3 = _closure2_slot0;
+                    var3 = var3.id;
+                    if(!(var4 === var3)) { _fun0005_ip = 28; continue _fun0005 }
  24:
-                    entity = _closure2_slot0;
+                    var1 = _closure2_slot0;
  28:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal);
-            _closure1_slot8 = michal;
+            var2 = var4.bind(var5)(var2);
+            _closure1_slot8 = var2;
  86:
-            return entity;
+            return var1;
         }
     };
-    michal['AUTHENTICATOR_UPDATE'] = verify;
-    tangon = function(argFoo) { // Original name: AUTHENTICATOR_DELETE
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var2['AUTHENTICATOR_UPDATE'] = var9;
+    var4 = function AUTHENTICATOR_DELETE(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            entity = entity.credential;
-            var _closure2_slot0 = entity;
-            report = entity.type;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 7;
-            tangon = tangon[entity];
-            entity = undefined;
-            tangon = oscard.bind(entity)(tangon);
-            tangon = tangon.AuthenticatorType;
-            tangon = tangon.WEBAUTHN;
-            if(!(report === tangon)) { _fun00012_ip = 86; continue _fun00011 }
+            var1 = arg1;
+            var1 = var1.credential;
+            var _closure2_slot0 = var1;
+            var5 = var1.type;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 7;
+            var4 = var4[var1];
+            var1 = undefined;
+            var4 = var6.bind(var1)(var4);
+            var4 = var4.AuthenticatorType;
+            var4 = var4.WEBAUTHN;
+            if(!(var5 === var4)) { _fun0006_ip = 86; continue _fun0006 }
  61:
-            report = _closure1_slot8;
-            tangon = report.filter;
-            michal = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal !== entity;
-                return entity;
+            var5 = _closure1_slot8;
+            var4 = var5.filter;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
             };
-            michal = tangon.bind(report)(michal);
-            _closure1_slot8 = michal;
+            var2 = var4.bind(var5)(var2);
+            _closure1_slot8 = var2;
  86:
-            return entity;
+            return var1;
         }
     };
-    michal['AUTHENTICATOR_DELETE'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    foxtra = tangon;
-    yankee = michal;
-    michal = new foxtra[option](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/webauthn/WebAuthnStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['AUTHENTICATOR_DELETE'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var8](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/webauthn/WebAuthnStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

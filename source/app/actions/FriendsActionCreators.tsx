@@ -1,122 +1,122 @@
 // app/actions/FriendsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    golfie = function(argFoo) { // Original name: setSection
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'FRIENDS_SET_SECTION';
-        michal['type'] = report;
-        report = argFoo;
-        michal['section'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var7 = function setSection(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'FRIENDS_SET_SECTION';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['section'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    var _closure1_slot4 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.Routes;
-    var _closure1_slot3 = michal;
-    michal = {};
-    option = function(argFoo) { // Original name: transitionToSection
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot4 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Routes;
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var8 = function transitionToSection(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = arguments[1];
-            entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 14; continue _fun00001 }
+            var4 = arg1;
+            var2 = arguments[1];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            michal = {};
+            var2 = {};
  14:
-            zuuluu = michal.explicit;
-            if(!(zuuluu === entity)) { _fun00002_ip = 26; continue _fun00001 }
+            var3 = var2.explicit;
+            if(!(var3 === var1)) { _fun0001_ip = 26; continue _fun0001 }
  24:
-            zuuluu = false;
+            var3 = false;
  26:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            golfie = 2;
-            report = report[golfie];
-            oscard = oscard.bind(entity)(report);
-            report = oscard.getHistory;
-            report = report.bind(oscard)();
-            report = report.location;
-            oscard = report.pathname;
-            report = _closure1_slot3;
-            report = report.FRIENDS;
-            if(!(oscard !== report)) { _fun00002_ip = 122; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var7 = 2;
+            var5 = var5[var7];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.getHistory;
+            var5 = var5.bind(var6)();
+            var5 = var5.location;
+            var6 = var5.pathname;
+            var5 = _closure1_slot3;
+            var5 = var5.FRIENDS;
+            if(!(var6 !== var5)) { _fun0001_ip = 122; continue _fun0001 }
  84:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[golfie];
-            golfie = oscard.bind(entity)(report);
-            oscard = golfie.transitionTo;
-            report = _closure1_slot3;
-            report = report.FRIENDS;
-            report = oscard.bind(golfie)(report);
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var7];
+            var7 = var6.bind(var1)(var5);
+            var6 = var7.transitionTo;
+            var5 = _closure1_slot3;
+            var5 = var5.FRIENDS;
+            var5 = var6.bind(var7)(var5);
  122:
-            report = _closure1_slot4;
-            report = report.bind(entity)(tangon);
-            if(!zuuluu) { _fun00002_ip = 166; continue _fun00001 }
+            var5 = _closure1_slot4;
+            var5 = var5.bind(var1)(var4);
+            if(!var3) { _fun0001_ip = 166; continue _fun0001 }
  134:
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            michal = 3;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = {};
-            michal['tab_opened'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 3;
+            var2 = var5[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = {};
+            var2['tab_opened'] = var4;
+            var2 = var3.bind(var1)(var2);
  166:
-            return entity;
+            return var1;
         }
     };
-    michal['transitionToSection'] = option;
-    michal['setSection'] = golfie;
-    tangon = function(argFoo) { // Original name: setInitialSection
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'FRIENDS_SET_INITIAL_SECTION';
-        michal['type'] = report;
-        report = argFoo;
-        michal['section'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['transitionToSection'] = var8;
+    var2['setSection'] = var7;
+    var4 = function setInitialSection(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'FRIENDS_SET_INITIAL_SECTION';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['section'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['setInitialSection'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/FriendsActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['setInitialSection'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/FriendsActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

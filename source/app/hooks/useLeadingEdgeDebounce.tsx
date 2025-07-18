@@ -1,102 +1,102 @@
 // app/hooks/useLeadingEdgeDebounce.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    oscard = report[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'hooks/useLeadingEdgeDebounce.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) {
-        golfie = argFoo;
-        oscard = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot1;
-        tangon = report.useRef;
-        zuuluu = true;
-        zuuluu = tangon.bind(report)(zuuluu);
-        var _closure2_slot2 = zuuluu;
-        zuuluu = report.useState;
-        option = zuuluu.bind(report)(golfie);
-        tangon = _closure1_slot0;
-        zuuluu = undefined;
-        entity = 2;
-        tangon = tangon.bind(zuuluu)(option, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot3 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = new Array(2);
-        zuuluu[0] = golfie;
-        zuuluu[1] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var6 = var5[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'hooks/useLeadingEdgeDebounce.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1, arg2) {
+        var7 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot1;
+        var4 = var5.useRef;
+        var3 = true;
+        var3 = var4.bind(var5)(var3);
+        var _closure2_slot2 = var3;
+        var3 = var5.useState;
+        var8 = var3.bind(var5)(var7);
+        var4 = _closure1_slot0;
+        var3 = undefined;
+        var1 = 2;
+        var4 = var4.bind(var3)(var8, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot3 = var3;
+        var4 = var5.useEffect;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = global;
-                oscard = michal.setTimeout;
-                tangon = _closure2_slot1;
-                report = undefined;
-                zuuluu = function() {
-                    tangon = _closure2_slot3;
-                    zuuluu = _closure2_slot0;
-                    entity = undefined;
-                    zuuluu = tangon.bind(entity)(zuuluu);
-                    zuuluu = _closure2_slot2;
-                    michal = true;
-                    zuuluu['current'] = michal;
-                    return entity;
+                var2 = global;
+                var6 = var2.setTimeout;
+                var4 = _closure2_slot1;
+                var5 = undefined;
+                var3 = function() {
+                    var4 = _closure2_slot3;
+                    var3 = _closure2_slot0;
+                    var1 = undefined;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot2;
+                    var2 = true;
+                    var3['current'] = var2;
+                    return var1;
                 };
-                zuuluu = oscard.bind(report)(zuuluu, tangon);
-                var _closure3_slot0 = zuuluu;
-                zuuluu = _closure2_slot2;
-                zuuluu = zuuluu.current;
-                if(!zuuluu) { _fun00002_ip = 61; continue _fun00001 }
+                var3 = var6.bind(var5)(var3, var4);
+                var _closure3_slot0 = var3;
+                var3 = _closure2_slot2;
+                var3 = var3.current;
+                if(!var3) { _fun0001_ip = 61; continue _fun0001 }
  48:
-                tangon = _closure2_slot3;
-                zuuluu = _closure2_slot0;
-                zuuluu = tangon.bind(report)(zuuluu);
+                var4 = _closure2_slot3;
+                var3 = _closure2_slot0;
+                var3 = var4.bind(var5)(var3);
  61:
-                zuuluu = _closure2_slot2;
-                michal = false;
-                zuuluu['current'] = michal;
-                entity = function() {
-                    entity = global;
-                    zuuluu = entity.clearTimeout;
-                    michal = _closure3_slot0;
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                var3 = _closure2_slot2;
+                var2 = false;
+                var3['current'] = var2;
+                var1 = function() {
+                    var1 = global;
+                    var3 = var1.clearTimeout;
+                    var2 = _closure3_slot0;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                return entity;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useLeadingEdgeDebounce'] = michal;
-    return entity;
+    var3['useLeadingEdgeDebounce'] = var2;
+    return var1;
 })();

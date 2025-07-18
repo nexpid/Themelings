@@ -1,196 +1,196 @@
 // discord_common/js/packages/leaky-bucket/LeakyBucket.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo, argBar) { // Original name: LeakyBucket
-            tangon = argFoo;
-            zuuluu = this;
-            report = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = report.bind(entity)(zuuluu, michal);
-            zuuluu['_capacity'] = tangon;
-            zuuluu['_tokenCount'] = tangon;
-            michal = new Array(0);
-            zuuluu['_queue'] = michal;
-            michal = argBar;
-            michal = michal / tangon;
-            zuuluu['_intervalPeriod'] = michal;
-            michal = null;
-            zuuluu['_intervalID'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function LeakyBucket(arg1, arg2) {
+            var4 = arg1;
+            var3 = this;
+            var5 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var5.bind(var1)(var3, var2);
+            var3['_capacity'] = var4;
+            var3['_tokenCount'] = var4;
+            var2 = new Array(0);
+            var3['_queue'] = var2;
+            var2 = arg2;
+            var2 = var2 / var4;
+            var3['_intervalPeriod'] = var2;
+            var2 = null;
+            var3['_intervalID'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = '_processQueue';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            entity = this;
-            var _closure3_slot0 = entity;
-            entity = global;
-            tangon = entity.setTimeout;
-            entity = undefined;
-            zuuluu = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = '_processQueue';
+        var1['key'] = var2;
+        var2 = function value() {
+            var1 = this;
+            var _closure3_slot0 = var1;
+            var1 = global;
+            var4 = var1.setTimeout;
+            var1 = undefined;
+            var3 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal._queue;
-                    michal = michal.length;
-                    zuuluu = 0;
-                    if(!(michal > zuuluu)) { _fun00002_ip = 155; continue _fun00001 }
+                    var2 = _closure3_slot0;
+                    var2 = var2._queue;
+                    var2 = var2.length;
+                    var3 = 0;
+                    if(!(var2 > var3)) { _fun0001_ip = 155; continue _fun0001 }
  27:
-                    michal = _closure3_slot0;
-                    michal = michal._tokenCount;
-                    if(!(michal > zuuluu)) { _fun00002_ip = 155; continue _fun00001 }
+                    var2 = _closure3_slot0;
+                    var2 = var2._tokenCount;
+                    if(!(var2 > var3)) { _fun0001_ip = 155; continue _fun0001 }
  41:
-                    michal = _closure3_slot0;
-                    zuuluu = michal._tokenCount;
-                    zuuluu = zuuluu - 1;
-                    michal['_tokenCount'] = zuuluu;
-                    zuuluu = michal._intervalID;
-                    michal = null;
-                    if(!(michal == zuuluu)) { _fun00002_ip = 111; continue _fun00001 }
+                    var2 = _closure3_slot0;
+                    var3 = var2._tokenCount;
+                    var3 = var3 - 1;
+                    var2['_tokenCount'] = var3;
+                    var3 = var2._intervalID;
+                    var2 = null;
+                    if(!(var2 == var3)) { _fun0001_ip = 111; continue _fun0001 }
  72:
-                    tangon = _closure3_slot0;
-                    zuuluu = global;
-                    golfie = zuuluu.setInterval;
-                    oscard = tangon._intervalPeriod;
-                    report = undefined;
-                    zuuluu = function() {
-                        michal = _closure3_slot0;
-                        entity = michal._iterate;
-                        entity = entity.bind(michal)();
-                        return entity;
+                    var4 = _closure3_slot0;
+                    var3 = global;
+                    var7 = var3.setInterval;
+                    var6 = var4._intervalPeriod;
+                    var5 = undefined;
+                    var3 = function() {
+                        var2 = _closure3_slot0;
+                        var1 = var2._iterate;
+                        var1 = var1.bind(var2)();
+                        return var1;
                     };
-                    zuuluu = golfie.bind(report)(zuuluu, oscard);
-                    tangon['_intervalID'] = zuuluu;
+                    var3 = var7.bind(var5)(var3, var6);
+                    var4['_intervalID'] = var3;
  111:
-                    zuuluu = _closure3_slot0;
-                    tangon = zuuluu._queue;
-                    zuuluu = tangon.shift;
-                    zuuluu = zuuluu.bind(tangon)();
-                    if(!(michal != zuuluu)) { _fun00002_ip = 141; continue _fun00001 }
+                    var3 = _closure3_slot0;
+                    var4 = var3._queue;
+                    var3 = var4.shift;
+                    var3 = var3.bind(var4)();
+                    if(!(var2 != var3)) { _fun0001_ip = 141; continue _fun0001 }
  135:
-                    michal = undefined;
-                    michal = zuuluu.bind(michal)();
+                    var2 = undefined;
+                    var2 = var3.bind(var2)();
  141:
-                    michal = _closure3_slot0;
-                    entity = michal._processQueue;
-                    entity = entity.bind(michal)();
+                    var2 = _closure3_slot0;
+                    var1 = var2._processQueue;
+                    var1 = var1.bind(var2)();
  155:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = 0;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var2 = 0;
+            var2 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = '_iterate';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = '_iterate';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                entity = global;
-                oscard = entity.Math;
-                report = oscard.min;
-                tangon = michal._capacity;
-                golfie = michal._tokenCount;
-                zuuluu = 1;
-                zuuluu = golfie + zuuluu;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
-                michal['_tokenCount'] = zuuluu;
-                tangon = michal._tokenCount;
-                zuuluu = michal._capacity;
-                zuuluu = tangon >= zuuluu;
-                if(!zuuluu) { _fun00004_ip = 78; continue _fun00003 }
+                var2 = this;
+                var1 = global;
+                var6 = var1.Math;
+                var5 = var6.min;
+                var4 = var2._capacity;
+                var7 = var2._tokenCount;
+                var3 = 1;
+                var3 = var7 + var3;
+                var3 = var5.bind(var6)(var4, var3);
+                var2['_tokenCount'] = var3;
+                var4 = var2._tokenCount;
+                var3 = var2._capacity;
+                var3 = var4 >= var3;
+                if(!var3) { _fun0002_ip = 78; continue _fun0002 }
  66:
-                report = michal._intervalID;
-                tangon = null;
-                zuuluu = tangon != report;
+                var5 = var2._intervalID;
+                var4 = null;
+                var3 = var4 != var5;
  78:
-                if(!zuuluu) { _fun00004_ip = 108; continue _fun00003 }
+                if(!var3) { _fun0002_ip = 108; continue _fun0002 }
  81:
-                tangon = entity.clearInterval;
-                zuuluu = michal._intervalID;
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                entity = null;
-                michal['_intervalID'] = entity;
+                var4 = var1.clearInterval;
+                var3 = var2._intervalID;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = null;
+                var2['_intervalID'] = var1;
  108:
-                entity = michal._processQueue;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+                var1 = var2._processQueue;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'process';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = this;
-            var _closure3_slot0 = michal;
-            michal = global;
-            zuuluu = michal.Promise;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            tangon = function(argFoo) {
-                michal = _closure3_slot0;
-                tangon = michal._queue;
-                zuuluu = tangon.push;
-                entity = argFoo;
-                entity = zuuluu.bind(tangon)(entity);
-                entity = michal._processQueue;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'process';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var2 = global;
+            var3 = var2.Promise;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var4 = function(arg1) {
+                var2 = _closure3_slot0;
+                var4 = var2._queue;
+                var3 = var4.push;
+                var1 = arg1;
+                var1 = var3.bind(var4)(var1);
+                var1 = var2._processQueue;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
             };
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/leaky-bucket/LeakyBucket.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/leaky-bucket/LeakyBucket.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

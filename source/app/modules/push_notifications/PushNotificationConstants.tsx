@@ -1,85 +1,85 @@
 // app/modules/push_notifications/PushNotificationConstants.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        verify = argBar;
-        zuuluu = argFre;
-        offset = argPlu;
-        var _closure1_slot0 = verify;
-        var _closure1_slot1 = offset;
-        entity = global;
-        oscard = entity.Object;
-        report = oscard.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(oscard)(zuuluu, entity, michal);
-        entity = 0;
-        michal = offset[entity];
-        entity = undefined;
-        report = verify.bind(entity)(michal);
-        michal = report.getConstants;
-        michal = michal.bind(report)();
-        report = michal.Identifier;
-        if(report) { _fun00002_ip = 87; continue _fun00001 }
+        var9 = native2;
+        var3 = native6;
+        var10 = native7;
+        var _closure1_slot0 = var9;
+        var _closure1_slot1 = var10;
+        var1 = global;
+        var6 = var1.Object;
+        var5 = var6.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var6)(var3, var1, var2);
+        var1 = 0;
+        var2 = var10[var1];
+        var1 = undefined;
+        var5 = var9.bind(var1)(var2);
+        var2 = var5.getConstants;
+        var2 = var2.bind(var5)();
+        var5 = var2.Identifier;
+        if(var5) { _fun0001_ip = 87; continue _fun0001 }
  83:
-        report = '';
+        var5 = '';
  87:
-        oscard = report.startsWith;
-        michal = 'com.discord.kodiak';
-        michal = oscard.bind(report)(michal);
-        oscard = 'apns';
-        golfie = report;
-        if(!michal) { _fun00002_ip = 122; continue _fun00001 }
+        var6 = var5.startsWith;
+        var2 = 'com.discord.kodiak';
+        var2 = var6.bind(var5)(var2);
+        var6 = 'apns';
+        var7 = var5;
+        if(!var2) { _fun0001_ip = 122; continue _fun0001 }
  116:
-        oscard = 'apns_internal';
+        var6 = 'apns_internal';
  122:
-        var _closure1_slot2 = oscard;
-        report = 'apns_voip';
-        if(!michal) { _fun00002_ip = 141; continue _fun00001 }
+        var _closure1_slot2 = var6;
+        var5 = 'apns_voip';
+        if(!var2) { _fun0001_ip = 141; continue _fun0001 }
  135:
-        report = 'apns_internal_voip';
+        var5 = 'apns_internal_voip';
  141:
-        michal = {};
-        option = 'reminder';
-        michal['REMINDER'] = option;
-        option = 'top_messages_push';
-        michal['TOP_MESSAGE_PUSH'] = option;
-        option = 'trending_content_push';
-        michal['TRENDING_CONTENT_PUSH'] = option;
-        option = 2;
-        option = offset[option];
-        offset = verify.bind(entity)(option);
-        verify = offset.fileFinishedImporting;
-        option = 'modules/push_notifications/PushNotificationConstants.tsx';
-        option = verify.bind(offset)(option);
-        zuuluu['BUNDLE_ID'] = golfie;
-        golfie = 'gcm';
-        zuuluu['DEVICE_PUSH_PROVIDER_ANDROID'] = golfie;
-        zuuluu['DEVICE_PUSH_PROVIDER_IOS'] = oscard;
-        zuuluu['DEVICE_PUSH_VOIP_PROVIDER'] = report;
-        tangon = function() { // Original name: getDevicePushProvider
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var2 = {};
+        var8 = 'reminder';
+        var2['REMINDER'] = var8;
+        var8 = 'top_messages_push';
+        var2['TOP_MESSAGE_PUSH'] = var8;
+        var8 = 'trending_content_push';
+        var2['TRENDING_CONTENT_PUSH'] = var8;
+        var8 = 2;
+        var8 = var10[var8];
+        var10 = var9.bind(var1)(var8);
+        var9 = var10.fileFinishedImporting;
+        var8 = 'modules/push_notifications/PushNotificationConstants.tsx';
+        var8 = var9.bind(var10)(var8);
+        var3['BUNDLE_ID'] = var7;
+        var7 = 'gcm';
+        var3['DEVICE_PUSH_PROVIDER_ANDROID'] = var7;
+        var3['DEVICE_PUSH_PROVIDER_IOS'] = var6;
+        var3['DEVICE_PUSH_VOIP_PROVIDER'] = var5;
+        var4 = function getDevicePushProvider() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                entity = zuuluu.isAndroid;
-                zuuluu = entity.bind(zuuluu)();
-                entity = 'gcm';
-                if(zuuluu) { _fun00004_ip = 47; continue _fun00003 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var1 = var3.isAndroid;
+                var3 = var1.bind(var3)();
+                var1 = 'gcm';
+                if(var3) { _fun0002_ip = 47; continue _fun0002 }
  43:
-                entity = _closure1_slot2;
+                var1 = _closure1_slot2;
  47:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['getDevicePushProvider'] = tangon;
-        zuuluu['NotificationTypes'] = michal;
-        return entity;
+        var3['getDevicePushProvider'] = var4;
+        var3['NotificationTypes'] = var2;
+        return var1;
     }
 })();

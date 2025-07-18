@@ -1,90 +1,90 @@
 // app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    offset = tangon.MIN_HEADER_HEIGHT;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot1 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center'};
-    yankee = 4;
-    romeon = oscard[yankee];
-    yankee = argBaz;
-    yankee = yankee.bind(entity)(romeon);
-    yankee = yankee.spacing;
-    yankee = yankee.PX_8;
-    verify['padding'] = yankee;
-    verify['height'] = offset;
-    verify['width'] = offset;
-    tangon['buttonWrapper'] = verify;
-    verify = {};
-    offset = -8;
-    verify['marginLeft'] = offset;
-    tangon['buttonWrapperModal'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: PressableNavigatorButtonWrapper
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var10 = var4.MIN_HEADER_HEIGHT;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot1 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center'};
+    var11 = 4;
+    var12 = var6[var11];
+    var11 = native3;
+    var11 = var11.bind(var1)(var12);
+    var11 = var11.spacing;
+    var11 = var11.PX_8;
+    var9['padding'] = var11;
+    var9['height'] = var10;
+    var9['width'] = var10;
+    var4['buttonWrapper'] = var9;
+    var9 = {};
+    var10 = -8;
+    var9['marginLeft'] = var10;
+    var4['buttonWrapperModal'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function PressableNavigatorButtonWrapper(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.children;
-            oscard = entity.isModal;
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00002_ip = 22; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.children;
+            var6 = var1.isModal;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            oscard = false;
+            var6 = false;
  22:
-            michal = _closure1_slot2;
-            golfie = michal.bind(tangon)();
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot0;
-            entity = {};
-            option = false;
-            entity['collapsable'] = option;
-            if(oscard) { _fun00002_ip = 61; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var7 = var2.bind(var4)();
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot0;
+            var1 = {};
+            var8 = false;
+            var1['collapsable'] = var8;
+            if(var6) { _fun0001_ip = 61; continue _fun0001 }
  53:
-            oscard = golfie.buttonWrapper;
-            _fun00002_ip = 67; continue _fun00001;
+            var6 = var7.buttonWrapper;
+            _fun0001_ip = 67; continue _fun0001;
  61:
-            oscard = golfie.buttonWrapperModal;
+            var6 = var7.buttonWrapperModal;
  67:
-            entity['style'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['style'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

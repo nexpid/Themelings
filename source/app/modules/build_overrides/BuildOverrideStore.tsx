@@ -1,379 +1,379 @@
 // app/modules/build_overrides/BuildOverrideStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot12 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot12 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot12 = entity;
-    entity = global;
-    verify = entity.Object;
-    tangon = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(verify)(zuuluu, entity, michal);
-    romeon = 0;
-    michal = golfie[romeon];
-    entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    yankee = 1;
-    michal = golfie[yankee];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    offset = 2;
-    michal = golfie[offset];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    verify = 3;
-    michal = golfie[verify];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = {};
-    michal['NotResolved'] = romeon;
-    tangon = 'NotResolved';
-    michal[romeon] = tangon;
-    michal['Resolving'] = yankee;
-    tangon = 'Resolving';
-    michal[yankee] = tangon;
-    michal['Resolved'] = offset;
-    tangon = 'Resolved';
-    michal[offset] = tangon;
-    michal['Invalid'] = verify;
-    tangon = 'Invalid';
-    michal[verify] = tangon;
-    var _closure1_slot8 = michal;
-    tangon = michal.NotResolved;
-    var _closure1_slot9 = tangon;
-    tangon = null;
-    var _closure1_slot10 = tangon;
-    tangon = {};
-    var _closure1_slot11 = tangon;
-    tangon = 7;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    verify = tangon.Store;
-    tangon = function(argFoo) {
-        tangon = function() { // Original name: BuildOverrideStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var4 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var9)(var3, var1, var2);
+    var12 = 0;
+    var2 = var7[var12];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var11 = 1;
+    var2 = var7[var11];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var10 = 2;
+    var2 = var7[var10];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var9 = 3;
+    var2 = var7[var9];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = {};
+    var2['NotResolved'] = var12;
+    var4 = 'NotResolved';
+    var2[var12] = var4;
+    var2['Resolving'] = var11;
+    var4 = 'Resolving';
+    var2[var11] = var4;
+    var2['Resolved'] = var10;
+    var4 = 'Resolved';
+    var2[var10] = var4;
+    var2['Invalid'] = var9;
+    var4 = 'Invalid';
+    var2[var9] = var4;
+    var _closure1_slot8 = var2;
+    var4 = var2.NotResolved;
+    var _closure1_slot9 = var4;
+    var4 = null;
+    var _closure1_slot10 = var4;
+    var4 = {};
+    var _closure1_slot11 = var4;
+    var4 = 7;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var9 = var4.Store;
+    var4 = function(arg1) {
+        var4 = function BuildOverrideStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot3;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot6;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot5;
-                entity = _closure1_slot12;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot3;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot6;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot5;
+                var1 = _closure1_slot12;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot6;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot6;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot7;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot4;
-        report = {};
-        entity = 'getCurrentBuildOverride';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            michal = function() { // Original name: resolveCurrentOverrideIfNecessary
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot7;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot4;
+        var5 = {};
+        var1 = 'getCurrentBuildOverride';
+        var5['key'] = var1;
+        var1 = function value() {
+            var2 = function resolveCurrentOverrideIfNecessary() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    zuuluu = _closure1_slot9;
-                    michal = _closure1_slot8;
-                    michal = michal.NotResolved;
-                    if(!(zuuluu === michal)) { _fun00006_ip = 84; continue _fun00005 }
+                    var3 = _closure1_slot9;
+                    var2 = _closure1_slot8;
+                    var2 = var2.NotResolved;
+                    if(!(var3 === var2)) { _fun0003_ip = 84; continue _fun0003 }
  21:
-                    michal = _closure1_slot8;
-                    michal = michal.Resolving;
-                    _closure1_slot9 = michal;
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.getBuildOverride;
-                    zuuluu = entity.bind(michal)();
-                    michal = zuuluu.then;
-                    entity = function(argFoo) {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 6;
-                        michal = michal[entity];
-                        entity = undefined;
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.dispatch;
-                        michal = {};
-                        report = 'CURRENT_BUILD_OVERRIDE_RESOLVED';
-                        michal['type'] = report;
-                        report = argFoo;
-                        michal['overrides'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                    var2 = _closure1_slot8;
+                    var2 = var2.Resolving;
+                    _closure1_slot9 = var2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.getBuildOverride;
+                    var3 = var1.bind(var2)();
+                    var2 = var3.then;
+                    var1 = function(arg1) {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 6;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.dispatch;
+                        var2 = {};
+                        var5 = 'CURRENT_BUILD_OVERRIDE_RESOLVED';
+                        var2['type'] = var5;
+                        var5 = arg1;
+                        var2['overrides'] = var5;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
+                    var1 = var2.bind(var3)(var1);
  84:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = undefined;
-            entity = michal.bind(entity)();
-            entity = {};
-            zuuluu = _closure1_slot9;
-            entity['state'] = zuuluu;
-            michal = _closure1_slot10;
-            entity['overrides'] = michal;
-            return entity;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            var1 = {};
+            var3 = _closure1_slot9;
+            var1['state'] = var3;
+            var2 = _closure1_slot10;
+            var1['overrides'] = var2;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'getBuildOverride';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            michal = argFoo;
-            zuuluu = function(argFoo) { // Original name: resolveBuildOverrideIfNecessary
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getBuildOverride';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = arg1;
+            var3 = function resolveBuildOverrideIfNecessary(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    option = argFoo;
-                    var _closure4_slot0 = option;
-                    michal = _closure1_slot11;
-                    michal = option in michal;
-                    if(michal) { _fun00008_ip = 236; continue _fun00007 }
+                    var8 = arg1;
+                    var _closure4_slot0 = var8;
+                    var2 = _closure1_slot11;
+                    var2 = var8 in var2;
+                    if(var2) { _fun0004_ip = 236; continue _fun0004 }
  26:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    oscard = 5;
-                    michal = michal[oscard];
-                    report = undefined;
-                    tangon = tangon.bind(report)(michal);
-                    michal = tangon.validateURL;
-                    michal = michal.bind(tangon)(option);
-                    tangon = null;
-                    if(!(tangon == michal)) { _fun00008_ip = 112; continue _fun00007 }
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var6 = 5;
+                    var2 = var2[var6];
+                    var5 = undefined;
+                    var4 = var4.bind(var5)(var2);
+                    var2 = var4.validateURL;
+                    var2 = var2.bind(var4)(var8);
+                    var4 = null;
+                    if(!(var4 == var2)) { _fun0004_ip = 112; continue _fun0004 }
  65:
-                    tangon = {};
-                    yankee = _closure1_slot11;
-                    romeon = tangon;
-                    golfie = copyDataProperties(romeon, yankee);
-                    golfie = {};
-                    golfie['url'] = option;
-                    verify = _closure1_slot8;
-                    verify = verify.Invalid;
-                    golfie['state'] = verify;
-                    tangon[option] = golfie;
-                    _closure1_slot11 = tangon;
-                    _fun00008_ip = 236; continue _fun00007;
+                    var4 = {};
+                    var11 = _closure1_slot11;
+                    var12 = var4;
+                    var7 = copyDataProperties(var12, var11);
+                    var7 = {};
+                    var7['url'] = var8;
+                    var9 = _closure1_slot8;
+                    var9 = var9.Invalid;
+                    var7['state'] = var9;
+                    var4[var8] = var7;
+                    _closure1_slot11 = var4;
+                    _fun0004_ip = 236; continue _fun0004;
  112:
-                    tangon = {};
-                    yankee = _closure1_slot11;
-                    romeon = tangon;
-                    golfie = copyDataProperties(romeon, yankee);
-                    golfie = {};
-                    golfie['url'] = option;
-                    verify = michal.url;
-                    golfie['validatedURL'] = verify;
-                    verify = global;
-                    offset = verify.String;
-                    verify = michal.payload;
-                    verify = offset.bind(report)(verify);
-                    golfie['payload'] = verify;
-                    verify = _closure1_slot8;
-                    verify = verify.Resolving;
-                    golfie['state'] = verify;
-                    tangon[option] = golfie;
-                    _closure1_slot11 = tangon;
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    zuuluu = zuuluu[oscard];
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = tangon.getBuildOverrideMeta;
-                    michal = michal.url;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = zuuluu.then;
-                    entity = function(argFoo) {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 6;
-                        michal = michal[entity];
-                        entity = undefined;
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.dispatch;
-                        michal = {};
-                        report = 'BUILD_OVERRIDE_RESOLVED';
-                        michal['type'] = report;
-                        report = _closure4_slot0;
-                        michal['url'] = report;
-                        report = argFoo;
-                        michal['override'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                    var4 = {};
+                    var11 = _closure1_slot11;
+                    var12 = var4;
+                    var7 = copyDataProperties(var12, var11);
+                    var7 = {};
+                    var7['url'] = var8;
+                    var9 = var2.url;
+                    var7['validatedURL'] = var9;
+                    var9 = global;
+                    var10 = var9.String;
+                    var9 = var2.payload;
+                    var9 = var10.bind(var5)(var9);
+                    var7['payload'] = var9;
+                    var9 = _closure1_slot8;
+                    var9 = var9.Resolving;
+                    var7['state'] = var9;
+                    var4[var8] = var7;
+                    _closure1_slot11 = var4;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var6];
+                    var4 = var4.bind(var5)(var3);
+                    var3 = var4.getBuildOverrideMeta;
+                    var2 = var2.url;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.then;
+                    var1 = function(arg1) {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 6;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.dispatch;
+                        var2 = {};
+                        var5 = 'BUILD_OVERRIDE_RESOLVED';
+                        var2['type'] = var5;
+                        var5 = _closure4_slot0;
+                        var2['url'] = var5;
+                        var5 = arg1;
+                        var2['override'] = var5;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
                     };
-                    entity = michal.bind(zuuluu)(entity);
+                    var1 = var2.bind(var3)(var1);
  236:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            entity = _closure1_slot11;
-            entity = entity[michal];
-            return entity;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = _closure1_slot11;
+            var1 = var1[var2];
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getBuildOverrides';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot11;
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getBuildOverrides';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot11;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    verify = tangon.bind(entity)(verify);
-    tangon = 'BuildOverrideStore';
-    verify['displayName'] = tangon;
-    tangon = 6;
-    tangon = golfie[tangon];
-    kiloes = option.bind(entity)(tangon);
-    tangon = {};
-    offset = function(argFoo) { // Original name: handleBuildOverrideResolved
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var9 = var4.bind(var1)(var9);
+    var4 = 'BuildOverrideStore';
+    var9['displayName'] = var4;
+    var4 = 6;
+    var4 = var7[var4];
+    var15 = var8.bind(var1)(var4);
+    var4 = {};
+    var10 = function handleBuildOverrideResolved(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.url;
-            oscard = entity.override;
-            entity = null;
-            if(!(entity != oscard)) { _fun00010_ip = 35; continue _fun00009 }
+            var1 = arg1;
+            var4 = var1.url;
+            var6 = var1.override;
+            var1 = null;
+            if(!(var1 != var6)) { _fun0005_ip = 35; continue _fun0005 }
  20:
-            entity = _closure1_slot8;
-            golfie = entity.Resolved;
-            _fun00010_ip = 48; continue _fun00009;
+            var1 = _closure1_slot8;
+            var7 = var1.Resolved;
+            _fun0005_ip = 48; continue _fun0005;
  35:
-            entity = _closure1_slot8;
-            golfie = entity.Invalid;
+            var1 = _closure1_slot8;
+            var7 = var1.Invalid;
  48:
-            michal = {};
-            option = _closure1_slot11;
-            verify = michal;
-            zuuluu = copyDataProperties(verify, option);
-            zuuluu = {};
-            report = _closure1_slot11;
-            option = report[tangon];
-            verify = zuuluu;
-            report = copyDataProperties(verify, option);
-            report = 'state';
-            zuuluu[report] = golfie;
-            report = 'override';
-            zuuluu[report] = oscard;
-            michal[tangon] = zuuluu;
-            _closure1_slot11 = michal;
-            entity = undefined;
-            return entity;
+            var2 = {};
+            var8 = _closure1_slot11;
+            var9 = var2;
+            var3 = copyDataProperties(var9, var8);
+            var3 = {};
+            var5 = _closure1_slot11;
+            var8 = var5[var4];
+            var9 = var3;
+            var5 = copyDataProperties(var9, var8);
+            var5 = 'state';
+            var3[var5] = var7;
+            var5 = 'override';
+            var3[var5] = var6;
+            var2[var4] = var3;
+            _closure1_slot11 = var2;
+            var1 = undefined;
+            return var1;
         }
     };
-    tangon['BUILD_OVERRIDE_RESOLVED'] = offset;
-    report = function(argFoo) { // Original name: handleCurrentBuildOverrideResolved
-        entity = argFoo;
-        michal = entity.overrides;
-        zuuluu = _closure1_slot8;
-        zuuluu = zuuluu.Resolved;
-        _closure1_slot9 = zuuluu;
-        _closure1_slot10 = michal;
-        entity = undefined;
-        return entity;
+    var4['BUILD_OVERRIDE_RESOLVED'] = var10;
+    var5 = function handleCurrentBuildOverrideResolved(arg1) {
+        var1 = arg1;
+        var2 = var1.overrides;
+        var3 = _closure1_slot8;
+        var3 = var3.Resolved;
+        _closure1_slot9 = var3;
+        _closure1_slot10 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['CURRENT_BUILD_OVERRIDE_RESOLVED'] = report;
-    report = verify.prototype;
-    report = Object.create(report, {constructor: {value: verify}});
-    sizing = report;
-    backup = tangon;
-    tangon = new sizing[verify](kiloes, backup, foxtra);
-    tangon = tangon instanceof Object ? tangon : report;
-    report = 8;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/build_overrides/BuildOverrideStore.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['State'] = michal;
-    return entity;
+    var4['CURRENT_BUILD_OVERRIDE_RESOLVED'] = var5;
+    var5 = var9.prototype;
+    var5 = Object.create(var5, {constructor: {value: var9}});
+    var16 = var5;
+    var14 = var4;
+    var4 = new var16[var9](var15, var14, var13);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/build_overrides/BuildOverrideStore.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['State'] = var2;
+    return var1;
 })();

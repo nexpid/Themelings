@@ -1,151 +1,151 @@
 // app/modules/emojis/native/utils/EmojiSourceUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativeModules;
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        tangon = _closure1_slot2;
-        zuuluu = undefined;
-        michal = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NativeModules;
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var2 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    tangon = argFoo;
-                    verify = arguments[1];
+                    var4 = arg1;
+                    var9 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 271; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 271; continue _fun0001 }
  16:
-                    oscard = undefined;
-                    if(!(verify === oscard)) { _fun00002_ip = 25; continue _fun00001 }
+                    var6 = undefined;
+                    if(!(var9 === var6)) { _fun0001_ip = 25; continue _fun0001 }
  22:
-                    verify = 32;
+                    var9 = 32;
  25:
                     SaveGenerator(address=29);
  27:
-                    return oscard;
+                    return var6;
  29:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 268; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 268; continue _fun0001 }
  38:
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot1;
-                    report = 2;
-                    report = option[report];
-                    yankee = golfie.bind(oscard)(report);
-                    offset = yankee.getEmojiUrl;
-                    option = {};
-                    foxtra = tangon.name;
-                    report = null;
-                    backup = report != foxtra;
-                    golfie = '';
-                    romeon = golfie;
-                    if(!backup) { _fun00002_ip = 93; continue _fun00001 }
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 2;
+                    var5 = var8[var5];
+                    var11 = var7.bind(var6)(var5);
+                    var10 = var11.getEmojiUrl;
+                    var8 = {};
+                    var13 = var4.name;
+                    var5 = null;
+                    var14 = var5 != var13;
+                    var7 = '';
+                    var12 = var7;
+                    if(!var14) { _fun0001_ip = 93; continue _fun0001 }
  90:
-                    romeon = foxtra;
+                    var12 = var13;
  93:
-                    option['name'] = romeon;
-                    romeon = tangon.id;
-                    option['id'] = romeon;
-                    romeon = false;
-                    option['animated'] = romeon;
-                    option = offset.bind(yankee)(option, verify);
-                    offset = report != option;
-                    report = golfie;
-                    if(!offset) { _fun00002_ip = 132; continue _fun00001 }
+                    var8['name'] = var12;
+                    var12 = var4.id;
+                    var8['id'] = var12;
+                    var12 = false;
+                    var8['animated'] = var12;
+                    var8 = var10.bind(var11)(var8, var9);
+                    var10 = var5 != var8;
+                    var5 = var7;
+                    if(!var10) { _fun0001_ip = 132; continue _fun0001 }
  129:
-                    report = option;
+                    var5 = var8;
  132:
-                    if(!(golfie === report)) { _fun00002_ip = 234; continue _fun00001 }
+                    if(!(var7 === var5)) { _fun0001_ip = 234; continue _fun0001 }
  136:
-                    golfie = _closure1_slot3;
-                    option = golfie.ImageManager;
-                    golfie = option.getEmojiBase64;
-                    tangon = tangon.name;
-                    tangon = golfie.bind(option)(tangon, verify);
+                    var7 = _closure1_slot3;
+                    var8 = var7.ImageManager;
+                    var7 = var8.getEmojiBase64;
+                    var4 = var4.name;
+                    var4 = var7.bind(var8)(var4, var9);
                     SaveGenerator(address=167);
  165:
-                    return tangon;
+                    return var4;
  167:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 231; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 231; continue _fun0001 }
  173:
-                    option = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    golfie = 3;
-                    golfie = verify[golfie];
-                    verify = option.bind(oscard)(golfie);
-                    option = verify.makeSource;
-                    golfie = global;
-                    golfie = golfie.HermesInternal;
-                    offset = golfie.concat;
-                    golfie = 'data:image/png;base64,';
-                    golfie = offset.bind(golfie)(tangon);
-                    golfie = option.bind(verify)(golfie);
-                    return golfie;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var7 = var9[var7];
+                    var9 = var8.bind(var6)(var7);
+                    var8 = var9.makeSource;
+                    var7 = global;
+                    var7 = var7.HermesInternal;
+                    var10 = var7.concat;
+                    var7 = 'data:image/png;base64,';
+                    var7 = var10.bind(var7)(var4);
+                    var7 = var8.bind(var9)(var7);
+                    return var7;
  231:
-                    return tangon;
+                    return var4;
  234:
-                    tangon = _closure1_slot0;
-                    golfie = _closure1_slot1;
-                    zuuluu = 3;
-                    zuuluu = golfie[zuuluu];
-                    tangon = tangon.bind(oscard)(zuuluu);
-                    zuuluu = tangon.makeSource;
-                    zuuluu = zuuluu.bind(tangon)(report);
-                    return zuuluu;
+                    var4 = _closure1_slot0;
+                    var7 = _closure1_slot1;
+                    var3 = 3;
+                    var3 = var7[var3];
+                    var4 = var4.bind(var6)(var3);
+                    var3 = var4.makeSource;
+                    var3 = var3.bind(var4)(var5);
+                    return var3;
  268:
-                    return michal;
+                    return var2;
  271:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function() {
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emojis/native/utils/EmojiSourceUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['getEmojiSource'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emojis/native/utils/EmojiSourceUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['getEmojiSource'] = var2;
+    return var1;
 })();

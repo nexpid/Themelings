@@ -1,456 +1,456 @@
 // app/modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: createHandoffTokenWithLoadingModal
-        michal = argFoo;
-        zuuluu = michal.nonce;
-        var _closure2_slot0 = zuuluu;
-        zuuluu = michal.fingerprint;
-        var _closure2_slot1 = zuuluu;
-        michal = michal.handoffSource;
-        var _closure2_slot2 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function createHandoffTokenWithLoadingModal(arg1) {
+        var2 = arg1;
+        var3 = var2.nonce;
+        var _closure2_slot0 = var3;
+        var3 = var2.fingerprint;
+        var _closure2_slot1 = var3;
+        var2 = var2.handoffSource;
+        var _closure2_slot2 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                golfie = argFoo;
-                var _closure3_slot0 = golfie;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 3;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                report = tangon.bind(entity)(zuuluu);
-                tangon = report.popWithKey;
-                zuuluu = _closure1_slot8;
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = _closure1_slot4;
-                zuuluu = tangon.isAuthenticated;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00002_ip = 187; continue _fun00001 }
+                var7 = arg1;
+                var _closure3_slot0 = var7;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 3;
+                var3 = var3[var1];
+                var1 = undefined;
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.popWithKey;
+                var3 = _closure1_slot8;
+                var3 = var4.bind(var5)(var3);
+                var4 = _closure1_slot4;
+                var3 = var4.isAuthenticated;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0001_ip = 187; continue _fun0001 }
  66:
-                tangon = _closure1_slot1;
-                yankee = _closure1_slot2;
-                zuuluu = 6;
-                zuuluu = yankee[zuuluu];
-                verify = tangon.bind(entity)(zuuluu);
-                option = verify.track;
-                zuuluu = _closure1_slot5;
-                report = zuuluu.MOBILE_WEB_HANDOFF_FAILURE;
-                tangon = {};
-                zuuluu = 'user_not_authenticated_in_app';
-                tangon['reason'] = zuuluu;
-                offset = _closure1_slot0;
-                zuuluu = 7;
-                zuuluu = yankee[zuuluu];
-                romeon = offset.bind(entity)(zuuluu);
-                yankee = romeon.maybeExtractId;
-                offset = _closure2_slot1;
-                yankee = yankee.bind(romeon)(offset);
-                tangon['fingerprint'] = yankee;
-                zuuluu = _closure2_slot2;
-                tangon['handoff_source'] = zuuluu;
-                zuuluu = {};
-                zuuluu['fingerprint'] = offset;
-                zuuluu = option.bind(verify)(report, tangon, zuuluu);
-                zuuluu = 'null';
-                zuuluu = golfie.bind(entity)(zuuluu);
-                _fun00002_ip = 250; continue _fun00001;
+                var4 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var3 = 6;
+                var3 = var11[var3];
+                var9 = var4.bind(var1)(var3);
+                var8 = var9.track;
+                var3 = _closure1_slot5;
+                var5 = var3.MOBILE_WEB_HANDOFF_FAILURE;
+                var4 = {};
+                var3 = 'user_not_authenticated_in_app';
+                var4['reason'] = var3;
+                var10 = _closure1_slot0;
+                var3 = 7;
+                var3 = var11[var3];
+                var12 = var10.bind(var1)(var3);
+                var11 = var12.maybeExtractId;
+                var10 = _closure2_slot1;
+                var11 = var11.bind(var12)(var10);
+                var4['fingerprint'] = var11;
+                var3 = _closure2_slot2;
+                var4['handoff_source'] = var3;
+                var3 = {};
+                var3['fingerprint'] = var10;
+                var3 = var8.bind(var9)(var5, var4, var3);
+                var3 = 'null';
+                var3 = var7.bind(var1)(var3);
+                _fun0001_ip = 250; continue _fun0001;
  187:
-                tangon = _closure1_slot0;
-                report = _closure1_slot2;
-                zuuluu = 4;
-                zuuluu = report[zuuluu];
-                report = tangon.bind(entity)(zuuluu);
-                tangon = report.showSimpleLoadingModal;
-                zuuluu = _closure1_slot8;
-                michal = {};
-                option = function() { // Original name: operation
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = zuuluu.createHandoffToken;
-                    entity = _closure2_slot0;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var3 = 4;
+                var3 = var5[var3];
+                var5 = var4.bind(var1)(var3);
+                var4 = var5.showSimpleLoadingModal;
+                var3 = _closure1_slot8;
+                var2 = {};
+                var8 = function operation() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.createHandoffToken;
+                    var1 = _closure2_slot0;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal['operation'] = option;
-                michal['onResolved'] = golfie;
-                oscard = function() { // Original name: onRejected
-                    tangon = _closure1_slot1;
-                    option = _closure1_slot2;
-                    entity = 6;
-                    zuuluu = option[entity];
-                    entity = undefined;
-                    oscard = tangon.bind(entity)(zuuluu);
-                    report = oscard.track;
-                    zuuluu = _closure1_slot5;
-                    tangon = zuuluu.MOBILE_WEB_HANDOFF_FAILURE;
-                    zuuluu = {};
-                    golfie = 'handoff_token_fetch_failure';
-                    zuuluu['reason'] = golfie;
-                    golfie = _closure1_slot0;
-                    michal = 7;
-                    michal = option[michal];
-                    verify = golfie.bind(entity)(michal);
-                    option = verify.maybeExtractId;
-                    golfie = _closure2_slot1;
-                    option = option.bind(verify)(golfie);
-                    zuuluu['fingerprint'] = option;
-                    michal = _closure2_slot2;
-                    zuuluu['handoff_source'] = michal;
-                    michal = {};
-                    michal['fingerprint'] = golfie;
-                    michal = report.bind(oscard)(tangon, zuuluu, michal);
-                    zuuluu = _closure3_slot0;
-                    michal = 'null';
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                var2['operation'] = var8;
+                var2['onResolved'] = var7;
+                var6 = function onRejected() {
+                    var4 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var1 = 6;
+                    var3 = var8[var1];
+                    var1 = undefined;
+                    var6 = var4.bind(var1)(var3);
+                    var5 = var6.track;
+                    var3 = _closure1_slot5;
+                    var4 = var3.MOBILE_WEB_HANDOFF_FAILURE;
+                    var3 = {};
+                    var7 = 'handoff_token_fetch_failure';
+                    var3['reason'] = var7;
+                    var7 = _closure1_slot0;
+                    var2 = 7;
+                    var2 = var8[var2];
+                    var9 = var7.bind(var1)(var2);
+                    var8 = var9.maybeExtractId;
+                    var7 = _closure2_slot1;
+                    var8 = var8.bind(var9)(var7);
+                    var3['fingerprint'] = var8;
+                    var2 = _closure2_slot2;
+                    var3['handoff_source'] = var2;
+                    var2 = {};
+                    var2['fingerprint'] = var7;
+                    var2 = var5.bind(var6)(var4, var3, var2);
+                    var3 = _closure3_slot0;
+                    var2 = 'null';
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 };
-                michal['onRejected'] = oscard;
-                michal = tangon.bind(report)(zuuluu, michal);
+                var2['onRejected'] = var6;
+                var2 = var4.bind(var5)(var3, var2);
  250:
-                return entity;
+                return var1;
             }
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    entity = function() { // Original name: _redirectWithHandoffToken
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var1;
+    var1 = function _redirectWithHandoffToken() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    yankee = argFoo;
-                    option = arguments[1];
+                    var11 = arg1;
+                    var8 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 447; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 447; continue _fun0002 }
  16:
-                    tangon = undefined;
-                    if(!(option === tangon)) { _fun00004_ip = 24; continue _fun00003 }
+                    var4 = undefined;
+                    if(!(var8 === var4)) { _fun0002_ip = 24; continue _fun0002 }
  22:
-                    option = {};
+                    var8 = {};
  24:
-                    oscard = option.forceExternalBrowser;
-                    if(!(oscard === tangon)) { _fun00004_ip = 36; continue _fun00003 }
+                    var6 = var8.forceExternalBrowser;
+                    if(!(var6 === var4)) { _fun0002_ip = 36; continue _fun0002 }
  34:
-                    oscard = false;
+                    var6 = false;
  36:
-                    zuuluu = null;
-                    golfie = Object.create(zuuluu);
-                    michal = 0;
-                    golfie['forceExternalBrowser'] = michal;
-                    result = {};
-                    output = option;
-                    sizing = golfie;
-                    verify = copyDataProperties(result, output, sizing);
+                    var3 = null;
+                    var7 = Object.create(var3);
+                    var2 = 0;
+                    var7['forceExternalBrowser'] = var2;
+                    var18 = {};
+                    var17 = var8;
+                    var16 = var7;
+                    var9 = copyDataProperties(var18, var17, var16);
                     SaveGenerator(address=64);
  62:
-                    return tangon;
+                    return var4;
  64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 444; continue _fun00003 }
+                    if(var5) { _fun0002_ip = 444; continue _fun0002 }
  73:
-                    option = {};
-                    result = option;
-                    output = verify;
-                    report = copyDataProperties(result, output);
-                    report = verify.nonce;
-                    if(!(zuuluu == report)) { _fun00004_ip = 128; continue _fun00003 }
+                    var8 = {};
+                    var18 = var8;
+                    var17 = var9;
+                    var5 = copyDataProperties(var18, var17);
+                    var5 = var9.nonce;
+                    if(!(var3 == var5)) { _fun0002_ip = 128; continue _fun0002 }
  95:
-                    golfie = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    zuuluu = 5;
-                    zuuluu = offset[zuuluu];
-                    golfie = golfie.bind(tangon)(zuuluu);
-                    zuuluu = golfie.generateNonce;
-                    report = zuuluu.bind(golfie)();
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var10[var3];
+                    var7 = var7.bind(var4)(var3);
+                    var3 = var7.generateNonce;
+                    var5 = var3.bind(var7)();
  128:
-                    zuuluu = 'nonce';
-                    option[zuuluu] = report;
-                    report = _closure1_slot0;
-                    offset = _closure1_slot2;
-                    zuuluu = 8;
-                    zuuluu = offset[zuuluu];
-                    report = report.bind(tangon)(zuuluu);
-                    zuuluu = report.getLoginHandoffSourceFromRedirectTo;
-                    report = zuuluu.bind(report)(yankee);
-                    zuuluu = 'handoffSource';
-                    option[zuuluu] = report;
-                    zuuluu = _closure1_slot9;
-                    zuuluu = zuuluu.bind(tangon)(option);
+                    var3 = 'nonce';
+                    var8[var3] = var5;
+                    var5 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var10[var3];
+                    var5 = var5.bind(var4)(var3);
+                    var3 = var5.getLoginHandoffSourceFromRedirectTo;
+                    var5 = var3.bind(var5)(var11);
+                    var3 = 'handoffSource';
+                    var8[var3] = var5;
+                    var3 = _closure1_slot9;
+                    var3 = var3.bind(var4)(var8);
                     SaveGenerator(address=195);
  193:
-                    return zuuluu;
+                    return var3;
  195:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 441; continue _fun00003 }
+                    if(var5) { _fun0002_ip = 441; continue _fun0002 }
  204:
-                    report = global;
-                    foxtra = report.URL;
-                    romeon = verify.skipLoginRedirect;
-                    offset = true;
-                    report = yankee;
-                    if(!(offset !== romeon)) { _fun00004_ip = 268; continue _fun00003 }
+                    var5 = global;
+                    var13 = var5.URL;
+                    var12 = var9.skipLoginRedirect;
+                    var10 = true;
+                    var5 = var11;
+                    if(!(var10 !== var12)) { _fun0002_ip = 268; continue _fun0002 }
  227:
-                    backup = _closure1_slot1;
-                    kiloes = _closure1_slot2;
-                    romeon = 9;
-                    romeon = kiloes[romeon];
-                    kiloes = backup.bind(tangon)(romeon);
-                    backup = kiloes.makeUrl;
-                    romeon = _closure1_slot7;
-                    romeon = romeon.LOGIN_HANDOFF;
-                    report = backup.bind(kiloes)(romeon);
+                    var14 = _closure1_slot1;
+                    var15 = _closure1_slot2;
+                    var12 = 9;
+                    var12 = var15[var12];
+                    var15 = var14.bind(var4)(var12);
+                    var14 = var15.makeUrl;
+                    var12 = _closure1_slot7;
+                    var12 = var12.LOGIN_HANDOFF;
+                    var5 = var14.bind(var15)(var12);
  268:
-                    romeon = foxtra.prototype;
-                    romeon = Object.create(romeon, {constructor: {value: foxtra}});
-                    echoed = romeon;
-                    result = report;
-                    report = new echoed[foxtra](result, output);
-                    report = report instanceof Object ? report : romeon;
-                    backup = report.searchParams;
-                    foxtra = backup.append;
-                    romeon = 'handoff_token';
-                    romeon = foxtra.bind(backup)(romeon, zuuluu);
-                    verify = verify.skipLoginRedirect;
-                    if(!(offset !== verify)) { _fun00004_ip = 379; continue _fun00003 }
+                    var12 = var13.prototype;
+                    var12 = Object.create(var12, {constructor: {value: var13}});
+                    var19 = var12;
+                    var18 = var5;
+                    var5 = new var19[var13](var18, var17);
+                    var5 = var5 instanceof Object ? var5 : var12;
+                    var14 = var5.searchParams;
+                    var13 = var14.append;
+                    var12 = 'handoff_token';
+                    var12 = var13.bind(var14)(var12, var3);
+                    var9 = var9.skipLoginRedirect;
+                    if(!(var10 !== var9)) { _fun0002_ip = 379; continue _fun0002 }
  325:
-                    romeon = report.searchParams;
-                    offset = romeon.append;
-                    verify = option.nonce;
-                    option = 'handoff_key';
-                    option = offset.bind(romeon)(option, verify);
-                    offset = report.searchParams;
-                    verify = offset.append;
-                    option = 'redirect_to';
-                    option = verify.bind(offset)(option, yankee);
+                    var12 = var5.searchParams;
+                    var10 = var12.append;
+                    var9 = var8.nonce;
+                    var8 = 'handoff_key';
+                    var8 = var10.bind(var12)(var8, var9);
+                    var10 = var5.searchParams;
+                    var9 = var10.append;
+                    var8 = 'redirect_to';
+                    var8 = var9.bind(var10)(var8, var11);
  379:
-                    option = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    golfie = 10;
-                    golfie = verify[golfie];
-                    golfie = option.bind(tangon)(golfie);
-                    if(oscard) { _fun00004_ip = 421; continue _fun00003 }
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var7 = 10;
+                    var7 = var9[var7];
+                    var7 = var8.bind(var4)(var7);
+                    if(var6) { _fun0002_ip = 421; continue _fun0002 }
  402:
-                    option = golfie.performURLNavigation;
-                    oscard = report.href;
-                    oscard = option.bind(golfie)(oscard);
-                    _fun00004_ip = 438; continue _fun00003;
+                    var8 = var7.performURLNavigation;
+                    var6 = var5.href;
+                    var6 = var8.bind(var7)(var6);
+                    _fun0002_ip = 438; continue _fun0002;
  421:
-                    oscard = golfie.openURLExternally;
-                    report = report.href;
-                    report = oscard.bind(golfie)(report);
+                    var6 = var7.openURLExternally;
+                    var5 = var5.href;
+                    var5 = var6.bind(var7)(var5);
  438:
-                    return tangon;
+                    return var4;
  441:
-                    return zuuluu;
+                    return var3;
  444:
-                    return michal;
+                    return var2;
  447:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot10 = entity;
-    entity = function() { // Original name: _redirectDeveloperPortalWithHandoffToken
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function _redirectDeveloperPortalWithHandoffToken() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
-                    zuuluu = arguments[1];
+                    var3 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 301; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 301; continue _fun0003 }
  13:
-                    tangon = undefined;
-                    if(!(zuuluu === tangon)) { _fun00006_ip = 21; continue _fun00005 }
+                    var4 = undefined;
+                    if(!(var3 === var4)) { _fun0003_ip = 21; continue _fun0003 }
  19:
-                    zuuluu = {};
+                    var3 = {};
  21:
                     SaveGenerator(address=25);
  23:
-                    return tangon;
+                    return var4;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 298; continue _fun00005 }
+                    if(var5) { _fun0003_ip = 298; continue _fun0003 }
  34:
-                    golfie = {};
-                    kiloes = golfie;
-                    backup = zuuluu;
-                    report = copyDataProperties(kiloes, backup);
-                    report = zuuluu.nonce;
-                    zuuluu = null;
-                    if(!(zuuluu == report)) { _fun00006_ip = 91; continue _fun00005 }
+                    var7 = {};
+                    var15 = var7;
+                    var14 = var3;
+                    var5 = copyDataProperties(var15, var14);
+                    var5 = var3.nonce;
+                    var3 = null;
+                    if(!(var3 == var5)) { _fun0003_ip = 91; continue _fun0003 }
  58:
-                    oscard = _closure1_slot1;
-                    option = _closure1_slot2;
-                    zuuluu = 5;
-                    zuuluu = option[zuuluu];
-                    oscard = oscard.bind(tangon)(zuuluu);
-                    zuuluu = oscard.generateNonce;
-                    report = zuuluu.bind(oscard)();
+                    var6 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var6 = var6.bind(var4)(var3);
+                    var3 = var6.generateNonce;
+                    var5 = var3.bind(var6)();
  91:
-                    zuuluu = 'nonce';
-                    golfie[zuuluu] = report;
-                    report = _closure1_slot0;
-                    option = _closure1_slot2;
-                    zuuluu = 8;
-                    zuuluu = option[zuuluu];
-                    zuuluu = report.bind(tangon)(zuuluu);
-                    zuuluu = zuuluu.LoginHandoffSource;
-                    report = zuuluu.ROLE_SUBSCRIPTION_SETTING;
-                    zuuluu = 'handoffSource';
-                    golfie[zuuluu] = report;
-                    zuuluu = _closure1_slot9;
-                    zuuluu = zuuluu.bind(tangon)(golfie);
+                    var3 = 'nonce';
+                    var7[var3] = var5;
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var8[var3];
+                    var3 = var5.bind(var4)(var3);
+                    var3 = var3.LoginHandoffSource;
+                    var5 = var3.ROLE_SUBSCRIPTION_SETTING;
+                    var3 = 'handoffSource';
+                    var7[var3] = var5;
+                    var3 = _closure1_slot9;
+                    var3 = var3.bind(var4)(var7);
                     SaveGenerator(address=159);
  157:
-                    return zuuluu;
+                    return var3;
  159:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 295; continue _fun00005 }
+                    if(var5) { _fun0003_ip = 295; continue _fun0003 }
  168:
-                    report = global;
-                    option = report.URL;
-                    verify = report.location;
-                    offset = verify.protocol;
-                    romeon = _closure1_slot6;
-                    yankee = romeon.DEVELOPER_PORTAL_LOGIN_HANDOFF;
-                    verify = golfie.nonce;
-                    golfie = argFoo;
-                    verify = yankee.bind(romeon)(verify, zuuluu, golfie);
-                    report = report.HermesInternal;
-                    golfie = report.concat;
-                    report = '';
-                    kiloes = golfie.bind(report)(offset, verify);
-                    golfie = option.prototype;
-                    golfie = Object.create(golfie, {constructor: {value: option}});
-                    sizing = golfie;
-                    report = new sizing[option](kiloes, backup);
-                    report = report instanceof Object ? report : golfie;
-                    golfie = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 10;
-                    oscard = option[oscard];
-                    golfie = golfie.bind(tangon)(oscard);
-                    oscard = golfie.performURLNavigation;
-                    report = report.href;
-                    report = oscard.bind(golfie)(report);
-                    return tangon;
+                    var5 = global;
+                    var8 = var5.URL;
+                    var9 = var5.location;
+                    var10 = var9.protocol;
+                    var12 = _closure1_slot6;
+                    var11 = var12.DEVELOPER_PORTAL_LOGIN_HANDOFF;
+                    var9 = var7.nonce;
+                    var7 = arg1;
+                    var9 = var11.bind(var12)(var9, var3, var7);
+                    var5 = var5.HermesInternal;
+                    var7 = var5.concat;
+                    var5 = '';
+                    var15 = var7.bind(var5)(var10, var9);
+                    var7 = var8.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var8}});
+                    var16 = var7;
+                    var5 = new var16[var8](var15, var14);
+                    var5 = var5 instanceof Object ? var5 : var7;
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var6 = 10;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var4)(var6);
+                    var6 = var7.performURLNavigation;
+                    var5 = var5.href;
+                    var5 = var6.bind(var7)(var5);
+                    return var4;
  295:
-                    return zuuluu;
+                    return var3;
  298:
-                    return michal;
+                    return var2;
  301:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.AnalyticEvents;
-    var _closure1_slot5 = golfie;
-    golfie = michal.MarketingURLs;
-    var _closure1_slot6 = golfie;
-    michal = michal.Routes;
-    var _closure1_slot7 = michal;
-    michal = 'mweb-handoff';
-    var _closure1_slot8 = michal;
-    michal = {};
-    golfie = function() { // Original name: redirectWithHandoffToken
-        entity = undefined;
-        tangon = _closure1_slot10;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot11 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.AnalyticEvents;
+    var _closure1_slot5 = var7;
+    var7 = var2.MarketingURLs;
+    var _closure1_slot6 = var7;
+    var2 = var2.Routes;
+    var _closure1_slot7 = var2;
+    var2 = 'mweb-handoff';
+    var _closure1_slot8 = var2;
+    var2 = {};
+    var7 = function redirectWithHandoffToken() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    michal['redirectWithHandoffToken'] = golfie;
-    tangon = function() { // Original name: redirectDeveloperPortalWithHandoffToken
-        entity = undefined;
-        tangon = _closure1_slot11;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var2['redirectWithHandoffToken'] = var7;
+    var4 = function redirectDeveloperPortalWithHandoffToken() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    michal['redirectDeveloperPortalWithHandoffToken'] = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['redirectDeveloperPortalWithHandoffToken'] = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/mobile_web_handoff/native/MobileWebHandoffLinking.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

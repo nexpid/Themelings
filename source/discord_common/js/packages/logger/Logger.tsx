@@ -1,669 +1,669 @@
 // discord_common/js/packages/logger/Logger.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = golfie[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = function() { // Original name: log
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var7[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = function log() {
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot4 = michal;
-    michal = function() { // Original name: nativeLog
-        entity = undefined;
-        return entity;
+    var _closure1_slot4 = var2;
+    var2 = function nativeLog() {
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot5 = michal;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function() { // Original name: Logger
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot5 = var2;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function Logger() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = arguments[0];
-                zuuluu = this;
-                var _closure3_slot0 = zuuluu;
-                entity = undefined;
-                if(!(michal === entity)) { _fun00002_ip = 22; continue _fun00001 }
+                var2 = arguments[0];
+                var3 = this;
+                var _closure3_slot0 = var3;
+                var1 = undefined;
+                if(!(var2 === var1)) { _fun0001_ip = 22; continue _fun0001 }
  18:
-                michal = 'default';
+                var2 = 'default';
  22:
-                oscard = _closure1_slot2;
-                report = _closure2_slot0;
-                report = oscard.bind(entity)(zuuluu, report);
-                report = function(argFoo, argBar) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var6 = _closure1_slot2;
+                var5 = _closure2_slot0;
+                var5 = var6.bind(var1)(var3, var5);
+                var5 = function(arg1, arg2) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        oscard = argFoo;
-                        foxtra = 1;
-                        report = copyRestArgs(foxtra);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        entity = option.name;
-                        verify = new Array(3);
-                        verify[0] = entity;
-                        golfie = 'log';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        foxtra = verify;
-                        romeon = report;
-                        yankee = tangon;
-                        entity = arraySpread(foxtra, romeon, yankee);
-                        entity = undefined;
-                        foxtra = offset;
-                        romeon = verify;
-                        yankee = undefined;
-                        verify = apply(foxtra, romeon, yankee);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00004_ip = 152; continue _fun00003 }
+                        var6 = arg1;
+                        var13 = 1;
+                        var5 = copyRestArgs(var13);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var1 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var1;
+                        var7 = 'log';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var13 = var9;
+                        var12 = var5;
+                        var11 = var4;
+                        var1 = arraySpread(var13, var12, var11);
+                        var1 = undefined;
+                        var13 = var10;
+                        var12 = var9;
+                        var11 = undefined;
+                        var9 = apply(var13, var12, var11);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0002_ip = 152; continue _fun0002 }
  88:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00004_ip = 152; continue _fun00003 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0002_ip = 152; continue _fun0002 }
  98:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        foxtra = michal;
-                        romeon = report;
-                        yankee = tangon;
-                        tangon = arraySpread(foxtra, romeon, yankee);
-                        foxtra = zuuluu;
-                        romeon = michal;
-                        yankee = undefined;
-                        michal = apply(foxtra, romeon, yankee);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var13 = var2;
+                        var12 = var5;
+                        var11 = var4;
+                        var4 = arraySpread(var13, var12, var11);
+                        var13 = var3;
+                        var12 = var2;
+                        var11 = undefined;
+                        var2 = apply(var13, var12, var11);
  152:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['logDangerously'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var3['logDangerously'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        oscard = argFoo;
-                        option = 1;
-                        backup = option;
-                        report = copyRestArgs(backup);
-                        tangon = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = tangon.bind(entity)(michal);
-                        tangon = golfie.checkLogForPII;
-                        michal = new Array(1);
-                        michal[0] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = option;
-                        option = arraySpread(backup, foxtra, romeon);
-                        backup = tangon;
-                        foxtra = michal;
-                        romeon = golfie;
-                        michal = apply(backup, foxtra, romeon);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        tangon = option.name;
-                        verify = new Array(3);
-                        verify[0] = tangon;
-                        golfie = 'log';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        backup = verify;
-                        foxtra = report;
-                        romeon = tangon;
-                        yankee = arraySpread(backup, foxtra, romeon);
-                        backup = offset;
-                        foxtra = verify;
-                        romeon = undefined;
-                        verify = apply(backup, foxtra, romeon);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00006_ip = 215; continue _fun00005 }
+                        var6 = arg1;
+                        var8 = 1;
+                        var14 = var8;
+                        var5 = copyRestArgs(var14);
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var2);
+                        var4 = var7.checkLogForPII;
+                        var2 = new Array(1);
+                        var2[0] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var8;
+                        var8 = arraySpread(var14, var13, var12);
+                        var14 = var4;
+                        var13 = var2;
+                        var12 = var7;
+                        var2 = apply(var14, var13, var12);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var4 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var4;
+                        var7 = 'log';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var14 = var9;
+                        var13 = var5;
+                        var12 = var4;
+                        var11 = arraySpread(var14, var13, var12);
+                        var14 = var10;
+                        var13 = var9;
+                        var12 = undefined;
+                        var9 = apply(var14, var13, var12);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0003_ip = 215; continue _fun0003 }
  151:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00006_ip = 215; continue _fun00005 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0003_ip = 215; continue _fun0003 }
  161:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = tangon;
-                        tangon = arraySpread(backup, foxtra, romeon);
-                        backup = zuuluu;
-                        foxtra = michal;
-                        romeon = undefined;
-                        michal = apply(backup, foxtra, romeon);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var4;
+                        var4 = arraySpread(var14, var13, var12);
+                        var14 = var3;
+                        var13 = var2;
+                        var12 = undefined;
+                        var2 = apply(var14, var13, var12);
  215:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['log'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var3['log'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        oscard = argFoo;
-                        foxtra = 1;
-                        report = copyRestArgs(foxtra);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        entity = option.name;
-                        verify = new Array(3);
-                        verify[0] = entity;
-                        golfie = 'debug';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        foxtra = verify;
-                        romeon = report;
-                        yankee = tangon;
-                        entity = arraySpread(foxtra, romeon, yankee);
-                        entity = undefined;
-                        foxtra = offset;
-                        romeon = verify;
-                        yankee = undefined;
-                        verify = apply(foxtra, romeon, yankee);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00008_ip = 152; continue _fun00007 }
+                        var6 = arg1;
+                        var13 = 1;
+                        var5 = copyRestArgs(var13);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var1 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var1;
+                        var7 = 'debug';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var13 = var9;
+                        var12 = var5;
+                        var11 = var4;
+                        var1 = arraySpread(var13, var12, var11);
+                        var1 = undefined;
+                        var13 = var10;
+                        var12 = var9;
+                        var11 = undefined;
+                        var9 = apply(var13, var12, var11);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0004_ip = 152; continue _fun0004 }
  88:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00008_ip = 152; continue _fun00007 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0004_ip = 152; continue _fun0004 }
  98:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        foxtra = michal;
-                        romeon = report;
-                        yankee = tangon;
-                        tangon = arraySpread(foxtra, romeon, yankee);
-                        foxtra = zuuluu;
-                        romeon = michal;
-                        yankee = undefined;
-                        michal = apply(foxtra, romeon, yankee);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var13 = var2;
+                        var12 = var5;
+                        var11 = var4;
+                        var4 = arraySpread(var13, var12, var11);
+                        var13 = var3;
+                        var12 = var2;
+                        var11 = undefined;
+                        var2 = apply(var13, var12, var11);
  152:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['verboseDangerously'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var3['verboseDangerously'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        oscard = argFoo;
-                        option = 1;
-                        backup = option;
-                        report = copyRestArgs(backup);
-                        tangon = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = tangon.bind(entity)(michal);
-                        tangon = golfie.checkLogForPII;
-                        michal = new Array(1);
-                        michal[0] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = option;
-                        option = arraySpread(backup, foxtra, romeon);
-                        backup = tangon;
-                        foxtra = michal;
-                        romeon = golfie;
-                        michal = apply(backup, foxtra, romeon);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        tangon = option.name;
-                        verify = new Array(3);
-                        verify[0] = tangon;
-                        golfie = 'debug';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        backup = verify;
-                        foxtra = report;
-                        romeon = tangon;
-                        yankee = arraySpread(backup, foxtra, romeon);
-                        backup = offset;
-                        foxtra = verify;
-                        romeon = undefined;
-                        verify = apply(backup, foxtra, romeon);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00010_ip = 215; continue _fun00009 }
+                        var6 = arg1;
+                        var8 = 1;
+                        var14 = var8;
+                        var5 = copyRestArgs(var14);
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var2);
+                        var4 = var7.checkLogForPII;
+                        var2 = new Array(1);
+                        var2[0] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var8;
+                        var8 = arraySpread(var14, var13, var12);
+                        var14 = var4;
+                        var13 = var2;
+                        var12 = var7;
+                        var2 = apply(var14, var13, var12);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var4 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var4;
+                        var7 = 'debug';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var14 = var9;
+                        var13 = var5;
+                        var12 = var4;
+                        var11 = arraySpread(var14, var13, var12);
+                        var14 = var10;
+                        var13 = var9;
+                        var12 = undefined;
+                        var9 = apply(var14, var13, var12);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0005_ip = 215; continue _fun0005 }
  151:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00010_ip = 215; continue _fun00009 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0005_ip = 215; continue _fun0005 }
  161:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = tangon;
-                        tangon = arraySpread(backup, foxtra, romeon);
-                        backup = zuuluu;
-                        foxtra = michal;
-                        romeon = undefined;
-                        michal = apply(backup, foxtra, romeon);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var4;
+                        var4 = arraySpread(var14, var13, var12);
+                        var14 = var3;
+                        var13 = var2;
+                        var12 = undefined;
+                        var2 = apply(var14, var13, var12);
  215:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['verbose'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                var3['verbose'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                        oscard = argFoo;
-                        option = 1;
-                        backup = option;
-                        report = copyRestArgs(backup);
-                        tangon = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = tangon.bind(entity)(michal);
-                        tangon = golfie.checkLogForPII;
-                        michal = new Array(1);
-                        michal[0] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = option;
-                        option = arraySpread(backup, foxtra, romeon);
-                        backup = tangon;
-                        foxtra = michal;
-                        romeon = golfie;
-                        michal = apply(backup, foxtra, romeon);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        tangon = option.name;
-                        verify = new Array(3);
-                        verify[0] = tangon;
-                        golfie = 'info';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        backup = verify;
-                        foxtra = report;
-                        romeon = tangon;
-                        yankee = arraySpread(backup, foxtra, romeon);
-                        backup = offset;
-                        foxtra = verify;
-                        romeon = undefined;
-                        verify = apply(backup, foxtra, romeon);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00012_ip = 215; continue _fun00011 }
+                        var6 = arg1;
+                        var8 = 1;
+                        var14 = var8;
+                        var5 = copyRestArgs(var14);
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var2);
+                        var4 = var7.checkLogForPII;
+                        var2 = new Array(1);
+                        var2[0] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var8;
+                        var8 = arraySpread(var14, var13, var12);
+                        var14 = var4;
+                        var13 = var2;
+                        var12 = var7;
+                        var2 = apply(var14, var13, var12);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var4 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var4;
+                        var7 = 'info';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var14 = var9;
+                        var13 = var5;
+                        var12 = var4;
+                        var11 = arraySpread(var14, var13, var12);
+                        var14 = var10;
+                        var13 = var9;
+                        var12 = undefined;
+                        var9 = apply(var14, var13, var12);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0006_ip = 215; continue _fun0006 }
  151:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00012_ip = 215; continue _fun00011 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0006_ip = 215; continue _fun0006 }
  161:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = tangon;
-                        tangon = arraySpread(backup, foxtra, romeon);
-                        backup = zuuluu;
-                        foxtra = michal;
-                        romeon = undefined;
-                        michal = apply(backup, foxtra, romeon);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var4;
+                        var4 = arraySpread(var14, var13, var12);
+                        var14 = var3;
+                        var13 = var2;
+                        var12 = undefined;
+                        var2 = apply(var14, var13, var12);
  215:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['info'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+                var3['info'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                        oscard = argFoo;
-                        option = 1;
-                        backup = option;
-                        report = copyRestArgs(backup);
-                        tangon = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = tangon.bind(entity)(michal);
-                        tangon = golfie.checkLogForPII;
-                        michal = new Array(1);
-                        michal[0] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = option;
-                        option = arraySpread(backup, foxtra, romeon);
-                        backup = tangon;
-                        foxtra = michal;
-                        romeon = golfie;
-                        michal = apply(backup, foxtra, romeon);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        tangon = option.name;
-                        verify = new Array(3);
-                        verify[0] = tangon;
-                        golfie = 'warn';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        backup = verify;
-                        foxtra = report;
-                        romeon = tangon;
-                        yankee = arraySpread(backup, foxtra, romeon);
-                        backup = offset;
-                        foxtra = verify;
-                        romeon = undefined;
-                        verify = apply(backup, foxtra, romeon);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00014_ip = 215; continue _fun00013 }
+                        var6 = arg1;
+                        var8 = 1;
+                        var14 = var8;
+                        var5 = copyRestArgs(var14);
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var2);
+                        var4 = var7.checkLogForPII;
+                        var2 = new Array(1);
+                        var2[0] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var8;
+                        var8 = arraySpread(var14, var13, var12);
+                        var14 = var4;
+                        var13 = var2;
+                        var12 = var7;
+                        var2 = apply(var14, var13, var12);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var4 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var4;
+                        var7 = 'warn';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var14 = var9;
+                        var13 = var5;
+                        var12 = var4;
+                        var11 = arraySpread(var14, var13, var12);
+                        var14 = var10;
+                        var13 = var9;
+                        var12 = undefined;
+                        var9 = apply(var14, var13, var12);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0007_ip = 215; continue _fun0007 }
  151:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00014_ip = 215; continue _fun00013 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0007_ip = 215; continue _fun0007 }
  161:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = tangon;
-                        tangon = arraySpread(backup, foxtra, romeon);
-                        backup = zuuluu;
-                        foxtra = michal;
-                        romeon = undefined;
-                        michal = apply(backup, foxtra, romeon);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var4;
+                        var4 = arraySpread(var14, var13, var12);
+                        var14 = var3;
+                        var13 = var2;
+                        var12 = undefined;
+                        var2 = apply(var14, var13, var12);
  215:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['warn'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                var3['warn'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                        oscard = argFoo;
-                        option = 1;
-                        backup = option;
-                        report = copyRestArgs(backup);
-                        tangon = _closure1_slot0;
-                        michal = _closure1_slot1;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        golfie = tangon.bind(entity)(michal);
-                        tangon = golfie.checkLogForPII;
-                        michal = new Array(1);
-                        michal[0] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = option;
-                        option = arraySpread(backup, foxtra, romeon);
-                        backup = tangon;
-                        foxtra = michal;
-                        romeon = golfie;
-                        michal = apply(backup, foxtra, romeon);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        tangon = option.name;
-                        verify = new Array(3);
-                        verify[0] = tangon;
-                        golfie = 'error';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        backup = verify;
-                        foxtra = report;
-                        romeon = tangon;
-                        yankee = arraySpread(backup, foxtra, romeon);
-                        backup = offset;
-                        foxtra = verify;
-                        romeon = undefined;
-                        verify = apply(backup, foxtra, romeon);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00016_ip = 215; continue _fun00015 }
+                        var6 = arg1;
+                        var8 = 1;
+                        var14 = var8;
+                        var5 = copyRestArgs(var14);
+                        var4 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var2);
+                        var4 = var7.checkLogForPII;
+                        var2 = new Array(1);
+                        var2[0] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var8;
+                        var8 = arraySpread(var14, var13, var12);
+                        var14 = var4;
+                        var13 = var2;
+                        var12 = var7;
+                        var2 = apply(var14, var13, var12);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var4 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var4;
+                        var7 = 'error';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var14 = var9;
+                        var13 = var5;
+                        var12 = var4;
+                        var11 = arraySpread(var14, var13, var12);
+                        var14 = var10;
+                        var13 = var9;
+                        var12 = undefined;
+                        var9 = apply(var14, var13, var12);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0008_ip = 215; continue _fun0008 }
  151:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00016_ip = 215; continue _fun00015 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0008_ip = 215; continue _fun0008 }
  161:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        backup = michal;
-                        foxtra = report;
-                        romeon = tangon;
-                        tangon = arraySpread(backup, foxtra, romeon);
-                        backup = zuuluu;
-                        foxtra = michal;
-                        romeon = undefined;
-                        michal = apply(backup, foxtra, romeon);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var14 = var2;
+                        var13 = var5;
+                        var12 = var4;
+                        var4 = arraySpread(var14, var13, var12);
+                        var14 = var3;
+                        var13 = var2;
+                        var12 = undefined;
+                        var2 = apply(var14, var13, var12);
  215:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['error'] = report;
-                report = function(argFoo, argBar) {
-                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                var3['error'] = var5;
+                var5 = function(arg1, arg2) {
+                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                        oscard = argFoo;
-                        foxtra = 1;
-                        report = copyRestArgs(foxtra);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        entity = option.name;
-                        verify = new Array(3);
-                        verify[0] = entity;
-                        golfie = 'trace';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        foxtra = verify;
-                        romeon = report;
-                        yankee = tangon;
-                        entity = arraySpread(foxtra, romeon, yankee);
-                        entity = undefined;
-                        foxtra = offset;
-                        romeon = verify;
-                        yankee = undefined;
-                        verify = apply(foxtra, romeon, yankee);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00018_ip = 152; continue _fun00017 }
+                        var6 = arg1;
+                        var13 = 1;
+                        var5 = copyRestArgs(var13);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var1 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var1;
+                        var7 = 'trace';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var13 = var9;
+                        var12 = var5;
+                        var11 = var4;
+                        var1 = arraySpread(var13, var12, var11);
+                        var1 = undefined;
+                        var13 = var10;
+                        var12 = var9;
+                        var11 = undefined;
+                        var9 = apply(var13, var12, var11);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0009_ip = 152; continue _fun0009 }
  88:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00018_ip = 152; continue _fun00017 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0009_ip = 152; continue _fun0009 }
  98:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        foxtra = michal;
-                        romeon = report;
-                        yankee = tangon;
-                        tangon = arraySpread(foxtra, romeon, yankee);
-                        foxtra = zuuluu;
-                        romeon = michal;
-                        yankee = undefined;
-                        michal = apply(foxtra, romeon, yankee);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var13 = var2;
+                        var12 = var5;
+                        var11 = var4;
+                        var4 = arraySpread(var13, var12, var11);
+                        var13 = var3;
+                        var12 = var2;
+                        var11 = undefined;
+                        var2 = apply(var13, var12, var11);
  152:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['trace'] = report;
-                report = function(argFoo, argBar) {
-                    michal = global;
-                    zuuluu = michal.Date;
-                    entity = zuuluu.now;
-                    zuuluu = entity.bind(zuuluu)();
-                    tangon = argBar;
-                    entity = undefined;
-                    entity = tangon.bind(entity)();
-                    report = _closure3_slot0;
-                    tangon = report.log;
-                    oscard = michal.Date;
-                    michal = oscard.now;
-                    michal = michal.bind(oscard)();
-                    zuuluu = michal - zuuluu;
-                    michal = argFoo;
-                    michal = tangon.bind(report)(michal, zuuluu);
-                    return entity;
+                var3['trace'] = var5;
+                var5 = function(arg1, arg2) {
+                    var2 = global;
+                    var3 = var2.Date;
+                    var1 = var3.now;
+                    var3 = var1.bind(var3)();
+                    var4 = arg2;
+                    var1 = undefined;
+                    var1 = var4.bind(var1)();
+                    var5 = _closure3_slot0;
+                    var4 = var5.log;
+                    var6 = var2.Date;
+                    var2 = var6.now;
+                    var2 = var2.bind(var6)();
+                    var3 = var2 - var3;
+                    var2 = arg1;
+                    var2 = var4.bind(var5)(var2, var3);
+                    return var1;
                 };
-                zuuluu['time'] = report;
-                tangon = function(argFoo, argBar) {
-                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+                var3['time'] = var5;
+                var4 = function(arg1, arg2) {
+                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                        oscard = argFoo;
-                        foxtra = 1;
-                        report = copyRestArgs(foxtra);
-                        offset = _closure1_slot4;
-                        option = _closure3_slot0;
-                        entity = option.name;
-                        verify = new Array(3);
-                        verify[0] = entity;
-                        golfie = 'file-only';
-                        verify[1] = golfie;
-                        verify[2] = oscard;
-                        tangon = 3;
-                        foxtra = verify;
-                        romeon = report;
-                        yankee = tangon;
-                        entity = arraySpread(foxtra, romeon, yankee);
-                        entity = undefined;
-                        foxtra = offset;
-                        romeon = verify;
-                        yankee = undefined;
-                        verify = apply(foxtra, romeon, yankee);
-                        option = option.nativeLoggerEnabled;
-                        if(!option) { _fun00020_ip = 154; continue _fun00019 }
+                        var6 = arg1;
+                        var13 = 1;
+                        var5 = copyRestArgs(var13);
+                        var10 = _closure1_slot4;
+                        var8 = _closure3_slot0;
+                        var1 = var8.name;
+                        var9 = new Array(3);
+                        var9[0] = var1;
+                        var7 = 'file-only';
+                        var9[1] = var7;
+                        var9[2] = var6;
+                        var4 = 3;
+                        var13 = var9;
+                        var12 = var5;
+                        var11 = var4;
+                        var1 = arraySpread(var13, var12, var11);
+                        var1 = undefined;
+                        var13 = var10;
+                        var12 = var9;
+                        var11 = undefined;
+                        var9 = apply(var13, var12, var11);
+                        var8 = var8.nativeLoggerEnabled;
+                        if(!var8) { _fun0010_ip = 154; continue _fun0010 }
  90:
-                        verify = _closure1_slot5;
-                        option = null;
-                        if(!(option != verify)) { _fun00020_ip = 154; continue _fun00019 }
+                        var9 = _closure1_slot5;
+                        var8 = null;
+                        if(!(var8 != var9)) { _fun0010_ip = 154; continue _fun0010 }
  100:
-                        zuuluu = _closure1_slot5;
-                        michal = _closure3_slot0;
-                        option = michal.name;
-                        michal = new Array(3);
-                        michal[0] = option;
-                        michal[1] = golfie;
-                        michal[2] = oscard;
-                        foxtra = michal;
-                        romeon = report;
-                        yankee = tangon;
-                        tangon = arraySpread(foxtra, romeon, yankee);
-                        foxtra = zuuluu;
-                        romeon = michal;
-                        yankee = undefined;
-                        michal = apply(foxtra, romeon, yankee);
+                        var3 = _closure1_slot5;
+                        var2 = _closure3_slot0;
+                        var8 = var2.name;
+                        var2 = new Array(3);
+                        var2[0] = var8;
+                        var2[1] = var7;
+                        var2[2] = var6;
+                        var13 = var2;
+                        var12 = var5;
+                        var11 = var4;
+                        var4 = arraySpread(var13, var12, var11);
+                        var13 = var3;
+                        var12 = var2;
+                        var11 = undefined;
+                        var2 = apply(var13, var12, var11);
  154:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu['fileOnly'] = tangon;
-                zuuluu['name'] = michal;
-                michal = false;
-                zuuluu['nativeLoggerEnabled'] = michal;
-                return entity;
+                var3['fileOnly'] = var4;
+                var3['name'] = var2;
+                var2 = false;
+                var3['nativeLoggerEnabled'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        report = 'enableNativeLogger';
-        entity['key'] = report;
-        michal = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            entity['nativeLoggerEnabled'] = michal;
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var5 = 'enableNativeLogger';
+        var1['key'] = var5;
+        var2 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['nativeLoggerEnabled'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = '../discord_common/js/packages/logger/Logger.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: setLogFn
-        entity = argFoo;
-        _closure1_slot4 = entity;
-        entity = undefined;
-        return entity;
+    var2 = var2.bind(var1)();
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = '../discord_common/js/packages/logger/Logger.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function setLogFn(arg1) {
+        var1 = arg1;
+        _closure1_slot4 = var1;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setLogFn'] = report;
-    report = function(argFoo) { // Original name: setNativeLogFn
-        entity = argFoo;
-        _closure1_slot5 = entity;
-        entity = undefined;
-        return entity;
+    var3['setLogFn'] = var5;
+    var5 = function setNativeLogFn(arg1) {
+        var1 = arg1;
+        _closure1_slot5 = var1;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setNativeLogFn'] = report;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: defaultLogFn
-        michal = 3;
-        entity = copyRestArgs(michal);
-        entity = undefined;
-        return entity;
+    var3['setNativeLogFn'] = var5;
+    var4 = function defaultLogFn(arg1, arg2, arg3, arg4) {
+        var2 = 3;
+        var1 = copyRestArgs(var2);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['defaultLogFn'] = tangon;
-    zuuluu['Logger'] = michal;
-    return entity;
+    var3['defaultLogFn'] = var4;
+    var3['Logger'] = var2;
+    return var1;
 })();

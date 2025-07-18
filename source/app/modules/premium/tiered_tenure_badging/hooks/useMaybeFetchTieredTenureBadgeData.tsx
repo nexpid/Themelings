@@ -1,102 +1,102 @@
 // app/modules/premium/tiered_tenure_badging/hooks/useMaybeFetchTieredTenureBadgeData.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PremiumTypes;
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/tiered_tenure_badging/hooks/useMaybeFetchTieredTenureBadgeData.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useMaybeFetchTieredTenureBadgeData
-        oscard = _closure1_slot0;
-        report = _closure1_slot2;
-        entity = 2;
-        tangon = report[entity];
-        entity = undefined;
-        verify = oscard.bind(entity)(tangon);
-        option = verify.useStateFromStores;
-        tangon = _closure1_slot3;
-        golfie = new Array(1);
-        golfie[0] = tangon;
-        tangon = function() {
-            michal = _closure1_slot3;
-            entity = michal.getCurrentUser;
-            entity = entity.bind(michal)();
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PremiumTypes;
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/tiered_tenure_badging/hooks/useMaybeFetchTieredTenureBadgeData.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useMaybeFetchTieredTenureBadgeData() {
+        var6 = _closure1_slot0;
+        var5 = _closure1_slot2;
+        var1 = 2;
+        var4 = var5[var1];
+        var1 = undefined;
+        var9 = var6.bind(var1)(var4);
+        var8 = var9.useStateFromStores;
+        var4 = _closure1_slot3;
+        var7 = new Array(1);
+        var7[0] = var4;
+        var4 = function() {
+            var2 = _closure1_slot3;
+            var1 = var2.getCurrentUser;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        tangon = option.bind(verify)(golfie, tangon);
-        var _closure2_slot0 = tangon;
-        tangon = 3;
-        tangon = report[tangon];
-        golfie = oscard.bind(entity)(tangon);
-        oscard = golfie.useIsPremiumSubscriber;
-        tangon = _closure1_slot4;
-        tangon = tangon.TIER_2;
-        tangon = oscard.bind(golfie)(tangon);
-        var _closure2_slot1 = tangon;
-        tangon = _closure1_slot1;
-        zuuluu = 4;
-        zuuluu = report[zuuluu];
-        zuuluu = tangon.bind(entity)(zuuluu);
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var4 = var8.bind(var9)(var7, var4);
+        var _closure2_slot0 = var4;
+        var4 = 3;
+        var4 = var5[var4];
+        var7 = var6.bind(var1)(var4);
+        var6 = var7.useIsPremiumSubscriber;
+        var4 = _closure1_slot4;
+        var4 = var4.TIER_2;
+        var4 = var6.bind(var7)(var4);
+        var _closure2_slot1 = var4;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var3 = var5[var3];
+        var3 = var4.bind(var1)(var3);
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                tangon = null;
-                report = tangon == entity;
-                entity = undefined;
-                zuuluu = undefined;
-                if(report) { _fun00002_ip = 29; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var4 = null;
+                var5 = var4 == var1;
+                var1 = undefined;
+                var3 = undefined;
+                if(var5) { _fun0001_ip = 29; continue _fun0001 }
  20:
-                report = _closure2_slot0;
-                zuuluu = report.id;
+                var5 = _closure2_slot0;
+                var3 = var5.id;
  29:
-                zuuluu = tangon != zuuluu;
-                if(!zuuluu) { _fun00002_ip = 40; continue _fun00001 }
+                var3 = var4 != var3;
+                if(!var3) { _fun0001_ip = 40; continue _fun0001 }
  36:
-                zuuluu = _closure2_slot1;
+                var3 = _closure2_slot1;
  40:
-                if(!zuuluu) { _fun00002_ip = 80; continue _fun00001 }
+                if(!var3) { _fun0001_ip = 80; continue _fun0001 }
  43:
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                zuuluu = 5;
-                zuuluu = report[zuuluu];
-                zuuluu = tangon.bind(entity)(zuuluu);
-                michal = _closure2_slot0;
-                michal = michal.id;
-                michal = zuuluu.bind(entity)(michal);
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 5;
+                var3 = var5[var3];
+                var3 = var4.bind(var1)(var3);
+                var2 = _closure2_slot0;
+                var2 = var2.id;
+                var2 = var3.bind(var1)(var2);
  80:
-                return entity;
+                return var1;
             }
         };
-        michal = zuuluu.bind(entity)(michal);
-        return entity;
+        var2 = var3.bind(var1)(var2);
+        return var1;
     };
-    zuuluu['useMaybeFetchTieredTenureBadgeData'] = michal;
-    return entity;
+    var3['useMaybeFetchTieredTenureBadgeData'] = var2;
+    return var1;
 })();

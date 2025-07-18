@@ -1,163 +1,163 @@
 // app/modules/experiments/client_override_hooks/useExperimentAssignments.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/experiments/client_override_hooks/useExperimentAssignments.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useExperimentAssignment
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 2;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot2;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot3;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/experiments/client_override_hooks/useExperimentAssignments.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useExperimentAssignment(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 2;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot2;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot3;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                report = entity.system;
-                oscard = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 3;
-                entity = michal[entity];
-                michal = undefined;
-                entity = oscard.bind(michal)(entity);
-                entity = entity.ExperimentSystem;
-                entity = entity.LEGACY;
-                if(!(report !== entity)) { _fun00002_ip = 110; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var5 = var1.system;
+                var6 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 3;
+                var1 = var2[var1];
+                var2 = undefined;
+                var1 = var6.bind(var2)(var1);
+                var1 = var1.ExperimentSystem;
+                var1 = var1.LEGACY;
+                if(!(var5 !== var1)) { _fun0001_ip = 110; continue _fun0001 }
  54:
-                option = _closure1_slot3;
-                golfie = option.getAssignment;
-                entity = _closure2_slot0;
-                oscard = entity.kind;
-                report = _closure2_slot1;
-                entity = entity.name;
-                report = golfie.bind(option)(oscard, report, entity);
-                entity = null;
-                oscard = entity == report;
-                entity = undefined;
-                if(oscard) { _fun00002_ip = 108; continue _fun00001 }
+                var8 = _closure1_slot3;
+                var7 = var8.getAssignment;
+                var1 = _closure2_slot0;
+                var6 = var1.kind;
+                var5 = _closure2_slot1;
+                var1 = var1.name;
+                var5 = var7.bind(var8)(var6, var5, var1);
+                var1 = null;
+                var6 = var1 == var5;
+                var1 = undefined;
+                if(var6) { _fun0001_ip = 108; continue _fun0001 }
  102:
-                entity = report.variantId;
+                var1 = var5.variantId;
  108:
-                _fun00002_ip = 154; continue _fun00001;
+                _fun0001_ip = 154; continue _fun0001;
  110:
-                report = _closure1_slot2;
-                tangon = report.getUserExperimentDescriptor;
-                zuuluu = _closure2_slot0;
-                zuuluu = zuuluu.name;
-                zuuluu = tangon.bind(report)(zuuluu);
-                tangon = null;
-                tangon = tangon == zuuluu;
-                michal = undefined;
-                if(tangon) { _fun00002_ip = 151; continue _fun00001 }
+                var5 = _closure1_slot2;
+                var4 = var5.getUserExperimentDescriptor;
+                var3 = _closure2_slot0;
+                var3 = var3.name;
+                var3 = var4.bind(var5)(var3);
+                var4 = null;
+                var4 = var4 == var3;
+                var2 = undefined;
+                if(var4) { _fun0001_ip = 151; continue _fun0001 }
  145:
-                michal = zuuluu.bucket;
+                var2 = var3.bucket;
  151:
-                entity = michal;
+                var1 = var2;
  154:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useExperimentAssignment'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useExperimentServerAssignment
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 2;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot2;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot3;
-        michal[1] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useExperimentAssignment'] = var4;
+    var2 = function useExperimentServerAssignment(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 2;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot2;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot3;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot0;
-                entity = null;
-                michal = entity == michal;
-                if(michal) { _fun00004_ip = 133; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var1 = null;
+                var2 = var1 == var2;
+                if(var2) { _fun0002_ip = 133; continue _fun0002 }
  16:
-                michal = _closure2_slot0;
-                report = michal.system;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 3;
-                oscard = oscard[michal];
-                michal = undefined;
-                michal = golfie.bind(michal)(oscard);
-                michal = michal.ExperimentSystem;
-                michal = michal.LEGACY;
-                if(!(report !== michal)) { _fun00004_ip = 104; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var5 = var2.system;
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 3;
+                var6 = var6[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var6);
+                var2 = var2.ExperimentSystem;
+                var2 = var2.LEGACY;
+                if(!(var5 !== var2)) { _fun0002_ip = 104; continue _fun0002 }
  67:
-                option = _closure1_slot3;
-                golfie = option.getServerAssignment;
-                michal = _closure2_slot0;
-                oscard = michal.kind;
-                report = _closure2_slot1;
-                michal = michal.name;
-                michal = golfie.bind(option)(oscard, report, michal);
-                _fun00004_ip = 130; continue _fun00003;
+                var8 = _closure1_slot3;
+                var7 = var8.getServerAssignment;
+                var2 = _closure2_slot0;
+                var6 = var2.kind;
+                var5 = _closure2_slot1;
+                var2 = var2.name;
+                var2 = var7.bind(var8)(var6, var5, var2);
+                _fun0002_ip = 130; continue _fun0002;
  104:
-                report = _closure1_slot2;
-                tangon = report.getLoadedUserExperiment;
-                zuuluu = _closure2_slot0;
-                zuuluu = zuuluu.name;
-                michal = tangon.bind(report)(zuuluu);
+                var5 = _closure1_slot2;
+                var4 = var5.getLoadedUserExperiment;
+                var3 = _closure2_slot0;
+                var3 = var3.name;
+                var2 = var4.bind(var5)(var3);
  130:
-                entity = michal;
+                var1 = var2;
  133:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useExperimentServerAssignment'] = michal;
-    return entity;
+    var3['useExperimentServerAssignment'] = var2;
+    return var1;
 })();

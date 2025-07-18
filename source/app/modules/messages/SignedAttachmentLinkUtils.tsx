@@ -1,576 +1,576 @@
 // app/modules/messages/SignedAttachmentLinkUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        yankee = argBaz;
-        zuuluu = argFre;
-        option = argPlu;
-        var _closure1_slot0 = golfie;
-        var _closure1_slot1 = yankee;
-        var _closure1_slot2 = option;
-        report = function(argFoo) { // Original name: isAttachmentUrl
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var7 = native2;
+        var11 = native3;
+        var3 = native6;
+        var8 = native7;
+        var _closure1_slot0 = var7;
+        var _closure1_slot1 = var11;
+        var _closure1_slot2 = var8;
+        var5 = function isAttachmentUrl(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = argFoo;
-                var _closure2_slot0 = entity;
-                report = _closure1_slot8;
-                tangon = report.has;
-                entity = entity.hostname;
-                entity = tangon.bind(report)(entity);
-                tangon = global;
-                report = tangon.Array;
-                tangon = report.from;
-                zuuluu = _closure1_slot5;
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.some;
-                michal = function(argFoo) {
-                    entity = _closure2_slot0;
-                    zuuluu = entity.pathname;
-                    michal = zuuluu.startsWith;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var1 = arg1;
+                var _closure2_slot0 = var1;
+                var5 = _closure1_slot8;
+                var4 = var5.has;
+                var1 = var1.hostname;
+                var1 = var4.bind(var5)(var1);
+                var4 = global;
+                var5 = var4.Array;
+                var4 = var5.from;
+                var3 = _closure1_slot5;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.some;
+                var2 = function(arg1) {
+                    var1 = _closure2_slot0;
+                    var3 = var1.pathname;
+                    var2 = var3.startsWith;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = !entity;
-                entity = !zuuluu;
-                if(zuuluu) { _fun00004_ip = 82; continue _fun00003 }
+                var2 = var3.bind(var4)(var2);
+                var3 = !var1;
+                var1 = !var3;
+                if(var3) { _fun0002_ip = 82; continue _fun0002 }
  79:
-                entity = michal;
+                var1 = var2;
  82:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot10 = report;
-        tangon = function(argFoo) { // Original name: getSignedAttachmentExpiration
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure1_slot10 = var5;
+        var4 = function getSignedAttachmentExpiration(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.searchParams;
-                michal = zuuluu.get;
-                entity = 'ex';
-                michal = michal.bind(zuuluu)(entity);
-                entity = global;
-                tangon = entity.parseInt;
-                zuuluu = null;
-                report = zuuluu != michal;
-                zuuluu = '';
-                if(!report) { _fun00006_ip = 49; continue _fun00005 }
+                var1 = arg1;
+                var3 = var1.searchParams;
+                var2 = var3.get;
+                var1 = 'ex';
+                var2 = var2.bind(var3)(var1);
+                var1 = global;
+                var4 = var1.parseInt;
+                var3 = null;
+                var5 = var3 != var2;
+                var3 = '';
+                if(!var5) { _fun0003_ip = 49; continue _fun0003 }
  46:
-                zuuluu = michal;
+                var3 = var2;
  49:
-                report = undefined;
-                michal = 16;
-                zuuluu = tangon.bind(report)(zuuluu, michal);
-                entity = entity.isNaN;
-                michal = entity.bind(report)(zuuluu);
-                entity = undefined;
-                if(michal) { _fun00006_ip = 115; continue _fun00005 }
+                var5 = undefined;
+                var2 = 16;
+                var3 = var4.bind(var5)(var3, var2);
+                var1 = var1.isNaN;
+                var2 = var1.bind(var5)(var3);
+                var1 = undefined;
+                if(var2) { _fun0003_ip = 115; continue _fun0003 }
  76:
-                tangon = _closure1_slot1;
-                oscard = _closure1_slot2;
-                michal = 2;
-                michal = oscard[michal];
-                michal = tangon.bind(report)(michal);
-                michal = michal.Millis;
-                michal = michal.SECOND;
-                entity = zuuluu * michal;
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 2;
+                var2 = var6[var2];
+                var2 = var4.bind(var5)(var2);
+                var2 = var2.Millis;
+                var2 = var2.SECOND;
+                var1 = var3 * var2;
  115:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot11 = tangon;
-        entity = function(argFoo) { // Original name: shouldRefreshAttachmentUrl
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var _closure1_slot11 = var4;
+        var1 = function shouldRefreshAttachmentUrl(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                tangon = _closure1_slot11;
-                zuuluu = undefined;
-                entity = argFoo;
-                zuuluu = tangon.bind(zuuluu)(entity);
-                entity = null;
-                entity = entity == zuuluu;
-                if(entity) { _fun00008_ip = 55; continue _fun00007 }
+                var4 = _closure1_slot11;
+                var3 = undefined;
+                var1 = arg1;
+                var3 = var4.bind(var3)(var1);
+                var1 = null;
+                var1 = var1 == var3;
+                if(var1) { _fun0004_ip = 55; continue _fun0004 }
  26:
-                tangon = global;
-                report = tangon.Date;
-                tangon = report.now;
-                tangon = tangon.bind(report)();
-                michal = _closure1_slot7;
-                michal = tangon + michal;
-                entity = zuuluu <= michal;
+                var4 = global;
+                var5 = var4.Date;
+                var4 = var5.now;
+                var4 = var4.bind(var5)();
+                var2 = _closure1_slot7;
+                var2 = var4 + var2;
+                var1 = var3 <= var2;
  55:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot12 = entity;
-        entity = function(argFoo) { // Original name: isAttachmentExpired
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var _closure1_slot12 = var1;
+        var1 = function isAttachmentExpired(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                entity = 3;
-                entity = tangon[entity];
-                tangon = undefined;
-                report = zuuluu.bind(tangon)(entity);
-                zuuluu = report.toURLSafe;
-                entity = argFoo;
-                entity = entity.url;
-                zuuluu = zuuluu.bind(report)(entity);
-                entity = null;
-                entity = entity != zuuluu;
-                if(!entity) { _fun00010_ip = 62; continue _fun00009 }
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var1 = 3;
+                var1 = var4[var1];
+                var4 = undefined;
+                var5 = var3.bind(var4)(var1);
+                var3 = var5.toURLSafe;
+                var1 = arg1;
+                var1 = var1.url;
+                var3 = var3.bind(var5)(var1);
+                var1 = null;
+                var1 = var1 != var3;
+                if(!var1) { _fun0005_ip = 62; continue _fun0005 }
  53:
-                michal = _closure1_slot12;
-                entity = michal.bind(tangon)(zuuluu);
+                var2 = _closure1_slot12;
+                var1 = var2.bind(var4)(var3);
  62:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot13 = entity;
-        entity = function(argFoo) { // Original name: isEmbedMediaExpiredAttachment
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var _closure1_slot13 = var1;
+        var1 = function isEmbedMediaExpiredAttachment(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                michal = argFoo;
-                entity = null;
-                if(!(entity != michal)) { _fun00012_ip = 89; continue _fun00011 }
+                var2 = arg1;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0006_ip = 89; continue _fun0006 }
  9:
-                oscard = _closure1_slot1;
-                report = _closure1_slot2;
-                tangon = 3;
-                tangon = report[tangon];
-                report = undefined;
-                oscard = oscard.bind(report)(tangon);
-                tangon = oscard.toURLSafe;
-                michal = michal.url;
-                tangon = tangon.bind(oscard)(michal);
-                entity = entity != tangon;
-                if(!entity) { _fun00012_ip = 87; continue _fun00011 }
+                var6 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var4 = 3;
+                var4 = var5[var4];
+                var5 = undefined;
+                var6 = var6.bind(var5)(var4);
+                var4 = var6.toURLSafe;
+                var2 = var2.url;
+                var4 = var4.bind(var6)(var2);
+                var1 = var1 != var4;
+                if(!var1) { _fun0006_ip = 87; continue _fun0006 }
  57:
-                michal = _closure1_slot10;
-                michal = michal.bind(report)(tangon);
-                oscard = !michal;
-                michal = !oscard;
-                if(oscard) { _fun00012_ip = 84; continue _fun00011 }
+                var2 = _closure1_slot10;
+                var2 = var2.bind(var5)(var4);
+                var6 = !var2;
+                var2 = !var6;
+                if(var6) { _fun0006_ip = 84; continue _fun0006 }
  75:
-                zuuluu = _closure1_slot12;
-                michal = zuuluu.bind(report)(tangon);
+                var3 = _closure1_slot12;
+                var2 = var3.bind(var5)(var4);
  84:
-                entity = michal;
+                var1 = var2;
  87:
-                return entity;
+                return var1;
  89:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        var _closure1_slot14 = entity;
-        entity = function(argFoo) { // Original name: embedHasExpiredAttachmentUrl
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var _closure1_slot14 = var1;
+        var1 = function embedHasExpiredAttachmentUrl(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                michal = argFoo;
-                report = _closure1_slot14;
-                entity = michal.image;
-                tangon = undefined;
-                entity = report.bind(tangon)(entity);
-                if(entity) { _fun00014_ip = 61; continue _fun00013 }
+                var2 = arg1;
+                var5 = _closure1_slot14;
+                var1 = var2.image;
+                var4 = undefined;
+                var1 = var5.bind(var4)(var1);
+                if(var1) { _fun0007_ip = 61; continue _fun0007 }
  26:
-                option = michal.images;
-                report = null;
-                oscard = report == option;
-                report = undefined;
-                if(oscard) { _fun00014_ip = 58; continue _fun00013 }
+                var8 = var2.images;
+                var5 = null;
+                var6 = var5 == var8;
+                var5 = undefined;
+                if(var6) { _fun0007_ip = 58; continue _fun0007 }
  43:
-                golfie = option.some;
-                oscard = _closure1_slot14;
-                report = golfie.bind(option)(oscard);
+                var7 = var8.some;
+                var6 = _closure1_slot14;
+                var5 = var7.bind(var8)(var6);
  58:
-                entity = report;
+                var1 = var5;
  61:
-                if(entity) { _fun00014_ip = 79; continue _fun00013 }
+                if(var1) { _fun0007_ip = 79; continue _fun0007 }
  64:
-                zuuluu = _closure1_slot14;
-                michal = michal.video;
-                entity = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot14;
+                var2 = var2.video;
+                var1 = var3.bind(var4)(var2);
  79:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot15 = entity;
-        entity = function() { // Original name: _refreshAttachmentUrl
-            report = undefined;
-            entity = undefined;
-            tangon = _closure1_slot3;
-            zuuluu = function* (argFoo) {
-                entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var _closure1_slot15 = var1;
+        var1 = function _refreshAttachmentUrl() {
+            var5 = undefined;
+            var1 = undefined;
+            var4 = _closure1_slot3;
+            var3 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00016_ip = 151; continue _fun00015 }
+                        if(var2) { _fun0008_ip = 151; continue _fun0008 }
  10:
-                        tangon = _closure1_slot0;
-                        zuuluu = _closure1_slot2;
-                        michal = 4;
-                        michal = zuuluu[michal];
-                        zuuluu = undefined;
-                        michal = tangon.bind(zuuluu)(michal);
-                        report = michal.HTTP;
-                        tangon = report.post;
-                        michal = {};
-                        oscard = _closure1_slot4;
-                        oscard = oscard.ATTACHMENTS_REFRESH_URLS;
-                        michal['url'] = oscard;
-                        oscard = {};
-                        golfie = new Array(1);
-                        option = argFoo;
-                        golfie[0] = option;
-                        oscard['attachment_urls'] = golfie;
-                        michal['body'] = oscard;
-                        oscard = false;
-                        michal['rejectWithError'] = oscard;
-                        michal = tangon.bind(report)(michal);
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 4;
+                        var2 = var3[var2];
+                        var3 = undefined;
+                        var2 = var4.bind(var3)(var2);
+                        var5 = var2.HTTP;
+                        var4 = var5.post;
+                        var2 = {};
+                        var6 = _closure1_slot4;
+                        var6 = var6.ATTACHMENTS_REFRESH_URLS;
+                        var2['url'] = var6;
+                        var6 = {};
+                        var7 = new Array(1);
+                        var8 = arg1;
+                        var7[0] = var8;
+                        var6['attachment_urls'] = var7;
+                        var2['body'] = var6;
+                        var6 = false;
+                        var2['rejectWithError'] = var6;
+                        var2 = var4.bind(var5)(var2);
                         SaveGenerator(address=101);
  99:
-                        return michal;
+                        return var2;
  101:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00016_ip = 148; continue _fun00015 }
+                        if(var4) { _fun0008_ip = 148; continue _fun0008 }
  107:
-                        tangon = michal.ok;
-                        zuuluu = undefined;
-                        if(!tangon) { _fun00016_ip = 145; continue _fun00015 }
+                        var4 = var2.ok;
+                        var3 = undefined;
+                        if(!var4) { _fun0008_ip = 145; continue _fun0008 }
  118:
-                        tangon = michal.body;
-                        report = tangon.refreshed_urls;
-                        tangon = 0;
-                        tangon = report[tangon];
-                        zuuluu = tangon.refreshed;
+                        var4 = var2.body;
+                        var5 = var4.refreshed_urls;
+                        var4 = 0;
+                        var4 = var5[var4];
+                        var3 = var4.refreshed;
  145:
-                        return zuuluu;
+                        return var3;
  148:
-                        return michal;
+                        return var2;
  151:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot16 = tangon;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var4 = var4.bind(var5)(var3);
+            _closure1_slot16 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        var _closure1_slot16 = entity;
-        entity = function() { // Original name: _maybeRefreshAttachmentUrl
-            report = undefined;
-            entity = undefined;
-            tangon = _closure1_slot3;
-            zuuluu = function* (argFoo) {
-                entity = function* (argFoo) { // Original name: ?anon_0_
-                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var _closure1_slot16 = var1;
+        var1 = function _maybeRefreshAttachmentUrl() {
+            var5 = undefined;
+            var1 = undefined;
+            var4 = _closure1_slot3;
+            var3 = function* (arg1) {
+                var1 = function* anon_0_(arg1) {
+                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                         StartGenerator();
-                        michal = argFoo;
+                        var2 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(zuuluu) { _fun00018_ip = 108; continue _fun00017 }
+                        if(var3) { _fun0009_ip = 108; continue _fun0009 }
  10:
-                        oscard = _closure1_slot1;
-                        report = _closure1_slot2;
-                        tangon = 3;
-                        report = report[tangon];
-                        tangon = undefined;
-                        oscard = oscard.bind(tangon)(report);
-                        report = oscard.toURLSafe;
-                        oscard = report.bind(oscard)(michal);
-                        report = null;
-                        if(!(report != oscard)) { _fun00018_ip = 105; continue _fun00017 }
+                        var6 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var4 = 3;
+                        var5 = var5[var4];
+                        var4 = undefined;
+                        var6 = var6.bind(var4)(var5);
+                        var5 = var6.toURLSafe;
+                        var6 = var5.bind(var6)(var2);
+                        var5 = null;
+                        if(!(var5 != var6)) { _fun0009_ip = 105; continue _fun0009 }
  52:
-                        zuuluu = _closure1_slot12;
-                        zuuluu = zuuluu.bind(tangon)(oscard);
-                        if(zuuluu) { _fun00018_ip = 67; continue _fun00017 }
+                        var3 = _closure1_slot12;
+                        var3 = var3.bind(var4)(var6);
+                        if(var3) { _fun0009_ip = 67; continue _fun0009 }
  64:
-                        return michal;
+                        return var2;
  67:
-                        zuuluu = function() { // Original name: refreshAttachmentUrl
-                            entity = undefined;
-                            tangon = _closure1_slot16;
-                            zuuluu = tangon.apply;
-                            entity = arguments;
-                            michal = entity;
-                            entity = this;
-                            entity = zuuluu.bind(tangon)(entity, michal);
-                            return entity;
+                        var3 = function refreshAttachmentUrl() {
+                            var1 = undefined;
+                            var4 = _closure1_slot16;
+                            var3 = var4.apply;
+                            var1 = arguments;
+                            var2 = var1;
+                            var1 = this;
+                            var1 = var3.bind(var4)(var1, var2);
+                            return var1;
                         };
-                        zuuluu = zuuluu.bind(tangon)(michal);
+                        var3 = var3.bind(var4)(var2);
                         SaveGenerator(address=83);
  81:
-                        return zuuluu;
+                        return var3;
  83:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tangon) { _fun00018_ip = 102; continue _fun00017 }
+                        if(var4) { _fun0009_ip = 102; continue _fun0009 }
  89:
-                        tangon = michal;
-                        if(!(report != zuuluu)) { _fun00018_ip = 99; continue _fun00017 }
+                        var4 = var2;
+                        if(!(var5 != var3)) { _fun0009_ip = 99; continue _fun0009 }
  96:
-                        tangon = zuuluu;
+                        var4 = var3;
  99:
-                        return tangon;
+                        return var4;
  102:
-                        return zuuluu;
+                        return var3;
  105:
-                        return michal;
+                        return var2;
  108:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            tangon = tangon.bind(report)(zuuluu);
-            _closure1_slot17 = tangon;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var4 = var4.bind(var5)(var3);
+            _closure1_slot17 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        var _closure1_slot17 = entity;
-        oscard = global;
-        romeon = oscard.Object;
-        offset = romeon.defineProperty;
-        verify = {};
-        entity = true;
-        verify['value'] = entity;
-        entity = '__esModule';
-        entity = offset.bind(romeon)(zuuluu, entity, verify);
-        entity = 0;
-        verify = option[entity];
-        entity = undefined;
-        verify = yankee.bind(entity)(verify);
-        var _closure1_slot3 = verify;
-        offset = 1;
-        verify = option[offset];
-        verify = golfie.bind(entity)(verify);
-        verify = verify.Endpoints;
-        var _closure1_slot4 = verify;
-        romeon = function(argFoo) { // Original name: getHostWithoutPort
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        var _closure1_slot17 = var1;
+        var6 = global;
+        var12 = var6.Object;
+        var10 = var12.defineProperty;
+        var9 = {};
+        var1 = true;
+        var9['value'] = var1;
+        var1 = '__esModule';
+        var1 = var10.bind(var12)(var3, var1, var9);
+        var1 = 0;
+        var9 = var8[var1];
+        var1 = undefined;
+        var9 = var11.bind(var1)(var9);
+        var _closure1_slot3 = var9;
+        var10 = 1;
+        var9 = var8[var10];
+        var9 = var7.bind(var1)(var9);
+        var9 = var9.Endpoints;
+        var _closure1_slot4 = var9;
+        var12 = function getHostWithoutPort(arg1) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                tangon = argFoo;
-                entity = null;
-                michal = entity == tangon;
-                entity = undefined;
-                if(michal) { _fun00020_ip = 34; continue _fun00019 }
+                var4 = arg1;
+                var1 = null;
+                var2 = var1 == var4;
+                var1 = undefined;
+                if(var2) { _fun0010_ip = 34; continue _fun0010 }
  14:
-                zuuluu = tangon.split;
-                michal = ':';
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = 0;
-                entity = zuuluu[michal];
+                var3 = var4.split;
+                var2 = ':';
+                var3 = var3.bind(var4)(var2);
+                var2 = 0;
+                var1 = var3[var2];
  34:
-                return entity;
+                return var1;
             }
         };
-        backup = oscard.Set;
-        verify = backup.prototype;
-        foxtra = Object.create(verify, {constructor: {value: backup}});
-        echoed = ['/attachments/', '/ephemeral-attachments/'];
-        update = foxtra;
-        verify = new update[backup](echoed, result);
-        verify = verify instanceof Object ? verify : foxtra;
-        var _closure1_slot5 = verify;
-        backup = oscard.Set;
-        verify = backup.prototype;
-        foxtra = Object.create(verify, {constructor: {value: backup}});
-        echoed = ['/external/'];
-        update = foxtra;
-        verify = new update[backup](echoed, result);
-        verify = verify instanceof Object ? verify : foxtra;
-        var _closure1_slot6 = verify;
-        sizing = 2;
-        verify = option[sizing];
-        verify = yankee.bind(entity)(verify);
-        verify = verify.Millis;
-        verify = verify.HOUR;
-        verify = offset * verify;
-        var _closure1_slot7 = verify;
-        foxtra = oscard.Set;
-        verify = oscard.window;
-        verify = verify.GLOBAL_ENV;
-        verify = verify.CDN_HOST;
-        yankee = new Array(2);
-        yankee[0] = verify;
-        verify = oscard.window;
-        verify = verify.GLOBAL_ENV;
-        kiloes = verify.MEDIA_PROXY_ENDPOINT;
-        verify = null;
-        backup = verify == kiloes;
-        offset = undefined;
-        if(backup) { _fun00002_ip = 358; continue _fun00001 }
+        var14 = var6.Set;
+        var9 = var14.prototype;
+        var13 = Object.create(var9, {constructor: {value: var14}});
+        var19 = ['/attachments/', '/ephemeral-attachments/'];
+        var20 = var13;
+        var9 = new var20[var14](var19, var18);
+        var9 = var9 instanceof Object ? var9 : var13;
+        var _closure1_slot5 = var9;
+        var14 = var6.Set;
+        var9 = var14.prototype;
+        var13 = Object.create(var9, {constructor: {value: var14}});
+        var19 = ['/external/'];
+        var20 = var13;
+        var9 = new var20[var14](var19, var18);
+        var9 = var9 instanceof Object ? var9 : var13;
+        var _closure1_slot6 = var9;
+        var16 = 2;
+        var9 = var8[var16];
+        var9 = var11.bind(var1)(var9);
+        var9 = var9.Millis;
+        var9 = var9.HOUR;
+        var9 = var10 * var9;
+        var _closure1_slot7 = var9;
+        var13 = var6.Set;
+        var9 = var6.window;
+        var9 = var9.GLOBAL_ENV;
+        var9 = var9.CDN_HOST;
+        var11 = new Array(2);
+        var11[0] = var9;
+        var9 = var6.window;
+        var9 = var9.GLOBAL_ENV;
+        var15 = var9.MEDIA_PROXY_ENDPOINT;
+        var9 = null;
+        var14 = var9 == var15;
+        var10 = undefined;
+        if(var14) { _fun0001_ip = 358; continue _fun0001 }
  347:
-        backup = kiloes.substring;
-        offset = backup.bind(kiloes)(sizing);
+        var14 = var15.substring;
+        var10 = var14.bind(var15)(var16);
  358:
-        yankee[1] = offset;
-        offset = yankee.map;
-        backup = offset.bind(yankee)(romeon);
-        yankee = backup.filter;
-        offset = oscard.Boolean;
-        echoed = yankee.bind(backup)(offset);
-        yankee = foxtra.prototype;
-        yankee = Object.create(yankee, {constructor: {value: foxtra}});
-        update = yankee;
-        offset = new update[foxtra](echoed, result);
-        offset = offset instanceof Object ? offset : yankee;
-        var _closure1_slot8 = offset;
-        offset = oscard.Set;
-        yankee = oscard.window;
-        yankee = yankee.GLOBAL_ENV;
-        kiloes = yankee.IMAGE_PROXY_ENDPOINTS;
-        yankee = verify == kiloes;
-        foxtra = undefined;
-        if(yankee) { _fun00002_ip = 459; continue _fun00001 }
+        var11[1] = var10;
+        var10 = var11.map;
+        var14 = var10.bind(var11)(var12);
+        var11 = var14.filter;
+        var10 = var6.Boolean;
+        var19 = var11.bind(var14)(var10);
+        var11 = var13.prototype;
+        var11 = Object.create(var11, {constructor: {value: var13}});
+        var20 = var11;
+        var10 = new var20[var13](var19, var18);
+        var10 = var10 instanceof Object ? var10 : var11;
+        var _closure1_slot8 = var10;
+        var10 = var6.Set;
+        var11 = var6.window;
+        var11 = var11.GLOBAL_ENV;
+        var15 = var11.IMAGE_PROXY_ENDPOINTS;
+        var11 = var9 == var15;
+        var13 = undefined;
+        if(var11) { _fun0001_ip = 459; continue _fun0001 }
  445:
-        backup = kiloes.split;
-        yankee = ',';
-        foxtra = backup.bind(kiloes)(yankee);
+        var14 = var15.split;
+        var11 = ',';
+        var13 = var14.bind(var15)(var11);
  459:
-        if(!(verify == foxtra)) { _fun00002_ip = 467; continue _fun00001 }
+        if(!(var9 == var13)) { _fun0001_ip = 467; continue _fun0001 }
  463:
-        foxtra = new Array(0);
+        var13 = new Array(0);
  467:
-        yankee = foxtra.map;
-        verify = function(argFoo) {
-            zuuluu = argFoo;
-            michal = zuuluu.substring;
-            entity = 2;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var11 = var13.map;
+        var9 = function(arg1) {
+            var3 = arg1;
+            var2 = var3.substring;
+            var1 = 2;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        yankee = yankee.bind(foxtra)(verify);
-        verify = yankee.map;
-        yankee = verify.bind(yankee)(romeon);
-        verify = yankee.filter;
-        oscard = oscard.Boolean;
-        echoed = verify.bind(yankee)(oscard);
-        verify = offset.prototype;
-        verify = Object.create(verify, {constructor: {value: offset}});
-        update = verify;
-        oscard = new update[offset](echoed, result);
-        oscard = oscard instanceof Object ? oscard : verify;
-        var _closure1_slot9 = oscard;
-        oscard = 5;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'modules/messages/SignedAttachmentLinkUtils.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['isAttachmentUrl'] = report;
-        report = function(argFoo) { // Original name: isExternalProxiedAttachmentUrl
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        var11 = var11.bind(var13)(var9);
+        var9 = var11.map;
+        var11 = var9.bind(var11)(var12);
+        var9 = var11.filter;
+        var6 = var6.Boolean;
+        var19 = var9.bind(var11)(var6);
+        var9 = var10.prototype;
+        var9 = Object.create(var9, {constructor: {value: var10}});
+        var20 = var9;
+        var6 = new var20[var10](var19, var18);
+        var6 = var6 instanceof Object ? var6 : var9;
+        var _closure1_slot9 = var6;
+        var6 = 5;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'modules/messages/SignedAttachmentLinkUtils.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['isAttachmentUrl'] = var5;
+        var5 = function isExternalProxiedAttachmentUrl(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                entity = argFoo;
-                var _closure2_slot0 = entity;
-                report = _closure1_slot9;
-                tangon = report.has;
-                entity = entity.hostname;
-                entity = tangon.bind(report)(entity);
-                tangon = global;
-                report = tangon.Array;
-                tangon = report.from;
-                zuuluu = _closure1_slot6;
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.some;
-                michal = function(argFoo) {
-                    entity = _closure2_slot0;
-                    zuuluu = entity.pathname;
-                    michal = zuuluu.startsWith;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                var1 = arg1;
+                var _closure2_slot0 = var1;
+                var5 = _closure1_slot9;
+                var4 = var5.has;
+                var1 = var1.hostname;
+                var1 = var4.bind(var5)(var1);
+                var4 = global;
+                var5 = var4.Array;
+                var4 = var5.from;
+                var3 = _closure1_slot6;
+                var4 = var4.bind(var5)(var3);
+                var3 = var4.some;
+                var2 = function(arg1) {
+                    var1 = _closure2_slot0;
+                    var3 = var1.pathname;
+                    var2 = var3.startsWith;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = !entity;
-                entity = !zuuluu;
-                if(zuuluu) { _fun00022_ip = 82; continue _fun00021 }
+                var2 = var3.bind(var4)(var2);
+                var3 = !var1;
+                var1 = !var3;
+                if(var3) { _fun0011_ip = 82; continue _fun0011 }
  79:
-                entity = michal;
+                var1 = var2;
  82:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['isExternalProxiedAttachmentUrl'] = report;
-        report = function(argFoo) { // Original name: removeSignedUrlParameters
-            _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+        var3['isExternalProxiedAttachmentUrl'] = var5;
+        var5 = function removeSignedUrlParameters(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                entity = argFoo;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                michal = 3;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                zuuluu = tangon.bind(michal)(zuuluu);
-                michal = zuuluu.toURLSafe;
-                michal = michal.bind(zuuluu)(entity);
-                zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00024_ip = 103; continue _fun00023 }
+                var1 = arg1;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 3;
+                var3 = var3[var2];
+                var2 = undefined;
+                var3 = var4.bind(var2)(var3);
+                var2 = var3.toURLSafe;
+                var2 = var2.bind(var3)(var1);
+                var3 = null;
+                if(!(var3 != var2)) { _fun0012_ip = 103; continue _fun0012 }
  45:
-                report = ['ex', 'is', 'hm'];
-                zuuluu = report.length;
-                tangon = 0;
-                zuuluu = tangon < zuuluu;
-                if(!zuuluu) { _fun00024_ip = 101; continue _fun00023 }
+                var5 = ['ex', 'is', 'hm'];
+                var3 = var5.length;
+                var4 = 0;
+                var3 = var4 < var3;
+                if(!var3) { _fun0012_ip = 101; continue _fun0012 }
  69:
-                golfie = report[tangon];
-                oscard = michal.searchParams;
-                zuuluu = oscard.delete;
-                zuuluu = zuuluu.bind(oscard)(golfie);
-                tangon = tangon + 1;
-                zuuluu = report.length;
-                if(tangon < zuuluu) { _fun00024_ip = 69; continue _fun00023 }
+                var7 = var5[var4];
+                var6 = var2.searchParams;
+                var3 = var6.delete;
+                var3 = var3.bind(var6)(var7);
+                var4 = var4 + 1;
+                var3 = var5.length;
+                if(var4 < var3) { _fun0012_ip = 69; continue _fun0012 }
  101:
-                return michal;
+                return var2;
  103:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['removeSignedUrlParameters'] = report;
-        zuuluu['getSignedAttachmentExpiration'] = tangon;
-        tangon = function(argFoo) { // Original name: messageHasExpiredAttachmentUrl
-            _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+        var3['removeSignedUrlParameters'] = var5;
+        var3['getSignedAttachmentExpiration'] = var4;
+        var4 = function messageHasExpiredAttachmentUrl(arg1) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-                zuuluu = argFoo;
-                report = zuuluu.attachments;
-                tangon = report.some;
-                entity = _closure1_slot13;
-                entity = tangon.bind(report)(entity);
-                if(entity) { _fun00026_ip = 51; continue _fun00025 }
+                var3 = arg1;
+                var5 = var3.attachments;
+                var4 = var5.some;
+                var1 = _closure1_slot13;
+                var1 = var4.bind(var5)(var1);
+                if(var1) { _fun0013_ip = 51; continue _fun0013 }
  30:
-                tangon = zuuluu.embeds;
-                zuuluu = tangon.some;
-                michal = _closure1_slot15;
-                entity = zuuluu.bind(tangon)(michal);
+                var4 = var3.embeds;
+                var3 = var4.some;
+                var2 = _closure1_slot15;
+                var1 = var3.bind(var4)(var2);
  51:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['messageHasExpiredAttachmentUrl'] = tangon;
-        michal = function() { // Original name: maybeRefreshAttachmentUrl
-            entity = undefined;
-            tangon = _closure1_slot17;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var3['messageHasExpiredAttachmentUrl'] = var4;
+        var2 = function maybeRefreshAttachmentUrl() {
+            var1 = undefined;
+            var4 = _closure1_slot17;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        zuuluu['maybeRefreshAttachmentUrl'] = michal;
-        return entity;
+        var3['maybeRefreshAttachmentUrl'] = var2;
+        return var1;
     }
 })();

@@ -1,277 +1,277 @@
 // app/modules/verification/native/ChangeEmailUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _saveEmail
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _saveEmail() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    oscard = argBar;
-                    option = argBaz;
+                    var6 = arg2;
+                    var8 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 552; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 552; continue _fun0001 }
  16:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    michal = 2;
-                    michal = tangon[michal];
-                    offset = undefined;
-                    golfie = zuuluu.bind(offset)(michal);
-                    tangon = golfie.saveAccountChanges;
-                    zuuluu = {};
-                    michal = false;
-                    zuuluu['close'] = michal;
-                    michal = argFoo;
-                    michal = tangon.bind(golfie)(michal, zuuluu);
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var4[var2];
+                    var10 = undefined;
+                    var7 = var3.bind(var10)(var2);
+                    var4 = var7.saveAccountChanges;
+                    var3 = {};
+                    var2 = false;
+                    var3['close'] = var2;
+                    var2 = arg1;
+                    var2 = var4.bind(var7)(var2, var3);
                     SaveGenerator(address=69);
  67:
-                    return michal;
+                    return var2;
  69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 549; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 549; continue _fun0001 }
  78:
-                    zuuluu = michal.ok;
-                    if(zuuluu) { _fun00002_ip = 546; continue _fun00001 }
+                    var3 = var2.ok;
+                    if(var3) { _fun0001_ip = 546; continue _fun0001 }
  90:
-                    golfie = michal.body;
-                    zuuluu = null;
-                    verify = zuuluu == golfie;
-                    tangon = undefined;
-                    if(verify) { _fun00002_ip = 111; continue _fun00001 }
+                    var7 = var2.body;
+                    var3 = null;
+                    var9 = var3 == var7;
+                    var4 = undefined;
+                    if(var9) { _fun0001_ip = 111; continue _fun0001 }
  106:
-                    tangon = golfie.username;
+                    var4 = var7.username;
  111:
-                    if(!(zuuluu != tangon)) { _fun00002_ip = 145; continue _fun00001 }
+                    if(!(var3 != var4)) { _fun0001_ip = 145; continue _fun0001 }
  115:
-                    golfie = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    tangon = 3;
-                    tangon = verify[tangon];
-                    golfie = golfie.bind(offset)(tangon);
-                    tangon = golfie.showInvalidUsernameToast;
-                    tangon = tangon.bind(golfie)();
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var4 = 3;
+                    var4 = var9[var4];
+                    var7 = var7.bind(var10)(var4);
+                    var4 = var7.showInvalidUsernameToast;
+                    var4 = var4.bind(var7)();
  145:
-                    golfie = michal.body;
-                    verify = zuuluu == golfie;
-                    tangon = undefined;
-                    if(verify) { _fun00002_ip = 165; continue _fun00001 }
+                    var7 = var2.body;
+                    var9 = var3 == var7;
+                    var4 = undefined;
+                    if(var9) { _fun0001_ip = 165; continue _fun0001 }
  159:
-                    tangon = golfie.email;
+                    var4 = var7.email;
  165:
-                    if(!(zuuluu == tangon)) { _fun00002_ip = 375; continue _fun00001 }
+                    if(!(var3 == var4)) { _fun0001_ip = 375; continue _fun0001 }
  172:
-                    golfie = michal.body;
-                    verify = zuuluu == golfie;
-                    tangon = undefined;
-                    if(verify) { _fun00002_ip = 192; continue _fun00001 }
+                    var7 = var2.body;
+                    var9 = var3 == var7;
+                    var4 = undefined;
+                    if(var9) { _fun0001_ip = 192; continue _fun0001 }
  186:
-                    tangon = golfie.email_token;
+                    var4 = var7.email_token;
  192:
-                    if(!(zuuluu != tangon)) { _fun00002_ip = 546; continue _fun00001 }
+                    if(!(var3 != var4)) { _fun0001_ip = 546; continue _fun0001 }
  199:
-                    verify = _closure1_slot4;
-                    tangon = _closure1_slot5;
-                    golfie = tangon.EMAIL_TOKEN;
-                    tangon = michal.body;
-                    yankee = tangon.email_token;
-                    tangon = 0;
-                    tangon = yankee[tangon];
-                    tangon = verify.bind(offset)(golfie, tangon);
-                    tangon = oscard.getState;
-                    tangon = tangon.bind(oscard)();
-                    tangon = tangon.routes;
-                    verify = tangon.length;
-                    golfie = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    foxtra = 4;
-                    tangon = tangon[foxtra];
-                    tangon = golfie.bind(offset)(tangon);
-                    tangon = tangon.VerificationModalScenes;
-                    tangon = tangon.CONFIRM_EMAIL_CHANGE_CODE;
-                    tangon = option.bind(offset)(tangon);
-                    golfie = -1;
-                    if(!(golfie === tangon)) { _fun00002_ip = 348; continue _fun00001 }
+                    var9 = _closure1_slot4;
+                    var4 = _closure1_slot5;
+                    var7 = var4.EMAIL_TOKEN;
+                    var4 = var2.body;
+                    var11 = var4.email_token;
+                    var4 = 0;
+                    var4 = var11[var4];
+                    var4 = var9.bind(var10)(var7, var4);
+                    var4 = var6.getState;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.routes;
+                    var9 = var4.length;
+                    var7 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var13 = 4;
+                    var4 = var4[var13];
+                    var4 = var7.bind(var10)(var4);
+                    var4 = var4.VerificationModalScenes;
+                    var4 = var4.CONFIRM_EMAIL_CHANGE_CODE;
+                    var4 = var8.bind(var10)(var4);
+                    var7 = -1;
+                    if(!(var7 === var4)) { _fun0001_ip = 348; continue _fun0001 }
  304:
-                    yankee = oscard.replace;
-                    romeon = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    golfie = golfie[foxtra];
-                    golfie = romeon.bind(offset)(golfie);
-                    golfie = golfie.VerificationModalScenes;
-                    golfie = golfie.CONFIRM_EMAIL_CHANGE_CODE;
-                    golfie = yankee.bind(oscard)(golfie);
-                    _fun00002_ip = 546; continue _fun00001;
+                    var11 = var6.replace;
+                    var12 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var13];
+                    var7 = var12.bind(var10)(var7);
+                    var7 = var7.VerificationModalScenes;
+                    var7 = var7.CONFIRM_EMAIL_CHANGE_CODE;
+                    var7 = var11.bind(var6)(var7);
+                    _fun0001_ip = 546; continue _fun0001;
  348:
-                    golfie = oscard.pop;
-                    verify = verify - tangon;
-                    tangon = 1;
-                    tangon = verify - tangon;
-                    tangon = golfie.bind(oscard)(tangon);
-                    _fun00002_ip = 546; continue _fun00001;
+                    var7 = var6.pop;
+                    var9 = var9 - var4;
+                    var4 = 1;
+                    var4 = var9 - var4;
+                    var4 = var7.bind(var6)(var4);
+                    _fun0001_ip = 546; continue _fun0001;
  375:
-                    verify = _closure1_slot4;
-                    tangon = _closure1_slot5;
-                    golfie = tangon.EMAIL;
-                    tangon = michal.body;
-                    yankee = tangon.email;
-                    tangon = 0;
-                    tangon = yankee[tangon];
-                    tangon = verify.bind(offset)(golfie, tangon);
-                    tangon = oscard.getState;
-                    tangon = tangon.bind(oscard)();
-                    tangon = tangon.routes;
-                    golfie = tangon.length;
-                    verify = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    yankee = 4;
-                    tangon = tangon[yankee];
-                    tangon = verify.bind(offset)(tangon);
-                    tangon = tangon.VerificationModalScenes;
-                    tangon = tangon.ENTER_EMAIL;
-                    tangon = option.bind(offset)(tangon);
-                    option = -1;
-                    if(!(option === tangon)) { _fun00002_ip = 521; continue _fun00001 }
+                    var9 = _closure1_slot4;
+                    var4 = _closure1_slot5;
+                    var7 = var4.EMAIL;
+                    var4 = var2.body;
+                    var11 = var4.email;
+                    var4 = 0;
+                    var4 = var11[var4];
+                    var4 = var9.bind(var10)(var7, var4);
+                    var4 = var6.getState;
+                    var4 = var4.bind(var6)();
+                    var4 = var4.routes;
+                    var7 = var4.length;
+                    var9 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var11 = 4;
+                    var4 = var4[var11];
+                    var4 = var9.bind(var10)(var4);
+                    var4 = var4.VerificationModalScenes;
+                    var4 = var4.ENTER_EMAIL;
+                    var4 = var8.bind(var10)(var4);
+                    var8 = -1;
+                    if(!(var8 === var4)) { _fun0001_ip = 521; continue _fun0001 }
  480:
-                    option = oscard.replace;
-                    verify = _closure1_slot0;
-                    report = _closure1_slot2;
-                    report = report[yankee];
-                    report = verify.bind(offset)(report);
-                    report = report.VerificationModalScenes;
-                    report = report.ENTER_EMAIL;
-                    report = option.bind(oscard)(report);
-                    _fun00002_ip = 543; continue _fun00001;
+                    var8 = var6.replace;
+                    var9 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var11];
+                    var5 = var9.bind(var10)(var5);
+                    var5 = var5.VerificationModalScenes;
+                    var5 = var5.ENTER_EMAIL;
+                    var5 = var8.bind(var6)(var5);
+                    _fun0001_ip = 543; continue _fun0001;
  521:
-                    report = oscard.pop;
-                    golfie = golfie - tangon;
-                    tangon = 1;
-                    tangon = golfie - tangon;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = var6.pop;
+                    var7 = var7 - var4;
+                    var4 = 1;
+                    var4 = var7 - var4;
+                    var4 = var5.bind(var6)(var4);
  543:
-                    return zuuluu;
+                    return var3;
  546:
-                    return michal;
+                    return var2;
  549:
-                    return michal;
+                    return var2;
  552:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.setChangeEmailError;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.ChangeEmailFields;
-    var _closure1_slot5 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/verification/native/ChangeEmailUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: saveEmail
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.setChangeEmailError;
+    var _closure1_slot4 = var7;
+    var4 = var4.ChangeEmailFields;
+    var _closure1_slot5 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/verification/native/ChangeEmailUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function saveEmail() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['saveEmail'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: finishChangeEmailFlow
-        report = argFoo;
-        tangon = report.replace;
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        michal = michal.VerificationModalScenes;
-        zuuluu = michal.CHANGE_EMAIL_COMPLETE;
-        michal = {};
-        oscard = argBar;
-        michal['email'] = oscard;
-        michal = tangon.bind(report)(zuuluu, michal);
-        return entity;
+    var3['saveEmail'] = var4;
+    var4 = function finishChangeEmailFlow(arg1, arg2) {
+        var5 = arg1;
+        var4 = var5.replace;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.VerificationModalScenes;
+        var3 = var2.CHANGE_EMAIL_COMPLETE;
+        var2 = {};
+        var6 = arg2;
+        var2['email'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
     };
-    zuuluu['finishChangeEmailFlow'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: finishVerifyEmailFlow
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['finishChangeEmailFlow'] = var4;
+    var2 = function finishVerifyEmailFlow(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            entity = tangon.getState;
-            entity = entity.bind(tangon)();
-            entity = entity.routes;
-            report = entity.length;
-            oscard = _closure1_slot0;
-            entity = _closure1_slot2;
-            option = 4;
-            michal = entity[option];
-            entity = undefined;
-            michal = oscard.bind(entity)(michal);
-            michal = michal.VerificationModalScenes;
-            oscard = michal.RESEND_EMAIL;
-            michal = argBar;
-            michal = michal.bind(entity)(oscard);
-            oscard = -1;
-            if(!(oscard === michal)) { _fun00004_ip = 120; continue _fun00003 }
+            var4 = arg1;
+            var1 = var4.getState;
+            var1 = var1.bind(var4)();
+            var1 = var1.routes;
+            var5 = var1.length;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var8 = 4;
+            var2 = var1[var8];
+            var1 = undefined;
+            var2 = var6.bind(var1)(var2);
+            var2 = var2.VerificationModalScenes;
+            var6 = var2.RESEND_EMAIL;
+            var2 = arg2;
+            var2 = var2.bind(var1)(var6);
+            var6 = -1;
+            if(!(var6 === var2)) { _fun0002_ip = 120; continue _fun0002 }
  79:
-            oscard = tangon.replace;
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[option];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.VerificationModalScenes;
-            zuuluu = zuuluu.RESEND_EMAIL;
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            _fun00004_ip = 135; continue _fun00003;
+            var6 = var4.replace;
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.VerificationModalScenes;
+            var3 = var3.RESEND_EMAIL;
+            var3 = var6.bind(var4)(var3);
+            _fun0002_ip = 135; continue _fun0002;
  120:
-            zuuluu = tangon.pop;
-            michal = report - michal;
-            michal = zuuluu.bind(tangon)(michal);
+            var3 = var4.pop;
+            var2 = var5 - var2;
+            var2 = var3.bind(var4)(var2);
  135:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['finishVerifyEmailFlow'] = michal;
-    return entity;
+    var3['finishVerifyEmailFlow'] = var2;
+    return var1;
 })();

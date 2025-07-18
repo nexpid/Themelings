@@ -1,246 +1,246 @@
 // app/modules/custom_status/utils/userSettingToActivity.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar) { // Original name: _activityFromSetting
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _activityFromSetting(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            tangon = argBar;
-            zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00002_ip = 159; continue _fun00001 }
+            var8 = arg1;
+            var4 = arg2;
+            var3 = null;
+            if(!(var3 == var4)) { _fun0001_ip = 159; continue _fun0001 }
  15:
-            entity = option.emojiName;
-            entity = zuuluu != entity;
-            michal = null;
-            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
+            var1 = var8.emojiName;
+            var1 = var3 != var1;
+            var2 = null;
+            if(!var1) { _fun0001_ip = 193; continue _fun0001 }
  33:
-            report = option.emojiName;
-            entity = '';
-            michal = null;
-            if(!(entity !== report)) { _fun00002_ip = 193; continue _fun00001 }
+            var5 = var8.emojiName;
+            var1 = '';
+            var2 = null;
+            if(!(var1 !== var5)) { _fun0001_ip = 193; continue _fun0001 }
  52:
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            entity = 3;
-            report = offset[entity];
-            golfie = undefined;
-            oscard = verify.bind(golfie)(report);
-            report = oscard.getByName;
-            entity = offset[entity];
-            offset = verify.bind(golfie)(entity);
-            verify = offset.convertSurrogateToName;
-            golfie = option.emojiName;
-            entity = false;
-            entity = verify.bind(offset)(golfie, entity);
-            oscard = report.bind(oscard)(entity);
-            report = zuuluu != oscard;
-            entity = null;
-            if(!report) { _fun00002_ip = 154; continue _fun00001 }
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var1 = 3;
+            var5 = var10[var1];
+            var7 = undefined;
+            var6 = var9.bind(var7)(var5);
+            var5 = var6.getByName;
+            var1 = var10[var1];
+            var10 = var9.bind(var7)(var1);
+            var9 = var10.convertSurrogateToName;
+            var7 = var8.emojiName;
+            var1 = false;
+            var1 = var9.bind(var10)(var7, var1);
+            var6 = var5.bind(var6)(var1);
+            var5 = var3 != var6;
+            var1 = null;
+            if(!var5) { _fun0001_ip = 154; continue _fun0001 }
  126:
-            report = {'id': null, 'name': null, 'animated': false};
-            oscard = oscard.surrogates;
-            report['name'] = oscard;
-            entity = report;
+            var5 = {'id': null, 'name': null, 'animated': false};
+            var6 = var6.surrogates;
+            var5['name'] = var6;
+            var1 = var5;
  154:
-            michal = entity;
-            _fun00002_ip = 193; continue _fun00001;
+            var2 = var1;
+            _fun0001_ip = 193; continue _fun0001;
  159:
-            entity = {};
-            report = tangon.id;
-            entity['id'] = report;
-            report = tangon.name;
-            entity['name'] = report;
-            tangon = tangon.animated;
-            entity['animated'] = tangon;
-            michal = entity;
+            var1 = {};
+            var5 = var4.id;
+            var1['id'] = var5;
+            var5 = var4.name;
+            var1['name'] = var5;
+            var4 = var4.animated;
+            var1['animated'] = var4;
+            var2 = var1;
  193:
-            entity = global;
-            report = entity.Number;
-            entity = option.expiresAtMs;
-            tangon = undefined;
-            oscard = report.bind(tangon)(entity);
-            entity = option.label;
-            report = zuuluu == entity;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 233; continue _fun00001 }
+            var1 = global;
+            var5 = var1.Number;
+            var1 = var8.expiresAtMs;
+            var4 = undefined;
+            var6 = var5.bind(var4)(var1);
+            var1 = var8.label;
+            var5 = var3 == var1;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 233; continue _fun0001 }
  228:
-            zuuluu = entity.value;
+            var3 = var1.value;
  233:
-            entity = {};
-            report = 'Custom Status';
-            entity['name'] = report;
-            report = _closure1_slot5;
-            report = report.CUSTOM_STATUS;
-            entity['type'] = report;
-            report = option.text;
-            golfie = report.length;
-            report = 0;
-            verify = golfie > report;
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 288; continue _fun00001 }
+            var1 = {};
+            var5 = 'Custom Status';
+            var1['name'] = var5;
+            var5 = _closure1_slot5;
+            var5 = var5.CUSTOM_STATUS;
+            var1['type'] = var5;
+            var5 = var8.text;
+            var7 = var5.length;
+            var5 = 0;
+            var9 = var7 > var5;
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 288; continue _fun0001 }
  283:
-            golfie = option.text;
+            var7 = var8.text;
  288:
-            entity['state'] = golfie;
-            report = oscard > report;
-            tangon = undefined;
-            if(!report) { _fun00002_ip = 310; continue _fun00001 }
+            var1['state'] = var7;
+            var5 = var6 > var5;
+            var4 = undefined;
+            if(!var5) { _fun0001_ip = 310; continue _fun0001 }
  301:
-            report = {};
-            report['end'] = oscard;
-            tangon = report;
+            var5 = {};
+            var5['end'] = var6;
+            var4 = var5;
  310:
-            entity['timestamps'] = tangon;
-            entity['emoji'] = michal;
-            entity['details'] = zuuluu;
-            michal = {};
-            michal['label'] = zuuluu;
-            entity['metadata'] = michal;
-            return entity;
+            var1['timestamps'] = var4;
+            var1['emoji'] = var2;
+            var1['details'] = var3;
+            var2 = {};
+            var2['label'] = var3;
+            var1['metadata'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useMemo;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ActivityTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/custom_status/utils/userSettingToActivity.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getActivityFromCustomStatus
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useMemo;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ActivityTypes;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/custom_status/utils/userSettingToActivity.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getActivityFromCustomStatus(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            oscard = tangon.emojiId;
-            zuuluu = _closure1_slot6;
-            golfie = null;
-            report = golfie != oscard;
-            michal = null;
-            if(!report) { _fun00004_ip = 54; continue _fun00003 }
+            var4 = arg1;
+            var6 = var4.emojiId;
+            var3 = _closure1_slot6;
+            var7 = null;
+            var5 = var7 != var6;
+            var2 = null;
+            if(!var5) { _fun0002_ip = 54; continue _fun0002 }
  27:
-            report = '0';
-            michal = null;
-            if(!(report !== oscard)) { _fun00004_ip = 54; continue _fun00003 }
+            var5 = '0';
+            var2 = null;
+            if(!(var5 !== var6)) { _fun0002_ip = 54; continue _fun0002 }
  39:
-            report = _closure1_slot4;
-            entity = report.getUsableCustomEmojiById;
-            michal = entity.bind(report)(oscard);
+            var5 = _closure1_slot4;
+            var1 = var5.getUsableCustomEmojiById;
+            var2 = var1.bind(var5)(var6);
  54:
-            entity = undefined;
-            entity = zuuluu.bind(entity)(tangon, michal);
-            return entity;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var4, var2);
+            return var1;
         }
     };
-    zuuluu['getActivityFromCustomStatus'] = tangon;
-    michal = function() { // Original name: useCustomStatusActivity
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getActivityFromCustomStatus'] = var4;
+    var2 = function useCustomStatusActivity() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(zuuluu);
-            report = zuuluu.CustomStatusSetting;
-            zuuluu = report.useSetting;
-            oscard = zuuluu.bind(report)();
-            var _closure2_slot0 = oscard;
-            zuuluu = null;
-            report = zuuluu == oscard;
-            zuuluu = undefined;
-            if(report) { _fun00006_ip = 64; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var3 = 4;
+            var3 = var4[var3];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var3);
+            var5 = var3.CustomStatusSetting;
+            var3 = var5.useSetting;
+            var6 = var3.bind(var5)();
+            var _closure2_slot0 = var6;
+            var3 = null;
+            var5 = var3 == var6;
+            var3 = undefined;
+            if(var5) { _fun0003_ip = 64; continue _fun0003 }
  58:
-            zuuluu = oscard.emojiId;
+            var3 = var6.emojiId;
  64:
-            var _closure2_slot1 = zuuluu;
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 5;
-            report = option[report];
-            verify = golfie.bind(tangon)(report);
-            option = verify.useStateFromStores;
-            report = _closure1_slot4;
-            golfie = new Array(1);
-            golfie[0] = report;
-            report = new Array(1);
-            report[0] = zuuluu;
-            zuuluu = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var _closure2_slot1 = var3;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 5;
+            var5 = var8[var5];
+            var9 = var7.bind(var4)(var5);
+            var8 = var9.useStateFromStores;
+            var5 = _closure1_slot4;
+            var7 = new Array(1);
+            var7[0] = var5;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = _closure2_slot1;
-                    report = null;
-                    zuuluu = report != entity;
-                    entity = null;
-                    if(!zuuluu) { _fun00008_ip = 56; continue _fun00007 }
+                    var1 = _closure2_slot1;
+                    var5 = null;
+                    var3 = var5 != var1;
+                    var1 = null;
+                    if(!var3) { _fun0004_ip = 56; continue _fun0004 }
  18:
-                    tangon = _closure2_slot1;
-                    zuuluu = '0';
-                    entity = null;
-                    if(!(zuuluu !== tangon)) { _fun00008_ip = 56; continue _fun00007 }
+                    var4 = _closure2_slot1;
+                    var3 = '0';
+                    var1 = null;
+                    if(!(var3 !== var4)) { _fun0004_ip = 56; continue _fun0004 }
  34:
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.getUsableCustomEmojiById;
-                    michal = _closure2_slot1;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot4;
+                    var3 = var4.getUsableCustomEmojiById;
+                    var2 = _closure2_slot1;
+                    var1 = var3.bind(var4)(var2);
  56:
-                    return entity;
+                    return var1;
                 }
             };
-            report = option.bind(verify)(golfie, zuuluu, report);
-            var _closure2_slot2 = report;
-            zuuluu = _closure1_slot3;
-            michal = new Array(2);
-            michal[0] = oscard;
-            michal[1] = report;
-            entity = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var5 = var8.bind(var9)(var7, var3, var5);
+            var _closure2_slot2 = var5;
+            var3 = _closure1_slot3;
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var5;
+            var1 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    zuuluu = entity != zuuluu;
-                    if(!zuuluu) { _fun00010_ip = 39; continue _fun00009 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 != var3;
+                    if(!var3) { _fun0005_ip = 39; continue _fun0005 }
  16:
-                    report = _closure1_slot6;
-                    tangon = _closure2_slot0;
-                    zuuluu = _closure2_slot2;
-                    michal = undefined;
-                    entity = report.bind(michal)(tangon, zuuluu);
+                    var5 = _closure1_slot6;
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot2;
+                    var2 = undefined;
+                    var1 = var5.bind(var2)(var4, var3);
  39:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         }
     };
-    zuuluu['useCustomStatusActivity'] = michal;
-    return entity;
+    var3['useCustomStatusActivity'] = var2;
+    return var1;
 })();

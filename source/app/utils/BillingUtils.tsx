@@ -1,285 +1,285 @@
 // app/utils/BillingUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _createGatewayCheckoutContext
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _createGatewayCheckoutContext() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 115; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 115; continue _fun0001 }
  10:
-                    report = null;
-                    tangon = report != michal;
-                    zuuluu = null;
-                    if(!tangon) { _fun00002_ip = 109; continue _fun00001 }
+                    var5 = null;
+                    var4 = var5 != var2;
+                    var3 = null;
+                    if(!var4) { _fun0001_ip = 109; continue _fun0001 }
  21:
-                    oscard = michal.paymentGateway;
-                    tangon = _closure1_slot4;
-                    tangon = tangon.BRAINTREE;
-                    zuuluu = null;
-                    if(!(oscard === tangon)) { _fun00002_ip = 109; continue _fun00001 }
+                    var6 = var2.paymentGateway;
+                    var4 = _closure1_slot4;
+                    var4 = var4.BRAINTREE;
+                    var3 = null;
+                    if(!(var6 === var4)) { _fun0001_ip = 109; continue _fun0001 }
  46:
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    michal = 2;
-                    tangon = tangon[michal];
-                    michal = undefined;
-                    tangon = oscard.bind(michal)(tangon);
-                    michal = tangon.collectDeviceData;
-                    michal = michal.bind(tangon)();
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 2;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var4 = var6.bind(var2)(var4);
+                    var2 = var4.collectDeviceData;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=82);
  80:
-                    return michal;
+                    return var2;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 112; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 112; continue _fun0001 }
  88:
-                    tangon = report != michal;
-                    zuuluu = null;
-                    if(!tangon) { _fun00002_ip = 109; continue _fun00001 }
+                    var4 = var5 != var2;
+                    var3 = null;
+                    if(!var4) { _fun0001_ip = 109; continue _fun0001 }
  97:
-                    tangon = {};
-                    tangon['braintree_device_data'] = michal;
-                    zuuluu = tangon;
+                    var4 = {};
+                    var4['braintree_device_data'] = var2;
+                    var3 = var4;
  109:
-                    return zuuluu;
+                    return var3;
  112:
-                    return michal;
+                    return var2;
  115:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PaymentGateways;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/BillingUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: getLocalizedDisplayMonth
-        entity = global;
-        entity = entity.Date;
-        michal = entity.prototype;
-        michal = Object.create(michal, {constructor: {value: entity}});
-        golfie = michal;
-        entity = new golfie[entity](oscard);
-        tangon = entity instanceof Object ? entity : michal;
-        michal = tangon.setMonth;
-        zuuluu = argFoo;
-        entity = 1;
-        entity = zuuluu - entity;
-        entity = michal.bind(tangon)(entity);
-        zuuluu = tangon.toLocaleString;
-        michal = {};
-        entity = 'short';
-        michal['month'] = entity;
-        entity = argBar;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PaymentGateways;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/BillingUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getLocalizedDisplayMonth(arg1, arg2) {
+        var1 = global;
+        var1 = var1.Date;
+        var2 = var1.prototype;
+        var2 = Object.create(var2, {constructor: {value: var1}});
+        var7 = var2;
+        var1 = new var7[var1](var6);
+        var4 = var1 instanceof Object ? var1 : var2;
+        var2 = var4.setMonth;
+        var3 = arg1;
+        var1 = 1;
+        var1 = var3 - var1;
+        var1 = var2.bind(var4)(var1);
+        var3 = var4.toLocaleString;
+        var2 = {};
+        var1 = 'short';
+        var2['month'] = var1;
+        var1 = arg2;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getLocalizedDisplayMonth'] = tangon;
-    tangon = function() { // Original name: createGatewayCheckoutContext
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getLocalizedDisplayMonth'] = var4;
+    var4 = function createGatewayCheckoutContext() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['createGatewayCheckoutContext'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: captureBillingException
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['createGatewayCheckoutContext'] = var4;
+    var4 = function captureBillingException(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argBar;
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.captureException;
-            zuuluu = {};
-            offset = zuuluu;
-            verify = golfie;
-            michal = copyDataProperties(offset, verify);
-            oscard = {};
-            michal = null;
-            option = michal == golfie;
-            michal = undefined;
-            if(option) { _fun00004_ip = 65; continue _fun00003 }
+            var7 = arg2;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.captureException;
+            var3 = {};
+            var10 = var3;
+            var9 = var7;
+            var2 = copyDataProperties(var10, var9);
+            var6 = {};
+            var2 = null;
+            var8 = var2 == var7;
+            var2 = undefined;
+            if(var8) { _fun0002_ip = 65; continue _fun0002 }
  59:
-            michal = golfie.tags;
+            var2 = var7.tags;
  65:
-            offset = oscard;
-            verify = michal;
-            michal = copyDataProperties(offset, verify);
-            golfie = 'billing';
-            michal = 'app_context';
-            oscard[michal] = golfie;
-            michal = 'tags';
-            zuuluu[michal] = oscard;
-            michal = argFoo;
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var10 = var6;
+            var9 = var2;
+            var2 = copyDataProperties(var10, var9);
+            var7 = 'billing';
+            var2 = 'app_context';
+            var6[var2] = var7;
+            var2 = 'tags';
+            var3[var2] = var6;
+            var2 = arg1;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['captureBillingException'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: captureBillingMessage
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['captureBillingException'] = var4;
+    var4 = function captureBillingMessage(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            golfie = argBar;
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.captureMessage;
-            zuuluu = {};
-            offset = zuuluu;
-            verify = golfie;
-            michal = copyDataProperties(offset, verify);
-            oscard = {};
-            michal = null;
-            option = michal == golfie;
-            michal = undefined;
-            if(option) { _fun00006_ip = 65; continue _fun00005 }
+            var7 = arg2;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.captureMessage;
+            var3 = {};
+            var10 = var3;
+            var9 = var7;
+            var2 = copyDataProperties(var10, var9);
+            var6 = {};
+            var2 = null;
+            var8 = var2 == var7;
+            var2 = undefined;
+            if(var8) { _fun0003_ip = 65; continue _fun0003 }
  59:
-            michal = golfie.tags;
+            var2 = var7.tags;
  65:
-            offset = oscard;
-            verify = michal;
-            michal = copyDataProperties(offset, verify);
-            golfie = 'billing';
-            michal = 'app_context';
-            oscard[michal] = golfie;
-            michal = 'tags';
-            zuuluu[michal] = oscard;
-            michal = argFoo;
-            michal = tangon.bind(report)(michal, zuuluu);
-            return entity;
+            var10 = var6;
+            var9 = var2;
+            var2 = copyDataProperties(var10, var9);
+            var7 = 'billing';
+            var2 = 'app_context';
+            var6[var2] = var7;
+            var2 = 'tags';
+            var3[var2] = var6;
+            var2 = arg1;
+            var2 = var4.bind(var5)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['captureBillingMessage'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: calculateStandardizedUnits
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['captureBillingMessage'] = var4;
+    var2 = function calculateStandardizedUnits(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            entity = 'P1M';
-            entity = entity === zuuluu;
-            report = entity;
-            if(!entity) { _fun00008_ip = 32; continue _fun00007 }
+            var3 = arg1;
+            var4 = arg2;
+            var1 = 'P1M';
+            var1 = var1 === var3;
+            var5 = var1;
+            if(!var1) { _fun0004_ip = 32; continue _fun0004 }
  22:
-            michal = 'P1Y';
-            report = michal === tangon;
+            var2 = 'P1Y';
+            var5 = var2 === var4;
  32:
-            michal = true;
-            if(!(report !== michal)) { _fun00008_ip = 177; continue _fun00007 }
+            var2 = true;
+            if(!(var5 !== var2)) { _fun0004_ip = 177; continue _fun0004 }
  41:
-            report = entity;
-            if(!entity) { _fun00008_ip = 57; continue _fun00007 }
+            var5 = var1;
+            if(!var1) { _fun0004_ip = 57; continue _fun0004 }
  47:
-            oscard = 'P6M';
-            report = oscard === tangon;
+            var6 = 'P6M';
+            var5 = var6 === var4;
  57:
-            if(!(report !== michal)) { _fun00008_ip = 172; continue _fun00007 }
+            if(!(var5 !== var2)) { _fun0004_ip = 172; continue _fun0004 }
  61:
-            if(!entity) { _fun00008_ip = 74; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 74; continue _fun0004 }
  64:
-            report = 'P3M';
-            entity = report === tangon;
+            var5 = 'P3M';
+            var1 = var5 === var4;
  74:
-            if(!(entity !== michal)) { _fun00008_ip = 167; continue _fun00007 }
+            if(!(var1 !== var2)) { _fun0004_ip = 167; continue _fun0004 }
  78:
-            entity = 'P3M';
-            entity = entity === zuuluu;
-            report = entity;
-            if(!entity) { _fun00008_ip = 104; continue _fun00007 }
+            var1 = 'P3M';
+            var1 = var1 === var3;
+            var5 = var1;
+            if(!var1) { _fun0004_ip = 104; continue _fun0004 }
  94:
-            oscard = 'P1Y';
-            report = oscard === tangon;
+            var6 = 'P1Y';
+            var5 = var6 === var4;
  104:
-            if(!(report !== michal)) { _fun00008_ip = 162; continue _fun00007 }
+            if(!(var5 !== var2)) { _fun0004_ip = 162; continue _fun0004 }
  108:
-            if(!entity) { _fun00008_ip = 121; continue _fun00007 }
+            if(!var1) { _fun0004_ip = 121; continue _fun0004 }
  111:
-            report = 'P6M';
-            entity = report === tangon;
+            var5 = 'P6M';
+            var1 = var5 === var4;
  121:
-            if(!(entity !== michal)) { _fun00008_ip = 157; continue _fun00007 }
+            if(!(var1 !== var2)) { _fun0004_ip = 157; continue _fun0004 }
  125:
-            entity = 'P6M';
-            entity = entity === zuuluu;
-            if(!entity) { _fun00008_ip = 148; continue _fun00007 }
+            var1 = 'P6M';
+            var1 = var1 === var3;
+            if(!var1) { _fun0004_ip = 148; continue _fun0004 }
  138:
-            zuuluu = 'P1Y';
-            entity = zuuluu === tangon;
+            var3 = 'P1Y';
+            var1 = var3 === var4;
  148:
-            if(!(entity !== michal)) { _fun00008_ip = 157; continue _fun00007 }
+            if(!(var1 !== var2)) { _fun0004_ip = 157; continue _fun0004 }
  152:
-            entity = 1;
-            return entity;
+            var1 = 1;
+            return var1;
  157:
-            entity = 2;
-            return entity;
+            var1 = 2;
+            return var1;
  162:
-            entity = 4;
-            return entity;
+            var1 = 4;
+            return var1;
  167:
-            entity = 3;
-            return entity;
+            var1 = 3;
+            return var1;
  172:
-            entity = 6;
-            return entity;
+            var1 = 6;
+            return var1;
  177:
-            entity = 12;
-            return entity;
+            var1 = 12;
+            return var1;
         }
     };
-    zuuluu['calculateStandardizedUnits'] = michal;
-    return entity;
+    var3['calculateStandardizedUnits'] = var2;
+    return var1;
 })();

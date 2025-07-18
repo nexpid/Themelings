@@ -1,61 +1,61 @@
 // app/modules/guild_products/GuildProductSystemMessageUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.NOOP;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_products/GuildProductSystemMessageUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getGuildProductPurchaseSystemMessageContentMobile
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.NOOP;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_products/GuildProductSystemMessageUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getGuildProductPurchaseSystemMessageContentMobile(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.username;
-            oscard = entity.usernameOnClickHandler;
-            option = undefined;
-            if(!(oscard === option)) { _fun00002_ip = 27; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.username;
+            var6 = var1.usernameOnClickHandler;
+            var8 = undefined;
+            if(!(var6 === var8)) { _fun0001_ip = 27; continue _fun0001 }
  20:
-            oscard = _closure1_slot2;
+            var6 = _closure1_slot2;
  27:
-            report = entity.productName;
-            michal = _closure1_slot0;
-            verify = _closure1_slot1;
-            entity = 1;
-            zuuluu = verify[entity];
-            zuuluu = michal.bind(option)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToParts;
-            entity = verify[entity];
-            entity = michal.bind(option)(entity);
-            entity = entity.t;
-            michal = entity.w4iXs7;
-            entity = {};
-            entity['username'] = golfie;
-            entity['usernameHook'] = oscard;
-            entity['productName'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = var1.productName;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 1;
+            var3 = var9[var1];
+            var3 = var2.bind(var8)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToParts;
+            var1 = var9[var1];
+            var1 = var2.bind(var8)(var1);
+            var1 = var1.t;
+            var2 = var1.w4iXs7;
+            var1 = {};
+            var1['username'] = var7;
+            var1['usernameHook'] = var6;
+            var1['productName'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['getGuildProductPurchaseSystemMessageContentMobile'] = michal;
-    return entity;
+    var3['getGuildProductPurchaseSystemMessageContentMobile'] = var2;
+    return var1;
 })();

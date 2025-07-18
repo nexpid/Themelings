@@ -1,598 +1,598 @@
 // app/modules/gateway/native/fast_connect.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = golfie;
-    tangon = function() { // Original name: createFastConnectSocket
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var9 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var9;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var7;
+    var4 = function createFastConnectSocket() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = global;
-            entity = entity.window;
-            michal = entity.WebSocket;
-            entity = null;
-            if(!(entity == michal)) { _fun00002_ip = 46; continue _fun00001 }
+            var1 = global;
+            var1 = var1.window;
+            var2 = var1.WebSocket;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0001_ip = 46; continue _fun0001 }
  20:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.log;
-            entity = 'Skipping fast_connect because `window.WebSocket` does not exist.';
-            entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 59; continue _fun00001;
+            var3 = _closure1_slot7;
+            var2 = var3.log;
+            var1 = 'Skipping fast_connect because `window.WebSocket` does not exist.';
+            var1 = var2.bind(var3)(var1);
+            _fun0001_ip = 59; continue _fun0001;
  46:
-            michal = function() { // Original name: newWebSocket
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = function newWebSocket() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    tangon = _closure1_slot0;
-                    entity = _closure1_slot3;
-                    yankee = 4;
-                    michal = entity[yankee];
-                    entity = undefined;
-                    tangon = tangon.bind(entity)(michal);
-                    michal = tangon.isAndroid;
-                    michal = michal.bind(tangon)();
-                    if(michal) { _fun00004_ip = 57; continue _fun00003 }
+                    var4 = _closure1_slot0;
+                    var1 = _closure1_slot3;
+                    var11 = 4;
+                    var2 = var1[var11];
+                    var1 = undefined;
+                    var4 = var4.bind(var1)(var2);
+                    var2 = var4.isAndroid;
+                    var2 = var2.bind(var4)();
+                    if(var2) { _fun0002_ip = 57; continue _fun0002 }
  39:
-                    michal = _closure1_slot4;
-                    michal = michal.DCDCompressionManager;
-                    option = michal.supportsZstd;
-                    _fun00004_ip = 93; continue _fun00003;
+                    var2 = _closure1_slot4;
+                    var2 = var2.DCDCompressionManager;
+                    var8 = var2.supportsZstd;
+                    _fun0002_ip = 93; continue _fun0002;
  57:
-                    tangon = _closure1_slot1;
-                    oscard = _closure1_slot3;
-                    michal = 11;
-                    michal = oscard[michal];
-                    tangon = tangon.bind(entity)(michal);
-                    michal = tangon.getConstants;
-                    michal = michal.bind(tangon)();
-                    option = michal.supportsZstd;
+                    var4 = _closure1_slot1;
+                    var6 = _closure1_slot3;
+                    var2 = 11;
+                    var2 = var6[var2];
+                    var4 = var4.bind(var1)(var2);
+                    var2 = var4.getConstants;
+                    var2 = var2.bind(var4)();
+                    var8 = var2.supportsZstd;
  93:
-                    foxtra = 'zlib-stream';
-                    if(!option) { _fun00004_ip = 108; continue _fun00003 }
+                    var13 = 'zlib-stream';
+                    if(!var8) { _fun0002_ip = 108; continue _fun0002 }
  102:
-                    foxtra = 'zstd-stream';
+                    var13 = 'zstd-stream';
  108:
-                    tangon = global;
-                    michal = tangon.window;
-                    michal = michal.GLOBAL_ENV;
-                    result = michal.GATEWAY_ENDPOINT;
-                    michal = tangon.window;
-                    michal = michal.GLOBAL_ENV;
-                    sizing = michal.API_VERSION;
-                    michal = tangon.HermesInternal;
-                    verify = michal.concat;
-                    echoed = '';
-                    output = '/?encoding=json&v=';
-                    kiloes = '&compress=';
-                    backup = foxtra;
-                    golfie = echoed[verify](result, output, sizing, kiloes, backup, foxtra);
-                    verify = _closure1_slot7;
-                    oscard = verify.log;
-                    michal = '[FAST CONNECT] ';
-                    michal = michal + golfie;
-                    michal = oscard.bind(verify)(michal);
-                    oscard = tangon.Date;
-                    michal = oscard.now;
-                    michal = michal.bind(oscard)();
-                    var _closure3_slot0 = michal;
-                    oscard = _closure1_slot1;
-                    verify = _closure1_slot3;
-                    michal = 12;
-                    michal = verify[michal];
-                    michal = oscard.bind(entity)(michal);
-                    michal = michal.bind(entity)(golfie);
-                    verify = tangon.parseFloat;
-                    oscard = michal._socketId;
-                    verify = verify.bind(entity)(oscard);
-                    oscard = tangon.isNaN;
-                    oscard = oscard.bind(entity)(verify);
-                    if(oscard) { _fun00004_ip = 567; continue _fun00003 }
+                    var4 = global;
+                    var2 = var4.window;
+                    var2 = var2.GLOBAL_ENV;
+                    var18 = var2.GATEWAY_ENDPOINT;
+                    var2 = var4.window;
+                    var2 = var2.GLOBAL_ENV;
+                    var16 = var2.API_VERSION;
+                    var2 = var4.HermesInternal;
+                    var9 = var2.concat;
+                    var19 = '';
+                    var17 = '/?encoding=json&v=';
+                    var15 = '&compress=';
+                    var14 = var13;
+                    var7 = var19[var9](var18, var17, var16, var15, var14, var13);
+                    var9 = _closure1_slot7;
+                    var6 = var9.log;
+                    var2 = '[FAST CONNECT] ';
+                    var2 = var2 + var7;
+                    var2 = var6.bind(var9)(var2);
+                    var6 = var4.Date;
+                    var2 = var6.now;
+                    var2 = var2.bind(var6)();
+                    var _closure3_slot0 = var2;
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot3;
+                    var2 = 12;
+                    var2 = var9[var2];
+                    var2 = var6.bind(var1)(var2);
+                    var2 = var2.bind(var1)(var7);
+                    var9 = var4.parseFloat;
+                    var6 = var2._socketId;
+                    var9 = var9.bind(var1)(var6);
+                    var6 = var4.isNaN;
+                    var6 = var6.bind(var1)(var9);
+                    if(var6) { _fun0002_ip = 567; continue _fun0002 }
  283:
-                    offset = _closure1_slot0;
-                    oscard = _closure1_slot3;
-                    oscard = oscard[yankee];
-                    offset = offset.bind(entity)(oscard);
-                    oscard = offset.isAndroid;
-                    oscard = oscard.bind(offset)();
-                    if(option) { _fun00004_ip = 371; continue _fun00003 }
+                    var10 = _closure1_slot0;
+                    var6 = _closure1_slot3;
+                    var6 = var6[var11];
+                    var10 = var10.bind(var1)(var6);
+                    var6 = var10.isAndroid;
+                    var6 = var6.bind(var10)();
+                    if(var8) { _fun0002_ip = 371; continue _fun0002 }
  312:
-                    if(oscard) { _fun00004_ip = 338; continue _fun00003 }
+                    if(var6) { _fun0002_ip = 338; continue _fun0002 }
  315:
-                    option = _closure1_slot4;
-                    offset = option.DCDCompressionManager;
-                    option = offset.enableZlibStreamSupport;
-                    option = option.bind(offset)(verify);
-                    _fun00004_ip = 431; continue _fun00003;
+                    var8 = _closure1_slot4;
+                    var10 = var8.DCDCompressionManager;
+                    var8 = var10.enableZlibStreamSupport;
+                    var8 = var8.bind(var10)(var9);
+                    _fun0002_ip = 431; continue _fun0002;
  338:
-                    offset = _closure1_slot1;
-                    yankee = _closure1_slot3;
-                    option = 11;
-                    option = yankee[option];
-                    offset = offset.bind(entity)(option);
-                    option = offset.enableZlibStreamSupport;
-                    option = option.bind(offset)(verify);
-                    _fun00004_ip = 431; continue _fun00003;
+                    var10 = _closure1_slot1;
+                    var11 = _closure1_slot3;
+                    var8 = 11;
+                    var8 = var11[var8];
+                    var10 = var10.bind(var1)(var8);
+                    var8 = var10.enableZlibStreamSupport;
+                    var8 = var8.bind(var10)(var9);
+                    _fun0002_ip = 431; continue _fun0002;
  371:
-                    if(oscard) { _fun00004_ip = 400; continue _fun00003 }
+                    if(var6) { _fun0002_ip = 400; continue _fun0002 }
  374:
-                    oscard = _closure1_slot4;
-                    offset = oscard.DCDCompressionManager;
-                    option = offset.enableZstdStreamSupport;
-                    oscard = 0;
-                    oscard = option.bind(offset)(verify, oscard);
-                    _fun00004_ip = 431; continue _fun00003;
+                    var6 = _closure1_slot4;
+                    var10 = var6.DCDCompressionManager;
+                    var8 = var10.enableZstdStreamSupport;
+                    var6 = 0;
+                    var6 = var8.bind(var10)(var9, var6);
+                    _fun0002_ip = 431; continue _fun0002;
  400:
-                    option = _closure1_slot1;
-                    offset = _closure1_slot3;
-                    oscard = 11;
-                    oscard = offset[oscard];
-                    option = option.bind(entity)(oscard);
-                    oscard = option.enableZstdStreamSupport;
-                    oscard = oscard.bind(option)(verify);
+                    var8 = _closure1_slot1;
+                    var10 = _closure1_slot3;
+                    var6 = 11;
+                    var6 = var10[var6];
+                    var8 = var8.bind(var1)(var6);
+                    var6 = var8.enableZstdStreamSupport;
+                    var6 = var6.bind(var8)(var9);
  431:
-                    oscard = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null};
-                    oscard['gateway'] = golfie;
-                    golfie = new Array(0);
-                    oscard['messages'] = golfie;
-                    var _closure3_slot1 = oscard;
-                    golfie = function() {
-                        tangon = _closure1_slot1;
-                        zuuluu = _closure1_slot3;
-                        entity = 13;
-                        zuuluu = zuuluu[entity];
-                        entity = undefined;
-                        oscard = tangon.bind(entity)(zuuluu);
-                        report = oscard.mark;
-                        tangon = '🌐';
-                        zuuluu = 'Fastconnect socket opened';
-                        zuuluu = report.bind(oscard)(tangon, zuuluu);
-                        report = _closure1_slot7;
-                        tangon = report.log;
-                        zuuluu = global;
-                        oscard = zuuluu.Date;
-                        michal = oscard.now;
-                        golfie = michal.bind(oscard)();
-                        oscard = _closure3_slot0;
-                        verify = golfie - oscard;
-                        oscard = _closure3_slot1;
-                        option = oscard.identify;
-                        zuuluu = zuuluu.HermesInternal;
-                        golfie = zuuluu.concat;
-                        oscard = 'connected and identified in ';
-                        zuuluu = 'ms didIdentify:';
-                        zuuluu = golfie.bind(oscard)(verify, zuuluu, option);
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        zuuluu = _closure3_slot1;
-                        michal = true;
-                        zuuluu['open'] = michal;
-                        return entity;
+                    var6 = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null};
+                    var6['gateway'] = var7;
+                    var7 = new Array(0);
+                    var6['messages'] = var7;
+                    var _closure3_slot1 = var6;
+                    var7 = function() {
+                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot3;
+                        var1 = 13;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var6 = var4.bind(var1)(var3);
+                        var5 = var6.mark;
+                        var4 = '🌐';
+                        var3 = 'Fastconnect socket opened';
+                        var3 = var5.bind(var6)(var4, var3);
+                        var5 = _closure1_slot7;
+                        var4 = var5.log;
+                        var3 = global;
+                        var6 = var3.Date;
+                        var2 = var6.now;
+                        var7 = var2.bind(var6)();
+                        var6 = _closure3_slot0;
+                        var9 = var7 - var6;
+                        var6 = _closure3_slot1;
+                        var8 = var6.identify;
+                        var3 = var3.HermesInternal;
+                        var7 = var3.concat;
+                        var6 = 'connected and identified in ';
+                        var3 = 'ms didIdentify:';
+                        var3 = var7.bind(var6)(var9, var3, var8);
+                        var3 = var4.bind(var5)(var3);
+                        var3 = _closure3_slot1;
+                        var2 = true;
+                        var3['open'] = var2;
+                        return var1;
                     };
-                    michal['onopen'] = golfie;
-                    golfie = function() {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot3;
-                        entity = 13;
-                        michal = michal[entity];
-                        entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        tangon = report.mark;
-                        zuuluu = '🌐';
-                        michal = 'Fastconnect socket close';
-                        michal = tangon.bind(report)(zuuluu, michal);
-                        michal = global;
-                        zuuluu = michal.window;
-                        michal = null;
-                        zuuluu['_ws'] = michal;
-                        return entity;
+                    var2['onopen'] = var7;
+                    var7 = function() {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot3;
+                        var1 = 13;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var5 = var3.bind(var1)(var2);
+                        var4 = var5.mark;
+                        var3 = '🌐';
+                        var2 = 'Fastconnect socket close';
+                        var2 = var4.bind(var5)(var3, var2);
+                        var2 = global;
+                        var3 = var2.window;
+                        var2 = null;
+                        var3['_ws'] = var2;
+                        return var1;
                     };
-                    michal['onerror'] = golfie;
-                    michal['onclose'] = golfie;
-                    report = function(argFoo) {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot3;
-                        entity = 13;
-                        michal = michal[entity];
-                        entity = undefined;
-                        report = zuuluu.bind(entity)(michal);
-                        tangon = report.mark;
-                        zuuluu = '🌐';
-                        michal = 'Fastconnect socket message';
-                        michal = tangon.bind(report)(zuuluu, michal);
-                        michal = _closure3_slot1;
-                        tangon = michal.messages;
-                        zuuluu = tangon.push;
-                        michal = argFoo;
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                    var2['onerror'] = var7;
+                    var2['onclose'] = var7;
+                    var5 = function(arg1) {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot3;
+                        var1 = 13;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var5 = var3.bind(var1)(var2);
+                        var4 = var5.mark;
+                        var3 = '🌐';
+                        var2 = 'Fastconnect socket message';
+                        var2 = var4.bind(var5)(var3, var2);
+                        var2 = _closure3_slot1;
+                        var4 = var2.messages;
+                        var3 = var4.push;
+                        var2 = arg1;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
                     };
-                    michal['onmessage'] = report;
-                    report = tangon.window;
-                    tangon = {};
-                    tangon['ws'] = michal;
-                    tangon['state'] = oscard;
-                    report['_ws'] = tangon;
-                    report = _closure1_slot1;
-                    oscard = _closure1_slot3;
-                    tangon = 13;
-                    tangon = oscard[tangon];
-                    golfie = report.bind(entity)(tangon);
-                    oscard = golfie.mark;
-                    report = '🌐';
-                    tangon = 'Fastconnect socket created';
-                    tangon = oscard.bind(golfie)(report, tangon);
-                    _fun00004_ip = 595; continue _fun00003;
+                    var2['onmessage'] = var5;
+                    var5 = var4.window;
+                    var4 = {};
+                    var4['ws'] = var2;
+                    var4['state'] = var6;
+                    var5['_ws'] = var4;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot3;
+                    var4 = 13;
+                    var4 = var6[var4];
+                    var7 = var5.bind(var1)(var4);
+                    var6 = var7.mark;
+                    var5 = '🌐';
+                    var4 = 'Fastconnect socket created';
+                    var4 = var6.bind(var7)(var5, var4);
+                    _fun0002_ip = 595; continue _fun0002;
  567:
-                    report = _closure1_slot7;
-                    tangon = report.log;
-                    zuuluu = michal._socketId;
-                    michal = '[FAST CONNECT] Unable to create socketId from NaN value ';
-                    michal = tangon.bind(report)(michal, zuuluu);
+                    var5 = _closure1_slot7;
+                    var4 = var5.log;
+                    var3 = var2._socketId;
+                    var2 = '[FAST CONNECT] Unable to create socketId from NaN value ';
+                    var2 = var4.bind(var5)(var2, var3);
  595:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = undefined;
-            entity = michal.bind(entity)();
+            var1 = undefined;
+            var1 = var2.bind(var1)();
  59:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.NativeModules;
-    var _closure1_slot4 = option;
-    option = report.Platform;
-    report = report.AppState;
-    var _closure1_slot5 = report;
-    option = 2;
-    option = golfie[option];
-    option = oscard.bind(entity)(option);
-    option = option.VERSION_TO_FORCE_RESYNCING_ALL_DATA;
-    var _closure1_slot6 = option;
-    option = 3;
-    option = golfie[option];
-    offset = verify.bind(entity)(option);
-    option = offset.prototype;
-    verify = Object.create(option, {constructor: {value: offset}});
-    foxtra = 'FAST CONNECT';
-    backup = verify;
-    option = new backup[offset](foxtra, romeon);
-    offset = option instanceof Object ? option : verify;
-    var _closure1_slot7 = offset;
-    verify = offset.info;
-    option = report.currentState;
-    report = 'initial app state (import time)';
-    report = verify.bind(offset)(report, option);
-    report = tangon.bind(entity)();
-    report = 15;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/gateway/native/fast_connect.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['createFastConnectSocket'] = tangon;
-    tangon = function() { // Original name: closeFastConnectSocket
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.NativeModules;
+    var _closure1_slot4 = var8;
+    var8 = var5.Platform;
+    var5 = var5.AppState;
+    var _closure1_slot5 = var5;
+    var8 = 2;
+    var8 = var7[var8];
+    var8 = var6.bind(var1)(var8);
+    var8 = var8.VERSION_TO_FORCE_RESYNCING_ALL_DATA;
+    var _closure1_slot6 = var8;
+    var8 = 3;
+    var8 = var7[var8];
+    var10 = var9.bind(var1)(var8);
+    var8 = var10.prototype;
+    var9 = Object.create(var8, {constructor: {value: var10}});
+    var13 = 'FAST CONNECT';
+    var14 = var9;
+    var8 = new var14[var10](var13, var12);
+    var10 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot7 = var10;
+    var9 = var10.info;
+    var8 = var5.currentState;
+    var5 = 'initial app state (import time)';
+    var5 = var9.bind(var10)(var5, var8);
+    var5 = var4.bind(var1)();
+    var5 = 15;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/gateway/native/fast_connect.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['createFastConnectSocket'] = var4;
+    var4 = function closeFastConnectSocket() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = global;
-            michal = entity.window;
-            zuuluu = michal._ws;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00006_ip = 60; continue _fun00005 }
+            var1 = global;
+            var2 = var1.window;
+            var3 = var2._ws;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0003_ip = 60; continue _fun0003 }
  20:
-            zuuluu = entity.window;
-            zuuluu = zuuluu._ws;
-            tangon = zuuluu.ws;
-            zuuluu = tangon.close;
-            zuuluu = zuuluu.bind(tangon)();
-            entity = entity.window;
-            entity['_ws'] = michal;
+            var3 = var1.window;
+            var3 = var3._ws;
+            var4 = var3.ws;
+            var3 = var4.close;
+            var3 = var3.bind(var4)();
+            var1 = var1.window;
+            var1['_ws'] = var2;
  60:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['closeFastConnectSocket'] = tangon;
-    michal = function() { // Original name: identifyWebSocket
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['closeFastConnectSocket'] = var4;
+    var2 = function identifyWebSocket() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = global;
-            entity = entity.window;
-            michal = entity._ws;
-            entity = null;
-            if(!(entity == michal)) { _fun00008_ip = 46; continue _fun00007 }
+            var1 = global;
+            var1 = var1.window;
+            var2 = var1._ws;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0004_ip = 46; continue _fun0004 }
  20:
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.log;
-            entity = 'Skipping identifyWebSocket because socket is null';
-            entity = michal.bind(zuuluu)(entity);
-            _fun00008_ip = 95; continue _fun00007;
+            var3 = _closure1_slot7;
+            var2 = var3.log;
+            var1 = 'Skipping identifyWebSocket because socket is null';
+            var1 = var2.bind(var3)(var1);
+            _fun0004_ip = 95; continue _fun0004;
  46:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot3;
-            entity = 14;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            zuuluu = entity.beginFastConnect;
-            michal = zuuluu.measure;
-            entity = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot3;
+            var1 = 14;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.beginFastConnect;
+            var2 = var3.measure;
+            var1 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot3;
-                    entity = 14;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    tangon = michal.loadFastConnectNativeModule;
-                    zuuluu = tangon.measure;
-                    michal = function() {
-                        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot3;
+                    var1 = 14;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var4 = var2.loadFastConnectNativeModule;
+                    var3 = var4.measure;
+                    var2 = function() {
+                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                            zuuluu = _closure1_slot0;
-                            tangon = _closure1_slot3;
-                            entity = 4;
-                            entity = tangon[entity];
-                            tangon = undefined;
-                            zuuluu = zuuluu.bind(tangon)(entity);
-                            entity = zuuluu.isAndroid;
-                            entity = entity.bind(zuuluu)();
-                            if(entity) { _fun00012_ip = 55; continue _fun00011 }
+                            var3 = _closure1_slot0;
+                            var4 = _closure1_slot3;
+                            var1 = 4;
+                            var1 = var4[var1];
+                            var4 = undefined;
+                            var3 = var3.bind(var4)(var1);
+                            var1 = var3.isAndroid;
+                            var1 = var1.bind(var3)();
+                            if(var1) { _fun0006_ip = 55; continue _fun0006 }
  37:
-                            entity = _closure1_slot4;
-                            entity = entity.DCDFastConnectManager;
-                            entity = entity.token;
-                            _fun00012_ip = 106; continue _fun00011;
+                            var1 = _closure1_slot4;
+                            var1 = var1.DCDFastConnectManager;
+                            var1 = var1.token;
+                            _fun0006_ip = 106; continue _fun0006;
  55:
-                            zuuluu = _closure1_slot1;
-                            report = _closure1_slot3;
-                            michal = 5;
-                            michal = report[michal];
-                            zuuluu = zuuluu.bind(tangon)(michal);
-                            michal = zuuluu.getConstants;
-                            michal = michal.bind(zuuluu)();
-                            zuuluu = michal.token;
-                            michal = null;
-                            tangon = michal != zuuluu;
-                            if(!tangon) { _fun00012_ip = 103; continue _fun00011 }
+                            var3 = _closure1_slot1;
+                            var5 = _closure1_slot3;
+                            var2 = 5;
+                            var2 = var5[var2];
+                            var3 = var3.bind(var4)(var2);
+                            var2 = var3.getConstants;
+                            var2 = var2.bind(var3)();
+                            var3 = var2.token;
+                            var2 = null;
+                            var4 = var2 != var3;
+                            if(!var4) { _fun0006_ip = 103; continue _fun0006 }
  100:
-                            michal = zuuluu;
+                            var2 = var3;
  103:
-                            entity = michal;
+                            var1 = var2;
  106:
-                            return entity;
+                            return var1;
                         }
                     };
-                    tangon = zuuluu.bind(tangon)(michal);
-                    offset = null;
-                    if(!(offset != tangon)) { _fun00010_ip = 63; continue _fun00009 }
+                    var4 = var3.bind(var4)(var2);
+                    var10 = null;
+                    if(!(var10 != var4)) { _fun0005_ip = 63; continue _fun0005 }
  55:
-                    michal = '';
-                    if(!(michal === tangon)) { _fun00010_ip = 89; continue _fun00009 }
+                    var2 = '';
+                    if(!(var2 === var4)) { _fun0005_ip = 89; continue _fun0005 }
  63:
-                    report = _closure1_slot7;
-                    zuuluu = report.log;
-                    michal = 'Skipping fast_connect because we could not find a token to connect with.';
-                    michal = zuuluu.bind(report)(michal);
-                    _fun00010_ip = 803; continue _fun00009;
+                    var5 = _closure1_slot7;
+                    var3 = var5.log;
+                    var2 = 'Skipping fast_connect because we could not find a token to connect with.';
+                    var2 = var3.bind(var5)(var2);
+                    _fun0005_ip = 803; continue _fun0005;
  89:
-                    report = global;
-                    michal = report.window;
-                    zuuluu = michal._ws;
-                    michal = zuuluu.ws;
-                    zuuluu = zuuluu.state;
-                    oscard = michal._socketId;
-                    golfie = _closure1_slot0;
-                    michal = _closure1_slot3;
-                    foxtra = 4;
-                    michal = michal[foxtra];
-                    golfie = golfie.bind(entity)(michal);
-                    michal = golfie.isAndroid;
-                    michal = michal.bind(golfie)();
-                    if(michal) { _fun00010_ip = 169; continue _fun00009 }
+                    var5 = global;
+                    var2 = var5.window;
+                    var3 = var2._ws;
+                    var2 = var3.ws;
+                    var3 = var3.state;
+                    var6 = var2._socketId;
+                    var7 = _closure1_slot0;
+                    var2 = _closure1_slot3;
+                    var13 = 4;
+                    var2 = var2[var13];
+                    var7 = var7.bind(var1)(var2);
+                    var2 = var7.isAndroid;
+                    var2 = var2.bind(var7)();
+                    if(var2) { _fun0005_ip = 169; continue _fun0005 }
  152:
-                    michal = _closure1_slot4;
-                    michal = michal.DCDFastConnectManager;
-                    michal = michal.userId;
-                    _fun00010_ip = 204; continue _fun00009;
+                    var2 = _closure1_slot4;
+                    var2 = var2.DCDFastConnectManager;
+                    var2 = var2.userId;
+                    _fun0005_ip = 204; continue _fun0005;
  169:
-                    option = _closure1_slot1;
-                    verify = _closure1_slot3;
-                    golfie = 5;
-                    golfie = verify[golfie];
-                    option = option.bind(entity)(golfie);
-                    golfie = option.getConstants;
-                    golfie = golfie.bind(option)();
-                    michal = golfie.userId;
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot3;
+                    var7 = 5;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var1)(var7);
+                    var7 = var8.getConstants;
+                    var7 = var7.bind(var8)();
+                    var2 = var7.userId;
  204:
-                    golfie = offset != michal;
-                    romeon = null;
-                    if(!golfie) { _fun00010_ip = 216; continue _fun00009 }
+                    var7 = var10 != var2;
+                    var12 = null;
+                    if(!var7) { _fun0005_ip = 216; continue _fun0005 }
  213:
-                    romeon = michal;
+                    var12 = var2;
  216:
-                    verify = _closure1_slot7;
-                    option = verify.info;
-                    michal = _closure1_slot5;
-                    golfie = michal.currentState;
-                    michal = 'prepareIdentify: app state: ';
-                    michal = option.bind(verify)(michal, golfie);
-                    golfie = _closure1_slot1;
-                    michal = _closure1_slot3;
-                    verify = 6;
-                    michal = michal[verify];
-                    golfie = golfie.bind(entity)(michal);
-                    michal = golfie.getLatestTaskRunOn;
-                    golfie = michal.bind(golfie)();
-                    michal = offset != golfie;
-                    output = null;
-                    if(!michal) { _fun00010_ip = 316; continue _fun00009 }
+                    var9 = _closure1_slot7;
+                    var8 = var9.info;
+                    var2 = _closure1_slot5;
+                    var7 = var2.currentState;
+                    var2 = 'prepareIdentify: app state: ';
+                    var2 = var8.bind(var9)(var2, var7);
+                    var7 = _closure1_slot1;
+                    var2 = _closure1_slot3;
+                    var9 = 6;
+                    var2 = var2[var9];
+                    var7 = var7.bind(var1)(var2);
+                    var2 = var7.getLatestTaskRunOn;
+                    var7 = var2.bind(var7)();
+                    var2 = var10 != var7;
+                    var17 = null;
+                    if(!var2) { _fun0005_ip = 316; continue _fun0005 }
  287:
-                    option = report.Date;
-                    michal = option.now;
-                    michal = michal.bind(option)();
-                    golfie = michal - golfie;
-                    michal = 1000;
-                    output = golfie / michal;
+                    var8 = var5.Date;
+                    var2 = var8.now;
+                    var2 = var2.bind(var8)();
+                    var7 = var2 - var7;
+                    var2 = 1000;
+                    var17 = var7 / var2;
  316:
-                    michal = {};
-                    michal['token'] = tangon;
-                    option = {};
-                    sizing = _closure1_slot2;
-                    golfie = _closure1_slot3;
-                    tangon = 7;
-                    tangon = golfie[tangon];
-                    backup = sizing.bind(entity)(tangon);
-                    tangon = backup.getSuperProperties;
-                    source = tangon.bind(backup)();
-                    ctrled = option;
-                    tangon = copyDataProperties(ctrled, source);
-                    tangon = _closure1_slot5;
-                    backup = tangon.currentState;
-                    tangon = 'client_app_state';
-                    option[tangon] = backup;
-                    tangon = true;
-                    backup = 'is_fast_connect';
-                    option[backup] = tangon;
-                    backup = _closure1_slot1;
-                    kiloes = golfie[verify];
-                    result = backup.bind(entity)(kiloes);
-                    kiloes = result.getHeadlessTasks;
-                    result = kiloes.bind(result)();
-                    kiloes = 'latest_headless_tasks';
-                    option[kiloes] = result;
-                    kiloes = 'latest_headless_task_run_seconds_before';
-                    option[kiloes] = output;
-                    kiloes = 8;
-                    kiloes = golfie[kiloes];
-                    sizing = sizing.bind(entity)(kiloes);
-                    kiloes = sizing.describeConnectionReasons;
-                    sizing = kiloes.bind(sizing)();
-                    kiloes = 'gateway_connect_reasons';
-                    option[kiloes] = sizing;
-                    michal['properties'] = option;
-                    option = _closure1_slot0;
-                    kiloes = 9;
-                    kiloes = golfie[kiloes];
-                    sizing = option.bind(entity)(kiloes);
-                    kiloes = sizing.getClientCapabilities;
-                    kiloes = kiloes.bind(sizing)();
-                    michal['capabilities'] = kiloes;
-                    kiloes = {};
-                    sizing = {};
-                    kiloes['guild_versions'] = sizing;
-                    michal['client_state'] = kiloes;
-                    verify = golfie[verify];
-                    backup = backup.bind(entity)(verify);
-                    verify = backup.clear;
-                    verify = verify.bind(backup)();
-                    kiloes = report.JSON;
-                    backup = kiloes.stringify;
-                    verify = {};
-                    sizing = 2;
-                    verify['op'] = sizing;
-                    verify['d'] = michal;
-                    verify = backup.bind(kiloes)(verify);
-                    golfie = golfie[foxtra];
-                    option = option.bind(entity)(golfie);
-                    golfie = option.isAndroid;
-                    golfie = golfie.bind(option)();
-                    if(golfie) { _fun00010_ip = 664; continue _fun00009 }
+                    var2 = {};
+                    var2['token'] = var4;
+                    var8 = {};
+                    var16 = _closure1_slot2;
+                    var7 = _closure1_slot3;
+                    var4 = 7;
+                    var4 = var7[var4];
+                    var14 = var16.bind(var1)(var4);
+                    var4 = var14.getSuperProperties;
+                    var21 = var4.bind(var14)();
+                    var22 = var8;
+                    var4 = copyDataProperties(var22, var21);
+                    var4 = _closure1_slot5;
+                    var14 = var4.currentState;
+                    var4 = 'client_app_state';
+                    var8[var4] = var14;
+                    var4 = true;
+                    var14 = 'is_fast_connect';
+                    var8[var14] = var4;
+                    var14 = _closure1_slot1;
+                    var15 = var7[var9];
+                    var18 = var14.bind(var1)(var15);
+                    var15 = var18.getHeadlessTasks;
+                    var18 = var15.bind(var18)();
+                    var15 = 'latest_headless_tasks';
+                    var8[var15] = var18;
+                    var15 = 'latest_headless_task_run_seconds_before';
+                    var8[var15] = var17;
+                    var15 = 8;
+                    var15 = var7[var15];
+                    var16 = var16.bind(var1)(var15);
+                    var15 = var16.describeConnectionReasons;
+                    var16 = var15.bind(var16)();
+                    var15 = 'gateway_connect_reasons';
+                    var8[var15] = var16;
+                    var2['properties'] = var8;
+                    var8 = _closure1_slot0;
+                    var15 = 9;
+                    var15 = var7[var15];
+                    var16 = var8.bind(var1)(var15);
+                    var15 = var16.getClientCapabilities;
+                    var15 = var15.bind(var16)();
+                    var2['capabilities'] = var15;
+                    var15 = {};
+                    var16 = {};
+                    var15['guild_versions'] = var16;
+                    var2['client_state'] = var15;
+                    var9 = var7[var9];
+                    var14 = var14.bind(var1)(var9);
+                    var9 = var14.clear;
+                    var9 = var9.bind(var14)();
+                    var15 = var5.JSON;
+                    var14 = var15.stringify;
+                    var9 = {};
+                    var16 = 2;
+                    var9['op'] = var16;
+                    var9['d'] = var2;
+                    var9 = var14.bind(var15)(var9);
+                    var7 = var7[var13];
+                    var8 = var8.bind(var1)(var7);
+                    var7 = var8.isAndroid;
+                    var7 = var7.bind(var8)();
+                    if(var7) { _fun0005_ip = 664; continue _fun0005 }
  588:
-                    golfie = _closure1_slot4;
-                    foxtra = golfie.DCDFastConnectManager;
-                    option = foxtra.prepareIdentify;
-                    backup = _closure1_slot0;
-                    kiloes = _closure1_slot3;
-                    golfie = 10;
-                    golfie = kiloes[golfie];
-                    backup = backup.bind(entity)(golfie);
-                    golfie = backup.isCacheEnabled;
-                    backup = golfie.bind(backup)();
-                    golfie = null;
-                    if(!backup) { _fun00010_ip = 643; continue _fun00009 }
+                    var7 = _closure1_slot4;
+                    var13 = var7.DCDFastConnectManager;
+                    var8 = var13.prepareIdentify;
+                    var14 = _closure1_slot0;
+                    var15 = _closure1_slot3;
+                    var7 = 10;
+                    var7 = var15[var7];
+                    var14 = var14.bind(var1)(var7);
+                    var7 = var14.isCacheEnabled;
+                    var14 = var7.bind(var14)();
+                    var7 = null;
+                    if(!var14) { _fun0005_ip = 643; continue _fun0005 }
  639:
-                    golfie = _closure1_slot6;
+                    var7 = _closure1_slot6;
  643:
-                    vacuum = foxtra;
-                    ctrled = romeon;
-                    source = verify;
-                    update = oscard;
-                    echoed = golfie;
-                    golfie = vacuum[option](ctrled, source, update, echoed, result);
-                    _fun00010_ip = 785; continue _fun00009;
+                    var23 = var13;
+                    var22 = var12;
+                    var21 = var9;
+                    var20 = var6;
+                    var19 = var7;
+                    var7 = var23[var8](var22, var21, var20, var19, var18);
+                    _fun0005_ip = 785; continue _fun0005;
  664:
-                    option = offset == romeon;
-                    golfie = undefined;
-                    if(option) { _fun00010_ip = 682; continue _fun00009 }
+                    var8 = var10 == var12;
+                    var7 = undefined;
+                    if(var8) { _fun0005_ip = 682; continue _fun0005 }
  673:
-                    option = romeon.toString;
-                    golfie = option.bind(romeon)();
+                    var8 = var12.toString;
+                    var7 = var8.bind(var12)();
  682:
-                    option = offset != golfie;
-                    offset = null;
-                    if(!option) { _fun00010_ip = 694; continue _fun00009 }
+                    var8 = var10 != var7;
+                    var10 = null;
+                    if(!var8) { _fun0005_ip = 694; continue _fun0005 }
  691:
-                    offset = golfie;
+                    var10 = var7;
  694:
-                    option = _closure1_slot1;
-                    foxtra = _closure1_slot3;
-                    golfie = 5;
-                    golfie = foxtra[golfie];
-                    option = option.bind(entity)(golfie);
-                    golfie = option.prepareIdentify;
-                    report = report.parseFloat;
-                    oscard = report.bind(entity)(oscard);
-                    romeon = _closure1_slot0;
-                    report = 10;
-                    report = foxtra[report];
-                    romeon = romeon.bind(entity)(report);
-                    report = romeon.isCacheEnabled;
-                    romeon = report.bind(romeon)();
-                    report = undefined;
-                    if(!romeon) { _fun00010_ip = 766; continue _fun00009 }
+                    var8 = _closure1_slot1;
+                    var13 = _closure1_slot3;
+                    var7 = 5;
+                    var7 = var13[var7];
+                    var8 = var8.bind(var1)(var7);
+                    var7 = var8.prepareIdentify;
+                    var5 = var5.parseFloat;
+                    var6 = var5.bind(var1)(var6);
+                    var12 = _closure1_slot0;
+                    var5 = 10;
+                    var5 = var13[var5];
+                    var12 = var12.bind(var1)(var5);
+                    var5 = var12.isCacheEnabled;
+                    var12 = var5.bind(var12)();
+                    var5 = undefined;
+                    if(!var12) { _fun0005_ip = 766; continue _fun0005 }
  762:
-                    report = _closure1_slot6;
+                    var5 = _closure1_slot6;
  766:
-                    vacuum = option;
-                    ctrled = offset;
-                    source = verify;
-                    update = oscard;
-                    echoed = report;
-                    report = vacuum[golfie](ctrled, source, update, echoed, result);
+                    var23 = var8;
+                    var22 = var10;
+                    var21 = var9;
+                    var20 = var6;
+                    var19 = var5;
+                    var5 = var23[var7](var22, var21, var20, var19, var18);
  785:
-                    michal = michal.client_state;
-                    zuuluu['identify'] = tangon;
-                    zuuluu['clientState'] = michal;
+                    var2 = var2.client_state;
+                    var3['identify'] = var4;
+                    var3['clientState'] = var2;
  803:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
+            var1 = var2.bind(var3)(var1);
  95:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['identifyWebSocket'] = michal;
-    return entity;
+    var3['identifyWebSocket'] = var2;
+    return var1;
 })();

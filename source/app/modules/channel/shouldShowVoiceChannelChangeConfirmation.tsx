@@ -1,110 +1,110 @@
 // app/modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: shouldShowVoiceChannelChangeConfirmation
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/channel/shouldShowVoiceChannelChangeConfirmation.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function shouldShowVoiceChannelChangeConfirmation(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            entity = _closure1_slot1;
-            entity = entity.disableVoiceChannelChangeAlert;
-            if(entity) { _fun00002_ip = 196; continue _fun00001 }
+            var6 = arg1;
+            var1 = _closure1_slot1;
+            var1 = var1.disableVoiceChannelChangeAlert;
+            if(var1) { _fun0001_ip = 196; continue _fun0001 }
  22:
-            michal = _closure1_slot0;
-            entity = michal.getRemoteSessionId;
-            report = entity.bind(michal)();
-            tangon = _closure1_slot4;
-            michal = tangon.getVoiceStateForSession;
-            golfie = _closure1_slot2;
-            entity = golfie.getId;
-            entity = entity.bind(golfie)();
-            entity = michal.bind(tangon)(entity, report);
-            tangon = null;
-            if(!(tangon == entity)) { _fun00002_ip = 192; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var1 = var2.getRemoteSessionId;
+            var5 = var1.bind(var2)();
+            var4 = _closure1_slot4;
+            var2 = var4.getVoiceStateForSession;
+            var7 = _closure1_slot2;
+            var1 = var7.getId;
+            var1 = var1.bind(var7)();
+            var1 = var2.bind(var4)(var1, var5);
+            var4 = null;
+            if(!(var4 == var1)) { _fun0001_ip = 192; continue _fun0001 }
  72:
-            michal = _closure1_slot4;
-            entity = michal.isCurrentClientInVoiceChannel;
-            entity = entity.bind(michal)();
-            if(entity) { _fun00002_ip = 93; continue _fun00001 }
+            var2 = _closure1_slot4;
+            var1 = var2.isCurrentClientInVoiceChannel;
+            var1 = var1.bind(var2)();
+            if(var1) { _fun0001_ip = 93; continue _fun0001 }
  89:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  93:
-            report = _closure1_slot4;
-            michal = report.isInChannel;
-            entity = oscard.id;
-            entity = michal.bind(report)(entity);
-            if(entity) { _fun00002_ip = 188; continue _fun00001 }
+            var5 = _closure1_slot4;
+            var2 = var5.isInChannel;
+            var1 = var6.id;
+            var1 = var2.bind(var5)(var1);
+            if(var1) { _fun0001_ip = 188; continue _fun0001 }
  116:
-            report = _closure1_slot3;
-            michal = report.getGuild;
-            entity = oscard.getGuildId;
-            entity = entity.bind(oscard)();
-            michal = michal.bind(report)(entity);
-            report = tangon == michal;
-            entity = undefined;
-            if(report) { _fun00002_ip = 155; continue _fun00001 }
+            var5 = _closure1_slot3;
+            var2 = var5.getGuild;
+            var1 = var6.getGuildId;
+            var1 = var1.bind(var6)();
+            var2 = var2.bind(var5)(var1);
+            var5 = var4 == var2;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 155; continue _fun0001 }
  149:
-            entity = michal.afkChannelId;
+            var1 = var2.afkChannelId;
  155:
-            entity = tangon == entity;
-            if(entity) { _fun00002_ip = 186; continue _fun00001 }
+            var1 = var4 == var1;
+            if(var1) { _fun0001_ip = 186; continue _fun0001 }
  162:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.isInChannel;
-            michal = michal.afkChannelId;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
+            var4 = _closure1_slot4;
+            var3 = var4.isInChannel;
+            var2 = var2.afkChannelId;
+            var2 = var3.bind(var4)(var2);
+            var1 = !var2;
  186:
-            return entity;
+            return var1;
  188:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  192:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  196:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['shouldShowVoiceChannelChangeConfirmation'] = michal;
-    return entity;
+    var3['shouldShowVoiceChannelChangeConfirmation'] = var2;
+    return var1;
 })();

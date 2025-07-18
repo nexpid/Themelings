@@ -1,363 +1,363 @@
 // app/modules/chat/native/ChatUpdatesQueue.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.NativeEventEmitter;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.NativeModules;
-    tangon = tangon.DCDChatBlockerManager;
-    var _closure1_slot3 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function(argFoo, argBar) { // Original name: ChatUpdatesQueue
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            oscard = _closure1_slot0;
-            report = _closure2_slot0;
-            entity = undefined;
-            report = oscard.bind(entity)(zuuluu, report);
-            report = global;
-            report = report.Set;
-            oscard = report.prototype;
-            oscard = Object.create(oscard, {constructor: {value: report}});
-            offset = oscard;
-            report = new offset[report](verify);
-            report = report instanceof Object ? report : oscard;
-            zuuluu['blockers'] = report;
-            report = new Array(0);
-            zuuluu['queue'] = report;
-            report = null;
-            zuuluu['queueStartTimestamp'] = report;
-            report = function(argFoo) {
-                michal = _closure3_slot0;
-                entity = argFoo;
-                michal['onFlushItem'] = entity;
-                entity = undefined;
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.NativeEventEmitter;
+    var _closure1_slot2 = var7;
+    var4 = var4.NativeModules;
+    var4 = var4.DCDChatBlockerManager;
+    var _closure1_slot3 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function ChatUpdatesQueue(arg1, arg2) {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var6 = _closure1_slot0;
+            var5 = _closure2_slot0;
+            var1 = undefined;
+            var5 = var6.bind(var1)(var3, var5);
+            var5 = global;
+            var5 = var5.Set;
+            var6 = var5.prototype;
+            var6 = Object.create(var6, {constructor: {value: var5}});
+            var10 = var6;
+            var5 = new var10[var5](var9);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var3['blockers'] = var5;
+            var5 = new Array(0);
+            var3['queue'] = var5;
+            var5 = null;
+            var3['queueStartTimestamp'] = var5;
+            var5 = function(arg1) {
+                var2 = _closure3_slot0;
+                var1 = arg1;
+                var2['onFlushItem'] = var1;
+                var1 = undefined;
+                return var1;
             };
-            zuuluu['setOnFlushItem'] = report;
-            report = argFoo;
-            zuuluu['getReactTag'] = report;
-            report = argBar;
-            zuuluu['onFlushItem'] = report;
-            oscard = _closure1_slot2;
-            verify = _closure1_slot3;
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            offset = report;
-            tangon = new offset[oscard](verify, option);
-            tangon = tangon instanceof Object ? tangon : report;
-            zuuluu['eventEmitter'] = tangon;
-            golfie = zuuluu.eventEmitter;
-            oscard = golfie.addListener;
-            report = 'AddBlocker';
-            tangon = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            var3['setOnFlushItem'] = var5;
+            var5 = arg1;
+            var3['getReactTag'] = var5;
+            var5 = arg2;
+            var3['onFlushItem'] = var5;
+            var6 = _closure1_slot2;
+            var9 = _closure1_slot3;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var10 = var5;
+            var4 = new var10[var6](var9, var8);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3['eventEmitter'] = var4;
+            var7 = var3.eventEmitter;
+            var6 = var7.addListener;
+            var5 = 'AddBlocker';
+            var4 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.blockerId;
-                    report = entity.reactTag;
-                    tangon = _closure3_slot0;
-                    michal = tangon.getReactTag;
-                    tangon = michal.bind(tangon)();
-                    michal = null;
-                    michal = michal != report;
-                    if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+                    var1 = arg1;
+                    var3 = var1.blockerId;
+                    var5 = var1.reactTag;
+                    var4 = _closure3_slot0;
+                    var2 = var4.getReactTag;
+                    var4 = var2.bind(var4)();
+                    var2 = null;
+                    var2 = var2 != var5;
+                    if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  41:
-                    michal = report === tangon;
+                    var2 = var5 === var4;
  45:
-                    if(!michal) { _fun00002_ip = 65; continue _fun00001 }
+                    if(!var2) { _fun0001_ip = 65; continue _fun0001 }
  48:
-                    michal = _closure3_slot0;
-                    entity = michal.addBlocker;
-                    entity = entity.bind(michal)(zuuluu);
+                    var2 = _closure3_slot0;
+                    var1 = var2.addBlocker;
+                    var1 = var1.bind(var2)(var3);
  65:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            tangon = oscard.bind(golfie)(report, tangon);
-            zuuluu['addBlockerSubscription'] = tangon;
-            oscard = zuuluu.eventEmitter;
-            report = oscard.addListener;
-            tangon = 'RemoveBlocker';
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = var6.bind(var7)(var5, var4);
+            var3['addBlockerSubscription'] = var4;
+            var6 = var3.eventEmitter;
+            var5 = var6.addListener;
+            var4 = 'RemoveBlocker';
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.blockerId;
-                    report = entity.reactTag;
-                    tangon = _closure3_slot0;
-                    michal = tangon.getReactTag;
-                    tangon = michal.bind(tangon)();
-                    michal = null;
-                    michal = michal != report;
-                    if(!michal) { _fun00004_ip = 45; continue _fun00003 }
+                    var1 = arg1;
+                    var3 = var1.blockerId;
+                    var5 = var1.reactTag;
+                    var4 = _closure3_slot0;
+                    var2 = var4.getReactTag;
+                    var4 = var2.bind(var4)();
+                    var2 = null;
+                    var2 = var2 != var5;
+                    if(!var2) { _fun0002_ip = 45; continue _fun0002 }
  41:
-                    michal = report === tangon;
+                    var2 = var5 === var4;
  45:
-                    if(!michal) { _fun00004_ip = 65; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 65; continue _fun0002 }
  48:
-                    michal = _closure3_slot0;
-                    entity = michal.removeBlocker;
-                    entity = entity.bind(michal)(zuuluu);
+                    var2 = _closure3_slot0;
+                    var1 = var2.removeBlocker;
+                    var1 = var1.bind(var2)(var3);
  65:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = report.bind(oscard)(tangon, michal);
-            zuuluu['removeBlockerSubscription'] = michal;
-            return entity;
+            var2 = var5.bind(var6)(var4, var2);
+            var3['removeBlockerSubscription'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'hasUpdates';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            entity = this;
-            entity = entity.queue;
-            michal = entity.length;
-            entity = 0;
-            entity = michal > entity;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'hasUpdates';
+        var1['key'] = var2;
+        var2 = function value() {
+            var1 = this;
+            var1 = var1.queue;
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(8);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'isBlocking';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: get
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var2;
+        var2 = new Array(8);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'isBlocking';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = this;
-                entity = michal.hasUpdates;
-                entity = entity.bind(michal)();
-                if(entity) { _fun00006_ip = 33; continue _fun00005 }
+                var2 = this;
+                var1 = var2.hasUpdates;
+                var1 = var1.bind(var2)();
+                if(var1) { _fun0003_ip = 33; continue _fun0003 }
  16:
-                michal = michal.blockers;
-                zuuluu = michal.size;
-                michal = 0;
-                entity = zuuluu > michal;
+                var2 = var2.blockers;
+                var3 = var2.size;
+                var2 = 0;
+                var1 = var3 > var2;
  33:
-                return entity;
+                return var1;
             }
         };
-        entity['get'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'addBlocker';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['get'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'addBlocker';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = argFoo;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00008_ip = 28; continue _fun00007 }
+                var3 = arg1;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0004_ip = 28; continue _fun0004 }
  9:
-                entity = this;
-                michal = entity.blockers;
-                entity = michal.add;
-                entity = entity.bind(michal)(zuuluu);
+                var1 = this;
+                var2 = var1.blockers;
+                var1 = var2.add;
+                var1 = var1.bind(var2)(var3);
  28:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'removeBlocker';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'removeBlocker';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = argFoo;
-                michal = this;
-                entity = null;
-                if(!(entity != tangon)) { _fun00010_ip = 55; continue _fun00009 }
+                var4 = arg1;
+                var2 = this;
+                var1 = null;
+                if(!(var1 != var4)) { _fun0005_ip = 55; continue _fun0005 }
  12:
-                zuuluu = michal.blockers;
-                entity = zuuluu.delete;
-                entity = entity.bind(zuuluu)(tangon);
-                entity = michal.blockers;
-                zuuluu = entity.size;
-                entity = 0;
-                if(!(entity === zuuluu)) { _fun00010_ip = 55; continue _fun00009 }
+                var3 = var2.blockers;
+                var1 = var3.delete;
+                var1 = var1.bind(var3)(var4);
+                var1 = var2.blockers;
+                var3 = var1.size;
+                var1 = 0;
+                if(!(var1 === var3)) { _fun0005_ip = 55; continue _fun0005 }
  45:
-                entity = michal.flush;
-                entity = entity.bind(michal)();
+                var1 = var2.flush;
+                var1 = var1.bind(var2)();
  55:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'add';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'add';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                michal = this;
-                entity = michal.queueStartTimestamp;
-                tangon = null;
-                if(!(tangon == entity)) { _fun00012_ip = 38; continue _fun00011 }
+                var2 = this;
+                var1 = var2.queueStartTimestamp;
+                var4 = null;
+                if(!(var4 == var1)) { _fun0006_ip = 38; continue _fun0006 }
  15:
-                entity = global;
-                zuuluu = entity.Date;
-                entity = zuuluu.now;
-                entity = entity.bind(zuuluu)();
-                michal['queueStartTimestamp'] = entity;
+                var1 = global;
+                var3 = var1.Date;
+                var1 = var3.now;
+                var1 = var1.bind(var3)();
+                var2['queueStartTimestamp'] = var1;
  38:
-                report = michal.queue;
-                zuuluu = report.push;
-                entity = argFoo;
-                entity = zuuluu.bind(report)(entity);
-                entity = michal.queue;
-                zuuluu = entity.length;
-                entity = 100;
-                entity = zuuluu > entity;
-                zuuluu = michal.queueStartTimestamp;
-                zuuluu = tangon != zuuluu;
-                if(!zuuluu) { _fun00012_ip = 125; continue _fun00011 }
+                var5 = var2.queue;
+                var3 = var5.push;
+                var1 = arg1;
+                var1 = var3.bind(var5)(var1);
+                var1 = var2.queue;
+                var3 = var1.length;
+                var1 = 100;
+                var1 = var3 > var1;
+                var3 = var2.queueStartTimestamp;
+                var3 = var4 != var3;
+                if(!var3) { _fun0006_ip = 125; continue _fun0006 }
  88:
-                tangon = global;
-                report = tangon.Date;
-                tangon = report.now;
-                report = tangon.bind(report)();
-                tangon = michal.queueStartTimestamp;
-                report = report - tangon;
-                tangon = 30000;
-                zuuluu = report > tangon;
+                var4 = global;
+                var5 = var4.Date;
+                var4 = var5.now;
+                var5 = var4.bind(var5)();
+                var4 = var2.queueStartTimestamp;
+                var5 = var5 - var4;
+                var4 = 30000;
+                var3 = var5 > var4;
  125:
-                if(entity) { _fun00012_ip = 131; continue _fun00011 }
+                if(var1) { _fun0006_ip = 131; continue _fun0006 }
  128:
-                entity = zuuluu;
+                var1 = var3;
  131:
-                if(!entity) { _fun00012_ip = 160; continue _fun00011 }
+                if(!var1) { _fun0006_ip = 160; continue _fun0006 }
  134:
-                zuuluu = michal.blockers;
-                entity = zuuluu.clear;
-                entity = entity.bind(zuuluu)();
-                entity = michal.flush;
-                entity = entity.bind(michal)();
+                var3 = var2.blockers;
+                var1 = var3.clear;
+                var1 = var1.bind(var3)();
+                var1 = var2.flush;
+                var1 = var1.bind(var2)();
  160:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'tryFlush';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'tryFlush';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                michal = this;
-                entity = michal.blockers;
-                zuuluu = entity.size;
-                entity = 0;
-                if(!(entity === zuuluu)) { _fun00014_ip = 30; continue _fun00013 }
+                var2 = this;
+                var1 = var2.blockers;
+                var3 = var1.size;
+                var1 = 0;
+                if(!(var1 === var3)) { _fun0007_ip = 30; continue _fun0007 }
  20:
-                entity = michal.flush;
-                entity = entity.bind(michal)();
+                var1 = var2.flush;
+                var1 = var1.bind(var2)();
  30:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[5] = entity;
-        entity = {};
-        oscard = 'flush';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            michal = this;
-            var _closure3_slot0 = michal;
-            zuuluu = null;
-            michal['queueStartTimestamp'] = zuuluu;
-            tangon = michal.queue;
-            zuuluu = tangon.forEach;
-            entity = function(argFoo) {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var1['value'] = var6;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'flush';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var3 = null;
+            var2['queueStartTimestamp'] = var3;
+            var4 = var2.queue;
+            var3 = var4.forEach;
+            var1 = function(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                    tangon = argFoo;
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00016_ip = 41; continue _fun00015 }
+                    var4 = arg1;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0008_ip = 41; continue _fun0008 }
  9:
-                    zuuluu = _closure3_slot0;
-                    zuuluu = zuuluu.onFlushItem;
-                    if(!(michal != zuuluu)) { _fun00016_ip = 41; continue _fun00015 }
+                    var3 = _closure3_slot0;
+                    var3 = var3.onFlushItem;
+                    if(!(var2 != var3)) { _fun0008_ip = 41; continue _fun0008 }
  26:
-                    michal = zuuluu.call;
-                    entity = _closure3_slot0;
-                    entity = michal.bind(zuuluu)(entity, tangon);
+                    var2 = var3.call;
+                    var1 = _closure3_slot0;
+                    var1 = var2.bind(var3)(var1, var4);
  41:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(entity);
-            entity = new Array(0);
-            michal['queue'] = entity;
-            entity = undefined;
-            return entity;
+            var1 = var3.bind(var4)(var1);
+            var1 = new Array(0);
+            var2['queue'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[6] = entity;
-        entity = {};
-        oscard = 'cleanup';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.addBlockerSubscription;
-            michal = zuuluu.remove;
-            michal = michal.bind(zuuluu)();
-            michal = entity.removeBlockerSubscription;
-            entity = michal.remove;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
+        var6 = 'cleanup';
+        var1['key'] = var6;
+        var5 = function value() {
+            var1 = this;
+            var3 = var1.addBlockerSubscription;
+            var2 = var3.remove;
+            var2 = var2.bind(var3)();
+            var2 = var1.removeBlockerSubscription;
+            var1 = var2.remove;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[7] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[7] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/ChatUpdatesQueue.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['ChatUpdatesQueue'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/native/ChatUpdatesQueue.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['ChatUpdatesQueue'] = var2;
+    return var1;
 })();

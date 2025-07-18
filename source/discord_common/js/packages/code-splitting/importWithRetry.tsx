@@ -1,189 +1,189 @@
 // discord_common/js/packages/code-splitting/importWithRetry.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = function() { // Original name: _importWithRetry
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot1;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = function _importWithRetry() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot1;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 209; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 209; continue _fun0001 }
  13:
-                    romeon = michal.createPromise;
-                    foxtra = michal.webpackId;
-                    yankee = undefined;
-                    backup = undefined;
-                    kiloes = undefined;
+                    var12 = var2.createPromise;
+                    var13 = var2.webpackId;
+                    var11 = undefined;
+                    var14 = undefined;
+                    var15 = undefined;
                     SaveGenerator(address=35);
  33:
-                    return yankee;
+                    return var11;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 206; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 206; continue _fun0001 }
  44:
-                    backup = 500;
-                    kiloes = 0;
-                    offset = global;
-                    verify = 2;
-                    option = 5000;
-                    oscard = 50;
+                    var14 = 500;
+                    var15 = 0;
+                    var10 = global;
+                    var9 = 2;
+                    var8 = 5000;
+                    var6 = 50;
  69: // try_start_0
-                    tangon = romeon;
-                    tangon = tangon.bind(yankee)();
+                    var4 = var12;
+                    var4 = var4.bind(var11)();
                     SaveGenerator(address=80);
  78:
-                    return tangon;
+                    return var4;
  80:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 89; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 89; continue _fun0001 }
  86: // try_end0
-                    return tangon;
+                    return var4;
  89:
-                    return tangon;
+                    return var4;
  92: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    report = foxtra;
-                    tangon = _closure1_slot0;
-                    tangon = tangon.cache;
-                    tangon = report in tangon;
-                    if(tangon) { _fun00002_ip = 204; continue _fun00001 }
+                    var5 = var13;
+                    var4 = _closure1_slot0;
+                    var4 = var4.cache;
+                    var4 = var5 in var4;
+                    if(var4) { _fun0001_ip = 204; continue _fun0001 }
  114:
-                    tangon = kiloes;
-                    if(!(!(tangon >= oscard))) { _fun00002_ip = 199; continue _fun00001 }
+                    var4 = var15;
+                    if(!(!(var4 >= var6))) { _fun0001_ip = 199; continue _fun0001 }
  121:
-                    report = _closure1_slot2;
-                    tangon = backup;
-                    tangon = report.bind(yankee)(tangon);
+                    var5 = _closure1_slot2;
+                    var4 = var14;
+                    var4 = var5.bind(var11)(var4);
                     SaveGenerator(address=137);
  135:
-                    return tangon;
+                    return var4;
  137:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 196; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 196; continue _fun0001 }
  143:
-                    report = _closure1_slot3;
-                    report = report.bind(yankee)();
+                    var5 = _closure1_slot3;
+                    var5 = var5.bind(var11)();
                     SaveGenerator(address=155);
  153:
-                    return report;
+                    return var5;
  155:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=15);
-                    if(sizing) { _fun00002_ip = 193; continue _fun00001 }
+                    if(var16) { _fun0001_ip = 193; continue _fun0001 }
  161:
-                    result = offset.Math;
-                    output = result.min;
-                    sizing = backup;
-                    sizing = verify * sizing;
-                    backup = output.bind(result)(option, sizing);
-                    sizing = kiloes;
-                    kiloes = sizing + 1;
-                    _fun00002_ip = 69; continue _fun00001;
+                    var18 = var10.Math;
+                    var17 = var18.min;
+                    var16 = var14;
+                    var16 = var9 * var16;
+                    var14 = var17.bind(var18)(var8, var16);
+                    var16 = var15;
+                    var15 = var16 + 1;
+                    _fun0001_ip = 69; continue _fun0001;
  193:
-                    return report;
+                    return var5;
  196:
-                    return tangon;
+                    return var4;
  199:
-                    tangon = zuuluu;
-                    throw tangon;
+                    var4 = var3;
+                    throw var4;
  204:
-                    throw zuuluu;
+                    throw var3;
  206:
-                    return michal;
+                    return var2;
  209:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    report = option[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot1 = tangon;
-    tangon = function(argFoo) { // Original name: pausedPromise
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            entity = global;
-            tangon = entity.setTimeout;
-            zuuluu = _closure2_slot0;
-            michal = undefined;
-            entity = argFoo;
-            entity = tangon.bind(michal)(entity, zuuluu);
-            return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var5 = var8[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot1 = var4;
+    var4 = function pausedPromise(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var2 = global;
+        var3 = var2.Promise;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            var1 = global;
+            var4 = var1.setTimeout;
+            var3 = _closure2_slot0;
+            var2 = undefined;
+            var1 = arg1;
+            var1 = var4.bind(var2)(var1, var3);
+            return var1;
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot2 = tangon;
-    report = function() { // Original name: awaitOnline
-        entity = global;
-        michal = entity.Promise;
-        entity = michal.resolve;
-        entity = entity.bind(michal)();
-        return entity;
+    var _closure1_slot2 = var4;
+    var5 = function awaitOnline() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    var _closure1_slot3 = report;
-    oscard = 1;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = '../discord_common/js/packages/code-splitting/importWithRetry.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['awaitOnline'] = report;
-    report = function(argFoo) { // Original name: setAwaitOnline
-        entity = argFoo;
-        _closure1_slot3 = entity;
-        entity = undefined;
-        return entity;
+    var _closure1_slot3 = var5;
+    var6 = 1;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = '../discord_common/js/packages/code-splitting/importWithRetry.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['awaitOnline'] = var5;
+    var5 = function setAwaitOnline(arg1) {
+        var1 = arg1;
+        _closure1_slot3 = var1;
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setAwaitOnline'] = report;
-    zuuluu['pausedPromise'] = tangon;
-    michal = function() { // Original name: importWithRetry
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['setAwaitOnline'] = var5;
+    var3['pausedPromise'] = var4;
+    var2 = function importWithRetry() {
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['importWithRetry'] = michal;
-    return entity;
+    var3['importWithRetry'] = var2;
+    return var1;
 })();

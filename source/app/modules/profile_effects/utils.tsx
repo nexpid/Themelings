@@ -1,168 +1,168 @@
 // app/modules/profile_effects/utils.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/profile_effects/utils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        zuuluu = argFoo;
-        michal = zuuluu.sort;
-        entity = function(argFoo, argBar) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/profile_effects/utils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        var3 = arg1;
+        var2 = var3.sort;
+        var1 = function(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.zIndex;
-                tangon = null;
-                report = tangon != zuuluu;
-                entity = 0;
-                if(!report) { _fun00002_ip = 23; continue _fun00001 }
+                var1 = arg1;
+                var3 = var1.zIndex;
+                var4 = null;
+                var5 = var4 != var3;
+                var1 = 0;
+                if(!var5) { _fun0001_ip = 23; continue _fun0001 }
  20:
-                entity = zuuluu;
+                var1 = var3;
  23:
-                zuuluu = argBar;
-                zuuluu = zuuluu.zIndex;
-                tangon = tangon != zuuluu;
-                michal = 0;
-                if(!tangon) { _fun00002_ip = 44; continue _fun00001 }
+                var3 = arg2;
+                var3 = var3.zIndex;
+                var4 = var4 != var3;
+                var2 = 0;
+                if(!var4) { _fun0001_ip = 44; continue _fun0001 }
  41:
-                michal = zuuluu;
+                var2 = var3;
  44:
-                entity = entity - michal;
-                return entity;
+                var1 = var1 - var2;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['sortEffectLayers'] = tangon;
-    michal = function(argFoo) {
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['sortEffectLayers'] = var4;
+    var2 = function(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure2_slot0;
-                michal = null;
-                if(!(michal != tangon)) { _fun00004_ip = 171; continue _fun00003 }
+                var4 = _closure2_slot0;
+                var2 = null;
+                if(!(var2 != var4)) { _fun0002_ip = 171; continue _fun0002 }
  18:
-                report = _closure1_slot0;
-                michal = _closure1_slot1;
-                verify = 1;
-                tangon = michal[verify];
-                michal = undefined;
-                report = report.bind(michal)(tangon);
-                tangon = report.cloneDeep;
-                michal = _closure2_slot0;
-                michal = tangon.bind(report)(michal);
-                oscard = michal.effects;
-                report = oscard.reduce;
-                tangon = function(argFoo, argBar) {
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var5 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var9 = 1;
+                var4 = var2[var9];
+                var2 = undefined;
+                var5 = var5.bind(var2)(var4);
+                var4 = var5.cloneDeep;
+                var2 = _closure2_slot0;
+                var2 = var4.bind(var5)(var2);
+                var6 = var2.effects;
+                var5 = var6.reduce;
+                var4 = function(arg1, arg2) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        oscard = argFoo;
-                        entity = argBar;
-                        entity = entity.randomizedSources;
-                        michal = null;
-                        michal = michal == entity;
-                        report = undefined;
-                        if(michal) { _fun00006_ip = 28; continue _fun00005 }
+                        var6 = arg1;
+                        var1 = arg2;
+                        var1 = var1.randomizedSources;
+                        var2 = null;
+                        var2 = var2 == var1;
+                        var5 = undefined;
+                        if(var2) { _fun0003_ip = 28; continue _fun0003 }
  23:
-                        report = entity.length;
+                        var5 = var1.length;
  28:
-                        zuuluu = 0;
-                        entity = oscard;
-                        if(!(report > zuuluu)) { _fun00006_ip = 66; continue _fun00005 }
+                        var3 = 0;
+                        var1 = var6;
+                        if(!(var5 > var3)) { _fun0003_ip = 66; continue _fun0003 }
  37:
-                        michal = report;
-                        if(!(zuuluu !== oscard)) { _fun00006_ip = 63; continue _fun00005 }
+                        var2 = var5;
+                        if(!(var3 !== var6)) { _fun0003_ip = 63; continue _fun0003 }
  44:
-                        zuuluu = global;
-                        tangon = zuuluu.Math;
-                        zuuluu = tangon.min;
-                        michal = zuuluu.bind(tangon)(oscard, report);
+                        var3 = global;
+                        var4 = var3.Math;
+                        var3 = var4.min;
+                        var2 = var3.bind(var4)(var6, var5);
  63:
-                        entity = michal;
+                        var1 = var2;
  66:
-                        return entity;
+                        return var1;
                     }
                 };
-                golfie = 0;
-                tangon = report.bind(oscard)(tangon, golfie);
-                tangon = tangon - verify;
-                option = global;
-                oscard = option.Math;
-                report = oscard.floor;
-                offset = option.Math;
-                option = offset.random;
-                option = option.bind(offset)();
-                tangon = tangon - golfie;
-                tangon = tangon + verify;
-                tangon = option * tangon;
-                tangon = tangon + golfie;
-                tangon = report.bind(oscard)(tangon);
-                var _closure3_slot0 = tangon;
-                report = michal.effects;
-                tangon = report.map;
-                zuuluu = function(argFoo) {
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var7 = 0;
+                var4 = var5.bind(var6)(var4, var7);
+                var4 = var4 - var9;
+                var8 = global;
+                var6 = var8.Math;
+                var5 = var6.floor;
+                var10 = var8.Math;
+                var8 = var10.random;
+                var8 = var8.bind(var10)();
+                var4 = var4 - var7;
+                var4 = var4 + var9;
+                var4 = var8 * var4;
+                var4 = var4 + var7;
+                var4 = var5.bind(var6)(var4);
+                var _closure3_slot0 = var4;
+                var5 = var2.effects;
+                var4 = var5.map;
+                var3 = function(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        entity = argFoo;
-                        michal = entity.randomizedSources;
-                        zuuluu = null;
-                        tangon = zuuluu == michal;
-                        zuuluu = undefined;
-                        if(tangon) { _fun00008_ip = 25; continue _fun00007 }
+                        var1 = arg1;
+                        var2 = var1.randomizedSources;
+                        var3 = null;
+                        var4 = var3 == var2;
+                        var3 = undefined;
+                        if(var4) { _fun0004_ip = 25; continue _fun0004 }
  20:
-                        zuuluu = michal.length;
+                        var3 = var2.length;
  25:
-                        michal = 0;
-                        if(!(zuuluu > michal)) { _fun00008_ip = 60; continue _fun00007 }
+                        var2 = 0;
+                        if(!(var3 > var2)) { _fun0004_ip = 60; continue _fun0004 }
  31:
-                        zuuluu = entity.randomizedSources;
-                        michal = _closure3_slot0;
-                        michal = zuuluu[michal];
-                        michal = michal.src;
-                        entity['src'] = michal;
+                        var3 = var1.randomizedSources;
+                        var2 = _closure3_slot0;
+                        var2 = var3[var2];
+                        var2 = var2.src;
+                        var1['src'] = var2;
  60:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = tangon.bind(report)(zuuluu);
-                michal['effects'] = zuuluu;
-                return michal;
+                var3 = var4.bind(var5)(var3);
+                var2['effects'] = var3;
+                return var2;
  171:
-                entity = _closure2_slot0;
-                return entity;
+                var1 = _closure2_slot0;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['usePotentiallyRandomizedConfig'] = michal;
-    return entity;
+    var3['usePotentiallyRandomizedConfig'] = var2;
+    return var1;
 })();

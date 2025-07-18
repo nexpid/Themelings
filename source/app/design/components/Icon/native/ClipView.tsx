@@ -1,58 +1,58 @@
 // app/design/components/Icon/native/ClipView.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        oscard = argBaz;
-        zuuluu = argFre;
-        option = argPlu;
-        entity = global;
-        report = entity.Object;
-        tangon = report.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        entity = 0;
-        michal = option[entity];
-        entity = undefined;
-        michal = golfie.bind(entity)(michal);
-        report = michal.requireNativeComponent;
-        michal = {};
-        tangon = 'circle';
-        michal['Circle'] = tangon;
-        tangon = 'rounded-rect';
-        michal['RoundedRect'] = tangon;
-        tangon = 1;
-        tangon = option[tangon];
-        verify = golfie.bind(entity)(tangon);
-        tangon = verify.isAndroid;
-        tangon = tangon.bind(verify)();
-        if(tangon) { _fun00002_ip = 124; continue _fun00001 }
+        var7 = native2;
+        var6 = native3;
+        var3 = native6;
+        var8 = native7;
+        var1 = global;
+        var5 = var1.Object;
+        var4 = var5.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var5)(var3, var1, var2);
+        var1 = 0;
+        var2 = var8[var1];
+        var1 = undefined;
+        var2 = var7.bind(var1)(var2);
+        var5 = var2.requireNativeComponent;
+        var2 = {};
+        var4 = 'circle';
+        var2['Circle'] = var4;
+        var4 = 'rounded-rect';
+        var2['RoundedRect'] = var4;
+        var4 = 1;
+        var4 = var8[var4];
+        var9 = var7.bind(var1)(var4);
+        var4 = var9.isAndroid;
+        var4 = var4.bind(var9)();
+        if(var4) { _fun0001_ip = 124; continue _fun0001 }
  111:
-        tangon = 'ClipView';
-        report = report.bind(entity)(tangon);
-        _fun00002_ip = 136; continue _fun00001;
+        var4 = 'ClipView';
+        var5 = var5.bind(var1)(var4);
+        _fun0001_ip = 136; continue _fun0001;
  124:
-        tangon = 2;
-        tangon = option[tangon];
-        report = oscard.bind(entity)(tangon);
+        var4 = 2;
+        var4 = var8[var4];
+        var5 = var6.bind(var1)(var4);
  136:
-        tangon = 3;
-        tangon = option[tangon];
-        oscard = oscard.bind(entity)(tangon);
-        tangon = oscard.createAnimatedComponent;
-        tangon = tangon.bind(oscard)(report);
-        oscard = 4;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = 'design/components/Icon/native/ClipView.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['default'] = report;
-        zuuluu['ClipViewAnimated'] = tangon;
-        zuuluu['CutoutShape'] = michal;
-        return entity;
+        var4 = 3;
+        var4 = var8[var4];
+        var6 = var6.bind(var1)(var4);
+        var4 = var6.createAnimatedComponent;
+        var4 = var4.bind(var6)(var5);
+        var6 = 4;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'design/components/Icon/native/ClipView.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['default'] = var5;
+        var3['ClipViewAnimated'] = var4;
+        var3['CutoutShape'] = var2;
+        return var1;
     }
 })();

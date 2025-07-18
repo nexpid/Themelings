@@ -1,236 +1,236 @@
 // app/stores/GeoRestrictedGuildStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot6 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot6 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = report[entity];
-    entity = undefined;
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot0 = michal;
-    michal = 1;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot1 = michal;
-    michal = 2;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 3;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 4;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = new Array(0);
-    var _closure1_slot5 = michal;
-    michal = 5;
-    michal = report[michal];
-    michal = oscard.bind(entity)(michal);
-    golfie = michal.Store;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: GeoRestrictedGuildStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var5[var1];
+    var1 = undefined;
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot0 = var2;
+    var2 = 1;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot1 = var2;
+    var2 = 2;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 3;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 4;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = new Array(0);
+    var _closure1_slot5 = var2;
+    var2 = 5;
+    var2 = var5[var2];
+    var2 = var6.bind(var1)(var2);
+    var7 = var2.Store;
+    var2 = function(arg1) {
+        var4 = function GeoRestrictedGuildStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot0;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot3;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot2;
-                entity = _closure1_slot6;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot0;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot3;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot2;
+                var1 = _closure1_slot6;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot3;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot3;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        oscard = _closure1_slot4;
-        zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
-        michal = _closure1_slot1;
-        report = {};
-        oscard = 'getGeoRestrictedGuilds';
-        report['key'] = oscard;
-        entity = function() { // Original name: value
-            entity = _closure1_slot5;
-            return entity;
+        var _closure2_slot0 = var4;
+        var6 = _closure1_slot4;
+        var3 = undefined;
+        var5 = arg1;
+        var5 = var6.bind(var3)(var4, var5);
+        var2 = _closure1_slot1;
+        var5 = {};
+        var6 = 'getGeoRestrictedGuilds';
+        var5['key'] = var6;
+        var1 = function value() {
+            var1 = _closure1_slot5;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(1);
-        entity[0] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var1;
+        var1 = new Array(1);
+        var1[0] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    golfie = michal.bind(entity)(golfie);
-    michal = 'GeoRestrictedGuildStore';
-    golfie['displayName'] = michal;
-    michal = 6;
-    michal = report[michal];
-    yankee = oscard.bind(entity)(michal);
-    michal = {};
-    option = function(argFoo) { // Original name: handleConnectionOpen
-        entity = argFoo;
-        michal = entity.geoRestrictedGuilds;
-        _closure1_slot5 = michal;
-        entity = undefined;
-        return entity;
+    var7 = var2.bind(var1)(var7);
+    var2 = 'GeoRestrictedGuildStore';
+    var7['displayName'] = var2;
+    var2 = 6;
+    var2 = var5[var2];
+    var11 = var6.bind(var1)(var2);
+    var2 = {};
+    var8 = function handleConnectionOpen(arg1) {
+        var1 = arg1;
+        var2 = var1.geoRestrictedGuilds;
+        _closure1_slot5 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['CONNECTION_OPEN'] = option;
-    option = function(argFoo) { // Original name: handleDeleteGuild
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['CONNECTION_OPEN'] = var8;
+    var8 = function handleDeleteGuild(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            michal = michal.guild;
-            var _closure2_slot0 = michal;
-            report = _closure1_slot5;
-            tangon = report.findIndex;
-            zuuluu = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal === entity;
-                return entity;
+            var2 = arg1;
+            var2 = var2.guild;
+            var _closure2_slot0 = var2;
+            var5 = _closure1_slot5;
+            var4 = var5.findIndex;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 === var1;
+                return var1;
             };
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = -1;
-            if(!(zuuluu !== tangon)) { _fun00006_ip = 78; continue _fun00005 }
+            var4 = var4.bind(var5)(var3);
+            var3 = -1;
+            if(!(var3 !== var4)) { _fun0003_ip = 78; continue _fun0003 }
  49:
-            tangon = _closure1_slot5;
-            zuuluu = tangon.filter;
-            entity = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal !== entity;
-                return entity;
+            var4 = _closure1_slot5;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity);
-            _closure1_slot5 = entity;
-            entity = undefined;
-            return entity;
+            var1 = var3.bind(var4)(var1);
+            _closure1_slot5 = var1;
+            var1 = undefined;
+            return var1;
  78:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    michal['GUILD_DELETE'] = option;
-    tangon = function(argFoo) { // Original name: handleGeoRestrictGuild
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.filter;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.id;
-            entity = _closure2_slot0;
-            entity = entity.guildId;
-            entity = michal !== entity;
-            return entity;
+    var2['GUILD_DELETE'] = var8;
+    var4 = function handleGeoRestrictGuild(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot5;
+        var3 = var4.filter;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.id;
+            var1 = _closure2_slot0;
+            var1 = var1.guildId;
+            var1 = var2 !== var1;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity);
-        tangon = entity.push;
-        zuuluu = {};
-        oscard = report.guildId;
-        zuuluu['id'] = oscard;
-        oscard = report.name;
-        zuuluu['name'] = oscard;
-        report = report.icon;
-        zuuluu['icon'] = report;
-        report = true;
-        zuuluu['unavailable'] = report;
-        zuuluu['geo_restricted'] = report;
-        zuuluu = tangon.bind(entity)(zuuluu);
-        _closure1_slot5 = entity;
-        entity = undefined;
-        return entity;
+        var1 = var3.bind(var4)(var1);
+        var4 = var1.push;
+        var3 = {};
+        var6 = var5.guildId;
+        var3['id'] = var6;
+        var6 = var5.name;
+        var3['name'] = var6;
+        var5 = var5.icon;
+        var3['icon'] = var5;
+        var5 = true;
+        var3['unavailable'] = var5;
+        var3['geo_restricted'] = var5;
+        var3 = var4.bind(var1)(var3);
+        _closure1_slot5 = var1;
+        var1 = undefined;
+        return var1;
     };
-    michal['GUILD_GEO_RESTRICTED'] = tangon;
-    tangon = golfie.prototype;
-    tangon = Object.create(tangon, {constructor: {value: golfie}});
-    romeon = tangon;
-    offset = michal;
-    michal = new romeon[golfie](yankee, offset, verify);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 7;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'stores/GeoRestrictedGuildStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['GUILD_GEO_RESTRICTED'] = var4;
+    var4 = var7.prototype;
+    var4 = Object.create(var4, {constructor: {value: var7}});
+    var12 = var4;
+    var10 = var2;
+    var2 = new var12[var7](var11, var10, var9);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 7;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'stores/GeoRestrictedGuildStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

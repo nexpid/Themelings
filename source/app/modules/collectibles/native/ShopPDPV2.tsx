@@ -1,624 +1,624 @@
 // app/modules/collectibles/native/ShopPDPV2.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    foxtra = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = foxtra;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useMemo;
-    var _closure1_slot3 = tangon;
-    romeon = 1;
-    tangon = oscard[romeon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Pressable;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.View;
-    var _closure1_slot5 = tangon;
-    yankee = 2;
-    tangon = oscard[yankee];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = 3;
-    golfie = oscard[tangon];
-    verify = report.bind(entity)(golfie);
-    option = verify.createStyles;
-    golfie = {};
-    offset = {};
-    offset['flex'] = romeon;
-    romeon = 4;
-    romeon = oscard[romeon];
-    romeon = foxtra.bind(entity)(romeon);
-    romeon = romeon.colors;
-    romeon = romeon.BG_BASE_SECONDARY;
-    offset['backgroundColor'] = romeon;
-    golfie['container'] = offset;
-    offset = {};
-    offset['marginBottom'] = yankee;
-    golfie['title'] = offset;
-    offset = {'marginHorizontal': 16, 'marginTop': 24, 'marginBottom': 50, 'flexDirection': 'column', 'gap': 20};
-    golfie['body'] = offset;
-    offset = {'flexDirection': 'column', 'gap': 6};
-    golfie['description'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot8 = golfie;
-    golfie = function(argFoo) { // Original name: PreviewContent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var13 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useMemo;
+    var _closure1_slot3 = var4;
+    var12 = 1;
+    var4 = var6[var12];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Pressable;
+    var _closure1_slot4 = var7;
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var11 = 2;
+    var4 = var6[var11];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = 3;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = {};
+    var10 = {};
+    var10['flex'] = var12;
+    var12 = 4;
+    var12 = var6[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_BASE_SECONDARY;
+    var10['backgroundColor'] = var12;
+    var7['container'] = var10;
+    var10 = {};
+    var10['marginBottom'] = var11;
+    var7['title'] = var10;
+    var10 = {'marginHorizontal': 16, 'marginTop': 24, 'marginBottom': 50, 'flexDirection': 'column', 'gap': 20};
+    var7['body'] = var10;
+    var10 = {'flexDirection': 'column', 'gap': 6};
+    var7['description'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot8 = var7;
+    var7 = function PreviewContent(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.product;
-            oscard = entity.width;
-            zuuluu = golfie.type;
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            option = 9;
-            michal = michal[option];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.NAMEPLATE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.product;
+            var6 = var1.width;
+            var3 = var7.type;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 9;
+            var2 = var2[var8];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.NAMEPLATE;
+            if(!(var2 !== var3)) { _fun0001_ip = 243; continue _fun0001 }
  63:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            michal = report.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.AVATAR_DECORATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 209; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.AVATAR_DECORATION;
+            if(!(var2 !== var3)) { _fun0001_ip = 209; continue _fun0001 }
  96:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            michal = report.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.PROFILE_EFFECT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 166; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.PROFILE_EFFECT;
+            if(!(var2 !== var3)) { _fun0001_ip = 166; continue _fun0001 }
  129:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            michal = report.bind(tangon)(michal);
-            michal = michal.CollectiblesItemType;
-            michal = michal.BUNDLE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 166; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.CollectiblesItemType;
+            var2 = var2.BUNDLE;
+            if(!(var2 !== var3)) { _fun0001_ip = 166; continue _fun0001 }
  162:
-            michal = null;
-            return michal;
+            var2 = null;
+            return var2;
  166:
-            report = _closure1_slot6;
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 16;
-            michal = option[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['product'] = golfie;
-            michal['width'] = oscard;
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 16;
+            var2 = var8[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['product'] = var7;
+            var2['width'] = var6;
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  209:
-            report = _closure1_slot6;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 15;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal = report.bind(tangon)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot6;
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 15;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2 = var5.bind(var4)(var3, var2);
+            return var2;
  243:
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 14;
-            entity = report[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var1 = 14;
+            var1 = var5[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot9 = golfie;
-    golfie = oscard[tangon];
-    verify = report.bind(entity)(golfie);
-    option = verify.createStyles;
-    golfie = function(argFoo, argBar) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot9 = var7;
+    var7 = var6[var4];
+    var9 = var5.bind(var1)(var7);
+    var8 = var9.createStyles;
+    var7 = function(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            entity = {};
-            michal = {'borderBottomColor': null, 'borderBottomWidth': 1, 'paddingBottom': 25, 'marginTop': 25};
-            option = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            oscard = 4;
-            oscard = zuuluu[oscard];
-            golfie = undefined;
-            oscard = option.bind(golfie)(oscard);
-            oscard = oscard.colors;
-            oscard = oscard.BG_MOD_SUBTLE;
-            michal['borderBottomColor'] = oscard;
-            oscard = _closure1_slot0;
-            option = 9;
-            zuuluu = zuuluu[option];
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.CollectiblesItemType;
-            zuuluu = zuuluu.AVATAR_DECORATION;
-            zuuluu = report === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 108; continue _fun00003 }
+            var5 = arg1;
+            var1 = {};
+            var2 = {'borderBottomColor': null, 'borderBottomWidth': 1, 'paddingBottom': 25, 'marginTop': 25};
+            var8 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var6 = 4;
+            var6 = var3[var6];
+            var7 = undefined;
+            var6 = var8.bind(var7)(var6);
+            var6 = var6.colors;
+            var6 = var6.BG_MOD_SUBTLE;
+            var2['borderBottomColor'] = var6;
+            var6 = _closure1_slot0;
+            var8 = 9;
+            var3 = var3[var8];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.AVATAR_DECORATION;
+            var3 = var5 === var3;
+            if(!var3) { _fun0002_ip = 108; continue _fun0002 }
  96:
-            oscard = {};
-            verify = 16;
-            oscard['paddingHorizontal'] = verify;
-            zuuluu = oscard;
+            var6 = {};
+            var9 = 16;
+            var6['paddingHorizontal'] = var9;
+            var3 = var6;
  108:
-            yankee = michal;
-            offset = zuuluu;
-            zuuluu = copyDataProperties(yankee, offset);
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[option];
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.CollectiblesItemType;
-            zuuluu = zuuluu.NAMEPLATE;
-            zuuluu = report === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 168; continue _fun00003 }
+            var11 = var2;
+            var10 = var3;
+            var3 = copyDataProperties(var11, var10);
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.NAMEPLATE;
+            var3 = var5 === var3;
+            if(!var3) { _fun0002_ip = 168; continue _fun0002 }
  154:
-            zuuluu = {'marginTop': 8, 'paddingBottom': 0};
+            var3 = {'marginTop': 8, 'paddingBottom': 0};
  168:
-            yankee = michal;
-            offset = zuuluu;
-            zuuluu = copyDataProperties(yankee, offset);
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[option];
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.CollectiblesItemType;
-            zuuluu = zuuluu.PROFILE_EFFECT;
-            zuuluu = report === zuuluu;
-            if(zuuluu) { _fun00004_ip = 247; continue _fun00003 }
+            var11 = var2;
+            var10 = var3;
+            var3 = copyDataProperties(var11, var10);
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.CollectiblesItemType;
+            var3 = var3.PROFILE_EFFECT;
+            var3 = var5 === var3;
+            if(var3) { _fun0002_ip = 247; continue _fun0002 }
  214:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[option];
-            tangon = oscard.bind(golfie)(tangon);
-            tangon = tangon.CollectiblesItemType;
-            tangon = tangon.BUNDLE;
-            zuuluu = report === tangon;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var8];
+            var4 = var6.bind(var7)(var4);
+            var4 = var4.CollectiblesItemType;
+            var4 = var4.BUNDLE;
+            var3 = var5 === var4;
  247:
-            if(!zuuluu) { _fun00004_ip = 288; continue _fun00003 }
+            if(!var3) { _fun0002_ip = 288; continue _fun0002 }
  250:
-            tangon = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
-            oscard = 0.48;
-            report = argBar;
-            report = oscard * report;
-            tangon['height'] = report;
-            zuuluu = tangon;
+            var4 = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+            var6 = 0.48;
+            var5 = arg2;
+            var5 = var6 * var5;
+            var4['height'] = var5;
+            var3 = var4;
  288:
-            yankee = michal;
-            offset = zuuluu;
-            zuuluu = copyDataProperties(yankee, offset);
-            entity['preview'] = michal;
-            return entity;
+            var11 = var2;
+            var10 = var3;
+            var3 = copyDataProperties(var11, var10);
+            var1['preview'] = var2;
+            return var1;
         }
     };
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot10 = golfie;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {'flexDirection': 'row', 'alignItems': 'flex-start'};
-    tangon['bulletpoint'] = verify;
-    verify = {};
-    offset = 8;
-    verify['marginHorizontal'] = offset;
-    tangon['bulletpointDot'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot11 = tangon;
-    tangon = function(argFoo) { // Original name: BundledProductBulletpoint
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot10 = var7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flexDirection': 'row', 'alignItems': 'flex-start'};
+    var4['bulletpoint'] = var9;
+    var9 = {};
+    var10 = 8;
+    var9['marginHorizontal'] = var10;
+    var4['bulletpointDot'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot11 = var4;
+    var4 = function BundledProductBulletpoint(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            backup = michal.product;
-            var _closure2_slot0 = backup;
-            michal = _closure1_slot11;
-            report = undefined;
-            offset = michal.bind(report)();
-            zuuluu = _closure1_slot3;
-            tangon = backup.type;
-            michal = new Array(1);
-            michal[0] = tangon;
-            entity = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var2 = arg1;
+            var14 = var2.product;
+            var _closure2_slot0 = var14;
+            var2 = _closure1_slot11;
+            var5 = undefined;
+            var10 = var2.bind(var5)();
+            var3 = _closure1_slot3;
+            var4 = var14.type;
+            var2 = new Array(1);
+            var2[0] = var4;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = _closure2_slot0;
-                    tangon = entity.type;
-                    report = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    oscard = 9;
-                    michal = michal[oscard];
-                    zuuluu = undefined;
-                    michal = report.bind(zuuluu)(michal);
-                    michal = michal.CollectiblesItemType;
-                    michal = michal.AVATAR_DECORATION;
-                    if(!(michal !== tangon)) { _fun00008_ip = 196; continue _fun00007 }
+                    var1 = _closure2_slot0;
+                    var4 = var1.type;
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var6 = 9;
+                    var2 = var2[var6];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.CollectiblesItemType;
+                    var2 = var2.AVATAR_DECORATION;
+                    if(!(var2 !== var4)) { _fun0004_ip = 196; continue _fun0004 }
  56:
-                    report = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[oscard];
-                    michal = report.bind(zuuluu)(michal);
-                    michal = michal.CollectiblesItemType;
-                    michal = michal.PROFILE_EFFECT;
-                    if(!(michal !== tangon)) { _fun00008_ip = 161; continue _fun00007 }
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var6];
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.CollectiblesItemType;
+                    var2 = var2.PROFILE_EFFECT;
+                    if(!(var2 !== var4)) { _fun0004_ip = 161; continue _fun0004 }
  89:
-                    report = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    michal = michal[oscard];
-                    michal = report.bind(zuuluu)(michal);
-                    michal = michal.CollectiblesItemType;
-                    michal = michal.NAMEPLATE;
-                    if(!(michal !== tangon)) { _fun00008_ip = 126; continue _fun00007 }
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var6];
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.CollectiblesItemType;
+                    var2 = var2.NAMEPLATE;
+                    if(!(var2 !== var4)) { _fun0004_ip = 126; continue _fun0004 }
  122:
-                    michal = null;
-                    return michal;
+                    var2 = null;
+                    return var2;
  126:
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 10;
-                    michal = report[michal];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.t;
-                    michal = michal.eVNt6O;
-                    return michal;
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var5[var2];
+                    var2 = var4.bind(var3)(var2);
+                    var2 = var2.t;
+                    var2 = var2.eVNt6O;
+                    return var2;
  161:
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 10;
-                    michal = report[michal];
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = michal.t;
-                    michal = michal.x/MGW1;
-                    return michal;
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var5[var2];
+                    var2 = var4.bind(var3)(var2);
+                    var2 = var2.t;
+                    var2 = var2.x/MGW1;
+                    return var2;
  196:
-                    michal = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 10;
-                    entity = tangon[entity];
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = entity.t;
-                    entity = entity.IQQYeX;
-                    return entity;
+                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 10;
+                    var1 = var4[var1];
+                    var1 = var2.bind(var3)(var1);
+                    var1 = var1.t;
+                    var1 = var1.IQQYeX;
+                    return var1;
                 }
             };
-            foxtra = zuuluu.bind(report)(entity, michal);
-            entity = null;
-            michal = entity == foxtra;
-            if(michal) { _fun00006_ip = 251; continue _fun00005 }
+            var13 = var3.bind(var5)(var1, var2);
+            var1 = null;
+            var2 = var1 == var13;
+            if(var2) { _fun0003_ip = 251; continue _fun0003 }
  70:
-            tangon = _closure1_slot7;
-            zuuluu = _closure1_slot5;
-            michal = {};
-            golfie = offset.bulletpoint;
-            michal['style'] = golfie;
-            verify = _closure1_slot6;
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
-            golfie = 8;
-            oscard = romeon[golfie];
-            oscard = yankee.bind(report)(oscard);
-            option = oscard.Text;
-            oscard = {'variant': 'text-md/medium', 'color': 'text-normal', 'style': null, 'children': '•'};
-            offset = offset.bulletpointDot;
-            oscard['style'] = offset;
-            option = verify.bind(report)(option, oscard);
-            oscard = new Array(2);
-            oscard[0] = option;
-            golfie = romeon[golfie];
-            golfie = yankee.bind(report)(golfie);
-            option = golfie.Text;
-            golfie = {'variant': 'text-md/medium', 'color': 'text-normal'};
-            offset = 10;
-            offset = romeon[offset];
-            offset = yankee.bind(report)(offset);
-            romeon = offset.intl;
-            yankee = romeon.format;
-            offset = {};
-            backup = backup.name;
-            offset['itemName'] = backup;
-            offset = yankee.bind(romeon)(foxtra, offset);
-            golfie['children'] = offset;
-            golfie = verify.bind(report)(option, golfie);
-            oscard[1] = golfie;
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var7 = var10.bulletpoint;
+            var2['style'] = var7;
+            var9 = _closure1_slot6;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var7 = 8;
+            var6 = var12[var7];
+            var6 = var11.bind(var5)(var6);
+            var8 = var6.Text;
+            var6 = {'variant': 'text-md/medium', 'color': 'text-normal', 'style': null, 'children': '•'};
+            var10 = var10.bulletpointDot;
+            var6['style'] = var10;
+            var8 = var9.bind(var5)(var8, var6);
+            var6 = new Array(2);
+            var6[0] = var8;
+            var7 = var12[var7];
+            var7 = var11.bind(var5)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var10 = 10;
+            var10 = var12[var10];
+            var10 = var11.bind(var5)(var10);
+            var12 = var10.intl;
+            var11 = var12.format;
+            var10 = {};
+            var14 = var14.name;
+            var10['itemName'] = var14;
+            var10 = var11.bind(var12)(var13, var10);
+            var7['children'] = var10;
+            var7 = var9.bind(var5)(var8, var7);
+            var6[1] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  251:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot12 = tangon;
-    tangon = function(argFoo) { // Original name: BundleProductList
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot12 = var4;
+    var4 = function BundleProductList(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            entity = entity.product;
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot5;
-            michal = {};
-            oscard = entity.bundledProducts;
-            entity = null;
-            if(!(entity == oscard)) { _fun00010_ip = 38; continue _fun00009 }
+            var1 = arg1;
+            var1 = var1.product;
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var6 = var1.bundledProducts;
+            var1 = null;
+            if(!(var1 == var6)) { _fun0005_ip = 38; continue _fun0005 }
  34:
-            oscard = new Array(0);
+            var6 = new Array(0);
  38:
-            report = oscard.map;
-            entity = function(argFoo) {
-                entity = argFoo;
-                report = _closure1_slot6;
-                tangon = _closure1_slot12;
-                zuuluu = {};
-                zuuluu['product'] = entity;
-                michal = entity.skuId;
-                entity = undefined;
-                entity = report.bind(entity)(tangon, zuuluu, michal);
-                return entity;
+            var5 = var6.map;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var5 = _closure1_slot6;
+                var4 = _closure1_slot12;
+                var3 = {};
+                var3['product'] = var1;
+                var2 = var1.skuId;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4, var3, var2);
+                return var1;
             };
-            entity = report.bind(oscard)(entity);
-            michal['children'] = entity;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+            var1 = var5.bind(var6)(var1);
+            var2['children'] = var1;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         }
     };
-    var _closure1_slot13 = tangon;
-    tangon = 18;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/native/ShopPDPV2.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot13 = var4;
+    var4 = 18;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/collectibles/native/ShopPDPV2.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            entity = argFoo;
-            romeon = entity.product;
-            foxtra = entity.onBuy;
-            yankee = entity.analyticsLocations;
-            entity = _closure1_slot8;
-            tangon = undefined;
-            update = entity.bind(tangon)();
-            output = _closure1_slot0;
-            result = _closure1_slot2;
-            entity = 5;
-            entity = result[entity];
-            michal = output.bind(tangon)(entity);
-            entity = michal.isPremiumCollectiblesProduct;
-            oscard = entity.bind(michal)(romeon);
-            entity = 6;
-            entity = result[entity];
-            michal = output.bind(tangon)(entity);
-            entity = michal.useProductPurchaseState;
-            entity = entity.bind(michal)(romeon);
-            offset = entity.isPurchased;
-            option = entity.isPartiallyOwnedBundle;
-            entity = 7;
-            entity = result[entity];
-            michal = output.bind(tangon)(entity);
-            entity = michal.useProductDescription;
-            echoed = entity.bind(michal)(romeon);
-            zuuluu = _closure1_slot7;
-            michal = _closure1_slot5;
-            entity = {};
-            report = update.body;
-            entity['style'] = report;
-            report = {};
-            golfie = update.description;
-            report['style'] = golfie;
-            sizing = _closure1_slot6;
-            golfie = 8;
-            backup = result[golfie];
-            backup = output.bind(tangon)(backup);
-            kiloes = backup.Text;
-            backup = {'variant': 'heading-xl/bold', 'color': 'header-primary', 'style': null, 'accessibilityRole': 'header'};
-            update = update.title;
-            backup['style'] = update;
-            update = romeon.name;
-            backup['children'] = update;
-            kiloes = sizing.bind(tangon)(kiloes, backup);
-            backup = new Array(2);
-            backup[0] = kiloes;
-            sizing = romeon.type;
-            kiloes = 9;
-            kiloes = result[kiloes];
-            kiloes = output.bind(tangon)(kiloes);
-            kiloes = kiloes.CollectiblesItemType;
-            kiloes = kiloes.BUNDLE;
-            if(!(sizing === kiloes)) { _fun00012_ip = 278; continue _fun00011 }
+            var1 = arg1;
+            var12 = var1.product;
+            var13 = var1.onBuy;
+            var11 = var1.analyticsLocations;
+            var1 = _closure1_slot8;
+            var4 = undefined;
+            var20 = var1.bind(var4)();
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var1 = 5;
+            var1 = var18[var1];
+            var2 = var17.bind(var4)(var1);
+            var1 = var2.isPremiumCollectiblesProduct;
+            var6 = var1.bind(var2)(var12);
+            var1 = 6;
+            var1 = var18[var1];
+            var2 = var17.bind(var4)(var1);
+            var1 = var2.useProductPurchaseState;
+            var1 = var1.bind(var2)(var12);
+            var10 = var1.isPurchased;
+            var8 = var1.isPartiallyOwnedBundle;
+            var1 = 7;
+            var1 = var18[var1];
+            var2 = var17.bind(var4)(var1);
+            var1 = var2.useProductDescription;
+            var19 = var1.bind(var2)(var12);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var5 = var20.body;
+            var1['style'] = var5;
+            var5 = {};
+            var7 = var20.description;
+            var5['style'] = var7;
+            var16 = _closure1_slot6;
+            var7 = 8;
+            var14 = var18[var7];
+            var14 = var17.bind(var4)(var14);
+            var15 = var14.Text;
+            var14 = {'variant': 'heading-xl/bold', 'color': 'header-primary', 'style': null, 'accessibilityRole': 'header'};
+            var20 = var20.title;
+            var14['style'] = var20;
+            var20 = var12.name;
+            var14['children'] = var20;
+            var15 = var16.bind(var4)(var15, var14);
+            var14 = new Array(2);
+            var14[0] = var15;
+            var16 = var12.type;
+            var15 = 9;
+            var15 = var18[var15];
+            var15 = var17.bind(var4)(var15);
+            var15 = var15.CollectiblesItemType;
+            var15 = var15.BUNDLE;
+            if(!(var16 === var15)) { _fun0006_ip = 278; continue _fun0006 }
  255:
-            output = _closure1_slot6;
-            sizing = _closure1_slot13;
-            kiloes = {};
-            kiloes['product'] = romeon;
-            kiloes = output.bind(tangon)(sizing, kiloes);
-            _fun00012_ip = 328; continue _fun00011;
+            var17 = _closure1_slot6;
+            var16 = _closure1_slot13;
+            var15 = {};
+            var15['product'] = var12;
+            var15 = var17.bind(var4)(var16, var15);
+            _fun0006_ip = 328; continue _fun0006;
  278:
-            result = _closure1_slot6;
-            output = _closure1_slot0;
-            sizing = _closure1_slot2;
-            sizing = sizing[golfie];
-            sizing = output.bind(tangon)(sizing);
-            output = sizing.Text;
-            sizing = {'variant': 'text-md/medium', 'color': 'text-normal'};
-            sizing['children'] = echoed;
-            kiloes = result.bind(tangon)(output, sizing);
+            var18 = _closure1_slot6;
+            var17 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var16 = var16[var7];
+            var16 = var17.bind(var4)(var16);
+            var17 = var16.Text;
+            var16 = {'variant': 'text-md/medium', 'color': 'text-normal'};
+            var16['children'] = var19;
+            var15 = var18.bind(var4)(var17, var16);
  328:
-            backup[1] = kiloes;
-            report['children'] = backup;
-            backup = zuuluu.bind(tangon)(michal, report);
-            report = new Array(3);
-            report[0] = backup;
-            if(offset) { _fun00012_ip = 503; continue _fun00011 }
+            var14[1] = var15;
+            var5['children'] = var14;
+            var14 = var3.bind(var4)(var2, var5);
+            var5 = new Array(3);
+            var5[0] = var14;
+            if(var10) { _fun0006_ip = 503; continue _fun0006 }
  356:
-            if(option) { _fun00012_ip = 404; continue _fun00011 }
+            if(var8) { _fun0006_ip = 404; continue _fun0006 }
  359:
-            oscard = !oscard;
-            if(!oscard) { _fun00012_ip = 402; continue _fun00011 }
+            var6 = !var6;
+            if(!var6) { _fun0006_ip = 402; continue _fun0006 }
  365:
-            backup = _closure1_slot6;
-            offset = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            option = 11;
-            option = kiloes[option];
-            offset = offset.bind(tangon)(option);
-            option = {};
-            option['product'] = romeon;
-            oscard = backup.bind(tangon)(offset, option);
+            var14 = _closure1_slot6;
+            var10 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var8 = 11;
+            var8 = var15[var8];
+            var10 = var10.bind(var4)(var8);
+            var8 = {};
+            var8['product'] = var12;
+            var6 = var14.bind(var4)(var10, var8);
  402:
-            _fun00012_ip = 501; continue _fun00011;
+            _fun0006_ip = 501; continue _fun0006;
  404:
-            backup = _closure1_slot6;
-            result = _closure1_slot0;
-            echoed = _closure1_slot2;
-            option = echoed[golfie];
-            option = result.bind(tangon)(option);
-            offset = option.Text;
-            option = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
-            kiloes = 10;
-            sizing = echoed[kiloes];
-            sizing = result.bind(tangon)(sizing);
-            output = sizing.intl;
-            sizing = output.string;
-            kiloes = echoed[kiloes];
-            kiloes = result.bind(tangon)(kiloes);
-            kiloes = kiloes.t;
-            kiloes = kiloes.BEjTio;
-            kiloes = sizing.bind(output)(kiloes);
-            option['children'] = kiloes;
-            oscard = backup.bind(tangon)(offset, option);
+            var14 = _closure1_slot6;
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var8 = var19[var7];
+            var8 = var18.bind(var4)(var8);
+            var10 = var8.Text;
+            var8 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var15 = 10;
+            var16 = var19[var15];
+            var16 = var18.bind(var4)(var16);
+            var17 = var16.intl;
+            var16 = var17.string;
+            var15 = var19[var15];
+            var15 = var18.bind(var4)(var15);
+            var15 = var15.t;
+            var15 = var15.BEjTio;
+            var15 = var16.bind(var17)(var15);
+            var8['children'] = var15;
+            var6 = var14.bind(var4)(var10, var8);
  501:
-            _fun00012_ip = 600; continue _fun00011;
+            _fun0006_ip = 600; continue _fun0006;
  503:
-            offset = _closure1_slot6;
-            output = _closure1_slot0;
-            result = _closure1_slot2;
-            golfie = result[golfie];
-            golfie = output.bind(tangon)(golfie);
-            option = golfie.Text;
-            golfie = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
-            backup = 10;
-            kiloes = result[backup];
-            kiloes = output.bind(tangon)(kiloes);
-            sizing = kiloes.intl;
-            kiloes = sizing.string;
-            backup = result[backup];
-            backup = output.bind(tangon)(backup);
-            backup = backup.t;
-            backup = backup.6cfuDg;
-            backup = kiloes.bind(sizing)(backup);
-            golfie['children'] = backup;
-            oscard = offset.bind(tangon)(option, golfie);
+            var10 = _closure1_slot6;
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var7 = var18[var7];
+            var7 = var17.bind(var4)(var7);
+            var8 = var7.Text;
+            var7 = {'variant': 'text-md/semibold', 'color': 'interactive-active'};
+            var14 = 10;
+            var15 = var18[var14];
+            var15 = var17.bind(var4)(var15);
+            var16 = var15.intl;
+            var15 = var16.string;
+            var14 = var18[var14];
+            var14 = var17.bind(var4)(var14);
+            var14 = var14.t;
+            var14 = var14.6cfuDg;
+            var14 = var15.bind(var16)(var14);
+            var7['children'] = var14;
+            var6 = var10.bind(var4)(var8, var7);
  600:
-            report[1] = oscard;
-            option = _closure1_slot6;
-            golfie = _closure1_slot0;
-            backup = _closure1_slot2;
-            oscard = 12;
-            oscard = backup[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.NativePaymentContextProvider;
-            oscard = {};
-            offset = new Array(0);
-            oscard['skuIDs'] = offset;
-            offset = null;
-            oscard['activeSubscription'] = offset;
-            offset = _closure1_slot1;
-            verify = 13;
-            verify = backup[verify];
-            offset = offset.bind(tangon)(verify);
-            verify = {};
-            verify['onBuy'] = foxtra;
-            verify['product'] = romeon;
-            verify['analyticsLocations'] = yankee;
-            yankee = true;
-            verify['condensed'] = yankee;
-            verify = option.bind(tangon)(offset, verify);
-            oscard['children'] = verify;
-            oscard = option.bind(tangon)(golfie, oscard);
-            report[2] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5[1] = var6;
+            var8 = _closure1_slot6;
+            var7 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var6 = 12;
+            var6 = var14[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.NativePaymentContextProvider;
+            var6 = {};
+            var10 = new Array(0);
+            var6['skuIDs'] = var10;
+            var10 = null;
+            var6['activeSubscription'] = var10;
+            var10 = _closure1_slot1;
+            var9 = 13;
+            var9 = var14[var9];
+            var10 = var10.bind(var4)(var9);
+            var9 = {};
+            var9['onBuy'] = var13;
+            var9['product'] = var12;
+            var9['analyticsLocations'] = var11;
+            var11 = true;
+            var9['condensed'] = var11;
+            var9 = var8.bind(var4)(var10, var9);
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['ProductDetailsV2'] = tangon;
-    michal = function(argFoo) {
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['ProductDetailsV2'] = var4;
+    var2 = function(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            verify = entity.product;
-            tangon = entity.handlePreviewPress;
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 17;
-            entity = zuuluu[entity];
-            report = undefined;
-            entity = michal.bind(report)(entity);
-            entity = entity.bind(report)();
-            option = entity.width;
-            zuuluu = entity.height;
-            michal = _closure1_slot10;
-            entity = verify.type;
-            golfie = michal.bind(report)(entity, zuuluu);
-            entity = null;
-            if(!(entity != tangon)) { _fun00014_ip = 132; continue _fun00013 }
+            var1 = arg1;
+            var9 = var1.product;
+            var4 = var1.handlePreviewPress;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 17;
+            var1 = var3[var1];
+            var5 = undefined;
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.bind(var5)();
+            var8 = var1.width;
+            var3 = var1.height;
+            var2 = _closure1_slot10;
+            var1 = var9.type;
+            var7 = var2.bind(var5)(var1, var3);
+            var1 = null;
+            if(!(var1 != var4)) { _fun0007_ip = 132; continue _fun0007 }
  75:
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot4;
-            entity = {};
-            entity['onPress'] = tangon;
-            tangon = golfie.preview;
-            entity['style'] = tangon;
-            offset = _closure1_slot9;
-            tangon = {};
-            tangon['product'] = verify;
-            tangon['width'] = option;
-            tangon = zuuluu.bind(report)(offset, tangon);
-            entity['children'] = tangon;
-            entity = zuuluu.bind(report)(michal, entity);
-            _fun00014_ip = 183; continue _fun00013;
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var1['onPress'] = var4;
+            var4 = var7.preview;
+            var1['style'] = var4;
+            var10 = _closure1_slot9;
+            var4 = {};
+            var4['product'] = var9;
+            var4['width'] = var8;
+            var4 = var3.bind(var5)(var10, var4);
+            var1['children'] = var4;
+            var1 = var3.bind(var5)(var2, var1);
+            _fun0007_ip = 183; continue _fun0007;
  132:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot5;
-            michal = {};
-            golfie = golfie.preview;
-            michal['style'] = golfie;
-            golfie = _closure1_slot9;
-            oscard = {};
-            oscard['product'] = verify;
-            oscard['width'] = option;
-            oscard = tangon.bind(report)(golfie, oscard);
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot5;
+            var2 = {};
+            var7 = var7.preview;
+            var2['style'] = var7;
+            var7 = _closure1_slot9;
+            var6 = {};
+            var6['product'] = var9;
+            var6['width'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  183:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['ProductPreviewV2'] = michal;
-    return entity;
+    var3['ProductPreviewV2'] = var2;
+    return var1;
 })();

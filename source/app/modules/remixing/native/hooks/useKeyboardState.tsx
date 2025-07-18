@@ -1,151 +1,151 @@
 // app/modules/remixing/native/hooks/useKeyboardState.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Keyboard;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useRemixingEditorStore;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.RemixMode;
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/remixing/native/hooks/useKeyboardState.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useKeyboardState
-        entity = argFoo;
-        option = entity.isOnAndroid;
-        var _closure2_slot0 = option;
-        oscard = entity.setIsKeyboardVisible;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot2;
-        entity = undefined;
-        tangon = function(argFoo) {
-            entity = argFoo;
-            entity = entity.setCurrentMode;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Keyboard;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useRemixingEditorStore;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RemixMode;
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/remixing/native/hooks/useKeyboardState.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useKeyboardState(arg1) {
+        var1 = arg1;
+        var8 = var1.isOnAndroid;
+        var _closure2_slot0 = var8;
+        var6 = var1.setIsKeyboardVisible;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot2;
+        var1 = undefined;
+        var4 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.setCurrentMode;
+            return var1;
         };
-        golfie = report.bind(entity)(tangon);
-        var _closure2_slot2 = golfie;
-        report = _closure1_slot0;
-        tangon = report.useEffect;
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = golfie;
-        zuuluu[2] = oscard;
-        michal = function() {
-            report = _closure1_slot1;
-            tangon = report.addListener;
-            zuuluu = 'keyboardDidShow';
-            michal = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var7 = var5.bind(var1)(var4);
+        var _closure2_slot2 = var7;
+        var5 = _closure1_slot0;
+        var4 = var5.useEffect;
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var7;
+        var3[2] = var6;
+        var2 = function() {
+            var5 = _closure1_slot1;
+            var4 = var5.addListener;
+            var3 = 'keyboardDidShow';
+            var2 = function() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure2_slot0;
-                    if(!michal) { _fun00002_ip = 23; continue _fun00001 }
+                    var2 = _closure2_slot0;
+                    if(!var2) { _fun0001_ip = 23; continue _fun0001 }
  10:
-                    zuuluu = _closure2_slot1;
-                    michal = undefined;
-                    entity = true;
-                    entity = zuuluu.bind(michal)(entity);
+                    var3 = _closure2_slot1;
+                    var2 = undefined;
+                    var1 = true;
+                    var1 = var3.bind(var2)(var1);
  23:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(zuuluu, michal);
-            var _closure3_slot0 = michal;
-            tangon = report.addListener;
-            zuuluu = 'keyboardDidHide';
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot0 = var2;
+            var4 = var5.addListener;
+            var3 = 'keyboardDidHide';
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot0;
-                    if(!michal) { _fun00004_ip = 45; continue _fun00003 }
+                    var2 = _closure2_slot0;
+                    if(!var2) { _fun0002_ip = 45; continue _fun0002 }
  10:
-                    tangon = _closure2_slot1;
-                    zuuluu = undefined;
-                    michal = false;
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = _closure2_slot2;
-                    entity = _closure1_slot3;
-                    entity = entity.DEFAULT_MODE;
-                    entity = michal.bind(zuuluu)(entity);
+                    var4 = _closure2_slot1;
+                    var3 = undefined;
+                    var2 = false;
+                    var2 = var4.bind(var3)(var2);
+                    var2 = _closure2_slot2;
+                    var1 = _closure1_slot3;
+                    var1 = var1.DEFAULT_MODE;
+                    var1 = var2.bind(var3)(var1);
  45:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(zuuluu, michal);
-            var _closure3_slot1 = michal;
-            tangon = report.addListener;
-            zuuluu = 'keyboardWillShow';
-            michal = function() {
-                zuuluu = _closure2_slot1;
-                entity = undefined;
-                michal = true;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot1 = var2;
+            var4 = var5.addListener;
+            var3 = 'keyboardWillShow';
+            var2 = function() {
+                var3 = _closure2_slot1;
+                var1 = undefined;
+                var2 = true;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = tangon.bind(report)(zuuluu, michal);
-            var _closure3_slot2 = michal;
-            tangon = report.addListener;
-            zuuluu = 'keyboardWillHide';
-            michal = function() {
-                zuuluu = _closure2_slot1;
-                entity = undefined;
-                michal = false;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot2 = var2;
+            var4 = var5.addListener;
+            var3 = 'keyboardWillHide';
+            var2 = function() {
+                var3 = _closure2_slot1;
+                var1 = undefined;
+                var2 = false;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = tangon.bind(report)(zuuluu, michal);
-            var _closure3_slot3 = michal;
-            entity = function() {
-                zuuluu = _closure3_slot1;
-                michal = zuuluu.remove;
-                michal = michal.bind(zuuluu)();
-                zuuluu = _closure3_slot0;
-                michal = zuuluu.remove;
-                michal = michal.bind(zuuluu)();
-                zuuluu = _closure3_slot3;
-                michal = zuuluu.remove;
-                michal = michal.bind(zuuluu)();
-                michal = _closure3_slot2;
-                entity = michal.remove;
-                entity = entity.bind(michal)();
-                entity = undefined;
-                return entity;
+            var2 = var4.bind(var5)(var3, var2);
+            var _closure3_slot3 = var2;
+            var1 = function() {
+                var3 = _closure3_slot1;
+                var2 = var3.remove;
+                var2 = var2.bind(var3)();
+                var3 = _closure3_slot0;
+                var2 = var3.remove;
+                var2 = var2.bind(var3)();
+                var3 = _closure3_slot3;
+                var2 = var3.remove;
+                var2 = var2.bind(var3)();
+                var2 = _closure3_slot2;
+                var1 = var2.remove;
+                var1 = var1.bind(var2)();
+                var1 = undefined;
+                return var1;
             };
-            return entity;
+            return var1;
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useKeyboardState'] = michal;
-    return entity;
+    var3['useKeyboardState'] = var2;
+    return var1;
 })();

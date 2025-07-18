@@ -1,279 +1,279 @@
 // discord_common/js/packages/media-engine/ConnectionEventFramerateReducer.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.SpeakingFlags;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.VIDEO_QUALITY_FRAMRATE_NOT_SPEAKING_TIMEOUT;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'ConnectionEventFramerateReducer';
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot6 = tangon;
-    michal = function() {
-        tangon = _closure1_slot3;
-        zuuluu = function(argFoo, argBar) { // Original name: ConnectionEventFramerateReducer
-            oscard = argFoo;
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            golfie = _closure1_slot2;
-            report = _closure2_slot0;
-            entity = undefined;
-            report = golfie.bind(entity)(zuuluu, report);
-            zuuluu['connection'] = oscard;
-            report = argBar;
-            zuuluu['sinkWants'] = report;
-            report = function(argFoo, argBar) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.SpeakingFlags;
+    var _closure1_slot4 = var7;
+    var4 = var4.VIDEO_QUALITY_FRAMRATE_NOT_SPEAKING_TIMEOUT;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.Logger;
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 'ConnectionEventFramerateReducer';
+    var13 = var7;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot6 = var4;
+    var2 = function() {
+        var4 = _closure1_slot3;
+        var3 = function ConnectionEventFramerateReducer(arg1, arg2) {
+            var6 = arg1;
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var7 = _closure1_slot2;
+            var5 = _closure2_slot0;
+            var1 = undefined;
+            var5 = var7.bind(var1)(var3, var5);
+            var3['connection'] = var6;
+            var5 = arg2;
+            var3['sinkWants'] = var5;
+            var5 = function(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    michal = _closure3_slot0;
-                    michal = michal.connection;
-                    zuuluu = michal.userId;
-                    michal = argFoo;
-                    if(!(michal === zuuluu)) { _fun00002_ip = 60; continue _fun00001 }
+                    var2 = _closure3_slot0;
+                    var2 = var2.connection;
+                    var3 = var2.userId;
+                    var2 = arg1;
+                    if(!(var2 === var3)) { _fun0001_ip = 60; continue _fun0001 }
  25:
-                    zuuluu = _closure3_slot0;
-                    michal = zuuluu.userSpeakingChange;
-                    entity = _closure1_slot4;
-                    tangon = entity.NONE;
-                    entity = argBar;
-                    entity = entity === tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var3 = _closure3_slot0;
+                    var2 = var3.userSpeakingChange;
+                    var1 = _closure1_slot4;
+                    var4 = var1.NONE;
+                    var1 = arg2;
+                    var1 = var1 === var4;
+                    var1 = var2.bind(var3)(var1);
  60:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu['handleSpeaking'] = report;
-            tangon = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3['handleSpeaking'] = var5;
+            var4 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure3_slot0;
-                    zuuluu = michal.connection;
-                    michal = zuuluu.hasDesktopSource;
-                    michal = michal.bind(zuuluu)();
-                    if(michal) { _fun00004_ip = 65; continue _fun00003 }
+                    var2 = _closure3_slot0;
+                    var3 = var2.connection;
+                    var2 = var3.hasDesktopSource;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0002_ip = 65; continue _fun0002 }
  26:
-                    michal = _closure3_slot0;
-                    entity = michal.destroyFramerateScaleFactorTimers;
-                    entity = entity.bind(michal)();
-                    zuuluu = michal.sinkWants;
-                    entity = argFoo;
-                    zuuluu['isMuted'] = entity;
-                    entity = michal.updateRemoteWantsFramerate;
-                    entity = entity.bind(michal)();
+                    var2 = _closure3_slot0;
+                    var1 = var2.destroyFramerateScaleFactorTimers;
+                    var1 = var1.bind(var2)();
+                    var3 = var2.sinkWants;
+                    var1 = arg1;
+                    var3['isMuted'] = var1;
+                    var1 = var2.updateRemoteWantsFramerate;
+                    var1 = var1.bind(var2)();
  65:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            zuuluu['handleSelfMute'] = tangon;
-            golfie = _closure1_slot6;
-            report = golfie.enableNativeLogger;
-            tangon = true;
-            tangon = report.bind(golfie)(tangon);
-            verify = oscard.on;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 4;
-            report = golfie[michal];
-            report = tangon.bind(entity)(report);
-            report = report.BaseConnectionEvent;
-            option = report.Speaking;
-            report = zuuluu.handleSpeaking;
-            report = verify.bind(oscard)(option, report);
-            report = oscard.on;
-            michal = golfie[michal];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.BaseConnectionEvent;
-            tangon = michal.Mute;
-            michal = zuuluu.handleSelfMute;
-            michal = report.bind(oscard)(tangon, michal);
-            michal = zuuluu.initialize;
-            michal = michal.bind(zuuluu)();
-            return entity;
+            var3['handleSelfMute'] = var4;
+            var7 = _closure1_slot6;
+            var5 = var7.enableNativeLogger;
+            var4 = true;
+            var4 = var5.bind(var7)(var4);
+            var9 = var6.on;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 4;
+            var5 = var7[var2];
+            var5 = var4.bind(var1)(var5);
+            var5 = var5.BaseConnectionEvent;
+            var8 = var5.Speaking;
+            var5 = var3.handleSpeaking;
+            var5 = var9.bind(var6)(var8, var5);
+            var5 = var6.on;
+            var2 = var7[var2];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.BaseConnectionEvent;
+            var4 = var2.Mute;
+            var2 = var3.handleSelfMute;
+            var2 = var5.bind(var6)(var4, var2);
+            var2 = var3.initialize;
+            var2 = var2.bind(var3)();
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'initialize';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            zuuluu = this;
-            michal = zuuluu.userSpeakingChange;
-            entity = true;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'initialize';
+        var1['key'] = var2;
+        var2 = function value() {
+            var3 = this;
+            var2 = var3.userSpeakingChange;
+            var1 = true;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(5);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'userSpeakingChange';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var2;
+        var2 = new Array(5);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'userSpeakingChange';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = this;
-                var _closure3_slot0 = michal;
-                tangon = michal.connection;
-                zuuluu = tangon.hasDesktopSource;
-                zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00006_ip = 119; continue _fun00005 }
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var4 = var2.connection;
+                var3 = var4.hasDesktopSource;
+                var3 = var3.bind(var4)();
+                if(var3) { _fun0003_ip = 119; continue _fun0003 }
  28:
-                zuuluu = michal.destroyFramerateScaleFactorTimers;
-                zuuluu = zuuluu.bind(michal)();
-                zuuluu = argFoo;
-                if(zuuluu) { _fun00006_ip = 85; continue _fun00005 }
+                var3 = var2.destroyFramerateScaleFactorTimers;
+                var3 = var3.bind(var2)();
+                var3 = arg1;
+                if(var3) { _fun0003_ip = 85; continue _fun0003 }
  44:
-                zuuluu = michal.sinkWants;
-                zuuluu = zuuluu.isMuted;
-                if(!zuuluu) { _fun00006_ip = 119; continue _fun00005 }
+                var3 = var2.sinkWants;
+                var3 = var3.isMuted;
+                if(!var3) { _fun0003_ip = 119; continue _fun0003 }
  59:
-                tangon = michal.sinkWants;
-                zuuluu = false;
-                tangon['isMuted'] = zuuluu;
-                zuuluu = michal.updateRemoteWantsFramerate;
-                zuuluu = zuuluu.bind(michal)();
-                _fun00006_ip = 119; continue _fun00005;
+                var4 = var2.sinkWants;
+                var3 = false;
+                var4['isMuted'] = var3;
+                var3 = var2.updateRemoteWantsFramerate;
+                var3 = var3.bind(var2)();
+                _fun0003_ip = 119; continue _fun0003;
  85:
-                zuuluu = global;
-                report = zuuluu.setTimeout;
-                tangon = _closure1_slot5;
-                zuuluu = undefined;
-                entity = function() {
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var3 = global;
+                var5 = var3.setTimeout;
+                var4 = _closure1_slot5;
+                var3 = undefined;
+                var1 = function() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        michal = _closure3_slot0;
-                        michal = michal.connection;
-                        michal = michal.destroyed;
-                        if(michal) { _fun00008_ip = 111; continue _fun00007 }
+                        var2 = _closure3_slot0;
+                        var2 = var2.connection;
+                        var2 = var2.destroyed;
+                        if(var2) { _fun0004_ip = 111; continue _fun0004 }
  22:
-                        tangon = _closure1_slot6;
-                        zuuluu = tangon.info;
-                        golfie = _closure1_slot5;
-                        michal = global;
-                        michal = michal.HermesInternal;
-                        oscard = michal.concat;
-                        report = 'BaseConnection.userSpeakingChange: Reduced framerate after ';
-                        michal = ' ms.';
-                        michal = oscard.bind(report)(golfie, michal);
-                        michal = zuuluu.bind(tangon)(michal);
-                        michal = _closure3_slot0;
-                        entity = undefined;
-                        michal['framerateReductionTimeout'] = entity;
-                        zuuluu = michal.sinkWants;
-                        entity = true;
-                        zuuluu['isMuted'] = entity;
-                        entity = michal.updateRemoteWantsFramerate;
-                        entity = entity.bind(michal)();
+                        var4 = _closure1_slot6;
+                        var3 = var4.info;
+                        var7 = _closure1_slot5;
+                        var2 = global;
+                        var2 = var2.HermesInternal;
+                        var6 = var2.concat;
+                        var5 = 'BaseConnection.userSpeakingChange: Reduced framerate after ';
+                        var2 = ' ms.';
+                        var2 = var6.bind(var5)(var7, var2);
+                        var2 = var3.bind(var4)(var2);
+                        var2 = _closure3_slot0;
+                        var1 = undefined;
+                        var2['framerateReductionTimeout'] = var1;
+                        var3 = var2.sinkWants;
+                        var1 = true;
+                        var3['isMuted'] = var1;
+                        var1 = var2.updateRemoteWantsFramerate;
+                        var1 = var1.bind(var2)();
  111:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity = report.bind(zuuluu)(entity, tangon);
-                michal['framerateReductionTimeout'] = entity;
+                var1 = var5.bind(var3)(var1, var4);
+                var2['framerateReductionTimeout'] = var1;
  119:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'destroyFramerateScaleFactorTimers';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'destroyFramerateScaleFactorTimers';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                michal = this;
-                entity = michal.framerateReductionTimeout;
-                zuuluu = 'number';
-                entity = typeof entity;
-                if(!(zuuluu === entity)) { _fun00010_ip = 47; continue _fun00009 }
+                var2 = this;
+                var1 = var2.framerateReductionTimeout;
+                var3 = 'number';
+                var1 = typeof var1;
+                if(!(var3 === var1)) { _fun0005_ip = 47; continue _fun0005 }
  20:
-                entity = global;
-                tangon = entity.clearTimeout;
-                zuuluu = michal.framerateReductionTimeout;
-                entity = undefined;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                michal['framerateReductionTimeout'] = entity;
+                var1 = global;
+                var4 = var1.clearTimeout;
+                var3 = var2.framerateReductionTimeout;
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var2['framerateReductionTimeout'] = var1;
  47:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'updateRemoteWantsFramerate';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.connection;
-            michal = zuuluu.updateVideoQuality;
-            entity = ['remoteSinkWantsMaxFramerate'];
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'updateRemoteWantsFramerate';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var3 = var1.connection;
+            var2 = var3.updateVideoQuality;
+            var1 = ['remoteSinkWantsMaxFramerate'];
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'destroy';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = this;
-            entity = michal.destroyFramerateScaleFactorTimers;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'destroy';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = this;
+            var1 = var2.destroyFramerateScaleFactorTimers;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[4] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[4] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/media-engine/ConnectionEventFramerateReducer.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/media-engine/ConnectionEventFramerateReducer.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

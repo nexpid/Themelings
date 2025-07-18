@@ -1,158 +1,158 @@
 // app/modules/app_launcher/native/screens/search/useTrackSearchItems.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_launcher/native/screens/search/useTrackSearchItems.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: useTrackSearchItems
-        option = argFoo;
-        golfie = argBar;
-        oscard = argBaz;
-        var _closure2_slot0 = option;
-        var _closure2_slot1 = golfie;
-        var _closure2_slot2 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useAppLauncherContext;
-        zuuluu = zuuluu.bind(tangon)();
-        verify = zuuluu.entrypoint;
-        var _closure2_slot3 = verify;
-        report = _closure1_slot2;
-        zuuluu = report.useRef;
-        entity = {};
-        entity = zuuluu.bind(report)(entity);
-        var _closure2_slot4 = entity;
-        entity = report.useRef;
-        entity = entity.bind(report)(oscard);
-        var _closure2_slot5 = entity;
-        entity = {};
-        tangon = report.useCallback;
-        zuuluu = new Array(4);
-        zuuluu[0] = verify;
-        zuuluu[1] = option;
-        zuuluu[2] = golfie;
-        zuuluu[3] = oscard;
-        michal = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_launcher/native/screens/search/useTrackSearchItems.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useTrackSearchItems(arg1, arg2, arg3) {
+        var8 = arg1;
+        var7 = arg2;
+        var6 = arg3;
+        var _closure2_slot0 = var8;
+        var _closure2_slot1 = var7;
+        var _closure2_slot2 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useAppLauncherContext;
+        var3 = var3.bind(var4)();
+        var9 = var3.entrypoint;
+        var _closure2_slot3 = var9;
+        var5 = _closure1_slot2;
+        var3 = var5.useRef;
+        var1 = {};
+        var1 = var3.bind(var5)(var1);
+        var _closure2_slot4 = var1;
+        var1 = var5.useRef;
+        var1 = var1.bind(var5)(var6);
+        var _closure2_slot5 = var1;
+        var1 = {};
+        var4 = var5.useCallback;
+        var3 = new Array(4);
+        var3[0] = var9;
+        var3[1] = var8;
+        var3[2] = var7;
+        var3[3] = var6;
+        var2 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.viewableItems;
-                michal = _closure2_slot5;
-                tangon = michal.current;
-                michal = _closure2_slot2;
-                if(!(tangon !== michal)) { _fun00002_ip = 55; continue _fun00001 }
+                var1 = arg1;
+                var3 = var1.viewableItems;
+                var2 = _closure2_slot5;
+                var4 = var2.current;
+                var2 = _closure2_slot2;
+                if(!(var4 !== var2)) { _fun0001_ip = 55; continue _fun0001 }
  29:
-                tangon = _closure2_slot5;
-                michal = _closure2_slot2;
-                tangon['current'] = michal;
-                michal = _closure2_slot4;
-                entity = {};
-                michal['current'] = entity;
+                var4 = _closure2_slot5;
+                var2 = _closure2_slot2;
+                var4['current'] = var2;
+                var2 = _closure2_slot4;
+                var1 = {};
+                var2['current'] = var1;
  55:
-                michal = zuuluu.forEach;
-                entity = function(argFoo) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        oscard = argFoo;
-                        entity = oscard.isViewable;
-                        if(!entity) { _fun00004_ip = 266; continue _fun00003 }
+                        var6 = arg1;
+                        var1 = var6.isViewable;
+                        if(!var1) { _fun0002_ip = 266; continue _fun0002 }
  15:
-                        michal = _closure2_slot0;
-                        entity = oscard.item;
-                        yankee = undefined;
-                        zuuluu = michal.bind(yankee)(entity);
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 266; continue _fun00003 }
+                        var2 = _closure2_slot0;
+                        var1 = var6.item;
+                        var11 = undefined;
+                        var3 = var2.bind(var11)(var1);
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0002_ip = 266; continue _fun0002 }
  43:
-                        entity = _closure2_slot4;
-                        entity = entity.current;
-                        entity = entity[zuuluu];
-                        if(!(michal == entity)) { _fun00004_ip = 266; continue _fun00003 }
+                        var1 = _closure2_slot4;
+                        var1 = var1.current;
+                        var1 = var1[var3];
+                        if(!(var2 == var1)) { _fun0002_ip = 266; continue _fun0002 }
  63:
-                        entity = _closure2_slot4;
-                        michal = entity.current;
-                        entity = true;
-                        michal[zuuluu] = entity;
-                        michal = _closure2_slot1;
-                        entity = oscard.item;
-                        entity = michal.bind(yankee)(entity);
-                        option = entity.applicationId;
-                        golfie = entity.commandId;
-                        offset = _closure1_slot0;
-                        romeon = _closure1_slot1;
-                        entity = 2;
-                        entity = romeon[entity];
-                        tangon = offset.bind(yankee)(entity);
-                        zuuluu = tangon.trackImpression;
-                        michal = {};
-                        entity = 3;
-                        verify = romeon[entity];
-                        verify = offset.bind(yankee)(verify);
-                        verify = verify.ImpressionTypes;
-                        verify = verify.VIEW;
-                        michal['type'] = verify;
-                        entity = romeon[entity];
-                        entity = offset.bind(yankee)(entity);
-                        entity = entity.ImpressionNames;
-                        entity = entity.APP_LAUNCHER_SEARCH_RESULTS_ITEM;
-                        michal['name'] = entity;
-                        entity = {};
-                        verify = 4;
-                        verify = romeon[verify];
-                        verify = offset.bind(yankee)(verify);
-                        verify = verify.ApplicationCommandTriggerLocations;
-                        verify = verify.APP_LAUNCHER_HOME_SEARCH;
-                        entity['location'] = verify;
-                        entity['application_id'] = option;
-                        entity['command_id'] = golfie;
-                        oscard = oscard.index;
-                        entity['search_results_position'] = oscard;
-                        oscard = _closure2_slot2;
-                        entity['query'] = oscard;
-                        report = _closure2_slot3;
-                        entity['source'] = report;
-                        michal['properties'] = entity;
-                        entity = false;
-                        entity = zuuluu.bind(tangon)(michal, entity);
+                        var1 = _closure2_slot4;
+                        var2 = var1.current;
+                        var1 = true;
+                        var2[var3] = var1;
+                        var2 = _closure2_slot1;
+                        var1 = var6.item;
+                        var1 = var2.bind(var11)(var1);
+                        var8 = var1.applicationId;
+                        var7 = var1.commandId;
+                        var10 = _closure1_slot0;
+                        var12 = _closure1_slot1;
+                        var1 = 2;
+                        var1 = var12[var1];
+                        var4 = var10.bind(var11)(var1);
+                        var3 = var4.trackImpression;
+                        var2 = {};
+                        var1 = 3;
+                        var9 = var12[var1];
+                        var9 = var10.bind(var11)(var9);
+                        var9 = var9.ImpressionTypes;
+                        var9 = var9.VIEW;
+                        var2['type'] = var9;
+                        var1 = var12[var1];
+                        var1 = var10.bind(var11)(var1);
+                        var1 = var1.ImpressionNames;
+                        var1 = var1.APP_LAUNCHER_SEARCH_RESULTS_ITEM;
+                        var2['name'] = var1;
+                        var1 = {};
+                        var9 = 4;
+                        var9 = var12[var9];
+                        var9 = var10.bind(var11)(var9);
+                        var9 = var9.ApplicationCommandTriggerLocations;
+                        var9 = var9.APP_LAUNCHER_HOME_SEARCH;
+                        var1['location'] = var9;
+                        var1['application_id'] = var8;
+                        var1['command_id'] = var7;
+                        var6 = var6.index;
+                        var1['search_results_position'] = var6;
+                        var6 = _closure2_slot2;
+                        var1['query'] = var6;
+                        var5 = _closure2_slot3;
+                        var1['source'] = var5;
+                        var2['properties'] = var1;
+                        var1 = false;
+                        var1 = var3.bind(var4)(var2, var1);
  266:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity['handleViewableItemsChanged'] = michal;
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        var1['handleViewableItemsChanged'] = var2;
+        return var1;
     };
-    zuuluu['useTrackSearchItems'] = michal;
-    return entity;
+    var3['useTrackSearchItems'] = var2;
+    return var1;
 })();

@@ -1,185 +1,185 @@
 // discord_common/js/packages/libdiscore/mobile/js/index.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        golfie = argBar;
-        oscard = argBaz;
-        zuuluu = argFre;
-        option = argPlu;
-        report = global;
-        offset = report.Object;
-        verify = offset.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = verify.bind(offset)(zuuluu, entity, tangon);
-        entity = 0;
-        tangon = option[entity];
-        entity = undefined;
-        tangon = oscard.bind(entity)(tangon);
-        var _closure1_slot0 = tangon;
-        tangon = 1;
-        tangon = option[tangon];
-        tangon = oscard.bind(entity)(tangon);
-        var _closure1_slot1 = tangon;
-        tangon = 2;
-        tangon = option[tangon];
-        tangon = golfie.bind(entity)(tangon);
-        tangon = tangon.NativeModules;
-        oscard = tangon.LibDiscoreModule;
-        if(oscard) { _fun00002_ip = 150; continue _fun00001 }
+        var7 = native2;
+        var6 = native3;
+        var3 = native6;
+        var8 = native7;
+        var5 = global;
+        var10 = var5.Object;
+        var9 = var10.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var9.bind(var10)(var3, var1, var4);
+        var1 = 0;
+        var4 = var8[var1];
+        var1 = undefined;
+        var4 = var6.bind(var1)(var4);
+        var _closure1_slot0 = var4;
+        var4 = 1;
+        var4 = var8[var4];
+        var4 = var6.bind(var1)(var4);
+        var _closure1_slot1 = var4;
+        var4 = 2;
+        var4 = var8[var4];
+        var4 = var7.bind(var1)(var4);
+        var4 = var4.NativeModules;
+        var6 = var4.LibDiscoreModule;
+        if(var6) { _fun0001_ip = 150; continue _fun0001 }
  106:
-        offset = report.Proxy;
-        verify = {};
-        report = function() { // Original name: get
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = "The package 'react-native-libdiscore-jsi-module' doesn't seem to be linked";
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+        var10 = var5.Proxy;
+        var9 = {};
+        var5 = function get() {
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = "The package 'react-native-libdiscore-jsi-module' doesn't seem to be linked";
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         };
-        verify['get'] = report;
-        report = offset.prototype;
-        oscard = Object.create(report, {constructor: {value: offset}});
-        foxtra = {};
-        backup = oscard;
-        romeon = verify;
-        report = new backup[offset](foxtra, romeon, yankee);
-        report = report instanceof Object ? report : oscard;
-        _fun00002_ip = 156; continue _fun00001;
+        var9['get'] = var5;
+        var5 = var10.prototype;
+        var6 = Object.create(var5, {constructor: {value: var10}});
+        var13 = {};
+        var14 = var6;
+        var12 = var9;
+        var5 = new var14[var10](var13, var12, var11);
+        var5 = var5 instanceof Object ? var5 : var6;
+        _fun0001_ip = 156; continue _fun0001;
  150:
-        report = tangon.LibDiscoreModule;
+        var5 = var4.LibDiscoreModule;
  156:
-        tangon = report.bridgeJSIFunctions;
-        tangon = tangon.bind(report)();
-        tangon = argFoo;
-        tangon = tangon.LIBDISCORE_JSI;
-        var _closure1_slot2 = tangon;
-        report = tangon.ExperimentCacher;
-        tangon = function() {
-            report = _closure1_slot1;
-            tangon = function() { // Original name: BlockedDomainsStore
-                tangon = _closure1_slot0;
-                zuuluu = _closure2_slot0;
-                entity = undefined;
-                michal = this;
-                michal = tangon.bind(entity)(michal, zuuluu);
-                return entity;
+        var4 = var5.bridgeJSIFunctions;
+        var4 = var4.bind(var5)();
+        var4 = native1;
+        var4 = var4.LIBDISCORE_JSI;
+        var _closure1_slot2 = var4;
+        var5 = var4.ExperimentCacher;
+        var4 = function() {
+            var5 = _closure1_slot1;
+            var4 = function BlockedDomainsStore() {
+                var4 = _closure1_slot0;
+                var3 = _closure2_slot0;
+                var1 = undefined;
+                var2 = this;
+                var2 = var4.bind(var1)(var2, var3);
+                return var1;
             };
-            var _closure2_slot0 = tangon;
-            entity = {};
-            zuuluu = 'isBlockedDomain';
-            entity['key'] = zuuluu;
-            zuuluu = function(argFoo) { // Original name: value
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.isBlockedDomain;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var _closure2_slot0 = var4;
+            var1 = {};
+            var3 = 'isBlockedDomain';
+            var1['key'] = var3;
+            var3 = function value(arg1) {
+                var3 = _closure1_slot2;
+                var2 = var3.isBlockedDomain;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity['value'] = zuuluu;
-            zuuluu = new Array(2);
-            zuuluu[0] = entity;
-            entity = {};
-            oscard = 'startFetchingBlockedDomains';
-            entity['key'] = oscard;
-            michal = function(argFoo) { // Original name: value
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.startFetchingBlockedDomains;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
-                return entity;
+            var1['value'] = var3;
+            var3 = new Array(2);
+            var3[0] = var1;
+            var1 = {};
+            var6 = 'startFetchingBlockedDomains';
+            var1['key'] = var6;
+            var2 = function value(arg1) {
+                var3 = _closure1_slot2;
+                var2 = var3.startFetchingBlockedDomains;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
             };
-            entity['value'] = michal;
-            zuuluu[1] = entity;
-            michal = undefined;
-            entity = null;
-            entity = report.bind(michal)(tangon, entity, zuuluu);
-            return entity;
+            var1['value'] = var2;
+            var3[1] = var1;
+            var2 = undefined;
+            var1 = null;
+            var1 = var5.bind(var2)(var4, var1, var3);
+            return var1;
         };
-        tangon = tangon.bind(entity)();
-        oscard = 3;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['ExperimentCacher'] = report;
-        report = function(argFoo, argBar) { // Original name: rustMultiply
-            tangon = _closure1_slot2;
-            zuuluu = tangon.rustMultiply;
-            michal = argFoo;
-            entity = argBar;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var4 = var4.bind(var1)();
+        var6 = 3;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
+        var6 = var7.bind(var8)(var6);
+        var3['ExperimentCacher'] = var5;
+        var5 = function rustMultiply(arg1, arg2) {
+            var4 = _closure1_slot2;
+            var3 = var4.rustMultiply;
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        zuuluu['rustMultiply'] = report;
-        report = function() { // Original name: consumeLogs
-            michal = _closure1_slot2;
-            entity = michal.consumeLogs;
-            entity = entity.bind(michal)();
-            return entity;
+        var3['rustMultiply'] = var5;
+        var5 = function consumeLogs() {
+            var2 = _closure1_slot2;
+            var1 = var2.consumeLogs;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        zuuluu['consumeLogs'] = report;
-        zuuluu['BlockedDomainsStore'] = tangon;
-        tangon = function() { // Original name: getKvDatabaseApi
-            entity = {};
-            zuuluu = function(argFoo, argBar, argBaz) { // Original name: registerStore
-                report = argBar;
-                tangon = _closure1_slot2;
-                zuuluu = tangon.registerKvStore;
-                michal = argFoo;
-                entity = argBaz;
-                entity = zuuluu.bind(tangon)(michal, report, entity);
-                michal = entity.token;
-                tangon = entity.root;
-                zuuluu = entity.derived;
-                entity = undefined;
-                entity = report.bind(entity)(tangon, zuuluu);
-                entity = {};
-                entity['token'] = michal;
-                return entity;
+        var3['consumeLogs'] = var5;
+        var3['BlockedDomainsStore'] = var4;
+        var4 = function getKvDatabaseApi() {
+            var1 = {};
+            var3 = function registerStore(arg1, arg2, arg3) {
+                var5 = arg2;
+                var4 = _closure1_slot2;
+                var3 = var4.registerKvStore;
+                var2 = arg1;
+                var1 = arg3;
+                var1 = var3.bind(var4)(var2, var5, var1);
+                var2 = var1.token;
+                var4 = var1.root;
+                var3 = var1.derived;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4, var3);
+                var1 = {};
+                var1['token'] = var2;
+                return var1;
             };
-            entity['registerStore'] = zuuluu;
-            tangon = _closure1_slot2;
-            tangon = tangon.getRegisteredActionTypes;
-            entity['getActions'] = tangon;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.dispatchAction;
-            entity['dispatchAction'] = zuuluu;
-            michal = function(argFoo) { // Original name: getMemoryStatistics
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.getKvStoreMemoryStatistics;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1['registerStore'] = var3;
+            var4 = _closure1_slot2;
+            var4 = var4.getRegisteredActionTypes;
+            var1['getActions'] = var4;
+            var3 = _closure1_slot2;
+            var3 = var3.dispatchAction;
+            var1['dispatchAction'] = var3;
+            var2 = function getMemoryStatistics(arg1) {
+                var3 = _closure1_slot2;
+                var2 = var3.getKvStoreMemoryStatistics;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity['getMemoryStatistics'] = michal;
-            return entity;
+            var1['getMemoryStatistics'] = var2;
+            return var1;
         };
-        zuuluu['getKvDatabaseApi'] = tangon;
-        tangon = function() { // Original name: crash
-            michal = _closure1_slot2;
-            entity = michal.crash;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var3['getKvDatabaseApi'] = var4;
+        var4 = function crash() {
+            var2 = _closure1_slot2;
+            var1 = var2.crash;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        zuuluu['crash'] = tangon;
-        michal = function(argFoo) { // Original name: generateLaunchSignature
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.generateLaunchSignature;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var3['crash'] = var4;
+        var2 = function generateLaunchSignature(arg1) {
+            var3 = _closure1_slot2;
+            var2 = var3.generateLaunchSignature;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        zuuluu['generateLaunchSignature'] = michal;
-        return entity;
+        var3['generateLaunchSignature'] = var2;
+        return var1;
     }
 })();

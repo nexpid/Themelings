@@ -1,123 +1,123 @@
 // app/modules/links/native/LinkingModule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.NativeModules;
-    var _closure1_slot3 = michal;
-    michal = {};
-    golfie = function(argFoo) { // Original name: tryOpenUrlAsUniversalLink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.NativeModules;
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var7 = function tryOpenUrlAsUniversalLink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 1;
-            entity = report[entity];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00002_ip = 63; continue _fun00001 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 1;
+            var1 = var5[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0001_ip = 63; continue _fun0001 }
  40:
-            entity = _closure1_slot3;
-            zuuluu = entity.DCDLinkingManager;
-            entity = zuuluu.tryOpenUrlAsUniversalLink;
-            entity = entity.bind(zuuluu)(tangon);
-            _fun00002_ip = 133; continue _fun00001;
+            var1 = _closure1_slot3;
+            var3 = var1.DCDLinkingManager;
+            var1 = var3.tryOpenUrlAsUniversalLink;
+            var1 = var1.bind(var3)(var4);
+            _fun0001_ip = 133; continue _fun0001;
  63:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.tryOpenUrlAsUniversalLink;
-            michal = michal.bind(zuuluu)(tangon);
-            zuuluu = global;
-            report = zuuluu.Promise;
-            if(michal) { _fun00002_ip = 117; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.tryOpenUrlAsUniversalLink;
+            var2 = var2.bind(var3)(var4);
+            var3 = global;
+            var5 = var3.Promise;
+            if(var2) { _fun0001_ip = 117; continue _fun0001 }
  105:
-            michal = report.reject;
-            michal = michal.bind(report)();
-            _fun00002_ip = 130; continue _fun00001;
+            var2 = var5.reject;
+            var2 = var2.bind(var5)();
+            _fun0001_ip = 130; continue _fun0001;
  117:
-            tangon = report.resolve;
-            zuuluu = true;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.resolve;
+            var3 = true;
+            var2 = var4.bind(var5)(var3);
  130:
-            entity = michal;
+            var1 = var2;
  133:
-            return entity;
+            return var1;
         }
     };
-    michal['tryOpenUrlAsUniversalLink'] = golfie;
-    tangon = function(argFoo) { // Original name: tryOpenScheme
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['tryOpenUrlAsUniversalLink'] = var7;
+    var4 = function tryOpenScheme(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 1;
-            entity = report[entity];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00004_ip = 63; continue _fun00003 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 1;
+            var1 = var5[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.isAndroid;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0002_ip = 63; continue _fun0002 }
  40:
-            entity = _closure1_slot3;
-            zuuluu = entity.DCDLinkingManager;
-            entity = zuuluu.tryOpenScheme;
-            entity = entity.bind(zuuluu)(tangon);
-            _fun00004_ip = 133; continue _fun00003;
+            var1 = _closure1_slot3;
+            var3 = var1.DCDLinkingManager;
+            var1 = var3.tryOpenScheme;
+            var1 = var1.bind(var3)(var4);
+            _fun0002_ip = 133; continue _fun0002;
  63:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.tryOpenScheme;
-            michal = michal.bind(zuuluu)(tangon);
-            zuuluu = global;
-            report = zuuluu.Promise;
-            if(michal) { _fun00004_ip = 117; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = var3.tryOpenScheme;
+            var2 = var2.bind(var3)(var4);
+            var3 = global;
+            var5 = var3.Promise;
+            if(var2) { _fun0002_ip = 117; continue _fun0002 }
  105:
-            michal = report.reject;
-            michal = michal.bind(report)();
-            _fun00004_ip = 130; continue _fun00003;
+            var2 = var5.reject;
+            var2 = var2.bind(var5)();
+            _fun0002_ip = 130; continue _fun0002;
  117:
-            tangon = report.resolve;
-            zuuluu = true;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.resolve;
+            var3 = true;
+            var2 = var4.bind(var5)(var3);
  130:
-            entity = michal;
+            var1 = var2;
  133:
-            return entity;
+            return var1;
         }
     };
-    michal['tryOpenScheme'] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/links/native/LinkingModule.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['tryOpenScheme'] = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/links/native/LinkingModule.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

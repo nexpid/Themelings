@@ -1,74 +1,74 @@
 // app/modules/coded_links/codedLinkQueue.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    option = oscard.bind(entity)(tangon);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    yankee = 'codedLinkQueue';
-    romeon = golfie;
-    tangon = new romeon[option](yankee, offset);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    golfie = oscard.bind(entity)(tangon);
-    tangon = golfie.prototype;
-    oscard = Object.create(tangon, {constructor: {value: golfie}});
-    yankee = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
-    romeon = oscard;
-    tangon = new romeon[golfie](yankee, offset);
-    option = tangon instanceof Object ? tangon : oscard;
-    var _closure1_slot1 = option;
-    golfie = option.on;
-    oscard = 'add';
-    tangon = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var8 = var6.bind(var1)(var4);
+    var4 = var8.prototype;
+    var7 = Object.create(var4, {constructor: {value: var8}});
+    var11 = 'codedLinkQueue';
+    var12 = var7;
+    var4 = new var12[var8](var11, var10);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var7 = var6.bind(var1)(var4);
+    var4 = var7.prototype;
+    var6 = Object.create(var4, {constructor: {value: var7}});
+    var11 = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
+    var12 = var6;
+    var4 = new var12[var7](var11, var10);
+    var8 = var4 instanceof Object ? var4 : var6;
+    var _closure1_slot1 = var8;
+    var7 = var8.on;
+    var6 = 'add';
+    var4 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot1;
-            zuuluu = michal.size;
-            michal = 0;
-            if(!(zuuluu > michal)) { _fun00002_ip = 48; continue _fun00001 }
+            var2 = _closure1_slot1;
+            var3 = var2.size;
+            var2 = 0;
+            if(!(var3 > var2)) { _fun0001_ip = 48; continue _fun0001 }
  18:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.warn;
-            entity = _closure1_slot1;
-            michal = entity.size;
-            entity = 'Message link fetch queue backlog:';
-            entity = zuuluu.bind(tangon)(entity, michal);
+            var4 = _closure1_slot0;
+            var3 = var4.warn;
+            var1 = _closure1_slot1;
+            var2 = var1.size;
+            var1 = 'Message link fetch queue backlog:';
+            var1 = var3.bind(var4)(var1, var2);
  48:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    tangon = golfie.bind(option)(oscard, tangon);
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/coded_links/codedLinkQueue.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: queueMessageLinkFetch
-        zuuluu = _closure1_slot1;
-        michal = zuuluu.add;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var4 = var7.bind(var8)(var6, var4);
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/coded_links/codedLinkQueue.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function queueMessageLinkFetch(arg1) {
+        var3 = _closure1_slot1;
+        var2 = var3.add;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['queueMessageLinkFetch'] = michal;
-    return entity;
+    var3['queueMessageLinkFetch'] = var2;
+    return var1;
 })();

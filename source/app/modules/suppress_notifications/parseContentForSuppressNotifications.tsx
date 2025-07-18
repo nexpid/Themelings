@@ -1,78 +1,78 @@
 // app/modules/suppress_notifications/parseContentForSuppressNotifications.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    michal = true;
-    report['value'] = michal;
-    michal = '__esModule';
-    michal = oscard.bind(golfie)(zuuluu, michal, report);
-    report = entity.RegExp;
-    entity = entity.HermesInternal;
-    golfie = entity.concat;
-    oscard = '^';
-    michal = '@silent';
-    entity = '(\\s|$)';
-    offset = golfie.bind(oscard)(michal, entity);
-    michal = report.prototype;
-    michal = Object.create(michal, {constructor: {value: report}});
-    yankee = michal;
-    entity = new yankee[report](offset, verify);
-    michal = entity instanceof Object ? entity : michal;
-    var _closure1_slot0 = michal;
-    report = argPlu;
-    entity = 0;
-    oscard = report[entity];
-    report = argBar;
-    entity = undefined;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/suppress_notifications/parseContentForSuppressNotifications.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: parseContentForSuppressNotifications
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var2 = true;
+    var5['value'] = var2;
+    var2 = '__esModule';
+    var2 = var6.bind(var7)(var3, var2, var5);
+    var5 = var1.RegExp;
+    var1 = var1.HermesInternal;
+    var7 = var1.concat;
+    var6 = '^';
+    var2 = '@silent';
+    var1 = '(\\s|$)';
+    var10 = var7.bind(var6)(var2, var1);
+    var2 = var5.prototype;
+    var2 = Object.create(var2, {constructor: {value: var5}});
+    var11 = var2;
+    var1 = new var11[var5](var10, var9);
+    var2 = var1 instanceof Object ? var1 : var2;
+    var _closure1_slot0 = var2;
+    var5 = native7;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = native2;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/suppress_notifications/parseContentForSuppressNotifications.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function parseContentForSuppressNotifications(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 90; continue _fun00001 }
+            var3 = arg1;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0001_ip = 90; continue _fun0001 }
  9:
-            tangon = zuuluu.match;
-            entity = _closure1_slot0;
-            entity = tangon.bind(zuuluu)(entity);
-            if(!(michal != entity)) { _fun00002_ip = 71; continue _fun00001 }
+            var4 = var3.match;
+            var1 = _closure1_slot0;
+            var1 = var4.bind(var3)(var1);
+            if(!(var2 != var1)) { _fun0001_ip = 71; continue _fun0001 }
  31:
-            entity = new Array(2);
-            michal = true;
-            entity[0] = michal;
-            tangon = zuuluu.substring;
-            michal = 7;
-            tangon = tangon.bind(zuuluu)(michal);
-            michal = tangon.trim;
-            michal = michal.bind(tangon)();
-            entity[1] = michal;
-            _fun00002_ip = 88; continue _fun00001;
+            var1 = new Array(2);
+            var2 = true;
+            var1[0] = var2;
+            var4 = var3.substring;
+            var2 = 7;
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.trim;
+            var2 = var2.bind(var4)();
+            var1[1] = var2;
+            _fun0001_ip = 88; continue _fun0001;
  71:
-            michal = new Array(2);
-            tangon = false;
-            michal[0] = tangon;
-            michal[1] = zuuluu;
-            entity = michal;
+            var2 = new Array(2);
+            var4 = false;
+            var2[0] = var4;
+            var2[1] = var3;
+            var1 = var2;
  88:
-            _fun00002_ip = 111; continue _fun00001;
+            _fun0001_ip = 111; continue _fun0001;
  90:
-            michal = new Array(2);
-            zuuluu = false;
-            michal[0] = zuuluu;
-            zuuluu = '';
-            michal[1] = zuuluu;
-            entity = michal;
+            var2 = new Array(2);
+            var3 = false;
+            var2[0] = var3;
+            var3 = '';
+            var2[1] = var3;
+            var1 = var2;
  111:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['SILENT_RE'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['SILENT_RE'] = var2;
+    return var1;
 })();

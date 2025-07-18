@@ -1,440 +1,440 @@
 // app/lib/SystemResources.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    michal = function() {
-        tangon = _closure1_slot5;
-        zuuluu = function() { // Original name: SystemResources
-            zuuluu = this;
-            report = _closure1_slot4;
-            tangon = _closure2_slot3;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            tangon = 3;
-            golfie = report[tangon];
-            golfie = oscard.bind(entity)(golfie);
-            golfie = golfie.Histogram;
-            option = golfie.prototype;
-            option = Object.create(option, {constructor: {value: golfie}});
-            yankee = option;
-            golfie = new yankee[golfie](offset);
-            golfie = golfie instanceof Object ? golfie : option;
-            zuuluu['cpuHistogram'] = golfie;
-            tangon = report[tangon];
-            tangon = oscard.bind(entity)(tangon);
-            tangon = tangon.Histogram;
-            oscard = tangon.prototype;
-            oscard = Object.create(oscard, {constructor: {value: tangon}});
-            yankee = oscard;
-            tangon = new yankee[tangon](offset);
-            tangon = tangon instanceof Object ? tangon : oscard;
-            zuuluu['memoryHistogram'] = tangon;
-            tangon = _closure1_slot1;
-            michal = 4;
-            michal = report[michal];
-            tangon = tangon.bind(entity)(michal);
-            michal = tangon.getCumulativeCPUUsage;
-            michal = michal.bind(tangon)();
-            zuuluu['startCPU'] = michal;
-            michal = zuuluu.startCPU;
-            zuuluu['lastCPU'] = michal;
-            michal = null;
-            zuuluu['lastBattery'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var2 = function() {
+        var4 = _closure1_slot5;
+        var3 = function SystemResources() {
+            var3 = this;
+            var5 = _closure1_slot4;
+            var4 = _closure2_slot3;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 3;
+            var7 = var5[var4];
+            var7 = var6.bind(var1)(var7);
+            var7 = var7.Histogram;
+            var8 = var7.prototype;
+            var8 = Object.create(var8, {constructor: {value: var7}});
+            var11 = var8;
+            var7 = new var11[var7](var10);
+            var7 = var7 instanceof Object ? var7 : var8;
+            var3['cpuHistogram'] = var7;
+            var4 = var5[var4];
+            var4 = var6.bind(var1)(var4);
+            var4 = var4.Histogram;
+            var6 = var4.prototype;
+            var6 = Object.create(var6, {constructor: {value: var4}});
+            var11 = var6;
+            var4 = new var11[var4](var10);
+            var4 = var4 instanceof Object ? var4 : var6;
+            var3['memoryHistogram'] = var4;
+            var4 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.getCumulativeCPUUsage;
+            var2 = var2.bind(var4)();
+            var3['startCPU'] = var2;
+            var2 = var3.startCPU;
+            var3['lastCPU'] = var2;
+            var2 = null;
+            var3['lastBattery'] = var2;
+            return var1;
         };
-        var _closure2_slot3 = zuuluu;
-        report = {};
-        michal = 'getStats';
-        report['key'] = michal;
-        michal = function() { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot3 = var3;
+        var5 = {};
+        var2 = 'getStats';
+        var5['key'] = var2;
+        var2 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = this;
-                zuuluu = entity.cpuHistogram;
-                michal = zuuluu.getReport;
-                verify = michal.bind(zuuluu)();
-                zuuluu = entity.memoryHistogram;
-                michal = zuuluu.getReport;
-                michal = michal.bind(zuuluu)();
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                zuuluu = 4;
-                zuuluu = report[zuuluu];
-                oscard = undefined;
-                tangon = tangon.bind(oscard)(zuuluu);
-                zuuluu = tangon.getCumulativeCPUUsage;
-                report = zuuluu.bind(tangon)();
-                zuuluu = entity.startCPU;
-                offset = null;
-                tangon = offset == zuuluu;
-                zuuluu = undefined;
-                if(tangon) { _fun00002_ip = 161; continue _fun00001 }
+                var1 = this;
+                var3 = var1.cpuHistogram;
+                var2 = var3.getReport;
+                var9 = var2.bind(var3)();
+                var3 = var1.memoryHistogram;
+                var2 = var3.getReport;
+                var2 = var2.bind(var3)();
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var3 = 4;
+                var3 = var5[var3];
+                var6 = undefined;
+                var4 = var4.bind(var6)(var3);
+                var3 = var4.getCumulativeCPUUsage;
+                var5 = var3.bind(var4)();
+                var3 = var1.startCPU;
+                var10 = null;
+                var4 = var10 == var3;
+                var3 = undefined;
+                if(var4) { _fun0001_ip = 161; continue _fun0001 }
  87:
-                tangon = offset == report;
-                zuuluu = undefined;
-                if(tangon) { _fun00002_ip = 161; continue _fun00001 }
+                var4 = var10 == var5;
+                var3 = undefined;
+                if(var4) { _fun0001_ip = 161; continue _fun0001 }
  96:
-                oscard = report.usage;
-                tangon = entity.startCPU;
-                tangon = tangon.usage;
-                oscard = oscard - tangon;
-                tangon = 100;
-                tangon = tangon * oscard;
-                report = report.sampleTime;
-                entity = entity.startCPU;
-                entity = entity.sampleTime;
-                report = report - entity;
-                entity = 1000;
-                entity = report / entity;
-                zuuluu = tangon / entity;
+                var6 = var5.usage;
+                var4 = var1.startCPU;
+                var4 = var4.usage;
+                var6 = var6 - var4;
+                var4 = 100;
+                var4 = var4 * var6;
+                var5 = var5.sampleTime;
+                var1 = var1.startCPU;
+                var1 = var1.sampleTime;
+                var5 = var5 - var1;
+                var1 = 1000;
+                var1 = var5 / var1;
+                var3 = var4 / var1;
  161:
-                entity = {};
-                tangon = verify.percentiles;
-                option = 25;
-                tangon = tangon[option];
-                entity['client_performance_cpu_percentile25'] = tangon;
-                tangon = verify.percentiles;
-                golfie = 50;
-                tangon = tangon[golfie];
-                entity['client_performance_cpu_percentile50'] = tangon;
-                tangon = verify.percentiles;
-                oscard = 75;
-                tangon = tangon[oscard];
-                entity['client_performance_cpu_percentile75'] = tangon;
-                tangon = verify.percentiles;
-                report = 90;
-                tangon = tangon[report];
-                entity['client_performance_cpu_percentile90'] = tangon;
-                yankee = verify.percentiles;
-                tangon = 95;
-                yankee = yankee[tangon];
-                entity['client_performance_cpu_percentile95'] = yankee;
-                if(!(offset == zuuluu)) { _fun00002_ip = 273; continue _fun00001 }
+                var1 = {};
+                var4 = var9.percentiles;
+                var8 = 25;
+                var4 = var4[var8];
+                var1['client_performance_cpu_percentile25'] = var4;
+                var4 = var9.percentiles;
+                var7 = 50;
+                var4 = var4[var7];
+                var1['client_performance_cpu_percentile50'] = var4;
+                var4 = var9.percentiles;
+                var6 = 75;
+                var4 = var4[var6];
+                var1['client_performance_cpu_percentile75'] = var4;
+                var4 = var9.percentiles;
+                var5 = 90;
+                var4 = var4[var5];
+                var1['client_performance_cpu_percentile90'] = var4;
+                var11 = var9.percentiles;
+                var4 = 95;
+                var11 = var11[var4];
+                var1['client_performance_cpu_percentile95'] = var11;
+                if(!(var10 == var3)) { _fun0001_ip = 273; continue _fun0001 }
  267:
-                zuuluu = verify.mean;
+                var3 = var9.mean;
  273:
-                entity['client_performance_cpu_mean'] = zuuluu;
-                zuuluu = michal.percentiles;
-                zuuluu = zuuluu[option];
-                entity['client_performance_memory_percentile25'] = zuuluu;
-                zuuluu = michal.percentiles;
-                zuuluu = zuuluu[golfie];
-                entity['client_performance_memory_percentile50'] = zuuluu;
-                zuuluu = michal.percentiles;
-                zuuluu = zuuluu[oscard];
-                entity['client_performance_memory_percentile75'] = zuuluu;
-                zuuluu = michal.percentiles;
-                zuuluu = zuuluu[report];
-                entity['client_performance_memory_percentile90'] = zuuluu;
-                zuuluu = michal.percentiles;
-                zuuluu = zuuluu[tangon];
-                entity['client_performance_memory_percentile95'] = zuuluu;
-                zuuluu = michal.min;
-                entity['client_performance_memory_min'] = zuuluu;
-                zuuluu = michal.max;
-                entity['client_performance_memory_max'] = zuuluu;
-                michal = michal.mean;
-                entity['client_performance_memory_mean'] = michal;
-                return entity;
+                var1['client_performance_cpu_mean'] = var3;
+                var3 = var2.percentiles;
+                var3 = var3[var8];
+                var1['client_performance_memory_percentile25'] = var3;
+                var3 = var2.percentiles;
+                var3 = var3[var7];
+                var1['client_performance_memory_percentile50'] = var3;
+                var3 = var2.percentiles;
+                var3 = var3[var6];
+                var1['client_performance_memory_percentile75'] = var3;
+                var3 = var2.percentiles;
+                var3 = var3[var5];
+                var1['client_performance_memory_percentile90'] = var3;
+                var3 = var2.percentiles;
+                var3 = var3[var4];
+                var1['client_performance_memory_percentile95'] = var3;
+                var3 = var2.min;
+                var1['client_performance_memory_min'] = var3;
+                var3 = var2.max;
+                var1['client_performance_memory_max'] = var3;
+                var2 = var2.mean;
+                var1['client_performance_memory_mean'] = var2;
+                return var1;
             }
         };
-        report['value'] = michal;
-        michal = new Array(5);
-        michal[0] = report;
-        report = {};
-        golfie = 'takeSample';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5['value'] = var2;
+        var2 = new Array(5);
+        var2[0] = var5;
+        var5 = {};
+        var7 = 'takeSample';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = this;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                option = 4;
-                report = zuuluu[option];
-                entity = undefined;
-                golfie = tangon.bind(entity)(report);
-                report = golfie.getCumulativeCPUUsage;
-                report = report.bind(golfie)();
-                zuuluu = zuuluu[option];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.getCurrentMemoryUsageKB;
-                tangon = zuuluu.bind(tangon)();
-                zuuluu = null;
-                if(!(zuuluu == report)) { _fun00004_ip = 116; continue _fun00003 }
+                var2 = this;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var8 = 4;
+                var5 = var3[var8];
+                var1 = undefined;
+                var7 = var4.bind(var1)(var5);
+                var5 = var7.getCumulativeCPUUsage;
+                var5 = var5.bind(var7)();
+                var3 = var3[var8];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.getCurrentMemoryUsageKB;
+                var4 = var3.bind(var4)();
+                var3 = null;
+                if(!(var3 == var5)) { _fun0002_ip = 116; continue _fun0002 }
  63:
-                golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                oscard = oscard[option];
-                golfie = golfie.bind(entity)(oscard);
-                oscard = golfie.getCurrentCPUUsagePercent;
-                option = oscard.bind(golfie)();
-                if(!(zuuluu != option)) { _fun00004_ip = 234; continue _fun00003 }
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var7 = var7.bind(var1)(var6);
+                var6 = var7.getCurrentCPUUsagePercent;
+                var8 = var6.bind(var7)();
+                if(!(var3 != var8)) { _fun0002_ip = 234; continue _fun0002 }
  97:
-                golfie = michal.cpuHistogram;
-                oscard = golfie.addSample;
-                oscard = oscard.bind(golfie)(option);
-                _fun00004_ip = 234; continue _fun00003;
+                var7 = var2.cpuHistogram;
+                var6 = var7.addSample;
+                var6 = var6.bind(var7)(var8);
+                _fun0002_ip = 234; continue _fun0002;
  116:
-                oscard = michal.lastCPU;
-                option = zuuluu != oscard;
-                oscard = true;
-                if(!option) { _fun00004_ip = 225; continue _fun00003 }
+                var6 = var2.lastCPU;
+                var8 = var3 != var6;
+                var6 = true;
+                if(!var8) { _fun0002_ip = 225; continue _fun0002 }
  131:
-                verify = report.sampleTime;
-                option = michal.lastCPU;
-                option = option.sampleTime;
-                yankee = verify - option;
-                oscard = false;
-                option = 1;
-                if(!(yankee >= option)) { _fun00004_ip = 225; continue _fun00003 }
+                var9 = var5.sampleTime;
+                var8 = var2.lastCPU;
+                var8 = var8.sampleTime;
+                var11 = var9 - var8;
+                var6 = false;
+                var8 = 1;
+                if(!(var11 >= var8)) { _fun0002_ip = 225; continue _fun0002 }
  162:
-                verify = report.usage;
-                option = michal.lastCPU;
-                option = option.usage;
-                romeon = verify - option;
-                offset = michal.cpuHistogram;
-                verify = offset.addSample;
-                option = 1000;
-                option = yankee / option;
-                romeon = romeon / option;
-                option = 100;
-                option = romeon * option;
-                option = verify.bind(offset)(option, yankee);
-                oscard = true;
+                var9 = var5.usage;
+                var8 = var2.lastCPU;
+                var8 = var8.usage;
+                var12 = var9 - var8;
+                var10 = var2.cpuHistogram;
+                var9 = var10.addSample;
+                var8 = 1000;
+                var8 = var11 / var8;
+                var12 = var12 / var8;
+                var8 = 100;
+                var8 = var12 * var8;
+                var8 = var9.bind(var10)(var8, var11);
+                var6 = true;
  225:
-                if(!oscard) { _fun00004_ip = 234; continue _fun00003 }
+                if(!var6) { _fun0002_ip = 234; continue _fun0002 }
  228:
-                michal['lastCPU'] = report;
+                var2['lastCPU'] = var5;
  234:
-                if(!(zuuluu != tangon)) { _fun00004_ip = 255; continue _fun00003 }
+                if(!(var3 != var4)) { _fun0002_ip = 255; continue _fun0002 }
  238:
-                zuuluu = michal.memoryHistogram;
-                michal = zuuluu.addSample;
-                michal = michal.bind(zuuluu)(tangon);
+                var3 = var2.memoryHistogram;
+                var2 = var3.addSample;
+                var2 = var2.bind(var3)(var4);
  255:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        michal[1] = report;
-        report = {};
-        golfie = 'getCurrentBattery';
-        report['key'] = golfie;
-        option = _closure1_slot3;
-        entity = undefined;
-        golfie = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var5['value'] = var7;
+        var2[1] = var5;
+        var5 = {};
+        var7 = 'getCurrentBattery';
+        var5['key'] = var7;
+        var8 = _closure1_slot3;
+        var1 = undefined;
+        var7 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 81; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 81; continue _fun0003 }
  7: // try_start_0
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 5;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    tangon = tangon.bind(michal)(zuuluu);
-                    zuuluu = tangon.getDeviceState;
-                    michal = {};
-                    report = false;
-                    michal['fallback'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 5;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.getDeviceState;
+                    var2 = {};
+                    var5 = false;
+                    var2['fallback'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=56);
  54:
-                    return michal;
+                    return var2;
  56:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 71; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 71; continue _fun0003 }
  62:
-                    zuuluu = michal.batteryLevel;
+                    var3 = var2.batteryLevel;
  68: // try_end0
-                    return zuuluu;
+                    return var3;
  71:
-                    return michal;
+                    return var2;
  74: // catch_target0
                     CatchBlockStart(arg_register=1);
-                    michal = null;
-                    return michal;
+                    var2 = null;
+                    return var2;
  81:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot2 = golfie;
-        golfie = function() { // Original name: getCurrentBattery
-            entity = undefined;
-            tangon = _closure2_slot2;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot2 = var7;
+        var7 = function getCurrentBattery() {
+            var1 = undefined;
+            var4 = _closure2_slot2;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = golfie;
-        michal[2] = report;
-        report = {};
-        golfie = 'setLastBattery';
-        report['key'] = golfie;
-        golfie = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var7;
+        var2[2] = var5;
+        var5 = {};
+        var7 = 'setLastBattery';
+        var5['key'] = var7;
+        var7 = function* () {
+            var1 = function* anon_0_() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
-                    zuuluu = this;
+                    var3 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 44; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 44; continue _fun0004 }
  10:
-                    michal = zuuluu.getCurrentBattery;
-                    michal = michal.bind(zuuluu)();
+                    var2 = var3.getCurrentBattery;
+                    var2 = var2.bind(var3)();
                     SaveGenerator(address=24);
  22:
-                    return michal;
+                    return var2;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 41; continue _fun00007 }
+                    if(var4) { _fun0004_ip = 41; continue _fun0004 }
  30:
-                    zuuluu['lastBattery'] = michal;
-                    zuuluu = undefined;
-                    return zuuluu;
+                    var3['lastBattery'] = var2;
+                    var3 = undefined;
+                    return var3;
  41:
-                    return michal;
+                    return var2;
  44:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot1 = golfie;
-        golfie = function() { // Original name: setLastBattery
-            entity = undefined;
-            tangon = _closure2_slot1;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot1 = var7;
+        var7 = function setLastBattery() {
+            var1 = undefined;
+            var4 = _closure2_slot1;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = golfie;
-        michal[3] = report;
-        report = {};
-        golfie = 'getBatteryLevelStats';
-        report['key'] = golfie;
-        golfie = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var5['value'] = var7;
+        var2[3] = var5;
+        var5 = {};
+        var7 = 'getBatteryLevelStats';
+        var5['key'] = var7;
+        var7 = function* () {
+            var1 = function* anon_0_() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
-                    oscard = this;
+                    var6 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 148; continue _fun00009 }
+                    if(var2) { _fun0005_ip = 148; continue _fun0005 }
  13:
-                    michal = oscard.getCurrentBattery;
-                    michal = michal.bind(oscard)();
+                    var2 = var6.getCurrentBattery;
+                    var2 = var2.bind(var6)();
                     SaveGenerator(address=27);
  25:
-                    return michal;
+                    return var2;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 145; continue _fun00009 }
+                    if(var3) { _fun0005_ip = 145; continue _fun0005 }
  33:
-                    zuuluu = oscard.lastBattery;
-                    report = null;
-                    if(!(report != zuuluu)) { _fun00010_ip = 116; continue _fun00009 }
+                    var3 = var6.lastBattery;
+                    var5 = null;
+                    if(!(var5 != var3)) { _fun0005_ip = 116; continue _fun0005 }
  45:
-                    if(!(report != michal)) { _fun00010_ip = 116; continue _fun00009 }
+                    if(!(var5 != var2)) { _fun0005_ip = 116; continue _fun0005 }
  49:
-                    zuuluu = {};
-                    tangon = oscard.lastBattery;
-                    zuuluu['startBattery'] = tangon;
-                    zuuluu['currentBattery'] = michal;
-                    tangon = global;
-                    verify = tangon.Math;
-                    option = verify.round;
-                    tangon = oscard.lastBattery;
-                    tangon = michal - tangon;
-                    golfie = 1000;
-                    tangon = golfie * tangon;
-                    tangon = option.bind(verify)(tangon);
-                    tangon = tangon / golfie;
-                    zuuluu['batteryUsageRounded'] = tangon;
-                    _fun00010_ip = 142; continue _fun00009;
+                    var3 = {};
+                    var4 = var6.lastBattery;
+                    var3['startBattery'] = var4;
+                    var3['currentBattery'] = var2;
+                    var4 = global;
+                    var9 = var4.Math;
+                    var8 = var9.round;
+                    var4 = var6.lastBattery;
+                    var4 = var2 - var4;
+                    var7 = 1000;
+                    var4 = var7 * var4;
+                    var4 = var8.bind(var9)(var4);
+                    var4 = var4 / var7;
+                    var3['batteryUsageRounded'] = var4;
+                    _fun0005_ip = 142; continue _fun0005;
  116:
-                    tangon = {};
-                    oscard = oscard.lastBattery;
-                    tangon['startBattery'] = oscard;
-                    tangon['currentBattery'] = michal;
-                    tangon['batteryUsageRounded'] = report;
-                    zuuluu = tangon;
+                    var4 = {};
+                    var6 = var6.lastBattery;
+                    var4['startBattery'] = var6;
+                    var4['currentBattery'] = var2;
+                    var4['batteryUsageRounded'] = var5;
+                    var3 = var4;
  142:
-                    return zuuluu;
+                    return var3;
  145:
-                    return michal;
+                    return var2;
  148:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot0 = golfie;
-        oscard = function() { // Original name: getBatteryLevelStats
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot0 = var7;
+        var6 = function getBatteryLevelStats() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = oscard;
-        michal[4] = report;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var5['value'] = var6;
+        var2[4] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/SystemResources.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/SystemResources.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

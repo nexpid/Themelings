@@ -1,95 +1,95 @@
 // app/utils/GIFPickerUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SearchTypes;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/GIFPickerUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: calculateAnalyticsMetadata
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SearchTypes;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/GIFPickerUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function calculateAnalyticsMetadata(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argBar;
-            entity = argBaz;
-            zuuluu = null;
-            if(!(zuuluu == oscard)) { _fun00002_ip = 16; continue _fun00001 }
+            var6 = arg2;
+            var1 = arg3;
+            var3 = null;
+            if(!(var3 == var6)) { _fun0001_ip = 16; continue _fun0001 }
  12:
-            michal = {};
-            _fun00002_ip = 29; continue _fun00001;
+            var2 = {};
+            _fun0001_ip = 29; continue _fun0001;
  16:
-            tangon = {};
-            report = 1;
-            tangon[oscard] = report;
-            michal = tangon;
+            var4 = {};
+            var5 = 1;
+            var4[var6] = var5;
+            var2 = var4;
  29:
-            if(!(zuuluu == entity)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 35; continue _fun0001 }
  33:
-            entity = {};
+            var1 = {};
  35:
-            yankee = entity.offset;
-            golfie = entity.limit;
-            tangon = entity.results;
-            report = entity.totalResults;
-            entity = {};
-            oscard = _closure1_slot0;
-            oscard = oscard.GIF;
-            entity['search_type'] = oscard;
-            oscard = argFoo;
-            entity['load_id'] = oscard;
-            entity['limit'] = golfie;
-            entity['offset'] = yankee;
-            verify = zuuluu != golfie;
-            option = 1;
-            oscard = option;
-            if(!verify) { _fun00002_ip = 147; continue _fun00001 }
+            var11 = var1.offset;
+            var7 = var1.limit;
+            var4 = var1.results;
+            var5 = var1.totalResults;
+            var1 = {};
+            var6 = _closure1_slot0;
+            var6 = var6.GIF;
+            var1['search_type'] = var6;
+            var6 = arg1;
+            var1['load_id'] = var6;
+            var1['limit'] = var7;
+            var1['offset'] = var11;
+            var9 = var3 != var7;
+            var8 = 1;
+            var6 = var8;
+            if(!var9) { _fun0001_ip = 147; continue _fun0001 }
  110:
-            verify = zuuluu != yankee;
-            oscard = option;
-            if(!verify) { _fun00002_ip = 147; continue _fun00001 }
+            var9 = var3 != var11;
+            var6 = var8;
+            if(!var9) { _fun0001_ip = 147; continue _fun0001 }
  120:
-            verify = global;
-            offset = verify.Math;
-            verify = offset.floor;
-            golfie = yankee / golfie;
-            golfie = verify.bind(offset)(golfie);
-            oscard = golfie + option;
+            var9 = global;
+            var10 = var9.Math;
+            var9 = var10.floor;
+            var7 = var11 / var7;
+            var7 = var9.bind(var10)(var7);
+            var6 = var7 + var8;
  147:
-            entity['page'] = oscard;
-            entity['total_results'] = report;
-            report = zuuluu != tangon;
-            zuuluu = null;
-            if(!report) { _fun00002_ip = 169; continue _fun00001 }
+            var1['page'] = var6;
+            var1['total_results'] = var5;
+            var5 = var3 != var4;
+            var3 = null;
+            if(!var5) { _fun0001_ip = 169; continue _fun0001 }
  166:
-            zuuluu = tangon;
+            var3 = var4;
  169:
-            entity['page_results'] = zuuluu;
-            zuuluu = global;
-            tangon = zuuluu.Object;
-            zuuluu = tangon.keys;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            zuuluu = zuuluu.length;
-            entity['num_modifiers'] = zuuluu;
-            entity['modifiers'] = michal;
-            return entity;
+            var1['page_results'] = var3;
+            var3 = global;
+            var4 = var3.Object;
+            var3 = var4.keys;
+            var3 = var3.bind(var4)(var2);
+            var3 = var3.length;
+            var1['num_modifiers'] = var3;
+            var1['modifiers'] = var2;
+            return var1;
         }
     };
-    zuuluu['calculateAnalyticsMetadata'] = michal;
-    return entity;
+    var3['calculateAnalyticsMetadata'] = var2;
+    return var1;
 })();

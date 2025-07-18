@@ -1,208 +1,208 @@
 // app/modules/guild_mod_dash_member_safety/MemberSafetyStoreSupplemental.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    tangon = function(argFoo) { // Original name: getMemberSupplementalByGuildId
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var4 = function getMemberSupplementalByGuildId(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot2;
-            tangon = zuuluu[michal];
-            zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00002_ip = 30; continue _fun00001 }
+            var2 = arg1;
+            var3 = _closure1_slot2;
+            var4 = var3[var2];
+            var3 = null;
+            if(!(var3 == var4)) { _fun0001_ip = 30; continue _fun0001 }
  20:
-            tangon = _closure1_slot2;
-            zuuluu = {};
-            tangon[michal] = zuuluu;
+            var4 = _closure1_slot2;
+            var3 = {};
+            var4[var2] = var3;
  30:
-            entity = _closure1_slot2;
-            entity = entity[michal];
-            return entity;
+            var1 = _closure1_slot2;
+            var1 = var1[var2];
+            return var1;
         }
     };
-    var _closure1_slot3 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = {};
-    var _closure1_slot2 = entity;
-    entity = 1;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_mod_dash_member_safety/MemberSafetyStoreSupplemental.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar) { // Original name: hasMemberSupplemental
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = {};
+    var _closure1_slot2 = var1;
+    var1 = 1;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_mod_dash_member_safety/MemberSafetyStoreSupplemental.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function hasMemberSupplemental(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            entity = _closure1_slot2;
-            entity = entity[tangon];
-            zuuluu = null;
-            entity = zuuluu != entity;
-            if(!entity) { _fun00004_ip = 42; continue _fun00003 }
+            var4 = arg1;
+            var1 = _closure1_slot2;
+            var1 = var1[var4];
+            var3 = null;
+            var1 = var3 != var1;
+            if(!var1) { _fun0002_ip = 42; continue _fun0002 }
  23:
-            michal = _closure1_slot2;
-            tangon = michal[tangon];
-            michal = argBar;
-            michal = tangon[michal];
-            entity = zuuluu != michal;
+            var2 = _closure1_slot2;
+            var4 = var2[var4];
+            var2 = arg2;
+            var2 = var4[var2];
+            var1 = var3 != var2;
  42:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['hasMemberSupplemental'] = report;
-    zuuluu['getMemberSupplementalByGuildId'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: syncMemberSupplemental
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['hasMemberSupplemental'] = var5;
+    var3['getMemberSupplementalByGuildId'] = var4;
+    var2 = function syncMemberSupplemental(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = argBar;
-            tangon = zuuluu.length;
-            michal = 0;
-            if(!(michal !== tangon)) { _fun00006_ip = 56; continue _fun00005 }
+            var3 = arg2;
+            var4 = var3.length;
+            var2 = 0;
+            if(!(var2 !== var4)) { _fun0003_ip = 56; continue _fun0003 }
  16:
-            report = _closure1_slot3;
-            tangon = undefined;
-            michal = argFoo;
-            michal = report.bind(tangon)(michal);
-            var _closure2_slot0 = michal;
-            michal = zuuluu.forEach;
-            entity = function(argFoo) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var5 = _closure1_slot3;
+            var4 = undefined;
+            var2 = arg1;
+            var2 = var5.bind(var4)(var2);
+            var _closure2_slot0 = var2;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    report = argFoo;
-                    zuuluu = _closure2_slot0;
-                    michal = report.userId;
-                    golfie = zuuluu[michal];
-                    michal = report.joinSourceType;
-                    tangon = null;
-                    if(!(tangon == michal)) { _fun00008_ip = 49; continue _fun00007 }
+                    var5 = arg1;
+                    var3 = _closure2_slot0;
+                    var2 = var5.userId;
+                    var7 = var3[var2];
+                    var2 = var5.joinSourceType;
+                    var4 = null;
+                    if(!(var4 == var2)) { _fun0004_ip = 49; continue _fun0004 }
  31:
-                    oscard = tangon == golfie;
-                    zuuluu = undefined;
-                    if(oscard) { _fun00008_ip = 46; continue _fun00007 }
+                    var6 = var4 == var7;
+                    var3 = undefined;
+                    if(var6) { _fun0004_ip = 46; continue _fun0004 }
  40:
-                    zuuluu = golfie.joinSourceType;
+                    var3 = var7.joinSourceType;
  46:
-                    michal = zuuluu;
+                    var2 = var3;
  49:
-                    zuuluu = tangon != michal;
-                    oscard = null;
-                    if(!zuuluu) { _fun00008_ip = 61; continue _fun00007 }
+                    var3 = var4 != var2;
+                    var6 = null;
+                    if(!var3) { _fun0004_ip = 61; continue _fun0004 }
  58:
-                    oscard = michal;
+                    var6 = var2;
  61:
-                    michal = tangon != oscard;
-                    if(!michal) { _fun00008_ip = 108; continue _fun00007 }
+                    var2 = var4 != var6;
+                    if(!var2) { _fun0004_ip = 108; continue _fun0004 }
  68:
-                    verify = _closure1_slot0;
-                    option = _closure1_slot1;
-                    zuuluu = 0;
-                    option = option[zuuluu];
-                    zuuluu = undefined;
-                    zuuluu = verify.bind(zuuluu)(option);
-                    zuuluu = zuuluu.JoinSourceType;
-                    zuuluu = zuuluu.UNSPECIFIED;
-                    michal = oscard !== zuuluu;
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var3 = 0;
+                    var8 = var8[var3];
+                    var3 = undefined;
+                    var3 = var9.bind(var3)(var8);
+                    var3 = var3.JoinSourceType;
+                    var3 = var3.UNSPECIFIED;
+                    var2 = var6 !== var3;
  108:
-                    if(michal) { _fun00008_ip = 121; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 121; continue _fun0004 }
  111:
-                    zuuluu = report.sourceInviteCode;
-                    michal = tangon == zuuluu;
+                    var3 = var5.sourceInviteCode;
+                    var2 = var4 == var3;
  121:
-                    if(michal) { _fun00008_ip = 160; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 160; continue _fun0004 }
  124:
-                    option = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 0;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = option.bind(michal)(zuuluu);
-                    michal = michal.JoinSourceType;
-                    oscard = michal.INVITE;
+                    var8 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 0;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var8.bind(var2)(var3);
+                    var2 = var2.JoinSourceType;
+                    var6 = var2.INVITE;
  160:
-                    zuuluu = _closure2_slot0;
-                    michal = report.userId;
-                    entity = {};
-                    option = report.userId;
-                    entity['userId'] = option;
-                    verify = report.sourceInviteCode;
-                    if(!(tangon == verify)) { _fun00008_ip = 208; continue _fun00007 }
+                    var3 = _closure2_slot0;
+                    var2 = var5.userId;
+                    var1 = {};
+                    var8 = var5.userId;
+                    var1['userId'] = var8;
+                    var9 = var5.sourceInviteCode;
+                    if(!(var4 == var9)) { _fun0004_ip = 208; continue _fun0004 }
  190:
-                    offset = tangon == golfie;
-                    option = undefined;
-                    if(offset) { _fun00008_ip = 205; continue _fun00007 }
+                    var10 = var4 == var7;
+                    var8 = undefined;
+                    if(var10) { _fun0004_ip = 205; continue _fun0004 }
  199:
-                    option = golfie.sourceInviteCode;
+                    var8 = var7.sourceInviteCode;
  205:
-                    verify = option;
+                    var9 = var8;
  208:
-                    offset = tangon != verify;
-                    option = null;
-                    if(!offset) { _fun00008_ip = 220; continue _fun00007 }
+                    var10 = var4 != var9;
+                    var8 = null;
+                    if(!var10) { _fun0004_ip = 220; continue _fun0004 }
  217:
-                    option = verify;
+                    var8 = var9;
  220:
-                    entity['sourceInviteCode'] = option;
-                    entity['joinSourceType'] = oscard;
-                    option = report.inviterId;
-                    if(!(tangon == option)) { _fun00008_ip = 258; continue _fun00007 }
+                    var1['sourceInviteCode'] = var8;
+                    var1['joinSourceType'] = var6;
+                    var8 = var5.inviterId;
+                    if(!(var4 == var8)) { _fun0004_ip = 258; continue _fun0004 }
  240:
-                    verify = tangon == golfie;
-                    oscard = undefined;
-                    if(verify) { _fun00008_ip = 255; continue _fun00007 }
+                    var9 = var4 == var7;
+                    var6 = undefined;
+                    if(var9) { _fun0004_ip = 255; continue _fun0004 }
  249:
-                    oscard = golfie.inviterId;
+                    var6 = var7.inviterId;
  255:
-                    option = oscard;
+                    var8 = var6;
  258:
-                    verify = tangon != option;
-                    oscard = null;
-                    if(!verify) { _fun00008_ip = 270; continue _fun00007 }
+                    var9 = var4 != var8;
+                    var6 = null;
+                    if(!var9) { _fun0004_ip = 270; continue _fun0004 }
  267:
-                    oscard = option;
+                    var6 = var8;
  270:
-                    entity['inviterId'] = oscard;
-                    report = report.integrationType;
-                    if(!(tangon == report)) { _fun00008_ip = 303; continue _fun00007 }
+                    var1['inviterId'] = var6;
+                    var5 = var5.integrationType;
+                    if(!(var4 == var5)) { _fun0004_ip = 303; continue _fun0004 }
  285:
-                    option = tangon == golfie;
-                    oscard = undefined;
-                    if(option) { _fun00008_ip = 300; continue _fun00007 }
+                    var8 = var4 == var7;
+                    var6 = undefined;
+                    if(var8) { _fun0004_ip = 300; continue _fun0004 }
  294:
-                    oscard = golfie.integrationType;
+                    var6 = var7.integrationType;
  300:
-                    report = oscard;
+                    var5 = var6;
  303:
-                    oscard = tangon != report;
-                    tangon = null;
-                    if(!oscard) { _fun00008_ip = 315; continue _fun00007 }
+                    var6 = var4 != var5;
+                    var4 = null;
+                    if(!var6) { _fun0004_ip = 315; continue _fun0004 }
  312:
-                    tangon = report;
+                    var4 = var5;
  315:
-                    entity['integrationType'] = tangon;
-                    zuuluu[michal] = entity;
-                    entity = undefined;
-                    return entity;
+                    var1['integrationType'] = var4;
+                    var3[var2] = var1;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = true;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = true;
+            return var1;
  56:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    zuuluu['syncMemberSupplemental'] = michal;
-    return entity;
+    var3['syncMemberSupplemental'] = var2;
+    return var1;
 })();

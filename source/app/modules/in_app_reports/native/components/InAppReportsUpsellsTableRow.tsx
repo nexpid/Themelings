@@ -1,82 +1,82 @@
 // app/modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: InAppReportsUpsellsTableRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function InAppReportsUpsellsTableRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            foxtra = entity.title;
-            yankee = entity.disabledTitle;
-            offset = entity.description;
-            report = entity.variant;
-            tangon = undefined;
-            if(!(report === tangon)) { _fun00002_ip = 34; continue _fun00001 }
+            var1 = arg1;
+            var13 = var1.title;
+            var11 = var1.disabledTitle;
+            var10 = var1.description;
+            var5 = var1.variant;
+            var4 = undefined;
+            if(!(var5 === var4)) { _fun0001_ip = 34; continue _fun0001 }
  30:
-            report = 'default';
+            var5 = 'default';
  34:
-            oscard = entity.disabled;
-            option = entity.onPress;
-            golfie = entity.icon;
-            zuuluu = _closure1_slot2;
-            michal = _closure1_slot0;
-            verify = _closure1_slot1;
-            entity = 2;
-            entity = verify[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.TableRow;
-            entity = {};
-            verify = foxtra;
-            if(!oscard) { _fun00002_ip = 102; continue _fun00001 }
+            var6 = var1.disabled;
+            var8 = var1.onPress;
+            var7 = var1.icon;
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 2;
+            var1 = var9[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.TableRow;
+            var1 = {};
+            var9 = var13;
+            if(!var6) { _fun0001_ip = 102; continue _fun0001 }
  90:
-            romeon = null;
-            verify = foxtra;
-            if(!(romeon != yankee)) { _fun00002_ip = 102; continue _fun00001 }
+            var12 = null;
+            var9 = var13;
+            if(!(var12 != var11)) { _fun0001_ip = 102; continue _fun0001 }
  99:
-            verify = yankee;
+            var9 = var11;
  102:
-            entity['label'] = verify;
-            verify = null;
-            if(oscard) { _fun00002_ip = 114; continue _fun00001 }
+            var1['label'] = var9;
+            var9 = null;
+            if(var6) { _fun0001_ip = 114; continue _fun0001 }
  111:
-            verify = offset;
+            var9 = var10;
  114:
-            entity['subLabel'] = verify;
-            entity['onPress'] = option;
-            entity['icon'] = golfie;
-            entity['disabled'] = oscard;
-            entity['variant'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['subLabel'] = var9;
+            var1['onPress'] = var8;
+            var1['icon'] = var7;
+            var1['disabled'] = var6;
+            var1['variant'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

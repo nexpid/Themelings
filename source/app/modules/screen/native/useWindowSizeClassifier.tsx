@@ -1,107 +1,107 @@
 // app/modules/screen/native/useWindowSizeClassifier.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = report;
-    entity = function(argFoo) { // Original name: calculateFromWidth
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var5;
+    var1 = function calculateFromWidth(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = 360;
-            if(!(!(michal <= entity))) { _fun00002_ip = 78; continue _fun00001 }
+            var2 = arg1;
+            var1 = 360;
+            if(!(!(var2 <= var1))) { _fun0001_ip = 78; continue _fun0001 }
  13:
-            entity = 600;
-            if(!(!(michal <= entity))) { _fun00002_ip = 63; continue _fun00001 }
+            var1 = 600;
+            if(!(!(var2 <= var1))) { _fun0001_ip = 63; continue _fun0001 }
  23:
-            entity = 840;
-            if(!(!(michal <= entity))) { _fun00002_ip = 48; continue _fun00001 }
+            var1 = 840;
+            if(!(!(var2 <= var1))) { _fun0001_ip = 48; continue _fun0001 }
  33:
-            entity = _closure1_slot3;
-            entity = entity.XLARGE;
-            _fun00002_ip = 61; continue _fun00001;
+            var1 = _closure1_slot3;
+            var1 = var1.XLARGE;
+            _fun0001_ip = 61; continue _fun0001;
  48:
-            michal = _closure1_slot3;
-            entity = michal.LARGE;
+            var2 = _closure1_slot3;
+            var1 = var2.LARGE;
  61:
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  63:
-            michal = _closure1_slot3;
-            entity = michal.NORMAL;
+            var2 = _closure1_slot3;
+            var1 = var2.NORMAL;
  76:
-            _fun00002_ip = 91; continue _fun00001;
+            _fun0001_ip = 91; continue _fun0001;
  78:
-            michal = _closure1_slot3;
-            entity = michal.SMALL;
+            var2 = _closure1_slot3;
+            var1 = var2.SMALL;
  91:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    tangon = {};
-    golfie = 0;
-    tangon['SMALL'] = golfie;
-    entity = 'SMALL';
-    tangon[golfie] = entity;
-    entity = 1;
-    tangon['NORMAL'] = entity;
-    golfie = 'NORMAL';
-    tangon[entity] = golfie;
-    option = 2;
-    tangon['LARGE'] = option;
-    golfie = 'LARGE';
-    tangon[option] = golfie;
-    option = 3;
-    tangon['XLARGE'] = option;
-    golfie = 'XLARGE';
-    tangon[option] = golfie;
-    var _closure1_slot3 = tangon;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/screen/native/useWindowSizeClassifier.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function() { // Original name: useWindowSizeClassifier
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 0;
-        entity = michal[entity];
-        michal = undefined;
-        entity = tangon.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        entity = entity.width;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var4 = {};
+    var7 = 0;
+    var4['SMALL'] = var7;
+    var1 = 'SMALL';
+    var4[var7] = var1;
+    var1 = 1;
+    var4['NORMAL'] = var1;
+    var7 = 'NORMAL';
+    var4[var1] = var7;
+    var8 = 2;
+    var4['LARGE'] = var8;
+    var7 = 'LARGE';
+    var4[var8] = var7;
+    var8 = 3;
+    var4['XLARGE'] = var8;
+    var7 = 'XLARGE';
+    var4[var8] = var7;
+    var _closure1_slot3 = var4;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/screen/native/useWindowSizeClassifier.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function useWindowSizeClassifier() {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 0;
+        var1 = var2[var1];
+        var2 = undefined;
+        var1 = var4.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        var1 = var1.width;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['default'] = report;
-    zuuluu['WindowSizeClassifier'] = tangon;
-    michal = function() { // Original name: getWindowSizeClassifier
-        zuuluu = _closure1_slot4;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 0;
-        entity = michal[entity];
-        michal = undefined;
-        tangon = tangon.bind(michal)(entity);
-        entity = tangon.getAppContainerDimensions;
-        entity = entity.bind(tangon)();
-        entity = entity.width;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var3['default'] = var5;
+    var3['WindowSizeClassifier'] = var4;
+    var2 = function getWindowSizeClassifier() {
+        var3 = _closure1_slot4;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 0;
+        var1 = var2[var1];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var1);
+        var1 = var4.getAppContainerDimensions;
+        var1 = var1.bind(var4)();
+        var1 = var1.width;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['getWindowSizeClassifier'] = michal;
-    return entity;
+    var3['getWindowSizeClassifier'] = var2;
+    return var1;
 })();

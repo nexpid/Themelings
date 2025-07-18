@@ -1,158 +1,158 @@
 // app/modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: useBuildOverrideActive
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 4;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        entity = _closure1_slot2;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function useBuildOverrideActive() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot2;
-                entity = zuuluu.getCurrentBuildOverride;
-                entity = entity.bind(zuuluu)();
-                report = entity.overrides;
-                zuuluu = null;
-                oscard = zuuluu == report;
-                tangon = undefined;
-                entity = undefined;
-                if(oscard) { _fun00002_ip = 80; continue _fun00001 }
+                var3 = _closure1_slot2;
+                var1 = var3.getCurrentBuildOverride;
+                var1 = var1.bind(var3)();
+                var5 = var1.overrides;
+                var3 = null;
+                var6 = var3 == var5;
+                var4 = undefined;
+                var1 = undefined;
+                if(var6) { _fun0001_ip = 80; continue _fun0001 }
  36:
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot1;
-                michal = 5;
-                michal = golfie[michal];
-                michal = oscard.bind(tangon)(michal);
-                michal = michal.DEVICE_FIELD;
-                michal = report[michal];
-                zuuluu = zuuluu == michal;
-                entity = undefined;
-                if(zuuluu) { _fun00002_ip = 80; continue _fun00001 }
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var2 = 5;
+                var2 = var7[var2];
+                var2 = var6.bind(var4)(var2);
+                var2 = var2.DEVICE_FIELD;
+                var2 = var5[var2];
+                var3 = var3 == var2;
+                var1 = undefined;
+                if(var3) { _fun0001_ip = 80; continue _fun0001 }
  75:
-                entity = michal.id;
+                var1 = var2.id;
  80:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    tangon = true;
-    michal['value'] = tangon;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    option = oscard[entity];
-    michal = argBaz;
-    entity = undefined;
-    michal = michal.bind(entity)(option);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.RendererType;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot3 = michal;
-    michal = {'type': null, 'title': 'Build Override Active', 'parent': null};
-    option = option.PRESSABLE;
-    michal['type'] = option;
-    option = 8;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.RefreshIcon;
-    michal['IconComponent'] = option;
-    option = function() { // Original name: useBuildOverrideActiveDescription
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var4 = true;
+    var2['value'] = var4;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var8 = var6[var1];
+    var2 = native3;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var8);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.RendererType;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot3 = var2;
+    var2 = {'type': null, 'title': 'Build Override Active', 'parent': null};
+    var8 = var8.PRESSABLE;
+    var2['type'] = var8;
+    var8 = 8;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RefreshIcon;
+    var2['IconComponent'] = var8;
+    var8 = function useBuildOverrideActiveDescription() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = _closure1_slot4;
-            report = undefined;
-            oscard = entity.bind(report)();
-            entity = null;
-            zuuluu = entity != oscard;
-            entity = undefined;
-            if(!zuuluu) { _fun00004_ip = 76; continue _fun00003 }
+            var1 = _closure1_slot4;
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var1 = null;
+            var3 = var1 != var6;
+            var1 = undefined;
+            if(!var3) { _fun0002_ip = 76; continue _fun0002 }
  24:
-            tangon = _closure1_slot3;
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 7;
-            michal = golfie[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.DevToolsContentSubLabel;
-            michal = {};
-            golfie = 'Build override: ';
-            michal['label'] = golfie;
-            michal['value'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 7;
+            var2 = var7[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.DevToolsContentSubLabel;
+            var2 = {};
+            var7 = 'Build override: ';
+            var2['label'] = var7;
+            var2['value'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  76:
-            return entity;
+            return var1;
         }
     };
-    michal['useDescription'] = option;
-    option = function() { // Original name: useHasBuildOverrideActive
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2['useDescription'] = var8;
+    var8 = function useHasBuildOverrideActive() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 6;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            tangon = tangon.bind(zuuluu)(michal);
-            michal = tangon.useStaffOrDevEnvSettingPredicate;
-            michal = michal.bind(tangon)();
-            entity = _closure1_slot4;
-            zuuluu = entity.bind(zuuluu)();
-            entity = null;
-            entity = entity != zuuluu;
-            if(!entity) { _fun00006_ip = 55; continue _fun00005 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 6;
+            var2 = var3[var2];
+            var3 = undefined;
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.useStaffOrDevEnvSettingPredicate;
+            var2 = var2.bind(var4)();
+            var1 = _closure1_slot4;
+            var3 = var1.bind(var3)();
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0003_ip = 55; continue _fun0003 }
  52:
-            entity = michal;
+            var1 = var2;
  55:
-            return entity;
+            return var1;
         }
     };
-    michal['usePredicate'] = option;
-    golfie = function() { // Original name: handleBuildOverrideActivePress
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.navigateToDevTools;
-        michal = {};
-        report = 'buildOverride';
-        michal['screenKey'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var2['usePredicate'] = var8;
+    var7 = function handleBuildOverrideActivePress() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.navigateToDevTools;
+        var2 = {};
+        var5 = 'buildOverride';
+        var2['screenKey'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    michal['onPress'] = golfie;
-    michal['withArrow'] = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['onPress'] = var7;
+    var2['withArrow'] = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/BuildOverrideActiveSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

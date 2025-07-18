@@ -1,89 +1,89 @@
 // app/modules/app_launcher/utils/AppLauncherBadgeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
-    entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
-    entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/app_launcher/utils/AppLauncherBadgeUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var2 = native7;
+    var1 = 0;
+    var4 = var2[var1];
+    var2 = native2;
+    var1 = undefined;
+    var5 = var2.bind(var1)(var4);
+    var4 = var5.fileFinishedImporting;
+    var2 = 'modules/app_launcher/utils/AppLauncherBadgeUtils.tsx';
+    var2 = var4.bind(var5)(var2);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.storeState;
-            tangon = michal.surface;
-            report = global;
-            zuuluu = report.Date;
-            michal = zuuluu.now;
-            oscard = michal.bind(zuuluu)();
-            zuuluu = entity.dateRangesForSurfaces;
-            entity = null;
-            golfie = entity == zuuluu;
-            michal = undefined;
-            if(golfie) { _fun00002_ip = 53; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.storeState;
+            var4 = var2.surface;
+            var5 = global;
+            var3 = var5.Date;
+            var2 = var3.now;
+            var6 = var2.bind(var3)();
+            var3 = var1.dateRangesForSurfaces;
+            var1 = null;
+            var7 = var1 == var3;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 53; continue _fun0001 }
  49:
-            michal = zuuluu[tangon];
+            var2 = var3[var4];
  53:
-            zuuluu = entity != michal;
-            entity = 0;
-            if(!zuuluu) { _fun00002_ip = 236; continue _fun00001 }
+            var3 = var1 != var2;
+            var1 = 0;
+            if(!var3) { _fun0001_ip = 236; continue _fun0001 }
  65:
-            option = report.Date;
-            verify = michal.fromDate;
-            golfie = option.prototype;
-            golfie = Object.create(golfie, {constructor: {value: option}});
-            offset = golfie;
-            zuuluu = new offset[option](verify, option);
-            golfie = zuuluu instanceof Object ? zuuluu : golfie;
-            zuuluu = golfie.getTime;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = zuuluu < oscard;
-            entity = 0;
-            if(!zuuluu) { _fun00002_ip = 236; continue _fun00001 }
+            var8 = var5.Date;
+            var9 = var2.fromDate;
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var10 = var7;
+            var3 = new var10[var8](var9, var8);
+            var7 = var3 instanceof Object ? var3 : var7;
+            var3 = var7.getTime;
+            var3 = var3.bind(var7)();
+            var3 = var3 < var6;
+            var1 = 0;
+            if(!var3) { _fun0001_ip = 236; continue _fun0001 }
  116:
-            option = report.Date;
-            verify = michal.untilDate;
-            golfie = option.prototype;
-            golfie = Object.create(golfie, {constructor: {value: option}});
-            offset = golfie;
-            zuuluu = new offset[option](verify, option);
-            golfie = zuuluu instanceof Object ? zuuluu : golfie;
-            zuuluu = golfie.getTime;
-            zuuluu = zuuluu.bind(golfie)();
-            zuuluu = zuuluu > oscard;
-            entity = 0;
-            if(!zuuluu) { _fun00002_ip = 236; continue _fun00001 }
+            var8 = var5.Date;
+            var9 = var2.untilDate;
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var10 = var7;
+            var3 = new var10[var8](var9, var8);
+            var7 = var3 instanceof Object ? var3 : var7;
+            var3 = var7.getTime;
+            var3 = var3.bind(var7)();
+            var3 = var3 > var6;
+            var1 = 0;
+            if(!var3) { _fun0001_ip = 236; continue _fun0001 }
  167:
-            tangon = report.Math;
-            zuuluu = tangon.floor;
-            oscard = report.Date;
-            verify = michal.fromDate;
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            offset = report;
-            michal = new offset[oscard](verify, option);
-            report = michal instanceof Object ? michal : report;
-            michal = report.getTime;
-            report = michal.bind(report)();
-            michal = 1000;
-            michal = report / michal;
-            entity = zuuluu.bind(tangon)(michal);
+            var4 = var5.Math;
+            var3 = var4.floor;
+            var6 = var5.Date;
+            var9 = var2.fromDate;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var10 = var5;
+            var2 = new var10[var6](var9, var8);
+            var5 = var2 instanceof Object ? var2 : var5;
+            var2 = var5.getTime;
+            var5 = var2.bind(var5)();
+            var2 = 1000;
+            var2 = var5 / var2;
+            var1 = var3.bind(var4)(var2);
  236:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getNewestBadgeableVersion'] = michal;
-    return entity;
+    var3['getNewestBadgeableVersion'] = var2;
+    return var1;
 })();

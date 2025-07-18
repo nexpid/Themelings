@@ -1,186 +1,186 @@
 // app/modules/explicit_media_redaction/ExplicitMediaNewTeenDefaults.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = 0;
-    report = option[tangon];
-    entity = undefined;
-    offset = golfie.bind(entity)(report);
-    verify = offset.createExperiment;
-    report = {'kind': 'user', 'id': '2025-01_sensitive_content_defaults', 'label': 'Sensitive Content Defaults'};
-    oscard = {'enabled': false, 'allBlur': false, 'mixed': false};
-    report['defaultConfig'] = oscard;
-    oscard = {'id': 1, 'label': 'Mixed'};
-    yankee = {'enabled': true, 'mixed': true, 'allBlur': false};
-    oscard['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = oscard;
-    romeon = {'id': 2, 'label': 'Blur Default'};
-    oscard = 2;
-    foxtra = {'enabled': true, 'mixed': false, 'allBlur': true};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    report['treatments'] = yankee;
-    report = verify.bind(offset)(report);
-    var _closure1_slot2 = report;
-    tangon = option[tangon];
-    offset = golfie.bind(entity)(tangon);
-    verify = offset.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-01_sensitive_content_defaults_new_users', 'label': 'Sensitive Content Defaults - New Users'};
-    yankee = {'enabled': false, 'allBlur': false, 'mixed': false};
-    tangon['defaultConfig'] = yankee;
-    romeon = {'id': 1, 'label': 'Mixed'};
-    yankee = {'enabled': true, 'mixed': true, 'allBlur': false};
-    romeon['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = romeon;
-    romeon = {'id': 2, 'label': 'Blur Default'};
-    foxtra = {'enabled': true, 'mixed': false, 'allBlur': true};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    tangon['treatments'] = yankee;
-    tangon = verify.bind(offset)(tangon);
-    var _closure1_slot3 = tangon;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/explicit_media_redaction/ExplicitMediaNewTeenDefaults.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['SensitiveContentDefault'] = report;
-    zuuluu['SensitiveContentDefaultNewUser'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForSensitiveContentDefaults
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = 0;
+    var5 = var8[var4];
+    var1 = undefined;
+    var10 = var7.bind(var1)(var5);
+    var9 = var10.createExperiment;
+    var5 = {'kind': 'user', 'id': '2025-01_sensitive_content_defaults', 'label': 'Sensitive Content Defaults'};
+    var6 = {'enabled': false, 'allBlur': false, 'mixed': false};
+    var5['defaultConfig'] = var6;
+    var6 = {'id': 1, 'label': 'Mixed'};
+    var11 = {'enabled': true, 'mixed': true, 'allBlur': false};
+    var6['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var6;
+    var12 = {'id': 2, 'label': 'Blur Default'};
+    var6 = 2;
+    var13 = {'enabled': true, 'mixed': false, 'allBlur': true};
+    var12['config'] = var13;
+    var11[1] = var12;
+    var5['treatments'] = var11;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot2 = var5;
+    var4 = var8[var4];
+    var10 = var7.bind(var1)(var4);
+    var9 = var10.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-01_sensitive_content_defaults_new_users', 'label': 'Sensitive Content Defaults - New Users'};
+    var11 = {'enabled': false, 'allBlur': false, 'mixed': false};
+    var4['defaultConfig'] = var11;
+    var12 = {'id': 1, 'label': 'Mixed'};
+    var11 = {'enabled': true, 'mixed': true, 'allBlur': false};
+    var12['config'] = var11;
+    var11 = new Array(2);
+    var11[0] = var12;
+    var12 = {'id': 2, 'label': 'Blur Default'};
+    var13 = {'enabled': true, 'mixed': false, 'allBlur': true};
+    var12['config'] = var13;
+    var11[1] = var12;
+    var4['treatments'] = var11;
+    var4 = var9.bind(var10)(var4);
+    var _closure1_slot3 = var4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/explicit_media_redaction/ExplicitMediaNewTeenDefaults.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['SensitiveContentDefault'] = var5;
+    var3['SensitiveContentDefaultNewUser'] = var4;
+    var4 = function isEligibleForSensitiveContentDefaults(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            oscard = _closure1_slot2;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            zuuluu['location'] = tangon;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = report.bind(oscard)(zuuluu, entity);
-            entity = entity.enabled;
-            golfie = _closure1_slot3;
-            oscard = golfie.getCurrentConfig;
-            report = {};
-            report['location'] = tangon;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = zuuluu.enabled;
-            if(entity) { _fun00002_ip = 82; continue _fun00001 }
+            var4 = arg1;
+            var6 = _closure1_slot2;
+            var5 = var6.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var4;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var5.bind(var6)(var3, var1);
+            var1 = var1.enabled;
+            var7 = _closure1_slot3;
+            var6 = var7.getCurrentConfig;
+            var5 = {};
+            var5['location'] = var4;
+            var3 = {};
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var5, var3);
+            var3 = var3.enabled;
+            if(var1) { _fun0001_ip = 82; continue _fun0001 }
  79:
-            entity = zuuluu;
+            var1 = var3;
  82:
-            if(entity) { _fun00002_ip = 118; continue _fun00001 }
+            if(var1) { _fun0001_ip = 118; continue _fun0001 }
  85:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            michal = zuuluu.isEligibleForSettingsDefaultsAggregate;
-            entity = michal.bind(zuuluu)(tangon);
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.isEligibleForSettingsDefaultsAggregate;
+            var1 = var2.bind(var3)(var4);
  118:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForSensitiveContentDefaults'] = tangon;
-    tangon = function(argFoo) { // Original name: useIsEligibleForSensitiveContentDefaults
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isEligibleForSensitiveContentDefaults'] = var4;
+    var4 = function useIsEligibleForSensitiveContentDefaults(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            oscard = _closure1_slot2;
-            tangon = oscard.useExperiment;
-            zuuluu = {};
-            zuuluu['location'] = report;
-            entity = {};
-            option = false;
-            entity['autoTrackExposure'] = option;
-            entity = tangon.bind(oscard)(zuuluu, entity);
-            entity = entity.enabled;
-            golfie = _closure1_slot3;
-            oscard = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = report;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
-            zuuluu = zuuluu.enabled;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 1;
-            tangon = tangon[michal];
-            michal = undefined;
-            tangon = oscard.bind(michal)(tangon);
-            michal = tangon.useIsEligibleForSettingsDefaultsAggregate;
-            michal = michal.bind(tangon)(report);
-            if(entity) { _fun00004_ip = 115; continue _fun00003 }
+            var5 = arg1;
+            var6 = _closure1_slot2;
+            var4 = var6.useExperiment;
+            var3 = {};
+            var3['location'] = var5;
+            var1 = {};
+            var8 = false;
+            var1['autoTrackExposure'] = var8;
+            var1 = var4.bind(var6)(var3, var1);
+            var1 = var1.enabled;
+            var7 = _closure1_slot3;
+            var6 = var7.useExperiment;
+            var4 = {};
+            var4['location'] = var5;
+            var3 = {};
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var4, var3);
+            var3 = var3.enabled;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var2 = 1;
+            var4 = var4[var2];
+            var2 = undefined;
+            var4 = var6.bind(var2)(var4);
+            var2 = var4.useIsEligibleForSettingsDefaultsAggregate;
+            var2 = var2.bind(var4)(var5);
+            if(var1) { _fun0002_ip = 115; continue _fun0002 }
  112:
-            entity = zuuluu;
+            var1 = var3;
  115:
-            if(entity) { _fun00004_ip = 121; continue _fun00003 }
+            if(var1) { _fun0002_ip = 121; continue _fun0002 }
  118:
-            entity = michal;
+            var1 = var2;
  121:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsEligibleForSensitiveContentDefaults'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForSensitiveContentDefaultsAllBlur
-        tangon = _closure1_slot2;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = argFoo;
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.allBlur;
-        return entity;
+    var3['useIsEligibleForSensitiveContentDefaults'] = var4;
+    var4 = function isEligibleForSensitiveContentDefaultsAllBlur(arg1) {
+        var4 = _closure1_slot2;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = arg1;
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.allBlur;
+        return var1;
     };
-    zuuluu['isEligibleForSensitiveContentDefaultsAllBlur'] = tangon;
-    michal = function(argFoo) { // Original name: isEligibleForSensitiveContentDefaultsMixed
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isEligibleForSensitiveContentDefaultsAllBlur'] = var4;
+    var2 = function isEligibleForSensitiveContentDefaultsMixed(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            oscard = _closure1_slot2;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            zuuluu['location'] = tangon;
-            entity = {};
-            golfie = false;
-            entity['autoTrackExposure'] = golfie;
-            entity = report.bind(oscard)(zuuluu, entity);
-            entity = entity.mixed;
-            if(entity) { _fun00006_ip = 79; continue _fun00005 }
+            var4 = arg1;
+            var6 = _closure1_slot2;
+            var5 = var6.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var4;
+            var1 = {};
+            var7 = false;
+            var1['autoTrackExposure'] = var7;
+            var1 = var5.bind(var6)(var3, var1);
+            var1 = var1.mixed;
+            if(var1) { _fun0003_ip = 79; continue _fun0003 }
  46:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            michal = zuuluu.isEligibleForSettingsDefaultsAggregate;
-            entity = michal.bind(zuuluu)(tangon);
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.isEligibleForSettingsDefaultsAggregate;
+            var1 = var2.bind(var3)(var4);
  79:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isEligibleForSensitiveContentDefaultsMixed'] = michal;
-    return entity;
+    var3['isEligibleForSensitiveContentDefaultsMixed'] = var2;
+    return var1;
 })();

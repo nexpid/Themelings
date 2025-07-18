@@ -1,120 +1,120 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useSafetyAlertsSettingOrDefault.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useSafetyAlertsSettingOrDefault.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/self_mod/inappropriate_conversation/hooks/useSafetyAlertsSettingOrDefault.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.getCurrentUser;
-            oscard = michal.bind(zuuluu)();
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 2;
-            michal = golfie[michal];
-            report = undefined;
-            option = tangon.bind(report)(michal);
-            zuuluu = option.useStateFromStores;
-            entity = _closure1_slot2;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot3;
+            var2 = var3.getCurrentUser;
+            var6 = var2.bind(var3)();
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 2;
+            var2 = var7[var2];
+            var5 = undefined;
+            var8 = var4.bind(var5)(var2);
+            var3 = var8.useStateFromStores;
+            var1 = _closure1_slot2;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure1_slot2;
-                    entity = entity.settings;
-                    zuuluu = entity.privacy;
-                    entity = null;
-                    tangon = entity == zuuluu;
-                    michal = undefined;
-                    if(tangon) { _fun00004_ip = 50; continue _fun00003 }
+                    var1 = _closure1_slot2;
+                    var1 = var1.settings;
+                    var3 = var1.privacy;
+                    var1 = null;
+                    var4 = var1 == var3;
+                    var2 = undefined;
+                    if(var4) { _fun0002_ip = 50; continue _fun0002 }
  30:
-                    zuuluu = zuuluu.inappropriateConversationWarnings;
-                    tangon = entity == zuuluu;
-                    michal = undefined;
-                    if(tangon) { _fun00004_ip = 50; continue _fun00003 }
+                    var3 = var3.inappropriateConversationWarnings;
+                    var4 = var1 == var3;
+                    var2 = undefined;
+                    if(var4) { _fun0002_ip = 50; continue _fun0002 }
  45:
-                    michal = zuuluu.value;
+                    var2 = var3.value;
  50:
-                    entity = entity == michal;
-                    if(entity) { _fun00004_ip = 60; continue _fun00003 }
+                    var1 = var1 == var2;
+                    if(var1) { _fun0002_ip = 60; continue _fun0002 }
  57:
-                    entity = michal;
+                    var1 = var2;
  60:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = zuuluu.bind(option)(michal, entity);
-            entity = 3;
-            entity = golfie[entity];
-            michal = tangon.bind(report)(entity);
-            entity = michal.useUserIsTeen;
-            michal = entity.bind(michal)();
-            entity = 4;
-            entity = golfie[entity];
-            golfie = tangon.bind(report)(entity);
-            tangon = golfie.useIsEligibleForInappropriateConversationDefaultOn;
-            entity = {};
-            option = 'useSafetyAlertsSettingOrDefault';
-            entity['location'] = option;
-            entity = tangon.bind(golfie)(entity);
-            tangon = !michal;
-            if(tangon) { _fun00002_ip = 132; continue _fun00001 }
+            var3 = var3.bind(var8)(var2, var1);
+            var1 = 3;
+            var1 = var7[var1];
+            var2 = var4.bind(var5)(var1);
+            var1 = var2.useUserIsTeen;
+            var2 = var1.bind(var2)();
+            var1 = 4;
+            var1 = var7[var1];
+            var7 = var4.bind(var5)(var1);
+            var4 = var7.useIsEligibleForInappropriateConversationDefaultOn;
+            var1 = {};
+            var8 = 'useSafetyAlertsSettingOrDefault';
+            var1['location'] = var8;
+            var1 = var4.bind(var7)(var1);
+            var4 = !var2;
+            if(var4) { _fun0001_ip = 132; continue _fun0001 }
  129:
-            tangon = !entity;
+            var4 = !var1;
  132:
-            entity = !tangon;
-            if(!tangon) { _fun00002_ip = 177; continue _fun00001 }
+            var1 = !var4;
+            if(!var4) { _fun0001_ip = 177; continue _fun0001 }
  138:
-            if(michal) { _fun00002_ip = 168; continue _fun00001 }
+            if(var2) { _fun0001_ip = 168; continue _fun0001 }
  141:
-            tangon = null;
-            tangon = tangon == oscard;
-            report = undefined;
-            if(tangon) { _fun00002_ip = 162; continue _fun00001 }
+            var4 = null;
+            var4 = var4 == var6;
+            var5 = undefined;
+            if(var4) { _fun0001_ip = 162; continue _fun0001 }
  152:
-            tangon = oscard.isStaff;
-            report = tangon.bind(oscard)();
+            var4 = var6.isStaff;
+            var5 = var4.bind(var6)();
  162:
-            tangon = true;
-            michal = tangon === report;
+            var4 = true;
+            var2 = var4 === var5;
  168:
-            if(!michal) { _fun00002_ip = 174; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 174; continue _fun0001 }
  171:
-            michal = zuuluu;
+            var2 = var3;
  174:
-            entity = michal;
+            var1 = var2;
  177:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useSafetyAlertsSettingOrDefault'] = michal;
-    return entity;
+    var3['useSafetyAlertsSettingOrDefault'] = var2;
+    return var1;
 })();

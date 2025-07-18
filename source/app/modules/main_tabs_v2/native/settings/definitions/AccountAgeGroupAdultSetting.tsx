@@ -1,105 +1,105 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupAdultSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    golfie = michal.MobileSetting;
-    michal = {};
-    option = 1;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.RendererType;
-    option = option.STATIC;
-    michal['type'] = option;
-    option = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 4;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity./52UY2;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.MobileSetting;
+    var2 = {};
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RendererType;
+    var8 = var8.STATIC;
+    var2['type'] = var8;
+    var8 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1./52UY2;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = option;
-    golfie = golfie.ACCOUNT;
-    michal['parent'] = golfie;
-    golfie = function() { // Original name: useTrailing
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 4;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.XxRj7e;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['title'] = var8;
+    var7 = var7.ACCOUNT;
+    var2['parent'] = var7;
+    var7 = function useTrailing() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.XxRj7e;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['useTrailing'] = golfie;
-    tangon = function() { // Original name: useAccountAgeGroupAdultSettingPredicate
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['useTrailing'] = var7;
+    var4 = function useAccountAgeGroupAdultSettingPredicate() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 2;
-            michal = oscard[entity];
-            tangon = undefined;
-            zuuluu = report.bind(tangon)(michal);
-            michal = zuuluu.useIsAgeVerified;
-            zuuluu = michal.bind(zuuluu)();
-            entity = oscard[entity];
-            michal = report.bind(tangon)(entity);
-            entity = michal.useIsVerifiedTeen;
-            michal = entity.bind(michal)();
-            entity = 3;
-            entity = oscard[entity];
-            report = report.bind(tangon)(entity);
-            tangon = report.useIsEligibleForSensitiveContentDefaults;
-            entity = 'explicit_media_redaction_utils';
-            entity = tangon.bind(report)(entity);
-            if(!entity) { _fun00002_ip = 89; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 2;
+            var2 = var6[var1];
+            var4 = undefined;
+            var3 = var5.bind(var4)(var2);
+            var2 = var3.useIsAgeVerified;
+            var3 = var2.bind(var3)();
+            var1 = var6[var1];
+            var2 = var5.bind(var4)(var1);
+            var1 = var2.useIsVerifiedTeen;
+            var2 = var1.bind(var2)();
+            var1 = 3;
+            var1 = var6[var1];
+            var5 = var5.bind(var4)(var1);
+            var4 = var5.useIsEligibleForSensitiveContentDefaults;
+            var1 = 'explicit_media_redaction_utils';
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0001_ip = 89; continue _fun0001 }
  86:
-            entity = zuuluu;
+            var1 = var3;
  89:
-            if(!entity) { _fun00002_ip = 95; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 95; continue _fun0001 }
  92:
-            entity = !michal;
+            var1 = !var2;
  95:
-            return entity;
+            return var1;
         }
     };
-    michal['usePredicate'] = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupAdultSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['usePredicate'] = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/AccountAgeGroupAdultSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

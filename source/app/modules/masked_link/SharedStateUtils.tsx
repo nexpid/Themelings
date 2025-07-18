@@ -1,192 +1,192 @@
 // app/modules/masked_link/SharedStateUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo) { // Original name: useUrlParts
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function useUrlParts(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            tangon = _closure1_slot3;
-            zuuluu = tangon.useMemo;
-            michal = new Array(1);
-            michal[0] = report;
-            entity = function() {
-                entity = {};
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 2;
-                tangon = oscard[michal];
-                zuuluu = undefined;
-                option = report.bind(zuuluu)(tangon);
-                golfie = option.getProtocol;
-                tangon = _closure2_slot0;
-                golfie = golfie.bind(option)(tangon);
-                entity['protocol'] = golfie;
-                michal = oscard[michal];
-                zuuluu = report.bind(zuuluu)(michal);
-                michal = zuuluu.getHostname;
-                michal = michal.bind(zuuluu)(tangon);
-                entity['hostname'] = michal;
-                return entity;
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var4 = _closure1_slot3;
+            var3 = var4.useMemo;
+            var2 = new Array(1);
+            var2[0] = var5;
+            var1 = function() {
+                var1 = {};
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 2;
+                var4 = var6[var2];
+                var3 = undefined;
+                var8 = var5.bind(var3)(var4);
+                var7 = var8.getProtocol;
+                var4 = _closure2_slot0;
+                var7 = var7.bind(var8)(var4);
+                var1['protocol'] = var7;
+                var2 = var6[var2];
+                var3 = var5.bind(var3)(var2);
+                var2 = var3.getHostname;
+                var2 = var2.bind(var3)(var4);
+                var1['hostname'] = var2;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(entity, michal);
-            option = entity.protocol;
-            golfie = entity.hostname;
-            zuuluu = report.substr;
-            michal = option.length;
-            entity = 2;
-            michal = zuuluu.bind(report)(michal, entity);
-            tangon = '';
-            entity = '//';
-            oscard = tangon;
-            if(!(entity === michal)) { _fun00002_ip = 94; continue _fun00001 }
+            var1 = var3.bind(var4)(var1, var2);
+            var8 = var1.protocol;
+            var7 = var1.hostname;
+            var3 = var5.substr;
+            var2 = var8.length;
+            var1 = 2;
+            var2 = var3.bind(var5)(var2, var1);
+            var4 = '';
+            var1 = '//';
+            var6 = var4;
+            if(!(var1 === var2)) { _fun0001_ip = 94; continue _fun0001 }
  91:
-            oscard = entity;
+            var6 = var1;
  94:
-            entity = {};
-            entity['protocol'] = option;
-            entity['authorityPrefix'] = oscard;
-            entity['hostname'] = golfie;
-            zuuluu = report.replace;
-            michal = global;
-            michal = michal.HermesInternal;
-            michal = michal.concat;
-            michal = michal.bind(tangon)(option, oscard, golfie);
-            michal = zuuluu.bind(report)(michal, tangon);
-            entity['theRestOfTheUrl'] = michal;
-            return entity;
+            var1 = {};
+            var1['protocol'] = var8;
+            var1['authorityPrefix'] = var6;
+            var1['hostname'] = var7;
+            var3 = var5.replace;
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var2 = var2.concat;
+            var2 = var2.bind(var4)(var8, var6, var7);
+            var2 = var3.bind(var5)(var2, var4);
+            var1['theRestOfTheUrl'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 1;
-    option = golfie[report];
-    report = argCor;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/masked_link/SharedStateUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['useUrlParts'] = tangon;
-    michal = function(argFoo) { // Original name: useModalState
-        michal = argFoo;
-        sizing = michal.url;
-        var _closure2_slot0 = sizing;
-        kiloes = michal.trustUrl;
-        var _closure2_slot1 = kiloes;
-        zuuluu = michal.onConfirm;
-        var _closure2_slot2 = zuuluu;
-        foxtra = michal.onCancel;
-        var _closure2_slot3 = foxtra;
-        romeon = michal.onClose;
-        var _closure2_slot4 = romeon;
-        oscard = _closure1_slot3;
-        report = oscard.useState;
-        tangon = false;
-        oscard = report.bind(oscard)(tangon);
-        report = _closure1_slot2;
-        golfie = undefined;
-        tangon = 2;
-        oscard = report.bind(golfie)(oscard, tangon);
-        tangon = 0;
-        report = oscard[tangon];
-        var _closure2_slot5 = report;
-        tangon = 1;
-        tangon = oscard[tangon];
-        oscard = _closure1_slot4;
-        oscard = oscard.bind(golfie)(sizing);
-        verify = oscard.protocol;
-        option = oscard.authorityPrefix;
-        golfie = oscard.hostname;
-        oscard = oscard.theRestOfTheUrl;
-        backup = _closure1_slot3;
-        yankee = backup.useCallback;
-        offset = new Array(5);
-        offset[0] = sizing;
-        offset[1] = report;
-        offset[2] = kiloes;
-        offset[3] = zuuluu;
-        offset[4] = romeon;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var8 = var7[var5];
+    var5 = native4;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/masked_link/SharedStateUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['useUrlParts'] = var4;
+    var2 = function useModalState(arg1) {
+        var2 = arg1;
+        var16 = var2.url;
+        var _closure2_slot0 = var16;
+        var15 = var2.trustUrl;
+        var _closure2_slot1 = var15;
+        var3 = var2.onConfirm;
+        var _closure2_slot2 = var3;
+        var13 = var2.onCancel;
+        var _closure2_slot3 = var13;
+        var12 = var2.onClose;
+        var _closure2_slot4 = var12;
+        var6 = _closure1_slot3;
+        var5 = var6.useState;
+        var4 = false;
+        var6 = var5.bind(var6)(var4);
+        var5 = _closure1_slot2;
+        var7 = undefined;
+        var4 = 2;
+        var6 = var5.bind(var7)(var6, var4);
+        var4 = 0;
+        var5 = var6[var4];
+        var _closure2_slot5 = var5;
+        var4 = 1;
+        var4 = var6[var4];
+        var6 = _closure1_slot4;
+        var6 = var6.bind(var7)(var16);
+        var9 = var6.protocol;
+        var8 = var6.authorityPrefix;
+        var7 = var6.hostname;
+        var6 = var6.theRestOfTheUrl;
+        var14 = _closure1_slot3;
+        var11 = var14.useCallback;
+        var10 = new Array(5);
+        var10[0] = var16;
+        var10[1] = var5;
+        var10[2] = var15;
+        var10[3] = var3;
+        var10[4] = var12;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot5;
-                if(!michal) { _fun00004_ip = 25; continue _fun00003 }
+                var2 = _closure2_slot5;
+                if(!var2) { _fun0002_ip = 25; continue _fun0002 }
  10:
-                tangon = _closure2_slot1;
-                zuuluu = _closure2_slot0;
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
+                var4 = _closure2_slot1;
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
  25:
-                zuuluu = _closure2_slot4;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 45; continue _fun00003 }
+                var3 = _closure2_slot4;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0002_ip = 45; continue _fun0002 }
  35:
-                zuuluu = _closure2_slot4;
-                michal = undefined;
-                michal = zuuluu.bind(michal)();
+                var3 = _closure2_slot4;
+                var2 = undefined;
+                var2 = var3.bind(var2)();
  45:
-                michal = _closure2_slot2;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                return entity;
+                var2 = _closure2_slot2;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
             }
         };
-        zuuluu = yankee.bind(backup)(zuuluu, offset);
-        yankee = _closure1_slot3;
-        offset = yankee.useCallback;
-        michal = new Array(2);
-        michal[0] = foxtra;
-        michal[1] = romeon;
-        entity = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3 = var11.bind(var14)(var3, var10);
+        var11 = _closure1_slot3;
+        var10 = var11.useCallback;
+        var2 = new Array(2);
+        var2[0] = var13;
+        var2[1] = var12;
+        var1 = function() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = _closure2_slot4;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00006_ip = 23; continue _fun00005 }
+                var3 = _closure2_slot4;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0003_ip = 23; continue _fun0003 }
  13:
-                zuuluu = _closure2_slot4;
-                michal = undefined;
-                michal = zuuluu.bind(michal)();
+                var3 = _closure2_slot4;
+                var2 = undefined;
+                var2 = var3.bind(var2)();
  23:
-                michal = _closure2_slot3;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                return entity;
+                var2 = _closure2_slot3;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
             }
         };
-        michal = offset.bind(yankee)(entity, michal);
-        entity = {};
-        entity['protocol'] = verify;
-        entity['authorityPrefix'] = option;
-        entity['hostname'] = golfie;
-        entity['theRestOfTheUrl'] = oscard;
-        entity['shouldTrustUrl'] = report;
-        entity['setShouldTrustUrl'] = tangon;
-        entity['handleConfirm'] = zuuluu;
-        entity['handleCancel'] = michal;
-        return entity;
+        var2 = var10.bind(var11)(var1, var2);
+        var1 = {};
+        var1['protocol'] = var9;
+        var1['authorityPrefix'] = var8;
+        var1['hostname'] = var7;
+        var1['theRestOfTheUrl'] = var6;
+        var1['shouldTrustUrl'] = var5;
+        var1['setShouldTrustUrl'] = var4;
+        var1['handleConfirm'] = var3;
+        var1['handleCancel'] = var2;
+        return var1;
     };
-    zuuluu['useModalState'] = michal;
-    return entity;
+    var3['useModalState'] = var2;
+    return var1;
 })();

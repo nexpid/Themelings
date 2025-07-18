@@ -1,110 +1,110 @@
 // app/utils/ClipboardUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _copy
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var1 = function _copy() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    michal = argBar;
+                    var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 93; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 93; continue _fun0001 }
  10:
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot1;
-                    zuuluu = 1;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    oscard = report.bind(zuuluu)(tangon);
-                    report = oscard.setString;
-                    tangon = argFoo;
-                    tangon = report.bind(oscard)(tangon);
-                    tangon = null;
-                    if(!(tangon != michal)) { _fun00002_ip = 59; continue _fun00001 }
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var3 = 1;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.setString;
+                    var4 = arg1;
+                    var4 = var5.bind(var6)(var4);
+                    var4 = null;
+                    if(!(var4 != var2)) { _fun0001_ip = 59; continue _fun0001 }
  55:
-                    michal = michal.bind(zuuluu)();
+                    var2 = var2.bind(var3)();
  59:
-                    michal = global;
-                    tangon = michal.Promise;
-                    michal = tangon.resolve;
-                    michal = michal.bind(tangon)();
+                    var2 = global;
+                    var4 = var2.Promise;
+                    var2 = var4.resolve;
+                    var2 = var2.bind(var4)();
                     SaveGenerator(address=81);
  79:
-                    return michal;
+                    return var2;
  81:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 90; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 90; continue _fun0001 }
  87:
-                    return zuuluu;
+                    return var3;
  90:
-                    return michal;
+                    return var2;
  93:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot3 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot3 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    tangon = true;
-    report['value'] = tangon;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = oscard[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 2;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/ClipboardUtils.native.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['SUPPORTS_COPY'] = tangon;
-    tangon = function() { // Original name: copy
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var4 = true;
+    var5['value'] = var4;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var6[var1];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 2;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/ClipboardUtils.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['SUPPORTS_COPY'] = var4;
+    var4 = function copy() {
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['copy'] = tangon;
-    michal = function() { // Original name: getString
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        entity = michal.getString;
-        entity = entity.bind(michal)();
-        return entity;
+    var3['copy'] = var4;
+    var2 = function getString() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.getString;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    zuuluu['getString'] = michal;
-    return entity;
+    var3['getString'] = var2;
+    return var1;
 })();

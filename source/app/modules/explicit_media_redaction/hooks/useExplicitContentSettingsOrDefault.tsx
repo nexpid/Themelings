@@ -1,215 +1,215 @@
 // app/modules/explicit_media_redaction/hooks/useExplicitContentSettingsOrDefault.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/explicit_media_redaction/hooks/useExplicitContentSettingsOrDefault.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/explicit_media_redaction/hooks/useExplicitContentSettingsOrDefault.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            entity = zuuluu[entity];
-            report = undefined;
-            option = golfie.bind(report)(entity);
-            oscard = option.useStateFromStoresObject;
-            entity = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var1 = var3[var1];
+            var5 = undefined;
+            var8 = var7.bind(var5)(var1);
+            var6 = var8.useStateFromStoresObject;
+            var1 = _closure1_slot2;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = _closure1_slot2;
-                    entity = entity.settings;
-                    report = entity.textAndImages;
-                    zuuluu = null;
-                    oscard = zuuluu == report;
-                    tangon = undefined;
-                    entity = undefined;
-                    if(oscard) { _fun00004_ip = 38; continue _fun00003 }
+                    var1 = _closure1_slot2;
+                    var1 = var1.settings;
+                    var5 = var1.textAndImages;
+                    var3 = null;
+                    var6 = var3 == var5;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var6) { _fun0002_ip = 38; continue _fun0002 }
  32:
-                    entity = report.explicitContentSettings;
+                    var1 = var5.explicitContentSettings;
  38:
-                    if(!(zuuluu == entity)) { _fun00004_ip = 72; continue _fun00003 }
+                    if(!(var3 == var1)) { _fun0002_ip = 72; continue _fun0002 }
  42:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot1;
-                    michal = 2;
-                    michal = report[michal];
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = zuuluu.getExplicitContentSettingOrDefault;
-                    entity = michal.bind(zuuluu)();
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var2 = 2;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.getExplicitContentSettingOrDefault;
+                    var1 = var2.bind(var3)();
  72:
-                    return entity;
+                    return var1;
                 }
             };
-            oscard = oscard.bind(option)(tangon, entity);
-            entity = {};
-            tangon = 2;
-            zuuluu = zuuluu[tangon];
-            verify = golfie.bind(report)(zuuluu);
-            option = verify.resolveExplicitContentSettingWithDefaults;
-            zuuluu = {};
-            golfie = null;
-            yankee = golfie == oscard;
-            offset = undefined;
-            if(yankee) { _fun00002_ip = 97; continue _fun00001 }
+            var6 = var6.bind(var8)(var4, var1);
+            var1 = {};
+            var4 = 2;
+            var3 = var3[var4];
+            var9 = var7.bind(var5)(var3);
+            var8 = var9.resolveExplicitContentSettingWithDefaults;
+            var3 = {};
+            var7 = null;
+            var11 = var7 == var6;
+            var10 = undefined;
+            if(var11) { _fun0001_ip = 97; continue _fun0001 }
  91:
-            offset = oscard.explicitContentGuilds;
+            var10 = var6.explicitContentGuilds;
  97:
-            zuuluu['setting'] = offset;
-            zuuluu = option.bind(verify)(zuuluu);
-            entity['explicitContentGuilds'] = zuuluu;
-            option = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[tangon];
-            verify = option.bind(report)(zuuluu);
-            option = verify.resolveExplicitContentSettingWithDefaults;
-            zuuluu = {};
-            yankee = golfie == oscard;
-            offset = undefined;
-            if(yankee) { _fun00002_ip = 152; continue _fun00001 }
+            var3['setting'] = var10;
+            var3 = var8.bind(var9)(var3);
+            var1['explicitContentGuilds'] = var3;
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var4];
+            var9 = var8.bind(var5)(var3);
+            var8 = var9.resolveExplicitContentSettingWithDefaults;
+            var3 = {};
+            var11 = var7 == var6;
+            var10 = undefined;
+            if(var11) { _fun0001_ip = 152; continue _fun0001 }
  146:
-            offset = oscard.explicitContentNonFriendDm;
+            var10 = var6.explicitContentNonFriendDm;
  152:
-            zuuluu['setting'] = offset;
-            offset = true;
-            zuuluu['isDm'] = offset;
-            zuuluu = option.bind(verify)(zuuluu);
-            entity['explicitContentNonFriendDm'] = zuuluu;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[tangon];
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.resolveExplicitContentSettingWithDefaults;
-            michal = {'setting': null, 'isDm': true, 'isFriend': true};
-            golfie = golfie == oscard;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 222; continue _fun00001 }
+            var3['setting'] = var10;
+            var10 = true;
+            var3['isDm'] = var10;
+            var3 = var8.bind(var9)(var3);
+            var1['explicitContentNonFriendDm'] = var3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var4];
+            var4 = var3.bind(var5)(var2);
+            var3 = var4.resolveExplicitContentSettingWithDefaults;
+            var2 = {'setting': null, 'isDm': true, 'isFriend': true};
+            var7 = var7 == var6;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 222; continue _fun0001 }
  216:
-            report = oscard.explicitContentFriendDm;
+            var5 = var6.explicitContentFriendDm;
  222:
-            michal['setting'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            entity['explicitContentFriendDm'] = michal;
-            return entity;
+            var2['setting'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var1['explicitContentFriendDm'] = var2;
+            return var1;
         }
     };
-    zuuluu['useExplicitContentSettingOrDefault'] = tangon;
-    michal = function() {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useExplicitContentSettingOrDefault'] = var4;
+    var2 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            entity = zuuluu[entity];
-            report = undefined;
-            option = golfie.bind(report)(entity);
-            oscard = option.useStateFromStoresObject;
-            entity = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var1 = var3[var1];
+            var5 = undefined;
+            var8 = var7.bind(var5)(var1);
+            var6 = var8.useStateFromStoresObject;
+            var1 = _closure1_slot2;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    entity = _closure1_slot2;
-                    entity = entity.settings;
-                    report = entity.textAndImages;
-                    zuuluu = null;
-                    oscard = zuuluu == report;
-                    tangon = undefined;
-                    entity = undefined;
-                    if(oscard) { _fun00008_ip = 38; continue _fun00007 }
+                    var1 = _closure1_slot2;
+                    var1 = var1.settings;
+                    var5 = var1.textAndImages;
+                    var3 = null;
+                    var6 = var3 == var5;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var6) { _fun0004_ip = 38; continue _fun0004 }
  32:
-                    entity = report.goreContentSettings;
+                    var1 = var5.goreContentSettings;
  38:
-                    if(!(zuuluu == entity)) { _fun00008_ip = 72; continue _fun00007 }
+                    if(!(var3 == var1)) { _fun0004_ip = 72; continue _fun0004 }
  42:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot1;
-                    michal = 3;
-                    michal = report[michal];
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = zuuluu.getGoreContentSettingOrDefault;
-                    entity = michal.bind(zuuluu)();
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot1;
+                    var2 = 3;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var4)(var2);
+                    var2 = var3.getGoreContentSettingOrDefault;
+                    var1 = var2.bind(var3)();
  72:
-                    return entity;
+                    return var1;
                 }
             };
-            oscard = oscard.bind(option)(tangon, entity);
-            entity = {};
-            tangon = 3;
-            zuuluu = zuuluu[tangon];
-            verify = golfie.bind(report)(zuuluu);
-            option = verify.resolveGoreSettingWithDefaults;
-            zuuluu = {};
-            golfie = null;
-            yankee = golfie == oscard;
-            offset = undefined;
-            if(yankee) { _fun00006_ip = 97; continue _fun00005 }
+            var6 = var6.bind(var8)(var4, var1);
+            var1 = {};
+            var4 = 3;
+            var3 = var3[var4];
+            var9 = var7.bind(var5)(var3);
+            var8 = var9.resolveGoreSettingWithDefaults;
+            var3 = {};
+            var7 = null;
+            var11 = var7 == var6;
+            var10 = undefined;
+            if(var11) { _fun0003_ip = 97; continue _fun0003 }
  91:
-            offset = oscard.goreContentGuilds;
+            var10 = var6.goreContentGuilds;
  97:
-            zuuluu['setting'] = offset;
-            zuuluu = option.bind(verify)(zuuluu);
-            entity['goreContentGuilds'] = zuuluu;
-            option = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[tangon];
-            verify = option.bind(report)(zuuluu);
-            option = verify.resolveGoreSettingWithDefaults;
-            zuuluu = {};
-            yankee = golfie == oscard;
-            offset = undefined;
-            if(yankee) { _fun00006_ip = 152; continue _fun00005 }
+            var3['setting'] = var10;
+            var3 = var8.bind(var9)(var3);
+            var1['goreContentGuilds'] = var3;
+            var8 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var4];
+            var9 = var8.bind(var5)(var3);
+            var8 = var9.resolveGoreSettingWithDefaults;
+            var3 = {};
+            var11 = var7 == var6;
+            var10 = undefined;
+            if(var11) { _fun0003_ip = 152; continue _fun0003 }
  146:
-            offset = oscard.goreContentNonFriendDm;
+            var10 = var6.goreContentNonFriendDm;
  152:
-            zuuluu['setting'] = offset;
-            offset = true;
-            zuuluu['isDm'] = offset;
-            zuuluu = option.bind(verify)(zuuluu);
-            entity['goreContentNonFriendDm'] = zuuluu;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[tangon];
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.resolveGoreSettingWithDefaults;
-            michal = {'setting': null, 'isDm': true, 'isFriend': true};
-            golfie = golfie == oscard;
-            report = undefined;
-            if(golfie) { _fun00006_ip = 222; continue _fun00005 }
+            var3['setting'] = var10;
+            var10 = true;
+            var3['isDm'] = var10;
+            var3 = var8.bind(var9)(var3);
+            var1['goreContentNonFriendDm'] = var3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var4];
+            var4 = var3.bind(var5)(var2);
+            var3 = var4.resolveGoreSettingWithDefaults;
+            var2 = {'setting': null, 'isDm': true, 'isFriend': true};
+            var7 = var7 == var6;
+            var5 = undefined;
+            if(var7) { _fun0003_ip = 222; continue _fun0003 }
  216:
-            report = oscard.goreContentFriendDm;
+            var5 = var6.goreContentFriendDm;
  222:
-            michal['setting'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            entity['goreContentFriendDm'] = michal;
-            return entity;
+            var2['setting'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var1['goreContentFriendDm'] = var2;
+            return var1;
         }
     };
-    zuuluu['useGoreContentSettingOrDefault'] = michal;
-    return entity;
+    var3['useGoreContentSettingOrDefault'] = var2;
+    return var1;
 })();

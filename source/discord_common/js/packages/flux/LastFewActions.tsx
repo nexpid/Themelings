@@ -1,83 +1,83 @@
 // discord_common/js/packages/flux/LastFewActions.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = new Array(0);
-    var _closure1_slot0 = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/flux/LastFewActions.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: add
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = new Array(0);
+    var _closure1_slot0 = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/flux/LastFewActions.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function add(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            michal = tangon.push;
-            entity = argFoo;
-            entity = michal.bind(tangon)(entity);
-            entity = _closure1_slot0;
-            entity = entity.length;
-            michal = 10;
-            if(!(entity > michal)) { _fun00002_ip = 63; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var2 = var4.push;
+            var1 = arg1;
+            var1 = var2.bind(var4)(var1);
+            var1 = _closure1_slot0;
+            var1 = var1.length;
+            var2 = 10;
+            if(!(var1 > var2)) { _fun0001_ip = 63; continue _fun0001 }
  36:
-            tangon = _closure1_slot0;
-            entity = tangon.shift;
-            entity = entity.bind(tangon)();
-            entity = _closure1_slot0;
-            entity = entity.length;
-            if(entity > michal) { _fun00002_ip = 36; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var1 = var4.shift;
+            var1 = var1.bind(var4)();
+            var1 = _closure1_slot0;
+            var1 = var1.length;
+            if(var1 > var2) { _fun0001_ip = 36; continue _fun0001 }
  63:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['add'] = tangon;
-    tangon = function() { // Original name: clear
-        entity = _closure1_slot0;
-        michal = new Array(0);
-        _closure1_slot0 = michal;
-        return entity;
+    var3['add'] = var4;
+    var4 = function clear() {
+        var1 = _closure1_slot0;
+        var2 = new Array(0);
+        _closure1_slot0 = var2;
+        return var1;
     };
-    zuuluu['clear'] = tangon;
-    tangon = function() { // Original name: serialize
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.join;
-        entity = ' -> ';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['clear'] = var4;
+    var4 = function serialize() {
+        var3 = _closure1_slot0;
+        var2 = var3.join;
+        var1 = ' -> ';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['serialize'] = tangon;
-    michal = function() { // Original name: last
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['serialize'] = var4;
+    var2 = function last() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = _closure1_slot0;
-            zuuluu = entity.length;
-            entity = 0;
-            zuuluu = zuuluu > entity;
-            entity = null;
-            if(!zuuluu) { _fun00004_ip = 43; continue _fun00003 }
+            var1 = _closure1_slot0;
+            var3 = var1.length;
+            var1 = 0;
+            var3 = var3 > var1;
+            var1 = null;
+            if(!var3) { _fun0002_ip = 43; continue _fun0002 }
  23:
-            zuuluu = _closure1_slot0;
-            tangon = zuuluu.length;
-            michal = 1;
-            michal = tangon - michal;
-            entity = zuuluu[michal];
+            var3 = _closure1_slot0;
+            var4 = var3.length;
+            var2 = 1;
+            var2 = var4 - var2;
+            var1 = var3[var2];
  43:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['last'] = michal;
-    return entity;
+    var3['last'] = var2;
+    return var1;
 })();

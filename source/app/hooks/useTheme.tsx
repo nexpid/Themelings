@@ -1,77 +1,77 @@
 // app/hooks/useTheme.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    report = function() { // Original name: useTheme
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        entity = michal.useThemeContext;
-        entity = entity.bind(michal)();
-        entity = entity.theme;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var5 = function useTheme() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var1 = var2.useThemeContext;
+        var1 = var1.bind(var2)();
+        var1 = var1.theme;
+        return var1;
     };
-    var _closure1_slot3 = report;
-    michal = function(argFoo) { // Original name: getThemeIndex
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot3 = var5;
+    var2 = function getThemeIndex(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.DARK;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 43; continue _fun00001 }
+            var2 = arg1;
+            var3 = _closure1_slot2;
+            var3 = var3.DARK;
+            if(!(var3 !== var2)) { _fun0001_ip = 43; continue _fun0001 }
  20:
-            entity = _closure1_slot2;
-            entity = entity.LIGHT;
-            if(!(entity !== michal)) { _fun00002_ip = 38; continue _fun00001 }
+            var1 = _closure1_slot2;
+            var1 = var1.LIGHT;
+            if(!(var1 !== var2)) { _fun0001_ip = 38; continue _fun0001 }
  34:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  38:
-            entity = 1;
-            return entity;
+            var1 = 1;
+            return var1;
  43:
-            entity = 0;
-            return entity;
+            var1 = 0;
+            return var1;
         }
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.ThemeTypes;
-    var _closure1_slot2 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'hooks/useTheme.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = report;
-    zuuluu['useTheme'] = report;
-    tangon = function() { // Original name: useThemeIndex
-        zuuluu = _closure1_slot4;
-        entity = _closure1_slot3;
-        michal = undefined;
-        entity = entity.bind(michal)();
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.ThemeTypes;
+    var _closure1_slot2 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'hooks/useTheme.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['useTheme'] = var5;
+    var4 = function useThemeIndex() {
+        var3 = _closure1_slot4;
+        var1 = _closure1_slot3;
+        var2 = undefined;
+        var1 = var1.bind(var2)();
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useThemeIndex'] = tangon;
-    zuuluu['getThemeIndex'] = michal;
-    return entity;
+    var3['useThemeIndex'] = var4;
+    var3['getThemeIndex'] = var2;
+    return var1;
 })();

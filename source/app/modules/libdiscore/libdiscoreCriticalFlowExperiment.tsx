@@ -1,83 +1,83 @@
 // app/modules/libdiscore/libdiscoreCriticalFlowExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    romeon = true;
-    tangon['value'] = romeon;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    verify = tangon.CommonTriggerPoints;
-    tangon = 1;
-    tangon = golfie[tangon];
-    option = oscard.bind(entity)(tangon);
-    report = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-04_libdiscore_critical_flow', 'label': 'Require libdiscore to use the app'};
-    offset = {};
-    yankee = false;
-    offset['enabled'] = yankee;
-    tangon['defaultConfig'] = offset;
-    verify = verify.CONNECTION_OPEN;
-    tangon['commonTriggerPoint'] = verify;
-    offset = {'id': 0, 'label': 'Control'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(2);
-    verify[0] = offset;
-    offset = {'id': 1, 'label': 'Require libdiscore to use the app'};
-    yankee = {};
-    yankee['enabled'] = romeon;
-    offset['config'] = yankee;
-    verify[1] = offset;
-    tangon['treatments'] = verify;
-    tangon = report.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/libdiscore/libdiscoreCriticalFlowExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['LibDiscordCriticalFlowExperiment'] = tangon;
-    michal = function() { // Original name: useShouldBlockBrowser
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var12 = true;
+    var4['value'] = var12;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var9 = var4.CommonTriggerPoints;
+    var4 = 1;
+    var4 = var7[var4];
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-04_libdiscore_critical_flow', 'label': 'Require libdiscore to use the app'};
+    var10 = {};
+    var11 = false;
+    var10['enabled'] = var11;
+    var4['defaultConfig'] = var10;
+    var9 = var9.CONNECTION_OPEN;
+    var4['commonTriggerPoint'] = var9;
+    var10 = {'id': 0, 'label': 'Control'};
+    var9 = {};
+    var9['enabled'] = var11;
+    var10['config'] = var9;
+    var9 = new Array(2);
+    var9[0] = var10;
+    var10 = {'id': 1, 'label': 'Require libdiscore to use the app'};
+    var11 = {};
+    var11['enabled'] = var12;
+    var10['config'] = var11;
+    var9[1] = var10;
+    var4['treatments'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/libdiscore/libdiscoreCriticalFlowExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['LibDiscordCriticalFlowExperiment'] = var4;
+    var2 = function useShouldBlockBrowser() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useExperiment;
-            entity = {};
-            report = 'default';
-            entity['location'] = report;
-            entity = zuuluu.bind(tangon)(entity);
-            entity = entity.enabled;
-            if(!entity) { _fun00002_ip = 68; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = var4.useExperiment;
+            var1 = {};
+            var5 = 'default';
+            var1['location'] = var5;
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.enabled;
+            if(!var1) { _fun0001_ip = 68; continue _fun0001 }
  36:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 2;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.isUnsupportedBrowser;
-            entity = michal.bind(zuuluu)();
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 2;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.isUnsupportedBrowser;
+            var1 = var2.bind(var3)();
  68:
-            if(!entity) { _fun00002_ip = 73; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 73; continue _fun0001 }
  71:
-            entity = true;
+            var1 = true;
  73:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldBlockBrowser'] = michal;
-    return entity;
+    var3['useShouldBlockBrowser'] = var2;
+    return var1;
 })();

@@ -1,133 +1,133 @@
 // app/modules/reanimated/native/cheapWorkletShallowEqual.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = {};
-    tangon = 'function cheapWorkletShallowEqual_cheapWorkletShallowEqualTsx1(a,b){if(a===b)return true;if(a==null||b==null)return false;for(const key in a){if(a[key]!==b[key])return false;}return true;}';
-    entity['code'] = tangon;
-    var _closure1_slot0 = entity;
-    tangon = function() {
-        entity = function(argFoo, argBar) { // Original name: cheapWorkletShallowEqual
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = {};
+    var4 = 'function cheapWorkletShallowEqual_cheapWorkletShallowEqualTsx1(a,b){if(a===b)return true;if(a==null||b==null)return false;for(const key in a){if(a[key]!==b[key])return false;}return true;}';
+    var1['code'] = var4;
+    var _closure1_slot0 = var1;
+    var4 = function() {
+        var1 = function cheapWorkletShallowEqual(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                verify = argFoo;
-                option = argBar;
-                if(!(verify !== option)) { _fun00002_ip = 67; continue _fun00001 }
+                var9 = arg1;
+                var8 = arg2;
+                if(!(var9 !== var8)) { _fun0001_ip = 67; continue _fun0001 }
  10:
-                entity = null;
-                if(!(entity != verify)) { _fun00002_ip = 63; continue _fun00001 }
+                var1 = null;
+                if(!(var1 != var9)) { _fun0001_ip = 63; continue _fun0001 }
  16:
-                if(!(entity != option)) { _fun00002_ip = 63; continue _fun00001 }
+                if(!(var1 != var8)) { _fun0001_ip = 63; continue _fun0001 }
  20:
-                oscard = verify;
-                for(zuuluu in oscard)
+                var6 = var9;
+                for(var3 in var6)
  31:
                 {
  40:
-                    entity = zuuluu;
-                    michal = verify[entity];
-                    entity = option[entity];
-                    if(michal === entity) { _fun00002_ip = 31; continue _fun00001 }
+                    var1 = var3;
+                    var2 = var9[var1];
+                    var1 = var8[var1];
+                    if(var2 === var1) { _fun0001_ip = 31; continue _fun0001 }
  55:
-                    entity = false;
-                    return entity;
+                    var1 = false;
+                    return var1;
                 }
  59:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  63:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  67:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 760221372005.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot0;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 760221372005.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot0;
+        var1['__initData'] = var2;
+        return var1;
     };
-    entity = undefined;
-    tangon = tangon.bind(entity)();
-    report = {};
-    oscard = 'function cheapWorkletArrayShallowEqual_cheapWorkletShallowEqualTsx2(a,b){if(a===b)return true;if(a==null||b==null)return false;if(a.length!==b.length)return false;for(let i=0;i<a.length;i++){if(a[i]!==b[i])return false;}return true;}';
-    report['code'] = oscard;
-    var _closure1_slot1 = report;
-    michal = function() {
-        entity = function(argFoo, argBar) { // Original name: cheapWorkletArrayShallowEqual
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var1 = undefined;
+    var4 = var4.bind(var1)();
+    var5 = {};
+    var6 = 'function cheapWorkletArrayShallowEqual_cheapWorkletShallowEqualTsx2(a,b){if(a===b)return true;if(a==null||b==null)return false;if(a.length!==b.length)return false;for(let i=0;i<a.length;i++){if(a[i]!==b[i])return false;}return true;}';
+    var5['code'] = var6;
+    var _closure1_slot1 = var5;
+    var2 = function() {
+        var1 = function cheapWorkletArrayShallowEqual(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = argFoo;
-                zuuluu = argBar;
-                if(!(tangon !== zuuluu)) { _fun00004_ip = 88; continue _fun00003 }
+                var4 = arg1;
+                var3 = arg2;
+                if(!(var4 !== var3)) { _fun0002_ip = 88; continue _fun0002 }
  10:
-                entity = null;
-                if(!(entity != tangon)) { _fun00004_ip = 84; continue _fun00003 }
+                var1 = null;
+                if(!(var1 != var4)) { _fun0002_ip = 84; continue _fun0002 }
  16:
-                if(!(entity != zuuluu)) { _fun00004_ip = 84; continue _fun00003 }
+                if(!(var1 != var3)) { _fun0002_ip = 84; continue _fun0002 }
  20:
-                michal = tangon.length;
-                entity = zuuluu.length;
-                if(!(michal === entity)) { _fun00004_ip = 80; continue _fun00003 }
+                var2 = var4.length;
+                var1 = var3.length;
+                if(!(var2 === var1)) { _fun0002_ip = 80; continue _fun0002 }
  34:
-                entity = tangon.length;
-                michal = 0;
-                entity = michal < entity;
-                if(!entity) { _fun00004_ip = 72; continue _fun00003 }
+                var1 = var4.length;
+                var2 = 0;
+                var1 = var2 < var1;
+                if(!var1) { _fun0002_ip = 72; continue _fun0002 }
  48:
-                report = tangon[michal];
-                entity = zuuluu[michal];
-                if(!(report === entity)) { _fun00004_ip = 76; continue _fun00003 }
+                var5 = var4[var2];
+                var1 = var3[var2];
+                if(!(var5 === var1)) { _fun0002_ip = 76; continue _fun0002 }
  60:
-                michal = michal + 1;
-                entity = tangon.length;
-                if(michal < entity) { _fun00004_ip = 48; continue _fun00003 }
+                var2 = var2 + 1;
+                var1 = var4.length;
+                if(var2 < var1) { _fun0002_ip = 48; continue _fun0002 }
  72:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  76:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  80:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  84:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  88:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 3679738010781.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot1;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 3679738010781.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot1;
+        var1['__initData'] = var2;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    oscard = argPlu;
-    report = 0;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/reanimated/native/cheapWorkletShallowEqual.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['cheapWorkletShallowEqual'] = tangon;
-    zuuluu['cheapWorkletArrayShallowEqual'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var6 = native7;
+    var5 = 0;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/reanimated/native/cheapWorkletShallowEqual.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['cheapWorkletShallowEqual'] = var4;
+    var3['cheapWorkletArrayShallowEqual'] = var2;
+    return var1;
 })();

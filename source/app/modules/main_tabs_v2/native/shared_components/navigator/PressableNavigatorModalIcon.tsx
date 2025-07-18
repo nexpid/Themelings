@@ -1,104 +1,104 @@
 // app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: PressableNavigatorModalIcon
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function PressableNavigatorModalIcon(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            michal = entity.navigation;
-            verify = entity.onPress;
-            tangon = undefined;
-            if(!(verify === tangon)) { _fun00002_ip = 26; continue _fun00001 }
+            var1 = arg1;
+            var2 = var1.navigation;
+            var9 = var1.onPress;
+            var4 = undefined;
+            if(!(var9 === var4)) { _fun0001_ip = 26; continue _fun0001 }
  20:
-            verify = michal.goBack;
+            var9 = var2.goBack;
  26:
-            offset = entity.type;
-            if(!(offset === tangon)) { _fun00002_ip = 39; continue _fun00001 }
+            var10 = var1.type;
+            if(!(var10 === var4)) { _fun0001_ip = 39; continue _fun0001 }
  35:
-            offset = 'back';
+            var10 = 'back';
  39:
-            zuuluu = _closure1_slot3;
-            yankee = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 1;
-            entity = golfie[entity];
-            michal = yankee.bind(tangon)(entity);
-            entity = {};
-            report = true;
-            entity['isModal'] = report;
-            oscard = _closure1_slot0;
-            report = 2;
-            report = golfie[report];
-            report = oscard.bind(tangon)(report);
-            oscard = report.HeaderIconButton;
-            report = {};
-            golfie = 'back';
-            golfie = golfie === offset;
-            foxtra = _closure1_slot2;
-            if(golfie) { _fun00002_ip = 123; continue _fun00001 }
+            var3 = _closure1_slot3;
+            var11 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 1;
+            var1 = var7[var1];
+            var2 = var11.bind(var4)(var1);
+            var1 = {};
+            var5 = true;
+            var1['isModal'] = var5;
+            var6 = _closure1_slot0;
+            var5 = 2;
+            var5 = var7[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.HeaderIconButton;
+            var5 = {};
+            var7 = 'back';
+            var7 = var7 === var10;
+            var13 = _closure1_slot2;
+            if(var7) { _fun0001_ip = 123; continue _fun0001 }
  114:
-            offset = 4;
-            offset = foxtra[offset];
-            _fun00002_ip = 130; continue _fun00001;
+            var10 = 4;
+            var10 = var13[var10];
+            _fun0001_ip = 130; continue _fun0001;
  123:
-            romeon = 3;
-            offset = foxtra[romeon];
+            var12 = 3;
+            var10 = var13[var12];
  130:
-            offset = yankee.bind(tangon)(offset);
-            report['source'] = offset;
-            report['onPress'] = verify;
-            yankee = _closure1_slot0;
-            romeon = _closure1_slot2;
-            option = 5;
-            verify = romeon[option];
-            verify = yankee.bind(tangon)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = romeon[option];
-            option = yankee.bind(tangon)(option);
-            option = option.t;
-            if(golfie) { _fun00002_ip = 203; continue _fun00001 }
+            var10 = var11.bind(var4)(var10);
+            var5['source'] = var10;
+            var5['onPress'] = var9;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var8 = 5;
+            var9 = var12[var8];
+            var9 = var11.bind(var4)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var8 = var12[var8];
+            var8 = var11.bind(var4)(var8);
+            var8 = var8.t;
+            if(var7) { _fun0001_ip = 203; continue _fun0001 }
  190:
-            golfie = option.cpT0Cg;
-            golfie = verify.bind(offset)(golfie);
-            _fun00002_ip = 214; continue _fun00001;
+            var7 = var8.cpT0Cg;
+            var7 = var9.bind(var10)(var7);
+            _fun0001_ip = 214; continue _fun0001;
  203:
-            option = option.13/7kZ;
-            golfie = verify.bind(offset)(option);
+            var8 = var8.13/7kZ;
+            var7 = var9.bind(var10)(var8);
  214:
-            report['accessibilityLabel'] = golfie;
-            report = zuuluu.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5['accessibilityLabel'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

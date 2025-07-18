@@ -1,146 +1,146 @@
 // app/modules/panels/morphable/native/SafeAreaDisabledStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(tangon);
-    tangon = golfie.create;
-    michal = function(argFoo, argBar) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        entity = argBar;
-        var _closure2_slot1 = entity;
-        entity = {};
-        zuuluu = global;
-        zuuluu = zuuluu.Set;
-        tangon = zuuluu.prototype;
-        tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-        report = tangon;
-        zuuluu = new report[zuuluu](tangon);
-        zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-        entity['lockKeys'] = zuuluu;
-        zuuluu = function() { // Original name: shouldDisableSafeAreas
-            michal = _closure2_slot1;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            entity = entity.lockKeys;
-            michal = entity.size;
-            entity = 0;
-            entity = michal > entity;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var4);
+    var4 = var7.create;
+    var2 = function(arg1, arg2) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
+        var1 = {};
+        var3 = global;
+        var3 = var3.Set;
+        var4 = var3.prototype;
+        var4 = Object.create(var4, {constructor: {value: var3}});
+        var5 = var4;
+        var3 = new var5[var3](var4);
+        var3 = var3 instanceof Object ? var3 : var4;
+        var1['lockKeys'] = var3;
+        var3 = function shouldDisableSafeAreas() {
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            var1 = var1.lockKeys;
+            var2 = var1.size;
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
         };
-        entity['shouldDisableSafeAreas'] = zuuluu;
-        michal = function(argFoo) { // Original name: requestSafeAreaDisableLock
-            entity = argFoo;
-            zuuluu = entity.key;
-            var _closure3_slot0 = zuuluu;
-            entity = entity.lockEnabled;
-            var _closure3_slot1 = entity;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure2_slot0;
-                entity = undefined;
-                michal = function(argFoo) {
-                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['shouldDisableSafeAreas'] = var3;
+        var2 = function requestSafeAreaDisableLock(arg1) {
+            var1 = arg1;
+            var3 = var1.key;
+            var _closure3_slot0 = var3;
+            var1 = var1.lockEnabled;
+            var _closure3_slot1 = var1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure2_slot0;
+                var1 = undefined;
+                var2 = function(arg1) {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                        tangon = argFoo;
-                        entity = _closure3_slot1;
-                        oscard = tangon.lockKeys;
-                        report = oscard.has;
-                        michal = _closure3_slot0;
-                        michal = report.bind(oscard)(michal);
-                        if(entity) { _fun00002_ip = 106; continue _fun00001 }
+                        var4 = arg1;
+                        var1 = _closure3_slot1;
+                        var6 = var4.lockKeys;
+                        var5 = var6.has;
+                        var2 = _closure3_slot0;
+                        var2 = var5.bind(var6)(var2);
+                        if(var1) { _fun0001_ip = 106; continue _fun0001 }
  33:
-                        if(michal) { _fun00002_ip = 38; continue _fun00001 }
+                        if(var2) { _fun0001_ip = 38; continue _fun0001 }
  36:
-                        return tangon;
+                        return var4;
  38:
-                        entity = global;
-                        entity = entity.Set;
-                        report = entity.prototype;
-                        report = Object.create(report, {constructor: {value: entity}});
-                        yankee = report;
-                        offset = oscard;
-                        entity = new yankee[entity](offset, verify);
-                        oscard = entity instanceof Object ? entity : report;
-                        report = oscard.delete;
-                        entity = _closure3_slot0;
-                        entity = report.bind(oscard)(entity);
-                        entity = {};
-                        offset = entity;
-                        verify = tangon;
-                        report = copyDataProperties(offset, verify);
-                        report = 'lockKeys';
-                        entity[report] = oscard;
-                        return entity;
+                        var1 = global;
+                        var1 = var1.Set;
+                        var5 = var1.prototype;
+                        var5 = Object.create(var5, {constructor: {value: var1}});
+                        var11 = var5;
+                        var10 = var6;
+                        var1 = new var11[var1](var10, var9);
+                        var6 = var1 instanceof Object ? var1 : var5;
+                        var5 = var6.delete;
+                        var1 = _closure3_slot0;
+                        var1 = var5.bind(var6)(var1);
+                        var1 = {};
+                        var10 = var1;
+                        var9 = var4;
+                        var5 = copyDataProperties(var10, var9);
+                        var5 = 'lockKeys';
+                        var1[var5] = var6;
+                        return var1;
  106:
-                        entity = tangon;
-                        if(michal) { _fun00002_ip = 211; continue _fun00001 }
+                        var1 = var4;
+                        if(var2) { _fun0001_ip = 211; continue _fun0001 }
  112:
-                        michal = {};
-                        offset = michal;
-                        verify = tangon;
-                        report = copyDataProperties(offset, verify);
-                        oscard = global;
-                        report = oscard.Set;
-                        golfie = _closure3_slot0;
-                        zuuluu = new Array(1);
-                        zuuluu[0] = golfie;
-                        golfie = oscard.Array;
-                        oscard = golfie.from;
-                        tangon = tangon.lockKeys;
-                        verify = oscard.bind(golfie)(tangon);
-                        option = 1;
-                        offset = zuuluu;
-                        tangon = arraySpread(offset, verify, option);
-                        tangon = report.prototype;
-                        tangon = Object.create(tangon, {constructor: {value: report}});
-                        yankee = tangon;
-                        offset = zuuluu;
-                        zuuluu = new yankee[report](offset, verify);
-                        tangon = zuuluu instanceof Object ? zuuluu : tangon;
-                        zuuluu = 'lockKeys';
-                        michal[zuuluu] = tangon;
-                        entity = michal;
+                        var2 = {};
+                        var10 = var2;
+                        var9 = var4;
+                        var5 = copyDataProperties(var10, var9);
+                        var6 = global;
+                        var5 = var6.Set;
+                        var7 = _closure3_slot0;
+                        var3 = new Array(1);
+                        var3[0] = var7;
+                        var7 = var6.Array;
+                        var6 = var7.from;
+                        var4 = var4.lockKeys;
+                        var9 = var6.bind(var7)(var4);
+                        var8 = 1;
+                        var10 = var3;
+                        var4 = arraySpread(var10, var9, var8);
+                        var4 = var5.prototype;
+                        var4 = Object.create(var4, {constructor: {value: var5}});
+                        var11 = var4;
+                        var10 = var3;
+                        var3 = new var11[var5](var10, var9);
+                        var4 = var3 instanceof Object ? var3 : var4;
+                        var3 = 'lockKeys';
+                        var2[var3] = var4;
+                        var1 = var2;
  211:
-                        return entity;
+                        return var1;
                     }
                 };
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        entity['requestSafeAreaDisableLock'] = michal;
-        return entity;
+        var1['requestSafeAreaDisableLock'] = var2;
+        return var1;
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/panels/morphable/native/SafeAreaDisabledStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/panels/morphable/native/SafeAreaDisabledStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

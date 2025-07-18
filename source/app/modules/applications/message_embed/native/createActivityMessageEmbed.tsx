@@ -1,124 +1,124 @@
 // app/modules/applications/message_embed/native/createActivityMessageEmbed.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/native/createActivityMessageEmbed.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: createActivityMessageEmbed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/message_embed/native/createActivityMessageEmbed.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function createActivityMessageEmbed(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.theme;
-            golfie = entity.appId;
-            option = entity.embedUrl;
-            oscard = entity.message;
-            michal = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 1;
-            entity = tangon[entity];
-            tangon = undefined;
-            report = michal.bind(tangon)(entity);
-            michal = report.createAppMessageEmbed;
-            entity = {};
-            entity['theme'] = verify;
-            entity['appId'] = golfie;
-            entity['embedUrl'] = option;
-            entity['message'] = oscard;
-            michal = michal.bind(report)(entity);
-            entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 322; continue _fun00001 }
+            var1 = arg1;
+            var9 = var1.theme;
+            var7 = var1.appId;
+            var8 = var1.embedUrl;
+            var6 = var1.message;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 1;
+            var1 = var4[var1];
+            var4 = undefined;
+            var5 = var2.bind(var4)(var1);
+            var2 = var5.createAppMessageEmbed;
+            var1 = {};
+            var1['theme'] = var9;
+            var1['appId'] = var7;
+            var1['embedUrl'] = var8;
+            var1['message'] = var6;
+            var2 = var2.bind(var5)(var1);
+            var1 = null;
+            if(!(var1 != var2)) { _fun0001_ip = 322; continue _fun0001 }
  90:
-            oscard = _closure1_slot0;
-            verify = _closure1_slot1;
-            report = 2;
-            report = verify[report];
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.extractActivityBookmarkParams;
-            report = report.bind(oscard)(option);
-            option = report.linkId;
-            if(!(entity != option)) { _fun00002_ip = 320; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var5 = 2;
+            var5 = var9[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.extractActivityBookmarkParams;
+            var5 = var5.bind(var6)(var8);
+            var8 = var5.linkId;
+            if(!(var1 != var8)) { _fun0001_ip = 320; continue _fun0001 }
  134:
-            oscard = _closure1_slot0;
-            verify = _closure1_slot1;
-            report = 3;
-            report = verify[report];
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.getOrFetchCustomActivityLink;
-            report = report.bind(oscard)(golfie, option);
-            if(!(entity != report)) { _fun00002_ip = 318; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var5 = 3;
+            var5 = var9[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.getOrFetchCustomActivityLink;
+            var5 = var5.bind(var6)(var7, var8);
+            if(!(var1 != var5)) { _fun0001_ip = 318; continue _fun0001 }
  173:
-            oscard = _closure1_slot2;
-            zuuluu = oscard.getApplication;
-            oscard = zuuluu.bind(oscard)(golfie);
-            zuuluu = {};
-            yankee = zuuluu;
-            offset = michal;
-            golfie = copyDataProperties(yankee, offset);
-            golfie = entity == oscard;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 214; continue _fun00001 }
+            var6 = _closure1_slot2;
+            var3 = var6.getApplication;
+            var6 = var3.bind(var6)(var7);
+            var3 = {};
+            var11 = var3;
+            var10 = var2;
+            var7 = copyDataProperties(var11, var10);
+            var7 = var1 == var6;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 214; continue _fun0001 }
  209:
-            tangon = oscard.name;
+            var4 = var6.name;
  214:
-            golfie = entity != tangon;
-            oscard = null;
-            if(!golfie) { _fun00002_ip = 226; continue _fun00001 }
+            var7 = var1 != var4;
+            var6 = null;
+            if(!var7) { _fun0001_ip = 226; continue _fun0001 }
  223:
-            oscard = tangon;
+            var6 = var4;
  226:
-            tangon = 'title';
-            zuuluu[tangon] = oscard;
-            oscard = report.title;
-            tangon = 'header';
-            zuuluu[tangon] = oscard;
-            oscard = report.description;
-            tangon = 'info';
-            zuuluu[tangon] = oscard;
-            oscard = 'bot';
-            tangon = 'bannerRatio';
-            zuuluu[tangon] = oscard;
-            tangon = report.getAssetURL;
-            tangon = tangon.bind(report)();
-            oscard = entity != tangon;
-            report = null;
-            if(!oscard) { _fun00002_ip = 298; continue _fun00001 }
+            var4 = 'title';
+            var3[var4] = var6;
+            var6 = var5.title;
+            var4 = 'header';
+            var3[var4] = var6;
+            var6 = var5.description;
+            var4 = 'info';
+            var3[var4] = var6;
+            var6 = 'bot';
+            var4 = 'bannerRatio';
+            var3[var4] = var6;
+            var4 = var5.getAssetURL;
+            var4 = var4.bind(var5)();
+            var6 = var1 != var4;
+            var5 = null;
+            if(!var6) { _fun0001_ip = 298; continue _fun0001 }
  295:
-            report = tangon;
+            var5 = var4;
  298:
-            tangon = 'staticBannerSrc';
-            zuuluu[tangon] = report;
-            tangon = 'tagline';
-            zuuluu[tangon] = entity;
-            return zuuluu;
+            var4 = 'staticBannerSrc';
+            var3[var4] = var5;
+            var4 = 'tagline';
+            var3[var4] = var1;
+            return var3;
  318:
-            return entity;
+            return var1;
  320:
-            return michal;
+            return var2;
  322:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['createActivityMessageEmbed'] = michal;
-    return entity;
+    var3['createActivityMessageEmbed'] = var2;
+    return var1;
 })();

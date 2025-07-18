@@ -1,187 +1,187 @@
 // app/modules/forums/ForumPlatformHooks.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    golfie = oscard[entity];
-    michal = argCor;
-    entity = undefined;
-    michal = michal.bind(entity)(golfie);
-    var _closure1_slot3 = michal;
-    michal = {};
-    tangon = function(argFoo) { // Original name: useForumChannelSeenManager
-        entity = argFoo;
-        golfie = entity.guildId;
-        var _closure2_slot0 = golfie;
-        option = entity.channelId;
-        var _closure2_slot1 = option;
-        report = _closure1_slot3;
-        zuuluu = report.useRef;
-        entity = null;
-        entity = zuuluu.bind(report)(entity);
-        var _closure2_slot2 = entity;
-        oscard = report.useCallback;
-        tangon = new Array(1);
-        tangon[0] = option;
-        zuuluu = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var7 = var6[var1];
+    var2 = native4;
+    var1 = undefined;
+    var2 = var2.bind(var1)(var7);
+    var _closure1_slot3 = var2;
+    var2 = {};
+    var4 = function useForumChannelSeenManager(arg1) {
+        var1 = arg1;
+        var7 = var1.guildId;
+        var _closure2_slot0 = var7;
+        var8 = var1.channelId;
+        var _closure2_slot1 = var8;
+        var5 = _closure1_slot3;
+        var3 = var5.useRef;
+        var1 = null;
+        var1 = var3.bind(var5)(var1);
+        var _closure2_slot2 = var1;
+        var6 = var5.useCallback;
+        var4 = new Array(1);
+        var4[0] = var8;
+        var3 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 1;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(michal);
-                michal = tangon.getRootNavigationRef;
-                report = michal.bind(tangon)();
-                michal = null;
-                if(!(michal != report)) { _fun00002_ip = 151; continue _fun00001 }
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 1;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.getRootNavigationRef;
+                var5 = var2.bind(var4)();
+                var2 = null;
+                if(!(var2 != var5)) { _fun0001_ip = 151; continue _fun0001 }
  41:
-                tangon = report.isReady;
-                tangon = tangon.bind(report)();
-                if(!tangon) { _fun00002_ip = 151; continue _fun00001 }
+                var4 = var5.isReady;
+                var4 = var4.bind(var5)();
+                if(!var4) { _fun0001_ip = 151; continue _fun0001 }
  54:
-                tangon = report.getCurrentRoute;
-                report = tangon.bind(report)();
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 2;
-                zuuluu = oscard[zuuluu];
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.coerceChannelRoute;
-                zuuluu = zuuluu.bind(tangon)(report);
-                tangon = michal != zuuluu;
-                if(!tangon) { _fun00002_ip = 124; continue _fun00001 }
+                var4 = var5.getCurrentRoute;
+                var5 = var4.bind(var5)();
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 2;
+                var3 = var6[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.coerceChannelRoute;
+                var3 = var3.bind(var4)(var5);
+                var4 = var2 != var3;
+                if(!var4) { _fun0001_ip = 124; continue _fun0001 }
  102:
-                zuuluu = zuuluu.params;
-                report = zuuluu.channelId;
-                zuuluu = _closure2_slot1;
-                tangon = report === zuuluu;
+                var3 = var3.params;
+                var5 = var3.channelId;
+                var3 = _closure2_slot1;
+                var4 = var5 === var3;
  124:
-                zuuluu = _closure2_slot2;
-                zuuluu = zuuluu.current;
-                if(!(michal != zuuluu)) { _fun00002_ip = 151; continue _fun00001 }
+                var3 = _closure2_slot2;
+                var3 = var3.current;
+                if(!(var2 != var3)) { _fun0001_ip = 151; continue _fun0001 }
  140:
-                michal = zuuluu.handleReactNavigationFocus;
-                michal = michal.bind(zuuluu)(tangon);
+                var2 = var3.handleReactNavigationFocus;
+                var2 = var2.bind(var3)(var4);
  151:
-                return entity;
+                return var1;
             }
         };
-        oscard = oscard.bind(report)(zuuluu, tangon);
-        var _closure2_slot3 = oscard;
-        tangon = report.useEffect;
-        zuuluu = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var6 = var6.bind(var5)(var3, var4);
+        var _closure2_slot3 = var6;
+        var4 = var5.useEffect;
+        var3 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 1;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
-                zuuluu = tangon.getRootNavigationRef;
-                report = zuuluu.bind(tangon)();
-                var _closure3_slot0 = report;
-                zuuluu = null;
-                if(!(zuuluu != report)) { _fun00004_ip = 60; continue _fun00003 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 1;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.getRootNavigationRef;
+                var5 = var3.bind(var4)();
+                var _closure3_slot0 = var5;
+                var3 = null;
+                if(!(var3 != var5)) { _fun0002_ip = 60; continue _fun0002 }
  47:
-                zuuluu = report.isReady;
-                zuuluu = zuuluu.bind(report)();
-                if(zuuluu) { _fun00004_ip = 62; continue _fun00003 }
+                var3 = var5.isReady;
+                var3 = var3.bind(var5)();
+                if(var3) { _fun0002_ip = 62; continue _fun0002 }
  60:
-                return michal;
+                return var2;
  62:
-                tangon = report.addListener;
-                zuuluu = _closure2_slot3;
-                michal = 'state';
-                michal = tangon.bind(report)(michal, zuuluu);
-                entity = function() {
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.removeListener;
-                    michal = _closure2_slot3;
-                    entity = 'state';
-                    entity = zuuluu.bind(tangon)(entity, michal);
-                    entity = undefined;
-                    return entity;
+                var4 = var5.addListener;
+                var3 = _closure2_slot3;
+                var2 = 'state';
+                var2 = var4.bind(var5)(var2, var3);
+                var1 = function() {
+                    var4 = _closure3_slot0;
+                    var3 = var4.removeListener;
+                    var2 = _closure2_slot3;
+                    var1 = 'state';
+                    var1 = var3.bind(var4)(var1, var2);
+                    var1 = undefined;
+                    return var1;
                 };
-                return entity;
+                return var1;
             }
         };
-        zuuluu = tangon.bind(report)(zuuluu);
-        tangon = report.useLayoutEffect;
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = golfie;
-        zuuluu[2] = oscard;
-        michal = function() {
-            zuuluu = _closure2_slot2;
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 3;
-            tangon = tangon[michal];
-            michal = undefined;
-            oscard = report.bind(michal)(tangon);
-            tangon = {};
-            report = _closure2_slot0;
-            tangon['guildId'] = report;
-            report = _closure2_slot1;
-            tangon['channelId'] = report;
-            report = oscard.prototype;
-            report = Object.create(report, {constructor: {value: oscard}});
-            option = report;
-            golfie = tangon;
-            tangon = new option[oscard](golfie, oscard);
-            tangon = tangon instanceof Object ? tangon : report;
-            zuuluu['current'] = tangon;
-            tangon = zuuluu.current;
-            zuuluu = tangon.initialize;
-            zuuluu = zuuluu.bind(tangon)();
-            entity = _closure2_slot3;
-            entity = entity.bind(michal)();
-            entity = function() {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3 = var4.bind(var5)(var3);
+        var4 = var5.useLayoutEffect;
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var7;
+        var3[2] = var6;
+        var2 = function() {
+            var3 = _closure2_slot2;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 3;
+            var4 = var4[var2];
+            var2 = undefined;
+            var6 = var5.bind(var2)(var4);
+            var4 = {};
+            var5 = _closure2_slot0;
+            var4['guildId'] = var5;
+            var5 = _closure2_slot1;
+            var4['channelId'] = var5;
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var8 = var5;
+            var7 = var4;
+            var4 = new var8[var6](var7, var6);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3['current'] = var4;
+            var4 = var3.current;
+            var3 = var4.initialize;
+            var3 = var3.bind(var4)();
+            var1 = _closure2_slot3;
+            var1 = var1.bind(var2)();
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure2_slot2;
-                    tangon = michal.current;
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00006_ip = 28; continue _fun00005 }
+                    var2 = _closure2_slot2;
+                    var4 = var2.current;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0003_ip = 28; continue _fun0003 }
  18:
-                    zuuluu = tangon.terminate;
-                    zuuluu = zuuluu.bind(tangon)();
+                    var3 = var4.terminate;
+                    var3 = var3.bind(var4)();
  28:
-                    entity = _closure2_slot2;
-                    entity['current'] = michal;
-                    entity = undefined;
-                    return entity;
+                    var1 = _closure2_slot2;
+                    var1['current'] = var2;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity = entity.current;
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        var1 = var1.current;
+        return var1;
     };
-    michal['useForumChannelSeenManager'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forums/ForumPlatformHooks.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['useForumChannelSeenManager'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forums/ForumPlatformHooks.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

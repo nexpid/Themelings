@@ -1,307 +1,307 @@
 // app/modules/activities/utils/getEmbeddedActivityLaunchability.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    oscard = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    tangon = function(argFoo) { // Original name: getEmbeddedActivityLaunchability
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var6 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var4 = function getEmbeddedActivityLaunchability(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.channelId;
-            michal = entity.ChannelStore;
-            offset = entity.GuildStore;
-            option = entity.PermissionStore;
-            golfie = entity.VoiceStateStore;
-            entity = michal.getChannel;
-            oscard = entity.bind(michal)(tangon);
-            report = null;
-            if(!(report != oscard)) { _fun00002_ip = 357; continue _fun00001 }
+            var1 = arg1;
+            var4 = var1.channelId;
+            var2 = var1.ChannelStore;
+            var10 = var1.GuildStore;
+            var8 = var1.PermissionStore;
+            var7 = var1.VoiceStateStore;
+            var1 = var2.getChannel;
+            var6 = var1.bind(var2)(var4);
+            var5 = null;
+            if(!(var5 != var6)) { _fun0001_ip = 357; continue _fun0001 }
  51:
-            verify = _closure1_slot6;
-            zuuluu = verify.includes;
-            michal = oscard.type;
-            michal = zuuluu.bind(verify)(michal);
-            if(michal) { _fun00002_ip = 88; continue _fun00001 }
+            var9 = _closure1_slot6;
+            var3 = var9.includes;
+            var2 = var6.type;
+            var2 = var3.bind(var9)(var2);
+            if(var2) { _fun0001_ip = 88; continue _fun0001 }
  76:
-            michal = _closure1_slot8;
-            michal = michal.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL;
-            return michal;
+            var2 = _closure1_slot8;
+            var2 = var2.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL;
+            return var2;
  88:
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 6;
-            michal = zuuluu[michal];
-            zuuluu = undefined;
-            verify = verify.bind(zuuluu)(michal);
-            michal = verify.getIsActivitiesEnabledForCurrentPlatform;
-            michal = michal.bind(verify)();
-            if(michal) { _fun00002_ip = 135; continue _fun00001 }
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 6;
+            var2 = var3[var2];
+            var3 = undefined;
+            var9 = var9.bind(var3)(var2);
+            var2 = var9.getIsActivitiesEnabledForCurrentPlatform;
+            var2 = var2.bind(var9)();
+            if(var2) { _fun0001_ip = 135; continue _fun0001 }
  123:
-            michal = _closure1_slot8;
-            michal = michal.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
-            return michal;
+            var2 = _closure1_slot8;
+            var2 = var2.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
+            return var2;
  135:
-            if(!(report != oscard)) { _fun00002_ip = 345; continue _fun00001 }
+            if(!(var5 != var6)) { _fun0001_ip = 345; continue _fun0001 }
  142:
-            michal = oscard.isPrivate;
-            michal = michal.bind(oscard)();
-            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+            var2 = var6.isPrivate;
+            var2 = var2.bind(var6)();
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  158:
-            michal = oscard.getGuildId;
-            verify = michal.bind(oscard)();
-            if(!(report != verify)) { _fun00002_ip = 333; continue _fun00001 }
+            var2 = var6.getGuildId;
+            var9 = var2.bind(var6)();
+            if(!(var5 != var9)) { _fun0001_ip = 333; continue _fun0001 }
  175:
-            michal = offset.getGuild;
-            michal = michal.bind(offset)(verify);
-            report = report == michal;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 200; continue _fun00001 }
+            var2 = var10.getGuild;
+            var2 = var2.bind(var10)(var9);
+            var5 = var5 == var2;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 200; continue _fun0001 }
  194:
-            zuuluu = michal.afkChannelId;
+            var3 = var2.afkChannelId;
  200:
-            michal = oscard.id;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 321; continue _fun00001 }
+            var2 = var6.id;
+            if(!(var3 !== var2)) { _fun0001_ip = 321; continue _fun0001 }
  209:
-            zuuluu = option.can;
-            michal = _closure1_slot7;
-            michal = michal.CONNECT;
-            michal = zuuluu.bind(option)(michal, oscard);
-            report = option.can;
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.USE_EMBEDDED_ACTIVITIES;
-            zuuluu = report.bind(option)(zuuluu, oscard);
-            if(zuuluu) { _fun00002_ip = 268; continue _fun00001 }
+            var3 = var8.can;
+            var2 = _closure1_slot7;
+            var2 = var2.CONNECT;
+            var2 = var3.bind(var8)(var2, var6);
+            var5 = var8.can;
+            var3 = _closure1_slot7;
+            var3 = var3.USE_EMBEDDED_ACTIVITIES;
+            var3 = var5.bind(var8)(var3, var6);
+            if(var3) { _fun0001_ip = 268; continue _fun0001 }
  256:
-            zuuluu = _closure1_slot8;
-            zuuluu = zuuluu.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
-            return zuuluu;
+            var3 = _closure1_slot8;
+            var3 = var3.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
+            return var3;
  268:
-            report = golfie.getCurrentClientVoiceChannelId;
-            zuuluu = oscard.getGuildId;
-            zuuluu = zuuluu.bind(oscard)();
-            zuuluu = report.bind(golfie)(zuuluu);
-            report = oscard.isVocal;
-            report = report.bind(oscard)();
-            if(!report) { _fun00002_ip = 345; continue _fun00001 }
+            var5 = var7.getCurrentClientVoiceChannelId;
+            var3 = var6.getGuildId;
+            var3 = var3.bind(var6)();
+            var3 = var5.bind(var7)(var3);
+            var5 = var6.isVocal;
+            var5 = var5.bind(var6)();
+            if(!var5) { _fun0001_ip = 345; continue _fun0001 }
  302:
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 345; continue _fun00001 }
+            if(!(var3 !== var4)) { _fun0001_ip = 345; continue _fun0001 }
  306:
-            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  309:
-            michal = _closure1_slot8;
-            michal = michal.NO_CHANNEL_CONNECT_PERMISSION;
-            return michal;
+            var2 = _closure1_slot8;
+            var2 = var2.NO_CHANNEL_CONNECT_PERMISSION;
+            return var2;
  321:
-            michal = _closure1_slot8;
-            michal = michal.IS_AFK_CHANNEL;
-            return michal;
+            var2 = _closure1_slot8;
+            var2 = var2.IS_AFK_CHANNEL;
+            return var2;
  333:
-            michal = _closure1_slot8;
-            michal = michal.NO_GUILD;
-            return michal;
+            var2 = _closure1_slot8;
+            var2 = var2.NO_GUILD;
+            return var2;
  345:
-            entity = _closure1_slot8;
-            entity = entity.CAN_LAUNCH;
-            return entity;
+            var1 = _closure1_slot8;
+            var1 = var1.CAN_LAUNCH;
+            return var1;
  357:
-            entity = _closure1_slot8;
-            entity = entity.NO_CHANNEL;
-            return entity;
+            var1 = _closure1_slot8;
+            var1 = var1.NO_CHANNEL;
+            return var1;
         }
     };
-    var _closure1_slot9 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    backup = 0;
-    report = option[backup];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    var _closure1_slot2 = report;
-    foxtra = 1;
-    report = option[foxtra];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot3 = report;
-    romeon = 2;
-    report = option[romeon];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot4 = report;
-    yankee = 3;
-    report = option[yankee];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot5 = report;
-    offset = 4;
-    report = option[offset];
-    report = golfie.bind(entity)(report);
-    report = report.SUPPORTED_ACTIVITIES_CHANNEL_TYPES;
-    var _closure1_slot6 = report;
-    verify = 5;
-    report = option[verify];
-    report = golfie.bind(entity)(report);
-    report = report.Permissions;
-    var _closure1_slot7 = report;
-    report = {};
-    report['CAN_LAUNCH'] = backup;
-    oscard = 'CAN_LAUNCH';
-    report[backup] = oscard;
-    report['NO_USE_EMBEDDED_ACTIVITIES_PERMISSION'] = foxtra;
-    oscard = 'NO_USE_EMBEDDED_ACTIVITIES_PERMISSION';
-    report[foxtra] = oscard;
-    report['NO_CHANNEL_CONNECT_PERMISSION'] = romeon;
-    oscard = 'NO_CHANNEL_CONNECT_PERMISSION';
-    report[romeon] = oscard;
-    report['NO_CHANNEL'] = yankee;
-    oscard = 'NO_CHANNEL';
-    report[yankee] = oscard;
-    report['NO_GUILD'] = offset;
-    oscard = 'NO_GUILD';
-    report[offset] = oscard;
-    report['IS_AFK_CHANNEL'] = verify;
-    oscard = 'IS_AFK_CHANNEL';
-    report[verify] = oscard;
-    verify = 6;
-    report['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS'] = verify;
-    oscard = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS';
-    report[verify] = oscard;
-    verify = 7;
-    report['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL'] = verify;
-    oscard = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL';
-    report[verify] = oscard;
-    var _closure1_slot8 = report;
-    oscard = 9;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/activities/utils/getEmbeddedActivityLaunchability.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['EmbeddedActivityLaunchability'] = report;
-    zuuluu['getEmbeddedActivityLaunchability'] = tangon;
-    tangon = function(argFoo) { // Original name: getEmbeddedActivityLaunchabilityForChannel
-        zuuluu = _closure1_slot9;
-        michal = {};
-        tangon = argFoo;
-        michal['channelId'] = tangon;
-        tangon = _closure1_slot2;
-        michal['ChannelStore'] = tangon;
-        tangon = _closure1_slot3;
-        michal['GuildStore'] = tangon;
-        tangon = _closure1_slot4;
-        michal['PermissionStore'] = tangon;
-        entity = _closure1_slot5;
-        michal['VoiceStateStore'] = entity;
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
+    var _closure1_slot9 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var14 = 0;
+    var5 = var8[var14];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var13 = 1;
+    var5 = var8[var13];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var12 = 2;
+    var5 = var8[var12];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var11 = 3;
+    var5 = var8[var11];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var10 = 4;
+    var5 = var8[var10];
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.SUPPORTED_ACTIVITIES_CHANNEL_TYPES;
+    var _closure1_slot6 = var5;
+    var9 = 5;
+    var5 = var8[var9];
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.Permissions;
+    var _closure1_slot7 = var5;
+    var5 = {};
+    var5['CAN_LAUNCH'] = var14;
+    var6 = 'CAN_LAUNCH';
+    var5[var14] = var6;
+    var5['NO_USE_EMBEDDED_ACTIVITIES_PERMISSION'] = var13;
+    var6 = 'NO_USE_EMBEDDED_ACTIVITIES_PERMISSION';
+    var5[var13] = var6;
+    var5['NO_CHANNEL_CONNECT_PERMISSION'] = var12;
+    var6 = 'NO_CHANNEL_CONNECT_PERMISSION';
+    var5[var12] = var6;
+    var5['NO_CHANNEL'] = var11;
+    var6 = 'NO_CHANNEL';
+    var5[var11] = var6;
+    var5['NO_GUILD'] = var10;
+    var6 = 'NO_GUILD';
+    var5[var10] = var6;
+    var5['IS_AFK_CHANNEL'] = var9;
+    var6 = 'IS_AFK_CHANNEL';
+    var5[var9] = var6;
+    var9 = 6;
+    var5['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS'] = var9;
+    var6 = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS';
+    var5[var9] = var6;
+    var9 = 7;
+    var5['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL'] = var9;
+    var6 = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL';
+    var5[var9] = var6;
+    var _closure1_slot8 = var5;
+    var6 = 9;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/activities/utils/getEmbeddedActivityLaunchability.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['EmbeddedActivityLaunchability'] = var5;
+    var3['getEmbeddedActivityLaunchability'] = var4;
+    var4 = function getEmbeddedActivityLaunchabilityForChannel(arg1) {
+        var3 = _closure1_slot9;
+        var2 = {};
+        var4 = arg1;
+        var2['channelId'] = var4;
+        var4 = _closure1_slot2;
+        var2['ChannelStore'] = var4;
+        var4 = _closure1_slot3;
+        var2['GuildStore'] = var4;
+        var4 = _closure1_slot4;
+        var2['PermissionStore'] = var4;
+        var1 = _closure1_slot5;
+        var2['VoiceStateStore'] = var1;
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
-    zuuluu['getEmbeddedActivityLaunchabilityForChannel'] = tangon;
-    tangon = function(argFoo) { // Original name: useEmbeddedActivityLaunchability
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 7;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        golfie = _closure1_slot2;
-        zuuluu = new Array(4);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot3;
-        zuuluu[1] = golfie;
-        golfie = _closure1_slot4;
-        zuuluu[2] = golfie;
-        michal = _closure1_slot5;
-        zuuluu[3] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            zuuluu = _closure1_slot9;
-            michal = {};
-            tangon = _closure2_slot0;
-            michal['channelId'] = tangon;
-            tangon = _closure1_slot2;
-            michal['ChannelStore'] = tangon;
-            tangon = _closure1_slot3;
-            michal['GuildStore'] = tangon;
-            tangon = _closure1_slot4;
-            michal['PermissionStore'] = tangon;
-            entity = _closure1_slot5;
-            michal['VoiceStateStore'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var3['getEmbeddedActivityLaunchabilityForChannel'] = var4;
+    var4 = function useEmbeddedActivityLaunchability(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 7;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var7 = _closure1_slot2;
+        var3 = new Array(4);
+        var3[0] = var7;
+        var7 = _closure1_slot3;
+        var3[1] = var7;
+        var7 = _closure1_slot4;
+        var3[2] = var7;
+        var2 = _closure1_slot5;
+        var3[3] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var3 = _closure1_slot9;
+            var2 = {};
+            var4 = _closure2_slot0;
+            var2['channelId'] = var4;
+            var4 = _closure1_slot2;
+            var2['ChannelStore'] = var4;
+            var4 = _closure1_slot3;
+            var2['GuildStore'] = var4;
+            var4 = _closure1_slot4;
+            var2['PermissionStore'] = var4;
+            var1 = _closure1_slot5;
+            var2['VoiceStateStore'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useEmbeddedActivityLaunchability'] = tangon;
-    michal = function(argFoo) { // Original name: getEmbeddedActivityLaunchabilityLabel
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['useEmbeddedActivityLaunchability'] = var4;
+    var2 = function getEmbeddedActivityLaunchabilityLabel(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot8;
-            michal = michal.CAN_LAUNCH;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 155; continue _fun00003 }
+            var3 = arg1;
+            var2 = _closure1_slot8;
+            var2 = var2.CAN_LAUNCH;
+            if(!(var2 !== var3)) { _fun0002_ip = 155; continue _fun0002 }
  23:
-            michal = _closure1_slot8;
-            michal = michal.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 96; continue _fun00003 }
+            var2 = _closure1_slot8;
+            var2 = var2.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
+            if(!(var2 !== var3)) { _fun0002_ip = 96; continue _fun0002 }
  37:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 8;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.j29zCg;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 8;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.j29zCg;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  96:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 8;
-            zuuluu = golfie[michal];
-            report = undefined;
-            zuuluu = oscard.bind(report)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = oscard.bind(report)(michal);
-            michal = michal.t;
-            michal = michal.hHGrW1;
-            michal = zuuluu.bind(tangon)(michal);
-            return michal;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 8;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.hHGrW1;
+            var2 = var3.bind(var4)(var2);
+            return var2;
  155:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 8;
-            michal = oscard[entity];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = oscard[entity];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.qJvTKS;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 8;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.qJvTKS;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['getEmbeddedActivityLaunchabilityLabel'] = michal;
-    return entity;
+    var3['getEmbeddedActivityLaunchabilityLabel'] = var2;
+    return var1;
 })();

@@ -1,160 +1,160 @@
 // app/uikit-native/refresh/form/FormSwitch.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    yankee = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Switch;
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = -5;
-    verify['marginVertical'] = offset;
-    tangon['switch'] = verify;
-    verify = {};
-    offset = 4;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.REDESIGN_INPUT_CONTROL_SELECTED;
-    verify['color'] = offset;
-    tangon['track'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/refresh/form/FormSwitch.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: FormSwitch
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var11 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Switch;
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = -5;
+    var9['marginVertical'] = var10;
+    var4['switch'] = var9;
+    var9 = {};
+    var10 = 4;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.REDESIGN_INPUT_CONTROL_SELECTED;
+    var9['color'] = var10;
+    var4['track'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/refresh/form/FormSwitch.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function FormSwitch(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.value;
-            tangon = undefined;
-            option = tangon !== entity;
-            if(!option) { _fun00002_ip = 20; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.value;
+            var4 = undefined;
+            var8 = var4 !== var1;
+            if(!var8) { _fun0001_ip = 20; continue _fun0001 }
  17:
-            option = entity;
+            var8 = var1;
  20:
-            entity = michal.disabled;
-            verify = tangon !== entity;
-            if(!verify) { _fun00002_ip = 35; continue _fun00001 }
+            var1 = var2.disabled;
+            var9 = var4 !== var1;
+            if(!var9) { _fun0001_ip = 35; continue _fun0001 }
  32:
-            verify = entity;
+            var9 = var1;
  35:
-            yankee = michal.style;
-            foxtra = michal.borderColor;
-            golfie = michal.onValueChange;
-            romeon = michal.accessible;
-            oscard = michal.accessibilityLabel;
-            report = michal.accessibilityHint;
-            entity = michal.renderIosBackground;
-            backup = tangon !== entity;
-            if(!backup) { _fun00002_ip = 85; continue _fun00001 }
+            var11 = var2.style;
+            var13 = var2.borderColor;
+            var7 = var2.onValueChange;
+            var12 = var2.accessible;
+            var6 = var2.accessibilityLabel;
+            var5 = var2.accessibilityHint;
+            var1 = var2.renderIosBackground;
+            var14 = var4 !== var1;
+            if(!var14) { _fun0001_ip = 85; continue _fun0001 }
  82:
-            backup = entity;
+            var14 = var1;
  85:
-            zuuluu = _closure1_slot5;
-            offset = zuuluu.bind(tangon)();
-            kiloes = _closure1_slot1;
-            sizing = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = sizing[zuuluu];
-            zuuluu = kiloes.bind(tangon)(zuuluu);
-            sizing = zuuluu.bind(tangon)();
-            kiloes = michal.tintColor;
-            michal = null;
-            if(!(michal == kiloes)) { _fun00002_ip = 142; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var10 = var3.bind(var4)();
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var3 = 5;
+            var3 = var16[var3];
+            var3 = var15.bind(var4)(var3);
+            var16 = var3.bind(var4)();
+            var15 = var2.tintColor;
+            var2 = null;
+            if(!(var2 == var15)) { _fun0001_ip = 142; continue _fun0001 }
  132:
-            zuuluu = offset.track;
-            kiloes = zuuluu.color;
+            var3 = var10.track;
+            var15 = var3.color;
  142:
-            if(!(michal == foxtra)) { _fun00002_ip = 213; continue _fun00001 }
+            if(!(var2 == var13)) { _fun0001_ip = 213; continue _fun0001 }
  146:
-            zuuluu = _closure1_slot0;
-            output = _closure1_slot2;
-            michal = 6;
-            michal = output[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.isThemeDark;
-            michal = michal.bind(zuuluu)(sizing);
-            foxtra = undefined;
-            if(!michal) { _fun00002_ip = 213; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var2 = 6;
+            var2 = var17[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isThemeDark;
+            var2 = var2.bind(var3)(var16);
+            var13 = undefined;
+            if(!var2) { _fun0001_ip = 213; continue _fun0001 }
  182:
-            zuuluu = _closure1_slot1;
-            sizing = _closure1_slot2;
-            michal = 4;
-            michal = sizing[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.unsafe_rawColors;
-            foxtra = michal.PRIMARY_400;
+            var3 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var2 = 4;
+            var2 = var16[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.unsafe_rawColors;
+            var13 = var2.PRIMARY_400;
  213:
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot3;
-            entity = {};
-            entity['accessible'] = romeon;
-            romeon = {};
-            romeon['true'] = kiloes;
-            romeon['false'] = foxtra;
-            entity['trackColor'] = romeon;
-            kiloes = false;
-            romeon = undefined;
-            if(!(kiloes === option)) { _fun00002_ip = 261; continue _fun00001 }
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var1['accessible'] = var12;
+            var12 = {};
+            var12['true'] = var15;
+            var12['false'] = var13;
+            var1['trackColor'] = var12;
+            var15 = false;
+            var12 = undefined;
+            if(!(var15 === var8)) { _fun0001_ip = 261; continue _fun0001 }
  253:
-            romeon = undefined;
-            if(!backup) { _fun00002_ip = 261; continue _fun00001 }
+            var12 = undefined;
+            if(!var14) { _fun0001_ip = 261; continue _fun0001 }
  258:
-            romeon = foxtra;
+            var12 = var13;
  261:
-            entity['ios_backgroundColor'] = romeon;
-            entity['value'] = option;
-            entity['disabled'] = verify;
-            romeon = offset.switch;
-            offset = new Array(2);
-            offset[0] = romeon;
-            offset[1] = yankee;
-            entity['style'] = offset;
-            entity['onValueChange'] = golfie;
-            golfie = {};
-            golfie['disabled'] = verify;
-            golfie['selected'] = option;
-            entity['accessibilityState'] = golfie;
-            entity['accessibilityLabel'] = oscard;
-            entity['accessibilityHint'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['ios_backgroundColor'] = var12;
+            var1['value'] = var8;
+            var1['disabled'] = var9;
+            var12 = var10.switch;
+            var10 = new Array(2);
+            var10[0] = var12;
+            var10[1] = var11;
+            var1['style'] = var10;
+            var1['onValueChange'] = var7;
+            var7 = {};
+            var7['disabled'] = var9;
+            var7['selected'] = var8;
+            var1['accessibilityState'] = var7;
+            var1['accessibilityLabel'] = var6;
+            var1['accessibilityHint'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

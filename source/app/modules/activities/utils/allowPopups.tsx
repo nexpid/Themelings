@@ -1,77 +1,77 @@
 // app/modules/activities/utils/allowPopups.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.APPLICATIONS_WITH_ALLOWED_POPUPS;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/allowPopups.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: allowPopups
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.APPLICATIONS_WITH_ALLOWED_POPUPS;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/allowPopups.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function allowPopups(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = _closure1_slot0;
-            michal = tangon.has;
-            entity = zuuluu.id;
-            entity = michal.bind(tangon)(entity);
-            michal = !entity;
-            entity = !michal;
-            if(!michal) { _fun00002_ip = 119; continue _fun00001 }
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var2 = var4.has;
+            var1 = var3.id;
+            var1 = var2.bind(var4)(var1);
+            var2 = !var1;
+            var1 = !var2;
+            if(!var2) { _fun0001_ip = 119; continue _fun0001 }
  34:
-            michal = 'embeddedActivityConfig';
-            michal = michal in zuuluu;
-            if(michal) { _fun00002_ip = 87; continue _fun00001 }
+            var2 = 'embeddedActivityConfig';
+            var2 = var2 in var3;
+            if(var2) { _fun0001_ip = 87; continue _fun0001 }
  45:
-            michal = 'embedded_activity_config';
-            michal = michal in zuuluu;
-            if(!michal) { _fun00002_ip = 85; continue _fun00001 }
+            var2 = 'embedded_activity_config';
+            var2 = var2 in var3;
+            if(!var2) { _fun0001_ip = 85; continue _fun0001 }
  56:
-            tangon = zuuluu.embedded_activity_config;
-            report = null;
-            oscard = report == tangon;
-            report = undefined;
-            if(oscard) { _fun00002_ip = 79; continue _fun00001 }
+            var4 = var3.embedded_activity_config;
+            var5 = null;
+            var6 = var5 == var4;
+            var5 = undefined;
+            if(var6) { _fun0001_ip = 79; continue _fun0001 }
  73:
-            report = tangon.displays_advertisements;
+            var5 = var4.displays_advertisements;
  79:
-            tangon = true;
-            michal = tangon === report;
+            var4 = true;
+            var2 = var4 === var5;
  85:
-            _fun00002_ip = 116; continue _fun00001;
+            _fun0001_ip = 116; continue _fun0001;
  87:
-            zuuluu = zuuluu.embeddedActivityConfig;
-            tangon = null;
-            report = tangon == zuuluu;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 110; continue _fun00001 }
+            var3 = var3.embeddedActivityConfig;
+            var4 = null;
+            var5 = var4 == var3;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 110; continue _fun0001 }
  104:
-            tangon = zuuluu.displays_advertisements;
+            var4 = var3.displays_advertisements;
  110:
-            zuuluu = true;
-            michal = zuuluu === tangon;
+            var3 = true;
+            var2 = var3 === var4;
  116:
-            entity = michal;
+            var1 = var2;
  119:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['allowPopups'] = michal;
-    return entity;
+    var3['allowPopups'] = var2;
+    return var1;
 })();

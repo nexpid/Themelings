@@ -1,172 +1,172 @@
 // app/modules/go_live/utils/StreamKeyUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.StreamTypes;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/go_live/utils/StreamKeyUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: isStreamKey
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.StreamTypes;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/go_live/utils/StreamKeyUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isStreamKey(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
+            var5 = arg1;
+            var1 = null;
+            var1 = var1 != var5;
+            if(!var1) { _fun0001_ip = 63; continue _fun0001 }
  12:
-            tangon = report.startsWith;
-            michal = _closure1_slot1;
-            michal = michal.GUILD;
-            michal = tangon.bind(report)(michal);
-            if(michal) { _fun00002_ip = 60; continue _fun00001 }
+            var4 = var5.startsWith;
+            var2 = _closure1_slot1;
+            var2 = var2.GUILD;
+            var2 = var4.bind(var5)(var2);
+            if(var2) { _fun0001_ip = 60; continue _fun0001 }
  39:
-            tangon = report.startsWith;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.CALL;
-            michal = tangon.bind(report)(zuuluu);
+            var4 = var5.startsWith;
+            var3 = _closure1_slot1;
+            var3 = var3.CALL;
+            var2 = var4.bind(var5)(var3);
  60:
-            entity = michal;
+            var1 = var2;
  63:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isStreamKey'] = tangon;
-    tangon = function(argFoo) { // Original name: decodeStreamKey
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isStreamKey'] = var4;
+    var4 = function decodeStreamKey(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            michal = zuuluu.split;
-            entity = ':';
-            report = michal.bind(zuuluu)(entity);
-            michal = 0;
-            golfie = report[michal];
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.GUILD;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 157; continue _fun00003 }
+            var3 = arg1;
+            var2 = var3.split;
+            var1 = ':';
+            var5 = var2.bind(var3)(var1);
+            var2 = 0;
+            var7 = var5[var2];
+            var3 = _closure1_slot1;
+            var3 = var3.GUILD;
+            if(!(var3 !== var7)) { _fun0002_ip = 157; continue _fun0002 }
  40:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.CALL;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 106; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var3 = var3.CALL;
+            if(!(var3 !== var7)) { _fun0002_ip = 106; continue _fun0002 }
  54:
-            zuuluu = global;
-            oscard = zuuluu.Error;
-            zuuluu = zuuluu.HermesInternal;
-            tangon = zuuluu.concat;
-            zuuluu = 'Unknown stream type ';
-            verify = tangon.bind(zuuluu)(golfie);
-            tangon = oscard.prototype;
-            tangon = Object.create(tangon, {constructor: {value: oscard}});
-            offset = tangon;
-            zuuluu = new offset[oscard](verify, option);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            throw zuuluu;
+            var3 = global;
+            var6 = var3.Error;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = 'Unknown stream type ';
+            var9 = var4.bind(var3)(var7);
+            var4 = var6.prototype;
+            var4 = Object.create(var4, {constructor: {value: var6}});
+            var10 = var4;
+            var3 = new var10[var6](var9, var8);
+            var3 = var3 instanceof Object ? var3 : var4;
+            throw var3;
  106:
-            oscard = _closure1_slot0;
-            tangon = undefined;
-            zuuluu = 3;
-            oscard = oscard.bind(tangon)(report, zuuluu);
-            zuuluu = {};
-            tangon = oscard[michal];
-            zuuluu['streamType'] = tangon;
-            tangon = 1;
-            tangon = oscard[tangon];
-            zuuluu['channelId'] = tangon;
-            tangon = 2;
-            tangon = oscard[tangon];
-            zuuluu['ownerId'] = tangon;
-            return zuuluu;
+            var6 = _closure1_slot0;
+            var4 = undefined;
+            var3 = 3;
+            var6 = var6.bind(var4)(var5, var3);
+            var3 = {};
+            var4 = var6[var2];
+            var3['streamType'] = var4;
+            var4 = 1;
+            var4 = var6[var4];
+            var3['channelId'] = var4;
+            var4 = 2;
+            var4 = var6[var4];
+            var3['ownerId'] = var4;
+            return var3;
  157:
-            tangon = _closure1_slot0;
-            zuuluu = undefined;
-            entity = 4;
-            zuuluu = tangon.bind(zuuluu)(report, entity);
-            entity = {};
-            michal = zuuluu[michal];
-            entity['streamType'] = michal;
-            michal = 1;
-            michal = zuuluu[michal];
-            entity['guildId'] = michal;
-            michal = 2;
-            michal = zuuluu[michal];
-            entity['channelId'] = michal;
-            michal = 3;
-            michal = zuuluu[michal];
-            entity['ownerId'] = michal;
-            return entity;
+            var4 = _closure1_slot0;
+            var3 = undefined;
+            var1 = 4;
+            var3 = var4.bind(var3)(var5, var1);
+            var1 = {};
+            var2 = var3[var2];
+            var1['streamType'] = var2;
+            var2 = 1;
+            var2 = var3[var2];
+            var1['guildId'] = var2;
+            var2 = 2;
+            var2 = var3[var2];
+            var1['channelId'] = var2;
+            var2 = 3;
+            var2 = var3[var2];
+            var1['ownerId'] = var2;
+            return var1;
         }
     };
-    zuuluu['decodeStreamKey'] = tangon;
-    michal = function(argFoo) { // Original name: encodeStreamKey
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['decodeStreamKey'] = var4;
+    var2 = function encodeStreamKey(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            report = entity.streamType;
-            tangon = entity.guildId;
-            michal = entity.channelId;
-            entity = entity.ownerId;
-            oscard = _closure1_slot1;
-            oscard = oscard.GUILD;
-            if(!(oscard !== report)) { _fun00006_ip = 140; continue _fun00005 }
+            var1 = arg1;
+            var5 = var1.streamType;
+            var4 = var1.guildId;
+            var2 = var1.channelId;
+            var1 = var1.ownerId;
+            var6 = _closure1_slot1;
+            var6 = var6.GUILD;
+            if(!(var6 !== var5)) { _fun0003_ip = 140; continue _fun0003 }
  42:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.CALL;
-            if(!(zuuluu !== report)) { _fun00006_ip = 108; continue _fun00005 }
+            var3 = _closure1_slot1;
+            var3 = var3.CALL;
+            if(!(var3 !== var5)) { _fun0003_ip = 108; continue _fun0003 }
  56:
-            zuuluu = global;
-            golfie = zuuluu.Error;
-            zuuluu = zuuluu.HermesInternal;
-            oscard = zuuluu.concat;
-            zuuluu = 'Unknown stream type ';
-            option = oscard.bind(zuuluu)(report);
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            verify = oscard;
-            zuuluu = new verify[golfie](option, golfie);
-            zuuluu = zuuluu instanceof Object ? zuuluu : oscard;
-            throw zuuluu;
+            var3 = global;
+            var7 = var3.Error;
+            var3 = var3.HermesInternal;
+            var6 = var3.concat;
+            var3 = 'Unknown stream type ';
+            var8 = var6.bind(var3)(var5);
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var9 = var6;
+            var3 = new var9[var7](var8, var7);
+            var3 = var3 instanceof Object ? var3 : var6;
+            throw var3;
  108:
-            golfie = new Array(3);
-            golfie[0] = report;
-            golfie[1] = michal;
-            golfie[2] = entity;
-            oscard = golfie.join;
-            zuuluu = ':';
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            return zuuluu;
+            var7 = new Array(3);
+            var7[0] = var5;
+            var7[1] = var2;
+            var7[2] = var1;
+            var6 = var7.join;
+            var3 = ':';
+            var3 = var6.bind(var7)(var3);
+            return var3;
  140:
-            zuuluu = new Array(4);
-            zuuluu[0] = report;
-            zuuluu[1] = tangon;
-            zuuluu[2] = michal;
-            zuuluu[3] = entity;
-            michal = zuuluu.join;
-            entity = ':';
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var3 = new Array(4);
+            var3[0] = var5;
+            var3[1] = var4;
+            var3[2] = var2;
+            var3[3] = var1;
+            var2 = var3.join;
+            var1 = ':';
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['encodeStreamKey'] = michal;
-    return entity;
+    var3['encodeStreamKey'] = var2;
+    return var1;
 })();

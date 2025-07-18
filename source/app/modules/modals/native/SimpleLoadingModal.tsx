@@ -1,88 +1,88 @@
 // app/modules/modals/native/SimpleLoadingModal.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/modals/native/SimpleLoadingModal.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: showSimpleLoadingModal
-        golfie = argFoo;
-        option = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = option;
-        oscard = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 0;
-        report = zuuluu[entity];
-        entity = undefined;
-        oscard = oscard.bind(entity)(report);
-        report = oscard.pushLazy;
-        verify = _closure1_slot0;
-        tangon = 2;
-        tangon = zuuluu[tangon];
-        verify = verify.bind(entity)(tangon);
-        tangon = 1;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = verify.bind(entity)(tangon, zuuluu);
-        zuuluu = {};
-        foxtra = zuuluu;
-        romeon = option;
-        option = copyDataProperties(foxtra, romeon);
-        option = function() { // Original name: onDismissed
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/modals/native/SimpleLoadingModal.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function showSimpleLoadingModal(arg1, arg2) {
+        var7 = arg1;
+        var8 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var8;
+        var6 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 0;
+        var5 = var3[var1];
+        var1 = undefined;
+        var6 = var6.bind(var1)(var5);
+        var5 = var6.pushLazy;
+        var9 = _closure1_slot0;
+        var4 = 2;
+        var4 = var3[var4];
+        var9 = var9.bind(var1)(var4);
+        var4 = 1;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var9.bind(var1)(var4, var3);
+        var3 = {};
+        var13 = var3;
+        var12 = var8;
+        var8 = copyDataProperties(var13, var12);
+        var8 = function onDismissed() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 0;
-                michal = michal[entity];
-                entity = undefined;
-                report = zuuluu.bind(entity)(michal);
-                tangon = report.popWithKey;
-                zuuluu = _closure2_slot0;
-                zuuluu = tangon.bind(report)(zuuluu);
-                zuuluu = _closure2_slot1;
-                tangon = zuuluu.onDismissed;
-                zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00002_ip = 72; continue _fun00001 }
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 0;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.popWithKey;
+                var3 = _closure2_slot0;
+                var3 = var4.bind(var5)(var3);
+                var3 = _closure2_slot1;
+                var4 = var3.onDismissed;
+                var3 = null;
+                if(!(var3 != var4)) { _fun0001_ip = 72; continue _fun0001 }
  58:
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.onDismissed;
-                michal = michal.bind(zuuluu)();
+                var3 = _closure2_slot1;
+                var2 = var3.onDismissed;
+                var2 = var2.bind(var3)();
  72:
-                return entity;
+                return var1;
             }
         };
-        michal = 'onDismissed';
-        zuuluu[michal] = option;
-        michal = {};
-        option = 'none';
-        michal['animation'] = option;
-        backup = oscard;
-        foxtra = tangon;
-        romeon = zuuluu;
-        yankee = golfie;
-        offset = michal;
-        michal = backup[report](foxtra, romeon, yankee, offset, verify);
-        return entity;
+        var2 = 'onDismissed';
+        var3[var2] = var8;
+        var2 = {};
+        var8 = 'none';
+        var2['animation'] = var8;
+        var14 = var6;
+        var13 = var4;
+        var12 = var3;
+        var11 = var7;
+        var10 = var2;
+        var2 = var14[var5](var13, var12, var11, var10, var9);
+        return var1;
     };
-    zuuluu['showSimpleLoadingModal'] = michal;
-    return entity;
+    var3['showSimpleLoadingModal'] = var2;
+    return var1;
 })();

@@ -1,704 +1,704 @@
 // app/lib/VideoHealthManager.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VideoToggleState;
-    var _closure1_slot5 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function(argFoo, argBar, argBaz, argCor) { // Original name: VideoHealthManager
-            golfie = argFoo;
-            romeon = argCor;
-            report = this;
-            tangon = _closure1_slot3;
-            zuuluu = _closure2_slot0;
-            entity = undefined;
-            zuuluu = tangon.bind(entity)(report, zuuluu);
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 3;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            michal = tangon.prototype;
-            zuuluu = Object.create(michal, {constructor: {value: tangon}});
-            echoed = 'VideoHealthManager';
-            update = zuuluu;
-            michal = new update[tangon](echoed, result);
-            michal = michal instanceof Object ? michal : zuuluu;
-            report['logger'] = michal;
-            michal = false;
-            report['disabled'] = michal;
-            michal = {};
-            report['perUserFpsWindow'] = michal;
-            michal = {};
-            report['prevFramesCodec'] = michal;
-            michal = {};
-            report['prevTimestamp'] = michal;
-            michal = global;
-            zuuluu = michal.Set;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            update = tangon;
-            zuuluu = new update[zuuluu](echoed);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            report['streamDisabledUsers'] = zuuluu;
-            zuuluu = {};
-            report['retryBackoffCache'] = zuuluu;
-            zuuluu = {};
-            report['timeoutIdCache'] = zuuluu;
-            zuuluu = {};
-            report['currentVideoAutoToggleState'] = zuuluu;
-            zuuluu = new Array(0);
-            report['enableQueue'] = zuuluu;
-            report['windowLength'] = golfie;
-            zuuluu = argBaz;
-            report['fpsThreshold'] = zuuluu;
-            oscard = michal.Math;
-            tangon = oscard.ceil;
-            zuuluu = argBar;
-            zuuluu = golfie * zuuluu;
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            report['fpsWindowBorderlineCount'] = zuuluu;
-            report['backoffTimeSec'] = romeon;
-            tangon = report.logger;
-            zuuluu = tangon.info;
-            echoed = report.windowLength;
-            output = report.fpsWindowBorderlineCount;
-            kiloes = report.fpsThreshold;
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            update = 'constructor with windowLength = ';
-            result = ',\n      fpsWindowBorderlineCount = ';
-            sizing = ',\n      fpsThreshold = ';
-            backup = ',\n      backoffTimeSec = ';
-            foxtra = romeon;
-            michal = update[option](echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VideoToggleState;
+    var _closure1_slot5 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function VideoHealthManager(arg1, arg2, arg3, arg4) {
+            var7 = arg1;
+            var12 = arg4;
+            var5 = this;
+            var4 = _closure1_slot3;
+            var3 = _closure2_slot0;
+            var1 = undefined;
+            var3 = var4.bind(var1)(var5, var3);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 3;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var2 = var4.prototype;
+            var3 = Object.create(var2, {constructor: {value: var4}});
+            var19 = 'VideoHealthManager';
+            var20 = var3;
+            var2 = new var20[var4](var19, var18);
+            var2 = var2 instanceof Object ? var2 : var3;
+            var5['logger'] = var2;
+            var2 = false;
+            var5['disabled'] = var2;
+            var2 = {};
+            var5['perUserFpsWindow'] = var2;
+            var2 = {};
+            var5['prevFramesCodec'] = var2;
+            var2 = {};
+            var5['prevTimestamp'] = var2;
+            var2 = global;
+            var3 = var2.Set;
+            var4 = var3.prototype;
+            var4 = Object.create(var4, {constructor: {value: var3}});
+            var20 = var4;
+            var3 = new var20[var3](var19);
+            var3 = var3 instanceof Object ? var3 : var4;
+            var5['streamDisabledUsers'] = var3;
+            var3 = {};
+            var5['retryBackoffCache'] = var3;
+            var3 = {};
+            var5['timeoutIdCache'] = var3;
+            var3 = {};
+            var5['currentVideoAutoToggleState'] = var3;
+            var3 = new Array(0);
+            var5['enableQueue'] = var3;
+            var5['windowLength'] = var7;
+            var3 = arg3;
+            var5['fpsThreshold'] = var3;
+            var6 = var2.Math;
+            var4 = var6.ceil;
+            var3 = arg2;
+            var3 = var7 * var3;
+            var3 = var4.bind(var6)(var3);
+            var5['fpsWindowBorderlineCount'] = var3;
+            var5['backoffTimeSec'] = var12;
+            var4 = var5.logger;
+            var3 = var4.info;
+            var19 = var5.windowLength;
+            var17 = var5.fpsWindowBorderlineCount;
+            var15 = var5.fpsThreshold;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var20 = 'constructor with windowLength = ';
+            var18 = ',\n      fpsWindowBorderlineCount = ';
+            var16 = ',\n      fpsThreshold = ';
+            var14 = ',\n      backoffTimeSec = ';
+            var13 = var12;
+            var2 = var20[var8](var19, var18, var17, var16, var15, var14, var13, var12);
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'calculateFps';
-        entity['key'] = michal;
-        michal = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'calculateFps';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2, arg3) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = argFoo;
-                report = argBar;
-                tangon = argBaz;
-                entity = this;
-                michal = entity.prevFramesCodec;
-                oscard = michal[zuuluu];
-                michal = -1;
-                if(!(michal !== oscard)) { _fun00002_ip = 199; continue _fun00001 }
+                var3 = arg1;
+                var5 = arg2;
+                var4 = arg3;
+                var1 = this;
+                var2 = var1.prevFramesCodec;
+                var6 = var2[var3];
+                var2 = -1;
+                if(!(var2 !== var6)) { _fun0001_ip = 199; continue _fun0001 }
  35:
-                michal = entity.prevFramesCodec;
-                michal = michal[zuuluu];
-                if(!(!(report < michal))) { _fun00002_ip = 199; continue _fun00001 }
+                var2 = var1.prevFramesCodec;
+                var2 = var2[var3];
+                if(!(!(var5 < var2))) { _fun0001_ip = 199; continue _fun0001 }
  52:
-                michal = entity.prevTimestamp;
-                michal = michal[zuuluu];
-                if(!(!(tangon < michal))) { _fun00002_ip = 199; continue _fun00001 }
+                var2 = var1.prevTimestamp;
+                var2 = var2[var3];
+                if(!(!(var4 < var2))) { _fun0001_ip = 199; continue _fun0001 }
  69:
-                michal = entity.prevTimestamp;
-                oscard = michal[zuuluu];
-                golfie = entity.windowLength;
-                michal = 1000;
-                michal = michal * golfie;
-                michal = oscard + michal;
-                if(!(!(tangon > michal))) { _fun00002_ip = 199; continue _fun00001 }
+                var2 = var1.prevTimestamp;
+                var6 = var2[var3];
+                var7 = var1.windowLength;
+                var2 = 1000;
+                var2 = var2 * var7;
+                var2 = var6 + var2;
+                if(!(!(var4 > var2))) { _fun0001_ip = 199; continue _fun0001 }
  103:
-                michal = entity.prevTimestamp;
-                oscard = michal[zuuluu];
-                michal = 900;
-                michal = oscard + michal;
-                if(!(!(tangon < michal))) { _fun00002_ip = 189; continue _fun00001 }
+                var2 = var1.prevTimestamp;
+                var6 = var2[var3];
+                var2 = 900;
+                var2 = var6 + var2;
+                if(!(!(var4 < var2))) { _fun0001_ip = 189; continue _fun0001 }
  127:
-                oscard = entity.elapsedSeconds;
-                michal = entity.prevTimestamp;
-                michal = michal[zuuluu];
-                oscard = oscard.bind(entity)(tangon, michal);
-                michal = entity.prevTimestamp;
-                michal[zuuluu] = tangon;
-                michal = entity.prevFramesCodec;
-                michal = michal[zuuluu];
-                michal = report - michal;
-                michal = michal / oscard;
-                oscard = entity.prevFramesCodec;
-                oscard[zuuluu] = report;
-                return michal;
+                var6 = var1.elapsedSeconds;
+                var2 = var1.prevTimestamp;
+                var2 = var2[var3];
+                var6 = var6.bind(var1)(var4, var2);
+                var2 = var1.prevTimestamp;
+                var2[var3] = var4;
+                var2 = var1.prevFramesCodec;
+                var2 = var2[var3];
+                var2 = var5 - var2;
+                var2 = var2 / var6;
+                var6 = var1.prevFramesCodec;
+                var6[var3] = var5;
+                return var2;
  189:
-                michal = global;
-                michal = michal.NaN;
-                return michal;
+                var2 = global;
+                var2 = var2.NaN;
+                return var2;
  199:
-                michal = entity.prevFramesCodec;
-                michal[zuuluu] = report;
-                michal = entity.prevTimestamp;
-                michal[zuuluu] = tangon;
-                michal = entity.perUserFpsWindow;
-                entity = new Array(0);
-                michal[zuuluu] = entity;
-                entity = global;
-                entity = entity.NaN;
-                return entity;
+                var2 = var1.prevFramesCodec;
+                var2[var3] = var5;
+                var2 = var1.prevTimestamp;
+                var2[var3] = var4;
+                var2 = var1.perUserFpsWindow;
+                var1 = new Array(0);
+                var2[var3] = var1;
+                var1 = global;
+                var1 = var1.NaN;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(12);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'updateFps';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var2;
+        var2 = new Array(12);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'updateFps';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                var _closure3_slot0 = michal;
-                entity = michal.disabled;
-                if(entity) { _fun00004_ip = 532; continue _fun00003 }
+                var3 = arg1;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var1 = var2.disabled;
+                if(var1) { _fun0002_ip = 532; continue _fun0002 }
  23:
-                report = michal.streamDisabledUsers;
-                entity = report.has;
-                entity = entity.bind(report)(zuuluu);
-                if(entity) { _fun00004_ip = 532; continue _fun00003 }
+                var5 = var2.streamDisabledUsers;
+                var1 = var5.has;
+                var1 = var1.bind(var5)(var3);
+                if(var1) { _fun0002_ip = 532; continue _fun0002 }
  45:
-                oscard = michal.calculateFps;
-                report = argBar;
-                entity = argBaz;
-                golfie = oscard.bind(michal)(zuuluu, report, entity);
-                entity = 0;
-                if(!(!(golfie < entity))) { _fun00004_ip = 528; continue _fun00003 }
+                var6 = var2.calculateFps;
+                var5 = arg2;
+                var1 = arg3;
+                var7 = var6.bind(var2)(var3, var5, var1);
+                var1 = 0;
+                if(!(!(var7 < var1))) { _fun0002_ip = 528; continue _fun0002 }
  75:
-                entity = global;
-                oscard = entity.Number;
-                report = oscard.isFinite;
-                report = report.bind(oscard)(golfie);
-                if(!report) { _fun00004_ip = 528; continue _fun00003 }
+                var1 = global;
+                var6 = var1.Number;
+                var5 = var6.isFinite;
+                var5 = var5.bind(var6)(var7);
+                if(!var5) { _fun0002_ip = 528; continue _fun0002 }
  100:
-                report = michal.perUserFpsWindow;
-                oscard = report[zuuluu];
-                report = oscard.push;
-                report = report.bind(oscard)(golfie);
-                report = michal.perUserFpsWindow;
-                report = report[zuuluu];
-                oscard = report.length;
-                report = michal.windowLength;
-                if(!(!(oscard < report))) { _fun00004_ip = 524; continue _fun00003 }
+                var5 = var2.perUserFpsWindow;
+                var6 = var5[var3];
+                var5 = var6.push;
+                var5 = var5.bind(var6)(var7);
+                var5 = var2.perUserFpsWindow;
+                var5 = var5[var3];
+                var6 = var5.length;
+                var5 = var2.windowLength;
+                if(!(!(var6 < var5))) { _fun0002_ip = 524; continue _fun0002 }
  148:
-                report = michal.perUserFpsWindow;
-                report = report[zuuluu];
-                oscard = report.length;
-                report = michal.windowLength;
-                if(!(oscard > report)) { _fun00004_ip = 193; continue _fun00003 }
+                var5 = var2.perUserFpsWindow;
+                var5 = var5[var3];
+                var6 = var5.length;
+                var5 = var2.windowLength;
+                if(!(var6 > var5)) { _fun0002_ip = 193; continue _fun0002 }
  173:
-                report = michal.perUserFpsWindow;
-                oscard = report[zuuluu];
-                report = oscard.shift;
-                report = report.bind(oscard)();
+                var5 = var2.perUserFpsWindow;
+                var6 = var5[var3];
+                var5 = var6.shift;
+                var5 = var5.bind(var6)();
  193:
-                report = michal.perUserFpsWindow;
-                oscard = report[zuuluu];
-                report = oscard.filter;
-                tangon = function(argFoo) {
-                    entity = _closure3_slot0;
-                    michal = entity.fpsThreshold;
-                    entity = argFoo;
-                    entity = entity < michal;
-                    return entity;
+                var5 = var2.perUserFpsWindow;
+                var6 = var5[var3];
+                var5 = var6.filter;
+                var4 = function(arg1) {
+                    var1 = _closure3_slot0;
+                    var2 = var1.fpsThreshold;
+                    var1 = arg1;
+                    var1 = var1 < var2;
+                    return var1;
                 };
-                tangon = report.bind(oscard)(tangon);
-                report = tangon.length;
-                tangon = michal.fpsWindowBorderlineCount;
-                if(!(!(report >= tangon))) { _fun00004_ip = 365; continue _fun00003 }
+                var4 = var5.bind(var6)(var4);
+                var5 = var4.length;
+                var4 = var2.fpsWindowBorderlineCount;
+                if(!(!(var5 >= var4))) { _fun0002_ip = 365; continue _fun0002 }
  238:
-                tangon = michal.currentVideoAutoToggleState;
-                oscard = tangon[zuuluu];
-                tangon = _closure1_slot5;
-                tangon = tangon.AUTO_PROBING;
-                if(!(oscard === tangon)) { _fun00004_ip = 494; continue _fun00003 }
+                var4 = var2.currentVideoAutoToggleState;
+                var6 = var4[var3];
+                var4 = _closure1_slot5;
+                var4 = var4.AUTO_PROBING;
+                if(!(var6 === var4)) { _fun0002_ip = 494; continue _fun0002 }
  268:
-                golfie = michal.currentVideoAutoToggleState;
-                tangon = _closure1_slot5;
-                oscard = tangon.AUTO_ENABLED;
-                golfie[zuuluu] = oscard;
-                option = michal.logger;
-                golfie = option.info;
-                oscard = entity.HermesInternal;
-                verify = oscard.concat;
-                oscard = 'acceptable conditions reached, will reset and send a AUTO_ENABLED for user ';
-                oscard = verify.bind(oscard)(zuuluu);
-                oscard = golfie.bind(option)(oscard);
-                golfie = _closure1_slot1;
-                oscard = _closure1_slot2;
-                report = 4;
-                report = oscard[report];
-                oscard = undefined;
-                report = golfie.bind(oscard)(report);
-                tangon = tangon.AUTO_ENABLED;
-                tangon = report.bind(oscard)(zuuluu, tangon);
-                _fun00004_ip = 494; continue _fun00003;
+                var7 = var2.currentVideoAutoToggleState;
+                var4 = _closure1_slot5;
+                var6 = var4.AUTO_ENABLED;
+                var7[var3] = var6;
+                var8 = var2.logger;
+                var7 = var8.info;
+                var6 = var1.HermesInternal;
+                var9 = var6.concat;
+                var6 = 'acceptable conditions reached, will reset and send a AUTO_ENABLED for user ';
+                var6 = var9.bind(var6)(var3);
+                var6 = var7.bind(var8)(var6);
+                var7 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var5 = 4;
+                var5 = var6[var5];
+                var6 = undefined;
+                var5 = var7.bind(var6)(var5);
+                var4 = var4.AUTO_ENABLED;
+                var4 = var5.bind(var6)(var3, var4);
+                _fun0002_ip = 494; continue _fun0002;
  365:
-                report = michal.logger;
-                tangon = report.info;
-                entity = entity.HermesInternal;
-                golfie = entity.concat;
-                oscard = '';
-                entity = ': detected poor network quality, turning off video';
-                entity = golfie.bind(oscard)(zuuluu, entity);
-                entity = tangon.bind(report)(entity);
-                tangon = michal.streamDisabledUsers;
-                entity = tangon.add;
-                entity = entity.bind(tangon)(zuuluu);
-                oscard = michal.currentVideoAutoToggleState;
-                entity = _closure1_slot5;
-                report = entity.DISABLED;
-                oscard[zuuluu] = report;
-                oscard = _closure1_slot1;
-                report = _closure1_slot2;
-                tangon = 4;
-                tangon = report[tangon];
-                report = undefined;
-                tangon = oscard.bind(report)(tangon);
-                entity = entity.DISABLED;
-                entity = tangon.bind(report)(zuuluu, entity);
-                entity = michal.startReenableBackoffTimer;
-                entity = entity.bind(michal)(zuuluu);
+                var5 = var2.logger;
+                var4 = var5.info;
+                var1 = var1.HermesInternal;
+                var7 = var1.concat;
+                var6 = '';
+                var1 = ': detected poor network quality, turning off video';
+                var1 = var7.bind(var6)(var3, var1);
+                var1 = var4.bind(var5)(var1);
+                var4 = var2.streamDisabledUsers;
+                var1 = var4.add;
+                var1 = var1.bind(var4)(var3);
+                var6 = var2.currentVideoAutoToggleState;
+                var1 = _closure1_slot5;
+                var5 = var1.DISABLED;
+                var6[var3] = var5;
+                var6 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var4 = 4;
+                var4 = var5[var4];
+                var5 = undefined;
+                var4 = var6.bind(var5)(var4);
+                var1 = var1.DISABLED;
+                var1 = var4.bind(var5)(var3, var1);
+                var1 = var2.startReenableBackoffTimer;
+                var1 = var1.bind(var2)(var3);
  494:
-                entity = michal.probingUserId;
-                if(!(entity === zuuluu)) { _fun00004_ip = 532; continue _fun00003 }
+                var1 = var2.probingUserId;
+                if(!(var1 === var3)) { _fun0002_ip = 532; continue _fun0002 }
  504:
-                entity = undefined;
-                michal['probingUserId'] = entity;
-                entity = michal.tryReenableQueue;
-                entity = entity.bind(michal)();
-                _fun00004_ip = 532; continue _fun00003;
+                var1 = undefined;
+                var2['probingUserId'] = var1;
+                var1 = var2.tryReenableQueue;
+                var1 = var1.bind(var2)();
+                _fun0002_ip = 532; continue _fun0002;
  524:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
  528:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
  532:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'startReenableBackoffTimer';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'startReenableBackoffTimer';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                var _closure3_slot0 = michal;
-                var _closure3_slot1 = zuuluu;
-                tangon = michal.disabled;
-                if(tangon) { _fun00006_ip = 355; continue _fun00005 }
+                var3 = arg1;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var _closure3_slot1 = var3;
+                var4 = var2.disabled;
+                if(var4) { _fun0003_ip = 355; continue _fun0003 }
  27:
-                golfie = michal.logger;
-                oscard = golfie.info;
-                tangon = global;
-                report = tangon.HermesInternal;
-                option = report.concat;
-                report = 'startReenableBackoffTimer for user ';
-                report = option.bind(report)(zuuluu);
-                report = oscard.bind(golfie)(report);
-                report = michal.retryBackoffCache;
-                report = report[zuuluu];
-                offset = report.lastBackoffTime;
-                oscard = report.expBackoffFactor;
-                golfie = 1;
-                report = null;
-                option = golfie;
-                if(!(report !== offset)) { _fun00006_ip = 183; continue _fun00005 }
+                var7 = var2.logger;
+                var6 = var7.info;
+                var4 = global;
+                var5 = var4.HermesInternal;
+                var8 = var5.concat;
+                var5 = 'startReenableBackoffTimer for user ';
+                var5 = var8.bind(var5)(var3);
+                var5 = var6.bind(var7)(var5);
+                var5 = var2.retryBackoffCache;
+                var5 = var5[var3];
+                var10 = var5.lastBackoffTime;
+                var6 = var5.expBackoffFactor;
+                var7 = 1;
+                var5 = null;
+                var8 = var7;
+                if(!(var5 !== var10)) { _fun0003_ip = 183; continue _fun0003 }
  101:
-                report = 16;
-                report = oscard > report;
-                option = golfie;
-                if(report) { _fun00006_ip = 183; continue _fun00005 }
+                var5 = 16;
+                var5 = var6 > var5;
+                var8 = var7;
+                if(var5) { _fun0003_ip = 183; continue _fun0003 }
  114:
-                verify = michal.elapsedSeconds;
-                romeon = _closure1_slot0;
-                yankee = _closure1_slot2;
-                report = 5;
-                yankee = yankee[report];
-                report = undefined;
-                yankee = romeon.bind(report)(yankee);
-                report = yankee.now;
-                report = report.bind(yankee)();
-                verify = verify.bind(michal)(report, offset);
-                report = 600;
-                report = verify > report;
-                option = golfie;
-                if(report) { _fun00006_ip = 183; continue _fun00005 }
+                var9 = var2.elapsedSeconds;
+                var12 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var5 = 5;
+                var11 = var11[var5];
+                var5 = undefined;
+                var11 = var12.bind(var5)(var11);
+                var5 = var11.now;
+                var5 = var5.bind(var11)();
+                var9 = var9.bind(var2)(var5, var10);
+                var5 = 600;
+                var5 = var9 > var5;
+                var8 = var7;
+                if(var5) { _fun0003_ip = 183; continue _fun0003 }
  176:
-                report = 2;
-                option = oscard * report;
+                var5 = 2;
+                var8 = var6 * var5;
  183:
-                offset = michal.retryBackoffCache;
-                golfie = {};
-                romeon = _closure1_slot0;
-                verify = _closure1_slot2;
-                oscard = 5;
-                yankee = verify[oscard];
-                oscard = undefined;
-                romeon = romeon.bind(oscard)(yankee);
-                yankee = romeon.now;
-                yankee = yankee.bind(romeon)();
-                golfie['lastBackoffTime'] = yankee;
-                golfie['expBackoffFactor'] = option;
-                offset[zuuluu] = golfie;
-                golfie = michal.backoffTimeSec;
-                golfie = option * golfie;
-                option = _closure1_slot1;
-                report = 6;
-                report = verify[report];
-                report = option.bind(oscard)(report);
-                report = report.Millis;
-                report = report.SECOND;
-                report = golfie * report;
-                verify = michal.logger;
-                option = verify.info;
-                golfie = tangon.HermesInternal;
-                yankee = golfie.concat;
-                offset = 'starting backoff timer with time = ';
-                golfie = ' milliseconds';
-                golfie = yankee.bind(offset)(report, golfie);
-                golfie = option.bind(verify)(golfie);
-                michal = michal.timeoutIdCache;
-                tangon = tangon.setTimeout;
-                entity = function() {
-                    zuuluu = _closure3_slot0;
-                    michal = zuuluu.queueReenable;
-                    entity = _closure3_slot1;
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                var10 = var2.retryBackoffCache;
+                var7 = {};
+                var12 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var6 = 5;
+                var11 = var9[var6];
+                var6 = undefined;
+                var12 = var12.bind(var6)(var11);
+                var11 = var12.now;
+                var11 = var11.bind(var12)();
+                var7['lastBackoffTime'] = var11;
+                var7['expBackoffFactor'] = var8;
+                var10[var3] = var7;
+                var7 = var2.backoffTimeSec;
+                var7 = var8 * var7;
+                var8 = _closure1_slot1;
+                var5 = 6;
+                var5 = var9[var5];
+                var5 = var8.bind(var6)(var5);
+                var5 = var5.Millis;
+                var5 = var5.SECOND;
+                var5 = var7 * var5;
+                var9 = var2.logger;
+                var8 = var9.info;
+                var7 = var4.HermesInternal;
+                var11 = var7.concat;
+                var10 = 'starting backoff timer with time = ';
+                var7 = ' milliseconds';
+                var7 = var11.bind(var10)(var5, var7);
+                var7 = var8.bind(var9)(var7);
+                var2 = var2.timeoutIdCache;
+                var4 = var4.setTimeout;
+                var1 = function() {
+                    var3 = _closure3_slot0;
+                    var2 = var3.queueReenable;
+                    var1 = _closure3_slot1;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                entity = tangon.bind(oscard)(entity, report);
-                michal[zuuluu] = entity;
+                var1 = var4.bind(var6)(var1, var5);
+                var2[var3] = var1;
  355:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'queueReenable';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = this;
-            tangon = michal.enableQueue;
-            zuuluu = tangon.push;
-            entity = argFoo;
-            entity = zuuluu.bind(tangon)(entity);
-            entity = michal.tryReenableQueue;
-            entity = entity.bind(michal)();
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'queueReenable';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = this;
+            var4 = var2.enableQueue;
+            var3 = var4.push;
+            var1 = arg1;
+            var1 = var3.bind(var4)(var1);
+            var1 = var2.tryReenableQueue;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'tryReenableQueue';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'tryReenableQueue';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                tangon = this;
-                entity = tangon.disabled;
-                if(entity) { _fun00008_ip = 94; continue _fun00007 }
+                var4 = this;
+                var1 = var4.disabled;
+                if(var1) { _fun0004_ip = 94; continue _fun0004 }
  11:
-                entity = tangon.probingUserId;
-                zuuluu = null;
-                if(!(zuuluu != entity)) { _fun00008_ip = 42; continue _fun00007 }
+                var1 = var4.probingUserId;
+                var3 = null;
+                if(!(var3 != var1)) { _fun0004_ip = 42; continue _fun0004 }
  23:
-                michal = tangon.probingUserId;
-                entity = tangon.perUserFpsWindow;
-                entity = michal in entity;
-                if(entity) { _fun00008_ip = 94; continue _fun00007 }
+                var2 = var4.probingUserId;
+                var1 = var4.perUserFpsWindow;
+                var1 = var2 in var1;
+                if(var1) { _fun0004_ip = 94; continue _fun0004 }
  42:
-                michal = tangon.enableQueue;
-                entity = michal.shift;
-                michal = entity.bind(michal)();
-                if(!(zuuluu != michal)) { _fun00008_ip = 94; continue _fun00007 }
+                var2 = var4.enableQueue;
+                var1 = var2.shift;
+                var2 = var1.bind(var2)();
+                if(!(var3 != var2)) { _fun0004_ip = 94; continue _fun0004 }
  62:
-                entity = tangon.reenableVideo;
-                entity = entity.bind(tangon)(michal);
-                if(entity) { _fun00008_ip = 94; continue _fun00007 }
+                var1 = var4.reenableVideo;
+                var1 = var1.bind(var4)(var2);
+                if(var1) { _fun0004_ip = 94; continue _fun0004 }
  76:
-                if(!(zuuluu != michal)) { _fun00008_ip = 94; continue _fun00007 }
+                if(!(var3 != var2)) { _fun0004_ip = 94; continue _fun0004 }
  80:
-                entity = tangon.reenableVideo;
-                entity = entity.bind(tangon)(michal);
-                if(!entity) { _fun00008_ip = 76; continue _fun00007 }
+                var1 = var4.reenableVideo;
+                var1 = var1.bind(var4)(var2);
+                if(!var1) { _fun0004_ip = 76; continue _fun0004 }
  94:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'reenableVideo';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'reenableVideo';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                report = argFoo;
-                oscard = this;
-                entity = oscard.perUserFpsWindow;
-                entity = report in entity;
-                if(!entity) { _fun00010_ip = 173; continue _fun00009 }
+                var5 = arg1;
+                var6 = this;
+                var1 = var6.perUserFpsWindow;
+                var1 = var5 in var1;
+                if(!var1) { _fun0005_ip = 173; continue _fun0005 }
  22:
-                verify = oscard.logger;
-                option = verify.info;
-                offset = _closure1_slot0;
-                golfie = _closure1_slot2;
-                michal = 5;
-                michal = golfie[michal];
-                tangon = undefined;
-                offset = offset.bind(tangon)(michal);
-                michal = offset.now;
-                romeon = michal.bind(offset)();
-                michal = global;
-                michal = michal.HermesInternal;
-                yankee = michal.concat;
-                offset = 'reenableVideo called for user ';
-                michal = ' - time = ';
-                michal = yankee.bind(offset)(report, michal, romeon);
-                michal = option.bind(verify)(michal);
-                michal = oscard.stateCleanupBeforeEnable;
-                michal = michal.bind(oscard)(report);
-                verify = oscard.currentVideoAutoToggleState;
-                michal = _closure1_slot5;
-                option = michal.AUTO_PROBING;
-                verify[report] = option;
-                oscard['probingUserId'] = report;
-                oscard = _closure1_slot1;
-                zuuluu = 4;
-                zuuluu = golfie[zuuluu];
-                zuuluu = oscard.bind(tangon)(zuuluu);
-                michal = michal.AUTO_PROBING;
-                michal = zuuluu.bind(tangon)(report, michal);
-                entity = true;
+                var9 = var6.logger;
+                var8 = var9.info;
+                var10 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 5;
+                var2 = var7[var2];
+                var4 = undefined;
+                var10 = var10.bind(var4)(var2);
+                var2 = var10.now;
+                var12 = var2.bind(var10)();
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var11 = var2.concat;
+                var10 = 'reenableVideo called for user ';
+                var2 = ' - time = ';
+                var2 = var11.bind(var10)(var5, var2, var12);
+                var2 = var8.bind(var9)(var2);
+                var2 = var6.stateCleanupBeforeEnable;
+                var2 = var2.bind(var6)(var5);
+                var9 = var6.currentVideoAutoToggleState;
+                var2 = _closure1_slot5;
+                var8 = var2.AUTO_PROBING;
+                var9[var5] = var8;
+                var6['probingUserId'] = var5;
+                var6 = _closure1_slot1;
+                var3 = 4;
+                var3 = var7[var3];
+                var3 = var6.bind(var4)(var3);
+                var2 = var2.AUTO_PROBING;
+                var2 = var3.bind(var4)(var5, var2);
+                var1 = true;
  173:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[5] = entity;
-        entity = {};
-        oscard = 'elapsedSeconds';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            michal = argFoo;
-            entity = argBar;
-            michal = michal - entity;
-            entity = 1000;
-            entity = michal / entity;
-            return entity;
+        var1['value'] = var6;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'elapsedSeconds';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            var2 = arg1;
+            var1 = arg2;
+            var2 = var2 - var1;
+            var1 = 1000;
+            var1 = var2 / var1;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[6] = entity;
-        entity = {};
-        oscard = 'stateCleanupBeforeEnable';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            zuuluu = argFoo;
-            entity = this;
-            report = entity.logger;
-            tangon = report.info;
-            michal = 'VideoHealthManager::stateCleanupBeforeEnable';
-            michal = tangon.bind(report)(michal);
-            tangon = entity.perUserFpsWindow;
-            michal = new Array(0);
-            tangon[zuuluu] = michal;
-            tangon = entity.prevFramesCodec;
-            michal = -1;
-            tangon[zuuluu] = michal;
-            michal = entity.streamDisabledUsers;
-            entity = michal.delete;
-            entity = entity.bind(michal)(zuuluu);
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
+        var6 = 'stateCleanupBeforeEnable';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var3 = arg1;
+            var1 = this;
+            var5 = var1.logger;
+            var4 = var5.info;
+            var2 = 'VideoHealthManager::stateCleanupBeforeEnable';
+            var2 = var4.bind(var5)(var2);
+            var4 = var1.perUserFpsWindow;
+            var2 = new Array(0);
+            var4[var3] = var2;
+            var4 = var1.prevFramesCodec;
+            var2 = -1;
+            var4[var3] = var2;
+            var2 = var1.streamDisabledUsers;
+            var1 = var2.delete;
+            var1 = var1.bind(var2)(var3);
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[7] = entity;
-        entity = {};
-        oscard = 'getCurrentVideoToggleState';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            entity = this;
-            michal = entity.currentVideoAutoToggleState;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var1['value'] = var6;
+        var2[7] = var1;
+        var1 = {};
+        var6 = 'getCurrentVideoToggleState';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var1 = this;
+            var2 = var1.currentVideoAutoToggleState;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[8] = entity;
-        entity = {};
-        oscard = 'createUser';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['value'] = var6;
+        var2[8] = var1;
+        var1 = {};
+        var6 = 'createUser';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                zuuluu = argFoo;
-                entity = this;
-                report = entity.logger;
-                tangon = report.info;
-                michal = global;
-                michal = michal.HermesInternal;
-                oscard = michal.concat;
-                michal = 'VideoHealthManager::createUser ';
-                michal = oscard.bind(michal)(zuuluu);
-                michal = tangon.bind(report)(michal);
-                michal = entity.perUserFpsWindow;
-                michal = zuuluu in michal;
-                if(michal) { _fun00012_ip = 136; continue _fun00011 }
+                var3 = arg1;
+                var1 = this;
+                var5 = var1.logger;
+                var4 = var5.info;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var6 = var2.concat;
+                var2 = 'VideoHealthManager::createUser ';
+                var2 = var6.bind(var2)(var3);
+                var2 = var4.bind(var5)(var2);
+                var2 = var1.perUserFpsWindow;
+                var2 = var3 in var2;
+                if(var2) { _fun0006_ip = 136; continue _fun0006 }
  59:
-                tangon = entity.perUserFpsWindow;
-                michal = new Array(0);
-                tangon[zuuluu] = michal;
-                tangon = entity.prevFramesCodec;
-                michal = -1;
-                tangon[zuuluu] = michal;
-                tangon = entity.currentVideoAutoToggleState;
-                michal = _closure1_slot5;
-                michal = michal.NONE;
-                tangon[zuuluu] = michal;
-                michal = entity.retryBackoffCache;
-                entity = {'lastBackoffTime': null, 'expBackoffFactor': 1};
-                michal[zuuluu] = entity;
+                var4 = var1.perUserFpsWindow;
+                var2 = new Array(0);
+                var4[var3] = var2;
+                var4 = var1.prevFramesCodec;
+                var2 = -1;
+                var4[var3] = var2;
+                var4 = var1.currentVideoAutoToggleState;
+                var2 = _closure1_slot5;
+                var2 = var2.NONE;
+                var4[var3] = var2;
+                var2 = var1.retryBackoffCache;
+                var1 = {'lastBackoffTime': null, 'expBackoffFactor': 1};
+                var2[var3] = var1;
  136:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[9] = entity;
-        entity = {};
-        oscard = 'deleteUser';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var1['value'] = var6;
+        var2[9] = var1;
+        var1 = {};
+        var6 = 'deleteUser';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                oscard = michal.logger;
-                report = oscard.info;
-                entity = global;
-                tangon = entity.HermesInternal;
-                golfie = tangon.concat;
-                tangon = 'VideoHealthManager::deleteUser ';
-                tangon = golfie.bind(tangon)(zuuluu);
-                tangon = report.bind(oscard)(tangon);
-                tangon = michal.perUserFpsWindow;
-                tangon = delete tangon[zuuluu];
-                tangon = michal.prevFramesCodec;
-                tangon = delete tangon[zuuluu];
-                tangon = michal.retryBackoffCache;
-                tangon = delete tangon[zuuluu];
-                tangon = michal.currentVideoAutoToggleState;
-                tangon = delete tangon[zuuluu];
-                report = michal.streamDisabledUsers;
-                tangon = report.delete;
-                tangon = tangon.bind(report)(zuuluu);
-                tangon = michal.probingUserId;
-                if(!(zuuluu === tangon)) { _fun00014_ip = 130; continue _fun00013 }
+                var3 = arg1;
+                var2 = this;
+                var6 = var2.logger;
+                var5 = var6.info;
+                var1 = global;
+                var4 = var1.HermesInternal;
+                var7 = var4.concat;
+                var4 = 'VideoHealthManager::deleteUser ';
+                var4 = var7.bind(var4)(var3);
+                var4 = var5.bind(var6)(var4);
+                var4 = var2.perUserFpsWindow;
+                var4 = delete var4[var3];
+                var4 = var2.prevFramesCodec;
+                var4 = delete var4[var3];
+                var4 = var2.retryBackoffCache;
+                var4 = delete var4[var3];
+                var4 = var2.currentVideoAutoToggleState;
+                var4 = delete var4[var3];
+                var5 = var2.streamDisabledUsers;
+                var4 = var5.delete;
+                var4 = var4.bind(var5)(var3);
+                var4 = var2.probingUserId;
+                if(!(var3 === var4)) { _fun0007_ip = 130; continue _fun0007 }
  112:
-                tangon = undefined;
-                michal['probingUserId'] = tangon;
-                tangon = michal.tryReenableQueue;
-                tangon = tangon.bind(michal)();
+                var4 = undefined;
+                var2['probingUserId'] = var4;
+                var4 = var2.tryReenableQueue;
+                var4 = var4.bind(var2)();
  130:
-                report = entity.clearTimeout;
-                entity = michal.timeoutIdCache;
-                tangon = entity[zuuluu];
-                entity = undefined;
-                tangon = report.bind(entity)(tangon);
-                michal = michal.timeoutIdCache;
-                michal = delete michal[zuuluu];
-                return entity;
+                var5 = var1.clearTimeout;
+                var1 = var2.timeoutIdCache;
+                var4 = var1[var3];
+                var1 = undefined;
+                var4 = var5.bind(var1)(var4);
+                var2 = var2.timeoutIdCache;
+                var2 = delete var2[var3];
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[10] = entity;
-        entity = {};
-        oscard = 'disable';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var1['value'] = var6;
+        var2[10] = var1;
+        var1 = {};
+        var6 = 'disable';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                oscard = this;
-                entity = true;
-                oscard['disabled'] = entity;
-                tangon = oscard.perUserFpsWindow;
-                for(entity in tangon)
+                var6 = this;
+                var1 = true;
+                var6['disabled'] = var1;
+                var4 = var6.perUserFpsWindow;
+                for(var1 in var4)
  25:
                 {
  34:
-                    option = entity;
-                    golfie = oscard.deleteUser;
-                    golfie = golfie.bind(oscard)(option);
-                    _fun00016_ip = 25; continue _fun00015;
+                    var8 = var1;
+                    var7 = var6.deleteUser;
+                    var7 = var7.bind(var6)(var8);
+                    _fun0008_ip = 25; continue _fun0008;
                 }
  50:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[11] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[11] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = {'featureEnabled': null, 'windowLength': 5, 'allowedPoorFpsRatio': 1, 'fpsThreshold': 5, 'backoffTimeSec': 15};
-    golfie = 7;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.isMobile;
-    tangon['featureEnabled'] = golfie;
-    michal['defaultConfig'] = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'lib/VideoHealthManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['VideoHealthManager'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = {'featureEnabled': null, 'windowLength': 5, 'allowedPoorFpsRatio': 1, 'fpsThreshold': 5, 'backoffTimeSec': 15};
+    var7 = 7;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.isMobile;
+    var4['featureEnabled'] = var7;
+    var2['defaultConfig'] = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'lib/VideoHealthManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['VideoHealthManager'] = var2;
+    return var1;
 })();

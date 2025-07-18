@@ -1,143 +1,143 @@
 // app/modules/applications/message_embed/native/utils/nativeAppMessageEmbedUtil.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    option = 0;
-    tangon = oscard[option];
-    entity = undefined;
-    yankee = report.bind(entity)(tangon);
-    verify = yankee.hexToRgba;
-    golfie = 1;
-    tangon = oscard[golfie];
-    tangon = offset.bind(entity)(tangon);
-    tangon = tangon.unsafe_rawColors;
-    tangon = tangon.BLACK_460;
-    verify = verify.bind(yankee)(tangon);
-    tangon = new Array(2);
-    tangon[0] = verify;
-    option = oscard[option];
-    verify = report.bind(entity)(option);
-    option = verify.hexToRgba;
-    golfie = oscard[golfie];
-    golfie = offset.bind(entity)(golfie);
-    golfie = golfie.unsafe_rawColors;
-    golfie = golfie.BLACK_460;
-    golfie = option.bind(verify)(golfie);
-    tangon[1] = golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/native/utils/nativeAppMessageEmbedUtil.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getAppGradientColors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var10 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var8 = 0;
+    var4 = var6[var8];
+    var1 = undefined;
+    var11 = var5.bind(var1)(var4);
+    var9 = var11.hexToRgba;
+    var7 = 1;
+    var4 = var6[var7];
+    var4 = var10.bind(var1)(var4);
+    var4 = var4.unsafe_rawColors;
+    var4 = var4.BLACK_460;
+    var9 = var9.bind(var11)(var4);
+    var4 = new Array(2);
+    var4[0] = var9;
+    var8 = var6[var8];
+    var9 = var5.bind(var1)(var8);
+    var8 = var9.hexToRgba;
+    var7 = var6[var7];
+    var7 = var10.bind(var1)(var7);
+    var7 = var7.unsafe_rawColors;
+    var7 = var7.BLACK_460;
+    var7 = var8.bind(var9)(var7);
+    var4[1] = var7;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/message_embed/native/utils/nativeAppMessageEmbedUtil.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAppGradientColors(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = _closure1_slot3;
-            michal = null;
-            if(!(michal != report)) { _fun00002_ip = 211; continue _fun00001 }
+            var5 = arg1;
+            var1 = _closure1_slot3;
+            var2 = null;
+            if(!(var2 != var5)) { _fun0001_ip = 211; continue _fun0001 }
  19:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 2;
-            tangon = tangon[michal];
-            golfie = undefined;
-            oscard = oscard.bind(golfie)(tangon);
-            tangon = oscard.hasFetchedColors;
-            option = tangon.bind(oscard)(report);
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            if(option) { _fun00002_ip = 85; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 2;
+            var4 = var4[var2];
+            var7 = undefined;
+            var6 = var6.bind(var7)(var4);
+            var4 = var6.hasFetchedColors;
+            var8 = var4.bind(var6)(var5);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            if(var8) { _fun0001_ip = 85; continue _fun0001 }
  63:
-            michal = oscard[michal];
-            option = tangon.bind(golfie)(michal);
-            michal = option.maybeFetchColors;
-            michal = michal.bind(option)(report);
-            return entity;
+            var2 = var6[var2];
+            var8 = var4.bind(var7)(var2);
+            var2 = var8.maybeFetchColors;
+            var2 = var2.bind(var8)(var5);
+            return var1;
  85:
-            michal = 3;
-            michal = oscard[michal];
-            tangon = tangon.bind(golfie)(michal);
-            michal = tangon.getHeroColors;
-            michal = michal.bind(tangon)(report);
-            offset = michal.primaryColor;
-            oscard = michal.secondaryColor;
-            michal = '#000000';
-            report = offset === michal;
-            if(!report) { _fun00002_ip = 135; continue _fun00001 }
+            var2 = 3;
+            var2 = var6[var2];
+            var4 = var4.bind(var7)(var2);
+            var2 = var4.getHeroColors;
+            var2 = var2.bind(var4)(var5);
+            var10 = var2.primaryColor;
+            var6 = var2.secondaryColor;
+            var2 = '#000000';
+            var5 = var10 === var2;
+            if(!var5) { _fun0001_ip = 135; continue _fun0001 }
  131:
-            report = oscard === michal;
+            var5 = var6 === var2;
  135:
-            tangon = false;
-            michal = entity;
-            if(!(tangon === report)) { _fun00002_ip = 209; continue _fun00001 }
+            var4 = false;
+            var2 = var1;
+            if(!(var4 === var5)) { _fun0001_ip = 209; continue _fun0001 }
  144:
-            report = _closure1_slot0;
-            option = _closure1_slot2;
-            tangon = 0;
-            zuuluu = option[tangon];
-            verify = report.bind(golfie)(zuuluu);
-            zuuluu = verify.hexToRgba;
-            verify = zuuluu.bind(verify)(offset);
-            zuuluu = new Array(2);
-            zuuluu[0] = verify;
-            tangon = option[tangon];
-            report = report.bind(golfie)(tangon);
-            tangon = report.hexToRgba;
-            tangon = tangon.bind(report)(oscard);
-            zuuluu[1] = tangon;
-            michal = zuuluu;
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 0;
+            var3 = var8[var4];
+            var9 = var5.bind(var7)(var3);
+            var3 = var9.hexToRgba;
+            var9 = var3.bind(var9)(var10);
+            var3 = new Array(2);
+            var3[0] = var9;
+            var4 = var8[var4];
+            var5 = var5.bind(var7)(var4);
+            var4 = var5.hexToRgba;
+            var4 = var4.bind(var5)(var6);
+            var3[1] = var4;
+            var2 = var3;
  209:
-            return michal;
+            return var2;
  211:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAppGradientColors'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: getAppIconSrc
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getAppGradientColors'] = var4;
+    var2 = function getAppIconSrc(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 4;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getApplicationIconURL;
-            entity = {};
-            tangon = argFoo;
-            entity['id'] = tangon;
-            tangon = argBar;
-            entity['icon'] = tangon;
-            tangon = argBaz;
-            entity['bot'] = tangon;
-            tangon = false;
-            entity['fallbackAvatar'] = tangon;
-            michal = michal.bind(zuuluu)(entity);
-            entity = null;
-            zuuluu = entity != michal;
-            if(!zuuluu) { _fun00004_ip = 79; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getApplicationIconURL;
+            var1 = {};
+            var4 = arg1;
+            var1['id'] = var4;
+            var4 = arg2;
+            var1['icon'] = var4;
+            var4 = arg3;
+            var1['bot'] = var4;
+            var4 = false;
+            var1['fallbackAvatar'] = var4;
+            var2 = var2.bind(var3)(var1);
+            var1 = null;
+            var3 = var1 != var2;
+            if(!var3) { _fun0002_ip = 79; continue _fun0002 }
  76:
-            entity = michal;
+            var1 = var2;
  79:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAppIconSrc'] = michal;
-    return entity;
+    var3['getAppIconSrc'] = var2;
+    return var1;
 })();

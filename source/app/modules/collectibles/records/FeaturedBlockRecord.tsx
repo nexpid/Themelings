@@ -1,108 +1,108 @@
 // app/modules/collectibles/records/FeaturedBlockRecord.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.FeaturedCategorySubblockRecord;
-    var _closure1_slot4 = tangon;
-    michal = function() {
-        report = function(argFoo) { // Original name: FeaturedBlockRecord
-            zuuluu = this;
-            report = _closure1_slot2;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            michal = tangon.bind(entity)(michal);
-            michal = michal.ShopBlockType;
-            michal = michal.FEATURED;
-            zuuluu['type'] = michal;
-            michal = argFoo;
-            report = michal.subblocks;
-            tangon = report.map;
-            michal = function(argFoo) {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.FeaturedCategorySubblockRecord;
+    var _closure1_slot4 = var4;
+    var2 = function() {
+        var5 = function FeaturedBlockRecord(arg1) {
+            var3 = this;
+            var5 = _closure1_slot2;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 3;
+            var2 = var5[var2];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.ShopBlockType;
+            var2 = var2.FEATURED;
+            var3['type'] = var2;
+            var2 = arg1;
+            var5 = var2.subblocks;
+            var4 = var5.map;
+            var2 = function(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    tangon = argFoo;
-                    report = tangon.type;
-                    oscard = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    entity = 4;
-                    zuuluu = zuuluu[entity];
-                    entity = undefined;
-                    entity = oscard.bind(entity)(zuuluu);
-                    entity = entity.FeaturedSubblockType;
-                    zuuluu = entity.CATEGORY;
-                    entity = tangon;
-                    if(!(report === zuuluu)) { _fun00002_ip = 67; continue _fun00001 }
+                    var4 = arg1;
+                    var5 = var4.type;
+                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var1 = 4;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var1 = var6.bind(var1)(var3);
+                    var1 = var1.FeaturedSubblockType;
+                    var3 = var1.CATEGORY;
+                    var1 = var4;
+                    if(!(var5 === var3)) { _fun0001_ip = 67; continue _fun0001 }
  52:
-                    zuuluu = _closure1_slot4;
-                    michal = zuuluu.fromServer;
-                    entity = michal.bind(zuuluu)(tangon);
+                    var3 = _closure1_slot4;
+                    var2 = var3.fromServer;
+                    var1 = var2.bind(var3)(var4);
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(michal);
-            zuuluu['subblocks'] = michal;
-            return entity;
+            var2 = var4.bind(var5)(var2);
+            var3['subblocks'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot3;
-        entity = {};
-        zuuluu = 'fromServer';
-        entity['key'] = zuuluu;
-        michal = function(argFoo) { // Original name: value
-            zuuluu = _closure2_slot0;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = argFoo;
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot3;
+        var1 = {};
+        var3 = 'fromServer';
+        var1['key'] = var3;
+        var2 = function value(arg1) {
+            var3 = _closure2_slot0;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = arg1;
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity['value'] = michal;
-        zuuluu = new Array(1);
-        zuuluu[0] = entity;
-        michal = undefined;
-        entity = null;
-        entity = tangon.bind(michal)(report, entity, zuuluu);
-        return entity;
+        var1['value'] = var2;
+        var3 = new Array(1);
+        var3[0] = var1;
+        var2 = undefined;
+        var1 = null;
+        var1 = var4.bind(var2)(var5, var1, var3);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/records/FeaturedBlockRecord.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['FeaturedBlockRecord'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/collectibles/records/FeaturedBlockRecord.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['FeaturedBlockRecord'] = var2;
+    return var1;
 })();

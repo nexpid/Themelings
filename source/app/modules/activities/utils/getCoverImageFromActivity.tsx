@@ -1,69 +1,69 @@
 // app/modules/activities/utils/getCoverImageFromActivity.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ACTIVITY_INVITE_COVER_IMAGE_SIZE;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/getCoverImageFromActivity.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getCoverImageFromActivity
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ACTIVITY_INVITE_COVER_IMAGE_SIZE;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/getCoverImageFromActivity.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getCoverImageFromActivity(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = null;
-            michal = tangon == zuuluu;
-            entity = null;
-            if(michal) { _fun00002_ip = 119; continue _fun00001 }
+            var3 = arg1;
+            var4 = null;
+            var2 = var4 == var3;
+            var1 = null;
+            if(var2) { _fun0001_ip = 119; continue _fun0001 }
  14:
-            michal = zuuluu.assets;
-            michal = tangon == michal;
-            entity = null;
-            if(michal) { _fun00002_ip = 119; continue _fun00001 }
+            var2 = var3.assets;
+            var2 = var4 == var2;
+            var1 = null;
+            if(var2) { _fun0001_ip = 119; continue _fun0001 }
  29:
-            michal = zuuluu.assets;
-            michal = michal.large_image;
-            michal = tangon == michal;
-            entity = null;
-            if(michal) { _fun00002_ip = 119; continue _fun00001 }
+            var2 = var3.assets;
+            var2 = var2.large_image;
+            var2 = var4 == var2;
+            var1 = null;
+            if(var2) { _fun0001_ip = 119; continue _fun0001 }
  50:
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            tangon = 1;
-            report = report[tangon];
-            tangon = undefined;
-            oscard = oscard.bind(tangon)(report);
-            report = oscard.getAssetImage;
-            zuuluu = zuuluu.assets;
-            tangon = zuuluu.large_image;
-            michal = _closure1_slot2;
-            zuuluu = new Array(2);
-            zuuluu[0] = michal;
-            zuuluu[1] = michal;
-            michal = argBar;
-            entity = report.bind(oscard)(michal, tangon, zuuluu);
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 1;
+            var5 = var5[var4];
+            var4 = undefined;
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.getAssetImage;
+            var3 = var3.assets;
+            var4 = var3.large_image;
+            var2 = _closure1_slot2;
+            var3 = new Array(2);
+            var3[0] = var2;
+            var3[1] = var2;
+            var2 = arg2;
+            var1 = var5.bind(var6)(var2, var4, var3);
  119:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

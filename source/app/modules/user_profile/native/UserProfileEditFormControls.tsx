@@ -1,393 +1,393 @@
 // app/modules/user_profile/native/UserProfileEditFormControls.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    romeon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: FormControlText
-        entity = argFoo;
-        report = entity.text;
-        michal = _closure1_slot8;
-        tangon = undefined;
-        oscard = michal.bind(tangon)();
-        zuuluu = _closure1_slot6;
-        michal = _closure1_slot0;
-        golfie = _closure1_slot1;
-        entity = 6;
-        entity = golfie[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.Text;
-        entity = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
-        oscard = oscard.formControlText;
-        entity['style'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var12 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function FormControlText(arg1) {
+        var1 = arg1;
+        var5 = var1.text;
+        var2 = _closure1_slot8;
+        var4 = undefined;
+        var6 = var2.bind(var4)();
+        var3 = _closure1_slot6;
+        var2 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var1 = 6;
+        var1 = var7[var1];
+        var1 = var2.bind(var4)(var1);
+        var2 = var1.Text;
+        var1 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+        var6 = var6.formControlText;
+        var1['style'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    entity = function(argFoo) { // Original name: FormControlSubtext
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot9 = var1;
+    var1 = function FormControlSubtext(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.text;
-            entity = _closure1_slot8;
-            report = undefined;
-            golfie = entity.bind(report)();
-            entity = null;
-            zuuluu = entity == oscard;
-            if(zuuluu) { _fun00002_ip = 93; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.text;
+            var1 = _closure1_slot8;
+            var5 = undefined;
+            var7 = var1.bind(var5)();
+            var1 = null;
+            var3 = var1 == var6;
+            if(var3) { _fun0001_ip = 93; continue _fun0001 }
  30:
-            tangon = _closure1_slot6;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot1;
-            michal = 6;
-            michal = option[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.Text;
-            michal = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            golfie = golfie.formControlText;
-            michal['style'] = golfie;
-            michal['children'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 6;
+            var2 = var8[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.Text;
+            var2 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
+            var7 = var7.formControlText;
+            var2['style'] = var7;
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  93:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = romeon.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.Pressable;
-    var _closure1_slot4 = golfie;
-    tangon = tangon.View;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.jsx;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.jsxs;
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    verify = report.bind(entity)(tangon);
-    option = verify.createStyles;
-    golfie = {};
-    offset = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'padding': 12, 'borderColor': null, 'borderWidth': 1};
-    tangon = 12;
-    yankee = 5;
-    foxtra = oscard[yankee];
-    foxtra = romeon.bind(entity)(foxtra);
-    foxtra = foxtra.colors;
-    foxtra = foxtra.BORDER_STRONG;
-    offset['borderColor'] = foxtra;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.radii;
-    yankee = yankee.md;
-    offset['borderRadius'] = yankee;
-    golfie['button'] = offset;
-    offset = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'column'};
-    golfie['buttonTextContainer'] = offset;
-    offset = {'marginRight': 'auto', 'flexShrink': 1};
-    golfie['formControlText'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot8 = golfie;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/native/UserProfileEditFormControls.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: UserProfileEditFormButton
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var12.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.Pressable;
+    var _closure1_slot4 = var7;
+    var4 = var4.View;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
+    var10 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'padding': 12, 'borderColor': null, 'borderWidth': 1};
+    var4 = 12;
+    var11 = 5;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BORDER_STRONG;
+    var10['borderColor'] = var13;
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.radii;
+    var11 = var11.md;
+    var10['borderRadius'] = var11;
+    var7['button'] = var10;
+    var10 = {'flexGrow': 1, 'flexShrink': 1, 'flexDirection': 'column'};
+    var7['buttonTextContainer'] = var10;
+    var10 = {'marginRight': 'auto', 'flexShrink': 1};
+    var7['formControlText'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot8 = var7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/native/UserProfileEditFormControls.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function UserProfileEditFormButton(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.label;
-            report = entity.labelTrailing;
-            output = entity.buttonText;
-            result = entity.buttonSubtext;
-            sizing = entity.onPress;
-            romeon = entity.leading;
-            yankee = entity.trailing;
-            kiloes = entity.accessibilityLabel;
-            foxtra = entity.accessibilityHint;
-            option = entity.disabled;
-            tangon = undefined;
-            if(!(option === tangon)) { _fun00004_ip = 67; continue _fun00003 }
+            var1 = arg1;
+            var7 = var1.label;
+            var5 = var1.labelTrailing;
+            var17 = var1.buttonText;
+            var18 = var1.buttonSubtext;
+            var16 = var1.onPress;
+            var12 = var1.leading;
+            var11 = var1.trailing;
+            var15 = var1.accessibilityLabel;
+            var13 = var1.accessibilityHint;
+            var8 = var1.disabled;
+            var4 = undefined;
+            if(!(var8 === var4)) { _fun0002_ip = 67; continue _fun0002 }
  65:
-            option = false;
+            var8 = false;
  67:
-            verify = entity.hideArrow;
-            if(!(verify === tangon)) { _fun00004_ip = 79; continue _fun00003 }
+            var9 = var1.hideArrow;
+            if(!(var9 === var4)) { _fun0002_ip = 79; continue _fun0002 }
  77:
-            verify = false;
+            var9 = false;
  79:
-            entity = _closure1_slot8;
-            backup = entity.bind(tangon)();
-            zuuluu = _closure1_slot6;
-            oscard = _closure1_slot0;
-            echoed = _closure1_slot1;
-            entity = 7;
-            entity = echoed[entity];
-            entity = oscard.bind(tangon)(entity);
-            michal = entity.Input;
-            entity = {};
-            entity['label'] = golfie;
-            entity['labelTrailing'] = report;
-            golfie = _closure1_slot7;
-            report = 8;
-            report = echoed[report];
-            report = oscard.bind(tangon)(report);
-            oscard = report.PressableHighlight;
-            report = {};
-            report['onPress'] = sizing;
-            sizing = backup.button;
-            report['style'] = sizing;
-            sizing = 'button';
-            report['accessibilityRole'] = sizing;
-            report['accessibilityLabel'] = kiloes;
-            report['accessibilityHint'] = foxtra;
-            foxtra = {};
-            foxtra['disabled'] = option;
-            report['accessibilityState'] = foxtra;
-            report['disabled'] = option;
-            option = new Array(4);
-            option[0] = romeon;
-            foxtra = _closure1_slot5;
-            romeon = {};
-            backup = backup.buttonTextContainer;
-            romeon['style'] = backup;
-            sizing = _closure1_slot6;
-            kiloes = _closure1_slot9;
-            backup = {};
-            backup['text'] = output;
-            kiloes = sizing.bind(tangon)(kiloes, backup);
-            backup = new Array(2);
-            backup[0] = kiloes;
-            output = _closure1_slot6;
-            sizing = _closure1_slot10;
-            kiloes = {};
-            kiloes['text'] = result;
-            kiloes = output.bind(tangon)(sizing, kiloes);
-            backup[1] = kiloes;
-            romeon['children'] = backup;
-            romeon = golfie.bind(tangon)(foxtra, romeon);
-            option[1] = romeon;
-            option[2] = yankee;
-            verify = !verify;
-            if(!verify) { _fun00004_ip = 339; continue _fun00003 }
+            var1 = _closure1_slot8;
+            var14 = var1.bind(var4)();
+            var3 = _closure1_slot6;
+            var6 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var1 = 7;
+            var1 = var19[var1];
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.Input;
+            var1 = {};
+            var1['label'] = var7;
+            var1['labelTrailing'] = var5;
+            var7 = _closure1_slot7;
+            var5 = 8;
+            var5 = var19[var5];
+            var5 = var6.bind(var4)(var5);
+            var6 = var5.PressableHighlight;
+            var5 = {};
+            var5['onPress'] = var16;
+            var16 = var14.button;
+            var5['style'] = var16;
+            var16 = 'button';
+            var5['accessibilityRole'] = var16;
+            var5['accessibilityLabel'] = var15;
+            var5['accessibilityHint'] = var13;
+            var13 = {};
+            var13['disabled'] = var8;
+            var5['accessibilityState'] = var13;
+            var5['disabled'] = var8;
+            var8 = new Array(4);
+            var8[0] = var12;
+            var13 = _closure1_slot5;
+            var12 = {};
+            var14 = var14.buttonTextContainer;
+            var12['style'] = var14;
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot9;
+            var14 = {};
+            var14['text'] = var17;
+            var15 = var16.bind(var4)(var15, var14);
+            var14 = new Array(2);
+            var14[0] = var15;
+            var17 = _closure1_slot6;
+            var16 = _closure1_slot10;
+            var15 = {};
+            var15['text'] = var18;
+            var15 = var17.bind(var4)(var16, var15);
+            var14[1] = var15;
+            var12['children'] = var14;
+            var12 = var7.bind(var4)(var13, var12);
+            var8[1] = var12;
+            var8[2] = var11;
+            var9 = !var9;
+            if(!var9) { _fun0002_ip = 339; continue _fun0002 }
  301:
-            romeon = _closure1_slot6;
-            yankee = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            offset = 9;
-            offset = foxtra[offset];
-            offset = yankee.bind(tangon)(offset);
-            yankee = offset.TableRowArrow;
-            offset = {};
-            verify = romeon.bind(tangon)(yankee, offset);
+            var12 = _closure1_slot6;
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var10 = 9;
+            var10 = var13[var10];
+            var10 = var11.bind(var4)(var10);
+            var11 = var10.TableRowArrow;
+            var10 = {};
+            var9 = var12.bind(var4)(var11, var10);
  339:
-            option[3] = verify;
-            report['children'] = option;
-            report = golfie.bind(tangon)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var8[3] = var9;
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['UserProfileEditFormButton'] = tangon;
-    michal = function(argFoo) { // Original name: UserProfileEditFormSwitch
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['UserProfileEditFormButton'] = var4;
+    var2 = function UserProfileEditFormSwitch(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            report = entity.label;
-            kiloes = entity.subLabel;
-            backup = entity.value;
-            var _closure2_slot0 = backup;
-            michal = entity.onValueChange;
-            var _closure2_slot1 = michal;
-            sizing = entity.accessibilityLabel;
-            option = entity.accessibilityHint;
-            romeon = entity.disabled;
-            tangon = undefined;
-            if(!(romeon === tangon)) { _fun00006_ip = 59; continue _fun00005 }
+            var1 = arg1;
+            var5 = var1.label;
+            var15 = var1.subLabel;
+            var14 = var1.value;
+            var _closure2_slot0 = var14;
+            var2 = var1.onValueChange;
+            var _closure2_slot1 = var2;
+            var16 = var1.accessibilityLabel;
+            var8 = var1.accessibilityHint;
+            var12 = var1.disabled;
+            var4 = undefined;
+            if(!(var12 === var4)) { _fun0003_ip = 59; continue _fun0003 }
  57:
-            romeon = false;
+            var12 = false;
  59:
-            var _closure2_slot2 = tangon;
-            entity = _closure1_slot8;
-            yankee = entity.bind(tangon)();
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 10;
-            entity = zuuluu[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.isAndroid;
-            echoed = entity.bind(michal)();
-            oscard = _closure1_slot3;
-            entity = oscard.useState;
-            zuuluu = entity.bind(oscard)(backup);
-            michal = _closure1_slot2;
-            entity = 2;
-            michal = michal.bind(tangon)(zuuluu, entity);
-            entity = 0;
-            offset = michal[entity];
-            entity = 1;
-            entity = michal[entity];
-            _closure2_slot2 = entity;
-            foxtra = function() { // Original name: handleOnPress
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var _closure2_slot2 = var4;
+            var1 = _closure1_slot8;
+            var11 = var1.bind(var4)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 10;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isAndroid;
+            var19 = var1.bind(var2)();
+            var6 = _closure1_slot3;
+            var1 = var6.useState;
+            var3 = var1.bind(var6)(var14);
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2.bind(var4)(var3, var1);
+            var1 = 0;
+            var10 = var2[var1];
+            var1 = 1;
+            var1 = var2[var1];
+            _closure2_slot2 = var1;
+            var13 = function handleOnPress() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    zuuluu = entity == zuuluu;
-                    tangon = undefined;
-                    entity = undefined;
-                    if(zuuluu) { _fun00008_ip = 36; continue _fun00007 }
+                    var3 = _closure2_slot1;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    var4 = undefined;
+                    var1 = undefined;
+                    if(var3) { _fun0004_ip = 36; continue _fun0004 }
  20:
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot0;
-                    michal = !michal;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var2 = !var2;
+                    var1 = var3.bind(var4)(var2);
  36:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = oscard.useEffect;
-            michal = new Array(1);
-            michal[0] = backup;
-            entity = function() {
-                zuuluu = _closure2_slot2;
-                michal = _closure2_slot0;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var3 = var6.useEffect;
+            var2 = new Array(1);
+            var2[0] = var14;
+            var1 = function() {
+                var3 = _closure2_slot2;
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            entity = zuuluu.bind(oscard)(entity, michal);
-            if(echoed) { _fun00006_ip = 189; continue _fun00005 }
+            var1 = var3.bind(var6)(var1, var2);
+            if(var19) { _fun0003_ip = 189; continue _fun0003 }
  183:
-            golfie = _closure1_slot4;
-            _fun00006_ip = 215; continue _fun00005;
+            var7 = _closure1_slot4;
+            _fun0003_ip = 215; continue _fun0003;
  189:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 8;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            golfie = entity.PressableHighlight;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 8;
+            var1 = var3[var1];
+            var1 = var2.bind(var4)(var1);
+            var7 = var1.PressableHighlight;
  215:
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 7;
-            entity = oscard[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Input;
-            entity = {};
-            entity['label'] = report;
-            oscard = _closure1_slot7;
-            report = {};
-            result = undefined;
-            if(!echoed) { _fun00006_ip = 265; continue _fun00005 }
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 7;
+            var1 = var6[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Input;
+            var1 = {};
+            var1['label'] = var5;
+            var6 = _closure1_slot7;
+            var5 = {};
+            var18 = undefined;
+            if(!var19) { _fun0003_ip = 265; continue _fun0003 }
  262:
-            result = foxtra;
+            var18 = var13;
  265:
-            report['onPress'] = result;
-            output = function() { // Original name: onAccessibilityTap
-                zuuluu = _closure2_slot2;
-                entity = _closure2_slot0;
-                michal = !entity;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                michal = global;
-                zuuluu = michal.setTimeout;
-                michal = function() {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var5['onPress'] = var18;
+            var17 = function onAccessibilityTap() {
+                var3 = _closure2_slot2;
+                var1 = _closure2_slot0;
+                var2 = !var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                var2 = global;
+                var3 = var2.setTimeout;
+                var2 = function() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        zuuluu = _closure2_slot1;
-                        michal = null;
-                        if(!(michal != zuuluu)) { _fun00010_ip = 31; continue _fun00009 }
+                        var3 = _closure2_slot1;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0005_ip = 31; continue _fun0005 }
  13:
-                        zuuluu = _closure2_slot1;
-                        entity = _closure2_slot0;
-                        michal = !entity;
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
+                        var3 = _closure2_slot1;
+                        var1 = _closure2_slot0;
+                        var2 = !var1;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
  31:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            report['onAccessibilityTap'] = output;
-            yankee = yankee.button;
-            report['style'] = yankee;
-            yankee = 'switch';
-            report['accessibilityRole'] = yankee;
-            output = null;
-            yankee = kiloes;
-            if(!(output != sizing)) { _fun00006_ip = 311; continue _fun00005 }
+            var5['onAccessibilityTap'] = var17;
+            var11 = var11.button;
+            var5['style'] = var11;
+            var11 = 'switch';
+            var5['accessibilityRole'] = var11;
+            var17 = null;
+            var11 = var15;
+            if(!(var17 != var16)) { _fun0003_ip = 311; continue _fun0003 }
  308:
-            yankee = sizing;
+            var11 = var16;
  311:
-            report['accessibilityLabel'] = yankee;
-            report['accessibilityHint'] = option;
-            option = {};
-            option['disabled'] = romeon;
-            option['checked'] = offset;
-            report['accessibilityState'] = option;
-            report['disabled'] = romeon;
-            yankee = _closure1_slot6;
-            offset = _closure1_slot9;
-            option = {};
-            option['text'] = kiloes;
-            offset = yankee.bind(tangon)(offset, option);
-            option = new Array(2);
-            option[0] = offset;
-            yankee = _closure1_slot6;
-            offset = _closure1_slot0;
-            kiloes = _closure1_slot1;
-            verify = 11;
-            verify = kiloes[verify];
-            verify = offset.bind(tangon)(verify);
-            offset = verify.FormSwitch;
-            verify = {};
-            kiloes = true;
-            verify['aria-hidden'] = kiloes;
-            verify['value'] = backup;
-            verify['onValueChange'] = foxtra;
-            verify['disabled'] = romeon;
-            verify = yankee.bind(tangon)(offset, verify);
-            option[1] = verify;
-            report['children'] = option;
-            report = oscard.bind(tangon)(golfie, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5['accessibilityLabel'] = var11;
+            var5['accessibilityHint'] = var8;
+            var8 = {};
+            var8['disabled'] = var12;
+            var8['checked'] = var10;
+            var5['accessibilityState'] = var8;
+            var5['disabled'] = var12;
+            var11 = _closure1_slot6;
+            var10 = _closure1_slot9;
+            var8 = {};
+            var8['text'] = var15;
+            var10 = var11.bind(var4)(var10, var8);
+            var8 = new Array(2);
+            var8[0] = var10;
+            var11 = _closure1_slot6;
+            var10 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var9 = 11;
+            var9 = var15[var9];
+            var9 = var10.bind(var4)(var9);
+            var10 = var9.FormSwitch;
+            var9 = {};
+            var15 = true;
+            var9['aria-hidden'] = var15;
+            var9['value'] = var14;
+            var9['onValueChange'] = var13;
+            var9['disabled'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            var8[1] = var9;
+            var5['children'] = var8;
+            var5 = var6.bind(var4)(var7, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['UserProfileEditFormSwitch'] = michal;
-    return entity;
+    var3['UserProfileEditFormSwitch'] = var2;
+    return var1;
 })();

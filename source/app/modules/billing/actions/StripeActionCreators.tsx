@@ -1,208 +1,208 @@
 // app/modules/billing/actions/StripeActionCreators.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function() { // Original name: getSetupIntentSecret
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function getSetupIntentSecret() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = tangon;
-    entity = function() { // Original name: _getSetupIntentSecret
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot5 = var4;
+    var1 = function _getSetupIntentSecret() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    oscard = arguments[0];
-                    tangon = arguments[1];
+                    var6 = arguments[0];
+                    var4 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 177; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 177; continue _fun0001 }
  16:
-                    report = undefined;
-                    if(!(oscard === report)) { _fun00002_ip = 24; continue _fun00001 }
+                    var5 = undefined;
+                    if(!(var6 === var5)) { _fun0001_ip = 24; continue _fun0001 }
  22:
-                    oscard = {};
+                    var6 = {};
  24:
                     SaveGenerator(address=28);
  26:
-                    return report;
+                    return var5;
  28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 174; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 174; continue _fun0001 }
  37:
-                    zuuluu = null;
-                    zuuluu = zuuluu != tangon;
-                    golfie = undefined;
-                    if(!zuuluu) { _fun00002_ip = 66; continue _fun00001 }
+                    var3 = null;
+                    var3 = var3 != var4;
+                    var7 = undefined;
+                    if(!var3) { _fun0001_ip = 66; continue _fun0001 }
  48:
-                    zuuluu = {};
-                    tangon = tangon.regionalPaymentMethods;
-                    zuuluu['regional_payment_element_source_types'] = tangon;
-                    golfie = zuuluu;
+                    var3 = {};
+                    var4 = var4.regionalPaymentMethods;
+                    var3['regional_payment_element_source_types'] = var4;
+                    var7 = var3;
  66:
-                    tangon = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    zuuluu = 3;
-                    zuuluu = verify[zuuluu];
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    report = zuuluu.HTTP;
-                    tangon = report.post;
-                    zuuluu = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-                    option = _closure1_slot4;
-                    option = option.BILLING_STRIPE_SETUP_INTENT_SECRET;
-                    zuuluu['url'] = option;
-                    zuuluu['body'] = golfie;
-                    yankee = zuuluu;
-                    offset = oscard;
-                    oscard = copyDataProperties(yankee, offset);
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var3 = 3;
+                    var3 = var9[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var5 = var3.HTTP;
+                    var4 = var5.post;
+                    var3 = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
+                    var8 = _closure1_slot4;
+                    var8 = var8.BILLING_STRIPE_SETUP_INTENT_SECRET;
+                    var3['url'] = var8;
+                    var3['body'] = var7;
+                    var11 = var3;
+                    var10 = var6;
+                    var6 = copyDataProperties(var11, var10);
+                    var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=149);
  147:
-                    return zuuluu;
+                    return var3;
  149:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 171; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 171; continue _fun0001 }
  155:
-                    tangon = zuuluu.body;
-                    tangon = tangon.client_secret;
-                    return tangon;
+                    var4 = var3.body;
+                    var4 = var4.client_secret;
+                    return var4;
  171:
-                    return zuuluu;
+                    return var3;
  174:
-                    return michal;
+                    return var2;
  177:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.Endpoints;
-    var _closure1_slot4 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/billing/actions/StripeActionCreators.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getSetupIntentSecret'] = tangon;
-    michal = function() {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Endpoints;
+    var _closure1_slot4 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/billing/actions/StripeActionCreators.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getSetupIntentSecret'] = var4;
+    var2 = function() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = arguments[0];
-            entity = arguments[1];
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00004_ip = 14; continue _fun00003 }
+            var6 = arguments[0];
+            var1 = arguments[1];
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0002_ip = 14; continue _fun0002 }
  12:
-            oscard = undefined;
+            var6 = undefined;
  14:
-            if(!(entity === tangon)) { _fun00004_ip = 20; continue _fun00003 }
+            if(!(var1 === var4)) { _fun0002_ip = 20; continue _fun0002 }
  18:
-            entity = {};
+            var1 = {};
  20:
-            report = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = golfie[zuuluu];
-            report = report.bind(tangon)(zuuluu);
-            zuuluu = report.getUserIsStaff;
-            zuuluu = zuuluu.bind(report)();
-            verify = null;
-            if(!(verify == oscard)) { _fun00004_ip = 149; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 4;
+            var3 = var7[var3];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getUserIsStaff;
+            var3 = var3.bind(var5)();
+            var9 = null;
+            if(!(var9 == var6)) { _fun0002_ip = 149; continue _fun0002 }
  59:
-            if(zuuluu) { _fun00004_ip = 68; continue _fun00003 }
+            if(var3) { _fun0002_ip = 68; continue _fun0002 }
  62:
-            zuuluu = new Array(0);
-            _fun00004_ip = 146; continue _fun00003;
+            var3 = new Array(0);
+            _fun0002_ip = 146; continue _fun0002;
  68:
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            report = 5;
-            report = option[report];
-            option = golfie.bind(tangon)(report);
-            golfie = option.getPaymentMethods;
-            report = {};
-            offset = _closure1_slot3;
-            offset = offset.ipCountryCode;
-            yankee = verify != offset;
-            verify = 'ALL';
-            if(!yankee) { _fun00004_ip = 120; continue _fun00003 }
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var5 = 5;
+            var5 = var8[var5];
+            var8 = var7.bind(var4)(var5);
+            var7 = var8.getPaymentMethods;
+            var5 = {};
+            var10 = _closure1_slot3;
+            var10 = var10.ipCountryCode;
+            var11 = var9 != var10;
+            var9 = 'ALL';
+            if(!var11) { _fun0002_ip = 120; continue _fun0002 }
  117:
-            verify = offset;
+            var9 = var10;
  120:
-            report['ipCountryCode'] = verify;
-            verify = 'create_setup_intent_for_payment_elements';
-            report['location'] = verify;
-            report = golfie.bind(option)(report);
-            zuuluu = report.countryPaymentMethods;
+            var5['ipCountryCode'] = var9;
+            var9 = 'create_setup_intent_for_payment_elements';
+            var5['location'] = var9;
+            var5 = var7.bind(var8)(var5);
+            var3 = var5.countryPaymentMethods;
  146:
-            oscard = zuuluu;
+            var6 = var3;
  149:
-            zuuluu = _closure1_slot5;
-            michal = {};
-            report = true;
-            michal['failImmediatelyWhenRateLimited'] = report;
-            foxtra = michal;
-            romeon = entity;
-            entity = copyDataProperties(foxtra, romeon);
-            report = oscard.length;
-            entity = 0;
-            report = report > entity;
-            entity = undefined;
-            if(!report) { _fun00004_ip = 198; continue _fun00003 }
+            var3 = _closure1_slot5;
+            var2 = {};
+            var5 = true;
+            var2['failImmediatelyWhenRateLimited'] = var5;
+            var13 = var2;
+            var12 = var1;
+            var1 = copyDataProperties(var13, var12);
+            var5 = var6.length;
+            var1 = 0;
+            var5 = var5 > var1;
+            var1 = undefined;
+            if(!var5) { _fun0002_ip = 198; continue _fun0002 }
  188:
-            report = {};
-            report['regionalPaymentMethods'] = oscard;
-            entity = report;
+            var5 = {};
+            var5['regionalPaymentMethods'] = var6;
+            var1 = var5;
  198:
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['createSetupIntentForPaymentElements'] = michal;
-    return entity;
+    var3['createSetupIntentForPaymentElements'] = var2;
+    return var1;
 })();

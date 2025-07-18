@@ -1,336 +1,336 @@
 // app/modules/expression_picker/ExpressionPickerStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = verify;
-    michal = global;
-    golfie = michal.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 0;
-    report = verify[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    report = report.ExpressionPickerViewType;
-    var _closure1_slot3 = report;
-    oscard = michal.Object;
-    report = oscard.freeze;
-    michal = {'activeView': null, 'lastActiveView': null, 'activeViewType': null, 'searchQuery': '', 'isSearchSuggestion': false, 'pickerId': null, 'isNitroLockedSectionVisible': false, 'areOnlyNitroLockedSectionsVisible': false};
-    golfie = 1;
-    offset = verify[golfie];
-    golfie = argBaz;
-    offset = golfie.bind(entity)(offset);
-    golfie = 'uid_';
-    golfie = offset.bind(entity)(golfie);
-    michal['pickerId'] = golfie;
-    michal = report.bind(oscard)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = verify[michal];
-    report = option.bind(entity)(michal);
-    michal = report.createWithEqualityFn;
-    report = michal.bind(report)();
-    michal = 3;
-    michal = verify[michal];
-    offset = option.bind(entity)(michal);
-    golfie = offset.persist;
-    oscard = {};
-    michal = 'expression-picker-last-active-view';
-    oscard['name'] = michal;
-    michal = function(argFoo) { // Original name: partialize
-        entity = {};
-        michal = argFoo;
-        michal = michal.lastActiveView;
-        entity['lastActiveView'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
+    var2 = global;
+    var7 = var2.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 0;
+    var5 = var9[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.ExpressionPickerViewType;
+    var _closure1_slot3 = var5;
+    var6 = var2.Object;
+    var5 = var6.freeze;
+    var2 = {'activeView': null, 'lastActiveView': null, 'activeViewType': null, 'searchQuery': '', 'isSearchSuggestion': false, 'pickerId': null, 'isNitroLockedSectionVisible': false, 'areOnlyNitroLockedSectionsVisible': false};
+    var7 = 1;
+    var10 = var9[var7];
+    var7 = native3;
+    var10 = var7.bind(var1)(var10);
+    var7 = 'uid_';
+    var7 = var10.bind(var1)(var7);
+    var2['pickerId'] = var7;
+    var2 = var5.bind(var6)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var9[var2];
+    var5 = var8.bind(var1)(var2);
+    var2 = var5.createWithEqualityFn;
+    var5 = var2.bind(var5)();
+    var2 = 3;
+    var2 = var9[var2];
+    var10 = var8.bind(var1)(var2);
+    var7 = var10.persist;
+    var6 = {};
+    var2 = 'expression-picker-last-active-view';
+    var6['name'] = var2;
+    var2 = function partialize(arg1) {
+        var1 = {};
+        var2 = arg1;
+        var2 = var2.lastActiveView;
+        var1['lastActiveView'] = var2;
+        return var1;
     };
-    oscard['partialize'] = michal;
-    michal = function() {
-        entity = _closure1_slot4;
-        return entity;
+    var6['partialize'] = var2;
+    var2 = function() {
+        var1 = _closure1_slot4;
+        return var1;
     };
-    michal = golfie.bind(offset)(michal, oscard);
-    michal = report.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    oscard = function(argFoo, argBar) { // Original name: openExpressionPicker
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2 = var7.bind(var10)(var2, var6);
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var6 = function openExpressionPicker(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            var _closure2_slot0 = tangon;
-            michal = argBar;
-            var _closure2_slot1 = michal;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.GIF;
-            if(!(tangon !== zuuluu)) { _fun00002_ip = 68; continue _fun00001 }
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var2 = arg2;
+            var _closure2_slot1 = var2;
+            var3 = _closure1_slot3;
+            var3 = var3.GIF;
+            if(!(var4 !== var3)) { _fun0001_ip = 68; continue _fun0001 }
  33:
-            tangon = _closure1_slot2;
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 134; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0001_ip = 134; continue _fun0001 }
  43:
-            tangon = global;
-            oscard = tangon.clearTimeout;
-            report = _closure1_slot2;
-            tangon = undefined;
-            tangon = oscard.bind(tangon)(report);
-            var _closure1_slot2 = zuuluu;
-            _fun00002_ip = 134; continue _fun00001;
+            var4 = global;
+            var6 = var4.clearTimeout;
+            var5 = _closure1_slot2;
+            var4 = undefined;
+            var4 = var6.bind(var4)(var5);
+            var _closure1_slot2 = var3;
+            _fun0001_ip = 134; continue _fun0001;
  68:
-            tangon = _closure1_slot2;
-            zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00002_ip = 205; continue _fun00001 }
+            var4 = _closure1_slot2;
+            var3 = null;
+            if(!(var3 == var4)) { _fun0001_ip = 205; continue _fun0001 }
  81:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            report = undefined;
-            oscard = tangon.bind(report)(zuuluu);
-            tangon = oscard.gifPickerDelayExperiment;
-            zuuluu = 'gif-picker';
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.enabled;
-            tangon = tangon.delayMs;
-            if(zuuluu) { _fun00002_ip = 176; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 4;
+            var3 = var5[var3];
+            var5 = undefined;
+            var6 = var4.bind(var5)(var3);
+            var4 = var6.gifPickerDelayExperiment;
+            var3 = 'gif-picker';
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.enabled;
+            var4 = var4.delayMs;
+            if(var3) { _fun0001_ip = 176; continue _fun0001 }
  134:
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot1;
-            zuuluu = 5;
-            oscard = oscard[zuuluu];
-            zuuluu = undefined;
-            option = golfie.bind(zuuluu)(oscard);
-            golfie = option.batchUpdates;
-            oscard = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.setState;
-                entity = {};
-                report = _closure2_slot0;
-                entity['activeView'] = report;
-                tangon = _closure2_slot1;
-                entity['activeViewType'] = tangon;
-                tangon = zuuluu.getState;
-                tangon = tangon.bind(zuuluu)();
-                tangon = tangon.activeView;
-                entity['lastActiveView'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 5;
+            var6 = var6[var3];
+            var3 = undefined;
+            var8 = var7.bind(var3)(var6);
+            var7 = var8.batchUpdates;
+            var6 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.setState;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['activeView'] = var5;
+                var4 = _closure2_slot1;
+                var1['activeViewType'] = var4;
+                var4 = var3.getState;
+                var4 = var4.bind(var3)();
+                var4 = var4.activeView;
+                var1['lastActiveView'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = golfie.bind(option)(oscard);
-            return zuuluu;
+            var6 = var7.bind(var8)(var6);
+            return var3;
  176:
-            zuuluu = global;
-            zuuluu = zuuluu.setTimeout;
-            entity = function() {
-                michal = null;
-                _closure1_slot2 = michal;
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 5;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.batchUpdates;
-                michal = function() {
-                    zuuluu = _closure1_slot5;
-                    michal = zuuluu.setState;
-                    entity = {};
-                    report = _closure2_slot0;
-                    entity['activeView'] = report;
-                    tangon = _closure2_slot1;
-                    entity['activeViewType'] = tangon;
-                    tangon = zuuluu.getState;
-                    tangon = tangon.bind(zuuluu)();
-                    tangon = tangon.activeView;
-                    entity['lastActiveView'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+            var3 = global;
+            var3 = var3.setTimeout;
+            var1 = function() {
+                var2 = null;
+                _closure1_slot2 = var2;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.batchUpdates;
+                var2 = function() {
+                    var3 = _closure1_slot5;
+                    var2 = var3.setState;
+                    var1 = {};
+                    var5 = _closure2_slot0;
+                    var1['activeView'] = var5;
+                    var4 = _closure2_slot1;
+                    var1['activeViewType'] = var4;
+                    var4 = var3.getState;
+                    var4 = var4.bind(var3)();
+                    var4 = var4.activeView;
+                    var1['lastActiveView'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            entity = zuuluu.bind(report)(entity, tangon);
-            _closure1_slot2 = entity;
-            entity = undefined;
-            return entity;
+            var1 = var3.bind(var5)(var1, var4);
+            _closure1_slot2 = var1;
+            var1 = undefined;
+            return var1;
  205:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot6 = oscard;
-    report = function(argFoo) { // Original name: closeExpressionPicker
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var6;
+    var5 = function closeExpressionPicker(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            tangon = _closure1_slot5;
-            entity = tangon.getState;
-            tangon = entity.bind(tangon)();
-            var _closure2_slot0 = tangon;
-            entity = undefined;
-            report = entity !== golfie;
-            if(!report) { _fun00004_ip = 45; continue _fun00003 }
+            var7 = arg1;
+            var4 = _closure1_slot5;
+            var1 = var4.getState;
+            var4 = var1.bind(var4)();
+            var _closure2_slot0 = var4;
+            var1 = undefined;
+            var5 = var1 !== var7;
+            if(!var5) { _fun0002_ip = 45; continue _fun0002 }
  35:
-            oscard = tangon.activeViewType;
-            report = golfie !== oscard;
+            var6 = var4.activeViewType;
+            var5 = var7 !== var6;
  45:
-            if(report) { _fun00004_ip = 98; continue _fun00003 }
+            if(var5) { _fun0002_ip = 98; continue _fun0002 }
  48:
-            report = tangon.activeView;
-            tangon = null;
-            if(!(tangon !== report)) { _fun00004_ip = 98; continue _fun00003 }
+            var5 = var4.activeView;
+            var4 = null;
+            if(!(var4 !== var5)) { _fun0002_ip = 98; continue _fun0002 }
  60:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.setState;
-                entity = {'activeView': null, 'activeViewType': null};
-                tangon = _closure2_slot0;
-                tangon = tangon.activeView;
-                entity['lastActiveView'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 5;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.setState;
+                var1 = {'activeView': null, 'activeViewType': null};
+                var4 = _closure2_slot0;
+                var4 = var4.activeView;
+                var1['lastActiveView'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
+            var2 = var3.bind(var4)(var2);
  98:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = report;
-    golfie = 6;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/expression_picker/ExpressionPickerStore.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['openExpressionPicker'] = oscard;
-    zuuluu['closeExpressionPicker'] = report;
-    report = function(argFoo) {
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var5;
+    var7 = 6;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/expression_picker/ExpressionPickerStore.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['openExpressionPicker'] = var6;
+    var3['closeExpressionPicker'] = var5;
+    var5 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.getState;
-            zuuluu = michal.bind(zuuluu)();
-            tangon = zuuluu.activeView;
-            michal = null;
-            if(!(michal != tangon)) { _fun00006_ip = 41; continue _fun00005 }
+            var3 = _closure1_slot5;
+            var2 = var3.getState;
+            var3 = var2.bind(var3)();
+            var4 = var3.activeView;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0003_ip = 41; continue _fun0003 }
  29:
-            report = _closure1_slot7;
-            tangon = undefined;
-            tangon = report.bind(tangon)();
-            _fun00006_ip = 76; continue _fun00005;
+            var5 = _closure1_slot7;
+            var4 = undefined;
+            var4 = var5.bind(var4)();
+            _fun0003_ip = 76; continue _fun0003;
  41:
-            tangon = _closure1_slot6;
-            zuuluu = zuuluu.lastActiveView;
-            if(!(michal == zuuluu)) { _fun00006_ip = 65; continue _fun00005 }
+            var4 = _closure1_slot6;
+            var3 = var3.lastActiveView;
+            if(!(var2 == var3)) { _fun0003_ip = 65; continue _fun0003 }
  55:
-            entity = _closure1_slot3;
-            zuuluu = entity.EMOJI;
+            var1 = _closure1_slot3;
+            var3 = var1.EMOJI;
  65:
-            michal = undefined;
-            entity = argFoo;
-            entity = tangon.bind(michal)(zuuluu, entity);
+            var2 = undefined;
+            var1 = arg1;
+            var1 = var4.bind(var2)(var3, var1);
  76:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['toggleMultiExpressionPicker'] = report;
-    report = function(argFoo, argBar) {
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['toggleMultiExpressionPicker'] = var5;
+    var5 = function(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.getState;
-            michal = michal.bind(zuuluu)();
-            michal = michal.activeView;
-            if(!(michal !== report)) { _fun00008_ip = 47; continue _fun00007 }
+            var5 = arg1;
+            var3 = _closure1_slot5;
+            var2 = var3.getState;
+            var2 = var2.bind(var3)();
+            var2 = var2.activeView;
+            if(!(var2 !== var5)) { _fun0004_ip = 47; continue _fun0004 }
  30:
-            tangon = _closure1_slot6;
-            zuuluu = undefined;
-            michal = argBar;
-            michal = tangon.bind(zuuluu)(report, michal);
-            _fun00008_ip = 57; continue _fun00007;
+            var4 = _closure1_slot6;
+            var3 = undefined;
+            var2 = arg2;
+            var2 = var4.bind(var3)(var5, var2);
+            _fun0004_ip = 57; continue _fun0004;
  47:
-            michal = _closure1_slot7;
-            entity = undefined;
-            entity = michal.bind(entity)();
+            var2 = _closure1_slot7;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
  57:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['toggleExpressionPicker'] = report;
-    report = function(argFoo) {
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 5;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.setState;
-            entity = {};
-            tangon = _closure2_slot0;
-            entity['activeView'] = tangon;
-            tangon = zuuluu.getState;
-            tangon = tangon.bind(zuuluu)();
-            tangon = tangon.activeView;
-            entity['lastActiveView'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['toggleExpressionPicker'] = var5;
+    var5 = function(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 5;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot5;
+            var2 = var3.setState;
+            var1 = {};
+            var4 = _closure2_slot0;
+            var1['activeView'] = var4;
+            var4 = var3.getState;
+            var4 = var4.bind(var3)();
+            var4 = var4.activeView;
+            var1['lastActiveView'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['setExpressionPickerView'] = report;
-    tangon = function(argFoo) {
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['setExpressionPickerView'] = var5;
+    var4 = function(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            zuuluu = arguments[1];
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00010_ip = 20; continue _fun00009 }
+            var3 = arguments[1];
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0005_ip = 20; continue _fun0005 }
  18:
-            zuuluu = false;
+            var3 = false;
  20:
-            var _closure2_slot1 = zuuluu;
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.batchUpdates;
-            michal = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.setState;
-                entity = {};
-                report = _closure2_slot0;
-                entity['searchQuery'] = report;
-                tangon = _closure2_slot1;
-                entity['isSearchSuggestion'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var _closure2_slot1 = var3;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 5;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.batchUpdates;
+            var2 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.setState;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['searchQuery'] = var5;
+                var4 = _closure2_slot1;
+                var1['isSearchSuggestion'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['setSearchQuery'] = tangon;
-    zuuluu['useExpressionPickerStore'] = michal;
-    return entity;
+    var3['setSearchQuery'] = var4;
+    var3['useExpressionPickerStore'] = var2;
+    return var1;
 })();

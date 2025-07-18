@@ -1,156 +1,156 @@
 // app/modules/premium/referral_program/hooks/useReferralProgramSubheaderText.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/referral_program/hooks/useReferralProgramSubheaderText.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: _default
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/referral_program/hooks/useReferralProgramSubheaderText.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.numNewSelected;
-            entity = entity.anySelected;
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            tangon = 1;
-            zuuluu = verify[tangon];
-            oscard = undefined;
-            offset = golfie.bind(oscard)(zuuluu);
-            option = offset.useStateFromStores;
-            zuuluu = _closure1_slot3;
-            golfie = new Array(1);
-            golfie[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot3;
-                entity = michal.getReferralsRemaining;
-                entity = entity.bind(michal)();
-                return entity;
+            var1 = arg1;
+            var5 = var1.numNewSelected;
+            var1 = var1.anySelected;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 1;
+            var3 = var9[var4];
+            var6 = undefined;
+            var10 = var7.bind(var6)(var3);
+            var8 = var10.useStateFromStores;
+            var3 = _closure1_slot3;
+            var7 = new Array(1);
+            var7[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getReferralsRemaining;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = option.bind(offset)(golfie, zuuluu);
-            golfie = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = verify[zuuluu];
-            verify = golfie.bind(oscard)(zuuluu);
-            zuuluu = null;
-            golfie = zuuluu != option;
-            zuuluu = 'Referrals remaining should not be null';
-            zuuluu = verify.bind(oscard)(golfie, zuuluu);
-            verify = option - report;
-            zuuluu = 0;
-            if(!(zuuluu !== option)) { _fun00002_ip = 403; continue _fun00001 }
+            var8 = var8.bind(var10)(var7, var3);
+            var7 = _closure1_slot1;
+            var3 = 2;
+            var3 = var9[var3];
+            var9 = var7.bind(var6)(var3);
+            var3 = null;
+            var7 = var3 != var8;
+            var3 = 'Referrals remaining should not be null';
+            var3 = var9.bind(var6)(var7, var3);
+            var9 = var8 - var5;
+            var3 = 0;
+            if(!(var3 !== var8)) { _fun0001_ip = 403; continue _fun0001 }
  119:
-            if(!(zuuluu === report)) { _fun00002_ip = 196; continue _fun00001 }
+            if(!(var3 === var5)) { _fun0001_ip = 196; continue _fun0001 }
  123:
-            if(entity) { _fun00002_ip = 196; continue _fun00001 }
+            if(var1) { _fun0001_ip = 196; continue _fun0001 }
  126:
-            report = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 3;
-            golfie = yankee[entity];
-            golfie = report.bind(oscard)(golfie);
-            offset = golfie.intl;
-            golfie = offset.formatToPlainString;
-            entity = yankee[entity];
-            entity = report.bind(oscard)(entity);
-            entity = entity.t;
-            report = entity.GcKM5e;
-            entity = {};
-            entity['numReferrals'] = option;
-            entity = golfie.bind(offset)(report, entity);
-            _fun00002_ip = 401; continue _fun00001;
+            var5 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var1 = 3;
+            var7 = var11[var1];
+            var7 = var5.bind(var6)(var7);
+            var10 = var7.intl;
+            var7 = var10.formatToPlainString;
+            var1 = var11[var1];
+            var1 = var5.bind(var6)(var1);
+            var1 = var1.t;
+            var5 = var1.GcKM5e;
+            var1 = {};
+            var1['numReferrals'] = var8;
+            var1 = var7.bind(var10)(var5, var1);
+            _fun0001_ip = 401; continue _fun0001;
  196:
-            if(!(tangon !== verify)) { _fun00002_ip = 341; continue _fun00001 }
+            if(!(var4 !== var9)) { _fun0001_ip = 341; continue _fun0001 }
  203:
-            if(!(!(verify > zuuluu))) { _fun00002_ip = 274; continue _fun00001 }
+            if(!(!(var9 > var3))) { _fun0001_ip = 274; continue _fun0001 }
  207:
-            tangon = _closure1_slot0;
-            offset = _closure1_slot2;
-            zuuluu = 3;
-            report = offset[zuuluu];
-            report = tangon.bind(oscard)(report);
-            golfie = report.intl;
-            report = golfie.formatToPlainString;
-            zuuluu = offset[zuuluu];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            tangon = zuuluu.3PJw6e;
-            zuuluu = {};
-            zuuluu['numReferrals'] = option;
-            zuuluu = report.bind(golfie)(tangon, zuuluu);
-            _fun00002_ip = 339; continue _fun00001;
+            var4 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 3;
+            var5 = var10[var3];
+            var5 = var4.bind(var6)(var5);
+            var7 = var5.intl;
+            var5 = var7.formatToPlainString;
+            var3 = var10[var3];
+            var3 = var4.bind(var6)(var3);
+            var3 = var3.t;
+            var4 = var3.3PJw6e;
+            var3 = {};
+            var3['numReferrals'] = var8;
+            var3 = var5.bind(var7)(var4, var3);
+            _fun0001_ip = 339; continue _fun0001;
  274:
-            report = _closure1_slot0;
-            offset = _closure1_slot2;
-            tangon = 3;
-            golfie = offset[tangon];
-            golfie = report.bind(oscard)(golfie);
-            option = golfie.intl;
-            golfie = option.formatToPlainString;
-            tangon = offset[tangon];
-            tangon = report.bind(oscard)(tangon);
-            tangon = tangon.t;
-            report = tangon.hZnIz8;
-            tangon = {};
-            tangon['numFriends'] = verify;
-            zuuluu = golfie.bind(option)(report, tangon);
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var4 = 3;
+            var7 = var10[var4];
+            var7 = var5.bind(var6)(var7);
+            var8 = var7.intl;
+            var7 = var8.formatToPlainString;
+            var4 = var10[var4];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.t;
+            var5 = var4.hZnIz8;
+            var4 = {};
+            var4['numFriends'] = var9;
+            var3 = var7.bind(var8)(var5, var4);
  339:
-            _fun00002_ip = 398; continue _fun00001;
+            _fun0001_ip = 398; continue _fun0001;
  341:
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            tangon = 3;
-            report = verify[tangon];
-            report = option.bind(oscard)(report);
-            golfie = report.intl;
-            report = golfie.string;
-            tangon = verify[tangon];
-            tangon = option.bind(oscard)(tangon);
-            tangon = tangon.t;
-            tangon = tangon.UfPk1t;
-            zuuluu = report.bind(golfie)(tangon);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var4 = 3;
+            var5 = var9[var4];
+            var5 = var8.bind(var6)(var5);
+            var7 = var5.intl;
+            var5 = var7.string;
+            var4 = var9[var4];
+            var4 = var8.bind(var6)(var4);
+            var4 = var4.t;
+            var4 = var4.UfPk1t;
+            var3 = var5.bind(var7)(var4);
  398:
-            entity = zuuluu;
+            var1 = var3;
  401:
-            _fun00002_ip = 460; continue _fun00001;
+            _fun0001_ip = 460; continue _fun0001;
  403:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 3;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            michal = michal.mPmPrq;
-            entity = zuuluu.bind(tangon)(michal);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 3;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.mPmPrq;
+            var1 = var3.bind(var4)(var2);
  460:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

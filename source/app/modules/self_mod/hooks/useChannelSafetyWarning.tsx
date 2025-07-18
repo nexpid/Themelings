@@ -1,101 +1,101 @@
 // app/modules/self_mod/hooks/useChannelSafetyWarning.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/self_mod/hooks/useChannelSafetyWarning.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useChannelSafetyWarning
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        zuuluu = argBar;
-        var _closure2_slot1 = zuuluu;
-        oscard = _closure1_slot0;
-        report = _closure1_slot1;
-        tangon = 1;
-        report = report[tangon];
-        tangon = undefined;
-        oscard = oscard.bind(tangon)(report);
-        report = oscard.useStateFromStores;
-        zuuluu = _closure1_slot2;
-        tangon = new Array(1);
-        tangon[0] = zuuluu;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = function() {
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getChannelSafetyWarnings;
-            entity = _closure2_slot0;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/self_mod/hooks/useChannelSafetyWarning.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useChannelSafetyWarning(arg1, arg2) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var3 = arg2;
+        var _closure2_slot1 = var3;
+        var6 = _closure1_slot0;
+        var5 = _closure1_slot1;
+        var4 = 1;
+        var5 = var5[var4];
+        var4 = undefined;
+        var6 = var6.bind(var4)(var5);
+        var5 = var6.useStateFromStores;
+        var3 = _closure1_slot2;
+        var4 = new Array(1);
+        var4[0] = var3;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = function() {
+            var3 = _closure1_slot2;
+            var2 = var3.getChannelSafetyWarnings;
+            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        tangon = report.bind(oscard)(tangon, michal, zuuluu);
-        zuuluu = tangon.filter;
-        michal = function(argFoo) {
-            entity = argFoo;
-            michal = entity.type;
-            entity = _closure2_slot1;
-            entity = michal === entity;
-            return entity;
+        var4 = var5.bind(var6)(var4, var2, var3);
+        var3 = var4.filter;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.type;
+            var1 = _closure2_slot1;
+            var1 = var2 === var1;
+            return var1;
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.find;
-        entity = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.find;
+        var1 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                tangon = argFoo;
-                entity = tangon.dismiss_timestamp;
-                zuuluu = null;
-                entity = zuuluu == entity;
-                if(!entity) { _fun00002_ip = 87; continue _fun00001 }
+                var4 = arg1;
+                var1 = var4.dismiss_timestamp;
+                var3 = null;
+                var1 = var3 == var1;
+                if(!var1) { _fun0001_ip = 87; continue _fun0001 }
  18:
-                report = zuuluu == tangon;
-                michal = undefined;
-                if(report) { _fun00002_ip = 33; continue _fun00001 }
+                var5 = var3 == var4;
+                var2 = undefined;
+                if(var5) { _fun0001_ip = 33; continue _fun0001 }
  27:
-                michal = tangon.expiry;
+                var2 = var4.expiry;
  33:
-                michal = zuuluu == michal;
-                if(michal) { _fun00002_ip = 84; continue _fun00001 }
+                var2 = var3 == var2;
+                if(var2) { _fun0001_ip = 84; continue _fun0001 }
  40:
-                zuuluu = global;
-                oscard = zuuluu.Date;
-                report = oscard.parse;
-                tangon = tangon.expiry;
-                tangon = report.bind(oscard)(tangon);
-                report = zuuluu.Date;
-                zuuluu = report.now;
-                zuuluu = zuuluu.bind(report)();
-                michal = tangon > zuuluu;
+                var3 = global;
+                var6 = var3.Date;
+                var5 = var6.parse;
+                var4 = var4.expiry;
+                var4 = var5.bind(var6)(var4);
+                var5 = var3.Date;
+                var3 = var5.now;
+                var3 = var3.bind(var5)();
+                var2 = var4 > var3;
  84:
-                entity = michal;
+                var1 = var2;
  87:
-                return entity;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useChannelSafetyWarning'] = michal;
-    return entity;
+    var3['useChannelSafetyWarning'] = var2;
+    return var1;
 })();

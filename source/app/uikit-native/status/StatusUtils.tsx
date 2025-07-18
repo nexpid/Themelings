@@ -1,90 +1,90 @@
 // app/uikit-native/status/StatusUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.STATUS_PADDING;
-    var _closure1_slot0 = golfie;
-    tangon = tangon.StatusSizes;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/status/StatusUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getAnimatedTypingTranslateX
-        michal = argFoo;
-        entity = 2;
-        michal = michal / entity;
-        entity = 6;
-        entity = michal - entity;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.STATUS_PADDING;
+    var _closure1_slot0 = var7;
+    var4 = var4.StatusSizes;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/status/StatusUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getAnimatedTypingTranslateX(arg1) {
+        var2 = arg1;
+        var1 = 2;
+        var2 = var2 / var1;
+        var1 = 6;
+        var1 = var2 - var1;
+        return var1;
     };
-    zuuluu['getAnimatedTypingTranslateX'] = tangon;
-    tangon = function(argFoo) { // Original name: getMobileStatusContainerRect
-        entity = {};
-        zuuluu = _closure1_slot0;
-        michal = 2;
-        zuuluu = michal * zuuluu;
-        michal = argFoo;
-        zuuluu = michal + zuuluu;
-        entity['width'] = zuuluu;
-        michal = 1.4;
-        michal = michal * zuuluu;
-        entity['height'] = michal;
-        michal = 4;
-        michal = zuuluu / michal;
-        entity['cornerRadius'] = michal;
-        return entity;
+    var3['getAnimatedTypingTranslateX'] = var4;
+    var4 = function getMobileStatusContainerRect(arg1) {
+        var1 = {};
+        var3 = _closure1_slot0;
+        var2 = 2;
+        var3 = var2 * var3;
+        var2 = arg1;
+        var3 = var2 + var3;
+        var1['width'] = var3;
+        var2 = 1.4;
+        var2 = var2 * var3;
+        var1['height'] = var2;
+        var2 = 4;
+        var2 = var3 / var2;
+        var1['cornerRadius'] = var2;
+        return var1;
     };
-    zuuluu['getMobileStatusContainerRect'] = tangon;
-    michal = function(argFoo) { // Original name: getStatusTypingDimensions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['getMobileStatusContainerRect'] = var4;
+    var2 = function getStatusTypingDimensions(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            michal = _closure1_slot1;
-            michal = michal.SMALL;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 54; continue _fun00001 }
+            var3 = arg1;
+            var2 = _closure1_slot1;
+            var2 = var2.SMALL;
+            if(!(var2 !== var3)) { _fun0001_ip = 54; continue _fun0001 }
  20:
-            michal = _closure1_slot1;
-            michal = michal.XSMALL;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 54; continue _fun00001 }
+            var2 = _closure1_slot1;
+            var2 = var2.XSMALL;
+            if(!(var2 !== var3)) { _fun0001_ip = 54; continue _fun0001 }
  34:
-            entity = _closure1_slot1;
-            entity = entity.REFRESH_MEDIUM_10;
-            oscard = 28;
-            michal = 6;
-            if(!(entity === zuuluu)) { _fun00002_ip = 60; continue _fun00001 }
+            var1 = _closure1_slot1;
+            var1 = var1.REFRESH_MEDIUM_10;
+            var6 = 28;
+            var2 = 6;
+            if(!(var1 === var3)) { _fun0001_ip = 60; continue _fun0001 }
  54:
-            oscard = 22;
-            michal = 4;
+            var6 = 22;
+            var2 = 4;
  60:
-            entity = {};
-            entity['width'] = oscard;
-            zuuluu = global;
-            report = zuuluu.Math;
-            tangon = report.floor;
-            zuuluu = 2.33;
-            zuuluu = oscard / zuuluu;
-            zuuluu = tangon.bind(report)(zuuluu);
-            entity['height'] = zuuluu;
-            entity['dotSize'] = michal;
-            return entity;
+            var1 = {};
+            var1['width'] = var6;
+            var3 = global;
+            var5 = var3.Math;
+            var4 = var5.floor;
+            var3 = 2.33;
+            var3 = var6 / var3;
+            var3 = var4.bind(var5)(var3);
+            var1['height'] = var3;
+            var1['dotSize'] = var2;
+            return var1;
         }
     };
-    zuuluu['getStatusTypingDimensions'] = michal;
-    return entity;
+    var3['getStatusTypingDimensions'] = var2;
+    return var1;
 })();

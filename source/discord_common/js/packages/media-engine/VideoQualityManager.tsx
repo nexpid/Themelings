@@ -1,1102 +1,1102 @@
 // discord_common/js/packages/media-engine/VideoQualityManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = verify;
-    tangon = global;
-    offset = tangon.Object;
-    oscard = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = verify[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    var _closure1_slot2 = report;
-    oscard = 1;
-    oscard = verify[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 2;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    golfie = oscard.defaultVideoQualityOptions;
-    var _closure1_slot4 = golfie;
-    golfie = oscard.MediaEngineContextTypes;
-    var _closure1_slot5 = golfie;
-    offset = oscard.VideoQualityMode;
-    golfie = oscard.VIDEO_QUALITY_FRAMERATE;
-    var _closure1_slot6 = golfie;
-    golfie = oscard.DESKTOP_LOW_QUALITY_STREAM_MAX_BITRATE;
-    var _closure1_slot7 = golfie;
-    golfie = oscard.DESKTOP_LOW_QUALITY_STREAM_MIN_BITRATE;
-    var _closure1_slot8 = golfie;
-    golfie = oscard.VIDEO_QUALITY_GOLIVE_LQ_WIDTH;
-    var _closure1_slot9 = golfie;
-    golfie = oscard.VIDEO_QUALITY_GOLIVE_LQ_HEIGHT;
-    var _closure1_slot10 = golfie;
-    oscard = oscard.VIDEO_QUALITY_GOLIVE_LQ_FRAMERATE;
-    var _closure1_slot11 = oscard;
-    golfie = tangon.Object;
-    oscard = golfie.freeze;
-    tangon = {};
-    romeon = offset.AUTO;
-    yankee = {};
-    tangon[romeon] = yankee;
-    yankee = offset.FULL;
-    offset = {};
-    romeon = {'width': 1280, 'height': 720};
-    offset['encode'] = romeon;
-    tangon[yankee] = offset;
-    oscard = oscard.bind(golfie)(tangon);
-    tangon = function(argFoo) { // Original name: WantsVideoQuality
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var7 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
+    var4 = global;
+    var10 = var4.Object;
+    var6 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var9[var1];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var6 = 1;
+    var6 = var9[var6];
+    var6 = var7.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 2;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var7 = var6.defaultVideoQualityOptions;
+    var _closure1_slot4 = var7;
+    var7 = var6.MediaEngineContextTypes;
+    var _closure1_slot5 = var7;
+    var10 = var6.VideoQualityMode;
+    var7 = var6.VIDEO_QUALITY_FRAMERATE;
+    var _closure1_slot6 = var7;
+    var7 = var6.DESKTOP_LOW_QUALITY_STREAM_MAX_BITRATE;
+    var _closure1_slot7 = var7;
+    var7 = var6.DESKTOP_LOW_QUALITY_STREAM_MIN_BITRATE;
+    var _closure1_slot8 = var7;
+    var7 = var6.VIDEO_QUALITY_GOLIVE_LQ_WIDTH;
+    var _closure1_slot9 = var7;
+    var7 = var6.VIDEO_QUALITY_GOLIVE_LQ_HEIGHT;
+    var _closure1_slot10 = var7;
+    var6 = var6.VIDEO_QUALITY_GOLIVE_LQ_FRAMERATE;
+    var _closure1_slot11 = var6;
+    var7 = var4.Object;
+    var6 = var7.freeze;
+    var4 = {};
+    var12 = var10.AUTO;
+    var11 = {};
+    var4[var12] = var11;
+    var11 = var10.FULL;
+    var10 = {};
+    var12 = {'width': 1280, 'height': 720};
+    var10['encode'] = var12;
+    var4[var11] = var10;
+    var6 = var6.bind(var7)(var4);
+    var4 = function WantsVideoQuality(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = this;
-            oscard = _closure1_slot3;
-            tangon = _closure1_slot14;
-            entity = undefined;
-            tangon = oscard.bind(entity)(zuuluu, tangon);
-            tangon = michal.capture;
-            oscard = null;
-            if(!(oscard == tangon)) { _fun00002_ip = 50; continue _fun00001 }
+            var2 = arg1;
+            var3 = this;
+            var6 = _closure1_slot3;
+            var4 = _closure1_slot14;
+            var1 = undefined;
+            var4 = var6.bind(var1)(var3, var4);
+            var4 = var2.capture;
+            var6 = null;
+            if(!(var6 == var4)) { _fun0001_ip = 50; continue _fun0001 }
  37:
-            tangon = michal.encode;
-            if(!(oscard != tangon)) { _fun00002_ip = 202; continue _fun00001 }
+            var4 = var2.encode;
+            if(!(var6 != var4)) { _fun0001_ip = 202; continue _fun0001 }
  50:
-            tangon = michal.capture;
-            golfie = oscard == tangon;
-            tangon = undefined;
-            if(golfie) { _fun00002_ip = 95; continue _fun00001 }
+            var4 = var2.capture;
+            var7 = var6 == var4;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 95; continue _fun0001 }
  65:
-            verify = _closure1_slot13;
-            yankee = michal.capture;
-            option = verify.prototype;
-            option = Object.create(option, {constructor: {value: verify}});
-            romeon = option;
-            golfie = new romeon[verify](yankee, offset);
-            tangon = golfie instanceof Object ? golfie : option;
+            var9 = _closure1_slot13;
+            var11 = var2.capture;
+            var8 = var9.prototype;
+            var8 = Object.create(var8, {constructor: {value: var9}});
+            var12 = var8;
+            var7 = new var12[var9](var11, var10);
+            var4 = var7 instanceof Object ? var7 : var8;
  95:
-            zuuluu['capture'] = tangon;
-            tangon = michal.encode;
-            oscard = oscard == tangon;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 146; continue _fun00001 }
+            var3['capture'] = var4;
+            var4 = var2.encode;
+            var6 = var6 == var4;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 146; continue _fun0001 }
  116:
-            golfie = _closure1_slot13;
-            yankee = michal.encode;
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            romeon = oscard;
-            report = new romeon[golfie](yankee, offset);
-            tangon = report instanceof Object ? report : oscard;
+            var7 = _closure1_slot13;
+            var11 = var2.encode;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
+            var5 = new var12[var7](var11, var10);
+            var4 = var5 instanceof Object ? var5 : var6;
  146:
-            zuuluu['encode'] = tangon;
-            tangon = michal.bitrateMin;
-            zuuluu['bitrateMin'] = tangon;
-            tangon = michal.bitrateMax;
-            zuuluu['bitrateMax'] = tangon;
-            tangon = michal.bitrateTarget;
-            zuuluu['bitrateTarget'] = tangon;
-            michal = michal.localWant;
-            zuuluu['localWant'] = michal;
-            return entity;
+            var3['encode'] = var4;
+            var4 = var2.bitrateMin;
+            var3['bitrateMin'] = var4;
+            var4 = var2.bitrateMax;
+            var3['bitrateMax'] = var4;
+            var4 = var2.bitrateTarget;
+            var3['bitrateTarget'] = var4;
+            var2 = var2.localWant;
+            var3['localWant'] = var2;
+            return var1;
  202:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            yankee = 'Invalid arguments.';
-            romeon = michal;
-            entity = new romeon[zuuluu](yankee, offset);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var11 = 'Invalid arguments.';
+            var12 = var2;
+            var1 = new var12[var3](var11, var10);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    var _closure1_slot14 = tangon;
-    report = report.bind(entity)(tangon);
-    var _closure1_slot12 = report;
-    tangon = function() {
-        report = _closure1_slot2;
-        tangon = function(argFoo) { // Original name: VideoQuality
-            michal = argFoo;
-            zuuluu = this;
-            report = _closure1_slot3;
-            tangon = _closure2_slot0;
-            entity = undefined;
-            tangon = report.bind(entity)(zuuluu, tangon);
-            tangon = michal.width;
-            zuuluu['width'] = tangon;
-            tangon = michal.height;
-            zuuluu['height'] = tangon;
-            tangon = michal.framerate;
-            zuuluu['framerate'] = tangon;
-            tangon = michal.width;
-            michal = michal.height;
-            michal = tangon * michal;
-            zuuluu['pixelCount'] = michal;
-            return entity;
+    var _closure1_slot14 = var4;
+    var5 = var5.bind(var1)(var4);
+    var _closure1_slot12 = var5;
+    var4 = function() {
+        var5 = _closure1_slot2;
+        var4 = function VideoQuality(arg1) {
+            var2 = arg1;
+            var3 = this;
+            var5 = _closure1_slot3;
+            var4 = _closure2_slot0;
+            var1 = undefined;
+            var4 = var5.bind(var1)(var3, var4);
+            var4 = var2.width;
+            var3['width'] = var4;
+            var4 = var2.height;
+            var3['height'] = var4;
+            var4 = var2.framerate;
+            var3['framerate'] = var4;
+            var4 = var2.width;
+            var2 = var2.height;
+            var2 = var4 * var2;
+            var3['pixelCount'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = tangon;
-        entity = {};
-        zuuluu = 'equals';
-        entity['key'] = zuuluu;
-        zuuluu = function(argFoo, argBar) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var _closure2_slot0 = var4;
+        var1 = {};
+        var3 = 'equals';
+        var1['key'] = var3;
+        var3 = function value(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                report = argFoo;
-                tangon = argBar;
-                zuuluu = null;
-                entity = zuuluu == report;
-                if(!entity) { _fun00004_ip = 19; continue _fun00003 }
+                var5 = arg1;
+                var4 = arg2;
+                var3 = null;
+                var1 = var3 == var5;
+                if(!var1) { _fun0002_ip = 19; continue _fun0002 }
  15:
-                entity = zuuluu == tangon;
+                var1 = var3 == var4;
  19:
-                if(entity) { _fun00004_ip = 92; continue _fun00003 }
+                if(var1) { _fun0002_ip = 92; continue _fun0002 }
  22:
-                michal = zuuluu != report;
-                if(!michal) { _fun00004_ip = 33; continue _fun00003 }
+                var2 = var3 != var5;
+                if(!var2) { _fun0002_ip = 33; continue _fun0002 }
  29:
-                michal = zuuluu != tangon;
+                var2 = var3 != var4;
  33:
-                if(!michal) { _fun00004_ip = 89; continue _fun00003 }
+                if(!var2) { _fun0002_ip = 89; continue _fun0002 }
  36:
-                oscard = report.width;
-                zuuluu = tangon.width;
-                zuuluu = oscard === zuuluu;
-                if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+                var6 = var5.width;
+                var3 = var4.width;
+                var3 = var6 === var3;
+                if(!var3) { _fun0002_ip = 67; continue _fun0002 }
  53:
-                golfie = report.height;
-                oscard = tangon.height;
-                zuuluu = golfie === oscard;
+                var7 = var5.height;
+                var6 = var4.height;
+                var3 = var7 === var6;
  67:
-                if(!zuuluu) { _fun00004_ip = 86; continue _fun00003 }
+                if(!var3) { _fun0002_ip = 86; continue _fun0002 }
  70:
-                report = report.framerate;
-                tangon = tangon.framerate;
-                zuuluu = report === tangon;
+                var5 = var5.framerate;
+                var4 = var4.framerate;
+                var3 = var5 === var4;
  86:
-                michal = zuuluu;
+                var2 = var3;
  89:
-                entity = michal;
+                var1 = var2;
  92:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = zuuluu;
-        zuuluu = new Array(2);
-        zuuluu[0] = entity;
-        entity = {};
-        oscard = 'extend';
-        entity['key'] = oscard;
-        michal = function(argFoo, argBar) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var3;
+        var3 = new Array(2);
+        var3[0] = var1;
+        var1 = {};
+        var6 = 'extend';
+        var1['key'] = var6;
+        var2 = function value(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = argFoo;
-                entity = argBar;
-                option = null;
-                if(!(option != michal)) { _fun00006_ip = 181; continue _fun00005 }
+                var2 = arg1;
+                var1 = arg2;
+                var8 = null;
+                if(!(var8 != var2)) { _fun0003_ip = 181; continue _fun0003 }
  15:
-                if(!(option != entity)) { _fun00006_ip = 179; continue _fun00005 }
+                if(!(var8 != var1)) { _fun0003_ip = 179; continue _fun0003 }
  22:
-                tangon = option == entity;
-                zuuluu = undefined;
-                if(tangon) { _fun00006_ip = 36; continue _fun00005 }
+                var4 = var8 == var1;
+                var3 = undefined;
+                if(var4) { _fun0003_ip = 36; continue _fun0003 }
  31:
-                zuuluu = entity.width;
+                var3 = var1.width;
  36:
-                if(!(option == zuuluu)) { _fun00006_ip = 57; continue _fun00005 }
+                if(!(var8 == var3)) { _fun0003_ip = 57; continue _fun0003 }
  40:
-                report = option == michal;
-                tangon = undefined;
-                if(report) { _fun00006_ip = 54; continue _fun00005 }
+                var5 = var8 == var2;
+                var4 = undefined;
+                if(var5) { _fun0003_ip = 54; continue _fun0003 }
  49:
-                tangon = michal.width;
+                var4 = var2.width;
  54:
-                zuuluu = tangon;
+                var3 = var4;
  57:
-                oscard = option != zuuluu;
-                tangon = 0;
-                if(!oscard) { _fun00006_ip = 69; continue _fun00005 }
+                var6 = var8 != var3;
+                var4 = 0;
+                if(!var6) { _fun0003_ip = 69; continue _fun0003 }
  66:
-                tangon = zuuluu;
+                var4 = var3;
  69:
-                oscard = option == entity;
-                zuuluu = undefined;
-                if(oscard) { _fun00006_ip = 83; continue _fun00005 }
+                var6 = var8 == var1;
+                var3 = undefined;
+                if(var6) { _fun0003_ip = 83; continue _fun0003 }
  78:
-                zuuluu = entity.height;
+                var3 = var1.height;
  83:
-                if(!(option == zuuluu)) { _fun00006_ip = 104; continue _fun00005 }
+                if(!(var8 == var3)) { _fun0003_ip = 104; continue _fun0003 }
  87:
-                verify = option == michal;
-                oscard = undefined;
-                if(verify) { _fun00006_ip = 101; continue _fun00005 }
+                var9 = var8 == var2;
+                var6 = undefined;
+                if(var9) { _fun0003_ip = 101; continue _fun0003 }
  96:
-                oscard = michal.height;
+                var6 = var2.height;
  101:
-                zuuluu = oscard;
+                var3 = var6;
  104:
-                oscard = option != zuuluu;
-                report = 0;
-                if(!oscard) { _fun00006_ip = 116; continue _fun00005 }
+                var6 = var8 != var3;
+                var5 = 0;
+                if(!var6) { _fun0003_ip = 116; continue _fun0003 }
  113:
-                report = zuuluu;
+                var5 = var3;
  116:
-                zuuluu = {};
-                zuuluu['width'] = tangon;
-                zuuluu['height'] = report;
-                verify = option == entity;
-                oscard = undefined;
-                if(verify) { _fun00006_ip = 141; continue _fun00005 }
+                var3 = {};
+                var3['width'] = var4;
+                var3['height'] = var5;
+                var9 = var8 == var1;
+                var6 = undefined;
+                if(var9) { _fun0003_ip = 141; continue _fun0003 }
  135:
-                oscard = entity.framerate;
+                var6 = var1.framerate;
  141:
-                if(!(option == oscard)) { _fun00006_ip = 163; continue _fun00005 }
+                if(!(var8 == var6)) { _fun0003_ip = 163; continue _fun0003 }
  145:
-                option = option == michal;
-                golfie = undefined;
-                if(option) { _fun00006_ip = 160; continue _fun00005 }
+                var8 = var8 == var2;
+                var7 = undefined;
+                if(var8) { _fun0003_ip = 160; continue _fun0003 }
  154:
-                golfie = michal.framerate;
+                var7 = var2.framerate;
  160:
-                oscard = golfie;
+                var6 = var7;
  163:
-                zuuluu['framerate'] = oscard;
-                tangon = tangon * report;
-                zuuluu['pixelCount'] = tangon;
-                return zuuluu;
+                var3['framerate'] = var6;
+                var4 = var4 * var5;
+                var3['pixelCount'] = var4;
+                return var3;
  179:
-                return michal;
+                return var2;
  181:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        zuuluu[1] = entity;
-        michal = undefined;
-        entity = null;
-        entity = report.bind(michal)(tangon, entity, zuuluu);
-        return entity;
+        var1['value'] = var2;
+        var3[1] = var1;
+        var2 = undefined;
+        var1 = null;
+        var1 = var5.bind(var2)(var4, var1, var3);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot13 = tangon;
-    michal = function() {
-        tangon = _closure1_slot2;
-        zuuluu = function(argFoo, argBar) { // Original name: VideoQualityManager
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot13 = var4;
+    var2 = function() {
+        var4 = _closure1_slot2;
+        var3 = function VideoQualityManager(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                golfie = arguments[2];
-                zuuluu = this;
-                entity = undefined;
-                if(!(golfie === entity)) { _fun00008_ip = 19; continue _fun00007 }
+                var7 = arguments[2];
+                var3 = this;
+                var1 = undefined;
+                if(!(var7 === var1)) { _fun0004_ip = 19; continue _fun0004 }
  12:
-                golfie = _closure1_slot4;
+                var7 = _closure1_slot4;
  19:
-                report = _closure1_slot3;
-                tangon = _closure2_slot0;
-                tangon = report.bind(entity)(zuuluu, tangon);
-                tangon = argFoo;
-                zuuluu['contextType'] = tangon;
-                tangon = argBar;
-                zuuluu['connection'] = tangon;
-                zuuluu['options'] = golfie;
-                tangon = false;
-                zuuluu['isMuted'] = tangon;
-                oscard = zuuluu.contextType;
-                report = _closure1_slot5;
-                report = report.STREAM;
-                report = oscard === report;
-                zuuluu['isStreamContext'] = report;
-                oscard = _closure1_slot0;
-                option = _closure1_slot1;
-                report = 3;
-                report = option[report];
-                report = oscard.bind(entity)(report);
-                report = report.MediaSinkWantsLadder;
-                oscard = report.prototype;
-                oscard = Object.create(oscard, {constructor: {value: report}});
-                yankee = oscard;
-                offset = golfie;
-                report = new yankee[report](offset, verify);
-                report = report instanceof Object ? report : oscard;
-                zuuluu['ladder'] = report;
-                report = zuuluu.getDefaultGoliveQuality;
-                report = report.bind(zuuluu)();
-                zuuluu['goliveMaxQuality'] = report;
-                zuuluu['goliveSimulcastEnabled'] = tangon;
-                zuuluu['goliveUsePixelCounts'] = tangon;
-                michal = _closure1_slot7;
-                zuuluu['goliveSimulcastLQBitrateMax'] = michal;
-                zuuluu['goliveSimulcastLQBitrateTarget'] = michal;
-                michal = {};
-                zuuluu['lastGoLivePixelCount'] = michal;
-                return entity;
+                var5 = _closure1_slot3;
+                var4 = _closure2_slot0;
+                var4 = var5.bind(var1)(var3, var4);
+                var4 = arg1;
+                var3['contextType'] = var4;
+                var4 = arg2;
+                var3['connection'] = var4;
+                var3['options'] = var7;
+                var4 = false;
+                var3['isMuted'] = var4;
+                var6 = var3.contextType;
+                var5 = _closure1_slot5;
+                var5 = var5.STREAM;
+                var5 = var6 === var5;
+                var3['isStreamContext'] = var5;
+                var6 = _closure1_slot0;
+                var8 = _closure1_slot1;
+                var5 = 3;
+                var5 = var8[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.MediaSinkWantsLadder;
+                var6 = var5.prototype;
+                var6 = Object.create(var6, {constructor: {value: var5}});
+                var11 = var6;
+                var10 = var7;
+                var5 = new var11[var5](var10, var9);
+                var5 = var5 instanceof Object ? var5 : var6;
+                var3['ladder'] = var5;
+                var5 = var3.getDefaultGoliveQuality;
+                var5 = var5.bind(var3)();
+                var3['goliveMaxQuality'] = var5;
+                var3['goliveSimulcastEnabled'] = var4;
+                var3['goliveUsePixelCounts'] = var4;
+                var2 = _closure1_slot7;
+                var3['goliveSimulcastLQBitrateMax'] = var2;
+                var3['goliveSimulcastLQBitrateTarget'] = var2;
+                var2 = {};
+                var3['lastGoLivePixelCount'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'getQuality';
-        entity['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'getQuality';
+        var1['key'] = var2;
+        var2 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                golfie = argFoo;
-                report = this;
-                michal = report.connection;
-                entity = michal.getLocalWant;
-                tangon = entity.bind(michal)(golfie);
-                oscard = null;
-                entity = oscard != golfie;
-                option = 0;
-                michal = 0;
-                if(!entity) { _fun00010_ip = 168; continue _fun00009 }
+                var7 = arg1;
+                var5 = this;
+                var2 = var5.connection;
+                var1 = var2.getLocalWant;
+                var4 = var1.bind(var2)(var7);
+                var6 = null;
+                var1 = var6 != var7;
+                var8 = 0;
+                var2 = 0;
+                if(!var1) { _fun0005_ip = 168; continue _fun0005 }
  41:
-                zuuluu = report.connection;
-                entity = zuuluu.getRemoteVideoSinkPixelCount;
-                offset = entity.bind(zuuluu)(golfie);
-                entity = report.lastGoLivePixelCount;
-                zuuluu = entity[golfie];
-                entity = offset;
-                if(!(oscard != zuuluu)) { _fun00010_ip = 155; continue _fun00009 }
+                var3 = var5.connection;
+                var1 = var3.getRemoteVideoSinkPixelCount;
+                var10 = var1.bind(var3)(var7);
+                var1 = var5.lastGoLivePixelCount;
+                var3 = var1[var7];
+                var1 = var10;
+                if(!(var6 != var3)) { _fun0005_ip = 155; continue _fun0005 }
  77:
-                zuuluu = report.lastGoLivePixelCount;
-                zuuluu = zuuluu[golfie];
-                entity = offset;
-                if(!(zuuluu > option)) { _fun00010_ip = 155; continue _fun00009 }
+                var3 = var5.lastGoLivePixelCount;
+                var3 = var3[var7];
+                var1 = var10;
+                if(!(var3 > var8)) { _fun0005_ip = 155; continue _fun0005 }
  94:
-                zuuluu = report.lastGoLivePixelCount;
-                zuuluu = zuuluu[golfie];
-                verify = offset / zuuluu;
-                option = 1.05;
-                zuuluu = offset;
-                if(!(!(verify > option))) { _fun00010_ip = 152; continue _fun00009 }
+                var3 = var5.lastGoLivePixelCount;
+                var3 = var3[var7];
+                var9 = var10 / var3;
+                var8 = 1.05;
+                var3 = var10;
+                if(!(!(var9 > var8))) { _fun0005_ip = 152; continue _fun0005 }
  125:
-                option = 0.95;
-                zuuluu = offset;
-                if(!(!(verify < option))) { _fun00010_ip = 152; continue _fun00009 }
+                var8 = 0.95;
+                var3 = var10;
+                if(!(!(var9 < var8))) { _fun0005_ip = 152; continue _fun0005 }
  142:
-                option = report.lastGoLivePixelCount;
-                zuuluu = option[golfie];
+                var8 = var5.lastGoLivePixelCount;
+                var3 = var8[var7];
  152:
-                entity = zuuluu;
+                var1 = var3;
  155:
-                zuuluu = report.lastGoLivePixelCount;
-                zuuluu[golfie] = entity;
-                michal = entity;
+                var3 = var5.lastGoLivePixelCount;
+                var3[var7] = var1;
+                var2 = var1;
  168:
-                entity = report.isStreamContext;
-                if(entity) { _fun00010_ip = 190; continue _fun00009 }
+                var1 = var5.isStreamContext;
+                if(var1) { _fun0005_ip = 190; continue _fun0005 }
  177:
-                entity = report.getVideoQuality;
-                zuuluu = entity.bind(report)(tangon);
-                _fun00010_ip = 204; continue _fun00009;
+                var1 = var5.getVideoQuality;
+                var3 = var1.bind(var5)(var4);
+                _fun0005_ip = 204; continue _fun0005;
  190:
-                entity = report.getGoliveQuality;
-                zuuluu = entity.bind(report)(tangon, michal);
+                var1 = var5.getGoliveQuality;
+                var3 = var1.bind(var5)(var4, var2);
  204:
-                michal = report.qualityOverwrite;
-                entity = zuuluu;
-                if(!(oscard != michal)) { _fun00010_ip = 422; continue _fun00009 }
+                var2 = var5.qualityOverwrite;
+                var1 = var3;
+                if(!(var6 != var2)) { _fun0005_ip = 422; continue _fun0005 }
  220:
-                tangon = _closure1_slot12;
-                michal = {};
-                yankee = _closure1_slot13;
-                offset = yankee.extend;
-                verify = zuuluu.encode;
-                option = report.qualityOverwrite;
-                option = option.encode;
-                option = offset.bind(yankee)(verify, option);
-                michal['encode'] = option;
-                offset = _closure1_slot13;
-                verify = offset.extend;
-                option = zuuluu.capture;
-                golfie = report.qualityOverwrite;
-                golfie = golfie.capture;
-                golfie = verify.bind(offset)(option, golfie);
-                michal['capture'] = golfie;
-                golfie = report.qualityOverwrite;
-                golfie = golfie.bitrateMin;
-                if(!(oscard == golfie)) { _fun00010_ip = 329; continue _fun00009 }
+                var4 = _closure1_slot12;
+                var2 = {};
+                var11 = _closure1_slot13;
+                var10 = var11.extend;
+                var9 = var3.encode;
+                var8 = var5.qualityOverwrite;
+                var8 = var8.encode;
+                var8 = var10.bind(var11)(var9, var8);
+                var2['encode'] = var8;
+                var10 = _closure1_slot13;
+                var9 = var10.extend;
+                var8 = var3.capture;
+                var7 = var5.qualityOverwrite;
+                var7 = var7.capture;
+                var7 = var9.bind(var10)(var8, var7);
+                var2['capture'] = var7;
+                var7 = var5.qualityOverwrite;
+                var7 = var7.bitrateMin;
+                if(!(var6 == var7)) { _fun0005_ip = 329; continue _fun0005 }
  323:
-                golfie = zuuluu.bitrateMin;
+                var7 = var3.bitrateMin;
  329:
-                michal['bitrateMin'] = golfie;
-                golfie = report.qualityOverwrite;
-                golfie = golfie.bitrateMax;
-                if(!(oscard == golfie)) { _fun00010_ip = 356; continue _fun00009 }
+                var2['bitrateMin'] = var7;
+                var7 = var5.qualityOverwrite;
+                var7 = var7.bitrateMax;
+                if(!(var6 == var7)) { _fun0005_ip = 356; continue _fun0005 }
  350:
-                golfie = zuuluu.bitrateMax;
+                var7 = var3.bitrateMax;
  356:
-                michal['bitrateMax'] = golfie;
-                report = report.qualityOverwrite;
-                report = report.bitrateTarget;
-                if(!(oscard == report)) { _fun00010_ip = 383; continue _fun00009 }
+                var2['bitrateMax'] = var7;
+                var5 = var5.qualityOverwrite;
+                var5 = var5.bitrateTarget;
+                if(!(var6 == var5)) { _fun0005_ip = 383; continue _fun0005 }
  377:
-                report = zuuluu.bitrateTarget;
+                var5 = var3.bitrateTarget;
  383:
-                michal['bitrateTarget'] = report;
-                zuuluu = zuuluu.localWant;
-                michal['localWant'] = zuuluu;
-                zuuluu = tangon.prototype;
-                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                backup = zuuluu;
-                foxtra = michal;
-                michal = new backup[tangon](foxtra, romeon);
-                entity = michal instanceof Object ? michal : zuuluu;
+                var2['bitrateTarget'] = var5;
+                var3 = var3.localWant;
+                var2['localWant'] = var3;
+                var3 = var4.prototype;
+                var3 = Object.create(var3, {constructor: {value: var4}});
+                var14 = var3;
+                var13 = var2;
+                var2 = new var14[var4](var13, var12);
+                var1 = var2 instanceof Object ? var2 : var3;
  422:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(12);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'applyQualityConstraints';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var1['value'] = var2;
+        var2 = new Array(12);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'applyQualityConstraints';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                michal = argFoo;
-                tangon = this;
-                zuuluu = tangon.getQuality;
-                entity = argBar;
-                zuuluu = zuuluu.bind(tangon)(entity);
-                entity = zuuluu.capture;
-                report = null;
-                if(!(report != entity)) { _fun00012_ip = 110; continue _fun00011 }
+                var2 = arg1;
+                var4 = this;
+                var3 = var4.getQuality;
+                var1 = arg2;
+                var3 = var3.bind(var4)(var1);
+                var1 = var3.capture;
+                var5 = null;
+                if(!(var5 != var1)) { _fun0006_ip = 110; continue _fun0006 }
  32:
-                entity = zuuluu.capture;
-                entity = entity.width;
-                michal['encodingVideoWidth'] = entity;
-                entity = zuuluu.capture;
-                entity = entity.height;
-                michal['encodingVideoHeight'] = entity;
-                entity = zuuluu.capture;
-                entity = entity.framerate;
-                michal['encodingVideoFrameRate'] = entity;
-                entity = zuuluu.capture;
-                entity = entity.framerate;
-                michal['captureVideoFrameRate'] = entity;
+                var1 = var3.capture;
+                var1 = var1.width;
+                var2['encodingVideoWidth'] = var1;
+                var1 = var3.capture;
+                var1 = var1.height;
+                var2['encodingVideoHeight'] = var1;
+                var1 = var3.capture;
+                var1 = var1.framerate;
+                var2['encodingVideoFrameRate'] = var1;
+                var1 = var3.capture;
+                var1 = var1.framerate;
+                var2['captureVideoFrameRate'] = var1;
  110:
-                entity = zuuluu.encode;
-                if(!(report != entity)) { _fun00012_ip = 156; continue _fun00011 }
+                var1 = var3.encode;
+                if(!(var5 != var1)) { _fun0006_ip = 156; continue _fun0006 }
  120:
-                entity = zuuluu.encode;
-                entity = entity.framerate;
-                michal['remoteSinkWantsMaxFramerate'] = entity;
-                entity = zuuluu.encode;
-                entity = entity.pixelCount;
-                michal['remoteSinkWantsPixelCount'] = entity;
+                var1 = var3.encode;
+                var1 = var1.framerate;
+                var2['remoteSinkWantsMaxFramerate'] = var1;
+                var1 = var3.encode;
+                var1 = var1.pixelCount;
+                var2['remoteSinkWantsPixelCount'] = var1;
  156:
-                entity = zuuluu.bitrateTarget;
-                if(!(report == entity)) { _fun00012_ip = 180; continue _fun00011 }
+                var1 = var3.bitrateTarget;
+                if(!(var5 == var1)) { _fun0006_ip = 180; continue _fun0006 }
  166:
-                entity = zuuluu.bitrateMax;
-                michal['encodingVideoBitRate'] = entity;
-                _fun00012_ip = 192; continue _fun00011;
+                var1 = var3.bitrateMax;
+                var2['encodingVideoBitRate'] = var1;
+                _fun0006_ip = 192; continue _fun0006;
  180:
-                entity = zuuluu.bitrateTarget;
-                michal['encodingVideoBitRate'] = entity;
+                var1 = var3.bitrateTarget;
+                var2['encodingVideoBitRate'] = var1;
  192:
-                entity = zuuluu.bitrateMin;
-                michal['encodingVideoMinBitRate'] = entity;
-                entity = zuuluu.bitrateMax;
-                michal['encodingVideoMaxBitRate'] = entity;
-                entity = michal.encodingVideoBitRate;
-                entity = report != entity;
-                if(!entity) { _fun00012_ip = 239; continue _fun00011 }
+                var1 = var3.bitrateMin;
+                var2['encodingVideoMinBitRate'] = var1;
+                var1 = var3.bitrateMax;
+                var2['encodingVideoMaxBitRate'] = var1;
+                var1 = var2.encodingVideoBitRate;
+                var1 = var5 != var1;
+                if(!var1) { _fun0006_ip = 239; continue _fun0006 }
  229:
-                tangon = michal.encodingVideoMaxBitRate;
-                entity = report != tangon;
+                var4 = var2.encodingVideoMaxBitRate;
+                var1 = var5 != var4;
  239:
-                if(!entity) { _fun00012_ip = 279; continue _fun00011 }
+                if(!var1) { _fun0006_ip = 279; continue _fun0006 }
  242:
-                entity = global;
-                oscard = entity.Math;
-                report = oscard.min;
-                tangon = michal.encodingVideoBitRate;
-                entity = michal.encodingVideoMaxBitRate;
-                entity = report.bind(oscard)(tangon, entity);
-                michal['encodingVideoBitRate'] = entity;
+                var1 = global;
+                var6 = var1.Math;
+                var5 = var6.min;
+                var4 = var2.encodingVideoBitRate;
+                var1 = var2.encodingVideoMaxBitRate;
+                var1 = var5.bind(var6)(var4, var1);
+                var2['encodingVideoBitRate'] = var1;
  279:
-                entity = {};
-                entity['quality'] = zuuluu;
-                entity['constraints'] = michal;
-                return entity;
+                var1 = {};
+                var1['quality'] = var3;
+                var1['constraints'] = var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'setQualityOverwrite';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            entity['qualityOverwrite'] = michal;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'setQualityOverwrite';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['qualityOverwrite'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'setGoliveQuality';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'setGoliveQuality';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                tangon = _closure1_slot12;
-                entity = {};
-                verify = _closure1_slot13;
-                option = verify.extend;
-                oscard = michal.goliveMaxQuality;
-                golfie = oscard.capture;
-                oscard = zuuluu.capture;
-                oscard = option.bind(verify)(golfie, oscard);
-                entity['capture'] = oscard;
-                option = _closure1_slot13;
-                golfie = option.extend;
-                report = michal.goliveMaxQuality;
-                oscard = report.encode;
-                report = zuuluu.encode;
-                report = golfie.bind(option)(oscard, report);
-                entity['encode'] = report;
-                oscard = zuuluu.bitrateMin;
-                report = null;
-                if(!(report == oscard)) { _fun00014_ip = 117; continue _fun00013 }
+                var3 = arg1;
+                var2 = this;
+                var4 = _closure1_slot12;
+                var1 = {};
+                var9 = _closure1_slot13;
+                var8 = var9.extend;
+                var6 = var2.goliveMaxQuality;
+                var7 = var6.capture;
+                var6 = var3.capture;
+                var6 = var8.bind(var9)(var7, var6);
+                var1['capture'] = var6;
+                var8 = _closure1_slot13;
+                var7 = var8.extend;
+                var5 = var2.goliveMaxQuality;
+                var6 = var5.encode;
+                var5 = var3.encode;
+                var5 = var7.bind(var8)(var6, var5);
+                var1['encode'] = var5;
+                var6 = var3.bitrateMin;
+                var5 = null;
+                if(!(var5 == var6)) { _fun0007_ip = 117; continue _fun0007 }
  105:
-                golfie = michal.goliveMaxQuality;
-                oscard = golfie.bitrateMin;
+                var7 = var2.goliveMaxQuality;
+                var6 = var7.bitrateMin;
  117:
-                entity['bitrateMin'] = oscard;
-                oscard = zuuluu.bitrateMax;
-                if(!(report == oscard)) { _fun00014_ip = 144; continue _fun00013 }
+                var1['bitrateMin'] = var6;
+                var6 = var3.bitrateMax;
+                if(!(var5 == var6)) { _fun0007_ip = 144; continue _fun0007 }
  132:
-                golfie = michal.goliveMaxQuality;
-                oscard = golfie.bitrateMax;
+                var7 = var2.goliveMaxQuality;
+                var6 = var7.bitrateMax;
  144:
-                entity['bitrateMax'] = oscard;
-                zuuluu = zuuluu.bitrateTarget;
-                if(!(report == zuuluu)) { _fun00014_ip = 171; continue _fun00013 }
+                var1['bitrateMax'] = var6;
+                var3 = var3.bitrateTarget;
+                if(!(var5 == var3)) { _fun0007_ip = 171; continue _fun0007 }
  159:
-                report = michal.goliveMaxQuality;
-                zuuluu = report.bitrateTarget;
+                var5 = var2.goliveMaxQuality;
+                var3 = var5.bitrateTarget;
  171:
-                entity['bitrateTarget'] = zuuluu;
-                zuuluu = michal.goliveMaxQuality;
-                zuuluu = zuuluu.localWant;
-                entity['localWant'] = zuuluu;
-                zuuluu = tangon.prototype;
-                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                romeon = zuuluu;
-                yankee = entity;
-                entity = new romeon[tangon](yankee, offset);
-                entity = entity instanceof Object ? entity : zuuluu;
-                michal['goliveMaxQuality'] = entity;
-                entity = undefined;
-                return entity;
+                var1['bitrateTarget'] = var3;
+                var3 = var2.goliveMaxQuality;
+                var3 = var3.localWant;
+                var1['localWant'] = var3;
+                var3 = var4.prototype;
+                var3 = Object.create(var3, {constructor: {value: var4}});
+                var12 = var3;
+                var11 = var1;
+                var1 = new var12[var4](var11, var10);
+                var1 = var1 instanceof Object ? var1 : var3;
+                var2['goliveMaxQuality'] = var1;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'configGoLiveSimulcast';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            michal = argBar;
-            entity = this;
-            zuuluu = argFoo;
-            entity['goliveSimulcastEnabled'] = zuuluu;
-            entity['goliveSimulcastLQBitrateMax'] = michal;
-            entity['goliveSimulcastLQBitrateTarget'] = michal;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'configGoLiveSimulcast';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            var2 = arg2;
+            var1 = this;
+            var3 = arg1;
+            var1['goliveSimulcastEnabled'] = var3;
+            var1['goliveSimulcastLQBitrateMax'] = var2;
+            var1['goliveSimulcastLQBitrateTarget'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'setGoLiveSimulcastLQTargetBitrate';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            entity['goliveSimulcastLQBitrateTarget'] = michal;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'setGoLiveSimulcastLQTargetBitrate';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['goliveSimulcastLQBitrateTarget'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[5] = entity;
-        entity = {};
-        oscard = 'shouldEnableGoliveSimulcastForHqQuality';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var1['value'] = var6;
+        var2[5] = var1;
+        var1 = {};
+        var6 = 'shouldEnableGoliveSimulcastForHqQuality';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                zuuluu = argFoo;
-                entity = this;
-                entity = entity.goliveSimulcastEnabled;
-                michal = !entity;
-                entity = !michal;
-                if(michal) { _fun00016_ip = 83; continue _fun00015 }
+                var3 = arg1;
+                var1 = this;
+                var1 = var1.goliveSimulcastEnabled;
+                var2 = !var1;
+                var1 = !var2;
+                if(var2) { _fun0008_ip = 83; continue _fun0008 }
  21:
-                michal = zuuluu.width;
-                report = 0;
-                michal = report === michal;
-                if(!michal) { _fun00016_ip = 44; continue _fun00015 }
+                var2 = var3.width;
+                var5 = 0;
+                var2 = var5 === var2;
+                if(!var2) { _fun0008_ip = 44; continue _fun0008 }
  35:
-                tangon = zuuluu.height;
-                michal = report === tangon;
+                var4 = var3.height;
+                var2 = var5 === var4;
  44:
-                if(michal) { _fun00016_ip = 80; continue _fun00015 }
+                if(var2) { _fun0008_ip = 80; continue _fun0008 }
  47:
-                tangon = zuuluu.width;
-                zuuluu = zuuluu.height;
-                tangon = tangon * zuuluu;
-                report = _closure1_slot9;
-                zuuluu = _closure1_slot10;
-                zuuluu = report * zuuluu;
-                michal = tangon > zuuluu;
+                var4 = var3.width;
+                var3 = var3.height;
+                var4 = var4 * var3;
+                var5 = _closure1_slot9;
+                var3 = _closure1_slot10;
+                var3 = var5 * var3;
+                var2 = var4 > var3;
  80:
-                entity = michal;
+                var1 = var2;
  83:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[6] = entity;
-        entity = {};
-        oscard = 'setGoLiveUsePixelCounts';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            michal = argFoo;
-            entity = this;
-            entity['goliveUsePixelCounts'] = michal;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[6] = var1;
+        var1 = {};
+        var6 = 'setGoLiveUsePixelCounts';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var2 = arg1;
+            var1 = this;
+            var1['goliveUsePixelCounts'] = var2;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[7] = entity;
-        entity = {};
-        oscard = 'getVideoQuality';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var1['value'] = var6;
+        var2[7] = var1;
+        var1 = {};
+        var6 = 'getVideoQuality';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                michal = argFoo;
-                tangon = this;
-                zuuluu = tangon.ladder;
-                entity = zuuluu.getResolution;
-                oscard = entity.bind(zuuluu)(michal);
-                entity = tangon.options;
-                entity = entity.videoBitrate;
-                zuuluu = entity.min;
-                entity = oscard.budgetPortion;
-                offset = zuuluu * entity;
-                entity = tangon.options;
-                entity = entity.videoBitrate;
-                zuuluu = entity.max;
-                entity = oscard.budgetPortion;
-                golfie = zuuluu * entity;
-                entity = tangon.isMuted;
-                if(entity) { _fun00018_ip = 94; continue _fun00017 }
+                var2 = arg1;
+                var4 = this;
+                var3 = var4.ladder;
+                var1 = var3.getResolution;
+                var6 = var1.bind(var3)(var2);
+                var1 = var4.options;
+                var1 = var1.videoBitrate;
+                var3 = var1.min;
+                var1 = var6.budgetPortion;
+                var10 = var3 * var1;
+                var1 = var4.options;
+                var1 = var1.videoBitrate;
+                var3 = var1.max;
+                var1 = var6.budgetPortion;
+                var7 = var3 * var1;
+                var1 = var4.isMuted;
+                if(var1) { _fun0009_ip = 94; continue _fun0009 }
  86:
-                option = oscard.framerate;
-                _fun00018_ip = 100; continue _fun00017;
+                var8 = var6.framerate;
+                _fun0009_ip = 100; continue _fun0009;
  94:
-                option = oscard.mutedFramerate;
+                var8 = var6.mutedFramerate;
  100:
-                zuuluu = _closure1_slot12;
-                entity = {};
-                report = {};
-                romeon = report;
-                yankee = oscard;
-                oscard = copyDataProperties(romeon, yankee);
-                oscard = 'framerate';
-                report[oscard] = option;
-                entity['encode'] = report;
-                report = {};
-                oscard = tangon.options;
-                oscard = oscard.videoCapture;
-                oscard = oscard.width;
-                report['width'] = oscard;
-                oscard = tangon.options;
-                oscard = oscard.videoCapture;
-                oscard = oscard.height;
-                report['height'] = oscard;
-                oscard = tangon.options;
-                oscard = oscard.videoCapture;
-                oscard = oscard.framerate;
-                report['framerate'] = oscard;
-                entity['capture'] = report;
-                report = global;
-                verify = report.Math;
-                option = verify.max;
-                oscard = tangon.options;
-                oscard = oscard.videoBitrateFloor;
-                oscard = option.bind(verify)(offset, oscard);
-                entity['bitrateMin'] = oscard;
-                oscard = report.Math;
-                report = oscard.max;
-                tangon = tangon.options;
-                tangon = tangon.videoBitrateFloor;
-                tangon = report.bind(oscard)(golfie, tangon);
-                entity['bitrateMax'] = tangon;
-                entity['localWant'] = michal;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                foxtra = michal;
-                romeon = entity;
-                entity = new foxtra[zuuluu](romeon, yankee);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var3 = _closure1_slot12;
+                var1 = {};
+                var5 = {};
+                var12 = var5;
+                var11 = var6;
+                var6 = copyDataProperties(var12, var11);
+                var6 = 'framerate';
+                var5[var6] = var8;
+                var1['encode'] = var5;
+                var5 = {};
+                var6 = var4.options;
+                var6 = var6.videoCapture;
+                var6 = var6.width;
+                var5['width'] = var6;
+                var6 = var4.options;
+                var6 = var6.videoCapture;
+                var6 = var6.height;
+                var5['height'] = var6;
+                var6 = var4.options;
+                var6 = var6.videoCapture;
+                var6 = var6.framerate;
+                var5['framerate'] = var6;
+                var1['capture'] = var5;
+                var5 = global;
+                var9 = var5.Math;
+                var8 = var9.max;
+                var6 = var4.options;
+                var6 = var6.videoBitrateFloor;
+                var6 = var8.bind(var9)(var10, var6);
+                var1['bitrateMin'] = var6;
+                var6 = var5.Math;
+                var5 = var6.max;
+                var4 = var4.options;
+                var4 = var4.videoBitrateFloor;
+                var4 = var5.bind(var6)(var7, var4);
+                var1['bitrateMax'] = var4;
+                var1['localWant'] = var2;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var13 = var2;
+                var12 = var1;
+                var1 = new var13[var3](var12, var11);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[8] = entity;
-        entity = {};
-        oscard = 'getGoliveQuality';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
-            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        var1['value'] = var6;
+        var2[8] = var1;
+        var1 = {};
+        var6 = 'getGoliveQuality';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                zuuluu = argFoo;
-                michal = this;
-                entity = michal.goliveSimulcastEnabled;
-                if(!entity) { _fun00020_ip = 25; continue _fun00019 }
+                var3 = arg1;
+                var2 = this;
+                var1 = var2.goliveSimulcastEnabled;
+                if(!var1) { _fun0010_ip = 25; continue _fun0010 }
  15:
-                entity = 100;
-                if(!(!(zuuluu < entity))) { _fun00020_ip = 558; continue _fun00019 }
+                var1 = 100;
+                if(!(!(var3 < var1))) { _fun0010_ip = 558; continue _fun0010 }
  25:
-                entity = michal.goliveMaxQuality;
-                entity = entity.encode;
-                golfie = null;
-                oscard = golfie == entity;
-                tangon = undefined;
-                if(oscard) { _fun00020_ip = 54; continue _fun00019 }
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.encode;
+                var7 = null;
+                var6 = var7 == var1;
+                var4 = undefined;
+                if(var6) { _fun0010_ip = 54; continue _fun0010 }
  48:
-                tangon = entity.pixelCount;
+                var4 = var1.pixelCount;
  54:
-                option = golfie != tangon;
-                entity = 1;
-                oscard = entity;
-                if(!option) { _fun00020_ip = 70; continue _fun00019 }
+                var8 = var7 != var4;
+                var1 = 1;
+                var6 = var1;
+                if(!var8) { _fun0010_ip = 70; continue _fun0010 }
  67:
-                oscard = tangon;
+                var6 = var4;
  70:
-                tangon = argBar;
-                kiloes = tangon / oscard;
-                if(!(!(kiloes >= entity))) { _fun00020_ip = 550; continue _fun00019 }
+                var4 = arg2;
+                var15 = var4 / var6;
+                if(!(!(var15 >= var1))) { _fun0010_ip = 550; continue _fun0010 }
  84:
-                entity = 0;
-                if(!(!(kiloes <= entity))) { _fun00020_ip = 550; continue _fun00019 }
+                var1 = 0;
+                if(!(!(var15 <= var1))) { _fun0010_ip = 550; continue _fun0010 }
  93:
-                entity = michal.goliveUsePixelCounts;
-                if(!entity) { _fun00020_ip = 550; continue _fun00019 }
+                var1 = var2.goliveUsePixelCounts;
+                if(!var1) { _fun0010_ip = 550; continue _fun0010 }
  105:
-                entity = michal.goliveMaxQuality;
-                entity = entity.bitrateMin;
-                foxtra = entity * kiloes;
-                entity = michal.goliveMaxQuality;
-                entity = entity.bitrateMax;
-                romeon = entity * kiloes;
-                entity = michal.goliveMaxQuality;
-                entity = entity.bitrateTarget;
-                entity = golfie != entity;
-                verify = undefined;
-                if(!entity) { _fun00020_ip = 174; continue _fun00019 }
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.bitrateMin;
+                var13 = var1 * var15;
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.bitrateMax;
+                var12 = var1 * var15;
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.bitrateTarget;
+                var1 = var7 != var1;
+                var9 = undefined;
+                if(!var1) { _fun0010_ip = 174; continue _fun0010 }
  158:
-                entity = michal.goliveMaxQuality;
-                entity = entity.bitrateTarget;
-                verify = entity * kiloes;
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.bitrateTarget;
+                var9 = var1 * var15;
  174:
-                entity = michal.goliveMaxQuality;
-                entity = entity.encode;
-                entity = golfie != entity;
-                oscard = undefined;
-                if(!entity) { _fun00020_ip = 382; continue _fun00019 }
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.encode;
+                var1 = var7 != var1;
+                var6 = undefined;
+                if(!var1) { _fun0010_ip = 382; continue _fun0010 }
  198:
-                entity = global;
-                offset = entity.Math;
-                option = offset.ceil;
-                tangon = michal.goliveMaxQuality;
-                tangon = tangon.encode;
-                yankee = tangon.width;
-                backup = entity.Math;
-                tangon = backup.sqrt;
-                tangon = tangon.bind(backup)(kiloes);
-                tangon = yankee * tangon;
-                offset = option.bind(offset)(tangon);
-                option = entity.Math;
-                tangon = option.ceil;
-                yankee = michal.goliveMaxQuality;
-                yankee = yankee.encode;
-                yankee = yankee.height;
-                backup = entity.Math;
-                entity = backup.sqrt;
-                entity = entity.bind(backup)(kiloes);
-                entity = yankee * entity;
-                tangon = tangon.bind(option)(entity);
-                option = _closure1_slot13;
-                entity = {};
-                entity['width'] = offset;
-                entity['height'] = tangon;
-                yankee = michal.goliveMaxQuality;
-                yankee = yankee.encode;
-                yankee = yankee.framerate;
-                entity['framerate'] = yankee;
-                tangon = offset * tangon;
-                entity['pixelCount'] = tangon;
-                tangon = option.prototype;
-                tangon = Object.create(tangon, {constructor: {value: option}});
-                result = tangon;
-                output = entity;
-                entity = new result[option](output, sizing);
-                oscard = entity instanceof Object ? entity : tangon;
+                var1 = global;
+                var10 = var1.Math;
+                var8 = var10.ceil;
+                var4 = var2.goliveMaxQuality;
+                var4 = var4.encode;
+                var11 = var4.width;
+                var14 = var1.Math;
+                var4 = var14.sqrt;
+                var4 = var4.bind(var14)(var15);
+                var4 = var11 * var4;
+                var10 = var8.bind(var10)(var4);
+                var8 = var1.Math;
+                var4 = var8.ceil;
+                var11 = var2.goliveMaxQuality;
+                var11 = var11.encode;
+                var11 = var11.height;
+                var14 = var1.Math;
+                var1 = var14.sqrt;
+                var1 = var1.bind(var14)(var15);
+                var1 = var11 * var1;
+                var4 = var4.bind(var8)(var1);
+                var8 = _closure1_slot13;
+                var1 = {};
+                var1['width'] = var10;
+                var1['height'] = var4;
+                var11 = var2.goliveMaxQuality;
+                var11 = var11.encode;
+                var11 = var11.framerate;
+                var1['framerate'] = var11;
+                var4 = var10 * var4;
+                var1['pixelCount'] = var4;
+                var4 = var8.prototype;
+                var4 = Object.create(var4, {constructor: {value: var8}});
+                var18 = var4;
+                var17 = var1;
+                var1 = new var18[var8](var17, var16);
+                var6 = var1 instanceof Object ? var1 : var4;
  382:
-                tangon = _closure1_slot12;
-                entity = {};
-                entity['encode'] = oscard;
-                oscard = michal.goliveMaxQuality;
-                oscard = oscard.capture;
-                entity['capture'] = oscard;
-                oscard = global;
-                yankee = oscard.Math;
-                offset = yankee.max;
-                option = michal.options;
-                option = option.videoBitrateFloor;
-                option = offset.bind(yankee)(foxtra, option);
-                entity['bitrateMin'] = option;
-                yankee = oscard.Math;
-                offset = yankee.max;
-                option = michal.options;
-                option = option.videoBitrateFloor;
-                option = offset.bind(yankee)(romeon, option);
-                entity['bitrateMax'] = option;
-                report = undefined;
-                if(!(golfie != verify)) { _fun00020_ip = 515; continue _fun00019 }
+                var4 = _closure1_slot12;
+                var1 = {};
+                var1['encode'] = var6;
+                var6 = var2.goliveMaxQuality;
+                var6 = var6.capture;
+                var1['capture'] = var6;
+                var6 = global;
+                var11 = var6.Math;
+                var10 = var11.max;
+                var8 = var2.options;
+                var8 = var8.videoBitrateFloor;
+                var8 = var10.bind(var11)(var13, var8);
+                var1['bitrateMin'] = var8;
+                var11 = var6.Math;
+                var10 = var11.max;
+                var8 = var2.options;
+                var8 = var8.videoBitrateFloor;
+                var8 = var10.bind(var11)(var12, var8);
+                var1['bitrateMax'] = var8;
+                var5 = undefined;
+                if(!(var7 != var9)) { _fun0010_ip = 515; continue _fun0010 }
  487:
-                option = oscard.Math;
-                golfie = option.max;
-                oscard = michal.options;
-                oscard = oscard.videoBitrateFloor;
-                report = golfie.bind(option)(verify, oscard);
+                var8 = var6.Math;
+                var7 = var8.max;
+                var6 = var2.options;
+                var6 = var6.videoBitrateFloor;
+                var5 = var7.bind(var8)(var9, var6);
  515:
-                entity['bitrateTarget'] = report;
-                entity['localWant'] = zuuluu;
-                zuuluu = tangon.prototype;
-                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                result = zuuluu;
-                output = entity;
-                entity = new result[tangon](output, sizing);
-                entity = entity instanceof Object ? entity : zuuluu;
-                return entity;
+                var1['bitrateTarget'] = var5;
+                var1['localWant'] = var3;
+                var3 = var4.prototype;
+                var3 = Object.create(var3, {constructor: {value: var4}});
+                var18 = var3;
+                var17 = var1;
+                var1 = new var18[var4](var17, var16);
+                var1 = var1 instanceof Object ? var1 : var3;
+                return var1;
  550:
-                entity = michal.goliveMaxQuality;
-                return entity;
+                var1 = var2.goliveMaxQuality;
+                return var1;
  558:
-                entity = michal.getGoliveLQQuality;
-                entity = entity.bind(michal)();
-                return entity;
+                var1 = var2.getGoliveLQQuality;
+                var1 = var1.bind(var2)();
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[9] = entity;
-        entity = {};
-        oscard = 'getDefaultGoliveQuality';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            michal = this;
-            zuuluu = _closure1_slot12;
-            entity = {};
-            tangon = {'width': 1280, 'height': 720};
-            report = _closure1_slot6;
-            tangon['framerate'] = report;
-            entity['capture'] = tangon;
-            tangon = {'width': 1280, 'height': 720, 'framerate': null, 'pixelCount': 921600};
-            tangon['framerate'] = report;
-            entity['encode'] = tangon;
-            tangon = michal.options;
-            tangon = tangon.desktopBitrate;
-            tangon = tangon.min;
-            entity['bitrateMin'] = tangon;
-            tangon = michal.options;
-            tangon = tangon.desktopBitrate;
-            tangon = tangon.max;
-            entity['bitrateMax'] = tangon;
-            michal = michal.options;
-            michal = michal.desktopBitrate;
-            michal = michal.target;
-            entity['bitrateTarget'] = michal;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            option = michal;
-            golfie = entity;
-            entity = new option[zuuluu](golfie, oscard);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+        var1['value'] = var6;
+        var2[9] = var1;
+        var1 = {};
+        var6 = 'getDefaultGoliveQuality';
+        var1['key'] = var6;
+        var6 = function value() {
+            var2 = this;
+            var3 = _closure1_slot12;
+            var1 = {};
+            var4 = {'width': 1280, 'height': 720};
+            var5 = _closure1_slot6;
+            var4['framerate'] = var5;
+            var1['capture'] = var4;
+            var4 = {'width': 1280, 'height': 720, 'framerate': null, 'pixelCount': 921600};
+            var4['framerate'] = var5;
+            var1['encode'] = var4;
+            var4 = var2.options;
+            var4 = var4.desktopBitrate;
+            var4 = var4.min;
+            var1['bitrateMin'] = var4;
+            var4 = var2.options;
+            var4 = var4.desktopBitrate;
+            var4 = var4.max;
+            var1['bitrateMax'] = var4;
+            var2 = var2.options;
+            var2 = var2.desktopBitrate;
+            var2 = var2.target;
+            var1['bitrateTarget'] = var2;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var7 = var1;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity['value'] = oscard;
-        michal[10] = entity;
-        entity = {};
-        oscard = 'getGoliveLQQuality';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        var1['value'] = var6;
+        var2[10] = var1;
+        var1 = {};
+        var6 = 'getGoliveLQQuality';
+        var1['key'] = var6;
+        var5 = function value() {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                michal = this;
-                entity = global;
-                golfie = entity.Math;
-                oscard = golfie.min;
-                report = _closure1_slot9;
-                zuuluu = michal.goliveMaxQuality;
-                option = zuuluu.encode;
-                romeon = null;
-                offset = romeon == option;
-                zuuluu = undefined;
-                if(offset) { _fun00022_ip = 51; continue _fun00021 }
+                var2 = this;
+                var1 = global;
+                var7 = var1.Math;
+                var6 = var7.min;
+                var5 = _closure1_slot9;
+                var3 = var2.goliveMaxQuality;
+                var8 = var3.encode;
+                var12 = null;
+                var10 = var12 == var8;
+                var3 = undefined;
+                if(var10) { _fun0011_ip = 51; continue _fun0011 }
  46:
-                zuuluu = option.width;
+                var3 = var8.width;
  51:
-                if(!(romeon == zuuluu)) { _fun00022_ip = 59; continue _fun00021 }
+                if(!(var12 == var3)) { _fun0011_ip = 59; continue _fun0011 }
  55:
-                zuuluu = _closure1_slot9;
+                var3 = _closure1_slot9;
  59:
-                golfie = oscard.bind(golfie)(report, zuuluu);
-                option = entity.Math;
-                oscard = option.min;
-                report = _closure1_slot10;
-                zuuluu = michal.goliveMaxQuality;
-                offset = zuuluu.encode;
-                yankee = romeon == offset;
-                zuuluu = undefined;
-                if(yankee) { _fun00022_ip = 106; continue _fun00021 }
+                var7 = var6.bind(var7)(var5, var3);
+                var8 = var1.Math;
+                var6 = var8.min;
+                var5 = _closure1_slot10;
+                var3 = var2.goliveMaxQuality;
+                var10 = var3.encode;
+                var11 = var12 == var10;
+                var3 = undefined;
+                if(var11) { _fun0011_ip = 106; continue _fun0011 }
  101:
-                zuuluu = offset.height;
+                var3 = var10.height;
  106:
-                if(!(romeon == zuuluu)) { _fun00022_ip = 114; continue _fun00021 }
+                if(!(var12 == var3)) { _fun0011_ip = 114; continue _fun0011 }
  110:
-                zuuluu = _closure1_slot10;
+                var3 = _closure1_slot10;
  114:
-                oscard = oscard.bind(option)(report, zuuluu);
-                offset = entity.Math;
-                option = offset.min;
-                report = _closure1_slot11;
-                zuuluu = michal.goliveMaxQuality;
-                yankee = zuuluu.encode;
-                foxtra = romeon == yankee;
-                zuuluu = undefined;
-                if(foxtra) { _fun00022_ip = 162; continue _fun00021 }
+                var6 = var6.bind(var8)(var5, var3);
+                var10 = var1.Math;
+                var8 = var10.min;
+                var5 = _closure1_slot11;
+                var3 = var2.goliveMaxQuality;
+                var11 = var3.encode;
+                var13 = var12 == var11;
+                var3 = undefined;
+                if(var13) { _fun0011_ip = 162; continue _fun0011 }
  156:
-                zuuluu = yankee.framerate;
+                var3 = var11.framerate;
  162:
-                if(!(romeon == zuuluu)) { _fun00022_ip = 170; continue _fun00021 }
+                if(!(var12 == var3)) { _fun0011_ip = 170; continue _fun0011 }
  166:
-                zuuluu = _closure1_slot11;
+                var3 = _closure1_slot11;
  170:
-                option = option.bind(offset)(report, zuuluu);
-                yankee = entity.Math;
-                offset = yankee.min;
-                report = _closure1_slot9;
-                zuuluu = michal.goliveMaxQuality;
-                foxtra = zuuluu.capture;
-                backup = romeon == foxtra;
-                zuuluu = undefined;
-                if(backup) { _fun00022_ip = 217; continue _fun00021 }
+                var8 = var8.bind(var10)(var5, var3);
+                var11 = var1.Math;
+                var10 = var11.min;
+                var5 = _closure1_slot9;
+                var3 = var2.goliveMaxQuality;
+                var13 = var3.capture;
+                var14 = var12 == var13;
+                var3 = undefined;
+                if(var14) { _fun0011_ip = 217; continue _fun0011 }
  212:
-                zuuluu = foxtra.width;
+                var3 = var13.width;
  217:
-                if(!(romeon == zuuluu)) { _fun00022_ip = 225; continue _fun00021 }
+                if(!(var12 == var3)) { _fun0011_ip = 225; continue _fun0011 }
  221:
-                zuuluu = _closure1_slot9;
+                var3 = _closure1_slot9;
  225:
-                yankee = offset.bind(yankee)(report, zuuluu);
-                foxtra = entity.Math;
-                offset = foxtra.min;
-                report = _closure1_slot10;
-                zuuluu = michal.goliveMaxQuality;
-                backup = zuuluu.capture;
-                kiloes = romeon == backup;
-                zuuluu = undefined;
-                if(kiloes) { _fun00022_ip = 272; continue _fun00021 }
+                var11 = var10.bind(var11)(var5, var3);
+                var13 = var1.Math;
+                var10 = var13.min;
+                var5 = _closure1_slot10;
+                var3 = var2.goliveMaxQuality;
+                var14 = var3.capture;
+                var15 = var12 == var14;
+                var3 = undefined;
+                if(var15) { _fun0011_ip = 272; continue _fun0011 }
  267:
-                zuuluu = backup.height;
+                var3 = var14.height;
  272:
-                if(!(romeon == zuuluu)) { _fun00022_ip = 280; continue _fun00021 }
+                if(!(var12 == var3)) { _fun0011_ip = 280; continue _fun0011 }
  276:
-                zuuluu = _closure1_slot10;
+                var3 = _closure1_slot10;
  280:
-                offset = offset.bind(foxtra)(report, zuuluu);
-                report = entity.Math;
-                zuuluu = report.min;
-                entity = _closure1_slot11;
-                foxtra = michal.goliveMaxQuality;
-                foxtra = foxtra.capture;
-                backup = romeon == foxtra;
-                verify = undefined;
-                if(backup) { _fun00022_ip = 328; continue _fun00021 }
+                var10 = var10.bind(var13)(var5, var3);
+                var5 = var1.Math;
+                var3 = var5.min;
+                var1 = _closure1_slot11;
+                var13 = var2.goliveMaxQuality;
+                var13 = var13.capture;
+                var14 = var12 == var13;
+                var9 = undefined;
+                if(var14) { _fun0011_ip = 328; continue _fun0011 }
  322:
-                verify = foxtra.framerate;
+                var9 = var13.framerate;
  328:
-                if(!(romeon == verify)) { _fun00022_ip = 336; continue _fun00021 }
+                if(!(var12 == var9)) { _fun0011_ip = 336; continue _fun0011 }
  332:
-                verify = _closure1_slot11;
+                var9 = _closure1_slot11;
  336:
-                verify = zuuluu.bind(report)(entity, verify);
-                zuuluu = _closure1_slot12;
-                entity = {};
-                report = {};
-                report['width'] = yankee;
-                report['height'] = offset;
-                report['framerate'] = verify;
-                entity['capture'] = report;
-                report = {};
-                report['width'] = golfie;
-                report['height'] = oscard;
-                report['framerate'] = option;
-                oscard = golfie * oscard;
-                report['pixelCount'] = oscard;
-                entity['encode'] = report;
-                tangon = _closure1_slot8;
-                entity['bitrateMin'] = tangon;
-                tangon = michal.goliveSimulcastLQBitrateMax;
-                entity['bitrateMax'] = tangon;
-                michal = michal.goliveSimulcastLQBitrateTarget;
-                entity['bitrateTarget'] = michal;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                result = michal;
-                output = entity;
-                entity = new result[zuuluu](output, sizing);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var9 = var3.bind(var5)(var1, var9);
+                var3 = _closure1_slot12;
+                var1 = {};
+                var5 = {};
+                var5['width'] = var11;
+                var5['height'] = var10;
+                var5['framerate'] = var9;
+                var1['capture'] = var5;
+                var5 = {};
+                var5['width'] = var7;
+                var5['height'] = var6;
+                var5['framerate'] = var8;
+                var6 = var7 * var6;
+                var5['pixelCount'] = var6;
+                var1['encode'] = var5;
+                var4 = _closure1_slot8;
+                var1['bitrateMin'] = var4;
+                var4 = var2.goliveSimulcastLQBitrateMax;
+                var1['bitrateMax'] = var4;
+                var2 = var2.goliveSimulcastLQBitrateTarget;
+                var1['bitrateTarget'] = var2;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var18 = var2;
+                var17 = var1;
+                var1 = new var18[var3](var17, var16);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             }
         };
-        entity['value'] = report;
-        michal[11] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[11] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    golfie = 4;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = '../discord_common/js/packages/media-engine/VideoQualityManager.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['VIDEO_QUALITY_MODES_TO_OVERWRITES'] = oscard;
-    zuuluu['WantsVideoQuality'] = report;
-    zuuluu['VideoQuality'] = tangon;
-    zuuluu['VideoQualityManager'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var7 = 4;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = '../discord_common/js/packages/media-engine/VideoQualityManager.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['VIDEO_QUALITY_MODES_TO_OVERWRITES'] = var6;
+    var3['WantsVideoQuality'] = var5;
+    var3['VideoQuality'] = var4;
+    var3['VideoQualityManager'] = var2;
+    return var1;
 })();

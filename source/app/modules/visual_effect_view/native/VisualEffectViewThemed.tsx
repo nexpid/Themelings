@@ -1,76 +1,76 @@
 // app/modules/visual_effect_view/native/VisualEffectViewThemed.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    golfie = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = golfie.forwardRef;
-    michal = function(argFoo, argBar) { // Original name: VisualEffectViewThemed
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = var7.forwardRef;
+    var2 = function VisualEffectViewThemed(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 2;
-            michal = oscard[michal];
-            tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            report = michal.bind(tangon)();
-            zuuluu = _closure1_slot0;
-            michal = 3;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.isThemeLight;
-            michal = michal.bind(zuuluu)(report);
-            report = 'dark';
-            if(!michal) { _fun00002_ip = 67; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 2;
+            var2 = var6[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var5 = var2.bind(var4)();
+            var3 = _closure1_slot0;
+            var2 = 3;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isThemeLight;
+            var2 = var2.bind(var3)(var5);
+            var5 = 'dark';
+            if(!var2) { _fun0001_ip = 67; continue _fun0001 }
  63:
-            report = 'light';
+            var5 = 'light';
  67:
-            zuuluu = _closure1_slot3;
-            michal = _closure1_slot1;
-            oscard = _closure1_slot2;
-            entity = 4;
-            entity = oscard[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            oscard = argBar;
-            entity['ref'] = oscard;
-            entity['blurTheme'] = report;
-            golfie = argFoo;
-            option = entity;
-            report = copyDataProperties(option, golfie);
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = _closure1_slot3;
+            var2 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var1 = 4;
+            var1 = var6[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var6 = arg2;
+            var1['ref'] = var6;
+            var1['blurTheme'] = var5;
+            var7 = arg1;
+            var8 = var1;
+            var5 = copyDataProperties(var8, var7);
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/visual_effect_view/native/VisualEffectViewThemed.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/visual_effect_view/native/VisualEffectViewThemed.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

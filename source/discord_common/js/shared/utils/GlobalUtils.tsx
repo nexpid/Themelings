@@ -1,69 +1,69 @@
 // discord_common/js/shared/utils/GlobalUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    zuuluu = argFre;
-    entity = argFoo;
-    var _closure1_slot0 = entity;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/shared/utils/GlobalUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: getGlobalObject
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var1 = native1;
+    var _closure1_slot0 = var1;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/shared/utils/GlobalUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getGlobalObject() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = global;
-            entity = michal.globalThis;
-            tangon = 'undefined';
-            entity = typeof entity;
-            if(!(tangon === entity)) { _fun00002_ip = 99; continue _fun00001 }
+            var2 = global;
+            var1 = var2.globalThis;
+            var4 = 'undefined';
+            var1 = typeof var1;
+            if(!(var4 === var1)) { _fun0001_ip = 99; continue _fun0001 }
  19:
-            entity = michal.window;
-            entity = typeof entity;
-            if(!(tangon === entity)) { _fun00002_ip = 91; continue _fun00001 }
+            var1 = var2.window;
+            var1 = typeof var1;
+            if(!(var4 === var1)) { _fun0001_ip = 91; continue _fun0001 }
  31:
-            report = _closure1_slot0;
-            entity = undefined;
-            if(!(entity === report)) { _fun00002_ip = 85; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var1 = undefined;
+            if(!(var1 === var5)) { _fun0001_ip = 85; continue _fun0001 }
  44:
-            entity = michal.self;
-            entity = typeof entity;
-            if(!(tangon === entity)) { _fun00002_ip = 77; continue _fun00001 }
+            var1 = var2.self;
+            var1 = typeof var1;
+            if(!(var4 === var1)) { _fun0001_ip = 77; continue _fun0001 }
  57:
-            report = michal.Object;
-            tangon = report.create;
-            entity = null;
-            entity = tangon.bind(report)(entity);
-            _fun00002_ip = 83; continue _fun00001;
+            var5 = var2.Object;
+            var4 = var5.create;
+            var1 = null;
+            var1 = var4.bind(var5)(var1);
+            _fun0001_ip = 83; continue _fun0001;
  77:
-            entity = michal.self;
+            var1 = var2.self;
  83:
-            _fun00002_ip = 89; continue _fun00001;
+            _fun0001_ip = 89; continue _fun0001;
  85:
-            entity = _closure1_slot0;
+            var1 = _closure1_slot0;
  89:
-            _fun00002_ip = 97; continue _fun00001;
+            _fun0001_ip = 97; continue _fun0001;
  91:
-            entity = michal.window;
+            var1 = var2.window;
  97:
-            _fun00002_ip = 105; continue _fun00001;
+            _fun0001_ip = 105; continue _fun0001;
  99:
-            entity = michal.globalThis;
+            var1 = var2.globalThis;
  105:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getGlobalObject'] = michal;
-    return entity;
+    var3['getGlobalObject'] = var2;
+    return var1;
 })();

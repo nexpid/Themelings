@@ -1,142 +1,142 @@
 // app/modules/themes/resolveTheme.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.PROTO_THEME_MAP_MOBILE;
-    var _closure1_slot5 = golfie;
-    golfie = tangon.SystemTheme;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.SystemThemeState;
-    var _closure1_slot7 = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/themes/resolveTheme.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: resolveTheme
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.PROTO_THEME_MAP_MOBILE;
+    var _closure1_slot5 = var7;
+    var7 = var4.SystemTheme;
+    var _closure1_slot6 = var7;
+    var4 = var4.SystemThemeState;
+    var _closure1_slot7 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/themes/resolveTheme.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function resolveTheme(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = argBar;
-            zuuluu = _closure1_slot3;
-            report = zuuluu.useSystemTheme;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 4;
-            zuuluu = golfie[zuuluu];
-            option = undefined;
-            oscard = oscard.bind(option)(zuuluu);
-            zuuluu = oscard.isAuthenticated;
-            zuuluu = zuuluu.bind(oscard)();
-            if(!zuuluu) { _fun00002_ip = 68; continue _fun00001 }
+            var2 = arg1;
+            var1 = arg2;
+            var3 = _closure1_slot3;
+            var5 = var3.useSystemTheme;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 4;
+            var3 = var7[var3];
+            var8 = undefined;
+            var6 = var6.bind(var8)(var3);
+            var3 = var6.isAuthenticated;
+            var3 = var3.bind(var6)();
+            if(!var3) { _fun0001_ip = 68; continue _fun0001 }
  54:
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.ON;
-            if(!(report === zuuluu)) { _fun00002_ip = 85; continue _fun00001 }
+            var3 = _closure1_slot7;
+            var3 = var3.ON;
+            if(!(var5 === var3)) { _fun0001_ip = 85; continue _fun0001 }
  68:
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.NO_PREFERENCE;
-            if(!(michal === zuuluu)) { _fun00002_ip = 297; continue _fun00001 }
+            var3 = _closure1_slot6;
+            var3 = var3.NO_PREFERENCE;
+            if(!(var2 === var3)) { _fun0001_ip = 297; continue _fun0001 }
  85:
-            report = _closure1_slot2;
-            zuuluu = report.getAppearanceSettings;
-            report = zuuluu.bind(report)();
-            oscard = null;
-            golfie = oscard == report;
-            zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 115; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var3 = var5.getAppearanceSettings;
+            var5 = var3.bind(var5)();
+            var6 = null;
+            var7 = var6 == var5;
+            var3 = undefined;
+            if(var7) { _fun0001_ip = 115; continue _fun0001 }
  110:
-            zuuluu = report.theme;
+            var3 = var5.theme;
  115:
-            if(!(oscard == zuuluu)) { _fun00002_ip = 295; continue _fun00001 }
+            if(!(var6 == var3)) { _fun0001_ip = 295; continue _fun0001 }
  122:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            report = 5;
-            report = verify[report];
-            golfie = golfie.bind(option)(report);
-            report = golfie.shouldIgnoreThemeChange;
-            report = report.bind(golfie)();
-            if(report) { _fun00002_ip = 290; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var5 = 5;
+            var5 = var9[var5];
+            var7 = var7.bind(var8)(var5);
+            var5 = var7.shouldIgnoreThemeChange;
+            var5 = var5.bind(var7)();
+            if(var5) { _fun0001_ip = 290; continue _fun0001 }
  158:
-            report = _closure1_slot4;
-            report = report.settings;
-            golfie = report.appearance;
-            verify = oscard == golfie;
-            report = undefined;
-            if(verify) { _fun00002_ip = 188; continue _fun00001 }
+            var5 = _closure1_slot4;
+            var5 = var5.settings;
+            var7 = var5.appearance;
+            var9 = var6 == var7;
+            var5 = undefined;
+            if(var9) { _fun0001_ip = 188; continue _fun0001 }
  183:
-            report = golfie.theme;
+            var5 = var7.theme;
  188:
-            if(!(oscard == report)) { _fun00002_ip = 224; continue _fun00001 }
+            if(!(var6 == var5)) { _fun0001_ip = 224; continue _fun0001 }
  192:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            oscard = 6;
-            oscard = verify[oscard];
-            oscard = golfie.bind(option)(oscard);
-            oscard = oscard.Theme;
-            report = oscard.UNSET;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var6 = 6;
+            var6 = var9[var6];
+            var6 = var7.bind(var8)(var6);
+            var6 = var6.Theme;
+            var5 = var6.UNSET;
  224:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot1;
-            oscard = 6;
-            oscard = verify[oscard];
-            oscard = golfie.bind(option)(oscard);
-            oscard = oscard.Theme;
-            oscard = oscard.UNSET;
-            if(!(report === oscard)) { _fun00002_ip = 274; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var6 = 6;
+            var6 = var9[var6];
+            var6 = var7.bind(var8)(var6);
+            var6 = var6.Theme;
+            var6 = var6.UNSET;
+            if(!(var5 === var6)) { _fun0001_ip = 274; continue _fun0001 }
  260:
-            oscard = _closure1_slot6;
-            oscard = oscard.NO_PREFERENCE;
-            if(!(michal === oscard)) { _fun00002_ip = 284; continue _fun00001 }
+            var6 = _closure1_slot6;
+            var6 = var6.NO_PREFERENCE;
+            if(!(var2 === var6)) { _fun0001_ip = 284; continue _fun0001 }
  274:
-            tangon = _closure1_slot5;
-            tangon = tangon[report];
-            _fun00002_ip = 288; continue _fun00001;
+            var4 = _closure1_slot5;
+            var4 = var4[var5];
+            _fun0001_ip = 288; continue _fun0001;
  284:
-            tangon = entity[michal];
+            var4 = var1[var2];
  288:
-            return tangon;
+            return var4;
  290:
-            tangon = argBaz;
-            return tangon;
+            var4 = arg3;
+            return var4;
  295:
-            return zuuluu;
+            return var3;
  297:
-            entity = entity[michal];
-            return entity;
+            var1 = var1[var2];
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

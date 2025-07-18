@@ -1,520 +1,520 @@
 // app/modules/panels/morphable/native/MorphablePanelUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = offset[entity];
-    entity = undefined;
-    tangon = verify.bind(entity)(tangon);
-    report = tangon.MIN_PIP_TOSS_VELOCITY;
-    var _closure1_slot0 = report;
-    tangon = tangon.PIP_WINDOW_OFFSET;
-    var _closure1_slot1 = tangon;
-    tangon = {};
-    report = 'function clamp_MorphablePanelUtilsTsx1(value,min,max){return Math.min(Math.max(value,min),max);}';
-    tangon['code'] = report;
-    var _closure1_slot2 = tangon;
-    tangon = function() {
-        entity = function(argFoo, argBar, argBaz) { // Original name: clamp
-            entity = global;
-            tangon = entity.Math;
-            zuuluu = tangon.min;
-            oscard = entity.Math;
-            report = oscard.max;
-            michal = argFoo;
-            entity = argBar;
-            michal = report.bind(oscard)(michal, entity);
-            entity = argBaz;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var1 = 0;
+    var4 = var10[var1];
+    var1 = undefined;
+    var4 = var9.bind(var1)(var4);
+    var5 = var4.MIN_PIP_TOSS_VELOCITY;
+    var _closure1_slot0 = var5;
+    var4 = var4.PIP_WINDOW_OFFSET;
+    var _closure1_slot1 = var4;
+    var4 = {};
+    var5 = 'function clamp_MorphablePanelUtilsTsx1(value,min,max){return Math.min(Math.max(value,min),max);}';
+    var4['code'] = var5;
+    var _closure1_slot2 = var4;
+    var4 = function() {
+        var1 = function clamp(arg1, arg2, arg3) {
+            var1 = global;
+            var4 = var1.Math;
+            var3 = var4.min;
+            var6 = var1.Math;
+            var5 = var6.max;
+            var2 = arg1;
+            var1 = arg2;
+            var2 = var5.bind(var6)(var2, var1);
+            var1 = arg3;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 1391695493868.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot2;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 1391695493868.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot2;
+        var1['__initData'] = var2;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot3 = tangon;
-    tangon = {};
-    report = 'function calculateXYDiff_MorphablePanelUtilsTsx2(event,initialGestureOffset){const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=initialGestureOffset.get().absoluteYStart-absoluteY;const xDiff=initialGestureOffset.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;return{absoluteX:absoluteX,absoluteY:absoluteY,xDiff:xDiff,yDiff:yDiff,isNotPullDownGesture:isNotPullDownGesture,absoluteMovement:absoluteMovement};}';
-    tangon['code'] = report;
-    var _closure1_slot4 = tangon;
-    tangon = function() {
-        entity = function(argFoo, argBar) { // Original name: calculateXYDiff
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot3 = var4;
+    var4 = {};
+    var5 = 'function calculateXYDiff_MorphablePanelUtilsTsx2(event,initialGestureOffset){const{absoluteY:absoluteY,absoluteX:absoluteX}=event.changedTouches[0];const yDiff=initialGestureOffset.get().absoluteYStart-absoluteY;const xDiff=initialGestureOffset.get().absoluteXStart-absoluteX;const absoluteMovement=Math.max(Math.abs(yDiff),Math.abs(xDiff));const isNotPullDownGesture=Math.abs(xDiff)>=Math.abs(yDiff)||yDiff>0;return{absoluteX:absoluteX,absoluteY:absoluteY,xDiff:xDiff,yDiff:yDiff,isNotPullDownGesture:isNotPullDownGesture,absoluteMovement:absoluteMovement};}';
+    var4['code'] = var5;
+    var _closure1_slot4 = var4;
+    var4 = function() {
+        var1 = function calculateXYDiff(arg1, arg2) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argBar;
-                entity = argFoo;
-                entity = entity.changedTouches;
-                report = 0;
-                entity = entity[report];
-                oscard = entity.absoluteY;
-                golfie = entity.absoluteX;
-                entity = michal.get;
-                entity = entity.bind(michal)();
-                entity = entity.absoluteYStart;
-                tangon = entity - oscard;
-                entity = michal.get;
-                entity = entity.bind(michal)();
-                entity = entity.absoluteXStart;
-                option = entity - golfie;
-                zuuluu = global;
-                offset = zuuluu.Math;
-                verify = offset.max;
-                michal = zuuluu.Math;
-                entity = michal.abs;
-                michal = entity.bind(michal)(tangon);
-                yankee = zuuluu.Math;
-                entity = yankee.abs;
-                entity = entity.bind(yankee)(option);
-                michal = verify.bind(offset)(michal, entity);
-                entity = {};
-                entity['absoluteX'] = golfie;
-                entity['absoluteY'] = oscard;
-                entity['xDiff'] = option;
-                entity['yDiff'] = tangon;
-                golfie = zuuluu.Math;
-                oscard = golfie.abs;
-                oscard = oscard.bind(golfie)(option);
-                golfie = zuuluu.Math;
-                zuuluu = golfie.abs;
-                zuuluu = zuuluu.bind(golfie)(tangon);
-                zuuluu = oscard >= zuuluu;
-                if(zuuluu) { _fun00002_ip = 190; continue _fun00001 }
+                var2 = arg2;
+                var1 = arg1;
+                var1 = var1.changedTouches;
+                var5 = 0;
+                var1 = var1[var5];
+                var6 = var1.absoluteY;
+                var7 = var1.absoluteX;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.absoluteYStart;
+                var4 = var1 - var6;
+                var1 = var2.get;
+                var1 = var1.bind(var2)();
+                var1 = var1.absoluteXStart;
+                var8 = var1 - var7;
+                var3 = global;
+                var10 = var3.Math;
+                var9 = var10.max;
+                var2 = var3.Math;
+                var1 = var2.abs;
+                var2 = var1.bind(var2)(var4);
+                var11 = var3.Math;
+                var1 = var11.abs;
+                var1 = var1.bind(var11)(var8);
+                var2 = var9.bind(var10)(var2, var1);
+                var1 = {};
+                var1['absoluteX'] = var7;
+                var1['absoluteY'] = var6;
+                var1['xDiff'] = var8;
+                var1['yDiff'] = var4;
+                var7 = var3.Math;
+                var6 = var7.abs;
+                var6 = var6.bind(var7)(var8);
+                var7 = var3.Math;
+                var3 = var7.abs;
+                var3 = var3.bind(var7)(var4);
+                var3 = var6 >= var3;
+                if(var3) { _fun0001_ip = 190; continue _fun0001 }
  186:
-                zuuluu = tangon > report;
+                var3 = var4 > var5;
  190:
-                entity['isNotPullDownGesture'] = zuuluu;
-                entity['absoluteMovement'] = michal;
-                return entity;
+                var1['isNotPullDownGesture'] = var3;
+                var1['absoluteMovement'] = var2;
+                return var1;
             }
         };
-        michal = {};
-        entity['__closure'] = michal;
-        michal = 9827767064556.0;
-        entity['__workletHash'] = michal;
-        michal = _closure1_slot4;
-        entity['__initData'] = michal;
-        return entity;
+        var2 = {};
+        var1['__closure'] = var2;
+        var2 = 9827767064556.0;
+        var1['__workletHash'] = var2;
+        var2 = _closure1_slot4;
+        var1['__initData'] = var2;
+        return var1;
     };
-    golfie = tangon.bind(entity)();
-    tangon = {};
-    report = 'function getPIPWindowDimensions_MorphablePanelUtilsTsx3(windowDimensions,safeArea,disableHorizontalSafeAreas){const{PIP_WINDOW_OFFSET}=this.__closure;const xOffset=disableHorizontalSafeAreas?Math.max(safeArea.left,PIP_WINDOW_OFFSET):PIP_WINDOW_OFFSET;const disabledHorizontalSafeAreasRange=windowDimensions.width-xOffset-Math.max(safeArea.right,PIP_WINDOW_OFFSET);const enabledHorizontalSafeAreasRange=windowDimensions.width-safeArea.left-safeArea.right-PIP_WINDOW_OFFSET*2;const xRange=disableHorizontalSafeAreas?disabledHorizontalSafeAreasRange:enabledHorizontalSafeAreasRange;const yOffset=Math.max(safeArea.top,PIP_WINDOW_OFFSET);return{xOffset:xOffset,yOffset:yOffset,xRange:xRange,yRange:windowDimensions.height-yOffset-Math.max(safeArea.bottom,PIP_WINDOW_OFFSET)};}';
-    tangon['code'] = report;
-    var _closure1_slot5 = tangon;
-    tangon = function() {
-        entity = function(argFoo, argBar, argBaz) { // Original name: getPIPWindowDimensions
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var7 = var4.bind(var1)();
+    var4 = {};
+    var5 = 'function getPIPWindowDimensions_MorphablePanelUtilsTsx3(windowDimensions,safeArea,disableHorizontalSafeAreas){const{PIP_WINDOW_OFFSET}=this.__closure;const xOffset=disableHorizontalSafeAreas?Math.max(safeArea.left,PIP_WINDOW_OFFSET):PIP_WINDOW_OFFSET;const disabledHorizontalSafeAreasRange=windowDimensions.width-xOffset-Math.max(safeArea.right,PIP_WINDOW_OFFSET);const enabledHorizontalSafeAreasRange=windowDimensions.width-safeArea.left-safeArea.right-PIP_WINDOW_OFFSET*2;const xRange=disableHorizontalSafeAreas?disabledHorizontalSafeAreasRange:enabledHorizontalSafeAreasRange;const yOffset=Math.max(safeArea.top,PIP_WINDOW_OFFSET);return{xOffset:xOffset,yOffset:yOffset,xRange:xRange,yRange:windowDimensions.height-yOffset-Math.max(safeArea.bottom,PIP_WINDOW_OFFSET)};}';
+    var4['code'] = var5;
+    var _closure1_slot5 = var4;
+    var4 = function() {
+        var1 = function getPIPWindowDimensions(arg1, arg2, arg3) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                michal = argBar;
-                report = argBaz;
-                if(report) { _fun00004_ip = 21; continue _fun00003 }
+                var3 = arg1;
+                var2 = arg2;
+                var5 = arg3;
+                if(var5) { _fun0002_ip = 21; continue _fun0002 }
  15:
-                option = _closure1_slot1;
-                _fun00004_ip = 49; continue _fun00003;
+                var8 = _closure1_slot1;
+                _fun0002_ip = 49; continue _fun0002;
  21:
-                entity = global;
-                verify = entity.Math;
-                golfie = verify.max;
-                tangon = michal.left;
-                entity = _closure1_slot1;
-                option = golfie.bind(verify)(tangon, entity);
+                var1 = global;
+                var9 = var1.Math;
+                var7 = var9.max;
+                var4 = var2.left;
+                var1 = _closure1_slot1;
+                var8 = var7.bind(var9)(var4, var1);
  49:
-                entity = zuuluu.width;
-                golfie = entity - option;
-                tangon = global;
-                yankee = tangon.Math;
-                verify = yankee.max;
-                entity = michal.right;
-                offset = _closure1_slot1;
-                entity = verify.bind(yankee)(entity, offset);
-                entity = golfie - entity;
-                verify = zuuluu.width;
-                golfie = michal.left;
-                verify = verify - golfie;
-                golfie = michal.right;
-                verify = verify - golfie;
-                golfie = 2;
-                golfie = golfie * offset;
-                golfie = verify - golfie;
-                if(!report) { _fun00004_ip = 130; continue _fun00003 }
+                var1 = var3.width;
+                var7 = var1 - var8;
+                var4 = global;
+                var11 = var4.Math;
+                var9 = var11.max;
+                var1 = var2.right;
+                var10 = _closure1_slot1;
+                var1 = var9.bind(var11)(var1, var10);
+                var1 = var7 - var1;
+                var9 = var3.width;
+                var7 = var2.left;
+                var9 = var9 - var7;
+                var7 = var2.right;
+                var9 = var9 - var7;
+                var7 = 2;
+                var7 = var7 * var10;
+                var7 = var9 - var7;
+                if(!var5) { _fun0002_ip = 130; continue _fun0002 }
  127:
-                golfie = entity;
+                var7 = var1;
  130:
-                verify = tangon.Math;
-                report = verify.max;
-                entity = michal.top;
-                oscard = _closure1_slot1;
-                report = report.bind(verify)(entity, oscard);
-                entity = {};
-                entity['xOffset'] = option;
-                entity['yOffset'] = report;
-                entity['xRange'] = golfie;
-                zuuluu = zuuluu.height;
-                zuuluu = zuuluu - report;
-                report = tangon.Math;
-                tangon = report.max;
-                michal = michal.bottom;
-                michal = tangon.bind(report)(michal, oscard);
-                michal = zuuluu - michal;
-                entity['yRange'] = michal;
-                return entity;
+                var9 = var4.Math;
+                var5 = var9.max;
+                var1 = var2.top;
+                var6 = _closure1_slot1;
+                var5 = var5.bind(var9)(var1, var6);
+                var1 = {};
+                var1['xOffset'] = var8;
+                var1['yOffset'] = var5;
+                var1['xRange'] = var7;
+                var3 = var3.height;
+                var3 = var3 - var5;
+                var5 = var4.Math;
+                var4 = var5.max;
+                var2 = var2.bottom;
+                var2 = var4.bind(var5)(var2, var6);
+                var2 = var3 - var2;
+                var1['yRange'] = var2;
+                return var1;
             }
         };
-        zuuluu = {};
-        tangon = _closure1_slot1;
-        zuuluu['PIP_WINDOW_OFFSET'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 4008246762710.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot5;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var4 = _closure1_slot1;
+        var3['PIP_WINDOW_OFFSET'] = var4;
+        var1['__closure'] = var3;
+        var3 = 4008246762710.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot5;
+        var1['__initData'] = var2;
+        return var1;
     };
-    oscard = tangon.bind(entity)();
-    var _closure1_slot6 = oscard;
-    tangon = {};
-    report = "function calculatePIPPositionFromVelocity_MorphablePanelUtilsTsx4({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{getPIPWindowDimensions,MIN_PIP_TOSS_VELOCITY,clamp}=this.__closure;const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);const{xRange:xRange,yRange:yRange}=pipRegion;const x=absoluteX-pipRegion.xOffset;const y=absoluteY-pipRegion.yOffset;let pipX=0;let pipY=0;if(Math.max(Math.abs(velocityY),Math.abs(velocityX))<MIN_PIP_TOSS_VELOCITY){const closestEdge=function(specs){const minValue=Math.min(...Object.values(specs));if(specs.left===minValue){return'left';}if(specs.top===minValue){return'top';}if(specs.right===minValue){return'right';}return'bottom';}({left:clamp(x,0,xRange),right:clamp(xRange-x,0,xRange),top:clamp(y,0,yRange),bottom:clamp(yRange-y,0,yRange)});switch(closestEdge){case'left':pipX=0;pipY=y/yRange;break;case'right':pipX=1;pipY=y/yRange;break;case'top':pipY=0;pipX=x/xRange;break;case'bottom':pipY=1;pipX=x/xRange;break;}}else{const slope=velocityY/velocityX;let intersectionY=0;let intersectionX=0;intersectionX=velocityX>0?xRange:0;intersectionY=y+slope*(intersectionX-x);if(intersectionY>=0&&intersectionY<=yRange){pipX=intersectionX/xRange;pipY=intersectionY/yRange;}else{intersectionY=velocityY>0?yRange:0;intersectionX=x+1/slope*(intersectionY-y);pipX=intersectionX/xRange;pipY=intersectionY/yRange;}}return{pipX:clamp(pipX,0,1),pipY:clamp(pipY,0,1)};}";
-    tangon['code'] = report;
-    var _closure1_slot7 = tangon;
-    tangon = function() {
-        entity = function(argFoo) { // Original name: calculatePIPPositionFromVelocity
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var6 = var4.bind(var1)();
+    var _closure1_slot6 = var6;
+    var4 = {};
+    var5 = "function calculatePIPPositionFromVelocity_MorphablePanelUtilsTsx4({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{getPIPWindowDimensions,MIN_PIP_TOSS_VELOCITY,clamp}=this.__closure;const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);const{xRange:xRange,yRange:yRange}=pipRegion;const x=absoluteX-pipRegion.xOffset;const y=absoluteY-pipRegion.yOffset;let pipX=0;let pipY=0;if(Math.max(Math.abs(velocityY),Math.abs(velocityX))<MIN_PIP_TOSS_VELOCITY){const closestEdge=function(specs){const minValue=Math.min(...Object.values(specs));if(specs.left===minValue){return'left';}if(specs.top===minValue){return'top';}if(specs.right===minValue){return'right';}return'bottom';}({left:clamp(x,0,xRange),right:clamp(xRange-x,0,xRange),top:clamp(y,0,yRange),bottom:clamp(yRange-y,0,yRange)});switch(closestEdge){case'left':pipX=0;pipY=y/yRange;break;case'right':pipX=1;pipY=y/yRange;break;case'top':pipY=0;pipX=x/xRange;break;case'bottom':pipY=1;pipX=x/xRange;break;}}else{const slope=velocityY/velocityX;let intersectionY=0;let intersectionX=0;intersectionX=velocityX>0?xRange:0;intersectionY=y+slope*(intersectionX-x);if(intersectionY>=0&&intersectionY<=yRange){pipX=intersectionX/xRange;pipY=intersectionY/yRange;}else{intersectionY=velocityY>0?yRange:0;intersectionX=x+1/slope*(intersectionY-y);pipX=intersectionX/xRange;pipY=intersectionY/yRange;}}return{pipX:clamp(pipX,0,1),pipY:clamp(pipY,0,1)};}";
+    var4['code'] = var5;
+    var _closure1_slot7 = var4;
+    var4 = function() {
+        var1 = function calculatePIPPositionFromVelocity(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.velocityX;
-                golfie = entity.velocityY;
-                offset = entity.absoluteX;
-                report = entity.absoluteY;
-                verify = entity.windowDimensions;
-                option = entity.safeArea;
-                tangon = entity.disableHorizontalSafeAreas;
-                entity = _closure1_slot6;
-                oscard = undefined;
-                entity = entity.bind(oscard)(verify, option, tangon);
-                verify = entity.xRange;
-                tangon = entity.yRange;
-                option = entity.xOffset;
-                option = offset - option;
-                entity = entity.yOffset;
-                entity = report - entity;
-                offset = global;
-                foxtra = offset.Math;
-                romeon = foxtra.max;
-                yankee = offset.Math;
-                report = yankee.abs;
-                yankee = report.bind(yankee)(golfie);
-                backup = offset.Math;
-                report = backup.abs;
-                report = report.bind(backup)(zuuluu);
-                yankee = romeon.bind(foxtra)(yankee, report);
-                report = _closure1_slot0;
-                if(!(!(yankee < report))) { _fun00006_ip = 249; continue _fun00005 }
+                var1 = arg1;
+                var3 = var1.velocityX;
+                var7 = var1.velocityY;
+                var10 = var1.absoluteX;
+                var5 = var1.absoluteY;
+                var9 = var1.windowDimensions;
+                var8 = var1.safeArea;
+                var4 = var1.disableHorizontalSafeAreas;
+                var1 = _closure1_slot6;
+                var6 = undefined;
+                var1 = var1.bind(var6)(var9, var8, var4);
+                var9 = var1.xRange;
+                var4 = var1.yRange;
+                var8 = var1.xOffset;
+                var8 = var10 - var8;
+                var1 = var1.yOffset;
+                var1 = var5 - var1;
+                var10 = global;
+                var13 = var10.Math;
+                var12 = var13.max;
+                var11 = var10.Math;
+                var5 = var11.abs;
+                var11 = var5.bind(var11)(var7);
+                var14 = var10.Math;
+                var5 = var14.abs;
+                var5 = var5.bind(var14)(var3);
+                var11 = var12.bind(var13)(var11, var5);
+                var5 = _closure1_slot0;
+                if(!(!(var11 < var5))) { _fun0003_ip = 249; continue _fun0003 }
  154:
-                foxtra = golfie / zuuluu;
-                report = 0;
-                zuuluu = zuuluu > report;
-                yankee = 0;
-                if(!zuuluu) { _fun00006_ip = 172; continue _fun00005 }
+                var13 = var7 / var3;
+                var5 = 0;
+                var3 = var3 > var5;
+                var11 = 0;
+                if(!var3) { _fun0003_ip = 172; continue _fun0003 }
  169:
-                yankee = verify;
+                var11 = var9;
  172:
-                zuuluu = yankee - option;
-                zuuluu = foxtra * zuuluu;
-                zuuluu = entity + zuuluu;
-                if(!(zuuluu >= report)) { _fun00006_ip = 192; continue _fun00005 }
+                var3 = var11 - var8;
+                var3 = var13 * var3;
+                var3 = var1 + var3;
+                if(!(var3 >= var5)) { _fun0003_ip = 192; continue _fun0003 }
  188:
-                if(!(!(zuuluu <= tangon))) { _fun00006_ip = 236; continue _fun00005 }
+                if(!(!(var3 <= var4))) { _fun0003_ip = 236; continue _fun0003 }
  192:
-                romeon = 1;
-                romeon = romeon / foxtra;
-                golfie = golfie > report;
-                report = 0;
-                if(!golfie) { _fun00006_ip = 211; continue _fun00005 }
+                var12 = 1;
+                var12 = var12 / var13;
+                var7 = var7 > var5;
+                var5 = 0;
+                if(!var7) { _fun0003_ip = 211; continue _fun0003 }
  208:
-                report = tangon;
+                var5 = var4;
  211:
-                golfie = report - entity;
-                golfie = romeon * golfie;
-                golfie = option + golfie;
-                golfie = golfie / verify;
-                report = report / tangon;
-                _fun00006_ip = 478; continue _fun00005;
+                var7 = var5 - var1;
+                var7 = var12 * var7;
+                var7 = var8 + var7;
+                var7 = var7 / var9;
+                var5 = var5 / var4;
+                _fun0003_ip = 478; continue _fun0003;
  236:
-                golfie = yankee / verify;
-                report = zuuluu / tangon;
-                _fun00006_ip = 478; continue _fun00005;
+                var7 = var11 / var9;
+                var5 = var3 / var4;
+                _fun0003_ip = 478; continue _fun0003;
  249:
-                foxtra = {};
-                romeon = _closure1_slot3;
-                zuuluu = 0;
-                yankee = romeon.bind(oscard)(option, zuuluu, verify);
-                foxtra['left'] = yankee;
-                yankee = verify - option;
-                yankee = romeon.bind(oscard)(yankee, zuuluu, verify);
-                foxtra['right'] = yankee;
-                yankee = romeon.bind(oscard)(entity, zuuluu, tangon);
-                foxtra['top'] = yankee;
-                yankee = tangon - entity;
-                yankee = romeon.bind(oscard)(yankee, zuuluu, tangon);
-                foxtra['bottom'] = yankee;
-                romeon = offset.Math;
-                yankee = romeon.min;
-                backup = offset.Object;
-                offset = backup.values;
-                output = offset.bind(backup)(foxtra);
-                offset = new Array(0);
-                result = offset;
-                sizing = 0;
-                backup = arraySpread(result, output, sizing);
-                result = yankee;
-                output = offset;
-                sizing = romeon;
-                kiloes = apply(result, output, sizing);
-                romeon = foxtra.left;
-                offset = 'left';
-                yankee = offset;
-                if(!(romeon !== kiloes)) { _fun00006_ip = 414; continue _fun00005 }
+                var13 = {};
+                var12 = _closure1_slot3;
+                var3 = 0;
+                var11 = var12.bind(var6)(var8, var3, var9);
+                var13['left'] = var11;
+                var11 = var9 - var8;
+                var11 = var12.bind(var6)(var11, var3, var9);
+                var13['right'] = var11;
+                var11 = var12.bind(var6)(var1, var3, var4);
+                var13['top'] = var11;
+                var11 = var4 - var1;
+                var11 = var12.bind(var6)(var11, var3, var4);
+                var13['bottom'] = var11;
+                var12 = var10.Math;
+                var11 = var12.min;
+                var14 = var10.Object;
+                var10 = var14.values;
+                var17 = var10.bind(var14)(var13);
+                var10 = new Array(0);
+                var18 = var10;
+                var16 = 0;
+                var14 = arraySpread(var18, var17, var16);
+                var18 = var11;
+                var17 = var10;
+                var16 = var12;
+                var15 = apply(var18, var17, var16);
+                var12 = var13.left;
+                var10 = 'left';
+                var11 = var10;
+                if(!(var12 !== var15)) { _fun0003_ip = 414; continue _fun0003 }
  378:
-                backup = foxtra.top;
-                romeon = 'top';
-                if(!(backup !== kiloes)) { _fun00006_ip = 411; continue _fun00005 }
+                var14 = var13.top;
+                var12 = 'top';
+                if(!(var14 !== var15)) { _fun0003_ip = 411; continue _fun0003 }
  391:
-                backup = foxtra.right;
-                foxtra = 'bottom';
-                if(!(backup === kiloes)) { _fun00006_ip = 408; continue _fun00005 }
+                var14 = var13.right;
+                var13 = 'bottom';
+                if(!(var14 === var15)) { _fun0003_ip = 408; continue _fun0003 }
  404:
-                foxtra = 'right';
+                var13 = 'right';
  408:
-                romeon = foxtra;
+                var12 = var13;
  411:
-                yankee = romeon;
+                var11 = var12;
  414:
-                if(!(offset !== yankee)) { _fun00006_ip = 472; continue _fun00005 }
+                if(!(var10 !== var11)) { _fun0003_ip = 472; continue _fun0003 }
  418:
-                offset = 'right';
-                if(!(offset !== yankee)) { _fun00006_ip = 463; continue _fun00005 }
+                var10 = 'right';
+                if(!(var10 !== var11)) { _fun0003_ip = 463; continue _fun0003 }
  426:
-                offset = 'top';
-                if(!(offset !== yankee)) { _fun00006_ip = 455; continue _fun00005 }
+                var10 = 'top';
+                if(!(var10 !== var11)) { _fun0003_ip = 455; continue _fun0003 }
  434:
-                offset = 'bottom';
-                golfie = 0;
-                report = 0;
-                if(!(offset === yankee)) { _fun00006_ip = 478; continue _fun00005 }
+                var10 = 'bottom';
+                var7 = 0;
+                var5 = 0;
+                if(!(var10 === var11)) { _fun0003_ip = 478; continue _fun0003 }
  446:
-                golfie = option / verify;
-                report = 1;
-                _fun00006_ip = 478; continue _fun00005;
+                var7 = var8 / var9;
+                var5 = 1;
+                _fun0003_ip = 478; continue _fun0003;
  455:
-                golfie = option / verify;
-                report = 0;
-                _fun00006_ip = 478; continue _fun00005;
+                var7 = var8 / var9;
+                var5 = 0;
+                _fun0003_ip = 478; continue _fun0003;
  463:
-                report = entity / tangon;
-                golfie = 1;
-                _fun00006_ip = 478; continue _fun00005;
+                var5 = var1 / var4;
+                var7 = 1;
+                _fun0003_ip = 478; continue _fun0003;
  472:
-                report = entity / tangon;
-                golfie = 0;
+                var5 = var1 / var4;
+                var7 = 0;
  478:
-                entity = {};
-                tangon = _closure1_slot3;
-                zuuluu = 0;
-                michal = 1;
-                golfie = tangon.bind(oscard)(golfie, zuuluu, michal);
-                entity['pipX'] = golfie;
-                michal = tangon.bind(oscard)(report, zuuluu, michal);
-                entity['pipY'] = michal;
-                return entity;
+                var1 = {};
+                var4 = _closure1_slot3;
+                var3 = 0;
+                var2 = 1;
+                var7 = var4.bind(var6)(var7, var3, var2);
+                var1['pipX'] = var7;
+                var2 = var4.bind(var6)(var5, var3, var2);
+                var1['pipY'] = var2;
+                return var1;
             }
         };
-        zuuluu = {};
-        tangon = _closure1_slot6;
-        zuuluu['getPIPWindowDimensions'] = tangon;
-        tangon = _closure1_slot0;
-        zuuluu['MIN_PIP_TOSS_VELOCITY'] = tangon;
-        tangon = _closure1_slot3;
-        zuuluu['clamp'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 3215524498124.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot7;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var4 = _closure1_slot6;
+        var3['getPIPWindowDimensions'] = var4;
+        var4 = _closure1_slot0;
+        var3['MIN_PIP_TOSS_VELOCITY'] = var4;
+        var4 = _closure1_slot3;
+        var3['clamp'] = var4;
+        var1['__closure'] = var3;
+        var3 = 3215524498124.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot7;
+        var1['__initData'] = var2;
+        return var1;
     };
-    report = tangon.bind(entity)();
-    tangon = {};
-    option = 'function pipXYtoAbsoluteXY_MorphablePanelUtilsTsx5({pipX:pipX,pipY:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{getPIPWindowDimensions}=this.__closure;const{xOffset:xOffset,yOffset:yOffset,xRange:xRange,yRange:yRange}=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);return{x:xOffset+pipX*xRange,y:yOffset+pipY*yRange};}';
-    tangon['code'] = option;
-    var _closure1_slot8 = tangon;
-    tangon = function() {
-        entity = function(argFoo) { // Original name: pipXYtoAbsoluteXY
-            entity = argFoo;
-            golfie = entity.pipX;
-            tangon = entity.pipY;
-            oscard = entity.windowDimensions;
-            report = entity.safeArea;
-            zuuluu = entity.disableHorizontalSafeAreas;
-            michal = _closure1_slot6;
-            entity = undefined;
-            michal = michal.bind(entity)(oscard, report, zuuluu);
-            oscard = michal.xOffset;
-            zuuluu = michal.yOffset;
-            entity = {};
-            report = michal.xRange;
-            report = golfie * report;
-            report = oscard + report;
-            entity['x'] = report;
-            michal = michal.yRange;
-            michal = tangon * michal;
-            michal = zuuluu + michal;
-            entity['y'] = michal;
-            return entity;
+    var5 = var4.bind(var1)();
+    var4 = {};
+    var8 = 'function pipXYtoAbsoluteXY_MorphablePanelUtilsTsx5({pipX:pipX,pipY:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{getPIPWindowDimensions}=this.__closure;const{xOffset:xOffset,yOffset:yOffset,xRange:xRange,yRange:yRange}=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);return{x:xOffset+pipX*xRange,y:yOffset+pipY*yRange};}';
+    var4['code'] = var8;
+    var _closure1_slot8 = var4;
+    var4 = function() {
+        var1 = function pipXYtoAbsoluteXY(arg1) {
+            var1 = arg1;
+            var7 = var1.pipX;
+            var4 = var1.pipY;
+            var6 = var1.windowDimensions;
+            var5 = var1.safeArea;
+            var3 = var1.disableHorizontalSafeAreas;
+            var2 = _closure1_slot6;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var6, var5, var3);
+            var6 = var2.xOffset;
+            var3 = var2.yOffset;
+            var1 = {};
+            var5 = var2.xRange;
+            var5 = var7 * var5;
+            var5 = var6 + var5;
+            var1['x'] = var5;
+            var2 = var2.yRange;
+            var2 = var4 * var2;
+            var2 = var3 + var2;
+            var1['y'] = var2;
+            return var1;
         };
-        zuuluu = {};
-        tangon = _closure1_slot6;
-        zuuluu['getPIPWindowDimensions'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 1981621867924.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot8;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var4 = _closure1_slot6;
+        var3['getPIPWindowDimensions'] = var4;
+        var1['__closure'] = var3;
+        var3 = 1981621867924.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot8;
+        var1['__initData'] = var2;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot9 = tangon;
-    option = {};
-    yankee = 'function getClampedPIPPosition_MorphablePanelUtilsTsx6({pipX:pipX,pipY:pipY,width:width,height:height,windowDimensions:windowDimensions,safeArea:safeArea,bottomAvoidanceRegion=0,topAvoidanceRegion=0,positionOffset={x:0,y:0},disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{pipXYtoAbsoluteXY,getPIPWindowDimensions,clamp}=this.__closure;let{x:x,y:y}=pipXYtoAbsoluteXY({pipX:pipX===-1?1:pipX,pipY:pipY===-1?0:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas});const halfWidth=width/2;const halfHeight=height/2;x-=halfWidth;if(pipY===-1){y+=72;}else{y-=halfHeight;}const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);x=clamp(x,pipRegion.xOffset,pipRegion.xOffset+pipRegion.xRange-width);y=clamp(y,pipRegion.yOffset+topAvoidanceRegion,pipRegion.yOffset+pipRegion.yRange-bottomAvoidanceRegion-height);x+=positionOffset.x;y+=positionOffset.y;return{x:x,y:y};}';
-    option['code'] = yankee;
-    var _closure1_slot10 = option;
-    michal = function() {
-        entity = function(argFoo) { // Original name: getClampedPIPPosition
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot9 = var4;
+    var8 = {};
+    var11 = 'function getClampedPIPPosition_MorphablePanelUtilsTsx6({pipX:pipX,pipY:pipY,width:width,height:height,windowDimensions:windowDimensions,safeArea:safeArea,bottomAvoidanceRegion=0,topAvoidanceRegion=0,positionOffset={x:0,y:0},disableHorizontalSafeAreas:disableHorizontalSafeAreas}){const{pipXYtoAbsoluteXY,getPIPWindowDimensions,clamp}=this.__closure;let{x:x,y:y}=pipXYtoAbsoluteXY({pipX:pipX===-1?1:pipX,pipY:pipY===-1?0:pipY,windowDimensions:windowDimensions,safeArea:safeArea,disableHorizontalSafeAreas:disableHorizontalSafeAreas});const halfWidth=width/2;const halfHeight=height/2;x-=halfWidth;if(pipY===-1){y+=72;}else{y-=halfHeight;}const pipRegion=getPIPWindowDimensions(windowDimensions,safeArea,disableHorizontalSafeAreas);x=clamp(x,pipRegion.xOffset,pipRegion.xOffset+pipRegion.xRange-width);y=clamp(y,pipRegion.yOffset+topAvoidanceRegion,pipRegion.yOffset+pipRegion.yRange-bottomAvoidanceRegion-height);x+=positionOffset.x;y+=positionOffset.y;return{x:x,y:y};}';
+    var8['code'] = var11;
+    var _closure1_slot10 = var8;
+    var2 = function() {
+        var1 = function getClampedPIPPosition(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                sizing = entity.pipX;
-                kiloes = entity.pipY;
-                romeon = entity.width;
-                option = entity.height;
-                foxtra = entity.windowDimensions;
-                report = entity.safeArea;
-                verify = entity.bottomAvoidanceRegion;
-                golfie = undefined;
-                if(!(verify === golfie)) { _fun00008_ip = 51; continue _fun00007 }
+                var1 = arg1;
+                var16 = var1.pipX;
+                var15 = var1.pipY;
+                var12 = var1.width;
+                var8 = var1.height;
+                var13 = var1.windowDimensions;
+                var5 = var1.safeArea;
+                var9 = var1.bottomAvoidanceRegion;
+                var7 = undefined;
+                if(!(var9 === var7)) { _fun0004_ip = 51; continue _fun0004 }
  49:
-                verify = 0;
+                var9 = 0;
  51:
-                offset = entity.topAvoidanceRegion;
-                if(!(offset === golfie)) { _fun00008_ip = 63; continue _fun00007 }
+                var10 = var1.topAvoidanceRegion;
+                if(!(var10 === var7)) { _fun0004_ip = 63; continue _fun0004 }
  61:
-                offset = 0;
+                var10 = 0;
  63:
-                michal = entity.positionOffset;
-                if(!(michal === golfie)) { _fun00008_ip = 83; continue _fun00007 }
+                var2 = var1.positionOffset;
+                if(!(var2 === var7)) { _fun0004_ip = 83; continue _fun0004 }
  73:
-                michal = {'x': 0, 'y': 0};
+                var2 = {'x': 0, 'y': 0};
  83:
-                tangon = entity.disableHorizontalSafeAreas;
-                yankee = _closure1_slot9;
-                entity = {};
-                backup = 1;
-                oscard = -1;
-                if(!(oscard !== sizing)) { _fun00008_ip = 114; continue _fun00007 }
+                var4 = var1.disableHorizontalSafeAreas;
+                var11 = _closure1_slot9;
+                var1 = {};
+                var14 = 1;
+                var6 = -1;
+                if(!(var6 !== var16)) { _fun0004_ip = 114; continue _fun0004 }
  111:
-                backup = sizing;
+                var14 = var16;
  114:
-                entity['pipX'] = backup;
-                oscard = oscard === kiloes;
-                backup = 0;
-                if(oscard) { _fun00008_ip = 131; continue _fun00007 }
+                var1['pipX'] = var14;
+                var6 = var6 === var15;
+                var14 = 0;
+                if(var6) { _fun0004_ip = 131; continue _fun0004 }
  128:
-                backup = kiloes;
+                var14 = var15;
  131:
-                entity['pipY'] = backup;
-                entity['windowDimensions'] = foxtra;
-                entity['safeArea'] = report;
-                entity['disableHorizontalSafeAreas'] = tangon;
-                entity = yankee.bind(golfie)(entity);
-                kiloes = entity.x;
-                backup = entity.y;
-                entity = 2;
-                yankee = romeon / entity;
-                yankee = kiloes - yankee;
-                if(oscard) { _fun00008_ip = 190; continue _fun00007 }
+                var1['pipY'] = var14;
+                var1['windowDimensions'] = var13;
+                var1['safeArea'] = var5;
+                var1['disableHorizontalSafeAreas'] = var4;
+                var1 = var11.bind(var7)(var1);
+                var15 = var1.x;
+                var14 = var1.y;
+                var1 = 2;
+                var11 = var12 / var1;
+                var11 = var15 - var11;
+                if(var6) { _fun0004_ip = 190; continue _fun0004 }
  180:
-                entity = option / entity;
-                oscard = backup - entity;
-                _fun00008_ip = 197; continue _fun00007;
+                var1 = var8 / var1;
+                var6 = var14 - var1;
+                _fun0004_ip = 197; continue _fun0004;
  190:
-                entity = 72;
-                oscard = backup + entity;
+                var1 = 72;
+                var6 = var14 + var1;
  197:
-                entity = _closure1_slot6;
-                entity = entity.bind(golfie)(foxtra, report, tangon);
-                tangon = _closure1_slot3;
-                report = entity.xOffset;
-                foxtra = entity.xOffset;
-                zuuluu = entity.xRange;
-                zuuluu = foxtra + zuuluu;
-                zuuluu = zuuluu - romeon;
-                report = tangon.bind(golfie)(yankee, report, zuuluu);
-                zuuluu = entity.yOffset;
-                zuuluu = zuuluu + offset;
-                offset = entity.yOffset;
-                entity = entity.yRange;
-                entity = offset + entity;
-                entity = entity - verify;
-                entity = entity - option;
-                zuuluu = tangon.bind(golfie)(oscard, zuuluu, entity);
-                entity = {};
-                tangon = michal.x;
-                tangon = report + tangon;
-                entity['x'] = tangon;
-                michal = michal.y;
-                michal = zuuluu + michal;
-                entity['y'] = michal;
-                return entity;
+                var1 = _closure1_slot6;
+                var1 = var1.bind(var7)(var13, var5, var4);
+                var4 = _closure1_slot3;
+                var5 = var1.xOffset;
+                var13 = var1.xOffset;
+                var3 = var1.xRange;
+                var3 = var13 + var3;
+                var3 = var3 - var12;
+                var5 = var4.bind(var7)(var11, var5, var3);
+                var3 = var1.yOffset;
+                var3 = var3 + var10;
+                var10 = var1.yOffset;
+                var1 = var1.yRange;
+                var1 = var10 + var1;
+                var1 = var1 - var9;
+                var1 = var1 - var8;
+                var3 = var4.bind(var7)(var6, var3, var1);
+                var1 = {};
+                var4 = var2.x;
+                var4 = var5 + var4;
+                var1['x'] = var4;
+                var2 = var2.y;
+                var2 = var3 + var2;
+                var1['y'] = var2;
+                return var1;
             }
         };
-        zuuluu = {};
-        tangon = _closure1_slot9;
-        zuuluu['pipXYtoAbsoluteXY'] = tangon;
-        tangon = _closure1_slot6;
-        zuuluu['getPIPWindowDimensions'] = tangon;
-        tangon = _closure1_slot3;
-        zuuluu['clamp'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 7754262947803.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot10;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {};
+        var4 = _closure1_slot9;
+        var3['pipXYtoAbsoluteXY'] = var4;
+        var4 = _closure1_slot6;
+        var3['getPIPWindowDimensions'] = var4;
+        var4 = _closure1_slot3;
+        var3['clamp'] = var4;
+        var1['__closure'] = var3;
+        var3 = 7754262947803.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot10;
+        var1['__initData'] = var2;
+        return var1;
     };
-    michal = michal.bind(entity)();
-    option = 1;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/panels/morphable/native/MorphablePanelUtils.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['calculateXYDiff'] = golfie;
-    zuuluu['getPIPWindowDimensions'] = oscard;
-    zuuluu['calculatePIPPositionFromVelocity'] = report;
-    zuuluu['pipXYtoAbsoluteXY'] = tangon;
-    zuuluu['getClampedPIPPosition'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var8 = 1;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/panels/morphable/native/MorphablePanelUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['calculateXYDiff'] = var7;
+    var3['getPIPWindowDimensions'] = var6;
+    var3['calculatePIPPositionFromVelocity'] = var5;
+    var3['pipXYtoAbsoluteXY'] = var4;
+    var3['getClampedPIPPosition'] = var2;
+    return var1;
 })();

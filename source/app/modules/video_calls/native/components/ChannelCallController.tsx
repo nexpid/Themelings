@@ -1,185 +1,185 @@
 // app/modules/video_calls/native/components/ChannelCallController.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = function(argFoo) { // Original name: ChannelPrivateVoiceCallController
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot5 = var4;
+    var4 = function ChannelPrivateVoiceCallController(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.channel;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 3;
-            entity = tangon[entity];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            entity = entity.bind(report)(oscard);
-            zuuluu = oscard.isPrivate;
-            zuuluu = zuuluu.bind(oscard)();
-            if(!zuuluu) { _fun00002_ip = 54; continue _fun00001 }
+            var1 = arg1;
+            var6 = var1.channel;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.bind(var5)(var6);
+            var3 = var6.isPrivate;
+            var3 = var3.bind(var6)();
+            if(!var3) { _fun0001_ip = 54; continue _fun0001 }
  51:
-            if(entity) { _fun00002_ip = 76; continue _fun00001 }
+            if(var1) { _fun0001_ip = 76; continue _fun0001 }
  54:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot7;
-            entity = {};
-            entity['channel'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 112; continue _fun00001;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot7;
+            var1 = {};
+            var1['channel'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0001_ip = 112; continue _fun0001;
  76:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 4;
-            michal = golfie[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = {};
-            michal['channel'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var3 = var3.bind(var5)(var2);
+            var2 = {};
+            var2['channel'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  112:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    tangon = function(argFoo) { // Original name: ChannelCallController
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var4 = function ChannelCallController(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.channel;
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 5;
-            entity = tangon[entity];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            oscard = entity.bind(report)(golfie);
-            entity = null;
-            if(!(entity == oscard)) { _fun00004_ip = 66; continue _fun00003 }
+            var1 = arg1;
+            var7 = var1.channel;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var6 = var1.bind(var5)(var7);
+            var1 = null;
+            if(!(var1 == var6)) { _fun0002_ip = 66; continue _fun0002 }
  44:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot8;
-            entity = {};
-            entity['channel'] = golfie;
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 113; continue _fun00003;
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot8;
+            var1 = {};
+            var1['channel'] = var7;
+            var1 = var4.bind(var5)(var3, var1);
+            _fun0002_ip = 113; continue _fun0002;
  66:
-            tangon = _closure1_slot5;
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 6;
-            michal = option[michal];
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.ChannelCallSingleController;
-            michal = {};
-            michal['channel'] = golfie;
-            michal['selectedParticipant'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot5;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 6;
+            var2 = var8[var2];
+            var2 = var3.bind(var5)(var2);
+            var3 = var2.ChannelCallSingleController;
+            var2 = {};
+            var2['channel'] = var7;
+            var2['selectedParticipant'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  113:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    tangon = function(argFoo) { // Original name: ChannelCallGridContainer
-        michal = argFoo;
-        michal = michal.channel;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useEffect;
-        report = michal.id;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            entity = 7;
-            michal = option[entity];
-            entity = undefined;
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.track;
-            michal = _closure1_slot4;
-            zuuluu = michal.VIDEO_LAYOUT_TOGGLED;
-            michal = {};
-            golfie = 'grid';
-            michal['video_layout'] = golfie;
-            golfie = _closure1_slot0;
-            oscard = 8;
-            oscard = option[oscard];
-            option = golfie.bind(entity)(oscard);
-            golfie = option.collectVoiceAnalyticsMetadata;
-            oscard = _closure2_slot0;
-            oscard = oscard.id;
-            verify = golfie.bind(option)(oscard);
-            offset = michal;
-            oscard = copyDataProperties(offset, verify);
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+    var _closure1_slot7 = var4;
+    var4 = function ChannelCallGridContainer(arg1) {
+        var2 = arg1;
+        var2 = var2.channel;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot3;
+        var3 = var4.useEffect;
+        var5 = var2.id;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var3 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var1 = 7;
+            var2 = var8[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot4;
+            var3 = var2.VIDEO_LAYOUT_TOGGLED;
+            var2 = {};
+            var7 = 'grid';
+            var2['video_layout'] = var7;
+            var7 = _closure1_slot0;
+            var6 = 8;
+            var6 = var8[var6];
+            var8 = var7.bind(var1)(var6);
+            var7 = var8.collectVoiceAnalyticsMetadata;
+            var6 = _closure2_slot0;
+            var6 = var6.id;
+            var9 = var7.bind(var8)(var6);
+            var10 = var2;
+            var6 = copyDataProperties(var10, var9);
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        entity = global;
-        zuuluu = entity.Error;
-        entity = zuuluu.prototype;
-        michal = Object.create(entity, {constructor: {value: zuuluu}});
-        golfie = 'Legacy voice and video call controller, slated for removal.';
-        option = michal;
-        entity = new option[zuuluu](golfie, oscard);
-        entity = entity instanceof Object ? entity : michal;
-        throw entity;
+        var1 = var3.bind(var4)(var1, var2);
+        var1 = global;
+        var3 = var1.Error;
+        var1 = var3.prototype;
+        var2 = Object.create(var1, {constructor: {value: var3}});
+        var7 = 'Legacy voice and video call controller, slated for removal.';
+        var8 = var2;
+        var1 = new var8[var3](var7, var6);
+        var1 = var1 instanceof Object ? var1 : var2;
+        throw var1;
     };
-    var _closure1_slot8 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/video_calls/native/components/ChannelCallController.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: _default
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot8 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/video_calls/native/components/ChannelCallController.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            michal = entity.channel;
-            entity = null;
-            zuuluu = entity == michal;
-            if(zuuluu) { _fun00006_ip = 42; continue _fun00005 }
+            var1 = arg1;
+            var2 = var1.channel;
+            var1 = null;
+            var3 = var1 == var2;
+            if(var3) { _fun0003_ip = 42; continue _fun0003 }
  17:
-            report = _closure1_slot5;
-            tangon = _closure1_slot6;
-            zuuluu = {};
-            zuuluu['channel'] = michal;
-            michal = undefined;
-            entity = report.bind(michal)(tangon, zuuluu);
+            var5 = _closure1_slot5;
+            var4 = _closure1_slot6;
+            var3 = {};
+            var3['channel'] = var2;
+            var2 = undefined;
+            var1 = var5.bind(var2)(var4, var3);
  42:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

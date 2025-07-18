@@ -1,224 +1,224 @@
 // app/modules/messages/isMessageMentioned.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    michal = function(argFoo) { // Original name: isMentioned
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var2 = function isMentioned(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.userId;
-            option = entity.channelId;
-            oscard = entity.mentionEveryone;
-            report = entity.mentionUsers;
-            tangon = entity.mentionRoles;
-            zuuluu = entity.suppressEveryone;
-            verify = undefined;
-            if(!(zuuluu === verify)) { _fun00002_ip = 47; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.userId;
+            var8 = var1.channelId;
+            var6 = var1.mentionEveryone;
+            var5 = var1.mentionUsers;
+            var4 = var1.mentionRoles;
+            var3 = var1.suppressEveryone;
+            var9 = undefined;
+            if(!(var3 === var9)) { _fun0001_ip = 47; continue _fun0001 }
  45:
-            zuuluu = false;
+            var3 = false;
  47:
-            entity = entity.suppressRoles;
-            if(!(entity === verify)) { _fun00002_ip = 59; continue _fun00001 }
+            var1 = var1.suppressRoles;
+            if(!(var1 === var9)) { _fun0001_ip = 59; continue _fun0001 }
  57:
-            entity = false;
+            var1 = false;
  59:
-            var _closure2_slot0 = verify;
-            if(!oscard) { _fun00002_ip = 73; continue _fun00001 }
+            var _closure2_slot0 = var9;
+            if(!var6) { _fun0001_ip = 73; continue _fun0001 }
  66:
-            if(zuuluu) { _fun00002_ip = 73; continue _fun00001 }
+            if(var3) { _fun0001_ip = 73; continue _fun0001 }
  69:
-            zuuluu = true;
-            return zuuluu;
+            var3 = true;
+            return var3;
  73:
-            zuuluu = report.includes;
-            zuuluu = zuuluu.bind(report)(golfie);
-            if(zuuluu) { _fun00002_ip = 229; continue _fun00001 }
+            var3 = var5.includes;
+            var3 = var3.bind(var5)(var7);
+            if(var3) { _fun0001_ip = 229; continue _fun0001 }
  89:
-            if(entity) { _fun00002_ip = 225; continue _fun00001 }
+            if(var1) { _fun0001_ip = 225; continue _fun0001 }
  95:
-            zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 225; continue _fun00001 }
+            var3 = null;
+            if(!(var3 != var4)) { _fun0001_ip = 225; continue _fun0001 }
  104:
-            report = tangon.length;
-            entity = 0;
-            if(!(entity !== report)) { _fun00002_ip = 225; continue _fun00001 }
+            var5 = var4.length;
+            var1 = 0;
+            if(!(var1 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
  115:
-            oscard = _closure1_slot0;
-            report = oscard.getChannel;
-            oscard = report.bind(oscard)(option);
-            if(!(zuuluu != oscard)) { _fun00002_ip = 221; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var5 = var6.getChannel;
+            var6 = var5.bind(var6)(var8);
+            if(!(var3 != var6)) { _fun0001_ip = 221; continue _fun0001 }
  136:
-            report = oscard.getGuildId;
-            oscard = report.bind(oscard)();
-            if(!(zuuluu != oscard)) { _fun00002_ip = 217; continue _fun00001 }
+            var5 = var6.getGuildId;
+            var6 = var5.bind(var6)();
+            if(!(var3 != var6)) { _fun0001_ip = 217; continue _fun0001 }
  150:
-            option = _closure1_slot2;
-            report = option.getGuild;
-            report = report.bind(option)(oscard);
-            if(!(zuuluu != report)) { _fun00002_ip = 213; continue _fun00001 }
+            var8 = _closure1_slot2;
+            var5 = var8.getGuild;
+            var5 = var5.bind(var8)(var6);
+            if(!(var3 != var5)) { _fun0001_ip = 213; continue _fun0001 }
  168:
-            report = _closure1_slot1;
-            entity = report.getMember;
-            entity = entity.bind(report)(oscard, golfie);
-            _closure2_slot0 = entity;
-            entity = zuuluu != entity;
-            if(!entity) { _fun00002_ip = 211; continue _fun00001 }
+            var5 = _closure1_slot1;
+            var1 = var5.getMember;
+            var1 = var1.bind(var5)(var6, var7);
+            _closure2_slot0 = var1;
+            var1 = var3 != var1;
+            if(!var1) { _fun0001_ip = 211; continue _fun0001 }
  195:
-            zuuluu = tangon.some;
-            michal = function(argFoo) {
-                entity = _closure2_slot0;
-                zuuluu = entity.roles;
-                michal = zuuluu.includes;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var3 = var4.some;
+            var2 = function(arg1) {
+                var1 = _closure2_slot0;
+                var3 = var1.roles;
+                var2 = var3.includes;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(michal);
+            var1 = var3.bind(var4)(var2);
  211:
-            return entity;
+            return var1;
  213:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  217:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  221:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  225:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  229:
-            entity = true;
-            return entity;
+            var1 = true;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = oscard[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    var _closure1_slot0 = report;
-    report = 1;
-    report = oscard[report];
-    report = golfie.bind(entity)(report);
-    var _closure1_slot1 = report;
-    report = 2;
-    report = oscard[report];
-    report = golfie.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 3;
-    oscard = oscard[report];
-    report = argBar;
-    golfie = report.bind(entity)(oscard);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/messages/isMessageMentioned.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: isMessageMentioned
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var6[var1];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot0 = var5;
+    var5 = 1;
+    var5 = var6[var5];
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot1 = var5;
+    var5 = 2;
+    var5 = var6[var5];
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 3;
+    var6 = var6[var5];
+    var5 = native2;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/messages/isMessageMentioned.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function isMessageMentioned(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.message;
-            golfie = entity.userId;
-            report = entity.suppressEveryone;
-            zuuluu = undefined;
-            if(!(report === zuuluu)) { _fun00004_ip = 27; continue _fun00003 }
+            var1 = arg1;
+            var6 = var1.message;
+            var7 = var1.userId;
+            var5 = var1.suppressEveryone;
+            var3 = undefined;
+            if(!(var5 === var3)) { _fun0002_ip = 27; continue _fun0002 }
  25:
-            report = false;
+            var5 = false;
  27:
-            tangon = entity.suppressRoles;
-            if(!(tangon === zuuluu)) { _fun00004_ip = 39; continue _fun00003 }
+            var4 = var1.suppressRoles;
+            if(!(var4 === var3)) { _fun0002_ip = 39; continue _fun0002 }
  37:
-            tangon = false;
+            var4 = false;
  39:
-            michal = _closure1_slot3;
-            entity = {};
-            entity['userId'] = golfie;
-            golfie = oscard.channel_id;
-            entity['channelId'] = golfie;
-            golfie = oscard.mentionEveryone;
-            entity['mentionEveryone'] = golfie;
-            golfie = oscard.mentions;
-            entity['mentionUsers'] = golfie;
-            oscard = oscard.mentionRoles;
-            entity['mentionRoles'] = oscard;
-            entity['suppressEveryone'] = report;
-            entity['suppressRoles'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var1['userId'] = var7;
+            var7 = var6.channel_id;
+            var1['channelId'] = var7;
+            var7 = var6.mentionEveryone;
+            var1['mentionEveryone'] = var7;
+            var7 = var6.mentions;
+            var1['mentionUsers'] = var7;
+            var6 = var6.mentionRoles;
+            var1['mentionRoles'] = var6;
+            var1['suppressEveryone'] = var5;
+            var1['suppressRoles'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['default'] = report;
-    tangon = function(argFoo) { // Original name: isRawMessageMentioned
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var5;
+    var4 = function isRawMessageMentioned(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            oscard = entity.rawMessage;
-            golfie = entity.userId;
-            report = entity.suppressEveryone;
-            zuuluu = undefined;
-            if(!(report === zuuluu)) { _fun00006_ip = 28; continue _fun00005 }
+            var1 = arg1;
+            var6 = var1.rawMessage;
+            var7 = var1.userId;
+            var5 = var1.suppressEveryone;
+            var3 = undefined;
+            if(!(var5 === var3)) { _fun0003_ip = 28; continue _fun0003 }
  26:
-            report = false;
+            var5 = false;
  28:
-            tangon = entity.suppressRoles;
-            if(!(tangon === zuuluu)) { _fun00006_ip = 40; continue _fun00005 }
+            var4 = var1.suppressRoles;
+            if(!(var4 === var3)) { _fun0003_ip = 40; continue _fun0003 }
  38:
-            tangon = false;
+            var4 = false;
  40:
-            michal = _closure1_slot3;
-            entity = {};
-            entity['userId'] = golfie;
-            golfie = oscard.channel_id;
-            entity['channelId'] = golfie;
-            verify = oscard.mention_everyone;
-            golfie = null;
-            option = golfie != verify;
-            if(!option) { _fun00006_ip = 80; continue _fun00005 }
+            var2 = _closure1_slot3;
+            var1 = {};
+            var1['userId'] = var7;
+            var7 = var6.channel_id;
+            var1['channelId'] = var7;
+            var9 = var6.mention_everyone;
+            var7 = null;
+            var8 = var7 != var9;
+            if(!var8) { _fun0003_ip = 80; continue _fun0003 }
  77:
-            option = verify;
+            var8 = var9;
  80:
-            entity['mentionEveryone'] = option;
-            yankee = oscard.mentions;
-            verify = golfie == yankee;
-            option = undefined;
-            if(verify) { _fun00006_ip = 117; continue _fun00005 }
+            var1['mentionEveryone'] = var8;
+            var11 = var6.mentions;
+            var9 = var7 == var11;
+            var8 = undefined;
+            if(var9) { _fun0003_ip = 117; continue _fun0003 }
  100:
-            offset = yankee.map;
-            verify = function(argFoo) {
-                entity = argFoo;
-                entity = entity.id;
-                return entity;
+            var10 = var11.map;
+            var9 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.id;
+                return var1;
             };
-            option = offset.bind(yankee)(verify);
+            var8 = var10.bind(var11)(var9);
  117:
-            if(!(golfie == option)) { _fun00006_ip = 125; continue _fun00005 }
+            if(!(var7 == var8)) { _fun0003_ip = 125; continue _fun0003 }
  121:
-            option = new Array(0);
+            var8 = new Array(0);
  125:
-            entity['mentionUsers'] = option;
-            oscard = oscard.mention_roles;
-            if(!(golfie == oscard)) { _fun00006_ip = 144; continue _fun00005 }
+            var1['mentionUsers'] = var8;
+            var6 = var6.mention_roles;
+            if(!(var7 == var6)) { _fun0003_ip = 144; continue _fun0003 }
  140:
-            oscard = new Array(0);
+            var6 = new Array(0);
  144:
-            entity['mentionRoles'] = oscard;
-            entity['suppressEveryone'] = report;
-            entity['suppressRoles'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1['mentionRoles'] = var6;
+            var1['suppressEveryone'] = var5;
+            var1['suppressRoles'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['isRawMessageMentioned'] = tangon;
-    zuuluu['isMentioned'] = michal;
-    return entity;
+    var3['isRawMessageMentioned'] = var4;
+    var3['isMentioned'] = var2;
+    return var1;
 })();

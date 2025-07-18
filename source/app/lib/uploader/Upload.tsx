@@ -1,289 +1,289 @@
 // app/lib/uploader/Upload.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    option = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = report;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = verify;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var5 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var5;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var9;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot10 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot10 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot10 = entity;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, michal);
-    offset = 0;
-    michal = verify[offset];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    golfie = 1;
-    michal = verify[golfie];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 2;
-    michal = verify[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 3;
-    michal = verify[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 4;
-    michal = verify[michal];
-    michal = report.bind(entity)(michal);
-    var _closure1_slot8 = michal;
-    report = {};
-    report['REACT_NATIVE'] = offset;
-    michal = 'REACT_NATIVE';
-    report[offset] = michal;
-    report['WEB'] = golfie;
-    michal = 'WEB';
-    report[golfie] = michal;
-    var _closure1_slot9 = report;
-    michal = {};
-    michal['FILE_ATTACHMENT'] = offset;
-    oscard = 'FILE_ATTACHMENT';
-    michal[offset] = oscard;
-    michal['IMAGE_PICKER'] = golfie;
-    oscard = 'IMAGE_PICKER';
-    michal[golfie] = oscard;
-    oscard = 9;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    golfie = oscard.EventEmitter;
-    oscard = function(argFoo) {
-        tangon = function(argFoo, argBar) { // Original name: Upload
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var2);
+    var10 = 0;
+    var2 = var9[var10];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var7 = 1;
+    var2 = var9[var7];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 2;
+    var2 = var9[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 3;
+    var2 = var9[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 4;
+    var2 = var9[var2];
+    var2 = var5.bind(var1)(var2);
+    var _closure1_slot8 = var2;
+    var5 = {};
+    var5['REACT_NATIVE'] = var10;
+    var2 = 'REACT_NATIVE';
+    var5[var10] = var2;
+    var5['WEB'] = var7;
+    var2 = 'WEB';
+    var5[var7] = var2;
+    var _closure1_slot9 = var5;
+    var2 = {};
+    var2['FILE_ATTACHMENT'] = var10;
+    var6 = 'FILE_ATTACHMENT';
+    var2[var10] = var6;
+    var2['IMAGE_PICKER'] = var7;
+    var6 = 'IMAGE_PICKER';
+    var2[var7] = var6;
+    var6 = 9;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var7 = var6.EventEmitter;
+    var6 = function(arg1) {
+        var4 = function Upload(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                zuuluu = argFoo;
-                oscard = this;
-                entity = _closure1_slot4;
-                report = _closure2_slot0;
-                tangon = undefined;
-                entity = entity.bind(tangon)(oscard, report);
-                entity = _closure1_slot7;
-                yankee = entity.bind(tangon)(report);
-                report = _closure1_slot6;
-                entity = _closure1_slot10;
-                entity = entity.bind(tangon)();
-                if(entity) { _fun00004_ip = 65; continue _fun00003 }
+                var3 = arg1;
+                var6 = this;
+                var1 = _closure1_slot4;
+                var5 = _closure2_slot0;
+                var4 = undefined;
+                var1 = var1.bind(var4)(var6, var5);
+                var1 = _closure1_slot7;
+                var11 = var1.bind(var4)(var5);
+                var5 = _closure1_slot6;
+                var1 = _closure1_slot10;
+                var1 = var1.bind(var4)();
+                if(var1) { _fun0002_ip = 65; continue _fun0002 }
  52:
-                entity = yankee.apply;
-                entity = entity.bind(yankee)(oscard, tangon);
-                _fun00004_ip = 103; continue _fun00003;
+                var1 = var11.apply;
+                var1 = var1.bind(var11)(var6, var4);
+                _fun0002_ip = 103; continue _fun0002;
  65:
-                golfie = global;
-                offset = golfie.Reflect;
-                verify = offset.construct;
-                golfie = _closure1_slot7;
-                golfie = golfie.bind(tangon)(oscard);
-                option = golfie.constructor;
-                golfie = new Array(0);
-                entity = verify.bind(offset)(yankee, golfie, option);
+                var7 = global;
+                var10 = var7.Reflect;
+                var9 = var10.construct;
+                var7 = _closure1_slot7;
+                var7 = var7.bind(var4)(var6);
+                var8 = var7.constructor;
+                var7 = new Array(0);
+                var1 = var9.bind(var10)(var11, var7, var8);
  103:
-                entity = report.bind(tangon)(oscard, entity);
-                entity['item'] = zuuluu;
-                oscard = zuuluu.platform;
-                report = _closure1_slot9;
-                report = report.REACT_NATIVE;
-                if(!(oscard !== report)) { _fun00004_ip = 312; continue _fun00003 }
+                var1 = var5.bind(var4)(var6, var1);
+                var1['item'] = var3;
+                var6 = var3.platform;
+                var5 = _closure1_slot9;
+                var5 = var5.REACT_NATIVE;
+                if(!(var6 !== var5)) { _fun0002_ip = 312; continue _fun0002 }
  138:
-                report = zuuluu.id;
-                oscard = null;
-                if(!(oscard == report)) { _fun00004_ip = 184; continue _fun00003 }
+                var5 = var3.id;
+                var6 = null;
+                if(!(var6 == var5)) { _fun0002_ip = 184; continue _fun0002 }
  149:
-                golfie = _closure1_slot1;
-                option = _closure1_slot3;
-                oscard = 6;
-                oscard = option[oscard];
-                option = golfie.bind(tangon)(oscard);
-                golfie = option.uniqueId;
-                oscard = 'upload';
-                report = golfie.bind(option)(oscard);
+                var7 = _closure1_slot1;
+                var8 = _closure1_slot3;
+                var6 = 6;
+                var6 = var8[var6];
+                var8 = var7.bind(var4)(var6);
+                var7 = var8.uniqueId;
+                var6 = 'upload';
+                var5 = var7.bind(var8)(var6);
  184:
-                entity['id'] = report;
-                oscard = _closure1_slot2;
-                golfie = _closure1_slot3;
-                report = 7;
-                report = golfie[report];
-                golfie = oscard.bind(tangon)(report);
-                oscard = golfie.classifyFile;
-                report = zuuluu.file;
-                report = oscard.bind(golfie)(report);
-                entity['classification'] = report;
-                oscard = entity.classification;
-                report = 'image';
-                report = report === oscard;
-                entity['isImage'] = report;
-                oscard = entity.classification;
-                report = 'video';
-                report = report === oscard;
-                entity['isVideo'] = report;
-                report = zuuluu.file;
-                report = report.name;
-                entity['filename'] = report;
-                report = zuuluu.file;
-                report = report.type;
-                entity['mimeType'] = report;
-                _fun00004_ip = 496; continue _fun00003;
+                var1['id'] = var5;
+                var6 = _closure1_slot2;
+                var7 = _closure1_slot3;
+                var5 = 7;
+                var5 = var7[var5];
+                var7 = var6.bind(var4)(var5);
+                var6 = var7.classifyFile;
+                var5 = var3.file;
+                var5 = var6.bind(var7)(var5);
+                var1['classification'] = var5;
+                var6 = var1.classification;
+                var5 = 'image';
+                var5 = var5 === var6;
+                var1['isImage'] = var5;
+                var6 = var1.classification;
+                var5 = 'video';
+                var5 = var5 === var6;
+                var1['isVideo'] = var5;
+                var5 = var3.file;
+                var5 = var5.name;
+                var1['filename'] = var5;
+                var5 = var3.file;
+                var5 = var5.type;
+                var1['mimeType'] = var5;
+                _fun0002_ip = 496; continue _fun0002;
  312:
-                report = zuuluu.id;
-                oscard = null;
-                if(!(oscard == report)) { _fun00004_ip = 329; continue _fun00003 }
+                var5 = var3.id;
+                var6 = null;
+                if(!(var6 == var5)) { _fun0002_ip = 329; continue _fun0002 }
  323:
-                report = zuuluu.uri;
+                var5 = var3.uri;
  329:
-                entity['id'] = report;
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot3;
-                report = 5;
-                report = golfie[report];
-                golfie = oscard.bind(tangon)(report);
-                oscard = golfie.getFile;
-                report = {};
-                option = zuuluu.uri;
-                report['uri'] = option;
-                option = zuuluu.filename;
-                report['overrideFilename'] = option;
-                option = zuuluu.mimeType;
-                report['overrideType'] = option;
-                report = oscard.bind(golfie)(report);
-                oscard = report.filename;
-                entity['filename'] = oscard;
-                oscard = report.isImage;
-                entity['isImage'] = oscard;
-                oscard = report.isVideo;
-                entity['isVideo'] = oscard;
-                report = report.type;
-                entity['mimeType'] = report;
-                report = zuuluu.origin;
-                entity['origin'] = report;
-                report = zuuluu.durationSecs;
-                entity['durationSecs'] = report;
-                report = zuuluu.waveform;
-                entity['waveform'] = report;
-                report = zuuluu.isRemix;
-                entity['isRemix'] = report;
+                var1['id'] = var5;
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot3;
+                var5 = 5;
+                var5 = var7[var5];
+                var7 = var6.bind(var4)(var5);
+                var6 = var7.getFile;
+                var5 = {};
+                var8 = var3.uri;
+                var5['uri'] = var8;
+                var8 = var3.filename;
+                var5['overrideFilename'] = var8;
+                var8 = var3.mimeType;
+                var5['overrideType'] = var8;
+                var5 = var6.bind(var7)(var5);
+                var6 = var5.filename;
+                var1['filename'] = var6;
+                var6 = var5.isImage;
+                var1['isImage'] = var6;
+                var6 = var5.isVideo;
+                var1['isVideo'] = var6;
+                var5 = var5.type;
+                var1['mimeType'] = var5;
+                var5 = var3.origin;
+                var1['origin'] = var5;
+                var5 = var3.durationSecs;
+                var1['durationSecs'] = var5;
+                var5 = var3.waveform;
+                var1['waveform'] = var5;
+                var5 = var3.isRemix;
+                var1['isRemix'] = var5;
  496:
-                report = zuuluu.isThumbnail;
-                entity['isThumbnail'] = report;
-                zuuluu = zuuluu.clip;
-                entity['clip'] = zuuluu;
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot3;
-                michal = 8;
-                michal = report[michal];
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.v4;
-                michal = michal.bind(zuuluu)();
-                entity['uniqueId'] = michal;
-                michal = argBar;
-                entity['showLargeMessageDialog'] = michal;
-                michal = false;
-                entity['spoiler'] = michal;
-                michal = null;
-                entity['description'] = michal;
-                return entity;
+                var5 = var3.isThumbnail;
+                var1['isThumbnail'] = var5;
+                var3 = var3.clip;
+                var1['clip'] = var3;
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot3;
+                var2 = 8;
+                var2 = var5[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.v4;
+                var2 = var2.bind(var3)();
+                var1['uniqueId'] = var2;
+                var2 = arg2;
+                var1['showLargeMessageDialog'] = var2;
+                var2 = false;
+                var1['spoiler'] = var2;
+                var2 = null;
+                var1['description'] = var2;
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot8;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot5;
-        report = {};
-        entity = 'cancel';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot8;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot5;
+        var5 = {};
+        var1 = 'cancel';
+        var5['key'] = var1;
+        var1 = function value() {
+            var1 = undefined;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(2);
-        entity[0] = report;
-        report = {};
-        golfie = 'resetState';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = this;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'resetState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = this;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[1] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[1] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    oscard = oscard.bind(entity)(golfie);
-    golfie = 10;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'lib/uploader/Upload.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['default'] = oscard;
-    zuuluu['UploadPlatform'] = report;
-    tangon = function(argFoo) { // Original name: isResolvedUpload
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var6 = var6.bind(var1)(var7);
+    var7 = 10;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'lib/uploader/Upload.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['default'] = var6;
+    var3['UploadPlatform'] = var5;
+    var4 = function isResolvedUpload(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = michal.isVideo;
-            zuuluu = undefined;
-            entity = zuuluu !== entity;
-            if(!entity) { _fun00006_ip = 28; continue _fun00005 }
+            var2 = arg1;
+            var1 = var2.isVideo;
+            var3 = undefined;
+            var1 = var3 !== var1;
+            if(!var1) { _fun0003_ip = 28; continue _fun0003 }
  18:
-            michal = michal.isImage;
-            entity = zuuluu !== michal;
+            var2 = var2.isImage;
+            var1 = var3 !== var2;
  28:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isResolvedUpload'] = tangon;
-    zuuluu['UploadOrigin'] = michal;
-    return entity;
+    var3['isResolvedUpload'] = var4;
+    var3['UploadOrigin'] = var2;
+    return var1;
 })();

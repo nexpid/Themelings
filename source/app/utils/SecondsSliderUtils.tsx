@@ -1,197 +1,197 @@
 // app/utils/SecondsSliderUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/SecondsSliderUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getSecondsSliderLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/SecondsSliderUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getSecondsSliderLabel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = arguments[1];
-            entity = arguments[2];
-            option = undefined;
-            if(!(zuuluu === option)) { _fun00002_ip = 17; continue _fun00001 }
+            var4 = arg1;
+            var3 = arguments[1];
+            var1 = arguments[2];
+            var8 = undefined;
+            if(!(var3 === var8)) { _fun0001_ip = 17; continue _fun0001 }
  15:
-            zuuluu = true;
+            var3 = true;
  17:
-            if(!(entity === option)) { _fun00002_ip = 78; continue _fun00001 }
+            if(!(var1 === var8)) { _fun0001_ip = 78; continue _fun0001 }
  21:
-            golfie = _closure1_slot0;
-            verify = _closure1_slot2;
-            michal = 0;
-            report = verify[michal];
-            report = golfie.bind(option)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            michal = verify[michal];
-            michal = golfie.bind(option)(michal);
-            michal = michal.t;
-            michal = michal.Yl1D8/;
-            entity = report.bind(oscard)(michal);
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 0;
+            var5 = var9[var2];
+            var5 = var7.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var2 = var9[var2];
+            var2 = var7.bind(var8)(var2);
+            var2 = var2.t;
+            var2 = var2.Yl1D8/;
+            var1 = var5.bind(var6)(var2);
  78:
-            oscard = _closure1_slot1;
-            golfie = _closure1_slot2;
-            report = 1;
-            report = golfie[report];
-            golfie = oscard.bind(option)(report);
-            oscard = golfie.duration;
-            report = 'seconds';
-            golfie = oscard.bind(golfie)(tangon, report);
-            report = golfie.days;
-            report = report.bind(golfie)();
-            verify = 0;
-            if(!(!(report > verify))) { _fun00002_ip = 505; continue _fun00001 }
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 1;
+            var5 = var7[var5];
+            var7 = var6.bind(var8)(var5);
+            var6 = var7.duration;
+            var5 = 'seconds';
+            var7 = var6.bind(var7)(var4, var5);
+            var5 = var7.days;
+            var5 = var5.bind(var7)();
+            var9 = 0;
+            if(!(!(var5 > var9))) { _fun0001_ip = 505; continue _fun0001 }
  135:
-            report = golfie.hours;
-            report = report.bind(golfie)();
-            if(!(!(report > verify))) { _fun00002_ip = 414; continue _fun00001 }
+            var5 = var7.hours;
+            var5 = var5.bind(var7)();
+            if(!(!(var5 > var9))) { _fun0001_ip = 414; continue _fun0001 }
  152:
-            report = golfie.minutes;
-            report = report.bind(golfie)();
-            if(!(!(report > verify))) { _fun00002_ip = 323; continue _fun00001 }
+            var5 = var7.minutes;
+            var5 = var5.bind(var7)();
+            if(!(!(var5 > var9))) { _fun0001_ip = 323; continue _fun0001 }
  169:
-            if(!(!(tangon > verify))) { _fun00002_ip = 230; continue _fun00001 }
+            if(!(!(var4 > var9))) { _fun0001_ip = 230; continue _fun0001 }
  173:
-            if(!zuuluu) { _fun00002_ip = 228; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 228; continue _fun0001 }
  176:
-            offset = _closure1_slot0;
-            tangon = _closure1_slot2;
-            report = tangon[verify];
-            report = offset.bind(option)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            tangon = tangon[verify];
-            tangon = offset.bind(option)(tangon);
-            tangon = tangon.t;
-            tangon = tangon.Yl1D8/;
-            entity = report.bind(oscard)(tangon);
+            var10 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var5 = var4[var9];
+            var5 = var10.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var4[var9];
+            var4 = var10.bind(var8)(var4);
+            var4 = var4.t;
+            var4 = var4.Yl1D8/;
+            var1 = var5.bind(var6)(var4);
  228:
-            _fun00002_ip = 321; continue _fun00001;
+            _fun0001_ip = 321; continue _fun0001;
  230:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            offset = tangon.intl;
-            oscard = offset.formatToPlainString;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            tangon = tangon.t;
-            if(zuuluu) { _fun00002_ip = 290; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var10 = var4.intl;
+            var6 = var10.formatToPlainString;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var4 = var4.t;
+            if(var3) { _fun0001_ip = 290; continue _fun0001 }
  282:
-            report = tangon.geSp4O;
-            _fun00002_ip = 298; continue _fun00001;
+            var5 = var4.geSp4O;
+            _fun0001_ip = 298; continue _fun0001;
  290:
-            report = tangon.pyvjRk;
+            var5 = var4.pyvjRk;
  298:
-            tangon = {};
-            yankee = golfie.seconds;
-            yankee = yankee.bind(golfie)();
-            tangon['seconds'] = yankee;
-            entity = oscard.bind(offset)(report, tangon);
+            var4 = {};
+            var11 = var7.seconds;
+            var11 = var11.bind(var7)();
+            var4['seconds'] = var11;
+            var1 = var6.bind(var10)(var5, var4);
  321:
-            _fun00002_ip = 412; continue _fun00001;
+            _fun0001_ip = 412; continue _fun0001;
  323:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            offset = tangon.intl;
-            oscard = offset.formatToPlainString;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            tangon = tangon.t;
-            if(zuuluu) { _fun00002_ip = 383; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var10 = var4.intl;
+            var6 = var10.formatToPlainString;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var4 = var4.t;
+            if(var3) { _fun0001_ip = 383; continue _fun0001 }
  375:
-            report = tangon.iXLF9f;
-            _fun00002_ip = 389; continue _fun00001;
+            var5 = var4.iXLF9f;
+            _fun0001_ip = 389; continue _fun0001;
  383:
-            report = tangon.XIGt+f;
+            var5 = var4.XIGt+f;
  389:
-            tangon = {};
-            yankee = golfie.minutes;
-            yankee = yankee.bind(golfie)();
-            tangon['minutes'] = yankee;
-            entity = oscard.bind(offset)(report, tangon);
+            var4 = {};
+            var11 = var7.minutes;
+            var11 = var11.bind(var7)();
+            var4['minutes'] = var11;
+            var1 = var6.bind(var10)(var5, var4);
  412:
-            _fun00002_ip = 503; continue _fun00001;
+            _fun0001_ip = 503; continue _fun0001;
  414:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            offset = tangon.intl;
-            oscard = offset.formatToPlainString;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            tangon = tangon.t;
-            if(zuuluu) { _fun00002_ip = 474; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var10 = var4.intl;
+            var6 = var10.formatToPlainString;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var4 = var4.t;
+            if(var3) { _fun0001_ip = 474; continue _fun0001 }
  466:
-            report = tangon.xCjYxM;
-            _fun00002_ip = 480; continue _fun00001;
+            var5 = var4.xCjYxM;
+            _fun0001_ip = 480; continue _fun0001;
  474:
-            report = tangon.rhY1Rk;
+            var5 = var4.rhY1Rk;
  480:
-            tangon = {};
-            yankee = golfie.hours;
-            yankee = yankee.bind(golfie)();
-            tangon['hours'] = yankee;
-            entity = oscard.bind(offset)(report, tangon);
+            var4 = {};
+            var11 = var7.hours;
+            var11 = var11.bind(var7)();
+            var4['hours'] = var11;
+            var1 = var6.bind(var10)(var5, var4);
  503:
-            _fun00002_ip = 594; continue _fun00001;
+            _fun0001_ip = 594; continue _fun0001;
  505:
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            tangon = tangon[verify];
-            tangon = report.bind(option)(tangon);
-            report = tangon.intl;
-            tangon = report.formatToPlainString;
-            oscard = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[verify];
-            michal = oscard.bind(option)(michal);
-            michal = michal.t;
-            if(zuuluu) { _fun00002_ip = 565; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var9];
+            var4 = var5.bind(var8)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var9];
+            var2 = var6.bind(var8)(var2);
+            var2 = var2.t;
+            if(var3) { _fun0001_ip = 565; continue _fun0001 }
  557:
-            zuuluu = michal.k2UNz8;
-            _fun00002_ip = 571; continue _fun00001;
+            var3 = var2.k2UNz8;
+            _fun0001_ip = 571; continue _fun0001;
  565:
-            zuuluu = michal.GBLpQ0;
+            var3 = var2.GBLpQ0;
  571:
-            michal = {};
-            oscard = golfie.days;
-            oscard = oscard.bind(golfie)();
-            michal['days'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var2 = {};
+            var6 = var7.days;
+            var6 = var6.bind(var7)();
+            var2['days'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  594:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getSecondsSliderLabel'] = michal;
-    return entity;
+    var3['getSecondsSliderLabel'] = var2;
+    return var1;
 })();

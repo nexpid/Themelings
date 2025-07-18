@@ -1,135 +1,135 @@
 // app/modules/voice_filters/web/cleanupUnusedVoiceFilterFiles.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = function() { // Original name: _cleanupUnusedVoiceFilterFiles
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot2;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = function _cleanupUnusedVoiceFilterFiles() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot2;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 198; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 198; continue _fun0001 }
  10:
-                    zuuluu = argFoo;
-                    michal = undefined;
-                    oscard = undefined;
-                    tangon = undefined;
+                    var3 = arg1;
+                    var2 = undefined;
+                    var6 = undefined;
+                    var4 = undefined;
  19: // try_start_0
-                    option = _closure1_slot0;
-                    verify = _closure1_slot1;
-                    golfie = 2;
-                    golfie = verify[golfie];
-                    option = option.bind(michal)(golfie);
-                    golfie = option.cleanupUnusedVoiceFilterFiles;
-                    zuuluu = golfie.bind(option)(zuuluu);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 2;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var2)(var7);
+                    var7 = var8.cleanupUnusedVoiceFilterFiles;
+                    var3 = var7.bind(var8)(var3);
                     SaveGenerator(address=57);
  55:
-                    return zuuluu;
+                    return var3;
  57:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 160; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 160; continue _fun0001 }
  63:
-                    golfie = zuuluu.deletedFiles;
-                    oscard = golfie;
-                    tangon = zuuluu.errors;
-                    option = golfie.length;
-                    golfie = 0;
-                    if(!(option > golfie)) { _fun00002_ip = 118; continue _fun00001 }
+                    var7 = var3.deletedFiles;
+                    var6 = var7;
+                    var4 = var3.errors;
+                    var8 = var7.length;
+                    var7 = 0;
+                    if(!(var8 > var7)) { _fun0001_ip = 118; continue _fun0001 }
  89:
-                    offset = _closure1_slot3;
-                    verify = offset.info;
-                    option = {};
-                    option['deletedFiles'] = oscard;
-                    oscard = 'VF cleanup completed';
-                    oscard = verify.bind(offset)(oscard, option);
+                    var10 = _closure1_slot3;
+                    var9 = var10.info;
+                    var8 = {};
+                    var8['deletedFiles'] = var6;
+                    var6 = 'VF cleanup completed';
+                    var6 = var9.bind(var10)(var6, var8);
  118:
-                    oscard = tangon;
-                    oscard = oscard.length;
-                    if(!(oscard > golfie)) { _fun00002_ip = 158; continue _fun00001 }
+                    var6 = var4;
+                    var6 = var6.length;
+                    if(!(var6 > var7)) { _fun0001_ip = 158; continue _fun0001 }
  130:
-                    golfie = _closure1_slot3;
-                    oscard = golfie.warn;
-                    report = {};
-                    report['errors'] = tangon;
-                    tangon = 'VF cleanup had errors';
-                    tangon = oscard.bind(golfie)(tangon, report);
+                    var7 = _closure1_slot3;
+                    var6 = var7.warn;
+                    var5 = {};
+                    var5['errors'] = var4;
+                    var4 = 'VF cleanup had errors';
+                    var4 = var6.bind(var7)(var4, var5);
  158: // try_end0
-                    _fun00002_ip = 195; continue _fun00001;
+                    _fun0001_ip = 195; continue _fun0001;
  160:
-                    return zuuluu;
+                    return var3;
  163: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    oscard = _closure1_slot3;
-                    report = oscard.warn;
-                    tangon = {};
-                    tangon['error'] = zuuluu;
-                    zuuluu = 'VF cleanup failed';
-                    zuuluu = report.bind(oscard)(zuuluu, tangon);
+                    var6 = _closure1_slot3;
+                    var5 = var6.warn;
+                    var4 = {};
+                    var4['error'] = var3;
+                    var3 = 'VF cleanup failed';
+                    var3 = var5.bind(var6)(var3, var4);
  195:
-                    return michal;
+                    return var2;
  198:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot4 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot4 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    golfie = oscard.bind(entity)(tangon);
-    tangon = golfie.prototype;
-    oscard = Object.create(tangon, {constructor: {value: golfie}});
-    yankee = 'cleanupUnusedVoiceFilterFiles';
-    romeon = oscard;
-    tangon = new romeon[golfie](yankee, offset);
-    tangon = tangon instanceof Object ? tangon : oscard;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_filters/web/cleanupUnusedVoiceFilterFiles.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: cleanupUnusedVoiceFilterFiles
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var7 = var6.bind(var1)(var4);
+    var4 = var7.prototype;
+    var6 = Object.create(var4, {constructor: {value: var7}});
+    var11 = 'cleanupUnusedVoiceFilterFiles';
+    var12 = var6;
+    var4 = new var12[var7](var11, var10);
+    var4 = var4 instanceof Object ? var4 : var6;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_filters/web/cleanupUnusedVoiceFilterFiles.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function cleanupUnusedVoiceFilterFiles() {
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['cleanupUnusedVoiceFilterFiles'] = michal;
-    return entity;
+    var3['cleanupUnusedVoiceFilterFiles'] = var2;
+    return var1;
 })();

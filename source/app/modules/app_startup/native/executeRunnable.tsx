@@ -1,172 +1,172 @@
 // app/modules/app_startup/native/executeRunnable.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.init;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.applicationReady;
-    var _closure1_slot6 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_startup/native/executeRunnable.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: executeRunnable
-        option = argFoo;
-        var _closure2_slot0 = option;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        zuuluu = _closure1_slot1;
-        golfie = _closure1_slot3;
-        michal = 2;
-        michal = golfie[michal];
-        oscard = undefined;
-        michal = zuuluu.bind(oscard)(michal);
-        zuuluu = michal.prototype;
-        zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-        backup = zuuluu;
-        foxtra = option;
-        michal = new backup[michal](foxtra, romeon);
-        verify = michal instanceof Object ? michal : zuuluu;
-        tangon = verify.log;
-        michal = global;
-        zuuluu = michal.HermesInternal;
-        yankee = zuuluu.concat;
-        offset = 'Loading the ';
-        zuuluu = ' Discord runnable';
-        zuuluu = yankee.bind(offset)(option, zuuluu);
-        zuuluu = tangon.bind(verify)(zuuluu);
-        tangon = _closure1_slot2;
-        zuuluu = 3;
-        zuuluu = golfie[zuuluu];
-        offset = tangon.bind(oscard)(zuuluu);
-        verify = offset.setIsPaused;
-        zuuluu = false;
-        zuuluu = verify.bind(offset)(zuuluu);
-        zuuluu = 4;
-        zuuluu = golfie[zuuluu];
-        tangon = tangon.bind(oscard)(zuuluu);
-        zuuluu = tangon.withRequest;
-        michal = michal.HermesInternal;
-        golfie = michal.concat;
-        michal = 'executeRunnable:';
-        michal = golfie.bind(michal)(option);
-        report = _closure1_slot4;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.init;
+    var _closure1_slot5 = var7;
+    var4 = var4.applicationReady;
+    var _closure1_slot6 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_startup/native/executeRunnable.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function executeRunnable(arg1, arg2) {
+        var8 = arg1;
+        var _closure2_slot0 = var8;
+        var2 = arg2;
+        var _closure2_slot1 = var2;
+        var3 = _closure1_slot1;
+        var7 = _closure1_slot3;
+        var2 = 2;
+        var2 = var7[var2];
+        var6 = undefined;
+        var2 = var3.bind(var6)(var2);
+        var3 = var2.prototype;
+        var3 = Object.create(var3, {constructor: {value: var2}});
+        var14 = var3;
+        var13 = var8;
+        var2 = new var14[var2](var13, var12);
+        var9 = var2 instanceof Object ? var2 : var3;
+        var4 = var9.log;
+        var2 = global;
+        var3 = var2.HermesInternal;
+        var11 = var3.concat;
+        var10 = 'Loading the ';
+        var3 = ' Discord runnable';
+        var3 = var11.bind(var10)(var8, var3);
+        var3 = var4.bind(var9)(var3);
+        var4 = _closure1_slot2;
+        var3 = 3;
+        var3 = var7[var3];
+        var10 = var4.bind(var6)(var3);
+        var9 = var10.setIsPaused;
+        var3 = false;
+        var3 = var9.bind(var10)(var3);
+        var3 = 4;
+        var3 = var7[var3];
+        var4 = var4.bind(var6)(var3);
+        var3 = var4.withRequest;
+        var2 = var2.HermesInternal;
+        var7 = var2.concat;
+        var2 = 'executeRunnable:';
+        var2 = var7.bind(var2)(var8);
+        var5 = _closure1_slot4;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 247; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 247; continue _fun0001 }
  10:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot3;
-                    michal = 5;
-                    michal = report[michal];
-                    oscard = undefined;
-                    zuuluu = zuuluu.bind(oscard)(michal);
-                    michal = zuuluu.identifyWebSocket;
-                    michal = michal.bind(zuuluu)();
-                    zuuluu = _closure1_slot1;
-                    michal = 6;
-                    michal = report[michal];
-                    michal = zuuluu.bind(oscard)(michal);
-                    report = michal.init;
-                    zuuluu = report.measureAsync;
-                    michal = _closure1_slot5;
-                    michal = zuuluu.bind(report)(michal);
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot3;
+                    var2 = 5;
+                    var2 = var5[var2];
+                    var6 = undefined;
+                    var3 = var3.bind(var6)(var2);
+                    var2 = var3.identifyWebSocket;
+                    var2 = var2.bind(var3)();
+                    var3 = _closure1_slot1;
+                    var2 = 6;
+                    var2 = var5[var2];
+                    var2 = var3.bind(var6)(var2);
+                    var5 = var2.init;
+                    var3 = var5.measureAsync;
+                    var2 = _closure1_slot5;
+                    var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=86);
  84:
-                    return michal;
+                    return var2;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 244; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 244; continue _fun0001 }
  95:
-                    zuuluu = _closure1_slot6;
-                    zuuluu = zuuluu.promise;
+                    var3 = _closure1_slot6;
+                    var3 = var3.promise;
                     SaveGenerator(address=109);
  107:
-                    return zuuluu;
+                    return var3;
  109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 241; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 241; continue _fun0001 }
  118:
-                    option = _closure1_slot2;
-                    golfie = _closure1_slot3;
-                    report = 4;
-                    report = golfie[report];
-                    verify = option.bind(oscard)(report);
-                    option = verify.startBridgeTo;
-                    offset = _closure2_slot0;
-                    report = offset.toLowerCase;
-                    yankee = report.bind(offset)();
-                    report = global;
-                    report = report.HermesInternal;
-                    offset = report.concat;
-                    report = 'AppContainer:';
-                    report = offset.bind(report)(yankee);
-                    report = option.bind(verify)(report);
-                    report = _closure1_slot1;
-                    tangon = 7;
-                    tangon = golfie[tangon];
-                    option = report.bind(oscard)(tangon);
-                    golfie = option.time;
-                    oscard = '🏃';
-                    report = 'Run';
-                    tangon = function() {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot3;
-                        entity = 8;
-                        michal = michal[entity];
-                        entity = undefined;
-                        entity = zuuluu.bind(entity)(michal);
-                        zuuluu = entity.Emitter;
-                        michal = zuuluu.batched;
-                        entity = _closure2_slot1;
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                    var8 = _closure1_slot2;
+                    var7 = _closure1_slot3;
+                    var5 = 4;
+                    var5 = var7[var5];
+                    var9 = var8.bind(var6)(var5);
+                    var8 = var9.startBridgeTo;
+                    var10 = _closure2_slot0;
+                    var5 = var10.toLowerCase;
+                    var11 = var5.bind(var10)();
+                    var5 = global;
+                    var5 = var5.HermesInternal;
+                    var10 = var5.concat;
+                    var5 = 'AppContainer:';
+                    var5 = var10.bind(var5)(var11);
+                    var5 = var8.bind(var9)(var5);
+                    var5 = _closure1_slot1;
+                    var4 = 7;
+                    var4 = var7[var4];
+                    var8 = var5.bind(var6)(var4);
+                    var7 = var8.time;
+                    var6 = '🏃';
+                    var5 = 'Run';
+                    var4 = function() {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot3;
+                        var1 = 8;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        var3 = var1.Emitter;
+                        var2 = var3.batched;
+                        var1 = _closure2_slot1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
                     };
-                    tangon = golfie.bind(option)(oscard, report, tangon);
-                    return tangon;
+                    var4 = var7.bind(var8)(var6, var5, var4);
+                    return var4;
  241:
-                    return zuuluu;
+                    return var3;
  244:
-                    return michal;
+                    return var2;
  247:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = report.bind(oscard)(entity);
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var5.bind(var6)(var1);
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

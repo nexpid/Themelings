@@ -1,110 +1,110 @@
 // app/modules/media_keyboard/native/useUploadDisabled.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.DraftType;
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.MAX_UPLOAD_COUNT;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.Permissions;
-    var _closure1_slot6 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/media_keyboard/native/useUploadDisabled.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useUploadDisabled
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 4;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot3;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot4;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.DraftType;
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.MAX_UPLOAD_COUNT;
+    var _closure1_slot5 = var7;
+    var4 = var4.Permissions;
+    var _closure1_slot6 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/media_keyboard/native/useUploadDisabled.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useUploadDisabled(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot3;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot4;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                oscard = _closure1_slot4;
-                zuuluu = oscard.getUploads;
-                entity = _closure2_slot0;
-                michal = entity.id;
-                entity = _closure1_slot2;
-                entity = entity.ChannelMessage;
-                entity = zuuluu.bind(oscard)(michal, entity);
-                michal = entity.length;
-                entity = _closure1_slot5;
-                entity = michal >= entity;
-                if(entity) { _fun00002_ip = 154; continue _fun00001 }
+                var6 = _closure1_slot4;
+                var3 = var6.getUploads;
+                var1 = _closure2_slot0;
+                var2 = var1.id;
+                var1 = _closure1_slot2;
+                var1 = var1.ChannelMessage;
+                var1 = var3.bind(var6)(var2, var1);
+                var2 = var1.length;
+                var1 = _closure1_slot5;
+                var1 = var2 >= var1;
+                if(var1) { _fun0001_ip = 154; continue _fun0001 }
  57:
-                michal = _closure2_slot0;
-                zuuluu = michal.id;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot1;
-                michal = 5;
-                oscard = oscard[michal];
-                michal = undefined;
-                michal = golfie.bind(michal)(oscard);
-                michal = michal.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
-                michal = zuuluu === michal;
-                if(michal) { _fun00002_ip = 151; continue _fun00001 }
+                var2 = _closure2_slot0;
+                var3 = var2.id;
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var2 = 5;
+                var6 = var6[var2];
+                var2 = undefined;
+                var2 = var7.bind(var2)(var6);
+                var2 = var2.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
+                var2 = var3 === var2;
+                if(var2) { _fun0001_ip = 151; continue _fun0001 }
  101:
-                oscard = _closure2_slot0;
-                zuuluu = oscard.isPrivate;
-                zuuluu = zuuluu.bind(oscard)();
-                if(zuuluu) { _fun00002_ip = 148; continue _fun00001 }
+                var6 = _closure2_slot0;
+                var3 = var6.isPrivate;
+                var3 = var3.bind(var6)();
+                if(var3) { _fun0001_ip = 148; continue _fun0001 }
  118:
-                golfie = _closure1_slot3;
-                oscard = golfie.can;
-                report = _closure1_slot6;
-                report = report.ATTACH_FILES;
-                tangon = _closure2_slot0;
-                zuuluu = oscard.bind(golfie)(report, tangon);
+                var7 = _closure1_slot3;
+                var6 = var7.can;
+                var5 = _closure1_slot6;
+                var5 = var5.ATTACH_FILES;
+                var4 = _closure2_slot0;
+                var3 = var6.bind(var7)(var5, var4);
  148:
-                michal = !zuuluu;
+                var2 = !var3;
  151:
-                entity = michal;
+                var1 = var2;
  154:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

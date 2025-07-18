@@ -1,60 +1,60 @@
 // app/modules/rpc/helpers/getCurrentVoiceChannel.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rpc/helpers/getCurrentVoiceChannel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: getCurrentVoiceChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rpc/helpers/getCurrentVoiceChannel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getCurrentVoiceChannel() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = _closure1_slot2;
-            tangon = report.getVoiceStateForSession;
-            oscard = _closure1_slot0;
-            michal = oscard.getId;
-            zuuluu = michal.bind(oscard)();
-            michal = oscard.getSessionId;
-            michal = michal.bind(oscard)();
-            michal = tangon.bind(report)(zuuluu, michal);
-            zuuluu = null;
-            tangon = zuuluu == michal;
-            zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 59; continue _fun00001 }
+            var5 = _closure1_slot2;
+            var4 = var5.getVoiceStateForSession;
+            var6 = _closure1_slot0;
+            var2 = var6.getId;
+            var3 = var2.bind(var6)();
+            var2 = var6.getSessionId;
+            var2 = var2.bind(var6)();
+            var2 = var4.bind(var5)(var3, var2);
+            var3 = null;
+            var4 = var3 == var2;
+            var3 = undefined;
+            if(var4) { _fun0001_ip = 59; continue _fun0001 }
  54:
-            zuuluu = michal.channelId;
+            var3 = var2.channelId;
  59:
-            michal = _closure1_slot1;
-            entity = michal.getChannel;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var2 = _closure1_slot1;
+            var1 = var2.getChannel;
+            var1 = var1.bind(var2)(var3);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

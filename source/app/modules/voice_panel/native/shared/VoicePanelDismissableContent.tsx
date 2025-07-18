@@ -1,274 +1,274 @@
 // app/modules/voice_panel/native/shared/VoicePanelDismissableContent.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.VoicePanelModes;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.isActivityParticipant;
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot8 = tangon;
-    tangon = function() { // Original name: VoiceControlsNuxActionSheetImporter
-        zuuluu = _closure1_slot0;
-        entity = _closure1_slot2;
-        michal = 7;
-        michal = entity[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = 6;
-        michal = entity[michal];
-        entity = entity.paths;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var8 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.VoicePanelModes;
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.isActivityParticipant;
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = function VoiceControlsNuxActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 7;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 6;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    option = 'function VoicePanelDismissableContentTsx1(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
-    tangon['code'] = option;
-    var _closure1_slot10 = tangon;
-    tangon = {};
-    option = 'function VoicePanelDismissableContentTsx2(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
-    tangon['code'] = option;
-    var _closure1_slot11 = tangon;
-    tangon = golfie.memo;
-    michal = function() { // Original name: VoicePanelDismissibleContent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var8 = 'function VoicePanelDismissableContentTsx1(){const{mode,VoicePanelModes,focused}=this.__closure;var _focused$get;return mode.get()===VoicePanelModes.PANEL?(_focused$get=focused.get())===null||_focused$get===void 0?void 0:_focused$get.id:undefined;}';
+    var4['code'] = var8;
+    var _closure1_slot10 = var4;
+    var4 = {};
+    var8 = 'function VoicePanelDismissableContentTsx2(manualId,previousManualId){const{runOnJS,handleFocusChange}=this.__closure;if(manualId!==previousManualId){runOnJS(handleFocusChange)(manualId);}}';
+    var4['code'] = var8;
+    var _closure1_slot11 = var4;
+    var4 = var7.memo;
+    var2 = function VoicePanelDismissibleContent() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = _closure1_slot4;
-            zuuluu = option.useContext;
-            oscard = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            michal = 8;
-            michal = foxtra[michal];
-            tangon = undefined;
-            michal = oscard.bind(tangon)(michal);
-            michal = zuuluu.bind(option)(michal);
-            zuuluu = michal.channelId;
-            var _closure2_slot0 = zuuluu;
-            verify = michal.focused;
-            var _closure2_slot1 = verify;
-            backup = michal.mode;
-            var _closure2_slot2 = backup;
-            oscard = option.useState;
-            michal = false;
-            golfie = oscard.bind(option)(michal);
-            oscard = _closure1_slot3;
-            michal = 2;
-            golfie = oscard.bind(tangon)(golfie, michal);
-            michal = 0;
-            michal = golfie[michal];
-            oscard = 1;
-            oscard = golfie[oscard];
-            var _closure2_slot3 = oscard;
-            golfie = option.useCallback;
-            oscard = new Array(1);
-            oscard[0] = zuuluu;
-            zuuluu = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var8 = _closure1_slot4;
+            var3 = var8.useContext;
+            var6 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var2 = 8;
+            var2 = var13[var2];
+            var4 = undefined;
+            var2 = var6.bind(var4)(var2);
+            var2 = var3.bind(var8)(var2);
+            var3 = var2.channelId;
+            var _closure2_slot0 = var3;
+            var9 = var2.focused;
+            var _closure2_slot1 = var9;
+            var14 = var2.mode;
+            var _closure2_slot2 = var14;
+            var6 = var8.useState;
+            var2 = false;
+            var7 = var6.bind(var8)(var2);
+            var6 = _closure1_slot3;
+            var2 = 2;
+            var7 = var6.bind(var4)(var7, var2);
+            var2 = 0;
+            var2 = var7[var2];
+            var6 = 1;
+            var6 = var7[var6];
+            var _closure2_slot3 = var6;
+            var7 = var8.useCallback;
+            var6 = new Array(1);
+            var6[0] = var3;
+            var3 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    oscard = argFoo;
-                    entity = null;
-                    zuuluu = entity != oscard;
-                    if(!zuuluu) { _fun00004_ip = 49; continue _fun00003 }
+                    var6 = arg1;
+                    var1 = null;
+                    var3 = var1 != var6;
+                    if(!var3) { _fun0002_ip = 49; continue _fun0002 }
  12:
-                    tangon = _closure1_slot7;
-                    report = _closure1_slot5;
-                    michal = report.getParticipant;
-                    entity = _closure2_slot0;
-                    michal = michal.bind(report)(entity, oscard);
-                    entity = undefined;
-                    zuuluu = tangon.bind(entity)(michal);
+                    var4 = _closure1_slot7;
+                    var5 = _closure1_slot5;
+                    var2 = var5.getParticipant;
+                    var1 = _closure2_slot0;
+                    var2 = var2.bind(var5)(var1, var6);
+                    var1 = undefined;
+                    var3 = var4.bind(var1)(var2);
  49:
-                    michal = _closure2_slot3;
-                    entity = undefined;
-                    michal = michal.bind(entity)(zuuluu);
-                    return entity;
+                    var2 = _closure2_slot3;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3);
+                    return var1;
                 }
             };
-            offset = golfie.bind(option)(zuuluu, oscard);
-            var _closure2_slot4 = offset;
-            romeon = _closure1_slot0;
-            yankee = 9;
-            zuuluu = foxtra[yankee];
-            option = romeon.bind(tangon)(zuuluu);
-            golfie = option.useAnimatedReaction;
-            oscard = function() { // Original name: h
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var10 = var7.bind(var8)(var3, var6);
+            var _closure2_slot4 = var10;
+            var12 = _closure1_slot0;
+            var11 = 9;
+            var3 = var13[var11];
+            var8 = var12.bind(var4)(var3);
+            var7 = var8.useAnimatedReaction;
+            var6 = function h() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = _closure2_slot2;
-                    entity = michal.get;
-                    report = entity.bind(michal)();
-                    entity = _closure1_slot6;
-                    tangon = entity.PANEL;
-                    entity = undefined;
-                    if(!(report === tangon)) { _fun00006_ip = 67; continue _fun00005 }
+                    var2 = _closure2_slot2;
+                    var1 = var2.get;
+                    var5 = var1.bind(var2)();
+                    var1 = _closure1_slot6;
+                    var4 = var1.PANEL;
+                    var1 = undefined;
+                    if(!(var5 === var4)) { _fun0003_ip = 67; continue _fun0003 }
  35:
-                    tangon = _closure2_slot1;
-                    zuuluu = tangon.get;
-                    zuuluu = zuuluu.bind(tangon)();
-                    tangon = null;
-                    tangon = tangon == zuuluu;
-                    michal = undefined;
-                    if(tangon) { _fun00006_ip = 64; continue _fun00005 }
+                    var4 = _closure2_slot1;
+                    var3 = var4.get;
+                    var3 = var3.bind(var4)();
+                    var4 = null;
+                    var4 = var4 == var3;
+                    var2 = undefined;
+                    if(var4) { _fun0003_ip = 64; continue _fun0003 }
  59:
-                    michal = zuuluu.id;
+                    var2 = var3.id;
  64:
-                    entity = michal;
+                    var1 = var2;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = {};
-            zuuluu['mode'] = backup;
-            backup = _closure1_slot6;
-            zuuluu['VoicePanelModes'] = backup;
-            zuuluu['focused'] = verify;
-            oscard['__closure'] = zuuluu;
-            zuuluu = 11330064461661.0;
-            oscard['__workletHash'] = zuuluu;
-            zuuluu = _closure1_slot10;
-            oscard['__initData'] = zuuluu;
-            zuuluu = function(argFoo, argBar) { // Original name: f
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var3 = {};
+            var3['mode'] = var14;
+            var14 = _closure1_slot6;
+            var3['VoicePanelModes'] = var14;
+            var3['focused'] = var9;
+            var6['__closure'] = var3;
+            var3 = 11330064461661.0;
+            var6['__workletHash'] = var3;
+            var3 = _closure1_slot10;
+            var6['__initData'] = var3;
+            var3 = function f(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = argFoo;
-                    entity = argBar;
-                    if(!(zuuluu !== entity)) { _fun00008_ip = 57; continue _fun00007 }
+                    var3 = arg1;
+                    var1 = arg2;
+                    if(!(var3 !== var1)) { _fun0004_ip = 57; continue _fun0004 }
  10:
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 9;
-                    entity = michal[entity];
-                    michal = undefined;
-                    report = tangon.bind(michal)(entity);
-                    tangon = report.runOnJS;
-                    entity = _closure2_slot4;
-                    entity = tangon.bind(report)(entity);
-                    entity = entity.bind(michal)(zuuluu);
+                    var4 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var2[var1];
+                    var2 = undefined;
+                    var5 = var4.bind(var2)(var1);
+                    var4 = var5.runOnJS;
+                    var1 = _closure2_slot4;
+                    var1 = var4.bind(var5)(var1);
+                    var1 = var1.bind(var2)(var3);
  57:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            verify = {};
-            yankee = foxtra[yankee];
-            yankee = romeon.bind(tangon)(yankee);
-            yankee = yankee.runOnJS;
-            verify['runOnJS'] = yankee;
-            verify['handleFocusChange'] = offset;
-            zuuluu['__closure'] = verify;
-            verify = 15579591345007.0;
-            zuuluu['__workletHash'] = verify;
-            verify = _closure1_slot11;
-            zuuluu['__initData'] = verify;
-            zuuluu = golfie.bind(option)(oscard, zuuluu);
-            if(michal) { _fun00002_ip = 302; continue _fun00001 }
+            var9 = {};
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.runOnJS;
+            var9['runOnJS'] = var11;
+            var9['handleFocusChange'] = var10;
+            var3['__closure'] = var9;
+            var9 = 15579591345007.0;
+            var3['__workletHash'] = var9;
+            var9 = _closure1_slot11;
+            var3['__initData'] = var9;
+            var3 = var7.bind(var8)(var6, var3);
+            if(var2) { _fun0001_ip = 302; continue _fun0001 }
  296:
-            oscard = new Array(0);
-            _fun00002_ip = 345; continue _fun00001;
+            var6 = new Array(0);
+            _fun0001_ip = 345; continue _fun0001;
  302:
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 10;
-            michal = golfie[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.DismissibleContent;
-            zuuluu = michal.ACTIVITIES_MOBILE_PIP_FAB_NUX;
-            michal = new Array(1);
-            michal[0] = zuuluu;
-            oscard = michal;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 10;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.DismissibleContent;
+            var3 = var2.ACTIVITIES_MOBILE_PIP_FAB_NUX;
+            var2 = new Array(1);
+            var2[0] = var3;
+            var6 = var2;
  345:
-            zuuluu = _closure1_slot8;
-            michal = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 11;
-            entity = golfie[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = {};
-            entity['contentTypes'] = oscard;
-            report = function(argFoo) { // Original name: children
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 11;
+            var1 = var7[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = {};
+            var1['contentTypes'] = var6;
+            var5 = function children(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = entity.visibleContent;
-                    golfie = entity.markAsDismissed;
-                    michal = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 10;
-                    entity = tangon[entity];
-                    report = undefined;
-                    entity = michal.bind(report)(entity);
-                    entity = entity.DismissibleContent;
-                    michal = entity.ACTIVITIES_MOBILE_PIP_FAB_NUX;
-                    entity = null;
-                    if(!(zuuluu === michal)) { _fun00010_ip = 121; continue _fun00009 }
+                    var1 = arg1;
+                    var3 = var1.visibleContent;
+                    var7 = var1.markAsDismissed;
+                    var2 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 10;
+                    var1 = var4[var1];
+                    var5 = undefined;
+                    var1 = var2.bind(var5)(var1);
+                    var1 = var1.DismissibleContent;
+                    var2 = var1.ACTIVITIES_MOBILE_PIP_FAB_NUX;
+                    var1 = null;
+                    if(!(var3 === var2)) { _fun0005_ip = 121; continue _fun0005 }
  58:
-                    tangon = _closure1_slot8;
-                    zuuluu = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 12;
-                    michal = option[michal];
-                    michal = zuuluu.bind(report)(michal);
-                    zuuluu = michal.DismissibleActionSheet;
-                    michal = {};
-                    michal['markAsDismissed'] = golfie;
-                    oscard = _closure1_slot9;
-                    michal['importer'] = oscard;
-                    oscard = 'VoiceControlToggleNuxActionSheet';
-                    michal['actionSheetKey'] = oscard;
-                    entity = tangon.bind(report)(zuuluu, michal);
+                    var4 = _closure1_slot8;
+                    var3 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 12;
+                    var2 = var8[var2];
+                    var2 = var3.bind(var5)(var2);
+                    var3 = var2.DismissibleActionSheet;
+                    var2 = {};
+                    var2['markAsDismissed'] = var7;
+                    var6 = _closure1_slot9;
+                    var2['importer'] = var6;
+                    var6 = 'VoiceControlToggleNuxActionSheet';
+                    var2['actionSheetKey'] = var6;
+                    var1 = var4.bind(var5)(var3, var2);
  121:
-                    return entity;
+                    return var1;
                 }
             };
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    michal = tangon.bind(golfie)(michal);
-    tangon = 13;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/voice_panel/native/shared/VoicePanelDismissableContent.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var4.bind(var7)(var2);
+    var4 = 13;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/voice_panel/native/shared/VoicePanelDismissableContent.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

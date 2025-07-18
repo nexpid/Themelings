@@ -1,483 +1,483 @@
 // app/modules/messages/native/renderer/transformMessageAttachments.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AttachmentType;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MessageAttachmentFlags;
-    var _closure1_slot4 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/renderer/transformMessageAttachments.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: transformMessageAttachments
-        michal = argFoo;
-        tangon = michal.attachments;
-        zuuluu = michal.uploadAttachments;
-        var _closure2_slot0 = zuuluu;
-        zuuluu = michal.shouldInlineAttachmentMedia;
-        var _closure2_slot1 = zuuluu;
-        zuuluu = michal.gifAutoPlay;
-        var _closure2_slot2 = zuuluu;
-        zuuluu = michal.viewImageDescriptions;
-        var _closure2_slot3 = zuuluu;
-        zuuluu = michal.useReducedMotion;
-        var _closure2_slot4 = zuuluu;
-        zuuluu = michal.shouldObscureSpoiler;
-        var _closure2_slot5 = zuuluu;
-        zuuluu = michal.themedBackgroundColor;
-        var _closure2_slot6 = zuuluu;
-        zuuluu = michal.enabledContentHarmTypeFlags;
-        var _closure2_slot7 = zuuluu;
-        zuuluu = michal.shouldAgeVerify;
-        var _closure2_slot8 = zuuluu;
-        michal = michal.colors;
-        var _closure2_slot9 = michal;
-        zuuluu = tangon.filter;
-        michal = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AttachmentType;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MessageAttachmentFlags;
+    var _closure1_slot4 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/renderer/transformMessageAttachments.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function transformMessageAttachments(arg1) {
+        var2 = arg1;
+        var4 = var2.attachments;
+        var3 = var2.uploadAttachments;
+        var _closure2_slot0 = var3;
+        var3 = var2.shouldInlineAttachmentMedia;
+        var _closure2_slot1 = var3;
+        var3 = var2.gifAutoPlay;
+        var _closure2_slot2 = var3;
+        var3 = var2.viewImageDescriptions;
+        var _closure2_slot3 = var3;
+        var3 = var2.useReducedMotion;
+        var _closure2_slot4 = var3;
+        var3 = var2.shouldObscureSpoiler;
+        var _closure2_slot5 = var3;
+        var3 = var2.themedBackgroundColor;
+        var _closure2_slot6 = var3;
+        var3 = var2.enabledContentHarmTypeFlags;
+        var _closure2_slot7 = var3;
+        var3 = var2.shouldAgeVerify;
+        var _closure2_slot8 = var3;
+        var2 = var2.colors;
+        var _closure2_slot9 = var2;
+        var3 = var4.filter;
+        var2 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = argFoo;
-                michal = zuuluu.flags;
-                entity = null;
-                entity = entity == michal;
-                if(entity) { _fun00002_ip = 72; continue _fun00001 }
+                var3 = arg1;
+                var2 = var3.flags;
+                var1 = null;
+                var1 = var1 == var2;
+                if(var1) { _fun0001_ip = 72; continue _fun0001 }
  17:
-                oscard = _closure1_slot0;
-                report = _closure1_slot2;
-                tangon = 2;
-                report = report[tangon];
-                tangon = undefined;
-                report = oscard.bind(tangon)(report);
-                tangon = report.hasFlag;
-                zuuluu = zuuluu.flags;
-                michal = _closure1_slot4;
-                michal = michal.IS_THUMBNAIL;
-                michal = tangon.bind(report)(zuuluu, michal);
-                entity = !michal;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var4 = 2;
+                var5 = var5[var4];
+                var4 = undefined;
+                var5 = var6.bind(var4)(var5);
+                var4 = var5.hasFlag;
+                var3 = var3.flags;
+                var2 = _closure1_slot4;
+                var2 = var2.IS_THUMBNAIL;
+                var2 = var4.bind(var5)(var3, var2);
+                var1 = !var2;
  72:
-                return entity;
+                return var1;
             }
         };
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.map;
-        entity = function(argFoo, argBar) {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.map;
+        var1 = function(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                golfie = argFoo;
-                tangon = argBar;
-                target = golfie.proxy_url;
-                status = golfie.url;
-                yankee = golfie.filename;
-                sequen = golfie.size;
-                output = golfie.width;
-                ctrled = golfie.height;
-                update = golfie.description;
-                echoed = golfie.duration_secs;
-                result = golfie.waveform;
-                offset = golfie.id;
-                verify = golfie.placeholder;
-                option = golfie.placeholder_version;
-                entity = golfie.flags;
-                oscard = _closure1_slot0;
-                romeon = _closure1_slot2;
-                michal = 3;
-                foxtra = romeon[michal];
-                report = undefined;
-                backup = oscard.bind(report)(foxtra);
-                foxtra = backup.isImageFile;
-                sizing = foxtra.bind(backup)(yankee);
-                foxtra = romeon[michal];
-                backup = oscard.bind(report)(foxtra);
-                foxtra = backup.isAudioFile;
-                foxtra = foxtra.bind(backup)(yankee);
-                michal = romeon[michal];
-                oscard = oscard.bind(report)(michal);
-                michal = oscard.isVideoFile;
-                kiloes = michal.bind(oscard)(yankee);
-                vacuum = sizing;
-                if(vacuum) { _fun00004_ip = 162; continue _fun00003 }
+                var7 = arg1;
+                var4 = arg2;
+                var29 = var7.proxy_url;
+                var30 = var7.url;
+                var11 = var7.filename;
+                var24 = var7.size;
+                var17 = var7.width;
+                var22 = var7.height;
+                var20 = var7.description;
+                var19 = var7.duration_secs;
+                var18 = var7.waveform;
+                var10 = var7.id;
+                var9 = var7.placeholder;
+                var8 = var7.placeholder_version;
+                var1 = var7.flags;
+                var6 = _closure1_slot0;
+                var12 = _closure1_slot2;
+                var2 = 3;
+                var13 = var12[var2];
+                var5 = undefined;
+                var14 = var6.bind(var5)(var13);
+                var13 = var14.isImageFile;
+                var16 = var13.bind(var14)(var11);
+                var13 = var12[var2];
+                var14 = var6.bind(var5)(var13);
+                var13 = var14.isAudioFile;
+                var13 = var13.bind(var14)(var11);
+                var2 = var12[var2];
+                var6 = var6.bind(var5)(var2);
+                var2 = var6.isVideoFile;
+                var15 = var2.bind(var6)(var11);
+                var23 = var16;
+                if(var23) { _fun0002_ip = 162; continue _fun0002 }
  159:
-                vacuum = kiloes;
+                var23 = var15;
  162:
-                michal = _closure2_slot0;
-                yankee = null;
-                michal = yankee != michal;
-                if(!michal) { _fun00004_ip = 191; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var11 = null;
+                var2 = var11 != var2;
+                if(!var2) { _fun0002_ip = 191; continue _fun0002 }
  178:
-                romeon = _closure2_slot0;
-                romeon = romeon.length;
-                michal = tangon < romeon;
+                var12 = _closure2_slot0;
+                var12 = var12.length;
+                var2 = var4 < var12;
  191:
-                romeon = undefined;
-                if(!michal) { _fun00004_ip = 204; continue _fun00003 }
+                var12 = undefined;
+                if(!var2) { _fun0002_ip = 204; continue _fun0002 }
  196:
-                michal = _closure2_slot0;
-                romeon = michal[tangon];
+                var2 = _closure2_slot0;
+                var12 = var2[var4];
  204:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot2;
-                cntext = 2;
-                michal = michal[cntext];
-                source = tangon.bind(report)(michal);
-                backup = source.hasFlag;
-                michal = yankee != entity;
-                record = 0;
-                tangon = 0;
-                if(!michal) { _fun00004_ip = 244; continue _fun00003 }
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var27 = 2;
+                var2 = var2[var27];
+                var21 = var4.bind(var5)(var2);
+                var14 = var21.hasFlag;
+                var2 = var11 != var1;
+                var26 = 0;
+                var4 = 0;
+                if(!var2) { _fun0002_ip = 244; continue _fun0002 }
  241:
-                tangon = entity;
+                var4 = var1;
  244:
-                michal = _closure1_slot4;
-                michal = michal.IS_ANIMATED;
-                tangon = backup.bind(source)(tangon, michal);
-                if(!sizing) { _fun00004_ip = 271; continue _fun00003 }
+                var2 = _closure1_slot4;
+                var2 = var2.IS_ANIMATED;
+                var4 = var14.bind(var21)(var4, var2);
+                if(!var16) { _fun0002_ip = 271; continue _fun0002 }
  263:
-                if(!(yankee != output)) { _fun00004_ip = 271; continue _fun00003 }
+                if(!(var11 != var17)) { _fun0002_ip = 271; continue _fun0002 }
  267:
-                if(!(yankee == ctrled)) { _fun00004_ip = 345; continue _fun00003 }
+                if(!(var11 == var22)) { _fun0002_ip = 345; continue _fun0002 }
  271:
-                michal = kiloes;
-                if(!michal) { _fun00004_ip = 291; continue _fun00003 }
+                var2 = var15;
+                if(!var2) { _fun0002_ip = 291; continue _fun0002 }
  277:
-                backup = _closure2_slot1;
-                if(backup) { _fun00004_ip = 288; continue _fun00003 }
+                var14 = _closure2_slot1;
+                if(var14) { _fun0002_ip = 288; continue _fun0002 }
  284:
-                backup = yankee != romeon;
+                var14 = var11 != var12;
  288:
-                michal = backup;
+                var2 = var14;
  291:
-                source = undefined;
-                config = status;
-                if(!michal) { _fun00004_ip = 396; continue _fun00003 }
+                var21 = undefined;
+                var25 = var30;
+                if(!var2) { _fun0002_ip = 396; continue _fun0002 }
  299:
-                michal = status;
-                if(!(yankee != target)) { _fun00004_ip = 316; continue _fun00003 }
+                var2 = var30;
+                if(!(var11 != var29)) { _fun0002_ip = 316; continue _fun0002 }
  306:
-                backup = '?format=webp';
-                michal = target + backup;
+                var14 = '?format=webp';
+                var2 = var29 + var14;
  316:
-                backup = status;
-                if(!(yankee != target)) { _fun00004_ip = 337; continue _fun00003 }
+                var14 = var30;
+                if(!(var11 != var29)) { _fun0002_ip = 337; continue _fun0002 }
  323:
-                papara = '';
-                backup = status;
-                if(!(papara !== target)) { _fun00004_ip = 337; continue _fun00003 }
+                var28 = '';
+                var14 = var30;
+                if(!(var28 !== var29)) { _fun0002_ip = 337; continue _fun0002 }
  334:
-                backup = target;
+                var14 = var29;
  337:
-                source = backup;
-                config = michal;
-                _fun00004_ip = 396; continue _fun00003;
+                var21 = var14;
+                var25 = var2;
+                _fun0002_ip = 396; continue _fun0002;
  345:
-                backup = _closure1_slot1;
-                papara = _closure1_slot2;
-                michal = 4;
-                michal = papara[michal];
-                papara = backup.bind(report)(michal);
-                backup = papara.getImageSrc;
-                michal = _closure2_slot2;
-                sierra = !michal;
-                quebec = papara;
-                equals = target;
-                whisks = output;
-                limora = ctrled;
-                config = quebec[backup](equals, whisks, limora, sierra, status);
-                source = undefined;
+                var14 = _closure1_slot1;
+                var28 = _closure1_slot2;
+                var2 = 4;
+                var2 = var28[var2];
+                var28 = var14.bind(var5)(var2);
+                var14 = var28.getImageSrc;
+                var2 = _closure2_slot2;
+                var31 = !var2;
+                var35 = var28;
+                var34 = var29;
+                var33 = var17;
+                var32 = var22;
+                var25 = var35[var14](var34, var33, var32, var31, var30);
+                var21 = undefined;
  396:
-                backup = output;
-                if(!(yankee != romeon)) { _fun00004_ip = 420; continue _fun00003 }
+                var14 = var17;
+                if(!(var11 != var12)) { _fun0002_ip = 420; continue _fun0002 }
  403:
-                michal = romeon.width;
-                backup = output;
-                if(!(michal > record)) { _fun00004_ip = 420; continue _fun00003 }
+                var2 = var12.width;
+                var14 = var17;
+                if(!(var2 > var26)) { _fun0002_ip = 420; continue _fun0002 }
  415:
-                backup = romeon.width;
+                var14 = var12.width;
  420:
-                michal = ctrled;
-                if(!(yankee != romeon)) { _fun00004_ip = 444; continue _fun00003 }
+                var2 = var22;
+                if(!(var11 != var12)) { _fun0002_ip = 444; continue _fun0002 }
  427:
-                output = romeon.height;
-                michal = ctrled;
-                if(!(output > record)) { _fun00004_ip = 444; continue _fun00003 }
+                var17 = var12.height;
+                var2 = var22;
+                if(!(var17 > var26)) { _fun0002_ip = 444; continue _fun0002 }
  439:
-                michal = romeon.height;
+                var2 = var12.height;
  444:
-                ctrled = _closure2_slot1;
-                output = 0;
-                if(!ctrled) { _fun00004_ip = 470; continue _fun00003 }
+                var22 = _closure2_slot1;
+                var17 = 0;
+                if(!var22) { _fun0002_ip = 470; continue _fun0002 }
  453:
-                output = 0;
-                if(!vacuum) { _fun00004_ip = 470; continue _fun00003 }
+                var17 = 0;
+                if(!var23) { _fun0002_ip = 470; continue _fun0002 }
  458:
-                ctrled = yankee != backup;
-                output = 0;
-                if(!ctrled) { _fun00004_ip = 470; continue _fun00003 }
+                var22 = var11 != var14;
+                var17 = 0;
+                if(!var22) { _fun0002_ip = 470; continue _fun0002 }
  467:
-                output = backup;
+                var17 = var14;
  470:
-                ctrled = _closure2_slot1;
-                backup = 0;
-                if(!ctrled) { _fun00004_ip = 496; continue _fun00003 }
+                var22 = _closure2_slot1;
+                var14 = 0;
+                if(!var22) { _fun0002_ip = 496; continue _fun0002 }
  479:
-                backup = 0;
-                if(!vacuum) { _fun00004_ip = 496; continue _fun00003 }
+                var14 = 0;
+                if(!var23) { _fun0002_ip = 496; continue _fun0002 }
  484:
-                ctrled = yankee != michal;
-                backup = 0;
-                if(!ctrled) { _fun00004_ip = 496; continue _fun00003 }
+                var22 = var11 != var2;
+                var14 = 0;
+                if(!var22) { _fun0002_ip = 496; continue _fun0002 }
  493:
-                backup = michal;
+                var14 = var2;
  496:
-                ctrled = _closure1_slot0;
-                michal = _closure1_slot2;
-                michal = michal[cntext];
-                ctrled = ctrled.bind(report)(michal);
-                michal = ctrled.hasFlag;
-                cntext = yankee != entity;
-                record = 0;
-                if(!cntext) { _fun00004_ip = 531; continue _fun00003 }
+                var22 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var27];
+                var22 = var22.bind(var5)(var2);
+                var2 = var22.hasFlag;
+                var27 = var11 != var1;
+                var26 = 0;
+                if(!var27) { _fun0002_ip = 531; continue _fun0002 }
  528:
-                record = entity;
+                var26 = var1;
  531:
-                entity = _closure1_slot4;
-                entity = entity.IS_CLIP;
-                entity = michal.bind(ctrled)(record, entity);
-                michal = undefined;
-                if(!entity) { _fun00004_ip = 662; continue _fun00003 }
+                var1 = _closure1_slot4;
+                var1 = var1.IS_CLIP;
+                var1 = var2.bind(var22)(var26, var1);
+                var2 = undefined;
+                if(!var1) { _fun0002_ip = 662; continue _fun0002 }
  552:
-                entity = {};
-                papara = _closure1_slot0;
-                target = _closure1_slot2;
-                ctrled = 5;
-                record = target[ctrled];
-                record = papara.bind(report)(record);
-                cntext = record.intl;
-                record = cntext.string;
-                ctrled = target[ctrled];
-                ctrled = papara.bind(report)(ctrled);
-                ctrled = ctrled.t;
-                ctrled = ctrled.gESDiY;
-                ctrled = record.bind(cntext)(ctrled);
-                entity['attachmentTagText'] = ctrled;
-                ctrled = 'clip';
-                entity['attachmentTagIconType'] = ctrled;
-                ctrled = _closure2_slot9;
-                record = ctrled.clipTagBackgroundColor;
-                entity['attachmentTagBackgroundColor'] = record;
-                ctrled = ctrled.clipTagTextColor;
-                entity['attachmentTagTextColor'] = ctrled;
-                michal = entity;
+                var1 = {};
+                var28 = _closure1_slot0;
+                var29 = _closure1_slot2;
+                var22 = 5;
+                var26 = var29[var22];
+                var26 = var28.bind(var5)(var26);
+                var27 = var26.intl;
+                var26 = var27.string;
+                var22 = var29[var22];
+                var22 = var28.bind(var5)(var22);
+                var22 = var22.t;
+                var22 = var22.gESDiY;
+                var22 = var26.bind(var27)(var22);
+                var1['attachmentTagText'] = var22;
+                var22 = 'clip';
+                var1['attachmentTagIconType'] = var22;
+                var22 = _closure2_slot9;
+                var26 = var22.clipTagBackgroundColor;
+                var1['attachmentTagBackgroundColor'] = var26;
+                var22 = var22.clipTagTextColor;
+                var1['attachmentTagTextColor'] = var22;
+                var2 = var1;
  662:
-                entity = {};
-                ctrled = config;
-                if(!(yankee != romeon)) { _fun00004_ip = 706; continue _fun00003 }
+                var1 = {};
+                var22 = var25;
+                if(!(var11 != var12)) { _fun0002_ip = 706; continue _fun0002 }
  671:
-                record = romeon.localUri;
-                ctrled = config;
-                if(!(yankee != record)) { _fun00004_ip = 706; continue _fun00003 }
+                var26 = var12.localUri;
+                var22 = var25;
+                if(!(var11 != var26)) { _fun0002_ip = 706; continue _fun0002 }
  684:
-                ctrled = config;
-                if(!vacuum) { _fun00004_ip = 706; continue _fun00003 }
+                var22 = var25;
+                if(!var23) { _fun0002_ip = 706; continue _fun0002 }
  690:
-                vacuum = _closure2_slot1;
-                ctrled = config;
-                if(!vacuum) { _fun00004_ip = 706; continue _fun00003 }
+                var23 = _closure2_slot1;
+                var22 = var25;
+                if(!var23) { _fun0002_ip = 706; continue _fun0002 }
  700:
-                ctrled = romeon.localUri;
+                var22 = var12.localUri;
  706:
-                entity['url'] = ctrled;
-                entity['videoUrl'] = source;
-                vacuum = _closure1_slot1;
-                source = _closure1_slot2;
-                ctrled = 6;
-                ctrled = source[ctrled];
-                ctrled = vacuum.bind(report)(ctrled);
-                ctrled = ctrled.bind(report)(golfie);
-                entity['filename'] = ctrled;
-                ctrled = 7;
-                ctrled = source[ctrled];
-                vacuum = vacuum.bind(report)(ctrled);
-                ctrled = vacuum.filesize;
-                ctrled = ctrled.bind(vacuum)(sequen);
-                entity['size'] = ctrled;
-                entity['description'] = update;
-                sequen = _closure1_slot0;
-                update = 5;
-                ctrled = source[update];
-                ctrled = sequen.bind(report)(ctrled);
-                config = ctrled.intl;
-                vacuum = config.string;
-                ctrled = source[update];
-                ctrled = sequen.bind(report)(ctrled);
-                ctrled = ctrled.t;
-                ctrled = ctrled.jCV1T0;
-                vacuum = vacuum.bind(config)(ctrled);
-                ctrled = vacuum.toUpperCase;
-                ctrled = ctrled.bind(vacuum)();
-                entity['alt'] = ctrled;
-                ctrled = source[update];
-                ctrled = sequen.bind(report)(ctrled);
-                vacuum = ctrled.intl;
-                ctrled = vacuum.string;
-                source = source[update];
-                source = sequen.bind(report)(source);
-                source = source.t;
-                source = source.fSiQ3N;
-                source = ctrled.bind(vacuum)(source);
-                entity['altTextHint'] = source;
-                source = _closure2_slot3;
-                entity['showDescription'] = source;
-                entity['durationSecs'] = echoed;
-                entity['waveform'] = result;
-                entity['width'] = output;
-                entity['height'] = backup;
-                output = _closure1_slot0;
-                backup = _closure1_slot2;
-                result = backup[update];
-                result = output.bind(report)(result);
-                echoed = result.intl;
-                result = echoed.string;
-                backup = backup[update];
-                backup = output.bind(report)(backup);
-                output = backup.t;
-                if(kiloes) { _fun00004_ip = 981; continue _fun00003 }
+                var1['url'] = var22;
+                var1['videoUrl'] = var21;
+                var23 = _closure1_slot1;
+                var21 = _closure1_slot2;
+                var22 = 6;
+                var22 = var21[var22];
+                var22 = var23.bind(var5)(var22);
+                var22 = var22.bind(var5)(var7);
+                var1['filename'] = var22;
+                var22 = 7;
+                var22 = var21[var22];
+                var23 = var23.bind(var5)(var22);
+                var22 = var23.filesize;
+                var22 = var22.bind(var23)(var24);
+                var1['size'] = var22;
+                var1['description'] = var20;
+                var24 = _closure1_slot0;
+                var20 = 5;
+                var22 = var21[var20];
+                var22 = var24.bind(var5)(var22);
+                var25 = var22.intl;
+                var23 = var25.string;
+                var22 = var21[var20];
+                var22 = var24.bind(var5)(var22);
+                var22 = var22.t;
+                var22 = var22.jCV1T0;
+                var23 = var23.bind(var25)(var22);
+                var22 = var23.toUpperCase;
+                var22 = var22.bind(var23)();
+                var1['alt'] = var22;
+                var22 = var21[var20];
+                var22 = var24.bind(var5)(var22);
+                var23 = var22.intl;
+                var22 = var23.string;
+                var21 = var21[var20];
+                var21 = var24.bind(var5)(var21);
+                var21 = var21.t;
+                var21 = var21.fSiQ3N;
+                var21 = var22.bind(var23)(var21);
+                var1['altTextHint'] = var21;
+                var21 = _closure2_slot3;
+                var1['showDescription'] = var21;
+                var1['durationSecs'] = var19;
+                var1['waveform'] = var18;
+                var1['width'] = var17;
+                var1['height'] = var14;
+                var17 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var18 = var14[var20];
+                var18 = var17.bind(var5)(var18);
+                var19 = var18.intl;
+                var18 = var19.string;
+                var14 = var14[var20];
+                var14 = var17.bind(var5)(var14);
+                var17 = var14.t;
+                if(var15) { _fun0002_ip = 981; continue _fun0002 }
  968:
-                backup = output.IPzNKC;
-                backup = result.bind(echoed)(backup);
-                _fun00004_ip = 992; continue _fun00003;
+                var14 = var17.IPzNKC;
+                var14 = var18.bind(var19)(var14);
+                _fun0002_ip = 992; continue _fun0002;
  981:
-                output = output.BEWw//;
-                backup = result.bind(echoed)(output);
+                var17 = var17.BEWw//;
+                var14 = var18.bind(var19)(var17);
  992:
-                entity['hint'] = backup;
-                output = _closure1_slot0;
-                backup = _closure1_slot2;
-                result = backup[update];
-                result = output.bind(report)(result);
-                echoed = result.intl;
-                result = echoed.string;
-                backup = backup[update];
-                backup = output.bind(report)(backup);
-                output = backup.t;
-                if(kiloes) { _fun00004_ip = 1054; continue _fun00003 }
+                var1['hint'] = var14;
+                var17 = _closure1_slot0;
+                var14 = _closure1_slot2;
+                var18 = var14[var20];
+                var18 = var17.bind(var5)(var18);
+                var19 = var18.intl;
+                var18 = var19.string;
+                var14 = var14[var20];
+                var14 = var17.bind(var5)(var14);
+                var17 = var14.t;
+                if(var15) { _fun0002_ip = 1054; continue _fun0002 }
  1041:
-                backup = output.fKyfcX;
-                backup = result.bind(echoed)(backup);
-                _fun00004_ip = 1065; continue _fun00003;
+                var14 = var17.fKyfcX;
+                var14 = var18.bind(var19)(var14);
+                _fun0002_ip = 1065; continue _fun0002;
  1054:
-                output = output./SCpvr;
-                backup = result.bind(echoed)(output);
+                var17 = var17./SCpvr;
+                var14 = var18.bind(var19)(var17);
  1065:
-                entity['role'] = backup;
-                backup = _closure1_slot3;
-                if(sizing) { _fun00004_ip = 1107; continue _fun00003 }
+                var1['role'] = var14;
+                var14 = _closure1_slot3;
+                if(var16) { _fun0002_ip = 1107; continue _fun0002 }
  1077:
-                if(kiloes) { _fun00004_ip = 1099; continue _fun00003 }
+                if(var15) { _fun0002_ip = 1099; continue _fun0002 }
  1080:
-                if(foxtra) { _fun00004_ip = 1091; continue _fun00003 }
+                if(var13) { _fun0002_ip = 1091; continue _fun0002 }
  1083:
-                foxtra = backup.OTHER;
-                _fun00004_ip = 1097; continue _fun00003;
+                var13 = var14.OTHER;
+                _fun0002_ip = 1097; continue _fun0002;
  1091:
-                foxtra = backup.AUDIO;
+                var13 = var14.AUDIO;
  1097:
-                _fun00004_ip = 1105; continue _fun00003;
+                _fun0002_ip = 1105; continue _fun0002;
  1099:
-                foxtra = backup.VIDEO;
+                var13 = var14.VIDEO;
  1105:
-                _fun00004_ip = 1113; continue _fun00003;
+                _fun0002_ip = 1113; continue _fun0002;
  1107:
-                foxtra = backup.IMAGE;
+                var13 = var14.IMAGE;
  1113:
-                entity['attachmentType'] = foxtra;
-                entity['id'] = offset;
-                offset = _closure2_slot4;
-                offset = !offset;
-                entity['isAnimated'] = offset;
-                foxtra = yankee == romeon;
-                offset = undefined;
-                if(foxtra) { _fun00004_ip = 1149; continue _fun00003 }
+                var1['attachmentType'] = var13;
+                var1['id'] = var10;
+                var10 = _closure2_slot4;
+                var10 = !var10;
+                var1['isAnimated'] = var10;
+                var13 = var11 == var12;
+                var10 = undefined;
+                if(var13) { _fun0002_ip = 1149; continue _fun0002 }
  1143:
-                offset = romeon.uploaderId;
+                var10 = var12.uploaderId;
  1149:
-                entity['uploaderId'] = offset;
-                foxtra = yankee == romeon;
-                offset = undefined;
-                if(foxtra) { _fun00004_ip = 1169; continue _fun00003 }
+                var1['uploaderId'] = var10;
+                var13 = var11 == var12;
+                var10 = undefined;
+                if(var13) { _fun0002_ip = 1169; continue _fun0002 }
  1163:
-                offset = romeon.uploaderItemId;
+                var10 = var12.uploaderItemId;
  1169:
-                entity['uploaderItemId'] = offset;
-                offset = _closure2_slot6;
-                yankee = yankee != offset;
-                offset = undefined;
-                if(!yankee) { _fun00004_ip = 1191; continue _fun00003 }
+                var1['uploaderItemId'] = var10;
+                var10 = _closure2_slot6;
+                var11 = var11 != var10;
+                var10 = undefined;
+                if(!var11) { _fun0002_ip = 1191; continue _fun0002 }
  1187:
-                offset = _closure2_slot6;
+                var10 = _closure2_slot6;
  1191:
-                entity['backgroundColor'] = offset;
-                entity['placeholder'] = verify;
-                entity['placeholderVersion'] = option;
-                option = 1000;
-                entity['mediaViewerBufferForPlaybackMs'] = option;
-                entity['mediaViewerBufferForPlaybackAfterRebufferMs'] = option;
-                option = 20000;
-                entity['mediaViewerMinBufferMs'] = option;
-                entity['mediaViewerMaxBufferMs'] = option;
-                option = false;
-                entity['mediaViewerEnableDecoderFallback'] = option;
-                option = true;
-                entity['mediaViewerEnableAsyncBufferQueueing'] = option;
-                entity['srcIsAnimated'] = tangon;
-                tangon = _closure1_slot0;
-                option = _closure1_slot2;
-                zuuluu = 8;
-                zuuluu = option[zuuluu];
-                report = tangon.bind(report)(zuuluu);
-                tangon = report.getAttachmentObscurityProps;
-                zuuluu = {};
-                zuuluu['attachment'] = golfie;
-                golfie = _closure2_slot5;
-                zuuluu['shouldObscureSpoiler'] = golfie;
-                golfie = _closure2_slot7;
-                zuuluu['enabledContentHarmTypeFlags'] = golfie;
-                oscard = _closure2_slot8;
-                zuuluu['shouldAgeVerify'] = oscard;
-                whisks = tangon.bind(report)(zuuluu);
-                equals = entity;
-                zuuluu = copyDataProperties(equals, whisks);
-                equals = entity;
-                whisks = michal;
-                michal = copyDataProperties(equals, whisks);
-                return entity;
+                var1['backgroundColor'] = var10;
+                var1['placeholder'] = var9;
+                var1['placeholderVersion'] = var8;
+                var8 = 1000;
+                var1['mediaViewerBufferForPlaybackMs'] = var8;
+                var1['mediaViewerBufferForPlaybackAfterRebufferMs'] = var8;
+                var8 = 20000;
+                var1['mediaViewerMinBufferMs'] = var8;
+                var1['mediaViewerMaxBufferMs'] = var8;
+                var8 = false;
+                var1['mediaViewerEnableDecoderFallback'] = var8;
+                var8 = true;
+                var1['mediaViewerEnableAsyncBufferQueueing'] = var8;
+                var1['srcIsAnimated'] = var4;
+                var4 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var3 = 8;
+                var3 = var8[var3];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.getAttachmentObscurityProps;
+                var3 = {};
+                var3['attachment'] = var7;
+                var7 = _closure2_slot5;
+                var3['shouldObscureSpoiler'] = var7;
+                var7 = _closure2_slot7;
+                var3['enabledContentHarmTypeFlags'] = var7;
+                var6 = _closure2_slot8;
+                var3['shouldAgeVerify'] = var6;
+                var33 = var4.bind(var5)(var3);
+                var34 = var1;
+                var3 = copyDataProperties(var34, var33);
+                var34 = var1;
+                var33 = var2;
+                var2 = copyDataProperties(var34, var33);
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

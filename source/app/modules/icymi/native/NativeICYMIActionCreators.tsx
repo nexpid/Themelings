@@ -1,190 +1,190 @@
 // app/modules/icymi/native/NativeICYMIActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.Endpoints;
-    var _closure1_slot4 = michal;
-    michal = {};
-    tangon = function(argFoo) { // Original name: customScoreGuild
-        michal = argFoo;
-        zuuluu = michal.guildId;
-        var _closure2_slot0 = zuuluu;
-        zuuluu = michal.channelScores;
-        var _closure2_slot1 = zuuluu;
-        michal = michal.guildScore;
-        var _closure2_slot2 = michal;
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Endpoints;
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var4 = function customScoreGuild(arg1) {
+        var2 = arg1;
+        var3 = var2.guildId;
+        var _closure2_slot0 = var3;
+        var3 = var2.channelScores;
+        var _closure2_slot1 = var3;
+        var2 = var2.guildScore;
+        var _closure2_slot2 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 468; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 468; continue _fun0001 }
  10:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 2;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.icymiEnabled;
-                    zuuluu = 'customScores';
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    if(!zuuluu) { _fun00002_ip = 465; continue _fun00001 }
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.icymiEnabled;
+                    var3 = 'customScores';
+                    var3 = var4.bind(var5)(var3);
+                    if(!var3) { _fun0001_ip = 465; continue _fun0001 }
  58: // try_start_0
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    zuuluu = 3;
-                    zuuluu = report[zuuluu];
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    report = zuuluu.HTTP;
-                    tangon = report.put;
-                    zuuluu = {};
-                    golfie = _closure1_slot4;
-                    golfie = golfie.GRAVITY_CUSTOM_GUILD_SCORES;
-                    zuuluu['url'] = golfie;
-                    golfie = {};
-                    option = _closure2_slot0;
-                    golfie['guild_id'] = option;
-                    offset = _closure2_slot1;
-                    option = null;
-                    offset = option == offset;
-                    option = undefined;
-                    if(offset) { _fun00002_ip = 156; continue _fun00001 }
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var3 = 3;
+                    var3 = var5[var3];
+                    var3 = var4.bind(var2)(var3);
+                    var5 = var3.HTTP;
+                    var4 = var5.put;
+                    var3 = {};
+                    var7 = _closure1_slot4;
+                    var7 = var7.GRAVITY_CUSTOM_GUILD_SCORES;
+                    var3['url'] = var7;
+                    var7 = {};
+                    var8 = _closure2_slot0;
+                    var7['guild_id'] = var8;
+                    var10 = _closure2_slot1;
+                    var8 = null;
+                    var10 = var8 == var10;
+                    var8 = undefined;
+                    if(var10) { _fun0001_ip = 156; continue _fun0001 }
  133:
-                    romeon = _closure2_slot1;
-                    yankee = romeon.map;
-                    offset = function(argFoo) {
-                        entity = argFoo;
-                        zuuluu = entity.channelId;
-                        michal = entity.score;
-                        entity = {};
-                        entity['channel_id'] = zuuluu;
-                        entity['score'] = michal;
-                        return entity;
+                    var12 = _closure2_slot1;
+                    var11 = var12.map;
+                    var10 = function(arg1) {
+                        var1 = arg1;
+                        var3 = var1.channelId;
+                        var2 = var1.score;
+                        var1 = {};
+                        var1['channel_id'] = var3;
+                        var1['score'] = var2;
+                        return var1;
                     };
-                    option = yankee.bind(romeon)(offset);
+                    var8 = var11.bind(var12)(var10);
  156:
-                    golfie['channel_scores'] = option;
-                    option = _closure2_slot2;
-                    golfie['guild_score'] = option;
-                    zuuluu['body'] = golfie;
-                    golfie = true;
-                    zuuluu['rejectWithError'] = golfie;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var7['channel_scores'] = var8;
+                    var8 = _closure2_slot2;
+                    var7['guild_score'] = var8;
+                    var3['body'] = var7;
+                    var7 = true;
+                    var3['rejectWithError'] = var7;
+                    var3 = var4.bind(var5)(var3);
                     SaveGenerator(address=191);
  189:
-                    return zuuluu;
+                    return var3;
  191:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 362; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 362; continue _fun0001 }
  200:
-                    report = _closure1_slot1;
-                    romeon = _closure1_slot2;
-                    tangon = 4;
-                    tangon = romeon[tangon];
-                    option = report.bind(michal)(tangon);
-                    golfie = option.dispatch;
-                    tangon = {};
-                    offset = 'ICYMI_CUSTOM_SCORES_UPDATED';
-                    tangon['type'] = offset;
-                    offset = _closure2_slot0;
-                    tangon['guildId'] = offset;
-                    offset = _closure2_slot1;
-                    tangon['channelScores'] = offset;
-                    verify = _closure2_slot2;
-                    tangon['guildScore'] = verify;
-                    tangon = golfie.bind(option)(tangon);
-                    tangon = 5;
-                    tangon = romeon[tangon];
-                    golfie = report.bind(michal)(tangon);
-                    report = golfie.open;
-                    tangon = {};
-                    option = 'GravityGuildScore';
-                    tangon['key'] = option;
-                    yankee = _closure1_slot0;
-                    option = 6;
-                    verify = romeon[option];
-                    verify = yankee.bind(michal)(verify);
-                    offset = verify.intl;
-                    verify = offset.string;
-                    option = romeon[option];
-                    option = yankee.bind(michal)(option);
-                    option = option.t;
-                    option = option.OMdbs7;
-                    option = verify.bind(offset)(option);
-                    tangon['content'] = option;
-                    tangon = report.bind(golfie)(tangon);
+                    var5 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var12[var4];
+                    var8 = var5.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var10 = 'ICYMI_CUSTOM_SCORES_UPDATED';
+                    var4['type'] = var10;
+                    var10 = _closure2_slot0;
+                    var4['guildId'] = var10;
+                    var10 = _closure2_slot1;
+                    var4['channelScores'] = var10;
+                    var9 = _closure2_slot2;
+                    var4['guildScore'] = var9;
+                    var4 = var7.bind(var8)(var4);
+                    var4 = 5;
+                    var4 = var12[var4];
+                    var7 = var5.bind(var2)(var4);
+                    var5 = var7.open;
+                    var4 = {};
+                    var8 = 'GravityGuildScore';
+                    var4['key'] = var8;
+                    var11 = _closure1_slot0;
+                    var8 = 6;
+                    var9 = var12[var8];
+                    var9 = var11.bind(var2)(var9);
+                    var10 = var9.intl;
+                    var9 = var10.string;
+                    var8 = var12[var8];
+                    var8 = var11.bind(var2)(var8);
+                    var8 = var8.t;
+                    var8 = var8.OMdbs7;
+                    var8 = var9.bind(var10)(var8);
+                    var4['content'] = var8;
+                    var4 = var5.bind(var7)(var4);
  360: // try_end0
-                    _fun00002_ip = 465; continue _fun00001;
+                    _fun0001_ip = 465; continue _fun0001;
  362:
-                    return zuuluu;
+                    return var3;
  365: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    tangon = _closure1_slot1;
-                    offset = _closure1_slot2;
-                    zuuluu = 5;
-                    zuuluu = offset[zuuluu];
-                    report = tangon.bind(michal)(zuuluu);
-                    tangon = report.open;
-                    zuuluu = {};
-                    golfie = 'GravityGuildScore';
-                    zuuluu['key'] = golfie;
-                    verify = _closure1_slot0;
-                    oscard = 6;
-                    golfie = offset[oscard];
-                    golfie = verify.bind(michal)(golfie);
-                    option = golfie.intl;
-                    golfie = option.string;
-                    oscard = offset[oscard];
-                    oscard = verify.bind(michal)(oscard);
-                    oscard = oscard.t;
-                    oscard = oscard.CG4Hkp;
-                    oscard = golfie.bind(option)(oscard);
-                    zuuluu['content'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var10[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.open;
+                    var3 = {};
+                    var7 = 'GravityGuildScore';
+                    var3['key'] = var7;
+                    var9 = _closure1_slot0;
+                    var6 = 6;
+                    var7 = var10[var6];
+                    var7 = var9.bind(var2)(var7);
+                    var8 = var7.intl;
+                    var7 = var8.string;
+                    var6 = var10[var6];
+                    var6 = var9.bind(var2)(var6);
+                    var6 = var6.t;
+                    var6 = var6.CG4Hkp;
+                    var6 = var7.bind(var8)(var6);
+                    var3['content'] = var6;
+                    var3 = var4.bind(var5)(var3);
  465:
-                    return michal;
+                    return var2;
  468:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        entity = entity.bind(michal)();
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['customScoreGuild'] = tangon;
-    tangon = 7;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/icymi/native/NativeICYMIActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['customScoreGuild'] = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/icymi/native/NativeICYMIActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

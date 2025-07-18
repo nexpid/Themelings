@@ -1,61 +1,61 @@
 // app/modules/teams/TeamActionCreators.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    michal = michal.Endpoints;
-    var _closure1_slot2 = michal;
-    michal = {};
-    tangon = function() { // Original name: fetchTeams
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Endpoints;
+    var _closure1_slot2 = var2;
+    var2 = {};
+    var4 = function fetchTeams() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = arguments[0];
-            zuuluu = undefined;
-            if(!(report === zuuluu)) { _fun00002_ip = 11; continue _fun00001 }
+            var5 = arguments[0];
+            var3 = undefined;
+            if(!(var5 === var3)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            report = false;
+            var5 = false;
  11:
-            michal = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 1;
-            entity = oscard[entity];
-            entity = michal.bind(zuuluu)(entity);
-            zuuluu = entity.HTTP;
-            michal = zuuluu.get;
-            entity = {};
-            tangon = _closure1_slot2;
-            tangon = tangon.TEAMS;
-            entity['url'] = tangon;
-            tangon = {};
-            tangon['include_payout_account_status'] = report;
-            entity['query'] = tangon;
-            tangon = false;
-            entity['rejectWithError'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 1;
+            var1 = var6[var1];
+            var1 = var2.bind(var3)(var1);
+            var3 = var1.HTTP;
+            var2 = var3.get;
+            var1 = {};
+            var4 = _closure1_slot2;
+            var4 = var4.TEAMS;
+            var1['url'] = var4;
+            var4 = {};
+            var4['include_payout_account_status'] = var5;
+            var1['query'] = var4;
+            var4 = false;
+            var1['rejectWithError'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    michal['fetchTeams'] = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/teams/TeamActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['fetchTeams'] = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/teams/TeamActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

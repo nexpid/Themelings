@@ -1,541 +1,541 @@
 // app/modules/explicit_media_redaction/HarmTypeConfiguration.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    oscard = 0;
-    michal = option[oscard];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    foxtra = michal.MessageAttachmentFlags;
-    romeon = michal.MessageEmbedFlags;
-    report = {};
-    michal = 'explicit';
-    report['EXPLICIT'] = michal;
-    michal = 'gore';
-    report['GORE'] = michal;
-    tangon = {};
-    tangon['NONE'] = oscard;
-    michal = 'NONE';
-    tangon[oscard] = michal;
-    backup = 1;
-    tangon['EXPLICIT'] = backup;
-    michal = 'EXPLICIT';
-    tangon[backup] = michal;
-    yankee = 2;
-    tangon['GORE'] = yankee;
-    michal = 'GORE';
-    tangon[yankee] = michal;
-    oscard = 3;
-    tangon['ALL'] = oscard;
-    michal = 'ALL';
-    tangon[oscard] = michal;
-    michal = {};
-    verify = report.EXPLICIT;
-    oscard = {};
-    kiloes = report.EXPLICIT;
-    oscard['harmType'] = kiloes;
-    kiloes = option[backup];
-    kiloes = golfie.bind(entity)(kiloes);
-    kiloes = kiloes.ObscureReason;
-    kiloes = kiloes.EXPLICIT_CONTENT;
-    oscard['obscureReason'] = kiloes;
-    kiloes = foxtra.CONTAINS_EXPLICIT_MEDIA;
-    oscard['attachmentFlag'] = kiloes;
-    kiloes = romeon.CONTAINS_EXPLICIT_MEDIA;
-    oscard['embedFlag'] = kiloes;
-    kiloes = option[yankee];
-    kiloes = golfie.bind(entity)(kiloes);
-    kiloes = kiloes.ContentScanFlags;
-    kiloes = kiloes.EXPLICIT;
-    oscard['genericMediaFlag'] = kiloes;
-    kiloes = tangon.EXPLICIT;
-    oscard['bitmask'] = kiloes;
-    kiloes = 'obscure_blur_effect_explicit_content_enabled';
-    oscard['devSettingKey'] = kiloes;
-    kiloes = function(argFoo) { // Original name: getProtoUserSettings
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var6 = 0;
+    var2 = var8[var6];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var13 = var2.MessageAttachmentFlags;
+    var12 = var2.MessageEmbedFlags;
+    var5 = {};
+    var2 = 'explicit';
+    var5['EXPLICIT'] = var2;
+    var2 = 'gore';
+    var5['GORE'] = var2;
+    var4 = {};
+    var4['NONE'] = var6;
+    var2 = 'NONE';
+    var4[var6] = var2;
+    var14 = 1;
+    var4['EXPLICIT'] = var14;
+    var2 = 'EXPLICIT';
+    var4[var14] = var2;
+    var11 = 2;
+    var4['GORE'] = var11;
+    var2 = 'GORE';
+    var4[var11] = var2;
+    var6 = 3;
+    var4['ALL'] = var6;
+    var2 = 'ALL';
+    var4[var6] = var2;
+    var2 = {};
+    var9 = var5.EXPLICIT;
+    var6 = {};
+    var15 = var5.EXPLICIT;
+    var6['harmType'] = var15;
+    var15 = var8[var14];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.ObscureReason;
+    var15 = var15.EXPLICIT_CONTENT;
+    var6['obscureReason'] = var15;
+    var15 = var13.CONTAINS_EXPLICIT_MEDIA;
+    var6['attachmentFlag'] = var15;
+    var15 = var12.CONTAINS_EXPLICIT_MEDIA;
+    var6['embedFlag'] = var15;
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.ContentScanFlags;
+    var15 = var15.EXPLICIT;
+    var6['genericMediaFlag'] = var15;
+    var15 = var4.EXPLICIT;
+    var6['bitmask'] = var15;
+    var15 = 'obscure_blur_effect_explicit_content_enabled';
+    var6['devSettingKey'] = var15;
+    var15 = function getProtoUserSettings(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = null;
-            zuuluu = report == entity;
-            michal = undefined;
-            tangon = undefined;
-            if(zuuluu) { _fun00002_ip = 37; continue _fun00001 }
+            var1 = arg1;
+            var5 = null;
+            var3 = var5 == var1;
+            var2 = undefined;
+            var4 = undefined;
+            if(var3) { _fun0001_ip = 37; continue _fun0001 }
  16:
-            entity = entity.textAndImages;
-            zuuluu = report == entity;
-            tangon = undefined;
-            if(zuuluu) { _fun00002_ip = 37; continue _fun00001 }
+            var1 = var1.textAndImages;
+            var3 = var5 == var1;
+            var4 = undefined;
+            if(var3) { _fun0001_ip = 37; continue _fun0001 }
  31:
-            tangon = entity.explicitContentSettings;
+            var4 = var1.explicitContentSettings;
  37:
-            entity = {};
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            golfie = 3;
-            oscard = oscard[golfie];
-            oscard = option.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.GUILD;
-            verify = report == tangon;
-            oscard = undefined;
-            if(verify) { _fun00002_ip = 89; continue _fun00001 }
+            var1 = {};
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var7 = 3;
+            var6 = var6[var7];
+            var6 = var8.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.GUILD;
+            var9 = var5 == var4;
+            var6 = undefined;
+            if(var9) { _fun0001_ip = 89; continue _fun0001 }
  83:
-            oscard = tangon.explicitContentGuilds;
+            var6 = var4.explicitContentGuilds;
  89:
-            entity[option] = oscard;
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            oscard = oscard[golfie];
-            oscard = option.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.FRIEND_DM;
-            verify = report == tangon;
-            oscard = undefined;
-            if(verify) { _fun00002_ip = 138; continue _fun00001 }
+            var1[var8] = var6;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var7];
+            var6 = var8.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.FRIEND_DM;
+            var9 = var5 == var4;
+            var6 = undefined;
+            if(var9) { _fun0001_ip = 138; continue _fun0001 }
  132:
-            oscard = tangon.explicitContentFriendDm;
+            var6 = var4.explicitContentFriendDm;
  138:
-            entity[option] = oscard;
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = oscard.bind(michal)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            report = report == tangon;
-            michal = undefined;
-            if(report) { _fun00002_ip = 187; continue _fun00001 }
+            var1[var8] = var6;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var5 = var5 == var4;
+            var2 = undefined;
+            if(var5) { _fun0001_ip = 187; continue _fun0001 }
  181:
-            michal = tangon.explicitContentNonFriendDm;
+            var2 = var4.explicitContentNonFriendDm;
  187:
-            entity[zuuluu] = michal;
-            return entity;
+            var1[var3] = var2;
+            return var1;
         }
     };
-    oscard['getProtoUserSettings'] = kiloes;
-    kiloes = function(argFoo) { // Original name: getUserSettingsWithDefaults
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var6['getProtoUserSettings'] = var15;
+    var15 = function getUserSettingsWithDefaults(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            verify = argFoo;
-            golfie = null;
-            if(!(golfie == verify)) { _fun00004_ip = 250; continue _fun00003 }
+            var9 = arg1;
+            var7 = null;
+            if(!(var7 == var9)) { _fun0002_ip = 250; continue _fun0002 }
  12:
-            entity = {};
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 3;
-            oscard = report[zuuluu];
-            michal = undefined;
-            oscard = offset.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.GUILD;
-            oscard = 4;
-            report = report[oscard];
-            report = offset.bind(michal)(report);
-            offset = report.ExplicitContentSettings;
-            report = offset.getSetting;
-            offset = report.bind(offset)();
-            yankee = golfie == offset;
-            report = undefined;
-            if(yankee) { _fun00004_ip = 94; continue _fun00003 }
+            var1 = {};
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 3;
+            var6 = var5[var3];
+            var2 = undefined;
+            var6 = var10.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.GUILD;
+            var6 = 4;
+            var5 = var5[var6];
+            var5 = var10.bind(var2)(var5);
+            var10 = var5.ExplicitContentSettings;
+            var5 = var10.getSetting;
+            var10 = var5.bind(var10)();
+            var11 = var7 == var10;
+            var5 = undefined;
+            if(var11) { _fun0002_ip = 94; continue _fun0002 }
  88:
-            report = offset.explicitContentGuilds;
+            var5 = var10.explicitContentGuilds;
  94:
-            entity[option] = report;
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            option = report[zuuluu];
-            option = offset.bind(michal)(option);
-            option = option.ContentHarmTypeChannel;
-            option = option.FRIEND_DM;
-            report = report[oscard];
-            report = offset.bind(michal)(report);
-            offset = report.ExplicitContentSettings;
-            report = offset.getSetting;
-            offset = report.bind(offset)();
-            yankee = golfie == offset;
-            report = undefined;
-            if(yankee) { _fun00004_ip = 168; continue _fun00003 }
+            var1[var8] = var5;
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var8 = var5[var3];
+            var8 = var10.bind(var2)(var8);
+            var8 = var8.ContentHarmTypeChannel;
+            var8 = var8.FRIEND_DM;
+            var5 = var5[var6];
+            var5 = var10.bind(var2)(var5);
+            var10 = var5.ExplicitContentSettings;
+            var5 = var10.getSetting;
+            var10 = var5.bind(var10)();
+            var11 = var7 == var10;
+            var5 = undefined;
+            if(var11) { _fun0002_ip = 168; continue _fun0002 }
  162:
-            report = offset.explicitContentFriendDm;
+            var5 = var10.explicitContentFriendDm;
  168:
-            entity[option] = report;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = tangon[zuuluu];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            tangon = tangon[oscard];
-            tangon = report.bind(michal)(tangon);
-            report = tangon.ExplicitContentSettings;
-            tangon = report.getSetting;
-            tangon = tangon.bind(report)();
-            report = golfie == tangon;
-            michal = undefined;
-            if(report) { _fun00004_ip = 242; continue _fun00003 }
+            var1[var8] = var5;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = var4[var3];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var4 = var4[var6];
+            var4 = var5.bind(var2)(var4);
+            var5 = var4.ExplicitContentSettings;
+            var4 = var5.getSetting;
+            var4 = var4.bind(var5)();
+            var5 = var7 == var4;
+            var2 = undefined;
+            if(var5) { _fun0002_ip = 242; continue _fun0002 }
  236:
-            michal = tangon.explicitContentNonFriendDm;
+            var2 = var4.explicitContentNonFriendDm;
  242:
-            entity[zuuluu] = michal;
-            verify = entity;
+            var1[var3] = var2;
+            var9 = var1;
  250:
-            entity = {};
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            romeon = 3;
-            zuuluu = michal[romeon];
-            yankee = undefined;
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.GUILD;
-            report = 5;
-            michal = michal[report];
-            oscard = tangon.bind(yankee)(michal);
-            tangon = oscard.resolveExplicitContentSettingWithDefaults;
-            michal = {};
-            foxtra = golfie == verify;
-            offset = undefined;
-            if(foxtra) { _fun00004_ip = 351; continue _fun00003 }
+            var1 = {};
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var12 = 3;
+            var3 = var2[var12];
+            var11 = undefined;
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.GUILD;
+            var5 = 5;
+            var2 = var2[var5];
+            var6 = var4.bind(var11)(var2);
+            var4 = var6.resolveExplicitContentSettingWithDefaults;
+            var2 = {};
+            var13 = var7 == var9;
+            var10 = undefined;
+            if(var13) { _fun0002_ip = 351; continue _fun0002 }
  318:
-            backup = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            foxtra = foxtra[romeon];
-            foxtra = backup.bind(yankee)(foxtra);
-            foxtra = foxtra.ContentHarmTypeChannel;
-            foxtra = foxtra.GUILD;
-            offset = verify[foxtra];
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var13 = var13[var12];
+            var13 = var14.bind(var11)(var13);
+            var13 = var13.ContentHarmTypeChannel;
+            var13 = var13.GUILD;
+            var10 = var9[var13];
  351:
-            michal['setting'] = offset;
-            michal = tangon.bind(oscard)(michal);
-            entity[zuuluu] = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal[romeon];
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.FRIEND_DM;
-            michal = michal[report];
-            offset = tangon.bind(yankee)(michal);
-            tangon = offset.resolveExplicitContentSettingWithDefaults;
-            michal = {'setting': null, 'isDm': true, 'isFriend': true};
-            foxtra = golfie == verify;
-            oscard = undefined;
-            if(foxtra) { _fun00004_ip = 462; continue _fun00003 }
+            var2['setting'] = var10;
+            var2 = var4.bind(var6)(var2);
+            var1[var3] = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var12];
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.FRIEND_DM;
+            var2 = var2[var5];
+            var10 = var4.bind(var11)(var2);
+            var4 = var10.resolveExplicitContentSettingWithDefaults;
+            var2 = {'setting': null, 'isDm': true, 'isFriend': true};
+            var13 = var7 == var9;
+            var6 = undefined;
+            if(var13) { _fun0002_ip = 462; continue _fun0002 }
  429:
-            backup = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            foxtra = foxtra[romeon];
-            foxtra = backup.bind(yankee)(foxtra);
-            foxtra = foxtra.ContentHarmTypeChannel;
-            foxtra = foxtra.FRIEND_DM;
-            oscard = verify[foxtra];
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var13 = var13[var12];
+            var13 = var14.bind(var11)(var13);
+            var13 = var13.ContentHarmTypeChannel;
+            var13 = var13.FRIEND_DM;
+            var6 = var9[var13];
  462:
-            michal['setting'] = oscard;
-            oscard = true;
-            michal = tangon.bind(offset)(michal);
-            entity[zuuluu] = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal[romeon];
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            michal = michal[report];
-            report = tangon.bind(yankee)(michal);
-            tangon = report.resolveExplicitContentSettingWithDefaults;
-            michal = {};
-            offset = golfie == verify;
-            golfie = undefined;
-            if(offset) { _fun00004_ip = 568; continue _fun00003 }
+            var2['setting'] = var6;
+            var6 = true;
+            var2 = var4.bind(var10)(var2);
+            var1[var3] = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var12];
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var2 = var2[var5];
+            var5 = var4.bind(var11)(var2);
+            var4 = var5.resolveExplicitContentSettingWithDefaults;
+            var2 = {};
+            var10 = var7 == var9;
+            var7 = undefined;
+            if(var10) { _fun0002_ip = 568; continue _fun0002 }
  535:
-            offset = _closure1_slot0;
-            option = _closure1_slot1;
-            option = option[romeon];
-            option = offset.bind(yankee)(option);
-            option = option.ContentHarmTypeChannel;
-            option = option.NON_FRIEND_DM;
-            golfie = verify[option];
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var8 = var8[var12];
+            var8 = var10.bind(var11)(var8);
+            var8 = var8.ContentHarmTypeChannel;
+            var8 = var8.NON_FRIEND_DM;
+            var7 = var9[var8];
  568:
-            michal['setting'] = golfie;
-            michal['isDm'] = oscard;
-            michal = tangon.bind(report)(michal);
-            entity[zuuluu] = michal;
-            return entity;
+            var2['setting'] = var7;
+            var2['isDm'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var1[var3] = var2;
+            return var1;
         }
     };
-    oscard['getUserSettingsWithDefaults'] = kiloes;
-    michal[verify] = oscard;
-    verify = report.GORE;
-    oscard = {};
-    kiloes = report.GORE;
-    oscard['harmType'] = kiloes;
-    backup = option[backup];
-    backup = golfie.bind(entity)(backup);
-    backup = backup.ObscureReason;
-    backup = backup.GORE_CONTENT;
-    oscard['obscureReason'] = backup;
-    foxtra = foxtra.CONTAINS_GORE_CONTENT;
-    oscard['attachmentFlag'] = foxtra;
-    romeon = romeon.CONTAINS_GORE_CONTENT;
-    oscard['embedFlag'] = romeon;
-    yankee = option[yankee];
-    yankee = golfie.bind(entity)(yankee);
-    yankee = yankee.ContentScanFlags;
-    yankee = yankee.GORE;
-    oscard['genericMediaFlag'] = yankee;
-    yankee = tangon.GORE;
-    oscard['bitmask'] = yankee;
-    yankee = 'obscure_blur_effect_gore_content_enabled';
-    oscard['devSettingKey'] = yankee;
-    yankee = function(argFoo) { // Original name: getProtoUserSettings
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var6['getUserSettingsWithDefaults'] = var15;
+    var2[var9] = var6;
+    var9 = var5.GORE;
+    var6 = {};
+    var15 = var5.GORE;
+    var6['harmType'] = var15;
+    var14 = var8[var14];
+    var14 = var7.bind(var1)(var14);
+    var14 = var14.ObscureReason;
+    var14 = var14.GORE_CONTENT;
+    var6['obscureReason'] = var14;
+    var13 = var13.CONTAINS_GORE_CONTENT;
+    var6['attachmentFlag'] = var13;
+    var12 = var12.CONTAINS_GORE_CONTENT;
+    var6['embedFlag'] = var12;
+    var11 = var8[var11];
+    var11 = var7.bind(var1)(var11);
+    var11 = var11.ContentScanFlags;
+    var11 = var11.GORE;
+    var6['genericMediaFlag'] = var11;
+    var11 = var4.GORE;
+    var6['bitmask'] = var11;
+    var11 = 'obscure_blur_effect_gore_content_enabled';
+    var6['devSettingKey'] = var11;
+    var11 = function getProtoUserSettings(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            report = null;
-            zuuluu = report == entity;
-            michal = undefined;
-            tangon = undefined;
-            if(zuuluu) { _fun00006_ip = 37; continue _fun00005 }
+            var1 = arg1;
+            var5 = null;
+            var3 = var5 == var1;
+            var2 = undefined;
+            var4 = undefined;
+            if(var3) { _fun0003_ip = 37; continue _fun0003 }
  16:
-            entity = entity.textAndImages;
-            zuuluu = report == entity;
-            tangon = undefined;
-            if(zuuluu) { _fun00006_ip = 37; continue _fun00005 }
+            var1 = var1.textAndImages;
+            var3 = var5 == var1;
+            var4 = undefined;
+            if(var3) { _fun0003_ip = 37; continue _fun0003 }
  31:
-            tangon = entity.goreContentSettings;
+            var4 = var1.goreContentSettings;
  37:
-            entity = {};
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            golfie = 3;
-            oscard = oscard[golfie];
-            oscard = option.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.GUILD;
-            verify = report == tangon;
-            oscard = undefined;
-            if(verify) { _fun00006_ip = 89; continue _fun00005 }
+            var1 = {};
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var7 = 3;
+            var6 = var6[var7];
+            var6 = var8.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.GUILD;
+            var9 = var5 == var4;
+            var6 = undefined;
+            if(var9) { _fun0003_ip = 89; continue _fun0003 }
  83:
-            oscard = tangon.goreContentGuilds;
+            var6 = var4.goreContentGuilds;
  89:
-            entity[option] = oscard;
-            option = _closure1_slot0;
-            oscard = _closure1_slot1;
-            oscard = oscard[golfie];
-            oscard = option.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.FRIEND_DM;
-            verify = report == tangon;
-            oscard = undefined;
-            if(verify) { _fun00006_ip = 138; continue _fun00005 }
+            var1[var8] = var6;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var7];
+            var6 = var8.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.FRIEND_DM;
+            var9 = var5 == var4;
+            var6 = undefined;
+            if(var9) { _fun0003_ip = 138; continue _fun0003 }
  132:
-            oscard = tangon.goreContentFriendDm;
+            var6 = var4.goreContentFriendDm;
  138:
-            entity[option] = oscard;
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = oscard.bind(michal)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            report = report == tangon;
-            michal = undefined;
-            if(report) { _fun00006_ip = 187; continue _fun00005 }
+            var1[var8] = var6;
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var6.bind(var2)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var5 = var5 == var4;
+            var2 = undefined;
+            if(var5) { _fun0003_ip = 187; continue _fun0003 }
  181:
-            michal = tangon.goreContentNonFriendDm;
+            var2 = var4.goreContentNonFriendDm;
  187:
-            entity[zuuluu] = michal;
-            return entity;
+            var1[var3] = var2;
+            return var1;
         }
     };
-    oscard['getProtoUserSettings'] = yankee;
-    yankee = function(argFoo) { // Original name: getUserSettingsWithDefaults
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var6['getProtoUserSettings'] = var11;
+    var11 = function getUserSettingsWithDefaults(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            verify = argFoo;
-            golfie = null;
-            if(!(golfie == verify)) { _fun00008_ip = 250; continue _fun00007 }
+            var9 = arg1;
+            var7 = null;
+            if(!(var7 == var9)) { _fun0004_ip = 250; continue _fun0004 }
  12:
-            entity = {};
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 3;
-            oscard = report[zuuluu];
-            michal = undefined;
-            oscard = offset.bind(michal)(oscard);
-            oscard = oscard.ContentHarmTypeChannel;
-            option = oscard.GUILD;
-            oscard = 4;
-            report = report[oscard];
-            report = offset.bind(michal)(report);
-            offset = report.GoreContentSettings;
-            report = offset.getSetting;
-            offset = report.bind(offset)();
-            yankee = golfie == offset;
-            report = undefined;
-            if(yankee) { _fun00008_ip = 94; continue _fun00007 }
+            var1 = {};
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 3;
+            var6 = var5[var3];
+            var2 = undefined;
+            var6 = var10.bind(var2)(var6);
+            var6 = var6.ContentHarmTypeChannel;
+            var8 = var6.GUILD;
+            var6 = 4;
+            var5 = var5[var6];
+            var5 = var10.bind(var2)(var5);
+            var10 = var5.GoreContentSettings;
+            var5 = var10.getSetting;
+            var10 = var5.bind(var10)();
+            var11 = var7 == var10;
+            var5 = undefined;
+            if(var11) { _fun0004_ip = 94; continue _fun0004 }
  88:
-            report = offset.goreContentGuilds;
+            var5 = var10.goreContentGuilds;
  94:
-            entity[option] = report;
-            offset = _closure1_slot0;
-            report = _closure1_slot1;
-            option = report[zuuluu];
-            option = offset.bind(michal)(option);
-            option = option.ContentHarmTypeChannel;
-            option = option.FRIEND_DM;
-            report = report[oscard];
-            report = offset.bind(michal)(report);
-            offset = report.GoreContentSettings;
-            report = offset.getSetting;
-            offset = report.bind(offset)();
-            yankee = golfie == offset;
-            report = undefined;
-            if(yankee) { _fun00008_ip = 168; continue _fun00007 }
+            var1[var8] = var5;
+            var10 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var8 = var5[var3];
+            var8 = var10.bind(var2)(var8);
+            var8 = var8.ContentHarmTypeChannel;
+            var8 = var8.FRIEND_DM;
+            var5 = var5[var6];
+            var5 = var10.bind(var2)(var5);
+            var10 = var5.GoreContentSettings;
+            var5 = var10.getSetting;
+            var10 = var5.bind(var10)();
+            var11 = var7 == var10;
+            var5 = undefined;
+            if(var11) { _fun0004_ip = 168; continue _fun0004 }
  162:
-            report = offset.goreContentFriendDm;
+            var5 = var10.goreContentFriendDm;
  168:
-            entity[option] = report;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = tangon[zuuluu];
-            zuuluu = report.bind(michal)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            tangon = tangon[oscard];
-            tangon = report.bind(michal)(tangon);
-            report = tangon.GoreContentSettings;
-            tangon = report.getSetting;
-            tangon = tangon.bind(report)();
-            report = golfie == tangon;
-            michal = undefined;
-            if(report) { _fun00008_ip = 242; continue _fun00007 }
+            var1[var8] = var5;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = var4[var3];
+            var3 = var5.bind(var2)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var4 = var4[var6];
+            var4 = var5.bind(var2)(var4);
+            var5 = var4.GoreContentSettings;
+            var4 = var5.getSetting;
+            var4 = var4.bind(var5)();
+            var5 = var7 == var4;
+            var2 = undefined;
+            if(var5) { _fun0004_ip = 242; continue _fun0004 }
  236:
-            michal = tangon.goreContentNonFriendDm;
+            var2 = var4.goreContentNonFriendDm;
  242:
-            entity[zuuluu] = michal;
-            verify = entity;
+            var1[var3] = var2;
+            var9 = var1;
  250:
-            entity = {};
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            romeon = 3;
-            zuuluu = michal[romeon];
-            yankee = undefined;
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.GUILD;
-            report = 6;
-            michal = michal[report];
-            oscard = tangon.bind(yankee)(michal);
-            tangon = oscard.resolveGoreSettingWithDefaults;
-            michal = {};
-            foxtra = golfie == verify;
-            offset = undefined;
-            if(foxtra) { _fun00008_ip = 351; continue _fun00007 }
+            var1 = {};
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var12 = 3;
+            var3 = var2[var12];
+            var11 = undefined;
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.GUILD;
+            var5 = 6;
+            var2 = var2[var5];
+            var6 = var4.bind(var11)(var2);
+            var4 = var6.resolveGoreSettingWithDefaults;
+            var2 = {};
+            var13 = var7 == var9;
+            var10 = undefined;
+            if(var13) { _fun0004_ip = 351; continue _fun0004 }
  318:
-            backup = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            foxtra = foxtra[romeon];
-            foxtra = backup.bind(yankee)(foxtra);
-            foxtra = foxtra.ContentHarmTypeChannel;
-            foxtra = foxtra.GUILD;
-            offset = verify[foxtra];
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var13 = var13[var12];
+            var13 = var14.bind(var11)(var13);
+            var13 = var13.ContentHarmTypeChannel;
+            var13 = var13.GUILD;
+            var10 = var9[var13];
  351:
-            michal['setting'] = offset;
-            michal = tangon.bind(oscard)(michal);
-            entity[zuuluu] = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal[romeon];
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.FRIEND_DM;
-            michal = michal[report];
-            offset = tangon.bind(yankee)(michal);
-            tangon = offset.resolveGoreSettingWithDefaults;
-            michal = {'setting': null, 'isDm': true, 'isFriend': true};
-            foxtra = golfie == verify;
-            oscard = undefined;
-            if(foxtra) { _fun00008_ip = 462; continue _fun00007 }
+            var2['setting'] = var10;
+            var2 = var4.bind(var6)(var2);
+            var1[var3] = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var12];
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.FRIEND_DM;
+            var2 = var2[var5];
+            var10 = var4.bind(var11)(var2);
+            var4 = var10.resolveGoreSettingWithDefaults;
+            var2 = {'setting': null, 'isDm': true, 'isFriend': true};
+            var13 = var7 == var9;
+            var6 = undefined;
+            if(var13) { _fun0004_ip = 462; continue _fun0004 }
  429:
-            backup = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            foxtra = foxtra[romeon];
-            foxtra = backup.bind(yankee)(foxtra);
-            foxtra = foxtra.ContentHarmTypeChannel;
-            foxtra = foxtra.FRIEND_DM;
-            oscard = verify[foxtra];
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var13 = var13[var12];
+            var13 = var14.bind(var11)(var13);
+            var13 = var13.ContentHarmTypeChannel;
+            var13 = var13.FRIEND_DM;
+            var6 = var9[var13];
  462:
-            michal['setting'] = oscard;
-            oscard = true;
-            michal = tangon.bind(offset)(michal);
-            entity[zuuluu] = michal;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            zuuluu = michal[romeon];
-            zuuluu = tangon.bind(yankee)(zuuluu);
-            zuuluu = zuuluu.ContentHarmTypeChannel;
-            zuuluu = zuuluu.NON_FRIEND_DM;
-            michal = michal[report];
-            report = tangon.bind(yankee)(michal);
-            tangon = report.resolveGoreSettingWithDefaults;
-            michal = {};
-            offset = golfie == verify;
-            golfie = undefined;
-            if(offset) { _fun00008_ip = 568; continue _fun00007 }
+            var2['setting'] = var6;
+            var6 = true;
+            var2 = var4.bind(var10)(var2);
+            var1[var3] = var2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var3 = var2[var12];
+            var3 = var4.bind(var11)(var3);
+            var3 = var3.ContentHarmTypeChannel;
+            var3 = var3.NON_FRIEND_DM;
+            var2 = var2[var5];
+            var5 = var4.bind(var11)(var2);
+            var4 = var5.resolveGoreSettingWithDefaults;
+            var2 = {};
+            var10 = var7 == var9;
+            var7 = undefined;
+            if(var10) { _fun0004_ip = 568; continue _fun0004 }
  535:
-            offset = _closure1_slot0;
-            option = _closure1_slot1;
-            option = option[romeon];
-            option = offset.bind(yankee)(option);
-            option = option.ContentHarmTypeChannel;
-            option = option.NON_FRIEND_DM;
-            golfie = verify[option];
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var8 = var8[var12];
+            var8 = var10.bind(var11)(var8);
+            var8 = var8.ContentHarmTypeChannel;
+            var8 = var8.NON_FRIEND_DM;
+            var7 = var9[var8];
  568:
-            michal['setting'] = golfie;
-            michal['isDm'] = oscard;
-            michal = tangon.bind(report)(michal);
-            entity[zuuluu] = michal;
-            return entity;
+            var2['setting'] = var7;
+            var2['isDm'] = var6;
+            var2 = var4.bind(var5)(var2);
+            var1[var3] = var2;
+            return var1;
         }
     };
-    oscard['getUserSettingsWithDefaults'] = yankee;
-    offset = function() { // Original name: isEligible
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 7;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.isEligibleForSensitiveContentGoreExperiment;
-        entity = 'ContentPolicyRegistry';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var6['getUserSettingsWithDefaults'] = var11;
+    var10 = function isEligible() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 7;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.isEligibleForSensitiveContentGoreExperiment;
+        var1 = 'ContentPolicyRegistry';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    oscard['isEligible'] = offset;
-    michal[verify] = oscard;
-    oscard = 8;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/explicit_media_redaction/HarmTypeConfiguration.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['ContentHarmType'] = report;
-    zuuluu['ContentHarmTypeBitMask'] = tangon;
-    zuuluu['CONTENT_SCAN_TYPE_REGISTRY'] = michal;
-    return entity;
+    var6['isEligible'] = var10;
+    var2[var9] = var6;
+    var6 = 8;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/explicit_media_redaction/HarmTypeConfiguration.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['ContentHarmType'] = var5;
+    var3['ContentHarmTypeBitMask'] = var4;
+    var3['CONTENT_SCAN_TYPE_REGISTRY'] = var2;
+    return var1;
 })();

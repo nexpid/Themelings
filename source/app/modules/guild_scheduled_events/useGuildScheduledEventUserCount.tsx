@@ -1,109 +1,109 @@
 // app/modules/guild_scheduled_events/useGuildScheduledEventUserCount.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useEffect;
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/useGuildScheduledEventUserCount.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: useGuildScheduledEventUserCount
-        golfie = argFoo;
-        option = argBar;
-        oscard = argBaz;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = option;
-        var _closure2_slot2 = oscard;
-        tangon = _closure1_slot0;
-        report = _closure1_slot2;
-        entity = 2;
-        entity = report[entity];
-        report = undefined;
-        offset = tangon.bind(report)(entity);
-        verify = offset.useStateFromStores;
-        entity = _closure1_slot4;
-        tangon = new Array(1);
-        tangon[0] = entity;
-        entity = function() {
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getUserCount;
-            michal = _closure2_slot1;
-            entity = _closure2_slot2;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useEffect;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/useGuildScheduledEventUserCount.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildScheduledEventUserCount(arg1, arg2, arg3) {
+        var7 = arg1;
+        var8 = arg2;
+        var6 = arg3;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var8;
+        var _closure2_slot2 = var6;
+        var4 = _closure1_slot0;
+        var5 = _closure1_slot2;
+        var1 = 2;
+        var1 = var5[var1];
+        var5 = undefined;
+        var10 = var4.bind(var5)(var1);
+        var9 = var10.useStateFromStores;
+        var1 = _closure1_slot4;
+        var4 = new Array(1);
+        var4[0] = var1;
+        var1 = function() {
+            var4 = _closure1_slot4;
+            var3 = var4.getUserCount;
+            var2 = _closure2_slot1;
+            var1 = _closure2_slot2;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        entity = verify.bind(offset)(tangon, entity);
-        tangon = _closure1_slot3;
-        zuuluu = new Array(3);
-        zuuluu[0] = option;
-        zuuluu[1] = golfie;
-        zuuluu[2] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1 = var9.bind(var10)(var4, var1);
+        var4 = _closure1_slot3;
+        var3 = new Array(3);
+        var3[0] = var8;
+        var3[1] = var7;
+        var3[2] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                golfie = null;
-                entity = golfie != entity;
-                if(!entity) { _fun00002_ip = 24; continue _fun00001 }
+                var1 = _closure2_slot0;
+                var7 = null;
+                var1 = var7 != var1;
+                if(!var1) { _fun0001_ip = 24; continue _fun0001 }
  16:
-                michal = _closure2_slot1;
-                entity = golfie != michal;
+                var2 = _closure2_slot1;
+                var1 = var7 != var2;
  24:
-                if(!entity) { _fun00002_ip = 102; continue _fun00001 }
+                if(!var1) { _fun0001_ip = 102; continue _fun0001 }
  27:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                report = zuuluu.bind(entity)(michal);
-                tangon = report.getGuildEventUserCounts;
-                zuuluu = _closure2_slot0;
-                michal = _closure2_slot1;
-                entity = _closure2_slot2;
-                if(!(golfie == entity)) { _fun00002_ip = 80; continue _fun00001 }
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.getGuildEventUserCounts;
+                var3 = _closure2_slot0;
+                var2 = _closure2_slot1;
+                var1 = _closure2_slot2;
+                if(!(var7 == var1)) { _fun0001_ip = 80; continue _fun0001 }
  74:
-                entity = new Array(0);
-                _fun00002_ip = 95; continue _fun00001;
+                var1 = new Array(0);
+                _fun0001_ip = 95; continue _fun0001;
  80:
-                golfie = _closure2_slot2;
-                oscard = new Array(1);
-                oscard[0] = golfie;
-                entity = oscard;
+                var7 = _closure2_slot2;
+                var6 = new Array(1);
+                var6[0] = var7;
+                var1 = var6;
  95:
-                entity = tangon.bind(report)(zuuluu, michal, entity);
+                var1 = var4.bind(var5)(var3, var2, var1);
  102:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

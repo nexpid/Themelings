@@ -1,100 +1,100 @@
 // app/modules/instant_invite/useInviteApplicationBypassInfo.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.GuildFeatures;
-    var _closure1_slot3 = golfie;
-    tangon = tangon.Permissions;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/instant_invite/useInviteApplicationBypassInfo.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useInviteApplicationBypassInfo
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.GuildFeatures;
+    var _closure1_slot3 = var7;
+    var4 = var4.Permissions;
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/instant_invite/useInviteApplicationBypassInfo.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useInviteApplicationBypassInfo(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            tangon = 2;
-            report = report[tangon];
-            tangon = undefined;
-            golfie = oscard.bind(tangon)(report);
-            oscard = golfie.useStateFromStores;
-            tangon = _closure1_slot2;
-            report = new Array(1);
-            report[0] = tangon;
-            tangon = new Array(1);
-            tangon[0] = michal;
-            zuuluu = function() {
-                tangon = _closure1_slot2;
-                zuuluu = tangon.can;
-                entity = _closure1_slot4;
-                michal = entity.KICK_MEMBERS;
-                entity = _closure2_slot0;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 2;
+            var5 = var5[var4];
+            var4 = undefined;
+            var7 = var6.bind(var4)(var5);
+            var6 = var7.useStateFromStores;
+            var4 = _closure1_slot2;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = new Array(1);
+            var4[0] = var2;
+            var3 = function() {
+                var4 = _closure1_slot2;
+                var3 = var4.can;
+                var1 = _closure1_slot4;
+                var2 = var1.KICK_MEMBERS;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            tangon = oscard.bind(golfie)(report, zuuluu, tangon);
-            zuuluu = null;
-            report = zuuluu == michal;
-            if(report) { _fun00002_ip = 111; continue _fun00001 }
+            var4 = var6.bind(var7)(var5, var3, var4);
+            var3 = null;
+            var5 = var3 == var2;
+            if(var5) { _fun0001_ip = 111; continue _fun0001 }
  82:
-            option = michal.features;
-            golfie = option.has;
-            oscard = _closure1_slot3;
-            oscard = oscard.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            oscard = golfie.bind(option)(oscard);
-            report = !oscard;
+            var8 = var2.features;
+            var7 = var8.has;
+            var6 = _closure1_slot3;
+            var6 = var6.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            var6 = var7.bind(var8)(var6);
+            var5 = !var6;
  111:
-            if(report) { _fun00002_ip = 118; continue _fun00001 }
+            if(var5) { _fun0001_ip = 118; continue _fun0001 }
  114:
-            report = zuuluu == michal;
+            var5 = var3 == var2;
  118:
-            if(report) { _fun00002_ip = 150; continue _fun00001 }
+            if(var5) { _fun0001_ip = 150; continue _fun0001 }
  121:
-            zuuluu = michal.features;
-            michal = zuuluu.has;
-            entity = _closure1_slot3;
-            entity = entity.MEMBER_VERIFICATION_GATE_ENABLED;
-            entity = michal.bind(zuuluu)(entity);
-            report = !entity;
+            var3 = var2.features;
+            var2 = var3.has;
+            var1 = _closure1_slot3;
+            var1 = var1.MEMBER_VERIFICATION_GATE_ENABLED;
+            var1 = var2.bind(var3)(var1);
+            var5 = !var1;
  150:
-            michal = !report;
-            entity = {};
-            zuuluu = michal;
-            if(report) { _fun00002_ip = 164; continue _fun00001 }
+            var2 = !var5;
+            var1 = {};
+            var3 = var2;
+            if(var5) { _fun0001_ip = 164; continue _fun0001 }
  161:
-            zuuluu = tangon;
+            var3 = var4;
  164:
-            entity['canCreateApplicationBypassInvites'] = zuuluu;
-            entity['isManualApprovalGuild'] = michal;
-            return entity;
+            var1['canCreateApplicationBypassInvites'] = var3;
+            var1['isManualApprovalGuild'] = var2;
+            return var1;
         }
     };
-    zuuluu['useInviteApplicationBypassInfo'] = michal;
-    return entity;
+    var3['useInviteApplicationBypassInfo'] = var2;
+    return var1;
 })();

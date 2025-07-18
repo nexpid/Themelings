@@ -1,116 +1,116 @@
 // app/modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationsTiers.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.SafetyWarningTypes;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationsTiers.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SafetyWarningTypes;
+    var _closure1_slot3 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/self_mod/inappropriate_conversation/hooks/useInappropriateConversationsTiers.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 2;
-            entity = oscard[entity];
-            tangon = undefined;
-            option = report.bind(tangon)(entity);
-            michal = option.useIsEligibleForInappropriateConversationWarning;
-            entity = {};
-            verify = 'context-menu-item';
-            entity['location'] = verify;
-            michal = michal.bind(option)(entity);
-            entity = 3;
-            entity = oscard[entity];
-            yankee = report.bind(tangon)(entity);
-            offset = yankee.useStateFromStores;
-            entity = _closure1_slot2;
-            option = new Array(1);
-            option[0] = entity;
-            entity = function() {
-                michal = _closure1_slot2;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var7 = arg1;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 2;
+            var1 = var6[var1];
+            var4 = undefined;
+            var8 = var5.bind(var4)(var1);
+            var2 = var8.useIsEligibleForInappropriateConversationWarning;
+            var1 = {};
+            var9 = 'context-menu-item';
+            var1['location'] = var9;
+            var2 = var2.bind(var8)(var1);
+            var1 = 3;
+            var1 = var6[var1];
+            var11 = var5.bind(var4)(var1);
+            var10 = var11.useStateFromStores;
+            var1 = _closure1_slot2;
+            var8 = new Array(1);
+            var8[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot2;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            option = offset.bind(yankee)(option, entity);
-            entity = 4;
-            entity = oscard[entity];
-            oscard = report.bind(tangon)(entity);
-            report = oscard.useInappropriateConversationBannerForChannel;
-            entity = golfie.id;
-            report = report.bind(oscard)(entity, verify);
-            oscard = null;
-            entity = oscard == option;
-            verify = undefined;
-            if(entity) { _fun00002_ip = 145; continue _fun00001 }
+            var8 = var10.bind(var11)(var8, var1);
+            var1 = 4;
+            var1 = var6[var1];
+            var6 = var5.bind(var4)(var1);
+            var5 = var6.useInappropriateConversationBannerForChannel;
+            var1 = var7.id;
+            var5 = var5.bind(var6)(var1, var9);
+            var6 = null;
+            var1 = var6 == var8;
+            var9 = undefined;
+            if(var1) { _fun0001_ip = 145; continue _fun0001 }
  135:
-            entity = option.isStaff;
-            verify = entity.bind(option)();
+            var1 = var8.isStaff;
+            var9 = var1.bind(var8)();
  145:
-            option = true;
-            entity = null;
-            if(!(option === verify)) { _fun00002_ip = 244; continue _fun00001 }
+            var8 = true;
+            var1 = null;
+            if(!(var8 === var9)) { _fun0001_ip = 244; continue _fun0001 }
  153:
-            entity = null;
-            if(!michal) { _fun00002_ip = 244; continue _fun00001 }
+            var1 = null;
+            if(!var2) { _fun0001_ip = 244; continue _fun0001 }
  158:
-            michal = golfie.isDM;
-            michal = michal.bind(golfie)();
-            entity = null;
-            if(!michal) { _fun00002_ip = 244; continue _fun00001 }
+            var2 = var7.isDM;
+            var2 = var2.bind(var7)();
+            var1 = null;
+            if(!var2) { _fun0001_ip = 244; continue _fun0001 }
  173:
-            michal = {};
-            golfie = oscard == report;
-            option = undefined;
-            if(golfie) { _fun00002_ip = 189; continue _fun00001 }
+            var2 = {};
+            var7 = var6 == var5;
+            var8 = undefined;
+            if(var7) { _fun0001_ip = 189; continue _fun0001 }
  184:
-            option = report.type;
+            var8 = var5.type;
  189:
-            golfie = _closure1_slot3;
-            golfie = golfie.INAPPROPRIATE_CONVERSATION_TIER_1;
-            golfie = option === golfie;
-            michal['isTier1'] = golfie;
-            oscard = oscard == report;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 222; continue _fun00001 }
+            var7 = _closure1_slot3;
+            var7 = var7.INAPPROPRIATE_CONVERSATION_TIER_1;
+            var7 = var8 === var7;
+            var2['isTier1'] = var7;
+            var6 = var6 == var5;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 222; continue _fun0001 }
  217:
-            tangon = report.type;
+            var4 = var5.type;
  222:
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.INAPPROPRIATE_CONVERSATION_TIER_2;
-            zuuluu = tangon === zuuluu;
-            michal['isTier2'] = zuuluu;
-            entity = michal;
+            var3 = _closure1_slot3;
+            var3 = var3.INAPPROPRIATE_CONVERSATION_TIER_2;
+            var3 = var4 === var3;
+            var2['isTier2'] = var3;
+            var1 = var2;
  244:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useInappropriateConversationsTiers'] = michal;
-    return entity;
+    var3['useInappropriateConversationsTiers'] = var2;
+    return var1;
 })();

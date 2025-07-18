@@ -1,39 +1,39 @@
 // app/modules/messages/SentMessageIntentsHandler.android.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    zuuluu = argFre;
-    michal = global;
-    oscard = michal.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    michal = true;
-    tangon['value'] = michal;
-    michal = '__esModule';
-    michal = report.bind(oscard)(zuuluu, michal, tangon);
-    michal = {};
-    tangon = function() { // Original name: init
-        entity = undefined;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var2 = global;
+    var6 = var2.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var2 = true;
+    var4['value'] = var2;
+    var2 = '__esModule';
+    var2 = var5.bind(var6)(var3, var2, var4);
+    var2 = {};
+    var4 = function init() {
+        var1 = undefined;
+        return var1;
     };
-    michal['init'] = tangon;
-    tangon = function() { // Original name: donateSentMessage
-        entity = undefined;
-        return entity;
+    var2['init'] = var4;
+    var4 = function donateSentMessage() {
+        var1 = undefined;
+        return var1;
     };
-    michal['donateSentMessage'] = tangon;
-    entity = function() { // Original name: deleteAllInteractions
-        entity = undefined;
-        return entity;
+    var2['donateSentMessage'] = var4;
+    var1 = function deleteAllInteractions() {
+        var1 = undefined;
+        return var1;
     };
-    michal['deleteAllInteractions'] = entity;
-    tangon = argPlu;
-    entity = 0;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/SentMessageIntentsHandler.android.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['deleteAllInteractions'] = var1;
+    var4 = native7;
+    var1 = 0;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/SentMessageIntentsHandler.android.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

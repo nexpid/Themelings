@@ -1,125 +1,125 @@
 // app/modules/user_profile/native/UserProfileLegacyUsernameSwitch.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/native/UserProfileLegacyUsernameSwitch.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: UserProfileLegacyUsernameSwitch
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/native/UserProfileLegacyUsernameSwitch.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function UserProfileLegacyUsernameSwitch(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            offset = entity.legacyUsername;
-            michal = entity.pendingLegacyUsernameDisabled;
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
-            zuuluu = 2;
-            zuuluu = tangon[zuuluu];
-            tangon = undefined;
-            zuuluu = oscard.bind(tangon)(zuuluu);
-            oscard = zuuluu.LegacyUsernameDisabled;
-            zuuluu = oscard.useSetting;
-            zuuluu = zuuluu.bind(oscard)();
-            var _closure2_slot0 = zuuluu;
-            oscard = zuuluu;
-            if(!(tangon !== michal)) { _fun00002_ip = 72; continue _fun00001 }
+            var1 = arg1;
+            var10 = var1.legacyUsername;
+            var2 = var1.pendingLegacyUsernameDisabled;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var3 = 2;
+            var3 = var4[var3];
+            var4 = undefined;
+            var3 = var6.bind(var4)(var3);
+            var6 = var3.LegacyUsernameDisabled;
+            var3 = var6.useSetting;
+            var3 = var3.bind(var6)();
+            var _closure2_slot0 = var3;
+            var6 = var3;
+            if(!(var4 !== var2)) { _fun0001_ip = 72; continue _fun0001 }
  69:
-            oscard = michal;
+            var6 = var2;
  72:
-            zuuluu = _closure1_slot2;
-            golfie = _closure1_slot0;
-            yankee = _closure1_slot1;
-            entity = 3;
-            entity = yankee[entity];
-            entity = golfie.bind(tangon)(entity);
-            michal = entity.UserProfileEditFormSwitch;
-            entity = {};
-            oscard = !oscard;
-            entity['value'] = oscard;
-            oscard = 4;
-            option = yankee[oscard];
-            option = golfie.bind(tangon)(option);
-            romeon = option.intl;
-            verify = romeon.string;
-            option = yankee[oscard];
-            option = golfie.bind(tangon)(option);
-            option = option.t;
-            option = option.3cWDuL;
-            option = verify.bind(romeon)(option);
-            entity['label'] = option;
-            option = yankee[oscard];
-            option = golfie.bind(tangon)(option);
-            verify = option.intl;
-            option = verify.formatToPlainString;
-            oscard = yankee[oscard];
-            oscard = golfie.bind(tangon)(oscard);
-            oscard = oscard.t;
-            golfie = oscard.aYhclZ;
-            oscard = {};
-            oscard['username'] = offset;
-            oscard = option.bind(verify)(golfie, oscard);
-            entity['subLabel'] = oscard;
-            report = function(argFoo) { // Original name: onValueChange
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var3 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var1 = 3;
+            var1 = var11[var1];
+            var1 = var7.bind(var4)(var1);
+            var2 = var1.UserProfileEditFormSwitch;
+            var1 = {};
+            var6 = !var6;
+            var1['value'] = var6;
+            var6 = 4;
+            var8 = var11[var6];
+            var8 = var7.bind(var4)(var8);
+            var12 = var8.intl;
+            var9 = var12.string;
+            var8 = var11[var6];
+            var8 = var7.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.3cWDuL;
+            var8 = var9.bind(var12)(var8);
+            var1['label'] = var8;
+            var8 = var11[var6];
+            var8 = var7.bind(var4)(var8);
+            var9 = var8.intl;
+            var8 = var9.formatToPlainString;
+            var6 = var11[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.t;
+            var7 = var6.aYhclZ;
+            var6 = {};
+            var6['username'] = var10;
+            var6 = var8.bind(var9)(var7, var6);
+            var1['subLabel'] = var6;
+            var5 = function onValueChange(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    zuuluu = !entity;
-                    michal = _closure2_slot0;
-                    if(!(zuuluu !== michal)) { _fun00004_ip = 58; continue _fun00003 }
+                    var1 = arg1;
+                    var3 = !var1;
+                    var2 = _closure2_slot0;
+                    if(!(var3 !== var2)) { _fun0002_ip = 58; continue _fun0002 }
  17:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 5;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    michal = zuuluu.setPendingLegacyUsernameDisabled;
-                    entity = !entity;
-                    entity = michal.bind(zuuluu)(entity);
-                    _fun00004_ip = 93; continue _fun00003;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 5;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.setPendingLegacyUsernameDisabled;
+                    var1 = !var1;
+                    var1 = var2.bind(var3)(var1);
+                    _fun0002_ip = 93; continue _fun0002;
  58:
-                    zuuluu = _closure1_slot0;
-                    michal = _closure1_slot1;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.resetPendingLegacyUsernameDisabled;
-                    entity = entity.bind(michal)();
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.resetPendingLegacyUsernameDisabled;
+                    var1 = var1.bind(var2)();
  93:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity['onValueChange'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1['onValueChange'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

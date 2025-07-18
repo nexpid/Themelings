@@ -1,117 +1,117 @@
 // app/modules/forums/native/composer/ForumComposerModalActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 4;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forums/native/composer/ForumComposerModalActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 4;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forums/native/composer/ForumComposerModalActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            tangon = _closure1_slot0;
-            entity = _closure1_slot2;
-            report = 0;
-            michal = entity[report];
-            entity = undefined;
-            golfie = tangon.bind(entity)(michal);
-            tangon = golfie.trackMobileForumComposerOpened;
-            michal = {};
-            option = oscard.guildId;
-            michal['guildId'] = option;
-            option = oscard.parentChannelId;
-            michal['channelId'] = option;
-            option = oscard.analyticsLocationObject;
-            michal['location'] = option;
-            michal = tangon.bind(golfie)(michal);
-            tangon = oscard.isEdit;
-            michal = null;
-            michal = michal != tangon;
-            if(!michal) { _fun00002_ip = 90; continue _fun00001 }
+            var6 = arg1;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var5 = 0;
+            var2 = var1[var5];
+            var1 = undefined;
+            var7 = var4.bind(var1)(var2);
+            var4 = var7.trackMobileForumComposerOpened;
+            var2 = {};
+            var8 = var6.guildId;
+            var2['guildId'] = var8;
+            var8 = var6.parentChannelId;
+            var2['channelId'] = var8;
+            var8 = var6.analyticsLocationObject;
+            var2['location'] = var8;
+            var2 = var4.bind(var7)(var2);
+            var4 = var6.isEdit;
+            var2 = null;
+            var2 = var2 != var4;
+            if(!var2) { _fun0001_ip = 90; continue _fun0001 }
  84:
-            michal = oscard.isEdit;
+            var2 = var6.isEdit;
  90:
-            if(michal) { _fun00002_ip = 142; continue _fun00001 }
+            if(var2) { _fun0001_ip = 142; continue _fun0001 }
  93:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[report];
-            report = tangon.bind(entity)(michal);
-            tangon = report.trackForumCreateNewPostStarted;
-            michal = {};
-            golfie = oscard.guildId;
-            michal['guildId'] = golfie;
-            golfie = oscard.parentChannelId;
-            michal['channelId'] = golfie;
-            michal = tangon.bind(report)(michal);
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var5];
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.trackForumCreateNewPostStarted;
+            var2 = {};
+            var7 = var6.guildId;
+            var2['guildId'] = var7;
+            var7 = var6.parentChannelId;
+            var2['channelId'] = var7;
+            var2 = var4.bind(var5)(var2);
  142:
-            report = _closure1_slot1;
-            michal = _closure1_slot2;
-            tangon = 1;
-            tangon = michal[tangon];
-            report = report.bind(entity)(tangon);
-            tangon = report.pushLazy;
-            golfie = _closure1_slot0;
-            zuuluu = 3;
-            zuuluu = michal[zuuluu];
-            golfie = golfie.bind(entity)(zuuluu);
-            zuuluu = 2;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            zuuluu = golfie.bind(entity)(zuuluu, michal);
-            michal = 'create-forum-post';
-            michal = tangon.bind(report)(zuuluu, oscard, michal);
-            return entity;
+            var5 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var4 = 1;
+            var4 = var2[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.pushLazy;
+            var7 = _closure1_slot0;
+            var3 = 3;
+            var3 = var2[var3];
+            var7 = var7.bind(var1)(var3);
+            var3 = 2;
+            var3 = var2[var3];
+            var2 = var2.paths;
+            var3 = var7.bind(var1)(var3, var2);
+            var2 = 'create-forum-post';
+            var2 = var4.bind(var5)(var3, var6, var2);
+            return var1;
         }
     };
-    zuuluu['openCreateForumPostModal'] = tangon;
-    michal = function() {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['openCreateForumPostModal'] = var4;
+    var2 = function() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = arguments[0];
-            entity = undefined;
-            if(!(michal === entity)) { _fun00004_ip = 11; continue _fun00003 }
+            var2 = arguments[0];
+            var1 = undefined;
+            if(!(var2 === var1)) { _fun0002_ip = 11; continue _fun0002 }
  9:
-            michal = false;
+            var2 = false;
  11:
-            if(michal) { _fun00004_ip = 46; continue _fun00003 }
+            if(var2) { _fun0002_ip = 46; continue _fun0002 }
  14:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 0;
-            michal = tangon[michal];
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.trackMobileForumComposerDismissed;
-            michal = michal.bind(zuuluu)();
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 0;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.trackMobileForumComposerDismissed;
+            var2 = var2.bind(var3)();
  46:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 1;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.popWithKey;
-            michal = 'create-forum-post';
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 1;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.popWithKey;
+            var2 = 'create-forum-post';
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    zuuluu['closeCreateForumPostModal'] = michal;
-    return entity;
+    var3['closeCreateForumPostModal'] = var2;
+    return var1;
 })();

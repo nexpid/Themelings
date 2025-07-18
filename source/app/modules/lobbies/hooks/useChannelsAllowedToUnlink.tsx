@@ -1,120 +1,120 @@
 // app/modules/lobbies/hooks/useChannelsAllowedToUnlink.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo) { // Original name: getChannelsAllowedToUnlink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function getChannelsAllowedToUnlink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = arguments[1];
-            michal = arguments[2];
-            report = undefined;
-            if(!(zuuluu === report)) { _fun00002_ip = 24; continue _fun00001 }
+            var4 = arg1;
+            var3 = arguments[1];
+            var2 = arguments[2];
+            var5 = undefined;
+            if(!(var3 === var5)) { _fun0001_ip = 24; continue _fun0001 }
  17:
-            zuuluu = _closure1_slot2;
+            var3 = _closure1_slot2;
  24:
-            if(!(michal === report)) { _fun00002_ip = 35; continue _fun00001 }
+            if(!(var2 === var5)) { _fun0001_ip = 35; continue _fun0001 }
  28:
-            michal = _closure1_slot4;
+            var2 = _closure1_slot4;
  35:
-            var _closure2_slot0 = michal;
-            michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 103; continue _fun00001 }
+            var _closure2_slot0 = var2;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 103; continue _fun0001 }
  45:
-            michal = zuuluu.getChannels;
-            zuuluu = michal.bind(zuuluu)(tangon);
-            michal = _closure1_slot3;
-            tangon = zuuluu[michal];
-            zuuluu = tangon.filter;
-            michal = function(argFoo) {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 2;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.canUnlinkLobbyChannel;
-                entity = argFoo;
-                michal = entity.channel;
-                entity = _closure2_slot0;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2 = var3.getChannels;
+            var3 = var2.bind(var3)(var4);
+            var2 = _closure1_slot3;
+            var4 = var3[var2];
+            var3 = var4.filter;
+            var2 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.canUnlinkLobbyChannel;
+                var1 = arg1;
+                var2 = var1.channel;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.map;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.channel;
-                return entity;
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.map;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.channel;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 107; continue _fun00001;
+            var1 = var2.bind(var3)(var1);
+            _fun0001_ip = 107; continue _fun0001;
  103:
-            entity = new Array(0);
+            var1 = new Array(0);
  107:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    report = 0;
-    verify = golfie[report];
-    entity = undefined;
-    verify = option.bind(entity)(verify);
-    var _closure1_slot2 = verify;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.GUILD_SELECTABLE_CHANNELS_KEY;
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/lobbies/hooks/useChannelsAllowedToUnlink.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getChannelsAllowedToUnlink'] = tangon;
-    michal = function(argFoo) { // Original name: useChannelsAllowedToUnlink
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 3;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStoresArray;
-        oscard = _closure1_slot4;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot2;
-        michal[1] = report;
-        entity = function() {
-            report = _closure1_slot5;
-            tangon = _closure2_slot0;
-            zuuluu = _closure1_slot2;
-            michal = _closure1_slot4;
-            entity = undefined;
-            entity = report.bind(entity)(tangon, zuuluu, michal);
-            return entity;
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var5 = 0;
+    var9 = var7[var5];
+    var1 = undefined;
+    var9 = var8.bind(var1)(var9);
+    var _closure1_slot2 = var9;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.GUILD_SELECTABLE_CHANNELS_KEY;
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/lobbies/hooks/useChannelsAllowedToUnlink.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getChannelsAllowedToUnlink'] = var4;
+    var2 = function useChannelsAllowedToUnlink(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 3;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStoresArray;
+        var6 = _closure1_slot4;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot2;
+        var2[1] = var5;
+        var1 = function() {
+            var5 = _closure1_slot5;
+            var4 = _closure2_slot0;
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot4;
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4, var3, var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useChannelsAllowedToUnlink'] = michal;
-    return entity;
+    var3['useChannelsAllowedToUnlink'] = var2;
+    return var1;
 })();

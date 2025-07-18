@@ -1,245 +1,245 @@
 // discord_common/js/packages/media-engine/utils/VideoCodecUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        entity = function(argFoo, argBar) { // Original name: filterVideoCodecsInternal
-            tangon = argBar;
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            zuuluu = tangon.concat;
-            entity = _closure1_slot0;
-            tangon = zuuluu.bind(tangon)(entity);
-            entity = new Array(0);
-            var _closure2_slot1 = entity;
-            zuuluu = tangon.forEach;
-            michal = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var1 = function filterVideoCodecsInternal(arg1, arg2) {
+            var4 = arg2;
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var3 = var4.concat;
+            var1 = _closure1_slot0;
+            var4 = var3.bind(var4)(var1);
+            var1 = new Array(0);
+            var _closure2_slot1 = var1;
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    report = argFoo;
-                    var _closure3_slot0 = report;
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.find;
-                    michal = function(argFoo) {
-                        entity = _closure3_slot0;
-                        michal = entity.name;
-                        entity = argFoo;
-                        entity = entity.codec;
-                        entity = michal === entity;
-                        return entity;
+                    var5 = arg1;
+                    var _closure3_slot0 = var5;
+                    var4 = _closure2_slot0;
+                    var3 = var4.find;
+                    var2 = function(arg1) {
+                        var1 = _closure3_slot0;
+                        var2 = var1.name;
+                        var1 = arg1;
+                        var1 = var1.codec;
+                        var1 = var2 === var1;
+                        return var1;
                     };
-                    tangon = zuuluu.bind(tangon)(michal);
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00004_ip = 103; continue _fun00003 }
+                    var4 = var3.bind(var4)(var2);
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0002_ip = 103; continue _fun0002 }
  37:
-                    zuuluu = _closure2_slot1;
-                    michal = zuuluu.push;
-                    entity = {};
-                    oscard = tangon.codec;
-                    entity['name'] = oscard;
-                    oscard = tangon.encode;
-                    if(!oscard) { _fun00004_ip = 73; continue _fun00003 }
+                    var3 = _closure2_slot1;
+                    var2 = var3.push;
+                    var1 = {};
+                    var6 = var4.codec;
+                    var1['name'] = var6;
+                    var6 = var4.encode;
+                    if(!var6) { _fun0002_ip = 73; continue _fun0002 }
  67:
-                    oscard = report.encode;
+                    var6 = var5.encode;
  73:
-                    entity['encode'] = oscard;
-                    tangon = tangon.decode;
-                    if(!tangon) { _fun00004_ip = 93; continue _fun00003 }
+                    var1['encode'] = var6;
+                    var4 = var4.decode;
+                    if(!var4) { _fun0002_ip = 93; continue _fun0002 }
  87:
-                    tangon = report.decode;
+                    var4 = var5.decode;
  93:
-                    entity['decode'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
+                    var1['decode'] = var4;
+                    var1 = var2.bind(var3)(var1);
  103:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        var _closure1_slot1 = entity;
-        entity = function(argFoo) { // Original name: codecNameFromPayloadName
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure1_slot1 = var1;
+        var1 = function codecNameFromPayloadName(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = argFoo;
-                entity = 'AV1';
-                zuuluu = 'AV1X';
-                if(!(zuuluu !== michal)) { _fun00006_ip = 20; continue _fun00005 }
+                var2 = arg1;
+                var1 = 'AV1';
+                var3 = 'AV1X';
+                if(!(var3 !== var2)) { _fun0003_ip = 20; continue _fun0003 }
  17:
-                entity = michal;
+                var1 = var2;
  20:
-                return entity;
+                return var1;
             }
         };
-        var _closure1_slot2 = entity;
-        verify = global;
-        option = verify.Object;
-        golfie = option.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, tangon);
-        entity = 0;
-        tangon = oscard[entity];
-        entity = undefined;
-        tangon = report.bind(entity)(tangon);
-        romeon = tangon.DARWIN_H265_VERSION;
-        tangon = tangon.ExperimentFlags;
-        golfie = {'name': 'H265', 'encode': null, 'decode': true};
-        tangon = verify.window;
-        option = 'undefined';
-        tangon = typeof tangon;
-        tangon = option === tangon;
-        if(tangon) { _fun00002_ip = 173; continue _fun00001 }
+        var _closure1_slot2 = var1;
+        var9 = global;
+        var8 = var9.Object;
+        var7 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var4);
+        var1 = 0;
+        var4 = var6[var1];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var4);
+        var12 = var4.DARWIN_H265_VERSION;
+        var4 = var4.ExperimentFlags;
+        var7 = {'name': 'H265', 'encode': null, 'decode': true};
+        var4 = var9.window;
+        var8 = 'undefined';
+        var4 = typeof var4;
+        var4 = var8 === var4;
+        if(var4) { _fun0001_ip = 173; continue _fun0001 }
  119:
-        option = verify.window;
-        yankee = null;
-        foxtra = yankee == option;
-        offset = undefined;
-        if(foxtra) { _fun00002_ip = 163; continue _fun00001 }
+        var8 = var9.window;
+        var11 = null;
+        var13 = var11 == var8;
+        var10 = undefined;
+        if(var13) { _fun0001_ip = 163; continue _fun0001 }
  136:
-        option = option.DiscordNative;
-        yankee = yankee == option;
-        offset = undefined;
-        if(yankee) { _fun00002_ip = 163; continue _fun00001 }
+        var8 = var8.DiscordNative;
+        var11 = var11 == var8;
+        var10 = undefined;
+        if(var11) { _fun0001_ip = 163; continue _fun0001 }
  151:
-        option = option.process;
-        offset = option.platform;
+        var8 = var8.process;
+        var10 = var8.platform;
  163:
-        option = 'darwin';
-        tangon = option !== offset;
+        var8 = 'darwin';
+        var4 = var8 !== var10;
  173:
-        if(tangon) { _fun00002_ip = 308; continue _fun00001 }
+        if(var4) { _fun0001_ip = 308; continue _fun0001 }
  179:
-        option = verify.window;
-        backup = null;
-        yankee = backup == option;
-        offset = undefined;
-        if(yankee) { _fun00002_ip = 223; continue _fun00001 }
+        var8 = var9.window;
+        var14 = null;
+        var11 = var14 == var8;
+        var10 = undefined;
+        if(var11) { _fun0001_ip = 223; continue _fun0001 }
  196:
-        option = option.DiscordNative;
-        yankee = backup == option;
-        offset = undefined;
-        if(yankee) { _fun00002_ip = 223; continue _fun00001 }
+        var8 = var8.DiscordNative;
+        var11 = var14 == var8;
+        var10 = undefined;
+        if(var11) { _fun0001_ip = 223; continue _fun0001 }
  211:
-        option = option.os;
-        offset = option.arch;
+        var8 = var8.os;
+        var10 = var8.arch;
  223:
-        option = 'arm64';
-        option = option === offset;
-        if(!option) { _fun00002_ip = 305; continue _fun00001 }
+        var8 = 'arm64';
+        var8 = var8 === var10;
+        if(!var8) { _fun0001_ip = 305; continue _fun0001 }
  236:
-        offset = 1;
-        yankee = oscard[offset];
-        offset = argBaz;
-        yankee = offset.bind(entity)(yankee);
-        offset = yankee.satisfies;
-        foxtra = verify.window;
-        kiloes = backup == foxtra;
-        verify = undefined;
-        if(kiloes) { _fun00002_ip = 299; continue _fun00001 }
+        var10 = 1;
+        var11 = var6[var10];
+        var10 = native3;
+        var11 = var10.bind(var1)(var11);
+        var10 = var11.satisfies;
+        var13 = var9.window;
+        var15 = var14 == var13;
+        var9 = undefined;
+        if(var15) { _fun0001_ip = 299; continue _fun0001 }
  272:
-        foxtra = foxtra.DiscordNative;
-        backup = backup == foxtra;
-        verify = undefined;
-        if(backup) { _fun00002_ip = 299; continue _fun00001 }
+        var13 = var13.DiscordNative;
+        var14 = var14 == var13;
+        var9 = undefined;
+        if(var14) { _fun0001_ip = 299; continue _fun0001 }
  287:
-        foxtra = foxtra.os;
-        verify = foxtra.release;
+        var13 = var13.os;
+        var9 = var13.release;
  299:
-        option = offset.bind(yankee)(verify, romeon);
+        var8 = var10.bind(var11)(var9, var12);
  305:
-        tangon = option;
+        var4 = var8;
  308:
-        golfie['encode'] = tangon;
-        tangon = new Array(4);
-        tangon[0] = golfie;
-        golfie = {'name': 'H264', 'encode': true, 'decode': true};
-        tangon[1] = golfie;
-        golfie = {'name': 'VP8', 'encode': true, 'decode': true};
-        tangon[2] = golfie;
-        golfie = {'name': 'VP9', 'encode': true, 'decode': true};
-        tangon[3] = golfie;
-        var _closure1_slot0 = tangon;
-        tangon = 2;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = '../discord_common/js/packages/media-engine/utils/VideoCodecUtils.tsx';
-        tangon = report.bind(oscard)(tangon);
-        tangon = function() { // Original name: getExperimentCodecs
-            entity = new Array(0);
-            return entity;
+        var7['encode'] = var4;
+        var4 = new Array(4);
+        var4[0] = var7;
+        var7 = {'name': 'H264', 'encode': true, 'decode': true};
+        var4[1] = var7;
+        var7 = {'name': 'VP8', 'encode': true, 'decode': true};
+        var4[2] = var7;
+        var7 = {'name': 'VP9', 'encode': true, 'decode': true};
+        var4[3] = var7;
+        var _closure1_slot0 = var4;
+        var4 = 2;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = '../discord_common/js/packages/media-engine/utils/VideoCodecUtils.tsx';
+        var4 = var5.bind(var6)(var4);
+        var4 = function getExperimentCodecs() {
+            var1 = new Array(0);
+            return var1;
         };
-        zuuluu['getExperimentCodecs'] = tangon;
-        tangon = function(argFoo, argBar) { // Original name: filterVideoCodecs
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var3['getExperimentCodecs'] = var4;
+        var4 = function filterVideoCodecs(arg1, arg2) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                oscard = argFoo;
-                tangon = _closure1_slot1;
-                zuuluu = 'string';
-                michal = typeof oscard;
-                if(!(zuuluu !== michal)) { _fun00008_ip = 40; continue _fun00007 }
+                var6 = arg1;
+                var4 = _closure1_slot1;
+                var3 = 'string';
+                var2 = typeof var6;
+                if(!(var3 !== var2)) { _fun0004_ip = 40; continue _fun0004 }
  23:
-                zuuluu = oscard.map;
-                michal = function(argFoo) {
-                    entity = {'codec': null, 'encode': true, 'decode': true};
-                    tangon = _closure1_slot2;
-                    zuuluu = undefined;
-                    michal = argFoo;
-                    michal = tangon.bind(zuuluu)(michal);
-                    entity['codec'] = michal;
-                    return entity;
+                var3 = var6.map;
+                var2 = function(arg1) {
+                    var1 = {'codec': null, 'encode': true, 'decode': true};
+                    var4 = _closure1_slot2;
+                    var3 = undefined;
+                    var2 = arg1;
+                    var2 = var4.bind(var3)(var2);
+                    var1['codec'] = var2;
+                    return var1;
                 };
-                zuuluu = zuuluu.bind(oscard)(michal);
-                _fun00008_ip = 74; continue _fun00007;
+                var3 = var3.bind(var6)(var2);
+                _fun0004_ip = 74; continue _fun0004;
  40:
-                michal = global;
-                report = michal.JSON;
-                michal = report.parse;
-                report = michal.bind(report)(oscard);
-                michal = report.map;
-                entity = function(argFoo) {
-                    michal = argFoo;
-                    entity = {};
-                    report = _closure1_slot2;
-                    tangon = michal.codec;
-                    zuuluu = undefined;
-                    zuuluu = report.bind(zuuluu)(tangon);
-                    entity['codec'] = zuuluu;
-                    zuuluu = michal.encode;
-                    entity['encode'] = zuuluu;
-                    michal = michal.decode;
-                    entity['decode'] = michal;
-                    return entity;
+                var2 = global;
+                var5 = var2.JSON;
+                var2 = var5.parse;
+                var5 = var2.bind(var5)(var6);
+                var2 = var5.map;
+                var1 = function(arg1) {
+                    var2 = arg1;
+                    var1 = {};
+                    var5 = _closure1_slot2;
+                    var4 = var2.codec;
+                    var3 = undefined;
+                    var3 = var5.bind(var3)(var4);
+                    var1['codec'] = var3;
+                    var3 = var2.encode;
+                    var1['encode'] = var3;
+                    var2 = var2.decode;
+                    var1['decode'] = var2;
+                    return var1;
                 };
-                zuuluu = michal.bind(report)(entity);
+                var3 = var2.bind(var5)(var1);
  74:
-                michal = undefined;
-                entity = argBar;
-                entity = tangon.bind(michal)(zuuluu, entity);
-                return entity;
+                var2 = undefined;
+                var1 = arg2;
+                var1 = var4.bind(var2)(var3, var1);
+                return var1;
             }
         };
-        zuuluu['filterVideoCodecs'] = tangon;
-        michal = function(argFoo) { // Original name: codecNameToPayloadName
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var3['filterVideoCodecs'] = var4;
+        var2 = function codecNameToPayloadName(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                michal = argFoo;
-                entity = 'AV1X';
-                zuuluu = 'AV1';
-                if(!(zuuluu !== michal)) { _fun00010_ip = 20; continue _fun00009 }
+                var2 = arg1;
+                var1 = 'AV1X';
+                var3 = 'AV1';
+                if(!(var3 !== var2)) { _fun0005_ip = 20; continue _fun0005 }
  17:
-                entity = michal;
+                var1 = var2;
  20:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['codecNameToPayloadName'] = michal;
-        return entity;
+        var3['codecNameToPayloadName'] = var2;
+        return var1;
     }
 })();

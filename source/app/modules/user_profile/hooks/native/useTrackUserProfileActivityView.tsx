@@ -1,113 +1,113 @@
 // app/modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.useEffect;
-    var _closure1_slot3 = option;
-    tangon = tangon.useState;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useTrackUserProfileActivityView
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.useEffect;
+    var _closure1_slot3 = var8;
+    var4 = var4.useState;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useTrackUserProfileActivityView(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.userId;
-            var _closure2_slot0 = zuuluu;
-            report = entity.onAction;
-            var _closure2_slot1 = report;
-            entity = undefined;
-            var _closure2_slot3 = entity;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            tangon = 3;
-            tangon = golfie[tangon];
-            option = oscard.bind(entity)(tangon);
-            golfie = option.useStateFromStores;
-            tangon = _closure1_slot5;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.isFetchingUserOutbox;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1 = arg1;
+            var3 = var1.userId;
+            var _closure2_slot0 = var3;
+            var5 = var1.onAction;
+            var _closure2_slot1 = var5;
+            var1 = undefined;
+            var _closure2_slot3 = var1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var4 = 3;
+            var4 = var7[var4];
+            var8 = var6.bind(var1)(var4);
+            var7 = var8.useStateFromStores;
+            var4 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.isFetchingUserOutbox;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = golfie.bind(option)(oscard, tangon);
-            golfie = _closure1_slot4;
-            tangon = false;
-            option = golfie.bind(entity)(tangon);
-            golfie = _closure1_slot2;
-            tangon = 2;
-            option = golfie.bind(entity)(option, tangon);
-            tangon = 0;
-            tangon = option[tangon];
-            golfie = 1;
-            golfie = option[golfie];
-            var _closure2_slot2 = golfie;
-            oscard = !oscard;
-            if(!oscard) { _fun00002_ip = 131; continue _fun00001 }
+            var6 = var7.bind(var8)(var6, var4);
+            var7 = _closure1_slot4;
+            var4 = false;
+            var8 = var7.bind(var1)(var4);
+            var7 = _closure1_slot2;
+            var4 = 2;
+            var8 = var7.bind(var1)(var8, var4);
+            var4 = 0;
+            var4 = var8[var4];
+            var7 = 1;
+            var7 = var8[var7];
+            var _closure2_slot2 = var7;
+            var6 = !var6;
+            if(!var6) { _fun0001_ip = 131; continue _fun0001 }
  128:
-            oscard = !tangon;
+            var6 = !var4;
  131:
-            _closure2_slot3 = oscard;
-            tangon = _closure1_slot3;
-            zuuluu = new Array(2);
-            zuuluu[0] = oscard;
-            zuuluu[1] = report;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _closure2_slot3 = var6;
+            var4 = _closure1_slot3;
+            var3 = new Array(2);
+            var3[0] = var6;
+            var3[1] = var5;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot3;
-                    if(!michal) { _fun00004_ip = 44; continue _fun00003 }
+                    var2 = _closure2_slot3;
+                    if(!var2) { _fun0002_ip = 44; continue _fun0002 }
  10:
-                    tangon = _closure2_slot1;
-                    michal = {};
-                    zuuluu = 'VIEW_ACTIVITY_CARD';
-                    michal['action'] = zuuluu;
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = _closure2_slot2;
-                    entity = true;
-                    entity = michal.bind(zuuluu)(entity);
+                    var4 = _closure2_slot1;
+                    var2 = {};
+                    var3 = 'VIEW_ACTIVITY_CARD';
+                    var2['action'] = var3;
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var2 = _closure2_slot2;
+                    var1 = true;
+                    var1 = var2.bind(var3)(var1);
  44:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = tangon.bind(entity)(michal, zuuluu);
-            return entity;
+            var2 = var4.bind(var1)(var2, var3);
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

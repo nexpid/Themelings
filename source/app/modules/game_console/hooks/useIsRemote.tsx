@@ -1,62 +1,62 @@
 // app/modules/game_console/hooks/useIsRemote.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_console/hooks/useIsRemote.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useIsRemote
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 1;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        entity = _closure1_slot2;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/game_console/hooks/useIsRemote.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsRemote() {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 1;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var1 = _closure1_slot2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot2;
-                entity = zuuluu.getRemoteSessionId;
-                entity = entity.bind(zuuluu)();
-                zuuluu = null;
-                entity = zuuluu != entity;
-                if(entity) { _fun00002_ip = 44; continue _fun00001 }
+                var3 = _closure1_slot2;
+                var1 = var3.getRemoteSessionId;
+                var1 = var1.bind(var3)();
+                var3 = null;
+                var1 = var3 != var1;
+                if(var1) { _fun0001_ip = 44; continue _fun0001 }
  26:
-                tangon = _closure1_slot2;
-                michal = tangon.getAwaitingRemoteSessionInfo;
-                michal = michal.bind(tangon)();
-                entity = zuuluu != michal;
+                var4 = _closure1_slot2;
+                var2 = var4.getAwaitingRemoteSessionInfo;
+                var2 = var2.bind(var4)();
+                var1 = var3 != var2;
  44:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

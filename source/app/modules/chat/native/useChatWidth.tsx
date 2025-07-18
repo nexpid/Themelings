@@ -1,109 +1,109 @@
 // app/modules/chat/native/useChatWidth.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 3;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/chat/native/useChatWidth.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: useChatWidth
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 3;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/chat/native/useChatWidth.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useChatWidth(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            tangon = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 0;
-            zuuluu = option[michal];
-            golfie = undefined;
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.bind(golfie)();
-            report = zuuluu.isChatLockedOpen;
-            zuuluu = 1;
-            zuuluu = option[zuuluu];
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            zuuluu = zuuluu.bind(golfie)();
-            tangon = zuuluu.width;
-            zuuluu = _closure1_slot0;
-            entity = 2;
-            entity = option[entity];
-            zuuluu = zuuluu.bind(golfie)(entity);
-            entity = zuuluu.useDrawerWidth;
-            zuuluu = entity.bind(zuuluu)();
-            entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 97; continue _fun00001 }
+            var6 = arg1;
+            var4 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var2 = 0;
+            var3 = var8[var2];
+            var7 = undefined;
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.bind(var7)();
+            var5 = var3.isChatLockedOpen;
+            var3 = 1;
+            var3 = var8[var3];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.bind(var7)();
+            var4 = var3.width;
+            var3 = _closure1_slot0;
+            var1 = 2;
+            var1 = var8[var1];
+            var3 = var3.bind(var7)(var1);
+            var1 = var3.useDrawerWidth;
+            var3 = var1.bind(var3)();
+            var1 = null;
+            if(!(var1 != var6)) { _fun0001_ip = 97; continue _fun0001 }
  90:
-            entity = tangon;
-            if(!(michal === oscard)) { _fun00002_ip = 110; continue _fun00001 }
+            var1 = var4;
+            if(!(var2 === var6)) { _fun0001_ip = 110; continue _fun0001 }
  97:
-            michal = tangon;
-            if(!report) { _fun00002_ip = 107; continue _fun00001 }
+            var2 = var4;
+            if(!var5) { _fun0001_ip = 107; continue _fun0001 }
  103:
-            michal = tangon - zuuluu;
+            var2 = var4 - var3;
  107:
-            entity = michal;
+            var1 = var2;
  110:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: getChatWidth
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var2 = function getChatWidth(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            tangon = _closure1_slot0;
-            option = _closure1_slot2;
-            michal = 0;
-            entity = option[michal];
-            oscard = undefined;
-            report = tangon.bind(oscard)(entity);
-            entity = report.getChatLayout;
-            entity = entity.bind(report)();
-            report = entity.isChatLockedOpen;
-            entity = 1;
-            entity = option[entity];
-            tangon = tangon.bind(oscard)(entity);
-            entity = tangon.getAppContainerDimensions;
-            entity = entity.bind(tangon)();
-            tangon = entity.width;
-            entity = null;
-            if(!(entity != golfie)) { _fun00004_ip = 83; continue _fun00003 }
+            var7 = arg1;
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 0;
+            var1 = var8[var2];
+            var6 = undefined;
+            var5 = var4.bind(var6)(var1);
+            var1 = var5.getChatLayout;
+            var1 = var1.bind(var5)();
+            var5 = var1.isChatLockedOpen;
+            var1 = 1;
+            var1 = var8[var1];
+            var4 = var4.bind(var6)(var1);
+            var1 = var4.getAppContainerDimensions;
+            var1 = var1.bind(var4)();
+            var4 = var1.width;
+            var1 = null;
+            if(!(var1 != var7)) { _fun0002_ip = 83; continue _fun0002 }
  76:
-            entity = tangon;
-            if(!(michal === golfie)) { _fun00004_ip = 126; continue _fun00003 }
+            var1 = var4;
+            if(!(var2 === var7)) { _fun0002_ip = 126; continue _fun0002 }
  83:
-            michal = tangon;
-            if(!report) { _fun00004_ip = 123; continue _fun00003 }
+            var2 = var4;
+            if(!var5) { _fun0002_ip = 123; continue _fun0002 }
  89:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = golfie[zuuluu];
-            report = report.bind(oscard)(zuuluu);
-            zuuluu = report.getDrawerWidth;
-            zuuluu = zuuluu.bind(report)();
-            michal = tangon - zuuluu;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 2;
+            var3 = var7[var3];
+            var5 = var5.bind(var6)(var3);
+            var3 = var5.getDrawerWidth;
+            var3 = var3.bind(var5)();
+            var2 = var4 - var3;
  123:
-            entity = michal;
+            var1 = var2;
  126:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getChatWidth'] = michal;
-    return entity;
+    var3['getChatWidth'] = var2;
+    return var1;
 })();

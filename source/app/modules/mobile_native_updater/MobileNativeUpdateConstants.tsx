@@ -1,157 +1,157 @@
 // app/modules/mobile_native_updater/MobileNativeUpdateConstants.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    verify = report.bind(entity)(tangon);
-    option = verify.duration;
-    report = 6;
-    tangon = 'hours';
-    tangon = option.bind(verify)(report, tangon);
-    michal = function() { // Original name: currentUpdateConfig
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.duration;
+    var5 = 6;
+    var4 = 'hours';
+    var4 = var8.bind(var9)(var5, var4);
+    var2 = function currentUpdateConfig() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = global;
-            entity = tangon.process;
-            entity = entity.env;
-            zuuluu = entity.INTERNAL_UPDATE_URL;
-            michal = null;
-            entity = undefined;
-            report = null;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 180; continue _fun00001 }
+            var4 = global;
+            var1 = var4.process;
+            var1 = var1.env;
+            var3 = var1.INTERNAL_UPDATE_URL;
+            var2 = null;
+            var1 = undefined;
+            var5 = null;
+            if(!(var1 !== var3)) { _fun0001_ip = 180; continue _fun0001 }
  33:
-            zuuluu = tangon.process;
-            zuuluu = zuuluu.env;
-            oscard = zuuluu.INTERNAL_UPDATE_URL;
-            zuuluu = '';
-            report = null;
-            if(!(zuuluu !== oscard)) { _fun00002_ip = 180; continue _fun00001 }
+            var3 = var4.process;
+            var3 = var3.env;
+            var6 = var3.INTERNAL_UPDATE_URL;
+            var3 = '';
+            var5 = null;
+            if(!(var3 !== var6)) { _fun0001_ip = 180; continue _fun0001 }
  61:
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            option = 1;
-            zuuluu = zuuluu[option];
-            golfie = golfie.bind(entity)(zuuluu);
-            zuuluu = golfie.isIOS;
-            zuuluu = zuuluu.bind(golfie)();
-            if(zuuluu) { _fun00002_ip = 128; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var8 = 1;
+            var3 = var3[var8];
+            var7 = var7.bind(var1)(var3);
+            var3 = var7.isIOS;
+            var3 = var3.bind(var7)();
+            if(var3) { _fun0001_ip = 128; continue _fun0001 }
  97:
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[option];
-            golfie = golfie.bind(entity)(zuuluu);
-            zuuluu = golfie.isAndroid;
-            golfie = zuuluu.bind(golfie)();
-            zuuluu = null;
-            if(!golfie) { _fun00002_ip = 177; continue _fun00001 }
+            var7 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var7 = var7.bind(var1)(var3);
+            var3 = var7.isAndroid;
+            var7 = var3.bind(var7)();
+            var3 = null;
+            if(!var7) { _fun0001_ip = 177; continue _fun0001 }
  128:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            oscard = 2;
-            oscard = option[oscard];
-            option = golfie.bind(entity)(oscard);
-            golfie = option.toURLSafe;
-            oscard = tangon.process;
-            oscard = oscard.env;
-            oscard = oscard.INTERNAL_UPDATE_URL;
-            zuuluu = golfie.bind(option)(oscard);
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var6 = 2;
+            var6 = var8[var6];
+            var8 = var7.bind(var1)(var6);
+            var7 = var8.toURLSafe;
+            var6 = var4.process;
+            var6 = var6.env;
+            var6 = var6.INTERNAL_UPDATE_URL;
+            var3 = var7.bind(var8)(var6);
  177:
-            report = zuuluu;
+            var5 = var3;
  180:
-            option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            golfie = 3;
-            oscard = oscard[golfie];
-            option = option.bind(entity)(oscard);
-            oscard = option.getConstants;
-            verify = oscard.bind(option)();
-            option = tangon.parseInt;
-            offset = michal == verify;
-            oscard = undefined;
-            if(offset) { _fun00002_ip = 234; continue _fun00001 }
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var7 = 3;
+            var6 = var6[var7];
+            var8 = var8.bind(var1)(var6);
+            var6 = var8.getConstants;
+            var9 = var6.bind(var8)();
+            var8 = var4.parseInt;
+            var10 = var2 == var9;
+            var6 = undefined;
+            if(var10) { _fun0001_ip = 234; continue _fun0001 }
  228:
-            oscard = verify.Build;
+            var6 = var9.Build;
  234:
-            oscard = option.bind(entity)(oscard);
-            option = tangon.Number;
-            tangon = option.isNaN;
-            option = tangon.bind(option)(oscard);
-            tangon = null;
-            if(option) { _fun00002_ip = 296; continue _fun00001 }
+            var6 = var8.bind(var1)(var6);
+            var8 = var4.Number;
+            var4 = var8.isNaN;
+            var8 = var4.bind(var8)(var6);
+            var4 = null;
+            if(var8) { _fun0001_ip = 296; continue _fun0001 }
  261:
-            option = 0;
-            tangon = null;
-            if(!(option !== oscard)) { _fun00002_ip = 296; continue _fun00001 }
+            var8 = 0;
+            var4 = null;
+            if(!(var8 !== var6)) { _fun0001_ip = 296; continue _fun0001 }
  269:
-            option = 123456;
-            tangon = null;
-            if(!(option !== oscard)) { _fun00002_ip = 296; continue _fun00001 }
+            var8 = 123456;
+            var4 = null;
+            if(!(var8 !== var6)) { _fun0001_ip = 296; continue _fun0001 }
  281:
-            option = 1234567890;
-            tangon = null;
-            if(!(option !== oscard)) { _fun00002_ip = 296; continue _fun00001 }
+            var8 = 1234567890;
+            var4 = null;
+            if(!(var8 !== var6)) { _fun0001_ip = 296; continue _fun0001 }
  293:
-            tangon = oscard;
+            var4 = var6;
  296:
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[golfie];
-            oscard = oscard.bind(entity)(zuuluu);
-            zuuluu = oscard.getConstants;
-            zuuluu = zuuluu.bind(oscard)();
-            oscard = michal == zuuluu;
-            entity = undefined;
-            if(oscard) { _fun00002_ip = 338; continue _fun00001 }
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var7];
+            var6 = var6.bind(var1)(var3);
+            var3 = var6.getConstants;
+            var3 = var3.bind(var6)();
+            var6 = var2 == var3;
+            var1 = undefined;
+            if(var6) { _fun0001_ip = 338; continue _fun0001 }
  332:
-            entity = zuuluu.Version;
+            var1 = var3.Version;
  338:
-            oscard = michal != entity;
-            zuuluu = null;
-            if(!oscard) { _fun00002_ip = 350; continue _fun00001 }
+            var6 = var2 != var1;
+            var3 = null;
+            if(!var6) { _fun0001_ip = 350; continue _fun0001 }
  347:
-            zuuluu = entity;
+            var3 = var1;
  350:
-            entity = null;
-            if(!(michal !== report)) { _fun00002_ip = 387; continue _fun00001 }
+            var1 = null;
+            if(!(var2 !== var5)) { _fun0001_ip = 387; continue _fun0001 }
  356:
-            entity = null;
-            if(!(michal !== tangon)) { _fun00002_ip = 387; continue _fun00001 }
+            var1 = null;
+            if(!(var2 !== var4)) { _fun0001_ip = 387; continue _fun0001 }
  362:
-            entity = null;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 387; continue _fun00001 }
+            var1 = null;
+            if(!(var1 !== var3)) { _fun0001_ip = 387; continue _fun0001 }
  368:
-            michal = {};
-            michal['url'] = report;
-            michal['currentBuild'] = tangon;
-            michal['currentVersion'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var2['url'] = var5;
+            var2['currentBuild'] = var4;
+            var2['currentVersion'] = var3;
+            var1 = var2;
  387:
-            return entity;
+            return var1;
         }
     };
-    michal = michal.bind(entity)();
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/mobile_native_updater/MobileNativeUpdateConstants.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['UPDATE_CHECK_INTERVAL'] = tangon;
-    zuuluu['UPDATE_CONFIG'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/mobile_native_updater/MobileNativeUpdateConstants.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['UPDATE_CHECK_INTERVAL'] = var4;
+    var3['UPDATE_CONFIG'] = var2;
+    return var1;
 })();

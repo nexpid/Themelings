@@ -1,240 +1,240 @@
 // app/modules/app_launcher/native/AppLauncherContext.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    tangon = function(argFoo) { // Original name: useAppLauncherChatInputRefDummy
-        entity = argFoo;
-        entity = entity.noop;
-        var _closure2_slot0 = entity;
-        zuuluu = _closure1_slot2;
-        michal = zuuluu.useRef;
-        entity = {};
-        report = function() { // Original name: getApplicationCommandManager
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var4 = function useAppLauncherChatInputRefDummy(arg1) {
+        var1 = arg1;
+        var1 = var1.noop;
+        var _closure2_slot0 = var1;
+        var3 = _closure1_slot2;
+        var2 = var3.useRef;
+        var1 = {};
+        var5 = function getApplicationCommandManager() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = _closure2_slot0;
-                if(entity) { _fun00002_ip = 46; continue _fun00001 }
+                var1 = _closure2_slot0;
+                if(var1) { _fun0001_ip = 46; continue _fun0001 }
  10:
-                entity = global;
-                zuuluu = entity.Error;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var4 = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
  46:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['getApplicationCommandManager'] = report;
-        report = function() { // Original name: openCustomKeyboard
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['getApplicationCommandManager'] = var5;
+        var5 = function openCustomKeyboard() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                entity = _closure2_slot0;
-                if(entity) { _fun00004_ip = 46; continue _fun00003 }
+                var1 = _closure2_slot0;
+                if(var1) { _fun0002_ip = 46; continue _fun0002 }
  10:
-                entity = global;
-                zuuluu = entity.Error;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var4 = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
  46:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['openCustomKeyboard'] = report;
-        tangon = function() { // Original name: closeCustomKeyboard
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['openCustomKeyboard'] = var5;
+        var4 = function closeCustomKeyboard() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = _closure2_slot0;
-                if(entity) { _fun00006_ip = 46; continue _fun00005 }
+                var1 = _closure2_slot0;
+                if(var1) { _fun0003_ip = 46; continue _fun0003 }
  10:
-                entity = global;
-                zuuluu = entity.Error;
-                entity = zuuluu.prototype;
-                michal = Object.create(entity, {constructor: {value: zuuluu}});
-                tangon = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
-                report = michal;
-                entity = new report[zuuluu](tangon, zuuluu);
-                entity = entity instanceof Object ? entity : michal;
-                throw entity;
+                var1 = global;
+                var3 = var1.Error;
+                var1 = var3.prototype;
+                var2 = Object.create(var1, {constructor: {value: var3}});
+                var4 = 'use useRequiredAppLauncherContext and provide a ChatInputRef';
+                var5 = var2;
+                var1 = new var5[var3](var4, var3);
+                var1 = var1 instanceof Object ? var1 : var2;
+                throw var1;
  46:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['closeCustomKeyboard'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1['closeCustomKeyboard'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    kiloes = 0;
-    oscard = offset[kiloes];
-    report = argCor;
-    entity = undefined;
-    yankee = report.bind(entity)(oscard);
-    var _closure1_slot2 = yankee;
-    golfie = {};
-    golfie['DISMISSED'] = kiloes;
-    report = 'DISMISSED';
-    golfie[kiloes] = report;
-    backup = 1;
-    golfie['COMMAND'] = backup;
-    report = 'COMMAND';
-    golfie[backup] = report;
-    foxtra = 2;
-    golfie['ACTIVITY'] = foxtra;
-    report = 'ACTIVITY';
-    golfie[foxtra] = report;
-    option = 3;
-    golfie['BACK'] = option;
-    report = 'BACK';
-    golfie[option] = report;
-    romeon = 4;
-    golfie['OAUTH_MODAL'] = romeon;
-    report = 'OAUTH_MODAL';
-    golfie[romeon] = report;
-    var _closure1_slot3 = golfie;
-    oscard = {};
-    oscard['GESTURE'] = kiloes;
-    report = 'GESTURE';
-    oscard[kiloes] = report;
-    oscard['KEYBOARD'] = backup;
-    report = 'KEYBOARD';
-    oscard[backup] = report;
-    oscard['APP_VIEW'] = foxtra;
-    report = 'APP_VIEW';
-    oscard[foxtra] = report;
-    oscard['COMMAND_VIEW'] = option;
-    report = 'COMMAND_VIEW';
-    oscard[option] = report;
-    oscard['OTHER'] = romeon;
-    report = 'OTHER';
-    oscard[romeon] = report;
-    report = yankee.createContext;
-    report = report.bind(yankee)(entity);
-    var _closure1_slot4 = report;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/app_launcher/native/AppLauncherContext.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['AppLauncherKeyboardCloseReason'] = golfie;
-    zuuluu['AppLauncherBottomSheetExpandReason'] = oscard;
-    zuuluu['AppLauncherContext'] = report;
-    zuuluu['useAppLauncherChatInputRefDummy'] = tangon;
-    tangon = function() { // Original name: useRequiredAppLauncherContext
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var15 = 0;
+    var6 = var10[var15];
+    var5 = native4;
+    var1 = undefined;
+    var11 = var5.bind(var1)(var6);
+    var _closure1_slot2 = var11;
+    var7 = {};
+    var7['DISMISSED'] = var15;
+    var5 = 'DISMISSED';
+    var7[var15] = var5;
+    var14 = 1;
+    var7['COMMAND'] = var14;
+    var5 = 'COMMAND';
+    var7[var14] = var5;
+    var13 = 2;
+    var7['ACTIVITY'] = var13;
+    var5 = 'ACTIVITY';
+    var7[var13] = var5;
+    var8 = 3;
+    var7['BACK'] = var8;
+    var5 = 'BACK';
+    var7[var8] = var5;
+    var12 = 4;
+    var7['OAUTH_MODAL'] = var12;
+    var5 = 'OAUTH_MODAL';
+    var7[var12] = var5;
+    var _closure1_slot3 = var7;
+    var6 = {};
+    var6['GESTURE'] = var15;
+    var5 = 'GESTURE';
+    var6[var15] = var5;
+    var6['KEYBOARD'] = var14;
+    var5 = 'KEYBOARD';
+    var6[var14] = var5;
+    var6['APP_VIEW'] = var13;
+    var5 = 'APP_VIEW';
+    var6[var13] = var5;
+    var6['COMMAND_VIEW'] = var8;
+    var5 = 'COMMAND_VIEW';
+    var6[var8] = var5;
+    var6['OTHER'] = var12;
+    var5 = 'OTHER';
+    var6[var12] = var5;
+    var5 = var11.createContext;
+    var5 = var5.bind(var11)(var1);
+    var _closure1_slot4 = var5;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/app_launcher/native/AppLauncherContext.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['AppLauncherKeyboardCloseReason'] = var7;
+    var3['AppLauncherBottomSheetExpandReason'] = var6;
+    var3['AppLauncherContext'] = var5;
+    var3['useAppLauncherChatInputRefDummy'] = var4;
+    var4 = function useRequiredAppLauncherContext() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.useContext;
-            entity = _closure1_slot4;
-            entity = michal.bind(zuuluu)(entity);
-            michal = null;
-            if(!(michal != entity)) { _fun00008_ip = 30; continue _fun00007 }
+            var3 = _closure1_slot2;
+            var2 = var3.useContext;
+            var1 = _closure1_slot4;
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            if(!(var2 != var1)) { _fun0004_ip = 30; continue _fun0004 }
  28:
-            return entity;
+            return var1;
  30:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = 'AppLauncherContext not found, must be used within AppLauncherNavigator';
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = 'AppLauncherContext not found, must be used within AppLauncherNavigator';
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    zuuluu['useRequiredAppLauncherContext'] = tangon;
-    michal = function() { // Original name: useAppLauncherContext
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['useRequiredAppLauncherContext'] = var4;
+    var2 = function useAppLauncherContext() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            report = _closure1_slot2;
-            tangon = report.useRef;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.DISMISSED;
-            zuuluu = tangon.bind(report)(zuuluu);
-            var _closure2_slot0 = zuuluu;
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useRef;
-            report = undefined;
-            zuuluu = zuuluu.bind(tangon)(report);
-            var _closure2_slot1 = zuuluu;
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = oscard[zuuluu];
-            zuuluu = tangon.bind(report)(zuuluu);
-            zuuluu = zuuluu.AppLauncherEntrypoint;
-            golfie = zuuluu.TEXT;
-            var _closure2_slot2 = golfie;
-            zuuluu = 2;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.useDefaultAppLauncherWidth;
-            option = zuuluu.bind(tangon)(golfie);
-            var _closure2_slot3 = option;
-            tangon = _closure1_slot5;
-            zuuluu = {};
-            oscard = false;
-            zuuluu['noop'] = oscard;
-            oscard = tangon.bind(report)(zuuluu);
-            var _closure2_slot4 = oscard;
-            report = _closure1_slot2;
-            tangon = report.useMemo;
-            zuuluu = new Array(3);
-            zuuluu[0] = option;
-            zuuluu[1] = golfie;
-            zuuluu[2] = oscard;
-            entity = function() {
-                entity = {};
-                zuuluu = _closure2_slot0;
-                entity['keyboardCloseReasonRef'] = zuuluu;
-                zuuluu = _closure2_slot1;
-                entity['bottomSheetExpandReasonRef'] = zuuluu;
-                zuuluu = _closure2_slot4;
-                entity['chatInputRef'] = zuuluu;
-                zuuluu = _closure2_slot3;
-                entity['width'] = zuuluu;
-                michal = _closure2_slot2;
-                entity['entrypoint'] = michal;
-                michal = undefined;
-                entity['onActivityItemSelected'] = michal;
-                return entity;
+            var5 = _closure1_slot2;
+            var4 = var5.useRef;
+            var3 = _closure1_slot3;
+            var3 = var3.DISMISSED;
+            var3 = var4.bind(var5)(var3);
+            var _closure2_slot0 = var3;
+            var4 = _closure1_slot2;
+            var3 = var4.useRef;
+            var5 = undefined;
+            var3 = var3.bind(var4)(var5);
+            var _closure2_slot1 = var3;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var3 = 1;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.AppLauncherEntrypoint;
+            var7 = var3.TEXT;
+            var _closure2_slot2 = var7;
+            var3 = 2;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.useDefaultAppLauncherWidth;
+            var8 = var3.bind(var4)(var7);
+            var _closure2_slot3 = var8;
+            var4 = _closure1_slot5;
+            var3 = {};
+            var6 = false;
+            var3['noop'] = var6;
+            var6 = var4.bind(var5)(var3);
+            var _closure2_slot4 = var6;
+            var5 = _closure1_slot2;
+            var4 = var5.useMemo;
+            var3 = new Array(3);
+            var3[0] = var8;
+            var3[1] = var7;
+            var3[2] = var6;
+            var1 = function() {
+                var1 = {};
+                var3 = _closure2_slot0;
+                var1['keyboardCloseReasonRef'] = var3;
+                var3 = _closure2_slot1;
+                var1['bottomSheetExpandReasonRef'] = var3;
+                var3 = _closure2_slot4;
+                var1['chatInputRef'] = var3;
+                var3 = _closure2_slot3;
+                var1['width'] = var3;
+                var2 = _closure2_slot2;
+                var1['entrypoint'] = var2;
+                var2 = undefined;
+                var1['onActivityItemSelected'] = var2;
+                return var1;
             };
-            entity = tangon.bind(report)(entity, zuuluu);
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useContext;
-            michal = _closure1_slot4;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00010_ip = 204; continue _fun00009 }
+            var1 = var4.bind(var5)(var1, var3);
+            var4 = _closure1_slot2;
+            var3 = var4.useContext;
+            var2 = _closure1_slot4;
+            var2 = var3.bind(var4)(var2);
+            var3 = null;
+            if(!(var3 != var2)) { _fun0005_ip = 204; continue _fun0005 }
  201:
-            entity = michal;
+            var1 = var2;
  204:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useAppLauncherContext'] = michal;
-    return entity;
+    var3['useAppLauncherContext'] = var2;
+    return var1;
 })();

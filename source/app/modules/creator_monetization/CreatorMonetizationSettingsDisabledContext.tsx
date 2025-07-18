@@ -1,85 +1,85 @@
 // app/modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    report = golfie[entity];
-    tangon = argCor;
-    entity = undefined;
-    report = tangon.bind(entity)(report);
-    var _closure1_slot2 = report;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
-    tangon = report.createContext;
-    tangon = tangon.bind(report)(entity);
-    var _closure1_slot4 = tangon;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    tangon = function() { // Original name: useCreatorMonetizationSettingsDisabled
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var5 = var7[var1];
+    var4 = native4;
+    var1 = undefined;
+    var5 = var4.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot3 = var4;
+    var4 = var5.createContext;
+    var4 = var4.bind(var5)(var1);
+    var _closure1_slot4 = var4;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var4 = function useCreatorMonetizationSettingsDisabled() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.useContext;
-            entity = _closure1_slot4;
-            entity = michal.bind(zuuluu)(entity);
-            michal = null;
-            if(!(michal != entity)) { _fun00002_ip = 30; continue _fun00001 }
+            var3 = _closure1_slot2;
+            var2 = var3.useContext;
+            var1 = _closure1_slot4;
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            if(!(var2 != var1)) { _fun0001_ip = 30; continue _fun0001 }
  28:
-            return entity;
+            return var1;
  30:
-            entity = global;
-            zuuluu = entity.Error;
-            entity = zuuluu.prototype;
-            michal = Object.create(entity, {constructor: {value: zuuluu}});
-            tangon = 'useCreatorMonetizationSettingsDisabled must be used within a CreatorMonetizationSettingsDisabledContext';
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            throw entity;
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var4 = 'useCreatorMonetizationSettingsDisabled must be used within a CreatorMonetizationSettingsDisabledContext';
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
-    zuuluu['useCreatorMonetizationSettingsDisabled'] = tangon;
-    michal = function(argFoo) { // Original name: CreatorMonetizationSettingsDisabledContextProvider
-        entity = argFoo;
-        oscard = entity.guildId;
-        report = entity.children;
-        zuuluu = _closure1_slot0;
-        tangon = _closure1_slot1;
-        michal = 2;
-        michal = tangon[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = zuuluu.useShouldRestrictUpdatingCreatorMonetizationSettings;
-        michal = michal.bind(zuuluu)(oscard);
-        oscard = michal.shouldRestrictUpdatingCreatorMonetizationSettings;
-        zuuluu = _closure1_slot3;
-        entity = _closure1_slot4;
-        michal = entity.Provider;
-        entity = {};
-        entity['value'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+    var3['useCreatorMonetizationSettingsDisabled'] = var4;
+    var2 = function CreatorMonetizationSettingsDisabledContextProvider(arg1) {
+        var1 = arg1;
+        var6 = var1.guildId;
+        var5 = var1.children;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var2 = 2;
+        var2 = var4[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.useShouldRestrictUpdatingCreatorMonetizationSettings;
+        var2 = var2.bind(var3)(var6);
+        var6 = var2.shouldRestrictUpdatingCreatorMonetizationSettings;
+        var3 = _closure1_slot3;
+        var1 = _closure1_slot4;
+        var2 = var1.Provider;
+        var1 = {};
+        var1['value'] = var6;
+        var1['children'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['CreatorMonetizationSettingsDisabledContextProvider'] = michal;
-    return entity;
+    var3['CreatorMonetizationSettingsDisabledContextProvider'] = var2;
+    return var1;
 })();

@@ -1,140 +1,140 @@
 // app/utils/native/SupportUtils.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = oscard;
-    entity = function() { // Original name: _emailSupport
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot4;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
+    var1 = function _emailSupport() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot4;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 271; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 271; continue _fun0001 }
  10:
-                    golfie = _closure1_slot1;
-                    offset = _closure1_slot3;
-                    zuuluu = 4;
-                    tangon = offset[zuuluu];
-                    zuuluu = undefined;
-                    report = golfie.bind(zuuluu)(tangon);
-                    tangon = report.openURL;
-                    oscard = 5;
-                    oscard = offset[oscard];
-                    golfie = golfie.bind(zuuluu)(oscard);
-                    oscard = golfie.getSubmitRequestURL;
-                    verify = _closure1_slot2;
-                    option = 2;
-                    option = offset[option];
-                    verify = verify.bind(zuuluu)(option);
-                    option = verify.getConstants;
-                    option = option.bind(verify)();
-                    offset = option.Manifest;
-                    verify = offset.trim;
-                    verify = verify.bind(offset)();
-                    offset = verify.length;
-                    verify = 0;
-                    verify = offset > verify;
-                    output = 'N/A';
-                    if(!verify) { _fun00002_ip = 127; continue _fun00001 }
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot3;
+                    var3 = 4;
+                    var4 = var10[var3];
+                    var3 = undefined;
+                    var5 = var7.bind(var3)(var4);
+                    var4 = var5.openURL;
+                    var6 = 5;
+                    var6 = var10[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.getSubmitRequestURL;
+                    var9 = _closure1_slot2;
+                    var8 = 2;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.getConstants;
+                    var8 = var8.bind(var9)();
+                    var10 = var8.Manifest;
+                    var9 = var10.trim;
+                    var9 = var9.bind(var10)();
+                    var10 = var9.length;
+                    var9 = 0;
+                    var9 = var10 > var9;
+                    var17 = 'N/A';
+                    if(!var9) { _fun0001_ip = 127; continue _fun0001 }
  121:
-                    output = option.Manifest;
+                    var17 = var8.Manifest;
  127:
-                    sizing = option.Version;
-                    verify = _closure1_slot0;
-                    offset = _closure1_slot3;
-                    option = 3;
-                    yankee = offset[option];
-                    romeon = verify.bind(zuuluu)(yankee);
-                    yankee = romeon.getSystemVersion;
-                    ctrled = yankee.bind(romeon)();
-                    option = offset[option];
-                    verify = verify.bind(zuuluu)(option);
-                    option = verify.getDeviceInfo;
-                    update = option.bind(verify)();
-                    michal = _closure1_slot5;
-                    result = michal.locale;
-                    michal = global;
-                    michal = michal.HermesInternal;
-                    romeon = michal.concat;
-                    cntext = 'App version: ';
-                    config = '\n  Manifest: ';
-                    vacuum = '\n  iOS version: ';
-                    source = '\n  Device: ';
-                    echoed = '\n  Language: ';
-                    record = sizing;
-                    sequen = output;
-                    michal = cntext[romeon](record, config, sequen, vacuum, ctrled, source, update, echoed, result, output);
-                    michal = oscard.bind(golfie)(michal);
+                    var16 = var8.Version;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot3;
+                    var8 = 3;
+                    var11 = var10[var8];
+                    var12 = var9.bind(var3)(var11);
+                    var11 = var12.getSystemVersion;
+                    var22 = var11.bind(var12)();
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.getDeviceInfo;
+                    var20 = var8.bind(var9)();
+                    var2 = _closure1_slot5;
+                    var18 = var2.locale;
+                    var2 = global;
+                    var2 = var2.HermesInternal;
+                    var12 = var2.concat;
+                    var27 = 'App version: ';
+                    var25 = '\n  Manifest: ';
+                    var23 = '\n  iOS version: ';
+                    var21 = '\n  Device: ';
+                    var19 = '\n  Language: ';
+                    var26 = var16;
+                    var24 = var17;
+                    var2 = var27[var12](var26, var25, var24, var23, var22, var21, var20, var19, var18, var17);
+                    var2 = var6.bind(var7)(var2);
                     SaveGenerator(address=254);
  252:
-                    return michal;
+                    return var2;
  254:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 268; continue _fun00001 }
+                    if(var6) { _fun0001_ip = 268; continue _fun0001 }
  260:
-                    tangon = tangon.bind(report)(michal);
-                    return zuuluu;
+                    var4 = var4.bind(var5)(var2);
+                    return var3;
  268:
-                    return michal;
+                    return var2;
  271:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/native/SupportUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: emailSupport
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/native/SupportUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function emailSupport() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['emailSupport'] = michal;
-    return entity;
+    var3['emailSupport'] = var2;
+    return var1;
 })();

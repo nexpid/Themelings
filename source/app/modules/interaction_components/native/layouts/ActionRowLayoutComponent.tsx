@@ -1,64 +1,64 @@
 // app/modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot0 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot1 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ActionRowLayoutComponent
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot0 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot1 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/interaction_components/native/layouts/ActionRowLayoutComponent.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ActionRowLayoutComponent(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            golfie = entity.components;
-            oscard = entity.renderComponents;
-            tangon = null;
-            michal = tangon == golfie;
-            entity = null;
-            if(michal) { _fun00002_ip = 69; continue _fun00001 }
+            var1 = arg1;
+            var7 = var1.components;
+            var6 = var1.renderComponents;
+            var4 = null;
+            var2 = var4 == var7;
+            var1 = null;
+            if(var2) { _fun0001_ip = 69; continue _fun0001 }
  26:
-            zuuluu = golfie.length;
-            michal = 0;
-            entity = null;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 69; continue _fun00001 }
+            var3 = var7.length;
+            var2 = 0;
+            var1 = null;
+            if(!(var2 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
  39:
-            report = _closure1_slot1;
-            tangon = _closure1_slot0;
-            zuuluu = {};
-            michal = undefined;
-            oscard = oscard.bind(michal)(golfie);
-            zuuluu['children'] = oscard;
-            entity = report.bind(michal)(tangon, zuuluu);
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot0;
+            var3 = {};
+            var2 = undefined;
+            var6 = var6.bind(var2)(var7);
+            var3['children'] = var6;
+            var1 = var5.bind(var2)(var4, var3);
  69:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

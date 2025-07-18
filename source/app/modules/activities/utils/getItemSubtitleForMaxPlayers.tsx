@@ -1,126 +1,126 @@
 // app/modules/activities/utils/getItemSubtitleForMaxPlayers.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/getItemSubtitleForMaxPlayers.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getItemSubtitleForMaxPlayers
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/getItemSubtitleForMaxPlayers.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getItemSubtitleForMaxPlayers(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            option = 0;
-            if(!(!(oscard > option))) { _fun00002_ip = 70; continue _fun00001 }
+            var6 = arg1;
+            var8 = 0;
+            if(!(!(var6 > var8))) { _fun0001_ip = 70; continue _fun0001 }
  9:
-            report = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = entity[option];
-            tangon = undefined;
-            michal = report.bind(tangon)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[option];
-            entity = report.bind(tangon)(entity);
-            entity = entity.t;
-            entity = entity.s1vQIC;
-            entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 136; continue _fun00001;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = var1[var8];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var8];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.s1vQIC;
+            var1 = var2.bind(var3)(var1);
+            _fun0001_ip = 136; continue _fun0001;
  70:
-            golfie = _closure1_slot0;
-            michal = _closure1_slot1;
-            tangon = michal[option];
-            zuuluu = undefined;
-            tangon = golfie.bind(zuuluu)(tangon);
-            report = tangon.intl;
-            tangon = report.formatToPlainString;
-            michal = michal[option];
-            michal = golfie.bind(zuuluu)(michal);
-            michal = michal.t;
-            zuuluu = michal.p/YmkZ;
-            michal = {};
-            michal['count'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var4 = var2[var8];
+            var3 = undefined;
+            var4 = var7.bind(var3)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var2[var8];
+            var2 = var7.bind(var3)(var2);
+            var2 = var2.t;
+            var3 = var2.p/YmkZ;
+            var2 = {};
+            var2['count'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  136:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo) { // Original name: getItemSubtitleForMaxPlayersShort
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['default'] = var4;
+    var4 = function getItemSubtitleForMaxPlayersShort(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            golfie = 0;
-            if(!(!(tangon > golfie))) { _fun00004_ip = 68; continue _fun00003 }
+            var4 = arg1;
+            var7 = 0;
+            if(!(!(var4 > var7))) { _fun0002_ip = 68; continue _fun0002 }
  9:
-            oscard = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = entity[golfie];
-            report = undefined;
-            michal = oscard.bind(report)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[golfie];
-            entity = oscard.bind(report)(entity);
-            entity = entity.t;
-            entity = entity.zMNEiI;
-            entity = michal.bind(zuuluu)(entity);
-            _fun00004_ip = 92; continue _fun00003;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = var1[var7];
+            var5 = undefined;
+            var2 = var6.bind(var5)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var7];
+            var1 = var6.bind(var5)(var1);
+            var1 = var1.t;
+            var1 = var1.zMNEiI;
+            var1 = var2.bind(var3)(var1);
+            _fun0002_ip = 92; continue _fun0002;
  68:
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '1 - ';
-            entity = zuuluu.bind(michal)(tangon);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = '1 - ';
+            var1 = var3.bind(var2)(var4);
  92:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getItemSubtitleForMaxPlayersShort'] = tangon;
-    michal = function(argFoo) { // Original name: getItemSubtitleForMaxPlayersShorter
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getItemSubtitleForMaxPlayersShort'] = var4;
+    var2 = function getItemSubtitleForMaxPlayersShorter(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            golfie = 0;
-            if(!(!(tangon > golfie))) { _fun00006_ip = 68; continue _fun00005 }
+            var4 = arg1;
+            var7 = 0;
+            if(!(!(var4 > var7))) { _fun0003_ip = 68; continue _fun0003 }
  9:
-            oscard = _closure1_slot0;
-            entity = _closure1_slot1;
-            michal = entity[golfie];
-            report = undefined;
-            michal = oscard.bind(report)(michal);
-            zuuluu = michal.intl;
-            michal = zuuluu.string;
-            entity = entity[golfie];
-            entity = oscard.bind(report)(entity);
-            entity = entity.t;
-            entity = entity.zMNEiI;
-            entity = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 92; continue _fun00005;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var2 = var1[var7];
+            var5 = undefined;
+            var2 = var6.bind(var5)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var1[var7];
+            var1 = var6.bind(var5)(var1);
+            var1 = var1.t;
+            var1 = var1.zMNEiI;
+            var1 = var2.bind(var3)(var1);
+            _fun0003_ip = 92; continue _fun0003;
  68:
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = '1-';
-            entity = zuuluu.bind(michal)(tangon);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var3 = var2.concat;
+            var2 = '1-';
+            var1 = var3.bind(var2)(var4);
  92:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getItemSubtitleForMaxPlayersShorter'] = michal;
-    return entity;
+    var3['getItemSubtitleForMaxPlayersShorter'] = var2;
+    return var1;
 })();

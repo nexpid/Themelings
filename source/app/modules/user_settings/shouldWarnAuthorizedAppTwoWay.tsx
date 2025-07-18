@@ -1,61 +1,61 @@
 // app/modules/user_settings/shouldWarnAuthorizedAppTwoWay.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    tangon = function(argFoo) { // Original name: isAuthorizedAppTwoWay
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var4 = function isAuthorizedAppTwoWay(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            report = undefined;
-            entity = zuuluu.bind(report)(entity);
-            entity = entity.ConsoleOAuthApplications;
-            entity = entity.XBOX_APPLICATION_ID;
-            entity = entity === tangon;
-            if(entity) { _fun00002_ip = 85; continue _fun00001 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var1 = var1.ConsoleOAuthApplications;
+            var1 = var1.XBOX_APPLICATION_ID;
+            var1 = var1 === var4;
+            if(var1) { _fun0001_ip = 85; continue _fun0001 }
  46:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.ConsoleOAuthApplicationsSets;
-            zuuluu = michal.PLAYSTATION_APPLICATION_IDS;
-            michal = zuuluu.has;
-            entity = michal.bind(zuuluu)(tangon);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.ConsoleOAuthApplicationsSets;
+            var3 = var2.PLAYSTATION_APPLICATION_IDS;
+            var2 = var3.has;
+            var1 = var2.bind(var3)(var4);
  85:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 1;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/user_settings/shouldWarnAuthorizedAppTwoWay.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    michal = function(argFoo) { // Original name: useShouldWarnAuthorizedAppTwoWay
-        zuuluu = _closure1_slot2;
-        michal = undefined;
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 1;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_settings/shouldWarnAuthorizedAppTwoWay.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var2 = function useShouldWarnAuthorizedAppTwoWay(arg1) {
+        var3 = _closure1_slot2;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useShouldWarnAuthorizedAppTwoWay'] = michal;
-    return entity;
+    var3['useShouldWarnAuthorizedAppTwoWay'] = var2;
+    return var1;
 })();

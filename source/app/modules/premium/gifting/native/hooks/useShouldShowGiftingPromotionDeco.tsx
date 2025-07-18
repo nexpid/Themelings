@@ -1,70 +1,70 @@
 // app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.PremiumTypes;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useShouldShowGiftingPromotionDeco
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PremiumTypes;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useShouldShowGiftingPromotionDeco(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            entity = michal.useNativeGiftContext;
-            entity = entity.bind(michal)();
-            zuuluu = entity.claimableRewards;
-            oscard = entity.premiumType;
-            entity = null;
-            if(!(entity == report)) { _fun00002_ip = 72; continue _fun00001 }
+            var5 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.useNativeGiftContext;
+            var1 = var1.bind(var2)();
+            var3 = var1.claimableRewards;
+            var6 = var1.premiumType;
+            var1 = null;
+            if(!(var1 == var5)) { _fun0001_ip = 72; continue _fun0001 }
  56:
-            michal = _closure1_slot2;
-            michal = michal.TIER_2;
-            michal = oscard === michal;
-            _fun00002_ip = 86; continue _fun00001;
+            var2 = _closure1_slot2;
+            var2 = var2.TIER_2;
+            var2 = var6 === var2;
+            _fun0001_ip = 86; continue _fun0001;
  72:
-            tangon = _closure1_slot2;
-            tangon = tangon.TIER_2;
-            michal = report === tangon;
+            var4 = _closure1_slot2;
+            var4 = var4.TIER_2;
+            var2 = var5 === var4;
  86:
-            entity = entity != zuuluu;
-            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
+            var1 = var1 != var3;
+            if(!var1) { _fun0001_ip = 104; continue _fun0001 }
  93:
-            tangon = zuuluu.length;
-            zuuluu = 0;
-            entity = tangon > zuuluu;
+            var4 = var3.length;
+            var3 = 0;
+            var1 = var4 > var3;
  104:
-            if(!entity) { _fun00002_ip = 110; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
  107:
-            entity = michal;
+            var1 = var2;
  110:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

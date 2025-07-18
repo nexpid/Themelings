@@ -1,147 +1,147 @@
 // app/modules/stage_channels/useAudienceRequestToSpeakState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    michal = function(argFoo) { // Original name: getAudienceRequestToSpeakState
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var2 = function getAudienceRequestToSpeakState(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00002_ip = 129; continue _fun00001 }
+            var2 = arg1;
+            var3 = null;
+            if(!(var3 != var2)) { _fun0001_ip = 129; continue _fun0001 }
  9:
-            entity = michal.suppress;
-            if(!entity) { _fun00002_ip = 28; continue _fun00001 }
+            var1 = var2.suppress;
+            if(!var1) { _fun0001_ip = 28; continue _fun0001 }
  18:
-            entity = michal.requestToSpeakTimestamp;
-            if(!(zuuluu == entity)) { _fun00002_ip = 114; continue _fun00001 }
+            var1 = var2.requestToSpeakTimestamp;
+            if(!(var3 == var1)) { _fun0001_ip = 114; continue _fun0001 }
  28:
-            entity = michal.suppress;
-            if(entity) { _fun00002_ip = 62; continue _fun00001 }
+            var1 = var2.suppress;
+            if(var1) { _fun0001_ip = 62; continue _fun0001 }
  37:
-            entity = michal.requestToSpeakTimestamp;
-            if(!(zuuluu != entity)) { _fun00002_ip = 62; continue _fun00001 }
+            var1 = var2.requestToSpeakTimestamp;
+            if(!(var3 != var1)) { _fun0001_ip = 62; continue _fun0001 }
  47:
-            entity = _closure1_slot3;
-            entity = entity.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
-            _fun00002_ip = 112; continue _fun00001;
+            var1 = _closure1_slot3;
+            var1 = var1.REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK;
+            _fun0001_ip = 112; continue _fun0001;
  62:
-            tangon = michal.suppress;
-            if(tangon) { _fun00002_ip = 96; continue _fun00001 }
+            var4 = var2.suppress;
+            if(var4) { _fun0001_ip = 96; continue _fun0001 }
  71:
-            michal = michal.requestToSpeakTimestamp;
-            if(!(zuuluu == michal)) { _fun00002_ip = 96; continue _fun00001 }
+            var2 = var2.requestToSpeakTimestamp;
+            if(!(var3 == var2)) { _fun0001_ip = 96; continue _fun0001 }
  81:
-            michal = _closure1_slot3;
-            michal = michal.ON_STAGE;
-            _fun00002_ip = 109; continue _fun00001;
+            var2 = _closure1_slot3;
+            var2 = var2.ON_STAGE;
+            _fun0001_ip = 109; continue _fun0001;
  96:
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.NONE;
+            var3 = _closure1_slot3;
+            var2 = var3.NONE;
  109:
-            entity = michal;
+            var1 = var2;
  112:
-            _fun00002_ip = 127; continue _fun00001;
+            _fun0001_ip = 127; continue _fun0001;
  114:
-            michal = _closure1_slot3;
-            entity = michal.REQUESTED_TO_SPEAK;
+            var2 = _closure1_slot3;
+            var1 = var2.REQUESTED_TO_SPEAK;
  127:
-            _fun00002_ip = 142; continue _fun00001;
+            _fun0001_ip = 142; continue _fun0001;
  129:
-            michal = _closure1_slot3;
-            entity = michal.NONE;
+            var2 = _closure1_slot3;
+            var1 = var2.NONE;
  142:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, tangon);
-    verify = 0;
-    oscard = option[verify];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot2 = tangon;
-    tangon = {};
-    tangon['NONE'] = verify;
-    oscard = 'NONE';
-    tangon[verify] = oscard;
-    verify = 1;
-    tangon['REQUESTED_TO_SPEAK'] = verify;
-    oscard = 'REQUESTED_TO_SPEAK';
-    tangon[verify] = oscard;
-    oscard = 2;
-    tangon['REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK'] = oscard;
-    verify = 'REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK';
-    tangon[oscard] = verify;
-    offset = 3;
-    tangon['ON_STAGE'] = offset;
-    verify = 'ON_STAGE';
-    tangon[offset] = verify;
-    var _closure1_slot3 = tangon;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/stage_channels/useAudienceRequestToSpeakState.tsx';
-    oscard = golfie.bind(option)(oscard);
-    report = function(argFoo, argBar) { // Original name: useAudienceRequestToSpeakState
-        golfie = argFoo;
-        oscard = argBar;
-        var _closure2_slot0 = golfie;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        michal = _closure1_slot2;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var9 = 0;
+    var6 = var8[var9];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot2 = var4;
+    var4 = {};
+    var4['NONE'] = var9;
+    var6 = 'NONE';
+    var4[var9] = var6;
+    var9 = 1;
+    var4['REQUESTED_TO_SPEAK'] = var9;
+    var6 = 'REQUESTED_TO_SPEAK';
+    var4[var9] = var6;
+    var6 = 2;
+    var4['REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK'] = var6;
+    var9 = 'REQUESTED_TO_SPEAK_AND_AWAITING_USER_ACK';
+    var4[var6] = var9;
+    var10 = 3;
+    var4['ON_STAGE'] = var10;
+    var9 = 'ON_STAGE';
+    var4[var10] = var9;
+    var _closure1_slot3 = var4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/stage_channels/useAudienceRequestToSpeakState.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function useAudienceRequestToSpeakState(arg1, arg2) {
+        var7 = arg1;
+        var6 = arg2;
+        var _closure2_slot0 = var7;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var2 = _closure1_slot2;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var2[1] = var6;
+        var1 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot0;
-                zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00004_ip = 61; continue _fun00003 }
+                var2 = _closure2_slot0;
+                var3 = null;
+                if(!(var3 != var2)) { _fun0002_ip = 61; continue _fun0002 }
  13:
-                michal = _closure2_slot1;
-                if(!(zuuluu != michal)) { _fun00004_ip = 61; continue _fun00003 }
+                var2 = _closure2_slot1;
+                if(!(var3 != var2)) { _fun0002_ip = 61; continue _fun0002 }
  21:
-                zuuluu = _closure1_slot4;
-                report = _closure1_slot2;
-                tangon = report.getVoiceStateForChannel;
-                michal = _closure2_slot1;
-                entity = _closure2_slot0;
-                michal = tangon.bind(report)(michal, entity);
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
-                _fun00004_ip = 74; continue _fun00003;
+                var3 = _closure1_slot4;
+                var5 = _closure1_slot2;
+                var4 = var5.getVoiceStateForChannel;
+                var2 = _closure2_slot1;
+                var1 = _closure2_slot0;
+                var2 = var4.bind(var5)(var2, var1);
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                _fun0002_ip = 74; continue _fun0002;
  61:
-                michal = _closure1_slot3;
-                entity = michal.NONE;
+                var2 = _closure1_slot3;
+                var1 = var2.NONE;
  74:
-                return entity;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = report;
-    zuuluu['RequestToSpeakStates'] = tangon;
-    zuuluu['getAudienceRequestToSpeakState'] = michal;
-    return entity;
+    var3['default'] = var5;
+    var3['RequestToSpeakStates'] = var4;
+    var3['getAudienceRequestToSpeakState'] = var2;
+    return var1;
 })();

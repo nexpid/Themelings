@@ -1,189 +1,189 @@
 // app/modules/guild_profile/hooks/useGuildProfileGames.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    michal = function(argFoo) { // Original name: useAllGuildProfileGames
-        tangon = _closure1_slot1;
-        report = _closure1_slot2;
-        zuuluu = 1;
-        zuuluu = report[zuuluu];
-        report = undefined;
-        tangon = tangon.bind(report)(zuuluu);
-        zuuluu = argFoo;
-        zuuluu = zuuluu.gameApplicationIds;
-        report = tangon.bind(report)(zuuluu);
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            zuuluu = _closure2_slot0;
-            michal = zuuluu.filter;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 2;
-            tangon = tangon[entity];
-            entity = undefined;
-            entity = report.bind(entity)(tangon);
-            entity = entity.isNotNullish;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var2 = function useAllGuildProfileGames(arg1) {
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var3 = 1;
+        var3 = var5[var3];
+        var5 = undefined;
+        var4 = var4.bind(var5)(var3);
+        var3 = arg1;
+        var3 = var3.gameApplicationIds;
+        var5 = var4.bind(var5)(var3);
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot3;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var3 = _closure2_slot0;
+            var2 = var3.filter;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.isNotNullish;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot4 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_profile/hooks/useGuildProfileGames.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useGuildProfileGames
-        oscard = argFoo;
-        entity = oscard.gameActivity;
-        var _closure2_slot0 = entity;
-        report = _closure1_slot4;
-        tangon = undefined;
-        golfie = report.bind(tangon)(oscard);
-        var _closure2_slot1 = golfie;
-        oscard = _closure1_slot3;
-        report = oscard.useMemo;
-        tangon = new Array(2);
-        tangon[0] = golfie;
-        tangon[1] = entity;
-        entity = function() {
-            tangon = _closure2_slot0;
-            zuuluu = function(argFoo) { // Original name: gameActivitySorter
-                michal = argFoo;
-                var _closure4_slot0 = michal;
-                entity = function(argFoo, argBar) {
-                    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot4 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_profile/hooks/useGuildProfileGames.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useGuildProfileGames(arg1) {
+        var6 = arg1;
+        var1 = var6.gameActivity;
+        var _closure2_slot0 = var1;
+        var5 = _closure1_slot4;
+        var4 = undefined;
+        var7 = var5.bind(var4)(var6);
+        var _closure2_slot1 = var7;
+        var6 = _closure1_slot3;
+        var5 = var6.useMemo;
+        var4 = new Array(2);
+        var4[0] = var7;
+        var4[1] = var1;
+        var1 = function() {
+            var4 = _closure2_slot0;
+            var3 = function gameActivitySorter(arg1) {
+                var2 = arg1;
+                var _closure4_slot0 = var2;
+                var1 = function(arg1, arg2) {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                        michal = _closure4_slot0;
-                        entity = argFoo;
-                        entity = entity.id;
-                        entity = michal[entity];
-                        michal = null;
-                        zuuluu = michal == entity;
-                        oscard = undefined;
-                        if(zuuluu) { _fun00002_ip = 36; continue _fun00001 }
+                        var2 = _closure4_slot0;
+                        var1 = arg1;
+                        var1 = var1.id;
+                        var1 = var2[var1];
+                        var2 = null;
+                        var3 = var2 == var1;
+                        var6 = undefined;
+                        if(var3) { _fun0001_ip = 36; continue _fun0001 }
  30:
-                        oscard = entity.score;
+                        var6 = var1.score;
  36:
-                        golfie = michal != oscard;
-                        zuuluu = 0;
-                        if(!golfie) { _fun00002_ip = 48; continue _fun00001 }
+                        var7 = var2 != var6;
+                        var3 = 0;
+                        if(!var7) { _fun0001_ip = 48; continue _fun0001 }
  45:
-                        zuuluu = oscard;
+                        var3 = var6;
  48:
-                        oscard = _closure4_slot0;
-                        report = argBar;
-                        report = report.id;
-                        report = oscard[report];
-                        oscard = michal == report;
-                        tangon = undefined;
-                        if(oscard) { _fun00002_ip = 79; continue _fun00001 }
+                        var6 = _closure4_slot0;
+                        var5 = arg2;
+                        var5 = var5.id;
+                        var5 = var6[var5];
+                        var6 = var2 == var5;
+                        var4 = undefined;
+                        if(var6) { _fun0001_ip = 79; continue _fun0001 }
  73:
-                        tangon = report.score;
+                        var4 = var5.score;
  79:
-                        report = michal != tangon;
-                        michal = 0;
-                        if(!report) { _fun00002_ip = 91; continue _fun00001 }
+                        var5 = var2 != var4;
+                        var2 = 0;
+                        if(!var5) { _fun0001_ip = 91; continue _fun0001 }
  88:
-                        michal = tangon;
+                        var2 = var4;
  91:
-                        entity = 0;
-                        if(!(zuuluu !== michal)) { _fun00002_ip = 101; continue _fun00001 }
+                        var1 = 0;
+                        if(!(var3 !== var2)) { _fun0001_ip = 101; continue _fun0001 }
  97:
-                        entity = michal - zuuluu;
+                        var1 = var2 - var3;
  101:
-                        return entity;
+                        return var1;
                     }
                 };
-                return entity;
+                return var1;
             };
-            michal = undefined;
-            zuuluu = zuuluu.bind(michal)(tangon);
-            entity = _closure2_slot1;
-            michal = entity.sort;
-            michal = michal.bind(entity)(zuuluu);
-            return entity;
+            var2 = undefined;
+            var3 = var3.bind(var2)(var4);
+            var1 = _closure2_slot1;
+            var2 = var1.sort;
+            var2 = var2.bind(var1)(var3);
+            return var1;
         };
-        oscard = report.bind(oscard)(entity, tangon);
-        var _closure2_slot2 = oscard;
-        entity = {};
-        option = _closure1_slot3;
-        golfie = option.useMemo;
-        report = new Array(1);
-        report[0] = oscard;
-        tangon = function() {
-            tangon = _closure2_slot2;
-            zuuluu = tangon.slice;
-            michal = 0;
-            entity = 5;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var6 = var5.bind(var6)(var1, var4);
+        var _closure2_slot2 = var6;
+        var1 = {};
+        var8 = _closure1_slot3;
+        var7 = var8.useMemo;
+        var5 = new Array(1);
+        var5[0] = var6;
+        var4 = function() {
+            var4 = _closure2_slot2;
+            var3 = var4.slice;
+            var2 = 0;
+            var1 = 5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        tangon = golfie.bind(option)(tangon, report);
-        entity['gamesToDisplay'] = tangon;
-        option = _closure1_slot3;
-        golfie = option.useMemo;
-        report = new Array(1);
-        report[0] = oscard;
-        tangon = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var4 = var7.bind(var8)(var4, var5);
+        var1['gamesToDisplay'] = var4;
+        var8 = _closure1_slot3;
+        var7 = var8.useMemo;
+        var5 = new Array(1);
+        var5[0] = var6;
+        var4 = function() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = _closure2_slot2;
-                entity = 5;
-                michal = michal[entity];
-                entity = null;
-                zuuluu = entity != michal;
-                if(!zuuluu) { _fun00004_ip = 26; continue _fun00003 }
+                var2 = _closure2_slot2;
+                var1 = 5;
+                var2 = var2[var1];
+                var1 = null;
+                var3 = var1 != var2;
+                if(!var3) { _fun0002_ip = 26; continue _fun0002 }
  23:
-                entity = michal;
+                var1 = var2;
  26:
-                return entity;
+                return var1;
             }
         };
-        tangon = golfie.bind(option)(tangon, report);
-        entity['lastGameToDisplay'] = tangon;
-        report = _closure1_slot3;
-        tangon = report.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = oscard;
-        michal = function() {
-            zuuluu = _closure2_slot2;
-            michal = zuuluu.slice;
-            entity = 5;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var4 = var7.bind(var8)(var4, var5);
+        var1['lastGameToDisplay'] = var4;
+        var5 = _closure1_slot3;
+        var4 = var5.useMemo;
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
+            var3 = _closure2_slot2;
+            var2 = var3.slice;
+            var1 = 5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        entity['remainingGames'] = michal;
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        var1['remainingGames'] = var2;
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['useAllGuildProfileGames'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['useAllGuildProfileGames'] = var2;
+    return var1;
 })();

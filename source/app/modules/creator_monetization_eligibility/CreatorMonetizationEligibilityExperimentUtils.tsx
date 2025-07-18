@@ -1,376 +1,376 @@
 // app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    golfie = function(argFoo) { // Original name: useIsRavenOnboardingGuild
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var7 = function useIsRavenOnboardingGuild(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 1;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            verify = entity.CreatorMonetizationRavenOnboardingGuildExperiment;
-            option = verify.useExperiment;
-            report = {};
-            entity = null;
-            michal = tangon;
-            if(!(entity == michal)) { _fun00002_ip = 55; continue _fun00001 }
+            var4 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var9 = var1.CreatorMonetizationRavenOnboardingGuildExperiment;
+            var8 = var9.useExperiment;
+            var5 = {};
+            var1 = null;
+            var2 = var4;
+            if(!(var1 == var2)) { _fun0001_ip = 55; continue _fun0001 }
  51:
-            michal = _closure1_slot2;
+            var2 = _closure1_slot2;
  55:
-            report['guildId'] = michal;
-            michal = 'e3bb71_3';
-            report['location'] = michal;
-            michal = {};
-            offset = true;
-            michal['autoTrackExposure'] = offset;
-            michal = option.bind(verify)(report, michal);
-            michal = michal.enableFastMonetizationOnboardingForGuild;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            golfie = zuuluu.CreatorMonetizationRavenOnboardingUserExperiment;
-            oscard = golfie.useExperiment;
-            report = {};
-            zuuluu = 'e3bb71_4';
-            report['location'] = zuuluu;
-            zuuluu = {};
-            option = false;
-            zuuluu['autoTrackExposure'] = option;
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = zuuluu.enableFastMonetizationOnboardingForUser;
-            entity = entity != tangon;
-            if(!entity) { _fun00002_ip = 168; continue _fun00001 }
+            var5['guildId'] = var2;
+            var2 = 'e3bb71_3';
+            var5['location'] = var2;
+            var2 = {};
+            var10 = true;
+            var2['autoTrackExposure'] = var10;
+            var2 = var8.bind(var9)(var5, var2);
+            var2 = var2.enableFastMonetizationOnboardingForGuild;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var7 = var3.CreatorMonetizationRavenOnboardingUserExperiment;
+            var6 = var7.useExperiment;
+            var5 = {};
+            var3 = 'e3bb71_4';
+            var5['location'] = var3;
+            var3 = {};
+            var8 = false;
+            var3['autoTrackExposure'] = var8;
+            var3 = var6.bind(var7)(var5, var3);
+            var3 = var3.enableFastMonetizationOnboardingForUser;
+            var1 = var1 != var4;
+            if(!var1) { _fun0001_ip = 168; continue _fun0001 }
  159:
-            if(!michal) { _fun00002_ip = 165; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 165; continue _fun0001 }
  162:
-            michal = zuuluu;
+            var2 = var3;
  165:
-            entity = michal;
+            var1 = var2;
  168:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = golfie;
-    oscard = function(argFoo) { // Original name: isRavenOnboardingGuild
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var7;
+    var6 = function isRavenOnboardingGuild(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            michal = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 1;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = michal.bind(oscard)(entity);
-            option = entity.CreatorMonetizationRavenOnboardingGuildExperiment;
-            report = option.getCurrentConfig;
-            michal = {};
-            entity = null;
-            verify = tangon;
-            if(!(entity == verify)) { _fun00004_ip = 55; continue _fun00003 }
+            var4 = arg1;
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 1;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var2.bind(var6)(var1);
+            var8 = var1.CreatorMonetizationRavenOnboardingGuildExperiment;
+            var5 = var8.getCurrentConfig;
+            var2 = {};
+            var1 = null;
+            var9 = var4;
+            if(!(var1 == var9)) { _fun0002_ip = 55; continue _fun0002 }
  51:
-            verify = _closure1_slot2;
+            var9 = _closure1_slot2;
  55:
-            michal['guildId'] = verify;
-            verify = 'e3bb71_5';
-            michal['location'] = verify;
-            michal = report.bind(option)(michal);
-            michal = michal.enableFastMonetizationOnboardingForGuild;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            oscard = zuuluu.CreatorMonetizationRavenOnboardingUserExperiment;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            golfie = 'e3bb71_6';
-            zuuluu['location'] = golfie;
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.enableFastMonetizationOnboardingForUser;
-            entity = entity != tangon;
-            if(!entity) { _fun00004_ip = 148; continue _fun00003 }
+            var2['guildId'] = var9;
+            var9 = 'e3bb71_5';
+            var2['location'] = var9;
+            var2 = var5.bind(var8)(var2);
+            var2 = var2.enableFastMonetizationOnboardingForGuild;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var6 = var3.CreatorMonetizationRavenOnboardingUserExperiment;
+            var5 = var6.getCurrentConfig;
+            var3 = {};
+            var7 = 'e3bb71_6';
+            var3['location'] = var7;
+            var3 = var5.bind(var6)(var3);
+            var3 = var3.enableFastMonetizationOnboardingForUser;
+            var1 = var1 != var4;
+            if(!var1) { _fun0002_ip = 148; continue _fun0002 }
  139:
-            if(!michal) { _fun00004_ip = 145; continue _fun00003 }
+            if(!var2) { _fun0002_ip = 145; continue _fun0002 }
  142:
-            michal = zuuluu;
+            var2 = var3;
  145:
-            entity = michal;
+            var1 = var2;
  148:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = oscard;
-    report = function(argFoo) { // Original name: useIsWhitegloveOnboardingGuild
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot5 = var6;
+    var5 = function useIsWhitegloveOnboardingGuild(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            entity = report.bind(entity)(zuuluu);
-            oscard = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            report = oscard.useExperiment;
-            zuuluu = {};
-            entity = 'e3bb71_7';
-            zuuluu['location'] = entity;
-            entity = {};
-            golfie = false;
-            entity['autoTrackExposure'] = golfie;
-            entity = report.bind(oscard)(zuuluu, entity);
-            zuuluu = entity.enableFastMonetizationOnboardingForUser;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00006_ip = 117; continue _fun00005 }
+            var4 = arg1;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var3);
+            var6 = var1.CreatorMonetizationRavenOnboardingUserExperiment;
+            var5 = var6.useExperiment;
+            var3 = {};
+            var1 = 'e3bb71_7';
+            var3['location'] = var1;
+            var1 = {};
+            var7 = false;
+            var1['autoTrackExposure'] = var7;
+            var1 = var5.bind(var6)(var3, var1);
+            var3 = var1.enableFastMonetizationOnboardingForUser;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0003_ip = 117; continue _fun0003 }
  82:
-            report = tangon.features;
-            tangon = report.has;
-            michal = _closure1_slot3;
-            michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
-            michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00006_ip = 114; continue _fun00005 }
+            var5 = var4.features;
+            var4 = var5.has;
+            var2 = _closure1_slot3;
+            var2 = var2.CREATOR_MONETIZABLE_WHITEGLOVE;
+            var2 = var4.bind(var5)(var2);
+            if(!var2) { _fun0003_ip = 114; continue _fun0003 }
  111:
-            michal = zuuluu;
+            var2 = var3;
  114:
-            entity = michal;
+            var1 = var2;
  117:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = report;
-    tangon = function(argFoo) { // Original name: isWhitegloveOnboardingGuild
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot6 = var5;
+    var4 = function isWhitegloveOnboardingGuild(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            entity = report.bind(entity)(zuuluu);
-            report = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            zuuluu = report.getCurrentConfig;
-            entity = {};
-            oscard = 'e3bb71_8';
-            entity['location'] = oscard;
-            entity = zuuluu.bind(report)(entity);
-            zuuluu = entity.enableFastMonetizationOnboardingForUser;
-            entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00008_ip = 107; continue _fun00007 }
+            var4 = arg1;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var3);
+            var5 = var1.CreatorMonetizationRavenOnboardingUserExperiment;
+            var3 = var5.getCurrentConfig;
+            var1 = {};
+            var6 = 'e3bb71_8';
+            var1['location'] = var6;
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.enableFastMonetizationOnboardingForUser;
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0004_ip = 107; continue _fun0004 }
  72:
-            report = tangon.features;
-            tangon = report.has;
-            michal = _closure1_slot3;
-            michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
-            michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00008_ip = 104; continue _fun00007 }
+            var5 = var4.features;
+            var4 = var5.has;
+            var2 = _closure1_slot3;
+            var2 = var2.CREATOR_MONETIZABLE_WHITEGLOVE;
+            var2 = var4.bind(var5)(var2);
+            if(!var2) { _fun0004_ip = 104; continue _fun0004 }
  101:
-            michal = zuuluu;
+            var2 = var3;
  104:
-            entity = michal;
+            var1 = var2;
  107:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    option = {};
-    entity = true;
-    option['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, option);
-    entity = 0;
-    option = offset[entity];
-    entity = undefined;
-    option = verify.bind(entity)(option);
-    yankee = option.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot2 = yankee;
-    option = option.GuildFeatures;
-    var _closure1_slot3 = option;
-    option = 2;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx';
-    option = verify.bind(offset)(option);
-    option = function() { // Original name: useIsUserInCreatorMonetizationEligibleCountry
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        tangon = entity.CreatorMonetizationCountryAllowlistExperiment;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        entity = 'e3bb71_1';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.isUserEligibleForCreatorMonetization;
-        return entity;
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var8);
+    var1 = 0;
+    var8 = var10[var1];
+    var1 = undefined;
+    var8 = var9.bind(var1)(var8);
+    var11 = var8.EMPTY_STRING_SNOWFLAKE_ID;
+    var _closure1_slot2 = var11;
+    var8 = var8.GuildFeatures;
+    var _closure1_slot3 = var8;
+    var8 = 2;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityExperimentUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = function useIsUserInCreatorMonetizationEligibleCountry() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var4 = var1.CreatorMonetizationCountryAllowlistExperiment;
+        var3 = var4.useExperiment;
+        var2 = {};
+        var1 = 'e3bb71_1';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.isUserEligibleForCreatorMonetization;
+        return var1;
     };
-    zuuluu['useIsUserInCreatorMonetizationEligibleCountry'] = option;
-    option = function() { // Original name: isUserInCreatorMonetizationEligibleCountry
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        tangon = entity.CreatorMonetizationCountryAllowlistExperiment;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'e3bb71_2';
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.isUserEligibleForCreatorMonetization;
-        return entity;
+    var3['useIsUserInCreatorMonetizationEligibleCountry'] = var8;
+    var8 = function isUserInCreatorMonetizationEligibleCountry() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var4 = var1.CreatorMonetizationCountryAllowlistExperiment;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'e3bb71_2';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = false;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.isUserEligibleForCreatorMonetization;
+        return var1;
     };
-    zuuluu['isUserInCreatorMonetizationEligibleCountry'] = option;
-    zuuluu['useIsRavenOnboardingGuild'] = golfie;
-    zuuluu['isRavenOnboardingGuild'] = oscard;
-    zuuluu['useIsWhitegloveOnboardingGuild'] = report;
-    zuuluu['isWhitegloveOnboardingGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: useIsExpeditedOnboardingGuild
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['isUserInCreatorMonetizationEligibleCountry'] = var8;
+    var3['useIsRavenOnboardingGuild'] = var7;
+    var3['isRavenOnboardingGuild'] = var6;
+    var3['useIsWhitegloveOnboardingGuild'] = var5;
+    var3['isWhitegloveOnboardingGuild'] = var4;
+    var4 = function useIsExpeditedOnboardingGuild(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot4;
-            entity = null;
-            oscard = entity == tangon;
-            zuuluu = undefined;
-            entity = undefined;
-            if(oscard) { _fun00010_ip = 28; continue _fun00009 }
+            var4 = arg1;
+            var5 = _closure1_slot4;
+            var1 = null;
+            var6 = var1 == var4;
+            var3 = undefined;
+            var1 = undefined;
+            if(var6) { _fun0005_ip = 28; continue _fun0005 }
  23:
-            entity = tangon.id;
+            var1 = var4.id;
  28:
-            entity = report.bind(zuuluu)(entity);
-            michal = _closure1_slot6;
-            michal = michal.bind(zuuluu)(tangon);
-            if(entity) { _fun00010_ip = 48; continue _fun00009 }
+            var1 = var5.bind(var3)(var1);
+            var2 = _closure1_slot6;
+            var2 = var2.bind(var3)(var4);
+            if(var1) { _fun0005_ip = 48; continue _fun0005 }
  45:
-            entity = michal;
+            var1 = var2;
  48:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsExpeditedOnboardingGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: isExpeditedMonetizationOnboardingGuild
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['useIsExpeditedOnboardingGuild'] = var4;
+    var4 = function isExpeditedMonetizationOnboardingGuild(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot5;
-            entity = null;
-            oscard = entity == tangon;
-            zuuluu = undefined;
-            entity = undefined;
-            if(oscard) { _fun00012_ip = 28; continue _fun00011 }
+            var4 = arg1;
+            var5 = _closure1_slot5;
+            var1 = null;
+            var6 = var1 == var4;
+            var3 = undefined;
+            var1 = undefined;
+            if(var6) { _fun0006_ip = 28; continue _fun0006 }
  23:
-            entity = tangon.id;
+            var1 = var4.id;
  28:
-            entity = report.bind(zuuluu)(entity);
-            if(entity) { _fun00012_ip = 45; continue _fun00011 }
+            var1 = var5.bind(var3)(var1);
+            if(var1) { _fun0006_ip = 45; continue _fun0006 }
  36:
-            michal = _closure1_slot7;
-            entity = michal.bind(zuuluu)(tangon);
+            var2 = _closure1_slot7;
+            var1 = var2.bind(var3)(var4);
  45:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isExpeditedMonetizationOnboardingGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: useIsMonetizationWaitlistEnabledForGuild
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['isExpeditedMonetizationOnboardingGuild'] = var4;
+    var4 = function useIsMonetizationWaitlistEnabledForGuild(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            entity = argFoo;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = 1;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            tangon = michal.CreatorMonetizationOnboardingWaitlistExperiment;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            oscard = null;
-            if(!(oscard == entity)) { _fun00014_ip = 52; continue _fun00013 }
+            var1 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var4 = var2.CreatorMonetizationOnboardingWaitlistExperiment;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var6 = null;
+            if(!(var6 == var1)) { _fun0007_ip = 52; continue _fun0007 }
  48:
-            entity = _closure1_slot2;
+            var1 = _closure1_slot2;
  52:
-            michal['guildId'] = entity;
-            entity = 'e3bb71_9';
-            michal['location'] = entity;
-            entity = {};
-            report = false;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            entity = entity.enableWaitlist;
-            return entity;
+            var2['guildId'] = var1;
+            var1 = 'e3bb71_9';
+            var2['location'] = var1;
+            var1 = {};
+            var5 = false;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.enableWaitlist;
+            return var1;
         }
     };
-    zuuluu['useIsMonetizationWaitlistEnabledForGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: isMonetizationWaitlistEnabledForGuild
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['useIsMonetizationWaitlistEnabledForGuild'] = var4;
+    var4 = function isMonetizationWaitlistEnabledForGuild(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            zuuluu = entity.CreatorMonetizationOnboardingWaitlistExperiment;
-            michal = zuuluu.getCurrentConfig;
-            entity = {};
-            oscard = null;
-            if(!(oscard == tangon)) { _fun00016_ip = 52; continue _fun00015 }
+            var4 = arg1;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var3 = var1.CreatorMonetizationOnboardingWaitlistExperiment;
+            var2 = var3.getCurrentConfig;
+            var1 = {};
+            var6 = null;
+            if(!(var6 == var4)) { _fun0008_ip = 52; continue _fun0008 }
  48:
-            tangon = _closure1_slot2;
+            var4 = _closure1_slot2;
  52:
-            entity['guildId'] = tangon;
-            tangon = 'e3bb71_10';
-            entity['location'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = entity.enableWaitlist;
-            return entity;
+            var1['guildId'] = var4;
+            var4 = 'e3bb71_10';
+            var1['location'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = var1.enableWaitlist;
+            return var1;
         }
     };
-    zuuluu['isMonetizationWaitlistEnabledForGuild'] = tangon;
-    michal = function() { // Original name: isCreatorMonetizationNagActivateEnabled
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 1;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        tangon = entity.CreatorMonetizationNagActivateExperiment;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        entity = 'e3bb71_11';
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enableCreatorMonetizationNagActivateForUser;
-        return entity;
+    var3['isMonetizationWaitlistEnabledForGuild'] = var4;
+    var2 = function isCreatorMonetizationNagActivateEnabled() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var4 = var1.CreatorMonetizationNagActivateExperiment;
+        var3 = var4.getCurrentConfig;
+        var2 = {};
+        var1 = 'e3bb71_11';
+        var2['location'] = var1;
+        var1 = {};
+        var5 = true;
+        var1['autoTrackExposure'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = var1.enableCreatorMonetizationNagActivateForUser;
+        return var1;
     };
-    zuuluu['isCreatorMonetizationNagActivateEnabled'] = michal;
-    return entity;
+    var3['isCreatorMonetizationNagActivateEnabled'] = var2;
+    return var1;
 })();

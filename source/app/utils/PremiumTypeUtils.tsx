@@ -1,115 +1,115 @@
 // app/utils/PremiumTypeUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    oscard = function(argFoo, argBar) { // Original name: isPremiumAtLeast
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var6 = function isPremiumAtLeast(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            michal = null;
-            entity = michal == report;
-            if(entity) { _fun00002_ip = 48; continue _fun00001 }
+            var6 = arg1;
+            var5 = arg2;
+            var2 = null;
+            var1 = var2 == var5;
+            if(var1) { _fun0001_ip = 48; continue _fun0001 }
  15:
-            michal = michal != oscard;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            var2 = var2 != var6;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  22:
-            tangon = _closure1_slot0;
-            tangon = tangon[oscard];
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu[report];
-            michal = tangon >= zuuluu;
+            var4 = _closure1_slot0;
+            var4 = var4[var6];
+            var3 = _closure1_slot0;
+            var3 = var3[var5];
+            var2 = var4 >= var3;
  45:
-            entity = michal;
+            var1 = var2;
  48:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot1 = oscard;
-    tangon = function(argFoo, argBar) { // Original name: isPremium
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot1 = var6;
+    var4 = function isPremium(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            tangon = null;
-            entity = tangon != michal;
-            if(!entity) { _fun00004_ip = 22; continue _fun00003 }
+            var2 = arg1;
+            var4 = null;
+            var1 = var4 != var2;
+            if(!var1) { _fun0002_ip = 22; continue _fun0002 }
  12:
-            zuuluu = michal.premiumType;
-            entity = tangon != zuuluu;
+            var3 = var2.premiumType;
+            var1 = var4 != var3;
  22:
-            if(!entity) { _fun00004_ip = 49; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 49; continue _fun0002 }
  25:
-            report = _closure1_slot1;
-            tangon = michal.premiumType;
-            zuuluu = undefined;
-            michal = argBar;
-            entity = report.bind(zuuluu)(tangon, michal);
+            var5 = _closure1_slot1;
+            var4 = var2.premiumType;
+            var3 = undefined;
+            var2 = arg2;
+            var1 = var5.bind(var3)(var4, var2);
  49:
-            return entity;
+            return var1;
         }
     };
-    michal = function(argFoo, argBar) { // Original name: isPremiumExactly
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var2 = function isPremiumExactly(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00006_ip = 25; continue _fun00005 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0003_ip = 25; continue _fun0003 }
  12:
-            zuuluu = michal.premiumType;
-            michal = argBar;
-            entity = zuuluu === michal;
+            var3 = var2.premiumType;
+            var2 = arg2;
+            var1 = var3 === var2;
  25:
-            return entity;
+            return var1;
         }
     };
-    entity = global;
-    yankee = entity.Object;
-    option = yankee.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(yankee)(zuuluu, entity, golfie);
-    entity = 0;
-    golfie = offset[entity];
-    entity = undefined;
-    golfie = verify.bind(entity)(golfie);
-    golfie = golfie.PremiumTypeOrder;
-    var _closure1_slot0 = golfie;
-    golfie = {};
-    golfie['isPremiumAtLeast'] = oscard;
-    golfie['isPremium'] = tangon;
-    golfie['isPremiumExactly'] = michal;
-    option = 1;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'utils/PremiumTypeUtils.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['default'] = golfie;
-    zuuluu['isPremiumAtLeast'] = oscard;
-    report = function(argFoo, argBar) { // Original name: isPremiumAtMost
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var1 = global;
+    var11 = var1.Object;
+    var8 = var11.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var11)(var3, var1, var7);
+    var1 = 0;
+    var7 = var10[var1];
+    var1 = undefined;
+    var7 = var9.bind(var1)(var7);
+    var7 = var7.PremiumTypeOrder;
+    var _closure1_slot0 = var7;
+    var7 = {};
+    var7['isPremiumAtLeast'] = var6;
+    var7['isPremium'] = var4;
+    var7['isPremiumExactly'] = var2;
+    var8 = 1;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'utils/PremiumTypeUtils.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['isPremiumAtLeast'] = var6;
+    var5 = function isPremiumAtMost(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            entity = entity == tangon;
-            if(entity) { _fun00008_ip = 38; continue _fun00007 }
+            var4 = arg1;
+            var1 = null;
+            var1 = var1 == var4;
+            if(var1) { _fun0004_ip = 38; continue _fun0004 }
  12:
-            zuuluu = _closure1_slot0;
-            zuuluu = zuuluu[tangon];
-            tangon = _closure1_slot0;
-            michal = argBar;
-            michal = tangon[michal];
-            entity = zuuluu <= michal;
+            var3 = _closure1_slot0;
+            var3 = var3[var4];
+            var4 = _closure1_slot0;
+            var2 = arg2;
+            var2 = var4[var2];
+            var1 = var3 <= var2;
  38:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isPremiumAtMost'] = report;
-    zuuluu['isPremium'] = tangon;
-    zuuluu['isPremiumExactly'] = michal;
-    return entity;
+    var3['isPremiumAtMost'] = var5;
+    var3['isPremium'] = var4;
+    var3['isPremiumExactly'] = var2;
+    return var1;
 })();

@@ -1,274 +1,274 @@
 // app/modules/hangouts/native/NativeHangoutsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        zuuluu = argFre;
-        oscard = argPlu;
-        var _closure1_slot0 = report;
-        entity = argBaz;
-        var _closure1_slot1 = entity;
-        var _closure1_slot2 = oscard;
-        entity = global;
-        option = entity.Object;
-        golfie = option.defineProperty;
-        tangon = {};
-        entity = true;
-        tangon['value'] = entity;
-        entity = '__esModule';
-        entity = golfie.bind(option)(zuuluu, entity, tangon);
-        entity = 0;
-        tangon = oscard[entity];
-        entity = undefined;
-        tangon = report.bind(entity)(tangon);
-        option = tangon.NativeEventEmitter;
-        tangon = tangon.NativeModules;
-        var _closure1_slot3 = tangon;
-        golfie = 1;
-        golfie = oscard[golfie];
-        verify = report.bind(entity)(golfie);
-        golfie = verify.isIOS;
-        golfie = golfie.bind(verify)();
-        if(!golfie) { _fun00002_ip = 163; continue _fun00001 }
+        var5 = native2;
+        var3 = native6;
+        var6 = native7;
+        var _closure1_slot0 = var5;
+        var1 = native3;
+        var _closure1_slot1 = var1;
+        var _closure1_slot2 = var6;
+        var1 = global;
+        var8 = var1.Object;
+        var7 = var8.defineProperty;
+        var4 = {};
+        var1 = true;
+        var4['value'] = var1;
+        var1 = '__esModule';
+        var1 = var7.bind(var8)(var3, var1, var4);
+        var1 = 0;
+        var4 = var6[var1];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var4);
+        var8 = var4.NativeEventEmitter;
+        var4 = var4.NativeModules;
+        var _closure1_slot3 = var4;
+        var7 = 1;
+        var7 = var6[var7];
+        var9 = var5.bind(var1)(var7);
+        var7 = var9.isIOS;
+        var7 = var7.bind(var9)();
+        if(!var7) { _fun0001_ip = 163; continue _fun0001 }
  112:
-        romeon = tangon.DCDLockscreenWidgetManager;
-        golfie = option.prototype;
-        golfie = Object.create(golfie, {constructor: {value: option}});
-        foxtra = golfie;
-        tangon = new foxtra[option](romeon, yankee);
-        verify = tangon instanceof Object ? tangon : golfie;
-        option = verify.addListener;
-        golfie = 'pushTokenUpdate';
-        tangon = function(argFoo) {
-            entity = argFoo;
-            report = entity.token;
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 2;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            oscard = 'HANGOUT_PUSH_TOKEN_UPDATE';
-            michal['type'] = oscard;
-            michal['token'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+        var12 = var4.DCDLockscreenWidgetManager;
+        var7 = var8.prototype;
+        var7 = Object.create(var7, {constructor: {value: var8}});
+        var13 = var7;
+        var4 = new var13[var8](var12, var11);
+        var9 = var4 instanceof Object ? var4 : var7;
+        var8 = var9.addListener;
+        var7 = 'pushTokenUpdate';
+        var4 = function(arg1) {
+            var1 = arg1;
+            var5 = var1.token;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var6 = 'HANGOUT_PUSH_TOKEN_UPDATE';
+            var2['type'] = var6;
+            var2['token'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        tangon = option.bind(verify)(golfie, tangon);
+        var4 = var8.bind(var9)(var7, var4);
  163:
-        tangon = 3;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/hangouts/native/NativeHangoutsUtils.tsx';
-        tangon = report.bind(oscard)(tangon);
-        tangon = function(argFoo, argBar) { // Original name: preloadAsset
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var4 = 3;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/hangouts/native/NativeHangoutsUtils.tsx';
+        var4 = var5.bind(var6)(var4);
+        var4 = function preloadAsset(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isIOS;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00004_ip = 68; continue _fun00003 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isIOS;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0002_ip = 68; continue _fun0002 }
  38:
-                michal = _closure1_slot3;
-                report = michal.DCDLockscreenWidgetManager;
-                tangon = report.downloadAndStoreImage;
-                zuuluu = argFoo;
-                michal = argBar;
-                michal = tangon.bind(report)(zuuluu, michal);
+                var2 = _closure1_slot3;
+                var5 = var2.DCDLockscreenWidgetManager;
+                var4 = var5.downloadAndStoreImage;
+                var3 = arg1;
+                var2 = arg2;
+                var2 = var4.bind(var5)(var3, var2);
  68:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['preloadAsset'] = tangon;
-        tangon = function() { // Original name: hasActivity
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3['preloadAsset'] = var4;
+        var4 = function hasActivity() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                report = _closure1_slot0;
-                tangon = _closure1_slot2;
-                michal = 1;
-                tangon = tangon[michal];
-                michal = undefined;
-                tangon = report.bind(michal)(tangon);
-                michal = tangon.isIOS;
-                tangon = michal.bind(tangon)();
-                michal = global;
-                if(tangon) { _fun00006_ip = 75; continue _fun00005 }
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 1;
+                var4 = var4[var2];
+                var2 = undefined;
+                var4 = var5.bind(var2)(var4);
+                var2 = var4.isIOS;
+                var4 = var2.bind(var4)();
+                var2 = global;
+                if(var4) { _fun0003_ip = 75; continue _fun0003 }
  42:
-                oscard = michal.Promise;
-                report = oscard.resolve;
-                tangon = {'hasActivity': false, 'hasActiveActivity': false};
-                tangon = report.bind(oscard)(tangon);
-                return tangon;
+                var6 = var2.Promise;
+                var5 = var6.resolve;
+                var4 = {'hasActivity': false, 'hasActiveActivity': false};
+                var4 = var5.bind(var6)(var4);
+                return var4;
  75:
-                zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.DCDLockscreenWidgetManager;
-                var _closure2_slot0 = zuuluu;
-                zuuluu = michal.Promise;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                golfie = function(argFoo) {
-                    michal = argFoo;
-                    var _closure3_slot0 = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu.hasActivity;
-                    entity = function(argFoo, argBar, argBaz) {
-                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var3 = _closure1_slot3;
+                var3 = var3.DCDLockscreenWidgetManager;
+                var _closure2_slot0 = var3;
+                var3 = var2.Promise;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var7 = function(arg1) {
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var3 = _closure2_slot0;
+                    var2 = var3.hasActivity;
+                    var1 = function(arg1, arg2, arg3) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                            zuuluu = _closure3_slot0;
-                            michal = null;
-                            entity = argFoo;
-                            if(!(michal == entity)) { _fun00008_ip = 36; continue _fun00007 }
+                            var3 = _closure3_slot0;
+                            var2 = null;
+                            var1 = arg1;
+                            if(!(var2 == var1)) { _fun0004_ip = 36; continue _fun0004 }
  16:
-                            michal = {};
-                            entity = argBar;
-                            michal['hasActivity'] = entity;
-                            entity = argBaz;
-                            michal['hasActiveActivity'] = entity;
-                            _fun00008_ip = 50; continue _fun00007;
+                            var2 = {};
+                            var1 = arg2;
+                            var2['hasActivity'] = var1;
+                            var1 = arg3;
+                            var2['hasActiveActivity'] = var1;
+                            _fun0004_ip = 50; continue _fun0004;
  36:
-                            michal = {'hasActivity': false, 'hasActiveActivity': false};
+                            var2 = {'hasActivity': false, 'hasActiveActivity': false};
  50:
-                            entity = undefined;
-                            michal = zuuluu.bind(entity)(michal);
-                            return entity;
+                            var1 = undefined;
+                            var2 = var3.bind(var1)(var2);
+                            return var1;
                         }
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                option = michal;
-                entity = new option[zuuluu](golfie, oscard);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var8 = var2;
+                var1 = new var8[var3](var7, var6);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             }
         };
-        zuuluu['hasActivity'] = tangon;
-        tangon = function() { // Original name: stopHangoutActivity
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var3['hasActivity'] = var4;
+        var4 = function stopHangoutActivity() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = arguments[0];
-                entity = undefined;
-                if(!(tangon === entity)) { _fun00010_ip = 11; continue _fun00009 }
+                var4 = arguments[0];
+                var1 = undefined;
+                if(!(var4 === var1)) { _fun0005_ip = 11; continue _fun0005 }
  9:
-                tangon = 0;
+                var4 = 0;
  11:
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                zuuluu = 1;
-                zuuluu = oscard[zuuluu];
-                report = report.bind(entity)(zuuluu);
-                zuuluu = report.isIOS;
-                zuuluu = zuuluu.bind(report)();
-                if(!zuuluu) { _fun00010_ip = 70; continue _fun00009 }
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 1;
+                var3 = var6[var3];
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.isIOS;
+                var3 = var3.bind(var5)();
+                if(!var3) { _fun0005_ip = 70; continue _fun0005 }
  47:
-                michal = _closure1_slot3;
-                zuuluu = michal.DCDLockscreenWidgetManager;
-                michal = zuuluu.endActivity;
-                michal = michal.bind(zuuluu)(tangon);
+                var2 = _closure1_slot3;
+                var3 = var2.DCDLockscreenWidgetManager;
+                var2 = var3.endActivity;
+                var2 = var2.bind(var3)(var4);
  70:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['stopHangoutActivity'] = tangon;
-        tangon = function(argFoo) { // Original name: startHangoutActivity
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var3['stopHangoutActivity'] = var4;
+        var4 = function startHangoutActivity(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 1;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.isIOS;
-                zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00012_ip = 83; continue _fun00011 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 1;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.isIOS;
+                var3 = var3.bind(var4)();
+                if(!var3) { _fun0006_ip = 83; continue _fun0006 }
  38:
-                michal = _closure1_slot3;
-                tangon = michal.DCDLockscreenWidgetManager;
-                zuuluu = tangon.startActivity;
-                michal = global;
-                oscard = michal.JSON;
-                report = oscard.stringify;
-                michal = argFoo;
-                michal = report.bind(oscard)(michal);
-                michal = zuuluu.bind(tangon)(michal);
+                var2 = _closure1_slot3;
+                var4 = var2.DCDLockscreenWidgetManager;
+                var3 = var4.startActivity;
+                var2 = global;
+                var6 = var2.JSON;
+                var5 = var6.stringify;
+                var2 = arg1;
+                var2 = var5.bind(var6)(var2);
+                var2 = var3.bind(var4)(var2);
  83:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['startHangoutActivity'] = tangon;
-        michal = function() { // Original name: activitiesAllowed
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var3['startHangoutActivity'] = var4;
+        var2 = function activitiesAllowed() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                report = _closure1_slot0;
-                tangon = _closure1_slot2;
-                michal = 1;
-                tangon = tangon[michal];
-                michal = undefined;
-                tangon = report.bind(michal)(tangon);
-                michal = tangon.isIOS;
-                tangon = michal.bind(tangon)();
-                michal = global;
-                if(tangon) { _fun00014_ip = 65; continue _fun00013 }
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 1;
+                var4 = var4[var2];
+                var2 = undefined;
+                var4 = var5.bind(var2)(var4);
+                var2 = var4.isIOS;
+                var4 = var2.bind(var4)();
+                var2 = global;
+                if(var4) { _fun0007_ip = 65; continue _fun0007 }
  42:
-                oscard = michal.Promise;
-                report = oscard.reject;
-                tangon = 'unsupported';
-                tangon = report.bind(oscard)(tangon);
-                return tangon;
+                var6 = var2.Promise;
+                var5 = var6.reject;
+                var4 = 'unsupported';
+                var4 = var5.bind(var6)(var4);
+                return var4;
  65:
-                zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.DCDLockscreenWidgetManager;
-                var _closure2_slot0 = zuuluu;
-                zuuluu = michal.Promise;
-                michal = zuuluu.prototype;
-                michal = Object.create(michal, {constructor: {value: zuuluu}});
-                golfie = function(argFoo, argBar) {
-                    michal = argFoo;
-                    var _closure3_slot0 = michal;
-                    michal = argBar;
-                    var _closure3_slot1 = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = zuuluu.activitiesAllowed;
-                    entity = function(argFoo, argBar) {
-                        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                var3 = _closure1_slot3;
+                var3 = var3.DCDLockscreenWidgetManager;
+                var _closure2_slot0 = var3;
+                var3 = var2.Promise;
+                var2 = var3.prototype;
+                var2 = Object.create(var2, {constructor: {value: var3}});
+                var7 = function(arg1, arg2) {
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var2 = arg2;
+                    var _closure3_slot1 = var2;
+                    var3 = _closure2_slot0;
+                    var2 = var3.activitiesAllowed;
+                    var1 = function(arg1, arg2) {
+                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                            zuuluu = argFoo;
-                            entity = null;
-                            if(!(entity == zuuluu)) { _fun00016_ip = 28; continue _fun00015 }
+                            var3 = arg1;
+                            var1 = null;
+                            if(!(var1 == var3)) { _fun0008_ip = 28; continue _fun0008 }
  9:
-                            tangon = _closure3_slot0;
-                            michal = undefined;
-                            entity = argBar;
-                            entity = tangon.bind(michal)(entity);
-                            _fun00016_ip = 42; continue _fun00015;
+                            var4 = _closure3_slot0;
+                            var2 = undefined;
+                            var1 = arg2;
+                            var1 = var4.bind(var2)(var1);
+                            _fun0008_ip = 42; continue _fun0008;
  28:
-                            michal = _closure3_slot1;
-                            entity = undefined;
-                            entity = michal.bind(entity)(zuuluu);
+                            var2 = _closure3_slot1;
+                            var1 = undefined;
+                            var1 = var2.bind(var1)(var3);
  42:
-                            entity = undefined;
-                            return entity;
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 };
-                option = michal;
-                entity = new option[zuuluu](golfie, oscard);
-                entity = entity instanceof Object ? entity : michal;
-                return entity;
+                var8 = var2;
+                var1 = new var8[var3](var7, var6);
+                var1 = var1 instanceof Object ? var1 : var2;
+                return var1;
             }
         };
-        zuuluu['activitiesAllowed'] = michal;
-        return entity;
+        var3['activitiesAllowed'] = var2;
+        return var1;
     }
 })();

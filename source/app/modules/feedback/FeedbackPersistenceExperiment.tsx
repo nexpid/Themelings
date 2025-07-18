@@ -1,118 +1,118 @@
 // app/modules/feedback/FeedbackPersistenceExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    romeon = true;
-    tangon['value'] = romeon;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    yankee = {'persistToBackend': false, 'showMobileOptOuts': false};
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    option = report.bind(entity)(tangon);
-    golfie = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-05_feedback_persistence_experiment', 'label': 'Feedback metadata persistence'};
-    tangon['defaultConfig'] = yankee;
-    offset = {'id': 1, 'label': 'Persist impression times and opt-outs to backend; show mobile opt-outs'};
-    verify = {};
-    kiloes = verify;
-    backup = yankee;
-    yankee = copyDataProperties(kiloes, backup);
-    yankee = 'persistToBackend';
-    verify[yankee] = romeon;
-    yankee = 'showMobileOptOuts';
-    verify[yankee] = romeon;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    tangon['treatments'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/feedback/FeedbackPersistenceExperiment.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getFeedbackPersistenceExperimentConfig
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var12 = true;
+    var4['value'] = var12;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var11 = {'persistToBackend': false, 'showMobileOptOuts': false};
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createExperiment;
+    var4 = {'kind': 'user', 'id': '2025-05_feedback_persistence_experiment', 'label': 'Feedback metadata persistence'};
+    var4['defaultConfig'] = var11;
+    var10 = {'id': 1, 'label': 'Persist impression times and opt-outs to backend; show mobile opt-outs'};
+    var9 = {};
+    var15 = var9;
+    var14 = var11;
+    var11 = copyDataProperties(var15, var14);
+    var11 = 'persistToBackend';
+    var9[var11] = var12;
+    var11 = 'showMobileOptOuts';
+    var9[var11] = var12;
+    var10['config'] = var9;
+    var9 = new Array(1);
+    var9[0] = var10;
+    var4['treatments'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/feedback/FeedbackPersistenceExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getFeedbackPersistenceExperimentConfig(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            oscard = undefined;
-            if(!(report === oscard)) { _fun00002_ip = 22; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var6 = undefined;
+            if(!(var5 === var6)) { _fun0001_ip = 22; continue _fun0001 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = golfie[zuuluu];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            golfie = zuuluu.AVHoldoutExperimentH12025;
-            oscard = golfie.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = entity;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = report;
-            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
-            oscard = zuuluu.isInHoldout;
-            tangon = _closure1_slot2;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['disable'] = oscard;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 1;
+            var3 = var7[var3];
+            var3 = var4.bind(var6)(var3);
+            var7 = var3.AVHoldoutExperimentH12025;
+            var6 = var7.getCurrentConfig;
+            var4 = {};
+            var4['location'] = var1;
+            var3 = {};
+            var3['autoTrackExposure'] = var5;
+            var3 = var6.bind(var7)(var4, var3);
+            var6 = var3.isInHoldout;
+            var4 = _closure1_slot2;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['disable'] = var6;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['getFeedbackPersistenceExperimentConfig'] = tangon;
-    michal = function(argFoo) { // Original name: useFeedbackPersistenceExperiment
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getFeedbackPersistenceExperimentConfig'] = var4;
+    var2 = function useFeedbackPersistenceExperiment(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = michal.location;
-            report = michal.autoTrackExposure;
-            oscard = undefined;
-            if(!(report === oscard)) { _fun00004_ip = 22; continue _fun00003 }
+            var2 = arg1;
+            var1 = var2.location;
+            var5 = var2.autoTrackExposure;
+            var6 = undefined;
+            if(!(var5 === var6)) { _fun0002_ip = 22; continue _fun0002 }
  20:
-            report = true;
+            var5 = true;
  22:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 1;
-            zuuluu = golfie[zuuluu];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            golfie = zuuluu.AVHoldoutExperimentH12025;
-            oscard = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = entity;
-            zuuluu = {};
-            zuuluu['autoTrackExposure'] = report;
-            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
-            oscard = zuuluu.isInHoldout;
-            tangon = _closure1_slot2;
-            zuuluu = tangon.useExperiment;
-            michal = {};
-            michal['location'] = entity;
-            entity = {};
-            entity['disable'] = oscard;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 1;
+            var3 = var7[var3];
+            var3 = var4.bind(var6)(var3);
+            var7 = var3.AVHoldoutExperimentH12025;
+            var6 = var7.useExperiment;
+            var4 = {};
+            var4['location'] = var1;
+            var3 = {};
+            var3['autoTrackExposure'] = var5;
+            var3 = var6.bind(var7)(var4, var3);
+            var6 = var3.isInHoldout;
+            var4 = _closure1_slot2;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['disable'] = var6;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['useFeedbackPersistenceExperiment'] = michal;
-    return entity;
+    var3['useFeedbackPersistenceExperiment'] = var2;
+    return var1;
 })();

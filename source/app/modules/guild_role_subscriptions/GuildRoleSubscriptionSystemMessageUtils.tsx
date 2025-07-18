@@ -1,468 +1,468 @@
 // app/modules/guild_role_subscriptions/GuildRoleSubscriptionSystemMessageUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: identityHook
-        entity = argFoo;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function identityHook(arg1) {
+        var1 = arg1;
+        return var1;
     };
-    var _closure1_slot10 = entity;
-    entity = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseContentCommonData
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function getRoleSubscriptionPurchaseContentCommonData(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argBar;
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.getGuild;
-            entity = argFoo;
-            golfie = michal.bind(zuuluu)(entity);
-            michal = null;
-            report = michal == tangon;
-            entity = undefined;
-            if(report) { _fun00002_ip = 40; continue _fun00001 }
+            var4 = arg2;
+            var3 = _closure1_slot3;
+            var2 = var3.getGuild;
+            var1 = arg1;
+            var7 = var2.bind(var3)(var1);
+            var2 = null;
+            var5 = var2 == var4;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 40; continue _fun0001 }
  34:
-            entity = tangon.total_months_subscribed;
+            var1 = var4.total_months_subscribed;
  40:
-            option = michal != entity;
-            oscard = 0;
-            report = 0;
-            if(!option) { _fun00002_ip = 54; continue _fun00001 }
+            var8 = var2 != var1;
+            var6 = 0;
+            var5 = 0;
+            if(!var8) { _fun0001_ip = 54; continue _fun0001 }
  51:
-            report = entity;
+            var5 = var1;
  54:
-            entity = {};
-            entity['guild'] = golfie;
-            entity['totalMonthsSubscribed'] = report;
-            report = report > oscard;
-            entity['showWithDuration'] = report;
-            report = michal == tangon;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 91; continue _fun00001 }
+            var1 = {};
+            var1['guild'] = var7;
+            var1['totalMonthsSubscribed'] = var5;
+            var5 = var5 > var6;
+            var1['showWithDuration'] = var5;
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 91; continue _fun0001 }
  83:
-            zuuluu = tangon.is_renewal;
+            var3 = var4.is_renewal;
  91:
-            michal = michal != zuuluu;
-            if(!michal) { _fun00002_ip = 101; continue _fun00001 }
+            var2 = var2 != var3;
+            if(!var2) { _fun0001_ip = 101; continue _fun0001 }
  98:
-            michal = zuuluu;
+            var2 = var3;
  101:
-            entity['isRenewal'] = michal;
-            return entity;
+            var1['isRenewal'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot11 = entity;
-    entity = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageContent
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function getRoleSubscriptionPurchaseSystemMessageContent(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            option = entity.username;
-            oscard = entity.usernameOnClickHandler;
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00004_ip = 27; continue _fun00003 }
+            var1 = arg1;
+            var8 = var1.username;
+            var6 = var1.usernameOnClickHandler;
+            var4 = undefined;
+            if(!(var6 === var4)) { _fun0002_ip = 27; continue _fun0002 }
  20:
-            oscard = _closure1_slot10;
+            var6 = _closure1_slot10;
  27:
-            golfie = entity.roleSubscriptionOnClickHandler;
-            if(!(golfie === tangon)) { _fun00004_ip = 44; continue _fun00003 }
+            var7 = var1.roleSubscriptionOnClickHandler;
+            if(!(var7 === var4)) { _fun0002_ip = 44; continue _fun0002 }
  37:
-            golfie = _closure1_slot9;
+            var7 = _closure1_slot9;
  44:
-            michal = entity.guildId;
-            report = entity.roleSubscriptionData;
-            entity = _closure1_slot11;
-            entity = entity.bind(tangon)(michal, report);
-            verify = entity.guild;
-            zuuluu = entity.totalMonthsSubscribed;
-            michal = entity.showWithDuration;
-            offset = entity.isRenewal;
-            entity = {};
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            yankee = 5;
-            yankee = foxtra[yankee];
-            yankee = romeon.bind(tangon)(yankee);
-            yankee = yankee.t;
-            if(michal) { _fun00004_ip = 144; continue _fun00003 }
+            var2 = var1.guildId;
+            var5 = var1.roleSubscriptionData;
+            var1 = _closure1_slot11;
+            var1 = var1.bind(var4)(var2, var5);
+            var9 = var1.guild;
+            var3 = var1.totalMonthsSubscribed;
+            var2 = var1.showWithDuration;
+            var10 = var1.isRenewal;
+            var1 = {};
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 5;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.t;
+            if(var2) { _fun0002_ip = 144; continue _fun0002 }
  121:
-            if(offset) { _fun00004_ip = 134; continue _fun00003 }
+            if(var10) { _fun0002_ip = 134; continue _fun0002 }
  124:
-            michal = yankee.mYjFFx;
-            _fun00004_ip = 142; continue _fun00003;
+            var2 = var11.mYjFFx;
+            _fun0002_ip = 142; continue _fun0002;
  134:
-            michal = yankee.mPTTdn;
+            var2 = var11.mPTTdn;
  142:
-            _fun00004_ip = 168; continue _fun00003;
+            _fun0002_ip = 168; continue _fun0002;
  144:
-            if(offset) { _fun00004_ip = 157; continue _fun00003 }
+            if(var10) { _fun0002_ip = 157; continue _fun0002 }
  147:
-            offset = yankee.eCgb2d;
-            _fun00004_ip = 165; continue _fun00003;
+            var10 = var11.eCgb2d;
+            _fun0002_ip = 165; continue _fun0002;
  157:
-            offset = yankee.Iy66Mz;
+            var10 = var11.Iy66Mz;
  165:
-            michal = offset;
+            var2 = var10;
  168:
-            entity['content'] = michal;
-            michal = {};
-            michal['username'] = option;
-            michal['usernameHook'] = oscard;
-            oscard = null;
-            offset = oscard == verify;
-            option = undefined;
-            if(offset) { _fun00004_ip = 199; continue _fun00003 }
+            var1['content'] = var2;
+            var2 = {};
+            var2['username'] = var8;
+            var2['usernameHook'] = var6;
+            var6 = null;
+            var10 = var6 == var9;
+            var8 = undefined;
+            if(var10) { _fun0002_ip = 199; continue _fun0002 }
  194:
-            option = verify.name;
+            var8 = var9.name;
  199:
-            michal['guildName'] = option;
-            michal['handleGuildNameClick'] = golfie;
-            oscard = oscard == report;
-            tangon = undefined;
-            if(oscard) { _fun00004_ip = 226; continue _fun00003 }
+            var2['guildName'] = var8;
+            var2['handleGuildNameClick'] = var7;
+            var6 = var6 == var5;
+            var4 = undefined;
+            if(var6) { _fun0002_ip = 226; continue _fun0002 }
  220:
-            tangon = report.tier_name;
+            var4 = var5.tier_name;
  226:
-            michal['tierName'] = tangon;
-            michal['months'] = zuuluu;
-            entity['formatParams'] = michal;
-            return entity;
+            var2['tierName'] = var4;
+            var2['months'] = var3;
+            var1['formatParams'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot12 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.getJoinButtonLabels;
-    var _closure1_slot5 = golfie;
-    golfie = tangon.getRenewButtonLabels;
-    var _closure1_slot6 = golfie;
-    tangon = tangon.STICKERS;
-    var _closure1_slot7 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot8 = golfie;
-    tangon = tangon.NOOP;
-    var _closure1_slot9 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_role_subscriptions/GuildRoleSubscriptionSystemMessageUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: pickRoleSubscriptionPurchaseSticker
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot12 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.getJoinButtonLabels;
+    var _closure1_slot5 = var7;
+    var7 = var4.getRenewButtonLabels;
+    var _closure1_slot6 = var7;
+    var4 = var4.STICKERS;
+    var _closure1_slot7 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot8 = var7;
+    var4 = var4.NOOP;
+    var _closure1_slot9 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_role_subscriptions/GuildRoleSubscriptionSystemMessageUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function pickRoleSubscriptionPurchaseSticker(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.getCurrentUser;
-            zuuluu = michal.bind(zuuluu)();
-            michal = null;
-            tangon = michal == zuuluu;
-            report = undefined;
-            oscard = undefined;
-            if(tangon) { _fun00006_ip = 34; continue _fun00005 }
+            var3 = _closure1_slot4;
+            var2 = var3.getCurrentUser;
+            var3 = var2.bind(var3)();
+            var2 = null;
+            var4 = var2 == var3;
+            var5 = undefined;
+            var6 = undefined;
+            if(var4) { _fun0003_ip = 34; continue _fun0003 }
  29:
-            oscard = zuuluu.id;
+            var6 = var3.id;
  34:
-            michal = michal != oscard;
-            zuuluu = 0;
-            if(!michal) { _fun00006_ip = 74; continue _fun00005 }
+            var2 = var2 != var6;
+            var3 = 0;
+            if(!var2) { _fun0003_ip = 74; continue _fun0003 }
  43:
-            tangon = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 4;
-            michal = golfie[michal];
-            tangon = tangon.bind(report)(michal);
-            michal = tangon.extractTimestamp;
-            zuuluu = michal.bind(tangon)(oscard);
+            var4 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var4 = var4.bind(var5)(var2);
+            var2 = var4.extractTimestamp;
+            var3 = var2.bind(var4)(var6);
  74:
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 4;
-            michal = oscard[michal];
-            report = tangon.bind(report)(michal);
-            tangon = report.extractTimestamp;
-            michal = argFoo;
-            michal = tangon.bind(report)(michal);
-            zuuluu = zuuluu + michal;
-            michal = _closure1_slot7;
-            entity = michal.length;
-            entity = zuuluu % entity;
-            entity = michal[entity];
-            return entity;
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.extractTimestamp;
+            var2 = arg1;
+            var2 = var4.bind(var5)(var2);
+            var3 = var3 + var2;
+            var2 = _closure1_slot7;
+            var1 = var2.length;
+            var1 = var3 % var1;
+            var1 = var2[var1];
+            return var1;
         }
     };
-    zuuluu['pickRoleSubscriptionPurchaseSticker'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseStickerCTA
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['pickRoleSubscriptionPurchaseSticker'] = var4;
+    var4 = function getRoleSubscriptionPurchaseStickerCTA(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argBar;
-            if(michal) { _fun00008_ip = 21; continue _fun00007 }
+            var2 = arg2;
+            if(var2) { _fun0004_ip = 21; continue _fun0004 }
  9:
-            zuuluu = _closure1_slot5;
-            michal = undefined;
-            michal = zuuluu.bind(michal)();
-            _fun00008_ip = 31; continue _fun00007;
+            var3 = _closure1_slot5;
+            var2 = undefined;
+            var2 = var3.bind(var2)();
+            _fun0004_ip = 31; continue _fun0004;
  21:
-            tangon = _closure1_slot6;
-            zuuluu = undefined;
-            michal = tangon.bind(zuuluu)();
+            var4 = _closure1_slot6;
+            var3 = undefined;
+            var2 = var4.bind(var3)();
  31:
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 4;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.extractTimestamp;
-            entity = argFoo;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = michal.length;
-            entity = zuuluu % entity;
-            entity = michal[entity];
-            return entity;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.extractTimestamp;
+            var1 = arg1;
+            var3 = var3.bind(var4)(var1);
+            var1 = var2.length;
+            var1 = var3 % var1;
+            var1 = var2[var1];
+            return var1;
         }
     };
-    zuuluu['getRoleSubscriptionPurchaseStickerCTA'] = tangon;
-    tangon = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageFormattedContent
-        entity = argFoo;
-        option = entity.username;
-        golfie = entity.usernameOnClickHandler;
-        oscard = entity.roleSubscriptionOnClickHandler;
-        report = entity.guildId;
-        tangon = entity.roleSubscriptionData;
-        zuuluu = _closure1_slot12;
-        michal = {};
-        michal['username'] = option;
-        michal['usernameOnClickHandler'] = golfie;
-        michal['roleSubscriptionOnClickHandler'] = oscard;
-        michal['guildId'] = report;
-        michal['roleSubscriptionData'] = tangon;
-        report = undefined;
-        michal = zuuluu.bind(report)(michal);
-        tangon = michal.content;
-        zuuluu = michal.formatParams;
-        michal = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 5;
-        entity = oscard[entity];
-        entity = michal.bind(report)(entity);
-        michal = entity.intl;
-        entity = michal.format;
-        entity = entity.bind(michal)(tangon, zuuluu);
-        return entity;
+    var3['getRoleSubscriptionPurchaseStickerCTA'] = var4;
+    var4 = function getRoleSubscriptionPurchaseSystemMessageFormattedContent(arg1) {
+        var1 = arg1;
+        var8 = var1.username;
+        var7 = var1.usernameOnClickHandler;
+        var6 = var1.roleSubscriptionOnClickHandler;
+        var5 = var1.guildId;
+        var4 = var1.roleSubscriptionData;
+        var3 = _closure1_slot12;
+        var2 = {};
+        var2['username'] = var8;
+        var2['usernameOnClickHandler'] = var7;
+        var2['roleSubscriptionOnClickHandler'] = var6;
+        var2['guildId'] = var5;
+        var2['roleSubscriptionData'] = var4;
+        var5 = undefined;
+        var2 = var3.bind(var5)(var2);
+        var4 = var2.content;
+        var3 = var2.formatParams;
+        var2 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 5;
+        var1 = var6[var1];
+        var1 = var2.bind(var5)(var1);
+        var2 = var1.intl;
+        var1 = var2.format;
+        var1 = var1.bind(var2)(var4, var3);
+        return var1;
     };
-    zuuluu['getRoleSubscriptionPurchaseSystemMessageFormattedContent'] = tangon;
-    tangon = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageAstFormattedContent
-        entity = argFoo;
-        option = entity.username;
-        golfie = entity.usernameOnClickHandler;
-        oscard = entity.roleSubscriptionOnClickHandler;
-        report = entity.guildId;
-        tangon = entity.roleSubscriptionData;
-        zuuluu = _closure1_slot12;
-        michal = {};
-        michal['username'] = option;
-        michal['usernameOnClickHandler'] = golfie;
-        michal['roleSubscriptionOnClickHandler'] = oscard;
-        michal['guildId'] = report;
-        michal['roleSubscriptionData'] = tangon;
-        report = undefined;
-        michal = zuuluu.bind(report)(michal);
-        tangon = michal.content;
-        zuuluu = michal.formatParams;
-        michal = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 5;
-        entity = oscard[entity];
-        entity = michal.bind(report)(entity);
-        michal = entity.intl;
-        entity = michal.formatToParts;
-        entity = entity.bind(michal)(tangon, zuuluu);
-        return entity;
+    var3['getRoleSubscriptionPurchaseSystemMessageFormattedContent'] = var4;
+    var4 = function getRoleSubscriptionPurchaseSystemMessageAstFormattedContent(arg1) {
+        var1 = arg1;
+        var8 = var1.username;
+        var7 = var1.usernameOnClickHandler;
+        var6 = var1.roleSubscriptionOnClickHandler;
+        var5 = var1.guildId;
+        var4 = var1.roleSubscriptionData;
+        var3 = _closure1_slot12;
+        var2 = {};
+        var2['username'] = var8;
+        var2['usernameOnClickHandler'] = var7;
+        var2['roleSubscriptionOnClickHandler'] = var6;
+        var2['guildId'] = var5;
+        var2['roleSubscriptionData'] = var4;
+        var5 = undefined;
+        var2 = var3.bind(var5)(var2);
+        var4 = var2.content;
+        var3 = var2.formatParams;
+        var2 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 5;
+        var1 = var6[var1];
+        var1 = var2.bind(var5)(var1);
+        var2 = var1.intl;
+        var1 = var2.formatToParts;
+        var1 = var1.bind(var2)(var4, var3);
+        return var1;
     };
-    zuuluu['getRoleSubscriptionPurchaseSystemMessageAstFormattedContent'] = tangon;
-    tangon = function(argFoo) { // Original name: getRoleSubscriptionPurchaseSystemMessageContentMobile
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['getRoleSubscriptionPurchaseSystemMessageAstFormattedContent'] = var4;
+    var4 = function getRoleSubscriptionPurchaseSystemMessageContentMobile(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            option = entity.username;
-            golfie = entity.usernameOnClickHandler;
-            verify = undefined;
-            if(!(golfie === verify)) { _fun00010_ip = 27; continue _fun00009 }
+            var1 = arg1;
+            var8 = var1.username;
+            var7 = var1.usernameOnClickHandler;
+            var9 = undefined;
+            if(!(var7 === var9)) { _fun0005_ip = 27; continue _fun0005 }
  20:
-            golfie = _closure1_slot10;
+            var7 = _closure1_slot10;
  27:
-            oscard = entity.roleSubscriptionOnClickHandler;
-            if(!(oscard === verify)) { _fun00010_ip = 44; continue _fun00009 }
+            var6 = var1.roleSubscriptionOnClickHandler;
+            if(!(var6 === var9)) { _fun0005_ip = 44; continue _fun0005 }
  37:
-            oscard = _closure1_slot9;
+            var6 = _closure1_slot9;
  44:
-            zuuluu = entity.guildId;
-            offset = entity.roleSubscriptionData;
-            michal = _closure1_slot11;
-            michal = michal.bind(verify)(zuuluu, offset);
-            foxtra = michal.guild;
-            report = michal.totalMonthsSubscribed;
-            tangon = michal.showWithDuration;
-            michal = michal.isRenewal;
-            romeon = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 5;
-            yankee = yankee[zuuluu];
-            yankee = romeon.bind(verify)(yankee);
-            yankee = yankee.t;
-            if(tangon) { _fun00010_ip = 142; continue _fun00009 }
+            var3 = var1.guildId;
+            var10 = var1.roleSubscriptionData;
+            var2 = _closure1_slot11;
+            var2 = var2.bind(var9)(var3, var10);
+            var13 = var2.guild;
+            var5 = var2.totalMonthsSubscribed;
+            var4 = var2.showWithDuration;
+            var2 = var2.isRenewal;
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = 5;
+            var11 = var11[var3];
+            var11 = var12.bind(var9)(var11);
+            var11 = var11.t;
+            if(var4) { _fun0005_ip = 142; continue _fun0005 }
  119:
-            if(michal) { _fun00010_ip = 132; continue _fun00009 }
+            if(var2) { _fun0005_ip = 132; continue _fun0005 }
  122:
-            tangon = yankee.6Z1E+/;
-            _fun00010_ip = 140; continue _fun00009;
+            var4 = var11.6Z1E+/;
+            _fun0005_ip = 140; continue _fun0005;
  132:
-            tangon = yankee.OxP1ND;
+            var4 = var11.OxP1ND;
  140:
-            _fun00010_ip = 166; continue _fun00009;
+            _fun0005_ip = 166; continue _fun0005;
  142:
-            if(michal) { _fun00010_ip = 155; continue _fun00009 }
+            if(var2) { _fun0005_ip = 155; continue _fun0005 }
  145:
-            michal = yankee.+N9bxs;
-            _fun00010_ip = 163; continue _fun00009;
+            var2 = var11.+N9bxs;
+            _fun0005_ip = 163; continue _fun0005;
  155:
-            michal = yankee.OQ0OU1;
+            var2 = var11.OQ0OU1;
  163:
-            tangon = michal;
+            var4 = var2;
  166:
-            michal = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[zuuluu];
-            entity = michal.bind(verify)(entity);
-            zuuluu = entity.intl;
-            michal = zuuluu.formatToParts;
-            entity = {};
-            yankee = null;
-            backup = yankee == foxtra;
-            romeon = undefined;
-            if(backup) { _fun00010_ip = 212; continue _fun00009 }
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var3];
+            var1 = var2.bind(var9)(var1);
+            var3 = var1.intl;
+            var2 = var3.formatToParts;
+            var1 = {};
+            var11 = null;
+            var14 = var11 == var13;
+            var12 = undefined;
+            if(var14) { _fun0005_ip = 212; continue _fun0005 }
  207:
-            romeon = foxtra.name;
+            var12 = var13.name;
  212:
-            entity['guildName'] = romeon;
-            yankee = yankee == offset;
-            verify = undefined;
-            if(yankee) { _fun00010_ip = 232; continue _fun00009 }
+            var1['guildName'] = var12;
+            var11 = var11 == var10;
+            var9 = undefined;
+            if(var11) { _fun0005_ip = 232; continue _fun0005 }
  226:
-            verify = offset.tier_name;
+            var9 = var10.tier_name;
  232:
-            entity['tierName'] = verify;
-            entity['username'] = option;
-            entity['usernameOnClick'] = golfie;
-            entity['roleSubscriptionOnClick'] = oscard;
-            entity['months'] = report;
-            entity = michal.bind(zuuluu)(tangon, entity);
-            return entity;
+            var1['tierName'] = var9;
+            var1['username'] = var8;
+            var1['usernameOnClick'] = var7;
+            var1['roleSubscriptionOnClick'] = var6;
+            var1['months'] = var5;
+            var1 = var2.bind(var3)(var4, var1);
+            return var1;
         }
     };
-    zuuluu['getRoleSubscriptionPurchaseSystemMessageContentMobile'] = tangon;
-    tangon = function(argFoo) { // Original name: isEligibleForRoleSubscriptionPurchaseSystemMessageSettings
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.isCreatorMonetizationEnabledGuild;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['getRoleSubscriptionPurchaseSystemMessageContentMobile'] = var4;
+    var4 = function isEligibleForRoleSubscriptionPurchaseSystemMessageSettings(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.isCreatorMonetizationEnabledGuild;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['isEligibleForRoleSubscriptionPurchaseSystemMessageSettings'] = tangon;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: trackRoleSubscriptionPurchaseMessageTierClick
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['isEligibleForRoleSubscriptionPurchaseSystemMessageSettings'] = var4;
+    var4 = function trackRoleSubscriptionPurchaseMessageTierClick(arg1, arg2, arg3, arg4) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            report = zuuluu.bind(entity)(michal);
-            tangon = report.trackWithMetadata;
-            michal = _closure1_slot8;
-            zuuluu = michal.ROLE_SUBSCRIPTION_PURCHASE_SYSTEM_MESSAGE_CLICKED;
-            michal = {};
-            golfie = argFoo;
-            michal['guild_id'] = golfie;
-            golfie = _closure1_slot4;
-            oscard = golfie.getCurrentUser;
-            golfie = oscard.bind(golfie)();
-            oscard = null;
-            option = oscard == golfie;
-            oscard = undefined;
-            if(option) { _fun00012_ip = 79; continue _fun00011 }
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.trackWithMetadata;
+            var2 = _closure1_slot8;
+            var3 = var2.ROLE_SUBSCRIPTION_PURCHASE_SYSTEM_MESSAGE_CLICKED;
+            var2 = {};
+            var7 = arg1;
+            var2['guild_id'] = var7;
+            var7 = _closure1_slot4;
+            var6 = var7.getCurrentUser;
+            var7 = var6.bind(var7)();
+            var6 = null;
+            var8 = var6 == var7;
+            var6 = undefined;
+            if(var8) { _fun0006_ip = 79; continue _fun0006 }
  74:
-            oscard = golfie.id;
+            var6 = var7.id;
  79:
-            michal['user_id'] = oscard;
-            oscard = argBar;
-            michal['channel_id'] = oscard;
-            oscard = argBaz;
-            michal['message_id'] = oscard;
-            oscard = argCor;
-            michal['role_subscription_listing_id'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2['user_id'] = var6;
+            var6 = arg2;
+            var2['channel_id'] = var6;
+            var6 = arg3;
+            var2['message_id'] = var6;
+            var6 = arg4;
+            var2['role_subscription_listing_id'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    zuuluu['trackRoleSubscriptionPurchaseMessageTierClick'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getRoleSubscriptionPurchaseSystemMessageEventProperties
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['trackRoleSubscriptionPurchaseMessageTierClick'] = var4;
+    var2 = function getRoleSubscriptionPurchaseSystemMessageEventProperties(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            zuuluu = argFoo;
-            michal = argBar;
-            entity = {};
-            tangon = zuuluu.guild_id;
-            entity['guild_id'] = tangon;
-            report = _closure1_slot4;
-            tangon = report.getCurrentUser;
-            report = tangon.bind(report)();
-            tangon = null;
-            oscard = tangon == report;
-            tangon = undefined;
-            if(oscard) { _fun00014_ip = 49; continue _fun00013 }
+            var3 = arg1;
+            var2 = arg2;
+            var1 = {};
+            var4 = var3.guild_id;
+            var1['guild_id'] = var4;
+            var5 = _closure1_slot4;
+            var4 = var5.getCurrentUser;
+            var5 = var4.bind(var5)();
+            var4 = null;
+            var6 = var4 == var5;
+            var4 = undefined;
+            if(var6) { _fun0007_ip = 49; continue _fun0007 }
  44:
-            tangon = report.id;
+            var4 = var5.id;
  49:
-            entity['sender'] = tangon;
-            tangon = michal.author;
-            tangon = tangon.id;
-            entity['target_user'] = tangon;
-            zuuluu = zuuluu.id;
-            entity['channel_id'] = zuuluu;
-            michal = michal.id;
-            entity['message_id'] = michal;
-            return entity;
+            var1['sender'] = var4;
+            var4 = var2.author;
+            var4 = var4.id;
+            var1['target_user'] = var4;
+            var3 = var3.id;
+            var1['channel_id'] = var3;
+            var2 = var2.id;
+            var1['message_id'] = var2;
+            return var1;
         }
     };
-    zuuluu['getRoleSubscriptionPurchaseSystemMessageEventProperties'] = michal;
-    return entity;
+    var3['getRoleSubscriptionPurchaseSystemMessageEventProperties'] = var2;
+    return var1;
 })();

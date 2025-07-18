@@ -1,171 +1,171 @@
 // app/modules/notifications/settings_unread_notice/utils/useUnreadSettingNotice.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.CHANNEL_ELIGIBLE_FOR_UNREAD_SETTING;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/notifications/settings_unread_notice/utils/useUnreadSettingNotice.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useUnreadSettingNotice
-        zuuluu = argFoo;
-        var _closure2_slot0 = zuuluu;
-        golfie = _closure1_slot0;
-        yankee = _closure1_slot2;
-        tangon = 3;
-        tangon = yankee[tangon];
-        offset = undefined;
-        oscard = golfie.bind(offset)(tangon);
-        report = oscard.useShouldUseNewNotificationSystem;
-        tangon = 'useShouldRenderBanner';
-        option = report.bind(oscard)(tangon);
-        var _closure2_slot1 = option;
-        oscard = _closure1_slot4;
-        report = oscard.useState;
-        tangon = '';
-        verify = report.bind(oscard)(tangon);
-        report = _closure1_slot3;
-        tangon = 2;
-        verify = report.bind(offset)(verify, tangon);
-        tangon = 0;
-        tangon = verify[tangon];
-        var _closure2_slot2 = tangon;
-        report = 1;
-        report = verify[report];
-        var _closure2_slot3 = report;
-        romeon = oscard.useEffect;
-        report = zuuluu.id;
-        verify = new Array(1);
-        verify[0] = report;
-        report = function() {
-            zuuluu = _closure2_slot3;
-            entity = undefined;
-            michal = '';
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.CHANNEL_ELIGIBLE_FOR_UNREAD_SETTING;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/notifications/settings_unread_notice/utils/useUnreadSettingNotice.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useUnreadSettingNotice(arg1) {
+        var3 = arg1;
+        var _closure2_slot0 = var3;
+        var7 = _closure1_slot0;
+        var11 = _closure1_slot2;
+        var4 = 3;
+        var4 = var11[var4];
+        var10 = undefined;
+        var6 = var7.bind(var10)(var4);
+        var5 = var6.useShouldUseNewNotificationSystem;
+        var4 = 'useShouldRenderBanner';
+        var8 = var5.bind(var6)(var4);
+        var _closure2_slot1 = var8;
+        var6 = _closure1_slot4;
+        var5 = var6.useState;
+        var4 = '';
+        var9 = var5.bind(var6)(var4);
+        var5 = _closure1_slot3;
+        var4 = 2;
+        var9 = var5.bind(var10)(var9, var4);
+        var4 = 0;
+        var4 = var9[var4];
+        var _closure2_slot2 = var4;
+        var5 = 1;
+        var5 = var9[var5];
+        var _closure2_slot3 = var5;
+        var12 = var6.useEffect;
+        var5 = var3.id;
+        var9 = new Array(1);
+        var9[0] = var5;
+        var5 = function() {
+            var3 = _closure2_slot3;
+            var1 = undefined;
+            var2 = '';
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        report = romeon.bind(oscard)(report, verify);
-        report = 4;
-        report = yankee[report];
-        verify = golfie.bind(offset)(report);
-        golfie = verify.useStateFromStores;
-        report = _closure1_slot1;
-        michal = 5;
-        michal = yankee[michal];
-        michal = report.bind(offset)(michal);
-        report = new Array(1);
-        report[0] = michal;
-        michal = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 5;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getLastActionTime;
-            entity = _closure2_slot0;
-            entity = entity.id;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var5 = var12.bind(var6)(var5, var9);
+        var5 = 4;
+        var5 = var11[var5];
+        var9 = var7.bind(var10)(var5);
+        var7 = var9.useStateFromStores;
+        var5 = _closure1_slot1;
+        var2 = 5;
+        var2 = var11[var2];
+        var2 = var5.bind(var10)(var2);
+        var5 = new Array(1);
+        var5[0] = var2;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getLastActionTime;
+            var1 = _closure2_slot0;
+            var1 = var1.id;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = golfie.bind(verify)(report, michal);
-        golfie = oscard.useEffect;
-        report = new Array(4);
-        report[0] = tangon;
-        report[1] = option;
-        report[2] = michal;
-        report[3] = zuuluu;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var2 = var7.bind(var9)(var5, var2);
+        var7 = var6.useEffect;
+        var5 = new Array(4);
+        var5[0] = var4;
+        var5[1] = var8;
+        var5[2] = var2;
+        var5[3] = var3;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                report = _closure1_slot5;
-                tangon = report.has;
-                michal = _closure2_slot0;
-                michal = michal.type;
-                michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00002_ip = 49; continue _fun00001 }
+                var5 = _closure1_slot5;
+                var4 = var5.has;
+                var2 = _closure2_slot0;
+                var2 = var2.type;
+                var2 = var4.bind(var5)(var2);
+                if(!var2) { _fun0001_ip = 49; continue _fun0001 }
  32:
-                report = _closure2_slot2;
-                tangon = _closure2_slot0;
-                tangon = tangon.id;
-                michal = report !== tangon;
+                var5 = _closure2_slot2;
+                var4 = _closure2_slot0;
+                var4 = var4.id;
+                var2 = var5 !== var4;
  49:
-                if(!michal) { _fun00002_ip = 56; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 56; continue _fun0001 }
  52:
-                michal = _closure2_slot1;
+                var2 = _closure2_slot1;
  56:
-                if(!michal) { _fun00002_ip = 103; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 103; continue _fun0001 }
  59:
-                report = _closure1_slot1;
-                tangon = _closure1_slot2;
-                zuuluu = 5;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                report = report.bind(zuuluu)(tangon);
-                tangon = report.maybeAutoUpgradeChannel;
-                zuuluu = _closure2_slot0;
-                zuuluu = zuuluu.id;
-                michal = tangon.bind(report)(zuuluu);
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var3 = 5;
+                var4 = var4[var3];
+                var3 = undefined;
+                var5 = var5.bind(var3)(var4);
+                var4 = var5.maybeAutoUpgradeChannel;
+                var3 = _closure2_slot0;
+                var3 = var3.id;
+                var2 = var4.bind(var5)(var3);
  103:
-                if(!michal) { _fun00002_ip = 126; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 126; continue _fun0001 }
  106:
-                zuuluu = _closure2_slot3;
-                entity = _closure2_slot0;
-                michal = entity.id;
-                entity = undefined;
-                entity = zuuluu.bind(entity)(michal);
+                var3 = _closure2_slot3;
+                var1 = _closure2_slot0;
+                var2 = var1.id;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
  126:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = golfie.bind(oscard)(michal, report);
-        report = oscard.useCallback;
-        michal = function() {
-            zuuluu = _closure2_slot3;
-            michal = undefined;
-            entity = '';
-            entity = zuuluu.bind(michal)(entity);
-            return entity;
+        var2 = var7.bind(var6)(var2, var5);
+        var5 = var6.useCallback;
+        var2 = function() {
+            var3 = _closure2_slot3;
+            var2 = undefined;
+            var1 = '';
+            var1 = var3.bind(var2)(var1);
+            return var1;
         };
-        entity = new Array(0);
-        michal = report.bind(oscard)(michal, entity);
-        entity = {};
-        zuuluu = zuuluu.id;
-        zuuluu = tangon === zuuluu;
-        entity['showUnreadsNotice'] = zuuluu;
-        entity['clearUnreadsNotice'] = michal;
-        return entity;
+        var1 = new Array(0);
+        var2 = var5.bind(var6)(var2, var1);
+        var1 = {};
+        var3 = var3.id;
+        var3 = var4 === var3;
+        var1['showUnreadsNotice'] = var3;
+        var1['clearUnreadsNotice'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

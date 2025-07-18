@@ -1,202 +1,202 @@
 // app/uikit-native/status/getStatusContainerStyle.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    yankee = function(argFoo, argBar) { // Original name: createContainerStyle
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var11 = function createContainerStyle(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argBar;
-            entity = {};
-            zuuluu = _closure1_slot0;
-            report = 2;
-            oscard = report * zuuluu;
-            zuuluu = argFoo;
-            golfie = zuuluu + oscard;
-            entity['width'] = golfie;
-            oscard = 0;
-            if(!tangon) { _fun00002_ip = 49; continue _fun00001 }
+            var4 = arg2;
+            var1 = {};
+            var3 = _closure1_slot0;
+            var5 = 2;
+            var6 = var5 * var3;
+            var3 = arg1;
+            var7 = var3 + var6;
+            var1['width'] = var7;
+            var6 = 0;
+            if(!var4) { _fun0001_ip = 49; continue _fun0001 }
  35:
-            option = 2.5;
-            oscard = golfie / option;
+            var8 = 2.5;
+            var6 = var7 / var8;
  49:
-            oscard = golfie + oscard;
-            entity['height'] = oscard;
-            if(tangon) { _fun00002_ip = 66; continue _fun00001 }
+            var6 = var7 + var6;
+            var1['height'] = var6;
+            if(var4) { _fun0001_ip = 66; continue _fun0001 }
  60:
-            report = golfie / report;
-            _fun00002_ip = 73; continue _fun00001;
+            var5 = var7 / var5;
+            _fun0001_ip = 73; continue _fun0001;
  66:
-            oscard = 4;
-            report = golfie / oscard;
+            var6 = 4;
+            var5 = var7 / var6;
  73:
-            entity['borderRadius'] = report;
-            report = _closure1_slot0;
-            entity['paddingLeft'] = report;
-            report = _closure1_slot0;
-            entity['paddingRight'] = report;
-            oscard = _closure1_slot0;
-            report = 0;
-            if(!tangon) { _fun00002_ip = 107; continue _fun00001 }
+            var1['borderRadius'] = var5;
+            var5 = _closure1_slot0;
+            var1['paddingLeft'] = var5;
+            var5 = _closure1_slot0;
+            var1['paddingRight'] = var5;
+            var6 = _closure1_slot0;
+            var5 = 0;
+            if(!var4) { _fun0001_ip = 107; continue _fun0001 }
  104:
-            report = 1;
+            var5 = 1;
  107:
-            report = oscard + report;
-            entity['paddingTop'] = report;
-            michal = _closure1_slot0;
-            zuuluu = 0;
-            if(!tangon) { _fun00002_ip = 128; continue _fun00001 }
+            var5 = var6 + var5;
+            var1['paddingTop'] = var5;
+            var2 = _closure1_slot0;
+            var3 = 0;
+            if(!var4) { _fun0001_ip = 128; continue _fun0001 }
  125:
-            zuuluu = 1;
+            var3 = 1;
  128:
-            michal = michal + zuuluu;
-            entity['paddingBottom'] = michal;
-            return entity;
+            var2 = var2 + var3;
+            var1['paddingBottom'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot3 = yankee;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    offset = true;
-    tangon['value'] = offset;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    option = tangon.StyleSheet;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.STATUS_PADDING;
-    var _closure1_slot0 = golfie;
-    verify = tangon.StatusSizes;
-    var _closure1_slot1 = verify;
-    golfie = option.create;
-    tangon = {};
-    romeon = verify.SMALL;
-    foxtra = false;
-    romeon = yankee.bind(entity)(romeon, foxtra);
-    tangon['containerSmall'] = romeon;
-    romeon = verify.REFRESH_MEDIUM_10;
-    romeon = yankee.bind(entity)(romeon, foxtra);
-    tangon['containerRefreshMedium'] = romeon;
-    romeon = verify.MEDIUM;
-    romeon = yankee.bind(entity)(romeon, foxtra);
-    tangon['containerMedium'] = romeon;
-    romeon = verify.LARGE;
-    romeon = yankee.bind(entity)(romeon, foxtra);
-    tangon['containerLarge'] = romeon;
-    romeon = verify.LARGE;
-    romeon = yankee.bind(entity)(romeon, foxtra);
-    tangon['containerXLarge'] = romeon;
-    romeon = verify.SMALL;
-    romeon = yankee.bind(entity)(romeon, offset);
-    tangon['containerMobileOnlineSmall'] = romeon;
-    romeon = verify.REFRESH_MEDIUM_10;
-    romeon = yankee.bind(entity)(romeon, offset);
-    tangon['containerMobileOnlineRefreshMedium'] = romeon;
-    romeon = verify.MEDIUM;
-    romeon = yankee.bind(entity)(romeon, offset);
-    tangon['containerMobileOnlineMedium'] = romeon;
-    romeon = verify.LARGE;
-    romeon = yankee.bind(entity)(romeon, offset);
-    tangon['containerMobileOnlineLarge'] = romeon;
-    verify = verify.LARGE;
-    verify = yankee.bind(entity)(verify, offset);
-    tangon['containerMobileOnlineXLarge'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'uikit-native/status/getStatusContainerStyle.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getStatusContainerStyle
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var11;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var10 = true;
+    var4['value'] = var10;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.StyleSheet;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.STATUS_PADDING;
+    var _closure1_slot0 = var7;
+    var9 = var4.StatusSizes;
+    var _closure1_slot1 = var9;
+    var7 = var8.create;
+    var4 = {};
+    var12 = var9.SMALL;
+    var13 = false;
+    var12 = var11.bind(var1)(var12, var13);
+    var4['containerSmall'] = var12;
+    var12 = var9.REFRESH_MEDIUM_10;
+    var12 = var11.bind(var1)(var12, var13);
+    var4['containerRefreshMedium'] = var12;
+    var12 = var9.MEDIUM;
+    var12 = var11.bind(var1)(var12, var13);
+    var4['containerMedium'] = var12;
+    var12 = var9.LARGE;
+    var12 = var11.bind(var1)(var12, var13);
+    var4['containerLarge'] = var12;
+    var12 = var9.LARGE;
+    var12 = var11.bind(var1)(var12, var13);
+    var4['containerXLarge'] = var12;
+    var12 = var9.SMALL;
+    var12 = var11.bind(var1)(var12, var10);
+    var4['containerMobileOnlineSmall'] = var12;
+    var12 = var9.REFRESH_MEDIUM_10;
+    var12 = var11.bind(var1)(var12, var10);
+    var4['containerMobileOnlineRefreshMedium'] = var12;
+    var12 = var9.MEDIUM;
+    var12 = var11.bind(var1)(var12, var10);
+    var4['containerMobileOnlineMedium'] = var12;
+    var12 = var9.LARGE;
+    var12 = var11.bind(var1)(var12, var10);
+    var4['containerMobileOnlineLarge'] = var12;
+    var9 = var9.LARGE;
+    var9 = var11.bind(var1)(var9, var10);
+    var4['containerMobileOnlineXLarge'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'uikit-native/status/getStatusContainerStyle.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getStatusContainerStyle(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            entity = argBar;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.SMALL;
-            if(!(zuuluu !== report)) { _fun00004_ip = 191; continue _fun00003 }
+            var5 = arg1;
+            var1 = arg2;
+            var3 = _closure1_slot1;
+            var3 = var3.SMALL;
+            if(!(var3 !== var5)) { _fun0002_ip = 191; continue _fun0002 }
  26:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.REFRESH_MEDIUM_10;
-            if(!(zuuluu !== report)) { _fun00004_ip = 168; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var3 = var3.REFRESH_MEDIUM_10;
+            if(!(var3 !== var5)) { _fun0002_ip = 168; continue _fun0002 }
  43:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.MEDIUM;
-            if(!(zuuluu !== report)) { _fun00004_ip = 145; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var3 = var3.MEDIUM;
+            if(!(var3 !== var5)) { _fun0002_ip = 145; continue _fun0002 }
  57:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.LARGE;
-            if(!(zuuluu !== report)) { _fun00004_ip = 122; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var3 = var3.LARGE;
+            if(!(var3 !== var5)) { _fun0002_ip = 122; continue _fun0002 }
  71:
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu.XLARGE;
-            if(!(zuuluu !== report)) { _fun00004_ip = 99; continue _fun00003 }
+            var3 = _closure1_slot1;
+            var3 = var3.XLARGE;
+            if(!(var3 !== var5)) { _fun0002_ip = 99; continue _fun0002 }
  85:
-            tangon = _closure1_slot3;
-            zuuluu = undefined;
-            zuuluu = tangon.bind(zuuluu)(report, entity);
-            return zuuluu;
+            var4 = _closure1_slot3;
+            var3 = undefined;
+            var3 = var4.bind(var3)(var5, var1);
+            return var3;
  99:
-            tangon = _closure1_slot2;
-            if(entity) { _fun00004_ip = 114; continue _fun00003 }
+            var4 = _closure1_slot2;
+            if(var1) { _fun0002_ip = 114; continue _fun0002 }
  106:
-            zuuluu = tangon.containerXLarge;
-            _fun00004_ip = 120; continue _fun00003;
+            var3 = var4.containerXLarge;
+            _fun0002_ip = 120; continue _fun0002;
  114:
-            zuuluu = tangon.containerMobileOnlineXLarge;
+            var3 = var4.containerMobileOnlineXLarge;
  120:
-            return zuuluu;
+            return var3;
  122:
-            tangon = _closure1_slot2;
-            if(entity) { _fun00004_ip = 137; continue _fun00003 }
+            var4 = _closure1_slot2;
+            if(var1) { _fun0002_ip = 137; continue _fun0002 }
  129:
-            zuuluu = tangon.containerLarge;
-            _fun00004_ip = 143; continue _fun00003;
+            var3 = var4.containerLarge;
+            _fun0002_ip = 143; continue _fun0002;
  137:
-            zuuluu = tangon.containerMobileOnlineLarge;
+            var3 = var4.containerMobileOnlineLarge;
  143:
-            return zuuluu;
+            return var3;
  145:
-            tangon = _closure1_slot2;
-            if(entity) { _fun00004_ip = 160; continue _fun00003 }
+            var4 = _closure1_slot2;
+            if(var1) { _fun0002_ip = 160; continue _fun0002 }
  152:
-            zuuluu = tangon.containerMedium;
-            _fun00004_ip = 166; continue _fun00003;
+            var3 = var4.containerMedium;
+            _fun0002_ip = 166; continue _fun0002;
  160:
-            zuuluu = tangon.containerMobileOnlineMedium;
+            var3 = var4.containerMobileOnlineMedium;
  166:
-            return zuuluu;
+            return var3;
  168:
-            tangon = _closure1_slot2;
-            if(entity) { _fun00004_ip = 183; continue _fun00003 }
+            var4 = _closure1_slot2;
+            if(var1) { _fun0002_ip = 183; continue _fun0002 }
  175:
-            zuuluu = tangon.containerRefreshMedium;
-            _fun00004_ip = 189; continue _fun00003;
+            var3 = var4.containerRefreshMedium;
+            _fun0002_ip = 189; continue _fun0002;
  183:
-            zuuluu = tangon.containerMobileOnlineRefreshMedium;
+            var3 = var4.containerMobileOnlineRefreshMedium;
  189:
-            return zuuluu;
+            return var3;
  191:
-            michal = _closure1_slot2;
-            if(entity) { _fun00004_ip = 206; continue _fun00003 }
+            var2 = _closure1_slot2;
+            if(var1) { _fun0002_ip = 206; continue _fun0002 }
  198:
-            entity = michal.containerSmall;
-            _fun00004_ip = 212; continue _fun00003;
+            var1 = var2.containerSmall;
+            _fun0002_ip = 212; continue _fun0002;
  206:
-            entity = michal.containerMobileOnlineSmall;
+            var1 = var2.containerMobileOnlineSmall;
  212:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

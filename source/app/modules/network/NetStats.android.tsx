@@ -1,1008 +1,1008 @@
 // app/modules/network/NetStats.android.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    verify = function(argFoo) { // Original name: receiveNetworkInfoformation
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var9 = function receiveNetworkInfoformation(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            _closure1_slot14 = michal;
-            tangon = _closure1_slot15;
-            zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00002_ip = 24; continue _fun00001 }
+            var2 = arg1;
+            _closure1_slot14 = var2;
+            var4 = _closure1_slot15;
+            var3 = null;
+            if(!(var3 == var4)) { _fun0001_ip = 24; continue _fun0001 }
  20:
-            _closure1_slot15 = michal;
+            _closure1_slot15 = var2;
  24:
-            michal = _closure1_slot22;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = _closure1_slot22;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            return var1;
         }
     };
-    entity = function() { // Original name: updateNetworkUsage
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var1 = function updateNetworkUsage() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot6;
-            michal = michal.SystemResourceManager;
-            zuuluu = michal.getNetworkUsage;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00004_ip = 53; continue _fun00003 }
+            var2 = _closure1_slot6;
+            var2 = var2.SystemResourceManager;
+            var3 = var2.getNetworkUsage;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0002_ip = 53; continue _fun0002 }
  25:
-            entity = _closure1_slot6;
-            zuuluu = entity.SystemResourceManager;
-            michal = zuuluu.getNetworkUsage;
-            entity = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = _closure1_slot6;
+            var3 = var1.SystemResourceManager;
+            var2 = var3.getNetworkUsage;
+            var1 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    michal = argFoo;
-                    _closure1_slot12 = michal;
-                    tangon = _closure1_slot13;
-                    zuuluu = null;
-                    if(!(zuuluu == tangon)) { _fun00006_ip = 24; continue _fun00005 }
+                    var2 = arg1;
+                    _closure1_slot12 = var2;
+                    var4 = _closure1_slot13;
+                    var3 = null;
+                    if(!(var3 == var4)) { _fun0003_ip = 24; continue _fun0003 }
  20:
-                    _closure1_slot13 = michal;
+                    _closure1_slot13 = var2;
  24:
-                    report = _closure1_slot11;
-                    tangon = report.fileOnly;
-                    zuuluu = {};
-                    michal = _closure1_slot14;
-                    zuuluu['state'] = michal;
-                    michal = _closure1_slot12;
-                    zuuluu['nativeStats'] = michal;
-                    oscard = _closure1_slot0;
-                    michal = _closure1_slot2;
-                    entity = 11;
-                    michal = michal[entity];
-                    entity = undefined;
-                    oscard = oscard.bind(entity)(michal);
-                    michal = oscard.getRTCTotalBytes;
-                    michal = michal.bind(oscard)();
-                    zuuluu['rtc'] = michal;
-                    michal = 'Updating Network Info';
-                    michal = tangon.bind(report)(michal, zuuluu);
-                    return entity;
+                    var5 = _closure1_slot11;
+                    var4 = var5.fileOnly;
+                    var3 = {};
+                    var2 = _closure1_slot14;
+                    var3['state'] = var2;
+                    var2 = _closure1_slot12;
+                    var3['nativeStats'] = var2;
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 11;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var2);
+                    var2 = var6.getRTCTotalBytes;
+                    var2 = var2.bind(var6)();
+                    var3['rtc'] = var2;
+                    var2 = 'Updating Network Info';
+                    var2 = var4.bind(var5)(var2, var3);
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
+            var1 = var2.bind(var3)(var1);
  53:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot22 = entity;
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, tangon);
-    tangon = 0;
-    option = oscard[tangon];
-    entity = undefined;
-    option = golfie.bind(entity)(option);
-    var _closure1_slot3 = option;
-    option = 1;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot4 = option;
-    option = 2;
-    option = oscard[option];
-    option = golfie.bind(entity)(option);
-    var _closure1_slot5 = option;
-    option = 3;
-    option = oscard[option];
-    offset = report.bind(entity)(option);
-    option = offset.AppState;
-    offset = offset.NativeModules;
-    var _closure1_slot6 = offset;
-    offset = 4;
-    offset = oscard[offset];
-    offset = golfie.bind(entity)(offset);
-    var _closure1_slot7 = offset;
-    offset = 5;
-    offset = oscard[offset];
-    offset = golfie.bind(entity)(offset);
-    var _closure1_slot8 = offset;
-    offset = 6;
-    offset = oscard[offset];
-    offset = golfie.bind(entity)(offset);
-    var _closure1_slot9 = offset;
-    offset = 7;
-    offset = oscard[offset];
-    offset = report.bind(entity)(offset);
-    offset = offset.AnalyticEvents;
-    var _closure1_slot10 = offset;
-    offset = 8;
-    offset = oscard[offset];
-    romeon = golfie.bind(entity)(offset);
-    offset = romeon.prototype;
-    yankee = Object.create(offset, {constructor: {value: romeon}});
-    kiloes = 'NetStats';
-    sizing = yankee;
-    offset = new sizing[romeon](kiloes, backup);
-    offset = offset instanceof Object ? offset : yankee;
-    var _closure1_slot11 = offset;
-    offset = null;
-    yankee = {'signalStrengthLevel': null, 'isNetworkRoaming': false, 'cellularReceiveBytes': 0, 'cellularSendBytes': 0, 'totalReceiveBytes': 0, 'totalSendBytes': 0, 'uidReceiveBytes': 0, 'uidSendBytes': 0, 'socketBytesReceived': 0, 'otaBytesReceived': 0, 'otaNumRequests': 0, 'xhrBytesReceived': 0, 'xhrNumRequests': 0, 'frescoBytesReceived': 0, 'frescoNumRequests': 0, 'downloadBytesReceived': 0, 'downloadNumRequests': 0, 'mediaPlayerBytesReceived': 0};
-    var _closure1_slot12 = yankee;
-    var _closure1_slot13 = offset;
-    yankee = {'type': null, 'effectiveSpeed': null, 'serviceProvider': null};
-    romeon = 9;
-    romeon = oscard[romeon];
-    romeon = report.bind(entity)(romeon);
-    romeon = romeon.NetInfoStateType;
-    romeon = romeon.unknown;
-    yankee['type'] = romeon;
-    var _closure1_slot14 = yankee;
-    var _closure1_slot15 = offset;
-    offset = option.currentState;
-    option = 'active';
-    option = option === offset;
-    var _closure1_slot16 = option;
-    var _closure1_slot17 = tangon;
-    var _closure1_slot18 = tangon;
-    var _closure1_slot19 = tangon;
-    var _closure1_slot20 = tangon;
-    tangon = 10;
-    option = oscard[tangon];
-    offset = golfie.bind(entity)(option);
-    option = offset.addChangeCallback;
-    option = option.bind(offset)(verify);
-    tangon = oscard[tangon];
-    option = golfie.bind(entity)(tangon);
-    tangon = option.getNetworkInformation;
-    option = tangon.bind(option)();
-    tangon = option.then;
-    tangon = tangon.bind(option)(verify);
-    tangon = function() {
-        tangon = _closure1_slot5;
-        zuuluu = function() { // Original name: EventTracker
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot22 = var1;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var4);
+    var4 = 0;
+    var8 = var6[var4];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var10 = var5.bind(var1)(var8);
+    var8 = var10.AppState;
+    var10 = var10.NativeModules;
+    var _closure1_slot6 = var10;
+    var10 = 4;
+    var10 = var6[var10];
+    var10 = var7.bind(var1)(var10);
+    var _closure1_slot7 = var10;
+    var10 = 5;
+    var10 = var6[var10];
+    var10 = var7.bind(var1)(var10);
+    var _closure1_slot8 = var10;
+    var10 = 6;
+    var10 = var6[var10];
+    var10 = var7.bind(var1)(var10);
+    var _closure1_slot9 = var10;
+    var10 = 7;
+    var10 = var6[var10];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.AnalyticEvents;
+    var _closure1_slot10 = var10;
+    var10 = 8;
+    var10 = var6[var10];
+    var12 = var7.bind(var1)(var10);
+    var10 = var12.prototype;
+    var11 = Object.create(var10, {constructor: {value: var12}});
+    var15 = 'NetStats';
+    var16 = var11;
+    var10 = new var16[var12](var15, var14);
+    var10 = var10 instanceof Object ? var10 : var11;
+    var _closure1_slot11 = var10;
+    var10 = null;
+    var11 = {'signalStrengthLevel': null, 'isNetworkRoaming': false, 'cellularReceiveBytes': 0, 'cellularSendBytes': 0, 'totalReceiveBytes': 0, 'totalSendBytes': 0, 'uidReceiveBytes': 0, 'uidSendBytes': 0, 'socketBytesReceived': 0, 'otaBytesReceived': 0, 'otaNumRequests': 0, 'xhrBytesReceived': 0, 'xhrNumRequests': 0, 'frescoBytesReceived': 0, 'frescoNumRequests': 0, 'downloadBytesReceived': 0, 'downloadNumRequests': 0, 'mediaPlayerBytesReceived': 0};
+    var _closure1_slot12 = var11;
+    var _closure1_slot13 = var10;
+    var11 = {'type': null, 'effectiveSpeed': null, 'serviceProvider': null};
+    var12 = 9;
+    var12 = var6[var12];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.NetInfoStateType;
+    var12 = var12.unknown;
+    var11['type'] = var12;
+    var _closure1_slot14 = var11;
+    var _closure1_slot15 = var10;
+    var10 = var8.currentState;
+    var8 = 'active';
+    var8 = var8 === var10;
+    var _closure1_slot16 = var8;
+    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
+    var _closure1_slot20 = var4;
+    var4 = 10;
+    var8 = var6[var4];
+    var10 = var7.bind(var1)(var8);
+    var8 = var10.addChangeCallback;
+    var8 = var8.bind(var10)(var9);
+    var4 = var6[var4];
+    var8 = var7.bind(var1)(var4);
+    var4 = var8.getNetworkInformation;
+    var8 = var4.bind(var8)();
+    var4 = var8.then;
+    var4 = var4.bind(var8)(var9);
+    var4 = function() {
+        var4 = _closure1_slot5;
+        var3 = function EventTracker() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = this;
-                var _closure3_slot0 = zuuluu;
-                oscard = _closure1_slot4;
-                report = _closure2_slot2;
-                entity = undefined;
-                report = oscard.bind(entity)(zuuluu, report);
-                golfie = _closure1_slot16;
-                oscard = 0;
-                if(!golfie) { _fun00008_ip = 98; continue _fun00007 }
+                var3 = this;
+                var _closure3_slot0 = var3;
+                var6 = _closure1_slot4;
+                var5 = _closure2_slot2;
+                var1 = undefined;
+                var5 = var6.bind(var1)(var3, var5);
+                var7 = _closure1_slot16;
+                var6 = 0;
+                if(!var7) { _fun0004_ip = 98; continue _fun0004 }
  40:
-                golfie = global;
-                verify = golfie.setTimeout;
-                option = _closure1_slot1;
-                offset = _closure1_slot2;
-                golfie = 12;
-                golfie = offset[golfie];
-                golfie = option.bind(entity)(golfie);
-                golfie = golfie.Millis;
-                option = golfie.MINUTE;
-                golfie = 1;
-                option = golfie * option;
-                golfie = function() {
-                    michal = _closure3_slot0;
-                    entity = michal.track;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var7 = global;
+                var9 = var7.setTimeout;
+                var8 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var7 = 12;
+                var7 = var10[var7];
+                var7 = var8.bind(var1)(var7);
+                var7 = var7.Millis;
+                var8 = var7.MINUTE;
+                var7 = 1;
+                var8 = var7 * var8;
+                var7 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.track;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                oscard = verify.bind(entity)(golfie, option);
+                var6 = var9.bind(var1)(var7, var8);
  98:
-                zuuluu['trackTimeout'] = oscard;
-                oscard = _closure1_slot16;
-                report = 0;
-                if(!oscard) { _fun00008_ip = 171; continue _fun00007 }
+                var3['trackTimeout'] = var6;
+                var6 = _closure1_slot16;
+                var5 = 0;
+                if(!var6) { _fun0004_ip = 171; continue _fun0004 }
  113:
-                oscard = global;
-                option = oscard.setInterval;
-                golfie = _closure1_slot1;
-                verify = _closure1_slot2;
-                oscard = 12;
-                oscard = verify[oscard];
-                oscard = golfie.bind(entity)(oscard);
-                oscard = oscard.Millis;
-                golfie = oscard.SECOND;
-                oscard = 5;
-                golfie = oscard * golfie;
-                oscard = function() {
-                    michal = _closure3_slot0;
-                    entity = michal.writeExistingEventStorage;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var6 = global;
+                var8 = var6.setInterval;
+                var7 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var6 = 12;
+                var6 = var9[var6];
+                var6 = var7.bind(var1)(var6);
+                var6 = var6.Millis;
+                var7 = var6.SECOND;
+                var6 = 5;
+                var7 = var6 * var7;
+                var6 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.writeExistingEventStorage;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                report = option.bind(entity)(oscard, golfie);
+                var5 = var8.bind(var1)(var6, var7);
  171:
-                zuuluu['flushStorageInterval'] = report;
-                report = false;
-                zuuluu['didEverTrack'] = report;
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot2;
-                report = 13;
-                report = golfie[report];
-                report = oscard.bind(entity)(report);
-                golfie = report.Storage;
-                oscard = golfie.get;
-                report = 'previousNetStatsEvents';
-                report = oscard.bind(golfie)(report);
-                oscard = null;
-                if(!(oscard == report)) { _fun00008_ip = 237; continue _fun00007 }
+                var3['flushStorageInterval'] = var5;
+                var5 = false;
+                var3['didEverTrack'] = var5;
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var5 = 13;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var7 = var5.Storage;
+                var6 = var7.get;
+                var5 = 'previousNetStatsEvents';
+                var5 = var6.bind(var7)(var5);
+                var6 = null;
+                if(!(var6 == var5)) { _fun0004_ip = 237; continue _fun0004 }
  233:
-                report = new Array(0);
+                var5 = new Array(0);
  237:
-                zuuluu['existingEvents'] = report;
-                tangon = function() {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var3['existingEvents'] = var5;
+                var4 = function() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        zuuluu = _closure3_slot0;
-                        zuuluu = zuuluu.existingEvents;
-                        tangon = zuuluu.length;
-                        zuuluu = 0;
-                        if(!(tangon > zuuluu)) { _fun00010_ip = 85; continue _fun00009 }
+                        var3 = _closure3_slot0;
+                        var3 = var3.existingEvents;
+                        var4 = var3.length;
+                        var3 = 0;
+                        if(!(var4 > var3)) { _fun0005_ip = 85; continue _fun0005 }
  26:
-                        tangon = _closure1_slot8;
-                        zuuluu = tangon.submitEventsImmediately;
-                        michal = _closure3_slot0;
-                        michal = michal.existingEvents;
-                        tangon = zuuluu.bind(tangon)(michal);
-                        zuuluu = tangon.then;
-                        michal = function() {
-                            report = _closure1_slot11;
-                            tangon = report.fileOnly;
-                            michal = _closure3_slot0;
-                            zuuluu = michal.existingEvents;
-                            entity = 'Successfully logged existing network usage events';
-                            entity = tangon.bind(report)(entity, zuuluu);
-                            entity = new Array(0);
-                            michal['existingEvents'] = entity;
-                            entity = michal.writeExistingEventStorage;
-                            entity = entity.bind(michal)();
-                            entity = undefined;
-                            return entity;
+                        var4 = _closure1_slot8;
+                        var3 = var4.submitEventsImmediately;
+                        var2 = _closure3_slot0;
+                        var2 = var2.existingEvents;
+                        var4 = var3.bind(var4)(var2);
+                        var3 = var4.then;
+                        var2 = function() {
+                            var5 = _closure1_slot11;
+                            var4 = var5.fileOnly;
+                            var2 = _closure3_slot0;
+                            var3 = var2.existingEvents;
+                            var1 = 'Successfully logged existing network usage events';
+                            var1 = var4.bind(var5)(var1, var3);
+                            var1 = new Array(0);
+                            var2['existingEvents'] = var1;
+                            var1 = var2.writeExistingEventStorage;
+                            var1 = var1.bind(var2)();
+                            var1 = undefined;
+                            return var1;
                         };
-                        zuuluu = zuuluu.bind(tangon)(michal);
-                        michal = zuuluu.catch;
-                        entity = function(argFoo) {
-                            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                        var3 = var3.bind(var4)(var2);
+                        var2 = var3.catch;
+                        var1 = function(arg1) {
+                            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                                report = argFoo;
-                                michal = report.status;
-                                entity = 429;
-                                entity = entity === michal;
-                                if(entity) { _fun00012_ip = 23; continue _fun00011 }
+                                var5 = arg1;
+                                var2 = var5.status;
+                                var1 = 429;
+                                var1 = var1 === var2;
+                                if(var1) { _fun0006_ip = 23; continue _fun0006 }
  21:
-                                entity = false;
+                                var1 = false;
  23:
-                                if(!entity) { _fun00012_ip = 64; continue _fun00011 }
+                                if(!var1) { _fun0006_ip = 64; continue _fun0006 }
  26:
-                                tangon = _closure1_slot11;
-                                zuuluu = tangon.error;
-                                entity = _closure3_slot0;
-                                michal = entity.existingEvents;
-                                entity = 'Failed to log log existing network usage events';
-                                entity = zuuluu.bind(tangon)(entity, michal, report);
+                                var4 = _closure1_slot11;
+                                var3 = var4.error;
+                                var1 = _closure3_slot0;
+                                var2 = var1.existingEvents;
+                                var1 = 'Failed to log log existing network usage events';
+                                var1 = var3.bind(var4)(var1, var2, var5);
  64:
-                                entity = undefined;
-                                return entity;
+                                var1 = undefined;
+                                return var1;
                             }
                         };
-                        entity = michal.bind(zuuluu)(entity);
+                        var1 = var2.bind(var3)(var1);
  85:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                zuuluu['trackExistingEvents'] = tangon;
-                report = _closure1_slot7;
-                tangon = report.isConnected;
-                tangon = tangon.bind(report)();
-                if(tangon) { _fun00008_ip = 315; continue _fun00007 }
+                var3['trackExistingEvents'] = var4;
+                var5 = _closure1_slot7;
+                var4 = var5.isConnected;
+                var4 = var4.bind(var5)();
+                if(var4) { _fun0004_ip = 315; continue _fun0004 }
  271:
-                tangon = _closure1_slot1;
-                report = _closure1_slot2;
-                michal = 14;
-                michal = report[michal];
-                oscard = tangon.bind(entity)(michal);
-                report = oscard.subscribe;
-                tangon = zuuluu.trackExistingEvents;
-                michal = 'CONNECTION_OPEN';
-                michal = report.bind(oscard)(michal, tangon);
-                _fun00008_ip = 325; continue _fun00007;
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 14;
+                var2 = var5[var2];
+                var6 = var4.bind(var1)(var2);
+                var5 = var6.subscribe;
+                var4 = var3.trackExistingEvents;
+                var2 = 'CONNECTION_OPEN';
+                var2 = var5.bind(var6)(var2, var4);
+                _fun0004_ip = 325; continue _fun0004;
  315:
-                michal = zuuluu.trackExistingEvents;
-                michal = michal.bind(zuuluu)();
+                var2 = var3.trackExistingEvents;
+                var2 = var2.bind(var3)();
  325:
-                return entity;
+                return var1;
             }
         };
-        var _closure2_slot2 = zuuluu;
-        report = {};
-        michal = 'handleAppStateChange';
-        report['key'] = michal;
-        michal = function(argFoo) { // Original name: value
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var _closure2_slot2 = var3;
+        var5 = {};
+        var2 = 'handleAppStateChange';
+        var5['key'] = var2;
+        var2 = function value(arg1) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                michal = this;
-                var _closure3_slot0 = michal;
-                zuuluu = michal.didEverTrack;
-                if(zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var3 = var2.didEverTrack;
+                if(var3) { _fun0007_ip = 152; continue _fun0007 }
  21:
-                zuuluu = _closure1_slot16;
-                report = argFoo;
-                if(report) { _fun00014_ip = 48; continue _fun00013 }
+                var3 = _closure1_slot16;
+                var5 = arg1;
+                if(var5) { _fun0007_ip = 48; continue _fun0007 }
  34:
-                if(!zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+                if(!var3) { _fun0007_ip = 152; continue _fun0007 }
  37:
-                report = michal.track;
-                report = report.bind(michal)();
-                _fun00014_ip = 152; continue _fun00013;
+                var5 = var2.track;
+                var5 = var5.bind(var2)();
+                _fun0007_ip = 152; continue _fun0007;
  48:
-                if(zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+                if(var3) { _fun0007_ip = 152; continue _fun0007 }
  51:
-                zuuluu = true;
-                _closure1_slot16 = zuuluu;
-                zuuluu = global;
-                golfie = zuuluu.setTimeout;
-                oscard = _closure1_slot1;
-                report = _closure1_slot2;
-                tangon = 12;
-                tangon = report[tangon];
-                report = undefined;
-                tangon = oscard.bind(report)(tangon);
-                tangon = tangon.Millis;
-                oscard = tangon.MINUTE;
-                tangon = 1;
-                oscard = tangon * oscard;
-                tangon = function() {
-                    michal = _closure1_slot21;
-                    entity = michal.track;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var3 = true;
+                _closure1_slot16 = var3;
+                var3 = global;
+                var7 = var3.setTimeout;
+                var6 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var4 = 12;
+                var4 = var5[var4];
+                var5 = undefined;
+                var4 = var6.bind(var5)(var4);
+                var4 = var4.Millis;
+                var6 = var4.MINUTE;
+                var4 = 1;
+                var6 = var4 * var6;
+                var4 = function() {
+                    var2 = _closure1_slot21;
+                    var1 = var2.track;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                tangon = golfie.bind(report)(tangon, oscard);
-                michal['trackTimeout'] = tangon;
-                tangon = zuuluu.setInterval;
-                zuuluu = function() {
-                    michal = _closure3_slot0;
-                    entity = michal.writeExistingEventStorage;
-                    entity = entity.bind(michal)();
-                    return entity;
+                var4 = var7.bind(var5)(var4, var6);
+                var2['trackTimeout'] = var4;
+                var4 = var3.setInterval;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.writeExistingEventStorage;
+                    var1 = var1.bind(var2)();
+                    return var1;
                 };
-                entity = 5000;
-                entity = tangon.bind(report)(zuuluu, entity);
-                michal['flushStorageInterval'] = entity;
+                var1 = 5000;
+                var1 = var4.bind(var5)(var3, var1);
+                var2['flushStorageInterval'] = var1;
  152:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = michal;
-        michal = new Array(4);
-        michal[0] = report;
-        report = {};
-        golfie = 'writeExistingEventStorage';
-        report['key'] = golfie;
-        option = _closure1_slot3;
-        entity = undefined;
-        golfie = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var5['value'] = var2;
+        var2 = new Array(4);
+        var2[0] = var5;
+        var5 = {};
+        var7 = 'writeExistingEventStorage';
+        var5['key'] = var7;
+        var8 = _closure1_slot3;
+        var1 = undefined;
+        var7 = function* () {
+            var1 = function* anon_0_() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     StartGenerator();
-                    michal = this;
+                    var2 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00016_ip = 199; continue _fun00015 }
+                    if(var3) { _fun0008_ip = 199; continue _fun0008 }
  13:
-                    zuuluu = michal.didEverTrack;
-                    if(zuuluu) { _fun00016_ip = 65; continue _fun00015 }
+                    var3 = var2.didEverTrack;
+                    if(var3) { _fun0008_ip = 65; continue _fun0008 }
  22:
-                    zuuluu = _closure1_slot16;
-                    if(!zuuluu) { _fun00016_ip = 65; continue _fun00015 }
+                    var3 = _closure1_slot16;
+                    if(!var3) { _fun0008_ip = 65; continue _fun0008 }
  32:
-                    zuuluu = michal.getQueuedEvent;
-                    zuuluu = zuuluu.bind(michal)();
+                    var3 = var2.getQueuedEvent;
+                    var3 = var3.bind(var2)();
                     SaveGenerator(address=46);
  44:
-                    return zuuluu;
+                    return var3;
  46:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00016_ip = 62; continue _fun00015 }
+                    if(var4) { _fun0008_ip = 62; continue _fun0008 }
  52:
-                    tangon = new Array(1);
-                    tangon[0] = zuuluu;
-                    _fun00016_ip = 69; continue _fun00015;
+                    var4 = new Array(1);
+                    var4[0] = var3;
+                    _fun0008_ip = 69; continue _fun0008;
  62:
-                    return zuuluu;
+                    return var3;
  65:
-                    tangon = new Array(0);
+                    var4 = new Array(0);
  69:
-                    zuuluu = michal.existingEvents;
-                    michal = zuuluu.concat;
-                    report = michal.bind(zuuluu)(tangon);
-                    zuuluu = report.length;
-                    michal = 0;
-                    if(!(michal !== zuuluu)) { _fun00016_ip = 146; continue _fun00015 }
+                    var3 = var2.existingEvents;
+                    var2 = var3.concat;
+                    var5 = var2.bind(var3)(var4);
+                    var3 = var5.length;
+                    var2 = 0;
+                    if(!(var2 !== var3)) { _fun0008_ip = 146; continue _fun0008 }
  96:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 13;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.Storage;
-                    zuuluu = tangon.set;
-                    michal = 'previousNetStatsEvents';
-                    michal = zuuluu.bind(tangon)(michal, report);
-                    _fun00016_ip = 194; continue _fun00015;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 13;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.Storage;
+                    var3 = var4.set;
+                    var2 = 'previousNetStatsEvents';
+                    var2 = var3.bind(var4)(var2, var5);
+                    _fun0008_ip = 194; continue _fun0008;
  146:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 13;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.Storage;
-                    zuuluu = tangon.remove;
-                    michal = 'previousNetStatsEvents';
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 13;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.Storage;
+                    var3 = var4.remove;
+                    var2 = 'previousNetStatsEvents';
+                    var2 = var3.bind(var4)(var2);
  194:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  199:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot1 = golfie;
-        golfie = function() { // Original name: writeExistingEventStorage
-            entity = undefined;
-            tangon = _closure2_slot1;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot1 = var7;
+        var7 = function writeExistingEventStorage() {
+            var1 = undefined;
+            var4 = _closure2_slot1;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = golfie;
-        michal[1] = report;
-        report = {};
-        golfie = 'track';
-        report['key'] = golfie;
-        golfie = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var5['value'] = var7;
+        var2[1] = var5;
+        var5 = {};
+        var7 = 'track';
+        var5['key'] = var7;
+        var7 = function* () {
+            var1 = function* anon_0_() {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     StartGenerator();
-                    report = this;
+                    var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00018_ip = 170; continue _fun00017 }
+                    if(var2) { _fun0009_ip = 170; continue _fun0009 }
  15:
-                    var _closure4_slot0 = report;
-                    michal = undefined;
-                    var _closure4_slot1 = michal;
-                    zuuluu = report.didEverTrack;
-                    if(zuuluu) { _fun00018_ip = 167; continue _fun00017 }
+                    var _closure4_slot0 = var5;
+                    var2 = undefined;
+                    var _closure4_slot1 = var2;
+                    var3 = var5.didEverTrack;
+                    if(var3) { _fun0009_ip = 167; continue _fun0009 }
  37:
-                    zuuluu = true;
-                    report['didEverTrack'] = zuuluu;
-                    zuuluu = global;
-                    golfie = zuuluu.clearTimeout;
-                    oscard = report.trackTimeout;
-                    oscard = golfie.bind(michal)(oscard);
-                    oscard = zuuluu.clearInterval;
-                    zuuluu = report.flushStorageInterval;
-                    zuuluu = oscard.bind(michal)(zuuluu);
-                    zuuluu = report.getQueuedEvent;
-                    zuuluu = zuuluu.bind(report)();
+                    var3 = true;
+                    var5['didEverTrack'] = var3;
+                    var3 = global;
+                    var7 = var3.clearTimeout;
+                    var6 = var5.trackTimeout;
+                    var6 = var7.bind(var2)(var6);
+                    var6 = var3.clearInterval;
+                    var3 = var5.flushStorageInterval;
+                    var3 = var6.bind(var2)(var3);
+                    var3 = var5.getQueuedEvent;
+                    var3 = var3.bind(var5)();
                     SaveGenerator(address=95);
  93:
-                    return zuuluu;
+                    return var3;
  95:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00018_ip = 164; continue _fun00017 }
+                    if(var5) { _fun0009_ip = 164; continue _fun0009 }
  101:
-                    golfie = new Array(1);
-                    golfie[0] = zuuluu;
-                    _closure4_slot1 = golfie;
-                    oscard = _closure1_slot8;
-                    report = oscard.submitEventsImmediately;
-                    golfie = report.bind(oscard)(golfie);
-                    oscard = golfie.then;
-                    report = function() {
-                        report = _closure1_slot11;
-                        tangon = report.fileOnly;
-                        zuuluu = _closure4_slot1;
-                        michal = 'Successfully tracked latest network usage';
-                        michal = tangon.bind(report)(michal, zuuluu);
-                        michal = _closure4_slot0;
-                        entity = michal.writeExistingEventStorage;
-                        entity = entity.bind(michal)();
-                        entity = undefined;
-                        return entity;
+                    var7 = new Array(1);
+                    var7[0] = var3;
+                    _closure4_slot1 = var7;
+                    var6 = _closure1_slot8;
+                    var5 = var6.submitEventsImmediately;
+                    var7 = var5.bind(var6)(var7);
+                    var6 = var7.then;
+                    var5 = function() {
+                        var5 = _closure1_slot11;
+                        var4 = var5.fileOnly;
+                        var3 = _closure4_slot1;
+                        var2 = 'Successfully tracked latest network usage';
+                        var2 = var4.bind(var5)(var2, var3);
+                        var2 = _closure4_slot0;
+                        var1 = var2.writeExistingEventStorage;
+                        var1 = var1.bind(var2)();
+                        var1 = undefined;
+                        return var1;
                     };
-                    oscard = oscard.bind(golfie)(report);
-                    report = oscard.catch;
-                    tangon = function(argFoo) {
-                        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+                    var6 = var6.bind(var7)(var5);
+                    var5 = var6.catch;
+                    var4 = function(arg1) {
+                        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                            report = argFoo;
-                            michal = report.status;
-                            entity = 429;
-                            if(!(entity !== michal)) { _fun00020_ip = 50; continue _fun00019 }
+                            var5 = arg1;
+                            var2 = var5.status;
+                            var1 = 429;
+                            if(!(var1 !== var2)) { _fun0010_ip = 50; continue _fun0010 }
  18:
-                            tangon = _closure1_slot11;
-                            zuuluu = tangon.error;
-                            michal = _closure4_slot1;
-                            entity = 'Failed to track latest network usage';
-                            entity = zuuluu.bind(tangon)(entity, michal, report);
+                            var4 = _closure1_slot11;
+                            var3 = var4.error;
+                            var2 = _closure4_slot1;
+                            var1 = 'Failed to track latest network usage';
+                            var1 = var3.bind(var4)(var1, var2, var5);
  50:
-                            michal = _closure4_slot0;
-                            tangon = michal.existingEvents;
-                            zuuluu = tangon.push;
-                            report = _closure4_slot1;
-                            entity = 0;
-                            entity = report[entity];
-                            entity = zuuluu.bind(tangon)(entity);
-                            entity = michal.writeExistingEventStorage;
-                            entity = entity.bind(michal)();
-                            entity = undefined;
-                            return entity;
+                            var2 = _closure4_slot0;
+                            var4 = var2.existingEvents;
+                            var3 = var4.push;
+                            var5 = _closure4_slot1;
+                            var1 = 0;
+                            var1 = var5[var1];
+                            var1 = var3.bind(var4)(var1);
+                            var1 = var2.writeExistingEventStorage;
+                            var1 = var1.bind(var2)();
+                            var1 = undefined;
+                            return var1;
                         }
                     };
-                    tangon = report.bind(oscard)(tangon);
-                    _fun00018_ip = 167; continue _fun00017;
+                    var4 = var5.bind(var6)(var4);
+                    _fun0009_ip = 167; continue _fun0009;
  164:
-                    return zuuluu;
+                    return var3;
  167:
-                    return michal;
+                    return var2;
  170:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        golfie = option.bind(entity)(golfie);
-        var _closure2_slot0 = golfie;
-        golfie = function() { // Original name: track
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var7 = var8.bind(var1)(var7);
+        var _closure2_slot0 = var7;
+        var7 = function track() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = golfie;
-        michal[2] = report;
-        report = {};
-        golfie = 'getQueuedEvent';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            zuuluu = _closure1_slot22;
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)();
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.TTIManager;
-            zuuluu = zuuluu.AppOpenedTimestamp;
-            var _closure3_slot0 = zuuluu;
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 15;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.getSession;
-            zuuluu = michal.bind(zuuluu)();
-            michal = zuuluu.then;
-            entity = function(argFoo) {
-                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        var5['value'] = var7;
+        var2[2] = var5;
+        var5 = {};
+        var7 = 'getQueuedEvent';
+        var5['key'] = var7;
+        var6 = function value() {
+            var3 = _closure1_slot22;
+            var4 = undefined;
+            var3 = var3.bind(var4)();
+            var3 = _closure1_slot6;
+            var3 = var3.TTIManager;
+            var3 = var3.AppOpenedTimestamp;
+            var _closure3_slot0 = var3;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 15;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.getSession;
+            var3 = var2.bind(var3)();
+            var2 = var3.then;
+            var1 = function(arg1) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                    zuuluu = argFoo;
-                    entity = {};
-                    michal = _closure1_slot10;
-                    michal = michal.APP_NETWORK_USAGE;
-                    entity['type'] = michal;
-                    michal = {};
-                    option = _closure1_slot0;
-                    oscard = _closure1_slot2;
-                    report = 16;
-                    golfie = oscard[report];
-                    oscard = undefined;
-                    option = option.bind(oscard)(golfie);
-                    golfie = option.getDeviceMetadata;
-                    yankee = golfie.bind(option)();
-                    romeon = michal;
-                    golfie = copyDataProperties(romeon, yankee);
-                    golfie = global;
-                    option = golfie.Date;
-                    golfie = option.now;
-                    option = golfie.bind(option)();
-                    golfie = 'client_track_timestamp';
-                    michal[golfie] = option;
-                    option = null;
-                    verify = option == zuuluu;
-                    golfie = undefined;
-                    if(verify) { _fun00022_ip = 106; continue _fun00021 }
+                    var3 = arg1;
+                    var1 = {};
+                    var2 = _closure1_slot10;
+                    var2 = var2.APP_NETWORK_USAGE;
+                    var1['type'] = var2;
+                    var2 = {};
+                    var8 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var5 = 16;
+                    var7 = var6[var5];
+                    var6 = undefined;
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.getDeviceMetadata;
+                    var11 = var7.bind(var8)();
+                    var12 = var2;
+                    var7 = copyDataProperties(var12, var11);
+                    var7 = global;
+                    var8 = var7.Date;
+                    var7 = var8.now;
+                    var8 = var7.bind(var8)();
+                    var7 = 'client_track_timestamp';
+                    var2[var7] = var8;
+                    var8 = null;
+                    var9 = var8 == var3;
+                    var7 = undefined;
+                    if(var9) { _fun0011_ip = 106; continue _fun0011 }
  100:
-                    golfie = zuuluu.uuid;
+                    var7 = var3.uuid;
  106:
-                    zuuluu = 'client_heartbeat_session_id';
-                    michal[zuuluu] = golfie;
-                    golfie = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    report = zuuluu[report];
-                    golfie = golfie.bind(oscard)(report);
-                    report = golfie.currentLoadId;
-                    golfie = report.bind(golfie)();
-                    report = 'load_id';
-                    michal[report] = golfie;
-                    golfie = _closure1_slot9;
-                    report = golfie.getGuildCount;
-                    golfie = report.bind(golfie)();
-                    report = 'num_guilds';
-                    michal[report] = golfie;
-                    report = _closure1_slot1;
-                    golfie = 17;
-                    verify = zuuluu[golfie];
-                    verify = report.bind(oscard)(verify);
-                    offset = verify.wasAuthenticated;
-                    verify = 'was_authenticated';
-                    michal[verify] = offset;
-                    verify = zuuluu[golfie];
-                    verify = report.bind(oscard)(verify);
-                    offset = verify.didBackgroundApp;
-                    verify = 'did_background_app';
-                    michal[verify] = offset;
-                    verify = zuuluu[golfie];
-                    verify = report.bind(oscard)(verify);
-                    verify = verify.extraProperties;
-                    offset = verify.headless_task_ran;
-                    verify = 'headless_task_ran';
-                    michal[verify] = offset;
-                    zuuluu = zuuluu[golfie];
-                    zuuluu = report.bind(oscard)(zuuluu);
-                    offset = zuuluu.ready;
-                    verify = offset.serializeEnd;
-                    report = _closure3_slot0;
-                    verify = verify.bind(offset)(report);
-                    report = 'ready_payload_duration_ms';
-                    michal[report] = verify;
-                    verify = _closure1_slot13;
-                    offset = option == verify;
-                    report = undefined;
-                    if(offset) { _fun00022_ip = 326; continue _fun00021 }
+                    var3 = 'client_heartbeat_session_id';
+                    var2[var3] = var7;
+                    var7 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var5 = var3[var5];
+                    var7 = var7.bind(var6)(var5);
+                    var5 = var7.currentLoadId;
+                    var7 = var5.bind(var7)();
+                    var5 = 'load_id';
+                    var2[var5] = var7;
+                    var7 = _closure1_slot9;
+                    var5 = var7.getGuildCount;
+                    var7 = var5.bind(var7)();
+                    var5 = 'num_guilds';
+                    var2[var5] = var7;
+                    var5 = _closure1_slot1;
+                    var7 = 17;
+                    var9 = var3[var7];
+                    var9 = var5.bind(var6)(var9);
+                    var10 = var9.wasAuthenticated;
+                    var9 = 'was_authenticated';
+                    var2[var9] = var10;
+                    var9 = var3[var7];
+                    var9 = var5.bind(var6)(var9);
+                    var10 = var9.didBackgroundApp;
+                    var9 = 'did_background_app';
+                    var2[var9] = var10;
+                    var9 = var3[var7];
+                    var9 = var5.bind(var6)(var9);
+                    var9 = var9.extraProperties;
+                    var10 = var9.headless_task_ran;
+                    var9 = 'headless_task_ran';
+                    var2[var9] = var10;
+                    var3 = var3[var7];
+                    var3 = var5.bind(var6)(var3);
+                    var10 = var3.ready;
+                    var9 = var10.serializeEnd;
+                    var5 = _closure3_slot0;
+                    var9 = var9.bind(var10)(var5);
+                    var5 = 'ready_payload_duration_ms';
+                    var2[var5] = var9;
+                    var9 = _closure1_slot13;
+                    var10 = var8 == var9;
+                    var5 = undefined;
+                    if(var10) { _fun0011_ip = 326; continue _fun0011 }
  320:
-                    report = verify.signalStrengthLevel;
+                    var5 = var9.signalStrengthLevel;
  326:
-                    offset = option != report;
-                    verify = undefined;
-                    if(!offset) { _fun00022_ip = 338; continue _fun00021 }
+                    var10 = var8 != var5;
+                    var9 = undefined;
+                    if(!var10) { _fun0011_ip = 338; continue _fun0011 }
  335:
-                    verify = report;
+                    var9 = var5;
  338:
-                    report = 'initial_signal_strength_level';
-                    michal[report] = verify;
-                    report = _closure1_slot12;
-                    report = report.signalStrengthLevel;
-                    offset = option != report;
-                    verify = undefined;
-                    if(!offset) { _fun00022_ip = 371; continue _fun00021 }
+                    var5 = 'initial_signal_strength_level';
+                    var2[var5] = var9;
+                    var5 = _closure1_slot12;
+                    var5 = var5.signalStrengthLevel;
+                    var10 = var8 != var5;
+                    var9 = undefined;
+                    if(!var10) { _fun0011_ip = 371; continue _fun0011 }
  368:
-                    verify = report;
+                    var9 = var5;
  371:
-                    report = 'final_signal_strength_level';
-                    michal[report] = verify;
-                    verify = _closure1_slot15;
-                    offset = option == verify;
-                    report = undefined;
-                    if(offset) { _fun00022_ip = 400; continue _fun00021 }
+                    var5 = 'final_signal_strength_level';
+                    var2[var5] = var9;
+                    var9 = _closure1_slot15;
+                    var10 = var8 == var9;
+                    var5 = undefined;
+                    if(var10) { _fun0011_ip = 400; continue _fun0011 }
  395:
-                    report = verify.type;
+                    var5 = var9.type;
  400:
-                    offset = option != report;
-                    verify = undefined;
-                    if(!offset) { _fun00022_ip = 412; continue _fun00021 }
+                    var10 = var8 != var5;
+                    var9 = undefined;
+                    if(!var10) { _fun0011_ip = 412; continue _fun0011 }
  409:
-                    verify = report;
+                    var9 = var5;
  412:
-                    report = 'initial_network_type';
-                    michal[report] = verify;
-                    report = _closure1_slot14;
-                    verify = report.type;
-                    report = 'final_network_type';
-                    michal[report] = verify;
-                    verify = _closure1_slot15;
-                    offset = option == verify;
-                    report = undefined;
-                    if(offset) { _fun00022_ip = 462; continue _fun00021 }
+                    var5 = 'initial_network_type';
+                    var2[var5] = var9;
+                    var5 = _closure1_slot14;
+                    var9 = var5.type;
+                    var5 = 'final_network_type';
+                    var2[var5] = var9;
+                    var9 = _closure1_slot15;
+                    var10 = var8 == var9;
+                    var5 = undefined;
+                    if(var10) { _fun0011_ip = 462; continue _fun0011 }
  456:
-                    report = verify.effectiveSpeed;
+                    var5 = var9.effectiveSpeed;
  462:
-                    verify = option != report;
-                    option = undefined;
-                    if(!verify) { _fun00022_ip = 474; continue _fun00021 }
+                    var9 = var8 != var5;
+                    var8 = undefined;
+                    if(!var9) { _fun0011_ip = 474; continue _fun0011 }
  471:
-                    option = report;
+                    var8 = var5;
  474:
-                    report = 'initial_cellular_generation';
-                    michal[report] = option;
-                    report = _closure1_slot14;
-                    option = report.effectiveSpeed;
-                    report = 'final_cellular_generation';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.isNetworkRoaming;
-                    report = 'is_network_roaming';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.cellularReceiveBytes;
-                    report = 'cellular_receive_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.cellularSendBytes;
-                    report = 'cellular_send_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.totalReceiveBytes;
-                    report = 'total_receive_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.totalSendBytes;
-                    report = 'total_send_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.uidReceiveBytes;
-                    report = 'uid_receive_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.uidSendBytes;
-                    report = 'uid_send_bytes';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.socketBytesReceived;
-                    report = 'socket_bytes_received';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.otaBytesReceived;
-                    report = 'ota_bytes_received';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.otaNumRequests;
-                    report = 'ota_num_requests';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.xhrBytesReceived;
-                    report = 'xhr_bytes_received';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.xhrNumRequests;
-                    report = 'xhr_num_requests';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.frescoBytesReceived;
-                    report = 'fresco_bytes_received';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.frescoNumRequests;
-                    report = 'fresco_num_requests';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.downloadBytesReceived;
-                    report = 'download_bytes_received';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.downloadNumRequests;
-                    report = 'download_num_requests';
-                    michal[report] = option;
-                    report = _closure1_slot12;
-                    option = report.mediaPlayerBytesReceived;
-                    report = 'media_player_bytes_received';
-                    michal[report] = option;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    report = 11;
-                    report = verify[report];
-                    option = option.bind(oscard)(report);
-                    report = option.getRTCTotalBytes;
-                    option = report.bind(option)();
-                    report = 'rtc_bytes';
-                    michal[report] = option;
-                    option = _closure1_slot17;
-                    report = 'num_message_sends';
-                    michal[report] = option;
-                    report = _closure1_slot17;
-                    verify = 0;
-                    option = undefined;
-                    if(!(verify !== report)) { _fun00022_ip = 935; continue _fun00021 }
+                    var5 = 'initial_cellular_generation';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot14;
+                    var8 = var5.effectiveSpeed;
+                    var5 = 'final_cellular_generation';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.isNetworkRoaming;
+                    var5 = 'is_network_roaming';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.cellularReceiveBytes;
+                    var5 = 'cellular_receive_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.cellularSendBytes;
+                    var5 = 'cellular_send_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.totalReceiveBytes;
+                    var5 = 'total_receive_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.totalSendBytes;
+                    var5 = 'total_send_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.uidReceiveBytes;
+                    var5 = 'uid_receive_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.uidSendBytes;
+                    var5 = 'uid_send_bytes';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.socketBytesReceived;
+                    var5 = 'socket_bytes_received';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.otaBytesReceived;
+                    var5 = 'ota_bytes_received';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.otaNumRequests;
+                    var5 = 'ota_num_requests';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.xhrBytesReceived;
+                    var5 = 'xhr_bytes_received';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.xhrNumRequests;
+                    var5 = 'xhr_num_requests';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.frescoBytesReceived;
+                    var5 = 'fresco_bytes_received';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.frescoNumRequests;
+                    var5 = 'fresco_num_requests';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.downloadBytesReceived;
+                    var5 = 'download_bytes_received';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.downloadNumRequests;
+                    var5 = 'download_num_requests';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot12;
+                    var8 = var5.mediaPlayerBytesReceived;
+                    var5 = 'media_player_bytes_received';
+                    var2[var5] = var8;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var5 = 11;
+                    var5 = var9[var5];
+                    var8 = var8.bind(var6)(var5);
+                    var5 = var8.getRTCTotalBytes;
+                    var8 = var5.bind(var8)();
+                    var5 = 'rtc_bytes';
+                    var2[var5] = var8;
+                    var8 = _closure1_slot17;
+                    var5 = 'num_message_sends';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot17;
+                    var9 = 0;
+                    var8 = undefined;
+                    if(!(var9 !== var5)) { _fun0011_ip = 935; continue _fun0011 }
  931:
-                    option = _closure1_slot18;
+                    var8 = _closure1_slot18;
  935:
-                    report = 'max_message_send_duration';
-                    michal[report] = option;
-                    report = _closure1_slot17;
-                    option = undefined;
-                    if(!(verify !== report)) { _fun00022_ip = 960; continue _fun00021 }
+                    var5 = 'max_message_send_duration';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot17;
+                    var8 = undefined;
+                    if(!(var9 !== var5)) { _fun0011_ip = 960; continue _fun0011 }
  956:
-                    option = _closure1_slot19;
+                    var8 = _closure1_slot19;
  960:
-                    report = 'max_message_queue_length';
-                    michal[report] = option;
-                    option = _closure1_slot20;
-                    report = 'num_message_send_fails';
-                    michal[report] = option;
-                    option = _closure1_slot7;
-                    report = option.getSocket;
-                    report = report.bind(option)();
-                    option = report.identifyCount;
-                    report = 'num_identifies';
-                    michal[report] = option;
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot2;
-                    tangon = tangon[golfie];
-                    tangon = report.bind(oscard)(tangon);
-                    report = tangon.renderLatestMessages;
-                    tangon = report.serialize;
-                    zuuluu = _closure3_slot0;
-                    tangon = tangon.bind(report)(zuuluu);
-                    zuuluu = 'render_latest_messages_duration_ms';
-                    michal[zuuluu] = tangon;
-                    entity['properties'] = michal;
-                    return entity;
+                    var5 = 'max_message_queue_length';
+                    var2[var5] = var8;
+                    var8 = _closure1_slot20;
+                    var5 = 'num_message_send_fails';
+                    var2[var5] = var8;
+                    var8 = _closure1_slot7;
+                    var5 = var8.getSocket;
+                    var5 = var5.bind(var8)();
+                    var8 = var5.identifyCount;
+                    var5 = 'num_identifies';
+                    var2[var5] = var8;
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var7];
+                    var4 = var5.bind(var6)(var4);
+                    var5 = var4.renderLatestMessages;
+                    var4 = var5.serialize;
+                    var3 = _closure3_slot0;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = 'render_latest_messages_duration_ms';
+                    var2[var3] = var4;
+                    var1['properties'] = var2;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        report['value'] = oscard;
-        michal[3] = report;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var5['value'] = var6;
+        var2[3] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    option = tangon.prototype;
-    option = Object.create(option, {constructor: {value: tangon}});
-    sizing = option;
-    tangon = new sizing[tangon](kiloes);
-    tangon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot21 = tangon;
-    tangon = 14;
-    option = oscard[tangon];
-    yankee = golfie.bind(entity)(option);
-    offset = yankee.subscribe;
-    verify = 'APP_STATE_UPDATE';
-    option = function(argFoo) {
-        zuuluu = _closure1_slot21;
-        michal = zuuluu.handleAppStateChange;
-        entity = argFoo;
-        tangon = entity.state;
-        entity = 'active';
-        entity = entity === tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var4 = var4.bind(var1)();
+    var8 = var4.prototype;
+    var8 = Object.create(var8, {constructor: {value: var4}});
+    var16 = var8;
+    var4 = new var16[var4](var15);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot21 = var4;
+    var4 = 14;
+    var8 = var6[var4];
+    var11 = var7.bind(var1)(var8);
+    var10 = var11.subscribe;
+    var9 = 'APP_STATE_UPDATE';
+    var8 = function(arg1) {
+        var3 = _closure1_slot21;
+        var2 = var3.handleAppStateChange;
+        var1 = arg1;
+        var4 = var1.state;
+        var1 = 'active';
+        var1 = var1 === var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    option = offset.bind(yankee)(verify, option);
-    option = oscard[tangon];
-    yankee = golfie.bind(entity)(option);
-    offset = yankee.subscribe;
-    verify = 'MESSAGE_CREATE';
-    option = function(argFoo) {
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    var8 = var10.bind(var11)(var9, var8);
+    var8 = var6[var4];
+    var11 = var7.bind(var1)(var8);
+    var10 = var11.subscribe;
+    var9 = 'MESSAGE_CREATE';
+    var8 = function(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-            michal = argFoo;
-            report = michal.sendMessageOptions;
-            tangon = null;
-            oscard = tangon == report;
-            entity = undefined;
-            zuuluu = undefined;
-            if(oscard) { _fun00024_ip = 28; continue _fun00023 }
+            var2 = arg1;
+            var5 = var2.sendMessageOptions;
+            var4 = null;
+            var6 = var4 == var5;
+            var1 = undefined;
+            var3 = undefined;
+            if(var6) { _fun0012_ip = 28; continue _fun0012 }
  22:
-            zuuluu = report.sendAnalytics;
+            var3 = var5.sendAnalytics;
  28:
-            if(!(tangon != zuuluu)) { _fun00024_ip = 133; continue _fun00023 }
+            if(!(var4 != var3)) { _fun0012_ip = 133; continue _fun0012 }
  32:
-            tangon = _closure1_slot17;
-            tangon = tangon + 1;
-            _closure1_slot17 = tangon;
-            tangon = global;
-            option = tangon.Math;
-            golfie = option.max;
-            oscard = _closure1_slot18;
-            report = michal.sendMessageOptions;
-            report = report.sendAnalytics;
-            report = report.duration;
-            report = golfie.bind(option)(oscard, report);
-            _closure1_slot18 = report;
-            oscard = tangon.Math;
-            report = oscard.max;
-            tangon = _closure1_slot19;
-            michal = michal.sendMessageOptions;
-            michal = michal.sendAnalytics;
-            michal = michal.queueSize;
-            michal = report.bind(oscard)(tangon, michal);
-            _closure1_slot19 = michal;
+            var4 = _closure1_slot17;
+            var4 = var4 + 1;
+            _closure1_slot17 = var4;
+            var4 = global;
+            var8 = var4.Math;
+            var7 = var8.max;
+            var6 = _closure1_slot18;
+            var5 = var2.sendMessageOptions;
+            var5 = var5.sendAnalytics;
+            var5 = var5.duration;
+            var5 = var7.bind(var8)(var6, var5);
+            _closure1_slot18 = var5;
+            var6 = var4.Math;
+            var5 = var6.max;
+            var4 = _closure1_slot19;
+            var2 = var2.sendMessageOptions;
+            var2 = var2.sendAnalytics;
+            var2 = var2.queueSize;
+            var2 = var5.bind(var6)(var4, var2);
+            _closure1_slot19 = var2;
  133:
-            return entity;
+            return var1;
         }
     };
-    option = offset.bind(yankee)(verify, option);
-    tangon = oscard[tangon];
-    verify = golfie.bind(entity)(tangon);
-    option = verify.subscribe;
-    golfie = 'MESSAGE_SEND_FAILED';
-    tangon = function() {
-        entity = _closure1_slot20;
-        entity = entity + 1;
-        _closure1_slot20 = entity;
-        entity = undefined;
-        return entity;
+    var8 = var10.bind(var11)(var9, var8);
+    var4 = var6[var4];
+    var9 = var7.bind(var1)(var4);
+    var8 = var9.subscribe;
+    var7 = 'MESSAGE_SEND_FAILED';
+    var4 = function() {
+        var1 = _closure1_slot20;
+        var1 = var1 + 1;
+        _closure1_slot20 = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon = option.bind(verify)(golfie, tangon);
-    tangon = 18;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/network/NetStats.android.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: isSlowNetwork
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+    var4 = var8.bind(var9)(var7, var4);
+    var4 = 18;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/network/NetStats.android.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function isSlowNetwork() {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-            entity = _closure1_slot14;
-            michal = entity.type;
-            report = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 9;
-            tangon = tangon[entity];
-            entity = undefined;
-            entity = report.bind(entity)(tangon);
-            entity = entity.NetInfoStateType;
-            entity = entity.cellular;
-            entity = michal === entity;
-            if(!entity) { _fun00026_ip = 126; continue _fun00025 }
+            var1 = _closure1_slot14;
+            var2 = var1.type;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 9;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.NetInfoStateType;
+            var1 = var1.cellular;
+            var1 = var2 === var1;
+            if(!var1) { _fun0013_ip = 126; continue _fun0013 }
  53:
-            michal = _closure1_slot12;
-            tangon = michal.signalStrengthLevel;
-            michal = null;
-            michal = michal != tangon;
-            if(!michal) { _fun00026_ip = 89; continue _fun00025 }
+            var2 = _closure1_slot12;
+            var4 = var2.signalStrengthLevel;
+            var2 = null;
+            var2 = var2 != var4;
+            if(!var2) { _fun0013_ip = 89; continue _fun0013 }
  72:
-            tangon = _closure1_slot12;
-            report = tangon.signalStrengthLevel;
-            tangon = 2;
-            michal = report <= tangon;
+            var4 = _closure1_slot12;
+            var5 = var4.signalStrengthLevel;
+            var4 = 2;
+            var2 = var5 <= var4;
  89:
-            if(michal) { _fun00026_ip = 110; continue _fun00025 }
+            if(var2) { _fun0013_ip = 110; continue _fun0013 }
  92:
-            tangon = _closure1_slot14;
-            report = tangon.effectiveSpeed;
-            tangon = '2g';
-            michal = tangon === report;
+            var4 = _closure1_slot14;
+            var5 = var4.effectiveSpeed;
+            var4 = '2g';
+            var2 = var4 === var5;
  110:
-            if(michal) { _fun00026_ip = 123; continue _fun00025 }
+            if(var2) { _fun0013_ip = 123; continue _fun0013 }
  113:
-            zuuluu = _closure1_slot12;
-            michal = zuuluu.isNetworkRoaming;
+            var3 = _closure1_slot12;
+            var2 = var3.isNetworkRoaming;
  123:
-            entity = michal;
+            var1 = var2;
  126:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isSlowNetwork'] = tangon;
-    michal = function() { // Original name: getSignalStrength
-        entity = _closure1_slot12;
-        entity = entity.signalStrengthLevel;
-        return entity;
+    var3['isSlowNetwork'] = var4;
+    var2 = function getSignalStrength() {
+        var1 = _closure1_slot12;
+        var1 = var1.signalStrengthLevel;
+        return var1;
     };
-    zuuluu['getSignalStrength'] = michal;
-    return entity;
+    var3['getSignalStrength'] = var2;
+    return var1;
 })();

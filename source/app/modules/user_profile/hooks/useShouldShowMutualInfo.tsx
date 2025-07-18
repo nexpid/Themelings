@@ -1,86 +1,86 @@
 // app/modules/user_profile/hooks/useShouldShowMutualInfo.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/hooks/useShouldShowMutualInfo.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useShouldShowMutualInfo
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/hooks/useShouldShowMutualInfo.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useShouldShowMutualInfo(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 1;
-            zuuluu = golfie[zuuluu];
-            tangon = undefined;
-            verify = oscard.bind(tangon)(zuuluu);
-            option = verify.useStateFromStores;
-            zuuluu = _closure1_slot3;
-            report = new Array(1);
-            report[0] = zuuluu;
-            zuuluu = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentUser;
-                entity = entity.bind(michal)();
-                return entity;
+            var2 = arg1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 1;
+            var3 = var7[var3];
+            var4 = undefined;
+            var9 = var6.bind(var4)(var3);
+            var8 = var9.useStateFromStores;
+            var3 = _closure1_slot3;
+            var5 = new Array(1);
+            var5[0] = var3;
+            var3 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentUser;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            report = option.bind(verify)(report, zuuluu);
-            zuuluu = _closure1_slot1;
-            entity = 2;
-            entity = golfie[entity];
-            entity = zuuluu.bind(tangon)(entity);
-            zuuluu = entity.bind(tangon)(michal);
-            entity = 3;
-            entity = golfie[entity];
-            golfie = oscard.bind(tangon)(entity);
-            oscard = golfie.useIsEligibleForUserProfileBlockeeHideMutuals;
-            entity = {};
-            option = 'useShouldShowMutualInfo';
-            entity['location'] = option;
-            entity = oscard.bind(golfie)(entity);
-            entity = !entity;
-            if(entity) { _fun00002_ip = 154; continue _fun00001 }
+            var5 = var8.bind(var9)(var5, var3);
+            var3 = _closure1_slot1;
+            var1 = 2;
+            var1 = var7[var1];
+            var1 = var3.bind(var4)(var1);
+            var3 = var1.bind(var4)(var2);
+            var1 = 3;
+            var1 = var7[var1];
+            var7 = var6.bind(var4)(var1);
+            var6 = var7.useIsEligibleForUserProfileBlockeeHideMutuals;
+            var1 = {};
+            var8 = 'useShouldShowMutualInfo';
+            var1['location'] = var8;
+            var1 = var6.bind(var7)(var1);
+            var1 = !var1;
+            if(var1) { _fun0001_ip = 154; continue _fun0001 }
  120:
-            oscard = null;
-            oscard = oscard == report;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 136; continue _fun00001 }
+            var6 = null;
+            var6 = var6 == var5;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 136; continue _fun0001 }
  131:
-            tangon = report.id;
+            var4 = var5.id;
  136:
-            michal = michal.id;
-            michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 151; continue _fun00001 }
+            var2 = var2.id;
+            var2 = var4 !== var2;
+            if(!var2) { _fun0001_ip = 151; continue _fun0001 }
  148:
-            michal = !zuuluu;
+            var2 = !var3;
  151:
-            entity = michal;
+            var1 = var2;
  154:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

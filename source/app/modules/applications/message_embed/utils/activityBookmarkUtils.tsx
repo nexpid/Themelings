@@ -1,91 +1,91 @@
 // app/modules/applications/message_embed/utils/activityBookmarkUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    tangon = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, report);
-    entity = 1;
-    report = tangon[entity];
-    tangon = argBar;
-    entity = undefined;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/message_embed/utils/activityBookmarkUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: extractActivityBookmarkParams
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var4 = native7;
+    var1 = native3;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var5);
+    var1 = 1;
+    var5 = var4[var1];
+    var4 = native2;
+    var1 = undefined;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/message_embed/utils/activityBookmarkUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function extractActivityBookmarkParams(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 0;
-            entity = michal[entity];
-            michal = undefined;
-            tangon = zuuluu.bind(michal)(entity);
-            zuuluu = tangon.toURLSafe;
-            entity = argFoo;
-            report = zuuluu.bind(tangon)(entity);
-            entity = {};
-            tangon = null;
-            zuuluu = tangon == report;
-            oscard = undefined;
-            if(zuuluu) { _fun00002_ip = 71; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 0;
+            var1 = var2[var1];
+            var2 = undefined;
+            var4 = var3.bind(var2)(var1);
+            var3 = var4.toURLSafe;
+            var1 = arg1;
+            var5 = var3.bind(var4)(var1);
+            var1 = {};
+            var4 = null;
+            var3 = var4 == var5;
+            var6 = undefined;
+            if(var3) { _fun0001_ip = 71; continue _fun0001 }
  51:
-            option = report.searchParams;
-            golfie = option.get;
-            zuuluu = 'referrer_id';
-            oscard = golfie.bind(option)(zuuluu);
+            var8 = var5.searchParams;
+            var7 = var8.get;
+            var3 = 'referrer_id';
+            var6 = var7.bind(var8)(var3);
  71:
-            golfie = tangon != oscard;
-            zuuluu = undefined;
-            if(!golfie) { _fun00002_ip = 83; continue _fun00001 }
+            var7 = var4 != var6;
+            var3 = undefined;
+            if(!var7) { _fun0001_ip = 83; continue _fun0001 }
  80:
-            zuuluu = oscard;
+            var3 = var6;
  83:
-            entity['referrerId'] = zuuluu;
-            zuuluu = tangon == report;
-            oscard = undefined;
-            if(zuuluu) { _fun00002_ip = 117; continue _fun00001 }
+            var1['referrerId'] = var3;
+            var3 = var4 == var5;
+            var6 = undefined;
+            if(var3) { _fun0001_ip = 117; continue _fun0001 }
  97:
-            option = report.searchParams;
-            golfie = option.get;
-            zuuluu = 'custom_id';
-            oscard = golfie.bind(option)(zuuluu);
+            var8 = var5.searchParams;
+            var7 = var8.get;
+            var3 = 'custom_id';
+            var6 = var7.bind(var8)(var3);
  117:
-            golfie = tangon != oscard;
-            zuuluu = undefined;
-            if(!golfie) { _fun00002_ip = 129; continue _fun00001 }
+            var7 = var4 != var6;
+            var3 = undefined;
+            if(!var7) { _fun0001_ip = 129; continue _fun0001 }
  126:
-            zuuluu = oscard;
+            var3 = var6;
  129:
-            entity['customId'] = zuuluu;
-            oscard = tangon == report;
-            zuuluu = undefined;
-            if(oscard) { _fun00002_ip = 163; continue _fun00001 }
+            var1['customId'] = var3;
+            var6 = var4 == var5;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 163; continue _fun0001 }
  143:
-            golfie = report.searchParams;
-            oscard = golfie.get;
-            report = 'link_id';
-            zuuluu = oscard.bind(golfie)(report);
+            var7 = var5.searchParams;
+            var6 = var7.get;
+            var5 = 'link_id';
+            var3 = var6.bind(var7)(var5);
  163:
-            tangon = tangon != zuuluu;
-            michal = undefined;
-            if(!tangon) { _fun00002_ip = 175; continue _fun00001 }
+            var4 = var4 != var3;
+            var2 = undefined;
+            if(!var4) { _fun0001_ip = 175; continue _fun0001 }
  172:
-            michal = zuuluu;
+            var2 = var3;
  175:
-            entity['linkId'] = michal;
-            return entity;
+            var1['linkId'] = var2;
+            return var1;
         }
     };
-    zuuluu['extractActivityBookmarkParams'] = michal;
-    return entity;
+    var3['extractActivityBookmarkParams'] = var2;
+    return var1;
 })();

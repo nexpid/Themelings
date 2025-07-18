@@ -1,137 +1,137 @@
 // app/modules/user_profile/preloadUserBannerImage.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 2;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/preloadUserBannerImage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: preloadUserBannerImage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/preloadUserBannerImage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function preloadUserBannerImage(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            option = argBar;
-            entity = global;
-            michal = entity.Image;
-            zuuluu = 'undefined';
-            michal = typeof michal;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 378; continue _fun00001 }
+            var7 = arg1;
+            var8 = arg2;
+            var1 = global;
+            var2 = var1.Image;
+            var3 = 'undefined';
+            var2 = typeof var2;
+            if(!(var3 !== var2)) { _fun0001_ip = 378; continue _fun0001 }
  28:
-            michal = golfie.user;
-            zuuluu = null;
-            tangon = zuuluu == michal;
-            verify = undefined;
-            yankee = undefined;
-            if(tangon) { _fun00002_ip = 51; continue _fun00001 }
+            var2 = var7.user;
+            var3 = null;
+            var4 = var3 == var2;
+            var9 = undefined;
+            var11 = undefined;
+            if(var4) { _fun0001_ip = 51; continue _fun0001 }
  46:
-            yankee = michal.id;
+            var11 = var2.id;
  51:
-            if(!(zuuluu != yankee)) { _fun00002_ip = 378; continue _fun00001 }
+            if(!(var3 != var11)) { _fun0001_ip = 378; continue _fun0001 }
  58:
-            michal = '';
-            if(!(michal !== yankee)) { _fun00002_ip = 378; continue _fun00001 }
+            var2 = '';
+            if(!(var2 !== var11)) { _fun0001_ip = 378; continue _fun0001 }
  69:
-            tangon = zuuluu != option;
-            if(!tangon) { _fun00002_ip = 101; continue _fun00001 }
+            var4 = var3 != var8;
+            if(!var4) { _fun0001_ip = 101; continue _fun0001 }
  76:
-            report = golfie.guild_member_profile;
-            oscard = zuuluu == report;
-            michal = undefined;
-            if(oscard) { _fun00002_ip = 97; continue _fun00001 }
+            var5 = var7.guild_member_profile;
+            var6 = var3 == var5;
+            var2 = undefined;
+            if(var6) { _fun0001_ip = 97; continue _fun0001 }
  91:
-            michal = report.banner;
+            var2 = var5.banner;
  97:
-            tangon = zuuluu != michal;
+            var4 = var3 != var2;
  101:
-            michal = undefined;
-            if(!tangon) { _fun00002_ip = 209; continue _fun00001 }
+            var2 = undefined;
+            if(!var4) { _fun0001_ip = 209; continue _fun0001 }
  106:
-            offset = _closure1_slot0;
-            romeon = _closure1_slot1;
-            tangon = 0;
-            tangon = romeon[tangon];
-            oscard = offset.bind(verify)(tangon);
-            report = oscard.getGuildMemberBannerURL;
-            tangon = {};
-            tangon['id'] = yankee;
-            tangon['guildId'] = option;
-            option = golfie.guild_member_profile;
-            option = option.banner;
-            tangon['banner'] = option;
-            option = 1;
-            option = romeon[option];
-            option = offset.bind(verify)(option);
-            offset = option.GifAutoPlay;
-            option = offset.getSetting;
-            option = option.bind(offset)();
-            tangon['canAnimate'] = option;
-            option = 600;
-            tangon['size'] = option;
-            michal = report.bind(oscard)(tangon);
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var4 = 0;
+            var4 = var12[var4];
+            var6 = var10.bind(var9)(var4);
+            var5 = var6.getGuildMemberBannerURL;
+            var4 = {};
+            var4['id'] = var11;
+            var4['guildId'] = var8;
+            var8 = var7.guild_member_profile;
+            var8 = var8.banner;
+            var4['banner'] = var8;
+            var8 = 1;
+            var8 = var12[var8];
+            var8 = var10.bind(var9)(var8);
+            var10 = var8.GifAutoPlay;
+            var8 = var10.getSetting;
+            var8 = var8.bind(var10)();
+            var4['canAnimate'] = var8;
+            var8 = 600;
+            var4['size'] = var8;
+            var2 = var5.bind(var6)(var4);
  209:
-            report = zuuluu == golfie;
-            tangon = undefined;
-            if(report) { _fun00002_ip = 239; continue _fun00001 }
+            var5 = var3 == var7;
+            var4 = undefined;
+            if(var5) { _fun0001_ip = 239; continue _fun0001 }
  218:
-            report = golfie.user_profile;
-            oscard = zuuluu == report;
-            tangon = undefined;
-            if(oscard) { _fun00002_ip = 239; continue _fun00001 }
+            var5 = var7.user_profile;
+            var6 = var3 == var5;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 239; continue _fun0001 }
  233:
-            tangon = report.banner;
+            var4 = var5.banner;
  239:
-            if(!(zuuluu != tangon)) { _fun00002_ip = 342; continue _fun00001 }
+            if(!(var3 != var4)) { _fun0001_ip = 342; continue _fun0001 }
  243:
-            option = _closure1_slot0;
-            offset = _closure1_slot1;
-            tangon = 0;
-            tangon = offset[tangon];
-            oscard = option.bind(verify)(tangon);
-            report = oscard.getUserBannerURL;
-            tangon = {};
-            tangon['id'] = yankee;
-            golfie = golfie.user_profile;
-            golfie = golfie.banner;
-            tangon['banner'] = golfie;
-            golfie = 1;
-            golfie = offset[golfie];
-            golfie = option.bind(verify)(golfie);
-            option = golfie.GifAutoPlay;
-            golfie = option.getSetting;
-            golfie = golfie.bind(option)();
-            tangon['canAnimate'] = golfie;
-            golfie = 600;
-            tangon['size'] = golfie;
-            michal = report.bind(oscard)(tangon);
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var4 = 0;
+            var4 = var10[var4];
+            var6 = var8.bind(var9)(var4);
+            var5 = var6.getUserBannerURL;
+            var4 = {};
+            var4['id'] = var11;
+            var7 = var7.user_profile;
+            var7 = var7.banner;
+            var4['banner'] = var7;
+            var7 = 1;
+            var7 = var10[var7];
+            var7 = var8.bind(var9)(var7);
+            var8 = var7.GifAutoPlay;
+            var7 = var8.getSetting;
+            var7 = var7.bind(var8)();
+            var4['canAnimate'] = var7;
+            var7 = 600;
+            var4['size'] = var7;
+            var2 = var5.bind(var6)(var4);
  342:
-            if(!(zuuluu != michal)) { _fun00002_ip = 378; continue _fun00001 }
+            if(!(var3 != var2)) { _fun0001_ip = 378; continue _fun0001 }
  346:
-            entity = entity.Image;
-            zuuluu = entity.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
-            kiloes = zuuluu;
-            entity = new kiloes[entity](backup);
-            entity = entity instanceof Object ? entity : zuuluu;
-            entity['src'] = michal;
+            var1 = var1.Image;
+            var3 = var1.prototype;
+            var3 = Object.create(var3, {constructor: {value: var1}});
+            var15 = var3;
+            var1 = new var15[var1](var14);
+            var1 = var1 instanceof Object ? var1 : var3;
+            var1['src'] = var2;
  378:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

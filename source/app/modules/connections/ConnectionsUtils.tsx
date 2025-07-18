@@ -1,1381 +1,1381 @@
 // app/modules/connections/ConnectionsUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    verify = 0;
-    tangon = golfie[verify];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    option = 1;
-    tangon = golfie[option];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.MetadataFields;
-    var _closure1_slot6 = report;
-    tangon = tangon.OperatorTypes;
-    var _closure1_slot7 = tangon;
-    tangon = 4;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.Permissions;
-    var _closure1_slot8 = report;
-    tangon = tangon.PlatformTypes;
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    tangon['AND'] = verify;
-    report = 'AND';
-    tangon[verify] = report;
-    tangon['OR'] = option;
-    report = 'OR';
-    tangon[option] = report;
-    report = 13;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/connections/ConnectionsUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = ['426537812993638400', '1042836142560645130', '296023718839451649', '979802510766268446', '1031611223235637258', '512333785338216465'];
-    zuuluu['officialApplicationIds'] = report;
-    zuuluu['ConnectionConfigurationRuleOperator'] = tangon;
-    tangon = function(argFoo) { // Original name: getCallbackParamsFromURL
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var9 = 0;
+    var4 = var7[var9];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var8 = 1;
+    var4 = var7[var8];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.MetadataFields;
+    var _closure1_slot6 = var5;
+    var4 = var4.OperatorTypes;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.Permissions;
+    var _closure1_slot8 = var5;
+    var4 = var4.PlatformTypes;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var4['AND'] = var9;
+    var5 = 'AND';
+    var4[var9] = var5;
+    var4['OR'] = var8;
+    var5 = 'OR';
+    var4[var8] = var5;
+    var5 = 13;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/connections/ConnectionsUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = ['426537812993638400', '1042836142560645130', '296023718839451649', '979802510766268446', '1031611223235637258', '512333785338216465'];
+    var3['officialApplicationIds'] = var5;
+    var3['ConnectionConfigurationRuleOperator'] = var4;
+    var4 = function getCallbackParamsFromURL(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            entity = zuuluu[entity];
-            option = undefined;
-            zuuluu = michal.bind(option)(entity);
-            michal = zuuluu.toURLSafe;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            michal = null;
-            if(!(michal == entity)) { _fun00002_ip = 83; continue _fun00001 }
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var8 = undefined;
+            var3 = var2.bind(var8)(var1);
+            var2 = var3.toURLSafe;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0001_ip = 83; continue _fun0001 }
  45:
-            michal = {};
-            zuuluu = global;
-            zuuluu = zuuluu.URLSearchParams;
-            tangon = zuuluu.prototype;
-            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-            kiloes = tangon;
-            zuuluu = new kiloes[zuuluu](backup);
-            zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-            michal['searchParams'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var3 = global;
+            var3 = var3.URLSearchParams;
+            var4 = var3.prototype;
+            var4 = Object.create(var4, {constructor: {value: var3}});
+            var15 = var4;
+            var3 = new var15[var3](var14);
+            var3 = var3 instanceof Object ? var3 : var4;
+            var2['searchParams'] = var3;
+            var1 = var2;
  83:
-            tangon = entity.searchParams;
-            entity = global;
-            zuuluu = entity.Object;
-            michal = zuuluu.fromEntries;
-            michal = michal.bind(zuuluu)(tangon);
-            report = michal.code;
-            tangon = michal.state;
-            zuuluu = michal.error;
-            michal = michal.error_description;
-            golfie = _closure1_slot1;
-            verify = _closure1_slot2;
-            oscard = 6;
-            offset = verify[oscard];
-            romeon = golfie.bind(option)(offset);
-            yankee = entity.Array;
-            offset = yankee.isArray;
-            offset = offset.bind(yankee)(report);
-            yankee = !offset;
-            offset = 'Received multiple query param values for code';
-            offset = romeon.bind(option)(yankee, offset);
-            offset = verify[oscard];
-            romeon = golfie.bind(option)(offset);
-            yankee = entity.Array;
-            offset = yankee.isArray;
-            offset = offset.bind(yankee)(tangon);
-            yankee = !offset;
-            offset = 'Received multiple query param values for state';
-            offset = romeon.bind(option)(yankee, offset);
-            offset = verify[oscard];
-            romeon = golfie.bind(option)(offset);
-            yankee = entity.Array;
-            offset = yankee.isArray;
-            offset = offset.bind(yankee)(zuuluu);
-            yankee = !offset;
-            offset = 'Received multiple query param values for error';
-            offset = romeon.bind(option)(yankee, offset);
-            oscard = verify[oscard];
-            golfie = golfie.bind(option)(oscard);
-            oscard = entity.Array;
-            entity = oscard.isArray;
-            entity = entity.bind(oscard)(michal);
-            oscard = !entity;
-            entity = 'Received multiple query param values for error_description';
-            entity = golfie.bind(option)(oscard, entity);
-            entity = {};
-            entity['code'] = report;
-            entity['state'] = tangon;
-            entity['error'] = zuuluu;
-            entity['errorDescription'] = michal;
-            return entity;
+            var4 = var1.searchParams;
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.fromEntries;
+            var2 = var2.bind(var3)(var4);
+            var5 = var2.code;
+            var4 = var2.state;
+            var3 = var2.error;
+            var2 = var2.error_description;
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var6 = 6;
+            var10 = var9[var6];
+            var12 = var7.bind(var8)(var10);
+            var11 = var1.Array;
+            var10 = var11.isArray;
+            var10 = var10.bind(var11)(var5);
+            var11 = !var10;
+            var10 = 'Received multiple query param values for code';
+            var10 = var12.bind(var8)(var11, var10);
+            var10 = var9[var6];
+            var12 = var7.bind(var8)(var10);
+            var11 = var1.Array;
+            var10 = var11.isArray;
+            var10 = var10.bind(var11)(var4);
+            var11 = !var10;
+            var10 = 'Received multiple query param values for state';
+            var10 = var12.bind(var8)(var11, var10);
+            var10 = var9[var6];
+            var12 = var7.bind(var8)(var10);
+            var11 = var1.Array;
+            var10 = var11.isArray;
+            var10 = var10.bind(var11)(var3);
+            var11 = !var10;
+            var10 = 'Received multiple query param values for error';
+            var10 = var12.bind(var8)(var11, var10);
+            var6 = var9[var6];
+            var7 = var7.bind(var8)(var6);
+            var6 = var1.Array;
+            var1 = var6.isArray;
+            var1 = var1.bind(var6)(var2);
+            var6 = !var1;
+            var1 = 'Received multiple query param values for error_description';
+            var1 = var7.bind(var8)(var6, var1);
+            var1 = {};
+            var1['code'] = var5;
+            var1['state'] = var4;
+            var1['error'] = var3;
+            var1['errorDescription'] = var2;
+            return var1;
         }
     };
-    zuuluu['getCallbackParamsFromURL'] = tangon;
-    tangon = function(argFoo) { // Original name: getConnectionsCheckText
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getCallbackParamsFromURL'] = var4;
+    var4 = function getConnectionsCheckText(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            verify = michal.connectionType;
-            option = michal.connectionMetadataField;
-            golfie = michal.operator;
-            entity = michal.operatorText;
-            yankee = michal.value;
-            offset = global;
-            report = offset.Math;
-            zuuluu = report.round;
-            michal = offset.Number;
-            tangon = undefined;
-            michal = michal.bind(tangon)(yankee);
-            yankee = zuuluu.bind(report)(michal);
-            var _closure2_slot0 = yankee;
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.EQUAL;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 322; continue _fun00003 }
+            var2 = arg1;
+            var9 = var2.connectionType;
+            var8 = var2.connectionMetadataField;
+            var7 = var2.operator;
+            var1 = var2.operatorText;
+            var11 = var2.value;
+            var10 = global;
+            var5 = var10.Math;
+            var3 = var5.round;
+            var2 = var10.Number;
+            var4 = undefined;
+            var2 = var2.bind(var4)(var11);
+            var11 = var3.bind(var5)(var2);
+            var _closure2_slot0 = var11;
+            var3 = _closure1_slot7;
+            var3 = var3.EQUAL;
+            if(!(var3 !== var7)) { _fun0002_ip = 322; continue _fun0002 }
  89:
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.NOT_EQUAL;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 287; continue _fun00003 }
+            var3 = _closure1_slot7;
+            var3 = var3.NOT_EQUAL;
+            if(!(var3 !== var7)) { _fun0002_ip = 287; continue _fun0002 }
  106:
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.LESS_THAN;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 219; continue _fun00003 }
+            var3 = _closure1_slot7;
+            var3 = var3.LESS_THAN;
+            if(!(var3 !== var7)) { _fun0002_ip = 219; continue _fun0002 }
  120:
-            zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.GREATER_THAN;
-            if(!(zuuluu !== golfie)) { _fun00004_ip = 151; continue _fun00003 }
+            var3 = _closure1_slot7;
+            var3 = var3.GREATER_THAN;
+            if(!(var3 !== var7)) { _fun0002_ip = 151; continue _fun0002 }
  134:
-            if(!(tangon !== golfie)) { _fun00004_ip = 147; continue _fun00003 }
+            if(!(var4 !== var7)) { _fun0002_ip = 147; continue _fun0002 }
  138:
-            report = null;
-            if(!(report === golfie)) { _fun00004_ip = 422; continue _fun00003 }
+            var5 = null;
+            if(!(var5 === var7)) { _fun0002_ip = 422; continue _fun0002 }
  147:
-            zuuluu = null;
-            return zuuluu;
+            var3 = null;
+            return var3;
  151:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            report = zuuluu.wCVDHh;
-            kiloes = offset.Math;
-            backup = kiloes.max;
-            romeon = 1;
-            foxtra = yankee + romeon;
-            romeon = 0;
-            romeon = backup.bind(kiloes)(romeon, foxtra);
-            _closure2_slot0 = romeon;
-            _fun00004_ip = 422; continue _fun00003;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var3 = 7;
+            var3 = var13[var3];
+            var3 = var12.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.wCVDHh;
+            var15 = var10.Math;
+            var14 = var15.max;
+            var12 = 1;
+            var13 = var11 + var12;
+            var12 = 0;
+            var12 = var14.bind(var15)(var12, var13);
+            _closure2_slot0 = var12;
+            _fun0002_ip = 422; continue _fun0002;
  219:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            report = zuuluu.3ru8/P;
-            foxtra = offset.Math;
-            romeon = foxtra.max;
-            offset = 1;
-            yankee = yankee - offset;
-            offset = 0;
-            offset = romeon.bind(foxtra)(offset, yankee);
-            _closure2_slot0 = offset;
-            _fun00004_ip = 422; continue _fun00003;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var3 = 7;
+            var3 = var13[var3];
+            var3 = var12.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.3ru8/P;
+            var13 = var10.Math;
+            var12 = var13.max;
+            var10 = 1;
+            var11 = var11 - var10;
+            var10 = 0;
+            var10 = var12.bind(var13)(var10, var11);
+            _closure2_slot0 = var10;
+            _fun0002_ip = 422; continue _fun0002;
  287:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = yankee[zuuluu];
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            report = zuuluu.D9B/q6;
-            _fun00004_ip = 422; continue _fun00003;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = 7;
+            var3 = var11[var3];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.D9B/q6;
+            _fun0002_ip = 422; continue _fun0002;
  322:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            yankee = 7;
-            zuuluu = zuuluu[yankee];
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            offset = zuuluu.H97H4e;
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.PAYPAL;
-            zuuluu = verify === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 386; continue _fun00003 }
+            var10 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var11 = 7;
+            var3 = var3[var11];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.t;
+            var10 = var3.H97H4e;
+            var3 = _closure1_slot9;
+            var3 = var3.PAYPAL;
+            var3 = var9 === var3;
+            if(!var3) { _fun0002_ip = 386; continue _fun0002 }
  372:
-            romeon = _closure1_slot6;
-            romeon = romeon.PAYPAL_VERIFIED;
-            zuuluu = option === romeon;
+            var12 = _closure1_slot6;
+            var12 = var12.PAYPAL_VERIFIED;
+            var3 = var8 === var12;
  386:
-            report = offset;
-            if(!zuuluu) { _fun00004_ip = 422; continue _fun00003 }
+            var5 = var10;
+            if(!var3) { _fun0002_ip = 422; continue _fun0002 }
  392:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[yankee];
-            zuuluu = offset.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.t;
-            report = zuuluu.N95b+f;
+            var10 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var11];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.t;
+            var5 = var3.N95b+f;
  422:
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00004_ip = 431; continue _fun00003 }
+            var3 = null;
+            if(!(var3 != var1)) { _fun0002_ip = 431; continue _fun0002 }
  428:
-            report = entity;
+            var5 = var1;
  431:
-            entity = report;
-            if(!(zuuluu != entity)) { _fun00004_ip = 2127; continue _fun00003 }
+            var1 = var5;
+            if(!(var3 != var1)) { _fun0002_ip = 2127; continue _fun0002 }
  441:
-            entity = report;
-            if(!(zuuluu != golfie)) { _fun00004_ip = 2127; continue _fun00003 }
+            var1 = var5;
+            if(!(var3 != var7)) { _fun0002_ip = 2127; continue _fun0002 }
  451:
-            golfie = _closure1_slot9;
-            golfie = golfie.REDDIT;
-            if(!(golfie !== verify)) { _fun00004_ip = 1862; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.REDDIT;
+            if(!(var7 !== var9)) { _fun0002_ip = 1862; continue _fun0002 }
  468:
-            golfie = _closure1_slot9;
-            golfie = golfie.STEAM;
-            if(!(golfie !== verify)) { _fun00004_ip = 1586; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.STEAM;
+            if(!(var7 !== var9)) { _fun0002_ip = 1586; continue _fun0002 }
  485:
-            golfie = _closure1_slot9;
-            golfie = golfie.TWITTER;
-            if(!(golfie !== verify)) { _fun00004_ip = 1310; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.TWITTER;
+            if(!(var7 !== var9)) { _fun0002_ip = 1310; continue _fun0002 }
  502:
-            golfie = _closure1_slot9;
-            golfie = golfie.PAYPAL;
-            if(!(golfie !== verify)) { _fun00004_ip = 1174; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.PAYPAL;
+            if(!(var7 !== var9)) { _fun0002_ip = 1174; continue _fun0002 }
  519:
-            golfie = _closure1_slot9;
-            golfie = golfie.EBAY;
-            if(!(golfie !== verify)) { _fun00004_ip = 828; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.EBAY;
+            if(!(var7 !== var9)) { _fun0002_ip = 828; continue _fun0002 }
  536:
-            golfie = _closure1_slot9;
-            golfie = golfie.TIKTOK;
-            if(!(golfie !== verify)) { _fun00004_ip = 552; continue _fun00003 }
+            var7 = _closure1_slot9;
+            var7 = var7.TIKTOK;
+            if(!(var7 !== var9)) { _fun0002_ip = 552; continue _fun0002 }
  550:
-            return zuuluu;
+            return var3;
  552:
-            golfie = _closure1_slot6;
-            golfie = golfie.TIKTOK_VERIFIED;
-            if(!(golfie !== option)) { _fun00004_ip = 775; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TIKTOK_VERIFIED;
+            if(!(var7 !== var8)) { _fun0002_ip = 775; continue _fun0002 }
  569:
-            golfie = _closure1_slot6;
-            golfie = golfie.TIKTOK_FOLLOWER_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 722; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TIKTOK_FOLLOWER_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 722; continue _fun0002 }
  586:
-            golfie = _closure1_slot6;
-            golfie = golfie.TIKTOK_FOLLOWING_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 669; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TIKTOK_FOLLOWING_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 669; continue _fun0002 }
  600:
-            golfie = _closure1_slot6;
-            golfie = golfie.TIKTOK_LIKES_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 616; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TIKTOK_LIKES_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 616; continue _fun0002 }
  614:
-            return zuuluu;
+            return var3;
  616:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.ar0WW1;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.ar0WW1;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  669:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.zRta4e;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.zRta4e;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  722:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.qIPDR0;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.qIPDR0;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  775:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.uv7et7;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.uv7et7;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  828:
-            golfie = _closure1_slot6;
-            golfie = golfie.CREATED_AT;
-            if(!(golfie !== option)) { _fun00004_ip = 1121; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.CREATED_AT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1121; continue _fun0002 }
  845:
-            golfie = _closure1_slot6;
-            golfie = golfie.EBAY_TOP_RATED_SELLER;
-            if(!(golfie !== option)) { _fun00004_ip = 1068; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.EBAY_TOP_RATED_SELLER;
+            if(!(var7 !== var8)) { _fun0002_ip = 1068; continue _fun0002 }
  862:
-            golfie = _closure1_slot6;
-            golfie = golfie.EBAY_POSITIVE_FEEDBACK_PERCENTAGE;
-            if(!(golfie !== option)) { _fun00004_ip = 1015; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.EBAY_POSITIVE_FEEDBACK_PERCENTAGE;
+            if(!(var7 !== var8)) { _fun0002_ip = 1015; continue _fun0002 }
  879:
-            golfie = _closure1_slot6;
-            golfie = golfie.EBAY_UNIQUE_POSITIVE_FEEDBACK_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 962; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.EBAY_UNIQUE_POSITIVE_FEEDBACK_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 962; continue _fun0002 }
  893:
-            golfie = _closure1_slot6;
-            golfie = golfie.EBAY_UNIQUE_NEGATIVE_FEEDBACK_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 909; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.EBAY_UNIQUE_NEGATIVE_FEEDBACK_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 909; continue _fun0002 }
  907:
-            return zuuluu;
+            return var3;
  909:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.6ZFYdH;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.6ZFYdH;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  962:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.QP5W1d;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.QP5W1d;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1015:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.rl9Vg4;
-                entity = {};
-                report = _closure2_slot0;
-                entity['value'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.rl9Vg4;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['value'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1068:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.TEEYwc;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.TEEYwc;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1121:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.TPbtEh;
-                entity = {};
-                report = _closure2_slot0;
-                entity['days'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.TPbtEh;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['days'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1174:
-            golfie = _closure1_slot6;
-            golfie = golfie.CREATED_AT;
-            if(!(golfie !== option)) { _fun00004_ip = 1257; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.CREATED_AT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1257; continue _fun0002 }
  1188:
-            golfie = _closure1_slot6;
-            golfie = golfie.PAYPAL_VERIFIED;
-            if(!(golfie !== option)) { _fun00004_ip = 1204; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.PAYPAL_VERIFIED;
+            if(!(var7 !== var8)) { _fun0002_ip = 1204; continue _fun0002 }
  1202:
-            return zuuluu;
+            return var3;
  1204:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.slSQuL;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.slSQuL;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1257:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.TPbtEh;
-                entity = {};
-                report = _closure2_slot0;
-                entity['days'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.TPbtEh;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['days'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1310:
-            golfie = _closure1_slot6;
-            golfie = golfie.CREATED_AT;
-            if(!(golfie !== option)) { _fun00004_ip = 1533; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.CREATED_AT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1533; continue _fun0002 }
  1327:
-            golfie = _closure1_slot6;
-            golfie = golfie.TWITTER_VERIFIED;
-            if(!(golfie !== option)) { _fun00004_ip = 1480; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TWITTER_VERIFIED;
+            if(!(var7 !== var8)) { _fun0002_ip = 1480; continue _fun0002 }
  1344:
-            golfie = _closure1_slot6;
-            golfie = golfie.TWITTER_FOLLOWERS_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 1427; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TWITTER_FOLLOWERS_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1427; continue _fun0002 }
  1358:
-            golfie = _closure1_slot6;
-            golfie = golfie.TWITTER_STATUSES_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 1374; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.TWITTER_STATUSES_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1374; continue _fun0002 }
  1372:
-            return zuuluu;
+            return var3;
  1374:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.MI7NKi;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.MI7NKi;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1427:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.bkajam;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.bkajam;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1480:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.xRygZG;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.xRygZG;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1533:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.TPbtEh;
-                entity = {};
-                report = _closure2_slot0;
-                entity['days'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.TPbtEh;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['days'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1586:
-            golfie = _closure1_slot6;
-            golfie = golfie.CREATED_AT;
-            if(!(golfie !== option)) { _fun00004_ip = 1809; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.CREATED_AT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1809; continue _fun0002 }
  1603:
-            golfie = _closure1_slot6;
-            golfie = golfie.STEAM_GAME_COUNT;
-            if(!(golfie !== option)) { _fun00004_ip = 1756; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.STEAM_GAME_COUNT;
+            if(!(var7 !== var8)) { _fun0002_ip = 1756; continue _fun0002 }
  1620:
-            golfie = _closure1_slot6;
-            golfie = golfie.STEAM_ITEM_COUNT_TF2;
-            if(!(golfie !== option)) { _fun00004_ip = 1703; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.STEAM_ITEM_COUNT_TF2;
+            if(!(var7 !== var8)) { _fun0002_ip = 1703; continue _fun0002 }
  1634:
-            golfie = _closure1_slot6;
-            golfie = golfie.STEAM_ITEM_COUNT_DOTA2;
-            if(!(golfie !== option)) { _fun00004_ip = 1650; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.STEAM_ITEM_COUNT_DOTA2;
+            if(!(var7 !== var8)) { _fun0002_ip = 1650; continue _fun0002 }
  1648:
-            return zuuluu;
+            return var3;
  1650:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.dMnRam;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.dMnRam;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1703:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.MceZJy;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.MceZJy;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1756:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.H9eLoa;
-                entity = {};
-                report = _closure2_slot0;
-                entity['count'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.H9eLoa;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['count'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1809:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 7;
-            golfie = offset[golfie];
-            golfie = verify.bind(tangon)(golfie);
-            offset = golfie.intl;
-            verify = offset.format;
-            golfie = {};
-            yankee = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.TPbtEh;
-                entity = {};
-                report = _closure2_slot0;
-                entity['days'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
+            var7 = var9.bind(var4)(var7);
+            var10 = var7.intl;
+            var9 = var10.format;
+            var7 = {};
+            var11 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.TPbtEh;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['days'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            golfie['platformQuantityHook'] = yankee;
-            entity = verify.bind(offset)(report, golfie);
-            _fun00004_ip = 2127; continue _fun00003;
+            var7['platformQuantityHook'] = var11;
+            var1 = var9.bind(var10)(var5, var7);
+            _fun0002_ip = 2127; continue _fun0002;
  1862:
-            golfie = _closure1_slot6;
-            golfie = golfie.CREATED_AT;
-            if(!(golfie !== option)) { _fun00004_ip = 2079; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.CREATED_AT;
+            if(!(var7 !== var8)) { _fun0002_ip = 2079; continue _fun0002 }
  1879:
-            golfie = _closure1_slot6;
-            golfie = golfie.REDDIT_TOTAL_KARMA;
-            if(!(golfie !== option)) { _fun00004_ip = 2029; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.REDDIT_TOTAL_KARMA;
+            if(!(var7 !== var8)) { _fun0002_ip = 2029; continue _fun0002 }
  1896:
-            golfie = _closure1_slot6;
-            golfie = golfie.REDDIT_GOLD;
-            if(!(golfie !== option)) { _fun00004_ip = 1979; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.REDDIT_GOLD;
+            if(!(var7 !== var8)) { _fun0002_ip = 1979; continue _fun0002 }
  1910:
-            golfie = _closure1_slot6;
-            golfie = golfie.REDDIT_MOD;
-            if(!(golfie !== option)) { _fun00004_ip = 1926; continue _fun00003 }
+            var7 = _closure1_slot6;
+            var7 = var7.REDDIT_MOD;
+            if(!(var7 !== var8)) { _fun0002_ip = 1926; continue _fun0002 }
  1924:
-            return zuuluu;
+            return var3;
  1926:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            option = zuuluu.intl;
-            golfie = option.format;
-            zuuluu = {};
-            verify = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.9rPbEh;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 7;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            var8 = var3.intl;
+            var7 = var8.format;
+            var3 = {};
+            var9 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.9rPbEh;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu['platformQuantityHook'] = verify;
-            entity = golfie.bind(option)(report, zuuluu);
-            _fun00004_ip = 2127; continue _fun00003;
+            var3['platformQuantityHook'] = var9;
+            var1 = var7.bind(var8)(var5, var3);
+            _fun0002_ip = 2127; continue _fun0002;
  1979:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            option = zuuluu.intl;
-            golfie = option.format;
-            zuuluu = {};
-            verify = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.+/5TCw;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 7;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            var8 = var3.intl;
+            var7 = var8.format;
+            var3 = {};
+            var9 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var2 = var6[var1];
+                var4 = undefined;
+                var2 = var5.bind(var4)(var2);
+                var3 = var2.intl;
+                var2 = var3.string;
+                var1 = var6[var1];
+                var1 = var5.bind(var4)(var1);
+                var1 = var1.t;
+                var1 = var1.+/5TCw;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu['platformQuantityHook'] = verify;
-            entity = golfie.bind(option)(report, zuuluu);
-            _fun00004_ip = 2127; continue _fun00003;
+            var3['platformQuantityHook'] = var9;
+            var1 = var7.bind(var8)(var5, var3);
+            _fun0002_ip = 2127; continue _fun0002;
  2029:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 7;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            option = zuuluu.intl;
-            golfie = option.format;
-            zuuluu = {};
-            verify = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.P2JAER;
-                entity = {};
-                report = _closure2_slot0;
-                entity['karma'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 7;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            var8 = var3.intl;
+            var7 = var8.format;
+            var3 = {};
+            var9 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.P2JAER;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['karma'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            zuuluu['platformQuantityHook'] = verify;
-            entity = golfie.bind(option)(report, zuuluu);
-            _fun00004_ip = 2127; continue _fun00003;
+            var3['platformQuantityHook'] = var9;
+            var1 = var7.bind(var8)(var5, var3);
+            _fun0002_ip = 2127; continue _fun0002;
  2079:
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 7;
-            michal = golfie[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            tangon = michal.intl;
-            zuuluu = tangon.format;
-            michal = {};
-            oscard = function() { // Original name: platformQuantityHook
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 7;
-                zuuluu = oscard[entity];
-                michal = undefined;
-                zuuluu = report.bind(michal)(zuuluu);
-                tangon = zuuluu.intl;
-                zuuluu = tangon.formatToPlainString;
-                entity = oscard[entity];
-                entity = report.bind(michal)(entity);
-                entity = entity.t;
-                michal = entity.TPbtEh;
-                entity = {};
-                report = _closure2_slot0;
-                entity['days'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var3 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.intl;
+            var3 = var4.format;
+            var2 = {};
+            var6 = function platformQuantityHook() {
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 7;
+                var3 = var6[var1];
+                var2 = undefined;
+                var3 = var5.bind(var2)(var3);
+                var4 = var3.intl;
+                var3 = var4.formatToPlainString;
+                var1 = var6[var1];
+                var1 = var5.bind(var2)(var1);
+                var1 = var1.t;
+                var2 = var1.TPbtEh;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['days'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal['platformQuantityHook'] = oscard;
-            entity = zuuluu.bind(tangon)(report, michal);
+            var2['platformQuantityHook'] = var6;
+            var1 = var3.bind(var4)(var5, var2);
  2127:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getConnectionsCheckText'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isVerifiedRolesChannelVisible
-        entity = global;
-        zuuluu = entity.Object;
-        michal = zuuluu.values;
-        entity = argBar;
-        zuuluu = michal.bind(zuuluu)(entity);
-        michal = zuuluu.some;
-        entity = function(argFoo) {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getConnectionsCheckText'] = var4;
+    var4 = function isVerifiedRolesChannelVisible(arg1, arg2) {
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.values;
+        var1 = arg2;
+        var3 = var2.bind(var3)(var1);
+        var2 = var3.some;
+        var1 = function(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.tags;
-                michal = null;
-                tangon = michal == zuuluu;
-                entity = undefined;
-                if(tangon) { _fun00006_ip = 26; continue _fun00005 }
+                var1 = arg1;
+                var3 = var1.tags;
+                var2 = null;
+                var4 = var2 == var3;
+                var1 = undefined;
+                if(var4) { _fun0003_ip = 26; continue _fun0003 }
  20:
-                entity = zuuluu.guild_connections;
+                var1 = var3.guild_connections;
  26:
-                entity = michal === entity;
-                return entity;
+                var1 = var2 === var1;
+                return var1;
             }
         };
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['isVerifiedRolesChannelVisible'] = tangon;
-    tangon = function(argFoo) { // Original name: getVisibleConnectionsRole
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isVerifiedRolesChannelVisible'] = var4;
+    var4 = function getVisibleConnectionsRole(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.guildMember;
-            report = entity.guild;
-            tangon = entity.guildRoles;
-            var _closure2_slot0 = tangon;
-            option = entity.channel;
-            oscard = entity.onlyChannelConnectionRoles;
-            golfie = undefined;
-            if(!(oscard === golfie)) { _fun00008_ip = 45; continue _fun00007 }
+            var1 = arg1;
+            var3 = var1.guildMember;
+            var5 = var1.guild;
+            var4 = var1.guildRoles;
+            var _closure2_slot0 = var4;
+            var8 = var1.channel;
+            var6 = var1.onlyChannelConnectionRoles;
+            var7 = undefined;
+            if(!(var6 === var7)) { _fun0004_ip = 45; continue _fun0004 }
  43:
-            oscard = false;
+            var6 = false;
  45:
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00008_ip = 297; continue _fun00007 }
+            var1 = null;
+            if(!(var1 != var3)) { _fun0004_ip = 297; continue _fun0004 }
  54:
-            verify = entity == report;
-            if(!verify) { _fun00008_ip = 65; continue _fun00007 }
+            var9 = var1 == var5;
+            if(!var9) { _fun0004_ip = 65; continue _fun0004 }
  61:
-            verify = entity != option;
+            var9 = var1 != var8;
  65:
-            if(!verify) { _fun00008_ip = 95; continue _fun00007 }
+            if(!var9) { _fun0004_ip = 95; continue _fun0004 }
  68:
-            yankee = _closure1_slot4;
-            offset = yankee.getGuild;
-            verify = option.getGuildId;
-            verify = verify.bind(option)();
-            report = offset.bind(yankee)(verify);
+            var11 = _closure1_slot4;
+            var10 = var11.getGuild;
+            var9 = var8.getGuildId;
+            var9 = var9.bind(var8)();
+            var5 = var10.bind(var11)(var9);
  95:
-            if(!(entity != report)) { _fun00008_ip = 295; continue _fun00007 }
+            if(!(var1 != var5)) { _fun0004_ip = 295; continue _fun0004 }
  102:
-            verify = report.id;
-            if(!(entity == tangon)) { _fun00008_ip = 133; continue _fun00007 }
+            var9 = var5.id;
+            if(!(var1 == var4)) { _fun0004_ip = 133; continue _fun0004 }
  111:
-            report = _closure1_slot3;
-            tangon = report.getRoles;
-            tangon = tangon.bind(report)(verify);
-            _closure2_slot0 = tangon;
+            var5 = _closure1_slot3;
+            var4 = var5.getRoles;
+            var4 = var4.bind(var5)(var9);
+            _closure2_slot0 = var4;
  133:
-            report = zuuluu.roles;
-            tangon = report.map;
-            zuuluu = function(argFoo) {
-                michal = _closure2_slot0;
-                entity = argFoo;
-                entity = michal[entity];
-                return entity;
+            var5 = var3.roles;
+            var4 = var5.map;
+            var3 = function(arg1) {
+                var2 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var2[var1];
+                return var1;
             };
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.filter;
-            zuuluu = function(argFoo) {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.filter;
+            var3 = function(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = null;
-                    tangon = michal == zuuluu;
-                    entity = undefined;
-                    if(tangon) { _fun00010_ip = 35; continue _fun00009 }
+                    var3 = arg1;
+                    var2 = null;
+                    var4 = var2 == var3;
+                    var1 = undefined;
+                    if(var4) { _fun0005_ip = 35; continue _fun0005 }
  14:
-                    zuuluu = zuuluu.tags;
-                    tangon = michal == zuuluu;
-                    entity = undefined;
-                    if(tangon) { _fun00010_ip = 35; continue _fun00009 }
+                    var3 = var3.tags;
+                    var4 = var2 == var3;
+                    var1 = undefined;
+                    if(var4) { _fun0005_ip = 35; continue _fun0005 }
  29:
-                    entity = zuuluu.guild_connections;
+                    var1 = var3.guild_connections;
  35:
-                    entity = michal === entity;
-                    return entity;
+                    var1 = var2 === var1;
+                    return var1;
                 }
             };
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.sort;
-            michal = function(argFoo, argBar) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.sort;
+            var2 = function(arg1, arg2) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    entity = argFoo;
-                    michal = argBar;
-                    tangon = _closure1_slot1;
-                    report = _closure1_slot2;
-                    zuuluu = 6;
-                    zuuluu = report[zuuluu];
-                    oscard = undefined;
-                    report = tangon.bind(oscard)(zuuluu);
-                    zuuluu = null;
-                    tangon = zuuluu != entity;
-                    if(!tangon) { _fun00012_ip = 44; continue _fun00011 }
+                    var1 = arg1;
+                    var2 = arg2;
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var5[var3];
+                    var6 = undefined;
+                    var5 = var4.bind(var6)(var3);
+                    var3 = null;
+                    var4 = var3 != var1;
+                    if(!var4) { _fun0006_ip = 44; continue _fun0006 }
  40:
-                    tangon = zuuluu != michal;
+                    var4 = var3 != var2;
  44:
-                    zuuluu = 'roleA or roleB is null';
-                    zuuluu = report.bind(oscard)(tangon, zuuluu);
-                    michal = michal.position;
-                    entity = entity.position;
-                    entity = michal - entity;
-                    return entity;
+                    var3 = 'roleA or roleB is null';
+                    var3 = var5.bind(var6)(var4, var3);
+                    var2 = var2.position;
+                    var1 = var1.position;
+                    var1 = var2 - var1;
+                    return var1;
                 }
             };
-            report = zuuluu.bind(tangon)(michal);
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            michal = 8;
-            michal = offset[michal];
-            tangon = verify.bind(golfie)(michal);
-            zuuluu = tangon.intersection;
-            michal = 9;
-            michal = offset[michal];
-            michal = verify.bind(golfie)(michal);
-            michal = michal.bind(golfie)(option);
-            tangon = zuuluu.bind(tangon)(report, michal);
-            michal = tangon.length;
-            zuuluu = 0;
-            if(!(!(michal > zuuluu))) { _fun00008_ip = 274; continue _fun00007 }
+            var5 = var3.bind(var4)(var2);
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var2 = 8;
+            var2 = var10[var2];
+            var4 = var9.bind(var7)(var2);
+            var3 = var4.intersection;
+            var2 = 9;
+            var2 = var10[var2];
+            var2 = var9.bind(var7)(var2);
+            var2 = var2.bind(var7)(var8);
+            var4 = var3.bind(var4)(var5, var2);
+            var2 = var4.length;
+            var3 = 0;
+            if(!(!(var2 > var3))) { _fun0004_ip = 274; continue _fun0004 }
  248:
-            michal = null;
-            if(oscard) { _fun00008_ip = 272; continue _fun00007 }
+            var2 = null;
+            if(var6) { _fun0004_ip = 272; continue _fun0004 }
  253:
-            oscard = report[zuuluu];
-            golfie = entity != oscard;
-            report = null;
-            if(!golfie) { _fun00008_ip = 269; continue _fun00007 }
+            var6 = var5[var3];
+            var7 = var1 != var6;
+            var5 = null;
+            if(!var7) { _fun0004_ip = 269; continue _fun0004 }
  266:
-            report = oscard;
+            var5 = var6;
  269:
-            michal = report;
+            var2 = var5;
  272:
-            _fun00008_ip = 293; continue _fun00007;
+            _fun0004_ip = 293; continue _fun0004;
  274:
-            tangon = tangon[zuuluu];
-            report = entity != tangon;
-            zuuluu = null;
-            if(!report) { _fun00008_ip = 290; continue _fun00007 }
+            var4 = var4[var3];
+            var5 = var1 != var4;
+            var3 = null;
+            if(!var5) { _fun0004_ip = 290; continue _fun0004 }
  287:
-            zuuluu = tangon;
+            var3 = var4;
  290:
-            michal = zuuluu;
+            var2 = var3;
  293:
-            return michal;
+            return var2;
  295:
-            return entity;
+            return var1;
  297:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getVisibleConnectionsRole'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getCreatedAtDate
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['getVisibleConnectionsRole'] = var4;
+    var4 = function getCreatedAtDate(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            report = argFoo;
-            entity = null;
-            if(!(entity != report)) { _fun00014_ip = 118; continue _fun00013 }
+            var5 = arg1;
+            var1 = null;
+            if(!(var1 != var5)) { _fun0007_ip = 118; continue _fun0007 }
  9:
-            michal = '';
-            if(!(michal !== report)) { _fun00014_ip = 118; continue _fun00013 }
+            var2 = '';
+            if(!(var2 !== var5)) { _fun0007_ip = 118; continue _fun0007 }
  17:
-            zuuluu = global;
-            michal = zuuluu.Date;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            verify = tangon;
-            option = report;
-            michal = new verify[michal](option, golfie);
-            oscard = michal instanceof Object ? michal : tangon;
-            michal = zuuluu.Date;
-            tangon = oscard instanceof michal;
-            michal = null;
-            if(!tangon) { _fun00014_ip = 116; continue _fun00013 }
+            var3 = global;
+            var2 = var3.Date;
+            var4 = var2.prototype;
+            var4 = Object.create(var4, {constructor: {value: var2}});
+            var9 = var4;
+            var8 = var5;
+            var2 = new var9[var2](var8, var7);
+            var6 = var2 instanceof Object ? var2 : var4;
+            var2 = var3.Date;
+            var4 = var6 instanceof var2;
+            var2 = null;
+            if(!var4) { _fun0007_ip = 116; continue _fun0007 }
  63:
-            report = zuuluu.isNaN;
-            zuuluu = oscard.getTime;
-            tangon = zuuluu.bind(oscard)();
-            zuuluu = undefined;
-            zuuluu = report.bind(zuuluu)(tangon);
-            michal = null;
-            if(zuuluu) { _fun00014_ip = 116; continue _fun00013 }
+            var5 = var3.isNaN;
+            var3 = var6.getTime;
+            var4 = var3.bind(var6)();
+            var3 = undefined;
+            var3 = var5.bind(var3)(var4);
+            var2 = null;
+            if(var3) { _fun0007_ip = 116; continue _fun0007 }
  91:
-            report = oscard.toLocaleDateString;
-            tangon = argBar;
-            zuuluu = {'month': 'short', 'day': 'numeric', 'year': 'numeric'};
-            michal = report.bind(oscard)(tangon, zuuluu);
+            var5 = var6.toLocaleDateString;
+            var4 = arg2;
+            var3 = {'month': 'short', 'day': 'numeric', 'year': 'numeric'};
+            var2 = var5.bind(var6)(var4, var3);
  116:
-            return michal;
+            return var2;
  118:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getCreatedAtDate'] = tangon;
-    michal = function(argFoo) { // Original name: useShowLinkedRolesAdminNux
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 10;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStores;
-        oscard = _closure1_slot3;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = _closure1_slot5;
-        michal[1] = report;
-        entity = function() {
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var3['getCreatedAtDate'] = var4;
+    var2 = function useShowLinkedRolesAdminNux(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 10;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStores;
+        var6 = _closure1_slot3;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = _closure1_slot5;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                entity = global;
-                tangon = entity.Object;
-                zuuluu = tangon.values;
-                golfie = _closure1_slot3;
-                report = golfie.getRoles;
-                oscard = _closure2_slot0;
-                entity = oscard.id;
-                entity = report.bind(golfie)(entity);
-                tangon = zuuluu.bind(tangon)(entity);
-                zuuluu = tangon.some;
-                entity = function(argFoo) {
-                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                var1 = global;
+                var4 = var1.Object;
+                var3 = var4.values;
+                var7 = _closure1_slot3;
+                var5 = var7.getRoles;
+                var6 = _closure2_slot0;
+                var1 = var6.id;
+                var1 = var5.bind(var7)(var1);
+                var4 = var3.bind(var4)(var1);
+                var3 = var4.some;
+                var1 = function(arg1) {
+                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                        entity = argFoo;
-                        zuuluu = entity.tags;
-                        michal = null;
-                        tangon = michal == zuuluu;
-                        entity = undefined;
-                        if(tangon) { _fun00018_ip = 26; continue _fun00017 }
+                        var1 = arg1;
+                        var3 = var1.tags;
+                        var2 = null;
+                        var4 = var2 == var3;
+                        var1 = undefined;
+                        if(var4) { _fun0009_ip = 26; continue _fun0009 }
  20:
-                        entity = zuuluu.guild_connections;
+                        var1 = var3.guild_connections;
  26:
-                        entity = michal === entity;
-                        return entity;
+                        var1 = var2 === var1;
+                        return var1;
                     }
                 };
-                entity = zuuluu.bind(tangon)(entity);
-                option = _closure1_slot0;
-                verify = _closure1_slot2;
-                zuuluu = 11;
-                zuuluu = verify[zuuluu];
-                golfie = undefined;
-                report = option.bind(golfie)(zuuluu);
-                tangon = report.UNSAFE_isDismissibleContentDismissed;
-                zuuluu = 12;
-                zuuluu = verify[zuuluu];
-                zuuluu = option.bind(golfie)(zuuluu);
-                zuuluu = zuuluu.DismissibleContent;
-                zuuluu = zuuluu.CONNECTIONS_NUX;
-                zuuluu = tangon.bind(report)(zuuluu);
-                report = _closure1_slot5;
-                tangon = report.can;
-                michal = _closure1_slot8;
-                michal = michal.MANAGE_ROLES;
-                michal = tangon.bind(report)(michal, oscard);
-                entity = !entity;
-                if(!entity) { _fun00016_ip = 158; continue _fun00015 }
+                var1 = var3.bind(var4)(var1);
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var3 = 11;
+                var3 = var9[var3];
+                var7 = undefined;
+                var5 = var8.bind(var7)(var3);
+                var4 = var5.UNSAFE_isDismissibleContentDismissed;
+                var3 = 12;
+                var3 = var9[var3];
+                var3 = var8.bind(var7)(var3);
+                var3 = var3.DismissibleContent;
+                var3 = var3.CONNECTIONS_NUX;
+                var3 = var4.bind(var5)(var3);
+                var5 = _closure1_slot5;
+                var4 = var5.can;
+                var2 = _closure1_slot8;
+                var2 = var2.MANAGE_ROLES;
+                var2 = var4.bind(var5)(var2, var6);
+                var1 = !var1;
+                if(!var1) { _fun0008_ip = 158; continue _fun0008 }
  155:
-                entity = zuuluu;
+                var1 = var3;
  158:
-                if(!entity) { _fun00016_ip = 164; continue _fun00015 }
+                if(!var1) { _fun0008_ip = 164; continue _fun0008 }
  161:
-                entity = michal;
+                var1 = var2;
  164:
-                return entity;
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useShowLinkedRolesAdminNux'] = michal;
-    return entity;
+    var3['useShowLinkedRolesAdminNux'] = var2;
+    return var1;
 })();

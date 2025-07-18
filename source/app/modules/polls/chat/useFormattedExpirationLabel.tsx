@@ -1,120 +1,120 @@
 // app/modules/polls/chat/useFormattedExpirationLabel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = report;
-    michal = function(argFoo) { // Original name: formatExpirationLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var5;
+    var2 = function formatExpirationLabel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 0;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            report = zuuluu.bind(entity)();
-            if(!(!(option <= report))) { _fun00002_ip = 292; continue _fun00001 }
+            var8 = arg1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 0;
+            var3 = var3[var1];
+            var1 = undefined;
+            var3 = var4.bind(var1)(var3);
+            var5 = var3.bind(var1)();
+            if(!(!(var8 <= var5))) { _fun0001_ip = 292; continue _fun0001 }
  38:
-            tangon = option.diff;
-            zuuluu = 'days';
-            oscard = tangon.bind(option)(report, zuuluu);
-            golfie = 1;
-            if(!(!(oscard > golfie))) { _fun00002_ip = 228; continue _fun00001 }
+            var4 = var8.diff;
+            var3 = 'days';
+            var6 = var4.bind(var8)(var5, var3);
+            var7 = 1;
+            if(!(!(var6 > var7))) { _fun0001_ip = 228; continue _fun0001 }
  64:
-            tangon = option.diff;
-            zuuluu = 'hours';
-            verify = tangon.bind(option)(report, zuuluu);
-            if(!(!(verify > golfie))) { _fun00002_ip = 164; continue _fun00001 }
+            var4 = var8.diff;
+            var3 = 'hours';
+            var9 = var4.bind(var8)(var5, var3);
+            if(!(!(var9 > var7))) { _fun0001_ip = 164; continue _fun0001 }
  84:
-            tangon = option.diff;
-            zuuluu = 'minutes';
-            offset = tangon.bind(option)(report, zuuluu);
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            report = zuuluu[golfie];
-            report = tangon.bind(entity)(report);
-            option = report.intl;
-            report = option.formatToPlainString;
-            zuuluu = zuuluu[golfie];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.t;
-            tangon = zuuluu.3SLXAw;
-            zuuluu = {};
-            zuuluu['minutes'] = offset;
-            zuuluu = report.bind(option)(tangon, zuuluu);
-            return zuuluu;
+            var4 = var8.diff;
+            var3 = 'minutes';
+            var10 = var4.bind(var8)(var5, var3);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var5 = var3[var7];
+            var5 = var4.bind(var1)(var5);
+            var8 = var5.intl;
+            var5 = var8.formatToPlainString;
+            var3 = var3[var7];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.t;
+            var4 = var3.3SLXAw;
+            var3 = {};
+            var3['minutes'] = var10;
+            var3 = var5.bind(var8)(var4, var3);
+            return var3;
  164:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            report = zuuluu[golfie];
-            report = tangon.bind(entity)(report);
-            option = report.intl;
-            report = option.formatToPlainString;
-            zuuluu = zuuluu[golfie];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            zuuluu = zuuluu.t;
-            tangon = zuuluu.BWqf0d;
-            zuuluu = {};
-            zuuluu['hours'] = verify;
-            zuuluu = report.bind(option)(tangon, zuuluu);
-            return zuuluu;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var5 = var3[var7];
+            var5 = var4.bind(var1)(var5);
+            var8 = var5.intl;
+            var5 = var8.formatToPlainString;
+            var3 = var3[var7];
+            var3 = var4.bind(var1)(var3);
+            var3 = var3.t;
+            var4 = var3.BWqf0d;
+            var3 = {};
+            var3['hours'] = var9;
+            var3 = var5.bind(var8)(var4, var3);
+            return var3;
  228:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            tangon = michal[golfie];
-            tangon = zuuluu.bind(entity)(tangon);
-            report = tangon.intl;
-            tangon = report.formatToPlainString;
-            michal = michal[golfie];
-            michal = zuuluu.bind(entity)(michal);
-            michal = michal.t;
-            zuuluu = michal.dex68f;
-            michal = {};
-            michal['days'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return michal;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var4 = var2[var7];
+            var4 = var3.bind(var1)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var2[var7];
+            var2 = var3.bind(var1)(var2);
+            var2 = var2.t;
+            var3 = var2.dex68f;
+            var2 = {};
+            var2['days'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var2;
  292:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 2;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/polls/chat/useFormattedExpirationLabel.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useFormattedExpirationLabel
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot3 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 2;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/polls/chat/useFormattedExpirationLabel.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useFormattedExpirationLabel(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00004_ip = 13; continue _fun00003 }
+            var3 = arg1;
+            var1 = null;
+            if(!(var1 == var3)) { _fun0002_ip = 13; continue _fun0002 }
  9:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  13:
-            michal = _closure1_slot3;
-            entity = undefined;
-            entity = michal.bind(entity)(zuuluu);
-            return entity;
+            var2 = _closure1_slot3;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var3);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    zuuluu['formatExpirationLabel'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['formatExpirationLabel'] = var2;
+    return var1;
 })();

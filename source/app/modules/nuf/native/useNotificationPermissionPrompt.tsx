@@ -1,136 +1,136 @@
 // app/modules/nuf/native/useNotificationPermissionPrompt.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/nuf/native/useNotificationPermissionPrompt.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useNotificationPermissionPrompt
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        tangon = 5;
-        golfie = oscard[tangon];
-        entity = undefined;
-        offset = report.bind(entity)(golfie);
-        verify = offset.useStateFromStores;
-        golfie = _closure1_slot5;
-        option = new Array(1);
-        option[0] = golfie;
-        golfie = function() {
-            michal = _closure1_slot5;
-            entity = michal.isConnected;
-            entity = entity.bind(michal)();
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/nuf/native/useNotificationPermissionPrompt.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useNotificationPermissionPrompt() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var4 = 5;
+        var7 = var6[var4];
+        var1 = undefined;
+        var10 = var5.bind(var1)(var7);
+        var9 = var10.useStateFromStores;
+        var7 = _closure1_slot5;
+        var8 = new Array(1);
+        var8[0] = var7;
+        var7 = function() {
+            var2 = _closure1_slot5;
+            var1 = var2.isConnected;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        golfie = verify.bind(offset)(option, golfie);
-        var _closure2_slot0 = golfie;
-        tangon = oscard[tangon];
-        option = report.bind(entity)(tangon);
-        oscard = option.useStateFromStores;
-        tangon = _closure1_slot6;
-        report = new Array(2);
-        report[0] = tangon;
-        tangon = _closure1_slot4;
-        report[1] = tangon;
-        tangon = function() {
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 6;
-            michal = tangon[michal];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = _closure1_slot4;
-            entity = _closure1_slot6;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+        var7 = var9.bind(var10)(var8, var7);
+        var _closure2_slot0 = var7;
+        var4 = var6[var4];
+        var8 = var5.bind(var1)(var4);
+        var6 = var8.useStateFromStores;
+        var4 = _closure1_slot6;
+        var5 = new Array(2);
+        var5[0] = var4;
+        var4 = _closure1_slot4;
+        var5[1] = var4;
+        var4 = function() {
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var2);
+            var2 = _closure1_slot4;
+            var1 = _closure1_slot6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         };
-        oscard = oscard.bind(option)(report, tangon);
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot3;
-        tangon = report.useEffect;
-        zuuluu = new Array(2);
-        zuuluu[0] = golfie;
-        zuuluu[1] = oscard;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var6 = var6.bind(var8)(var5, var4);
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot3;
+        var4 = var5.useEffect;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot0;
-                if(!michal) { _fun00002_ip = 113; continue _fun00001 }
+                var2 = _closure2_slot0;
+                if(!var2) { _fun0001_ip = 113; continue _fun0001 }
  10:
-                entity = _closure2_slot1;
-                if(entity) { _fun00002_ip = 113; continue _fun00001 }
+                var1 = _closure2_slot1;
+                if(var1) { _fun0001_ip = 113; continue _fun0001 }
  17:
-                michal = _closure1_slot7;
-                report = michal.promptSeen;
-                oscard = _closure1_slot1;
-                michal = _closure1_slot2;
-                tangon = 7;
-                michal = michal[tangon];
-                zuuluu = undefined;
-                michal = oscard.bind(zuuluu)(michal);
-                michal = michal.shouldRequestNotification;
-                if(!michal) { _fun00002_ip = 66; continue _fun00001 }
+                var2 = _closure1_slot7;
+                var5 = var2.promptSeen;
+                var6 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var4 = 7;
+                var2 = var2[var4];
+                var3 = undefined;
+                var2 = var6.bind(var3)(var2);
+                var2 = var2.shouldRequestNotification;
+                if(!var2) { _fun0001_ip = 66; continue _fun0001 }
  63:
-                michal = !report;
+                var2 = !var5;
  66:
-                if(!michal) { _fun00002_ip = 113; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 113; continue _fun0001 }
  69:
-                michal = _closure1_slot1;
-                entity = _closure1_slot2;
-                report = entity[tangon];
-                oscard = michal.bind(zuuluu)(report);
-                report = oscard.requestPermission;
-                report = report.bind(oscard)();
-                entity = entity[tangon];
-                michal = michal.bind(zuuluu)(entity);
-                entity = false;
-                michal['shouldRequestNotification'] = entity;
+                var2 = _closure1_slot1;
+                var1 = _closure1_slot2;
+                var5 = var1[var4];
+                var6 = var2.bind(var3)(var5);
+                var5 = var6.requestPermission;
+                var5 = var5.bind(var6)();
+                var1 = var1[var4];
+                var2 = var2.bind(var3)(var1);
+                var1 = false;
+                var2['shouldRequestNotification'] = var1;
  113:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

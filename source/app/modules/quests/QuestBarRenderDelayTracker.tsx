@@ -1,265 +1,265 @@
 // app/modules/quests/QuestBarRenderDelayTracker.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.QuestsExperimentLocations;
-    var _closure1_slot5 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: QuestBarRenderDelayTracker
-            zuuluu = this;
-            tangon = _closure1_slot3;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = null;
-            zuuluu['startTime'] = michal;
-            zuuluu['questId'] = michal;
-            zuuluu['timeoutTimer'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.QuestsExperimentLocations;
+    var _closure1_slot5 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function QuestBarRenderDelayTracker() {
+            var3 = this;
+            var4 = _closure1_slot3;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = null;
+            var3['startTime'] = var2;
+            var3['questId'] = var2;
+            var3['timeoutTimer'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'isEligible';
-        entity['key'] = michal;
-        michal = function() { // Original name: value
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 3;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.isEligibleForQuestBarRenderDelay;
-            entity = _closure1_slot5;
-            entity = entity.QUESTS_BAR;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'isEligible';
+        var1['key'] = var2;
+        var2 = function value() {
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.isEligibleForQuestBarRenderDelay;
+            var1 = _closure1_slot5;
+            var1 = var1.QUESTS_BAR;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(6);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'clearTimeoutTimer';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var2;
+        var2 = new Array(6);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'clearTimeoutTimer';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = this;
-                zuuluu = michal.timeoutTimer;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00002_ip = 42; continue _fun00001 }
+                var2 = this;
+                var3 = var2.timeoutTimer;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0001_ip = 42; continue _fun0001 }
  15:
-                zuuluu = global;
-                report = zuuluu.clearTimeout;
-                tangon = michal.timeoutTimer;
-                zuuluu = undefined;
-                zuuluu = report.bind(zuuluu)(tangon);
-                michal['timeoutTimer'] = entity;
+                var3 = global;
+                var5 = var3.clearTimeout;
+                var4 = var2.timeoutTimer;
+                var3 = undefined;
+                var3 = var5.bind(var3)(var4);
+                var2['timeoutTimer'] = var1;
  42:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'sendMetric';
-        entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'sendMetric';
+        var1['key'] = var6;
+        var6 = function value(arg1, arg2, arg3) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                report = global;
-                michal = report.Math;
-                entity = michal.random;
-                michal = entity.bind(michal)();
-                entity = 0.1;
-                if(!(!(michal > entity))) { _fun00004_ip = 176; continue _fun00003 }
+                var5 = global;
+                var2 = var5.Math;
+                var1 = var2.random;
+                var2 = var1.bind(var2)();
+                var1 = 0.1;
+                if(!(!(var2 > var1))) { _fun0002_ip = 176; continue _fun0002 }
  35:
-                zuuluu = _closure1_slot1;
-                option = _closure1_slot2;
-                michal = 4;
-                michal = option[michal];
-                golfie = undefined;
-                tangon = zuuluu.bind(golfie)(michal);
-                zuuluu = tangon.distribution;
-                michal = {};
-                oscard = _closure1_slot0;
-                entity = 5;
-                entity = option[entity];
-                entity = oscard.bind(golfie)(entity);
-                entity = entity.MetricEvents;
-                entity = entity.QUEST_BAR_RENDER_DELAY;
-                michal['name'] = entity;
-                entity = report.HermesInternal;
-                golfie = entity.concat;
-                oscard = 'quest_id:';
-                entity = argFoo;
-                oscard = golfie.bind(oscard)(entity);
-                entity = new Array(2);
-                entity[0] = oscard;
-                report = report.HermesInternal;
-                golfie = report.concat;
-                oscard = 'timeout:';
-                report = argBar;
-                report = golfie.bind(oscard)(report);
-                entity[1] = report;
-                michal['tags'] = entity;
-                entity = argBaz;
-                entity = zuuluu.bind(tangon)(michal, entity);
+                var3 = _closure1_slot1;
+                var8 = _closure1_slot2;
+                var2 = 4;
+                var2 = var8[var2];
+                var7 = undefined;
+                var4 = var3.bind(var7)(var2);
+                var3 = var4.distribution;
+                var2 = {};
+                var6 = _closure1_slot0;
+                var1 = 5;
+                var1 = var8[var1];
+                var1 = var6.bind(var7)(var1);
+                var1 = var1.MetricEvents;
+                var1 = var1.QUEST_BAR_RENDER_DELAY;
+                var2['name'] = var1;
+                var1 = var5.HermesInternal;
+                var7 = var1.concat;
+                var6 = 'quest_id:';
+                var1 = arg1;
+                var6 = var7.bind(var6)(var1);
+                var1 = new Array(2);
+                var1[0] = var6;
+                var5 = var5.HermesInternal;
+                var7 = var5.concat;
+                var6 = 'timeout:';
+                var5 = arg2;
+                var5 = var7.bind(var6)(var5);
+                var1[1] = var5;
+                var2['tags'] = var1;
+                var1 = arg3;
+                var1 = var3.bind(var4)(var2, var1);
  176:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[2] = entity;
-        entity = {};
-        oscard = 'startTracking';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'startTracking';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                tangon = argFoo;
-                michal = this;
-                var _closure3_slot0 = michal;
-                var _closure3_slot1 = tangon;
-                zuuluu = michal.isEligible;
-                zuuluu = zuuluu.bind(michal)();
-                if(!zuuluu) { _fun00006_ip = 101; continue _fun00005 }
+                var4 = arg1;
+                var2 = this;
+                var _closure3_slot0 = var2;
+                var _closure3_slot1 = var4;
+                var3 = var2.isEligible;
+                var3 = var3.bind(var2)();
+                if(!var3) { _fun0003_ip = 101; continue _fun0003 }
  29:
-                zuuluu = michal.clearTracking;
-                zuuluu = zuuluu.bind(michal)();
-                zuuluu = global;
-                oscard = zuuluu.performance;
-                report = oscard.now;
-                report = report.bind(oscard)();
-                michal['startTime'] = report;
-                michal['questId'] = tangon;
-                report = zuuluu.setTimeout;
-                tangon = undefined;
-                zuuluu = function() {
-                    tangon = _closure3_slot0;
-                    zuuluu = tangon.stopTracking;
-                    michal = _closure3_slot1;
-                    entity = true;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    entity = undefined;
-                    return entity;
+                var3 = var2.clearTracking;
+                var3 = var3.bind(var2)();
+                var3 = global;
+                var6 = var3.performance;
+                var5 = var6.now;
+                var5 = var5.bind(var6)();
+                var2['startTime'] = var5;
+                var2['questId'] = var4;
+                var5 = var3.setTimeout;
+                var4 = undefined;
+                var3 = function() {
+                    var4 = _closure3_slot0;
+                    var3 = var4.stopTracking;
+                    var2 = _closure3_slot1;
+                    var1 = true;
+                    var1 = var3.bind(var4)(var2, var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                entity = 30000;
-                entity = report.bind(tangon)(zuuluu, entity);
-                michal['timeoutTimer'] = entity;
+                var1 = 30000;
+                var1 = var5.bind(var4)(var3, var1);
+                var2['timeoutTimer'] = var1;
  101:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[3] = entity;
-        entity = {};
-        oscard = 'stopTracking';
-        entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var1['value'] = var6;
+        var2[3] = var1;
+        var1 = {};
+        var6 = 'stopTracking';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                oscard = argFoo;
-                report = arguments[1];
-                tangon = this;
-                entity = undefined;
-                if(!(report === entity)) { _fun00008_ip = 17; continue _fun00007 }
+                var6 = arg1;
+                var5 = arguments[1];
+                var4 = this;
+                var1 = undefined;
+                if(!(var5 === var1)) { _fun0004_ip = 17; continue _fun0004 }
  15:
-                report = false;
+                var5 = false;
  17:
-                michal = tangon.isEligible;
-                michal = michal.bind(tangon)();
-                if(!michal) { _fun00008_ip = 129; continue _fun00007 }
+                var2 = var4.isEligible;
+                var2 = var2.bind(var4)();
+                if(!var2) { _fun0004_ip = 129; continue _fun0004 }
  30:
-                zuuluu = tangon.startTime;
-                michal = null;
-                if(!(michal !== zuuluu)) { _fun00008_ip = 129; continue _fun00007 }
+                var3 = var4.startTime;
+                var2 = null;
+                if(!(var2 !== var3)) { _fun0004_ip = 129; continue _fun0004 }
  42:
-                michal = tangon.questId;
-                if(!(michal === oscard)) { _fun00008_ip = 129; continue _fun00007 }
+                var2 = var4.questId;
+                if(!(var2 === var6)) { _fun0004_ip = 129; continue _fun0004 }
  52:
-                zuuluu = 30000;
-                if(report) { _fun00008_ip = 104; continue _fun00007 }
+                var3 = 30000;
+                if(var5) { _fun0004_ip = 104; continue _fun0004 }
  61:
-                michal = global;
-                option = michal.Math;
-                golfie = option.round;
-                verify = michal.performance;
-                michal = verify.now;
-                verify = michal.bind(verify)();
-                michal = tangon.startTime;
-                michal = verify - michal;
-                zuuluu = golfie.bind(option)(michal);
+                var2 = global;
+                var8 = var2.Math;
+                var7 = var8.round;
+                var9 = var2.performance;
+                var2 = var9.now;
+                var9 = var2.bind(var9)();
+                var2 = var4.startTime;
+                var2 = var9 - var2;
+                var3 = var7.bind(var8)(var2);
  104:
-                michal = tangon.clearTracking;
-                michal = michal.bind(tangon)();
-                michal = tangon.sendMetric;
-                michal = michal.bind(tangon)(oscard, report, zuuluu);
+                var2 = var4.clearTracking;
+                var2 = var2.bind(var4)();
+                var2 = var4.sendMetric;
+                var2 = var2.bind(var4)(var6, var5, var3);
  129:
-                return entity;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[4] = entity;
-        entity = {};
-        oscard = 'clearTracking';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            michal = this;
-            entity = michal.clearTimeoutTimer;
-            entity = entity.bind(michal)();
-            entity = null;
-            michal['startTime'] = entity;
-            michal['questId'] = entity;
-            entity = undefined;
-            return entity;
+        var1['value'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'clearTracking';
+        var1['key'] = var6;
+        var5 = function value() {
+            var2 = this;
+            var1 = var2.clearTimeoutTimer;
+            var1 = var1.bind(var2)();
+            var1 = null;
+            var2['startTime'] = var1;
+            var2['questId'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        entity['value'] = report;
-        michal[5] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[5] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    foxtra = tangon;
-    michal = new foxtra[michal](romeon);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/quests/QuestBarRenderDelayTracker.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var13 = var4;
+    var2 = new var13[var2](var12);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/quests/QuestBarRenderDelayTracker.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

@@ -1,182 +1,182 @@
 // app/modules/premium/native/gift_code_modal/useGiftCodeErrorMessage.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/native/gift_code_modal/useGiftCodeErrorMessage.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useGiftCodeErrorMessage
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/native/gift_code_modal/useGiftCodeErrorMessage.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGiftCodeErrorMessage(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            verify = argBar;
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 3;
-            tangon = option[zuuluu];
-            oscard = undefined;
-            yankee = golfie.bind(oscard)(tangon);
-            offset = yankee.useStateFromStoresArray;
-            tangon = _closure1_slot4;
-            report = new Array(1);
-            report[0] = tangon;
-            tangon = function() {
-                tangon = _closure1_slot4;
-                entity = tangon.get;
-                zuuluu = _closure2_slot0;
-                michal = entity.bind(tangon)(zuuluu);
-                entity = new Array(2);
-                entity[0] = michal;
-                michal = tangon.getError;
-                michal = michal.bind(tangon)(zuuluu);
-                entity[1] = michal;
-                return entity;
+            var9 = arg2;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = undefined;
+            var11 = var7.bind(var6)(var4);
+            var10 = var11.useStateFromStoresArray;
+            var4 = _closure1_slot4;
+            var5 = new Array(1);
+            var5[0] = var4;
+            var4 = function() {
+                var4 = _closure1_slot4;
+                var1 = var4.get;
+                var3 = _closure2_slot0;
+                var2 = var1.bind(var4)(var3);
+                var1 = new Array(2);
+                var1[0] = var2;
+                var2 = var4.getError;
+                var2 = var2.bind(var4)(var3);
+                var1[1] = var2;
+                return var1;
             };
-            offset = offset.bind(yankee)(report, tangon);
-            report = _closure1_slot2;
-            tangon = 2;
-            offset = report.bind(oscard)(offset, tangon);
-            tangon = 0;
-            tangon = offset[tangon];
-            var _closure2_slot1 = tangon;
-            report = 1;
-            report = offset[report];
-            zuuluu = option[zuuluu];
-            option = golfie.bind(oscard)(zuuluu);
-            golfie = option.useStateFromStores;
-            offset = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = offset;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var10 = var10.bind(var11)(var5, var4);
+            var5 = _closure1_slot2;
+            var4 = 2;
+            var10 = var5.bind(var6)(var10, var4);
+            var4 = 0;
+            var4 = var10[var4];
+            var _closure2_slot1 = var4;
+            var5 = 1;
+            var5 = var10[var5];
+            var3 = var8[var3];
+            var8 = var7.bind(var6)(var3);
+            var7 = var8.useStateFromStores;
+            var10 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure1_slot3;
-                    michal = zuuluu.getPurchase;
-                    report = _closure2_slot1;
-                    entity = null;
-                    report = entity == report;
-                    entity = undefined;
-                    if(report) { _fun00004_ip = 41; continue _fun00003 }
+                    var3 = _closure1_slot3;
+                    var2 = var3.getPurchase;
+                    var5 = _closure2_slot1;
+                    var1 = null;
+                    var5 = var1 == var5;
+                    var1 = undefined;
+                    if(var5) { _fun0002_ip = 41; continue _fun0002 }
  31:
-                    tangon = _closure2_slot1;
-                    entity = tangon.skuId;
+                    var4 = _closure2_slot1;
+                    var1 = var4.skuId;
  41:
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
                 }
             };
-            zuuluu = golfie.bind(option)(zuuluu, entity);
-            entity = null;
-            golfie = entity == tangon;
-            option = undefined;
-            if(golfie) { _fun00002_ip = 153; continue _fun00001 }
+            var3 = var7.bind(var8)(var3, var1);
+            var1 = null;
+            var7 = var1 == var4;
+            var8 = undefined;
+            if(var7) { _fun0001_ip = 153; continue _fun0001 }
  148:
-            option = tangon.userId;
+            var8 = var4.userId;
  153:
-            offset = entity == verify;
-            golfie = undefined;
-            if(offset) { _fun00002_ip = 167; continue _fun00001 }
+            var10 = var1 == var9;
+            var7 = undefined;
+            if(var10) { _fun0001_ip = 167; continue _fun0001 }
  162:
-            golfie = verify.id;
+            var7 = var9.id;
  167:
-            if(!(option !== golfie)) { _fun00002_ip = 349; continue _fun00001 }
+            if(!(var8 !== var7)) { _fun0001_ip = 349; continue _fun0001 }
  174:
-            if(!(entity != tangon)) { _fun00002_ip = 187; continue _fun00001 }
+            if(!(var1 != var4)) { _fun0001_ip = 187; continue _fun0001 }
  178:
-            tangon = tangon.isClaimed;
-            if(tangon) { _fun00002_ip = 290; continue _fun00001 }
+            var4 = var4.isClaimed;
+            if(var4) { _fun0001_ip = 290; continue _fun0001 }
  187:
-            if(!(entity == zuuluu)) { _fun00002_ip = 233; continue _fun00001 }
+            if(!(var1 == var3)) { _fun0001_ip = 233; continue _fun0001 }
  191:
-            zuuluu = entity == report;
-            entity = null;
-            if(zuuluu) { _fun00002_ip = 231; continue _fun00001 }
+            var3 = var1 == var5;
+            var1 = null;
+            if(var3) { _fun0001_ip = 231; continue _fun0001 }
  200:
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = tangon.getGiftCodeRedeemError;
-            entity = zuuluu.bind(tangon)(report);
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 5;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.getGiftCodeRedeemError;
+            var1 = var3.bind(var4)(var5);
  231:
-            _fun00002_ip = 288; continue _fun00001;
+            _fun0001_ip = 288; continue _fun0001;
  233:
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 4;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(oscard)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.mdLtb2;
-            entity = tangon.bind(report)(zuuluu);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 4;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.mdLtb2;
+            var1 = var4.bind(var5)(var3);
  288:
-            _fun00002_ip = 347; continue _fun00001;
+            _fun0001_ip = 347; continue _fun0001;
  290:
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 4;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(oscard)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.t;
-            zuuluu = zuuluu.ilcBeX;
-            entity = tangon.bind(report)(zuuluu);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 4;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.ilcBeX;
+            var1 = var4.bind(var5)(var3);
  347:
-            _fun00002_ip = 406; continue _fun00001;
+            _fun0001_ip = 406; continue _fun0001;
  349:
-            report = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 4;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            michal = michal.JZxgJS;
-            entity = zuuluu.bind(tangon)(michal);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 4;
+            var3 = var7[var2];
+            var3 = var5.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.t;
+            var2 = var2.JZxgJS;
+            var1 = var3.bind(var4)(var2);
  406:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

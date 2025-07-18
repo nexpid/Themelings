@@ -1,78 +1,78 @@
 // app/components_native/common/Notifications.tsx
-export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'components_native/common/Notifications.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: Notifications
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'components_native/common/Notifications.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function Notifications() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 3;
-            entity = tangon[entity];
-            oscard = undefined;
-            report = michal.bind(oscard)(entity);
-            tangon = report.useStateFromStores;
-            entity = _closure1_slot3;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                michal = _closure1_slot3;
-                entity = michal.getCurrentNotification;
-                entity = entity.bind(michal)();
-                return entity;
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 3;
+            var1 = var4[var1];
+            var6 = undefined;
+            var5 = var2.bind(var6)(var1);
+            var4 = var5.useStateFromStores;
+            var1 = _closure1_slot3;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getCurrentNotification;
+                var1 = var1.bind(var2)();
+                return var1;
             };
-            michal = tangon.bind(report)(michal, entity);
-            entity = null;
-            tangon = entity == michal;
-            if(tangon) { _fun00002_ip = 109; continue _fun00001 }
+            var2 = var4.bind(var5)(var2, var1);
+            var1 = null;
+            var4 = var1 == var2;
+            if(var4) { _fun0001_ip = 109; continue _fun0001 }
  66:
-            report = _closure1_slot4;
-            tangon = _closure1_slot1;
-            golfie = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = golfie[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = {};
-            zuuluu['notification'] = michal;
-            michal = michal.key;
-            entity = report.bind(oscard)(tangon, zuuluu, michal);
+            var5 = _closure1_slot4;
+            var4 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var3 = 4;
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = {};
+            var3['notification'] = var2;
+            var2 = var2.key;
+            var1 = var5.bind(var6)(var4, var3, var2);
  109:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

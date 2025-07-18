@@ -1,146 +1,146 @@
 // app/modules/user_settings/UserSettingSearchStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.createZustandStore;
-    tangon = function() {
-        entity = {'query': '', 'isActive': false, 'selected': null};
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.createZustandStore;
+    var4 = function() {
+        var1 = {'query': '', 'isActive': false, 'selected': null};
+        return var1;
     };
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/UserSettingSearchStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: setSelectedSearchResult
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
-        tangon = argFoo;
-        entity['selected'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/UserSettingSearchStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function setSelectedSearchResult(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.setState;
+        var1 = {};
+        var4 = arg1;
+        var1['selected'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setSelectedSearchResult'] = tangon;
-    tangon = function() { // Original name: getSelectedSearchResult
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.getField;
-        entity = 'selected';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['setSelectedSearchResult'] = var4;
+    var4 = function getSelectedSearchResult() {
+        var3 = _closure1_slot0;
+        var2 = var3.getField;
+        var1 = 'selected';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getSelectedSearchResult'] = tangon;
-    tangon = function() { // Original name: useSelectedSearchResult
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.useField;
-        entity = 'selected';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['getSelectedSearchResult'] = var4;
+    var4 = function useSelectedSearchResult() {
+        var3 = _closure1_slot0;
+        var2 = var3.useField;
+        var1 = 'selected';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useSelectedSearchResult'] = tangon;
-    tangon = function() { // Original name: clearSelectedSearchResult
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
-        tangon = null;
-        entity['selected'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var3['useSelectedSearchResult'] = var4;
+    var4 = function clearSelectedSearchResult() {
+        var3 = _closure1_slot0;
+        var2 = var3.setState;
+        var1 = {};
+        var4 = null;
+        var1['selected'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['clearSelectedSearchResult'] = tangon;
-    tangon = function(argFoo) { // Original name: setSettingSearchQuery
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
-        tangon = argFoo;
-        entity['query'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var3['clearSelectedSearchResult'] = var4;
+    var4 = function setSettingSearchQuery(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.setState;
+        var1 = {};
+        var4 = arg1;
+        var1['query'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setSettingSearchQuery'] = tangon;
-    tangon = function(argFoo) { // Original name: setIsSettingSearchActive
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.setState;
-        entity = {};
-        tangon = argFoo;
-        entity['isActive'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var3['setSettingSearchQuery'] = var4;
+    var4 = function setIsSettingSearchActive(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.setState;
+        var1 = {};
+        var4 = arg1;
+        var1['isActive'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    zuuluu['setIsSettingSearchActive'] = tangon;
-    tangon = function() { // Original name: useIsSettingSearchActive
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.useField;
-        entity = 'isActive';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['setIsSettingSearchActive'] = var4;
+    var4 = function useIsSettingSearchActive() {
+        var3 = _closure1_slot0;
+        var2 = var3.useField;
+        var1 = 'isActive';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useIsSettingSearchActive'] = tangon;
-    tangon = function() { // Original name: getIsSettingSearchActive
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.getField;
-        entity = 'isActive';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['useIsSettingSearchActive'] = var4;
+    var4 = function getIsSettingSearchActive() {
+        var3 = _closure1_slot0;
+        var2 = var3.getField;
+        var1 = 'isActive';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getIsSettingSearchActive'] = tangon;
-    tangon = function() { // Original name: useSettingSearchQuery
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.useField;
-        entity = 'query';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['getIsSettingSearchActive'] = var4;
+    var4 = function useSettingSearchQuery() {
+        var3 = _closure1_slot0;
+        var2 = var3.useField;
+        var1 = 'query';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['useSettingSearchQuery'] = tangon;
-    tangon = function() { // Original name: useIsSettingSearchQueryEmpty
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useState;
-        michal = function(argFoo) {
-            entity = argFoo;
-            michal = entity.query;
-            entity = michal.trim;
-            michal = entity.bind(michal)();
-            entity = '';
-            entity = entity === michal;
-            return entity;
+    var3['useSettingSearchQuery'] = var4;
+    var4 = function useIsSettingSearchQueryEmpty() {
+        var4 = _closure1_slot0;
+        var3 = var4.useState;
+        var2 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.query;
+            var1 = var2.trim;
+            var2 = var1.bind(var2)();
+            var1 = '';
+            var1 = var1 === var2;
+            return var1;
         };
-        entity = function(argFoo, argBar) {
-            michal = argFoo;
-            entity = argBar;
-            entity = michal === entity;
-            return entity;
+        var1 = function(arg1, arg2) {
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var2 === var1;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useIsSettingSearchQueryEmpty'] = tangon;
-    michal = function() { // Original name: getSettingSearchQuery
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.getField;
-        entity = 'query';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['useIsSettingSearchQueryEmpty'] = var4;
+    var2 = function getSettingSearchQuery() {
+        var3 = _closure1_slot0;
+        var2 = var3.getField;
+        var1 = 'query';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['getSettingSearchQuery'] = michal;
-    return entity;
+    var3['getSettingSearchQuery'] = var2;
+    return var1;
 })();

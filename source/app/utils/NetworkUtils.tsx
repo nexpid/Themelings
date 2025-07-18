@@ -1,111 +1,111 @@
 // app/utils/NetworkUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, michal);
-    entity = new Array(0);
-    var _closure1_slot2 = entity;
-    entity = false;
-    var _closure1_slot3 = entity;
-    michal = {};
-    entity = 0;
-    golfie = oscard[entity];
-    entity = undefined;
-    golfie = report.bind(entity)(golfie);
-    offset = golfie.default;
-    yankee = michal;
-    golfie = copyDataProperties(yankee, offset);
-    golfie = function() { // Original name: awaitOnline
-        entity = global;
-        zuuluu = entity.Promise;
-        entity = zuuluu.prototype;
-        michal = Object.create(entity, {constructor: {value: zuuluu}});
-        tangon = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var2);
+    var1 = new Array(0);
+    var _closure1_slot2 = var1;
+    var1 = false;
+    var _closure1_slot3 = var1;
+    var2 = {};
+    var1 = 0;
+    var7 = var6[var1];
+    var1 = undefined;
+    var7 = var5.bind(var1)(var7);
+    var10 = var7.default;
+    var11 = var2;
+    var7 = copyDataProperties(var11, var10);
+    var7 = function awaitOnline() {
+        var1 = global;
+        var3 = var1.Promise;
+        var1 = var3.prototype;
+        var2 = Object.create(var1, {constructor: {value: var3}});
+        var4 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = argFoo;
-                golfie = _closure1_slot0;
-                entity = _closure1_slot1;
-                oscard = 0;
-                report = entity[oscard];
-                entity = undefined;
-                report = golfie.bind(entity)(report);
-                golfie = report.default;
-                report = golfie.isOnline;
-                report = report.bind(golfie)();
-                if(report) { _fun00002_ip = 118; continue _fun00001 }
+                var2 = arg1;
+                var7 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var6 = 0;
+                var5 = var1[var6];
+                var1 = undefined;
+                var5 = var7.bind(var1)(var5);
+                var7 = var5.default;
+                var5 = var7.isOnline;
+                var5 = var5.bind(var7)();
+                if(var5) { _fun0001_ip = 118; continue _fun0001 }
  47:
-                golfie = _closure1_slot2;
-                report = golfie.push;
-                report = report.bind(golfie)(michal);
-                report = _closure1_slot3;
-                if(report) { _fun00002_ip = 116; continue _fun00001 }
+                var7 = _closure1_slot2;
+                var5 = var7.push;
+                var5 = var5.bind(var7)(var2);
+                var5 = _closure1_slot3;
+                if(var5) { _fun0001_ip = 116; continue _fun0001 }
  68:
-                report = true;
-                _closure1_slot3 = report;
-                report = function() { // Original name: whenOnline
-                    zuuluu = _closure1_slot2;
-                    tangon = zuuluu.forEach;
-                    michal = function(argFoo) {
-                        michal = argFoo;
-                        entity = undefined;
-                        entity = michal.bind(entity)();
-                        return entity;
+                var5 = true;
+                _closure1_slot3 = var5;
+                var5 = function whenOnline() {
+                    var3 = _closure1_slot2;
+                    var4 = var3.forEach;
+                    var2 = function(arg1) {
+                        var2 = arg1;
+                        var1 = undefined;
+                        var1 = var2.bind(var1)();
+                        return var1;
                     };
-                    michal = tangon.bind(zuuluu)(michal);
-                    michal = 0;
-                    zuuluu['length'] = michal;
-                    zuuluu = false;
-                    _closure1_slot3 = zuuluu;
-                    zuuluu = _closure1_slot0;
-                    entity = _closure1_slot1;
-                    michal = entity[michal];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    tangon = michal.default;
-                    zuuluu = tangon.removeOnlineCallback;
-                    michal = _closure3_slot0;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
+                    var2 = var4.bind(var3)(var2);
+                    var2 = 0;
+                    var3['length'] = var2;
+                    var3 = false;
+                    _closure1_slot3 = var3;
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot1;
+                    var2 = var1[var2];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var4 = var2.default;
+                    var3 = var4.removeOnlineCallback;
+                    var2 = _closure3_slot0;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
                 };
-                var _closure3_slot0 = report;
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                zuuluu = zuuluu[oscard];
-                zuuluu = tangon.bind(entity)(zuuluu);
-                tangon = zuuluu.default;
-                zuuluu = tangon.addOnlineCallback;
-                zuuluu = zuuluu.bind(tangon)(report);
+                var _closure3_slot0 = var5;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var6];
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.default;
+                var3 = var4.addOnlineCallback;
+                var3 = var3.bind(var4)(var5);
  116:
-                return entity;
+                return var1;
  118:
-                entity = michal.bind(entity)();
-                return entity;
+                var1 = var2.bind(var1)();
+                return var1;
             }
         };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var5 = var2;
+        var1 = new var5[var3](var4, var3);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    tangon = 'awaitOnline';
-    michal[tangon] = golfie;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/NetworkUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var4 = 'awaitOnline';
+    var2[var4] = var7;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/NetworkUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

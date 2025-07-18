@@ -1,129 +1,129 @@
 // app/modules/guild_scheduled_events/native/components/GuildEventUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 4;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/native/components/GuildEventUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz) {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 4;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/native/components/GuildEventUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argBar;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 0;
-            entity = tangon[entity];
-            tangon = undefined;
-            report = zuuluu.bind(tangon)(entity);
-            zuuluu = report.getLocationFromEvent;
-            entity = argFoo;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = null;
-            if(!(entity == zuuluu)) { _fun00002_ip = 111; continue _fun00001 }
+            var7 = arg2;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 0;
+            var1 = var4[var1];
+            var4 = undefined;
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.getLocationFromEvent;
+            var1 = arg1;
+            var3 = var3.bind(var5)(var1);
+            var1 = null;
+            if(!(var1 == var3)) { _fun0001_ip = 111; continue _fun0001 }
  47:
-            zuuluu = entity != golfie;
-            entity = null;
-            if(!zuuluu) { _fun00002_ip = 109; continue _fun00001 }
+            var3 = var1 != var7;
+            var1 = null;
+            if(!var3) { _fun0001_ip = 109; continue _fun0001 }
  56:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = oscard[zuuluu];
-            oscard = report.bind(tangon)(zuuluu);
-            zuuluu = argBaz;
-            if(zuuluu) { _fun00002_ip = 95; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 2;
+            var3 = var6[var3];
+            var6 = var5.bind(var4)(var3);
+            var3 = arg3;
+            if(var3) { _fun0001_ip = 95; continue _fun0001 }
  82:
-            zuuluu = oscard.getSimpleChannelIcon;
-            zuuluu = zuuluu.bind(oscard)(golfie);
-            _fun00002_ip = 106; continue _fun00001;
+            var3 = var6.getSimpleChannelIcon;
+            var3 = var3.bind(var6)(var7);
+            _fun0001_ip = 106; continue _fun0001;
  95:
-            report = oscard.getChannelIcon;
-            zuuluu = report.bind(oscard)(golfie);
+            var5 = var6.getChannelIcon;
+            var3 = var5.bind(var6)(var7);
  106:
-            entity = zuuluu;
+            var1 = var3;
  109:
-            _fun00002_ip = 131; continue _fun00001;
+            _fun0001_ip = 131; continue _fun0001;
  111:
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            michal = 1;
-            michal = report[michal];
-            entity = zuuluu.bind(tangon)(michal);
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 1;
+            var2 = var5[var2];
+            var1 = var3.bind(var4)(var2);
  131:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getEventLocationIconSource'] = tangon;
-    michal = function(argFoo, argBar, argBaz) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getEventLocationIconSource'] = var4;
+    var2 = function(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            option = argBar;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 0;
-            entity = tangon[entity];
-            tangon = undefined;
-            report = zuuluu.bind(tangon)(entity);
-            zuuluu = report.getLocationFromEvent;
-            entity = argFoo;
-            entity = zuuluu.bind(report)(entity);
-            oscard = null;
-            if(!(oscard == entity)) { _fun00004_ip = 120; continue _fun00003 }
+            var8 = arg2;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 0;
+            var1 = var4[var1];
+            var4 = undefined;
+            var5 = var3.bind(var4)(var1);
+            var3 = var5.getLocationFromEvent;
+            var1 = arg1;
+            var1 = var3.bind(var5)(var1);
+            var6 = null;
+            if(!(var6 == var1)) { _fun0002_ip = 120; continue _fun0002 }
  47:
-            zuuluu = oscard != option;
-            entity = null;
-            if(!zuuluu) { _fun00004_ip = 118; continue _fun00003 }
+            var3 = var6 != var8;
+            var1 = null;
+            if(!var3) { _fun0002_ip = 118; continue _fun0002 }
  56:
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = golfie[zuuluu];
-            golfie = report.bind(tangon)(zuuluu);
-            zuuluu = argBaz;
-            if(zuuluu) { _fun00004_ip = 95; continue _fun00003 }
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 2;
+            var3 = var7[var3];
+            var7 = var5.bind(var4)(var3);
+            var3 = arg3;
+            if(var3) { _fun0002_ip = 95; continue _fun0002 }
  82:
-            zuuluu = golfie.getSimpleChannelIconComponent;
-            zuuluu = zuuluu.bind(golfie)(option);
-            _fun00004_ip = 106; continue _fun00003;
+            var3 = var7.getSimpleChannelIconComponent;
+            var3 = var3.bind(var7)(var8);
+            _fun0002_ip = 106; continue _fun0002;
  95:
-            report = golfie.getChannelIconComponent;
-            zuuluu = report.bind(golfie)(option);
+            var5 = var7.getChannelIconComponent;
+            var3 = var5.bind(var7)(var8);
  106:
-            report = oscard != zuuluu;
-            entity = null;
-            if(!report) { _fun00004_ip = 118; continue _fun00003 }
+            var5 = var6 != var3;
+            var1 = null;
+            if(!var5) { _fun0002_ip = 118; continue _fun0002 }
  115:
-            entity = zuuluu;
+            var1 = var3;
  118:
-            _fun00004_ip = 146; continue _fun00003;
+            _fun0002_ip = 146; continue _fun0002;
  120:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 3;
-            michal = report[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            entity = michal.LocationIcon;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 3;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var1 = var2.LocationIcon;
  146:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getEventLocationIconComponent'] = michal;
-    return entity;
+    var3['getEventLocationIconComponent'] = var2;
+    return var1;
 })();

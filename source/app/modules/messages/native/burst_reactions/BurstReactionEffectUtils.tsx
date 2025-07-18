@@ -1,594 +1,594 @@
 // app/modules/messages/native/burst_reactions/BurstReactionEffectUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    golfie = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.NativeModules;
-    var _closure1_slot5 = golfie;
-    tangon = tangon.Image;
-    var _closure1_slot6 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot2;
-        zuuluu = undefined;
-        michal = function* (argFoo, argBar, argBaz, argCor) {
-            entity = function* (argFoo, argBar, argBaz, argCor) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var7 = var6[var4];
+    var4 = native4;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.NativeModules;
+    var _closure1_slot5 = var7;
+    var4 = var4.Image;
+    var _closure1_slot6 = var4;
+    var4 = function() {
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var2 = function* (arg1, arg2, arg3, arg4) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 649; continue _fun00001 }
+                    if(var7) { _fun0001_ip = 649; continue _fun0001 }
  10:
-                    foxtra = argFoo;
-                    report = argBar;
-                    option = argBaz;
-                    michal = argCor;
-                    verify = undefined;
-                    sizing = undefined;
-                    tangon = undefined;
-                    zuuluu = undefined;
-                    yankee = undefined;
-                    oscard = undefined;
+                    var13 = arg1;
+                    var5 = arg2;
+                    var8 = arg3;
+                    var2 = arg4;
+                    var9 = undefined;
+                    var16 = undefined;
+                    var4 = undefined;
+                    var3 = undefined;
+                    var11 = undefined;
+                    var6 = undefined;
  34: // try_start_0
-                    romeon = _closure1_slot0;
-                    backup = _closure1_slot1;
-                    offset = 4;
-                    offset = backup[offset];
-                    kiloes = romeon.bind(verify)(offset);
-                    romeon = kiloes.getEmojiUrl;
-                    offset = {};
-                    update = option;
-                    source = offset;
-                    backup = copyDataProperties(source, update);
-                    output = false;
-                    backup = 'animated';
-                    offset[backup] = output;
-                    backup = 128;
-                    romeon = romeon.bind(kiloes)(offset, backup);
-                    sizing = romeon;
-                    offset = null;
-                    output = offset != romeon;
-                    romeon = '';
-                    kiloes = romeon;
-                    if(!output) { _fun00002_ip = 117; continue _fun00001 }
+                    var12 = _closure1_slot0;
+                    var14 = _closure1_slot1;
+                    var10 = 4;
+                    var10 = var14[var10];
+                    var15 = var12.bind(var9)(var10);
+                    var12 = var15.getEmojiUrl;
+                    var10 = {};
+                    var20 = var8;
+                    var21 = var10;
+                    var14 = copyDataProperties(var21, var20);
+                    var17 = false;
+                    var14 = 'animated';
+                    var10[var14] = var17;
+                    var14 = 128;
+                    var12 = var12.bind(var15)(var10, var14);
+                    var16 = var12;
+                    var10 = null;
+                    var17 = var10 != var12;
+                    var12 = '';
+                    var15 = var12;
+                    if(!var17) { _fun0001_ip = 117; continue _fun0001 }
  114:
-                    kiloes = sizing;
+                    var15 = var16;
  117:
-                    zuuluu = kiloes;
-                    sizing = _closure1_slot0;
-                    output = _closure1_slot1;
-                    kiloes = 5;
-                    kiloes = output[kiloes];
-                    output = sizing.bind(verify)(kiloes);
-                    sizing = output.getBurstAnimation;
-                    source = foxtra;
-                    update = report;
-                    report = option;
-                    echoed = report.name;
-                    result = michal;
-                    ctrled = output;
-                    michal = ctrled[sizing](source, update, echoed, result, output);
+                    var3 = var15;
+                    var16 = _closure1_slot0;
+                    var17 = _closure1_slot1;
+                    var15 = 5;
+                    var15 = var17[var15];
+                    var17 = var16.bind(var9)(var15);
+                    var16 = var17.getBurstAnimation;
+                    var21 = var13;
+                    var20 = var5;
+                    var5 = var8;
+                    var19 = var5.name;
+                    var18 = var2;
+                    var22 = var17;
+                    var2 = var22[var16](var21, var20, var19, var18, var17);
                     SaveGenerator(address=174);
  172:
-                    return michal;
+                    return var2;
  174:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 639; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 639; continue _fun0001 }
  183:
-                    yankee = michal;
-                    report = zuuluu;
-                    if(!(romeon === report)) { _fun00002_ip = 317; continue _fun00001 }
+                    var11 = var2;
+                    var5 = var3;
+                    if(!(var12 === var5)) { _fun0001_ip = 317; continue _fun0001 }
  196:
-                    report = _closure1_slot5;
-                    foxtra = report.ImageManager;
-                    romeon = foxtra.getEmojiBase64;
-                    report = option;
-                    report = report.name;
-                    report = romeon.bind(foxtra)(report, backup);
+                    var5 = _closure1_slot5;
+                    var13 = var5.ImageManager;
+                    var12 = var13.getEmojiBase64;
+                    var5 = var8;
+                    var5 = var5.name;
+                    var5 = var12.bind(var13)(var5, var14);
                     SaveGenerator(address=230);
  228:
-                    return report;
+                    return var5;
  230:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 314; continue _fun00001 }
+                    if(var12) { _fun0001_ip = 314; continue _fun0001 }
  236:
-                    romeon = global;
-                    romeon = romeon.HermesInternal;
-                    foxtra = romeon.concat;
-                    romeon = 'data:image/png;base64,';
-                    backup = foxtra.bind(romeon)(report);
-                    romeon = yankee;
-                    foxtra = romeon.assets;
-                    romeon = 0;
-                    romeon = foxtra[romeon];
-                    romeon['p'] = backup;
-                    foxtra = _closure1_slot0;
-                    kiloes = _closure1_slot1;
-                    romeon = 6;
-                    romeon = kiloes[romeon];
-                    foxtra = foxtra.bind(verify)(romeon);
-                    romeon = foxtra.makeSource;
-                    tangon = romeon.bind(foxtra)(backup);
-                    _fun00002_ip = 430; continue _fun00001;
+                    var12 = global;
+                    var12 = var12.HermesInternal;
+                    var13 = var12.concat;
+                    var12 = 'data:image/png;base64,';
+                    var14 = var13.bind(var12)(var5);
+                    var12 = var11;
+                    var13 = var12.assets;
+                    var12 = 0;
+                    var12 = var13[var12];
+                    var12['p'] = var14;
+                    var13 = _closure1_slot0;
+                    var15 = _closure1_slot1;
+                    var12 = 6;
+                    var12 = var15[var12];
+                    var13 = var13.bind(var9)(var12);
+                    var12 = var13.makeSource;
+                    var4 = var12.bind(var13)(var14);
+                    _fun0001_ip = 430; continue _fun0001;
  314: // try_end0
-                    return report;
+                    return var5;
  317: // try_start_1
-                    romeon = _closure1_slot0;
-                    foxtra = _closure1_slot1;
-                    report = 6;
-                    report = foxtra[report];
-                    romeon = romeon.bind(verify)(report);
-                    report = romeon.makeSource;
-                    romeon = report.bind(romeon)(zuuluu);
-                    tangon = romeon;
-                    zuuluu = _closure1_slot5;
-                    report = zuuluu.ImageManager;
-                    zuuluu = report.getAvatarBase64;
-                    zuuluu = zuuluu.bind(report)(romeon);
+                    var12 = _closure1_slot0;
+                    var13 = _closure1_slot1;
+                    var5 = 6;
+                    var5 = var13[var5];
+                    var12 = var12.bind(var9)(var5);
+                    var5 = var12.makeSource;
+                    var12 = var5.bind(var12)(var3);
+                    var4 = var12;
+                    var3 = _closure1_slot5;
+                    var5 = var3.ImageManager;
+                    var3 = var5.getAvatarBase64;
+                    var3 = var3.bind(var5)(var12);
                     SaveGenerator(address=376);
  374:
-                    return zuuluu;
+                    return var3;
  376:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 636; continue _fun00001 }
+                    if(var5) { _fun0001_ip = 636; continue _fun0001 }
  385:
-                    report = yankee;
-                    romeon = report.assets;
-                    report = 0;
-                    romeon = romeon[report];
-                    report = global;
-                    report = report.HermesInternal;
-                    foxtra = report.concat;
-                    report = 'data:image/png;base64,';
-                    report = foxtra.bind(report)(zuuluu);
-                    romeon['p'] = report;
+                    var5 = var11;
+                    var12 = var5.assets;
+                    var5 = 0;
+                    var12 = var12[var5];
+                    var5 = global;
+                    var5 = var5.HermesInternal;
+                    var13 = var5.concat;
+                    var5 = 'data:image/png;base64,';
+                    var5 = var13.bind(var5)(var3);
+                    var12['p'] = var5;
  430:
-                    report = global;
-                    foxtra = report.JSON;
-                    romeon = foxtra.stringify;
-                    oscard = romeon.bind(foxtra)(yankee);
-                    option = option.id;
-                    if(!(offset == option)) { _fun00002_ip = 492; continue _fun00001 }
+                    var5 = global;
+                    var13 = var5.JSON;
+                    var12 = var13.stringify;
+                    var6 = var12.bind(var13)(var11);
+                    var8 = var8.id;
+                    if(!(var10 == var8)) { _fun0001_ip = 492; continue _fun0001 }
  458:
-                    romeon = oscard;
-                    yankee = romeon.replace;
-                    offset = /"a":{"a":0,"k":\[64,64/;
-                    option = '"a":{"a":0,"k":[36,36';
-                    oscard = yankee.bind(romeon)(offset, option);
+                    var12 = var6;
+                    var11 = var12.replace;
+                    var10 = /"a":{"a":0,"k":\[64,64/;
+                    var8 = '"a":{"a":0,"k":[36,36';
+                    var6 = var11.bind(var12)(var10, var8);
  492:
-                    option = _closure1_slot5;
-                    offset = option.ImageManager;
-                    option = offset.getDominantColors;
-                    tangon = option.bind(offset)(tangon);
+                    var8 = _closure1_slot5;
+                    var10 = var8.ImageManager;
+                    var8 = var10.getDominantColors;
+                    var4 = var8.bind(var10)(var4);
                     SaveGenerator(address=517);
  515:
-                    return tangon;
+                    return var4;
  517:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 633; continue _fun00001 }
+                    if(var8) { _fun0001_ip = 633; continue _fun0001 }
  523:
-                    romeon = _closure1_slot3;
-                    option = 0;
-                    yankee = tangon[option];
-                    offset = 3;
-                    offset = romeon.bind(verify)(yankee, offset);
-                    foxtra = offset[option];
-                    option = 1;
-                    romeon = offset[option];
-                    option = 2;
-                    yankee = offset[option];
-                    option = _closure1_slot0;
-                    offset = _closure1_slot1;
-                    golfie = 7;
-                    golfie = offset[golfie];
-                    offset = option.bind(verify)(golfie);
-                    verify = offset.replaceAnimationColors;
-                    option = oscard;
-                    golfie = {};
-                    golfie['r'] = foxtra;
-                    golfie['g'] = romeon;
-                    golfie['b'] = yankee;
-                    golfie = verify.bind(offset)(option, golfie);
-                    oscard = golfie;
-                    oscard = report.JSON;
-                    report = oscard.parse;
-                    report = report.bind(oscard)(golfie);
+                    var12 = _closure1_slot3;
+                    var8 = 0;
+                    var11 = var4[var8];
+                    var10 = 3;
+                    var10 = var12.bind(var9)(var11, var10);
+                    var13 = var10[var8];
+                    var8 = 1;
+                    var12 = var10[var8];
+                    var8 = 2;
+                    var11 = var10[var8];
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var7 = 7;
+                    var7 = var10[var7];
+                    var10 = var8.bind(var9)(var7);
+                    var9 = var10.replaceAnimationColors;
+                    var8 = var6;
+                    var7 = {};
+                    var7['r'] = var13;
+                    var7['g'] = var12;
+                    var7['b'] = var11;
+                    var7 = var9.bind(var10)(var8, var7);
+                    var6 = var7;
+                    var6 = var5.JSON;
+                    var5 = var6.parse;
+                    var5 = var5.bind(var6)(var7);
  630: // try_end1
-                    return report;
+                    return var5;
  633:
-                    return tangon;
+                    return var4;
  636:
-                    return zuuluu;
+                    return var3;
  639:
-                    return michal;
+                    return var2;
  642: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
-                    michal = null;
-                    return michal;
+                    var2 = null;
+                    return var2;
  649:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function(argFoo, argBar, argBaz, argCor) { // Original name: generateAnimationSource
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function generateAnimationSource(arg1, arg2, arg3, arg4) {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot7 = tangon;
-    tangon = function() {
-        tangon = _closure1_slot2;
-        zuuluu = undefined;
-        michal = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot7 = var4;
+    var4 = function() {
+        var4 = _closure1_slot2;
+        var3 = undefined;
+        var2 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
-                    michal = argFoo;
+                    var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 353; continue _fun00003 }
+                    if(var7) { _fun0002_ip = 353; continue _fun0002 }
  13:
-                    report = michal.animationSource;
-                    zuuluu = michal.localImageSource;
-                    verify = undefined;
-                    tangon = undefined;
-                    oscard = undefined;
+                    var5 = var2.animationSource;
+                    var3 = var2.localImageSource;
+                    var9 = undefined;
+                    var4 = undefined;
+                    var6 = undefined;
                     SaveGenerator(address=35);
  33:
-                    return verify;
+                    return var9;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 350; continue _fun00003 }
+                    if(var7) { _fun0002_ip = 350; continue _fun0002 }
  44: // try_start_0
-                    offset = _closure1_slot6;
-                    option = offset.resolveAssetSource;
-                    zuuluu = option.bind(offset)(zuuluu);
-                    offset = zuuluu.uri;
-                    option = _closure1_slot0;
-                    yankee = _closure1_slot1;
-                    zuuluu = 6;
-                    zuuluu = yankee[zuuluu];
-                    option = option.bind(verify)(zuuluu);
-                    zuuluu = option.makeSource;
-                    offset = zuuluu.bind(option)(offset);
-                    tangon = offset;
-                    zuuluu = _closure1_slot5;
-                    option = zuuluu.ImageManager;
-                    zuuluu = option.getAvatarBase64;
-                    zuuluu = zuuluu.bind(option)(offset);
+                    var10 = _closure1_slot6;
+                    var8 = var10.resolveAssetSource;
+                    var3 = var8.bind(var10)(var3);
+                    var10 = var3.uri;
+                    var8 = _closure1_slot0;
+                    var11 = _closure1_slot1;
+                    var3 = 6;
+                    var3 = var11[var3];
+                    var8 = var8.bind(var9)(var3);
+                    var3 = var8.makeSource;
+                    var10 = var3.bind(var8)(var10);
+                    var4 = var10;
+                    var3 = _closure1_slot5;
+                    var8 = var3.ImageManager;
+                    var3 = var8.getAvatarBase64;
+                    var3 = var3.bind(var8)(var10);
                     SaveGenerator(address=127);
  125:
-                    return zuuluu;
+                    return var3;
  127:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00004_ip = 340; continue _fun00003 }
+                    if(var8) { _fun0002_ip = 340; continue _fun0002 }
  136:
-                    romeon = report;
-                    report = romeon.assets;
-                    option = 0;
-                    yankee = report[option];
-                    report = global;
-                    offset = report.HermesInternal;
-                    foxtra = offset.concat;
-                    offset = 'data:image/png;base64,';
-                    offset = foxtra.bind(offset)(zuuluu);
-                    yankee['p'] = offset;
-                    yankee = report.JSON;
-                    offset = yankee.stringify;
-                    oscard = offset.bind(yankee)(romeon);
-                    offset = _closure1_slot5;
-                    yankee = offset.ImageManager;
-                    offset = yankee.getDominantColors;
-                    tangon = offset.bind(yankee)(tangon);
+                    var12 = var5;
+                    var5 = var12.assets;
+                    var8 = 0;
+                    var11 = var5[var8];
+                    var5 = global;
+                    var10 = var5.HermesInternal;
+                    var13 = var10.concat;
+                    var10 = 'data:image/png;base64,';
+                    var10 = var13.bind(var10)(var3);
+                    var11['p'] = var10;
+                    var11 = var5.JSON;
+                    var10 = var11.stringify;
+                    var6 = var10.bind(var11)(var12);
+                    var10 = _closure1_slot5;
+                    var11 = var10.ImageManager;
+                    var10 = var11.getDominantColors;
+                    var4 = var10.bind(var11)(var4);
                     SaveGenerator(address=223);
  221:
-                    return tangon;
+                    return var4;
  223:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(offset) { _fun00004_ip = 337; continue _fun00003 }
+                    if(var10) { _fun0002_ip = 337; continue _fun0002 }
  229:
-                    romeon = _closure1_slot3;
-                    yankee = tangon[option];
-                    offset = 3;
-                    offset = romeon.bind(verify)(yankee, offset);
-                    foxtra = offset[option];
-                    option = 1;
-                    romeon = offset[option];
-                    option = 2;
-                    yankee = offset[option];
-                    option = _closure1_slot0;
-                    offset = _closure1_slot1;
-                    golfie = 7;
-                    golfie = offset[golfie];
-                    offset = option.bind(verify)(golfie);
-                    verify = offset.replaceAnimationColors;
-                    option = oscard;
-                    golfie = {};
-                    golfie['r'] = foxtra;
-                    golfie['g'] = romeon;
-                    golfie['b'] = yankee;
-                    golfie = verify.bind(offset)(option, golfie);
-                    oscard = golfie;
-                    oscard = report.JSON;
-                    report = oscard.parse;
-                    report = report.bind(oscard)(golfie);
+                    var12 = _closure1_slot3;
+                    var11 = var4[var8];
+                    var10 = 3;
+                    var10 = var12.bind(var9)(var11, var10);
+                    var13 = var10[var8];
+                    var8 = 1;
+                    var12 = var10[var8];
+                    var8 = 2;
+                    var11 = var10[var8];
+                    var8 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var7 = 7;
+                    var7 = var10[var7];
+                    var10 = var8.bind(var9)(var7);
+                    var9 = var10.replaceAnimationColors;
+                    var8 = var6;
+                    var7 = {};
+                    var7['r'] = var13;
+                    var7['g'] = var12;
+                    var7['b'] = var11;
+                    var7 = var9.bind(var10)(var8, var7);
+                    var6 = var7;
+                    var6 = var5.JSON;
+                    var5 = var6.parse;
+                    var5 = var5.bind(var6)(var7);
  334: // try_end0
-                    return report;
+                    return var5;
  337:
-                    return tangon;
+                    return var4;
  340:
-                    return zuuluu;
+                    return var3;
  343: // catch_target0
                     CatchBlockStart(arg_register=2);
-                    zuuluu = null;
-                    return zuuluu;
+                    var3 = null;
+                    return var3;
  350:
-                    return michal;
+                    return var2;
  353:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
-            return entity;
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
         };
-        michal = tangon.bind(zuuluu)(michal);
-        var _closure2_slot0 = michal;
-        entity = function(argFoo) { // Original name: generateAnimationSourceFromLocalImage
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var2 = var4.bind(var3)(var2);
+        var _closure2_slot0 = var2;
+        var1 = function generateAnimationSourceFromLocalImage(arg1) {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    var _closure1_slot8 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/native/burst_reactions/BurstReactionEffectUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
-        entity = argFoo;
-        verify = entity.channelId;
-        var _closure2_slot0 = verify;
-        option = entity.messageId;
-        var _closure2_slot1 = option;
-        golfie = entity.emoji;
-        var _closure2_slot2 = golfie;
-        oscard = entity.isFullscreen;
-        var _closure2_slot3 = oscard;
-        report = _closure1_slot4;
-        tangon = report.useState;
-        zuuluu = null;
-        offset = tangon.bind(report)(zuuluu);
-        tangon = _closure1_slot3;
-        zuuluu = undefined;
-        entity = 2;
-        tangon = tangon.bind(zuuluu)(offset, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot4 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = new Array(4);
-        zuuluu[0] = verify;
-        zuuluu[1] = option;
-        zuuluu[2] = golfie;
-        zuuluu[3] = oscard;
-        michal = function() {
-            michal = function() { // Original name: _getSource
-                tangon = undefined;
-                entity = undefined;
-                zuuluu = _closure1_slot2;
-                michal = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var4 = var4.bind(var1)();
+    var _closure1_slot8 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/messages/native/burst_reactions/BurstReactionEffectUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function(arg1) {
+        var1 = arg1;
+        var9 = var1.channelId;
+        var _closure2_slot0 = var9;
+        var8 = var1.messageId;
+        var _closure2_slot1 = var8;
+        var7 = var1.emoji;
+        var _closure2_slot2 = var7;
+        var6 = var1.isFullscreen;
+        var _closure2_slot3 = var6;
+        var5 = _closure1_slot4;
+        var4 = var5.useState;
+        var3 = null;
+        var10 = var4.bind(var5)(var3);
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var1 = 2;
+        var4 = var4.bind(var3)(var10, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot4 = var3;
+        var4 = var5.useEffect;
+        var3 = new Array(4);
+        var3[0] = var9;
+        var3[1] = var8;
+        var3[2] = var7;
+        var3[3] = var6;
+        var2 = function() {
+            var2 = function _getSource() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot2;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00006_ip = 78; continue _fun00005 }
+                            if(var2) { _fun0003_ip = 78; continue _fun0003 }
  7:
-                            tangon = _closure2_slot2;
-                            michal = null;
-                            if(!(michal != tangon)) { _fun00006_ip = 70; continue _fun00005 }
+                            var4 = _closure2_slot2;
+                            var2 = null;
+                            if(!(var2 != var4)) { _fun0003_ip = 70; continue _fun0003 }
  20:
-                            option = _closure1_slot7;
-                            romeon = _closure2_slot0;
-                            yankee = _closure2_slot1;
-                            offset = _closure2_slot2;
-                            verify = _closure2_slot3;
-                            tangon = undefined;
-                            foxtra = undefined;
-                            michal = foxtra[option](romeon, yankee, offset, verify, option);
+                            var8 = _closure1_slot7;
+                            var12 = _closure2_slot0;
+                            var11 = _closure2_slot1;
+                            var10 = _closure2_slot2;
+                            var9 = _closure2_slot3;
+                            var4 = undefined;
+                            var13 = undefined;
+                            var2 = var13[var8](var12, var11, var10, var9, var8);
                             SaveGenerator(address=55);
  53:
-                            return michal;
+                            return var2;
  55:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00006_ip = 75; continue _fun00005 }
+                            if(var5) { _fun0003_ip = 75; continue _fun0003 }
  61:
-                            zuuluu = _closure2_slot4;
-                            zuuluu = zuuluu.bind(tangon)(michal);
+                            var3 = _closure2_slot4;
+                            var3 = var3.bind(var4)(var2);
  70:
-                            zuuluu = undefined;
-                            return zuuluu;
+                            var3 = undefined;
+                            return var3;
  75:
-                            return michal;
+                            return var2;
  78:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                tangon = zuuluu.bind(tangon)(michal);
-                _closure3_slot0 = tangon;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+                var4 = var3.bind(var4)(var2);
+                _closure3_slot0 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            var _closure3_slot0 = michal;
-            michal = function() { // Original name: getSource
-                entity = undefined;
-                tangon = _closure3_slot0;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+            var _closure3_slot0 = var2;
+            var2 = function getSource() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            entity = undefined;
-            michal = michal.bind(entity)();
-            michal = !michal;
-            return entity;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var2 = !var2;
+            return var1;
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useBurstReactionAnimationSource'] = tangon;
-    michal = function(argFoo) {
-        entity = argFoo;
-        golfie = entity.animationSource;
-        var _closure2_slot0 = golfie;
-        oscard = entity.localImageSource;
-        var _closure2_slot1 = oscard;
-        report = _closure1_slot4;
-        tangon = report.useState;
-        zuuluu = null;
-        option = tangon.bind(report)(zuuluu);
-        tangon = _closure1_slot3;
-        zuuluu = undefined;
-        entity = 2;
-        tangon = tangon.bind(zuuluu)(option, entity);
-        entity = 0;
-        entity = tangon[entity];
-        zuuluu = 1;
-        zuuluu = tangon[zuuluu];
-        var _closure2_slot2 = zuuluu;
-        tangon = report.useEffect;
-        zuuluu = new Array(2);
-        zuuluu[0] = golfie;
-        zuuluu[1] = oscard;
-        michal = function() {
-            michal = function() { // Original name: _getSource2
-                tangon = undefined;
-                entity = undefined;
-                zuuluu = _closure1_slot2;
-                michal = function* () {
-                    entity = function* () { // Original name: ?anon_0_
-                        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['useBurstReactionAnimationSource'] = var4;
+    var2 = function(arg1) {
+        var1 = arg1;
+        var7 = var1.animationSource;
+        var _closure2_slot0 = var7;
+        var6 = var1.localImageSource;
+        var _closure2_slot1 = var6;
+        var5 = _closure1_slot4;
+        var4 = var5.useState;
+        var3 = null;
+        var8 = var4.bind(var5)(var3);
+        var4 = _closure1_slot3;
+        var3 = undefined;
+        var1 = 2;
+        var4 = var4.bind(var3)(var8, var1);
+        var1 = 0;
+        var1 = var4[var1];
+        var3 = 1;
+        var3 = var4[var3];
+        var _closure2_slot2 = var3;
+        var4 = var5.useEffect;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function() {
+            var2 = function _getSource2() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot2;
+                var2 = function* () {
+                    var1 = function* anon_0_() {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00008_ip = 69; continue _fun00007 }
+                            if(var2) { _fun0004_ip = 69; continue _fun0004 }
  7:
-                            report = _closure1_slot8;
-                            michal = {};
-                            zuuluu = _closure2_slot0;
-                            michal['animationSource'] = zuuluu;
-                            zuuluu = _closure2_slot1;
-                            michal['localImageSource'] = zuuluu;
-                            zuuluu = undefined;
-                            michal = report.bind(zuuluu)(michal);
+                            var5 = _closure1_slot8;
+                            var2 = {};
+                            var3 = _closure2_slot0;
+                            var2['animationSource'] = var3;
+                            var3 = _closure2_slot1;
+                            var2['localImageSource'] = var3;
+                            var3 = undefined;
+                            var2 = var5.bind(var3)(var2);
                             SaveGenerator(address=48);
  46:
-                            return michal;
+                            return var2;
  48:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(report) { _fun00008_ip = 66; continue _fun00007 }
+                            if(var5) { _fun0004_ip = 66; continue _fun0004 }
  54:
-                            tangon = _closure2_slot2;
-                            tangon = tangon.bind(zuuluu)(michal);
-                            return zuuluu;
+                            var4 = _closure2_slot2;
+                            var4 = var4.bind(var3)(var2);
+                            return var3;
  66:
-                            return michal;
+                            return var2;
  69:
-                            return entity;
+                            return var1;
                         }
                     };
-                    return entity;
+                    return var1;
                 };
-                tangon = zuuluu.bind(tangon)(michal);
-                _closure3_slot0 = tangon;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+                var4 = var3.bind(var4)(var2);
+                _closure3_slot0 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            var _closure3_slot0 = michal;
-            michal = function() { // Original name: getSource
-                entity = undefined;
-                tangon = _closure3_slot0;
-                zuuluu = tangon.apply;
-                entity = arguments;
-                michal = entity;
-                entity = this;
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+            var _closure3_slot0 = var2;
+            var2 = function getSource() {
+                var1 = undefined;
+                var4 = _closure3_slot0;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
             };
-            entity = undefined;
-            michal = michal.bind(entity)();
-            michal = !michal;
-            return entity;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var2 = !var2;
+            return var1;
         };
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    zuuluu['useSuperReactionAnimationSourceFromLocalImage'] = michal;
-    michal = 128;
-    zuuluu['EMOJI_IN_ANIMATION_SIZE'] = michal;
-    michal = 0.8;
-    zuuluu['BACKDROP_OPACITY'] = michal;
-    return entity;
+    var3['useSuperReactionAnimationSourceFromLocalImage'] = var2;
+    var2 = 128;
+    var3['EMOJI_IN_ANIMATION_SIZE'] = var2;
+    var2 = 0.8;
+    var3['BACKDROP_OPACITY'] = var2;
+    return var1;
 })();

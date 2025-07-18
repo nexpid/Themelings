@@ -1,72 +1,72 @@
 // app/modules/keyword_filter/KeywordFilterSettingsUtils.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/keyword_filter/KeywordFilterSettingsUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() {
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/keyword_filter/KeywordFilterSettingsUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 0;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            zuuluu = michal.KeywordFilterSettings;
-            michal = zuuluu.getSetting;
-            zuuluu = michal.bind(zuuluu)();
-            tangon = zuuluu.profanity;
-            michal = entity !== tangon;
-            if(!michal) { _fun00002_ip = 56; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 0;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.KeywordFilterSettings;
+            var2 = var3.getSetting;
+            var3 = var2.bind(var3)();
+            var4 = var3.profanity;
+            var2 = var1 !== var4;
+            if(!var2) { _fun0001_ip = 56; continue _fun0001 }
  53:
-            michal = tangon;
+            var2 = var4;
  56:
-            report = zuuluu.slurs;
-            tangon = entity !== report;
-            if(!tangon) { _fun00002_ip = 72; continue _fun00001 }
+            var5 = var3.slurs;
+            var4 = var1 !== var5;
+            if(!var4) { _fun0001_ip = 72; continue _fun0001 }
  69:
-            tangon = report;
+            var4 = var5;
  72:
-            zuuluu = zuuluu.sexualContent;
-            if(michal) { _fun00002_ip = 84; continue _fun00001 }
+            var3 = var3.sexualContent;
+            if(var2) { _fun0001_ip = 84; continue _fun0001 }
  81:
-            michal = tangon;
+            var2 = var4;
  84:
-            if(michal) { _fun00002_ip = 100; continue _fun00001 }
+            if(var2) { _fun0001_ip = 100; continue _fun0001 }
  87:
-            entity = entity !== zuuluu;
-            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
+            var1 = var1 !== var3;
+            if(!var1) { _fun0001_ip = 97; continue _fun0001 }
  94:
-            entity = zuuluu;
+            var1 = var3;
  97:
-            michal = entity;
+            var2 = var1;
  100:
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00002_ip = 112; continue _fun00001 }
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0001_ip = 112; continue _fun0001 }
  109:
-            entity = michal;
+            var1 = var2;
  112:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getKeywordFilterSetting'] = michal;
-    return entity;
+    var3['getKeywordFilterSetting'] = var2;
+    return var1;
 })();

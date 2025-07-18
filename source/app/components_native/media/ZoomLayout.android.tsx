@@ -1,102 +1,102 @@
 // app/components_native/media/ZoomLayout.android.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        oscard = argBar;
-        zuuluu = argFre;
-        golfie = argPlu;
-        entity = global;
-        option = entity.Object;
-        report = option.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = report.bind(option)(zuuluu, entity, michal);
-        entity = 0;
-        report = golfie[entity];
-        michal = argCor;
-        entity = undefined;
-        option = michal.bind(entity)(report);
-        michal = 1;
-        michal = golfie[michal];
-        michal = oscard.bind(entity)(michal);
-        report = michal.requireNativeComponent;
-        michal = 2;
-        michal = golfie[michal];
-        michal = oscard.bind(entity)(michal);
-        michal = michal.jsx;
-        var _closure1_slot0 = michal;
-        michal = 3;
-        michal = golfie[michal];
-        verify = oscard.bind(entity)(michal);
-        michal = verify.isFabric;
-        michal = michal.bind(verify)();
-        if(michal) { _fun00002_ip = 136; continue _fun00001 }
+        var6 = native2;
+        var3 = native6;
+        var7 = native7;
+        var1 = global;
+        var8 = var1.Object;
+        var5 = var8.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var5.bind(var8)(var3, var1, var2);
+        var1 = 0;
+        var5 = var7[var1];
+        var2 = native4;
+        var1 = undefined;
+        var8 = var2.bind(var1)(var5);
+        var2 = 1;
+        var2 = var7[var2];
+        var2 = var6.bind(var1)(var2);
+        var5 = var2.requireNativeComponent;
+        var2 = 2;
+        var2 = var7[var2];
+        var2 = var6.bind(var1)(var2);
+        var2 = var2.jsx;
+        var _closure1_slot0 = var2;
+        var2 = 3;
+        var2 = var7[var2];
+        var9 = var6.bind(var1)(var2);
+        var2 = var9.isFabric;
+        var2 = var2.bind(var9)();
+        if(var2) { _fun0001_ip = 136; continue _fun0001 }
  123:
-        michal = 'DCDZoomLayoutAndroid';
-        michal = report.bind(entity)(michal);
-        _fun00002_ip = 153; continue _fun00001;
+        var2 = 'DCDZoomLayoutAndroid';
+        var2 = var5.bind(var1)(var2);
+        _fun0001_ip = 153; continue _fun0001;
  136:
-        report = 4;
-        report = golfie[report];
-        report = oscard.bind(entity)(report);
-        michal = report.default;
+        var5 = 4;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var2 = var5.default;
  153:
-        var _closure1_slot1 = michal;
-        michal = 5;
-        report = golfie[michal];
-        michal = argBaz;
-        report = michal.bind(entity)(report);
-        michal = {};
-        verify = ['zoomTo', 'unzoom'];
-        michal['supportedCommands'] = verify;
-        michal = report.bind(entity)(michal);
-        var _closure1_slot2 = michal;
-        report = option.forwardRef;
-        michal = function(argFoo, argBar) {
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            michal = {};
-            oscard = argFoo;
-            golfie = michal;
-            entity = copyDataProperties(golfie, oscard);
-            report = argBar;
-            entity = 'ref';
-            michal[entity] = report;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+        var _closure1_slot1 = var2;
+        var2 = 5;
+        var5 = var7[var2];
+        var2 = native3;
+        var5 = var2.bind(var1)(var5);
+        var2 = {};
+        var9 = ['zoomTo', 'unzoom'];
+        var2['supportedCommands'] = var9;
+        var2 = var5.bind(var1)(var2);
+        var _closure1_slot2 = var2;
+        var5 = var8.forwardRef;
+        var2 = function(arg1, arg2) {
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = {};
+            var6 = arg1;
+            var7 = var2;
+            var1 = copyDataProperties(var7, var6);
+            var5 = arg2;
+            var1 = 'ref';
+            var2[var1] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        michal = report.bind(option)(michal);
-        report = 6;
-        report = golfie[report];
-        golfie = oscard.bind(entity)(report);
-        oscard = golfie.fileFinishedImporting;
-        report = 'components_native/media/ZoomLayout.android.tsx';
-        report = oscard.bind(golfie)(report);
-        zuuluu['default'] = michal;
-        report = function(argFoo, argBar, argBaz) { // Original name: zoomTo
-            report = _closure1_slot2;
-            tangon = report.zoomTo;
-            zuuluu = argFoo;
-            michal = argBar;
-            entity = argBaz;
-            entity = tangon.bind(report)(zuuluu, michal, entity);
-            entity = undefined;
-            return entity;
+        var2 = var5.bind(var8)(var2);
+        var5 = 6;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'components_native/media/ZoomLayout.android.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['default'] = var2;
+        var5 = function zoomTo(arg1, arg2, arg3) {
+            var5 = _closure1_slot2;
+            var4 = var5.zoomTo;
+            var3 = arg1;
+            var2 = arg2;
+            var1 = arg3;
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = undefined;
+            return var1;
         };
-        zuuluu['zoomTo'] = report;
-        tangon = function(argFoo) { // Original name: unzoom
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.unzoom;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+        var3['zoomTo'] = var5;
+        var4 = function unzoom(arg1) {
+            var3 = _closure1_slot2;
+            var2 = var3.unzoom;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        zuuluu['unzoom'] = tangon;
-        zuuluu['ZoomLayout'] = michal;
-        return entity;
+        var3['unzoom'] = var4;
+        var3['ZoomLayout'] = var2;
+        return var1;
     }
 })();

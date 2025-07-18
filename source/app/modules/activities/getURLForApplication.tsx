@@ -1,110 +1,110 @@
 // app/modules/activities/getURLForApplication.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    tangon = function(argFoo) { // Original name: getNonTestModeUrlForApplication
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var4 = function getNonTestModeUrlForApplication(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = global;
-            entity = michal.window;
-            entity = entity.GLOBAL_ENV;
-            oscard = entity.ACTIVITY_APPLICATION_HOST;
-            entity = null;
-            zuuluu = entity == oscard;
-            if(zuuluu) { _fun00002_ip = 60; continue _fun00001 }
+            var2 = global;
+            var1 = var2.window;
+            var1 = var1.GLOBAL_ENV;
+            var6 = var1.ACTIVITY_APPLICATION_HOST;
+            var1 = null;
+            var3 = var1 == var6;
+            if(var3) { _fun0001_ip = 60; continue _fun0001 }
  29:
-            michal = michal.HermesInternal;
-            report = michal.concat;
-            tangon = 'https://';
-            zuuluu = argFoo;
-            michal = '.';
-            entity = report.bind(tangon)(zuuluu, michal, oscard);
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var4 = 'https://';
+            var3 = arg1;
+            var2 = '.';
+            var1 = var5.bind(var4)(var3, var2, var6);
  60:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = tangon;
-    michal = function() { // Original name: isUsingDevShelfActivityUrlOverride
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot2 = var4;
+    var2 = function isUsingDevShelfActivityUrlOverride() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot1;
-            entity = michal.getState;
-            michal = entity.bind(michal)();
-            entity = michal.useActivityUrlOverride;
-            if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+            var2 = _closure1_slot1;
+            var1 = var2.getState;
+            var2 = var1.bind(var2)();
+            var1 = var2.useActivityUrlOverride;
+            if(!var1) { _fun0002_ip = 38; continue _fun0002 }
  26:
-            tangon = michal.activityUrlOverride;
-            zuuluu = null;
-            entity = zuuluu != tangon;
+            var4 = var2.activityUrlOverride;
+            var3 = null;
+            var1 = var3 != var4;
  38:
-            if(!entity) { _fun00004_ip = 55; continue _fun00003 }
+            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
  41:
-            zuuluu = michal.activityUrlOverride;
-            michal = '';
-            entity = michal !== zuuluu;
+            var3 = var2.activityUrlOverride;
+            var2 = '';
+            var1 = var2 !== var3;
  55:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot3 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = golfie[entity];
-    entity = undefined;
-    oscard = option.bind(entity)(oscard);
-    var _closure1_slot0 = oscard;
-    oscard = 1;
-    oscard = golfie[oscard];
-    oscard = option.bind(entity)(oscard);
-    var _closure1_slot1 = oscard;
-    oscard = 2;
-    golfie = golfie[oscard];
-    oscard = argBar;
-    option = oscard.bind(entity)(golfie);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/activities/getURLForApplication.tsx';
-    oscard = golfie.bind(option)(oscard);
-    report = function(argFoo) { // Original name: getURLForApplication
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot3 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var6);
+    var1 = 0;
+    var6 = var7[var1];
+    var1 = undefined;
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot0 = var6;
+    var6 = 1;
+    var6 = var7[var6];
+    var6 = var8.bind(var1)(var6);
+    var _closure1_slot1 = var6;
+    var6 = 2;
+    var7 = var7[var6];
+    var6 = native2;
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/activities/getURLForApplication.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function getURLForApplication(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            entity = _closure1_slot3;
-            zuuluu = undefined;
-            entity = entity.bind(zuuluu)();
-            if(entity) { _fun00006_ip = 64; continue _fun00005 }
+            var4 = arg1;
+            var1 = _closure1_slot3;
+            var3 = undefined;
+            var1 = var1.bind(var3)();
+            if(var1) { _fun0003_ip = 64; continue _fun0003 }
  19:
-            report = _closure1_slot0;
-            entity = report.inTestModeForEmbeddedApplication;
-            entity = entity.bind(report)(tangon);
-            if(entity) { _fun00006_ip = 50; continue _fun00005 }
+            var5 = _closure1_slot0;
+            var1 = var5.inTestModeForEmbeddedApplication;
+            var1 = var1.bind(var5)(var4);
+            if(var1) { _fun0003_ip = 50; continue _fun0003 }
  39:
-            entity = _closure1_slot2;
-            entity = entity.bind(zuuluu)(tangon);
-            _fun00006_ip = 62; continue _fun00005;
+            var1 = _closure1_slot2;
+            var1 = var1.bind(var3)(var4);
+            _fun0003_ip = 62; continue _fun0003;
  50:
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.testModeOriginURL;
+            var3 = _closure1_slot0;
+            var1 = var3.testModeOriginURL;
  62:
-            _fun00006_ip = 84; continue _fun00005;
+            _fun0003_ip = 84; continue _fun0003;
  64:
-            zuuluu = _closure1_slot1;
-            michal = zuuluu.getState;
-            michal = michal.bind(zuuluu)();
-            entity = michal.activityUrlOverride;
+            var3 = _closure1_slot1;
+            var2 = var3.getState;
+            var2 = var2.bind(var3)();
+            var1 = var2.activityUrlOverride;
  84:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = report;
-    zuuluu['getNonTestModeUrlForApplication'] = tangon;
-    zuuluu['isUsingDevShelfActivityUrlOverride'] = michal;
-    return entity;
+    var3['default'] = var5;
+    var3['getNonTestModeUrlForApplication'] = var4;
+    var3['isUsingDevShelfActivityUrlOverride'] = var2;
+    return var1;
 })();

@@ -1,259 +1,259 @@
 // app/modules/user_settings/UserSettingsProtoManager.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: handleConnectionOpen
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function handleConnectionOpen() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot3;
-            entity = tangon.getFullState;
-            tangon = entity.bind(tangon)();
-            var _closure2_slot0 = tangon;
-            entity = _closure1_slot4;
-            entity = entity.PRELOADED_USER_SETTINGS;
-            entity = tangon[entity];
-            tangon = entity.editInfo;
-            tangon = tangon.triggeredMigrations;
-            if(!tangon) { _fun00002_ip = 110; continue _fun00001 }
+            var4 = _closure1_slot3;
+            var1 = var4.getFullState;
+            var4 = var1.bind(var4)();
+            var _closure2_slot0 = var4;
+            var1 = _closure1_slot4;
+            var1 = var1.PRELOADED_USER_SETTINGS;
+            var1 = var4[var1];
+            var4 = var1.editInfo;
+            var4 = var4.triggeredMigrations;
+            if(!var4) { _fun0001_ip = 110; continue _fun0001 }
  52:
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
-            tangon = 6;
-            report = report[tangon];
-            tangon = undefined;
-            tangon = oscard.bind(tangon)(report);
-            oscard = tangon.PreloadedUserSettingsActionCreators;
-            report = oscard.markDirtyFromMigration;
-            tangon = entity.proto;
-            entity = entity.editInfo;
-            entity = entity.cleanupFuncs;
-            entity = report.bind(oscard)(tangon, entity);
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 6;
+            var5 = var5[var4];
+            var4 = undefined;
+            var4 = var6.bind(var4)(var5);
+            var6 = var4.PreloadedUserSettingsActionCreators;
+            var5 = var6.markDirtyFromMigration;
+            var4 = var1.proto;
+            var1 = var1.editInfo;
+            var1 = var1.cleanupFuncs;
+            var1 = var5.bind(var6)(var4, var1);
  110:
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            entity = 7;
-            tangon = golfie[entity];
-            entity = undefined;
-            report = report.bind(entity)(tangon);
-            tangon = report.forEach;
-            oscard = _closure1_slot0;
-            zuuluu = 6;
-            zuuluu = golfie[zuuluu];
-            zuuluu = oscard.bind(entity)(zuuluu);
-            zuuluu = zuuluu.UserSettingsActionCreatorsByType;
-            michal = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 7;
+            var4 = var7[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.forEach;
+            var6 = _closure1_slot0;
+            var3 = 6;
+            var3 = var7[var3];
+            var3 = var6.bind(var1)(var3);
+            var3 = var3.UserSettingsActionCreatorsByType;
+            var2 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = argFoo;
-                    tangon = _closure2_slot0;
-                    entity = global;
-                    report = entity.Number;
-                    entity = undefined;
-                    michal = argBar;
-                    michal = report.bind(entity)(michal);
-                    tangon = tangon[michal];
-                    michal = tangon.editInfo;
-                    michal = michal.offlineEditDataVersion;
-                    report = null;
-                    michal = report != michal;
-                    if(!michal) { _fun00004_ip = 69; continue _fun00003 }
+                    var3 = arg1;
+                    var4 = _closure2_slot0;
+                    var1 = global;
+                    var5 = var1.Number;
+                    var1 = undefined;
+                    var2 = arg2;
+                    var2 = var5.bind(var1)(var2);
+                    var4 = var4[var2];
+                    var2 = var4.editInfo;
+                    var2 = var2.offlineEditDataVersion;
+                    var5 = null;
+                    var2 = var5 != var2;
+                    if(!var2) { _fun0002_ip = 69; continue _fun0002 }
  53:
-                    tangon = tangon.editInfo;
-                    tangon = tangon.protoToSave;
-                    michal = report != tangon;
+                    var4 = var4.editInfo;
+                    var4 = var4.protoToSave;
+                    var2 = var5 != var4;
  69:
-                    if(!michal) { _fun00004_ip = 82; continue _fun00003 }
+                    if(!var2) { _fun0002_ip = 82; continue _fun0002 }
  72:
-                    michal = zuuluu.scheduleSaveFromOfflineEdit;
-                    michal = michal.bind(zuuluu)();
+                    var2 = var3.scheduleSaveFromOfflineEdit;
+                    var2 = var2.bind(var3)();
  82:
-                    return entity;
+                    return var1;
                 }
             };
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
         }
     };
-    var _closure1_slot5 = entity;
-    entity = function(argFoo) { // Original name: handleUserSettingsProtoEnqueueUpdate
-        entity = argFoo;
-        michal = entity.settings;
-        report = michal.proto;
-        zuuluu = michal.type;
-        golfie = entity.delaySeconds;
-        oscard = entity.jitter;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        michal = tangon.bind(entity)(michal);
-        michal = michal.UserSettingsActionCreatorsByType;
-        tangon = michal[zuuluu];
-        zuuluu = tangon.markDirty;
-        michal = {};
-        michal['delaySeconds'] = golfie;
-        michal['jitter'] = oscard;
-        michal = zuuluu.bind(tangon)(report, michal);
-        return entity;
+    var _closure1_slot5 = var1;
+    var1 = function handleUserSettingsProtoEnqueueUpdate(arg1) {
+        var1 = arg1;
+        var2 = var1.settings;
+        var5 = var2.proto;
+        var3 = var2.type;
+        var7 = var1.delaySeconds;
+        var6 = var1.jitter;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.UserSettingsActionCreatorsByType;
+        var4 = var2[var3];
+        var3 = var4.markDirty;
+        var2 = {};
+        var2['delaySeconds'] = var7;
+        var2['jitter'] = var6;
+        var2 = var3.bind(var4)(var5, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function(argFoo) { // Original name: handleUserSettingsProtoLoadIfNecessary
-        entity = argFoo;
-        zuuluu = entity.settingsType;
-        tangon = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 6;
-        michal = michal[entity];
-        entity = undefined;
-        michal = tangon.bind(entity)(michal);
-        michal = michal.UserSettingsActionCreatorsByType;
-        zuuluu = michal[zuuluu];
-        michal = zuuluu.loadIfNecessary;
-        michal = michal.bind(zuuluu)();
-        return entity;
+    var _closure1_slot6 = var1;
+    var1 = function handleUserSettingsProtoLoadIfNecessary(arg1) {
+        var1 = arg1;
+        var3 = var1.settingsType;
+        var4 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var2 = var4.bind(var1)(var2);
+        var2 = var2.UserSettingsActionCreatorsByType;
+        var3 = var2[var3];
+        var2 = var3.loadIfNecessary;
+        var2 = var2.bind(var3)();
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function(argFoo) { // Original name: handleAppStateUpdate
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function handleAppStateUpdate(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.state;
-            entity = 'inactive';
-            entity = entity !== zuuluu;
-            if(!entity) { _fun00006_ip = 27; continue _fun00005 }
+            var1 = arg1;
+            var3 = var1.state;
+            var1 = 'inactive';
+            var1 = var1 !== var3;
+            if(!var1) { _fun0003_ip = 27; continue _fun0003 }
  19:
-            michal = 'background';
-            entity = michal !== zuuluu;
+            var2 = 'background';
+            var1 = var2 !== var3;
  27:
-            if(entity) { _fun00006_ip = 97; continue _fun00005 }
+            if(var1) { _fun0003_ip = 97; continue _fun0003 }
  30:
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 7;
-            michal = oscard[michal];
-            report = undefined;
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.forEach;
-            michal = _closure1_slot0;
-            entity = 6;
-            entity = oscard[entity];
-            entity = michal.bind(report)(entity);
-            michal = entity.UserSettingsActionCreatorsByType;
-            entity = function(argFoo, argBar) {
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var3 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 7;
+            var2 = var6[var2];
+            var5 = undefined;
+            var4 = var3.bind(var5)(var2);
+            var3 = var4.forEach;
+            var2 = _closure1_slot0;
+            var1 = 6;
+            var1 = var6[var1];
+            var1 = var2.bind(var5)(var1);
+            var2 = var1.UserSettingsActionCreatorsByType;
+            var1 = function(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = _closure1_slot3;
-                    entity = michal.getFullState;
-                    tangon = entity.bind(michal)();
-                    entity = global;
-                    report = entity.Number;
-                    entity = undefined;
-                    michal = argBar;
-                    michal = report.bind(entity)(michal);
-                    michal = tangon[michal];
-                    michal = michal.editInfo;
-                    tangon = michal.timeout;
-                    michal = null;
-                    if(!(michal != tangon)) { _fun00008_ip = 92; continue _fun00007 }
+                    var3 = arg1;
+                    var2 = _closure1_slot3;
+                    var1 = var2.getFullState;
+                    var4 = var1.bind(var2)();
+                    var1 = global;
+                    var5 = var1.Number;
+                    var1 = undefined;
+                    var2 = arg2;
+                    var2 = var5.bind(var1)(var2);
+                    var2 = var4[var2];
+                    var2 = var2.editInfo;
+                    var4 = var2.timeout;
+                    var2 = null;
+                    if(!(var2 != var4)) { _fun0004_ip = 92; continue _fun0004 }
  60:
-                    report = zuuluu.logger;
-                    tangon = report.log;
-                    michal = 'Triggering persistChanges due to AppStateUpdate';
-                    michal = tangon.bind(report)(michal);
-                    michal = zuuluu.persistChanges;
-                    michal = michal.bind(zuuluu)();
+                    var5 = var3.logger;
+                    var4 = var5.log;
+                    var2 = 'Triggering persistChanges due to AppStateUpdate';
+                    var2 = var4.bind(var5)(var2);
+                    var2 = var3.persistChanges;
+                    var2 = var2.bind(var3)();
  92:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var1 = var3.bind(var4)(var2, var1);
  97:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    var _closure1_slot8 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.UserSettingsTypes;
-    var _closure1_slot4 = michal;
-    michal = {};
-    tangon = function() { // Original name: init
-        tangon = _closure1_slot1;
-        report = _closure1_slot2;
-        zuuluu = 2;
-        oscard = report[zuuluu];
-        entity = undefined;
-        option = tangon.bind(entity)(oscard);
-        oscard = _closure1_slot4;
-        golfie = oscard.PRELOADED_USER_SETTINGS;
-        oscard = 3;
-        oscard = report[oscard];
-        oscard = tangon.bind(entity)(oscard);
-        option[golfie] = oscard;
-        zuuluu = report[zuuluu];
-        golfie = tangon.bind(entity)(zuuluu);
-        zuuluu = _closure1_slot4;
-        oscard = zuuluu.FRECENCY_AND_FAVORITES_SETTINGS;
-        zuuluu = 4;
-        zuuluu = report[zuuluu];
-        zuuluu = tangon.bind(entity)(zuuluu);
-        golfie[oscard] = zuuluu;
-        zuuluu = 5;
-        oscard = report[zuuluu];
-        verify = tangon.bind(entity)(oscard);
-        option = verify.subscribe;
-        golfie = _closure1_slot5;
-        oscard = 'CONNECTION_OPEN';
-        oscard = option.bind(verify)(oscard, golfie);
-        oscard = report[zuuluu];
-        verify = tangon.bind(entity)(oscard);
-        option = verify.subscribe;
-        golfie = _closure1_slot6;
-        oscard = 'USER_SETTINGS_PROTO_ENQUEUE_UPDATE';
-        oscard = option.bind(verify)(oscard, golfie);
-        oscard = report[zuuluu];
-        verify = tangon.bind(entity)(oscard);
-        option = verify.subscribe;
-        golfie = _closure1_slot7;
-        oscard = 'USER_SETTINGS_PROTO_LOAD_IF_NECESSARY';
-        oscard = option.bind(verify)(oscard, golfie);
-        zuuluu = report[zuuluu];
-        report = tangon.bind(entity)(zuuluu);
-        tangon = report.subscribe;
-        zuuluu = _closure1_slot8;
-        michal = 'APP_STATE_UPDATE';
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+    var _closure1_slot8 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.UserSettingsTypes;
+    var _closure1_slot4 = var2;
+    var2 = {};
+    var4 = function init() {
+        var4 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var3 = 2;
+        var6 = var5[var3];
+        var1 = undefined;
+        var8 = var4.bind(var1)(var6);
+        var6 = _closure1_slot4;
+        var7 = var6.PRELOADED_USER_SETTINGS;
+        var6 = 3;
+        var6 = var5[var6];
+        var6 = var4.bind(var1)(var6);
+        var8[var7] = var6;
+        var3 = var5[var3];
+        var7 = var4.bind(var1)(var3);
+        var3 = _closure1_slot4;
+        var6 = var3.FRECENCY_AND_FAVORITES_SETTINGS;
+        var3 = 4;
+        var3 = var5[var3];
+        var3 = var4.bind(var1)(var3);
+        var7[var6] = var3;
+        var3 = 5;
+        var6 = var5[var3];
+        var9 = var4.bind(var1)(var6);
+        var8 = var9.subscribe;
+        var7 = _closure1_slot5;
+        var6 = 'CONNECTION_OPEN';
+        var6 = var8.bind(var9)(var6, var7);
+        var6 = var5[var3];
+        var9 = var4.bind(var1)(var6);
+        var8 = var9.subscribe;
+        var7 = _closure1_slot6;
+        var6 = 'USER_SETTINGS_PROTO_ENQUEUE_UPDATE';
+        var6 = var8.bind(var9)(var6, var7);
+        var6 = var5[var3];
+        var9 = var4.bind(var1)(var6);
+        var8 = var9.subscribe;
+        var7 = _closure1_slot7;
+        var6 = 'USER_SETTINGS_PROTO_LOAD_IF_NECESSARY';
+        var6 = var8.bind(var9)(var6, var7);
+        var3 = var5[var3];
+        var5 = var4.bind(var1)(var3);
+        var4 = var5.subscribe;
+        var3 = _closure1_slot8;
+        var2 = 'APP_STATE_UPDATE';
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    michal['init'] = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/UserSettingsProtoManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['init'] = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/UserSettingsProtoManager.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

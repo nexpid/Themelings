@@ -1,121 +1,121 @@
 // app/modules/user_settings/AudioSettingsPending.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = function(argFoo, argBar) { // Original name: makeContextUserKey
-        entity = global;
-        entity = entity.HermesInternal;
-        report = entity.concat;
-        tangon = '';
-        zuuluu = argFoo;
-        michal = ':';
-        entity = argBar;
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = function makeContextUserKey(arg1, arg2) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var5 = var1.concat;
+        var4 = '';
+        var3 = arg1;
+        var2 = ':';
+        var1 = arg2;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
     };
-    var _closure1_slot2 = entity;
-    entity = function(argFoo) { // Original name: unpackContextUserKey
-        zuuluu = argFoo;
-        michal = zuuluu.split;
-        entity = ':';
-        tangon = michal.bind(zuuluu)(entity);
-        zuuluu = _closure1_slot0;
-        michal = undefined;
-        entity = 2;
-        zuuluu = zuuluu.bind(michal)(tangon, entity);
-        entity = 0;
-        michal = zuuluu[entity];
-        entity = new Array(2);
-        entity[0] = michal;
-        michal = 1;
-        michal = zuuluu[michal];
-        entity[1] = michal;
-        return entity;
+    var _closure1_slot2 = var1;
+    var1 = function unpackContextUserKey(arg1) {
+        var3 = arg1;
+        var2 = var3.split;
+        var1 = ':';
+        var4 = var2.bind(var3)(var1);
+        var3 = _closure1_slot0;
+        var2 = undefined;
+        var1 = 2;
+        var3 = var3.bind(var2)(var4, var1);
+        var1 = 0;
+        var2 = var3[var1];
+        var1 = new Array(2);
+        var1[0] = var2;
+        var2 = 1;
+        var2 = var3[var2];
+        var1[1] = var2;
+        return var1;
     };
-    var _closure1_slot3 = entity;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = {};
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/AudioSettingsPending.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: getPendingAudioSettings
-        report = _closure1_slot2;
-        tangon = undefined;
-        zuuluu = argFoo;
-        michal = argBar;
-        michal = report.bind(tangon)(zuuluu, michal);
-        entity = _closure1_slot1;
-        entity = entity[michal];
-        return entity;
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = {};
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/AudioSettingsPending.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getPendingAudioSettings(arg1, arg2) {
+        var5 = _closure1_slot2;
+        var4 = undefined;
+        var3 = arg1;
+        var2 = arg2;
+        var2 = var5.bind(var4)(var3, var2);
+        var1 = _closure1_slot1;
+        var1 = var1[var2];
+        return var1;
     };
-    zuuluu['getPendingAudioSettings'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: updatePendingSettings
-        report = _closure1_slot2;
-        entity = undefined;
-        tangon = argFoo;
-        zuuluu = argBar;
-        tangon = report.bind(entity)(tangon, zuuluu);
-        zuuluu = _closure1_slot1;
-        michal = {};
-        oscard = zuuluu[tangon];
-        golfie = michal;
-        report = copyDataProperties(golfie, oscard);
-        oscard = argBaz;
-        golfie = michal;
-        report = copyDataProperties(golfie, oscard);
-        zuuluu[tangon] = michal;
-        return entity;
+    var3['getPendingAudioSettings'] = var4;
+    var4 = function updatePendingSettings(arg1, arg2, arg3) {
+        var5 = _closure1_slot2;
+        var1 = undefined;
+        var4 = arg1;
+        var3 = arg2;
+        var4 = var5.bind(var1)(var4, var3);
+        var3 = _closure1_slot1;
+        var2 = {};
+        var6 = var3[var4];
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var6 = arg3;
+        var7 = var2;
+        var5 = copyDataProperties(var7, var6);
+        var3[var4] = var2;
+        return var1;
     };
-    zuuluu['updatePendingSettings'] = tangon;
-    michal = function(argFoo) { // Original name: drainPendingAudioSettings
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['updatePendingSettings'] = var4;
+    var2 = function drainPendingAudioSettings(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            yankee = argFoo;
-            verify = _closure1_slot1;
-            entity = undefined;
-            report = 2;
-            tangon = 0;
-            michal = 1;
-            for(oscard in verify)
+            var11 = arg1;
+            var9 = _closure1_slot1;
+            var1 = undefined;
+            var5 = 2;
+            var4 = 0;
+            var2 = 1;
+            for(var6 in var9)
  28:
             {
  37:
-                kiloes = oscard;
-                romeon = _closure1_slot3;
-                foxtra = romeon.bind(entity)(kiloes);
-                romeon = _closure1_slot0;
-                romeon = romeon.bind(entity)(foxtra, report);
-                backup = romeon[tangon];
-                foxtra = romeon[michal];
-                romeon = _closure1_slot1;
-                romeon = romeon[kiloes];
-                romeon = yankee.bind(entity)(backup, foxtra, romeon);
-                _fun00002_ip = 28; continue _fun00001;
+                var15 = var6;
+                var12 = _closure1_slot3;
+                var13 = var12.bind(var1)(var15);
+                var12 = _closure1_slot0;
+                var12 = var12.bind(var1)(var13, var5);
+                var14 = var12[var4];
+                var13 = var12[var2];
+                var12 = _closure1_slot1;
+                var12 = var12[var15];
+                var12 = var11.bind(var1)(var14, var13, var12);
+                _fun0001_ip = 28; continue _fun0001;
             }
  84:
-            michal = {};
-            _closure1_slot1 = michal;
-            return entity;
+            var2 = {};
+            _closure1_slot1 = var2;
+            return var1;
         }
     };
-    zuuluu['drainPendingAudioSettings'] = michal;
-    return entity;
+    var3['drainPendingAudioSettings'] = var2;
+    return var1;
 })();

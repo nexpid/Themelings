@@ -1,103 +1,103 @@
 // app/modules/emoji_terms/EmojiTerms.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    michal = 2;
-    michal = oscard[michal];
-    option = golfie.bind(entity)(michal);
-    michal = option.prototype;
-    golfie = Object.create(michal, {constructor: {value: option}});
-    romeon = function(argFoo) { // Original name: loadEmoji
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var2 = 2;
+    var2 = var6[var2];
+    var8 = var7.bind(var1)(var2);
+    var2 = var8.prototype;
+    var7 = Object.create(var2, {constructor: {value: var8}});
+    var12 = function loadEmoji(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            entity = michal.bind(zuuluu)(entity);
-            michal = entity.emojiTermsImporter;
-            entity = argFoo;
-            michal = michal[entity];
-            if(!(zuuluu === michal)) { _fun00002_ip = 65; continue _fun00001 }
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 3;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.emojiTermsImporter;
+            var1 = arg1;
+            var2 = var2[var1];
+            if(!(var3 === var2)) { _fun0001_ip = 65; continue _fun0001 }
  42:
-            entity = global;
-            report = entity.Promise;
-            tangon = report.resolve;
-            entity = {};
-            entity = tangon.bind(report)(entity);
-            _fun00002_ip = 86; continue _fun00001;
+            var1 = global;
+            var5 = var1.Promise;
+            var4 = var5.resolve;
+            var1 = {};
+            var1 = var4.bind(var5)(var1);
+            _fun0001_ip = 86; continue _fun0001;
  65:
-            tangon = michal.bind(zuuluu)();
-            zuuluu = tangon.then;
-            michal = function(argFoo) {
-                entity = argFoo;
-                entity = entity.default;
-                return entity;
+            var4 = var2.bind(var3)();
+            var3 = var4.then;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.default;
+                return var1;
             };
-            entity = zuuluu.bind(tangon)(michal);
+            var1 = var3.bind(var4)(var2);
  86:
-            return entity;
+            return var1;
         }
     };
-    foxtra = golfie;
-    michal = new foxtra[option](romeon, yankee);
-    michal = michal instanceof Object ? michal : golfie;
-    var _closure1_slot2 = michal;
-    michal = {};
-    golfie = function(argFoo) { // Original name: setEmojiLocale
-        zuuluu = _closure1_slot2;
-        michal = zuuluu.setParams;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
-        entity = undefined;
-        return entity;
+    var13 = var7;
+    var2 = new var13[var8](var12, var11);
+    var2 = var2 instanceof Object ? var2 : var7;
+    var _closure1_slot2 = var2;
+    var2 = {};
+    var7 = function setEmojiLocale(arg1) {
+        var3 = _closure1_slot2;
+        var2 = var3.setParams;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
-    michal['setEmojiLocale'] = golfie;
-    tangon = function(argFoo) { // Original name: getTermsForEmoji
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['setEmojiLocale'] = var7;
+    var4 = function getTermsForEmoji(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot2;
-            entity = michal.get;
-            zuuluu = entity.bind(michal)();
-            entity = undefined;
-            if(!(entity === zuuluu)) { _fun00004_ip = 28; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var1 = var2.get;
+            var3 = var1.bind(var2)();
+            var1 = undefined;
+            if(!(var1 === var3)) { _fun0002_ip = 28; continue _fun0002 }
  22:
-            entity = new Array(0);
-            _fun00004_ip = 35; continue _fun00003;
+            var1 = new Array(0);
+            _fun0002_ip = 35; continue _fun0002;
  28:
-            michal = argFoo;
-            entity = zuuluu[michal];
+            var2 = arg1;
+            var1 = var3[var2];
  35:
-            return entity;
+            return var1;
         }
     };
-    michal['getTermsForEmoji'] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/emoji_terms/EmojiTerms.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['getTermsForEmoji'] = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/emoji_terms/EmojiTerms.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

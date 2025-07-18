@@ -1,376 +1,376 @@
 // app/utils/native/ApplicationUtils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    entity = argCor;
-    var _closure1_slot2 = entity;
-    var _closure1_slot3 = golfie;
-    tangon = function(argFoo) { // Original name: openOAuth2Modal
-        option = argFoo;
-        var _closure2_slot0 = option;
-        report = _closure1_slot1;
-        zuuluu = _closure1_slot3;
-        tangon = 7;
-        oscard = zuuluu[tangon];
-        entity = undefined;
-        offset = report.bind(entity)(oscard);
-        verify = offset.popWithKey;
-        oscard = _closure1_slot5;
-        oscard = verify.bind(offset)(oscard);
-        tangon = zuuluu[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.pushLazy;
-        verify = _closure1_slot0;
-        tangon = 9;
-        tangon = zuuluu[tangon];
-        verify = verify.bind(entity)(tangon);
-        tangon = 8;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = verify.bind(entity)(tangon, zuuluu);
-        zuuluu = {};
-        foxtra = zuuluu;
-        romeon = option;
-        option = copyDataProperties(foxtra, romeon);
-        option = function() { // Original name: dismissOAuthModal
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var1 = native4;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var7;
+    var4 = function openOAuth2Modal(arg1) {
+        var8 = arg1;
+        var _closure2_slot0 = var8;
+        var5 = _closure1_slot1;
+        var3 = _closure1_slot3;
+        var4 = 7;
+        var6 = var3[var4];
+        var1 = undefined;
+        var10 = var5.bind(var1)(var6);
+        var9 = var10.popWithKey;
+        var6 = _closure1_slot5;
+        var6 = var9.bind(var10)(var6);
+        var4 = var3[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.pushLazy;
+        var9 = _closure1_slot0;
+        var4 = 9;
+        var4 = var3[var4];
+        var9 = var9.bind(var1)(var4);
+        var4 = 8;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var9.bind(var1)(var4, var3);
+        var3 = {};
+        var13 = var3;
+        var12 = var8;
+        var8 = copyDataProperties(var13, var12);
+        var8 = function dismissOAuthModal() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = _closure2_slot0;
-                zuuluu = michal.dismissOAuthModal;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
+                var2 = _closure2_slot0;
+                var3 = var2.dismissOAuthModal;
+                var2 = null;
+                if(!(var2 != var3)) { _fun0001_ip = 33; continue _fun0001 }
  19:
-                michal = _closure2_slot0;
-                entity = michal.dismissOAuthModal;
-                entity = entity.bind(michal)();
+                var2 = _closure2_slot0;
+                var1 = var2.dismissOAuthModal;
+                var1 = var1.bind(var2)();
  33:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot3;
-                entity = 7;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(zuuluu);
-                zuuluu = tangon.popWithKey;
-                michal = _closure1_slot5;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot3;
+                var1 = 7;
+                var3 = var3[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var3);
+                var3 = var4.popWithKey;
+                var2 = _closure1_slot5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             }
         };
-        golfie = 'dismissOAuthModal';
-        zuuluu[golfie] = option;
-        michal = _closure1_slot5;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+        var7 = 'dismissOAuthModal';
+        var3[var7] = var8;
+        var2 = _closure1_slot5;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = report.AnalyticEvents;
-    var _closure1_slot4 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.OAUTH2_AUTHORIZE_MODAL_KEY;
-    var _closure1_slot5 = report;
-    report = 11;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/native/ApplicationUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: installApplication
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.AnalyticEvents;
+    var _closure1_slot4 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.OAUTH2_AUTHORIZE_MODAL_KEY;
+    var _closure1_slot5 = var5;
+    var5 = 11;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'utils/native/ApplicationUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function installApplication(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            yankee = entity.applicationId;
-            report = entity.customInstallUrl;
-            var _closure2_slot0 = report;
-            kiloes = entity.installParams;
-            zuuluu = entity.integrationTypesConfig;
-            option = entity.guildId;
-            golfie = entity.channelId;
-            oscard = entity.disableGuildSelect;
-            offset = entity.source;
-            entity = entity.oauth2Callback;
-            var _closure2_slot1 = entity;
-            romeon = null;
-            if(!(romeon == report)) { _fun00004_ip = 458; continue _fun00003 }
+            var1 = arg1;
+            var11 = var1.applicationId;
+            var5 = var1.customInstallUrl;
+            var _closure2_slot0 = var5;
+            var15 = var1.installParams;
+            var3 = var1.integrationTypesConfig;
+            var8 = var1.guildId;
+            var7 = var1.channelId;
+            var6 = var1.disableGuildSelect;
+            var10 = var1.source;
+            var1 = var1.oauth2Callback;
+            var _closure2_slot1 = var1;
+            var12 = null;
+            if(!(var12 == var5)) { _fun0002_ip = 458; continue _fun0002 }
  74:
-            if(!(romeon != zuuluu)) { _fun00004_ip = 118; continue _fun00003 }
+            if(!(var12 != var3)) { _fun0002_ip = 118; continue _fun0002 }
  78:
-            entity = global;
-            michal = entity.Object;
-            entity = michal.values;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.some;
-            entity = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var1 = global;
+            var2 = var1.Object;
+            var1 = var2.values;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    tangon = argFoo;
-                    zuuluu = null;
-                    report = zuuluu == tangon;
-                    entity = undefined;
-                    if(report) { _fun00006_ip = 20; continue _fun00005 }
+                    var4 = arg1;
+                    var3 = null;
+                    var5 = var3 == var4;
+                    var1 = undefined;
+                    if(var5) { _fun0003_ip = 20; continue _fun0003 }
  14:
-                    entity = tangon.oauth2_install_params;
+                    var1 = var4.oauth2_install_params;
  20:
-                    entity = zuuluu != entity;
-                    if(entity) { _fun00006_ip = 46; continue _fun00005 }
+                    var1 = var3 != var1;
+                    if(var1) { _fun0003_ip = 46; continue _fun0003 }
  27:
-                    report = zuuluu == tangon;
-                    michal = undefined;
-                    if(report) { _fun00006_ip = 42; continue _fun00005 }
+                    var5 = var3 == var4;
+                    var2 = undefined;
+                    if(var5) { _fun0003_ip = 42; continue _fun0003 }
  36:
-                    michal = tangon.oauth2InstallParams;
+                    var2 = var4.oauth2InstallParams;
  42:
-                    entity = zuuluu != michal;
+                    var1 = var3 != var2;
  46:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            if(entity) { _fun00004_ip = 340; continue _fun00003 }
+            var1 = var2.bind(var3)(var1);
+            if(var1) { _fun0002_ip = 340; continue _fun0002 }
  118:
-            if(!(romeon != kiloes)) { _fun00004_ip = 336; continue _fun00003 }
+            if(!(var12 != var15)) { _fun0002_ip = 336; continue _fun0002 }
  125:
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot3;
-            entity = 2;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            backup = michal.bind(zuuluu)(entity);
-            verify = backup.track;
-            entity = _closure1_slot4;
-            michal = entity.APPLICATION_ADD_TO_SERVER_CLICKED;
-            entity = {};
-            entity['application_id'] = yankee;
-            sizing = 'in_app';
-            entity['auth_type'] = sizing;
-            entity['source'] = offset;
-            sizing = 'mobile_native';
-            entity['device_platform'] = sizing;
-            entity = verify.bind(backup)(michal, entity);
-            michal = _closure1_slot6;
-            entity = {};
-            entity['clientId'] = yankee;
-            entity['guildId'] = option;
-            entity['channelId'] = golfie;
-            entity['disableGuildSelect'] = oscard;
-            backup = romeon == kiloes;
-            verify = undefined;
-            if(backup) { _fun00004_ip = 241; continue _fun00003 }
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot3;
+            var1 = 2;
+            var1 = var3[var1];
+            var3 = undefined;
+            var14 = var2.bind(var3)(var1);
+            var9 = var14.track;
+            var1 = _closure1_slot4;
+            var2 = var1.APPLICATION_ADD_TO_SERVER_CLICKED;
+            var1 = {};
+            var1['application_id'] = var11;
+            var16 = 'in_app';
+            var1['auth_type'] = var16;
+            var1['source'] = var10;
+            var16 = 'mobile_native';
+            var1['device_platform'] = var16;
+            var1 = var9.bind(var14)(var2, var1);
+            var2 = _closure1_slot6;
+            var1 = {};
+            var1['clientId'] = var11;
+            var1['guildId'] = var8;
+            var1['channelId'] = var7;
+            var1['disableGuildSelect'] = var6;
+            var14 = var12 == var15;
+            var9 = undefined;
+            if(var14) { _fun0002_ip = 241; continue _fun0002 }
  235:
-            verify = kiloes.scopes;
+            var9 = var15.scopes;
  241:
-            entity['scopes'] = verify;
-            backup = romeon == kiloes;
-            verify = undefined;
-            if(backup) { _fun00004_ip = 261; continue _fun00003 }
+            var1['scopes'] = var9;
+            var14 = var12 == var15;
+            var9 = undefined;
+            if(var14) { _fun0002_ip = 261; continue _fun0002 }
  255:
-            verify = kiloes.permissions;
+            var9 = var15.permissions;
  261:
-            backup = romeon != verify;
-            verify = undefined;
-            if(!backup) { _fun00004_ip = 316; continue _fun00003 }
+            var14 = var12 != var9;
+            var9 = undefined;
+            if(!var14) { _fun0002_ip = 316; continue _fun0002 }
  270:
-            backup = _closure1_slot2;
-            sizing = _closure1_slot3;
-            foxtra = 6;
-            foxtra = sizing[foxtra];
-            backup = backup.bind(zuuluu)(foxtra);
-            foxtra = backup.deserialize;
-            sizing = romeon == kiloes;
-            romeon = undefined;
-            if(sizing) { _fun00004_ip = 311; continue _fun00003 }
+            var14 = _closure1_slot2;
+            var16 = _closure1_slot3;
+            var13 = 6;
+            var13 = var16[var13];
+            var14 = var14.bind(var3)(var13);
+            var13 = var14.deserialize;
+            var16 = var12 == var15;
+            var12 = undefined;
+            if(var16) { _fun0002_ip = 311; continue _fun0002 }
  305:
-            romeon = kiloes.permissions;
+            var12 = var15.permissions;
  311:
-            verify = foxtra.bind(backup)(romeon);
+            var9 = var13.bind(var14)(var12);
  316:
-            entity['permissions'] = verify;
-            verify = function(argFoo) { // Original name: callback
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            var1['permissions'] = var9;
+            var9 = function callback(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    zuuluu = argFoo;
-                    tangon = _closure1_slot1;
-                    michal = _closure1_slot3;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    michal = michal.bind(entity)(zuuluu);
-                    report = _closure2_slot1;
-                    tangon = null;
-                    if(!(tangon != report)) { _fun00008_ip = 55; continue _fun00007 }
+                    var3 = arg1;
+                    var4 = _closure1_slot1;
+                    var2 = _closure1_slot3;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var2 = var2.bind(var1)(var3);
+                    var5 = _closure2_slot1;
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0004_ip = 55; continue _fun0004 }
  46:
-                    michal = _closure2_slot1;
-                    michal = michal.bind(entity)(zuuluu);
+                    var2 = _closure2_slot1;
+                    var2 = var2.bind(var1)(var3);
  55:
-                    return entity;
+                    return var1;
                 }
             };
-            entity['callback'] = verify;
-            entity = michal.bind(zuuluu)(entity);
+            var1['callback'] = var9;
+            var1 = var2.bind(var3)(var1);
  336:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
  340:
-            verify = _closure1_slot1;
-            zuuluu = _closure1_slot3;
-            entity = 2;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            foxtra = verify.bind(entity)(zuuluu);
-            romeon = foxtra.track;
-            zuuluu = _closure1_slot4;
-            verify = zuuluu.APPLICATION_ADD_TO_SERVER_CLICKED;
-            zuuluu = {};
-            zuuluu['application_id'] = yankee;
-            backup = 'in_app';
-            zuuluu['auth_type'] = backup;
-            zuuluu['source'] = offset;
-            backup = 'mobile_native';
-            zuuluu['device_platform'] = backup;
-            zuuluu = romeon.bind(foxtra)(verify, zuuluu);
-            zuuluu = _closure1_slot6;
-            michal = {};
-            michal['clientId'] = yankee;
-            michal['guildId'] = option;
-            michal['channelId'] = golfie;
-            michal['disableGuildSelect'] = oscard;
-            oscard = function(argFoo) { // Original name: callback
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var9 = _closure1_slot1;
+            var3 = _closure1_slot3;
+            var1 = 2;
+            var3 = var3[var1];
+            var1 = undefined;
+            var13 = var9.bind(var1)(var3);
+            var12 = var13.track;
+            var3 = _closure1_slot4;
+            var9 = var3.APPLICATION_ADD_TO_SERVER_CLICKED;
+            var3 = {};
+            var3['application_id'] = var11;
+            var14 = 'in_app';
+            var3['auth_type'] = var14;
+            var3['source'] = var10;
+            var14 = 'mobile_native';
+            var3['device_platform'] = var14;
+            var3 = var12.bind(var13)(var9, var3);
+            var3 = _closure1_slot6;
+            var2 = {};
+            var2['clientId'] = var11;
+            var2['guildId'] = var8;
+            var2['channelId'] = var7;
+            var2['disableGuildSelect'] = var6;
+            var6 = function callback(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    zuuluu = argFoo;
-                    tangon = _closure1_slot1;
-                    michal = _closure1_slot3;
-                    entity = 5;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    michal = michal.bind(entity)(zuuluu);
-                    report = _closure2_slot1;
-                    tangon = null;
-                    if(!(tangon != report)) { _fun00010_ip = 55; continue _fun00009 }
+                    var3 = arg1;
+                    var4 = _closure1_slot1;
+                    var2 = _closure1_slot3;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
+                    var2 = var2.bind(var1)(var3);
+                    var5 = _closure2_slot1;
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0005_ip = 55; continue _fun0005 }
  46:
-                    michal = _closure2_slot1;
-                    michal = michal.bind(entity)(zuuluu);
+                    var2 = _closure2_slot1;
+                    var2 = var2.bind(var1)(var3);
  55:
-                    return entity;
+                    return var1;
                 }
             };
-            michal['callback'] = oscard;
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+            var2['callback'] = var6;
+            var2 = var3.bind(var1)(var2);
+            return var1;
  458:
-            golfie = _closure1_slot1;
-            oscard = _closure1_slot3;
-            michal = 2;
-            michal = oscard[michal];
-            zuuluu = undefined;
-            verify = golfie.bind(zuuluu)(michal);
-            option = verify.track;
-            michal = _closure1_slot4;
-            golfie = michal.APPLICATION_ADD_TO_SERVER_CLICKED;
-            michal = {};
-            michal['application_id'] = yankee;
-            yankee = 'custom_url';
-            michal['auth_type'] = yankee;
-            michal['source'] = offset;
-            offset = 'mobile_native';
-            michal['device_platform'] = offset;
-            michal = option.bind(verify)(golfie, michal);
-            michal = _closure1_slot0;
-            entity = 3;
-            entity = oscard[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.handleClick;
-            entity = {};
-            entity['href'] = report;
-            tangon = function() { // Original name: onConfirm
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot3;
-                entity = 4;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.openURL;
-                michal = _closure2_slot0;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot3;
+            var2 = 2;
+            var2 = var6[var2];
+            var3 = undefined;
+            var9 = var7.bind(var3)(var2);
+            var8 = var9.track;
+            var2 = _closure1_slot4;
+            var7 = var2.APPLICATION_ADD_TO_SERVER_CLICKED;
+            var2 = {};
+            var2['application_id'] = var11;
+            var11 = 'custom_url';
+            var2['auth_type'] = var11;
+            var2['source'] = var10;
+            var10 = 'mobile_native';
+            var2['device_platform'] = var10;
+            var2 = var8.bind(var9)(var7, var2);
+            var2 = _closure1_slot0;
+            var1 = 3;
+            var1 = var6[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.handleClick;
+            var1 = {};
+            var1['href'] = var5;
+            var4 = function onConfirm() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot3;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openURL;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            entity['onConfirm'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var1['onConfirm'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['installApplication'] = report;
-    zuuluu['openOAuth2Modal'] = tangon;
-    michal = function(argFoo) { // Original name: installPrivateChannelIntegration
-        entity = argFoo;
-        verify = entity.applicationId;
-        option = entity.channelId;
-        golfie = entity.callback;
-        tangon = _closure1_slot1;
-        yankee = _closure1_slot3;
-        entity = 7;
-        zuuluu = yankee[entity];
-        entity = undefined;
-        oscard = tangon.bind(entity)(zuuluu);
-        report = oscard.pushLazy;
-        offset = _closure1_slot0;
-        zuuluu = 9;
-        zuuluu = yankee[zuuluu];
-        romeon = offset.bind(entity)(zuuluu);
-        zuuluu = 8;
-        tangon = yankee[zuuluu];
-        zuuluu = yankee.paths;
-        tangon = romeon.bind(entity)(tangon, zuuluu);
-        zuuluu = {};
-        zuuluu['clientId'] = verify;
-        verify = 10;
-        verify = yankee[verify];
-        verify = offset.bind(entity)(verify);
-        verify = verify.OAuth2Scopes;
-        offset = verify.APPLICATIONS_COMMANDS;
-        verify = new Array(1);
-        verify[0] = offset;
-        zuuluu['scopes'] = verify;
-        zuuluu['channelId'] = option;
-        option = function() { // Original name: dismissOAuthModal
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot3;
-            michal = 7;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.popWithKey;
-            entity = _closure1_slot5;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var3['installApplication'] = var5;
+    var3['openOAuth2Modal'] = var4;
+    var2 = function installPrivateChannelIntegration(arg1) {
+        var1 = arg1;
+        var9 = var1.applicationId;
+        var8 = var1.channelId;
+        var7 = var1.callback;
+        var4 = _closure1_slot1;
+        var11 = _closure1_slot3;
+        var1 = 7;
+        var3 = var11[var1];
+        var1 = undefined;
+        var6 = var4.bind(var1)(var3);
+        var5 = var6.pushLazy;
+        var10 = _closure1_slot0;
+        var3 = 9;
+        var3 = var11[var3];
+        var12 = var10.bind(var1)(var3);
+        var3 = 8;
+        var4 = var11[var3];
+        var3 = var11.paths;
+        var4 = var12.bind(var1)(var4, var3);
+        var3 = {};
+        var3['clientId'] = var9;
+        var9 = 10;
+        var9 = var11[var9];
+        var9 = var10.bind(var1)(var9);
+        var9 = var9.OAuth2Scopes;
+        var10 = var9.APPLICATIONS_COMMANDS;
+        var9 = new Array(1);
+        var9[0] = var10;
+        var3['scopes'] = var9;
+        var3['channelId'] = var8;
+        var8 = function dismissOAuthModal() {
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot3;
+            var2 = 7;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.popWithKey;
+            var1 = _closure1_slot5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        zuuluu['dismissOAuthModal'] = option;
-        option = true;
-        zuuluu['disableGuildSelect'] = option;
-        zuuluu['callback'] = golfie;
-        michal = _closure1_slot5;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+        var3['dismissOAuthModal'] = var8;
+        var8 = true;
+        var3['disableGuildSelect'] = var8;
+        var3['callback'] = var7;
+        var2 = _closure1_slot5;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    zuuluu['installPrivateChannelIntegration'] = michal;
-    return entity;
+    var3['installPrivateChannelIntegration'] = var2;
+    return var1;
 })();

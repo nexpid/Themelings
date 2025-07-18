@@ -1,166 +1,166 @@
 // app/modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo, argBar) { // Original name: toPermissionKey
-        entity = global;
-        entity = entity.HermesInternal;
-        report = entity.concat;
-        tangon = '';
-        zuuluu = argFoo;
-        michal = ':';
-        entity = argBar;
-        entity = report.bind(tangon)(zuuluu, michal, entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function toPermissionKey(arg1, arg2) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var5 = var1.concat;
+        var4 = '';
+        var3 = arg1;
+        var2 = ':';
+        var1 = arg2;
+        var1 = var5.bind(var4)(var3, var2, var1);
+        return var1;
     };
-    var _closure1_slot3 = tangon;
-    entity = function(argFoo, argBar) { // Original name: commandPermissions
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot3 = var4;
+    var1 = function commandPermissions(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            offset = argBar;
-            entity = {};
-            michal = global;
-            tangon = michal.Object;
-            zuuluu = tangon.entries;
-            michal = argFoo;
-            verify = zuuluu.bind(tangon)(michal);
-            michal = verify.length;
-            option = 0;
-            michal = option < michal;
-            oscard = undefined;
-            report = 2;
-            tangon = 1;
-            zuuluu = 0;
-            if(!michal) { _fun00002_ip = 110; continue _fun00001 }
+            var10 = arg2;
+            var1 = {};
+            var2 = global;
+            var4 = var2.Object;
+            var3 = var4.entries;
+            var2 = arg1;
+            var9 = var3.bind(var4)(var2);
+            var2 = var9.length;
+            var8 = 0;
+            var2 = var8 < var2;
+            var6 = undefined;
+            var5 = 2;
+            var4 = 1;
+            var3 = 0;
+            if(!var2) { _fun0001_ip = 110; continue _fun0001 }
  54:
-            yankee = verify[zuuluu];
-            michal = _closure1_slot2;
-            michal = michal.bind(oscard)(yankee, report);
-            yankee = michal[option];
-            michal = michal[tangon];
-            foxtra = offset.includes;
-            romeon = michal.type;
-            romeon = foxtra.bind(offset)(romeon);
-            if(!romeon) { _fun00002_ip = 98; continue _fun00001 }
+            var11 = var9[var3];
+            var2 = _closure1_slot2;
+            var2 = var2.bind(var6)(var11, var5);
+            var11 = var2[var8];
+            var2 = var2[var4];
+            var13 = var10.includes;
+            var12 = var2.type;
+            var12 = var13.bind(var10)(var12);
+            if(!var12) { _fun0001_ip = 98; continue _fun0001 }
  94:
-            entity[yankee] = michal;
+            var1[var11] = var2;
  98:
-            zuuluu = zuuluu + 1;
-            michal = verify.length;
-            if(zuuluu < michal) { _fun00002_ip = 54; continue _fun00001 }
+            var3 = var3 + 1;
+            var2 = var9.length;
+            if(var3 < var2) { _fun0001_ip = 54; continue _fun0001 }
  110:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argBaz;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar) { // Original name: commandName
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native3;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_settings/integrations/permission/IntegrationPermissionUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function commandName(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argBar;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            entity = tangon.bind(entity)(michal);
-            entity = entity.ApplicationCommandType;
-            tangon = entity.CHAT;
-            michal = argFoo;
-            entity = zuuluu;
-            if(!(michal === tangon)) { _fun00004_ip = 58; continue _fun00003 }
+            var3 = arg2;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var2);
+            var1 = var1.ApplicationCommandType;
+            var4 = var1.CHAT;
+            var2 = arg1;
+            var1 = var3;
+            if(!(var2 === var4)) { _fun0002_ip = 58; continue _fun0002 }
  50:
-            michal = '/';
-            entity = michal + zuuluu;
+            var2 = '/';
+            var1 = var2 + var3;
  58:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['commandName'] = report;
-    report = function(argFoo) { // Original name: commandPermissionChannels
-        tangon = _closure1_slot4;
-        michal = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.ApplicationCommandPermissionType;
-        entity = entity.CHANNEL;
-        michal = new Array(1);
-        michal[0] = entity;
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+    var3['commandName'] = var5;
+    var5 = function commandPermissionChannels(arg1) {
+        var4 = _closure1_slot4;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.ApplicationCommandPermissionType;
+        var1 = var1.CHANNEL;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = arg1;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['commandPermissionChannels'] = report;
-    report = function(argFoo) { // Original name: commandPermissionMembersRoles
-        tangon = _closure1_slot4;
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 2;
-        michal = oscard[entity];
-        zuuluu = undefined;
-        michal = report.bind(zuuluu)(michal);
-        michal = michal.ApplicationCommandPermissionType;
-        golfie = michal.ROLE;
-        michal = new Array(2);
-        michal[0] = golfie;
-        entity = oscard[entity];
-        entity = report.bind(zuuluu)(entity);
-        entity = entity.ApplicationCommandPermissionType;
-        entity = entity.USER;
-        michal[1] = entity;
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(entity, michal);
-        return entity;
+    var3['commandPermissionChannels'] = var5;
+    var5 = function commandPermissionMembersRoles(arg1) {
+        var4 = _closure1_slot4;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 2;
+        var2 = var6[var1];
+        var3 = undefined;
+        var2 = var5.bind(var3)(var2);
+        var2 = var2.ApplicationCommandPermissionType;
+        var7 = var2.ROLE;
+        var2 = new Array(2);
+        var2[0] = var7;
+        var1 = var6[var1];
+        var1 = var5.bind(var3)(var1);
+        var1 = var1.ApplicationCommandPermissionType;
+        var1 = var1.USER;
+        var2[1] = var1;
+        var1 = arg1;
+        var1 = var4.bind(var3)(var1, var2);
+        return var1;
     };
-    zuuluu['commandPermissionMembersRoles'] = report;
-    zuuluu['toPermissionKey'] = tangon;
-    michal = function(argFoo) { // Original name: keyPermissions
-        report = argFoo;
-        entity = global;
-        zuuluu = entity.Object;
-        michal = zuuluu.fromEntries;
-        tangon = report.map;
-        entity = function(argFoo) {
-            michal = argFoo;
-            report = _closure1_slot3;
-            tangon = michal.id;
-            zuuluu = michal.type;
-            entity = undefined;
-            zuuluu = report.bind(entity)(tangon, zuuluu);
-            entity = new Array(2);
-            entity[0] = zuuluu;
-            entity[1] = michal;
-            return entity;
+    var3['commandPermissionMembersRoles'] = var5;
+    var3['toPermissionKey'] = var4;
+    var2 = function keyPermissions(arg1) {
+        var5 = arg1;
+        var1 = global;
+        var3 = var1.Object;
+        var2 = var3.fromEntries;
+        var4 = var5.map;
+        var1 = function(arg1) {
+            var2 = arg1;
+            var5 = _closure1_slot3;
+            var4 = var2.id;
+            var3 = var2.type;
+            var1 = undefined;
+            var3 = var5.bind(var1)(var4, var3);
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
         };
-        entity = tangon.bind(report)(entity);
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        var1 = var4.bind(var5)(var1);
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['keyPermissions'] = michal;
-    return entity;
+    var3['keyPermissions'] = var2;
+    return var1;
 })();

@@ -1,165 +1,165 @@
 // app/modules/gif_picker/FavoriteGIFHooks.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    tangon = function() { // Original name: useFavoriteGIFs
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var4 = function useFavoriteGIFs() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.useFrecencySettings;
-            zuuluu = zuuluu.bind(tangon)();
-            tangon = zuuluu.favoriteGifs;
-            zuuluu = null;
-            report = zuuluu == tangon;
-            if(report) { _fun00002_ip = 56; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 1;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.useFrecencySettings;
+            var3 = var3.bind(var4)();
+            var4 = var3.favoriteGifs;
+            var3 = null;
+            var5 = var3 == var4;
+            if(var5) { _fun0001_ip = 56; continue _fun0001 }
  50:
-            entity = tangon.gifs;
+            var1 = var4.gifs;
  56:
-            if(!(zuuluu == entity)) { _fun00002_ip = 64; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 64; continue _fun0001 }
  60:
-            entity = _closure1_slot4;
+            var1 = _closure1_slot4;
  64:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot5 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = {};
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/gif_picker/FavoriteGIFHooks.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['useFavoriteGIFs'] = tangon;
-    tangon = function(argFoo) { // Original name: useSortedFavoriteGIFs
-        report = argFoo;
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot5;
-        zuuluu = undefined;
-        oscard = tangon.bind(zuuluu)();
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            michal = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(entity);
-            entity = _closure2_slot1;
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.map;
-            entity = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = {};
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/gif_picker/FavoriteGIFHooks.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['useFavoriteGIFs'] = var4;
+    var4 = function useSortedFavoriteGIFs(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot5;
+        var3 = undefined;
+        var6 = var4.bind(var3)();
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot3;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 2;
+            var1 = var3[var1];
+            var3 = undefined;
+            var2 = var2.bind(var3)(var1);
+            var1 = _closure2_slot1;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.map;
+            var1 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = argFoo;
-                    option = argBar;
-                    entity = {};
-                    offset = entity;
-                    verify = michal;
-                    zuuluu = copyDataProperties(offset, verify);
-                    zuuluu = 'url';
-                    entity[zuuluu] = option;
-                    zuuluu = _closure2_slot0;
-                    tangon = null;
-                    oscard = tangon == zuuluu;
-                    golfie = undefined;
-                    zuuluu = undefined;
-                    if(oscard) { _fun00004_ip = 63; continue _fun00003 }
+                    var2 = arg1;
+                    var8 = arg2;
+                    var1 = {};
+                    var10 = var1;
+                    var9 = var2;
+                    var3 = copyDataProperties(var10, var9);
+                    var3 = 'url';
+                    var1[var3] = var8;
+                    var3 = _closure2_slot0;
+                    var4 = null;
+                    var6 = var4 == var3;
+                    var7 = undefined;
+                    var3 = undefined;
+                    if(var6) { _fun0002_ip = 63; continue _fun0002 }
  47:
-                    oscard = _closure2_slot0;
-                    report = michal.src;
-                    zuuluu = oscard.bind(golfie)(report, option);
+                    var6 = _closure2_slot0;
+                    var5 = var2.src;
+                    var3 = var6.bind(var7)(var5, var8);
  63:
-                    if(!(tangon == zuuluu)) { _fun00004_ip = 73; continue _fun00003 }
+                    if(!(var4 == var3)) { _fun0002_ip = 73; continue _fun0002 }
  67:
-                    zuuluu = michal.src;
+                    var3 = var2.src;
  73:
-                    michal = 'src';
-                    entity[michal] = zuuluu;
-                    return entity;
+                    var2 = 'src';
+                    var1[var2] = var3;
+                    return var1;
                 }
             };
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.sortBy;
-            entity = 'order';
-            michal = michal.bind(zuuluu)(entity);
-            entity = michal.reverse;
-            michal = entity.bind(michal)();
-            entity = michal.value;
-            entity = entity.bind(michal)();
-            return entity;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.sortBy;
+            var1 = 'order';
+            var2 = var2.bind(var3)(var1);
+            var1 = var2.reverse;
+            var2 = var1.bind(var2)();
+            var1 = var2.value;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useSortedFavoriteGIFs'] = tangon;
-    tangon = function() { // Original name: useShouldShowTooltipOnFavorite
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useSortedFavoriteGIFs'] = var4;
+    var4 = function useShouldShowTooltipOnFavorite() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 1;
-            entity = michal[entity];
-            michal = undefined;
-            zuuluu = zuuluu.bind(michal)(entity);
-            entity = zuuluu.useFrecencySettings;
-            entity = entity.bind(zuuluu)();
-            zuuluu = entity.favoriteGifs;
-            entity = null;
-            tangon = entity == zuuluu;
-            if(tangon) { _fun00006_ip = 56; continue _fun00005 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var1 = var2[var1];
+            var2 = undefined;
+            var3 = var3.bind(var2)(var1);
+            var1 = var3.useFrecencySettings;
+            var1 = var1.bind(var3)();
+            var3 = var1.favoriteGifs;
+            var1 = null;
+            var4 = var1 == var3;
+            if(var4) { _fun0003_ip = 56; continue _fun0003 }
  50:
-            michal = zuuluu.hideTooltip;
+            var2 = var3.hideTooltip;
  56:
-            entity = entity != michal;
-            if(!entity) { _fun00006_ip = 66; continue _fun00005 }
+            var1 = var1 != var2;
+            if(!var1) { _fun0003_ip = 66; continue _fun0003 }
  63:
-            entity = michal;
+            var1 = var2;
  66:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useShouldShowTooltipOnFavorite'] = tangon;
-    michal = function(argFoo) { // Original name: useIsFavoriteGIF
-        michal = _closure1_slot5;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        entity = argFoo;
-        michal = michal[entity];
-        entity = null;
-        entity = entity != michal;
-        return entity;
+    var3['useShouldShowTooltipOnFavorite'] = var4;
+    var2 = function useIsFavoriteGIF(arg1) {
+        var2 = _closure1_slot5;
+        var1 = undefined;
+        var2 = var2.bind(var1)();
+        var1 = arg1;
+        var2 = var2[var1];
+        var1 = null;
+        var1 = var1 != var2;
+        return var1;
     };
-    zuuluu['useIsFavoriteGIF'] = michal;
-    return entity;
+    var3['useIsFavoriteGIF'] = var2;
+    return var1;
 })();

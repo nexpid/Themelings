@@ -1,191 +1,191 @@
 // app/modules/video_calls/useMuteStates.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: getMuteStates
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getMuteStates(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.channel;
-            romeon = entity.authenticationStore;
-            zuuluu = undefined;
-            if(!(romeon === zuuluu)) { _fun00002_ip = 27; continue _fun00001 }
+            var1 = arg1;
+            var9 = var1.channel;
+            var12 = var1.authenticationStore;
+            var3 = undefined;
+            if(!(var12 === var3)) { _fun0001_ip = 27; continue _fun0001 }
  20:
-            romeon = _closure1_slot3;
+            var12 = _closure1_slot3;
  27:
-            yankee = entity.voiceStateStore;
-            if(!(yankee === zuuluu)) { _fun00002_ip = 44; continue _fun00001 }
+            var11 = var1.voiceStateStore;
+            if(!(var11 === var3)) { _fun0001_ip = 44; continue _fun0001 }
  37:
-            yankee = _closure1_slot6;
+            var11 = _closure1_slot6;
  44:
-            oscard = entity.mediaEngineStore;
-            if(!(oscard === zuuluu)) { _fun00002_ip = 61; continue _fun00001 }
+            var6 = var1.mediaEngineStore;
+            if(!(var6 === var3)) { _fun0001_ip = 61; continue _fun0001 }
  54:
-            oscard = _closure1_slot4;
+            var6 = _closure1_slot4;
  61:
-            option = entity.permissionStore;
-            if(!(option === zuuluu)) { _fun00002_ip = 78; continue _fun00001 }
+            var8 = var1.permissionStore;
+            if(!(var8 === var3)) { _fun0001_ip = 78; continue _fun0001 }
  71:
-            option = _closure1_slot5;
+            var8 = _closure1_slot5;
  78:
-            golfie = entity.impersonateStore;
-            if(!(golfie === zuuluu)) { _fun00002_ip = 95; continue _fun00001 }
+            var7 = var1.impersonateStore;
+            if(!(var7 === var3)) { _fun0001_ip = 95; continue _fun0001 }
  88:
-            golfie = _closure1_slot2;
+            var7 = _closure1_slot2;
  95:
-            michal = null;
-            entity = michal != verify;
-            tangon = null;
-            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
+            var2 = null;
+            var1 = var2 != var9;
+            var4 = null;
+            if(!var1) { _fun0001_ip = 138; continue _fun0001 }
  106:
-            offset = yankee.getVoiceState;
-            entity = verify.getGuildId;
-            report = entity.bind(verify)();
-            entity = romeon.getId;
-            entity = entity.bind(romeon)();
-            tangon = offset.bind(yankee)(report, entity);
+            var10 = var11.getVoiceState;
+            var1 = var9.getGuildId;
+            var5 = var1.bind(var9)();
+            var1 = var12.getId;
+            var1 = var1.bind(var12)();
+            var4 = var10.bind(var11)(var5, var1);
  138:
-            entity = oscard.isSelfMute;
-            report = entity.bind(oscard)();
-            if(report) { _fun00002_ip = 161; continue _fun00001 }
+            var1 = var6.isSelfMute;
+            var5 = var1.bind(var6)();
+            if(var5) { _fun0001_ip = 161; continue _fun0001 }
  151:
-            entity = oscard.isSelfMutedTemporarily;
-            report = entity.bind(oscard)();
+            var1 = var6.isSelfMutedTemporarily;
+            var5 = var1.bind(var6)();
  161:
-            entity = michal == verify;
-            oscard = undefined;
-            if(entity) { _fun00002_ip = 180; continue _fun00001 }
+            var1 = var2 == var9;
+            var6 = undefined;
+            if(var1) { _fun0001_ip = 180; continue _fun0001 }
  170:
-            entity = verify.getGuildId;
-            oscard = entity.bind(verify)();
+            var1 = var9.getGuildId;
+            var6 = var1.bind(var9)();
  180:
-            entity = golfie.isViewingRoles;
-            oscard = entity.bind(golfie)(oscard);
-            if(!oscard) { _fun00002_ip = 222; continue _fun00001 }
+            var1 = var7.isViewingRoles;
+            var6 = var1.bind(var7)(var6);
+            if(!var6) { _fun0001_ip = 222; continue _fun0001 }
  194:
-            golfie = option.can;
-            entity = _closure1_slot7;
-            entity = entity.SPEAK;
-            entity = golfie.bind(option)(entity, verify);
-            oscard = !entity;
+            var7 = var8.can;
+            var1 = _closure1_slot7;
+            var1 = var1.SPEAK;
+            var1 = var7.bind(var8)(var1, var9);
+            var6 = !var1;
  222:
-            entity = {};
-            entity['selfMute'] = report;
-            golfie = michal == tangon;
-            report = undefined;
-            if(golfie) { _fun00002_ip = 244; continue _fun00001 }
+            var1 = {};
+            var1['selfMute'] = var5;
+            var7 = var2 == var4;
+            var5 = undefined;
+            if(var7) { _fun0001_ip = 244; continue _fun0001 }
  238:
-            report = tangon.suppress;
+            var5 = var4.suppress;
  244:
-            if(report) { _fun00002_ip = 250; continue _fun00001 }
+            if(var5) { _fun0001_ip = 250; continue _fun0001 }
  247:
-            report = oscard;
+            var5 = var6;
  250:
-            entity['suppress'] = report;
-            report = michal == tangon;
-            zuuluu = undefined;
-            if(report) { _fun00002_ip = 270; continue _fun00001 }
+            var1['suppress'] = var5;
+            var5 = var2 == var4;
+            var3 = undefined;
+            if(var5) { _fun0001_ip = 270; continue _fun0001 }
  264:
-            zuuluu = tangon.mute;
+            var3 = var4.mute;
  270:
-            michal = michal != zuuluu;
-            if(!michal) { _fun00002_ip = 280; continue _fun00001 }
+            var2 = var2 != var3;
+            if(!var2) { _fun0001_ip = 280; continue _fun0001 }
  277:
-            michal = zuuluu;
+            var2 = var3;
  280:
-            entity['mute'] = michal;
-            return entity;
+            var1['mute'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot8 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot5 = report;
-    report = 4;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot6 = report;
-    report = 5;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.Permissions;
-    var _closure1_slot7 = report;
-    report = 7;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/video_calls/useMuteStates.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useMuteStates
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 6;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.useStateFromStoresObject;
-        oscard = _closure1_slot3;
-        michal = new Array(5);
-        michal[0] = oscard;
-        oscard = _closure1_slot6;
-        michal[1] = oscard;
-        oscard = _closure1_slot4;
-        michal[2] = oscard;
-        oscard = _closure1_slot5;
-        michal[3] = oscard;
-        report = _closure1_slot2;
-        michal[4] = report;
-        entity = function() {
-            zuuluu = _closure1_slot8;
-            michal = {};
-            tangon = _closure2_slot0;
-            michal['channel'] = tangon;
-            tangon = _closure1_slot3;
-            michal['authenticationStore'] = tangon;
-            tangon = _closure1_slot6;
-            michal['voiceStateStore'] = tangon;
-            tangon = _closure1_slot4;
-            michal['mediaEngineStore'] = tangon;
-            tangon = _closure1_slot5;
-            michal['permissionStore'] = tangon;
-            entity = _closure1_slot2;
-            michal['impersonateStore'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot8 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Permissions;
+    var _closure1_slot7 = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/video_calls/useMuteStates.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useMuteStates(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var2 = 6;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.useStateFromStoresObject;
+        var6 = _closure1_slot3;
+        var2 = new Array(5);
+        var2[0] = var6;
+        var6 = _closure1_slot6;
+        var2[1] = var6;
+        var6 = _closure1_slot4;
+        var2[2] = var6;
+        var6 = _closure1_slot5;
+        var2[3] = var6;
+        var5 = _closure1_slot2;
+        var2[4] = var5;
+        var1 = function() {
+            var3 = _closure1_slot8;
+            var2 = {};
+            var4 = _closure2_slot0;
+            var2['channel'] = var4;
+            var4 = _closure1_slot3;
+            var2['authenticationStore'] = var4;
+            var4 = _closure1_slot6;
+            var2['voiceStateStore'] = var4;
+            var4 = _closure1_slot4;
+            var2['mediaEngineStore'] = var4;
+            var4 = _closure1_slot5;
+            var2['permissionStore'] = var4;
+            var1 = _closure1_slot2;
+            var2['impersonateStore'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getMuteStates'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getMuteStates'] = var2;
+    return var1;
 })();

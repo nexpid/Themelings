@@ -1,66 +1,66 @@
 // app/modules/applications/ApplicationPresenceUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    golfie = entity.Object;
-    oscard = golfie.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(golfie)(zuuluu, entity, tangon);
-    entity = 0;
-    oscard = report[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(oscard);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/applications/ApplicationPresenceUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: shouldDisableUserPresenceInChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = 0;
+    var6 = var5[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var6);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/applications/ApplicationPresenceUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function shouldDisableUserPresenceInChannel(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getChannel;
-            entity = argBar;
-            tangon = zuuluu.bind(tangon)(entity);
-            zuuluu = null;
-            entity = zuuluu != tangon;
-            if(!entity) { _fun00002_ip = 44; continue _fun00001 }
+            var5 = arg1;
+            var _closure2_slot0 = var5;
+            var4 = _closure1_slot0;
+            var3 = var4.getChannel;
+            var1 = arg2;
+            var4 = var3.bind(var4)(var1);
+            var3 = null;
+            var1 = var3 != var4;
+            if(!var1) { _fun0001_ip = 44; continue _fun0001 }
  38:
-            entity = report.bot;
+            var1 = var5.bot;
  44:
-            if(!entity) { _fun00002_ip = 57; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 57; continue _fun0001 }
  47:
-            report = tangon.isPrivate;
-            entity = report.bind(tangon)();
+            var5 = var4.isPrivate;
+            var1 = var5.bind(var4)();
  57:
-            if(!entity) { _fun00002_ip = 85; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 85; continue _fun0001 }
  60:
-            report = tangon.rawRecipients;
-            tangon = report.find;
-            michal = function(argFoo) {
-                entity = argFoo;
-                michal = entity.id;
-                entity = _closure2_slot0;
-                entity = entity.id;
-                entity = michal === entity;
-                return entity;
+            var5 = var4.rawRecipients;
+            var4 = var5.find;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 === var1;
+                return var1;
             };
-            michal = tangon.bind(report)(michal);
-            entity = zuuluu == michal;
+            var2 = var4.bind(var5)(var2);
+            var1 = var3 == var2;
  85:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['shouldDisableUserPresenceInChannel'] = michal;
-    return entity;
+    var3['shouldDisableUserPresenceInChannel'] = var2;
+    return var1;
 })();

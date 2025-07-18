@@ -1,348 +1,348 @@
 // app/modules/guilds_bar/native/hooks/useGuildsBarCreatePendingFolderNode.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            var _closure2_slot0 = zuuluu;
-            report = global;
-            michal = report.Symbol;
-            tangon = 'undefined';
-            michal = typeof michal;
-            michal = tangon !== michal;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var5 = global;
+            var2 = var5.Symbol;
+            var4 = 'undefined';
+            var2 = typeof var2;
+            var2 = var4 !== var2;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  30:
-            tangon = report.Symbol;
-            tangon = tangon.iterator;
-            michal = zuuluu[tangon];
+            var4 = var5.Symbol;
+            var4 = var4.iterator;
+            var2 = var3[var4];
  45:
-            if(michal) { _fun00002_ip = 54; continue _fun00001 }
+            if(var2) { _fun0001_ip = 54; continue _fun0001 }
  48:
-            michal = zuuluu.@@iterator;
+            var2 = var3.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+            if(var2) { _fun0001_ip = 344; continue _fun0001 }
  60:
-            oscard = report.Array;
-            tangon = oscard.isArray;
-            oscard = tangon.bind(oscard)(zuuluu);
-            tangon = michal;
-            if(oscard) { _fun00002_ip = 322; continue _fun00001 }
+            var6 = var5.Array;
+            var4 = var6.isArray;
+            var6 = var4.bind(var6)(var3);
+            var4 = var2;
+            if(var6) { _fun0001_ip = 322; continue _fun0001 }
  85:
-            option = undefined;
-            oscard = undefined;
-            if(!zuuluu) { _fun00002_ip = 282; continue _fun00001 }
+            var8 = undefined;
+            var6 = undefined;
+            if(!var3) { _fun0001_ip = 282; continue _fun0001 }
  95:
-            verify = 'string';
-            golfie = typeof zuuluu;
-            if(!(verify !== golfie)) { _fun00002_ip = 269; continue _fun00001 }
+            var9 = 'string';
+            var7 = typeof var3;
+            if(!(var9 !== var7)) { _fun0001_ip = 269; continue _fun0001 }
  109:
-            golfie = {};
-            verify = golfie.toString;
-            golfie = verify.call;
-            yankee = golfie.bind(verify)(zuuluu);
-            offset = yankee.slice;
-            verify = 8;
-            golfie = -1;
-            verify = offset.bind(yankee)(verify, golfie);
-            golfie = 'Object';
-            golfie = golfie === verify;
-            if(!golfie) { _fun00002_ip = 162; continue _fun00001 }
+            var7 = {};
+            var9 = var7.toString;
+            var7 = var9.call;
+            var11 = var7.bind(var9)(var3);
+            var10 = var11.slice;
+            var9 = 8;
+            var7 = -1;
+            var9 = var10.bind(var11)(var9, var7);
+            var7 = 'Object';
+            var7 = var7 === var9;
+            if(!var7) { _fun0001_ip = 162; continue _fun0001 }
  157:
-            golfie = zuuluu.constructor;
+            var7 = var3.constructor;
  162:
-            offset = verify;
-            if(!golfie) { _fun00002_ip = 178; continue _fun00001 }
+            var10 = var9;
+            if(!var7) { _fun0001_ip = 178; continue _fun0001 }
  168:
-            golfie = zuuluu.constructor;
-            offset = golfie.name;
+            var7 = var3.constructor;
+            var10 = var7.name;
  178:
-            golfie = 'Map';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Map';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  186:
-            golfie = 'Set';
-            if(!(golfie !== offset)) { _fun00002_ip = 248; continue _fun00001 }
+            var7 = 'Set';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
  194:
-            golfie = 'Arguments';
-            if(!(golfie !== offset)) { _fun00002_ip = 233; continue _fun00001 }
+            var7 = 'Arguments';
+            if(!(var7 !== var10)) { _fun0001_ip = 233; continue _fun0001 }
  204:
-            verify = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
-            golfie = verify.test;
-            verify = golfie.bind(verify)(offset);
-            golfie = undefined;
-            if(!verify) { _fun00002_ip = 246; continue _fun00001 }
+            var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
+            var7 = var9.test;
+            var9 = var7.bind(var9)(var10);
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            verify = _closure1_slot7;
-            golfie = verify.bind(option)(zuuluu, option);
+            var9 = _closure1_slot7;
+            var7 = var9.bind(var8)(var3, var8);
  246:
-            _fun00002_ip = 264; continue _fun00001;
+            _fun0001_ip = 264; continue _fun0001;
  248:
-            offset = report.Array;
-            verify = offset.from;
-            golfie = verify.bind(offset)(zuuluu);
+            var10 = var5.Array;
+            var9 = var10.from;
+            var7 = var9.bind(var10)(var3);
  264:
-            oscard = golfie;
-            _fun00002_ip = 282; continue _fun00001;
+            var6 = var7;
+            _fun0001_ip = 282; continue _fun0001;
  269:
-            golfie = _closure1_slot7;
-            oscard = golfie.bind(option)(zuuluu, option);
+            var7 = _closure1_slot7;
+            var6 = var7.bind(var8)(var3, var8);
  282:
-            tangon = oscard;
-            if(tangon) { _fun00002_ip = 322; continue _fun00001 }
+            var4 = var6;
+            if(var4) { _fun0001_ip = 322; continue _fun0001 }
  288:
-            golfie = report.TypeError;
-            report = golfie.prototype;
-            oscard = Object.create(report, {constructor: {value: golfie}});
-            foxtra = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
-            backup = oscard;
-            report = new backup[golfie](foxtra, romeon);
-            report = report instanceof Object ? report : oscard;
-            throw report;
+            var7 = var5.TypeError;
+            var5 = var7.prototype;
+            var6 = Object.create(var5, {constructor: {value: var7}});
+            var13 = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
+            var14 = var6;
+            var5 = new var14[var7](var13, var12);
+            var5 = var5 instanceof Object ? var5 : var6;
+            throw var5;
  322:
-            if(!tangon) { _fun00002_ip = 329; continue _fun00001 }
+            if(!var4) { _fun0001_ip = 329; continue _fun0001 }
  325:
-            _closure2_slot0 = tangon;
+            _closure2_slot0 = var4;
  329:
-            tangon = 0;
-            var _closure2_slot1 = tangon;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var4 = 0;
+            var _closure2_slot1 = var4;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    michal = _closure2_slot1;
-                    entity = _closure2_slot0;
-                    entity = entity.length;
-                    if(!(!(michal >= entity))) { _fun00004_ip = 56; continue _fun00003 }
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var1 = var1.length;
+                    if(!(!(var2 >= var1))) { _fun0002_ip = 56; continue _fun0002 }
  20:
-                    entity = {};
-                    michal = false;
-                    entity['done'] = michal;
-                    zuuluu = _closure2_slot0;
-                    michal = _closure2_slot1;
-                    michal = parseFloat(michal);
-                    tangon = michal + 1;
-                    _closure2_slot1 = tangon;
-                    michal = zuuluu[michal];
-                    entity['value'] = michal;
-                    _fun00004_ip = 67; continue _fun00003;
+                    var1 = {};
+                    var2 = false;
+                    var1['done'] = var2;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var2 = parseFloat(var2);
+                    var4 = var2 + 1;
+                    _closure2_slot1 = var4;
+                    var2 = var3[var2];
+                    var1['value'] = var2;
+                    _fun0002_ip = 67; continue _fun0002;
  56:
-                    michal = {};
-                    zuuluu = true;
-                    michal['done'] = zuuluu;
-                    entity = michal;
+                    var2 = {};
+                    var3 = true;
+                    var2['done'] = var3;
+                    var1 = var2;
  67:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
  344:
-            entity = michal.call;
-            zuuluu = entity.bind(michal)(zuuluu);
-            michal = zuuluu.next;
-            entity = michal.bind;
-            entity = entity.bind(michal)(zuuluu);
-            return entity;
+            var1 = var2.call;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.next;
+            var1 = var2.bind;
+            var1 = var1.bind(var2)(var3);
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _arrayLikeToArray(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            tangon = argFoo;
-            entity = null;
-            zuuluu = undefined;
-            entity = entity == zuuluu;
-            if(entity) { _fun00006_ip = 23; continue _fun00005 }
+            var4 = arg1;
+            var1 = null;
+            var3 = undefined;
+            var1 = var1 == var3;
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
  14:
-            michal = tangon.length;
-            entity = zuuluu > michal;
+            var2 = var4.length;
+            var1 = var3 > var2;
  23:
-            michal = undefined;
-            if(!entity) { _fun00006_ip = 33; continue _fun00005 }
+            var2 = undefined;
+            if(!var1) { _fun0003_ip = 33; continue _fun0003 }
  28:
-            michal = tangon.length;
+            var2 = var4.length;
  33:
-            entity = global;
-            entity = entity.Array;
-            entity = entity.bind(zuuluu)(michal);
-            zuuluu = 0;
-            report = zuuluu < michal;
-            if(!report) { _fun00006_ip = 70; continue _fun00005 }
+            var1 = global;
+            var1 = var1.Array;
+            var1 = var1.bind(var3)(var2);
+            var3 = 0;
+            var5 = var3 < var2;
+            if(!var5) { _fun0003_ip = 70; continue _fun0003 }
  55:
-            report = tangon[zuuluu];
-            entity[zuuluu] = report;
-            zuuluu = zuuluu + 1;
-            if(zuuluu < michal) { _fun00006_ip = 55; continue _fun00005 }
+            var5 = var4[var3];
+            var1[var3] = var5;
+            var3 = var3 + 1;
+            if(var3 < var2) { _fun0003_ip = 55; continue _fun0003 }
  70:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guilds_bar/native/hooks/useGuildsBarCreatePendingFolderNode.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useGuildsBarCreatePendingFolderNode
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guilds_bar/native/hooks/useGuildsBarCreatePendingFolderNode.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useGuildsBarCreatePendingFolderNode() {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot2;
-            michal = 3;
-            tangon = report[michal];
-            golfie = undefined;
-            offset = zuuluu.bind(golfie)(tangon);
-            verify = offset.useStateFromStores;
-            tangon = _closure1_slot4;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
-                entity = _closure1_slot4;
-                entity = entity.hasFetchedRequestToJoinGuilds;
-                return entity;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 3;
+            var4 = var5[var2];
+            var7 = undefined;
+            var10 = var3.bind(var7)(var4);
+            var9 = var10.useStateFromStores;
+            var4 = _closure1_slot4;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var1 = _closure1_slot4;
+                var1 = var1.hasFetchedRequestToJoinGuilds;
+                return var1;
             };
-            verify = verify.bind(offset)(oscard, tangon);
-            var _closure2_slot0 = verify;
-            oscard = _closure1_slot1;
-            tangon = 4;
-            tangon = report[tangon];
-            tangon = oscard.bind(golfie)(tangon);
-            tangon = tangon.bind(golfie)();
-            michal = report[michal];
-            oscard = zuuluu.bind(golfie)(michal);
-            report = oscard.useStateFromStores;
-            michal = _closure1_slot5;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
-                zuuluu = _closure1_slot5;
-                michal = zuuluu.isFolderExpanded;
-                report = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 5;
-                tangon = tangon[entity];
-                entity = undefined;
-                entity = report.bind(entity)(tangon);
-                entity = entity.SpecialGuildsNodeIds;
-                entity = entity.PENDING_JOIN_REQUESTS_FOLDER;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = var9.bind(var10)(var6, var4);
+            var _closure2_slot0 = var9;
+            var6 = _closure1_slot1;
+            var4 = 4;
+            var4 = var5[var4];
+            var4 = var6.bind(var7)(var4);
+            var4 = var4.bind(var7)();
+            var2 = var5[var2];
+            var6 = var3.bind(var7)(var2);
+            var5 = var6.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.isFolderExpanded;
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 5;
+                var4 = var4[var1];
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4);
+                var1 = var1.SpecialGuildsNodeIds;
+                var1 = var1.PENDING_JOIN_REQUESTS_FOLDER;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            zuuluu = report.bind(oscard)(zuuluu, michal);
-            oscard = _closure1_slot3;
-            report = oscard.useEffect;
-            michal = new Array(1);
-            michal[0] = verify;
-            entity = function() {
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+            var3 = var5.bind(var6)(var3, var2);
+            var6 = _closure1_slot3;
+            var5 = var6.useEffect;
+            var2 = new Array(1);
+            var2[0] = var9;
+            var1 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    entity = _closure2_slot0;
-                    if(entity) { _fun00010_ip = 45; continue _fun00009 }
+                    var1 = _closure2_slot0;
+                    if(var1) { _fun0005_ip = 45; continue _fun0005 }
  10:
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 6;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    entity = michal.fetchRequestToJoinGuilds;
-                    entity = entity.bind(michal)();
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.fetchRequestToJoinGuilds;
+                    var1 = var1.bind(var2)();
  45:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            entity = report.bind(oscard)(entity, michal);
-            michal = tangon.length;
-            entity = 0;
-            if(!(!(michal > entity))) { _fun00008_ip = 177; continue _fun00007 }
+            var1 = var5.bind(var6)(var1, var2);
+            var2 = var4.length;
+            var1 = 0;
+            if(!(!(var2 > var1))) { _fun0004_ip = 177; continue _fun0004 }
  161:
-            entity = {'expanded': false, 'pendingFolderNode': null};
-            return entity;
+            var1 = {'expanded': false, 'pendingFolderNode': null};
+            return var1;
  177:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            oscard = 7;
-            entity = foxtra[oscard];
-            report = romeon.bind(golfie)(entity);
-            michal = report.createFolderNode;
-            entity = {};
-            verify = 5;
-            verify = foxtra[verify];
-            verify = romeon.bind(golfie)(verify);
-            verify = verify.SpecialGuildsNodeIds;
-            verify = verify.PENDING_JOIN_REQUESTS_FOLDER;
-            entity['folderId'] = verify;
-            verify = 8;
-            offset = foxtra[verify];
-            offset = romeon.bind(golfie)(offset);
-            yankee = offset.intl;
-            offset = yankee.string;
-            verify = foxtra[verify];
-            verify = romeon.bind(golfie)(verify);
-            verify = verify.t;
-            verify = verify.scsU+v;
-            verify = offset.bind(yankee)(verify);
-            entity['folderName'] = verify;
-            entity['expanded'] = zuuluu;
-            entity['guildIds'] = tangon;
-            michal = michal.bind(report)(entity);
-            entity = _closure1_slot6;
-            report = entity.bind(golfie)(tangon);
-            tangon = report.bind(golfie)();
-            entity = tangon.done;
-            if(entity) { _fun00008_ip = 391; continue _fun00007 }
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var6 = 7;
+            var1 = var13[var6];
+            var5 = var12.bind(var7)(var1);
+            var2 = var5.createFolderNode;
+            var1 = {};
+            var9 = 5;
+            var9 = var13[var9];
+            var9 = var12.bind(var7)(var9);
+            var9 = var9.SpecialGuildsNodeIds;
+            var9 = var9.PENDING_JOIN_REQUESTS_FOLDER;
+            var1['folderId'] = var9;
+            var9 = 8;
+            var10 = var13[var9];
+            var10 = var12.bind(var7)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var9 = var13[var9];
+            var9 = var12.bind(var7)(var9);
+            var9 = var9.t;
+            var9 = var9.scsU+v;
+            var9 = var10.bind(var11)(var9);
+            var1['folderName'] = var9;
+            var1['expanded'] = var3;
+            var1['guildIds'] = var4;
+            var2 = var2.bind(var5)(var1);
+            var1 = _closure1_slot6;
+            var5 = var1.bind(var7)(var4);
+            var4 = var5.bind(var7)();
+            var1 = var4.done;
+            if(var1) { _fun0004_ip = 391; continue _fun0004 }
  322:
-            foxtra = tangon.value;
-            offset = michal.children;
-            verify = offset.push;
-            yankee = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[oscard];
-            romeon = yankee.bind(golfie)(entity);
-            yankee = romeon.createGuildNode;
-            entity = michal.id;
-            entity = yankee.bind(romeon)(foxtra, entity);
-            entity = verify.bind(offset)(entity);
-            verify = report.bind(golfie)();
-            entity = verify.done;
-            tangon = verify;
-            if(!entity) { _fun00008_ip = 322; continue _fun00007 }
+            var13 = var4.value;
+            var10 = var2.children;
+            var9 = var10.push;
+            var11 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var6];
+            var12 = var11.bind(var7)(var1);
+            var11 = var12.createGuildNode;
+            var1 = var2.id;
+            var1 = var11.bind(var12)(var13, var1);
+            var1 = var9.bind(var10)(var1);
+            var9 = var5.bind(var7)();
+            var1 = var9.done;
+            var4 = var9;
+            if(!var1) { _fun0004_ip = 322; continue _fun0004 }
  391:
-            entity = {};
-            entity['expanded'] = zuuluu;
-            entity['pendingFolderNode'] = michal;
-            return entity;
+            var1 = {};
+            var1['expanded'] = var3;
+            var1['pendingFolderNode'] = var2;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

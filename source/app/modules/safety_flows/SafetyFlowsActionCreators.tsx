@@ -1,281 +1,281 @@
 // app/modules/safety_flows/SafetyFlowsActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _getCurrentTask
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _getCurrentTask() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 142; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 142; continue _fun0001 }
  10:
-                    zuuluu = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 2;
-                    michal = verify[michal];
-                    option = undefined;
-                    tangon = zuuluu.bind(option)(michal);
-                    zuuluu = tangon.get;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.SAFETY_FLOWS_TASK;
-                    michal['url'] = report;
-                    report = {};
-                    golfie = _closure1_slot0;
-                    oscard = 3;
-                    oscard = verify[oscard];
-                    oscard = golfie.bind(option)(oscard);
-                    oscard = oscard.NetworkActionNames;
-                    oscard = oscard.USER_VERIFY;
-                    report['event'] = oscard;
-                    michal['trackedActionData'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var9[var2];
+                    var8 = undefined;
+                    var4 = var3.bind(var8)(var2);
+                    var3 = var4.get;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.SAFETY_FLOWS_TASK;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var7 = _closure1_slot0;
+                    var6 = 3;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.NetworkActionNames;
+                    var6 = var6.USER_VERIFY;
+                    var5['event'] = var6;
+                    var2['trackedActionData'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=111);
  109:
-                    return michal;
+                    return var2;
  111:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 139; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 139; continue _fun0001 }
  117:
-                    report = michal.status;
-                    tangon = 204;
-                    zuuluu = null;
-                    if(!(tangon !== report)) { _fun00002_ip = 136; continue _fun00001 }
+                    var5 = var2.status;
+                    var4 = 204;
+                    var3 = null;
+                    if(!(var4 !== var5)) { _fun0001_ip = 136; continue _fun0001 }
  131:
-                    zuuluu = michal.body;
+                    var3 = var2.body;
  136:
-                    return zuuluu;
+                    return var3;
  139:
-                    return michal;
+                    return var2;
  142:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = function() { // Original name: _completeTask
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = function _completeTask() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 136; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 136; continue _fun0002 }
  10:
-                    zuuluu = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 2;
-                    michal = verify[michal];
-                    option = undefined;
-                    tangon = zuuluu.bind(option)(michal);
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.SAFETY_FLOWS_TASK;
-                    michal['url'] = report;
-                    report = argFoo;
-                    michal['body'] = report;
-                    report = {};
-                    golfie = _closure1_slot0;
-                    oscard = 3;
-                    oscard = verify[oscard];
-                    oscard = golfie.bind(option)(oscard);
-                    oscard = oscard.NetworkActionNames;
-                    oscard = oscard.USER_VERIFY;
-                    report['event'] = oscard;
-                    michal['trackedActionData'] = report;
-                    report = true;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var9[var2];
+                    var8 = undefined;
+                    var4 = var3.bind(var8)(var2);
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.SAFETY_FLOWS_TASK;
+                    var2['url'] = var5;
+                    var5 = arg1;
+                    var2['body'] = var5;
+                    var5 = {};
+                    var7 = _closure1_slot0;
+                    var6 = 3;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.NetworkActionNames;
+                    var6 = var6.USER_VERIFY;
+                    var5['event'] = var6;
+                    var2['trackedActionData'] = var5;
+                    var5 = true;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=119);
  117:
-                    return michal;
+                    return var2;
  119:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 133; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 133; continue _fun0002 }
  125:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  133:
-                    return michal;
+                    return var2;
  136:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function() { // Original name: _resendVerificationCode
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _resendVerificationCode() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 190; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 190; continue _fun0003 }
  10:
-                    golfie = argFoo;
+                    var7 = arg1;
  13: // try_start_0
-                    zuuluu = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 2;
-                    michal = verify[michal];
-                    option = undefined;
-                    tangon = zuuluu.bind(option)(michal);
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.SAFETY_FLOWS_RESEND_VERIFICATION_CODE;
-                    michal['url'] = report;
-                    report = {};
-                    report['flow_id'] = golfie;
-                    michal['body'] = report;
-                    report = {};
-                    golfie = _closure1_slot0;
-                    oscard = 3;
-                    oscard = verify[oscard];
-                    oscard = golfie.bind(option)(oscard);
-                    oscard = oscard.NetworkActionNames;
-                    oscard = oscard.USER_VERIFY;
-                    report['event'] = oscard;
-                    michal['trackedActionData'] = report;
-                    report = true;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var9[var2];
+                    var8 = undefined;
+                    var4 = var3.bind(var8)(var2);
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.SAFETY_FLOWS_RESEND_VERIFICATION_CODE;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var5['flow_id'] = var7;
+                    var2['body'] = var5;
+                    var5 = {};
+                    var7 = _closure1_slot0;
+                    var6 = 3;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.NetworkActionNames;
+                    var6 = var6.USER_VERIFY;
+                    var5['event'] = var6;
+                    var2['trackedActionData'] = var5;
+                    var5 = true;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=126);
  124:
-                    return michal;
+                    return var2;
  126:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 135; continue _fun00005 }
+                    if(var3) { _fun0003_ip = 135; continue _fun0003 }
  132: // try_end0
-                    return michal;
+                    return var2;
  135:
-                    return michal;
+                    return var2;
  138: // catch_target0
                     CatchBlockStart(arg_register=3);
-                    report = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
-                    michal = 4;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = report.bind(michal)(zuuluu);
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    yankee = zuuluu;
-                    offset = tangon;
-                    michal = new yankee[michal](offset, verify);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    throw michal;
+                    var5 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 4;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var3);
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var11 = var3;
+                    var10 = var4;
+                    var2 = new var11[var2](var10, var9);
+                    var2 = var2 instanceof Object ? var2 : var3;
+                    throw var2;
  190:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/safety_flows/SafetyFlowsActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: getCurrentTask
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot7 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/safety_flows/SafetyFlowsActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getCurrentTask() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getCurrentTask'] = tangon;
-    tangon = function() { // Original name: completeTask
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getCurrentTask'] = var4;
+    var4 = function completeTask() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['completeTask'] = tangon;
-    michal = function() { // Original name: resendVerificationCode
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['completeTask'] = var4;
+    var2 = function resendVerificationCode() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['resendVerificationCode'] = michal;
-    return entity;
+    var3['resendVerificationCode'] = var2;
+    return var1;
 })();

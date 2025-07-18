@@ -1,80 +1,80 @@
 // app/modules/app_startup/awaitExperiments.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Future;
-    golfie = tangon.prototype;
-    golfie = Object.create(golfie, {constructor: {value: tangon}});
-    romeon = golfie;
-    tangon = new romeon[tangon](yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot0 = tangon;
-    tangon = null;
-    var _closure1_slot1 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_startup/awaitExperiments.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: beginLoadedExperimentsTimeout
-        entity = global;
-        tangon = entity.setTimeout;
-        entity = undefined;
-        zuuluu = function() {
-            zuuluu = _closure1_slot0;
-            entity = zuuluu.resolve;
-            entity = entity.bind(zuuluu)();
-            entity = null;
-            _closure1_slot1 = entity;
-            entity = undefined;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Future;
+    var7 = var4.prototype;
+    var7 = Object.create(var7, {constructor: {value: var4}});
+    var12 = var7;
+    var4 = new var12[var4](var11);
+    var4 = var4 instanceof Object ? var4 : var7;
+    var _closure1_slot0 = var4;
+    var4 = null;
+    var _closure1_slot1 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_startup/awaitExperiments.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function beginLoadedExperimentsTimeout() {
+        var1 = global;
+        var4 = var1.setTimeout;
+        var1 = undefined;
+        var3 = function() {
+            var3 = _closure1_slot0;
+            var1 = var3.resolve;
+            var1 = var1.bind(var3)();
+            var1 = null;
+            _closure1_slot1 = var1;
+            var1 = undefined;
+            return var1;
         };
-        michal = 1000;
-        zuuluu = tangon.bind(entity)(zuuluu, michal);
-        _closure1_slot1 = zuuluu;
-        return entity;
+        var2 = 1000;
+        var3 = var4.bind(var1)(var3, var2);
+        _closure1_slot1 = var3;
+        return var1;
     };
-    zuuluu['beginLoadedExperimentsTimeout'] = tangon;
-    tangon = function() { // Original name: onExperimentsLoaded
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var3['beginLoadedExperimentsTimeout'] = var4;
+    var4 = function onExperimentsLoaded() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot1;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 46; continue _fun00001 }
+            var3 = _closure1_slot1;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0001_ip = 46; continue _fun0001 }
  13:
-            zuuluu = _closure1_slot0;
-            michal = zuuluu.resolve;
-            michal = michal.bind(zuuluu)();
-            michal = global;
-            zuuluu = michal.clearTimeout;
-            michal = _closure1_slot1;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
+            var3 = _closure1_slot0;
+            var2 = var3.resolve;
+            var2 = var2.bind(var3)();
+            var2 = global;
+            var3 = var2.clearTimeout;
+            var2 = _closure1_slot1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
  46:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['onExperimentsLoaded'] = tangon;
-    michal = function() { // Original name: getPromise
-        entity = _closure1_slot0;
-        entity = entity.promise;
-        return entity;
+    var3['onExperimentsLoaded'] = var4;
+    var2 = function getPromise() {
+        var1 = _closure1_slot0;
+        var1 = var1.promise;
+        return var1;
     };
-    zuuluu['getPromise'] = michal;
-    return entity;
+    var3['getPromise'] = var2;
+    return var1;
 })();

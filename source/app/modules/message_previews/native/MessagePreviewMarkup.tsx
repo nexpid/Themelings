@@ -1,280 +1,280 @@
 // app/modules/message_previews/native/MessagePreviewMarkup.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    verify = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = offset;
-    entity = function(argFoo) { // Original name: getRules
-        entity = argFoo;
-        option = entity.layout;
-        foxtra = entity.color;
-        romeon = entity.fontScale;
-        yankee = entity.maxFontSizeMultiplier;
-        verify = _closure1_slot1;
-        offset = _closure1_slot2;
-        entity = 0;
-        entity = offset[entity];
-        zuuluu = undefined;
-        michal = verify.bind(zuuluu)(entity);
-        entity = 1;
-        entity = offset[entity];
-        entity = verify.bind(zuuluu)(entity);
-        tangon = entity.RULES;
-        entity = new Array(2);
-        entity[0] = tangon;
-        tangon = 2;
-        tangon = offset[tangon];
-        tangon = verify.bind(zuuluu)(tangon);
-        kiloes = undefined;
-        backup = option;
-        tangon = kiloes[tangon](backup, foxtra, romeon, yankee, offset);
-        entity[1] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var8 = native3;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var10;
+    var1 = function getRules(arg1) {
+        var1 = arg1;
+        var8 = var1.layout;
+        var13 = var1.color;
+        var12 = var1.fontScale;
+        var11 = var1.maxFontSizeMultiplier;
+        var9 = _closure1_slot1;
+        var10 = _closure1_slot2;
+        var1 = 0;
+        var1 = var10[var1];
+        var3 = undefined;
+        var2 = var9.bind(var3)(var1);
+        var1 = 1;
+        var1 = var10[var1];
+        var1 = var9.bind(var3)(var1);
+        var4 = var1.RULES;
+        var1 = new Array(2);
+        var1[0] = var4;
+        var4 = 2;
+        var4 = var10[var4];
+        var4 = var9.bind(var3)(var4);
+        var15 = undefined;
+        var14 = var8;
+        var4 = var15[var4](var14, var13, var12, var11, var10);
+        var1[1] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot4 = entity;
-    golfie = function(argFoo) { // Original name: renderASTToReact
-        entity = argFoo;
-        tangon = entity.tree;
-        zuuluu = entity.initialParserState;
-        verify = entity.layout;
-        option = entity.color;
-        golfie = entity.fontScale;
-        michal = entity.maxFontSizeMultiplier;
-        oscard = _closure1_slot4;
-        report = {};
-        report['layout'] = verify;
-        report['color'] = option;
-        report['fontScale'] = golfie;
-        report['maxFontSizeMultiplier'] = michal;
-        michal = undefined;
-        verify = oscard.bind(michal)(report);
-        golfie = _closure1_slot1;
-        option = _closure1_slot2;
-        entity = 3;
-        report = option[entity];
-        oscard = golfie.bind(michal)(report);
-        report = oscard.reactFor;
-        entity = option[entity];
-        option = golfie.bind(michal)(entity);
-        golfie = option.ruleOutput;
-        entity = 'react';
-        entity = golfie.bind(option)(verify, entity);
-        entity = report.bind(oscard)(entity);
-        entity = entity.bind(michal)(tangon, zuuluu);
-        return entity;
+    var _closure1_slot4 = var1;
+    var7 = function renderASTToReact(arg1) {
+        var1 = arg1;
+        var4 = var1.tree;
+        var3 = var1.initialParserState;
+        var9 = var1.layout;
+        var8 = var1.color;
+        var7 = var1.fontScale;
+        var2 = var1.maxFontSizeMultiplier;
+        var6 = _closure1_slot4;
+        var5 = {};
+        var5['layout'] = var9;
+        var5['color'] = var8;
+        var5['fontScale'] = var7;
+        var5['maxFontSizeMultiplier'] = var2;
+        var2 = undefined;
+        var9 = var6.bind(var2)(var5);
+        var7 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var1 = 3;
+        var5 = var8[var1];
+        var6 = var7.bind(var2)(var5);
+        var5 = var6.reactFor;
+        var1 = var8[var1];
+        var8 = var7.bind(var2)(var1);
+        var7 = var8.ruleOutput;
+        var1 = 'react';
+        var1 = var7.bind(var8)(var9, var1);
+        var1 = var5.bind(var6)(var1);
+        var1 = var1.bind(var2)(var4, var3);
+        return var1;
     };
-    var _closure1_slot5 = golfie;
-    oscard = function(argFoo) { // Original name: getMessagePreviewASTParser
-        entity = argFoo;
-        golfie = entity.layout;
-        oscard = entity.color;
-        report = entity.fontScale;
-        tangon = entity.maxFontSizeMultiplier;
-        zuuluu = _closure1_slot4;
-        michal = {};
-        michal['layout'] = golfie;
-        michal['color'] = oscard;
-        michal['fontScale'] = report;
-        michal['maxFontSizeMultiplier'] = tangon;
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = _closure1_slot1;
-        report = _closure1_slot2;
-        entity = 4;
-        entity = report[entity];
-        michal = michal.bind(tangon)(entity);
-        entity = michal.astParserFor;
-        entity = entity.bind(michal)(zuuluu);
-        return entity;
+    var _closure1_slot5 = var7;
+    var6 = function getMessagePreviewASTParser(arg1) {
+        var1 = arg1;
+        var7 = var1.layout;
+        var6 = var1.color;
+        var5 = var1.fontScale;
+        var4 = var1.maxFontSizeMultiplier;
+        var3 = _closure1_slot4;
+        var2 = {};
+        var2['layout'] = var7;
+        var2['color'] = var6;
+        var2['fontScale'] = var5;
+        var2['maxFontSizeMultiplier'] = var4;
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var1 = 4;
+        var1 = var5[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = var2.astParserFor;
+        var1 = var1.bind(var2)(var3);
+        return var1;
     };
-    var _closure1_slot6 = oscard;
-    michal = function(argFoo) { // Original name: getOrParseMessagePreviewMarkupAST
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot6 = var6;
+    var2 = function getOrParseMessagePreviewMarkupAST(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            report = entity.content;
-            yankee = entity.layout;
-            offset = entity.color;
-            verify = entity.initialParserState;
-            option = entity.postProcessor;
-            golfie = entity.fontScale;
-            oscard = entity.maxFontSizeMultiplier;
-            michal = _closure1_slot3;
-            entity = michal.get;
-            entity = entity.bind(michal)(report);
-            michal = null;
-            if(!(michal == entity)) { _fun00002_ip = 202; continue _fun00001 }
+            var1 = arg1;
+            var5 = var1.content;
+            var11 = var1.layout;
+            var10 = var1.color;
+            var9 = var1.initialParserState;
+            var8 = var1.postProcessor;
+            var7 = var1.fontScale;
+            var6 = var1.maxFontSizeMultiplier;
+            var2 = _closure1_slot3;
+            var1 = var2.get;
+            var1 = var1.bind(var2)(var5);
+            var2 = null;
+            if(!(var2 == var1)) { _fun0001_ip = 202; continue _fun0001 }
  69:
-            tangon = _closure1_slot6;
-            michal = {};
-            michal['layout'] = yankee;
-            michal['color'] = offset;
-            michal['fontScale'] = golfie;
-            michal['maxFontSizeMultiplier'] = oscard;
-            golfie = undefined;
-            oscard = tangon.bind(golfie)(michal);
-            tangon = report.startsWith;
-            michal = '```';
-            michal = tangon.bind(report)(michal);
-            tangon = undefined;
-            if(michal) { _fun00002_ip = 162; continue _fun00001 }
+            var4 = _closure1_slot6;
+            var2 = {};
+            var2['layout'] = var11;
+            var2['color'] = var10;
+            var2['fontScale'] = var7;
+            var2['maxFontSizeMultiplier'] = var6;
+            var7 = undefined;
+            var6 = var4.bind(var7)(var2);
+            var4 = var5.startsWith;
+            var2 = '```';
+            var2 = var4.bind(var5)(var2);
+            var4 = undefined;
+            if(var2) { _fun0001_ip = 162; continue _fun0001 }
  123:
-            yankee = report.split;
-            offset = '\n';
-            yankee = yankee.bind(report)(offset);
-            offset = 0;
-            offset = yankee[offset];
-            romeon = offset.includes;
-            yankee = '||';
-            michal = romeon.bind(offset)(yankee);
-            tangon = offset;
+            var11 = var5.split;
+            var10 = '\n';
+            var11 = var11.bind(var5)(var10);
+            var10 = 0;
+            var10 = var11[var10];
+            var12 = var10.includes;
+            var11 = '||';
+            var2 = var12.bind(var10)(var11);
+            var4 = var10;
  162:
-            if(!michal) { _fun00002_ip = 168; continue _fun00001 }
+            if(!var2) { _fun0001_ip = 168; continue _fun0001 }
  165:
-            tangon = report;
+            var4 = var5;
  168:
-            kiloes = true;
-            output = undefined;
-            sizing = tangon;
-            backup = verify;
-            foxtra = option;
-            michal = output[oscard](sizing, kiloes, backup, foxtra, romeon);
-            tangon = _closure1_slot3;
-            zuuluu = tangon.set;
-            zuuluu = zuuluu.bind(tangon)(report, michal);
-            return michal;
+            var15 = true;
+            var17 = undefined;
+            var16 = var4;
+            var14 = var9;
+            var13 = var8;
+            var2 = var17[var6](var16, var15, var14, var13, var12);
+            var4 = _closure1_slot3;
+            var3 = var4.set;
+            var3 = var3.bind(var4)(var5, var2);
+            return var2;
  202:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = michal;
-    entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, tangon);
-    entity = 7;
-    tangon = offset[entity];
-    entity = undefined;
-    yankee = option.bind(entity)(tangon);
-    tangon = {};
-    option = 2000;
-    tangon['max'] = option;
-    option = yankee.prototype;
-    option = Object.create(option, {constructor: {value: yankee}});
-    sizing = option;
-    kiloes = tangon;
-    tangon = new sizing[yankee](kiloes, backup);
-    tangon = tangon instanceof Object ? tangon : option;
-    var _closure1_slot3 = tangon;
-    option = 8;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'modules/message_previews/native/MessagePreviewMarkup.tsx';
-    option = verify.bind(offset)(option);
-    zuuluu['renderASTToReact'] = golfie;
-    zuuluu['getMessagePreviewASTParser'] = oscard;
-    report = function(argFoo) { // Original name: renderMessagePreviewMarkup
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot7 = var2;
+    var1 = global;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var4);
+    var1 = 7;
+    var4 = var10[var1];
+    var1 = undefined;
+    var11 = var8.bind(var1)(var4);
+    var4 = {};
+    var8 = 2000;
+    var4['max'] = var8;
+    var8 = var11.prototype;
+    var8 = Object.create(var8, {constructor: {value: var11}});
+    var16 = var8;
+    var15 = var4;
+    var4 = new var16[var11](var15, var14);
+    var4 = var4 instanceof Object ? var4 : var8;
+    var _closure1_slot3 = var4;
+    var8 = 8;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/message_previews/native/MessagePreviewMarkup.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['renderASTToReact'] = var7;
+    var3['getMessagePreviewASTParser'] = var6;
+    var5 = function renderMessagePreviewMarkup(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            tangon = argFoo;
-            romeon = tangon.content;
-            michal = tangon.muted;
-            offset = tangon.guildId;
-            entity = tangon.channelId;
-            golfie = tangon.layout;
-            zuuluu = undefined;
-            if(!(golfie === zuuluu)) { _fun00004_ip = 71; continue _fun00003 }
+            var4 = arg1;
+            var12 = var4.content;
+            var2 = var4.muted;
+            var10 = var4.guildId;
+            var1 = var4.channelId;
+            var7 = var4.layout;
+            var3 = undefined;
+            if(!(var7 === var3)) { _fun0002_ip = 71; continue _fun0002 }
  36:
-            oscard = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 5;
-            report = option[report];
-            report = oscard.bind(zuuluu)(report);
-            report = report.ChannelListLayoutTypes;
-            golfie = report.COMPACT;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 5;
+            var5 = var8[var5];
+            var5 = var6.bind(var3)(var5);
+            var5 = var5.ChannelListLayoutTypes;
+            var7 = var5.COMPACT;
  71:
-            oscard = tangon.color;
-            yankee = tangon.postProcessor;
-            backup = tangon.disableAnimatedEmoji;
-            if(!(backup === zuuluu)) { _fun00004_ip = 94; continue _fun00003 }
+            var6 = var4.color;
+            var11 = var4.postProcessor;
+            var14 = var4.disableAnimatedEmoji;
+            if(!(var14 === var3)) { _fun0002_ip = 94; continue _fun0002 }
  92:
-            backup = true;
+            var14 = true;
  94:
-            report = tangon.fontScale;
-            if(!(report === zuuluu)) { _fun00004_ip = 107; continue _fun00003 }
+            var5 = var4.fontScale;
+            if(!(var5 === var3)) { _fun0002_ip = 107; continue _fun0002 }
  104:
-            report = 1;
+            var5 = 1;
  107:
-            tangon = tangon.maxFontSizeMultiplier;
-            option = '';
-            if(!(option !== romeon)) { _fun00004_ip = 340; continue _fun00003 }
+            var4 = var4.maxFontSizeMultiplier;
+            var8 = '';
+            if(!(var8 !== var12)) { _fun0002_ip = 340; continue _fun0002 }
  124:
-            option = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
-            foxtra = true;
-            verify = new Array(0);
-            option['mentionChannels'] = verify;
-            verify = new Array(0);
-            option['soundboardSounds'] = verify;
-            sizing = _closure1_slot0;
-            output = _closure1_slot2;
-            kiloes = 6;
-            kiloes = output[kiloes];
-            kiloes = sizing.bind(zuuluu)(kiloes);
-            output = kiloes.GameMentionsUserExperiment;
-            sizing = output.getCurrentConfig;
-            kiloes = {};
-            result = 'message preview';
-            kiloes['location'] = result;
-            kiloes = sizing.bind(output)(kiloes);
-            kiloes = kiloes.enabled;
-            option['allowGameMentions'] = kiloes;
-            option['disableAnimatedEmoji'] = backup;
-            option['unknownUserMentionPlaceholder'] = foxtra;
-            option['guildId'] = offset;
-            option['channelId'] = entity;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00004_ip = 249; continue _fun00003 }
+            var8 = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
+            var13 = true;
+            var9 = new Array(0);
+            var8['mentionChannels'] = var9;
+            var9 = new Array(0);
+            var8['soundboardSounds'] = var9;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var15 = 6;
+            var15 = var17[var15];
+            var15 = var16.bind(var3)(var15);
+            var17 = var15.GameMentionsUserExperiment;
+            var16 = var17.getCurrentConfig;
+            var15 = {};
+            var18 = 'message preview';
+            var15['location'] = var18;
+            var15 = var16.bind(var17)(var15);
+            var15 = var15.enabled;
+            var8['allowGameMentions'] = var15;
+            var8['disableAnimatedEmoji'] = var14;
+            var8['unknownUserMentionPlaceholder'] = var13;
+            var8['guildId'] = var10;
+            var8['channelId'] = var1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0002_ip = 249; continue _fun0002 }
  246:
-            entity = michal;
+            var1 = var2;
  249:
-            option['muted'] = entity;
-            michal = _closure1_slot5;
-            entity = {};
-            offset = _closure1_slot7;
-            verify = {};
-            verify['content'] = romeon;
-            verify['layout'] = golfie;
-            verify['color'] = oscard;
-            verify['initialParserState'] = option;
-            verify['fontScale'] = report;
-            verify['maxFontSizeMultiplier'] = tangon;
-            verify['postProcessor'] = yankee;
-            verify = offset.bind(zuuluu)(verify);
-            entity['tree'] = verify;
-            entity['initialParserState'] = option;
-            entity['layout'] = golfie;
-            entity['color'] = oscard;
-            entity['fontScale'] = report;
-            entity['maxFontSizeMultiplier'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var8['muted'] = var1;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var10 = _closure1_slot7;
+            var9 = {};
+            var9['content'] = var12;
+            var9['layout'] = var7;
+            var9['color'] = var6;
+            var9['initialParserState'] = var8;
+            var9['fontScale'] = var5;
+            var9['maxFontSizeMultiplier'] = var4;
+            var9['postProcessor'] = var11;
+            var9 = var10.bind(var3)(var9);
+            var1['tree'] = var9;
+            var1['initialParserState'] = var8;
+            var1['layout'] = var7;
+            var1['color'] = var6;
+            var1['fontScale'] = var5;
+            var1['maxFontSizeMultiplier'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
  340:
-            entity = null;
-            return entity;
+            var1 = null;
+            return var1;
         }
     };
-    zuuluu['renderMessagePreviewMarkup'] = report;
-    zuuluu['messagePreviewASTCache'] = tangon;
-    zuuluu['getOrParseMessagePreviewMarkupAST'] = michal;
-    return entity;
+    var3['renderMessagePreviewMarkup'] = var5;
+    var3['messagePreviewASTCache'] = var4;
+    var3['getOrParseMessagePreviewMarkupAST'] = var2;
+    return var1;
 })();

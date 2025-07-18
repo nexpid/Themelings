@@ -1,142 +1,142 @@
 // app/modules/guild_onboarding_home/hasPendingMemberAction.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = golfie;
-    entity = argCor;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildMemberFlags;
-    var _closure1_slot9 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_onboarding_home/hasPendingMemberAction.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: hasPendingMemberAction
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native4;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildMemberFlags;
+    var _closure1_slot9 = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_onboarding_home/hasPendingMemberAction.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function hasPendingMemberAction(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.getGuild;
-            entity = argFoo;
-            zuuluu = michal.bind(zuuluu)(entity);
-            report = _closure1_slot3;
-            michal = report.getChannel;
-            entity = argBar;
-            michal = michal.bind(report)(entity);
-            oscard = null;
-            entity = oscard != zuuluu;
-            if(!entity) { _fun00002_ip = 50; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var2 = var3.getGuild;
+            var1 = arg1;
+            var3 = var2.bind(var3)(var1);
+            var5 = _closure1_slot3;
+            var2 = var5.getChannel;
+            var1 = arg2;
+            var2 = var2.bind(var5)(var1);
+            var6 = null;
+            var1 = var6 != var3;
+            if(!var1) { _fun0001_ip = 50; continue _fun0001 }
  46:
-            entity = oscard != michal;
+            var1 = var6 != var2;
  50:
-            if(!entity) { _fun00002_ip = 80; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 80; continue _fun0001 }
  53:
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            report = 7;
-            report = golfie[report];
-            golfie = undefined;
-            report = option.bind(golfie)(report);
-            entity = report.bind(golfie)(zuuluu);
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 7;
+            var5 = var7[var5];
+            var7 = undefined;
+            var5 = var8.bind(var7)(var5);
+            var1 = var5.bind(var7)(var3);
  80:
-            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
  83:
-            option = zuuluu.features;
-            golfie = option.has;
-            report = _closure1_slot8;
-            report = report.GUILD_SERVER_GUIDE;
-            entity = golfie.bind(option)(report);
+            var8 = var3.features;
+            var7 = var8.has;
+            var5 = _closure1_slot8;
+            var5 = var5.GUILD_SERVER_GUIDE;
+            var1 = var7.bind(var8)(var5);
  109:
-            if(!entity) { _fun00002_ip = 203; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 203; continue _fun0001 }
  112:
-            option = _closure1_slot1;
-            golfie = _closure1_slot2;
-            report = 8;
-            golfie = golfie[report];
-            report = undefined;
-            option = option.bind(report)(golfie);
-            golfie = option.hasFlag;
-            yankee = _closure1_slot4;
-            offset = yankee.getSelfMember;
-            verify = zuuluu.id;
-            verify = offset.bind(yankee)(verify);
-            offset = oscard == verify;
-            if(offset) { _fun00002_ip = 172; continue _fun00001 }
+            var8 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 8;
+            var7 = var7[var5];
+            var5 = undefined;
+            var8 = var8.bind(var5)(var7);
+            var7 = var8.hasFlag;
+            var11 = _closure1_slot4;
+            var10 = var11.getSelfMember;
+            var9 = var3.id;
+            var9 = var10.bind(var11)(var9);
+            var10 = var6 == var9;
+            if(var10) { _fun0001_ip = 172; continue _fun0001 }
  167:
-            report = verify.flags;
+            var5 = var9.flags;
  172:
-            verify = oscard != report;
-            oscard = 0;
-            if(!verify) { _fun00002_ip = 184; continue _fun00001 }
+            var9 = var6 != var5;
+            var6 = 0;
+            if(!var9) { _fun0001_ip = 184; continue _fun0001 }
  181:
-            oscard = report;
+            var6 = var5;
  184:
-            report = _closure1_slot9;
-            report = report.COMPLETED_HOME_ACTIONS;
-            report = golfie.bind(option)(oscard, report);
-            entity = !report;
+            var5 = _closure1_slot9;
+            var5 = var5.COMPLETED_HOME_ACTIONS;
+            var5 = var7.bind(var8)(var6, var5);
+            var1 = !var5;
  203:
-            if(!entity) { _fun00002_ip = 234; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 234; continue _fun0001 }
  206:
-            option = _closure1_slot6;
-            golfie = option.hasMemberAction;
-            oscard = zuuluu.id;
-            report = michal.id;
-            entity = golfie.bind(option)(oscard, report);
+            var8 = _closure1_slot6;
+            var7 = var8.hasMemberAction;
+            var6 = var3.id;
+            var5 = var2.id;
+            var1 = var7.bind(var8)(var6, var5);
  234:
-            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 268; continue _fun0001 }
  237:
-            report = _closure1_slot7;
-            tangon = report.hasCompletedActionForChannel;
-            zuuluu = zuuluu.id;
-            michal = michal.id;
-            michal = tangon.bind(report)(zuuluu, michal);
-            entity = !michal;
+            var5 = _closure1_slot7;
+            var4 = var5.hasCompletedActionForChannel;
+            var3 = var3.id;
+            var2 = var2.id;
+            var2 = var4.bind(var5)(var3, var2);
+            var1 = !var2;
  268:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['hasPendingMemberAction'] = michal;
-    return entity;
+    var3['hasPendingMemberAction'] = var2;
+    return var1;
 })();

@@ -1,77 +1,77 @@
 // app/modules/forums/native/hooks/useIsForumChannelSearchActive.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/forums/native/hooks/useIsForumChannelSearchActive.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useIsForumChannelSearchActive
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/forums/native/hooks/useIsForumChannelSearchActive.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useIsForumChannelSearchActive(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
-            oscard = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 1;
-            entity = option[entity];
-            report = undefined;
-            tangon = oscard.bind(report)(entity);
-            entity = tangon.useCanSearchForumPostsByChannelId;
-            entity = entity.bind(tangon)(golfie);
-            tangon = 2;
-            tangon = option[tangon];
-            oscard = oscard.bind(report)(tangon);
-            report = oscard.useStateFromStores;
-            zuuluu = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
-            zuuluu = new Array(1);
-            zuuluu[0] = golfie;
-            michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var7 = arg1;
+            var _closure2_slot0 = var7;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 1;
+            var1 = var8[var1];
+            var5 = undefined;
+            var4 = var6.bind(var5)(var1);
+            var1 = var4.useCanSearchForumPostsByChannelId;
+            var1 = var1.bind(var4)(var7);
+            var4 = 2;
+            var4 = var8[var4];
+            var6 = var6.bind(var5)(var4);
+            var5 = var6.useStateFromStores;
+            var3 = _closure1_slot2;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var2 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = _closure2_slot0;
-                    entity = null;
-                    zuuluu = entity != zuuluu;
-                    if(!zuuluu) { _fun00004_ip = 38; continue _fun00003 }
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 != var3;
+                    if(!var3) { _fun0002_ip = 38; continue _fun0002 }
  16:
-                    tangon = _closure1_slot2;
-                    zuuluu = tangon.getSearchQuery;
-                    michal = _closure2_slot0;
-                    entity = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot2;
+                    var3 = var4.getSearchQuery;
+                    var2 = _closure2_slot0;
+                    var1 = var3.bind(var4)(var2);
  38:
-                    return entity;
+                    return var1;
                 }
             };
-            zuuluu = report.bind(oscard)(tangon, michal, zuuluu);
-            if(!entity) { _fun00002_ip = 103; continue _fun00001 }
+            var3 = var5.bind(var6)(var4, var2, var3);
+            if(!var1) { _fun0001_ip = 103; continue _fun0001 }
  97:
-            michal = null;
-            entity = michal != zuuluu;
+            var2 = null;
+            var1 = var2 != var3;
  103:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useIsForumChannelSearchActive'] = michal;
-    return entity;
+    var3['useIsForumChannelSearchActive'] = var2;
+    return var1;
 })();

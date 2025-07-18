@@ -1,220 +1,220 @@
 // app/utils/NumberUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'utils/NumberUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: shortenAndLocalizeNumber
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'utils/NumberUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function shortenAndLocalizeNumber(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            entity = 1000000;
-            if(!(!(report < entity))) { _fun00002_ip = 99; continue _fun00001 }
+            var5 = arg1;
+            var1 = 1000000;
+            if(!(!(var5 < var1))) { _fun0001_ip = 99; continue _fun0001 }
  13:
-            zuuluu = report / entity;
-            michal = zuuluu.toFixed;
-            entity = 1;
-            oscard = michal.bind(zuuluu)(entity);
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 0;
-            zuuluu = option[entity];
-            michal = undefined;
-            zuuluu = golfie.bind(michal)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToPlainString;
-            entity = option[entity];
-            entity = golfie.bind(michal)(entity);
-            entity = entity.t;
-            michal = entity.Iku48P;
-            entity = {};
-            entity['value'] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var3 = var5 / var1;
+            var2 = var3.toFixed;
+            var1 = 1;
+            var6 = var2.bind(var3)(var1);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 0;
+            var3 = var8[var1];
+            var2 = undefined;
+            var3 = var7.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var8[var1];
+            var1 = var7.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.Iku48P;
+            var1 = {};
+            var1['value'] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
  99:
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 0;
-            zuuluu = golfie[entity];
-            michal = undefined;
-            zuuluu = oscard.bind(michal)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToPlainString;
-            entity = golfie[entity];
-            entity = oscard.bind(michal)(entity);
-            entity = entity.t;
-            michal = entity.OiHat7;
-            entity = {};
-            entity['value'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 0;
+            var3 = var7[var1];
+            var2 = undefined;
+            var3 = var6.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var7[var1];
+            var1 = var6.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.OiHat7;
+            var1 = {};
+            var1['value'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['shortenAndLocalizeNumber'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: humanizeValue
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['shortenAndLocalizeNumber'] = var4;
+    var4 = function humanizeValue(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            report = 1000;
-            if(!(!(golfie < report))) { _fun00004_ip = 280; continue _fun00003 }
+            var7 = arg1;
+            var5 = 1000;
+            if(!(!(var7 < var5))) { _fun0002_ip = 280; continue _fun0002 }
  16:
-            option = 1000000;
-            if(!(!(golfie < option))) { _fun00004_ip = 189; continue _fun00003 }
+            var8 = 1000000;
+            if(!(!(var7 < var8))) { _fun0002_ip = 189; continue _fun0002 }
  29:
-            entity = global;
-            oscard = entity.Math;
-            tangon = oscard.floor;
-            zuuluu = 10;
-            michal = zuuluu * golfie;
-            michal = michal / option;
-            michal = tangon.bind(oscard)(michal);
-            zuuluu = michal / zuuluu;
-            entity = entity.Intl;
-            oscard = entity.NumberFormat;
-            tangon = {};
-            entity = 1;
-            tangon['maximumFractionDigits'] = entity;
-            entity = oscard.prototype;
-            michal = Object.create(entity, {constructor: {value: oscard}});
-            yankee = argBar;
-            romeon = michal;
-            offset = tangon;
-            entity = new romeon[oscard](yankee, offset, verify);
-            michal = entity instanceof Object ? entity : michal;
-            entity = michal.format;
-            oscard = entity.bind(michal)(zuuluu);
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            entity = 0;
-            zuuluu = verify[entity];
-            michal = undefined;
-            zuuluu = option.bind(michal)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToPlainString;
-            entity = verify[entity];
-            entity = option.bind(michal)(entity);
-            entity = entity.t;
-            michal = entity.Iku48P;
-            entity = {};
-            entity['value'] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var1 = global;
+            var6 = var1.Math;
+            var4 = var6.floor;
+            var3 = 10;
+            var2 = var3 * var7;
+            var2 = var2 / var8;
+            var2 = var4.bind(var6)(var2);
+            var3 = var2 / var3;
+            var1 = var1.Intl;
+            var6 = var1.NumberFormat;
+            var4 = {};
+            var1 = 1;
+            var4['maximumFractionDigits'] = var1;
+            var1 = var6.prototype;
+            var2 = Object.create(var1, {constructor: {value: var6}});
+            var11 = arg2;
+            var12 = var2;
+            var10 = var4;
+            var1 = new var12[var6](var11, var10, var9);
+            var2 = var1 instanceof Object ? var1 : var2;
+            var1 = var2.format;
+            var6 = var1.bind(var2)(var3);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var1 = 0;
+            var3 = var9[var1];
+            var2 = undefined;
+            var3 = var8.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var9[var1];
+            var1 = var8.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.Iku48P;
+            var1 = {};
+            var1['value'] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
  189:
-            oscard = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 0;
-            zuuluu = option[entity];
-            michal = undefined;
-            zuuluu = oscard.bind(michal)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToPlainString;
-            entity = option[entity];
-            entity = oscard.bind(michal)(entity);
-            entity = entity.t;
-            michal = entity.84R4TU;
-            entity = {};
-            oscard = global;
-            option = oscard.Math;
-            oscard = option.floor;
-            report = golfie / report;
-            report = oscard.bind(option)(report);
-            entity['value'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var1 = 0;
+            var3 = var8[var1];
+            var2 = undefined;
+            var3 = var6.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var8[var1];
+            var1 = var6.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.84R4TU;
+            var1 = {};
+            var6 = global;
+            var8 = var6.Math;
+            var6 = var8.floor;
+            var5 = var7 / var5;
+            var5 = var6.bind(var8)(var5);
+            var1['value'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
  280:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
-            entity = 0;
-            zuuluu = oscard[entity];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.formatToPlainString;
-            entity = oscard[entity];
-            entity = report.bind(michal)(entity);
-            entity = entity.t;
-            michal = entity.OiHat7;
-            entity = {};
-            report = global;
-            oscard = report.Math;
-            report = oscard.floor;
-            report = report.bind(oscard)(golfie);
-            entity['value'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 0;
+            var3 = var6[var1];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var4 = var3.intl;
+            var3 = var4.formatToPlainString;
+            var1 = var6[var1];
+            var1 = var5.bind(var2)(var1);
+            var1 = var1.t;
+            var2 = var1.OiHat7;
+            var1 = {};
+            var5 = global;
+            var6 = var5.Math;
+            var5 = var6.floor;
+            var5 = var5.bind(var6)(var7);
+            var1['value'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    zuuluu['humanizeValue'] = tangon;
-    tangon = function(argFoo) { // Original name: parseInteger
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['humanizeValue'] = var4;
+    var4 = function parseInteger(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            entity = arguments[1];
-            tangon = undefined;
-            if(!(entity === tangon)) { _fun00006_ip = 20; continue _fun00005 }
+            var5 = arg1;
+            var1 = arguments[1];
+            var4 = undefined;
+            if(!(var1 === var4)) { _fun0003_ip = 20; continue _fun0003 }
  12:
-            michal = global;
-            entity = michal.NaN;
+            var2 = global;
+            var1 = var2.NaN;
  20:
-            michal = null;
-            if(!(michal != report)) { _fun00006_ip = 64; continue _fun00005 }
+            var2 = null;
+            if(!(var2 != var5)) { _fun0003_ip = 64; continue _fun0003 }
  26:
-            zuuluu = global;
-            michal = zuuluu.parseInt;
-            michal = michal.bind(tangon)(report);
-            tangon = zuuluu.Number;
-            zuuluu = tangon.isNaN;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            if(!zuuluu) { _fun00006_ip = 62; continue _fun00005 }
+            var3 = global;
+            var2 = var3.parseInt;
+            var2 = var2.bind(var4)(var5);
+            var4 = var3.Number;
+            var3 = var4.isNaN;
+            var3 = var3.bind(var4)(var2);
+            if(!var3) { _fun0003_ip = 62; continue _fun0003 }
  59:
-            michal = entity;
+            var2 = var1;
  62:
-            return michal;
+            return var2;
  64:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['parseInteger'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: formatPercent
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['parseInteger'] = var4;
+    var2 = function formatPercent(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = arguments[2];
-            michal = undefined;
-            if(!(entity === michal)) { _fun00008_ip = 11; continue _fun00007 }
+            var1 = arguments[2];
+            var2 = undefined;
+            if(!(var1 === var2)) { _fun0004_ip = 11; continue _fun0004 }
  9:
-            entity = {};
+            var1 = {};
  11:
-            michal = global;
-            tangon = michal.Intl;
-            zuuluu = tangon.NumberFormat;
-            michal = {'style': 'percent', 'minimumFractionDigits': 0};
-            oscard = michal;
-            report = entity;
-            entity = copyDataProperties(oscard, report);
-            entity = argFoo;
-            zuuluu = zuuluu.bind(tangon)(entity, michal);
-            michal = zuuluu.format;
-            entity = argBar;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = global;
+            var4 = var2.Intl;
+            var3 = var4.NumberFormat;
+            var2 = {'style': 'percent', 'minimumFractionDigits': 0};
+            var6 = var2;
+            var5 = var1;
+            var1 = copyDataProperties(var6, var5);
+            var1 = arg1;
+            var3 = var3.bind(var4)(var1, var2);
+            var2 = var3.format;
+            var1 = arg2;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['formatPercent'] = michal;
-    return entity;
+    var3['formatPercent'] = var2;
+    return var1;
 })();

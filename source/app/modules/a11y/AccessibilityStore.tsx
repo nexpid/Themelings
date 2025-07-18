@@ -1,1442 +1,1442 @@
 // app/modules/a11y/AccessibilityStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var8;
+    var _closure1_slot2 = var7;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot19 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot19 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot19 = entity;
-    entity = ['fontScale'];
-    var _closure1_slot3 = entity;
-    entity = global;
-    verify = entity.Object;
-    tangon = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = tangon.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = golfie[entity];
-    entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 1;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 3;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 4;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot8 = michal;
-    michal = 5;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot9 = michal;
-    michal = 6;
-    michal = golfie[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot10 = michal;
-    michal = 7;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    verify = michal.Accessibility;
-    var _closure1_slot11 = verify;
-    michal = 8;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    tangon = michal.MESSAGE_GROUP_SPACING;
-    var _closure1_slot12 = tangon;
-    tangon = michal.DEFAULT_COMPACT_SPACING;
-    var _closure1_slot13 = tangon;
-    michal = michal.DEFAULT_COZY_SPACING;
-    var _closure1_slot14 = michal;
-    michal = {};
-    tangon = 'default';
-    michal['DEFAULT'] = tangon;
-    tangon = 'high';
-    michal['HIGH'] = tangon;
-    var _closure1_slot15 = michal;
-    tangon = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
-    offset = verify.FONT_SIZE_DEFAULT;
-    tangon['fontSize'] = offset;
-    verify = verify.ZOOM_DEFAULT;
-    tangon['zoom'] = verify;
-    verify = michal.DEFAULT;
-    tangon['contrastMode'] = verify;
-    var _closure1_slot16 = tangon;
-    var _closure1_slot17 = tangon;
-    tangon = {12: 'font-size-12', 14: 'font-size-14', 15: 'font-size-15', 16: 'font-size-16', 18: 'font-size-18', 20: 'font-size-20', 24: 'font-size-24'};
-    var _closure1_slot18 = tangon;
-    tangon = 11;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    verify = tangon.DeviceSettingsStore;
-    tangon = function(argFoo) {
-        tangon = function() { // Original name: AccessibilityStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot19 = var1;
+    var1 = ['fontScale'];
+    var _closure1_slot3 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var4 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var7[var1];
+    var1 = undefined;
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 1;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 2;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 3;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 4;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot8 = var2;
+    var2 = 5;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot9 = var2;
+    var2 = 6;
+    var2 = var7[var2];
+    var2 = var8.bind(var1)(var2);
+    var _closure1_slot10 = var2;
+    var2 = 7;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var9 = var2.Accessibility;
+    var _closure1_slot11 = var9;
+    var2 = 8;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var4 = var2.MESSAGE_GROUP_SPACING;
+    var _closure1_slot12 = var4;
+    var4 = var2.DEFAULT_COMPACT_SPACING;
+    var _closure1_slot13 = var4;
+    var2 = var2.DEFAULT_COZY_SPACING;
+    var _closure1_slot14 = var2;
+    var2 = {};
+    var4 = 'default';
+    var2['DEFAULT'] = var4;
+    var4 = 'high';
+    var2['HIGH'] = var4;
+    var _closure1_slot15 = var2;
+    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
+    var10 = var9.FONT_SIZE_DEFAULT;
+    var4['fontSize'] = var10;
+    var9 = var9.ZOOM_DEFAULT;
+    var4['zoom'] = var9;
+    var9 = var2.DEFAULT;
+    var4['contrastMode'] = var9;
+    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
+    var4 = {12: 'font-size-12', 14: 'font-size-14', 15: 'font-size-15', 16: 'font-size-16', 18: 'font-size-18', 20: 'font-size-20', 24: 'font-size-24'};
+    var _closure1_slot18 = var4;
+    var4 = 11;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var9 = var4.DeviceSettingsStore;
+    var4 = function(arg1) {
+        var4 = function AccessibilityStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot5;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot8;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot7;
-                entity = _closure1_slot19;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot5;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot8;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot7;
+                var1 = _closure1_slot19;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot8;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot8;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot9;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot6;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot9;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot6;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                report = argFoo;
-                tangon = this;
-                zuuluu = tangon.waitFor;
-                entity = _closure1_slot10;
-                entity = zuuluu.bind(tangon)(entity);
-                entity = {};
-                option = _closure1_slot16;
-                verify = entity;
-                zuuluu = copyDataProperties(verify, option);
-                zuuluu = null;
-                oscard = zuuluu != report;
-                tangon = null;
-                if(!oscard) { _fun00006_ip = 51; continue _fun00005 }
+                var5 = arg1;
+                var4 = this;
+                var3 = var4.waitFor;
+                var1 = _closure1_slot10;
+                var1 = var3.bind(var4)(var1);
+                var1 = {};
+                var8 = _closure1_slot16;
+                var9 = var1;
+                var3 = copyDataProperties(var9, var8);
+                var3 = null;
+                var6 = var3 != var5;
+                var4 = null;
+                if(!var6) { _fun0003_ip = 51; continue _fun0003 }
  48:
-                tangon = report;
+                var4 = var5;
  51:
-                verify = entity;
-                option = tangon;
-                tangon = copyDataProperties(verify, option);
-                _closure1_slot17 = entity;
-                entity = global;
-                report = entity.isNaN;
-                entity = _closure1_slot17;
-                tangon = entity.fontSize;
-                entity = undefined;
-                tangon = report.bind(entity)(tangon);
-                if(!tangon) { _fun00006_ip = 113; continue _fun00005 }
+                var9 = var1;
+                var8 = var4;
+                var4 = copyDataProperties(var9, var8);
+                _closure1_slot17 = var1;
+                var1 = global;
+                var5 = var1.isNaN;
+                var1 = _closure1_slot17;
+                var4 = var1.fontSize;
+                var1 = undefined;
+                var4 = var5.bind(var1)(var4);
+                if(!var4) { _fun0003_ip = 113; continue _fun0003 }
  93:
-                report = _closure1_slot17;
-                tangon = _closure1_slot11;
-                tangon = tangon.FONT_SIZE_DEFAULT;
-                report['fontSize'] = tangon;
+                var5 = _closure1_slot17;
+                var4 = _closure1_slot11;
+                var4 = var4.FONT_SIZE_DEFAULT;
+                var5['fontSize'] = var4;
  113:
-                oscard = _closure1_slot12;
-                report = oscard.indexOf;
-                tangon = _closure1_slot17;
-                tangon = tangon.messageGroupSpacing;
-                golfie = zuuluu != tangon;
-                tangon = -1;
-                if(!golfie) { _fun00006_ip = 156; continue _fun00005 }
+                var6 = _closure1_slot12;
+                var5 = var6.indexOf;
+                var4 = _closure1_slot17;
+                var4 = var4.messageGroupSpacing;
+                var7 = var3 != var4;
+                var4 = -1;
+                if(!var7) { _fun0003_ip = 156; continue _fun0003 }
  146:
-                golfie = _closure1_slot17;
-                tangon = golfie.messageGroupSpacing;
+                var7 = _closure1_slot17;
+                var4 = var7.messageGroupSpacing;
  156:
-                report = report.bind(oscard)(tangon);
-                tangon = 0;
-                if(!(report < tangon)) { _fun00006_ip = 177; continue _fun00005 }
+                var5 = var5.bind(var6)(var4);
+                var4 = 0;
+                if(!(var5 < var4)) { _fun0003_ip = 177; continue _fun0003 }
  167:
-                michal = _closure1_slot17;
-                michal['messageGroupSpacing'] = zuuluu;
+                var2 = _closure1_slot17;
+                var2['messageGroupSpacing'] = var3;
  177:
-                return entity;
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(34);
-        entity[0] = report;
-        report = {};
-        golfie = 'fontScale';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.fontSize;
-            entity = _closure1_slot11;
-            entity = entity.FONT_SIZE_DEFAULT;
-            michal = michal / entity;
-            entity = 100;
-            entity = michal * entity;
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(34);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'fontScale';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.fontSize;
+            var1 = _closure1_slot11;
+            var1 = var1.FONT_SIZE_DEFAULT;
+            var2 = var2 / var1;
+            var1 = 100;
+            var1 = var2 * var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'fontSize';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.fontSize;
-            return entity;
+        var5['get'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'fontSize';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.fontSize;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'isFontScaledUp';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.fontSize;
-            entity = _closure1_slot11;
-            entity = entity.FONT_SIZE_DEFAULT;
-            entity = michal > entity;
-            return entity;
+        var5['get'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'isFontScaledUp';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.fontSize;
+            var1 = _closure1_slot11;
+            var1 = var1.FONT_SIZE_DEFAULT;
+            var1 = var2 > var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'isFontScaledDown';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.fontSize;
-            entity = _closure1_slot11;
-            entity = entity.FONT_SIZE_DEFAULT;
-            entity = michal < entity;
-            return entity;
+        var5['get'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'isFontScaledDown';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.fontSize;
+            var1 = _closure1_slot11;
+            var1 = var1.FONT_SIZE_DEFAULT;
+            var1 = var2 < var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'fontScaleClass';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['get'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'fontScaleClass';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                zuuluu = this;
-                michal = _closure1_slot18;
-                entity = zuuluu.fontSize;
-                michal = michal[entity];
-                entity = null;
-                report = entity != michal;
-                entity = '';
-                tangon = entity;
-                if(!report) { _fun00008_ip = 39; continue _fun00007 }
+                var3 = this;
+                var2 = _closure1_slot18;
+                var1 = var3.fontSize;
+                var2 = var2[var1];
+                var1 = null;
+                var5 = var1 != var2;
+                var1 = '';
+                var4 = var1;
+                if(!var5) { _fun0004_ip = 39; continue _fun0004 }
  36:
-                tangon = michal;
+                var4 = var2;
  39:
-                report = zuuluu.isFontScaledUp;
-                michal = global;
-                if(report) { _fun00008_ip = 90; continue _fun00007 }
+                var5 = var3.isFontScaledUp;
+                var2 = global;
+                if(var5) { _fun0004_ip = 90; continue _fun0004 }
  50:
-                zuuluu = zuuluu.isFontScaledDown;
-                report = michal.HermesInternal;
-                report = report.concat;
-                if(zuuluu) { _fun00008_ip = 77; continue _fun00007 }
+                var3 = var3.isFontScaledDown;
+                var5 = var2.HermesInternal;
+                var5 = var5.concat;
+                if(var3) { _fun0004_ip = 77; continue _fun0004 }
  70:
-                entity = report.bind(entity)(tangon);
-                _fun00008_ip = 88; continue _fun00007;
+                var1 = var5.bind(var1)(var4);
+                _fun0004_ip = 88; continue _fun0004;
  77:
-                zuuluu = 'a11y-font-scaled-down ';
-                entity = report.bind(zuuluu)(tangon);
+                var3 = 'a11y-font-scaled-down ';
+                var1 = var5.bind(var3)(var4);
  88:
-                _fun00008_ip = 112; continue _fun00007;
+                _fun0004_ip = 112; continue _fun0004;
  90:
-                michal = michal.HermesInternal;
-                zuuluu = michal.concat;
-                michal = 'a11y-font-scaled-up ';
-                entity = zuuluu.bind(michal)(tangon);
+                var2 = var2.HermesInternal;
+                var3 = var2.concat;
+                var2 = 'a11y-font-scaled-up ';
+                var1 = var3.bind(var2)(var4);
  112:
-                return entity;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[5] = report;
-        report = {};
-        golfie = 'zoom';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.zoom;
-            return entity;
+        var5['get'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'zoom';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.zoom;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[6] = report;
-        report = {};
-        golfie = 'isZoomedIn';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.zoom;
-            entity = _closure1_slot11;
-            entity = entity.ZOOM_DEFAULT;
-            entity = michal > entity;
-            return entity;
+        var5['get'] = var7;
+        var1[6] = var5;
+        var5 = {};
+        var7 = 'isZoomedIn';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.zoom;
+            var1 = _closure1_slot11;
+            var1 = var1.ZOOM_DEFAULT;
+            var1 = var2 > var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[7] = report;
-        report = {};
-        golfie = 'isZoomedOut';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.zoom;
-            entity = _closure1_slot11;
-            entity = entity.ZOOM_DEFAULT;
-            entity = michal < entity;
-            return entity;
+        var5['get'] = var7;
+        var1[7] = var5;
+        var5 = {};
+        var7 = 'isZoomedOut';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.zoom;
+            var1 = _closure1_slot11;
+            var1 = var1.ZOOM_DEFAULT;
+            var1 = var2 < var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[8] = report;
-        report = {};
-        golfie = 'keyboardModeEnabled';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.keyboardModeEnabled;
-            return entity;
+        var5['get'] = var7;
+        var1[8] = var5;
+        var5 = {};
+        var7 = 'keyboardModeEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.keyboardModeEnabled;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[9] = report;
-        report = {};
-        golfie = 'colorblindMode';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.colorblindMode;
-            return entity;
+        var5['get'] = var7;
+        var1[9] = var5;
+        var5 = {};
+        var7 = 'colorblindMode';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.colorblindMode;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[10] = report;
-        report = {};
-        golfie = 'lowContrastMode';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.lowContrastMode;
-            return entity;
+        var5['get'] = var7;
+        var1[10] = var5;
+        var5 = {};
+        var7 = 'lowContrastMode';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.lowContrastMode;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[11] = report;
-        report = {};
-        golfie = 'saturation';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.saturation;
-            return entity;
+        var5['get'] = var7;
+        var1[11] = var5;
+        var5 = {};
+        var7 = 'saturation';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.saturation;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[12] = report;
-        report = {};
-        golfie = 'contrast';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.contrast;
-            return entity;
+        var5['get'] = var7;
+        var1[12] = var5;
+        var5 = {};
+        var7 = 'contrast';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.contrast;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[13] = report;
-        report = {};
-        golfie = 'desaturateUserColors';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.desaturateUserColors;
-            return entity;
+        var5['get'] = var7;
+        var1[13] = var5;
+        var5 = {};
+        var7 = 'desaturateUserColors';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.desaturateUserColors;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[14] = report;
-        report = {};
-        golfie = 'forcedColorsModalSeen';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.forcedColorsModalSeen;
-            return entity;
+        var5['get'] = var7;
+        var1[14] = var5;
+        var5 = {};
+        var7 = 'forcedColorsModalSeen';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.forcedColorsModalSeen;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[15] = report;
-        report = {};
-        golfie = 'keyboardNavigationExplainerModalSeen';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.keyboardNavigationExplainerModalSeen;
-            return entity;
+        var5['get'] = var7;
+        var1[15] = var5;
+        var5 = {};
+        var7 = 'keyboardNavigationExplainerModalSeen';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.keyboardNavigationExplainerModalSeen;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[16] = report;
-        report = {};
-        golfie = 'messageGroupSpacing';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var5['get'] = var7;
+        var1[16] = var5;
+        var5 = {};
+        var7 = 'messageGroupSpacing';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                entity = _closure1_slot17;
-                zuuluu = entity.messageGroupSpacing;
-                entity = null;
-                if(!(entity == zuuluu)) { _fun00010_ip = 72; continue _fun00009 }
+                var1 = _closure1_slot17;
+                var3 = var1.messageGroupSpacing;
+                var1 = null;
+                if(!(var1 == var3)) { _fun0005_ip = 72; continue _fun0005 }
  19:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 10;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                zuuluu = entity.MessageDisplayCompact;
-                entity = zuuluu.getSetting;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00010_ip = 66; continue _fun00009 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 10;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var3 = var1.MessageDisplayCompact;
+                var1 = var3.getSetting;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0005_ip = 66; continue _fun0005 }
  60:
-                entity = _closure1_slot14;
-                _fun00010_ip = 70; continue _fun00009;
+                var1 = _closure1_slot14;
+                _fun0005_ip = 70; continue _fun0005;
  66:
-                entity = _closure1_slot13;
+                var1 = _closure1_slot13;
  70:
-                _fun00010_ip = 82; continue _fun00009;
+                _fun0005_ip = 82; continue _fun0005;
  72:
-                michal = _closure1_slot17;
-                entity = michal.messageGroupSpacing;
+                var2 = _closure1_slot17;
+                var1 = var2.messageGroupSpacing;
  82:
-                return entity;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[17] = report;
-        report = {};
-        golfie = 'isMessageGroupSpacingIncreased';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        var5['get'] = var7;
+        var1[17] = var5;
+        var5 = {};
+        var7 = 'isMessageGroupSpacingIncreased';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 10;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
-                zuuluu = michal.MessageDisplayCompact;
-                michal = zuuluu.getSetting;
-                michal = michal.bind(zuuluu)();
-                if(michal) { _fun00012_ip = 50; continue _fun00011 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
+                var3 = var2.MessageDisplayCompact;
+                var2 = var3.getSetting;
+                var2 = var2.bind(var3)();
+                if(var2) { _fun0006_ip = 50; continue _fun0006 }
  44:
-                michal = _closure1_slot14;
-                _fun00012_ip = 54; continue _fun00011;
+                var2 = _closure1_slot14;
+                _fun0006_ip = 54; continue _fun0006;
  50:
-                michal = _closure1_slot13;
+                var2 = _closure1_slot13;
  54:
-                entity = this;
-                entity = entity.messageGroupSpacing;
-                entity = entity > michal;
-                return entity;
+                var1 = this;
+                var1 = var1.messageGroupSpacing;
+                var1 = var1 > var2;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[18] = report;
-        report = {};
-        golfie = 'isMessageGroupSpacingDecreased';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        var5['get'] = var7;
+        var1[18] = var5;
+        var5 = {};
+        var7 = 'isMessageGroupSpacingDecreased';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                michal = 10;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
-                zuuluu = michal.MessageDisplayCompact;
-                michal = zuuluu.getSetting;
-                michal = michal.bind(zuuluu)();
-                if(michal) { _fun00014_ip = 50; continue _fun00013 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 10;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
+                var3 = var2.MessageDisplayCompact;
+                var2 = var3.getSetting;
+                var2 = var2.bind(var3)();
+                if(var2) { _fun0007_ip = 50; continue _fun0007 }
  44:
-                michal = _closure1_slot14;
-                _fun00014_ip = 54; continue _fun00013;
+                var2 = _closure1_slot14;
+                _fun0007_ip = 54; continue _fun0007;
  50:
-                michal = _closure1_slot13;
+                var2 = _closure1_slot13;
  54:
-                entity = this;
-                entity = entity.messageGroupSpacing;
-                entity = entity < michal;
-                return entity;
+                var1 = this;
+                var1 = var1.messageGroupSpacing;
+                var1 = var1 < var2;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[19] = report;
-        report = {};
-        golfie = 'isSubmitButtonEnabled';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.submitButtonEnabled;
-            return entity;
+        var5['get'] = var7;
+        var1[19] = var5;
+        var5 = {};
+        var7 = 'isSubmitButtonEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.submitButtonEnabled;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[20] = report;
-        report = {};
-        golfie = 'syncProfileThemeWithUserTheme';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.syncProfileThemeWithUserTheme;
-            return entity;
+        var5['get'] = var7;
+        var1[20] = var5;
+        var5 = {};
+        var7 = 'syncProfileThemeWithUserTheme';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.syncProfileThemeWithUserTheme;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[21] = report;
-        report = {};
-        golfie = 'systemPrefersReducedMotion';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.systemPrefersReducedMotion;
-            return entity;
+        var5['get'] = var7;
+        var1[21] = var5;
+        var5 = {};
+        var7 = 'systemPrefersReducedMotion';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.systemPrefersReducedMotion;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[22] = report;
-        report = {};
-        golfie = 'rawPrefersReducedMotion';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.prefersReducedMotion;
-            return entity;
+        var5['get'] = var7;
+        var1[22] = var5;
+        var5 = {};
+        var7 = 'rawPrefersReducedMotion';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.prefersReducedMotion;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[23] = report;
-        report = {};
-        golfie = 'useReducedMotion';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        var5['get'] = var7;
+        var1[23] = var5;
+        var5 = {};
+        var7 = 'useReducedMotion';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                michal = _closure1_slot17;
-                zuuluu = michal.prefersReducedMotion;
-                michal = 'no-preference';
-                if(!(michal !== zuuluu)) { _fun00016_ip = 51; continue _fun00015 }
+                var2 = _closure1_slot17;
+                var3 = var2.prefersReducedMotion;
+                var2 = 'no-preference';
+                if(!(var2 !== var3)) { _fun0008_ip = 51; continue _fun0008 }
  23:
-                michal = 'reduce';
-                if(!(michal !== zuuluu)) { _fun00016_ip = 47; continue _fun00015 }
+                var2 = 'reduce';
+                if(!(var2 !== var3)) { _fun0008_ip = 47; continue _fun0008 }
  31:
-                entity = _closure1_slot17;
-                entity = entity.systemPrefersReducedMotion;
-                entity = michal === entity;
-                return entity;
+                var1 = _closure1_slot17;
+                var1 = var1.systemPrefersReducedMotion;
+                var1 = var2 === var1;
+                return var1;
  47:
-                entity = true;
-                return entity;
+                var1 = true;
+                return var1;
  51:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[24] = report;
-        report = {};
-        golfie = 'systemForcedColors';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.systemForcedColors;
-            return entity;
+        var5['get'] = var7;
+        var1[24] = var5;
+        var5 = {};
+        var7 = 'systemForcedColors';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.systemForcedColors;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[25] = report;
-        report = {};
-        golfie = 'syncForcedColors';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.syncForcedColors;
-            return entity;
+        var5['get'] = var7;
+        var1[25] = var5;
+        var5 = {};
+        var7 = 'syncForcedColors';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.syncForcedColors;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[26] = report;
-        report = {};
-        golfie = 'useForcedColors';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        var5['get'] = var7;
+        var1[26] = var5;
+        var5 = {};
+        var7 = 'useForcedColors';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                entity = _closure1_slot17;
-                entity = entity.syncForcedColors;
-                entity = !entity;
-                if(entity) { _fun00018_ip = 37; continue _fun00017 }
+                var1 = _closure1_slot17;
+                var1 = var1.syncForcedColors;
+                var1 = !var1;
+                if(var1) { _fun0009_ip = 37; continue _fun0009 }
  19:
-                michal = _closure1_slot17;
-                zuuluu = michal.systemForcedColors;
-                michal = 'active';
-                entity = michal !== zuuluu;
+                var2 = _closure1_slot17;
+                var3 = var2.systemForcedColors;
+                var2 = 'active';
+                var1 = var2 !== var3;
  37:
-                entity = !entity;
-                return entity;
+                var1 = !var1;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[27] = report;
-        report = {};
-        golfie = 'systemPrefersContrast';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.systemPrefersContrast;
-            return entity;
+        var5['get'] = var7;
+        var1[27] = var5;
+        var5 = {};
+        var7 = 'systemPrefersContrast';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.systemPrefersContrast;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[28] = report;
-        report = {};
-        golfie = 'systemPrefersCrossfades';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.systemPrefersCrossfades;
-            return entity;
+        var5['get'] = var7;
+        var1[28] = var5;
+        var5 = {};
+        var7 = 'systemPrefersCrossfades';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.systemPrefersCrossfades;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[29] = report;
-        report = {};
-        golfie = 'alwaysShowLinkDecorations';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.alwaysShowLinkDecorations;
-            return entity;
+        var5['get'] = var7;
+        var1[29] = var5;
+        var5 = {};
+        var7 = 'alwaysShowLinkDecorations';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.alwaysShowLinkDecorations;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[30] = report;
-        report = {};
-        golfie = 'roleStyle';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot17;
-            entity = entity.roleStyle;
-            return entity;
+        var5['get'] = var7;
+        var1[30] = var5;
+        var5 = {};
+        var7 = 'roleStyle';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.roleStyle;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[31] = report;
-        report = {};
-        golfie = 'isHighContrastModeEnabled';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            michal = _closure1_slot17;
-            michal = michal.contrastMode;
-            entity = _closure1_slot15;
-            entity = entity.HIGH;
-            entity = michal === entity;
-            return entity;
+        var5['get'] = var7;
+        var1[31] = var5;
+        var5 = {};
+        var7 = 'isHighContrastModeEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var2 = _closure1_slot17;
+            var2 = var2.contrastMode;
+            var1 = _closure1_slot15;
+            var1 = var1.HIGH;
+            var1 = var2 === var1;
+            return var1;
         };
-        report['get'] = golfie;
-        entity[32] = report;
-        report = {};
-        golfie = 'getUserAgnosticState';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = _closure1_slot17;
-            return entity;
+        var5['get'] = var7;
+        var1[32] = var5;
+        var5 = {};
+        var7 = 'getUserAgnosticState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot17;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[33] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[33] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    verify = tangon.bind(entity)(verify);
-    tangon = 'AccessibilityStore';
-    verify['displayName'] = tangon;
-    verify['persistKey'] = tangon;
-    tangon = new Array(9);
-    offset = function() {
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    var9 = var4.bind(var1)(var9);
+    var4 = 'AccessibilityStore';
+    var9['displayName'] = var4;
+    var9['persistKey'] = var4;
+    var4 = new Array(9);
+    var10 = function() {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            option = 12;
-            michal = michal[option];
-            golfie = undefined;
-            michal = zuuluu.bind(golfie)(michal);
-            zuuluu = michal.Storage;
-            michal = zuuluu.get;
-            romeon = 'a11yFontScale';
-            tangon = michal.bind(zuuluu)(romeon);
-            if(tangon) { _fun00020_ip = 53; continue _fun00019 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 12;
+            var2 = var2[var8];
+            var7 = undefined;
+            var2 = var3.bind(var7)(var2);
+            var3 = var2.Storage;
+            var2 = var3.get;
+            var12 = 'a11yFontScale';
+            var4 = var2.bind(var3)(var12);
+            if(var4) { _fun0010_ip = 53; continue _fun0010 }
  50:
-            tangon = 100;
+            var4 = 100;
  53:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            michal = zuuluu.bind(golfie)(michal);
-            zuuluu = michal.Storage;
-            michal = zuuluu.get;
-            yankee = 'a11yZoom';
-            zuuluu = michal.bind(zuuluu)(yankee);
-            if(zuuluu) { _fun00020_ip = 105; continue _fun00019 }
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var3.bind(var7)(var2);
+            var3 = var2.Storage;
+            var2 = var3.get;
+            var11 = 'a11yZoom';
+            var3 = var2.bind(var3)(var11);
+            if(var3) { _fun0010_ip = 105; continue _fun0010 }
  95:
-            michal = _closure1_slot11;
-            zuuluu = michal.ZOOM_DEFAULT;
+            var2 = _closure1_slot11;
+            var3 = var2.ZOOM_DEFAULT;
  105:
-            report = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[option];
-            michal = report.bind(golfie)(michal);
-            report = michal.Storage;
-            michal = report.get;
-            oscard = 'a11yColorblindMode';
-            michal = michal.bind(report)(oscard);
-            if(michal) { _fun00020_ip = 149; continue _fun00019 }
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var5.bind(var7)(var2);
+            var5 = var2.Storage;
+            var2 = var5.get;
+            var6 = 'a11yColorblindMode';
+            var2 = var2.bind(var5)(var6);
+            if(var2) { _fun0010_ip = 149; continue _fun0010 }
  147:
-            michal = false;
+            var2 = false;
  149:
-            report = _closure1_slot0;
-            entity = _closure1_slot2;
-            verify = entity[option];
-            verify = report.bind(golfie)(verify);
-            offset = verify.Storage;
-            verify = offset.remove;
-            verify = verify.bind(offset)(romeon);
-            verify = entity[option];
-            verify = report.bind(golfie)(verify);
-            offset = verify.Storage;
-            verify = offset.remove;
-            verify = verify.bind(offset)(yankee);
-            entity = entity[option];
-            entity = report.bind(golfie)(entity);
-            report = entity.Storage;
-            entity = report.remove;
-            entity = entity.bind(report)(oscard);
-            entity = {};
-            entity['fontScale'] = tangon;
-            entity['zoom'] = zuuluu;
-            entity['colorblindMode'] = michal;
-            michal = false;
-            entity['keyboardModeEnabled'] = michal;
-            return entity;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var9 = var1[var8];
+            var9 = var5.bind(var7)(var9);
+            var10 = var9.Storage;
+            var9 = var10.remove;
+            var9 = var9.bind(var10)(var12);
+            var9 = var1[var8];
+            var9 = var5.bind(var7)(var9);
+            var10 = var9.Storage;
+            var9 = var10.remove;
+            var9 = var9.bind(var10)(var11);
+            var1 = var1[var8];
+            var1 = var5.bind(var7)(var1);
+            var5 = var1.Storage;
+            var1 = var5.remove;
+            var1 = var1.bind(var5)(var6);
+            var1 = {};
+            var1['fontScale'] = var4;
+            var1['zoom'] = var3;
+            var1['colorblindMode'] = var2;
+            var2 = false;
+            var1['keyboardModeEnabled'] = var2;
+            return var1;
         }
     };
-    tangon[0] = offset;
-    offset = function(argFoo) {
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    var4[0] = var10;
+    var10 = function(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            report = argFoo;
-            tangon = report.fontScale;
-            zuuluu = _closure1_slot4;
-            michal = _closure1_slot3;
-            entity = undefined;
-            michal = zuuluu.bind(entity)(report, michal);
-            entity = 82;
-            if(!(entity !== tangon)) { _fun00022_ip = 99; continue _fun00021 }
+            var5 = arg1;
+            var4 = var5.fontScale;
+            var3 = _closure1_slot4;
+            var2 = _closure1_slot3;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var5, var2);
+            var1 = 82;
+            if(!(var1 !== var4)) { _fun0011_ip = 99; continue _fun0011 }
  35:
-            entity = 92;
-            if(!(entity !== tangon)) { _fun00022_ip = 94; continue _fun00021 }
+            var1 = 92;
+            if(!(var1 !== var4)) { _fun0011_ip = 94; continue _fun0011 }
  42:
-            report = 16;
-            entity = 100;
-            zuuluu = report;
-            if(!(entity !== tangon)) { _fun00022_ip = 102; continue _fun00021 }
+            var5 = 16;
+            var1 = 100;
+            var3 = var5;
+            if(!(var1 !== var4)) { _fun0011_ip = 102; continue _fun0011 }
  55:
-            entity = 110;
-            if(!(entity !== tangon)) { _fun00022_ip = 89; continue _fun00021 }
+            var1 = 110;
+            if(!(var1 !== var4)) { _fun0011_ip = 89; continue _fun0011 }
  62:
-            entity = 125;
-            if(!(entity !== tangon)) { _fun00022_ip = 84; continue _fun00021 }
+            var1 = 125;
+            if(!(var1 !== var4)) { _fun0011_ip = 84; continue _fun0011 }
  69:
-            entity = 150;
-            zuuluu = report;
-            if(!(entity === tangon)) { _fun00022_ip = 102; continue _fun00021 }
+            var1 = 150;
+            var3 = var5;
+            if(!(var1 === var4)) { _fun0011_ip = 102; continue _fun0011 }
  79:
-            zuuluu = 24;
-            _fun00022_ip = 102; continue _fun00021;
+            var3 = 24;
+            _fun0011_ip = 102; continue _fun0011;
  84:
-            zuuluu = 20;
-            _fun00022_ip = 102; continue _fun00021;
+            var3 = 20;
+            _fun0011_ip = 102; continue _fun0011;
  89:
-            zuuluu = 18;
-            _fun00022_ip = 102; continue _fun00021;
+            var3 = 18;
+            _fun0011_ip = 102; continue _fun0011;
  94:
-            zuuluu = 15;
-            _fun00022_ip = 102; continue _fun00021;
+            var3 = 15;
+            _fun0011_ip = 102; continue _fun0011;
  99:
-            zuuluu = 12;
+            var3 = 12;
  102:
-            entity = {};
-            golfie = entity;
-            oscard = michal;
-            michal = copyDataProperties(golfie, oscard);
-            michal = 'fontSize';
-            entity[michal] = zuuluu;
-            return entity;
+            var1 = {};
+            var7 = var1;
+            var6 = var2;
+            var2 = copyDataProperties(var7, var6);
+            var2 = 'fontSize';
+            var1[var2] = var3;
+            return var1;
         }
     };
-    tangon[1] = offset;
-    offset = function(argFoo) {
-        entity = {};
-        tangon = argFoo;
-        report = entity;
-        michal = copyDataProperties(report, tangon);
-        zuuluu = false;
-        michal = 'darkSidebar';
-        entity[michal] = zuuluu;
-        return entity;
+    var4[1] = var10;
+    var10 = function(arg1) {
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = false;
+        var2 = 'darkSidebar';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon[2] = offset;
-    offset = function(argFoo) {
-        entity = {};
-        tangon = argFoo;
-        report = entity;
-        michal = copyDataProperties(report, tangon);
-        zuuluu = null;
-        michal = 'messageGroupSpacing';
-        entity[michal] = zuuluu;
-        return entity;
+    var4[2] = var10;
+    var10 = function(arg1) {
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = null;
+        var2 = 'messageGroupSpacing';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon[3] = offset;
-    offset = function(argFoo) {
-        entity = {};
-        tangon = argFoo;
-        report = entity;
-        michal = copyDataProperties(report, tangon);
-        zuuluu = 'no-preference';
-        michal = 'systemPrefersReducedMotion';
-        entity[michal] = zuuluu;
-        zuuluu = 'auto';
-        michal = 'prefersReducedMotion';
-        entity[michal] = zuuluu;
-        return entity;
+    var4[3] = var10;
+    var10 = function(arg1) {
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = 'no-preference';
+        var2 = 'systemPrefersReducedMotion';
+        var1[var2] = var3;
+        var3 = 'auto';
+        var2 = 'prefersReducedMotion';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon[4] = offset;
-    offset = function(argFoo) {
-        michal = argFoo;
-        entity = {};
-        golfie = entity;
-        oscard = michal;
-        zuuluu = copyDataProperties(golfie, oscard);
-        zuuluu = michal.saturation;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        michal = 13;
-        tangon = tangon[michal];
-        michal = undefined;
-        michal = report.bind(michal)(tangon);
-        michal = michal.LOW_SATURATION_THRESHOLD;
-        zuuluu = zuuluu <= michal;
-        michal = 'alwaysShowLinkDecorations';
-        entity[michal] = zuuluu;
-        return entity;
+    var4[4] = var10;
+    var10 = function(arg1) {
+        var2 = arg1;
+        var1 = {};
+        var7 = var1;
+        var6 = var2;
+        var3 = copyDataProperties(var7, var6);
+        var3 = var2.saturation;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var2 = 13;
+        var4 = var4[var2];
+        var2 = undefined;
+        var2 = var5.bind(var2)(var4);
+        var2 = var2.LOW_SATURATION_THRESHOLD;
+        var3 = var3 <= var2;
+        var2 = 'alwaysShowLinkDecorations';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon[5] = offset;
-    offset = function(argFoo) {
-        entity = {};
-        tangon = argFoo;
-        report = entity;
-        michal = copyDataProperties(report, tangon);
-        zuuluu = false;
-        michal = 'disableVoiceBackgrounds';
-        entity[michal] = zuuluu;
-        return entity;
+    var4[5] = var10;
+    var10 = function(arg1) {
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = false;
+        var2 = 'disableVoiceBackgrounds';
+        var1[var2] = var3;
+        return var1;
     };
-    tangon[6] = offset;
-    offset = function(argFoo) {
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    var4[6] = var10;
+    var10 = function(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-            entity = argFoo;
+            var1 = arg1;
  3: // try_start_0
-            michal = entity;
-            michal = delete michal.disableVoiceBackgrounds;
+            var2 = var1;
+            var2 = delete var2.disableVoiceBackgrounds;
  11: // try_end0
-            _fun00024_ip = 15; continue _fun00023;
+            _fun0012_ip = 15; continue _fun0012;
  13: // catch_target0
             CatchBlockStart(arg_register=1);
  15:
-            return entity;
+            return var1;
         }
     };
-    tangon[7] = offset;
-    offset = function(argFoo) {
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+    var4[7] = var10;
+    var10 = function(arg1) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-            entity = argFoo;
+            var1 = arg1;
  3: // try_start_0
-            michal = entity;
-            michal = delete michal.hideGuildTags;
+            var2 = var1;
+            var2 = delete var2.hideGuildTags;
  11: // try_end0
-            _fun00026_ip = 15; continue _fun00025;
+            _fun0013_ip = 15; continue _fun0013;
  13: // catch_target0
             CatchBlockStart(arg_register=1);
  15:
-            return entity;
+            return var1;
         }
     };
-    tangon[8] = offset;
-    verify['migrations'] = tangon;
-    tangon = 14;
-    tangon = golfie[tangon];
-    foxtra = option.bind(entity)(tangon);
-    tangon = {};
-    offset = function(argFoo) { // Original name: handleFontScaleTo
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+    var4[8] = var10;
+    var9['migrations'] = var4;
+    var4 = 14;
+    var4 = var7[var4];
+    var13 = var8.bind(var1)(var4);
+    var4 = {};
+    var10 = function handleFontScaleTo(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-            entity = argFoo;
-            michal = entity.fontSize;
-            entity = _closure1_slot11;
-            tangon = entity.FONT_SIZES;
-            entity = tangon.indexOf;
-            tangon = entity.bind(tangon)(michal);
-            entity = 0;
-            if(!(!(tangon >= entity))) { _fun00028_ip = 49; continue _fun00027 }
+            var1 = arg1;
+            var2 = var1.fontSize;
+            var1 = _closure1_slot11;
+            var4 = var1.FONT_SIZES;
+            var1 = var4.indexOf;
+            var4 = var1.bind(var4)(var2);
+            var1 = 0;
+            if(!(!(var4 >= var1))) { _fun0014_ip = 49; continue _fun0014 }
  39:
-            entity = _closure1_slot11;
-            michal = entity.FONT_SIZE_DEFAULT;
+            var1 = _closure1_slot11;
+            var2 = var1.FONT_SIZE_DEFAULT;
  49:
-            entity = _closure1_slot11;
-            entity = entity.FONT_SIZE_MAX;
-            if(!(!(michal > entity))) { _fun00028_ip = 118; continue _fun00027 }
+            var1 = _closure1_slot11;
+            var1 = var1.FONT_SIZE_MAX;
+            if(!(!(var2 > var1))) { _fun0014_ip = 118; continue _fun0014 }
  63:
-            entity = _closure1_slot11;
-            entity = entity.FONT_SIZE_MIN;
-            if(!(!(michal < entity))) { _fun00028_ip = 118; continue _fun00027 }
+            var1 = _closure1_slot11;
+            var1 = var1.FONT_SIZE_MIN;
+            if(!(!(var2 < var1))) { _fun0014_ip = 118; continue _fun0014 }
  77:
-            entity = _closure1_slot17;
-            entity = entity.fontSize;
-            if(!(entity !== michal)) { _fun00028_ip = 118; continue _fun00027 }
+            var1 = _closure1_slot17;
+            var1 = var1.fontSize;
+            if(!(var1 !== var2)) { _fun0014_ip = 118; continue _fun0014 }
  91:
-            entity = {};
-            report = _closure1_slot17;
-            oscard = entity;
-            tangon = copyDataProperties(oscard, report);
-            _closure1_slot17 = entity;
-            entity['fontSize'] = michal;
-            entity = undefined;
-            return entity;
+            var1 = {};
+            var5 = _closure1_slot17;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            _closure1_slot17 = var1;
+            var1['fontSize'] = var2;
+            var1 = undefined;
+            return var1;
  118:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SET_FONT_SIZE'] = offset;
-    offset = function(argFoo) { // Original name: handleZoomTo
-        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+    var4['ACCESSIBILITY_SET_FONT_SIZE'] = var10;
+    var10 = function handleZoomTo(arg1) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.zoom;
-            zuuluu = _closure1_slot11;
-            zuuluu = zuuluu.ZOOM_MIN;
-            if(!(!(tangon < zuuluu))) { _fun00030_ip = 140; continue _fun00029 }
+            var1 = arg1;
+            var4 = var1.zoom;
+            var3 = _closure1_slot11;
+            var3 = var3.ZOOM_MIN;
+            if(!(!(var4 < var3))) { _fun0015_ip = 140; continue _fun0015 }
  26:
-            tangon = entity.zoom;
-            zuuluu = _closure1_slot11;
-            zuuluu = zuuluu.ZOOM_MAX;
-            if(!(!(tangon > zuuluu))) { _fun00030_ip = 140; continue _fun00029 }
+            var4 = var1.zoom;
+            var3 = _closure1_slot11;
+            var3 = var3.ZOOM_MAX;
+            if(!(!(var4 > var3))) { _fun0015_ip = 140; continue _fun0015 }
  46:
-            zuuluu = _closure1_slot17;
-            tangon = zuuluu.zoom;
-            zuuluu = entity.zoom;
-            if(!(tangon !== zuuluu)) { _fun00030_ip = 140; continue _fun00029 }
+            var3 = _closure1_slot17;
+            var4 = var3.zoom;
+            var3 = var1.zoom;
+            if(!(var4 !== var3)) { _fun0015_ip = 140; continue _fun0015 }
  66:
-            zuuluu = {};
-            report = _closure1_slot17;
-            oscard = zuuluu;
-            tangon = copyDataProperties(oscard, report);
-            _closure1_slot17 = zuuluu;
-            entity = entity.zoom;
-            zuuluu['zoom'] = entity;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 9;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.setZoomFactor;
-            michal = _closure1_slot17;
-            michal = michal.zoom;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var3 = {};
+            var5 = _closure1_slot17;
+            var6 = var3;
+            var4 = copyDataProperties(var6, var5);
+            _closure1_slot17 = var3;
+            var1 = var1.zoom;
+            var3['zoom'] = var1;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.setZoomFactor;
+            var2 = _closure1_slot17;
+            var2 = var2.zoom;
+            var2 = var3.bind(var4)(var2);
+            return var1;
  140:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SET_ZOOM'] = offset;
-    offset = function() { // Original name: handleResetToDefault
-        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+    var4['ACCESSIBILITY_SET_ZOOM'] = var10;
+    var10 = function handleResetToDefault() {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
-            michal = _closure1_slot17;
-            report = michal.fontSize;
-            michal = _closure1_slot11;
-            tangon = michal.FONT_SIZE_DEFAULT;
-            zuuluu = _closure1_slot17;
-            zuuluu = zuuluu.zoom;
-            michal = michal.ZOOM_DEFAULT;
-            if(!(report === tangon)) { _fun00032_ip = 51; continue _fun00031 }
+            var2 = _closure1_slot17;
+            var5 = var2.fontSize;
+            var2 = _closure1_slot11;
+            var4 = var2.FONT_SIZE_DEFAULT;
+            var3 = _closure1_slot17;
+            var3 = var3.zoom;
+            var2 = var2.ZOOM_DEFAULT;
+            if(!(var5 === var4)) { _fun0016_ip = 51; continue _fun0016 }
  43:
-            if(!(zuuluu === michal)) { _fun00032_ip = 51; continue _fun00031 }
+            if(!(var3 === var2)) { _fun0016_ip = 51; continue _fun0016 }
  47:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  51:
-            michal = {};
-            oscard = _closure1_slot17;
-            golfie = michal;
-            zuuluu = copyDataProperties(golfie, oscard);
-            _closure1_slot17 = michal;
-            zuuluu = michal.fontSize;
-            michal = _closure1_slot11;
-            michal = michal.FONT_SIZE_DEFAULT;
-            if(!(zuuluu !== michal)) { _fun00032_ip = 108; continue _fun00031 }
+            var2 = {};
+            var6 = _closure1_slot17;
+            var7 = var2;
+            var3 = copyDataProperties(var7, var6);
+            _closure1_slot17 = var2;
+            var3 = var2.fontSize;
+            var2 = _closure1_slot11;
+            var2 = var2.FONT_SIZE_DEFAULT;
+            if(!(var3 !== var2)) { _fun0016_ip = 108; continue _fun0016 }
  88:
-            zuuluu = _closure1_slot17;
-            michal = _closure1_slot11;
-            michal = michal.FONT_SIZE_DEFAULT;
-            zuuluu['fontSize'] = michal;
+            var3 = _closure1_slot17;
+            var2 = _closure1_slot11;
+            var2 = var2.FONT_SIZE_DEFAULT;
+            var3['fontSize'] = var2;
  108:
-            michal = _closure1_slot17;
-            zuuluu = michal.zoom;
-            michal = _closure1_slot11;
-            michal = michal.ZOOM_DEFAULT;
-            if(!(zuuluu !== michal)) { _fun00032_ip = 195; continue _fun00031 }
+            var2 = _closure1_slot17;
+            var3 = var2.zoom;
+            var2 = _closure1_slot11;
+            var2 = var2.ZOOM_DEFAULT;
+            if(!(var3 !== var2)) { _fun0016_ip = 195; continue _fun0016 }
  132:
-            zuuluu = _closure1_slot17;
-            michal = _closure1_slot11;
-            michal = michal.ZOOM_DEFAULT;
-            zuuluu['zoom'] = michal;
-            tangon = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            michal = 9;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.setZoomFactor;
-            entity = _closure1_slot17;
-            entity = entity.zoom;
-            entity = michal.bind(zuuluu)(entity);
+            var3 = _closure1_slot17;
+            var2 = _closure1_slot11;
+            var2 = var2.ZOOM_DEFAULT;
+            var3['zoom'] = var2;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var2 = 9;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var2 = var3.setZoomFactor;
+            var1 = _closure1_slot17;
+            var1 = var1.zoom;
+            var1 = var2.bind(var3)(var1);
  195:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_RESET_TO_DEFAULT'] = offset;
-    offset = function() { // Original name: handleEnableKeyboardMode
-        _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
+    var4['ACCESSIBILITY_RESET_TO_DEFAULT'] = var10;
+    var10 = function handleEnableKeyboardMode() {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
-            michal = _closure1_slot17;
-            michal = michal.keyboardModeEnabled;
-            if(michal) { _fun00034_ip = 45; continue _fun00033 }
+            var2 = _closure1_slot17;
+            var2 = var2.keyboardModeEnabled;
+            if(var2) { _fun0017_ip = 45; continue _fun0017 }
  16:
-            michal = {};
-            tangon = _closure1_slot17;
-            report = michal;
-            zuuluu = copyDataProperties(report, tangon);
-            _closure1_slot17 = michal;
-            entity = true;
-            michal['keyboardModeEnabled'] = entity;
-            entity = undefined;
-            return entity;
+            var2 = {};
+            var4 = _closure1_slot17;
+            var5 = var2;
+            var3 = copyDataProperties(var5, var4);
+            _closure1_slot17 = var2;
+            var1 = true;
+            var2['keyboardModeEnabled'] = var1;
+            var1 = undefined;
+            return var1;
  45:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_KEYBOARD_MODE_ENABLE'] = offset;
-    offset = function() { // Original name: handleDisableKeyboardMode
-        _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
+    var4['ACCESSIBILITY_KEYBOARD_MODE_ENABLE'] = var10;
+    var10 = function handleDisableKeyboardMode() {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
-            michal = _closure1_slot17;
-            michal = michal.keyboardModeEnabled;
-            if(michal) { _fun00036_ip = 20; continue _fun00035 }
+            var2 = _closure1_slot17;
+            var2 = var2.keyboardModeEnabled;
+            if(var2) { _fun0018_ip = 20; continue _fun0018 }
  16:
-            michal = false;
-            return michal;
+            var2 = false;
+            return var2;
  20:
-            michal = {};
-            tangon = _closure1_slot17;
-            report = michal;
-            zuuluu = copyDataProperties(report, tangon);
-            _closure1_slot17 = michal;
-            entity = false;
-            michal['keyboardModeEnabled'] = entity;
-            entity = undefined;
-            return entity;
+            var2 = {};
+            var4 = _closure1_slot17;
+            var5 = var2;
+            var3 = copyDataProperties(var5, var4);
+            _closure1_slot17 = var2;
+            var1 = false;
+            var2['keyboardModeEnabled'] = var1;
+            var1 = undefined;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_KEYBOARD_MODE_DISABLE'] = offset;
-    offset = function() { // Original name: handleToggleColorblindMode
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = michal.colorblindMode;
-        entity = !entity;
-        michal['colorblindMode'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_KEYBOARD_MODE_DISABLE'] = var10;
+    var10 = function handleToggleColorblindMode() {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = var2.colorblindMode;
+        var1 = !var1;
+        var2['colorblindMode'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_COLORBLIND_TOGGLE'] = offset;
-    offset = function() { // Original name: handleToggleLowContrastMode
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = michal.lowContrastMode;
-        entity = !entity;
-        michal['lowContrastMode'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_COLORBLIND_TOGGLE'] = var10;
+    var10 = function handleToggleLowContrastMode() {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = var2.lowContrastMode;
+        var1 = !var1;
+        var2['lowContrastMode'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_LOW_CONTRAST_TOGGLE'] = offset;
-    offset = function(argFoo) { // Original name: handleSetSaturation
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = argFoo;
-        entity = entity.saturation;
-        michal['saturation'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_LOW_CONTRAST_TOGGLE'] = var10;
+    var10 = function handleSetSaturation(arg1) {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = arg1;
+        var1 = var1.saturation;
+        var2['saturation'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_SATURATION'] = offset;
-    offset = function() { // Original name: handledesaturateUserColorsToggle
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = michal.desaturateUserColors;
-        entity = !entity;
-        michal['desaturateUserColors'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_SATURATION'] = var10;
+    var10 = function handledesaturateUserColorsToggle() {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = var2.desaturateUserColors;
+        var1 = !var1;
+        var2['desaturateUserColors'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_DESATURATE_ROLES_TOGGLE'] = offset;
-    offset = function(argFoo) { // Original name: handleSystemColorPreferencesChanged
-        _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
+    var4['ACCESSIBILITY_DESATURATE_ROLES_TOGGLE'] = var10;
+    var10 = function handleSystemColorPreferencesChanged(arg1) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
-            michal = {};
-            oscard = _closure1_slot17;
-            golfie = michal;
-            zuuluu = copyDataProperties(golfie, oscard);
-            zuuluu = argFoo;
-            zuuluu = zuuluu.systemForcedColors;
-            tangon = null;
-            report = tangon != zuuluu;
-            tangon = 'none';
-            if(!report) { _fun00038_ip = 41; continue _fun00037 }
+            var2 = {};
+            var6 = _closure1_slot17;
+            var7 = var2;
+            var3 = copyDataProperties(var7, var6);
+            var3 = arg1;
+            var3 = var3.systemForcedColors;
+            var4 = null;
+            var5 = var4 != var3;
+            var4 = 'none';
+            if(!var5) { _fun0019_ip = 41; continue _fun0019 }
  38:
-            tangon = zuuluu;
+            var4 = var3;
  41:
-            zuuluu = 'systemForcedColors';
-            michal[zuuluu] = tangon;
-            _closure1_slot17 = michal;
-            entity = true;
-            return entity;
+            var3 = 'systemForcedColors';
+            var2[var3] = var4;
+            _closure1_slot17 = var2;
+            var1 = true;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED'] = offset;
-    offset = function(argFoo) { // Original name: handleSystemPrefersContrastChanged
-        _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+    var4['ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED'] = var10;
+    var10 = function handleSystemPrefersContrastChanged(arg1) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot17;
-            tangon = entity.systemPrefersContrast;
-            entity = zuuluu.systemPrefersContrast;
-            if(!(tangon !== entity)) { _fun00040_ip = 62; continue _fun00039 }
+            var3 = arg1;
+            var1 = _closure1_slot17;
+            var4 = var1.systemPrefersContrast;
+            var1 = var3.systemPrefersContrast;
+            if(!(var4 !== var1)) { _fun0020_ip = 62; continue _fun0020 }
  26:
-            entity = {};
-            report = _closure1_slot17;
-            oscard = entity;
-            tangon = copyDataProperties(oscard, report);
-            tangon = zuuluu.systemPrefersContrast;
-            zuuluu = 'systemPrefersContrast';
-            entity[zuuluu] = tangon;
-            _closure1_slot17 = entity;
-            entity = undefined;
-            return entity;
+            var1 = {};
+            var5 = _closure1_slot17;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            var4 = var3.systemPrefersContrast;
+            var3 = 'systemPrefersContrast';
+            var1[var3] = var4;
+            _closure1_slot17 = var1;
+            var1 = undefined;
+            return var1;
  62:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SYSTEM_PREFERS_CONTRAST_CHANGED'] = offset;
-    offset = function(argFoo) { // Original name: handleSystemPrefersReducedMotionChanged
-        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+    var4['ACCESSIBILITY_SYSTEM_PREFERS_CONTRAST_CHANGED'] = var10;
+    var10 = function handleSystemPrefersReducedMotionChanged(arg1) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot17;
-            tangon = entity.systemPrefersReducedMotion;
-            entity = zuuluu.systemPrefersReducedMotion;
-            if(!(tangon !== entity)) { _fun00042_ip = 62; continue _fun00041 }
+            var3 = arg1;
+            var1 = _closure1_slot17;
+            var4 = var1.systemPrefersReducedMotion;
+            var1 = var3.systemPrefersReducedMotion;
+            if(!(var4 !== var1)) { _fun0021_ip = 62; continue _fun0021 }
  26:
-            entity = {};
-            report = _closure1_slot17;
-            oscard = entity;
-            tangon = copyDataProperties(oscard, report);
-            tangon = zuuluu.systemPrefersReducedMotion;
-            zuuluu = 'systemPrefersReducedMotion';
-            entity[zuuluu] = tangon;
-            _closure1_slot17 = entity;
-            entity = undefined;
-            return entity;
+            var1 = {};
+            var5 = _closure1_slot17;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            var4 = var3.systemPrefersReducedMotion;
+            var3 = 'systemPrefersReducedMotion';
+            var1[var3] = var4;
+            _closure1_slot17 = var1;
+            var1 = undefined;
+            return var1;
  62:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SYSTEM_PREFERS_REDUCED_MOTION_CHANGED'] = offset;
-    offset = function(argFoo) { // Original name: handleSystemPrefersCrossfadesChanged
-        _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+    var4['ACCESSIBILITY_SYSTEM_PREFERS_REDUCED_MOTION_CHANGED'] = var10;
+    var10 = function handleSystemPrefersCrossfadesChanged(arg1) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot17;
-            tangon = entity.systemPrefersCrossfades;
-            entity = zuuluu.systemPrefersCrossfades;
-            if(!(tangon !== entity)) { _fun00044_ip = 62; continue _fun00043 }
+            var3 = arg1;
+            var1 = _closure1_slot17;
+            var4 = var1.systemPrefersCrossfades;
+            var1 = var3.systemPrefersCrossfades;
+            if(!(var4 !== var1)) { _fun0022_ip = 62; continue _fun0022 }
  26:
-            entity = {};
-            report = _closure1_slot17;
-            oscard = entity;
-            tangon = copyDataProperties(oscard, report);
-            tangon = zuuluu.systemPrefersCrossfades;
-            zuuluu = 'systemPrefersCrossfades';
-            entity[zuuluu] = tangon;
-            _closure1_slot17 = entity;
-            entity = undefined;
-            return entity;
+            var1 = {};
+            var5 = _closure1_slot17;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            var4 = var3.systemPrefersCrossfades;
+            var3 = 'systemPrefersCrossfades';
+            var1[var3] = var4;
+            _closure1_slot17 = var1;
+            var1 = undefined;
+            return var1;
  62:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SYSTEM_PREFERS_CROSSFADES_CHANGED'] = offset;
-    offset = function(argFoo) { // Original name: handleSetPrefersReducedMotion
-        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+    var4['ACCESSIBILITY_SYSTEM_PREFERS_CROSSFADES_CHANGED'] = var10;
+    var10 = function handleSetPrefersReducedMotion(arg1) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
-            zuuluu = argFoo;
-            entity = _closure1_slot17;
-            tangon = entity.prefersReducedMotion;
-            entity = zuuluu.prefersReducedMotion;
-            if(!(tangon !== entity)) { _fun00046_ip = 62; continue _fun00045 }
+            var3 = arg1;
+            var1 = _closure1_slot17;
+            var4 = var1.prefersReducedMotion;
+            var1 = var3.prefersReducedMotion;
+            if(!(var4 !== var1)) { _fun0023_ip = 62; continue _fun0023 }
  26:
-            entity = {};
-            report = _closure1_slot17;
-            oscard = entity;
-            tangon = copyDataProperties(oscard, report);
-            tangon = zuuluu.prefersReducedMotion;
-            zuuluu = 'prefersReducedMotion';
-            entity[zuuluu] = tangon;
-            _closure1_slot17 = entity;
-            entity = undefined;
-            return entity;
+            var1 = {};
+            var5 = _closure1_slot17;
+            var6 = var1;
+            var4 = copyDataProperties(var6, var5);
+            var4 = var3.prefersReducedMotion;
+            var3 = 'prefersReducedMotion';
+            var1[var3] = var4;
+            _closure1_slot17 = var1;
+            var1 = undefined;
+            return var1;
  62:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    tangon['ACCESSIBILITY_SET_PREFERS_REDUCED_MOTION'] = offset;
-    offset = function(argFoo) { // Original name: handleSetSyncForcedColors
-        michal = _closure1_slot17;
-        entity = argFoo;
-        entity = entity.syncForcedColors;
-        michal['syncForcedColors'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_PREFERS_REDUCED_MOTION'] = var10;
+    var10 = function handleSetSyncForcedColors(arg1) {
+        var2 = _closure1_slot17;
+        var1 = arg1;
+        var1 = var1.syncForcedColors;
+        var2['syncForcedColors'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_SYNC_FORCED_COLORS'] = offset;
-    offset = function(argFoo) { // Original name: handleSetAlwaysShowLinkDecorations
-        michal = {};
-        report = _closure1_slot17;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        zuuluu = argFoo;
-        tangon = zuuluu.alwaysShowLinkDecorations;
-        zuuluu = 'alwaysShowLinkDecorations';
-        michal[zuuluu] = tangon;
-        _closure1_slot17 = michal;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_SYNC_FORCED_COLORS'] = var10;
+    var10 = function handleSetAlwaysShowLinkDecorations(arg1) {
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = arg1;
+        var4 = var3.alwaysShowLinkDecorations;
+        var3 = 'alwaysShowLinkDecorations';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_ALWAYS_SHOW_LINK_DECORATIONS'] = offset;
-    offset = function(argFoo) { // Original name: handleSetRoleStyle
-        michal = _closure1_slot17;
-        entity = argFoo;
-        entity = entity.roleStyle;
-        michal['roleStyle'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_ALWAYS_SHOW_LINK_DECORATIONS'] = var10;
+    var10 = function handleSetRoleStyle(arg1) {
+        var2 = _closure1_slot17;
+        var1 = arg1;
+        var1 = var1.roleStyle;
+        var2['roleStyle'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_ROLE_STYLE'] = offset;
-    offset = function() { // Original name: handleForcedColorsModalSeen
-        michal = _closure1_slot17;
-        entity = true;
-        michal['forcedColorsModalSeen'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_ROLE_STYLE'] = var10;
+    var10 = function handleForcedColorsModalSeen() {
+        var2 = _closure1_slot17;
+        var1 = true;
+        var2['forcedColorsModalSeen'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_FORCED_COLORS_MODAL_SEEN'] = offset;
-    offset = function() { // Original name: handleKeyboardNavigationExplainerModalSeen
-        michal = {};
-        report = _closure1_slot17;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        tangon = true;
-        zuuluu = 'keyboardNavigationExplainerModalSeen';
-        michal[zuuluu] = tangon;
-        _closure1_slot17 = michal;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_FORCED_COLORS_MODAL_SEEN'] = var10;
+    var10 = function handleKeyboardNavigationExplainerModalSeen() {
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var4 = true;
+        var3 = 'keyboardNavigationExplainerModalSeen';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['KEYBOARD_NAVIGATION_EXPLAINER_MODAL_SEEN'] = offset;
-    offset = function(argFoo) { // Original name: handleMessageGroupSpacingChange
-        entity = argFoo;
-        tangon = entity.messageGroupSpacing;
-        michal = {};
-        report = _closure1_slot17;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        zuuluu = 'messageGroupSpacing';
-        michal[zuuluu] = tangon;
-        _closure1_slot17 = michal;
-        entity = undefined;
-        return entity;
+    var4['KEYBOARD_NAVIGATION_EXPLAINER_MODAL_SEEN'] = var10;
+    var10 = function handleMessageGroupSpacingChange(arg1) {
+        var1 = arg1;
+        var4 = var1.messageGroupSpacing;
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = 'messageGroupSpacing';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_MESSAGE_GROUP_SPACING'] = offset;
-    offset = function() { // Original name: handleSubmitButtonToggle
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = michal.submitButtonEnabled;
-        entity = !entity;
-        michal['submitButtonEnabled'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_MESSAGE_GROUP_SPACING'] = var10;
+    var10 = function handleSubmitButtonToggle() {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = var2.submitButtonEnabled;
+        var1 = !var1;
+        var2['submitButtonEnabled'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SUBMIT_BUTTON_TOGGLE'] = offset;
-    offset = function() { // Original name: handleSyncProfileThemeWithUserThemeToggle
-        michal = {};
-        tangon = _closure1_slot17;
-        report = michal;
-        zuuluu = copyDataProperties(report, tangon);
-        _closure1_slot17 = michal;
-        entity = michal.syncProfileThemeWithUserTheme;
-        entity = !entity;
-        michal['syncProfileThemeWithUserTheme'] = entity;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SUBMIT_BUTTON_TOGGLE'] = var10;
+    var10 = function handleSyncProfileThemeWithUserThemeToggle() {
+        var2 = {};
+        var4 = _closure1_slot17;
+        var5 = var2;
+        var3 = copyDataProperties(var5, var4);
+        _closure1_slot17 = var2;
+        var1 = var2.syncProfileThemeWithUserTheme;
+        var1 = !var1;
+        var2['syncProfileThemeWithUserTheme'] = var1;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SYNC_PROFILE_THEME_WITH_USER_THEME_TOGGLE'] = offset;
-    offset = function(argFoo) { // Original name: handleSetContrast
-        entity = argFoo;
-        tangon = entity.contrast;
-        michal = {};
-        report = _closure1_slot17;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        zuuluu = 'contrast';
-        michal[zuuluu] = tangon;
-        _closure1_slot17 = michal;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SYNC_PROFILE_THEME_WITH_USER_THEME_TOGGLE'] = var10;
+    var10 = function handleSetContrast(arg1) {
+        var1 = arg1;
+        var4 = var1.contrast;
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = 'contrast';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_CONTRAST'] = offset;
-    report = function(argFoo) { // Original name: handleSetContrastMode
-        entity = argFoo;
-        tangon = entity.contrastMode;
-        michal = {};
-        report = _closure1_slot17;
-        oscard = michal;
-        zuuluu = copyDataProperties(oscard, report);
-        zuuluu = 'contrastMode';
-        michal[zuuluu] = tangon;
-        _closure1_slot17 = michal;
-        entity = undefined;
-        return entity;
+    var4['ACCESSIBILITY_SET_CONTRAST'] = var10;
+    var5 = function handleSetContrastMode(arg1) {
+        var1 = arg1;
+        var4 = var1.contrastMode;
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = 'contrastMode';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
     };
-    tangon['ACCESSIBILITY_SET_CONTRAST_MODE'] = report;
-    report = verify.prototype;
-    report = Object.create(report, {constructor: {value: verify}});
-    backup = report;
-    romeon = tangon;
-    tangon = new backup[verify](foxtra, romeon, yankee);
-    tangon = tangon instanceof Object ? tangon : report;
-    report = 15;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/a11y/AccessibilityStore.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['default'] = tangon;
-    zuuluu['AccessibilityContrastMode'] = michal;
-    return entity;
+    var4['ACCESSIBILITY_SET_CONTRAST_MODE'] = var5;
+    var5 = var9.prototype;
+    var5 = Object.create(var5, {constructor: {value: var9}});
+    var14 = var5;
+    var12 = var4;
+    var4 = new var14[var9](var13, var12, var11);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var5 = 15;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/a11y/AccessibilityStore.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['AccessibilityContrastMode'] = var2;
+    return var1;
 })();

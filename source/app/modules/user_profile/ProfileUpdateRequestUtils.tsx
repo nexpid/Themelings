@@ -1,210 +1,210 @@
 // app/modules/user_profile/ProfileUpdateRequestUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_profile/ProfileUpdateRequestUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) { // Original name: getProfileChangesForUpdateRequest
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/ProfileUpdateRequestUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getProfileChangesForUpdateRequest(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            entity = {};
-            michal = zuuluu.pendingBanner;
-            report = undefined;
-            if(!(report !== michal)) { _fun00002_ip = 29; continue _fun00001 }
+            var3 = arg1;
+            var1 = {};
+            var2 = var3.pendingBanner;
+            var5 = undefined;
+            if(!(var5 !== var2)) { _fun0001_ip = 29; continue _fun0001 }
  17:
-            michal = zuuluu.pendingBanner;
-            entity['banner'] = michal;
+            var2 = var3.pendingBanner;
+            var1['banner'] = var2;
  29:
-            tangon = zuuluu.pendingBio;
-            michal = null;
-            if(!(michal != tangon)) { _fun00002_ip = 53; continue _fun00001 }
+            var4 = var3.pendingBio;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 53; continue _fun0001 }
  41:
-            tangon = zuuluu.pendingBio;
-            entity['bio'] = tangon;
+            var4 = var3.pendingBio;
+            var1['bio'] = var4;
  53:
-            tangon = zuuluu.pendingPronouns;
-            if(!(michal != tangon)) { _fun00002_ip = 75; continue _fun00001 }
+            var4 = var3.pendingPronouns;
+            if(!(var2 != var4)) { _fun0001_ip = 75; continue _fun0001 }
  63:
-            tangon = zuuluu.pendingPronouns;
-            entity['pronouns'] = tangon;
+            var4 = var3.pendingPronouns;
+            var1['pronouns'] = var4;
  75:
-            tangon = zuuluu.pendingAccentColor;
-            if(!(report !== tangon)) { _fun00002_ip = 97; continue _fun00001 }
+            var4 = var3.pendingAccentColor;
+            if(!(var5 !== var4)) { _fun0001_ip = 97; continue _fun0001 }
  85:
-            tangon = zuuluu.pendingAccentColor;
-            entity['accent_color'] = tangon;
+            var4 = var3.pendingAccentColor;
+            var1['accent_color'] = var4;
  97:
-            tangon = zuuluu.pendingThemeColors;
-            if(!(report !== tangon)) { _fun00002_ip = 119; continue _fun00001 }
+            var4 = var3.pendingThemeColors;
+            if(!(var5 !== var4)) { _fun0001_ip = 119; continue _fun0001 }
  107:
-            tangon = zuuluu.pendingThemeColors;
-            entity['theme_colors'] = tangon;
+            var4 = var3.pendingThemeColors;
+            var1['theme_colors'] = var4;
  119:
-            tangon = zuuluu.pendingProfileEffectId;
-            if(!(report !== tangon)) { _fun00002_ip = 156; continue _fun00001 }
+            var4 = var3.pendingProfileEffectId;
+            if(!(var5 !== var4)) { _fun0001_ip = 156; continue _fun0001 }
  129:
-            tangon = zuuluu.pendingProfileEffectId;
-            tangon = michal != tangon;
-            michal = null;
-            if(!tangon) { _fun00002_ip = 150; continue _fun00001 }
+            var4 = var3.pendingProfileEffectId;
+            var4 = var2 != var4;
+            var2 = null;
+            if(!var4) { _fun0001_ip = 150; continue _fun0001 }
  144:
-            michal = zuuluu.pendingProfileEffectId;
+            var2 = var3.pendingProfileEffectId;
  150:
-            entity['profile_effect_id'] = michal;
+            var1['profile_effect_id'] = var2;
  156:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getProfileChangesForUpdateRequest'] = tangon;
-    tangon = function(argFoo) { // Original name: getAccountUpdateForUpdateRequest
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getProfileChangesForUpdateRequest'] = var4;
+    var4 = function getAccountUpdateForUpdateRequest(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            entity = {};
-            zuuluu = michal.pendingGlobalName;
-            tangon = undefined;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 29; continue _fun00003 }
+            var2 = arg1;
+            var1 = {};
+            var3 = var2.pendingGlobalName;
+            var4 = undefined;
+            if(!(var4 !== var3)) { _fun0002_ip = 29; continue _fun0002 }
  17:
-            zuuluu = michal.pendingGlobalName;
-            entity['globalName'] = zuuluu;
+            var3 = var2.pendingGlobalName;
+            var1['globalName'] = var3;
  29:
-            zuuluu = michal.pendingNameplate;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 51; continue _fun00003 }
+            var3 = var2.pendingNameplate;
+            if(!(var4 !== var3)) { _fun0002_ip = 51; continue _fun0002 }
  39:
-            zuuluu = michal.pendingNameplate;
-            entity['nameplate'] = zuuluu;
+            var3 = var2.pendingNameplate;
+            var1['nameplate'] = var3;
  51:
-            zuuluu = michal.pendingAvatar;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 167; continue _fun00003 }
+            var3 = var2.pendingAvatar;
+            if(!(var4 !== var3)) { _fun0002_ip = 167; continue _fun0002 }
  61:
-            report = michal.pendingAvatar;
-            zuuluu = null;
-            if(!(zuuluu !== report)) { _fun00004_ip = 161; continue _fun00003 }
+            var5 = var2.pendingAvatar;
+            var3 = null;
+            if(!(var3 !== var5)) { _fun0002_ip = 161; continue _fun0002 }
  73:
-            golfie = report.assetOrigin;
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            oscard = 0;
-            oscard = verify[oscard];
-            oscard = option.bind(tangon)(oscard);
-            oscard = oscard.AssetOriginTypes;
-            oscard = oscard.ARCHIVED_ASSET;
-            if(!(golfie !== oscard)) { _fun00004_ip = 142; continue _fun00003 }
+            var7 = var5.assetOrigin;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var6 = 0;
+            var6 = var9[var6];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.AssetOriginTypes;
+            var6 = var6.ARCHIVED_ASSET;
+            if(!(var7 !== var6)) { _fun0002_ip = 142; continue _fun0002 }
  117:
-            oscard = report.imageUri;
-            entity['avatar'] = oscard;
-            oscard = report.description;
-            entity['avatarDescription'] = oscard;
-            _fun00004_ip = 167; continue _fun00003;
+            var6 = var5.imageUri;
+            var1['avatar'] = var6;
+            var6 = var5.description;
+            var1['avatarDescription'] = var6;
+            _fun0002_ip = 167; continue _fun0002;
  142:
-            report = report.originalAsset;
-            report = report.id;
-            entity['avatarId'] = report;
-            _fun00004_ip = 167; continue _fun00003;
+            var5 = var5.originalAsset;
+            var5 = var5.id;
+            var1['avatarId'] = var5;
+            _fun0002_ip = 167; continue _fun0002;
  161:
-            entity['avatar'] = zuuluu;
+            var1['avatar'] = var3;
  167:
-            zuuluu = michal.pendingAvatarDecoration;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 189; continue _fun00003 }
+            var3 = var2.pendingAvatarDecoration;
+            if(!(var4 !== var3)) { _fun0002_ip = 189; continue _fun0002 }
  177:
-            michal = michal.pendingAvatarDecoration;
-            entity['avatarDecoration'] = michal;
+            var2 = var2.pendingAvatarDecoration;
+            var1['avatarDecoration'] = var2;
  189:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAccountUpdateForUpdateRequest'] = tangon;
-    tangon = function(argFoo) { // Original name: getGuildMemberChangesForUpdateRequest
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getAccountUpdateForUpdateRequest'] = var4;
+    var4 = function getGuildMemberChangesForUpdateRequest(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = {};
-            zuuluu = michal.pendingAvatar;
-            tangon = undefined;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 123; continue _fun00005 }
+            var2 = arg1;
+            var1 = {};
+            var3 = var2.pendingAvatar;
+            var4 = undefined;
+            if(!(var4 !== var3)) { _fun0003_ip = 123; continue _fun0003 }
  17:
-            report = michal.pendingAvatar;
-            zuuluu = null;
-            if(!(zuuluu !== report)) { _fun00006_ip = 117; continue _fun00005 }
+            var5 = var2.pendingAvatar;
+            var3 = null;
+            if(!(var3 !== var5)) { _fun0003_ip = 117; continue _fun0003 }
  29:
-            golfie = report.assetOrigin;
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            oscard = 0;
-            oscard = verify[oscard];
-            oscard = option.bind(tangon)(oscard);
-            oscard = oscard.AssetOriginTypes;
-            oscard = oscard.ARCHIVED_ASSET;
-            if(!(golfie !== oscard)) { _fun00006_ip = 98; continue _fun00005 }
+            var7 = var5.assetOrigin;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var6 = 0;
+            var6 = var9[var6];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.AssetOriginTypes;
+            var6 = var6.ARCHIVED_ASSET;
+            if(!(var7 !== var6)) { _fun0003_ip = 98; continue _fun0003 }
  73:
-            oscard = report.imageUri;
-            entity['avatar'] = oscard;
-            oscard = report.description;
-            entity['avatarDescription'] = oscard;
-            _fun00006_ip = 123; continue _fun00005;
+            var6 = var5.imageUri;
+            var1['avatar'] = var6;
+            var6 = var5.description;
+            var1['avatarDescription'] = var6;
+            _fun0003_ip = 123; continue _fun0003;
  98:
-            report = report.originalAsset;
-            report = report.id;
-            entity['avatarId'] = report;
-            _fun00006_ip = 123; continue _fun00005;
+            var5 = var5.originalAsset;
+            var5 = var5.id;
+            var1['avatarId'] = var5;
+            _fun0003_ip = 123; continue _fun0003;
  117:
-            entity['avatar'] = zuuluu;
+            var1['avatar'] = var3;
  123:
-            zuuluu = michal.pendingNickname;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 161; continue _fun00005 }
+            var3 = var2.pendingNickname;
+            if(!(var4 !== var3)) { _fun0003_ip = 161; continue _fun0003 }
  133:
-            report = michal.pendingNickname;
-            zuuluu = null;
-            oscard = zuuluu != report;
-            zuuluu = '';
-            if(!oscard) { _fun00006_ip = 155; continue _fun00005 }
+            var5 = var2.pendingNickname;
+            var3 = null;
+            var6 = var3 != var5;
+            var3 = '';
+            if(!var6) { _fun0003_ip = 155; continue _fun0003 }
  152:
-            zuuluu = report;
+            var3 = var5;
  155:
-            entity['nick'] = zuuluu;
+            var1['nick'] = var3;
  161:
-            zuuluu = michal.pendingAvatarDecoration;
-            if(!(tangon !== zuuluu)) { _fun00006_ip = 183; continue _fun00005 }
+            var3 = var2.pendingAvatarDecoration;
+            if(!(var4 !== var3)) { _fun0003_ip = 183; continue _fun0003 }
  171:
-            michal = michal.pendingAvatarDecoration;
-            entity['avatarDecoration'] = michal;
+            var2 = var2.pendingAvatarDecoration;
+            var1['avatarDecoration'] = var2;
  183:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getGuildMemberChangesForUpdateRequest'] = tangon;
-    michal = function(argFoo) { // Original name: getPrimaryGuildChangesForUpdateRequest
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['getGuildMemberChangesForUpdateRequest'] = var4;
+    var2 = function getPrimaryGuildChangesForUpdateRequest(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            michal = argFoo;
-            entity = {};
-            tangon = michal.pendingPrimaryGuildId;
-            zuuluu = undefined;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 29; continue _fun00007 }
+            var2 = arg1;
+            var1 = {};
+            var4 = var2.pendingPrimaryGuildId;
+            var3 = undefined;
+            if(!(var3 !== var4)) { _fun0004_ip = 29; continue _fun0004 }
  17:
-            michal = michal.pendingPrimaryGuildId;
-            entity['primaryGuildId'] = michal;
+            var2 = var2.pendingPrimaryGuildId;
+            var1['primaryGuildId'] = var2;
  29:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getPrimaryGuildChangesForUpdateRequest'] = michal;
-    return entity;
+    var3['getPrimaryGuildChangesForUpdateRequest'] = var2;
+    return var1;
 })();

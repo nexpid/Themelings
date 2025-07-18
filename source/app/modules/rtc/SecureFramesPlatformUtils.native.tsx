@@ -1,280 +1,280 @@
 // app/modules/rtc/SecureFramesPlatformUtils.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.SECURE_FRAMES_LINKING_BOTTOM_SHEET_KEY;
-    var _closure1_slot5 = golfie;
-    golfie = michal.SECURE_FRAMES_STREAM_VERIFICATION_BOTTOM_SHEET_KEY;
-    var _closure1_slot6 = golfie;
-    michal = michal.SECURE_FRAMES_USER_VERIFICATION_MODAL_KEY;
-    var _closure1_slot7 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.ME;
-    var _closure1_slot8 = golfie;
-    michal = michal.Routes;
-    var _closure1_slot9 = michal;
-    michal = {};
-    golfie = function(argFoo, argBar) { // Original name: openSecureFramesStreamVerification
-        report = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 7;
-        tangon = zuuluu[entity];
-        entity = undefined;
-        oscard = report.bind(entity)(tangon);
-        report = oscard.openLazy;
-        golfie = _closure1_slot0;
-        tangon = 6;
-        tangon = zuuluu[tangon];
-        golfie = golfie.bind(entity)(tangon);
-        tangon = 8;
-        tangon = zuuluu[tangon];
-        zuuluu = zuuluu.paths;
-        tangon = golfie.bind(entity)(tangon, zuuluu);
-        zuuluu = _closure1_slot6;
-        michal = {};
-        golfie = argFoo;
-        michal['streamKey'] = golfie;
-        golfie = argBar;
-        michal['channelId'] = golfie;
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.SECURE_FRAMES_LINKING_BOTTOM_SHEET_KEY;
+    var _closure1_slot5 = var7;
+    var7 = var2.SECURE_FRAMES_STREAM_VERIFICATION_BOTTOM_SHEET_KEY;
+    var _closure1_slot6 = var7;
+    var2 = var2.SECURE_FRAMES_USER_VERIFICATION_MODAL_KEY;
+    var _closure1_slot7 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.ME;
+    var _closure1_slot8 = var7;
+    var2 = var2.Routes;
+    var _closure1_slot9 = var2;
+    var2 = {};
+    var7 = function openSecureFramesStreamVerification(arg1, arg2) {
+        var5 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 7;
+        var4 = var3[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.openLazy;
+        var7 = _closure1_slot0;
+        var4 = 6;
+        var4 = var3[var4];
+        var7 = var7.bind(var1)(var4);
+        var4 = 8;
+        var4 = var3[var4];
+        var3 = var3.paths;
+        var4 = var7.bind(var1)(var4, var3);
+        var3 = _closure1_slot6;
+        var2 = {};
+        var7 = arg1;
+        var2['streamKey'] = var7;
+        var7 = arg2;
+        var2['channelId'] = var7;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
     };
-    michal['openSecureFramesStreamVerification'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: openSecureFramesUserVerificationModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var2['openSecureFramesStreamVerification'] = var7;
+    var7 = function openSecureFramesUserVerificationModal(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argBaz;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            if(!michal) { _fun00002_ip = 102; continue _fun00001 }
+            var2 = arg3;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            if(!var2) { _fun0001_ip = 102; continue _fun0001 }
  12:
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            tangon = 4;
-            tangon = zuuluu[tangon];
-            oscard = report.bind(entity)(tangon);
-            report = oscard.pushLazy;
-            golfie = _closure1_slot0;
-            tangon = 6;
-            tangon = zuuluu[tangon];
-            golfie = golfie.bind(entity)(tangon);
-            tangon = 5;
-            tangon = zuuluu[tangon];
-            zuuluu = zuuluu.paths;
-            tangon = golfie.bind(entity)(tangon, zuuluu);
-            zuuluu = {};
-            golfie = argFoo;
-            zuuluu['userId'] = golfie;
-            golfie = argBar;
-            zuuluu['channelId'] = golfie;
-            michal = _closure1_slot7;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var4 = 4;
+            var4 = var3[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.pushLazy;
+            var7 = _closure1_slot0;
+            var4 = 6;
+            var4 = var3[var4];
+            var7 = var7.bind(var1)(var4);
+            var4 = 5;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var7.bind(var1)(var4, var3);
+            var3 = {};
+            var7 = arg1;
+            var3['userId'] = var7;
+            var7 = arg2;
+            var3['channelId'] = var7;
+            var2 = _closure1_slot7;
+            var2 = var5.bind(var6)(var4, var3, var2);
  102:
-            return entity;
+            return var1;
         }
     };
-    michal['openSecureFramesUserVerificationModal'] = golfie;
-    golfie = function(argFoo) { // Original name: openSecureFramesUpdateConfirmation
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2['openSecureFramesUserVerificationModal'] = var7;
+    var7 = function openSecureFramesUpdateConfirmation(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            zuuluu = argFoo;
-            offset = zuuluu.title;
-            verify = zuuluu.subtitle;
-            golfie = zuuluu.confirmText;
-            entity = undefined;
-            if(!(golfie === entity)) { _fun00004_ip = 86; continue _fun00003 }
+            var3 = arg1;
+            var10 = var3.title;
+            var9 = var3.subtitle;
+            var7 = var3.confirmText;
+            var1 = undefined;
+            if(!(var7 === var1)) { _fun0002_ip = 86; continue _fun0002 }
  28:
-            option = _closure1_slot0;
-            yankee = _closure1_slot2;
-            tangon = 9;
-            report = yankee[tangon];
-            report = option.bind(entity)(report);
-            oscard = report.intl;
-            report = oscard.string;
-            tangon = yankee[tangon];
-            tangon = option.bind(entity)(tangon);
-            tangon = tangon.t;
-            tangon = tangon.cY+Ooa;
-            golfie = report.bind(oscard)(tangon);
+            var8 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var4 = 9;
+            var5 = var11[var4];
+            var5 = var8.bind(var1)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var11[var4];
+            var4 = var8.bind(var1)(var4);
+            var4 = var4.t;
+            var4 = var4.cY+Ooa;
+            var7 = var5.bind(var6)(var4);
  86:
-            zuuluu = zuuluu.onConfirm;
-            var _closure2_slot0 = zuuluu;
-            tangon = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = option[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.confirm;
-            zuuluu = {};
-            zuuluu['title'] = offset;
-            zuuluu['body'] = verify;
-            zuuluu['confirmText'] = golfie;
-            golfie = _closure1_slot0;
-            oscard = 9;
-            verify = option[oscard];
-            verify = golfie.bind(entity)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            oscard = option[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.ETE/oK;
-            oscard = verify.bind(offset)(oscard);
-            zuuluu['cancelText'] = oscard;
-            oscard = 11;
-            oscard = option[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.ButtonColors;
-            oscard = oscard.RED;
-            zuuluu['confirmColor'] = oscard;
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.then;
-            michal = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            var3 = var3.onConfirm;
+            var _closure2_slot0 = var3;
+            var4 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 10;
+            var3 = var8[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.confirm;
+            var3 = {};
+            var3['title'] = var10;
+            var3['body'] = var9;
+            var3['confirmText'] = var7;
+            var7 = _closure1_slot0;
+            var6 = 9;
+            var9 = var8[var6];
+            var9 = var7.bind(var1)(var9);
+            var10 = var9.intl;
+            var9 = var10.string;
+            var6 = var8[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.t;
+            var6 = var6.ETE/oK;
+            var6 = var9.bind(var10)(var6);
+            var3['cancelText'] = var6;
+            var6 = 11;
+            var6 = var8[var6];
+            var6 = var7.bind(var1)(var6);
+            var6 = var6.ButtonColors;
+            var6 = var6.RED;
+            var3['confirmColor'] = var6;
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.then;
+            var2 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    entity = argFoo;
-                    if(!entity) { _fun00006_ip = 19; continue _fun00005 }
+                    var1 = arg1;
+                    if(!var1) { _fun0003_ip = 19; continue _fun0003 }
  6:
-                    michal = _closure2_slot0;
-                    entity = undefined;
-                    entity = michal.bind(entity)();
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)();
  19:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         }
     };
-    michal['openSecureFramesUpdateConfirmation'] = golfie;
-    tangon = function(argFoo) { // Original name: handleSecureFramesUserVerificationLink
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['openSecureFramesUpdateConfirmation'] = var7;
+    var4 = function handleSecureFramesUserVerificationLink(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            offset = entity.userId;
-            golfie = entity.fingerprint;
-            zuuluu = _closure1_slot4;
-            entity = zuuluu.getChannelId;
-            verify = entity.bind(zuuluu)();
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getChannel;
-            tangon = entity.bind(zuuluu)(verify);
-            zuuluu = null;
-            report = zuuluu == tangon;
-            entity = undefined;
-            option = undefined;
-            if(report) { _fun00008_ip = 68; continue _fun00007 }
+            var1 = arg1;
+            var10 = var1.userId;
+            var7 = var1.fingerprint;
+            var3 = _closure1_slot4;
+            var1 = var3.getChannelId;
+            var9 = var1.bind(var3)();
+            var3 = _closure1_slot3;
+            var1 = var3.getChannel;
+            var4 = var1.bind(var3)(var9);
+            var3 = null;
+            var5 = var3 == var4;
+            var1 = undefined;
+            var8 = undefined;
+            if(var5) { _fun0004_ip = 68; continue _fun0004 }
  58:
-            report = tangon.getGuildId;
-            option = report.bind(tangon)();
+            var5 = var4.getGuildId;
+            var8 = var5.bind(var4)();
  68:
-            if(!(zuuluu == option)) { _fun00008_ip = 76; continue _fun00007 }
+            if(!(var3 == var8)) { _fun0004_ip = 76; continue _fun0004 }
  72:
-            option = _closure1_slot8;
+            var8 = _closure1_slot8;
  76:
-            if(!(zuuluu != verify)) { _fun00008_ip = 87; continue _fun00007 }
+            if(!(var3 != var9)) { _fun0004_ip = 87; continue _fun0004 }
  80:
-            if(!(zuuluu == tangon)) { _fun00008_ip = 228; continue _fun00007 }
+            if(!(var3 == var4)) { _fun0004_ip = 228; continue _fun0004 }
  87:
-            tangon = _closure1_slot1;
-            backup = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = backup[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.show;
-            zuuluu = {};
-            foxtra = _closure1_slot0;
-            oscard = 9;
-            yankee = backup[oscard];
-            yankee = foxtra.bind(entity)(yankee);
-            kiloes = yankee.intl;
-            romeon = kiloes.string;
-            yankee = backup[oscard];
-            yankee = foxtra.bind(entity)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.5ICxEx;
-            yankee = romeon.bind(kiloes)(yankee);
-            zuuluu['title'] = yankee;
-            yankee = backup[oscard];
-            yankee = foxtra.bind(entity)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            oscard = backup[oscard];
-            oscard = foxtra.bind(entity)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.v1eXp6;
-            oscard = yankee.bind(romeon)(oscard);
-            zuuluu['body'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
-            _fun00008_ip = 351; continue _fun00007;
+            var4 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var3 = 10;
+            var3 = var14[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.show;
+            var3 = {};
+            var13 = _closure1_slot0;
+            var6 = 9;
+            var11 = var14[var6];
+            var11 = var13.bind(var1)(var11);
+            var15 = var11.intl;
+            var12 = var15.string;
+            var11 = var14[var6];
+            var11 = var13.bind(var1)(var11);
+            var11 = var11.t;
+            var11 = var11.5ICxEx;
+            var11 = var12.bind(var15)(var11);
+            var3['title'] = var11;
+            var11 = var14[var6];
+            var11 = var13.bind(var1)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var6 = var14[var6];
+            var6 = var13.bind(var1)(var6);
+            var6 = var6.t;
+            var6 = var6.v1eXp6;
+            var6 = var11.bind(var12)(var6);
+            var3['body'] = var6;
+            var3 = var4.bind(var5)(var3);
+            _fun0004_ip = 351; continue _fun0004;
  228:
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            tangon = 12;
-            tangon = zuuluu[tangon];
-            oscard = report.bind(entity)(tangon);
-            yankee = _closure1_slot9;
-            tangon = yankee.CHANNEL;
-            tangon = tangon.bind(yankee)(option, verify);
-            tangon = oscard.bind(entity)(tangon);
-            tangon = 7;
-            tangon = zuuluu[tangon];
-            oscard = report.bind(entity)(tangon);
-            report = oscard.openLazy;
-            yankee = _closure1_slot0;
-            tangon = 6;
-            tangon = zuuluu[tangon];
-            yankee = yankee.bind(entity)(tangon);
-            tangon = 13;
-            tangon = zuuluu[tangon];
-            zuuluu = zuuluu.paths;
-            tangon = yankee.bind(entity)(tangon, zuuluu);
-            zuuluu = _closure1_slot5;
-            michal = {};
-            michal['userId'] = offset;
-            michal['channelId'] = verify;
-            michal['guildId'] = option;
-            michal['fingerprint'] = golfie;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var4 = 12;
+            var4 = var3[var4];
+            var6 = var5.bind(var1)(var4);
+            var11 = _closure1_slot9;
+            var4 = var11.CHANNEL;
+            var4 = var4.bind(var11)(var8, var9);
+            var4 = var6.bind(var1)(var4);
+            var4 = 7;
+            var4 = var3[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.openLazy;
+            var11 = _closure1_slot0;
+            var4 = 6;
+            var4 = var3[var4];
+            var11 = var11.bind(var1)(var4);
+            var4 = 13;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var11.bind(var1)(var4, var3);
+            var3 = _closure1_slot5;
+            var2 = {};
+            var2['userId'] = var10;
+            var2['channelId'] = var9;
+            var2['guildId'] = var8;
+            var2['fingerprint'] = var7;
+            var2 = var5.bind(var6)(var4, var3, var2);
  351:
-            return entity;
+            return var1;
         }
     };
-    michal['handleSecureFramesUserVerificationLink'] = tangon;
-    tangon = 14;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/rtc/SecureFramesPlatformUtils.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['handleSecureFramesUserVerificationLink'] = var4;
+    var4 = 14;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/rtc/SecureFramesPlatformUtils.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

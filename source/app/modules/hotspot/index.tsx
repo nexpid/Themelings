@@ -1,59 +1,59 @@
 // app/modules/hotspot/index.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        yankee = argBar;
-        zuuluu = argFre;
-        offset = argPlu;
-        entity = global;
-        report = entity.Object;
-        tangon = report.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        entity = 0;
-        tangon = offset[entity];
-        michal = argBaz;
-        entity = undefined;
-        michal = michal.bind(entity)(tangon);
-        tangon = 1;
-        tangon = offset[tangon];
-        oscard = yankee.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/hotspot/index.tsx';
-        tangon = report.bind(oscard)(tangon);
-        tangon = 2;
-        tangon = offset[tangon];
-        verify = yankee.bind(entity)(tangon);
-        golfie = verify;
-        for(tangon in golfie)
+        var11 = native2;
+        var3 = native6;
+        var10 = native7;
+        var1 = global;
+        var5 = var1.Object;
+        var4 = var5.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var5)(var3, var1, var2);
+        var1 = 0;
+        var4 = var10[var1];
+        var2 = native3;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var4);
+        var4 = 1;
+        var4 = var10[var4];
+        var6 = var11.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/hotspot/index.tsx';
+        var4 = var5.bind(var6)(var4);
+        var4 = 2;
+        var4 = var10[var4];
+        var9 = var11.bind(var1)(var4);
+        var7 = var9;
+        for(var4 in var7)
  108:
         {
  117:
-            foxtra = tangon;
-            romeon = verify[foxtra];
-            zuuluu[foxtra] = romeon;
-            _fun00002_ip = 108; continue _fun00001;
+            var13 = var4;
+            var12 = var9[var13];
+            var3[var13] = var12;
+            _fun0001_ip = 108; continue _fun0001;
         }
  130:
-        report = 3;
-        tangon = offset[report];
-        option = yankee.bind(entity)(tangon);
-        for(tangon in option)
+        var5 = 3;
+        var4 = var10[var5];
+        var8 = var11.bind(var1)(var4);
+        for(var4 in var8)
  150:
         {
  159:
-            foxtra = tangon;
-            romeon = offset[report];
-            romeon = yankee.bind(entity)(romeon);
-            romeon = romeon[foxtra];
-            zuuluu[foxtra] = romeon;
-            _fun00002_ip = 150; continue _fun00001;
+            var13 = var4;
+            var12 = var10[var5];
+            var12 = var11.bind(var1)(var12);
+            var12 = var12[var13];
+            var3[var13] = var12;
+            _fun0001_ip = 150; continue _fun0001;
         }
  181:
-        zuuluu['HotspotStore'] = michal;
-        return entity;
+        var3['HotspotStore'] = var2;
+        return var1;
     }
 })();

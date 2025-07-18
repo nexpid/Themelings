@@ -1,66 +1,66 @@
 // app/modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useActiveEventOrStageInstanceChannel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/useActiveEventOrStageInstanceChannel.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useActiveEventOrStageInstanceChannel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            report = argFoo;
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 1;
-            michal = golfie[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(michal);
-            michal = tangon.useFirstActiveEventChannel;
-            michal = michal.bind(tangon)(report);
-            oscard = _closure1_slot1;
-            tangon = 2;
-            tangon = golfie[tangon];
-            tangon = oscard.bind(entity)(tangon);
-            oscard = tangon.bind(entity)(report);
-            report = _closure1_slot3;
-            tangon = report.getChannel;
-            zuuluu = 0;
-            oscard = oscard[zuuluu];
-            zuuluu = null;
-            golfie = zuuluu == oscard;
-            if(golfie) { _fun00002_ip = 89; continue _fun00001 }
+            var5 = arg1;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 1;
+            var2 = var7[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.useFirstActiveEventChannel;
+            var2 = var2.bind(var4)(var5);
+            var6 = _closure1_slot1;
+            var4 = 2;
+            var4 = var7[var4];
+            var4 = var6.bind(var1)(var4);
+            var6 = var4.bind(var1)(var5);
+            var5 = _closure1_slot3;
+            var4 = var5.getChannel;
+            var3 = 0;
+            var6 = var6[var3];
+            var3 = null;
+            var7 = var3 == var6;
+            if(var7) { _fun0001_ip = 89; continue _fun0001 }
  84:
-            entity = oscard.id;
+            var1 = var6.id;
  89:
-            entity = tangon.bind(report)(entity);
-            if(!(zuuluu != michal)) { _fun00002_ip = 101; continue _fun00001 }
+            var1 = var4.bind(var5)(var1);
+            if(!(var3 != var2)) { _fun0001_ip = 101; continue _fun0001 }
  98:
-            entity = michal;
+            var1 = var2;
  101:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useActiveEventOrStageInstanceChannel'] = michal;
-    return entity;
+    var3['useActiveEventOrStageInstanceChannel'] = var2;
+    return var1;
 })();

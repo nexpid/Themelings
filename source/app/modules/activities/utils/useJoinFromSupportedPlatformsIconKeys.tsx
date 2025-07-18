@@ -1,194 +1,194 @@
 // app/modules/activities/utils/useJoinFromSupportedPlatformsIconKeys.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    tangon = function(argFoo) { // Original name: getJoinFromSupportedPlatformsIconKeys
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var4 = function getJoinFromSupportedPlatformsIconKeys(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            tangon = entity.platforms;
-            zuuluu = entity.currentPlatform;
-            entity = global;
-            entity = entity.Set;
-            michal = entity.prototype;
-            michal = Object.create(michal, {constructor: {value: entity}});
-            option = michal;
-            golfie = tangon;
-            entity = new option[entity](golfie, oscard);
-            report = entity instanceof Object ? entity : michal;
-            michal = new Array(0);
-            entity = null;
-            if(!(entity != tangon)) { _fun00002_ip = 412; continue _fun00001 }
+            var1 = arg1;
+            var4 = var1.platforms;
+            var3 = var1.currentPlatform;
+            var1 = global;
+            var1 = var1.Set;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var8 = var2;
+            var7 = var4;
+            var1 = new var8[var1](var7, var6);
+            var5 = var1 instanceof Object ? var1 : var2;
+            var2 = new Array(0);
+            var1 = null;
+            if(!(var1 != var4)) { _fun0001_ip = 412; continue _fun0001 }
  59:
-            oscard = tangon.length;
-            tangon = 0;
-            if(!(tangon !== oscard)) { _fun00002_ip = 412; continue _fun00001 }
+            var6 = var4.length;
+            var4 = 0;
+            if(!(var4 !== var6)) { _fun0001_ip = 412; continue _fun0001 }
  73:
-            if(!(entity != zuuluu)) { _fun00002_ip = 93; continue _fun00001 }
+            if(!(var1 != var3)) { _fun0001_ip = 93; continue _fun0001 }
  77:
-            entity = report.has;
-            entity = entity.bind(report)(zuuluu);
-            if(entity) { _fun00002_ip = 412; continue _fun00001 }
+            var1 = var5.has;
+            var1 = var1.bind(var5)(var3);
+            if(var1) { _fun0001_ip = 412; continue _fun0001 }
  93:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.ANDROID;
-            entity = tangon.bind(report)(entity);
-            if(!entity) { _fun00002_ip = 142; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.ANDROID;
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0001_ip = 142; continue _fun0001 }
  119:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.IOS;
-            entity = tangon.bind(report)(entity);
-            if(entity) { _fun00002_ip = 232; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.IOS;
+            var1 = var4.bind(var5)(var1);
+            if(var1) { _fun0001_ip = 232; continue _fun0001 }
  142:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.ANDROID;
-            entity = tangon.bind(report)(entity);
-            if(entity) { _fun00002_ip = 210; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.ANDROID;
+            var1 = var4.bind(var5)(var1);
+            if(var1) { _fun0001_ip = 210; continue _fun0001 }
  165:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.IOS;
-            entity = tangon.bind(report)(entity);
-            if(!entity) { _fun00002_ip = 252; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.IOS;
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0001_ip = 252; continue _fun0001 }
  188:
-            tangon = michal.push;
-            entity = _closure1_slot2;
-            entity = entity.IOS;
-            entity = tangon.bind(michal)(entity);
-            _fun00002_ip = 252; continue _fun00001;
+            var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.IOS;
+            var1 = var4.bind(var2)(var1);
+            _fun0001_ip = 252; continue _fun0001;
  210:
-            tangon = michal.push;
-            entity = _closure1_slot2;
-            entity = entity.ANDROID;
-            entity = tangon.bind(michal)(entity);
-            _fun00002_ip = 252; continue _fun00001;
+            var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.ANDROID;
+            var1 = var4.bind(var2)(var1);
+            _fun0001_ip = 252; continue _fun0001;
  232:
-            tangon = michal.push;
-            entity = _closure1_slot2;
-            entity = entity.MOBILE;
-            entity = tangon.bind(michal)(entity);
+            var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.MOBILE;
+            var1 = var4.bind(var2)(var1);
  252:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.PS4;
-            entity = tangon.bind(report)(entity);
-            if(entity) { _fun00002_ip = 295; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.PS4;
+            var1 = var4.bind(var5)(var1);
+            if(var1) { _fun0001_ip = 295; continue _fun0001 }
  275:
-            oscard = report.has;
-            tangon = _closure1_slot1;
-            tangon = tangon.PS5;
-            entity = oscard.bind(report)(tangon);
+            var6 = var5.has;
+            var4 = _closure1_slot1;
+            var4 = var4.PS5;
+            var1 = var6.bind(var5)(var4);
  295:
-            if(!entity) { _fun00002_ip = 318; continue _fun00001 }
+            if(!var1) { _fun0001_ip = 318; continue _fun0001 }
  298:
-            tangon = michal.push;
-            entity = _closure1_slot2;
-            entity = entity.PLAYSTATION;
-            entity = tangon.bind(michal)(entity);
+            var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.PLAYSTATION;
+            var1 = var4.bind(var2)(var1);
  318:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.XBOX;
-            entity = tangon.bind(report)(entity);
-            if(!entity) { _fun00002_ip = 361; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.XBOX;
+            var1 = var4.bind(var5)(var1);
+            if(!var1) { _fun0001_ip = 361; continue _fun0001 }
  341:
-            tangon = michal.push;
-            entity = _closure1_slot2;
-            entity = entity.XBOX;
-            entity = tangon.bind(michal)(entity);
+            var4 = var2.push;
+            var1 = _closure1_slot2;
+            var1 = var1.XBOX;
+            var1 = var4.bind(var2)(var1);
  361:
-            tangon = report.has;
-            entity = _closure1_slot1;
-            entity = entity.DESKTOP;
-            tangon = tangon.bind(report)(entity);
-            entity = michal;
-            if(!tangon) { _fun00002_ip = 419; continue _fun00001 }
+            var4 = var5.has;
+            var1 = _closure1_slot1;
+            var1 = var1.DESKTOP;
+            var4 = var4.bind(var5)(var1);
+            var1 = var2;
+            if(!var4) { _fun0001_ip = 419; continue _fun0001 }
  387:
-            tangon = michal.push;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.DESKTOP;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            entity = michal;
-            _fun00002_ip = 419; continue _fun00001;
+            var4 = var2.push;
+            var3 = _closure1_slot2;
+            var3 = var3.DESKTOP;
+            var3 = var4.bind(var2)(var3);
+            var1 = var2;
+            _fun0001_ip = 419; continue _fun0001;
  412:
-            entity = _closure1_slot3;
+            var1 = _closure1_slot3;
  419:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    oscard = option[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(oscard);
-    var _closure1_slot0 = report;
-    report = 1;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    report = report.ActivityGamePlatforms;
-    var _closure1_slot1 = report;
-    report = {};
-    oscard = 'desktop';
-    report['DESKTOP'] = oscard;
-    oscard = 'mobile';
-    report['MOBILE'] = oscard;
-    oscard = 'android';
-    report['ANDROID'] = oscard;
-    oscard = 'ios';
-    report['IOS'] = oscard;
-    oscard = 'playstation';
-    report['PLAYSTATION'] = oscard;
-    oscard = 'xbox';
-    report['XBOX'] = oscard;
-    var _closure1_slot2 = report;
-    oscard = new Array(0);
-    var _closure1_slot3 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/activities/utils/useJoinFromSupportedPlatformsIconKeys.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['IconKey'] = report;
-    zuuluu['getJoinFromSupportedPlatformsIconKeys'] = tangon;
-    michal = function(argFoo) { // Original name: useJoinFromSupportedPlatformsIconKeys
-        michal = argFoo;
-        report = michal.platforms;
-        var _closure2_slot0 = report;
-        oscard = michal.currentPlatform;
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            zuuluu = _closure1_slot4;
-            michal = {};
-            tangon = _closure2_slot0;
-            michal['platforms'] = tangon;
-            entity = _closure2_slot1;
-            michal['currentPlatform'] = entity;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot4 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var6 = var8[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var6);
+    var _closure1_slot0 = var5;
+    var5 = 1;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var5 = var5.ActivityGamePlatforms;
+    var _closure1_slot1 = var5;
+    var5 = {};
+    var6 = 'desktop';
+    var5['DESKTOP'] = var6;
+    var6 = 'mobile';
+    var5['MOBILE'] = var6;
+    var6 = 'android';
+    var5['ANDROID'] = var6;
+    var6 = 'ios';
+    var5['IOS'] = var6;
+    var6 = 'playstation';
+    var5['PLAYSTATION'] = var6;
+    var6 = 'xbox';
+    var5['XBOX'] = var6;
+    var _closure1_slot2 = var5;
+    var6 = new Array(0);
+    var _closure1_slot3 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/activities/utils/useJoinFromSupportedPlatformsIconKeys.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['IconKey'] = var5;
+    var3['getJoinFromSupportedPlatformsIconKeys'] = var4;
+    var2 = function useJoinFromSupportedPlatformsIconKeys(arg1) {
+        var2 = arg1;
+        var5 = var2.platforms;
+        var _closure2_slot0 = var5;
+        var6 = var2.currentPlatform;
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot0;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            var3 = _closure1_slot4;
+            var2 = {};
+            var4 = _closure2_slot0;
+            var2['platforms'] = var4;
+            var1 = _closure2_slot1;
+            var2['currentPlatform'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useJoinFromSupportedPlatformsIconKeys'] = michal;
-    return entity;
+    var3['useJoinFromSupportedPlatformsIconKeys'] = var2;
+    return var1;
 })();

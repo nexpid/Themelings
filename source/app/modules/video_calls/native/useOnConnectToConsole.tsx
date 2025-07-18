@@ -1,139 +1,139 @@
 // app/modules/video_calls/native/useOnConnectToConsole.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo, argBar) { // Original name: onConnectToConsole
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var4 = function onConnectToConsole(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argBar;
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = option[zuuluu];
-            tangon = undefined;
-            oscard = golfie.bind(tangon)(zuuluu);
-            report = oscard.UNSAFE_markDismissibleContentAsDismissed;
-            zuuluu = 3;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.DismissibleContent;
-            zuuluu = zuuluu.DONUT_MOBILE_NUX;
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = michal.twoWayLink;
-            if(!zuuluu) { _fun00002_ip = 123; continue _fun00001 }
+            var2 = arg2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 2;
+            var3 = var8[var3];
+            var4 = undefined;
+            var6 = var7.bind(var4)(var3);
+            var5 = var6.UNSAFE_markDismissibleContentAsDismissed;
+            var3 = 3;
+            var3 = var8[var3];
+            var3 = var7.bind(var4)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.DONUT_MOBILE_NUX;
+            var3 = var5.bind(var6)(var3);
+            var3 = var2.twoWayLink;
+            if(!var3) { _fun0001_ip = 123; continue _fun0001 }
  72:
-            zuuluu = michal.revoked;
-            if(zuuluu) { _fun00002_ip = 123; continue _fun00001 }
+            var3 = var2.revoked;
+            if(var3) { _fun0001_ip = 123; continue _fun0001 }
  81:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = oscard[zuuluu];
-            golfie = report.bind(tangon)(zuuluu);
-            oscard = golfie.beginConsoleTransfer;
-            report = michal.type;
-            zuuluu = argFoo;
-            zuuluu = oscard.bind(golfie)(zuuluu, report);
-            return tangon;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 6;
+            var3 = var6[var3];
+            var7 = var5.bind(var4)(var3);
+            var6 = var7.beginConsoleTransfer;
+            var5 = var2.type;
+            var3 = arg1;
+            var3 = var6.bind(var7)(var3, var5);
+            return var4;
  123:
-            report = michal.type;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.XBOX;
-            if(!(zuuluu !== report)) { _fun00002_ip = 229; continue _fun00001 }
+            var5 = var2.type;
+            var3 = _closure1_slot5;
+            var3 = var3.XBOX;
+            if(!(var3 !== var5)) { _fun0001_ip = 229; continue _fun0001 }
  142:
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.PLAYSTATION;
-            if(!(zuuluu !== report)) { _fun00002_ip = 172; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var3 = var3.PLAYSTATION;
+            if(!(var3 !== var5)) { _fun0001_ip = 172; continue _fun0001 }
  156:
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.PLAYSTATION_STAGING;
-            if(!(zuuluu !== report)) { _fun00002_ip = 172; continue _fun00001 }
+            var3 = _closure1_slot5;
+            var3 = var3.PLAYSTATION_STAGING;
+            if(!(var3 !== var5)) { _fun0001_ip = 172; continue _fun0001 }
  170:
-            return tangon;
+            return var4;
  172:
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = oscard[zuuluu];
-            oscard = report.bind(tangon)(zuuluu);
-            report = oscard.showModal;
-            zuuluu = _closure1_slot4;
-            golfie = zuuluu.CHANNEL_CALL;
-            zuuluu = new Array(1);
-            zuuluu[0] = golfie;
-            michal = michal.type;
-            michal = report.bind(oscard)(zuuluu, michal);
-            return michal;
+            var5 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 5;
+            var3 = var6[var3];
+            var6 = var5.bind(var4)(var3);
+            var5 = var6.showModal;
+            var3 = _closure1_slot4;
+            var7 = var3.CHANNEL_CALL;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var2 = var2.type;
+            var2 = var5.bind(var6)(var3, var2);
+            return var2;
  229:
-            zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
-            michal = 4;
-            michal = report[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.showModal;
-            entity = _closure1_slot4;
-            tangon = entity.CHANNEL_CALL;
-            entity = new Array(1);
-            entity[0] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 4;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.showModal;
+            var1 = _closure1_slot4;
+            var4 = var1.CHANNEL_CALL;
+            var1 = new Array(1);
+            var1[0] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.AnalyticsLocations;
-    var _closure1_slot4 = option;
-    report = report.PlatformTypes;
-    var _closure1_slot5 = report;
-    report = 7;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/video_calls/native/useOnConnectToConsole.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['onConnectToConsole'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useOnConnectToConsole
-        oscard = argFoo;
-        report = argBar;
-        var _closure2_slot0 = oscard;
-        var _closure2_slot1 = report;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useCallback;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            tangon = _closure1_slot6;
-            zuuluu = _closure2_slot0;
-            michal = _closure2_slot1;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.AnalyticsLocations;
+    var _closure1_slot4 = var8;
+    var5 = var5.PlatformTypes;
+    var _closure1_slot5 = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/video_calls/native/useOnConnectToConsole.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['onConnectToConsole'] = var4;
+    var2 = function useOnConnectToConsole(arg1, arg2) {
+        var6 = arg1;
+        var5 = arg2;
+        var _closure2_slot0 = var6;
+        var _closure2_slot1 = var5;
+        var4 = _closure1_slot3;
+        var3 = var4.useCallback;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
+        var1 = function() {
+            var4 = _closure1_slot6;
+            var3 = _closure2_slot0;
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useOnConnectToConsole'] = michal;
-    return entity;
+    var3['useOnConnectToConsole'] = var2;
+    return var1;
 })();

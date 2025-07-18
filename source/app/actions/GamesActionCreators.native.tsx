@@ -1,262 +1,262 @@
 // app/actions/GamesActionCreators.native.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: joinViaDeeplink
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = function joinViaDeeplink(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            report = tangon.application;
-            option = report.id;
-            verify = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            golfie = 1;
-            oscard = zuuluu[golfie];
-            zuuluu = undefined;
-            oscard = verify.bind(zuuluu)(oscard);
-            oscard = oscard.DISCORD_CONNECT_EXAMPLE_APP_APPLICATION_ID;
-            if(!(option !== oscard)) { _fun00002_ip = 58; continue _fun00001 }
+            var4 = arg1;
+            var5 = var4.application;
+            var8 = var5.id;
+            var9 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var7 = 1;
+            var6 = var3[var7];
+            var3 = undefined;
+            var6 = var9.bind(var3)(var6);
+            var6 = var6.DISCORD_CONNECT_EXAMPLE_APP_APPLICATION_ID;
+            if(!(var8 !== var6)) { _fun0001_ip = 58; continue _fun0001 }
  50:
-            report = report.deeplink_uri;
-            _fun00002_ip = 81; continue _fun00001;
+            var5 = var5.deeplink_uri;
+            _fun0001_ip = 81; continue _fun0001;
  58:
-            oscard = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[golfie];
-            michal = oscard.bind(zuuluu)(michal);
-            report = michal.DISCORD_CONNECT_EXAMPLE_APP_DEEPLINK_URI;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var6.bind(var3)(var2);
+            var5 = var2.DISCORD_CONNECT_EXAMPLE_APP_DEEPLINK_URI;
  81:
-            var _closure2_slot0 = report;
-            michal = null;
-            if(!(michal != report)) { _fun00002_ip = 109; continue _fun00001 }
+            var _closure2_slot0 = var5;
+            var2 = null;
+            if(!(var2 != var5)) { _fun0001_ip = 109; continue _fun0001 }
  91:
-            michal = function(argFoo, argBar) { // Original name: fetchJoinSecret
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var2 = function fetchJoinSecret(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    zuuluu = argFoo;
-                    michal = argBar;
-                    var _closure3_slot0 = michal;
-                    offset = zuuluu.userId;
-                    verify = zuuluu.sessionId;
-                    michal = zuuluu.application;
-                    oscard = zuuluu.channelId;
-                    zuuluu = zuuluu.messageId;
-                    option = michal.id;
-                    var _closure3_slot1 = option;
-                    tangon = null;
-                    michal = tangon != oscard;
-                    if(!michal) { _fun00004_ip = 60; continue _fun00003 }
+                    var3 = arg1;
+                    var2 = arg2;
+                    var _closure3_slot0 = var2;
+                    var10 = var3.userId;
+                    var9 = var3.sessionId;
+                    var2 = var3.application;
+                    var6 = var3.channelId;
+                    var3 = var3.messageId;
+                    var8 = var2.id;
+                    var _closure3_slot1 = var8;
+                    var4 = null;
+                    var2 = var4 != var6;
+                    if(!var2) { _fun0002_ip = 60; continue _fun0002 }
  56:
-                    michal = tangon != zuuluu;
+                    var2 = var4 != var3;
  60:
-                    tangon = undefined;
-                    report = undefined;
-                    if(!michal) { _fun00004_ip = 88; continue _fun00003 }
+                    var4 = undefined;
+                    var5 = undefined;
+                    if(!var2) { _fun0002_ip = 88; continue _fun0002 }
  67:
-                    michal = {};
-                    michal['channel_id'] = oscard;
-                    michal['message_id'] = zuuluu;
-                    zuuluu = true;
-                    michal['headless'] = zuuluu;
-                    report = michal;
+                    var2 = {};
+                    var2['channel_id'] = var6;
+                    var2['message_id'] = var3;
+                    var3 = true;
+                    var2['headless'] = var3;
+                    var5 = var2;
  88:
-                    zuuluu = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    michal = 2;
-                    michal = golfie[michal];
-                    yankee = zuuluu.bind(tangon)(michal);
-                    zuuluu = yankee.dispatch;
-                    michal = {};
-                    romeon = 'ACTIVITY_JOIN_LOADING';
-                    michal['type'] = romeon;
-                    michal['applicationId'] = option;
-                    michal = zuuluu.bind(yankee)(michal);
-                    zuuluu = _closure1_slot0;
-                    michal = 3;
-                    michal = golfie[michal];
-                    michal = zuuluu.bind(tangon)(michal);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.get;
-                    michal = {'url': null, 'retries': 3, 'query': null, 'oldFormErrors': true, 'rejectWithError': true};
-                    golfie = _closure1_slot3;
-                    oscard = golfie.USER_ACTIVITY_JOIN;
-                    oscard = oscard.bind(golfie)(offset, verify, option);
-                    michal['url'] = oscard;
-                    michal['query'] = report;
-                    tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = tangon.then;
-                    michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = undefined;
-                        entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
-                        return entity;
+                    var3 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var7[var2];
+                    var11 = var3.bind(var4)(var2);
+                    var3 = var11.dispatch;
+                    var2 = {};
+                    var12 = 'ACTIVITY_JOIN_LOADING';
+                    var2['type'] = var12;
+                    var2['applicationId'] = var8;
+                    var2 = var3.bind(var11)(var2);
+                    var3 = _closure1_slot0;
+                    var2 = 3;
+                    var2 = var7[var2];
+                    var2 = var3.bind(var4)(var2);
+                    var4 = var2.HTTP;
+                    var3 = var4.get;
+                    var2 = {'url': null, 'retries': 3, 'query': null, 'oldFormErrors': true, 'rejectWithError': true};
+                    var7 = _closure1_slot3;
+                    var6 = var7.USER_ACTIVITY_JOIN;
+                    var6 = var6.bind(var7)(var10, var9, var8);
+                    var2['url'] = var6;
+                    var2['query'] = var5;
+                    var4 = var3.bind(var4)(var2);
+                    var3 = var4.then;
+                    var2 = function(arg1) {
+                        var3 = _closure3_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var3.bind(var2)(var1);
+                        return var1;
                     };
-                    entity = function() {
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 2;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.dispatch;
-                        entity = {};
-                        tangon = 'ACTIVITY_JOIN_FAILED';
-                        entity['type'] = tangon;
-                        tangon = _closure3_slot1;
-                        entity['applicationId'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
-                        entity = false;
-                        return entity;
+                    var1 = function() {
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 2;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.dispatch;
+                        var1 = {};
+                        var4 = 'ACTIVITY_JOIN_FAILED';
+                        var1['type'] = var4;
+                        var4 = _closure3_slot1;
+                        var1['applicationId'] = var4;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = false;
+                        return var1;
                     };
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
                 }
             };
-            entity = function(argFoo) {
-                tangon = _closure1_slot7;
-                zuuluu = _closure2_slot0;
-                entity = argFoo;
-                entity = entity.body;
-                michal = entity.secret;
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu, michal);
-                entity = true;
-                return entity;
+            var1 = function(arg1) {
+                var4 = _closure1_slot7;
+                var3 = _closure2_slot0;
+                var1 = arg1;
+                var1 = var1.body;
+                var2 = var1.secret;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3, var2);
+                var1 = true;
+                return var1;
             };
-            entity = michal.bind(zuuluu)(tangon, entity);
-            _fun00002_ip = 130; continue _fun00001;
+            var1 = var2.bind(var3)(var4, var1);
+            _fun0001_ip = 130; continue _fun0001;
  109:
-            michal = global;
-            tangon = michal.Promise;
-            zuuluu = tangon.resolve;
-            michal = false;
-            entity = zuuluu.bind(tangon)(michal);
+            var2 = global;
+            var4 = var2.Promise;
+            var3 = var4.resolve;
+            var2 = false;
+            var1 = var3.bind(var4)(var2);
  130:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = entity;
-    tangon = function(argFoo, argBar) { // Original name: joinWithSecret
-        entity = _closure1_slot4;
-        oscard = entity.GAME_INVITE_FRAGMENT;
-        entity = global;
-        entity = entity.HermesInternal;
-        report = entity.concat;
-        tangon = '';
-        zuuluu = argFoo;
-        entity = argBar;
-        report = report.bind(tangon)(zuuluu, oscard, entity);
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 4;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.openURL;
-        michal = _closure1_slot5;
-        michal = michal.SAFARI;
-        michal = zuuluu.bind(tangon)(report, michal);
-        return entity;
+    var _closure1_slot6 = var1;
+    var4 = function joinWithSecret(arg1, arg2) {
+        var1 = _closure1_slot4;
+        var6 = var1.GAME_INVITE_FRAGMENT;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var5 = var1.concat;
+        var4 = '';
+        var3 = arg1;
+        var1 = arg2;
+        var5 = var5.bind(var4)(var3, var6, var1);
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.openURL;
+        var2 = _closure1_slot5;
+        var2 = var2.SAFARI;
+        var2 = var3.bind(var4)(var5, var2);
+        return var1;
     };
-    var _closure1_slot7 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = report.bind(entity)(michal);
-    option = michal.Endpoints;
-    var _closure1_slot3 = option;
-    option = michal.DiscordConnectDeeplinks;
-    var _closure1_slot4 = option;
-    michal = michal.WebBrowserType;
-    var _closure1_slot5 = michal;
-    michal = {};
-    option = function() { // Original name: addGame
-        entity = undefined;
-        return entity;
+    var _closure1_slot7 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.Endpoints;
+    var _closure1_slot3 = var8;
+    var8 = var2.DiscordConnectDeeplinks;
+    var _closure1_slot4 = var8;
+    var2 = var2.WebBrowserType;
+    var _closure1_slot5 = var2;
+    var2 = {};
+    var8 = function addGame() {
+        var1 = undefined;
+        return var1;
     };
-    michal['addGame'] = option;
-    option = function() { // Original name: toggleOverlay
-        entity = undefined;
-        return entity;
+    var2['addGame'] = var8;
+    var8 = function toggleOverlay() {
+        var1 = undefined;
+        return var1;
     };
-    michal['toggleOverlay'] = option;
-    option = function() { // Original name: editName
-        entity = undefined;
-        return entity;
+    var2['toggleOverlay'] = var8;
+    var8 = function editName() {
+        var1 = undefined;
+        return var1;
     };
-    michal['editName'] = option;
-    option = function() { // Original name: identifyGame
-        entity = global;
-        zuuluu = entity.Promise;
-        michal = zuuluu.reject;
-        report = entity.Error;
-        entity = report.prototype;
-        tangon = Object.create(entity, {constructor: {value: report}});
-        oscard = 'not supported';
-        golfie = tangon;
-        entity = new golfie[report](oscard, report);
-        entity = entity instanceof Object ? entity : tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var2['editName'] = var8;
+    var8 = function identifyGame() {
+        var1 = global;
+        var3 = var1.Promise;
+        var2 = var3.reject;
+        var5 = var1.Error;
+        var1 = var5.prototype;
+        var4 = Object.create(var1, {constructor: {value: var5}});
+        var6 = 'not supported';
+        var7 = var4;
+        var1 = new var7[var5](var6, var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['identifyGame'] = option;
-    option = function() { // Original name: getDetectableGames
-        entity = undefined;
-        return entity;
+    var2['identifyGame'] = var8;
+    var8 = function getDetectableGames() {
+        var1 = undefined;
+        return var1;
     };
-    michal['getDetectableGames'] = option;
-    option = function() { // Original name: reportUnverifiedGame
-        entity = undefined;
-        return entity;
+    var2['getDetectableGames'] = var8;
+    var8 = function reportUnverifiedGame() {
+        var1 = undefined;
+        return var1;
     };
-    michal['reportUnverifiedGame'] = option;
-    option = function() { // Original name: uploadIcon
-        entity = undefined;
-        return entity;
+    var2['reportUnverifiedGame'] = var8;
+    var8 = function uploadIcon() {
+        var1 = undefined;
+        return var1;
     };
-    michal['uploadIcon'] = option;
-    option = function() { // Original name: deleteEntry
-        entity = undefined;
-        return entity;
+    var2['uploadIcon'] = var8;
+    var8 = function deleteEntry() {
+        var1 = undefined;
+        return var1;
     };
-    michal['deleteEntry'] = option;
-    option = function() { // Original name: launch
-        entity = global;
-        michal = entity.Promise;
-        entity = michal.resolve;
-        entity = entity.bind(michal)();
-        return entity;
+    var2['deleteEntry'] = var8;
+    var8 = function launch() {
+        var1 = global;
+        var2 = var1.Promise;
+        var1 = var2.resolve;
+        var1 = var1.bind(var2)();
+        return var1;
     };
-    michal['launch'] = option;
-    golfie = function(argFoo) { // Original name: join
-        zuuluu = _closure1_slot6;
-        michal = undefined;
-        entity = argFoo;
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+    var2['launch'] = var8;
+    var7 = function join(arg1) {
+        var3 = _closure1_slot6;
+        var2 = undefined;
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    michal['join'] = golfie;
-    michal['joinWithSecret'] = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'actions/GamesActionCreators.native.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['join'] = var7;
+    var2['joinWithSecret'] = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'actions/GamesActionCreators.native.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

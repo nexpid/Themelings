@@ -1,204 +1,204 @@
 // app/modules/collectibles/hooks/useProductPurchaseState.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    report = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    var _closure1_slot2 = golfie;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getProductPurchaseState
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var5 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = function getProductPurchaseState(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = argFoo;
-            golfie = argBar;
-            var _closure2_slot0 = tangon;
-            zuuluu = tangon.getPurchase;
-            michal = golfie.skuId;
-            michal = zuuluu.bind(tangon)(michal);
-            report = null;
-            michal = report != michal;
-            zuuluu = golfie.items;
-            if(!(report == zuuluu)) { _fun00002_ip = 49; continue _fun00001 }
+            var4 = arg1;
+            var7 = arg2;
+            var _closure2_slot0 = var4;
+            var3 = var4.getPurchase;
+            var2 = var7.skuId;
+            var2 = var3.bind(var4)(var2);
+            var5 = null;
+            var2 = var5 != var2;
+            var3 = var7.items;
+            if(!(var5 == var3)) { _fun0001_ip = 49; continue _fun0001 }
  45:
-            zuuluu = new Array(0);
+            var3 = new Array(0);
  49:
-            verify = _closure1_slot1;
-            oscard = _closure1_slot2;
-            tangon = 1;
-            tangon = oscard[tangon];
-            oscard = undefined;
-            verify = verify.bind(oscard)(tangon);
-            offset = zuuluu.map;
-            tangon = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.getPurchase;
-                entity = argFoo;
-                entity = entity.skuId;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var9 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var4 = 1;
+            var4 = var6[var4];
+            var6 = undefined;
+            var9 = var9.bind(var6)(var4);
+            var10 = var3.map;
+            var4 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.getPurchase;
+                var1 = arg1;
+                var1 = var1.skuId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            tangon = offset.bind(zuuluu)(tangon);
-            tangon = verify.bind(oscard)(tangon);
-            offset = report == golfie;
-            verify = undefined;
-            if(offset) { _fun00002_ip = 110; continue _fun00001 }
+            var4 = var10.bind(var3)(var4);
+            var4 = var9.bind(var6)(var4);
+            var10 = var5 == var7;
+            var9 = undefined;
+            if(var10) { _fun0001_ip = 110; continue _fun0001 }
  105:
-            verify = golfie.type;
+            var9 = var7.type;
  110:
-            romeon = _closure1_slot0;
-            offset = _closure1_slot2;
-            yankee = 2;
-            offset = offset[yankee];
-            offset = romeon.bind(oscard)(offset);
-            offset = offset.CollectiblesItemType;
-            offset = offset.BUNDLE;
-            if(!(offset !== verify)) { _fun00002_ip = 317; continue _fun00001 }
+            var12 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var11 = 2;
+            var10 = var10[var11];
+            var10 = var12.bind(var6)(var10);
+            var10 = var10.CollectiblesItemType;
+            var10 = var10.BUNDLE;
+            if(!(var10 !== var9)) { _fun0001_ip = 317; continue _fun0001 }
  149:
-            offset = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[yankee];
-            option = offset.bind(oscard)(option);
-            option = option.CollectiblesItemType;
-            option = option.VARIANTS_GROUP;
-            if(!(option !== verify)) { _fun00002_ip = 204; continue _fun00001 }
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
+            var8 = var10.bind(var6)(var8);
+            var8 = var8.CollectiblesItemType;
+            var8 = var8.VARIANTS_GROUP;
+            if(!(var8 !== var9)) { _fun0001_ip = 204; continue _fun0001 }
  182:
-            option = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
-            option['isPurchased'] = michal;
-            return option;
+            var8 = {'isPurchased': null, 'isPartiallyOwnedBundle': false, 'isPartiallyOwnedVariantsGroup': false};
+            var8['isPurchased'] = var2;
+            return var8;
  204:
-            yankee = golfie.variants;
-            verify = report == yankee;
-            option = undefined;
-            if(verify) { _fun00002_ip = 237; continue _fun00001 }
+            var11 = var7.variants;
+            var9 = var5 == var11;
+            var8 = undefined;
+            if(var9) { _fun0001_ip = 237; continue _fun0001 }
  219:
-            offset = yankee.every;
-            verify = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.getPurchase;
-                entity = argFoo;
-                entity = entity.skuId;
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                entity = entity != michal;
-                return entity;
+            var10 = var11.every;
+            var9 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.getPurchase;
+                var1 = arg1;
+                var1 = var1.skuId;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
             };
-            option = offset.bind(yankee)(verify);
+            var8 = var10.bind(var11)(var9);
  237:
-            verify = golfie.variants;
-            golfie = report == verify;
-            oscard = undefined;
-            if(golfie) { _fun00002_ip = 270; continue _fun00001 }
+            var9 = var7.variants;
+            var7 = var5 == var9;
+            var6 = undefined;
+            if(var7) { _fun0001_ip = 270; continue _fun0001 }
  252:
-            golfie = verify.some;
-            entity = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.getPurchase;
-                entity = argFoo;
-                entity = entity.skuId;
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                entity = entity != michal;
-                return entity;
+            var7 = var9.some;
+            var1 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = var3.getPurchase;
+                var1 = arg1;
+                var1 = var1.skuId;
+                var2 = var2.bind(var3)(var1);
+                var1 = null;
+                var1 = var1 != var2;
+                return var1;
             };
-            oscard = golfie.bind(verify)(entity);
+            var6 = var7.bind(var9)(var1);
  270:
-            if(!oscard) { _fun00002_ip = 276; continue _fun00001 }
+            if(!var6) { _fun0001_ip = 276; continue _fun0001 }
  273:
-            oscard = !option;
+            var6 = !var8;
  276:
-            entity = {};
-            golfie = report != option;
-            if(!golfie) { _fun00002_ip = 288; continue _fun00001 }
+            var1 = {};
+            var7 = var5 != var8;
+            if(!var7) { _fun0001_ip = 288; continue _fun0001 }
  285:
-            golfie = option;
+            var7 = var8;
  288:
-            entity['isPurchased'] = golfie;
-            golfie = false;
-            entity['isPartiallyOwnedBundle'] = golfie;
-            report = report != oscard;
-            if(!report) { _fun00002_ip = 310; continue _fun00001 }
+            var1['isPurchased'] = var7;
+            var7 = false;
+            var1['isPartiallyOwnedBundle'] = var7;
+            var5 = var5 != var6;
+            if(!var5) { _fun0001_ip = 310; continue _fun0001 }
  307:
-            report = oscard;
+            var5 = var6;
  310:
-            entity['isPartiallyOwnedVariantsGroup'] = report;
-            return entity;
+            var1['isPartiallyOwnedVariantsGroup'] = var5;
+            return var1;
  317:
-            entity = {};
-            if(michal) { _fun00002_ip = 353; continue _fun00001 }
+            var1 = {};
+            if(var2) { _fun0001_ip = 353; continue _fun0001 }
  322:
-            oscard = zuuluu.length;
-            report = 0;
-            report = oscard > report;
-            if(!report) { _fun00002_ip = 350; continue _fun00001 }
+            var6 = var3.length;
+            var5 = 0;
+            var5 = var6 > var5;
+            if(!var5) { _fun0001_ip = 350; continue _fun0001 }
  336:
-            golfie = tangon.length;
-            oscard = zuuluu.length;
-            report = golfie === oscard;
+            var7 = var4.length;
+            var6 = var3.length;
+            var5 = var7 === var6;
  350:
-            michal = report;
+            var2 = var5;
  353:
-            entity['isPurchased'] = michal;
-            report = tangon.length;
-            michal = 0;
-            michal = report > michal;
-            if(!michal) { _fun00002_ip = 386; continue _fun00001 }
+            var1['isPurchased'] = var2;
+            var5 = var4.length;
+            var2 = 0;
+            var2 = var5 > var2;
+            if(!var2) { _fun0001_ip = 386; continue _fun0001 }
  372:
-            tangon = tangon.length;
-            zuuluu = zuuluu.length;
-            michal = tangon < zuuluu;
+            var4 = var4.length;
+            var3 = var3.length;
+            var2 = var4 < var3;
  386:
-            entity['isPartiallyOwnedBundle'] = michal;
-            michal = false;
-            entity['isPartiallyOwnedVariantsGroup'] = michal;
-            return entity;
+            var1['isPartiallyOwnedBundle'] = var2;
+            var2 = false;
+            var1['isPartiallyOwnedVariantsGroup'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/collectibles/hooks/useProductPurchaseState.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['getProductPurchaseState'] = tangon;
-    michal = function(argFoo) {
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useStateFromStoresObject;
-        report = _closure1_slot3;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot3;
-            michal = _closure2_slot0;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var _closure1_slot4 = var4;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/collectibles/hooks/useProductPurchaseState.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['getProductPurchaseState'] = var4;
+    var2 = function(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var4 = var5.bind(var3)(var4);
+        var3 = var4.useStateFromStoresObject;
+        var5 = _closure1_slot3;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
     };
-    zuuluu['useProductPurchaseState'] = michal;
-    return entity;
+    var3['useProductPurchaseState'] = var2;
+    return var1;
 })();

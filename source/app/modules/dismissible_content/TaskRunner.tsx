@@ -1,117 +1,117 @@
 // app/modules/dismissible_content/TaskRunner.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot1 = tangon;
-    michal = function() {
-        tangon = _closure1_slot1;
-        zuuluu = function() { // Original name: TaskRunner
-            zuuluu = this;
-            tangon = _closure1_slot0;
-            michal = _closure2_slot0;
-            entity = undefined;
-            michal = tangon.bind(entity)(zuuluu, michal);
-            michal = null;
-            zuuluu['timeoutId'] = michal;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot1 = var4;
+    var2 = function() {
+        var4 = _closure1_slot1;
+        var3 = function TaskRunner() {
+            var3 = this;
+            var4 = _closure1_slot0;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var2 = var4.bind(var1)(var3, var2);
+            var2 = null;
+            var3['timeoutId'] = var2;
+            return var1;
         };
-        var _closure2_slot0 = zuuluu;
-        entity = {};
-        michal = 'schedule';
-        entity['key'] = michal;
-        michal = function(argFoo, argBar) { // Original name: value
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            entity = argFoo;
-            var _closure3_slot1 = entity;
-            entity = zuuluu.unschedule;
-            entity = entity.bind(zuuluu)();
-            entity = global;
-            report = entity.setTimeout;
-            entity = undefined;
-            tangon = function() {
-                zuuluu = _closure3_slot0;
-                michal = null;
-                zuuluu['timeoutId'] = michal;
-                michal = _closure3_slot1;
-                entity = undefined;
-                michal = michal.bind(entity)();
-                return entity;
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var2 = 'schedule';
+        var1['key'] = var2;
+        var2 = function value(arg1, arg2) {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var1 = arg1;
+            var _closure3_slot1 = var1;
+            var1 = var3.unschedule;
+            var1 = var1.bind(var3)();
+            var1 = global;
+            var5 = var1.setTimeout;
+            var1 = undefined;
+            var4 = function() {
+                var3 = _closure3_slot0;
+                var2 = null;
+                var3['timeoutId'] = var2;
+                var2 = _closure3_slot1;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                return var1;
             };
-            michal = argBar;
-            michal = report.bind(entity)(tangon, michal);
-            zuuluu['timeoutId'] = michal;
-            return entity;
+            var2 = arg2;
+            var2 = var5.bind(var1)(var4, var2);
+            var3['timeoutId'] = var2;
+            return var1;
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
-        entity = {};
-        oscard = 'unschedule';
-        entity['key'] = oscard;
-        oscard = function() { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var1['value'] = var2;
+        var2 = new Array(3);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'unschedule';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                michal = this;
-                entity = michal.scheduled;
-                entity = entity.bind(michal)();
-                if(!entity) { _fun00002_ip = 45; continue _fun00001 }
+                var2 = this;
+                var1 = var2.scheduled;
+                var1 = var1.bind(var2)();
+                if(!var1) { _fun0001_ip = 45; continue _fun0001 }
  16:
-                entity = global;
-                tangon = entity.clearTimeout;
-                zuuluu = michal.timeoutId;
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                entity = null;
-                michal['timeoutId'] = entity;
+                var1 = global;
+                var4 = var1.clearTimeout;
+                var3 = var2.timeoutId;
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = null;
+                var2['timeoutId'] = var1;
  45:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        entity['value'] = oscard;
-        michal[1] = entity;
-        entity = {};
-        oscard = 'scheduled';
-        entity['key'] = oscard;
-        report = function() { // Original name: value
-            entity = this;
-            michal = entity.timeoutId;
-            entity = null;
-            entity = entity !== michal;
-            return entity;
+        var1['value'] = var6;
+        var2[1] = var1;
+        var1 = {};
+        var6 = 'scheduled';
+        var1['key'] = var6;
+        var5 = function value() {
+            var1 = this;
+            var2 = var1.timeoutId;
+            var1 = null;
+            var1 = var1 !== var2;
+            return var1;
         };
-        entity['value'] = report;
-        michal[2] = entity;
-        entity = undefined;
-        entity = tangon.bind(entity)(zuuluu, michal);
-        return entity;
+        var1['value'] = var5;
+        var2[2] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = 2;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/dismissible_content/TaskRunner.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['TaskRunner'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = 2;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/dismissible_content/TaskRunner.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['TaskRunner'] = var2;
+    return var1;
 })();

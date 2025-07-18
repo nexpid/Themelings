@@ -1,147 +1,147 @@
 // app/modules/guild_role_subscriptions/useChannelRoleSubscriptionStatus.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    michal = function(argFoo) { // Original name: getChannelRoleSubscriptionStatus
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var8 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var2 = function getChannelRoleSubscriptionStatus(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = arguments[1];
-            tangon = arguments[2];
-            golfie = arguments[3];
-            entity = undefined;
-            if(!(zuuluu === entity)) { _fun00002_ip = 22; continue _fun00001 }
+            var3 = arguments[1];
+            var4 = arguments[2];
+            var7 = arguments[3];
+            var1 = undefined;
+            if(!(var3 === var1)) { _fun0001_ip = 22; continue _fun0001 }
  15:
-            zuuluu = _closure1_slot3;
+            var3 = _closure1_slot3;
  22:
-            if(!(tangon === entity)) { _fun00002_ip = 33; continue _fun00001 }
+            if(!(var4 === var1)) { _fun0001_ip = 33; continue _fun0001 }
  26:
-            tangon = _closure1_slot2;
+            var4 = _closure1_slot2;
  33:
-            if(!(golfie === entity)) { _fun00002_ip = 44; continue _fun00001 }
+            if(!(var7 === var1)) { _fun0001_ip = 44; continue _fun0001 }
  37:
-            golfie = _closure1_slot4;
+            var7 = _closure1_slot4;
  44:
-            michal = zuuluu.getChannel;
-            entity = argFoo;
-            oscard = michal.bind(zuuluu)(entity);
-            entity = null;
-            if(!(entity != oscard)) { _fun00002_ip = 76; continue _fun00001 }
+            var2 = var3.getChannel;
+            var1 = arg1;
+            var6 = var2.bind(var3)(var1);
+            var1 = null;
+            if(!(var1 != var6)) { _fun0001_ip = 76; continue _fun0001 }
  63:
-            michal = oscard.isRoleSubscriptionTemplatePreviewChannel;
-            michal = michal.bind(oscard)();
-            if(michal) { _fun00002_ip = 191; continue _fun00001 }
+            var2 = var6.isRoleSubscriptionTemplatePreviewChannel;
+            var2 = var2.bind(var6)();
+            if(var2) { _fun0001_ip = 191; continue _fun0001 }
  76:
-            if(!(entity != oscard)) { _fun00002_ip = 105; continue _fun00001 }
+            if(!(var1 != var6)) { _fun0001_ip = 105; continue _fun0001 }
  80:
-            zuuluu = tangon.isChannelGated;
-            michal = oscard.guild_id;
-            entity = oscard.id;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            if(entity) { _fun00002_ip = 114; continue _fun00001 }
+            var3 = var4.isChannelGated;
+            var2 = var6.guild_id;
+            var1 = var6.id;
+            var1 = var3.bind(var4)(var2, var1);
+            if(var1) { _fun0001_ip = 114; continue _fun0001 }
  105:
-            entity = _closure1_slot6;
-            _fun00002_ip = 189; continue _fun00001;
+            var1 = _closure1_slot6;
+            _fun0001_ip = 189; continue _fun0001;
  114:
-            michal = {};
-            zuuluu = true;
-            michal['isSubscriptionGated'] = zuuluu;
-            zuuluu = oscard.isGuildVocal;
-            zuuluu = zuuluu.bind(oscard)();
-            report = golfie.can;
-            tangon = _closure1_slot5;
-            if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
+            var2 = {};
+            var3 = true;
+            var2['isSubscriptionGated'] = var3;
+            var3 = var6.isGuildVocal;
+            var3 = var3.bind(var6)();
+            var5 = var7.can;
+            var4 = _closure1_slot5;
+            if(var3) { _fun0001_ip = 166; continue _fun0001 }
  149:
-            zuuluu = tangon.VIEW_CHANNEL;
-            zuuluu = report.bind(golfie)(zuuluu, oscard);
-            zuuluu = !zuuluu;
-            _fun00002_ip = 181; continue _fun00001;
+            var3 = var4.VIEW_CHANNEL;
+            var3 = var5.bind(var7)(var3, var6);
+            var3 = !var3;
+            _fun0001_ip = 181; continue _fun0001;
  166:
-            tangon = tangon.CONNECT;
-            tangon = report.bind(golfie)(tangon, oscard);
-            zuuluu = !tangon;
+            var4 = var4.CONNECT;
+            var4 = var5.bind(var7)(var4, var6);
+            var3 = !var4;
  181:
-            michal['needSubscriptionToAccess'] = zuuluu;
-            entity = michal;
+            var2['needSubscriptionToAccess'] = var3;
+            var1 = var2;
  189:
-            _fun00002_ip = 205; continue _fun00001;
+            _fun0001_ip = 205; continue _fun0001;
  191:
-            entity = {'isSubscriptionGated': true, 'needSubscriptionToAccess': true};
+            var1 = {'isSubscriptionGated': true, 'needSubscriptionToAccess': true};
  205:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot7 = michal;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot2 = report;
-    report = 1;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.Permissions;
-    var _closure1_slot5 = report;
-    report = {'needSubscriptionToAccess': false, 'isSubscriptionGated': false};
-    var _closure1_slot6 = report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_role_subscriptions/useChannelRoleSubscriptionStatus.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useChannelRoleSubscriptionStatus
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 4;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStoresObject;
-        golfie = _closure1_slot3;
-        zuuluu = new Array(3);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot2;
-        zuuluu[1] = golfie;
-        michal = _closure1_slot4;
-        zuuluu[2] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            oscard = _closure1_slot7;
-            offset = _closure2_slot0;
-            verify = _closure1_slot3;
-            option = _closure1_slot2;
-            golfie = _closure1_slot4;
-            yankee = undefined;
-            entity = yankee[oscard](offset, verify, option, golfie, oscard);
-            return entity;
+    var _closure1_slot7 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Permissions;
+    var _closure1_slot5 = var5;
+    var5 = {'needSubscriptionToAccess': false, 'isSubscriptionGated': false};
+    var _closure1_slot6 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_role_subscriptions/useChannelRoleSubscriptionStatus.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function useChannelRoleSubscriptionStatus(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 4;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStoresObject;
+        var7 = _closure1_slot3;
+        var3 = new Array(3);
+        var3[0] = var7;
+        var7 = _closure1_slot2;
+        var3[1] = var7;
+        var2 = _closure1_slot4;
+        var3[2] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var6 = _closure1_slot7;
+            var10 = _closure2_slot0;
+            var9 = _closure1_slot3;
+            var8 = _closure1_slot2;
+            var7 = _closure1_slot4;
+            var11 = undefined;
+            var1 = var11[var6](var10, var9, var8, var7, var6);
+            return var1;
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['default'] = tangon;
-    zuuluu['getChannelRoleSubscriptionStatus'] = michal;
-    return entity;
+    var3['default'] = var4;
+    var3['getChannelRoleSubscriptionStatus'] = var2;
+    return var1;
 })();

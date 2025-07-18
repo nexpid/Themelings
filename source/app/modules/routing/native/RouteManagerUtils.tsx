@@ -1,972 +1,972 @@
 // app/modules/routing/native/RouteManagerUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
-    zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    entity = function(argFoo, argBar) { // Original name: matchPathToRoutes
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 11;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.matchPath;
-        michal = {'path': null, 'strict': false, 'exact': false};
-        entity = argBar;
-        michal['path'] = entity;
-        entity = argFoo;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var8 = native2;
+    var10 = native3;
+    var3 = native6;
+    var9 = native7;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
+    var1 = function matchPathToRoutes(arg1, arg2) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 11;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.matchPath;
+        var2 = {'path': null, 'strict': false, 'exact': false};
+        var1 = arg2;
+        var2['path'] = var1;
+        var1 = arg1;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot17 = entity;
-    report = function(argFoo) { // Original name: extractParamsFromVoiceModalRoute
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot17 = var1;
+    var5 = function extractParamsFromVoiceModalRoute(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            option = argFoo;
-            tangon = _closure1_slot17;
-            zuuluu = option.pathname;
-            entity = _closure1_slot16;
-            golfie = undefined;
-            verify = tangon.bind(golfie)(zuuluu, entity);
-            zuuluu = null;
-            tangon = zuuluu == verify;
-            entity = undefined;
-            if(tangon) { _fun00002_ip = 45; continue _fun00001 }
+            var8 = arg1;
+            var4 = _closure1_slot17;
+            var3 = var8.pathname;
+            var1 = _closure1_slot16;
+            var7 = undefined;
+            var9 = var4.bind(var7)(var3, var1);
+            var3 = null;
+            var4 = var3 == var9;
+            var1 = undefined;
+            if(var4) { _fun0001_ip = 45; continue _fun0001 }
  39:
-            entity = verify.params;
+            var1 = var9.params;
  45:
-            if(!(zuuluu == entity)) { _fun00002_ip = 51; continue _fun00001 }
+            if(!(var3 == var1)) { _fun0001_ip = 51; continue _fun0001 }
  49:
-            entity = {};
+            var1 = {};
  51:
-            report = entity.voiceChannelId;
-            tangon = entity.voiceGuildId;
-            zuuluu = entity.voiceMessageId;
-            entity = {};
-            oscard = _closure1_slot20;
-            michal = {};
-            michal['match'] = verify;
-            michal['location'] = option;
-            offset = oscard.bind(golfie)(michal);
-            yankee = entity;
-            michal = copyDataProperties(yankee, offset);
-            michal = 'voiceChannelId';
-            entity[michal] = report;
-            michal = 'voiceGuildId';
-            entity[michal] = tangon;
-            michal = 'voiceMessageId';
-            entity[michal] = zuuluu;
-            return entity;
+            var5 = var1.voiceChannelId;
+            var4 = var1.voiceGuildId;
+            var3 = var1.voiceMessageId;
+            var1 = {};
+            var6 = _closure1_slot20;
+            var2 = {};
+            var2['match'] = var9;
+            var2['location'] = var8;
+            var10 = var6.bind(var7)(var2);
+            var11 = var1;
+            var2 = copyDataProperties(var11, var10);
+            var2 = 'voiceChannelId';
+            var1[var2] = var5;
+            var2 = 'voiceGuildId';
+            var1[var2] = var4;
+            var2 = 'voiceMessageId';
+            var1[var2] = var3;
+            return var1;
         }
     };
-    var _closure1_slot18 = report;
-    entity = function(argFoo) { // Original name: selectLastVisitedTextChannel
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot18 = var5;
+    var1 = function selectLastVisitedTextChannel(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            zuuluu = _closure1_slot7;
-            michal = zuuluu.getChannel;
-            report = _closure1_slot10;
-            entity = report.getLastSelectedChannelId;
-            entity = entity.bind(report)();
-            michal = michal.bind(zuuluu)(entity);
-            report = null;
-            oscard = report == michal;
-            zuuluu = undefined;
-            entity = undefined;
-            if(oscard) { _fun00004_ip = 52; continue _fun00003 }
+            var7 = arg1;
+            var3 = _closure1_slot7;
+            var2 = var3.getChannel;
+            var5 = _closure1_slot10;
+            var1 = var5.getLastSelectedChannelId;
+            var1 = var1.bind(var5)();
+            var2 = var2.bind(var3)(var1);
+            var5 = null;
+            var6 = var5 == var2;
+            var3 = undefined;
+            var1 = undefined;
+            if(var6) { _fun0002_ip = 52; continue _fun0002 }
  47:
-            entity = michal.type;
+            var1 = var2.type;
  52:
-            if(!(report != entity)) { _fun00004_ip = 82; continue _fun00003 }
+            if(!(var5 != var1)) { _fun0002_ip = 82; continue _fun0002 }
  56:
-            oscard = _closure1_slot6;
-            option = report == michal;
-            entity = undefined;
-            if(option) { _fun00004_ip = 74; continue _fun00003 }
+            var6 = _closure1_slot6;
+            var8 = var5 == var2;
+            var1 = undefined;
+            if(var8) { _fun0002_ip = 74; continue _fun0002 }
  69:
-            entity = michal.type;
+            var1 = var2.type;
  74:
-            entity = oscard.bind(zuuluu)(entity);
-            if(entity) { _fun00004_ip = 137; continue _fun00003 }
+            var1 = var6.bind(var3)(var1);
+            if(var1) { _fun0002_ip = 137; continue _fun0002 }
  82:
-            oscard = _closure1_slot10;
-            entity = oscard.getMostRecentSelectedTextChannelId;
-            entity = entity.bind(oscard)(golfie);
-            if(!(report == entity)) { _fun00004_ip = 135; continue _fun00003 }
+            var6 = _closure1_slot10;
+            var1 = var6.getMostRecentSelectedTextChannelId;
+            var1 = var1.bind(var6)(var7);
+            if(!(var5 == var1)) { _fun0002_ip = 135; continue _fun0002 }
  103:
-            oscard = _closure1_slot9;
-            tangon = oscard.getDefaultChannel;
-            tangon = tangon.bind(oscard)(golfie);
-            report = report == tangon;
-            zuuluu = undefined;
-            if(report) { _fun00004_ip = 132; continue _fun00003 }
+            var6 = _closure1_slot9;
+            var4 = var6.getDefaultChannel;
+            var4 = var4.bind(var6)(var7);
+            var5 = var5 == var4;
+            var3 = undefined;
+            if(var5) { _fun0002_ip = 132; continue _fun0002 }
  127:
-            zuuluu = tangon.id;
+            var3 = var4.id;
  132:
-            entity = zuuluu;
+            var1 = var3;
  135:
-            _fun00004_ip = 142; continue _fun00003;
+            _fun0002_ip = 142; continue _fun0002;
  137:
-            entity = michal.id;
+            var1 = var2.id;
  142:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot19 = entity;
-    michal = function(argFoo) { // Original name: extractParams
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot19 = var1;
+    var2 = function extractParams(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            entity = michal.match;
-            michal = michal.location;
-            report = null;
-            if(!(report != entity)) { _fun00006_ip = 263; continue _fun00005 }
+            var2 = arg1;
+            var1 = var2.match;
+            var2 = var2.location;
+            var5 = null;
+            if(!(var5 != var1)) { _fun0003_ip = 263; continue _fun0003 }
  23:
-            entity = entity.params;
-            option = entity.guildId;
-            oscard = entity.channelId;
-            tangon = entity.messageId;
-            zuuluu = michal.jumpType;
-            offset = _closure1_slot0;
-            entity = _closure1_slot2;
-            yankee = 22;
-            entity = entity[yankee];
-            verify = undefined;
-            entity = offset.bind(verify)(entity);
-            entity = entity.JumpTypes;
-            entity = entity.INSTANT;
-            if(!(zuuluu !== entity)) { _fun00006_ip = 122; continue _fun00005 }
+            var1 = var1.params;
+            var8 = var1.guildId;
+            var6 = var1.channelId;
+            var4 = var1.messageId;
+            var3 = var2.jumpType;
+            var10 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var11 = 22;
+            var1 = var1[var11];
+            var9 = undefined;
+            var1 = var10.bind(var9)(var1);
+            var1 = var1.JumpTypes;
+            var1 = var1.INSTANT;
+            if(!(var3 !== var1)) { _fun0003_ip = 122; continue _fun0003 }
  91:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[yankee];
-            entity = zuuluu.bind(verify)(entity);
-            entity = entity.JumpTypes;
-            zuuluu = entity.ANIMATED;
-            _fun00006_ip = 151; continue _fun00005;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var11];
+            var1 = var3.bind(var9)(var1);
+            var1 = var1.JumpTypes;
+            var3 = var1.ANIMATED;
+            _fun0003_ip = 151; continue _fun0003;
  122:
-            offset = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[yankee];
-            entity = offset.bind(verify)(entity);
-            entity = entity.JumpTypes;
-            zuuluu = entity.INSTANT;
+            var10 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var11];
+            var1 = var10.bind(var9)(var1);
+            var1 = var1.JumpTypes;
+            var3 = var1.INSTANT;
  151:
-            entity = {};
-            romeon = _closure1_slot0;
-            yankee = _closure1_slot2;
-            offset = 10;
-            yankee = yankee[offset];
-            romeon = romeon.bind(verify)(yankee);
-            yankee = romeon.isValidGuildId;
-            yankee = yankee.bind(romeon)(option);
-            if(yankee) { _fun00006_ip = 191; continue _fun00005 }
+            var1 = {};
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var10 = 10;
+            var11 = var11[var10];
+            var12 = var12.bind(var9)(var11);
+            var11 = var12.isValidGuildId;
+            var11 = var11.bind(var12)(var8);
+            if(var11) { _fun0003_ip = 191; continue _fun0003 }
  187:
-            option = _closure1_slot11;
+            var8 = _closure1_slot11;
  191:
-            entity['guildId'] = option;
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            golfie = golfie[offset];
-            option = option.bind(verify)(golfie);
-            golfie = option.isValidChannelId;
-            golfie = golfie.bind(option)(oscard);
-            report = null;
-            if(!golfie) { _fun00006_ip = 231; continue _fun00005 }
+            var1['guildId'] = var8;
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var7 = var7[var10];
+            var8 = var8.bind(var9)(var7);
+            var7 = var8.isValidChannelId;
+            var7 = var7.bind(var8)(var6);
+            var5 = null;
+            if(!var7) { _fun0003_ip = 231; continue _fun0003 }
  228:
-            report = oscard;
+            var5 = var6;
  231:
-            entity['channelId'] = report;
-            entity['messageId'] = tangon;
-            entity['jumpType'] = zuuluu;
-            michal = michal.preserveDrawerState;
-            michal = !michal;
-            michal = !michal;
-            entity['preserveDrawerState'] = michal;
-            return entity;
+            var1['channelId'] = var5;
+            var1['messageId'] = var4;
+            var1['jumpType'] = var3;
+            var2 = var2.preserveDrawerState;
+            var2 = !var2;
+            var2 = !var2;
+            var1['preserveDrawerState'] = var2;
+            return var1;
  263:
-            entity = {'guildId': null, 'channelId': null, 'messageId': null, 'jumpType': null, 'preserveDrawerState': false};
-            zuuluu = _closure1_slot11;
-            entity['guildId'] = zuuluu;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            michal = 22;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            michal = tangon.bind(michal)(zuuluu);
-            michal = michal.JumpTypes;
-            michal = michal.ANIMATED;
-            entity['jumpType'] = michal;
-            return entity;
+            var1 = {'guildId': null, 'channelId': null, 'messageId': null, 'jumpType': null, 'preserveDrawerState': false};
+            var3 = _closure1_slot11;
+            var1['guildId'] = var3;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 22;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var2 = var2.JumpTypes;
+            var2 = var2.ANIMATED;
+            var1['jumpType'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot20 = michal;
-    entity = ['channelId', 'guildId'];
-    var _closure1_slot3 = entity;
-    golfie = global;
-    romeon = golfie.Object;
-    yankee = romeon.defineProperty;
-    oscard = {};
-    sizing = true;
-    oscard['value'] = sizing;
-    entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = verify[entity];
-    entity = undefined;
-    oscard = offset.bind(entity)(oscard);
-    var _closure1_slot4 = oscard;
-    oscard = 1;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.setVoiceChatDrawerState;
-    var _closure1_slot5 = oscard;
-    oscard = 2;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.isGuildSelectableChannelType;
-    var _closure1_slot6 = oscard;
-    oscard = 3;
-    oscard = verify[oscard];
-    oscard = offset.bind(entity)(oscard);
-    var _closure1_slot7 = oscard;
-    oscard = 4;
-    oscard = verify[oscard];
-    oscard = offset.bind(entity)(oscard);
-    var _closure1_slot8 = oscard;
-    oscard = 5;
-    oscard = verify[oscard];
-    oscard = offset.bind(entity)(oscard);
-    var _closure1_slot9 = oscard;
-    oscard = 6;
-    oscard = verify[oscard];
-    oscard = offset.bind(entity)(oscard);
-    var _closure1_slot10 = oscard;
-    oscard = 7;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    yankee = oscard.ME;
-    var _closure1_slot11 = yankee;
-    backup = oscard.Routes;
-    var _closure1_slot12 = backup;
-    oscard = oscard.ChannelTypes;
-    var _closure1_slot13 = oscard;
-    oscard = 8;
-    oscard = verify[oscard];
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.VoiceChatDrawerState;
-    var _closure1_slot14 = oscard;
-    oscard = 9;
-    oscard = verify[oscard];
-    yankee = offset.bind(entity)(oscard);
-    oscard = yankee.prototype;
-    offset = Object.create(oscard, {constructor: {value: yankee}});
-    echoed = 'RouteUtils';
-    update = offset;
-    oscard = new update[yankee](echoed, result);
-    oscard = oscard instanceof Object ? oscard : offset;
-    var _closure1_slot15 = oscard;
-    foxtra = backup.CHANNEL;
-    offset = 10;
-    oscard = verify[offset];
-    oscard = option.bind(entity)(oscard);
-    yankee = oscard.RouteParam;
-    oscard = yankee.guildId;
-    romeon = oscard.bind(yankee)();
-    oscard = verify[offset];
-    oscard = option.bind(entity)(oscard);
-    kiloes = oscard.RouteParam;
-    yankee = kiloes.channelId;
-    oscard = {};
-    oscard['optional'] = sizing;
-    yankee = yankee.bind(kiloes)(oscard);
-    oscard = ':messageId?';
-    oscard = foxtra.bind(backup)(romeon, yankee, oscard);
-    foxtra = backup.VOICE_CHAT_CHANNEL_PARTIAL;
-    yankee = verify[offset];
-    yankee = option.bind(entity)(yankee);
-    kiloes = yankee.RouteParam;
-    romeon = kiloes.guildId;
-    yankee = {};
-    sizing = 'voiceGuildId';
-    yankee['name'] = sizing;
-    romeon = romeon.bind(kiloes)(yankee);
-    offset = verify[offset];
-    offset = option.bind(entity)(offset);
-    kiloes = offset.RouteParam;
-    yankee = kiloes.channelId;
-    offset = {};
-    sizing = 'voiceChannelId';
-    offset['name'] = sizing;
-    yankee = yankee.bind(kiloes)(offset);
-    offset = ':voiceMessageId?';
-    yankee = foxtra.bind(backup)(romeon, yankee, offset);
-    golfie = golfie.HermesInternal;
-    offset = golfie.concat;
-    golfie = '';
-    offset = offset.bind(golfie)(oscard, yankee);
-    golfie = new Array(2);
-    golfie[0] = offset;
-    golfie[1] = oscard;
-    var _closure1_slot16 = golfie;
-    golfie = 23;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/routing/native/RouteManagerUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['MAIN_DRAWER_ROUTES'] = oscard;
-    zuuluu['extractParamsFromVoiceModalRoute'] = report;
-    report = function(argFoo) { // Original name: popVoiceRoute
-        verify = argFoo;
-        entity = _closure1_slot8;
-        report = entity.lastNonVoiceRoute;
-        tangon = _closure1_slot15;
-        zuuluu = tangon.log;
-        entity = global;
-        entity = entity.HermesInternal;
-        oscard = entity.concat;
-        entity = 'popVoiceRoute: last non-voice route is ';
-        entity = oscard.bind(entity)(report);
-        entity = zuuluu.bind(tangon)(entity);
-        oscard = _closure1_slot1;
-        tangon = _closure1_slot2;
-        entity = 12;
-        zuuluu = tangon[entity];
-        entity = undefined;
-        option = oscard.bind(entity)(zuuluu);
-        golfie = option.selectChannel;
-        zuuluu = {};
-        zuuluu['guildId'] = verify;
-        oscard = _closure1_slot19;
-        oscard = oscard.bind(entity)(verify);
-        zuuluu['channelId'] = oscard;
-        oscard = true;
-        zuuluu['preserveDrawerState'] = oscard;
-        zuuluu = golfie.bind(option)(zuuluu);
-        zuuluu = _closure1_slot0;
-        michal = 13;
-        michal = tangon[michal];
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.transitionTo;
-        michal = {};
-        michal['preserveDrawerState'] = oscard;
-        michal = zuuluu.bind(tangon)(report, michal);
-        return entity;
+    var _closure1_slot20 = var2;
+    var1 = ['channelId', 'guildId'];
+    var _closure1_slot3 = var1;
+    var7 = global;
+    var12 = var7.Object;
+    var11 = var12.defineProperty;
+    var6 = {};
+    var16 = true;
+    var6['value'] = var16;
+    var1 = '__esModule';
+    var1 = var11.bind(var12)(var3, var1, var6);
+    var1 = 0;
+    var6 = var9[var1];
+    var1 = undefined;
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 1;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.setVoiceChatDrawerState;
+    var _closure1_slot5 = var6;
+    var6 = 2;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.isGuildSelectableChannelType;
+    var _closure1_slot6 = var6;
+    var6 = 3;
+    var6 = var9[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot7 = var6;
+    var6 = 4;
+    var6 = var9[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot8 = var6;
+    var6 = 5;
+    var6 = var9[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot9 = var6;
+    var6 = 6;
+    var6 = var9[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot10 = var6;
+    var6 = 7;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var11 = var6.ME;
+    var _closure1_slot11 = var11;
+    var14 = var6.Routes;
+    var _closure1_slot12 = var14;
+    var6 = var6.ChannelTypes;
+    var _closure1_slot13 = var6;
+    var6 = 8;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.VoiceChatDrawerState;
+    var _closure1_slot14 = var6;
+    var6 = 9;
+    var6 = var9[var6];
+    var11 = var10.bind(var1)(var6);
+    var6 = var11.prototype;
+    var10 = Object.create(var6, {constructor: {value: var11}});
+    var19 = 'RouteUtils';
+    var20 = var10;
+    var6 = new var20[var11](var19, var18);
+    var6 = var6 instanceof Object ? var6 : var10;
+    var _closure1_slot15 = var6;
+    var13 = var14.CHANNEL;
+    var10 = 10;
+    var6 = var9[var10];
+    var6 = var8.bind(var1)(var6);
+    var11 = var6.RouteParam;
+    var6 = var11.guildId;
+    var12 = var6.bind(var11)();
+    var6 = var9[var10];
+    var6 = var8.bind(var1)(var6);
+    var15 = var6.RouteParam;
+    var11 = var15.channelId;
+    var6 = {};
+    var6['optional'] = var16;
+    var11 = var11.bind(var15)(var6);
+    var6 = ':messageId?';
+    var6 = var13.bind(var14)(var12, var11, var6);
+    var13 = var14.VOICE_CHAT_CHANNEL_PARTIAL;
+    var11 = var9[var10];
+    var11 = var8.bind(var1)(var11);
+    var15 = var11.RouteParam;
+    var12 = var15.guildId;
+    var11 = {};
+    var16 = 'voiceGuildId';
+    var11['name'] = var16;
+    var12 = var12.bind(var15)(var11);
+    var10 = var9[var10];
+    var10 = var8.bind(var1)(var10);
+    var15 = var10.RouteParam;
+    var11 = var15.channelId;
+    var10 = {};
+    var16 = 'voiceChannelId';
+    var10['name'] = var16;
+    var11 = var11.bind(var15)(var10);
+    var10 = ':voiceMessageId?';
+    var11 = var13.bind(var14)(var12, var11, var10);
+    var7 = var7.HermesInternal;
+    var10 = var7.concat;
+    var7 = '';
+    var10 = var10.bind(var7)(var6, var11);
+    var7 = new Array(2);
+    var7[0] = var10;
+    var7[1] = var6;
+    var _closure1_slot16 = var7;
+    var7 = 23;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/routing/native/RouteManagerUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['MAIN_DRAWER_ROUTES'] = var6;
+    var3['extractParamsFromVoiceModalRoute'] = var5;
+    var5 = function popVoiceRoute(arg1) {
+        var9 = arg1;
+        var1 = _closure1_slot8;
+        var5 = var1.lastNonVoiceRoute;
+        var4 = _closure1_slot15;
+        var3 = var4.log;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var6 = var1.concat;
+        var1 = 'popVoiceRoute: last non-voice route is ';
+        var1 = var6.bind(var1)(var5);
+        var1 = var3.bind(var4)(var1);
+        var6 = _closure1_slot1;
+        var4 = _closure1_slot2;
+        var1 = 12;
+        var3 = var4[var1];
+        var1 = undefined;
+        var8 = var6.bind(var1)(var3);
+        var7 = var8.selectChannel;
+        var3 = {};
+        var3['guildId'] = var9;
+        var6 = _closure1_slot19;
+        var6 = var6.bind(var1)(var9);
+        var3['channelId'] = var6;
+        var6 = true;
+        var3['preserveDrawerState'] = var6;
+        var3 = var7.bind(var8)(var3);
+        var3 = _closure1_slot0;
+        var2 = 13;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.transitionTo;
+        var2 = {};
+        var2['preserveDrawerState'] = var6;
+        var2 = var3.bind(var4)(var5, var2);
+        return var1;
     };
-    zuuluu['popVoiceRoute'] = report;
-    report = function(argFoo, argBar) { // Original name: transitionToVoiceRoute
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['popVoiceRoute'] = var5;
+    var5 = function transitionToVoiceRoute(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            entity = _closure1_slot8;
-            backup = entity.defaultRoute;
-            tangon = _closure1_slot17;
-            zuuluu = _closure1_slot16;
-            entity = undefined;
-            golfie = tangon.bind(entity)(backup, zuuluu);
-            tangon = null;
-            option = tangon == golfie;
-            zuuluu = undefined;
-            if(option) { _fun00008_ip = 52; continue _fun00007 }
+            var6 = arg1;
+            var5 = arg2;
+            var1 = _closure1_slot8;
+            var14 = var1.defaultRoute;
+            var4 = _closure1_slot17;
+            var3 = _closure1_slot16;
+            var1 = undefined;
+            var7 = var4.bind(var1)(var14, var3);
+            var4 = null;
+            var8 = var4 == var7;
+            var3 = undefined;
+            if(var8) { _fun0004_ip = 52; continue _fun0004 }
  46:
-            zuuluu = golfie.params;
+            var3 = var7.params;
  52:
-            if(!(tangon == zuuluu)) { _fun00008_ip = 58; continue _fun00007 }
+            if(!(var4 == var3)) { _fun0004_ip = 58; continue _fun0004 }
  56:
-            zuuluu = {};
+            var3 = {};
  58:
-            yankee = zuuluu.voiceChannelId;
-            option = _closure1_slot15;
-            golfie = option.log;
-            zuuluu = global;
-            tangon = zuuluu.HermesInternal;
-            foxtra = tangon.concat;
-            ctrled = 'transitionToVoiceRoute(<';
-            update = '>, <';
-            result = '>), current route ';
-            sizing = ' has voiceChannelId ';
-            source = oscard;
-            echoed = report;
-            output = backup;
-            kiloes = yankee;
-            tangon = ctrled[foxtra](source, update, echoed, result, output, sizing, kiloes, backup);
-            tangon = golfie.bind(option)(tangon);
-            if(!(yankee === report)) { _fun00008_ip = 192; continue _fun00007 }
+            var11 = var3.voiceChannelId;
+            var8 = _closure1_slot15;
+            var7 = var8.log;
+            var3 = global;
+            var4 = var3.HermesInternal;
+            var13 = var4.concat;
+            var22 = 'transitionToVoiceRoute(<';
+            var20 = '>, <';
+            var18 = '>), current route ';
+            var16 = ' has voiceChannelId ';
+            var21 = var6;
+            var19 = var5;
+            var17 = var14;
+            var15 = var11;
+            var4 = var22[var13](var21, var20, var19, var18, var17, var16, var15, var14);
+            var4 = var7.bind(var8)(var4);
+            if(!(var11 === var5)) { _fun0004_ip = 192; continue _fun0004 }
  136:
-            golfie = _closure1_slot15;
-            tangon = golfie.log;
-            zuuluu = zuuluu.HermesInternal;
-            offset = zuuluu.concat;
-            ctrled = 'transitionToVoiceRoute -> ';
-            update = ' === ';
-            result = '. staying where we are';
-            source = yankee;
-            echoed = report;
-            zuuluu = ctrled[offset](source, update, echoed, result, output);
-            zuuluu = tangon.bind(golfie)(zuuluu);
-            _fun00008_ip = 245; continue _fun00007;
+            var7 = _closure1_slot15;
+            var4 = var7.log;
+            var3 = var3.HermesInternal;
+            var10 = var3.concat;
+            var22 = 'transitionToVoiceRoute -> ';
+            var20 = ' === ';
+            var18 = '. staying where we are';
+            var21 = var11;
+            var19 = var5;
+            var3 = var22[var10](var21, var20, var19, var18, var17);
+            var3 = var4.bind(var7)(var3);
+            _fun0004_ip = 245; continue _fun0004;
  192:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 13;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.transitionToGuild;
-            michal = {};
-            golfie = true;
-            michal['preserveDrawerState'] = golfie;
-            ctrled = tangon;
-            source = oscard;
-            update = report;
-            echoed = undefined;
-            result = michal;
-            michal = ctrled[zuuluu](source, update, echoed, result, output);
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 13;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.transitionToGuild;
+            var2 = {};
+            var7 = true;
+            var2['preserveDrawerState'] = var7;
+            var22 = var4;
+            var21 = var6;
+            var20 = var5;
+            var19 = undefined;
+            var18 = var2;
+            var2 = var22[var3](var21, var20, var19, var18, var17);
  245:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['transitionToVoiceRoute'] = report;
-    report = function(argFoo) { // Original name: voiceRouteRewriter
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['transitionToVoiceRoute'] = var5;
+    var5 = function voiceRouteRewriter(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            golfie = argFoo;
-            zuuluu = golfie.state;
-            michal = _closure1_slot20;
-            entity = {};
-            option = _closure1_slot17;
-            oscard = golfie.pathname;
-            tangon = _closure1_slot16;
-            offset = undefined;
-            tangon = option.bind(offset)(oscard, tangon);
-            entity['match'] = tangon;
-            entity['location'] = golfie;
-            tangon = michal.bind(offset)(entity);
-            verify = tangon.channelId;
-            oscard = tangon.guildId;
-            michal = _closure1_slot4;
-            entity = _closure1_slot3;
-            tangon = michal.bind(offset)(tangon, entity);
-            michal = _closure1_slot7;
-            entity = michal.getChannel;
-            michal = entity.bind(michal)(verify);
-            option = null;
-            yankee = option == verify;
-            entity = null;
-            if(yankee) { _fun00010_ip = 202; continue _fun00009 }
+            var7 = arg1;
+            var3 = var7.state;
+            var2 = _closure1_slot20;
+            var1 = {};
+            var8 = _closure1_slot17;
+            var6 = var7.pathname;
+            var4 = _closure1_slot16;
+            var10 = undefined;
+            var4 = var8.bind(var10)(var6, var4);
+            var1['match'] = var4;
+            var1['location'] = var7;
+            var4 = var2.bind(var10)(var1);
+            var9 = var4.channelId;
+            var6 = var4.guildId;
+            var2 = _closure1_slot4;
+            var1 = _closure1_slot3;
+            var4 = var2.bind(var10)(var4, var1);
+            var2 = _closure1_slot7;
+            var1 = var2.getChannel;
+            var2 = var1.bind(var2)(var9);
+            var8 = null;
+            var11 = var8 == var9;
+            var1 = null;
+            if(var11) { _fun0005_ip = 202; continue _fun0005 }
  102:
-            yankee = option == oscard;
-            entity = null;
-            if(yankee) { _fun00010_ip = 202; continue _fun00009 }
+            var11 = var8 == var6;
+            var1 = null;
+            if(var11) { _fun0005_ip = 202; continue _fun0005 }
  111:
-            yankee = option == michal;
-            romeon = undefined;
-            if(yankee) { _fun00010_ip = 125; continue _fun00009 }
+            var11 = var8 == var2;
+            var12 = undefined;
+            if(var11) { _fun0005_ip = 125; continue _fun0005 }
  120:
-            romeon = michal.type;
+            var12 = var2.type;
  125:
-            yankee = _closure1_slot13;
-            yankee = yankee.GUILD_VOICE;
-            if(!(romeon !== yankee)) { _fun00010_ip = 169; continue _fun00009 }
+            var11 = _closure1_slot13;
+            var11 = var11.GUILD_VOICE;
+            if(!(var12 !== var11)) { _fun0005_ip = 169; continue _fun0005 }
  139:
-            yankee = option == michal;
-            offset = undefined;
-            if(yankee) { _fun00010_ip = 153; continue _fun00009 }
+            var11 = var8 == var2;
+            var10 = undefined;
+            if(var11) { _fun0005_ip = 153; continue _fun0005 }
  148:
-            offset = michal.type;
+            var10 = var2.type;
  153:
-            michal = _closure1_slot13;
-            michal = michal.GUILD_STAGE_VOICE;
-            entity = null;
-            if(!(offset === michal)) { _fun00010_ip = 202; continue _fun00009 }
+            var2 = _closure1_slot13;
+            var2 = var2.GUILD_STAGE_VOICE;
+            var1 = null;
+            if(!(var10 === var2)) { _fun0005_ip = 202; continue _fun0005 }
  169:
-            michal = {};
-            kiloes = michal;
-            backup = tangon;
-            tangon = copyDataProperties(kiloes, backup);
-            tangon = 'channelId';
-            michal[tangon] = verify;
-            tangon = 'guildId';
-            michal[tangon] = oscard;
-            entity = michal;
+            var2 = {};
+            var15 = var2;
+            var14 = var4;
+            var4 = copyDataProperties(var15, var14);
+            var4 = 'channelId';
+            var2[var4] = var9;
+            var4 = 'guildId';
+            var2[var4] = var6;
+            var1 = var2;
  202:
-            if(!(option == entity)) { _fun00010_ip = 208; continue _fun00009 }
+            if(!(var8 == var1)) { _fun0005_ip = 208; continue _fun0005 }
  206:
-            return option;
+            return var8;
  208:
-            michal = _closure1_slot15;
-            if(!(option != michal)) { _fun00010_ip = 272; continue _fun00009 }
+            var2 = _closure1_slot15;
+            if(!(var8 != var2)) { _fun0005_ip = 272; continue _fun0005 }
  216:
-            oscard = _closure1_slot15;
-            tangon = oscard.log;
-            michal = global;
-            offset = michal.JSON;
-            verify = offset.stringify;
-            offset = verify.bind(offset)(entity);
-            michal = michal.HermesInternal;
-            verify = michal.concat;
-            michal = 'voiceRouteRewriter: has voiceChannelParams = ';
-            michal = verify.bind(michal)(offset);
-            michal = tangon.bind(oscard)(michal);
+            var6 = _closure1_slot15;
+            var4 = var6.log;
+            var2 = global;
+            var10 = var2.JSON;
+            var9 = var10.stringify;
+            var10 = var9.bind(var10)(var1);
+            var2 = var2.HermesInternal;
+            var9 = var2.concat;
+            var2 = 'voiceRouteRewriter: has voiceChannelParams = ';
+            var2 = var9.bind(var2)(var10);
+            var2 = var4.bind(var6)(var2);
  272:
-            michal = _closure1_slot8;
-            verify = michal.lastNonVoiceRoute;
-            offset = _closure1_slot12;
-            oscard = offset.VOICE_CHAT_CHANNEL_PARTIAL;
-            tangon = entity.guildId;
-            michal = entity.channelId;
-            entity = entity.messageId;
-            oscard = oscard.bind(offset)(tangon, michal, entity);
-            michal = global;
-            entity = michal.HermesInternal;
-            tangon = entity.concat;
-            entity = '';
-            tangon = tangon.bind(entity)(verify, oscard);
-            oscard = golfie.pathname;
-            entity = null;
-            if(!(tangon !== oscard)) { _fun00010_ip = 422; continue _fun00009 }
+            var2 = _closure1_slot8;
+            var9 = var2.lastNonVoiceRoute;
+            var10 = _closure1_slot12;
+            var6 = var10.VOICE_CHAT_CHANNEL_PARTIAL;
+            var4 = var1.guildId;
+            var2 = var1.channelId;
+            var1 = var1.messageId;
+            var6 = var6.bind(var10)(var4, var2, var1);
+            var2 = global;
+            var1 = var2.HermesInternal;
+            var4 = var1.concat;
+            var1 = '';
+            var4 = var4.bind(var1)(var9, var6);
+            var6 = var7.pathname;
+            var1 = null;
+            if(!(var4 !== var6)) { _fun0005_ip = 422; continue _fun0005 }
  349:
-            oscard = _closure1_slot15;
-            if(!(option != oscard)) { _fun00010_ip = 408; continue _fun00009 }
+            var6 = _closure1_slot15;
+            if(!(var8 != var6)) { _fun0005_ip = 408; continue _fun0005 }
  357:
-            oscard = _closure1_slot15;
-            report = oscard.log;
-            verify = golfie.pathname;
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            golfie = 'voiceRouteRewriter: rewriting route: ';
-            michal = ' -> ';
-            michal = option.bind(golfie)(verify, michal, tangon);
-            michal = report.bind(oscard)(michal);
+            var6 = _closure1_slot15;
+            var5 = var6.log;
+            var9 = var7.pathname;
+            var2 = var2.HermesInternal;
+            var8 = var2.concat;
+            var7 = 'voiceRouteRewriter: rewriting route: ';
+            var2 = ' -> ';
+            var2 = var8.bind(var7)(var9, var2, var4);
+            var2 = var5.bind(var6)(var2);
  408:
-            michal = {};
-            michal['path'] = tangon;
-            michal['state'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var2['path'] = var4;
+            var2['state'] = var3;
+            var1 = var2;
  422:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['voiceRouteRewriter'] = report;
-    report = function(argFoo) { // Original name: saveLastRouteListener
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 14;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.saveLastRoute;
-        michal = argFoo;
-        michal = michal.pathname;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    var3['voiceRouteRewriter'] = var5;
+    var5 = function saveLastRouteListener(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 14;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.saveLastRoute;
+        var2 = arg1;
+        var2 = var2.pathname;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['saveLastRouteListener'] = report;
-    report = function(argFoo) { // Original name: saveLastNonVoiceRouteListener
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var3['saveLastRouteListener'] = var5;
+    var5 = function saveLastNonVoiceRouteListener(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            golfie = argFoo;
-            tangon = _closure1_slot17;
-            zuuluu = golfie.pathname;
-            michal = _closure1_slot16;
-            entity = undefined;
-            option = tangon.bind(entity)(zuuluu, michal);
-            oscard = _closure1_slot7;
-            tangon = oscard.getChannel;
-            zuuluu = null;
-            verify = zuuluu == option;
-            michal = undefined;
-            if(verify) { _fun00012_ip = 59; continue _fun00011 }
+            var7 = arg1;
+            var4 = _closure1_slot17;
+            var3 = var7.pathname;
+            var2 = _closure1_slot16;
+            var1 = undefined;
+            var8 = var4.bind(var1)(var3, var2);
+            var6 = _closure1_slot7;
+            var4 = var6.getChannel;
+            var3 = null;
+            var9 = var3 == var8;
+            var2 = undefined;
+            if(var9) { _fun0006_ip = 59; continue _fun0006 }
  48:
-            verify = option.params;
-            michal = verify.channelId;
+            var9 = var8.params;
+            var2 = var9.channelId;
  59:
-            tangon = tangon.bind(oscard)(michal);
-            michal = zuuluu == tangon;
-            verify = undefined;
-            if(michal) { _fun00012_ip = 78; continue _fun00011 }
+            var4 = var4.bind(var6)(var2);
+            var2 = var3 == var4;
+            var9 = undefined;
+            if(var2) { _fun0006_ip = 78; continue _fun0006 }
  73:
-            verify = tangon.type;
+            var9 = var4.type;
  78:
-            michal = _closure1_slot13;
-            oscard = michal.GUILD_VOICE;
-            michal = null;
-            if(!(verify !== oscard)) { _fun00012_ip = 144; continue _fun00011 }
+            var2 = _closure1_slot13;
+            var6 = var2.GUILD_VOICE;
+            var2 = null;
+            if(!(var9 !== var6)) { _fun0006_ip = 144; continue _fun0006 }
  94:
-            verify = zuuluu == tangon;
-            oscard = undefined;
-            if(verify) { _fun00012_ip = 108; continue _fun00011 }
+            var9 = var3 == var4;
+            var6 = undefined;
+            if(var9) { _fun0006_ip = 108; continue _fun0006 }
  103:
-            oscard = tangon.type;
+            var6 = var4.type;
  108:
-            tangon = _closure1_slot13;
-            tangon = tangon.GUILD_STAGE_VOICE;
-            michal = null;
-            if(!(oscard !== tangon)) { _fun00012_ip = 144; continue _fun00011 }
+            var4 = _closure1_slot13;
+            var4 = var4.GUILD_STAGE_VOICE;
+            var2 = null;
+            if(!(var6 !== var4)) { _fun0006_ip = 144; continue _fun0006 }
  124:
-            oscard = _closure1_slot20;
-            tangon = {};
-            tangon['match'] = option;
-            tangon['location'] = golfie;
-            michal = oscard.bind(entity)(tangon);
+            var6 = _closure1_slot20;
+            var4 = {};
+            var4['match'] = var8;
+            var4['location'] = var7;
+            var2 = var6.bind(var1)(var4);
  144:
-            if(!(zuuluu != michal)) { _fun00012_ip = 205; continue _fun00011 }
+            if(!(var3 != var2)) { _fun0006_ip = 205; continue _fun0006 }
  148:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 14;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.saveLastNonVoiceRoute;
-            golfie = _closure1_slot12;
-            oscard = golfie.CHANNEL;
-            report = michal.guildId;
-            michal = michal.channelId;
-            michal = oscard.bind(golfie)(report, michal);
-            michal = zuuluu.bind(tangon)(michal);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 14;
+            var3 = var6[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.saveLastNonVoiceRoute;
+            var7 = _closure1_slot12;
+            var6 = var7.CHANNEL;
+            var5 = var2.guildId;
+            var2 = var2.channelId;
+            var2 = var6.bind(var7)(var5, var2);
+            var2 = var3.bind(var4)(var2);
  205:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['saveLastNonVoiceRouteListener'] = report;
-    tangon = function(argFoo) { // Original name: updateSelectedChannelListener
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var3['saveLastNonVoiceRouteListener'] = var5;
+    var4 = function updateSelectedChannelListener(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            backup = argFoo;
-            michal = _closure1_slot18;
-            zuuluu = undefined;
-            michal = michal.bind(zuuluu)(backup);
-            offset = null;
-            if(!(offset == michal)) { _fun00014_ip = 27; continue _fun00013 }
+            var14 = arg1;
+            var2 = _closure1_slot18;
+            var3 = undefined;
+            var2 = var2.bind(var3)(var14);
+            var10 = null;
+            if(!(var10 == var2)) { _fun0007_ip = 27; continue _fun0007 }
  25:
-            michal = {};
+            var2 = {};
  27:
-            option = michal.guildId;
-            golfie = michal.channelId;
-            oscard = michal.messageId;
-            report = michal.jumpType;
-            result = michal.voiceChannelId;
-            output = michal.voiceGuildId;
-            sizing = michal.voiceMessageId;
-            tangon = michal.preserveDrawerState;
-            if(!(offset == result)) { _fun00014_ip = 83; continue _fun00013 }
+            var8 = var2.guildId;
+            var7 = var2.channelId;
+            var6 = var2.messageId;
+            var5 = var2.jumpType;
+            var18 = var2.voiceChannelId;
+            var17 = var2.voiceGuildId;
+            var16 = var2.voiceMessageId;
+            var4 = var2.preserveDrawerState;
+            if(!(var10 == var18)) { _fun0007_ip = 83; continue _fun0007 }
  76:
-            if(!(offset != output)) { _fun00014_ip = 859; continue _fun00013 }
+            if(!(var10 != var17)) { _fun0007_ip = 859; continue _fun0007 }
  83:
-            yankee = _closure1_slot7;
-            michal = yankee.getChannel;
-            michal = michal.bind(yankee)(result);
-            var _closure2_slot0 = michal;
-            yankee = offset == michal;
-            romeon = undefined;
-            if(yankee) { _fun00014_ip = 115; continue _fun00013 }
+            var11 = _closure1_slot7;
+            var2 = var11.getChannel;
+            var2 = var2.bind(var11)(var18);
+            var _closure2_slot0 = var2;
+            var11 = var10 == var2;
+            var12 = undefined;
+            if(var11) { _fun0007_ip = 115; continue _fun0007 }
  110:
-            romeon = michal.type;
+            var12 = var2.type;
  115:
-            yankee = _closure1_slot13;
-            yankee = yankee.GUILD_VOICE;
-            if(!(romeon !== yankee)) { _fun00014_ip = 332; continue _fun00013 }
+            var11 = _closure1_slot13;
+            var11 = var11.GUILD_VOICE;
+            if(!(var12 !== var11)) { _fun0007_ip = 332; continue _fun0007 }
  132:
-            yankee = offset == michal;
-            romeon = undefined;
-            if(yankee) { _fun00014_ip = 146; continue _fun00013 }
+            var11 = var10 == var2;
+            var12 = undefined;
+            if(var11) { _fun0007_ip = 146; continue _fun0007 }
  141:
-            romeon = michal.type;
+            var12 = var2.type;
  146:
-            yankee = _closure1_slot13;
-            yankee = yankee.GUILD_STAGE_VOICE;
-            if(!(romeon !== yankee)) { _fun00014_ip = 332; continue _fun00013 }
+            var11 = _closure1_slot13;
+            var11 = var11.GUILD_STAGE_VOICE;
+            if(!(var12 !== var11)) { _fun0007_ip = 332; continue _fun0007 }
  163:
-            yankee = _closure1_slot15;
-            if(!(offset != yankee)) { _fun00014_ip = 857; continue _fun00013 }
+            var11 = _closure1_slot15;
+            if(!(var10 != var11)) { _fun0007_ip = 857; continue _fun0007 }
  174:
-            foxtra = _closure1_slot15;
-            romeon = foxtra.log;
-            yankee = offset == michal;
-            sequen = undefined;
-            if(yankee) { _fun00014_ip = 198; continue _fun00013 }
+            var13 = _closure1_slot15;
+            var12 = var13.log;
+            var11 = var10 == var2;
+            var24 = undefined;
+            if(var11) { _fun0007_ip = 198; continue _fun0007 }
  193:
-            sequen = michal.id;
+            var24 = var2.id;
  198:
-            yankee = global;
-            echoed = yankee.JSON;
-            kiloes = echoed.stringify;
-            papara = kiloes.bind(echoed)(backup);
-            update = yankee.JSON;
-            echoed = update.stringify;
-            kiloes = {};
-            kiloes['guildId'] = option;
-            kiloes['channelId'] = golfie;
-            kiloes['messageId'] = oscard;
-            kiloes['jumpType'] = report;
-            kiloes['preserveDrawerState'] = tangon;
-            kiloes['voiceChannelId'] = result;
-            kiloes['voiceGuildId'] = output;
-            kiloes['voiceMessageId'] = sizing;
-            record = echoed.bind(update)(kiloes);
-            yankee = yankee.HermesInternal;
-            source = yankee.concat;
-            whisks = 'UpdateSelectedChannelListener -> !!!VERY BAD!!! channel.id ';
-            sierra = ' (voiceChannelId ';
-            target = ') is not a voice channel! and yet RouteUtils thinks it is! ';
-            yankee = ' ';
-            limora = sequen;
-            status = result;
-            cntext = yankee;
-            config = yankee;
-            yankee = whisks[source](limora, sierra, status, target, papara, cntext, record, config, sequen);
-            yankee = romeon.bind(foxtra)(yankee);
-            _fun00014_ip = 857; continue _fun00013;
+            var11 = global;
+            var19 = var11.JSON;
+            var15 = var19.stringify;
+            var28 = var15.bind(var19)(var14);
+            var20 = var11.JSON;
+            var19 = var20.stringify;
+            var15 = {};
+            var15['guildId'] = var8;
+            var15['channelId'] = var7;
+            var15['messageId'] = var6;
+            var15['jumpType'] = var5;
+            var15['preserveDrawerState'] = var4;
+            var15['voiceChannelId'] = var18;
+            var15['voiceGuildId'] = var17;
+            var15['voiceMessageId'] = var16;
+            var26 = var19.bind(var20)(var15);
+            var11 = var11.HermesInternal;
+            var21 = var11.concat;
+            var33 = 'UpdateSelectedChannelListener -> !!!VERY BAD!!! channel.id ';
+            var31 = ' (voiceChannelId ';
+            var29 = ') is not a voice channel! and yet RouteUtils thinks it is! ';
+            var11 = ' ';
+            var32 = var24;
+            var30 = var18;
+            var27 = var11;
+            var25 = var11;
+            var11 = var33[var21](var32, var31, var30, var29, var28, var27, var26, var25, var24);
+            var11 = var12.bind(var13)(var11);
+            _fun0007_ip = 857; continue _fun0007;
  332:
-            yankee = _closure1_slot15;
-            if(!(offset != yankee)) { _fun00014_ip = 467; continue _fun00013 }
+            var11 = _closure1_slot15;
+            if(!(var10 != var11)) { _fun0007_ip = 467; continue _fun0007 }
  343:
-            foxtra = _closure1_slot15;
-            romeon = foxtra.verbose;
-            yankee = global;
-            echoed = yankee.JSON;
-            kiloes = echoed.stringify;
-            source = kiloes.bind(echoed)(backup);
-            update = yankee.JSON;
-            echoed = update.stringify;
-            kiloes = {};
-            kiloes['guildId'] = option;
-            kiloes['channelId'] = golfie;
-            kiloes['messageId'] = oscard;
-            kiloes['jumpType'] = report;
-            kiloes['preserveDrawerState'] = tangon;
-            kiloes['voiceChannelId'] = result;
-            kiloes['voiceGuildId'] = output;
-            kiloes['voiceMessageId'] = sizing;
-            status = echoed.bind(update)(kiloes);
-            yankee = yankee.HermesInternal;
-            echoed = yankee.concat;
-            whisks = 'UpdateSelectedChannelListener -> voice route present! ';
-            yankee = ' ';
-            limora = source;
-            sierra = yankee;
-            target = yankee;
-            yankee = whisks[echoed](limora, sierra, status, target, papara);
-            yankee = romeon.bind(foxtra)(yankee);
+            var13 = _closure1_slot15;
+            var12 = var13.verbose;
+            var11 = global;
+            var19 = var11.JSON;
+            var15 = var19.stringify;
+            var21 = var15.bind(var19)(var14);
+            var20 = var11.JSON;
+            var19 = var20.stringify;
+            var15 = {};
+            var15['guildId'] = var8;
+            var15['channelId'] = var7;
+            var15['messageId'] = var6;
+            var15['jumpType'] = var5;
+            var15['preserveDrawerState'] = var4;
+            var15['voiceChannelId'] = var18;
+            var15['voiceGuildId'] = var17;
+            var15['voiceMessageId'] = var16;
+            var30 = var19.bind(var20)(var15);
+            var11 = var11.HermesInternal;
+            var19 = var11.concat;
+            var33 = 'UpdateSelectedChannelListener -> voice route present! ';
+            var11 = ' ';
+            var32 = var21;
+            var31 = var11;
+            var29 = var11;
+            var11 = var33[var19](var32, var31, var30, var29, var28);
+            var11 = var12.bind(var13)(var11);
  467:
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            yankee = 18;
-            yankee = foxtra[yankee];
-            romeon = romeon.bind(zuuluu)(yankee);
-            yankee = romeon.isVoicePanelEnabled;
-            yankee = yankee.bind(romeon)(michal);
-            if(yankee) { _fun00014_ip = 581; continue _fun00013 }
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 18;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.isVoicePanelEnabled;
+            var11 = var11.bind(var12)(var2);
+            if(var11) { _fun0007_ip = 581; continue _fun0007 }
  501:
-            romeon = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            yankee = 17;
-            yankee = foxtra[yankee];
-            kiloes = romeon.bind(zuuluu)(yankee);
-            yankee = kiloes.selectGuild;
-            yankee = yankee.bind(kiloes)(output);
-            yankee = 12;
-            yankee = foxtra[yankee];
-            foxtra = romeon.bind(zuuluu)(yankee);
-            romeon = foxtra.selectChannel;
-            yankee = {};
-            yankee['guildId'] = output;
-            yankee['channelId'] = result;
-            yankee['messageId'] = sizing;
-            yankee['jumpType'] = report;
-            kiloes = true;
-            yankee['preserveDrawerState'] = kiloes;
-            yankee = romeon.bind(foxtra)(yankee);
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var11 = 17;
+            var11 = var13[var11];
+            var15 = var12.bind(var3)(var11);
+            var11 = var15.selectGuild;
+            var11 = var11.bind(var15)(var17);
+            var11 = 12;
+            var11 = var13[var11];
+            var13 = var12.bind(var3)(var11);
+            var12 = var13.selectChannel;
+            var11 = {};
+            var11['guildId'] = var17;
+            var11['channelId'] = var18;
+            var11['messageId'] = var16;
+            var11['jumpType'] = var5;
+            var15 = true;
+            var11['preserveDrawerState'] = var15;
+            var11 = var12.bind(var13)(var11);
  581:
-            echoed = _closure1_slot0;
-            romeon = _closure1_slot2;
-            yankee = 19;
-            yankee = romeon[yankee];
-            kiloes = echoed.bind(zuuluu)(yankee);
-            foxtra = kiloes.isModalOpen;
-            yankee = 16;
-            romeon = romeon[yankee];
-            update = echoed.bind(zuuluu)(romeon);
-            echoed = update.getVoiceChannelKey;
-            romeon = michal.id;
-            romeon = echoed.bind(update)(romeon);
-            romeon = foxtra.bind(kiloes)(romeon);
-            if(romeon) { _fun00014_ip = 733; continue _fun00013 }
+            var19 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var11 = 19;
+            var11 = var12[var11];
+            var15 = var19.bind(var3)(var11);
+            var13 = var15.isModalOpen;
+            var11 = 16;
+            var12 = var12[var11];
+            var20 = var19.bind(var3)(var12);
+            var19 = var20.getVoiceChannelKey;
+            var12 = var2.id;
+            var12 = var19.bind(var20)(var12);
+            var12 = var13.bind(var15)(var12);
+            if(var12) { _fun0007_ip = 733; continue _fun0007 }
  643:
-            romeon = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            kiloes = 15;
-            kiloes = foxtra[kiloes];
-            echoed = romeon.bind(zuuluu)(kiloes);
-            kiloes = echoed.popWithKey;
-            update = _closure1_slot0;
-            yankee = foxtra[yankee];
-            source = update.bind(zuuluu)(yankee);
-            update = source.getVoiceChannelKey;
-            yankee = michal.id;
-            yankee = update.bind(source)(yankee);
-            yankee = kiloes.bind(echoed)(yankee);
-            yankee = 20;
-            yankee = foxtra[yankee];
-            romeon = romeon.bind(zuuluu)(yankee);
-            yankee = romeon.wait;
-            verify = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 16;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.openGuildVoiceModal;
-                michal = _closure2_slot0;
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var15 = 15;
+            var15 = var13[var15];
+            var19 = var12.bind(var3)(var15);
+            var15 = var19.popWithKey;
+            var20 = _closure1_slot0;
+            var11 = var13[var11];
+            var21 = var20.bind(var3)(var11);
+            var20 = var21.getVoiceChannelKey;
+            var11 = var2.id;
+            var11 = var20.bind(var21)(var11);
+            var11 = var15.bind(var19)(var11);
+            var11 = 20;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.wait;
+            var9 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 16;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.openGuildVoiceModal;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                return var1;
             };
-            verify = yankee.bind(romeon)(verify);
+            var9 = var11.bind(var12)(var9);
  733:
-            verify = michal.isGuildVoice;
-            verify = verify.bind(michal)();
-            if(!verify) { _fun00014_ip = 750; continue _fun00013 }
+            var9 = var2.isGuildVoice;
+            var9 = var9.bind(var2)();
+            if(!var9) { _fun0007_ip = 750; continue _fun0007 }
  746:
-            verify = offset != sizing;
+            var9 = var10 != var16;
  750:
-            if(verify) { _fun00014_ip = 763; continue _fun00013 }
+            if(var9) { _fun0007_ip = 763; continue _fun0007 }
  753:
-            yankee = michal.isGuildStageVoice;
-            verify = yankee.bind(michal)();
+            var11 = var2.isGuildStageVoice;
+            var9 = var11.bind(var2)();
  763:
-            if(!verify) { _fun00014_ip = 857; continue _fun00013 }
+            if(!var9) { _fun0007_ip = 857; continue _fun0007 }
  766:
-            yankee = _closure1_slot5;
-            verify = michal.id;
-            michal = _closure1_slot14;
-            michal = michal.OPEN;
-            michal = yankee.bind(zuuluu)(verify, michal);
-            michal = offset != output;
-            if(!michal) { _fun00014_ip = 802; continue _fun00013 }
+            var11 = _closure1_slot5;
+            var9 = var2.id;
+            var2 = _closure1_slot14;
+            var2 = var2.OPEN;
+            var2 = var11.bind(var3)(var9, var2);
+            var2 = var10 != var17;
+            if(!var2) { _fun0007_ip = 802; continue _fun0007 }
  798:
-            michal = offset != result;
+            var2 = var10 != var18;
  802:
-            if(!michal) { _fun00014_ip = 809; continue _fun00013 }
+            if(!var2) { _fun0007_ip = 809; continue _fun0007 }
  805:
-            michal = offset != sizing;
+            var2 = var10 != var16;
  809:
-            if(!michal) { _fun00014_ip = 857; continue _fun00013 }
+            if(!var2) { _fun0007_ip = 857; continue _fun0007 }
  812:
-            verify = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 21;
-            michal = yankee[michal];
-            verify = verify.bind(zuuluu)(michal);
-            michal = verify.jumpToVoiceChannelMessage;
-            whisks = verify;
-            limora = output;
-            sierra = result;
-            status = sizing;
-            target = report;
-            michal = whisks[michal](limora, sierra, status, target, papara);
+            var9 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 21;
+            var2 = var11[var2];
+            var9 = var9.bind(var3)(var2);
+            var2 = var9.jumpToVoiceChannelMessage;
+            var33 = var9;
+            var32 = var17;
+            var31 = var18;
+            var30 = var16;
+            var29 = var5;
+            var2 = var33[var2](var32, var31, var30, var29, var28);
  857:
-            return zuuluu;
+            return var3;
  859:
-            michal = _closure1_slot15;
-            if(!(offset != michal)) { _fun00014_ip = 994; continue _fun00013 }
+            var2 = _closure1_slot15;
+            if(!(var10 != var2)) { _fun0007_ip = 994; continue _fun0007 }
  870:
-            yankee = _closure1_slot15;
-            verify = yankee.verbose;
-            michal = global;
-            foxtra = michal.JSON;
-            romeon = foxtra.stringify;
-            kiloes = romeon.bind(foxtra)(backup);
-            backup = michal.JSON;
-            foxtra = backup.stringify;
-            romeon = {};
-            romeon['guildId'] = option;
-            romeon['channelId'] = golfie;
-            romeon['messageId'] = oscard;
-            romeon['jumpType'] = report;
-            romeon['preserveDrawerState'] = tangon;
-            romeon['voiceChannelId'] = result;
-            romeon['voiceGuildId'] = output;
-            romeon['voiceMessageId'] = sizing;
-            status = foxtra.bind(backup)(romeon);
-            michal = michal.HermesInternal;
-            foxtra = michal.concat;
-            whisks = 'UpdateSelectedChannelListener -> no voice route present in ';
-            michal = ' ';
-            limora = kiloes;
-            sierra = michal;
-            target = michal;
-            michal = whisks[foxtra](limora, sierra, status, target, papara);
-            michal = verify.bind(yankee)(michal);
+            var11 = _closure1_slot15;
+            var9 = var11.verbose;
+            var2 = global;
+            var13 = var2.JSON;
+            var12 = var13.stringify;
+            var15 = var12.bind(var13)(var14);
+            var14 = var2.JSON;
+            var13 = var14.stringify;
+            var12 = {};
+            var12['guildId'] = var8;
+            var12['channelId'] = var7;
+            var12['messageId'] = var6;
+            var12['jumpType'] = var5;
+            var12['preserveDrawerState'] = var4;
+            var12['voiceChannelId'] = var18;
+            var12['voiceGuildId'] = var17;
+            var12['voiceMessageId'] = var16;
+            var30 = var13.bind(var14)(var12);
+            var2 = var2.HermesInternal;
+            var13 = var2.concat;
+            var33 = 'UpdateSelectedChannelListener -> no voice route present in ';
+            var2 = ' ';
+            var32 = var15;
+            var31 = var2;
+            var29 = var2;
+            var2 = var33[var13](var32, var31, var30, var29, var28);
+            var2 = var9.bind(var11)(var2);
  994:
-            verify = _closure1_slot10;
-            michal = verify.getLastSelectedChannelId;
-            yankee = michal.bind(verify)();
-            verify = _closure1_slot7;
-            michal = verify.getChannel;
-            michal = michal.bind(verify)(yankee);
-            verify = offset != michal;
-            if(!verify) { _fun00014_ip = 1039; continue _fun00013 }
+            var9 = _closure1_slot10;
+            var2 = var9.getLastSelectedChannelId;
+            var11 = var2.bind(var9)();
+            var9 = _closure1_slot7;
+            var2 = var9.getChannel;
+            var2 = var2.bind(var9)(var11);
+            var9 = var10 != var2;
+            if(!var9) { _fun0007_ip = 1039; continue _fun0007 }
  1029:
-            yankee = michal.isGuildVoice;
-            verify = yankee.bind(michal)();
+            var11 = var2.isGuildVoice;
+            var9 = var11.bind(var2)();
  1039:
-            if(verify) { _fun00014_ip = 1062; continue _fun00013 }
+            if(var9) { _fun0007_ip = 1062; continue _fun0007 }
  1042:
-            offset = offset != michal;
-            if(!offset) { _fun00014_ip = 1059; continue _fun00013 }
+            var10 = var10 != var2;
+            if(!var10) { _fun0007_ip = 1059; continue _fun0007 }
  1049:
-            yankee = michal.isGuildStageVoice;
-            offset = yankee.bind(michal)();
+            var11 = var2.isGuildStageVoice;
+            var10 = var11.bind(var2)();
  1059:
-            verify = offset;
+            var9 = var10;
  1062:
-            if(!verify) { _fun00014_ip = 1128; continue _fun00013 }
+            if(!var9) { _fun0007_ip = 1128; continue _fun0007 }
  1065:
-            offset = _closure1_slot1;
-            foxtra = _closure1_slot2;
-            verify = 15;
-            verify = foxtra[verify];
-            offset = offset.bind(zuuluu)(verify);
-            verify = offset.popWithKey;
-            romeon = _closure1_slot0;
-            yankee = 16;
-            yankee = foxtra[yankee];
-            romeon = romeon.bind(zuuluu)(yankee);
-            yankee = romeon.getVoiceChannelKey;
-            michal = michal.id;
-            michal = yankee.bind(romeon)(michal);
-            michal = verify.bind(offset)(michal);
+            var10 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var9 = 15;
+            var9 = var13[var9];
+            var10 = var10.bind(var3)(var9);
+            var9 = var10.popWithKey;
+            var12 = _closure1_slot0;
+            var11 = 16;
+            var11 = var13[var11];
+            var12 = var12.bind(var3)(var11);
+            var11 = var12.getVoiceChannelKey;
+            var2 = var2.id;
+            var2 = var11.bind(var12)(var2);
+            var2 = var9.bind(var10)(var2);
  1128:
-            michal = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 17;
-            entity = verify[entity];
-            offset = michal.bind(zuuluu)(entity);
-            entity = offset.selectGuild;
-            entity = entity.bind(offset)(option);
-            entity = 12;
-            entity = verify[entity];
-            zuuluu = michal.bind(zuuluu)(entity);
-            michal = zuuluu.selectChannel;
-            entity = {};
-            entity['guildId'] = option;
-            entity['channelId'] = golfie;
-            entity['messageId'] = oscard;
-            entity['jumpType'] = report;
-            entity['preserveDrawerState'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var2 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 17;
+            var1 = var9[var1];
+            var10 = var2.bind(var3)(var1);
+            var1 = var10.selectGuild;
+            var1 = var1.bind(var10)(var8);
+            var1 = 12;
+            var1 = var9[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.selectChannel;
+            var1 = {};
+            var1['guildId'] = var8;
+            var1['channelId'] = var7;
+            var1['messageId'] = var6;
+            var1['jumpType'] = var5;
+            var1['preserveDrawerState'] = var4;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['updateSelectedChannelListener'] = tangon;
-    zuuluu['extractParams'] = michal;
-    return entity;
+    var3['updateSelectedChannelListener'] = var4;
+    var3['extractParams'] = var2;
+    return var1;
 })();

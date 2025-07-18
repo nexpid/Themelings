@@ -1,164 +1,164 @@
 // app/modules/nuf_channels/native/useCanSeeNUFChannelsForGuild.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildFeatures;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildMemberFlags;
-    var _closure1_slot6 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/nuf_channels/native/useCanSeeNUFChannelsForGuild.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useCanSeeNUFChannelsForGuild
-        oscard = argFoo;
-        var _closure2_slot0 = oscard;
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 5;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        golfie = _closure1_slot4;
-        zuuluu = new Array(3);
-        zuuluu[0] = golfie;
-        golfie = _closure1_slot3;
-        zuuluu[1] = golfie;
-        michal = _closure1_slot2;
-        zuuluu[2] = michal;
-        michal = new Array(1);
-        michal[0] = oscard;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildFeatures;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GuildMemberFlags;
+    var _closure1_slot6 = var4;
+    var4 = 8;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/nuf_channels/native/useCanSeeNUFChannelsForGuild.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useCanSeeNUFChannelsForGuild(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 5;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var7 = _closure1_slot4;
+        var3 = new Array(3);
+        var3[0] = var7;
+        var7 = _closure1_slot3;
+        var3[1] = var7;
+        var2 = _closure1_slot2;
+        var3[2] = var2;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure1_slot4;
-                entity = zuuluu.getCurrentUser;
-                report = entity.bind(zuuluu)();
-                zuuluu = null;
-                if(!(zuuluu != report)) { _fun00002_ip = 312; continue _fun00001 }
+                var3 = _closure1_slot4;
+                var1 = var3.getCurrentUser;
+                var5 = var1.bind(var3)();
+                var3 = null;
+                if(!(var3 != var5)) { _fun0001_ip = 312; continue _fun0001 }
  25:
-                tangon = _closure1_slot0;
-                oscard = _closure1_slot1;
-                entity = 6;
-                entity = oscard[entity];
-                golfie = undefined;
-                tangon = tangon.bind(golfie)(entity);
-                entity = tangon.isNewUser;
-                entity = entity.bind(tangon)(report);
-                if(!entity) { _fun00002_ip = 312; continue _fun00001 }
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 6;
+                var1 = var6[var1];
+                var7 = undefined;
+                var4 = var4.bind(var7)(var1);
+                var1 = var4.isNewUser;
+                var1 = var1.bind(var4)(var5);
+                if(!var1) { _fun0001_ip = 312; continue _fun0001 }
  64:
-                oscard = _closure1_slot3;
-                report = oscard.getGuild;
-                entity = _closure2_slot0;
-                entity = report.bind(oscard)(entity);
-                if(!(zuuluu != entity)) { _fun00002_ip = 308; continue _fun00001 }
+                var6 = _closure1_slot3;
+                var5 = var6.getGuild;
+                var1 = _closure2_slot0;
+                var1 = var5.bind(var6)(var1);
+                if(!(var3 != var1)) { _fun0001_ip = 308; continue _fun0001 }
  92:
-                option = entity.features;
-                oscard = option.has;
-                report = _closure1_slot5;
-                report = report.HUB;
-                report = oscard.bind(option)(report);
-                if(report) { _fun00002_ip = 308; continue _fun00001 }
+                var8 = var1.features;
+                var6 = var8.has;
+                var5 = _closure1_slot5;
+                var5 = var5.HUB;
+                var5 = var6.bind(var8)(var5);
+                if(var5) { _fun0001_ip = 308; continue _fun0001 }
  124:
-                oscard = _closure1_slot2;
-                report = oscard.getSelfMember;
-                tangon = _closure2_slot0;
-                oscard = report.bind(oscard)(tangon);
-                report = entity.features;
-                tangon = report.has;
-                entity = _closure1_slot5;
-                entity = entity.GUILD_ONBOARDING;
-                entity = tangon.bind(report)(entity);
-                if(!entity) { _fun00002_ip = 176; continue _fun00001 }
+                var6 = _closure1_slot2;
+                var5 = var6.getSelfMember;
+                var4 = _closure2_slot0;
+                var6 = var5.bind(var6)(var4);
+                var5 = var1.features;
+                var4 = var5.has;
+                var1 = _closure1_slot5;
+                var1 = var1.GUILD_ONBOARDING;
+                var1 = var4.bind(var5)(var1);
+                if(!var1) { _fun0001_ip = 176; continue _fun0001 }
  172:
-                entity = zuuluu != oscard;
+                var1 = var3 != var6;
  176:
-                if(!entity) { _fun00002_ip = 238; continue _fun00001 }
+                if(!var1) { _fun0001_ip = 238; continue _fun0001 }
  179:
-                report = _closure1_slot0;
-                option = _closure1_slot1;
-                tangon = 7;
-                tangon = option[tangon];
-                verify = report.bind(golfie)(tangon);
-                option = verify.hasFlag;
-                tangon = oscard.flags;
-                offset = zuuluu != tangon;
-                report = 0;
-                if(!offset) { _fun00002_ip = 222; continue _fun00001 }
+                var5 = _closure1_slot0;
+                var8 = _closure1_slot1;
+                var4 = 7;
+                var4 = var8[var4];
+                var9 = var5.bind(var7)(var4);
+                var8 = var9.hasFlag;
+                var4 = var6.flags;
+                var10 = var3 != var4;
+                var5 = 0;
+                if(!var10) { _fun0001_ip = 222; continue _fun0001 }
  219:
-                report = tangon;
+                var5 = var4;
  222:
-                tangon = _closure1_slot6;
-                tangon = tangon.STARTED_ONBOARDING;
-                entity = option.bind(verify)(report, tangon);
+                var4 = _closure1_slot6;
+                var4 = var4.STARTED_ONBOARDING;
+                var1 = var8.bind(var9)(var5, var4);
  238:
-                if(!entity) { _fun00002_ip = 303; continue _fun00001 }
+                if(!var1) { _fun0001_ip = 303; continue _fun0001 }
  241:
-                report = _closure1_slot0;
-                option = _closure1_slot1;
-                tangon = 7;
-                tangon = option[tangon];
-                report = report.bind(golfie)(tangon);
-                tangon = report.hasFlag;
-                oscard = oscard.flags;
-                golfie = zuuluu != oscard;
-                zuuluu = 0;
-                if(!golfie) { _fun00002_ip = 284; continue _fun00001 }
+                var5 = _closure1_slot0;
+                var8 = _closure1_slot1;
+                var4 = 7;
+                var4 = var8[var4];
+                var5 = var5.bind(var7)(var4);
+                var4 = var5.hasFlag;
+                var6 = var6.flags;
+                var7 = var3 != var6;
+                var3 = 0;
+                if(!var7) { _fun0001_ip = 284; continue _fun0001 }
  281:
-                zuuluu = oscard;
+                var3 = var6;
  284:
-                michal = _closure1_slot6;
-                michal = michal.COMPLETED_ONBOARDING;
-                michal = tangon.bind(report)(zuuluu, michal);
-                entity = !michal;
+                var2 = _closure1_slot6;
+                var2 = var2.COMPLETED_ONBOARDING;
+                var2 = var4.bind(var5)(var3, var2);
+                var1 = !var2;
  303:
-                entity = !entity;
-                return entity;
+                var1 = !var1;
+                return var1;
  308:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
  312:
-                entity = false;
-                return entity;
+                var1 = false;
+                return var1;
             }
         };
-        entity = tangon.bind(report)(zuuluu, entity, michal);
-        return entity;
+        var1 = var4.bind(var5)(var3, var1, var2);
+        return var1;
     };
-    zuuluu['useCanSeeNUFChannelsForGuild'] = michal;
-    return entity;
+    var3['useCanSeeNUFChannelsForGuild'] = var2;
+    return var1;
 })();

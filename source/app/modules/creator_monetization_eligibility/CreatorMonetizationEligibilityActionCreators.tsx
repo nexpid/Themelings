@@ -1,732 +1,732 @@
 // app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _createCreatorMonetizationEnableRequest
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _createCreatorMonetizationEnableRequest() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 94; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 94; continue _fun0001 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.post;
-                    michal = {};
-                    option = _closure1_slot4;
-                    golfie = option.CREATOR_MONETIZATION_ENABLE_REQUESTS;
-                    oscard = argFoo;
-                    oscard = golfie.bind(option)(oscard);
-                    michal['url'] = oscard;
-                    oscard = false;
-                    michal['rejectWithError'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.post;
+                    var2 = {};
+                    var8 = _closure1_slot4;
+                    var7 = var8.CREATOR_MONETIZATION_ENABLE_REQUESTS;
+                    var6 = arg1;
+                    var6 = var7.bind(var8)(var6);
+                    var2['url'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=82);
  80:
-                    return michal;
+                    return var2;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 91; continue _fun00001 }
+                    if(var4) { _fun0001_ip = 91; continue _fun0001 }
  88:
-                    return zuuluu;
+                    return var3;
  91:
-                    return michal;
+                    return var2;
  94:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot6 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = entity;
-    entity = function() { // Original name: _getCreatorMonetizationEligibility
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var1;
+    var1 = function _getCreatorMonetizationEligibility() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 98; continue _fun00003 }
+                    if(var2) { _fun0002_ip = 98; continue _fun0002 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.get;
-                    michal = {};
-                    golfie = _closure1_slot4;
-                    oscard = golfie.CREATOR_MONETIZATION_ELIGIBILITY;
-                    report = argFoo;
-                    report = oscard.bind(golfie)(report);
-                    michal['url'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.get;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var6 = var7.CREATOR_MONETIZATION_ELIGIBILITY;
+                    var5 = arg1;
+                    var5 = var6.bind(var7)(var5);
+                    var2['url'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=81);
  79:
-                    return michal;
+                    return var2;
  81:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 95; continue _fun00003 }
+                    if(var3) { _fun0002_ip = 95; continue _fun0002 }
  87:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  95:
-                    return michal;
+                    return var2;
  98:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot7 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot7 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot7 = entity;
-    entity = function() { // Original name: _acceptCreatorMonetizationTerms
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot7 = var1;
+    var1 = function _acceptCreatorMonetizationTerms() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 98; continue _fun00005 }
+                    if(var2) { _fun0003_ip = 98; continue _fun0003 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.post;
-                    michal = {};
-                    verify = _closure1_slot4;
-                    option = verify.CREATOR_MONETIZATION_ACCEPT_TERMS;
-                    golfie = argFoo;
-                    oscard = argBar;
-                    oscard = option.bind(verify)(golfie, oscard);
-                    michal['url'] = oscard;
-                    oscard = false;
-                    michal['rejectWithError'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.post;
+                    var2 = {};
+                    var9 = _closure1_slot4;
+                    var8 = var9.CREATOR_MONETIZATION_ACCEPT_TERMS;
+                    var7 = arg1;
+                    var6 = arg2;
+                    var6 = var8.bind(var9)(var7, var6);
+                    var2['url'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=86);
  84:
-                    return michal;
+                    return var2;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 95; continue _fun00005 }
+                    if(var4) { _fun0003_ip = 95; continue _fun0003 }
  92:
-                    return zuuluu;
+                    return var3;
  95:
-                    return michal;
+                    return var2;
  98:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot8 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot8 = entity;
-    entity = function() { // Original name: _acceptCreatorMonetizationTermsV
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var _closure1_slot8 = var1;
+    var1 = function _acceptCreatorMonetizationTermsV() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 94; continue _fun00007 }
+                    if(var2) { _fun0004_ip = 94; continue _fun0004 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.post;
-                    michal = {};
-                    option = _closure1_slot4;
-                    golfie = option.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
-                    oscard = argFoo;
-                    oscard = golfie.bind(option)(oscard);
-                    michal['url'] = oscard;
-                    oscard = false;
-                    michal['rejectWithError'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.post;
+                    var2 = {};
+                    var8 = _closure1_slot4;
+                    var7 = var8.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
+                    var6 = arg1;
+                    var6 = var7.bind(var8)(var6);
+                    var2['url'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=82);
  80:
-                    return michal;
+                    return var2;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 91; continue _fun00007 }
+                    if(var4) { _fun0004_ip = 91; continue _fun0004 }
  88:
-                    return zuuluu;
+                    return var3;
  91:
-                    return michal;
+                    return var2;
  94:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot9 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot9 = entity;
-    entity = function() { // Original name: _getCreatorMonetizationOnboardingMarketing
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var _closure1_slot9 = var1;
+    var1 = function _getCreatorMonetizationOnboardingMarketing() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 98; continue _fun00009 }
+                    if(var2) { _fun0005_ip = 98; continue _fun0005 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
-                    tangon = michal.HTTP;
-                    zuuluu = tangon.get;
-                    michal = {};
-                    golfie = _closure1_slot4;
-                    oscard = golfie.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
-                    report = argFoo;
-                    report = oscard.bind(golfie)(report);
-                    michal['url'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.get;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var6 = var7.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
+                    var5 = arg1;
+                    var5 = var6.bind(var7)(var5);
+                    var2['url'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=81);
  79:
-                    return michal;
+                    return var2;
  81:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 95; continue _fun00009 }
+                    if(var3) { _fun0005_ip = 95; continue _fun0005 }
  87:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  95:
-                    return michal;
+                    return var2;
  98:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot10 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot10 = entity;
-    entity = function() { // Original name: _fetchCreatorMonetizationNagActivateEligibility
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+    var _closure1_slot10 = var1;
+    var1 = function _fetchCreatorMonetizationNagActivateEligibility() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 170; continue _fun00011 }
+                    if(var2) { _fun0006_ip = 170; continue _fun0006 }
  10:
-                    option = argFoo;
+                    var8 = arg1;
  13: // try_start_0
-                    tangon = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 3;
-                    michal = report[michal];
-                    report = undefined;
-                    michal = tangon.bind(report)(michal);
-                    oscard = michal.HTTP;
-                    tangon = oscard.get;
-                    michal = {};
-                    golfie = _closure1_slot4;
-                    golfie = golfie.CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY;
-                    michal['url'] = golfie;
-                    golfie = {};
-                    golfie['nag_guild_ids'] = option;
-                    michal['query'] = golfie;
-                    golfie = true;
-                    michal['rejectWithError'] = golfie;
-                    michal = tangon.bind(oscard)(michal);
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var5[var2];
+                    var5 = undefined;
+                    var2 = var4.bind(var5)(var2);
+                    var6 = var2.HTTP;
+                    var4 = var6.get;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var7 = var7.CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY;
+                    var2['url'] = var7;
+                    var7 = {};
+                    var7['nag_guild_ids'] = var8;
+                    var2['query'] = var7;
+                    var7 = true;
+                    var2['rejectWithError'] = var7;
+                    var2 = var4.bind(var6)(var2);
                     SaveGenerator(address=92);
  90:
-                    return michal;
+                    return var2;
  92:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00012_ip = 160; continue _fun00011 }
+                    if(var4) { _fun0006_ip = 160; continue _fun0006 }
  98:
-                    tangon = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    zuuluu = 4;
-                    zuuluu = oscard[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.dispatch;
-                    zuuluu = {};
-                    oscard = 'CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY_FETCH_SUCCESS';
-                    zuuluu['type'] = oscard;
-                    oscard = michal.body;
-                    oscard = oscard.eligible_guilds;
-                    zuuluu['eligibleGuilds'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    var4 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var3 = 4;
+                    var3 = var6[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var6 = 'CREATOR_MONETIZATION_NAG_ACTIVATE_ELIGIBLITY_FETCH_SUCCESS';
+                    var3['type'] = var6;
+                    var6 = var2.body;
+                    var6 = var6.eligible_guilds;
+                    var3['eligibleGuilds'] = var6;
+                    var3 = var4.bind(var5)(var3);
  158: // try_end0
-                    _fun00012_ip = 165; continue _fun00011;
+                    _fun0006_ip = 165; continue _fun0006;
  160:
-                    return michal;
+                    return var2;
  163: // catch_target0
                     CatchBlockStart(arg_register=1);
  165:
-                    michal = undefined;
-                    return michal;
+                    var2 = undefined;
+                    return var2;
  170:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot11 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    entity = function() { // Original name: _ownershipTransferOnboard
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    var _closure1_slot11 = var1;
+    var1 = function _ownershipTransferOnboard() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 176; continue _fun00013 }
+                    if(var2) { _fun0007_ip = 176; continue _fun0007 }
  10:
-                    zuuluu = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 3;
-                    michal = report[michal];
-                    oscard = undefined;
-                    michal = zuuluu.bind(oscard)(michal);
-                    report = michal.HTTP;
-                    zuuluu = report.post;
-                    michal = {};
-                    verify = _closure1_slot4;
-                    option = verify.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
-                    golfie = argFoo;
-                    golfie = option.bind(verify)(golfie);
-                    michal['url'] = golfie;
-                    golfie = {};
-                    option = argBar;
-                    golfie['team_id'] = option;
-                    michal['body'] = golfie;
-                    golfie = false;
-                    michal['rejectWithError'] = golfie;
-                    michal = zuuluu.bind(report)(michal);
+                    var3 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var5[var2];
+                    var6 = undefined;
+                    var2 = var3.bind(var6)(var2);
+                    var5 = var2.HTTP;
+                    var3 = var5.post;
+                    var2 = {};
+                    var9 = _closure1_slot4;
+                    var8 = var9.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
+                    var7 = arg1;
+                    var7 = var8.bind(var9)(var7);
+                    var2['url'] = var7;
+                    var7 = {};
+                    var8 = arg2;
+                    var7['team_id'] = var8;
+                    var2['body'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var3.bind(var5)(var2);
                     SaveGenerator(address=99);
  97:
-                    return michal;
+                    return var2;
  99:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 173; continue _fun00013 }
+                    if(var3) { _fun0007_ip = 173; continue _fun0007 }
  105:
-                    zuuluu = michal.body;
-                    golfie = zuuluu.application;
-                    report = null;
-                    if(!(report != golfie)) { _fun00014_ip = 170; continue _fun00013 }
+                    var3 = var2.body;
+                    var7 = var3.application;
+                    var5 = null;
+                    if(!(var5 != var7)) { _fun0007_ip = 170; continue _fun0007 }
  121:
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot2;
-                    tangon = 4;
-                    tangon = golfie[tangon];
-                    oscard = report.bind(oscard)(tangon);
-                    report = oscard.dispatch;
-                    tangon = {};
-                    golfie = 'APPLICATION_FETCH_SUCCESS';
-                    tangon['type'] = golfie;
-                    golfie = zuuluu.application;
-                    tangon['application'] = golfie;
-                    tangon = report.bind(oscard)(tangon);
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var7[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var7 = 'APPLICATION_FETCH_SUCCESS';
+                    var4['type'] = var7;
+                    var7 = var3.application;
+                    var4['application'] = var7;
+                    var4 = var5.bind(var6)(var4);
  170:
-                    return zuuluu;
+                    return var3;
  173:
-                    return michal;
+                    return var2;
  176:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot12 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot12 = entity;
-    entity = function() { // Original name: _requestRemoveMonetization
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+    var _closure1_slot12 = var1;
+    var1 = function _requestRemoveMonetization() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 100; continue _fun00015 }
+                    if(var2) { _fun0008_ip = 100; continue _fun0008 }
  7:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 3;
-                    michal = zuuluu[michal];
-                    zuuluu = undefined;
-                    michal = tangon.bind(zuuluu)(michal);
-                    report = michal.HTTP;
-                    tangon = report.post;
-                    michal = {};
-                    option = _closure1_slot4;
-                    golfie = option.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
-                    oscard = argFoo;
-                    oscard = golfie.bind(option)(oscard);
-                    michal['url'] = oscard;
-                    oscard = {};
-                    michal['body'] = oscard;
-                    oscard = false;
-                    michal['rejectWithError'] = oscard;
-                    michal = tangon.bind(report)(michal);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 3;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var4.bind(var3)(var2);
+                    var5 = var2.HTTP;
+                    var4 = var5.post;
+                    var2 = {};
+                    var8 = _closure1_slot4;
+                    var7 = var8.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
+                    var6 = arg1;
+                    var6 = var7.bind(var8)(var6);
+                    var2['url'] = var6;
+                    var6 = {};
+                    var2['body'] = var6;
+                    var6 = false;
+                    var2['rejectWithError'] = var6;
+                    var2 = var4.bind(var5)(var2);
                     SaveGenerator(address=88);
  86:
-                    return michal;
+                    return var2;
  88:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00016_ip = 97; continue _fun00015 }
+                    if(var4) { _fun0008_ip = 97; continue _fun0008 }
  94:
-                    return zuuluu;
+                    return var3;
  97:
-                    return michal;
+                    return var2;
  100:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot13 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot13 = entity;
-    entity = function() { // Original name: _removeMonetization
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    var _closure1_slot13 = var1;
+    var1 = function _removeMonetization() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     StartGenerator();
-                    oscard = argFoo;
+                    var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00018_ip = 113; continue _fun00017 }
+                    if(var2) { _fun0009_ip = 113; continue _fun0009 }
  10:
-                    michal = function() { // Original name: requestRemoveMonetization
-                        entity = undefined;
-                        tangon = _closure1_slot13;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
+                    var2 = function requestRemoveMonetization() {
+                        var1 = undefined;
+                        var4 = _closure1_slot13;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
                     };
-                    report = undefined;
-                    michal = michal.bind(report)(oscard);
+                    var5 = undefined;
+                    var2 = var2.bind(var5)(var6);
                     SaveGenerator(address=30);
  28:
-                    return michal;
+                    return var2;
  30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00018_ip = 110; continue _fun00017 }
+                    if(var3) { _fun0009_ip = 110; continue _fun0009 }
  36:
-                    tangon = _closure1_slot1;
-                    option = _closure1_slot2;
-                    zuuluu = 5;
-                    zuuluu = option[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.getApplicationsForGuild;
-                    zuuluu = {};
-                    golfie = _closure1_slot5;
-                    golfie = golfie.GUILD_ROLE_SUBSCRIPTIONS;
-                    zuuluu['type'] = golfie;
-                    golfie = true;
-                    zuuluu['includeTeam'] = golfie;
-                    zuuluu = tangon.bind(report)(oscard, zuuluu);
+                    var4 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var3 = 5;
+                    var3 = var8[var3];
+                    var5 = var4.bind(var5)(var3);
+                    var4 = var5.getApplicationsForGuild;
+                    var3 = {};
+                    var7 = _closure1_slot5;
+                    var7 = var7.GUILD_ROLE_SUBSCRIPTIONS;
+                    var3['type'] = var7;
+                    var7 = true;
+                    var3['includeTeam'] = var7;
+                    var3 = var4.bind(var5)(var6, var3);
                     SaveGenerator(address=98);
  96:
-                    return zuuluu;
+                    return var3;
  98:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00018_ip = 107; continue _fun00017 }
+                    if(var4) { _fun0009_ip = 107; continue _fun0009 }
  104:
-                    return zuuluu;
+                    return var3;
  107:
-                    return zuuluu;
+                    return var3;
  110:
-                    return michal;
+                    return var2;
  113:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot14 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ApplicationTypes;
-    var _closure1_slot5 = tangon;
-    tangon = 6;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: createCreatorMonetizationEnableRequest
-        entity = undefined;
-        tangon = _closure1_slot6;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ApplicationTypes;
+    var _closure1_slot5 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function createCreatorMonetizationEnableRequest() {
+        var1 = undefined;
+        var4 = _closure1_slot6;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['createCreatorMonetizationEnableRequest'] = tangon;
-    tangon = function() { // Original name: getCreatorMonetizationEligibility
-        entity = undefined;
-        tangon = _closure1_slot7;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['createCreatorMonetizationEnableRequest'] = var4;
+    var4 = function getCreatorMonetizationEligibility() {
+        var1 = undefined;
+        var4 = _closure1_slot7;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getCreatorMonetizationEligibility'] = tangon;
-    tangon = function() { // Original name: acceptCreatorMonetizationTerms
-        entity = undefined;
-        tangon = _closure1_slot8;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getCreatorMonetizationEligibility'] = var4;
+    var4 = function acceptCreatorMonetizationTerms() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['acceptCreatorMonetizationTerms'] = tangon;
-    tangon = function() { // Original name: acceptCreatorMonetizationTermsV2
-        entity = undefined;
-        tangon = _closure1_slot9;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['acceptCreatorMonetizationTerms'] = var4;
+    var4 = function acceptCreatorMonetizationTermsV2() {
+        var1 = undefined;
+        var4 = _closure1_slot9;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['acceptCreatorMonetizationTermsV2'] = tangon;
-    tangon = function() { // Original name: getCreatorMonetizationOnboardingMarketing
-        entity = undefined;
-        tangon = _closure1_slot10;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['acceptCreatorMonetizationTermsV2'] = var4;
+    var4 = function getCreatorMonetizationOnboardingMarketing() {
+        var1 = undefined;
+        var4 = _closure1_slot10;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['getCreatorMonetizationOnboardingMarketing'] = tangon;
-    tangon = function() { // Original name: fetchCreatorMonetizationNagActivateEligibility
-        entity = undefined;
-        tangon = _closure1_slot11;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['getCreatorMonetizationOnboardingMarketing'] = var4;
+    var4 = function fetchCreatorMonetizationNagActivateEligibility() {
+        var1 = undefined;
+        var4 = _closure1_slot11;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['fetchCreatorMonetizationNagActivateEligibility'] = tangon;
-    tangon = function() { // Original name: ownershipTransferOnboard
-        entity = undefined;
-        tangon = _closure1_slot12;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['fetchCreatorMonetizationNagActivateEligibility'] = var4;
+    var4 = function ownershipTransferOnboard() {
+        var1 = undefined;
+        var4 = _closure1_slot12;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['ownershipTransferOnboard'] = tangon;
-    tangon = function(argFoo) { // Original name: acceptNewTerms
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.post;
-        entity = {};
-        oscard = _closure1_slot4;
-        report = oscard.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
-        tangon = argFoo;
-        tangon = report.bind(oscard)(tangon);
-        entity['url'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['ownershipTransferOnboard'] = var4;
+    var4 = function acceptNewTerms(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.post;
+        var1 = {};
+        var6 = _closure1_slot4;
+        var5 = var6.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
+        var4 = arg1;
+        var4 = var5.bind(var6)(var4);
+        var1['url'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['acceptNewTerms'] = tangon;
-    tangon = function(argFoo) { // Original name: acceptNewTermsDemonetized
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        zuuluu = entity.HTTP;
-        michal = zuuluu.post;
-        entity = {};
-        oscard = _closure1_slot4;
-        report = oscard.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
-        tangon = argFoo;
-        tangon = report.bind(oscard)(tangon);
-        entity['url'] = tangon;
-        tangon = false;
-        entity['rejectWithError'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var3['acceptNewTerms'] = var4;
+    var4 = function acceptNewTermsDemonetized(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.HTTP;
+        var2 = var3.post;
+        var1 = {};
+        var6 = _closure1_slot4;
+        var5 = var6.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
+        var4 = arg1;
+        var4 = var5.bind(var6)(var4);
+        var1['url'] = var4;
+        var4 = false;
+        var1['rejectWithError'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    zuuluu['acceptNewTermsDemonetized'] = tangon;
-    michal = function() { // Original name: removeMonetization
-        entity = undefined;
-        tangon = _closure1_slot14;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['acceptNewTermsDemonetized'] = var4;
+    var2 = function removeMonetization() {
+        var1 = undefined;
+        var4 = _closure1_slot14;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['removeMonetization'] = michal;
-    return entity;
+    var3['removeMonetization'] = var2;
+    return var1;
 })();

@@ -1,340 +1,340 @@
 // app/modules/app_database/modules/GuildsRequiringDeletedIdsSync.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBaz;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = report[entity];
-    entity = undefined;
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = report[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    michal = function() {
-        tangon = _closure1_slot4;
-        zuuluu = function() { // Original name: GuildsRequiringDeletedIdsSync
-            zuuluu = this;
-            var _closure3_slot0 = zuuluu;
-            report = _closure1_slot3;
-            michal = _closure2_slot1;
-            entity = undefined;
-            michal = report.bind(entity)(zuuluu, michal);
-            michal = {};
-            report = function(argFoo, argBar) { // Original name: BACKGROUND_SYNC
-                tangon = _closure3_slot0;
-                zuuluu = tangon.handleBackgroundSync;
-                michal = argFoo;
-                entity = argBar;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native3;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var5[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var2 = function() {
+        var4 = _closure1_slot4;
+        var3 = function GuildsRequiringDeletedIdsSync() {
+            var3 = this;
+            var _closure3_slot0 = var3;
+            var5 = _closure1_slot3;
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var2 = var5.bind(var1)(var3, var2);
+            var2 = {};
+            var5 = function BACKGROUND_SYNC(arg1, arg2) {
+                var4 = _closure3_slot0;
+                var3 = var4.handleBackgroundSync;
+                var2 = arg1;
+                var1 = arg2;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal['BACKGROUND_SYNC'] = report;
-            report = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
-                tangon = _closure3_slot0;
-                zuuluu = tangon.handleConnectionOpen;
-                michal = argFoo;
-                entity = argBar;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2['BACKGROUND_SYNC'] = var5;
+            var5 = function CONNECTION_OPEN(arg1, arg2) {
+                var4 = _closure3_slot0;
+                var3 = var4.handleConnectionOpen;
+                var2 = arg1;
+                var1 = arg2;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal['CONNECTION_OPEN'] = report;
-            report = function(argFoo, argBar) { // Original name: GUILD_CREATE
-                tangon = _closure3_slot0;
-                zuuluu = tangon.handleGuildCreate;
-                michal = argFoo;
-                entity = argBar;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2['CONNECTION_OPEN'] = var5;
+            var5 = function GUILD_CREATE(arg1, arg2) {
+                var4 = _closure3_slot0;
+                var3 = var4.handleGuildCreate;
+                var2 = arg1;
+                var1 = arg2;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal['GUILD_CREATE'] = report;
-            tangon = function(argFoo, argBar) { // Original name: DELETED_ENTITY_IDS
-                tangon = _closure3_slot0;
-                zuuluu = tangon.handleDeletedEntityIds;
-                michal = argFoo;
-                entity = argBar;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                return entity;
+            var2['GUILD_CREATE'] = var5;
+            var4 = function DELETED_ENTITY_IDS(arg1, arg2) {
+                var4 = _closure3_slot0;
+                var3 = var4.handleDeletedEntityIds;
+                var2 = arg1;
+                var1 = arg2;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
             };
-            michal['DELETED_ENTITY_IDS'] = tangon;
-            zuuluu['actions'] = michal;
-            return entity;
+            var2['DELETED_ENTITY_IDS'] = var4;
+            var3['actions'] = var2;
+            return var1;
         };
-        var _closure2_slot1 = zuuluu;
-        report = {};
-        michal = 'getAll';
-        report['key'] = michal;
-        golfie = _closure1_slot2;
-        michal = undefined;
-        entity = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var _closure2_slot1 = var3;
+        var5 = {};
+        var2 = 'getAll';
+        var5['key'] = var2;
+        var7 = _closure1_slot2;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 153; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 153; continue _fun0001 }
  10:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot1;
-                    michal = 3;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    michal = zuuluu.guildsRequiringDeletedIdsSync;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00002_ip = 122; continue _fun00001 }
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 3;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var3 = var4.bind(var2)(var3);
+                    var2 = var3.guildsRequiringDeletedIdsSync;
+                    var3 = var2.bind(var3)();
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0001_ip = 122; continue _fun0001 }
  51:
-                    michal = zuuluu.getMany;
-                    michal = michal.bind(zuuluu)();
+                    var2 = var3.getMany;
+                    var2 = var2.bind(var3)();
                     SaveGenerator(address=65);
  63:
-                    return michal;
+                    return var2;
  65:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 119; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 119; continue _fun0001 }
  71:
-                    zuuluu = global;
-                    report = zuuluu.Set;
-                    tangon = michal.map;
-                    zuuluu = function(argFoo) {
-                        entity = argFoo;
-                        entity = entity.id;
-                        return entity;
+                    var3 = global;
+                    var5 = var3.Set;
+                    var4 = var2.map;
+                    var3 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
                     };
-                    oscard = tangon.bind(michal)(zuuluu);
-                    tangon = report.prototype;
-                    tangon = Object.create(tangon, {constructor: {value: report}});
-                    golfie = tangon;
-                    zuuluu = new golfie[report](oscard, report);
-                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-                    return zuuluu;
+                    var6 = var4.bind(var2)(var3);
+                    var4 = var5.prototype;
+                    var4 = Object.create(var4, {constructor: {value: var5}});
+                    var7 = var4;
+                    var3 = new var7[var5](var6, var5);
+                    var3 = var3 instanceof Object ? var3 : var4;
+                    return var3;
  119:
-                    return michal;
+                    return var2;
  122:
-                    michal = global;
-                    michal = michal.Set;
-                    zuuluu = michal.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
-                    golfie = zuuluu;
-                    michal = new golfie[michal](oscard);
-                    michal = michal instanceof Object ? michal : zuuluu;
-                    return michal;
+                    var2 = global;
+                    var2 = var2.Set;
+                    var3 = var2.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var2}});
+                    var7 = var3;
+                    var2 = new var7[var2](var6);
+                    var2 = var2 instanceof Object ? var2 : var3;
+                    return var2;
  153:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        entity = golfie.bind(michal)(entity);
-        var _closure2_slot0 = entity;
-        entity = function() { // Original name: getAll
-            entity = undefined;
-            tangon = _closure2_slot0;
-            zuuluu = tangon.apply;
-            entity = arguments;
-            michal = entity;
-            entity = this;
-            entity = zuuluu.bind(tangon)(entity, michal);
-            return entity;
+        var1 = var7.bind(var2)(var1);
+        var _closure2_slot0 = var1;
+        var1 = function getAll() {
+            var1 = undefined;
+            var4 = _closure2_slot0;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(6);
-        entity[0] = report;
-        report = {};
-        golfie = 'handleConnectionOpen';
-        report['key'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        var5['value'] = var1;
+        var1 = new Array(6);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'handleConnectionOpen';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                michal = argFoo;
-                tangon = michal.guilds;
-                zuuluu = tangon.filter;
-                michal = function(argFoo) {
-                    entity = argFoo;
-                    entity = entity.unableToSyncDeletes;
-                    return entity;
+                var2 = arg1;
+                var4 = var2.guilds;
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.unableToSyncDeletes;
+                    return var1;
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.map;
-                entity = function(argFoo) {
-                    entity = {};
-                    michal = argFoo;
-                    michal = michal.id;
-                    entity['id'] = michal;
-                    return entity;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.map;
+                var1 = function(arg1) {
+                    var1 = {};
+                    var2 = arg1;
+                    var2 = var2.id;
+                    var1['id'] = var2;
+                    return var1;
                 };
-                zuuluu = michal.bind(zuuluu)(entity);
-                michal = zuuluu.length;
-                entity = 0;
-                if(!(michal > entity)) { _fun00004_ip = 102; continue _fun00003 }
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.length;
+                var1 = 0;
+                if(!(var2 > var1)) { _fun0002_ip = 102; continue _fun0002 }
  52:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(michal);
-                michal = tangon.guildsRequiringDeletedIdsSyncTransaction;
-                entity = argBar;
-                michal = michal.bind(tangon)(entity);
-                entity = michal.putAll;
-                entity = entity.bind(michal)(zuuluu);
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.guildsRequiringDeletedIdsSyncTransaction;
+                var1 = arg2;
+                var2 = var2.bind(var4)(var1);
+                var1 = var2.putAll;
+                var1 = var1.bind(var2)(var3);
  102:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'handleBackgroundSync';
-        report['key'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'handleBackgroundSync';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                michal = argFoo;
-                tangon = michal.guilds;
-                zuuluu = tangon.filter;
-                michal = function(argFoo) {
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var2 = arg1;
+                var4 = var2.guilds;
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        michal = argFoo;
-                        zuuluu = michal.data_mode;
-                        entity = 'partial';
-                        entity = entity === zuuluu;
-                        if(!entity) { _fun00008_ip = 26; continue _fun00007 }
+                        var2 = arg1;
+                        var3 = var2.data_mode;
+                        var1 = 'partial';
+                        var1 = var1 === var3;
+                        if(!var1) { _fun0004_ip = 26; continue _fun0004 }
  20:
-                        entity = michal.unable_to_sync_deletes;
+                        var1 = var2.unable_to_sync_deletes;
  26:
-                        return entity;
+                        return var1;
                     }
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.map;
-                entity = function(argFoo) {
-                    entity = {};
-                    michal = argFoo;
-                    michal = michal.id;
-                    entity['id'] = michal;
-                    return entity;
+                var3 = var3.bind(var4)(var2);
+                var2 = var3.map;
+                var1 = function(arg1) {
+                    var1 = {};
+                    var2 = arg1;
+                    var2 = var2.id;
+                    var1['id'] = var2;
+                    return var1;
                 };
-                zuuluu = michal.bind(zuuluu)(entity);
-                michal = zuuluu.length;
-                entity = 0;
-                if(!(michal > entity)) { _fun00006_ip = 102; continue _fun00005 }
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.length;
+                var1 = 0;
+                if(!(var2 > var1)) { _fun0003_ip = 102; continue _fun0003 }
  52:
-                tangon = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                tangon = tangon.bind(entity)(michal);
-                michal = tangon.guildsRequiringDeletedIdsSyncTransaction;
-                entity = argBar;
-                michal = michal.bind(tangon)(entity);
-                entity = michal.putAll;
-                entity = entity.bind(michal)(zuuluu);
+                var4 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.guildsRequiringDeletedIdsSyncTransaction;
+                var1 = arg2;
+                var2 = var2.bind(var4)(var1);
+                var1 = var2.putAll;
+                var1 = var1.bind(var2)(var3);
  102:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'handleGuildCreate';
-        report['key'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'handleGuildCreate';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                entity = argFoo;
-                tangon = entity.guild;
-                entity = tangon.unableToSyncDeletes;
-                if(!entity) { _fun00010_ip = 78; continue _fun00009 }
+                var1 = arg1;
+                var4 = var1.guild;
+                var1 = var4.unableToSyncDeletes;
+                if(!var1) { _fun0005_ip = 78; continue _fun0005 }
  17:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot1;
-                entity = 3;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.guildsRequiringDeletedIdsSyncTransaction;
-                entity = argBar;
-                zuuluu = michal.bind(zuuluu)(entity);
-                michal = zuuluu.put;
-                entity = {};
-                tangon = tangon.id;
-                entity['id'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.guildsRequiringDeletedIdsSyncTransaction;
+                var1 = arg2;
+                var3 = var2.bind(var3)(var1);
+                var2 = var3.put;
+                var1 = {};
+                var4 = var4.id;
+                var1['id'] = var4;
+                var1 = var2.bind(var3)(var1);
  78:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'handleDeletedEntityIds';
-        report['key'] = golfie;
-        golfie = function(argFoo, argBar) { // Original name: value
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.guildsRequiringDeletedIdsSyncTransaction;
-            michal = argBar;
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.delete;
-            michal = argFoo;
-            michal = michal.guild_id;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'handleDeletedEntityIds';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.guildsRequiringDeletedIdsSyncTransaction;
+            var2 = arg2;
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.delete;
+            var2 = arg1;
+            var2 = var2.guild_id;
+            var2 = var3.bind(var4)(var2);
+            return var1;
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'resetInMemoryState';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = undefined;
-            return entity;
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'resetInMemoryState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = undefined;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[5] = report;
-        entity = tangon.bind(michal)(zuuluu, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[5] = var5;
+        var1 = var4.bind(var2)(var3, var1);
+        return var1;
     };
-    michal = michal.bind(entity)();
-    tangon = michal.prototype;
-    tangon = Object.create(tangon, {constructor: {value: michal}});
-    romeon = tangon;
-    michal = new romeon[michal](yankee);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 4;
-    report = report[tangon];
-    tangon = argBar;
-    oscard = tangon.bind(entity)(report);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/app_database/modules/GuildsRequiringDeletedIdsSync.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2 = var2.bind(var1)();
+    var4 = var2.prototype;
+    var4 = Object.create(var4, {constructor: {value: var2}});
+    var12 = var4;
+    var2 = new var12[var2](var11);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 4;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/app_database/modules/GuildsRequiringDeletedIdsSync.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

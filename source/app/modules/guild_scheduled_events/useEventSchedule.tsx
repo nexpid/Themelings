@@ -1,203 +1,203 @@
 // app/modules/guild_scheduled_events/useEventSchedule.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function(argFoo, argBar, argBaz) { // Original name: _getEventSchedule
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _getEventSchedule(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            verify = argBaz;
-            entity = zuuluu.recurrence_rule;
-            michal = null;
-            if(!(michal != entity)) { _fun00002_ip = 136; continue _fun00001 }
+            var3 = arg1;
+            var9 = arg3;
+            var1 = var3.recurrence_rule;
+            var2 = null;
+            if(!(var2 != var1)) { _fun0001_ip = 136; continue _fun0001 }
  18:
-            if(!(michal != verify)) { _fun00002_ip = 136; continue _fun00001 }
+            if(!(var2 != var9)) { _fun0001_ip = 136; continue _fun0001 }
  22:
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            entity = 1;
-            golfie = oscard[entity];
-            tangon = undefined;
-            option = report.bind(tangon)(golfie);
-            golfie = option.getBaseScheduleForRecurrence;
-            golfie = golfie.bind(option)(verify, zuuluu);
-            entity = oscard[entity];
-            oscard = report.bind(tangon)(entity);
-            report = oscard.getScheduleForRecurrenceWithException;
-            entity = argBar;
-            entity = report.bind(oscard)(golfie, entity);
-            golfie = entity.startDate;
-            oscard = entity.endDate;
-            entity = {};
-            report = golfie.toDate;
-            report = report.bind(golfie)();
-            entity['startTime'] = report;
-            report = michal == oscard;
-            if(report) { _fun00002_ip = 129; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 1;
+            var7 = var6[var1];
+            var4 = undefined;
+            var8 = var5.bind(var4)(var7);
+            var7 = var8.getBaseScheduleForRecurrence;
+            var7 = var7.bind(var8)(var9, var3);
+            var1 = var6[var1];
+            var6 = var5.bind(var4)(var1);
+            var5 = var6.getScheduleForRecurrenceWithException;
+            var1 = arg2;
+            var1 = var5.bind(var6)(var7, var1);
+            var7 = var1.startDate;
+            var6 = var1.endDate;
+            var1 = {};
+            var5 = var7.toDate;
+            var5 = var5.bind(var7)();
+            var1['startTime'] = var5;
+            var5 = var2 == var6;
+            if(var5) { _fun0001_ip = 129; continue _fun0001 }
  119:
-            report = oscard.toDate;
-            tangon = report.bind(oscard)();
+            var5 = var6.toDate;
+            var4 = var5.bind(var6)();
  129:
-            entity['endTime'] = tangon;
-            return entity;
+            var1['endTime'] = var4;
+            return var1;
  136:
-            entity = {};
-            tangon = global;
-            golfie = tangon.Date;
-            yankee = zuuluu.scheduled_start_time;
-            oscard = golfie.prototype;
-            oscard = Object.create(oscard, {constructor: {value: golfie}});
-            romeon = oscard;
-            report = new romeon[golfie](yankee, offset);
-            report = report instanceof Object ? report : oscard;
-            entity['startTime'] = report;
-            report = zuuluu.scheduled_end_time;
-            report = michal != report;
-            michal = null;
-            if(!report) { _fun00002_ip = 224; continue _fun00001 }
+            var1 = {};
+            var4 = global;
+            var7 = var4.Date;
+            var11 = var3.scheduled_start_time;
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
+            var5 = new var12[var7](var11, var10);
+            var5 = var5 instanceof Object ? var5 : var6;
+            var1['startTime'] = var5;
+            var5 = var3.scheduled_end_time;
+            var5 = var2 != var5;
+            var2 = null;
+            if(!var5) { _fun0001_ip = 224; continue _fun0001 }
  192:
-            report = tangon.Date;
-            yankee = zuuluu.scheduled_end_time;
-            tangon = report.prototype;
-            tangon = Object.create(tangon, {constructor: {value: report}});
-            romeon = tangon;
-            zuuluu = new romeon[report](yankee, offset);
-            michal = zuuluu instanceof Object ? zuuluu : tangon;
+            var5 = var4.Date;
+            var11 = var3.scheduled_end_time;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var12 = var4;
+            var3 = new var12[var5](var11, var10);
+            var2 = var3 instanceof Object ? var3 : var4;
  224:
-            entity['endTime'] = michal;
-            return entity;
+            var1['endTime'] = var2;
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/useEventSchedule.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useEventSchedule
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/useEventSchedule.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function useEventSchedule(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
-            entity = null;
-            if(!(entity == tangon)) { _fun00004_ip = 48; continue _fun00003 }
+            var5 = arg1;
+            var4 = arg2;
+            var1 = null;
+            if(!(var1 == var4)) { _fun0002_ip = 48; continue _fun0002 }
  12:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 1;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            entity = michal.getNextRecurrenceIdInEvent;
-            tangon = entity.bind(michal)(report);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 1;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.getNextRecurrenceIdInEvent;
+            var4 = var1.bind(var2)(var5);
  48:
-            zuuluu = _closure1_slot4;
-            oscard = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 2;
-            entity = michal[entity];
-            michal = undefined;
-            oscard = oscard.bind(michal)(entity);
-            entity = report.id;
-            entity = oscard.bind(michal)(tangon, entity);
-            entity = zuuluu.bind(michal)(report, entity, tangon);
-            return entity;
+            var3 = _closure1_slot4;
+            var6 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var1 = var2[var1];
+            var2 = undefined;
+            var6 = var6.bind(var2)(var1);
+            var1 = var5.id;
+            var1 = var6.bind(var2)(var4, var1);
+            var1 = var3.bind(var2)(var5, var1, var4);
+            return var1;
         }
     };
-    zuuluu['default'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: useEventScheduleById
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['default'] = var4;
+    var4 = function useEventScheduleById(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            oscard = argBar;
-            michal = argFoo;
-            var _closure2_slot0 = michal;
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 3;
-            zuuluu = report[zuuluu];
-            report = undefined;
-            golfie = tangon.bind(report)(zuuluu);
-            tangon = golfie.useStateFromStores;
-            option = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = option;
-            entity = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getGuildScheduledEvent;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var6 = arg2;
+            var2 = arg1;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 3;
+            var3 = var5[var3];
+            var5 = undefined;
+            var7 = var4.bind(var5)(var3);
+            var4 = var7.useStateFromStores;
+            var8 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getGuildScheduledEvent;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            tangon = tangon.bind(golfie)(zuuluu, entity);
-            entity = null;
-            if(!(entity == oscard)) { _fun00006_ip = 102; continue _fun00005 }
+            var4 = var4.bind(var7)(var3, var1);
+            var1 = null;
+            if(!(var1 == var6)) { _fun0003_ip = 102; continue _fun0003 }
  71:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
-            zuuluu = 1;
-            zuuluu = option[zuuluu];
-            golfie = golfie.bind(report)(zuuluu);
-            zuuluu = golfie.getNextRecurrenceIdInEvent;
-            oscard = zuuluu.bind(golfie)(tangon);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 1;
+            var3 = var8[var3];
+            var7 = var7.bind(var5)(var3);
+            var3 = var7.getNextRecurrenceIdInEvent;
+            var6 = var3.bind(var7)(var4);
  102:
-            golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = option[zuuluu];
-            golfie = golfie.bind(report)(zuuluu);
-            option = entity == tangon;
-            zuuluu = undefined;
-            if(option) { _fun00006_ip = 136; continue _fun00005 }
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var3 = 2;
+            var3 = var8[var3];
+            var7 = var7.bind(var5)(var3);
+            var8 = var1 == var4;
+            var3 = undefined;
+            if(var8) { _fun0003_ip = 136; continue _fun0003 }
  131:
-            zuuluu = tangon.id;
+            var3 = var4.id;
  136:
-            zuuluu = golfie.bind(report)(oscard, zuuluu);
-            golfie = entity == tangon;
-            entity = null;
-            if(golfie) { _fun00006_ip = 162; continue _fun00005 }
+            var3 = var7.bind(var5)(var6, var3);
+            var7 = var1 == var4;
+            var1 = null;
+            if(var7) { _fun0003_ip = 162; continue _fun0003 }
  151:
-            michal = _closure1_slot4;
-            entity = michal.bind(report)(tangon, zuuluu, oscard);
+            var2 = _closure1_slot4;
+            var1 = var2.bind(var5)(var4, var3, var6);
  162:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['useEventScheduleById'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getEventSchedule
-        report = argFoo;
-        tangon = argBar;
-        zuuluu = _closure1_slot4;
-        oscard = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 2;
-        entity = michal[entity];
-        michal = undefined;
-        golfie = oscard.bind(michal)(entity);
-        oscard = golfie.getEventException;
-        entity = report.id;
-        entity = oscard.bind(golfie)(tangon, entity);
-        entity = zuuluu.bind(michal)(report, entity, tangon);
-        return entity;
+    var3['useEventScheduleById'] = var4;
+    var2 = function getEventSchedule(arg1, arg2) {
+        var5 = arg1;
+        var4 = arg2;
+        var3 = _closure1_slot4;
+        var6 = _closure1_slot0;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var1 = var2[var1];
+        var2 = undefined;
+        var7 = var6.bind(var2)(var1);
+        var6 = var7.getEventException;
+        var1 = var5.id;
+        var1 = var6.bind(var7)(var4, var1);
+        var1 = var3.bind(var2)(var5, var1, var4);
+        return var1;
     };
-    zuuluu['getEventSchedule'] = michal;
-    return entity;
+    var3['getEventSchedule'] = var2;
+    return var1;
 })();

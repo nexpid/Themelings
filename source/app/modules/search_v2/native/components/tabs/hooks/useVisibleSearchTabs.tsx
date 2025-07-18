@@ -1,720 +1,720 @@
 // app/modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = golfie;
-    entity = function(argFoo) { // Original name: getSearchTabsKey
-        zuuluu = argFoo;
-        michal = zuuluu.join;
-        entity = '-';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var9 = native3;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var7;
+    var1 = function getSearchTabsKey(arg1) {
+        var3 = arg1;
+        var2 = var3.join;
+        var1 = '-';
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    var _closure1_slot11 = entity;
-    tangon = function(argFoo) { // Original name: createSearchTabsLayoutManager
-        oscard = argFoo;
-        zuuluu = _closure1_slot10;
-        entity = {};
-        entity['searchContext'] = oscard;
-        option = _closure1_slot6;
-        golfie = option.getState;
-        report = function(argFoo) {
-            michal = argFoo;
-            entity = michal.isInitialSearchQuery;
-            entity = entity.bind(michal)();
-            return entity;
+    var _closure1_slot11 = var1;
+    var4 = function createSearchTabsLayoutManager(arg1) {
+        var6 = arg1;
+        var3 = _closure1_slot10;
+        var1 = {};
+        var1['searchContext'] = var6;
+        var8 = _closure1_slot6;
+        var7 = var8.getState;
+        var5 = function(arg1) {
+            var2 = arg1;
+            var1 = var2.isInitialSearchQuery;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        report = golfie.bind(option)(oscard, report);
-        entity['isInitialSearchQuery'] = report;
-        option = _closure1_slot6;
-        golfie = option.getState;
-        report = function(argFoo) {
-            michal = argFoo;
-            entity = michal.hasUserAddedTags;
-            entity = entity.bind(michal)();
-            return entity;
+        var5 = var7.bind(var8)(var6, var5);
+        var1['isInitialSearchQuery'] = var5;
+        var8 = _closure1_slot6;
+        var7 = var8.getState;
+        var5 = function(arg1) {
+            var2 = arg1;
+            var1 = var2.hasUserAddedTags;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        report = golfie.bind(option)(oscard, report);
-        entity['hasUserAddedTags'] = report;
-        report = _closure1_slot6;
-        tangon = report.getState;
-        michal = function(argFoo) {
-            michal = argFoo;
-            entity = michal.isTagsEmpty;
-            entity = entity.bind(michal)();
-            return entity;
+        var5 = var7.bind(var8)(var6, var5);
+        var1['hasUserAddedTags'] = var5;
+        var5 = _closure1_slot6;
+        var4 = var5.getState;
+        var2 = function(arg1) {
+            var2 = arg1;
+            var1 = var2.isTagsEmpty;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        michal = tangon.bind(report)(oscard, michal);
-        entity['isTagsEmpty'] = michal;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        yankee = michal;
-        offset = entity;
-        entity = new yankee[zuuluu](offset, verify);
-        entity = entity instanceof Object ? entity : michal;
-        return entity;
+        var2 = var4.bind(var5)(var6, var2);
+        var1['isTagsEmpty'] = var2;
+        var2 = var3.prototype;
+        var2 = Object.create(var2, {constructor: {value: var3}});
+        var11 = var2;
+        var10 = var1;
+        var1 = new var11[var3](var10, var9);
+        var1 = var1 instanceof Object ? var1 : var2;
+        return var1;
     };
-    var _closure1_slot12 = tangon;
-    entity = global;
-    offset = entity.Object;
-    option = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = verify.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    option = verify.bind(entity)(report);
-    report = 2;
-    report = golfie[report];
-    report = verify.bind(entity)(report);
-    var _closure1_slot4 = report;
-    report = 3;
-    offset = golfie[report];
-    report = argCor;
-    report = report.bind(entity)(offset);
-    var _closure1_slot5 = report;
-    report = 4;
-    report = golfie[report];
-    report = verify.bind(entity)(report);
-    var _closure1_slot6 = report;
-    report = 5;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    verify = report.SearchTabs;
-    var _closure1_slot7 = verify;
-    verify = report.SEARCH_TYPE_TO_SEARCH_INITIAL_TABS;
-    var _closure1_slot8 = verify;
-    report = report.SEARCH_TYPE_TO_SEARCH_RESULT_TABS;
-    var _closure1_slot9 = report;
-    report = function(argFoo) { // Original name: SearchTabsLayoutManager
-        entity = argFoo;
-        zuuluu = this;
-        var _closure2_slot0 = zuuluu;
-        michal = entity.searchContext;
-        golfie = entity.isInitialSearchQuery;
-        oscard = entity.hasUserAddedTags;
-        report = entity.isTagsEmpty;
-        offset = _closure1_slot4;
-        verify = _closure1_slot13;
-        entity = undefined;
-        verify = offset.bind(entity)(zuuluu, verify);
-        verify = null;
-        zuuluu['visibleTabCounts'] = verify;
-        verify = false;
-        zuuluu['isInitialSearchQuery'] = verify;
-        verify = function() {
-            entity = _closure2_slot0;
-            entity = entity.candidateTabs;
-            return entity;
+    var _closure1_slot12 = var4;
+    var1 = global;
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var10)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var8 = var9.bind(var1)(var5);
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 3;
+    var10 = var7[var5];
+    var5 = native4;
+    var5 = var5.bind(var1)(var10);
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.SearchTabs;
+    var _closure1_slot7 = var9;
+    var9 = var5.SEARCH_TYPE_TO_SEARCH_INITIAL_TABS;
+    var _closure1_slot8 = var9;
+    var5 = var5.SEARCH_TYPE_TO_SEARCH_RESULT_TABS;
+    var _closure1_slot9 = var5;
+    var5 = function SearchTabsLayoutManager(arg1) {
+        var1 = arg1;
+        var3 = this;
+        var _closure2_slot0 = var3;
+        var2 = var1.searchContext;
+        var7 = var1.isInitialSearchQuery;
+        var6 = var1.hasUserAddedTags;
+        var5 = var1.isTagsEmpty;
+        var10 = _closure1_slot4;
+        var9 = _closure1_slot13;
+        var1 = undefined;
+        var9 = var10.bind(var1)(var3, var9);
+        var9 = null;
+        var3['visibleTabCounts'] = var9;
+        var9 = false;
+        var3['isInitialSearchQuery'] = var9;
+        var9 = function() {
+            var1 = _closure2_slot0;
+            var1 = var1.candidateTabs;
+            return var1;
         };
-        zuuluu['getCandidateTabs'] = verify;
-        verify = function() {
-            entity = _closure2_slot0;
-            entity = entity.visibleTabs;
-            return entity;
+        var3['getCandidateTabs'] = var9;
+        var9 = function() {
+            var1 = _closure2_slot0;
+            var1 = var1.visibleTabs;
+            return var1;
         };
-        zuuluu['getVisibleTabs'] = verify;
-        verify = function() {
-            entity = _closure2_slot0;
-            entity = entity.visibleTabCounts;
-            return entity;
+        var3['getVisibleTabs'] = var9;
+        var9 = function() {
+            var1 = _closure2_slot0;
+            var1 = var1.visibleTabCounts;
+            return var1;
         };
-        zuuluu['getVisibleTabCounts'] = verify;
-        verify = function(argFoo) {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var3['getVisibleTabCounts'] = var9;
+        var9 = function(arg1) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = argFoo;
-                zuuluu = entity.isInitialSearchQuery;
-                tangon = entity.hasUserAddedTags;
-                var _closure3_slot0 = tangon;
-                entity = entity.isTagsEmpty;
-                var _closure3_slot1 = entity;
-                if(zuuluu) { _fun00002_ip = 65; continue _fun00001 }
+                var1 = arg1;
+                var3 = var1.isInitialSearchQuery;
+                var4 = var1.hasUserAddedTags;
+                var _closure3_slot0 = var4;
+                var1 = var1.isTagsEmpty;
+                var _closure3_slot1 = var1;
+                if(var3) { _fun0001_ip = 65; continue _fun0001 }
  37:
-                tangon = _closure1_slot9;
-                zuuluu = _closure2_slot0;
-                zuuluu = zuuluu.searchContext;
-                zuuluu = zuuluu.type;
-                tangon = tangon[zuuluu];
-                _fun00002_ip = 91; continue _fun00001;
+                var4 = _closure1_slot9;
+                var3 = _closure2_slot0;
+                var3 = var3.searchContext;
+                var3 = var3.type;
+                var4 = var4[var3];
+                _fun0001_ip = 91; continue _fun0001;
  65:
-                report = _closure1_slot8;
-                zuuluu = _closure2_slot0;
-                zuuluu = zuuluu.searchContext;
-                zuuluu = zuuluu.type;
-                tangon = report[zuuluu];
+                var5 = _closure1_slot8;
+                var3 = _closure2_slot0;
+                var3 = var3.searchContext;
+                var3 = var3.type;
+                var4 = var5[var3];
  91:
-                zuuluu = tangon.filter;
-                michal = function(argFoo) {
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var3 = var4.filter;
+                var2 = function(arg1) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        zuuluu = argFoo;
-                        michal = _closure1_slot7;
-                        michal = michal.MEMBERS;
-                        if(!(michal !== zuuluu)) { _fun00004_ip = 130; continue _fun00003 }
+                        var3 = arg1;
+                        var2 = _closure1_slot7;
+                        var2 = var2.MEMBERS;
+                        if(!(var2 !== var3)) { _fun0002_ip = 130; continue _fun0002 }
  20:
-                        michal = _closure1_slot7;
-                        michal = michal.RECENT;
-                        if(!(michal !== zuuluu)) { _fun00004_ip = 121; continue _fun00003 }
+                        var2 = _closure1_slot7;
+                        var2 = var2.RECENT;
+                        if(!(var2 !== var3)) { _fun0002_ip = 121; continue _fun0002 }
  34:
-                        michal = _closure1_slot7;
-                        michal = michal.GUILD_CHANNELS;
-                        if(!(michal !== zuuluu)) { _fun00004_ip = 121; continue _fun00003 }
+                        var2 = _closure1_slot7;
+                        var2 = var2.GUILD_CHANNELS;
+                        if(!(var2 !== var3)) { _fun0002_ip = 121; continue _fun0002 }
  48:
-                        michal = _closure1_slot7;
-                        michal = michal.PEOPLE;
-                        if(!(michal !== zuuluu)) { _fun00004_ip = 121; continue _fun00003 }
+                        var2 = _closure1_slot7;
+                        var2 = var2.PEOPLE;
+                        if(!(var2 !== var3)) { _fun0002_ip = 121; continue _fun0002 }
  62:
-                        michal = _closure1_slot7;
-                        michal = michal.THREADS;
-                        if(!(michal !== zuuluu)) { _fun00004_ip = 80; continue _fun00003 }
+                        var2 = _closure1_slot7;
+                        var2 = var2.THREADS;
+                        if(!(var2 !== var3)) { _fun0002_ip = 80; continue _fun0002 }
  76:
-                        michal = true;
-                        return michal;
+                        var2 = true;
+                        return var2;
  80:
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 6;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.isChannelDetailsHeaderExperimentV2Enabled;
-                        entity = 'getSearchInitialTabs';
-                        entity = michal.bind(zuuluu)(entity);
-                        return entity;
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 6;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.isChannelDetailsHeaderExperimentV2Enabled;
+                        var1 = 'getSearchInitialTabs';
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
  121:
-                        entity = _closure3_slot1;
-                        return entity;
+                        var1 = _closure3_slot1;
+                        return var1;
  130:
-                        entity = _closure3_slot0;
-                        entity = !entity;
-                        return entity;
+                        var1 = _closure3_slot0;
+                        var1 = !var1;
+                        return var1;
                     }
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                oscard = _closure1_slot11;
-                report = undefined;
-                tangon = oscard.bind(report)(zuuluu);
-                entity = _closure2_slot0;
-                entity = entity.candidateTabs;
-                entity = oscard.bind(report)(entity);
-                entity = tangon !== entity;
-                if(!entity) { _fun00002_ip = 156; continue _fun00001 }
+                var3 = var3.bind(var4)(var2);
+                var6 = _closure1_slot11;
+                var5 = undefined;
+                var4 = var6.bind(var5)(var3);
+                var1 = _closure2_slot0;
+                var1 = var1.candidateTabs;
+                var1 = var6.bind(var5)(var1);
+                var1 = var4 !== var1;
+                if(!var1) { _fun0001_ip = 156; continue _fun0001 }
  144:
-                michal = _closure2_slot0;
-                michal['candidateTabs'] = zuuluu;
-                entity = true;
+                var2 = _closure2_slot0;
+                var2['candidateTabs'] = var3;
+                var1 = true;
  156:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['computeCandidateTabs'] = verify;
-        verify = function(argFoo) {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var3['computeCandidateTabs'] = var9;
+        var9 = function(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                report = entity.nextTabs;
-                zuuluu = entity.nextTabCounts;
-                golfie = _closure1_slot11;
-                tangon = undefined;
-                oscard = golfie.bind(tangon)(report);
-                entity = _closure2_slot0;
-                entity = entity.visibleTabs;
-                tangon = golfie.bind(tangon)(entity);
-                entity = false;
-                if(!(oscard !== tangon)) { _fun00006_ip = 65; continue _fun00005 }
+                var1 = arg1;
+                var5 = var1.nextTabs;
+                var3 = var1.nextTabCounts;
+                var7 = _closure1_slot11;
+                var4 = undefined;
+                var6 = var7.bind(var4)(var5);
+                var1 = _closure2_slot0;
+                var1 = var1.visibleTabs;
+                var4 = var7.bind(var4)(var1);
+                var1 = false;
+                if(!(var6 !== var4)) { _fun0003_ip = 65; continue _fun0003 }
  53:
-                tangon = _closure2_slot0;
-                tangon['visibleTabs'] = report;
-                entity = true;
+                var4 = _closure2_slot0;
+                var4['visibleTabs'] = var5;
+                var1 = true;
  65:
-                tangon = _closure2_slot0;
-                tangon = tangon.visibleTabCounts;
-                if(!(zuuluu !== tangon)) { _fun00006_ip = 91; continue _fun00005 }
+                var4 = _closure2_slot0;
+                var4 = var4.visibleTabCounts;
+                if(!(var3 !== var4)) { _fun0003_ip = 91; continue _fun0003 }
  79:
-                michal = _closure2_slot0;
-                michal['visibleTabCounts'] = zuuluu;
-                entity = true;
+                var2 = _closure2_slot0;
+                var2['visibleTabCounts'] = var3;
+                var1 = true;
  91:
-                return entity;
+                return var1;
             }
         };
-        zuuluu['updateVisibleTabs'] = verify;
-        option = function(argFoo) {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var3['updateVisibleTabs'] = var9;
+        var8 = function(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                entity = argFoo;
-                oscard = entity.isInitialSearchQuery;
-                zuuluu = entity.isPendingSearchResults;
-                michal = entity.peopleTabCount;
-                golfie = entity.memberTabCount;
-                report = entity.channelTabCount;
-                entity = entity.messageTabCounts;
-                option = undefined;
-                var _closure3_slot0 = option;
-                var _closure3_slot1 = option;
-                if(oscard) { _fun00008_ip = 294; continue _fun00007 }
+                var1 = arg1;
+                var6 = var1.isInitialSearchQuery;
+                var3 = var1.isPendingSearchResults;
+                var2 = var1.peopleTabCount;
+                var7 = var1.memberTabCount;
+                var5 = var1.channelTabCount;
+                var1 = var1.messageTabCounts;
+                var8 = undefined;
+                var _closure3_slot0 = var8;
+                var _closure3_slot1 = var8;
+                if(var6) { _fun0004_ip = 294; continue _fun0004 }
  57:
-                if(zuuluu) { _fun00008_ip = 219; continue _fun00007 }
+                if(var3) { _fun0004_ip = 219; continue _fun0004 }
  63:
-                oscard = {};
-                yankee = oscard;
-                offset = entity;
-                entity = copyDataProperties(yankee, offset);
-                entity = _closure1_slot7;
-                zuuluu = entity.MEMBERS;
-                oscard[zuuluu] = golfie;
-                zuuluu = entity.GUILD_CHANNELS;
-                oscard[zuuluu] = report;
-                entity = entity.PEOPLE;
-                oscard[entity] = michal;
-                _closure3_slot1 = oscard;
-                entity = _closure2_slot0;
-                report = entity.candidateTabs;
-                zuuluu = report.every;
-                entity = function(argFoo) {
-                    michal = _closure3_slot1;
-                    entity = argFoo;
-                    michal = michal[entity];
-                    entity = null;
-                    entity = entity != michal;
-                    return entity;
+                var6 = {};
+                var11 = var6;
+                var10 = var1;
+                var1 = copyDataProperties(var11, var10);
+                var1 = _closure1_slot7;
+                var3 = var1.MEMBERS;
+                var6[var3] = var7;
+                var3 = var1.GUILD_CHANNELS;
+                var6[var3] = var5;
+                var1 = var1.PEOPLE;
+                var6[var1] = var2;
+                _closure3_slot1 = var6;
+                var1 = _closure2_slot0;
+                var5 = var1.candidateTabs;
+                var3 = var5.every;
+                var1 = function(arg1) {
+                    var2 = _closure3_slot1;
+                    var1 = arg1;
+                    var2 = var2[var1];
+                    var1 = null;
+                    var1 = var1 != var2;
+                    return var1;
                 };
-                entity = zuuluu.bind(report)(entity);
-                zuuluu = !entity;
-                entity = !zuuluu;
-                if(zuuluu) { _fun00008_ip = 217; continue _fun00007 }
+                var1 = var3.bind(var5)(var1);
+                var3 = !var1;
+                var1 = !var3;
+                if(var3) { _fun0004_ip = 217; continue _fun0004 }
  159:
-                report = _closure2_slot0;
-                michal = false;
-                report['isInitialSearchQuery'] = michal;
-                zuuluu = report.updateVisibleTabs;
-                michal = {};
-                verify = report.candidateTabs;
-                option = verify.filter;
-                golfie = function(argFoo) {
-                    michal = _closure3_slot1;
-                    entity = argFoo;
-                    michal = michal[entity];
-                    entity = 0;
-                    entity = entity !== michal;
-                    return entity;
+                var5 = _closure2_slot0;
+                var2 = false;
+                var5['isInitialSearchQuery'] = var2;
+                var3 = var5.updateVisibleTabs;
+                var2 = {};
+                var9 = var5.candidateTabs;
+                var8 = var9.filter;
+                var7 = function(arg1) {
+                    var2 = _closure3_slot1;
+                    var1 = arg1;
+                    var2 = var2[var1];
+                    var1 = 0;
+                    var1 = var1 !== var2;
+                    return var1;
                 };
-                golfie = option.bind(verify)(golfie);
-                michal['nextTabs'] = golfie;
-                michal['nextTabCounts'] = oscard;
-                entity = zuuluu.bind(report)(michal);
+                var7 = var8.bind(var9)(var7);
+                var2['nextTabs'] = var7;
+                var2['nextTabCounts'] = var6;
+                var1 = var3.bind(var5)(var2);
  217:
-                return entity;
+                return var1;
  219:
-                zuuluu = _closure2_slot0;
-                entity = zuuluu.isInitialSearchQuery;
-                _closure3_slot0 = entity;
-                entity = false;
-                zuuluu['isInitialSearchQuery'] = entity;
-                michal = zuuluu.updateVisibleTabs;
-                entity = {};
-                oscard = zuuluu.candidateTabs;
-                report = oscard.filter;
-                tangon = function(argFoo) {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var3 = _closure2_slot0;
+                var1 = var3.isInitialSearchQuery;
+                _closure3_slot0 = var1;
+                var1 = false;
+                var3['isInitialSearchQuery'] = var1;
+                var2 = var3.updateVisibleTabs;
+                var1 = {};
+                var6 = var3.candidateTabs;
+                var5 = var6.filter;
+                var4 = function(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        entity = _closure3_slot0;
-                        if(entity) { _fun00010_ip = 36; continue _fun00009 }
+                        var1 = _closure3_slot0;
+                        if(var1) { _fun0005_ip = 36; continue _fun0005 }
  10:
-                        michal = _closure2_slot0;
-                        tangon = michal.visibleTabs;
-                        zuuluu = tangon.includes;
-                        michal = argFoo;
-                        entity = zuuluu.bind(tangon)(michal);
+                        var2 = _closure2_slot0;
+                        var4 = var2.visibleTabs;
+                        var3 = var4.includes;
+                        var2 = arg1;
+                        var1 = var3.bind(var4)(var2);
  36:
-                        return entity;
+                        return var1;
                     }
                 };
-                tangon = report.bind(oscard)(tangon);
-                entity['nextTabs'] = tangon;
-                tangon = null;
-                entity['nextTabCounts'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                var4 = var5.bind(var6)(var4);
+                var1['nextTabs'] = var4;
+                var4 = null;
+                var1['nextTabCounts'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
  294:
-                zuuluu = _closure2_slot0;
-                entity = true;
-                zuuluu['isInitialSearchQuery'] = entity;
-                michal = zuuluu.updateVisibleTabs;
-                entity = {};
-                tangon = zuuluu.candidateTabs;
-                entity['nextTabs'] = tangon;
-                tangon = null;
-                entity['nextTabCounts'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                var3 = _closure2_slot0;
+                var1 = true;
+                var3['isInitialSearchQuery'] = var1;
+                var2 = var3.updateVisibleTabs;
+                var1 = {};
+                var4 = var3.candidateTabs;
+                var1['nextTabs'] = var4;
+                var4 = null;
+                var1['nextTabCounts'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             }
         };
-        zuuluu['computeVisibleTabs'] = option;
-        zuuluu['searchContext'] = michal;
-        tangon = _closure1_slot8;
-        michal = michal.type;
-        michal = tangon[michal];
-        zuuluu['candidateTabs'] = michal;
-        tangon = zuuluu.computeCandidateTabs;
-        michal = {};
-        michal['isInitialSearchQuery'] = golfie;
-        michal['hasUserAddedTags'] = oscard;
-        michal['isTagsEmpty'] = report;
-        michal = tangon.bind(zuuluu)(michal);
-        romeon = zuuluu.candidateTabs;
-        michal = new Array(0);
-        yankee = 0;
-        foxtra = michal;
-        tangon = arraySpread(foxtra, romeon, yankee);
-        zuuluu['visibleTabs'] = michal;
-        return entity;
+        var3['computeVisibleTabs'] = var8;
+        var3['searchContext'] = var2;
+        var4 = _closure1_slot8;
+        var2 = var2.type;
+        var2 = var4[var2];
+        var3['candidateTabs'] = var2;
+        var4 = var3.computeCandidateTabs;
+        var2 = {};
+        var2['isInitialSearchQuery'] = var7;
+        var2['hasUserAddedTags'] = var6;
+        var2['isTagsEmpty'] = var5;
+        var2 = var4.bind(var3)(var2);
+        var12 = var3.candidateTabs;
+        var2 = new Array(0);
+        var11 = 0;
+        var13 = var2;
+        var4 = arraySpread(var13, var12, var11);
+        var3['visibleTabs'] = var2;
+        return var1;
     };
-    var _closure1_slot13 = report;
-    report = option.bind(entity)(report);
-    var _closure1_slot10 = report;
-    report = 12;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['createSearchTabsLayoutManager'] = tangon;
-    michal = function(argFoo) { // Original name: useVisibleSearchTabs
-        golfie = argFoo;
-        var _closure2_slot0 = golfie;
-        oscard = _closure1_slot5;
-        report = oscard.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = golfie;
-        michal = function() {
-            zuuluu = _closure1_slot12;
-            michal = _closure2_slot0;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot13 = var5;
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot10 = var5;
+    var5 = 12;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['createSearchTabsLayoutManager'] = var4;
+    var2 = function useVisibleSearchTabs(arg1) {
+        var7 = arg1;
+        var _closure2_slot0 = var7;
+        var6 = _closure1_slot5;
+        var5 = var6.useMemo;
+        var3 = new Array(1);
+        var3[0] = var7;
+        var2 = function() {
+            var3 = _closure1_slot12;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        yankee = report.bind(oscard)(michal, zuuluu);
-        var _closure2_slot1 = yankee;
-        zuuluu = oscard.useState;
-        michal = yankee.getCandidateTabs;
-        michal = michal.bind(yankee)();
-        michal = zuuluu.bind(oscard)(michal);
-        romeon = _closure1_slot3;
-        foxtra = undefined;
-        offset = 2;
-        zuuluu = romeon.bind(foxtra)(michal, offset);
-        michal = 0;
-        report = zuuluu[michal];
-        var _closure2_slot2 = report;
-        verify = 1;
-        zuuluu = zuuluu[verify];
-        var _closure2_slot3 = zuuluu;
-        option = oscard.useState;
-        zuuluu = yankee.getVisibleTabs;
-        zuuluu = zuuluu.bind(yankee)();
-        zuuluu = option.bind(oscard)(zuuluu);
-        option = romeon.bind(foxtra)(zuuluu, offset);
-        zuuluu = option[michal];
-        option = option[verify];
-        var _closure2_slot4 = option;
-        backup = oscard.useState;
-        option = null;
-        option = backup.bind(oscard)(option);
-        option = romeon.bind(foxtra)(option, offset);
-        michal = option[michal];
-        option = option[verify];
-        var _closure2_slot5 = option;
-        offset = oscard.useEffect;
-        verify = new Array(1);
-        verify[0] = yankee;
-        option = function() {
-            report = _closure2_slot3;
-            tangon = _closure2_slot1;
-            entity = tangon.getCandidateTabs;
-            zuuluu = entity.bind(tangon)();
-            entity = undefined;
-            zuuluu = report.bind(entity)(zuuluu);
-            report = _closure2_slot4;
-            zuuluu = tangon.getVisibleTabs;
-            zuuluu = zuuluu.bind(tangon)();
-            zuuluu = report.bind(entity)(zuuluu);
-            zuuluu = _closure2_slot5;
-            michal = tangon.getVisibleTabCounts;
-            michal = michal.bind(tangon)();
-            michal = zuuluu.bind(entity)(michal);
-            return entity;
+        var11 = var5.bind(var6)(var2, var3);
+        var _closure2_slot1 = var11;
+        var3 = var6.useState;
+        var2 = var11.getCandidateTabs;
+        var2 = var2.bind(var11)();
+        var2 = var3.bind(var6)(var2);
+        var12 = _closure1_slot3;
+        var13 = undefined;
+        var10 = 2;
+        var3 = var12.bind(var13)(var2, var10);
+        var2 = 0;
+        var5 = var3[var2];
+        var _closure2_slot2 = var5;
+        var9 = 1;
+        var3 = var3[var9];
+        var _closure2_slot3 = var3;
+        var8 = var6.useState;
+        var3 = var11.getVisibleTabs;
+        var3 = var3.bind(var11)();
+        var3 = var8.bind(var6)(var3);
+        var8 = var12.bind(var13)(var3, var10);
+        var3 = var8[var2];
+        var8 = var8[var9];
+        var _closure2_slot4 = var8;
+        var14 = var6.useState;
+        var8 = null;
+        var8 = var14.bind(var6)(var8);
+        var8 = var12.bind(var13)(var8, var10);
+        var2 = var8[var2];
+        var8 = var8[var9];
+        var _closure2_slot5 = var8;
+        var10 = var6.useEffect;
+        var9 = new Array(1);
+        var9[0] = var11;
+        var8 = function() {
+            var5 = _closure2_slot3;
+            var4 = _closure2_slot1;
+            var1 = var4.getCandidateTabs;
+            var3 = var1.bind(var4)();
+            var1 = undefined;
+            var3 = var5.bind(var1)(var3);
+            var5 = _closure2_slot4;
+            var3 = var4.getVisibleTabs;
+            var3 = var3.bind(var4)();
+            var3 = var5.bind(var1)(var3);
+            var3 = _closure2_slot5;
+            var2 = var4.getVisibleTabCounts;
+            var2 = var2.bind(var4)();
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        option = offset.bind(oscard)(option, verify);
-        offset = oscard.useEffect;
-        verify = new Array(2);
-        verify[0] = yankee;
-        verify[1] = golfie;
-        option = function() {
-            oscard = _closure1_slot6;
-            report = oscard.subscribeState;
-            tangon = _closure2_slot0;
-            zuuluu = {};
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 7;
-            golfie = golfie[michal];
-            michal = undefined;
-            michal = option.bind(michal)(golfie);
-            michal = michal.shallow;
-            zuuluu['equalityFn'] = michal;
-            michal = true;
-            zuuluu['fireImmediately'] = michal;
-            yankee = function(argFoo) {
-                zuuluu = argFoo;
-                entity = {};
-                michal = zuuluu.isInitialSearchQuery;
-                michal = michal.bind(zuuluu)();
-                entity['isInitialSearchQuery'] = michal;
-                michal = zuuluu.isAutocompleteVisible;
-                michal = michal.bind(zuuluu)();
-                entity['isAutocompleteVisible'] = michal;
-                michal = zuuluu.hasUserAddedTags;
-                michal = michal.bind(zuuluu)();
-                entity['hasUserAddedTags'] = michal;
-                michal = zuuluu.isTagsEmpty;
-                michal = michal.bind(zuuluu)();
-                entity['isTagsEmpty'] = michal;
-                return entity;
+        var8 = var10.bind(var6)(var8, var9);
+        var10 = var6.useEffect;
+        var9 = new Array(2);
+        var9[0] = var11;
+        var9[1] = var7;
+        var8 = function() {
+            var6 = _closure1_slot6;
+            var5 = var6.subscribeState;
+            var4 = _closure2_slot0;
+            var3 = {};
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var7 = var7[var2];
+            var2 = undefined;
+            var2 = var8.bind(var2)(var7);
+            var2 = var2.shallow;
+            var3['equalityFn'] = var2;
+            var2 = true;
+            var3['fireImmediately'] = var2;
+            var11 = function(arg1) {
+                var3 = arg1;
+                var1 = {};
+                var2 = var3.isInitialSearchQuery;
+                var2 = var2.bind(var3)();
+                var1['isInitialSearchQuery'] = var2;
+                var2 = var3.isAutocompleteVisible;
+                var2 = var2.bind(var3)();
+                var1['isAutocompleteVisible'] = var2;
+                var2 = var3.hasUserAddedTags;
+                var2 = var2.bind(var3)();
+                var1['hasUserAddedTags'] = var2;
+                var2 = var3.isTagsEmpty;
+                var2 = var2.bind(var3)();
+                var1['isTagsEmpty'] = var2;
+                return var1;
             };
-            offset = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            var10 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    michal = argFoo;
-                    entity = null;
-                    if(!(entity != michal)) { _fun00012_ip = 99; continue _fun00011 }
+                    var2 = arg1;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0006_ip = 99; continue _fun0006 }
  9:
-                    golfie = michal.isInitialSearchQuery;
-                    entity = michal.isAutocompleteVisible;
-                    oscard = michal.hasUserAddedTags;
-                    report = michal.isTagsEmpty;
-                    if(entity) { _fun00012_ip = 99; continue _fun00011 }
+                    var7 = var2.isInitialSearchQuery;
+                    var1 = var2.isAutocompleteVisible;
+                    var6 = var2.hasUserAddedTags;
+                    var5 = var2.isTagsEmpty;
+                    if(var1) { _fun0006_ip = 99; continue _fun0006 }
  36:
-                    tangon = _closure2_slot1;
-                    zuuluu = tangon.computeCandidateTabs;
-                    michal = {};
-                    michal['isInitialSearchQuery'] = golfie;
-                    michal['hasUserAddedTags'] = oscard;
-                    michal['isTagsEmpty'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
-                    if(!michal) { _fun00012_ip = 99; continue _fun00011 }
+                    var4 = _closure2_slot1;
+                    var3 = var4.computeCandidateTabs;
+                    var2 = {};
+                    var2['isInitialSearchQuery'] = var7;
+                    var2['hasUserAddedTags'] = var6;
+                    var2['isTagsEmpty'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    if(!var2) { _fun0006_ip = 99; continue _fun0006 }
  74:
-                    zuuluu = _closure2_slot3;
-                    michal = _closure2_slot1;
-                    entity = michal.getCandidateTabs;
-                    michal = entity.bind(michal)();
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
+                    var3 = _closure2_slot3;
+                    var2 = _closure2_slot1;
+                    var1 = var2.getCandidateTabs;
+                    var2 = var1.bind(var2)();
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
  99:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            foxtra = oscard;
-            romeon = tangon;
-            verify = zuuluu;
-            entity = foxtra[report](romeon, yankee, offset, verify, option);
-            return entity;
+            var13 = var6;
+            var12 = var4;
+            var9 = var3;
+            var1 = var13[var5](var12, var11, var10, var9, var8);
+            return var1;
         };
-        option = offset.bind(oscard)(option, verify);
-        verify = oscard.useMemo;
-        option = new Array(1);
-        option[0] = report;
-        report = function() {
-            entity = global;
-            zuuluu = entity.Set;
-            tangon = _closure2_slot2;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+        var8 = var10.bind(var6)(var8, var9);
+        var9 = var6.useMemo;
+        var8 = new Array(1);
+        var8[0] = var5;
+        var5 = function() {
+            var1 = global;
+            var3 = var1.Set;
+            var4 = _closure2_slot2;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        kiloes = verify.bind(oscard)(report, option);
-        verify = kiloes.has;
-        report = _closure1_slot7;
-        option = report.GUILD_CHANNELS;
-        option = verify.bind(kiloes)(option);
-        offset = !option;
-        verify = _closure1_slot1;
-        backup = _closure1_slot2;
-        option = 8;
-        option = backup[option];
-        option = verify.bind(foxtra)(option);
-        romeon = option.bind(foxtra)(golfie, offset);
-        var _closure2_slot6 = romeon;
-        offset = kiloes.has;
-        option = report.MEMBERS;
-        option = offset.bind(kiloes)(option);
-        offset = !option;
-        option = 9;
-        option = backup[option];
-        option = verify.bind(foxtra)(option);
-        offset = option.bind(foxtra)(golfie, offset);
-        var _closure2_slot7 = offset;
-        option = kiloes.has;
-        report = report.PEOPLE;
-        report = option.bind(kiloes)(report);
-        option = !report;
-        report = 10;
-        report = backup[report];
-        report = verify.bind(foxtra)(report);
-        option = report.bind(foxtra)(golfie, option);
-        var _closure2_slot8 = option;
-        kiloes = _closure1_slot6;
-        verify = kiloes.useState;
-        report = function(argFoo) {
-            michal = argFoo;
-            entity = michal.getSearchResultsQuery;
-            entity = entity.bind(michal)();
-            return entity;
+        var15 = var9.bind(var6)(var5, var8);
+        var9 = var15.has;
+        var5 = _closure1_slot7;
+        var8 = var5.GUILD_CHANNELS;
+        var8 = var9.bind(var15)(var8);
+        var10 = !var8;
+        var9 = _closure1_slot1;
+        var14 = _closure1_slot2;
+        var8 = 8;
+        var8 = var14[var8];
+        var8 = var9.bind(var13)(var8);
+        var12 = var8.bind(var13)(var7, var10);
+        var _closure2_slot6 = var12;
+        var10 = var15.has;
+        var8 = var5.MEMBERS;
+        var8 = var10.bind(var15)(var8);
+        var10 = !var8;
+        var8 = 9;
+        var8 = var14[var8];
+        var8 = var9.bind(var13)(var8);
+        var10 = var8.bind(var13)(var7, var10);
+        var _closure2_slot7 = var10;
+        var8 = var15.has;
+        var5 = var5.PEOPLE;
+        var5 = var8.bind(var15)(var5);
+        var8 = !var5;
+        var5 = 10;
+        var5 = var14[var5];
+        var5 = var9.bind(var13)(var5);
+        var8 = var5.bind(var13)(var7, var8);
+        var _closure2_slot8 = var8;
+        var15 = _closure1_slot6;
+        var9 = var15.useState;
+        var5 = function(arg1) {
+            var2 = arg1;
+            var1 = var2.getSearchResultsQuery;
+            var1 = var1.bind(var2)();
+            return var1;
         };
-        verify = verify.bind(kiloes)(golfie, report);
-        var _closure2_slot9 = verify;
-        report = oscard.useRef;
-        report = report.bind(oscard)(verify);
-        var _closure2_slot10 = report;
-        sizing = oscard.useEffect;
-        kiloes = new Array(1);
-        kiloes[0] = verify;
-        report = function() {
-            michal = _closure2_slot10;
-            entity = _closure2_slot9;
-            michal['current'] = entity;
-            entity = undefined;
-            return entity;
+        var9 = var9.bind(var15)(var7, var5);
+        var _closure2_slot9 = var9;
+        var5 = var6.useRef;
+        var5 = var5.bind(var6)(var9);
+        var _closure2_slot10 = var5;
+        var16 = var6.useEffect;
+        var15 = new Array(1);
+        var15[0] = var9;
+        var5 = function() {
+            var2 = _closure2_slot10;
+            var1 = _closure2_slot9;
+            var2['current'] = var1;
+            var1 = undefined;
+            return var1;
         };
-        report = sizing.bind(oscard)(report, kiloes);
-        report = _closure1_slot0;
-        tangon = 11;
-        tangon = backup[tangon];
-        report = report.bind(foxtra)(tangon);
-        tangon = report.useMessageSearchTabCounts;
-        verify = tangon.bind(report)(golfie, verify);
-        var _closure2_slot11 = verify;
-        report = oscard.useEffect;
-        tangon = new Array(6);
-        tangon[0] = romeon;
-        tangon[1] = yankee;
-        tangon[2] = offset;
-        tangon[3] = verify;
-        tangon[4] = option;
-        tangon[5] = golfie;
-        entity = function() {
-            oscard = _closure1_slot6;
-            report = oscard.subscribeState;
-            tangon = _closure2_slot0;
-            zuuluu = {};
-            option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            michal = 7;
-            golfie = golfie[michal];
-            michal = undefined;
-            michal = option.bind(michal)(golfie);
-            michal = michal.shallow;
-            zuuluu['equalityFn'] = michal;
-            michal = true;
-            zuuluu['fireImmediately'] = michal;
-            yankee = function(argFoo) {
-                zuuluu = argFoo;
-                entity = {};
-                michal = zuuluu.isInitialSearchQuery;
-                michal = michal.bind(zuuluu)();
-                entity['isInitialSearchQuery'] = michal;
-                michal = zuuluu.getSearchResultsQuery;
-                tangon = michal.bind(zuuluu)();
-                michal = zuuluu.getQueryString;
-                michal = michal.bind(zuuluu)();
-                michal = tangon !== michal;
-                entity['isPendingSearchResults'] = michal;
-                michal = zuuluu.getSearchResultsQuery;
-                michal = michal.bind(zuuluu)();
-                entity['searchResultsQuery'] = michal;
-                michal = zuuluu.isAutocompleteVisible;
-                michal = michal.bind(zuuluu)();
-                entity['isAutocompleteVisible'] = michal;
-                return entity;
+        var5 = var16.bind(var6)(var5, var15);
+        var5 = _closure1_slot0;
+        var4 = 11;
+        var4 = var14[var4];
+        var5 = var5.bind(var13)(var4);
+        var4 = var5.useMessageSearchTabCounts;
+        var9 = var4.bind(var5)(var7, var9);
+        var _closure2_slot11 = var9;
+        var5 = var6.useEffect;
+        var4 = new Array(6);
+        var4[0] = var12;
+        var4[1] = var11;
+        var4[2] = var10;
+        var4[3] = var9;
+        var4[4] = var8;
+        var4[5] = var7;
+        var1 = function() {
+            var6 = _closure1_slot6;
+            var5 = var6.subscribeState;
+            var4 = _closure2_slot0;
+            var3 = {};
+            var8 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 7;
+            var7 = var7[var2];
+            var2 = undefined;
+            var2 = var8.bind(var2)(var7);
+            var2 = var2.shallow;
+            var3['equalityFn'] = var2;
+            var2 = true;
+            var3['fireImmediately'] = var2;
+            var11 = function(arg1) {
+                var3 = arg1;
+                var1 = {};
+                var2 = var3.isInitialSearchQuery;
+                var2 = var2.bind(var3)();
+                var1['isInitialSearchQuery'] = var2;
+                var2 = var3.getSearchResultsQuery;
+                var4 = var2.bind(var3)();
+                var2 = var3.getQueryString;
+                var2 = var2.bind(var3)();
+                var2 = var4 !== var2;
+                var1['isPendingSearchResults'] = var2;
+                var2 = var3.getSearchResultsQuery;
+                var2 = var2.bind(var3)();
+                var1['searchResultsQuery'] = var2;
+                var2 = var3.isAutocompleteVisible;
+                var2 = var2.bind(var3)();
+                var1['isAutocompleteVisible'] = var2;
+                return var1;
             };
-            offset = function(argFoo) {
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+            var10 = function(arg1) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    entity = argFoo;
-                    michal = null;
-                    if(!(michal != entity)) { _fun00014_ip = 171; continue _fun00013 }
+                    var1 = arg1;
+                    var2 = null;
+                    if(!(var2 != var1)) { _fun0007_ip = 171; continue _fun0007 }
  12:
-                    oscard = entity.isInitialSearchQuery;
-                    report = entity.isPendingSearchResults;
-                    golfie = entity.searchResultsQuery;
-                    entity = entity.isAutocompleteVisible;
-                    if(entity) { _fun00014_ip = 171; continue _fun00013 }
+                    var6 = var1.isInitialSearchQuery;
+                    var5 = var1.isPendingSearchResults;
+                    var7 = var1.searchResultsQuery;
+                    var1 = var1.isAutocompleteVisible;
+                    if(var1) { _fun0007_ip = 171; continue _fun0007 }
  42:
-                    tangon = _closure2_slot1;
-                    zuuluu = tangon.computeVisibleTabs;
-                    michal = {};
-                    michal['isInitialSearchQuery'] = oscard;
-                    if(report) { _fun00014_ip = 78; continue _fun00013 }
+                    var4 = _closure2_slot1;
+                    var3 = var4.computeVisibleTabs;
+                    var2 = {};
+                    var2['isInitialSearchQuery'] = var6;
+                    if(var5) { _fun0007_ip = 78; continue _fun0007 }
  65:
-                    oscard = _closure2_slot10;
-                    oscard = oscard.current;
-                    report = oscard !== golfie;
+                    var6 = _closure2_slot10;
+                    var6 = var6.current;
+                    var5 = var6 !== var7;
  78:
-                    michal['isPendingSearchResults'] = report;
-                    report = _closure2_slot8;
-                    michal['peopleTabCount'] = report;
-                    report = _closure2_slot7;
-                    michal['memberTabCount'] = report;
-                    report = _closure2_slot6;
-                    michal['channelTabCount'] = report;
-                    report = _closure2_slot11;
-                    michal['messageTabCounts'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
-                    if(!michal) { _fun00014_ip = 171; continue _fun00013 }
+                    var2['isPendingSearchResults'] = var5;
+                    var5 = _closure2_slot8;
+                    var2['peopleTabCount'] = var5;
+                    var5 = _closure2_slot7;
+                    var2['memberTabCount'] = var5;
+                    var5 = _closure2_slot6;
+                    var2['channelTabCount'] = var5;
+                    var5 = _closure2_slot11;
+                    var2['messageTabCounts'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    if(!var2) { _fun0007_ip = 171; continue _fun0007 }
  127:
-                    report = _closure2_slot4;
-                    tangon = _closure2_slot1;
-                    michal = tangon.getVisibleTabs;
-                    michal = michal.bind(tangon)();
-                    zuuluu = undefined;
-                    michal = report.bind(zuuluu)(michal);
-                    michal = _closure2_slot5;
-                    entity = tangon.getVisibleTabCounts;
-                    entity = entity.bind(tangon)();
-                    entity = michal.bind(zuuluu)(entity);
+                    var5 = _closure2_slot4;
+                    var4 = _closure2_slot1;
+                    var2 = var4.getVisibleTabs;
+                    var2 = var2.bind(var4)();
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var2 = _closure2_slot5;
+                    var1 = var4.getVisibleTabCounts;
+                    var1 = var1.bind(var4)();
+                    var1 = var2.bind(var3)(var1);
  171:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
                 }
             };
-            foxtra = oscard;
-            romeon = tangon;
-            verify = zuuluu;
-            entity = foxtra[report](romeon, yankee, offset, verify, option);
-            return entity;
+            var13 = var6;
+            var12 = var4;
+            var9 = var3;
+            var1 = var13[var5](var12, var11, var10, var9, var8);
+            return var1;
         };
-        entity = report.bind(oscard)(entity, tangon);
-        entity = {};
-        entity['visibleTabs'] = zuuluu;
-        entity['visibleTabCounts'] = michal;
-        return entity;
+        var1 = var5.bind(var6)(var1, var4);
+        var1 = {};
+        var1['visibleTabs'] = var3;
+        var1['visibleTabCounts'] = var2;
+        return var1;
     };
-    zuuluu['useVisibleSearchTabs'] = michal;
-    return entity;
+    var3['useVisibleSearchTabs'] = var2;
+    return var1;
 })();

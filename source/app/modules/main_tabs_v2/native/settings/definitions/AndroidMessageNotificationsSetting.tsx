@@ -1,102 +1,102 @@
 // app/modules/main_tabs_v2/native/settings/definitions/AndroidMessageNotificationsSetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    golfie = argBar;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    tangon = function() { // Original name: useAndroidMessageNotificationsSettingValue
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var4 = function useAndroidMessageNotificationsSettingValue() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = _closure1_slot2;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00002_ip = 25; continue _fun00001 }
+            var2 = _closure1_slot2;
+            var1 = undefined;
+            var2 = var2.bind(var1)();
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0001_ip = 25; continue _fun0001 }
  22:
-            entity = michal;
+            var1 = var2;
  25:
-            return entity;
+            return var1;
         }
     };
-    michal = function() { // Original name: useHasAndroidMessageNotificationsSetting
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var2 = function useHasAndroidMessageNotificationsSetting() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = _closure1_slot2;
-            tangon = undefined;
-            zuuluu = michal.bind(tangon)();
-            michal = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 3;
-            entity = report[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.isAndroid;
-            entity = entity.bind(michal)();
-            if(!entity) { _fun00004_ip = 51; continue _fun00003 }
+            var2 = _closure1_slot2;
+            var4 = undefined;
+            var3 = var2.bind(var4)();
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 3;
+            var1 = var5[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.isAndroid;
+            var1 = var1.bind(var2)();
+            if(!var1) { _fun0002_ip = 51; continue _fun0002 }
  45:
-            michal = null;
-            entity = michal != zuuluu;
+            var2 = null;
+            var1 = var2 != var3;
  51:
-            return entity;
+            return var1;
         }
     };
-    entity = global;
-    verify = entity.Object;
-    oscard = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = oscard.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = option[entity];
-    entity = undefined;
-    report = golfie.bind(entity)(report);
-    oscard = report.useAndroidMessageNotificationsEnabled;
-    var _closure1_slot2 = oscard;
-    oscard = report.setAndroidMessageNotificationsEnabled;
-    report = 1;
-    report = option[report];
-    report = golfie.bind(entity)(report);
-    verify = report.MobileSetting;
-    report = {};
-    yankee = 2;
-    yankee = option[yankee];
-    yankee = golfie.bind(entity)(yankee);
-    yankee = yankee.RendererType;
-    yankee = yankee.TOGGLE;
-    report['type'] = yankee;
-    offset = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 4;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.zViLy8;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var8[var1];
+    var1 = undefined;
+    var5 = var7.bind(var1)(var5);
+    var6 = var5.useAndroidMessageNotificationsEnabled;
+    var _closure1_slot2 = var6;
+    var6 = var5.setAndroidMessageNotificationsEnabled;
+    var5 = 1;
+    var5 = var8[var5];
+    var5 = var7.bind(var1)(var5);
+    var9 = var5.MobileSetting;
+    var5 = {};
+    var11 = 2;
+    var11 = var8[var11];
+    var11 = var7.bind(var1)(var11);
+    var11 = var11.RendererType;
+    var11 = var11.TOGGLE;
+    var5['type'] = var11;
+    var10 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 4;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.zViLy8;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    report['title'] = offset;
-    verify = verify.NOTIFICATIONS;
-    report['parent'] = verify;
-    report['useValue'] = tangon;
-    report['onValueChange'] = oscard;
-    report['usePredicate'] = michal;
-    oscard = 5;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/main_tabs_v2/native/settings/definitions/AndroidMessageNotificationsSetting.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['default'] = report;
-    zuuluu['useAndroidMessageNotificationsSettingValue'] = tangon;
-    zuuluu['useHasAndroidMessageNotificationsSetting'] = michal;
-    return entity;
+    var5['title'] = var10;
+    var9 = var9.NOTIFICATIONS;
+    var5['parent'] = var9;
+    var5['useValue'] = var4;
+    var5['onValueChange'] = var6;
+    var5['usePredicate'] = var2;
+    var6 = 5;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/main_tabs_v2/native/settings/definitions/AndroidMessageNotificationsSetting.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['default'] = var5;
+    var3['useAndroidMessageNotificationsSettingValue'] = var4;
+    var3['useHasAndroidMessageNotificationsSetting'] = var2;
+    return var1;
 })();

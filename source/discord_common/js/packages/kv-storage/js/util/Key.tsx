@@ -1,152 +1,152 @@
 // discord_common/js/packages/kv-storage/js/util/Key.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    tangon = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = tangon;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
-    tangon = tangon[entity];
-    entity = undefined;
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/kv-storage/js/util/Key.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: combineKey
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
+    var1 = undefined;
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = '../discord_common/js/packages/kv-storage/js/util/Key.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function combineKey(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            michal = global;
-            zuuluu = michal.Array;
-            entity = zuuluu.isArray;
-            entity = entity.bind(zuuluu)(report);
-            if(entity) { _fun00002_ip = 57; continue _fun00001 }
+            var6 = arg1;
+            var5 = arg2;
+            var2 = global;
+            var3 = var2.Array;
+            var1 = var3.isArray;
+            var1 = var1.bind(var3)(var5);
+            if(var1) { _fun0001_ip = 57; continue _fun0001 }
  27:
-            entity = new Array(1);
-            option = 0;
-            offset = entity;
-            verify = oscard;
-            tangon = arraySpread(offset, verify, option);
-            entity[tangon] = report;
-            zuuluu = 1;
-            zuuluu = tangon + zuuluu;
-            _fun00002_ip = 86; continue _fun00001;
+            var1 = new Array(1);
+            var8 = 0;
+            var10 = var1;
+            var9 = var6;
+            var4 = arraySpread(var10, var9, var8);
+            var1[var4] = var5;
+            var3 = 1;
+            var3 = var4 + var3;
+            _fun0001_ip = 86; continue _fun0001;
  57:
-            zuuluu = new Array(0);
-            option = 0;
-            offset = zuuluu;
-            verify = oscard;
-            option = arraySpread(offset, verify, option);
-            offset = zuuluu;
-            verify = report;
-            tangon = arraySpread(offset, verify, option);
-            entity = zuuluu;
+            var3 = new Array(0);
+            var8 = 0;
+            var10 = var3;
+            var9 = var6;
+            var8 = arraySpread(var10, var9, var8);
+            var10 = var3;
+            var9 = var5;
+            var4 = arraySpread(var10, var9, var8);
+            var1 = var3;
  86:
-            tangon = entity.length;
-            zuuluu = 1;
-            if(!(tangon >= zuuluu)) { _fun00002_ip = 137; continue _fun00001 }
+            var4 = var1.length;
+            var3 = 1;
+            if(!(var4 >= var3)) { _fun0001_ip = 137; continue _fun0001 }
  98:
-            tangon = entity.length;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 0;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            zuuluu = oscard.bind(zuuluu)(report);
-            zuuluu = zuuluu.MAXIMUM_KEY_BITS;
-            if(!(!(tangon <= zuuluu))) { _fun00002_ip = 217; continue _fun00001 }
+            var4 = var1.length;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 0;
+            var5 = var5[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = var3.MAXIMUM_KEY_BITS;
+            if(!(!(var4 <= var3))) { _fun0001_ip = 217; continue _fun0001 }
  137:
-            tangon = michal.Error;
-            golfie = entity.length;
-            report = michal.JSON;
-            zuuluu = report.stringify;
-            oscard = zuuluu.bind(report)(entity);
-            michal = michal.HermesInternal;
-            report = michal.concat;
-            zuuluu = 'combination results in an invalid key that has ';
-            michal = ' elements: ';
-            offset = report.bind(zuuluu)(golfie, michal, oscard);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            yankee = zuuluu;
-            michal = new yankee[tangon](offset, verify);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var4 = var2.Error;
+            var7 = var1.length;
+            var5 = var2.JSON;
+            var3 = var5.stringify;
+            var6 = var3.bind(var5)(var1);
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var3 = 'combination results in an invalid key that has ';
+            var2 = ' elements: ';
+            var10 = var5.bind(var3)(var7, var2, var6);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var11 = var3;
+            var2 = new var11[var4](var10, var9);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  217:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['combineKey'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: combineKeyPrefix
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['combineKey'] = var4;
+    var2 = function combineKeyPrefix(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = argFoo;
-            report = argBar;
-            michal = global;
-            zuuluu = michal.Array;
-            entity = zuuluu.isArray;
-            entity = entity.bind(zuuluu)(report);
-            if(entity) { _fun00004_ip = 57; continue _fun00003 }
+            var6 = arg1;
+            var5 = arg2;
+            var2 = global;
+            var3 = var2.Array;
+            var1 = var3.isArray;
+            var1 = var1.bind(var3)(var5);
+            if(var1) { _fun0002_ip = 57; continue _fun0002 }
  27:
-            entity = new Array(1);
-            option = 0;
-            offset = entity;
-            verify = oscard;
-            tangon = arraySpread(offset, verify, option);
-            entity[tangon] = report;
-            zuuluu = 1;
-            zuuluu = tangon + zuuluu;
-            _fun00004_ip = 86; continue _fun00003;
+            var1 = new Array(1);
+            var8 = 0;
+            var10 = var1;
+            var9 = var6;
+            var4 = arraySpread(var10, var9, var8);
+            var1[var4] = var5;
+            var3 = 1;
+            var3 = var4 + var3;
+            _fun0002_ip = 86; continue _fun0002;
  57:
-            zuuluu = new Array(0);
-            option = 0;
-            offset = zuuluu;
-            verify = oscard;
-            option = arraySpread(offset, verify, option);
-            offset = zuuluu;
-            verify = report;
-            tangon = arraySpread(offset, verify, option);
-            entity = zuuluu;
+            var3 = new Array(0);
+            var8 = 0;
+            var10 = var3;
+            var9 = var6;
+            var8 = arraySpread(var10, var9, var8);
+            var10 = var3;
+            var9 = var5;
+            var4 = arraySpread(var10, var9, var8);
+            var1 = var3;
  86:
-            tangon = entity.length;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 0;
-            report = report[zuuluu];
-            zuuluu = undefined;
-            zuuluu = oscard.bind(zuuluu)(report);
-            zuuluu = zuuluu.MAXIMUM_KEY_BITS;
-            if(!(!(tangon <= zuuluu))) { _fun00004_ip = 205; continue _fun00003 }
+            var4 = var1.length;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var3 = 0;
+            var5 = var5[var3];
+            var3 = undefined;
+            var3 = var6.bind(var3)(var5);
+            var3 = var3.MAXIMUM_KEY_BITS;
+            if(!(!(var4 <= var3))) { _fun0002_ip = 205; continue _fun0002 }
  125:
-            tangon = michal.Error;
-            golfie = entity.length;
-            report = michal.JSON;
-            zuuluu = report.stringify;
-            oscard = zuuluu.bind(report)(entity);
-            michal = michal.HermesInternal;
-            report = michal.concat;
-            zuuluu = 'combination results in an invalid prefix key that has ';
-            michal = ' elements: ';
-            offset = report.bind(zuuluu)(golfie, michal, oscard);
-            zuuluu = tangon.prototype;
-            zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-            yankee = zuuluu;
-            michal = new yankee[tangon](offset, verify);
-            michal = michal instanceof Object ? michal : zuuluu;
-            throw michal;
+            var4 = var2.Error;
+            var7 = var1.length;
+            var5 = var2.JSON;
+            var3 = var5.stringify;
+            var6 = var3.bind(var5)(var1);
+            var2 = var2.HermesInternal;
+            var5 = var2.concat;
+            var3 = 'combination results in an invalid prefix key that has ';
+            var2 = ' elements: ';
+            var10 = var5.bind(var3)(var7, var2, var6);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var11 = var3;
+            var2 = new var11[var4](var10, var9);
+            var2 = var2 instanceof Object ? var2 : var3;
+            throw var2;
  205:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['combineKeyPrefix'] = michal;
-    return entity;
+    var3['combineKeyPrefix'] = var2;
+    return var1;
 })();

@@ -1,113 +1,113 @@
 // app/polyfillsNative.tsx
-export default (function(argFoo, argBar, _, __, ___, ____, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        option = argFoo;
-        zuuluu = argBar;
-        tangon = argPlu;
-        entity = 0;
-        report = tangon[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(report);
-        report = 1;
-        report = tangon[report];
-        report = zuuluu.bind(entity)(report);
-        report = 2;
-        report = tangon[report];
-        report = zuuluu.bind(entity)(report);
-        report = 3;
-        report = tangon[report];
-        report = zuuluu.bind(entity)(report);
-        report = global;
-        oscard = report.process;
-        golfie = 'undefined';
-        oscard = typeof oscard;
-        if(!(golfie === oscard)) { _fun00002_ip = 93; continue _fun00001 }
+        var8 = native1;
+        var3 = native2;
+        var4 = native7;
+        var1 = 0;
+        var5 = var4[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var5);
+        var5 = 1;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
+        var5 = 2;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
+        var5 = 3;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
+        var5 = global;
+        var6 = var5.process;
+        var7 = 'undefined';
+        var6 = typeof var6;
+        if(!(var7 === var6)) { _fun0001_ip = 93; continue _fun0001 }
  79:
-        golfie = report.window;
-        oscard = {};
-        golfie['process'] = oscard;
+        var7 = var5.window;
+        var6 = {};
+        var7['process'] = var6;
  93:
-        oscard = report.window;
-        golfie = oscard.process;
-        oscard = report.setImmediate;
-        golfie['nextTick'] = oscard;
-        golfie = option.location;
-        oscard = null;
-        if(!(oscard == golfie)) { _fun00002_ip = 148; continue _fun00001 }
+        var6 = var5.window;
+        var7 = var6.process;
+        var6 = var5.setImmediate;
+        var7['nextTick'] = var6;
+        var7 = var8.location;
+        var6 = null;
+        if(!(var6 == var7)) { _fun0001_ip = 148; continue _fun0001 }
  128:
-        golfie = {'protocol': 'https:', 'host': 'discord.com'};
-        option['location'] = golfie;
+        var7 = {'protocol': 'https:', 'host': 'discord.com'};
+        var8['location'] = var7;
  148:
-        golfie = option.self;
-        if(golfie) { _fun00002_ip = 163; continue _fun00001 }
+        var7 = var8.self;
+        if(var7) { _fun0001_ip = 163; continue _fun0001 }
  157:
-        option['self'] = option;
+        var8['self'] = var8;
  163:
-        golfie = report.window;
-        golfie = golfie.crypto;
-        if(!(oscard == golfie)) { _fun00002_ip = 209; continue _fun00001 }
+        var7 = var5.window;
+        var7 = var7.crypto;
+        if(!(var6 == var7)) { _fun0001_ip = 209; continue _fun0001 }
  179:
-        golfie = 4;
-        golfie = tangon[golfie];
-        golfie = zuuluu.bind(entity)(golfie);
-        verify = report.window;
-        golfie = option.crypto;
-        verify['crypto'] = golfie;
+        var7 = 4;
+        var7 = var4[var7];
+        var7 = var3.bind(var1)(var7);
+        var9 = var5.window;
+        var7 = var8.crypto;
+        var9['crypto'] = var7;
  209:
-        golfie = option.Buffer;
-        if(!(oscard == golfie)) { _fun00002_ip = 243; continue _fun00001 }
+        var7 = var8.Buffer;
+        if(!(var6 == var7)) { _fun0001_ip = 243; continue _fun0001 }
  219:
-        golfie = 5;
-        golfie = tangon[golfie];
-        golfie = zuuluu.bind(entity)(golfie);
-        golfie = golfie.Buffer;
-        option['Buffer'] = golfie;
+        var7 = 5;
+        var7 = var4[var7];
+        var7 = var3.bind(var1)(var7);
+        var7 = var7.Buffer;
+        var8['Buffer'] = var7;
  243:
-        golfie = option.__reanimatedWorkletInit;
-        if(!(oscard == golfie)) { _fun00002_ip = 266; continue _fun00001 }
+        var7 = var8.__reanimatedWorkletInit;
+        if(!(var6 == var7)) { _fun0001_ip = 266; continue _fun0001 }
  253:
-        golfie = function() {
-            entity = undefined;
-            return entity;
+        var7 = function() {
+            var1 = undefined;
+            return var1;
         };
-        option['__reanimatedWorkletInit'] = golfie;
+        var8['__reanimatedWorkletInit'] = var7;
  266:
-        golfie = report.Set;
-        golfie = golfie.prototype;
-        option = report.Map;
-        option = option.prototype;
-        michal = function() {
-            entity = global;
-            zuuluu = entity.Array;
-            michal = zuuluu.from;
-            entity = this;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+        var7 = var5.Set;
+        var7 = var7.prototype;
+        var8 = var5.Map;
+        var8 = var8.prototype;
+        var2 = function() {
+            var1 = global;
+            var3 = var1.Array;
+            var2 = var3.from;
+            var1 = this;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        option['toJSON'] = michal;
-        golfie['toJSON'] = michal;
-        michal = report.window;
-        michal = michal.TextEncoder;
-        michal = oscard != michal;
-        if(!michal) { _fun00002_ip = 342; continue _fun00001 }
+        var8['toJSON'] = var2;
+        var7['toJSON'] = var2;
+        var2 = var5.window;
+        var2 = var2.TextEncoder;
+        var2 = var6 != var2;
+        if(!var2) { _fun0001_ip = 342; continue _fun0001 }
  326:
-        report = report.window;
-        report = report.TextDecoder;
-        michal = oscard != report;
+        var5 = var5.window;
+        var5 = var5.TextDecoder;
+        var2 = var6 != var5;
  342:
-        if(michal) { _fun00002_ip = 357; continue _fun00001 }
+        if(var2) { _fun0001_ip = 357; continue _fun0001 }
  345:
-        michal = 6;
-        michal = tangon[michal];
-        michal = zuuluu.bind(entity)(michal);
+        var2 = 6;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
  357:
-        michal = 7;
-        michal = tangon[michal];
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.fileFinishedImporting;
-        michal = 'polyfillsNative.tsx';
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = 7;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.fileFinishedImporting;
+        var2 = 'polyfillsNative.tsx';
+        var2 = var3.bind(var4)(var2);
+        return var1;
     }
 })();

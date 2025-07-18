@@ -1,150 +1,150 @@
 // app/modules/verification/ChangeEmailActionCreators.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = function() { // Original name: _confirmEmailChange
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = function _confirmEmailChange() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 142; continue _fun00001 }
+                    if(var2) { _fun0001_ip = 142; continue _fun0001 }
  10:
-                    zuuluu = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 2;
-                    michal = verify[michal];
-                    option = undefined;
-                    tangon = zuuluu.bind(option)(michal);
-                    zuuluu = tangon.post;
-                    michal = {};
-                    report = _closure1_slot4;
-                    report = report.USER_EMAIL_VERIFY_CODE;
-                    michal['url'] = report;
-                    report = {};
-                    golfie = argFoo;
-                    report['code'] = golfie;
-                    michal['body'] = report;
-                    report = {};
-                    golfie = _closure1_slot0;
-                    oscard = 3;
-                    oscard = verify[oscard];
-                    oscard = golfie.bind(option)(oscard);
-                    oscard = oscard.NetworkActionNames;
-                    oscard = oscard.USER_ACCOUNT_EMAIL_CHANGE_VERIFY_CODE;
-                    report['event'] = oscard;
-                    michal['trackedActionData'] = report;
-                    report = false;
-                    michal['rejectWithError'] = report;
-                    michal = zuuluu.bind(tangon)(michal);
+                    var3 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var2 = 2;
+                    var2 = var9[var2];
+                    var8 = undefined;
+                    var4 = var3.bind(var8)(var2);
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot4;
+                    var5 = var5.USER_EMAIL_VERIFY_CODE;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var7 = arg1;
+                    var5['code'] = var7;
+                    var2['body'] = var5;
+                    var5 = {};
+                    var7 = _closure1_slot0;
+                    var6 = 3;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.NetworkActionNames;
+                    var6 = var6.USER_ACCOUNT_EMAIL_CHANGE_VERIFY_CODE;
+                    var5['event'] = var6;
+                    var2['trackedActionData'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=125);
  123:
-                    return michal;
+                    return var2;
  125:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 139; continue _fun00001 }
+                    if(var3) { _fun0001_ip = 139; continue _fun0001 }
  131:
-                    zuuluu = michal.body;
-                    return zuuluu;
+                    var3 = var2.body;
+                    return var3;
  139:
-                    return michal;
+                    return var2;
  142:
-                    return entity;
+                    return var1;
                 }
             };
-            return entity;
+            return var1;
         };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot5 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot5 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot5 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot4 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/verification/ChangeEmailActionCreators.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: sendConfirmationCode
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot5 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot4 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/verification/ChangeEmailActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function sendConfirmationCode() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            oscard = arguments[0];
-            option = undefined;
-            if(!(oscard === option)) { _fun00004_ip = 11; continue _fun00003 }
+            var6 = arguments[0];
+            var8 = undefined;
+            if(!(var6 === var8)) { _fun0002_ip = 11; continue _fun0002 }
  9:
-            oscard = false;
+            var6 = false;
  11:
-            michal = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 2;
-            entity = verify[entity];
-            zuuluu = michal.bind(option)(entity);
-            michal = zuuluu.put;
-            entity = {};
-            tangon = _closure1_slot4;
-            tangon = tangon.USER_EMAIL;
-            entity['url'] = tangon;
-            tangon = {};
-            golfie = _closure1_slot0;
-            report = 3;
-            report = verify[report];
-            report = golfie.bind(option)(report);
-            report = report.NetworkActionNames;
-            report = report.USER_ACCOUNT_EMAIL_CHANGE_SEND_CODE;
-            tangon['event'] = report;
-            report = {};
-            report['is_resend'] = oscard;
-            tangon['properties'] = report;
-            entity['trackedActionData'] = tangon;
-            tangon = false;
-            entity['rejectWithError'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+            var2 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var1 = 2;
+            var1 = var9[var1];
+            var3 = var2.bind(var8)(var1);
+            var2 = var3.put;
+            var1 = {};
+            var4 = _closure1_slot4;
+            var4 = var4.USER_EMAIL;
+            var1['url'] = var4;
+            var4 = {};
+            var7 = _closure1_slot0;
+            var5 = 3;
+            var5 = var9[var5];
+            var5 = var7.bind(var8)(var5);
+            var5 = var5.NetworkActionNames;
+            var5 = var5.USER_ACCOUNT_EMAIL_CHANGE_SEND_CODE;
+            var4['event'] = var5;
+            var5 = {};
+            var5['is_resend'] = var6;
+            var4['properties'] = var5;
+            var1['trackedActionData'] = var4;
+            var4 = false;
+            var1['rejectWithError'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         }
     };
-    zuuluu['sendConfirmationCode'] = tangon;
-    michal = function() { // Original name: confirmEmailChange
-        entity = undefined;
-        tangon = _closure1_slot5;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+    var3['sendConfirmationCode'] = var4;
+    var2 = function confirmEmailChange() {
+        var1 = undefined;
+        var4 = _closure1_slot5;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['confirmEmailChange'] = michal;
-    return entity;
+    var3['confirmEmailChange'] = var2;
+    return var1;
 })();

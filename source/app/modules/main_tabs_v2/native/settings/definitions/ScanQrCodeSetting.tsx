@@ -1,133 +1,133 @@
 // app/modules/main_tabs_v2/native/settings/definitions/ScanQrCodeSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    michal = {};
-    tangon = true;
-    michal['value'] = tangon;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    golfie = golfie.bind(entity)(michal);
-    michal = 1;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    verify = michal.RendererType;
-    michal = 2;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.NativePermissionTypes;
-    var _closure1_slot3 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    romeon = report.bind(entity)(michal);
-    yankee = romeon.debounce;
-    michal = function* () {
-        entity = function* () { // Original name: ?anon_0_
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var2 = {};
+    var4 = true;
+    var2['value'] = var4;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var7 = var7.bind(var1)(var2);
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var9 = var2.RendererType;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.NativePermissionTypes;
+    var _closure1_slot3 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var12 = var5.bind(var1)(var2);
+    var11 = var12.debounce;
+    var2 = function* () {
+        var1 = function* anon_0_() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                 StartGenerator();
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(michal) { _fun00002_ip = 146; continue _fun00001 }
+                if(var2) { _fun0001_ip = 146; continue _fun0001 }
  10: // try_start_0
-                zuuluu = _closure1_slot1;
-                tangon = _closure1_slot2;
-                michal = 4;
-                michal = tangon[michal];
-                option = undefined;
-                tangon = zuuluu.bind(option)(michal);
-                zuuluu = tangon.requestPermission;
-                michal = _closure1_slot3;
-                michal = michal.CAMERA;
-                michal = zuuluu.bind(tangon)(michal);
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 4;
+                var2 = var4[var2];
+                var8 = undefined;
+                var4 = var3.bind(var8)(var2);
+                var3 = var4.requestPermission;
+                var2 = _closure1_slot3;
+                var2 = var2.CAMERA;
+                var2 = var3.bind(var4)(var2);
                 SaveGenerator(address=60);
  58:
-                return michal;
+                return var2;
  60:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                if(zuuluu) { _fun00002_ip = 136; continue _fun00001 }
+                if(var3) { _fun0001_ip = 136; continue _fun0001 }
  66:
-                if(!michal) { _fun00002_ip = 134; continue _fun00001 }
+                if(!var2) { _fun0001_ip = 134; continue _fun0001 }
  69:
-                report = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                tangon = 5;
-                tangon = zuuluu[tangon];
-                report = report.bind(option)(tangon);
-                tangon = report.pushLazy;
-                golfie = _closure1_slot0;
-                oscard = 7;
-                oscard = zuuluu[oscard];
-                golfie = golfie.bind(option)(oscard);
-                oscard = 6;
-                oscard = zuuluu[oscard];
-                zuuluu = zuuluu.paths;
-                zuuluu = golfie.bind(option)(oscard, zuuluu);
-                zuuluu = tangon.bind(report)(zuuluu);
+                var5 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var4 = 5;
+                var4 = var3[var4];
+                var5 = var5.bind(var8)(var4);
+                var4 = var5.pushLazy;
+                var7 = _closure1_slot0;
+                var6 = 7;
+                var6 = var3[var6];
+                var7 = var7.bind(var8)(var6);
+                var6 = 6;
+                var6 = var3[var6];
+                var3 = var3.paths;
+                var3 = var7.bind(var8)(var6, var3);
+                var3 = var4.bind(var5)(var3);
  134: // try_end0
-                _fun00002_ip = 141; continue _fun00001;
+                _fun0001_ip = 141; continue _fun0001;
  136:
-                return michal;
+                return var2;
  139: // catch_target0
                 CatchBlockStart(arg_register=1);
  141:
-                michal = undefined;
-                return michal;
+                var2 = undefined;
+                return var2;
  146:
-                return entity;
+                return var1;
             }
         };
-        return entity;
+        return var1;
     };
-    offset = golfie.bind(entity)(michal);
-    golfie = 1000;
-    michal = {'leading': true, 'trailing': false};
-    golfie = yankee.bind(romeon)(offset, golfie, michal);
-    michal = {};
-    verify = verify.PRESSABLE;
-    michal['type'] = verify;
-    option = function() { // Original name: title
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 8;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.RC0kJy;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+    var10 = var7.bind(var1)(var2);
+    var7 = 1000;
+    var2 = {'leading': true, 'trailing': false};
+    var7 = var11.bind(var12)(var10, var7, var2);
+    var2 = {};
+    var9 = var9.PRESSABLE;
+    var2['type'] = var9;
+    var8 = function title() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.RC0kJy;
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
-    michal['title'] = option;
-    option = null;
-    michal['parent'] = option;
-    option = 9;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.QrCodeIcon;
-    michal['IconComponent'] = option;
-    michal['onPress'] = golfie;
-    michal['withArrow'] = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/settings/definitions/ScanQrCodeSetting.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['title'] = var8;
+    var8 = null;
+    var2['parent'] = var8;
+    var8 = 9;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.QrCodeIcon;
+    var2['IconComponent'] = var8;
+    var2['onPress'] = var7;
+    var2['withArrow'] = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/settings/definitions/ScanQrCodeSetting.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

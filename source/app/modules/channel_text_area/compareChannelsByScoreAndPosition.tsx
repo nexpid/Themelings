@@ -1,172 +1,172 @@
 // app/modules/channel_text_area/compareChannelsByScoreAndPosition.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = function(argFoo) { // Original name: getGuildChannelPosition
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = function getGuildChannelPosition(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = michal.parent_id;
-            zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00002_ip = 120; continue _fun00001 }
+            var2 = arg1;
+            var1 = var2.parent_id;
+            var3 = null;
+            if(!(var3 != var1)) { _fun0001_ip = 120; continue _fun0001 }
  15:
-            report = _closure1_slot0;
-            tangon = report.getChannel;
-            entity = michal.parent_id;
-            tangon = tangon.bind(report)(entity);
-            report = zuuluu == tangon;
-            entity = undefined;
-            if(report) { _fun00002_ip = 52; continue _fun00001 }
+            var5 = _closure1_slot0;
+            var4 = var5.getChannel;
+            var1 = var2.parent_id;
+            var4 = var4.bind(var5)(var1);
+            var5 = var3 == var4;
+            var1 = undefined;
+            if(var5) { _fun0001_ip = 52; continue _fun0001 }
  47:
-            entity = tangon.position;
+            var1 = var4.position;
  52:
-            tangon = zuuluu != entity;
-            zuuluu = 0;
-            if(!tangon) { _fun00002_ip = 64; continue _fun00001 }
+            var4 = var3 != var1;
+            var3 = 0;
+            if(!var4) { _fun0001_ip = 64; continue _fun0001 }
  61:
-            zuuluu = entity;
+            var3 = var1;
  64:
-            entity = 1;
-            report = zuuluu + entity;
-            entity = michal.isGuildVocal;
-            entity = entity.bind(michal)();
-            tangon = michal.position;
-            zuuluu = 1000;
-            zuuluu = zuuluu * report;
-            tangon = zuuluu + tangon;
-            if(entity) { _fun00002_ip = 108; continue _fun00001 }
+            var1 = 1;
+            var5 = var3 + var1;
+            var1 = var2.isGuildVocal;
+            var1 = var1.bind(var2)();
+            var4 = var2.position;
+            var3 = 1000;
+            var3 = var3 * var5;
+            var4 = var3 + var4;
+            if(var1) { _fun0001_ip = 108; continue _fun0001 }
  103:
-            entity = tangon;
-            _fun00002_ip = 118; continue _fun00001;
+            var1 = var4;
+            _fun0001_ip = 118; continue _fun0001;
  108:
-            zuuluu = 500;
-            entity = tangon + zuuluu;
+            var3 = 500;
+            var1 = var4 + var3;
  118:
-            return entity;
+            return var1;
  120:
-            zuuluu = michal.type;
-            entity = _closure1_slot1;
-            entity = entity.GUILD_CATEGORY;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 149; continue _fun00001 }
+            var3 = var2.type;
+            var1 = _closure1_slot1;
+            var1 = var1.GUILD_CATEGORY;
+            if(!(var3 !== var1)) { _fun0001_ip = 149; continue _fun0001 }
  142:
-            entity = michal.position;
-            _fun00002_ip = 171; continue _fun00001;
+            var1 = var2.position;
+            _fun0001_ip = 171; continue _fun0001;
  149:
-            zuuluu = michal.position;
-            michal = 1;
-            zuuluu = zuuluu + michal;
-            michal = 1000;
-            entity = michal * zuuluu;
+            var3 = var2.position;
+            var2 = 1;
+            var3 = var3 + var2;
+            var2 = 1000;
+            var1 = var2 * var3;
  171:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ChannelTypes;
-    var _closure1_slot1 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/channel_text_area/compareChannelsByScoreAndPosition.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: compareChannelsByScoreAndPosition
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot2 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native3;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ChannelTypes;
+    var _closure1_slot1 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/channel_text_area/compareChannelsByScoreAndPosition.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function compareChannelsByScoreAndPosition(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = argBar;
-            tangon = entity.score;
-            zuuluu = michal.score;
-            if(!(tangon === zuuluu)) { _fun00004_ip = 204; continue _fun00003 }
+            var1 = arg1;
+            var2 = arg2;
+            var4 = var1.score;
+            var3 = var2.score;
+            if(!(var4 === var3)) { _fun0002_ip = 204; continue _fun0002 }
  25:
-            report = _closure1_slot2;
-            zuuluu = entity.record;
-            verify = undefined;
-            tangon = report.bind(verify)(zuuluu);
-            zuuluu = michal.record;
-            zuuluu = report.bind(verify)(zuuluu);
-            if(!(tangon === zuuluu)) { _fun00004_ip = 198; continue _fun00003 }
+            var5 = _closure1_slot2;
+            var3 = var1.record;
+            var9 = undefined;
+            var4 = var5.bind(var9)(var3);
+            var3 = var2.record;
+            var3 = var5.bind(var9)(var3);
+            if(!(var4 === var3)) { _fun0002_ip = 198; continue _fun0002 }
  63:
-            report = entity.sortable;
-            option = null;
-            if(!(option == report)) { _fun00004_ip = 103; continue _fun00003 }
+            var5 = var1.sortable;
+            var8 = null;
+            if(!(var8 == var5)) { _fun0002_ip = 103; continue _fun0002 }
  75:
-            offset = entity.comparator;
-            golfie = option == offset;
-            oscard = undefined;
-            if(golfie) { _fun00004_ip = 100; continue _fun00003 }
+            var10 = var1.comparator;
+            var7 = var8 == var10;
+            var6 = undefined;
+            if(var7) { _fun0002_ip = 100; continue _fun0002 }
  90:
-            golfie = offset.toLocaleLowerCase;
-            oscard = golfie.bind(offset)();
+            var7 = var10.toLocaleLowerCase;
+            var6 = var7.bind(var10)();
  100:
-            report = oscard;
+            var5 = var6;
  103:
-            offset = option != report;
-            golfie = '';
-            oscard = golfie;
-            if(!offset) { _fun00004_ip = 120; continue _fun00003 }
+            var10 = var8 != var5;
+            var7 = '';
+            var6 = var7;
+            if(!var10) { _fun0002_ip = 120; continue _fun0002 }
  117:
-            oscard = report;
+            var6 = var5;
  120:
-            report = entity.sortable;
-            if(!(option == report)) { _fun00004_ip = 158; continue _fun00003 }
+            var5 = var1.sortable;
+            if(!(var8 == var5)) { _fun0002_ip = 158; continue _fun0002 }
  130:
-            yankee = michal.comparator;
-            offset = option == yankee;
-            verify = undefined;
-            if(offset) { _fun00004_ip = 155; continue _fun00003 }
+            var11 = var2.comparator;
+            var10 = var8 == var11;
+            var9 = undefined;
+            if(var10) { _fun0002_ip = 155; continue _fun0002 }
  145:
-            offset = yankee.toLocaleLowerCase;
-            verify = offset.bind(yankee)();
+            var10 = var11.toLocaleLowerCase;
+            var9 = var10.bind(var11)();
  155:
-            report = verify;
+            var5 = var9;
  158:
-            option = option != report;
-            if(!option) { _fun00004_ip = 168; continue _fun00003 }
+            var8 = var8 != var5;
+            if(!var8) { _fun0002_ip = 168; continue _fun0002 }
  165:
-            golfie = report;
+            var7 = var5;
  168:
-            option = oscard < golfie;
-            report = -1;
-            if(option) { _fun00004_ip = 196; continue _fun00003 }
+            var8 = var6 < var7;
+            var5 = -1;
+            if(var8) { _fun0002_ip = 196; continue _fun0002 }
  181:
-            golfie = oscard > golfie;
-            oscard = 0;
-            if(!golfie) { _fun00004_ip = 193; continue _fun00003 }
+            var7 = var6 > var7;
+            var6 = 0;
+            if(!var7) { _fun0002_ip = 193; continue _fun0002 }
  190:
-            oscard = 1;
+            var6 = 1;
  193:
-            report = oscard;
+            var5 = var6;
  196:
-            return report;
+            return var5;
  198:
-            zuuluu = tangon - zuuluu;
-            return zuuluu;
+            var3 = var4 - var3;
+            return var3;
  204:
-            michal = michal.score;
-            entity = entity.score;
-            entity = michal - entity;
-            return entity;
+            var2 = var2.score;
+            var1 = var1.score;
+            var1 = var2 - var1;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

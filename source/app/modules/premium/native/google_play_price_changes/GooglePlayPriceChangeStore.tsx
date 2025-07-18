@@ -1,320 +1,320 @@
 // app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    tangon = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var4 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
+            _fun0001_ip = 76; continue _fun0001;
  74: // catch_target0
             CatchBlockStart(arg_register=1);
  76:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot12 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot12 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot12 = entity;
-    golfie = global;
-    offset = golfie.Object;
-    verify = offset.defineProperty;
-    option = {};
-    entity = true;
-    option['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, option);
-    entity = 0;
-    option = oscard[entity];
-    entity = undefined;
-    option = tangon.bind(entity)(option);
-    var _closure1_slot2 = option;
-    option = 1;
-    option = oscard[option];
-    option = tangon.bind(entity)(option);
-    var _closure1_slot3 = option;
-    option = 2;
-    option = oscard[option];
-    option = tangon.bind(entity)(option);
-    var _closure1_slot4 = option;
-    option = 3;
-    option = oscard[option];
-    option = tangon.bind(entity)(option);
-    var _closure1_slot5 = option;
-    option = 4;
-    option = oscard[option];
-    option = tangon.bind(entity)(option);
-    var _closure1_slot6 = option;
-    option = 5;
-    option = oscard[option];
-    option = tangon.bind(entity)(option);
-    var _closure1_slot7 = option;
-    option = 6;
-    option = oscard[option];
-    option = report.bind(entity)(option);
-    option = option.SubscriptionStatusTypes;
-    verify = golfie.Set;
-    offset = option.ACTIVE;
-    golfie = new Array(3);
-    golfie[0] = offset;
-    offset = option.PAST_DUE;
-    golfie[1] = offset;
-    option = option.UNPAID;
-    golfie[2] = option;
-    option = verify.prototype;
-    option = Object.create(option, {constructor: {value: verify}});
-    backup = option;
-    foxtra = golfie;
-    golfie = new backup[verify](foxtra, romeon);
-    golfie = golfie instanceof Object ? golfie : option;
-    var _closure1_slot8 = golfie;
-    golfie = false;
-    var _closure1_slot9 = golfie;
-    golfie = null;
-    var _closure1_slot10 = golfie;
-    golfie = function() { // Original name: onInitializeSync
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot12 = var1;
+    var7 = global;
+    var10 = var7.Object;
+    var9 = var10.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var8);
+    var1 = 0;
+    var8 = var6[var1];
+    var1 = undefined;
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot2 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var4.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.SubscriptionStatusTypes;
+    var9 = var7.Set;
+    var10 = var8.ACTIVE;
+    var7 = new Array(3);
+    var7[0] = var10;
+    var10 = var8.PAST_DUE;
+    var7[1] = var10;
+    var8 = var8.UNPAID;
+    var7[2] = var8;
+    var8 = var9.prototype;
+    var8 = Object.create(var8, {constructor: {value: var9}});
+    var14 = var8;
+    var13 = var7;
+    var7 = new var14[var9](var13, var12);
+    var7 = var7 instanceof Object ? var7 : var8;
+    var _closure1_slot8 = var7;
+    var7 = false;
+    var _closure1_slot9 = var7;
+    var7 = null;
+    var _closure1_slot10 = var7;
+    var7 = function onInitializeSync() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = null;
-            _closure1_slot10 = report;
-            entity = false;
-            _closure1_slot9 = entity;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            entity = 7;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(michal);
-            michal = tangon.isAndroid;
-            michal = michal.bind(tangon)();
-            if(!michal) { _fun00004_ip = 206; continue _fun00003 }
+            var5 = null;
+            _closure1_slot10 = var5;
+            var1 = false;
+            _closure1_slot9 = var1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.isAndroid;
+            var2 = var2.bind(var4)();
+            if(!var2) { _fun0002_ip = 206; continue _fun0002 }
  52:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot1;
-            michal = 8;
-            michal = oscard[michal];
-            michal = tangon.bind(entity)(michal);
-            oscard = michal.GooglePlayPriceChangeNoticeKSExperiment;
-            tangon = oscard.getCurrentConfig;
-            michal = {};
-            golfie = 'GooglePlayPriceChangeStore.onInitializeSync';
-            michal['location'] = golfie;
-            michal = tangon.bind(oscard)(michal);
-            michal = michal.enabled;
-            if(michal) { _fun00004_ip = 206; continue _fun00003 }
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 8;
+            var2 = var6[var2];
+            var2 = var4.bind(var1)(var2);
+            var6 = var2.GooglePlayPriceChangeNoticeKSExperiment;
+            var4 = var6.getCurrentConfig;
+            var2 = {};
+            var7 = 'GooglePlayPriceChangeStore.onInitializeSync';
+            var2['location'] = var7;
+            var2 = var4.bind(var6)(var2);
+            var2 = var2.enabled;
+            if(var2) { _fun0002_ip = 206; continue _fun0002 }
  109:
-            tangon = _closure1_slot7;
-            michal = tangon.getPremiumSubscription;
-            oscard = michal.bind(tangon)();
-            tangon = report == oscard;
-            michal = undefined;
-            if(tangon) { _fun00004_ip = 138; continue _fun00003 }
+            var4 = _closure1_slot7;
+            var2 = var4.getPremiumSubscription;
+            var6 = var2.bind(var4)();
+            var4 = var5 == var6;
+            var2 = undefined;
+            if(var4) { _fun0002_ip = 138; continue _fun0002 }
  132:
-            michal = oscard.priceChange;
+            var2 = var6.priceChange;
  138:
-            tangon = report != oscard;
-            if(!tangon) { _fun00004_ip = 164; continue _fun00003 }
+            var4 = var5 != var6;
+            if(!var4) { _fun0002_ip = 164; continue _fun0002 }
  145:
-            option = _closure1_slot8;
-            golfie = option.has;
-            oscard = oscard.status;
-            tangon = golfie.bind(option)(oscard);
+            var8 = _closure1_slot8;
+            var7 = var8.has;
+            var6 = var6.status;
+            var4 = var7.bind(var8)(var6);
  164:
-            if(!tangon) { _fun00004_ip = 171; continue _fun00003 }
+            if(!var4) { _fun0002_ip = 171; continue _fun0002 }
  167:
-            tangon = report != michal;
+            var4 = var5 != var2;
  171:
-            if(!tangon) { _fun00004_ip = 182; continue _fun00003 }
+            if(!var4) { _fun0002_ip = 182; continue _fun0002 }
  174:
-            tangon = michal.isInFuture;
+            var4 = var2.isInFuture;
  182:
-            if(!tangon) { _fun00004_ip = 193; continue _fun00003 }
+            if(!var4) { _fun0002_ip = 193; continue _fun0002 }
  185:
-            tangon = michal.isPriceIncrease;
+            var4 = var2.isPriceIncrease;
  193:
-            if(!tangon) { _fun00004_ip = 206; continue _fun00003 }
+            if(!var4) { _fun0002_ip = 206; continue _fun0002 }
  196:
-            _closure1_slot10 = michal;
-            michal = true;
-            _closure1_slot9 = michal;
+            _closure1_slot10 = var2;
+            var2 = true;
+            _closure1_slot9 = var2;
  206:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot11 = golfie;
-    golfie = 9;
-    golfie = oscard[golfie];
-    golfie = tangon.bind(entity)(golfie);
-    golfie = golfie.Store;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: GooglePlayPriceChangeStore
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot11 = var7;
+    var7 = 9;
+    var7 = var6[var7];
+    var7 = var4.bind(var1)(var7);
+    var7 = var7.Store;
+    var2 = function(arg1) {
+        var4 = function GooglePlayPriceChangeStore() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot2;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot5;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot4;
-                entity = _closure1_slot12;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00006_ip = 69; continue _fun00005 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot2;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot5;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot4;
+                var1 = _closure1_slot12;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0003_ip = 69; continue _fun0003 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00006_ip = 105; continue _fun00005;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0003_ip = 105; continue _fun0003;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot5;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot5;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot6;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot3;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function() { // Original name: value
-            zuuluu = this;
-            report = zuuluu.syncWith;
-            michal = _closure1_slot7;
-            tangon = new Array(1);
-            tangon[0] = michal;
-            entity = _closure1_slot11;
-            entity = report.bind(zuuluu)(tangon, entity);
-            entity = zuuluu.waitFor;
-            entity = entity.bind(zuuluu)(michal);
-            entity = undefined;
-            return entity;
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot6;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot3;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value() {
+            var3 = this;
+            var5 = var3.syncWith;
+            var2 = _closure1_slot7;
+            var4 = new Array(1);
+            var4[0] = var2;
+            var1 = _closure1_slot11;
+            var1 = var5.bind(var3)(var4, var1);
+            var1 = var3.waitFor;
+            var1 = var1.bind(var3)(var2);
+            var1 = undefined;
+            return var1;
         };
-        report['value'] = entity;
-        entity = new Array(3);
-        entity[0] = report;
-        report = {};
-        golfie = 'shouldShowGooglePlayPriceChange';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        var5['value'] = var1;
+        var1 = new Array(3);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'shouldShowGooglePlayPriceChange';
+        var5['key'] = var7;
+        var7 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 8;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                tangon = entity.GooglePlayPriceChangeNoticeKSExperiment;
-                zuuluu = tangon.getCurrentConfig;
-                entity = {};
-                report = 'GooglePlayPriceChangeStore.shouldShowGooglePlayPriceChange';
-                entity['location'] = report;
-                entity = zuuluu.bind(tangon)(entity);
-                entity = entity.enabled;
-                entity = !entity;
-                if(!entity) { _fun00008_ip = 69; continue _fun00007 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var4 = var1.GooglePlayPriceChangeNoticeKSExperiment;
+                var3 = var4.getCurrentConfig;
+                var1 = {};
+                var5 = 'GooglePlayPriceChangeStore.shouldShowGooglePlayPriceChange';
+                var1['location'] = var5;
+                var1 = var3.bind(var4)(var1);
+                var1 = var1.enabled;
+                var1 = !var1;
+                if(!var1) { _fun0004_ip = 69; continue _fun0004 }
  65:
-                entity = _closure1_slot9;
+                var1 = _closure1_slot9;
  69:
-                return entity;
+                return var1;
             }
         };
-        report['get'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'priceChangeRecord';
-        report['key'] = golfie;
-        oscard = function() { // Original name: get
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        var5['get'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'priceChangeRecord';
+        var5['key'] = var7;
+        var6 = function get() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                entity = 8;
-                zuuluu = zuuluu[entity];
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
-                tangon = entity.GooglePlayPriceChangeNoticeKSExperiment;
-                zuuluu = tangon.getCurrentConfig;
-                entity = {};
-                report = 'GooglePlayPriceChangeStore.priceChangeRecord';
-                entity['location'] = report;
-                entity = zuuluu.bind(tangon)(entity);
-                zuuluu = entity.enabled;
-                entity = null;
-                if(zuuluu) { _fun00010_ip = 68; continue _fun00009 }
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var1 = 8;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var4 = var1.GooglePlayPriceChangeNoticeKSExperiment;
+                var3 = var4.getCurrentConfig;
+                var1 = {};
+                var5 = 'GooglePlayPriceChangeStore.priceChangeRecord';
+                var1['location'] = var5;
+                var1 = var3.bind(var4)(var1);
+                var3 = var1.enabled;
+                var1 = null;
+                if(var3) { _fun0005_ip = 68; continue _fun0005 }
  64:
-                entity = _closure1_slot10;
+                var1 = _closure1_slot10;
  68:
-                return entity;
+                return var1;
             }
         };
-        report['get'] = oscard;
-        entity[2] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['get'] = var6;
+        var1[2] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(golfie);
-    michal = 'GooglePlayPriceChangeStore';
-    option['displayName'] = michal;
-    michal = 10;
-    michal = oscard[michal];
-    foxtra = tangon.bind(entity)(michal);
-    michal = option.prototype;
-    tangon = Object.create(michal, {constructor: {value: option}});
-    romeon = {};
-    backup = tangon;
-    michal = new backup[option](foxtra, romeon, yankee);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var8 = var2.bind(var1)(var7);
+    var2 = 'GooglePlayPriceChangeStore';
+    var8['displayName'] = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var13 = var4.bind(var1)(var2);
+    var2 = var8.prototype;
+    var4 = Object.create(var2, {constructor: {value: var8}});
+    var12 = {};
+    var14 = var4;
+    var2 = new var14[var8](var13, var12, var11);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

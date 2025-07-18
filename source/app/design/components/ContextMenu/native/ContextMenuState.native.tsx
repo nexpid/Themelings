@@ -1,300 +1,300 @@
 // app/design/components/ContextMenu/native/ContextMenuState.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    verify = argBar;
-    zuuluu = argFre;
-    offset = argPlu;
-    var _closure1_slot0 = verify;
-    var _closure1_slot1 = offset;
-    entity = global;
-    oscard = entity.Object;
-    report = oscard.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = report.bind(oscard)(zuuluu, entity, tangon);
-    golfie = 0;
-    report = offset[golfie];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(report);
-    var _closure1_slot2 = tangon;
-    oscard = 1;
-    tangon = offset[oscard];
-    option = verify.bind(entity)(tangon);
-    report = option.create;
-    tangon = function() {
-        entity = {};
-        michal = null;
-        entity['menu'] = michal;
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var9 = native2;
+    var3 = native6;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var10;
+    var1 = global;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var6)(var3, var1, var4);
+    var7 = 0;
+    var5 = var10[var7];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var5);
+    var _closure1_slot2 = var4;
+    var6 = 1;
+    var4 = var10[var6];
+    var8 = var9.bind(var1)(var4);
+    var5 = var8.create;
+    var4 = function() {
+        var1 = {};
+        var2 = null;
+        var1['menu'] = var2;
+        return var1;
     };
-    report = report.bind(option)(tangon);
-    var _closure1_slot3 = report;
-    tangon = {};
-    option = 'function updateContextMenuState_ContextMenuStateNativeTsx1(absoluteX,absoluteY,state){const{INDEX_BOUNDS_WIDTH_OFFSET,INDEX_BOUNDS_HEIGHT_OFFSET,INDEX_BOUNDS_PAGE_Y_OFFSET,INDEX_BOUNDS_PAGE_X_OFFSET,INDEX_BOUNDS_OFFSET,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;const{pan:pan,itemMeasurements:itemMeasurements,activeIndex:activeIndex}=state;pan.set(absoluteY);const bounds=itemMeasurements.get();let offset=0;while(offset<bounds.length){const width=bounds[offset+INDEX_BOUNDS_WIDTH_OFFSET];const height=bounds[offset+INDEX_BOUNDS_HEIGHT_OFFSET];const pageY=bounds[offset+INDEX_BOUNDS_PAGE_Y_OFFSET];const pageX=bounds[offset+INDEX_BOUNDS_PAGE_X_OFFSET];const lowerY=pageY;const upperY=pageY+height;const lowerX=pageX;const upperX=pageX+width;if(absoluteY>=lowerY&&absoluteY<=upperY&&absoluteX>=lowerX&&absoluteX<=upperX){const index=offset/INDEX_BOUNDS_OFFSET;if(activeIndex.get()!==index){activeIndex.set(index);runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_LIGHT);}return;}offset+=INDEX_BOUNDS_OFFSET;}activeIndex.set(-1);}';
-    tangon['code'] = option;
-    var _closure1_slot4 = tangon;
-    tangon = function() {
-        entity = function(argFoo, argBar, argBaz) { // Original name: updateContextMenuState
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var5 = var5.bind(var8)(var4);
+    var _closure1_slot3 = var5;
+    var4 = {};
+    var8 = 'function updateContextMenuState_ContextMenuStateNativeTsx1(absoluteX,absoluteY,state){const{INDEX_BOUNDS_WIDTH_OFFSET,INDEX_BOUNDS_HEIGHT_OFFSET,INDEX_BOUNDS_PAGE_Y_OFFSET,INDEX_BOUNDS_PAGE_X_OFFSET,INDEX_BOUNDS_OFFSET,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;const{pan:pan,itemMeasurements:itemMeasurements,activeIndex:activeIndex}=state;pan.set(absoluteY);const bounds=itemMeasurements.get();let offset=0;while(offset<bounds.length){const width=bounds[offset+INDEX_BOUNDS_WIDTH_OFFSET];const height=bounds[offset+INDEX_BOUNDS_HEIGHT_OFFSET];const pageY=bounds[offset+INDEX_BOUNDS_PAGE_Y_OFFSET];const pageX=bounds[offset+INDEX_BOUNDS_PAGE_X_OFFSET];const lowerY=pageY;const upperY=pageY+height;const lowerX=pageX;const upperX=pageX+width;if(absoluteY>=lowerY&&absoluteY<=upperY&&absoluteX>=lowerX&&absoluteX<=upperX){const index=offset/INDEX_BOUNDS_OFFSET;if(activeIndex.get()!==index){activeIndex.set(index);runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_LIGHT);}return;}offset+=INDEX_BOUNDS_OFFSET;}activeIndex.set(-1);}';
+    var4['code'] = var8;
+    var _closure1_slot4 = var4;
+    var4 = function() {
+        var1 = function updateContextMenuState(arg1, arg2, arg3) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                romeon = argFoo;
-                yankee = argBar;
-                entity = argBaz;
-                zuuluu = entity.pan;
-                michal = entity.itemMeasurements;
-                report = entity.activeIndex;
-                entity = zuuluu.set;
-                entity = entity.bind(zuuluu)(yankee);
-                entity = michal.get;
-                offset = entity.bind(michal)();
-                entity = offset.length;
-                verify = 0;
-                entity = verify < entity;
-                oscard = 4;
-                option = 2;
-                zuuluu = 3;
-                golfie = 1;
-                tangon = 0;
-                if(!entity) { _fun00002_ip = 146; continue _fun00001 }
+                var12 = arg1;
+                var11 = arg2;
+                var1 = arg3;
+                var3 = var1.pan;
+                var2 = var1.itemMeasurements;
+                var5 = var1.activeIndex;
+                var1 = var3.set;
+                var1 = var1.bind(var3)(var11);
+                var1 = var2.get;
+                var10 = var1.bind(var2)();
+                var1 = var10.length;
+                var9 = 0;
+                var1 = var9 < var1;
+                var6 = 4;
+                var8 = 2;
+                var3 = 3;
+                var7 = 1;
+                var4 = 0;
+                if(!var1) { _fun0001_ip = 146; continue _fun0001 }
  74:
-                entity = tangon + option;
-                foxtra = offset[entity];
-                entity = tangon + zuuluu;
-                kiloes = offset[entity];
-                entity = tangon + golfie;
-                backup = offset[entity];
-                entity = tangon + verify;
-                michal = offset[entity];
-                entity = tangon;
-                if(!(yankee >= backup)) { _fun00002_ip = 133; continue _fun00001 }
+                var1 = var4 + var8;
+                var13 = var10[var1];
+                var1 = var4 + var3;
+                var15 = var10[var1];
+                var1 = var4 + var7;
+                var14 = var10[var1];
+                var1 = var4 + var9;
+                var2 = var10[var1];
+                var1 = var4;
+                if(!(var11 >= var14)) { _fun0001_ip = 133; continue _fun0001 }
  113:
-                backup = backup + kiloes;
-                if(!(yankee <= backup)) { _fun00002_ip = 133; continue _fun00001 }
+                var14 = var14 + var15;
+                if(!(var11 <= var14)) { _fun0001_ip = 133; continue _fun0001 }
  121:
-                if(!(romeon >= michal)) { _fun00002_ip = 133; continue _fun00001 }
+                if(!(var12 >= var2)) { _fun0001_ip = 133; continue _fun0001 }
  125:
-                michal = michal + foxtra;
-                if(!(!(romeon <= michal))) { _fun00002_ip = 166; continue _fun00001 }
+                var2 = var2 + var13;
+                if(!(!(var12 <= var2))) { _fun0001_ip = 166; continue _fun0001 }
  133:
-                tangon = entity + oscard;
-                michal = offset.length;
-                if(tangon < michal) { _fun00002_ip = 74; continue _fun00001 }
+                var4 = var1 + var6;
+                var2 = var10.length;
+                if(var4 < var2) { _fun0001_ip = 74; continue _fun0001 }
  146:
-                tangon = report.set;
-                michal = -1;
-                michal = tangon.bind(report)(michal);
-                michal = undefined;
-                return michal;
+                var4 = var5.set;
+                var2 = -1;
+                var2 = var4.bind(var5)(var2);
+                var2 = undefined;
+                return var2;
  166:
-                tangon = entity / oscard;
-                entity = report.get;
-                entity = entity.bind(report)();
-                entity = entity !== tangon;
-                if(!entity) { _fun00002_ip = 269; continue _fun00001 }
+                var4 = var1 / var6;
+                var1 = var5.get;
+                var1 = var1.bind(var5)();
+                var1 = var1 !== var4;
+                if(!var1) { _fun0001_ip = 269; continue _fun0001 }
  186:
-                michal = report.set;
-                michal = michal.bind(report)(tangon);
-                report = _closure1_slot0;
-                michal = _closure1_slot1;
-                zuuluu = michal[zuuluu];
-                tangon = undefined;
-                option = report.bind(tangon)(zuuluu);
-                golfie = option.runOnJS;
-                zuuluu = michal[oscard];
-                zuuluu = report.bind(tangon)(zuuluu);
-                zuuluu = zuuluu.triggerHapticFeedback;
-                zuuluu = golfie.bind(option)(zuuluu);
-                michal = michal[oscard];
-                michal = report.bind(tangon)(michal);
-                michal = michal.HapticFeedbackTypes;
-                michal = michal.IMPACT_LIGHT;
-                entity = zuuluu.bind(tangon)(michal);
+                var2 = var5.set;
+                var2 = var2.bind(var5)(var4);
+                var5 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var3 = var2[var3];
+                var4 = undefined;
+                var8 = var5.bind(var4)(var3);
+                var7 = var8.runOnJS;
+                var3 = var2[var6];
+                var3 = var5.bind(var4)(var3);
+                var3 = var3.triggerHapticFeedback;
+                var3 = var7.bind(var8)(var3);
+                var2 = var2[var6];
+                var2 = var5.bind(var4)(var2);
+                var2 = var2.HapticFeedbackTypes;
+                var2 = var2.IMPACT_LIGHT;
+                var1 = var3.bind(var4)(var2);
  269:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        zuuluu = {'INDEX_BOUNDS_WIDTH_OFFSET': 2, 'INDEX_BOUNDS_HEIGHT_OFFSET': 3, 'INDEX_BOUNDS_PAGE_Y_OFFSET': 1, 'INDEX_BOUNDS_PAGE_X_OFFSET': 0, 'INDEX_BOUNDS_OFFSET': 4};
-        report = 3;
-        golfie = 4;
-        oscard = _closure1_slot0;
-        tangon = _closure1_slot1;
-        option = tangon[report];
-        report = undefined;
-        option = oscard.bind(report)(option);
-        option = option.runOnJS;
-        zuuluu['runOnJS'] = option;
-        option = tangon[golfie];
-        option = oscard.bind(report)(option);
-        option = option.triggerHapticFeedback;
-        zuuluu['triggerHapticFeedback'] = option;
-        tangon = tangon[golfie];
-        tangon = oscard.bind(report)(tangon);
-        tangon = tangon.HapticFeedbackTypes;
-        zuuluu['HapticFeedbackTypes'] = tangon;
-        entity['__closure'] = zuuluu;
-        zuuluu = 10158111154044.0;
-        entity['__workletHash'] = zuuluu;
-        michal = _closure1_slot4;
-        entity['__initData'] = michal;
-        return entity;
+        var3 = {'INDEX_BOUNDS_WIDTH_OFFSET': 2, 'INDEX_BOUNDS_HEIGHT_OFFSET': 3, 'INDEX_BOUNDS_PAGE_Y_OFFSET': 1, 'INDEX_BOUNDS_PAGE_X_OFFSET': 0, 'INDEX_BOUNDS_OFFSET': 4};
+        var5 = 3;
+        var7 = 4;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var8 = var4[var5];
+        var5 = undefined;
+        var8 = var6.bind(var5)(var8);
+        var8 = var8.runOnJS;
+        var3['runOnJS'] = var8;
+        var8 = var4[var7];
+        var8 = var6.bind(var5)(var8);
+        var8 = var8.triggerHapticFeedback;
+        var3['triggerHapticFeedback'] = var8;
+        var4 = var4[var7];
+        var4 = var6.bind(var5)(var4);
+        var4 = var4.HapticFeedbackTypes;
+        var3['HapticFeedbackTypes'] = var4;
+        var1['__closure'] = var3;
+        var3 = 10158111154044.0;
+        var1['__workletHash'] = var3;
+        var2 = _closure1_slot4;
+        var1['__initData'] = var2;
+        return var1;
     };
-    tangon = tangon.bind(entity)();
-    option = 5;
-    option = offset[option];
-    offset = verify.bind(entity)(option);
-    verify = offset.fileFinishedImporting;
-    option = 'design/components/ContextMenu/native/ContextMenuState.native.tsx';
-    option = verify.bind(offset)(option);
-    option = 4;
-    zuuluu['INDEX_BOUNDS_OFFSET'] = option;
-    zuuluu['INDEX_BOUNDS_PAGE_X_OFFSET'] = golfie;
-    zuuluu['INDEX_BOUNDS_PAGE_Y_OFFSET'] = oscard;
-    oscard = 2;
-    zuuluu['INDEX_BOUNDS_WIDTH_OFFSET'] = oscard;
-    oscard = 3;
-    zuuluu['INDEX_BOUNDS_HEIGHT_OFFSET'] = oscard;
-    zuuluu['ContextMenuStore'] = report;
-    report = function(argFoo) { // Original name: showContextMenu
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        entity = 2;
-        zuuluu = zuuluu[entity];
-        entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = {};
-            tangon = _closure2_slot0;
-            entity['menu'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
+    var4 = var4.bind(var1)();
+    var8 = 5;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'design/components/ContextMenu/native/ContextMenuState.native.tsx';
+    var8 = var9.bind(var10)(var8);
+    var8 = 4;
+    var3['INDEX_BOUNDS_OFFSET'] = var8;
+    var3['INDEX_BOUNDS_PAGE_X_OFFSET'] = var7;
+    var3['INDEX_BOUNDS_PAGE_Y_OFFSET'] = var6;
+    var6 = 2;
+    var3['INDEX_BOUNDS_WIDTH_OFFSET'] = var6;
+    var6 = 3;
+    var3['INDEX_BOUNDS_HEIGHT_OFFSET'] = var6;
+    var3['ContextMenuStore'] = var5;
+    var5 = function showContextMenu(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot1;
+        var1 = 2;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = {};
+            var4 = _closure2_slot0;
+            var1['menu'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['showContextMenu'] = report;
-    report = function() { // Original name: hideContextMenu
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.batchUpdates;
-        michal = function() {
-            zuuluu = _closure1_slot3;
-            michal = zuuluu.setState;
-            entity = function(argFoo) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['showContextMenu'] = var5;
+    var5 = function hideContextMenu() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.batchUpdates;
+        var2 = function() {
+            var3 = _closure1_slot3;
+            var2 = var3.setState;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    michal = entity.menu;
-                    zuuluu = null;
-                    if(!(zuuluu != michal)) { _fun00004_ip = 25; continue _fun00003 }
+                    var1 = arg1;
+                    var2 = var1.menu;
+                    var3 = null;
+                    if(!(var3 != var2)) { _fun0002_ip = 25; continue _fun0002 }
  15:
-                    michal = {};
-                    michal['menu'] = zuuluu;
-                    entity = michal;
+                    var2 = {};
+                    var2['menu'] = var3;
+                    var1 = var2;
  25:
-                    return entity;
+                    return var1;
                 }
             };
-            entity = michal.bind(zuuluu)(entity);
-            entity = undefined;
-            return entity;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
-    zuuluu['hideContextMenu'] = report;
-    report = function() { // Original name: useActiveContextMenu
-        zuuluu = _closure1_slot3;
-        michal = undefined;
-        entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.menu;
-            return entity;
+    var3['hideContextMenu'] = var5;
+    var5 = function useActiveContextMenu() {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var1 = var1.menu;
+            return var1;
         };
-        entity = zuuluu.bind(michal)(entity);
-        return entity;
+        var1 = var3.bind(var2)(var1);
+        return var1;
     };
-    zuuluu['useActiveContextMenu'] = report;
-    zuuluu['updateContextMenuState'] = tangon;
-    tangon = function() { // Original name: useContextMenuState
-        option = _closure1_slot0;
-        verify = _closure1_slot1;
-        zuuluu = 3;
-        report = verify[zuuluu];
-        tangon = undefined;
-        golfie = option.bind(tangon)(report);
-        oscard = golfie.useSharedValue;
-        report = -1;
-        golfie = oscard.bind(golfie)(report);
-        var _closure2_slot0 = golfie;
-        oscard = verify[zuuluu];
-        yankee = option.bind(tangon)(oscard);
-        offset = yankee.useSharedValue;
-        oscard = new Array(0);
-        oscard = offset.bind(yankee)(oscard);
-        var _closure2_slot1 = oscard;
-        zuuluu = verify[zuuluu];
-        tangon = option.bind(tangon)(zuuluu);
-        zuuluu = tangon.useSharedValue;
-        report = zuuluu.bind(tangon)(report);
-        var _closure2_slot2 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(3);
-        michal[0] = golfie;
-        michal[1] = oscard;
-        michal[2] = report;
-        entity = function() {
-            entity = {};
-            zuuluu = _closure2_slot0;
-            entity['pan'] = zuuluu;
-            zuuluu = _closure2_slot1;
-            entity['itemMeasurements'] = zuuluu;
-            michal = _closure2_slot2;
-            entity['activeIndex'] = michal;
-            return entity;
+    var3['useActiveContextMenu'] = var5;
+    var3['updateContextMenuState'] = var4;
+    var4 = function useContextMenuState() {
+        var8 = _closure1_slot0;
+        var9 = _closure1_slot1;
+        var3 = 3;
+        var5 = var9[var3];
+        var4 = undefined;
+        var7 = var8.bind(var4)(var5);
+        var6 = var7.useSharedValue;
+        var5 = -1;
+        var7 = var6.bind(var7)(var5);
+        var _closure2_slot0 = var7;
+        var6 = var9[var3];
+        var11 = var8.bind(var4)(var6);
+        var10 = var11.useSharedValue;
+        var6 = new Array(0);
+        var6 = var10.bind(var11)(var6);
+        var _closure2_slot1 = var6;
+        var3 = var9[var3];
+        var4 = var8.bind(var4)(var3);
+        var3 = var4.useSharedValue;
+        var5 = var3.bind(var4)(var5);
+        var _closure2_slot2 = var5;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(3);
+        var2[0] = var7;
+        var2[1] = var6;
+        var2[2] = var5;
+        var1 = function() {
+            var1 = {};
+            var3 = _closure2_slot0;
+            var1['pan'] = var3;
+            var3 = _closure2_slot1;
+            var1['itemMeasurements'] = var3;
+            var2 = _closure2_slot2;
+            var1['activeIndex'] = var2;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useContextMenuState'] = tangon;
-    michal = function(argFoo) { // Original name: resetContextMenuState
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['useContextMenuState'] = var4;
+    var2 = function resetContextMenuState(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            entity = argFoo;
-            report = entity.activeIndex;
-            tangon = entity.pan;
-            zuuluu = entity.itemMeasurements;
-            entity = report.set;
-            michal = -1;
-            entity = entity.bind(report)(michal);
-            entity = tangon.set;
-            entity = entity.bind(tangon)(michal);
-            entity = zuuluu.get;
-            entity = entity.bind(zuuluu)();
-            michal = entity.length;
-            entity = 0;
-            if(!(michal > entity)) { _fun00006_ip = 81; continue _fun00005 }
+            var1 = arg1;
+            var5 = var1.activeIndex;
+            var4 = var1.pan;
+            var3 = var1.itemMeasurements;
+            var1 = var5.set;
+            var2 = -1;
+            var1 = var1.bind(var5)(var2);
+            var1 = var4.set;
+            var1 = var1.bind(var4)(var2);
+            var1 = var3.get;
+            var1 = var1.bind(var3)();
+            var2 = var1.length;
+            var1 = 0;
+            if(!(var2 > var1)) { _fun0003_ip = 81; continue _fun0003 }
  67:
-            michal = zuuluu.set;
-            entity = new Array(0);
-            entity = michal.bind(zuuluu)(entity);
+            var2 = var3.set;
+            var1 = new Array(0);
+            var1 = var2.bind(var3)(var1);
  81:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['resetContextMenuState'] = michal;
-    return entity;
+    var3['resetContextMenuState'] = var2;
+    return var1;
 })();

@@ -1,149 +1,149 @@
 // app/modules/errors/av_errors/AVErrorUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    tangon = tangon.Millis;
-    golfie = tangon.SECOND;
-    tangon = 10;
-    tangon = tangon * golfie;
-    var _closure1_slot3 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/errors/av_errors/AVErrorUtils.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: getReportInboundErrors
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.Millis;
+    var7 = var4.SECOND;
+    var4 = 10;
+    var4 = var4 * var7;
+    var _closure1_slot3 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/errors/av_errors/AVErrorUtils.tsx';
+    var4 = var5.bind(var6)(var4);
+    var4 = function getReportInboundErrors() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            golfie = 2;
-            entity = entity[golfie];
-            oscard = undefined;
-            entity = zuuluu.bind(oscard)(entity);
-            zuuluu = entity.WindowVisibilityVideoManager;
-            entity = zuuluu.isIncomingVideoEnabled;
-            entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 108; continue _fun00001 }
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var7 = 2;
+            var1 = var1[var7];
+            var6 = undefined;
+            var1 = var3.bind(var6)(var1);
+            var3 = var1.WindowVisibilityVideoManager;
+            var1 = var3.isIncomingVideoEnabled;
+            var1 = var1.bind(var3)();
+            if(!var1) { _fun0001_ip = 108; continue _fun0001 }
  44:
-            zuuluu = global;
-            tangon = zuuluu.performance;
-            zuuluu = tangon.now;
-            tangon = zuuluu.bind(tangon)();
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            report = zuuluu.WindowVisibilityVideoManager;
-            zuuluu = report.lastIncomingVideoEnabledChangeTime;
-            zuuluu = zuuluu.bind(report)();
-            zuuluu = tangon - zuuluu;
-            michal = _closure1_slot3;
-            entity = zuuluu > michal;
+            var3 = global;
+            var4 = var3.performance;
+            var3 = var4.now;
+            var4 = var3.bind(var4)();
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var7];
+            var3 = var5.bind(var6)(var3);
+            var5 = var3.WindowVisibilityVideoManager;
+            var3 = var5.lastIncomingVideoEnabledChangeTime;
+            var3 = var3.bind(var5)();
+            var3 = var4 - var3;
+            var2 = _closure1_slot3;
+            var1 = var3 > var2;
  108:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getReportInboundErrors'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getAccumulatedStatsWithMinDatapoints
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['getReportInboundErrors'] = var4;
+    var4 = function getAccumulatedStatsWithMinDatapoints(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            golfie = argFoo;
-            report = argBar;
-            oscard = arguments[2];
-            entity = undefined;
-            if(!(oscard === entity)) { _fun00004_ip = 18; continue _fun00003 }
+            var7 = arg1;
+            var5 = arg2;
+            var6 = arguments[2];
+            var1 = undefined;
+            if(!(var6 === var1)) { _fun0002_ip = 18; continue _fun0002 }
  15:
-            oscard = 15;
+            var6 = 15;
  18:
-            zuuluu = _closure1_slot2;
-            michal = zuuluu.getAccumulatedPerformanceStats;
-            entity = 'short';
-            tangon = michal.bind(zuuluu)(golfie, report, entity);
-            michal = zuuluu.getAccumulatedPerformanceStats;
-            entity = 'long';
-            zuuluu = michal.bind(zuuluu)(golfie, report, entity);
-            report = null;
-            michal = report == tangon;
-            entity = null;
-            if(michal) { _fun00004_ip = 124; continue _fun00003 }
+            var3 = _closure1_slot2;
+            var2 = var3.getAccumulatedPerformanceStats;
+            var1 = 'short';
+            var4 = var2.bind(var3)(var7, var5, var1);
+            var2 = var3.getAccumulatedPerformanceStats;
+            var1 = 'long';
+            var3 = var2.bind(var3)(var7, var5, var1);
+            var5 = null;
+            var2 = var5 == var4;
+            var1 = null;
+            if(var2) { _fun0002_ip = 124; continue _fun0002 }
  70:
-            michal = report == zuuluu;
-            entity = null;
-            if(michal) { _fun00004_ip = 124; continue _fun00003 }
+            var2 = var5 == var3;
+            var1 = null;
+            if(var2) { _fun0002_ip = 124; continue _fun0002 }
  79:
-            michal = tangon.numDatapoints;
-            michal = michal < oscard;
-            entity = null;
-            if(michal) { _fun00004_ip = 124; continue _fun00003 }
+            var2 = var4.numDatapoints;
+            var2 = var2 < var6;
+            var1 = null;
+            if(var2) { _fun0002_ip = 124; continue _fun0002 }
  94:
-            michal = zuuluu.numDatapoints;
-            michal = michal < oscard;
-            entity = null;
-            if(michal) { _fun00004_ip = 124; continue _fun00003 }
+            var2 = var3.numDatapoints;
+            var2 = var2 < var6;
+            var1 = null;
+            if(var2) { _fun0002_ip = 124; continue _fun0002 }
  109:
-            michal = {};
-            michal['short'] = tangon;
-            michal['long'] = zuuluu;
-            entity = michal;
+            var2 = {};
+            var2['short'] = var4;
+            var2['long'] = var3;
+            var1 = var2;
  124:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getAccumulatedStatsWithMinDatapoints'] = tangon;
-    michal = function() { // Original name: getWarningFrameRate
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['getAccumulatedStatsWithMinDatapoints'] = var4;
+    var2 = function getWarningFrameRate() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = arguments[0];
-            entity = undefined;
-            if(!(report === entity)) { _fun00006_ip = 12; continue _fun00005 }
+            var5 = arguments[0];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0003_ip = 12; continue _fun0003 }
  9:
-            report = 30;
+            var5 = 30;
  12:
-            entity = 5;
-            michal = report <= entity;
-            entity = 3;
-            if(michal) { _fun00006_ip = 57; continue _fun00005 }
+            var1 = 5;
+            var2 = var5 <= var1;
+            var1 = 3;
+            if(var2) { _fun0003_ip = 57; continue _fun0003 }
  25:
-            tangon = 15;
-            zuuluu = report <= tangon;
-            michal = 8;
-            if(zuuluu) { _fun00006_ip = 54; continue _fun00005 }
+            var4 = 15;
+            var3 = var5 <= var4;
+            var2 = 8;
+            if(var3) { _fun0003_ip = 54; continue _fun0003 }
  38:
-            zuuluu = 30;
-            report = report <= zuuluu;
-            if(!report) { _fun00006_ip = 51; continue _fun00005 }
+            var3 = 30;
+            var5 = var5 <= var3;
+            if(!var5) { _fun0003_ip = 51; continue _fun0003 }
  48:
-            zuuluu = tangon;
+            var3 = var4;
  51:
-            michal = zuuluu;
+            var2 = var3;
  54:
-            entity = michal;
+            var1 = var2;
  57:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getWarningFrameRate'] = michal;
-    return entity;
+    var3['getWarningFrameRate'] = var2;
+    return var1;
 })();

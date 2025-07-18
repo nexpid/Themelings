@@ -1,824 +1,824 @@
 // app/modules/launchpad/native/useLaunchPadGesture.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE;
-    var _closure1_slot4 = golfie;
-    golfie = tangon.LAUNCH_PAD_PULL_TAB_HEIGHT;
-    var _closure1_slot5 = golfie;
-    golfie = tangon.LAUNCH_PAD_PULL_TAB_HIT_SLOP;
-    var _closure1_slot6 = golfie;
-    golfie = tangon.LAUNCH_PAD_PULL_TAB_SCALE_FACTOR;
-    var _closure1_slot7 = golfie;
-    golfie = tangon.LAUNCH_PAD_PULL_TAB_WIDTH;
-    var _closure1_slot8 = golfie;
-    tangon = tangon.LaunchPadTypes;
-    var _closure1_slot9 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx1(){const{updateSharedValueIfChanged,gestureState,updaters}=this.__closure;updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});updaters.setLaunchPadPullTabScale(1.0);}';
-    tangon['code'] = golfie;
-    var _closure1_slot10 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx2(){const{gestureState,updaters,updateSharedValueIfChanged}=this.__closure;const{initialLaunchPadPosition:initialLaunchPadPosition,active:active}=gestureState.get();if(active){if(initialLaunchPadPosition===1){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});}';
-    tangon['code'] = golfie;
-    var _closure1_slot11 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx3({velocityX:velocityX}){const{gestureState,updaters,launchPadSharedState}=this.__closure;const{requiresPop:requiresPop,startShown:startShown}=gestureState.get();if(requiresPop){if(!startShown){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}else if(Math.abs(velocityX)<100){if(launchPadSharedState.get()>=0.5){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}else if(velocityX>0){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}';
-    tangon['code'] = golfie;
-    var _closure1_slot12 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx4({translationX:translationX,translationY:translationY,absoluteX:absoluteX}){const{gestureState,getWindowDimensionsWorklet,POP_RESISTANCE,launchPadType,LaunchPadTypes,PIP_POP_DISTANCE,updaters,updateSharedValueIfChanged,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(!gestureState.get().active)return;const{initialTouchX:initialTouchX,requiresPop:requiresPop}=gestureState.get();const{width:windowWidth}=getWindowDimensionsWorklet();const newXOffset=absoluteX-initialTouchX;const distance=Math.max(newXOffset*-1,0);const resistance=distance*POP_RESISTANCE;const positionOffsetX=absoluteX-gestureState.get().initialTouchX;const launchPadPosition=1-(gestureState.get().initialTouchX+translationX-(launchPadType!==LaunchPadTypes.PULL_TAB?40:0))/windowWidth;if(requiresPop&&distance<=PIP_POP_DISTANCE){if(launchPadType!==LaunchPadTypes.PULL_TAB){const a=(distance-resistance)/windowWidth;updaters.setLaunchPadPosition(a);}else{updaters.setLaunchPadPullTabTranslation(translationY);}updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}else{if(requiresPop){updateSharedValueIfChanged(gestureState,{requiresPop:false,positionOffsetX:positionOffsetX});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}else{updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}updaters.setLaunchPadPosition(launchPadPosition);}}';
-    tangon['code'] = golfie;
-    var _closure1_slot13 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,searchEnabled,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||!searchEnabled&&launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(searchEnabled&&launchPadType===LaunchPadTypes.DISABLED&&gestureState.get().initialLaunchPadPosition===0){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
-    tangon['code'] = golfie;
-    var _closure1_slot14 = tangon;
-    tangon = {};
-    golfie = 'function useLaunchPadGestureTsx6(event){const{gestureState,launchPadSharedState}=this.__closure;const{x:x,y:y}=event.changedTouches[0];gestureState.set({active:false,initialLaunchPadPosition:launchPadSharedState.get(),initialPullTabPosition:0,initialTouchX:x,initialTouchY:y,positionOffsetX:0,positionOffsetY:0,startTime:Date.now(),requiresPop:launchPadSharedState.get()===0,startShown:!(launchPadSharedState.get()===0)});}';
-    tangon['code'] = golfie;
-    var _closure1_slot15 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/launchpad/native/useLaunchPadGesture.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: useLaunchPadGesture
-        entity = argFoo;
-        verify = entity.launchPadType;
-        var _closure2_slot0 = verify;
-        offset = entity.launchPadSharedState;
-        var _closure2_slot1 = offset;
-        yankee = entity.launchPadPullTabState;
-        var _closure2_slot2 = yankee;
-        backup = entity.gestureState;
-        var _closure2_slot3 = backup;
-        option = entity.updaters;
-        var _closure2_slot4 = option;
-        report = _closure1_slot0;
-        golfie = _closure1_slot2;
-        michal = 2;
-        michal = golfie[michal];
-        tangon = undefined;
-        oscard = report.bind(tangon)(michal);
-        michal = oscard.useIsModalOpen;
-        romeon = michal.bind(oscard)();
-        var _closure2_slot5 = romeon;
-        oscard = _closure1_slot1;
-        michal = 3;
-        michal = golfie[michal];
-        michal = oscard.bind(tangon)(michal);
-        foxtra = michal.bind(tangon)();
-        var _closure2_slot6 = foxtra;
-        oscard = _closure1_slot3;
-        entity = oscard.useRef;
-        michal = entity.bind(oscard)(tangon);
-        var _closure2_slot7 = michal;
-        entity = 4;
-        entity = golfie[entity];
-        report = report.bind(tangon)(entity);
-        tangon = report.useICYMISearchExperienceExperiment;
-        entity = 'useLaunchPadGesture';
-        entity = tangon.bind(report)(entity);
-        golfie = entity.searchEnabled;
-        var _closure2_slot8 = golfie;
-        entity = {};
-        report = oscard.useMemo;
-        tangon = new Array(8);
-        tangon[0] = backup;
-        tangon[1] = foxtra;
-        tangon[2] = romeon;
-        tangon[3] = yankee;
-        tangon[4] = offset;
-        tangon[5] = verify;
-        tangon[6] = option;
-        tangon[7] = golfie;
-        zuuluu = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE;
+    var _closure1_slot4 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_HEIGHT;
+    var _closure1_slot5 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_HIT_SLOP;
+    var _closure1_slot6 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_SCALE_FACTOR;
+    var _closure1_slot7 = var7;
+    var7 = var4.LAUNCH_PAD_PULL_TAB_WIDTH;
+    var _closure1_slot8 = var7;
+    var4 = var4.LaunchPadTypes;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx1(){const{updateSharedValueIfChanged,gestureState,updaters}=this.__closure;updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});updaters.setLaunchPadPullTabScale(1.0);}';
+    var4['code'] = var7;
+    var _closure1_slot10 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx2(){const{gestureState,updaters,updateSharedValueIfChanged}=this.__closure;const{initialLaunchPadPosition:initialLaunchPadPosition,active:active}=gestureState.get();if(active){if(initialLaunchPadPosition===1){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}updateSharedValueIfChanged(gestureState,{active:false,initialLaunchPadPosition:0,initialPullTabPosition:0,initialTouchX:0,initialTouchY:0,positionOffsetX:0,positionOffsetY:0,startTime:-1});}';
+    var4['code'] = var7;
+    var _closure1_slot11 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx3({velocityX:velocityX}){const{gestureState,updaters,launchPadSharedState}=this.__closure;const{requiresPop:requiresPop,startShown:startShown}=gestureState.get();if(requiresPop){if(!startShown){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}else if(Math.abs(velocityX)<100){if(launchPadSharedState.get()>=0.5){updaters.setLaunchPadPosition(1);}else{updaters.setLaunchPadPosition(0);}}else if(velocityX>0){updaters.setLaunchPadPosition(0);}else{updaters.setLaunchPadPosition(1);}}';
+    var4['code'] = var7;
+    var _closure1_slot12 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx4({translationX:translationX,translationY:translationY,absoluteX:absoluteX}){const{gestureState,getWindowDimensionsWorklet,POP_RESISTANCE,launchPadType,LaunchPadTypes,PIP_POP_DISTANCE,updaters,updateSharedValueIfChanged,runOnJS,triggerHapticFeedback,HapticFeedbackTypes}=this.__closure;if(!gestureState.get().active)return;const{initialTouchX:initialTouchX,requiresPop:requiresPop}=gestureState.get();const{width:windowWidth}=getWindowDimensionsWorklet();const newXOffset=absoluteX-initialTouchX;const distance=Math.max(newXOffset*-1,0);const resistance=distance*POP_RESISTANCE;const positionOffsetX=absoluteX-gestureState.get().initialTouchX;const launchPadPosition=1-(gestureState.get().initialTouchX+translationX-(launchPadType!==LaunchPadTypes.PULL_TAB?40:0))/windowWidth;if(requiresPop&&distance<=PIP_POP_DISTANCE){if(launchPadType!==LaunchPadTypes.PULL_TAB){const a=(distance-resistance)/windowWidth;updaters.setLaunchPadPosition(a);}else{updaters.setLaunchPadPullTabTranslation(translationY);}updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}else{if(requiresPop){updateSharedValueIfChanged(gestureState,{requiresPop:false,positionOffsetX:positionOffsetX});runOnJS(triggerHapticFeedback)(HapticFeedbackTypes.IMPACT_MEDIUM);}else{updateSharedValueIfChanged(gestureState,{positionOffsetX:positionOffsetX});}updaters.setLaunchPadPosition(launchPadPosition);}}';
+    var4['code'] = var7;
+    var _closure1_slot13 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,searchEnabled,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||!searchEnabled&&launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(searchEnabled&&launchPadType===LaunchPadTypes.DISABLED&&gestureState.get().initialLaunchPadPosition===0){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
+    var4['code'] = var7;
+    var _closure1_slot14 = var4;
+    var4 = {};
+    var7 = 'function useLaunchPadGestureTsx6(event){const{gestureState,launchPadSharedState}=this.__closure;const{x:x,y:y}=event.changedTouches[0];gestureState.set({active:false,initialLaunchPadPosition:launchPadSharedState.get(),initialPullTabPosition:0,initialTouchX:x,initialTouchY:y,positionOffsetX:0,positionOffsetY:0,startTime:Date.now(),requiresPop:launchPadSharedState.get()===0,startShown:!(launchPadSharedState.get()===0)});}';
+    var4['code'] = var7;
+    var _closure1_slot15 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/launchpad/native/useLaunchPadGesture.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function useLaunchPadGesture(arg1) {
+        var1 = arg1;
+        var9 = var1.launchPadType;
+        var _closure2_slot0 = var9;
+        var10 = var1.launchPadSharedState;
+        var _closure2_slot1 = var10;
+        var11 = var1.launchPadPullTabState;
+        var _closure2_slot2 = var11;
+        var14 = var1.gestureState;
+        var _closure2_slot3 = var14;
+        var8 = var1.updaters;
+        var _closure2_slot4 = var8;
+        var5 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var2 = 2;
+        var2 = var7[var2];
+        var4 = undefined;
+        var6 = var5.bind(var4)(var2);
+        var2 = var6.useIsModalOpen;
+        var12 = var2.bind(var6)();
+        var _closure2_slot5 = var12;
+        var6 = _closure1_slot1;
+        var2 = 3;
+        var2 = var7[var2];
+        var2 = var6.bind(var4)(var2);
+        var13 = var2.bind(var4)();
+        var _closure2_slot6 = var13;
+        var6 = _closure1_slot3;
+        var1 = var6.useRef;
+        var2 = var1.bind(var6)(var4);
+        var _closure2_slot7 = var2;
+        var1 = 4;
+        var1 = var7[var1];
+        var5 = var5.bind(var4)(var1);
+        var4 = var5.useICYMISearchExperienceExperiment;
+        var1 = 'useLaunchPadGesture';
+        var1 = var4.bind(var5)(var1);
+        var7 = var1.searchEnabled;
+        var _closure2_slot8 = var7;
+        var1 = {};
+        var5 = var6.useMemo;
+        var4 = new Array(8);
+        var4[0] = var14;
+        var4[1] = var13;
+        var4[2] = var12;
+        var4[3] = var11;
+        var4[4] = var10;
+        var4[5] = var9;
+        var4[6] = var8;
+        var4[7] = var7;
+        var3 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                zuuluu = _closure2_slot0;
-                michal = _closure1_slot9;
-                michal = michal.GESTURE_FULL;
-                foxtra = 0;
-                golfie = 0;
-                if(!(zuuluu === michal)) { _fun00002_ip = 44; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var2 = _closure1_slot9;
+                var2 = var2.GESTURE_FULL;
+                var13 = 0;
+                var7 = 0;
+                if(!(var3 === var2)) { _fun0001_ip = 44; continue _fun0001 }
  30:
-                zuuluu = _closure1_slot4;
-                michal = -1;
-                golfie = michal * zuuluu;
+                var3 = _closure1_slot4;
+                var2 = -1;
+                var7 = var2 * var3;
  44:
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
-                option = 5;
-                michal = michal[option];
-                offset = undefined;
-                michal = zuuluu.bind(offset)(michal);
-                zuuluu = michal.Gesture;
-                michal = zuuluu.Pan;
-                report = michal.bind(zuuluu)();
-                zuuluu = report.enabled;
-                michal = _closure2_slot5;
-                michal = !michal;
-                if(!michal) { _fun00002_ip = 125; continue _fun00001 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var8 = 5;
+                var2 = var2[var8];
+                var10 = undefined;
+                var2 = var3.bind(var10)(var2);
+                var3 = var2.Gesture;
+                var2 = var3.Pan;
+                var5 = var2.bind(var3)();
+                var3 = var5.enabled;
+                var2 = _closure2_slot5;
+                var2 = !var2;
+                if(!var2) { _fun0001_ip = 125; continue _fun0001 }
  97:
-                verify = _closure2_slot8;
-                if(verify) { _fun00002_ip = 122; continue _fun00001 }
+                var9 = _closure2_slot8;
+                if(var9) { _fun0001_ip = 122; continue _fun0001 }
  104:
-                romeon = _closure2_slot0;
-                yankee = _closure1_slot9;
-                yankee = yankee.DISABLED;
-                verify = romeon !== yankee;
+                var12 = _closure2_slot0;
+                var11 = _closure1_slot9;
+                var11 = var11.DISABLED;
+                var9 = var12 !== var11;
  122:
-                michal = verify;
+                var2 = var9;
  125:
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.withRef;
-                michal = _closure2_slot7;
-                zuuluu = zuuluu.bind(report)(michal);
-                michal = zuuluu.minDistance;
-                report = michal.bind(zuuluu)(foxtra);
-                zuuluu = report.maxPointers;
-                michal = 1;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.manualActivation;
-                kiloes = _closure1_slot0;
-                yankee = _closure1_slot2;
-                michal = 6;
-                michal = yankee[michal];
-                verify = kiloes.bind(offset)(michal);
-                michal = verify.isAndroid;
-                michal = michal.bind(verify)();
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.hitSlop;
-                michal = {};
-                verify = _closure2_slot6;
-                backup = verify.top;
-                romeon = -1;
-                backup = romeon * backup;
-                michal['top'] = backup;
-                michal['left'] = foxtra;
-                verify = verify.bottom;
-                verify = romeon * verify;
-                michal['bottom'] = verify;
-                michal['right'] = golfie;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.onTouchesDown;
-                michal = function(argFoo) { // Original name: w
-                    entity = argFoo;
-                    entity = entity.changedTouches;
-                    report = 0;
-                    entity = entity[report];
-                    golfie = entity.x;
-                    tangon = entity.y;
-                    zuuluu = _closure2_slot3;
-                    michal = zuuluu.set;
-                    entity = {'active': false, 'initialLaunchPadPosition': null, 'initialPullTabPosition': 0, 'initialTouchX': null, 'initialTouchY': null, 'positionOffsetX': 0, 'positionOffsetY': 0};
-                    oscard = _closure2_slot1;
-                    option = oscard.get;
-                    option = option.bind(oscard)();
-                    entity['initialLaunchPadPosition'] = option;
-                    entity['initialTouchX'] = golfie;
-                    entity['initialTouchY'] = tangon;
-                    tangon = global;
-                    golfie = tangon.Date;
-                    tangon = golfie.now;
-                    tangon = tangon.bind(golfie)();
-                    entity['startTime'] = tangon;
-                    tangon = oscard.get;
-                    tangon = tangon.bind(oscard)();
-                    tangon = report === tangon;
-                    entity['requiresPop'] = tangon;
-                    tangon = oscard.get;
-                    tangon = tangon.bind(oscard)();
-                    tangon = report === tangon;
-                    tangon = !tangon;
-                    entity['startShown'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
-                    entity = undefined;
-                    return entity;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.withRef;
+                var2 = _closure2_slot7;
+                var3 = var3.bind(var5)(var2);
+                var2 = var3.minDistance;
+                var5 = var2.bind(var3)(var13);
+                var3 = var5.maxPointers;
+                var2 = 1;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.manualActivation;
+                var15 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var2 = 6;
+                var2 = var11[var2];
+                var9 = var15.bind(var10)(var2);
+                var2 = var9.isAndroid;
+                var2 = var2.bind(var9)();
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.hitSlop;
+                var2 = {};
+                var9 = _closure2_slot6;
+                var14 = var9.top;
+                var12 = -1;
+                var14 = var12 * var14;
+                var2['top'] = var14;
+                var2['left'] = var13;
+                var9 = var9.bottom;
+                var9 = var12 * var9;
+                var2['bottom'] = var9;
+                var2['right'] = var7;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.onTouchesDown;
+                var2 = function w(arg1) {
+                    var1 = arg1;
+                    var1 = var1.changedTouches;
+                    var5 = 0;
+                    var1 = var1[var5];
+                    var7 = var1.x;
+                    var4 = var1.y;
+                    var3 = _closure2_slot3;
+                    var2 = var3.set;
+                    var1 = {'active': false, 'initialLaunchPadPosition': null, 'initialPullTabPosition': 0, 'initialTouchX': null, 'initialTouchY': null, 'positionOffsetX': 0, 'positionOffsetY': 0};
+                    var6 = _closure2_slot1;
+                    var8 = var6.get;
+                    var8 = var8.bind(var6)();
+                    var1['initialLaunchPadPosition'] = var8;
+                    var1['initialTouchX'] = var7;
+                    var1['initialTouchY'] = var4;
+                    var4 = global;
+                    var7 = var4.Date;
+                    var4 = var7.now;
+                    var4 = var4.bind(var7)();
+                    var1['startTime'] = var4;
+                    var4 = var6.get;
+                    var4 = var4.bind(var6)();
+                    var4 = var5 === var4;
+                    var1['requiresPop'] = var4;
+                    var4 = var6.get;
+                    var4 = var4.bind(var6)();
+                    var4 = var5 === var4;
+                    var4 = !var4;
+                    var1['startShown'] = var4;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
                 };
-                verify = {};
-                golfie = _closure2_slot3;
-                verify['gestureState'] = golfie;
-                foxtra = _closure2_slot1;
-                verify['launchPadSharedState'] = foxtra;
-                michal['__closure'] = verify;
-                verify = 14359599806316.0;
-                michal['__workletHash'] = verify;
-                verify = _closure1_slot15;
-                michal['__initData'] = verify;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.onTouchesMove;
-                michal = function(argFoo, argBar) { // Original name: X
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                var9 = {};
+                var7 = _closure2_slot3;
+                var9['gestureState'] = var7;
+                var13 = _closure2_slot1;
+                var9['launchPadSharedState'] = var13;
+                var2['__closure'] = var9;
+                var9 = 14359599806316.0;
+                var2['__workletHash'] = var9;
+                var9 = _closure1_slot15;
+                var2['__initData'] = var9;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.onTouchesMove;
+                var2 = function X(arg1, arg2) {
+                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                        report = argFoo;
-                        zuuluu = argBar;
-                        michal = _closure2_slot3;
-                        entity = michal.get;
-                        entity = entity.bind(michal)();
-                        oscard = entity.active;
-                        verify = entity.initialLaunchPadPosition;
-                        golfie = entity.initialTouchX;
-                        yankee = entity.initialTouchY;
-                        offset = report.state;
-                        romeon = _closure1_slot0;
-                        option = _closure1_slot2;
-                        entity = 5;
-                        option = option[entity];
-                        entity = undefined;
-                        option = romeon.bind(entity)(option);
-                        option = option.State;
-                        option = option.BEGAN;
-                        if(!(offset === option)) { _fun00004_ip = 785; continue _fun00003 }
+                        var5 = arg1;
+                        var3 = arg2;
+                        var2 = _closure2_slot3;
+                        var1 = var2.get;
+                        var1 = var1.bind(var2)();
+                        var6 = var1.active;
+                        var9 = var1.initialLaunchPadPosition;
+                        var7 = var1.initialTouchX;
+                        var11 = var1.initialTouchY;
+                        var10 = var5.state;
+                        var12 = _closure1_slot0;
+                        var8 = _closure1_slot2;
+                        var1 = 5;
+                        var8 = var8[var1];
+                        var1 = undefined;
+                        var8 = var12.bind(var1)(var8);
+                        var8 = var8.State;
+                        var8 = var8.BEGAN;
+                        if(!(var10 === var8)) { _fun0002_ip = 785; continue _fun0002 }
  95:
-                        if(oscard) { _fun00004_ip = 785; continue _fun00003 }
+                        if(var6) { _fun0002_ip = 785; continue _fun0002 }
  101:
-                        report = report.changedTouches;
-                        oscard = 0;
-                        foxtra = report[oscard];
-                        report = foxtra.x;
-                        option = foxtra.y;
-                        romeon = _closure1_slot0;
-                        backup = _closure1_slot2;
-                        offset = 7;
-                        offset = backup[offset];
-                        romeon = romeon.bind(entity)(offset);
-                        offset = romeon.getWindowDimensionsWorklet;
-                        offset = offset.bind(romeon)();
-                        romeon = offset.width;
-                        offset = null;
-                        if(!(offset != foxtra)) { _fun00004_ip = 775; continue _fun00003 }
+                        var5 = var5.changedTouches;
+                        var6 = 0;
+                        var13 = var5[var6];
+                        var5 = var13.x;
+                        var8 = var13.y;
+                        var12 = _closure1_slot0;
+                        var14 = _closure1_slot2;
+                        var10 = 7;
+                        var10 = var14[var10];
+                        var12 = var12.bind(var1)(var10);
+                        var10 = var12.getWindowDimensionsWorklet;
+                        var10 = var10.bind(var12)();
+                        var12 = var10.width;
+                        var10 = null;
+                        if(!(var10 != var13)) { _fun0002_ip = 775; continue _fun0002 }
  167:
-                        foxtra = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.GESTURE_EDGE;
-                        if(!(foxtra === offset)) { _fun00004_ip = 204; continue _fun00003 }
+                        var13 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.GESTURE_EDGE;
+                        if(!(var13 === var10)) { _fun0002_ip = 204; continue _fun0002 }
  185:
-                        if(!(oscard === verify)) { _fun00004_ip = 204; continue _fun00003 }
+                        if(!(var6 === var9)) { _fun0002_ip = 204; continue _fun0002 }
  189:
-                        offset = _closure1_slot4;
-                        offset = romeon - offset;
-                        if(!(!(golfie < offset))) { _fun00004_ip = 775; continue _fun00003 }
+                        var10 = _closure1_slot4;
+                        var10 = var12 - var10;
+                        if(!(!(var7 < var10))) { _fun0002_ip = 775; continue _fun0002 }
  204:
-                        offset = _closure2_slot8;
-                        if(offset) { _fun00004_ip = 232; continue _fun00003 }
+                        var10 = _closure2_slot8;
+                        if(var10) { _fun0002_ip = 232; continue _fun0002 }
  211:
-                        foxtra = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.DISABLED;
-                        if(!(foxtra !== offset)) { _fun00004_ip = 775; continue _fun00003 }
+                        var13 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.DISABLED;
+                        if(!(var13 !== var10)) { _fun0002_ip = 775; continue _fun0002 }
  232:
-                        offset = _closure2_slot8;
-                        if(!offset) { _fun00004_ip = 283; continue _fun00003 }
+                        var10 = _closure2_slot8;
+                        if(!var10) { _fun0002_ip = 283; continue _fun0002 }
  239:
-                        foxtra = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.DISABLED;
-                        if(!(foxtra === offset)) { _fun00004_ip = 283; continue _fun00003 }
+                        var13 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.DISABLED;
+                        if(!(var13 === var10)) { _fun0002_ip = 283; continue _fun0002 }
  257:
-                        foxtra = _closure2_slot3;
-                        offset = foxtra.get;
-                        offset = offset.bind(foxtra)();
-                        offset = offset.initialLaunchPadPosition;
-                        if(!(oscard !== offset)) { _fun00004_ip = 763; continue _fun00003 }
+                        var13 = _closure2_slot3;
+                        var10 = var13.get;
+                        var10 = var10.bind(var13)();
+                        var10 = var10.initialLaunchPadPosition;
+                        if(!(var6 !== var10)) { _fun0002_ip = 763; continue _fun0002 }
  283:
-                        foxtra = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.PULL_TAB;
-                        if(!(foxtra === offset)) { _fun00004_ip = 406; continue _fun00003 }
+                        var13 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.PULL_TAB;
+                        if(!(var13 === var10)) { _fun0002_ip = 406; continue _fun0002 }
  301:
-                        if(!(oscard === verify)) { _fun00004_ip = 406; continue _fun00003 }
+                        if(!(var6 === var9)) { _fun0002_ip = 406; continue _fun0002 }
  305:
-                        foxtra = _closure2_slot2;
-                        offset = foxtra.get;
-                        offset = offset.bind(foxtra)();
-                        foxtra = offset.position;
-                        offset = _closure1_slot6;
-                        offset = foxtra - offset;
-                        offset = option > offset;
-                        if(!offset) { _fun00004_ip = 376; continue _fun00003 }
+                        var13 = _closure2_slot2;
+                        var10 = var13.get;
+                        var10 = var10.bind(var13)();
+                        var13 = var10.position;
+                        var10 = _closure1_slot6;
+                        var10 = var13 - var10;
+                        var10 = var8 > var10;
+                        if(!var10) { _fun0002_ip = 376; continue _fun0002 }
  338:
-                        backup = _closure2_slot2;
-                        foxtra = backup.get;
-                        foxtra = foxtra.bind(backup)();
-                        backup = foxtra.position;
-                        foxtra = _closure1_slot5;
-                        backup = backup + foxtra;
-                        foxtra = _closure1_slot6;
-                        foxtra = backup + foxtra;
-                        offset = option < foxtra;
+                        var14 = _closure2_slot2;
+                        var13 = var14.get;
+                        var13 = var13.bind(var14)();
+                        var14 = var13.position;
+                        var13 = _closure1_slot5;
+                        var14 = var14 + var13;
+                        var13 = _closure1_slot6;
+                        var13 = var14 + var13;
+                        var10 = var8 < var13;
  376:
-                        foxtra = _closure1_slot8;
-                        backup = romeon - foxtra;
-                        foxtra = _closure1_slot6;
-                        foxtra = backup - foxtra;
-                        if(!(report > foxtra)) { _fun00004_ip = 406; continue _fun00003 }
+                        var13 = _closure1_slot8;
+                        var14 = var12 - var13;
+                        var13 = _closure1_slot6;
+                        var13 = var14 - var13;
+                        if(!(var5 > var13)) { _fun0002_ip = 406; continue _fun0002 }
  396:
-                        if(!(report < romeon)) { _fun00004_ip = 406; continue _fun00003 }
+                        if(!(var5 < var12)) { _fun0002_ip = 406; continue _fun0002 }
  400:
-                        if(offset) { _fun00004_ip = 649; continue _fun00003 }
+                        if(var10) { _fun0002_ip = 649; continue _fun0002 }
  406:
-                        romeon = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.PULL_TAB;
-                        if(!(romeon === offset)) { _fun00004_ip = 446; continue _fun00003 }
+                        var12 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.PULL_TAB;
+                        if(!(var12 === var10)) { _fun0002_ip = 446; continue _fun0002 }
  424:
-                        romeon = _closure2_slot0;
-                        offset = _closure1_slot9;
-                        offset = offset.PULL_TAB;
-                        if(!(romeon === offset)) { _fun00004_ip = 536; continue _fun00003 }
+                        var12 = _closure2_slot0;
+                        var10 = _closure1_slot9;
+                        var10 = var10.PULL_TAB;
+                        if(!(var12 === var10)) { _fun0002_ip = 536; continue _fun0002 }
  442:
-                        if(!(verify > oscard)) { _fun00004_ip = 536; continue _fun00003 }
+                        if(!(var9 > var6)) { _fun0002_ip = 536; continue _fun0002 }
  446:
-                        golfie = report - golfie;
-                        report = global;
-                        offset = report.Math;
-                        verify = offset.abs;
-                        option = option - yankee;
-                        option = verify.bind(offset)(option);
-                        offset = _closure2_slot1;
-                        verify = offset.get;
-                        verify = verify.bind(offset)();
-                        if(!(verify > oscard)) { _fun00004_ip = 494; continue _fun00003 }
+                        var7 = var5 - var7;
+                        var5 = global;
+                        var10 = var5.Math;
+                        var9 = var10.abs;
+                        var8 = var8 - var11;
+                        var8 = var9.bind(var10)(var8);
+                        var10 = _closure2_slot1;
+                        var9 = var10.get;
+                        var9 = var9.bind(var10)();
+                        if(!(var9 > var6)) { _fun0002_ip = 494; continue _fun0002 }
  490:
-                        if(!(!(golfie > oscard))) { _fun00004_ip = 515; continue _fun00003 }
+                        if(!(!(var7 > var6))) { _fun0002_ip = 515; continue _fun0002 }
  494:
-                        offset = _closure2_slot1;
-                        verify = offset.get;
-                        verify = verify.bind(offset)();
-                        if(!(verify <= oscard)) { _fun00004_ip = 536; continue _fun00003 }
+                        var10 = _closure2_slot1;
+                        var9 = var10.get;
+                        var9 = var9.bind(var10)();
+                        if(!(var9 <= var6)) { _fun0002_ip = 536; continue _fun0002 }
  511:
-                        if(!(golfie < oscard)) { _fun00004_ip = 536; continue _fun00003 }
+                        if(!(var7 < var6)) { _fun0002_ip = 536; continue _fun0002 }
  515:
-                        verify = report.Math;
-                        oscard = verify.abs;
-                        oscard = oscard.bind(verify)(golfie);
-                        if(!(!(oscard > option))) { _fun00004_ip = 551; continue _fun00003 }
+                        var9 = var5.Math;
+                        var6 = var9.abs;
+                        var6 = var6.bind(var9)(var7);
+                        if(!(!(var6 > var8))) { _fun0002_ip = 551; continue _fun0002 }
  536:
-                        oscard = zuuluu.fail;
-                        oscard = oscard.bind(zuuluu)();
-                        _fun00004_ip = 785; continue _fun00003;
+                        var6 = var3.fail;
+                        var6 = var6.bind(var3)();
+                        _fun0002_ip = 785; continue _fun0002;
  551:
-                        oscard = report.Math;
-                        report = oscard.abs;
-                        oscard = report.bind(oscard)(golfie);
-                        report = 3;
-                        if(!(!(oscard < report))) { _fun00004_ip = 647; continue _fun00003 }
+                        var6 = var5.Math;
+                        var5 = var6.abs;
+                        var6 = var5.bind(var6)(var7);
+                        var5 = 3;
+                        if(!(!(var6 < var5))) { _fun0002_ip = 647; continue _fun0002 }
  575:
-                        option = _closure2_slot3;
-                        oscard = option.set;
-                        report = {};
-                        golfie = option.get;
-                        kiloes = golfie.bind(option)();
-                        sizing = report;
-                        golfie = copyDataProperties(sizing, kiloes);
-                        golfie = true;
-                        verify = 'active';
-                        report[verify] = golfie;
-                        report = oscard.bind(option)(report);
-                        oscard = _closure2_slot4;
-                        report = oscard.setLaunchPadShown;
-                        report = report.bind(oscard)(golfie);
-                        report = zuuluu.activate;
-                        report = report.bind(zuuluu)();
-                        report = undefined;
-                        return report;
+                        var8 = _closure2_slot3;
+                        var6 = var8.set;
+                        var5 = {};
+                        var7 = var8.get;
+                        var15 = var7.bind(var8)();
+                        var16 = var5;
+                        var7 = copyDataProperties(var16, var15);
+                        var7 = true;
+                        var9 = 'active';
+                        var5[var9] = var7;
+                        var5 = var6.bind(var8)(var5);
+                        var6 = _closure2_slot4;
+                        var5 = var6.setLaunchPadShown;
+                        var5 = var5.bind(var6)(var7);
+                        var5 = var3.activate;
+                        var5 = var5.bind(var3)();
+                        var5 = undefined;
+                        return var5;
  647:
-                        return entity;
+                        return var1;
  649:
-                        option = _closure2_slot3;
-                        golfie = option.set;
-                        oscard = {};
-                        report = option.get;
-                        kiloes = report.bind(option)();
-                        sizing = oscard;
-                        report = copyDataProperties(sizing, kiloes);
-                        verify = _closure2_slot2;
-                        report = verify.get;
-                        report = report.bind(verify)();
-                        verify = report.position;
-                        report = 'initialPullTabPosition';
-                        oscard[report] = verify;
-                        report = true;
-                        verify = 'active';
-                        oscard[verify] = report;
-                        oscard = golfie.bind(option)(oscard);
-                        tangon = _closure2_slot4;
-                        oscard = tangon.setLaunchPadPullTabScale;
-                        michal = _closure1_slot7;
-                        michal = oscard.bind(tangon)(michal);
-                        michal = tangon.setLaunchPadShown;
-                        michal = michal.bind(tangon)(report);
-                        michal = zuuluu.activate;
-                        michal = michal.bind(zuuluu)();
-                        michal = undefined;
-                        return michal;
+                        var8 = _closure2_slot3;
+                        var7 = var8.set;
+                        var6 = {};
+                        var5 = var8.get;
+                        var15 = var5.bind(var8)();
+                        var16 = var6;
+                        var5 = copyDataProperties(var16, var15);
+                        var9 = _closure2_slot2;
+                        var5 = var9.get;
+                        var5 = var5.bind(var9)();
+                        var9 = var5.position;
+                        var5 = 'initialPullTabPosition';
+                        var6[var5] = var9;
+                        var5 = true;
+                        var9 = 'active';
+                        var6[var9] = var5;
+                        var6 = var7.bind(var8)(var6);
+                        var4 = _closure2_slot4;
+                        var6 = var4.setLaunchPadPullTabScale;
+                        var2 = _closure1_slot7;
+                        var2 = var6.bind(var4)(var2);
+                        var2 = var4.setLaunchPadShown;
+                        var2 = var2.bind(var4)(var5);
+                        var2 = var3.activate;
+                        var2 = var2.bind(var3)();
+                        var2 = undefined;
+                        return var2;
  763:
-                        michal = zuuluu.fail;
-                        michal = michal.bind(zuuluu)();
-                        _fun00004_ip = 785; continue _fun00003;
+                        var2 = var3.fail;
+                        var2 = var2.bind(var3)();
+                        _fun0002_ip = 785; continue _fun0002;
  775:
-                        michal = zuuluu.fail;
-                        michal = michal.bind(zuuluu)();
+                        var2 = var3.fail;
+                        var2 = var2.bind(var3)();
  785:
-                        return entity;
+                        return var1;
                     }
                 };
-                romeon = {};
-                romeon['gestureState'] = golfie;
-                option = yankee[option];
-                option = kiloes.bind(offset)(option);
-                option = option.State;
-                romeon['State'] = option;
-                backup = 7;
-                option = yankee[backup];
-                option = kiloes.bind(offset)(option);
-                option = option.getWindowDimensionsWorklet;
-                romeon['getWindowDimensionsWorklet'] = option;
-                verify = _closure2_slot0;
-                romeon['launchPadType'] = verify;
-                option = _closure1_slot9;
-                romeon['LaunchPadTypes'] = option;
-                sizing = _closure1_slot4;
-                romeon['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = sizing;
-                sizing = _closure2_slot8;
-                romeon['searchEnabled'] = sizing;
-                sizing = _closure1_slot8;
-                romeon['LAUNCH_PAD_PULL_TAB_WIDTH'] = sizing;
-                sizing = _closure1_slot6;
-                romeon['LAUNCH_PAD_PULL_TAB_HIT_SLOP'] = sizing;
-                sizing = _closure2_slot2;
-                romeon['launchPadPullTabState'] = sizing;
-                sizing = _closure1_slot5;
-                romeon['LAUNCH_PAD_PULL_TAB_HEIGHT'] = sizing;
-                oscard = _closure2_slot4;
-                romeon['updaters'] = oscard;
-                sizing = _closure1_slot7;
-                romeon['LAUNCH_PAD_PULL_TAB_SCALE_FACTOR'] = sizing;
-                romeon['launchPadSharedState'] = foxtra;
-                sizing = 3;
-                romeon['MANUAL_ACTIVATION_THRESHOLD'] = sizing;
-                michal['__closure'] = romeon;
-                romeon = 8290161883240.0;
-                michal['__workletHash'] = romeon;
-                romeon = _closure1_slot14;
-                michal['__initData'] = romeon;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.onChange;
-                michal = function(argFoo) { // Original name: I
-                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                var12 = {};
+                var12['gestureState'] = var7;
+                var8 = var11[var8];
+                var8 = var15.bind(var10)(var8);
+                var8 = var8.State;
+                var12['State'] = var8;
+                var14 = 7;
+                var8 = var11[var14];
+                var8 = var15.bind(var10)(var8);
+                var8 = var8.getWindowDimensionsWorklet;
+                var12['getWindowDimensionsWorklet'] = var8;
+                var9 = _closure2_slot0;
+                var12['launchPadType'] = var9;
+                var8 = _closure1_slot9;
+                var12['LaunchPadTypes'] = var8;
+                var16 = _closure1_slot4;
+                var12['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = var16;
+                var16 = _closure2_slot8;
+                var12['searchEnabled'] = var16;
+                var16 = _closure1_slot8;
+                var12['LAUNCH_PAD_PULL_TAB_WIDTH'] = var16;
+                var16 = _closure1_slot6;
+                var12['LAUNCH_PAD_PULL_TAB_HIT_SLOP'] = var16;
+                var16 = _closure2_slot2;
+                var12['launchPadPullTabState'] = var16;
+                var16 = _closure1_slot5;
+                var12['LAUNCH_PAD_PULL_TAB_HEIGHT'] = var16;
+                var6 = _closure2_slot4;
+                var12['updaters'] = var6;
+                var16 = _closure1_slot7;
+                var12['LAUNCH_PAD_PULL_TAB_SCALE_FACTOR'] = var16;
+                var12['launchPadSharedState'] = var13;
+                var16 = 3;
+                var12['MANUAL_ACTIVATION_THRESHOLD'] = var16;
+                var2['__closure'] = var12;
+                var12 = 8290161883240.0;
+                var2['__workletHash'] = var12;
+                var12 = _closure1_slot14;
+                var2['__initData'] = var12;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.onChange;
+                var2 = function I(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        entity = argFoo;
-                        yankee = entity.translationX;
-                        golfie = entity.translationY;
-                        offset = entity.absoluteX;
-                        zuuluu = _closure2_slot3;
-                        michal = zuuluu.get;
-                        michal = michal.bind(zuuluu)();
-                        michal = michal.active;
-                        if(!michal) { _fun00006_ip = 494; continue _fun00005 }
+                        var1 = arg1;
+                        var11 = var1.translationX;
+                        var7 = var1.translationY;
+                        var10 = var1.absoluteX;
+                        var3 = _closure2_slot3;
+                        var2 = var3.get;
+                        var2 = var2.bind(var3)();
+                        var2 = var2.active;
+                        if(!var2) { _fun0003_ip = 494; continue _fun0003 }
  49:
-                        romeon = _closure2_slot3;
-                        michal = romeon.get;
-                        michal = michal.bind(romeon)();
-                        report = michal.initialTouchX;
-                        zuuluu = michal.requiresPop;
-                        option = _closure1_slot0;
-                        oscard = _closure1_slot2;
-                        tangon = 7;
-                        oscard = oscard[tangon];
-                        tangon = undefined;
-                        option = option.bind(tangon)(oscard);
-                        oscard = option.getWindowDimensionsWorklet;
-                        oscard = oscard.bind(option)();
-                        option = oscard.width;
-                        oscard = global;
-                        foxtra = oscard.Math;
-                        verify = foxtra.max;
-                        oscard = offset - report;
-                        report = -1;
-                        report = report * oscard;
-                        oscard = 0;
-                        verify = verify.bind(foxtra)(report, oscard);
-                        report = romeon.get;
-                        report = report.bind(romeon)();
-                        report = report.initialTouchX;
-                        report = offset - report;
-                        offset = romeon.get;
-                        offset = offset.bind(romeon)();
-                        offset = offset.initialTouchX;
-                        offset = offset + yankee;
-                        romeon = _closure2_slot0;
-                        yankee = _closure1_slot9;
-                        yankee = yankee.PULL_TAB;
-                        if(!(romeon !== yankee)) { _fun00006_ip = 208; continue _fun00005 }
+                        var12 = _closure2_slot3;
+                        var2 = var12.get;
+                        var2 = var2.bind(var12)();
+                        var5 = var2.initialTouchX;
+                        var3 = var2.requiresPop;
+                        var8 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var4 = 7;
+                        var6 = var6[var4];
+                        var4 = undefined;
+                        var8 = var8.bind(var4)(var6);
+                        var6 = var8.getWindowDimensionsWorklet;
+                        var6 = var6.bind(var8)();
+                        var8 = var6.width;
+                        var6 = global;
+                        var13 = var6.Math;
+                        var9 = var13.max;
+                        var6 = var10 - var5;
+                        var5 = -1;
+                        var5 = var5 * var6;
+                        var6 = 0;
+                        var9 = var9.bind(var13)(var5, var6);
+                        var5 = var12.get;
+                        var5 = var5.bind(var12)();
+                        var5 = var5.initialTouchX;
+                        var5 = var10 - var5;
+                        var10 = var12.get;
+                        var10 = var10.bind(var12)();
+                        var10 = var10.initialTouchX;
+                        var10 = var10 + var11;
+                        var12 = _closure2_slot0;
+                        var11 = _closure1_slot9;
+                        var11 = var11.PULL_TAB;
+                        if(!(var12 !== var11)) { _fun0003_ip = 208; continue _fun0003 }
  205:
-                        oscard = 40;
+                        var6 = 40;
  208:
-                        oscard = offset - oscard;
-                        yankee = oscard / option;
-                        if(!zuuluu) { _fun00006_ip = 229; continue _fun00005 }
+                        var6 = var10 - var6;
+                        var11 = var6 / var8;
+                        if(!var3) { _fun0003_ip = 229; continue _fun0003 }
  219:
-                        oscard = 70;
-                        if(!(!(verify <= oscard))) { _fun00006_ip = 385; continue _fun00005 }
+                        var6 = 70;
+                        if(!(!(var9 <= var6))) { _fun0003_ip = 385; continue _fun0003 }
  229:
-                        offset = _closure1_slot1;
-                        romeon = _closure1_slot2;
-                        oscard = 8;
-                        oscard = romeon[oscard];
-                        offset = offset.bind(tangon)(oscard);
-                        oscard = _closure2_slot3;
-                        if(zuuluu) { _fun00006_ip = 271; continue _fun00005 }
+                        var10 = _closure1_slot1;
+                        var12 = _closure1_slot2;
+                        var6 = 8;
+                        var6 = var12[var6];
+                        var10 = var10.bind(var4)(var6);
+                        var6 = _closure2_slot3;
+                        if(var3) { _fun0003_ip = 271; continue _fun0003 }
  256:
-                        zuuluu = {};
-                        zuuluu['positionOffsetX'] = report;
-                        zuuluu = offset.bind(tangon)(oscard, zuuluu);
-                        _fun00006_ip = 361; continue _fun00005;
+                        var3 = {};
+                        var3['positionOffsetX'] = var5;
+                        var3 = var10.bind(var4)(var6, var3);
+                        _fun0003_ip = 361; continue _fun0003;
  271:
-                        zuuluu = {};
-                        foxtra = false;
-                        zuuluu['requiresPop'] = foxtra;
-                        zuuluu['positionOffsetX'] = report;
-                        zuuluu = offset.bind(tangon)(oscard, zuuluu);
-                        offset = _closure1_slot0;
-                        zuuluu = 9;
-                        zuuluu = romeon[zuuluu];
-                        backup = offset.bind(tangon)(zuuluu);
-                        foxtra = backup.runOnJS;
-                        zuuluu = 10;
-                        oscard = romeon[zuuluu];
-                        oscard = offset.bind(tangon)(oscard);
-                        oscard = oscard.triggerHapticFeedback;
-                        oscard = foxtra.bind(backup)(oscard);
-                        zuuluu = romeon[zuuluu];
-                        zuuluu = offset.bind(tangon)(zuuluu);
-                        zuuluu = zuuluu.HapticFeedbackTypes;
-                        zuuluu = zuuluu.IMPACT_MEDIUM;
-                        zuuluu = oscard.bind(tangon)(zuuluu);
+                        var3 = {};
+                        var13 = false;
+                        var3['requiresPop'] = var13;
+                        var3['positionOffsetX'] = var5;
+                        var3 = var10.bind(var4)(var6, var3);
+                        var10 = _closure1_slot0;
+                        var3 = 9;
+                        var3 = var12[var3];
+                        var14 = var10.bind(var4)(var3);
+                        var13 = var14.runOnJS;
+                        var3 = 10;
+                        var6 = var12[var3];
+                        var6 = var10.bind(var4)(var6);
+                        var6 = var6.triggerHapticFeedback;
+                        var6 = var13.bind(var14)(var6);
+                        var3 = var12[var3];
+                        var3 = var10.bind(var4)(var3);
+                        var3 = var3.HapticFeedbackTypes;
+                        var3 = var3.IMPACT_MEDIUM;
+                        var3 = var6.bind(var4)(var3);
  361:
-                        offset = _closure2_slot4;
-                        oscard = offset.setLaunchPadPosition;
-                        zuuluu = 1;
-                        zuuluu = zuuluu - yankee;
-                        zuuluu = oscard.bind(offset)(zuuluu);
-                        _fun00006_ip = 494; continue _fun00005;
+                        var10 = _closure2_slot4;
+                        var6 = var10.setLaunchPadPosition;
+                        var3 = 1;
+                        var3 = var3 - var11;
+                        var3 = var6.bind(var10)(var3);
+                        _fun0003_ip = 494; continue _fun0003;
  385:
-                        oscard = _closure2_slot0;
-                        zuuluu = _closure1_slot9;
-                        zuuluu = zuuluu.PULL_TAB;
-                        if(!(oscard === zuuluu)) { _fun00006_ip = 420; continue _fun00005 }
+                        var6 = _closure2_slot0;
+                        var3 = _closure1_slot9;
+                        var3 = var3.PULL_TAB;
+                        if(!(var6 === var3)) { _fun0003_ip = 420; continue _fun0003 }
  403:
-                        oscard = _closure2_slot4;
-                        zuuluu = oscard.setLaunchPadPullTabTranslation;
-                        zuuluu = zuuluu.bind(oscard)(golfie);
-                        _fun00006_ip = 457; continue _fun00005;
+                        var6 = _closure2_slot4;
+                        var3 = var6.setLaunchPadPullTabTranslation;
+                        var3 = var3.bind(var6)(var7);
+                        _fun0003_ip = 457; continue _fun0003;
  420:
-                        golfie = _closure2_slot4;
-                        oscard = golfie.setLaunchPadPosition;
-                        zuuluu = 0.5;
-                        zuuluu = zuuluu * verify;
-                        zuuluu = verify - zuuluu;
-                        zuuluu = zuuluu / option;
-                        zuuluu = oscard.bind(golfie)(zuuluu);
+                        var7 = _closure2_slot4;
+                        var6 = var7.setLaunchPadPosition;
+                        var3 = 0.5;
+                        var3 = var3 * var9;
+                        var3 = var9 - var3;
+                        var3 = var3 / var8;
+                        var3 = var6.bind(var7)(var3);
  457:
-                        zuuluu = _closure1_slot1;
-                        oscard = _closure1_slot2;
-                        michal = 8;
-                        michal = oscard[michal];
-                        zuuluu = zuuluu.bind(tangon)(michal);
-                        michal = _closure2_slot3;
-                        entity = {};
-                        entity['positionOffsetX'] = report;
-                        entity = zuuluu.bind(tangon)(michal, entity);
+                        var3 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var2 = 8;
+                        var2 = var6[var2];
+                        var3 = var3.bind(var4)(var2);
+                        var2 = _closure2_slot3;
+                        var1 = {};
+                        var1['positionOffsetX'] = var5;
+                        var1 = var3.bind(var4)(var2, var1);
  494:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                romeon = {};
-                romeon['gestureState'] = golfie;
-                backup = yankee[backup];
-                backup = kiloes.bind(offset)(backup);
-                backup = backup.getWindowDimensionsWorklet;
-                romeon['getWindowDimensionsWorklet'] = backup;
-                backup = 0.5;
-                romeon['POP_RESISTANCE'] = backup;
-                romeon['launchPadType'] = verify;
-                romeon['LaunchPadTypes'] = option;
-                option = 70;
-                romeon['PIP_POP_DISTANCE'] = option;
-                romeon['updaters'] = oscard;
-                verify = _closure1_slot1;
-                option = 8;
-                backup = yankee[option];
-                backup = verify.bind(offset)(backup);
-                romeon['updateSharedValueIfChanged'] = backup;
-                backup = 9;
-                backup = yankee[backup];
-                backup = kiloes.bind(offset)(backup);
-                backup = backup.runOnJS;
-                romeon['runOnJS'] = backup;
-                backup = 10;
-                sizing = yankee[backup];
-                sizing = kiloes.bind(offset)(sizing);
-                sizing = sizing.triggerHapticFeedback;
-                romeon['triggerHapticFeedback'] = sizing;
-                backup = yankee[backup];
-                backup = kiloes.bind(offset)(backup);
-                backup = backup.HapticFeedbackTypes;
-                romeon['HapticFeedbackTypes'] = backup;
-                michal['__closure'] = romeon;
-                romeon = 8073380735713.0;
-                michal['__workletHash'] = romeon;
-                romeon = _closure1_slot13;
-                michal['__initData'] = romeon;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.onEnd;
-                michal = function(argFoo) { // Original name: v
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                var12 = {};
+                var12['gestureState'] = var7;
+                var14 = var11[var14];
+                var14 = var15.bind(var10)(var14);
+                var14 = var14.getWindowDimensionsWorklet;
+                var12['getWindowDimensionsWorklet'] = var14;
+                var14 = 0.5;
+                var12['POP_RESISTANCE'] = var14;
+                var12['launchPadType'] = var9;
+                var12['LaunchPadTypes'] = var8;
+                var8 = 70;
+                var12['PIP_POP_DISTANCE'] = var8;
+                var12['updaters'] = var6;
+                var9 = _closure1_slot1;
+                var8 = 8;
+                var14 = var11[var8];
+                var14 = var9.bind(var10)(var14);
+                var12['updateSharedValueIfChanged'] = var14;
+                var14 = 9;
+                var14 = var11[var14];
+                var14 = var15.bind(var10)(var14);
+                var14 = var14.runOnJS;
+                var12['runOnJS'] = var14;
+                var14 = 10;
+                var16 = var11[var14];
+                var16 = var15.bind(var10)(var16);
+                var16 = var16.triggerHapticFeedback;
+                var12['triggerHapticFeedback'] = var16;
+                var14 = var11[var14];
+                var14 = var15.bind(var10)(var14);
+                var14 = var14.HapticFeedbackTypes;
+                var12['HapticFeedbackTypes'] = var14;
+                var2['__closure'] = var12;
+                var12 = 8073380735713.0;
+                var2['__workletHash'] = var12;
+                var12 = _closure1_slot13;
+                var2['__initData'] = var12;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.onEnd;
+                var2 = function v(arg1) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        entity = argFoo;
-                        zuuluu = entity.velocityX;
-                        tangon = _closure2_slot3;
-                        entity = tangon.get;
-                        entity = entity.bind(tangon)();
-                        tangon = entity.requiresPop;
-                        entity = entity.startShown;
-                        if(tangon) { _fun00008_ip = 178; continue _fun00007 }
+                        var1 = arg1;
+                        var3 = var1.velocityX;
+                        var4 = _closure2_slot3;
+                        var1 = var4.get;
+                        var1 = var1.bind(var4)();
+                        var4 = var1.requiresPop;
+                        var1 = var1.startShown;
+                        if(var4) { _fun0004_ip = 178; continue _fun0004 }
  43:
-                        tangon = global;
-                        report = tangon.Math;
-                        tangon = report.abs;
-                        report = tangon.bind(report)(zuuluu);
-                        tangon = 100;
-                        if(!(!(report < tangon))) { _fun00008_ip = 112; continue _fun00007 }
+                        var4 = global;
+                        var5 = var4.Math;
+                        var4 = var5.abs;
+                        var5 = var4.bind(var5)(var3);
+                        var4 = 100;
+                        if(!(!(var5 < var4))) { _fun0004_ip = 112; continue _fun0004 }
  69:
-                        report = 0;
-                        if(!(!(zuuluu > report))) { _fun00008_ip = 95; continue _fun00007 }
+                        var5 = 0;
+                        if(!(!(var3 > var5))) { _fun0004_ip = 95; continue _fun0004 }
  75:
-                        oscard = _closure2_slot4;
-                        tangon = oscard.setLaunchPadPosition;
-                        zuuluu = 1;
-                        zuuluu = tangon.bind(oscard)(zuuluu);
-                        _fun00008_ip = 208; continue _fun00007;
+                        var6 = _closure2_slot4;
+                        var4 = var6.setLaunchPadPosition;
+                        var3 = 1;
+                        var3 = var4.bind(var6)(var3);
+                        _fun0004_ip = 208; continue _fun0004;
  95:
-                        tangon = _closure2_slot4;
-                        zuuluu = tangon.setLaunchPadPosition;
-                        zuuluu = zuuluu.bind(tangon)(report);
-                        _fun00008_ip = 208; continue _fun00007;
+                        var4 = _closure2_slot4;
+                        var3 = var4.setLaunchPadPosition;
+                        var3 = var3.bind(var4)(var5);
+                        _fun0004_ip = 208; continue _fun0004;
  112:
-                        tangon = _closure2_slot1;
-                        zuuluu = tangon.get;
-                        tangon = zuuluu.bind(tangon)();
-                        zuuluu = 0.5;
-                        if(!(!(tangon >= zuuluu))) { _fun00008_ip = 158; continue _fun00007 }
+                        var4 = _closure2_slot1;
+                        var3 = var4.get;
+                        var4 = var3.bind(var4)();
+                        var3 = 0.5;
+                        if(!(!(var4 >= var3))) { _fun0004_ip = 158; continue _fun0004 }
  139:
-                        report = _closure2_slot4;
-                        tangon = report.setLaunchPadPosition;
-                        zuuluu = 0;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        _fun00008_ip = 208; continue _fun00007;
+                        var5 = _closure2_slot4;
+                        var4 = var5.setLaunchPadPosition;
+                        var3 = 0;
+                        var3 = var4.bind(var5)(var3);
+                        _fun0004_ip = 208; continue _fun0004;
  158:
-                        report = _closure2_slot4;
-                        tangon = report.setLaunchPadPosition;
-                        zuuluu = 1;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        _fun00008_ip = 208; continue _fun00007;
+                        var5 = _closure2_slot4;
+                        var4 = var5.setLaunchPadPosition;
+                        var3 = 1;
+                        var3 = var4.bind(var5)(var3);
+                        _fun0004_ip = 208; continue _fun0004;
  178:
-                        zuuluu = _closure2_slot4;
-                        michal = zuuluu.setLaunchPadPosition;
-                        if(entity) { _fun00008_ip = 200; continue _fun00007 }
+                        var3 = _closure2_slot4;
+                        var2 = var3.setLaunchPadPosition;
+                        if(var1) { _fun0004_ip = 200; continue _fun0004 }
  191:
-                        entity = 0;
-                        entity = michal.bind(zuuluu)(entity);
-                        _fun00008_ip = 208; continue _fun00007;
+                        var1 = 0;
+                        var1 = var2.bind(var3)(var1);
+                        _fun0004_ip = 208; continue _fun0004;
  200:
-                        entity = 1;
-                        entity = michal.bind(zuuluu)(entity);
+                        var1 = 1;
+                        var1 = var2.bind(var3)(var1);
  208:
-                        entity = undefined;
-                        return entity;
+                        var1 = undefined;
+                        return var1;
                     }
                 };
-                romeon = {};
-                romeon['gestureState'] = golfie;
-                romeon['updaters'] = oscard;
-                romeon['launchPadSharedState'] = foxtra;
-                michal['__closure'] = romeon;
-                romeon = 14391907446770.0;
-                michal['__workletHash'] = romeon;
-                romeon = _closure1_slot12;
-                michal['__initData'] = romeon;
-                report = zuuluu.bind(report)(michal);
-                zuuluu = report.onTouchesCancelled;
-                michal = function() { // Original name: O
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+                var12 = {};
+                var12['gestureState'] = var7;
+                var12['updaters'] = var6;
+                var12['launchPadSharedState'] = var13;
+                var2['__closure'] = var12;
+                var12 = 14391907446770.0;
+                var2['__workletHash'] = var12;
+                var12 = _closure1_slot12;
+                var2['__initData'] = var12;
+                var5 = var3.bind(var5)(var2);
+                var3 = var5.onTouchesCancelled;
+                var2 = function O() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                        zuuluu = _closure2_slot3;
-                        entity = zuuluu.get;
-                        zuuluu = entity.bind(zuuluu)();
-                        entity = zuuluu.initialLaunchPadPosition;
-                        zuuluu = zuuluu.active;
-                        if(!zuuluu) { _fun00010_ip = 72; continue _fun00009 }
+                        var3 = _closure2_slot3;
+                        var1 = var3.get;
+                        var3 = var1.bind(var3)();
+                        var1 = var3.initialLaunchPadPosition;
+                        var3 = var3.active;
+                        if(!var3) { _fun0005_ip = 72; continue _fun0005 }
  31:
-                        tangon = 1;
-                        if(!(tangon !== entity)) { _fun00010_ip = 57; continue _fun00009 }
+                        var4 = 1;
+                        if(!(var4 !== var1)) { _fun0005_ip = 57; continue _fun0005 }
  38:
-                        report = _closure2_slot4;
-                        zuuluu = report.setLaunchPadPosition;
-                        entity = 0;
-                        entity = zuuluu.bind(report)(entity);
-                        _fun00010_ip = 72; continue _fun00009;
+                        var5 = _closure2_slot4;
+                        var3 = var5.setLaunchPadPosition;
+                        var1 = 0;
+                        var1 = var3.bind(var5)(var1);
+                        _fun0005_ip = 72; continue _fun0005;
  57:
-                        zuuluu = _closure2_slot4;
-                        entity = zuuluu.setLaunchPadPosition;
-                        entity = entity.bind(zuuluu)(tangon);
+                        var3 = _closure2_slot4;
+                        var1 = var3.setLaunchPadPosition;
+                        var1 = var1.bind(var3)(var4);
  72:
-                        tangon = _closure1_slot1;
-                        zuuluu = _closure1_slot2;
-                        entity = 8;
-                        zuuluu = zuuluu[entity];
-                        entity = undefined;
-                        tangon = tangon.bind(entity)(zuuluu);
-                        zuuluu = _closure2_slot3;
-                        michal = {'active': false, 'initialLaunchPadPosition': 0, 'initialPullTabPosition': 0, 'initialTouchX': 0, 'initialTouchY': 0, 'positionOffsetX': 0, 'positionOffsetY': 0, 'startTime': 4294967295};
-                        michal = tangon.bind(entity)(zuuluu, michal);
-                        return entity;
+                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 8;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var4 = var4.bind(var1)(var3);
+                        var3 = _closure2_slot3;
+                        var2 = {'active': false, 'initialLaunchPadPosition': 0, 'initialPullTabPosition': 0, 'initialTouchX': 0, 'initialTouchY': 0, 'positionOffsetX': 0, 'positionOffsetY': 0, 'startTime': 4294967295};
+                        var2 = var4.bind(var1)(var3, var2);
+                        return var1;
                     }
                 };
-                romeon = {};
-                romeon['gestureState'] = golfie;
-                romeon['updaters'] = oscard;
-                foxtra = yankee[option];
-                foxtra = verify.bind(offset)(foxtra);
-                romeon['updateSharedValueIfChanged'] = foxtra;
-                michal['__closure'] = romeon;
-                romeon = 11677880944102.0;
-                michal['__workletHash'] = romeon;
-                romeon = _closure1_slot11;
-                michal['__initData'] = romeon;
-                zuuluu = zuuluu.bind(report)(michal);
-                michal = zuuluu.onFinalize;
-                entity = function() { // Original name: t
-                    zuuluu = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 8;
-                    michal = michal[entity];
-                    entity = undefined;
-                    report = zuuluu.bind(entity)(michal);
-                    tangon = _closure2_slot3;
-                    zuuluu = {'active': false, 'initialLaunchPadPosition': 0, 'initialPullTabPosition': 0, 'initialTouchX': 0, 'initialTouchY': 0, 'positionOffsetX': 0, 'positionOffsetY': 0, 'startTime': 4294967295};
-                    zuuluu = report.bind(entity)(tangon, zuuluu);
-                    tangon = _closure2_slot4;
-                    zuuluu = tangon.setLaunchPadPullTabScale;
-                    michal = 1;
-                    michal = zuuluu.bind(tangon)(michal);
-                    return entity;
+                var12 = {};
+                var12['gestureState'] = var7;
+                var12['updaters'] = var6;
+                var13 = var11[var8];
+                var13 = var9.bind(var10)(var13);
+                var12['updateSharedValueIfChanged'] = var13;
+                var2['__closure'] = var12;
+                var12 = 11677880944102.0;
+                var2['__workletHash'] = var12;
+                var12 = _closure1_slot11;
+                var2['__initData'] = var12;
+                var3 = var3.bind(var5)(var2);
+                var2 = var3.onFinalize;
+                var1 = function t() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 8;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = _closure2_slot3;
+                    var3 = {'active': false, 'initialLaunchPadPosition': 0, 'initialPullTabPosition': 0, 'initialTouchX': 0, 'initialTouchY': 0, 'positionOffsetX': 0, 'positionOffsetY': 0, 'startTime': 4294967295};
+                    var3 = var5.bind(var1)(var4, var3);
+                    var4 = _closure2_slot4;
+                    var3 = var4.setLaunchPadPullTabScale;
+                    var2 = 1;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
                 };
-                report = {};
-                option = yankee[option];
-                option = verify.bind(offset)(option);
-                report['updateSharedValueIfChanged'] = option;
-                report['gestureState'] = golfie;
-                report['updaters'] = oscard;
-                entity['__closure'] = report;
-                report = 14463491499289.0;
-                entity['__workletHash'] = report;
-                tangon = _closure1_slot10;
-                entity['__initData'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+                var5 = {};
+                var8 = var11[var8];
+                var8 = var9.bind(var10)(var8);
+                var5['updateSharedValueIfChanged'] = var8;
+                var5['gestureState'] = var7;
+                var5['updaters'] = var6;
+                var1['__closure'] = var5;
+                var5 = 14463491499289.0;
+                var1['__workletHash'] = var5;
+                var4 = _closure1_slot10;
+                var1['__initData'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             }
         };
-        zuuluu = report.bind(oscard)(zuuluu, tangon);
-        entity['gesture'] = zuuluu;
-        entity['gestureRef'] = michal;
-        return entity;
+        var3 = var5.bind(var6)(var3, var4);
+        var1['gesture'] = var3;
+        var1['gestureRef'] = var2;
+        return var1;
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

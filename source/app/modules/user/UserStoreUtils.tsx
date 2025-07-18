@@ -1,213 +1,213 @@
 // app/modules/user/UserStoreUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo) { // Original name: getEnv
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var7;
+    var4 = function getEnv(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = _closure1_slot3;
-            zuuluu = entity.TEST;
-            tangon = 'production';
-            entity = tangon;
-            if(!(tangon === zuuluu)) { _fun00002_ip = 42; continue _fun00001 }
+            var2 = arg1;
+            var1 = _closure1_slot3;
+            var3 = var1.TEST;
+            var4 = 'production';
+            var1 = var4;
+            if(!(var4 === var3)) { _fun0001_ip = 42; continue _fun0001 }
  27:
-            zuuluu = null;
-            zuuluu = zuuluu != michal;
-            entity = tangon;
-            if(!zuuluu) { _fun00002_ip = 42; continue _fun00001 }
+            var3 = null;
+            var3 = var3 != var2;
+            var1 = var4;
+            if(!var3) { _fun0001_ip = 42; continue _fun0001 }
  39:
-            entity = michal;
+            var1 = var2;
  42:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = oscard.bind(entity)(report);
-    report = report.Environments;
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.PREMIUM_TYPE_NONE;
-    var _closure1_slot4 = option;
-    report = report.UserFlags;
-    var _closure1_slot5 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/user/UserStoreUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar, argBaz) { // Original name: validatePremiumType
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.Environments;
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.PREMIUM_TYPE_NONE;
+    var _closure1_slot4 = var8;
+    var5 = var5.UserFlags;
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user/UserStoreUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function validatePremiumType(arg1, arg2, arg3) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            entity = argFoo;
-            michal = argBar;
-            if(entity) { _fun00004_ip = 15; continue _fun00003 }
+            var1 = arg1;
+            var2 = arg2;
+            if(var1) { _fun0002_ip = 15; continue _fun0002 }
  9:
-            zuuluu = undefined;
-            entity = zuuluu === michal;
+            var3 = undefined;
+            var1 = var3 === var2;
  15:
-            if(entity) { _fun00004_ip = 62; continue _fun00003 }
+            if(var1) { _fun0002_ip = 62; continue _fun0002 }
  18:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            tangon = undefined;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = argBaz;
-            michal = entity === michal;
-            entity = 'Premium type should not change for non-staff users';
-            entity = zuuluu.bind(tangon)(michal, entity);
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var3 = var3.bind(var4)(var1);
+            var1 = arg3;
+            var2 = var1 === var2;
+            var1 = 'Premium type should not change for non-staff users';
+            var1 = var3.bind(var4)(var2, var1);
  62:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    zuuluu['validatePremiumType'] = report;
-    zuuluu['getEnv'] = tangon;
-    tangon = function(argFoo) { // Original name: isStaffEnv
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['validatePremiumType'] = var5;
+    var3['getEnv'] = var4;
+    var4 = function isStaffEnv(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            report = argFoo;
-            tangon = arguments[1];
-            zuuluu = undefined;
-            if(!(tangon === zuuluu)) { _fun00006_ip = 14; continue _fun00005 }
+            var5 = arg1;
+            var4 = arguments[1];
+            var3 = undefined;
+            if(!(var4 === var3)) { _fun0003_ip = 14; continue _fun0003 }
  12:
-            tangon = undefined;
+            var4 = undefined;
  14:
-            entity = _closure1_slot6;
-            zuuluu = entity.bind(zuuluu)(tangon);
-            entity = _closure1_slot3;
-            entity = entity.DEVELOPMENT;
-            entity = zuuluu === entity;
-            if(entity) { _fun00006_ip = 77; continue _fun00005 }
+            var1 = _closure1_slot6;
+            var3 = var1.bind(var3)(var4);
+            var1 = _closure1_slot3;
+            var1 = var1.DEVELOPMENT;
+            var1 = var3 === var1;
+            if(var1) { _fun0003_ip = 77; continue _fun0003 }
  43:
-            zuuluu = global;
-            zuuluu = zuuluu.window;
-            zuuluu = zuuluu.GLOBAL_ENV;
-            zuuluu = zuuluu.RELEASE_CHANNEL;
-            michal = _closure1_slot3;
-            michal = michal.STAGING;
-            entity = zuuluu === michal;
+            var3 = global;
+            var3 = var3.window;
+            var3 = var3.GLOBAL_ENV;
+            var3 = var3.RELEASE_CHANNEL;
+            var2 = _closure1_slot3;
+            var2 = var2.STAGING;
+            var1 = var3 === var2;
  77:
-            if(entity) { _fun00006_ip = 118; continue _fun00005 }
+            if(var1) { _fun0003_ip = 118; continue _fun0003 }
  80:
-            michal = null;
-            michal = michal != report;
-            if(!michal) { _fun00006_ip = 115; continue _fun00005 }
+            var2 = null;
+            var2 = var2 != var5;
+            if(!var2) { _fun0003_ip = 115; continue _fun0003 }
  89:
-            zuuluu = report.isStaff;
-            zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00006_ip = 112; continue _fun00005 }
+            var3 = var5.isStaff;
+            var3 = var3.bind(var5)();
+            if(var3) { _fun0003_ip = 112; continue _fun0003 }
  102:
-            tangon = report.isStaffPersonal;
-            zuuluu = tangon.bind(report)();
+            var4 = var5.isStaffPersonal;
+            var3 = var4.bind(var5)();
  112:
-            michal = zuuluu;
+            var2 = var3;
  115:
-            entity = michal;
+            var1 = var2;
  118:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isStaffEnv'] = tangon;
-    tangon = function(argFoo) { // Original name: isStaffEnvRawData
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var3['isStaffEnv'] = var4;
+    var4 = function isStaffEnvRawData(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            tangon = argFoo;
-            michal = arguments[1];
-            verify = undefined;
-            if(!(michal === verify)) { _fun00008_ip = 14; continue _fun00007 }
+            var4 = arg1;
+            var2 = arguments[1];
+            var9 = undefined;
+            if(!(var2 === var9)) { _fun0004_ip = 14; continue _fun0004 }
  12:
-            michal = undefined;
+            var2 = undefined;
  14:
-            entity = _closure1_slot6;
-            michal = entity.bind(verify)(michal);
-            entity = _closure1_slot3;
-            entity = entity.DEVELOPMENT;
-            michal = michal !== entity;
-            if(!michal) { _fun00008_ip = 77; continue _fun00007 }
+            var1 = _closure1_slot6;
+            var2 = var1.bind(var9)(var2);
+            var1 = _closure1_slot3;
+            var1 = var1.DEVELOPMENT;
+            var2 = var2 !== var1;
+            if(!var2) { _fun0004_ip = 77; continue _fun0004 }
  43:
-            entity = global;
-            entity = entity.window;
-            entity = entity.GLOBAL_ENV;
-            report = entity.RELEASE_CHANNEL;
-            entity = _closure1_slot3;
-            entity = entity.STAGING;
-            michal = report !== entity;
+            var1 = global;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var5 = var1.RELEASE_CHANNEL;
+            var1 = _closure1_slot3;
+            var1 = var1.STAGING;
+            var2 = var5 !== var1;
  77:
-            entity = !michal;
-            if(!michal) { _fun00008_ip = 176; continue _fun00007 }
+            var1 = !var2;
+            if(!var2) { _fun0004_ip = 176; continue _fun0004 }
  83:
-            report = null;
-            michal = report != tangon;
-            if(!michal) { _fun00008_ip = 173; continue _fun00007 }
+            var5 = null;
+            var2 = var5 != var4;
+            if(!var2) { _fun0004_ip = 173; continue _fun0004 }
  92:
-            oscard = tangon.flags;
-            oscard = report == oscard;
-            if(oscard) { _fun00008_ip = 154; continue _fun00007 }
+            var6 = var4.flags;
+            var6 = var5 == var6;
+            if(var6) { _fun0004_ip = 154; continue _fun0004 }
  104:
-            option = _closure1_slot0;
-            offset = _closure1_slot2;
-            golfie = 3;
-            golfie = offset[golfie];
-            verify = option.bind(verify)(golfie);
-            option = verify.hasFlag;
-            golfie = tangon.flags;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.STAFF;
-            zuuluu = option.bind(verify)(golfie, zuuluu);
-            oscard = !zuuluu;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 3;
+            var7 = var10[var7];
+            var9 = var8.bind(var9)(var7);
+            var8 = var9.hasFlag;
+            var7 = var4.flags;
+            var3 = _closure1_slot5;
+            var3 = var3.STAFF;
+            var3 = var8.bind(var9)(var7, var3);
+            var6 = !var3;
  154:
-            zuuluu = !oscard;
-            if(!oscard) { _fun00008_ip = 170; continue _fun00007 }
+            var3 = !var6;
+            if(!var6) { _fun0004_ip = 170; continue _fun0004 }
  160:
-            tangon = tangon.personal_connection_id;
-            zuuluu = report != tangon;
+            var4 = var4.personal_connection_id;
+            var3 = var5 != var4;
  170:
-            michal = zuuluu;
+            var2 = var3;
  173:
-            entity = michal;
+            var1 = var2;
  176:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isStaffEnvRawData'] = tangon;
-    michal = function(argFoo) { // Original name: getPremiumTypeFromRawValue
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var3['isStaffEnvRawData'] = var4;
+    var2 = function getPremiumTypeFromRawValue(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            michal = argFoo;
-            entity = undefined;
-            if(!(entity !== michal)) { _fun00010_ip = 22; continue _fun00009 }
+            var2 = arg1;
+            var1 = undefined;
+            if(!(var1 !== var2)) { _fun0005_ip = 22; continue _fun0005 }
  9:
-            zuuluu = _closure1_slot4;
-            entity = null;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 25; continue _fun00009 }
+            var3 = _closure1_slot4;
+            var1 = null;
+            if(!(var2 !== var3)) { _fun0005_ip = 25; continue _fun0005 }
  22:
-            entity = michal;
+            var1 = var2;
  25:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['getPremiumTypeFromRawValue'] = michal;
-    return entity;
+    var3['getPremiumTypeFromRawValue'] = var2;
+    return var1;
 })();

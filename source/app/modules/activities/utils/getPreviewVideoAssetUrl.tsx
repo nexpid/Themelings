@@ -1,69 +1,69 @@
 // app/modules/activities/utils/getPreviewVideoAssetUrl.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.Endpoints;
-    var _closure1_slot0 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/activities/utils/getPreviewVideoAssetUrl.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: getPreviewVideoAssetUrl
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.Endpoints;
+    var _closure1_slot0 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/activities/utils/getPreviewVideoAssetUrl.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getPreviewVideoAssetUrl(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            verify = argFoo;
-            option = argBar;
-            michal = global;
-            entity = michal.window;
-            entity = entity.GLOBAL_ENV;
-            golfie = entity.CDN_HOST;
-            entity = michal.window;
-            entity = entity.GLOBAL_ENV;
-            oscard = entity.API_ENDPOINT;
-            entity = null;
-            if(!(entity == golfie)) { _fun00002_ip = 112; continue _fun00001 }
+            var9 = arg1;
+            var8 = arg2;
+            var2 = global;
+            var1 = var2.window;
+            var1 = var1.GLOBAL_ENV;
+            var7 = var1.CDN_HOST;
+            var1 = var2.window;
+            var1 = var1.GLOBAL_ENV;
+            var6 = var1.API_ENDPOINT;
+            var1 = null;
+            if(!(var1 == var7)) { _fun0001_ip = 112; continue _fun0001 }
  50:
-            entity = michal.location;
-            report = entity.protocol;
-            tangon = _closure1_slot0;
-            zuuluu = tangon.STORE_ASSET;
-            entity = 'mp4';
-            tangon = zuuluu.bind(tangon)(verify, option, entity);
-            entity = michal.HermesInternal;
-            zuuluu = entity.concat;
-            entity = '';
-            entity = zuuluu.bind(entity)(report, oscard, tangon);
-            _fun00002_ip = 160; continue _fun00001;
+            var1 = var2.location;
+            var5 = var1.protocol;
+            var4 = _closure1_slot0;
+            var3 = var4.STORE_ASSET;
+            var1 = 'mp4';
+            var4 = var3.bind(var4)(var9, var8, var1);
+            var1 = var2.HermesInternal;
+            var3 = var1.concat;
+            var1 = '';
+            var1 = var3.bind(var1)(var5, var6, var4);
+            _fun0001_ip = 160; continue _fun0001;
  112:
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
-            sizing = 'https://';
-            backup = '/app-assets/';
-            romeon = '/store/';
-            offset = '.mp4';
-            kiloes = golfie;
-            foxtra = verify;
-            yankee = option;
-            entity = sizing[oscard](kiloes, backup, foxtra, romeon, yankee, offset, verify);
+            var2 = var2.HermesInternal;
+            var6 = var2.concat;
+            var16 = 'https://';
+            var14 = '/app-assets/';
+            var12 = '/store/';
+            var10 = '.mp4';
+            var15 = var7;
+            var13 = var9;
+            var11 = var8;
+            var1 = var16[var6](var15, var14, var13, var12, var11, var10, var9);
  160:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

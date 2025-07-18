@@ -1,69 +1,69 @@
 // app/modules/threads/native/showThreadBrowserModal.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = oscard[entity];
-    entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.ChannelDetailsNavigatorScreens;
-    var _closure1_slot2 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/threads/native/showThreadBrowserModal.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: showThreadBrowserModal
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ChannelDetailsNavigatorScreens;
+    var _closure1_slot2 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/threads/native/showThreadBrowserModal.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function showThreadBrowserModal(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 1;
-            zuuluu = report[entity];
-            entity = undefined;
-            oscard = tangon.bind(entity)(zuuluu);
-            zuuluu = oscard.trackThreadBrowserOpened;
-            zuuluu = zuuluu.bind(oscard)();
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getRootNavigationRef;
-            report = zuuluu.bind(tangon)();
-            zuuluu = null;
-            zuuluu = zuuluu != report;
-            if(!zuuluu) { _fun00002_ip = 76; continue _fun00001 }
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 1;
+            var3 = var5[var1];
+            var1 = undefined;
+            var6 = var4.bind(var1)(var3);
+            var3 = var6.trackThreadBrowserOpened;
+            var3 = var3.bind(var6)();
+            var3 = 2;
+            var3 = var5[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.getRootNavigationRef;
+            var5 = var3.bind(var4)();
+            var3 = null;
+            var3 = var3 != var5;
+            if(!var3) { _fun0001_ip = 76; continue _fun0001 }
  66:
-            tangon = report.isReady;
-            zuuluu = tangon.bind(report)();
+            var4 = var5.isReady;
+            var3 = var4.bind(var5)();
  76:
-            if(!zuuluu) { _fun00002_ip = 126; continue _fun00001 }
+            if(!var3) { _fun0001_ip = 126; continue _fun0001 }
  79:
-            tangon = report.navigate;
-            zuuluu = {};
-            oscard = argFoo;
-            oscard = oscard.id;
-            zuuluu['channelId'] = oscard;
-            michal = _closure1_slot2;
-            michal = michal.THREADS;
-            zuuluu['initialRouteName'] = michal;
-            michal = 'sidebar';
-            michal = tangon.bind(report)(michal, zuuluu);
+            var4 = var5.navigate;
+            var3 = {};
+            var6 = arg1;
+            var6 = var6.id;
+            var3['channelId'] = var6;
+            var2 = _closure1_slot2;
+            var2 = var2.THREADS;
+            var3['initialRouteName'] = var2;
+            var2 = 'sidebar';
+            var2 = var4.bind(var5)(var2, var3);
  126:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

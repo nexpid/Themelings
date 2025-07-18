@@ -1,401 +1,401 @@
 // app/modules/guild_scheduled_events/UpcomingEventNoticesStore.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function() { // Original name: _isNativeReflectConstruct
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function _isNativeReflectConstruct() {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
  2: // try_start_0
-            michal = global;
-            zuuluu = michal.Boolean;
-            zuuluu = zuuluu.prototype;
-            tangon = zuuluu.valueOf;
-            zuuluu = tangon.call;
-            option = michal.Reflect;
-            golfie = option.construct;
-            oscard = michal.Boolean;
-            report = new Array(0);
-            michal = function() {
-                entity = undefined;
-                return entity;
+            var2 = global;
+            var3 = var2.Boolean;
+            var3 = var3.prototype;
+            var4 = var3.valueOf;
+            var3 = var4.call;
+            var8 = var2.Reflect;
+            var7 = var8.construct;
+            var6 = var2.Boolean;
+            var5 = new Array(0);
+            var2 = function() {
+                var1 = undefined;
+                return var1;
             };
-            michal = golfie.bind(option)(oscard, report, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            michal = !michal;
-            var _closure2_slot0 = michal;
+            var2 = var7.bind(var8)(var6, var5, var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = !var2;
+            var _closure2_slot0 = var2;
  70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
+            _fun0001_ip = 74; continue _fun0001;
  72: // catch_target0
             CatchBlockStart(arg_register=1);
  74:
-            michal = function() { // Original name: _isNativeReflectConstruct
-                entity = _closure2_slot0;
-                entity = !entity;
-                entity = !entity;
-                return entity;
+            var2 = function _isNativeReflectConstruct() {
+                var1 = _closure2_slot0;
+                var1 = !var1;
+                var1 = !var1;
+                return var1;
             };
-            _closure1_slot13 = michal;
-            entity = undefined;
-            entity = michal.bind(entity)();
-            return entity;
+            _closure1_slot13 = var2;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            return var1;
         }
     };
-    var _closure1_slot13 = entity;
-    entity = function(argFoo) { // Original name: resetStateForEvent
-        zuuluu = argFoo;
-        entity = {};
-        report = _closure1_slot11;
-        oscard = entity;
-        tangon = copyDataProperties(oscard, report);
-        tangon = delete entity[zuuluu];
-        _closure1_slot11 = entity;
-        entity = {};
-        report = _closure1_slot12;
-        oscard = entity;
-        tangon = copyDataProperties(oscard, report);
-        zuuluu = delete entity[zuuluu];
-        _closure1_slot12 = entity;
-        entity = undefined;
-        return entity;
+    var _closure1_slot13 = var1;
+    var1 = function resetStateForEvent(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var5 = _closure1_slot11;
+        var6 = var1;
+        var4 = copyDataProperties(var6, var5);
+        var4 = delete var1[var3];
+        _closure1_slot11 = var1;
+        var1 = {};
+        var5 = _closure1_slot12;
+        var6 = var1;
+        var4 = copyDataProperties(var6, var5);
+        var3 = delete var1[var3];
+        _closure1_slot12 = var1;
+        var1 = undefined;
+        return var1;
     };
-    var _closure1_slot14 = entity;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    michal = {};
-    entity = true;
-    michal['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, michal);
-    entity = 0;
-    michal = oscard[entity];
-    entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 6;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot8 = michal;
-    michal = 7;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.GuildScheduledEventStatus;
-    var _closure1_slot9 = option;
-    michal = michal.UpcomingGuildEventNoticeTypes;
-    var _closure1_slot10 = michal;
-    michal = {};
-    var _closure1_slot11 = michal;
-    michal = {};
-    var _closure1_slot12 = michal;
-    michal = 9;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.PersistedStore;
-    michal = function(argFoo) {
-        tangon = function() { // Original name: UpcomingEventNoticesStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot14 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot2 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot4 = var2;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot5 = var2;
+    var2 = 4;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot7 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot8 = var2;
+    var2 = 7;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.GuildScheduledEventStatus;
+    var _closure1_slot9 = var8;
+    var2 = var2.UpcomingGuildEventNoticeTypes;
+    var _closure1_slot10 = var2;
+    var2 = {};
+    var _closure1_slot11 = var2;
+    var2 = {};
+    var _closure1_slot12 = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var7.bind(var1)(var2);
+    var8 = var2.PersistedStore;
+    var2 = function(arg1) {
+        var4 = function UpcomingEventNoticesStore() {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                tangon = this;
-                zuuluu = undefined;
-                report = undefined;
-                entity = _closure1_slot2;
-                michal = _closure2_slot0;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                entity = _closure1_slot5;
-                verify = entity.bind(zuuluu)(michal);
-                michal = _closure1_slot4;
-                entity = _closure1_slot13;
-                entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                var4 = this;
+                var3 = undefined;
+                var5 = undefined;
+                var1 = _closure1_slot2;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
+                var1 = _closure1_slot5;
+                var9 = var1.bind(var3)(var2);
+                var2 = _closure1_slot4;
+                var1 = _closure1_slot13;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
-                golfie = verify.apply;
-                report = arguments;
-                entity = report;
-                entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
  69:
-                golfie = global;
-                option = golfie.Reflect;
-                golfie = option.construct;
-                oscard = _closure1_slot5;
-                oscard = oscard.bind(zuuluu)(tangon);
-                oscard = oscard.constructor;
-                report = arguments;
-                entity = golfie.bind(option)(verify, report, oscard);
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot5;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
  105:
-                entity = michal.bind(zuuluu)(tangon, entity);
-                return entity;
+                var1 = var2.bind(var3)(var4, var1);
+                return var1;
             }
         };
-        var _closure2_slot0 = tangon;
-        report = _closure1_slot6;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        michal = _closure1_slot3;
-        report = {};
-        entity = 'initialize';
-        report['key'] = entity;
-        entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        var _closure2_slot0 = var4;
+        var5 = _closure1_slot6;
+        var3 = undefined;
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
+        var2 = _closure1_slot3;
+        var5 = {};
+        var1 = 'initialize';
+        var5['key'] = var1;
+        var1 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                entity = argFoo;
-                zuuluu = null;
-                if(!(zuuluu != entity)) { _fun00006_ip = 44; continue _fun00005 }
+                var1 = arg1;
+                var3 = null;
+                if(!(var3 != var1)) { _fun0003_ip = 44; continue _fun0003 }
  9:
-                tangon = entity.upcomingEventDismissals;
-                if(!(zuuluu == tangon)) { _fun00006_ip = 21; continue _fun00005 }
+                var4 = var1.upcomingEventDismissals;
+                if(!(var3 == var4)) { _fun0003_ip = 21; continue _fun0003 }
  19:
-                tangon = {};
+                var4 = {};
  21:
-                _closure1_slot11 = tangon;
-                entity = entity.upcomingEventSeenTimestamps;
-                if(!(zuuluu == entity)) { _fun00006_ip = 40; continue _fun00005 }
+                _closure1_slot11 = var4;
+                var1 = var1.upcomingEventSeenTimestamps;
+                if(!(var3 == var1)) { _fun0003_ip = 40; continue _fun0003 }
  38:
-                entity = {};
+                var1 = {};
  40:
-                _closure1_slot12 = entity;
+                _closure1_slot12 = var1;
  44:
-                entity = undefined;
-                return entity;
+                var1 = undefined;
+                return var1;
             }
         };
-        report['value'] = entity;
-        entity = new Array(6);
-        entity[0] = report;
-        report = {};
-        golfie = 'getGuildEventNoticeDismissalTime';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            michal = _closure1_slot11;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var1;
+        var1 = new Array(6);
+        var1[0] = var5;
+        var5 = {};
+        var7 = 'getGuildEventNoticeDismissalTime';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot11;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = golfie;
-        entity[1] = report;
-        report = {};
-        golfie = 'getAllEventDismissals';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot11;
-            return entity;
+        var5['value'] = var7;
+        var1[1] = var5;
+        var5 = {};
+        var7 = 'getAllEventDismissals';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot11;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[2] = report;
-        report = {};
-        golfie = 'getUpcomingNoticeSeenTime';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            michal = _closure1_slot12;
-            entity = argFoo;
-            entity = michal[entity];
-            return entity;
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
+        var7 = 'getUpcomingNoticeSeenTime';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var2 = _closure1_slot12;
+            var1 = arg1;
+            var1 = var2[var1];
+            return var1;
         };
-        report['value'] = golfie;
-        entity[3] = report;
-        report = {};
-        golfie = 'getAllUpcomingNoticeSeenTimes';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            entity = _closure1_slot12;
-            return entity;
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'getAllUpcomingNoticeSeenTimes';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = _closure1_slot12;
+            return var1;
         };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'getState';
-        report['key'] = golfie;
-        oscard = function() { // Original name: value
-            entity = {};
-            zuuluu = _closure1_slot11;
-            entity['upcomingEventDismissals'] = zuuluu;
-            michal = _closure1_slot12;
-            entity['upcomingEventSeenTimestamps'] = michal;
-            return entity;
+        var5['value'] = var7;
+        var1[4] = var5;
+        var5 = {};
+        var7 = 'getState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = {};
+            var3 = _closure1_slot11;
+            var1['upcomingEventDismissals'] = var3;
+            var2 = _closure1_slot12;
+            var1['upcomingEventSeenTimestamps'] = var2;
+            return var1;
         };
-        report['value'] = oscard;
-        entity[5] = report;
-        entity = michal.bind(zuuluu)(tangon, entity);
-        return entity;
+        var5['value'] = var6;
+        var1[5] = var5;
+        var1 = var2.bind(var3)(var4, var1);
+        return var1;
     };
-    option = michal.bind(entity)(option);
-    michal = 'UpcomingEventNoticesStore';
-    option['displayName'] = michal;
-    michal = 'UpcomingEventNotices';
-    option['persistKey'] = michal;
-    michal = 10;
-    michal = oscard[michal];
-    romeon = golfie.bind(entity)(michal);
-    michal = {};
-    verify = function(argFoo) { // Original name: handleHideNotice
-        entity = argFoo;
-        tangon = entity.eventId;
-        michal = {};
-        oscard = _closure1_slot11;
-        golfie = michal;
-        zuuluu = copyDataProperties(golfie, oscard);
-        zuuluu = global;
-        report = zuuluu.Date;
-        zuuluu = report.now;
-        zuuluu = zuuluu.bind(report)();
-        michal[tangon] = zuuluu;
-        _closure1_slot11 = michal;
-        entity = undefined;
-        return entity;
+    var8 = var2.bind(var1)(var8);
+    var2 = 'UpcomingEventNoticesStore';
+    var8['displayName'] = var2;
+    var2 = 'UpcomingEventNotices';
+    var8['persistKey'] = var2;
+    var2 = 10;
+    var2 = var6[var2];
+    var12 = var7.bind(var1)(var2);
+    var2 = {};
+    var9 = function handleHideNotice(arg1) {
+        var1 = arg1;
+        var4 = var1.eventId;
+        var2 = {};
+        var6 = _closure1_slot11;
+        var7 = var2;
+        var3 = copyDataProperties(var7, var6);
+        var3 = global;
+        var5 = var3.Date;
+        var3 = var5.now;
+        var3 = var3.bind(var5)();
+        var2[var4] = var3;
+        _closure1_slot11 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['UPCOMING_GUILD_EVENT_NOTICE_HIDE'] = verify;
-    verify = function(argFoo) { // Original name: handleEventUpdate
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+    var2['UPCOMING_GUILD_EVENT_NOTICE_HIDE'] = var9;
+    var9 = function handleEventUpdate(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            entity = argFoo;
-            entity = entity.guildScheduledEvent;
-            tangon = entity.status;
-            zuuluu = _closure1_slot9;
-            zuuluu = zuuluu.CANCELED;
-            zuuluu = tangon !== zuuluu;
-            if(!zuuluu) { _fun00008_ip = 53; continue _fun00007 }
+            var1 = arg1;
+            var1 = var1.guildScheduledEvent;
+            var4 = var1.status;
+            var3 = _closure1_slot9;
+            var3 = var3.CANCELED;
+            var3 = var4 !== var3;
+            if(!var3) { _fun0004_ip = 53; continue _fun0004 }
  34:
-            report = entity.status;
-            tangon = _closure1_slot9;
-            tangon = tangon.COMPLETED;
-            zuuluu = report !== tangon;
+            var5 = var1.status;
+            var4 = _closure1_slot9;
+            var4 = var4.COMPLETED;
+            var3 = var5 !== var4;
  53:
-            if(zuuluu) { _fun00008_ip = 72; continue _fun00007 }
+            if(var3) { _fun0004_ip = 72; continue _fun0004 }
  56:
-            zuuluu = _closure1_slot14;
-            michal = entity.id;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
+            var3 = _closure1_slot14;
+            var2 = var1.id;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
  72:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GUILD_SCHEDULED_EVENT_UPDATE'] = verify;
-    verify = function(argFoo) { // Original name: handleEventDelete
-        entity = argFoo;
-        entity = entity.guildScheduledEvent;
-        zuuluu = _closure1_slot14;
-        michal = entity.id;
-        entity = undefined;
-        michal = zuuluu.bind(entity)(michal);
-        return entity;
+    var2['GUILD_SCHEDULED_EVENT_UPDATE'] = var9;
+    var9 = function handleEventDelete(arg1) {
+        var1 = arg1;
+        var1 = var1.guildScheduledEvent;
+        var3 = _closure1_slot14;
+        var2 = var1.id;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
     };
-    michal['GUILD_SCHEDULED_EVENT_DELETE'] = verify;
-    verify = function(argFoo) { // Original name: handleMaybeHideNewEventNotice
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+    var2['GUILD_SCHEDULED_EVENT_DELETE'] = var9;
+    var9 = function handleMaybeHideNewEventNotice(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.userId;
-            tangon = entity.guildEventId;
-            report = _closure1_slot7;
-            entity = report.getId;
-            entity = entity.bind(report)();
-            if(!(zuuluu === entity)) { _fun00010_ip = 195; continue _fun00009 }
+            var1 = arg1;
+            var3 = var1.userId;
+            var4 = var1.guildEventId;
+            var5 = _closure1_slot7;
+            var1 = var5.getId;
+            var1 = var1.bind(var5)();
+            if(!(var3 === var1)) { _fun0005_ip = 195; continue _fun0005 }
  38:
-            zuuluu = _closure1_slot8;
-            entity = zuuluu.getGuildScheduledEvent;
-            option = entity.bind(zuuluu)(tangon);
-            zuuluu = null;
-            if(!(zuuluu != option)) { _fun00010_ip = 195; continue _fun00009 }
+            var3 = _closure1_slot8;
+            var1 = var3.getGuildScheduledEvent;
+            var8 = var1.bind(var3)(var4);
+            var3 = null;
+            if(!(var3 != var8)) { _fun0005_ip = 195; continue _fun0005 }
  62:
-            report = option.status;
-            entity = _closure1_slot9;
-            entity = entity.SCHEDULED;
-            if(!(report === entity)) { _fun00010_ip = 195; continue _fun00009 }
+            var5 = var8.status;
+            var1 = _closure1_slot9;
+            var1 = var1.SCHEDULED;
+            if(!(var5 === var1)) { _fun0005_ip = 195; continue _fun0005 }
  81:
-            entity = _closure1_slot11;
-            entity = entity[tangon];
-            if(!(zuuluu == entity)) { _fun00010_ip = 195; continue _fun00009 }
+            var1 = _closure1_slot11;
+            var1 = var1[var4];
+            if(!(var3 == var1)) { _fun0005_ip = 195; continue _fun0005 }
  93:
-            entity = _closure1_slot12;
-            offset = entity[tangon];
-            zuuluu = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 8;
-            entity = report[entity];
-            oscard = undefined;
-            report = zuuluu.bind(oscard)(entity);
-            zuuluu = report.getNextShownUpcomingEventNoticeType;
-            verify = false;
-            foxtra = report;
-            romeon = option;
-            yankee = undefined;
-            zuuluu = foxtra[zuuluu](romeon, yankee, offset, verify, option);
-            entity = _closure1_slot10;
-            entity = entity.NEW_EVENT;
-            if(!(zuuluu === entity)) { _fun00010_ip = 195; continue _fun00009 }
+            var1 = _closure1_slot12;
+            var10 = var1[var4];
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var1 = 8;
+            var1 = var5[var1];
+            var6 = undefined;
+            var5 = var3.bind(var6)(var1);
+            var3 = var5.getNextShownUpcomingEventNoticeType;
+            var9 = false;
+            var13 = var5;
+            var12 = var8;
+            var11 = undefined;
+            var3 = var13[var3](var12, var11, var10, var9, var8);
+            var1 = _closure1_slot10;
+            var1 = var1.NEW_EVENT;
+            if(!(var3 === var1)) { _fun0005_ip = 195; continue _fun0005 }
  157:
-            entity = {};
-            yankee = _closure1_slot11;
-            romeon = entity;
-            zuuluu = copyDataProperties(romeon, yankee);
-            zuuluu = global;
-            report = zuuluu.Date;
-            zuuluu = report.now;
-            zuuluu = zuuluu.bind(report)();
-            entity[tangon] = zuuluu;
-            _closure1_slot11 = entity;
+            var1 = {};
+            var11 = _closure1_slot11;
+            var12 = var1;
+            var3 = copyDataProperties(var12, var11);
+            var3 = global;
+            var5 = var3.Date;
+            var3 = var5.now;
+            var3 = var3.bind(var5)();
+            var1[var4] = var3;
+            _closure1_slot11 = var1;
  195:
-            entity = undefined;
-            return entity;
+            var1 = undefined;
+            return var1;
         }
     };
-    michal['GUILD_SCHEDULED_EVENT_USER_ADD'] = verify;
-    tangon = function(argFoo) { // Original name: handleMarkUpcomingNoticeAsSeen
-        entity = argFoo;
-        tangon = entity.guildEventId;
-        michal = {};
-        oscard = _closure1_slot12;
-        golfie = michal;
-        zuuluu = copyDataProperties(golfie, oscard);
-        zuuluu = global;
-        report = zuuluu.Date;
-        zuuluu = report.now;
-        zuuluu = zuuluu.bind(report)();
-        michal[tangon] = zuuluu;
-        _closure1_slot12 = michal;
-        entity = undefined;
-        return entity;
+    var2['GUILD_SCHEDULED_EVENT_USER_ADD'] = var9;
+    var4 = function handleMarkUpcomingNoticeAsSeen(arg1) {
+        var1 = arg1;
+        var4 = var1.guildEventId;
+        var2 = {};
+        var6 = _closure1_slot12;
+        var7 = var2;
+        var3 = copyDataProperties(var7, var6);
+        var3 = global;
+        var5 = var3.Date;
+        var3 = var5.now;
+        var3 = var3.bind(var5)();
+        var2[var4] = var3;
+        _closure1_slot12 = var2;
+        var1 = undefined;
+        return var1;
     };
-    michal['UPCOMING_GUILD_EVENT_NOTICE_SEEN'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    foxtra = tangon;
-    yankee = michal;
-    michal = new foxtra[option](romeon, yankee, offset);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/guild_scheduled_events/UpcomingEventNoticesStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
-    return entity;
+    var2['UPCOMING_GUILD_EVENT_NOTICE_SEEN'] = var4;
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
+    var13 = var4;
+    var11 = var2;
+    var2 = new var13[var8](var12, var11, var10);
+    var2 = var2 instanceof Object ? var2 : var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/guild_scheduled_events/UpcomingEventNoticesStore.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
 })();

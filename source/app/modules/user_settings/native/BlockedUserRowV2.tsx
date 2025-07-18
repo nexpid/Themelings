@@ -1,248 +1,248 @@
 // app/modules/user_settings/native/BlockedUserRowV2.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
-    entity = 0;
-    option = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot4 = tangon;
-    tangon = function(argFoo) { // Original name: handleUnblockUser
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        tangon = report.unblockUser;
-        zuuluu = {};
-        michal = 'blocked-users-list-mobile-v2';
-        zuuluu['location'] = michal;
-        michal = argFoo;
-        michal = tangon.bind(report)(michal, zuuluu);
-        return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot4 = var4;
+    var4 = function handleUnblockUser(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.unblockUser;
+        var3 = {};
+        var2 = 'blocked-users-list-mobile-v2';
+        var3['location'] = var2;
+        var2 = arg1;
+        var2 = var4.bind(var5)(var2, var3);
+        return var1;
     };
-    var _closure1_slot5 = tangon;
-    tangon = function(argFoo) { // Original name: BlockedUserRow
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    var _closure1_slot5 = var4;
+    var4 = function BlockedUserRow(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            verify = entity.userRecord;
-            var _closure2_slot0 = verify;
-            golfie = _closure1_slot1;
-            romeon = _closure1_slot2;
-            entity = 4;
-            entity = romeon[entity];
-            tangon = undefined;
-            entity = golfie.bind(tangon)(entity);
-            entity = entity.bind(tangon)();
-            entity = entity.analyticsLocations;
-            var _closure2_slot1 = entity;
-            zuuluu = _closure1_slot4;
-            yankee = _closure1_slot0;
-            entity = 5;
-            entity = romeon[entity];
-            entity = yankee.bind(tangon)(entity);
-            michal = entity.TableRow;
-            entity = {'icon': null, 'label': null, 'subLabel': null, 'labelLineClamp': 1, 'subLabelLineClamp': 1, 'accessibilityRole': 'button'};
-            offset = 6;
-            oscard = romeon[offset];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = {};
-            oscard['user'] = verify;
-            oscard['guildId'] = tangon;
-            offset = romeon[offset];
-            offset = yankee.bind(tangon)(offset);
-            offset = offset.AvatarSizes;
-            offset = offset.REFRESH_MEDIUM_32;
-            oscard['size'] = offset;
-            oscard = zuuluu.bind(tangon)(golfie, oscard);
-            entity['icon'] = oscard;
-            golfie = null;
-            oscard = golfie != verify;
-            if(!oscard) { _fun00002_ip = 180; continue _fun00001 }
+            var1 = arg1;
+            var9 = var1.userRecord;
+            var _closure2_slot0 = var9;
+            var7 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var1 = 4;
+            var1 = var12[var1];
+            var4 = undefined;
+            var1 = var7.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var1 = var1.analyticsLocations;
+            var _closure2_slot1 = var1;
+            var3 = _closure1_slot4;
+            var11 = _closure1_slot0;
+            var1 = 5;
+            var1 = var12[var1];
+            var1 = var11.bind(var4)(var1);
+            var2 = var1.TableRow;
+            var1 = {'icon': null, 'label': null, 'subLabel': null, 'labelLineClamp': 1, 'subLabelLineClamp': 1, 'accessibilityRole': 'button'};
+            var10 = 6;
+            var6 = var12[var10];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            var6['user'] = var9;
+            var6['guildId'] = var4;
+            var10 = var12[var10];
+            var10 = var11.bind(var4)(var10);
+            var10 = var10.AvatarSizes;
+            var10 = var10.REFRESH_MEDIUM_32;
+            var6['size'] = var10;
+            var6 = var3.bind(var4)(var7, var6);
+            var1['icon'] = var6;
+            var7 = null;
+            var6 = var7 != var9;
+            if(!var6) { _fun0001_ip = 180; continue _fun0001 }
  162:
-            offset = verify.globalName;
-            if(!(golfie == offset)) { _fun00002_ip = 177; continue _fun00001 }
+            var10 = var9.globalName;
+            if(!(var7 == var10)) { _fun0001_ip = 177; continue _fun0001 }
  172:
-            offset = verify.username;
+            var10 = var9.username;
  177:
-            oscard = offset;
+            var6 = var10;
  180:
-            entity['label'] = oscard;
-            offset = golfie == verify;
-            oscard = undefined;
-            if(offset) { _fun00002_ip = 201; continue _fun00001 }
+            var1['label'] = var6;
+            var10 = var7 == var9;
+            var6 = undefined;
+            if(var10) { _fun0001_ip = 201; continue _fun0001 }
  195:
-            oscard = verify.globalName;
+            var6 = var9.globalName;
  201:
-            offset = golfie != oscard;
-            oscard = undefined;
-            if(!offset) { _fun00002_ip = 227; continue _fun00001 }
+            var10 = var7 != var6;
+            var6 = undefined;
+            if(!var10) { _fun0001_ip = 227; continue _fun0001 }
  210:
-            offset = golfie == verify;
-            golfie = undefined;
-            if(offset) { _fun00002_ip = 224; continue _fun00001 }
+            var10 = var7 == var9;
+            var7 = undefined;
+            if(var10) { _fun0001_ip = 224; continue _fun0001 }
  219:
-            golfie = verify.username;
+            var7 = var9.username;
  224:
-            oscard = golfie;
+            var6 = var7;
  227:
-            entity['subLabel'] = oscard;
-            golfie = {};
-            oscard = 'unblock';
-            golfie['name'] = oscard;
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            verify = 7;
-            oscard = foxtra[verify];
-            oscard = romeon.bind(tangon)(oscard);
-            yankee = oscard.intl;
-            offset = yankee.string;
-            oscard = foxtra[verify];
-            oscard = romeon.bind(tangon)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.XyHpKC;
-            oscard = offset.bind(yankee)(oscard);
-            golfie['label'] = oscard;
-            oscard = new Array(1);
-            oscard[0] = golfie;
-            entity['accessibilityActions'] = oscard;
-            oscard = function(argFoo) { // Original name: onAccessibilityAction
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            var1['subLabel'] = var6;
+            var7 = {};
+            var6 = 'unblock';
+            var7['name'] = var6;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var9 = 7;
+            var6 = var13[var9];
+            var6 = var12.bind(var4)(var6);
+            var11 = var6.intl;
+            var10 = var11.string;
+            var6 = var13[var9];
+            var6 = var12.bind(var4)(var6);
+            var6 = var6.t;
+            var6 = var6.XyHpKC;
+            var6 = var10.bind(var11)(var6);
+            var7['label'] = var6;
+            var6 = new Array(1);
+            var6[0] = var7;
+            var1['accessibilityActions'] = var6;
+            var6 = function onAccessibilityAction(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    entity = argFoo;
-                    entity = entity.nativeEvent;
-                    michal = entity.actionName;
-                    entity = 'unblock';
-                    if(!(entity !== michal)) { _fun00004_ip = 26; continue _fun00003 }
+                    var1 = arg1;
+                    var1 = var1.nativeEvent;
+                    var2 = var1.actionName;
+                    var1 = 'unblock';
+                    if(!(var1 !== var2)) { _fun0002_ip = 26; continue _fun0002 }
  22:
-                    entity = undefined;
-                    return entity;
+                    var1 = undefined;
+                    return var1;
  26:
-                    zuuluu = _closure1_slot5;
-                    entity = _closure2_slot0;
-                    michal = entity.id;
-                    entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
-                    return entity;
+                    var3 = _closure1_slot5;
+                    var1 = _closure2_slot0;
+                    var2 = var1.id;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
                 }
             };
-            entity['onAccessibilityAction'] = oscard;
-            oscard = function() { // Original name: onPress
-                michal = _closure1_slot1;
-                zuuluu = _closure1_slot2;
-                entity = 8;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                michal = michal.bind(zuuluu)(entity);
-                entity = {};
-                report = _closure2_slot0;
-                report = report.id;
-                entity['userId'] = report;
-                tangon = _closure2_slot1;
-                entity['sourceAnalyticsLocations'] = tangon;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var1['onAccessibilityAction'] = var6;
+            var6 = function onPress() {
+                var2 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var1 = 8;
+                var1 = var3[var1];
+                var3 = undefined;
+                var2 = var2.bind(var3)(var1);
+                var1 = {};
+                var5 = _closure2_slot0;
+                var5 = var5.id;
+                var1['userId'] = var5;
+                var4 = _closure2_slot1;
+                var1['sourceAnalyticsLocations'] = var4;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            entity['onPress'] = oscard;
-            golfie = _closure1_slot4;
-            report = 9;
-            report = foxtra[report];
-            report = romeon.bind(tangon)(report);
-            oscard = report.Button;
-            report = {'size': 'sm', 'variant': 'secondary'};
-            offset = foxtra[verify];
-            offset = romeon.bind(tangon)(offset);
-            yankee = offset.intl;
-            offset = yankee.string;
-            verify = foxtra[verify];
-            verify = romeon.bind(tangon)(verify);
-            verify = verify.t;
-            verify = verify.PR/xU1;
-            verify = offset.bind(yankee)(verify);
-            report['text'] = verify;
-            option = function() { // Original name: onPress
-                zuuluu = _closure1_slot5;
-                entity = _closure2_slot0;
-                michal = entity.id;
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+            var1['onPress'] = var6;
+            var7 = _closure1_slot4;
+            var5 = 9;
+            var5 = var13[var5];
+            var5 = var12.bind(var4)(var5);
+            var6 = var5.Button;
+            var5 = {'size': 'sm', 'variant': 'secondary'};
+            var10 = var13[var9];
+            var10 = var12.bind(var4)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var9 = var13[var9];
+            var9 = var12.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.PR/xU1;
+            var9 = var10.bind(var11)(var9);
+            var5['text'] = var9;
+            var8 = function onPress() {
+                var3 = _closure1_slot5;
+                var1 = _closure2_slot0;
+                var2 = var1.id;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             };
-            report['onPress'] = option;
-            report = golfie.bind(tangon)(oscard, report);
-            entity['trailing'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var5['onPress'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['trailing'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot6 = tangon;
-    tangon = 11;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/user_settings/native/BlockedUserRowV2.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: ConnectedBlockedUserRow
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var _closure1_slot6 = var4;
+    var4 = 11;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_settings/native/BlockedUserRowV2.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ConnectedBlockedUserRow(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            michal = michal.userId;
-            var _closure2_slot0 = michal;
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = report[zuuluu];
-            report = undefined;
-            oscard = tangon.bind(report)(zuuluu);
-            tangon = oscard.useStateFromStores;
-            golfie = _closure1_slot3;
-            zuuluu = new Array(1);
-            zuuluu[0] = golfie;
-            entity = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.getUser;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
+            var2 = arg1;
+            var2 = var2.userId;
+            var _closure2_slot0 = var2;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 10;
+            var3 = var5[var3];
+            var5 = undefined;
+            var6 = var4.bind(var5)(var3);
+            var4 = var6.useStateFromStores;
+            var7 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var7;
+            var1 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getUser;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
             };
-            oscard = tangon.bind(oscard)(zuuluu, entity);
-            entity = null;
-            zuuluu = entity == oscard;
-            if(zuuluu) { _fun00006_ip = 99; continue _fun00005 }
+            var6 = var4.bind(var6)(var3, var1);
+            var1 = null;
+            var3 = var1 == var6;
+            if(var3) { _fun0003_ip = 99; continue _fun0003 }
  78:
-            tangon = _closure1_slot4;
-            zuuluu = _closure1_slot6;
-            michal = {};
-            michal['userRecord'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot6;
+            var2 = {};
+            var2['userRecord'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
  99:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['default'] = michal;
-    return entity;
+    var3['default'] = var2;
+    return var1;
 })();

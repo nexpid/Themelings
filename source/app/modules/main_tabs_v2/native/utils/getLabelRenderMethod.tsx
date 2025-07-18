@@ -1,113 +1,113 @@
 // app/modules/main_tabs_v2/native/utils/getLabelRenderMethod.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
-    report = argBar;
-    zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = function(argFoo) { // Original name: TabLabel
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var6;
+    var1 = function TabLabel(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            entity = argFoo;
-            offset = entity.focused;
-            option = entity.color;
-            verify = entity.position;
-            report = entity.title;
-            michal = _closure1_slot3;
-            tangon = undefined;
-            oscard = michal.bind(tangon)();
-            zuuluu = _closure1_slot2;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 3;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.Text;
-            entity = {'variant': 'text-xxs/semibold', 'lineClamp': 1, 'color': null, 'style': null, 'maxFontSizeMultiplier': 2};
-            golfie = 'interactive-normal';
-            if(!offset) { _fun00002_ip = 95; continue _fun00001 }
+            var1 = arg1;
+            var10 = var1.focused;
+            var8 = var1.color;
+            var9 = var1.position;
+            var5 = var1.title;
+            var2 = _closure1_slot3;
+            var4 = undefined;
+            var6 = var2.bind(var4)();
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var1 = 3;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.Text;
+            var1 = {'variant': 'text-xxs/semibold', 'lineClamp': 1, 'color': null, 'style': null, 'maxFontSizeMultiplier': 2};
+            var7 = 'interactive-normal';
+            if(!var10) { _fun0001_ip = 95; continue _fun0001 }
  89:
-            golfie = 'interactive-active';
+            var7 = 'interactive-active';
  95:
-            entity['color'] = golfie;
-            golfie = 'beside-icon';
-            if(!(golfie !== verify)) { _fun00002_ip = 119; continue _fun00001 }
+            var1['color'] = var7;
+            var7 = 'beside-icon';
+            if(!(var7 !== var9)) { _fun0001_ip = 119; continue _fun0001 }
  111:
-            golfie = oscard.titleBelow;
-            _fun00002_ip = 125; continue _fun00001;
+            var7 = var6.titleBelow;
+            _fun0001_ip = 125; continue _fun0001;
  119:
-            golfie = oscard.titleBeside;
+            var7 = var6.titleBeside;
  125:
-            oscard = new Array(2);
-            oscard[0] = golfie;
-            golfie = {};
-            golfie['color'] = option;
-            oscard[1] = golfie;
-            entity['style'] = oscard;
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
+            var6 = new Array(2);
+            var6[0] = var7;
+            var7 = {};
+            var7['color'] = var8;
+            var6[1] = var7;
+            var1['style'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
         }
     };
-    var _closure1_slot4 = entity;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argCor;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
-    tangon = {};
-    verify = {};
-    offset = -6;
-    verify['marginTop'] = offset;
-    tangon['titleBelow'] = verify;
-    verify = {};
-    offset = 28;
-    verify['marginLeft'] = offset;
-    tangon['titleBeside'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/main_tabs_v2/native/utils/getLabelRenderMethod.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getTabLabelRenderMethod
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        entity = function(argFoo) {
-            tangon = _closure1_slot2;
-            zuuluu = _closure1_slot4;
-            michal = {};
-            oscard = argFoo;
-            golfie = michal;
-            entity = copyDataProperties(golfie, oscard);
-            report = _closure2_slot0;
-            entity = 'title';
-            michal[entity] = report;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu, michal);
-            return entity;
+    var _closure1_slot4 = var1;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = native4;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot2 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var10 = -6;
+    var9['marginTop'] = var10;
+    var4['titleBelow'] = var9;
+    var9 = {};
+    var10 = 28;
+    var9['marginLeft'] = var10;
+    var4['titleBeside'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/main_tabs_v2/native/utils/getLabelRenderMethod.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function getTabLabelRenderMethod(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var1 = function(arg1) {
+            var4 = _closure1_slot2;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var6 = arg1;
+            var7 = var2;
+            var1 = copyDataProperties(var7, var6);
+            var5 = _closure2_slot0;
+            var1 = 'title';
+            var2[var1] = var5;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3, var2);
+            return var1;
         };
-        return entity;
+        return var1;
     };
-    zuuluu['getTabLabelRenderMethod'] = michal;
-    return entity;
+    var3['getTabLabelRenderMethod'] = var2;
+    return var1;
 })();

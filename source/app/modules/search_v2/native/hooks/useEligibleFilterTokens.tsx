@@ -1,154 +1,154 @@
 // app/modules/search_v2/native/hooks/useEligibleFilterTokens.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    tangon = function(argFoo) { // Original name: useEligibleFilterTokens
-        report = argFoo;
-        var _closure2_slot0 = report;
-        oscard = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 3;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        golfie = oscard.bind(zuuluu)(tangon);
-        oscard = golfie.useStateFromStores;
-        zuuluu = _closure1_slot3;
-        tangon = new Array(1);
-        tangon[0] = zuuluu;
-        zuuluu = function() {
-            entity = _closure1_slot3;
-            entity = entity.hidePersonalInformation;
-            return entity;
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
+    var4 = function useEligibleFilterTokens(arg1) {
+        var5 = arg1;
+        var _closure2_slot0 = var5;
+        var6 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var3 = 3;
+        var4 = var4[var3];
+        var3 = undefined;
+        var7 = var6.bind(var3)(var4);
+        var6 = var7.useStateFromStores;
+        var3 = _closure1_slot3;
+        var4 = new Array(1);
+        var4[0] = var3;
+        var3 = function() {
+            var1 = _closure1_slot3;
+            var1 = var1.hidePersonalInformation;
+            return var1;
         };
-        oscard = oscard.bind(golfie)(tangon, zuuluu);
-        var _closure2_slot1 = oscard;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        report = report.type;
-        michal[1] = report;
-        entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        var6 = var6.bind(var7)(var4, var3);
+        var _closure2_slot1 = var6;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var5 = var5.type;
+        var2[1] = var5;
+        var1 = function() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                entity = new Array(0);
-                michal = _closure2_slot1;
-                if(michal) { _fun00002_ip = 57; continue _fun00001 }
+                var1 = new Array(0);
+                var2 = _closure2_slot1;
+                if(var2) { _fun0001_ip = 57; continue _fun0001 }
  14:
-                report = entity.push;
-                tangon = _closure1_slot4;
-                tangon = tangon.FILTER_FROM;
-                tangon = report.bind(entity)(tangon);
-                tangon = entity.push;
-                michal = _closure1_slot4;
-                michal = michal.FILTER_MENTIONS;
-                michal = tangon.bind(entity)(michal);
+                var5 = var1.push;
+                var4 = _closure1_slot4;
+                var4 = var4.FILTER_FROM;
+                var4 = var5.bind(var1)(var4);
+                var4 = var1.push;
+                var2 = _closure1_slot4;
+                var2 = var2.FILTER_MENTIONS;
+                var2 = var4.bind(var1)(var2);
  57:
-                report = entity.push;
-                tangon = _closure1_slot4;
-                tangon = tangon.FILTER_HAS;
-                tangon = report.bind(entity)(tangon);
-                tangon = _closure2_slot0;
-                report = tangon.type;
-                tangon = _closure1_slot5;
-                tangon = tangon.GUILD;
-                if(!(report === tangon)) { _fun00002_ip = 123; continue _fun00001 }
+                var5 = var1.push;
+                var4 = _closure1_slot4;
+                var4 = var4.FILTER_HAS;
+                var4 = var5.bind(var1)(var4);
+                var4 = _closure2_slot0;
+                var5 = var4.type;
+                var4 = _closure1_slot5;
+                var4 = var4.GUILD;
+                if(!(var5 === var4)) { _fun0001_ip = 123; continue _fun0001 }
  103:
-                report = entity.push;
-                tangon = _closure1_slot4;
-                tangon = tangon.FILTER_IN;
-                tangon = report.bind(entity)(tangon);
+                var5 = var1.push;
+                var4 = _closure1_slot4;
+                var4 = var4.FILTER_IN;
+                var4 = var5.bind(var1)(var4);
  123:
-                zuuluu = _closure2_slot0;
-                tangon = zuuluu.type;
-                zuuluu = _closure1_slot5;
-                zuuluu = zuuluu.GUILD_CHANNEL;
-                if(!(tangon === zuuluu)) { _fun00002_ip = 166; continue _fun00001 }
+                var3 = _closure2_slot0;
+                var4 = var3.type;
+                var3 = _closure1_slot5;
+                var3 = var3.GUILD_CHANNEL;
+                if(!(var4 === var3)) { _fun0001_ip = 166; continue _fun0001 }
  146:
-                tangon = entity.push;
-                zuuluu = _closure1_slot4;
-                zuuluu = zuuluu.FILTER_IN;
-                zuuluu = tangon.bind(entity)(zuuluu);
+                var4 = var1.push;
+                var3 = _closure1_slot4;
+                var3 = var3.FILTER_IN;
+                var3 = var4.bind(var1)(var3);
  166:
-                tangon = entity.push;
-                zuuluu = _closure1_slot4;
-                zuuluu = zuuluu.FILTER_ON;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                tangon = entity.push;
-                zuuluu = _closure1_slot4;
-                zuuluu = zuuluu.FILTER_BEFORE;
-                zuuluu = tangon.bind(entity)(zuuluu);
-                zuuluu = entity.push;
-                michal = _closure1_slot4;
-                michal = michal.FILTER_AFTER;
-                michal = zuuluu.bind(entity)(michal);
-                return entity;
+                var4 = var1.push;
+                var3 = _closure1_slot4;
+                var3 = var3.FILTER_ON;
+                var3 = var4.bind(var1)(var3);
+                var4 = var1.push;
+                var3 = _closure1_slot4;
+                var3 = var3.FILTER_BEFORE;
+                var3 = var4.bind(var1)(var3);
+                var3 = var1.push;
+                var2 = _closure1_slot4;
+                var2 = var2.FILTER_AFTER;
+                var2 = var3.bind(var1)(var2);
+                return var1;
             }
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
-    entity = 0;
-    option = golfie[entity];
-    report = argCor;
-    entity = undefined;
-    report = report.bind(entity)(option);
-    var _closure1_slot2 = report;
-    report = 1;
-    option = golfie[report];
-    report = argBaz;
-    report = report.bind(entity)(option);
-    var _closure1_slot3 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.SearchTokenTypes;
-    var _closure1_slot4 = option;
-    report = report.SearchTypes;
-    var _closure1_slot5 = report;
-    report = 4;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/search_v2/native/hooks/useEligibleFilterTokens.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['useEligibleFilterTokens'] = tangon;
-    michal = function(argFoo) { // Original name: useEligibleFilterTokensSet
-        report = _closure1_slot6;
-        tangon = undefined;
-        zuuluu = argFoo;
-        report = report.bind(tangon)(zuuluu);
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            entity = global;
-            zuuluu = entity.Set;
-            tangon = _closure2_slot0;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
-            return entity;
+    var _closure1_slot6 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = native4;
+    var1 = undefined;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot2 = var5;
+    var5 = 1;
+    var8 = var7[var5];
+    var5 = native3;
+    var5 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.SearchTokenTypes;
+    var _closure1_slot4 = var8;
+    var5 = var5.SearchTypes;
+    var _closure1_slot5 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/search_v2/native/hooks/useEligibleFilterTokens.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['useEligibleFilterTokens'] = var4;
+    var2 = function useEligibleFilterTokensSet(arg1) {
+        var5 = _closure1_slot6;
+        var4 = undefined;
+        var3 = arg1;
+        var5 = var5.bind(var4)(var3);
+        var _closure2_slot0 = var5;
+        var4 = _closure1_slot2;
+        var3 = var4.useMemo;
+        var2 = new Array(1);
+        var2[0] = var5;
+        var1 = function() {
+            var1 = global;
+            var3 = var1.Set;
+            var4 = _closure2_slot0;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var5 = var2;
+            var1 = new var5[var3](var4, var3);
+            var1 = var1 instanceof Object ? var1 : var2;
+            return var1;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
     };
-    zuuluu['useEligibleFilterTokensSet'] = michal;
-    return entity;
+    var3['useEligibleFilterTokensSet'] = var2;
+    return var1;
 })();

@@ -1,66 +1,66 @@
 // app/modules/keyboard/native/AnimatedKeyboardProvider.android.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
-    _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        report = argBar;
-        option = argBaz;
-        zuuluu = argFre;
-        oscard = argPlu;
-        entity = global;
-        golfie = entity.Object;
-        tangon = golfie.defineProperty;
-        michal = {};
-        entity = true;
-        michal['value'] = entity;
-        entity = '__esModule';
-        entity = tangon.bind(golfie)(zuuluu, entity, michal);
-        tangon = 0;
-        michal = oscard[tangon];
-        entity = undefined;
-        golfie = report.bind(entity)(michal);
-        michal = golfie.isLegacyAndroidKeyboard;
-        michal = michal.bind(golfie)();
-        michal = !michal;
-        if(!michal) { _fun00002_ip = 100; continue _fun00001 }
+        var5 = native2;
+        var8 = native3;
+        var3 = native6;
+        var6 = native7;
+        var1 = global;
+        var7 = var1.Object;
+        var4 = var7.defineProperty;
+        var2 = {};
+        var1 = true;
+        var2['value'] = var1;
+        var1 = '__esModule';
+        var1 = var4.bind(var7)(var3, var1, var2);
+        var4 = 0;
+        var2 = var6[var4];
+        var1 = undefined;
+        var7 = var5.bind(var1)(var2);
+        var2 = var7.isLegacyAndroidKeyboard;
+        var2 = var2.bind(var7)();
+        var2 = !var2;
+        if(!var2) { _fun0001_ip = 100; continue _fun0001 }
  73:
-        golfie = 1;
-        golfie = oscard[golfie];
-        offset = option.bind(entity)(golfie);
-        verify = offset.setNavigationBarContrastEnforced;
-        golfie = false;
-        golfie = verify.bind(offset)(golfie);
+        var7 = 1;
+        var7 = var6[var7];
+        var10 = var8.bind(var1)(var7);
+        var9 = var10.setNavigationBarContrastEnforced;
+        var7 = false;
+        var7 = var9.bind(var10)(var7);
  100:
-        if(michal) { _fun00002_ip = 117; continue _fun00001 }
+        if(var2) { _fun0001_ip = 117; continue _fun0001 }
  103:
-        michal = 4;
-        michal = oscard[michal];
-        michal = option.bind(entity)(michal);
-        _fun00002_ip = 168; continue _fun00001;
+        var2 = 4;
+        var2 = var6[var2];
+        var2 = var8.bind(var1)(var2);
+        _fun0001_ip = 168; continue _fun0001;
  117:
-        tangon = oscard[tangon];
-        golfie = report.bind(entity)(tangon);
-        tangon = golfie.isReanimatedKeyboardEnabled;
-        tangon = tangon.bind(golfie)();
-        if(tangon) { _fun00002_ip = 153; continue _fun00001 }
+        var4 = var6[var4];
+        var7 = var5.bind(var1)(var4);
+        var4 = var7.isReanimatedKeyboardEnabled;
+        var4 = var4.bind(var7)();
+        if(var4) { _fun0001_ip = 153; continue _fun0001 }
  139:
-        tangon = 3;
-        tangon = oscard[tangon];
-        tangon = option.bind(entity)(tangon);
-        _fun00002_ip = 165; continue _fun00001;
+        var4 = 3;
+        var4 = var6[var4];
+        var4 = var8.bind(var1)(var4);
+        _fun0001_ip = 165; continue _fun0001;
  153:
-        golfie = 2;
-        golfie = oscard[golfie];
-        tangon = option.bind(entity)(golfie);
+        var7 = 2;
+        var7 = var6[var7];
+        var4 = var8.bind(var1)(var7);
  165:
-        michal = tangon;
+        var2 = var4;
  168:
-        tangon = 5;
-        tangon = oscard[tangon];
-        oscard = report.bind(entity)(tangon);
-        report = oscard.fileFinishedImporting;
-        tangon = 'modules/keyboard/native/AnimatedKeyboardProvider.android.tsx';
-        tangon = report.bind(oscard)(tangon);
-        zuuluu['default'] = michal;
-        return entity;
+        var4 = 5;
+        var4 = var6[var4];
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.fileFinishedImporting;
+        var4 = 'modules/keyboard/native/AnimatedKeyboardProvider.android.tsx';
+        var4 = var5.bind(var6)(var4);
+        var3['default'] = var2;
+        return var1;
     }
 })();

@@ -1,108 +1,108 @@
 // app/modules/guild_member_verification/GuildJoinRequestUtils.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    oscard = argBar;
-    zuuluu = argFre;
-    report = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
-    tangon = function(argFoo) { // Original name: isActionedApplicationStatus
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
+    var3 = native6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var4 = function isActionedApplicationStatus(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 0;
-            entity = entity[oscard];
-            report = undefined;
-            entity = tangon.bind(report)(entity);
-            entity = entity.GuildJoinRequestApplicationStatuses;
-            entity = entity.APPROVED;
-            entity = zuuluu === entity;
-            if(entity) { _fun00002_ip = 79; continue _fun00001 }
+            var3 = arg1;
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var6 = 0;
+            var1 = var1[var6];
+            var5 = undefined;
+            var1 = var4.bind(var5)(var1);
+            var1 = var1.GuildJoinRequestApplicationStatuses;
+            var1 = var1.APPROVED;
+            var1 = var3 === var1;
+            if(var1) { _fun0001_ip = 79; continue _fun0001 }
  46:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot1;
-            michal = michal[oscard];
-            michal = tangon.bind(report)(michal);
-            michal = michal.GuildJoinRequestApplicationStatuses;
-            michal = michal.REJECTED;
-            entity = zuuluu === michal;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.GuildJoinRequestApplicationStatuses;
+            var2 = var2.REJECTED;
+            var1 = var3 === var2;
  79:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot2 = tangon;
-    entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    golfie = {};
-    entity = true;
-    golfie['value'] = entity;
-    entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, golfie);
-    entity = 1;
-    report = report[entity];
-    entity = undefined;
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/guild_member_verification/GuildJoinRequestUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['isActionedApplicationStatus'] = tangon;
-    tangon = function(argFoo) { // Original name: isSubmittedApplicationStatus
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.GuildJoinRequestApplicationStatuses;
-        michal = entity.SUBMITTED;
-        entity = argFoo;
-        entity = entity === michal;
-        return entity;
+    var _closure1_slot2 = var4;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var7 = {};
+    var1 = true;
+    var7['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var7);
+    var1 = 1;
+    var5 = var5[var1];
+    var1 = undefined;
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_member_verification/GuildJoinRequestUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['isActionedApplicationStatus'] = var4;
+    var4 = function isSubmittedApplicationStatus(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.GuildJoinRequestApplicationStatuses;
+        var2 = var1.SUBMITTED;
+        var1 = arg1;
+        var1 = var1 === var2;
+        return var1;
     };
-    zuuluu['isSubmittedApplicationStatus'] = tangon;
-    tangon = function(argFoo) { // Original name: isApprovedAndAcked
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var3['isSubmittedApplicationStatus'] = var4;
+    var4 = function isApprovedAndAcked(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            michal = argFoo;
-            zuuluu = michal.applicationStatus;
-            report = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 0;
-            tangon = tangon[entity];
-            entity = undefined;
-            entity = report.bind(entity)(tangon);
-            entity = entity.GuildJoinRequestApplicationStatuses;
-            entity = entity.APPROVED;
-            entity = zuuluu === entity;
-            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
+            var2 = arg1;
+            var3 = var2.applicationStatus;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 0;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.GuildJoinRequestApplicationStatuses;
+            var1 = var1.APPROVED;
+            var1 = var3 === var1;
+            if(!var1) { _fun0002_ip = 64; continue _fun0002 }
  52:
-            zuuluu = michal.lastSeen;
-            michal = null;
-            entity = michal != zuuluu;
+            var3 = var2.lastSeen;
+            var2 = null;
+            var1 = var2 != var3;
  64:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isApprovedAndAcked'] = tangon;
-    michal = function(argFoo) { // Original name: isActionedAndNotAcked
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    var3['isApprovedAndAcked'] = var4;
+    var2 = function isActionedAndNotAcked(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            michal = argFoo;
-            tangon = _closure1_slot2;
-            zuuluu = michal.applicationStatus;
-            entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
-            if(!entity) { _fun00006_ip = 38; continue _fun00005 }
+            var2 = arg1;
+            var4 = _closure1_slot2;
+            var3 = var2.applicationStatus;
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            if(!var1) { _fun0003_ip = 38; continue _fun0003 }
  26:
-            zuuluu = michal.lastSeen;
-            michal = null;
-            entity = michal == zuuluu;
+            var3 = var2.lastSeen;
+            var2 = null;
+            var1 = var2 == var3;
  38:
-            return entity;
+            return var1;
         }
     };
-    zuuluu['isActionedAndNotAcked'] = michal;
-    return entity;
+    var3['isActionedAndNotAcked'] = var2;
+    return var1;
 })();

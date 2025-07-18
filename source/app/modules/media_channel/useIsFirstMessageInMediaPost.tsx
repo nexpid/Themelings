@@ -1,122 +1,122 @@
 // app/modules/media_channel/useIsFirstMessageInMediaPost.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
-    zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = option;
-    tangon = function(argFoo) { // Original name: isFirstMessageInMediaPost
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var7 = native2;
+    var9 = native3;
+    var3 = native6;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
+    var4 = function isFirstMessageInMediaPost(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            michal = argFoo;
-            entity = null;
-            entity = entity != michal;
-            if(!entity) { _fun00002_ip = 37; continue _fun00001 }
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0001_ip = 37; continue _fun0001 }
  12:
-            report = _closure1_slot5;
-            tangon = michal.id;
-            zuuluu = michal.channel_id;
-            michal = undefined;
-            entity = report.bind(michal)(tangon, zuuluu);
+            var5 = _closure1_slot5;
+            var4 = var2.id;
+            var3 = var2.channel_id;
+            var2 = undefined;
+            var1 = var5.bind(var2)(var4, var3);
  37:
-            return entity;
+            return var1;
         }
     };
-    var _closure1_slot4 = tangon;
-    michal = function(argFoo, argBar) { // Original name: isFirstMessageIdInMediaPost
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+    var _closure1_slot4 = var4;
+    var2 = function isFirstMessageIdInMediaPost(arg1, arg2) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            report = argBar;
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 2;
-            entity = michal[entity];
-            michal = undefined;
-            zuuluu = zuuluu.bind(michal)(entity);
-            entity = zuuluu.castChannelIdAsMessageId;
-            zuuluu = entity.bind(zuuluu)(report);
-            entity = argFoo;
-            if(!(entity === zuuluu)) { _fun00004_ip = 130; continue _fun00003 }
+            var5 = arg2;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var1 = var2[var1];
+            var2 = undefined;
+            var3 = var3.bind(var2)(var1);
+            var1 = var3.castChannelIdAsMessageId;
+            var3 = var1.bind(var3)(var5);
+            var1 = arg1;
+            if(!(var1 === var3)) { _fun0002_ip = 130; continue _fun0002 }
  46:
-            zuuluu = _closure1_slot3;
-            entity = zuuluu.getChannel;
-            zuuluu = entity.bind(zuuluu)(report);
-            entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 126; continue _fun00003 }
+            var3 = _closure1_slot3;
+            var1 = var3.getChannel;
+            var3 = var1.bind(var3)(var5);
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 126; continue _fun0002 }
  66:
-            report = zuuluu.isForumPost;
-            report = report.bind(zuuluu)();
-            if(!report) { _fun00004_ip = 126; continue _fun00003 }
+            var5 = var3.isForumPost;
+            var5 = var5.bind(var3)();
+            if(!var5) { _fun0002_ip = 126; continue _fun0002 }
  79:
-            report = _closure1_slot3;
-            tangon = report.getChannel;
-            zuuluu = zuuluu.parent_id;
-            zuuluu = tangon.bind(report)(zuuluu);
-            entity = entity == zuuluu;
-            michal = undefined;
-            if(entity) { _fun00004_ip = 118; continue _fun00003 }
+            var5 = _closure1_slot3;
+            var4 = var5.getChannel;
+            var3 = var3.parent_id;
+            var3 = var4.bind(var5)(var3);
+            var1 = var1 == var3;
+            var2 = undefined;
+            if(var1) { _fun0002_ip = 118; continue _fun0002 }
  108:
-            entity = zuuluu.isMediaChannel;
-            michal = entity.bind(zuuluu)();
+            var1 = var3.isMediaChannel;
+            var2 = var1.bind(var3)();
  118:
-            entity = true;
-            entity = entity === michal;
-            return entity;
+            var1 = true;
+            var1 = var1 === var2;
+            return var1;
  126:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
  130:
-            entity = false;
-            return entity;
+            var1 = false;
+            return var1;
         }
     };
-    var _closure1_slot5 = michal;
-    entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
-    entity = true;
-    oscard['value'] = entity;
-    entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
-    entity = 0;
-    oscard = option[entity];
-    entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/media_channel/useIsFirstMessageInMediaPost.tsx';
-    oscard = golfie.bind(option)(oscard);
-    report = function(argFoo) { // Original name: useIsFirstMessageInMediaPost
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
-        tangon = report.useStateFromStores;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = new Array(0);
-        entity = function() {
-            zuuluu = _closure1_slot4;
-            michal = _closure2_slot0;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
+    var _closure1_slot5 = var2;
+    var1 = global;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
+    var1 = true;
+    var6['value'] = var1;
+    var1 = '__esModule';
+    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = 0;
+    var6 = var8[var1];
+    var1 = undefined;
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/media_channel/useIsFirstMessageInMediaPost.tsx';
+    var6 = var7.bind(var8)(var6);
+    var5 = function useIsFirstMessageInMediaPost(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var3 = 1;
+        var4 = var4[var3];
+        var3 = undefined;
+        var5 = var5.bind(var3)(var4);
+        var4 = var5.useStateFromStores;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = new Array(0);
+        var1 = function() {
+            var3 = _closure1_slot4;
+            var2 = _closure2_slot0;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
-        entity = tangon.bind(report)(michal, entity, zuuluu);
-        return entity;
+        var1 = var4.bind(var5)(var2, var1, var3);
+        return var1;
     };
-    zuuluu['useIsFirstMessageInMediaPost'] = report;
-    zuuluu['isFirstMessageInMediaPost'] = tangon;
-    zuuluu['isFirstMessageIdInMediaPost'] = michal;
-    return entity;
+    var3['useIsFirstMessageInMediaPost'] = var5;
+    var3['isFirstMessageInMediaPost'] = var4;
+    var3['isFirstMessageIdInMediaPost'] = var2;
+    return var1;
 })();
